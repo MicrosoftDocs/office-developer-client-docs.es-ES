@@ -1,0 +1,86 @@
+---
+title: OpenIMsgSession
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.OpenIMsgSession
+api_type:
+- COM
+ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
+description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+ms.openlocfilehash: e7f652e7426792d8b4c878b7f6738439aec65348
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19818435"
+---
+# <a name="openimsgsession"></a><span data-ttu-id="0051b-103">OpenIMsgSession</span><span class="sxs-lookup"><span data-stu-id="0051b-103">OpenIMsgSession</span></span>
+
+  
+  
+<span data-ttu-id="0051b-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0051b-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="0051b-105">Crea y se abre una sesión de mensajería que agrupa los mensajes creados dentro de él.</span><span class="sxs-lookup"><span data-stu-id="0051b-105">Creates and opens a message session that groups the messages created within it.</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="0051b-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="0051b-106">Header file:</span></span>  <br/> |<span data-ttu-id="0051b-107">IMessage.h</span><span class="sxs-lookup"><span data-stu-id="0051b-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="0051b-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="0051b-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="0051b-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0051b-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="0051b-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="0051b-110">Called by:</span></span>  <br/> |<span data-ttu-id="0051b-111">Las aplicaciones cliente y los proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="0051b-111">Client applications and service providers</span></span>  <br/> |
+   
+```cpp
+SCODE OpenIMsgSession(
+  LPMALLOC lpMalloc,
+  ULONG ulFlags,
+  LPMSGSESS FAR * lppMsgSess
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="0051b-112">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0051b-112">Parameters</span></span>
+
+ <span data-ttu-id="0051b-113">_lpMalloc_</span><span class="sxs-lookup"><span data-stu-id="0051b-113">_lpMalloc_</span></span>
+  
+> <span data-ttu-id="0051b-114">[entrada] Puntero a un objeto del asignador de memoria exposición de la interfaz de OLE [IMalloc](http://msdn.microsoft.com/library/047f281e-2665-4d6d-9a0b-918cd3339447%28Office.15%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="0051b-114">[in] Pointer to a memory allocator object exposing the OLE [IMalloc](http://msdn.microsoft.com/library/047f281e-2665-4d6d-9a0b-918cd3339447%28Office.15%29.aspx) interface.</span></span> <span data-ttu-id="0051b-115">Debe usar este método de asignación al trabajar con la interfaz OLE [IStorage](http://msdn.microsoft.com/library/stg.istorage%28Office.15%29.aspx) MAPI.</span><span class="sxs-lookup"><span data-stu-id="0051b-115">MAPI needs to use this allocation method when working with the OLE [IStorage](http://msdn.microsoft.com/library/stg.istorage%28Office.15%29.aspx) interface.</span></span> 
+    
+ <span data-ttu-id="0051b-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0051b-116">_ulFlags_</span></span>
+  
+> <span data-ttu-id="0051b-117">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="0051b-117">[in] Reserved; must be zero.</span></span> 
+    
+ <span data-ttu-id="0051b-118">_lppMsgSess_</span><span class="sxs-lookup"><span data-stu-id="0051b-118">_lppMsgSess_</span></span>
+  
+> <span data-ttu-id="0051b-119">[out] Puntero a un puntero al objeto de sesión del mensaje devuelto.</span><span class="sxs-lookup"><span data-stu-id="0051b-119">[out] Pointer to a pointer to the returned message session object.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="0051b-120">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0051b-120">Return value</span></span>
+
+<span data-ttu-id="0051b-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="0051b-121">S_OK</span></span>
+  
+> <span data-ttu-id="0051b-122">Se abrió la sesión.</span><span class="sxs-lookup"><span data-stu-id="0051b-122">The session was opened.</span></span>
+    
+<span data-ttu-id="0051b-123">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="0051b-123">MAPI_E_INVALID_PARAMETER</span></span>
+  
+>  <span data-ttu-id="0051b-124">_lpMalloc_ o _lppMsgSess_ es NULL.</span><span class="sxs-lookup"><span data-stu-id="0051b-124">_lpMalloc_ or  _lppMsgSess_ is NULL.</span></span> 
+    
+<span data-ttu-id="0051b-125">MAPI_E_INVALID_FLAGS</span><span class="sxs-lookup"><span data-stu-id="0051b-125">MAPI_E_INVALID_FLAGS</span></span>
+  
+> <span data-ttu-id="0051b-126">Se pasaron indicadores no válidos.</span><span class="sxs-lookup"><span data-stu-id="0051b-126">Invalid flags were passed.</span></span>
+    
+<span data-ttu-id="0051b-127">MAPI_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="0051b-127">MAPI_UNICODE</span></span>
+  
+> <span data-ttu-id="0051b-128">Cuando se llama a esta función, un proveedor de servicio o cliente establece el indicador MAPI_UNICODE para crear archivos .msg de Unicode.</span><span class="sxs-lookup"><span data-stu-id="0051b-128">When calling this function, a client or service provider sets the MAPI_UNICODE flag to create Unicode .msg files.</span></span> <span data-ttu-id="0051b-129">El archivo [Imessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su PR_STORE_SUPPORT_MASK y es compatible con propiedades de Unicode.</span><span class="sxs-lookup"><span data-stu-id="0051b-129">The resulting [Imessage](imessageimapiprop.md) file shows STORE_UNICODE_OK in its PR_STORE_SUPPORT_MASK and supports Unicode properties.</span></span> 
+    
+## <a name="remarks"></a><span data-ttu-id="0051b-130">Notas</span><span class="sxs-lookup"><span data-stu-id="0051b-130">Remarks</span></span>
+
+<span data-ttu-id="0051b-131">Una sesión de mensajería se usa por las aplicaciones cliente y proveedores de servicios que desean para abordar los problemas con varios relacionados con MAPI [IMessage: IMAPIProp](imessageimapiprop.md) objetos fundamentan objetos OLE **IStorage** subyacentes.</span><span class="sxs-lookup"><span data-stu-id="0051b-131">A message session is used by client applications and service providers that want to deal with several related MAPI [IMessage : IMAPIProp](imessageimapiprop.md) objects built on top of underlying OLE **IStorage** objects.</span></span> <span data-ttu-id="0051b-132">El cliente o el proveedor utiliza las funciones **OpenIMsgSession** y [CloseIMsgSession](closeimsgsession.md) para ajustar la creación de este tipo de mensajes dentro de una sesión de mensajería.</span><span class="sxs-lookup"><span data-stu-id="0051b-132">The client or provider uses the **OpenIMsgSession** and [CloseIMsgSession](closeimsgsession.md) functions to wrap the creation of such messages inside a message session.</span></span> <span data-ttu-id="0051b-133">Una vez que se abre la sesión de mensajería, el cliente o el proveedor pasa un puntero a ella en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **IMessage**- en - objeto **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="0051b-133">Once the message session is opened, the client or provider passes a pointer to it in a call to [OpenIMsgOnIStg](openimsgonistg.md) to create a new **IMessage**-on- **IStorage** object.</span></span> 
+  
+<span data-ttu-id="0051b-134">Una sesión de mensajería realiza un seguimiento de todos los **IMessage**- en - objetos **IStorage** creados durante la duración de la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes.</span><span class="sxs-lookup"><span data-stu-id="0051b-134">A message session keeps track of all **IMessage**-on- **IStorage** objects created during the duration of the session, in addition to all the attachments and other properties of the messages.</span></span> <span data-ttu-id="0051b-135">Cuando un cliente o un proveedor de llamadas **CloseIMsgSession**, cierra todos estos objetos.</span><span class="sxs-lookup"><span data-stu-id="0051b-135">When a client or provider calls **CloseIMsgSession**, it closes all these objects.</span></span> <span data-ttu-id="0051b-136">Al llamar a **CloseIMsgSession** es la única forma de cerrar **IMessage**- en - objetos **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="0051b-136">Calling **CloseIMsgSession** is the only way to close **IMessage**-on- **IStorage** objects.</span></span> 
+  
+ <span data-ttu-id="0051b-137">**OpenIMsgSession** se usa en los clientes y proveedores que requieren la capacidad para manejar varios mensajes relacionados como objetos OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="0051b-137">**OpenIMsgSession** is used by clients and providers that require the ability to handle several related messages as OLE **IStorage** objects.</span></span> <span data-ttu-id="0051b-138">Si sólo hay un mensaje de este tipo esté abierto en un momento, no es necesario realizar un seguimiento de varios mensajes y no hay motivo para crear una sesión de mensajería con **OpenIMsgSession**.</span><span class="sxs-lookup"><span data-stu-id="0051b-138">If only one such message is to be open at a time, there is no need to track multiple messages and no reason to create a message session with **OpenIMsgSession**.</span></span> 
+  
+<span data-ttu-id="0051b-139">Debido a que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE.</span><span class="sxs-lookup"><span data-stu-id="0051b-139">Because it is dealing with an underlying OLE object, MAPI needs to use OLE memory allocation.</span></span> <span data-ttu-id="0051b-140">Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y asignación de memoria OLE, vea [OLE y la transferencia de datos](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span><span class="sxs-lookup"><span data-stu-id="0051b-140">For more information about OLE structured storage objects and OLE memory allocation, see [OLE and Data Transfer](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span></span> 
+  
+
