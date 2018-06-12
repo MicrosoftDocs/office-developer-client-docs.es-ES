@@ -1,0 +1,132 @@
+---
+title: IXPLogonSubmitMessage
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IXPLogon.SubmitMessage
+api_type:
+- COM
+ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
+description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+ms.openlocfilehash: 8a0b10596bdfdc1ea33f6d170ee1e021193d3788
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19818023"
+---
+# <a name="ixplogonsubmitmessage"></a><span data-ttu-id="995c9-103">IXPLogon::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="995c9-103">IXPLogon::SubmitMessage</span></span>
+
+  
+  
+<span data-ttu-id="995c9-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="995c9-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="995c9-105">Indica que la cola MAPI tiene un mensaje para el proveedor de transporte entregar.</span><span class="sxs-lookup"><span data-stu-id="995c9-105">Indicates that the MAPI spooler has a message for the transport provider to deliver.</span></span>
+  
+```cpp
+HRESULT SubmitMessage(
+  ULONG ulFlags,
+  LPMESSAGE lpMessage,
+  ULONG FAR * lpulMsgRef,
+  ULONG FAR * lpulReturnParm
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="995c9-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="995c9-106">Parameters</span></span>
+
+ <span data-ttu-id="995c9-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="995c9-107">_ulFlags_</span></span>
+  
+> <span data-ttu-id="995c9-108">[entrada] Una máscara de bits de indicadores que controla cómo se envía el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-108">[in] A bitmask of flags that controls how the message is submitted.</span></span> <span data-ttu-id="995c9-109">Se puede establecer la marca siguiente:</span><span class="sxs-lookup"><span data-stu-id="995c9-109">The following flag can be set:</span></span>
+    
+<span data-ttu-id="995c9-110">BEGIN_DEFERRED</span><span class="sxs-lookup"><span data-stu-id="995c9-110">BEGIN_DEFERRED</span></span> 
+  
+> <span data-ttu-id="995c9-111">La cola MAPI llama a un proveedor de transporte con un mensaje que anteriormente se difirió.</span><span class="sxs-lookup"><span data-stu-id="995c9-111">The MAPI spooler is calling a transport provider with a message that was previously deferred.</span></span> <span data-ttu-id="995c9-112">El identificador de entrada del mensaje es igual al que se difirió.</span><span class="sxs-lookup"><span data-stu-id="995c9-112">The entry identifier of the message is the same as when it was deferred.</span></span> <span data-ttu-id="995c9-113">El mensaje se difirió pasando su identificador de entrada a la cola MAPI mediante el método [SpoolerNotify](imapisupport-spoolernotify.md) con el indicador NOTIFY_SENTDEFERRED.</span><span class="sxs-lookup"><span data-stu-id="995c9-113">The message was deferred by passing its entry identifier back to the MAPI spooler by using the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method with the NOTIFY_SENTDEFERRED flag.</span></span> 
+    
+ <span data-ttu-id="995c9-114">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="995c9-114">_lpMessage_</span></span>
+  
+> <span data-ttu-id="995c9-115">[entrada] Un puntero a un objeto de mensaje (que representa el mensaje para entregar) que tiene permiso de lectura y escritura, que el proveedor de transporte que se usa para tener acceso y manipular ese mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-115">[in] A pointer to a message object (representing the message to deliver) that has read/write permission, which the transport provider uses to access and manipulate that message.</span></span> <span data-ttu-id="995c9-116">Este objeto sigue siendo válida hasta después de que el proveedor de transporte que se devuelve desde una llamada posterior al método [IXPLogon::EndMessage](ixplogon-endmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="995c9-116">This object remains valid until after the transport provider returns from a subsequent call to the [IXPLogon::EndMessage](ixplogon-endmessage.md) method.</span></span> 
+    
+ <span data-ttu-id="995c9-117">_lpulMsgRef_</span><span class="sxs-lookup"><span data-stu-id="995c9-117">_lpulMsgRef_</span></span>
+  
+> <span data-ttu-id="995c9-118">[out] Un puntero a una variable en el que el proveedor de transporte devuelve el valor de referencia asigna a este mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-118">[out] A pointer to a variable in which the transport provider returns the reference value it assigned to this message.</span></span> <span data-ttu-id="995c9-119">La cola MAPI pasa este valor de referencia en las llamadas posteriores para este mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-119">The MAPI spooler passes this reference value in subsequent calls for this message.</span></span> <span data-ttu-id="995c9-120">La cola MAPI inicializa el valor en 0 antes de devolverlo al proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="995c9-120">The MAPI spooler initializes the value to 0 before returning it to the transport provider.</span></span>
+    
+ <span data-ttu-id="995c9-121">_lpulReturnParm_</span><span class="sxs-lookup"><span data-stu-id="995c9-121">_lpulReturnParm_</span></span>
+  
+> <span data-ttu-id="995c9-122">[out] Un puntero a una variable que se corresponde con el valor de error MAPI_E_WAIT o MAPI_E_NETWORK_ERROR devuelto por **SubmitMessage**.</span><span class="sxs-lookup"><span data-stu-id="995c9-122">[out] A pointer to a variable that corresponds to the MAPI_E_WAIT or MAPI_E_NETWORK_ERROR error value returned by **SubmitMessage**.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="995c9-123">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="995c9-123">Return value</span></span>
+
+<span data-ttu-id="995c9-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="995c9-124">S_OK</span></span> 
+  
+> <span data-ttu-id="995c9-125">La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="995c9-125">The call succeeded and returned the expected value or values.</span></span>
+    
+<span data-ttu-id="995c9-126">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="995c9-126">MAPI_E_BUSY</span></span> 
+  
+> <span data-ttu-id="995c9-127">El proveedor de transporte no puede controlar el mensaje porque está realizando otra operación.</span><span class="sxs-lookup"><span data-stu-id="995c9-127">The transport provider cannot handle the message, because it is performing another operation.</span></span> <span data-ttu-id="995c9-128">Un proveedor debe usar el valor devuelto para indicar que se ha producido ningún procesamiento y que la cola MAPI no debe llamar a **EndMessage**.</span><span class="sxs-lookup"><span data-stu-id="995c9-128">A provider should use this return value to indicate that no processing occurred and that the MAPI spooler should not call **EndMessage**.</span></span> <span data-ttu-id="995c9-129">La cola MAPI se la llamada **SubmitMessage** a intentarlo más tarde.</span><span class="sxs-lookup"><span data-stu-id="995c9-129">The MAPI spooler will try the **SubmitMessage** call again later.</span></span> 
+    
+<span data-ttu-id="995c9-130">MAPI_E_CANCEL</span><span class="sxs-lookup"><span data-stu-id="995c9-130">MAPI_E_CANCEL</span></span> 
+  
+> <span data-ttu-id="995c9-131">Aunque el proveedor de transporte solicita que la cola MAPI volver a enviar el mensaje en una anterior llamada **SpoolerNotify** , se cambió el nombre de las condiciones y no se debe volver a enviar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-131">Although the transport provider requested that the MAPI spooler resubmit the message on a previous **SpoolerNotify** call, conditions have since changed, and the message should not be resent.</span></span> <span data-ttu-id="995c9-132">La cola MAPI se realizarán controlar algo más.</span><span class="sxs-lookup"><span data-stu-id="995c9-132">The MAPI spooler will go on to handle something else.</span></span> 
+    
+<span data-ttu-id="995c9-133">MAPI_E_NETWORK_ERROR</span><span class="sxs-lookup"><span data-stu-id="995c9-133">MAPI_E_NETWORK_ERROR</span></span> 
+  
+> <span data-ttu-id="995c9-134">Un error de red no se les permita la finalización correcta de la operación.</span><span class="sxs-lookup"><span data-stu-id="995c9-134">A network error prevented successful completion of the operation.</span></span> <span data-ttu-id="995c9-135">El parámetro _lpulReturnParm_ debe establecerse en el número de segundos que deberá transcurrir antes de que la cola MAPI vuelve a enviar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-135">The  _lpulReturnParm_ parameter should be set to the number of seconds that will elapse before the MAPI spooler resubmits the message.</span></span> 
+    
+<span data-ttu-id="995c9-136">MAPI_E_NOT_ME</span><span class="sxs-lookup"><span data-stu-id="995c9-136">MAPI_E_NOT_ME</span></span> 
+  
+> <span data-ttu-id="995c9-137">El proveedor de transporte no puede controlar este mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-137">The transport provider cannot handle this message.</span></span> <span data-ttu-id="995c9-138">La cola MAPI debe intentar encontrar a otro proveedor de transporte para el mismo.</span><span class="sxs-lookup"><span data-stu-id="995c9-138">The MAPI spooler should try to find another transport provider for it.</span></span> <span data-ttu-id="995c9-139">Un proveedor debe usar el valor devuelto para indicar que se ha producido ningún procesamiento y que la cola MAPI no debe llamar a **EndMessage**.</span><span class="sxs-lookup"><span data-stu-id="995c9-139">A provider should use this return value to indicate that no processing occurred and that the MAPI spooler should not call **EndMessage**.</span></span>
+    
+<span data-ttu-id="995c9-140">MAPI_E_WAIT</span><span class="sxs-lookup"><span data-stu-id="995c9-140">MAPI_E_WAIT</span></span> 
+  
+> <span data-ttu-id="995c9-141">Un problema temporal impide que el proveedor de transporte de controlar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-141">A temporary problem prevents the transport provider from handling the message.</span></span> <span data-ttu-id="995c9-142">El parámetro _lpulReturnParm_ debe establecerse en el número de segundos que deberá transcurrir antes de que la cola MAPI vuelve a enviar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-142">The  _lpulReturnParm_ parameter should be set to the number of seconds that will elapse before the MAPI spooler resubmits the message.</span></span> 
+    
+## <a name="remarks"></a><span data-ttu-id="995c9-143">Notas</span><span class="sxs-lookup"><span data-stu-id="995c9-143">Remarks</span></span>
+
+<span data-ttu-id="995c9-144">La cola MAPI llama al método de **IXPLogon::SubmitMessage** cuando tiene un mensaje para el proveedor de transporte entregar.</span><span class="sxs-lookup"><span data-stu-id="995c9-144">The MAPI spooler calls the **IXPLogon::SubmitMessage** method when it has a message for the transport provider to deliver.</span></span> <span data-ttu-id="995c9-145">El mensaje se pasa al proveedor de transporte mediante el parámetro _lpMessage_ .</span><span class="sxs-lookup"><span data-stu-id="995c9-145">The message is passed to the transport provider by using the  _lpMessage_ parameter.</span></span> 
+  
+<span data-ttu-id="995c9-146">Si el proveedor está listo para aceptar el mensaje, debe devolver un valor de referencia con el parámetro _lpulMsgRef_ , el objeto pasado, de proceso y devolver el valor apropiado (normalmente S_OK).</span><span class="sxs-lookup"><span data-stu-id="995c9-146">If the provider is ready to accept the message, it should return a reference value by using the  _lpulMsgRef_ parameter, process the passed object, and return the appropriate value (usually S_OK).</span></span> <span data-ttu-id="995c9-147">Si el proveedor no está preparado para controlar a la transferencia, debe devolver un valor de error y, opcionalmente, MAPI otro valor devuelto en _lpulReturnParm_ para indicar cuánto tiempo debe esperar la cola MAPI antes de volver a enviar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-147">If the provider is not prepared to handle the transfer, it should return an error value and, optionally, another MAPI return value in  _lpulReturnParm_ to indicate how long the MAPI spooler should wait before resubmitting the message.</span></span> 
+  
+<span data-ttu-id="995c9-148">Implementación del proveedor de transporte de este método puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="995c9-148">A transport provider's implementation of this method can do the following:</span></span>
+  
+- <span data-ttu-id="995c9-149">Poner el mensaje en una cola interna que se debe esperar para la transmisión, copiar, posiblemente, el mensaje al almacenamiento local y devolver.</span><span class="sxs-lookup"><span data-stu-id="995c9-149">Put the message into an internal queue to wait for transmission, possibly copying the message to local storage, and return.</span></span>
+    
+- <span data-ttu-id="995c9-150">Intente realizar la transmisión real y devolver una vez completada la transmisión, correctamente o no.</span><span class="sxs-lookup"><span data-stu-id="995c9-150">Attempt to perform the actual transmission and return when the transmission completes, either successfully or unsuccessfully.</span></span>
+    
+- <span data-ttu-id="995c9-151">Determine si desea enviar el mensaje después de comprobar los recursos necesarios para.</span><span class="sxs-lookup"><span data-stu-id="995c9-151">Determine whether to send the message after checking the resource involved.</span></span> <span data-ttu-id="995c9-152">En este caso, si el recurso es gratuito, el proveedor puede bloquear el recurso, preparar el mensaje y enviarlo.</span><span class="sxs-lookup"><span data-stu-id="995c9-152">In this case, if the resource is free, the provider can lock the resource, prepare the message, and submit it.</span></span> <span data-ttu-id="995c9-153">Si el recurso no está disponible, el proveedor puede preparar el mensaje y aplazar el envío a un momento posterior.</span><span class="sxs-lookup"><span data-stu-id="995c9-153">If the resource is busy, the provider can prepare the message and defer sending to a later time.</span></span>
+    
+<span data-ttu-id="995c9-154">La técnica preferida para la transmisión de mensajes depende del proveedor de transporte y el número esperado de procesos compiten por los recursos del sistema.</span><span class="sxs-lookup"><span data-stu-id="995c9-154">The preferred technique for message transmission depends on the transport provider and the expected number of processes competing for system resources.</span></span> 
+  
+<span data-ttu-id="995c9-155">Durante una llamada **SubmitMessage** , el proveedor de transporte controla a la transferencia de datos de los mensajes desde el objeto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-155">During a **SubmitMessage** call, the transport provider controls the transfer of message data from the message object.</span></span> <span data-ttu-id="995c9-156">Sin embargo, el proveedor de transporte debe asignar un valor de referencia para el mensaje, a la que devuelve un puntero en _lpulMsgRef_, antes de transferir los datos.</span><span class="sxs-lookup"><span data-stu-id="995c9-156">However, the transport provider should assign a reference value to the message, to which it returns a pointer in  _lpulMsgRef_, before transferring data.</span></span> <span data-ttu-id="995c9-157">Se lo debido a que en cualquier momento durante el proceso, la cola MAPI puede llamar al método [IXPLogon::TransportNotify](ixplogon-transportnotify.md) con la marca NOTIFY_CANCEL_MESSAGE establecer para señalar al proveedor que debe liberar todos los objetos abiertos y detener la transferencia de mensajes.</span><span class="sxs-lookup"><span data-stu-id="995c9-157">It does so because at any point during the process, the MAPI spooler can call the [IXPLogon::TransportNotify](ixplogon-transportnotify.md) method with the NOTIFY_CANCEL_MESSAGE flag set to signal the provider that it should release any open objects and stop message transfer.</span></span> 
+  
+<span data-ttu-id="995c9-158">El proveedor de transporte no debe enviar las propiedades nontransmittable del mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-158">The transport provider should not send any nontransmittable properties of the message.</span></span> <span data-ttu-id="995c9-159">Cuando se encuentre este tipo de propiedad, debe ir procesar la siguiente propiedad.</span><span class="sxs-lookup"><span data-stu-id="995c9-159">When it finds such a property, it should go on to process the next property.</span></span> <span data-ttu-id="995c9-160">El proveedor debe realizar todos los esfuerzos no se muestre información del destinatario MAPI_P1 como parte del contenido del mensaje transmitido; el proveedor debe usar esta información de destinatarios sólo para hacer frente a fines.</span><span class="sxs-lookup"><span data-stu-id="995c9-160">The provider should make every effort not to display MAPI_P1 recipient information as part of the transmitted message content; the provider should use this recipient information only for addressing purposes.</span></span> <span data-ttu-id="995c9-161">Destinatarios de MAPI_P1 son los destinatarios generados internamente que se usan para volver a enviar mensajes; no debe ser transmitidos.</span><span class="sxs-lookup"><span data-stu-id="995c9-161">MAPI_P1 recipients are internally generated recipients that are used for resending messages; they should not be transmitted.</span></span> <span data-ttu-id="995c9-162">En su lugar, use los otros destinatarios para transmitir información del destinatario.</span><span class="sxs-lookup"><span data-stu-id="995c9-162">Instead, use the other recipients for transmitting recipient information.</span></span> <span data-ttu-id="995c9-163">El propósito de este tipo de organización es permitir que los destinatarios de reenvío para ver la tabla de destinatarios misma exacta que los destinatarios originales.</span><span class="sxs-lookup"><span data-stu-id="995c9-163">The purpose of this arrangement is to permit resend recipients to see the exact same recipient table as the original recipients.</span></span>
+  
+<span data-ttu-id="995c9-164">Durante una llamada **SubmitMessage** , la cola MAPI procesa los métodos para los objetos que se abren durante la transferencia del mensaje y procesa los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="995c9-164">During a **SubmitMessage** call, the MAPI spooler processes methods for objects that are opened during the transfer of the message, and it processes any attachments.</span></span> <span data-ttu-id="995c9-165">Este proceso puede tardar mucho tiempo.</span><span class="sxs-lookup"><span data-stu-id="995c9-165">This processing can take a long time.</span></span> <span data-ttu-id="995c9-166">Los proveedores de transporte pueden llamar al método [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) para la cola MAPI con frecuencia durante este proceso para liberar el tiempo de CPU para otras tareas del sistema.</span><span class="sxs-lookup"><span data-stu-id="995c9-166">Transport providers can call the [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) method for the MAPI spooler frequently during this processing to release CPU time for other system tasks.</span></span> 
+  
+<span data-ttu-id="995c9-167">Todos los destinatarios del mensaje son visibles en la tabla de destinatarios del mensaje que se pasó originalmente la cola de MAPI.</span><span class="sxs-lookup"><span data-stu-id="995c9-167">All message recipients are visible in the recipient table of the message that the MAPI spooler originally passed.</span></span> <span data-ttu-id="995c9-168">El proveedor de transporte debe procesar solo aquellos destinatarios que pueden controlar — según el identificador de entrada, el tipo de dirección o ambos — y que aún no tiene su propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) establecida en TRUE.</span><span class="sxs-lookup"><span data-stu-id="995c9-168">The transport provider should process only those recipients that it can handle — based on entry identifier, address type, or both — and that do not already have their **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property set to TRUE.</span></span> <span data-ttu-id="995c9-169">Si **PR_RESPONSIBILITY** ya está establecida en TRUE, otro proveedor de transporte ha controlado a que el destinatario.</span><span class="sxs-lookup"><span data-stu-id="995c9-169">If **PR_RESPONSIBILITY** is already set to TRUE, another transport provider has handled that recipient.</span></span> <span data-ttu-id="995c9-170">Cuando el proveedor complete el procesamiento suficiente de un destinatario para determinar si pueden administrar los mensajes para que el destinatario, debe establecer propiedad de ese destinatario **PR_RESPONSIBILITY** en TRUE en el mensaje pasado.</span><span class="sxs-lookup"><span data-stu-id="995c9-170">When the provider completes sufficient processing of a recipient to determine whether it can handle messages for that recipient, it should set that recipient's **PR_RESPONSIBILITY** property to TRUE in the passed message.</span></span> <span data-ttu-id="995c9-171">Normalmente, el proveedor realiza esta determinación una vez finalizada la entrega del mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-171">Usually, the provider makes this determination after message delivery is complete.</span></span> 
+  
+<span data-ttu-id="995c9-172">Normalmente, el proveedor de transporte no devuelve desde una llamada de **SubmitMessage** hasta que se complete a la transferencia de datos de mensaje.</span><span class="sxs-lookup"><span data-stu-id="995c9-172">Typically, the transport provider does not return from a **SubmitMessage** call until it completes the transfer of message data.</span></span> <span data-ttu-id="995c9-173">Si se devuelve ningún error, la siguiente llamada desde la cola de MAPI para el proveedor es una llamada al método [IXPLogon::EndMessage](ixplogon-endmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="995c9-173">If no error is returned, the next call from the MAPI spooler to the provider is a call to the [IXPLogon::EndMessage](ixplogon-endmessage.md) method.</span></span> 
+  
+<span data-ttu-id="995c9-174">Si **SubmitMessage** devuelve un error, la cola MAPI libera el mensaje en proceso sin guardar los cambios.</span><span class="sxs-lookup"><span data-stu-id="995c9-174">If **SubmitMessage** returns an error, the MAPI spooler releases the message in process without saving changes.</span></span> <span data-ttu-id="995c9-175">Si el proveedor de transporte requiere que los cambios de mensaje que se guarde, debe llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) en el mensaje antes de devolver.</span><span class="sxs-lookup"><span data-stu-id="995c9-175">If the transport provider requires message changes to be saved, it must call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method on the message before returning.</span></span> 
+  
+<span data-ttu-id="995c9-176">En el caso de errores que se producen debido a problemas de transporte, la cola MAPI conserva el mensaje, pero retrasa el volver a enviar el mensaje para el proveedor de transporte basándose en el valor devuelto en _lpulReturnParm_.</span><span class="sxs-lookup"><span data-stu-id="995c9-176">In case of errors that occur because of transport problems, the MAPI spooler retains the message, but it delays resubmitting the message to the transport provider based on the value returned in  _lpulReturnParm_.</span></span> <span data-ttu-id="995c9-177">Si su valor devuelto desde **SubmitMessage** es MAPI_E_WAIT o MAPI_E_NETWORK_ERROR, debe rellenar el proveedor de transporte en ese valor.</span><span class="sxs-lookup"><span data-stu-id="995c9-177">The transport provider must fill in that value if its return value from **SubmitMessage** is MAPI_E_WAIT or MAPI_E_NETWORK_ERROR.</span></span> <span data-ttu-id="995c9-178">Si se produce una condición de error grave, el proveedor de transporte debe llamar al método [SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_CRITICAL_ERROR.</span><span class="sxs-lookup"><span data-stu-id="995c9-178">If a severe error condition occurs, the transport provider must call the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method with the NOTIFY_CRITICAL_ERROR flag.</span></span> 
+  
+## <a name="see-also"></a><span data-ttu-id="995c9-179">Ver también</span><span class="sxs-lookup"><span data-stu-id="995c9-179">See also</span></span>
+
+
+
+[<span data-ttu-id="995c9-180">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="995c9-180">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
+  
+[<span data-ttu-id="995c9-181">SpoolerNotify</span><span class="sxs-lookup"><span data-stu-id="995c9-181">IMAPISupport::SpoolerNotify</span></span>](imapisupport-spoolernotify.md)
+  
+[<span data-ttu-id="995c9-182">IMAPISupport::SpoolerYield</span><span class="sxs-lookup"><span data-stu-id="995c9-182">IMAPISupport::SpoolerYield</span></span>](imapisupport-spooleryield.md)
+  
+[<span data-ttu-id="995c9-183">IXPLogon::EndMessage</span><span class="sxs-lookup"><span data-stu-id="995c9-183">IXPLogon::EndMessage</span></span>](ixplogon-endmessage.md)
+  
+[<span data-ttu-id="995c9-184">IXPLogon::TransportNotify</span><span class="sxs-lookup"><span data-stu-id="995c9-184">IXPLogon::TransportNotify</span></span>](ixplogon-transportnotify.md)
+  
+[<span data-ttu-id="995c9-185">IXPLogon: IUnknown</span><span class="sxs-lookup"><span data-stu-id="995c9-185">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
+
