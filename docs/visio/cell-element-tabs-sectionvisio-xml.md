@@ -1,0 +1,72 @@
+---
+title: Elemento de celda (sección de tabulaciones) ('XML de Visio')
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
+description: Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.
+ms.openlocfilehash: da2fb31688227180bb38a4366c3293a2e16600c8
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19821736"
+---
+# <a name="cell-element-tabs-section-visio-xml"></a><span data-ttu-id="72dc3-103">Elemento de celda (sección de tabulaciones) ('XML de Visio')</span><span class="sxs-lookup"><span data-stu-id="72dc3-103">Cell element (Tabs Section) ('Visio XML')</span></span>
+
+<span data-ttu-id="72dc3-104">Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.</span><span class="sxs-lookup"><span data-stu-id="72dc3-104">Specifies a property that controls shape and style tab stop position or alignment.</span></span> 
+  
+## <a name="element-information"></a><span data-ttu-id="72dc3-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="72dc3-105">Element information</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="72dc3-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="72dc3-106">**Element type**</span></span> <br/> |[<span data-ttu-id="72dc3-107">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="72dc3-107">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="72dc3-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="72dc3-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="72dc3-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="72dc3-109">**Schema file**</span></span> <br/> |<span data-ttu-id="72dc3-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="72dc3-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="72dc3-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="72dc3-111">**Document parts**</span></span> <br/> |<span data-ttu-id="72dc3-112">Document.XML, master # .xml, # .xml de página</span><span class="sxs-lookup"><span data-stu-id="72dc3-112">document.xml, master#.xml, page#.xml</span></span>  <br/> |
+   
+## <a name="definition"></a><span data-ttu-id="72dc3-113">Definición</span><span class="sxs-lookup"><span data-stu-id="72dc3-113">Definition</span></span>
+
+```XML
+< xs:element name="Cell" type="Cell_Type" minOccurs="0" maxOccurs="unbounded" >
+</xs:element >
+```
+
+## <a name="elements-and-attributes"></a><span data-ttu-id="72dc3-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="72dc3-114">Elements and attributes</span></span>
+
+<span data-ttu-id="72dc3-115">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="72dc3-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+  
+### <a name="parent-elements"></a><span data-ttu-id="72dc3-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="72dc3-116">Parent elements</span></span>
+
+|<span data-ttu-id="72dc3-117">**Element**</span><span class="sxs-lookup"><span data-stu-id="72dc3-117">**Element**</span></span>|<span data-ttu-id="72dc3-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="72dc3-118">**Type**</span></span>|<span data-ttu-id="72dc3-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="72dc3-119">**Description**</span></span>|
+|:-----|:-----|:-----|
+|[<span data-ttu-id="72dc3-120">Elemento Row (sección de tabulaciones)</span><span class="sxs-lookup"><span data-stu-id="72dc3-120">Row element (Tabs Section)</span></span>](row-element-tabs-sectionvisio-xml.md) <br/> |[<span data-ttu-id="72dc3-121">TabsRow_Type</span><span class="sxs-lookup"><span data-stu-id="72dc3-121">TabsRow_Type</span></span>](tabsrow_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="72dc3-122">Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.</span><span class="sxs-lookup"><span data-stu-id="72dc3-122">Specifies a property that controls shape and style tab stop position or alignment.</span></span>  <br/> |
+   
+### <a name="child-elements"></a><span data-ttu-id="72dc3-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="72dc3-123">Child elements</span></span>
+
+|<span data-ttu-id="72dc3-124">**Element**</span><span class="sxs-lookup"><span data-stu-id="72dc3-124">**Element**</span></span>|<span data-ttu-id="72dc3-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="72dc3-125">**Type**</span></span>|<span data-ttu-id="72dc3-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="72dc3-126">**Description**</span></span>|
+|:-----|:-----|:-----|
+|[<span data-ttu-id="72dc3-127">RefBy</span><span class="sxs-lookup"><span data-stu-id="72dc3-127">RefBy</span></span>](refby-element-cell_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="72dc3-128">RefBy_Type</span><span class="sxs-lookup"><span data-stu-id="72dc3-128">RefBy_Type</span></span>](refby_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="72dc3-129">Especifica una referencia a una página de dibujo.</span><span class="sxs-lookup"><span data-stu-id="72dc3-129">Specifies a reference to a drawing page.</span></span>  <br/> |
+   
+### <a name="attributes"></a><span data-ttu-id="72dc3-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="72dc3-130">Attributes</span></span>
+
+|<span data-ttu-id="72dc3-131">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="72dc3-131">**Attribute**</span></span>|<span data-ttu-id="72dc3-132">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="72dc3-132">**Type**</span></span>|<span data-ttu-id="72dc3-133">**Obligatorio**</span><span class="sxs-lookup"><span data-stu-id="72dc3-133">**Required**</span></span>|<span data-ttu-id="72dc3-134">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="72dc3-134">**Description**</span></span>|<span data-ttu-id="72dc3-135">**Valores posibles**</span><span class="sxs-lookup"><span data-stu-id="72dc3-135">**Possible values**</span></span>|
+|:-----|:-----|:-----|:-----|:-----|
+|<span data-ttu-id="72dc3-136">E</span><span class="sxs-lookup"><span data-stu-id="72dc3-136">E</span></span>  <br/> |<span data-ttu-id="72dc3-137">xsd: String</span><span class="sxs-lookup"><span data-stu-id="72dc3-137">xsd:string</span></span>  <br/> |<span data-ttu-id="72dc3-138">opcional</span><span class="sxs-lookup"><span data-stu-id="72dc3-138">optional</span></span>  <br/> |<span data-ttu-id="72dc3-139">Indica que la fórmula da como resultado un error.</span><span class="sxs-lookup"><span data-stu-id="72dc3-139">Indicates that the formula evaluates to an error.</span></span> <span data-ttu-id="72dc3-140">El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.</span><span class="sxs-lookup"><span data-stu-id="72dc3-140">The value of **E** is the current value (an error message string); the value of the **V** attribute is the last valid value.</span></span>  <br/> |<span data-ttu-id="72dc3-141">Una cadena de mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="72dc3-141">An error message string.</span></span>  <br/> |
+|<span data-ttu-id="72dc3-142">F</span><span class="sxs-lookup"><span data-stu-id="72dc3-142">F</span></span>  <br/> |<span data-ttu-id="72dc3-143">xsd: String</span><span class="sxs-lookup"><span data-stu-id="72dc3-143">xsd:string</span></span>  <br/> |<span data-ttu-id="72dc3-144">opcional</span><span class="sxs-lookup"><span data-stu-id="72dc3-144">optional</span></span>  <br/> | <span data-ttu-id="72dc3-145">Representa la fórmula del elemento.</span><span class="sxs-lookup"><span data-stu-id="72dc3-145">Represents the element's formula.</span></span> <span data-ttu-id="72dc3-146">Este atributo puede contener uno de las siguientes cadenas:</span><span class="sxs-lookup"><span data-stu-id="72dc3-146">This attribute can contain one of the following strings:</span></span>  <br/>  <span data-ttu-id="72dc3-147">'(algunos fórmula)' Si la fórmula existe localmente</span><span class="sxs-lookup"><span data-stu-id="72dc3-147">'(some formula)' if the formula exists locally</span></span>  <br/>  <span data-ttu-id="72dc3-148">`No Formula`Si la fórmula se ha eliminado localmente o bloqueada</span><span class="sxs-lookup"><span data-stu-id="72dc3-148">`No Formula` if the formula is locally deleted or blocked</span></span>  <br/>  <span data-ttu-id="72dc3-149">`Inh`Si la fórmula es heredada.</span><span class="sxs-lookup"><span data-stu-id="72dc3-149">`Inh` if the formula is inherited.</span></span>  <br/> |<span data-ttu-id="72dc3-150">Una fórmula.</span><span class="sxs-lookup"><span data-stu-id="72dc3-150">A formula.</span></span>  <br/> |
+|<span data-ttu-id="72dc3-151">N</span><span class="sxs-lookup"><span data-stu-id="72dc3-151">N</span></span>  <br/> |<span data-ttu-id="72dc3-152">xsd: String</span><span class="sxs-lookup"><span data-stu-id="72dc3-152">xsd:string</span></span>  <br/> |<span data-ttu-id="72dc3-153">necesario</span><span class="sxs-lookup"><span data-stu-id="72dc3-153">required</span></span>  <br/> |<span data-ttu-id="72dc3-154">Representa el nombre de la celda ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="72dc3-154">Represents the name of the ShapeSheet cell.</span></span>  <br/> |<span data-ttu-id="72dc3-155">El nombre de la celda ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="72dc3-155">The name of the ShapeSheet cell.</span></span>  <br/> <span data-ttu-id="72dc3-156">Vea la sección comentarios que aparece a continuación.</span><span class="sxs-lookup"><span data-stu-id="72dc3-156">See the Remarks section below.</span></span>  <br/> |
+|<span data-ttu-id="72dc3-157">U</span><span class="sxs-lookup"><span data-stu-id="72dc3-157">U</span></span>  <br/> |<span data-ttu-id="72dc3-158">xsd: String</span><span class="sxs-lookup"><span data-stu-id="72dc3-158">xsd:string</span></span>  <br/> |<span data-ttu-id="72dc3-159">opcional</span><span class="sxs-lookup"><span data-stu-id="72dc3-159">optional</span></span>  <br/> |<span data-ttu-id="72dc3-160">Representa una unidad de medida, el valor predeterminado es DL.</span><span class="sxs-lookup"><span data-stu-id="72dc3-160">Represents a unit of measure The default is DL.</span></span>  <br/> |<span data-ttu-id="72dc3-161">Las unidades de la celda.</span><span class="sxs-lookup"><span data-stu-id="72dc3-161">The units of the cell.</span></span>  <br/> |
+|<span data-ttu-id="72dc3-162">V</span><span class="sxs-lookup"><span data-stu-id="72dc3-162">V</span></span>  <br/> |<span data-ttu-id="72dc3-163">xsd: String</span><span class="sxs-lookup"><span data-stu-id="72dc3-163">xsd:string</span></span>  <br/> |<span data-ttu-id="72dc3-164">opcional</span><span class="sxs-lookup"><span data-stu-id="72dc3-164">optional</span></span>  <br/> |<span data-ttu-id="72dc3-165">Representa el valor de la celda.</span><span class="sxs-lookup"><span data-stu-id="72dc3-165">Represents the value of the cell.</span></span>  <br/> |<span data-ttu-id="72dc3-166">El valor de la celda ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="72dc3-166">The value of the ShapeSheet cell.</span></span>  <br/> |
+   
+## <a name="remarks"></a><span data-ttu-id="72dc3-167">Notas</span><span class="sxs-lookup"><span data-stu-id="72dc3-167">Remarks</span></span>
+
+<span data-ttu-id="72dc3-168">El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="72dc3-168">The **N** attribute of this **Cell** element must be one of a limited set of values that correspond to ShapeSheet cells.</span></span> <span data-ttu-id="72dc3-169">Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** .</span><span class="sxs-lookup"><span data-stu-id="72dc3-169">Refer to the table below to determine the values of the **N** attribute that are permitted for this **Cell** element.</span></span> 
+  
+|<span data-ttu-id="72dc3-170">**Valor**</span><span class="sxs-lookup"><span data-stu-id="72dc3-170">**Value**</span></span>|<span data-ttu-id="72dc3-171">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="72dc3-171">**Description**</span></span>|<span data-ttu-id="72dc3-172">**Obtener más información**</span><span class="sxs-lookup"><span data-stu-id="72dc3-172">**More information**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="72dc3-173">Alineación</span><span class="sxs-lookup"><span data-stu-id="72dc3-173">Alignment</span></span>  <br/> |<span data-ttu-id="72dc3-174">Especifica la alineación de las tabulaciones.</span><span class="sxs-lookup"><span data-stu-id="72dc3-174">Specifies the tab alignment.</span></span>  <br/> |[<span data-ttu-id="72dc3-175">Celda Alignment (Sección de tabulaciones)</span><span class="sxs-lookup"><span data-stu-id="72dc3-175">Alignment Cell (Tabs Section)</span></span>](alignment-cell-tabs-section.md) <br/> |
+|<span data-ttu-id="72dc3-176">Posición</span><span class="sxs-lookup"><span data-stu-id="72dc3-176">Position</span></span>  <br/> |<span data-ttu-id="72dc3-p104">Especifica la posición de una tabulación. La posición de tabulación no depende de la escala del dibujo. Si se cambia la escala, la posición de tabulación permanece igual.</span><span class="sxs-lookup"><span data-stu-id="72dc3-p104">Specifies the position of a tab stop. The tab position is independent of the scale of the drawing. If the drawing is scaled, the tab position remains the same.</span></span>  <br/> |[<span data-ttu-id="72dc3-180">Celda Position (Sección de tabulaciones)</span><span class="sxs-lookup"><span data-stu-id="72dc3-180">Position Cell (Tabs Section)</span></span>](position-cell-tabs-section.md) <br/> |
+   
+

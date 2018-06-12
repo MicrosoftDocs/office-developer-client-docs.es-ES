@@ -1,0 +1,29 @@
+---
+title: ISocialProfileSetStatus
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 34fe2a35-6fb2-4c18-88f3-0edbb19716f1
+description: Este método no se admite actualmente.
+ms.openlocfilehash: 8640c3bf3d5db75e68baa38868a0f281d47b2126
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19821123"
+---
+# <a name="isocialprofilesetstatus"></a><span data-ttu-id="c7ac0-103">ISocialProfile::SetStatus</span><span class="sxs-lookup"><span data-stu-id="c7ac0-103">ISocialProfile::SetStatus</span></span>
+
+<span data-ttu-id="c7ac0-104">Este método no se admite actualmente.</span><span class="sxs-lookup"><span data-stu-id="c7ac0-104">This method is currently not supported.</span></span> 
+  
+```cpp
+HRESULT _stdcall SetStatus(BSTR status);
+```
+
+## <a name="see-also"></a><span data-ttu-id="c7ac0-105">Ver también</span><span class="sxs-lookup"><span data-stu-id="c7ac0-105">See also</span></span>
+
+- [<span data-ttu-id="c7ac0-106">ISocialProfile: ISocialPerson</span><span class="sxs-lookup"><span data-stu-id="c7ac0-106">ISocialProfile : ISocialPerson</span></span>](isocialprofileisocialperson.md)
+
