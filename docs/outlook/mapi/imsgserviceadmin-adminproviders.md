@@ -1,0 +1,100 @@
+---
+title: IMsgServiceAdminAdminProviders
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMsgServiceAdmin.AdminProviders
+api_type:
+- COM
+ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
+description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+ms.openlocfilehash: 9b65c8e32580fa85302b874bd17c1829ad67fd63
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19817728"
+---
+# <a name="imsgserviceadminadminproviders"></a>IMsgServiceAdmin::AdminProviders
+
+  
+  
+**Se aplica a**: Outlook 
+  
+Devuelve un puntero que proporciona acceso a un objeto de administración del proveedor.
+  
+```cpp
+HRESULT AdminProviders(
+  LPMAPIUID lpUID,
+  ULONG ulFlags,
+  LPPROVIDERADMIN FAR * lppProviderAdmin
+);
+```
+
+## <a name="parameters"></a>Sintaxis
+
+ _lpUID_
+  
+> [entrada] Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para el servicio de mensajes que van a administrar. 
+    
+ _ulFlags_
+  
+> [entrada] Siempre es NULL. 
+    
+ _lppProviderAdmin_
+  
+> [out] Un puntero a un puntero a un objeto de administración del proveedor.
+    
+## <a name="return-value"></a>Valor devuelto
+
+S_OK 
+  
+> El objeto de proveedor de administración se devolvió correctamente.
+    
+MAPI_E_NOT_FOUND 
+  
+> El **MAPIUID** que señala _lpUID_ no existe. 
+    
+## <a name="remarks"></a>Notas
+
+El método **IMsgServiceAdmin::AdminProviders** proporciona acceso a un objeto de administración del proveedor. Administración de un proveedor es un objeto que admite la interfaz [IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
+  
+- Agregar proveedores de servicios a un servicio de mensajes.
+    
+- Eliminar proveedores de servicios de un servicio de mensajes.
+    
+- Abra las secciones del perfil.
+    
+- Obtener acceso a la tabla de proveedor de servicios de mensaje.
+    
+Los tipos de cambios que realmente se pueden establecer con un servicio de mensajes mientras el perfil está en uso dependen del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensaje no admiten los cambios, como agregar y eliminar proveedores mientras el perfil está en uso.
+  
+## <a name="notes-to-callers"></a>Notas para los llamadores
+
+Para recuperar la estructura **MAPIUID** para el servicio de mensajes administrar, recuperar la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensaje. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin::](imsgserviceadmin-createmsgservice.md) . 
+  
+## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+
+MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+  
+|**Archivo**|**Funci�n**|**Comentario**|
+|:-----|:-----|:-----|
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI utiliza el método **IMsgServiceAdmin::AdminProviders** para abrir un objeto de administración del proveedor para un servicio.  <br/> |
+   
+## <a name="see-also"></a>Ver también
+
+
+
+[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+  
+[MAPIUID](mapiuid.md)
+  
+[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+
+
+[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+

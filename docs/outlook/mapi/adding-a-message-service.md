@@ -1,0 +1,42 @@
+---
+title: Adición de un servicio de mensajes
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
+description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+ms.openlocfilehash: a7735be5cfb8ff0716b6bd6eba4951563bb938ab
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19816380"
+---
+# <a name="adding-a-message-service"></a>Adición de un servicio de mensajes
+
+  
+  
+**Se aplica a**: Outlook 
+  
+ **Para agregar un nuevo servicio de mensajes a un perfil y tener acceso al servicio de mensaje nuevo**
+  
+Llame a [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx** realiza las tareas siguientes: 
+  
+1. Copia toda la información relevante para el servicio de mensajes que se encuentra en el archivo MAPISVC. Archivo INF, creación de una sección de perfil para cada sección del proveedor.
+    
+2. Llamadas de función de punto de entrada del servicio de mensajes, **MSGSERVICEENTRY**, con el parámetro _ulContext_ establecido en MSG_SERVICE_CREATE. 
+    
+3. Establece y recupera la propiedad de **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) del servicio de mensajes.
+    
+ **Para tener acceso a cualquier servicio de mensajes recién agregado**
+  
+1. Llame a [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para recuperar la tabla de mensajes de servicio. 
+    
+2. Llamar al método [IMAPITable::Advise](imapitable-advise.md) de la tabla de servicio de mensaje para registrar para las notificaciones de tabla. 
+    
+3. Cuando MAPI envía una notificación de TABLE_ROW_ADDED, busque el identificador de entrada del servicio de mensajes recién agregada en la estructura de [SRow](srow.md) incluida en la estructura [TABLE_NOTIFICATION](table_notification.md) . 
+    
+
