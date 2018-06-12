@@ -1,0 +1,32 @@
+---
+title: LUMDIFF (función)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: 6a79f124-20a2-e119-4c58-25da99ecc555
+description: Devuelve la diferencia de luminosidad entre color1 y color2.
+ms.openlocfilehash: 032c1f40e1d33388404f4015740a382271fa8a6b
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19822594"
+---
+# <a name="lumdiff-function"></a>LUMDIFF (función)
+
+Devuelve la diferencia de luminosidad entre *color1* y *color2* . 
+  
+## <a name="syntax"></a>Sintaxis
+
+LUMDIFF (** *color1* **, ** *color2* **) 
+  
+### <a name="parameters"></a>Sintaxis
+
+|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|:-----|:-----|:-----|:-----|
+| _color1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
+| _color2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
+   
+
