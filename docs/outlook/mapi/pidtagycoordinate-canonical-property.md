@@ -1,0 +1,64 @@
+---
+title: Propiedad canónico PidTagYCoordinate
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.PidTagYCoordinate
+api_type:
+- COM
+ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
+description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+ms.openlocfilehash: 81d154d3044ecb5fb2e920874058f1c5136bc7ec
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19820422"
+---
+# <a name="pidtagycoordinate-canonical-property"></a>Propiedad canónico PidTagYCoordinate
+
+  
+  
+**Se aplica a**: Outlook 
+  
+Contiene la coordenada y de la posición inicial (la esquina superior izquierda) de un control de cuadro de diálogo, en unidades de cuadro de diálogo estándares de Windows.
+  
+|||
+|:-----|:-----|
+|Propiedades asociadas:  <br/> |PR_YPOS  <br/> |
+|Identificador:  <br/> |0x3F06  <br/> |
+|Tipo de datos:  <br/> |PT_LONG  <br/> |
+|Área:  <br/> |Tabla MAPI para mostrar  <br/> |
+   
+## <a name="remarks"></a>Notas
+
+**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), esta propiedad, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) y las propiedades de **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) la posición y el tamaño del control.
+  
+## <a name="related-resources"></a>Recursos relacionados
+
+### <a name="header-files"></a>Archivos de encabezado
+
+Mapidefs.h
+  
+> Proporciona definiciones de tipo de datos.
+    
+Mapitags.h
+  
+> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+    
+## <a name="see-also"></a>Ver también
+
+
+
+[Propiedades MAPI](mapi-properties.md)
+  
+[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+  
+[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+

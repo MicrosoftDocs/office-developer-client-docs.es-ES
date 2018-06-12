@@ -1,0 +1,61 @@
+---
+title: MVI_PROP
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.MVI_PROP
+api_type:
+- COM
+ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
+description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+ms.openlocfilehash: f8f58ee18095dec8a222ae8b5a19cbefbaafa663
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19818441"
+---
+# <a name="mviprop"></a>MVI_PROP
+
+  
+  
+**Se aplica a**: Outlook 
+  
+Establece el MVI_FLAG para una propiedad especificada. 
+  
+|||
+|:-----|:-----|
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Estructura relacionado:  <br/> |[SPropValue](spropvalue.md) <br/> |
+   
+```cpp
+MVI_PROP (tag)
+```
+
+## <a name="parameters"></a>Sintaxis
+
+ _etiqueta_
+  
+> La etiqueta de propiedad que desea modificar.
+    
+## <a name="remarks"></a>Notas
+
+El MVI_FLAG se combina la configuración de MV_FLAG, que identifica una propiedad como multivalor y MV_INSTANCE, que solicita que se muestre una propiedad con varios valores en una tabla en varias filas. Se modifica el tipo de propiedad de la propiedad afectado, pero el identificador permanece inalterado. 
+  
+Por ejemplo, cuando la macro MVI_PROP se aplica a una propiedad de tipo PT_FLOAT, su tipo se cambia a PT_MV_FLOAT. Cuando se incluye en una tabla, se usan varias filas para representar la propiedad que tiene una fila para cada valor. Las propiedades de las demás columnas se repiten. 
+  
+Para obtener más información acerca de estos indicadores, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [trabajar con columnas con varios valores](working-with-multivalued-columns.md).
+  
+## <a name="see-also"></a>Ver también
+
+
+
+[SPropValue](spropvalue.md)
+
+
+[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+
