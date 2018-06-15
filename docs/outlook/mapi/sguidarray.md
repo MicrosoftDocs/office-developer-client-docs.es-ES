@@ -16,7 +16,7 @@ ms.openlocfilehash: 553ec17e9caf9bf93278ff139eb94e02e6b48554
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19820659"
 ---
 # <a name="sguidarray"></a>SGuidArray

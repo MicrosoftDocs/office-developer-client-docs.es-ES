@@ -16,7 +16,7 @@ ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19817216"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria

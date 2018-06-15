@@ -13,7 +13,7 @@ ms.openlocfilehash: 4e86fd3682d5d9e26c52839e76d2016d654b3141
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822294"
 ---
 # <a name="hyperlink-function"></a>HYPERLINK (función)

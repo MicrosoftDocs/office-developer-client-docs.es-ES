@@ -16,7 +16,7 @@ ms.openlocfilehash: 00f40a443d6ab730c8b612fd0fdfd93a1fd5cf52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19818763"
 ---
 # <a name="pidlidhomeaddress-canonical-property"></a>Propiedad canónico PidLidHomeAddress

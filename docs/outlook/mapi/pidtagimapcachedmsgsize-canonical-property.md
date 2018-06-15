@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentLastSequence
+title: Propiedad canónico PidTagImapCachedMsgsize
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,55 +7,54 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- PidLidAppointmentLastSequence
+- PidTagImapCachedMsgsize
 api_type:
-- COM
-ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
+- HeaderDef
+ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: 425bb54f63f6a87c2f1ae6bffef9ce2b042de6bb
+ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19818492"
+ms.locfileid: "19819619"
 ---
-# <a name="pidlidappointmentlastsequence-canonical-property"></a>Propiedad canónico PidLidAppointmentLastSequence
+# <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propiedad canónico PidTagImapCachedMsgsize
 
   
   
 **Se aplica a**: Outlook 
   
-Indica el último número de secuencia que se envió a cualquier asistente del organizador.
+Contiene el tamaño de los mensajes almacenados en caché de protocolo de acceso a mensajes de Internet.
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |dispidApptLastSequence  <br/> |
-|Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008203  <br/> |
-|Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Reuniones  <br/> |
+|Propiedades asociadas:  <br/> |None  <br/> |
+|Identificador:  <br/> |0x10F0  <br/> |
+|Tipo de datos:  <br/> |PT_BINARY  <br/> |
+|Área:  <br/> |Cambiar el nombre de la carpeta de mensajes  <br/> |
    
-## <a name="remarks"></a>Notas
-
-Esta propiedad no tiene ningún significado para un asistente.
-  
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Codifica y descodifica los objetos de mensaje y datos adjuntos a una representación de secuencia eficaz.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
 Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
+    
+Mapitags.h
+  
+> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
 ## <a name="see-also"></a>Ver también
 
