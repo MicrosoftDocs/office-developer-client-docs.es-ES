@@ -16,7 +16,7 @@ ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19817148"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
@@ -107,13 +107,13 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > No se reconoce el identificador de entrada especificado en _lpEntryID_ . Normalmente, este valor se devuelve si el responsable de la entrada correspondiente del proveedor de libreta de direcciones no está abierto. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los clientes y proveedores de servicios de llamar al método **IAddrBook::OpenEntry** para abrir una entrada de la libreta de direcciones. MAPI reenvía la llamada a la libreta de direcciones adecuado, basándose en la estructura [MAPIUID](mapiuid.md) que se incluye en el identificador de entrada que se pasa en el parámetro _lpEntryID_ . El proveedor de la libreta de direcciones abre la entrada como de sólo lectura a menos que se establece la marca MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags indicado_ . Sin embargo, estos marcadores son sugerencias. Si el proveedor de la libreta de direcciones no permitir la modificación de la entrada de solicitado, devuelve MAPI_E_NO_ACCESS. 
   
 El parámetro _lpInterface_ indica qué interfaz se debe utilizar para tener acceso a la entrada que se abrió. Pasando NULL en _lpInterface_ indica que se debe usar la interfaz estándar de MAPI para ese tipo de entrada. Debido a que el proveedor de la libreta de direcciones podría devolver una interfaz diferente de aquél al que sugiere el parámetro _lpInterface_ , el llamador debe comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es ¿Qué se esperaba. Si el tipo de objeto no es del tipo esperado, el autor de la llamada puede convertir el parámetro _lppUnk_ a un tipo que sea más adecuado. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
 

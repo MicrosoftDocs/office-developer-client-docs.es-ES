@@ -12,7 +12,7 @@ ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19818298"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Asignación de atributos de correo de Internet a las propiedades de MAPI

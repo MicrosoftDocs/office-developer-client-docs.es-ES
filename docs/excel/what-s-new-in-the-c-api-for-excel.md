@@ -13,7 +13,7 @@ ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19815702"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Novedades de la API C para Excel
@@ -41,7 +41,7 @@ Junto con Microsoft Excel 2013, el Kit de desarrollo de Software (SDK) de Micros
     
     Ahora puede compilar y vincular los XLL de 32 bits y 64 bits. Para obtener más información, vea [Creación de XLL](creating-xlls.md).
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

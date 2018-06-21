@@ -21,7 +21,7 @@ ms.openlocfilehash: 8e2ee8730e737408899b6fe26ce55210e0c68e81
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19821429"
 ---
 # <a name="project-2013-programming-references"></a>Referencias de programación de Project 2013
@@ -43,7 +43,7 @@ Busque una visión general de la referencia de Project Server Interface (PSI), c
   
 [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx) Incluye información general sobre el servicio de OData para datos de informes de Project Server, una introducción al uso de las fuentes de OData con las consultas LINQ y referencias para los metadatos XML en el servicio **ProjectData** . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

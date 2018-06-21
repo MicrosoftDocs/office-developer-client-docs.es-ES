@@ -16,7 +16,7 @@ ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19817483"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
@@ -55,7 +55,7 @@ S_OK
   
 > El procesamiento posterior realizada correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISupport::CompleteMsg** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes y se denomina sólo por los proveedores de almacén de mensajes que estén asociados estrechamente con los proveedores de transporte. Los proveedores de almacén acoplado llame a **IMAPISupport::CompleteMsg** para indicar a la cola MAPI para postprocess un mensaje. 
   
@@ -67,7 +67,7 @@ Llamar a **CompleteMsg** sólo cuando estrechamente con un proveedor de transpor
     
 - El mensaje requiere procesamiento posterior por la cola de MAPI.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

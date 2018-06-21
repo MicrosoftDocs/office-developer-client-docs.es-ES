@@ -16,7 +16,7 @@ ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19816789"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
@@ -55,7 +55,7 @@ typedef struct _EXTENDED_NOTIFICATION
   
 > Puntero a los parámetros específicos del evento. El tipo de parámetros que se usan depende del valor del miembro **ulEvent** ; Estos parámetros se documentan por el proveedor que ha emitido el evento. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **EXTENDED_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . Cuando el miembro de la **información** de una estructura de **notificación** contiene una estructura **EXTENDED_NOTIFICATION** , se establece el miembro **ulEventType** de la estructura de **notificación** en _fnevExtended_.
   
@@ -71,7 +71,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
 |[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar los métodos [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

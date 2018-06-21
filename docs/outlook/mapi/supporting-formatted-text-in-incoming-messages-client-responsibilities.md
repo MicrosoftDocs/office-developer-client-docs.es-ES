@@ -12,7 +12,7 @@ ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19820800"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Compatibilidad con texto con formato en los mensajes entrantes: responsabilidades del cliente
