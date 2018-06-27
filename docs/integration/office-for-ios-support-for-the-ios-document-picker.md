@@ -8,7 +8,7 @@ ms.assetid: 802224ef-6eea-4929-824c-507da1c073a5
 description: Office para iOS se integra con el Selector de documentos de iOS mediante la extensión Document Provider, que permite a Office abrir archivos almacenados por otro proveedor de documentos.
 ms.openlocfilehash: 101e3cc248f994fe449a74c6c37f788fad8beed5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816021"
