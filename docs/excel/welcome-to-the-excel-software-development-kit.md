@@ -24,7 +24,7 @@ ms.locfileid: "19815708"
   
 <span data-ttu-id="efdf2-108">Revisado: Noviembre de 2012</span><span class="sxs-lookup"><span data-stu-id="efdf2-108">Revised: November 2012</span></span>
   
-<span data-ttu-id="efdf2-109">Descargue el [SDK de XLL de Excel 2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span><span class="sxs-lookup"><span data-stu-id="efdf2-109">Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span></span>
+<span data-ttu-id="efdf2-109">Descargue el [SDK de XLL de Excel 2013](http://go.microsoft.com/fwlink/?LinkID=251082).</span><span class="sxs-lookup"><span data-stu-id="efdf2-109">Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082).</span></span>
   
 <span data-ttu-id="efdf2-110">El SDK de XLL de Excel 2013 incluye lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="efdf2-110">The Excel 2013 XLL SDK includes the following:</span></span>
   
@@ -54,10 +54,10 @@ ms.locfileid: "19815708"
     
 ## <a name="related-links"></a><span data-ttu-id="efdf2-124">V�nculos relacionados</span><span class="sxs-lookup"><span data-stu-id="efdf2-124">Related Links</span></span>
 
-[<span data-ttu-id="efdf2-125">Centro de desarrollo de Excel</span><span class="sxs-lookup"><span data-stu-id="efdf2-125">Excel Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905411.aspx)
+[<span data-ttu-id="efdf2-125">Centro de desarrollo de Excel</span><span class="sxs-lookup"><span data-stu-id="efdf2-125">Excel Developer Center</span></span>](http://msdn.microsoft.com/es-es/office/aa905411.aspx)
   
-[<span data-ttu-id="efdf2-126">Centro de desarrollo de Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="efdf2-126">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
+[<span data-ttu-id="efdf2-126">Centro de desarrollo de Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="efdf2-126">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/es-es/office/default.aspx)
   
-[<span data-ttu-id="efdf2-127">SDK de Excel 2010: Kit de desarrollo de software de XLL de Excel 2010</span><span class="sxs-lookup"><span data-stu-id="efdf2-127">Excel 2010 SDK: Excel 2010 XLL Software Development Kit</span></span>](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+[<span data-ttu-id="efdf2-127">SDK de Excel 2010: Kit de desarrollo de software de XLL de Excel 2010</span><span class="sxs-lookup"><span data-stu-id="efdf2-127">Excel 2010 SDK: Excel 2010 XLL Software Development Kit</span></span>](http://go.microsoft.com/fwlink/?LinkID=186435)
   
 

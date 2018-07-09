@@ -46,11 +46,11 @@ ms.locfileid: "19820288"
   
 > <span data-ttu-id="6944b-123">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="6944b-123">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="6944b-124">[[MS-OXOMSG]](http://msdn.microsoft.com/en-us/library/cc433482%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6944b-124">[[MS-OXOMSG]](http://msdn.microsoft.com/en-us/library/cc433482%28EXCHG.80%29.aspx)</span></span>
+<span data-ttu-id="6944b-124">[[MS-OXOMSG]](http://msdn.microsoft.com/es-es/library/cc433482%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6944b-124">[[MS-OXOMSG]](http://msdn.microsoft.com/es-es/library/cc433482%28EXCHG.80%29.aspx)</span></span>
   
 > <span data-ttu-id="6944b-125">Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="6944b-125">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-<span data-ttu-id="6944b-126">[[MS-OXORSS]](http://msdn.microsoft.com/en-us/library/cc463884%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6944b-126">[[MS-OXORSS]](http://msdn.microsoft.com/en-us/library/cc463884%28EXCHG.80%29.aspx)</span></span>
+<span data-ttu-id="6944b-126">[[MS-OXORSS]](http://msdn.microsoft.com/es-es/library/cc463884%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6944b-126">[[MS-OXORSS]](http://msdn.microsoft.com/es-es/library/cc463884%28EXCHG.80%29.aspx)</span></span>
   
 > <span data-ttu-id="6944b-127">Especifica las propiedades y operaciones que representan elementos RSS.</span><span class="sxs-lookup"><span data-stu-id="6944b-127">Specifies the properties and operations that represent RSS items.</span></span>
     

@@ -19,7 +19,7 @@ ms.locfileid: "19815353"
 <span data-ttu-id="1e7b7-104">Devuelve un valor con formato según un patrón especificado.</span><span class="sxs-lookup"><span data-stu-id="1e7b7-104">Returns a value formatted according to a specified pattern.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="1e7b7-p101">[!NOTA] La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="1e7b7-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
+> <span data-ttu-id="1e7b7-p101">La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="1e7b7-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="1e7b7-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="1e7b7-107">Syntax</span></span>
 
@@ -36,13 +36,13 @@ ms.locfileid: "19815353"
 
 <span data-ttu-id="1e7b7-119">Para el parámetro  *Formato*  , puede pasar las cadenas que coincidan con cualquiera de los siguientes patrones:</span><span class="sxs-lookup"><span data-stu-id="1e7b7-119">For the  *Format*  parameter, you can pass strings that match any of the following patterns:</span></span> 
   
-- [<span data-ttu-id="1e7b7-120">Cadenas de formato numérico estándar</span><span class="sxs-lookup"><span data-stu-id="1e7b7-120">Standard Numeric Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [<span data-ttu-id="1e7b7-120">Cadenas de formato numérico estándar</span><span class="sxs-lookup"><span data-stu-id="1e7b7-120">Standard Numeric Format Strings</span></span>](http://msdn.microsoft.com/es-es/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="1e7b7-121">Cadenas de formato numérico personalizado</span><span class="sxs-lookup"><span data-stu-id="1e7b7-121">Custom Numeric Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [<span data-ttu-id="1e7b7-121">Cadenas de formato numérico personalizado</span><span class="sxs-lookup"><span data-stu-id="1e7b7-121">Custom Numeric Format Strings</span></span>](http://msdn.microsoft.com/es-es/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="1e7b7-122">Cadenas de formato de fecha y hora estándar</span><span class="sxs-lookup"><span data-stu-id="1e7b7-122">Standard Date and Time Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [<span data-ttu-id="1e7b7-122">Cadenas de formato de fecha y hora estándar</span><span class="sxs-lookup"><span data-stu-id="1e7b7-122">Standard Date and Time Format Strings</span></span>](http://msdn.microsoft.com/es-es/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="1e7b7-123">Cadenas de formato de fecha y hora personalizado</span><span class="sxs-lookup"><span data-stu-id="1e7b7-123">Custom Date and Time Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [<span data-ttu-id="1e7b7-123">Cadenas de formato de fecha y hora personalizado</span><span class="sxs-lookup"><span data-stu-id="1e7b7-123">Custom Date and Time Format Strings</span></span>](http://msdn.microsoft.com/es-es/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 <span data-ttu-id="1e7b7-124">No puede usar la función **Formato** en las siguientes áreas de las aplicaciones web de Access 2013:</span><span class="sxs-lookup"><span data-stu-id="1e7b7-124">You cannot use the **Format** function in the following areas of Access 2013 web apps:</span></span> 
   

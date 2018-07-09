@@ -19,7 +19,7 @@ ms.locfileid: "19816913"
   
 <span data-ttu-id="5c77a-105">La referencia de Microsoft Outlook 2013 Messaging API (MAPI) se describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="5c77a-105">The Microsoft Outlook 2013 Messaging API (MAPI) Reference describes how to create MAPI solutions that work with Microsoft Outlook 2013.</span></span> <span data-ttu-id="5c77a-106">En esta sección se describe cómo encontrar las distintas referencia y conceptuales recursos de la referencia de MAPI de Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="5c77a-106">This section describes how to find the various reference and conceptual resources in the Outlook 2013 MAPI Reference.</span></span>
   
-<span data-ttu-id="5c77a-107">Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="5c77a-107">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
+<span data-ttu-id="5c77a-107">Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/es-es/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="5c77a-107">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/es-es/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="5c77a-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5c77a-108">In this section</span></span>
 
@@ -37,7 +37,7 @@ ms.locfileid: "19816913"
     
 ## <a name="related-sections"></a><span data-ttu-id="5c77a-115">Secciones relacionadas</span><span class="sxs-lookup"><span data-stu-id="5c77a-115">Related sections</span></span>
 
-- [<span data-ttu-id="5c77a-116">Ejemplos de MAPI (en inglés)</span><span class="sxs-lookup"><span data-stu-id="5c77a-116">MAPI Samples</span></span>](mapi-samples.md)
+- [<span data-ttu-id="5c77a-116">Ejemplos de MAPI</span><span class="sxs-lookup"><span data-stu-id="5c77a-116">MAPI Samples</span></span>](mapi-samples.md)
   
 - [<span data-ttu-id="5c77a-117">Conceptos MAPI</span><span class="sxs-lookup"><span data-stu-id="5c77a-117">MAPI Concepts</span></span>](mapi-concepts.md)
   

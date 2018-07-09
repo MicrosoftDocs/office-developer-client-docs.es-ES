@@ -45,6 +45,6 @@ BOOL MNLS_IsBadStringPtrW(
   
 ## <a name="remarks"></a><span data-ttu-id="1fdd2-113">Notas</span><span class="sxs-lookup"><span data-stu-id="1fdd2-113">Remarks</span></span>
 
-<span data-ttu-id="1fdd2-114">Esta función ajusta [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1fdd2-114">This function wraps [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="1fdd2-115">Para obtener más información, vea [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1fdd2-115">For more information, see [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="1fdd2-114">Esta función ajusta [IsBadStringPtr](http://msdn.microsoft.com/es-es/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1fdd2-114">This function wraps [IsBadStringPtr](http://msdn.microsoft.com/es-es/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="1fdd2-115">Para obtener más información, vea [IsBadStringPtr](http://msdn.microsoft.com/es-es/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1fdd2-115">For more information, see [IsBadStringPtr](http://msdn.microsoft.com/es-es/library/aa366714%28VS.85%29.aspx).</span></span>
   
 

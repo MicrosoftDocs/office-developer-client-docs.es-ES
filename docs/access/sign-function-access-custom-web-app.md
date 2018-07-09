@@ -19,7 +19,7 @@ ms.locfileid: "19815493"
 <span data-ttu-id="e90ac-104">Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.</span><span class="sxs-lookup"><span data-stu-id="e90ac-104">Returns the positive (+1), zero (0), or negative (-1) sign of the specified expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e90ac-p101">[!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="e90ac-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="e90ac-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="e90ac-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="e90ac-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="e90ac-107">Syntax</span></span>
 

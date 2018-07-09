@@ -28,7 +28,7 @@ ms.locfileid: "19815870"
 <span data-ttu-id="3751d-111">El modelo de objetos de InfoPath también proporciona un conjunto de clases de conexión de datos que contienen información sobre las conexiones de datos que utiliza el formulario.</span><span class="sxs-lookup"><span data-stu-id="3751d-111">The InfoPath object model also provides a set of data connection classes, containing information about the data connections used by the form.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3751d-112">[!NOTA] En Microsoft InfoPath 2003, una conexión de datos se denomina adaptador de datos.</span><span class="sxs-lookup"><span data-stu-id="3751d-112">In Microsoft InfoPath 2003, a data connection is referred to as a data adapter.</span></span> 
+> <span data-ttu-id="3751d-112">En Microsoft InfoPath 2003, una conexión de datos se denomina adaptador de datos.</span><span class="sxs-lookup"><span data-stu-id="3751d-112">In Microsoft InfoPath 2003, a data connection is referred to as a data adapter.</span></span> 
   
 <span data-ttu-id="3751d-p102">Los adaptadores de datos pueden ser de dos tipos: conexiones de consultas, que se utilizan para obtener datos que después se almacenan en un origen de datos secundario y conexiones de envío que se utilizan para enviar datos, por ejemplo a una base de datos o a un servicio web. Los datos enviados se copian de orígenes de datos principales o secundarios.</span><span class="sxs-lookup"><span data-stu-id="3751d-p102">Data connections are of two kinds: Query connections are used to obtain the data that is then stored in a secondary data source. Submit connections are used to submit data, to a database or Web service, for example. The submitted data is copied from the main or secondary data sources.</span></span> 
   

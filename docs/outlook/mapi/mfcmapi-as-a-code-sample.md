@@ -60,5 +60,5 @@ ms.locfileid: "19818392"
   
 ## <a name="see-also"></a><span data-ttu-id="c3465-132">Ver también</span><span class="sxs-lookup"><span data-stu-id="c3465-132">See also</span></span>
 
-- [<span data-ttu-id="c3465-133">Ejemplos de MAPI (en inglés)</span><span class="sxs-lookup"><span data-stu-id="c3465-133">MAPI Samples</span></span>](mapi-samples.md)
+- [<span data-ttu-id="c3465-133">Ejemplos de MAPI</span><span class="sxs-lookup"><span data-stu-id="c3465-133">MAPI Samples</span></span>](mapi-samples.md)
 

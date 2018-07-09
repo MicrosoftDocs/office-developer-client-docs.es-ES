@@ -65,6 +65,6 @@ int MNLS_MultiByteToWideChar(
   
 ## <a name="remarks"></a><span data-ttu-id="67d7a-123">Notas</span><span class="sxs-lookup"><span data-stu-id="67d7a-123">Remarks</span></span>
 
-<span data-ttu-id="67d7a-124">Esta función ajusta la función **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="67d7a-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="67d7a-125">Para obtener más información, vea [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="67d7a-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="67d7a-124">Esta función ajusta la función **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="67d7a-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="67d7a-125">Para obtener más información, vea [MultiByteToWideChar](http://msdn.microsoft.com/es-es/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="67d7a-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/es-es/library/dd319072%28VS.85%29.aspx).</span></span>
   
 

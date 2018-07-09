@@ -51,9 +51,9 @@ ms.locfileid: "19815856"
     
 <span data-ttu-id="6ce45-123">Asimismo, existen dos interfaces COM específicas de InfoPath que permiten una mejor integración de controles:</span><span class="sxs-lookup"><span data-stu-id="6ce45-123">Also, there are two InfoPath-specific COM interfaces that provide tighter integration of controls:</span></span>
   
-- [<span data-ttu-id="6ce45-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="6ce45-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [<span data-ttu-id="6ce45-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="6ce45-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/es-es/library/bb264625.aspx)
     
-- [<span data-ttu-id="6ce45-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="6ce45-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [<span data-ttu-id="6ce45-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="6ce45-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/es-es/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a><span data-ttu-id="6ce45-126">Agregar un control ActiveX al entorno de diseño de InfoPath</span><span class="sxs-lookup"><span data-stu-id="6ce45-126">Add an ActiveX Control to the InfoPath Design Environment</span></span>
 
@@ -68,7 +68,7 @@ ms.locfileid: "19815856"
 - <span data-ttu-id="6ce45-133">Especificar el enlace del tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="6ce45-133">Specify data type binding.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="6ce45-134">[!NOTA] Si está desarrollando un control ActiveX y lo agrega al panel de tareas **Controles** de InfoPath, no se podrá volver a generar el control ActiveX hasta que se cierre InfoPath.</span><span class="sxs-lookup"><span data-stu-id="6ce45-134">If you are developing an ActiveX control and have added it to the **Controls** task pane in InfoPath, you will be unable to rebuild the ActiveX control until InfoPath is closed.</span></span> 
+> <span data-ttu-id="6ce45-134">Si está desarrollando un control ActiveX y lo agrega al panel de tareas **Controles** de InfoPath, no se podrá volver a generar el control ActiveX hasta que se cierre InfoPath.</span><span class="sxs-lookup"><span data-stu-id="6ce45-134">If you are developing an ActiveX control and have added it to the **Controls** task pane in InfoPath, you will be unable to rebuild the ActiveX control until InfoPath is closed.</span></span> 
   
 ## <a name="deploy-an-activex-control"></a><span data-ttu-id="6ce45-135">Implementar un Control ActiveX</span><span class="sxs-lookup"><span data-stu-id="6ce45-135">Deploy an ActiveX Control</span></span>
 

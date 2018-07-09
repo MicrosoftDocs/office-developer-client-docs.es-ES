@@ -22,7 +22,7 @@ ms.locfileid: "19818459"
 <span data-ttu-id="cae28-105">Referencia de Microsoft Outlook 2013 mensajería API (MAPI).</span><span class="sxs-lookup"><span data-stu-id="cae28-105">Welcome to the Microsoft Outlook 2013 Messaging API (MAPI) Reference.</span></span> <span data-ttu-id="cae28-106">MAPI proporciona la arquitectura de mensajería de Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="cae28-106">MAPI provides the messaging architecture for Microsoft Outlook 2013.</span></span> <span data-ttu-id="cae28-107">MAPI para Outlook 2013 proporciona un conjunto de interfaces, funciones y otros tipos de datos para facilitar el desarrollo de aplicaciones de mensajería de Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="cae28-107">MAPI for Outlook 2013 provides a set of interfaces, functions, and other data types to facilitate the development of Outlook 2013 messaging applications.</span></span> <span data-ttu-id="cae28-108">Las aplicaciones y los transportes usan MAPI para manipular datos de correo electrónico, para crear mensajes de correo electrónico y las carpetas para almacenarlos en y para admitir las notificaciones de cambios a los datos existentes relacionados con MAPI.</span><span class="sxs-lookup"><span data-stu-id="cae28-108">Applications and transports use MAPI to manipulate email data, to create email messages and the folders to store them in, and to support notifications of changes to existing MAPI-related data.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="cae28-109">Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="cae28-109">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
+> <span data-ttu-id="cae28-109">Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/es-es/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="cae28-109">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/es-es/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="cae28-110">En esta sección</span><span class="sxs-lookup"><span data-stu-id="cae28-110">In this section</span></span>
 
@@ -30,7 +30,7 @@ ms.locfileid: "19818459"
   
 > <span data-ttu-id="cae28-112">Proporciona información acerca de las distintas referencia y conceptuales recursos en la referencia de MAPI de Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="cae28-112">Provides information about the various reference and conceptual resources in the Outlook 2013 MAPI Reference.</span></span>
     
-[<span data-ttu-id="cae28-113">Ejemplos de MAPI (en inglés)</span><span class="sxs-lookup"><span data-stu-id="cae28-113">MAPI Samples</span></span>](mapi-samples.md)
+[<span data-ttu-id="cae28-113">Ejemplos de MAPI</span><span class="sxs-lookup"><span data-stu-id="cae28-113">MAPI Samples</span></span>](mapi-samples.md)
   
 > <span data-ttu-id="cae28-114">Proporciona aplicaciones de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="cae28-114">Provides sample applications.</span></span>
     
@@ -53,7 +53,7 @@ ms.locfileid: "19818459"
 
 [<span data-ttu-id="cae28-122">Outlook 2010: Referencia MAPI (centro de descarga de Microsoft)</span><span class="sxs-lookup"><span data-stu-id="cae28-122">Outlook 2010: MAPI Reference (Microsoft Download Center)</span></span>](http://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
   
-[<span data-ttu-id="cae28-123">Convenciones de documentos</span><span class="sxs-lookup"><span data-stu-id="cae28-123">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+[<span data-ttu-id="cae28-123">Convenciones de documentos</span><span class="sxs-lookup"><span data-stu-id="cae28-123">Document Conventions</span></span>](http://msdn.microsoft.com/es-es/office/aa905365.aspx)
   
 [<span data-ttu-id="cae28-124">Accesibilidad en Microsoft Office 2010</span><span class="sxs-lookup"><span data-stu-id="cae28-124">Accessibility in Microsoft Office 2010</span></span>](http://www.microsoft.com/enable/products/office2010/default.aspx)
   

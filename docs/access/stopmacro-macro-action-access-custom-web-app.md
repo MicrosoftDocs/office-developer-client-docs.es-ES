@@ -19,7 +19,7 @@ ms.locfileid: "19815491"
 <span data-ttu-id="7de47-104">Puede utilizar la acción **DetenerMacro** para detener la macro que se está ejecutando.</span><span class="sxs-lookup"><span data-stu-id="7de47-104">You can use the **StopMacro** action to stop the currently running macro.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="7de47-p101">[!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="7de47-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="7de47-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="7de47-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="7de47-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="7de47-107">Setting</span></span>
 

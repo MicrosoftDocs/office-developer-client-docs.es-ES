@@ -20,7 +20,7 @@ ms.locfileid: "19821590"
   
 |<span data-ttu-id="0cda1-105">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0cda1-105">**Description**</span></span>|<span data-ttu-id="0cda1-106">**Value**</span><span class="sxs-lookup"><span data-stu-id="0cda1-106">**Value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0cda1-107">0</span><span class="sxs-lookup"><span data-stu-id="0cda1-107">0</span></span>  <br/> |<span data-ttu-id="0cda1-108">No hay especial (en inglés)</span><span class="sxs-lookup"><span data-stu-id="0cda1-108">No special material</span></span>  <br/> |
+|<span data-ttu-id="0cda1-107">0</span><span class="sxs-lookup"><span data-stu-id="0cda1-107">0</span></span>  <br/> |<span data-ttu-id="0cda1-108">No hay especial</span><span class="sxs-lookup"><span data-stu-id="0cda1-108">No special material</span></span>  <br/> |
 |<span data-ttu-id="0cda1-109">1</span><span class="sxs-lookup"><span data-stu-id="0cda1-109">1</span></span>  <br/> |<span data-ttu-id="0cda1-110">Mate</span><span class="sxs-lookup"><span data-stu-id="0cda1-110">Matte</span></span>  <br/> |
 |<span data-ttu-id="0cda1-111">2</span><span class="sxs-lookup"><span data-stu-id="0cda1-111">2</span></span>  <br/> |<span data-ttu-id="0cda1-112">Mate cálido</span><span class="sxs-lookup"><span data-stu-id="0cda1-112">Warm Matte</span></span>  <br/> |
 |<span data-ttu-id="0cda1-113">3</span><span class="sxs-lookup"><span data-stu-id="0cda1-113">3</span></span>  <br/> |<span data-ttu-id="0cda1-114">Plástico</span><span class="sxs-lookup"><span data-stu-id="0cda1-114">Plastic</span></span>  <br/> |
