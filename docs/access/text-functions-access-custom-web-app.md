@@ -18,7 +18,7 @@ ms.locfileid: "19815496"
 ## <a name="in-this-section"></a><span data-ttu-id="db961-103">En esta sección</span><span class="sxs-lookup"><span data-stu-id="db961-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="db961-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="db961-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="db961-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="db961-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 - [<span data-ttu-id="db961-106">Función CharIndex (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="db961-106">CharIndex Function (Access custom web app)</span></span>](charindex-function-access-custom-web-app.md)
     

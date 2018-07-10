@@ -19,7 +19,7 @@ ms.locfileid: "19815489"
 <span data-ttu-id="f503f-104">Devuelve un valor numérico, redondeado o truncado, con la longitud o precisión especificada.</span><span class="sxs-lookup"><span data-stu-id="f503f-104">Returns a numeric value, either rounded or truncated, to the specified length or precision.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f503f-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="f503f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="f503f-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="f503f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="f503f-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="f503f-107">Syntax</span></span>
 

@@ -19,7 +19,7 @@ ms.locfileid: "19815483"
 <span data-ttu-id="0de0e-104">Puede usar la acción **DefinirPropiedad** para establecer una propiedad para un control en una vista.</span><span class="sxs-lookup"><span data-stu-id="0de0e-104">You can use the **SetProperty** action to set a property for a control on a view.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="0de0e-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="0de0e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="0de0e-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="0de0e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="0de0e-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="0de0e-107">Setting</span></span>
 

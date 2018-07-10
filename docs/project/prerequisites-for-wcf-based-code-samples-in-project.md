@@ -456,6 +456,6 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 - [<span data-ttu-id="477a3-356">Tutorial: Desarrollar aplicaciones de PSI mediante WCF</span><span class="sxs-lookup"><span data-stu-id="477a3-356">Walkthrough: Developing PSI applications using WCF</span></span>](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
 - [<span data-ttu-id="477a3-357">Usar suplantación con WCF</span><span class="sxs-lookup"><span data-stu-id="477a3-357">Use Impersonation with WCF</span></span>](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
 - [<span data-ttu-id="477a3-358">Información general de referencia PSI de Project</span><span class="sxs-lookup"><span data-stu-id="477a3-358">Project PSI reference overview</span></span>](project-psi-reference-overview.md) 
-- [<span data-ttu-id="477a3-359">Centro para desarrolladores de SharePoint</span><span class="sxs-lookup"><span data-stu-id="477a3-359">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [<span data-ttu-id="477a3-359">Centro para desarrolladores de SharePoint</span><span class="sxs-lookup"><span data-stu-id="477a3-359">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/es-es/sharepoint/default.aspx)
     
 

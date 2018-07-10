@@ -441,6 +441,6 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 - [<span data-ttu-id="6608c-312">Requisitos previos para ejemplos de código basados en WCF en Project</span><span class="sxs-lookup"><span data-stu-id="6608c-312">Prerequisites for WCF-based code samples in Project</span></span>](prerequisites-for-wcf-based-code-samples-in-project.md)
 - [<span data-ttu-id="6608c-313">Usar suplantación con WCF</span><span class="sxs-lookup"><span data-stu-id="6608c-313">Use Impersonation with WCF</span></span>](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
 - [<span data-ttu-id="6608c-314">Información general de referencia PSI de Project</span><span class="sxs-lookup"><span data-stu-id="6608c-314">Project PSI reference overview</span></span>](project-psi-reference-overview.md)
-- [<span data-ttu-id="6608c-315">Centro para desarrolladores de SharePoint</span><span class="sxs-lookup"><span data-stu-id="6608c-315">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [<span data-ttu-id="6608c-315">Centro para desarrolladores de SharePoint</span><span class="sxs-lookup"><span data-stu-id="6608c-315">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/es-es/sharepoint/default.aspx)
     
 
