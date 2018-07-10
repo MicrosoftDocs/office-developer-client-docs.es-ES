@@ -21,9 +21,9 @@ Buscar contenido sobre procedimientos, código de ejemplo, documentación de SDK
 > [!NOTE]
 > [!NOTA] ¿Está interesado en el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
-### <a name="viewed-most"></a>Ver más
+### <a name="viewed-most"></a>Más visto
   
-- [Referencia de VBA de Visio](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
+- [Referencia de VBA para Visio](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
   
 - [Guardar como referencia Web de Visio](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
   

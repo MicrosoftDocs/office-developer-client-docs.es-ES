@@ -23,7 +23,7 @@ Busque contenido sobre procedimientos, artículos técnicos, contenido de refere
 > [!NOTE]
 > [!NOTA] ¿Está interesado en el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).  
   
-### <a name="viewed-most"></a>Ver más
+### <a name="viewed-most"></a>Más visto
   
 - [Referencia para desarrolladores de OneNote](onenote-developer-reference.md)
   

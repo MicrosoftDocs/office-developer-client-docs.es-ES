@@ -20,7 +20,7 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
 > [!NOTE]
 > [!NOTA] ¿Está interesado en el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/en-us/office/dev/add-ins/). 
   
-### <a name="viewed-most"></a>Ver más
+### <a name="viewed-most"></a>Más visto
   
 - [Referencia de VBA para PowerPoint](https://msdn.microsoft.com/EN-US/library/ee861525.aspx)
   
