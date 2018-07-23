@@ -8,7 +8,7 @@ ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Aprenda a controlar cómo se muestra un número mediante la creación de un formato numérico definido por el usuario.
 ms.openlocfilehash: fac128ce13edf89105fbee7319533e1a3f346d05
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815355"
@@ -18,7 +18,7 @@ ms.locfileid: "19815355"
 Aprenda a controlar cómo se muestra un número mediante la creación de un formato numérico definido por el usuario.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
 
 Puede cambiar el modo en que se muestra un número creando un formato de número definido por el usuario. Un formato de número definido por el usuario puede tener de una a tres secciones separadas por punto y coma (;). Si el argumento de estilo de la función [Función Format (aplicación web personalizada de Access)](format-function-access-custom-web-app.md) contiene uno de los formatos numéricos predefinidos, solo se permite una sección. 
   
@@ -29,9 +29,9 @@ En la siguiente tabla se muestran los caracteres que puede usar para crear forma
   
 |**Especificación de formato**|**Descripción**|
 |:-----|:-----|
-|None  <br/> |Muestra el número sin formato.  <br/> |
+|Ninguno  <br/> |Muestra el número sin formato.  <br/> |
 |**0** (el carácter cero)  <br/> |Marcador de posición de dígitos. Muestra un dígito o un cero. Si la expresión tiene un dígito en la posición donde aparece el cero en la cadena de formato, muestra el dígito; de lo contrario, muestra un cero en esa posición.  <br/> Si el número tiene menos dígitos que ceros (en cualquier lado del decimal) en la expresión de formato, muestra ceros iniciales o finales. Si el número tiene más dígitos a la derecha del separador decimal que ceros a la derecha del separador decimal en la expresión de formato, redondea los número a tantos decimales como ceros haya. Si el número tiene más dígitos a la izquierda del separador decimal que ceros hay a la izquierda del separador decimal en la expresión de formato, muestra los dígitos adicionales sin modificación.  <br/> |
-|#  <br/> |Marcador de posición de dígitos. Muestra un dígito o nada. Si la expresión tiene un dígito en la posición donde aparece el carácter # en la cadena de formato, muestra el dígito; de lo contrario, no muestra nada en esa posición.  <br/> Este símbolo funciona exactamente como un marcador de posición de dígito 0, excepto en que los ceros iniciales y finales no se muestran si el número tiene menos dígitos que caracteres # hay en el lado del separador decimal en la expresión de formato.  <br/> |
+|#  <br/> |Marcador de posición de dígitos. Muestra un dígito o nada. Si la expresión tiene un dígito en la posición donde aparece el carácter # en la cadena de formato, muestra el dígito; de lo contrario, no muestra nada en esa posición.  <br/> Este símbolo funciona exactamente como un marcador de posición de dígito 0, excepto en que los ceros iniciales y finales no se muestran si el número tiene menos dígitos que caracteres #  hay en el lado del separador decimal en la expresión de formato.  <br/> |
 |. (carácter de punto)  <br/> |Marcador de posición decimal. El marcador de posición decimal determina cuántos dígitos se muestran a la izquierda y a la derecha del separador decimal. Si la expresión de formato solo contiene caracteres # a la izquierda de este símbolo; los números menores que 1 comienzan con un separador decimal. Para mostrar un cero inicial con números fraccionarios, use el cero como el primer marcador de posición de dígitos a la izquierda del separador decimal. En algunas configuraciones regionales se usa una coma como separador decimal. El carácter real que se usa como un marcador de posición decimal en la salida con formato depende del formato de número reconocido por el sistema. Por lo tanto, debe usar el punto como marcador de posición decimal en los formatos incluso si están en una configuración regional que usa una coma como separador decimal. La cadena con formato aparecerá en el formato correcto para la configuración regional.  <br/> |
 |%  <br/> |Marcador de posición de porcentaje. Multiplica la expresión por 100. El carácter de porcentaje (%) se inserta en la posición en la que aparece en la cadena de formato.  <br/> |
 |, (carácter de coma)  <br/> |Separador de miles. El separador de miles separa los millares de las centenas en un número que tiene cuatro o más posiciones a la izquierda del separador decimal. El uso estándar del separador de miles se especifica si el formato contiene un separador de miles incluidos en los marcadores de posición de dígito (0 o #).  <br/> Un separador de miles inmediatamente a la izquierda del separador decimal (si se especifica un decimal) o como el caracter a la derecha de la cadena significa "escalar el número dividiéndolo por 1.000, redondeándolo según sea necesario". Los números menores que 1.000, pero mayores o iguales a 500, se muestran como 1 y los números menores que 500 se muestran como 0. Dos separadores de miles adyacentes en esta posición escalan por un factor de 1 millón y un factor adicional de 1.000 por cada separador adicional.  <br/> Varios separadores en cualquier posición que no sea inmediatamente a la izquierda del separador decimal o la posición más a la derecha de la cadena, solo se consideran que especifican el uso de un separador de miles. En algunas configuraciones regionales, se usa un punto como separador de miles. El carácter real que se usa como separador de miles en la salida con formato depende del formato de número reconocido por el sistema. Por lo tanto, debe usar la coma como separador de miles en los formatos, incluso si están en una configuración regional que usa un punto como separador de miles. La cadena con formato aparecerá en el formato correcto de la configuración regional.  <br/> Por ejemplo, considere las siguientes tres cadenas de formato:  <br/> "#, 0.", que usa el separador de miles para dar formato al número 100 millones como la cadena "100,000,000".  <br/> "#0,.", que usa una escala por un factor de mil para dar formato al número 100 millones como la cadena "100000".  <br/> "#, 0,.", que usa el separador de miles y escala por mil para dar formato al número 100 millones como la cadena "100,000".  <br/> |
@@ -63,7 +63,7 @@ La siguiente tabla contiene algunos ejemplos de expresiones de formato para núm
 
 Si incluye puntos y coma sin nada entre ellos, la sección faltante se muestra con el formato del valor positivo.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Función Format (aplicación web personalizada de Access)](format-function-access-custom-web-app.md) 
 - [Formatos de fecha y hora personalizados para la función Format (aplicación web personalizada de Access)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)

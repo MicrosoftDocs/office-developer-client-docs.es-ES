@@ -8,7 +8,7 @@ ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office para iOS proporciona una solución extensible que permite la integración con aplicaciones de terceros. Este artículo describe cómo se puede realizar la integración con Office desde una aplicación de iOS pasando los usuarios desde la aplicación a Office y, a continuación, devolviéndolos a la aplicación.
 ms.openlocfilehash: 2ba8e1a157953705b60ff0cac7d62bafade0c469
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815990"
@@ -55,7 +55,7 @@ Cuando la aplicación de Office está instalada, la aplicación de referencia pu
     
 - Modo de apertura
     
-- Dirección URL
+- URL
     
 - Protocolo de retorno
     
@@ -88,7 +88,7 @@ Formato de esquema:
   
  `<ofv or ofe>`
   
-### <a name="url"></a>Dirección URL
+### <a name="url"></a>URL
 
 La dirección URL incluye tres partes: 
   
@@ -128,7 +128,7 @@ Formato de esquema:
   
  `<app protocol>:ofe|u|<URL>|z|<yes or no>|c|<doc context> Example: clouddrive:ofe|u|https://contoso/Q4/budget.docx|z|no|c|folderviewQ4`
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
 - [Método canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)

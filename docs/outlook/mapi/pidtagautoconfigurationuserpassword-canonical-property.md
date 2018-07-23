@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónica PidTagAutoConfigurationUserName
+title: Propiedad canónica PidTagAutoConfigurationUserPassword
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- PidTagAutoConfigurationUserName
+- PidTagAutoConfigurationUserPassword
 api_type:
 - HeaderDef
-ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
+ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f6f31905a7a5574d86f569664c907ad65fc64c93
+ms.openlocfilehash: 1b0fefd6d75ed3cf417e20d84bf0996a2e2f0a38
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819260"
+ms.locfileid: "19819263"
 ---
-# <a name="pidtagautoconfigurationusername-canonical-property"></a>Propiedad canónica PidTagAutoConfigurationUserName
+# <a name="pidtagautoconfigurationuserpassword-canonical-property"></a>Propiedad canónica PidTagAutoConfigurationUserPassword
 
   
   
 **Hace referencia a**: Outlook 
   
-Representa el nombre para mostrar del usuario.
+Representa la contraseña del usuario.
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |PR_AUTOCFG_USER_NAME_W  <br/> |
-|Identificador:  <br/> |0x67FE  <br/> |
+|Propiedades asociadas:  <br/> |PR_AUTOCFG_USER_PASSWORD_W  <br/> |
+|Identificador:  <br/> |0x67FC  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    

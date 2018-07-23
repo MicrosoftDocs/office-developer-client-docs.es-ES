@@ -8,7 +8,7 @@ ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: Aprenda a controlar cómo se muestra una fecha o una hora creando un formato personalizado.
 ms.openlocfilehash: 17724cfe1c26a2b3e52eea18dfef53aff027085c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815349"
@@ -18,7 +18,7 @@ ms.locfileid: "19815349"
 Aprenda a controlar cómo se muestra una fecha o una hora creando un formato personalizado.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="format-specifications"></a>Especificaciones de formato
 
@@ -62,9 +62,9 @@ La siguiente tabla muestra los caracteres que puede usar con la función [Funci�
 
 Las cadenas de formato distinguen mayúsculas de minúsculas. Se puede obtener un formato diferente con mayúsculas y minúsculas distintas. Por ejemplo, al dar formato a un valor de fecha con la cadena "D" obtiene la fecha en el formato largo (según la configuración regional actual). Sin embargo, si cambia la mayúscula a "d" obtiene la fecha en el formato corto. Además, pueden ocurrir resultados inesperados o errores si no coinciden las mayúsculas y minúsculas del formato deseado con las de cualquier cadena de formato definido.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Función Format (aplicación web personalizado de Access)](format-function-access-custom-web-app.md) 
+- [Función Format (aplicación web personalizada de Access)](format-function-access-custom-web-app.md) 
 - [Formatos numéricos personalizados para la función Format (aplicación web personalizada de Access)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
   
 

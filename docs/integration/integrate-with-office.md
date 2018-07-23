@@ -8,7 +8,7 @@ ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: Puede integrarse con Office para iOS, Office para Android, Office Online y Excel, PowerPoint o Word Mobile desde sus aplicaciones y experiencias basadas en web, permitir que los usuarios realicen una transición sin problemas para trabajar en aplicaciones Office desde soluciones de terceros.
 ms.openlocfilehash: cbd66c9ea6427826a2c043cdb4660f5d3c481efe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815986"
@@ -35,9 +35,9 @@ Si usted es un proveedor de almacenamiento en la nube, puede registrarse en nues
     
 - [Integración con Office desde aplicaciones de Android](integrate-with-office-from-android-applications.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Desarrollo de clientes de Office](https://msdn.microsoft.com/en-us/library/dn833103.aspx)
+- [Desarrollo del cliente Office](https://msdn.microsoft.com/es-ES/library/dn833103.aspx)
     
 - [Desarrollo de Office](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     

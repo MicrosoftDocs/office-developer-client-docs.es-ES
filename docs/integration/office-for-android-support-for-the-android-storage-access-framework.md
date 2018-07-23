@@ -8,7 +8,7 @@ ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office para Android se integra con el marco de acceso de almacenamiento de Android, que permite que Office abra los archivos almacenados por otro proveedor de documentos.
 ms.openlocfilehash: c217eb2aa6c0974c32e60f5015449de7b157d39d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816025"
@@ -31,9 +31,9 @@ Los usuarios pueden iniciar sesión en las aplicaciones de Office con una cuenta
 |:-----|:-----|:-----|
 |Tipo de documento  <br/> |com_microsoft_office_doctype  <br/> |\<consumidor\>  <br/> |
 |Nombre descriptivo del servicio  <br/> |com_microsoft_office_servicename  <br/> |Cualquier nombre descriptivo para el servicio, que se use para identificar un documento en la lista de elementos recientes en las aplicaciones de Office. Tenga en cuenta que se debe proporcionar la propiedad "Contrato de condiciones de uso" para que se pueda mostrar el nombre descriptivo del servicio.  <br/> |
-|Contrato de condiciones de uso  <br/> |com_microsoft_office_termsofuse  <br/> |\<Acepto los términos que se encuentran en http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Contrato de condiciones de uso  <br/> |com_microsoft_office_termsofuse  <br/> |\<Acepto los términos ubicados en http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
 - [Integración con Office](integrate-with-office.md)
