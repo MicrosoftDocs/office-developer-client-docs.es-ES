@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAutoConfigurationUserEmail
+title: Propiedad canónica PidTagAutoConfigurationUserEmail
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f7b273be8c123bd9fb9daf7993720cb36a9cbf35
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819258"
 ---
-# <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Propiedad canónico PidTagAutoConfigurationUserEmail
+# <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Propiedad canónica PidTagAutoConfigurationUserEmail
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
-Representa la dirección de correo electrónico del usuario.
+Representa la dirección de correo del usuario
   
 |||
 |:-----|:-----|

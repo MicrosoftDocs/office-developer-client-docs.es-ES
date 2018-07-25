@@ -10,7 +10,7 @@ ms.assetid: d8d41ced-c2bb-482e-b0bc-1b46c82121bd
 description: Obtiene una interfaz ISocialSession configurada automáticamente.
 ms.openlocfilehash: 7108a7e42e9b54e069d8d420283c1ebad3367830
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821128"
@@ -23,19 +23,19 @@ Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) configurada aut
 HRESULT _stdcall GetAutoConfiguredSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
-_sesión_
+_session_
   
-> [out] Una interfaz **ISocialSession** . 
+> [salida] Una interfaz **ISocialSession**. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-La interfaz devuelta de **ISocialSession** se registra automáticamente a la red, en función de un método que es específico del proveedor. 
+La interfaz **ISocialSession** devuelta se registra automáticamente en la red, basándose en un método específico para el proveedor. 
   
-El proveedor debe devolver el error OSC_E_NOT_IMPLEMENTED si la red social no admite la configuración automática. Para obtener información acerca de los códigos de error, vea [Códigos de Error de Outlook Social Connector proveedor](outlook-social-connector-provider-error-codes.md).
+El proveedor debe devolver el error OSC_E_NOT_IMPLEMENTED si la red social no admite la configuración automática. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

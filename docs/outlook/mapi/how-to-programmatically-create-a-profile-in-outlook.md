@@ -5,29 +5,29 @@ ms.date: 06/02/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
-description: This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object.
+description: En este tema se describe cómo actualizar mediante programación un perfil de Outlook 2016 agregando una propiedad MAPI a la sección emsuid del objeto Perfil.
 ms.openlocfilehash: fbd2dffc637cad022f78c9986eccd91a2c1fe4bf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817003"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>Crear mediante programación un perfil en Outlook
 
-**Se aplica a**: Office 365 | Outlook | Outlook 2016 
+**Hace referencia a**: Office 365 | Outlook | Outlook 2016 
 
-Esta documentaci�n es preliminar y est� sujeta a modificaciones. This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object. 
+En este tema se describe cómo actualizar mediante programación un perfil de Outlook 2016 agregando una propiedad MAPI a la sección **emsuid** del objeto Perfil. 
 
-In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below. 
+En MAPI, puede actualizar un perfil estableciendo la propiedad **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, como se indica en el siguiente procedimiento. 
   
 ### <a name="set-the-property-for-outlook-2016"></a>Set the property for Outlook 2016
 
 1. Make sure Outlook 2016 is property configured.
     
-2. Using the [IMAPIProp](https://msdn.microsoft.com/en-us/library/cc815525.aspx) interface, go to the Outlook Profile section. 
+2. Using the [IMAPIProp](https://msdn.microsoft.com/es-ES/library/cc815525.aspx) interface, go to the Outlook Profile section. 
     
-   This can be difficult in Outlook�s MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value. 
+   Esto puede resultar difícil en la MAPI de Outlook, ya que en 2010 y versiones posteriores ya no existe la sección de perfil global. Para buscar la sección Perfil, busque la propiedad PR_EMSMDB_SECTION_UID (0x3D150102). El valor será el GUID de la sección de perfil en un formato binario, que se usará en los pasos siguientes. Debe recordar este valor. 
     
 3. Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**. 
     
@@ -318,8 +318,8 @@ Cleanup:
 
 [MFCMAPI](http://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
   
-## <a name="see-also"></a>See also
+## <a name="see-also"></a>Vea también
 
-- [Crear un perfil de Outlook con MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
+- [Crear un perfil de Outlook con MFCMAPI](https://msdn.microsoft.com/es-ES/library/office/mt723322.aspx)
   
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
 ms.openlocfilehash: 834c4d2c2f47c6cc3f35423a7dfe3c13caf3d209
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816031"
@@ -50,7 +50,7 @@ La sintaxis de esquema incluye lo siguiente:
     
 ### <a name="abbreviated-schema"></a>Esquema abreviado
 
-Una forma abreviada de los esquemas URI de office permite para que una solicitud de más compacta iniciar una aplicación de Office especificada para abrir el recurso que se encuentra en un URI especificado. Este formulario abreviado implica el < *nombre del comando* > "ofv" y el < *descriptor del argumento de comando* > "u". No hay más comandos o argumentos de comando se permiten en este esquema. 
+Una forma abreviada de las combinaciones URI de Office permite que una solicitud más compacta inicie una aplicación de Office especificada para abrir el recurso que se encuentra en un determinado URI. Esta forma abreviada implica el < *command-name*  > "ofv" y el <  *command-argument-descriptor*  > "u". En este esquema no se admiten más comandos o argumentos de comando. 
   
 < *nombre-esquema*  >:<  *argumento-comando*  > 
   

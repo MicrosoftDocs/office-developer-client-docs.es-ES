@@ -10,7 +10,7 @@ ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: En esta sección se ofrece información sobre los primeros pasos para crear plantillas de formulario con código administrado que funcionan con el modelo de objetos de InfoPath suministrado por los miembros del espacio de nombres Microsoft.Office.InfoPath.
 ms.openlocfilehash: a4e4e8a4e01dc8d0fbfe9c5cbed0ae4b85b51e94
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19815865"
@@ -33,49 +33,49 @@ En esta sección se ofrece información sobre los primeros pasos para crear plan
   
 > Describe cómo instalar el entorno de Visual Studio 2012.
     
-[Instalación Local de .NET Framework ayuda para Visual Studio Tools para aplicaciones](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Instalar la Ayuda local de .NET Framework para Visual Studio Tools for Applications](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
   
-> Describe cómo instalar una copia local de la documentación .NET Framework para uso sin conexión para utilizarla en el entorno de Visual Studio 2012.
+> Describe cómo instalar una copia local de la documentación de .NET Framework para su uso sin conexión en el entorno de Visual Studio 2012.
     
 [Agregar un controlador de eventos](how-to-add-an-event-handler.md)
   
-> Describe cómo añadir controladores de eventos a una plantilla con código administrado de InfoPath. 
+> Describe cómo agregar controladores de eventos en una plantilla de formulario de código administrado de InfoPath. 
     
 [Obtener una vista previa y depurar plantillas de formulario de InfoPath con código](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
-> Describe cómo obtener la vista previa y depurar las plantillas de formulario con código administrado.
+> Describe cómo obtener y depurar plantillas de formulario de InfoPath de código administrado.
     
-[Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
   
-> Describe cómo obtener la vista previa y depurar las plantillas de formulario con código administrado que contienen lógica empresarial que requiera plena confianza.
+> Describe cómo obtener una vista previa y depurar plantillas de formulario de código administrado de InfoPath que contienen lógica empresarial que requiere plena confianza.
     
 [Tutorial: Crear una plantilla de formulario básica con código](walkthrough-creating-a-basic-form-template-with-code.md)
   
-> Una guía paso a paso que ofrece una introducción a cómo crear y depurar una sencilla plantilla de formulario con código administrado de InfoPath. 
+> Guía paso a paso que ofrece una introducción para crear y depurar una plantilla de formulario de código administrado de InfoPath 
     
-[Valores de registro a un campo para la depuración](how-to-log-values-to-a-field-for-debugging.md)
+[Registrar valores en un campo para la depuración](how-to-log-values-to-a-field-for-debugging.md)
   
-> Describe cómo crear un campo multilínea y una función auxiliar para registrar la información de depuración.
+> Describe cómo crear un campo de varias líneas y una función de ayuda para el registro de la información de depuración.
     
-[Abrir o convertir una plantilla de formulario creada con el Kit de herramientas de InfoPath](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
+[Abrir o convertir una plantilla de formulario creada con el kit de herramientas de InfoPath](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
   
 > Describe cómo abrir o convertir una plantilla de formulario de código administrado creada con el kit de herramientas de InfoPath 2003 y Visual Studio .NET o el kit de herramientas de InfoPath 2003 para Visual Studio 2005.
     
 [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md)
   
-> Describe cómo implementar plantillas de formulario con código administrado.
+> Describe cómo implementar plantillas de formulario de código administrado de InfoPath.
     
 [Procedimiento para trabajar con plantillas de formulario de InfoPath con código](how-do-iin-infopath-form-templates-with-code.md)
   
-> Ofrece un resumen de las tareas comunes para programadores de plantillas de formulario con código administrado de InfoPath.
+> Proporciona un resumen de las tareas comunes para programadores de plantillas de formulario de código administrado de InfoPath.
     
 [Trabajar con las clases XPathNavigator y XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
 > Ofrece un resumen de los miembros del modelo de objetos con código administrado de InfoPath que usan las clases **XPathNavigator** y **XPathNodeIterator** para trabajar con datos SLMM. 
     
-[Utilice los miembros del modelo de objetos de SharePoint](how-to-use-sharepoint-object-model-members.md)
+[Usar los miembros del modelo de objetos de SharePoint](how-to-use-sharepoint-object-model-members.md)
   
-> Describe cómo crear una referencia al ensamblado Microsoft.SharePoint para que pueda escribir código en su modelo de objetos a partir del código de formulario.
+> Describe cómo crear una referencia para el conjunto de Microsoft.SharePoint para que pueda escribir código en su modelo de objetos de código del formulario.
     
 [Publicar formularios con código](publishing-forms-with-code.md)
   

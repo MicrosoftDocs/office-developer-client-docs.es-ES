@@ -1,25 +1,25 @@
 ---
-title: Filtrar una vista mediante el uso de una macro en una aplicación de Access
+title: Cómo filtrar una vista con una macro en una aplicación de Access
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
-description: Sepa cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
+description: Obtenga información sobre cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
 ms.openlocfilehash: 9cd8c74b3949a0bb496798df663b1b42fb2868d9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815375"
 ---
-# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrar una vista mediante el uso de una macro en una aplicación de Access
+# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Cómo filtrar una vista con una macro en una aplicación de Access
 
-Sepa cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
+Obtenga información sobre cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
 
 La vista de lista predeterminada de una aplicación de Access permite filtrar los problemas de los valores que se encuentran en los campos. Puede haber ocasiones en que quiera filtrar una vista según un conjunto de condiciones, en lugar de que coincida con un valor. Para ello, debe crear una macro. En este artículo se muestra cómo crear una macro que filtre una vista para mostrar las tareas que están más allá de vencimiento o que vencerán en los próximos 7 días.
   
@@ -32,7 +32,7 @@ Para seguir los pasos de este ejemplo, necesita:
 - Un entorno de desarrollo de SharePoint 2013.
     
 > [!NOTE]
-> [!NOTA]  Para obtener más información sobre cómo configurar el entorno de desarrollo de SharePoint, consulte [Configurar un entorno de desarrollo general para SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). >  Para obtener más información sobre cómo conseguir Access 2013 y SharePoint 2013, consulte [Descargas](http://msdn.microsoft.com/en-US/office/apps/fp123627). 
+> Para obtener más información sobre cómo configurar el entorno de desarrollo de SharePoint, consulte [Configurar un entorno de desarrollo general para SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). >  Para obtener más información sobre cómo conseguir Access 2013 y SharePoint 2013, consulte [Descargas](http://msdn.microsoft.com/es-ES/office/apps/fp123627). 
   
 ## <a name="create-the-app"></a>Crear la aplicación
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
@@ -51,7 +51,7 @@ Suponga que quiere crear una aplicación de Access que siga las tareas de la emp
     
    **Figura 1. Plantillas que coinciden con la búsqueda de tareas**
 
-   ![Plantillas que coinciden con la búsqueda de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Plantillas que coinciden con la búsqueda de problemas")
+   ![Plantillas que coinciden con la búsqueda de problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Plantillas que coinciden con la búsqueda de problemas")
   
 4. Seleccione **Tareas**.
     
@@ -76,7 +76,7 @@ Los hechos importantes son:
     
 - Cómo determinar las tareas que están en curso
     
-El campo **Fecha de vencimiento** proporciona información sobre el momento en que vence una tarea. El campo **Estado** campo proporciona información del estado de cada tarea. Para hacer referencia a un campo en una macro, utilice el formato **[*TableName*]. [ *FieldName*]**. Uso **[tareas]. [ Fecha de vencimiento]** para hacer referencia al campo de **Fecha de vencimiento** y **[tareas]. [ Estado]** para hacer referencia al campo de **estado** . 
+El campo **Fecha de vencimiento** proporciona información sobre el momento en que vence una tarea. El campo **Estado** proporciona información de estado de cada tarea. Para hacer referencia a un campo de una macro, use el formato **[*TableName*].[*FieldName*]**. Use **[Tareas].[Fecha de vencimiento]** para hacer referencia al campo **Fecha de vencimiento** y **[Tareas].[Estado]** para hacer referencia al campo **Estado**. 
   
 La función [Función hoy (acceso personalizado web app)](today-function-access-custom-web-app.md) devuelve la fecha de hoy. La función [Función DateAdd (aplicación web personalizada de Access)](dateadd-function-access-custom-web-app.md) se puede usar para calcular una fecha que es un número determinado de días después de una fecha especificada. 
   
@@ -118,11 +118,11 @@ Ahora que ha determinado las personalizaciones, impleméntelas. En primer lugar 
 6. Seleccione **SetReturnVar** en el cuadro de lista **Agregar nueva acción**. 
     
     > [!NOTE]
-    > [!NOTA] Verá dos cuadros de lista **Agregar nueva acción**, un dentro del bloque **LookupRecord** y otro fuera del bloque **LookupRecord**. Debe elegir el cuadro de lista **Agregar nueva acción** del bloque **LookupRecord**, como se muestra en la figura 1. 
+    > Verá dos cuadros de lista **Agregar nueva acción**, un dentro del bloque **LookupRecord** y otro fuera del bloque **LookupRecord**. Debe elegir el cuadro de lista **Agregar nueva acción** del bloque **LookupRecord**, como se muestra en la figura 1. 
   
    **Figura 1. Cuadro de lista Agregar nueva acción**
 
-   ![Lista desplegable Agregar nueva acción] (media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Lista desplegable Agregar nueva acción")
+   ![Lista desplegable Agregar nueva acción](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Lista desplegable Agregar nueva acción")
   
 7. En el cuadro **Nombre**, escriba **TaskFound**. 
     
@@ -134,9 +134,9 @@ Ahora que ha determinado las personalizaciones, impleméntelas. En primer lugar 
     
    **Figura 2. Macro de datos TasksDueSoon**
 
-   ![Macro de datos TasksDueSoon] (media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "Macro de datos TasksDueSoon")
+   ![Macro de datos TasksDueSoon](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "Macro de datos TasksDueSoon")
   
-10. Cerrar macro Vista Diseño.
+10. Cierre la macro Vista Diseño.
     
 Ahora, estamos listos para agregar un botón personalizado a la barra de acciones.
   
@@ -152,15 +152,15 @@ Ahora, estamos listos para agregar un botón personalizado a la barra de accione
     
    **Figura 3. Botón Agregar acción personalizada**
 
-   ![Botón de agregar acción personalizada] (media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "Botón de agregar acción personalizada")
+   ![Botón Agregar acción personalizada](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "Botón Agregar acción personalizada")
   
     La nueva acción se muestra como un botón con un icono de estrella, como se muestra en la figura 4.
     
    **Figura 4. Botón Nueva barra de acciones**
 
-   ![Botón de barra de acciones de nuevo] (media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "Botón de barra de acciones de nuevo")
+   ![Botón Nueva barra de acciones](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "Botón Nueva barra de acciones")
   
-4. Seleccione el botón Barra de acciones personalizada y elija el icono **Datos**. 
+4. Seleccione el botón Barra de acciones personalizado y luego elija el icono **Datos**. 
     
     aparece el cuadro de diálogo **Datos**. 
     
@@ -176,7 +176,7 @@ Ahora podemos crear la macro de interfaz de usuario que filtrará la vista.
     
    **Figura 5. Cuadro de diálogo Datos**
 
-   ![Cuadro de diálogo datos] (media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "Cuadro de diálogo datos")
+   ![Cuadro de diálogo Datos](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "Cuadro de diálogo Datos")
   
     Se abre una macro de interfaz de usuario vacía en la macro Vista Diseño.
     
@@ -195,11 +195,11 @@ Ahora podemos crear la macro de interfaz de usuario que filtrará la vista.
 6. En el cuadro de lista **Agregar nueva acción**, seleccione **RequeryRecords**. 
     
     > [!NOTE]
-    > [!NOTA] Verá dos cuadros de lista **Agregar nueva acción**, un dentro del bloque **If** y otro fuera del bloque **If**. Debe elegir el cuadro de lista **Agregar nueva acción** del bloque **If**, como se muestra en la figura 6. 
+    > Verá dos cuadros de lista **Agregar nueva acción**, un dentro del bloque **If** y otro fuera del bloque **If**. Debe elegir el cuadro de lista **Agregar nueva acción** del bloque **If**, como se muestra en la figura 6. 
   
    **Figura 6. Cuadro de lista Agregar nueva acción**
 
-   ![Lista desplegable Agregar nueva acción] (media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Lista desplegable Agregar nueva acción")
+   ![Lista desplegable Agregar nueva acción](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Lista desplegable Agregar nueva acción")
   
 7. En el cuadro **Where**, escriba **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
     
@@ -207,9 +207,9 @@ Ahora podemos crear la macro de interfaz de usuario que filtrará la vista.
     
 9. Elija el vínculo **Agregar más** que aparece a la derecha del cuadro **Agregar nueva acción**, como se muestra en la figura 7. 
     
-   **Figura 7. Vínculo Agregar más**
+   **Figura 7. Vínculo Agregar Else**
 
-   ![Vínculo Agregar Else] (media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Vínculo Agregar Else")
+   ![Vínculo Agregar Else](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Vínculo Agregar Else")
   
     Se agrega una cláusula Else al bloque If.
     
@@ -223,7 +223,7 @@ Ahora podemos crear la macro de interfaz de usuario que filtrará la vista.
     
     **Figura 8. Macro de interfaz de usuario para filtrar la vista**
 
-    ![Macro de UI para filtrar la vista] (media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "Macro de UI para filtrar la vista")
+    ![Macro de interfaz de usuario para filtrar la vista](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "Macro de interfaz de usuario para filtrar la vista")
   
 13. Cierre la macro Vista Diseño.
     
@@ -263,12 +263,12 @@ Ahora podemos crear la macro de interfaz de usuario que quitará el filtro de la
     
 Ahora podemos personalizar el texto. Elija **Iniciar aplicación** para abrir la aplicación en el explorador web y seleccione el botón Barra de acciones FilterTasks personalizado. Se mostrarán las tareas que hayan vencido o que vencerán en los próximos 7 días. Si la aplicación no contiene tareas urgentes, se muestra un mensaje. 
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusión
 
 Puede usar la acción de macro **RequeryRecords** en una macro de interfaz de usuario para filtrar la vista según los criterios que elija. Dependiendo del comportamiento que quiera, es posible que quiera crear una macro de datos para comprobar que un registro cumple con los criterios antes de usar la acción de macro **RequeryRecords**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Nuevo en Access para desarrolladores](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [Novedades para desarrolladores de Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

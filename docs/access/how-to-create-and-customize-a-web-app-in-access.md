@@ -8,7 +8,7 @@ localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815360"
@@ -16,7 +16,7 @@ ms.locfileid: "19815360"
 # <a name="create-and-customize-a-web-app-in-access"></a>Crear y personalizar una aplicación web en Access
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 Access 2013 incluye un nuevo modelo de aplicación que permite a los expertos en la materia crear rápidamente aplicaciones web. Con Access se incluye un conjunto de plantillas que puede usar para iniciar la creación de su aplicación.
 
@@ -24,15 +24,15 @@ Access 2013 incluye un nuevo modelo de aplicación que permite a los expertos en
 
 ## <a name="prerequisites-for-building-an-app-with-access-2013"></a>Requisitos previos para la creación de una aplicación con Access 2013
 
-Para realizar los pasos de este ejemplo, necesita los elementos siguientes:
+Para seguir los pasos de este ejemplo, necesita lo siguiente:
   
 - Access
     
 - Un entorno de desarrollo de SharePoint.
     
-Para obtener más información acerca de cómo configurar el entorno de desarrollo de SharePoint, vea [configurar un entorno de desarrollo general de SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
+Para obtener más información sobre cómo configurar el entorno de desarrollo de SharePoint, vea [Configurar un entorno de desarrollo general para SharePoint](https://docs.microsoft.com/es-ES/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-Para obtener más información acerca de cómo obtener acceso y SharePoint, vea [descargas](http://msdn.microsoft.com/en-US/office/apps/fp123627).
+Para obtener más información sobre cómo conseguir Access y SharePoint, vea [Descargas](http://msdn.microsoft.com/es-ES/office/apps/fp123627).
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -52,7 +52,7 @@ Supongamos que desea crear una aplicación de Access que hace un seguimiento de 
     
    **Figura 1. Plantillas que coinciden con la búsqueda de problemas**
 
-   ![Plantillas que coinciden con la búsqueda de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Plantillas que coinciden con la búsqueda de problemas")
+   ![Plantillas que coinciden con la búsqueda de problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Plantillas que coinciden con la búsqueda de problemas")
   
 4. Elija **Problemas**.
     
@@ -71,7 +71,7 @@ El campo **Cliente** está relacionado con la tabla **Clientes**. Para examinar 
   
 **Figura 2. Asistente para búsquedas que muestra la relación con la tabla Clientes**
 
-![Asistente para búsquedas que muestra la relación] (media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Asistente para búsquedas que muestra la relación")
+![Asistente para búsquedas que muestra la relación](media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Asistente para búsquedas que muestra la relación")
   
 En el cuadro de diálogo Asistente para búsquedas se muestra que el campo **Cliente** está vinculado a la tabla **Clientes** y que se debe devolver el campo **Nombre para mostrar, Nombre Apellidos** de la tabla **Clientes**. 
   
@@ -81,7 +81,7 @@ Cierre la tabla **Problemas** y examine el panel de icono. Los tres iconos super
   
 **Figura 3. Panel de icono del esquema Problemas**
 
-![Panel de icono para el esquema de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Panel de icono para el esquema de problemas")
+![Panel de icono del esquema Problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Panel de icono del esquema Problemas")
   
 Las tablas **Problemas relacionados** y **Comentarios sobre el problema** están atenuadas porque no deben mostrarse al usuario en el explorador web. 
   
@@ -93,7 +93,7 @@ Use el Selector de vistas para elegir una de las tres vistas disponibles para la
   
 **Figura 4. Selector de vistas**
 
-![Selector de vistas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Selector de vistas")
+![Selector de vistas](media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Selector de vistas")
   
 Si elige **Lista**, se activará la vista **Lista de clientes**, que es una vista de detalles de la lista. La vista de detalles de la lista es una de las vistas que Access genera automáticamente al crear una tabla. La principal característica que diferencia una vista de detalles de la lista es el panel de listas que aparecen en el lado izquierdo de la vista. El panel de vistas se usa para filtrar los registros de la vista y navegar por ellos. En una base de datos de escritorio de Access, la implementación de una vista de lista en la que se permiten búsquedas requeriría la redacción de código personalizado. 
   
@@ -105,13 +105,13 @@ A medida que agregue clientes, use la barra de acciones para agregar, editar, gu
   
 **Figura 5. Barra de acciones**
 
-![Barra de acciones] (media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barra de acciones")
+![Barra de acciones](media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barra de acciones")
   
 Cuando haya agregado algunos clientes y empleados, abra la vista Lista de problemas y comience a agregar un problema. A medida que escriba el nombre de un cliente en el cuadro cliente, aparecerán uno o más nombres de cliente, tal como se muestra en la figura 6.
   
 **Figura 6. Control Autocompletar**
 
-![Control Autocompletar] (media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Control Autocompletar")
+![Control Autocompletar](media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Control Autocompletar")
   
 El cuadro Cliente es un control de tipo autocompletar, que muestra una lista de registros que coinciden con lo que esté escribiendo en el cuadro. Esto ayuda a garantizar la precisión de la entrada de datos.
   
@@ -153,11 +153,11 @@ Ahora que disponemos de un campo en el que almacenar el número de teléfono, cr
 7. Seleccione **SetReturnVar** de la lista desplegable **Agregar nueva acción**. 
     
     > [!NOTE]
-    > [!NOTA] Verá dos listas desplegables **Agregar nueva acción**, una en el bloque **LookupRecord** y otra fuera del bloque **LookupRecord**. Debería elegir la lista desplegable **Agregar nueva acción** dentro del bloque **LookupRecord**, tal como se muestra en la figura 7. 
+    > Verá dos listas desplegables **Agregar nueva acción**, una en el bloque **LookupRecord** y otra fuera del bloque **LookupRecord**. Debería elegir la lista desplegable **Agregar nueva acción** dentro del bloque **LookupRecord**, tal como se muestra en la figura 7. 
   
    **Figura 7. Lista desplegable Agregar nueva acción**
 
-   ![Lista desplegable Agregar nueva acción] (media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Lista desplegable Agregar nueva acción")
+   ![Lista desplegable Agregar nueva acción](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Lista desplegable Agregar nueva acción")
   
 8. En el cuadro **Nombre**, escriba **ContactPhone**. 
     
@@ -169,7 +169,7 @@ Ahora que disponemos de un campo en el que almacenar el número de teléfono, cr
     
     **Figura 8. Macro de datos GetContactPhone**
 
-    ![Macro de datos GetContactPhone] (media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macro de datos GetContactPhone")
+    ![Macro de datos GetContactPhone](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macro de datos GetContactPhone")
   
 11. Cierre la macro Vista Diseño.
     
@@ -217,31 +217,31 @@ Ahora debemos escribir una macro de interfaz de usuario (UI) que copia el campo 
     
 9. En el cuadro **Valor**, escriba **=[Teléfono]**. 
     
-10. Haga clic en **Guardar**.
+10. Seleccione **Guardar**.
     
     La macro debería tener el aspecto de la macro que se muestra en la figura 9.
     
     **Figura 9. Macro Después de actualizar**
 
-    ![Macro después de actualizar] (media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro después de actualizar")
+    ![Macro Después de actualizar](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro Después de actualizar")
   
-11. Cerrar macro Vista Diseño.
+11. Cierre la macro Vista Diseño.
     
 12. Cierre la vista Lista de problemas. Seleccione **Sí** cuando se le solicite guardar los cambios. 
     
-Ahora está listo para la personalización. Haga clic en **Iniciar aplicación** para abrir la aplicación en el explorador web y luego agregue un problema nuevo. El **Número de contacto** cuadro se actualiza automáticamente después de especifica el nombre del cliente, tal como se muestra en la figura 10. 
+Ahora tiene todo preparado para escribir la personalización. Haga clic en **Iniciar aplicación** para abrir la aplicación en el explorador web y después agregue un nuevo problema. El cuadro **Número de contacto** se actualizará automáticamente después de que escriba el nombre del cliente, tal como se muestra en la figura 10. 
   
 **Figura 10. Vista Problemas actualizada con el número de teléfono**
 
-![Vista de problemas actualizada con el número de teléfono] (media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Vista de problemas actualizada con el número de teléfono")
+![Vista Problemas actualizada con el número de teléfono](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Vista Problemas actualizada con el número de teléfono")
   
 ## <a name="conclusion"></a>Conclusión
 
 El uso de una de las plantillas de esquema incluidas con es una buena manera de iniciar la creación de una aplicación web de Access. Las vistas que se crean automáticamente incluyen funciones avanzadas que requieren código personalizado que se debe implementar en una base de datos de escritorio de Access. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Nuevo en Access para desarrolladores](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Novedades para desarrolladores de Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Referencia de la aplicación de acceso web personalizados](access-custom-web-app-reference.md)
   
 

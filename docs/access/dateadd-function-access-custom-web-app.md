@@ -1,5 +1,5 @@
 ---
-title: Función DateAdd (aplicación web personalizado de Access)
+title: Función DateAdd (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -8,23 +8,23 @@ ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: Devuelve una fecha especificada con el intervalo especificado de número (entero positivo o negativo) que se agrega a una parte de fecha especificada de la fecha.
 ms.openlocfilehash: a2baa58a2ccab7d030750d03d4fddb84e8eb8ff7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815348"
 ---
-# <a name="dateadd-function-access-custom-web-app"></a>Función DateAdd (aplicación web personalizado de Access)
+# <a name="dateadd-function-access-custom-web-app"></a>Función DateAdd (aplicación web personalizada de Access)
 
 Devuelve una fecha especificada con el intervalo especificado de número (entero positivo o negativo) que se agrega a una parte de fecha especificada de la fecha.
   
 > [!NOTE]
-> [!NOTA] La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
-**DateAdd** (*DatePart*, *número*, *fecha*) 
+**DateAdd** (*DatePart*, *Number*, *Date*) 
   
-La función **AgregFecha** contiene los siguientes argumentos. 
+La función **DateAdd** contiene los siguientes argumentos. 
   
 |**Nombre del argumento**|**Descripción**|
 |:-----|:-----|
