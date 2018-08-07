@@ -38,7 +38,7 @@ La documentación del SDK contiene las siguientes secciones:
     
 - [Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
     
-- [Desarrollo de conectores de cl�ster de Excel de 2013](developing-excel-cluster-connectors.md)
+- [Desarrollar conectores clúster de Excel](developing-excel-cluster-connectors.md)
     
 - [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
     
