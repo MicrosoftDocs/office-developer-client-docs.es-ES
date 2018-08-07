@@ -54,7 +54,7 @@ Se puede asignar un bloque de memoria en uno de los tipos que apuntan a memoria 
     
 - Puede ser un bloque estático dentro del DLL dentro de algún código de la función, en cuyo caso no tiene que asignar o liberar memoria.
     
-- El DLL puede asignarlo y liberarlo de forma din�mica de distintas formas: **malloc** y **free**, **new** y **delete**, etc.
+- El DLL puede asignarlo y liberarlo de forma dinámica de distintas formas: **malloc** y **free**, **new** y **delete**, etc.
     
 - Excel puede asignarlo de forma dinámica.
     
@@ -80,7 +80,7 @@ Dado el número de posibles orígenes de la memoria **XLOPER**/ **XLOPER12** y e
 
 - Sea coherente en el DLL del método que usa para asignar y liberar memoria. Evite mezclar métodos. Un buen enfoque es ajustar el método que use en una clase o estructura de memoria, en el que puede cambiar el método usado sin alterar el código en muchos lugares.
     
-- Al crear matrices de **xltypeMulti** dentro del DLL, sea coherente en la forma en que asigna memoria para las cadenas: asigne siempre din�micamente la memoria para ellos o use siempre la memoria est�tica. Para ello, al liberar memoria, sabr� que debe liberar siempre o nunca las cadenas. 
+- Al crear matrices de **xltypeMulti** dentro del DLL, sea coherente en la forma en que asigna memoria para las cadenas: asigne siempre dinámicamente la memoria para ellos o use siempre la memoria estática. Para ello, al liberar memoria, sabrá que debe liberar siempre o nunca las cadenas. 
     
 - Haga copias en profundidad de memoria asignada a Excel al copiar un **XLOPER**/ **XLOPER12** creado en Excel.
     
@@ -88,7 +88,7 @@ Dado el número de posibles orígenes de la memoria **XLOPER**/ **XLOPER12** y e
     
 ## <a name="freeing-excel-allocated-xloperxloper12-memory"></a>Liberar memoria XLOPER o XLOPER12 asignada a Excel
 
-Tenga en cuenta el siguiente comando XLL que usa **xlGetName** para obtener una cadena que contenga la ruta de acceso y el nombre del DLL y que los muestra en un cuadro de di�logo de alerta con **xlcAlert**.
+Tenga en cuenta el siguiente comando XLL que usa **xlGetName** para obtener una cadena que contenga la ruta de acceso y el nombre del DLL y que los muestra en un cuadro de diálogo de alerta con **xlcAlert**.
   
 ```cs
 int WINAPI show_DLL_name(void)
@@ -108,7 +108,7 @@ int WINAPI show_DLL_name(void)
 
 Cuando la función ya no necesita la memoria a la que **xDllName** apunta, puede liberarla con una llamada a la [función xlFree](xlfree.md), una de las funciones de la API de C solo de DLL. 
   
-La función **xlFree** se documenta en la secci�n de referencia de la función (consulte [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)), pero tenga en cuenta lo siguiente:
+La función **xlFree** se documenta en la sección de referencia de la función (consulte [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)), pero tenga en cuenta lo siguiente:
   
 - Puede pasar punteros a más de un **XLOPER**/ **XLOPER12** en una sola llamada a **xlFree**, limitado solo por el número de argumentos de función admitidos en la versión en ejecución de Excel (30 en Excel 2003, 255 a partir de Excel 2007).
     
@@ -184,7 +184,7 @@ LPXLOPER12 WINAPI get_DLL_name_2(int calculation_trigger)
 }
 ```
 
-Una implementaci�n m�nima suficiente de **xlAutoFree12** en el XLL que exporta la función anterior ser�a la siguiente. 
+Una implementación mínima suficiente de **xlAutoFree12** en el XLL que exporta la función anterior sería la siguiente. 
   
 ```cs
 void WINAPI xlAutoFree12(LPXLOPER12 p_oper)
@@ -194,11 +194,11 @@ void WINAPI xlAutoFree12(LPXLOPER12 p_oper)
 }
 ```
 
-Esta implementaci�n solo es suficiente si el XLL solo devuelve la cadena **XLOPER12** y estas cadenas solo se asignan con **malloc**. Tenga en cuenta que la prueba 
+Esta implementación solo es suficiente si el XLL solo devuelve la cadena **XLOPER12** y estas cadenas solo se asignan con **malloc**. Tenga en cuenta que la prueba 
   
  ` if(p_oper->xltype == xltypeStr) `
   
-producir� un error en este caso porque **xlbitDLLFree** est� configurado. 
+producirá un error en este caso porque **xlbitDLLFree** está configurado. 
   
 En general, **xlAutoFree** y **xlAutoFree12** se deben implementar para que liberen la memoria asociada con las matrices de **xltypeMulti** creadas con XLL y las referencias externas de **xltypeRef**. 
   
@@ -245,7 +245,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 p_oper)
 }
 ```
 
-Para obtener m�s información de **xlAutoFree** y **xlAutoFree12**, consulte [xlAutoFree/xlAutoFree12](xlautofree-xlautofree12.md).
+Para obtener más información de **xlAutoFree** y **xlAutoFree12**, consulte [xlAutoFree/xlAutoFree12](xlautofree-xlautofree12.md).
   
 ## <a name="returning-modify-in-place-arguments"></a>Devolver argumentos Modificación local
 
@@ -257,12 +257,12 @@ Este método de devolución de un valor se admite con todos los tipos de datos q
     
 - Cadenas de caracteres anchos Unicode de longitud contada y terminada en valor nulo (a partir de Excel 2007)
     
-- Matrices **FP** de n�mero de punto flotante 
+- Matrices **FP** de número de punto flotante 
     
-- Matrices **FP12**de n�mero de punto flotante (a partir de Excel 2007) 
+- Matrices **FP12**de número de punto flotante (a partir de Excel 2007) 
     
 > [!NOTE]
-> No debe intentar devolver **XLOPER** o **XLOPER12** de este modo. Para obtener m�s información, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md). 
+> No debe intentar devolver **XLOPER** o **XLOPER12** de este modo. Para obtener más información, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md). 
   
 La ventaja de usar esta técnica, en lugar de solo usar la instrucción return, es que Excel asigna la memoria para los valores devueltos. Una vez que termina la lectura de los datos devueltos, libera la memoria. Esto aleja las tareas de administración de memoria de la función XLL. Esta técnica es segura para subprocesos: si Excel lo llama simultáneamente en subprocesos distintos, cada llamada a la función de cada subproceso tiene su propio búfer.
   
@@ -286,7 +286,7 @@ Los programadores de C/C ++ están más familiarizados con las cadenas terminada
   
 Los problemas más comunes son los siguientes:
   
-- Pasar un puntero nulo o no v�lido a una función que espera un puntero v�lido y no tiene o no puede comprobar la validez del puntero.
+- Pasar un puntero nulo o no válido a una función que espera un puntero válido y no tiene o no puede comprobar la validez del puntero.
     
 - Saturar los límites de un búfer de cadena por una función que no tiene o no puede comprobar la longitud del búfer con la longitud de la cadena que se escribe.
     
@@ -319,7 +319,7 @@ Al igual que con los **XLOPER**/ **XLOPER**, hay reglas e instrucciones que debe
 |Primer byte (no asignado) = longitud  <br/> |Primer carácter Unicode = longitud  <br/> |
    
 > [!IMPORTANT]
-> No asuma la terminaci�n null de las cadenas **XLOPER** o **XLOPER12**. 
+> No asuma la terminación null de las cadenas **XLOPER** o **XLOPER12**. 
   
 **Cadenas C/C++**
 
@@ -330,13 +330,13 @@ Al igual que con los **XLOPER**/ **XLOPER**, hay reglas e instrucciones que debe
    
 ### <a name="strings-in-xltypemulti-xloperxloper12-arrays"></a>Cadenas de las matrices XLOPER o XLOPER12 de xltypeMulti
 
-En muchos casos, Excel crea una matriz **xltypeMulti** para su uso en los XLL o DLL. Varias de las funciones de información XLM devuelven estas matrices. Por ejemplo, la función de la API de C **xlfGetWorkspace**, cuando pasa el argumento  *44*  , devuelve una matriz que contiene las cadenas que describen todos los procedimientos DLL registrados actualmente. La función de la API de C **xlfDialogBox** devuelve una copia modificada del argumento de la matriz, que contiene copias en profundidad de las cadenas. Posiblemente, el modo m�s com�n en que un XLL encuentra una matriz de **xltypeMulti** es donde se ha pasado como argumento a una función XLL, o se ha forzado para este tipo desde una referencia de rango. En estos �ltimos casos, Excel crea copias en profundidad de las cadenas en las celdas de origen y apunta a estos dentro de la matriz. 
+En muchos casos, Excel crea una matriz **xltypeMulti** para su uso en los XLL o DLL. Varias de las funciones de información XLM devuelven estas matrices. Por ejemplo, la función de la API de C **xlfGetWorkspace**, cuando pasa el argumento  *44*  , devuelve una matriz que contiene las cadenas que describen todos los procedimientos DLL registrados actualmente. La función de la API de C **xlfDialogBox** devuelve una copia modificada del argumento de la matriz, que contiene copias en profundidad de las cadenas. Posiblemente, el modo más común en que un XLL encuentra una matriz de **xltypeMulti** es donde se ha pasado como argumento a una función XLL, o se ha forzado para este tipo desde una referencia de rango. En estos últimos casos, Excel crea copias en profundidad de las cadenas en las celdas de origen y apunta a estos dentro de la matriz. 
   
 Debe hacer sus propias copias en profundidad donde desee modificar estas cadenas en el DLL. Al crear su propias matrices **xltypeMulti**, no debe colocar las cadenas asignadas a Excel **XLOPER**/ **XLOPER12** en ellas. Hacer esto implica el riesgo de no liberarlas correctamente más adelante, o no liberarlas en absoluto. De nuevo, debe hacer copias en profundidad de las cadenas y los punteros de almacenamiento para las copias de la matriz.
   
  **Ejemplos**
   
-La siguiente función del ejemplo crea una copia asignada din�micamente de una cadena Unicode de longitud contada. Tenga en cuenta que, en �ltima instancia, el llamador debe liberar la memoria asignada en este ejemplo con **delete**[], y que no se supone que la cadena de origen termine en null. La cadena de copia se trunca si es necesario por motivos de seguridad y no termina en null.
+La siguiente función del ejemplo crea una copia asignada dinámicamente de una cadena Unicode de longitud contada. Tenga en cuenta que, en última instancia, el llamador debe liberar la memoria asignada en este ejemplo con **delete**[], y que no se supone que la cadena de origen termine en null. La cadena de copia se trunca si es necesario por motivos de seguridad y no termina en null.
   
 ```cs
 #include <string.h>
@@ -361,7 +361,7 @@ wchar_t * deep_copy_wcs(const wchar_t *p_source)
 }
 ```
 
-Luego, esta función se puede usar con seguridad para copiar **XLOPER12**, como se muestra en la siguiente función XLL que se puede exportar y que devuelve una copia de su argumento, si es una cadena. El resto de tipos se devuelve como una cadena de longitud cero. Tenga en cuenta que no se gestionan los rangos; la función devuelve **#VALUE!**. se debe registrar la función como que toma un argumento de tipo U, de modo que las referencias se pasen como valores. Esto es igual a la función de hoja de cálculo integrada **T()**, excepto en que **AsText** tambi�n convierte los errores en cadenas de longitud cero. Este ejemplo de códigoasume que **xlAutoFree12** libera el puntero pasado, y tambi�n su contenido, con **delete**.
+Luego, esta función se puede usar con seguridad para copiar **XLOPER12**, como se muestra en la siguiente función XLL que se puede exportar y que devuelve una copia de su argumento, si es una cadena. El resto de tipos se devuelve como una cadena de longitud cero. Tenga en cuenta que no se gestionan los rangos; la función devuelve **#VALUE!**. se debe registrar la función como que toma un argumento de tipo U, de modo que las referencias se pasen como valores. Esto es igual a la función de hoja de cálculo integrada **T()**, excepto en que **AsText** también convierte los errores en cadenas de longitud cero. Este ejemplo de código asume que **xlAutoFree12** libera el puntero pasado, y también su contenido, con **delete**.
   
 ```cs
 LPXLOPER12 WINAPI AsText(LPXLOPER12 pArg)
@@ -398,18 +398,18 @@ LPXLOPER12 WINAPI AsText(LPXLOPER12 pArg)
 
 ### <a name="returning-modify-in-place-string-arguments"></a>Devolver argumentos de cadena Modificación local
 
-Los argumentos registrados como tipos **F**, **G**, **F%** y **G%** se pueden modificar de forma local. Cuando Excel prepara argumentos de cadena para estos tipos, se crea un b�fer de longitud m�xima. Luego, copia la cadena del argumento en �l, incluso si esta cadena es mucho m�s corta. Esto permite que la función XLL escriba el valor devuelto directamente en la misma memoria. 
+Los argumentos registrados como tipos **F**, **G**, **F%** y **G%** se pueden modificar de forma local. Cuando Excel prepara argumentos de cadena para estos tipos, se crea un búfer de longitud máxima. Luego, copia la cadena del argumento en él, incluso si esta cadena es mucho más corta. Esto permite que la función XLL escriba el valor devuelto directamente en la misma memoria. 
   
 Los tamaños de búfer configurados aparte para estos tipos son los siguientes:
   
-- **Cadenas de bytes:** 256 bytes, incluido el contador de longitud (tipo G) o la terminaci�n null (tipo F). 
+- **Cadenas de bytes:** 256 bytes, incluido el contador de longitud (tipo G) o la terminación null (tipo F). 
     
-- **Cadenas Unicode:** 32.768 caracteres anchos (65.536 bytes), incluido el contador de longitud (tipo G%) o la terminaci�n null (tipo F%). 
+- **Cadenas Unicode:** 32.768 caracteres anchos (65.536 bytes), incluido el contador de longitud (tipo G%) o la terminación null (tipo F%). 
     
 > [!NOTE]
 > No puede llamar a esta función directamente desde Visual Basic para aplicaciones (VBA) porque no puede garantizar que se haya asignado un búfer suficientemente grande. Solo puede llamar de forma segura a esta función desde otra DLL si pasa explícitamente un búfer lo suficientemente grande. 
   
-Este es un ejemplo de una función XLL que invierte una cadena de caracteres anchos terminada en null con la función de biblioteca est�ndar **wcsrev**. El argumento en este caso se registrar� como tipo **F%**.
+Este es un ejemplo de una función XLL que invierte una cadena de caracteres anchos terminada en null con la función de biblioteca estándar **wcsrev**. El argumento en este caso se registrará como tipo **F%**.
   
 ```cs
 void WINAPI reverse_text_xl12(wchar_t *text)
@@ -422,7 +422,7 @@ void WINAPI reverse_text_xl12(wchar_t *text)
 
 Los nombres binarios se definen y asocian con bloques de archivos binarios, es decir, datos no estructurados almacenados con el libro. Se crean con la función [xlDefineBinaryName](xldefinebinaryname.md) y los datos se recuperan con la función [xlGetBinaryName](xlgetbinaryname.md). Ambas funciones se describen con más detalle en la referencia de función (vea [Funciones de la API de C que pueden llamarse solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)), y que usan el **XLOPER**/ **XLOPER12** **xltypeBigData**. 
   
-Para obtener información sobre los problemas conocidos que limitan las aplicaciones pr�cticas de los nombres binarios, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Para obtener información sobre los problemas conocidos que limitan las aplicaciones prácticas de los nombres binarios, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="excel-stack"></a>Pila de Excel
 
@@ -436,9 +436,9 @@ Excel comparte su espacio de pila con todos los DLL que tiene cargados. Normalme
     
 - No llame a las funciones recursivamente a menos que esté seguro de que la profundidad de la recursividad sea siempre superficial. En su lugar, intente usar un bucle.
     
-Cuando un archivo DLL devuelve la llamada a Excel con la API de C, Excel comprueba primero si hay suficiente espacio en la pila para la peor llamada de uso que se pueda realizar. Si piensa que no puede haber espacio suficiente, la llamada no ser� segura, aunque sea posible que realmente haya suficiente espacio para esa llamada concreta. En este caso, las devoluciones de llamada devuelven el código**xlretFailed**. Para el uso normal de la API de C y la pila, esta no es una causa probable del error de una llamada a la API de C.
+Cuando un archivo DLL devuelve la llamada a Excel con la API de C, Excel comprueba primero si hay suficiente espacio en la pila para la peor llamada de uso que se pueda realizar. Si piensa que no puede haber espacio suficiente, la llamada no será segura, aunque sea posible que realmente haya suficiente espacio para esa llamada concreta. En este caso, las devoluciones de llamada devuelven el código**xlretFailed**. Para el uso normal de la API de C y la pila, esta no es una causa probable del error de una llamada a la API de C.
   
-Si le preocupa o le interesa, quiere eliminar la falta de espacio de pila como un motivo de un error inesperado, puede averiguar cu�nto espacio de pila hay con una llamada a la función [xlStack](xlstack.md). 
+Si le preocupa o le interesa, quiere eliminar la falta de espacio de pila como un motivo de un error inesperado, puede averiguar cuánto espacio de pila hay con una llamada a la función [xlStack](xlstack.md). 
   
 ## <a name="see-also"></a>Vea también
 
@@ -446,7 +446,7 @@ Si le preocupa o le interesa, quiere eliminar la falta de espacio de pila como u
 
 [Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
   
-[Subprocesamiento m�ltiple y la contenci�n de memoria en Excel](multithreading-and-memory-contention-in-excel.md)
+[Multiproceso y conflictos de memoria en Excel](multithreading-and-memory-contention-in-excel.md)
   
 [Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
 

@@ -28,7 +28,7 @@ El usuario puede desencadenar la actualización en Microsoft Excel de varias man
     
 - Eliminar o insertar una fila o columna.
     
-- Guardar un libro mientras la opci�n **Recalcular antes de guardar** est� configurada. 
+- Guardar un libro mientras la opción **Recalcular antes de guardar** está configurada. 
     
 - Realizar determinadas acciones Filtro automático.
     
@@ -57,17 +57,17 @@ En Excel, el cálculo de hojas de cálculo se puede ver como un proceso de tres 
     
 El árbol de dependencias informa a Excel de las celdas que dependen de otras, o de igual forma, las celdas que son precedentes para otras. Desde este árbol, Excel construye una cadena de cálculo. La cadena de cálculo muestra todas las celdas que contienen fórmulas en el orden en que se deben calcular. Durante la actualización, Excel revisa esta cadena si encuentra una fórmula que depende de una celda que aún no se ha calculado. En este caso, la celda que se calcula y sus dependientes se mueven hacia abajo en la cadena. Por este motivo, a menudo se pueden mejorar los tiempos de cálculo en una hoja de cálculo que se ha abierto en los primeros ciclos de cálculo.
   
-Cuando se realiza un cambio estructural en un libro, por ejemplo, cuando se introduce una nueva fórmula, Excel reconstruye la cadena de cálculo y el �rbol de dependencias. Cuando se introducen nuevos datos o fórmulas, Excel marca todas las celdas que dependen de los nuevos datos seg�n necesiten actualizarse. Las celdas marcadas como de esta forma se conocen como  *desfasadas*  . Todos los dependientes directos e indirectos se marcan como desfasados, de modo que si B1 depende de A1 y C1 depende de B1, al cambiar A1, B1 y C1 se marcan como desfasados. 
+Cuando se realiza un cambio estructural en un libro, por ejemplo, cuando se introduce una nueva fórmula, Excel reconstruye la cadena de cálculo y el árbol de dependencias. Cuando se introducen nuevos datos o fórmulas, Excel marca todas las celdas que dependen de los nuevos datos según necesiten actualizarse. Las celdas marcadas como de esta forma se conocen como  *desfasadas*  . Todos los dependientes directos e indirectos se marcan como desfasados, de modo que si B1 depende de A1 y C1 depende de B1, al cambiar A1, B1 y C1 se marcan como desfasados. 
   
 Si una celda depende, directa o indirectamente, de sí misma, Excel detecta la referencia circular y advierte al usuario. Normalmente es una condición de error que el usuario debe corregir y Excel proporciona herramientas gráficas y navegación muy útiles para ayudar a los usuarios a encontrar el origen de la dependencia circular. En algunos casos, es posible que quiera que esta condición exista deliberadamente. Por ejemplo, puede que quiera ejecutar un cálculo iterativo donde el punto de inicio para la siguiente iteración sea el resultado de la iteración anterior. Excel admite el control de los cálculos iterativos mediante el cuadro de diálogo Opciones de cálculo.
   
 Después de marcar las celdas como desfasadas, después de realizar la actualización a continuación, Excel vuelve a evaluar el contenido de cada celda desfasada en el orden determinado por la cadena de cálculo. En el ejemplo anterior, esto significa que B1 es la primera y C1 la siguiente. Esta actualización ocurre inmediatamente después de que Excel termine de marcar las celdas como desfasadas si el modo de actualización es automático; de lo contrario, ocurre posteriormente.
   
-A partir de Microsoft Excel 2002, el objeto **Range** de Microsoft Visual Basic para aplicaciones (VBA) admite un m�todo, **Range.Dirty**, que marca las celdas como que necesitan un cálculo. Cuando se usa junto con el m�todo **Range.Calculate** (consulte la siguiente secci�n), permite la actualizaci�n forzada de las celdas de un rango determinado. Esto resulta �til al realizar un cálculo limitado durante una macro, donde se configura el modo de cálculo manual, para evitar la sobrecarga de celdas de cálculo no relacionadas con la función de la macro. Los m�todos de cálculo del rango no est�n disponibles a trav�s de la API de C. 
+A partir de Microsoft Excel 2002, el objeto **Range** de Microsoft Visual Basic para aplicaciones (VBA) admite un método, **Range.Dirty**, que marca las celdas como que necesitan un cálculo. Cuando se usa junto con el método **Range.Calculate** (consulte la siguiente sección), permite la actualización forzada de las celdas de un rango determinado. Esto resulta útil al realizar un cálculo limitado durante una macro, donde se configura el modo de cálculo manual, para evitar la sobrecarga de celdas de cálculo no relacionadas con la función de la macro. Los métodos de cálculo del rango no están disponibles a través de la API de C. 
   
 En Excel 2002 y versiones anteriores, Excel compila una cadena de cálculo para cada hoja de cálculo de cada libro abierto. Esto resultaba complejo en la forma en que se gestionaban los vínculos entre hojas de cálculo y necesitaba cierto cuidado para garantizar una actualización eficaz. En concreto, en Excel 2000, debería minimizar las dependencias entre hojas de cálculo y las hojas de cálculo de nombres en orden alfabético para que las hojas que dependían de otras hojas aparecieran alfabéticamente después de las hojas de las que dependían.
   
-En Excel 2007, se ha mejorado la l�gica para habilitar la actualizaci�n en varios subprocesos para que las secciones de la cadena de cálculo no sean interdependientes y se puedan calcular a la vez. Puede configurar Excel para usar varios subprocesos en un equipo con procesador �nico o en un �nico subproceso de un equipo con varios procesadores o varios n�cleos. 
+En Excel 2007, se ha mejorado la lógica para habilitar la actualización en varios subprocesos para que las secciones de la cadena de cálculo no sean interdependientes y se puedan calcular a la vez. Puede configurar Excel para usar varios subprocesos en un equipo con procesador único o en un único subproceso de un equipo con varios procesadores o varios núcleos. 
   
 ## <a name="asynchronous-user-defined-functions-udfs"></a>Funciones asincrónicas definidas por el usuario (UDF)
 
@@ -110,7 +110,7 @@ De forma predeterminada, Excel asume que las UDF de VBA no son volátiles. Excel
   
 Con la API de C, puede registrar una función XLL como volátil antes de la primera llamada. También le permite alternar el estado volátil de una función de hoja de cálculo.
   
-De forma predeterminada, Excel trata las UDF de XLL que toman argumentos de rango y que se declaran como equivalentes de hojas macros como vol�tiles. Puede desactivar este estado predeterminado con la función **xlfVolatile** al llamar a la UDF por primera vez. 
+De forma predeterminada, Excel trata las UDF de XLL que toman argumentos de rango y que se declaran como equivalentes de hojas macros como volátiles. Puede desactivar este estado predeterminado con la función **xlfVolatile** al llamar a la UDF por primera vez. 
   
 ## <a name="calculation-modes-commands-selective-recalculation-and-data-tables"></a>Modos de cálculo, comandos, actualización selectiva y tablas de datos
 
@@ -124,7 +124,7 @@ Excel tiene tres modos de cálculo:
     
 Cuando se configura el cálculo en automático, la actualización ocurre después de cada entrada de datos y de determinados eventos, como los ejemplos de la sección anterior. Los libros grandes, el tiempo de actualización podría ser tan largo que los usuarios deberían limitar el momento en que esto ocurre, es decir, actualizar solo cuando sea necesario. Para habilitarlo, Excel admite el modo manual. El usuario puede seleccionar el modo en el sistema de menús de Excel o mediante programación con la API de C, COM o VBA.
   
-Las tablas de datos son estructuras especiales de una hoja de cálculo. En primer lugar, el usuario configura el cálculo de un resultado de una hoja de cálculo. Esto depende de una o dos entradas modificables clave y otros par�metros. Luego, el usuario puede crear una tabla de resultados para un conjunto de valores para una o ambas entradas clave. La tabla se crea con el **Asistente para tablas de datos**. Despu�s de configurar la tabla, Excel inserta las entradas de una en una en el cálculo y copia el valor resultante en la tabla. Como se pueden usar una o dos entradas, las tablas de datos pueden ser de una o dos dimensiones. 
+Las tablas de datos son estructuras especiales de una hoja de cálculo. En primer lugar, el usuario configura el cálculo de un resultado de una hoja de cálculo. Esto depende de una o dos entradas modificables clave y otros parámetros. Luego, el usuario puede crear una tabla de resultados para un conjunto de valores para una o ambas entradas clave. La tabla se crea con el **Asistente para tablas de datos**. Después de configurar la tabla, Excel inserta las entradas de una en una en el cálculo y copia el valor resultante en la tabla. Como se pueden usar una o dos entradas, las tablas de datos pueden ser de una o dos dimensiones. 
   
 La actualización de las tablas de datos se trata de manera diferente:
   
@@ -148,9 +148,9 @@ API de C: no se admite
   
 - **Modo manual**
     
-    Actualiza solo las celdas del rango especificado independientemente de si est�n desfasadas o no. El comportamiento del m�todo **Range.Calculate** ha cambiado en Excel 2007; sin embargo, el m�todo **Range.CalculateRowMajorOrder** sigue admitiendo el comportamiento anterior. 
+    Actualiza solo las celdas del rango especificado independientemente de si están desfasadas o no. El comportamiento del método **Range.Calculate** ha cambiado en Excel 2007; sin embargo, el método **Range.CalculateRowMajorOrder** sigue admitiendo el comportamiento anterior. 
     
-- **Modos Autom�tico o Autom�tico excepto en tablas**
+- **Modos Automático o Automático excepto en tablas**
     
     Actualiza el libro pero no fuerza la actualización del rango o de las celdas del rango.
     
@@ -178,7 +178,7 @@ API de C: no se admite
     
     Actualiza las celdas desfasadas y sus dependientes solo dentro de la hoja de cálculo especificada. La referencia es el nombre de la hoja de cálculo como una cadena o el número de índice del libro relevante.
     
-    Excel 2000 y las versiones posteriores exponen una propiedad **Boolean** de hoja de cálculo, la propiedad **EnableCalculation**. Si se configura en **True** desde **False** desfasa todas las celdas de la hoja de cálculo especificada. En los modos autom�ticos, tambi�n desencadena la actualizaci�n de todo el libro. 
+    Excel 2000 y las versiones posteriores exponen una propiedad **Boolean** de hoja de cálculo, la propiedad **EnableCalculation**. Si se configura en **True** desde **False** desfasa todas las celdas de la hoja de cálculo especificada. En los modos automáticos, también desencadena la actualización de todo el libro. 
     
     En el modo manual, el siguiente código provoca la actualización solo de la hoja activa.
     
