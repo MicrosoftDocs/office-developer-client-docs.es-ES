@@ -1,5 +1,5 @@
 ---
-title: Celda YGridSpacing (regla &amp; sección de la cuadrícula)
+title: Celda YGridSpacing (sección Regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,26 +16,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823602"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a><span data-ttu-id="425ee-103">Celda YGridSpacing (regla &amp; sección de la cuadrícula)</span><span class="sxs-lookup"><span data-stu-id="425ee-103">YGridSpacing Cell (Ruler &amp; Grid Section)</span></span>
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a><span data-ttu-id="3fe04-103">Celda YGridSpacing (sección Regla y cuadrícula)</span><span class="sxs-lookup"><span data-stu-id="3fe04-103">YGridSpacing Cell (Ruler &amp; Grid Section)</span></span>
 
-<span data-ttu-id="425ee-104">Especifica la distancia entre las líneas verticales de una cuadrícula fija (YGridDensity = 0).</span><span class="sxs-lookup"><span data-stu-id="425ee-104">Specifies the distance between vertical lines in a fixed grid (YGridDensity = 0).</span></span>
+<span data-ttu-id="3fe04-104">Especifica la distancia entre las líneas verticales de una cuadrícula fija (YGridDensity = 0).</span><span class="sxs-lookup"><span data-stu-id="3fe04-104">Specifies the distance between vertical lines in a fixed grid (YGridDensity = 0).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="425ee-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="425ee-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3fe04-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="3fe04-105">Remarks</span></span>
 
-<span data-ttu-id="425ee-106">Corresponde a la vertical **Espaciado mínimo** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ).</span><span class="sxs-lookup"><span data-stu-id="425ee-106">Corresponds to the vertical **Minimum spacing** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
+<span data-ttu-id="3fe04-106">Corresponde a la vertical **Espaciado mínimo** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ).</span><span class="sxs-lookup"><span data-stu-id="3fe04-106">Corresponds to the vertical **Minimum spacing** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
   
-<span data-ttu-id="425ee-107">Para obtener una referencia a la celda YGridSpacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="425ee-107">To get a reference to the YGridSpacing cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3fe04-107">Para obtener una referencia a la celda YGridSpacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="3fe04-107">To get a reference to the YGridSpacing cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="425ee-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="425ee-108">Cell name:</span></span>  <br/> |<span data-ttu-id="425ee-109">YGridSpacing</span><span class="sxs-lookup"><span data-stu-id="425ee-109">YGridSpacing</span></span>  <br/> |
+|<span data-ttu-id="3fe04-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="3fe04-108">Cell name:</span></span>  <br/> |<span data-ttu-id="3fe04-109">YGridSpacing</span><span class="sxs-lookup"><span data-stu-id="3fe04-109">YGridSpacing</span></span>  <br/> |
    
-<span data-ttu-id="425ee-110">Para obtener una referencia a la celda YGridSpacing por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="425ee-110">To get a reference to the YGridSpacing cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3fe04-110">Para obtener una referencia desde un programa a la celda YGridSpacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3fe04-110">To get a reference to the YGridSpacing cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="425ee-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="425ee-111">Section index:</span></span>  <br/> |<span data-ttu-id="425ee-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="425ee-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="425ee-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="425ee-113">Row index:</span></span>  <br/> |<span data-ttu-id="425ee-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="425ee-114">**visRowRulerGrid**</span></span> <br/> |
-|<span data-ttu-id="425ee-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="425ee-115">Cell index:</span></span>  <br/> |<span data-ttu-id="425ee-116">**visYGridSpacing**</span><span class="sxs-lookup"><span data-stu-id="425ee-116">**visYGridSpacing**</span></span> <br/> |
+|<span data-ttu-id="3fe04-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="3fe04-111">Section index:</span></span>  <br/> |<span data-ttu-id="3fe04-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3fe04-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="3fe04-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="3fe04-113">Row index:</span></span>  <br/> |<span data-ttu-id="3fe04-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="3fe04-114">**visRowRulerGrid**</span></span> <br/> |
+|<span data-ttu-id="3fe04-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="3fe04-115">Cell index:</span></span>  <br/> |<span data-ttu-id="3fe04-116">**visYGridSpacing**</span><span class="sxs-lookup"><span data-stu-id="3fe04-116">**visYGridSpacing**</span></span> <br/> |
    
 
