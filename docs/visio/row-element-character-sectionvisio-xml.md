@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Sección](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Muestra los atributos de formato de un texto que se ejecutan de la forma, como fuente, color, estilo de texto, caso, posición relativa con la línea base y tamaño en puntos.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Muestra los atributos de formato de un texto que se ejecutan de la forma, como fuente, color, estilo de texto, caso, posición relativa con la línea base y tamaño en puntos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

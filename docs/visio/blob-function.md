@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821655"
 ---
-# <a name="blob-function"></a>BLOB (función)
+# <a name="blob-function"></a>Función BLOB
 
 Descodifica una cadena en base 64 y la almacena en formato binario. 
   
@@ -24,7 +24,7 @@ Descodifica una cadena en base 64 y la almacena en formato binario.
 
 BLOB (** *textobinario* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

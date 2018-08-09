@@ -16,18 +16,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822409"
 ---
-# <a name="langid-cell-annotation-section"></a>Celda LangID (Sección de anotación)
+# <a name="langid-cell-annotation-section"></a>Celda LangID (sección Anotación)
 
 Indica el idioma del comentario.
   
 > [!NOTE]
 > Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar un seguimiento de los comentarios de documentos .vsdx en Visio 2013. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Este valor es la configuración regional (LCID) del idioma que está activo en la barra de idioma cuando se ha escrito el comentario. Para obtener una lista de los idiomas admitidos por las aplicaciones de Microsoft Office, vea el tema de [DocLangID](doclangid-cell-document-properties-section.md) (sección Document Properties) de la celda. 
+Este valor es el identificador de configuración regional del idioma que se encuentra activo en la barra de idioma en el momento de la creación del comentario. Para obtener una lista de los idiomas admitidos por las aplicaciones de Microsoft Office, vea el tema sobre la celda [DocLangID](doclangid-cell-document-properties-section.md) (sección sobre propiedades del documento). 
   
-Para obtener una referencia a la celda LangID por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LangID por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

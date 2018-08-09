@@ -1,5 +1,5 @@
 ---
-title: Celda PageLockDuplicate (sección de propiedades de página)
+title: Celda PageLockDuplicate (sección Propiedades de página)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822712"
 ---
-# <a name="pagelockduplicate-cell-page-properties-section"></a>Celda PageLockDuplicate (sección de propiedades de página)
+# <a name="pagelockduplicate-cell-page-properties-section"></a>Celda PageLockDuplicate (sección Propiedades de página)
 
 Determina si se puede duplicar la página, como un valor Boolean.
   
@@ -23,7 +23,7 @@ Determina si se puede duplicar la página, como un valor Boolean.
 |TRUE  <br/> |**Duplicar** en el menú contextual de la página y el método de automatización **Page.Duplicate** están deshabilitados para la página.  <br/> |
 |FALSE  <br/> |Puede duplicar la página.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **PageLockDuplicate** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

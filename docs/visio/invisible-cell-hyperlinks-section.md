@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822356"
 ---
-# <a name="invisible-cell-hyperlinks-section"></a>Celda Invisible (Sección de hipervínculos)
+# <a name="invisible-cell-hyperlinks-section"></a>Celda Invisible (sección Hipervínculos)
 
 Indica si un hipervínculo aparece o no en el menú contextual de una forma o página. 
   
@@ -27,13 +27,13 @@ Indica si un hipervínculo aparece o no en el menú contextual de una forma o p�
    
 ## <a name="remarks"></a>Observaciones
 
-Para obtener una referencia a la celda Invisible por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Invisible por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Hipervínculo. *nombre* . Invisible donde hipervínculo *.name* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Invisible por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Invisible por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

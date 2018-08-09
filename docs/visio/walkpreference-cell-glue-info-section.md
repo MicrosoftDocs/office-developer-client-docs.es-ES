@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823535"
 ---
-# <a name="walkpreference-cell-glue-info-section"></a>Celda WalkPreference (Sección de información de pegado)
+# <a name="walkpreference-cell-glue-info-section"></a>Celda WalkPreference (sección Información de pegado)
 
 Determina si un extremo de una forma 1D se mueve a un punto de conexión horizontal o vertical de la forma a la que se pega, cuando se usa pegado dinámico y la forma se mueve a una posición ambigua. De forma predeterminada, ambos extremos de la forma 1D se mueven a los puntos de conexión horizontales.
   
@@ -29,13 +29,14 @@ Determina si un extremo de una forma 1D se mueve a un punto de conexión horizon
 
 Esta celda no tiene ningún efecto en los conectores dinámicos. El comportamiento de los conectores dinámicos viene determinado por su estilo de enrutamiento. Vea la celda RouteStyle para ver el estilo de enrutamiento predeterminado para los conectores dinámicos de una página o la celda ShapeRouteStyle para ver el estilo de enrutamiento de un conector dinámico determinado.
   
-Para obtener una referencia a la celda WalkPreference por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda WalkPreference por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | WalkPreference  <br/> |
    
-Para obtener una referencia a la celda WalkPreference por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda WalkPreference por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

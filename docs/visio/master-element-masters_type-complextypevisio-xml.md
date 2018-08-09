@@ -42,13 +42,13 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Patrones](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contiene los elementos de **patrón** para el documento.  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contiene los elementos de **patrón** para el documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Se conecta](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo.  <br/> |
 |[Icon](icon-element-master_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Especifica que un MIME (Extensiones multipropósito de correo Internet) codificado binario icono (en formato .ico) de un elemento **Master** o **MasterShortcut** en un documento.  <br/> |
 |[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen la hoja de página de un elemento de **página** o del **patrón** .  <br/> |
 |Formas  <br/> |Shapes_Type  <br/> |Contiene una colección de elementos de la **forma** .  <br/> |
@@ -62,7 +62,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |Oculta.  <br/> |Boolean con tipo  <br/> |opcional  <br/> |Especifica si el patrón está oculta en la interfaz de usuario.  <br/> |Valores del tipo Boolean con tipo.  <br/> |
 |IconSize  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |El tamaño del icono del elemento.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
 |IconUpdate  <br/> |Boolean con tipo  <br/> |opcional  <br/> |Especifica si el icono se genera automáticamente a partir del patrón directamente.  <br/> |Valores del tipo Boolean con tipo.  <br/> |
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |MatchByName  <br/> |Boolean con tipo  <br/> |opcional  <br/> |Determina cómo Microsoft Visio decide que si un patrón de documento ya está presente cuando una instancia de un patrón se coloca en la página de dibujo.  <br/> |Valores del tipo Boolean con tipo.  <br/> |
 |Nombre  <br/> |xsd: String  <br/> |opcional  <br/> |El nombre del elemento.  <br/> |Valores del tipo XSD: String.  <br/> |
 |NameU  <br/> |xsd: String  <br/> |opcional  <br/> |El nombre universal del elemento.  <br/> |Valores del tipo XSD: String.  <br/> |

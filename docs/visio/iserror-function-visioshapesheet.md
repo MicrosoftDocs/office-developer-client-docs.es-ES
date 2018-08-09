@@ -1,5 +1,5 @@
 ---
-title: Función ISERROR (VisioShapeSheet)
+title: ISERROR Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822374"
 ---
-# <a name="iserror-function-visioshapesheet"></a>Función ISERROR (VisioShapeSheet)
+# <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
 
 Devuelve TRUE si el valor de _referenciaDeCelda_ es cualquier tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se utiliza en las fórmulas que hacen referencia a otra celda. 
   
@@ -24,7 +24,7 @@ Devuelve TRUE si el valor de _referenciaDeCelda_ es cualquier tipo de error; de 
 
 ISERROR (** *referenciaDeCelda* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

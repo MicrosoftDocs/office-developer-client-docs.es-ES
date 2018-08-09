@@ -1,5 +1,5 @@
 ---
-title: Celda ShapeShdwShow (sección Fill Format)
+title: Celda ShapeShdwShow (sección Formato de relleno)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823175"
 ---
-# <a name="shapeshdwshow-cell-fill-format-section"></a>Celda ShapeShdwShow (sección Fill Format)
+# <a name="shapeshdwshow-cell-fill-format-section"></a>Celda ShapeShdwShow (sección Formato de relleno)
 
 Determina si la forma muestra una sombra, como un número entero de 0 a 2.
   
@@ -24,7 +24,7 @@ Determina si la forma muestra una sombra, como un número entero de 0 a 2.
 |1  <br/> |No se representará una sombra a menos que la forma no tiene un elemento primario. Usar sombras de forma subcaracterística si se agrupan juntos.  <br/> |
 |2  <br/> |Mostrar siempre una sombra si se especifica una sombra. Se muestran las sombras para las subformas.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **ShapeShdwShow** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821759"
 ---
-# <a name="character-section"></a>Sección de caracteres
+# <a name="character-section"></a>Sección Caracteres
 
 Muestra los atributos de formato del texto de una forma, como la fuente, color, estilo, mayúsculas o minúsculas, posición relativa con la línea de base y tamaño del punto.
   

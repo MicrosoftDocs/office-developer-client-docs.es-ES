@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821856"
 ---
-# <a name="containercount-function"></a>CONTAINERCOUNT (función)
+# <a name="containercount-function"></a>Función CONTAINERCOUNT
 
 Devuelve el número total de contenedores que incluye a la forma como miembro (incluidas las relaciones anidadas).
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

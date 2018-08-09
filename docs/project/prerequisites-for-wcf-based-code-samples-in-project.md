@@ -40,7 +40,7 @@ Antes de ejecutar las muestras de código, debe configurar el entorno de desarro
   
     En algunos casos, debe realizar la depuración remota en el servidor. También es posible que deba configurar un controlador de eventos mediante la instalación de un ensamblado del controlador de eventos en cada equipo de Project Server en la granja de servidores de SharePoint y, a continuación, configurar el controlador de eventos para la instancia de Project Web App mediante la página Configuración de Project Server en General Configuración de la aplicación de Administración Central de SharePoint.
     
-2. **Configurar un equipo de desarrollo.**
+2. **Configurar un PC de desarrollo.**
     
     Generalmente obtiene acceso a la PSI a través de una red. Las muestras de código están diseñadas para usarse en un cliente independiente del servidor, excepto cuando se indique lo contrario.
     
@@ -52,9 +52,9 @@ Antes de ejecutar las muestras de código, debe configurar el entorno de desarro
     
        - Microsoft.Office.Project.Server.Library.dll
     
-    3. Para obtener información sobre cómo compilar y utilizar el ensamblado de proxy ProjectServerServices.dll para los servicios WCF en la interfaz PSI, vea [uso de un ensamblado de proxy PSI y descripciones de IntelliSense](#pj15_PrerequisitesWCF_BuildingProxy).
+    3. Para obtener información sobre cómo compilar y utilizar el ensamblado de proxy ProjectServerServices.dll para los servicios de WCF en la PSI, consulte [Uso de un ensamblado de proxy de PSI y descripciones de IntelliSense](#pj15_PrerequisitesWCF_BuildingProxy).
     
-3. **Instale los archivos de IntelliSense.**
+3. **Instalar los archivos de IntelliSense.**
     
     Para usar descripciones de IntelliSense para las clases y miembros en ensamblados de Project Server, copia los archivos XML de IntelliSense actualizados desde el SDK de Project 2013 descargarán en el mismo directorio donde se encuentran los ensamblados de Project Server. Por ejemplo, copie el archivo Microsoft.Office.Project.Server.Library.xml al directorio donde la aplicación establecerá una referencia al ensamblado Microsoft.Office.Project.Server.Library.dll.
     
@@ -65,7 +65,7 @@ Antes de ejecutar las muestras de código, debe configurar el entorno de desarro
 
 1. **Crear una aplicación de consola.**
     
-    Cuando se crea una aplicación de consola, en la lista desplegable del cuadro de diálogo **Nuevo proyecto** , seleccione **.NET Framework 4**. Puede copiar el código de ejemplo PSI en la nueva aplicación.
+    Cuando crea una aplicación de consola, en la lista desplegable del cuadro de diálogo **Nuevo proyecto**, seleccione **.NET Framework 4**. Puede copiar el código de ejemplo de PSI en la nueva aplicación.
     
 2. **Agregar referencias requeridas para WCF.**
     
@@ -73,11 +73,11 @@ Antes de ejecutar las muestras de código, debe configurar el entorno de desarro
     
     También agregue una referencia a **System.Runtime.Serialization**.
     
-    **En la figura 1. Adición de las referencias en Visual Studio para una aplicación basada en WCF**
+    **Figura 1. Agregar las referencias en Visual Studio para una aplicación basada en WCF**
 
     ![Adición de referencias para WCF] (media/pj15_PrerequisitesWCF_AddReference.gif "Adición de referencias para WCF")
   
-3. **Copie el código**.
+3. **Copiar el código**.
     
     Copie el ejemplo de código completo en el archivo Program.cs de la aplicación de consola.
     
@@ -93,11 +93,11 @@ Antes de ejecutar las muestras de código, debe configurar el entorno de desarro
     
     Existen tres maneras de agregar una referencia de servicio de WCF:
     
-    - Crear un ensamblado de proxy PSI denominado ProjectServerServices.dll y, a continuación, establezca una referencia al ensamblado. Vea [usar un ensamblado de proxy PSI y descripciones de IntelliSense](#pj15_PrerequisitesWCF_BuildingProxy).
+    - Cree un ensamblado de proxy de PSI llamado ProjectServerServices.dll y, a continuación, establezca una referencia al ensamblado. Consulte [Uso de un ensamblado de proxy de PSI y de descripciones de IntelliSense](#pj15_PrerequisitesWCF_BuildingProxy).
     
-    - Agregar un archivo de proxy de la salida de svcutil.exe a la solución de Visual Studio. Consulte [Adición de un archivo de proxy PSI](#pj15_PrerequisitesWCF_AddingProxyFile).
+    - Agregue un archivo de proxy desde la salida svcutil.exe a la solución de Visual Studio. Consulte [Agregar un archivo de proxy de PSI](#pj15_PrerequisitesWCF_AddingProxyFile).
     
-    - Agregue una referencia de servicio mediante el uso de Visual Studio. Vea [Agregar una referencia de servicio](#pj15_PrerequisitesWCF_AddingServiceReference).
+    - Agregue una referencia de servicio utilizando Virtual Studio. Consulte [Agregar una referencia de servicio](#pj15_PrerequisitesWCF_AddingServiceReference)
     
 ### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Usar un ensamblado de proxy de PSI y descripciones de IntelliSense
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
@@ -111,9 +111,9 @@ Para Project Server service packs y actualizaciones, puede actualizar los archiv
 > 
 > Las secuencias de comandos en el `Documentation\IntelliSense\ASMX` carpeta no funcionan para las aplicaciones basadas en WCF. El script GenASMXProxyAssembly.cmd llama a Wsdl.exe, que genera archivos de código fuente para los servicios ASMX. Los archivos de proxy ASMX incluyen las propiedades y las distintas clases. Por ejemplo, el servicio web de recursos basados en ASMX incluye la clase de **recurso** , mientras que el servicio de recursos basados en WCF incluye la interfaz de **recursos** , la interfaz de **ResourceChannel** y la clase **ResourceClient** . 
   
-Los espacios de nombres arbitrarios creados para los servicios web ASMX y los servicios de WCF son los mismos, de modo que el archivo ProjectServerServices.xml para IntelliSense funciona con alguno de los ensamblados. Por ejemplo, el espacio de nombres del servicio de recursos en el ensamblado de proxy basada en WCF y en el ensamblado de proxy basadas en ASMX es **SvcResource**. Por supuesto, puede cambiar los nombres de espacio de nombres: si asegurarse de que cumplen en el ensamblado de proxy y en el archivo ProjectServerServices.xml IntelliSense.
+Los espacios de nombre arbitrarios creados tanto para los servicios web de ASMX como para los servicios de WCF son los mismos, de manera que el archivo ProjectServerServices.xml para IntelliSense funciona con ambos ensamblados. Por ejemplo, el espacio de nombre del servicio Recurso en el ensamblado de proxy basado en WCF y en el ensamblado de proxy basado en ASMX es **SvcResource**. Por supuesto, puede modificar los nombres de los espacios de nombre, si se asegura de que coinciden en el ensamblado de proxy y en el archivo ProjectServerServices.xml de IntelliSense.
   
-Si un ejemplo de código utiliza un nombre diferente para un espacio de nombres del servicio PSI, por ejemplo **ProjectWebSvc**, para que IntelliSense funcione, debe cambiar el ejemplo para usar **SvcProject** para que el espacio de nombres coincide con el ensamblado de proxy. 
+Si una muestra de código utiliza un nombre diferente para un espacio de nombre de servicio de PSI, por ejemplo **ProjectWebSvc**, para que funcione IntelliSense debe cambiar la muestra para que utilice **SvcProject** de manera que el espacio de nombre coincida con el ensamblado de proxy. 
   
 Algunas ventajas del uso del ensamblado de proxy basado en WCF son las siguientes:
   
@@ -123,7 +123,7 @@ Algunas ventajas del uso del ensamblado de proxy basado en WCF son las siguiente
     
 - Si se agrega el archivo ProjectServerServices.xml en el mismo directorio donde se establece una referencia al ensamblado de proxy ProjectServerServices.dll, puede obtener descripciones de IntelliSense para las clases PSI y miembros. Para obtener más información, consulte el archivo [ReadMe_IntelliSense] en la `Documentation\IntelliSense` carpeta de la descarga del SDK de Project 2013. 
     
-**La figura 2. Uso de IntelliSense para un método en el servicio de recursos**
+**Figura 2. Uso de IntelliSense para acceder a un método en el servicio de Recurso**
 
 ![Uso de Intellisense para el método ReadResource] (media/pj15_PrerequisitesWCF_Intellisense.gif "Uso de Intellisense para el método ReadResource")
   
@@ -134,7 +134,7 @@ Las desventajas de utilizar el ensamblado de proxy son que la solución es mayor
 
 La descarga del SDK de Project 2013 incluye los archivos de origen que se generan mediante el comando SvcUtil.exe para el ensamblado de proxy. Los archivos de origen se encuentran en el archivo Source.zip en el `Documentation\IntelliSense\WCF` subdirectorio. En lugar de establecer una referencia al ensamblado de proxy, puede agregar uno o varios de los archivos de origen a una solución de Visual Studio. Por ejemplo, para usar el servicio de proyecto y el servicio de recursos, agregue el wcf. Project.cs y wcf. Archivos de Resource.cs a la solución. 
   
-En WCF, la clase principal en cada servicio de la PSI es definida por una interfaz y se implementa en una clase de cliente para tener acceso a los miembros. Por ejemplo, se implementa la interfaz de **SvcProject.Resource** en la clase **SvcProject.ResourceClient** . Para definir un objeto de **ResourceClient** como una variable de clase denominada **resourceClient**, por ejemplo, use el siguiente código. En el ejemplo, el método **SetClientEndpoints** crea un objeto de **resourceClient** que usa el extremo **basicHttp_Project** , que se define en el archivo app.config. Para obtener más información acerca del archivo app.config, vea la sección [Adición de un archivo de configuración de servicio](#pj15_PrerequisitesWCF_AddConfig) . 
+En WCF, la clase primaria en cada servicio de PSI se define por una interfaz y se implementa en una clase de cliente para acceder a los miembros. Por ejemplo, la interfaz de **SvcProject.Resource** se implementa en la clase de **SvcProject.ResourceClient**. Para definir un objeto de **ResourceClient** como una variable de clase llamada **resourceClient**, por ejemplo, utilice el siguiente código. En el ejemplo, el método **SetClientEndpoints** crea un objeto de **resourceClient** que utiliza el extremo **basicHttp_Project**, que se define en el archivo app.config. Para obtener más información sobre el archivo app.config, consulte la sección [Agregar un archivo de configuración de servicio](#pj15_PrerequisitesWCF_AddConfig). 
   
 ```cs
 private static SvcResource.ResourceClient resourceClient;
@@ -152,7 +152,7 @@ public void DisposeClients()
 ```
 
 > [!NOTE]
-> Si utiliza un ensamblado de proxy PSI o agrega un archivo de proxy para una referencia de servicio de proyecto denominado **SvcResource**, utilizaría el mismo código para crear y eliminar un objeto de **resourceClient** . 
+> Si utiliza un ensamblado de proxy de PSI o agrega un archivo de proxy para una referencia de servicio de Project llamada **SvcResource**, utilizaría el mismo código para crear y descartar un objeto de **resourceClient**. 
   
 ### <a name="adding-a-service-reference"></a>Adición de una referencia de servicio
 <a name="pj15_PrerequisitesWCF_AddingServiceReference"> </a>
@@ -166,7 +166,7 @@ Los pasos siguientes muestran cómo establecer una referencia de servicio median
   
 1. Para obtener acceso a los servicios de WCF back-end, ejecute Visual Studio en el equipo de Project Server.
     
-2. En el **Explorador de soluciones**, haga clic en la carpeta **referencias** y, a continuación, elija **Agregar referencia de servicio**. 
+2. En **Solution Explorer**, haga clic con el botón secundario en la carpeta **Referencias** y, a continuación, seleccione **Agregar referencia de servicio**. 
     
 3. En el cuadro de diálogo **Agregar referencia de servicio** , en el cuadro de texto **dirección** , escriba http://localhost:32843/ _GUID_/psi/ _ServiceName_svc y, a continuación, presione **ENTRAR**. Reemplazar el _GUID_ con el nombre del directorio virtual de la aplicación de servicio de Project Server, como 534c37eb00d74ccfadcecf9827e95239. Reemplace _ServiceName_ con el nombre del servicio, como recurso (vea la figura 3). 
     
@@ -174,7 +174,7 @@ Los pasos siguientes muestran cómo establecer una referencia de servicio median
     
    - Abra la aplicación de Administración Central de SharePoint 2013 en el explorador. Elija **Administrar aplicaciones de servicio**y, a continuación, elija la aplicación de servicio de PSI de Project Server que desee. Por ejemplo, elija **ProjectServerService**. La dirección URL de la página Administrar sitios de Project Web App contiene el nombre del directorio virtual. Por ejemplo, en `http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, el nombre del directorio virtual es `534c37eb00d74ccfadcecf9827e95239` (el nombre del directorio no contiene guiones). 
     
-   - Abra el cuadro de diálogo **Administrador de Internet Information Services (IIS)** en el equipo de Project Server. Expanda el nodo de **Servicios Web de SharePoint** en el panel **conexiones** y, a continuación, expanda los directorios virtuales de servicio por debajo de éste, hasta que encuentre el directorio que incluye una carpeta PSI. Seleccione el directorio, elija **Configuración avanzada** en el panel de **acciones** y, a continuación, copie el nombre del directorio en el campo **Ruta de acceso Virtual** . 
+   - Abra el cuadro de diálogo **Administrador de Servicios de información de internet (IIS)** en el equipo de Project Server. Expanda el nodo **Servicios web de SharePoint** en el panel **Conexiones** y, a continuación, expanda los directorios virtuales de servicio debajo de eso, hasta que encuentra el directorio que incluye una carpeta de PSI. Seleccione el directorio, elija **Configuración avanzada** en el panel **Acciones** y, a continuación, copie el nombre del directorio en el campo **Ruta virtual**. 
     
       > [!NOTE]
       > Puede haber más de un directorio virtual de servicio de Project Server. Asegúrese de elegir el directorio virtual que contiene la instancia de Project Web App que desee. 
@@ -209,7 +209,7 @@ Los pasos siguientes muestran cómo establecer una referencia de servicio median
     
 4. Una vez que se resuelve la referencia de servicio, escriba el nombre de referencia en el cuadro de texto de **Namespace** . Ejemplos de código en la documentación para desarrolladores de Project 2013 usan el nombre de espacio de nombres arbitrario **Svc _ServiceName_**. Por ejemplo, el servicio de recursos en los ejemplos de código se denomina **SvcResource**.
     
-    **La figura 3. Adición de la referencia de servicio de recursos basados en WCF**
+    **Figura 3. Agregar la referencia de servicio de Recurso basada en WCF**
 
     ![Adición de la referencia de servicio de recursos basados en WCF] (media/pj15_PrerequisitesWCF_AddSvcReference.gif "Adición de la referencia de servicio de recursos basados en WCF")
   
@@ -222,9 +222,9 @@ Aplicaciones de Project Server suelen usan otros servicios, como los servicios w
   
 Las referencias locales para el ejemplo de código se enumeran en instrucciones **using** en la parte superior de la muestra. 
   
-1. En el **Explorador de soluciones**, haga clic en la carpeta **referencias** y, a continuación, seleccione **Agregar referencia**.
+1. En el **Explorador de soluciones**, haga clic con el botón secundario en la carpeta **Referencias** y después seleccione **Agregar referencia**.
     
-2. Elija **Examinar**y, a continuación, vaya a la ubicación donde lo guardó la DLL de Project Server que copió anteriormente. Elija los archivos DLL que desee y, a continuación, elija **Aceptar**.
+2. Seleccione **Examinar** y, a continuación, diríjase a la ubicación donde ha almacenado los DLL de Project Server que copió previamente. Elija los DLL que desee y luego seleccione **Aceptar**.
     
 > [!NOTE]
 > Asegúrese de que las versiones de ensamblado en su equipo de desarrollo coinciden exactamente con aquellas del equipo de Project Server de destino. 
@@ -232,7 +232,7 @@ Las referencias locales para el ejemplo de código se enumeran en instrucciones 
 ## <a name="adding-a-service-configuration-file"></a>Agregar un archivo de configuración de servicio
 <a name="pj15_PrerequisitesWCF_AddConfig"> </a>
 
-Si una aplicación mediante programación configura los servicios de WCF, no utiliza un archivo de configuración de servicio. De lo contrario, una aplicación de Windows o una aplicación de consola usa el elemento **system.serviceModel** en un archivo app.config; una aplicación web incluye **system.serviceModel** en el archivo web.config. Para obtener más información sobre el uso de un archivo app.config o configuración mediante programación de los servicios WCF, vea [Tutorial: aplicaciones de desarrollo de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+Si una aplicación configura de forma programada los servicios de WCF, no utiliza un archivo de configuración de servicio. De lo contrario, una aplicación de consola o una aplicación de Windows utiliza el elemento **system.serviceModel** en un archivo app.config; una aplicación web incluye **system.serviceModel** en web.config. Para obtener más información sobre el uso de un archivo app.config o la configuración preprogramada de los servicios de WCF, consulte [Tutorial: desarrollo de aplicaciones de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 Cuando genera un archivo de código fuente del proxy de servicio, el comando SvcUtil.exe también crea un archivo output.config que es la base para el elemento de **system.serviceModel** de forma predeterminada en un archivo app.config o el archivo web.config. La descarga del SDK de Project 2013 incluye un ejemplo de archivo output.config en `Documentation\IntelliSense\WCF\Source.zip`. Por ejemplo, el archivo output.config predeterminado que crea SvcUtil.exe para el servicio de recursos incluye dos enlaces, denominados **BasicHttpBinding_Resource** y **BasicHttpBinding_Resource1**. El elemento de **cliente** incluye dos extremos predeterminados. Es uno de los extremos para el acceso seguro a la dirección HTTP en el puerto 32843 y la otra es para el acceso normal en el puerto 32843, como se indica a continuación: 
   
@@ -302,7 +302,7 @@ La configuración de servicio de PSI no utiliza los extremos y enlazados predete
             name="basicHttp_Resource" />
     ```
 
-5. Para usar más de servicio de la PSI uno, cree un elemento de **extremo** para cada servicio y para cada elemento de **enlace** que usa el servicio. Por ejemplo, los siguientes extremos configuración el cliente para usar el enlace básico HTTP para el servicio de Project y el servicio QueueSystem. 
+5. Para utilizar más de un servicio de PSI, cree un elemento **endpoint** para cada servicio y para cada elemento **binding** que utiliza el servicio. Por ejemplo, los siguientes extremos configuran el cliente que utilizará el enlazado HTTP básico para el servicio de Project y el servicio de QueueSystem. 
     
     > [!NOTE]
     > Si ejecuta una aplicación y obtiene un error de que el servidor está demasiado ocupado o de que la solicitud de HTTP no está autorizada, asegúrese de que las direcciones de extremo sean correctas en el archivo app.config. 
@@ -324,13 +324,13 @@ La configuración de servicio de PSI no utiliza los extremos y enlazados predete
 
 Puede editar un archivo app.config mediante el **Editor de configuración del servicio de WCF** en Visual Studio (en el menú **Herramientas** ). La figura 4 muestra cómo se establece el elemento de **contrato** en el cuadro de diálogo **Editor de configuración del servicio de Microsoft** . Si la solución es usar el ensamblado de proxy PSI, abra ProjectServerServices.dll en el `bin\debug` directorio de la solución de Visual Studio. El cuadro de diálogo **Explorador de tipos de contrato** muestra todos los contratos de servicios WCF (vea la figura 5). 
   
-**La figura 4. Uso del Editor de configuración del servicio WCF**
+**Figura 4. Uso del Editor de configuración de servicio de WCF**
 
 ![Uso del Editor de configuración del servicio WCF] (media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Uso del Editor de configuración del servicio WCF")
   
 Si la solución es usar un archivo de proxy de servicio, como wcfResource.cs, compile la aplicación y, a continuación, abra el archivo ejecutable en el `bin\debug` Active directory. Para obtener más información acerca de cómo modificar el archivo app.config, vea [Tutorial: aplicaciones de desarrollo de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
-**La figura 5. Uso del explorador de tipo de contrato en el Editor de configuración de servicio WCF**
+**Figura 5. Uso del Explorador de tipo de contrato en el Editor de configuración de servicio de WCF**
 
 ![Uso del explorador de tipo de contrato] (media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif "Uso del explorador de tipo de contrato")
   
@@ -341,11 +341,11 @@ Autenticación de usuarios de Project Server local, ya sea mediante la autentica
   
 `The server was unable to process the request due to an internal error. For more information about the error, either turn on Include ExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework 3.0 SDK documentation and inspect the server trace logs.`
 
-Para solucionar el problema de WCF, todas las llamadas a los métodos PSI deben estar dentro un **OperationContextScope** que se define para cada servicio de la PSI. No anidar ámbitos para varios servicios; Por ejemplo, al utilizar las llamadas a los servicios de recursos y proyectos, cada conjunto de llamadas deben dentro de su propio ámbito. 
+Para solucionar el problema para WCF, todas las llamadas a los métodos de PSI deberían estar dentro de un **OperationContextScope** que se define para cada servicio de PSI. No anide ámbitos para varios servicios; por ejemplo, al usar llamadas a los servicios de Project y Recurso, cada conjunto de llamadas debería estar dentro de su propio ámbito. 
   
 En el ejemplo siguiente, el método **DisableFormsAuth** se puede llamar desde cada sección **OperationContextScope** en una aplicación. El método quita cualquier valor de encabezado que se deshabilitó anteriormente autenticación mediante formularios, por lo que la autenticación de formularios puede continuar si el parámetro _isWindowsAuth_ es **false**. Si _isWindowsAuth_ es **true**, el método **DisableFormsAuth** deshabilita la autenticación de formularios. 
   
-En el método **WcfSample** , el objeto **projectClient** es una instancia de la clase **SvcProject.ProjectClient** de PSI. 
+En el método **WcfSample**, el objeto **projectClient** es una instancia de la clase **SvcProject.ProjectClient** de PSI. 
   
 ```cs
 // Class variable that determines whether to disable Forms authentication.
@@ -376,7 +376,7 @@ private void WcfSample()
 ```
 
 > [!NOTE]
-> Realizar llamadas PSI dentro de un **OperationContextScope** solo es necesario para las aplicaciones que se ejecutan en un entorno de autenticación múltiple. Si Project Server utiliza sólo la autenticación de Windows, no es necesario configurar un ámbito y agregar un encabezado de la solicitud web que deshabilita la autenticación de formularios. 
+> La realización de llamadas de PSI dentro de un **OperationContextScope** es necesario solo para aplicaciones que se ejecutan en un entorno de varias autenticaciones. Si Project Server utiliza solamente la autenticación de Windows, no es necesario establecer un ámbito y agregar un encabezado de solicitud web que deshabilite la autenticación de formas. 
 > 
 > La corrección para una aplicación basada en ASMX es diferente. Para obtener más información, vea la sección *uso de la autenticación de varios* de [los requisitos previos para ejemplos de código basados en ASMX en Project](prerequisites-for-asmx-based-code-samples-in-project.md). 
   
@@ -406,7 +406,7 @@ Puede verificar los resultados de muestra de código de varias formas, por ejemp
     
 - Use la página Configuración del servidor de Project Web App ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para administrar todos los trabajos en cola y eliminar o forzar la protección de empresa de objetos. Debe tener permisos administrativos para tener acceso a los vínculos en la página Configuración del servidor.
     
-- Use **Microsoft SQL Server Management Studio** para ejecutar una consulta en una tabla de una base de datos de Project Server. Por ejemplo, use la siguiente consulta para seleccionar las primeras 200 filas de la tabla MSP_WORKFLOW_STAGE_PDPS para mostrar información acerca de las páginas de detalles del proyecto (PDP) en etapas de flujo de trabajo. 
+- Utilice **Microsoft SQL Server Management Studio** para ejecutar una consulta en una tabla de una base de datos de Project Server. Por ejemplo, utilice la siguiente consulta para seleccionar las 200 filas superiores de la tabla MSP_WORKFLOW_STAGE_PDPS para mostrar información sobre las páginas de detalles de proyectos (PDP) en etapas de flujo de trabajo. 
     
 ```sql
         SELECT TOP 200 [STAGE_UID]
@@ -432,7 +432,7 @@ A continuación aparecen algunos de los enlaces de la página Configuración de 
     
 - **Eliminar objetos de empresa**
     
-- **Forzar la protección de empresa de objetos**
+- **Forzar protección de objetos de la empresa**
     
 - **Tipos de proyecto empresarial**
     
@@ -442,15 +442,15 @@ A continuación aparecen algunos de los enlaces de la página Configuración de 
     
 - **Páginas de detalles del proyecto**
     
-- **Períodos de presentación de informes**
+- **Períodos de presentación de informes de horas**
     
-- **Configuración del parte de horas y valores predeterminados**
+- **Configuración y valores predeterminados del parte de horas**
     
 - **Clasificaciones de línea**
     
 Configuración adicional se administra mediante SharePoint Server 2013 para cada instancia de Project Web App, en lugar de una página específica de la configuración del servidor de Project Web App. En la aplicación de Administración Central de SharePoint, elija **Configuración de aplicación General**, elija **Administrar** bajo **Configuración de Project Server**y, a continuación, elija la instancia de Project Web App en la lista desplegable en la página Configuración del servidor . Por ejemplo, elija **Controladores de eventos del servidor** para agregar o eliminar controladores de eventos para la instancia de Project Web App seleccionada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Requisitos previos para ejemplos de código basados en ASMX en Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
 - [Tutorial: Desarrollar aplicaciones de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   

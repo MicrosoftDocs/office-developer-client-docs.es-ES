@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822554"
 ---
-# <a name="lookup-function"></a>LOOKUP (función)
+# <a name="lookup-function"></a>Función LOOKUP
 
 Devuelve un índice de base cero que indica la ubicación de la subcadena _clave_ en una _lista_o devuelve -1 si la cadena de destino contiene el _delimitador_.
   
@@ -24,7 +24,7 @@ Devuelve un índice de base cero que indica la ubicación de la subcadena _clave
 
 BÚSQUEDA ("** *clave* **","** *lista* **"["," ** *delimitador* ** "]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

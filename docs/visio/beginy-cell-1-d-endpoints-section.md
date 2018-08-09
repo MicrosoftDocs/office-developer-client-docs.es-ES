@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821555"
 ---
-# <a name="beginy-cell-1-d-endpoints-section"></a>Celda BeginY (Sección de extremos 1D)
+# <a name="beginy-cell-1-d-endpoints-section"></a>Celda BeginY (sección Extremos 1D)
 
 Representa la *y* -coordenadas del punto inicial de la forma 1-D, en relación con el origen de su forma principal. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda BeginY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BeginY por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BeginY  <br/> |
    
-Para obtener una referencia a la celda BeginY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BeginY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

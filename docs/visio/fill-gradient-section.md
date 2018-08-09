@@ -1,5 +1,5 @@
 ---
-title: Sección de degradado de relleno
+title: Sección Degradado de relleno
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822145"
 ---
-# <a name="fill-gradient-section"></a>Sección de degradado de relleno
+# <a name="fill-gradient-section"></a>Sección Degradado de relleno
 
 Muestra los valores de color para el degradado del relleno aplicado a la forma. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cada fila de la [fila detener degradado (sección de relleno degradado)](gradient-stop-row-fill-gradient-section.md) en la sección representa un punto de degradado del relleno de. En esta sección puede estar vacía. 
   

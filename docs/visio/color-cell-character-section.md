@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821761"
 ---
-# <a name="color-cell-character-section"></a>Celda Color (Sección de caracteres)
+# <a name="color-cell-character-section"></a>Celda Color (sección Caracteres)
 
 Determina el color utilizado para el texto de la forma.
   
@@ -28,13 +28,14 @@ Para especificar un color personalizado, utilice la función RGB o HSL. El valor
   
 Puede establecer la transparencia del color del texto en la celda Transparency.
   
-Para obtener una referencia a la celda Color por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Color por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.Color [ *i* ] donde *i* = < 1 >, 2, 3,...  <br/> |
    
-Para obtener una referencia a la celda Color por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Color por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

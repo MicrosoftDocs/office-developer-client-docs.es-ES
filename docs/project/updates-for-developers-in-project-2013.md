@@ -63,17 +63,17 @@ En Office Developer Tools para Visual Studio 2012, el archivo AppManifext.xml ti
   </AppPermissionRequests>
 ```
 
-**La tabla 1. Ámbitos de solicitud de permisos para los complementos de Project Server**
+**Tabla 1. Ámbitos de solicitud de permisos para complementos de Project Server**
 
 |Ámbito|Permisos|
 |:-----|:-----|
-|**Project Server** <br/> |**Administrar** (Requiere permisos de administrador de Project Server).  <br/> |
-|**Varios proyectos** <br/> |**Lectura**, **escritura** (requiere permisos de administrador del proyecto para algunas operaciones; permisos de los miembros del equipo del proyecto para basic lea las operaciones, como las asignaciones de tareas.)  <br/> |
-|**Único proyecto** <br/> |**Lectura**, **escritura** (requiere al menos permisos de los miembros del equipo del proyecto; el acceso a algunos datos en un proyecto depende de otros niveles de permisos.)  <br/> |
-|**Recursos de empresa** <br/> |**Lectura**, **escritura** (requiere permisos de administrador de recursos).  <br/> |
-|**Administración de Estados** <br/> |**SubmitStatus** (Requiere permiso para enviar el estado de los proyectos).  <br/> |
-|**Creación de informes** <br/> |**Lectura** (Requiere permiso para iniciar sesión en Project Server).  <br/> |
-|**Flujo de trabajo** <br/> |**Elevar** (Requiere el permiso para ejecutar flujos de trabajo. El complemento se ejecuta con permisos elevados, para habilitar las transiciones de una etapa a otra en un flujo de trabajo. Lógica de negocios en el complemento controla las transiciones de fase.)  <br/> |
+|**Project Server** <br/> |**Administrar** (exige permisos de administrador de Project Server).  <br/> |
+|**Varios proyectos** <br/> |**Leer**, **Escribir** (exige permisos de jefe de proyecto para algunas operaciones; permisos de miembro de equipo de proyecto para operaciones de lectura básicas, como asignaciones de tareas).  <br/> |
+|**Único proyecto** <br/> |**Leer**, **Escribir** (exige al menos permisos de miembro de equipo de proyecto; el acceso a algunos datos de un proyecto depende de otros niveles de permisos).  <br/> |
+|**Recursos empresariales** <br/> |**Leer**, **Escribir** (exige permisos de jefe de recursos).  <br/> |
+|**Estado** <br/> |**SubmitStatus** (exige permiso para enviar el estado de los proyectos).  <br/> |
+|**Informes** <br/> |**Leer** (exige permiso para iniciar sesión en Project Server).  <br/> |
+|**Flujo de trabajo** <br/> |**Elevar** (exige permiso para ejecutar flujos de trabajo. El complemento se ejecuta con permisos elevados para permitir las transiciones de fase a fase en un flujo de trabajo. La lógica empresarial del complemento controla las transiciones de fase).<br/> |
    
 > [!NOTE]
 > Project Server 2013 y Project Online no usar el modelo de autenticación solo de aplicación en SharePoint 2013 (vea [Agregar en tipos de directiva de autorización en SharePoint 2013](http://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)). 
@@ -94,7 +94,7 @@ Los flujos de trabajo son una característica fundamental de la administración 
   
 Flujos de trabajo de Project Server 2013 se basan en la plataforma de flujo de trabajo de SharePoint 2013, que usa WF4. A diferencia de en versiones anteriores, flujos de trabajo declarativos para Project Server 2013 pueden crearse mediante el uso de SharePoint Designer 2013 y son accesibles para uso en línea y local. Flujos de trabajo de Project Server usa el modelo de seguridad de flujo de trabajo de SharePoint con OAuth y se pueden instalar en un sitio de Project Web App. La figura 1 muestra que SharePoint Designer 2013 puede agregar fases a un flujo de trabajo para la administración de propuestas, donde se definen las etapas en Project Web App.
   
-**En la figura 1. Uso de SharePoint Designer para agregar una fase a un flujo de trabajo de Project Web App**
+**Ilustración 1. Uso de SharePoint Designer para agregar una fase a un flujo de trabajo de Project Web App**
 
 ![Adición de una fase a un flujo de trabajo en SPD] (media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Adición de una fase a un flujo de trabajo en SPD")
 
@@ -121,7 +121,7 @@ A continuación se muestran los principios y características del CSOM en Projec
     
 - El CSOM de Project Server implementa un subconjunto de la funcionalidad de PSI basado en los requisitos más comunes de las soluciones de terceros.
     
-- El CSOM internamente llama a la interfaz PSI, pero se incluye de forma diferente. Por ejemplo, se realizan las actualizaciones para todos los cambios de estado a través del método **StatusAssignmentCollection.SubmitAllStatusUpdates** , no por el método PSI **Statusing.SubmitStatus** para el usuario o el método **SubmitStatusForResource** para otros recursos. 
+- El CSOM llama internamente a PSI, pero se factoriza de forma distinta. Por ejemplo, las actualizaciones de todos los cambios de estado se realizan con el método **StatusAssignmentCollection.SubmitAllStatusUpdates**, no con el método de PSI **Statusing.SubmitStatus** del usuario ni el método **SubmitStatusForResource** de otros recursos. 
     
 - El CSOM es accesible a través de un servicio WCF (Client.svc) en lugar de a través de los 22 servicios públicos de PSI.
     
@@ -184,7 +184,7 @@ Project Standard 2013 y Project Professional 2013 admiten tareas panel complemen
   
 La figura 2 muestra la **Hola ProjectData** tarea panel complemento que consulta el servicio de **ProjectData** y, a continuación, se compara datos en el proyecto actual con el valor promedio de todos los proyectos. La descarga del SDK de Project 2013 incluye el código fuente completo para el complemento. 
   
-**La figura 2. Un complemento panel de tareas en Project Professional puede tener acceso a datos en Project Server**
+**Ilustración 2. Un complemento de panel de tareas de Project Professional puede obtener acceso a datos de Project Server**
 
 ![Comparar el proyecto actual con todos los proyectos] (media/pj15_RestQueryApp_CompareProject.gif "Comparar el proyecto actual con todos los proyectos")
   
@@ -210,9 +210,9 @@ En la página de controladores de eventos del servidor, el proceso para agregar 
 > [!CAUTION]
 > Si se especifica *tanto* el nombre de clase y nombre del ensamblado y la dirección URL del extremo, Project Server llama la local (local) controlador de eventos. Se omite el receptor de eventos remotos. 
 > 
-> Si crea dos controladores de eventos para el mismo evento, donde un controlador de eventos es local y uno es un receptor de eventos remotos, y el valor de **orden** es el mismo para ambos, Project Server pasa por alto el receptor de eventos remotos. 
+> Si crea dos controladores de eventos para el mismo evento, donde uno es local y el otro remoto, y el valor **Orden** es igual para ambos, Project Server omite el receptor de eventos remotos. 
   
-**La figura 3. Adición de un controlador de eventos local o un receptor de eventos remotos**
+**Ilustración 3. Adición de un controlador de eventos locales o un receptor de eventos remotos**
 
 ![Configuración de un controlador de eventos o receptor de eventos] (media/pj15_EventHandlers_NewEventHandler.gif "Configuración de un controlador de eventos o receptor de eventos")
     
@@ -274,16 +274,16 @@ Si las soluciones de usan las características desusadas, debe probarse exhausti
 
 Para ayudarle a decidir si va a usar Project Server local o Project Online y qué tipos de extensiones puede desarrollar en cualquier caso, la tabla 2 se comparan las características extensibles de una instalación local de Project Server 2013 con Project Online. Tabla 2 se incluyen las diferencias en la implementación, administración o uso. Para obtener más información acerca de Project Online y Project Server 2013, consulte [Project 2013 para desarrolladores](http://msdn.microsoft.com/en-US/office/fp161502) y [Project Online](http://www.microsoft.com/project/).
   
-**Tabla 2. Local de extensibilidad de Project Server y Project Online**
+**Tabla 2. Extensibilidad de Project Server local y Project Online**
 
 | Característica |Project Server local | Project Online |
 |:-----|:-----|:-----|
-|**Programación** <br/> |Aplicaciones basadas en el CSOM; modelo de programación coherente  <br/>-. NET, Silverlight, las bibliotecas de cliente de Windows Phone  <br/>-Biblioteca de JavaScript para las páginas personalizadas, elementos Web y las extensiones de la cinta de opciones  <br/>-Protocolos OData y REST<br/><br/> Aplicaciones basadas en PSI; modelo de programación complejo, también puede crear aplicaciones para administración, análisis de cartera, notificaciones, seguridad de modo de Project, sistema de cola y otras áreas<br/><br/>Extensiones de PSI  <br/><br/>Permisos personalizados con la seguridad de modo de Project (desusado)  <br/><br/>Suplantación con la interfaz PSI (desusada)  <br/><br/>Código de plena confianza; extensiones de instalación en la granja de SharePoint  <br/> |Aplicaciones basadas en el CSOM; modelo de programación coherente  <br/>-. NET, Silverlight, las bibliotecas de cliente de Windows Phone<br/>-Biblioteca de JavaScript para las páginas personalizadas, elementos Web y las extensiones de la cinta de opciones<br/>-Protocolos OData y REST<br/><br/>Puede usar la interfaz PSI, pero no es compatible: sin OAuth ni conexiones de servicio a servicio<br/><br/>Sin extensiones de la API del CSOM<br/><br/>Sin permisos personalizados<br/><br/>Sin suplantación<br/><br/>Sin código de plena confianza  <br/> |
-|**Bases de datos personalizadas** <br/> |-SQL Azure  <br/>-SQL Server (modificación de tablas y vistas en el servidor de Project Server no es compatible con la base de datos de informes)  <br/> |-SQL Azure  <br/>-SQL Server (modificación de tablas y vistas en el servidor de Project Server no es compatible con la base de datos de informes)  <br/> |
-|**Creación de informes** <br/> |- Servicio de **ProjectData** ; Protocolos de OData y REST  <br/>-Informes de tablas y vistas en la base de datos de Project Server<br/>-Base de datos OLAP  <br/> |- Servicio de **ProjectData** ; Protocolos de OData y REST  <br/> |
+|**Programación ** <br/> |Aplicaciones basadas en el CSOM; modelo de programación coherente  <br/>-. NET, Silverlight, las bibliotecas de cliente de Windows Phone  <br/>-Biblioteca de JavaScript para las páginas personalizadas, elementos Web y las extensiones de la cinta de opciones  <br/>-Protocolos OData y REST<br/><br/> Aplicaciones basadas en PSI; modelo de programación complejo, también puede crear aplicaciones para administración, análisis de cartera, notificaciones, seguridad de modo de Project, sistema de cola y otras áreas<br/><br/>Extensiones de PSI  <br/><br/>Permisos personalizados con la seguridad de modo de Project (desusado)  <br/><br/>Suplantación con la interfaz PSI (desusada)  <br/><br/>Código de plena confianza; extensiones de instalación en la granja de SharePoint  <br/> |Aplicaciones basadas en el CSOM; modelo de programación coherente  <br/>-. NET, Silverlight, las bibliotecas de cliente de Windows Phone<br/>-Biblioteca de JavaScript para las páginas personalizadas, elementos Web y las extensiones de la cinta de opciones<br/>-Protocolos OData y REST<br/><br/>Puede usar la interfaz PSI, pero no es compatible: sin OAuth ni conexiones de servicio a servicio<br/><br/>Sin extensiones de la API del CSOM<br/><br/>Sin permisos personalizados<br/><br/>Sin suplantación<br/><br/>Sin código de plena confianza  <br/> |
+|**Bases de datos personalizadas ** <br/> |-SQL Azure  <br/>-SQL Server (modificación de tablas y vistas en el servidor de Project Server no es compatible con la base de datos de informes)  <br/> |-SQL Azure  <br/>-SQL Server (modificación de tablas y vistas en el servidor de Project Server no es compatible con la base de datos de informes)  <br/> |
+|**Informes** <br/> |- Servicio de **ProjectData** ; Protocolos de OData y REST  <br/>-Informes de tablas y vistas en la base de datos de Project Server<br/>-Base de datos OLAP  <br/> |- Servicio de **ProjectData** ; Protocolos de OData y REST  <br/> |
 |**Controladores de eventos** <br/> |-Receptores de eventos remotos, accesibles a través de los extremos WCF<br/>-Controladores de eventos plena confianza, instalados en la granja de servidores de SharePoint  <br/> | -Receptores de eventos remotos, accesibles a través de los extremos WCF  <br/> |
 |**Flujos de trabajo** <br/> |Flujos de trabajo declarativos, creados con SharePoint Designer 2013<br/>-Usar solo en una instancia específica de Project Web App<br/>-Puede importar un diseño de flujo de trabajo desde Visio 2013<br/>-Puede importar y usar acciones personalizadas<br/><br/> Flujos de trabajo declarativos, creados con Visual Studio 2012<br/>-Crear una aplicación que puede incluir los flujos de trabajo<br/>-Crear un paquete de solución de SharePoint (.wsp) que puede incluir los flujos de trabajo<br/>-Crear plantillas de flujo de trabajo para su reutilización<br/>-Crear y usar acciones personalizadas  <br/><br/>Puede usar flujos de trabajo compilados heredados, creados con WF3.5 (actualización recomendada a flujo de trabajo declarativo WF4)  <br/> |Flujos de trabajo declarativos, creados con SharePoint Designer 2013<br/>-Usar solo en una instancia específica de Project Web App<br/>-Puede importar un diseño de flujo de trabajo desde Visio 2013<br/>-Puede importar y usar acciones personalizadas  <br/><br/>Flujos de trabajo declarativos, creados con Visual Studio 2012<br/>-Crear una aplicación que puede incluir los flujos de trabajo  <br/>-Crear un paquete de solución de SharePoint (.wsp) que puede incluir los flujos de trabajo<br/>-Crear plantillas de flujo de trabajo para su reutilización <br/>-Crear y usar acciones personalizadas  <br/> |
-|**Distribución** <br/> |-Office Store (para aplicaciones basadas en CSOM)<br/>-Catálogo de aplicaciones privado en SharePoint<br/>-Recurso compartido de archivos intranet  <br/> |-Tienda de office<br/>-Catálogo de aplicaciones privado en SharePoint  <br/> |
+|**Distribución ** <br/> |-Office Store (para aplicaciones basadas en CSOM)<br/>-Catálogo de aplicaciones privado en SharePoint<br/>-Recurso compartido de archivos intranet  <br/> |-Tienda de office<br/>-Catálogo de aplicaciones privado en SharePoint  <br/> |
 
    
 ## <a name="conclusion"></a>Conclusión
@@ -297,13 +297,13 @@ Complementos de Office ofrecen nuevas vías para la venta de soluciones y la int
   
 Para obtener más información sobre desarrollo de aplicaciones y el uso de las características de programación y el CSOM de SharePoint Server 2013, vea [SharePoint para desarrolladores](http://msdn.microsoft.com/en-US/sharepoint) y [Office para desarrolladores](http://msdn.microsoft.com/en-US/office).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Arquitectura de Project Server 2013](project-server-2013-architecture.md)  
+- [Project Server 2013 architecture](project-server-2013-architecture.md)  
 - [Tareas de programación de Project](project-programming-tasks.md) 
 - [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md) 
-- [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
-- [Complementos de tarea panel para Project](task-pane-add-ins-for-project.md)   
+- [ProjectData: referencia del servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
+- [Complementos de panel de tareas para Project](task-pane-add-ins-for-project.md)   
 - [OData: Convenciones URI](http://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
 - [SharePoint para desarrolladores](http://msdn.microsoft.com/en-US/sharepoint)    
 - [Office para desarrolladores](http://msdn.microsoft.com/en-US/office)   

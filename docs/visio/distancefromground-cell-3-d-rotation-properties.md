@@ -1,5 +1,5 @@
 ---
-title: Celda DistanceFromGround (propiedades de rotación 3D)
+title: Celda DistanceFromGround (Propiedades de giro 3D)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821970"
 ---
-# <a name="distancefromground-cell-3-d-rotation-properties"></a>Celda DistanceFromGround (propiedades de rotación 3D)
+# <a name="distancefromground-cell-3-d-rotation-properties"></a>Celda DistanceFromGround (Propiedades de giro 3D)
 
 Determina la distancia que se ha generado el objeto desde el principio en puntos cuando gira en 3D.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **DistanceFromGround** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

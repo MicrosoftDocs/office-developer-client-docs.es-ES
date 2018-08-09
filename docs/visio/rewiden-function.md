@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822993"
 ---
-# <a name="rewiden-function"></a>REWIDEN (función)
+# <a name="rewiden-function"></a>Función REWIDEN
 
 Convierte una fórmula que genera códigos de caracteres de 16 bits que son códigos ampliados de juego de caracteres de un byte o de varios bytes en una cadena de códigos de caracteres Unicode de 16 bits, utilizando los conjuntos de caracteres especificado. 
   
@@ -24,7 +24,7 @@ Convierte una fórmula que genera códigos de caracteres de 16 bits que son cód
 
 REWIDEN (** *juegoCarOrig* **, ** *juegoCarDest* **, ** *texto* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

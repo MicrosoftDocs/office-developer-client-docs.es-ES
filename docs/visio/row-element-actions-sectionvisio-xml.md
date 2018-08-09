@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Sección](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

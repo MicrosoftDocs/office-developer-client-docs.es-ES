@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822290"
 ---
-# <a name="hidetext-cell-miscellaneous-section"></a>Celda HideText (sección de varios)
+# <a name="hidetext-cell-miscellaneous-section"></a>Celda HideText (sección Varios)
 
 Oculta el texto en una forma. Puede ver el texto, editar las propiedades y aplicar diversos estilos al texto en el bloque de texto, aunque los cambios no aparezcan hasta que restablezca HideText a FALSE (0).
   

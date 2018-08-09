@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822152"
 ---
-# <a name="flipy-cell-shape-transform-section"></a>Celda FlipY (Sección de transformación de forma)
+# <a name="flipy-cell-shape-transform-section"></a>Celda FlipY (sección Transformación de forma)
 
 Indica si la forma se ha volteado verticalmente.
   
@@ -27,13 +27,14 @@ Indica si la forma se ha volteado verticalmente.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda FlipY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda FlipY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FlipY  <br/> |
    
-Para obtener una referencia a la celda FlipY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda FlipY por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

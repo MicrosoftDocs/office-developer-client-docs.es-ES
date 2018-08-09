@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821857"
 ---
-# <a name="containermembercount-function"></a>CONTAINERMEMBERCOUNT (función)
+# <a name="containermembercount-function"></a>Función CONTAINERMEMBERCOUNT
 
 Devuelve el número total de formas del contenedor.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -30,7 +31,7 @@ CONTAINERMEMBERCOUNT()
 
  **Integer**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si la forma no es un contenedor, CONTAINERMEMBERCOUNT devuelve -1.
   

@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821448"
 ---
-# <a name="what-the-psi-does-and-does-not-do"></a>Lo que hace y lo que no hace la PSI
+# <a name="what-the-psi-does-and-does-not-do"></a>Lo que hace y no hace PSI
 
 Project Server Interface (PSI) puede ayudar a automatizar muchos procesos de servidor en instalaciones locales de Project Server 2013. Sin embargo, hay varias funciones requieren el uso de Microsoft Project Professional 2013.
   
@@ -204,7 +204,7 @@ Para la tarea de resumen del proyecto, las limitaciones de PSI son las mismas qu
     
 - Cambio del calendario de base de proyecto ([CAL_UID](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.CAL_UID.aspx) ) después de la creación del proyecto. 
     
-- Cambiar las opciones para los cálculos. Puede usar la interfaz PSI para establecer las opciones de cálculo siguientes cuando se crea el proyecto, pero cambie las opciones de requiere Project Professional. (En la vista Backstage, elija **Opciones**y, a continuación, elija la ficha **programación** en el cuadro de diálogo **Opciones de proyecto** ). 
+- Cambio de opciones para cálculos. Puede usar la interfaz PSI para definir las siguientes opciones de cálculo cuando se crea el proyecto, pero el cambio de las opciones requiere Project Professional. (En la vista Backstage, elija **Opciones** y seleccione la ficha **Programa** en el cuadro de diálogo **Opciones de proyecto**.) 
     
   - [PROJ_OPT_CALC_ACT_COSTS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_CALC_ACT_COSTS.aspx)
     
@@ -230,15 +230,15 @@ Para la tarea de resumen del proyecto, las limitaciones de PSI son las mismas qu
     
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="pj14_WhatPSIDoes_AR"> </a>
 
-- [Lo que hace y no hace el CSOM](what-the-csom-does-and-does-not-do.md)
+- [Lo que hace y no hace CSOM](what-the-csom-does-and-does-not-do.md)
     
 - [Programación de Project Server](project-server-programmability.md)
     
 - [Autenticación remota en SharePoint Online mediante la autenticación basada en notificaciones](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
     
-- [Complementos de Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [Crear aplicaciones para Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
     
 

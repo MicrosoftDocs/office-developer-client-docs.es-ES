@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822869"
 ---
-# <a name="printpageorientation-cell-print-properties-section"></a>Celda PrintPageOrientation (Sección de propiedades de impresión)
+# <a name="printpageorientation-cell-print-properties-section"></a>Celda PrintPageOrientation (sección Propiedades de impresión)
 
 Determina si la página se imprime con orientación vertical u horizontal.
   
@@ -26,17 +26,17 @@ Determina si la página se imprime con orientación vertical u horizontal.
 | 1  <br/> | Vertical  <br/> |**visPPOPortrait** <br/> |
 |2  <br/> |Horizontal  <br/> |**visPPOLandscape** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando se insertan nuevas páginas en un documento, el valor predeterminado es la configuración en la página activa.
   
-Para obtener una referencia a la celda PrintPageOrientation por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PrintPageOrientation por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PrintPageOrientation  <br/> |
    
-Para obtener una referencia a la celda PrintPageOrientation por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PrintPageOrientation por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

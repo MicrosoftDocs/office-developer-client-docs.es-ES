@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822772"
 ---
-# <a name="pnty-function"></a>PNTY (función)
+# <a name="pnty-function"></a>Función PNTY
 
 Devuelve la _y_-coordenadas de un punto.
   
@@ -24,7 +24,7 @@ Devuelve la _y_-coordenadas de un punto.
 
 PNTX (** *Elija* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

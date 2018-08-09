@@ -1,5 +1,5 @@
 ---
-title: Celda SketchFillChange (sección de propiedades de efecto adicionales)
+title: Celda SketchFillChange (sección Propiedades del efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823264"
 ---
-# <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Celda SketchFillChange (sección de propiedades de efecto adicionales)
+# <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Celda SketchFillChange (sección Propiedades del efecto adicional)
 
 Determina la cantidad de selección aleatoria de relleno de la forma de la geometría de forma cuando se usa un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda **SketchFillChange** se establece en 0%, la geometría del límite de relleno de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría del límite del relleno de la forma no siguen la geometría de la forma. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener mejores resultados, el intervalo de valores de la celda **SketchFillChange** ideal está entre el 15% y un 50%. Un valor inferior al 15% es casi imperceptible; un valor mayor que 50% cada vez más es más aleatorio. 
   

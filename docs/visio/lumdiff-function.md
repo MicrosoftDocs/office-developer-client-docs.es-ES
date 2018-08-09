@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822594"
 ---
-# <a name="lumdiff-function"></a>LUMDIFF (función)
+# <a name="lumdiff-function"></a>Función LUMDIFF
 
 Devuelve la diferencia de luminosidad entre *color1* y *color2* . 
   
@@ -22,11 +22,11 @@ Devuelve la diferencia de luminosidad entre *color1* y *color2* .
 
 LUMDIFF (** *color1* **, ** *color2* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
-| _color2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
+| _color1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
+| _color2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
    
 

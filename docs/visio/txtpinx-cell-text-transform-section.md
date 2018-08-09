@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823455"
 ---
-# <a name="txtpinx-cell-text-transform-section"></a>Celda TxtPinX (Sección de transformación de texto)
+# <a name="txtpinx-cell-text-transform-section"></a>Celda TxtPinX (sección Transformación de texto)
 
 Determina la *x* -coordenadas del centro del bloque de texto de la rotación en relación con el origen de la forma. La fórmula predeterminada es: 
   
 = Width \* 0,5
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda TxtPinX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda TxtPinX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | TxtPinX  <br/> |
    
-Para obtener una referencia a la celda TxtPinX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda TxtPinX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

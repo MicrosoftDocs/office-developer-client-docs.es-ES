@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822031"
 ---
-# <a name="doubleuline-cell-character-section"></a>Celda DoubleULine (Sección de caracteres)
+# <a name="doubleuline-cell-character-section"></a>Celda DoubleULine (sección Caracteres)
 
 Determina si el intervalo de texto tiene doble subrayado.
   
@@ -29,15 +29,15 @@ Determina si el intervalo de texto tiene doble subrayado.
 
 La celda DoubleULine contiene la información de formato que se aplica a un subintervalo del texto de una forma si la sección de caracteres contiene varias filas. En caso contrario, contiene información de formato para todo el texto de la forma.
   
-También puede establecer el valor de esta celda mediante el cuadro de diálogo **texto** (haga clic en la flecha de **fuente** en la ficha **Inicio** ). 
+También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (haga clic en la flecha de **Fuente** en la ficha **Inicio**). 
   
-Para obtener una referencia a la celda DoubleULine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DoubleULine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.DblUnderline [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda DoubleULine por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DoubleULine por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

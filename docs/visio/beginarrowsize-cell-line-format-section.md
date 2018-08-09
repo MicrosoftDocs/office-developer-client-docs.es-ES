@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821550"
 ---
-# <a name="beginarrowsize-cell-line-format-section"></a>Celda BeginArrowSize (Sección de formato de línea)
+# <a name="beginarrowsize-cell-line-format-section"></a>Celda BeginArrowSize (sección Formato de línea)
 
 Determina el tamaño de la punta de flecha que aparece en la parte inicial de la línea.
   
@@ -30,17 +30,17 @@ Determina el tamaño de la punta de flecha que aparece en la parte inicial de la
 | 5  <br/> | Enorme  <br/> |**visArrowSizeJumbo** <br/> |
 | 6  <br/> | Colosal  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el tamaño de la punta de flecha en el cuadro de diálogo **línea** . 
+También puede establecer el tamaño de la punta de flecha en el cuadro de diálogo **Línea**. 
   
-Para obtener una referencia a la celda BeginArrowSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BeginArrowSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BeginArrowSize  <br/> |
    
-Para obtener una referencia a la celda BeginArrowSize por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BeginArrowSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

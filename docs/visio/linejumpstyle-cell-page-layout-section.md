@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822465"
 ---
-# <a name="linejumpstyle-cell-page-layout-section"></a>Celda LineJumpStyle (Sección de diseño de página)
+# <a name="linejumpstyle-cell-page-layout-section"></a>Celda LineJumpStyle (sección Diseño de página)
 
 Determina el estilo de salto de línea de todos los conectores de la página de dibujo que no tengan un estilo de salto local.
   
@@ -33,17 +33,17 @@ Determina el estilo de salto de línea de todos los conectores de la página de 
 |8  <br/> |6 lados  <br/> |**visLOJumpStyle5Point** <br/> |
 |9  <br/> |7 lados  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
+También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
   
-Para obtener una referencia a la celda LineJumpStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineJumpStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineJumpStyle  <br/> |
    
-Para obtener una referencia a la celda LineJumpStyle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia a la celda LineJumpStyle por su índice desde un programa, use la propiedad **CellsSRC** con los siguientes argumentos: 
   
 |||
 |:-----|:-----|

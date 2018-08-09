@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822363"
 ---
-# <a name="intup-function"></a>INTUP (función)
+# <a name="intup-function"></a>Función INTUP
 
 Redondea un número hasta el próximo entero.
   
@@ -24,7 +24,7 @@ Redondea un número hasta el próximo entero.
 
 INTUP (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821661"
 ---
-# <a name="blue-function"></a>BLUE (función)
+# <a name="blue-function"></a>Función BLUE
 
 Devuelve el componente azul de un color. El valor devuelto es un entero en el rango de 0 a 255, ambos inclusive. La función devuelve el valor 0 para la entrada no válida.
   
@@ -24,7 +24,7 @@ Devuelve el componente azul de un color. El valor devuelto es un entero en el ra
 
 AZUL (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

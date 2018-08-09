@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823457"
 ---
-# <a name="txtheight-cell-text-transform-section"></a>Celda TxtHeight (Sección de transformación de texto)
+# <a name="txtheight-cell-text-transform-section"></a>Celda TxtHeight (sección Transformación de texto)
 
 Determina el alto del bloque de texto. La fórmula predeterminada es:
   
 = Alto \* 1
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda TxtHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda TxtHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | TxtHeight  <br/> |
    
-Para obtener una referencia a la celda TxtHeight por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda TxtHeight por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

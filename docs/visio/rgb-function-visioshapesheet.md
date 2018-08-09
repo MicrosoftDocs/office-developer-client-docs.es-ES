@@ -1,5 +1,5 @@
 ---
-title: Función RGB (VisioShapeSheet)
+title: RGB Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822987"
 ---
-# <a name="rgb-function-visioshapesheet"></a>Función RGB (VisioShapeSheet)
+# <a name="rgb-function-visioshapesheet"></a>RGB Function (VisioShapeSheet)
 
 Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color mediante sus componentes rojos, verdes y azules, donde cada uno es un número en el rango de 0 a 255, ambos incluidos, o una expresión que da como resultado un número. 
   
@@ -24,13 +24,13 @@ Devuelve un valor que representa un índice en la paleta de colores del document
 
 RGB (** *rojo* **, ** *verde* **, ** *azul* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _rojo_ <br/> |Obligatorio  <br/> |**Número** <br/> |El componente rojo.  <br/> |
 | _verde_ <br/> |Obligatorio  <br/> |**Número** <br/> |El componente verde.  <br/> |
-| _azul_ <br/> |Obligatorio  <br/> |**Nmber** <br/> |El componente azul.  <br/> |
+| _azul_ <br/> |Obligatorio  <br/> |**Number** <br/> |El componente azul.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -42,7 +42,7 @@ Si el color que devuelve la función no forma parte de la paleta de colores del 
   
 La tabla siguiente muestra varios colores estándar y los valores de sus componentes rojo, verde y azul.
   
-|**Color**|**Valor rojo**|**Valor verde**|**Valor azul**|
+|**Color**|**Valor Red (rojo)**|**Valor Green (verde)**|**Valor azul**|
 |:-----|:-----|:-----|:-----|
 |Negro  <br/> |0  <br/> |0  <br/> |0  <br/> |
 |Azul  <br/> |0  <br/> |0  <br/> |255  <br/> |

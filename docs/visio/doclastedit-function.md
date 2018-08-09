@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822024"
 ---
-# <a name="doclastedit-function"></a>DOCLASTEDIT (función)
+# <a name="doclastedit-function"></a>Función DOCLASTEDIT
 
 Devuelve (como un valor de serie) la fecha y la hora en la que se editó el documento por última vez.
   

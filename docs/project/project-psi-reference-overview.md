@@ -108,7 +108,7 @@ La [referencia de servicio de web y biblioteca de clase de Project Server 2013](
     
   - El espacio de nombres [Microsoft.Office.Project.Server.Library](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.aspx) incluye muchas enumeraciones y campos de la clase y las propiedades que se usan con frecuencia en las aplicaciones locales para Project Server. Por ejemplo, los desarrolladores suelen utilizar enumeraciones como **CustomField.Type**y las clases **PSClientError**, **PSErrorInfo**y **filtro** . 
     
-    El espacio de nombres **Microsoft.Office.Project.Server.Library** también incluye las siguientes clases de siete (propiedad), que incluyen más de 3.200 subclases: 
+    El espacio de nombres **Microsoft.Office.Project.Server.Library** también incluye las siete siguientes clases de propiedades, que incluyen más de 3.200 subclases: 
     
       - **AssignmentProperties**  
       - **CalendarProperties**
@@ -140,7 +140,7 @@ La [referencia de servicio de web y biblioteca de clase de Project Server 2013](
     
 - **Microsoft.Office.Project.Server.Events.Receivers.dll** [Microsoft.Office.Project.Server.Events](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.aspx) es el espacio de nombres sólo en este ensamblado. Incluye receptor de eventos y las clases de argumento de evento para los servicios de PSI y otras clases internas. 
     
-  Los desarrolladores escribir controladores de eventos que se derivan de clases de receptor de eventos. La mayoría de las clases principales de los servicios de PSI tienen una clase de receptor de evento correspondiente. Por ejemplo, la clase **ProjectEventReceiver** contiene métodos de receptor de eventos previos y posteriores a la que se corresponden a los métodos en la clase de **proyecto** en la PSI. El método **OnCreating** y el método **OnCreated** son los métodos de receptor de eventos previos y posteriores a la del método **QueueCreateProject** . 
+  Los programadores escriben gestores de eventos derivados de las clases receptoras de eventos. La mayor parte de las clases primarias de los servicios de PSI tienen una clase receptora de eventos correspondiente. Por ejemplo, la clase **ProjectEventReceiver** contiene métodos receptores anteriores y posteriores al evento que se corresponden con métodos de la clase **Project** en la PSI. El método **OnCreating** y el método **OnCreated** son los métodos receptores anteriores y posteriores al evento para el método **QueueCreateProject**. 
     
   Los programadores normalmente usan las siguientes clases receptoras de eventos:
   <br/>  
@@ -171,7 +171,7 @@ La [referencia de servicio de web y biblioteca de clase de Project Server 2013](
   
   En algunas aplicaciones que usan gestores de eventos de plena confianza, en las que los gestores de eventos se instalan en el equipo con Project Server, es necesario definir una referencia al ensamblado Microsoft.Office.Project.Schema.dll. A continuación se muestran dos ejemplos:
     
-  - En **una plena confianza eventos posteriores OnCreated para campos personalizados,** puede usar el argumento del evento **e.CustomFieldInformation** con una referencia al espacio de nombres **Microsoft.Office.Project.Server.Schema** para el **CustomFieldDataSet **y definiciones de **CustomFieldsRow** . 
+  - En un gestor de eventos posteriores **OnCreated** de confianza plena para campos personalizados, se puede usar el argumento del evento **e.CustomFieldInformation** con una referencia al espacio de nombres **Microsoft.Office.Project.Server.Schema** para las definiciones de **CustomFieldDataSet** y **CustomFieldsRow**. 
    
      ```cs
         using PSLibrary = Microsoft.Office.Project.Server.Library;
@@ -193,7 +193,7 @@ La [referencia de servicio de web y biblioteca de clase de Project Server 2013](
         }
      ```
 
-  - Una actividad de flujo de trabajo personalizado puede requerir una referencia a **Microsoft.Office.Project.Server.Schema** para definiciones de **DataSet** . 
+  - Una actividad de flujo de trabajo personalizada puede requerir una referencia a **Microsoft.Office.Project.Server.Schema** para definiciones de **DataSet**. 
     
 ## <a name="psi-services"></a>Servicios de PSI
 <a name="pj15_PSIRefOverview_PSI"> </a>
@@ -229,14 +229,14 @@ Las siguientes son todas las clases que contienen métodos web en los servicios 
     
 9. **ExchangeSync** Esto es un servicio interno de Project Server que controla los eventos de Exchange Server. Project Web App usa **ExchangeSync** para sincronizar las asignaciones entre Project Server y Exchange Server, en lugar de sincronizar directamente con el cliente de Outlook como en Office Project Server 2007. 
     
-    Acceso al servicio **ExchangeSync** está disponible sólo a través de la dirección URL de **ProjectServiceApplication** . No se admiten las clases **ExchangeSync** y miembros para el desarrollo de aplicaciones de terceros. 
+    El acceso a **ExchangeSync** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Las clases y miembros de **ExchangeSync** no se admiten para el desarrollo de terceros. 
     
 10. [LoginForms](https://msdn.microsoft.com/library/WebSvcLoginForms.LoginForms.aspx) Proporciona los métodos de **Inicio de sesión** y **cierre de sesión** con autenticación basada en formularios. Acceso al servicio **LoginForms** está disponible sólo en un sitio de Project Web App front-end. 
     
 11. [LoginWindows](https://msdn.microsoft.com/library/WebSvcLoginWindows.LoginWindows.aspx) Proporciona los métodos de **Inicio de sesión** y **cierre de sesión** que se usan para la autenticación de Windows con aplicaciones basadas en ASMX para autenticación múltiple (notificaciones y basada en formularios) las instalaciones de Project Server 2013. Acceso al servicio **LoginWindows** está disponible sólo en un sitio de Project Web App front-end. 
     
     > [!CAUTION]
-    > El servicio **LoginWindows** no se utiliza en las aplicaciones basadas en WCF, o para las aplicaciones que se ejecutan en las instalaciones de Project Server que utilizan sólo la autenticación de notificaciones o **OAuth**; en esos casos, el método de **Inicio de sesión** siempre devuelve **false**. La autenticación de notificaciones controla la autenticación integrada de Windows. 
+    > El servicio **LoginWindows** no se usa en aplicaciones basadas en WCF ni para aplicaciones que se ejecutan en instalaciones de Project Server que solo usan la autenticación de notificaciones o **OAuth**; en estos casos, el método **Login** siempre devuelve **false**. La autentificación de notificaciones gestiona la autenticación de Windows integrada. 
   
 12. [LookupTable](https://msdn.microsoft.com/library/WebSvcLookupTable.LookupTable.aspx) Administra las tablas de búsqueda, tablas de búsqueda en varios idiomas y sus máscaras de código correspondiente. Desprotege, protege, lee, crea, elimina y las actualizaciones. 
     
@@ -265,7 +265,7 @@ Las siguientes son todas las clases que contienen métodos web en los servicios 
     
 20. **PWA** Contiene muchos métodos que están optimizados para Project Web App, incluidos los métodos para las reglas de aprobación de actualización de tareas y para la administración de informes de estado. Los métodos de **PWA** a menudo están especializados y algo redundantes en comparación con los métodos equivalentes en otros servicios PSI. Métodos de **PWA** usarán o devuelven muchos de los conjuntos de datos mismo como los otros métodos PSI. 
     
-    Acceso al servicio de **PWA** está disponible sólo a través de la dirección URL de **ProjectServiceApplication** . No se admiten las clases de **PWA** y miembros para el desarrollo de aplicaciones de terceros. 
+    El acceso al servicio **PWA** solo está disponible a través de la dirección URL **ProjectServiceApplication**. Las clases y miembros de **PWA** no se admiten para desarrollo de terceros. 
     
 21. [QueueSystem](https://msdn.microsoft.com/library/WebSvcQueueSystem.QueueSystem.aspx) Administra la cola de Project Server. Obtiene el recuento de trabajos, trabajo y tiempo de espera de grupo de trabajo, estado de todos los trabajos, trabajos especificados, los trabajos que pertenecen a la persona que llama o trabajos para proyectos especificados. Administra la correlación de trabajo y se configura la cola. 
     
@@ -283,13 +283,13 @@ Las siguientes son todas las clases que contienen métodos web en los servicios 
     
 27. **Vista** El servicio de **vista** está diseñado para su uso únicamente en Project Web App. Métodos en la clase de **vista** administración vistas y ver los informes y los campos en las vistas de lectura. 
     
-    Acceso al servicio de **vista** está disponible sólo a través de la dirección URL de **ProjectServiceApplication** . No se admiten los métodos de **vista** para el desarrollo de aplicaciones de terceros. 
+    El acceso al servicio **View** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Los métodos **View** no se admiten para el desarrollo de terceros. 
     
 28. **WinProj** El servicio de **WinProj** está diseñado para su uso solamente por Project Professional. Los programadores de terceros no deben usar los métodos de **WinProj** para programar con Project Server. 
     
-    Algunos métodos de **WinProj** usan conjuntos de datos tales como **ProjectRelationsDataSet** y **ResourceDataSet** que los servicios de **proyectos** y **recursos** también utilizar, pero requieren propiedades específicas y las funciones de Project Professional. 
+    Algunos métodos de **WinProj** usan conjuntos de datos tales como **ProjectRelationsDataSet** y **ResourceDataSet** que también usan los servicios **Project** y **Resource**, pero que requieren propiedades y funciones específicas en Project Professional. 
     
-    Acceso al servicio de **WinProj** está disponible sólo a través de la dirección URL de **ProjectServiceApplication** . No se admiten los métodos de **WinProj** para el desarrollo de aplicaciones de terceros. 
+    El acceso al servicio **WinProj** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Los métodos **WinProj** o se admiten para el desarrollo de terceros. 
     
 29. [Flujo de trabajo](https://msdn.microsoft.com/library/WebSvcWorkflow.Workflow.aspx) Incluye los métodos CRUD para tipos de proyecto empresarial y para administrar las fases y las fases de flujo de trabajo. Ejecuta los flujos de trabajo, Establece la información de estado y administra etapas de página (PDP) de todos los detalles del proyecto en flujos de trabajo de administración de propuestas. Para desarrollar flujos de trabajo de Project Server, los programadores pueden usar SharePoint Designer 2013 para flujos de trabajo declarativos o usar Office Developer Tools para Visual Studio 2012 para el desarrollo con .NET Framework 4 y el [ Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) clase en el CSOM. 
     
@@ -297,15 +297,15 @@ Las siguientes son todas las clases que contienen métodos web en los servicios 
     
 Cada espacio de nombres de servicio incluye todas las clases de controlador de eventos y el esquema de **conjunto de datos** que usa el servicio. Por ejemplo, `Calendar.svc` (o `Calendar.asmx?wsdl` para el ASMX de servicio web) describe el servicio de **calendario** . Si el nombre de la referencia **WebSvcCalendar**el espacio de nombres de proxy contiene el principal **calendario de** clase con los métodos **CheckInCalendars**, **CheckOutCalendars**y así sucesivamente. El espacio de nombres de proxy **WebSvcCalendar** también incluye la clase **CalendarDataSet** y todas sus subclases. 
   
-Algunos de los servicios PSI contienen clases de **conjunto de datos** duplicadas. Por ejemplo, el servicio de **proyecto** y el servicio de **estado** ambos incluyen la clase **ProjectDataSet** . Esto es debido a que los métodos en el servicio de **Project** y el servicio de **estado** incluyen referencias a los **ProjectDataSet**y los ensamblados de proxy que se creación al establecer referencias y compilar una aplicación incluyen la relacionados conjuntos de datos. El servicio de **Project** Server y el servicio de **estado** pueden requerir valores para los distintos campos en la clase **ProjectDataSet.ProjectRow** . 
+Algunos de los servicios de la PSI contienen clases **DataSet** duplicadas. Por ejemplo, tanto el servicio **Project** como el servicio **Statusing** incluyen la clase **ProjectDataSet**. Esto se debe a que los métodos de los servicios **Project** y **Statusing** incluyen referencias a **ProjectDataSet**, y los ensamblados de proxy que crea al configurar referencias y compilar una aplicación incluyen los conjuntos de datos relacionados. Los servicios **Project** y **Statusing** pueden solicitar valores para diferentes campos en la clase **ProjectDataSet.ProjectRow**. 
   
-Cuando intenta explorar los espacios de nombres y clases de la referencia PSI, por ejemplo, para ver los métodos web para el servicio de **proyecto** , expanda el espacio de nombres **[servicio web de Project]** en la lista de **contenido** y, a continuación, expanda el **proyecto** clase. 
+Si navega por los espacios de nombres y clases de la referencia de la PSI, por ejemplo, para ver los métodos web para el servicio **Project**, expanda el espacio de nombres **[Servicio web de proyecto]** en la lista **Contenido** y, a continuación, expanda la clase **Project**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Arquitectura de Project Server 2013](project-server-2013-architecture.md)
+- [Project Server 2013 architecture](project-server-2013-architecture.md)
 - [Programación de Project Server](project-server-programmability.md)   
-- [Lo que hace y no hace la PSI](what-the-psi-does-and-does-not-do.md)   
+- [Lo que hace y no hace PSI](what-the-psi-does-and-does-not-do.md)   
 - [Requisitos previos para ejemplos de código basados en ASMX en Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
 - [Requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md)   
 - [Centro de programadores de .NET Framework](http://msdn.microsoft.com/en-us/netframework/aa496123.aspx)

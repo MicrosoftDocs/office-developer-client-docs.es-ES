@@ -16,15 +16,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823358"
 ---
-# <a name="tanh-function"></a>TANH (función)
+# <a name="tanh-function"></a>Función TANH
 
-Devuelve la tangente hiperbólica de un ángulo. 
+Devuelve la tangente hiperbólica de un ángulo.
+    
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 TANH (** *ángulo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

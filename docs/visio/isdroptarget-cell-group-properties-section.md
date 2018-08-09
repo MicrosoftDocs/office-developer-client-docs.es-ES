@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822365"
 ---
-# <a name="isdroptarget-cell-group-properties-section"></a>Celda IsDropTarget (Sección de propiedades de grupo)
+# <a name="isdroptarget-cell-group-properties-section"></a>Celda IsDropTarget (sección Propiedades de grupo)
 
 Determina si el grupo permite agregar una forma soltándola en él.
   
@@ -27,17 +27,17 @@ Determina si el grupo permite agregar una forma soltándola en él.
    
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer este valor, seleccione el grupo, hace clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccione la casilla de verificación **Aceptar formas colocadas** . 
+También puede ajustar este valor si selecciona el grupo, hace clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, selecciona la casilla **Aceptar formas colocadas**. 
   
-Para agregar una forma a un grupo soltándola en el grupo, también debe habilitar un comportamiento de forma similar. Debe seleccionar la forma, haga clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccione la casilla de verificación **Agregar formas a grupos en el buzón** . Este valor se almacena en la celda IsDropSource en la sección de varios. 
+Para agregar una forma a un grupo colocándola en él, también debe habilitar un comportamiento de forma similar. Debe seleccionar la forma, hacer clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, activar la casilla **Agregar formas a un grupo al colocarlas**. Este valor se almacena en la celda IsDropSource en la sección de varios. 
   
-Para obtener una referencia a la celda IsDropTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda IsDropTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |IsDropTarget  <br/> |
    
-Para obtener una referencia a la celda IsDropTarget por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda IsDropTarget por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

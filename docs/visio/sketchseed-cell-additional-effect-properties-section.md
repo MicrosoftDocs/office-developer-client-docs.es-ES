@@ -1,5 +1,5 @@
 ---
-title: Celda SketchSeed (sección de propiedades de efecto adicionales)
+title: Celda SketchSeed (sección Propiedades del efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823262"
 ---
-# <a name="sketchseed-cell-additional-effect-properties-section"></a>Celda SketchSeed (sección de propiedades de efecto adicionales)
+# <a name="sketchseed-cell-additional-effect-properties-section"></a>Celda SketchSeed (sección Propiedades del efecto adicional)
 
 Representa un valor de selección aleatoria que se utiliza para determinar la geometría de un efecto de boceto, como un número entero positivo. El valor de la celda **SketchSeed** aleatoriamente se crea cuando se aplica un efecto de boceto a la forma. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **SketchSeed** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de datos de formas)](row-element-shape-data-sectionvisio-xml.md) <br/> |[Forma Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |Especifica una entrada de datos de formas para asociar datos con una forma.  <br/> |
+|[Elemento Row (sección Datos de forma)](row-element-shape-data-sectionvisio-xml.md) <br/> |[Forma Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |Especifica una entrada de datos de formas para asociar datos con una forma.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,20 +60,20 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Calendar  <br/> |Especifica el tipo de calendario utilizado cuando el tipo de un elemento de datos de formas es Fecha.  <br/> |[Celda Calendar (Sección de datos de formas)](calendar-cell-shape-data-section.md) <br/> |
+|Calendario  <br/> |Especifica el tipo de calendario utilizado cuando el tipo de un elemento de datos de formas es Fecha.  <br/> |[Celda Calendar (Sección de datos de formas)](calendar-cell-shape-data-section.md) <br/> |
 |DataLinked  <br/> |Indica si la fila de datos de formas está vinculada a un campo en un conjunto de registros de datos.  <br/> ||
-|Format  <br/> |Especifica el formato de un elemento de datos de formas que puede ser una cadena, una lista fija, un número, una lista variable, una fecha u hora, una duración o una moneda.  <br/> |[Celda Format (Sección de datos de formas)](format-cell-shape-data-section.md) <br/> |
-|Invisible  <br/> |Especifica si el elemento de datos de formas es visible en la ventana datos de formas.  <br/> |[Celda Invisible (Sección de datos de formas)](invisible-cell-shape-data-section.md) <br/> |
-|Etiqueta  <br/> |Especifica la etiqueta que ven los usuarios en la ventana datos de formas. Una etiqueta consta de caracteres alfanuméricos, incluido el carácter de subrayado (_).  <br/> |[Celda Label (Sección de datos de formas)](label-cell-shape-data-section.md) <br/> |
+|Formato  <br/> |Especifica el formato de un elemento de datos de formas que puede ser una cadena, una lista fija, un número, una lista variable, una fecha u hora, una duración o una moneda.  <br/> |[Celda Format (Sección de datos de formas)](format-cell-shape-data-section.md) <br/> |
+|Invisible  <br/> |Especifica si el elemento de datos de formas es visible en la ventana Datos de formas.  <br/> |[Celda Invisible (Sección de datos de formas)](invisible-cell-shape-data-section.md) <br/> |
+|Etiqueta  <br/> |Especifica la etiqueta que se muestra a los usuarios en la ventana Datos de formas. Una etiqueta está compuesta de caracteres alfanuméricos, incluido el carácter de subrayado (_).  <br/> |[Celda Label (Sección de datos de formas)](label-cell-shape-data-section.md) <br/> |
 |LangID  <br/> |Indica el idioma del valor de los datos de formas.  <br/> |[Celda LangID (Sección de datos de formas)](langid-cell-shape-data-section.md) <br/> |
-|Prompt  <br/> |Especifica el texto descriptivo o con instrucciones que aparece como sugerencia cuando el mouse se detiene sobre un valor en la ventana datos de formas.  <br/> |[Celda Prompt (Sección de datos de formas)](prompt-cell-shape-data-section.md) <br/> |
-|SortKey  <br/> |Da como resultado una cadena que influye en el orden en que aparecen los elementos en la ventana datos de formas.  <br/> |[Celda SortKey (Sección de datos de formas)](sortkey-cell-shape-data-section.md) <br/> |
+|Prompt  <br/> |Especifica un texto descriptivo o con instrucciones que aparece como sugerencia cuando el mouse se detiene sobre un valor en la ventana Datos de formas.  <br/> |[Celda Prompt (Sección de datos de formas)](prompt-cell-shape-data-section.md) <br/> |
+|SortKey  <br/> |Da como resultado una cadena que influye en el orden en el que se presentan los elementos en la ventana Datos de formas.  <br/> |[Celda SortKey (Sección de datos de formas)](sortkey-cell-shape-data-section.md) <br/> |
 |Tipo  <br/> |Especifica un tipo de datos para el valor de los datos de formas.  <br/> |[Celda Type (Sección de datos de formas)](type-cell-shape-data-section.md) <br/> |
 |Value  <br/> |Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo Definir datos de formas.  <br/> |[Celda Value (Sección de datos de formas)](value-cell-shape-data-section.md) <br/> |
 |Comprobar  <br/> |Especifica si el usuario se le pide que escriba la información de propiedad personalizada de una forma cuando se crea una instancia o se duplica o copia la forma.  <br/> |Ninguno.  <br/> |

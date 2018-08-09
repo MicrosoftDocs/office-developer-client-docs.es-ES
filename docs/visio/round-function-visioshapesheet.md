@@ -1,5 +1,5 @@
 ---
-title: Función ROUND (VisioShapeSheet)
+title: ROUND Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19823014"
 ---
-# <a name="round-function-visioshapesheet"></a>Función ROUND (VisioShapeSheet)
+# <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 
 Redondea un número a la precisión representada por *númeroDeDígitos* . 
   
@@ -24,7 +24,7 @@ Redondea un número a la precisión representada por *númeroDeDígitos* .
 
 ROUND (** *número* **, ** *númeroDeDígitos* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

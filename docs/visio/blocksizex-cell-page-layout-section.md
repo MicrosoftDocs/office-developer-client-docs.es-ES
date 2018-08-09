@@ -16,21 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821663"
 ---
-# <a name="blocksizex-cell-page-layout-section"></a>Celda BlockSizeX (Sección de diseño de página)
+# <a name="blocksizex-cell-page-layout-section"></a>Celda BlockSizeX (sección Diseño de página)
 
 Determina el tamaño del bloque horizontal, el área en la que cada una de las formas se debe ajustar en la página de dibujo cuando se diseñan formas mediante el cuadro de diálogo **Configurar diseño** (en la ficha **Diseño** , en el grupo **Diseño** , haga clic en página de diseño de Re ** **y, a continuación, haga clic en **Más opciones de diseño**).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor en el cuadro de diálogo **Diseño de espaciado y el enrutamiento** (en la ficha **Diseño** , haga clic en la flecha situada en el grupo **Configurar página** , haga clic en la ficha **Diseño y enrutamiento** y, a continuación, haga clic en **Espaciado**).
+También puede establecer este valor en el cuadro de diálogo **Espaciado del diseño y el enrutamiento** (en la ficha **Diseño**, haga clic en la flecha en el grupo **Configurar página**, haga clic en la pestaña **Diseño y enrutamiento** y, a continuación, en **Espaciado**).
   
-Para obtener una referencia a la celda BlockSizeX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BlockSizeX por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |BlockSizeX  <br/> |
    
-Para obtener una referencia a la celda BlockSizeX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BlockSizeX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

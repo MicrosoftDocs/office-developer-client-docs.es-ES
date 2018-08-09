@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821968"
 ---
-# <a name="defaulttabstop-cell-text-block-format-section"></a>Celda DefaultTabstop (Sección de formato del bloque de texto)
+# <a name="defaulttabstop-cell-text-block-format-section"></a>Celda DefaultTabstop (sección Formato del bloque de texto)
 
 Determina el intervalo de las tabulaciones predeterminadas de un bloque de texto. 
   
@@ -24,13 +24,13 @@ Determina el intervalo de las tabulaciones predeterminadas de un bloque de texto
 
 El valor predeterminado es de 0,5 pulgadas para los documentos creados con unidades de medida anglosajonas y de 1,5 centímetros para los documentos creados con unidades métricas.
   
-Para obtener una referencia a la celda DefaultTabstop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DefaultTabstop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |DefaultTabstop  <br/> |
    
-Para obtener una referencia a la celda DefaultTabstop por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DefaultTabstop por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

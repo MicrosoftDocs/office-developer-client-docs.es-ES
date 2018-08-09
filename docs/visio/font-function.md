@@ -1,5 +1,5 @@
 ---
-title: Función de fuente
+title: Función FONT
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822181"
 ---
-# <a name="font-function"></a>Función de fuente
+# <a name="font-function"></a>Función FONT
 
 Devuelve el valor entero del identificador único para una fuente, especificado por nombre.
   
@@ -23,13 +23,14 @@ Devuelve el valor entero del identificador único para una fuente, especificado 
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2013 
+Versión añadida: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
  **Fuente** ( _"font_name_string"_)
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

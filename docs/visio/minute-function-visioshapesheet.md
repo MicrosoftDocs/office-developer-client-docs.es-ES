@@ -1,5 +1,5 @@
 ---
-title: Función MINUTE (VisioShapeSheet)
+title: MINUTE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822659"
 ---
-# <a name="minute-function-visioshapesheet"></a>Función MINUTE (VisioShapeSheet)
+# <a name="minute-function-visioshapesheet"></a>MINUTE Function (VisioShapeSheet)
 
 Devuelve un valor integer entre 0 y 59 que representa el componente de minutos de *fecha y hora* o *expresión* . 
   
@@ -24,7 +24,7 @@ Devuelve un valor integer entre 0 y 59 que representa el componente de minutos d
 
 MINUTO (" *datetime* " |  *expresión*  [, *lcid* ]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

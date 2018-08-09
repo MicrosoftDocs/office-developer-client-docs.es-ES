@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822355"
 ---
-# <a name="isdropsource-cell-miscellaneous-section"></a>Celda IsDropSource (Sección de varios)
+# <a name="isdropsource-cell-miscellaneous-section"></a>Celda IsDropSource (sección Varios)
 
 Determina si se puede agregar una forma a un grupo soltándola en él.
   
@@ -27,17 +27,17 @@ Determina si se puede agregar una forma a un grupo soltándola en él.
    
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer este valor mediante la selección de la forma, haciendo clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, selecciona la casilla de verificación **Agregar formas a grupos en el buzón** . 
+También puede ajustar este valor si selecciona la forma, hace clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, selecciona la casilla **Agregar formas a un grupo al colocarlas**. 
   
-Además de habilitar este comportamiento para una forma, también debe habilitar un grupo Aceptar formas que se arrastran en él. Para ello, seleccione el grupo, haga clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccione la casilla de verificación **Aceptar formas colocadas** . Este valor se almacena en la celda IsDropTarget, en la sección Propiedades del grupo. 
+Además de habilitar este comportamiento para una forma, debe habilitar también un grupo donde se puedan soltar las formas. Para ello, seleccione el grupo, haga clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, active la casilla **Aceptar formas colocadas**. Este valor se almacena en la celda IsDropTarget, en la sección de propiedades del grupo. 
   
-Para obtener una referencia a la celda IsDropSource por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda IsDropSource por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |IsDropSource  <br/> |
    
-Para obtener una referencia a la celda IsDropSource por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda IsDropSource por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

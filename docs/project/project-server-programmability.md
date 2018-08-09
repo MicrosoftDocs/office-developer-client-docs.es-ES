@@ -54,7 +54,7 @@ La aplicación de servicio de proyecto es un proveedor de servicio lógico que p
 > [!NOTE]
 > Algunas páginas administrativas en Project Web App, como la página Configuración de PWA, no son editables y no mostrar el comando **Editar página** . Project Web App no permite editar páginas mediante SharePoint Designer 2013. Puede editar las páginas del sitio de proyecto con SharePoint Designer 2013. 
   
-**En la figura 1. Mediante el menú Editar página de Project Web App**
+**Ilustración 1. Empleo del menú Editar página de Project Web App**
 
 ![Edición de la página principal de Project Web Access] (media/pj15_Programmability_PWAHome.gif "Edición de la página principal de Project Web Access")
   
@@ -74,11 +74,11 @@ Para Project Online, puede agregar botones a la cinta de opciones de Project Web
   
 El archivo de esquema PSEntityProvision.xsd está disponible en la descarga del SDK de Project 2013, en la `Documentation\Schemas\AppProvisioning` subdirectorio. La figura 2 muestra la vista del explorador de esquema de XML en Visual Studio del esquema **PSEntityProvision** , donde se expande la secuencia **LookupTable** . 
   
-**La figura 2. Vista de la entidad de Project Server aprovisionamiento de esquema de Visual Studio**
+**Ilustración 2. Vista de Visual Studio del esquema de aprovisionamiento de entidad de Project Server**
 
 ![Vista del esquema de entidad de Project Server] (media/pj15_Programmability_EntitySchema.gif "Vista del esquema de entidad de Project Server")
   
-Paquetes de SharePoint que instalación las características de Project Server pueden contener uno o varios archivos de elements.xml que siguen el esquema de **PSEntityProvision** . Las entidades de Project Server en un único archivo XML deben aparecer en el orden siguiente: 
+Los paquetes de SharePoint que instalan características de Project Server pueden contener uno o más archivos elements.xml que sigan el esquema **PSEntityProvision**. Las entidades de Project Server de un único archivo XML deben aparecer en el siguiente orden: 
   
 1. Fases de flujo de trabajo
     
@@ -99,7 +99,7 @@ Si se produce un error en la instalación de un paquete, los objetos que se han 
 ## <a name="upgrading-applications-with-the-project-server-apis"></a>Actualización de aplicaciones con las API de Project Server
 <a name="pj15_Programmability_APIs"> </a>
 
-Cuando se actualiza una aplicación que se ha desarrollado para una versión anterior de Project Server, puede usar el CSOM o la PSI para una interfaz de programación que incluye métodos para crear, leer, actualizar y eliminar entidades de proyecto (las operaciones CRUD). Aunque el CSOM llama internamente a la PSI, no sustituye completamente todos los métodos PSI. Para escenarios y las limitaciones de la PSI y del CSOM, consulte [What the PSI does and no hace](what-the-psi-does-and-does-not-do.md) y [el CSOM ¿qué hace y no hace](what-the-csom-does-and-does-not-do.md).
+Al actualizar una aplicación desarrollada para una versión anterior de Project Server, puede optar entre usar el CSOM o PSI para una interfaz de programación que incluye métodos para crear, leer, actualizar y eliminar entidades del proyecto (operaciones CRUD). Aunque el CSOM llama internamente a PSI, no sustituye totalmente todos los métodos de PSI. Para ver los escenarios y las limitaciones de PSI y el CSOM, consulte [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md) y [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md).
   
 > [!NOTE]
 > Si el CSOM incluye la funcionalidad que necesita, se recomienda actualizar aplicaciones para usar el CSOM. El CSOM permite que las aplicaciones que se usará para local y las instalaciones en línea de Project Server 2013. 
@@ -153,7 +153,7 @@ Las aplicaciones desarrolladas para PDS no son compatibles con versiones posteri
 > [!NOTE]
 > Debido a que las aplicaciones de PDS deben deben rediseñarse por completo para Project Server 2013, se recomienda que use el CSOM. 
   
-Para obtener más información acerca de la compatibilidad de PDS y directrices para las extensiones PDS a la PSI, consulte [PDS Parity in PSI Web Services](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
+Para obtener más información sobre la compatibilidad de PDS y para ver directrices para la migración de extensiones de PDS a PSI, consulte [PDS Parity in PSI Web Services](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>Aplicaciones de migración compiladas para Project Server 2007 y Project Server 2010
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -277,14 +277,14 @@ Para todos estos motivos, Project Professional y Project Web App no realizan lla
   
 Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Puede usar las tablas de informes para ayudar a generar informes y se documenta el esquema de las tablas y vistas de informes en la descarga del SDK de Project 2013. Para el esquema de OData de los datos de informes, consulte [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md)    
-- [Arquitectura de Project Server 2013](project-server-2013-architecture.md)    
-- [Lo que hace y no hace la PSI](what-the-psi-does-and-does-not-do.md)   
-- [Lo que hace y no hace el CSOM](what-the-csom-does-and-does-not-do.md)    
+- [Project Server 2013 architecture](project-server-2013-architecture.md)    
+- [Lo que hace y no hace PSI](what-the-psi-does-and-does-not-do.md)   
+- [Lo que hace y no hace CSOM](what-the-csom-does-and-does-not-do.md)    
 - [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md)    
-- [Comenzar desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)    
+- [Empezar a desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)    
 - [Referencias de programación de Project 2013](project-2013-programming-references.md)    
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md)    
 - [Crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822714"
 ---
-# <a name="pagecount-function"></a>PAGECOUNT (función)
+# <a name="pagecount-function"></a>Función PAGECOUNT
 
 Devuelve el número de páginas de primer plano en un documento. 
   

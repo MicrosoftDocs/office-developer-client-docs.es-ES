@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821552"
 ---
-# <a name="b-cell-geometry-section"></a>Celda B (Sección de geometría)
+# <a name="b-cell-geometry-section"></a>Celda B (sección Geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda B según la fila en la que se encuentre.
   
@@ -28,9 +28,9 @@ Representa distinta información según las filas. En la tabla siguiente se desc
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Un *y* -coordenadas de un punto de una línea infinita; emparejada con *x* -coordenada representada por la celda [A](a-cell-geometry-section.md) .  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | Un *y* -coordenadas de un punto de una elipse; emparejada con *x* -coordenada representada por la celda [A](a-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda B por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda B por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
@@ -43,12 +43,12 @@ Para obtener una referencia a la celda B por su índice desde un programa, utili
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionFirstComponent** +  *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de fila:  <br/> |**visRowVertex** +  *j* donde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Filas InfiniteLine y Ellipse)  <br/> |
-| Índice de celda:  <br/> |**visControlX** (Fila EllipticalArcTo)  <br/> |
-||**visControlY** (Fila EllipticalArcTo)  <br/> |
-||**visNURBSWeight** (Fila NURBSTo)  <br/> |
-||**visSplineKnot2** (Fila SplineStart)  <br/> |
-||**visInfiniteLineY2** (Fila InfiniteLine)  <br/> |
-||**visEllipseMajorY** (Fila ellipse)  <br/> |
+||**visRowVertex** (filas InfiniteLine y Ellipse)  <br/> |
+| Índice de celda:  <br/> |**visControlX** (fila EllipticalArcTo)  <br/> |
+||**visControlY** (fila EllipticalArcTo)  <br/> |
+||**visNURBSWeight** (fila NURBSTo)  <br/> |
+||**visSplineKnot2** (fila SplineStart)  <br/> |
+||**visInfiniteLineY2** (fila InfiniteLine)  <br/> |
+||**visEllipseMajorY** (fila Ellipse)  <br/> |
    
 

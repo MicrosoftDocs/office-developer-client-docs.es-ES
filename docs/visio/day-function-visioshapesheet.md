@@ -1,5 +1,5 @@
 ---
-title: Función DAY (VisioShapeSheet)
+title: DAY Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821952"
 ---
-# <a name="day-function-visioshapesheet"></a>Función DAY (VisioShapeSheet)
+# <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
 
 Devuelve un entero entre 1 y 31, que representa el día _y hora_ o de _expresión_. La función día usa el calendario gregoriano.
   
@@ -24,7 +24,7 @@ Devuelve un entero entre 1 y 31, que representa el día _y hora_ o de _expresió
 
 DÍA ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

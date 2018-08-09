@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823540"
 ---
-# <a name="width-cell-shape-transform-section"></a>Celda Width (Sección de transformación de forma)
+# <a name="width-cell-shape-transform-section"></a>Celda Width (sección Transformación de forma)
 
 Contiene el ancho de la forma seleccionada en las unidades especificadas para el dibujo. La fórmula predeterminada para especificar el ancho de una forma 1D es:
   
@@ -24,13 +24,13 @@ Contiene el ancho de la forma seleccionada en las unidades especificadas para el
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Width por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Width por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Width  <br/> |
    
-Para obtener una referencia a la celda Width por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Width por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

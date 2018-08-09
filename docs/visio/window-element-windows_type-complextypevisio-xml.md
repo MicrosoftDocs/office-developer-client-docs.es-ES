@@ -6,7 +6,9 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
-description: Representa una ventana abierta en una instancia de Microsoft Visio. Este elemento contiene la información necesaria para exactamente volver a crear una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando inicialmente se abre el archivo de Visio.
+description: >-
+  Representa una ventana abierta en una instancia de Microsoft Visio.
+   Este elemento contiene la información necesaria para exactamente volver a crear una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando inicialmente se abre el archivo de Visio.
 ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +18,8 @@ ms.locfileid: "19823549"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento de la ventana (Windows_Type complexType) ('XML de Visio')
 
-Representa una ventana abierta en una instancia de Microsoft Visio. Este elemento contiene la información necesaria para exactamente volver a crear una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando inicialmente se abre el archivo de Visio.
+Representa una ventana abierta en una instancia de Microsoft Visio.
+ Este elemento contiene la información necesaria para exactamente volver a crear una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando inicialmente se abre el archivo de Visio.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -69,7 +72,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |Container  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador de contenedor: página, hoja o patrón. Sólo relevantes y es necesario si se especifica **ContainerType** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |xsd:token  <br/> |opcional  <br/> |Puede ser uno de los siguientes valores: Document, Page o Master. Solo es relevante cuando se especifica **WindowType** como dibujo o la hoja.  <br/> |Valores del tipo xsd:token.  <br/> |
 |Documento  <br/> |xsd: String  <br/> |opcional  <br/> |Ruta de acceso de archivo del documento que se muestra en esta ventana.  <br/> |Valores del tipo XSD: String.  <br/> |
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Master  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador de patrón si esta ventana muestra a un patrón.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Page  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador de la página si la ventana muestra una página. Es relevante sólo cuando se especifica **WindowType** como dibujo y **ContainerType** se especifica como página.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |ParentWindow  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador de ventana en la que se encuentra esta ventana de galería de símbolos. Es relevante sólo si se especifica **WindowType** como galería de símbolos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
@@ -82,7 +85,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |WindowLeft  <br/> |xsd:short  <br/> |opcional  <br/> |Coordenada izquierda del rectángulo de la ventana.  <br/> |Valores del tipo xsd:short.  <br/> |
 |WindowState  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Un entero que especifica los indicadores de bits.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |WindowTop  <br/> |xsd:short  <br/> |opcional  <br/> |Coordenada superior del rectángulo de la ventana.  <br/> |Valores del tipo xsd:short.  <br/> |
-|Tipo ventana  <br/> |xsd:token  <br/> |necesario  <br/> |Un valor enumerado que puede ser uno de los siguientes: dibujo, hoja, Galería de símbolos o icono.  <br/> |Valores del tipo xsd:token.  <br/> |
+|WindowType  <br/> |xsd:token  <br/> |necesario  <br/> |Un valor enumerado que puede ser uno de los siguientes: dibujo, hoja, Galería de símbolos o icono.  <br/> |Valores del tipo xsd:token.  <br/> |
 |WindowWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Ancho del rectángulo de la ventana.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

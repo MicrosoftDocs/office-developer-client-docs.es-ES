@@ -16,11 +16,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822452"
 ---
-# <a name="linejumpcode-cell-page-layout-section"></a>Celda LineJumpCode (Sección de diseño de página)
+# <a name="linejumpcode-cell-page-layout-section"></a>Celda LineJumpCode (sección Diseño de página)
 
 Determina los conectores a los que desea agregar saltos.
   
-|**Valor**|**Conectores a la que desea agregar saltos**|**Constante de automatización**|
+|**Valor**|**Conectores a los que desea agregar saltos**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Ninguno  <br/> |**visPLOJumpNone** <br/> |
 |1  <br/> |Líneas horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
@@ -29,17 +29,17 @@ Determina los conectores a los que desea agregar saltos.
 |4  <br/> |Última línea mostrada (top de la forma en la *z* -orden)  <br/> |**visPLOJumpDisplayOrder** <br/> |
 |5  <br/> |Primera línea mostrada (forma en la parte inferior de la *z* -orden)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
+También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
   
-Para obtener una referencia a la celda LineJumpCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineJumpCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineJumpCode  <br/> |
    
-Para obtener una referencia a la celda LineJumpCode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineJumpCode por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

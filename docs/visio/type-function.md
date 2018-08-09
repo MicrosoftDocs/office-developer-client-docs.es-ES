@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823473"
 ---
-# <a name="type-function"></a>TYPE (función)
+# <a name="type-function"></a>Función TYPE
 
 Devuelve un tipo de objeto interno como un número. 
   

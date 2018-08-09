@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823555"
 ---
-# <a name="x-cell-action-tags-section"></a>Celda X (sección de etiquetas de acción)
+# <a name="x-cell-action-tags-section"></a>Celda X (sección Etiquetas de acción)
 
 La *x* -posición en coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción de la coordenada. 
   
@@ -27,13 +27,13 @@ La *x* -posición en coordenadas locales de la forma alrededor del cual se sitú
 
 Las celdas X e Y definen un punto en las coordenadas locales de la forma, y las celdas X Justify e Y Justify definen dónde se coloca el botón de etiqueta de acción en relación con ese punto. 
   
-Para obtener una referencia a la celda X por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda X por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> |Etiquetas inteligentes. *nombre* . X donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
    
-Para obtener una referencia a la celda X por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

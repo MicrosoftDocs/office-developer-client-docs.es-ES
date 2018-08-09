@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822784"
 ---
-# <a name="playsound-function"></a>PLAYSOUND (función)
+# <a name="playsound-function"></a>Función PLAYSOUND
 
 Reproduce un archivo de sonido o un sonido del sistema. 
   
@@ -24,7 +24,7 @@ Reproduce un archivo de sonido o un sonido del sistema.
 
 PLAYSOUND ("** *filename* **" | "** *alias* **", ** *esAlias* **, ** *beep* **, ** *synch* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -36,7 +36,8 @@ PLAYSOUND ("** *filename* **" | "** *alias* **", ** *esAlias* **, ** *beep* **, 
    
 ## <a name="remarks"></a>Observaciones
 
-Normalmente, debe reproducir sonidos de forma asincrónica para que Visio puede continuar el procesamiento mientras reproduce el sonido. Para encadenar varios sonidos conjuntamente, reproducen ellos sincrónicamente, o es posible que algunas no reproducir. 
+Debe reproducir los sonidos siempre de forma asincrónica para que Visio se pueda seguir ejecutando mientras se reproduce el sonido. Para encadenar varios sonidos de manera que suenen uno a continuación del otro, debe reproducirlos de forma sincrónica ya que, de lo contrario, algunos podrían no reproducirse.
+ 
   
 ## <a name="example-1"></a>Ejemplo 1
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822060"
 ---
-# <a name="enabletextprops-cell-style-properties-section"></a>Celda EnableTextProps (Sección de propiedades de estilo)
+# <a name="enabletextprops-cell-style-properties-section"></a>Celda EnableTextProps (sección de propiedades de estilo)
 
 Determina si un estilo incluye propiedades de texto.
   
@@ -27,13 +27,13 @@ Determina si un estilo incluye propiedades de texto.
    
 ## <a name="remarks"></a>Observaciones
 
-Para obtener una referencia a la celda EnableTextProps por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EnableTextProps por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |EnableTextProps  <br/> |
    
-Para obtener una referencia a la celda EnableTextProps por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EnableTextProps por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

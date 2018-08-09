@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823350"
 ---
-# <a name="tabs-section"></a>Sección de tabulaciones
+# <a name="tabs-section"></a>Sección Tabulaciones
 
 Contiene celdas para formas o estilos que controlan la posición de tabulación y la alineación.
   

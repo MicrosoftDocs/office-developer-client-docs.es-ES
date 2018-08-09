@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822819"
 ---
-# <a name="pnt-function"></a>PNT (función)
+# <a name="pnt-function"></a>Función PNT
 
 Devuelve el punto representado por las coordenadas _x_ e _y_ como un valor único. 
   
@@ -24,11 +24,11 @@ Devuelve el punto representado por las coordenadas _x_ e _y_ como un valor únic
 
 PNT (** *x, y* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _x, y_ <br/> |Obligatorio  <br/> |**Número, número** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
+| _x, y_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823465"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>Escribir una fórmula nueva para una celda
+# <a name="type-a-new-formula-for-a-cell"></a>Escribir una nueva fórmula de una celda
 
 1. Seleccione la celda.
     

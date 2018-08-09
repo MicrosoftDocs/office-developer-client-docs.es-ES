@@ -52,7 +52,7 @@ Ninguno.
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor del elemento **SnapExtensions** puede ser una suma de los valores en la tabla siguiente. 
   

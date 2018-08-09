@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822766"
 ---
-# <a name="polyline-function"></a>POLYLINE (función)
+# <a name="polyline-function"></a>Función POLYLINE
 
 Devuelve una polilínea. Esta función se usa en la celda a de las filas de geometría PolyLineTo. 
   
@@ -24,7 +24,7 @@ Devuelve una polilínea. Esta función se usa en la celda a de las filas de geom
 
 POLYLINE (** *tipoDeX* **, ** *tipoDeY* **, ** *x1* **, ** *y1* **...) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -33,7 +33,7 @@ POLYLINE (** *tipoDeX* **, ** *tipoDeY* **, ** *x1* **, ** *y1* **...)
 | _X1_ <br/> |Obligatorio  <br/> |**Número** <br/> | Una _x_-coordinar.  <br/> |
 | _Y1_ <br/> |Obligatorio  <br/> |**Número** <br/> |Un _y_-coordinar.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para cada argumento *x* debe haber un argumento *y* ; de lo contrario, se devuelve un error. 
   

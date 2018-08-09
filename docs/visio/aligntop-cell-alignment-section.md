@@ -16,13 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821545"
 ---
-# <a name="aligntop-cell-alignment-section"></a>Celda AlignTop (Sección de alineación)
+# <a name="aligntop-cell-alignment-section"></a>Celda AlignTop (sección Alineación)
 
 Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el borde superior de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignTop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignTop por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

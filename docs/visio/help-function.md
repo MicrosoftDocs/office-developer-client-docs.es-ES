@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822276"
 ---
-# <a name="help-function"></a>HELP (función)
+# <a name="help-function"></a>Función HELP
 
 Abre un archivo de Ayuda HTML con la *palabra clave* palabra especificadas en el cuadro de **búsqueda** . 
   
@@ -24,7 +24,7 @@ Abre un archivo de Ayuda HTML con la *palabra clave* palabra especificadas en el
 
 Ayuda ("** *filename.chm!keyword* **") 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

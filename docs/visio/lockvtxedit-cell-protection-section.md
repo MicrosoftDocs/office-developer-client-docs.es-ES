@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822547"
 ---
-# <a name="lockvtxedit-cell-protection-section"></a>Celda LockVtxEdit (Sección de protección)
+# <a name="lockvtxedit-cell-protection-section"></a>Celda LockVtxEdit (sección Protección)
 
 Bloquea los vértices de una forma para que no se puedan editar.
   
@@ -27,13 +27,13 @@ Bloquea los vértices de una forma para que no se puedan editar.
    
 ## <a name="remarks"></a>Observaciones
 
-Para obtener una referencia a la celda LockVtxEdit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockVtxEdit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockVtxEdit  <br/> |
    
-Para obtener una referencia a la celda LockVtxEdit por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockVtxEdit por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

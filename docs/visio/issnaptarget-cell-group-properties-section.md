@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822380"
 ---
-# <a name="issnaptarget-cell-group-properties-section"></a>Celda IsSnapTarget (Sección de propiedades de grupo)
+# <a name="issnaptarget-cell-group-properties-section"></a>Celda IsSnapTarget (sección Propiedades de grupo)
 
 Determina si las formas se ajustan en un grupo o dentro de él.
   
@@ -27,15 +27,15 @@ Determina si las formas se ajustan en un grupo o dentro de él.
    
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer este valor, seleccione el grupo, hace clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccione la casilla de verificación **se ajusta a las formas pertenecientes** . 
+También puede ajustar este valor si selecciona un grupo, hace clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, activa la casilla **Ajustar a las formas pertenecientes**. 
   
-Para obtener una referencia a la celda IsSnapTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda IsSnapTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |IsSnapTarget  <br/> |
    
-Para obtener una referencia a la celda IsSnapTarget por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda IsSnapTarget por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

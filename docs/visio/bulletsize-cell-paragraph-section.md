@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821676"
 ---
-# <a name="bulletsize-cell-paragraph-section"></a>Celda BulletSize (Sección de párrafo)
+# <a name="bulletsize-cell-paragraph-section"></a>Celda BulletSize (sección Párrafo)
 
 Especifica el tamaño de una viñeta. 
   
@@ -26,13 +26,14 @@ Este valor se puede especificar para viñetas predefinidas o personalizadas y co
   
 Si el valor es cero (0), la viñeta tiene el mismo tamaño de fuente que la del primer carácter del párrafo. Si el valor es un porcentaje, la viñeta se mide como un porcentaje del tamaño de fuente del primer carácter del párrafo. Los números negativos se tratan como porcentajes.
   
-Para obtener una referencia a la celda BulletSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BulletSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Para.BulletFontSize [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda BulletSize por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BulletSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

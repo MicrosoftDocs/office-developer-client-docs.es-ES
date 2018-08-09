@@ -1,5 +1,5 @@
 ---
-title: Celda XRulerDensity (regla &amp; sección de la cuadrícula)
+title: Celda XRulerDensity (sección Regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823567"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (regla &amp; sección de la cuadrícula)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (sección Regla y cuadrícula)
 
 Especifica las subdivisiones horizontales de la regla en la página.
   
@@ -27,17 +27,17 @@ Especifica las subdivisiones horizontales de la regla en la página.
 |16 (&amp;H10)  <br/> |Normal (predeterminada)  <br/> |**visRulerNormal** <br/> |
 |32 (&amp;H20)  <br/> |Fina  <br/> |**visRulerFine** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta celda corresponde a la opción **subdivisiones** horizontales en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
-Para obtener una referencia a la celda XRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda XRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |XRulerDensity  <br/> |
    
-Para obtener una referencia a la celda XRulerDensity por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda XRulerDensity por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Función WEEKDAY (VisioShapeSheet)
+title: WEEKDAY Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823543"
 ---
-# <a name="weekday-function-visioshapesheet"></a>Función WEEKDAY (VisioShapeSheet)
+# <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 
 Devuelve un entero entre 1 y 7, que representa el día de la semana de _fecha y hora_ o _expresión_.
   
@@ -24,13 +24,13 @@ Devuelve un entero entre 1 y 7, que representa el día de la semana de _fecha y 
 
 WEEKDAY ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _fecha y hora_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

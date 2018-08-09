@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821551"
 ---
-# <a name="anglealongpath-function"></a>ANGLEALONGPATH (función)
+# <a name="anglealongpath-function"></a>Función ANGLEALONGPATH
 
 Devuelve el ángulo de la tangente a la ruta de acceso en un punto dado.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 ANGLEALONGPATH (** *sección* **, ** *viajes* ** ** *[, segmento]* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -38,7 +39,7 @@ ANGLEALONGPATH (** *sección* **, ** *viajes* ** ** *[, segmento]* **)
 
  **Double**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si incluye un valor _segment_ , ANGLEALONGPATH devuelve el valor solamente para ese segmento. 
   

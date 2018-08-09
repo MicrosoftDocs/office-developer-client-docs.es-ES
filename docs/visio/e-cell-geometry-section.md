@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822049"
 ---
-# <a name="e-cell-geometry-section"></a>Celda E (Sección de geometría)
+# <a name="e-cell-geometry-section"></a>Celda E (sección Geometría)
 
 Contiene la fórmula de una spline B racional no uniforme (NURBS).
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda E por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda E por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría *i* . E *j* donde *i* y *j* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda E por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda E por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

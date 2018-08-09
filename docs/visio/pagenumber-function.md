@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822716"
 ---
-# <a name="pagenumber-function"></a>PAGENUMBER (función)
+# <a name="pagenumber-function"></a>Función PAGENUMBER
 
 Devuelve el número de la página que contiene la forma. 
   

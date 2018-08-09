@@ -1,5 +1,5 @@
 ---
-title: Celda RotationYAngle (sección de propiedades de rotación 3D)
+title: Celda RotationYAngle (sección de propiedades de giro 3D)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823011"
 ---
-# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Celda RotationYAngle (sección de propiedades de rotación 3D)
+# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Celda RotationYAngle (sección de propiedades de giro 3D)
 
 Determina el ángulo de giro a lo largo del eje y, en grados (0,0 - 359.9).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **RotationYAngle** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

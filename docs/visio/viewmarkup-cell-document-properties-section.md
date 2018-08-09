@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823534"
 ---
-# <a name="viewmarkup-cell-document-properties-section"></a>Celda ViewMarkup (Sección de propiedades del documento)
+# <a name="viewmarkup-cell-document-properties-section"></a>Celda ViewMarkup (sección Propiedades del documento)
 
 Determina si la marca de revisión aparece en la ventana de dibujo. 
   
@@ -31,15 +31,15 @@ Determina si la marca de revisión aparece en la ventana de dibujo.
   
 La celda ViewMarkup también se establece en TRUE cuando se insertan comentarios en un dibujo (con independencia de que estén o no activadas las marcas de revisión), y es necesario que sea TRUE para ver los comentarios en el dibujo.
   
-Esta celda corresponde al comando **Mostrar marcas** en el grupo de **marcado** en la ficha **Revisar** . 
+Esta celda corresponde al comando **Mostrar marcas** en el grupo **Revisión** de la ficha **Revisar**. 
   
-Para obtener una referencia a la celda ViewMarkup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ViewMarkup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |ViewMarkup  <br/> |
    
-Para obtener una referencia a la celda ViewMarkup por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ViewMarkup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

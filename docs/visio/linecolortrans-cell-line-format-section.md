@@ -16,27 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822456"
 ---
-# <a name="linecolortrans-cell-line-format-section"></a>Celda LineColorTrans (Sección de formato de línea)
+# <a name="linecolortrans-cell-line-format-section"></a>Celda LineColorTrans (sección Formato de línea)
 
 Determina el grado de transparencia del color de línea de una forma.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|
+          0 -100
+  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 
 Los valores se redondean al porcentaje medio más próximo. El valor 100% hace que sea totalmente transparente. Aunque en la página de dibujo una forma con un color de línea totalmente transparente y otra sin líneas aparecen igual, la interacción con los demás objetos de la página se producirá como si su transparencia fuera del cero por ciento. 
   
-También puede establecer este valor mediante el control deslizante en el cuadro de diálogo **línea** (en la ficha **Inicio** , en el grupo **forma** , haga clic en **línea**, elija **grosor**y, a continuación, haga clic en **Más líneas**).
+También puede establecer este valor con el control deslizante en el cuadro de diálogo **Línea** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Línea**, seleccione **Grosor** y, a continuación, haga clic en **Más líneas**).
   
-Para obtener una referencia a la celda LineColorTrans por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineColorTrans por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineColorTrans  <br/> |
    
-Para obtener una referencia a la celda LineColorTrans por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineColorTrans por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

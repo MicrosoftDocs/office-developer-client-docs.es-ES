@@ -16,27 +16,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822852"
 ---
-# <a name="previewscope-cell-document-properties-section"></a>Celda PreviewScope (Sección de propiedades del documento)
+# <a name="previewscope-cell-document-properties-section"></a>Celda PreviewScope (sección Propiedades del documento)
 
 Determina si el dibujo incluye una vista previa. Si la incluye, determina si la vista previa muestra la primera página únicamente o todas las páginas del dibujo.
   
-|**Valor**|**Ámbito de vista previa**|**Constante de automatización**|
+|**Valor**|**Ámbito de la vista previa**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Primera página  <br/> |**visDocPreviewScope1stPage** <br/> |
 | 1  <br/> | Ninguna  <br/> |**visDocPreviewScopeNone** <br/> |
 | 2  <br/> | Todas las páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 También puede establecer este valor en la ficha **Resumen** en el cuadro de diálogo **Propiedades** (haga clic en el botón de **Office** , haga clic en la ficha **información** , haga clic en **Propiedades del documento**y, a continuación, haga clic en **Propiedades avanzadas**).
   
-Para obtener una referencia a la celda PreviewScope por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PreviewScope por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PreviewScope  <br/> |
    
-Para obtener una referencia a la celda PreviewScope por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PreviewScope por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

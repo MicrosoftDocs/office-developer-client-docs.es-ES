@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822463"
 ---
-# <a name="linetolinex-cell-page-layout-section"></a>Celda LineToLineX (Sección de diseño de página)
+# <a name="linetolinex-cell-page-layout-section"></a>Celda LineToLineX (sección Diseño de página)
 
 Determina el gálibo horizontal entre todos los conectores de la página de dibujo.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el valor de esta celda en el cuadro de diálogo **Diseño de espaciado y el enrutamiento** . (En la ficha **Diseño** , haga clic en la flecha de **Configurar página** , haga clic en **Diseño y enrutamiento**y, a continuación, haga clic en **Espaciado**).
+También puede establecer el valor de esta celda en el cuadro de diálogo **Espaciado del diseño y el enrutamiento**. (En la ficha **Diseño**, haga clic en la flecha de **Configurar página**, haga clic en **Diseño y enrutamiento** y, a continuación, en **Espaciado**).
   
-Para obtener una referencia a la celda LineToLineX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineToLineX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineToLineX  <br/> |
    
-Para obtener una referencia a la celda LineToLineX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineToLineX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

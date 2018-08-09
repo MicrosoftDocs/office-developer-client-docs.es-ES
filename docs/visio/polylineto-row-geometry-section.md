@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822765"
 ---
-# <a name="polylineto-row-geometry-section"></a>Fila PolylineTo (Sección de Geometría)
+# <a name="polylineto-row-geometry-section"></a>Fila PolylineTo (sección Geometría)
 
 Contiene *x* - e *y* -coordenadas del último punto de una polilínea y una fórmula de polilínea. 
   
@@ -30,8 +30,8 @@ Las filas PolylineTo contienen las celdas siguientes.
    
 ## <a name="remarks"></a>Comentarios
 
-Las líneas representadas por una fila de polilínea son equivalentes a las líneas que se representan como una secuencia de filas LineTo, pero la fila Polyline es más eficaz. Puede cambiar una fila PolylineTo a una fila LineTo para que pueda ver fácilmente la geometría de forma. Para ello, haga clic en la fila PolylineTo y, a continuación, haga clic en **Expandir fila** en el menú contextual. 
+Las líneas representadas por filas Polyline son equivalentes a las representadas por una secuencia de filas LineTo, pero la fila Polyline es más eficaz. Puede cambiar una fila PolylineTo por una fila LineTo para poder ver fácilmente la geometría de la forma. Para ello, haga clic con el botón secundario del mouse (ratón) en la fila PolylineTo y, a continuación, haga clic en Expandir fila en el menú contextual. 
   
-Para cambiar un tipo de fila por una fila PolylineTo, haga clic en la fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para cambiar un tipo de fila por una fila PolylineTo, haga clic con el botón secundario del mouse en la fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
   
 

@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822775"
 ---
-# <a name="pointalongpath-function"></a>POINTALONGPATH (función)
+# <a name="pointalongpath-function"></a>Función POINTALONGPATH
 
 Devuelve las coordenadas de un punto en la ruta de acceso o desplazado de ésta.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 POINTALONGPATH (** *sección* **, ** *viajes* ** ** *[, desplazamiento]* ** ** *[, segmento]* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -39,7 +40,7 @@ POINTALONGPATH (** *sección* **, ** *viajes* ** ** *[, desplazamiento]* ** ** *
 
  **Punto**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si no existe _section_ ni _segment_ , Microsoft Visio devuelve #REF!. 
   
@@ -47,6 +48,6 @@ Los valores de *desplazamiento* de positivo especifican puntos a la izquierda de
   
 Los valores de *desplazamiento* de negativos especifican puntos a la derecha de la dirección del recorrido. 
   
-Un **punto** representa un par ordenado de coordenadas geométricas (*x, y*) como un valor único. 
+Un **punto** representa un par ordenado de coordenadas geométricas (*x,y*) como valor único. 
   
 

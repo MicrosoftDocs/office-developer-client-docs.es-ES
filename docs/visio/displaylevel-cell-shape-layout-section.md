@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821967"
 ---
-# <a name="displaylevel-cell-shape-layout-section"></a>Celda DisplayLevel (sección de diseño de la forma [Shape Layout])
+# <a name="displaylevel-cell-shape-layout-section"></a>Celda DisplayLevel (sección Diseño de forma)
 
 Determina la banda del nivel de presentación (el intervalo relativo de la agrupación de orden Z) de la forma.
   
@@ -30,13 +30,13 @@ El intervalo de los niveles de presentación oscila entre -32.767 y +32.767. Las
   
 Puede cambiar el orden Z de las formas dentro de una banda mediante el uso de los comandos **Traer al frente**, **Enviar hacia atrás**, **Traer al frente**y **Enviar al fondo**. Si los comandos mover una forma fuera de su banda determinado, Microsoft Visio muestra el valor reservado -32768 en la celda de nivel de presentación de la forma, a menos que la celda está protegida. En ese caso, no se puede mover la forma a una banda diferente y, Visio muestra la advertencia "las propiedades de protección o capa de forma impiden la ejecución completa de este comando". 
   
-Para obtener una referencia a la celda DisplayLevel por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , use lo siguiente. 
+Para obtener una referencia desde otra fórmula a la celda DisplayLevel por su nombre, o desde un programa mediante la propiedad **CellsU**, use lo siguiente. 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Nivel de presentación  <br/> |
    
-Para obtener una referencia a la celda DisplayLevel por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DisplayLevel por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

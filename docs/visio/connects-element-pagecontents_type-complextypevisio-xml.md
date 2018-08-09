@@ -49,7 +49,9 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.  <br/> |
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
+			Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.
+  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

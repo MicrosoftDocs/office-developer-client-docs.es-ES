@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823449"
 ---
-# <a name="txtangle-cell-text-transform-section"></a>Celda TxtAngle (Sección de transformación de texto)
+# <a name="txtangle-cell-text-transform-section"></a>Celda TxtAngle (sección Transformación de texto)
 
 Determina el ángulo bloque de texto actual de la rotación en relación con la *x* -eje de la forma. El valor predeterminado es 0 grados. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda TxtAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda TxtAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | TxtAngle  <br/> |
    
-Para obtener una referencia a la celda TxtAngle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda TxtAngle por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

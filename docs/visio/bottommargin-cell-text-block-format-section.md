@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821678"
 ---
-# <a name="bottommargin-cell-text-block-format-section"></a>Celda BottomMargin (Sección de formato del bloque de texto)
+# <a name="bottommargin-cell-text-block-format-section"></a>Celda BottomMargin (sección Formato del bloque de texto)
 
 Determina la distancia entre el borde inferior del bloque de texto y la última línea del texto que contiene. El valor predeterminado es 0,25 centímetros. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen inferior se mantiene igual.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda BottomMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BottomMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BottomMargin  <br/> |
    
-Para obtener una referencia a la celda BottomMargin por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BottomMargin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

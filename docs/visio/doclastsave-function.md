@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822020"
 ---
-# <a name="doclastsave-function"></a>DOCLASTSAVE (función)
+# <a name="doclastsave-function"></a>Función DOCLASTSAVE
 
 Devuelve la fecha y hora de que un documento se guardó por última vez como un valor de serie.
   

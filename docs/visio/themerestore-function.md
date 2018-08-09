@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823409"
 ---
-# <a name="themerestore-function"></a>THEMERESTORE (función)
+# <a name="themerestore-function"></a>Función THEMERESTORE
 
 Almacena el valor de formato local de una forma cuando se aplica un tema para que pueda restaurar el formato local si el usuario quita el tema posteriormente.
   

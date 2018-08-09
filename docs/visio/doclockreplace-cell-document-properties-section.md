@@ -1,5 +1,5 @@
 ---
-title: Celda DocLockReplace (sección Document Properties)
+title: Celda DocLockReplace (sección Propiedades del documento)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822025"
 ---
-# <a name="doclockreplace-cell-document-properties-section"></a>Celda DocLockReplace (sección Document Properties)
+# <a name="doclockreplace-cell-document-properties-section"></a>Celda DocLockReplace (sección Propiedades del documento)
 
 Determina si la forma de reemplazar la interfaz de usuario debe deshabilitarse para este documento. 
   
@@ -23,7 +23,7 @@ Determina si la forma de reemplazar la interfaz de usuario debe deshabilitarse p
 |TRUE  <br/> |El botón **Reemplazar forma** está atenuado en la interfaz de usuario.  <br/> |
 |FALSE  <br/> |El botón **Reemplazar forma** está activo en la interfaz de usuario. Los usuarios pueden usar la característica de la forma de reemplazar en este documento.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **DocLockReplace** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

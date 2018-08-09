@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822146"
 ---
-# <a name="fillforegnd-cell-fill-format-section"></a>Celda FillForegnd (Sección de formato de relleno)
+# <a name="fillforegnd-cell-fill-format-section"></a>Celda FillForegnd (sección Formato de relleno)
 
 Determina el color utilizado para el primer plano (trazo) de la trama de relleno de la forma.
   
@@ -28,13 +28,13 @@ Para especificar un color personalizado, utilice la función RGB o HSL. El valor
   
 Puede establecer la transparencia del relleno de primer plano en la celda FillForegndTrans.
   
-Para obtener una referencia a la celda FillForegnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda FillForegnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |FillForegnd  <br/> |
    
-Para obtener una referencia a la celda FillForegnd por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda FillForegnd por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

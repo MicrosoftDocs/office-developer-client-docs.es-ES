@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823173"
 ---
-# <a name="shapeshdwoffsety-cell-fill-format-section"></a>Celda ShapeShdwOffsetY (Sección de formato de relleno)
+# <a name="shapeshdwoffsety-cell-fill-format-section"></a>Celda ShapeShdwOffsetY (sección Formato de relleno)
 
 Determina el desplazamiento vertical en unidades de página de la sombra de una forma con respecto a la forma.
   
 ## <a name="remarks"></a>Observaciones
 
-Este valor corresponde al valor en la opción de **Desplazamiento Y** en el cuadro de diálogo **sombra** (en la ficha **Inicio** , en el grupo **forma** , haga clic en **sombra**y, a continuación, haga clic en **Opciones de sombra**).
+Este valor corresponde al valor del parámetro **Desplaz. Y** del cuadro de diálogo **Sombra** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**).
   
-Para obtener una referencia a la celda ShapeShdwOffsetY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShapeShdwOffsetY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ShapeShdwOffsetY  <br/> |
    
-Para obtener una referencia a la celda ShapeShdwOffsetY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShapeShdwOffsetY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Celda SketchAmount (sección de propiedades de efecto adicionales)
+title: Celda SketchAmount (sección Propiedades del efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823256"
 ---
-# <a name="sketchamount-cell-additional-effect-properties-section"></a>Celda SketchAmount (sección de propiedades de efecto adicionales)
+# <a name="sketchamount-cell-additional-effect-properties-section"></a>Celda SketchAmount (sección Propiedades del efecto adicional)
 
 Determina la cantidad de distorsión para un efecto de boceto, como un número entero entre 0 y 25. 
   
@@ -23,7 +23,7 @@ Determina la cantidad de distorsión para un efecto de boceto, como un número e
 |0  <br/> |La forma no tiene ningún efecto de boceto que se ha aplicado.  <br/> |
 |1-25  <br/> |La forma tiene distorsión de esbozo que se ha aplicado, donde un valor de 1 es la mayoría distorsión y 25 es el menor.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **SketchAmount** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

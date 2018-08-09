@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823462"
 ---
-# <a name="type--c-cell-connection-points-section"></a>Celda Type / C (Sección de puntos de conexión)
+# <a name="type--c-cell-connection-points-section"></a>Celda Type / C (sección Puntos de conexión)
 
 Determina el tipo de punto de conexión.
   
@@ -26,17 +26,17 @@ Determina el tipo de punto de conexión.
 |1  <br/> |Saliente  <br/> |**visCnnctTypeOutward** <br/> |
 |2  <br/> |Llamada &amp; hacia fuera  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el tipo de punto de conexión por elegir la herramienta **conector** , seleccionar una forma y, a continuación, hace doble clic en un punto de conexión. Para ello, debe ejecutar en modo [para programadores](run-in-developer-mode-display-the-developer-tab.md) . 
+Para establecer el tipo de punto de conexión también puede elegir la herramienta **Conector**, seleccionar una forma y, a continuación, hacer clic con el botón secundario en un punto de conexión. Para ello debe ejecutar en el modo para [programadores](run-in-developer-mode-display-the-developer-tab.md). 
   
-Para obtener una referencia al tipo / celda C por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Type / C por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Connections.Type [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia al tipo / celda C por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Type / C por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

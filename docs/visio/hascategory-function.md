@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822273"
 ---
-# <a name="hascategory-function"></a>HASCATEGORY (función)
+# <a name="hascategory-function"></a>Función HASCATEGORY
 
 Devuelve TRUE si la cadena especificada se encuentra en la lista de categorías de la forma.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 HASCATEGORY (** *categoría* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -36,7 +37,7 @@ HASCATEGORY (** *categoría* **)
 
  **Boolean**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  *Las categorías* son cadenas definidas por el usuario que puede usar para clasificar las formas. Puede definir las categorías en la celda User.msvShapeCategories de la ShapeSheet de una forma. Puede definir varias categorías de una forma, separe las categorías con punto y coma. 
   

@@ -1,5 +1,5 @@
 ---
-title: Sección de propiedades de bisel
+title: Sección Propiedades de bisel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821558"
 ---
-# <a name="bevel-properties-section"></a>Sección de propiedades de bisel
+# <a name="bevel-properties-section"></a>Sección Propiedades de bisel
 
 Se muestran los atributos de los efectos de bisel aplicados a la forma. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Puede aplicar un bisel a una forma en el panel de **Formato de forma** (**Home** > **Estilos de forma** > **bisel** > **Opciones 3D**, o al realizar cambios en las celdas en la sección de **Propiedades de bisel** de la ShapeSheet. 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822781"
 ---
-# <a name="plowcode-cell-page-layout-section"></a>Celda PlowCode (Sección de diseño de página)
+# <a name="plowcode-cell-page-layout-section"></a>Celda PlowCode (sección Diseño de página)
 
 Determina si las formas colocables se desplazan cuando se coloca una forma colocable cerca de otra en la página de dibujo.
   
@@ -25,17 +25,17 @@ Determina si las formas colocables se desplazan cuando se coloca una forma coloc
 |0  <br/> |No mover formas  <br/> |**visPLOPlowNone** <br/> |
 |1  <br/> |Mover formas  <br/> |**visPLOPlowAll** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ) mediante el uso de la casilla de verificación **mover las otras formas al colocar** . 
   
-Para obtener una referencia a la celda PlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |PlowCode  <br/> |
    
-Para obtener una referencia a la celda PlowCode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PlowCode por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

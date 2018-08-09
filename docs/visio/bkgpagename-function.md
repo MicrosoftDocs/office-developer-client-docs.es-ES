@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821659"
 ---
-# <a name="bkgpagename-function"></a>BKGPAGENAME (función)
+# <a name="bkgpagename-function"></a>Función BKGPAGENAME
 
 Devuelve un nombre de la página de fondo como una cadena.
   
@@ -24,15 +24,15 @@ Devuelve un nombre de la página de fondo como una cadena.
 
 BKGPAGENAME (** *IdIdiomaOpc* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _IdIdiomaOpc_ <br/> |Opcional  <br/> |**Numérico** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
+| _IdIdiomaOpc_ <br/> |Opcional  <br/> |**Numeric** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Notas
 

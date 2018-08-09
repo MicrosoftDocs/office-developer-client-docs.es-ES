@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822058"
 ---
-# <a name="enablelineprops-cell-style-properties-section"></a>Celda EnableLineProps (Sección de propiedades de estilo)
+# <a name="enablelineprops-cell-style-properties-section"></a>Celda EnableLineProps (sección de propiedades de estilo)
 
 Determina si un estilo incluye propiedades de línea.
   
@@ -27,13 +27,13 @@ Determina si un estilo incluye propiedades de línea.
    
 ## <a name="remarks"></a>Observaciones
 
-Para obtener una referencia a la celda EnableLineProps por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EnableLineProps por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |EnableLineProps  <br/> |
    
-Para obtener una referencia a la celda EnableLineProps por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EnableLineProps por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

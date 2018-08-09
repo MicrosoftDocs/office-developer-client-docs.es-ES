@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822663"
 ---
-# <a name="moveto-row-geometry-section"></a>Fila MoveTo (Sección de Geometría)
+# <a name="moveto-row-geometry-section"></a>Fila MoveTo (sección Geometría)
 
 Contiene el *x* - e *y* - las coordenadas del primer vértice de una forma o representa la *x* - e *y* -las coordenadas del primer vértice después de una interrupción de una ruta de acceso. 
   
@@ -27,7 +27,7 @@ Una fila **MoveTo** contiene las celdas siguientes.
 |[X](x-cell-geometry-section.md) <br/> |Si la fila **MoveTo** es la primera fila en la sección, la celda X representa la *x* -coordenadas del primer vértice de una forma. Si la fila **MoveTo** aparece entre dos filas, la celda X representa la *x* -coordenadas del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Si la fila **MoveTo** es la primera fila en la sección, la celda Y representa la *y* -coordenadas del primer vértice de una forma. Si la fila **MoveTo** aparece entre dos filas, la celda Y representa la *y* -coordenadas del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La fila **MoveTo** contiene el *x* - e *y* -las coordenadas del primer vértice de la forma si la fila **MoveTo** es la primera fila en la sección. Suele ser el primer vértice que se colocó al dibujar la forma y no se corresponde necesariamente con el punto inicial de una forma 1-D. 
   

@@ -1,5 +1,5 @@
 ---
-title: Celda ReplaceLockFormat (sección de comportamiento de cambio forma)
+title: Celda ReplaceLockFormat (sección Cambiar comportamiento de forma)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822956"
 ---
-# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Celda ReplaceLockFormat (sección de comportamiento de cambio forma)
+# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Celda ReplaceLockFormat (sección Cambiar comportamiento de forma)
 
 Indica si los valores de las celdas especificadas en una forma de patrón sobrescribirán los valores (incluidos los valores locales) de una forma reemplazada durante una operación de reemplazo de la forma. Si la celda **ReplaceLockFormat** de una forma de patrón se establece en TRUE (1), los valores de formato del patrón sobrescriben todos los valores correspondientes de una forma que se reemplaza por el patrón. 
   
@@ -23,7 +23,7 @@ Indica si los valores de las celdas especificadas en una forma de patrón sobres
 |TRUE  <br/> |Si la celda **ReplaceLockFormat** de una forma de patrón está establecida en TRUE, los valores de formato del patrón sobrescriben todos los valores correspondientes de una forma que se reemplaza por el patrón.  <br/> |
 |FALSE  <br/> |Si la celda **ReplaceLockFormat** de una forma de patrón se establece en FALSE, la forma de reemplazo contiene los valores de formato locales de la forma antigua después de la operación de reemplazo.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La celda **ReplaceLockFormat** determina si la forma de patrón sobrescribe los valores de formato locales de las celdas en las secciones siguientes durante una operación de reemplazo de forma: 
   

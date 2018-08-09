@@ -14,26 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822665"
 ---
-# <a name="msoshade-function"></a>MSOSHADE (función)
+# <a name="msoshade-function"></a>Función MSOSHADE
 
 Modifica el color disminuyendo su luminosidad en el porcentaje especificado.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 MSOSHADE (** *color* **, ** *- deltaLum* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatorio  <br/> |**RVA** <br/> |Valor de color RGB estándar (rojo, verde, azul) o referencia a un color.  <br/> |
 | _-deltaLum_ <br/> |Obligatorio  <br/> |**Integer** <br/> |El cambio de porcentaje hacia blanco (-100%) o negro (100%) desde el valor de _color_ .  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuanto más se aproxime el valor de _color_ blanco o negro, menor será el cambio a la sombra que es generada por un valor específico de _-deltaLum_ . 
   

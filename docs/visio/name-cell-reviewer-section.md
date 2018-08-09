@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822671"
 ---
-# <a name="name-cell-reviewer-section"></a>Celda Name (Sección del revisor)
+# <a name="name-cell-reviewer-section"></a>Celda Name (sección Revisor)
 
 Contiene el nombre del revisor de un documento.
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Name por su nombre desde otra fórmula, o
 |:-----|:-----|
 | Nombre de celda:  <br/> | Reviewer.Name [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Name por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Name por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

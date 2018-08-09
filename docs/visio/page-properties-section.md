@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19822713"
 ---
-# <a name="page-properties-section"></a>Sección de propiedades de página
+# <a name="page-properties-section"></a>Sección Propiedades de página
 
 Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823349"
 ---
-# <a name="subaddress-cell-hyperlinks-section"></a>Celda SubAddress (Sección de hipervínculos)
+# <a name="subaddress-cell-hyperlinks-section"></a>Celda SubAddress (sección Hipervínculos)
 
 Especifica una ubicación del documento de destino con la que se establece el vínculo.
   
@@ -24,9 +24,9 @@ Especifica una ubicación del documento de destino con la que se establece el v�
 
 Por ejemplo, si la celda Address es "Drawing1.vsdx", la celda SubAddress puede especificar un nombre de página como "Página 3". Si la celda Address es el archivo de Microsoft Excel "Samples.xlsx", el valor de esta celda puede ser una hoja de cálculo o un intervalo dentro de una hoja de cálculo, como "Funciones de hoja de cálculo" o "Sheet1! A1: D10 ". Si la celda Address "http://www.microsoft.com/office/", el valor de esta celda puede ser un anclaje con nombre dentro del documento, como "soluciones".
   
-También puede establecer el valor de esta celda en el cuadro de diálogo **hipervínculos** (en el grupo de **vínculos** en la ficha **Insertar** , haga clic en **hipervínculo**).
+También puede establecer el valor de esta celda en el cuadro de diálogo ** Hipervínculos** (en el grupo **Vínculos** en la ficha **Insertar**, haga clic en **Hipervínculo**).
   
-Para obtener una referencia a la celda SubAddress por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda SubAddress por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

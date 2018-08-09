@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822462"
 ---
-# <a name="linepattern-cell-line-format-section"></a>Celda LinePattern (Sección de formato de línea)
+# <a name="linepattern-cell-line-format-section"></a>Celda LinePattern (sección Formato de línea)
 
 Determina la trama de línea de la forma. El valor especificado en la celda LinePattern es un número que actúa como índice en una colección de tramas de línea.
   
@@ -28,17 +28,17 @@ Determina la trama de línea de la forma. El valor especificado en la celda Line
    
 ## <a name="remarks"></a>Observaciones
 
-Puede ver la colección de tramas de línea en el cuadro de diálogo **línea** (en la ficha **Inicio** , en el grupo **forma** , haga clic en **línea**, elija **guiones**y, a continuación, haga clic en **Más líneas**).
+Puede ver la colección de tramas de línea en el cuadro de diálogo **Línea** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Línea**, seleccione **Guiones** y, a continuación, haga clic en **Más líneas**).
   
 Puede especificar una trama de línea personalizada si utiliza la función USE en esta celda.
   
-Para obtener una referencia a la celda LinePattern por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LinePattern por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LinePattern  <br/> |
    
-Para obtener una referencia a la celda LinePattern por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LinePattern por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

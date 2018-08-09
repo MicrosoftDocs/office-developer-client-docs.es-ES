@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822455"
 ---
-# <a name="lineadjustto-cell-page-layout-section"></a>Celda LineAdjustTo (Sección de diseño de página)
+# <a name="lineadjustto-cell-page-layout-section"></a>Celda LineAdjustTo (sección Diseño de página)
 
 Determina qué conectores dinámicos se alinean uno encima de otro.
   
@@ -27,17 +27,17 @@ Determina qué conectores dinámicos se alinean uno encima de otro.
 |2  <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
 |3  <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
+También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
   
-Para obtener una referencia a la celda LineAdjustTo por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineAdjustTo por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineAdjustTo  <br/> |
    
-Para obtener una referencia a la celda LineAdjustTo por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineAdjustTo por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

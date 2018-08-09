@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822166"
 ---
-# <a name="flipx-cell-shape-transform-section"></a>Celda FlipX (Sección de transformación de forma)
+# <a name="flipx-cell-shape-transform-section"></a>Celda FlipX (sección Transformación de forma)
 
 Indica si la forma se ha volteado horizontalmente.
   
@@ -27,13 +27,13 @@ Indica si la forma se ha volteado horizontalmente.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda FlipX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda FlipX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FlipX  <br/> |
    
-Para obtener una referencia a la celda FlipX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda FlipX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

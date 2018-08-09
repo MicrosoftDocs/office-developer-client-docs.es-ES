@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822855"
 ---
-# <a name="pow-function"></a>POW (función)
+# <a name="pow-function"></a>Función POW
 
 Devuelve un número elevado a la potencia de un exponente.
   
@@ -24,7 +24,7 @@ Devuelve un número elevado a la potencia de un exponente.
 
 POW (** *número* **, ** *exponente* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

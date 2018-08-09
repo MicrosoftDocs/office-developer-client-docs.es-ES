@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823450"
 ---
-# <a name="trim-function"></a>TRIM (función)
+# <a name="trim-function"></a>Función TRIM
 
 Quita todo el espacio del texto, excepto los espacios individuales entre palabras. 
   
@@ -24,7 +24,7 @@ Quita todo el espacio del texto, excepto los espacios individuales entre palabra
 
 TRIM (** *texto* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ TRIM (** *texto* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

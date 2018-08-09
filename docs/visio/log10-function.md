@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822552"
 ---
-# <a name="log10-function"></a>LOG10 (función)
+# <a name="log10-function"></a>Función LOG10
 
 Devuelve el logaritmo en base 10 de un número. El número debe ser positivo o LOG10 devuelve el valor de error #num.
   
@@ -24,11 +24,11 @@ Devuelve el logaritmo en base 10 de un número. El número debe ser positivo o L
 
 LOG10 (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> | El número cuyo logaritmo en base 10 desea buscar.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> | El número cuyo logaritmo en base 10 desea buscar.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

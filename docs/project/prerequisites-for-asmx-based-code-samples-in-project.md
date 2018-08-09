@@ -46,7 +46,7 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
   
    En algunos casos, debe realizar la depuración remota en el servidor. También es posible que deba configurar un controlador de eventos mediante la instalación de un ensamblado del controlador de eventos en cada equipo de Project Server en la granja de servidores de SharePoint y, a continuación, configurar el controlador de eventos para la instancia de Project Web App mediante la página Configuración de Project Server en General Configuración de la aplicación de Administración Central de SharePoint.
     
-2. **Configurar un equipo de desarrollo.**
+2. **Configurar un PC de desarrollo.**
     
    Generalmente obtiene acceso a la PSI a través de una red. Las muestras de código están diseñadas para usarse en un cliente independiente del servidor, excepto cuando se indique lo contrario.
     
@@ -57,9 +57,9 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
       - Microsoft.Office.Project.Server.Events.Receivers.dll
       - Microsoft.Office.Project.Server.Library.dll
         
-   3. Para obtener información sobre cómo compilar y utilizar el ensamblado de proxy ProjectServerServices.dll para los servicios web ASMX en la interfaz PSI, vea [uso de un ensamblado de proxy PSI y descripciones de IntelliSense](#pj15_PrerequisitesASMX_BuildingProxy).
+   3. Para obtener información sobre cómo compilar y usar el ensamblado de proxy ProjectServerServices.dll para los servicios web de ASMX en la PSI, vea [Usar un ensamblado de proxy de PSI y descripciones de IntelliSense](#pj15_PrerequisitesASMX_BuildingProxy).
     
-3. **Instale los archivos de IntelliSense.**
+3. **Instalar los archivos de IntelliSense.**
     
     Para usar descripciones de IntelliSense para las clases y miembros en ensamblados de Project Server, copia los archivos XML de IntelliSense actualizados desde el SDK de Project 2013 descargarán en el mismo directorio donde se encuentran los ensamblados de Project Server. Por ejemplo, copie el archivo Microsoft.Office.Project.Server.Library.xml al directorio donde la aplicación establecerá una referencia al ensamblado Microsoft.Office.Project.Server.Library.dll.
     
@@ -70,21 +70,21 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
 
 1. **Crear una aplicación de consola**.
     
-   Cuando se crea una aplicación de consola, en la lista desplegable del cuadro de diálogo **Nuevo proyecto** , seleccione **.NET Framework 4**. Puede copiar el código de ejemplo PSI en la nueva aplicación.
+   Cuando crea una aplicación de consola, en la lista desplegable del cuadro de diálogo **Nuevo proyecto**, seleccione **.NET Framework 4**. Puede copiar el código de ejemplo de PSI en la nueva aplicación.
     
 2. **Agregar la referencia necesaria para ASMX.**
     
-   En el Explorador de soluciones, agregue una referencia a **System.Web.Services** (vea la figura 1). 
+   En el Explorador de soluciones, agregue una referencia a **System.Web.Services** (vea la Figura 1). 
     
-   **En la figura 1. Adición de una referencia en Visual Studio**
+   **Figura 1. Adición de una referencia en Visual Studio**
 
    ![Adición de una referencia en Visual Studio] (media/pj15_PrerequisitesASMX_AddReference.gif "Adición de una referencia en Visual Studio")
   
-3. **Copie el código**.
+3. **Copiar el código**.
     
    Copie el ejemplo de código completo en el archivo Program.cs de la aplicación de consola.
     
-4. **Establecer el espacio de nombres para la aplicación de ejemplo**.
+4. **Establecer el espacio de nombres para la aplicación de muestra**.
     
    Puede cambiar el espacio de nombres que aparece en la parte superior de la muestra por el espacio de nombres predeterminado de la aplicación o bien cambiar el espacio de nombres de la aplicación predeterminado para que coincida con la muestra. Puede cambiar el espacio de nombres de la aplicación predeterminado modificando las propiedades de la aplicación.
     
@@ -98,9 +98,9 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
     
    - Crear un ensamblado de proxy PSI denominado ProjectServerServices.dll y, a continuación, establezca una referencia al ensamblado. Para obtener IntelliSense, esta es la manera recomendada para agregar una referencia PSI. Vea [usar un ensamblado de proxy PSI y descripciones de IntelliSense](#pj15_PrerequisitesASMX_BuildingProxy).
     
-   - Agregar un archivo de proxy de la salida de wsdl.exe a la solución de Visual Studio. Consulte [Adición de un archivo de proxy PSI](#pj15_PrerequisitesASMX_AddingProxyFile).
+   - Agregue un archivo de proxy desde la salida wsdl.exe a la solución de Visual Studio. Vea [Agregar un archivo de proxy de PSI](#pj15_PrerequisitesASMX_AddingProxyFile).
     
-   - Agregue una referencia de servicio web mediante el uso de Visual Studio. Vea la [referencia de servicio de adición de un sitio web](#pj15_PrerequisitesASMX_AddingServiceReference).
+   - Agregue una referencia de servicio web usando Virtual Studio. Vea [Agregar una referencia de servicio web](#pj15_PrerequisitesASMX_AddingServiceReference).
 
 <a name="pj15_PrerequisitesASMX_BuildingProxy"> </a>
 
@@ -166,13 +166,13 @@ WssInterop
 
 Los scripts crean un ensamblado con el nombre ProjectServerServices.dll. No lo confunda con ProjectServerServices.dll para el ensamblado basado en WCF. Los nombres de ensamblado son los mismos, para permitir el uso de cualquiera de los ensamblados con el archivo ProjectServerServices.xml de IntelliSense.
   
-El espacio de nombres arbitrario creado por las secuencias de comandos para los servicios web ASMX y los servicios de WCF es el mismo, de modo que el archivo ProjectServerServices.xml IntelliSense funciona con alguno de los ensamblados. Por ejemplo, el espacio de nombres del servicio de recursos en el ensamblado de proxy basada en WCF y en el ensamblado de proxy basadas en ASMX es **SvcResource**. Por supuesto, puede cambiar los nombres de espacio de nombres: si asegurarse de que cumplen en el ensamblado de proxy y en el archivo ProjectServerServices.xml IntelliSense.
+El espacio de nombres arbitrario creado por los scripts tanto para los servicios web de ASMX como para los servicios de WCF es el mismo, de manera que el archivo ProjectServerServices.xml de IntelliSense funciona con ambos ensamblados. Por ejemplo, el espacio de nombres del servicio Recurso en el ensamblado de proxy basado en WCF y en el ensamblado de proxy basado en ASMX es **SvcResource**. Por supuesto, puede modificar los nombres de los espacios de nombres, si se asegura de que coinciden en el ensamblado de proxy y en el archivo ProjectServerServices.xml de IntelliSense.
   
-Si un ejemplo de código utiliza un nombre diferente para un espacio de nombres de servicio de web PSI, por ejemplo **ProjectWebSvc**, para que IntelliSense funcione, debe cambiar el ejemplo para usar **SvcProject** para que el espacio de nombres coincide con el ensamblado de proxy. 
+Si una muestra de código usa un nombre diferente para un espacio de nombres de servicio web de PSI, por ejemplo **ProjectWebSvc**, para que funcione IntelliSense asegúrese de cambiar la muestra para que use **SvcProject** de manera que el espacio de nombres coincida con el ensamblado de proxy. 
   
 Una ventaja de utilizar el ensamblado de proxy basadas en ASMX es que incluye todos los espacios de servicio web PSI; no es necesario crear varias referencias web. Otra ventaja es que, si se agrega el archivo ProjectServerServices.xml en el mismo directorio donde se establece una referencia al ensamblado de proxy ProjectServerServices.dll, puede obtener descripciones de IntelliSense para las clases PSI y miembros. La figura 2 muestra el texto de IntelliSense para el método **Project.QueueCreateProject** . Para obtener más información, consulte el archivo [ReadMe_IntelliSense] en la carpeta de IntelliSense de la descarga del SDK de Project 2013. 
   
-**La figura 2. Uso de IntelliSense para un método en el servicio web de Project**
+**Figura 2. Uso de IntelliSense para un método en el servicio web de Recurso**
 
 ![Uso de Intellisense para un método en un servicio de la PSI] (media/pj15_PrerequisitesASMX_Intellisense.gif "Uso de Intellisense para un método en un servicio de la PSI")
   
@@ -189,7 +189,7 @@ set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe"
 %WSDL% /nologo /l:cs /namespace:SvcProject /out:wsdl.Project.cs %VDIR%/Project.asmx?wsdl
 ```
 
-Para definir un objeto de **proyecto** como una variable de clase con el nombre de **proyecto**, use el siguiente código. El método **AddContextInfo** agrega la información de contexto para el objeto de **proyecto** para la autenticación de Windows y autenticación basada en formularios. 
+Para definir un objeto de **Project** como variable de clase con el nombre **project**, use el siguiente código. El método **AddContextInfo** agrega la información contextual al objeto de **project** para autenticación de Windows y autenticación basada en formularios. 
   
 ```cs
 private static SvcProject.Project project;
@@ -208,18 +208,18 @@ public void AddContextInfo()
 ```
 
 > [!NOTE]
-> Si utiliza un ensamblado de proxy PSI o agrega un archivo de proxy para una referencia de servicio de proyecto denominado **SvcProject**, usaría el mismo código para crear un objeto **project** . 
+> Si usa un ensamblado de proxy de PSI o agrega un archivo de proxy para una referencia de servicio de Project llamada **SvcProject**, usaría el mismo código para crear un objeto de **project**. 
   
 ### <a name="adding-a-web-service-reference"></a>Agregar una referencia de servicio web
 <a name="pj15_PrerequisitesASMX_AddingServiceReference"> </a>
 
 Si no usa el ensamblado de proxy basadas en ASMX o agregar un archivo de salida WSDL, puede establecer una o más referencias web individuales. Los pasos siguientes muestran cómo establecer una referencia web mediante el uso de Visual Studio 2012.
   
-1. En el **Explorador de soluciones**, haga clic en la carpeta **referencias** y, a continuación, elija **Agregar referencia de servicio**. 
+1. En el **Explorador de soluciones**, haga clic con el botón secundario en la carpeta **Referencias** y después seleccione **Agregar referencia de servicio**. 
     
-2. En el cuadro de diálogo **Agregar referencia de servicio** , elija **Opciones avanzadas**.
+2. En el cuadro de diálogo **Agregar referencia de servicio**, elija **Avanzada**.
     
-3. En el cuadro de diálogo **Configuración de referencia de servicio** , elija **Agregar referencia Web**.
+3. En el cuadro de diálogo **Configuración de referencia de servicio**, elija **Agregar referencia web**.
     
 4. En el cuadro de texto **dirección URL** , escriba `http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`y, a continuación, presione **ENTRAR** o elija el icono **Ir** . Si tiene Secure Sockets Layer (SSL) instalado, debe usar el protocolo HTTPS en lugar del protocolo HTTP. 
 
@@ -229,7 +229,7 @@ Si no usa el ensamblado de proxy basadas en ASMX o agregar un archivo de salida 
     
 5. Una vez que se resuelve la referencia, escriba el nombre de referencia en el cuadro de texto **nombre de referencia Web** . Ejemplos de código en la documentación para desarrolladores de Project 2013 usan el nombre de referencia estándar arbitrario **Svc _ServiceName_**. Por ejemplo, el servicio web del proyecto se denomina **SvcProject** (vea la figura 3). 
     
-   **La figura 3. Adición de una referencia de servicio web ASMX**
+   **Figura 3. Adición de una referencia de servicio web de ASMX**
 
    ![Adición de una referencia de servicio web ASMX] (media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "Adición de una referencia de servicio web ASMX")
   
@@ -240,11 +240,11 @@ Para los componentes de la aplicación que se deben ejecutar en el equipo de Pro
 
 Aplicaciones de Project Server suelen usan otros servicios, como los servicios web de SharePoint Server 2013. Si se requieren otros servicios, se indican en el ejemplo.
   
-Las referencias locales para el ejemplo de código se enumeran en instrucciones **using** en la parte superior de la muestra: 
+Las referencias locales para la muestra de código aparecen en las instrucciones de **using** en la parte superior de la muestra: 
   
-1. En el **Explorador de soluciones**, haga clic en la carpeta **referencias** y, a continuación, seleccione **Agregar referencia**.
+1. En el **Explorador de soluciones**, haga clic con el botón secundario en la carpeta **Referencias** y después seleccione **Agregar referencia**.
     
-2. Elija **Examinar**y, a continuación, vaya a la ubicación donde lo guardó la DLL de Project Server que copió anteriormente. Elija los archivos DLL que necesita y, a continuación, elija **Aceptar**.
+2. Seleccione **Examinar** y después diríjase a la ubicación donde ha almacenado los DLL de Project Server que copió previamente. Elija los DLL que necesite y luego seleccione **Aceptar**.
     
 > [!NOTE]
 > Asegúrese de que las versiones de ensamblado en su PC de desarrollo coincidan exactamente con aquellas del PC de Project Server de destino. 
@@ -256,12 +256,12 @@ Autenticación de usuarios de Project Server local, ya sea mediante la autentica
   
 `The server was unable to process the request due to an internal error. . . .`
 
-Para solucionar el problema de ASMX, todas las llamadas a los métodos PSI deben ser una clase derivada que se define para cada servicio web PSI. La clase derivada también debe usar la clase **SvcLoginWindows.LoginWindows** para obtener una cookie para la clase de servicio derivada de PSI. En el siguiente ejemplo, la clase **ProjectDerived** se deriva de la clase **SvcProject.Project** . La clase derivada agrega la propiedad **EnforceWindowsAuth** y reemplaza el encabezado de solicitud web para cada llamada a un método en la clase de **proyecto** . Si la propiedad **EnforceWindowsAuth** es **true**, el método **GetWebRequest** agrega un encabezado que deshabilita la autenticación de formularios. Si **EnforceWindowsAuth** es **false**, puede continuar con la autenticación de formularios.
+Para solucionar el problema para ASMX, todas las llamadas a los métodos de PSI deberían hacerse a una clase derivada que se define para cada servicio web de PSI. La clase derivada también debe usar la clase **SvcLoginWindows.LoginWindows** para obtener una cookie para la clase de servicio de PSI derivada. En el siguiente ejemplo, la clase **ProjectDerived** deriva de la clase **SvcProject.Project**. La clase derivada agrega la propiedad **EnforceWindowsAuth** y sobrescribe el encabezado de solicitud web para todas las llamadas a un método en la clase **Project**. Si la propiedad **EnforceWindowsAuth** es **true**, el método **GetWebRequest** agrega un encabezado que deshabilita la autenticación de formularios. Si **EnforceWindowsAuth** es **false**, se puede continuar con la autenticación de formularios.
   
-Para usar el siguiente ejemplo de **ASMXLogon_MultiAuth** , crear una aplicación de consola, siga los pasos de [creación de la aplicación y agregar una referencia de servicio web](#pj15_PrerequisitesASMX_Configure)y, a continuación, agregue el archivo wsdl. Archivo de proxy de LoginWindows.cs y el archivo wsdl. Archivo de proxy de Project.cs. El método **Main** crea la instancia de la clase **ProjectDerived** del **proyecto** . El ejemplo debe usar la clase derivada de **LoginWindowsDerived** para obtener un objeto **CookieContainer** para el proyecto **. CookieContainer** (propiedad), que lo distingue de autenticación de formularios de autenticación de Windows. El objeto **project** , a continuación, puede utilizarse para realizar llamadas a cualquier método en la clase **SvcProject.Project** . 
+Para usar la siguiente muestra **ASMXLogon_MultiAuth**, cree una aplicación de consola, siga los pasos en [Crear la aplicación y agregar una referencia de servicio web](#pj15_PrerequisitesASMX_Configure), y después agregue el archivo de proxy wsdl.LoginWindows.cs y el archivo de proxy wsdl.Project.cs. El método **Main** crea la instancia **project** de la clase **ProjectDerived**. La muestra debe usar la clase derivada **LoginWindowsDerived** para obtener un objeto **CookieContainer** para la propiedad **project.CookieContainer**, que distingue la autenticación de formularios y la autenticación de Windows. El objeto **project** puede usarse después para hacer llamadas a cualquier método en la clase **SvcProject.Project**. 
   
 > [!NOTE]
-> El servicio de **LoginWindows** es necesario solamente para las aplicaciones de ASMX en un entorno de autenticación múltiple. En el ejemplo de **ASMXLogon_MultiAuth** , el método **GetLogonCookie** Obtiene una cookie para el objeto **loginWindows** . El proyecto **. CookieContainer** propiedad está establecida en el valor de **loginWindows.CookieContainer** . 
+> El servicio **LoginWindows** es necesario solo para aplicaciones de ASMX en un entorno de autenticación múltiple. En la muestra **ASMXLogon_MultiAuth**, el método **GetLogonCookie** obtiene una cookie para el objeto **loginWindows**. La propiedad **project.CookieContainer** se establece en el valor **loginWindows.CookieContainer**. 
   
 ```cs
 using System;
@@ -361,7 +361,7 @@ namespace ASMXLogon_MultiAuth
 }
 ```
 
-Uso de la clase **LoginWindows** derivada y realizar llamadas PSI con un encabezado de la solicitud web que deshabilita la autenticación de formularios, se requiere para las aplicaciones que se ejecutan en un entorno de autenticación múltiple. Si Project Server utiliza sólo la autenticación de notificaciones, no es necesario derivar una clase que agrega un encabezado de la solicitud web. En el ejemplo anterior se ejecuta en ambos entornos. 
+Las aplicaciones que se inician en un entorno de autenticación múltiple necesitan el uso de la clase derivada **LoginWindows** y la realización de llamadas de PSI con un encabezado de solicitud web que deshabilita la autenticación de formularios. Si Project Server usa solo autenticación de notificaciones, no es necesario derivar un clase que agrega un encabezado de solicitud web. El ejemplo anterior se usa en ambos entornos. 
   
 La corrección para una aplicación basada en WCF es diferente. Para obtener más información, vea la sección *uso de varias autenticaciones* en [los requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
@@ -391,7 +391,7 @@ Puede verificar los resultados de muestra de código de varias formas, por ejemp
     
 - Use la página Configuración del servidor de Project Web App ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para administrar todos los trabajos en cola y eliminar o forzar la protección de empresa de objetos. Debe tener permisos administrativos para tener acceso a los vínculos en la página Configuración del servidor.
     
-- Use **Microsoft SQL Server Management Studio** para ejecutar una consulta en una tabla en la base de datos de Project. Por ejemplo, use la siguiente consulta para seleccionar las primeras 200 filas de pub. Tabla MSP_WORKFLOW_STAGE_PDPS para mostrar información acerca del proyecto (PDP) las páginas de detalles en etapas de flujo de trabajo. 
+- Use **Microsoft SQL Server Management Studio** para usar una consulta en una tabla de una base de datos de Project. Por ejemplo, use la siguiente consulta para seleccionar las 200 filas superiores de la tabla pub.MSP_WORKFLOW_STAGE_PDPS para mostrar información sobre las páginas de detalles de proyectos (PDP) en etapas de flujo de trabajo. 
     
    ```sql
     SELECT TOP 200 [STAGE_UID]
@@ -417,7 +417,7 @@ A continuación aparecen algunos de los vínculos de la página Configuración d
     
 - **Eliminar objetos de empresa**
     
-- **Forzar la protección de empresa de objetos**
+- **Forzar protección de objetos de la empresa**
     
 - **Tipos de proyecto empresarial**
     
@@ -427,15 +427,15 @@ A continuación aparecen algunos de los vínculos de la página Configuración d
     
 - **Páginas de detalles del proyecto**
     
-- **Períodos de presentación de informes**
+- **Períodos de presentación de informes de horas**
     
-- **Configuración del parte de horas y valores predeterminados**
+- **Configuración y valores predeterminados del parte de horas**
     
 - **Clasificaciones de línea**
     
 Configuración adicional se administra mediante SharePoint Server 2013 para cada instancia de Project Web App, en lugar de una página específica de la configuración del servidor de Project Web App. En la aplicación de Administración Central de SharePoint, elija **Configuración de aplicación General**, elija **Administrar** bajo **Configuración de Project Server**y, a continuación, elija la instancia de Project Web App en la lista desplegable en la página Configuración del servidor . Por ejemplo, elija **Controladores de eventos del servidor** para agregar o eliminar controladores de eventos para la instancia de Project Web App seleccionada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="pj15_PrerequisitesASMX_AR"> </a>
 
 - [Requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md)

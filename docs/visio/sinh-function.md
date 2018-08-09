@@ -16,15 +16,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823254"
 ---
-# <a name="sinh-function"></a>SINH (función)
+# <a name="sinh-function"></a>Función SINH
 
-Devuelve el seno hiperbólico de un ángulo. 
+Devuelve el seno hiperbólico de un ángulo.
+    
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 SINH (** *ángulo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +36,7 @@ SINH (** *ángulo* **)
 
 Number
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La función SINH utiliza radianes a menos que especifique una unidad de medida diferente en _ángulo_.
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822054"
 ---
-# <a name="ellipse-row-geometry-section"></a>Fila Ellipse (Sección de Geometría)
+# <a name="ellipse-row-geometry-section"></a>Fila Ellipse (sección Geometría)
 
 Contiene el *x* - e *y* -las coordenadas del punto central y dos puntos de la elipse de la elipse. 
   

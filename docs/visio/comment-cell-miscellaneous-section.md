@@ -16,21 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821789"
 ---
-# <a name="comment-cell-miscellaneous-section"></a>Celda Comment (Sección de varios)
+# <a name="comment-cell-miscellaneous-section"></a>Celda Comment (sección Varios)
 
 Contiene el texto de comentario en formato de cadena para una forma.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede insertar un comentario haciendo clic en **Nuevo comentario** en la ficha **Revisar** . 
+También puede insertar un comentario haciendo clic en **Nuevo comentario** en la ficha **Revisar**. 
   
-Para obtener una referencia a la celda Comment por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Comment por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Comment  <br/> |
    
-Para obtener una referencia a la celda Comment por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Comment por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

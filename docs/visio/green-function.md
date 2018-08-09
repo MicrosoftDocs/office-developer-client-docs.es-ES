@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822272"
 ---
-# <a name="green-function"></a>GREEN (función)
+# <a name="green-function"></a>Función GREEN
 
 Devuelve el componente verde de un color.
   
@@ -24,11 +24,11 @@ Devuelve el componente verde de un color.
 
 VERDE (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Un índice de un color en la tabla de colores del documento, una expresión que se resuelve en un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un resultado de color o de índice de color.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varían** <br/> |Un índice de un color en la tabla de colores del documento, una expresión que se resuelve en un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un resultado de color o de índice de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

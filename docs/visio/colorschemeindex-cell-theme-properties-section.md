@@ -1,5 +1,5 @@
 ---
-title: Celda ColorSchemeIndex (sección de propiedades de tema)
+title: Celda ColorSchemeIndex (sección Propiedades de tema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821794"
 ---
-# <a name="colorschemeindex-cell-theme-properties-section"></a>Celda ColorSchemeIndex (sección de propiedades de tema)
+# <a name="colorschemeindex-cell-theme-properties-section"></a>Celda ColorSchemeIndex (sección Propiedades de tema)
 
 Determina el índice del tema que combinación de colores de la forma toma después, como un número entero.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **ColorSchemeIndex** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

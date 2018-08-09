@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822672"
 ---
-# <a name="noline-cell-geometry-section"></a>Celda NoLine (Sección de Geometría)
+# <a name="noline-cell-geometry-section"></a>Celda NoLine (sección Geometría)
 
 Determina si se dibuja una línea alrededor del límite del trazado.
   
@@ -29,13 +29,13 @@ Determina si se dibuja una línea alrededor del límite del trazado.
 
 Cuando el color de una línea cambia a blanco, la línea sigue existiendo aunque no esté visible en un fondo blanco. Cuando se establece el valor de esta celda a TRUE, no se dibuja ninguna línea.
   
-Para obtener una referencia a la celda NoLine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoLine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría *i* . NoLine donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda NoLine por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NoLine por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

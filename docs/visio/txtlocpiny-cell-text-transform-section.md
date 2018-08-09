@@ -16,21 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823453"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (Sección de transformación de texto)
+# <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (sección Transformación de texto)
 
 Determina la *y* -coordenadas del centro del bloque de texto de rotación en relación con el origen del bloque de texto. La fórmula predeterminada es: 
   
 = TxtHeight \* 0,5
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda TxtLocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda TxtLocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | TxtLocPinY  <br/> |
    
-Para obtener una referencia a la celda TxtLocPinY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda TxtLocPinY por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

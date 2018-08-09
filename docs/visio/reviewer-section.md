@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822982"
 ---
-# <a name="reviewer-section"></a>Sección de revisor
+# <a name="reviewer-section"></a>Sección Revisor
 
 Contiene información para identificar cada revisor de documento.
   
@@ -24,7 +24,7 @@ Contiene información para identificar cada revisor de documento.
 
 Esta sección contiene una fila por cada revisor que ha agregado comentarios al documento, aunque se haya eliminado la revisión de alguno de ellos. 
   
-La sección de revisor se encuentra en la ShapeSheet de un documento. Para ver la ShapeSheet de un documento, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **Explorador de dibujos**, haga clic en el nombre del documento y, a continuación, haga clic en **Mostrar ShapeSheet**. 
+La sección de revisor se encuentra en la ShapeSheet del documento. Para ver la ShapeSheet de un documento, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), en el grupo **Mostrar u ocultar**, seleccione **Explorador de dibujo**, haga clic con el botón secundario en el nombre del documento y, a continuación, haga clic en **Mostrar ShapeSheet**. 
   
 Para obtener más información acerca de los comentarios que se agregan a un documento como un elemento de marcado, vea la sección de **anotación** . 
   

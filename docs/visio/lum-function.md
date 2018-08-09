@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822564"
 ---
-# <a name="lum-function"></a>LUM (función)
+# <a name="lum-function"></a>Función LUM
 
 Devuelve el valor del componente de luminosidad de un color.
   
@@ -24,11 +24,11 @@ Devuelve el valor del componente de luminosidad de un color.
 
 LUM (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de un color en la tabla de colores del documento o una referencia a una celda que contiene un índice de color.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de un color en la tabla de colores del documento o una referencia a una celda que contiene un índice de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

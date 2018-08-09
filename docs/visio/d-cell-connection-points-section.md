@@ -16,15 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821904"
 ---
-# <a name="d-cell-connection-points-section"></a>Celda D (Sección de puntos de conexión)
+# <a name="d-cell-connection-points-section"></a>Celda D (sección Puntos de conexión)
 
 Celda de borrador que se puede utilizar para escribir o probar fórmulas.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener acceso a la celda D, haga clic en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para obtener acceso a esta celda, haga clic con el botón secundario del mouse (ratón) en una fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
   
-Para obtener una referencia a la celda D por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda D por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

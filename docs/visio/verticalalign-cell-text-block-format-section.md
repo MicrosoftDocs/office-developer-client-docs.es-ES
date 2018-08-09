@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823522"
 ---
-# <a name="verticalalign-cell-text-block-format-section"></a>Celda VerticalAlign (Sección de formato del bloque de texto)
+# <a name="verticalalign-cell-text-block-format-section"></a>Celda VerticalAlign (sección Formato del bloque de texto)
 
 Determina la alineación vertical del texto en el bloque de texto.
   
@@ -26,15 +26,16 @@ Determina la alineación vertical del texto en el bloque de texto.
 | 1  <br/> | En medio  <br/> |**visVertMiddle** <br/> |
 | 2  <br/> | Inferior  <br/> |**visVertBottom** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda VerticalAlign por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda VerticalAlign por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | VerticalAlign  <br/> |
    
-Para obtener una referencia a la celda VerticalAlign por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia a la celda VerticalAlign por su índice
+ desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

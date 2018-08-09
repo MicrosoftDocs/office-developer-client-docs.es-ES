@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822566"
 ---
-# <a name="magnitude-function"></a>MAGNITUDE (función)
+# <a name="magnitude-function"></a>Función MAGNITUDE
 
 Devuelve la magnitud del vector cuya elevación es _A_ y cuya ejecución es _B_, multiplicada por sus respectivas constantes _constante_ de a y _constante_. 
   
@@ -24,7 +24,7 @@ Devuelve la magnitud del vector cuya elevación es _A_ y cuya ejecución es _B_,
 
 MAGNITUD (** *constante* **, ** *A* **, ** *constante* **, ** *B* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

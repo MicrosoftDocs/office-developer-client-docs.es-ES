@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822661"
 ---
-# <a name="modulus-function"></a>MODULUS (función)
+# <a name="modulus-function"></a>Función MODULUS
 
 Devuelve el resto (módulo) que se produce cuando se divide un número por un divisor.
   
@@ -24,7 +24,7 @@ Devuelve el resto (módulo) que se produce cuando se divide un número por un di
 
 MODULUS (** *número* **, ** *divisor* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

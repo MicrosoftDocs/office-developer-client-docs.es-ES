@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821687"
 ---
-# <a name="boundingboxdist-function"></a>BOUNDINGBOXDIST (función)
+# <a name="boundingboxdist-function"></a>Función BOUNDINGBOXDIST
 
 Devuelve la medida de la parte especificada del cuadro de límite de la forma. 
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 BOUNDINGBOXDIST (** *índice* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -36,7 +37,7 @@ BOUNDINGBOXDIST (** *índice* **)
 
  **Número**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  *Índice* puede ser uno de los valores siguientes. 
   

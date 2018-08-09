@@ -16,23 +16,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821553"
 ---
-# <a name="avenuesizey-cell-page-layout-section"></a>Celda AvenueSizeY (Sección de diseño de página)
+# <a name="avenuesizey-cell-page-layout-section"></a>Celda AvenueSizeY (sección Diseño de página)
 
 Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se diseñan formas mediante el cuadro de diálogo **Configurar diseño** (en la ficha **Diseño** , en el grupo **Diseño** , haga clic en página de **Diseño de Re** y, a continuación, haga clic en **más Opciones de diseño**).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor en el cuadro de diálogo **Diseño de espaciado y el enrutamiento** (en la ficha **Diseño** , haga clic en la flecha situada en el grupo **Configurar página** , haga clic en la ficha **Diseño y enrutamiento** y, a continuación, haga clic en **Espaciado**).
+También puede establecer este valor en el cuadro de diálogo **Espaciado del diseño y el enrutamiento** (en la ficha **Diseño**, haga clic en la flecha en el grupo **Configurar página**, haga clic en la pestaña **Diseño y enrutamiento** y, a continuación, en **Espaciado**).
   
-La cuadrícula dinámica emplea la configuración de la celda AvenueSizeY cuando sólo hay una forma está disponible para calcular el espacio vertical. Para utilizar la cuadrícula dinámica, en la ficha **Ver** , en el grupo **ayudas visuales** , seleccione **Cuadrícula dinámica**.
+La cuadrícula dinámica emplea la configuración de la celda AvenueSizeY cuando solo hay una forma disponible para calcular el espacio vertical. Para usar la cuadrícula dinámica, en la ficha **Ajustar y pegar**, en el grupo **Herramientas**, seleccione **Cuadrícula dinámica**.
   
-Para obtener una referencia a la celda AvenueSizeY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AvenueSizeY por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | AvenueSizeY  <br/> |
    
-Para obtener una referencia a la celda AvenueSizeY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda AvenueSizeY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

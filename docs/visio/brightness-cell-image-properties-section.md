@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821671"
 ---
-# <a name="brightness-cell-image-properties-section"></a>Celda Brightness (Sección de propiedades de la imagen)
+# <a name="brightness-cell-image-properties-section"></a>Celda Brightness (sección Propiedades de la imagen)
 
 Ajusta el brillo de una imagen de mapa de bits. Para reducir el brillo de una imagen, especifique un valor entre 0% y 49% y, para aumentarlo, especifique un valor entre 51% y 100%. El valor predeterminado es 50%.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Brightness por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Brightness por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Brightness  <br/> |
    
-Para obtener una referencia a la celda Brightness por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Brightness por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

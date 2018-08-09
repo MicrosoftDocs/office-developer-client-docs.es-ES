@@ -52,8 +52,8 @@ Ninguno.
 
 |**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Un valor basado en uno que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|Iniciales  <br/> |xsd: String  <br/> |opcional  <br/> |Las iniciales del autor.  <br/> |Valores del tipo XSD: String.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Un valor basado en uno que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|Initials  <br/> |xsd: String  <br/> |opcional  <br/> |Las iniciales del autor.  <br/> |Valores del tipo XSD: String.  <br/> |
 |Nombre  <br/> |xsd: String  <br/> |opcional  <br/> |El nombre del autor.  <br/> |Valores del tipo XSD: String.  <br/> |
 |ResolutionID  <br/> |xsd: String  <br/> |opcional  <br/> |Un identificador único para el autor.  <br/> |Valores del tipo XSD: String.  <br/> |
    

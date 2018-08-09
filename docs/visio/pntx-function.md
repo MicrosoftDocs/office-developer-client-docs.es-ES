@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822774"
 ---
-# <a name="pntx-function"></a>PNTX (función)
+# <a name="pntx-function"></a>Función PNTX
 
 Devuelve la _x_-coordenadas de un punto.
   
@@ -24,7 +24,7 @@ Devuelve la _x_-coordenadas de un punto.
 
 PNTX (** *Elija* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

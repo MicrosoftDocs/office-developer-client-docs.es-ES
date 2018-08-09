@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822454"
 ---
-# <a name="lineto-row-geometry-section"></a>Fila LineTo (Sección de Geometría)
+# <a name="lineto-row-geometry-section"></a>Fila LineTo (sección Geometría)
 
 Contiene *x* - e *y* -coordenadas del vértice del extremo de un segmento de línea recta. 
   

@@ -16,24 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821556"
 ---
-# <a name="begingroup-cell-actions-section"></a>Celda BeginGroup (Sección de acciones)
+# <a name="begingroup-cell-actions-section"></a>Celda BeginGroup (sección Acciones)
 
 Indica si se inserta un separador en el menú encima de esta acción. 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Se inserta un separador en el menú encima de esta acción.  <br/> |
-|FALSE  <br/> |No se inserta un separador en el menú encima de esta acción (valor predeterminado).  <br/> |
+|TRUE  <br/> |
+          Se inserta un separador en el menú encima de esta acción. 
+  <br/> |
+|FALSE  <br/> |
+          No se inserta un separador en el menú encima de esta acción (valor predeterminado).
+  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda BeginGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BeginGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Acciones. *nombre*. BeginGroup donde acciones. *nombre* es el nombre de la fila de acciones  <br/> |
    
-Para obtener una referencia a la celda BeginGroup por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BeginGroup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

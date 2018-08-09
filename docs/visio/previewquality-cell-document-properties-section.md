@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822838"
 ---
-# <a name="previewquality-cell-document-properties-section"></a>Celda PreviewQuality (Sección de propiedades del documento)
+# <a name="previewquality-cell-document-properties-section"></a>Celda PreviewQuality (sección Propiedades del documento)
 
 Determina si la vista previa del dibujo tiene calidad de borrador o de detalle.
   
@@ -25,17 +25,17 @@ Determina si la vista previa del dibujo tiene calidad de borrador o de detalle.
 | 0  <br/> | Borrador  <br/> |**visDocPreviewQualityDraft** <br/> |
 | 1  <br/> | Detallada  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 También puede establecer este valor en la ficha **Resumen** en el cuadro de diálogo **Propiedades** (haga clic en el botón de **Office** , haga clic en la ficha **información** , haga clic en **Propiedades del documento**y, a continuación, haga clic en **Propiedades avanzadas**).
   
-Para obtener una referencia a la celda PreviewQuality por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PreviewQuality por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PreviewQuality  <br/> |
    
-Para obtener una referencia a la celda PreviewQuality por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PreviewQuality por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

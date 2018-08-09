@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821949"
 ---
-# <a name="defaultevent-function"></a>DEFAULTEVENT (función)
+# <a name="defaultevent-function"></a>Función DEFAULTEVENT
 
 Lleva a cabo el evento predeterminado asociado con el objeto.
   

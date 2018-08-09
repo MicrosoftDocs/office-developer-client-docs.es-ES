@@ -1,5 +1,5 @@
 ---
-title: THEMEVAL (función)
+title: Función THEMEVAL
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,26 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823408"
 ---
-# <a name="themeval-function"></a>THEMEVAL (función)
+# <a name="themeval-function"></a>Función THEMEVAL
 
 Recupera los valores de tema activo. 
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2013 
+Versión añadida: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
  **THEMEVAL** ([ _"theme_value"_] [, _predeterminado_]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _"theme_value"_ <br/> |Opcional  <br/> |**String** <br/> |El nombre de una celda en la definición de tema para obtener un valor desde.  <br/> |
 | _default_ <br/> |Opcional  <br/> |Varios  <br/> |Un valor predeterminado si el documento no es con temas (no hay ninguna definición de tema).  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si la función **THEMEVAL** no recibe ningún argumento, devuelve el valor de la celda de host con temas. Esto es el valor almacenado en la definición del tema actual. La celda de host debe ser capaz de ser con temas para devolver un valor; Si la celda no es capaz de ser con temas, **THEMEVAL** devuelve un error. 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822056"
 ---
-# <a name="ellipticalarcto-row-geometry-section"></a>Fila EllipticalArcTo (Sección de Geometría)
+# <a name="ellipticalarcto-row-geometry-section"></a>Fila EllipticalArcTo (sección Geometría)
 
 Contiene *x* - e *y* - coordenadas del extremo de un arco elíptico, *x* - e *y* -las coordenadas de los puntos de control del arco, ángulo desde *x* -eje al eje de la elipse y la relación entre los principales de la elipse y Minor ejes de r. 
   

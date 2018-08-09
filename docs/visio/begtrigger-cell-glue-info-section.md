@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821548"
 ---
-# <a name="begtrigger-cell-glue-info-section"></a>Celda BegTrigger (Sección de información de pegado)
+# <a name="begtrigger-cell-glue-info-section"></a>Celda BegTrigger (sección Información de pegado)
 
 Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el punto inicial de una forma 1D para mantener su conexión con otra forma.
   
@@ -24,13 +24,13 @@ Contiene una fórmula desencadenadora generada por la aplicación que determina 
 
 Cuando se pega una forma 1D a otra utilizando el pegado dinámico, la aplicación genera una fórmula que hace referencia a la celda EventXFMod de la otra forma. Al cambiar esa forma, Visio vuelve a calcular cualquier fórmula que haga referencia a su celda EventXFMod, incluida la fórmula en la celda BegTrigger. Otras fórmulas de la forma 1D hacen referencia a la celda BegTrigger y mueven el punto inicial de la forma 1D o alteran la forma según sea necesario.
   
-Para obtener una referencia a la celda BegTrigger por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BegTrigger por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BegTrigger  <br/> |
    
-Para obtener una referencia a la celda BegTrigger por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BegTrigger por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

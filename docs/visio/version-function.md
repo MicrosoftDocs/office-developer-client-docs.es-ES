@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823526"
 ---
-# <a name="version-function"></a>VERSION (función)
+# <a name="version-function"></a>Función VERSION
 
 Devuelve un número entero que coincide con la versión principal de la aplicación de Microsoft Visio actualmente activa.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

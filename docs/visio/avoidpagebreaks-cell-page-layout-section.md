@@ -20,15 +20,15 @@ ms.locfileid: "19821544"
 
 Determina si se pueden colocar formas en saltos de página cuando dichas formas están alineadas de manera incremental, espaciadas de manera incremental o ambas.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AvoidPageBreaks por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , use lo siguiente. 
+Para obtener una referencia desde otra fórmula a la celda AvoidPageBreaks por su nombre, o desde un programa mediante la propiedad **CellsU**, use lo siguiente. 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |AvoidPageBreaks  <br/> |
    
-Para obtener una referencia a la celda AvoidPageBreaks por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda AvoidPageBreaks por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822587"
 ---
-# <a name="mastername-function"></a>MASTERNAME (función)
+# <a name="mastername-function"></a>Función MASTERNAME
 
 Devuelve el nombre del patrón de una hoja como una cadena, o devuelve la cadena "\<ningún patrón\>" si la hoja no tiene un patrón.
   
@@ -24,7 +24,7 @@ Devuelve el nombre del patrón de una hoja como una cadena, o devuelve la cadena
 
 MASTERNAME ([** *IdIdiomaOpc* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ MASTERNAME ([** *IdIdiomaOpc* **])
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

@@ -1,5 +1,5 @@
 ---
-title: Función TIME (VisioShapeSheet)
+title: TIME Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823421"
 ---
-# <a name="time-function-visioshapesheet"></a>Función TIME (VisioShapeSheet)
+# <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
 
 Devuelve la hora representada por _hora_, _minuto_y _segundo_.
   
@@ -24,13 +24,13 @@ Devuelve la hora representada por _hora_, _minuto_y _segundo_.
 
 TIEMPO (** *hora* **, ** *minuto* **, ** *segundo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _hour_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El componente de hora.  <br/> |
-| _minute_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El componente de minuto.  <br/> |
-| _second_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El componente de segundo.  <br/> |
+| _hour_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El componente de hora.  <br/> |
+| _minute_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El componente de minuto.  <br/> |
+| _second_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El componente de segundo.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

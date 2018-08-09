@@ -16,30 +16,30 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823458"
 ---
-# <a name="type-cell-shape-data-section"></a>Celda Type (Sección de datos de formas)
+# <a name="type-cell-shape-data-section"></a>Celda Type (sección Datos de formas)
 
 Especifica un tipo de datos para el valor de los datos de formas.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Cadena. Éste es el valor predeterminado.  <br/> |**visPropTypeString** <br/> |
-|1  <br/> |Lista fija. Muestra los elementos de lista combinado de la lista desplegable de cuadro en el cuadro de diálogo **Definir datos de formas** . Especifique los elementos de lista en la celda Format. Los usuarios pueden seleccionar un solo elemento de la lista.  <br/> |**visPropTypeListFix** <br/> |
+|1  <br/> |Lista fija. Muestra los elementos de la lista en un cuadro combinado desplegable en el cuadro de diálogo **Definir datos de formas**. Especifique los elementos de la lista en la celda Format. Los usuarios solo pueden seleccionar un elemento de la lista.<br/> |**visPropTypeListFix** <br/> |
 |2  <br/> |Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeNumber** <br/> |
-|3  <br/> |Valor booleano. Muestra Falso y verdadero como elementos que los usuarios pueden seleccionar en un cuadro de lista desplegable en el cuadro de diálogo **Definir datos de formas** .  <br/> |**visPropTypeBool** <br/> |
-|4  <br/> |Lista de variables. Muestra los elementos de lista combinado de la lista desplegable de cuadro en el cuadro de diálogo **Definir datos de formas** . Especifique los elementos de lista en la celda Format. Los usuarios pueden seleccionar un elemento de lista o escriba un nuevo elemento que se agrega a la lista actual en la celda Format.  <br/> |**visPropTypeListVar** <br/> |
+|3  <br/> |Booleano. Muestra FALSE (falso) y TRUE (verdadero) como elementos que los usuarios pueden seleccionar en un cuadro de lista desplegable en el cuadro de diálogo **Definir datos de formas**.<br/> |**visPropTypeBool** <br/> |
+|4  <br/> |Lista variable. Muestra los elementos de la lista en un cuadro combinado desplegable en el cuadro de diálogo **Definir datos de formas**. Especifique los elementos de la lista en la celda Format. Los usuarios pueden seleccionar un elemento de la lista o especificar uno nuevo que se agrega a la lista actual en la celda Format.<br/> |**visPropTypeListVar** <br/> |
 |5  <br/> |Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeDate** <br/> |
 |6  <br/> |Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeDuration** <br/> |
 |7  <br/> |Valor de moneda. Utiliza la configuración regional actual del sistema. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeCurrency** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |De propiedades. *Nombre* . Tipo de propiedades donde.  *Nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Type por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Type por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -20,15 +20,15 @@ ms.locfileid: "19822161"
 
 Determina si la fila es un menú emergente secundario de la última fila por encima de ella que no es un elemento secundario emergente. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda FlyoutChild por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , use lo siguiente. 
+Para obtener una referencia desde otra fórmula a la celda FlyoutChild por su nombre, o desde un programa mediante la propiedad **CellsU**, use lo siguiente. 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Acciones. *nombre* . Acciones de FlyoutChildwhere.  *nombre* es el nombre de la fila de acciones  <br/> |
    
-Para obtener una referencia a la celda FlyoutChild por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda FlyoutChild por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
