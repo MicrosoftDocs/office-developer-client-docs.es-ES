@@ -14,23 +14,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815760"
 ---
-# <a name="group-macro-block-access-custom-web-app"></a><span data-ttu-id="3f2a1-103">Bloque de Macro del grupo (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="3f2a1-103">Group Macro Block (Access custom web app)</span></span>
+# <a name="group-macro-block-access-custom-web-app"></a><span data-ttu-id="1441a-103">Bloque de Macro del grupo (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="1441a-103">Group Macro Block (Access custom web app)</span></span>
 
-<span data-ttu-id="3f2a1-104">La instrucción **grupo** permite especificar un bloque de acciones dentro de una macro que se puede expandir o contraer.</span><span class="sxs-lookup"><span data-stu-id="3f2a1-104">The **Group** statement enables you to specify a block of actions within a macro that you can expand or collapse.</span></span> 
+<span data-ttu-id="1441a-104">La instrucción **grupo** permite especificar un bloque de acciones dentro de una macro que se puede expandir o contraer.</span><span class="sxs-lookup"><span data-stu-id="1441a-104">The **Group** statement enables you to specify a block of actions within a macro that you can expand or collapse.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="3f2a1-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="3f2a1-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="1441a-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="1441a-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="setting"></a><span data-ttu-id="3f2a1-107">Valores</span><span class="sxs-lookup"><span data-stu-id="3f2a1-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="1441a-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="1441a-107">Setting</span></span>
 
-<span data-ttu-id="3f2a1-108">La acción **Grupo** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="3f2a1-108">The **Group** action has the following arguments.</span></span> 
+<span data-ttu-id="1441a-108">La acción **Grupo** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="1441a-108">The **Group** action has the following arguments.</span></span> 
   
-|<span data-ttu-id="3f2a1-109">**Argumento**</span><span class="sxs-lookup"><span data-stu-id="3f2a1-109">**Argument**</span></span>|<span data-ttu-id="3f2a1-110">**Necesario**</span><span class="sxs-lookup"><span data-stu-id="3f2a1-110">**Required**</span></span>|<span data-ttu-id="3f2a1-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3f2a1-111">**Description**</span></span>|
+|<span data-ttu-id="1441a-109">**Argumento**</span><span class="sxs-lookup"><span data-stu-id="1441a-109">**Argument**</span></span>|<span data-ttu-id="1441a-110">**Necesario**</span><span class="sxs-lookup"><span data-stu-id="1441a-110">**Required**</span></span>|<span data-ttu-id="1441a-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="1441a-111">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="3f2a1-112">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3f2a1-112">**Description**</span></span> <br/> |<span data-ttu-id="3f2a1-113">No</span><span class="sxs-lookup"><span data-stu-id="3f2a1-113">No</span></span>  <br/> |<span data-ttu-id="3f2a1-114">Una cadena que aparece como el título de un grupo cuando está contraída.</span><span class="sxs-lookup"><span data-stu-id="3f2a1-114">A string that appears as the title of a group when it is collapsed.</span></span>  <br/> |
+|<span data-ttu-id="1441a-112">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="1441a-112">**Description**</span></span> <br/> |<span data-ttu-id="1441a-113">No</span><span class="sxs-lookup"><span data-stu-id="1441a-113">No</span></span>  <br/> |<span data-ttu-id="1441a-114">Una cadena que aparece como el título de un grupo cuando está contraída.</span><span class="sxs-lookup"><span data-stu-id="1441a-114">A string that appears as the title of a group when it is collapsed.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3f2a1-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3f2a1-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1441a-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1441a-115">Remarks</span></span>
 
-<span data-ttu-id="3f2a1-116">La instrucción de **grupo** no define una región de una macro que se puede ejecutar por separado.</span><span class="sxs-lookup"><span data-stu-id="3f2a1-116">The **Group** statement does not define a region of a macro that can be executed separately.</span></span> 
+<span data-ttu-id="1441a-116">La instrucción de **grupo** no define una región de una macro que se puede ejecutar por separado.</span><span class="sxs-lookup"><span data-stu-id="1441a-116">The **Group** statement does not define a region of a macro that can be executed separately.</span></span> 
   
 

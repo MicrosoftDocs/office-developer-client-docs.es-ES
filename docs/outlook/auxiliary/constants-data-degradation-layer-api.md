@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19816078"
 ---
-# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="289ef-103">Constantes (capa de degradación de datos API)</span><span class="sxs-lookup"><span data-stu-id="289ef-103">Constants (Data degradation layer API)</span></span>
+# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="c91a4-103">Constantes (capa de degradación de datos API)</span><span class="sxs-lookup"><span data-stu-id="c91a4-103">Constants (Data degradation layer API)</span></span>
 
-<span data-ttu-id="289ef-104">Este tema contiene las definiciones de constantes para la API de capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="289ef-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
+<span data-ttu-id="c91a4-104">Este tema contiene las definiciones de constantes para la API de capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="c91a4-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
   
-## <a name="constants"></a><span data-ttu-id="289ef-105">Constantes</span><span class="sxs-lookup"><span data-stu-id="289ef-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="c91a4-105">Constantes</span><span class="sxs-lookup"><span data-stu-id="c91a4-105">Constants</span></span>
 
-|<span data-ttu-id="289ef-106">**Constante**</span><span class="sxs-lookup"><span data-stu-id="289ef-106">**Constant**</span></span>|<span data-ttu-id="289ef-107">**Definición**</span><span class="sxs-lookup"><span data-stu-id="289ef-107">**Definition**</span></span>|
+|<span data-ttu-id="c91a4-106">**Constante**</span><span class="sxs-lookup"><span data-stu-id="c91a4-106">**Constant**</span></span>|<span data-ttu-id="c91a4-107">**Definición**</span><span class="sxs-lookup"><span data-stu-id="c91a4-107">**Definition**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="289ef-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="289ef-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="289ef-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="289ef-109">0x00000001</span></span>  <br/> |
-|<span data-ttu-id="289ef-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="289ef-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="289ef-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="289ef-111">0x00000002</span></span>  <br/> |
+|<span data-ttu-id="c91a4-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="c91a4-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="c91a4-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="c91a4-109">0x00000001</span></span>  <br/> |
+|<span data-ttu-id="c91a4-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c91a4-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="c91a4-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="c91a4-111">0x00000002</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="289ef-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="289ef-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c91a4-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="c91a4-112">See also</span></span>
 
-- [<span data-ttu-id="289ef-113">Acerca de la capa de degradación de datos API</span><span class="sxs-lookup"><span data-stu-id="289ef-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
+- [<span data-ttu-id="c91a4-113">Acerca de la capa de degradación de datos API</span><span class="sxs-lookup"><span data-stu-id="c91a4-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
 

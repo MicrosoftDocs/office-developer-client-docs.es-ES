@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816074"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="7b6cd-103">Analizar una secuencia de una propiedad binaria para leer la estructura TZREG</span><span class="sxs-lookup"><span data-stu-id="7b6cd-103">Parse a stream from a binary property to read the TZREG structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="1a5fc-103">Analizar una secuencia de una propiedad binaria para leer la estructura TZREG</span><span class="sxs-lookup"><span data-stu-id="1a5fc-103">Parse a stream from a binary property to read the TZREG structure</span></span>
 
-<span data-ttu-id="7b6cd-104">En este tema se muestra cómo leer la estructura [TZREG](tzreg.md) desde el formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="7b6cd-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="1a5fc-104">En este tema se muestra cómo leer la estructura [TZREG](tzreg.md) desde el formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1a5fc-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7b6cd-105">Ver también</span><span class="sxs-lookup"><span data-stu-id="7b6cd-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a5fc-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="1a5fc-105">See also</span></span>
 
-- [<span data-ttu-id="7b6cd-106">Leer las propiedades de la zona horaria de una cita</span><span class="sxs-lookup"><span data-stu-id="7b6cd-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="1a5fc-106">Leer las propiedades de la zona horaria en una cita</span><span class="sxs-lookup"><span data-stu-id="1a5fc-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

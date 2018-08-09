@@ -13,19 +13,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815351"
 ---
-# <a name="data-blocks-access-custom-web-app"></a><span data-ttu-id="bd24d-102">Bloques de datos (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd24d-102">Data blocks (Access custom web app)</span></span>
+# <a name="data-blocks-access-custom-web-app"></a><span data-ttu-id="c8945-102">Bloques de datos (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="c8945-102">Data blocks (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="bd24d-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="bd24d-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="c8945-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="c8945-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="bd24d-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="bd24d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c8945-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c8945-105">In this section</span></span>
 
-- [<span data-ttu-id="bd24d-106">Bloque de datos CrearRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd24d-106">CreateRecord Data Block (Access custom web app)</span></span>](createrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="c8945-106">Bloque de datos CrearRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="c8945-106">CreateRecord Data Block (Access custom web app)</span></span>](createrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="bd24d-107">Bloque de datos EditarRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd24d-107">EditRecord Data Block (Access custom web app)</span></span>](editrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="c8945-107">Bloque de datos EditarRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="c8945-107">EditRecord Data Block (Access custom web app)</span></span>](editrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="bd24d-108">Bloque de datos ParaCadaRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd24d-108">ForEachRecord Data Block (Access custom web app)</span></span>](foreachrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="c8945-108">Bloque de datos ParaCadaRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="c8945-108">ForEachRecord Data Block (Access custom web app)</span></span>](foreachrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="bd24d-109">Bloque de datos BuscarRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd24d-109">LookupRecord Data Block (Access custom web app)</span></span>](lookuprecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="c8945-109">Bloque de datos BuscarRegistro (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="c8945-109">LookupRecord Data Block (Access custom web app)</span></span>](lookuprecord-data-block-access-custom-web-app.md)
     
 

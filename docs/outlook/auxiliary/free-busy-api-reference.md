@@ -1,5 +1,5 @@
 ---
-title: Referencia de la API de libre/ocupado
+title: Referencia de la API de disponibilidad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816075"
 ---
-# <a name="freebusy-api-reference"></a><span data-ttu-id="6c0af-103">Referencia de la API de libre/ocupado</span><span class="sxs-lookup"><span data-stu-id="6c0af-103">Free/busy API reference</span></span>
+# <a name="freebusy-api-reference"></a><span data-ttu-id="4cb65-103">Referencia de la API de disponibilidad</span><span class="sxs-lookup"><span data-stu-id="4cb65-103">Free/busy API reference</span></span>
 
-<span data-ttu-id="6c0af-104">En esta sección se proporciona contenido de referencia de la API de la información de disponibilidad, que permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="6c0af-104">This section provides reference content for the Free/Busy API, which allows mail providers to provide free/busy status information for specified user accounts within a specified time range.</span></span>
+<span data-ttu-id="4cb65-104">En esta sección se proporciona contenido de referencia de la API de la información de disponibilidad, que permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="4cb65-104">This section provides reference content for the Free/Busy API, which allows mail providers to provide free/busy status information for specified user accounts within a specified time range.</span></span>
 
-- [<span data-ttu-id="6c0af-105">Constantes</span><span class="sxs-lookup"><span data-stu-id="6c0af-105">Constants</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="4cb65-105">Constantes</span><span class="sxs-lookup"><span data-stu-id="4cb65-105">Constants</span></span>](constants-free-busy-api.md)
     
-- [<span data-ttu-id="6c0af-106">Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="6c0af-106">Data Types</span></span>](data-types-free-busy-api.md)
+- [<span data-ttu-id="4cb65-106">Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="4cb65-106">Data Types</span></span>](data-types-free-busy-api.md)
     
-- [<span data-ttu-id="6c0af-107">Interfaces</span><span class="sxs-lookup"><span data-stu-id="6c0af-107">Interfaces</span></span>](interfaces-free-busy-api.md)
+- [<span data-ttu-id="4cb65-107">Interfaces</span><span class="sxs-lookup"><span data-stu-id="4cb65-107">Interfaces</span></span>](interfaces-free-busy-api.md)
     
 

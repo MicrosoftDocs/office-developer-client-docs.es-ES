@@ -15,16 +15,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818411"
 ---
-# <a name="mnlslstrcpyw"></a><span data-ttu-id="20128-103">MNLS_lstrcpyW</span><span class="sxs-lookup"><span data-stu-id="20128-103">MNLS_lstrcpyW</span></span>
+# <a name="mnlslstrcpyw"></a><span data-ttu-id="4c5b3-103">MNLS_lstrcpyW</span><span class="sxs-lookup"><span data-stu-id="4c5b3-103">MNLS_lstrcpyW</span></span>
 
  
   
-<span data-ttu-id="20128-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="20128-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="4c5b3-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="4c5b3-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="20128-105">Copia una cadena en un búfer.</span><span class="sxs-lookup"><span data-stu-id="20128-105">Copies a string to a buffer.</span></span>
+<span data-ttu-id="4c5b3-105">Copia una cadena en un búfer.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-105">Copies a string to a buffer.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="20128-106">No la use.</span><span class="sxs-lookup"><span data-stu-id="20128-106">Do not use.</span></span> <span data-ttu-id="20128-107">Considere la posibilidad de usar en su lugar [StringCchCopy](http://msdn.microsoft.com/es-es/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="20128-107">Consider using [StringCchCopy](http://msdn.microsoft.com/es-es/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="4c5b3-106">No la use.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-106">Do not use.</span></span> <span data-ttu-id="4c5b3-107">Considere la posibilidad de usar en su lugar [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="4c5b3-107">Consider using [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -32,29 +32,29 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="20128-108">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="20128-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4c5b3-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4c5b3-108">Parameters</span></span>
 
-<span data-ttu-id="20128-109">lpString1</span><span class="sxs-lookup"><span data-stu-id="20128-109">lpString1</span></span>
+<span data-ttu-id="4c5b3-109">lpString1</span><span class="sxs-lookup"><span data-stu-id="4c5b3-109">lpString1</span></span>
   
-> <span data-ttu-id="20128-110">[out] Un búfer para recibir el contenido de la cadena indicada por el parámetro lpString2.</span><span class="sxs-lookup"><span data-stu-id="20128-110">[out] A buffer to receive the contents of the string pointed to by the lpString2 parameter.</span></span>
+> <span data-ttu-id="4c5b3-110">[out] Un búfer para recibir el contenido de la cadena indicada por el parámetro lpString2.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-110">[out] A buffer to receive the contents of the string pointed to by the lpString2 parameter.</span></span>
     
-<span data-ttu-id="20128-111">lpString2</span><span class="sxs-lookup"><span data-stu-id="20128-111">lpString2</span></span>
+<span data-ttu-id="4c5b3-111">lpString2</span><span class="sxs-lookup"><span data-stu-id="4c5b3-111">lpString2</span></span>
   
-> <span data-ttu-id="20128-112">[entrada] La cadena terminada en null que se va a copiar.</span><span class="sxs-lookup"><span data-stu-id="20128-112">[in] The null-terminated string to be copied.</span></span>
+> <span data-ttu-id="4c5b3-112">[entrada] La cadena terminada en null que se va a copiar.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-112">[in] The null-terminated string to be copied.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="20128-113">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="20128-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4c5b3-113">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4c5b3-113">Return value</span></span>
 
-<span data-ttu-id="20128-114">Si la función se realiza correctamente, el valor devuelto es un puntero en el búfer.</span><span class="sxs-lookup"><span data-stu-id="20128-114">If the function succeeds, the return value is a pointer to the buffer.</span></span>
+<span data-ttu-id="4c5b3-114">Si la función se realiza correctamente, el valor devuelto es un puntero en el búfer.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-114">If the function succeeds, the return value is a pointer to the buffer.</span></span>
   
-<span data-ttu-id="20128-115">Si se produce un error en la función, el valor devuelto es NULL y lpString1 podrían no estar terminada en null.</span><span class="sxs-lookup"><span data-stu-id="20128-115">If the function fails, the return value is NULL and lpString1 may not be null-terminated.</span></span>
+<span data-ttu-id="4c5b3-115">Si se produce un error en la función, el valor devuelto es NULL y lpString1 podrían no estar terminada en null.</span><span class="sxs-lookup"><span data-stu-id="4c5b3-115">If the function fails, the return value is NULL and lpString1 may not be null-terminated.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="20128-116">Notas</span><span class="sxs-lookup"><span data-stu-id="20128-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4c5b3-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4c5b3-116">Remarks</span></span>
 
-<span data-ttu-id="20128-117">Esta función ajusta la función **lstrcpy** .</span><span class="sxs-lookup"><span data-stu-id="20128-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="20128-118">Para obtener más información, vea [lstrcpy](http://msdn.microsoft.com/es-es/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="20128-118">For more information, see [lstrcpy](http://msdn.microsoft.com/es-es/library/ms647490%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="4c5b3-117">Esta función ajusta la función **lstrcpy** .</span><span class="sxs-lookup"><span data-stu-id="4c5b3-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="4c5b3-118">Para obtener más información, vea [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="4c5b3-118">For more information, see [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="20128-119">Ver también</span><span class="sxs-lookup"><span data-stu-id="20128-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c5b3-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="4c5b3-119">See also</span></span>
 
 
 
-[<span data-ttu-id="20128-120">lstrcpy</span><span class="sxs-lookup"><span data-stu-id="20128-120">lstrcpy</span></span>](http://msdn.microsoft.com/es-es/library/ms647490%28VS.85%29.aspx)
+[<span data-ttu-id="4c5b3-120">lstrcpy</span><span class="sxs-lookup"><span data-stu-id="4c5b3-120">lstrcpy</span></span>](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx)
 
