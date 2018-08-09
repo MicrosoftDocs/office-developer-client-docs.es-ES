@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822073"
 ---
-# <a name="evalcell-function"></a>EVALCELL (función)
+# <a name="evalcell-function"></a>Función EVALCELL
 
 Toma una referencia a una celda que contiene una función personalizada, así como uno o más pares de nombre y valor que se pase a la función personalizada como argumentos (opcional). Devuelve el resultado de la función personalizada dados los argumentos especificados y los valores calculado.
   
@@ -22,15 +22,15 @@ Toma una referencia a una celda que contiene una función personalizada, así co
 
 EVALCELL (** *cellRef* **, [** *arg1Name, arg1* **], [** *arg2Name, arg2* **], …) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _cellRef_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda que contiene la función personalizada. Se permiten referencias entre hojas.  <br/> |
 | _arg1Name_ <br/> |Opcional  <br/> |**String** <br/> |Nombre del primer argumento que se va a pasar a la función personalizada. Se permiten espacios.  <br/> |
-| _Arg1_ <br/> |Opcional  <br/> |**Varía** <br/> |Valor del parámetro _arg1_ .  <br/> |
+| _Arg1_ <br/> |Opcional  <br/> |**Varían** <br/> |Valor del parámetro _arg1_ .  <br/> |
 | _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |El nombre del segundo argumento que se pasan a la función personalizada. Se permiten espacios.  <br/> |
-| _Arg2_ <br/> |Opcional  <br/> |**Varía** <br/> |Valor del parámetro _arg2_ .  <br/> |
+| _Arg2_ <br/> |Opcional  <br/> |**Varían** <br/> |Valor del parámetro _arg2_ .  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

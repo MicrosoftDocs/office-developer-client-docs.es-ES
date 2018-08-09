@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822176"
 ---
-# <a name="fonttoid-function"></a>FONTTOID (función)
+# <a name="fonttoid-function"></a>Función FONTTOID
 
 Devuelve el identificador (Id.) de la fuente especificada.
   
@@ -25,7 +25,7 @@ Devuelve el identificador (Id.) de la fuente especificada.
 
 FONTTOID (** *font_name* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

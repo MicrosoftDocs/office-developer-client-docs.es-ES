@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de controles)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contiene una propiedad para un controlador definido para una forma.  <br/> |
+|[Elemento Row (sección Controles)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contiene una propiedad para un controlador definido para una forma.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,19 +60,19 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |CanGlue  <br/> |Determina si un controlador puede pegarse a otras formas.  <br/> |[Celda Can Glue (Sección de controles)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Representa una cadena de texto descriptivo que aparece como información de herramientas cuando el usuario deja el puntero sobre el controlador de una forma.  <br/> |[Celda Tip (Sección de controles)](tip-cell-controls-section.md) <br/> |
-|X  <br/> |Representa la coordenada x que indica la ubicación del controlador de una forma en coordenadas locales.  <br/> |[Celda X (Sección de controles)](x-cell-controls-section.md) <br/> |
+|X  <br/> |Representa la coordenada x que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda X (Sección de controles)](x-cell-controls-section.md) <br/> |
 |xCon  <br/> |Especifica el tipo de comportamiento de la coordenada x del controlador presenta después de mover el controlador.  <br/> |Ninguno.  <br/> |
-|xDyn  <br/> |Representa la coordenada x de punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda X Dynamics (Sección de controles)](x-dynamics-cell-controls-section.md) <br/> |
-|v  <br/> |Representa la coordenada y que indica la ubicación del controlador de una forma en coordenadas locales.  <br/> |[Celda Y (Sección de controles)](y-cell-controls-section.md) <br/> |
+|xDyn  <br/> |Representa la coordenada x de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda X Dynamics (Sección de controles)](x-dynamics-cell-controls-section.md) <br/> |
+|v  <br/> |Representa la coordenada y que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda Y (Sección de controles)](y-cell-controls-section.md) <br/> |
 |YCon  <br/> |Especifica el tipo de comportamiento de que la coordenada y del controlador cuando éste se mueve.  <br/> |Ninguno.  <br/> |
-|YDyn  <br/> |Representa la coordenada y de punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda Y Dynamics (Sección de controles)](y-dynamics-cell-controls-section.md) <br/> |
+|YDyn  <br/> |Representa la coordenada y de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda Y Dynamics (Sección de controles)](y-dynamics-cell-controls-section.md) <br/> |
    
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823094"
 ---
-# <a name="runmacro-function"></a>RUNMACRO (función)
+# <a name="runmacro-function"></a>Función RUNMACRO
 
 Llama a una macro de Microsoft Visual Basic para el proyecto de aplicaciones (VBA). 
   
@@ -24,7 +24,7 @@ Llama a una macro de Microsoft Visual Basic para el proyecto de aplicaciones (VB
 
 RUNMACRO (** *macroname* ** [, ** *nombreproy_opc* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -47,7 +47,7 @@ Si necesita cerrar el documento que contiene la celda que usa la función RUNMAC
     
 - Enviar mensajes de ventana para cerrar las ventanas del documento en lugar de cerrar el documento.
     
-Para obtener más información acerca de cómo ejecutar código en Visio, vea [acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta referencia de ShapeSheet. 
+Para obtener más información acerca cómo ejecutar código en Visio, vea [Acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta Referencia de ShapeSheet. 
   
 ## <a name="example"></a>Ejemplo
 

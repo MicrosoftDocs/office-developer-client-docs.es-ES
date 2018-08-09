@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822487"
 ---
-# <a name="ln-function"></a>LN (función)
+# <a name="ln-function"></a>Función LN
 
 Devuelve el logaritmo natural de un número. El número debe ser positivo o LN Devuelve el valor de error #num.
   
@@ -24,11 +24,11 @@ Devuelve el logaritmo natural de un número. El número debe ser positivo o LN D
 
 LN (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> | El número cuyo logaritmo natural desea encontrar.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> | El número cuyo logaritmo natural desea encontrar.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

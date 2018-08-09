@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822479"
 ---
-# <a name="listorder-function"></a>LISTORDER (función)
+# <a name="listorder-function"></a>Función LISTORDER
 
 Devuelve la posición basado en 1 de la forma en la lista.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

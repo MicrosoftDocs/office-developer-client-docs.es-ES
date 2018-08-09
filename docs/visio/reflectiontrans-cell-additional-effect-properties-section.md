@@ -1,5 +1,5 @@
 ---
-title: Celda ReflectionTrans (sección de propiedades de efecto adicionales)
+title: Celda ReflectionTrans (sección Propiedades del efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822916"
 ---
-# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Celda ReflectionTrans (sección de propiedades de efecto adicionales)
+# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Celda ReflectionTrans (sección Propiedades del efecto adicional)
 
 Determina la transparencia de reflexión, como un porcentaje de 0 a 100%. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **ReflectionTrans** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

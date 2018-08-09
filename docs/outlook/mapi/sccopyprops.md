@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 979415f1d792f92e593a7073cc84cfd6ba832b6c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820568"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copias de las propiedades definidas por una matriz de estructuras [SPropValue](spropvalue.md) a un nuevo destino. 
   
@@ -42,7 +42,7 @@ SCODE ScCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cprop_
   
@@ -70,7 +70,7 @@ MAPI_E_INVALID_PARAMETER
   
 > Se encontró un tipo de propiedad desconocido.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La nueva matriz y sus datos residen en un búfer creado con una única asignación, y la función [ScRelocProps](screlocprops.md) puede usarse para ajustar los punteros en las estructuras de [SPropValue](spropvalue.md) individuales. Antes de este ajuste, los punteros son válidos. 
   
@@ -78,7 +78,7 @@ La nueva matriz y sus datos residen en un búfer creado con una única asignaci�
   
 El parámetro _pcb_ es opcional; Si no es NULL, se establece el número de bytes que se almacenan en el parámetro _pvDst_ . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

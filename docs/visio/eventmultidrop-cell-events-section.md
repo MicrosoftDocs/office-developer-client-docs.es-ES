@@ -13,19 +13,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822092"
 ---
-# <a name="eventmultidrop-cell-events-section"></a>Celda EventMultiDrop (Sección de eventos)
+# <a name="eventmultidrop-cell-events-section"></a>Celda EventMultiDrop (sección Eventos)
 
 Una celda de evento que se evalúa cuando se colocan varias formas en la página de dibujo, como instancias o cuando se duplicar o pegar formas.
   
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   
-Para hacer referencia a la celda EventMultiDrop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para hacer referencia a la celda EventMultiDrop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:
+
+ 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |EventMultiDrop  <br/> |
    
-Para hacer referencia a la celda EventMultiDrop por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para hacer referencia desde un programa a la celda EventMultiDrop según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
+
+ 
   
 |||
 |:-----|:-----|

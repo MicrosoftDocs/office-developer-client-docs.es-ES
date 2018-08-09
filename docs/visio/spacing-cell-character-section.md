@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823306"
 ---
-# <a name="spacing-cell-character-section"></a>Celda Spacing (Sección de caracteres)
+# <a name="spacing-cell-character-section"></a>Celda Spacing (sección Caracteres)
 
 Controla el espacio que hay entre dos o más caracteres. El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el valor de esta celda mediante el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en la flecha de **fuente** ). 
+También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
-Para obtener una referencia a la celda Spacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Spacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.Letterspace [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Spacing por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Spacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

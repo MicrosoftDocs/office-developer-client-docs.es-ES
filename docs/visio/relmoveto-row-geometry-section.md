@@ -1,5 +1,5 @@
 ---
-title: Fila de RelMoveTo (sección de geometría)
+title: Fila RelMoveTo (sección Geometría)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822952"
 ---
-# <a name="relmoveto-row-geometry-section"></a>Fila de RelMoveTo (sección de geometría)
+# <a name="relmoveto-row-geometry-section"></a>Fila RelMoveTo (sección Geometría)
 
 Contiene *el *x* - y *y* - las coordenadas del primer vértice de una forma o la *x* - y* -las coordenadas del primer vértice después de una interrupción de una ruta de acceso, en relación con el alto y el ancho de la forma. 
   
@@ -28,7 +28,7 @@ Una fila de **RelMoveTo** contiene las celdas siguientes.
 |[X](x-cell-geometry-section.md) <br/> |Si la fila **RelMoveTo** es la primera fila en la sección, la celda X representa la *x* -coordenadas del primer vértice de una forma con relación al ancho de la forma. Si la fila **RelMoveTo** aparece entre dos filas, la celda X representa la *x* -coordenadas del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Si la fila **RelMoveTo** es la primera fila en la sección, la celda Y representa la *y* -coordenadas del primer vértice de una forma. Si la fila **RelMoveTo** aparece entre dos filas, la celda Y representa la *y* -coordenadas del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Valores de la fila de **RelMoveTo** son equivalentes a los valores de una fila [MoveTo](moveto-row-geometry-section.md) que se multiplican por el ancho y el alto de la forma. Por ejemplo: una fila **RelMoveTo** donde el valor de la celda **X** es "0" y el valor de la celda **Y** es "0,5" podría reemplazarse con fila **MoveTo** donde el valor de la celda **X** es la fórmula "ancho*0" y la celda **Y** es la fórmula de "alto*0,5." 
   
