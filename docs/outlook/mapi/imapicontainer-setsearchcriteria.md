@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817216"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece los criterios de búsqueda para el contenedor.
   
@@ -35,7 +35,7 @@ HRESULT SetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpRestriction_
   
@@ -87,7 +87,7 @@ MAPI_E_TOO_COMPLEX
   
 > El proveedor de servicios no es compatible con los criterios de búsqueda especificada.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIContainer::SetSearchCriteria** establece los criterios de búsqueda para un contenedor que admite búsquedas, normalmente una carpeta de resultados de búsqueda. Una carpeta de resultados de búsqueda contiene vínculos a los mensajes que cumplen los criterios de búsqueda; el número de mensajes aún se almacena en sus ubicaciones originales. Los datos solo únicos que se encuentra en una carpeta de resultados de búsqueda están su tabla de contenido. En la tabla de contenido de una carpeta de resultados de búsqueda tiene el contenido combinado del almacén de mensajes después de que se ha aplicado la restricción de la búsqueda. 
   
@@ -123,7 +123,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer::SetSearchCriteria** para escribir criterios de búsqueda para una carpeta una vez que un usuario lo ha editado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -133,7 +133,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPIFolder::CreateFolder](imapifolder-createfolder.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
@@ -141,7 +141,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [SSubRestriction](ssubrestriction.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

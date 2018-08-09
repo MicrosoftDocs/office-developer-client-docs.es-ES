@@ -10,7 +10,7 @@ keywords:
 - función xlStack [excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fcd073f7d2b97e84743d01c498435f186277e345
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815744"
 ---
 # <a name="xlstack"></a>xlStack
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Comprueba la cantidad de espacio libre en la pila.
   
@@ -28,15 +28,15 @@ Comprueba la cantidad de espacio libre en la pila.
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 Esta función no toma ningún argumento.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve el número de bytes (**xltypeInt**) restante en la pila.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cantidad de espacio de pila disponible de versiones recientes desborda el entero con signo de 16 bits de la **XLOPER**. Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando llama a mediante **XLOPER**s y **Excel4** o **Excel4v**. Para obtener el valor correcto en este caso, debe convertir el valor devuelto para un unsigned short.
   
@@ -70,7 +70,7 @@ short int WINAPI xlStackExample_XLOPER(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

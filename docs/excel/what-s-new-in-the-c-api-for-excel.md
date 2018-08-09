@@ -1,5 +1,5 @@
 ---
-title: Novedades de la API C para Excel
+title: Novedades de la API de C para Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - api de c [excel 2007], novedades
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19815702"
 ---
-# <a name="whats-new-in-the-c-api-for-excel"></a>Novedades de la API C para Excel
+# <a name="whats-new-in-the-c-api-for-excel"></a>Novedades de la API de C para Excel
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Junto con Microsoft Excel 2013, el Kit de desarrollo de Software (SDK) de Microsoft Excel 2013 XLL incluye compatibilidad con las siguientes características.
   
@@ -49,8 +49,8 @@ Junto con Microsoft Excel 2013, el Kit de desarrollo de Software (SDK) de Micros
   
 [Programar con la API de C en Excel](programming-with-the-c-api-in-excel.md)
   
-[Subprocesamiento m�ltiple y la contenci�n de memoria en Excel](multithreading-and-memory-contention-in-excel.md)
+[Multiproceso y conflictos de memoria en Excel](multithreading-and-memory-contention-in-excel.md)
 
 
-[Introducci�n al SDK de XLL de Excel 2013](getting-started-with-the-excel-xll-sdk.md)
+[Introducción al SDK de XLL de Excel](getting-started-with-the-excel-xll-sdk.md)
 

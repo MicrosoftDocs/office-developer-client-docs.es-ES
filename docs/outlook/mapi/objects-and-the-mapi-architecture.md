@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0e89c2ad37b700a977962e5e0ff0ca30b9d910e2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818442"
 ---
 # <a name="objects-and-the-mapi-architecture"></a>Objetos y la arquitectura MAPI
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Todos los objetos que define MAPI se dividen en una o más capas en la arquitectura de MAPI. La capa de interfaz de cliente contiene todos los objetos que puede implementar una aplicación cliente, el Visor de formulario o el servidor de formulario. La capa de interfaz de proveedor de servicio contiene los objetos que puede implementar un proveedor de servicios de cualquier tipo. Esta capa incluye objetos implementados por libretas de direcciones, almacenes de mensajes, los proveedores de transporte y las bibliotecas de formularios. La capa que representa el subsistema MAPI se coloca entre las capas de interfaz de proveedor de cliente y el servicio. La capa MAPI contiene todos los objetos que implementa MAPI para que los clientes o proveedores de servicios para utilizar. 
   
@@ -27,8 +27,8 @@ La siguiente ilustración se muestra donde cada uno de los objetos MAPI encaja e
   
 ![Capas de objetos en MAPI] (media/amapi_38.gif "Capas de objetos en MAPI")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)
+- [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
 - [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
 

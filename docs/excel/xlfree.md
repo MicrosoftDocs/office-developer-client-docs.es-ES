@@ -10,7 +10,7 @@ keywords:
 - función xlFree [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2dd61ee5cd0e2e671cc47425689287b8a437732f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815738"
 ---
 # <a name="xlfree"></a>xlFree
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Usado para liberar memoria recursos asignados por Microsoft Excel al crear la devolución de valor **XLOPER**/ **XLOPER12** en una llamada a [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)o [Excel12v](excel4v-excel12v.md). La función **xlFree** libera la memoria auxiliar y restablece el puntero en **NULL** , pero no destruye otras partes de la **XLOPER**/ **XLOPER12**.
   
@@ -29,17 +29,17 @@ Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _px_1,..., px_n_
   
 Uno o más **XLOPER**/ s**XLOPER12**liberarse. En las versiones de Excel hasta 2003, el número máximo de punteros que se pueden pasar es 30. Iniciar en Excel 2007, se aumenta a 255.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Esta función no devuelve un valor.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Debe liberar cada **XLOPER** que se obtiene como un valor devuelto de **Excel4** o **Excel4v** y cada **XLOPER12** que se obtiene como valor devuelto desde **Excel12** o **Excel12v** si son uno de los siguientes tipos: xltypeStr ** **, **xltypeMulti**o **xltypeRef**. Siempre es seguro libre a otros tipos incluso si no usan memoria auxiliar, siempre que obtuvo de **Excel4** o **Excel12**.
   
@@ -87,7 +87,7 @@ short WINAPI xlFreeExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

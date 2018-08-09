@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e42bbf23ea8cf4e6196017a962329366e168420d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818419"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un identificador de entrada del sistema (MTS) de transporte de mensaje X.400. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cb**
   
@@ -51,13 +51,13 @@ typedef struct
   
 > Matriz de bytes que contiene los datos del identificador de entrada MTS.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **MTSID** se usa solo para X.400 asignaciones de identificadores de entrada MAPI. Se corresponde con la estructura MAPI [FLATENTRY](flatentry.md) . 
   
 Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de la propiedad binaria. Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3b10ac5906be0f95930be3bef51fe2d78d583b03
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817326"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Descargas de un formulario para abrirlo.
   
@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -65,7 +65,7 @@ Visores de formulario llamar al método **IMAPIFormMgr::PrepareForm** para desca
   
 Puede usar **PrepareForm** para obtener las bibliotecas de vínculos dinámicos (DLL) y otros archivos asociados con un formulario para modificarlos. Si se carga el formulario modificado en su contenedor de formulario, se debe volver a instalar. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,5 +73,5 @@ Puede usar **PrepareForm** para obtener las bibliotecas de vínculos dinámicos 
   
 [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

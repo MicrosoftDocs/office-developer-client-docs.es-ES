@@ -10,7 +10,7 @@ keywords:
 - debugprintf (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815523"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Función de biblioteca de Framework que escribe una cadena de bytes terminada en null en el depurador activo a través de la función de Windows SDK **OutputDebugStringA**. Si la aplicación no tiene ningún depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no tiene ningún efecto. 
   
@@ -30,7 +30,7 @@ Esta función no devuelve un valor.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpFormat (LPSTR)_
   
@@ -57,9 +57,9 @@ short WINAPI debugPrintfExample(void)
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

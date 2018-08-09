@@ -30,7 +30,7 @@ typedef struct  tagFBBlock_1
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _m_tmStart_
   
@@ -44,9 +44,9 @@ _m_fbStatus_
   
 > El estado de disponibilidad de este bloque, que indica si el usuario está fuera de la oficina, ocupado, provisional o libre, durante el período de tiempo entre _m_tmStart_ y _m_tmEnd_.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [FBStatus](fbstatus.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)
-- [Usar tiempo relativa a los datos de libre/ocupado de access](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Utilizar un tiempo relativo a los datos de disponibilidad de acceso](how-to-use-relative-time-to-access-free-busy-data.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Envío de mensajes mediante el uso de procesamiento de datos adjuntos personalizado TNEF
+title: Enviar mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820612"
 ---
-# <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Envío de mensajes mediante el uso de procesamiento de datos adjuntos personalizado TNEF
+# <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Enviar mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para personalizar el procesamiento de datos adjuntos al enviar un mensaje:
   

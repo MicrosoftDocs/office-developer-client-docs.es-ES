@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskStatus
+title: Propiedad canónica PidLidTaskStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e8ca8d7a82360c1f96448b08c9eda18be502b9f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819012"
 ---
-# <a name="pidlidtaskstatus-canonical-property"></a>Propiedad canónico PidLidTaskStatus
+# <a name="pidlidtaskstatus-canonical-property"></a>Propiedad canónica PidLidTaskStatus
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el estado de progreso del usuario en la tarea.
   
@@ -33,9 +33,9 @@ Especifica el estado de progreso del usuario en la tarea.
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008101  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe establecerse en uno de estos procedimientos.
   
@@ -85,22 +85,22 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
+[Propiedad canónica PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
   
-[Propiedad canónico PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)
+[Propiedad canónica PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)
   
-[Propiedad canónico PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
+[Propiedad canónica PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

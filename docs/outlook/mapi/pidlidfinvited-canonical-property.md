@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidFInvited
+title: Propiedad canónica PidLidFInvited
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 409fc2e01b103378eb0df1bdd06ee8b5647148bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818724"
 ---
-# <a name="pidlidfinvited-canonical-property"></a>Propiedad canónico PidLidFInvited
+# <a name="pidlidfinvited-canonical-property"></a>Propiedad canónica PidLidFInvited
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica si se han enviado invitaciones para la reunión que representa esta reunión.
   
@@ -35,7 +35,7 @@ Indica si se han enviado invitaciones para la reunión que representa esta reuni
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un valor FALSE, o la ausencia de esta propiedad indica que nunca se ha enviado una convocatoria de reunión. Un valor de TRUE indica que se ha enviado una convocatoria de reunión. Una vez que este valor se establece en TRUE en una reunión, no debe cambiarse.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

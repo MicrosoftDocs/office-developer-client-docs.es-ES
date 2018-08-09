@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidImapDeleted
+title: Propiedad canónica PidLidImapDeleted
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 59c0deefc680bdb5eafca681aedbee7fda29a273
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818756"
 ---
-# <a name="pidlidimapdeleted-canonical-property"></a>Propiedad canónico PidLidImapDeleted
+# <a name="pidlidimapdeleted-canonical-property"></a>Propiedad canónica PidLidImapDeleted
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Denota los elementos de protocolo de acceso a correo de Internet (IMAP) que están marcados para eliminación.
   
@@ -35,7 +35,7 @@ Denota los elementos de protocolo de acceso a correo de Internet (IMAP) que est�
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |IMAP  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si se establece en un valor distinto de cero, el elemento se ha marcado para su eliminación.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

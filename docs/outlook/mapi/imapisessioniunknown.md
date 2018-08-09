@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a37d8138547c8c4e9308dbb0ebbc6750b152d795
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817469"
 ---
-# <a name="imapisession--iunknown"></a>IMAPISession: IUnknown
+# <a name="imapisession--iunknown"></a>IMAPISession : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Administra los objetos asociados a una sesión de inicio de sesión MAPI.
   
@@ -60,7 +60,7 @@ Administra los objetos asociados a una sesión de inicio de sesión MAPI.
 |[ShowForm](imapisession-showform.md) <br/> |Muestra un formulario.  <br/> |
 |[PrepareForm](imapisession-prepareform.md) <br/> |Crea un token numérico que usa el método **ShowForm** para tener acceso a un mensaje.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

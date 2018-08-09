@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d22c24088960debcd18ccd818dad23656f6a01f2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818267"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Incrementa el recuento de referencia del subsistema MAPI e inicializa datos globales para la DLL de MAPI. 
   
@@ -39,7 +39,7 @@ HRESULT MAPIInitialize(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMapiInit_
   
@@ -51,7 +51,7 @@ S_OK
   
 > El subsistema MAPI se inicializó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los incrementos de función **MAPIInitialize** contar la referencia MAPI para el subsistema MAPI y el disminuye de función [MAPIUninitialize](mapiuninitialize.md) el interno recuento de referencia. Por lo tanto, el número de llamadas a una función debe ser igual que el número de llamadas a otro. **MAPIInitialize** devuelve S_OK si MAPI no se ha inicializado anteriormente. 
   
@@ -116,7 +116,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> ||MFCMAPI, utiliza el método **MAPIInitialize** para inicializar MAPI en un subproceso en segundo plano para realizar algún procesamiento de tabla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

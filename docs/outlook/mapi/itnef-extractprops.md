@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 26949f10e22c4d2ea49594ee3365ae7d3bb3662d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818001"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Extrae las propiedades de una encapsulación TNEF. 
   
@@ -67,7 +67,7 @@ MAPI_E_CORRUPT_DATA
   
 > Datos que se va a descodificar en un objeto stream está dañados.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace, llame al método **ITnef::ExtractProps** para extraer (que es, descodificar) las propiedades de la encapsulación de un mensaje o datos adjuntos que se pasan a la función [OpenTnefStream](opentnefstream.md) . El proveedor o la puerta de enlace realiza la llamada puede especificar una lista de propiedades para descodificar. Los proveedores y las puertas de enlace también pueden usar **ExtractProps** para proporcionar información sobre cualquier tratamiento especial de los datos adjuntos. 
   
@@ -86,7 +86,7 @@ Si un proveedor o una puerta de enlace no funciona con matrices de problema, pue
   
 El valor devuelto en _lpProblems_ es válido sólo si la llamada devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace debe comprobar los valores devueltos en la estructura **STnefProblemArray** . Si se produce un error en la llamada, no se rellena la estructura **STnefProblemArray** y el proveedor o la puerta de enlace realiza la llamada no debe utilizar o libre la estructura. Si se produce ningún error en la llamada, el proveedor o la puerta de enlace realiza la llamada debe liberar la memoria para la estructura de **STnefProblemArray** mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -104,5 +104,5 @@ El valor devuelto en _lpProblems_ es válido sólo si la llamada devuelve S_OK. 
   
 [STnefProblemArray](stnefproblemarray.md)
   
-[ITnef: IUnknown](itnefiunknown.md)
+[ITnef : IUnknown](itnefiunknown.md)
 

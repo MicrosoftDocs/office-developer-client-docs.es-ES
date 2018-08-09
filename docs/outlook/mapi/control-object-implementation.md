@@ -1,5 +1,5 @@
 ---
-title: Implementación de objeto de control
+title: Administrar la implementación de objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 268ad60cf8161fb2b58370f89aae623aabd7da7c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816580"
 ---
-# <a name="control-object-implementation"></a>Implementación de objeto de control
+# <a name="control-object-implementation"></a>Administrar la implementación de objeto
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Controlar objetos u objetos que admiten la [IMAPIControl: IUnknown](imapicontroliunknown.md) de la interfaz, se implementan los proveedores para agregar funcionalidad a un botón que aparece en un cuadro de diálogo MAPI. Objetos de control sólo se pueden implementar para los botones. 
   
@@ -39,7 +39,7 @@ Si la tarea se realiza correctamente y se vincula a un cambio de propiedad que s
   
 MAPI llama al método del control **GetLastError** al **Activar** devuelve un error que no sea MAPI_E_USER_CANCEL. Si **GetLastError** coloca información de error extendida en la estructura [MAPIERROR](mapierror.md) que devuelve en el contenido del parámetro _lppMAPIError_ , MAPI muestra para el usuario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

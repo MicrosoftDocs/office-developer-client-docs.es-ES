@@ -1,5 +1,5 @@
 ---
-title: Acerca de la API de libre/ocupado
+title: Información sobre la API de disponibilidad
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816054"
 ---
-# <a name="about-the-freebusy-api"></a>Acerca de la API de libre/ocupado
+# <a name="about-the-freebusy-api"></a>Información sobre la API de disponibilidad
 
 La API de la información de disponibilidad permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado. El estado de disponibilidad de un bloque de tiempo en el calendario de un usuario es uno de los siguientes: fuera de la oficina, ocupado, provisional o libre.
   

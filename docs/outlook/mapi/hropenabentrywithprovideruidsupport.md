@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bd42fcd34042c2f9579497f164c4a67f6ba97e35
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19817092"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza la misma función que la función [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) excepto en que la función **HrOpenABEntryWithProviderUIDSupport** abre la entrada de uso del objeto de soporte determinada en lugar de usar la sesión y la libreta de direcciones. 
   
@@ -42,7 +42,7 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pEmsabpUID_
   

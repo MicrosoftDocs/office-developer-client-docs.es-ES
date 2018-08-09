@@ -18,7 +18,7 @@ ms.locfileid: "19815339"
 Puede usar la acción **ChangeView** para navegar entre vistas en su lugar. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 
@@ -29,9 +29,9 @@ La acción **ChangeView** tiene los siguientes argumentos.
 |Tabla  <br/> |Sí  <br/> |El nombre de la tabla que se va a abrir.  <br/> |
 |Vista  <br/> |Sí  <br/> |El nombre de la vista que se va a abrir.  <br/> |
 |Donde  <br/> |No  <br/> |Si se especifica, reemplaza la condición WHERE del origen de registros del objeto.  <br/> |
-|Order By  <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
+|Ordenar por  <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Ordenación o los filtros aplicados por el usuario está desactivada cuando se llama a la acción **ChangeView** . 
   

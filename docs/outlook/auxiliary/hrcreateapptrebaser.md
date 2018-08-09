@@ -122,7 +122,7 @@ Cuando se usa [GetProcAddress](http://msdn.microsoft.com/library/a0d7fc09-f888-4
   
 Para obtener más información acerca de las distintas opciones, consulte la sección "Glosario de opciones de línea de comandos para la herramienta de actualización de datos de zona horaria de Outlook" en [KB 931667: cómo los cambios de zona horaria de direcciones mediante la herramienta de actualización de datos de zona horaria para Microsoft Office Outlook](http://support.microsoft.com/kb/931667/en-us).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

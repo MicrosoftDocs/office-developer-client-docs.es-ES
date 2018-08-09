@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentTimeZoneDefinitionStartDisplay
+title: Propiedad canónica PidLidAppointmentTimeZoneDefinitionStartDisplay
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08239670-3211-420c-99d7-0056ed967cb8
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f6d0c7c6f6f34330c143781fbac976392ee1c9a1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818580"
 ---
-# <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>Propiedad canónico PidLidAppointmentTimeZoneDefinitionStartDisplay
+# <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>Propiedad canónica PidLidAppointmentTimeZoneDefinitionStartDisplay
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que almacena la descripción de la zona horaria que se usa cuando se selecciona la hora de inicio de una instancia única cita o convocatoria de reunión. 
   
@@ -33,9 +33,9 @@ Contiene una secuencia que se asigna al formato persistente de una estructura [T
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x0000825E  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Calendar  <br/> |
+|Área:  <br/> |Calendario  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Microsoft Office Outlook 2003 o anterior y las soluciones que se basan en Collaboration Data Objects (CDO) 1.2.1 y que no se ejecuta la herramienta de actualización de calendario de Outlook o Microsoft Exchange Server, almacenan la hora de inicio y hora de finalización de instancia única las citas y las convocatorias de reunión en hora Universal coordinada (UTC). Estos clientes no almacene ninguna información para la zona horaria en la que se creó la convocatoria de reunión o cita.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

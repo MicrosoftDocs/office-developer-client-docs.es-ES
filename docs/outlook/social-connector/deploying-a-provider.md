@@ -1,5 +1,5 @@
 ---
-title: Implementación de un proveedor
+title: Implementar un proveedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821117"
 ---
-# <a name="deploying-a-provider"></a>Implementación de un proveedor
+# <a name="deploying-a-provider"></a>Implementar un proveedor
 
 El método recomendado para implementar un proveedor de Outlook Social Connector (OSC) es usar un paquete de Windows Installer (.msi). Después de descargar el paquete de instalación en un disco duro local, el usuario final de Office instala al proveedor de OSC. Una vez finalizada la instalación del proveedor, el usuario puede conectarse al proveedor de OSC y proporcione las credenciales de inicio de sesión para la cuenta de redes sociales. Si el usuario decide desinstalar el proveedor de OSC, el usuario puede usar **programas y características** en el Panel de Control para desinstalar. 
   
@@ -43,7 +43,7 @@ El método recomendado para implementar un proveedor de Outlook Social Connector
   
 - [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Cómo administrar Outlook Social Connector mediante la directiva de grupo](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

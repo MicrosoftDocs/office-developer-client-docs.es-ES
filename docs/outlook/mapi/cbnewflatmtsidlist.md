@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 26628646-7948-4341-aaef-5c476a857a52
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 32198635ed95c5eb33a7171734778ac9a224059c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816521"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes que se debe asignar para una nueva estructura [FLATMTSIDLIST](flatmtsidlist.md) que contiene varias estructuras [MTSID](mtsid.md) de un tamaño especificado. 
   
@@ -36,13 +36,13 @@ Calcula el número de bytes que se debe asignar para una nueva estructura [FLATM
 CbNewFLATMTSIDIDLIST (_cb)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __cb_
   
 > Recuento de bytes en las estructuras **MTSID** que se deben incluir en la nueva estructura **FLATMTSIDLIST** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -51,5 +51,5 @@ CbNewFLATMTSIDIDLIST (_cb)
 [MTSID](mtsid.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidIntendedBusyStatus
+title: Propiedad canónica PidLidIntendedBusyStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 30f1e2389698f5ec96874f46a685a7e087dbb773
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818764"
 ---
-# <a name="pidlidintendedbusystatus-canonical-property"></a>Propiedad canónico PidLidIntendedBusyStatus
+# <a name="pidlidintendedbusystatus-canonical-property"></a>Propiedad canónica PidLidIntendedBusyStatus
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el valor de la propiedad **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) en la reunión en el calendario del organizer cuando se envió la convocatoria de reunión o una actualización de la reunión.
   
@@ -35,7 +35,7 @@ Especifica el valor de la propiedad **dispidBusyStatus** ([PidLidBusyStatus](pid
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los valores permitidos de esta propiedad son los mismos que los de la propiedad **dispidBusyStatus**.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

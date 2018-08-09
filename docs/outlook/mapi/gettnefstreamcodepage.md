@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c4859fa4f8f55af7913c884e25c96727c063ba79
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816919"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Determina la página de códigos para una secuencia de formato de encapsulación neutro para el transporte (TNEF).
   
@@ -37,7 +37,7 @@ HRESULT GetTnefStreamCodepage(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpStream_
   
@@ -65,11 +65,11 @@ HRESULT GetTnefStreamCodepage(
   
 > La secuencia no era una secuencia TNEF o se ha producido un error al leer el atributo attOemCodepage.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Use la función **GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de subcode y página de códigos. Si no se encuentra **attOemCodepage** , **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página subcode de 0. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

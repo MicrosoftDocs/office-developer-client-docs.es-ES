@@ -37,7 +37,7 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ulMin_
   
@@ -79,7 +79,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Las aplicaciones de cliente MAPI que usan la interfaz [IOlkApptRebaser](iolkapptrebaser.md) implementan esta función para realizar un seguimiento de procesamiento del elemento. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

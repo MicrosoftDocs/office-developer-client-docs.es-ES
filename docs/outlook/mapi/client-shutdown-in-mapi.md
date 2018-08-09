@@ -17,13 +17,13 @@ ms.locfileid: "19816541"
 ---
 # <a name="client-shutdown-in-mapi"></a>Cierre del cliente de MAPI 
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 A partir de Microsoft Outlook 2010 y ahora incluyen Microsoft Outlook 2013, los clientes MAPI pueden cerrar de la misma manera que antes, o puede usar el apagado rápido. Apagado rápido para se realizan correctamente, el cliente MAPI, el proveedor MAPI y el administrador del equipo cliente tienen que admitir apagado rápido. 
   
 En los temas de esta sección se describen la compatibilidad con MAPI para que un cliente para llevar a cabo el apagado rápido.
   
-[Información general de apagado rápido](fast-shutdown-overview.md)
+[Información general sobre el apagado rápido](fast-shutdown-overview.md)
   
 > En este tema se presentan el mecanismo básico de apagado rápido.
     

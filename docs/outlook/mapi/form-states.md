@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "19816880"
 ---
 # <a name="form-states"></a>Estados de formulario
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Objetos de formulario pueden estar en uno de cinco estados distintos, dependiendo de qué se ha llamado a los métodos en ellos y si los errores se han producido en la realización de estos métodos. Los Estados se describen en los temas siguientes:
   
-- [Estado no inicializado](uninitialized-state.md)
+- [Estado sin inicializar](uninitialized-state.md)
     
 - [Estado normal](normal-state.md)
     
-- [Estado de NoScribble](noscribble-state.md)
+- [Estado NoScribble](noscribble-state.md)
     
-- [Estado de HandsOffAfterSave](handsoffaftersave-state.md)
+- [Estado HandsOffAfterSave](handsoffaftersave-state.md)
     
-- [Estado de HandsOffFromNormal](handsofffromnormal-state.md)
+- [Estado HandsOffFromNormal](handsofffromnormal-state.md)
     
 Los Estados principalmente se relacionan con el estado de los datos en el objeto de formulario. Los distintos Estados reflejan si los datos se deben guardar, si el objeto de formulario debe permitir que las modificaciones realizadas en los datos y qué punto en el proceso de guardar los datos que el formulario está en. Por lo tanto, el formulario Estados y transiciones entre ellas tienen mucho más relacionada con la implementación del servidor de su formulario de [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos que cualquier otro de la interfaz. Conocimiento de estos Estados es muy útil para la correcta ejecución de las interfaces de formulario MAPI que debe implementar el servidor de formulario. 
   
@@ -38,7 +38,7 @@ En los temas de esta sección se describen los distintos Estados, junto con las 
 > [!NOTE]
 > Algunas transiciones de estado dependen de la información de estados anteriores. El servidor de formulario muy probable que deba implementar un indicador en sus objetos de formulario para indicar si han cambiado los valores de las propiedades del mensaje para facilitar los cambios de estado de una versión posterior. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

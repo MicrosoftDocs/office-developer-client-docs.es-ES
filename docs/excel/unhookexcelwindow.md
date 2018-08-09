@@ -10,7 +10,7 @@ keywords:
 - unhookexcelwindow (función)
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7b70bf4ed0ff45921df407605baa692c7621bca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815713"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Quita el **ExcelCursorProc** que se había instalado por **HookExcelWindow**. Esto habría se ha realizado el modo en que se llamó a **ExcelCursorProc** antes de la principal de Microsoft Excel **WndProc**.
   
@@ -28,17 +28,17 @@ Quita el **ExcelCursorProc** que se había instalado por **HookExcelWindow**. Es
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hWndExcel_ (**Controlar**)
   
 El identificador de Windows principal de Excel.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 La función no devuelve un valor.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función restaura el valor predeterminado de Excel **WndProc** con **SetWindowLong()** para restaurar la dirección que se guardó por **HookExcelWindow()**.
   
@@ -46,9 +46,9 @@ Esta función restaura el valor predeterminado de Excel **WndProc** con **SetWin
 
 Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones en el archivo DLL genérica](functions-in-the-generic-dll.md)
+[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
 

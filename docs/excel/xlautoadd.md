@@ -10,7 +10,7 @@ keywords:
 - xlautoadd (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ae0b4ae2d5f5fc58c3e18ffa9d79ec4128cb4639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815710"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Agregados por Microsoft Excel cada vez que el usuario activa el XLL durante una sesión de Excel mediante el uso del administrador. Esta función no se llama cuando Excel se inicia y carga un complemento preinstalado.
   
@@ -32,15 +32,15 @@ Excel no requiere un XLL implementar y exportar a esta función.
 int WINAPI xlAutoAdd(void);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 Esta función no toma ningún argumento.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 La implementación de esta función debe devolver 1. (**int**).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Utilice esta función si no hay nada que su XLL necesita hacer cuando se agrega por el Administrador de complementos.
   
@@ -60,12 +60,12 @@ int WINAPI xlAutoAdd(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [xlAutoRemove](xlautoremove.md)
 
 
-[Administrador de complementos y funciones de la interfaz XLL](add-in-manager-and-xll-interface-functions.md)
+[Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)
 

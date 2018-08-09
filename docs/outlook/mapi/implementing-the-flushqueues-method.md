@@ -1,5 +1,5 @@
 ---
-title: Implementación del método FlushQueues
+title: Implementar el método FlushQueues
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817717"
 ---
-# <a name="implementing-the-flushqueues-method"></a>Implementación del método FlushQueues
+# <a name="implementing-the-flushqueues-method"></a>Implementar el método FlushQueues
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La cola MAPI usa el método [IXPLogon::FlushQueues](ixplogon-flushqueues.md) para descargar y cargar todos los mensajes pendientes a y desde un proveedor de transporte. Normalmente, la cola MAPI vaciar las colas para todos los proveedores de transporte que han iniciado sesión en la sesión, empezando por el primer proveedor de transporte como se establece en la sección orden de transporte del perfil de usuario. Las colas de baja casi siempre es el resultado de una solicitud directa por el usuario, por lo que el envío y recepción de mensajes mientras se vaciado de colas son sincrónica a la cola MAPI. Debido a que estas llamadas son sincrónicas, el proveedor de transporte debe procesarlos lo más rápido posible. 
   

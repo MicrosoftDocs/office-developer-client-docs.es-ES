@@ -1,5 +1,5 @@
 ---
-title: Referencia de la API de libre/ocupado
+title: Referencia de la API de disponibilidad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816075"
 ---
-# <a name="freebusy-api-reference"></a>Referencia de la API de libre/ocupado
+# <a name="freebusy-api-reference"></a>Referencia de la API de disponibilidad
 
 En esta sección se proporciona contenido de referencia de la API de la información de disponibilidad, que permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado.
 

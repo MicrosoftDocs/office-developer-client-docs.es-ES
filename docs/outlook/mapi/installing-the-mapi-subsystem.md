@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c2e135fc031dd3faf5a4e08c50147dfcf7787b5e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19817824"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Versiones compatibles de Windows instalan la biblioteca de código auxiliar MAPI, Mapi32.dll, en la _ \<unidad\>_ carpeta \Windows\System32. 
   
@@ -52,7 +52,7 @@ La tabla siguiente resume cómo los clientes de recuperar información de la ver
 |Disponibilidad de MAPI  <br/> |Busque `MAPIX=1`.  <br/> |
 |Versión disponible de MAPI  <br/> |Busca una cadena MAPIXVER del formulario " _x.x.x_".  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

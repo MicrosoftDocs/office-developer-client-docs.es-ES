@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAttachNumber
+title: Propiedad canónica PidTagAttachNumber
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c4a46710311f2c4d26ec3d667c7bf535df69f595
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819242"
 ---
-# <a name="pidtagattachnumber-canonical-property"></a>Propiedad canónico PidTagAttachNumber
+# <a name="pidtagattachnumber-canonical-property"></a>Propiedad canónica PidTagAttachNumber
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un número que identifica de forma exclusiva los datos adjuntos en su mensaje primario. 
   
@@ -34,7 +34,7 @@ Contiene un número que identifica de forma exclusiva los datos adjuntos en su m
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Almacenes de mensaje generan y mantienen esta propiedad. El número de datos adjuntos es el criterio de ordenación secundario, después de la posición de representación, en la tabla de datos adjuntos. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

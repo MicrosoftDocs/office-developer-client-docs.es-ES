@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cf1febe89c49b29cdfaf8d27760c4fb27b4c4990
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818409"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicializa un proveedor de almacén de mensajes para la operación.
   
@@ -47,7 +47,7 @@ HRESULT MSProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hInstance_
   
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > La versión SPI usada por MAPI no es compatible con el SPI usado por este proveedor.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI llama a la función de punto de entrada **MSProviderInit** para inicializar un proveedor de almacén de mensajes sigue un inicio de sesión de cliente. 
   
@@ -115,13 +115,13 @@ El proveedor de almacén de mensajes debe usar las funciones que señala _lpAllo
   
 Para obtener más información acerca de cómo escribir **MSProviderInit**, vea [Cargar los proveedores de almacén de mensajes](loading-message-store-providers.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [ABProviderInit](abproviderinit.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
   
 [XPProviderInit](xpproviderinit.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Sobre del mensaje
+title: Sobre de mensajes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bbdc5993a07209f381065ce1b60f860ba54c35d5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818402"
 ---
-# <a name="message-envelope"></a>Sobre del mensaje
+# <a name="message-envelope"></a>Sobre de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Encabezados de RFC 822 como se indica a continuación se asignan a las propiedades de MAPI. PR_SENDER_\* es una abreviatura de las siguientes 5 propiedades:
   

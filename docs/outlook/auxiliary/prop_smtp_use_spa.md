@@ -27,12 +27,12 @@ Especifica si se debe usar la autenticación de contraseña segura (SPA) para la
 |Etiqueta de la propiedad:  <br/> |0x02070003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un medio de valor cero no use SPA, en caso contrario, use SPA.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

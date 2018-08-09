@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ff23472254df2bd9d2195c7cf2c4258b856ec430
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818433"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cola de estructuras de identificador a largo plazo utilizado por el proveedor de almacén de carpetas personales (PST) para asignar un identificador de entrada para un nuevo mensaje o una carpeta en modo sin conexión.
   
@@ -37,7 +37,7 @@ typedef struct {
 } OLFI, *POLFI;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _ulVersion_
   
@@ -67,7 +67,7 @@ typedef struct {
   
 - Estructura de identificador que identifica la siguiente entrada disponible a largo plazo.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un identificador de entrada es un identificador de entrada MAPI de 4 bytes para una carpeta o un mensaje. Para obtener más información, vea la [propiedad ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
   
@@ -81,13 +81,13 @@ Si el tamaño de una solicitud es mayor que *dwAlloc* , el proveedor de almacén
   
 Un proveedor que se ajusta el proveedor de almacén de archivos PST debe comprobar periódicamente *ltidNextAlloc* para ver si es NULL. Si es así, el proveedor debe rellenar con un nuevo GUID y restablecer *dwNextAlloc* de modo que se pueden asignar más identificadores de entrada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
 

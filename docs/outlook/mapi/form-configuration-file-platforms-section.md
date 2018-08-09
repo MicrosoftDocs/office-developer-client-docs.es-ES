@@ -1,5 +1,5 @@
 ---
-title: Sección de [plataformas] del archivo de configuración de formulario
+title: Sección del archivo de configuración de formulario [Plataformas]
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816853"
 ---
-# <a name="form-configuration-file-platforms-section"></a>Sección de [plataformas] del archivo de configuración de formulario
+# <a name="form-configuration-file-platforms-section"></a>Sección del archivo de configuración de formulario [Plataformas]
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La sección **[plataformas]** enumera el conjunto completo de plataformas compatibles con este formulario. Cada entrada de plataforma consta del prefijo **plataforma.** _cadena_, donde la _cadena_ es un código de cadena arbitraria para la plataforma Cada cadena corresponde a la entrada de **CPU** de un secciones **[plataformas]** individuales. Cada entrada en una sección **[plataformas]** define una _cadena de la plataforma_ que hace referencia a una posterior **[plataforma.** _cadena de plataforma_ sección de **]** tal como se muestra aquí. 
   

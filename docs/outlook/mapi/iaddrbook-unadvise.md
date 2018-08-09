@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bf72e6f182f67861f909e21f0ec1871d76617974
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817153"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cancela un registro de notificación establecido anteriormente para una entrada de la libreta de direcciones.
   
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
@@ -45,11 +45,11 @@ S_OK
   
 > El registro se canceló correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los clientes de llaman al método **Unadvise** para dejar de recibir notificaciones sobre los cambios realizados en una entrada de la libreta de direcciones determinada. Cuando se cancela un registro de la notificación, las versiones de proveedor de la libreta de direcciones su puntero al autor de la llamada del aviso receptor. Sin embargo, la versión puede producirse durante la llamada **Unadvise** o en algún momento posterior, si es otro subproceso en el proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Cuando una notificación está en progreso, la versión se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -57,5 +57,5 @@ Los clientes de llaman al método **Unadvise** para dejar de recibir notificacio
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

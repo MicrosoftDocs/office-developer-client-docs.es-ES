@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8eb19f9a2d3458e153b0758b56c502ce612be0cc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817421"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Elimina una o más propiedades de un objeto. 
   
@@ -54,7 +54,7 @@ MAPI_E_NO_ACCESS
   
 > El autor de la llamada no tiene permisos suficientes para eliminar propiedades.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::DeleteProps** quita una o varias propiedades del objeto actual. 
   
@@ -80,7 +80,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa el método **IMAPIProp::DeleteProps** para eliminar una propiedad de un objeto.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -94,9 +94,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [SPropProblemArray](spropproblemarray.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

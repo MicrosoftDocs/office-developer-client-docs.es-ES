@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dffc8093200d5fb65e44236bda0eaca63a580cac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,31 +23,31 @@ ms.locfileid: "19816530"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes que se asignará para una nueva estructura de [elemento SPropTagArray](sproptagarray.md) que contiene un número especificado de etiquetas de propiedad. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**Elemento SPropTagArray** <br/> |
+|Estructura relacionado:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __ctag_
   
 > Recuento de etiquetas de propiedad que se deben incluir en la nueva estructura de **elemento SPropTagArray** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

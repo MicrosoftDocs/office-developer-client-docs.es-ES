@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7d81533b13f4f44a0644215e009dc3477717e9a2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817346"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve información de un objeto de sitio de mensaje acerca del mensaje de las capacidades del sitio para el mensaje actual.
   
@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulStatus_
   
@@ -91,7 +91,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSiteStatus  <br/> |MFCMAPI usa el método **IMAPIMessageSite::GetSiteStatus** para obtener el estado del sitio especificado. Puede devolver VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE o VCSTATUS_SUBMIT.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -99,12 +99,12 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
-[Propiedad canónico PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)
+[Propiedad canónica PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
 

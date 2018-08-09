@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2af9d529cb92e1040427eba69270908dcf4a5d9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816688"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se describen las propiedades de un identificador de entrada de Active directory.
   
@@ -40,7 +40,7 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -68,11 +68,11 @@ typedef struct _dir_entryid
   
 > Un GUID que identifica el objeto de inicio de sesión.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las estructuras de **DIR_ENTRYID** y [CONTAB_ENTRYID](contab_entryid.md) son idénticas, excepto por el miembro **ulType** . El contenido del miembro **ulType** determina qué estructura es apropiada para los campos restantes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

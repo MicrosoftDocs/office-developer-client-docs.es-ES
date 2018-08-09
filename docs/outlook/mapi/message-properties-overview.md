@@ -1,5 +1,5 @@
 ---
-title: Introducción a las propiedades de mensaje
+title: Información general de propiedades de mensaje
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 78e2f63746a866603bc2392fbe5c8bb25d3f38c5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818395"
 ---
-# <a name="message-properties-overview"></a>Introducción a las propiedades de mensaje
+# <a name="message-properties-overview"></a>Información general de propiedades de mensaje
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI divide en tres tipos de propiedades del mensaje:
   
@@ -49,7 +49,7 @@ Muchas propiedades del mensaje son opcionales, lo que significa que los clientes
   
 Mayoría de las propiedades de mensaje que establecen los proveedores de servicios es de solo lectura a los clientes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

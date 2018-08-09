@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a84698ccc132c750cbd071c05160117c40e352a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817341"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una clase de mensaje se resuelve en su formulario dentro de un contenedor de formulario y devuelve un objeto de información de formulario para ese formulario.
   
@@ -36,7 +36,7 @@ HRESULT ResolveMessageClass(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _szMsgClass_
   
@@ -68,7 +68,7 @@ MAPI_E_NOT_FOUND
   
 > La clase de mensaje que se pasa en el parámetro _szMsgClass_ no coincide con la clase de mensaje para cualquier formulario en la biblioteca de formularios. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llaman al método **IMAPIFormMgr::ResolveMessageClass** para resolver una clase de mensaje para su formulario dentro de un contenedor de formulario. El objeto de información de formulario devuelto en el parámetro _ppResult_ aún más proporciona acceso a las propiedades del formulario que tiene la clase de mensaje determinado. 
   
@@ -82,15 +82,15 @@ Los nombres de clase de mensaje siempre son cadenas ANSI, Unicode nunca.
   
 Se devuelve el identificador de clase para la clase de mensaje resuelto como parte del objeto de información de formulario. Un visor de formulario no debe trabajar en la suposición de que existe el identificador de clase en la biblioteca OLE hasta después de que el Visor de formulario ha llamado al método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) o el método [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

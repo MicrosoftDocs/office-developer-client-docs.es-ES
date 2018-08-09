@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f2fedd98fe84d7359aebaca8d03a20f392dae2b0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817111"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre una entrada del destinatario que tiene datos que residen en un proveedor de libreta de direcciones de host.
   
@@ -39,7 +39,7 @@ HRESULT OpenTemplateID(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbTemplateID_
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > No se reconoce el identificador de plantilla que se pasa en el parámetro _lpTemplateID_ por el proveedor de la libreta de direcciones. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IABLogon::OpenTemplateID** se implementa sólo por los proveedores de la libreta de direcciones que necesitan para mantener el control sobre las copias de sus entradas que se encuentran en los contenedores de los proveedores de host. Proveedores que implementan **OpenTemplateID** se conocen como los proveedores de la libreta de direcciones externa. Proveedores de host llame a [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para crear una entrada copiada o abrir la entrada copiada y MAPI se pasa en la llamada a **IABLogon::OpenTemplateID**. **IABLogon::OpenTemplateID** abre la entrada y enlaza el código que controla a los datos en el proveedor de host. 
   
@@ -125,7 +125,7 @@ Si no reconoce el identificador de entrada que se pasan en _lpTemplateID_, devol
   
 Para obtener más información acerca de cómo trabajar con identificadores de plantilla de la libreta de direcciones, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -133,7 +133,7 @@ Para obtener más información acerca de cómo trabajar con identificadores de p
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
   
-[Propiedad canónico PidTagTemplateid](pidtagtemplateid-canonical-property.md)
+[Propiedad canónica PidTagTemplateid](pidtagtemplateid-canonical-property.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

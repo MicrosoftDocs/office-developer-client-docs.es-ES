@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e1f12760607c86a9e076df7565696a58fdead32c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817961"
 ---
-# <a name="ipstx6--ipstx5"></a>IPSTX6: IPSTX5
+# <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a través de la interfaz IOSTX.
   
@@ -42,11 +42,11 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 | *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

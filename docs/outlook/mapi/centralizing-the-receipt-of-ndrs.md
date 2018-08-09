@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0af587bd07de9445f143be316798059eaef402e0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816536"
 ---
 # <a name="centralizing-the-receipt-of-ndrs"></a>Centralizar la recepción de NDR
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 **Para que los informes de no entrega (NDR) entran en una ubicación central cuando se ejecutan simultáneamente varias instancias del cliente**
   

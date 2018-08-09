@@ -17,7 +17,7 @@ ms.locfileid: "19816350"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para cada perfil, Microsoft Office Outlook es compatible con varias listas de direcciones y los usuarios pueden especificar manualmente el orden de las listas de direcciones por qué los destinatarios de correo electrónico se resuelven los mensajes y los asistentes de las convocatorias de reunión. Por ejemplo, puede establecer el orden de resoluci�n para que los nombres se resuelven primero en su libreta de direcciones de Outlook y a continuaci�n, en la lista Global de direcciones. En un equipo, un usuario puede abrir la libreta de direcciones, haga clic en **Herramientas** y, a continuaci�n, en **Opciones** para especificar el orden de resoluci�n. Sin embargo, en un entorno corporativo, es m�s eficaz para los administradores de TI establecer mediante programaci�n el orden de las listas de direcciones mediante el cual se resuelven nombres. Este c�digo puede utilizarse como parte de una secuencia de comandos de automatizaci�n de inicio que un administrador implementa dentro de la corporaci�n. 
   

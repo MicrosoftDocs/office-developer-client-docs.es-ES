@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 776f797d0c96d9173e114fd499d6cca0494a0a43
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818288"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La sección **[Help File Mappings]** contiene entradas que cada uno de ellos se asignan un servicio de mensajes al archivo que se proporciona ayuda para los errores generados por el servicio. Las entradas de esta sección use el siguiente formato: 
   

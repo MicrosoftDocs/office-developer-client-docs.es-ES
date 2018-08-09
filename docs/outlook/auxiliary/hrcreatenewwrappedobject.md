@@ -39,7 +39,7 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pvUnwrapped_
   
@@ -89,7 +89,7 @@ Pasar un objeto ajustado con _fCheckWrap_ establecido en **true** , se producir�
   
 Cuando se usa **GetProcAddress** para buscar la dirección de esta función en msmapi32.dll, especifique **HrCreateNewWrappedObject@28** como el nombre del procedimiento. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la capa de degradación de datos API](about-the-data-degradation-layer-api.md)
 - [Constantes (capa de degradación de datos API)](constants-data-degradation-layer-api.md)

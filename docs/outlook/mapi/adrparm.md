@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816421"
 ---
 # <a name="adrparm"></a>ADRPARM
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe la presentación y el comportamiento del cuadro de diálogo dirección comunes. 
   
@@ -54,7 +54,7 @@ typedef struct _ADRPARM
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **cbABContEntryID**
   
@@ -170,8 +170,8 @@ DIALOG_SDI
 |**ulFlags** <br/> |Modal y no modal  <br/> |
 |**lpReserved** <br/> |Modal y no modal  <br/> |
 |**ulHelpContext** y **lpszHelpFileName** <br/> |Modal y no modal  <br/> |
-|**lpfnABSDI** <br/> |Modo  <br/> |
-|**lpfnDismiss** y **lpvDismissContext** <br/> |Modo  <br/> |
+|**lpfnABSDI** <br/> |Modeless  <br/> |
+|**lpfnDismiss** y **lpvDismissContext** <br/> |Modeless  <br/> |
 |**lpszCaption** <br/> |Modal y no modal  <br/> |
 |**lpszNewEntryTitle** <br/> |Modal  <br/> |
 |**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**y **lpulDestComps** <br/> |Modal  <br/> |

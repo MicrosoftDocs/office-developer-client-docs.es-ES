@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4a60e2fe3a58e1d696ae9645e03ce8dde5340d9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818040"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Largo términos identificador genérico de un objeto en un almacén de Outlook.
   
@@ -34,7 +34,7 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _guid_
   
@@ -48,13 +48,13 @@ struct LTID
   
 - [out] El nivel de la jerarquía del identificador de entrada para una carpeta pública Favoritos de Exchange.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [FEID](feid.md)
 

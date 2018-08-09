@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagDisplayNamePrefix
+title: Propiedad canónica PidTagDisplayNamePrefix
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 014ce1aa-30b9-4106-82a1-447c370853cf
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6dc487f0076c795b986976bcbd9ebe146f24b224
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819452"
 ---
-# <a name="pidtagdisplaynameprefix-canonical-property"></a>Propiedad canónico PidTagDisplayNamePrefix
+# <a name="pidtagdisplaynameprefix-canonical-property"></a>Propiedad canónica PidTagDisplayNamePrefix
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el prefijo del nombre para mostrar (por ejemplo, se pierda, SR., Sra.) para el usuario de mensajería. 
   
@@ -34,7 +34,7 @@ Contiene el prefijo del nombre para mostrar (por ejemplo, se pierda, SR., Sra.) 
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuario de correo MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades proporcionan identificación y obtener acceso a información acerca de un usuario de mensajería. El contenido es definido por el usuario de mensajería y organización de mensajería del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

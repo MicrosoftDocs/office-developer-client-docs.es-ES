@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRecipientNumber
+title: Propiedad canónica PidTagRecipientNumber
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d097ed0f-cd41-4f11-9195-56e936308087
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 01b7e3ffa7ac03a825db2e775fd271c4e85b3bc1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820035"
 ---
-# <a name="pidtagrecipientnumber-canonical-property"></a>Propiedad canónico PidTagRecipientNumber
+# <a name="pidtagrecipientnumber-canonical-property"></a>Propiedad canónica PidTagRecipientNumber
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Representa el número del destinatario de un destinatario en el mensaje.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

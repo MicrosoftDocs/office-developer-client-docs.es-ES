@@ -1,5 +1,5 @@
 ---
-title: Acerca de la API de estado sin conexión
+title: Información sobre la API de estado sin conexión
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816377"
 ---
-# <a name="about-the-offline-state-api"></a>Acerca de la API de estado sin conexión
+# <a name="about-the-offline-state-api"></a>Información sobre la API de estado sin conexión
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La API de estado sin conexión admite las devoluciones de llamada que indica los cambios en el estado de conexión de un usuario en Microsoft Outlook 2013 y Microsoft Outlook 2010: por ejemplo, desde la que se está en línea en Outlook 2013 o Outlook 2010 para que se está sin conexión. La API usa un objeto global sin conexión en Outlook 2013 o Outlook 2010 para realizar un seguimiento de dichos cambios para un perfil de cuenta de usuario determinado. Notificación es la única forma compatible de devolución de llamada. Como los clientes de esta API, los proveedores de correo que desean recibir una notificación de estos cambios de estado de conexión, haga lo siguiente:
   

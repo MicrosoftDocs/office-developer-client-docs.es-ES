@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7a82ce9a46017993adfc6c4c755b6c97b847e579
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19817879"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se notifica el formulario que guarda una operación se ha completado. 
   
@@ -31,7 +31,7 @@ HRESULT SaveCompleted(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pMessage_
   
@@ -57,7 +57,7 @@ E_UNEXPECTED
     
    - [NoScribble](noscribble-state.md)
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se llama al método de **IPersistMessage::SaveCompleted** por un visor de formulario para notificar el formulario que se han guardado todos los cambios pendientes. **SaveCompleted** debe llamarse sólo cuando el formulario está en uno de los siguientes estados: 
   
@@ -85,11 +85,11 @@ En la siguiente tabla se describe las condiciones que afectan a las acciones que
    
 Para obtener más información acerca de cómo guardar objetos de almacenamiento, vea la documentación de los métodos [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx) o [:: SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
 [Estados de formulario](form-states.md)

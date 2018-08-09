@@ -10,7 +10,7 @@ keywords:
 - xlgetbinaryname (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d2332967e798b43a350c0733cd7398e2a921add6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815732"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Se usa para devolver un identificador de datos guardados por la [función xlDefineBinaryName](xldefinebinaryname.md). Datos con un nombre definido binario se guardan con el libro y pueden tener acceso por su nombre en cualquier momento. Para obtener más información, vea "Binario" nombre de la limitación del ámbito de [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
@@ -28,7 +28,7 @@ Se usa para devolver un identificador de datos guardados por la [función xlDefi
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pxRes_ (**xltypeBigData** o **xltypeErr**)
   
@@ -38,11 +38,11 @@ _pxName_ (**xltypeStr**)
   
 Una cadena que especifica el nombre de los datos.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Microsoft Excel posee el identificador de memoria devuelto en **hdata**. En Windows, el identificador es un identificador de memoria global (asignado por la función **GlobalAlloc** ). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [xlDefineBinaryName](xldefinebinaryname.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

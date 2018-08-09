@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9e53c39b713aa782eb387b85667f5ded6193006f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820436"
 ---
 # <a name="proptag"></a>PROP_TAG
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una etiqueta de propiedad creada mediante la combinación de un tipo de propiedad especificado y un identificador. 
   
@@ -34,7 +34,7 @@ Devuelve una etiqueta de propiedad creada mediante la combinación de un tipo de
 PROP_TAG (ulPropType, ulPropID)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ulPropType_
   
@@ -44,7 +44,7 @@ _ulPropID_
   
 > Identificador de la propiedad para la nueva etiqueta de propiedad.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El **propiedades\_etiqueta** macro crea una etiqueta de propiedad para una propiedad de tipo _ulPropType_ y el identificador que se especifica en _ulPropID_. Por ejemplo, se puede crear una etiqueta de propiedad para un identificador de entrada mediante la macro **PROP_TAG** como sigue: 
   
@@ -57,8 +57,8 @@ Los 16 bits de orden inferior de la etiqueta de propiedad devuelto contienen el 
   
 Para obtener más información acerca de las etiquetas de propiedad, vea [Etiquetas de propiedad MAPI](mapi-property-tags.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SPropValue](spropvalue.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

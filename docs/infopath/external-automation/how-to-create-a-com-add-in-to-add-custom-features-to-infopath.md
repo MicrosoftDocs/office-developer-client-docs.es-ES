@@ -198,7 +198,7 @@ private void InfoPathApplicationEvents_XDocumentBeforeSave(
 
 Cualquiera de los eventos del objeto **ApplicationEvents** puede ser controlado por el COM Add-in utilizando el mismo método. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Creación de una Microsoft Office 2000 COM Add-in](http://go.microsoft.com/fwlink/?LinkID=73468) 
 - [Creación de Office Managed COM Add-Ins con Visual Studio .NET](http://go.microsoft.com/fwlink/?LinkID=73470)

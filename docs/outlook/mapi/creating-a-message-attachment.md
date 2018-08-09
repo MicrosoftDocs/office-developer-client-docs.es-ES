@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816620"
 ---
 # <a name="creating-a-message-attachment"></a>Creación de datos adjuntos del mensaje
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Datos adjuntos del mensaje son algunos datos adicionales, como un archivo, otro mensaje o un objeto OLE, que se puede enviar o guardar junto con un mensaje. Cada dato adjunto tiene una colección de propiedades que lo identifica y describe su tipo y cómo se presenta. Al igual que los destinatarios, datos adjuntos de mensajes sólo pueden tener acceso a través del mensaje al que pertenecen. Por lo tanto, para que los datos adjuntos que se pueda usar, su mensaje debe estar abierto.
   
@@ -88,7 +88,7 @@ Datos adjuntos del mensaje son algunos datos adicionales, como un archivo, otro 
 > [!NOTE]
 > Si su plataforma admite nombres largos de archivo, establezca **PR_ATTACH_PATHNAME** y **PR_ATTACH_LONG_PATHNAME**. Puede que sea necesario realizar un sistema operativo llamada para recuperar el nombre de archivo corto. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Datos adjuntos de MAPI](mapi-attachments.md)
 

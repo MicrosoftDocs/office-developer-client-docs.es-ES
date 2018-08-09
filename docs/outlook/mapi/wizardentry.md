@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2c307d18c5b62e5190aa10632a47a3f16b80e81f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820980"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función de punto de entrada de proveedor de servicio que el Asistente para perfiles llama para recuperar suficiente información como para mostrar las hojas de propiedades de configuración del proveedor. 
   
@@ -43,7 +43,7 @@ ULONG WIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hProviderDLLInstance_
   
@@ -75,7 +75,7 @@ MAPI_E_CALL_FAILED
   
 > Un error de origen desconocido o inesperado no puede completar la operación.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El Asistente para perfiles llama a la función **WIZARDENTRY** en función cuando está listo para mostrar la interfaz de usuario de configuración del proveedor de servicios. Cuando el Asistente para perfiles haya terminado de configurar todos los proveedores, escribe las propiedades de configuración para el perfil mediante una llamada a [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   

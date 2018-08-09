@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8b6d4fa1d9ffa6ab5f800bad9f02ac5aa9abd8c0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817073"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Agrega las carpetas estándar de mensajes interpersonales (IPM) a un almacén de mensajes. 
   
@@ -43,7 +43,7 @@ HrValidateIPMSubtree(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMDB_
   
@@ -95,7 +95,7 @@ MAPI_FULL_IPM_TREE
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 MAPI utiliza la función **HrValidateIPMSubtree** internamente para construir el subárbol IPM estándar en un almacén de mensajes cuando se abre el almacén por primera vez o cuando un almacén se realiza almacenar el valor predeterminado. Esta función también puede utilizarse por las aplicaciones cliente para validar o reparar carpetas de mensajes estándar. 
   
@@ -129,7 +129,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI utiliza el método **HrValidateIPMSubtree** para agregar carpetas estándar a un almacén de mensajes.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -19,7 +19,7 @@ ms.locfileid: "19815512"
 La acción **SetReturnVar** crea una variable de retorno y establece en un valor específico. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
 > La acción **SetReturnVar** sólo está disponible en Macros de datos. 
@@ -31,9 +31,9 @@ La acción **SetReturnVar** tiene los siguientes argumentos.
 |**Nombre del argumento**|**Necesario**|**Descripción**|
 |:-----|:-----|:-----|
 | _Name_ <br/> |Sí  <br/> |Una cadena que especifica el nombre de la variable.  <br/> |
-| _Expression_ <br/> |Sí  <br/> |Una expresión que se usará para establecer el valor de esta variable temporal. Delante de la expresión con el signo igual (=). Puede hacer clic en el botón **Generar** para usar el **Generador de expresiones** para definir este argumento.  <br/> |
+| _Expresión_ <br/> |Sí  <br/> |Una expresión que se usará para establecer el valor de esta variable temporal. Delante de la expresión con el signo igual (=). Puede hacer clic en el botón **Generar** para usar el **Generador de expresiones** para definir este argumento.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La acción **SetReturnVar** se usa para crear un **ReturnVar**, que es la variable que se puede utilizar las macros que llaman a una macro de datos mediante el uso de la acción **EjecutarMacroDeDatos** . 
   

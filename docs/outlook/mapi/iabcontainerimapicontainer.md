@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0eb6d62b64595474957415e94275d0ac52cc2b6b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817085"
 ---
-# <a name="iabcontainer--imapicontainer"></a>IABContainer: IMAPIContainer
+# <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las aplicaciones cliente llame a los métodos de **IABContainer** para realizar la resolución de nombres y para crear, copiar y eliminación a los destinatarios. 
   
@@ -44,7 +44,7 @@ Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las a
 |[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Quita una o más entradas, normalmente otros contenedores, listas de distribución o a los usuarios de mensajería.  <br/> |
 |[ResolveNames](iabcontainer-resolvenames.md) <br/> |Realiza la resolución de nombres para una o más entradas de destinatarios.  <br/> |
    
-|**Propiedades necesarias**|**Access**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
@@ -60,7 +60,7 @@ Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las a
 |**PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La interfaz de **IABContainer** indirectamente hereda de la interfaz [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) a través de la [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) y [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Los proveedores de la libreta de direcciones implementan la interfaz de **IABContainer** . 
   
@@ -68,7 +68,7 @@ Puede existir cualquier número de objetos de mensajería de usuario, listas de 
   
 MAPI define un contenedor de libreta de direcciones especial denominado la libreta de direcciones personales (PAB) que contiene las entradas que se copió desde otros contenedores. Una PAB siempre es modificable. Normalmente, los usuarios rellenan su PAB con las entradas de la designación de los destinatarios con el que se comunican con más frecuencia. Una PAB también puede contener direcciones de uso único y nuevos destinatarios todavía no está una parte de cualquier contenedor de la libreta de direcciones.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Interfaces MAPI](mapi-interfaces.md)
 

@@ -10,7 +10,7 @@ keywords:
 - función xlAutoFree [excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a2d2b8e60b484ba8156acc80d543493e3ec9c564
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815721"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel llama justo después de que una función de hoja de cálculo XLL devuelve un **XLOPER**/ **XLOPER12** a ella con un conjunto de marca que indica que hay que sigue necesitando el XLL para liberar memoria. Esto permite que el XLL devolver dinámicamente asignado matrices, cadenas y las referencias externas a la hoja de cálculo sin pérdidas de memoria. Para obtener m�s informaci�n, consulte [Administraci�n de memoria en Excel](memory-management-in-excel.md).
   
@@ -35,7 +35,7 @@ void WINAPI xlAutoFree(LPXLOPER pxFree);
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pxFree_ (**LPXLOPER en el caso de xlAutoFree**)
   
@@ -43,11 +43,11 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
   
 Un puntero a la **XLOPER** o **XLOPER12** que tiene memoria que necesita ser liberados. 
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Esta función no devuelve un valor y se debe declarar como devolver void.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando Excel está configurado para usar el nuevo cálculo multiproceso libro, **xlAutoFree**/ **xlAutoFree12** se llama en el mismo subproceso utilizado para llamar a la función que se devuelve. La llamada a **xlAutoFree**/ **xlAutoFree12** siempre se realiza antes de que todas las celdas de la hoja de cálculo subsiguientes se evalúan en ese subproceso. Esto simplifica el diseño de subprocesos en su XLL. 
   
@@ -175,9 +175,9 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Administrador de complementos y funciones de la interfaz XLL](add-in-manager-and-xll-interface-functions.md)
+[Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)
 

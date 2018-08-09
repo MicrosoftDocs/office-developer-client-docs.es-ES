@@ -24,7 +24,7 @@ La opción de **Compatibilidad con programación de .NET** en el programa de ins
 > [!NOTE]
 > Las referencias a los ensamblados de interoperabilidad Microsoft.Office.Interop.InfoPath.dll y Microsoft.Office.Interop.InfoPath.Xml.dll son necesarios para los proyectos de automatización externa de InfoPath se deben establecer manualmente. Para obtener más información sobre la automatización externa, vea [escenarios de automatización externo y ejemplos](external-automation-scenarios-and-examples.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Trabajar con MSXML y System.Xml con el modelo de objetos de InfoPath 2003](http://msdn.microsoft.com/library/f7a0cac5-26f9-49ed-b52c-0240ef0c9d38%28Office.15%29.aspx)
 

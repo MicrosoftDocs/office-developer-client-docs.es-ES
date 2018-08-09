@@ -1,5 +1,5 @@
 ---
-title: Acerca de las convocatorias de reunión como actualizaciones de informativas y completa
+title: Información sobre las convocatorias de reunión como actualizaciones informativas y completas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816053"
 ---
-# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Acerca de las convocatorias de reunión como actualizaciones de informativas y completa
+# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Información sobre las convocatorias de reunión como actualizaciones informativas y completas
 
 Una convocatoria de reunión es un correo electrónico que tiene **IPM. Schedule.Meeting.Request** como la clase de mensaje. De forma predeterminada, un asistente recibir una convocatoria de reunión responde a ella directamente. Outlook es compatible con la configuración de delegados que puede responder a las convocatorias de reunión en nombre del destinatario de la entidad de seguridad. Mediante programación, Outlook establece la propiedad con nombre [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de una convocatoria de reunión para identificar el estado actual de la actualización. 
   

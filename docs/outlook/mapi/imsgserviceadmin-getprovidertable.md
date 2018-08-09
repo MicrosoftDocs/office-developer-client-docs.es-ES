@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4272edef5b1b72944d1d27f0e4dd99ee4956aa57
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817729"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona acceso a la tabla de proveedor, una lista de los proveedores de servicios en el perfil.
   
@@ -50,7 +50,7 @@ S_OK
   
 > En la tabla de proveedor se devolvió correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMsgServiceAdmin::GetProviderTable** proporciona acceso a la tabla de proveedor MAPI, una tabla que enumera todos los la libreta de direcciones, almacén de mensajes y proveedores de transporte instalados actualmente en el perfil. 
   
@@ -84,7 +84,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ hace lo siguient
     
 - Controles de los tipos de propiedad de devuelto por el método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) antes de que el cliente que contiene la tabla de proveedor llama al método [SortTable](imapitable-sorttable.md) el criterio de ordenación. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -94,5 +94,5 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ hace lo siguient
   
 [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

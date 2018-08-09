@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fb543f4188578483333614cb5768f903c9f243d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817655"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera el estado actual del Visor. 
   
@@ -33,7 +33,7 @@ ULONG FAR * lpulStatus
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulStatus_
   
@@ -77,7 +77,7 @@ S_OK
   
 > Estado del Visor se devolvió correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Objetos de formulario, llame al método **IMAPIViewContext::GetViewStatus** para determinar si hay más mensajes que se activará en una vista de formulario en cualquiera o ambas direcciones es decir, en la dirección en la que se activa un comando **a continuación** los mensajes, en el dirección en la que un comando **anterior** activa de los mensajes, o en ambas direcciones. El valor al que señala el parámetro _lpulStatus_ se usa para determinar si los indicadores VCSTATUS_NEXT y VCSTATUS_PREV son válidos para [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md). Si el indicador VCSTATUS_DELETE es set, pero no la marca VCSTATUS_READONLY, a continuación, el mensaje se puede eliminar mediante el método [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) . 
   
@@ -93,13 +93,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implementa el método **IMAPIViewContext::GetViewStatus** en esta función.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md)
   
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19816833"
 ---
 # <a name="folderuserfields-stream-sample"></a>Ejemplo de secuencia de FolderUserFields
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se describe un ejemplo de una secuencia de FolderUserFields. La secuencia contiene una definición de un campo definido por el usuario, `TextField1`. El tipo es **texto**, y la secuencia de FolderUserFields contiene los elementos FolderUserFieldsAnsi y FolderUserFieldsUnicode. Para obtener más información, vea [Estructuras de secuencia de los campos de carpeta](folder-fields-stream-structures.md).
   
@@ -159,13 +159,13 @@ El siguiente es un análisis de los datos de ejemplo de la secuencia de **Folder
         
       - wszFormula: desplazamiento 0xD6, matriz de número de WCHAR 0. Valor de cadena vacía.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Campos y elementos de outlook](outlook-items-and-fields.md)
-- [Estructura de la secuencia de PropertyDefinition](propertydefinition-stream-structure.md)
-- [Estructura de secuencia FieldDefinition](fielddefinition-stream-structure.md)
-- [Estructura de la secuencia de SkipBlock](skipblock-stream-structure.md)
-- [Estructura de la secuencia de FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
-- [Estructura de la secuencia de PackedAnsiString](packedansistring-stream-structure.md)
-- [Estructura de la secuencia de PackedUnicodeString](packedunicodestring-stream-structure.md)
+- [Campos y elementos de Outlook](outlook-items-and-fields.md)
+- [Muestra de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
+- [Muestra de la secuencia FieldDefinition](fielddefinition-stream-structure.md)
+- [Estructura de la secuencia SkipBlock](skipblock-stream-structure.md)
+- [Estructura de la secuencia FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+- [Estructura de la secuencia PackedAnsiString](packedansistring-stream-structure.md)
+- [Estructura de la secuencia PackedUnicodeString](packedunicodestring-stream-structure.md)
 

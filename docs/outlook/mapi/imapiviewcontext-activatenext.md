@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 150a0c6eb7efa83f5ff1d12d915351bf5ca9d45a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19817642"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Activa el mensaje siguiente o anterior en el orden de la vista. 
   
@@ -32,7 +32,7 @@ LPCRECT prcPosRect
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ulDir_
   
@@ -70,7 +70,7 @@ S_FALSE
   
 > El mensaje se ha activado correctamente, pero se abrió un tipo diferente del formulario en el proceso.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Objetos de formulario llamar al método **IMAPIViewContext::ActivateNext** para cambiar qué mensaje se muestra al usuario. El valor que se pasa en el parámetro _ulDir_ indica qué mensaje debe estar activado y, en algunos casos, por qué. Los indicadores VCDIR_NEXT y VCDIR_PREVIOUS corresponden a los usuarios elegir el comando **siguiente** o **anterior** en una vista, respectivamente. Estas operaciones normalmente corresponden a moverse hacia arriba o hacia abajo de un mensaje en la lista del Visor de formulario de mensajes. 
   
@@ -92,9 +92,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa el método **IMAPIViewContext::ActivateNext** en esta función.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
-- [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+- [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 - [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 27db5f54f6a6feba77308a4a63fe4c16448550cb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817740"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Obtiene información sobre lo que puede admitir un almacén se basa en el selector especificado.
   
@@ -33,7 +33,7 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  *mscapSelector* 
   

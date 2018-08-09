@@ -10,7 +10,7 @@ keywords:
 - xlfevaluate (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e468dc18b8f78f56acaa67c2f23dd53254088ad0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815724"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utiliza el analizador de Microsoft Excel y el evaluador de función para evaluar cualquier expresión que se puede insertar en una celda de hoja de cálculo.
   
@@ -28,17 +28,17 @@ Utiliza el analizador de Microsoft Excel y el evaluador de función para evaluar
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pxFormulaText (xltypeStr)_
   
 La cadena que se va a evaluar. Un signo de igual (=) a la izquierda es opcional. La cadena puede ser cualquier texto que se puede escribir en una celda de hoja de hoja de cálculo o macro legalmente.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve el resultado de la evaluación de la cadena que puede ser cualquiera de los tipos **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cadena puede contener únicamente las funciones, no comandos equivalentes. Es equivalente a presionar la tecla **F9** desde la barra de fórmulas. Si se llama a **xlfEvaluate** desde una función de hoja de cálculo XLL que se ha registrado como seguros para subprocesos, la expresión sólo debe contener las funciones de subprocesos. 
   
@@ -68,7 +68,7 @@ short WINAPI EvaluateExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Funciones de API XLM esenciales y útil C](essential-and-useful-c-api-xlm-functions.md)
+- [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)
 

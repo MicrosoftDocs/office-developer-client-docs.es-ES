@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fb37c15e6544798a956e865e6c8c6d62bee44d28
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818096"
 ---
 # <a name="mapi-client-objects"></a>Objetos de cliente MAPI
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Aplicaciones de cliente de mensajería estándar implementan un solo objeto, un receptor de notificaciones. Aviso receptores de heredan de la [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) de la interfaz y se usan por MAPI y los proveedores de notificación de eventos de servicios. Algunos clientes también implementan objetos de progreso para admitir la presentación de cuadros de diálogo de progreso. 
   
@@ -41,10 +41,10 @@ Los clientes usan muchos más objetos que implementan. Todos los clientes de usa
   
 Los clientes que admiten el proveedor de servicios y la configuración del servicio de mensaje usan tres objetos que implementa MAPI: el objeto de administración del servicio de message, el objeto de perfil de administración y el objeto de proveedor de administración. Los clientes que mostrar formularios personalizados usan varios objetos de formulario que implementa un proveedor de la biblioteca de formulario o un servidor de formulario.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) 
-- [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)  
-- [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+- [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
+- [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  
+- [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 - [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
 

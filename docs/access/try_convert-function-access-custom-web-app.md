@@ -19,9 +19,9 @@ ms.locfileid: "19815526"
 Convierte un valor en un tipo de datos especificado o devuelve Null si la conversión no es válida.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Try_Convert** (*Tipo de datos*, *expresión*) 
   
@@ -30,9 +30,9 @@ La función **Try_Convert** contiene los siguientes argumentos.
 |**Nombre del argumento**|**Descripción**|
 |:-----|:-----|
 | *DataType*  <br/> |El tipo de datos en el que se va a convertir *expresión* .  <br/> |
-| *Expression*  <br/> |El valor que se va a convertir.  <br/> |
+| *Expresión*  <br/> |El valor que se va a convertir.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **Try_Convert** toma el valor que se pasa a ella e intenta convertir en el *tipo de datos* de especificado. Si la conversión se realiza correctamente, **Try_Convert** devuelve el valor como el *tipo de datos* de especificado; Si se produce un error, se devuelve null. Sin embargo si solicita una conversión explícitamente no está permitido, a continuación, **Try_Convert** se produce un error con un error. 
   

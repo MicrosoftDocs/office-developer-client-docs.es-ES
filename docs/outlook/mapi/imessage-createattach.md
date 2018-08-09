@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6351be353100649e38a14543a44df5e115c9408b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817652"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un anexo nuevo.
   
@@ -36,7 +36,7 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
@@ -64,13 +64,13 @@ S_OK
   
 > Los datos adjuntos se ha creado correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMessage::CreateAttach** crea un anexo nuevo en un mensaje. Los nuevos datos adjuntos y todas las propiedades que se establecen para él, no están disponibles hasta que un cliente ha llamado (método) [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de los datos adjuntos y el método **IMAPIProp::SaveChanges** del mensaje. 
   
 El número de datos adjuntos que señala _lpulAttachmentNum_ es único y válido sólo dentro del contexto del mensaje. Es decir, dos archivos adjuntos en dos mensajes diferentes pueden tener el mismo número mientras no dos archivos adjuntos en el mismo mensaje. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

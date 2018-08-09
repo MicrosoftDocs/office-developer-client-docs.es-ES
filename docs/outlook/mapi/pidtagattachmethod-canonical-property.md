@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAttachMethod
+title: Propiedad canónica PidTagAttachMethod
 manager: soliver
 ms.date: 9/7/2016
 ms.audience: Developer
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819250"
 ---
-# <a name="pidtagattachmethod-canonical-property"></a>Propiedad canónico PidTagAttachMethod
+# <a name="pidtagattachmethod-canonical-property"></a>Propiedad canónica PidTagAttachMethod
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una constante definidas en MAPI que representa la manera en que se puede tener acceso el contenido de los datos adjuntos. 
   
@@ -34,7 +34,7 @@ Contiene una constante definidas en MAPI que representa la manera en que se pued
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
@@ -86,7 +86,7 @@ Cuando el objeto OLE está en formato de OLE 2.0 **IStorage** , los datos están
   
 Para obtener más información sobre las interfaces OLE y formatos, vea la *referencia del programador de OLE* . 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando el **PR_ATTACH_METHOD** es **ATTACH_BY_WEBREFERENCE**, el contenido de los datos adjuntos no está en el mensaje. En su lugar, la propiedad **PR_ATTACH_LONG_FILENAME** contiene una dirección URL absoluta para el contenido de datos adjuntos, que esté almacenado en línea. 
   
@@ -108,18 +108,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
+[Propiedad canónica PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

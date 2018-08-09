@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7fdf76bc56feb7e46370e7fcf66c55d229933eca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817634"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera información de impresión actual.
   
@@ -54,7 +54,7 @@ S_OK
   
 > La información de impresión se recuperó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Objetos de formulario llamar al método **IMAPIViewContext::GetPrintSetup** para recuperar información acerca de la configuración de la impresora antes de intentar imprimir el mensaje actual. 
   
@@ -68,11 +68,11 @@ Si se prevé la **hDevMode** y **hDevName** miembros de la estructura **FORMPRIN
   
 Libere a los miembros **hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** mediante una llamada a la función de Win32 **GlobalFree**. Libere toda la estructura **FORMPRINTSETUP** mediante una llamada [MAPIFreeBuffer](mapifreebuffer.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [FORMPRINTSETUP](formprintsetup.md)
   
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 

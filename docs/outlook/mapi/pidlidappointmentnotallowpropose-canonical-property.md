@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentNotAllowPropose
+title: Propiedad canónica PidLidAppointmentNotAllowPropose
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 183c8eb5112fc35f088bc5c6ac11748e3449f15a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818479"
 ---
-# <a name="pidlidappointmentnotallowpropose-canonical-property"></a>Propiedad canónico PidLidAppointmentNotAllowPropose
+# <a name="pidlidappointmentnotallowpropose-canonical-property"></a>Propiedad canónica PidLidAppointmentNotAllowPropose
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica si los asistentes no se admiten para proponer una nueva fecha y hora de la reunión.
   
@@ -35,7 +35,7 @@ Indica si los asistentes no se admiten para proponer una nueva fecha y hora de l
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un valor FALSE, o la ausencia de esta propiedad indica que se permiten los asistentes para proponer un nueva fecha y hora.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

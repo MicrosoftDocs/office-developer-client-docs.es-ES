@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3095907498b1ce7ae6b3666e0678dd0c5f76c23e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817034"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Separa la representación ASCII del identificador de entrada compuesta de un objeto, normalmente un mensaje en un almacén de mensajes, en el identificador de entrada de ese objeto en el almacén y el identificador de entrada de la tienda. 
   
@@ -44,7 +44,7 @@ HrDecomposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pSession_
   
@@ -74,7 +74,7 @@ HrDecomposeMsgID(
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el identificador especificado por el parámetro _szMsgID_ es compuesto, es convertido a partir de ASCII y se dividen en el identificador de entrada del objeto dentro de su almacén de mensajes y el identificador de entrada de la tienda. Las cadenas de identificador de entrada los simplemente se convierten y copiadas. La cadena de identificador compuestos a estar separados suele ser uno creado por la función [HrComposeMsgID](hrcomposemsgid.md) . 
   

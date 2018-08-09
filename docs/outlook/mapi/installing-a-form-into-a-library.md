@@ -1,5 +1,5 @@
 ---
-title: Instalación de un formulario en una biblioteca
+title: Instalar un formulario en una biblioteca
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 54b2dece31937b1ff233d4d1e7d8bbc198bfe118
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817836"
 ---
-# <a name="installing-a-form-into-a-library"></a>Instalación de un formulario en una biblioteca
+# <a name="installing-a-form-into-a-library"></a>Instalar un formulario en una biblioteca
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El Administrador de formularios MAPI predeterminada que se proporciona con el SDK de Windows no proporciona una interfaz de usuario para la instalación de formularios en las diversas bibliotecas de formulario. Por este motivo, debe crear una aplicación pequeña: o detallada conjunto de instrucciones, que los usuarios pueden usar para instalar el formulario.
   
@@ -42,9 +42,9 @@ Si implementa una aplicación de instalación, la serie de acciones que debe rea
 > [!NOTE]
 > Puede simplificar la instalación a una biblioteca de formularios local mediante el reemplazo de los pasos 1 y 2 con una llamada a la función [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+[Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

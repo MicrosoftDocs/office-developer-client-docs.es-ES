@@ -1,5 +1,5 @@
 ---
-title: Implementación de una función de punto de entrada de dirección libreta proveedor
+title: Implementar una función de punto de entrada de proveedor de libreta de direcciones
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817678"
 ---
-# <a name="implementing-an-address-book-provider-entry-point-function"></a>Implementación de una función de punto de entrada de dirección libreta proveedor
+# <a name="implementing-an-address-book-provider-entry-point-function"></a>Implementar una función de punto de entrada de proveedor de libreta de direcciones
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando una aplicación las llamadas del cliente [MAPILogonEx](mapilogonex.md) para comenzar una sesión con un perfil que contiene el proveedor de libreta de direcciones, MAPI carga el proveedor y todos los demás que forman parte del perfil. MAPI aprende del nombre de la función de punto de entrada de su proveedor mirando en el perfil. Recuerde que esta función no es el mismo que una función de punto de entrada DLL; vea la documentación de **DllMain** en la documentación de Win32. 
   

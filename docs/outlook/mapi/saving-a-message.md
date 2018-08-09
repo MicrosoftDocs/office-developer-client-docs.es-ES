@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820554"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Antes de que se guarde un mensaje, los clientes normalmente llaman al método [IMAPIProp::SetProps](imapiprop-setprops.md) del mensaje para establecer algunas propiedades además de las propiedades de texto del mensaje, las propiedades de los datos adjuntos, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y las propiedades asociada con la lista de destinatarios.
   

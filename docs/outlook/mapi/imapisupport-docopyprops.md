@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c93e01b1e4621cddc4c98d528e5f5339cba21dae
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817486"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia o mueve una o más propiedades de un objeto a otro objeto.
   
@@ -41,7 +41,7 @@ HRESULT DoCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSrcInterface_
   
@@ -131,7 +131,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > El tipo de propiedad no es el tipo que espera el autor de la llamada.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISupport::DoCopyProps** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes pueden llamar a **DoCopyProps** para implementar el método [IMAPIProp::CopyProps](imapiprop-copyprops.md) para sus carpetas y mensajes. **DoCopyProps** copia o mueve las propiedades que se identifican en la matriz de etiqueta de propiedad que señala _lpIncludeProps_ y que están presentes en el objeto al que señala por _lpSrcObj_. 
   
@@ -153,7 +153,7 @@ Si desea recibir información acerca de los errores, pase un puntero de estructu
   
 Si **DoCopyProps** devuelve S_OK, liberar la estructura **SPropProblemArray** devuelta por una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -165,19 +165,19 @@ Si **DoCopyProps** devuelve S_OK, liberar la estructura **SPropProblemArray** de
   
 [IMAPISupport::GetLastError](imapisupport-getlasterror.md)
   
-[Propiedad canónico PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propiedad canónica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propiedad canónico PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propiedad canónica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propiedad canónico PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propiedad canónica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propiedad canónico PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propiedad canónica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propiedad canónico PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propiedad canónica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

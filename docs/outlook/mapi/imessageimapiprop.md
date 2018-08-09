@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9ed02e19a2934f785b03bb8553a08e16c7bb30e0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817648"
 ---
-# <a name="imessage--imapiprop"></a>IMessage: IMAPIProp
+# <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Administra los mensajes, datos adjuntos y los destinatarios.
   
@@ -108,7 +108,7 @@ Las siguientes propiedades son todas de sólo lectura a los clientes, con la exc
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |Obligatorio  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |Obligatorio  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Solo lectura  <br/> |Opcional  <br/> |
-|**ENTRADA DEL OBJETO** <br/> |Solo lectura  <br/> |Obligatorio  <br/> |
+|**PR_ENTRYID** <br/> |Solo lectura  <br/> |Obligatorio  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |Obligatorio  <br/> |
 |**PR_SEARCH_KEY** <br/> |Solo lectura  <br/> |Opcional  <br/> |
    

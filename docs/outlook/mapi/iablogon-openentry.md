@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 53dfb62bb33a4941e2b5627e729763101e24319d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817096"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre un contenedor, usuario o lista de distribución, de mensajería y devuelve un puntero a una implementación de interfaz para proporcionar más acceso.
   
@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
@@ -76,7 +76,7 @@ MAPI_MODIFY
   
 > [out] Un puntero a un puntero al objeto abierto.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 S_OK 
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > El identificador de entrada en el parámetro _lpEntryID_ no es un formato reconocido por el proveedor de la libreta de direcciones. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI llama al método de **OpenEntry** para abrir un contenedor, usuario o lista de distribución de mensajería. 
   
@@ -108,9 +108,9 @@ Si MAPI pasa NULL para _lpEntryID_, abra el contenedor raíz en la jerarquía de
   
 El objeto que se le pide para abrir podría ser un objeto copiado de otro proveedor. En este caso, admitirá la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si el objeto es compatible con esta propiedad, llame al método [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para enlazar al código para esta entrada en el proveedor extranjero, pasando **PR_TEMPLATEID** en el parámetro _lpTemplateID_ y 0 en la ulTemplateFlags _ _parámetro. **IMAPISupport::OpenTemplateID** pasa esta información al proveedor de externa en una llamada al método [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) del proveedor externo. Si **IMAPISupport::OpenTemplateID** genera un error, suele ser debido a que el proveedor externo no está disponible o no está incluido en el perfil, intente continuar por el tratamiento de la entrada independiente como de solo lectura. Para obtener más información acerca de cómo abrir entradas de la libreta de direcciones externa, vea [actuar como un proveedor de libreta de direcciones de Host](acting-as-a-host-address-book-provider.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidContactCharacterSet
+title: Propiedad canónica PidLidContactCharacterSet
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9706d1060347609708070140aae51d9dcadbb9c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818630"
 ---
-# <a name="pidlidcontactcharacterset-canonical-property"></a>Propiedad canónico PidLidContactCharacterSet
+# <a name="pidlidcontactcharacterset-canonical-property"></a>Propiedad canónica PidLidContactCharacterSet
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el juego de caracteres utilizado para este contacto.
   
@@ -35,7 +35,7 @@ Especifica el juego de caracteres utilizado para este contacto.
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las aplicaciones pueden usar esta propiedad para facilitar la generación de una lista dependiente de juego de caracteres de opciones de **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **dispidFileUnderList** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) y **dispidFileUnderId **Propiedades ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)). Si el valor de la propiedad es "0 x 00000000" o "0 x 00000001", las aplicaciones deben tratar la propiedad como no está establecido.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da466fc9add8cbc385014782f31749d3b6522da9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817043"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una secuencia de lenguaje de marcado Extensible (XML) que representa información recuperada desde el servicio de detección automática de un servidor de Microsoft Exchange 2007.
   
@@ -45,7 +45,7 @@ HRESULT HrGetAutoDiscoverXML(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pwzAddress_
   

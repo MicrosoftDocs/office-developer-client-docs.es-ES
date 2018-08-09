@@ -34,7 +34,7 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
     DWORD dwFlags)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pmbinStoreEid_
   
@@ -63,7 +63,7 @@ _dwFlags_
 |S_OK  <br/> |La llamada tuvo éxito.  <br/> |
 |E_INVALIDARG  <br/> | _dwFlags_ contiene un indicador desconocido.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las categorías se consideran información personal y no deberían ser transmitidas fuera del buzón del usuario. Por lo tanto, no llame a **HrProcessConvActionForSentItem** en un elemento de correo no enviados. En su lugar, enviar el elemento y, a continuación, llamar a **HrProcessConvActionForSentItem** en la copia archivada. La copia archivada puede almacenarse en la carpeta Elementos enviados, o en una ubicación equivalente. 
   

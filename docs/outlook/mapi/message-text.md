@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d1837f1-494f-481b-9e09-ab8249f1488c
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9dba148646678f0740c5b2c338ae345ecd76dfac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818393"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para los mensajes salientes en el modo de MIME, el tipo de contenido depende de si hay datos adjuntos y qué aspecto tiene el texto del mensaje. Si hay datos adjuntos, el tipo de contenido es _multipart/mixed;_ el texto del mensaje y los datos adjuntos se convierten en una parte independiente del contenido del mensaje, cada uno con su propio tipo de contenido. Si no hay ningún datos adjuntos, el tipo de contenido del mensaje es _texto sin formato_ y hay sólo una parte. 
   
@@ -29,7 +29,7 @@ El texto del mensaje no es línea-ajustado a menos que algunas línea supera 140
     
 - Si se encuentran las líneas largas o caracteres de 8 bits, el mensaje es texto y el juego de caracteres está determinado por la configuración regional. Se debe proceder de los conjuntos de caracteres definidos por ISO 8859 estándar. _Content-type: texto sin formato; charset = iso-8859-1_ (o en otro conjunto de caracteres válido) 
     
-     _Content-Transfer-Encoding: Entrecomillado imprimible_
+     _Content-Transfer-Encoding: quoted-printable_
     
 Para los mensajes MIME entrantes, si el primer mensaje de elemento de contenido tiene _tipo de contenido: texto /\* _ (es decir, cualquier tipo de texto) y se reconoce su juego de caracteres, se asigna a **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Un primer elemento de contenido de mensaje no satisface este criterio se convierte en un archivo adjunto. Los elementos siguientes también se convierten en datos adjuntos.
   

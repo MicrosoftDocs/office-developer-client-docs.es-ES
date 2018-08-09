@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9bd389a-6975-41a2-a2f4-e501312e434b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c33fea8a2aba875fcdc06dea3343add4b7ac5dde
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817276"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Mantiene un servidor de formulario abierto en la memoria.
   
@@ -58,9 +58,9 @@ Visores de formulario llamar al método **IMAPIFormFactory::LockServer** para ma
 
 El método **IMAPIFormFactory::LockServer** es muy similar al método [IClassFactory::LockServer](http://msdn.microsoft.com/en-us/library/ms682332%28v=VS.85%29.aspx) . Básicamente, el método **IMAPIFormFactory::LockServer** mantiene un recuento de cuántas veces se ha llamado; siempre y cuando ese count es mayor que 0, el método impide que el servidor de formulario se descarga de la memoria. Puede utilizar la función [CoLockObjectExternal](http://msdn.microsoft.com/en-us/library/ms680592%28VS.85%29.aspx) para implementar esto. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

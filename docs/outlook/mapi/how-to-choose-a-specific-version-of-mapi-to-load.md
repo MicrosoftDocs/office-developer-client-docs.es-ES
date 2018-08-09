@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816967"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Elija una versión específica de MAPI para cargar
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando se vincula explícitamente a una implementación de MAPI, debe seleccionar cuidadosamente qué implementación a cargar. 
   
@@ -103,11 +103,11 @@ Debido a que MFCMAPI carga la implementación predeterminada de MAPI de forma pr
 > - Si MFCMAPI no recibe una ruta de acceso para el uso de MAPI `GetMAPIPath`, que carga la biblioteca de código auxiliar MAPI desde el directorio del sistema.
 > - El valor de registro **MSMapiApps** tratado en [Explícitamente asignación de las llamadas MAPI a los archivos DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx) sólo se aplica cuando se usa la biblioteca de código auxiliar de MAPI. Las aplicaciones que carga una implementación específica de MAPI o de carga de la implementación predeterminada no es necesario establecer la clave del registro **MSMapiApps** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
-- [Vínculo a funciones de MAPI](how-to-link-to-mapi-functions.md)
+- [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
 - [Configuración de Mapi32.dll código auxiliar del registro](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
 - [Configuración de las claves MSI para el archivo DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
 - [Asignación explícitamente las llamadas MAPI a los archivos DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)

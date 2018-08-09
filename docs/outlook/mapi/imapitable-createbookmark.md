@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 34bd6de95f731c03466f19e0bc4fd6e2c9910900
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817576"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un marcador en la posición actual de la tabla.
   
@@ -33,7 +33,7 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpbkPosition_
   
@@ -49,7 +49,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > No se pudo completar la operación solicitada.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPITable::CreateBookmark** marca una posición de tabla mediante la creación de un valor de un marcador. Un marcador se puede utilizar para volver a la posición identificada por el marcador. El marcador de posición está asociada con el objeto en esa fila en la tabla. 
   
@@ -67,7 +67,7 @@ Cuando el autor de la llamada intenta utilizar un marcador que señala a una fil
 
  **CreateBookmark** asigna memoria para el marcador que se creen. Liberar los recursos para el marcador llamando al método [IMAPITable::FreeBookmark](imapitable-freebookmark.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -75,5 +75,5 @@ Cuando el autor de la llamada intenta utilizar un marcador que señala a una fil
   
 [IMAPITable::SeekRow](imapitable-seekrow.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

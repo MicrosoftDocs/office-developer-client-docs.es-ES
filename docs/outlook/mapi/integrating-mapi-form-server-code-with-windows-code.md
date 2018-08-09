@@ -1,5 +1,5 @@
 ---
-title: Integración de código de servidor MAPI formulario con código de Windows
+title: Integración de código de servidor de formulario MAPI con código de Windows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 31f09b1c2f7b23d63e17f59c28b7bcf377b769d6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817822"
 ---
-# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Integración de código de servidor MAPI formulario con código de Windows
+# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Integración de código de servidor de formulario MAPI con código de Windows
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recuerde que el servidor de formulario es una aplicación de Win32. Por lo tanto, hay algunas tareas relacionadas con la carga de su servidor de formulario en la memoria y salir sin problemas. Al igual que todas las aplicaciones de Windows, el punto de entrada para el servidor de formulario es la función **WinMain** . Esta función es el lugar adecuado para realizar las siguientes tareas: 
   
@@ -45,9 +45,9 @@ Cuando sale de su servidor de formulario, debe realizar las siguientes tareas:
     
 - Eliminar el atom global que contiene la representación de cadena del identificador de clase.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Escritura de código de servidor de formulario](writing-form-server-code.md)
+[Escribir código de servidor de formulario](writing-form-server-code.md)
 

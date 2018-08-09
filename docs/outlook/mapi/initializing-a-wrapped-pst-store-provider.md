@@ -15,7 +15,7 @@ ms.locfileid: "19817834"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Inicializar un proveedor de almacén de archivos PST ajustado
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para implementar un proveedor de almacén de archivo (.pst) de carpetas personales ajustado, deben inicializar el proveedor de almacén de archivos PST ajustado mediante el uso de la función **[MSProviderInit](msproviderinit.md)** como un punto de entrada. Después de que se inicialice la DLL del proveedor, la función **[MSGSERVICEENTRY](msgserviceentry.md)** configura el proveedor de almacén de archivos PST ajustado. 
   
@@ -241,11 +241,11 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca del ejemplo ajusta el proveedor de almacén de archivos PST](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalar el ejemplo ajusta el proveedor de almacén de archivos PST](installing-the-sample-wrapped-pst-store-provider.md)
-- [Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
-- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalar la muestra de proveedor de almacén de archivos PST ajustado](installing-the-sample-wrapped-pst-store-provider.md)
+- [Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

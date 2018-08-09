@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 21889bf626d7f9128d1e01b3e6a15b5fa0d2e696
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817774"
 ---
-# <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin: IUnknown
+# <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza cambios en un servicio de mensajes en un perfil.
   
@@ -53,11 +53,11 @@ Realiza cambios en un servicio de mensajes en un perfil.
 |[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |Designa un servicio de mensajes para ser el proveedor de la identidad principal para el perfil.  <br/> |
 |[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |Proporciona acceso a la tabla de proveedor, una lista de los proveedores de servicios en el perfil.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una implementación puede obtener un puntero a una interfaz **IMsgServiceAdmin** de dos maneras: llamando al método [IMAPISession::AdminServices](imapisession-adminservices.md) o llamando al método [IProfAdmin::AdminServices](iprofadmin-adminservices.md) . Para los clientes que se trate principalmente con la configuración de perfiles, **IProfAdmin::AdminServices** es la mejor forma de obtener la interfaz **IMsgServiceAdmin** , debido a que no se registran en los proveedores de la sesión MAPI. Si un cliente requiere la capacidad de realizar cambios en el perfil activo, se debe llamar **IMAPISession::AdminServices** para obtener el puntero **IMsgServiceAdmin** . Tenga en cuenta que aunque MAPI no permite un perfil que está en uso que se va a eliminar, no hay ningún medidas de seguridad para evitar que a un cliente de quitar todos los servicios de mensaje en el perfil de. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

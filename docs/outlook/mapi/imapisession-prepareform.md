@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 026a120406b714a50a9191e4761021693a250b94
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817450"
 ---
-# <a name="imapisessionprepareform"></a>IMAPISession:: PrepareForm
+# <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un token numérico que usa el método [IMAPISession:: ShowForm](imapisession-showform.md) para tener acceso a un mensaje. 
   
@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
@@ -55,7 +55,7 @@ S_OK
   
 > La preparación del formulario fue correcta.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISession:: PrepareForm** crea un símbolo (token) de mensaje para el mensaje que apunta el parámetro _lpMessage_ y llama a método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) del mensaje. Este token se pasa en el parámetro _ulMessageToken_ al **IMAPISession:: ShowForm**. 
   
@@ -71,11 +71,11 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: PrepareForm** , junto con **IMAPISession:: ShowForm**, para mostrar un mensaje en un formulario modal.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPISession:: ShowForm](imapisession-showform.md)
+[IMAPISession::ShowForm](imapisession-showform.md)
   
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 

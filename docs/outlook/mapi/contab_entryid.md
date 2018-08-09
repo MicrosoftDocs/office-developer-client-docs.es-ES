@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2c8661f24ed9555547446cf63fc08a3be7e6e941
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816567"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el identificador de entrada de la carpeta Contactos.
   
@@ -42,7 +42,7 @@ typedef struct _contab_entryid
 #pragma pack() 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -77,7 +77,7 @@ typedef struct _contab_entryid
   
 > El identificador de entrada del mensaje contacto asociado con esta entrada de la libreta de direcciones de contactos.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una libreta de direcciones de contactos es una libreta de direcciones que contiene todos los elementos de contacto en una carpeta de contactos que tienen una dirección de correo electrónico o un número de fax. Cada entrada de una libreta de direcciones de contactos está asociado con una dirección de correo electrónico o un número de fax. Dado que un elemento de contacto puede tener hasta tres direcciones de correo electrónico y tres números de fax, se puede representar un elemento de contacto por hasta seis entradas en la libreta de direcciones de los contactos correspondientes.
   
@@ -87,7 +87,7 @@ La estructura **CONTAB_ENTRYID** admite un subconjunto de la información que es
   
 Los campos **cbeid** y **abeid** sólo son válidos cuando se establece el valor del campo **ulType** en CONTAB_DISTLIST o CONTAB_USER. Cuando se establece el valor del campo **ulType** en CONTAB_ROOT, CONTAB_SUBROOT o CONTAB_CONTAINER, la estructura [DIR_ENTRYID](dir_entryid.md) debe usarse en su lugar. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

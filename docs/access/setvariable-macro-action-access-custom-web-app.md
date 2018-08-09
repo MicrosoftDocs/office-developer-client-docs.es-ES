@@ -19,7 +19,7 @@ ms.locfileid: "19815487"
 Puede usar la acción **SetVariable** para crear una variable temporal y establézcalo en un valor específico. A continuación, se puede usar la variable como una condición o un argumento en las acciones posteriores, o puede usar la variable en otra macro (UI) de la interfaz de usuario. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 

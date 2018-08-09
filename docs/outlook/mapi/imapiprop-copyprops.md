@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ff8f13a1dcf678e1d05b6e8e083597156422b83d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817422"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia o mueve las propiedades seleccionadas. 
   
@@ -39,7 +39,7 @@ HRESULT CopyProps(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpIncludeProps_
   
@@ -129,7 +129,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > El tipo de propiedad no es el tipo esperado por el autor de la llamada.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::CopyProps** copia o mueve las propiedades seleccionadas del objeto actual en un objeto de destino. **CopyProps** se usa principalmente para responder y reenviar los mensajes, donde solo algunas de las propiedades del mensaje original de viajes con la respuesta o reenvían copia. 
   
@@ -174,13 +174,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI usa el método **IMAPIProp::CopyProps** para copiar las propiedades con nombre de un mensaje a otro.  <br/> |
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI utiliza el método **IMAPIProp::CopyProps** para pegar una propiedad que se ha copiado desde otro objeto.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
@@ -192,25 +192,25 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propiedad canónico PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propiedad canónica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propiedad canónico PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propiedad canónica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propiedad canónico PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propiedad canónica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propiedad canónico PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propiedad canónica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propiedad canónico PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propiedad canónica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propiedad canónico PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propiedad canónica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
-[Propiedad canónico PidTagObjectType](pidtagobjecttype-canonical-property.md)
+[Propiedad canónica PidTagObjectType](pidtagobjecttype-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

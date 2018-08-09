@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidNameContentType
+title: Propiedad canónica PidNameContentType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9992683-6ea9-4789-8554-024cc1dc7a5d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d07ef00f9eb8a20349f78a7426dcdd61f92fb342
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,21 +19,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819084"
 ---
-# <a name="pidnamecontenttype-canonical-property"></a>Propiedad canónico PidNameContentType
+# <a name="pidnamecontenttype-canonical-property"></a>Propiedad canónica PidNameContentType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un valor de campo de encabezado de tipo de contenido [RFC3282].
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |None  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |Content-Type  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Email  <br/> |
+|Área:  <br/> |Correo electrónico  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

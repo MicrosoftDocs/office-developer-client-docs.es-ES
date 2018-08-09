@@ -17,7 +17,7 @@ ms.locfileid: "19818444"
 ---
 # <a name="opening-an-address-book-container"></a>Abrir un contenedor de la libreta de direcciones
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Después de abrir la MAPI integrado de la libreta de direcciones, abra uno o varios contenedores de libretas de direcciones para obtener acceso a los destinatarios dentro de ellos.
   

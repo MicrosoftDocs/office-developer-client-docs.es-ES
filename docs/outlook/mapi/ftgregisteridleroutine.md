@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0d3f24c41f2cfbd499d92e050c74da904dd4c377
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816893"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Agrega una rutina de inactividad basado en función [FNIDLE](fnidle.md) al sistema de MAPI. 
   
@@ -41,7 +41,7 @@ FTG FtgRegisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pfnIdle_
   
@@ -95,7 +95,7 @@ _iroIdle_
 
 La función **FtgRegisterIdleRoutine** devuelve una etiqueta de función que identifica la rutina de inactividad que se ha agregado al sistema MAPI. Si **FtgRegisterIdleRoutine** no se puede registrar la rutina de inactividad de la aplicación de cliente o el proveedor de servicios, por ejemplo debido a problemas de memoria, devuelve NULL. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las siguientes funciones de abordar los problemas con el motor de inactividad de MAPI y con las rutinas de inactividad según el prototipo de función [FNIDLE](fnidle.md) . 
   

@@ -1,5 +1,5 @@
 ---
-title: Acerca de las notificaciones de tabla
+title: Información sobre las notificaciones de tabla
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3dfc67c8bcd899396da5371c614fd221cd9b2251
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816360"
 ---
-# <a name="about-table-notifications"></a>Acerca de las notificaciones de tabla
+# <a name="about-table-notifications"></a>Información sobre las notificaciones de tabla
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los clientes a menudo se basan en las notificaciones de tabla para obtener más información de los cambios a objetos en lugar de registrar para recibir notificaciones directamente desde los objetos. Los cambios más frecuentes que impedir que se envíen notificaciones incluyen la adición, eliminación o modificación de una fila y cualquier error crítico. Cuando se reciben las notificaciones, los clientes pueden determinar si debe realizar otra llamada a volver a cargar en la tabla. 
   
@@ -37,7 +37,7 @@ Los clientes deben tener en cuenta que no todas las tablas admiten la notificaci
     
 2. Volver a cargar las filas de la tabla cuando [SortTable](imapitable-sorttable.md) devuelve. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

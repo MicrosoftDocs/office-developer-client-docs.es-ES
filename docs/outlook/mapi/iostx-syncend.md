@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 66542d2cc7600ecbcd8de9043b6b40559744c2ad
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817849"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Finaliza la sincronización en el estado actual y sale de ese estado.
   
@@ -31,17 +31,17 @@ Finaliza la sincronización en el estado actual y sale de ese estado.
 HRESULT SyncEnd();
 ```
 
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El cliente debe llamar a **IOSTX::SyncEnd** para cada llamada a [IOSTX::SyncBeg](iostx-syncbeg.md). La estructura de datos correspondiente contiene información para indicar si el cliente ha completado correctamente el estado actual para que Outlook puede limpiar su estado interno.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
-[IOSTX::Initsync](iostx-initsync.md)
+[IOSTX::InitSync](iostx-initsync.md)
   
 [IOSTX::SetSyncResult](iostx-setsyncresult.md)
   
@@ -51,7 +51,7 @@ El cliente debe llamar a **IOSTX::SyncEnd** para cada llamada a [IOSTX::SyncBeg]
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 823e10a1f496f5f5e8bab00f94d700d06e753b48
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817301"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve un objeto de fábrica de clase para el formulario.
   
@@ -35,7 +35,7 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _clsidForm_
   
@@ -55,7 +55,7 @@ S_OK
   
 > Se devuelve el objeto de fábrica de clase.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormFactory::CreateClassFactory** para obtener un generador de clases para un formulario específico. La fábrica de clase se usa para crear instancias de un formulario que controla los mensajes de una clase específica y para controlar el acceso a estas instancias. 
   
@@ -67,9 +67,9 @@ Puede devolver desde la implementación de **CreateClassFactory** el mismo objet
   
 Puede tener una implementación de fábrica de clase único que crea instancias de la fábrica de clase adecuada a petición o varias implementaciones de fábrica de clase, uno para cada clase de mensaje.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

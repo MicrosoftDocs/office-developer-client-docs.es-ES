@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a679d04f7697abbe0172105febf87082c0cd9946
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817458"
 ---
-# <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown: IUnknown
+# <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite que el subsistema MAPI informar a un proveedor de MAPI del cierre rápido de un cliente MAPI, por lo que el proveedor MAPI puede responder a la que se cerró.
   
@@ -44,7 +44,7 @@ Permite que el subsistema MAPI informar a un proveedor de MAPI del cierre rápid
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indica al proveedor MAPI que un cliente MAPI se va a realizar un apagado rápido, por lo que el proveedor puede realizar las acciones para evitar la pérdida de datos.  <br/> |
 |[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indica que el proveedor MAPI que el cliente MAPI está saliendo inmediatamente, para que el proveedor MAPI guardará los cambios para evitar la pérdida de datos.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cierre rápido permite que un cliente MAPI salir de su proceso dentro de una hora corta, es de esperar que después de que el cliente y se carga proveedores MAPI han guardado de datos y la configuración de MAPI. El cliente MAPI siempre inicia un apagado rápido y debe consultar el subsistema MAPI para soporte técnico de apagado rápido de los proveedores MAPI cargados. Un administrador puede establecer el registro de Windows en el nivel de usuario para especificar el nivel de compatibilidad de proveedor que es necesario para permitir que cierre rápido de todos los clientes MAPI. Para obtener más información acerca de la configuración del registro, vea [Opciones de usuario de apagado Fast](fast-shutdown-user-options.md). Sin embargo, para que apagado rápido correctamente se produzca sin pérdida de datos, proveedores MAPI deben implementar la interfaz de **IMAPIProviderShutdown** . 
   
@@ -56,7 +56,7 @@ Dependiendo del registro de Windows del usuario configuración de apagado rápid
   
 Para obtener más información acerca del proceso de apagado rápido, consulte [Información general de cierre rápido](fast-shutdown-overview.md). Para obtener información acerca de cómo llevar a cabo apagado rápido correctamente, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

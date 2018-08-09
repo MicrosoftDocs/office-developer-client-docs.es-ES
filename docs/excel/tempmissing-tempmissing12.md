@@ -11,7 +11,7 @@ keywords:
 - tempmissing (función) [excel 2007], TempMissing12 (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a6db2e1f2917ecd9361043577f4bf203b3267a5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815707"
 ---
 # <a name="tempmissingtempmissing12"></a>TempMissing/TempMissing12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** de tipo **xltypeMissing**.
   
@@ -30,7 +30,7 @@ LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 Esta función no toma ningún parámetro.
   
@@ -56,9 +56,9 @@ short WINAPI TempMissingExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

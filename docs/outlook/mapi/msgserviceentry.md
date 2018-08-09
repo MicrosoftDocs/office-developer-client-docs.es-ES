@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9af170f3445757eb96b9fe78c7cbea2c29ef4612
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818427"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define un prototipo de una función de punto de entrada del servicio de mensaje admitir la configuración del servicio de mensajes. 
   
@@ -48,7 +48,7 @@ HRESULT MSGSERVICEENTRY(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hInstance_
   
@@ -160,7 +160,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación sólo es compatible con Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una función definida mediante el prototipo de función **MSGSERVICEENTRY** habilita los servicios de mensaje para configurar ellos mismos o para llevar a cabo otras acciones específicas al servicio. La función principalmente proporciona un cuadro de diálogo en el que el usuario puede cambiar valores de configuración específicos para el servicio de mensajes. También puede admitir configuración mediante programación mediante el uso de la matriz de valores de propiedad pasada en el parámetro _lpProps_ . Configuración mediante programación es opcional, a menos que el servicio admite al Asistente para perfiles, para la que se requiere. 
   

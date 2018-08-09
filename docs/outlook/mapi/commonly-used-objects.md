@@ -1,5 +1,5 @@
 ---
-title: Objetos usados con más frecuencia
+title: Objetos de uso frecuente
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816543"
 ---
-# <a name="commonly-used-objects"></a>Objetos usados con más frecuencia
+# <a name="commonly-used-objects"></a>Objetos de uso frecuente
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información acerca de los objetos se documenta en distintas secciones de la referencia de MAPI de Microsoft Outlook 2013. Debido a que casi todos los objetos MAPI exponen una sola interfaz MAPI, el enfoque es tratar los objetos y las interfaces que expongan como sinónimos.
   
@@ -33,7 +33,7 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
     Presenta el modelo de objetos componente tal como relaciona con MAPI, se describe la jerarquía y contención del modelo de objetos en MAPI, asigna objetos a las interfaces y se describen las responsabilidades de implementación.
     
-- [Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
+- [Información general sobre MAPI (propiedad)](mapi-property-overview.md)
     
     Describe cómo administran objetos y los clientes de trabajan con las propiedades.
     
@@ -55,7 +55,7 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
   - Datos adjuntos
     
-  - Recipients
+  - Destinatarios
     
   - Objetos de estado
     
@@ -69,7 +69,7 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
     Describe cómo se usan los objetos de soporte técnico y el progreso y cómo implementar un objeto de estado y mostrar tabla.
     
-- [Desarrollar un proveedor de la libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
+- [Desarrollar un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
     
     Describe cómo implementar los objetos de inicio de sesión y proveedor de la libreta de direcciones, direcciones de contenedores de libretas, mensajería a los usuarios, las listas de distribución y tablas relacionadas.
     
@@ -81,7 +81,7 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
     Describe cómo implementar objetos de inicio de sesión y proveedor de almacén de mensajes, los almacenes de mensajes, carpetas, mensajes, datos adjuntos, los destinatarios y tablas relacionadas.
     
-- [Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
     
     Describe cómo implementar objetos de formulario.
     

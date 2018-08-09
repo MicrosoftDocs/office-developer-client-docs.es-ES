@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidSharingConfigurationUrl
+title: Propiedad canónica PidLidSharingConfigurationUrl
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 548b4ded-1610-4fe1-8f19-ee57d5d0f606
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a403888699bfeec0e1a6e8b7b77aef1b89436b10
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818905"
 ---
-# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propiedad canónico PidLidSharingConfigurationUrl
+# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propiedad canónica PidLidSharingConfigurationUrl
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Designa como una propiedad de un mensaje para compartir.
   
@@ -35,7 +35,7 @@ Designa como una propiedad de un mensaje para compartir.
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Uso compartido  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser una cadena de longitud cero. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

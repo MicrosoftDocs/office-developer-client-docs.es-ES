@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2507c3fa-e34c-4da0-88b5-2d1a98b32d4a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7537e2a041bc2e450663e5fdc3276d134f8ddacd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816679"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes en una estructura [ADRLIST](adrlist.md) existente. 
   
@@ -36,18 +36,18 @@ Calcula el número de bytes en una estructura [ADRLIST](adrlist.md) existente.
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __lpadrlist_
   
 > Puntero a la estructura **ADRLIST** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [ADRLIST](adrlist.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

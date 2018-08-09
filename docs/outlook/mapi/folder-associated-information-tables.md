@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 09cac591aac9d266571348531e378974b86a3a9d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816842"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI define el indicador MAPI_ASSOCIATED para diversos componentes MAPI usar cuando trabaja con tablas de información asociada. Cada carpeta en un almacén de mensajes debe tener una tabla de contenido asociada junto con su tabla de contenido estándar. Las aplicaciones cliente almacenan mensajes especiales en tabla de contenido asociada de una carpeta para contener los formularios y vistas. De hecho, para admitir los formularios y vistas, el proveedor de almacén de mensajes debe implementar las tablas de contenido asociada.
   
@@ -41,7 +41,7 @@ Para implementar las tablas de contenido asociado, su proveedor de almacenamient
     
 No hay ningún bit en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar si el proveedor de almacén de mensajes es compatible con las tablas de contenido asociada. Si su proveedor de almacén de mensajes no es compatible con ellos, debe devolver MAPI_E_NO_SUPPORT cuando llama a aplicaciones cliente de cualquiera de los métodos anteriores con la marca MAPI_ASSOCIATED.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

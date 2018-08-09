@@ -1,5 +1,5 @@
 ---
-title: Sección de [descripción] del archivo de configuración de formulario
+title: Sección del archivo de configuración de formulario [Descripción]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d3673c3b10afb55121339e335163ce9b2e5937e3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816840"
 ---
-# <a name="form-configuration-file-description-section"></a>Sección de [descripción] del archivo de configuración de formulario
+# <a name="form-configuration-file-description-section"></a>Sección del archivo de configuración de formulario [Descripción]
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La sección **[descripción]** enumera todas las propiedades del formulario que están asociadas con los controles en el formulario de la interfaz de usuario, además de atributos que se usan para localizar el formulario. El **MessageClass**, **Clsid**y entradas de **DisplayName** , que identifican el nombre de clase de mensaje del formulario, su GUID y nombre para mostrar de la clase de mensaje, respectivamente, son entradas necesarias que se usa para buscar el formulario en la biblioteca de formularios . Las entradas restantes son opcionales. El formato de la sección **[descripción]** es: 
   

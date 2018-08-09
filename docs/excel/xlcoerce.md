@@ -10,7 +10,7 @@ keywords:
 - función xlCoerce [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e0474b81a6d24663fe85303efc8fe2fd62cfdd82
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815730"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Convierte un tipo de **XLOPER**/ **XLOPER12** a otro, o tiene el mismo aspecto los valores de celda en una hoja. 
   
@@ -28,7 +28,7 @@ Convierte un tipo de **XLOPER**/ **XLOPER12** a otro, o tiene el mismo aspecto l
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pxSource_
   
@@ -38,11 +38,11 @@ El origen de **XLOPER**/ **XLOPER12** que necesita que se va a convertir.
   
 (Opcional). Una máscara de bits de los tipos resultantes están dispuestos a Aceptar. Debe usar el operador **OR** bit a bit (|) para especificar varios tipos posibles. Si se omite este argumento, las referencias a celdas individuales se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a que se refiere a está vacía) y las referencias a los bloques de las celdas se convierten en **xltypeMulti**. Esto hace que **xlCoerce** la forma más conveniente para buscar valores de celda. 
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve el valor convertido (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**o **xltypeMulti**).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  no se puede convertir **xlCoerce** a o desde **xltypeBigData** o **xltypeFlow**. Pasar un tipo de **xltypeMissing** o **xltypeNil** como _pxDestType_ es equivalente a si se omite el argumento. Puede producirse un error de conversión en algunos casos. Por ejemplo, algunas cadenas no se puede convertir a números, mientras que otros usuarios puedan. 
   
@@ -70,7 +70,7 @@ short WINAPI xlCoerceExample(short iVal)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8a0b10596bdfdc1ea33f6d170ee1e021193d3788
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818023"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica que la cola MAPI tiene un mensaje para el proveedor de transporte entregar.
   
@@ -84,7 +84,7 @@ MAPI_E_WAIT
   
 > Un problema temporal impide que el proveedor de transporte de controlar el mensaje. El parámetro _lpulReturnParm_ debe establecerse en el número de segundos que deberá transcurrir antes de que la cola MAPI vuelve a enviar el mensaje. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cola MAPI llama al método de **IXPLogon::SubmitMessage** cuando tiene un mensaje para el proveedor de transporte entregar. El mensaje se pasa al proveedor de transporte mediante el parámetro _lpMessage_ . 
   
@@ -114,13 +114,13 @@ Si **SubmitMessage** devuelve un error, la cola MAPI libera el mensaje en proces
   
 En el caso de errores que se producen debido a problemas de transporte, la cola MAPI conserva el mensaje, pero retrasa el volver a enviar el mensaje para el proveedor de transporte basándose en el valor devuelto en _lpulReturnParm_. Si su valor devuelto desde **SubmitMessage** es MAPI_E_WAIT o MAPI_E_NETWORK_ERROR, debe rellenar el proveedor de transporte en ese valor. Si se produce una condición de error grave, el proveedor de transporte debe llamar al método [SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_CRITICAL_ERROR. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[SpoolerNotify](imapisupport-spoolernotify.md)
+[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
   
 [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md)
   
@@ -128,5 +128,5 @@ En el caso de errores que se producen debido a problemas de transporte, la cola 
   
 [IXPLogon::TransportNotify](ixplogon-transportnotify.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

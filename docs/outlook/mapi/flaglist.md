@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2cf5ff69e8453b2da26fd5044823ddf4f99a9f45
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816828"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una lista de marcas que se usan para indicar el estado de las entradas de dirección durante el proceso de resolución de nombres.
   
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cFlags**
   
@@ -62,17 +62,17 @@ MAPI_UNRESOLVED
   
 > La entrada no se ha resuelta. Otros contenedores de la libreta de direcciones deben intentar resolver a este destinatario.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **FLAGLIST** se usa como un parámetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se puede resolver se incluye en una estructura de [ADRLIST](adrlist.md) . Como el contenedor de la libreta de direcciones intenta resolver a cada destinatario, Establece la marca adecuada en la entrada correspondiente en la estructura **FLAGLIST** . Todas las entradas de la estructura de **FLAGLIST** se encuentran en el mismo orden que las entradas de la estructura de **ADRLIST** . Esto facilita la asociar un valor de marca a un destinatario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [ADRLIST](adrlist.md)
   
-[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)
+[IABContainer::ResolveNames](iabcontainer-resolvenames.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

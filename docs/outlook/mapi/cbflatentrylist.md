@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a9f74e46fe74689cbcfba5414f7f083c34ef4f98
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816515"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes en una estructura [FLATENTRYLIST](flatentrylist.md) existente. 
   
@@ -36,18 +36,18 @@ Calcula el número de bytes en una estructura [FLATENTRYLIST](flatentrylist.md) 
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __lplist_
   
 > Puntero a la estructura **FLATENTRYLIST** en cuestión. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [FLATENTRYLIST](flatentrylist.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

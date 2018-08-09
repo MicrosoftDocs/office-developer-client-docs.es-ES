@@ -1,5 +1,5 @@
 ---
-title: Asignación de atributos TNEF a las propiedades de MAPI
+title: Asignación de atributos TNEF a propiedades MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 18c11c3f945e00ae1f12e5c948b81abfb88e41ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818302"
 ---
-# <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Asignación de atributos TNEF a las propiedades de MAPI
+# <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Asignación de atributos TNEF a propiedades MAPI
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En la siguiente tabla se enumera todos los atributos definidos en la implementación de TNEF y sus asignaciones a propiedades MAPI. En algunos casos, varias propiedades MAPI se codifican como un único atributo. Algunos atributos han extendido descripciones más adelante en esta sección.
   

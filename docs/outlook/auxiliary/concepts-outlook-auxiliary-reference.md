@@ -22,12 +22,12 @@ En esta sección se describe las cuatro API en la referencia auxiliar de Outlook
     
 - [Acerca de la capa de degradación de datos API](about-the-data-degradation-layer-api.md)
     
-- [Acerca de las API exportadas por Outlook](about-apis-exported-by-outlook.md)
+- [Información sobre las API exportadas por Outlook](about-apis-exported-by-outlook.md)
     
 - [Configuración de Outlook](outlook-configuration.md)
     
-- [Las citas y calendarios de outlook](outlook-calendars-and-appointments.md)
+- [Citas y calendarios de Outlook](outlook-calendars-and-appointments.md)
     
-- [Tareas de ejemplo](sample-tasks.md)
+- [Tareas de muestra](sample-tasks.md)
     
 

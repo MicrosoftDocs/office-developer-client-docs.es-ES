@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7981dc8550485aa22859c4a8dc25541bedf1217c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817633"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera una secuencia que se utilizará para guardar el mensaje actual.
   
@@ -35,7 +35,7 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pulFlags_
   
@@ -67,7 +67,7 @@ S_OK
   
 > La secuencia se recuperó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Objetos de formulario llamar al método **IMAPIViewContext::GetSaveStream** para recuperar una secuencia de un objeto que implementa la interfaz **IStream** para admitir la administración del verbo Guardar como en el Visor de formulario. El método [IMAPIForm::DoVerb](imapiform-doverb.md) , que se implementa en el servidor de formulario y llamado por el Visor de formulario para invocar un verbo, no debe devolver hasta que el mensaje se convierte en el formato de texto adecuado y se coloca en la secuencia adecuada totalmente. 
   
@@ -75,9 +75,9 @@ Objetos de formulario llamar al método **IMAPIViewContext::GetSaveStream** para
 
 No se puede escribir en la secuencia indicada por _ppstm_ antes de llamar a **GetSaveStream**. Cuando se devuelve **GetSaveStream** , no restablezca la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 

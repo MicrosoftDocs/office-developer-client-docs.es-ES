@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 968768fe75286b93bf12e349a4845fdfaa1923e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817986"
 ---
-# <a name="itabledata--iunknown"></a>ITableData: IUnknown
+# <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona objetos de datos de tabla u objetos que implementan **ITableData** para ayudar a los proveedores de servicios de realizar el mantenimiento de la tabla. Para obtener un objeto de datos de tabla, proveedores de servicios de llamar a la función [CreateTable](createtable.md) . 
   
@@ -50,7 +50,7 @@ Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona obje
 |[HrModifyRows](itabledata-hrmodifyrows.md) <br/> |Inserta varias filas de tabla, posiblemente reemplazando las filas existentes.  <br/> |
 |[HrDeleteRows](itabledata-hrdeleterows.md) <br/> |Elimina varias filas de tabla.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La implementación de MAPI de **ITableData** funciona con tablas manteniendo todos los datos y las restricciones asociadas en la memoria, lo que apropiadas para su uso con tablas muy grandes. No se admiten las restricciones de gran tamaño y operaciones complejas, como la categorización. 
   
@@ -58,7 +58,7 @@ Objetos de datos de tabla identifican filas mediante el uso de una columna de í
   
 Objetos de datos de tabla generan una única notificación independientemente del número de filas afectadas por un cambio o la eliminación. Si no existe una fila de destino de una operación, se agrega una fila.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

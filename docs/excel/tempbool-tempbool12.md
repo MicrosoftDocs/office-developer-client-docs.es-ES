@@ -11,7 +11,7 @@ keywords:
 - tempbool (función) [excel 2007], TempBool12 (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815700"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene **Boolean** **es TRUE** o **FALSE**.
   
@@ -30,13 +30,13 @@ LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _b_ (**int**)
   
 Use 0 para devolver **FALSE**; Use cualquier otro valor para devolver **TRUE**.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve un **Boolean** que contiene el valor lógico que se pasó **xltypeBool** . 
   
@@ -54,9 +54,9 @@ short int WINAPI TempBoolExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

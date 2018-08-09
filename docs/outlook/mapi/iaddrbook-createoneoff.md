@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fefd81a7d6cdfda24df93ec928cd3305cb8ef8be
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817129"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un identificador de entrada para una dirección de uso único.
   
@@ -38,7 +38,7 @@ HRESULT CreateOneOff(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpszName_
   
@@ -78,7 +78,7 @@ S_OK
   
 > El identificador de entrada único se ha creado correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los clientes llaman al método **CreateOneOff** para crear un identificador de entrada para un destinatario de uso único, un destinatario que no pertenezcan a cualquiera de los contenedores desde cualquiera de los proveedores de la libreta de direcciones cargada actualmente. Destinatarios de uso único pueden tener cualquier tipo de dirección que es compatible con uno de los proveedores de la libreta de direcciones activa para la sesión. 
   
@@ -96,13 +96,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en cualquier libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

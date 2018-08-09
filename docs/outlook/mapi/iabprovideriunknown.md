@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 10d646bb2d6fbc11e726a50ba32e34ba172ec1e5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817119"
 ---
-# <a name="iabprovider--iunknown"></a>IABProvider: IUnknown
+# <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona un método para iniciar la sesión a un objeto de proveedor de la libreta de direcciones y un método para invalidar un objeto de proveedor de la libreta de direcciones.
   
@@ -43,7 +43,7 @@ Proporciona un método para iniciar la sesión a un objeto de proveedor de la li
 |[Inicio de sesión](iabprovider-logon.md) <br/> |Establece una conexión a una sesión activa.  <br/> |
 |[Apagado](iabprovider-shutdown.md) <br/> |Cancela una conexión a una sesión activa.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

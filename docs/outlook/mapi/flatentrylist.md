@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a8f17c3cf3d3d00930f87acd004b24f683a3fc8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816825"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de estructuras [FLATENTRY](flatentry.md) . 
   
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **cEntries**
   
@@ -54,7 +54,7 @@ typedef struct
   
 > Matriz de bytes que contiene una o más estructuras **FLATENTRY** , organizado de un extremo a extremo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 En la matriz **abEntries** , cada estructura **FLATENTRY** se alinea en un límite alineado con naturalidad. Bytes adicionales se incluyen como relleno para realizar la alineación natural seguro entre los dos estructuras **FLATENTRY** . La primera estructura **FLATENTRY** en la matriz siempre se alinea correctamente debido a que el desplazamiento del miembro **abEntries** es 8. Para calcular el desplazamiento de la estructura siguiente, utilice el tamaño de la primera entrada que se redondea hacia arriba hasta el próximo múltiplo de 4. Utilice la macro [CbFLATENTRY](cbflatentry.md) para calcular el tamaño de una estructura **FLATENTRY** . 
   
@@ -68,9 +68,9 @@ El ejemplo de código siguiente indica cómo calcular los desplazamientos en una
 + 4) & ~3 // round to next 4 byte boundary
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [FLATENTRY](flatentry.md)
-- [Propiedad canónico PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)
+- [Propiedad canónica PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)
 - [Estructuras MAPI](mapi-structures.md)
 

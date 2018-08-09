@@ -19,7 +19,7 @@ ms.locfileid: "19818411"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia una cadena en un búfer.
   
@@ -32,7 +32,7 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 lpString1
   
@@ -48,11 +48,11 @@ Si la función se realiza correctamente, el valor devuelto es un puntero en el b
   
 Si se produce un error en la función, el valor devuelto es NULL y lpString1 podrían no estar terminada en null.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la función **lstrcpy** . Para obtener más información, vea [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

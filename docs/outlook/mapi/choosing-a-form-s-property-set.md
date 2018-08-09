@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 456ef036b26fd8b9840d33f0f699474c3a6ce127
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816550"
 ---
 # <a name="choosing-a-forms-property-set"></a>Selección de conjunto de propiedades de un formulario
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Al implementar el servidor de formulario, debe tener una propiedad para cada parte de la información que necesita su clase de mensaje. Estas propiedades pueden ser propiedades MAPI predefinidas, o pueden ser propiedades personalizadas que se definen. Para obtener más información sobre cómo trabajar con propiedades, vea [Información general sobre la propiedad de MAPI](mapi-property-overview.md).
   
@@ -36,7 +36,7 @@ Para obtener más información sobre cómo definir propiedades personalizadas, v
 > [!NOTE]
 > Los servidores que tienen un mensaje de texto suelen usar la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) para almacenarlo de formulario. Si su servidor de formulario utiliza **PR_RTF_COMPRESSED**, debe también asegurarse de que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contiene una versión de sólo texto del texto del mensaje, en caso de que se lea el mensaje resultante por un cliente que no admite texto Rich Texto del mensaje con formato (RTF). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

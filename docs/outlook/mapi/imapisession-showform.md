@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d20c8e7432903ef9334f066df31694752384d034
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817464"
 ---
-# <a name="imapisessionshowform"></a>IMAPISession:: ShowForm
+# <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Muestra un formulario.
   
@@ -43,7 +43,7 @@ HRESULT ShowForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -107,7 +107,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISession:: ShowForm** muestra un formulario de mensaje que se ha preparado en el método **IMAPISession:: PrepareForm** . 
   
@@ -125,7 +125,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -133,7 +133,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMessage: IMAPIProp](imessageimapiprop.md)
   
-[IMAPISession:: PrepareForm](imapisession-prepareform.md)
+[IMAPISession::PrepareForm](imapisession-prepareform.md)
   
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e1f15a5f031f5c5a9568b8a36722eaac011b814c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818033"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función de devolución de llamada que llama MAPI para activar un control de botón opcional en un cuadro de diálogo de la libreta de direcciones. Normalmente, este botón es un botón de **Detalles** . 
   
@@ -43,7 +43,7 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -79,7 +79,7 @@ Proveedores de servicios de llamar a una función de enlace según el prototipo 
   
 En ambos casos, cuando se muestra el cuadro de diálogo y el usuario elige el botón definido, MAPI llama **LPFNBUTTON**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

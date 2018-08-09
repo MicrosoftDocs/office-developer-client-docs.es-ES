@@ -19,7 +19,7 @@ ms.locfileid: "19818407"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Es similar a **MultiByteToWideChar**, que se asigna una cadena de caracteres en una cadena de UTF-16 (carácter ancho). La cadena de caracteres no está necesariamente desde un carácter de varios bytes establecida.
   
@@ -33,7 +33,7 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _uCodePage_
   
@@ -63,7 +63,7 @@ int MNLS_MultiByteToWideChar(
 
 Devuelve el número de caracteres escritos en el búfer indicado por _lpWideCharStr_ si se realiza correctamente. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la función **MultiByteToWideChar** . Para obtener más información, vea [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).
   

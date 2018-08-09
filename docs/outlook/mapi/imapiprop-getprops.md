@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 33351235db2a9a3f9d9b67f59e8356a0fa8abfa8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817410"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera el valor de la propiedad de una o varias propiedades de un objeto.
   
@@ -72,7 +72,7 @@ MAPI_E_INVALID_PARAMETER
   
 > Cero se pasó en el miembro **cValues** de la estructura del **elemento SPropTagArray** que señala _lpPropTagArray_.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::GetProps** obtiene los valores de propiedad de una o varias propiedades de un objeto. 
   
@@ -172,7 +172,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utiliza el método **IMAPIProp::GetProps** para obtener todas las propiedades de un objeto pasando NULL o la matriz devuelta por el método [IMAPIProp::GetPropList](imapiprop-getproplist.md) en el parámetro _lpPropTagArray_ .  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -186,16 +186,16 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
 [SPropValue](spropvalue.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Recuperación de propiedades MAPI](retrieving-mapi-properties.md)
   
-[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
+[Uso de macros para el control de errores](using-macros-for-error-handling.md)
 

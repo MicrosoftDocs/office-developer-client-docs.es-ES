@@ -1,5 +1,5 @@
 ---
-title: PROPIEDAD ENTRYID
+title: ENTRYID
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816762"
 ---
-# <a name="entryid"></a>PROPIEDAD ENTRYID
+# <a name="entryid"></a>ENTRYID
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un identificador de entrada para un objeto MAPI. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -71,13 +71,13 @@ MAPI_THISSESSION
   
 > Indica una matriz de datos binarios que se usan en los proveedores de servicios. La aplicación cliente no puede utilizar esta matriz.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se utiliza la estructura de la **propiedad ENTRYID** por mensaje almacenar y proveedores para construir identificadores únicos para sus objetos de la libreta de direcciones. Los identificadores de entrada se utilizan para identificar los siguientes tipos de objetos: 
   
 - Almacenes de mensajes
     
-- Carpetas
+- Folders
     
 - Mensajes
     
@@ -117,7 +117,7 @@ El factor de alineación natural, normalmente de 8 bytes, es el tipo de datos m�
   
 Para obtener más información, vea [Identificadores de entrada](mapi-entry-identifiers.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -125,7 +125,7 @@ Para obtener más información, vea [Identificadores de entrada](mapi-entry-iden
   
 [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md)
   
-[Propiedad canónico PidTagRecordKey](pidtagrecordkey-canonical-property.md)
+[Propiedad canónica PidTagRecordKey](pidtagrecordkey-canonical-property.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

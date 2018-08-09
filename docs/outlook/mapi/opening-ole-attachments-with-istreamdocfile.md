@@ -17,7 +17,7 @@ ms.locfileid: "19818456"
 ---
 # <a name="opening-ole-attachments-with-istreamdocfile"></a>Datos adjuntos OLE de apertura con IStreamDocfile
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Al abrir datos adjuntos objeto OLE, use la interfaz de **IStreamDocfile** en lugar de [IStream](http://msdn.microsoft.com/en-us/library/windows/desktop/aa380034%28v=vs.85%29.aspx) o [IStorage](http://msdn.microsoft.com/en-us/library/windows/desktop/aa380015%28v=vs.85%29.aspx). 
 

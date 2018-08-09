@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3c4c553a000dab233eb208c1222cc427c97b1e70
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816982"
 ---
 # <a name="display-a-progress-indicator"></a>Mostrar un indicador de progreso
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para mostrar un indicador de progreso, llame a [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar los indicadores actuales de configuración. 
   
@@ -123,7 +123,7 @@ else
  
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Indicadores de progreso MAPI](mapi-progress-indicators.md)
 

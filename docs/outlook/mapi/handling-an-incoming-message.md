@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5705af6c8efaf42ae27d1b39bb28d162971ebf9b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816929"
 ---
 # <a name="handling-an-incoming-message"></a>Controlar un mensaje entrante
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un mensaje entrante es un mensaje que se ha enviado a través de uno o varios sistemas de mensajería. Es posible que se han enviado sólo a usted o a muchos otros destinatarios. Los mensajes entrantes se colocan en una carpeta de recepción designada para almacenar los mensajes de una clase determinada. Puede configurar recibir otra carpeta para cada clase de mensaje que administrar o usar una carpeta para todas las clases.
   

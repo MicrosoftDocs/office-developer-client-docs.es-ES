@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 21a6907f7511779d7e8ec6825ac68d109d2f48eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817114"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece una conexión a una sesión activa.
   
@@ -40,7 +40,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMAPISup_
   
@@ -112,7 +112,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en el cuadro de diálogo de inicio de sesión. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las conexiones se establecen con cada proveedor de la libreta de direcciones en el perfil de sesión cuando un cliente llama al método [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) . **OpenAddressBook** , a continuación, llama el método de **Inicio de sesión** de cada proveedor. 
   
@@ -138,7 +138,7 @@ Normalmente, cuando un proveedor de la libreta de direcciones no puede iniciar s
   
 Retorno MAPI_E_FAILONEPROVIDER si produce un error no es lo suficientemente grave como para impedir que los otros proveedores en el servicio de mensajes establecer conexiones. Devolver MAPI_E_UNCONFIGURED si falta la información de configuración necesaria desde el perfil y no se puede mostrar un cuadro de diálogo para preguntar al usuario. MAPI responderá al llamar a la función de punto de entrada de servicio del su proveedor mensaje con MSG_SERVICE_CONFIGURE establecido como el parámetro _ulContext_ para proporcionar el servicio de una oportunidad para configurarse a sí mismo, ya sea mediante programación o mediante una hoja de propiedades. Cuando elija la entrada de mensajes de servicio finalizado (función), el inicio de sesión de reintentos de MAPI. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -152,5 +152,5 @@ Retorno MAPI_E_FAILONEPROVIDER si produce un error no es lo suficientemente grav
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IABProvider: IUnknown](iabprovideriunknown.md)
+[IABProvider : IUnknown](iabprovideriunknown.md)
 

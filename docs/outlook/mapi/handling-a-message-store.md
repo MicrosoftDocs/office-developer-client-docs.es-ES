@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f915a17b8271f7ec4173f507504bf165a6084085
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816942"
 ---
 # <a name="handling-a-message-store"></a>Tratamiento de un almacén de mensajes
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Controlar un almacén de mensajes es una parte importante del conjunto de cualquier cliente de tareas. Estas tareas incluyen abrir, copiar, mover, agregar y eliminar carpetas y mensajes, mostrar varias tablas, establecer las propiedades y controlar los niveles de acceso.
 

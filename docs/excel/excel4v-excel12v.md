@@ -11,7 +11,7 @@ keywords:
 - función Excel12v [excel 2007], Excel4v (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7ffa0bc3ae6222af1ecd7f65de66d026ea178c87
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815636"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Llama a un interno función de hoja de cálculo de Microsoft Excel, una función de hoja de macros o un comando, o un solo XLL función especial o un comando, desde dentro de un archivo DLL, XLL o recurso de código.
   
@@ -36,7 +36,7 @@ int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
 int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[]);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _iFunction_ (**int**)
   
@@ -58,7 +58,7 @@ Una matriz que contiene los argumentos de la función. Todos los argumentos de l
 
 Estas funciones devuelven los mismos valores que **Excel4** y **Excel12**.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas funciones son útiles donde el número de argumentos que se pasan al operador es variable. Por ejemplo, **Excel4v** y **Excel12v** son útiles al registrar funciones mediante el uso de [xlfRegister](xlfregister-form-1.md) donde el número de argumentos totales depende del número de argumentos realizadas por la función que se está registrada. **Excel4v** y **Excel12v** también son útiles cuando se escribe una función de contenedor para **Excel4** o **Excel12**. En estos casos, debe convertir una lista de argumentos de variable, tal y como haría normalmente ser suministrada a **Excel4** o **Excel12**, a un argumento de matriz único de tamaño variable para devolver la llamada en Excel mediante el uso de la **Excel4v** o **Excel12v**.
   
@@ -68,7 +68,7 @@ Para obtener ejemplos de código, vea el código para las funciones de **Excel**
   
 Samples\Framewrk\Framewrk.c
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

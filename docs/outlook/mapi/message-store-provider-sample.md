@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818391"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El proveedor de almacén de archivos PST ajustado de ejemplo usa un proveedor de carpetas personales (PST) de archivo como back-end para almacenar los datos. El proveedor de almacén de archivos PST ajustado debe usarse junto con la API de replicación. 
   
@@ -38,15 +38,15 @@ La mayoría de las funciones en el proveedor de almacén de archivos PST ajustad
 
 En este ejemplo es compatible con Microsoft Outlook 2010 de 64 bits y ahora se ha revisado para Outlook 2013. Consulte los siguientes temas para obtener información adicional:
   
-- [Acerca de la API de replicación](about-the-replication-api.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
     
 - [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
     
-- [Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- [Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
     
-- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
     
  **Para instalar al proveedor de almacén de archivos PST ajustado de ejemplo**
   

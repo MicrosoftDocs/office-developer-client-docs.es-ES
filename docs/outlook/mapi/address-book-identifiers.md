@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816395"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Todos los proveedores de libreta de direcciones asignan los identificadores de entrada mediante la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para el usuario de mensajería y de objetos de la lista de distribución. Las aplicaciones cliente usan estos identificadores de entrada para abrir y obtener acceso a los objetos a los que se les asignaron.
   

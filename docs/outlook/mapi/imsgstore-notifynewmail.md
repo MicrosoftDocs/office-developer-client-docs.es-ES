@@ -23,7 +23,7 @@ ms.locfileid: "19817755"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Informa el almac�n de mensajes que ha llegado un mensaje nuevo. Se llama a este m�todo s�lo por la cola MAPI.
   

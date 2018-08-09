@@ -15,7 +15,7 @@ ms.locfileid: "19818024"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>Inicio de sesión a un proveedor de almacén de archivos PST ajustado
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Antes de que puede iniciar sesión MAPI a un proveedor de almacén de archivos PST ajustado, debe inicializar y configurar el proveedor de almacenamiento de archivo (.pst) de carpetas personales ajustado. Para obtener más información, vea [inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md).
   
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>Vea también
 
-- [Acerca del ejemplo ajusta el proveedor de almacén de archivos PST](about-the-sample-wrapped-pst-store-provider.md) 
-- [Instalar el ejemplo ajusta el proveedor de almacén de archivos PST](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md) 
+- [Instalar la muestra de proveedor de almacén de archivos PST ajustado](installing-the-sample-wrapped-pst-store-provider.md) 
 - [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
-- [Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
-- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

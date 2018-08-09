@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: acf9cee9bf0713b909b0d82fc606b015ac28474e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817108"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una nueva entrada, que puede ser un usuario de mensajería, una lista de distribución u otro contenedor.
   
@@ -36,7 +36,7 @@ HRESULT CreateEntry(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
@@ -72,7 +72,7 @@ S_OK
   
 > Se ha creado correctamente la nueva entrada.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IABContainer::CreateEntry** crea una nueva entrada de un tipo determinado en el contenedor especificado, la devolución de un puntero a una implementación de la interfaz para obtener acceso a la entrada. La nueva entrada se crea mediante el uso de una plantilla que se ha seleccionado desde la lista del contenedor de plantillas disponibles publicado en su tabla de uso único. Los autores de llamadas tener acceso a la tabla de uso único de un contenedor llamando a su método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) y solicitar la propiedad de **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
@@ -104,7 +104,7 @@ Cuando se devuelve **CreateEntry** , puede o no inmediatamente obtener acceso el
   
 Aunque los indicadores de comprobación duplicados se pasan como parámetros al **CreateEntry**, el duplicado en la operación de comprobación no se produce hasta que se llama **SaveChanges** . Por lo tanto, se devuelven errores relacionados, como MAPI_E_COLLISION, que indica que se ha intentado crear una entrada ya existente, por **SaveChanges** en lugar de **CreateEntry**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -114,7 +114,7 @@ Aunque los indicadores de comprobación duplicados se pasan como parámetros al 
   
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[Propiedad canónico PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propiedad canónica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
-[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 

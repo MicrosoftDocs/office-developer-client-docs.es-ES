@@ -10,7 +10,7 @@ keywords:
 - función xlAbort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815719"
 ---
 # <a name="xlabort"></a>xlAbort
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Da como resultado el procesador para otras tareas en el sistema y comprueba si el usuario ha presionado la **tecla ESC** para cancelar una macro. Si el usuario ha presionado la **tecla ESC** durante una actualización de libros, también se detectan desde dentro de una función de hoja de cálculo mediante una llamada a esta función. 
   
@@ -28,17 +28,17 @@ Da como resultado el procesador para otras tareas en el sistema y comprueba si e
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pxRetain_ (**xltypeBool**)
   
 (Opcional). Si es **FALSE**, esta función comprueba la condición de salto y borra cualquier punto de interrupción pendiente. Esto permite al usuario continuar a pesar de la condición de interrupción. Si este argumento se omite o es **TRUE**, la función comprueba una anulación de usuario sin borrarlo.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve **TRUE** (**xltypeBool**) si el usuario ha presionado la **tecla ESC**.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 ### 
 
@@ -117,7 +117,7 @@ int WINAPI fDance(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

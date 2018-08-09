@@ -1,5 +1,5 @@
 ---
-title: Implementación de un objeto de receptor Advise
+title: Implementar un objeto receptor de sugerencias
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817682"
 ---
-# <a name="implementing-an-advise-sink-object"></a>Implementación de un objeto de receptor Advise
+# <a name="implementing-an-advise-sink-object"></a>Implementar un objeto receptor de sugerencias
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un cliente puede implementar sus propios objetos de receptor advise o utilizar una función de utilidad, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** crea un objeto de receptor advise con una implementación de **OnNotify** que invoca una función de devolución de llamada. 
   

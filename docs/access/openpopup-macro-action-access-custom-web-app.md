@@ -19,9 +19,9 @@ ms.locfileid: "19815460"
 Se abre la vista especificada en una ventana emergente.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **OpenPopup** (*Vista*, *donde =*, *Order By*) 
   
@@ -31,9 +31,9 @@ La acción **OpenPopup** contiene los siguientes argumentos.
 |:-----|:-----|
 | *View*  <br/> |El nombre de la vista que se va a abrir.  <br/> |
 | *Donde =*  <br/> |Una cláusula WHERE de SQL válida (sin la palabra donde) que restringe los registros en la vista.  <br/> |
-| *Order By*  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
+| *Ordenar por*  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro actual finaliza una vez que se procesa la acción de **OpenPopup** . 
   

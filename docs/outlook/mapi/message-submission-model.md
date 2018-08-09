@@ -1,5 +1,5 @@
 ---
-title: Modelo de envío de mensaje
+title: Modelo de envío de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 653a9df6ec414aa18c44d8035a59f021d7cc19b8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818408"
 ---
-# <a name="message-submission-model"></a>Modelo de envío de mensaje
+# <a name="message-submission-model"></a>Modelo de envío de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Envío de mensajes se realiza mediante una serie de llamadas desde la cola de MAPI para el proveedor de transporte. Las llamadas se ordenan de la siguiente manera:
   

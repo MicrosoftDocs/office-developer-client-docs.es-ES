@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: edabb9a0f55cb34b4e144672e91ea50b8e9193b0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817982"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Codifica una vista de tabla de destinatarios de un mensaje en la secuencia de datos de formato de encapsulación neutro para el transporte (TNEF) para el mensaje.
   
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Transporte proveedores, los proveedores de almacén de mensajes y las puertas de enlace llamada al método **ITnef::EncodeRecips** para llevar a cabo la codificación TNEF para una vista de tabla de destinatarios determinada. La codificación TNEF es útil, por ejemplo, si un proveedor o una puerta de enlace requiere un conjunto de columnas determinado, criterio de ordenación o restricción para la tabla de destinatarios. 
   
@@ -60,7 +60,7 @@ Por tanto, al llamar a **EncodeRecips** con NULL _lpRecipientTable_ codifica a t
   
 Tenga en cuenta que es rara vez es necesario llamar a **EncodeRecips** a menos que haya un requisito para codificar una vista de tabla de destinatarios determinada. Sistemas de mensajería externos casi siempre tengan instalaciones para el tratamiento de las listas de destinatarios que son lo suficientemente eficaces para controlar las necesidades comunes de codificación de las listas de destinatarios; por lo tanto, estos sistemas casi nunca requieran la codificación TNEF para este propósito. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Tenga en cuenta que es rara vez es necesario llamar a **EncodeRecips** a menos q
   
 [ITnef::AddProps](itnef-addprops.md)
   
-[Propiedad canónico PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propiedad canónica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
-[ITnef: IUnknown](itnefiunknown.md)
+[ITnef : IUnknown](itnefiunknown.md)
 

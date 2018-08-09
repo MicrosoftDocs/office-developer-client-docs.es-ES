@@ -1,5 +1,5 @@
 ---
-title: Creación de XLL
+title: Crear XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - archivos DLL [excel 2007], llamada a excel, xlAutoFree (función) [Excel 2007], [Excel 2007],xlcall32.lib [Excel 2007], [Excel 2007],xlcall.cpp [Excel 2007], xlAutoRemove (función) [Excel 2007], xlAddInManagerInfo (función) xlAutoRegister (función) xlAutoFree12 función [Excel 2007], xlAutoAdd (función) [Excel 2007], xlAutoOpen (función) [Excel 2007], xlAutoClose (función) [Excel 2007], archivos DLL [Excel 2007], convirtiendo en XLL, XLL [Excel 2007], llamada a Excel, xlAutoRegister12 (función) [Excel 2007],xlcall.h [Excel función de xlAddInManagerInfo12 de 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: de347d34768c25adf0d96642b4fade781ae26a9c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815535"
 ---
-# <a name="creating-xlls"></a>Creación de XLL
+# <a name="creating-xlls"></a>Crear XLL
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Si el archivo DLL es autónoma o se basa únicamente en otras bibliotecas, debe conocer cómo habilitar Microsoft Excel tener acceso a sus funciones y comandos. Para obtener más información, vea [Archivos DLL de Access en Excel](how-to-access-dlls-in-excel.md). 
   
@@ -118,13 +118,13 @@ Excel llama a la función [xlAutoFree/xlAutoFree12](xlautofree-xlautofree12.md) 
 
 Excel y funciones definidas por el usuario pueden ejecutar en sistemas operativos de 64 bits para aprovechar las ventajas de rendimiento sobre los sistemas operativos de 32 bits. Excel pasa valores en estructuras **XLOPER12** que incluyen información acerca de los tipos de los datos. Preste atención al convertir entre valores de la estructura de **XLOPER12** y tipos nativos como **int** o punteros para conservar los valores en el tipo de mayor tamaño. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones XLL de llamada desde el Asistente para la función o cuadros de diálogo Reemplazar](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Llamar a funciones XLL desde el Asistente para funciones o los cuadros de diálogo Reemplazar](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
-[Administrador de complementos y funciones de la interfaz XLL](add-in-manager-and-xll-interface-functions.md)
+[Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)
   
 [Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
 

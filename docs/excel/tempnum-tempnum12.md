@@ -11,7 +11,7 @@ keywords:
 - tempnum12 (función) [excel 2007], TempNum (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815703"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene un número de hoja de cálculo de Microsoft Excel (un doble de 8 bytes IEEE). 
   
@@ -30,7 +30,7 @@ LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _d._ (**doble**)
   
@@ -56,9 +56,9 @@ short WINAPI TempNumExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

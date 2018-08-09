@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817230"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia o mueve uno o más mensajes.
   
@@ -38,7 +38,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMsgList_
   
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > La llamada se completó correctamente, pero no todas las entradas se han movido o copiado correctamente. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIFolder::CopyMessages** copia o mueve los mensajes a otra carpeta. 
   
@@ -124,9 +124,9 @@ Espera a que estos valores devueltos en las siguientes condiciones.
    
 Cuando **IMAPIFolder::CopyMessages** es no se puede completar, no asuma que se ha realizado ningún trabajo. Es posible que han sido **IMAPIFolder::CopyMessages** capaz de copiar o mover mensajes de uno o varios antes de encontrar el error. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

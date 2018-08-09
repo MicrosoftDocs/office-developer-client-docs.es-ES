@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4d060d62deb685b4691846c2b8e48a82ae3195ea
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820730"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe un verbo MAPI.
   
@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **lVerb**
   
@@ -69,7 +69,7 @@ MAPI_UNICODE.
   
 > Es el nombre para mostrar en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre para mostrar está en formato ANSI.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **SMAPIVerb** se pasa como un parámetro en los métodos siguientes: 
   
@@ -77,7 +77,7 @@ La estructura **SMAPIVerb** se pasa como un parámetro en los métodos siguiente
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

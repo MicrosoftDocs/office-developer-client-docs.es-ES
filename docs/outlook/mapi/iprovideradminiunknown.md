@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 41195a49d1bf3566c81fe6e97697012209cbc5ac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817907"
 ---
-# <a name="iprovideradmin--iunknown"></a>IProviderAdmin: IUnknown
+# <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Funciona con proveedores de servicios en un servicio de mensajes. 
   
@@ -46,11 +46,11 @@ Funciona con proveedores de servicios en un servicio de mensajes.
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Elimina un proveedor de servicios desde el servicio de mensajes.  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Abre una sección de perfil desde el perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para aún más el acceso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los clientes pueden obtener un puntero a una interfaz **IProviderAdmin** llamando al método [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md) ; proveedores de servicios se pasan un puntero **IProviderAdmin** cuando se llama a la función de punto de entrada del servicio de sus mensajes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

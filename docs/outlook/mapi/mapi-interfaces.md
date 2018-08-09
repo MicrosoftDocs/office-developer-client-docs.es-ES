@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e485079de800c63b02d71b3c3ccb90d66101c64b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19818146"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La documentación para cada interfaz consta de una sección introductoria que incluye una breve descripción del propósito de la interfaz seguido de una tabla que contiene la información siguiente.
   
@@ -41,12 +41,12 @@ Después de cada tema de la interfaz, los métodos de la interfaz, a continuaci�
   
 |**Encabezado**|**Contenido**|
 |:-----|:-----|
-|Sintaxis  <br/> |Una descripción de cada parámetro en el método.  <br/> |
+|Parámetros  <br/> |Una descripción de cada parámetro en el método.  <br/> |
 |Valor devuelto  <br/> |Una descripción de los valores únicos que el método puede devolver. Estos son los valores que se deben proteger los autores de llamadas para su código.  <br/> |
-|Notas  <br/> |Una descripción de cómo y por qué se usa el método.  <br/> |
+|Comentarios  <br/> |Una descripción de cómo y por qué se usa el método.  <br/> |
 |Vea también  <br/> |Referencias cruzadas a otros temas de esta referencia.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

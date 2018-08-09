@@ -31,7 +31,7 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _lBias_
   
@@ -53,11 +53,11 @@ _stDaylightDate_
   
 > El tiempo para cambiar al horario de verano.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta estructura es similar a **TIME_ZONE_INFORMATION**. Ésta es la estructura usada por los clientes heredados para almacenar la información de zona horaria de reuniones periódicas.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)  

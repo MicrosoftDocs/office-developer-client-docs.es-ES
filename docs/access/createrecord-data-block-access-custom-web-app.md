@@ -18,7 +18,7 @@ ms.locfileid: "19815364"
 Puede utilizar el bloque de datos **CrearRegistro** para crear un nuevo registro en la tabla especificada. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
 > [!NOTA] El bloque de datos **CrearRegistro** solo está disponible en macros de datos. 
@@ -31,7 +31,7 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
   
 |**Nombre del argumento**|**Necesario**|**Descripción**|
 |:-----|:-----|:-----|
-|**Crear un registro en** <br/> |Sí  <br/> |Nombre de la tabla en la que se creará el nuevo registro.  <br/> |
+|**Crear un registro en ** <br/> |Sí  <br/> |Nombre de la tabla en la que se creará el nuevo registro.  <br/> |
 |**Alias** <br/> |No  <br/> |Una cadena que identifica el registro. Puede utilizar el alias del registro para identificar  <br/> |
    
 ## <a name="remarks"></a>Comentarios

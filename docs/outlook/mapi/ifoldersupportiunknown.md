@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a4a1c78e65d9a515b2b42d7e0a2bc3a8b4bd8869
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817220"
 ---
-# <a name="ifoldersupport--iunknown"></a>IFolderSupport: IUnknown
+# <a name="ifoldersupport--iunknown"></a>IFolderSupport : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona información sobre la compatibilidad de una carpeta para compartir.
   
@@ -38,7 +38,7 @@ Proporciona información sobre la compatibilidad de una carpeta para compartir.
 |:-----|:-----|
 |**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Obtiene información sobre la compatibilidad de una carpeta para compartir.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Por lo general, Microsoft Office Outlook requiere una MAPI proveedor para implementar esta interfaz si desea que el proveedor compartir una carpeta de almacén. La excepción es el proveedor de almacén de Exchange Server, que puede compartir carpetas sin tener que implementar esta interfaz.
   

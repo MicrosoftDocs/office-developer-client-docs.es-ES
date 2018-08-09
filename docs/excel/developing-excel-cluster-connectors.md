@@ -1,12 +1,12 @@
 ---
-title: Desarrollo de conectores de clúster de Excel
+title: Desarrollar conectores clúster de Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8c9a166ac06685c0a450e1e0bd60b2fbef67d336
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815517"
 ---
-# <a name="developing-excel-cluster-connectors"></a>Desarrollo de conectores de clúster de Excel
+# <a name="developing-excel-cluster-connectors"></a>Desarrollar conectores clúster de Excel
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Conectores de clúster de Excel proporcionan un medio para descarga automáticamente las llamadas de función definida por el usuario con seguridad de clúster en un XLL a un servidor de clúster. Para obtener una descripción de las funciones definidas por el usuario de seguras de clúster, vea [Funciones seguras de clúster](cluster-safe-functions.md). Esta descarga puede mejorar el rendimiento mediante la habilitación de más recursos informáticos que se usará. Un conector de clúster normalmente está desarrollado por un proveedor de clúster de cálculo de alto rendimiento.
   

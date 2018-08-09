@@ -61,11 +61,11 @@ La interfaz de **ventana** permite al usuario tener acceso a determinadas propie
 |**Nombre**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |**Active** <br/> |bool  <br/> |Obtiene o establece un valor que indica si la ventana es la ventana activa de OneNote.  <br/> |
-|**Aplicación** <br/> |**Aplicación** <br/> |Obtiene el objeto de **aplicación** de OneNote que está asociado a la ventana.  <br/> |
-|**CurrentPageId** <br/> |cadena  <br/> |Obtiene el identificador del objeto de la página activa de OneNote de la ventana.  <br/> |
-|**CurrentSectionId** <br/> |cadena  <br/> |Obtiene el identificador del objeto de la sección activa de OneNote de la ventana.  <br/> |
-|**CurrentSectionGroupId** <br/> |cadena  <br/> |Obtiene el identificador de objeto del grupo de sección de OneNote activo de la ventana.  <br/> |
-|**CurrentNotebookId** <br/> |cadena  <br/> |Obtiene el identificador de objeto del Bloc de notas de OneNote activo de la ventana.  <br/> |
+|**Application** <br/> |**Application** <br/> |Obtiene el objeto de **aplicación** de OneNote que está asociado a la ventana.  <br/> |
+|**CurrentPageId** <br/> |string  <br/> |Obtiene el identificador del objeto de la página activa de OneNote de la ventana.  <br/> |
+|**CurrentSectionId** <br/> |string  <br/> |Obtiene el identificador del objeto de la sección activa de OneNote de la ventana.  <br/> |
+|**CurrentSectionGroupId** <br/> |string  <br/> |Obtiene el identificador de objeto del grupo de sección de OneNote activo de la ventana.  <br/> |
+|**CurrentNotebookId** <br/> |string  <br/> |Obtiene el identificador de objeto del Bloc de notas de OneNote activo de la ventana.  <br/> |
 |**DockedLocation** <br/> |**DockedLocation** <br/> |Obtiene o establece la ubicación acoplada de la ventana de OneNote.  <br/> |
 |**FullPageView** <br/> |bool  <br/> |Obtiene o establece un valor que indica si la ventana está en vista de página completa (vista mínima de la interfaz de usuario).  <br/> |
 |**Nota al margen** <br/> |bool  <br/> |Obtiene o establece un valor que indica si la ventana es una ventana de nota rápida.  <br/> |
@@ -75,7 +75,7 @@ La interfaz de **ventana** permite al usuario tener acceso a determinadas propie
   
 Puede usar los siguientes métodos de la interfaz de **ventana** para navegar a los objetos especificados en la ventana de OneNote o a las direcciones URL especificadas. 
   
-**DesplazarseA**
+**NavigateTo**
 
 |||
 |:-----|:-----|
@@ -142,7 +142,7 @@ namespace SampleWND
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Referencia para desarrolladores de OneNote](onenote-developer-reference.md)
 

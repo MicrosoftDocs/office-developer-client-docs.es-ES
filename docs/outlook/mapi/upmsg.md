@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e281907931a493e82c44913a7c26f6df55876e70
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820947"
 ---
 # <a name="upmsg"></a>UPMSG
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para cargar un elemento de Outlook durante la [carga de estado del mensaje](upload-message-state.md).
   
@@ -38,7 +38,7 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _ulFlags_
   
@@ -116,10 +116,10 @@ _skeySrc_
   
 > [out] Clave de origen del elemento de origen, si el elemento se ha movido.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md)
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [FEID](feid.md)
 - [MEID](meid.md)

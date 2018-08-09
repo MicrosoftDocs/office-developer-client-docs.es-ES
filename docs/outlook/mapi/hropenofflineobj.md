@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817086"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre un objeto sin conexión basada en un perfil determinado.
   
@@ -45,7 +45,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulReserved_
   
@@ -77,7 +77,7 @@ MAPI_E_NOT_FOUND
   
 - Error en la llamada de función.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se trata de la primera llamada realizada por un cliente cuando el cliente desea recibir una notificación de los cambios de estado de conexión para un perfil determinado. Tras llamar a **HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar para los tipos de devoluciones de llamada admitidos por el objeto (mediante el uso de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar las devoluciones de llamada para él (mediante [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
@@ -85,16 +85,16 @@ Cuando se usa [GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.
   
  **HrOpenOfflineObj** sólo funciona para los clientes que son proveedores MAPI, complementos COM y las extensiones de cliente de Exchange que se ejecuta dentro del proceso de Outlook. De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIOffline: IUnknown](imapiofflineiunknown.md)
+[IMAPIOffline : IUnknown](imapiofflineiunknown.md)
   
-[IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md)
+[IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Acerca de la API de estado sin conexión](about-the-offline-state-api.md)
+[Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

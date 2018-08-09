@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817258"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica si el formulario puede controlar la clase de mensaje del mensaje siguiente para mostrar.
   
@@ -36,7 +36,7 @@ HRESULT OnActivateNext(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpszMessageClass_
   
@@ -64,7 +64,7 @@ S_FALSE
   
 > El formulario no controla la clase de mensaje del mensaje siguiente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormAdviseSink::OnActivateNext** para determinar el formulario si puede mostrar el siguiente mensaje en una carpeta. El siguiente mensaje podría ser un mensaje de cualquier clase, pero normalmente es de la misma clase o una clase relacionada. Esto hace que el proceso de lectura de varios mensajes de la misma clase más eficaz mediante la habilitación de las aplicaciones de cliente volver a usar los objetos de formulario siempre que sea posible. 
   
@@ -92,21 +92,21 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utiliza el método **IMAPIFormAdviseSink::OnActivateNext** para implementar el método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
   
 [IPersistMessage::Load](ipersistmessage-load.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)
+[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

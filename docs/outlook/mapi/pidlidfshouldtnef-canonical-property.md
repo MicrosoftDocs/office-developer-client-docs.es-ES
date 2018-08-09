@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidFShouldTNEF
+title: Propiedad canónica PidLidFShouldTNEF
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15354a4a07304913cce06d50564b66abe5062a96
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818752"
 ---
-# <a name="pidlidfshouldtnef-canonical-property"></a>Propiedad canónico PidLidFShouldTNEF
+# <a name="pidlidfshouldtnef-canonical-property"></a>Propiedad canónica PidLidFShouldTNEF
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica si se va a codificar un elemento con el formato de encapsulación neutro de transporte (TNEF). 
   
@@ -35,7 +35,7 @@ Indica si se va a codificar un elemento con el formato de encapsulación neutro 
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Configuración de tiempo de ejecución  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad se establece cuando se establece Microsoft Word como editor de correo electrónico y envía un objeto OLE que está incrustado en una secuencia de formato de texto enriquecido (RTF).
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

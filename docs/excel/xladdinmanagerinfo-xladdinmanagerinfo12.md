@@ -10,7 +10,7 @@ keywords:
 - xladdinmanagerinfo (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e42cca809c4426ddf9a98b3b275d08490d31c8db
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815704"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Llamado por Microsoft Excel cuando se invoca el Administrador de complementos por primera vez en una sesión de Excel. Esta función se usa para proporcionar información sobre el complemento del administrador.
   
@@ -35,19 +35,19 @@ LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
 LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pxAction:_ Un puntero a un numérico **XLOPER y XLOPER12** (**xltypeInt** o **xltypeNum**).
   
 La información que se solicita Excel.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Si _pxAction_ es, o se pueda convertir a, el número 1, a continuación, la implementación de esta función debe devolver una cadena que contiene información sobre el complemento, normalmente su nombre y, posiblemente, un número de versión. En caso contrario, se debe devolver #VALUE!. 
   
 Si no se devuelve una cadena, Excel intenta convertir el valor devuelto en una cadena.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si la cadena devuelta apunta al búfer asignado dinámicamente, debe asegurarse de que este búfer se libera finalmente. Si la cadena asignada por Excel, ello estableciendo **xlbitXLFree**. Si la cadena se ha asignado por el archivo DLL, para ello, configuración **xlbitDLLFree**, y también se debe implementar en [xlAutoFree](xlautofree-xlautofree12.md) (si va a devolver un **XLOPER**) o **xlAutoFree12** (si se va a devolver un **XLOPER12**).
   
@@ -87,5 +87,5 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
 
 
 
-[Administrador de complementos y funciones de la interfaz XLL](add-in-manager-and-xll-interface-functions.md)
+[Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)
 

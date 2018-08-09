@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 90ae9cee915296475d7fe64952b40ab7344e89e2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817644"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve la tabla de destinatarios del mensaje.
   
@@ -58,7 +58,7 @@ S_OK
   
 > La tabla de destinatarios se devolvió correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMessage::GetRecipientTable** devuelve un puntero a la tabla de destinatarios del mensaje, que incluye información acerca de todos los destinatarios del mensaje. No hay una fila por cada destinatario. 
   
@@ -80,13 +80,13 @@ Configuración de las solicitudes de marca de Unicode que la información de tod
 
 Puede cambiar una tabla de destinatario mientras está abierto llamando al método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** agrega a destinatarios, elimina a los destinatarios o modifica las propiedades de destinatarios. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   

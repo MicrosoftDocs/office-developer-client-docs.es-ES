@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 26dfd40ed8b4cd2b2261abff4d2692de46acb6fd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816540"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. Identificador de la propiedad ha cambiado. 
   
@@ -36,7 +36,7 @@ Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especific
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulPropTag_
   
@@ -46,12 +46,12 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
   
 > El nuevo valor para el tipo de propiedad.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [SPropValue](spropvalue.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

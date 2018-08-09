@@ -10,7 +10,7 @@ keywords:
 - función xlUDF [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8f45f800ca50d2a46792e7cf5e00ac25bd099e8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815754"
 ---
 # <a name="xludf"></a>xlUDF
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Llama a una función definida por el usuario (UDF). Esta función permite una DLL para llamar a Visual Basic para las funciones definidas por el usuario de aplicaciones (VBA), funciones de lenguaje de macros XLM y registradas funciones contenida en otros complementos.
   
@@ -29,7 +29,7 @@ Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** o **xltypeNum**)
   
@@ -61,7 +61,7 @@ short WINAPI xlUDFExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

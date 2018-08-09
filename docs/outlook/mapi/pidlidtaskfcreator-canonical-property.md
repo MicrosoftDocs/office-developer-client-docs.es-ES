@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskFCreator
+title: Propiedad canónica PidLidTaskFCreator
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 458a20e238d6023520ede3416ece239f2d553891
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818965"
 ---
-# <a name="pidlidtaskfcreator-canonical-property"></a>Propiedad canónico PidLidTaskFCreator
+# <a name="pidlidtaskfcreator-canonical-property"></a>Propiedad canónica PidLidTaskFCreator
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica que la tarea se creó originalmente por el usuario actual o el agente de usuario en lugar de hacerlo mediante el procesamiento de una solicitud de tarea.
   
@@ -33,9 +33,9 @@ Indica que la tarea se creó originalmente por el usuario actual o el agente de 
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x0000811E  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El cliente establece esta propiedad en TRUE cuando el usuario crea la tarea y en FALSE cuando se asigna la tarea por otro usuario. Si esta propiedad se deja sin establecer, se supone un valor de TRUE.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

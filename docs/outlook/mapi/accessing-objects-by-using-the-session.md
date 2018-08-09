@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a objetos mediante el uso de la sesión
+title: Obtener acceso a los objetos con la sesión
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ee20e73e5bc7bb6854b956da541d3a318a267d0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816394"
 ---
-# <a name="accessing-objects-by-using-the-session"></a>Obtener acceso a objetos mediante el uso de la sesión
+# <a name="accessing-objects-by-using-the-session"></a>Obtener acceso a los objetos con la sesión
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El puntero de sesión que recibe de la llamada a [MAPILogonEx](mapilogonex.md) puede utilizarse para tener acceso a una amplia variedad de objetos. En la siguiente tabla se enumera los métodos que se usan para tener acceso a varios objetos: 
   
@@ -41,7 +41,7 @@ Con el método **OpenEntry** y un identificador de entrada válido, puede abrir 
 |Sesión  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
 |Almacén de mensajes  <br/> |[IMsgStore::OpenEntry](imsgstore-openentry.md) <br/> |
 |Objeto de inicio de sesión del proveedor de almacén de mensajes  <br/> |[IMSLogon::OpenEntry](imslogon-openentry.md) <br/> |
-|Carpeta  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
+|Folder  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
 |Objeto de soporte técnico  <br/> |[IMAPISupport::OpenEntry](imapisupport-openentry.md) <br/> |
    
 Algunos métodos de **OpenEntry** requieren un identificador de entrada del objeto que se va a abrir, al igual que **IMAPISession::OpenEntry**; otros métodos que permiten NULL que se especifique. Un identificador de entrada NULL se interpreta de forma diferente dependiendo del objeto. Por ejemplo, cuando se llama a **IAddrBook::OpenEntry** con un identificador de entrada NULL, MAPI abre el contenedor de raíz de la libreta de direcciones. Método de **OpenEntry** del almacén de mensajes se comporta de forma similar; se abre la carpeta raíz del almacén de mensajes. **IMAPIContainer::OpenEntry**, implementada por las carpetas y los contenedores de la libreta de direcciones, puede devolver MAPI_E_INVALID_PARAMETER o el contenedor raíz, dependiendo del implementador. 

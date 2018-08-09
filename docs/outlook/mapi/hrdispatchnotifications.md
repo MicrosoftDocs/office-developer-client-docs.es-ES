@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 28afa338b37e747ed441a8767981b7e63808e741
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817049"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Envío de fuerza de todas las notificaciones en la cola. 
   
@@ -59,7 +59,7 @@ MAPI_E_NOT_INITIALIZED
   
 > MAPI no se ha inicializado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **HrDispatchNotifications** hace que MAPI enviar todas las notificaciones que están actualmente en cola en el motor de notificación de MAPI sin tener que esperar un envío de mensaje. Esto puede tener un efecto beneficioso en el uso de memoria. Para obtener más información, vea [forzar una notificación](forcing-a-notification.md). 
   

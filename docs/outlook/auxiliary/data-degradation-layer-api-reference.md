@@ -1,5 +1,5 @@
 ---
-title: Referencia de API de la capa de degradación de datos
+title: Referencia de API de capa de degradación de datos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816067"
 ---
-# <a name="data-degradation-layer-api-reference"></a>Referencia de API de la capa de degradación de datos
+# <a name="data-degradation-layer-api-reference"></a>Referencia de API de capa de degradación de datos
 
 En esta sección se proporciona contenido de referencia para la degradación capa API de datos, que proporciona la capacidad para ocultar el formato del carácter nativo subyacente de un objeto de Outlook, lo que permite a un cliente tener acceso al objeto en un formato de carácter preferido en lugar de en el formato de carácter nativo del objeto.
   

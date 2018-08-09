@@ -11,7 +11,7 @@ keywords:
 - función de Excel4 [excel 2007], Excel12 (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815621"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Llama a un interno función de hoja de cálculo de Microsoft Excel, una función de hoja de macros o un comando, o un solo XLL función especial o un comando, desde dentro de un DLL o XLL o recurso de código.
   
@@ -36,7 +36,7 @@ int Excel4(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER argument1, ...);
 int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _iFunction_ (**int**)
   
@@ -72,7 +72,7 @@ Devuelve uno de los siguientes valores enteros (**int**).
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |El identificador de función asincrónica no es válido.  <br/> Este valor se usa solo en Excel 2010.  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |La llamada no se admite en clústeres.  <br/> Este valor se usa solo en Excel 2010.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 ### <a name="valid-ifunction-values"></a>Valores válidos iFunction
 
@@ -135,7 +135,7 @@ short WINAPI Excel12Example(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

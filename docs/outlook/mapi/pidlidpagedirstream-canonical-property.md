@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidPageDirStream
+title: Propiedad canónica PidLidPageDirStream
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 809209863af912113ac5f0795cc7c3b0cf51e792
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818837"
 ---
-# <a name="pidlidpagedirstream-canonical-property"></a>Propiedad canónico PidLidPageDirStream
+# <a name="pidlidpagedirstream-canonical-property"></a>Propiedad canónica PidLidPageDirStream
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Representa información acerca de las páginas del formulario personalizado asociado con el mensaje.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6a315cef8263f7e241a815a0f054dc3174d88fa7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817743"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se registra para recibir notificaciones de los eventos que afectan el almacén de mensajes.
   
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
@@ -113,7 +113,7 @@ MAPI_E_NO_SUPPORT
   
 > El proveedor de almacén de mensajes no es compatible con el registro de notificación mediante el almacén de mensajes.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMsgStore::Advise** establece una conexión entre el autor de la llamada del aviso objeto receptor y el almacén de mensajes o un objeto en el almacén de mensajes. Esta conexión se utiliza para enviar las notificaciones para el receptor de notificaciones cuando uno o más eventos, tal como se especifica en el parámetro _ulEventMask_ , se producen en el objeto de origen advise. Cuando los puntos de parámetro _lpEntryID_ a un identificador de entrada válido, el origen de advise es el objeto identificado por este identificador de entrada. Cuando _lpEntryID_ es NULL, el origen de advise es el almacén de mensajes. 
   
@@ -145,7 +145,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI, utiliza el método **IMsgStore::Advise** para registrar las notificaciones de en el almacén de todo el mensaje.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

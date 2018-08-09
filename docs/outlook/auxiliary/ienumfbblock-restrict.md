@@ -30,7 +30,7 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ftmStart_
   
@@ -48,11 +48,11 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Este método también restablece la enumeración.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Skip](ienumfbblock-skip.md)  
-- [Usar tiempo relativa a los datos de libre/ocupado de access](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Utilizar un tiempo relativo a los datos de disponibilidad de acceso](how-to-use-relative-time-to-access-free-busy-data.md)
 

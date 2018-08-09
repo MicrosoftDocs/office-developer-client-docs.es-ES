@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a8044eb6647e6f437c87bb4d8b021c62ea15f606
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818278"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta estructura se utiliza con [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
@@ -34,7 +34,7 @@ HANDLE          *phSyncDoneEvent;
 } MAPISIB, *PMAPISIB
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSize**
   
@@ -66,11 +66,11 @@ HANDLE          *phSyncDoneEvent;
   
 > [OUT] El evento que se producirá cuando se haya completado el subproceso que se acaba de crear. El puntero debe ser válido debido a que contendrá el evento.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)
+[IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
   
-[IMAPISync: IUnknown](imapisynciunknown.md)
+[IMAPISync : IUnknown](imapisynciunknown.md)
 

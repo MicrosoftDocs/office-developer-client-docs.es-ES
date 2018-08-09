@@ -19,9 +19,9 @@ ms.locfileid: "19815472"
 Devuelve un número pseudoaleatorio entre 0 y 1.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **RAND** ([ *Inicialización* ]) 
   
@@ -31,7 +31,7 @@ La función **aleatorio** contiene el siguiente argumento.
 |:-----|:-----|
 | *Seed*  <br/> |Una expresión de número entero que da como resultado el valor de inicialización. Si no se especifica el *valor de inicialización* , se asigna un valor de inicialización de forma aleatoria.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las llamadas repetitivas de la función **aleatorio** con el mismo valor de inicialización devuelven los resultados de la misma. 
   

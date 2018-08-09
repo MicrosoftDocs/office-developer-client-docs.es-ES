@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817414"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona los identificadores de propiedad que se corresponden con uno o varios nombres de propiedad.
   
@@ -36,7 +36,7 @@ HRESULT GetIDsFromNames(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cPropNames_
   
@@ -80,7 +80,7 @@ MAPI_W_ERRORS_RETURNED
   
 > La llamada satisfactoria, pero no se podrían devolver uno o varios identificadores de propiedad. El tipo de propiedad correspondiente para cada propiedad no está disponible se establece en **PT_ERROR** y su identificador en cero. Cuando se devuelve esta advertencia, controlar la llamada como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Vea [uso de Macros para el tratamiento de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::GetIDsFromNames** recupera una matriz de etiquetas de propiedad que mantenga los identificadores de propiedad para una o varias propiedades con nombre. Puede llamar a **IMAPIProp::GetIDsFromNames** para hacer lo siguiente: 
   
@@ -120,7 +120,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI utiliza el método **IMAPIProp::GetIDsFromNames** para obtener las etiquetas de propiedad para todas las propiedades con nombre que se han asignado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -132,12 +132,12 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIUID](mapiuid.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
   
-[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
+[Uso de macros para el control de errores](using-macros-for-error-handling.md)
 

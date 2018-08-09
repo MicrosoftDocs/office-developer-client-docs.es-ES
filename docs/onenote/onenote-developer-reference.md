@@ -1,0 +1,49 @@
+---
+title: Referencia para desarrolladores de OneNote
+manager: soliver
+ms.date: 05/16/2016
+ms.audience: Developer
+localization_priority: Normal
+ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
+description: Esta referencia contiene descripciones conceptuales y las referencias de programación que le guiarán en el desarrollo de soluciones para aplicaciones de cliente de escritorio de OneNote 2013.
+ms.openlocfilehash: 8af3f0b8623f0b457250ea11f185a25cadec7386
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19816045"
+---
+# <a name="onenote-developer-reference"></a>Referencia para desarrolladores de OneNote
+
+Esta referencia contiene descripciones conceptuales y las referencias de programación que le guiarán en el desarrollo de soluciones para aplicaciones de cliente de escritorio de OneNote 2013. Incluye todas las adiciones y cambios en la interfaz de programación de aplicaciones (API) de OneNote 2013 y proporciona ejemplos de código de C# que muestran cómo realizar algunas tareas en OneNote. La API de OneNote 2013 permite a los usuarios obtener acceso mediante programación y editar el contenido de OneNote. Los usuarios también pueden realizar cambios a la vista de ventanas de OneNote.
+  
+Esta documentación contiene la siguiente información:
+  
+- [Interfaces de ventana](window-interfaces-onenote.md): se describen las interfaces de **ventana** y de **Windows** , que permiten a los usuarios enumerar el conjunto de ventanas de OneNote y modificar determinadas propiedades de la ventana. 
+    
+- [Interfaces de cuadro de diálogo de archivado rápido](quick-filing-dialog-box-interfaces-onenote.md): se describen las interfaces que puede usar para personalizar mediante programación el cuadro de diálogo **Fiscal rápido** en OneNote 2013. 
+    
+- [Interfaz de aplicación](application-interface-onenote.md): se describen los métodos, propiedades y eventos que ayudan a recuperar, manipular y actualizar información de OneNote 2013 y contenido.
+    
+- [Enumeraciones](enumerations-onenote-developer-reference.md): describe las enumeraciones en el modelo de objetos de OneNote 2013.
+    
+- [Códigos de error](error-codes-onenote.md): se enumeran los códigos de error en el modelo de objetos de OneNote 2013.
+    
+> [!NOTE]
+> Las API descritas en esta documentación solo están destinadas para soluciones de cliente de escritorio de OneNote Win32 en escenarios no conectados. Para escenarios conectados, use las API de servicio de OneNote recomendadas. Para obtener más información, visite [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
+  
+## <a name="see-also"></a>Vea también
+
+- [OneNote para desarrolladores](http://go.microsoft.com/fwlink/?LinkID=390615)
+    
+- [Ejemplos en depósito](https://github.com/OneNoteDev/) (API de OneNote service) 
+    
+- [Accesibilidad en productos de Microsoft](http://www.microsoft.com/enable/products/default.aspx)
+    
+- [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+    
+- [Información de Copyright de referencia para desarrolladores de OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+    
+- [Aviso de privacidad en línea de Microsoft](http://privacy.microsoft.com/en-us/default.mspx)
+    
+

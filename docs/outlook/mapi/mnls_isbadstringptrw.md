@@ -19,7 +19,7 @@ ms.locfileid: "19818405"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Comprueba que un puntero a una cadena de caracteres ancho es válido.
   
@@ -29,7 +29,7 @@ BOOL MNLS_IsBadStringPtrW(
   UINT ucchMax);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
@@ -43,7 +43,7 @@ BOOL MNLS_IsBadStringPtrW(
 
 Devuelve un valor de tipo Boolean que es true si la cadena es incorrecta.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx). Para obtener más información, vea [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/aa366714%28VS.85%29.aspx).
   

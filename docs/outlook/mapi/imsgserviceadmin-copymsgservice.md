@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d9a15abc05bf0f0a6fef35dd489f12925b88014a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817745"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia un servicio de mensajes en un perfil. 
   
@@ -39,7 +39,7 @@ HRESULT CopyMsgService(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
@@ -87,13 +87,13 @@ MAPI_E_NOT_FOUND
   
 > El **MAPIUID** que señala _lpUID_ no hace referencia a un servicio de mensaje existente. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMsgServiceAdmin::CopyMsgService** copia un servicio de mensajes en un perfil, el perfil activo u otro perfil. El perfil que contiene el servicio de mensajes que se va a copiar y el destino no tienen que ser el mismo perfil, pero pueden ser. 
   
 Función de punto de entrada del servicio de mensajes no se llama para una operación de copia. El servicio de mensajes copiados tiene la misma configuración que su original. Para cambiar esta configuración, un cliente debe llamar al método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -101,5 +101,5 @@ Función de punto de entrada del servicio de mensajes no se llama para una opera
   
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

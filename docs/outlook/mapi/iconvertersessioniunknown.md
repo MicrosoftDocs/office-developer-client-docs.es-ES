@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a89b1a93b2b03f97426a3988739e9b0d8411f113
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817180"
 ---
-# <a name="iconvertersession--iunknown"></a>IConverterSession: IUnknown
+# <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite que las conversiones entre objetos MIME y los mensajes MAPI. Esto puede resultar útil en transportar los mensajes a través de Internet.
   
@@ -49,15 +49,15 @@ Permite que las conversiones entre objetos MIME y los mensajes MAPI. Esto puede 
 | *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
 |**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Especifica que la MAPI para el convertidor MIME utiliza cuando se convierte un mensaje MAPI a una secuencia MIME del conjunto de un carácter opcional.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Llame a **SetEncoding** antes de usar **MAPIToMIMEStm** para llevar a cabo la conversión. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de conversión de MIME a MAPI](about-the-mapi-mime-conversion-api.md)
+[Información sobre la API de conversión de MAPI-MIME](about-the-mapi-mime-conversion-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

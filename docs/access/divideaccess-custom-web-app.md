@@ -18,9 +18,9 @@ ms.locfileid: "19815350"
 Divide un número por otro.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  *cheques*  /  *divisor* 
   
@@ -34,7 +34,7 @@ Devuelve el tipo de datos del argumento con la prioridad más alta.
   
 Si un número entero *cheques* se dividen por un *divisor* de tipo entero, el resultado es un entero que tiene cualquier parte fraccionaria del resultado truncado. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor real devuelto por el operador / es el cociente de la primera expresión, dividida por la segunda expresión.
   

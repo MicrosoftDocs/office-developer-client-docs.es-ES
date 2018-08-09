@@ -19,9 +19,9 @@ ms.locfileid: "19815497"
 Devuelve un valor de tiempo en función de elementos especificados.
   
 > [!NOTE]
-> [!NOTA] La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **TimeFromParts** (*Hora*, *minuto*, *segundo*) 
   
@@ -33,7 +33,7 @@ La función **TimeFromParts** contiene los siguientes argumentos.
 | *Minuto*  <br/> |Expresión de tipo Integer que especifica los minutos.  <br/> |
 | *Segundo*  <br/> |Expresión de tipo Integer que especifica los segundos.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
  **TimeFromParts** devuelve un valor de hora totalmente inicializado. Si los argumentos no son válidos, se produce un error. Si cualquiera de los parámetros son null, se devuelve null. 
   

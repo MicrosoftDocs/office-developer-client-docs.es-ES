@@ -28,7 +28,7 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ppclone_
   
@@ -41,7 +41,7 @@ _ppclone_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_OUTOFMEMORY  <br/> |Hay suficiente memoria para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

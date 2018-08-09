@@ -1,5 +1,5 @@
 ---
-title: Implementación de una tabla de uso único proveedor
+title: Implementar una tabla puntual de proveedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817677"
 ---
-# <a name="implementing-a-provider-one-off-table"></a>Implementación de una tabla de uso único proveedor
+# <a name="implementing-a-provider-one-off-table"></a>Implementar una tabla puntual de proveedor
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI llama al método [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) de su proveedor cuando el usuario de una aplicación cliente agrega un destinatario a un mensaje saliente. Normalmente, los tipos de direcciones que se solicitó son únicos para el sistema de mensajería. Si el proveedor admite la creación de destinatarios, debe proporcionar una tabla de uso único que expone las plantillas para cada tipo de dirección del destinatario compatible. Si su proveedor no admite la creación de destinatarios, devolver MAPI_E_NO_SUPPORT de la llamada **GetOneOffTable** . 
   

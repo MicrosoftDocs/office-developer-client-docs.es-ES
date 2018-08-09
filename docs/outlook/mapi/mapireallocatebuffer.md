@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 182ab0c6-c9d3-4cc8-892f-f6b09312ceb9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 26dcc31f2ebdd1892f966bfb95fda1a65c5140cb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818276"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Reasigna un búfer de memoria. Se utiliza con la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
@@ -37,7 +37,7 @@ LPVOID * lppv
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _LPV_
   
@@ -51,11 +51,11 @@ LPVOID * lppv
   
 > Un puntero al búfer devuelto asignado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **MAPIReallocateBuffer** asigna un nuevo bloque de memoria del tamaño solicitado y copia el contenido del búfer que se pasa en este nuevo bloque de memoria. Si el bloque de memoria que se ha pasado contiene punteros internos, los punteros no cambian para que coincida con la nueva ubicación. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -10,7 +10,7 @@ keywords:
 - xlgetinst (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9484f7bbc1f5e0fc5b0def17f2ce79ef226dcd17
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815736"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Devuelve el identificador de instancia de la instancia de Microsoft Excel que actualmente se está llamando a un archivo DLL.
   
@@ -29,15 +29,15 @@ Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 Esta función no tiene argumentos.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 El identificador de instancia (**xltypeInt**) estará en el campo **val.w** . 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función puede usarse para distinguir entre varias instancias en ejecución de Excel que se va a llamar a la DLL.
   
@@ -74,7 +74,7 @@ short WINAPI xlGetInstExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

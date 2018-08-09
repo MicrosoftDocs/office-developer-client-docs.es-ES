@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8c246968dcac719a8ee8177e20e802f9c7033435
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818455"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Asigna e inicializa un objeto **IStream** OLE para tener acceso al contenido de un archivo. Esta función toma una cadena ANSI como el nombre de archivo, incluida la ruta de acceso y la extensión de archivo, por lo tanto, uso de la versión de Unicode de esta función, [OpenStreamOnFileW](openstreamonfilew.md), se recomienda.
   
@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpAllocateBuffer_
   
@@ -104,7 +104,7 @@ MAPI_E_NOT_FOUND
   
 > No existe el archivo designado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **OpenStreamOnFile** tiene dos usos importantes, diferenciados por la configuración de la marca SOF_UNIQUEFILENAME. Cuando no se establece este marcador, **OpenStreamOnFile** se abre un objeto **IStream** en un archivo existente, por ejemplo, para copiar su contenido en la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) de los datos adjuntos con el **IStream :: CopyTo** (método). En este caso, el parámetro _lpszFileName_ especifica la ruta de acceso y el nombre del archivo. 
   
@@ -128,7 +128,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el método **OpenStreamOnFile** para abrir un objeto stream en un archivo, por lo que se puede escribir un archivo adjunto a ella.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

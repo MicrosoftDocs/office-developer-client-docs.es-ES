@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f378bdd473410b846328cbe1f911eba9401f88cf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820757"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una propiedad MAPI.
   
@@ -42,7 +42,7 @@ typedef struct _SPropValue
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulPropTag**
   
@@ -64,7 +64,7 @@ typedef struct _SPropValue
 |PT_R4 o PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
 |PT_R8 o PT_DOUBLE  <br/> |**doble** <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |**b** <br/> |int corto sin firmar  <br/> |
-|PT_CURRENCY  <br/> |**actual** <br/> |[MONEDA](currency.md) <br/> |
+|PT_CURRENCY  <br/> |**actual** <br/> |[CURRENCY](currency.md) <br/> |
 |PT_APPTIME  <br/> |**en** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**FT** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
@@ -84,11 +84,11 @@ typedef struct _SPropValue
 |PT_MV_UNICODE  <br/> |**MVszW** <br/> |[SWStringArray](swstringarray.md) <br/> |
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
-|PT_ERROR  <br/> |**Err** <br/> |[SCODE](scode.md) <br/> |
+|PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
 |PT_NULL o pt Object  <br/> |**x** <br/> |LARGO  <br/> |
 |PT_PTR  <br/> |**LPV** <br/> |VOID\*  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El miembro **ulPropTag** se compone de dos partes: 
   
@@ -106,7 +106,7 @@ El miembro **dwAlignPad** se utiliza como relleno para realizar la alineación a
   
 Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [Actualizar las propiedades de MAPI](updating-mapi-properties.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

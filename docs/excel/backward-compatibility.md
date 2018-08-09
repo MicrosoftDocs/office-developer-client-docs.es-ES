@@ -8,7 +8,7 @@ keywords:
 - compatibilidad de la versión [excel 2007], compatibilidad XLL [Excel 2007], compatibilidad con versiones anteriores [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19815525"
 ---
 # <a name="backward-compatibility"></a>Compatibilidad con versiones anteriores
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 En este tema se tratan problemas de compatibilidad XLL en las diferentes versiones de Microsoft Excel.
   
@@ -71,9 +71,9 @@ Este enfoque tiene las siguientes consecuencias la posibilidad de que una hoja d
 
 Funciones de Analysis Toolpak (ATP) forman parte de Excel a partir de Excel 2007. Anteriormente, un XLL sólo puede llamar a una función ATP mediante el uso de [xlUDF](xludf.md). Iniciar en Excel 2007, las funciones de ATP deben llamarse mediante las enumeraciones de función definidas en xlcall.h. En el ejemplo de funciones definidas por el usuario de llamada desde las DLL muestra los dos métodos diferentes.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Devoluci�n de llamada de API de C funciona Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
+- [Funciones de devolución de llamada de API de C de Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
 - [Programar con la API de C en Excel](programming-with-the-c-api-in-excel.md)
-- [Novedades de la API C para Excel 2013](what-s-new-in-the-c-api-for-excel.md)
+- [Novedades de la API de C para Excel](what-s-new-in-the-c-api-for-excel.md)
 

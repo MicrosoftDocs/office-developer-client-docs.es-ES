@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 635a4a872b83a2996b1a0198975a0ecd2cd906eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817957"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Prueba dos estructuras [MAPIUID](mapiuid.md) para determinar si contienen el mismo identificador. 
   
@@ -36,7 +36,7 @@ Prueba dos estructuras [MAPIUID](mapiuid.md) para determinar si contienen el mis
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpuid1_
   
@@ -46,18 +46,18 @@ IsEqualMAPIUID(lpuid1, lpuid2)
   
 > Puntero a la segunda estructura **MAPIUID** que se probará. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro **IsEqualMAPIUID** devuelve TRUE si las dos estructuras **MAPIUID** contienen el mismo identificador y FALSE si no lo hace. 
   
 La macro **IsEqualMAPIUID** requiere que el archivo de encabezado Memory.h se incluirán. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [MAPIUID](mapiuid.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 
