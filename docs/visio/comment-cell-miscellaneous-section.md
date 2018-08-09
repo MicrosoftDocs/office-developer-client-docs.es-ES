@@ -16,26 +16,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821789"
 ---
-# <a name="comment-cell-miscellaneous-section"></a><span data-ttu-id="d1e76-103">Celda Comment (Sección de varios)</span><span class="sxs-lookup"><span data-stu-id="d1e76-103">Comment Cell (Miscellaneous Section)</span></span>
+# <a name="comment-cell-miscellaneous-section"></a><span data-ttu-id="1f68e-103">Celda Comment (sección Varios)</span><span class="sxs-lookup"><span data-stu-id="1f68e-103">Comment Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="d1e76-104">Contiene el texto de comentario en formato de cadena para una forma.</span><span class="sxs-lookup"><span data-stu-id="d1e76-104">Contains the comment text in string format for a shape.</span></span>
+<span data-ttu-id="1f68e-104">Contiene el texto de comentario en formato de cadena para una forma.</span><span class="sxs-lookup"><span data-stu-id="1f68e-104">Contains the comment text in string format for a shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d1e76-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="d1e76-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f68e-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="1f68e-105">Remarks</span></span>
 
-<span data-ttu-id="d1e76-106">También puede insertar un comentario haciendo clic en **Nuevo comentario** en la ficha **Revisar** .</span><span class="sxs-lookup"><span data-stu-id="d1e76-106">You can also insert a comment by clicking **New Comment** on the **Review** tab.</span></span> 
+<span data-ttu-id="1f68e-106">También puede insertar un comentario haciendo clic en **Nuevo comentario** en la ficha **Revisar**.</span><span class="sxs-lookup"><span data-stu-id="1f68e-106">You can also insert a comment by clicking **New Comment** on the **Review** tab.</span></span> 
   
-<span data-ttu-id="d1e76-107">Para obtener una referencia a la celda Comment por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="d1e76-107">To get a reference to the Comment cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="1f68e-107">Para obtener una referencia a la celda Comment por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="1f68e-107">To get a reference to the Comment cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d1e76-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="d1e76-108">Cell name:</span></span>  <br/> |<span data-ttu-id="d1e76-109">Comment</span><span class="sxs-lookup"><span data-stu-id="d1e76-109">Comment</span></span>  <br/> |
+|<span data-ttu-id="1f68e-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="1f68e-108">Cell name:</span></span>  <br/> |<span data-ttu-id="1f68e-109">Comment</span><span class="sxs-lookup"><span data-stu-id="1f68e-109">Comment</span></span>  <br/> |
    
-<span data-ttu-id="d1e76-110">Para obtener una referencia a la celda Comment por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="d1e76-110">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="1f68e-110">Para obtener una referencia desde un programa a la celda Comment por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="1f68e-110">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d1e76-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="d1e76-111">Section index:</span></span>  <br/> |<span data-ttu-id="d1e76-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d1e76-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="d1e76-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="d1e76-113">Row index:</span></span>  <br/> |<span data-ttu-id="d1e76-114">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="d1e76-114">**visRowMisc**</span></span> <br/> |
-|<span data-ttu-id="d1e76-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="d1e76-115">Cell index:</span></span>  <br/> |<span data-ttu-id="d1e76-116">**visComment**</span><span class="sxs-lookup"><span data-stu-id="d1e76-116">**visComment**</span></span> <br/> |
+|<span data-ttu-id="1f68e-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="1f68e-111">Section index:</span></span>  <br/> |<span data-ttu-id="1f68e-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="1f68e-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="1f68e-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="1f68e-113">Row index:</span></span>  <br/> |<span data-ttu-id="1f68e-114">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="1f68e-114">**visRowMisc**</span></span> <br/> |
+|<span data-ttu-id="1f68e-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="1f68e-115">Cell index:</span></span>  <br/> |<span data-ttu-id="1f68e-116">**visComment**</span><span class="sxs-lookup"><span data-stu-id="1f68e-116">**visComment**</span></span> <br/> |
    
 

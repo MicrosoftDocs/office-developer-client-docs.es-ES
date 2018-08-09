@@ -1,5 +1,5 @@
 ---
-title: Sección de propiedades de tema
+title: Sección Propiedades de tema
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823391"
 ---
-# <a name="theme-properties-section"></a><span data-ttu-id="67068-103">Sección de propiedades de tema</span><span class="sxs-lookup"><span data-stu-id="67068-103">Theme Properties Section</span></span>
+# <a name="theme-properties-section"></a><span data-ttu-id="00bf6-103">Sección Propiedades de tema</span><span class="sxs-lookup"><span data-stu-id="00bf6-103">Theme Properties Section</span></span>
 
-<span data-ttu-id="67068-104">Muestra los valores de índice del tema actualmente aplicado al documento, incluido el color, fuente, conector y valores de efectos.</span><span class="sxs-lookup"><span data-stu-id="67068-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
+<span data-ttu-id="00bf6-104">Muestra los valores de índice del tema actualmente aplicado al documento, incluido el color, fuente, conector y valores de efectos.</span><span class="sxs-lookup"><span data-stu-id="00bf6-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="67068-105">Notas</span><span class="sxs-lookup"><span data-stu-id="67068-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="00bf6-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="00bf6-105">Remarks</span></span>
 
-<span data-ttu-id="67068-106">Puede establecer los valores de tema en la ficha **Diseño** o mediante la realización de cambios en las celdas en la sección **Propiedades del tema** de la ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="67068-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="00bf6-106">Puede establecer los valores de tema en la ficha **Diseño** o mediante la realización de cambios en las celdas en la sección **Propiedades del tema** de la ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="00bf6-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
   
 

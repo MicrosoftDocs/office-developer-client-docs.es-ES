@@ -1,5 +1,5 @@
 ---
-title: Función TIME (VisioShapeSheet)
+title: TIME Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,42 +16,42 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823421"
 ---
-# <a name="time-function-visioshapesheet"></a><span data-ttu-id="2134a-103">Función TIME (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="2134a-103">TIME Function (VisioShapeSheet)</span></span>
+# <a name="time-function-visioshapesheet"></a><span data-ttu-id="ba1ce-103">TIME Function (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="ba1ce-103">TIME Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="2134a-104">Devuelve la hora representada por _hora_, _minuto_y _segundo_.</span><span class="sxs-lookup"><span data-stu-id="2134a-104">Returns the time represented by  _hour_,  _minute_, and  _second_.</span></span>
+<span data-ttu-id="ba1ce-104">Devuelve la hora representada por _hora_, _minuto_y _segundo_.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-104">Returns the time represented by  _hour_,  _minute_, and  _second_.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="2134a-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2134a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ba1ce-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ba1ce-105">Syntax</span></span>
 
-<span data-ttu-id="2134a-106">TIEMPO (** *hora* **, ** *minuto* **, ** *segundo* **)</span><span class="sxs-lookup"><span data-stu-id="2134a-106">TIME(** *hour* **, ** *minute* **, ** *second* ** )</span></span> 
+<span data-ttu-id="ba1ce-106">TIEMPO (** *hora* **, ** *minuto* **, ** *segundo* **)</span><span class="sxs-lookup"><span data-stu-id="ba1ce-106">TIME(** *hour* **, ** *minute* **, ** *second* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="2134a-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2134a-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="ba1ce-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ba1ce-107">Parameters</span></span>
 
-|<span data-ttu-id="2134a-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="2134a-108">**Name**</span></span>|<span data-ttu-id="2134a-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="2134a-109">**Required/Optional**</span></span>|<span data-ttu-id="2134a-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="2134a-110">**Data Type**</span></span>|<span data-ttu-id="2134a-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="2134a-111">**Description**</span></span>|
+|<span data-ttu-id="ba1ce-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-108">**Name**</span></span>|<span data-ttu-id="ba1ce-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-109">**Required/Optional**</span></span>|<span data-ttu-id="ba1ce-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-110">**Data Type**</span></span>|<span data-ttu-id="ba1ce-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="2134a-112">_hour_</span><span class="sxs-lookup"><span data-stu-id="2134a-112">_hour_</span></span> <br/> |<span data-ttu-id="2134a-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2134a-113">Required</span></span>  <br/> |<span data-ttu-id="2134a-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="2134a-114">**Numeric**</span></span> <br/> |<span data-ttu-id="2134a-115">El componente de hora.</span><span class="sxs-lookup"><span data-stu-id="2134a-115">The hour component.</span></span>  <br/> |
-| <span data-ttu-id="2134a-116">_minute_</span><span class="sxs-lookup"><span data-stu-id="2134a-116">_minute_</span></span> <br/> |<span data-ttu-id="2134a-117">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2134a-117">Required</span></span>  <br/> |<span data-ttu-id="2134a-118">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="2134a-118">**Numeric**</span></span> <br/> |<span data-ttu-id="2134a-119">El componente de minuto.</span><span class="sxs-lookup"><span data-stu-id="2134a-119">The minute comonent.</span></span>  <br/> |
-| <span data-ttu-id="2134a-120">_second_</span><span class="sxs-lookup"><span data-stu-id="2134a-120">_second_</span></span> <br/> |<span data-ttu-id="2134a-121">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2134a-121">Required</span></span>  <br/> |<span data-ttu-id="2134a-122">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="2134a-122">**Numeric**</span></span> <br/> |<span data-ttu-id="2134a-123">El componente de segundo.</span><span class="sxs-lookup"><span data-stu-id="2134a-123">The second component.</span></span>  <br/> |
+| <span data-ttu-id="ba1ce-112">_hour_</span><span class="sxs-lookup"><span data-stu-id="ba1ce-112">_hour_</span></span> <br/> |<span data-ttu-id="ba1ce-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ba1ce-113">Required</span></span>  <br/> |<span data-ttu-id="ba1ce-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-114">**Numeric**</span></span> <br/> |<span data-ttu-id="ba1ce-115">El componente de hora.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-115">The hour component.</span></span>  <br/> |
+| <span data-ttu-id="ba1ce-116">_minute_</span><span class="sxs-lookup"><span data-stu-id="ba1ce-116">_minute_</span></span> <br/> |<span data-ttu-id="ba1ce-117">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ba1ce-117">Required</span></span>  <br/> |<span data-ttu-id="ba1ce-118">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-118">**Numeric**</span></span> <br/> |<span data-ttu-id="ba1ce-119">El componente de minuto.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-119">The minute comonent.</span></span>  <br/> |
+| <span data-ttu-id="ba1ce-120">_second_</span><span class="sxs-lookup"><span data-stu-id="ba1ce-120">_second_</span></span> <br/> |<span data-ttu-id="ba1ce-121">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ba1ce-121">Required</span></span>  <br/> |<span data-ttu-id="ba1ce-122">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="ba1ce-122">**Numeric**</span></span> <br/> |<span data-ttu-id="ba1ce-123">El componente de segundo.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-123">The second component.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="2134a-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2134a-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="ba1ce-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ba1ce-124">Return value</span></span>
 
-<span data-ttu-id="2134a-125">Numeric</span><span class="sxs-lookup"><span data-stu-id="2134a-125">Numeric</span></span>
+<span data-ttu-id="ba1ce-125">Numeric</span><span class="sxs-lookup"><span data-stu-id="ba1ce-125">Numeric</span></span>
   
-## <a name="example-1"></a><span data-ttu-id="2134a-126">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="2134a-126">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="ba1ce-126">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="ba1ce-126">Example 1</span></span>
 
-<span data-ttu-id="2134a-127">TIME(15,30,30)</span><span class="sxs-lookup"><span data-stu-id="2134a-127">TIME(15,30,30)</span></span>
+<span data-ttu-id="ba1ce-127">TIME(15,30,30)</span><span class="sxs-lookup"><span data-stu-id="ba1ce-127">TIME(15,30,30)</span></span>
   
-<span data-ttu-id="2134a-128">Devuelve el valor que representa las 15:30:30.</span><span class="sxs-lookup"><span data-stu-id="2134a-128">Returns the value representing 15:30:30.</span></span>
+<span data-ttu-id="ba1ce-128">Devuelve el valor que representa las 15:30:30.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-128">Returns the value representing 15:30:30.</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="2134a-129">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="2134a-129">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="ba1ce-129">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="ba1ce-129">Example 2</span></span>
 
-<span data-ttu-id="2134a-130">FORMAT(TIME(15,30,30),"HH:mm")</span><span class="sxs-lookup"><span data-stu-id="2134a-130">FORMAT(TIME(15,30,30),"HH:mm")</span></span>
+<span data-ttu-id="ba1ce-130">FORMAT(TIME(15,30,30),"HH:mm")</span><span class="sxs-lookup"><span data-stu-id="ba1ce-130">FORMAT(TIME(15,30,30),"HH:mm")</span></span>
   
-<span data-ttu-id="2134a-131">Devuelve el valor que representa las 15:30.</span><span class="sxs-lookup"><span data-stu-id="2134a-131">Returns the value representing 15:30.</span></span>
+<span data-ttu-id="ba1ce-131">Devuelve el valor que representa las 15:30.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-131">Returns the value representing 15:30.</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="2134a-132">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="2134a-132">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="ba1ce-132">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="ba1ce-132">Example 3</span></span>
 
-<span data-ttu-id="2134a-133">TIME(15,30,30) + 8 eh.</span><span class="sxs-lookup"><span data-stu-id="2134a-133">TIME(15,30,30) + 8 eh.</span></span>
+<span data-ttu-id="ba1ce-133">TIME(15,30,30) + 8 eh.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-133">TIME(15,30,30) + 8 eh.</span></span>
   
-<span data-ttu-id="2134a-134">Devuelve el valor que representa las 23:30:30.</span><span class="sxs-lookup"><span data-stu-id="2134a-134">Returns the value representing 23:30:30.</span></span>
+<span data-ttu-id="ba1ce-134">Devuelve el valor que representa las 23:30:30.</span><span class="sxs-lookup"><span data-stu-id="ba1ce-134">Returns the value representing 23:30:30.</span></span>
   
 
