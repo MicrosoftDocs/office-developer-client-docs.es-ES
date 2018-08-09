@@ -14,21 +14,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822176"
 ---
-# <a name="fonttoid-function"></a><span data-ttu-id="1557a-103">FONTTOID (función)</span><span class="sxs-lookup"><span data-stu-id="1557a-103">FONTTOID Function</span></span>
+# <a name="fonttoid-function"></a><span data-ttu-id="016d2-103">Función FONTTOID</span><span class="sxs-lookup"><span data-stu-id="016d2-103">FONTTOID Function</span></span>
 
-<span data-ttu-id="1557a-104">Devuelve el identificador (Id.) de la fuente especificada.</span><span class="sxs-lookup"><span data-stu-id="1557a-104">Returns the identifier (ID) of the specified font.</span></span>
+<span data-ttu-id="016d2-104">Devuelve el identificador (Id.) de la fuente especificada.</span><span class="sxs-lookup"><span data-stu-id="016d2-104">Returns the identifier (ID) of the specified font.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="1557a-105">Se recomienda usar la función de la [fuente](font-function.md) , que es similar a la función **FONTTOID** .</span><span class="sxs-lookup"><span data-stu-id="1557a-105">It is recommended to use [FONT](font-function.md) function, which is similar to the **FONTTOID** function.</span></span> <span data-ttu-id="1557a-106">En Microsoft Visio 2013, se introdujo la función de la **fuente** que va a reemplazar **FONTTOID**.</span><span class="sxs-lookup"><span data-stu-id="1557a-106">In Microsoft Visio 2013, the **FONT** function was introduced to replace **FONTTOID**.</span></span> 
+> <span data-ttu-id="016d2-105">Se recomienda usar la función de la [fuente](font-function.md) , que es similar a la función **FONTTOID** .</span><span class="sxs-lookup"><span data-stu-id="016d2-105">It is recommended to use [FONT](font-function.md) function, which is similar to the **FONTTOID** function.</span></span> <span data-ttu-id="016d2-106">En Microsoft Visio 2013, se introdujo la función de la **fuente** que va a reemplazar **FONTTOID**.</span><span class="sxs-lookup"><span data-stu-id="016d2-106">In Microsoft Visio 2013, the **FONT** function was introduced to replace **FONTTOID**.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="1557a-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1557a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="016d2-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="016d2-107">Syntax</span></span>
 
-<span data-ttu-id="1557a-108">FONTTOID (** *font_name* **)</span><span class="sxs-lookup"><span data-stu-id="1557a-108">FONTTOID(** *font_name* ** )</span></span> 
+<span data-ttu-id="016d2-108">FONTTOID (** *font_name* **)</span><span class="sxs-lookup"><span data-stu-id="016d2-108">FONTTOID(** *font_name* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="1557a-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1557a-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="016d2-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="016d2-109">Parameters</span></span>
 
-|<span data-ttu-id="1557a-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="1557a-110">**Name**</span></span>|<span data-ttu-id="1557a-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="1557a-111">**Required/Optional**</span></span>|<span data-ttu-id="1557a-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="1557a-112">**Data Type**</span></span>|<span data-ttu-id="1557a-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="1557a-113">**Description**</span></span>|
+|<span data-ttu-id="016d2-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="016d2-110">**Name**</span></span>|<span data-ttu-id="016d2-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="016d2-111">**Required/Optional**</span></span>|<span data-ttu-id="016d2-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="016d2-112">**Data Type**</span></span>|<span data-ttu-id="016d2-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="016d2-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="1557a-114">_font_name_</span><span class="sxs-lookup"><span data-stu-id="1557a-114">_font_name_</span></span> <br/> |<span data-ttu-id="1557a-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="1557a-115">Required</span></span>  <br/> |<span data-ttu-id="1557a-116">**String**</span><span class="sxs-lookup"><span data-stu-id="1557a-116">**String**</span></span> <br/> |<span data-ttu-id="1557a-117">Nombre de la fuente.</span><span class="sxs-lookup"><span data-stu-id="1557a-117">The name of the font.</span></span>  <br/> |
+| <span data-ttu-id="016d2-114">_font_name_</span><span class="sxs-lookup"><span data-stu-id="016d2-114">_font_name_</span></span> <br/> |<span data-ttu-id="016d2-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="016d2-115">Required</span></span>  <br/> |<span data-ttu-id="016d2-116">**String**</span><span class="sxs-lookup"><span data-stu-id="016d2-116">**String**</span></span> <br/> |<span data-ttu-id="016d2-117">Nombre de la fuente.</span><span class="sxs-lookup"><span data-stu-id="016d2-117">The name of the font.</span></span>  <br/> |
    
 
