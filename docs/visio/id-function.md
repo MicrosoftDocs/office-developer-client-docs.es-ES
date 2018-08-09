@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822315"
 ---
-# <a name="id-function"></a><span data-ttu-id="0f837-103">ID (función)</span><span class="sxs-lookup"><span data-stu-id="0f837-103">ID Function</span></span>
+# <a name="id-function"></a><span data-ttu-id="c3977-103">Función ID</span><span class="sxs-lookup"><span data-stu-id="c3977-103">ID Function</span></span>
 
-<span data-ttu-id="0f837-104">Devuelve el identificador interno de una forma como un número.</span><span class="sxs-lookup"><span data-stu-id="0f837-104">Returns a shape's internal ID as a number.</span></span>
+<span data-ttu-id="c3977-104">Devuelve el identificador interno de una forma como un número.</span><span class="sxs-lookup"><span data-stu-id="c3977-104">Returns a shape's internal ID as a number.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="0f837-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0f837-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c3977-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c3977-105">Syntax</span></span>
 
-<span data-ttu-id="0f837-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="0f837-106">ID ()</span></span>
+<span data-ttu-id="c3977-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="c3977-106">ID ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="0f837-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0f837-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c3977-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="c3977-107">Return value</span></span>
 
-<span data-ttu-id="0f837-108">Number</span><span class="sxs-lookup"><span data-stu-id="0f837-108">Number</span></span>
+<span data-ttu-id="c3977-108">Number</span><span class="sxs-lookup"><span data-stu-id="c3977-108">Number</span></span>
   
 

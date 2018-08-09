@@ -14,20 +14,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821693"
 ---
-# <a name="calloutcount-function"></a><span data-ttu-id="b2e7f-103">CALLOUTCOUNT (función)</span><span class="sxs-lookup"><span data-stu-id="b2e7f-103">CALLOUTCOUNT Function</span></span>
+# <a name="calloutcount-function"></a><span data-ttu-id="3e643-103">Función CALLOUTCOUNT</span><span class="sxs-lookup"><span data-stu-id="3e643-103">CALLOUTCOUNT Function</span></span>
 
-<span data-ttu-id="b2e7f-104">Devuelve el número total de formas de llamada asociadas a la forma.</span><span class="sxs-lookup"><span data-stu-id="b2e7f-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
+<span data-ttu-id="3e643-104">Devuelve el número total de formas de llamada asociadas a la forma.</span><span class="sxs-lookup"><span data-stu-id="3e643-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="b2e7f-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="b2e7f-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="3e643-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="3e643-105">Version Information</span></span>
 
-<span data-ttu-id="b2e7f-106">Versión agregada: Visio 2010</span><span class="sxs-lookup"><span data-stu-id="b2e7f-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="3e643-106">Versión añadida: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="3e643-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b2e7f-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b2e7f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3e643-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3e643-107">Syntax</span></span>
 
-<span data-ttu-id="b2e7f-108">CALLOUTCOUNT()</span><span class="sxs-lookup"><span data-stu-id="b2e7f-108">CALLOUTCOUNT()</span></span>
+<span data-ttu-id="3e643-108">CALLOUTCOUNT()</span><span class="sxs-lookup"><span data-stu-id="3e643-108">CALLOUTCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="b2e7f-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b2e7f-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="3e643-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3e643-109">Return value</span></span>
 
- <span data-ttu-id="b2e7f-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="b2e7f-110">**Integer**</span></span>
+ <span data-ttu-id="3e643-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="3e643-110">**Integer**</span></span>
   
 

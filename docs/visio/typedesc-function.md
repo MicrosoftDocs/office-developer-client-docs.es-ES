@@ -16,20 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823474"
 ---
-# <a name="typedesc-function"></a><span data-ttu-id="83cc1-103">TYPEDESC (función)</span><span class="sxs-lookup"><span data-stu-id="83cc1-103">TYPEDESC Function</span></span>
+# <a name="typedesc-function"></a><span data-ttu-id="113fc-103">Función TYPEDESC</span><span class="sxs-lookup"><span data-stu-id="113fc-103">TYPEDESC Function</span></span>
 
-<span data-ttu-id="83cc1-104">Devuelve un valor de tipo string que describe un tipo de objeto interno.</span><span class="sxs-lookup"><span data-stu-id="83cc1-104">Returns a string that describes an object's internal type.</span></span> 
+<span data-ttu-id="113fc-104">Devuelve un valor de tipo string que describe un tipo de objeto interno.</span><span class="sxs-lookup"><span data-stu-id="113fc-104">Returns a string that describes an object's internal type.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="83cc1-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="83cc1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="113fc-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="113fc-105">Syntax</span></span>
 
-<span data-ttu-id="83cc1-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="83cc1-106">TYPEDESC ()</span></span>
+<span data-ttu-id="113fc-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="113fc-106">TYPEDESC ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="83cc1-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="83cc1-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="113fc-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="113fc-107">Return value</span></span>
 
-<span data-ttu-id="83cc1-108">Cadena</span><span class="sxs-lookup"><span data-stu-id="83cc1-108">String</span></span>
+<span data-ttu-id="113fc-108">String</span><span class="sxs-lookup"><span data-stu-id="113fc-108">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="83cc1-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="83cc1-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="113fc-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="113fc-109">Remarks</span></span>
 
-<span data-ttu-id="83cc1-110">La tabla siguiente enumera las cadenas descriptivas de los objetos internos.</span><span class="sxs-lookup"><span data-stu-id="83cc1-110">The following table lists descriptive strings for internal objects.</span></span>
+<span data-ttu-id="113fc-110">La tabla siguiente enumera las cadenas descriptivas de los objetos internos.</span><span class="sxs-lookup"><span data-stu-id="113fc-110">The following table lists descriptive strings for internal objects.</span></span>
   
 

@@ -16,28 +16,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823482"
 ---
-# <a name="upper-function"></a><span data-ttu-id="5045b-103">UPPER (función)</span><span class="sxs-lookup"><span data-stu-id="5045b-103">UPPER Function</span></span>
+# <a name="upper-function"></a><span data-ttu-id="f8550-103">Función UPPER</span><span class="sxs-lookup"><span data-stu-id="f8550-103">UPPER Function</span></span>
 
-<span data-ttu-id="5045b-104">Devuelve una cadena convertida en mayúsculas.</span><span class="sxs-lookup"><span data-stu-id="5045b-104">Returns a string converted to uppercase.</span></span>
+<span data-ttu-id="f8550-104">Devuelve una cadena convertida en mayúsculas.</span><span class="sxs-lookup"><span data-stu-id="f8550-104">Returns a string converted to uppercase.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="5045b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5045b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8550-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f8550-105">Syntax</span></span>
 
-<span data-ttu-id="5045b-106">SUPERIOR (** *expresión* **)</span><span class="sxs-lookup"><span data-stu-id="5045b-106">UPPER(** *expression* ** )</span></span> 
+<span data-ttu-id="f8550-106">SUPERIOR (** *expresión* **)</span><span class="sxs-lookup"><span data-stu-id="f8550-106">UPPER(** *expression* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="5045b-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5045b-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="f8550-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="f8550-107">Parameters</span></span>
 
-|<span data-ttu-id="5045b-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="5045b-108">**Name**</span></span>|<span data-ttu-id="5045b-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="5045b-109">**Required/Optional**</span></span>|<span data-ttu-id="5045b-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="5045b-110">**Data Type**</span></span>|<span data-ttu-id="5045b-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5045b-111">**Description**</span></span>|
+|<span data-ttu-id="f8550-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="f8550-108">**Name**</span></span>|<span data-ttu-id="f8550-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="f8550-109">**Required/Optional**</span></span>|<span data-ttu-id="f8550-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="f8550-110">**Data Type**</span></span>|<span data-ttu-id="f8550-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="f8550-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="5045b-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="5045b-112">_expression_</span></span> <br/> |<span data-ttu-id="5045b-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="5045b-113">Required</span></span>  <br/> |<span data-ttu-id="5045b-114">**Varía**</span><span class="sxs-lookup"><span data-stu-id="5045b-114">**Varies**</span></span> <br/> | <span data-ttu-id="5045b-115">Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.</span><span class="sxs-lookup"><span data-stu-id="5045b-115">A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase.</span></span>  <br/> |
+| <span data-ttu-id="f8550-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="f8550-112">_expression_</span></span> <br/> |<span data-ttu-id="f8550-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="f8550-113">Required</span></span>  <br/> |<span data-ttu-id="f8550-114">**Varies**</span><span class="sxs-lookup"><span data-stu-id="f8550-114">**Varies**</span></span> <br/> | <span data-ttu-id="f8550-115">Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.</span><span class="sxs-lookup"><span data-stu-id="f8550-115">A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5045b-116">Observaciones</span><span class="sxs-lookup"><span data-stu-id="5045b-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8550-116">Observaciones</span><span class="sxs-lookup"><span data-stu-id="f8550-116">Remarks</span></span>
 
-<span data-ttu-id="5045b-117">La conversión de mayúsculas y minúsculas depende de la configuración regional especificada en la configuración actual del usuario.</span><span class="sxs-lookup"><span data-stu-id="5045b-117">The case conversion is locale-specific, based on the current user settings.</span></span> 
+<span data-ttu-id="f8550-117">La conversión de mayúsculas y minúsculas depende de la configuración regional especificada en la configuración actual del usuario.</span><span class="sxs-lookup"><span data-stu-id="f8550-117">The case conversion is locale-specific, based on the current user settings.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="5045b-118">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="5045b-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f8550-118">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f8550-118">Example</span></span>
 
-<span data-ttu-id="5045b-119">UPPER("MAYÚSCULAS y minúsculas")</span><span class="sxs-lookup"><span data-stu-id="5045b-119">UPPER("mIxEd CAse")</span></span> 
+<span data-ttu-id="f8550-119">UPPER("MAYÚSCULAS y minúsculas")</span><span class="sxs-lookup"><span data-stu-id="f8550-119">UPPER("mIxEd CAse")</span></span> 
   
-<span data-ttu-id="5045b-120">Devuelve "MAYÚSCULAS Y MINÚSCULAS".</span><span class="sxs-lookup"><span data-stu-id="5045b-120">Returns "MIXED CASE".</span></span> 
+<span data-ttu-id="f8550-120">Devuelve "MAYÚSCULAS Y MINÚSCULAS".</span><span class="sxs-lookup"><span data-stu-id="f8550-120">Returns "MIXED CASE".</span></span> 
   
 

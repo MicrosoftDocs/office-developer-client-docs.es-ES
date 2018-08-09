@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821121"
 ---
-# <a name="isocialsessionlogon"></a><span data-ttu-id="bb42a-103">ISocialSession::Logon</span><span class="sxs-lookup"><span data-stu-id="bb42a-103">ISocialSession::Logon</span></span>
+# <a name="isocialsessionlogon"></a><span data-ttu-id="084c0-103">ISocialSession::Logon</span><span class="sxs-lookup"><span data-stu-id="084c0-103">ISocialSession::Logon</span></span>
 
-<span data-ttu-id="bb42a-104">Inicie sesión en el sitio de red social utilizando el nombre de usuario especificado y la contraseña.</span><span class="sxs-lookup"><span data-stu-id="bb42a-104">Logs on to the social network site by using the specified user name and password.</span></span>
+<span data-ttu-id="084c0-104">Inicie sesión en el sitio de red social utilizando el nombre de usuario especificado y la contraseña.</span><span class="sxs-lookup"><span data-stu-id="084c0-104">Logs on to the social network site by using the specified user name and password.</span></span>
   
 ```cpp
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bb42a-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bb42a-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="084c0-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="084c0-105">Parameters</span></span>
 
-<span data-ttu-id="bb42a-106">_nombre de usuario_</span><span class="sxs-lookup"><span data-stu-id="bb42a-106">_username_</span></span>
+<span data-ttu-id="084c0-106">_nombre de usuario_</span><span class="sxs-lookup"><span data-stu-id="084c0-106">_username_</span></span>
   
-> <span data-ttu-id="bb42a-107">[entrada] Una cadena que contiene el nombre de usuario para iniciar sesión.</span><span class="sxs-lookup"><span data-stu-id="bb42a-107">[in] A string that contains the user name to log on.</span></span>
+> <span data-ttu-id="084c0-107">[entrada] Una cadena que contiene el nombre de usuario para iniciar sesión.</span><span class="sxs-lookup"><span data-stu-id="084c0-107">[in] A string that contains the user name to log on.</span></span>
     
-<span data-ttu-id="bb42a-108">_contraseña_</span><span class="sxs-lookup"><span data-stu-id="bb42a-108">_password_</span></span>
+<span data-ttu-id="084c0-108">_contraseña_</span><span class="sxs-lookup"><span data-stu-id="084c0-108">_password_</span></span>
   
-> <span data-ttu-id="bb42a-109">[entrada] Una cadena que contiene la contraseña para iniciar sesión.</span><span class="sxs-lookup"><span data-stu-id="bb42a-109">[in] A string that contains the password to log on.</span></span>
+> <span data-ttu-id="084c0-109">[entrada] Una cadena que contiene la contraseña para iniciar sesión.</span><span class="sxs-lookup"><span data-stu-id="084c0-109">[in] A string that contains the password to log on.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="bb42a-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="bb42a-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="084c0-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="084c0-110">See also</span></span>
 
-- [<span data-ttu-id="bb42a-111">ISocialSession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb42a-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="084c0-111">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="084c0-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

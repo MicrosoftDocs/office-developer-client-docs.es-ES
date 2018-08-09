@@ -16,22 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822736"
 ---
-# <a name="pi-function"></a><span data-ttu-id="2aa60-103">PI (función)</span><span class="sxs-lookup"><span data-stu-id="2aa60-103">PI Function</span></span>
+# <a name="pi-function"></a><span data-ttu-id="8eeb7-103">Función PI</span><span class="sxs-lookup"><span data-stu-id="8eeb7-103">PI Function</span></span>
 
-<span data-ttu-id="2aa60-104">Devuelve la constante matemática *pi* , que es 3,1415926535898 aproximadamente.</span><span class="sxs-lookup"><span data-stu-id="2aa60-104">Returns the mathematical constant  *pi*  , which is approximately 3.1415926535898.</span></span> 
+<span data-ttu-id="8eeb7-104">Devuelve la constante matemática *pi* , que es 3,1415926535898 aproximadamente.</span><span class="sxs-lookup"><span data-stu-id="8eeb7-104">Returns the mathematical constant  *pi*  , which is approximately 3.1415926535898.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="2aa60-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2aa60-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8eeb7-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8eeb7-105">Syntax</span></span>
 
-<span data-ttu-id="2aa60-106">PI( )</span><span class="sxs-lookup"><span data-stu-id="2aa60-106">PI( )</span></span>
+<span data-ttu-id="8eeb7-106">PI( )</span><span class="sxs-lookup"><span data-stu-id="8eeb7-106">PI( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="2aa60-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2aa60-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="8eeb7-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="8eeb7-107">Return value</span></span>
 
-<span data-ttu-id="2aa60-108">Number</span><span class="sxs-lookup"><span data-stu-id="2aa60-108">Number</span></span>
+<span data-ttu-id="8eeb7-108">Number</span><span class="sxs-lookup"><span data-stu-id="8eeb7-108">Number</span></span>
   
-## <a name="example"></a><span data-ttu-id="2aa60-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="2aa60-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8eeb7-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="8eeb7-109">Example</span></span>
 
-<span data-ttu-id="2aa60-110">(14 en / 2) ^ 2 \* PI)</span><span class="sxs-lookup"><span data-stu-id="2aa60-110">(14 in / 2)^2 \* PI( )</span></span> 
+<span data-ttu-id="8eeb7-110">(14 en / 2) ^ 2 \* PI)</span><span class="sxs-lookup"><span data-stu-id="8eeb7-110">(14 in / 2)^2 \* PI( )</span></span> 
   
-<span data-ttu-id="2aa60-111">Devuelve 153,9380 pulgadas, el área de un círculo cuyo diámetro es de 14 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="2aa60-111">Returns 153.9380 inches, the area of a circle whose diameter is 14 inches.</span></span> 
+<span data-ttu-id="8eeb7-111">Devuelve 153,9380 pulgadas, el área de un círculo cuyo diámetro es de 14 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="8eeb7-111">Returns 153.9380 inches, the area of a circle whose diameter is 14 inches.</span></span> 
   
 

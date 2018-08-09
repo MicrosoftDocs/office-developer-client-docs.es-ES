@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRecipientFlags
+title: Propiedad canónica PidTagRecipientFlags
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a93e5a44768cd99512189f800bf98ab6e30b575d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,67 +19,67 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820025"
 ---
-# <a name="pidtagrecipientflags-canonical-property"></a><span data-ttu-id="b8d96-103">Propiedad canónico PidTagRecipientFlags</span><span class="sxs-lookup"><span data-stu-id="b8d96-103">PidTagRecipientFlags Canonical Property</span></span>
+# <a name="pidtagrecipientflags-canonical-property"></a><span data-ttu-id="ddffa-103">Propiedad canónica PidTagRecipientFlags</span><span class="sxs-lookup"><span data-stu-id="ddffa-103">PidTagRecipientFlags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b8d96-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="b8d96-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="ddffa-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="ddffa-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="b8d96-105">Especifica un campo de bits que describe el estado del destinatario.</span><span class="sxs-lookup"><span data-stu-id="b8d96-105">Specifies a bit field that describes the recipient status.</span></span>
+<span data-ttu-id="ddffa-105">Especifica un campo de bits que describe el estado del destinatario.</span><span class="sxs-lookup"><span data-stu-id="ddffa-105">Specifies a bit field that describes the recipient status.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b8d96-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="b8d96-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b8d96-107">PR_RECIPIENT_FLAGS</span><span class="sxs-lookup"><span data-stu-id="b8d96-107">PR_RECIPIENT_FLAGS</span></span>  <br/> |
-|<span data-ttu-id="b8d96-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="b8d96-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b8d96-109">0x5FFD</span><span class="sxs-lookup"><span data-stu-id="b8d96-109">0x5FFD</span></span>  <br/> |
-|<span data-ttu-id="b8d96-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="b8d96-110">Data type:</span></span>  <br/> |<span data-ttu-id="b8d96-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b8d96-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="b8d96-112">Área:</span><span class="sxs-lookup"><span data-stu-id="b8d96-112">Area:</span></span>  <br/> |<span data-ttu-id="b8d96-113">Destinatario del transporte</span><span class="sxs-lookup"><span data-stu-id="b8d96-113">Transport recipient</span></span>  <br/> |
+|<span data-ttu-id="ddffa-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="ddffa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ddffa-107">PR_RECIPIENT_FLAGS</span><span class="sxs-lookup"><span data-stu-id="ddffa-107">PR_RECIPIENT_FLAGS</span></span>  <br/> |
+|<span data-ttu-id="ddffa-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="ddffa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ddffa-109">0x5FFD</span><span class="sxs-lookup"><span data-stu-id="ddffa-109">0x5FFD</span></span>  <br/> |
+|<span data-ttu-id="ddffa-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="ddffa-110">Data type:</span></span>  <br/> |<span data-ttu-id="ddffa-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="ddffa-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="ddffa-112">Área:</span><span class="sxs-lookup"><span data-stu-id="ddffa-112">Area:</span></span>  <br/> |<span data-ttu-id="ddffa-113">Destinatario del transporte</span><span class="sxs-lookup"><span data-stu-id="ddffa-113">Transport recipient</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b8d96-114">Notas</span><span class="sxs-lookup"><span data-stu-id="b8d96-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ddffa-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ddffa-114">Remarks</span></span>
 
-<span data-ttu-id="b8d96-115">Esta propiedad no es necesaria.</span><span class="sxs-lookup"><span data-stu-id="b8d96-115">This property is not required.</span></span> <span data-ttu-id="b8d96-116">Los siguientes son los indicadores individuales que se pueden establecer.</span><span class="sxs-lookup"><span data-stu-id="b8d96-116">The following are the individual flags that can be set.</span></span>
+<span data-ttu-id="ddffa-115">Esta propiedad no es necesaria.</span><span class="sxs-lookup"><span data-stu-id="ddffa-115">This property is not required.</span></span> <span data-ttu-id="ddffa-116">Los siguientes son los indicadores individuales que se pueden establecer.</span><span class="sxs-lookup"><span data-stu-id="ddffa-116">The following are the individual flags that can be set.</span></span>
   
-|<span data-ttu-id="b8d96-117">**Valor**</span><span class="sxs-lookup"><span data-stu-id="b8d96-117">**Value**</span></span>|<span data-ttu-id="b8d96-118">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b8d96-118">**Description**</span></span>|
+|<span data-ttu-id="ddffa-117">**Valor**</span><span class="sxs-lookup"><span data-stu-id="ddffa-117">**Value**</span></span>|<span data-ttu-id="ddffa-118">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ddffa-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8d96-119">S (recipSendable, 0 x 00000001)</span><span class="sxs-lookup"><span data-stu-id="b8d96-119">S (recipSendable, 0x00000001)</span></span>  <br/> |<span data-ttu-id="b8d96-120">El destinatario es un asistente de **Sendable** .</span><span class="sxs-lookup"><span data-stu-id="b8d96-120">The recipient is a **Sendable** Attendee.</span></span> <span data-ttu-id="b8d96-121">Esta marca sólo se utiliza en la propiedad **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b8d96-121">This flag is only used in the **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) property.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-122">O (recipOrganizer, 0x0000002)</span><span class="sxs-lookup"><span data-stu-id="b8d96-122">O (recipOrganizer, 0x0000002)</span></span>  <br/> |<span data-ttu-id="b8d96-123">El **RecipientRow** en el que se ha configurado esta marca representa el organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="b8d96-123">The **RecipientRow** on which this flag is set represents the meeting Organizer.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-124">Recuperación de emergencia (recipExceptionalResponse, 0 x 00000010)</span><span class="sxs-lookup"><span data-stu-id="b8d96-124">ER (recipExceptionalResponse, 0x00000010)</span></span>  <br/> |<span data-ttu-id="b8d96-125">Indica que el asistente le dio una respuesta para la excepción en el que reside este **RecipientRow** .</span><span class="sxs-lookup"><span data-stu-id="b8d96-125">Indicates that the attendee gave a response for the exception on which this **RecipientRow** resides.</span></span> <span data-ttu-id="b8d96-126">Esta marca sólo se utiliza en un **RecipientRow** de un objeto de incrustación de mensajes de excepción del objeto del organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="b8d96-126">This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-127">ED (recipExceptionalDeleted, 0 x 00000020)</span><span class="sxs-lookup"><span data-stu-id="b8d96-127">ED (recipExceptionalDeleted, 0x00000020)</span></span>  <br/> |<span data-ttu-id="b8d96-128">Indica que aunque la **RecipientRow** existe, debe tratarse como si no lo hace el destinatario correspondiente.</span><span class="sxs-lookup"><span data-stu-id="b8d96-128">Indicates that although the **RecipientRow** exists, it should be treated as if the corresponding recipient does not.</span></span> <span data-ttu-id="b8d96-129">Esta marca sólo se utiliza en un **RecipientRow** de un objeto de incrustación de mensajes de excepción del objeto del organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="b8d96-129">This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-130">X (reservada, 0x00000040)</span><span class="sxs-lookup"><span data-stu-id="b8d96-130">X (reserved, 0x00000040)</span></span>  <br/> |<span data-ttu-id="b8d96-131">No se debe establecer.</span><span class="sxs-lookup"><span data-stu-id="b8d96-131">Must not be set.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-132">X (reservada, 0x00000080)</span><span class="sxs-lookup"><span data-stu-id="b8d96-132">X (reserved, 0x00000080)</span></span>  <br/> |<span data-ttu-id="b8d96-133">No se debe establecer.</span><span class="sxs-lookup"><span data-stu-id="b8d96-133">Must not be set.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-134">G (recipOriginal, 0 x 00000100)</span><span class="sxs-lookup"><span data-stu-id="b8d96-134">G (recipOriginal, 0x00000100)</span></span>  <br/> |<span data-ttu-id="b8d96-135">Indica que el destinatario es un asistente original.</span><span class="sxs-lookup"><span data-stu-id="b8d96-135">Indicates the recipient is an original attendee.</span></span> <span data-ttu-id="b8d96-136">Esta marca sólo se utiliza en la propiedad **dispidApptUnsendableRecips** .</span><span class="sxs-lookup"><span data-stu-id="b8d96-136">This flag is only used in the **dispidApptUnsendableRecips** property.</span></span>  <br/> |
-|<span data-ttu-id="b8d96-137">X (reservada, 0 x 00000200)</span><span class="sxs-lookup"><span data-stu-id="b8d96-137">X (reserved, 0x00000200)</span></span>  <br/> |<span data-ttu-id="b8d96-138">Reservado.</span><span class="sxs-lookup"><span data-stu-id="b8d96-138">Reserved.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-119">S (recipSendable, 0 x 00000001)</span><span class="sxs-lookup"><span data-stu-id="ddffa-119">S (recipSendable, 0x00000001)</span></span>  <br/> |<span data-ttu-id="ddffa-120">El destinatario es un asistente de **Sendable** .</span><span class="sxs-lookup"><span data-stu-id="ddffa-120">The recipient is a **Sendable** Attendee.</span></span> <span data-ttu-id="ddffa-121">Esta marca sólo se utiliza en la propiedad **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="ddffa-121">This flag is only used in the **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) property.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-122">O (recipOrganizer, 0x0000002)</span><span class="sxs-lookup"><span data-stu-id="ddffa-122">O (recipOrganizer, 0x0000002)</span></span>  <br/> |<span data-ttu-id="ddffa-123">El **RecipientRow** en el que se ha configurado esta marca representa el organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="ddffa-123">The **RecipientRow** on which this flag is set represents the meeting Organizer.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-124">Recuperación de emergencia (recipExceptionalResponse, 0 x 00000010)</span><span class="sxs-lookup"><span data-stu-id="ddffa-124">ER (recipExceptionalResponse, 0x00000010)</span></span>  <br/> |<span data-ttu-id="ddffa-125">Indica que el asistente le dio una respuesta para la excepción en el que reside este **RecipientRow** .</span><span class="sxs-lookup"><span data-stu-id="ddffa-125">Indicates that the attendee gave a response for the exception on which this **RecipientRow** resides.</span></span> <span data-ttu-id="ddffa-126">Esta marca sólo se utiliza en un **RecipientRow** de un objeto de incrustación de mensajes de excepción del objeto del organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="ddffa-126">This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-127">ED (recipExceptionalDeleted, 0 x 00000020)</span><span class="sxs-lookup"><span data-stu-id="ddffa-127">ED (recipExceptionalDeleted, 0x00000020)</span></span>  <br/> |<span data-ttu-id="ddffa-128">Indica que aunque la **RecipientRow** existe, debe tratarse como si no lo hace el destinatario correspondiente.</span><span class="sxs-lookup"><span data-stu-id="ddffa-128">Indicates that although the **RecipientRow** exists, it should be treated as if the corresponding recipient does not.</span></span> <span data-ttu-id="ddffa-129">Esta marca sólo se utiliza en un **RecipientRow** de un objeto de incrustación de mensajes de excepción del objeto del organizador de la reunión.</span><span class="sxs-lookup"><span data-stu-id="ddffa-129">This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-130">X (reservada, 0x00000040)</span><span class="sxs-lookup"><span data-stu-id="ddffa-130">X (reserved, 0x00000040)</span></span>  <br/> |<span data-ttu-id="ddffa-131">No se debe establecer.</span><span class="sxs-lookup"><span data-stu-id="ddffa-131">Must not be set.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-132">X (reservada, 0x00000080)</span><span class="sxs-lookup"><span data-stu-id="ddffa-132">X (reserved, 0x00000080)</span></span>  <br/> |<span data-ttu-id="ddffa-133">No se debe establecer.</span><span class="sxs-lookup"><span data-stu-id="ddffa-133">Must not be set.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-134">G (recipOriginal, 0 x 00000100)</span><span class="sxs-lookup"><span data-stu-id="ddffa-134">G (recipOriginal, 0x00000100)</span></span>  <br/> |<span data-ttu-id="ddffa-135">Indica que el destinatario es un asistente original.</span><span class="sxs-lookup"><span data-stu-id="ddffa-135">Indicates the recipient is an original attendee.</span></span> <span data-ttu-id="ddffa-136">Esta marca sólo se utiliza en la propiedad **dispidApptUnsendableRecips** .</span><span class="sxs-lookup"><span data-stu-id="ddffa-136">This flag is only used in the **dispidApptUnsendableRecips** property.</span></span>  <br/> |
+|<span data-ttu-id="ddffa-137">X (reservada, 0 x 00000200)</span><span class="sxs-lookup"><span data-stu-id="ddffa-137">X (reserved, 0x00000200)</span></span>  <br/> |<span data-ttu-id="ddffa-138">Reservado.</span><span class="sxs-lookup"><span data-stu-id="ddffa-138">Reserved.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="b8d96-139">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="b8d96-139">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ddffa-139">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ddffa-139">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b8d96-140">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="b8d96-140">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ddffa-140">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="ddffa-140">Protocol specifications</span></span>
 
-<span data-ttu-id="b8d96-141">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b8d96-141">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ddffa-141">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ddffa-141">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b8d96-142">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="b8d96-142">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ddffa-142">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="ddffa-142">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b8d96-143">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b8d96-143">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ddffa-143">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ddffa-143">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b8d96-144">Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.</span><span class="sxs-lookup"><span data-stu-id="b8d96-144">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="ddffa-144">Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.</span><span class="sxs-lookup"><span data-stu-id="ddffa-144">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b8d96-145">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="b8d96-145">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ddffa-145">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="ddffa-145">Header files</span></span>
 
-<span data-ttu-id="b8d96-146">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b8d96-146">Mapidefs.h</span></span>
+<span data-ttu-id="ddffa-146">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ddffa-146">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b8d96-147">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="b8d96-147">Provides data type definitions.</span></span>
+> <span data-ttu-id="ddffa-147">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ddffa-147">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b8d96-148">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b8d96-148">Mapitags.h</span></span>
+<span data-ttu-id="ddffa-148">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ddffa-148">Mapitags.h</span></span>
   
-> <span data-ttu-id="b8d96-149">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="b8d96-149">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ddffa-149">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="ddffa-149">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b8d96-150">Ver también</span><span class="sxs-lookup"><span data-stu-id="b8d96-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddffa-150">Vea también</span><span class="sxs-lookup"><span data-stu-id="ddffa-150">See also</span></span>
 
 
 
-[<span data-ttu-id="b8d96-151">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="b8d96-151">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ddffa-151">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ddffa-151">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b8d96-152">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="b8d96-152">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ddffa-152">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="ddffa-152">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b8d96-153">Asignación de nombres de propiedad canónico a nombres de MAPI</span><span class="sxs-lookup"><span data-stu-id="b8d96-153">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ddffa-153">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="ddffa-153">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b8d96-154">Asignación de nombres MAPI para nombres canónicos (propiedad)</span><span class="sxs-lookup"><span data-stu-id="b8d96-154">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ddffa-154">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="ddffa-154">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

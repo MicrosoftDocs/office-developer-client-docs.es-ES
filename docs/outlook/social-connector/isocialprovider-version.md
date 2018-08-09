@@ -15,23 +15,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821111"
 ---
-# <a name="isocialproviderversion"></a><span data-ttu-id="9c1b1-103">ISocialProvider::Version</span><span class="sxs-lookup"><span data-stu-id="9c1b1-103">ISocialProvider::Version</span></span>
+# <a name="isocialproviderversion"></a><span data-ttu-id="4b970-103">ISocialProvider::Version</span><span class="sxs-lookup"><span data-stu-id="4b970-103">ISocialProvider::Version</span></span>
 
-<span data-ttu-id="9c1b1-104">Devuelve un valor de tipo string que representa el número de versión del proveedor para esta red social.</span><span class="sxs-lookup"><span data-stu-id="9c1b1-104">Returns a string that represents the version number of the provider for this social network.</span></span> 
+<span data-ttu-id="4b970-104">Devuelve un valor de tipo string que representa el número de versión del proveedor para esta red social.</span><span class="sxs-lookup"><span data-stu-id="4b970-104">Returns a string that represents the version number of the provider for this social network.</span></span> 
   
 ```cpp
 [propget] HRESULT _stdcall Version([out, retval] BSTR* Version);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="9c1b1-105">Valor de propiedad</span><span class="sxs-lookup"><span data-stu-id="9c1b1-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="4b970-105">Valor de propiedad</span><span class="sxs-lookup"><span data-stu-id="4b970-105">Property value</span></span>
 
-<span data-ttu-id="9c1b1-106">Una cadena que contiene el número de versión del proveedor.</span><span class="sxs-lookup"><span data-stu-id="9c1b1-106">A string that contains the version number of the provider.</span></span>
+<span data-ttu-id="4b970-106">Una cadena que contiene el número de versión del proveedor.</span><span class="sxs-lookup"><span data-stu-id="4b970-106">A string that contains the version number of the provider.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9c1b1-107">Notas</span><span class="sxs-lookup"><span data-stu-id="9c1b1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4b970-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4b970-107">Remarks</span></span>
 
-<span data-ttu-id="9c1b1-108">La cadena de versión debe usar el _MajorVersion_.</span><span class="sxs-lookup"><span data-stu-id="9c1b1-108">The version string should use the  _MajorVersion_.</span></span> <span data-ttu-id="9c1b1-109">_MinorVersion_ formato (por ejemplo, 1.4730).</span><span class="sxs-lookup"><span data-stu-id="9c1b1-109">_MinorVersion_ format (for example, 1.4730).</span></span> 
+<span data-ttu-id="4b970-108">La cadena de versión debe usar el _MajorVersion_.</span><span class="sxs-lookup"><span data-stu-id="4b970-108">The version string should use the  _MajorVersion_.</span></span> <span data-ttu-id="4b970-109">_MinorVersion_ formato (por ejemplo, 1.4730).</span><span class="sxs-lookup"><span data-stu-id="4b970-109">_MinorVersion_ format (for example, 1.4730).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="9c1b1-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="9c1b1-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4b970-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="4b970-110">See also</span></span>
 
-- [<span data-ttu-id="9c1b1-111">ISocialProvider: IUnknown</span><span class="sxs-lookup"><span data-stu-id="9c1b1-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="4b970-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4b970-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

@@ -16,32 +16,32 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822105"
 ---
-# <a name="fieldpicture-function"></a><span data-ttu-id="0fa81-103">FIELDPICTURE (función)</span><span class="sxs-lookup"><span data-stu-id="0fa81-103">FIELDPICTURE Function</span></span>
+# <a name="fieldpicture-function"></a><span data-ttu-id="e4d7b-103">Función FIELDPICTURE</span><span class="sxs-lookup"><span data-stu-id="e4d7b-103">FIELDPICTURE Function</span></span>
 
-<span data-ttu-id="0fa81-104">Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="0fa81-104">Returns a format-picture string that matches the Microsoft Visio internal text field format code.</span></span>
+<span data-ttu-id="e4d7b-104">Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="e4d7b-104">Returns a format-picture string that matches the Microsoft Visio internal text field format code.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="0fa81-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0fa81-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e4d7b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e4d7b-105">Syntax</span></span>
 
-<span data-ttu-id="0fa81-106">FIELDPICTURE (** *código* **)</span><span class="sxs-lookup"><span data-stu-id="0fa81-106">FIELDPICTURE(** *code* ** )</span></span> 
+<span data-ttu-id="e4d7b-106">FIELDPICTURE (** *código* **)</span><span class="sxs-lookup"><span data-stu-id="e4d7b-106">FIELDPICTURE(** *code* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="0fa81-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0fa81-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e4d7b-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e4d7b-107">Parameters</span></span>
 
-|<span data-ttu-id="0fa81-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="0fa81-108">**Name**</span></span>|<span data-ttu-id="0fa81-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="0fa81-109">**Required/Optional**</span></span>|<span data-ttu-id="0fa81-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="0fa81-110">**Data Type**</span></span>|<span data-ttu-id="0fa81-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0fa81-111">**Description**</span></span>|
+|<span data-ttu-id="e4d7b-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="e4d7b-108">**Name**</span></span>|<span data-ttu-id="e4d7b-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="e4d7b-109">**Required/Optional**</span></span>|<span data-ttu-id="e4d7b-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="e4d7b-110">**Data Type**</span></span>|<span data-ttu-id="e4d7b-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e4d7b-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="0fa81-112">_code_</span><span class="sxs-lookup"><span data-stu-id="0fa81-112">_code_</span></span> <br/> |<span data-ttu-id="0fa81-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="0fa81-113">Required</span></span>  <br/> |<span data-ttu-id="0fa81-114">**Número**</span><span class="sxs-lookup"><span data-stu-id="0fa81-114">**Number**</span></span> <br/> | <span data-ttu-id="0fa81-115">Un código de formato de campo de texto.</span><span class="sxs-lookup"><span data-stu-id="0fa81-115">A text field format code.</span></span>  <br/> |
+| <span data-ttu-id="e4d7b-112">_code_</span><span class="sxs-lookup"><span data-stu-id="e4d7b-112">_code_</span></span> <br/> |<span data-ttu-id="e4d7b-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="e4d7b-113">Required</span></span>  <br/> |<span data-ttu-id="e4d7b-114">**Número**</span><span class="sxs-lookup"><span data-stu-id="e4d7b-114">**Number**</span></span> <br/> | <span data-ttu-id="e4d7b-115">Un código de formato de campo de texto.</span><span class="sxs-lookup"><span data-stu-id="e4d7b-115">A text field format code.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0fa81-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0fa81-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e4d7b-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e4d7b-116">Return value</span></span>
 
-<span data-ttu-id="0fa81-117">Cadena</span><span class="sxs-lookup"><span data-stu-id="0fa81-117">String</span></span>
+<span data-ttu-id="e4d7b-117">String</span><span class="sxs-lookup"><span data-stu-id="e4d7b-117">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0fa81-118">Observaciones</span><span class="sxs-lookup"><span data-stu-id="0fa81-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e4d7b-118">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e4d7b-118">Remarks</span></span>
 
-<span data-ttu-id="0fa81-119">Las cadenas de formato de imagen se utilizan en la función FORMAT para definir la forma de realizar la ampliación de valores para convertirlos en fechas, horas, números y etiquetas de unidades.</span><span class="sxs-lookup"><span data-stu-id="0fa81-119">Format picture strings are used in the FORMAT function to define the expansion of values to dates, times, numbers, and unit labels.</span></span>
+<span data-ttu-id="e4d7b-119">Las cadenas de formato de imagen se utilizan en la función FORMAT para definir la forma de realizar la ampliación de valores para convertirlos en fechas, horas, números y etiquetas de unidades.</span><span class="sxs-lookup"><span data-stu-id="e4d7b-119">Format picture strings are used in the FORMAT function to define the expansion of values to dates, times, numbers, and unit labels.</span></span>
   
-## <a name="example"></a><span data-ttu-id="0fa81-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="0fa81-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e4d7b-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e4d7b-120">Example</span></span>
 
-<span data-ttu-id="0fa81-121">FIELDPICTURE(0)</span><span class="sxs-lookup"><span data-stu-id="0fa81-121">FIELDPICTURE(0)</span></span> 
+<span data-ttu-id="e4d7b-121">FIELDPICTURE(0)</span><span class="sxs-lookup"><span data-stu-id="e4d7b-121">FIELDPICTURE(0)</span></span> 
   
-<span data-ttu-id="0fa81-122">Devuelve la cadena de formato de imagen "esc(0)", que especifica un número con un decimal y la descripción de las unidades en letras minúsculas cuando se usa en la función FORMAT.</span><span class="sxs-lookup"><span data-stu-id="0fa81-122">Returns the format picture string "esc(0)", which specifies a number that has one decimal place and a lowercase unit description when used in the FORMAT function.</span></span> 
+<span data-ttu-id="e4d7b-122">Devuelve la cadena de formato de imagen "esc(0)", que especifica un número con un decimal y la descripción de las unidades en letras minúsculas cuando se usa en la función FORMAT.</span><span class="sxs-lookup"><span data-stu-id="e4d7b-122">Returns the format picture string "esc(0)", which specifies a number that has one decimal place and a lowercase unit description when used in the FORMAT function.</span></span> 
   
 

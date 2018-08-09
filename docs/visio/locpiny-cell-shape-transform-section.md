@@ -16,26 +16,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822543"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="f3e5e-104">Celda LocPinY (Sección de transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="f3e5e-104">LocPinY Cell (Shape Transform Section)</span></span>
+# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="bfbea-104">Celda LocPinY (sección Transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="bfbea-104">LocPinY Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="f3e5e-105">Representa la *y* -coordenadas del eje de la forma (centro de rotación) en relación con el origen de la forma.</span><span class="sxs-lookup"><span data-stu-id="f3e5e-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="f3e5e-106">La fórmula predeterminada para determinar LocPinY es:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-106">The default formula for determining LocPinY is:</span></span> 
+<span data-ttu-id="bfbea-105">Representa la *y* -coordenadas del eje de la forma (centro de rotación) en relación con el origen de la forma.</span><span class="sxs-lookup"><span data-stu-id="bfbea-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="bfbea-106">La fórmula predeterminada para determinar LocPinY es:</span><span class="sxs-lookup"><span data-stu-id="bfbea-106">The default formula for determining LocPinY is:</span></span> 
   
-<span data-ttu-id="f3e5e-107">= Alto \* 0,5</span><span class="sxs-lookup"><span data-stu-id="f3e5e-107">= Height \* 0.5</span></span>
+<span data-ttu-id="bfbea-107">= Alto \* 0,5</span><span class="sxs-lookup"><span data-stu-id="bfbea-107">= Height \* 0.5</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f3e5e-108">Notas</span><span class="sxs-lookup"><span data-stu-id="f3e5e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bfbea-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bfbea-108">Remarks</span></span>
 
-<span data-ttu-id="f3e5e-109">Para obtener una referencia a la celda LocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="bfbea-109">Para obtener una referencia a la celda LocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="bfbea-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f3e5e-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-110">Cell name:</span></span>  <br/> | <span data-ttu-id="f3e5e-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="f3e5e-111">LocPinY</span></span>  <br/> |
+| <span data-ttu-id="bfbea-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="bfbea-110">Cell name:</span></span>  <br/> | <span data-ttu-id="bfbea-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="bfbea-111">LocPinY</span></span>  <br/> |
    
-<span data-ttu-id="f3e5e-112">Para obtener una referencia a la celda LocPinY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="bfbea-112">Para obtener una referencia desde un programa a la celda LocPinY por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="bfbea-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f3e5e-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-113">Section index:</span></span>  <br/> |<span data-ttu-id="f3e5e-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f3e5e-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="f3e5e-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-115">Row index:</span></span>  <br/> |<span data-ttu-id="f3e5e-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="f3e5e-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="f3e5e-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="f3e5e-117">Cell index:</span></span>  <br/> |<span data-ttu-id="f3e5e-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="f3e5e-118">**visXFormLocPinY**</span></span> <br/> |
+| <span data-ttu-id="bfbea-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="bfbea-113">Section index:</span></span>  <br/> |<span data-ttu-id="bfbea-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bfbea-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="bfbea-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="bfbea-115">Row index:</span></span>  <br/> |<span data-ttu-id="bfbea-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="bfbea-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="bfbea-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="bfbea-117">Cell index:</span></span>  <br/> |<span data-ttu-id="bfbea-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="bfbea-118">**visXFormLocPinY**</span></span> <br/> |
    
 

@@ -16,28 +16,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822015"
 ---
-# <a name="dooleverb-function"></a><span data-ttu-id="45a78-103">DOOLEVERB (función)</span><span class="sxs-lookup"><span data-stu-id="45a78-103">DOOLEVERB Function</span></span>
+# <a name="dooleverb-function"></a><span data-ttu-id="c158a-103">Función DOOLEVERB</span><span class="sxs-lookup"><span data-stu-id="c158a-103">DOOLEVERB Function</span></span>
 
-<span data-ttu-id="45a78-104">Ejecuta un verbo para el objeto OLE.</span><span class="sxs-lookup"><span data-stu-id="45a78-104">Executes a verb for the OLE object.</span></span>
+<span data-ttu-id="c158a-104">Ejecuta un verbo para el objeto OLE.</span><span class="sxs-lookup"><span data-stu-id="c158a-104">Executes a verb for the OLE object.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="45a78-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="45a78-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c158a-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c158a-105">Syntax</span></span>
 
-<span data-ttu-id="45a78-106">DOOLEVERB ("** *verbo* **")</span><span class="sxs-lookup"><span data-stu-id="45a78-106">DOOLEVERB(" ** *verb* ** ")</span></span> 
+<span data-ttu-id="c158a-106">DOOLEVERB ("** *verbo* **")</span><span class="sxs-lookup"><span data-stu-id="c158a-106">DOOLEVERB(" ** *verb* ** ")</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="45a78-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="45a78-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c158a-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="c158a-107">Parameters</span></span>
 
-|<span data-ttu-id="45a78-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="45a78-108">**Name**</span></span>|<span data-ttu-id="45a78-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="45a78-109">**Required/Optional**</span></span>|<span data-ttu-id="45a78-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="45a78-110">**Data Type**</span></span>|<span data-ttu-id="45a78-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="45a78-111">**Description**</span></span>|
+|<span data-ttu-id="c158a-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="c158a-108">**Name**</span></span>|<span data-ttu-id="c158a-109">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="c158a-109">**Required/Optional**</span></span>|<span data-ttu-id="c158a-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="c158a-110">**Data Type**</span></span>|<span data-ttu-id="c158a-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="c158a-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="45a78-112">_"verbo"_</span><span class="sxs-lookup"><span data-stu-id="45a78-112">_"verb"_</span></span> <br/> |<span data-ttu-id="45a78-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="45a78-113">Required</span></span>  <br/> |<span data-ttu-id="45a78-114">**String**</span><span class="sxs-lookup"><span data-stu-id="45a78-114">**String**</span></span> <br/> |<span data-ttu-id="45a78-115">Verbo para ejecutar.</span><span class="sxs-lookup"><span data-stu-id="45a78-115">The verb to execute.</span></span>  <br/> |
+| <span data-ttu-id="c158a-112">_"verbo"_</span><span class="sxs-lookup"><span data-stu-id="c158a-112">_"verb"_</span></span> <br/> |<span data-ttu-id="c158a-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="c158a-113">Required</span></span>  <br/> |<span data-ttu-id="c158a-114">**String**</span><span class="sxs-lookup"><span data-stu-id="c158a-114">**String**</span></span> <br/> |<span data-ttu-id="c158a-115">Verbo para ejecutar.</span><span class="sxs-lookup"><span data-stu-id="c158a-115">The verb to execute.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="45a78-116">Observaciones</span><span class="sxs-lookup"><span data-stu-id="45a78-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c158a-116">Observaciones</span><span class="sxs-lookup"><span data-stu-id="c158a-116">Remarks</span></span>
 
-<span data-ttu-id="45a78-p101">En versiones anteriores de Visio, esta función se denominaba _DOOLEVERB. La versión 4.0 de Visio y posteriores aceptan cualquiera de las dos denominaciones.</span><span class="sxs-lookup"><span data-stu-id="45a78-p101">In earlier versions of Visio, this function appears as _DOOLEVERB. Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="c158a-p101">En versiones anteriores de Visio, esta función se denominaba _DOOLEVERB. La versión 4.0 de Visio y posteriores aceptan cualquiera de las dos denominaciones.</span><span class="sxs-lookup"><span data-stu-id="c158a-p101">In earlier versions of Visio, this function appears as _DOOLEVERB. Visio versions 4.0 and later accept either style.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="45a78-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="45a78-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c158a-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="c158a-119">Example</span></span>
 
-<span data-ttu-id="45a78-120">DOOLEVERB("edit")</span><span class="sxs-lookup"><span data-stu-id="45a78-120">DOOLEVERB("edit")</span></span>
+<span data-ttu-id="c158a-120">DOOLEVERB("edit")</span><span class="sxs-lookup"><span data-stu-id="c158a-120">DOOLEVERB("edit")</span></span>
   
-<span data-ttu-id="45a78-121">Ejecuta el programa del objeto OLE y muestra el objeto vinculado o incrustado de forma que pueda modificarse.</span><span class="sxs-lookup"><span data-stu-id="45a78-121">Runs the OLE object program and displays the linked or embedded object so that it can be edited.</span></span>
+<span data-ttu-id="c158a-121">Ejecuta el programa del objeto OLE y muestra el objeto vinculado o incrustado de forma que pueda modificarse.</span><span class="sxs-lookup"><span data-stu-id="c158a-121">Runs the OLE object program and displays the linked or embedded object so that it can be edited.</span></span>
   
 

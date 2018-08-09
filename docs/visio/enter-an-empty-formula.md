@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822083"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="b179f-102">Escribir una fórmula vacía</span><span class="sxs-lookup"><span data-stu-id="b179f-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="e354d-102">Escribir una fórmula vacía</span><span class="sxs-lookup"><span data-stu-id="e354d-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="b179f-103">Seleccione la celda que contendrá la fórmula.</span><span class="sxs-lookup"><span data-stu-id="b179f-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="e354d-103">Seleccione la celda que contendrá la fórmula.</span><span class="sxs-lookup"><span data-stu-id="e354d-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="b179f-104">Presione Supr y, a continuación, Entrar.</span><span class="sxs-lookup"><span data-stu-id="b179f-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="e354d-104">Presione Supr y, a continuación, Entrar.</span><span class="sxs-lookup"><span data-stu-id="e354d-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="b179f-105">Intente esto en una celda **Scratch** después de insertar una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="b179f-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="b179f-106">La celda revierte a 'Sin fórmulas', porque no hay ninguna fórmula para que herede desde el principal.</span><span class="sxs-lookup"><span data-stu-id="b179f-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="e354d-105">Intente esto en una celda **Scratch** después de insertar una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="e354d-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="e354d-106">La celda revierte a 'Sin fórmulas', porque no hay ninguna fórmula para que herede desde el principal.</span><span class="sxs-lookup"><span data-stu-id="e354d-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 
