@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823582"
 ---
-# <a name="y-behavior-cell-controls-section"></a>Celda Y Behavior (Sección de controles)
+# <a name="y-behavior-cell-controls-section"></a>Celda Y Behavior (sección Controles)
 
 Controla el tipo de comportamiento de la *y* -coordenada del controlador cuando éste se mueve. Estas fórmulas están disponibles. 
   
@@ -33,15 +33,15 @@ Controla el tipo de comportamiento de la *y* -coordenada del controlador cuando 
 | 8  <br/> | Desplazamiento respecto al centro, oculto  <br/> | El mismo efecto que 3, pero el controlador no es visible.  <br/> |**visCtlOffsetMidHidden** <br/> |
 | 9  <br/> | Desplazamiento respecto al borde derecho, oculto  <br/> | El mismo efecto que 4, pero el controlador no es visible.  <br/> |**visCtlOffsetMaxHidden** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Y Behavior por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Y Behavior por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Controles.  *nombre* . Controles de YConwhere.  *nombre* es el nombre de la fila de controles.  <br/> |
    
-Para obtener una referencia a la celda Y Behavior por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Y Behavior por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

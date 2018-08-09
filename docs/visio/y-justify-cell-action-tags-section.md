@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823596"
 ---
-# <a name="y-justify-cell-action-tags-section"></a>Celda Y Justify (sección de etiquetas de acción)
+# <a name="y-justify-cell-action-tags-section"></a>Celda Y Justify (sección Etiquetas de acción)
 
 La *y* -desplazamiento del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y. 
   
@@ -29,17 +29,17 @@ La *y* -desplazamiento del botón de etiqueta de acción en relación con el pun
 | 1  <br/> | Centrada.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
 | 2  <br/> | Justificado abajo.  <br/> |**visSmartTagYJustifyBottom** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las celdas X Justify e Y Justify determinan dónde se coloca el botón de etiqueta de acción en relación con el punto definido en las celdas X e Y.
   
-Para obtener una referencia a la celda Y Justify por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Y Justify por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . YJustify donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
    
-Para obtener una referencia a la celda Y Justify por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Y Justify por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

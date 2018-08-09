@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823588"
 ---
-# <a name="x-dynamics-cell-controls-section"></a>Celda X Dynamics (Sección de controles)
+# <a name="x-dynamics-cell-controls-section"></a>Celda X Dynamics (sección Controles)
 
 Representa la *x* -coordenadas de punto de anclaje del controlador en coordenadas locales. 
   
@@ -24,13 +24,13 @@ Representa la *x* -coordenadas de punto de anclaje del controlador en coordenada
 
 El punto de anclaje se utiliza para determinar los límites elásticos en las operaciones dinámicas.
   
-Para obtener una referencia a la celda X Dynamics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda X Dynamics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Controles.  *nombre* . Controles de XDynwhere.  *nombre* es el nombre de la fila de controles.  <br/> |
    
-Para obtener una referencia a la celda X Dynamics por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda X Dynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

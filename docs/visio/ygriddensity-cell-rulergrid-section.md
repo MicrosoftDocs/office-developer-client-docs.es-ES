@@ -1,5 +1,5 @@
 ---
-title: Celda YGridDensity (regla &amp; sección de la cuadrícula)
+title: Celda YGridDensity (sección Regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823601"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Celda YGridDensity (regla &amp; sección de la cuadrícula)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Celda YGridDensity (sección Regla y cuadrícula)
 
 Especifica el tipo de cuadrícula vertical que se va a utilizar.
   
@@ -27,17 +27,17 @@ Especifica el tipo de cuadrícula vertical que se va a utilizar.
 |4  <br/> |Normal (predeterminada)  <br/> |**visGridNormal** <br/> |
 |8  <br/> |Fina  <br/> |**visGridFine** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta celda corresponde a la vertical **espaciado de la cuadrícula** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
-Para obtener una referencia a la celda YGridDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda YGridDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |YGridDensity  <br/> |
    
-Para obtener una referencia a la celda YGridDensity por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda YGridDensity por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

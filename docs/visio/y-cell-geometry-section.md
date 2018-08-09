@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823595"
 ---
-# <a name="y-cell-geometry-section"></a>Celda Y (Sección de geometría)
+# <a name="y-cell-geometry-section"></a>Celda Y (sección Geometría)
 
 Representa una *y* -coordenadas en una forma en coordenadas locales. En esta tabla se describe la celda Y según la fila en la que se encuentre. 
   
@@ -33,24 +33,24 @@ Representa una *y* -coordenadas en una forma en coordenadas locales. En esta tab
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Una coordenada *y* de un punto de la línea infinita.  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | La *y* -coordenadas del centro de la elipse.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Y por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría *i* . Y *j* donde *i* y *j* = < 1 >, 2, 3...  <br/> |
 || Geometría *i* . Y1 (filas InfiniteLine y Ellipse) donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Y por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionFirstComponent** +  *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de fila:  <br/> |**visRowVertex** +  *j* donde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Filas InfiniteLine y Ellipse)  <br/> |
-| Índice de celda:  <br/> |**visY** (Filas MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart y SplineKnot)  <br/> |
-||**visInfiniteLineY1** (Fila InfiniteLine)  <br/> |
-||**visEllipseCenterY** (Fila ellipse)  <br/> |
+||**visRowVertex** (filas InfiniteLine y Ellipse)  <br/> |
+| Índice de celda:  <br/> |**visY** (filas MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart y SplineKnot)  <br/> |
+||**visInfiniteLineY1** (fila InfiniteLine)  <br/> |
+||**visEllipseCenterY** (fila Ellipse)  <br/> |
    
 

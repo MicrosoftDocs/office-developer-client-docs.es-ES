@@ -1,5 +1,5 @@
 ---
-title: Función YEAR (VisioShapeSheet)
+title: YEAR Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823600"
 ---
-# <a name="year-function-visioshapesheet"></a>Función YEAR (VisioShapeSheet)
+# <a name="year-function-visioshapesheet"></a>YEAR Function (VisioShapeSheet)
 
 Devuelve un valor de tipo integer que representa el año gregoriano de _fecha y hora_ o _expresión_, con formato de acuerdo con el estilo corto de fecha establecido en configuración de idioma y región actual del sistema.
   
@@ -24,13 +24,13 @@ Devuelve un valor de tipo integer que representa el año gregoriano de _fecha y 
 
 AÑO ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _fecha y hora_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

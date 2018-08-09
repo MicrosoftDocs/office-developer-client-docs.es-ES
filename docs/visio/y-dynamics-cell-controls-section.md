@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823618"
 ---
-# <a name="y-dynamics-cell-controls-section"></a>Celda Y Dynamics (Sección de controles)
+# <a name="y-dynamics-cell-controls-section"></a>Celda Y Dynamics (sección Controles)
 
 Representa la *y* -coordenadas de punto de anclaje del controlador en coordenadas locales. El punto de anclaje se utiliza para determinar los límites elásticos en las operaciones dinámicas. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Y Dynamics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Y Dynamics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Controles.  *nombre* . Controles de YDynwhere.  *nombre* es el nombre de la fila de controles.  <br/> |
    
-Para obtener una referencia a la celda Y Dynamics por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Y Dynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

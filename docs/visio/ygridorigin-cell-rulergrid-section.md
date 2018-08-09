@@ -1,5 +1,5 @@
 ---
-title: Celda YGridOrigin (regla &amp; sección de la cuadrícula)
+title: Celda YGridOrigin (sección Regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823594"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Celda YGridOrigin (regla &amp; sección de la cuadrícula)
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Celda YGridOrigin (sección Regla y cuadrícula)
 
 Especifica el origen vertical de la cuadrícula.
   
@@ -24,13 +24,13 @@ Especifica el origen vertical de la cuadrícula.
 
 Esta celda corresponde a la vertical de **origen de la cuadrícula** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
-Para obtener una referencia a la celda YGridOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda YGridOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |YGridOrigin  <br/> |
    
-Para obtener una referencia a la celda YGridOrigin por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda YGridOrigin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

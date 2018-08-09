@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823564"
 ---
-# <a name="x-cell-controls-section"></a>Celda X (Sección de controles)
+# <a name="x-cell-controls-section"></a>Celda X (sección Controles)
 
 Representa la *x* -coordenada que indica la ubicación del controlador de una forma en coordenadas locales. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda X por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda X por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Controles.  *nombre* . X donde controla.  *nombre* es el nombre de la fila de controles.  <br/> |
    
-Para obtener una referencia a la celda X por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

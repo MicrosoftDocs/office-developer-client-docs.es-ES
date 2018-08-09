@@ -82,9 +82,9 @@ Word 2013 permite que un control de contenido individual que aparezca en uno de 
 - Ninguno
     
 > [!NOTE]
-> Si no se indique lo contrario, en esta sección se describe la visualización de los controles de contenido cuando el documento no se ve en **Modo de diseño**. Establecer el modo de presentación para un control de contenido mediante el control de lista desplegable **se muestran como** en el cuadro de diálogo **Propiedades del Control de contenido** . 
+> A menos que se indique lo contrario, en esta sección se explica la visualización de controles de contenido cuando el documento no se está viendo en **Modo Diseño**. El modo de presentación de un control de contenido se establece mediante el control de lista desplegable **Mostrar como** en el cuadro de diálogo **Propiedades del control de contenido**. 
   
-**En la figura 1. Cuadro de diálogo de propiedades de Control de contenido**
+**Figura 1. Cuadro de diálogo Propiedades del control de contenido**
 
 ![Cuadro de diálogo de propiedades de control de contenido] (media/DK2_WordCC_Fig01.jpg "Cuadro de diálogo de propiedades de control de contenido")
   
@@ -99,29 +99,29 @@ La representación predeterminada para los controles de contenido en Word 2013 e
     
 - Al pasar el mouse sobre él, el control de contenido aparece como un rectángulo sombreado.
     
-**La figura 2. Control de contenido al pasar el mouse**
+**Figura 2. Control de contenido al pasar el mouse sobre él.**
 
 ![Control en el mouse (ratón) de contenido a través de] (media/DK2_WordCC_Fig02.jpg "Control en el mouse (ratón) de contenido a través de")
   
 - Cuando el control de contenido tiene el foco (cuando el usuario elige el control de contenido), el control aparece como un "rectángulo de selección" (con una línea alrededor del contenido y la exhibición de título, si se ha definido un título).
     
-**La figura 3. Control de contenido con foco**
+**Figura 3. Control de contenido con foco**
 
 ![Control con el foco de contenido] (media/DK2_WordCC_Fig03.jpg "Control con el foco de contenido")
   
 ### <a name="startend-tags"></a>Etiquetas de inicio o finalización
 <a name="WordCC_StartEndTags"> </a>
 
-Cuando el control de contenido está configurado para mostrar como **etiqueta de inicio y finalización**, se muestran las etiquetas independientemente de la interacción del usuario, y el título no aparecerá nunca; pero los botones, como el botón de **Lista desplegable** , aparecen en el mouse (ratón) a través de. 
+Cuando se establece el control de contenido para que aparezca como **Etiqueta de inicio o finalización**, las etiquetas se muestran con independencia de la interacción del usuario y nunca aparecerá el título; pero los botones, como el botón **Lista desplegable**, aparecen al pasar el mouse sobre él. 
   
-**La figura 4. Control de contenido configurado para mostrar como etiquetas de inicio y finalización**
+**Figura 4. Control de contenido establecido para aparecer como etiquetas de inicio o finalización**
 
 ![Control de contenido configurado para mostrar como de inicio y finalización de las etiquetas] (media/DK2_WordCC_Fig04.jpg "Control de contenido configurado para mostrar como de inicio y finalización de las etiquetas")
   
-### <a name="none"></a>None
+### <a name="none"></a>Ninguno
 <a name="WordCC_Invisible"> </a>
 
-Cuando el control de contenido está configurado para mostrar como **Ninguno**, no se muestra el control de contenido.
+Cuando se establece el control de contenido para que aparezca como **Ninguno**, no se muestra el control de contenido.
   
 ### <a name="content-control-colorization"></a>Coloración del control de contenido
 <a name="WordCC_CCColorization"> </a>
@@ -130,7 +130,7 @@ Además de habilitar a un tipo de presentación para un control de contenido dif
   
 También puede establecer el color de un control de contenido mediante el modelo de objetos de Word 2013 (Esto se describe más adelante en [miembros del modelo de objeto de control de contenido de nuevo Word 2013](#WordCC_NewOM)).
   
-**La figura 5. Cuadro de diálogo de propiedades de Control de contenido**
+**Figura 5. Cuadro de diálogo Propiedades del control de contenido**
 
 ![Cuadro de diálogo de propiedades de control de contenido] (media/DK2_WordCC_Fig05.jpg "Cuadro de diálogo de propiedades de control de contenido")
   
@@ -142,7 +142,7 @@ Word 2013 le ayuda a asignar el contenido de los controles de contenido de texto
 > [!NOTE]
 > Los controles de contenido de texto enriquecido no pueden contener otros controles de contenido de texto enriquecido. Si uno existe dentro de otro (por ejemplo, debido a una manipulación del formato de archivo, mediante copiar y pegar, etc.), se desvincula hasta que deja de estar contenido dentro de un control de texto enriquecido. 
   
-Para obtener más información acerca de cómo configurar la asignación de XML, vea la sección [miembros del modelo de objeto de control de contenido de nuevo Word 2013](#WordCC_NewOM) más adelante en este tema. 
+Para obtener más información acerca de cómo configurar la asignación XML, consulte la sección [Nuevos miembros del modelo de objetos de controles de contenido de Word 2013](#WordCC_NewOM) más adelante en este tema. 
   
 ### <a name="supporting-repeating-content"></a>Compatibilidad con contenido de repetición
 <a name="WordCC_SupportingRepeating"> </a>
@@ -151,19 +151,19 @@ Además de las mejoras de visualización y soporte técnico para la asignación 
   
 El control de contenido para repetición de secciones se inserta alrededor de párrafos enteros o de filas de tablas. Una vez que el control rodea una sección, puede insertar copias de la sección encima o debajo de la sección contenida.
   
-**La figura 6. Menú contextual de control de contenido de sección de repetición**
+**Figura 6. Menú contextual del control de contenido para repetición de secciones**
 
 ![Contexto de control de contenido de sección de repetición] (media/DK2_WordCC_Fig06.jpg "Contexto de control de contenido de sección de repetición")
   
 Puede repetir la sección insertada mediante el control en el extremo del control de contenido (que se muestra como un botón con un![signo más]((media/DK2_WordCC_Fig06A.jpg "signo más")) de signo más) o eligiendo un comando en el menú contextual, como se muestra en la figura 6. El contenido repetido se convierte en una sección independiente del control que puede asignar un título mediante el cuadro de diálogo **Propiedades del Control de contenido** . 
   
-**La figura 7. Asignar un título de sección en el cuadro de diálogo Propiedades del Control de contenido**
+**Figura 7. Asignar un título de sección en el cuadro de diálogo Propiedades del control de contenido**
 
 ![Cuadro de diálogo de propiedades de control de contenido] (media/DK2_WordCC_Fig07.jpg "Cuadro de diálogo de propiedades de control de contenido")
   
-Una vez que se ha concedido a la sección un título, si selecciona **Permitir a los usuarios para agregar y quitar secciones** en el cuadro de diálogo **Propiedades del Control de contenido** , los usuarios pueden agregar o eliminar la sección por su nombre. 
+Una vez que ha asignado un título a la sección, si selecciona **Permitir a usuarios agregar y quitar secciones** en el cuadro de diálogo **Propiedades del control de contenido**, los usuarios podrán agregar o eliminar la sección por su nombre. 
   
-**La figura 8. Use el menú de contexto de control de contenido de sección extensible para eliminar una sección**
+**Figura 8. Usar el menú contextual del control de contenido para repetición de secciones para eliminar una sección**
 
 ![Contexto de control de contenido de sección de repetición] (media/DK2_WordCC_Fig08.jpg "Contexto de control de contenido de sección de repetición")
   
@@ -173,11 +173,11 @@ Cuando un control de contenido para repetición de secciones rodea a otros contr
     
 - Cuando un control secundario se asigna mediante XML a un nodo fuera del control de contenido para repetición de secciones.
     
-**En la figura 9. Control de contenido de la sección que contiene los controles secundarios antes de la repetición de repetición**
+**Figura 9. Control de contenido para repetición de secciones que contiene controles secundarios antes de la repetición**
 
 ![Repita el control de contenido antes de repetición] (media/DK2_WordCC_Fig09.jpg "Repita el control de contenido antes de repetición")
   
-**La figura 10. Control de contenido de la sección que contiene los controles secundarios después de la repetición de repetición**
+**Figura 10. Control de contenido para repetición de secciones que contiene controles secundarios después de la repetición**
 
 ![Repita el control de contenido de sección después de repetición] (media/DK2_WordCC_Fig10.jpg "Repita el control de contenido de sección después de repetición")
   
@@ -225,14 +225,14 @@ Si desea enlazar un control de contenido de sección extensibles a una tabla, in
 
 El anidamiento ajustado de controles de contenido para repetición de secciones dentro de una tabla (por ejemplo, cuando el final del control de contenido para repetición de secciones principal y el secundario se encuentran en la misma celda) provoca que la sección de repetición externa se elimine cuando se agregue o se quite algún elemento de la sección interna.
   
-Puede evitar que esto ocurra mediante la adición de un marcador de párrafo entre el final de un control de contenido de sección extensible y el siguiente. Para ocultar el marcador de párrafo, anule la selección de la opción **Mostrar u ocultar** de la ficha **Inicio** de la cinta de opciones. 
+Puede evitar que esto ocurra agregando un marcador de párrafo entre el final de un control de contenido para repetición de secciones y el siguiente. Para ocultar el marcador de párrafo, anule la selección de la opción **Mostrar u ocultar** de la ficha **Inicio** en la cinta de opciones. 
   
 ### <a name="open-xml-file-format-schema-additions"></a>Adiciones al esquema de formato de archivo Open XML
 <a name="WordCC"> </a>
 
 Se han agregado los siguientes elementos al esquema de formato de archivo Open XML de WordprocessingML.
   
-**La tabla 1. Nuevos elementos en el esquema de formato de archivo XML abierto de WordprocessingML para los controles de contenido**
+**Tabla 1. Nuevos elementos en el esquema de formato de archivo Open XML de WordprocessingML para controles de contenido**
 
 |**Element**|**Descripción**|
 |:-----|:-----|
@@ -251,16 +251,16 @@ Las secciones siguientes proporcionan más información acerca de los cambios es
 
 Varias adiciones al modelo de objetos se incluyen en Word 2013 para mejoras de visualización de control de contenido. En la siguiente tabla se enumeran nuevos miembros del objeto **ContentControl** para la visualización. 
   
-**Tabla 2. Nuevos miembros de objeto ContentControl**
+**Tabla 2. Nuevos miembros del objeto ContentControl**
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
 |. **Apariencia** como **WdContentControlAppearance** <br/> |Obtiene o establece la visualización del control de contenido.  <br/> |
 |. **Color** como **WdColor** <br/> |Obtiene o establece el color del control de contenido.  <br/> |
    
-En la siguiente tabla se enumera las constantes en la enumeración **WdContentControlAppearance** nuevo. 
+En la siguiente tabla se muestran las constantes en la nueva enumeración **WdContentControlAppearance**. 
   
-**Tabla 3. Nuevas constantes de WdContentControlAppearance (enumeración)**
+**Tabla 3. Nuevas constantes de la enumeración WdContentControlAppearance**
 
 |**Constante**|**Descripción**|
 |:-----|:-----|
@@ -341,39 +341,39 @@ End Sub
 ### <a name="repeating-section-content-controls-represented-in-the-object-model"></a>Controles de contenido para repetición de secciones representados en el modelo de objetos
 <a name="WordCC_RepeatingSection"> </a>
 
-El control de contenido de sección de repetición está disponible en el modelo de objetos mediante el uso de las siguientes adiciones al objeto **ContentControl** y los nuevos objetos **RepeatingSectionItem** y **RepeatingSectionItemColl** . Tabla 4 se enumeran a los nuevos miembros más importantes del objeto **ContentControl** para controles de contenido de la sección de repetición. 
+El control de contenido para repetición de secciones está disponible en el modelo de objetos mediante las siguientes adiciones al objeto **ContentControl** y los nuevos objetos **RepeatingSectionItem** y **RepeatingSectionItemColl**. En la tabla 4 se enumeran los nuevos miembros más importantes del objeto **ContentControl** para controles de contenido para la repetición de secciones. 
   
 **Tabla 4. Miembros del objeto ContentControl**
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
 |**AllowInsertDeleteSection** como **Boolean** <br/> |Obtiene o establece si los usuarios pueden agregar o quitar secciones desde el control de contenido mediante el uso de la interfaz de usuario. Si se llama a esta propiedad para un control de contenido que no es del tipo de sección de repetición, se produce un error en la llamada con el siguiente mensaje de error: "esta propiedad sólo se puede usar con controles de contenido de la sección de repetición."  <br/> |
-|**RepeatingSectionItemTitle** como **cadena.** <br/> |Obtiene o establece el nombre de elementos usados en el menú contextual de la sección de repetición. Si se llama a esta propiedad para un control de contenido que no es del tipo de sección de repetición, se produce un error en la llamada con: "esta propiedad sólo se puede usar con controles de contenido de la sección de repetición."  <br/> |
+|**RepeatingSectionItemTitle** como **String** <br/> |Obtiene o establece el nombre de elementos usados en el menú contextual de la sección de repetición. Si se llama a esta propiedad para un control de contenido que no es del tipo de sección de repetición, se produce un error en la llamada con: "esta propiedad sólo se puede usar con controles de contenido de la sección de repetición."  <br/> |
 |**InsertRepeatingSectionItemBefore** como **ContentControl** <br/> |Agrega un elemento de sección de repetición antes del elemento actual y devuelve el nuevo elemento de sección de repetición. Si se llama a este método para un control de contenido que no es del tipo de elemento de la sección de repetición, se produce un error en la llamada con: "esta propiedad sólo se puede usar con controles de contenido de elemento de sección de repetición."  <br/> |
 |**InsertRepeatingSectionItemAfter** como **ContentControl** <br/> |Agrega un elemento de sección de repetición después del elemento actual y devuelve el nuevo elemento de sección de repetición. Si se llama a este método para un control de contenido que no es del tipo de elemento de la sección de repetición, se produce un error en la llamada con: "esta propiedad sólo se puede usar con controles de contenido de elemento de sección de repetición."  <br/> |
    
-En la tabla 5 se enumeran a los miembros más importantes del objeto **RepeatingSectionItem** . 
+En la tabla 5 se muestran los miembros más importantes del objeto **RepeatingSectionItem**. 
   
 **Tabla 5. Miembros del objeto RepeatingSectionItem**
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**Intervalo** como **intervalo** <br/> |Devuelve el intervalo del elemento de sección extensible especificado, excluyendo las etiquetas de inicio y finalización.  <br/> |
-|**Delete** <br/> |Elimina el elemento de sección de repetición especificado.  <br/> |
+|**Range** como **Range** <br/> |Devuelve el intervalo del elemento de sección extensible especificado, excluyendo las etiquetas de inicio y finalización.  <br/> |
+|**Eliminar** <br/> |Elimina el elemento de sección de repetición especificado.  <br/> |
 |**InsertItemAfter** como **RepeatingSectionItem** <br/> |Agrega un elemento de la sección de repetición después del elemento especificado y devuelve el elemento nuevo.  <br/> |
 |**InsertItemBefore** como **RepeatingSectionItem** <br/> |Agrega un elemento de la sección de repetición antes del elemento especificado y devuelve el elemento nuevo.  <br/> |
    
-Tabla 6 se enumeran a los miembros más importantes del objeto **RepeatingSectionItemColl** . 
+En la tabla 6 se muestran los miembros más importantes del objeto **RepeatingSectionItemColl**. 
   
 **Tabla 6. Miembros del objeto RepeatingSectionItemColl**
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**Elemento** como **RepeatingSectionItem** <br/> |Devuelve un elemento individual de sección de repetición.  <br/> |
+|**Item** como **RepeatingSectionItem** <br/> |Devuelve un elemento individual de sección de repetición.  <br/> |
    
-La tabla 7 muestra al nuevo miembro de la enumeración **WdContentControlType** para controles de contenido de la sección de repetición. 
+La tabla 7 muestra el nuevo miembro de la enumeración **WdContentControlType** para controles de contenido para repetición de secciones. 
   
-**Tabla 7. Adición de WdContentControlType (enumeración)**
+**Tabla 7. Adición a la enumeración WdContentControlType**
 
 |**Constante**|**Descripción**|
 |:-----|:-----|
@@ -428,7 +428,7 @@ La representación del formato de archivo de un control de contenido de sección
   
 Los elementos individuales de repetición dentro del control de contenido para repetición de secciones (que rodean a cada elemento individual) se guardan como controles de contenido de texto enriquecido con la representación de WordprocessingML existente. En la tabla 8 se enumeran los elementos nuevos en el esquema WordprocessingML para controles de contenido para repetición de secciones.
   
-**La tabla 8. Controles de contenido de nuevos elementos en el esquema WordprocessingML de sección de repetición**
+**Tabla 8. Elementos nuevos en el esquema WordprocessingML para controles de contenido para repetición de secciones**
 
 |**Element**|**Descripción**|
 |:-----|:-----|

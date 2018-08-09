@@ -1,5 +1,5 @@
 ---
-title: Celda YGridSpacing (regla &amp; sección de la cuadrícula)
+title: Celda YGridSpacing (sección Regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823602"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Celda YGridSpacing (regla &amp; sección de la cuadrícula)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Celda YGridSpacing (sección Regla y cuadrícula)
 
 Especifica la distancia entre las líneas verticales de una cuadrícula fija (YGridDensity = 0).
   
@@ -24,13 +24,13 @@ Especifica la distancia entre las líneas verticales de una cuadrícula fija (YG
 
 Corresponde a la vertical **Espaciado mínimo** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
-Para obtener una referencia a la celda YGridSpacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda YGridSpacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |YGridSpacing  <br/> |
    
-Para obtener una referencia a la celda YGridSpacing por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda YGridSpacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
