@@ -54,7 +54,7 @@ Ninguno.
 |:-----|:-----|:-----|:-----|:-----|
 |r: Id.  <br/> |xsd: String  <br/> Consulte Comentarios.  <br/> |necesario  <br/> |Especifica una relación con un elemento.  <br/> |"quitar #"  <br/> Consulte Comentarios.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor del atributo **id: r** debe ser un tipo de **ST_RelationshipID** . El tipo **ST_RelationshipID** es una cadena que debe tener el formato '# deshacerse', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del elemento **Rel** . 
   

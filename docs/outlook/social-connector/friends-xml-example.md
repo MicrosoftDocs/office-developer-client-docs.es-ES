@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de XML de amigos
+title: Ejemplo XML de amigos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821080"
 ---
-# <a name="friends-xml-example"></a>Ejemplo de XML de amigos
+# <a name="friends-xml-example"></a>Ejemplo XML de amigos
 
 El ejemplo de XML de este tema es una cadena XML de amigo devuelta a Outlook Social Connector (OSC) después de que llama al método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) . El ejemplo muestra el XML **amigos** para dos amigos, que cada uno delimitado por el elemento de la **persona** . Cada uno de ellos especifica un valor único para el elemento de **identificador de usuario** en la red social. 
   
@@ -78,7 +78,7 @@ En el ejemplo siguiente se muestra el XML **amigos** para dos personas en la red
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplos XML de proveedor OSC](osc-provider-xml-examples.md)  
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md) 

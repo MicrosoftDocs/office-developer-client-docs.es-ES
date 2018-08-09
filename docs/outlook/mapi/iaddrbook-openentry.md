@@ -21,7 +21,7 @@ ms.locfileid: "19817148"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre una entrada de la libreta de direcciones y devuelve un puntero a una interfaz que se puede usar para tener acceso a la entrada.
   
@@ -36,7 +36,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _cbEntryID_
   
@@ -115,5 +115,5 @@ El parámetro _lpInterface_ indica qué interfaz se debe utilizar para tener acc
   
 ## <a name="see-also"></a>Vea también
 
-- [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+- [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

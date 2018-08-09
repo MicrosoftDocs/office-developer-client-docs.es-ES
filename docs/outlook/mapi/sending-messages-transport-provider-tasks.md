@@ -19,7 +19,7 @@ ms.locfileid: "19820628"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  **Para transmitir un mensaje, los proveedores de transporte**
   

@@ -1,5 +1,5 @@
 ---
-title: Referencia de la MAPI de Outlook
+title: Referencia MAPI de Outlook
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
@@ -13,16 +13,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818459"
 ---
-# <a name="outlook-mapi-reference"></a>Referencia de la MAPI de Outlook
+# <a name="outlook-mapi-reference"></a>Referencia MAPI de Outlook
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Referencia de Microsoft Outlook 2013 mensajería API (MAPI). MAPI proporciona la arquitectura de mensajería de Microsoft Outlook 2013. MAPI para Outlook 2013 proporciona un conjunto de interfaces, funciones y otros tipos de datos para facilitar el desarrollo de aplicaciones de mensajería de Outlook 2013. Las aplicaciones y los transportes usan MAPI para manipular datos de correo electrónico, para crear mensajes de correo electrónico y las carpetas para almacenarlos en y para admitir las notificaciones de cambios a los datos existentes relacionados con MAPI.
   
 > [!NOTE]
-> Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades. 
+> Si no tiene experiencia en el desarrollo de soluciones para Outlook, consulte [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías más adecuadas para sus necesidades. 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -30,7 +30,7 @@ Referencia de Microsoft Outlook 2013 mensajería API (MAPI). MAPI proporciona la
   
 > Proporciona información acerca de las distintas referencia y conceptuales recursos en la referencia de MAPI de Outlook 2013.
     
-[Ejemplos de MAPI (en inglés)](mapi-samples.md)
+[Ejemplos de MAPI](mapi-samples.md)
   
 > Proporciona aplicaciones de ejemplo.
     
@@ -42,11 +42,11 @@ Referencia de Microsoft Outlook 2013 mensajería API (MAPI). MAPI proporciona la
   
 > Proporciona referencias a elementos de programación de MAPI.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Información general sobre la referencia MAPI de Outlook](outlook-mapi-reference-overview.md)
+[Información general de la referencia MAPI de Outlook](outlook-mapi-reference-overview.md)
   
 [Aviso de Copyright de referencia de API (MAPI) de mensajería de Outlook](outlook-messaging-api-mapi-reference-copyright-notice.md)
 

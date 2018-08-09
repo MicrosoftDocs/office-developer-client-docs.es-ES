@@ -1,5 +1,5 @@
 ---
-title: Celda LockReplace (sección de protección)
+title: Celda LockReplace (sección Protección)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822515"
 ---
-# <a name="lockreplace-cell-protection-section"></a>Celda LockReplace (sección de protección)
+# <a name="lockreplace-cell-protection-section"></a>Celda LockReplace (sección Protección)
 
 Indica si una forma puede participar en una operación de reemplazo (como un destino o una forma de reemplazo). 
   
@@ -23,7 +23,7 @@ Indica si una forma puede participar en una operación de reemplazo (como un des
 |TRUE  <br/> |La forma no se puede reemplazar o se pueden usar como una forma de reemplazo.  <br/> Para una forma en el lienzo, se deshabilita el botón **Cambiar forma** cuando se selecciona la forma.  <br/> Para una forma en una galería de símbolos, la forma no aparece como una forma de reemplazo cuando se hace clic en el botón **Cambiar forma** .  <br/> |
 |FALSE  <br/> |La forma puede ser reemplazada o usar como una forma de reemplazo.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **LockReplace** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -1,5 +1,5 @@
 ---
-title: Envío de mensajes mediante el uso de MAPI
+title: Enviar mensajes con MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 36de3b70b0ab7b16f8abed85bbd0983224e00568
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820620"
 ---
-# <a name="sending-messages-by-using-mapi"></a>Envío de mensajes mediante el uso de MAPI
+# <a name="sending-messages-by-using-mapi"></a>Enviar mensajes con MAPI
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Las aplicaciones cliente de llaman al método [IMessage::SubmitMessage](imessage-submitmessage.md) para enviar un mensaje. **SubmitMessage** llama a [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para guardar el mensaje antes de transferir el control a cualquiera la cola MAPI o directamente a un proveedor de transporte. 
   
@@ -37,7 +37,7 @@ Por ejemplo, considere la situación donde un usuario envía un mensaje de la Ba
   
 El proceso de transmisión de mensajes implica el proveedor de almacenamiento de mensajes, uno o varios proveedores de transporte y MAPI. En los temas de esta sección proporcionan información detallada acerca de las funciones específicas en el proceso de transmisión de mensajes.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

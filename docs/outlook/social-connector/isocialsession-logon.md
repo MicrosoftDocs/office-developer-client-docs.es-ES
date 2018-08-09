@@ -23,7 +23,7 @@ Inicie sesión en el sitio de red social utilizando el nombre de usuario especif
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _nombre de usuario_
   
@@ -33,7 +33,7 @@ _contraseña_
   
 > [entrada] Una cadena que contiene la contraseña para iniciar sesión.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

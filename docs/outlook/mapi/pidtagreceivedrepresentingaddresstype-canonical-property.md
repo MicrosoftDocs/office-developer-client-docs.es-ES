@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagReceivedRepresentingAddressType
+title: Propiedad canónica PidTagReceivedRepresentingAddressType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c342bb2a-157e-4748-bf21-0926f95e5312
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cf62338ef2dfca2c4e7edc3cdf05ffae50f269e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820028"
 ---
-# <a name="pidtagreceivedrepresentingaddresstype-canonical-property"></a>Propiedad canónico PidTagReceivedRepresentingAddressType
+# <a name="pidtagreceivedrepresentingaddresstype-canonical-property"></a>Propiedad canónica PidTagReceivedRepresentingAddressType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el tipo de dirección del usuario de mensajería que está representada por el usuario que realmente recibe el mensaje.
   
@@ -34,7 +34,7 @@ Contiene el tipo de dirección del usuario de mensajería que está representada
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son ejemplos de las propiedades de la dirección del usuario de mensajería que se va a representar el usuario receptora. Se debe establecer por el proveedor de transporte entrante, que también es responsable de la autorización o comprobación del delegado. Si no se va a representar ningún usuario de mensajería, esta propiedad debe establecerse en el tipo de dirección contenido en la propiedad **PR_RECEIVED_BY_ADDRTYPE** ([PidTagReceivedByAddressType](pidtagreceivedbyaddresstype-canonical-property.md)).
   
@@ -78,18 +78,18 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagAddressType](pidtagaddresstype-canonical-property.md)
+[Propiedad canónica PidTagAddressType](pidtagaddresstype-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821515"
 ---
-# <a name="aligncenter-cell-alignment-section"></a>Celda AlignCenter (Sección de alineación)
+# <a name="aligncenter-cell-alignment-section"></a>Celda AlignCenter (sección Alineación)
 
 Determina la posición horizontal con respecto al origen de su forma principal, de una guía vertical o un punto de guía al que se alinea el centro horizontal de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignCenter por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignCenter por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAttachTag
+title: Propiedad canónica PidTagAttachTag
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d8d8d32bddb98e0ac180b0898478c67297980492
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819271"
 ---
-# <a name="pidtagattachtag-canonical-property"></a>Propiedad canónico PidTagAttachTag
+# <a name="pidtagattachtag-canonical-property"></a>Propiedad canónica PidTagAttachTag
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un identificador de objeto ASN.1 que especifica la aplicación que suministró un dato adjunto. 
   
@@ -34,7 +34,7 @@ Contiene un identificador de objeto ASN.1 que especifica la aplicación que sumi
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad identifica la aplicación que generó originalmente los datos adjuntos.
   
@@ -62,18 +62,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)
+[Propiedad canónica PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

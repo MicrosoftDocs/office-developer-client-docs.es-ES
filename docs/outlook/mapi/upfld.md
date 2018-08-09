@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f25b3fb967f4ed93ac38487f21145f35413764da
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820930"
 ---
 # <a name="upfld"></a>UPFLD
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para cargar una carpeta durante la [carga de estado de la carpeta](upload-folder-state.md).
   
@@ -33,7 +33,7 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -67,9 +67,9 @@ _feid_
   
 > [out] Identificador de entrada de la carpeta.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md) 
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md) 
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 

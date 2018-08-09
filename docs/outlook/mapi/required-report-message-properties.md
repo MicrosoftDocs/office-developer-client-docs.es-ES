@@ -1,5 +1,5 @@
 ---
-title: Propiedades del mensaje requerido del informe
+title: Propiedades necesarias para los mensajes de informes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 902b991dcca8a48597a26c52081b8c1993c911b4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820518"
 ---
-# <a name="required-report-message-properties"></a>Propiedades del mensaje requerido del informe
+# <a name="required-report-message-properties"></a>Propiedades necesarias para los mensajes de informes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En la siguiente tabla se describe las propiedades que los clientes pueden esperar para ver admitidos en los mensajes de informe.
   

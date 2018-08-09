@@ -23,19 +23,19 @@ Quita a la persona identificada por el parámetro _userID_ como amigo en la red 
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _userID_
   
 > [entrada] Una cadena que contiene un identificador de usuario de redes sociales de una persona.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El parámetro _userID_ debe ser un identificador de usuario válido para la persona en la red social. 
   
-Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML de **las capacidades**, el proveedor debe devolver el error OSC_E_NOT_FOUND en el caso de que el usuario identificador que se pasó no coincide con un usuario en la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en **funciones**, el proveedor debe devolver el error OSC_E_FAIL. Para obtener información acerca de los códigos de error, vea [Códigos de Error de Outlook Social Connector proveedor](outlook-social-connector-provider-error-codes.md).
+Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML de **las capacidades**, el proveedor debe devolver el error OSC_E_NOT_FOUND en el caso de que el usuario identificador que se pasó no coincide con un usuario en la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en **funciones**, el proveedor debe devolver el error OSC_E_FAIL. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

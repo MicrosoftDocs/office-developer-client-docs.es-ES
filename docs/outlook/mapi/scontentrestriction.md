@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820594"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción de contenido, que se usa para limitar una vista de tabla a sólo las filas en las que incluyen una columna con contenido que coinciden con una cadena de búsqueda. 
   
@@ -39,7 +39,7 @@ typedef struct _SContentRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulFuzzyLevel**
   
@@ -69,7 +69,7 @@ typedef struct _SContentRestriction
   
 > Puntero a una estructura de valor de propiedad que contiene el valor de cadena que se utilizará como la cadena de búsqueda.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Hay dos etiquetas de propiedad en una estructura de **SContentRestriction** : uno en el miembro **ulPropTag** y la otra en el miembro **ulPropTag** de la estructura **SPropValue** apunta a **lpProp**. En ambas etiquetas, MAPI requiere sólo el campo de tipo de propiedad y omite el campo de identificador de la propiedad. Sin embargo, deben coincidir con los tipos de dos propiedades, o bien el valor de error MAPI_E_TOO_COMPLEX se devuelve cuando se utiliza la restricción de una llamada a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md). 
   
@@ -81,7 +81,7 @@ El resultado de una restricción de contenido impuesta con respecto a una propie
   
 Para obtener más información sobre la estructura de **SContentRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SPropValue](spropvalue.md)
 - [SRestriction](srestriction.md)

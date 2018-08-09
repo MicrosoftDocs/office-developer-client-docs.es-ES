@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822003"
 ---
-# <a name="document-properties-section"></a>Sección de propiedades del documento
+# <a name="document-properties-section"></a>Sección Propiedades del documento
 
 Contiene celdas para que un documento controle la calidad, el alcance y el formato de salida de la vista previa.
   

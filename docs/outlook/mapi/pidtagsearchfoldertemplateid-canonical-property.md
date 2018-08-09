@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSearchFolderTemplateId
+title: Propiedad canónica PidTagSearchFolderTemplateId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4e752d3264a64ad7b467947c44d01eb7c47ec863
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820257"
 ---
-# <a name="pidtagsearchfoldertemplateid-canonical-property"></a>Propiedad canónico PidTagSearchFolderTemplateId
+# <a name="pidtagsearchfoldertemplateid-canonical-property"></a>Propiedad canónica PidTagSearchFolderTemplateId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el identificador de la plantilla que se utiliza para la búsqueda.
   
@@ -32,9 +32,9 @@ Contiene el identificador de la plantilla que se utiliza para la búsqueda.
 |Propiedades asociadas:  <br/> |PR_WB_SF_TEMPLATE_ID  <br/> |
 |Identificador:  <br/> |0x6841  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |B?squeda  <br/> |
+|Área:  <br/> |Búsqueda  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Criterios de carpeta de búsqueda se especifica mediante una plantilla. Esta propiedad en el mensaje que define la carpeta de búsqueda identifica la plantilla correspondiente. Además de definir los criterios de búsqueda, una plantilla también define las carpetas para excluir de la búsqueda, define los elementos que se deben excluir de la búsqueda y especifica el valor de **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

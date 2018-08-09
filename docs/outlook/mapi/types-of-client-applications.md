@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 17b55de84c38deb515dfb528e0ed01306934739d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820894"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Existen principalmente dos tipos de clientes de mensajería: las que controlan los mensajes interpersonales (IPM) y las que controlan los mensajes de comunicación entre procesos (IPC). Dentro de esos tipos, aplicaciones de cliente de mensajería se pueden clasificar como sigue:
   

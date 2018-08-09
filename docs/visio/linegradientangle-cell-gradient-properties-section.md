@@ -1,5 +1,5 @@
 ---
-title: Celda LineGradientAngle (sección de propiedades de degradado)
+title: Celda LineGradientAngle (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822445"
 ---
-# <a name="linegradientangle-cell-gradient-properties-section"></a>Celda LineGradientAngle (sección de propiedades de degradado)
+# <a name="linegradientangle-cell-gradient-properties-section"></a>Celda LineGradientAngle (sección Propiedades de degradado)
 
 Determina el ángulo de degradado de línea para un degradado lineal, de 0 a 359.9 grados.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **LineGradientAngle** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

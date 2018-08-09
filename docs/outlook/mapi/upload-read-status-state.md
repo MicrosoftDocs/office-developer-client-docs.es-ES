@@ -1,11 +1,11 @@
 ---
-title: Estado de lectura de carga
+title: Cargar estado de lectura de estado
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820937"
 ---
-# <a name="upload-read-status-state"></a>Estado de lectura de carga
+# <a name="upload-read-status-state"></a>Cargar estado de lectura de estado
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  En este tema se describe qué ocurre durante la carga leer el estado del estado de la máquina de estado de replicación. 
   
@@ -39,15 +39,15 @@ Este estado inicia carga el estado de lectura de elementos en una carpeta especi
   
 Cuando finaliza este estado, Outlook borra la información interna sobre el estado de lectura del elemento, impide que el estado de lectura del elemento que se está cargando nuevamente. Devuelve el almacén local en el estado de la tabla de carga.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [ESTADO DE SINCRONIZACIÓN](syncstate.md)
 

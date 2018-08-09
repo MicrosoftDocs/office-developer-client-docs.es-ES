@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822586"
 ---
-# <a name="max-function"></a>MAX (función)
+# <a name="max-function"></a>Función MAX
 
 Devuelve el número más alto de una lista. Más grande significa el más cercano al infinito positivo.
   
@@ -24,13 +24,13 @@ Devuelve el número más alto de una lista. Más grande significa el más cercan
 
 MAX (** *número1* **, ** *número2* **,..., ** *numberN* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _Número1_ <br/> |Obligatorio  <br/> |**Varía** <br/> |El primer número de la lista.  <br/> |
-| _número2_ <br/> |Opcional  <br/> |**Varía** <br/> | El segundo número de la lista.  <br/> |
-| _numberN_ <br/> |Opcional  <br/> |**Varía** <br/> |El número n de la lista.  <br/> |
+| _Número1_ <br/> |Obligatorio  <br/> |**Varies** <br/> |El primer número de la lista.  <br/> |
+| _número2_ <br/> |Opcional  <br/> |**Varies** <br/> | El segundo número de la lista.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Varies** <br/> |El número n de la lista.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

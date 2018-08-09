@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822326"
 ---
-# <a name="imgwidth-cell-foreign-image-info-section"></a>Celda ImgWidth (Sección de información de imagen externa)
+# <a name="imgwidth-cell-foreign-image-info-section"></a>Celda ImgWidth (sección Información de imagen externa)
 
 Determina el ancho de la imagen del objeto dentro de su borde. La fórmula predeterminada es:
   
@@ -26,13 +26,13 @@ Si se recorta el objeto, cambia el factor por el que se multiplica el ancho.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda ImgWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ImgWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ImgWidth  <br/> |
    
-Para obtener una referencia a la celda ImgWidth por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ImgWidth por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Ordenación y la categorización de
+title: Ordenar y categorización
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820717"
 ---
-# <a name="sorting-and-categorization"></a>Ordenación y la categorización de
+# <a name="sorting-and-categorization"></a>Ordenar y categorización
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Ordenar una tabla, coloca las filas en un orden que tenga sentido para su visor. Por ejemplo, podría preferir un visor ver la tabla de contenido de una carpeta ordenada por asunto del mensaje de modo que todos los subprocesos de una conversación estén juntas mientras otro visor es posible que desea que los mensajes ordenados por el nombre del remitente. Una tabla de la instancia recién creada no se ordena necesariamente en un orden determinado. 
   
@@ -67,21 +67,21 @@ Para obtener más información acerca de la ordenación los subprocesos de una c
   
 - [SSortOrder](ssortorder.md)
     
-- [Propiedad canónico PidTagSubject](pidtagsubject-canonical-property.md)
+- [Propiedad canónica PidTagSubject](pidtagsubject-canonical-property.md)
     
-- [Propiedad canónico PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)
+- [Propiedad canónica PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)
     
-- [Propiedad canónico PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
+- [Propiedad canónica PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
     
-- [Propiedad canónico PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)
+- [Propiedad canónica PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)
     
-- [Propiedad canónico PidTagConversationIndex](pidtagconversationindex-canonical-property.md)
+- [Propiedad canónica PidTagConversationIndex](pidtagconversationindex-canonical-property.md)
     
 - [ScCreateConversationIndex](sccreateconversationindex.md)
     
-- [Ordenación de tablas después de establecer las columnas y restricciones](sorting-tables-after-setting-columns-and-restrictions.md)
+- [Ordenar tablas después de establecer restricciones y columnas](sorting-tables-after-setting-columns-and-restrictions.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

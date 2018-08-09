@@ -1,5 +1,5 @@
 ---
-title: THEMECBV (función)
+title: Función THEMECBV
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823403"
 ---
-# <a name="themecbv-function"></a>THEMECBV (función)
+# <a name="themecbv-function"></a>Función THEMECBV
 
 Devuelve un valor RGB o un número entero que representa un índice en la paleta de colores del documento, donde el color (número) que se pasa como un argumento ha sido modificado por el valor especificado de tinta o sombreado almacenado en la configuración de degradado del tema activo. 
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2013 
+Versión añadida: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
  **THEMECBV** ( _color_, _gradient_stop_number_)
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -37,7 +38,7 @@ Versión agregada: Visio 2013
 
  **Número**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 > [!NOTE]
 > La función THEMECBV no modifica el color que se pasa como un argumento si la QuickStyle que se asigna a la forma no tiene un degradado. 

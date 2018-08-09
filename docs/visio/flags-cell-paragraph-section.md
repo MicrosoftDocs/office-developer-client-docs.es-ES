@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822141"
 ---
-# <a name="flags-cell-paragraph-section"></a>Celda Flags (Sección de párrafo)
+# <a name="flags-cell-paragraph-section"></a>Celda Flags (sección Párrafo)
 
 Indica si el texto se lee de izquierda a derecha o al revés.
   
@@ -29,13 +29,13 @@ Indica si el texto se lee de izquierda a derecha o al revés.
 
 El valor de esta celda corresponde a la opción **dirección** en la ficha de **párrafo** en el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en la flecha de **fuente** ), que aparece únicamente si un idioma que utiliza complejas secuencias de comandos de texto ha sido se agregó en el cuadro de diálogo **Preferencias de idioma de Microsoft Office** . (Haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Office**, haga clic en **Herramientas de Microsoft Office**y, a continuación, haga clic en **Preferencias de idioma de Microsoft Office**.) 
   
-Para obtener una referencia a la celda Flags por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Flags por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Para.Flags [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Flags por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Flags por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

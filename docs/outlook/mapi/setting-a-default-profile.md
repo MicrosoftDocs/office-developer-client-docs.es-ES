@@ -1,5 +1,5 @@
 ---
-title: Configuración de un perfil predeterminado
+title: Establecer un perfil predeterminado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ea21e735dba8690a392629b92b636b834d7d57d7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820634"
 ---
-# <a name="setting-a-default-profile"></a>Configuración de un perfil predeterminado
+# <a name="setting-a-default-profile"></a>Establecer un perfil predeterminado
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El perfil predeterminado es el perfil que se usa si no especificar de forma explícita en la llamada a [MAPILogonEx](mapilogonex.md), en su lugar, establecer el indicador MAPI_USE_DEFAULT.
   

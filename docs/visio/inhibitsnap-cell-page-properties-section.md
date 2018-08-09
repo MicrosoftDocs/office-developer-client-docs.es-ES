@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822339"
 ---
-# <a name="inhibitsnap-cell-page-properties-section"></a>Celda InhibitSnap (Sección de propiedades de página)
+# <a name="inhibitsnap-cell-page-properties-section"></a>Celda InhibitSnap (sección Propiedades de página)
 
 Determina si las formas de una página de primer plano se ajustan a otros objetos de esta página, así como a formas de una página de fondo.
   
@@ -27,7 +27,7 @@ Determina si las formas de una página de primer plano se ajustan a otros objeto
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda InhibitSnap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda InhibitSnap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

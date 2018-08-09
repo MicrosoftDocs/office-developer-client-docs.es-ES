@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822329"
 ---
-# <a name="index-function"></a>INDEX (función)
+# <a name="index-function"></a>Función INDEX
 
 Devuelve la subcadena en la ubicación de base cero _índice_ en la _lista_ delimitada por el _delimitador_. O bien, si el índice está fuera del intervalo, devuelve una cadena vacía o el token opcional proporcionado como el argumento *valorDeError* . 
   
@@ -24,7 +24,7 @@ Devuelve la subcadena en la ubicación de base cero _índice_ en la _lista_ deli
 
 ÍNDICE (** *índice* **, "** *lista* **" [, [** *delimitador* **] [, [** *valorDeError* **]]]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

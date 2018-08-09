@@ -17,7 +17,7 @@ ms.locfileid: "19820941"
 ---
 # <a name="upmov"></a>UPMOV
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para cargar los elementos que se han movido. Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md) y [cargar el estado de la tabla](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -96,10 +96,10 @@ _cEntMov_
   
 >  [entrada] Número de elementos movidos aquí. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md)
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [FEID](feid.md)
 

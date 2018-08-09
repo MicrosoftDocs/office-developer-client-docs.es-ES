@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentTimeZoneDefinitionRecur
+title: Propiedad canónica PidLidAppointmentTimeZoneDefinitionRecur
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52fd57a0-9e34-4452-9ecd-2acb454446c9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5cff6ec7b39c26eec098d250688d98bf1e4799ea
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818591"
 ---
-# <a name="pidlidappointmenttimezonedefinitionrecur-canonical-property"></a>Propiedad canónico PidLidAppointmentTimeZoneDefinitionRecur
+# <a name="pidlidappointmenttimezonedefinitionrecur-canonical-property"></a>Propiedad canónica PidLidAppointmentTimeZoneDefinitionRecur
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que almacena la descripción de la zona horaria que se usa cuando se crea una cita periódica o una convocatoria de reunión. 
   
@@ -33,9 +33,9 @@ Contiene una secuencia que se asigna al formato persistente de una estructura [T
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008260  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Calendar  <br/> |
+|Área:  <br/> |Calendario  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Versiones de Microsoft Outlook desde Microsoft Office Outlook 2007 y soluciones basadas en Collaboration Data Objects (CDO) 1.2.1 que se han ejecutado el calendario de Outlook o Exchange Server actualización de uso de la herramienta el **dispidApptTZDefRecur** y ** dispidTimeZoneStruct** propiedades ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) para determinar si se debe ajustar la reunión periódica si cambian las reglas de la zona horaria. Estas propiedades se deben sincronizarse, debido a que los clientes más antiguos aún pueden manipular la propiedad **dispidTimeZoneStruct** . Para detectar si se sincronizan las dos propiedades, el miembro **wFlags** para la regla que coincide con **dispidTimeZoneStruct** debe tener el indicador TZRULE_FLAG_RECUR_CURRENT_TZREG establecido. Si no se establece este marcador, o se establece y la regla en la propiedad **dispidTimeZoneStruct** no coincide con la regla de marcado, la propiedad **dispidApptTZDefRecur** debe descartarse y **dispidTimeZoneStruct** debe usarse en su lugar. 
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

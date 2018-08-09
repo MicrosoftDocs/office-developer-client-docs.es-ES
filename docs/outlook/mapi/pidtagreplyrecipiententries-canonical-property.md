@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagReplyRecipientEntries
+title: Propiedad canónica PidTagReplyRecipientEntries
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1ab8828dd2fc28a2fba1620fc251ba0a87c3e2bc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820084"
 ---
-# <a name="pidtagreplyrecipiententries-canonical-property"></a>Propiedad canónico PidTagReplyRecipientEntries
+# <a name="pidtagreplyrecipiententries-canonical-property"></a>Propiedad canónica PidTagReplyRecipientEntries
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de tamaño de los identificadores de entrada para los destinatarios que van a obtener una respuesta.
   
@@ -34,7 +34,7 @@ Contiene una matriz de tamaño de los identificadores de entrada para los destin
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Sobres MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad contiene una estructura [FLATENTRYLIST](flatentrylist.md) y no es una propiedad multivalor. 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -76,7 +76,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

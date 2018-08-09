@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSenderSearchKey
+title: Propiedad canónica PidTagSenderSearchKey
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e15599c5-f40f-46a6-a726-7359efd09ff8
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ea0e2b753212acc48c56240b3a72b7f22954802a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820260"
 ---
-# <a name="pidtagsendersearchkey-canonical-property"></a>Propiedad canónico PidTagSenderSearchKey
+# <a name="pidtagsendersearchkey-canonical-property"></a>Propiedad canónica PidTagSenderSearchKey
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la clave de búsqueda de la dirección del remitente del mensaje.
   
@@ -34,7 +34,7 @@ Contiene la clave de búsqueda de la dirección del remitente del mensaje.
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es una de las propiedades de direcciones para el remitente del mensaje. Se debe establecer por el proveedor de transporte saliente, que nunca se debe propagar los valores existentes anteriormente.
   
@@ -82,20 +82,20 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagSearchKey](pidtagsearchkey-canonical-property.md)
+[Propiedad canónica PidTagSearchKey](pidtagsearchkey-canonical-property.md)
   
-[Propiedad canónico PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)
+[Propiedad canónica PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

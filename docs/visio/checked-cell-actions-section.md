@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821779"
 ---
-# <a name="checked-cell-actions-section"></a>Celda Checked (sección de acciones)
+# <a name="checked-cell-actions-section"></a>Celda Checked (sección Acciones)
 
 Indica si un elemento aparece activado en el menú contextual o de etiquetas de acción.
   
@@ -25,18 +25,22 @@ Indica si un elemento aparece activado en el menú contextual o de etiquetas de 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Se muestra una marca de verificación.  <br/> |
-|FALSE  <br/> |Marca de verificación no es muestran (predeterminado).  <br/> |
+|TRUE  <br/> |
+          Se muestra una marca de verificación.
+  <br/> |
+|FALSE  <br/> |
+          No se muestra marca de verificación (valor predeterminado).
+  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Checked por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Checked por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Acciones. *nombre* . Comprueba que las acciones. *nombre* es el nombre de la fila de acciones  <br/> |
    
-Para obtener una referencia a la celda Checked por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Checked por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: COS (función) (VisioShapeSheet)
+title: COS Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821881"
 ---
-# <a name="cos-function-visioshapesheet"></a>COS (función) (VisioShapeSheet)
+# <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
 Devuelve el coseno de un ángulo. 
   
@@ -24,11 +24,11 @@ Devuelve el coseno de un ángulo.
 
 COS ( *ángulo*) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 

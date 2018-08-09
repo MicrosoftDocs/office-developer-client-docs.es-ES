@@ -41,7 +41,7 @@ Complementos de panel de tareas y otros complementos para Office y SharePoint se
 
 [Arquitectura de Project Server 2013](project-server-2013-architecture.md) Muestra cómo interactúan los clientes de Project con Project Server. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

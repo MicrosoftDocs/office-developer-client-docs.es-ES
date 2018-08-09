@@ -18,13 +18,13 @@ ms.locfileid: "19821803"
 
 Esta página de navegación contiene vínculos a temas de descripción general de programación en Visio. Haga clic en los vínculos siguientes o utilice la tabla de contenido para desplazarse a estos temas:
   
-- [Agregar, cambiar o eliminar las filas de ShapeSheet](add-change-or-delete-rows-in-the-shapesheet.md)
+- [Agregar, cambiar o eliminar filas de ShapeSheet](add-change-or-delete-rows-in-the-shapesheet.md)
     
 - [Agregar, mostrar, ocultar o eliminación de una sección](add-show-hide-or-delete-a-section.md)
     
-- [Cambie el nombre y ver el identificador de una forma](change-the-name-and-view-the-id-of-a-shape.md)
+- [Cambiar el nombre y ver el Id. de una forma](change-the-name-and-view-the-id-of-a-shape.md)
     
-- [Copiar y pegar una fórmula de una celda en otra](copy-and-paste-a-formula-from-one-cell-into-another.md)
+- [Copiar y pegar una fórmula de una celda a otra](copy-and-paste-a-formula-from-one-cell-into-another.md)
     
 - [Mostrar fórmulas o valores en las celdas](display-formulas-or-values-in-cells.md)
     
@@ -36,14 +36,14 @@ Esta página de navegación contiene vínculos a temas de descripción general d
     
 - [Abrir todas las ShapeSheet en la misma ventana](open-each-shapesheet-in-the-same-window.md)
     
-- [Abra la ShapeSheet de una forma, una página o un documento](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [Abrir el ShapeSheet en una forma, una página o un documento](open-the-shapesheet-for-a-shape-page-or-document.md)
     
 - [Hacer referencia a una celda en una fórmula](reference-a-cell-in-a-formula.md)
     
-- [Ejecutar en modo para programadores (mostrar la ficha Programador)](run-in-developer-mode-display-the-developer-tab.md)
+- [Ejecutar en modo para programadores (mostrar la pestaña Programador)](run-in-developer-mode-display-the-developer-tab.md)
     
 - [Mostrar un objeto en la ventana ShapeSheet](show-an-object-in-the-shapesheet-window.md)
     
-- [Escriba una nueva fórmula de una celda](type-a-new-formula-for-a-cell.md)
+- [Escribir una fórmula nueva para una celda](type-a-new-formula-for-a-cell.md)
     
 

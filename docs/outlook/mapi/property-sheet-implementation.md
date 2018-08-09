@@ -1,5 +1,5 @@
 ---
-title: Implementación de la hoja (propiedad)
+title: Implementación de la hoja de propiedades
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 406451adac3cd73286feb787bd6b4d2f356aa283
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820456"
 ---
-# <a name="property-sheet-implementation"></a>Implementación de la hoja (propiedad)
+# <a name="property-sheet-implementation"></a>Implementación de la hoja de propiedades
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una hoja de propiedades es un cuadro de diálogo para mostrar las propiedades de un objeto. Las propiedades pueden ser de sólo lectura, permitiendo al usuario sólo ver, o lectura y escritura, permitiendo al usuario realizar cambios. Una hoja de propiedades contiene una o varias ventanas secundarias superpuestas denominadas páginas. Cada página contiene el control de windows para la configuración de un grupo de propiedades relacionadas. Los usuarios desplazarse de una página a otra mediante la selección de una ficha que aporta la funcionalidad de la página correspondiente en el primer plano de la hoja de propiedades.
   
@@ -69,7 +69,7 @@ Para recuperar el índice de un control que selecciona un usuario en un cuadro d
   
 Si necesita poder agregar o quitar elementos en el cuadro de lista, con una tabla para mostrar y con el método [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) no funcionará. En su lugar, considere la implementación de una hoja de propiedades con la API de Win32 (propiedad) hoja incluida en el archivo comdlg32.dll. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8b7a93a9abb9a1c589ac7fdab3723c9c924eea0d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820683"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una estructura de [SRowSet](srowset.md) con nombre que contiene un número especificado de filas. 
   
@@ -34,7 +34,7 @@ Crea una estructura de [SRowSet](srowset.md) con nombre que contiene un número 
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 __gallo_
   
@@ -44,7 +44,7 @@ __nombre_
   
 > Nombre de la nueva estructura.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para usar la nueva estructura que el resultado de la macro **SizedSRowSet** como un puntero a una estructura **SRowSet** , realice la conversión de tipos siguiente: 
   
@@ -53,8 +53,8 @@ lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SRowSet](srowset.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

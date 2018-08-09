@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5e4bd4f6038db3dbb33ec3511d953448fea7a6c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818222"
 ---
 # <a name="mapi-spooler-overview"></a>Información general sobre la cola de impresión MAPI
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cola MAPI es una función del proceso de Microsoft Office Outlook que se encarga de envío de mensajes a y recibir mensajes desde un sistema de mensajería. Cola MAPI desempeña un papel fundamental en la entrega y recepción de mensajes. Cuando un sistema de mensajería no está disponible, cola MAPI almacena los mensajes y los reenvía automáticamente en un momento posterior. Esta capacidad de suspensión en a o enviar datos cuando sea necesario se conoce como almacenar y reenviar, una característica importante en entornos donde las conexiones remotas son comunes y el tráfico de red es alto. Cola MAPI se ejecuta como un subproceso de fondo dentro de Outlook.
   
@@ -53,7 +53,7 @@ Si la cola MAPI recibe el mensaje, realiza cualquier preprocesamiento necesarios
   
 Con los mensajes entrantes, se invierte el flujo. El proveedor de transporte recibe un mensaje de su sistema de mensajería y se lo comunica a cola MAPI. Cola de impresión realiza cualquier procesamiento posterior es necesario e informa que el proveedor de almacenamiento de mensaje que ha recibido un nuevo mensaje. Esta notificación hace que el cliente actualizar su presentación de mensajes, permitiendo al usuario leer el mensaje de nuevo.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

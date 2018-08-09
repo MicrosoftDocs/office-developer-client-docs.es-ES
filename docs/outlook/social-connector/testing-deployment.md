@@ -1,5 +1,5 @@
 ---
-title: Pruebas de la implementación
+title: Probar la implementación
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821230"
 ---
-# <a name="testing-deployment"></a>Pruebas de la implementación
+# <a name="testing-deployment"></a>Probar la implementación
 
 En este tema se describe algunos escenarios que se deben probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
 
@@ -84,7 +84,7 @@ Las siguientes son algunas pruebas para comprobar que el proceso de desinstalaci
 |El usuario elige desinstalar el proveedor.  <br/> |El proveedor desinstala los archivos DLL y borra el registro.  <br/> |
 |El usuario elige cancelar el proceso de desinstalación del proveedor.  <br/> |El proveedor cancela el proceso de desinstalación y le lleva al usuario al estado antes de iniciar el proceso de desinstalación.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Registrar un proveedor](registering-a-provider.md)  
 - [Lista de comprobación de instalación](installation-checklist.md)

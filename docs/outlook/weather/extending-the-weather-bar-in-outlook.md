@@ -213,7 +213,7 @@ Aunque Outlook usa MSN el tiempo de forma predeterminada, si un usuario ha perso
 
 La barra de meteorología en el calendario de Outlook usa MSN el tiempo de forma predeterminada para proporcionar la previsión meteorológica para una ubicación especificada. Los usuarios pueden ver fácilmente información meteorológica para las ubicaciones que les interesen. Servicios de datos de tiempo de terceros también pueden integrarse con la barra de meteorología admiten la Outlook esquema XML de ubicación de tiempo y Outlook esquema de XML de información meteorológica y siguiendo un protocolo de servicio web sencillos con Outlook.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)   
 - [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)

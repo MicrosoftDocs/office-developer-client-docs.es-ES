@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822105"
 ---
-# <a name="fieldpicture-function"></a>FIELDPICTURE (función)
+# <a name="fieldpicture-function"></a>Función FIELDPICTURE
 
 Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.
   
@@ -24,7 +24,7 @@ Devuelve una cadena de formato de imagen que coincide con el código de formato 
 
 FIELDPICTURE (** *código* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ FIELDPICTURE (** *código* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

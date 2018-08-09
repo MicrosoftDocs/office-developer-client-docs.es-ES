@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821841"
 ---
-# <a name="conlinerouteext-cell-shape-layout-section"></a>Celda ConLineRouteExt (Sección de diseño de la forma)
+# <a name="conlinerouteext-cell-shape-layout-section"></a>Celda ConLineRouteExt (sección Diseño de forma)
 
 Determina la apariencia de un conector.
   
@@ -26,15 +26,16 @@ Determina la apariencia de un conector.
 | 1  <br/> | Recta  <br/> |**visLORouteExtStraight** <br/> |
 | 2  <br/> | Curva  <br/> |**visLORouteExtNURBS** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda ConLineRouteExt por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ConLineRouteExt por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ConLineRouteExt  <br/> |
    
-Para obtener una referencia a la celda ConLineRouteExt por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ConLineRouteExt por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

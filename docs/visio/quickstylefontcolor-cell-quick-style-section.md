@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleFontColor (sección de estilos rápidos)
+title: Celda QuickStyleFontColor (sección Estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822886"
 ---
-# <a name="quickstylefontcolor-cell-quick-style-section"></a>Celda QuickStyleFontColor (sección de estilos rápidos)
+# <a name="quickstylefontcolor-cell-quick-style-section"></a>Celda QuickStyleFontColor (sección Estilos rápidos)
 
 Determina el color de fuente de los estilos rápidos que hereda de texto de una forma de tema activo, como un número entero entre 0-1. 
   
@@ -24,7 +24,7 @@ Determina el color de fuente de los estilos rápidos que hereda de texto de una 
 |0  <br/> |El texto de la forma usa el color de fuente oscuro.  <br/> |
 |1  <br/> |El texto de la forma usa el color de fuente de luz.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **QuickStyleFontColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

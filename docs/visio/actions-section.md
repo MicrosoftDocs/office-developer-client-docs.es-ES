@@ -16,14 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821491"
 ---
-# <a name="actions-section"></a>Sección de acciones
+# <a name="actions-section"></a>Sección Acciones
 
 Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página. En las versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. La celda **TagName** se usa para asociar una acción con una fila en la sección de **Etiqueta de acción** , donde se definen las etiquetas de acción. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La celda **TagName** se usa para asociar una acción con una fila en la sección de **Etiqueta de acción** , donde se definen las etiquetas de acción. 
   

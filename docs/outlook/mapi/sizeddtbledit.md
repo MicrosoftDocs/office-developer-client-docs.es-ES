@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4ea77023bdc9442325f4af46d23c107e7172ceaf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820674"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una estructura con nombre que incluye una estructura [DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se puede escribir en el control. 
   
@@ -34,17 +34,17 @@ Crea una estructura con nombre que incluye una estructura [DTBLEDIT](dtbledit.md
 SizedDtblEdit (n, u)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _n_
   
 > Número máximo de caracteres que se puede escribir en el control de edición.
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro **SizedDtblEdit** le permite definir un control de edición cuando se conoce el número de caracteres habilitados. Se crea la nueva estructura con los siguientes miembros: 
   
@@ -61,8 +61,8 @@ lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [DTBLEDIT](dtbledit.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

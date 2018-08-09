@@ -1,5 +1,5 @@
 ---
-title: Regla &amp; sección de la cuadrícula
+title: Sección Regla y cuadrícula
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823072"
 ---
-# <a name="ruler-amp-grid-section"></a>Regla &amp; sección de la cuadrícula
+# <a name="ruler-amp-grid-section"></a>Sección Regla y cuadrícula
 
 Muestra la configuración actual de las reglas y las cuadrículas de la página.
   

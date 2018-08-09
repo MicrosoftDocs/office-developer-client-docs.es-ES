@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822737"
 ---
-# <a name="pinx-cell-shape-transform-section"></a>Celda PinX (Sección de transformación de forma)
+# <a name="pinx-cell-shape-transform-section"></a>Celda PinX (sección Transformación de forma)
 
 Representa la *x* -coordenadas del eje de la forma (centro de rotación) en relación con el origen de su forma principal. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda PinX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PinX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PinX  <br/> |
    
-Para obtener una referencia a la celda PinX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PinX por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

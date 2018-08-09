@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagResourceType
+title: Propiedad canónica PidTagResourceType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5d494577721feba01dd9cb93f344308251a8ed33
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820133"
 ---
-# <a name="pidtagresourcetype-canonical-property"></a>Propiedad canónico PidTagResourceType
+# <a name="pidtagresourcetype-canonical-property"></a>Propiedad canónica PidTagResourceType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un valor que indica el tipo de proveedor de servicio.
   
@@ -34,7 +34,7 @@ Contiene un valor que indica el tipo de proveedor de servicio.
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Estado MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -90,7 +90,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

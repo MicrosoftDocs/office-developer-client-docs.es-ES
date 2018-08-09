@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de celdas definidas por el usuario)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Una propiedad de una parte especificada por el usuario de la información que se puede hacer referencia a otras celdas y herramientas complementarias.  <br/> |
+|[Elemento Row (sección Celdas definidas por el usuario)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Una propiedad de una parte especificada por el usuario de la información que se puede hacer referencia a otras celdas y herramientas complementarias.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,11 +60,11 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Prompt  <br/> |Especifica un mensaje o comentario descriptivo para la celda definida por el usuario.  <br/> |[Celda Prompt (Sección de celdas definidas por el usuario)](prompt-cell-user-defined-cells-section.md) <br/> |
 |Value  <br/> |Especifica un valor para la correspondiente celda definida por el usuario.  <br/> |[Celda Value (Sección de celdas definidas por el usuario)](value-cell-user-defined-cells-section.md) <br/> |

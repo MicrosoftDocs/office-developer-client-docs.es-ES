@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0415e782a98102314ce732f744c0d29590f646c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820999"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicializa un proveedor de transporte para la operación.
   
@@ -47,7 +47,7 @@ HRESULT XPProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hInstance_
   
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > La versión SPI usada por MAPI no es compatible con el SPI usado por este proveedor.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI llama a la función de punto de entrada **XPProviderInit** para inicializar un proveedor de transporte después de un inicio de sesión de cliente. **XPProviderInit** se llama una vez para cada proveedor de transporte especificado en el perfil del cliente. 
   
@@ -113,13 +113,13 @@ El proveedor de transporte debe usar las funciones que señala _lpAllocateBuffer
   
 Para obtener más información acerca de cómo escribir **XPProviderInit**, vea [inicializar el proveedor de transporte](initializing-the-transport-provider.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [ABProviderInit](abproviderinit.md)
   
-[IXPProvider: IUnknown](ixpprovideriunknown.md)
+[IXPProvider : IUnknown](ixpprovideriunknown.md)
   
 [MSProviderInit](msproviderinit.md)
 

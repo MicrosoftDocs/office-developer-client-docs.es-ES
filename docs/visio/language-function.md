@@ -1,5 +1,5 @@
 ---
-title: IDIOMA (función)
+title: LANGUAGE Function
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822429"
 ---
-# <a name="language-function"></a>IDIOMA (función)
+# <a name="language-function"></a>LANGUAGE Function
 
 Permite las operaciones de comparación entre las representaciones de idioma diferente. Mejor se utiliza para convertir los valores de etiquetas (BCP 47) de idioma de Internet Engineering Task Force en valores del identificador de (configuración regional LCID) de configuración regional.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2013 
+Versión añadida: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
  **Idioma** ( _lcid_or_bcp47_)
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

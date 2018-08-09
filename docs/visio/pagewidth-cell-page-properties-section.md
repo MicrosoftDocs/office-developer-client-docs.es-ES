@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822733"
 ---
-# <a name="pagewidth-cell-page-properties-section"></a>Celda PageWidth (Sección de propiedades de página)
+# <a name="pagewidth-cell-page-properties-section"></a>Celda PageWidth (sección Propiedades de impresión)
 
 Determina el ancho de la página impresa en las unidades de dibujo.
   
@@ -24,13 +24,13 @@ Determina el ancho de la página impresa en las unidades de dibujo.
 
 También puede establecer el ancho de la página en la ficha **Tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ) o manualmente si cambia el tamaño de la página con el mouse. Para ello, arrastre el borde de la página mientras mantiene presionada la tecla CTRL. 
   
-Para obtener una referencia a la celda PageWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PageWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |PageWidth  <br/> |
    
-Para obtener una referencia a la celda PageWidth por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PageWidth por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

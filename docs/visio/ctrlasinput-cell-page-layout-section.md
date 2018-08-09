@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821895"
 ---
-# <a name="ctrlasinput-cell-page-layout-section"></a>Celda CtrlAsInput (Sección de diseño de página)
+# <a name="ctrlasinput-cell-page-layout-section"></a>Celda CtrlAsInput (sección Diseño de página)
 
 Determina qué forma es la principal cuando se emplean formas con controladores. Esta celda establece el comportamiento de todas las formas en la página de dibujo.
   
@@ -27,13 +27,13 @@ Determina qué forma es la principal cuando se emplean formas con controladores.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda CtrlAsInput por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda CtrlAsInput por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | CtrlAsInput  <br/> |
    
-Para obtener una referencia a la celda CtrlAsInput por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda CtrlAsInput por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 36456c6226b2eb74b8f15995ad0925381302523a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820899"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Existen muchos tipos diferentes de las tablas, cada tipo diferenciado por la información que presenta. Tablas de habilitar las aplicaciones cliente y proveedores de servicios para obtener acceso fácilmente y manipular las propiedades importantes de muchos tipos de objetos. 
   
@@ -44,10 +44,10 @@ Las tablas MAPI y sus implementadores y los usuarios son:
 |Perfil  <br/> |Se implementa mediante MAPI. Utilizado por los clientes.  <br/> |
 |Proveedor  <br/> |Se implementa mediante MAPI. Utilizado por los clientes.  <br/> |
 |Carpeta de recepci�n  <br/> |Implementada por los proveedores de almacén de mensajes. Utilizado por los clientes.  <br/> |
-|Destinatario  <br/> |Implementada por los proveedores de almacén de mensajes. Usada por los clientes y los proveedores de transporte.  <br/> |
-|Estado  <br/> |Implementado por MAPI y los proveedores de servicios. Utilizado por los clientes.  <br/> |
+|Recipient  <br/> |Implementada por los proveedores de almacén de mensajes. Usada por los clientes y los proveedores de transporte.  <br/> |
+|Status  <br/> |Implementado por MAPI y los proveedores de servicios. Utilizado por los clientes.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

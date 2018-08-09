@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822702"
 ---
-# <a name="or-function"></a>OR (función)
+# <a name="or-function"></a>Función OR
 
 Devuelve TRUE (1) si cualquiera de las expresiones lógicas que se pasan como parámetros son TRUE.
   
@@ -24,7 +24,7 @@ Devuelve TRUE (1) si cualquiera de las expresiones lógicas que se pasan como pa
 
 O (** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +34,7 @@ O (** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpres
    
 ### <a name="return-value"></a>Valor devuelto
 
-Boolean
+Booleano
   
 ## <a name="remarks"></a>Observaciones
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823482"
 ---
-# <a name="upper-function"></a>UPPER (función)
+# <a name="upper-function"></a>Función UPPER
 
 Devuelve una cadena convertida en mayúsculas.
   
@@ -24,11 +24,11 @@ Devuelve una cadena convertida en mayúsculas.
 
 SUPERIOR (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 

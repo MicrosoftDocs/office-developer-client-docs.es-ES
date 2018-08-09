@@ -15,7 +15,7 @@ ms.locfileid: "19820948"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Uso de un proveedor de almacén de archivos PST ajustado
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para poder usar un proveedor de almacén de archivo (.pst) de carpetas personales ajustado, debe inicializar y configurar el proveedor de almacén de archivos PST ajustado. Después de configura el proveedor de almacén de archivos PST ajustado, debe implementar las funciones para que MAPI y la cola MAPI pueden iniciar sesión en el proveedor de almacén de mensajes. Para obtener más información acerca de inicializar e inicio de sesión un proveedor de almacén de archivos PST ajustado, vea [inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md) y el [Registro en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md).
   
@@ -54,11 +54,11 @@ STDMETHODIMP CSupport::OpenProfileSection(
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca del ejemplo ajusta el proveedor de almacén de archivos PST](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalar el ejemplo ajusta el proveedor de almacén de archivos PST](installing-the-sample-wrapped-pst-store-provider.md)
+- [Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalar la muestra de proveedor de almacén de archivos PST ajustado](installing-the-sample-wrapped-pst-store-provider.md)
 - [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
-- [Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2b14c4fe8cbbadb2ccdd6a2f7870a07d2f96a3c9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820861"
 ---
 # <a name="tips-for-better-table-performance"></a>Sugerencias para mejorar el rendimiento de tabla
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Debido a que muchas de las operaciones de tabla pueden llevar mucho tiempo y no hay ninguna manera de indicar el progreso, es útil usar las siguientes técnicas para mejorar el rendimiento:
   
@@ -45,7 +45,7 @@ Debido a que muchas de las operaciones de tabla pueden llevar mucho tiempo y no 
     
     Proveedores de servicios de implementación de las tablas pueden reducir el tiempo necesario para crear una vista mediante el almacenamiento en memoria caché copias de las propiedades del objeto usados con más frecuencia. Es necesario recompilar conservar una copia de estas propiedades en ahorra memoria tener que recuperar desde el objeto cada vez que la vista.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

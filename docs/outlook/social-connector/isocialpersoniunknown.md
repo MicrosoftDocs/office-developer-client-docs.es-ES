@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821104"
 ---
-# <a name="isocialperson--iunknown"></a>ISocialPerson: IUnknown
+# <a name="isocialperson--iunknown"></a>ISocialPerson : IUnknown
 
 Representa a una persona en la red social.
   
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 La siguiente tabla muestran a los miembros que están disponibles en la interfaz **ISocialPerson** . 
   
@@ -32,11 +32,11 @@ La siguiente tabla muestran a los miembros que están disponibles en la interfaz
 |[GetPicture](isocialperson-getpicture.md) <br/> |Método  <br/> |Obtiene una matriz de bytes que contiene el recurso de imagen para la persona.  <br/> |
 |[GetStatus](isocialperson-getstatus.md) <br/> |Método  <br/> |Este método no se admite actualmente.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un proveedor de Outlook Social Connector (OSC) debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Interfaces del proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

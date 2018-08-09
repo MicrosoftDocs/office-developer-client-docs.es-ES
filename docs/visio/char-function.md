@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821741"
 ---
-# <a name="char-function"></a>CHAR (función)
+# <a name="char-function"></a>Función CHAR
 
 Devuelve el carácter ANSI para un número.
   
@@ -24,13 +24,13 @@ Devuelve el carácter ANSI para un número.
 
 CHAR (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Número** <br/> |El número cuyo carácter ANSI desea obtener.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cadena resultante tiene un carácter de longitud. El parámetro de _número_ debe ser un entero entre 1 y 255 (ambos inclusive), o la función devuelve un error. 
   

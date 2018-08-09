@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0f55d4cda013810884177a0f47e861e3693defd7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818404"
 ---
 # <a name="message-services-and-profiles"></a>Los perfiles y servicios de mensajes
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Algunos usuarios requieren los servicios de varios sistemas de mensajería, cada uno con uno o más proveedores de servicio. Porque se multisistema para instalar y configurar cada uno de estos proveedores de servicios de forma individual, y debido a que un servidor de mensajería normalmente requiere un grupo de proveedores relacionados para exponer toda su funcionalidad, MAPI incluye el concepto de un servicio de mensajes. Servicios de mensajes para los usuarios de instalar y configurar los proveedores de servicios.
   
@@ -53,11 +53,11 @@ En la siguiente ilustración se muestra el contenido de dos perfiles típicos. S
   
 En la siguiente ilustración muestra un perfil que incluye dos servicios de mensaje. El código para instalar y configurar los proveedores de servicios que pertenecen al servicio de mensajes reside en la misma DLL que el código para los proveedores. Este código lee la información del perfil de tiempo de inicio de sesión para configurar los proveedores de servicios y lo solicita el usuario, si es posible y es necesario, para obtener información que faltan. También se controlan las solicitudes de un cliente para ver o cambiar la configuración para cualquiera de los proveedores por este código común.
   
-**Instalación y configuración de proveedores de servicios**
+**Instalación y configuración de proveedores de servicio**
   
 ![Instalar y configurar los proveedores de servicios] (media/amapi_55.gif "Instalar y configurar los proveedores de servicios")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [MAPIUID](mapiuid.md)
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)

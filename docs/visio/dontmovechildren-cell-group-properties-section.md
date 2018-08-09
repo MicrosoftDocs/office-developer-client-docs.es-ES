@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822011"
 ---
-# <a name="dontmovechildren-cell-group-properties-section"></a>Celda DontMoveChildren (Sección de propiedades del grupo)
+# <a name="dontmovechildren-cell-group-properties-section"></a>Celda DontMoveChildren (sección Propiedades de grupo)
 
 Determina si se puede utilizar el mouse (ratón) para arrastrar las formas de un grupo.
   
@@ -31,13 +31,13 @@ Si el valor de esta celda es TRUE, puede voltear, girar o cambiar el tamaño y l
   
 El valor de esta celda es TRUE para los grupos de los patrones e instancias de patrones que se crearon en versiones de Microsoft Visio anteriores a Visio 2000.
   
-Para obtener una referencia a la celda DontMoveChildren por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DontMoveChildren por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | DontMoveChildren  <br/> |
    
-Para obtener una referencia a la celda DontMoveChildren por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DontMoveChildren por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

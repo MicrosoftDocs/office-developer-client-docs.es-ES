@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagDistributionListExpansionHistory
+title: Propiedad canónica PidTagDistributionListExpansionHistory
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3989532388d9c88c293427a4ce7109579a832ad1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819466"
 ---
-# <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propiedad canónico PidTagDistributionListExpansionHistory
+# <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propiedad canónica PidTagDistributionListExpansionHistory
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un historial que muestra cómo una lista de distribución se ha ampliado durante la transmisión de mensajes. 
   
@@ -34,7 +34,7 @@ Contiene un historial que muestra cómo una lista de distribución se ha ampliad
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Sobres MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad está disponible para recibir las aplicaciones cliente si lo ha configurado el proveedor de transporte. También está disponible para el cliente de envío si el contenido del mensaje se devuelve con un informe. 
   
@@ -50,18 +50,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagDistributionListExpansionProhibited](pidtagdistributionlistexpansionprohibited-canonical-property.md)
+[Propiedad canónica PidTagDistributionListExpansionProhibited](pidtagdistributionlistexpansionprohibited-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

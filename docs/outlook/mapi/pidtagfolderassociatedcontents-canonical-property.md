@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagFolderAssociatedContents
+title: Propiedad canónica PidTagFolderAssociatedContents
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fe6395029e312a19bce6252e73b4616bb0aa0851
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819504"
 ---
-# <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propiedad canónico PidTagFolderAssociatedContents
+# <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propiedad canónica PidTagFolderAssociatedContents
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un objeto de tabla de contenido incrustado que proporciona información acerca de la tabla de contenido asociada. 
   
@@ -34,7 +34,7 @@ Contiene un objeto de tabla de contenido incrustado que proporciona información
 |Tipo de datos:  <br/> |PT OBJECT  <br/> |
 |Área:  <br/> |Contenedor MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 En la tabla de contenido asociada representa una subcarpeta que no aparecen en la tabla de contenido estándar. Contiene los mensajes asociado u ocultas, de la carpeta. 
   
@@ -78,18 +78,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)
+[Propiedad canónica PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

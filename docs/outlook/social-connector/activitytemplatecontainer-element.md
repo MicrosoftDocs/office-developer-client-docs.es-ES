@@ -33,12 +33,12 @@ En la siguiente tabla se describe los elementos secundarios de **activityTemplat
 |:-----|:-----|
 |**icon** <br/> |Un token de vínculo, que hace referencia a la dirección URL del icono para ese elemento de la fuente.  <br/> |
 |**title** <br/> |La información necesaria para el elemento de la fuente.  <br/> |
-|**tipo** <br/> |El tipo de actividad, como una actualización de estado, la foto o el documento.  <br/> |
+|**type** <br/> |El tipo de actividad, como una actualización de estado, la foto o el documento.  <br/> |
 |**data** <br/> |Información adicional para el elemento de la fuente, como imágenes, texto o vínculos.  <br/> |
    
 Para obtener un ejemplo de la actividad de fuente XML, vea [Ejemplo de XML de fuente de actividad](activity-feed-xml-example.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Elemento de la fuente de información general de XML de una actividad](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityDetails](activitydetails-element.md)  

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821964"
 ---
-# <a name="description-function"></a>DESCRIPTION (función)
+# <a name="description-function"></a>Función DESCRIPTION
 
 Devuelve el texto del campo de **Descripción** de las propiedades de un documento. 
   

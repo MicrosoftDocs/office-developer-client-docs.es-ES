@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fa3c0b90a64c90a7c854cb22ac75438fa5fca23f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820942"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para cargar el estado de lectura de elementos durante la [carga lee el estado de estado](upload-read-status-state.md).
   
@@ -33,7 +33,7 @@ struct UPREAD
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _pupre_
   
@@ -43,13 +43,13 @@ struct UPREAD
   
 >  [out] Número de entradas **UPREADE** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [Constantes MAPI](mapi-constants.md)
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821811"
 ---
-# <a name="complexscriptfont-cell-character-section"></a>Celda ComplexScriptFont (Sección de caracteres)
+# <a name="complexscriptfont-cell-character-section"></a>Celda ComplexScriptFont (sección Caracteres)
 
 Contiene el número de la fuente empleada para dar formato a un texto compuesto por caracteres de un alfabeto complejo. Los números de fuente varían según las fuentes instaladas en el sistema. 
   
@@ -26,13 +26,13 @@ Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** en
   
 El número 0 (cero) indica que no hay ninguna fuente especificada. Se usan el nombre de fuente latino o fuentes predeterminadas.
   
-Para obtener una referencia a la celda ComplexScriptSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ComplexScriptFont por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.ComplexScriptFont [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda ComplexScriptFont por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ComplexScriptFont por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

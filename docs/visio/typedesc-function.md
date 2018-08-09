@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823474"
 ---
-# <a name="typedesc-function"></a>TYPEDESC (función)
+# <a name="typedesc-function"></a>Función TYPEDESC
 
 Devuelve un valor de tipo string que describe un tipo de objeto interno. 
   
@@ -26,7 +26,7 @@ TYPEDESC ()
   
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

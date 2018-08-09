@@ -15,7 +15,7 @@ ms.locfileid: "19820653"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Configuración de un complemento en el estado sin conexión
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación. En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión. A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).
   
@@ -287,11 +287,11 @@ HRESULT CMyAddin::HrAddMenuItems()
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de estado sin conexión](about-the-offline-state-api.md) 
-- [Instalar el ejemplo sin conexión estado Add-in](installing-the-sample-offline-state-add-in.md)
-- [Acerca del ejemplo sin conexión de estado complemento:](about-the-sample-offline-state-add-in.md)
-- [Supervisión de estado de conexión cambia mediante un sin conexión estado Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Desconectar un sin conexión estado Add-in](disconnecting-an-offline-state-add-in.md)
+- [Información sobre la API de estado sin conexión](about-the-offline-state-api.md) 
+- [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
+- [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
+- [Supervisar los cambios estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822019"
 ---
-# <a name="doclangid-cell-document-properties-section"></a>Celda DocLangID (Sección de propiedades del documento)
+# <a name="doclangid-cell-document-properties-section"></a>Celda DocLangID (sección Propiedades del documento)
 
 Indica el idioma predeterminado del documento.
   
@@ -30,16 +30,23 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
   
 |**Idioma**|**LCID**|
 |:-----|:-----|
-|Afrikaans  <br/> |1078  <br/> |
-|Albanés  <br/> |1052  <br/> |
-|Amárico  <br/> |1118  <br/> |
+|
+Afrikaans  <br/> |1078  <br/> |
+|
+Albanés  <br/> |1052  <br/> |
+|
+Amhárico  <br/> |1118  <br/> |
 |Árabe  <br/> |1025  <br/> |
 |Armenio  <br/> |1067  <br/> |
-|Assamese  <br/> |1101  <br/> |
-|Azerí (cirílico)  <br/> |2092  <br/> |
-|Azerí (Latino)  <br/> |1068  <br/> |
+|
+Asamés  <br/> |1101  <br/> |
+|
+Azerí (cirílico)  <br/> |2092  <br/> |
+|
+Azerí (latino)  <br/> |1068  <br/> |
 |Vasco (Basque)  <br/> |1069  <br/> |
-|Bielorruso  <br/> |1059  <br/> |
+|
+Bielorruso  <br/> |1059  <br/> |
 |Bengalí  <br/> |1093  <br/> |
 |Búlgaro  <br/> |1026  <br/> |
 |Catalán  <br/> |1027  <br/> |
@@ -49,47 +56,69 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Croata  <br/> |1050  <br/> |
 |Checo  <br/> |1029  <br/> |
 |Danés  <br/> |1030  <br/> |
-|Dhivehi  <br/> |1125  <br/> |
+|
+Divehi  <br/> |1125  <br/> |
 |Neerlandés  <br/> |1043  <br/> |
-|EDO  <br/> |1126  <br/> |
-|Inglés (australiano)  <br/> |3081  <br/> |
-|Inglés (Canadá)  <br/> |4105  <br/> |
+|
+ Edo  <br/> |1126  <br/> |
+|
+Inglés (australiano)  <br/> |3081  <br/> |
+|
+Inglés (canadiense)  <br/> |4105  <br/> |
 |Inglés (Reino Unido)  <br/> |2057  <br/> |
-|Inglés (Estados Unidos)  <br/> |1033  <br/> |
+|
+Inglés (EE.UU.)  <br/> |1033  <br/> |
 |Estonio  <br/> |1061  <br/> |
-|Faroés  <br/> |1080  <br/> |
-|Filipino  <br/> |1124  <br/> |
+|
+Feroe  <br/> |1080  <br/> |
+|
+Filipino  <br/> |1124  <br/> |
 |Finlandés  <br/> |1035  <br/> |
 |Francés  <br/> |1036  <br/> |
-|Francés (Canadá)  <br/> |3084  <br/> |
-|Frisón  <br/> |1122  <br/> |
-|Fulfude  <br/> |1127  <br/> |
-|Gallego  <br/> |1110  <br/> |
+|
+Francés (canadiense)  <br/> |3084  <br/> |
+|
+Frisón  <br/> |1122  <br/> |
+|
+Fufulda  <br/> |1127  <br/> |
+|
+Gallego  <br/> |1110  <br/> |
 |Georgiano  <br/> |1079  <br/> |
 |Alemán  <br/> |1031  <br/> |
-|Alemán (austriaco)  <br/> |3079  <br/> |
-|Alemán (Suizo)  <br/> |2055  <br/> |
+|
+Alemán (austriaco)  <br/> |3079  <br/> |
+|
+Alemán (suizo)  <br/> |2055  <br/> |
 |Griego  <br/> |1032  <br/> |
 |Gujarati  <br/> |1095  <br/> |
-|Hausa  <br/> |1128  <br/> |
-|Hawai  <br/> |1141  <br/> |
+|
+Hausa  <br/> |1128  <br/> |
+|
+Hawaiano  <br/> |1141  <br/> |
 |Hebreo  <br/> |1037  <br/> |
 |Hindi  <br/> |1081  <br/> |
 |Húngaro  <br/> |1038  <br/> |
-|Ibibio  <br/> |1129  <br/> |
+|
+Ibibio  <br/> |1129  <br/> |
 |Islandés  <br/> |1039  <br/> |
-|Igbo  <br/> |1136  <br/> |
+|
+Ibo  <br/> |1136  <br/> |
 |Indonesio  <br/> |1057  <br/> |
-|Inuktitut  <br/> |1117  <br/> |
+|
+Inuit  <br/> |1117  <br/> |
 |Italiano  <br/> |1040  <br/> |
 |Japonés  <br/> |1041  <br/> |
 |Canarés  <br/> |1099  <br/> |
-|Kanuri  <br/> |1137  <br/> |
-|Cachemir  <br/> |2144  <br/> |
+|
+Kanuri  <br/> |1137  <br/> |
+|
+Cachemir  <br/> |2144  <br/> |
 |Cachemir (árabe)  <br/> |1120  <br/> |
 |Kazajo  <br/> |1087  <br/> |
-|Kirguizo  <br/> |1088  <br/> |
-|Konkani  <br/> |1111  <br/> |
+|
+Kirguiso  <br/> |1088  <br/> |
+|
+Konkani  <br/> |1111  <br/> |
 |Coreano  <br/> |1042  <br/> |
 |Latín  <br/> |1142  <br/> |
 |Letón  <br/> |1062  <br/> |
@@ -97,15 +126,21 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Macedonio (Ex República Yugoslava de Macedonia)  <br/> |1071  <br/> |
 |Malayo  <br/> |1086  <br/> |
 |Malayalam  <br/> |1100  <br/> |
-|Maltés  <br/> |1082  <br/> |
-|Manipuri  <br/> |1112  <br/> |
+|
+Maltés  <br/> |1082  <br/> |
+|
+Manipurí  <br/> |1112  <br/> |
 |Marathi  <br/> |1102  <br/> |
 |Mongol  <br/> |1104  <br/> |
-|Nepalí  <br/> |1121  <br/> |
-|Noruego (Bokmal)  <br/> |1044  <br/> |
-|Noruego (Nynorsk)  <br/> |2068  <br/> |
+|
+Nepalí  <br/> |1121  <br/> |
+|
+Noruego (Bokmal)  <br/> |1044  <br/> |
+|
+Noruego (Nynorsk)  <br/> |2068  <br/> |
 |Odia  <br/> |1096  <br/> |
-|Oromo  <br/> |1138  <br/> |
+|
+Oromo  <br/> |1138  <br/> |
 |Pasto  <br/> |1123  <br/> |
 |Persa  <br/> |1065  <br/> |
 |Polaco  <br/> |1045  <br/> |
@@ -114,36 +149,50 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Punyabí  <br/> |1094  <br/> |
 |Rumano  <br/> |1048  <br/> |
 |Ruso  <br/> |1049  <br/> |
-|Sánscrito  <br/> |1103  <br/> |
+|
+Sánscrito  <br/> |1103  <br/> |
 |Serbio (cirílico)  <br/> |3098  <br/> |
 |Serbio (latino)  <br/> |2074  <br/> |
 |Sindi  <br/> |1113  <br/> |
-|Sinhalese  <br/> |1115  <br/> |
+|
+Cingalés  <br/> |1115  <br/> |
 |Eslovaco  <br/> |1051  <br/> |
 |Esloveno  <br/> |1060  <br/> |
-|Somalí  <br/> |1143  <br/> |
+|
+Somalí  <br/> |1143  <br/> |
 |Español  <br/> |3082  <br/> |
-|Swahili  <br/> |1089  <br/> |
+|
+Suajili  <br/> |1089  <br/> |
 |Sueco  <br/> |1053  <br/> |
 |Sirio  <br/> |1114  <br/> |
-|Tayiko  <br/> |1064  <br/> |
-|Tamazight (árabe, Marruecos)  <br/> |1119  <br/> |
-|Tamazight (latino)  <br/> |2143  <br/> |
+|
+Tayico  <br/> |1064  <br/> |
+|
+Tamazight (árabe, Marruecos)  <br/> |1119  <br/> |
+|
+Tamazight (latino)  <br/> |2143  <br/> |
 |Tamil  <br/> |1097  <br/> |
-|Tártaro  <br/> |1092  <br/> |
+|
+Tártaro  <br/> |1092  <br/> |
 |Telugu  <br/> |1098  <br/> |
 |Tailandés  <br/> |1054  <br/> |
-|Tigriña (Etiopía)  <br/> |1139  <br/> |
-|Tigriña (Eritrea)  <br/> |2163  <br/> |
+|
+Tigriña (Etiopía)  <br/> |1139  <br/> |
+|
+Tigriña (Eritrea)  <br/> |2163  <br/> |
 |Turco  <br/> |1055  <br/> |
-|Turcomano  <br/> |1090  <br/> |
+|
+Turcomano  <br/> |1090  <br/> |
 |Ucraniano  <br/> |1058  <br/> |
 |Urdu  <br/> |1056  <br/> |
-|Uzbek (cirílico)  <br/> |2115  <br/> |
-|Uzbeko (latino)  <br/> |1091  <br/> |
+|
+Uzbeco (cirílico)  <br/> |2115  <br/> |
+|
+Uzbeco (latino)  <br/> |1091  <br/> |
 |Vietnamita  <br/> |1066  <br/> |
 |Yi  <br/> |1144  <br/> |
-|Yiddish  <br/> |1085  <br/> |
+|
+Yiddish  <br/> |1085  <br/> |
 |Yoruba  <br/> |1130  <br/> |
    
 Para obtener una referencia a la celda DocLangID por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
@@ -152,7 +201,7 @@ Para obtener una referencia a la celda DocLangID por su nombre desde otra fórmu
 |:-----|:-----|
 |Nombre de celda:  <br/> |DocLangID  <br/> |
    
-Para obtener una referencia a la celda DocLangID por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DocLangID por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -23,7 +23,7 @@ Inicie sesión en el sitio de red social mediante el uso de credenciales almacen
 HRESULT _stdcall LogonCached([in] BSTR connectIn, [in] BSTR userName, [in] BSTR password,  [out] BSTR connectOut);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _Configuración_
   
@@ -41,7 +41,7 @@ _connectOut_
   
 > [out] Una cadena opaca que contiene las credenciales.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se llama a este método de autenticación sólo si **useLogonCached** se establece como **true** en el XML de las **capacidades de** devuelto por [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md).
   
@@ -49,7 +49,7 @@ Outlook Social Connector (OSC) llama a **LogonCached**y le pasa una cadena vací
   
 El parámetro _connectOut_ es una cadena opaca para el OSC y se pasa para el parámetro de _configuración_ en los intentos posteriores por el OSC para iniciar sesión en la red social. El proveedor debe colocar todas las credenciales en la cadena de _connectOut_ que el proveedor desea el OSC para almacenar a través de conexiones. El OSC no interpreta la cadena en _connectOut_y cifra la cadena por razones de seguridad antes de almacenarlos en el registro de Windows.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

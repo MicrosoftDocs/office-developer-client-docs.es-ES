@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSearchRecipientEmailBcc
+title: Propiedad canónica PidTagSearchRecipientEmailBcc
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 498a740a6523434cc6c70793cf98fd1e2ccfbdb3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820242"
 ---
-# <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propiedad canónico PidTagSearchRecipientEmailBcc
+# <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propiedad canónica PidTagSearchRecipientEmailBcc
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una cadena Unicode que se está realizando la consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios en la línea **CCO** de los mensajes no enviados en el almacén. 
   
@@ -30,9 +30,9 @@ Contiene una cadena Unicode que se está realizando la consulta en la lista de d
 |Propiedades asociadas:  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificador:  <br/> |0x0EA8  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Access:  <br/> |B?squeda  <br/> |
+|Access:  <br/> |Búsqueda  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad sólo es relevante para los mensajes en el almacén de que no se ha enviado, debido a que los mensajes que se han enviado o recibido no contienen información de CCO.
   
@@ -61,7 +61,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -69,7 +69,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

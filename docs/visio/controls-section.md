@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821883"
 ---
-# <a name="controls-section"></a>Sección de controles
+# <a name="controls-section"></a>Sección Controles
 
 Contiene una fila y celdas para cada controlador definido en una forma.
   

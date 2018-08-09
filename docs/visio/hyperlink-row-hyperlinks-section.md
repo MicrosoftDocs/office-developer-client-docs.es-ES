@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822304"
 ---
-# <a name="hyperlink-row-hyperlinks-section"></a>Fila Hyperlink (Sección de hipervínculos)
+# <a name="hyperlink-row-hyperlinks-section"></a>Fila Hyperlink (sección Hipervínculos)
 
 Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una fila Hyperlink por cada hipervínculo.
   

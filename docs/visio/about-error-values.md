@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821483"
 ---
-# <a name="about-error-values"></a>Valores de error
+# <a name="about-error-values"></a>Información sobre los valores de error
 
 Los valores de error se muestran en las celdas que contienen fórmulas incorrectas.
   
@@ -26,12 +26,44 @@ Si una fórmula hace referencia a una celda que contiene un valor de error, tamb
 
 ||||
 |:-----|:-----|:-----|
-|**Si la celda aparece** <br/> |**La fórmula contiene** <br/> |**Ejemplo** <br/> |
-| #DIV/0!  <br/> |División por 0  <br/> |10/0  <br/> |
-| #VALUE!  <br/> | Argumento u operando de tipo no válido  <br/> | 5 + "Corchos"  <br/> |
-| #REF!  <br/> | Una referencia a una celda que no existe  <br/> | Una celda que hace referencia a otra celda que ya no existe  <br/> |
-| #NUM!  <br/> | Un número no válido  <br/> | Raíz cuadrada de un número negativo  <br/> |
-| #N/A!  <br/> | No es un valor disponible  <br/> | Función NA)  <br/> |
-| ¡#DIM!  <br/> | Valor dimensional que excede el intervalo de la dimensión (exponentes válidos son enteros -128 \<= n \<= 127)  <br/> Un valor dimensional utilizado en una operación no válida  <br/> |1pda ^ 100 \* 1pda ^ 100 (el resultado es 1pda ^ 200, que está fuera del intervalo de dimensión)  <br/> 5.2 cm ^ 1,5 (exponente no entero)  <br/> |
+|**Si en la celda aparece** <br/> |**La fórmula contiene** <br/> |**Ejemplo** <br/> |
+| #DIV/0!  <br/> |
+                División entre cero
+  <br/> |10/0  <br/> |
+| #VALUE!  <br/> | 
+                
+                
+                Argumento u operando de tipo no válido
+  <br/> | 
+                
+                
+                5 + "Casa"
+  <br/> |
+| #REF!  <br/> | 
+                
+                
+                Referencia a una celda que no existe
+  <br/> | 
+                
+                
+                Una celda hace referencia a otra que ya no existe
+  <br/> |
+| #NUM!  <br/> | 
+                
+                
+                Número no válido
+  <br/> | 
+                
+                
+                Raíz cuadrada de un número negativo
+  <br/> |
+| #N/A!  <br/> | No es un valor disponible  <br/> | 
+                
+                
+                Función NA( )
+  <br/> |
+| ¡#DIM!  <br/> | Valor dimensional que excede el intervalo de la dimensión (exponentes válidos son enteros -128 \<= n \<= 127)  <br/> Valor dimensional utilizado en una operación no válida
+  <br/> |1pda ^ 100 \* 1pda ^ 100 (el resultado es 1pda ^ 200, que está fuera del intervalo de dimensión)  <br/> 5,2cm^1,5 (exponente no entero)
+  <br/> |
    
 

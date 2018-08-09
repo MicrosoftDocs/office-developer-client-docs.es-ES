@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de capas)](row-element-layer-sectionvisio-xml.md) <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad de una capa o sus propiedades de una página.  <br/> |
+|[Elemento Row (sección Capa)](row-element-layer-sectionvisio-xml.md) <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad de una capa o sus propiedades de una página.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,22 +60,22 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Activo  <br/> |Especifica si una capa está activa.  <br/> |Ninguno.  <br/> |
 |Color  <br/> |Especifica uno de los siguientes: el índice del color en la tabla de color utilizado para mostrar la capa o un valor RGB que especifica un color personalizado no está en la tabla de colores.  <br/> |Ninguno.  <br/> |
 |ColorTrans  <br/> |Determina el grado de transparencia de una capa o el color del texto de la forma, de 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguno.  <br/> |
 |Pegado  <br/> |Especifica si las formas que pertenecen a la capa pueden pegarse a.  <br/> |Ninguno.  <br/> |
-|Bloqueo  <br/> |Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.  <br/> |Ninguno.  <br/> |
+|Lock  <br/> |Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.  <br/> |Ninguno.  <br/> |
 |Nombre  <br/> |El nombre de una capa.  <br/> |Ninguno.  <br/> |
 |NameUniv  <br/> |Especifica el nombre universal de una capa.  <br/> |Ninguno.  <br/> |
 |Imprimir  <br/> |Especifica si las formas que pertenecen a la capa se imprimen cuando se imprime el dibujo.  <br/> |Ninguno.  <br/> |
 |Complemento  <br/> |Especifica si otras formas se pueden ajustar a formas asignadas a la capa.  <br/> |Ninguno.  <br/> |
-|Estado  <br/> |Especifica si la capa es una capa válida para un documento.  <br/> |Ninguno.  <br/> |
+|Status  <br/> |Especifica si la capa es una capa válida para un documento.  <br/> |Ninguno.  <br/> |
 |Visible  <br/> |Especifica si las formas de la capa son visibles en la página de dibujo.  <br/> |Ninguno.  <br/> |
    
 

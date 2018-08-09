@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823488"
 ---
-# <a name="user-defined-cells-section"></a>Sección de celdas definidas por el usuario
+# <a name="user-defined-cells-section"></a>Sección Celdas definidas por el usuario
 
 Un área de trabajo para escribir fórmulas en celdas específicas del usuario a las que hacen referencia otras celdas y herramientas complementarias.
   
@@ -26,6 +26,6 @@ Como la sección [Scratch](scratch-section.md) , la sección de **celdas definid
   
 Si su solución tiene un propósito bien definido, se recomienda usar las celdas en la sección de **celdas definidas por el usuario** para mayor claridad, debido a que las celdas de usuario pueden tener nombre. La sección **de borrador** se usa normalmente para aislar cálculos complejos que se repiten. 
   
-Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).
+Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).
   
 

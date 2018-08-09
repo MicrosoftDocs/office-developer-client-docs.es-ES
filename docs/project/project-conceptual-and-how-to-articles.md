@@ -33,8 +33,8 @@ Project Server 2013 se basa en el marco de servicio web de Project Server Interf
   
 - [Referencias de programación de Project 2013](project-2013-programming-references.md) incluye información sobre el desarrollo con Project Server Interface (PSI), códigos de error y el servicio ProjectData OData. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Referencia de servicio web y biblioteca de clases de Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
+- [Referencia de servicios web y biblioteca de clases de Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
   
 

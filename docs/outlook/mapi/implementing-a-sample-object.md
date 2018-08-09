@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19817667"
 ---
 # <a name="implementing-a-sample-object"></a>Implementación de un objeto de ejemplo
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Objetos del receptor de aviso: los objetos que admiten la [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interfaz — son MAPI objetos que implementan las aplicaciones cliente para procesar las notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) y contiene un solo método, **OnNotify**. Por lo tanto, para implementar un objeto de receptor advise, un cliente crea código para los tres métodos de **IUnknown** y para [OnNotify](imapiadvisesink-onnotify.md).
   
@@ -113,8 +113,8 @@ lpMyObj->lpVtbl = &vtblADVISE;
  
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
-- [Implementación de objetos de MAPI](implementing-mapi-objects.md)
+- [Información general sobre MAPI (propiedad)](mapi-property-overview.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

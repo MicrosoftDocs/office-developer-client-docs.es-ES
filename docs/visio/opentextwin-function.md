@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822692"
 ---
-# <a name="opentextwin-function"></a>OPENTEXTWIN (función)
+# <a name="opentextwin-function"></a>Función OPENTEXTWIN
 
 Se abre el bloque de texto de la forma para que pueda modificarse el texto.
   

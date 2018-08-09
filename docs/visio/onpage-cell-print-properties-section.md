@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822690"
 ---
-# <a name="onpage-cell-print-properties-section"></a>Celda OnPage (Sección de propiedades de impresión)
+# <a name="onpage-cell-print-properties-section"></a>Celda OnPage (sección Propiedades de impresión)
 
 Indica si el dibujo se imprime en un número concreto de páginas de la impresora. 
   
@@ -31,13 +31,13 @@ Si la celda OnPage se establece en TRUE, Microsoft Visio recurrirá a las celda
   
 Este valor corresponde a la opción **Ajustar a** en la ficha **Configurar impresión** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ). 
   
-Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |OnPage  <br/> |
    
-Para obtener una referencia a la celda OnPage por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda OnPage por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

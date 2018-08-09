@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822015"
 ---
-# <a name="dooleverb-function"></a>DOOLEVERB (función)
+# <a name="dooleverb-function"></a>Función DOOLEVERB
 
 Ejecuta un verbo para el objeto OLE.
   
@@ -24,7 +24,7 @@ Ejecuta un verbo para el objeto OLE.
 
 DOOLEVERB ("** *verbo* **") 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

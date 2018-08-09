@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822504"
 ---
-# <a name="listsheetref-function"></a>LISTSHEETREF (función)
+# <a name="listsheetref-function"></a>Función LISTSHEETREF
 
 Devuelve una referencia de hoja a la forma del contenedor de lista que contiene la forma.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

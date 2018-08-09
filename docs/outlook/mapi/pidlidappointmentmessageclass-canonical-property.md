@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentMessageClass
+title: Propiedad canónica PidLidAppointmentMessageClass
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8777b2119e6beefc4d69dc0babfc8672df3a468b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818484"
 ---
-# <a name="pidlidappointmentmessageclass-canonical-property"></a>Propiedad canónico PidLidAppointmentMessageClass
+# <a name="pidlidappointmentmessageclass-canonical-property"></a>Propiedad canónica PidLidAppointmentMessageClass
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de la reunión que va a generar a partir de la convocatoria de reunión.
   
@@ -35,7 +35,7 @@ Indica la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclas
 |Tipo de datos:  <br/> |PT_TSTRING  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser "IPM. Cita"o el prefijo"IPM. Cita. ". Esta propiedad no es necesaria.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

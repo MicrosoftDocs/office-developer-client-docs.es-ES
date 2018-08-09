@@ -27,8 +27,8 @@ Devuelve un valor de tipo string que representa el identificador de usuario de r
 
 Una cadena que contiene el identificador de usuario de red social del usuario que ha iniciado la sesión.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession::LoggedOnUserName](isocialsession-loggedonusername.md)  
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

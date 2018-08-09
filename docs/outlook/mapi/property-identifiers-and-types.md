@@ -1,5 +1,5 @@
 ---
-title: Tipos y los identificadores de propiedad
+title: Tipos e identificadores de propiedad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7f31162e669af6efaf9e935c7c400d105c1321c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820445"
 ---
-# <a name="property-identifiers-and-types"></a>Tipos y los identificadores de propiedad
+# <a name="property-identifiers-and-types"></a>Tipos e identificadores de propiedad
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Todas las propiedades MAPI se representan mediante las etiquetas de propiedad. Una etiqueta de propiedad es un valor entero sin signo de 32 bits que contiene el identificador de la propiedad en la alta pedidos 16 bits y el tipo de propiedad en la baja pedidos 16 bits. Etiquetas de propiedad para todas las propiedades definidas por MAPI se incluyen en el archivo de encabezado mapitags.h.
   

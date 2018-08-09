@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6d2c85aa76a372ba79e55dbf5b22024288214df6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820794"
 ---
-# <a name="supporting-formatted-text-gateway-responsibilities"></a>Que admite texto con formato: Responsabilidades de puerta de enlace
+# <a name="supporting-formatted-text-gateway-responsibilities"></a>Admitir texto con formato: responsabilidades de puerta de enlace
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  **Para controlar el formato de texto enriquecido para los mensajes salientes, las puertas de enlace**
   

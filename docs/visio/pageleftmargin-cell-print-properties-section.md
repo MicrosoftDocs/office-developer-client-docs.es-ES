@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822707"
 ---
-# <a name="pageleftmargin-cell-print-properties-section"></a>Celda PageLeftMargin (Sección de propiedades de impresión)
+# <a name="pageleftmargin-cell-print-properties-section"></a>Celda PageLeftMargin (sección Propiedades de impresión)
 
 Especifica el margen izquierdo de la página impresa.
   
@@ -24,13 +24,14 @@ Especifica el margen izquierdo de la página impresa.
 
 Este valor representa unidades físicas y no se ve afectado por escalas ni unidades de dibujo. Por ejemplo, si esta celda tiene el valor 0,25 pda., este margen será de 0,25 pulgadas incluso si se utilizan pies como unidades en la página. Si las unidades no se indican explícitamente, este valor asume de forma predeterminada las unidades de la página. 
   
-Para obtener una referencia a la celda PageLeftMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PageLeftMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PageLeftMargin  <br/> |
    
-Para obtener una referencia a la celda PageLeftMargin por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PageLeftMargin por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

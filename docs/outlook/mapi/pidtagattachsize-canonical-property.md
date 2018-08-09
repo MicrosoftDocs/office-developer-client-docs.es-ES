@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAttachSize
+title: Propiedad canónica PidTagAttachSize
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2d6b585c00ffb3d9dd5fb0864d98b0a221c7d8c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819253"
 ---
-# <a name="pidtagattachsize-canonical-property"></a>Propiedad canónico PidTagAttachSize
+# <a name="pidtagattachsize-canonical-property"></a>Propiedad canónica PidTagAttachSize
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la suma, en bytes, de los tamaños de todas las propiedades en un archivo adjunto. 
   
@@ -34,7 +34,7 @@ Contiene la suma, en bytes, de los tamaños de todas las propiedades en un archi
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se recomienda que los datos adjuntos subobjetos exponen la propiedad **PR_ATTACH_SIZE** . La suma contenida en **PR_ATTACH_SIZE** incluye el tamaño de la propiedad de **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) o **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)). Por lo tanto, **PR_ATTACH_SIZE** es suelen ser mayores que el contenido de los datos adjuntos por sí solo. 
   
@@ -58,18 +58,18 @@ mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagMessageSize](pidtagmessagesize-canonical-property.md)
+[Propiedad canónica PidTagMessageSize](pidtagmessagesize-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

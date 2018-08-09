@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821999"
 ---
-# <a name="docmd-function"></a>DOCMD (función)
+# <a name="docmd-function"></a>Función DOCMD
 
 Ejecuta el comando identificado.
   
@@ -24,7 +24,7 @@ Ejecuta el comando identificado.
 
  **DOCMD** ( _IDcomando_)
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

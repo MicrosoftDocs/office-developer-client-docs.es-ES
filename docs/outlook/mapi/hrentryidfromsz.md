@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2b7ef789c80f85f3539ec3bbd0caf4a8adc50f3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817051"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Vuelve a crear un identificador de entrada de su codificación de ASCII. 
   
@@ -41,7 +41,7 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _sz_
   
@@ -65,7 +65,7 @@ MAPI_E_INVALID_ENTRYID
   
 > El identificador de entrada no es válido.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las funciones **HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) proporcionan conversión entre la cadena y formatos binarios de los identificadores de entrada. 
   

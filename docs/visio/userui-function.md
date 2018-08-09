@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823500"
 ---
-# <a name="userui-function"></a>USERUI (función)
+# <a name="userui-function"></a>Función USERUI
 
 Evalúa una de las dos expresiones dependiendo del valor de _estado_.
   
@@ -24,7 +24,7 @@ Evalúa una de las dos expresiones dependiendo del valor de _estado_.
 
 USERUI (** *estado* **, ** *expresiónpredeterminada* **, ** *expresióndeusuario* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ USERUI (** *estado* **, ** *expresiónpredeterminada* **, ** *expresióndeusuari
 | _expresiónpredeterminada_ <br/> |Obligatorio  <br/> |**String** <br/> |La expresión de forma predeterminada.  <br/> |
 | _expresióndeusuario_ <br/> |Obligatorio  <br/> |**String** <br/> |Una expresión proporcionada por el usuario.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si el _estado_ es 0, la función USERUI evalúa _expresiónpredeterminada_. Si _es 1,_ evalúa _expresióndeusuario_.
   

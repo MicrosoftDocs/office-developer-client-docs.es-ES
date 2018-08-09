@@ -1,5 +1,5 @@
 ---
-title: Uso de objetos seguros para subprocesos
+title: Utilizar objetos seguros para subprocesos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4a66f892043b9a90893a60f3fa6ba69ea6457f5a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820977"
 ---
-# <a name="using-thread-safe-objects"></a>Uso de objetos seguros para subprocesos
+# <a name="using-thread-safe-objects"></a>Utilizar objetos seguros para subprocesos
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Las aplicaciones cliente pueden asumir que objetos usan directamente o como las devoluciones de llamada siempre son seguros para subprocesos, excepto en los casos siguientes:
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1437130caecd57344fc171d234c5391ea92e1d4b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820566"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción **y** , que se usa para unirse a un grupo de restricciones de uso de una operación de **AND** lógica. 
   
@@ -40,7 +40,7 @@ typedef struct _SAndRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cRes**
   
@@ -50,13 +50,13 @@ typedef struct _SAndRestriction
   
 > Puntero a una matriz de estructuras [SRestriction](srestriction.md) que se van a combinar con una operación de **AND** lógica. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El resultado de la **SAndRestriction** es TRUE si todas las restricciones de sus secundarios se evalúan como TRUE. Es FALSE si algún tipo de restricción secundarios se evalúa como FALSE. 
   
 Para obtener una descripción de los tipos de restricciones, cómo crearlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

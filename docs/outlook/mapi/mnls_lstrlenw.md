@@ -19,7 +19,7 @@ ms.locfileid: "19818428"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Determina la longitud de la cadena Unicode especificada, excluyendo el carácter nulo.
   
@@ -31,7 +31,7 @@ int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
@@ -41,11 +41,11 @@ int MNLS_lstrlen(
 
 La función devuelve un número entero con la longitud de la cadena. Es un recuento de caracteres en la cadena, excepto el carácter nulo. Si _lpsz_ es NULL, la función devuelve cero. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la función **lstrlen** . Para obtener más información, vea [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

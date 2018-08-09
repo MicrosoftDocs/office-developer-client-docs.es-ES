@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleEffectsMatrix (sección de estilos rápidos)
+title: Celda QuickStyleEffectsMatrix (sección Estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822897"
 ---
-# <a name="quickstyleeffectsmatrix-cell-quick-style-section"></a>Celda QuickStyleEffectsMatrix (sección de estilos rápidos)
+# <a name="quickstyleeffectsmatrix-cell-quick-style-section"></a>Celda QuickStyleEffectsMatrix (sección Estilos rápidos)
 
 Determina los efectos de estilos rápidos que hereda de la forma de tema activo, como un número entero de 0 a 6. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **QuickStyleEffectsMatrix** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3a38a4604230c0aa3f5b0d104ae3b838f544b31d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820542"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta estructura proporciona información acerca de una secuencia en formato nativo devuelto desde descomprimir el cuerpo de un mensaje que se encapsula en el formato comprimido de texto enriquecido (RTF).
   
@@ -30,9 +30,9 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
-_tamaño_
+_size_
   
 > El tamaño de la estructura **RTF_WCSRETINFO** en número de bytes. 
     
@@ -46,7 +46,7 @@ _ulStreamFlags_
 |MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Este valor solo se usa si _ulFlags_ incluye la marca **MAPI_NATIVE_BODY** , y el cuerpo tiene formato de texto sin formato.  <br/> |
 |MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Este valor solo se usa si _ulFlags_ incluye la marca **MAPI_NATIVE_BODY** , y el cuerpo tiene formato de lenguaje de marcado de hipertexto (HTML).  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
 

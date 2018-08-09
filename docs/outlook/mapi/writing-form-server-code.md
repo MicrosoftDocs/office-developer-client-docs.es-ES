@@ -1,5 +1,5 @@
 ---
-title: Escritura de código de servidor de formulario
+title: Escribir código de servidor de formulario
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 860b0150fd1ec66fa8fee387d8d4a96e8bb79761
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820986"
 ---
-# <a name="writing-form-server-code"></a>Escritura de código de servidor de formulario
+# <a name="writing-form-server-code"></a>Escribir código de servidor de formulario
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Puede considerar un servidor de formulario como el siguiente: 
   
@@ -43,15 +43,15 @@ No todas las interfaces MAPI que se relacionan con formularios son necesarios pa
   
 |**Interfaz**|**Descripción**|**Status**|
 |:-----|:-----|:-----|
-|[IMAPIForm: IUnknown](imapiformiunknown.md) <br/> |La interfaz principal que utilizan los clientes para cargar los servidores de formulario, ejecutar verbos de formulario y apagar servidores de formulario. También es la interfaz que se deriva el OLE **IUnknown** que se usa para informar a otros componentes OLE con respecto a qué interfaces implementa un objeto de formulario.  <br/> |Obligatorio  <br/> |
-|[IPersistMessage: IUnknown](ipersistmessageiunknown.md) <br/> |Se utiliza cuando se cargan los mensajes en y guardar los mensajes de los objetos de formulario.  <br/> |Obligatorio  <br/> |
-|[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md) <br/> |Utilizar objetos de formulario para realizar un seguimiento de estado de cliente de mensajería y para averiguar si el objeto de formulario es capaz de mostrar el mensaje siguiente o anterior en una carpeta.  <br/> |Opcional  <br/> |
+|[IMAPIForm : IUnknown](imapiformiunknown.md) <br/> |La interfaz principal que utilizan los clientes para cargar los servidores de formulario, ejecutar verbos de formulario y apagar servidores de formulario. También es la interfaz que se deriva el OLE **IUnknown** que se usa para informar a otros componentes OLE con respecto a qué interfaces implementa un objeto de formulario.  <br/> |Obligatorio  <br/> |
+|[IPersistMessage : IUnknown](ipersistmessageiunknown.md) <br/> |Se utiliza cuando se cargan los mensajes en y guardar los mensajes de los objetos de formulario.  <br/> |Obligatorio  <br/> |
+|[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) <br/> |Utilizar objetos de formulario para realizar un seguimiento de estado de cliente de mensajería y para averiguar si el objeto de formulario es capaz de mostrar el mensaje siguiente o anterior en una carpeta.  <br/> |Opcional  <br/> |
 |[IClassFactory](http://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |La interfaz de fábrica de clase OLE utilizada por los objetos de formulario para el cumplimiento con el mecanismo de fábrica de clase OLE.  <br/> |Obligatorio  <br/> |
-|[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md) <br/> |Se usa si su servidor de formulario es compatible con más de un tipo de formulario. En este caso, la interfaz de **IMAPIFormFactory** permite a las aplicaciones de cliente para tener acceso a las interfaces **IClassFactory** varias (uno por cada tipo de formulario compatible con el servidor de formulario) que también debe implementar el servidor de formulario.  <br/> |Opcional  <br/> |
+|[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md) <br/> |Se usa si su servidor de formulario es compatible con más de un tipo de formulario. En este caso, la interfaz de **IMAPIFormFactory** permite a las aplicaciones de cliente para tener acceso a las interfaces **IClassFactory** varias (uno por cada tipo de formulario compatible con el servidor de formulario) que también debe implementar el servidor de formulario.  <br/> |Opcional  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+[Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

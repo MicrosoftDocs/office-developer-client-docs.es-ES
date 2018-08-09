@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821504"
 ---
-# <a name="action-cell-actions-section"></a>Celda Action (sección de acciones)
+# <a name="action-cell-actions-section"></a>Celda Action (sección Acciones)
 
 Contiene la fórmula que se va a ejecutar cuando un usuario elige un comando en un menú contextual o de etiquetas de acción.
   
@@ -27,7 +27,7 @@ Contiene la fórmula que se va a ejecutar cuando un usuario elige un comando en 
 
 La celda Action se evalúa sólo cuando ocurre la acción, no al especificar la fórmula.
   
-Para obtener una referencia a la celda Action por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Action por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|

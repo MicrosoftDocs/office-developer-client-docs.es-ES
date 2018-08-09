@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821701"
 ---
-# <a name="case-cell-character-section"></a>Celda Case (Sección de caracteres)
+# <a name="case-cell-character-section"></a>Celda Case (sección Caracteres)
 
 Determina el uso de mayúsculas y minúsculas en el texto de una forma. Las opciones de todas las letras en mayúsculas (1) y mayúsculas iniciales (2) no cambian la apariencia del texto escrito totalmente en mayúsculas. El texto debe estar en minúsculas para que estas opciones surtan efecto.
   
@@ -26,15 +26,16 @@ Determina el uso de mayúsculas y minúsculas en el texto de una forma. Las opci
 | 1  <br/> | Todo en mayúsculas  <br/> |**visCaseAllCaps** <br/> |
 | 2  <br/> | Sólo las letras iniciales en mayúsculas  <br/> |**visCaseInitialCaps** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Case por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Case por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Char.Case [ *i* ] donde *i* = < 1 >, 2, 3,...  <br/> |
    
-Para obtener una referencia a la celda Case por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Case por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

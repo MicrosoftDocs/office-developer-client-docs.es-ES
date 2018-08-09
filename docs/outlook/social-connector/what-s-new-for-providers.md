@@ -1,5 +1,5 @@
 ---
-title: Novedades para los proveedores
+title: Novedades para proveedores
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821232"
 ---
-# <a name="whats-new-for-providers"></a>Novedades para los proveedores
+# <a name="whats-new-for-providers"></a>Novedades para proveedores
 
 En este tema se enumera los principales cambios en Outlook Social Connector 2013 (OSC). Presenta una comparación de las características disponibles entre Outlook Social Connector 2013 y Outlook Social Connector 1.1. También se describen los miembros de interfaz y los elementos XML que se han agregado, modificados o en desuso. 
   
@@ -61,10 +61,10 @@ En la siguiente tabla se muestra los elementos de esquema que han cambiado.
   
 |**Elemento de esquema**|**Comment**|
 |:-----|:-----|
-|**capacidades** <br/> |Agregado en Outlook Social Connector 2013: elemento de **allowChangesToAutoConfigure** .  <br/> En desuso en Outlook Social Connector 2013: elemento de **cacheActivities** .  <br/> |
+|**capabilities** <br/> |Agregado en Outlook Social Connector 2013: elemento de **allowChangesToAutoConfigure** .  <br/> En desuso en Outlook Social Connector 2013: elemento de **cacheActivities** .  <br/> |
 |**person** <br/> |Agregado en Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **sectores**, **intereses**, ** ubicación de**, elementos **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **habilidades**, **escuelas**y **sitio Web** .  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [XML de capacidades](xml-for-capabilities.md)
 - [XML de amigos](xml-for-friends.md)

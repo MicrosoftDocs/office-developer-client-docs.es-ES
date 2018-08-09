@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823373"
 ---
-# <a name="tagname-cell-actions-section"></a>Celda TagName (sección de acciones)
+# <a name="tagname-cell-actions-section"></a>Celda TagName (sección Acciones)
 
 Contiene el nombre de la etiqueta de acción a la que está asociada esta acción.
   
@@ -35,13 +35,13 @@ Mediante la celda TagName de la sección de acciones y la celda TagName de la se
     
 - Si varias filas de etiquetas inteligentes tienen el mismo valor de TagName, todas mostrarán las mismas acciones.
     
-Para obtener una referencia a la celda TagName por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda TagName por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Acciones. *nombre* . Acciones de TagNamewhere.  *nombre* es el nombre de la fila de acciones  <br/> |
    
-Para obtener una referencia a la celda TagName por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda TagName por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821997"
 ---
-# <a name="doclastprint-function"></a>DOCLASTPRINT (función)
+# <a name="doclastprint-function"></a>Función DOCLASTPRINT
 
 Devuelve la fecha y hora de que última impresión un documento, como un valor de serie.
   

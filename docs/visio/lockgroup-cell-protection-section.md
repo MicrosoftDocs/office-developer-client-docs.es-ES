@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822527"
 ---
-# <a name="lockgroup-cell-protection-section"></a>Celda LockGroup (Sección de protección)
+# <a name="lockgroup-cell-protection-section"></a>Celda LockGroup (sección Protección)
 
 Bloquea un grupo de modo que no pueda desagruparse.
   
@@ -29,13 +29,13 @@ Bloquea un grupo de modo que no pueda desagruparse.
 
 Al establecer el valor de LockGroupCell como TRUE también se evita la eliminación de las formas que son miembros del grupo.
   
-Para obtener una referencia a la celda LockGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockGroup  <br/> |
    
-Para obtener una referencia a la celda LockGroup por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockGroup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

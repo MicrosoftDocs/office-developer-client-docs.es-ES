@@ -44,7 +44,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |:-----|:-----|:-----|
 |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Especifica las propiedades de un dibujo.  <br/> |
 |[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Especifica las propiedades de una página en un dibujo.  <br/> |
-|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[ComplexType Master_Type](master_type-complextypevisio-xml.md) <br/> |Especifica las propiedades de la página de dibujo asociadas con el patrón.  <br/> |
+|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[complexType Master_Type](master_type-complextypevisio-xml.md) <br/> |Especifica las propiedades de la página de dibujo asociadas con el patrón.  <br/> |
 |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Especifica una colección de las propiedades asociadas con una forma.  <br/> |
 |[Sheet](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Sheet_Type](sheet_type-complextypevisio-xml.md) <br/> |Especifica una colección de las propiedades asociadas con un estilo, dibujo, dibujo página o una forma.  <br/> |
 |[Hoja de estilos](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Especifica una hoja de estilos.  <br/> |
@@ -64,15 +64,15 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |IX  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el índice de base cero del elemento. DEBE ser único entre todos los elementos de **Section_Type** con el mismo atributo **N** de la que contiene **Sheet_Type**. DEBE ser mayor que el atributo **IX** de cualquier elemento de **Section_Type** anterior con el mismo atributo **N** de la que contiene **Sheet_Type**.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |N  <br/> |xsd: String  <br/> |necesario  <br/> |Especifica el nombre independiente del idioma de la colección de propiedades. DEBE ser único entre todos los elementos **Section_Type** del elemento **Sheet_Type** que lo contiene, a menos que sea igual a "Geometría". DEBE ser igual que un subtítulo en **secciones**.  <br/> |Valores del tipo XSD: String.  <br/> |
    
-### <a name="remarks"></a>Notas
+### <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de la **sección** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de **ShapeSheet** . Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **sección** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Acciones  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
+|Actions  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
 |ActionTag  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de la etiqueta de acción](action-tag-section.md) <br/> |
-|Conexiones  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> ||
+|Connections  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> ||
 |Controles  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de controles](controls-section.md) <br/> |
 |Hipervínculo  <br/> |Una colección de propiedades relacionadas que especifican los hipervínculos de la forma. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de hipervínculos](hyperlinks-section.md) <br/> |
 |Formas de datos  <br/> |Una colección de propiedades relacionadas que especifique los datos de formas. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de datos de formas](shape-data-section.md) <br/> |
@@ -80,16 +80,16 @@ El atributo **N** de este elemento de la **sección** debe ser uno de un conjunt
    
 El atributo **IX** de este elemento de la **sección** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de **ShapeSheet** . Hacer referencia a la tabla siguiente para determinar los valores del atributo **IX** que están permitidos para este elemento de **sección** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Anotación  <br/> |Una colección de propiedades que contienen información sobre los comentarios insertados en una página de documento.  <br/> |[Sección de anotación](annotation-section.md) <br/> |
+|Annotation  <br/> |Una colección de propiedades que contienen información sobre los comentarios insertados en una página de documento.  <br/> |[Sección de anotación](annotation-section.md) <br/> |
 |Carácter  <br/> |Una colección de propiedades relacionadas que especifican las propiedades de carácter del texto de una forma. DEBE tener un elemento primario de **ShapeSheet_Type** o un elemento primario de **StyleSheet_Type** .  <br/> |[Sección de caracteres](character-section.md) <br/> |
-|Conexiones  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de puntos de conexión](connection-points-section.md) <br/> |
+|Connections  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de puntos de conexión](connection-points-section.md) <br/> |
 |Field  <br/> |Una colección de propiedades relacionadas que especifican los campos de texto de una forma. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de campos de texto](text-fields-section.md) <br/> |
-|FillGradient  <br/> |Una colección de propiedades que especifican el degradado de color de relleno de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o **StyleSheet_Type** .  <br/> |[Sección de degradado de relleno](fill-gradient-section.md) <br/> |
+|FillGradient  <br/> |Una colección de propiedades que especifican el degradado de color de relleno de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o **StyleSheet_Type** .  <br/> |[Sección Degradado de relleno](fill-gradient-section.md) <br/> |
 |Geometría  <br/> |Una colección de propiedades relacionadas que especifican la visualización de geometría. DEBE tener un elemento primario de **ShapeSheet_Type** . El primer elemento secundario de **Row_Type** de este elemento debe ser del tipo MoveTo, RelMoveTo, Ellipse o InfiniteLine.  <br/> |[Sección de geometría](geometry-section.md) <br/> |
 |Layers  <br/> |Una colección de propiedades que se muestran todas las capas definidas en una página de dibujo. DEBE ser el elemento secundario de un elemento **PageSheet_Type** .  <br/> |[Sección de capas](layers-section.md) <br/> |
-|Línea degradado  <br/> |Una colección de propiedades relacionadas que especifican el degradado de color de línea de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o **StyleSheet_Type** .  <br/> |[Sección de degradado de línea](line-gradient-section.md) <br/> |
+|Línea degradado  <br/> |Una colección de propiedades relacionadas que especifican el degradado de color de línea de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o **StyleSheet_Type** .  <br/> |[Sección Degradado de línea](line-gradient-section.md) <br/> |
 |Paragraph  <br/> |Una colección de propiedades relacionadas que especifican las propiedades de párrafo del texto de una forma. DEBE tener un elemento primario de **ShapeSheet_Type** o un elemento primario de **StyleSheet_Type** .  <br/> |[Sección de párrafo](paragraph-section.md) <br/> |
 |Reviewer  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario de **DocumentSheet_Type** .  <br/> |[Sección de revisor](reviewer-section.md) <br/> |
 |Principio  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario **DocumentSheet_Type**, **PageSheet_Type**o **ShapeSheet_Type** .  <br/> |[Sección de borrador](scratch-section.md) <br/> |

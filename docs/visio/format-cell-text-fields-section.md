@@ -16,17 +16,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822195"
 ---
-# <a name="format-cell-text-fields-section"></a>Celda Format (sección de campos de texto)
+# <a name="format-cell-text-fields-section"></a>Celda Format (sección Campos de texto)
 
 Especifica el formato del campo de texto como una cadena, un número, una fecha u hora, una duración o una moneda.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el valor de la celda Type es 0, 2, 5, 6 o 7 (cadena, número, fecha u hora, duración o moneda, respectivamente), especifique una imagen de formato adecuado para el tipo de datos. Por ejemplo, el formato de imagen "# #/ 4 UU" da formato el número en 12,43. como 12 2/4 pulgadas. Para obtener más información acerca de cómo especificar una imagen de formato, vea [acerca de las imágenes de formato](about-format-pictures.md).
+Si el valor de la celda Type es 0, 2, 5, 6 o 7 (cadena, número, fecha u hora, duración o moneda, respectivamente), especifique el formato de imagen adecuado para el tipo de datos. Por ejemplo, la imagen de formato "# #/4 UU" muestra el número 12,43 pulgadas como 12 2/4 PULGADAS. Para obtener más información sobre cómo especificar una imagen de formato, vea [Imágenes de formato](about-format-pictures.md).
   
 Un número (Type = 2) puede representar una dimensión, un escalar, un ángulo, una fecha, una hora o una moneda. Para asegurar que el número de entrada sea siempre tratado como una fecha, hora o moneda, utilice la función DATETIME o CY en la celda Format en lugar de un formato de imagen.
   
-Para obtener una referencia a la celda Format por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Format por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

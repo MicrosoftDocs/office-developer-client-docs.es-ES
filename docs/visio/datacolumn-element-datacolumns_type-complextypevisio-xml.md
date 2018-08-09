@@ -52,11 +52,11 @@ Ninguno.
 
 |**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Calendar  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Identificador de calendario de la columna de datos.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
+|Calendario  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Identificador de calendario de la columna de datos.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |xsd: String  <br/> |necesario  <br/> |Nombre externo de la columna de datos. Aparece en los encabezados en la ventana **Datos externos** y en las etiquetas de gráficos de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
 |Moneda  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |ID de moneda de la columna de datos.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
-|Tipo de datos  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Tipo de los datos de la columna de datos.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
-|Grado  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el grado (power) de las unidades, por ejemplo cuadrado o al cubo. El valor predeterminado (atributo absent) es 1.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|DataType  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Tipo de los datos de la columna de datos.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
+|Degree  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el grado (power) de las unidades, por ejemplo cuadrado o al cubo. El valor predeterminado (atributo absent) es 1.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |OrdenVisualización  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Define la posición de presentación de la columna de datos en la ventana **Datos externos** , en la columna más a la izquierda (0) para la columna del extremo derecho (valor más alto).  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Ancho de la columna de datos en la ventana **Datos externos** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Hipervínculo  <br/> |Boolean con tipo  <br/> |opcional  <br/> |Si la columna de datos crea un hipervínculo en una forma cuando la forma está vinculada a los datos.  <br/> |Valores del tipo Boolean con tipo.  <br/> |

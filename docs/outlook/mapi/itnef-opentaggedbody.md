@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ed433dc1fcf2a366d2ece07ac06d4e12558e4aa7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817983"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre una interfaz de secuencia en el texto de un mensaje de encapsulado.
   
@@ -35,7 +35,7 @@ HRESULT OpenTaggedBody(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
@@ -63,7 +63,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::OpenTaggedBody** para abrir una interfaz de secuencia en el texto de un mensaje de encapsulado (es decir, en un TNEF de objetos). 
   
@@ -77,7 +77,7 @@ Como parte de su procesamiento, **OpenTaggedBody** inserta o analiza las etiquet
   
 Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se eliminan las etiquetas y los objetos de datos adjuntos se reubican en la posición de las etiquetas en el objeto stream.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -85,7 +85,7 @@ Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se eliminan las e
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónico PidTagBody](pidtagbody-canonical-property.md)
+[Propiedad canónica PidTagBody](pidtagbody-canonical-property.md)
   
-[ITnef: IUnknown](itnefiunknown.md)
+[ITnef : IUnknown](itnefiunknown.md)
 

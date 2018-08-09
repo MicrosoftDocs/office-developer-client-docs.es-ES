@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823142"
 ---
-# <a name="setatrefexpr-function"></a>SETATREFEXPR (función)
+# <a name="setatrefexpr-function"></a>Función SETATREFEXPR
 
 Almacena un valor que se establece a través de una acción de la interfaz de usuario (UI) o la automatización.
   
@@ -24,11 +24,11 @@ Almacena un valor que se establece a través de una acción de la interfaz de us
 
 SETATREFEXPR ([** *expr_opc* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expr_opc_ <br/> |Opcional  <br/> |**Varía** <br/> |Una expresión que se ha reemplazado por el valor o expresión que se va a asignar a la celda que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
+| _expr_opc_ <br/> |Opcional  <br/> |**Varían** <br/> |Una expresión que se ha reemplazado por el valor o expresión que se va a asignar a la celda que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 
@@ -56,6 +56,6 @@ PinY = INT (SETATREFEXPR () / User.GridY +.5)\*User.GridY
   
 ## <a name="example-3"></a>Ejemplo 3
 
-Para obtener un ejemplo de uso de la función SETATREFEXPR con la función SETATREF, vea la función [SETATREF](setatref-function.md) . 
+Para conocer un ejemplo sobre el uso de la función SETATREFEXPR con la función SETATREF, vea el tema que trata la función [SETATREF](setatref-function.md). 
   
 

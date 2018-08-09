@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822903"
 ---
-# <a name="rectsect-function"></a>RECTSECT (función)
+# <a name="rectsect-function"></a>Función RECTSECT
 
 Calcula el sector de un rectángulo asociado a *x* e *y* y devuelve un número entero entre 0 y 4, que indica el sector. 
   
@@ -24,7 +24,7 @@ Calcula el sector de un rectángulo asociado a *x* e *y* y devuelve un número e
 
 RECTSECT (** *ancho* **, ** *alto* **, ** *x* **, ** *y* **, ** *opción* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

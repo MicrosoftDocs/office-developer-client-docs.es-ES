@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821823"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Celda ConLineJumpDirY (Sección de diseño de la forma)
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Celda ConLineJumpDirY (sección Diseño de forma)
 
 Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
   
@@ -26,17 +26,18 @@ Determina la dirección del salto de línea para los saltos de línea que se pro
 | 1  <br/> | Izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
 | 2  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para establecer el valor predeterminado dirección vertical para conector *todos los* saltos de una página, utilice la celda PageLineJumpDirY en la sección de diseño de página. 
   
-Para obtener una referencia a la celda ConLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ConLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ConLineJumpDirY  <br/> |
    
-Para obtener una referencia a la celda ConLineJumpDirY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ConLineJumpDirY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

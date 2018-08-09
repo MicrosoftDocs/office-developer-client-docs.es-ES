@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823301"
 ---
-# <a name="sortkey-cell-hyperlinks-section"></a>Celda SortKey (Sección de hipervínculos)
+# <a name="sortkey-cell-hyperlinks-section"></a>Celda SortKey (sección Hipervínculos)
 
 Un número que determina el orden de los hipervínculos que aparecen en un menú contextual.
   
@@ -24,13 +24,13 @@ Un número que determina el orden de los hipervínculos que aparecen en un menú
 
 Los hipervínculos aparecen en un menú contextual ordenadas de menor a mayor, con los números más bajos en la parte superior del menú. Si dos filas de hipervínculos tienen el mismo valor para la celda SortKey, el orden queda determinado por el orden físico de la fila. El valor predeterminado es 0 (cero). 
   
-Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Hipervínculo. *nombre* . SortKey donde hipervínculo *.name* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda SortKey por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda SortKey por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

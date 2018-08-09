@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822248"
 ---
-# <a name="gotopage-function"></a>GOTOPAGE (función)
+# <a name="gotopage-function"></a>Función GOTOPAGE
 
 Muestra la página que tiene el nombre *pagename* en la ventana actualmente activa. 
   
@@ -24,7 +24,7 @@ Muestra la página que tiene el nombre *pagename* en la ventana actualmente acti
 
 GOTOPAGE ("** *pagename* **") 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

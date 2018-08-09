@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822938"
 ---
-# <a name="relationships-cell-shape-layout-section"></a>Celda Relationships (sección de diseño de la forma [Shape Layout])
+# <a name="relationships-cell-shape-layout-section"></a>Celda Relationships (sección Diseño de forma)
 
 Almacena las relaciones entre contenedores, listas, llamadas y formas. 
   
@@ -38,13 +38,13 @@ Almacena las relaciones entre contenedores, listas, llamadas y formas.
 |10  <br/> |Contenedor en cuyo borde límite inferior se asienta esta forma.  <br/> |
 |11  <br/> |Lista a la que esta lista se superpone.  <br/> |
    
-Para obtener una referencia a la celda Relationships por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Relationships por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Relaciones  <br/> |
    
-Para obtener una referencia a la celda Relationships por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Relationships por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

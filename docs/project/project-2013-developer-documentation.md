@@ -75,7 +75,7 @@ Los nuevos temas incluyen lo siguiente:
   
 - [Crear un servidor de Project Server hospedada en SharePoint complemento](create-a-sharepoint-hosted-project-server-add-in.md) se muestra cómo usar Visual Studio para el desarrollo remoto de una aplicación que puede usarse con Project Server 2013 y Project Online. 
     
-- [Project Server 2013 architecture](project-server-2013-architecture.md) explica las nuevas características principales de la plataforma de Project Server. 
+- [Project Server 2013 architecture](project-server-2013-architecture.md) explica las características principales nuevas de la plataforma Project Server. 
     
 - [Getting started with el modelo de objetos de JavaScript de Project Server 2013](getting-started-with-the-project-server-2013-javascript-object-model.md) muestra cómo desarrollar aplicaciones web que se pueden obtener acceso a Project Server. 
     
@@ -103,7 +103,7 @@ Hay dos secciones de nivel superior en el SDK de Project 2013:
     
 - La sección de [referencia de servicio web y biblioteca de clases de Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) documenta el modelo de objetos de los ensamblados públicos, el ensamblado Microsoft.ProjectServer.Client.dll para el CSOM y los servicios de PSI. 
     
-La sección **Conceptual y artículos de procedimientos** incluye lo siguiente: 
+La sección **Artículos conceptuales y de procedimientos** incluye lo siguiente: 
   
 - [Novedades y ¿qué es para desarrolladores](updates-for-developers-in-project-2013.md) describe las principales nuevas características de programación y características en Project 2013 en desuso. 
     
@@ -116,12 +116,12 @@ La sección **Conceptual y artículos de procedimientos** incluye lo siguiente:
 > [!NOTE]
 >  A continuación se muestran los requisitos para desarrollar e implementar soluciones EPM y aplicaciones de la tienda de Office pública que se integren con Project Server 2013: > debe instalar .NET Framework 4 o .NET Framework 4.5 en el equipo de desarrollo y en la implementación equipos. Para determinar si está instalada la versión correcta, abra **programas y características** en el Panel de Control de Windows. > Visual Studio 2012 se instala y usa .NET Framework 4.5. Cuando se crea un proyecto de Visual Studio, puede seleccionar **.NET Framework 4.0** o **NET Framework 4.5** en la lista desplegable del cuadro de diálogo **Nuevo proyecto** . También puede seleccionar el **Marco de destino** en la ficha **aplicación** de la ventana de **Propiedades** del proyecto. > Puede usar Visual Studio 2010 para las aplicaciones que usan el CSOM o la interfaz PSI y para aplicaciones de panel de tareas de proyecto. Sin embargo, Visual Studio 2010 no contiene las plantillas de complementos de Office, herramientas de desarrollo de Office o herramientas de desarrollo de SharePoint para Office 2013. Para descargar Visual Studio 2012 y el instalador de plataforma Web (WebPI) que incluye las herramientas de desarrollo de Office y SharePoint, vea [descargas de aplicaciones para Office y SharePoint](http://msdn.microsoft.com/en-us/office/apps/fp123627). > Se recomienda que desarrollar soluciones personalizadas en un entorno de prueba. Si desarrolla soluciones para el actual compilaciones de Project Server 2013 y Project 2013, se deben volver a compilar con referencias actualizadas y es posible que necesite cambios adicionales, para que funcione con versiones posteriores. Soluciones desarrolladas para cualquier versión preliminar puede que no funcione con la versión de lanzamiento. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="pj15_Welcome_AR"> </a>
 
 - [Actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md)
     
-- [Arquitectura de Project Server 2013](project-server-2013-architecture.md)
+- [Project Server 2013 architecture](project-server-2013-architecture.md)
     
 - [Descarga del SDK de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
     

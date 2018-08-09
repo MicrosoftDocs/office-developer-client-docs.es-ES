@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822709"
 ---
-# <a name="pageheight-cell-page-properties-section"></a>Celda PageHeight (Sección de propiedades de página)
+# <a name="pageheight-cell-page-properties-section"></a>Celda PageHeight (sección Propiedades de página)
 
 Contiene el alto de la página impresa en las unidades de dibujo.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el alto de página en la ficha **Tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ), o por cambiar manualmente el tamaño de la página con el mouse. 
+También puede establecer el alto de la página en la ficha **Tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**) o manualmente cambiando el tamaño de la página con el mouse. 
   
-Para obtener una referencia a la celda PageHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PageHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |PageHeight  <br/> |
    
-Para obtener una referencia a la celda PageHeight por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PageHeight por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

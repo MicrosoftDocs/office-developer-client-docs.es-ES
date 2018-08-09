@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822530"
 ---
-# <a name="locktextedit-cell-protection-section"></a>Celda LockTextEdit (Sección de protección)
+# <a name="locktextedit-cell-protection-section"></a>Celda LockTextEdit (sección Protección)
 
 Bloquea el texto de una forma para que no se pueda editar.
   
@@ -27,15 +27,15 @@ Bloquea el texto de una forma para que no se pueda editar.
    
 ## <a name="remarks"></a>Observaciones
 
-Todavía se puede formatear texto, aplicando un estilo en el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en la flecha de **fuente** ). 
+No obstante, puede dar formato al texto al aplicarle un estilo mediante el cuadro de diálogo **Texto** (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
-Para obtener una referencia a la celda LockTextEdit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockTextEdit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockTextEdit  <br/> |
    
-Para obtener una referencia a la celda LockTextEdit por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockTextEdit por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

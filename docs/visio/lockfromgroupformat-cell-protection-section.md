@@ -13,19 +13,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822522"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a>Celda LockFromGroupFormat (Sección de protección)
+# <a name="lockfromgroupformat-cell-protection-section"></a>Celda LockFromGroupFormat (sección Protección)
 
 Bloques de cambios de formato a una forma de grupo de que se propaga a sus subformas, mientras permite a los usuarios dar formato a las subformas seleccionadas directamente. 
   
-El valor de la celda LockFromGroupFormat corresponde a la opción de casilla de verificación **contra formato en grupo** en el cuadro de diálogo **protección** . 
+El valor de la celda LockFromGroupFormat corresponde a configuración de la casilla de verificación **Contra formato en grupo** del cuadro de diálogo **Protección**. 
   
-Para hacer referencia a la celda LockFromGroupFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para hacer referencia a la celda LockFromGroupFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:
+
+ 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockFromGroupFormat  <br/> |
    
-Para hacer referencia a la celda LockFromGroupFormat por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para hacer referencia desde un programa a la celda LockFromGroupFormat según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
+
+ 
   
 |||
 |:-----|:-----|

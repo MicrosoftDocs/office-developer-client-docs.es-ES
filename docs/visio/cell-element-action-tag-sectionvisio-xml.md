@@ -60,20 +60,20 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |ButtonFace  <br/> |Contiene el id. de la imagen de botón que aparece en el botón de etiqueta de acción.  <br/> |[Celda ButtonFace (sección de etiquetas de acción)](buttonface-cell-action-tags-section.md) <br/> |
 |Descripción  <br/> |Contiene una cadena que describe la etiqueta de acción, que aparece como información sobre herramientas cuando los usuarios sitúan el puntero sobre la etiqueta.  <br/> |[Celda Description (sección de etiquetas de acción)](description-cell-action-tags-section.md) <br/> |
 |Deshabilitado  <br/> |Indica si la etiqueta de acción aparece en la ventana de dibujo.  <br/> |[Celda Disabled (sección de etiquetas de acción)](disabled-cell-action-tags-section.md) <br/> |
 |DisplayMode  <br/> |Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o todo el tiempo.  <br/> |[Celda DisplayMode (sección de etiquetas de acción)](displaymode-cell-action-tags-section.md) <br/> |
 |TagName  <br/> |Nombre de la etiqueta de acción empleado como clave para asociarla con sus acciones.  <br/> |[Celda TagName (sección de etiquetas de acción)](tagname-cell-action-tags-section.md) <br/> |
-|X  <br/> |La posición de la coordenada x en las coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción.  <br/> |[Celda X (sección de etiquetas de acción)](x-cell-action-tags-section.md) <br/> |
-|XJustify  <br/> |El desplazamiento x del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.  <br/> |[Celda X Justify (sección de etiquetas de acción)](x-justify-cell-action-tags-section.md) <br/> |
-|v  <br/> |La posición de la coordenada y en las coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción.  <br/> |[Celda Y (sección de etiquetas de acción)](y-cell-action-tags-section.md) <br/> |
-|YJustify  <br/> |El desplazamiento y del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.  <br/> |[Celda Y Justify (sección de etiquetas de acción)](y-justify-cell-action-tags-section.md) <br/> |
+|X  <br/> |La posición de la coordenada x de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción.  <br/> |[Celda X (sección de etiquetas de acción)](x-cell-action-tags-section.md) <br/> |
+|XJustify  <br/> |Desplazamiento en x del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.  <br/> |[Celda X Justify (sección de etiquetas de acción)](x-justify-cell-action-tags-section.md) <br/> |
+|v  <br/> |La posición de la coordenada y de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción.  <br/> |[Celda Y (sección de etiquetas de acción)](y-cell-action-tags-section.md) <br/> |
+|YJustify  <br/> |El desplazamiento en y del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.  <br/> |[Celda Y Justify (sección de etiquetas de acción)](y-justify-cell-action-tags-section.md) <br/> |
    
 

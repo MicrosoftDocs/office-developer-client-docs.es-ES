@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821699"
 ---
-# <a name="calendar-cell-shape-data-section"></a>Celda Calendar (Sección de datos de formas)
+# <a name="calendar-cell-shape-data-section"></a>Celda Calendar (sección Datos de formas)
 
 Determina el calendario que se usa para los datos de formas cuando el tipo de datos es fecha.
   
@@ -24,13 +24,14 @@ Determina el calendario que se usa para los datos de formas cuando el tipo de da
 
 Los valores posibles son: 0 (Occidental), 1 (Hijri árabe), 2 (Hebreo lunar), 3 (Calendario de Taiwán), 4 (Japonés imperial), 5 (Budista tailandés), 6 (Danki coreano), 7 (Saka), 8 (Transliteración al inglés) y 9 (Transliteración al francés). 
   
-Para obtener una referencia a la celda Calendar por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Calendar por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | De propiedades.  *nombre* . Calendario donde de propiedades.  *nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Calendar por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

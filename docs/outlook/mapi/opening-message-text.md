@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ad3499cc1ff3bd8b633fa48173ab8455d5d8d124
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818443"
 ---
 # <a name="opening-message-text"></a>Texto del mensaje de apertura
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El texto de un mensaje se almacena en su **PR\_cuerpo** (propiedad) o **PR\_RTF\_COMPRIMIDO** (propiedad). Para obtener más información, vea **PR\_cuerpo** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), y **PR\_RTF\_COMPRIMIDO** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidEmail2OriginalEntryId
+title: Propiedad canónica PidLidEmail2OriginalEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10d45a99-54aa-4721-8847-1c7033a8a5b5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b6ee348ba63be4220114992379f4e71801884c9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818646"
 ---
-# <a name="pidlidemail2originalentryid-canonical-property"></a>Propiedad canónico PidLidEmail2OriginalEntryId
+# <a name="pidlidemail2originalentryid-canonical-property"></a>Propiedad canónica PidLidEmail2OriginalEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la **propiedad EntryId** del objeto que corresponde a la segunda dirección de correo electrónico. 
   
@@ -35,7 +35,7 @@ Especifica la **propiedad EntryId** del objeto que corresponde a la segunda dire
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser una dirección de uso único **EntryId** para esta dirección electrónica o un objeto válido de la libreta de direcciones **EntryId**.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

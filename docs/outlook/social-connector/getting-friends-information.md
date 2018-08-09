@@ -1,5 +1,5 @@
 ---
-title: Obtención de información de amigos
+title: Obtener información de amigos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821083"
 ---
-# <a name="getting-friends-information"></a>Obtención de información de amigos
+# <a name="getting-friends-information"></a>Obtener información de amigos
 
 Outlook Social Connector (OSC) llama al método de [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) para determinar las capacidades del proveedor de OSC para una red social. Si los elementos **getFriends** y **cacheFriends** en el devuelto XML de las **capacidades de** indican que el proveedor de OSC admite a Introducción amigos y amigos de almacenamiento en caché como Outlook, póngase en contacto con los elementos en una carpeta de contactos correspondiente, puede hacer que el OSC la siguiente secuencia de llamada. El OSC llama a métodos en esta secuencia para obtener información y las imágenes (como compatible con la interfaz de [ISocialPerson](isocialpersoniunknown.md) ) para amigos en la red social. 
   
@@ -32,7 +32,7 @@ Outlook Social Connector (OSC) llama al método de [ISocialProvider::GetCapabili
     
 5. [ISocialPerson::GetPicture](isocialperson-getpicture.md) : para cada persona en el XML devuelto por **GetFriendsAndColleagues**, el OSC Obtiene un recurso de imagen.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [XML de capacidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)

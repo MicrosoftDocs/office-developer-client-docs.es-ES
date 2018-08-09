@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823321"
 ---
-# <a name="strsame-function"></a>STRSAME (función)
+# <a name="strsame-function"></a>Función STRSAME
 
 Determina si las cadenas son los mismos. Devuelve TRUE si son iguales y FALSE si no lo son. 
   
@@ -24,7 +24,7 @@ Determina si las cadenas son los mismos. Devuelve TRUE si son iguales y FALSE si
 
 STRSAME ("** *cadena1* **","** *cadena2* **", ** *ignoreCase* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +34,7 @@ STRSAME ("** *cadena1* **","** *cadena2* **", ** *ignoreCase* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Boolean
+Booleano
   
 ## <a name="remarks"></a>Observaciones
 

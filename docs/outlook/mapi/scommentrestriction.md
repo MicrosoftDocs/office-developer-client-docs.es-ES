@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2185b059f2b831a14b90bad3a3c286ed72f8234d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820580"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción de comentario, que se usa para realizar anotaciones en una restricción. 
   
@@ -41,7 +41,7 @@ typedef struct _SCommentRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -55,7 +55,7 @@ typedef struct _SCommentRestriction
   
 > Puntero a una matriz de estructuras [SPropValue](spropvalue.md) , cada uno con la etiqueta de la propiedad y el valor de una propiedad con nombre. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **SCommentRestriction** asocia un objeto junto con un conjunto de propiedades con nombre. Restricciones de comentario son a diferencia de otras restricciones debido a que no se evalúan. Es decir, se tendrán en cuenta en el método [IMAPITable:: Restrict](imapitable-restrict.md) . No hay ningún efecto en las filas devueltas por el método [IMAPITable:: QueryRows](imapitable-queryrows.md) después de que se ha realizado una llamada **IMAPITable:: Restrict** . 
   
@@ -63,7 +63,7 @@ La estructura de **SCommentRestriction** puede usarse para mantener la informaci
   
 Para obtener más información sobre la estructura de **SCommentRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

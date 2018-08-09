@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821840"
 ---
-# <a name="connection-points-section"></a>Sección de puntos de conexión
+# <a name="connection-points-section"></a>Sección Puntos de conexión
 
 Contiene una fila y celdas para cada punto de conexión definido en una forma.
   
@@ -26,6 +26,6 @@ Puede definir puntos de conexión en la sección de **Puntos de conexión** en l
   
 Si la forma no tiene ninguna sección de **Puntos de conexión** se puede insertar una sección de **Puntos de conexión** en la ventana ShapeSheet. Pulse el botón derecho en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, haga clic en **puntos de conexión**. Para agregar puntos de conexión a una sección de **Puntos de conexión** existente, haga clic en una fila y haga clic en **Insertar fila** en el menú contextual. 
   
-Puede cambiar el tipo de fila de un punto de conexión de esta sección para mostrar celdas adicionales que se pueden usar para cálculos en borrador. Para ello, haga clic en la fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Puede cambiar el tipo de fila de un punto de conexión en esta sección para mostrar celdas adicionales que se pueden utilizar para cálculos en borrador. Para ello, haga clic con el botón secundario del mouse en la fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
   
 

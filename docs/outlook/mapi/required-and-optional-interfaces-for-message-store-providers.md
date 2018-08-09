@@ -1,5 +1,5 @@
 ---
-title: Interfaces obligatorias y opcionales para los proveedores de almacén de mensajes
+title: Interfaces obligatorias y opcionales para proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820500"
 ---
-# <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatorias y opcionales para los proveedores de almacén de mensajes
+# <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatorias y opcionales para proveedores de almacenamiento de mensajes
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI define un conjunto de interfaces que se relacionan con los proveedores de almacén de mensajes. Debido a la amplia gama de características que puede elegir un almacén de mensajes para implementar, algunas de estas interfaces son necesarios y otros no. En la siguiente tabla se enumeran las interfaces MAPI que están relacionadas con los proveedores de almacén de mensajes, especifica si las interfaces son obligatorios u opcionales y describe su propósito.
   
@@ -39,7 +39,7 @@ MAPI define un conjunto de interfaces que se relacionan con los proveedores de a
    
 La información básica que necesita implementar **IMAPIFolder**, **IMessage**, **IMAPIStatus**y **IMAPITable** se documenta en los temas de referencia para estas interfaces. Esta sección contiene información adicional que está más directamente relacionada con los proveedores de almacén de mensajes. Según la información de esta sección y en los temas de referencia adecuado, se debe implementar el resto de las interfaces MAPI. Vea la sección Servicios de objeto de ActiveX y COM en el SDK de Windows para obtener más información acerca de cómo implementar **IStorage**, **IStream**y **IStreamDocFile**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

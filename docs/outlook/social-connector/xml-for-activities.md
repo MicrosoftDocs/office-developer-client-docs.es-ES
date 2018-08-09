@@ -49,7 +49,7 @@ Puede encontrar más información acerca de cómo especificar XML para las activ
     
 - [Instrucciones para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplo de XML de fuentes de actividades](activity-feed-xml-example.md)  
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md) 

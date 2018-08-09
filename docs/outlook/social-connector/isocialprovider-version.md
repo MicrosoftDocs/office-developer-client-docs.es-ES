@@ -27,11 +27,11 @@ Devuelve un valor de tipo string que representa el número de versión del prove
 
 Una cadena que contiene el número de versión del proveedor.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cadena de versión debe usar el _MajorVersion_. _MinorVersion_ formato (por ejemplo, 1.4730). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

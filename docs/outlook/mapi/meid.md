@@ -1,5 +1,5 @@
 ---
-title: MEID.
+title: MEID
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818412"
 ---
-# <a name="meid"></a>MEID.
+# <a name="meid"></a>MEID
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Identificador de un elemento de Outlook. Contiene un identificador de entrada y otra información relevante.
   
@@ -36,7 +36,7 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -58,17 +58,17 @@ struct MEID
   
 > Identificador a largo plazo del elemento de Outlook.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
   
-[SINCRONIZACIÓN](sync.md)
+[SYNC](sync.md)
   
 [UPMSG](upmsg.md)
 

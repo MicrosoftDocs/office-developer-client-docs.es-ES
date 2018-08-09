@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822104"
 ---
-# <a name="eventxfmod-cell-events-section"></a>Celda EventXFMod (Sección de eventos)
+# <a name="eventxfmod-cell-events-section"></a>Celda EventXFMod (sección Eventos)
 
 Una celda de evento que se evalúa cuando se transforma ("XF") la posición u orientación de la página.
   
@@ -24,13 +24,14 @@ Una celda de evento que se evalúa cuando se transforma ("XF") la posición u or
 
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   
-Para obtener una referencia a la celda EventXFMod por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EventXFMod por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EventXFMod  <br/> |
    
-Para obtener una referencia a la celda EventXFMod por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EventXFMod por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

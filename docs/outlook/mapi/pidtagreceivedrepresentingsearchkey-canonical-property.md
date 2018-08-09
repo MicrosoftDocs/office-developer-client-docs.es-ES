@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagReceivedRepresentingSearchKey
+title: Propiedad canónica PidTagReceivedRepresentingSearchKey
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 234c797c-4a3c-4e05-be22-2a2fa377871f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 834e97d8bd7bf31a1241fcf0454594b015902673
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820024"
 ---
-# <a name="pidtagreceivedrepresentingsearchkey-canonical-property"></a>Propiedad canónico PidTagReceivedRepresentingSearchKey
+# <a name="pidtagreceivedrepresentingsearchkey-canonical-property"></a>Propiedad canónica PidTagReceivedRepresentingSearchKey
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la clave de búsqueda para el usuario de mensajería representado por el usuario receptora.
   
@@ -34,7 +34,7 @@ Contiene la clave de búsqueda para el usuario de mensajería representado por e
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es una de las propiedades de dirección para el usuario de mensajería que se está representado por el usuario receptora. Se debe establecer por el proveedor de transporte entrante, que también es responsable de la autorización o comprobación del delegado. Si no se va a representar ningún usuario de mensajería, esta propiedad debe establecerse en la clave de búsqueda contenida en la propiedad **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)).
   
@@ -78,18 +78,18 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagSearchKey](pidtagsearchkey-canonical-property.md)
+[Propiedad canónica PidTagSearchKey](pidtagsearchkey-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

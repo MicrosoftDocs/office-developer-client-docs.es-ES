@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822697"
 ---
-# <a name="page-layout-section"></a>Sección de diseño de página
+# <a name="page-layout-section"></a>Sección Diseño de página
 
 Contiene celdas que controlan la configuración de la página para formas y conectores, como el espaciado entre todas las formas o entre todos los conectores de la página, y el estilo de las rutas de todos los conectores de la página.
   

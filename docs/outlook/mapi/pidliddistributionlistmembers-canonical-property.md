@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidDistributionListMembers
+title: Propiedad canónica PidLidDistributionListMembers
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c27513474048e9805bc29116aa094bc47f8f0cae
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818625"
 ---
-# <a name="pidliddistributionlistmembers-canonical-property"></a>Propiedad canónico PidLidDistributionListMembers
+# <a name="pidliddistributionlistmembers-canonical-property"></a>Propiedad canónica PidLidDistributionListMembers
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la lista de identificadores de los objetos que corresponden a los miembros de la lista de distribución personal.
   
@@ -35,7 +35,7 @@ Especifica la lista de identificadores de los objetos que corresponden a los mie
 |Tipo de datos:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los miembros de la lista de distribución personal pueden ser otras listas de distribución personales, las direcciones electrónicas contenidas en un contacto, los usuarios de la lista Global de direcciones o listas de distribución o direcciones de correo electrónico de uso único. El formato de cada propiedad EntryId debe ser un EntryId de uso único, tal como se especifica en [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) o un valor de EntryId ajustado. 
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

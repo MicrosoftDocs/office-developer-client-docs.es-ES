@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSearchFolderExpiration
+title: Propiedad canónica PidTagSearchFolderExpiration
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bd70d18242fadee964ad96305728e63617a0276f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820244"
 ---
-# <a name="pidtagsearchfolderexpiration-canonical-property"></a>Propiedad canónico PidTagSearchFolderExpiration
+# <a name="pidtagsearchfolderexpiration-canonical-property"></a>Propiedad canónica PidTagSearchFolderExpiration
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la hora en que el contenedor de la carpeta de búsqueda será obsoleto y deben actualizarse o volver a crear.
   
@@ -32,9 +32,9 @@ Contiene la hora en que el contenedor de la carpeta de búsqueda será obsoleto 
 |Propiedades asociadas:  <br/> |PR_WB_SF_EXPIRATION  <br/> |
 |Identificador:  <br/> |0x683A  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |B?squeda  <br/> |
+|Área:  <br/> |Búsqueda  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad debe tener el formato como el número de minutos transcurridos desde la medianoche hora Universal coordinada (UTC) del 1 de enero de 1601.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

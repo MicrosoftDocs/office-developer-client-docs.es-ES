@@ -23,17 +23,17 @@ Obtiene un valor de tipo string que representa una dirección URL que se usa par
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _url_
   
 > [out] Una cadena que contiene una dirección URL para el formulario usado en la autenticación web.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Después de que el formulario se presenta al usuario, se llama al método de [ISocialSession::LogonWeb](isocialsession-logonweb.md) con una cadena vacía para el parámetro de _configuración_ . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

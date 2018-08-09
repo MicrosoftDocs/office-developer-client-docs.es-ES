@@ -23,13 +23,13 @@ Este método ha quedado obsoleto en Outlook Social Connector 2013.
 HRESULT _stdcall GetActivities([in] DATE startTime, [out, retval] BSTR* activities);
 ```
 
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Inicio en Outlook Social Connector 2013, el OSC admite la sincronización de sólo a petición de actividades y no en caché o sincronización híbrido de actividades. El OSC pasa por alto la configuración de **cacheActivities** en el XML de las capacidades y no llama a este método. Para admitir la búsqueda de actividades dinámico, implemente el método [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) . Establezca **cacheActivities** como **false**, **getActivities** y **dynamicActivitiesLookupEx** como **true**, que se le pedirá el OSC para llamar a **ISocialSession2::GetActivitiesEx** en su lugar. 
   
 Para obtener más información acerca de cómo el OSC Obtiene las actividades de amigos, consulte [sincronización de amigos y actividades](synchronizing-friends-and-activities.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0286696707d268867a5536ef345d0af7909918dd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820995"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un visor de jerarquía es un componente de la interfaz de usuario que se usa para mostrar la carpeta y la dirección tablas de jerarquía del contenedor de libro. Visores de jerarquía pueden mostrar a los miembros de la jerarquía en diferentes niveles, expandir y cada nivel de petición de contratación.
   

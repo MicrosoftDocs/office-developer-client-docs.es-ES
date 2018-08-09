@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: eaf84e1b2a747b313f1534eb66b190d86cf89df9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817820"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicie sesión en un almacén de mensajes en la cola de MAPI.
   
@@ -44,7 +44,7 @@ HRESULT SpoolerLogon(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMAPISup_
   
@@ -124,7 +124,7 @@ MAPI_W_ERRORS_RETURNED
   
 > La llamada se ha realizado correctamente, pero el proveedor de almacén de mensajes tiene información de error disponible. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md). Para obtener la información de error desde el proveedor, llame al método [IMAPISession::GetLastError](imapisession-getlasterror.md) . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cola MAPI llama al método de **IMSProvider::SpoolerLogon** para iniciar sesión en un almacén de mensajes. La cola MAPI debe usar el objeto de almacén de mensaje devuelto por el proveedor de almacén de mensajes en el parámetro _lppMDB_ durante y después de inicio de sesión. 
   
@@ -132,7 +132,7 @@ Para mantener la coherencia con el método [IMSProvider::Logon](imsprovider-logo
   
 El proveedor de almacenamiento debe marcar internamente el objeto de almacén de mensaje devuelto para indicar que se está utilizando el almacén de la cola de MAPI. Algunos de los métodos de este objeto de almacenamiento se comportan de forma diferente para el mensaje de almacenar el objeto proporcionado a las aplicaciones cliente. Mantener esta marca interna es la manera más común de desencadenar el comportamiento específico de la cola de MAPI.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -140,5 +140,5 @@ El proveedor de almacenamiento debe marcar internamente el objeto de almacén de
   
 [MAPIERROR](mapierror.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

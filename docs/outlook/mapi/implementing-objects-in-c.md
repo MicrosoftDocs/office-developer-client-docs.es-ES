@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 71a8dc6472051e72d990a5c5d6f026ae63f1df25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19817701"
 ---
 # <a name="implementing-objects-in-c"></a>Implementación de objetos en C
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Las aplicaciones cliente y proveedores de servicios de escrito en C definición objetos MAPI mediante la creación de una estructura de datos y una matriz de punteros a función ordenada conocido como una tabla de función virtual o vtable. Un puntero a la tabla vtable debe ser el primer miembro de la estructura de datos.
   
@@ -79,7 +79,7 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
  
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Implementación de objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

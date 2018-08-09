@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60119
 localization_priority: Normal
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
-description: La ventana Explorador de estilos ofrece la forma a los programadores una manera rápida de determinar qué celdas de formas hereda de un estilo determinado, o el estilo desde el que hereda su valor una celda determinada.
+description: La ventana Explorador de estilos ofrece a los programadores de formas una manera rápida de discernir qué celdas heredan de un estilo determinado, o el estilo del cual hereda su valor una celda determinada.
 ms.openlocfilehash: 25af478b8ac4e35c7ae0b88bf69aad21d679da17
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821487"
 ---
-# <a name="about-the-style-explorer-window"></a>Ventana Explorador de estilos
+# <a name="about-the-style-explorer-window"></a>Información sobre la ventana Explorador de estilo
 
-La ventana **Explorador de estilos** ofrece la forma a los programadores una manera rápida de determinar qué celdas de formas hereda de un estilo determinado, o el estilo desde el que hereda su valor una celda determinada. 
+La ventana **Explorador de estilos** ofrece a los programadores de formas una manera rápida de discernir qué celdas heredan de un estilo determinado, o el estilo del cual hereda su valor una celda determinada. 
   
 Los estilos son conjuntos de atributos de formato que tienen un nombre particular y se pueden aplicar a una forma. En Microsoft Visio, un solo estilo puede definir los atributos de texto, líneas y relleno para asegurar la coherencia de manera eficiente entre las formas. Además, es posible definir un estilo para cualquier clase de atributo (texto, línea o relleno), o cualquier combinación de atributos. 
   
@@ -34,11 +34,11 @@ La ventana **Explorador de estilos** ofrece la información que necesaria para c
 Para ver la ventana **Explorador de estilos** , con la ventana ShapeSheet activa, en la ficha **Diseño de herramientas de ShapeSheet** , en el grupo **Ver** , seleccione **Explorador de estilos**. La ventana **Explorador de estilos** aparece acoplada en la ventana ShapeSheet de forma predeterminada, pero es una ventana anclada que puede se puede acoplar, flotar o combinadas con otras ventanas de ShapeSheet disponibles, por ejemplo, la ventana **Rastreo de fórmulas** . La ventana **Explorador de estilos** contiene una vista en árbol de todos los estilos definidos en el dibujo actual. 
   
 > [!NOTE]
-> Para obtener información sobre un estilo, puede haga clic en el estilo en la ventana **Explorador de estilos** para ver su ShapeSheet. 
+> Para obtener información sobre un estilo, se puede hacer clic con el botón secundario en el estilo desde la ventana **Explorador de estilos**, a fin de mostrar su ShapeSheet. 
   
-La ventana **Explorador de estilos** ofrece la siguiente información: 
+La ventana **Explorador de estilos** suministra la siguiente información: 
   
-- Las celdas que heredan sus valores de un estilo seleccionado. Cuando se selecciona un estilo en la ventana **Explorador de estilos** , todas las celdas en la ventana ShapeSheet que heredan de ese estilo aparecen sin trama, mientras que las celdas que no heredan de ese estilo aparecen con una ligera trama. 
+- Las celdas que heredan sus valores de un estilo seleccionado.Cuando se selecciona un estilo en la ventana **Explorador de estilos**, todas las celdas de la ventana ShapeSheet que heredan de ese estilo aparecen sin trama, mientras que las que no heredan de ese estilo aparecen con una ligera trama. 
     
 - El estilo del cual hereda su valor una celda seleccionada.Al seleccionar una celda de ShapeSheet, el estilo cuyo valor hereda se muestra en la barra de tareas que hay bajo la ventana ShapeSheet. 
     

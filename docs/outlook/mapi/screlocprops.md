@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 06590fe55cb02b1abf036156877fd308548436f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820618"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Ajusta los punteros en una matriz de [SPropValue](spropvalue.md) después de que se han copiado o movido a una nueva ubicación de la matriz y sus datos. 
   
@@ -43,7 +43,7 @@ SCODE ScRelocProps(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cprop_
   
@@ -75,7 +75,7 @@ MAPI_E_INVALID_PARAMETER
   
 > Uno o ambos parámetros no son válidos, o se encontró un tipo de propiedad desconocido.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **ScRelocProps** funciona en la suposición de que la matriz de valores de propiedad para la que se ajustan punteros se asignó originalmente en una sola llamada similar a una llamada a la función **ScCopyProps** . Si una aplicación de cliente o un proveedor de servicios está trabajando con un valor de la propiedad que se genera a partir de disjuntos bloques de memoria, que debe usar [ScCopyProps](sccopyprops.md) para copiar las propiedades en su lugar. 
   
@@ -87,7 +87,7 @@ La función **ScRelocProps** funciona en la suposición de que la matriz de valo
     
 3. El parámetro _pcb_ **ScRelocProps** es opcional. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de degradado en línea)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de línea.  <br/> |
+|[Elemento Row (sección Degradado de línea)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de línea.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,14 +60,14 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Valor de GradientStopColor  <br/> |El valor de color del punto de degradado.  <br/> |[Fila de detener degradado (sección de degradado en línea)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |El grado de transparencia del degradado dejar de color, como un porcentaje.  <br/> |[Fila de detener degradado (sección de degradado en línea)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |La posición del punto de degradado a lo largo de la dirección del degradado de línea, como un porcentaje desde el punto de origen del degradado hasta el borde exterior del degradado.  <br/> |[Fila de detener degradado (sección de degradado en línea)](gradient-stop-row-line-gradient-section.md) <br/> |
+|Valor de GradientStopColor  <br/> |El valor de color del punto de degradado.  <br/> |[Fila Gradient Stop (sección Degradado de línea)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |El grado de transparencia del degradado dejar de color, como un porcentaje.  <br/> |[Fila Gradient Stop (sección Degradado de línea)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |La posición del punto de degradado a lo largo de la dirección del degradado de línea, como un porcentaje desde el punto de origen del degradado hasta el borde exterior del degradado.  <br/> |[Fila Gradient Stop (sección Degradado de línea)](gradient-stop-row-line-gradient-section.md) <br/> |
    
 

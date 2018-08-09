@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleFillColor (sección de estilos rápidos)
+title: Celda QuickStyleFillColor (sección Estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822892"
 ---
-# <a name="quickstylefillcolor-cell-quick-style-section"></a>Celda QuickStyleFillColor (sección de estilos rápidos)
+# <a name="quickstylefillcolor-cell-quick-style-section"></a>Celda QuickStyleFillColor (sección Estilos rápidos)
 
 Determina el color del tema que usa el relleno de una forma, como un número entero de 0 a 7
   
@@ -30,7 +30,7 @@ Determina el color del tema que usa el relleno de una forma, como un número ent
 |6  <br/> |El color de relleno de la forma hereda el color del tema Énfasis 5  <br/> |
 |7  <br/> |El color de relleno de la forma hereda el color del tema Énfasis 6  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **QuickStyleFillColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

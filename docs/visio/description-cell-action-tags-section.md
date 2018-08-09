@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821977"
 ---
-# <a name="description-cell-action-tags-section"></a>Celda Description (sección de etiquetas de acción)
+# <a name="description-cell-action-tags-section"></a>Celda Description (sección Etiquetas de acción)
 
 Contiene una cadena que describe la etiqueta de acción, que aparece como información sobre herramientas cuando los usuarios sitúan el puntero sobre la etiqueta.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Description por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Description por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

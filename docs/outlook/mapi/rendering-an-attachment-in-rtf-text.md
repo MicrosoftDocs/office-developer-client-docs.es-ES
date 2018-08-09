@@ -1,5 +1,5 @@
 ---
-title: Representación de un dato adjunto en texto RTF
+title: Representar datos adjuntos en texto RTF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cf22e360a0319a662c9b7dd31856dbb6eccec02a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820496"
 ---
-# <a name="rendering-an-attachment-in-rtf-text"></a>Representación de un dato adjunto en texto RTF
+# <a name="rendering-an-attachment-in-rtf-text"></a>Representar datos adjuntos en texto RTF
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Formato de texto de Rich (RTF)-tener en cuenta los clientes pueden recuperar información de posición de representación de texto del mensaje RTF mediante busca la siguiente secuencia de escape en la propiedad del mensaje **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
   

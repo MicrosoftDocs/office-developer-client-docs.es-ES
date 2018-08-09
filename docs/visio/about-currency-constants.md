@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821505"
 ---
-# <a name="about-currency-constants"></a>Constantes de moneda
+# <a name="about-currency-constants"></a>Información sobre las constantes de moneda
 
 Para dar formato de moneda a un número, puede utilizar la función CY y pasar una constante opcional que determine de qué moneda se trata. Las constantes de moneda pueden especificarse como el número de Id. que corresponde a un país o región o como una cadena entre comillas que corresponda a la abreviatura de tres caracteres de la norma ISO 4217.
   

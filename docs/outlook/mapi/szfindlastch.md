@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c221f98d6551ea63971dd378d522c1f2bebb312b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820830"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Busca la última aparición de un carácter en una cadena terminada en null. 
   
@@ -40,7 +40,7 @@ LPSTR SzFindLastCh(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
@@ -54,7 +54,7 @@ LPSTR SzFindLastCh(
 
  **SzFindLastCh** devuelve un puntero a la última aparición del carácter en la cadena. Si el carácter no se produce en cualquier lugar en la cadena, o si el parámetro _lpsz_ es NULL, se devuelve un valor null. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **SzFindLastCh** busca una coincidencia exacta solamente; es sensible a mayúsculas y minúsculas y diferencias diacríticas. Se admiten las búsquedas en los formatos de Unicode y DBCS. 
   

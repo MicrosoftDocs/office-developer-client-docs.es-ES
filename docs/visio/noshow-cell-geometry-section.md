@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822711"
 ---
-# <a name="noshow-cell-geometry-section"></a>Celda NoShow (Sección de Geometría)
+# <a name="noshow-cell-geometry-section"></a>Celda NoShow (sección Geometría)
 
 Indica si un trazado se muestra en la página de dibujo.
   
@@ -27,13 +27,13 @@ Indica si un trazado se muestra en la página de dibujo.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NoShow por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoShow por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría *i* . NoShow donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda NoShow por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NoShow por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

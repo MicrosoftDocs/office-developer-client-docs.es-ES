@@ -39,7 +39,7 @@ Outlook Social Connector (OSC) llama al método de [ISocialProvider::GetCapabili
     
 10. [ISocialSession::GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) : el OSC Obtiene una cadena que representa un identificador único para un sitio de red social. El identificador de la red puede ser equivalente al nombre de red. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [XML de capacidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)

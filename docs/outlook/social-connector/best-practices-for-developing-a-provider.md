@@ -1,5 +1,5 @@
 ---
-title: Prácticas recomendadas para desarrollar un proveedor
+title: Procedimientos recomendados para el desarrollo de un proveedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821081"
 ---
-# <a name="best-practices-for-developing-a-provider"></a>Prácticas recomendadas para desarrollar un proveedor
+# <a name="best-practices-for-developing-a-provider"></a>Procedimientos recomendados para el desarrollo de un proveedor
 
 Debe cumplir las siguientes prácticas al desarrollar un proveedor de Outlook Social Connector 2013 (OSC):
   
@@ -33,7 +33,7 @@ Debe cumplir las siguientes prácticas al desarrollar un proveedor de Outlook So
     
 - Office 2013 está disponible en versiones de 32 bits y 64 bits. Las versiones de Office anteriores a Office 2010 sólo están disponibles en una versión de 32 bits. La instalación predeterminada de Office 2013 en Windows de 64 bits es de 32 bits. Si piensa admitir la versión de 64 bits de la OSC que se instala con Office 2013 de 64 bits, también debe liberar una versión de 64 bits de su proveedor. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)  
 - [Desarrollar un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)  

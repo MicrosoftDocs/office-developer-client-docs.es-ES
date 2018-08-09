@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821693"
 ---
-# <a name="calloutcount-function"></a>CALLOUTCOUNT (función)
+# <a name="calloutcount-function"></a>Función CALLOUTCOUNT
 
 Devuelve el número total de formas de llamada asociadas a la forma.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

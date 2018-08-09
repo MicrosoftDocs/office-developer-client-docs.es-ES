@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 10890c1fe430ddbc45c16908df3ac340284c9f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818452"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una tabla de cola saliente contiene información sobre todos los mensajes salientes para un almacén de mensajes. Los proveedores de almacén de mensajes implementan tablas de cola saliente para la cola MAPI usar. Almacenes que no admiten el envío o recepción de mensajes, no necesita implementar esta tabla. 
   
@@ -44,7 +44,7 @@ Las siguientes propiedades que conforman la columna requiere establecer en las t
    
 Para obtener más información acerca de cómo se usa la tabla de cola saliente, vea [Enviar mensajes mediante el uso de los proveedores de almacén de mensajes](sending-messages-by-using-message-store-providers.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

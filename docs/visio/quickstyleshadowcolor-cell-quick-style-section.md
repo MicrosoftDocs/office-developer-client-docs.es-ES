@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleShadowColor (sección de estilos rápidos)
+title: Celda QuickStyleShadowColor (sección Estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822895"
 ---
-# <a name="quickstyleshadowcolor-cell-quick-style-section"></a>Celda QuickStyleShadowColor (sección de estilos rápidos)
+# <a name="quickstyleshadowcolor-cell-quick-style-section"></a>Celda QuickStyleShadowColor (sección Estilos rápidos)
 
 Determina el color del tema que usa la sombra de una forma, como un número entero de 0 a 7.
   
@@ -30,7 +30,7 @@ Determina el color del tema que usa la sombra de una forma, como un número ente
 |6  <br/> |El color de sombra de la forma hereda el color del tema Énfasis 5.  <br/> |
 |7  <br/> |El color de sombra de la forma hereda el color del tema Énfasis 6.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **QuickStyleShadowColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

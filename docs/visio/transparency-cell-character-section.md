@@ -16,13 +16,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823426"
 ---
-# <a name="transparency-cell-character-section"></a>Celda Transparency (Sección de caracteres)
+# <a name="transparency-cell-character-section"></a>Celda Transparency (sección Caracteres)
 
 Determina el nivel de transparencia de color de un intervalo de texto de una forma.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|
+          0 -100
+  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 
@@ -32,13 +34,13 @@ También puede establecer este valor mediante el control deslizante en la ficha 
   
 Si la sección de caracteres contiene varias filas, la celda Transparency contiene la información de formato que se aplica a un subintervalo del texto de la forma. En caso contrario, contiene información de formato para todo el texto de la forma.
   
-Para obtener una referencia a la celda Transparency por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Transparency por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.ColorTrans [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Transparency por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Transparency por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

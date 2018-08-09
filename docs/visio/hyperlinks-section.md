@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822331"
 ---
-# <a name="hyperlinks-section"></a>Sección de hipervínculos
+# <a name="hyperlinks-section"></a>Sección Hipervínculos
 
 Contiene celdas para crear varios saltos entre una forma o una página de dibujo y otra página de dibujo, otro archivo o un sitio Web.
   
 ## <a name="remarks"></a>Observaciones
 
-Para definir un hipervínculo, escriba los valores en las celdas de esta sección, o use el cuadro de diálogo **hipervínculos** (haga clic en **hipervínculo** en la ficha **Insertar** ). 
+Para definir un hipervínculo, puede escribir valores en las celdas de esta sección o usar el cuadro de diálogo **Hipervínculos** (haga clic en **Hipervínculo**, en la ficha **Insertar**). 
   
 La sección de hipervínculos se puede agregar a una forma, grupo, página u objeto externo en la ventana ShapeSheet.
   

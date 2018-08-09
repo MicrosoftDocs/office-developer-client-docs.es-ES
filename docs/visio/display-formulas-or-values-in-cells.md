@@ -20,9 +20,9 @@ ms.locfileid: "19821979"
 
 1. Haga clic en la ventana ShapeSheet para activarla.
     
-2. En la ficha **Herramientas de ShapeSheet** , en el grupo **Ver** , haga clic en **fórmulas** para ver las fórmulas o haga clic en **valores** para ver los valores. 
+2. En la ficha **Herramientas de ShapeSheet**, en el grupo **Ver**, haga clic en **Fórmulas** para ver fórmulas o en **Valores** para ver valores. 
     
     > [!NOTE]
-    > Puede también secundario en la ventana ShapeSheet y, a continuación, haga clic en **fórmulas** o **valores** en el menú contextual. 
+    > También puede hacer clic con el botón secundario en la ventana ShapeSheet y, a continuación, hacer clic en **Fórmulas** o en **Valores** en el menú contextual. 
   
 

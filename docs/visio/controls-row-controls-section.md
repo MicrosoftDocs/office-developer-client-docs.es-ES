@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821871"
 ---
-# <a name="controls-row-controls-section"></a>Fila Controls (Sección de controles)
+# <a name="controls-row-controls-section"></a>Fila Controls (sección Controles)
 
 Contiene celdas que definen el *x* - e *y* -las coordenadas y el comportamiento de cada controlador definen para una forma. Una forma contendrá una fila Controls por cada controlador. 
   

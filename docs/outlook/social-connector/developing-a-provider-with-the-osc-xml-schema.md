@@ -52,7 +52,7 @@ El esquema XML de proveedor de Outlook Social Connector (OSC) define el formato 
   
 - [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Depurar un proveedor](debugging-a-provider.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: aad19bbc016af6bdc0b17124b46112656af53a4c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818470"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permiso de acceso o el conjunto de operaciones de permisible, puede ser una característica de objetos MAPI y de las propiedades individuales compatibles con esos objetos. Acceso a objetos está determinada por el elemento primario de un objeto. Para un mensaje, su carpeta determina los permisos de acceso. Para un usuario de mensajería o lista de distribución, su contenedor de la libreta de direcciones realiza esta determinación. Cuando un objeto como un mensaje reside en dos carpetas, los permisos para las dos copias del objeto pueden ser diferentes. 
   
@@ -37,9 +37,9 @@ Cuando una propiedad es de sólo lectura, siempre estará disponible con una lla
     
 Acceso de propiedad y el objeto también puede se recuperarán o establecerán mediante la interfaz [IPropData](ipropdataimapiprop.md) que hereda de la interfaz **IMAPIProp** . MAPI proporciona una implementación de **IPropData** que se basa en datos en la memoria. Proveedores de servicios pueden utilizar **IPropData** para implementar **IMAPIProp** en determinadas circunstancias, como para su objeto de estado o si están utilizando una base de datos que no tiene transacciones integradas. **IPropData** funciona exclusivamente en la memoria, haciendo que sea innecesario bloquear y desbloquear los datos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
+[Información general sobre MAPI (propiedad)](mapi-property-overview.md)
 

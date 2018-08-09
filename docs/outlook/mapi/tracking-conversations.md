@@ -19,7 +19,7 @@ ms.locfileid: "19820883"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Conversaci�n de seguimiento est� recopilando las respuestas a un mensaje. Clientes deben establecer dos propiedades que facilitan el seguimiento de las conversaciones:
   

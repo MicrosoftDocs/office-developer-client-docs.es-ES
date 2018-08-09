@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c328e79b7e474369f11f8a4002e00137659db3c9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820560"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta estructura permite especificar información para descomprimir el cuerpo de un mensaje en el formato comprimido de texto enriquecido (RTF) y, opcionalmente, devuelva la secuencia de cuerpo en su formato nativo.
   
@@ -35,9 +35,9 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
- _tamaño_
+ _size_
   
 > El tamaño de la estructura **RTF_WCSINFO** en número de bytes. 
     
@@ -59,7 +59,7 @@ typedef struct {
   
 > Éste es el valor de la página de código de la secuencia devuelta descomprimido que desee. Si se establece en un valor distinto de cero, la función [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) convierte la secuencia a la página de código especificado. Si se establece en un valor de cero, MAPI decide qué página de códigos para usar. Este valor solo se usa cuando se pasa el indicador **MAPI_NATIVE_BODY** en _ulFlags_y el formato del cuerpo no es RTF. De lo contrario, se omite este valor.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -27,11 +27,11 @@ Devuelve un GUID que representa un identificador único para la red social.
 
 Un puntero a un valor GUID que representa un identificador único para la red social.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El GUID debe ser inmutable y no debe cambiar incluso si cambia la versión del proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

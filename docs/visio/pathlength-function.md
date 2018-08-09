@@ -14,19 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822735"
 ---
-# <a name="pathlength-function"></a>PATHLENGTH (función)
+# <a name="pathlength-function"></a>Función PATHLENGTH
 
 Devuelve la longitud de la ruta de acceso definida en la sección de geometría especificada.
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2010 
+Versión añadida: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
 PATHLENGTH (** *sección* ** ** *[, segmento]* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -37,7 +38,7 @@ PATHLENGTH (** *sección* ** ** *[, segmento]* **)
 
  **Double**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si no existe _section_ ni _segment_ , Microsoft Visio devuelve #REF!. 
   

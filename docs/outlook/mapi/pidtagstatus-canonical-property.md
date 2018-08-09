@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagStatus
+title: Propiedad canónica PidTagStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 01a65306e5e0d34ed6f1ce7231227224868ff5cb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820339"
 ---
-# <a name="pidtagstatus-canonical-property"></a>Propiedad canónico PidTagStatus
+# <a name="pidtagstatus-canonical-property"></a>Propiedad canónica PidTagStatus
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una máscara de bits de 32 bits de marcadores que definen el estado de la carpeta.
   
@@ -34,7 +34,7 @@ Contiene una máscara de bits de 32 bits de marcadores que definen el estado de 
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Contenedor MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad para las carpetas es análoga a la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para los mensajes. Sus indicadores se proporcionan para la aplicación de cliente sólo y no afectan el almacén de mensajes. Los clientes pueden usar u omitir estas opciones de configuración. El cliente también puede definir sus propios valores para los bits definidos por el cliente de esta propiedad.
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -90,7 +90,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821704"
 ---
-# <a name="bulletfont-cell-paragraph-section"></a>Celda BulletFont (Sección de párrafo)
+# <a name="bulletfont-cell-paragraph-section"></a>Celda BulletFont (sección Párrafo)
 
 Representa el número de la fuente empleada para dar formato al texto cuando se especifica una cadena de viñeta personalizada y el valor de la celda Bullet no es cero. 
   
@@ -24,13 +24,13 @@ Representa el número de la fuente empleada para dar formato al texto cuando se 
 
 Los números de fuente varían según las fuentes instaladas en el sistema. Si el valor es 0 y hay una cadena de viñeta personalizada, la fuente utilizada será la misma que la del primer carácter del párrafo.
   
-Para obtener una referencia a la celda BulletFont por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BulletFont por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Para.BulletFont [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda BulletFont por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BulletFont por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

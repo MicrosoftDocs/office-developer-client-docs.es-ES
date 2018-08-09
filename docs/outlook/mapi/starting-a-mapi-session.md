@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d683d5fc959b219569417c74494cb47d7c2c059e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820754"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Aunque hay una gran cantidad de trabajo realizado durante la sesión de inicio, las tareas necesarias son mínimas. Gran parte de este trabajo se realiza en la MAPI de procesamiento de las llamadas [MAPIInitialize](mapiinitialize.md) y [MAPILogonEx](mapilogonex.md) . Ambas funciones aceptan marcas como parámetros de entrada para controlar aspectos de la sesión, como control de notificación y la interfaz de usuario. Es importante comprender las consecuencias de la configuración de cada uno de estos marcadores al llamar a **MAPIInitialize** para inicializar las bibliotecas de MAPI y **MAPILogonEx** para iniciar sesión en el subsistema MAPI. 
   
@@ -35,7 +35,7 @@ Aunque hay una gran cantidad de trabajo realizado durante la sesión de inicio, 
     
 ## <a name="in-this-section"></a>En esta sección
 
-[Inicialización de MAPI](initializing-mapi.md)
+[Inicializar MAPI](initializing-mapi.md)
   
 > Describe cómo inicializar MAPI para una sesión.
     
@@ -43,11 +43,11 @@ Aunque hay una gran cantidad de trabajo realizado durante la sesión de inicio, 
   
 > Describe las llamadas para realizar en inicializar OLE para su uso con MAPI.
     
-[Inicializar las utilidades MAPI](initializing-the-mapi-utilities.md)
+[Inicializar las herramientas MAPI](initializing-the-mapi-utilities.md)
   
 > Describe cómo inicializar utilidades MAPI.
     
-[Inicie sesión en MAPI](logging-on-to-mapi.md)
+[Iniciar sesión en MAPI](logging-on-to-mapi.md)
   
 > Describe cómo las aplicaciones cliente inicie sesión en el sistema de sub MAPI.
     

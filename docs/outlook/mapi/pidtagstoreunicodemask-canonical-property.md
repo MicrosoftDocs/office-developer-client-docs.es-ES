@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagStoreUnicodeMask
+title: Propiedad canónica PidTagStoreUnicodeMask
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 010b17de08ee5836a26c56f300b36822df2e981e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820354"
 ---
-# <a name="pidtagstoreunicodemask-canonical-property"></a>Propiedad canónico PidTagStoreUnicodeMask
+# <a name="pidtagstoreunicodemask-canonical-property"></a>Propiedad canónica PidTagStoreUnicodeMask
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una máscara de bits de indicadores de que las aplicaciones cliente deben consultar para determinar las características de un almacén de mensajes.
   
@@ -34,7 +34,7 @@ Contiene una máscara de bits de indicadores de que las aplicaciones cliente deb
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Almacén de mensajes MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad revela las capacidades de un almacén de mensajes a aplicaciones cliente de planeación enviar un mensaje. Las marcas pueden facilitar las decisiones de un cliente o en otro almacén, por ejemplo, si se enviará un **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) o sólo **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un cliente nunca debe establecer esta propiedad. Un intento de devuelve **MAPI_E_COMPUTED**. 
   
@@ -142,7 +142,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -150,7 +150,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

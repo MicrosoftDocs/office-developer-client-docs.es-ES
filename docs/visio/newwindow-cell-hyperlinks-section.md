@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822673"
 ---
-# <a name="newwindow-cell-hyperlinks-section"></a>Celda NewWindow (Sección de hipervínculos)
+# <a name="newwindow-cell-hyperlinks-section"></a>Celda NewWindow (sección Hipervínculos)
 
 Especifica si el hipervínculo se abre en una ventana nueva.
   
@@ -27,13 +27,14 @@ Especifica si el hipervínculo se abre en una ventana nueva.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NewWindow por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NewWindow por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Hipervínculo.  *Nombre* . NewWindow donde hipervínculo.  *Nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda NewWindow por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NewWindow por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

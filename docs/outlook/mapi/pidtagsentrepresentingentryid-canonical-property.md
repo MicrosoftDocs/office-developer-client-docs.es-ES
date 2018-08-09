@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSentRepresentingEntryId
+title: Propiedad canónica PidTagSentRepresentingEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f23bde8b-94cc-48c8-891a-166aa39aa3ee
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 49c7f697b6fffee15a47b56566c6fbc552a11b60
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820267"
 ---
-# <a name="pidtagsentrepresentingentryid-canonical-property"></a>Propiedad canónico PidTagSentRepresentingEntryId
+# <a name="pidtagsentrepresentingentryid-canonical-property"></a>Propiedad canónica PidTagSentRepresentingEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el identificador de entrada para el usuario de mensajería representado por el remitente.
   
@@ -34,7 +34,7 @@ Contiene el identificador de entrada para el usuario de mensajería representado
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es una de las propiedades de dirección para el usuario de mensajería que se está representado por el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representado en los valores para que el cliente. Un usuario de mensajería enviar en su propio nombre normalmente deja las propiedades de remitente representado no establecido.
   
@@ -82,18 +82,18 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

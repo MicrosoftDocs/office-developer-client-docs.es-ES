@@ -1,5 +1,5 @@
 ---
-title: Sección etiquetas de acción
+title: Sección Etiqueta de acción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,14 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821501"
 ---
-# <a name="action-tag-section"></a>Sección etiquetas de acción
+# <a name="action-tag-section"></a>Sección Etiqueta de acción
 
 Contiene una fila por cada etiqueta de acción definida para una forma o página.
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La sección de **Etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo. Mediante la celda **TagName** , puede asociar cada etiqueta de acción con una o más filas en la sección Acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción. 
   

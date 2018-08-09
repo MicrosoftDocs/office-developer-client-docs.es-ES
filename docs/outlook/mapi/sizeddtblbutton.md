@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3de56b12fa7d34004fddbfe3633b8b8307c0ffc1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820667"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una estructura con nombre que incluye una estructura [DTBLBUTTON](dtblbutton.md) para describir un botón y una etiqueta de un período especificado. 
   
@@ -36,17 +36,17 @@ Crea una estructura con nombre que incluye una estructura [DTBLBUTTON](dtblbutto
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _n_
   
 > Longitud de la etiqueta que se deben incluir en la nueva estructura.
     
- _u_
+ _s_
   
 > Nombre de la nueva estructura.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se crea la nueva estructura con los siguientes miembros:
   
@@ -56,12 +56,12 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [DTBLBUTTON](dtblbutton.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

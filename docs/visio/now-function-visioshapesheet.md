@@ -1,5 +1,5 @@
 ---
-title: NOW (función) (VisioShapeSheet)
+title: NOW Function (VisioShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822708"
 ---
-# <a name="now-function-visioshapesheet"></a>NOW (función) (VisioShapeSheet)
+# <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
 
 Devuelve el valor de fecha y hora actual.
   

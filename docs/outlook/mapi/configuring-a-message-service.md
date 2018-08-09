@@ -1,5 +1,5 @@
 ---
-title: Configuración de un servicio de mensajes
+title: Configurar un servicio de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d68892e3-7c87-4b3a-a691-bff92f83ed00
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fd87d169cd5131c6e1c8ca45a35dded96a295c57
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816549"
 ---
-# <a name="configuring-a-message-service"></a>Configuración de un servicio de mensajes
+# <a name="configuring-a-message-service"></a>Configurar un servicio de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  **Para configurar todos los proveedores de servicio en un servicio de mensajes**
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822736"
 ---
-# <a name="pi-function"></a>PI (función)
+# <a name="pi-function"></a>Función PI
 
 Devuelve la constante matemática *pi* , que es 3,1415926535898 aproximadamente. 
   

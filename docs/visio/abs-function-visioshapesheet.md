@@ -1,5 +1,5 @@
 ---
-title: Función ABS (VisioShapeSheet)
+title: ABS Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821509"
 ---
-# <a name="abs-function-visioshapesheet"></a>Función ABS (VisioShapeSheet)
+# <a name="abs-function-visioshapesheet"></a>ABS Function (VisioShapeSheet)
 
 Devuelve el valor absoluto de un número.
   
@@ -24,7 +24,7 @@ Devuelve el valor absoluto de un número.
 
 ABS ( *número*) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

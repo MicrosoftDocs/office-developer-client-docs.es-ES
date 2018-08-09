@@ -1,5 +1,5 @@
 ---
-title: Obtener el identificador del proyecto en un elemento en en una página de detalles del proyecto
+title: Obtener el identificador del proyecto en una parte del complemento en una página de detalles de Project
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821296"
 ---
-# <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtener el identificador del proyecto en un elemento en en una página de detalles del proyecto
+# <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtener el identificador del proyecto en una parte del complemento en una página de detalles de Project
 
 Complemento de elementos se hospedan en elementos **iframe** que están completamente aislados de la página de hospedaje. Para obtener información acerca del proyecto actual de un elemento en en página de detalles de proyecto (PDP), puede usar el método **window.postMessage** , un agente de escucha de evento y un controlador de eventos que analiza el identificador de proyecto desde el mensaje. 
   
@@ -150,7 +150,7 @@ El elemento GetProjectId complemento define su código personalizado en la pági
     
 7. Agregar el elemento de **Título GetProjectId** a un elemento web en la página. Muestra el identificador del proyecto en el control **span** en la página de elementos web. 
     
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 <a name="NextSteps"> </a>
 
 El elemento en en este ejemplo no tener acceso a datos de Project Server o datos de SharePoint. Puede usar el identificador de producto para obtener información acerca del proyecto actual mediante el uso de un cliente de la API, como el modelo de objetos de JavaScript o el servicio REST.
@@ -248,10 +248,10 @@ El ejemplo siguiente es el código completo en la página de GetProjectID.aspx d
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Tareas de programación de Project](project-programming-tasks.md)
-- [Crear un complemento de hospedada en SharePoint Project Server](create-a-sharepoint-hosted-project-server-add-in.md)
+- [Crear un complemento de Project Server hospedado por SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
 - [Crear elementos de complemento para instalarlos con el complemento de SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

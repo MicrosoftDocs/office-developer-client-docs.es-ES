@@ -1,5 +1,5 @@
 ---
-title: Celda KeepTextFlat (sección de propiedades de rotación 3D)
+title: Celda KeepTextFlat (sección de propiedades de giro 3D)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822398"
 ---
-# <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>Celda KeepTextFlat (sección de propiedades de rotación 3D)
+# <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>Celda KeepTextFlat (sección de propiedades de giro 3D)
 
 Indica si el texto de una forma pasará por alto la rotación de la forma en 3D. No se aplica a la rotación 2D. 
   
@@ -25,7 +25,7 @@ Indica si el texto de una forma pasará por alto la rotación de la forma en 3D.
 |TRUE  <br/> |Texto de la forma no gira con la geometría de la forma.  <br/> |
 |FALSE  <br/> |Texto de la forma se transforma para gira con la geometría de la forma.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **KeepTextFlat** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -1,5 +1,5 @@
 ---
-title: Referencia de Visio ShapeSheet
+title: Referencia de ShapeSheet de Visio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823527"
 ---
-# <a name="visio-shapesheet-reference"></a>Referencia de Visio ShapeSheet
+# <a name="visio-shapesheet-reference"></a>Referencia de ShapeSheet de Visio
 
 Esta referencia contiene descripciones conceptuales, tareas de programación, ejemplos y referencias que le guiarán en el desarrollo de soluciones basadas en Visio 2013.
   
@@ -24,7 +24,7 @@ Le agradecemos sus comentarios o preguntas acerca de este contenido. Puede envia
   
 En esta documentación se incluyen las siguientes secciones:
   
-- [What ' s New](what-s-new-for-visio-shapesheet-developers.md): proporciona una lista de nuevos miembros por objeto y en orden alfabético.
+- [Novedades](what-s-new-for-visio-shapesheet-developers.md): Proporciona una lista de nuevos elementos por objeto y en orden alfabético.
     
 - [Conceptos](concepts-visio-shapesheet.md): proporciona conceptos importantes para desarrollar soluciones personalizadas de ShapeSheet de Visio.
     
@@ -32,7 +32,7 @@ En esta documentación se incluyen las siguientes secciones:
     
 - [Referencia](reference-visio-shapesheet.md): proporciona referencia materiales para las funciones, celdas, filas y secciones de ShapeSheet de Visio.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Centro para desarrolladores de Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821807"
 ---
-# <a name="company-function"></a>COMPANY (función)
+# <a name="company-function"></a>Función COMPANY
 
 Devuelve el texto del campo **compañía** de propiedades de un documento. 
   

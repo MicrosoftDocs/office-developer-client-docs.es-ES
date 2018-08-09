@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.locfileid: "19818171"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un perfil de almacena información acerca de los proveedores de servicios y los servicios de mensaje que se instalan en un equipo. Para cada sesión, un cliente en tiempo de inicio de sesión selecciona un perfil que describe los servicios y los proveedores que se va a utilizar. Puede elegir entre una colección de los perfiles de un cliente y, si así lo desea, establecer uno como el valor predeterminado. El perfil predeterminado es el perfil que se selecciona automáticamente cuando un cliente inicia una sesión y no ha especificado explícitamente un perfil.
   
 También en estos temas, encontrará una explicación de la caché de alias, que se almacena en una secuencia binaria.
   
-- [Caché de alias](nickname-cache.md)
+- [Caché de sobrenombre](nickname-cache.md)
     
 - [Secuencia de Autocompletar](autocomplete-stream.md)
     

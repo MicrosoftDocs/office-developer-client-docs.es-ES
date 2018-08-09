@@ -1,5 +1,5 @@
 ---
-title: HUEDIFF (función)
+title: Función HUEDIFF
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822292"
 ---
-# <a name="huediff-function"></a>HUEDIFF (función)
+# <a name="huediff-function"></a>Función HUEDIFF
 
 Devuelve la diferencia de matiz entre _color1_ y _color2_.
   
@@ -22,11 +22,11 @@ Devuelve la diferencia de matiz entre _color1_ y _color2_.
 
 HUEDIFF (** *color1* **, ** *color2* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
-| _color2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
+| _color1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
+| _color2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
    
 

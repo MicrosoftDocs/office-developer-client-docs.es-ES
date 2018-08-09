@@ -34,17 +34,17 @@ La descarga del SDK de Project 2013 incluye el complemento de ejemplo de **Proje
   
 El complemento de ejemplo con **HelloProject_OData** para Project Professional 2013 desarrollado con Visual Studio 2012. El complemento usa una consulta REST del servicio **ProjectData** para obtener informes de datos de costo de proyecto y otra información y, a continuación, compara el proyecto actual con los valores promedio para todos los proyectos en Project Web App. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
-- [Complementos de tarea panel para Project](http://msdn.microsoft.com/en-us/library/office/apps/fp161143%28v=office.15%29)
+- [Complementos de panel de tareas para Project](http://msdn.microsoft.com/en-us/library/office/apps/fp161143%28v=office.15%29)
     
 - [Conectar un complemento en el panel de tareas de proyecto en PWA](http://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx)
     
 - [Descarga del SDK de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
     
-- [Office y SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/office/fp161507%28v=office.15%29)
+- [Complementos de Office y SharePoint](http://msdn.microsoft.com/en-us/library/office/fp161507%28v=office.15%29)
     
-- [Complementos de Office](http://msdn.microsoft.com/en-us/library/office/apps/jj220060%28v=office.15%29)
+- [Crear aplicaciones para Office](http://msdn.microsoft.com/en-us/library/office/apps/jj220060%28v=office.15%29)
     
 

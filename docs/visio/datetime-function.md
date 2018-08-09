@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821939"
 ---
-# <a name="datetime-function"></a>DATETIME (función)
+# <a name="datetime-function"></a>Función DATETIME
 
 Devuelve el valor de fecha y hora representado por la _fecha y hora_ o _expresión_.
   
@@ -24,7 +24,7 @@ Devuelve el valor de fecha y hora representado por la _fecha y hora_ o _expresi�
 
 DATETIME ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a Project Online campos personalizados de empresa
+title: Obtener acceso a campos personalizados de empresa de Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
@@ -13,20 +13,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821306"
 ---
-# <a name="accessing-project-online-enterprise-custom-fields"></a>Obtener acceso a Project Online campos personalizados de empresa
+# <a name="accessing-project-online-enterprise-custom-fields"></a>Obtener acceso a campos personalizados de empresa de Project Online
 
 Project Online es un servicio de Office 365 que las empresas pueden ampliar para satisfacer las necesidades empresariales. Un área de extensión es campos personalizados de empresa (ECFs). ECFs son campos de valor de tipo que se pueden agregar a proyectos, recursos y tareas. En la siguiente tabla se enumera ECFs que asocian con proyectos, recursos y tareas y proporciona un ejemplo de un valor de una instancia de ese ECF:
   
-|Nombre ECF|Tipo ECF|Asociación|Valor de ejemplo|
+|Nombre ECF|Tipo ECF|Association|Valor de ejemplo|
 |:-----|:-----|:-----|:-----|
 |Justificación  <br/> |TEXT  <br/> |Project  <br/> |Un usuario final puede registrar estadísticas vitales y datos de mantenimiento, con los resultados que incluyen una evaluación de mantenimiento y una acción individual plan hacia la salud mejor.  <br/> |
 |Clasificación de riesgos  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
 |RENDIMIENTO DE LA INVERSIÓN  <br/> |NÚMERO  <br/> |Project  <br/> |2,10  <br/> |
 |Costo total  <br/> |COSTO  <br/> |Project  <br/> |$1,031,514  <br/> |
-|Inicio del equipo  <br/> |TEXT  <br/> |Recursos  <br/> |Sí  <br/> |
-|Rol de posición  <br/> |TEXT  <br/> |Recursos  <br/> |Evaluador  <br/> |
-|Estado de marca  <br/> |MARCA  <br/> |Tarea  <br/> |No  <br/> |
-|Mantenimiento  <br/> |TEXT  <br/> |Tarea  <br/> |No se ha especificado  <br/> |
+|Inicio del equipo  <br/> |TEXT  <br/> |Resources  <br/> |Sí  <br/> |
+|Rol de posición  <br/> |TEXT  <br/> |Resources  <br/> |Evaluador  <br/> |
+|Estado de marca  <br/> |MARCA  <br/> |Task  <br/> |No  <br/> |
+|Mantenimiento  <br/> |TEXT  <br/> |Task  <br/> |No se ha especificado  <br/> |
    
 ECFs se definen en la instancia de Project Web Application (PWA), externa desde cualquier proyecto, recurso o tarea. Sin embargo, pueden resultar asociados a un proyecto, recurso o tarea. En este artículo se proporciona una introducción a los campos personalizados con una aplicación de ejemplo y se centra en la recuperación de valores de ECF. 
   
@@ -203,7 +203,7 @@ El método ListPWACustomFields recupera y enumera los ECFs asociados con los pro
 
 El método no se comprueba para ver si un proyecto utiliza un ECF específico.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Portal del proyecto de desarrollo](http://dev.office.com/project.aspx)
 - [Información general: Los campos personalizados de empresa y tablas de búsqueda](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)

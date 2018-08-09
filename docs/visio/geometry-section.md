@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822216"
 ---
-# <a name="geometry-section"></a>Sección de geometría
+# <a name="geometry-section"></a>Sección Geometría
 
 Contiene filas que enumeran las coordenadas de los vértices de las líneas y arcos que constituyen la forma. 
   
 La geometría de una forma se puede expresar en varias secciones de **geometría** . Varias rutas de acceso pueden ser útiles cuando varias rutas de acceso tienen propiedades diferentes (por ejemplo, las rutas de acceso de [recorte de imágenes](clippingpath-cell-foreign-image-info-section.md) ). 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La sección de **geometría** contiene los siguientes tipos de fila. Para obtener información detallada, vea los temas de la fila. 
   
@@ -44,6 +44,6 @@ La sección de **geometría** contiene los siguientes tipos de fila. Para obtene
 |[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Mover a una coordenada en relación con el ancho y el alto de la forma.  <br/> |
 |[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cuadrática en relación con el ancho y el alto de la forma.  <br/> |
    
-Para cambiar un tipo de fila en esta sección, haga clic en la fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para cambiar un tipo de fila en esta sección, haga clic con el botón secundario del mouse (ratón) en la fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
   
 

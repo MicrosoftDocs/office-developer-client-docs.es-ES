@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b8521172b441bd26a6562aa28f836d453544928f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820681"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una estructura de [SPropProblemArray](spropproblemarray.md) con nombre que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) . 
   
@@ -34,7 +34,7 @@ Crea una estructura de [SPropProblemArray](spropproblemarray.md) con nombre que 
 SizedSPropProblemArray(_cprob, _name)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 __cprob_
   
@@ -44,7 +44,7 @@ __nombre_
   
 > Nombre de la nueva estructura.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Use la macro **SizedSPropProblemArray** para crear una matriz de propiedad problema con límites explícitos. Para usar la nueva estructura que el resultado de la macro **SizedSPropProblemArray** como un puntero a una estructura **SPropProblemArray** , realice la conversión de tipos siguiente: 
   
@@ -52,9 +52,9 @@ Use la macro **SizedSPropProblemArray** para crear una matriz de propiedad probl
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SPropProblemArray](spropproblemarray.md)
 - [SPropProblem](spropproblem.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

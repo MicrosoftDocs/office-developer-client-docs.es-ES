@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822669"
 ---
-# <a name="noctlhandles-cell-miscellaneous-section"></a>Celda NoCtlHandles (sección de varios)
+# <a name="noctlhandles-cell-miscellaneous-section"></a>Celda NoCtlHandles (sección Varios)
 
 Habilita y deshabilita la presentación de los controladores para la forma seleccionada.
   
@@ -27,7 +27,7 @@ Habilita y deshabilita la presentación de los controladores para la forma selec
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NoCtlHandles por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoCtlHandles por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

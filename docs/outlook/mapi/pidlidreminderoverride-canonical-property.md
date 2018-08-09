@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidReminderOverride
+title: Propiedad canónica PidLidReminderOverride
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 59b1efdbb9757dbf75479eebfac8e7f67be5f587
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818870"
 ---
-# <a name="pidlidreminderoverride-canonical-property"></a>Propiedad canónico PidLidReminderOverride
+# <a name="pidlidreminderoverride-canonical-property"></a>Propiedad canónica PidLidReminderOverride
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica si el cliente debe respetar los valores de las propiedades de **dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) y **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)).
   
@@ -33,9 +33,9 @@ Especifica si el cliente debe respetar los valores de las propiedades de **dispi
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x0000851C  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Aviso  <br/> |
+|Área:  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un cliente puede utilizar los valores predeterminados en lugar de los valores de las propiedades **dispidReminderPlaySound** y **dispidReminderFileParam** . 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

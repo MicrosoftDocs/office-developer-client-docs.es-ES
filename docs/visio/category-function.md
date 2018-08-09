@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821696"
 ---
-# <a name="category-function"></a>CATEGORY (función)
+# <a name="category-function"></a>Función CATEGORY
 
 Devuelve el texto del campo **categoría** de propiedades de un documento. 
   

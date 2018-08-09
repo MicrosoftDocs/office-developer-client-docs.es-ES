@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 70d23bebfda10339ffb05f573c8c309a44f09d7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820968"
 ---
 # <a name="uptbl"></a>UPTBL
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para cargar el contenido de una carpeta durante la [carga de estado de la tabla](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPTBL
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -89,10 +89,10 @@ _Conserva_
   
 > [out] Este miembro está reservado para el uso interno de Outlook y no se admite.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md)
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [UPTBLE](uptble.md)
 

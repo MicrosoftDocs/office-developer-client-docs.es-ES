@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822315"
 ---
-# <a name="id-function"></a>ID (función)
+# <a name="id-function"></a>Función ID
 
 Devuelve el identificador interno de una forma como un número.
   

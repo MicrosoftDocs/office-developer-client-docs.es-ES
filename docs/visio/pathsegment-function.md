@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822740"
 ---
-# <a name="pathsegment-function"></a>PATHSEGMENT (función)
+# <a name="pathsegment-function"></a>Función PATHSEGMENT
 
 Devuelve el número de segmento basado en 1 en la marca de porcentaje especificado a lo largo de la ruta de acceso especificada.
   
@@ -22,7 +22,7 @@ Devuelve el número de segmento basado en 1 en la marca de porcentaje especifica
 
 PATHSEGMENT (** *sección* **, ** *viajes* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822294"
 ---
-# <a name="hyperlink-function"></a>HYPERLINK (función)
+# <a name="hyperlink-function"></a>Función HYPERLINK
 
 Se desplaza a la dirección especificada, que puede ser un archivo, UNC o dirección URL de ruta de acceso.
   
@@ -24,12 +24,12 @@ Se desplaza a la dirección especificada, que puede ser un archivo, UNC o direcc
 
 HYPERLINK ("** *dirección* **" ["," ** *subaddress* ** "," ** *extrainfo* ** ", ** *ventana* **," ** *marco* ** "]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _dirección_ <br/> |Obligatorio  <br/> |**String** <br/> |Ruta de acceso completa o relativa.  <br/> |
-| _subdirección_ <br/> |Opcional  <br/> |**String** <br/> |Especifica una ubicación dentro de la dirección que se vincularán. Por ejemplo, si la dirección es un archivo de Microsoft Visio, subdirección puede ser un nombre de página. Si un archivo de Microsoft Excel, subdirección puede ser una hoja de cálculo o un intervalo dentro de una hoja de cálculo; Si una dirección URL de una página HTML, subdirección puede ser un delimitador.  <br/> |
+| _subdirección_ <br/> |Opcional  <br/> |**String** <br/> |Especifica la ubicación, dentro de la dirección especificada, con la que debe establecerse el vínculo. Por ejemplo, si dirección es un archivo de Microsoft Visio, subdirección puede ser un nombre de página. Si se trata de un archivo de Microsoft Excel, subdirección puede ser una hoja de cálculo o un rango de celdas en ella. Si se trata de la dirección URL de una página HTML, la subdirección puede ser un delimitador.  <br/> |
 | _ExtraInfo_ <br/> |Opcional  <br/> |**String** <br/> |Pasa información que se usa en una dirección URL, como las coordenadas de un mapa de imagen.  <br/> |
 | _ventana_ <br/> |Opcional  <br/> |**Boolean** <br/> |Especifica si el hipervínculo se debe abrir o no en una ventana nueva. El valor predeterminado es FALSE.  <br/> |
 | _marco_ <br/> |Opcional  <br/> |**String** <br/> | Especifica el nombre de un marco de destino cuando Visio se abre como un documento Active en un explorador ActiveX, por ejemplo, en Microsoft Internet Explorer 3.0 o posterior. El valor predeterminado es una cadena vacía.  <br/> |
@@ -38,7 +38,7 @@ HYPERLINK ("** *dirección* **" ["," ** *subaddress* ** "," ** *extrainfo* ** ",
 
 Si el documento no tiene ruta de acceso base, Visio se desplaza siguiendo la ruta de acceso del documento. Si no se ha guardado el documento, el hipervínculo no está definido. 
   
-Rutas de acceso relativas se basan en el campo **base de hipervínculo** especificado en el cuadro de diálogo **Propiedades de Visio** . 
+Las rutas de acceso relativas basadas en el campo **Base de hipervínculo** especificado en el cuadro de diálogo **Propiedades de Visio**. 
   
 Se puede usar la función GOTOPAGE para desplazarse a las páginas de un documento. 
   

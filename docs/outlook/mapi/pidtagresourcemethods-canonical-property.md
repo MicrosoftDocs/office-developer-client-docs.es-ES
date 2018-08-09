@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagResourceMethods
+title: Propiedad canónica PidTagResourceMethods
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f346baf303db9da765eec183d168b370547ec2de
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820096"
 ---
-# <a name="pidtagresourcemethods-canonical-property"></a>Propiedad canónico PidTagResourceMethods
+# <a name="pidtagresourcemethods-canonical-property"></a>Propiedad canónica PidTagResourceMethods
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una máscara de bits de marcadores que indican los métodos en la interfaz de **IMAPIStatus** que son compatibles con el objeto de estado. 
   
@@ -34,7 +34,7 @@ Contiene una máscara de bits de marcadores que indican los métodos en la inter
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Estado MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad indica cuál de los métodos de implementación de un objeto de estado de **IMAPIStatus** son compatibles. Se permiten los objetos de estado para devolver MAPI_E_NO_SUPPORT de métodos no admitidos. 
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -86,7 +86,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6ebc4e9cbc79a71a91f1f2f3eec0d40de979ab18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820586"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción de propiedad compare, que comprueba las propiedades de dos con un operador relacional. 
   
@@ -39,7 +39,7 @@ typedef struct _SComparePropsRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **RelOp**
   
@@ -67,7 +67,7 @@ typedef struct _SComparePropsRestriction
   
 > Etiqueta de propiedad de la segunda propiedad que se va a comparar.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El orden de comparación es _(etiqueta de la propiedad (1) (operador relacional) (etiqueta de la propiedad 2)_. Las propiedades que se va a comparar con deben ser del mismo tipo. Si se intenta comparar las propiedades de distintos tipos hace que MAPI o el proveedor de servicios devolver el valor de error MAPI_E_TOO_COMPLEX desde el método [IMAPITable](imapitableiunknown.md) a la que la estructura se pasa como un parámetro. 
   
@@ -77,7 +77,7 @@ Las propiedades especificadas en los miembros **ulPropTag1** y **ulPropTag2** pu
   
 Para obtener más información sobre la estructura de **SComparePropsRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SBitMaskRestriction](sbitmaskrestriction.md)
 - [SRestriction](srestriction.md)

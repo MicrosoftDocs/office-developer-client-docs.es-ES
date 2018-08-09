@@ -1,5 +1,5 @@
 ---
-title: Celda EmbellishmentIndex (sección de propiedades de tema)
+title: Celda EmbellishmentIndex (sección Propiedades de tema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19822053"
 ---
-# <a name="embellishmentindex-cell-theme-properties-section"></a>Celda EmbellishmentIndex (sección de propiedades de tema)
+# <a name="embellishmentindex-cell-theme-properties-section"></a>Celda EmbellishmentIndex (sección Propiedades de tema)
 
 Cambia la apariencia (adorno) de llamadas, contenedores, escalas de tiempo y formas de un organigrama.
   

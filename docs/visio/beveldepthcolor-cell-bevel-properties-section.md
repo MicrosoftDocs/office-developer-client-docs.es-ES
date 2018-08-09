@@ -1,5 +1,5 @@
 ---
-title: Celda BevelDepthColor (sección de propiedades de bisel)
+title: Celda BevelDepthColor (sección Propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821567"
 ---
-# <a name="beveldepthcolor-cell-bevel-properties-section"></a>Celda BevelDepthColor (sección de propiedades de bisel)
+# <a name="beveldepthcolor-cell-bevel-properties-section"></a>Celda BevelDepthColor (sección Propiedades de bisel)
 
 Determina el color de la profundidad del bisel, como un valor RGB o según lo determinado por el tema activo.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **BevelDepthColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

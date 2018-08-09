@@ -1,5 +1,5 @@
 ---
-title: Abra la ShapeSheet de una forma, una página o un documento
+title: Abrir el ShapeSheet en una forma, una página o un documento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822688"
 ---
-# <a name="open-the-shapesheet-for-a-shape-page-or-document"></a>Abra la ShapeSheet de una forma, una página o un documento
+# <a name="open-the-shapesheet-for-a-shape-page-or-document"></a>Abrir el ShapeSheet en una forma, una página o un documento
 
 La ventana ShapeSheet está oculto de forma predeterminada en Microsoft Visio. Para obtener acceso a la ShapeSheet, debe ejecutar Visio en modo para programadores (mostrar la ficha Programador).
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818039"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los implementadores de servidor del formulario deben esperar la siguiente secuencia de llamadas a métodos a su servidor de formulario y objetos de formulario cuando una aplicación cliente abre un nuevo mensaje para redactar:
   
@@ -35,9 +35,9 @@ Los implementadores de servidor del formulario deben esperar la siguiente secuen
     
 6. La aplicación cliente llama al método de [IMAPIForm::DoVerb](imapiform-doverb.md) para invocar el verbo abrir. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Formulario interacciones con el servidor](form-server-interactions.md)
+[Interacciones del servidor de formulario](form-server-interactions.md)
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822514"
 ---
-# <a name="lockheight-cell-protection-section"></a>Celda LockHeight (Sección de protección)
+# <a name="lockheight-cell-protection-section"></a>Celda LockHeight (sección Protección)
 
 Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
   
@@ -27,13 +27,13 @@ Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockHeight  <br/> |
    
-Para obtener una referencia a la celda LockHeight por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockHeight por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

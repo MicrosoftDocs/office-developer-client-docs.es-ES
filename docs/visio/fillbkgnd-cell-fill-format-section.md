@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822125"
 ---
-# <a name="fillbkgnd-cell-fill-format-section"></a>Celda FillBkgnd (Sección de formato de relleno)
+# <a name="fillbkgnd-cell-fill-format-section"></a>Celda FillBkgnd (sección Formato de relleno)
 
 Determina el color utilizado para el fondo (relleno) de la trama de relleno de la forma.
   
@@ -24,17 +24,17 @@ Determina el color utilizado para el fondo (relleno) de la trama de relleno de l
 
 Para establecer el color, escriba un número entre el 0 y el 23.
   
-Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB (*r, g, b*), en lugar de un número, se mostrarán en la ventana ShapeSheet. Cuando se usa en operaciones numéricas, los colores personalizados tienen valores de 24 y superior. 
+Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB. En la ventana ShapeSheet se mostrará RGB(*r, g, b*) en lugar de un número. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen un valor igual o mayor que 24. 
   
 Puede establecer la transparencia del relleno de fondo en la celda FillBkgndTrans. 
   
-Para obtener una referencia a la celda FillBkgnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda FillBkgnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FillBkgnd  <br/> |
    
-Para obtener una referencia a la celda FillBkgnd por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda FillBkgnd por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

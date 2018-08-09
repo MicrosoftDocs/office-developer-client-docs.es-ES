@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822687"
 ---
-# <a name="nosnap-cell-geometry-section"></a>Celda NoSnap (Sección de Geometría)
+# <a name="nosnap-cell-geometry-section"></a>Celda NoSnap (sección Geometría)
 
 Determina si otras formas se ajustan a un trazado.
   
@@ -27,13 +27,13 @@ Determina si otras formas se ajustan a un trazado.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NoSnap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoSnap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría *i* . NoSnap donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda NoSnap por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NoSnap por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

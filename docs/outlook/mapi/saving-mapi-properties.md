@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6135dfae915a1e70743f9224352390c4b56ea02e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820549"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Muchos objetos admiten un modelo de transacción de procesamiento según el cual los cambios realizados en las propiedades no se realizan permanentes hasta que se confirman en un momento posterior. Mientras que los cambios realizados en las propiedades se controlan mediante los métodos [IMAPIProp::SetProps](imapiprop-setprops.md) y [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) , el paso de confirmación se controla mediante [IMAPIProp::SaveChanges](imapiprop-savechanges.md). No es hasta después de una llamada satisfactoria a **SaveChanges** que se puede tener acceso a la versión más reciente de propiedades de un objeto. 
   
@@ -33,9 +33,9 @@ Tras recibir MAPI_E_OBJECT_CHANGED de **SaveChanges**, un cliente tiene la opci�
     
 Llamada a **SaveChanges** con la marca FORCE_SAVE sobrescribe la anterior guardar y hace que los cambios de un cliente permanente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
+[Información general sobre MAPI (propiedad)](mapi-property-overview.md)
 

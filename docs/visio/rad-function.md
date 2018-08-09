@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822915"
 ---
-# <a name="rad-function"></a>RAD (función)
+# <a name="rad-function"></a>Función RAD
 
 Convierte el valor de un ángulo de grados en radianes.
   
@@ -24,7 +24,7 @@ Convierte el valor de un ángulo de grados en radianes.
 
 RAD (** *ángulo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

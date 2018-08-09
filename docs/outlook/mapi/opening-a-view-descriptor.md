@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 525c817cfc3bdcf96455d35025e85486ec8b5b42
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818436"
 ---
 # <a name="opening-a-view-descriptor"></a>Abrir un descriptor de vista
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Muchas carpetas se pueden abrir con una vista normal, una vista predeterminada o cualquier número de vistas personalizadas. Una vista describe cómo mostrar el contenido de una carpeta. Cuando no hay ninguna vista alternativa y cuando se está abriendo la carpeta por primera vez, se usa la vista normal. Cuando existe una vista alternativa, debe usar para abrir la carpeta.
   

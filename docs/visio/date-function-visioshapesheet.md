@@ -1,5 +1,5 @@
 ---
-title: Función DATE (VisioShapeSheet)
+title: DATE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821943"
 ---
-# <a name="date-function-visioshapesheet"></a>Función DATE (VisioShapeSheet)
+# <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
 
 Devuelve la fecha representada por *año, mes* y *día* con el formato corresponde al estilo corto de fecha en la configuración Regional del sistema. Los valores de *año*, *mes* y *día* reflejan el calendario gregoriano. 
   
@@ -24,7 +24,7 @@ Devuelve la fecha representada por *año, mes* y *día* con el formato correspon
 
 FECHA (** *año* **, ** *mes* **, ** *día* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

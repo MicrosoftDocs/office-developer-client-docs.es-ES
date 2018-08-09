@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b4e7fed2-88e4-4e14-90b6-913a1b7e338a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cb6138072cd5dedc528168d4056041661c40fd06
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19817052"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se asegura de que se abre el método **OpenEntry** por el proveedor de la libreta de direcciones de Exchange esperado. Esta función funciona de manera similar a [IAddrBook::Details](iaddrbook-details.md), pero abre el **entryID** de la libreta de direcciones de Exchange identificado mediante el parámetro _pEmsmdbUID_ . 
   
@@ -47,7 +47,7 @@ HRESULT HrOpenABEntryWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pmsess_
   

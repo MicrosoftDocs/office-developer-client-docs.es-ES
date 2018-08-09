@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e748427b39418a80cae88e98b4aa7eef6df24393
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817874"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Comprueba el formulario para que los cambios realizados desde la última vez que guardó.
   
@@ -33,7 +33,7 @@ HRESULT IsDirty( void );
 
 ## <a name="parameters"></a>Parámetros
 
-None
+Ninguno
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,13 +45,13 @@ S_FALSE
   
 > El formulario no tiene los cambios realizados desde la última vez que se guardó.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IPersistMessage::IsDirty** para determinar si el mensaje se han guardado los datos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

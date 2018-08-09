@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822539"
 ---
-# <a name="lockwidth-cell-protection-section"></a>Celda LockWidth (Sección de protección)
+# <a name="lockwidth-cell-protection-section"></a>Celda LockWidth (sección Protección)
 
 Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
   
@@ -27,13 +27,14 @@ Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockWidth  <br/> |
    
-Para obtener una referencia a la celda LockWidth por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockWidth por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

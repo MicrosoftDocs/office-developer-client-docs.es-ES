@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822472"
 ---
-# <a name="linetonodex-cell-page-layout-section"></a>Celda LineToNodeX (Sección de diseño de página)
+# <a name="linetonodex-cell-page-layout-section"></a>Celda LineToNodeX (sección Diseño de página)
 
 Determina el gálibo horizontal entre todos los conectores y formas de la página de dibujo.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el valor de esta celda en el cuadro de diálogo **Diseño de espaciado y el enrutamiento** . (En la ficha **Diseño** , haga clic en la flecha de **Configurar página** , haga clic en **Diseño y enrutamiento**y, a continuación, haga clic en **Espaciado**).
+También puede establecer el valor de esta celda en el cuadro de diálogo **Espaciado del diseño y el enrutamiento**. (En la ficha **Diseño**, haga clic en la flecha de **Configurar página**, haga clic en **Diseño y enrutamiento** y, a continuación, en **Espaciado**).
   
-Para obtener una referencia a la celda LineToNodeY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineToNodeY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineToNodeX  <br/> |
    
-Para obtener una referencia a la celda LineToNodeX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineToNodeX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

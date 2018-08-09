@@ -23,7 +23,7 @@ Obtiene una cadena que representa una colección de las actividades de cada uno 
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _hashedAddresses_
   
@@ -37,7 +37,7 @@ _actividades_
   
 > [out] Una cadena XML que representa el conjunto de actividades de los usuarios especificados por _hashedAddresses_ en la red social con respecto a la _hora de inicio_.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El OSC llama a **GetActivitiesEx** si el proveedor de OSC admite la sincronización de petición de actividades. El OSC almacena la información devuelta en _las actividades_ en la memoria. Para obtener más información acerca de cómo el OSC usa y actualiza esta información en la memoria, consulte [sincronización de amigos y actividades](synchronizing-friends-and-activities.md).
   
@@ -51,8 +51,8 @@ El parámetro _startTime_ es un valor de **fecha** en hora Universal coordinada 
   
 Las actividades que devuelve el método **GetActivitiesEx** deben tener un valor de hora de creación que sea mayor que _startTime_ y menor o igual que **ahora**. Si no ha habido cambios entre **startTime** y **ahora**, el proveedor debe devolver un error OSC_E_NO_CHANGES.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)
 

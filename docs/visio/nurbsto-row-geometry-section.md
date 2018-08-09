@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822685"
 ---
-# <a name="nurbsto-row-geometry-section"></a>Fila NURBSTo (Sección de Geometría)
+# <a name="nurbsto-row-geometry-section"></a>Fila NURBSTo (sección Geometría)
 
 Contiene el *x* - e *y* -coordenadas, la posición del segundo al último nodo, la posición del último grosor, la posición del primer nodo, la posición del primer grosor y la fórmula para una B-spline racional no uniforme (NURBS). 
   
@@ -34,6 +34,6 @@ Las filas NURBSTo contienen las celdas siguientes.
    
 ## <a name="remarks"></a>Comentarios
 
-NURBS es una forma habitual de representar curvas matemáticamente. Puede crear una NURBS con la herramienta de **forma libre** . 
+NURBS es una forma habitual de representar curvas matemáticamente. Puede crear una NURBS con la herramienta **Forma libre**. 
   
 

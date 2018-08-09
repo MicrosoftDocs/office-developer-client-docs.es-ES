@@ -93,7 +93,7 @@ Dependiendo de las **capacidades de** XML devuelto por el proveedor en el métod
 
 ![Información de configuración de ejemplo de TestProvider](media/odc_ol14_ta_OSCFigure4.jpg)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [XML de capacidades](xml-for-capabilities.md)
 

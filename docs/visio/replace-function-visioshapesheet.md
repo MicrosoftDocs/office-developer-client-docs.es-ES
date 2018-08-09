@@ -1,5 +1,5 @@
 ---
-title: Reemplace la función (VisioShapeSheet)
+title: REPLACE (función) (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822946"
 ---
-# <a name="replace-function-visioshapesheet"></a>Reemplace la función (VisioShapeSheet)
+# <a name="replace-function-visioshapesheet"></a>REPLACE (función) (VisioShapeSheet)
 
 Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el número de caracteres especificado.
   
@@ -24,7 +24,7 @@ Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el númer
 
 Reemplazar (** *texto_anterior* **, ** *número_inicio* **, ** *número_caracteres* **, ** *texto_nuevo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +35,7 @@ Reemplazar (** *texto_anterior* **, ** *número_inicio* **, ** *número_caracter
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

@@ -56,54 +56,54 @@ En esta sección se describe los elementos requeridos y opcionales admitidos par
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**id** <br/> |Identificador único del usuario. Necesario.  <br/> |
-|**nameHint** <br/> |El nombre que se mostrará en el elemento de la fuente. Es opcional.  <br/> |
-|**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como el hipervínculo para el nombre de la persona en el elemento de la fuente, si está presente el nombre de persona. Es opcional.  <br/> |
-|**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Es opcional.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**id** <br/> |Identificador único del usuario. Obligatorio.  <br/> |
+|**nameHint** <br/> |El nombre que se mostrará en el elemento de la fuente. Opcional.  <br/> |
+|**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como el hipervínculo para el nombre de la persona en el elemento de la fuente, si está presente el nombre de persona. Opcional.  <br/> |
+|**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
    
 ### <a name="linkvariable"></a>linkVariable
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**value** <br/> |La dirección URL para este vínculo. Necesario.  <br/> |
-|**text** <br/> |El texto del vínculo para mostrar en lugar de la propia dirección URL. Es opcional.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**value** <br/> |La dirección URL para este vínculo. Obligatorio.  <br/> |
+|**text** <br/> |El texto del vínculo para mostrar en lugar de la propia dirección URL. Opcional.  <br/> |
    
 ### <a name="listvariable"></a>listVariable
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**listItems** <br/> |Un contenedor para los elementos de la lista. Necesario.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**listItems** <br/> |Un contenedor para los elementos de la lista. Obligatorio.  <br/> |
    
 ### <a name="picturevariable"></a>pictureVariable
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**value** <br/> |La dirección URL de la imagen. Necesario.  <br/> |
-|**altText** <br/> |El texto alternativo para mostrar para la accesibilidad y cuando el usuario mueve el puntero del mouse sobre la imagen. Es opcional.  <br/> |
-|**href** <br/> |El hipervínculo que se utilizará cuando el usuario hace clic en la imagen, si el destino deseado no es la dirección URL de imagen especificada por el elemento de **valor** . Es opcional.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**value** <br/> |La dirección URL de la imagen. Obligatorio.  <br/> |
+|**altText** <br/> |El texto alternativo para mostrar para la accesibilidad y cuando el usuario mueve el puntero del mouse sobre la imagen. Opcional.  <br/> |
+|**href** <br/> |El hipervínculo que se utilizará cuando el usuario hace clic en la imagen, si el destino deseado no es la dirección URL de imagen especificada por el elemento de **valor** . Opcional.  <br/> |
    
 ### <a name="publishervariable"></a>publisherVariable
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**id** <br/> |Identificador único del usuario. Necesario.  <br/> |
-|**nameHint** <br/> |El nombre que se mostrará en el elemento de la fuente. Es opcional.  <br/> |
-|**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como el hipervínculo para el nombre de la persona en el elemento de la fuente, si está presente el nombre de persona. Es opcional.  <br/> |
-|**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Es opcional.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**id** <br/> |Identificador único del usuario. Obligatorio.  <br/> |
+|**nameHint** <br/> |El nombre que se mostrará en el elemento de la fuente. Opcional.  <br/> |
+|**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como el hipervínculo para el nombre de la persona en el elemento de la fuente, si está presente el nombre de persona. Opcional.  <br/> |
+|**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
    
 ### <a name="textvariable"></a>textVariable
 
 |**Element**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**value** <br/> |El texto para mostrar. Es opcional.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**value** <br/> |El texto para mostrar. Opcional.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Elemento de la fuente de información general de XML de una actividad](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityDetails](activitydetails-element.md)  
