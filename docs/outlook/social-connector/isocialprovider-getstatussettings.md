@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821112"
 ---
-# <a name="isocialprovidergetstatussettings"></a><span data-ttu-id="4f23c-103">ISocialProvider::GetStatusSettings</span><span class="sxs-lookup"><span data-stu-id="4f23c-103">ISocialProvider::GetStatusSettings</span></span>
+# <a name="isocialprovidergetstatussettings"></a><span data-ttu-id="b3f48-103">ISocialProvider::GetStatusSettings</span><span class="sxs-lookup"><span data-stu-id="b3f48-103">ISocialProvider::GetStatusSettings</span></span>
 
-<span data-ttu-id="4f23c-104">Este método no se admite actualmente.</span><span class="sxs-lookup"><span data-stu-id="4f23c-104">This method is currently not supported.</span></span> 
+<span data-ttu-id="b3f48-104">Este método no se admite actualmente.</span><span class="sxs-lookup"><span data-stu-id="b3f48-104">This method is currently not supported.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetStatusSettings([out] BSTR* statusDefault, [out] int* maxStatusLength);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4f23c-105">Ver también</span><span class="sxs-lookup"><span data-stu-id="4f23c-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3f48-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="b3f48-105">See also</span></span>
 
-- [<span data-ttu-id="4f23c-106">ISocialProvider: IUnknown</span><span class="sxs-lookup"><span data-stu-id="4f23c-106">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="b3f48-106">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b3f48-106">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

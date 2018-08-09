@@ -16,28 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821702"
 ---
-# <a name="bulletstring-cell-paragraph-section"></a><span data-ttu-id="e81af-103">Celda BulletString (Sección de párrafo)</span><span class="sxs-lookup"><span data-stu-id="e81af-103">BulletString Cell (Paragraph Section)</span></span>
+# <a name="bulletstring-cell-paragraph-section"></a><span data-ttu-id="dc8a0-103">Celda BulletString (sección Párrafo)</span><span class="sxs-lookup"><span data-stu-id="dc8a0-103">BulletString Cell (Paragraph Section)</span></span>
 
-<span data-ttu-id="e81af-104">Permite crear un estilo de viñeta personalizado.</span><span class="sxs-lookup"><span data-stu-id="e81af-104">Allows you to create a custom bullet style.</span></span> 
+<span data-ttu-id="dc8a0-104">Permite crear un estilo de viñeta personalizado.</span><span class="sxs-lookup"><span data-stu-id="dc8a0-104">Allows you to create a custom bullet style.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e81af-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e81af-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc8a0-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="dc8a0-105">Remarks</span></span>
 
-<span data-ttu-id="e81af-p101">Especifique el estilo como una cadena (entre comillas). Por ejemplo, podría escribir la cadena "ooo".</span><span class="sxs-lookup"><span data-stu-id="e81af-p101">Enter the style as a string (within quotation marks). For example, you could enter the string, "ooo."</span></span>
+<span data-ttu-id="dc8a0-p101">Especifique el estilo como una cadena (entre comillas). Por ejemplo, podría escribir la cadena "ooo".</span><span class="sxs-lookup"><span data-stu-id="dc8a0-p101">Enter the style as a string (within quotation marks). For example, you could enter the string, "ooo."</span></span>
   
-<span data-ttu-id="e81af-108">Puede también establecer el valor de esta celda, bien de una forma, que señala al **formato**, haga clic en **texto**y, a continuación, haga clic en la ficha **viñetas** .</span><span class="sxs-lookup"><span data-stu-id="e81af-108">You can also set the value of this cell by right-clicking a shape, pointing to **Format**, clicking **Text**, and then clicking the **Bullets** tab.</span></span> 
+<span data-ttu-id="dc8a0-108">Asimismo, para establecer el valor de esta celda, haga clic con el botón secundario en una forma, elija **Formato**, haga clic en **Texto** y, a continuación, haga clic en la pestaña **Viñetas**.</span><span class="sxs-lookup"><span data-stu-id="dc8a0-108">You can also set the value of this cell by right-clicking a shape, pointing to **Format**, clicking **Text**, and then clicking the **Bullets** tab.</span></span> 
   
-<span data-ttu-id="e81af-109">Para obtener una referencia a la celda BulletString por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="e81af-109">To get a reference to the BulletString cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="dc8a0-109">Para obtener una referencia a la celda BulletString por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-109">To get a reference to the BulletString cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e81af-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="e81af-110">Cell name:</span></span>  <br/> |<span data-ttu-id="e81af-111">Para.BulletStr [ *i* ] donde *i* = < 1 >, 2, 3,...</span><span class="sxs-lookup"><span data-stu-id="e81af-111">Para.BulletStr[ *i*  ]           where  *i*  = <1>, 2, 3, ...</span></span>  <br/> |
+|<span data-ttu-id="dc8a0-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-110">Cell name:</span></span>  <br/> |<span data-ttu-id="dc8a0-111">Para.BulletStr [ *i* ] donde *i* = < 1 >, 2, 3,...</span><span class="sxs-lookup"><span data-stu-id="dc8a0-111">Para.BulletStr[ *i*  ]           where  *i*  = <1>, 2, 3, ...</span></span>  <br/> |
    
-<span data-ttu-id="e81af-112">Para obtener una referencia a la celda BulletString por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="e81af-112">To get a reference to the BulletString cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="dc8a0-112">Para obtener una referencia desde un programa a la celda BulletString por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-112">To get a reference to the BulletString cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e81af-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="e81af-113">Section index:</span></span>  <br/> |<span data-ttu-id="e81af-114">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="e81af-114">**visSectionParagraph**</span></span> <br/> |
-|<span data-ttu-id="e81af-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="e81af-115">Row index:</span></span>  <br/> |<span data-ttu-id="e81af-116">**visRowParagraph** +  *i* donde *i* = 0, 1, 2,...</span><span class="sxs-lookup"><span data-stu-id="e81af-116">**visRowParagraph** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
-|<span data-ttu-id="e81af-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="e81af-117">Cell index:</span></span>  <br/> |<span data-ttu-id="e81af-118">**visBulletString**</span><span class="sxs-lookup"><span data-stu-id="e81af-118">**visBulletString**</span></span> <br/> |
+|<span data-ttu-id="dc8a0-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-113">Section index:</span></span>  <br/> |<span data-ttu-id="dc8a0-114">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="dc8a0-114">**visSectionParagraph**</span></span> <br/> |
+|<span data-ttu-id="dc8a0-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-115">Row index:</span></span>  <br/> |<span data-ttu-id="dc8a0-116">**visRowParagraph** +  *i* donde *i* = 0, 1, 2,...</span><span class="sxs-lookup"><span data-stu-id="dc8a0-116">**visRowParagraph** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
+|<span data-ttu-id="dc8a0-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="dc8a0-117">Cell index:</span></span>  <br/> |<span data-ttu-id="dc8a0-118">**visBulletString**</span><span class="sxs-lookup"><span data-stu-id="dc8a0-118">**visBulletString**</span></span> <br/> |
    
 

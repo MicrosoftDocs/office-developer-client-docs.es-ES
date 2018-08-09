@@ -16,22 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822901"
 ---
-# <a name="ref-function"></a><span data-ttu-id="5ef0d-103">REF (función)</span><span class="sxs-lookup"><span data-stu-id="5ef0d-103">REF Function</span></span>
+# <a name="ref-function"></a><span data-ttu-id="18eaf-103">Función REF</span><span class="sxs-lookup"><span data-stu-id="18eaf-103">REF Function</span></span>
 
-<span data-ttu-id="5ef0d-104">La función REF devuelve el valor de error #REF!.</span><span class="sxs-lookup"><span data-stu-id="5ef0d-104">The REF function returns the error value #REF!.</span></span>
+<span data-ttu-id="18eaf-104">La función REF devuelve el valor de error #REF!.</span><span class="sxs-lookup"><span data-stu-id="18eaf-104">The REF function returns the error value #REF!.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="5ef0d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5ef0d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="18eaf-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="18eaf-105">Syntax</span></span>
 
-<span data-ttu-id="5ef0d-106">REF( )</span><span class="sxs-lookup"><span data-stu-id="5ef0d-106">REF( )</span></span>
+<span data-ttu-id="18eaf-106">REF( )</span><span class="sxs-lookup"><span data-stu-id="18eaf-106">REF( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="5ef0d-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="5ef0d-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="18eaf-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="18eaf-107">Return value</span></span>
 
-<span data-ttu-id="5ef0d-108">String</span><span class="sxs-lookup"><span data-stu-id="5ef0d-108">String</span></span>
+<span data-ttu-id="18eaf-108">String</span><span class="sxs-lookup"><span data-stu-id="18eaf-108">String</span></span>
   
-## <a name="example"></a><span data-ttu-id="5ef0d-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="5ef0d-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="18eaf-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="18eaf-109">Example</span></span>
 
-<span data-ttu-id="5ef0d-110">REF( )</span><span class="sxs-lookup"><span data-stu-id="5ef0d-110">REF( )</span></span> 
+<span data-ttu-id="18eaf-110">REF( )</span><span class="sxs-lookup"><span data-stu-id="18eaf-110">REF( )</span></span> 
   
-<span data-ttu-id="5ef0d-111">Devuelve #REF!</span><span class="sxs-lookup"><span data-stu-id="5ef0d-111">Returns #REF!.</span></span> 
+<span data-ttu-id="18eaf-111">Devuelve #REF!</span><span class="sxs-lookup"><span data-stu-id="18eaf-111">Returns #REF!.</span></span> 
   
 

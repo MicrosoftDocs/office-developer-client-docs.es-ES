@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823372"
 ---
-# <a name="text-block-format-section"></a><span data-ttu-id="53d92-103">Sección de formato del bloque de texto</span><span class="sxs-lookup"><span data-stu-id="53d92-103">Text Block Format Section</span></span>
+# <a name="text-block-format-section"></a><span data-ttu-id="5ce8e-103">Sección Formato del bloque de texto</span><span class="sxs-lookup"><span data-stu-id="5ce8e-103">Text Block Format Section</span></span>
 
-<span data-ttu-id="53d92-104">Contiene celdas que controlan la alineación, los márgenes y las posiciones predeterminadas de los tabuladores del texto de un bloque de texto en una forma.</span><span class="sxs-lookup"><span data-stu-id="53d92-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
+<span data-ttu-id="5ce8e-104">Contiene celdas que controlan la alineación, los márgenes y las posiciones predeterminadas de los tabuladores del texto de un bloque de texto en una forma.</span><span class="sxs-lookup"><span data-stu-id="5ce8e-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="53d92-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="53d92-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ce8e-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="5ce8e-105">Remarks</span></span>
 
-<span data-ttu-id="53d92-106">También puede establecer estos atributos de texto mediante el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en el iniciador del cuadro de diálogo en el grupo **fuente** ).</span><span class="sxs-lookup"><span data-stu-id="53d92-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
+<span data-ttu-id="5ce8e-106">También puede establecer estos atributos de texto mediante el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en el iniciador del cuadro de diálogo en el grupo **fuente** ).</span><span class="sxs-lookup"><span data-stu-id="5ce8e-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
   
 

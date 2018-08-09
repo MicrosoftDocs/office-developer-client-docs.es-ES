@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823341"
 ---
-# <a name="subject-function"></a><span data-ttu-id="eb204-103">SUBJECT (función)</span><span class="sxs-lookup"><span data-stu-id="eb204-103">SUBJECT Function</span></span>
+# <a name="subject-function"></a><span data-ttu-id="7f858-103">Función SUBJECT</span><span class="sxs-lookup"><span data-stu-id="7f858-103">SUBJECT Function</span></span>
 
-<span data-ttu-id="eb204-104">Devuelve el texto del campo **asunto** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="eb204-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
+<span data-ttu-id="7f858-104">Devuelve el texto del campo **asunto** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="7f858-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="eb204-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="eb204-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7f858-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7f858-105">Syntax</span></span>
 
-<span data-ttu-id="eb204-106">() DEL ASUNTO</span><span class="sxs-lookup"><span data-stu-id="eb204-106">SUBJECT ()</span></span>
+<span data-ttu-id="7f858-106">() DEL ASUNTO</span><span class="sxs-lookup"><span data-stu-id="7f858-106">SUBJECT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="eb204-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="eb204-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7f858-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7f858-107">Return value</span></span>
 
-<span data-ttu-id="eb204-108">String</span><span class="sxs-lookup"><span data-stu-id="eb204-108">String</span></span>
+<span data-ttu-id="7f858-108">String</span><span class="sxs-lookup"><span data-stu-id="7f858-108">String</span></span>
   
 

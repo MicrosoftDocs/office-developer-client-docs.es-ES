@@ -16,20 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822477"
 ---
-# <a name="listsep-function"></a><span data-ttu-id="ec2f5-103">LISTSEP (función)</span><span class="sxs-lookup"><span data-stu-id="ec2f5-103">LISTSEP Function</span></span>
+# <a name="listsep-function"></a><span data-ttu-id="b825c-103">Función LISTSEP</span><span class="sxs-lookup"><span data-stu-id="b825c-103">LISTSEP Function</span></span>
 
-<span data-ttu-id="ec2f5-104">Devuelve la cadena de separador de lista para la configuración regional del usuario actual.</span><span class="sxs-lookup"><span data-stu-id="ec2f5-104">Returns the list-separator string for the current user locale.</span></span>
+<span data-ttu-id="b825c-104">Devuelve la cadena de separador de lista para la configuración regional del usuario actual.</span><span class="sxs-lookup"><span data-stu-id="b825c-104">Returns the list-separator string for the current user locale.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="ec2f5-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ec2f5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b825c-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b825c-105">Syntax</span></span>
 
-<span data-ttu-id="ec2f5-106">LISTSEP ()</span><span class="sxs-lookup"><span data-stu-id="ec2f5-106">LISTSEP ()</span></span>
+<span data-ttu-id="b825c-106">LISTSEP ()</span><span class="sxs-lookup"><span data-stu-id="b825c-106">LISTSEP ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="ec2f5-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ec2f5-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="b825c-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b825c-107">Return value</span></span>
 
-<span data-ttu-id="ec2f5-108">String</span><span class="sxs-lookup"><span data-stu-id="ec2f5-108">String</span></span>
+<span data-ttu-id="b825c-108">String</span><span class="sxs-lookup"><span data-stu-id="b825c-108">String</span></span>
   
-## <a name="example"></a><span data-ttu-id="ec2f5-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ec2f5-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b825c-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b825c-109">Example</span></span>
 
-<span data-ttu-id="ec2f5-110">SETF(GETREF(User.Extent), "MAX (ancho" &amp; ListSep() &amp; "Alto"))</span><span class="sxs-lookup"><span data-stu-id="ec2f5-110">SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)")</span></span> 
+<span data-ttu-id="b825c-110">SETF(GETREF(User.Extent), "MAX (ancho" &amp; ListSep() &amp; "Alto"))</span><span class="sxs-lookup"><span data-stu-id="b825c-110">SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)")</span></span> 
   
 

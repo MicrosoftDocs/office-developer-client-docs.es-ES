@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821963"
 ---
-# <a name="directory-function"></a><span data-ttu-id="18bd2-104">DIRECTORY (función)</span><span class="sxs-lookup"><span data-stu-id="18bd2-104">DIRECTORY Function</span></span>
+# <a name="directory-function"></a><span data-ttu-id="2842c-104">Función DIRECTORY</span><span class="sxs-lookup"><span data-stu-id="2842c-104">DIRECTORY Function</span></span>
 
-<span data-ttu-id="18bd2-105">Devuelve la ruta de acceso completa del directorio (carpeta) en el que se guarda un documento, como una cadena.</span><span class="sxs-lookup"><span data-stu-id="18bd2-105">Returns the full path of the directory (folder) in which a document is saved, as a string.</span></span> <span data-ttu-id="18bd2-106">Devuelve una cadena vacía si no se ha guardado el documento.</span><span class="sxs-lookup"><span data-stu-id="18bd2-106">Returns an empty string if the document has not been saved.</span></span>
+<span data-ttu-id="2842c-105">Devuelve la ruta de acceso completa del directorio (carpeta) en el que se guarda un documento, como una cadena.</span><span class="sxs-lookup"><span data-stu-id="2842c-105">Returns the full path of the directory (folder) in which a document is saved, as a string.</span></span> <span data-ttu-id="2842c-106">Devuelve una cadena vacía si no se ha guardado el documento.</span><span class="sxs-lookup"><span data-stu-id="2842c-106">Returns an empty string if the document has not been saved.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="18bd2-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="18bd2-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2842c-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2842c-107">Syntax</span></span>
 
-<span data-ttu-id="18bd2-108">DIRECTORY ()</span><span class="sxs-lookup"><span data-stu-id="18bd2-108">DIRECTORY ()</span></span>
+<span data-ttu-id="2842c-108">DIRECTORY ()</span><span class="sxs-lookup"><span data-stu-id="2842c-108">DIRECTORY ()</span></span>
   
 

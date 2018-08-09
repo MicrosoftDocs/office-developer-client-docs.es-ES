@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822123"
 ---
-# <a name="fill-format-section"></a><span data-ttu-id="e98c5-103">Sección de formato de relleno</span><span class="sxs-lookup"><span data-stu-id="e98c5-103">Fill Format Section</span></span>
+# <a name="fill-format-section"></a><span data-ttu-id="e37ad-103">Sección Formato de relleno</span><span class="sxs-lookup"><span data-stu-id="e37ad-103">Fill Format Section</span></span>
 
-<span data-ttu-id="e98c5-104">Muestra los atributos del formato de relleno actual de la forma y la sombra de la forma, incluyendo el patrón, el color de primer plano y el de fondo.</span><span class="sxs-lookup"><span data-stu-id="e98c5-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
+<span data-ttu-id="e37ad-104">Muestra los atributos del formato de relleno actual de la forma y la sombra de la forma, incluyendo el patrón, el color de primer plano y el de fondo.</span><span class="sxs-lookup"><span data-stu-id="e37ad-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e98c5-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e98c5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e37ad-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e37ad-105">Remarks</span></span>
 
-<span data-ttu-id="e98c5-106">Puede establecer los formatos de relleno en el panel de **Formato de forma** (en la ficha **Inicio** , en el grupo **Estilos de forma** , haga clic en **relleno**y, a continuación, haga clic en **Opciones de relleno**), aplicando un estilo de relleno, o mediante la realización de una entrada en una celda en el **Formato de relleno** sección.</span><span class="sxs-lookup"><span data-stu-id="e98c5-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
+<span data-ttu-id="e37ad-106">Puede establecer los formatos de relleno en el panel de **Formato de forma** (en la ficha **Inicio** , en el grupo **Estilos de forma** , haga clic en **relleno**y, a continuación, haga clic en **Opciones de relleno**), aplicando un estilo de relleno, o mediante la realización de una entrada en una celda en el **Formato de relleno** sección.</span><span class="sxs-lookup"><span data-stu-id="e37ad-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
   
 

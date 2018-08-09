@@ -13,16 +13,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821479"
 ---
-# <a name="office-telemetry-log"></a><span data-ttu-id="89cbd-103">Registro de telemetría de Office</span><span class="sxs-lookup"><span data-stu-id="89cbd-103">Office telemetry log</span></span>
+# <a name="office-telemetry-log"></a><span data-ttu-id="584e7-103">Registro de telemetría de Office</span><span class="sxs-lookup"><span data-stu-id="584e7-103">Office telemetry log</span></span>
 
-<span data-ttu-id="89cbd-104">Busque información sobre el registro de telemetría que se incluye con Office 2013.</span><span class="sxs-lookup"><span data-stu-id="89cbd-104">Find information about the Telemetry Log that is included with Office 2013.</span></span>
+<span data-ttu-id="584e7-104">Busque información sobre el registro de telemetría que se incluye con Office 2013.</span><span class="sxs-lookup"><span data-stu-id="584e7-104">Find information about the Telemetry Log that is included with Office 2013.</span></span>
   
-<span data-ttu-id="89cbd-105">Explore estos vínculos para conocer más acerca del uso de Registro de telemetría de Office 2013 e interpretar los resultados que muestra.</span><span class="sxs-lookup"><span data-stu-id="89cbd-105">Explore these links to learn more about using the Telemetry Log for Office 2013 and interpreting the results that it displays.</span></span>
+<span data-ttu-id="584e7-105">Explore estos vínculos para conocer más acerca del uso de Registro de telemetría de Office 2013 e interpretar los resultados que muestra.</span><span class="sxs-lookup"><span data-stu-id="584e7-105">Explore these links to learn more about using the Telemetry Log for Office 2013 and interpreting the results that it displays.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="89cbd-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="89cbd-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="584e7-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="584e7-106">In this section</span></span>
 
-- [<span data-ttu-id="89cbd-107">Solución de problemas de los archivos de Office y soluciones personalizadas con el registro de telemetría</span><span class="sxs-lookup"><span data-stu-id="89cbd-107">Troubleshooting Office files and custom solutions with the telemetry log</span></span>](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
+- [<span data-ttu-id="584e7-107">Solución de problemas de los archivos de Office y soluciones personalizadas con el registro de telemetría</span><span class="sxs-lookup"><span data-stu-id="584e7-107">Troubleshooting Office files and custom solutions with the telemetry log</span></span>](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     
-- [<span data-ttu-id="89cbd-108">Problemas de compatibilidad de Office</span><span class="sxs-lookup"><span data-stu-id="89cbd-108">Compatibility issues in Office</span></span>](compatibility-issues-in-office.md)
+- [<span data-ttu-id="584e7-108">Problemas de compatibilidad en Office</span><span class="sxs-lookup"><span data-stu-id="584e7-108">Compatibility issues in Office</span></span>](compatibility-issues-in-office.md)
     
 

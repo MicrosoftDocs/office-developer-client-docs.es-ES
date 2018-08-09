@@ -16,29 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821627"
 ---
-# <a name="bitand-function"></a><span data-ttu-id="a34d6-104">BITAND (función)</span><span class="sxs-lookup"><span data-stu-id="a34d6-104">BITAND Function</span></span>
+# <a name="bitand-function"></a><span data-ttu-id="b6cc3-104">Función BITAND</span><span class="sxs-lookup"><span data-stu-id="b6cc3-104">BITAND Function</span></span>
 
-<span data-ttu-id="a34d6-105">Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario 1 y númeroBinario2 es 1.</span><span class="sxs-lookup"><span data-stu-id="a34d6-105">Returns a 16-bit binary number in which each bit is set to 1 only if the corresponding bit in both binarynumber1 and binarynumber2 is 1.</span></span> <span data-ttu-id="a34d6-106">De lo contrario, el bit se establece en 0.</span><span class="sxs-lookup"><span data-stu-id="a34d6-106">Otherwise, the bit is set to 0.</span></span> 
+<span data-ttu-id="b6cc3-105">Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario 1 y númeroBinario2 es 1.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-105">Returns a 16-bit binary number in which each bit is set to 1 only if the corresponding bit in both binarynumber1 and binarynumber2 is 1.</span></span> <span data-ttu-id="b6cc3-106">De lo contrario, el bit se establece en 0.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-106">Otherwise, the bit is set to 0.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="a34d6-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a34d6-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b6cc3-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b6cc3-107">Syntax</span></span>
 
-<span data-ttu-id="a34d6-108">BITAND (** *número binario 1* **, ** *númeroBinario2* **)</span><span class="sxs-lookup"><span data-stu-id="a34d6-108">BITAND(** *binarynumber1* **, ** *binarynumber2* ** )</span></span> 
+<span data-ttu-id="b6cc3-108">BITAND (** *número binario 1* **, ** *númeroBinario2* **)</span><span class="sxs-lookup"><span data-stu-id="b6cc3-108">BITAND(** *binarynumber1* **, ** *binarynumber2* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="a34d6-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a34d6-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="b6cc3-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="b6cc3-109">Parameters</span></span>
 
-|<span data-ttu-id="a34d6-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="a34d6-110">**Name**</span></span>|<span data-ttu-id="a34d6-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="a34d6-111">**Required/Optional**</span></span>|<span data-ttu-id="a34d6-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="a34d6-112">**Data Type**</span></span>|<span data-ttu-id="a34d6-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="a34d6-113">**Description**</span></span>|
+|<span data-ttu-id="b6cc3-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-110">**Name**</span></span>|<span data-ttu-id="b6cc3-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-111">**Required/Optional**</span></span>|<span data-ttu-id="b6cc3-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-112">**Data Type**</span></span>|<span data-ttu-id="b6cc3-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="a34d6-114">_número binario 1_</span><span class="sxs-lookup"><span data-stu-id="a34d6-114">_binary number1_</span></span> <br/> |<span data-ttu-id="a34d6-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="a34d6-115">Required</span></span>  <br/> |<span data-ttu-id="a34d6-116">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="a34d6-116">**Numeric**</span></span> <br/> |<span data-ttu-id="a34d6-117">El primer número binario de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="a34d6-117">The first 16-bit binary number.</span></span>  <br/> |
-| <span data-ttu-id="a34d6-118">_número binario 2_</span><span class="sxs-lookup"><span data-stu-id="a34d6-118">_binary number2_</span></span> <br/> |<span data-ttu-id="a34d6-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="a34d6-119">Required</span></span>  <br/> |<span data-ttu-id="a34d6-120">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="a34d6-120">**Numeric**</span></span> <br/> |<span data-ttu-id="a34d6-121">El segundo número binario de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="a34d6-121">The second 16-bit binary number.</span></span>  <br/> |
+| <span data-ttu-id="b6cc3-114">_número binario 1_</span><span class="sxs-lookup"><span data-stu-id="b6cc3-114">_binary number1_</span></span> <br/> |<span data-ttu-id="b6cc3-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="b6cc3-115">Required</span></span>  <br/> |<span data-ttu-id="b6cc3-116">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-116">**Numeric**</span></span> <br/> |<span data-ttu-id="b6cc3-117">El primer número binario de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-117">The first 16-bit binary number.</span></span>  <br/> |
+| <span data-ttu-id="b6cc3-118">_número binario 2_</span><span class="sxs-lookup"><span data-stu-id="b6cc3-118">_binary number2_</span></span> <br/> |<span data-ttu-id="b6cc3-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="b6cc3-119">Required</span></span>  <br/> |<span data-ttu-id="b6cc3-120">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="b6cc3-120">**Numeric**</span></span> <br/> |<span data-ttu-id="b6cc3-121">El segundo número binario de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-121">The second 16-bit binary number.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a34d6-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="a34d6-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b6cc3-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="b6cc3-122">Remarks</span></span>
 
-<span data-ttu-id="a34d6-123">Puede usar esta función para probar y cambiar las propiedades de una forma que se almacenan como máscaras de bits, por ejemplo, el formato de texto de la forma.</span><span class="sxs-lookup"><span data-stu-id="a34d6-123">You can use this function to test and change properties of a shape that are stored as bitmasks, for example, the shape's text format.</span></span>
+<span data-ttu-id="b6cc3-123">Puede usar esta función para probar y cambiar las propiedades de una forma que se almacenan como máscaras de bits, por ejemplo, el formato de texto de la forma.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-123">You can use this function to test and change properties of a shape that are stored as bitmasks, for example, the shape's text format.</span></span>
   
-## <a name="example"></a><span data-ttu-id="a34d6-124">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="a34d6-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b6cc3-124">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b6cc3-124">Example</span></span>
 
-<span data-ttu-id="a34d6-125">BITAND(12;6)</span><span class="sxs-lookup"><span data-stu-id="a34d6-125">BITAND(12,6)</span></span>
+<span data-ttu-id="b6cc3-125">BITAND(12;6)</span><span class="sxs-lookup"><span data-stu-id="b6cc3-125">BITAND(12,6)</span></span>
   
-<span data-ttu-id="a34d6-p103">Devuelve 4. El 12 = 0...01100. El 6 = 0...00110. Por lo tanto, BITAND(12,6) = 0...00100.</span><span class="sxs-lookup"><span data-stu-id="a34d6-p103">Returns 4. The 12 = 0...01100. The 6 = 0...00110. Therefore, BITAND(12,6) = 0...00100.</span></span>
+<span data-ttu-id="b6cc3-p103">Devuelve 4. El 12 = 0...01100. El 6 = 0...00110. Por lo tanto, BITAND(12,6) = 0...00100.</span><span class="sxs-lookup"><span data-stu-id="b6cc3-p103">Returns 4. The 12 = 0...01100. The 6 = 0...00110. Therefore, BITAND(12,6) = 0...00100.</span></span>
   
 

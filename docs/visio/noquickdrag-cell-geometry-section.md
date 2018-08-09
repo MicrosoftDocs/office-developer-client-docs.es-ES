@@ -16,24 +16,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822686"
 ---
-# <a name="noquickdrag-cell-geometry-section"></a><span data-ttu-id="abcb8-103">Celda NoQuickDrag (sección de Geometría)</span><span class="sxs-lookup"><span data-stu-id="abcb8-103">NoQuickDrag Cell (Geometry Section)</span></span>
+# <a name="noquickdrag-cell-geometry-section"></a><span data-ttu-id="bb1c3-103">Celda NoQuickDrag (sección Geometría)</span><span class="sxs-lookup"><span data-stu-id="bb1c3-103">NoQuickDrag Cell (Geometry Section)</span></span>
 
-<span data-ttu-id="abcb8-104">Determina si una forma se puede seleccionar o arrastrar cuando el usuario hace clic en el área con relleno definido por la sección de geometría.</span><span class="sxs-lookup"><span data-stu-id="abcb8-104">Determines whether a shape can be selected or dragged when the user clicks the filled area defined by the Geometry section.</span></span>
+<span data-ttu-id="bb1c3-104">Determina si una forma se puede seleccionar o arrastrar cuando el usuario hace clic en el área con relleno definido por la sección de geometría.</span><span class="sxs-lookup"><span data-stu-id="bb1c3-104">Determines whether a shape can be selected or dragged when the user clicks the filled area defined by the Geometry section.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="abcb8-105">Notas</span><span class="sxs-lookup"><span data-stu-id="abcb8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb1c3-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bb1c3-105">Remarks</span></span>
 
-<span data-ttu-id="abcb8-106">Para obtener una referencia a la celda NoQuickDrag por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="abcb8-106">To get a reference to the NoQuickDrag cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="bb1c3-106">Para obtener una referencia a la celda NoQuickDrag por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-106">To get a reference to the NoQuickDrag cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="abcb8-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="abcb8-107">Cell name:</span></span>  <br/> |<span data-ttu-id="abcb8-108">Geometría *i* . NoQuickDrag, donde * i * - < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="abcb8-108">Geometry  *i*  .NoQuickDrag, where  * i *  - <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="bb1c3-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-107">Cell name:</span></span>  <br/> |<span data-ttu-id="bb1c3-108">Geometría *i* . NoQuickDrag, donde * i * - < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="bb1c3-108">Geometry  *i*  .NoQuickDrag, where  * i *  - <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="abcb8-109">Para obtener una referencia a la celda NoQuickDrag por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="abcb8-109">To get a reference to the NoQuickDrag cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="bb1c3-109">Para obtener una referencia desde un programa a la celda NoQuickDrag por su índice, use la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-109">To get a reference to the NoQuickDrag cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="abcb8-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="abcb8-110">Section index:</span></span>  <br/> |<span data-ttu-id="abcb8-111">**visSectionFirstComponent** +  *i* , donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="abcb8-111">**visSectionFirstComponent** +  *i*  , where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="abcb8-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="abcb8-112">Row index:</span></span>  <br/> |<span data-ttu-id="abcb8-113">**visRowComponent**</span><span class="sxs-lookup"><span data-stu-id="abcb8-113">**visRowComponent**</span></span> <br/> |
-|<span data-ttu-id="abcb8-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="abcb8-114">Cell index:</span></span>  <br/> |<span data-ttu-id="abcb8-115">**visCompNoQuickDrag**</span><span class="sxs-lookup"><span data-stu-id="abcb8-115">**visCompNoQuickDrag**</span></span> <br/> |
+|<span data-ttu-id="bb1c3-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-110">Section index:</span></span>  <br/> |<span data-ttu-id="bb1c3-111">**visSectionFirstComponent** +  *i* , donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="bb1c3-111">**visSectionFirstComponent** +  *i*  , where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="bb1c3-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-112">Row index:</span></span>  <br/> |<span data-ttu-id="bb1c3-113">**visRowComponent**</span><span class="sxs-lookup"><span data-stu-id="bb1c3-113">**visRowComponent**</span></span> <br/> |
+|<span data-ttu-id="bb1c3-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="bb1c3-114">Cell index:</span></span>  <br/> |<span data-ttu-id="bb1c3-115">**visCompNoQuickDrag**</span><span class="sxs-lookup"><span data-stu-id="bb1c3-115">**visCompNoQuickDrag**</span></span> <br/> |
    
 

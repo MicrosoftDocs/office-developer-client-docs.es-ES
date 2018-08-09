@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822918"
 ---
-# <a name="reference-visio-shapesheet"></a><span data-ttu-id="e6105-103">Referencia (Visio ShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="e6105-103">Reference (Visio ShapeSheet)</span></span>
+# <a name="reference-visio-shapesheet"></a><span data-ttu-id="43a1d-103">Referencia (Visio ShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="43a1d-103">Reference (Visio ShapeSheet)</span></span>
 
-<span data-ttu-id="e6105-104">Esta parte de la referencia de ShapeSheet de Visio 2013 contiene las secciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="e6105-104">This part of the Visio 2013 ShapeSheet reference contains the following sections:</span></span>
+<span data-ttu-id="43a1d-104">Esta parte de la referencia de ShapeSheet de Visio 2013 contiene las secciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="43a1d-104">This part of the Visio 2013 ShapeSheet reference contains the following sections:</span></span>
   
-- [<span data-ttu-id="e6105-105">Cells</span><span class="sxs-lookup"><span data-stu-id="e6105-105">Cells</span></span>](a-cell-geometry-section.md)
+- [<span data-ttu-id="43a1d-105">Cells</span><span class="sxs-lookup"><span data-stu-id="43a1d-105">Cells</span></span>](a-cell-geometry-section.md)
     
-- [<span data-ttu-id="e6105-106">Functions</span><span class="sxs-lookup"><span data-stu-id="e6105-106">Functions</span></span>](abs-function-visioshapesheet.md)
+- [<span data-ttu-id="43a1d-106">Functions</span><span class="sxs-lookup"><span data-stu-id="43a1d-106">Functions</span></span>](abs-function-visioshapesheet.md)
     
-- [<span data-ttu-id="e6105-107">Rows</span><span class="sxs-lookup"><span data-stu-id="e6105-107">Rows</span></span>](actions-row-actions-section.md)
+- [<span data-ttu-id="43a1d-107">Rows</span><span class="sxs-lookup"><span data-stu-id="43a1d-107">Rows</span></span>](actions-row-actions-section.md)
     
-- [<span data-ttu-id="e6105-108">Sections</span><span class="sxs-lookup"><span data-stu-id="e6105-108">Sections</span></span>](1-d-endpoints-section.md)
+- [<span data-ttu-id="43a1d-108">Sections</span><span class="sxs-lookup"><span data-stu-id="43a1d-108">Sections</span></span>](1-d-endpoints-section.md)
     
 

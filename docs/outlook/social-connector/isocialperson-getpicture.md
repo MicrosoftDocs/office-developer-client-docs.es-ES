@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821095"
 ---
-# <a name="isocialpersongetpicture"></a><span data-ttu-id="d789d-103">ISocialPerson::GetPicture</span><span class="sxs-lookup"><span data-stu-id="d789d-103">ISocialPerson::GetPicture</span></span>
+# <a name="isocialpersongetpicture"></a><span data-ttu-id="366ae-103">ISocialPerson::GetPicture</span><span class="sxs-lookup"><span data-stu-id="366ae-103">ISocialPerson::GetPicture</span></span>
 
-<span data-ttu-id="d789d-104">Obtiene una matriz de bytes que contiene el recurso de imagen para la persona.</span><span class="sxs-lookup"><span data-stu-id="d789d-104">Gets an array of bytes that contains the picture resource for the person.</span></span> 
+<span data-ttu-id="366ae-104">Obtiene una matriz de bytes que contiene el recurso de imagen para la persona.</span><span class="sxs-lookup"><span data-stu-id="366ae-104">Gets an array of bytes that contains the picture resource for the person.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d789d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="d789d-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="366ae-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="366ae-105">Parameters</span></span>
 
-<span data-ttu-id="d789d-106">_imagen_</span><span class="sxs-lookup"><span data-stu-id="d789d-106">_picture_</span></span>
+<span data-ttu-id="366ae-106">_imagen_</span><span class="sxs-lookup"><span data-stu-id="366ae-106">_picture_</span></span>
   
-> <span data-ttu-id="d789d-107">[out] Un puntero a una estructura que especifica una matriz de bytes que representan el recurso de imagen de una persona.</span><span class="sxs-lookup"><span data-stu-id="d789d-107">[out] A pointer to a structure that specifies an array of bytes that represent the picture resource for a person.</span></span>
+> <span data-ttu-id="366ae-107">[out] Un puntero a una estructura que especifica una matriz de bytes que representan el recurso de imagen de una persona.</span><span class="sxs-lookup"><span data-stu-id="366ae-107">[out] A pointer to a structure that specifies an array of bytes that represent the picture resource for a person.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="d789d-108">Notas</span><span class="sxs-lookup"><span data-stu-id="d789d-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="366ae-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="366ae-108">Remarks</span></span>
 
-<span data-ttu-id="d789d-109">Compatible con los recursos están en .bmp, .jpeg o .png formato de imagen.</span><span class="sxs-lookup"><span data-stu-id="d789d-109">Supported picture resources are in .bmp, .jpeg, or .png format.</span></span>
+<span data-ttu-id="366ae-109">Compatible con los recursos están en .bmp, .jpeg o .png formato de imagen.</span><span class="sxs-lookup"><span data-stu-id="366ae-109">Supported picture resources are in .bmp, .jpeg, or .png format.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d789d-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="d789d-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="366ae-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="366ae-110">See also</span></span>
 
-- [<span data-ttu-id="d789d-111">ISocialPerson: IUnknown</span><span class="sxs-lookup"><span data-stu-id="d789d-111">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
+- [<span data-ttu-id="366ae-111">ISocialPerson : IUnknown</span><span class="sxs-lookup"><span data-stu-id="366ae-111">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
 

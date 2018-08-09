@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 62b5a42a540a4fb96761c45cd51c510f12225e9e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820655"
 ---
-# <a name="sexistrestriction"></a><span data-ttu-id="63b8a-103">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="63b8a-103">SExistRestriction</span></span>
+# <a name="sexistrestriction"></a><span data-ttu-id="7f51d-103">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="7f51d-103">SExistRestriction</span></span>
 
   
   
-<span data-ttu-id="63b8a-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="63b8a-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="7f51d-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="7f51d-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="63b8a-105">Describe una restricción existente que se usa para comprobar si una propiedad determinada existe como una columna en la tabla.</span><span class="sxs-lookup"><span data-stu-id="63b8a-105">Describes an exist restriction which is used to test whether a particular property exists as a column in the table.</span></span> 
+<span data-ttu-id="7f51d-105">Describe una restricción existente que se usa para comprobar si una propiedad determinada existe como una columna en la tabla.</span><span class="sxs-lookup"><span data-stu-id="7f51d-105">Describes an exist restriction which is used to test whether a particular property exists as a column in the table.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="63b8a-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="63b8a-106">Header file:</span></span>  <br/> |<span data-ttu-id="63b8a-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="63b8a-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="7f51d-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="7f51d-106">Header file:</span></span>  <br/> |<span data-ttu-id="7f51d-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7f51d-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -41,34 +41,34 @@ typedef struct _SExistRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="63b8a-108">Miembros</span><span class="sxs-lookup"><span data-stu-id="63b8a-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7f51d-108">Members</span><span class="sxs-lookup"><span data-stu-id="7f51d-108">Members</span></span>
 
- <span data-ttu-id="63b8a-109">**ulReserved1**</span><span class="sxs-lookup"><span data-stu-id="63b8a-109">**ulReserved1**</span></span>
+ <span data-ttu-id="7f51d-109">**ulReserved1**</span><span class="sxs-lookup"><span data-stu-id="7f51d-109">**ulReserved1**</span></span>
   
-> <span data-ttu-id="63b8a-110">Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="63b8a-110">Reserved; must be zero.</span></span> 
+> <span data-ttu-id="7f51d-110">Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="7f51d-110">Reserved; must be zero.</span></span> 
     
- <span data-ttu-id="63b8a-111">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="63b8a-111">**ulPropTag**</span></span>
+ <span data-ttu-id="7f51d-111">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="7f51d-111">**ulPropTag**</span></span>
   
-> <span data-ttu-id="63b8a-112">Etiqueta de la propiedad que identifica la columna que se va a la existencia de cada fila.</span><span class="sxs-lookup"><span data-stu-id="63b8a-112">Property tag identifying the column to be tested for existence in each row.</span></span>
+> <span data-ttu-id="7f51d-112">Etiqueta de la propiedad que identifica la columna que se va a la existencia de cada fila.</span><span class="sxs-lookup"><span data-stu-id="7f51d-112">Property tag identifying the column to be tested for existence in each row.</span></span>
     
- <span data-ttu-id="63b8a-113">**ulReserved2**</span><span class="sxs-lookup"><span data-stu-id="63b8a-113">**ulReserved2**</span></span>
+ <span data-ttu-id="7f51d-113">**ulReserved2**</span><span class="sxs-lookup"><span data-stu-id="7f51d-113">**ulReserved2**</span></span>
   
-> <span data-ttu-id="63b8a-114">Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="63b8a-114">Reserved; must be zero.</span></span>
+> <span data-ttu-id="7f51d-114">Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="7f51d-114">Reserved; must be zero.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="63b8a-115">Notas</span><span class="sxs-lookup"><span data-stu-id="63b8a-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f51d-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7f51d-115">Remarks</span></span>
 
-<span data-ttu-id="63b8a-116">La restricción de existen se usa para garantizar resultados significativos para otros tipos de restricciones que impliquen propiedades, por ejemplo, restricciones de propiedad y contenido.</span><span class="sxs-lookup"><span data-stu-id="63b8a-116">The exist restriction is used to guarantee meaningful results for other types of restrictions that involve properties, such as property and content restrictions.</span></span> <span data-ttu-id="63b8a-117">Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, no están definidos los resultados de la restricción.</span><span class="sxs-lookup"><span data-stu-id="63b8a-117">When a restriction that involves a property is passed to [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) and the property does not exist, the results of the restriction are undefined.</span></span> <span data-ttu-id="63b8a-118">Mediante la creación de una restricción **y** que se une a la restricción de propiedad con una restricción existe, un autor de la llamada se pueda garantizar resultados precisos.</span><span class="sxs-lookup"><span data-stu-id="63b8a-118">By creating an **AND** restriction that joins the property restriction with an exist restriction, a caller can be guaranteed accurate results.</span></span> 
+<span data-ttu-id="7f51d-116">La restricción de existen se usa para garantizar resultados significativos para otros tipos de restricciones que impliquen propiedades, por ejemplo, restricciones de propiedad y contenido.</span><span class="sxs-lookup"><span data-stu-id="7f51d-116">The exist restriction is used to guarantee meaningful results for other types of restrictions that involve properties, such as property and content restrictions.</span></span> <span data-ttu-id="7f51d-117">Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, no están definidos los resultados de la restricción.</span><span class="sxs-lookup"><span data-stu-id="7f51d-117">When a restriction that involves a property is passed to [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) and the property does not exist, the results of the restriction are undefined.</span></span> <span data-ttu-id="7f51d-118">Mediante la creación de una restricción **y** que se une a la restricción de propiedad con una restricción existe, un autor de la llamada se pueda garantizar resultados precisos.</span><span class="sxs-lookup"><span data-stu-id="7f51d-118">By creating an **AND** restriction that joins the property restriction with an exist restriction, a caller can be guaranteed accurate results.</span></span> 
   
-<span data-ttu-id="63b8a-119">Existen restricciones no se puede usar con las propiedades del objeto subcaracterística que tienen tipo pt Object.</span><span class="sxs-lookup"><span data-stu-id="63b8a-119">Exist restrictions cannot be used with sub-object properties that have type PT_OBJECT.</span></span> 
+<span data-ttu-id="7f51d-119">Existen restricciones no se puede usar con las propiedades del objeto subcaracterística que tienen tipo pt Object.</span><span class="sxs-lookup"><span data-stu-id="7f51d-119">Exist restrictions cannot be used with sub-object properties that have type PT_OBJECT.</span></span> 
   
-<span data-ttu-id="63b8a-120">Para obtener más información acerca de la estructura **SExistRestriction** , vea [Acerca de las restricciones](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="63b8a-120">For more information about the **SExistRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="7f51d-120">Para obtener más información acerca de la estructura **SExistRestriction** , vea [Acerca de las restricciones](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="7f51d-120">For more information about the **SExistRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="63b8a-121">Ver también</span><span class="sxs-lookup"><span data-stu-id="63b8a-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7f51d-121">Vea también</span><span class="sxs-lookup"><span data-stu-id="7f51d-121">See also</span></span>
 
 
 
-[<span data-ttu-id="63b8a-122">SRestriction</span><span class="sxs-lookup"><span data-stu-id="63b8a-122">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="7f51d-122">SRestriction</span><span class="sxs-lookup"><span data-stu-id="7f51d-122">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="63b8a-123">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="63b8a-123">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="7f51d-123">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="7f51d-123">MAPI Structures</span></span>](mapi-structures.md)
 
