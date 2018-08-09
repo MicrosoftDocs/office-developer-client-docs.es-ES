@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822698"
 ---
-# <a name="outputformat-cell-document-properties-section"></a>Celda OutputFormat (Sección de propiedades del documento)
+# <a name="outputformat-cell-document-properties-section"></a>Celda OutputFormat (sección Propiedades del documento)
 
 Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener formato para imprimirse (valor predeterminado); no obstante, el usuario puede elegir otros formatos de salida.
   
@@ -28,13 +28,14 @@ Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda OutputFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda OutputFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | OutputFormat  <br/> |
    
-Para obtener una referencia a la celda OutputFormat por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda OutputFormat por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

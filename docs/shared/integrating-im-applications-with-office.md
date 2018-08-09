@@ -1022,7 +1022,7 @@ La tabla 12 se muestran a los miembros que deben implementarse en las clases que
 |**LocaleId** (propiedad)  <br/> |Obtiene el identificador de configuración regional.  <br/> |
 |**Valor** (propiedad)  <br/> |Obtiene la cadena.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - Espacio de nombres [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib) 
     

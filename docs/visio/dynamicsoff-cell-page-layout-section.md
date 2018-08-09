@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822042"
 ---
-# <a name="dynamicsoff-cell-page-layout-section"></a>Celda DynamicsOff (Sección de diseño de página)
+# <a name="dynamicsoff-cell-page-layout-section"></a>Celda DynamicsOff (sección Diseño de página)
 
 Determina si las formas colocables se mueven y los conectores cambian sus recorridos para evitar a las restantes formas y conectores de la página de dibujo.
   
@@ -29,13 +29,13 @@ Determina si las formas colocables se mueven y los conectores cambian sus recorr
 
 Puede deshabilitar las propiedades dinámicas para mejorar el rendimiento de la solución. Por ejemplo, si una solución agrega formas colocables a un dibujo y no desea que la aplicación cambie las rutas de los conectores y las posiciones de las formas cada vez que se agregue una, puede deshabilitar las propiedades dinámicas. Vuelva a habilitarlas cuando la solución haya agregado las formas.
   
-Para obtener una referencia a la celda DynamicsOff por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DynamicsOff por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | DynamicsOff  <br/> |
    
-Para obtener una referencia a la celda DynamicsOff por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DynamicsOff por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

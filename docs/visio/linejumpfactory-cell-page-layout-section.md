@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822475"
 ---
-# <a name="linejumpfactory-cell-page-layout-section"></a>Celda LineJumpFactorY (Sección de diseño de página)
+# <a name="linejumpfactory-cell-page-layout-section"></a>Celda LineJumpFactorY (sección Diseño de página)
 
 Determina el tamaño de los saltos de línea en los conectores dinámicos verticales de la página con respecto al valor de la celda LineToLineY. El valor de esta celda puede estar en el intervalo entre 0 y 10, pero se recomienda utilizar los valores fraccionarios entre 0 y 1.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
+También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página** y, a continuación, haga clic en **Diseño y enrutamiento**).
   
-Para obtener una referencia a la celda LineJumpFactorY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LineJumpFactorY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LineJumpFactorY  <br/> |
    
-Para obtener una referencia a la celda LineJumpFactorY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LineJumpFactorY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

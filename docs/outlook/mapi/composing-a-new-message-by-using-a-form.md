@@ -1,5 +1,5 @@
 ---
-title: Redactar un nuevo mensaje mediante el uso de un formulario
+title: Redactar un mensaje nuevo con un formulario
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f4b9cb00512838e6b54c0cc910b8f7279120db3c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816556"
 ---
-# <a name="composing-a-new-message-by-using-a-form"></a>Redactar un nuevo mensaje mediante el uso de un formulario
+# <a name="composing-a-new-message-by-using-a-form"></a>Redactar un mensaje nuevo con un formulario
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para usar un formulario para redactar un mensaje nuevo, en primer lugar hay que crear un nuevo objeto de mensaje personalizado.
   

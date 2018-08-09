@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskRecurrence
+title: Propiedad canónica PidLidTaskRecurrence
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 29b35250a3cbbee876338ca2366726b2dd14f957
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818990"
 ---
-# <a name="pidlidtaskrecurrence-canonical-property"></a>Propiedad canónico PidLidTaskRecurrence
+# <a name="pidlidtaskrecurrence-canonical-property"></a>Propiedad canónica PidLidTaskRecurrence
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una estructura de RecurrencePattern que proporciona información acerca de las tareas repetitivas.
   
@@ -33,9 +33,9 @@ Contiene una estructura de RecurrencePattern que proporciona información acerca
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008116  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener información acerca de cómo crear y especificar una estructura de RecurrencePattern, vea [crear un elemento de tarea recurrente Simple](how-to-create-a-simple-recurrent-task-item.md).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

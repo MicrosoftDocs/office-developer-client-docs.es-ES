@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822129"
 ---
-# <a name="filename-function"></a>FILENAME (función)
+# <a name="filename-function"></a>Función FILENAME
 
 Devuelve el nombre de archivo de un documento como una cadena.
   

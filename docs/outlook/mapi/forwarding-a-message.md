@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816867"
 ---
 # <a name="forwarding-a-message"></a>Reenviar un mensaje
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Reenviar un mensaje implica muchas de las mismas tareas como enviar un mensaje original. En primer lugar, debe abrir el almacén de mensajes de forma predeterminada y la carpeta que se designa para contener los mensajes salientes, normalmente la Bandeja de salida, y llamar al método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de la carpeta para crear el mensaje que se debe reenviar. También debe abrir la carpeta que contiene el mensaje original, normalmente en la Bandeja de entrada. Para obtener información acerca de cómo abrir diferentes carpetas, vea [Abrir una carpeta de almacén de mensajes](opening-a-message-store-folder.md).
   
@@ -70,7 +70,7 @@ La principal diferencia entre crear un mensaje que se debe reenviar y crear el o
     
 6. Llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje reenviado para guardar este archivo o [IMessage::SubmitMessage](imessage-submitmessage.md) para guardar y enviarla. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Propiedad canónico PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+- [Propiedad canónica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
 

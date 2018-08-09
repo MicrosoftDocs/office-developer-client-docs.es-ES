@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821911"
 ---
-# <a name="data1-function"></a>DATA1 (función)
+# <a name="data1-function"></a>Función DATA1
 
 Devuelve el texto del cuadro de **datos 1** en el cuadro de diálogo **Nombre de la forma** de una forma (en la ficha **Programador** , haga clic en **Nombre de la forma** ), como una cadena. 
   

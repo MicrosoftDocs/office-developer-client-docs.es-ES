@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 465121d37489b6810ca141d798b6c96d3f14980e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19817040"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  Crea un objeto sin conexión de MAPI que se usa en el proveedor y el almacenamiento con el fin de notificar a MAPI cuando el objeto queda en línea y sin conexión, 
   

@@ -1,5 +1,5 @@
 ---
-title: Celda ReplaceLockText (sección de comportamiento de cambio forma)
+title: Celda ReplaceLockText (sección Cambiar comportamiento de forma)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822989"
 ---
-# <a name="replacelocktext-cell-change-shape-behavior-section"></a>Celda ReplaceLockText (sección de comportamiento de cambio forma)
+# <a name="replacelocktext-cell-change-shape-behavior-section"></a>Celda ReplaceLockText (sección Cambiar comportamiento de forma)
 
 Indica si los valores de las celdas especificadas en una forma de patrón sobrescribirán los valores (incluidos los valores locales) de una forma reemplazada durante una operación de reemplazo de la forma. El **ReplaceLockText** determina si el texto que aparece en el maestro de sobrescribe el texto de la forma reemplazada. 
   
@@ -33,7 +33,7 @@ Si se establece en TRUE (1), los valores de la forma patrón reemplaza los valor
     
 - Celdas en la [sección de tabulaciones](tabs-section.md)
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **ReplaceLockText** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

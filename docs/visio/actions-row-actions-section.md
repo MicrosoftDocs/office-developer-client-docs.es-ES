@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821514"
 ---
-# <a name="actions-row-actions-section"></a>Fila Actions (sección de acciones)
+# <a name="actions-row-actions-section"></a>Fila Actions (sección Acciones)
 
 Contiene celdas que especifican las acciones asociadas a un comando personalizado en un menú contextual o de acción de la etiqueta. La sección de acciones contiene una fila Actions por cada acción.
   
@@ -27,7 +27,8 @@ Las filas Actions se denominan Actions. *nombre* y contienen las celdas siguient
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[Action](action-cell-actions-section.md) <br/> |Contiene la fórmula que se debe ejecutar cuando un usuario elige un elemento en un menú contextual o de acción de la etiqueta.  <br/> |
+|[Action](action-cell-actions-section.md) <br/> |Contiene la fórmula que se debe ejecutar cuando un usuario elige un elemento en un menú contextual o de etiquetas de acción.
+  <br/> |
 |[Menú](menu-cell-actions-section.md) <br/> |Define el nombre del elemento de menú que aparece en un menú contextual o de etiqueta de acción.  <br/> |
 |[TagName](tagname-cell-actions-section.md) <br/> |Nombre lógico de la etiqueta de acción donde debe aparecer la acción.  <br/> |
 |[ButtonFace](buttonface-cell-actions-section.md) <br/> |Identifica el icono que aparece junto a un elemento en un menú contextual o de etiquetas de acción.  <br/> |
@@ -38,7 +39,7 @@ Las filas Actions se denominan Actions. *nombre* y contienen las celdas siguient
 |[Invisible](invisible-cell-actions-section.md) <br/> |Indica si el elemento de menú es visible en el menú contextual o de etiquetas de acción.  <br/> |
 |[BeginGroup](begingroup-cell-actions-section.md) <br/> |Indica si se debe insertar un separador en el menú encima del elemento de menú.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  Puede agregar todas las acciones.  *nombre* como sea necesario, asignar nombres descriptivos a las filas y establecer valores de celda. Para agregar un comando personalizado a una sección de acciones ya existente, haga clic en una fila y haga clic en **Insertar fila** en el menú contextual. 
   

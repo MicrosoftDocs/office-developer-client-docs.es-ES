@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823508"
 ---
-# <a name="value-cell-user-defined-cells-section"></a>Celda Value (Sección de celdas definidas por el usuario)
+# <a name="value-cell-user-defined-cells-section"></a>Celda Value (sección Celdas definidas por el usuario)
 
 Especifica un valor para la celda correspondiente definida por el usuario.
   
@@ -24,13 +24,14 @@ Especifica un valor para la celda correspondiente definida por el usuario.
 
 Para hacer referencia a este valor desde otra celda, especifique el nombre definido por el usuario indicado en la etiqueta de fila User.Row.
   
-Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Usuario.  *Nombre* . El valor de where usuario.  *Nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Value por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Value por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

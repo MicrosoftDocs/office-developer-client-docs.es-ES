@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822845"
 ---
-# <a name="pos-cell-character-section"></a>Celda Pos (Sección de caracteres)
+# <a name="pos-cell-character-section"></a>Celda Pos (sección Caracteres)
 
 Determina la posición del texto de la forma con respecto a la línea base.
   
@@ -26,15 +26,15 @@ Determina la posición del texto de la forma con respecto a la línea base.
 | 1  <br/> | Superíndice  <br/> |**visPosSuper** <br/> |
 | 2  <br/> | Subíndice  <br/> |**visPosSub** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Pos por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Pos por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Char.Pos [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Pos por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Pos por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

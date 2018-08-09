@@ -23,7 +23,7 @@ Este método no se admite actualmente.
 HRESULT _stdcall SetStatus(BSTR status);
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProfile: ISocialPerson](isocialprofileisocialperson.md)
+- [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

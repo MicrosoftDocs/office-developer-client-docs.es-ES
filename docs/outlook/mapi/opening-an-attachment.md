@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3875e51868e882ca454c06949347327a21a93eb9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818432"
 ---
 # <a name="opening-an-attachment"></a>Abrir un archivo adjunto
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Abrir un archivo adjunto implica la visualización de sus datos. Por ejemplo, cuando se abre un archivo adjunto, se muestra el contenido del archivo. Mientras que los mensajes y las carpetas se abren con sus identificadores de entrada, los datos adjuntos se abren utilizando sus números de datos adjuntos: propiedades **PR_ATTACH_NUM** . Para obtener más información, vea **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Los números de los datos adjuntos están disponibles a través de la tabla de datos adjuntos de un mensaje.
   

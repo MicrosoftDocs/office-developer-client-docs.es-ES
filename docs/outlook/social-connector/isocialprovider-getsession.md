@@ -23,17 +23,17 @@ Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) .
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
-_sesión_
+_session_
   
-> [out] Una interfaz **ISocialSession** . 
+> [salida] Una interfaz **ISocialSession**. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Outlook Social Connector (OSC), se usa la interfaz **ISocialSession** para iniciar sesión en la red social. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

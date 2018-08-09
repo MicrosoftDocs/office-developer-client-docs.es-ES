@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidToDoTitle
+title: Propiedad canónica PidLidToDoTitle
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 66208b2d31ca379389f3249abf281dd4d040e276
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819010"
 ---
-# <a name="pidlidtodotitle-canonical-property"></a>Propiedad canónico PidLidToDoTitle
+# <a name="pidlidtodotitle-canonical-property"></a>Propiedad canónica PidLidToDoTitle
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene texto puede especificar el usuario para identificar este objeto de mensaje en una lista de tareas pendientes consolidada.
   
@@ -33,9 +33,9 @@ Contiene texto puede especificar el usuario para identificar este objeto de mens
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x000085A4  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad no se debe establecer en una tarea. Para indicar una propiedad vacía, no establezca esta propiedad en la cadena de longitud cero, pero en su lugar eliminarla. 
   
@@ -63,11 +63,11 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
+[Propiedad canónica PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
   
 [Propiedad can�nico de PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
 
@@ -76,7 +76,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

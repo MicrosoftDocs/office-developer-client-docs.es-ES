@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822439"
 ---
-# <a name="leftmargin-cell-text-block-format-section"></a>Celda LeftMargin (Sección de formato del bloque de texto)
+# <a name="leftmargin-cell-text-block-format-section"></a>Celda LeftMargin (sección Formato del bloque de texto)
 
 Determina la distancia entre el borde izquierdo del bloque de texto y el texto que contiene. El valor predeterminado es 0,25 centímetros. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen izquierdo se mantiene igual.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LeftMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LeftMargin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LeftMargin  <br/> |
    
-Para obtener una referencia a la celda LeftMargin por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LeftMargin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

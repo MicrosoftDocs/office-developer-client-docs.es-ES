@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1b957c02f331038ee9104f01806720d2f8e0b542
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817068"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Codifica un identificador de entrada en una cadena ASCII. 
   
@@ -41,7 +41,7 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cb_
   
@@ -59,7 +59,7 @@ HrSzFromEntryID(
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Las funciones [HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** proporcionan conversión entre la cadena y formatos binarios de los identificadores de entrada. Con MAPI, debe usar las estructuras de datos binarios. 
   

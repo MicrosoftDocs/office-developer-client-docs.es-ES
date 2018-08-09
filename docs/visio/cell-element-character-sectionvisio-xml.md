@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de caracteres)](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Especifica un atributo de formato para la ejecución de texto de una forma, como fuente, color, estilo, caso, posición relativa a la línea base o tamaño en puntos.  <br/> |
+|[Elemento Row (sección Carácter)](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Especifica un atributo de formato para la ejecución de texto de una forma, como fuente, color, estilo, caso, posición relativa a la línea base o tamaño en puntos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,14 +60,14 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |AsianFont  <br/> |Contiene la enumeración de la fuente empleada para dar formato a un segmento que contiene caracteres asiáticos de texto.  <br/> |[Celda AsianFont (Sección de caracteres)](asianfont-cell-character-section.md) <br/> |
-|Caso  <br/> |Determina el caso de ejecución de texto de una forma.  <br/> |[Celda Case (Sección de caracteres)](case-cell-character-section.md) <br/> |
+|Case  <br/> |Determina el caso de ejecución de texto de una forma.  <br/> |[Celda Case (Sección de caracteres)](case-cell-character-section.md) <br/> |
 |Color  <br/> |Determina el color utilizado para la ejecución de texto de una forma.  <br/> |[Celda Color (Sección de caracteres)](color-cell-character-section.md) <br/> |
 |ColorTrans  <br/> |Determina el grado de transparencia de una capa o texto de la forma que se ejecute el color, desde 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguno.  <br/> |
 |ComplexScriptFont  <br/> |Contiene el número de la fuente empleada para dar formato a un texto ejecutar compuesta por caracteres de un alfabeto complejo.  <br/> |[Celda ComplexScriptFont (Sección de caracteres)](complexscriptfont-cell-character-section.md) <br/> |
@@ -80,7 +80,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |Letterspace  <br/> |Especifica la cantidad de espacio entre dos o más caracteres. Espacio puede sumar o restar en incrementos de 1/20 de punto.  <br/> |Ninguno.  <br/> |
 |Overline  <br/> |Determina si un segmento de texto tiene una línea encima.  <br/> |[Celda Overline (Sección de caracteres)](overline-cell-character-section.md) <br/> |
 |POS  <br/> |Determina la posición del texto de una forma ejecutar con respecto a la línea base.  <br/> |[Celda Pos (Sección de caracteres)](pos-cell-character-section.md) <br/> |
-|Tama?o  <br/> |Determina el tamaño de un segmento de bloque de texto de la forma de texto.  <br/> |[Celda Size (Sección de caracteres)](size-cell-character-section.md) <br/> |
+|Size  <br/> |Determina el tamaño de un segmento de bloque de texto de la forma de texto.  <br/> |[Celda Size (Sección de caracteres)](size-cell-character-section.md) <br/> |
 |Strikethru  <br/> |Determina si un segmento de texto tiene el formato tachado.  <br/> |[Celda Strikethru (Sección de caracteres)](strikethru-cell-character-section.md) <br/> |
 |Estilo  <br/> |Muestra que el formato de carácter aplicado a un intervalo de texto se ejecute en el bloque de texto de la forma.  <br/> |[Celda Style (Sección de caracteres)](style-cell-character-section.md) <br/> |
    

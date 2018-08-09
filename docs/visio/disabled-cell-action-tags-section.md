@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821980"
 ---
-# <a name="disabled-cell-action-tags-section"></a>Celda Disabled (sección de etiquetas de acción)
+# <a name="disabled-cell-action-tags-section"></a>Celda Disabled (sección Etiquetas de acción)
 
 Indica si la etiqueta de acción aparece en la ventana de dibujo.
   
@@ -32,13 +32,13 @@ Indica si la etiqueta de acción aparece en la ventana de dibujo.
 
 Cuando se deshabilita una etiqueta de acción, ésta no aparece en absoluto hasta que se vuelva a habilitar. 
   
-Para obtener una referencia a la celda Disabled por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Disabled por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . Deshabilitado donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
    
-Para obtener una referencia a la celda Disabled por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Disabled por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

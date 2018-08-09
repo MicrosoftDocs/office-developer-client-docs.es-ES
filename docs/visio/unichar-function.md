@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823481"
 ---
-# <a name="unichar-function"></a>UNICHAR (función)
+# <a name="unichar-function"></a>Función UNICHAR
 
 Devuelve el carácter Unicode de un número. 
   
@@ -24,7 +24,7 @@ Devuelve el carácter Unicode de un número.
 
 UNICHAR (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

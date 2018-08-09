@@ -23,17 +23,17 @@ Obtiene una matriz de bytes que contiene el recurso de imagen para la persona.
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _imagen_
   
 > [out] Un puntero a una estructura que especifica una matriz de bytes que representan el recurso de imagen de una persona.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Compatible con los recursos están en .bmp, .jpeg o .png formato de imagen.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

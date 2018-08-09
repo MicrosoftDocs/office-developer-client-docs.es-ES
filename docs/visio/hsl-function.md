@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822297"
 ---
-# <a name="hsl-function"></a>HSL (función)
+# <a name="hsl-function"></a>Función HSL
 
 Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por su matiz, saturación y componentes de luminosidad.
   
@@ -24,7 +24,7 @@ Devuelve un valor que representa un índice en la paleta de colores del document
 
 HSL (** *matiz* **, ** *saturación* **, ** *luminosidad* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

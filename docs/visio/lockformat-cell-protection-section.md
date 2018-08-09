@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822507"
 ---
-# <a name="lockformat-cell-protection-section"></a>Celda LockFormat (Sección de protección)
+# <a name="lockformat-cell-protection-section"></a>Celda LockFormat (sección Protección)
 
 Bloquea el formato de una forma para no se pueda cambiar.
   
@@ -27,13 +27,14 @@ Bloquea el formato de una forma para no se pueda cambiar.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockFormat por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockFormat  <br/> |
    
-Para obtener una referencia a la celda LockFormat por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockFormat por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

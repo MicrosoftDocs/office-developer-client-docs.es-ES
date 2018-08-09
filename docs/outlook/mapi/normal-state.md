@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8b2acad7-5ef8-44db-911f-3bd2a7ca2778
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dcc92d220f07b1c111284acacac4a65a2e3f8b6f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818413"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El estado Normal es donde el objeto de formulario dedica gran parte de su tiempo de espera para que las aplicaciones de cliente iniciar una acción, como guardar los cambios o cerrar el formulario. En la siguiente tabla se describe permitidos las transiciones de estado Normal.
   
@@ -32,7 +32,7 @@ El estado Normal es donde el objeto de formulario dedica gran parte de su tiempo
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |Importance  <br/> |
 |Otros [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos o métodos de otras interfaces  <br/> |Implementar como se describe en la documentación de la [IPersistMessage: IUnknown](ipersistmessageiunknown.md) interfaz.  <br/> |Importance  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

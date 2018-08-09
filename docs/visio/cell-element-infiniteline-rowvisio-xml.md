@@ -60,15 +60,15 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|X  <br/> |Una coordenada x de un punto de la línea infinita, emparejada con la coordenada y representada por la celda Y.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
-|v  <br/> |Una coordenada y de un punto de la línea infinita, emparejada con la coordenada x representada por la celda X.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
-|A  <br/> |Una coordenada x de un punto de la línea infinita, emparejada con la coordenada y representada por la celda b..  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
-|B  <br/> |Una coordenada y de un punto de una línea infinita; emparejada con la coordenada x representada por la celda A.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
+|X  <br/> |Coordenada x de un punto de la línea infinita, emparejada con la coordenada y representada por la celda Y.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
+|v  <br/> |Coordenada y de un punto de la línea infinita, emparejada con la coordenada x representada por la celda X.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
+|A  <br/> |Coordenada x de un punto de la línea infinita, emparejada con la coordenada y representada por la celda B.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
+|B  <br/> |Coordenada y de un punto de una línea infinita, emparejada con la coordenada x representada por la celda A.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) <br/> |
    
 

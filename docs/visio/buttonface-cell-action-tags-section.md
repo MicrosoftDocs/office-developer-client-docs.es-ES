@@ -16,26 +16,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821692"
 ---
-# <a name="buttonface-cell-action-tags-section"></a>Celda ButtonFace (sección de etiquetas de acción)
+# <a name="buttonface-cell-action-tags-section"></a>Celda ButtonFace (sección Etiquetas de acción)
 
 Contiene el id. de la imagen de botón que aparece en el botón de etiqueta de acción. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La cadena de la celda ButtonFace representa el identificador de una imagen de botón de Microsoft Office. Un valor de 0 (cero) o en blanco el valor predeterminado es el botón de información "i" de etiquetas de acción estándar ![](media/InfoPS_ZA10180114.gif).
   
 Los identificadores que pueden usarse en la celda ButtonFace son los mismos que los identificadores que se utiliza con la propiedad **FaceID** de un objeto **CommandBarButton** . Para obtener más detalles acerca de estos identificadores, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
   
-Para obtener una referencia a la celda ButtonFace por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ButtonFace por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . ButtonFace donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
    
-Para obtener una referencia a la celda ButtonFace por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ButtonFace por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5c62e5919c6e605aa4b60f48072996ed1fd4c355
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817071"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera todas las filas de una tabla. 
   
@@ -44,7 +44,7 @@ HRESULT HrQueryAllRows(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pTable_
   
@@ -80,7 +80,7 @@ MAPI_E_TABLE_TOO_BIG
   
 > El número de filas de la tabla es mayor que el número que se pasa para el parámetro _crowsMax_ . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una aplicación de cliente o un proveedor de servicios no tiene control sobre el número de filas **que hrqueryallrows** intenta recuperar, además de por imponer una restricción indicada por el parámetro _pres_ . El parámetro _crowsMax_ no limitan la recuperación a un determinado número de filas de la tabla, pero en lugar de define una cantidad máxima de memoria disponible para contener las filas recuperadas todo. La única protección contra el desbordamiento de memoria masiva es la característica de provisional proporcionada estableciendo _crowsMax_. El error devuelto MAPI_E_TABLE_TOO_BIG significa que la tabla contiene demasiadas filas que se retenga todos a la vez en la memoria. 
   

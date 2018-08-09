@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822361"
 ---
-# <a name="int-function"></a>INT (función)
+# <a name="int-function"></a>Función INT
 
 Redondea un número hacia abajo hasta el próximo entero.
   
@@ -24,7 +24,7 @@ Redondea un número hacia abajo hasta el próximo entero.
 
 INT (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

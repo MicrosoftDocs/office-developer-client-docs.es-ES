@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822039"
 ---
-# <a name="drawingscaletype-cell-page-properties-section"></a>Celda DrawingScaleType (Sección de propiedades de página)
+# <a name="drawingscaletype-cell-page-properties-section"></a>Celda DrawingScaleType (sección Propiedades de página)
 
-Determina la escala de dibujo seleccionada en el cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio** ). 
+Determina la escala de dibujo seleccionada en el cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio**). 
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
@@ -29,15 +29,15 @@ Determina la escala de dibujo seleccionada en el cuadro de diálogo **Configurar
 | 4  <br/> | Métrica  <br/> |**visScaleMetric** <br/> |
 | 5  <br/> | Escala de ingeniería mecánica  <br/> |**visScaleMechanical** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda DrawingScaleType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DrawingScaleType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | DrawingScaleType  <br/> |
    
-Para obtener una referencia a la celda DrawingScaleType por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DrawingScaleType por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

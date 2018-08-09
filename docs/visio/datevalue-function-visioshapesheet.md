@@ -1,5 +1,5 @@
 ---
-title: Función DATEVALUE (VisioShapeSheet)
+title: DATEVALUE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821937"
 ---
-# <a name="datevalue-function-visioshapesheet"></a>Función DATEVALUE (VisioShapeSheet)
+# <a name="datevalue-function-visioshapesheet"></a>DATEVALUE Function (VisioShapeSheet)
 
 Devuelve el valor de fecha representado por _fecha y hora_ o _expresión_.
   
@@ -24,7 +24,7 @@ Devuelve el valor de fecha representado por _fecha y hora_ o _expresión_.
 
 DATEVALUE ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

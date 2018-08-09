@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822224"
 ---
-# <a name="getref-function"></a>GETREF (función)
+# <a name="getref-function"></a>Función GETREF
 
 Hace referencia a una celda y no recalcula la fórmula cuando cambia de la celda que se hace referencia.
   
@@ -24,7 +24,7 @@ Hace referencia a una celda y no recalcula la fórmula cuando cambia de la celda
 
 GETREF (** *nombreDeCelda* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

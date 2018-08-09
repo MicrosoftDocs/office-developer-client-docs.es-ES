@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7c8ccada96b3e34372d488e16c85627e8b6b0cd7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817246"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece el criterio de ordenación predeterminado para la tabla de contenido de una carpeta.
   
@@ -34,7 +34,7 @@ HRESULT SaveContentsSort(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSortCriteria_
   
@@ -58,13 +58,13 @@ MAPI_E_NO_SUPPORT
   
 > El proveedor de almacén de mensajes no admite guardar un criterio de ordenación para sus tablas de contenido de carpeta.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIFolder::SaveContentsSort** establece un criterio de ordenación predeterminado para la tabla de contenido de una carpeta. Es decir, cuando un cliente llama (método) [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta después de las llamadas de código **SaveContentsSort**, las filas de la tabla de contenido devuelto se muestra en el orden establecido por **SaveContentsSort**.
   
 No todos los proveedores de almacén de mensajes admiten **SaveContentsSort**; es aceptable para los proveedores de almacén de mensajes devolver MAPI_E_NO_SUPPORT desde el método **SaveContentsSort** . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,5 +72,5 @@ No todos los proveedores de almacén de mensajes admiten **SaveContentsSort**; e
   
 [SSortOrderSet](ssortorderset.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

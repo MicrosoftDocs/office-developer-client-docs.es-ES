@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823093"
 ---
-# <a name="runaddonwargs-function"></a>RUNADDONWARGS (función)
+# <a name="runaddonwargs-function"></a>Función RUNADDONWARGS
 
 Ejecuta _cadena_ y le pasa los _argumentos_ de línea de comandos para el programa como una cadena. 
   
@@ -24,7 +24,7 @@ Ejecuta _cadena_ y le pasa los _argumentos_ de línea de comandos para el progra
 
 RUNADDONWARGS ("** *cadena* **","** *argumentos* **") 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -35,13 +35,13 @@ RUNADDONWARGS ("** *cadena* **","** *argumentos* **")
 
 En la práctica, _los argumentos_ deben ser 50 o menos caracteres. Utilice la función RUNADDONWARGS para enlazar un programa, como un complemento a una celda, por ejemplo, a una celda Action o Events. 
   
-La función RUNADDONWARGS sólo puede ejecutar complementos que son miembros de la colección **Addons** de la aplicación. Para estar presente en la colección, un complemento debe ser un archivo EXE o VSL que es: 
+La función RUNADDONWARGS sólo puede ejecutar complementos que pertenecen a la colección **Addons** de la aplicación.Para formar parte de ese conjunto, el complemento debe consistir en un archivo EXE o VSL que haya sido: 
   
-- Instalado en la ruta de acceso de **Inicio** o **Addons** de la aplicación. 
+- Instalado en la ruta **Startup** o **Addons** de la aplicación. 
     
-- Agregar mediante programación utilizando el método **Add** de la colección **Addons** . 
+- Programado mediante el método **Add** de la colección **Addons**. 
     
-Para obtener más información acerca de cómo ejecutar código en Visio, vea [acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta referencia de ShapeSheet. 
+Para obtener más información acerca de cómo ejecutar código en Visio, vea [Acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta Referencia de ShapeSheet. 
   
 En versiones anteriores de Visio, esta función se denominaba _RUNADDONWARGS. La versión 4.0 de Visio y las posteriores aceptan cualquiera de las dos denominaciones.
   

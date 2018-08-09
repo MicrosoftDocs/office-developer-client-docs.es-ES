@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822333"
 ---
-# <a name="infiniteline-row-geometry-section"></a>Fila InfiniteLine (Sección de Geometría)
+# <a name="infiniteline-row-geometry-section"></a>Fila InfiniteLine (sección Geometría)
 
 Contiene el *x* - e *y* -coordenadas de dos puntos en una línea infinita. 
   

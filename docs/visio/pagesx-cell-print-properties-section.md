@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822727"
 ---
-# <a name="pagesx-cell-print-properties-section"></a>Celda PagesX (Sección de propiedades de impresión)
+# <a name="pagesx-cell-print-properties-section"></a>Celda PagesX (sección Propiedades de impresión)
 
 Determina el número de páginas impresas al que ajustar horizontalmente la página de dibujo. 
   
@@ -24,13 +24,13 @@ Determina el número de páginas impresas al que ajustar horizontalmente la pág
 
 Este valor se utiliza sólo cuando la celda OnPage tiene el valor TRUE. 
   
-Para obtener una referencia a la celda PagesX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PagesX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PagesX  <br/> |
    
-Para obtener una referencia a la celda PagesX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PagesX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

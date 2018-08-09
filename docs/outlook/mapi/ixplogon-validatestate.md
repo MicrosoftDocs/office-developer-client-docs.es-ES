@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 165fe3a72060e88dc34d8153c13ae58bcbd9ae0b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818037"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Comprobaciones de estado externo del proveedor de transporte. 
   
@@ -34,7 +34,7 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -90,13 +90,13 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cola MAPI llama el método **IXPLogon::ValidateState** para admitir las llamadas al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para el objeto de estado. El proveedor de transporte debe responder a la llamada **IXPLogon::ValidateState** exactamente como si hubiera abierto un objeto de estado para la sesión actual de inicio de sesión y, a continuación, llame **IMAPIStatus::ValidateState** en ese objeto la cola MAPI. 
   
 Para admitir su implementación de **IMAPIStatus::ValidateState**, la cola MAPI llama a **IXPLogon::ValidateState** en todos los objetos de inicio de sesión para todos los proveedores de transporte de activo que se ejecutan en una sesión de perfil. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -104,5 +104,5 @@ Para admitir su implementación de **IMAPIStatus::ValidateState**, la cola MAPI 
   
 [IXPLogon::AddressTypes](ixplogon-addresstypes.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

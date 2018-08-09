@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c702e4063bf5e5a06a9e476a02172a780c7e326a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817646"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre un archivo adjunto. 
   
@@ -36,7 +36,7 @@ HRESULT OpenAttach(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulAttachmentNum_
   
@@ -72,7 +72,7 @@ S_OK
   
 > Los datos adjuntos se abren correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMessage::OpenAttach** abre datos adjuntos de un mensaje. 
   
@@ -92,7 +92,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |AttachmentsDlg.cpp usado para  <br/> |CAttachmentsDlg::OpenItemProp  <br/> |MFCMAPI usa el método **IMessage::OpenAttach** para abrir los objetos de datos adjuntos,  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

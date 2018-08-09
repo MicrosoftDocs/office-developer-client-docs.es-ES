@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823329"
 ---
-# <a name="sqrt-function"></a>SQRT (función)
+# <a name="sqrt-function"></a>Función SQRT
 
 Devuelve la raíz cuadrada de un número. 
   
@@ -24,11 +24,11 @@ Devuelve la raíz cuadrada de un número.
 
 SQRT (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El número cuya raíz cuadrada desea buscar.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El número cuya raíz cuadrada desea buscar.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

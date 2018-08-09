@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 356c7e800bdcac84c3cc8062e40372112727999e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816532"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes en una estructura [MTSID](mtsid.md) existente. 
   
@@ -36,18 +36,18 @@ Calcula el número de bytes en una estructura [MTSID](mtsid.md) existente.
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __lpentry_
   
 > Puntero a la estructura **MTSID** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [MTSID](mtsid.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

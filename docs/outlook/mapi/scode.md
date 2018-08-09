@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6cd9dfe8fabd1ae7a4389550c628fb7ceff09ea8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820581"
 ---
 # <a name="scode"></a>SCODE
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un valor de estado de 32 bits que se usa para describir un error o advertencia. 
   
@@ -30,7 +30,7 @@ typedef ULONG SCODE;
 
 ```
 
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El tipo de datos **SCODE** es el mismo que el tipo de datos [HRESULT](hresult.md) . 
   
@@ -51,7 +51,7 @@ Muchas de las funciones MAPI y métodos devuelven valores **SCODE** definidos co
   
 Para obtener más información acerca de cómo utiliza el tipo de datos **SCODE** MAPI, vea [Control de errores](error-handling-in-mapi.md). Para obtener más información acerca de OLE y el tipo de datos **SCODE** , vea la *referencia del programador de OLE* . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

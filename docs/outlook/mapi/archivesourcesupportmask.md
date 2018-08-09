@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816441"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica si Microsoft Office Outlook debe examinar las carpetas de un almacén y archivarlos automáticamente.
   

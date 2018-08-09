@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagScheduleInfoMonthsBusy
+title: Propiedad canónica PidTagScheduleInfoMonthsBusy
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 293e8648374b61784f5bda0db124506f345b2701
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820236"
 ---
-# <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propiedad canónico PidTagScheduleInfoMonthsBusy
+# <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propiedad canónica PidTagScheduleInfoMonthsBusy
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene los meses para el que están presentes en el mensaje de libre/ocupado datos de disponibilidad de tipo ocupado.
   
@@ -32,7 +32,7 @@ Contiene los meses para el que están presentes en el mensaje de libre/ocupado d
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Libre/ocupado  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El formato, el cálculo y las restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) pero hacer referencia a las citas que están marcadas ocupadas en el objeto de calendario asociado.
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -66,7 +66,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

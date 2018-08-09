@@ -15,19 +15,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822533"
 ---
-# <a name="lockthemeeffects-cell-protection-section"></a>Celda LockThemeEffects (Sección de protección)
+# <a name="lockthemeeffects-cell-protection-section"></a>Celda LockThemeEffects (sección Protección)
 
 Impide la aplicación de efectos del tema a la forma. 
   
 Corresponde a la opción de casilla de verificación **contra efectos del tema** en el cuadro de diálogo **protección** . 
   
-Para hacer referencia a la celda LockThemeEffects por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para hacer referencia a la celda LockThemeEffects por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:
+
+ 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockThemeEffects  <br/> |
    
-Para hacer referencia desde un programa a la celda LockThemeEffects según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para hacer referencia desde un programa a la celda LockThemeEffects según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
+
+ 
   
 |||
 |:-----|:-----|

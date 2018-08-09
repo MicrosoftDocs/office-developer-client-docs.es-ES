@@ -1,5 +1,5 @@
 ---
-title: Celda NoProofing (sección de varios)
+title: Celda NoProofing (sección Varios)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19822678"
 ---
-# <a name="noproofing-cell-miscellaneous-section"></a>Celda NoProofing (sección de varios)
+# <a name="noproofing-cell-miscellaneous-section"></a>Celda NoProofing (sección Varios)
 
 Determina si se ha corregido automáticamente ortografía y si se muestran los errores de ortografía para la forma seleccionada. Toma un valor **booleano** . 
   

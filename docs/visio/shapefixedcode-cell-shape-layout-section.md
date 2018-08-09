@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823140"
 ---
-# <a name="shapefixedcode-cell-shape-layout-section"></a>Celda ShapeFixedCode (sección de diseño de forma)
+# <a name="shapefixedcode-cell-shape-layout-section"></a>Celda ShapeFixedCode (sección Diseño de forma)
 
 Especifica el comportamiento de colocación de una forma que puede colocarse.
   
@@ -29,7 +29,7 @@ Especifica el comportamiento de colocación de una forma que puede colocarse.
 |&amp;H40 (64)  <br/> |Permitir el enrutamiento únicamente a los lados con puntos de conexión.  <br/> |**visSLOFixedConnPtsOnly** <br/> |
 |&amp;H80 (128)  <br/> |No pegar al perímetro de esta forma. En lugar de ello, pegar al cuadro de alineación de la forma.  <br/> |**visSLOFixedNoFoldToShape** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 También puede establecer el valor de esta celda en la ficha de **colocación** en el cuadro de diálogo **comportamiento** (con una forma seleccionada, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ). 
   
@@ -37,13 +37,13 @@ Puede establecer cualquier combinación de estos valores para esta celda. Por ej
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios. 
   
-Para obtener una referencia a la celda ShapeFixedCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShapeFixedCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |ShapeFixedCode  <br/> |
    
-Para obtener una referencia a la celda ShapeFixedCode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShapeFixedCode por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

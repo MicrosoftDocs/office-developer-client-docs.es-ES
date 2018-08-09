@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822880"
 ---
-# <a name="prompt-cell-user-defined-cells-section"></a>Celda Prompt (Sección de celdas definidas por el usuario)
+# <a name="prompt-cell-user-defined-cells-section"></a>Celda Prompt (sección Celdas definidas por el usuario)
 
 Especifica un mensaje o comentario descriptivo para la celda definida por el usuario. La aplicación pone automáticamente el texto del mensaje entre comillas (" ") para indicar que se trata de una cadena de texto. Si escribe un signo de igual (=) y omite las comillas, podrá escribir una fórmula en esta celda que evaluará la aplicación.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Prompt por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Prompt por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Usuario.  *Nombre* . Where Prompt usuario.  *Nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Prompt por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Prompt por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

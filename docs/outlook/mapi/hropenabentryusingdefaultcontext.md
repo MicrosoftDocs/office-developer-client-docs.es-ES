@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 74660de551d43c589cb903b5c3852136f2f18269
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19817061"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza la misma función que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) excepto en que utiliza el heredado **emsmdbUID** como el parámetro _pEmsmdbUID_ . No utilice esta función, a menos que no se puede obtener la correcta **emsmdbUID** para la llamada a [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md).
   
@@ -42,7 +42,7 @@ HRESULT HrOpenABEntryUsingDefaultContext(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pmsess_
   

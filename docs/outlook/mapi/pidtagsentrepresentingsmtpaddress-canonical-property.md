@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSentRepresentingSmtpAddress
+title: Propiedad canónica PidTagSentRepresentingSmtpAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d3a3545c544c7b5cf5200468a94edf720dd326e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820283"
 ---
-# <a name="pidtagsentrepresentingsmtpaddress-canonical-property"></a>Propiedad canónico PidTagSentRepresentingSmtpAddress
+# <a name="pidtagsentrepresentingsmtpaddress-canonical-property"></a>Propiedad canónica PidTagSentRepresentingSmtpAddress
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la dirección de correo electrónico de Protocolo Simple de transferencia de correo (SMTP) para el usuario de mensajería que está representada por el remitente.
   
@@ -30,7 +30,7 @@ Contiene la dirección de correo electrónico de Protocolo Simple de transferenc
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es un ejemplo de las propiedades de dirección para el usuario de mensajería que se está representado por el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representado en los valores para que el cliente. Un usuario de mensajería enviar en su propio nombre normalmente deja las propiedades de remitente representado no establecido.
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -90,7 +90,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

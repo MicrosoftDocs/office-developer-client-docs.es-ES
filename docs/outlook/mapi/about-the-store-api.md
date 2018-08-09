@@ -1,5 +1,5 @@
 ---
-title: Acerca de la API del almacén
+title: Información sobre la API del almacén
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816385"
 ---
-# <a name="about-the-store-api"></a>Acerca de la API del almacén
+# <a name="about-the-store-api"></a>Información sobre la API del almacén
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La API de almacenar proporciona funcionalidad de almacén de varios para los proveedores de almacén. Proporciona las siguientes definiciones, propiedades, tipos de datos y las interfaces.
   

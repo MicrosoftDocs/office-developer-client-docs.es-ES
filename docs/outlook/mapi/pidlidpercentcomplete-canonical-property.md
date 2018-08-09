@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidPercentComplete
+title: Propiedad canónica PidLidPercentComplete
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f4675362de1e9efe4ef16285723cddeface9c403
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818845"
 ---
-# <a name="pidlidpercentcomplete-canonical-property"></a>Propiedad canónico PidLidPercentComplete
+# <a name="pidlidpercentcomplete-canonical-property"></a>Propiedad canónica PidLidPercentComplete
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica que el progreso que el usuario haya realizado en una tarea. 
   
@@ -33,9 +33,9 @@ Indica que el progreso que el usuario haya realizado en una tarea.
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008102  <br/> |
 |Tipo de datos:  <br/> |PT_R8  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser un número mayor o igual que 0,0 y menor que o igual a 1,0, donde 1.0 indica que el trabajo se ha completado y 0,0 indica que no ha comenzado el trabajo.
   
@@ -75,7 +75,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,7 +83,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

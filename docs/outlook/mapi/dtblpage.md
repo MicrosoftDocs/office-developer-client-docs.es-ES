@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816756"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una página con fichas que se usará en un cuadro de diálogo que se genera a partir de una tabla para mostrar. 
   
@@ -43,7 +43,7 @@ typedef struct _DTBLPAGE
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -65,7 +65,7 @@ MAPI_UNICODE.
   
 > Un identificador único para la página con fichas en la cadena definida por el miembro **ulbLpszComponent** . El miembro **ulbLpszComponent** y el miembro **ulContext** deben ser distinto de cero para el botón de **Ayuda** para que funcione. Si este identificador es cero y la cadena de componente es NULL, no hay ninguna ayuda asociado a la página. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura **DTBLPAGE** describe una página con fichas de un control que se usa para separar varios cuadros de diálogo relacionados. Normalmente, estos cuadros de diálogo son hojas de propiedades para mostrar la configuración, mensaje u opciones de destinatarios. Al hacer clic en la ficha, el usuario puede cambiar de una hoja a otra. 
   
@@ -73,7 +73,7 @@ El identificador de cadena y el contexto de componente proporcionan información
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

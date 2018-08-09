@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 152f3032876d6473f1716afa46507196cd5ecc55
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820755"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción de objetos secundarios que se usa para filtrar las filas de datos adjuntos o la tabla de destinatarios de un mensaje.
   
@@ -40,7 +40,7 @@ typedef struct _SSubRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSubObject**
   
@@ -58,7 +58,7 @@ PR_MESSAGE_ATTACHMENTS
   
 > Puntero a una estructura [SRestriction](srestriction.md) . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las restricciones de los objetos secundarios no son compatibles con todas las tablas. Normalmente, las tablas de contenido de carpeta sólo y son compatibles con las carpetas de los resultados de búsqueda. Por ejemplo, las restricciones de los objetos secundarios se usan para encontrar un mensaje que tiene un tipo de datos adjuntos o un destinatario determinado. 
   
@@ -66,7 +66,7 @@ Si una implementación no es compatible con las restricciones de los objetos sec
   
 Para obtener una descripción general de cómo funcionan las restricciones, vea [Restricciones de sobre](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

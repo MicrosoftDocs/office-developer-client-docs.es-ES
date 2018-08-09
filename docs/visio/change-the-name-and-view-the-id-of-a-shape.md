@@ -16,11 +16,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821742"
 ---
-# <a name="change-the-name-and-view-the-id-of-a-shape"></a>Cambiar el nombre y ver el identificador de una forma
+# <a name="change-the-name-and-view-the-id-of-a-shape"></a>Cambiar el nombre y ver el Id. de una forma
 
 1. Seleccione una forma en la ventana de dibujo.
     
-2. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Diseño de formas** , haga clic en **Nombre de la forma**.
+2. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), dentro del grupo **Diseño de formas**, haga clic en **Nombre de forma**.
     
 3. En el cuadro de diálogo **Nombre de la forma** , escriba un nombre. 
     

@@ -1,5 +1,5 @@
 ---
-title: Trabajar con columnas con varios valores
+title: Trabajar con columnas multivalor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820997"
 ---
-# <a name="working-with-multivalued-columns"></a>Trabajar con columnas con varios valores
+# <a name="working-with-multivalued-columns"></a>Trabajar con columnas multivalor
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una columna multivalor contiene los datos de una propiedad multivalor, que es una propiedad que tiene una matriz de valores del tipo base en lugar de un solo valor. Debido a que ninguna de las tablas incluyen propiedades multivalor en sus conjuntos de columnas predeterminados, se incluyen propiedades multivalor en una tabla sólo si lo solicita el usuario de la tabla. 
   
@@ -37,7 +37,7 @@ Un usuario de la tabla solicita el tipo que no sean predeterminadas de presentac
   
 Tabla sólo son necesarios para admitir el tipo de presentación predeterminado e implementadores pueden devolver el valor MAPI_E_TOO_COMPLEX cuando un llamador solicita la otra alternativa. La capacidad para admitir ambos tipos de presentación es más importante para los proveedores de almacén de mensaje que se implementan las tablas de contenido de carpeta. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Función RIGHT (VisioShapeSheet)
+title: Función de la derecha (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822986"
 ---
-# <a name="right-function-visioshapesheet"></a>Función RIGHT (VisioShapeSheet)
+# <a name="right-function-visioshapesheet"></a>Función de la derecha (VisioShapeSheet)
 
 Devuelve el último carácter o caracteres de una cadena de texto, en función del número de caracteres que especifique.
   
@@ -24,7 +24,7 @@ Devuelve el último carácter o caracteres de una cadena de texto, en función d
 
 DERECHA (** *texto* ** [, ** *número_caracteres_opcional* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -33,7 +33,7 @@ DERECHA (** *texto* ** [, ** *número_caracteres_opcional* **])
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Notas
 

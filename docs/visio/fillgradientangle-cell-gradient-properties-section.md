@@ -1,5 +1,5 @@
 ---
-title: Celda FillGradientAngle (sección de propiedades de degradado)
+title: Celda FillGradientAngle (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822126"
 ---
-# <a name="fillgradientangle-cell-gradient-properties-section"></a>Celda FillGradientAngle (sección de propiedades de degradado)
+# <a name="fillgradientangle-cell-gradient-properties-section"></a>Celda FillGradientAngle (sección Propiedades de degradado)
 
 Determina el ángulo del relleno degradado para degradados con una dirección lineal, en grados. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **FillGradientAngle** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

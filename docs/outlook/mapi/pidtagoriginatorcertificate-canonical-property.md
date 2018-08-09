@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagOriginatorCertificate
+title: Propiedad canónica PidTagOriginatorCertificate
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 871ce5f594a75b9441d0434c3be47b2718540576
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819867"
 ---
-# <a name="pidtagoriginatorcertificate-canonical-property"></a>Propiedad canónico PidTagOriginatorCertificate
+# <a name="pidtagoriginatorcertificate-canonical-property"></a>Propiedad canónica PidTagOriginatorCertificate
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un certificado ASN.1 para el autor del mensaje.
   
@@ -34,7 +34,7 @@ Contiene un certificado ASN.1 para el autor del mensaje.
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es una copia de propiedad del autor de la de **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -58,7 +58,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

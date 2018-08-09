@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822072"
 ---
-# <a name="endtrigger-cell-glue-info-section"></a>Celda EndTrigger (Sección de información de pegado)
+# <a name="endtrigger-cell-glue-info-section"></a>Celda EndTrigger (sección Información de pegado)
 
 Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el extremo de una forma 1-D para mantener su conexión con otra forma.
   
@@ -24,13 +24,13 @@ Contiene una fórmula desencadenadora generada por la aplicación que determina 
 
 Cuando se pega una forma 1-D a otra utilizando el pegado dinámico, Visio genera una fórmula que hace referencia a la celda EventXFMod de la otra forma. Al cambiar esa otra forma, Visio vuelve a calcular toda fórmula que se refiera a su celda EventXFMod, incluida la fórmula de la celda EndTrigger. Las demás fórmulas de la forma 1-D se remiten a la celda EndTrigger y mueven el extremo de la forma 1-D o la alteran según sea necesario.
   
-Para obtener una referencia a la celda EndTrigger por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EndTrigger por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EndTrigger  <br/> |
    
-Para obtener una referencia a la celda EndTrigger por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EndTrigger por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

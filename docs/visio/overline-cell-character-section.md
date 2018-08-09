@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822700"
 ---
-# <a name="overline-cell-character-section"></a>Celda Overline (Sección de caracteres)
+# <a name="overline-cell-character-section"></a>Celda Overline (sección Caracteres)
 
 Determina si el texto tiene una línea encima.
   
@@ -27,15 +27,15 @@ Determina si el texto tiene una línea encima.
    
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el valor de esta celda mediante el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en la flecha de **fuente** ). 
+También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
-Para obtener una referencia a la celda Overline por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Overline por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.Overline [ *i* ] donde *i* = < 1 >, 2. 3 …  <br/> |
    
-Para obtener una referencia a la celda Overline por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Overline por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

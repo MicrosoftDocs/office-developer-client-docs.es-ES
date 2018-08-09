@@ -19,7 +19,7 @@ ms.locfileid: "19818417"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta función es similar a **WideCharToMultiByte**, que se asigna una cadena de UTF-16 (carácter ancho) a una nueva cadena de caracteres. La nueva cadena de caracteres no está necesariamente desde un carácter de varios bytes establecida.
   
@@ -35,7 +35,7 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _uCodePage_
   
@@ -73,11 +73,11 @@ int MNLS_WideCharToMultiByte(
 
 Devuelve el número de bytes escritos en el búfer al que señala por _lpMultiByteStr_ si se realiza correctamente. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la función **WideCharToMultiByte** . Para obtener más información, vea [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822899"
 ---
-# <a name="readonly-cell-actions-section"></a>Celda ReadOnly (sección de acciones)
+# <a name="readonly-cell-actions-section"></a>Celda ReadOnly (sección Acciones)
 
 Controla si la acción de un menú contextual o de etiqueta de acción es de sólo lectura. 
   
@@ -32,13 +32,13 @@ Controla si la acción de un menú contextual o de etiqueta de acción es de só
 
 Cuando una acción es de sólo lectura, aparece en el menú contextual o de etiqueta de acción pero no se puede seleccionar. No está atenuada, pero en su lugar aparece en un fondo coloreado, como una etiqueta. Para hacer que el elemento de menú aparece atenuado, utilice la celda Disabled. 
   
-Para obtener una referencia a la celda ReadOnly por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ReadOnly por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Acciones. *nombre* . Acciones de ReadOnlywhere.  *nombre* es el nombre de la fila de acciones  <br/> |
    
-Para obtener una referencia a la celda ReadOnly por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ReadOnly por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

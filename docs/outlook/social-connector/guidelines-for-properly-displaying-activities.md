@@ -1,5 +1,5 @@
 ---
-title: Instrucciones para mostrar correctamente las actividades
+title: Directrices para mostrar las actividades correctamente
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821085"
 ---
-# <a name="guidelines-for-properly-displaying-activities"></a>Instrucciones para mostrar correctamente las actividades
+# <a name="guidelines-for-properly-displaying-activities"></a>Directrices para mostrar las actividades correctamente
 
 Proveedores de Outlook Social Connector (OSC) pueden establecer la **getActivities** y elementos de **dynamicActivitiesLookupEx** tener el OSC almacenan elementos de actividad en la memoria. En este tema se describe la extensibilidad del proveedor OSC fuentes de las API que llama el OSC para obtener o actualizar las actividades y detalles de propietario de la actividad, si el proveedor de OSC admite la sincronización de actividad de la red social. El tema también enumera algunos elementos secundarios del elemento **activityFeed** que el proveedor OSC debe establecer para que el OSC para mostrar las actividades correctamente en la tarjeta de contacto de Office o el panel de personas de Outlook. 
   
@@ -29,7 +29,7 @@ Proveedores de Outlook Social Connector (OSC) pueden establecer la **getActiviti
     
    Si sólo se especifica el elemento **ownerID** , pero no se especificaron uno o ambos de **nameHint** y **emailAddress** , el OSC llama al método de [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) y, a continuación, en la [ISocialPerson::GetDetails](isocialperson-getdetails.md) método para obtener más información acerca de la persona identificada por el **ownerID**. Cuando el OSC llama a **ISocialPerson::GetDetails**, el proveedor debe devolver **persona** XML que especifica los elementos **fullName** y **emailAddress** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [XML de actividades](xml-for-activities.md)  
 - [XML de amigos](xml-for-friends.md)  

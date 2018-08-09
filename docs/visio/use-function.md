@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823486"
 ---
-# <a name="use-function"></a>USE (función)
+# <a name="use-function"></a>Función USE
 
 Se aplica la trama de línea, trama de relleno o extremo de línea llamado _nombre_ a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o EndArrow. 
   
@@ -24,7 +24,7 @@ Se aplica la trama de línea, trama de relleno o extremo de línea llamado _nomb
 
 USE ("** *nombre* **") 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +34,7 @@ USE ("** *nombre* **")
 
 Number
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si un patrón con _nombre_ está presente en la Galería de símbolos de documento del documento, el patrón se aplica como patrón de línea, patrón de relleno, flecha inicial o flecha final. 
   

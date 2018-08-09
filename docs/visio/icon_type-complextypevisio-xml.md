@@ -21,7 +21,7 @@ ms.locfileid: "19822308"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de la extensión** <br/> |xsd: base64Binary  <br/> |
+|**Base de extensión** <br/> |xsd: base64Binary  <br/> |
    
 ## <a name="definition"></a>Definición
 

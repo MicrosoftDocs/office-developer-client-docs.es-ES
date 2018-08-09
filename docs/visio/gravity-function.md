@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822241"
 ---
-# <a name="gravity-function"></a>GRAVITY (función)
+# <a name="gravity-function"></a>Función GRAVITY
 
 Calcula el ángulo correcto de un bloque de texto de rotación de la rotación de la forma indicada evitar que el texto quede hacia abajo.
   
@@ -24,7 +24,7 @@ Calcula el ángulo correcto de un bloque de texto de rotación de la rotación d
 
 GRAVITY (** *ángulo* **, [** *límite 1* **], [** *límite 2* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +34,7 @@ GRAVITY (** *ángulo* **, [** *límite 1* **], [** *límite 2* **])
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

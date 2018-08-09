@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e237e73f59fa691821dcb55b59f5d17518451797
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817854"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicializa un nuevo mensaje.
   
@@ -34,7 +34,7 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pMessageSite_
   
@@ -50,7 +50,7 @@ S_OK
   
 > El nuevo mensaje se inicializó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario, llame al método **IPersistMessage::InitNew** cuando el usuario escribe un mensaje nuevo que pertenece a una clase de mensaje que controla el formulario. Si el objeto de formulario tiene un puntero de interfaz de usuario válido, se debe mostrar la interfaz de usuario para el objeto de mensaje. 
   
@@ -88,9 +88,9 @@ Después de realizar una llamada satisfactoria a **InitNew**, se puede asumir qu
   
 Para obtener más información acerca de los Estados de los formularios, vea [Estados de formulario](form-states.md). Para obtener más información acerca de cómo se inicializan los objetos de almacenamiento, vea el método [IPersistStorage::InitNew](http://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

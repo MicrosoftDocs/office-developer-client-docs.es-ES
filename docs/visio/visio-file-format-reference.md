@@ -26,7 +26,7 @@ Esta documentación contiene la siguiente información:
   
 - [Introducción al formato de archivo de Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
     
-- [Manipular mediante programación el formato de archivo de Visio](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [Manipular el formato de archivo de Visio mediante programación](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [Asignación de esquema](schema-mapvisio-xml.md): muestra el esquema XML del formato de archivo de Visio.
     
@@ -34,7 +34,7 @@ Esta documentación contiene la siguiente información:
     
 - [Tipos](typesvisio-xml.md): proporciona información acerca de los tipos XML que pueden aparecer en el formato de archivo de Visio.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Visio para desarrolladores](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     

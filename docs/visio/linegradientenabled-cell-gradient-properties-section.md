@@ -1,5 +1,5 @@
 ---
-title: Celda LineGradientEnabled (sección de propiedades de degradado)
+title: Celda LineGradientEnabled (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822447"
 ---
-# <a name="linegradientenabled-cell-gradient-properties-section"></a>Celda LineGradientEnabled (sección de propiedades de degradado)
+# <a name="linegradientenabled-cell-gradient-properties-section"></a>Celda LineGradientEnabled (sección Propiedades de degradado)
 
 Determina si un degradado de línea está habilitado para una línea o un borde de una forma. 
   
@@ -23,7 +23,7 @@ Determina si un degradado de línea está habilitado para una línea o un borde 
 |TRUE  <br/> |Degradado se muestra en la línea o el borde de una forma.  <br/> |
 |FALSE  <br/> |Degradados no se muestran en la línea o el borde de una forma.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **LineGradientEnabled** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

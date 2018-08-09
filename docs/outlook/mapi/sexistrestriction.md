@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 62b5a42a540a4fb96761c45cd51c510f12225e9e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820655"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción existente que se usa para comprobar si una propiedad determinada existe como una columna en la tabla. 
   
@@ -41,7 +41,7 @@ typedef struct _SExistRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulReserved1**
   
@@ -55,7 +55,7 @@ typedef struct _SExistRestriction
   
 > Reservado; debe ser cero.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La restricción de existen se usa para garantizar resultados significativos para otros tipos de restricciones que impliquen propiedades, por ejemplo, restricciones de propiedad y contenido. Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, no están definidos los resultados de la restricción. Mediante la creación de una restricción **y** que se une a la restricción de propiedad con una restricción existe, un autor de la llamada se pueda garantizar resultados precisos. 
   
@@ -63,7 +63,7 @@ Existen restricciones no se puede usar con las propiedades del objeto subcaracte
   
 Para obtener más información acerca de la estructura **SExistRestriction** , vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

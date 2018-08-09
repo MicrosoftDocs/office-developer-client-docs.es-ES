@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816766"
 ---
 # <a name="dtctl"></a>DTCTL
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe un control que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar. 
   
@@ -58,7 +58,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulCtlType**
   
@@ -168,7 +168,7 @@ DT_SET_IMMEDIATE
   
 > Una estructura que contiene los datos para el control y se corresponde con la propiedad del control **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)). Cada tipo de control tiene una estructura diferente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **DTCTL** describe un control de cualquier tipo. La mayoría de sus miembros se usa para establecer las propiedades en el control. 
   
@@ -182,7 +182,7 @@ Los controles disponibles para un cuadro de diálogo son etiqueta, cuadro de tex
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [BuildDisplayTable](builddisplaytable.md)
 - [DTBLBUTTON](dtblbutton.md)

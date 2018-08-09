@@ -23,6 +23,6 @@ Explore estos vínculos para conocer más acerca del uso de Registro de telemetr
 
 - [Solución de problemas de los archivos de Office y soluciones personalizadas con el registro de telemetría](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     
-- [Problemas de compatibilidad de Office](compatibility-issues-in-office.md)
+- [Problemas de compatibilidad en Office](compatibility-issues-in-office.md)
     
 

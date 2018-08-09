@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a9aa6deeca930da82db61ba517796bfbc0676467
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817031"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un identificador de entrada compuestos para un objeto, normalmente un mensaje en un almacén de mensajes. 
   
@@ -45,7 +45,7 @@ HrComposeEID(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pSession_
   
@@ -79,13 +79,13 @@ HrComposeEID(
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el mensaje u otro objeto para el que se está creando el identificador de entrada compuestos reside en un almacén de mensajes, se crea el identificador de identificador de entrada del objeto y la clave de registro de la tienda. Si el objeto no está en un almacén, es decir, si el número de bytes para la clave de registro de almacenamiento que se pasan en _cbStoreRecordKey_ es cero, el identificador del objeto entrada es simplemente se copian. 
   
 La función **HrComposeEID** permite a las aplicaciones trabajar con objetos en varios almacenes mediante el uso de los identificadores de entrada compuestos. Una aplicación puede llamar a la función [HrDecomposeEID](hrdecomposeeid.md) para dividir el identificador de entrada compuesto en sus componentes originales. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821602"
 ---
-# <a name="bitnot-function"></a>BITNOT (función)
+# <a name="bitnot-function"></a>Función BITNOT
 
 Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario es 0. De lo contrario, el bit se establece en 0.
   
@@ -24,11 +24,11 @@ Devuelve un número binario de 16 bits en el que cada bit está establecido en 1
 
 BITNOT (** *número binario* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _número binario_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Un número binario de 16 bits.  <br/> |
+| _número binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Un número binario de 16 bits.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

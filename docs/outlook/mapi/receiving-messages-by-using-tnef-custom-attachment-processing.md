@@ -1,5 +1,5 @@
 ---
-title: Recibir mensajes mediante el uso de procesamiento de datos adjuntos personalizado TNEF
+title: Recibir mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820498"
 ---
-# <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Recibir mensajes mediante el uso de procesamiento de datos adjuntos personalizado TNEF
+# <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Recibir mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para recibir un mensaje TNEF con procesamiento de datos adjuntos personalizado:
   

@@ -16,15 +16,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822448"
 ---
-# <a name="langid-cell-miscellaneous-section"></a>Celda LangID (Sección de varios)
+# <a name="langid-cell-miscellaneous-section"></a>Celda LangID (sección Varios)
 
 Indica el idioma de las fórmulas de celda. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de los idiomas admitidos por las aplicaciones de Microsoft Office, vea el tema de [DocLangID](doclangid-cell-document-properties-section.md) (sección Document Properties) de la celda. 
+Para obtener una lista de los idiomas admitidos por las aplicaciones de Microsoft Office, vea el tema sobre la celda [DocLangID](doclangid-cell-document-properties-section.md) (sección sobre propiedades del documento). 
   
-Para obtener una referencia a la celda LangID por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LangID por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

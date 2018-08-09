@@ -1,5 +1,5 @@
 ---
-title: Actividades de prueba
+title: Probar las actividades
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821220"
 ---
-# <a name="testing-activities"></a>Actividades de prueba
+# <a name="testing-activities"></a>Probar las actividades
 
 Este tema describen las pruebas y escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) utiliza sincronización a petición para devolver actividades de amigos y amigos que no sean de forma adecuada.
 
@@ -44,7 +44,7 @@ Para comprobar que está recibiendo las actividades correspondientes de amigos y
 |Persona seleccionada en el panel de personas es un amigo con el usuario ha iniciado sesión en la red social.  <br/> |El panel de personas muestra los perfiles y la imagen del perfil que las registradas en la red social de esa persona.  <br/> |
 |Persona seleccionada en el panel de personas sea de confianza que no sean del usuario ha iniciado sesión en la red social, pero ha permitido su perfil puedan verse en que no sean de amigos.  <br/> |El panel de personas muestra los perfiles y la imagen del perfil que las registradas en la red social de esa persona.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  
 - [XML de actividades](xml-for-activities.md)

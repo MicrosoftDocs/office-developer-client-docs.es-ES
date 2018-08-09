@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823347"
 ---
-# <a name="substitute-function"></a>SUBSTITUTE (función)
+# <a name="substitute-function"></a>Función SUBSTITUTE
 
 Reemplaza parte de una cadena de texto con una cadena de texto diferente. 
   
@@ -24,19 +24,20 @@ Reemplaza parte de una cadena de texto con una cadena de texto diferente.
 
  SUBSTITUTE (** *texto* **, ** *texto_anterior* **, ** *texto_nuevo* ** [, ** *número_inicio* **] [, ** *distinguir_mayúsculas_minúsculas_opcional* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto o la referencia a la celda que contiene el texto cuyos caracteres se desea reemplazar.  <br/> |
-| _texto original_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que desea reemplazar.  <br/> |
+| _texto original_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que se desea reemplazar.
+  <br/> |
 | _texto_nuevo_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que desea usar para reemplazar el _texto original_.  <br/> |
-| _número_inicio_opcional_ <br/> |Opcional  <br/> |**Numérico** <br/> |Especifica qué apariciones de texto_anterior desea reemplazar.  <br/> |
+| _número_inicio_opcional_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica qué apariciones de texto_anterior desea reemplazar.  <br/> |
 | _distinguir_mayúsculas_minúsculas_opcional_ <br/> |Opcional  <br/> |**Boolean** <br/> |Será FALSE si diferencia entre mayúsculas y minúsculas y, si no, TRUE. El valor predeterminado es FALSE (falso).  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Notas
 

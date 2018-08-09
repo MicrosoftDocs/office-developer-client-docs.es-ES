@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 64a64029c3507d9ac4b520076a44e23170dd9bd4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817262"
 ---
-# <a name="imapifolder--imapicontainer"></a>IMAPIFolder: IMAPIContainer
+# <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza operaciones en los mensajes y subcarpetas en una carpeta.
   
@@ -53,7 +53,7 @@ Realiza operaciones en los mensajes y subcarpetas en una carpeta.
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Establece el criterio de ordenación predeterminado para la tabla de contenido de una carpeta.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la propia carpeta.  <br/> |
    
-|**Propiedades necesarias**|**Access**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
 |**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -64,7 +64,7 @@ Realiza operaciones en los mensajes y subcarpetas en una carpeta.
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

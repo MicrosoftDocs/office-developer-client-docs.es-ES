@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822531"
 ---
-# <a name="lockmovex-cell-protection-section"></a>Celda LockMoveX (sección de protección)
+# <a name="lockmovex-cell-protection-section"></a>Celda LockMoveX (sección Protección)
 
 Bloquea la posición horizontal de la forma de manera que ésta no se puede desplazar horizontalmente.
   
@@ -27,13 +27,13 @@ Bloquea la posición horizontal de la forma de manera que ésta no se puede desp
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockMoveX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockMoveX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockMoveX  <br/> |
    
-Para obtener una referencia a la celda LockMoveX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockMoveX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b640a5aa-4e36-4983-bf11-9428809e830b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fcedaf689db8280b4649662ba61c8468d0f98305
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19817060"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre la **propiedad entryID** utilizando la libreta de direcciones de Exchange identificado por **pEmsmdbUID**. Esta función funciona de manera similar a [IAddrBook::Details](iaddrbook-details.md) excepto en que el uso de esta función garantiza que la [IAddrBook::OpenEntry](iaddrbook-openentry.md) se abre mediante el proveedor de la libreta de direcciones de Exchange esperado. 
   
@@ -41,7 +41,7 @@ HRESULT HrDoABDetailsWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pmsess_
   

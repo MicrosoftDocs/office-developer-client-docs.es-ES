@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidSideEffects
+title: Propiedad canónica PidLidSideEffects
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 479ba1990f7cac1768fc5e514e3fc55f017e4a0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818915"
 ---
-# <a name="pidlidsideeffects-canonical-property"></a>Propiedad canónico PidLidSideEffects
+# <a name="pidlidsideeffects-canonical-property"></a>Propiedad canónica PidLidSideEffects
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Controla cómo se administra un objeto de mensaje por el cliente cuando actúa en la entrada del usuario final.
   
@@ -35,7 +35,7 @@ Controla cómo se administra un objeto de mensaje por el cliente cuando actúa e
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuración de tiempo de ejecución  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se debe establecer en un bit a bit o cero o más de las siguientes marcas.
   
@@ -75,7 +75,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,7 +83,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

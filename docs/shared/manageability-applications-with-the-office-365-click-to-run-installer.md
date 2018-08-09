@@ -121,13 +121,13 @@ En la siguiente documentación de referencia de API:
     
 - Resumen de IUpdateNotify2 interfaz es ahora incluye.
     
-### <a name="apply"></a>Aplicar
+### <a name="apply"></a>Apply
 
 ```cpp
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Sintaxis
+#### <a name="parameters"></a>Parámetros
 
 -  _nivel de presentación_: **true** para mostrar el estado de instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>Notas
+#### <a name="remarks"></a>Comentarios
 
 - Si se está ejecutando cualquier aplicación de Office cuando se desencadena la acción **Aplicar** , se producirá un error en la acción **Aplicar** . Pasando `forceappshutdown=true` a la que **Aplicar** método hará que el servicio de **OfficeClickToRun** cerrar inmediatamente a las aplicaciones de Office que se están ejecutando y aplican la actualización. El usuario puede experimentar datos tal como se les solicita no para guardar los cambios para abrir documentos.. 
     
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>Notas
+#### <a name="remarks"></a>Comentarios
 
 - Este método sólo se puede desencadenar cuando el identificador de estado de COM **eDOWNLOAD_WIP**. Intentará cancelar la acción de descarga actual. El estado de COM se cambie a **eDOWNLOAD_CANCELLING** y finalmente, cambie a **eDOWNLOAD_CANCELED**. El estado de COM devolverá **E_ILLEGAL_METHOD_CALL** si se desencadena en cualquier otro momento. 
     
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Sintaxis
+#### <a name="parameters"></a>Parámetros
 
 -  _nivel de presentación_: **true** para mostrar el estado de instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>Notas
+#### <a name="remarks"></a>Comentarios
 
 - Debe especificar _downloadsource_ y _contentid_ como un par. En caso contrario, el método **Descargar** devolverá un error **E_INVALIDARG** . 
     
@@ -252,7 +252,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "updatebaseurl=yourcontentserverurl"
   ```
 
-### <a name="status"></a>Estado
+### <a name="status"></a>Status
 
 ```cpp
 typdef struct _UPDATE_STATUS_REPORT
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Sintaxis
+#### <a name="parameters"></a>Parámetros
 
 |||
 |:-----|:-----|
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |El método de **estado** siempre devuelve este resultado. Inspeccionar el `UPDATE_STATUS_RESULT` estructura para el estado de la acción actual.  <br/> |
    
-#### <a name="remarks"></a>Notas
+#### <a name="remarks"></a>Comentarios
 
 - El campo de estado de la `UPDATE_STATUS_REPORT` contiene el estado de la acción actual. Se devuelve uno de los siguientes valores de estado: 
     

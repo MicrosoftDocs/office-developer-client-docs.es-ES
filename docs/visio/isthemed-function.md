@@ -1,5 +1,5 @@
 ---
-title: ISTHEMED (función)
+title: Función ISTHEMED
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822400"
 ---
-# <a name="isthemed-function"></a>ISTHEMED (función)
+# <a name="isthemed-function"></a>Función ISTHEMED
 
 Devuelve un valor Boolean que indica si una forma tiene un tema que se ha aplicado. 
   
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Visio 2013 
+Versión añadida: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,9 +29,9 @@ Versión agregada: Visio 2013
   
 ## <a name="return-value"></a>Valor devuelto
 
-Boolean
+Booleano
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 > [!NOTE]
 > La función **ISTHEMED** en Visio 2013 reemplaza la función **CELLISTHEMED** desde versiones anteriores de Visio. 

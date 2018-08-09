@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aae2e97b987414fc5e46b410465d3232b61f1ffe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816783"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Valida una lista de identificadores de entrada MAPI. 
   
@@ -39,7 +39,7 @@ BOOL FBadEntryList(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpEntryList_
   
@@ -55,7 +55,7 @@ FALSE
   
 > Todos los identificadores de entrada enumerados son válidos.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **FBadEntryList** determina si se ha generado correctamente la lista de identificador de entrada. Un ejemplo de un identificador no válido es uno para qué memoria se ha asignado incorrectamente o un identificador de un tamaño incorrecto. 
   

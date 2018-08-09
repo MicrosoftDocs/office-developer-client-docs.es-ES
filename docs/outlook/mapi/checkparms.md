@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e7a4fde57515f0b8a41b9acf4adb01dd177a7a19
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816545"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Llama a una función interna para validar parámetros de depuración en los métodos de proveedor de servicio llamados por MAPI. 
   
@@ -40,7 +40,7 @@ HRESULT CheckParms(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _eMethod_
   
@@ -56,7 +56,7 @@ S_OK
   
 > La llamada ha sido correcta.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 A diferencia de las macros [ValidateParms](validateparms.md) y [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** no realiza una validación del parámetro completa. Parámetros pasados entre MAPI y servicio se supone que los proveedores de ser correcta, por lo que **CheckParms** realiza solo una validación de depuración. 
   

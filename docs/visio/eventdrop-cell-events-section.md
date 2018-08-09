@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822075"
 ---
-# <a name="eventdrop-cell-events-section"></a>Celda EventDrop (Sección de eventos)
+# <a name="eventdrop-cell-events-section"></a>Celda EventDrop (sección Eventos)
 
 Una celda de evento que se evalúa cuando se coloca una forma en la página de dibujo, ya sea como una instancia o al duplicar o pegar la forma.
   
@@ -24,13 +24,14 @@ Una celda de evento que se evalúa cuando se coloca una forma en la página de d
 
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   
-Para obtener una referencia a la celda EventDrop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EventDrop por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EventDrop  <br/> |
    
-Para obtener una referencia a la celda EventDrop por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EventDrop por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

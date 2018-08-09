@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagReportDispositionToEmailAddresses
+title: Propiedad canónica PidTagReportDispositionToEmailAddresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e5014abf-eabc-4691-844c-f317a503c41b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 685f988e636f5322e81d093a3d9e7798b4f4d281
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820090"
 ---
-# <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a>Propiedad canónico PidTagReportDispositionToEmailAddresses
+# <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a>Propiedad canónica PidTagReportDispositionToEmailAddresses
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica las direcciones de correo electrónico de los destinatarios del informe para los mensajes que solicitar confirmación.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -58,7 +58,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

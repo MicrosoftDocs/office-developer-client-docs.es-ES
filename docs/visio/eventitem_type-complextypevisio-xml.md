@@ -21,7 +21,7 @@ ms.locfileid: "19822090"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de la extensión** <br/> |Ninguna  <br/> |
+|**Base de extensión** <br/> |Ninguna  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -69,7 +69,7 @@ Ninguno.
 |Acción  <br/> |xsd:unsignedShort  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedShort.  <br/> |
 |Habilitado  <br/> |Boolean con tipo  <br/> |opcional  <br/> ||Valores del tipo Boolean con tipo.  <br/> |
 |EventCode  <br/> |xsd:unsignedShort  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedShort.  <br/> |
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |Destino  <br/> |xsd: String  <br/> |necesario  <br/> ||Valores del tipo XSD: String.  <br/> |
 |TargetArgs  <br/> |xsd: String  <br/> |necesario  <br/> ||Valores del tipo XSD: String.  <br/> |
    

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821619"
 ---
-# <a name="bitor-function"></a>BITOR (función)
+# <a name="bitor-function"></a>Función BITOR
 
 Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 si el bit correspondiente en *número binario 1* o *número binario 2* es 1. El bit se establece en 0 solo si el bit correspondiente es 0 en *número binario 1* o *número binario 2* . 
   
@@ -24,12 +24,12 @@ Devuelve un número binario de 16 bits en el que cada bit está establecido en 1
 
 BITOR (** *número binario 1* **, ** *número binario 2* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _número binario 1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
-| _número binario 2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
+| _número binario 1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número binario 2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

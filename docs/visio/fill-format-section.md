@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822123"
 ---
-# <a name="fill-format-section"></a>Sección de formato de relleno
+# <a name="fill-format-section"></a>Sección Formato de relleno
 
 Muestra los atributos del formato de relleno actual de la forma y la sombra de la forma, incluyendo el patrón, el color de primer plano y el de fondo. 
   

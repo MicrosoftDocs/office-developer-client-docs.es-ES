@@ -19,7 +19,7 @@ ms.locfileid: "19820759"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En algún momento después de que un cliente inicia una sesión con MAPI, su proveedor de servicios se iniciarán. Los proveedores de transporte se inician cuando un cliente realiza una solicitud para sus servicios. Proveedores de almacén de libreta de direcciones y el mensaje de dirección se inician durante el proceso de inicio de sesión del cliente.
   
@@ -33,7 +33,7 @@ MAPI inicia cada proveedor de servicios en el perfil activo haciendo lo siguient
     
 - Llamar a la función de punto de entrada para el proveedor. MAPI llama a la función de punto de entrada de su proveedor para iniciar el proceso de inicio de sesión. Funciones de punto de entrada Asegúrese de que está usando una versión de la interfaz de proveedor de servicios (SPI) que es compatible con la versión que se está usa de MAPI. Estas funciones también devuelven punteros a objetos de proveedor recién creado. Para obtener más información sobre la creación de una entrada de función de punto de su proveedor, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md).
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

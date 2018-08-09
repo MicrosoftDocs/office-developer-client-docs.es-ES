@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |:-----|:-----|:-----|:-----|:-----|
 |N  <br/> |xsd: String  <br/> |necesario  <br/> |El nombre de la fórmula que se llama cuando se activa el desencadenador.  <br/> Vea la sección Comentarios.  <br/> |Valores del tipo XSD: String.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento **Trigger** debe ser uno de un conjunto limitado de valores que corresponden a las instrucciones de desencadenador. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento **Trigger** . 
   
@@ -88,6 +88,6 @@ El atributo **N** de este elemento **Trigger** debe ser uno de un conjunto limit
 |RecalcType  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Existe un desencadenador que aparece en una forma cuando una referencia entre elementos con una **tipo de** función.  <br/> |
 |RelChanged  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Existe un desencadenador que aparece en una forma cuando una referencia entre elementos mediante una función **CONTAINERMEMBERCOUNT** .  <br/> |
 |ZOrderChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Existe un desencadenador que aparece en una página cuando una referencia entre elementos mediante una función **CONTAINERSHEETREF** .  <br/> |
-|Ruta de acceso  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Existe un desencadenador que aparece en una página cuando una referencia entre elementos mediante una función **POINTALONGPATH**, **PATHLENGTH**o **PATHSEGMENT** .  <br/> |
+|Path  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Existe un desencadenador que aparece en una página cuando una referencia entre elementos mediante una función **POINTALONGPATH**, **PATHLENGTH**o **PATHSEGMENT** .  <br/> |
    
 

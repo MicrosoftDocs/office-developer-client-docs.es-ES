@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 01bdf6cdde864d1ea4ed19dfeb01a96236dc9c63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817268"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica que se ha producido un cambio en el estado del Visor del formulario. 
   
@@ -33,7 +33,7 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulDir_
   
@@ -73,7 +73,7 @@ S_OK
   
 > La notificación fue correcta.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormAdviseSink::OnChange** para notificar el formulario acerca de un cambio en el estado de un visor. Normalmente, el único cambio es activando o desactivando la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el Visor. Por lo tanto, el objeto de formulario, a continuación, habilita o deshabilita cualquier acciones siguiente o anteriores que admite. 
   
@@ -83,11 +83,11 @@ No se puede cambiar la configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE e
 
 La implementación específica de este método depende completamente de las características específicas del formulario. La mayoría de los objetos de formulario use este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar comandos de menú o botones para que coincida con el parámetro de indicadores de estado de Visor).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
-[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)
+[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822499"
 ---
-# <a name="localformulaexists-function"></a>LOCALFORMULAEXISTS (función)
+# <a name="localformulaexists-function"></a>Función LOCALFORMULAEXISTS
 
 Indica si la celda referida contiene una fórmula local. 
   
@@ -24,7 +24,7 @@ Indica si la celda referida contiene una fórmula local.
 
 LOCALFORMULAEXISTS (** *cellref* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ LOCALFORMULAEXISTS (** *cellref* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Boolean
+Booleano
   
 ## <a name="remarks"></a>Observaciones
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822477"
 ---
-# <a name="listsep-function"></a>LISTSEP (función)
+# <a name="listsep-function"></a>Función LISTSEP
 
 Devuelve la cadena de separador de lista para la configuración regional del usuario actual.
   

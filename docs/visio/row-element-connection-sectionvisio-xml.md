@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Sección](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y, dirección horizontal y vertical y tipo para un único punto de conexión en una forma.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y, dirección horizontal y vertical y tipo para un único punto de conexión en una forma.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

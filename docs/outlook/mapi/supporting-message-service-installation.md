@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con la instalación del servicio de mensajes
+title: Admitir la instalación del servicio de mensajería
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bf3e79ad32801a659df2c68016167d3b547ddc6f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820799"
 ---
-# <a name="supporting-message-service-installation"></a>Compatibilidad con la instalación del servicio de mensajes
+# <a name="supporting-message-service-installation"></a>Admitir la instalación del servicio de mensajería
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El programa de instalación para instalar el servicio de mensajes debe hacer lo siguiente:
   
@@ -40,9 +40,9 @@ Colocar el programa de instalación en un directorio público designado. Esto es
 > [!CAUTION]
 > Dado que los perfiles son un elemento prescindibles de la arquitectura MAPI, asegúrese de que el programa de instalación no almacenar nada en el perfil predeterminado que sería difícil de volver a crear. No hay ningún utilidades para la recuperación de perfil, para mover los perfiles de un equipo a otro, de copia de seguridad sin conexión o para la restauración individual o global de copias de seguridad. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Implementación del servicio de mensajes](message-service-implementation.md)
+[Implementación de servicios de mensajería](message-service-implementation.md)
 

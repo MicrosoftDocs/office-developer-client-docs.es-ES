@@ -1,5 +1,5 @@
 ---
-title: Celda BevelTopHeight (sección de propiedades de bisel)
+title: Celda BevelTopHeight (sección Propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821585"
 ---
-# <a name="beveltopheight-cell-bevel-properties-section"></a>Celda BevelTopHeight (sección de propiedades de bisel)
+# <a name="beveltopheight-cell-bevel-properties-section"></a>Celda BevelTopHeight (sección Propiedades de bisel)
 
 Determina el alto del bisel superior de una forma en puntos. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **BevelTopHeight** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

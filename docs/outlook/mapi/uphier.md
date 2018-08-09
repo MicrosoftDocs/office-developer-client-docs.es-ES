@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 041ae867ff3a9cc9636ff1d93f9360576e455420
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820932"
 ---
 # <a name="uphier"></a>UPHIER
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información para la sincronización de una jerarquía de carpetas durante la [carga de estado de la jerarquía](upload-hierarchy-state.md).
   
@@ -33,7 +33,7 @@ struct UPHIER
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -57,9 +57,9 @@ _cEnt_
   
 > [out] Número de carpetas que no están sincronizados.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md)
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 

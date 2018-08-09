@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidHomeAddress
+title: Propiedad canónica PidLidHomeAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 00f40a443d6ab730c8b612fd0fdfd93a1fd5cf52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19818763"
 ---
-# <a name="pidlidhomeaddress-canonical-property"></a>Propiedad canónico PidLidHomeAddress
+# <a name="pidlidhomeaddress-canonical-property"></a>Propiedad canónica PidLidHomeAddress
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la dirección completa de la dirección del contacto principal.
   
@@ -35,7 +35,7 @@ Especifica la dirección completa de la dirección del contacto principal.
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad debe ser una combinación de las demás propiedades de la dirección física y se basa en la configuración regional del cliente.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Texto del mensaje con etiqueta TNEF
+title: Texto del mensaje etiquetado con TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bedfc0457b0de8287a4e7bc8bdf8fb57404e4fa8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820870"
 ---
-# <a name="tnef-tagged-message-text"></a>Texto del mensaje con etiqueta TNEF
+# <a name="tnef-tagged-message-text"></a>Texto del mensaje etiquetado con TNEF
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Texto del mensaje con etiqueta se usa en TNEF para resolver las posiciones de los datos adjuntos en el mensaje primario. Esto se realiza mediante la adición de un marcador de posición en el texto del mensaje en la posición de los datos adjuntos. Este marcador de posición o etiqueta de datos adjuntos, se describe los datos adjuntos de forma que TNEF sabe cómo resolver los datos adjuntos y su posición. Las etiquetas tienen el formato de la siguiente manera:
   

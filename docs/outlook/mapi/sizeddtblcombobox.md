@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820686"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcombobox.md) para describir un control de cuadro combinado y el número máximo de caracteres que se puede escribir en el control de edición asociado. 
   
@@ -34,17 +34,17 @@ Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcom
 SizedDtblComboBox (n, u)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _n_
   
 > Número de caracteres que se pueden escribir en el cuadro combinado de control de edición. 
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro **SizedDtblComboBox** le permite definir un cuadro combinado cuando se conoce la longitud de la cadena de caracteres habilitado. Se crea la nueva estructura con los siguientes miembros: 
   
@@ -61,8 +61,8 @@ lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [DTBLCOMBOBOX](dtblcombobox.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

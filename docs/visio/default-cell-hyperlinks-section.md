@@ -16,21 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821947"
 ---
-# <a name="default-cell-hyperlinks-section"></a>Celda Default (Sección de hipervínculos)
+# <a name="default-cell-hyperlinks-section"></a>Celda Default (sección Hipervínculos)
 
 Determina el hipervínculo predeterminado de una forma o página. Asigne a esta celda el valor TRUE para establecer un hipervínculo como predeterminado.
   
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer el hipervínculo predeterminado mediante la selección de una forma, hacer clic en **hipervínculo** en la ficha **Insertar** , seleccionar un hipervínculo y, a continuación, haciendo clic en **predeterminado**. El hipervínculo predeterminado aparece en negrita.
+Para establecer el hipervínculo predeterminado, también puede seleccionar una forma, hacer clic en **Hipervínculos** en el menú **Insertar**, seleccionar un hipervínculo y, a continuación, hacer clic en **Predeterminado**. El hipervínculo predeterminado aparecerá en negrita.
   
-Para obtener una referencia a la celda Default por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Default por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Hipervínculo. *Nombre* . Valor predeterminado donde hipervínculo. *Nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Default por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Default por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

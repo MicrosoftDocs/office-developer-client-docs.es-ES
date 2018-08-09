@@ -16,21 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823503"
 ---
-# <a name="value-cell-text-fields-section"></a>Celda Value (Sección de campos de texto)
+# <a name="value-cell-text-fields-section"></a>Celda Value (sección Campos de texto)
 
 Contiene la función de un campo.
   
 ## <a name="remarks"></a>Observaciones
 
-Puede establecer el valor de esta celda mediante el cuadro de diálogo **campo** (en la ficha **Insertar** , en el grupo **texto** , haga clic en **campo**).
+Puede establecer el valor de esta celda mediante el cuadro de diálogo **Campo** (en la ficha **Insertar**, en el grupo **Texto**, haga clic en **Campo**).
   
-Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Fields.Value [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Value por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Value por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

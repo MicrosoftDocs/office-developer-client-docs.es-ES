@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822393"
 ---
-# <a name="istextedittarget-cell-group-properties-section"></a>Celda IsTextEditTarget (Sección de propiedades de grupo)
+# <a name="istextedittarget-cell-group-properties-section"></a>Celda IsTextEditTarget (sección Propiedades de grupo)
 
 Determina las asignaciones de texto para un grupo.
   
@@ -27,17 +27,17 @@ Determina las asignaciones de texto para un grupo.
    
 ## <a name="remarks"></a>Observaciones
 
-También puede establecer este valor, seleccione el grupo, hace clic en **comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y a continuación, selecciona la casilla de verificación **modificar el texto del grupo** . 
+También puede ajustar este valor si selecciona un grupo, hace clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, activa la casilla **Modificar el texto del grupo**. 
   
 Los grupos creados con versiones anteriores a Visio 2000 tienen el valor predeterminado FALSE. A partir de la versión 2000 de Visio, el valor predeterminado es TRUE. 
   
-Para obtener una referencia a la celda IsTextEditTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda IsTextEditTarget por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Valor de IsTextEditTarget  <br/> |
    
-Para obtener una referencia a la celda IsTextEditTarget por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda IsTextEditTarget por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskStartDate
+title: Propiedad canónica PidLidTaskStartDate
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 486b1f913e7c3c76886232c48fa842e25e1f7905
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818985"
 ---
-# <a name="pidlidtaskstartdate-canonical-property"></a>Propiedad canónico PidLidTaskStartDate
+# <a name="pidlidtaskstartdate-canonical-property"></a>Propiedad canónica PidLidTaskStartDate
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La fecha cuando el usuario espera para comenzar la tarea.
   
@@ -33,9 +33,9 @@ La fecha cuando el usuario espera para comenzar la tarea.
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008104  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si el valor de esta propiedad se deja sin establecer, la tarea no tiene una fecha de inicio. Un valor de "0x5AE980E0" (1,525,252,320) también significa que la tarea no tiene una fecha de inicio. Si la tarea tiene una fecha de inicio, el valor debe tener un componente de hora de la medianoche, y también se deben establecer las propiedades de **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) y **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).
   
@@ -59,7 +59,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

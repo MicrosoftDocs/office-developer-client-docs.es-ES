@@ -1,5 +1,5 @@
 ---
-title: LOC (función) (VisioShapeSheet)
+title: LOC Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822492"
 ---
-# <a name="loc-function-visioshapesheet"></a>LOC (función) (VisioShapeSheet)
+# <a name="loc-function-visioshapesheet"></a>LOC Function (VisioShapeSheet)
 
 Toma un punto definido en las coordenadas locales de la uno forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada con la fórmula. 
   
@@ -24,7 +24,7 @@ Toma un punto definido en las coordenadas locales de la uno forma y devuelve el 
 
 LOC (** *Elija* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,7 +32,7 @@ LOC (** *Elija* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 
@@ -44,6 +44,6 @@ Las coordenadas locales se miden desde la esquina inferior izquierda del rectán
   
 En esta expresión, PNT convierte un conjunto de coordenadas locales de Hoja.5 en un punto (Hoja.5 es otra forma que se encuentra en la misma página de dibujo). LOC convierte a continuación ese punto en un punto equivalente del sistema de coordenadas locales de la forma actual, en relación con la esquina inferior izquierda del rectángulo de selección de la forma actual. 
   
-El número 5 de hoja.5 es el número de identificador de la forma, que se muestra en el cuadro de diálogo **Nombre de la forma** (ficha**Programador** ). 
+El número 5 de Hoja.5 es el número identificador de la forma, que se muestra en el cuadro de diálogo **Nombre de forma** (en la ficha **Programador**). 
   
 

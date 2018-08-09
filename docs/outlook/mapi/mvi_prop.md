@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f8f58ee18095dec8a222ae8b5a19cbefbaafa663
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818441"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece el MVI_FLAG para una propiedad especificada. 
   
@@ -36,13 +36,13 @@ Establece el MVI_FLAG para una propiedad especificada.
 MVI_PROP (tag)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _etiqueta_
   
 > La etiqueta de propiedad que desea modificar.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El MVI_FLAG se combina la configuración de MV_FLAG, que identifica una propiedad como multivalor y MV_INSTANCE, que solicita que se muestre una propiedad con varios valores en una tabla en varias filas. Se modifica el tipo de propiedad de la propiedad afectado, pero el identificador permanece inalterado. 
   
@@ -50,12 +50,12 @@ Por ejemplo, cuando la macro MVI_PROP se aplica a una propiedad de tipo PT_FLOAT
   
 Para obtener más información acerca de estos indicadores, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [trabajar con columnas con varios valores](working-with-multivalued-columns.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [SPropValue](spropvalue.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

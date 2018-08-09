@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSearchFolderStorageType
+title: Propiedad canónica PidTagSearchFolderStorageType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bd9af0c2862cf2c780a0ec6e6ffd8e1a0ec56af7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820253"
 ---
-# <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propiedad canónico PidTagSearchFolderStorageType
+# <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propiedad canónica PidTagSearchFolderStorageType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene indicadores que especifican los datos de objetos binarios grandes (BLOB) que aparece en la propiedad **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   
@@ -32,9 +32,9 @@ Contiene indicadores que especifican los datos de objetos binarios grandes (BLOB
 |Propiedades asociadas:  <br/> |PR_WB_SF_STORAGE_TYPE  <br/> |
 |Identificador:  <br/> |0x6846  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |B?squeda  <br/> |
+|Área:  <br/> |Búsqueda  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las definiciones de los indicadores se especifican en [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Búsqueda de **PR_WB_SF_STORAGE_TYPE**.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

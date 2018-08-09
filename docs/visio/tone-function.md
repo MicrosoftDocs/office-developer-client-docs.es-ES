@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823429"
 ---
-# <a name="tone-function"></a>TONE (función)
+# <a name="tone-function"></a>Función TONE
 
 Modifica el color disminuyendo su saturación en la cantidad especificada en el parámetro _int_ . 
   
@@ -22,18 +22,18 @@ Modifica el color disminuyendo su saturación en la cantidad especificada en el 
 
 TONO (** *color* **, ** *int* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
+| _color_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
 | _int_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Cantidad por la que se reduce la saturación del color. Puede ser positiva o negativa.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
  **RVA**
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los límites superiores e inferiores de saturación son 0 y 240, respectivamente. No hay ningún límite en el tamaño del número entero que se puede pasar para el parámetro _int_ , pero la saturación nunca supera estos límites. 
   

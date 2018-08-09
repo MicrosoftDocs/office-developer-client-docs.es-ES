@@ -1,5 +1,5 @@
 ---
-title: Fila de RelLineTo (sección de geometría)
+title: Fila RelLineTo (sección Geometría)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822941"
 ---
-# <a name="rellineto-row-geometry-section"></a>Fila de RelLineTo (sección de geometría)
+# <a name="rellineto-row-geometry-section"></a>Fila RelLineTo (sección Geometría)
 
 Contiene *x* - e *y* -coordenadas del vértice del extremo de un segmento de línea recta con relación al ancho y alto de una forma. 
   
@@ -28,7 +28,7 @@ Una fila de **RelLineTo** contiene las celdas siguientes.
 |[X](x-cell-geometry-section.md) <br/> |La *x* -coordenadas del vértice del extremo de un segmento de línea recta con relación al ancho de la forma.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |La *y* -coordenadas del vértice del extremo de un segmento de línea recta con relación al alto de la forma.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Valores de la fila de **RelLineTo** son equivalentes a los valores de una fila [LineTo](lineto-row-geometry-section.md) que se multiplican por el ancho y el alto de la forma. Por ejemplo: una fila **RelLineTo** donde el valor de la celda **X** es "0" y el valor de la celda **Y** es "0,5" que se puede reemplazar con fila **LineTo** donde el valor de la celda **X** es la fórmula "ancho*0" y la celda **Y** es la fórmula de "alto*0,5." 
   

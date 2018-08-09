@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidReminderDelta
+title: Propiedad canónica PidLidReminderDelta
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e2caccf3cf6ca7e6f15bed1c901d4dfbb198f19b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818857"
 ---
-# <a name="pidlidreminderdelta-canonical-property"></a>Propiedad canónico PidLidReminderDelta
+# <a name="pidlidreminderdelta-canonical-property"></a>Propiedad canónica PidLidReminderDelta
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el intervalo, en minutos, entre la hora cuando el aviso en primer lugar se convierte en vencidas y la hora de inicio del objeto de calendario.
   
@@ -33,9 +33,9 @@ Especifica el intervalo, en minutos, entre la hora cuando el aviso en primer lug
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008501  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Aviso  <br/> |
+|Área:  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad se debe establecer en los objetos de calendario. Para todos los objetos que no sean calendario, esta propiedad debe establecerse en "0 x 00000000" y se omite. Cuando se omite un aviso para una instancia de un objeto de calendario periódico, el valor de esta propiedad se usa en el cálculo de la hora de señal de la siguiente aparición. Vea [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) para obtener información detallada acerca de la creación de objetos de calendario. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

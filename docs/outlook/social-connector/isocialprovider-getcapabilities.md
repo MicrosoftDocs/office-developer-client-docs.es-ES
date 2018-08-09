@@ -23,19 +23,19 @@ Obtiene una cadena que describe las capacidades del proveedor.
 HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _resultado_
   
 > [out] Una cadena XML que representa las funciones de un proveedor de Outlook Social Connector (OSC).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cadena XML devuelto _resultados_ debe cumplir con la definición del esquema para el elemento **capabilities** , tal como se define en el esquema XML de extensibilidad de proveedores OSC. 
   
 El proveedor debe devolver una cadena de _resultado_ para habilitar las llamadas subsiguientes desde el OSC para el proveedor funcionar correctamente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

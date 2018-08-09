@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9eeab1e1186aeb5a9b458facd59bd4cc155e8014
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817601"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define las propiedades concretas y el orden de las propiedades que aparecen como columnas en la tabla.
   
@@ -62,7 +62,7 @@ MAPI_E_BUSY
   
 > Otra operación está en curso que impide que la columna Configuración de la operación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El conjunto de columnas de una tabla es el grupo de propiedades que componen las columnas para las filas de la tabla. No hay una columna predeterminado establecido para cada tipo de tabla. El conjunto de columnas predeterminado se compone de las propiedades que el implementador de la tabla incluye automáticamente. Los usuarios de la tabla pueden modificar este valor predeterminado que se establece mediante una llamada al método **IMAPITable::SetColumns** . Puede solicitar que otras columnas se agregará al conjunto si el implementador de la tabla es compatible con ellos que pueden quitar columnas o que se puede cambiar el orden de columnas predeterminado. **SetColumns** especifica las columnas que se devuelven con cada fila y el orden de estas columnas dentro de la fila. 
   
@@ -115,7 +115,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::SetColumns** para establecer las columnas de la tabla que desee.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -127,13 +127,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
-[IMAPITable:: Restrict](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
-[SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
 [SPropValue](spropvalue.md)
   
@@ -141,7 +141,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

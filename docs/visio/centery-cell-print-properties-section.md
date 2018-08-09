@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821774"
 ---
-# <a name="centery-cell-print-properties-section"></a>Celda CenterY (Sección de propiedades de impresión)
+# <a name="centery-cell-print-properties-section"></a>Celda CenterY (sección Propiedades de impresión)
 
 Determina si la página de dibujo está centrada verticalmente en la página de la impresora. 
   
@@ -29,13 +29,13 @@ Determina si la página de dibujo está centrada verticalmente en la página de 
 
 De forma predeterminada, las páginas de dibujo están alineadas a la parte superior y a la izquierda de la página de la impresora. Si se establece el valor de las celdas CenterX y CenterY en TRUE, la página de dibujo se colocará en el centro de la página de la impresora (o páginas cuando sea necesario aplicar mosaico). 
   
-Para obtener una referencia a la celda CenterY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda CenterY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | CenterY  <br/> |
    
-Para obtener una referencia a la celda CenterY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda CenterY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

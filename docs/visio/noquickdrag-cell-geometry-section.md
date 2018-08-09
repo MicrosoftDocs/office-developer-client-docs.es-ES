@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822686"
 ---
-# <a name="noquickdrag-cell-geometry-section"></a>Celda NoQuickDrag (sección de Geometría)
+# <a name="noquickdrag-cell-geometry-section"></a>Celda NoQuickDrag (sección Geometría)
 
 Determina si una forma se puede seleccionar o arrastrar cuando el usuario hace clic en el área con relleno definido por la sección de geometría.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NoQuickDrag por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoQuickDrag por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Geometría *i* . NoQuickDrag, donde * i * - < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda NoQuickDrag por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NoQuickDrag por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

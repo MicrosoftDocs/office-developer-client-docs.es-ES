@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagStatusString
+title: Propiedad canónica PidTagStatusString
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ea24b5e721317668c8f43278a5e4c38d73b3e91c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820331"
 ---
-# <a name="pidtagstatusstring-canonical-property"></a>Propiedad canónico PidTagStatusString
+# <a name="pidtagstatusstring-canonical-property"></a>Propiedad canónica PidTagStatusString
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un mensaje que indica el estado actual de un recurso de la sesión. 
   
@@ -34,7 +34,7 @@ Contiene un mensaje que indica el estado actual de un recurso de la sesión.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Estado MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades proporcionan proveedores de servicios y la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicio en particular de MAPI. Esta propiedad se explica y proporciona información adicional acerca de un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Considerando que es necesario para todos los objetos de estado **PR_STATUS_CODE** , **PR_STATUS_STRING** y las propiedades asociadas son opcionales. Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado. 
   
@@ -52,18 +52,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagStatusCode](pidtagstatuscode-canonical-property.md)
+[Propiedad canónica PidTagStatusCode](pidtagstatuscode-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

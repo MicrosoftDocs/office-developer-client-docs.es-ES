@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816874"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Compara dos valores de propiedad, por lo general cadenas o matrices binario, para ver si contiene uno del otro. 
   
@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _lpSPropValueDst_
   
@@ -79,7 +79,7 @@ FALSE
   
 > Los valores de propiedad que se comparan no son de tipo PT_STRING8 o PT_BINARY, los valores de propiedad son de tipos diferentes, o no se encuentra la cadena de búsqueda _lpSPropValueSrc_ como se especifica en el valor de la propiedad _lpSPropValueDst_ . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método de comparación depende de los tipos de propiedad especificados en las definiciones de propiedad [SPropValue](spropvalue.md) y la heurística nivel aproximada proporcionada en el parámetro _ulFuzzyLevel_ . Las funciones [FPropCompareProp](fpropcompareprop.md) y **FPropContainsProp** se pueden usar para preparar las restricciones para generar una tabla. 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a791b95f-56ad-493a-9ba5-fb4c7dd80e89
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8f26fc6a51c3abdb4d4d009183fa8263ce97b261
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816635"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Pase el indicador MAPI_DEFERRED_ERRORS a las llamadas de método medida de lo posible. Muchas de las llamadas al método MAPI se han optimizado para que acepte esta marca, lo que provoca que el proveedor ya sea posponer la tarea solicitada hasta que se pueden realizar varias tareas a la vez o puede esperar a que los resultados ya no.
   

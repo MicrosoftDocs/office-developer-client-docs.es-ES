@@ -1,5 +1,5 @@
 ---
-title: Desconectar un sin conexión estado Add-in
+title: Desconectar un complemento de estado sin conexión
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19816673"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>Desconectar un sin conexión estado Add-in
+# <a name="disconnecting-an-offline-state-add-in"></a>Desconectar un complemento de estado sin conexión
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando el estado sin conexión complemento está desconectado, debe implementar las funciones para terminar y limpiar el complemento correctamente. Para obtener más información sobre la configuración y el uso sin conexión de estado complemento para supervisar los cambios de estado de conexión, vea [Agregar en configuración de seguridad de un estado sin conexión](setting-up-an-offline-state-add-in.md) y [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -143,11 +143,11 @@ void UnloadLibraries()
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de estado sin conexión](about-the-offline-state-api.md)
-- [Instalar el ejemplo sin conexión estado Add-in](installing-the-sample-offline-state-add-in.md)
-- [Acerca del ejemplo sin conexión de estado complemento:](about-the-sample-offline-state-add-in.md)
-- [Configurar un sin conexión estado Add-in](setting-up-an-offline-state-add-in.md)
-- [Supervisión de estado de conexión cambia mediante un sin conexión estado Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
+- [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
+- [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
+- [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md)
+- [Supervisar los cambios estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

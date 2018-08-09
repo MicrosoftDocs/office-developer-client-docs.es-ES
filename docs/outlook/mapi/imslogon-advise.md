@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817787"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Registra un objeto con un proveedor de almacén de mensajes para las notificaciones sobre cambios en el almacén de mensajes. El almacén de mensajes, a continuación, enviará las notificaciones sobre cambios en el objeto registrado.
   
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
@@ -81,7 +81,7 @@ MAPI_E_NO_SUPPORT
   
 > La operación no se admite por MAPI o por uno o más proveedores de servicio.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los proveedores de almacén de mensajes implementan el método **IMSLogon::Advise** para registrar un objeto para realizar devoluciones de llamadas de notificación. Cada vez que se produce un cambio en el objeto indicado, el proveedor comprueba qué bit de máscara de eventos se estableció en el parámetro _ulEventMask_ y, por lo tanto, ¿qué tipo de cambio se ha producido. Si un bit está establecido, el proveedor llama al método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto de receptor advise indicado por el parámetro _lpAdviseSink_ para notificar el evento. Datos que se pasan en la estructura de notificación a la rutina de **OnNotify** describen el evento. 
   
@@ -93,7 +93,7 @@ Después de que se ha realizado correctamente una llamada a **Advise** y antes d
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -105,5 +105,5 @@ Para obtener más información sobre el proceso de notificación, vea [Notificac
   
 [Notificaci�n](notification.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

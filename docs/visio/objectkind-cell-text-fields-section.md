@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822683"
 ---
-# <a name="objectkind-cell-text-fields-section"></a>Celda ObjectKind (Sección de campos de texto)
+# <a name="objectkind-cell-text-fields-section"></a>Celda ObjectKind (sección Campos de texto)
 
 Indica el tipo de campo de texto.
   
@@ -33,13 +33,13 @@ Los campos de texto pueden ser de uno de los dos siguientes tipos:
     
 - Horizontal en vertical, que indica que el campo es de texto horizontal sobre texto vertical.
     
-Para obtener una referencia a la celda ObjectKind por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ObjectKind por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Fields.ObjectKind [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda ObjectKind por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ObjectKind por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

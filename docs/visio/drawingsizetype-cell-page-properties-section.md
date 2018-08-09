@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822027"
 ---
-# <a name="drawingsizetype-cell-page-properties-section"></a>Celda DrawingSizeType (Sección de propiedades de página)
+# <a name="drawingsizetype-cell-page-properties-section"></a>Celda DrawingSizeType (sección Propiedades de página)
 
 Determina el tamaño del dibujo.
   
@@ -31,17 +31,17 @@ Determina el tamaño del dibujo.
 |6  <br/> |Ingeniería ANSI  <br/> |**visDSEngr** <br/> |
 |7  <br/> |De arquitectura ANSI  <br/> |**visDSArch** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para establecer el tamaño del dibujo, utilice el cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Diseño** ) o cambie manualmente el tamaño de la página con el mouse. 
+Para establecer el tamaño del dibujo, use el cuadro de diálogo **Configurar página** (haga clic en la flecha **Configurar página** en la ficha **Diseño**) o cambie el tamaño de la página manualmente con el mouse. 
   
-Para obtener una referencia a la celda DrawingSizeType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DrawingSizeType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |DrawingSizeType  <br/> |
    
-Para obtener una referencia a la celda DrawingSizeType por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda DrawingSizeType por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

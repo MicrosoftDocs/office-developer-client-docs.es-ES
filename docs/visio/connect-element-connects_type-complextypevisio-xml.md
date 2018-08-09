@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
-description: Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.
+description: "\n			Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.\n"
 ms.openlocfilehash: 1bd3e1f006afe8d5bbb698e0b3a2179b74728315
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,9 @@ ms.locfileid: "19821844"
 ---
 # <a name="connect-element-connectstype-complextype-visio-xml"></a>Conectar el elemento (Connects_Type complexType) ('XML de Visio')
 
-Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.
+
+			Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.
+
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -42,7 +44,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Se conecta](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

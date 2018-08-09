@@ -1,5 +1,5 @@
 ---
-title: Información general sobre la referencia MAPI de Outlook
+title: Información general de la referencia MAPI de Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818454"
 ---
-# <a name="outlook-mapi-reference-overview"></a>Información general sobre la referencia MAPI de Outlook
+# <a name="outlook-mapi-reference-overview"></a>Información general de la referencia MAPI de Outlook
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se proporciona información general sobre la documentación de referencia de MAPI de Outlook 2013.
   
@@ -42,17 +42,17 @@ Para obtener información acerca de cuáles son las novedades de esta edición, 
   
 - [Novedades de esta edición](what-s-new-in-this-edition.md)
     
-- [Elementos de la API en desuso en esta edición](api-elements-deprecated-in-this-edition.md)
+- [Elementos de la API que se dejan de usar en esta edición](api-elements-deprecated-in-this-edition.md)
     
 Si está familiarizado con desarrollo de aplicaciones de MAPI para Outlook, vea los temas siguientes:
   
-- [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [Seleccionar una API o tecnología para desarrollar soluciones para Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
     
-- [Archivos de encabezado utilizados normalmente](commonly-used-header-files.md)
+- [Archivos de encabezado de uso frecuente](commonly-used-header-files.md)
     
-- [Propiedades usadas con más frecuencia](commonly-used-properties.md)
+- [Propiedades de uso frecuente](commonly-used-properties.md)
     
-- [Objetos usados con más frecuencia](commonly-used-objects.md)
+- [Objetos de uso frecuente](commonly-used-objects.md)
     
 El resto de esta referencia se clasifica en los siguientes tres tipos de información:
   
@@ -62,9 +62,9 @@ El resto de esta referencia se clasifica en los siguientes tres tipos de informa
     
 - [Referencia de la MAPI](mapi-reference.md) - proporciona información detallada sobre las funciones, interfaces, estructuras y las propiedades de MAPI. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
-- [Ejemplos de MAPI (en inglés)](mapi-samples.md)
+- [Ejemplos de MAPI](mapi-samples.md)
 - [Conceptos MAPI](mapi-concepts.md)
 

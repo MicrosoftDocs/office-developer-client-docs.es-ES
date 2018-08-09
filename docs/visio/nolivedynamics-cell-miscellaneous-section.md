@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822674"
 ---
-# <a name="nolivedynamics-cell-miscellaneous-section"></a>Celda NoLiveDynamics (Sección de varios)
+# <a name="nolivedynamics-cell-miscellaneous-section"></a>Celda NoLiveDynamics (sección Varios)
 
 Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.
   
@@ -29,13 +29,13 @@ Determina si una forma cambia de tamaño o gira dinámicamente a medida que el u
 
 A medida que cambia de tamaño o gira una forma bidimensional (2D) sin dinámica activa, puede ver un cuadro de selección. Si la forma es unidimensional (1D), el efecto visual se basa en el valor de la celda DynFeedback.
   
-Para obtener una referencia a la celda NoLiveDymanics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NoLiveDymanics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | NoLiveDynamics  <br/> |
    
-Para obtener una referencia a la celda NoLiveDynamics por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda NoLiveDynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

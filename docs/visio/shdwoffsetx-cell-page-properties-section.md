@@ -16,21 +16,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823210"
 ---
-# <a name="shdwoffsetx-cell-page-properties-section"></a>Celda ShdwOffsetX (Sección de propiedades de página)
+# <a name="shdwoffsetx-cell-page-properties-section"></a>Celda ShdwOffsetX (sección Propiedades de la página)
 
 Determina el desplazamiento horizontal en unidades de página del sombreado de una forma con respecto a la forma.
   
 ## <a name="remarks"></a>Observaciones
 
-Este valor está establecido en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ). Este valor es independiente de la escala del dibujo. Si se cambia la escala, el desplazamiento de la sombra sigue siendo la misma. 
+Este valor se establece en el cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el desplazamiento de la sombra permanece igual. 
   
-Para obtener una referencia a la celda ShdwOffsetX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShdwOffsetX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ShdwOffsetX  <br/> |
    
-Para obtener una referencia a la celda ShdwOffsetX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShdwOffsetX por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821700"
 ---
-# <a name="c-cell-geometry-section"></a>Celda C (Sección de geometría)
+# <a name="c-cell-geometry-section"></a>Celda C (sección Geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda C según la fila en la que se encuentre.
   
@@ -27,9 +27,9 @@ Representa distinta información según las filas. En la tabla siguiente se desc
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Último nodo de una spline.  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | Una *x* -coordenadas de un punto de una elipse; emparejada con la *y* -coordenada representada por la celda [d.](d-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda C por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda C por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
@@ -42,10 +42,10 @@ Para obtener una referencia a la celda C por su índice desde un programa, utili
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionFirstComponent** +  *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de fila:  <br/> |**visRowVertex** +  *j* donde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Fila ellipse)  <br/> |
-| Índice de celda:  <br/> |**visEccentricityAngle** (Fila EllipticalArcTo)  <br/> |
-||**visNURBSKnotPrev** (Fila NURBSTo)  <br/> |
-||**visSplineKnot3** (Fila SplineStart)  <br/> |
-||**visEllipseMinorX** (Fila ellipse)  <br/> |
+||**visRowVertex** (fila Ellipse)  <br/> |
+| Índice de celda:  <br/> |**visEccentricityAngle** (fila EllipticalArcTo)  <br/> |
+||**visNURBSKnotPrev** (fila NURBSTo)  <br/> |
+||**visSplineKnot3** (fila SplineStart)  <br/> |
+||**visEllipseMinorX** (fila Ellipse)  <br/> |
    
 

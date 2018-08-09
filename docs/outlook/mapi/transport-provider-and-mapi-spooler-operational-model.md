@@ -1,5 +1,5 @@
 ---
-title: Proveedor de transporte y cola MAPI modelo operacional
+title: Proveedor de transporte y modelo operativo de administrador de trabajos en cola MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0e6c38091e5b2e10e82012bc470ea41037f57c7d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820892"
 ---
-# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Proveedor de transporte y cola MAPI modelo operacional
+# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Proveedor de transporte y modelo operativo de administrador de trabajos en cola MAPI
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicialización del proveedor de transporte, inicio, procesamiento, cierre y deinitialization se llevan a cabo mediante una serie de llamadas desde la cola de MAPI para el proveedor de transporte. Las llamadas se ordenan de la siguiente manera:
   

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRpcOverHttpProxyPrincipalName
+title: Propiedad canónica PidTagRpcOverHttpProxyPrincipalName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 68a45e0bfedf01b846fd77a638587fa4fb35fe7e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820127"
 ---
-# <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Propiedad canónico PidTagRpcOverHttpProxyPrincipalName
+# <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Propiedad canónica PidTagRpcOverHttpProxyPrincipalName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre principal del servidor proxy que se usa en Microsoft Outlook para conectarse a Microsoft Exchange Server mediante el uso de una llamada a procedimiento remoto (RPC) a través del protocolo de transferencia de hipertexto (HTTP).
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -66,7 +66,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

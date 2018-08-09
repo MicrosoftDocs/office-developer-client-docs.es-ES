@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821702"
 ---
-# <a name="bulletstring-cell-paragraph-section"></a>Celda BulletString (Sección de párrafo)
+# <a name="bulletstring-cell-paragraph-section"></a>Celda BulletString (sección Párrafo)
 
 Permite crear un estilo de viñeta personalizado. 
   
@@ -24,15 +24,16 @@ Permite crear un estilo de viñeta personalizado.
 
 Especifique el estilo como una cadena (entre comillas). Por ejemplo, podría escribir la cadena "ooo".
   
-Puede también establecer el valor de esta celda, bien de una forma, que señala al **formato**, haga clic en **texto**y, a continuación, haga clic en la ficha **viñetas** . 
+Asimismo, para establecer el valor de esta celda, haga clic con el botón secundario en una forma, elija **Formato**, haga clic en **Texto** y, a continuación, haga clic en la pestaña **Viñetas**. 
   
-Para obtener una referencia a la celda BulletString por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda BulletString por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Para.BulletStr [ *i* ] donde *i* = < 1 >, 2, 3,...  <br/> |
    
-Para obtener una referencia a la celda BulletString por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda BulletString por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

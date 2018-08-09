@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 08782fe616fe260388cff8982dfbb09951453a00
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818247"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los registros de una aplicación cliente de sesión en una sesión con el sistema de mensajería. 
   
@@ -43,7 +43,7 @@ HRESULT MAPILogonEx(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -135,7 +135,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las aplicaciones cliente MAPI llaman a la función MAPILogonEx para iniciar sesión en una sesión con el sistema de mensajería. Todas las cadenas que se pasan en y son devueltas a y desde las llamadas MAPI están terminada en null y deben especificarse en el juego de caracteres actual o de código de página del sistema operativo cliente o del proveedor de llamada.
   
@@ -171,7 +171,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI usa el método MAPILogonEx para iniciar sesión en MAPI.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

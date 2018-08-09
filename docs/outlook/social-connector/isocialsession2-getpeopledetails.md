@@ -23,7 +23,7 @@ Devuelve una cadena que contiene una colección de detalles de imagen y la perso
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _personsAddresses_
   
@@ -33,7 +33,7 @@ _personsCollection_
   
 > [out] Una cadena XML que contiene una colección de detalles de la imagen y la persona.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Outlook Social Connector (OSC) llama a **GetPeopleDetails** si el proveedor de OSC admite la sincronización a petición o híbrida de amigos y amigos que no sean. 
   
@@ -41,8 +41,8 @@ El parámetro _personsAddresses_ debe cumplir con la definición del esquema par
   
 El OSC almacena la información devuelta por el parámetro _personsCollection_ en la memoria. La cadena XML _personsCollection_ debe cumplir con la definición del esquema para **amigos**, tal como se define en el esquema para la extensibilidad del proveedor OSC. Para obtener más información acerca de cómo el OSC usa y actualiza esta información en la memoria, consulte [sincronización de amigos y actividades](synchronizing-friends-and-activities.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)
 

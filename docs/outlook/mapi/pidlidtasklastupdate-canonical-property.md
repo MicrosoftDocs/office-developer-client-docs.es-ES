@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskLastUpdate
+title: Propiedad canónica PidLidTaskLastUpdate
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: acd06027f1f9aa051a36192f07efa3ca0671a82e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818969"
 ---
-# <a name="pidlidtasklastupdate-canonical-property"></a>Propiedad canónico PidLidTaskLastUpdate
+# <a name="pidlidtasklastupdate-canonical-property"></a>Propiedad canónica PidLidTaskLastUpdate
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica la hora Universal coordinada (UTC) y la fecha del cambio más reciente realizado en la tarea que se ha indicado por la propiedad **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)).
   
@@ -33,7 +33,7 @@ Indica la hora Universal coordinada (UTC) y la fecha del cambio más reciente re
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008115  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

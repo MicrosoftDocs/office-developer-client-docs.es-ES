@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822212"
 ---
-# <a name="format-cell-shape-data-section"></a>Celda Format (Sección de datos de formas)
+# <a name="format-cell-shape-data-section"></a>Celda Format (sección Datos de formas)
 
 Especifica el formato de un elemento de datos de formas que puede ser una cadena, una lista fija, un número, una lista variable, una fecha u hora, una duración o una moneda.
   
 ## <a name="remarks"></a>Comentarios
 
-|**Tipo de elemento de datos de formas**|**Valor**|**Contenido de la celda de formato**|
+|**Tipo de elemento de datos de formas**|**Valor**|**Contenido de la celda Format**|
 |:-----|:-----|:-----|
 | Cadena  <br/> | 0  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Lista fija  <br/> | 1  <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
@@ -32,15 +32,15 @@ Especifica el formato de un elemento de datos de formas que puede ser una cadena
 | Duración  <br/> | 6  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Moneda  <br/> | 7  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
    
-Como un ejemplo de cómo especificar una imagen de formato adecuado para el tipo de datos, el formato imagen "# #/ 4 UU" da formato el número en 12,43. como 12 2/4 pulgadas. Para obtener más información acerca de cómo especificar una imagen de formato, vea [acerca de las imágenes de formato](about-format-pictures.md).
+Como ejemplo para especificar una imagen de formato adecuado para el tipo de datos, la imagen de formato "# #/4 UU" muestra el número 12,43 pulgadas como 12 2/4 PULGADAS. Para obtener más información sobre cómo especificar una imagen de formato, vea [Imágenes de formato](about-format-pictures.md).
   
 Un ejemplo de cómo especificar elementos para una lista es: "Ingeniería;Recursos humanos;Ventas;Marketing".
   
-Los valores de fecha (tipo = 5) se muestran en el formato de fecha corta. Los valores de moneda (tipo = 7) se muestran con la configuración del usuario actual para la **moneda** en la ficha **Opciones de configuración Regional** en el elemento **Configuración Regional e idioma** en **El Panel de Control**.
+Los valores de fecha (Type = 5) se muestran con formato de fecha corta. Los valores de moneda (Type = 7) usan la configuración actual del usuario del cuadro **Moneda**, situado en la ficha **Opciones regionales** del elemento **Configuración regional y de idioma** en el **Panel de control**.
   
 Un número (Type = 2) puede representar una dimensión, un escalar, un ángulo, una fecha, una hora o una moneda. Para asegurar que el número de entrada sea siempre tratado como una fecha, hora o moneda, utilice la función DATETIME o CY en la celda Format en lugar de un formato de imagen.
   
-Para obtener una referencia a la celda Format por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Format por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

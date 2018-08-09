@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822508"
 ---
-# <a name="lockend-cell-protection-section"></a>Celda LockEnd (Sección Protección)
+# <a name="lockend-cell-protection-section"></a>Celda LockEnd (sección Protección)
 
 Bloquea el extremo (EndX, EndY) de una forma 1D para una ubicación específica.
   
@@ -27,13 +27,13 @@ Bloquea el extremo (EndX, EndY) de una forma 1D para una ubicación específica.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockEnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockEnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockEnd  <br/> |
    
-Para obtener una referencia a la celda LockEnd por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockEnd por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c207b1db6a24cc60967735e2f4b1a4aa97007750
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820697"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de tipos de valor de tipo LONG que se utilizan para describir una propiedad de tipo PT_MV_LONG. 
   
@@ -40,7 +40,7 @@ typedef struct _SLongArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,11 +50,11 @@ typedef struct _SLongArray
   
 > Puntero a una matriz de valores de tipo LONG.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener más información sobre PT_MV_LONG, vea la [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

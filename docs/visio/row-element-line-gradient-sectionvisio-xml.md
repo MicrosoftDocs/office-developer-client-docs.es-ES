@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Sección](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de línea.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de línea.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

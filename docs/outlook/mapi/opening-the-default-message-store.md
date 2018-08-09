@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1eb4e150be68ea01060c7afaed489c8759b576db
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818425"
 ---
 # <a name="opening-the-default-message-store"></a>Abrir el almacén de mensajes predeterminado
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En cualquier sesión en particular, un almacén de mensajes actúa como almacén de mensajes predeterminado. Un almacén de mensajes predeterminado tiene las siguientes características:
   
@@ -37,7 +37,7 @@ Para recuperar el identificador de entrada para el almacén de mensajes de forma
     
 2. Una restricción de máscara de bits que usa una estructura de [SBitMaskRestriction](sbitmaskrestriction.md) para aplicar STATUS_DEFAULT_STORE como una máscara con respecto a la propiedad **PR_RESOURCE_FLAGS** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SExistRestriction](sexistrestriction.md)
 - [SAndRestriction](sandrestriction.md)

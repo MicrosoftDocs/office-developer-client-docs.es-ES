@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSpoolerStatus
+title: Propiedad canónica PidTagSpoolerStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: df52f668e91b707c0436b394186b27fdbb3a5dbf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820328"
 ---
-# <a name="pidtagspoolerstatus-canonical-property"></a>Propiedad canónico PidTagSpoolerStatus
+# <a name="pidtagspoolerstatus-canonical-property"></a>Propiedad canónica PidTagSpoolerStatus
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el estado del mensaje según la información que está disponible para la cola de MAPI.
   
@@ -34,7 +34,7 @@ Contiene el estado del mensaje según la información que está disponible para 
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |MAPI no transmisible  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad se calcula mediante MAPI en objetos de mensaje.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

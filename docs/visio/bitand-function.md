@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821627"
 ---
-# <a name="bitand-function"></a>BITAND (función)
+# <a name="bitand-function"></a>Función BITAND
 
 Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario 1 y númeroBinario2 es 1. De lo contrario, el bit se establece en 0. 
   
@@ -24,12 +24,12 @@ Devuelve un número binario de 16 bits en el que cada bit está establecido en 1
 
 BITAND (** *número binario 1* **, ** *númeroBinario2* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _número binario 1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
-| _número binario 2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
+| _número binario 1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número binario 2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 

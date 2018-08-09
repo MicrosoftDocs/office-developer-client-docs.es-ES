@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822079"
 ---
-# <a name="endx-cell-1-d-endpoints-section"></a>Celda EndX (Sección de extremos 1D)
+# <a name="endx-cell-1-d-endpoints-section"></a>Celda EndX (sección Extremos 1D)
 
 Representa la *x* -coordenadas del extremo de la forma 1-D, en relación con el origen de su forma principal. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda EndX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EndX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EndX  <br/> |
    
-Para obtener una referencia a la celda EndX por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EndX por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aaa1adaa170349c3df3a2256802a502cb2512b20
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818401"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función de devolución de llamada que puede liberar una interfaz **IStorage** después de la versión final de un objeto **IMessage** fundamentan con la función [OpenIMsgOnIStg](openimsgonistg.md) . 
   
@@ -39,7 +39,7 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulCallerData_
   

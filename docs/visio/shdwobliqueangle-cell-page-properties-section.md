@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823228"
 ---
-# <a name="shdwobliqueangle-cell-page-properties-section"></a>Celda ShdwObliqueAngle (Sección de propiedades de página)
+# <a name="shdwobliqueangle-cell-page-properties-section"></a>Celda ShdwObliqueAngle (sección Propiedades de la página)
 
 Contiene un número que especifica el ángulo de dirección oblicua cuando se aplica el tipo de sombra predeterminado de la página.
   
@@ -28,13 +28,14 @@ Un valor de cero (0) en esta celda indica que la dirección del ángulo es verti
   
 Para establecer este comportamiento para una forma individual, utilice la celda ShapeShdwObliqueAngle de la sección de formato de relleno.
   
-Para obtener una referencia a la celda ShdwObliqueAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShdwObliqueAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ShdwObliqueAngle  <br/> |
    
-Para obtener una referencia a la celda ShdwObliqueAngle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShdwObliqueAngle por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823341"
 ---
-# <a name="subject-function"></a>SUBJECT (función)
+# <a name="subject-function"></a>Función SUBJECT
 
 Devuelve el texto del campo **asunto** de las propiedades de un documento. 
   

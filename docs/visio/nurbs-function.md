@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822719"
 ---
-# <a name="nurbs-function"></a>NURBS (función)
+# <a name="nurbs-function"></a>Función NURBS
 
 Devuelve una B-spline racional no uniforme (NURBS). Esta función se usa en la celda E de las filas de geometría NURBSTo.
   
@@ -24,12 +24,12 @@ Devuelve una B-spline racional no uniforme (NURBS). Esta función se usa en la c
 
 NURBS (** *últimoPunto* **, ** *grado* **, ** *tipoDeX* **, ** *tipoDeY* **, ** *x1* **, ** *y1* **, ** *punto1* **, ** *grosor1* **, …) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _últimoPunto_ <br/> |Obligatorio  <br/> |**string** <br/> | El último nodo.  <br/> |
-| _grado_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El grado de la spline.  <br/> |
+| _grado_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El grado de la spline.  <br/> |
 | _tipoDeX_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos de entrada de _x_ . Si el _valor de tipoDeX_ es 0, todos los datos de entrada de _x_ se interpreta como un porcentaje del ancho. Si _es 1,_ todos los datos de entrada de _x_ se interpreta como coordenadas locales.  <br/> |
 | _dos valores_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos de entrada de _y_ . Si _es 0,_ todos los datos de entrada _y_ se interpreta como un porcentaje del alto. Si _es 1,_ todos los datos de entrada de _y_ se interpretan como coordenadas locales.  <br/> |
 | _X1_ <br/> |Obligatorio  <br/> |**String** <br/> |Una coordenada x.  <br/> |

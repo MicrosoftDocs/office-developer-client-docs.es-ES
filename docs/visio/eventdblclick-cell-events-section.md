@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822077"
 ---
-# <a name="eventdblclick-cell-events-section"></a>Celda EventDblClick (Sección de eventos)
+# <a name="eventdblclick-cell-events-section"></a>Celda EventDblClick (sección Eventos)
 
 Una celda de evento que se evalúa cuando se hace doble clic en una forma.
   
@@ -24,13 +24,13 @@ Una celda de evento que se evalúa cuando se hace doble clic en una forma.
 
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   
-Para obtener una referencia a la celda EventDblClick por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda EventDblClick por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EventDblClick  <br/> |
    
-Para obtener una referencia a la celda EventDblClick por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda EventDblClick por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e94692ac4eb401109fcb522e6224c8748bef37f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820587"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Busca a un homólogo de ruta de acceso local a la ruta (UNC) de la convención de nomenclatura universal determinado. 
   
@@ -41,7 +41,7 @@ SCODE ScLocalPathFromUNC(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _szUNC_
   
@@ -73,7 +73,7 @@ MAPI_E_NOT_FOUND
   
 > No se encontró la ruta de acceso local.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822726"
 ---
-# <a name="pagelinejumpdiry-cell-page-layout-section"></a>Celda PageLineJumpDirY (Sección de diseño de página)
+# <a name="pagelinejumpdiry-cell-page-layout-section"></a>Celda PageLineJumpDirY (sección Diseño de página)
 
 Determina la dirección de los saltos de línea en conectores dinámicos verticales en la página de dibujo para los que no se ha aplicado una dirección de salto local.
   
@@ -26,15 +26,16 @@ Determina la dirección de los saltos de línea en conectores dinámicos vertica
 | 1  <br/> | Izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
 | 2  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda PageLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PageLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PageLineJumpDirY  <br/> |
    
-Para obtener una referencia a la celda PageLineJumpDirY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PageLineJumpDirY por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

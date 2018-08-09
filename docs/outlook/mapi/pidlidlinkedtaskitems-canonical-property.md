@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidLinkedTaskItems
+title: Propiedad canónica PidLidLinkedTaskItems
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d91e7ceb877a4f1a7ce10d33e1a25a8773db0547
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818777"
 ---
-# <a name="pidlidlinkedtaskitems-canonical-property"></a>Propiedad canónico PidLidLinkedTaskItems
+# <a name="pidlidlinkedtaskitems-canonical-property"></a>Propiedad canónica PidLidLinkedTaskItems
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica una lista de la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de las tareas que están relacionadas con el calendario. 
   
@@ -33,9 +33,9 @@ Especifica una lista de la propiedad de **entrada del objeto** ([PidTagEntryId](
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x0000820C  <br/> |
 |Tipo de datos:  <br/> |PT_MV_BINARY  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad no es necesaria.
   
@@ -57,18 +57,18 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

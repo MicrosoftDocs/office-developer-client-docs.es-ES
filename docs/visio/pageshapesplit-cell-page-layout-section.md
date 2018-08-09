@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822730"
 ---
-# <a name="pageshapesplit-cell-page-layout-section"></a>Celda PageShapeSplit (Sección de diseño de página)
+# <a name="pageshapesplit-cell-page-layout-section"></a>Celda PageShapeSplit (sección Diseño de página)
 
 Indica si las formas de la página se pueden dividir de forma automática.
   
@@ -33,13 +33,13 @@ Para habilitar o deshabilitar la división en el nivel de aplicación, use la op
   
 Para habilitar o deshabilitar la división en el nivel de la forma, vea las celdas ShapeSplit y ShapeSplittable. 
   
-Para obtener una referencia a la celda PageShapeSplit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PageShapeSplit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |PageShapeSplit  <br/> |
    
-Para obtener una referencia a la celda PageShapeSplit por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PageShapeSplit por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

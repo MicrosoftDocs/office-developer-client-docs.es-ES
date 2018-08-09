@@ -1,5 +1,5 @@
 ---
-title: Celda BevelLightingType (sección de propiedades de bisel)
+title: Celda BevelLightingType (sección Propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821598"
 ---
-# <a name="bevellightingtype-cell-bevel-properties-section"></a>Celda BevelLightingType (sección de propiedades de bisel)
+# <a name="bevellightingtype-cell-bevel-properties-section"></a>Celda BevelLightingType (sección Propiedades de bisel)
 
 Determina el tipo de iluminación utilizada por el efecto de bisel.
   
@@ -34,10 +34,10 @@ Determina el tipo de iluminación utilizada por el efecto de bisel.
 |11  <br/> |Inmovilizar  <br/> |
 |12  <br/> |Sin relieve  <br/> |
 |13  <br/> |Punto de dos  <br/> |
-|14  <br/> |Iluminado  <br/> |
+|14  <br/> |Resplandor  <br/> |
 |15  <br/> |Habitación iluminada  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **BevelLightingType** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

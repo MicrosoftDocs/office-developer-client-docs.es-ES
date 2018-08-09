@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823313"
 ---
-# <a name="splinestart-row-geometry-section"></a>Fila SplineStart (Sección de Geometría)
+# <a name="splinestart-row-geometry-section"></a>Fila SplineStart (sección Geometría)
 
 Contiene *x* - e *y* -coordenadas para el segundo punto de control de una spline, sus nodos segundo, primero, el último nodo y el grado de la spline. 
   

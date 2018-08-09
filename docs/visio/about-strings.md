@@ -16,17 +16,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821489"
 ---
-# <a name="about-strings"></a>Cadenas
+# <a name="about-strings"></a>Información sobre cadenas
 
 Las fórmulas pueden contener cadenas. Para dar formato a la presentación de una cadena, por ejemplo, en una celda que pide datos, el valor de un elemento de datos de formas o un campo de texto, se especifica una imagen de formato. El resultado puede tener formato de par número-unidad, cadena, fecha-hora, duración o moneda. Por ejemplo, la imagen de formato "0 #/10 uu" muestra el par número-unidad 10,9 cm como "10 9/10 centímetros".
   
 Puede utilizar imágenes de formato en la celda **Format** de la sección datos de formas y como un argumento a la función **FORMAT** o **FORMATEX** . Cuando se inserta un campo de texto, imágenes de formato aparecen en la lista de formatos en el cuadro de diálogo **campo** (ficha**Insertar** ). 
   
-## <a name="using-functions-to-format-strings"></a>Uso de funciones de cadenas de formato
+## <a name="using-functions-to-format-strings"></a>Uso de funciones para dar formato a las cadenas
 
 Puede usar la función **FORMAT** o **FORMATEX** en cualquier fórmula que se resuelve en una cadena, incluidas las fórmulas de campo de texto personalizado. La función FORMAT devuelve una cadena de la salida con formato. La función **FORMATEX** convierte un argumento de entrada a las unidades que elija para el resultado con formato. 
   
-## <a name="displaying-formatted-shape-data"></a>Mostrar datos de formas con formato
+## <a name="displaying-formatted-shape-data"></a>Presentación de datos de formas con formato
 
 Para dar formato al valor mostrado de un elemento de datos de formas puede especificar una imagen de formato en la celda Format.
   

@@ -16,11 +16,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822018"
 ---
-# <a name="drawingscale-cell-page-properties-section"></a>Celda DrawingScale (Sección de propiedades de página)
+# <a name="drawingscale-cell-page-properties-section"></a>Celda DrawingScale (sección Propiedades de página)
 
 Representa el valor de la unidad de dibujo en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.
   
-Puede establecer la celda DrawingScale para cambiar las unidades de reglas de una página de un programa. Este es un ejemplo de cambio de las unidades de medida de pulgadas a centímetros para un programa. En este caso, usamos el método **ConvertResult** para conservar igual la distancia pero expresada en unidades distintas. 
+Puede establecer la celda DrawingScale para cambiar las unidades de las reglas de una página de un programa. A continuación, figura un ejemplo de cómo cambiar de unidades de pulgadas a centímetros para un programa. En este caso, se utiliza el método **ConvertResult** para mantener la misma distancia, pero en unidades distintas. 
   
 ```vb
 Public Sub SetActivePageMeasurementToCM() 
@@ -39,9 +39,9 @@ debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _
  visCentimeters 
 ```
 
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la configuración en el cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio** ). 
+Esta celda corresponde a la configuración del cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio**). 
   
 Las unidades de la fórmula de la celda DrawingScale determinan las unidades de medida utilizadas por las reglas en la ventana de dibujo. Si no desea cambiar la escala del dibujo, puede seguir uno de estos procedimientos:
   
@@ -49,7 +49,7 @@ Las unidades de la fórmula de la celda DrawingScale determinan las unidades de 
     
 - Cambiar la distancia expresada en la celda PageScale en la misma proporción que cambie la celda DrawingScale.
     
-Para obtener una referencia a la celda DrawingScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda DrawingScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

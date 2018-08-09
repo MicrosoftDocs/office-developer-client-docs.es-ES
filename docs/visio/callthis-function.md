@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821694"
 ---
-# <a name="callthis-function"></a>CALLTHIS (función)
+# <a name="callthis-function"></a>Función CALLTHIS
 
 Llama a un procedimiento en Microsoft Visual Basic para el proyecto de aplicaciones (VBA).
   
@@ -24,13 +24,13 @@ Llama a un procedimiento en Microsoft Visual Basic para el proyecto de aplicacio
 
 CALLTHIS ("** *procedimiento* **", ["** *project* **"], [** *arg1* **, ** *arg2* **,...]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _procedimiento_ <br/> |Obligatorio  <br/> |**String** <br/> | Nombre del procedimiento al que se llama.  <br/> |
 | _proyecto_ <br/> |Opcional  <br/> |**String** <br/> |Proyecto que contiene el procedimiento.  <br/> |
-| _arg_ <br/> |Opcional  <br/> |**Número, cadena, fecha o moneda** <br/> |Pasa como parámetro al procedimiento.  <br/> |
+| _arg_ <br/> |Opcional  <br/> |**Number, String, Date o Currency** <br/> |Pasa como parámetro al procedimiento.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 
@@ -63,7 +63,7 @@ Si necesita cerrar el documento que contiene la celda que usa la función CALLTH
     
 - Enviar mensajes de ventana para cerrar las ventanas del documento en lugar de cerrar el documento.
     
-Para obtener más información acerca de cómo ejecutar código en Visio, vea [acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta referencia de ShapeSheet. 
+Para obtener más información sobre cómo ejecutar código en Visio, vea [Acerca de la configuración de seguridad y la ejecución de código en Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) en esta Referencia de ShapeSheet. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

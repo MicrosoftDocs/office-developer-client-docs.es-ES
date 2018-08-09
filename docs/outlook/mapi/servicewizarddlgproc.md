@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 649046aa48f293caa5bd71cc670481b5c205459a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820645"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función de devolución de llamada invocada por el Asistente para perfiles para permitir que un proveedor de servicios reaccionar a los eventos de usuario cuando se va a mostrar páginas o las hojas de propiedades del proveedor. 
   
@@ -40,7 +40,7 @@ BOOL SERVICEWIZARDDLGPROC(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _hDlg_
   
@@ -99,7 +99,7 @@ FALSE
   
 > El proveedor de servicios no procesó el mensaje de ventana recibidos.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando el usuario se mueve de una página de propiedades a otra, el proveedor es responsable de la ocultación de controles de la página anterior y que muestra los controles de la página siguiente o anterior. Cuando el usuario hace clic en el botón **siguiente** , se llama a la función **SERVICEWIZARDDLGPROC** en función con el mensaje WM_COMMAND y WIZ_NEXT en el parámetro _wParam_ . Los pasos siguientes describen lo que se produce entre el momento en que el usuario hace clic en **siguiente** y la hora en que se presentan las páginas de configuración del proveedor en la primera. 
   

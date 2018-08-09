@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9a6ab96a70bce622f44de6576e7b77861302de4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817259"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cierra el formulario.
   
@@ -33,7 +33,7 @@ HRESULT ShutdownForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulSaveOptions_
   
@@ -61,7 +61,7 @@ E_UNEXPECTED
   
 > El formulario ya se ha cerrado por una llamada anterior a **ShutdownForm**.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIForm::ShutdownForm** para cerrar un formulario. 
   
@@ -96,7 +96,7 @@ Realizar las siguientes tareas en su implementación de **ShutdownForm**:
 
 Cuando se devuelve **ShutdownForm** , independientemente de si devuelve un error, la versión del formulario llamando a su método **IUnknown:: Release** . Puede omitir sin ningún riesgo los errores devueltos por **ShutdownForm**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -108,5 +108,5 @@ Cuando se devuelve **ShutdownForm** , independientemente de si devuelve un error
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 

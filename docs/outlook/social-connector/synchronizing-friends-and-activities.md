@@ -1,5 +1,5 @@
 ---
-title: Sincronización de amigos y actividades
+title: Sincronizar sus amigos y actividades
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821219"
 ---
-# <a name="synchronizing-friends-and-activities"></a>Sincronización de amigos y actividades
+# <a name="synchronizing-friends-and-activities"></a>Sincronizar sus amigos y actividades
 
 Outlook Social Connector (OSC) admite mostrando información de una red social sobre una persona en la tarjeta de contacto o en el panel de personas de Outlook. SharePoint Server, SharePoint Workspace, cliente de Lync y todas las aplicaciones de cliente de Office que admiten la compatibilidad con la información de presencia la tarjeta de contacto.
   
@@ -135,7 +135,7 @@ La siguiente información se aplica a los valores del registro de Windows que ap
     
 - Valor: Valor DWORD entre 1 y 10080
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md)  
 - [XML de capacidades](xml-for-capabilities.md)

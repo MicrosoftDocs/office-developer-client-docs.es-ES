@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823303"
 ---
-# <a name="spline-cell-paragraph-section"></a>Celda SpLine (Sección de párrafo)
+# <a name="spline-cell-paragraph-section"></a>Celda SpLine (sección Párrafo)
 
 Determina la distancia entre una línea de texto y la siguiente, expresada como un porcentaje, donde 100% es el alto de una línea de texto.
   
@@ -28,13 +28,14 @@ Determina la distancia entre una línea de texto y la siguiente, expresada como 
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda SpLine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda SpLine por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Párrafo. SpLine [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda SpLine por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda SpLine por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

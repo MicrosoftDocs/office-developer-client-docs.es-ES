@@ -59,9 +59,9 @@ Cuando quiera indicar unidades de medida en las fórmulas de ShapeSheet, utilice
 
 En las fórmulas, puede expresar las unidades de medida de los números compuestos con las abreviaturas en la siguiente tabla. Visio simplifica los resultados y los muestra en las unidades compuestas.
   
-Por ejemplo, si escribe 45,635 º, Visio mostrará el valor equivalente 45° 38' 6" como.
+Por ejemplo, si escribe 45,635º, Visio mostrará el valor equivalente 45° 38' 6".
   
-|**Para especificar unidades**|**Use esta abreviatura**|**Constante de automatización**|
+|**Para especificar las unidades**|**Use esta abreviatura**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | Cíceros y didots  <br/> | CICERO/DIDOT  <br/> |**visCicerosAndDidots (52)** <br/> |
 | Grados, minutos y segundos  <br/> | °  <br/> |**visDegreeMinSec (82)** <br/> |
@@ -105,7 +105,7 @@ En las fórmulas, puede expresar las unidades de medida de los números multidim
 
 En las versiones traducidas de Visio, el conjunto de cadenas reconocidas cambia para cada idioma. Si desea que un programa funcione en varios idiomas, utilice las cadenas universales para las unidades de medida.
   
-|**Para**|**Uso**|
+|**Para**|**Use**|
 |:-----|:-----|
 | Centímetros  <br/> | CM  <br/> |
 | Cíceros  <br/> | C  <br/> |
@@ -153,12 +153,12 @@ number  [unit , flag ]
 |||
 |:-----|:-----|
 | _number_ <br/> |Valor original, como 3,7, 1,7E-4 ó 5 1/2.  <br/> |
-| _unidad_ <br/> |Unidades en que se expresa originalmente el _número_ .  <br/> |
-| _marca_ <br/> |Sistema de medida que se utiliza cuando se muestra la unidad implícita. Vea los valores a continuación.  <br/> |
+| _unit_ <br/> |Unidades en que se expresa originalmente el _número_ .  <br/> |
+| _flag_ <br/> |Sistema de medida que se utiliza cuando se muestra la unidad implícita. Vea los valores a continuación.  <br/> |
    
 El parámetro _marca_ es una de las letras siguientes (mayúsculas o minúsculas) e indica el sistema de medida que se debe usar cuando se muestra el valor en unidades implícitas. 
   
-|**_Marca_**|**Sistema de medida**|**Ejemplo**|
+|**_Flag_**|**Sistema de medida**|**Ejemplo**|
 |:-----|:-----|:-----|
 | a, A  <br/> | Angular  <br/> | =5[deg,A]  <br/> |
 | d, D  <br/> | Dibujo  <br/> | =5[in,D]  <br/> |
@@ -174,12 +174,13 @@ Con la sintaxis implícita descrita anteriormente, esta expresión (=2 DL) equiv
 
 A continuación se enumeran las unidades de medida predeterminadas, junto con la configuración equivalente en la interfaz de usuario.
   
-|**Unidad de medida predeterminada**|**Interfaz de usuario equivalente**|
+|**Unidad de medida predeterminada**|**Equivalente en la interfaz de usuario**|
 |:-----|:-----|
 |**visDrawingUnits** <br/> |Unidades de la celda DrawingScale de la página o patrón que contiene la celda.  <br/> |
-|**visPageUnits** <br/> |Unidades seleccionadas en el cuadro **unidades de medida** en la ficha **Propiedades de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ).  <br/> |
+|**visPageUnits** <br/> |Unidades seleccionadas en el cuadro **Unidades de medida** de la ficha **Propiedades de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha **Configurar página**). 
+  <br/> |
 |**visTypeUnits** <br/> |Unidades seleccionadas en el cuadro de **texto** bajo **Mostrar** en la ficha **Avanzadas** del cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** y, a continuación, haga clic en **Opciones**).  <br/> |
-|**visAngleUnits** <br/> |Unidades seleccionadas en el cuadro **ángulo** bajo **Mostrar** en la ficha **Avanzadas** del cuadro de diálogo **Opciones de Visio** .  <br/> |
-|**visDurationUnits** <br/> |Unidades seleccionadas en el cuadro **duración** bajo **Mostrar** en la ficha **Avanzadas** del cuadro de diálogo **Opciones de Visio** .  <br/> |
+|**visAngleUnits** <br/> |Unidades seleccionadas en el cuadro **Ángulo** en **Presentación**, en la ficha **Opciones avanzadas** del cuadro de diálogo **Opciones de Visio**.  <br/> |
+|**visDurationUnits** <br/> |Unidades seleccionadas en el cuadro **Duración** en **Presentación**, en la ficha **Opciones avanzadas** del cuadro de diálogo **Opciones de Visio**.  <br/> |
    
 

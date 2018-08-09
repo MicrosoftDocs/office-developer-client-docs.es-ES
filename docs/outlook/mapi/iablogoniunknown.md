@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 784430f1286c9a017337a0fae4b269757a56a3e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817122"
 ---
-# <a name="iablogon--iunknown"></a>IABLogon: IUnknown
+# <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recursos de accesos en un proveedor de la libreta de direcciones.
   
@@ -51,11 +51,11 @@ Recursos de accesos en un proveedor de la libreta de direcciones.
 |[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Devuelve un objeto table de plantillas de uso único para la creación de los destinatarios que se agregará a la lista de destinatarios de un mensaje saliente.  <br/> |
 |[PrepareRecips](iablogon-preparerecips.md) <br/> |Prepara una lista de destinatarios para usarlo más adelante mediante el sistema de mensajería.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener información general acerca de los métodos de la interfaz **IABLogon** , vea [Implementación de inicio de sesión de proveedor de servicio](implementing-service-provider-logon.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

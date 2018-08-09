@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 127c4a77b9184d8bb62925c5237c1aedec643992
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818453"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Asigna e inicializa un objeto **IStream** OLE para tener acceso al contenido de un archivo. Esta función toma las cadenas UNICODE como argumentos, a diferencia de la versión ANSI de esta función [OpenStreamOnFile](openstreamonfile.md)y por lo tanto caracteres arbitrarios en el nombre de archivo incluye la ruta de acceso y la extensión.
   
@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFileW(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpAllocateBuffer_
   
@@ -104,7 +104,7 @@ MAPI_E_NOT_FOUND
   
 > No existe el archivo designado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **OpenStreamOnFileW** tiene dos usos importantes además de tratar un archivo con un nombre de Unicode, diferenciado por la configuración de la marca SOF_UNIQUEFILENAME. Cuando no se establece este marcador, **OpenStreamOnFileW** se abre un objeto **IStream** en un archivo existente, por ejemplo, para copiar su contenido en la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) de los datos adjuntos con el ** IStream:: CopyTo** (método). En este caso, el parámetro _lpszFileName_ especifica la ruta de acceso y el nombre del archivo. 
   
@@ -120,7 +120,7 @@ El indicador SOF_UNIQUEFILENAME se utiliza para crear un archivo temporal con un
   
 Si no está establecido el indicador SOF_UNIQUEFILENAME, se omite _lpszPrefix_ y _lpszFileName_ debe contener la ruta de acceso completa y el nombre del archivo que se va a abrir o crear. El archivo se va a abrir o crear en función de los otros marcadores que se establecen en _ulFlags_.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

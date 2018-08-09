@@ -1,11 +1,11 @@
 ---
-title: Sincronizar estado
+title: Estado de sincronización
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 36bdeecfaaa94492b1e719dbd1cf455bfa40db47
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820829"
 ---
-# <a name="synchronize-state"></a>Sincronizar estado
+# <a name="synchronize-state"></a>Estado de sincronización
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  En este tema se describe qué ocurre durante el estado de sincronización de la máquina de estado de replicación. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19820829"
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC** <br/> |
-|Estructura de datos relacionados:  <br/> |**[SINCRONIZACIÓN](sync.md)** <br/> |
+|Estructura de datos relacionados:  <br/> |**[SYNC](sync.md)** <br/> |
 |Desde este estado:  <br/> |[Estado de inactividad](idle-state.md) <br/> |
 |En este estado:  <br/> |[Estado de la jerarquía de descarga](download-hierarchy-state.md), [sincronizar el estado del contenido](synchronize-contents-state.md), [cargar el estado de la jerarquía](upload-hierarchy-state.md)o estado inactivo  <br/> |
    
@@ -41,15 +41,15 @@ Durante este estado, Outlook inicializa la estructura de datos de **sincronizaci
   
 El cliente establece el [in] los miembros de **sincronización**, que indica cómo controlar otros Estados de Outlook. Por ejemplo, el cliente puede establecer *ulFlags* en **UPS_UPLOAD_ONLY** y **UPS_THESE_FOLDERS** y se cargará *pel* a una lista de identificadores de entrada de las carpetas para indicar a Outlook que sólo estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado inactivo. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [ESTADO DE SINCRONIZACIÓN](syncstate.md)
 

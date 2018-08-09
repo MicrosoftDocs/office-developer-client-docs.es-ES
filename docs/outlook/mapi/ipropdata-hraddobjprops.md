@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 985b763ade9670c064c6c338953debf7beaa2783
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817902"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Agrega una o más propiedades de tipo pt Object para el objeto.
   
@@ -62,7 +62,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > Algunos, pero no todos, de las propiedades que se han agregado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IPropData::HrAddObjProps** agrega una o más propiedades de tipo pt Object para el objeto. **HrAddObjProps** proporciona una alternativa al método [IMAPIProp::SetProps](imapiprop-setprops.md) para las propiedades del objeto, debido a que las propiedades del objeto no se puede crear llamando **SetProps**. Adición de resultado de una propiedad de objeto en la etiqueta de propiedad que se encuentran en la lista de etiquetas de propiedad que devuelve el método [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
   
@@ -72,7 +72,7 @@ Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido _lppPro
   
 Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no se puede agregar propiedades al objeto debido a que no permite la modificación. Para obtener permiso de lectura y escritura a un objeto antes de llamar a **HrAddObjProps**, llame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -80,7 +80,7 @@ Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y
   
 [SPropProblemArray](spropproblemarray.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
 

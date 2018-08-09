@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823127"
 ---
-# <a name="setf-function"></a>SETF (función)
+# <a name="setf-function"></a>Función SETF
 
 Establece la fórmula de una celda. 
   
@@ -24,7 +24,7 @@ Establece la fórmula de una celda.
 
 SETF (GETREF (** *celda* **), ** *fórmula* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

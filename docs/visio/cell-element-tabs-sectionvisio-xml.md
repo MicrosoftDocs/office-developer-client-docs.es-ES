@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección de tabulaciones)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.  <br/> |
+|[Elemento Row (sección Tabulaciones)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,13 +60,13 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Alineación  <br/> |Especifica la alineación de las tabulaciones.  <br/> |[Celda Alignment (Sección de tabulaciones)](alignment-cell-tabs-section.md) <br/> |
-|Posición  <br/> |Especifica la posición de una tabulación. La posición de tabulación no depende de la escala del dibujo. Si se cambia la escala, la posición de tabulación permanece igual.  <br/> |[Celda Position (Sección de tabulaciones)](position-cell-tabs-section.md) <br/> |
+|Position  <br/> |Especifica la posición de una tabulación. La posición de tabulación no depende de la escala del dibujo. Si se cambia la escala, la posición de tabulación permanece igual.  <br/> |[Celda Position (Sección de tabulaciones)](position-cell-tabs-section.md) <br/> |
    
 

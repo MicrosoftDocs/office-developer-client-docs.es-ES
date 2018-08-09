@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da6de94342c8d8bbd378a3cde2fb065c97632291
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817336"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Elimina el mensaje actual.
   
@@ -34,7 +34,7 @@ HRESULT DeleteMessage(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pViewContext_
   
@@ -54,7 +54,7 @@ MAPI_E_NO_SUPPORT
   
 > La operación no es compatible con este sitio de mensaje.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un objeto de formulario llama al método de **IMAPIMessageSite::DeleteMessage** para eliminar el mensaje que el formulario se muestra actualmente. 
   
@@ -88,7 +88,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::DeleteMessage  <br/> |No se ha implementado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -100,10 +100,10 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IPersistMessage::Save](ipersistmessage-save.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
 

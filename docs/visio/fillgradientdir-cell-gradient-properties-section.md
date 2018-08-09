@@ -1,5 +1,5 @@
 ---
-title: Celda FillGradientDir (sección de propiedades de degradado)
+title: Celda FillGradientDir (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822130"
 ---
-# <a name="fillgradientdir-cell-gradient-properties-section"></a>Celda FillGradientDir (sección de propiedades de degradado)
+# <a name="fillgradientdir-cell-gradient-properties-section"></a>Celda FillGradientDir (sección Propiedades de degradado)
 
 Determina la dirección del relleno degradado. Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso. 
   
@@ -30,7 +30,7 @@ Determina la dirección del relleno degradado. Un degradado puede ser lineal, ra
 |8-12  <br/> |Degradados rectangulares. El degradado se extiende como una línea direccional desde un origen con un desvanecimiento con forma rectangular.  <br/> |
 |13  <br/> |Degradado de ruta de acceso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

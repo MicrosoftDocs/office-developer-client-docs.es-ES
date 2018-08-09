@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagAttachFilename
+title: Propiedad canónica PidTagAttachFilename
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cbf34dd6-7733-47f6-9c41-9d82656ca9dc
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4468ecd5946c95fab62d0885d9c0b3343a1508dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819231"
 ---
-# <a name="pidtagattachfilename-canonical-property"></a>Propiedad canónico PidTagAttachFilename
+# <a name="pidtagattachfilename-canonical-property"></a>Propiedad canónica PidTagAttachFilename
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre de archivo base y la extensión, excluyendo la ruta de acceso de datos adjuntos.
   
@@ -34,7 +34,7 @@ Contiene el nombre de archivo base y la extensión, excluyendo la ruta de acceso
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se recomienda que los objetos attachment exponen estas propiedades que son aplicables a los valores **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**y **ATTACH_BY_REF_ONLY** de la **PR_ATTACH_METHOD** Propiedad ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** y las propiedades asociadas son necesarias cuando se usa alguno de estos valores. 
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -86,7 +86,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

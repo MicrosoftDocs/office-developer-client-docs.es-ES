@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 62c18ac609547563ad0e98cbd914866e05888ac8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820954"
 ---
 # <a name="uptble"></a>UPTBLE
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Información extendida para cargar el contenido de una carpeta durante la [carga de estado de la tabla](upload-table-state.md).
   
@@ -35,7 +35,7 @@ struct UPTBLE
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _iEntMod_
   
@@ -61,9 +61,9 @@ struct UPTBLE
   
 >  [out] Número de elementos eliminados en la carpeta. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md) 
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md) 
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [UPTBL](uptbl.md)
 

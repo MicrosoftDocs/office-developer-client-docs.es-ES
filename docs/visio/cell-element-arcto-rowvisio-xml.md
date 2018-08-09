@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento de fila (geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x e y y la curvatura de un arco circular.  <br/> |
+|[Elemento de fila (geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x e y, y la curvatura de un arco circular.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,14 +60,14 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |A  <br/> |Distancia desde el punto medio del arco hasta el punto medio de su cuerda.  <br/> |[Fila ArcTo (Sección de geometría)](arcto-row-geometry-section.md) <br/> |
-|X  <br/> |La coordenada x del vértice del extremo de un arco.  <br/> |[Fila ArcTo (Sección de geometría)](arcto-row-geometry-section.md) <br/> |
+|X  <br/> |Coordenada x del vértice del extremo de un arco.  <br/> |[Fila ArcTo (Sección de geometría)](arcto-row-geometry-section.md) <br/> |
 |v  <br/> |Coordenada y del vértice del extremo de un arco.  <br/> |[Fila ArcTo (Sección de geometría)](arcto-row-geometry-section.md) <br/> |
    
 

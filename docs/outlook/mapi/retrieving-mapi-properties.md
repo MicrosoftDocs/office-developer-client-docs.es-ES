@@ -19,7 +19,7 @@ ms.locfileid: "19820519"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando un proveedor de servicio o cliente, recupera una propiedad de un objeto, el objeto pone a disposición identificador, tipo y valor de la propiedad. 
   
@@ -68,9 +68,9 @@ Los autores de llamadas que necesitan varias propiedades pueden llamar **HrGetOn
 > [!NOTE]
 > Propiedades seguras no están disponibles automáticamente con otras propiedades en una llamada **GetProps**, **HrGetOneProp**o **GetPropList** . Propiedades seguras deben solicitarla explícitamente con sus identificadores de propiedad. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
+[Información general sobre MAPI (propiedad)](mapi-property-overview.md)
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822729"
 ---
-# <a name="par-function"></a>PAR (función)
+# <a name="par-function"></a>Función PAR
 
 Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de principal la forma. 
   
@@ -24,13 +24,13 @@ Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de prin
 
 NOMINAL (** *Elija* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _punto_ <br/> |Obligatorio  <br/> |**Número, número** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
+| _punto_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 En Microsoft Visio, un punto es un valor único que incluye un par de *x* e *y* -coordenadas. Si la forma está en un grupo, su elemento primario es el grupo. Si la forma no es un grupo, su forma principal es la página. 
   

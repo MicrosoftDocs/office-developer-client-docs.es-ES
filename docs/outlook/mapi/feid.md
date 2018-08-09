@@ -19,7 +19,7 @@ ms.locfileid: "19816808"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Identificador de una carpeta. Contiene un identificador de entrada y otra información relevante.
   
@@ -35,7 +35,7 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -53,11 +53,11 @@ struct FEID
   
 > Identificador a largo plazo de la carpeta.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [Constantes MAPI](mapi-constants.md)
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SINCRONIZACIÓN](sync.md)
+[SYNC](sync.md)
 

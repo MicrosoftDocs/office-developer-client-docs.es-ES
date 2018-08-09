@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822484"
 ---
-# <a name="localizemerge-cell-miscellaneous-section"></a>Celda LocalizeMerge (Sección de varios)
+# <a name="localizemerge-cell-miscellaneous-section"></a>Celda LocalizeMerge (sección Varios)
 
 Determina si las formas se traducen al copiarlas de un documento a otro.
   
@@ -25,15 +25,16 @@ Determina si las formas se traducen al copiarlas de un documento a otro.
 | TRUE  <br/> | Traduce una forma al idioma del documento de destino.  <br/> |
 | FALSE  <br/> | No traduce una forma en función del idioma del documento de destino (predeterminado).  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LocalizeMerge por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LocalizeMerge por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LocalizeMerge  <br/> |
    
-Para obtener una referencia a la celda LocalizeMerge por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LocalizeMerge por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

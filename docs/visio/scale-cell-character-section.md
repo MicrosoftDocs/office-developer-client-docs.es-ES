@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823102"
 ---
-# <a name="scale-cell-character-section"></a>Celda Scale (Sección de caracteres)
+# <a name="scale-cell-character-section"></a>Celda Scale (sección Caracteres)
 
 Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
   
@@ -24,15 +24,15 @@ Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
 
 Establezca un porcentaje entre 1% y 99% para disminuir el ancho de la fuente. Establezca un porcentaje entre 101% y 600% para aumentar el ancho de la fuente.
   
-También puede establecer el valor de esta celda mediante el cuadro de diálogo **texto** (en la ficha **Inicio** , haga clic en la flecha de **fuente** ). 
+También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
-Para obtener una referencia a la celda Scale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Scale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |Char.FontScale [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda Scale por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Scale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

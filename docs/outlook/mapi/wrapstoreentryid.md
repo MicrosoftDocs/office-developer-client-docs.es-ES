@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aff46cca7a7d530b2eede1790176058e3b91abc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820983"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Convierte el identificador de entrada interno de un almacén de mensajes en un identificador de entrada más utilizable por el sistema de mensajería. 
   
@@ -78,7 +78,7 @@ MAPI_UNICODE.
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Un objeto de almacén de mensajes mantiene un identificador interno de entrada que es significativo sólo a coresident de proveedores de servicio con ese almacén de mensajes. Para otros componentes de mensajería MAPI proporciona una versión ajustada del identificador de entrada interna que hace que sea reconocible como que pertenecen al almacén de mensajes. Proveedores de servicios de coresident siempre se deben proporcionar el identificador de entrada de almacén de mensajes no ajustado original; siempre se deben proporcionar a las aplicaciones cliente de la versión ajustada, que es, a continuación, puede utilizar en cualquier lugar en el dominio de mensajería y en otros dominios. 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822739"
 ---
-# <a name="placedepth-cell-page-layout-section"></a>Celda PlaceDepth (sección de diseño de página)
+# <a name="placedepth-cell-page-layout-section"></a>Celda PlaceDepth (sección Diseño de página)
 
 Determina el método mediante el que se analiza el dibujo antes de crear el diseño y determina el tipo de diseño.
   
@@ -27,15 +27,16 @@ Determina el método mediante el que se analiza el dibujo antes de crear el dise
 | 2  <br/> | Profunda  <br/> |**visPLOPlaceDepthDeep** <br/> |
 | 3  <br/> | Superficial  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda PlaceDepth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda PlaceDepth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PlaceDepth  <br/> |
    
-Para obtener una referencia a la celda PlaceDepth por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda PlaceDepth por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

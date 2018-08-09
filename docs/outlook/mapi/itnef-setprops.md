@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 480a50bd8c3738ad7d0c178cb4cabfdecd15412e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817992"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece el valor de una o más propiedades para un mensaje encapsulado o adjunto sin modificar el mensaje original o datos adjuntos. 
   
@@ -64,7 +64,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Transporte proveedores, los proveedores de almacén de mensajes y las puertas de enlace llamada al método **ITnef::SetProps** para establecer las propiedades que deben incluirse en la encapsulación de un mensaje o un archivo adjunto sin modificar el mensaje o adjunto original. Las propiedades establecidas con esta llamada invalidar las propiedades existentes en el mensaje encapsulado. 
   
@@ -73,7 +73,7 @@ Transporte proveedores, los proveedores de almacén de mensajes y las puertas de
 > [!NOTE]
 > No hay real la codificación TNEF para **SetProps** sucede hasta después de que se llama al método [ITnef::Finish](itnef-finish.md) . Esta funcionalidad significa que punteros pasados **SetProps** deben siguen siendo válidos hasta después de que se realiza la llamada al **Finalizar** . En ese momento, todos los objetos y datos que se pasan en **SetProps** llamadas pueden publicada el o liberados. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,9 +83,9 @@ Transporte proveedores, los proveedores de almacén de mensajes y las puertas de
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónico PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propiedad canónica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   
-[ITnef: IUnknown](itnefiunknown.md)
+[ITnef : IUnknown](itnefiunknown.md)
 

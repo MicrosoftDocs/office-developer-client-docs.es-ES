@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagStatusCode
+title: Propiedad canónica PidTagStatusCode
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: efd0dcc8fc01fa433cbbf30936244e4818f8b14a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820338"
 ---
-# <a name="pidtagstatuscode-canonical-property"></a>Propiedad canónico PidTagStatusCode
+# <a name="pidtagstatuscode-canonical-property"></a>Propiedad canónica PidTagStatusCode
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una máscara de bits de marcadores que indican el estado actual de un recurso de la sesión. Todos los proveedores de servicios establecen códigos de estado de MAPI para informar sobre el estado de la libreta de direcciones integrada, la cola MAPI y el subsistema de igual.
   
@@ -34,7 +34,7 @@ Contiene una máscara de bits de marcadores que indican el estado actual de un r
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Estado MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El código de estado debe aparecer en el archivo Mapisvc.inf para todos los proveedores. 
   
@@ -94,18 +94,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagStatusString](pidtagstatusstring-canonical-property.md)
+[Propiedad canónica PidTagStatusString](pidtagstatusstring-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

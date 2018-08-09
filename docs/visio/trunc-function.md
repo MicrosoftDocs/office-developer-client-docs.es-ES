@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823442"
 ---
-# <a name="trunc-function"></a>TRUNC (función)
+# <a name="trunc-function"></a>Función TRUNC
 
 Devuelve un número truncado al número de decimales especificado.
   
@@ -24,11 +24,11 @@ Devuelve un número truncado al número de decimales especificado.
 
 TRUNC (** *número* **, ** *númeroDeDígitos* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El número que desea truncar.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El número que desea truncar.  <br/> |
 | _igual_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El número de dígitos al que se trunque _número_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto

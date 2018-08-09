@@ -1,5 +1,5 @@
 ---
-title: Validación e inicialización de un almacén de mensajes
+title: Validar e inicializar un almacén de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 48883ec33db9ffd6b3e7cc6e16ae9c2487a31607
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820978"
 ---
-# <a name="validating-and-initializing-a-message-store"></a>Validación e inicialización de un almacén de mensajes
+# <a name="validating-and-initializing-a-message-store"></a>Validar e inicializar un almacén de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando se abre un almacén de mensajes a través del método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) sin establecer la marca MDB_NO_MAIL, MAPI crea varias carpetas y se les asigna roles y los nombres predeterminados. MAPI es responsable de la creación de estas carpetas para evitar las incompatibilidades que inevitablemente se produciría si los clientes o los proveedores de almacén de mensajes fueron los responsables de la creación. 
   

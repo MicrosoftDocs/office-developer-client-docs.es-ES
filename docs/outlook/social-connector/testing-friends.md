@@ -1,5 +1,5 @@
 ---
-title: Prueba de amigos
+title: Probar los amigos
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821235"
 ---
-# <a name="testing-friends"></a>Prueba de amigos
+# <a name="testing-friends"></a>Probar los amigos
 
 Este tema describen las pruebas y escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) adecuadamente devuelve datos de amigos y que no sean-amigos, en su caso, según el modo de sincronización admitido por el proveedor.
 
@@ -77,7 +77,7 @@ Si un proveedor de OSC admite la sincronización de híbrido de amigos y amigos 
     
 Para probar la sincronización de híbrida, siga las sugerencias de pruebas en la sección [Sincronización de caché](#olosc_TestingFriends_CachedSync) para amigos y los de la sección [Sincronización a petición](#olosc_TestingFriends_OnDemandSync) para que no sean de amigos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md) 
 - [XML de amigos](xml-for-friends.md)

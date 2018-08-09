@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822109"
 ---
-# <a name="extrainfo-cell-hyperlinks-section"></a>Celda ExtraInfo (Sección de hipervínculos)
+# <a name="extrainfo-cell-hyperlinks-section"></a>Celda ExtraInfo (sección Hipervínculos)
 
 Representa una cadena que pasa información que se usará en la resolución de una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, "x = 41&amp;y = 7" especifica las coordenadas de un mapa de imagen.
   
@@ -24,13 +24,14 @@ Representa una cadena que pasa información que se usará en la resolución de u
 
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   
-Para obtener una referencia a la celda ExtraInfo por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ExtraInfo por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Hipervínculo.  *nombre* . ExtraInfo donde hipervínculo.  *nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda ExtraInfo por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ExtraInfo por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -16,19 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822207"
 ---
-# <a name="frame-cell-hyperlinks-section"></a>Celda Frame (Sección de hipervínculos)
+# <a name="frame-cell-hyperlinks-section"></a>Celda Frame (sección Hipervínculos)
 
 Representa el nombre de un marco de destino cuando la aplicación se abre como documento Active en una aplicación contenedora. El valor predeterminado es una cadena vacía.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Frame por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Frame por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Hipervínculo.  *nombre* . Marco where hipervínculo.  *nombre* es el nombre de fila  <br/> |
    
-Para obtener una referencia a la celda Frame por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Frame por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

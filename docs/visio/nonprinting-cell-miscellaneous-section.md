@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822676"
 ---
-# <a name="nonprinting-cell-miscellaneous-section"></a>Celda NonPrinting (Sección de varios)
+# <a name="nonprinting-cell-miscellaneous-section"></a>Celda NonPrinting (sección Varios)
 
 Habilita y deshabilita la impresión para la forma seleccionada.
   
@@ -29,7 +29,7 @@ Habilita y deshabilita la impresión para la forma seleccionada.
 
 Puede imprimir una guía si la selecciona y establece el valor de su celda NonPrinting en FALSE.
   
-Para obtener una referencia a la celda NonPrinting por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda NonPrinting por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

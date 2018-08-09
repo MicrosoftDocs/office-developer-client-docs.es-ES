@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823106"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a>Ejecutar en modo para programadores (mostrar la ficha Programador)
+# <a name="run-in-developer-mode-display-the-developer-tab"></a>Ejecutar en modo para programadores (mostrar la pestaña Programador)
 
 - Haga clic en la pestaña **archivo** y, a continuación, haga clic en **Opciones**.
     
 - En el cuadro de diálogo **Opciones de Visio** , haga clic en **Avanzadas**y, a continuación, en **General**, seleccione **ejecutar en modo para programadores**.
     
-A continuación, puede seleccionar un objeto y haga clic en **Mostrar ShapeSheet** para acelerar el acceso a la ventana ShapeSheet. 
+Seleccione entonces un objeto y haga clic en el botón **Mostrar ShapeSheet** para acelerar el acceso a la ventana ShapeSheet. 
   
 

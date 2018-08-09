@@ -21,7 +21,7 @@ ms.locfileid: "19823547"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de la extensión** <br/> |Ninguna  <br/> |
+|**Base de extensión** <br/> |Ninguna  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -197,7 +197,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |Container  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores del tipo xsd:token.  <br/> |
 |Documento  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |Master  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |Page  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |ParentWindow  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
@@ -210,7 +210,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |WindowLeft  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores del tipo xsd:short.  <br/> |
 |WindowState  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
 |WindowTop  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores del tipo xsd:short.  <br/> |
-|Tipo ventana  <br/> |xsd:token  <br/> |necesario  <br/> ||Valores del tipo xsd:token.  <br/> |
+|WindowType  <br/> |xsd:token  <br/> |necesario  <br/> ||Valores del tipo xsd:token.  <br/> |
 |WindowWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
    
 

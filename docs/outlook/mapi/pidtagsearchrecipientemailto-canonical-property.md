@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSearchRecipientEmailTo
+title: Propiedad canónica PidTagSearchRecipientEmailTo
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5d6c029ba91b6b3489d3f6544ead6788760363a7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820251"
 ---
-# <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propiedad canónico PidTagSearchRecipientEmailTo
+# <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propiedad canónica PidTagSearchRecipientEmailTo
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una cadena Unicode que se está realizando la consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se tratan en la línea **para** de los mensajes en el almacén. 
   
@@ -30,7 +30,7 @@ Contiene una cadena Unicode que se está realizando la consulta en la lista de d
 |Propiedades asociadas:  <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
 |Identificador:  <br/> |0x0EA6  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |B?squeda  <br/> |
+|Área:  <br/> |Búsqueda  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,7 +57,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que se muestran como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

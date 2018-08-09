@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRtfSyncBodyCrc
+title: Propiedad canónica PidTagRtfSyncBodyCrc
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aa144ca93e8fad9b9b5a5da1ee457e5cc3bbd841
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820152"
 ---
-# <a name="pidtagrtfsyncbodycrc-canonical-property"></a>Propiedad canónico PidTagRtfSyncBodyCrc
+# <a name="pidtagrtfsyncbodycrc-canonical-property"></a>Propiedad canónica PidTagRtfSyncBodyCrc
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la comprobación de redundancia cíclica (CRC) calculada para el texto del mensaje.
   
@@ -34,7 +34,7 @@ Contiene la comprobación de redundancia cíclica (CRC) calculada para el texto 
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensaje MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función [RTFSync](rtfsync.md) calcula la CRC usando sólo los caracteres que considera que es importante para el mensaje. Por ejemplo, se omiten algunos espacios en blanco y otros caracteres puede pasar por alto desde el CRC. 
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

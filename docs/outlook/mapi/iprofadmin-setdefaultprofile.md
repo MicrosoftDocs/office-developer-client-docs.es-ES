@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cf5060ba2113032fe1e13e5417590006808a53e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817891"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece o borra el perfil predeterminado de un cliente.
   
@@ -34,7 +34,7 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpszProfileName_
   
@@ -58,7 +58,7 @@ MAPI_E_NOT_FOUND
   
 > No existe el perfil especificado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IProfAdmin::SetDefaultProfile** establece un perfil determinado como el perfil del cliente predeterminado o borra el perfil predeterminado actual. El perfil predeterminado es el perfil que se usa automáticamente cada vez que el cliente inicia una sesión MAPI. **SetDefaultProfile** también establece la propiedad de **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) del perfil predeterminado nuevo en TRUE.
   
@@ -66,7 +66,7 @@ El método **IProfAdmin::SetDefaultProfile** establece un perfil determinado com
 
 Para iniciar una sesión con el perfil predeterminado, pase el indicador MAPI_USE_DEFAULT a la función [MAPILogonEx](mapilogonex.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Para iniciar una sesión con el perfil predeterminado, pase el indicador MAPI_US
   
 [MAPILogonEx](mapilogonex.md)
   
-[Propiedad canónico PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
+[Propiedad canónica PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

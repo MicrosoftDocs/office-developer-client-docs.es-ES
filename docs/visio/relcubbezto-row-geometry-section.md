@@ -1,5 +1,5 @@
 ---
-title: Fila de RelCubBezTo (sección de geometría)
+title: Fila RelCubBezTo (sección Geometría)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822937"
 ---
-# <a name="relcubbezto-row-geometry-section"></a>Fila de RelCubBezTo (sección de geometría)
+# <a name="relcubbezto-row-geometry-section"></a>Fila RelCubBezTo (sección Geometría)
 
 Contiene *el *x* - y *y* - las coordenadas del punto final de una curva de Bézier cúbica con relación al ancho de la forma y height, *x* - y* -las coordenadas del punto de control del principio de la forma relativa de curva width y height, y la *x* e *y* -las coordenadas del punto de control de la hora de finalización del ancho y alto de la forma relativa de curva. 
   

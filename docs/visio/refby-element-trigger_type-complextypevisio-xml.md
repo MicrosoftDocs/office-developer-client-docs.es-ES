@@ -54,7 +54,7 @@ Ninguno.
 
 |**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el atributo de identificador de una página en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el atributo de identificador de una página en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |T  <br/> |xsd: String  <br/> |necesario  <br/> |Especifica el tipo de referencia.  <br/> |Valores del tipo XSD: String.  <br/> |
    
 

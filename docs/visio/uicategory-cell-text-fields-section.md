@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823476"
 ---
-# <a name="uicategory-cell-text-fields-section"></a>Celda UICategory (Sección de campos de texto)
+# <a name="uicategory-cell-text-fields-section"></a>Celda UICategory (sección Campos de texto)
 
 Determina la categoría de un campo insertado en versiones de Visio anteriores a Visio 2000.
   
@@ -24,13 +24,14 @@ Determina la categoría de un campo insertado en versiones de Visio anteriores a
 
 Esta celda no aparece en la ventana ShapeSheet. Utilice esta celda si necesita solucionar algún problema de compatibilidad con versiones anteriores, como guardar un dibujo de Visio versión 2000 en el formato de archivo de Visio versión 5.0.
   
-Para obtener una referencia a la celda UICategory por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda UICategory por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Fields.UICat [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda UICategory por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda UICategory por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

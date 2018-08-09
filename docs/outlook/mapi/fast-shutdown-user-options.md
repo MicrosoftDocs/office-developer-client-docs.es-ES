@@ -17,7 +17,7 @@ ms.locfileid: "19816785"
 ---
 # <a name="fast-shutdown-user-options"></a>Opciones de usuario de apagado rápido
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Este tema describen las tres del registro opciones de Windows que están disponibles, a partir de Microsoft Outlook 2010 y ahora incluyen Microsoft Outlook 2013, de apagado rápido de los clientes MAPI de un usuario. Los administradores pueden usar esta configuración del registro para especificar el comportamiento de apagado de cliente preferido según la compatibilidad con los proveedores MAPI de apagado rápido de cliente. El Administrador de la configuración, a su vez, determina cómo responde el subsistema MAPI a la llamada del cliente MAPI para [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) en términos de soporte de apagado rápido disponibles. 
   
@@ -73,9 +73,9 @@ Valor:
     
 Cuando un cliente MAPI inicia un apagado rápido y llama a **IMAPIClientShutdown::QueryFastShutdown** para consultar para soporte técnico de apagado rápido, el subsistema MAPI se responde a la consulta mediante la devolución de MAPI_E_NO_SUPPORT, independientemente de si cualquier proveedor MAPI compatible con rapidez en el cierre. En esta configuración del registro, el subsistema MAPI nunca llama al método **IMAPIProviderShutdown::QueryFastShutdown** o [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) de cualquiera de los proveedores. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Cierre del cliente de MAPI](client-shutdown-in-mapi.md)
-- [Información general de apagado rápido](fast-shutdown-overview.md)
+- [Información general sobre el apagado rápido](fast-shutdown-overview.md)
 - [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md)
 

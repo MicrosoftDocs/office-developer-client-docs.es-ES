@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822296"
 ---
-# <a name="hue-function"></a>HUE (función)
+# <a name="hue-function"></a>Función HUE
 
 Devuelve el valor del componente de matiz de un color.
   
@@ -24,7 +24,7 @@ Devuelve el valor del componente de matiz de un color.
 
 MATIZ (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

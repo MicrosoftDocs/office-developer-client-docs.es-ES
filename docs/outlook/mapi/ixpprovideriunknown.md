@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e12f69e3486e5eeb9087b30753735f7f910dc6f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818034"
 ---
-# <a name="ixpprovider--iunknown"></a>IXPProvider: IUnknown
+# <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicializa un objeto de proveedor de transporte y se cierra el objeto cuando ya no sea necesaria.
   

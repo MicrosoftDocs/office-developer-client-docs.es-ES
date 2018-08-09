@@ -1,5 +1,5 @@
 ---
-title: Novedades para desarrolladores de Visio ShapeSheet
+title: Novedades para programadores de ShapeSheet de Visio
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823551"
 ---
-# <a name="whats-new-for-visio-shapesheet-developers"></a>Novedades para desarrolladores de Visio ShapeSheet
+# <a name="whats-new-for-visio-shapesheet-developers"></a>Novedades para programadores de ShapeSheet de Visio
 
 Visio 2013 proporciona una potente plataforma única para las soluciones personalizadas de dibujo. Nuevas celdas de ShapeSheet y funciones, junto con los nuevos objetos, propiedades, métodos y eventos, de automatización proporcionan más opciones para definir y controlar el comportamiento de los elementos de las soluciones.
   
@@ -25,7 +25,7 @@ Visio 2013 proporciona una potente plataforma única para las soluciones persona
 
 En la siguiente tabla se enumera las nuevas celdas que puede usar para crear soluciones de ShapeSheet en Visio 2013.
   
-|**Nueva celda**|**Sección**|
+|**Nueva celda**|**Section**|
 |:-----|:-----|
 |[BevelBottomHeight](bevelbottomheight-cell-bevel-properties-section.md) <br/> |Propiedades de bisel  <br/> |
 |[BevelBottomType](bevelbottomtype-cell-bevel-properties-section.md) <br/> |Propiedades de bisel  <br/> |
@@ -58,10 +58,10 @@ En la siguiente tabla se enumera las nuevas celdas que puede usar para crear sol
 |[LineGradientAngle](linegradientangle-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
 |[LineGradientDir](linegradientdir-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
 |[LineGradientEnabled](linegradientenabled-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
-|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protección  <br/> |
-|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protección  <br/> |
-|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protección  <br/> |
-|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protección  <br/> |
+|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protection  <br/> |
 |[NoCoauth](nocoauth-cell-document-properties-section.md) <br/> |Propiedades de documento  <br/> |
 |[PageLockReplace](pagelockreplace-cell-page-properties-section.md) <br/> |Propiedades de página  <br/> |
 |[Perspectiva](perspective-cell-3-d-rotation-properties-section.md) <br/> |Propiedades de rotación 3D  <br/> |
@@ -109,7 +109,7 @@ En la siguiente tabla se enumera las celdas que se han cambiado en Visio 2013.
 
 En la siguiente tabla se enumera las nuevas filas que pueden usar para crear soluciones de ShapeSheet en Visio 2013.
   
-|**Nueva fila**|**Sección**|
+|**Nueva fila**|**Section**|
 |:-----|:-----|
 |[GradientStop](gradient-stop-row-fill-gradient-section.md) <br/> |Degradado de relleno  <br/> |
 |[GradientStop](gradient-stop-row-line-gradient-section.md) <br/> |Línea degradado  <br/> |

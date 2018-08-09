@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821890"
 ---
-# <a name="cy-function"></a>CY (función)
+# <a name="cy-function"></a>Función CY
 
 Devuelve un valor de moneda.
   
@@ -24,14 +24,14 @@ Devuelve un valor de moneda.
 
 CY (** *valor* **, ** *IdMoneda* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Opcional  <br/> |**Expresión numérica o cadena** <br/> |Un número o una cadena que incluye el formato específico de la moneda. Si no se especifica, el valor de moneda tiene el formato según el estilo de moneda en la configuración del sistema regional y de idioma.  <br/> |
+| _value_ <br/> |Opcional  <br/> |**Número o cadena** <br/> |Un número o una cadena que incluye el formato específico de la moneda. Si no se especifica, el valor de moneda tiene el formato según el estilo de moneda en la configuración del sistema regional y de idioma.  <br/> |
 | _IdMoneda_ <br/> |Opcional  <br/> |**Número** <br/> |Un ID de moneda numérica o una cadena entrecomillada de tres caracteres de la abreviatura de ISO 4217.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para especificar una moneda diferente, debe incluir un _IdMoneda_de válido. Para obtener una lista, vea [acerca de las constantes de moneda](about-currency-constants.md).
   

@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823386"
 ---
-# <a name="theme-function"></a>THEME (función)
+# <a name="theme-function"></a>Función THEME
 
 Obtiene la configuración de formato del tema actual.
   

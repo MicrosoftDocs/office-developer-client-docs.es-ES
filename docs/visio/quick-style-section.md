@@ -1,5 +1,5 @@
 ---
-title: Sección de estilos rápidos
+title: Sección Estilos rápidos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822890"
 ---
-# <a name="quick-style-section"></a>Sección de estilos rápidos
+# <a name="quick-style-section"></a>Sección Estilos rápidos
 
 Muestra el estilo rápido actual formato aplicados a la forma, incluido el color de línea y estilo, el color de relleno y estilo, color de la sombra, efectos, fuente y tipo de estilo de valores. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Puede estilos rápidos seleccionando la forma y, a continuación, seleccionando un nuevo estilo rápido (en la ficha **Inicio** , en el grupo **Estilos de forma** , haga clic en **más**y, a continuación, seleccione otro estilo rápido de la Galería).
   

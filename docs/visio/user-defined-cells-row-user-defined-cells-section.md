@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823485"
 ---
-# <a name="user-defined-cells-row-user-defined-cells-section"></a>Fila User-defined Cells (Sección de celdas definidas por el usuario)
+# <a name="user-defined-cells-row-user-defined-cells-section"></a>Fila User-defined Cells (sección Celdas definidas por el usuario)
 
 Contiene el valor y la descripción de cada celda definida por el usuario en la solución. Una forma contiene una fila User-defined Cells por cada pareja de celdas Value/Prompt definida por el usuario.
   

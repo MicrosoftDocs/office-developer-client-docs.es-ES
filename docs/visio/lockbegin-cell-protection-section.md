@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822490"
 ---
-# <a name="lockbegin-cell-protection-section"></a>Celda LockBegin (Sección de protección)
+# <a name="lockbegin-cell-protection-section"></a>Celda LockBegin (sección Protección)
 
 Bloquea el punto inicial (BeginX, BeginY) de una forma 1D para una ubicación específica.
   
@@ -27,13 +27,13 @@ Bloquea el punto inicial (BeginX, BeginY) de una forma 1D para una ubicación es
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda LockBegin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockBegin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockBegin  <br/> |
    
-Para obtener una referencia a la celda LockBegin por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockBegin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

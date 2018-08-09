@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823216"
 ---
-# <a name="shdwforegnd-cell-fill-format-section"></a>Celda ShdwForegnd (Sección de formato de relleno)
+# <a name="shdwforegnd-cell-fill-format-section"></a>Celda ShdwForegnd (sección Formato de relleno)
 
 Determina el color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
   
@@ -28,13 +28,13 @@ Para especificar un color personalizado, utilice la función RGB o HSL. El valor
   
 Puede establecer la transparencia del color de primer plano de la trama de relleno sombreado de la forma en la celda ShdwForegndTrans.
   
-Para obtener una referencia a la celda ShdwForegnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShdwForegnd por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ShdwForegnd  <br/> |
    
-Para obtener una referencia a la celda ShdwForegnd por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShdwForegnd por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

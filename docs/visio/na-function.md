@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822675"
 ---
-# <a name="na-function"></a>NA (función)
+# <a name="na-function"></a>Función NA
 
 Devuelve el valor de error #NA!. 
   
@@ -28,7 +28,7 @@ NA( )
   
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Observaciones
 

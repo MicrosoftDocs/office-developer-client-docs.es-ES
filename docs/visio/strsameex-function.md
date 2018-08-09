@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823343"
 ---
-# <a name="strsameex-function"></a>STRSAMEEX (función)
+# <a name="strsameex-function"></a>Función STRSAMEEX
 
 Determina si dos cadenas son los mismos.
   
@@ -24,22 +24,24 @@ Determina si dos cadenas son los mismos.
 
 STRSAMEEX ("** *cadena1* **","** *cadena2* **", ** *localeID* **, ** *marca* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _cadena1_ <br/> |Obligatorio  <br/> |**String** <br/> |La primera cadena de la comparación.  <br/> |
 | _cadena2_ <br/> |Obligatorio  <br/> |**String** <br/> | La segunda cadena de la comparación.  <br/> |
-| _localeID_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El código del identificador regional.  <br/> |
-| _marca_ <br/> |Obligatorio  <br/> |**Numérico** <br/> | Un bit que especifica el tipo de comparación.  <br/> |
+| _localeID_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El código del identificador regional.  <br/> |
+| _marca_ <br/> |Obligatorio  <br/> |**Numeric** <br/> | Un bit que especifica el tipo de comparación.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Boolean
+Booleano
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-STRSAMEEX devuelve TRUE si ambas cadenas de entrada son los mismos y FALSE si no lo son. Utilice esta función para comparar cadenas de varios bytes o para hacer comparaciones que usan las reglas de mayúsculas y minúsculas para una configuración regional específica.
+STRSAMEEX devuelve TRUE (verdadero) si son iguales y FALSE (falso) si no lo son. Use esta función para comparar cadenas de varios bytes o para hacer comparaciones usando reglas para una configuración local específica.
+			
+
   
 En la función STRSAMEEX, puede usar cualquier combinación de las siguientes marcas.
   

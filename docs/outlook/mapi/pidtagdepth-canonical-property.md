@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagDepth
+title: Propiedad canónica PidTagDepth
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 25af87004ef5616a6c6fc575c647fdd1794d710f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819431"
 ---
-# <a name="pidtagdepth-canonical-property"></a>Propiedad canónico PidTagDepth
+# <a name="pidtagdepth-canonical-property"></a>Propiedad canónica PidTagDepth
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un número entero que representa el nivel de sangría, o profundidad, de un objeto en una tabla de jerarquías relativo.
   
@@ -34,7 +34,7 @@ Contiene un número entero que representa el nivel de sangría, o profundidad, d
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |MAPI comunes  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad también puede especificar el nivel de la categorización de una fila en una tabla de contenido o la profundidad de jerarquía en una tabla de jerarquía. La profundidad está basada en cero, donde cero representa la categoría más a la izquierda. En todos los casos, el valor de la propiedad representa un valor relativo en lugar de un valor absoluto. En la tabla de jerarquía, por ejemplo, el valor de profundidad es en relación con el contenedor desde el que se ha recuperado en la tabla de jerarquía. La profundidad no representan una profundidad absoluta desde el contenedor raíz. 
   
@@ -64,20 +64,20 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagObjectType](pidtagobjecttype-canonical-property.md)
+[Propiedad canónica PidTagObjectType](pidtagobjecttype-canonical-property.md)
   
-[Propiedad canónico PidTagSelectable](pidtagselectable-canonical-property.md)
+[Propiedad canónica PidTagSelectable](pidtagselectable-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

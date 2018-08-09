@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9d8eb3f2c52f20ffe57d84823a0ed736337b4d9b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818270"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se trata de la notificación de un cambio en el estado de conexión. Indica la parte del estado de conexión que ha cambiado, el estado de conexión anterior y el nuevo estado de conexión.
   
@@ -42,7 +42,7 @@ typedef struct
 } MAPIOFFLINE_NOTIFY;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _ulSize_
   
@@ -82,7 +82,7 @@ typedef struct
     
    - MAPIOFFLINE_STATE_ONLINE
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La API de estado sin conexión admite solamente las notificaciones de cambios en línea o sin conexión. Un cliente debe comprobar que Outlook devuelve los siguientes valores antes de examinar el cambio real:
   
@@ -92,9 +92,9 @@ La API de estado sin conexión admite solamente las notificaciones de cambios en
     
 Es posible que Outlook notifica a un cliente de otros cambios que no son compatibles. En esos casos, *NotifyType* no sería uno de los tres valores que se ha indicado anteriormente, o *ulMask* no sería MAPIOFFLINE_STATE_OFFLINE_MASK y el cliente debe omitir el resto de los datos en *información* . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de estado sin conexión](about-the-offline-state-api.md)  
+- [Información sobre la API de estado sin conexión](about-the-offline-state-api.md)  
 - [Constantes MAPI](mapi-constants.md)  
 - [MAPIOFFLINE_NOTIFY_TYPE](mapioffline_notify_type.md)
 

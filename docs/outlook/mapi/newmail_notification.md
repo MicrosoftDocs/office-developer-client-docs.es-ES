@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aad4d3be8757ca4cd7719bfd7a53ae8bbf6711f3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818410"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe la información que se relacionan con la llegada de un nuevo mensaje. 
   
@@ -45,7 +45,7 @@ typedef struct _NEWMAIL_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
@@ -79,7 +79,7 @@ MAPI_UNICODE.
   
 > Máscara de bits de indicadores que describe el estado actual del mensaje recién llegado. El miembro **ulMessageFlags** es una copia de la propiedad del mensaje **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **NEWMAIL_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . Cuando el miembro de la **información** de una estructura de **notificación** contiene una estructura **NEWMAIL_NOTIFICATION** , se establece el miembro **ulEventType** de la estructura de **notificación** en _fnevNewMail._
   
@@ -89,17 +89,17 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Notificación de eventos de MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
+|[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [Notificaci�n](notification.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

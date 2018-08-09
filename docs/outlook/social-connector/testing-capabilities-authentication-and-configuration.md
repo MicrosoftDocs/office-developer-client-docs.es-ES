@@ -1,5 +1,5 @@
 ---
-title: Pruebas de funciones, autenticación y configuración
+title: Probar las funciones, la autenticación y la configuración
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821218"
 ---
-# <a name="testing-capabilities-authentication-and-configuration"></a>Pruebas de funciones, autenticación y configuración
+# <a name="testing-capabilities-authentication-and-configuration"></a>Probar las funciones, la autenticación y la configuración
 
 En este tema se describe las pruebas de introducción, características y escenarios de configuración de una cuenta y la autenticación de un usuario para una red social.
   
@@ -70,7 +70,7 @@ Además, si su proveedor de OSC admite la autenticación basada en formularios, 
 |:-----|:-----|
 |La introducción de una dirección URL a un formulario para el usuario para iniciar sesión desde una llamada a [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md)OSC.  <br/> |El OSC abre la dirección URL en el explorador del usuario de forma predeterminada, y la página Web permite al usuario que escriba las credenciales para iniciar sesión en la red social.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Elementos XML de capacidades](capabilities-xml-elements.md)  
 - [Autenticación básica](basic-authentication.md) 

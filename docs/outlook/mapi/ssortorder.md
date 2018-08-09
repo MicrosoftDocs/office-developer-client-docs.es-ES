@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7cb511c7a021c4e65214acc7efa785be0e02ffc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820753"
 ---
 # <a name="ssortorder"></a>SSortOrder
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define cómo se ordenan las filas de una tabla, ¿qué columna para usar como el criterio de ordenación y la dirección de la ordenación. 
   
@@ -38,7 +38,7 @@ typedef struct _SSortOrder
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulPropTag**
   
@@ -60,7 +60,7 @@ typedef struct _SSortOrder
       
   - TABLE_SORT_CATEG_MIN: En el valor mínimo del miembro **ulPropTag** para las filas de datos en las categorías especificadas por el criterio de ordenación anterior en la estructura de **SSortOrderSet** en la que se debe ordenar la tabla. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura de **SSortOrder** se usa para describir cómo se realiza una operación de ordenación estándar o una operación de ordenación por categorías. Estructuras **SSortOrder** normalmente se combinan en una estructura **SSortOrderSet** para describir varios criterios de ordenación y las instrucciones de activación. Estructuras de **SSortOrderSet** se usan en los métodos de interfaz y las funciones siguientes: 
   
@@ -70,7 +70,7 @@ Una estructura de **SSortOrder** se usa para describir cómo se realiza una oper
     
 - [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
     
-- [SortTable](imapitable-sorttable.md)
+- [IMAPITable::SortTable](imapitable-sorttable.md)
     
 - [FBadSortOrderSet](fbadsortorderset.md)
     
@@ -89,7 +89,7 @@ Todo el mundo no se admite la ordenación en columnas con varios valores por tod
   
 Para obtener más información acerca de la ordenación estándar y organizados por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [SSortOrderSet](ssortorderset.md)
 - [Estructuras MAPI](mapi-structures.md)

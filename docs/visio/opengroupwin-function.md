@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822691"
 ---
-# <a name="opengroupwin-function"></a>OPENGROUPWIN (función)
+# <a name="opengroupwin-function"></a>Función OPENGROUPWIN
 
 Abre el grupo en la ventana de grupo. Si el objeto no es un grupo, esta función no tiene ningún efecto.
   

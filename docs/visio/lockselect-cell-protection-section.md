@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822534"
 ---
-# <a name="lockselect-cell-protection-section"></a>Celda LockSelect (Sección de protección)
+# <a name="lockselect-cell-protection-section"></a>Celda LockSelect (sección Protección)
 
 Impide que una forma pueda seleccionarse.
   
@@ -27,15 +27,15 @@ Impide que una forma pueda seleccionarse.
    
 ## <a name="remarks"></a>Comentarios
 
-En orden para que LockSelect surta efecto, la casilla de verificación **formas** debe seleccionarse en el cuadro de diálogo **Proteger documento** . 
+Para que LockSelect surta efecto, la casilla de verificación **Formas** debe estar activada en el cuadro de diálogo **Proteger documento**. 
   
-Para obtener una referencia a la celda LockSelect por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda LockSelect por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockSelect  <br/> |
    
-Para obtener una referencia a la celda LockSelect por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda LockSelect por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

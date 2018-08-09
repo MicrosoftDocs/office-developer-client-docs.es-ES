@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidInternetAccountStamp
+title: Propiedad canónica PidLidInternetAccountStamp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 49732f30461e05e83c130f9cc24129cc86baa75f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818767"
 ---
-# <a name="pidlidinternetaccountstamp-canonical-property"></a>Propiedad canónico PidLidInternetAccountStamp
+# <a name="pidlidinternetaccountstamp-canonical-property"></a>Propiedad canónica PidLidInternetAccountStamp
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el identificador de cuenta de correo electrónico a través del cual se envía el mensaje de correo electrónico.
   
@@ -35,7 +35,7 @@ Especifica el identificador de cuenta de correo electrónico a través del cual 
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |General de mensajería  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El formato de esta cadena es depende de la implementación. Esta propiedad se puede usar el cliente para determinar en qué servidor para dirigir el correo a, pero es opcional y el valor no tiene ningún significado para el servidor.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

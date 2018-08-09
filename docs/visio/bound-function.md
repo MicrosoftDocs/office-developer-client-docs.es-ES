@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821703"
 ---
-# <a name="bound-function"></a>BOUND (función)
+# <a name="bound-function"></a>Función BOUND
 
 Restringe el valor de una celda a un intervalo o conjunto de intervalos.
   
@@ -24,15 +24,17 @@ Restringe el valor de una celda a un intervalo o conjunto de intervalos.
 
 ENLAZADO (** *valor* **, ** *tipo* **, ** *Omitir* **, ** *valor1* **, ** *valor2* ** ** * [, omitir, value1(n), valor2,...] * **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Valor actual que se ha de restringir.  <br/> |
-| _type_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Si la restricción es inclusiva (0), exclusiva (1) o deshabilitado (2).  <br/> |
+| _value_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Valor actual que se ha de restringir.  <br/> |
+| _type_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).
+  <br/> |
 | _Omitir_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE omite el intervalo; FALSE restringe el valor de la celda al intervalo.  <br/> |
-| _valor1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Primer valor en un rango.  <br/> |
-| _valor2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Segundo valor de un intervalo.  <br/> |
+| _valor1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Primer valor de un intervalo.
+  <br/> |
+| _valor2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Segundo valor de un intervalo.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 

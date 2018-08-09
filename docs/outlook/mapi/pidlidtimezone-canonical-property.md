@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTimeZone
+title: Propiedad canónica PidLidTimeZone
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5eb9842da78541bc8c73cd5b2c52abeb927f9031
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819015"
 ---
-# <a name="pidlidtimezone-canonical-property"></a>Propiedad canónico PidLidTimeZone
+# <a name="pidlidtimezone-canonical-property"></a>Propiedad canónica PidLidTimeZone
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica información acerca de la zona horaria de una reunión periódica.
   
@@ -35,7 +35,7 @@ Especifica información acerca de la zona horaria de una reunión periódica.
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es de sólo lectura si no se establece la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)), pero si la propiedad **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) es TRUE y la **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) la propiedad es FALSE. La palabra inferior especifica un índice en una tabla que contiene la información de zona horaria. Desde la palabra superior, es de lectura sólo el bit más alto. Si ese bit está establecido, a continuación, la zona horaria que hace referencia no observará se seguirá el horario de verano (DST), en caso contrario, las fechas de horario de verano se detallan en [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

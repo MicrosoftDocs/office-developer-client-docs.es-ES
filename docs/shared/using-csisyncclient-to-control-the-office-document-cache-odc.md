@@ -51,7 +51,7 @@ DeleteFile se usa para quitar la información del archivo de la memoria caché. 
   
 `HRESULT ILSCLocalSyncClient::DeleteFile ([in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _bstrResourceID_
   
@@ -76,7 +76,7 @@ GetChanges devuelve un enumerador de objetos de ILSCEvent y también devuelve un
   
 `HRESULT ILSCLocalSyncClient::GetChanges ([in] LONG nPreviousChangesToken, [out] LONG * pnCurrentChangesToken, [out] IEnumLSCEvent ** ppiEvents)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _nPreviousChangesToken_
   
@@ -105,7 +105,7 @@ GetClientNetworkSyncPermission se utiliza para consultar si heurística de sincr
   
 `HRESULT ILSCLocalSyncClient::GetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [out] VARIANT_BOOL * pfSyncEnabled)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _nspType_
   
@@ -130,7 +130,7 @@ GetFileStatus se usa para recopilar información para un archivo específico: si
   
 `HRESULT ILSCLocalSyncClient::GetFileStatus ([in] BSTR bstrResourceID, [in] LSCStatusFlag sfRequestedStatus, [out] BSTR * pbstrFileSystemPath, [out] BSTR * pbstrETag, [out] LSCStatusFlag * psfFileStatus)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _bstrResourceID_
   
@@ -172,7 +172,7 @@ Un ejemplo de la cadena devuelta es como sigue: "| docx | docm | pptx |"
   
 `HRESULT ILSCLocalSyncClient::GetSupportedFileExtensions ([out] BSTR * pbstrSupportedFileExtensions)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrSupportedFileExtensions_
   
@@ -194,7 +194,7 @@ Initialize debe ser el primer método que se llama. De lo contrario, todas las o
   
 `HRESULT ILSCLocalSyncClient::Initialize ([in] BSTR bstrSuppliedID, [in] BSTR bstrProgID, [in] BSTR bstrFileSystemDirectoryHint, [in] IPartnerActivityCallback * pEventCallback, [out] VARIANT_BOOL * pfCreatedNewCache)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _bstrSuppliedID_
   
@@ -236,7 +236,7 @@ Este método le permitirá cargas si se marcó como carga bloqueados anteriormen
   
 `HRESULT ILSCLocalSyncClient::LocalFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _bstrFileSystemPath_
   
@@ -275,7 +275,7 @@ RenameFile asocie una nueva dirección URL y la ruta de acceso local para un det
   
 `HRESULT ILSCLocalSyncClient::RenameFile ([in] BSTR bstrResourceID, [in] BSTR bstrNewFileSystemPath, [in] BSTR bstrNewWebPath, [in] VARIANT_BOOL fBlockUploads)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _bstrResourceID_
   
@@ -315,7 +315,7 @@ ResetCache, se eliminará de la memoria caché asociada con el SuppliedID que le
 
 ##### <a name="parameters"></a>Parámetros
 
-None
+Ninguno
   
 ##### <a name="return-values"></a>Valores devueltos
 
@@ -334,7 +334,7 @@ Este método le permitirá descargas si se marcó como descargas bloqueados ante
   
 `HRESULT ILSCLocalSyncClient::ServerFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
 |Parámetro|Descripción|
 |:-----|:-----|
@@ -365,7 +365,7 @@ Establece la memoria caché en un estado en línea o sin conexión. Si están de
   
 `HRESULT ILSCLocalSyncClient::SetClientConnectivityState ([in] VARIANT_BOOL fIsOnline)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _fIsOnline_
   
@@ -387,7 +387,7 @@ SetClientNetworkSyncPermission se usa para override o heurística de sincronizac
   
 `HRESULT ILSCLocalSyncClient::SetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [in] VARIANT_BOOL fEnableSync)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _nspType_
   
@@ -436,7 +436,7 @@ Recupera el siguiente evento de la lista de eventos.
   
 `HRESULT IEnumLSCEvent::FNext ([out] ILSCEvent ** ppiLSCEvent)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _ppiLSCEvent_
   
@@ -477,7 +477,7 @@ Este valor sólo se llena cuando la [Enumeración LSCEventType](using-csisynccli
   
 `HRESULT ILSCEvent::GetConflictStatus ([out] VARIANT_BOOL * pfIsInConflict)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pfIsInConflict_
   
@@ -493,7 +493,7 @@ Este valor sólo se rellena cuando la [Enumeración LSCEventType](using-csisyncc
   
 `HRESULT ILSCEvent::GetError ([out] LONG * pnError)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pnError_
   
@@ -509,7 +509,7 @@ Este valor sólo se rellena cuando la [Enumeración LSCEventType](using-csisyncc
   
 `HRESULT ILSCEvent::GetETag ([out] BSTR * pbstrETag)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrETag_
   
@@ -525,7 +525,7 @@ Obtiene el tipo de este evento.
   
 `HRESULT ILSCEvent::GetEventType ([out] LSCEventType * pnEventType)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pnEventType_
   
@@ -544,7 +544,7 @@ Obtiene la ruta de acceso local de trabajo para este evento.
   
 `HRESULT ILSCEvent::GetLocalWorkingPath ([out] BSTR * pbstrLocalWorkingPath)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrLocalWorkingPath_
   
@@ -560,7 +560,7 @@ Obtiene el identificador de recurso para el evento.
   
 `HRESULT ILSCEvent::GetResourceID ([out] BSTR * pbstrResourceID)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrResourceID_
   
@@ -576,7 +576,7 @@ Este valor sólo se llena cuando la [Enumeración LSCEventType](using-csisynccli
   
 `HRESULT ILSCEvent::GetResourceIDAttempted ([out] BSTR * pbstrResourceIDAttempted)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrResourceIDAttempted_
   
@@ -592,7 +592,7 @@ Este valor sólo se rellena cuando la [Enumeración LSCEventType](using-csisyncc
   
 `HRESULT ILSCEvent::GetSyncErrorType ([out] LSCEventSyncErrorType * pnSyncErrorType)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pnSyncErrorType_
   
@@ -611,7 +611,7 @@ Este valor sólo se llena cuando la [Enumeración LSCEventType](using-csisynccli
   
 `HRESULT ILSCEvent::GetWebPath ([out] BSTR * pbstrWebPath)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrWebPath_
   
@@ -633,7 +633,7 @@ Obtiene la información de la cadena de error sobre un evento de sincronización
   
 `HRESULT ILSCEvent2::GetErrorChain ([out] BSTR * pbstrErrorChain)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _pbstrErrorChain_
   
@@ -660,7 +660,7 @@ Esto es una función de devolución de llamada en el objeto dado al objeto COM C
   
 `HRESULT IPartnerActivityCallback::EventOccurred ([in] LSCEventTypeOccurred eEventTypeOccurred)`
 
-##### <a name="parameters"></a>Sintaxis
+##### <a name="parameters"></a>Parámetros
 
  _eEventTypeOccurred_
   

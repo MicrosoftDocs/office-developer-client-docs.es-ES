@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b14529e987b85d1dcbe3689d4e852a9efd39a396
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818418"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función de devolución de llamada que llama MAPI para enviar una notificación de eventos. Sólo se puede usar esta función de devolución de llamada cuando se ajusta en un objeto de receptor advise creado mediante una llamada a la función [HrAllocAdviseSink](hrallocadvisesink.md) . 
   
@@ -41,7 +41,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpvContext_
   
@@ -59,7 +59,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
 El conjunto de valores devueltos válidos para el prototipo de función **NOTIFCALLBACK** depende de si se implementa la función por una aplicación de cliente o un proveedor de servicios. Los clientes siempre deben devolver S_OK. Proveedores pueden devolver S_OK o CALLBACK_DISCONTINUE. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 CALLBACK_DISCONTINUE es un valor devuelto válido para las funciones de devolución de llamada sincrónica solamente; solicita que MAPI detener inmediatamente el procesamiento de las devoluciones de llamada para esta notificación. Cuando se devuelve CALLBACK_DISCONTINUE, MAPI establece el parámetro _lpUlFlags_ a NOTIFY_CANCELED cuando se devuelve desde [IMAPISupport::Notify](imapisupport-notify.md). 
   
@@ -69,7 +69,7 @@ Las siguientes son limitaciones en lo que puede hacer una función de devolució
     
 - No puede mostrar una interfaz de usuario.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

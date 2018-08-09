@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleType (sección de estilos rápidos)
+title: Celda QuickStyleType (sección Estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822891"
 ---
-# <a name="quickstyletype-cell-quick-style-section"></a>Celda QuickStyleType (sección de estilos rápidos)
+# <a name="quickstyletype-cell-quick-style-section"></a>Celda QuickStyleType (sección Estilos rápidos)
 
 Determina el tipo de estilo rápido (dimensional 1, 2-dimensional o conector) que hereda de la forma. 
   
@@ -25,7 +25,7 @@ Determina el tipo de estilo rápido (dimensional 1, 2-dimensional o conector) qu
 |2  <br/> |2-dimensional  <br/> |
 |3  <br/> |Conector  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **QuickStyleType** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

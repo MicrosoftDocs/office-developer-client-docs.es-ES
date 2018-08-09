@@ -16,27 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823202"
 ---
-# <a name="shdwforegndtrans-cell-fill-format-section"></a>Celda ShdwForegndTrans (Sección de formato de relleno)
+# <a name="shdwforegndtrans-cell-fill-format-section"></a>Celda ShdwForegndTrans (sección Formato de relleno)
 
 Determina el nivel de transparencia del color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|
+          0 -100
+  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 
 Los valores se redondean al porcentaje medio más próximo. Un valor de 100% es completamente transparente. Aunque una sombra que tiene un relleno transparente completamente el mismo en la página de dibujo aparece como una sombra que no tiene relleno, interactúa con otros objetos en la página de la misma manera como si su transparencia fuera 0%.
   
-También puede establecer este valor mediante el control deslizante en el cuadro de diálogo **sombra** (en la ficha **Inicio** , en el grupo **forma** , haga clic en **sombra**y, a continuación, haga clic en **Opciones de sombra**). Este valor controla el valor de transparencia de sombra de fondo y de primer plano. Para establecer estos valores de forma independiente, debe escribir en la ventana ShapeSheet.
+También puede usar el control deslizante del cuadro de diálogo **Sombra** para establecer este valor (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**). Este valor controla el valor de las transparencias de sombra de primer y segundo plano. Para establecer estos valores de forma independiente, debe escribirlos en la ventana ShapeSheet.
   
-Para obtener una referencia a la celda ShdwForegndTrans por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShdwForegndTrans por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |ShdwForegndTrans  <br/> |
    
-Para obtener una referencia a la celda ShdwForegndTrans por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShdwForegndTrans por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

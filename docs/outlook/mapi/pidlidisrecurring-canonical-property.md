@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidIsRecurring
+title: Propiedad canónica PidLidIsRecurring
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c21f2885f7e9475c2149e42e2a8d947311916b4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818779"
 ---
-# <a name="pidlidisrecurring-canonical-property"></a>Propiedad canónico PidLidIsRecurring
+# <a name="pidlidisrecurring-canonical-property"></a>Propiedad canónica PidLidIsRecurring
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica si el objeto está asociado con una serie periódica.
   
@@ -35,7 +35,7 @@ Especifica si el objeto está asociado con una serie periódica.
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un valor de TRUE indica que el objeto representa una serie periódica o una excepción (incluida una instancia huérfana). Un valor FALSE, o la ausencia de esta propiedad indica que el objeto representa una instancia única. Tenga en cuenta la diferencia entre esta propiedad y la propiedad **PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

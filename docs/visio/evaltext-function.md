@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822081"
 ---
-# <a name="evaltext-function"></a>EVALTEXT (función)
+# <a name="evaltext-function"></a>Función EVALTEXT
 
 Evalúa el texto que _contiene nombreDeForma_ como si fuera una fórmula y devuelve el resultado. 
   
@@ -24,7 +24,7 @@ Evalúa el texto que _contiene nombreDeForma_ como si fuera una fórmula y devue
 
 EVALTEXT (** *nombreDeForma! theText* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
@@ -32,11 +32,11 @@ EVALTEXT (** *nombreDeForma! theText* **)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Notas
 
- _nombreDeForma_ se puede usar para hacer referencia al texto de una forma que no sea la forma actual. 
+ _nombreDeForma_ se puede usar para hacer referencia al texto de una forma que no es la actual. 
   
 Si no hay ningún texto, el resultado es cero. Si el texto no se puede evaluar, la función devuelve un error.
   

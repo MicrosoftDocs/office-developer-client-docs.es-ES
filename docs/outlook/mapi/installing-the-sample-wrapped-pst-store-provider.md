@@ -1,5 +1,5 @@
 ---
-title: Instalar el ejemplo ajusta el proveedor de almacén de archivos PST
+title: Instalar la muestra de proveedor de almacén de archivos PST ajustado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817827"
 ---
-# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar el ejemplo ajusta el proveedor de almacén de archivos PST
+# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar la muestra de proveedor de almacén de archivos PST ajustado
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema le lleva a través de los pasos para descargar e instalar al proveedor de almacén de archivos PST ajustado de ejemplo. El ejemplo ajustado PST Store Provider, WrapPST, se implementa un proveedor de almacén de archivos PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación](about-the-replication-api.md).
   
@@ -29,7 +29,7 @@ En este tema le lleva a través de los pasos para descargar e instalar al provee
     
 3. Haga clic en **Examinar**, seleccione la ubicación donde desea guardar el ejemplo y haga clic en **Aceptar**.
     
-4. Haga clic en **extraer**. La carpeta seleccionada aparece y contiene los archivos extraídos.
+4. Haga clic en **Extraer**. La carpeta seleccionada aparece y contiene los archivos extraídos.
     
 5. Abra Visual Studio 2005 como administrador.
     
@@ -48,17 +48,17 @@ En este tema le lleva a través de los pasos para descargar e instalar al provee
     
 11. En el cuadro de diálogo **Control de cuentas de usuario** , haga clic en **continuar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca del ejemplo ajusta el proveedor de almacén de archivos PST](about-the-sample-wrapped-pst-store-provider.md)
+[Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md)
   
 [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
   
-[Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+[Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+[Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
   
-[Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+[Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

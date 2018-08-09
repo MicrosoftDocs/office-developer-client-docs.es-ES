@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823304"
 ---
-# <a name="spbefore-cell-paragraph-section"></a>Celda SpBefore (Sección de párrafo)
+# <a name="spbefore-cell-paragraph-section"></a>Celda SpBefore (sección Párrafo)
 
 Determina el espacio insertado antes de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del primer párrafo de un bloque de texto, la celda TopMargin.
   
@@ -24,13 +24,13 @@ Determina el espacio insertado antes de cada párrafo en el bloque de texto de l
 
 Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el espacio delante del párrafo permanece igual.
   
-Para obtener una referencia a la celda SpBefore por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda SpBefore por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Para.SpBefore [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda SpBefore por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda SpBefore por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -60,13 +60,13 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Obtener más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|X  <br/> |La coordenada x del punto central.  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |
+|X  <br/> |Coordenada x del punto central.  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |
 |v  <br/> |Coordenada y del punto central.  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |
 |A  <br/> |La coordenada x del primer punto de la elipse; emparejada con la coordenada y representada por la celda b..  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |
 |B  <br/> |La coordenada y del primer punto de la elipse; emparejada con la coordenada x representada por la celda A.  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |

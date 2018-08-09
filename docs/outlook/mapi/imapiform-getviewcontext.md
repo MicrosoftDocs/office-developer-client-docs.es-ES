@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2c463252aa029ac4c7cb2fac6e962a5d8af31b97
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817256"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve el contexto de la vista actual para el formulario. 
   
@@ -33,7 +33,7 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ppViewContext_
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > No hay ningún contexto de vista para el formulario.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario, llame a **GetViewContext** para obtener un puntero para el contexto de vista establecido en una llamada anterior a [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si no se ha realizado ninguna llamada anterior a **SetViewContext**, **GetViewContext** _ppViewContext_ se establece en NULL. 
   
@@ -65,13 +65,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utiliza el método **IMAPIForm::GetViewContext** para comprobar si un formulario tiene un contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

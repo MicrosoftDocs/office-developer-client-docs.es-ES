@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagReceivedRepresentingName
+title: Propiedad canónica PidTagReceivedRepresentingName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f699782-8a82-4834-bc55-a0b3cf18a117
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0df2cef2f82523fd5085f5567cac41dab860916d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820026"
 ---
-# <a name="pidtagreceivedrepresentingname-canonical-property"></a>Propiedad canónico PidTagReceivedRepresentingName
+# <a name="pidtagreceivedrepresentingname-canonical-property"></a>Propiedad canónica PidTagReceivedRepresentingName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre para mostrar del usuario de mensajería que está representada por el usuario receptora.
   
@@ -34,7 +34,7 @@ Contiene el nombre para mostrar del usuario de mensajería que está representad
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son ejemplos de las propiedades de la dirección del usuario de mensajería que se va a representar el usuario receptora. Se deben configurar por el proveedor de transporte entrante, que también es responsable de la autorización o comprobación del delegado. Si no se va a representar ningún usuario de mensajería, estas propiedades deben establecerse en el nombre para mostrar contenido en la propiedad **PR_RECEIVED_BY_NAME de MAPI** ([PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md)).
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -86,7 +86,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

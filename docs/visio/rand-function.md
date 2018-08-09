@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822898"
 ---
-# <a name="rand-function"></a>RAND (función)
+# <a name="rand-function"></a>Función RAND
 
 Devuelve un número aleatorio de punto flotante de 0,0 a 1,0. Devuelve un número diferente cada vez que se evalúa la función, que es una vez por minuto según el reloj del sistema. 
   

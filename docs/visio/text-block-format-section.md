@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823372"
 ---
-# <a name="text-block-format-section"></a>Sección de formato del bloque de texto
+# <a name="text-block-format-section"></a>Sección Formato del bloque de texto
 
 Contiene celdas que controlan la alineación, los márgenes y las posiciones predeterminadas de los tabuladores del texto de un bloque de texto en una forma.
   

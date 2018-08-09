@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823146"
 ---
-# <a name="shapepermeabley-cell-shape-layout-section"></a>Celda ShapePermeableY (Sección de diseño de forma)
+# <a name="shapepermeabley-cell-shape-layout-section"></a>Celda ShapePermeableY (sección Diseño de forma)
 
 Determina si un conector puede enrutar verticalmente a través de una forma.
   
@@ -31,13 +31,13 @@ También puede establecer el valor de esta celda en la ficha de **colocación** 
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios.
   
-Para obtener una referencia a la celda ShapePermeableY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShapePermeableY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |ShapePermeableY  <br/> |
    
-Para obtener una referencia a la celda ShapePermeableY por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda ShapePermeableY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

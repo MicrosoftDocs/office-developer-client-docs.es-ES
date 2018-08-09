@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAddressBookProviderEmailList
+title: Propiedad canónica PidLidAddressBookProviderEmailList
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4eb2897c1834715f3d937ef7946998943b386aef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818488"
 ---
-# <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propiedad canónico PidLidAddressBookProviderEmailList
+# <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propiedad canónica PidLidAddressBookProviderEmailList
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica qué propiedades de dirección electrónica se establecen en el contacto. 
   
@@ -35,7 +35,7 @@ Especifica qué propiedades de dirección electrónica se establecen en el conta
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cada valor PT_LONG en esta propiedad debe ser único en la propiedad y debe establecerse en uno de los valores en la tabla siguiente. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)). Estas dos propiedades se deben mantener sincronizadas con cada una de las demás. Por ejemplo, si uno de los valores de **dispidABPEmailList** es "0 x 00000000" y, a continuación, **dispidABPArrayType** debe haber establecido el bit "0 x 00000001". 
   
@@ -66,7 +66,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

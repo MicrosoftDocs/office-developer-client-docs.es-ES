@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823478"
 ---
-# <a name="updatealignbox-cell-miscellaneous-section"></a>Celda UpdateAlignBox (sección de varios)
+# <a name="updatealignbox-cell-miscellaneous-section"></a>Celda UpdateAlignBox (sección Varios)
 
 Vuelve a calcular el rectángulo de selección cada vez que se mueve un controlador.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda UpdateAlignBox por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda UpdateAlignBox por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | UpdateAlignBox  <br/> |
    
-Para obtener una referencia a la celda UpdateAlignBox por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda UpdateAlignBox por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

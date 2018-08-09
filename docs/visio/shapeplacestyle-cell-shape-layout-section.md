@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823158"
 ---
-# <a name="shapeplacestyle-cell-shape-layout-section"></a>Celda ShapePlaceStyle (Sección de diseño de la forma)
+# <a name="shapeplacestyle-cell-shape-layout-section"></a>Celda ShapePlaceStyle (sección Diseño de forma)
 
 Especifica cómo se colocan las formas en la página cuando se coloquen en el cuadro de diálogo **Configurar diseño** (en la ficha **Diseño** , en el grupo **Diseño** , haga clic en **Página de diseño de Re**y, a continuación, haga clic en **Más opciones de diseño**). Almacena los valores de estilo y la alineación del diseño desde **VisCellIndices**. 
   
@@ -51,13 +51,17 @@ Especifica cómo se colocan las formas en la página cuando se coloquen en el cu
 |**visLOPlaceRightToLeft** <br/> |5  <br/> |
 |**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
-Para hacer referencia a la celda ShapePlaceStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para hacer referencia a la celda ShapePlaceStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:
+
+ 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |ShapePlaceStyle  <br/> |
    
-Para hacer referencia a la celda ShapePlaceStyle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para hacer referencia desde un programa a la celda ShapePlaceStyle según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
+
+ 
   
 |||
 |:-----|:-----|

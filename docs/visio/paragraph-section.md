@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822732"
 ---
-# <a name="paragraph-section"></a>Sección de párrafo
+# <a name="paragraph-section"></a>Sección Párrafo
 
 Muestra los atributos de formato de párrafo del texto de una forma, como la sangría, el espacio entre líneas, las viñetas y la alineación horizontal de los párrafos.
   

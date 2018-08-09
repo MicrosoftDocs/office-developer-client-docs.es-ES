@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821684"
 ---
-# <a name="can-glue-cell-controls-section"></a>Celda Can Glue (Sección de controles)
+# <a name="can-glue-cell-controls-section"></a>Celda Can Glue (sección Controles)
 
 Determina si un controlador puede pegarse a otras formas.
   
@@ -27,13 +27,13 @@ Determina si un controlador puede pegarse a otras formas.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Can Glue por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Can Glue por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Controles.  *nombre* . Controles de CanGluewhere.  *nombre* es el nombre de la fila de controles.  <br/> |
    
-Para obtener una referencia a la celda Can Glue por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda Can Glue por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

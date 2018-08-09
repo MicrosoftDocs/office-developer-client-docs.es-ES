@@ -57,7 +57,7 @@ Ninguno.
 |ConnectionString  <br/> |xsd: String  <br/> |opcional  <br/> |La cadena de conexión que define los parámetros necesarios para conectarse a un origen de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
 |FileName  <br/> |xsd: String  <br/> |necesario  <br/> |El nombre del archivo de conexión. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo XSD: String.  <br/> |
 |FriendlyName  <br/> |xsd: String  <br/> |opcional  <br/> |Un nombre proporcionado por el usuario para la conexión de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador asignado por Visio para una conexión determinada, única dentro del documento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador asignado por Visio para una conexión determinada, única dentro del documento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Timeout  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |El tiempo de espera en minutos al intentar establecer una conexión antes de terminar el intento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

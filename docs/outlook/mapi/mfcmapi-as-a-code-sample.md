@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fc92cc8deb3d12c4bc8fca4c680fd4a675b4a578
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818392"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI como un ejemplo de código
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En el ejemplo MFCMAPI usa la API de mensajería para proporcionar acceso a los almacenes MAPI a través de una interfaz gráfica de usuario. Después de descargar este ejemplo, puede utilizar los archivos de origen para examinar los casos de uso de ejemplo para muchas de las interfaces MAPI y referencias. Para obtener más información, vea [Interfaces de MAPI](mapi-interfaces.md).
   
@@ -58,7 +58,7 @@ En el **Explorador de soluciones**, expanda el proyecto **MFCMapi** y examine lo
   
 Elija los archivos de origen MFCMAPI para ver ejemplos de programación temas muchos de los métodos en la sección de [Interfaces de MAPI](mapi-interfaces.md) . Por ejemplo, en [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) que se indique examine la función `CMsgStoreDlg::OnDisplayReceiveFolderTable` en el archivo MsgStoreDlg.cpp. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Ejemplos de MAPI (en inglés)](mapi-samples.md)
+- [Ejemplos de MAPI](mapi-samples.md)
 

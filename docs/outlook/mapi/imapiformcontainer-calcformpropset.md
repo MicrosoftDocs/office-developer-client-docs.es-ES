@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 594e3aac-a00f-422e-8e7a-949e4c9a3f8d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b15dc4e467644c2a0c3856372b550c3b55469f1a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817274"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una matriz de las propiedades de todos los formularios instalados en un contenedor de formulario.
   
@@ -66,7 +66,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las aplicaciones cliente de llaman al método **IMAPIFormContainer::CalcFormPropSet** para obtener una matriz de propiedades que se usan por todos los formularios instalados en un contenedor de formulario. **IMAPIFormContainer::CalcFormPropSet** funciona como el método [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) , salvo que opera en cada formulario registrado en un contenedor determinado. 
   
@@ -80,7 +80,7 @@ Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben dev
   
 Si un cliente pasa el indicador MAPI_UNICODE _ulFlags_, todas las cadenas devueltas son Unicode.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -88,5 +88,5 @@ Si un cliente pasa el indicador MAPI_UNICODE _ulFlags_, todas las cadenas devuel
   
 [SMAPIFormPropArray](smapiformproparray.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 

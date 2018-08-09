@@ -1,5 +1,5 @@
 ---
-title: Celda LockThemeConnectors (sección de protección)
+title: Celda LockThemeConnectors (sección Protección)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822532"
 ---
-# <a name="lockthemeconnectors-cell-protection-section"></a>Celda LockThemeConnectors (sección de protección)
+# <a name="lockthemeconnectors-cell-protection-section"></a>Celda LockThemeConnectors (sección Protección)
 
 Impide que la celda **ConnectorsSchemeIndex** en la fila de **Propiedades del tema** que se modifiquen aplicar un tema nuevo o seleccionando una nueva combinación de conector. Impedir que los usuarios editen manualmente este valor en la hoja ShapeSheet. 
   
@@ -23,7 +23,7 @@ Impide que la celda **ConnectorsSchemeIndex** en la fila de **Propiedades del te
 |TRUE  <br/> |No se puede cambiar la celda **ConnectorsSchemeIndex** desde su valor actual a menos que cambie directamente en la hoja ShapeSheet.  <br/> |
 |FALSE  <br/> |Puede cambiar la celda **ConnectorsSchemeIndex** desde su valor actual a través de la interfaz de usuario.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **LockThemeConnectors** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19822900"
 ---
-# <a name="red-function"></a>RED (función)
+# <a name="red-function"></a>Función RED
 
 Devuelve el componente rojo de un color. 
   
@@ -24,17 +24,17 @@ Devuelve el componente rojo de un color.
 
 ROJO (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Índice de uno de los colores de la tabla de color del documento, una expresión que da como resultado un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> |Índice de uno de los colores de la tabla de color del documento, una expresión que da como resultado un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Number
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor devuelto es un número en el rango de 0 a 255, ambos incluidos, o una referencia de celda que se resuelve en un índice. Si la _expresión_ no es válido, esta función devuelve 0 (negro). 
   

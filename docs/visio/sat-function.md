@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19823099"
 ---
-# <a name="sat-function"></a>SAT (función)
+# <a name="sat-function"></a>Función SAT
 
 Devuelve el valor del componente de saturación de un color. 
   
@@ -24,11 +24,11 @@ Devuelve el valor del componente de saturación de un color.
 
 SAT (** *expresión* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Índice de uno de los colores de la tabla de color del documento, una expresión que da como resultado un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> |Índice de uno de los colores de la tabla de color del documento, una expresión que da como resultado un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

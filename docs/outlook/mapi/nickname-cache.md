@@ -1,5 +1,5 @@
 ---
-title: Caché de alias
+title: Caché de sobrenombre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818415"
 ---
-# <a name="nickname-cache"></a>Caché de alias
+# <a name="nickname-cache"></a>Caché de sobrenombre
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 y Microsoft Outlook 2013 interactúan con la caché de sobrenombres, también conocida como la "Autocompletar secuencia." La secuencia de Autocompletar es donde Outlook persiste la lista de Autocompletar, que es la lista de nombres que se muestra en el cuadro **para**, **Cc**, **CCO** cuadros de edición y mientras un usuario está redactando un correo electrónico. En este tema se describe cómo Outlook 2007, Outlook 2010 y Outlook 2013 interactúan con la secuencia de Autocompletar y también se describe el formato binario del archivo y los métodos recomendados para interactuar con la secuencia de Autocompletar. 
   
@@ -75,7 +75,7 @@ Guardar los cambios a los datos de Autocompletar implica la escritura de la estr
     
 - Sólo modificar las propiedades de los tipos que están en el conjunto de filas de la secuencia de Autocompletar. Para obtener más información acerca de las propiedades de la secuencia de Autocompletar y tipos de propiedades, vea [secuencia de Autocompletar](autocomplete-stream.md).
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821963"
 ---
-# <a name="directory-function"></a>DIRECTORY (función)
+# <a name="directory-function"></a>Función DIRECTORY
 
 Devuelve la ruta de acceso completa del directorio (carpeta) en el que se guarda un documento, como una cadena. Devuelve una cadena vacía si no se ha guardado el documento.
   

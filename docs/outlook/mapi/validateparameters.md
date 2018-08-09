@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 921417d8fc73ca9c1f126b2cb0add23f6625e3f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820970"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Llama a una función interna para comprobar si que las aplicaciones cliente de los parámetros han pasado a proveedores de servicios. 
   
@@ -40,7 +40,7 @@ HRESULT ValidateParameters(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _eMethod_
   
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > Uno o varios de los parámetros no son válidos.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro **ValidateParameters** se ha sustituido por la macro [ValidateParms](validateparms.md) . **ValidateParameters** no funciona correctamente en plataformas RISC y ahora no puede compilar en ellos. Aún compila y funciona correctamente en plataformas Intel, pero se recomienda **ValidateParms** en todas las plataformas. 
   

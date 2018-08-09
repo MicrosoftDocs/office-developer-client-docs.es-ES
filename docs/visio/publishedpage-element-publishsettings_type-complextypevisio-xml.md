@@ -52,6 +52,6 @@ Ninguno.
 
 |**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador de una página de dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador de una página de dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

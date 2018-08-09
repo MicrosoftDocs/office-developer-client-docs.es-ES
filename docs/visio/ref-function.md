@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19822901"
 ---
-# <a name="ref-function"></a>REF (función)
+# <a name="ref-function"></a>Función REF
 
 La función REF devuelve el valor de error #REF!.
   

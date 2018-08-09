@@ -1,5 +1,5 @@
 ---
-title: Modelo de recepción de mensajes
+title: Modelo de recepción del mensaje
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cecdb2c30d6c9df2aafbeed43714269b863ebc48
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19818388"
 ---
-# <a name="message-reception-model"></a>Modelo de recepción de mensajes
+# <a name="message-reception-model"></a>Modelo de recepción del mensaje
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El proveedor de transporte controla si la cola MAPI debe sondear de para el correo entrante o si realiza una devolución de llamada a la cola MAPI cuando llegue correo nuevo. El proveedor de transporte establece la marca SP_LOGON_POLL cuando se devuelve desde [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) para solicitar el sondeo. De lo contrario, el proveedor de transporte usa [SpoolerNotify](imapisupport-spoolernotify.md) cuando el correo entrante está disponible. Después de que el correo entrante está disponible de aprendizaje, la cola MAPI abre un nuevo mensaje y solicita el proveedor de transporte para almacenar las propiedades del mensaje recibido en el mensaje. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e6963fc373f771289e3dbff3a0b41857352b4b9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816821"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Valida todas las filas de tabla incluidas en un conjunto de filas de la tabla.
   
@@ -39,7 +39,7 @@ BOOL FBadRowSet(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpRowSet_
   
@@ -55,7 +55,7 @@ FALSE
   
 > Las filas del conjunto de fila especificada y el propio conjunto de filas son válidas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

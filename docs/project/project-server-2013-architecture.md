@@ -32,13 +32,13 @@ El servicio de aplicación de proyecto en Project Server 2013 se puede asociar c
   
 Project Server mantiene los proyectos cuando tiene control total; Project Professional guarda datos directamente en Project Server. La tabla 1 se compara el comportamiento de una lista de tareas, el elemento web de programación y otras funciones para el control de las listas de tareas de SharePoint y para los proyectos importados cuando Project Server tiene control total. El elemento web de programación contiene la cuadrícula en la página de Project Web App, donde puede editar una programación de proyecto. El modo vinculado es donde se escriben una vez los datos de estado para las tareas y partes de horas; en el modo de entrada único, los datos de estado de tarea se especifican por separado de los partes de horas.
   
-**La tabla 1. Comparación de las listas de tareas de SharePoint y control total**
+**Tabla 1. Comparación de una lista de tareas de SharePoint y el control total**
 
 | Característica | Lista de tareas | Control total |
 |:-----|:-----|:-----|
-|**Lista de tareas de SharePoint** <br/> |Lectura/escritura  <br/> |Solo lectura  <br/> |
+|**Lista de tareas en SharePoint** <br/> |Lectura/escritura  <br/> |Solo lectura  <br/> |
 |**Elemento web de programación** <br/> |Solo lectura  <br/> |Lectura/escritura  <br/> |
-|**Creación de informes** <br/> |Informes avanzados con Project Server  <br/> |Informes avanzados con Project Server  <br/> |
+|**Informes** <br/> |Informes avanzados con Project Server  <br/> |Informes avanzados con Project Server  <br/> |
 |**Otras funciones de Project Server** <br/> | Función bloqueada:  <br/>-Ediciones del proyecto server-side con Project Web App o aplicaciones de cliente personalizadas  <br/>-Estado  <br/>-Tareas no están visibles en modo vinculado  <br/> |La funcionalidad completa está habilitada  <br/> |
    
 ### <a name="managing-projects-as-sharepoint-task-lists"></a>Administración de proyectos como listas de tareas de SharePoint
@@ -56,7 +56,7 @@ La Figura 1 muestra los siguientes procesos cuando se mantienen los proyectos en
     
 - (D) cuando se publica un nuevo proyecto en Project Professional, el usuario tiene la opción de crear un sitio de proyecto para el proyecto. También se puede crear un proyecto en Project Web App como un tipo de proyecto de lista de tareas de SharePoint o como un tipo de proyecto de empresa de control total (EPT). Paso (D), muestra el EPT de control total.
     
-**En la figura 1. Uso de sitios de proyecto como SharePoint las listas de tareas**
+**Figura 1. Utilizar los sitios de proyecto como listas de tareas en SharePoint**
 
 ![Uso de sitios de proyecto en modo de visibilidad] (media/pj15_Architecture_VisibilityMode.gif "Uso de sitios de proyecto en modo de visibilidad")
 
@@ -78,7 +78,7 @@ La Figura 2 muestra los siguientes procesos cuando Project Server mantiene los p
     
 - (C) cuando se publica un nuevo proyecto en Project Professional, el usuario tiene la opción de crear un sitio de proyecto para el proyecto. Un proyecto también se crean en Project Web App con una EPT de control total y publicado con una lista de tareas de sólo lectura a un sitio de proyecto en la colección de sitios.
     
-**La figura 2. Uso de sitios de proyectos con control total**
+**Figura 2. Utilizar sitios de proyectos con control total**
 
 ![Uso de sitios de proyecto en modo administrado] (media/pj15_Architecture_ManagedMode.gif "Uso de sitios de proyecto en modo administrado")
   
@@ -89,7 +89,7 @@ La figura 3 muestra una vista general de la arquitectura de Project Server 2013,
   
 Puede haber varias instancias de Project Web App que se comunican con la aplicación de servicio de proyecto de back-end. Para una instalación local, el WFE puede estar en un servidor independiente en una granja de servidores de SharePoint, o puede ser en el mismo servidor de SharePoint con la aplicación de servicio de Project. Project Online incluye un WFE, la aplicación de servicio de proyecto y un servidor de flujo de trabajo Manager 1.0 de cliente local o remoto. 
   
-**La figura 3. Arquitectura general de Project Server 2013**
+**Figura 3. Arquitectura general de Project Server 2013**
 
 ![Arquitectura de Project Server] (media/pj15_Architecture_ProjectServiceApp_WFE.gif "Arquitectura de Project Server")
 
@@ -141,7 +141,7 @@ Puede configurar varias instancias de Project Web App en un WFE y varios servido
   
 - Optimiza las llamadas para la PSI desde clientes remotos.
     
-- Distingue entre las llamadas PSI que requieren el servicio de cola de Project Server y los que no. Nombres de los métodos PSI asincrónicos comiencen con cola, por ejemplo, **QueueCreateProject**.
+- Distingue entre las llamadas PSI que requieren el servicio de cola de Project Server (Project Server Queue Service) y entre las que no lo necesitan. Los nombres de métodos PSI asincrónicos comienzan con Queue, como **QueueCreateProject**.
     
 - Identifica las llamadas PSI que invocan controladores de eventos locales registrados.
     
@@ -169,7 +169,7 @@ Las aplicaciones cliente llaman a través de servidores proxy de servicio a la P
   
 La figura 4 se muestra el panel **conexiones** en el **Administrador de Internet Information Services (IIS)** para una instalación de un único servidor de SharePoint Server 2013, Project Server 2013 y un sitio de administración de flujo de trabajo local para 1.0 de cliente del Administrador de flujo de trabajo. La colección de sitios de SharePoint (A) incluye los servicios PSI front-end en el `_vti_bin\PSI` subdirectorio virtual. La aplicación de servicios Web de SharePoint (B) incluye la aplicación de servicio de Project, con los servicios PSI back-end en el `508c23fb7dfd4c83a8919fae24bc68c5/PSI` subdirectorio virtual. El GUID es el nombre de la instancia de aplicación de servicio de proyecto para esa instalación de Project Server. 
   
-**La figura 4. Administrador de IIS que muestra el PSI front-end (A) y el PSI back-end (B)**
+**Figura 4. Administrador de Internet Information Services (IIS) que muestra la PSI front-end (A) y la PSI back-end (B)**
 
 ![La PSI front-end y back-end PSI] (media/pj15_Architecture_PSI_IIS.gif "La PSI front-end y back-end PSI")
   
@@ -189,9 +189,9 @@ El modelo de objeto interno de Project Server incluye los objetos de negocio, qu
   
 Los objetos de negocio no se exponen a desarrolladores de terceros. La PSI controla la asignación de API a los objetos de negocio y el CSOM asigna su API al PSI. Las entidades lógicas de los objetos de negocio pueden clasificarse en tres tipos:
   
-- **Las entidades principales** son objetos como proyectos, tareas, asignaciones, recursos y calendarios. Las entidades principales incluyen lógica de negocios básica como permisos y reglas de nomenclatura. 
+- **Las entidades principales** son objetos como proyectos, tareas, asignaciones, recursos y calendarios. Las entidades centrales incluyen lógica de negocios básica como permisos y normas de nomenclatura. 
     
-- **Las entidades de negocios** son objetos como partes de horas, carteras de proyectos y modelos. Las entidades empresariales incluyen lógica empresarial adicional y normalmente se crean a partir de una combinación de las entidades principales. 
+- **Las entidades de negocio** son objetos como partes de horas, carteras de proyectos y modelos. Las entidades de negocio incluyen lógica empresarial adicional y normalmente se suelen crear a partir de una combinación de entidades principales. 
     
 - **Las entidades de soporte técnico** son objetos como seguridad y validación. 
     
@@ -259,13 +259,13 @@ Project Server permite la versión publicada de un proyecto para que se actualic
     
 3. En caso de que surja un conflicto, el jefe de proyecto recibe una notificación y debe resolver el conflicto antes de que se publique la versión de borrador.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Introducción a Project 2013 para desarrolladores](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Información general de Project 2013 para desarrolladores](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Programación de Project Server](project-server-programmability.md)  
 - [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md)  
-- [Lo que hace y no hace la PSI](what-the-psi-does-and-does-not-do.md)  
-- [Comenzar desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)   
+- [Lo que hace y no hace PSI](what-the-psi-does-and-does-not-do.md)  
+- [Empezar a desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)   
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md)   
 - [Protocolo de datos abierto](http://www.odata.org/)
     
