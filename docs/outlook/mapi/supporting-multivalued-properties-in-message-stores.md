@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820814"
 ---
-# <a name="supporting-multivalued-properties-in-message-stores"></a><span data-ttu-id="8642e-103">Admitir propiedades multivalor en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="8642e-103">Supporting Multivalued Properties in Message Stores</span></span>
+# <a name="supporting-multivalued-properties-in-message-stores"></a><span data-ttu-id="4717c-103">Admitir propiedades multivalor en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="4717c-103">Supporting Multivalued Properties in Message Stores</span></span>
 
   
   
-<span data-ttu-id="8642e-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8642e-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="4717c-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="4717c-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="8642e-p101">The requirements for supporting properties that have multiple values are documented in [Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.</span><span class="sxs-lookup"><span data-stu-id="8642e-p101">The requirements for supporting properties that have multiple values are documented in [MAPI Property Overview](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.</span></span>
+<span data-ttu-id="4717c-p101">The requirements for supporting properties that have multiple values are documented in [Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.</span><span class="sxs-lookup"><span data-stu-id="4717c-p101">The requirements for supporting properties that have multiple values are documented in [MAPI Property Overview](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8642e-108">Vea tambi�n</span><span class="sxs-lookup"><span data-stu-id="8642e-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4717c-108">Vea tambi�n</span><span class="sxs-lookup"><span data-stu-id="4717c-108">See also</span></span>
 
 
 
-[<span data-ttu-id="8642e-109">Implementaci�n de los mensajes en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="8642e-109">Implementing Messages in Message Stores</span></span>](implementing-messages-in-message-stores.md)
+[<span data-ttu-id="4717c-109">Implementaci�n de los mensajes en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="4717c-109">Implementing Messages in Message Stores</span></span>](implementing-messages-in-message-stores.md)
 

@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816237"
 ---
-# <a name="iolkaccounthelpergetmapisession"></a><span data-ttu-id="8b9b7-103">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="8b9b7-103">IOlkAccountHelper::GetMapiSession</span></span>
+# <a name="iolkaccounthelpergetmapisession"></a><span data-ttu-id="0fbd6-103">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="0fbd6-103">IOlkAccountHelper::GetMapiSession</span></span>
 
-<span data-ttu-id="8b9b7-104">Se abre una sesión MAPI y mantiene una referencia a la sesión para el Administrador de cuentas.</span><span class="sxs-lookup"><span data-stu-id="8b9b7-104">Opens a MAPI session and maintains a reference to the session for the account manager.</span></span>
+<span data-ttu-id="0fbd6-104">Se abre una sesión MAPI y mantiene una referencia a la sesión para el Administrador de cuentas.</span><span class="sxs-lookup"><span data-stu-id="0fbd6-104">Opens a MAPI session and maintains a reference to the session for the account manager.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8b9b7-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="8b9b7-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="0fbd6-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="0fbd6-105">Quick info</span></span>
 
-<span data-ttu-id="8b9b7-106">Vea [IOlkAccountHelper](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="8b9b7-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
+<span data-ttu-id="0fbd6-106">Vea [IOlkAccountHelper](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="0fbd6-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountHelper::GetMapiSession(  
@@ -28,22 +28,22 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8b9b7-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8b9b7-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0fbd6-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="0fbd6-107">Parameters</span></span>
 
-<span data-ttu-id="8b9b7-108">_ppmsess_</span><span class="sxs-lookup"><span data-stu-id="8b9b7-108">_ppmsess_</span></span>
+<span data-ttu-id="0fbd6-108">_ppmsess_</span><span class="sxs-lookup"><span data-stu-id="0fbd6-108">_ppmsess_</span></span>
   
-> <span data-ttu-id="8b9b7-109">[out] La sesión MAPI actual.</span><span class="sxs-lookup"><span data-stu-id="8b9b7-109">[out] The current MAPI session.</span></span>
+> <span data-ttu-id="0fbd6-109">[out] La sesión MAPI actual.</span><span class="sxs-lookup"><span data-stu-id="0fbd6-109">[out] The current MAPI session.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="8b9b7-110">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="8b9b7-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0fbd6-110">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="0fbd6-110">Return values</span></span>
 
-<span data-ttu-id="8b9b7-111">S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.</span><span class="sxs-lookup"><span data-stu-id="8b9b7-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="0fbd6-111">S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.</span><span class="sxs-lookup"><span data-stu-id="0fbd6-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8b9b7-112">Notas</span><span class="sxs-lookup"><span data-stu-id="8b9b7-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0fbd6-112">Notas</span><span class="sxs-lookup"><span data-stu-id="0fbd6-112">Remarks</span></span>
 
-<span data-ttu-id="8b9b7-113">Debido a problemas de referencia circular, el Administrador de cuentas de sí mismo no puede mantener la referencia de la sesión MAPI.</span><span class="sxs-lookup"><span data-stu-id="8b9b7-113">Because of circular reference problems, the account manager itself cannot maintain the reference for the MAPI session.</span></span>
+<span data-ttu-id="0fbd6-113">Debido a problemas de referencia circular, el Administrador de cuentas de sí mismo no puede mantener la referencia de la sesión MAPI.</span><span class="sxs-lookup"><span data-stu-id="0fbd6-113">Because of circular reference problems, the account manager itself cannot maintain the reference for the MAPI session.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8b9b7-114">Ver también</span><span class="sxs-lookup"><span data-stu-id="8b9b7-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fbd6-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="0fbd6-114">See also</span></span>
 
-- [<span data-ttu-id="8b9b7-115">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="8b9b7-115">IOlkAccountHelper::HandsOffSession</span></span>](iolkaccounthelper-handsoffsession.md)
-- [<span data-ttu-id="8b9b7-116">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="8b9b7-116">IMAPISession : IUnknown</span></span>](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
+- [<span data-ttu-id="0fbd6-115">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="0fbd6-115">IOlkAccountHelper::HandsOffSession</span></span>](iolkaccounthelper-handsoffsession.md)
+- [<span data-ttu-id="0fbd6-116">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="0fbd6-116">IMAPISession : IUnknown</span></span>](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
 

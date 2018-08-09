@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5cff3a6cbf4bfca7b414f9663e71834da71926d7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,21 +15,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820916"
 ---
-# <a name="updating-mapi-properties"></a><span data-ttu-id="c7631-103">Actualizar las propiedades de MAPI</span><span class="sxs-lookup"><span data-stu-id="c7631-103">Updating MAPI properties</span></span>
+# <a name="updating-mapi-properties"></a><span data-ttu-id="877ce-103">Actualizar las propiedades de MAPI</span><span class="sxs-lookup"><span data-stu-id="877ce-103">Updating MAPI properties</span></span>
 
-<span data-ttu-id="c7631-104">**Se aplica a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c7631-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="877ce-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="877ce-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="c7631-105">Los clientes y proveedores de servicios pueden actualizar un valor de la propiedad llamando:</span><span class="sxs-lookup"><span data-stu-id="c7631-105">Clients and service providers can update a property value by calling:</span></span>
+<span data-ttu-id="877ce-105">Los clientes y proveedores de servicios pueden actualizar un valor de la propiedad llamando:</span><span class="sxs-lookup"><span data-stu-id="877ce-105">Clients and service providers can update a property value by calling:</span></span>
   
-- <span data-ttu-id="c7631-106">Un método del objeto [IMAPIProp::SetProps](imapiprop-setprops.md) para actualizar el valor de una o varias de las propiedades de un objeto.</span><span class="sxs-lookup"><span data-stu-id="c7631-106">An object's [IMAPIProp::SetProps](imapiprop-setprops.md) method to update the value of one or more of an object's properties.</span></span> 
+- <span data-ttu-id="877ce-106">Un método del objeto [IMAPIProp::SetProps](imapiprop-setprops.md) para actualizar el valor de una o varias de las propiedades de un objeto.</span><span class="sxs-lookup"><span data-stu-id="877ce-106">An object's [IMAPIProp::SetProps](imapiprop-setprops.md) method to update the value of one or more of an object's properties.</span></span> 
     
-- <span data-ttu-id="c7631-107">La función [HrSetOneProp](hrsetoneprop.md) para actualizar una sola propiedad a la vez.</span><span class="sxs-lookup"><span data-stu-id="c7631-107">The [HrSetOneProp](hrsetoneprop.md) function to update only one property at a time.</span></span> <span data-ttu-id="c7631-108">Usar **HrSetOneProp** sólo si el objeto de destino es local; Esta función puede provocar una degradación del rendimiento cuando se usa con objetos remotos.</span><span class="sxs-lookup"><span data-stu-id="c7631-108">Use **HrSetOneProp** only if the target object is local; this function can cause performance degradation when used with remote objects.</span></span> 
+- <span data-ttu-id="877ce-107">La función [HrSetOneProp](hrsetoneprop.md) para actualizar una sola propiedad a la vez.</span><span class="sxs-lookup"><span data-stu-id="877ce-107">The [HrSetOneProp](hrsetoneprop.md) function to update only one property at a time.</span></span> <span data-ttu-id="877ce-108">Usar **HrSetOneProp** sólo si el objeto de destino es local; Esta función puede provocar una degradación del rendimiento cuando se usa con objetos remotos.</span><span class="sxs-lookup"><span data-stu-id="877ce-108">Use **HrSetOneProp** only if the target object is local; this function can cause performance degradation when used with remote objects.</span></span> 
     
-<span data-ttu-id="c7631-109">El siguiente procedimiento ilustra cómo usar **SetProps** para actualizar la clase de mensaje o la propiedad PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="c7631-109">The following procedure illustrates how to use **SetProps** to update the message class, or PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, of a message.</span></span> 
+<span data-ttu-id="877ce-109">El siguiente procedimiento ilustra cómo usar **SetProps** para actualizar la clase de mensaje o la propiedad PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="877ce-109">The following procedure illustrates how to use **SetProps** to update the message class, or PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, of a message.</span></span> 
   
-### <a name="to-update-the-message-class-of-a-message"></a><span data-ttu-id="c7631-110">Para actualizar la clase de mensaje de un mensaje</span><span class="sxs-lookup"><span data-stu-id="c7631-110">To update the message class of a message</span></span> 
+### <a name="to-update-the-message-class-of-a-message"></a><span data-ttu-id="877ce-110">Para actualizar la clase de mensaje de un mensaje</span><span class="sxs-lookup"><span data-stu-id="877ce-110">To update the message class of a message</span></span> 
   
-1. <span data-ttu-id="c7631-111">Asignar una estructura de [SPropValue](spropvalue.md) para la clase de mensaje y establecer a sus miembros según corresponda.</span><span class="sxs-lookup"><span data-stu-id="c7631-111">Allocate an [SPropValue](spropvalue.md) structure for the message class and set its members as appropriate.</span></span> 
+1. <span data-ttu-id="877ce-111">Asignar una estructura de [SPropValue](spropvalue.md) para la clase de mensaje y establecer a sus miembros según corresponda.</span><span class="sxs-lookup"><span data-stu-id="877ce-111">Allocate an [SPropValue](spropvalue.md) structure for the message class and set its members as appropriate.</span></span> 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,13 +38,13 @@ ms.locfileid: "19820916"
     
   ```
 
-2. <span data-ttu-id="c7631-112">Llamar al método **IMAPIProp::SetProps** del mensaje para establecer la nueva clase de mensaje.</span><span class="sxs-lookup"><span data-stu-id="c7631-112">Call the message's **IMAPIProp::SetProps** method to set the new message class.</span></span> 
+2. <span data-ttu-id="877ce-112">Llamar al método **IMAPIProp::SetProps** del mensaje para establecer la nueva clase de mensaje.</span><span class="sxs-lookup"><span data-stu-id="877ce-112">Call the message's **IMAPIProp::SetProps** method to set the new message class.</span></span> 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);
   ```
 
-## <a name="see-also"></a><span data-ttu-id="c7631-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="c7631-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="877ce-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="877ce-113">See also</span></span>
 
-- [<span data-ttu-id="c7631-114">Informaci�n general sobre MAPI (propiedad)</span><span class="sxs-lookup"><span data-stu-id="c7631-114">MAPI Property Overview</span></span>](mapi-property-overview.md)
+- [<span data-ttu-id="877ce-114">Información general sobre MAPI (propiedad)</span><span class="sxs-lookup"><span data-stu-id="877ce-114">MAPI Property Overview</span></span>](mapi-property-overview.md)
 

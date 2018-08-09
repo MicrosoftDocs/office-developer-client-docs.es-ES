@@ -13,16 +13,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815296"
 ---
-# <a name="database-functions-access-custom-web-app"></a><span data-ttu-id="39941-102">Funciones de base de datos (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="39941-102">Database functions (Access custom web app)</span></span>
+# <a name="database-functions-access-custom-web-app"></a><span data-ttu-id="03b99-102">Funciones de base de datos (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="03b99-102">Database functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="39941-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="39941-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="03b99-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="03b99-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 
-- [<span data-ttu-id="39941-105">Función UserDisplayName (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="39941-105">UserDisplayName function (Access custom web app)</span></span>](userdisplayname-function-access-custom-web-app.md)
+- [<span data-ttu-id="03b99-105">Función UserDisplayName (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="03b99-105">UserDisplayName function (Access custom web app)</span></span>](userdisplayname-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="39941-106">Función UserEmailAddress (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="39941-106">UserEmailAddress function (Access custom web app)</span></span>](useremailaddress-function-access-custom-web-app.md)
+- [<span data-ttu-id="03b99-106">Función UserEmailAddress (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="03b99-106">UserEmailAddress function (Access custom web app)</span></span>](useremailaddress-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="39941-107">Función de actualización (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="39941-107">Update function (Access custom web app)</span></span>](update-function-access-custom-web-app.md)
+- [<span data-ttu-id="03b99-107">Función de actualización (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="03b99-107">Update function (Access custom web app)</span></span>](update-function-access-custom-web-app.md)
     
 

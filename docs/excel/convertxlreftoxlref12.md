@@ -10,7 +10,7 @@ keywords:
 - convertxlreftoxlref12 (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f2830633482e5329d285907b610386b708c406a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,35 +18,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815531"
 ---
-# <a name="convertxlreftoxlref12"></a><span data-ttu-id="b04ff-104">ConvertXLRefToXLRef12</span><span class="sxs-lookup"><span data-stu-id="b04ff-104">ConvertXLRefToXLRef12</span></span>
+# <a name="convertxlreftoxlref12"></a><span data-ttu-id="be5cc-104">ConvertXLRefToXLRef12</span><span class="sxs-lookup"><span data-stu-id="be5cc-104">ConvertXLRefToXLRef12</span></span>
 
-<span data-ttu-id="b04ff-105">**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="b04ff-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="be5cc-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="be5cc-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="b04ff-106">Función de Framework que intenta convertir un **XLREF** en un **XLREF12**.</span><span class="sxs-lookup"><span data-stu-id="b04ff-106">Framework function that attempts to convert an **XLREF** into an **XLREF12**.</span></span>
+<span data-ttu-id="be5cc-106">Función de Framework que intenta convertir un **XLREF** en un **XLREF12**.</span><span class="sxs-lookup"><span data-stu-id="be5cc-106">Framework function that attempts to convert an **XLREF** into an **XLREF12**.</span></span>
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b04ff-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b04ff-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="be5cc-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="be5cc-107">Parameters</span></span>
 
- <span data-ttu-id="b04ff-108">_pxRef_ (**LPXLREF**)</span><span class="sxs-lookup"><span data-stu-id="b04ff-108">_pxRef_ (**LPXLREF**)</span></span>
+ <span data-ttu-id="be5cc-108">_pxRef_ (**LPXLREF**)</span><span class="sxs-lookup"><span data-stu-id="be5cc-108">_pxRef_ (**LPXLREF**)</span></span>
   
-<span data-ttu-id="b04ff-109">Puntero a la estructura del origen de referencia.</span><span class="sxs-lookup"><span data-stu-id="b04ff-109">Pointer to the source reference structure.</span></span>
+<span data-ttu-id="be5cc-109">Puntero a la estructura del origen de referencia.</span><span class="sxs-lookup"><span data-stu-id="be5cc-109">Pointer to the source reference structure.</span></span>
   
- <span data-ttu-id="b04ff-110">_pxRef12_ (**LPXLREF12**)</span><span class="sxs-lookup"><span data-stu-id="b04ff-110">_pxRef12_ (**LPXLREF12**)</span></span>
+ <span data-ttu-id="be5cc-110">_pxRef12_ (**LPXLREF12**)</span><span class="sxs-lookup"><span data-stu-id="be5cc-110">_pxRef12_ (**LPXLREF12**)</span></span>
   
-<span data-ttu-id="b04ff-111">Puntero a la estructura de referencia de destino en el que el valor convertido es que se va a colocar.</span><span class="sxs-lookup"><span data-stu-id="b04ff-111">Pointer to the target reference structure into which the converted value is to be placed.</span></span>
+<span data-ttu-id="be5cc-111">Puntero a la estructura de referencia de destino en el que el valor convertido es que se va a colocar.</span><span class="sxs-lookup"><span data-stu-id="be5cc-111">Pointer to the target reference structure into which the converted value is to be placed.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="b04ff-112">Propiedad valor y valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b04ff-112">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="be5cc-112">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="be5cc-112">Property value/Return value</span></span>
 
- <span data-ttu-id="b04ff-113">**TRUE** si la conversión se ha realizado correctamente, **FALSE** en caso contrario.</span><span class="sxs-lookup"><span data-stu-id="b04ff-113">**TRUE** if the conversion succeeded, **FALSE** otherwise.</span></span> 
+ <span data-ttu-id="be5cc-113">**TRUE** si la conversión se ha realizado correctamente, **FALSE** en caso contrario.</span><span class="sxs-lookup"><span data-stu-id="be5cc-113">**TRUE** if the conversion succeeded, **FALSE** otherwise.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="b04ff-114">Notas</span><span class="sxs-lookup"><span data-stu-id="b04ff-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="be5cc-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="be5cc-114">Remarks</span></span>
 
-<span data-ttu-id="b04ff-115">Siempre que se pasan en **XLREF** es válida, esta operación debe ser siempre correcta.</span><span class="sxs-lookup"><span data-stu-id="b04ff-115">Provided that the passed-in **XLREF** is valid, this operation should always be successful.</span></span> <span data-ttu-id="b04ff-116">Por el contrario, conversión de la otra forma de **XLREF12** **XLREF**, realizado por [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), se produce un error si la referencia proporcionada hace referencia a la parte de una hoja de cálculo de Excel 2007 que no es compatible con versiones anteriores.</span><span class="sxs-lookup"><span data-stu-id="b04ff-116">In contrast, conversion the other way from **XLREF12** to **XLREF**, performed by [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), fails if the supplied reference refers to part of an Excel 2007 worksheet that is not supported in earlier versions.</span></span>
+<span data-ttu-id="be5cc-115">Siempre que se pasan en **XLREF** es válida, esta operación debe ser siempre correcta.</span><span class="sxs-lookup"><span data-stu-id="be5cc-115">Provided that the passed-in **XLREF** is valid, this operation should always be successful.</span></span> <span data-ttu-id="be5cc-116">Por el contrario, conversión de la otra forma de **XLREF12** **XLREF**, realizado por [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), se produce un error si la referencia proporcionada hace referencia a la parte de una hoja de cálculo de Excel 2007 que no es compatible con versiones anteriores.</span><span class="sxs-lookup"><span data-stu-id="be5cc-116">In contrast, conversion the other way from **XLREF12** to **XLREF**, performed by [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), fails if the supplied reference refers to part of an Excel 2007 worksheet that is not supported in earlier versions.</span></span>
   
-## <a name="example"></a><span data-ttu-id="b04ff-117">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b04ff-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="be5cc-117">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="be5cc-117">Example</span></span>
 
  `\SAMPLES\FRAMEWRK\FRAMEWRK.C`
   
@@ -68,9 +68,9 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxref, LPXLREF12 pxref12)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b04ff-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="b04ff-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="be5cc-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="be5cc-118">See also</span></span>
 
 
 
-[<span data-ttu-id="b04ff-119">Funciones de la biblioteca de Framework</span><span class="sxs-lookup"><span data-stu-id="b04ff-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="be5cc-119">Funciones de la biblioteca de marcos</span><span class="sxs-lookup"><span data-stu-id="be5cc-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

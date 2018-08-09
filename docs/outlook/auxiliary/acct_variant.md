@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816057"
 ---
-# <a name="acctvariant"></a><span data-ttu-id="51184-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="51184-103">ACCT_VARIANT</span></span>
+# <a name="acctvariant"></a><span data-ttu-id="a6e64-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="a6e64-103">ACCT_VARIANT</span></span>
 
-<span data-ttu-id="51184-104">Una variable de este tipo de datos contiene el valor de una propiedad, que es de un tipo de datos variant.</span><span class="sxs-lookup"><span data-stu-id="51184-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
+<span data-ttu-id="a6e64-104">Una variable de este tipo de datos contiene el valor de una propiedad, que es de un tipo de datos variant.</span><span class="sxs-lookup"><span data-stu-id="a6e64-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="51184-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="51184-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="a6e64-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="a6e64-105">Quick info</span></span>
 
 ```cpp
 typedef struct 
@@ -34,28 +34,28 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="51184-106">Miembros</span><span class="sxs-lookup"><span data-stu-id="51184-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a6e64-106">Members</span><span class="sxs-lookup"><span data-stu-id="a6e64-106">Members</span></span>
 
-<span data-ttu-id="51184-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="51184-107">_dwType_</span></span>
+<span data-ttu-id="a6e64-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="a6e64-107">_dwType_</span></span>
   
-> <span data-ttu-id="51184-108">Tipo de variante:</span><span class="sxs-lookup"><span data-stu-id="51184-108">Type of variant:</span></span>
+> <span data-ttu-id="a6e64-108">Tipo de variante:</span><span class="sxs-lookup"><span data-stu-id="a6e64-108">Type of variant:</span></span>
     
-    - <span data-ttu-id="51184-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="51184-109">PT_LONG</span></span>
+    - <span data-ttu-id="a6e64-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="a6e64-109">PT_LONG</span></span>
     
-    - <span data-ttu-id="51184-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="51184-110">PT_UNICODE</span></span>
+    - <span data-ttu-id="a6e64-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a6e64-110">PT_UNICODE</span></span>
     
-    - <span data-ttu-id="51184-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="51184-111">PT_BINARY</span></span>
+    - <span data-ttu-id="a6e64-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="a6e64-111">PT_BINARY</span></span>
     
-<span data-ttu-id="51184-112">_DW_</span><span class="sxs-lookup"><span data-stu-id="51184-112">_dw_</span></span>
+<span data-ttu-id="a6e64-112">_DW_</span><span class="sxs-lookup"><span data-stu-id="a6e64-112">_dw_</span></span>
   
-> <span data-ttu-id="51184-113">Valor DWORD de variante.</span><span class="sxs-lookup"><span data-stu-id="51184-113">DWORD value of variant.</span></span>
+> <span data-ttu-id="a6e64-113">Valor DWORD de variante.</span><span class="sxs-lookup"><span data-stu-id="a6e64-113">DWORD value of variant.</span></span>
     
-<span data-ttu-id="51184-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="51184-114">_pwsz_</span></span>
+<span data-ttu-id="a6e64-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="a6e64-114">_pwsz_</span></span>
   
-> <span data-ttu-id="51184-115">Valor de tipo variant de cadena.</span><span class="sxs-lookup"><span data-stu-id="51184-115">String value of variant.</span></span>
+> <span data-ttu-id="a6e64-115">Valor de tipo variant de cadena.</span><span class="sxs-lookup"><span data-stu-id="a6e64-115">String value of variant.</span></span>
     
-<span data-ttu-id="51184-116">_Papelera de_</span><span class="sxs-lookup"><span data-stu-id="51184-116">_bin_</span></span>
+<span data-ttu-id="a6e64-116">_Papelera de_</span><span class="sxs-lookup"><span data-stu-id="a6e64-116">_bin_</span></span>
   
-> <span data-ttu-id="51184-117">Valor binario de la variante.</span><span class="sxs-lookup"><span data-stu-id="51184-117">Binary value of the variant.</span></span>
+> <span data-ttu-id="a6e64-117">Valor binario de la variante.</span><span class="sxs-lookup"><span data-stu-id="a6e64-117">Binary value of the variant.</span></span>
     
 

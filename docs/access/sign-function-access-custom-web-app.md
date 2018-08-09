@@ -14,21 +14,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815493"
 ---
-# <a name="sign-function-access-custom-web-app"></a><span data-ttu-id="e90ac-103">Función de inicio de sesión (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="e90ac-103">Sign Function (Access custom web app)</span></span>
+# <a name="sign-function-access-custom-web-app"></a><span data-ttu-id="8565b-103">Función de inicio de sesión (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="8565b-103">Sign Function (Access custom web app)</span></span>
 
-<span data-ttu-id="e90ac-104">Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.</span><span class="sxs-lookup"><span data-stu-id="e90ac-104">Returns the positive (+1), zero (0), or negative (-1) sign of the specified expression.</span></span>
+<span data-ttu-id="8565b-104">Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.</span><span class="sxs-lookup"><span data-stu-id="8565b-104">Returns the positive (+1), zero (0), or negative (-1) sign of the specified expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e90ac-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="e90ac-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="8565b-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="8565b-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="e90ac-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="e90ac-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8565b-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8565b-107">Syntax</span></span>
 
- <span data-ttu-id="e90ac-108">**Inicio de sesión** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="e90ac-108">**Sign** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="8565b-108">**Inicio de sesión** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="8565b-108">**Sign** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="e90ac-109">La función de **Inicio de sesión** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="e90ac-109">The **Sign** function contains the following argument.</span></span> 
+<span data-ttu-id="8565b-109">La función de **Inicio de sesión** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="8565b-109">The **Sign** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="e90ac-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="e90ac-110">**Argument name**</span></span>|<span data-ttu-id="e90ac-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e90ac-111">**Description**</span></span>|
+|<span data-ttu-id="8565b-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="8565b-110">**Argument name**</span></span>|<span data-ttu-id="8565b-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="8565b-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="e90ac-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="e90ac-112">*NumericExpression*</span></span>  <br/> | <span data-ttu-id="e90ac-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="e90ac-113">A numeric expression.</span></span>  <br/> |
+| <span data-ttu-id="8565b-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="8565b-112">*NumericExpression*</span></span>  <br/> | <span data-ttu-id="8565b-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="8565b-113">A numeric expression.</span></span>  <br/> |
    
 
