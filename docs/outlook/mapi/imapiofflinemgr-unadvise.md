@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b52dcd87c8714ad59db560a5ae4a8300f9cc83ae
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817385"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cancela devoluciones de llamada para un objeto sin conexión.
   
@@ -50,11 +50,11 @@ S_OK
   
 > La llamada tuvo éxito. Esta llamada debe devolver S_OK.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Quita el registro de la devolución de llamada que se ha asociado con *ulAdviseToken* devuelto desde una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que el objeto **IMAPIOfflineMgr** liberar su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con *ulAdviseToken* . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

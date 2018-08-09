@@ -19,7 +19,7 @@ ms.locfileid: "19818396"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Compara dos cadenas Unicode.
   
@@ -33,7 +33,7 @@ int MNLS_CompareStringW (
   int cch2);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lcid_
   
@@ -63,11 +63,11 @@ int MNLS_CompareStringW (
 
 Devuelve los valores que se describen para [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función ajusta [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** acepta los mismos parámetros y tiene el mismo comportamiento como [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

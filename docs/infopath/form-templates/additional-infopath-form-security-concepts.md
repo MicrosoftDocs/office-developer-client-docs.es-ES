@@ -75,7 +75,7 @@ El escenario más común del uso malintencionado de los controles ActiveX se pue
   
 El modelo de seguridad de Internet Explorer en el que se basa Microsoft InfoPath proporciona una configuración llamada **Inicializar y generar script de controles ActiveX marcados como no seguros** que, de forma predeterminada, produce las siguientes acciones para formularios de InfoPath o paneles de tareas que intentan inicializar y generar script de controles ActiveX marcados como no seguros para scripting. 
   
-|**Zona de seguridad e implementación**|**Acción**|
+|**Zona de seguridad e Implementación**|**Acción**|
 |:-----|:-----|
 |Internet  <br/> |Deshabilitado  <br/> |
 |Intranet local  <br/> |Deshabilitado  <br/> |
@@ -106,7 +106,7 @@ En la siguiente tabla se resumen los permisos predeterminados para cada método 
   
 |**Zona de seguridad**|**Implementación**|**Permisos predeterminados**|
 |:-----|:-----|:-----|
-||**Basados en direcciones URL** <br/> |**Basados en URN** <br/> |**ActiveX marcado como no seguro para Scripting** <br/> |**Acceso a datos entre dominios** <br/> |**Nivel de seguridad del modelo de objetos** <br/> |
+||**Basados en URL** <br/> |**Basados en URN** <br/> |**ActiveX marcado como no seguro para scripting** <br/> |**Acceso a datos entre dominios** <br/> |**Nivel de seguridad del modelo de objetos** <br/> |
 |Sitios restringidos  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |
 |Internet  <br/> |X  <br/> ||Deshabilitar  <br/> |Deshabilitar  <br/> |2  <br/> |
 |Intranet local  <br/> |X  <br/> ||Deshabilitar  <br/> |Preguntar  <br/> |2  <br/> |

@@ -10,7 +10,7 @@ keywords:
 - fshowdialog (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ae6d8b2f0b95641678947e9bd75daa2237b080b1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815643"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Definidas por el usuario comando de ejemplo que se carga y se muestra un cuadro de diálogo de Windows nativo de ejemplo. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
   
@@ -28,15 +28,15 @@ Definidas por el usuario comando de ejemplo que se carga y se muestra un cuadro 
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 La función no toma ningún parámetro.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 El entero devuelto de función cero para indicar la finalización correcta
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los pasos para mostrar el cuadro de diálogo de Windows nativo son los siguientes:
   
@@ -52,9 +52,9 @@ Los pasos para mostrar el cuadro de diálogo de Windows nativo son los siguiente
 
 Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones en el archivo DLL genérica](functions-in-the-generic-dll.md)
+[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
 

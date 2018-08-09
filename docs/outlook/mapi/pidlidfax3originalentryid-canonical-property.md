@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidFax3OriginalEntryId
+title: Propiedad canónica PidLidFax3OriginalEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 76b53e208f95aa2d87e3d47cfc5beb69075d376f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818720"
 ---
-# <a name="pidlidfax3originalentryid-canonical-property"></a>Propiedad canónico PidLidFax3OriginalEntryId
+# <a name="pidlidfax3originalentryid-canonical-property"></a>Propiedad canónica PidLidFax3OriginalEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica que la propiedad EntryID original del contacto del otra dirección de fax.
   
@@ -35,7 +35,7 @@ Especifica que la propiedad EntryID original del contacto del otra dirección de
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad, si está presente, debe especificar la propiedad EntryId de uso único que corresponde a esta dirección de fax.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19816800"
 ---
 # <a name="fielddefinition-stream-structure"></a>Estructura de secuencia FieldDefinition
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una estructura de secuencia FieldDefinition contiene la definición de campo de un campo definido por el usuario, o bien un conjunto de configuración de enlace de datos de un campo integrado.
   
@@ -87,9 +87,9 @@ Elementos de datos en esta secuencia se almacenan en orden de bytes little-endia
   
    Si una versión futura de un formato de definición de campo presenta fragmentos adicionales de datos en la secuencia de FieldDefinition, estos datos pueden almacenarse como estructuras de secuencia de SkipBlock adicionales de la serie SkipBlocks antes de la estructura SkipBlock terminación que tiene la Elemento de datos de tamaño igual a 0. Las versiones anteriores de Outlook pueden ignorar estas estructuras de SkipBlock extra hasta la estructura SkipBlock terminación y procesar aún correctamente todos los bloques que admiten.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Campos y elementos de outlook](outlook-items-and-fields.md)
+- [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Estructuras de secuencia](stream-structures.md)
-- [Estructura de la secuencia de PropertyDefinition](propertydefinition-stream-structure.md)
+- [Muestra de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 

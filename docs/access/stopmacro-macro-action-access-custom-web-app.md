@@ -19,13 +19,13 @@ ms.locfileid: "19815491"
 Puede utilizar la acción **DetenerMacro** para detener la macro que se está ejecutando. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 
 La acción **DetenerMacro** no tiene ningún argumento. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta acción se suele utilizar cuando una condición haga necesario detener la macro. Por ejemplo, podría crear una macro de usuario (UI) de la interfaz que se abre una vista que muestra los totales de pedidos diarios para la fecha especificada en la vista actual. Podría utilizar una expresión condicional para asegurarse de que el control de fecha de pedido en el cuadro de diálogo contiene una fecha válida. Si no es así, la acción de **cuadro de mensaje** puede mostrar un mensaje de error y la acción **DetenerMacro** puede detener la macro de la interfaz de usuario. 
   

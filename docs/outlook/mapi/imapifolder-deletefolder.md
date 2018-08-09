@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15cf8ff7e282035ddff53565aa92e81e3886729c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817224"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Elimina una subcarpeta.
   
@@ -37,7 +37,7 @@ HRESULT DeleteFolder(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
@@ -89,7 +89,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > La llamada se ha realizado correctamente, pero no todas las entradas se eliminaron correctamente. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIFolder::DeleteFolder** elimina una subcarpeta. De forma predeterminada, **DeleteFolder** sólo funciona en las carpetas vacías, pero se puede usar correctamente en las carpetas no vacías mediante la configuración de dos indicadores: DEL_FOLDERS y DEL_MESSAGES. Sólo carpetas vacías o carpetas que establecer los indicadores de la DEL_FOLDERS y la DEL_MESSAGES en la llamada **DeleteFolder** se pueden eliminar. DEL_FOLDERS habilita todas las subcarpetas de la carpeta que se va a quitar; DEL_MESSAGES permite que todos los mensajes de la carpeta que se va a quitar. 
   
@@ -119,11 +119,11 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFolder::DeleteFolder** para eliminar las carpetas.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

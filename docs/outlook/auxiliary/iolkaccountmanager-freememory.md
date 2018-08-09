@@ -42,7 +42,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Use este método para liberar memoria asignada por [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
 

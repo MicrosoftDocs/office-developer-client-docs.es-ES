@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidClassificationKeep
+title: Propiedad canónica PidLidClassificationKeep
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f448f25b469a1669e2fc3aaaa347dca6242da5f3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818598"
 ---
-# <a name="pidlidclassificationkeep-canonical-property"></a>Propiedad canónico PidLidClassificationKeep
+# <a name="pidlidclassificationkeep-canonical-property"></a>Propiedad canónica PidLidClassificationKeep
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica si la clasificación de mensajes debe conservarse con el mensaje si el mensaje se reenvía o se responde.
   
@@ -35,7 +35,7 @@ Indica si la clasificación de mensajes debe conservarse con el mensaje si el me
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |General de mensajería  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener más información, vea [cómo implementar la clasificación de mensaje de Outlook 2007](http://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

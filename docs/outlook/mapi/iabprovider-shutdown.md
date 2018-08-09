@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2f1872c6f95f8ab12014de9890b0d03789bc5f0d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817121"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cancela una conexión a una sesión activa.
   
@@ -33,7 +33,7 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
@@ -49,9 +49,9 @@ S_OK
 
 En la implementación del método **apagado** , lleve a cabo cualquier tarea de tener en cuenta es necesario. MAPI llama a su método **Shutdown** sólo después de que se han lanzado todos los objetos de inicio de sesión. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IABProvider: IUnknown](iabprovideriunknown.md)
+[IABProvider : IUnknown](iabprovideriunknown.md)
 

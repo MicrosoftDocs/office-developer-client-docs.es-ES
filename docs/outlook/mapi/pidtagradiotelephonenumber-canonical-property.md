@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRadioTelephoneNumber
+title: Propiedad canónica PidTagRadioTelephoneNumber
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5906b296f3a3898a27944373cbbc9c48e3483eb7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820001"
 ---
-# <a name="pidtagradiotelephonenumber-canonical-property"></a>Propiedad canónico PidTagRadioTelephoneNumber
+# <a name="pidtagradiotelephonenumber-canonical-property"></a>Propiedad canónica PidTagRadioTelephoneNumber
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el número de teléfono de radio del destinatario.
   
@@ -34,7 +34,7 @@ Contiene el número de teléfono de radio del destinatario.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuario de correo MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades proporcionan identificación y obtener acceso a información de un destinatario. Se definen por el destinatario y la organización del destinatario. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

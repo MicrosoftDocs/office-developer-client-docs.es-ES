@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1f3a876269868c30df48e0a0b62036cfdc199955
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817303"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inicia un formulario para abrir un mensaje existente.
   
@@ -43,7 +43,7 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -111,7 +111,7 @@ MAPI_E_NOT_FOUND
   
 > La clase de mensaje que se pasó _lpszMessageClass_ no coincide con la clase de mensaje para cualquier formulario en la biblioteca de formularios. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::LoadForm** para abrir un formulario para un mensaje existente. **LoadForm** abre el objeto de formulario, se carga el mensaje en el objeto de formulario, se configura el contexto de vista apropiada, si es necesario y se devuelve la interfaz solicitada para el objeto de formulario. 
   
@@ -129,17 +129,17 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIFormMgr::LoadForm** para cargar un formulario antes de mostrarla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagMessageClass](pidtagmessageclass-canonical-property.md)
+[Propiedad canónica PidTagMessageClass](pidtagmessageclass-canonical-property.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

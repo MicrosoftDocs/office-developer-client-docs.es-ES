@@ -8,7 +8,7 @@ keywords:
 - conceptos de Excel, de programación de Excel
 localization_priority: Normal
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9a8598aeaf92a3f6950b6baa809cdcc071516bce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "19815561"
 ---
 # <a name="excel-programming-concepts"></a>Conceptos de programación de Excel
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 En esta sección se proporciona información acerca de Excel comandos y funciones, Estados de Excel, hoja de cálculo y la expresión de evaluación, active frente a la hoja de cálculo actual y las referencias de la hoja de cálculo.
   
 ## <a name="in-this-section"></a>En esta sección
 
-[Comandos, funciones y Estados de Excel](excel-commands-functions-and-states.md)
+[Estados, comandos y funciones de Excel](excel-commands-functions-and-states.md)
   
 > 
     
-[Hojas de c�lculo y evaluaci�n de expresiones de Excel](excel-worksheet-and-expression-evaluation.md)
+[Evaluación de expresiones y hojas de cálculo de Excel](excel-worksheet-and-expression-evaluation.md)
   
 > 
     
-[Referencias de la hoja de cálculo](worksheet-references.md)
+[Referencias de hojas de cálculo](worksheet-references.md)
   
 > 
     

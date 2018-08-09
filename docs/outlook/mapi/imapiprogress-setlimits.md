@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 14abfaadcdb1710a7cb8275c8f82d502aea8300e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817395"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece los límites superiores e inferiores para el número de elementos de la operación y los indicadores que controlan cómo se calcula la información de progreso de la operación.
   
@@ -35,7 +35,7 @@ HRESULT SetLimits(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulMin_
   
@@ -77,7 +77,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::SetLimits  <br/> |MFCMAPI usa el método **IMAPIProgress::SetLimits** para establecer los límites máximos y mínimos y los indicadores para el objeto de progreso.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -87,12 +87,12 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   
-[Implementación de un indicador de progreso](implementing-a-progress-indicator.md)
+[Implementar un indicador de progreso](implementing-a-progress-indicator.md)
 

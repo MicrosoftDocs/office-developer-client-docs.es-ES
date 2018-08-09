@@ -10,7 +10,7 @@ keywords:
 - xlsheetnm (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 815565d886b1aea203f6b3b9774325d6b534abd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815753"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Devuelve el nombre de una hoja de cálculo u hoja de macro de su identificador de hoja interna dentro de una referencia externa, o el nombre de la hoja actual si se pasa una referencia interna.
   
@@ -28,7 +28,7 @@ Devuelve el nombre de una hoja de cálculo u hoja de macro de su identificador d
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pxExtref_ (**xltypeRef** o **xltypeSRef**)
   
@@ -38,7 +38,7 @@ Si se pasa una referencia externa (**xltypeRef**) necesario que sólo contenga e
   
 Si se pasa una referencia interna (**xltypeSef**), **xlSheetNm** devuelve el nombre de la hoja actual. 
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Devuelve el nombre de la hoja (**xltypeStr**) en el formulario `[Book1]Sheet1`.
   
@@ -60,7 +60,7 @@ short WINAPI xlSheetNmExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [xlSheetId](xlsheetid.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

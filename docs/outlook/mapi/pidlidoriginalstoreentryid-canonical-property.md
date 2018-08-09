@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidOriginalStoreEntryId
+title: Propiedad canónica PidLidOriginalStoreEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aaf442b941cfe14f695bf5e7f7ec246d06e5ae0b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818822"
 ---
-# <a name="pidlidoriginalstoreentryid-canonical-property"></a>Propiedad canónico PidLidOriginalStoreEntryId
+# <a name="pidlidoriginalstoreentryid-canonical-property"></a>Propiedad canónica PidLidOriginalStoreEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el identificador de entrada del almacén de la persona que delega.
   
@@ -35,7 +35,7 @@ Especifica el identificador de entrada del almacén de la persona que delega.
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad se debe establecer en los objetos de la reunión que se han creado o actualizado por un delegado.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

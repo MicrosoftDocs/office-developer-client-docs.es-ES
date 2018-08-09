@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagHomeAddressCountry
+title: Propiedad canónica PidTagHomeAddressCountry
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cf3a86f4-016e-49d2-a71d-7f3f68e69867
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 208226408751bb96f015719c4a1fea9bd1f9ee63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819603"
 ---
-# <a name="pidtaghomeaddresscountry-canonical-property"></a>Propiedad canónico PidTagHomeAddressCountry
+# <a name="pidtaghomeaddresscountry-canonical-property"></a>Propiedad canónica PidTagHomeAddressCountry
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la provincia de la dirección de un contacto.
   
@@ -34,7 +34,7 @@ Contiene la provincia de la dirección de un contacto.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuario de correo MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son definidas por el usuario o la organización del usuario.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

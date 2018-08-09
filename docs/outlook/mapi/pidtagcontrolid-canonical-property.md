@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagControlId
+title: Propiedad canónica PidTagControlId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 799f83b397cbef9d7dcb6c9a88154b88afe35675
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19819386"
 ---
-# <a name="pidtagcontrolid-canonical-property"></a>Propiedad canónico PidTagControlId
+# <a name="pidtagcontrolid-canonical-property"></a>Propiedad canónica PidTagControlId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un identificador único para un control que se utiliza en un cuadro de diálogo. 
   
@@ -34,7 +34,7 @@ Contiene un identificador único para un control que se utiliza en un cuadro de 
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Tabla MAPI para mostrar  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad contiene un identificador único para el control. Este identificador debe contener una estructura [GUID](guid.md) y un valor de tipo **LONG**binary. Todos los controles en el cuadro de diálogo deben usar el mismo **GUID** para identificar el proveedor de servicios, y cada control debe usar un único valor de **tipo LONG** para asegurarse de que los controles no entrar en conflicto. 
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

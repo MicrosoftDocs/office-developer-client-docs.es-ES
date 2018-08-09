@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e0e1535a770d4f1b437faf6a90c5f6415f6000ca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816897"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Agrega un entero de 64 bits sin signo a otra.
   
@@ -40,7 +40,7 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _Addend1_
   

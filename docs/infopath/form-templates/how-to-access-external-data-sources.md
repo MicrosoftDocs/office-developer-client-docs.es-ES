@@ -1,5 +1,5 @@
 ---
-title: Acceso a orígenes de datos externos
+title: Obtener acceso a orígenes de datos externos
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815870"
 ---
-# <a name="access-external-data-sources"></a>Acceso a orígenes de datos externos
+# <a name="access-external-data-sources"></a>Obtener acceso a orígenes de datos externos
 
 Al trabajar con una plantilla de formulario de InfoPath, puede escribir código para obtener acceso a los orígenes de datos secundarios y manipular los datos que contienen. 
   
@@ -38,10 +38,10 @@ La clase [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Off
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx) (propiedad)  <br/> |Devuelve un recuento del número de instancias de objeto de **origen de datos** contenidos en la colección.  <br/> |
-|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) (método)  <br/> |Devuelve un **objeto IEnumerator** que puede usarse para recorrer en iteración la colección.  <br/> |
-|Propiedad [Item [Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Devuelve una referencia al objeto **DataSource** especificado por su valor de índice.  <br/> |
-|Propiedad [Item [String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Devuelve una referencia al objeto **DataSource** especificado por su nombre.  <br/> |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx) (propiedad)  <br/> |Devuelve el número de instancias de objetos **DataSource** contenidas en la colección.  <br/> |
+|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) (método)  <br/> |Devuelve un **IEnumerator** que se puede utilizar para recorrer en iteración la colección.  <br/> |
+|Propiedad [Item [Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Devuelve una referencia al objeto **DataSource** especificado de la colección por su valor de índice.  <br/> |
+|Propiedad [Item [String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Devuelve una referencia al objeto **DataSource** especificado por nombre.  <br/> |
    
 ## <a name="overview-of-the-datasource-class"></a>Información general sobre la clase DataSource
 
@@ -51,10 +51,10 @@ La clase [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Off
 |:-----|:-----|
 |Método [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |Devuelve un objeto [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) para tener acceso y modificar el origen de datos  <br/> |
 |[QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto de conexión de datos asociado.  <br/> Para ejecutar la consulta en la conexión de datos e insertar los datos devueltos como XML en el nodo XML asociado al objeto de **origen de datos** , utilice el método [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) del objeto de conexión de datos asociado.  <br/> |
-|[Nombre](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx) (propiedad)  <br/> |Obtiene el nombre del objeto de **origen de datos** .  <br/> |
+|[Nombre](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx) (propiedad)  <br/> |Obtiene el nombre del objeto **DataSource**.  <br/> |
 |[ReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx) (propiedad)  <br/> |Obtiene un valor que indica si el origen de datos está en un estado de sólo lectura.  <br/> |
-|[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) (método)  <br/> |Obtiene el valor de una propiedad con nombre para el nodo XML especificado, que debe ser un nodo **sin atributo** en el origen de datos principal.  <br/> |
-|Método [SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |Establece el valor de una propiedad con nombre para el nodo XML especificado, que debe ser un nodo **sin atributo** en el origen de datos principal.  <br/> |
+|[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) (método)  <br/> |Obtiene el valor de una propiedad con nombre para el nodo XML especificado, que debe ser un nodo **nonattribute** en el origen de datos principal.  <br/> |
+|Método [SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |Establece el valor de una propiedad con nombre para el nodo XML especificado, que deberá ser un nodo **nonattribute** en el origen de datos principal.  <br/> |
    
 ## <a name="overview-of-the-data-connection-classes"></a>Información general sobre las clases de conexión de datos
 

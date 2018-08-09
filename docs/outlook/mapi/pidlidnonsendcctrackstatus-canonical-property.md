@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidNonSendCcTrackStatus
+title: Propiedad canónica PidLidNonSendCcTrackStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2654fad-444b-45bc-976d-3c5cbbc81b84
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1b61bbcbe3530e95924689f2729b23769e90c13d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818801"
 ---
-# <a name="pidlidnonsendcctrackstatus-canonical-property"></a>Propiedad canónico PidLidNonSendCcTrackStatus
+# <a name="pidlidnonsendcctrackstatus-canonical-property"></a>Propiedad canónica PidLidNonSendCcTrackStatus
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el valor para cada asistente que aparecen en la propiedad **dispidNonSendableCC** ([PidLidNonSendableCc](pidlidnonsendablecc-canonical-property.md)).
   
@@ -35,7 +35,7 @@ Contiene el valor para cada asistente que aparecen en la propiedad **dispidNonSe
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |General de mensajería  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es necesaria sólo cuando se establece la propiedad **dispidNonSendableCC** . El número de valores de esta propiedad debe ser igual que el número de valores en **dispidNonSendableCC**. Cada valor PT_LONG en esta propiedad se corresponde con el Asistente en la propiedad **dispidNonSendableCC** en el mismo índice. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

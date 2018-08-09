@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19820800"
 ---
-# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Compatibilidad con texto con formato en los mensajes entrantes: responsabilidades del cliente
+# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Admitir texto con formato en los mensajes entrantes: responsabilidades del cliente
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Como los mensajes se transfieren entre los sistemas de mensajería, la cola MAPI se asegura de que el formato de texto enriquecido permanece sincronizado con el texto del mensaje. La cola MAPI llama a la función de [RTFSync](rtfsync.md) desde dentro de una versión del mensaje que se pasa al proveedor de transporte ajustada. El proveedor de transporte guarda los cambios realizados en el mensaje llamando al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) y, a continuación, enruta al destinatario nuevo. 
   

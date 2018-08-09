@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ab069728f872d82246e8925c5ad35c07f41f02e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817609"
 ---
-# <a name="imapitablerestrict"></a>IMAPITable:: Restrict
+# <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se aplica un filtro a una tabla, reducción de la fila que se establece en sólo las filas que coincidan con los criterios especificados.
   
@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpRestriction_
   
@@ -66,7 +66,7 @@ MAPI_E_TOO_COMPLEX
   
 > La tabla no puede realizar la operación porque el filtro determinado indicado por el parámetro _lpRestriction_ es demasiado complicado. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPITable:: Restrict** establece una restricción, o un filtro, en una tabla. Si hay una restricción anterior, se descarta y aplica uno nuevo. Aplicar una restricción no tiene ningún efecto en los datos subyacentes de una tabla; simplemente se modifica la vista al limitar las filas que se pueden recuperar a las filas que contienen datos que cumplen la restricción. 
   
@@ -103,21 +103,21 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI usa el método **IMAPITable:: Restrict** para establecer una restricción en una tabla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPITable::Abort](imapitable-abort.md)
   
-[Elemento IMAPITable:: FindRow](imapitable-findrow.md)
+[IMAPITable::FindRow](imapitable-findrow.md)
   
 [IMAPITable::GetRowCount](imapitable-getrowcount.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

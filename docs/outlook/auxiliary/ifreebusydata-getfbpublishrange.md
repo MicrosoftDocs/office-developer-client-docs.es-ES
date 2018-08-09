@@ -30,7 +30,7 @@ HRESULT GetFBPublishRange(
 
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _prtmStart_
   
@@ -50,9 +50,9 @@ Llama a un proveedor de libre/ocupado [IFreeBusyData::EnumBlocks](ifreebusydata-
   
 **IFreeBusyData::GetFBPublishRange** debe devolver que los valores almacenados en caché para el intervalo de tiempo establecen por la llamada más reciente para **IFreeBusyData::EnumBlocks** o **IFreeBusyData::SetFBRange**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Usar tiempo relativa a los datos de libre/ocupado de access](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Utilizar un tiempo relativo a los datos de disponibilidad de acceso](how-to-use-relative-time-to-access-free-busy-data.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)
 

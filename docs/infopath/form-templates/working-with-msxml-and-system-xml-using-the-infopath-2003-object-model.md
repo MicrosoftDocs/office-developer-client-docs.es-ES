@@ -23,7 +23,7 @@ Para usar los miembros del espacio de nombres **System.Xml** en un proyecto de c
   
  **Notas**
   
-- Para ver información de referencia acerca de MSXML, vea el SDK de MSXML.
+- Para consultar información de referencia acerca de MSXML, vea el SDK de MSXML.
     
 - Los miembros del modelo de objetos de MSXML que se ajustan mediante el espacio de nombres [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) no se pueden asignar a delegados en el código de formulario de las plantillas de formulario con código administrado. 
     

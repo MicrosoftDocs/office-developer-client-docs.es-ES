@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d8f28a6b0a1633b0060f02af7e38ef058527eb24
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817304"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Determina si un formulario puede controlar sus propio conflictos de mensaje. Un mensaje está en conflicto si se ha editado simultáneamente por más de un usuario. Esto puede ocurrir a los mensajes en las carpetas públicas.
   
@@ -35,7 +35,7 @@ HRESULT IsInConflict(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulMessageFlags_
   
@@ -63,7 +63,7 @@ S_FALSE
   
 > El formulario controla sus propio conflictos de mensaje o el mensaje para el que se pasó información no está en conflicto.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::IsInConflict** para detectar si un formulario en particular no controla sus propia conflictos de mensaje. **IsInConflict** comprueba la máscara de bits en los parámetros _ulMessageFlags_ y _ulMessageStatus_ para la presencia de un indicador de conflicto. Si se establece un indicador de conflicto, **IsInConflict** resuelve la clase de mensaje que se pasa en el parámetro _szMessageClass_ y devuelve S_OK si el formulario no controla su propia entra en conflicto. **IsInConflict** devuelve S_FALSE si el formulario controla su propia entra en conflicto. 
   
@@ -73,15 +73,15 @@ Un formulario que no administran sus propio conflictos se debe abrir con el mét
 
 Las aplicaciones cliente suelen tengan que abordar los problemas con conflictos al mover las aplicaciones de un mensaje para el mensaje siguiente o anterior en una carpeta. Si un mensaje está en conflicto, pero el servidor de formulario para ese mensaje puede controlar conflictos, la aplicación cliente debe ejecutar su código habitual para mostrar el mensaje siguiente o anterior. Si el servidor de formulario no puede controlar conflictos, la aplicación cliente debe seguir como si era consciente de la clase de mensaje del mensaje siguiente o anterior. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

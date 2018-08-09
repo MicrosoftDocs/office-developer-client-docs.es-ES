@@ -29,7 +29,7 @@ Vea [IOlkAccount](iolkaccount.md).
 |Etiqueta de la propiedad:  <br/> |0x00200102  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Obtener esta propiedad mediante el uso de [IOlkAccount::GetProp](iolkaccount-getprop.md).
   

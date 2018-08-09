@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagEntryId
+title: Propiedad canónica PidTagEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 971462b9e85878677b57ec7b53fe46aa64db6dba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,22 +19,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819498"
 ---
-# <a name="pidtagentryid-canonical-property"></a>Propiedad canónico PidTagEntryId
+# <a name="pidtagentryid-canonical-property"></a>Propiedad canónica PidTagEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene un identificador de entrada MAPI utilizado para abrir y editar las propiedades de un determinado objeto MAPI. 
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |ENTRADA DEL OBJETO  <br/> |
+|Propiedades asociadas:  <br/> |PR_ENTRYID  <br/> |
 |Identificador:  <br/> |0x0FFF  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Propiedades de Id.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad identifica un objeto para **OpenEntry** crear una instancia y proporciona acceso a todas sus propiedades a través de la interfaz derivada adecuada de **IMAPIProp**. 
   
@@ -46,7 +46,7 @@ Esta propiedad siempre está disponible a través del método [IMAPIProp::GetPro
   
 En la siguiente tabla se resume las diferencias importantes entre esta propiedad, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) y **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). 
   
-|**Característica**|**ENTRADA DEL OBJETO**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
+|**Característica**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
 |Requerido en los objetos de datos adjuntos  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
 |Requerido en los objetos de carpeta  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
@@ -105,18 +105,18 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)
+[Propiedad canónica PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

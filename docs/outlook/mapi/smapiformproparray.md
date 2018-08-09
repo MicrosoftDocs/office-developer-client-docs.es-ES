@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d907f2e8ecb9b6126898ff35b13427b088af9561
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820710"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de estructuras [SMAPIFormProp](smapiformprop.md) . 
   
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cProps**
   
@@ -56,7 +56,7 @@ typedef struct
   
 > Matriz de las propiedades del formulario.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **SMAPIFormPropArray** se pasa como parámetro a los métodos siguientes: 
   
@@ -66,7 +66,7 @@ La estructura **SMAPIFormPropArray** se pasa como parámetro a los métodos sigu
     
 - [IMAPIFormContainer::CalcFormPropSet](imapiformcontainer-calcformpropset.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

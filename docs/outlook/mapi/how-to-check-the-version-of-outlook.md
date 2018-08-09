@@ -15,7 +15,7 @@ ms.locfileid: "19816993"
 ---
 # <a name="check-the-version-of-outlook"></a>Comprobar la versión de Outlook
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se proporciona un ejemplo de c�digo que comprueba la informaci�n de la versi�n de las versiones instaladas de Microsoft Outlook si la versi�n instalada es Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 o Microsoft Outlook 2003. Comprobaci�n de la versi�n de Outlook a veces es necesario para asegurarse de que un MAPI aplicaci�n llamadas elementos de la API que son compatibles con la versi�n que se est� ejecutando de Outlook.
 

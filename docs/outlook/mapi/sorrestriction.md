@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 06b9b6a046aaa0f16418f75d402cc5be44f845a3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820728"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una restricción **o** que se usa para aplicar una operación **OR** lógica para una restricción. 
   
@@ -40,7 +40,7 @@ typedef struct _SOrRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cRes**
   
@@ -50,11 +50,11 @@ typedef struct _SOrRestriction
   
 > Puntero a la estructura de [SRestriction](srestriction.md) que describe la restricción de combinarse mediante la operación de **OR** lógica. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener más información acerca de la estructura **SOrRestriction** , vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

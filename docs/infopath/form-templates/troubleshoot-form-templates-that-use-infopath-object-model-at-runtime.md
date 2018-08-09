@@ -29,7 +29,7 @@ Asegúrese de que prueba las plantillas de formulario con código administrado e
   
 Si usa la utilidad de configuración de .NET Framework 1.1 y el grupo de código de las plantillas de formulario de InfoPath para agregar permisos específicos a una plantilla de formulario con código administrado, asegúrese de que implementa la misma directiva de seguridad en todos los equipos cliente. Además, si especifica una **URLEvidence** que se refiere a una ubicación del equipo local, asegúrese de que ésta sea la de la carpeta en la que se implementará finalmente la solución (que no sea la misma ubicación utilizada durante el desarrollo). Para obtener información acerca de cómo configurar la configuración de seguridad de .NET Framework para una plantilla de formulario con código administrado, vea la sección "Asignar FullTrust a formularios en un específico dirección URL o UNC" del tema [Configurar opciones de seguridad para las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)
 - [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md)

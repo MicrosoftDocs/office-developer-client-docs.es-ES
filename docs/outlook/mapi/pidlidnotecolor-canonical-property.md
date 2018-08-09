@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidNoteColor
+title: Propiedad canónica PidLidNoteColor
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7ff0bb5ec1eb56724bee7be7dec13f0474711083
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818804"
 ---
-# <a name="pidlidnotecolor-canonical-property"></a>Propiedad canónico PidLidNoteColor
+# <a name="pidlidnotecolor-canonical-property"></a>Propiedad canónica PidLidNoteColor
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el color de fondo sugerido de la nota. 
   
@@ -35,7 +35,7 @@ Especifica el color de fondo sugerido de la nota.
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Notas rápidas  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad debe ser una de las entradas en la tabla siguiente:
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

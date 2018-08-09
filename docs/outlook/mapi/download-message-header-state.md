@@ -1,11 +1,11 @@
 ---
-title: Estado del encabezado de mensaje de descarga
+title: Descargar estado del encabezado de mensaje
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7407b6606634ecc0151f582e4481ecbff5e7dc57
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816705"
 ---
-# <a name="download-message-header-state"></a>Estado del encabezado de mensaje de descarga
+# <a name="download-message-header-state"></a>Descargar estado del encabezado de mensaje
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  En este tema se describe qué ocurre durante el estado del encabezado de mensaje de descarga de la máquina de estado de replicación. 
   
@@ -39,15 +39,15 @@ Durante este estado, el cliente actualiza el encabezado de un mensaje en un alma
   
 Cuando finaliza la sincronización, el cliente establece los resultados de la descarga. El almacén local se devuelve al estado de inactividad.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   
-[Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+[Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
 [ESTADO DE SINCRONIZACIÓN](syncstate.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Funciones en el archivo DLL genérica
+title: Funciones de la DLL genérica
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - dll genérico [excel 2007], funciones, funciones [Excel 2007], DLL genérica
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815652"
 ---
-# <a name="functions-in-the-generic-dll"></a>Funciones en el archivo DLL genérica
+# <a name="functions-in-the-generic-dll"></a>Funciones de la DLL genérica
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 La carpeta `\EXAMPLES\GENERIC\` contiene los archivos de proyecto de Microsoft Visual Studio y archivos de código fuente que se necesitan para compilar el ejemplo GENERIC.xll del archivo DLL. Puede usar este proyecto como una plantilla para escribir su propia XLL de Microsoft Excel. El código de origen de este proyecto muestra muchas de las características de la API de C de Excel. 
   
@@ -60,9 +60,9 @@ Este proyecto usa la biblioteca de framework (FRMWRK32.lib).
   
 [FuncFib](funcfib.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

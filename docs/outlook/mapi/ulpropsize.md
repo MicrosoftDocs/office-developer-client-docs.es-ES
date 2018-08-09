@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bc00270b167c9f7317fa466d790d5020d961676f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820905"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve el tamaño de un valor de propiedad único. 
   
@@ -39,7 +39,7 @@ ULONG UlPropSize(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSPropValue_
   
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > Un error de origen desconocido o inesperado no puede completar la operación.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **UlPropSize** devuelve el tamaño, en bytes, del valor de propiedad para la propiedad especificada. No tiene en cuenta el tamaño del resto de la estructura **SPropValue** . 
   

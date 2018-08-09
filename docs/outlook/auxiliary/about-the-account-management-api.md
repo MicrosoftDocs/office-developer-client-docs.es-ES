@@ -1,5 +1,5 @@
 ---
-title: Acerca de la API de administración de cuenta
+title: Información sobre la API de administración de cuentas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816051"
 ---
-# <a name="about-the-account-management-api"></a>Acerca de la API de administración de cuenta
+# <a name="about-the-account-management-api"></a>Información sobre la API de administración de cuentas
 
 La API de administración de la cuenta proporciona acceso a información de la cuenta y es compatible con las notificaciones de cambios de cuenta. Como los clientes de esta API, los proveedores de correo, haga lo siguiente:
   

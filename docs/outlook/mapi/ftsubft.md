@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 954630b0b92772d961dc61084c28a9ab419e4c2f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816900"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Resta un entero sin signo de 64 bits de otro. 
   
@@ -40,7 +40,7 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _Minuendo_
   

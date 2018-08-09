@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 92540159386e6f37d93684aff037b235071010f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817985"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera una fila de tabla.
   
@@ -35,7 +35,7 @@ HRESULT HrQueryRow(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSPropValue_
   
@@ -59,13 +59,13 @@ MAPI_E_INVALID_PARAMETER
   
 > El [SPropValue](spropvalue.md) estructura que señala _lpSPropValue_ no contiene la propiedad de columna de índice. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **ITableData::HrQueryRow** recupera todas las propiedades de la fila que tiene una columna de índice que coincide con el valor de la columna de índice incluido en la estructura de propiedad que señala _lpSPropValue_. **HrQueryRow** también devuelve el número de fila, si el autor de la llamada lo solicita, que identifica la posición de la fila en la tabla. 
   
 Debido a que **HrQueryRow** no modifique la estructura de **SPropValue** que señala _lpSPropValue_, los autores de llamadas deben liberar la estructura cuando devuelve **HrQueryRow** . Los autores de llamadas también deben liberar la estructura **SRow** que contiene la fila recuperada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -77,5 +77,5 @@ Debido a que **HrQueryRow** no modifique la estructura de **SPropValue** que se�
   
 [SRow](srow.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b8ee83ad550106ae82f3308b9ef5692f66f5f5b6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817591"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior en la tabla. 
   
@@ -35,7 +35,7 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación sólo es compatible con Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPITable::GetLastError** devuelve información detallada, si está disponible, acerca de una llamada al método anterior con errores. Esta información se puede mostrar en un mensaje o un cuadro de diálogo. 
   
@@ -77,7 +77,7 @@ Para liberar toda la memoria asignada para la estructura **MAPIERROR** , llame a
   
 Para obtener más información acerca del método **GetLastError** , vea [Errores de MAPI extendida](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -85,5 +85,5 @@ Para obtener más información acerca del método **GetLastError** , vea [Errore
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

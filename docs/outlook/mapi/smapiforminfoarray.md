@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6389bbf2094f51711d80896db0db9862059826cc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820718"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de punteros a objetos de información del formulario. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cForms**
   
@@ -51,7 +51,7 @@ typedef struct
   
 > Puntero a una matriz de punteros a objetos de información del formulario.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos siguientes: 
   
@@ -63,7 +63,7 @@ La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

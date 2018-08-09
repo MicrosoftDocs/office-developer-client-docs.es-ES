@@ -1,5 +1,5 @@
 ---
-title: Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza
+title: Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815864"
 ---
-# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza
+# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza
 
 De manera predeterminada, si intenta depurar u obtener una vista previa de un proyecto de código administrado que tiene código que llama a un miembro del modelo de objetos que requiere plena confianza, como la propiedad **LoginName** que requiere acceso a la información sobre el dominio de inicio de sesión del usuario, Microsoft InfoPath mostrará los mensajes siguientes. 
   
@@ -48,7 +48,7 @@ Después de que se lleva a cabo este procedimiento, puede depurar el proyecto, c
 > [!NOTE]
 > [!NOTA] Para implementar correctamente una plantilla de formulario con código administrado que requiera plena confianza, hay que llevar a cabo unos pasos adicionales, como una firma digital o instalar y registrar la plantilla de formulario. Para obtener información sobre la implementación de una plantilla de formulario de código administrado después de que se está depurando, consulte [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

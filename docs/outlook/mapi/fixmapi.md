@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3c064301a18a8adbfb6109170ed16cb6981d96c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816812"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza una copia de seguridad de la copia actual de mapi32.dll en el cliente de equipo y restaura mapi32.dll con la biblioteca de código auxiliar MAPI, mapistub.dll.
   
@@ -41,7 +41,7 @@ Si la función se realiza correctamente, el valor devuelto es un valor distinto 
   
 Si se produce un error en la función, el valor devuelto es cero. Para obtener información de error extendida, llame a la función del Kit de desarrollo de Software (SDK) de Microsoft Windows, **[GetLastError](http://msdn.microsoft.com/en-us/library/ms679360.aspx)**. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **FixMAPI** no reemplazar el archivo mapi32.dll actual si el archivo está marcado como de sólo lectura. 
   
@@ -49,7 +49,7 @@ Si se produce un error en la función, el valor devuelto es cero. Para obtener i
   
 Cuando **FixMAPI** realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo, asigna a la copia un nombre distinto de "mapi32.dll". A continuación, dirige las llamadas subsiguientes destinadas a ese ensamblado a la copia de seguridad. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

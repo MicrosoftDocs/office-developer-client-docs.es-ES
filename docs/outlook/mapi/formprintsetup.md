@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ff46c58fbb352d56ae3df09d6949cdd5f614673f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816862"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se describe la información de configuración de impresión para el objeto de formulario. 
   
@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -69,7 +69,7 @@ MAPI_UNICODE.
   
 > Marca que indica si hay datos adjuntos que se va a imprimir. Si hay datos adjuntos para imprimir, el miembro **ulFPrintAttachments** está establecido en 1. Si no hay ningún datos adjuntos para imprimir, se establece en 0. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La estructura **FORMPRINTSETUP** se usa para describir la información de configuración de impresión de un objeto de formulario. Las implementaciones de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) rellene la estructura **FORMPRINTSETUP** y devuelven en el contenido del parámetro de salida _lppFormPrintSetup_ de **GetPrintSetup**.
   
@@ -77,7 +77,7 @@ Si el indicador MAPI_UNICODE se pasa en el parámetro _ulFlags_ de **GetPrintSet
   
 Visores de formulario implementar **IMAPIViewContext** deben asignar la estructura **FORMPRINTSETUP** mediante la función de asignador MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), pero asignar a los miembros individuales, **hDevMode** y **hDevNames**, con la función de Windows [GlobalAlloc](http://go.microsoft.com/fwlink/?LinkId=132110). La versión de memoria se administra de forma similar. Los miembros **hDevMode** y **hDevNames no** se deben liberar mediante la función de Windows [GlobalFree](http://go.microsoft.com/fwlink/?LinkId=132108) mientras que la estructura **FORMPRINTSETUP** se debe liberar con la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

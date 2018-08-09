@@ -28,7 +28,7 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _ppmsess_
   
@@ -42,7 +42,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Debido a problemas de referencia circular, el Administrador de cuentas de sí mismo no puede mantener la referencia de la sesión MAPI.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [IOlkAccountHelper::HandsOffSession](iolkaccounthelper-handsoffsession.md)
 - [IMAPISession: IUnknown](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)

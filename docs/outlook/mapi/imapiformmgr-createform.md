@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ed3f793e4353cf78949a9df3a17dd3997a573f58
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817306"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre un formulario para crear un nuevo mensaje en función de la clase de mensaje del formulario.
   
@@ -37,7 +37,7 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -73,7 +73,7 @@ MAPI_E_NO_INTERFACE
   
 > No se admite la interfaz solicitada por el objeto de formulario.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::CreateForm** para abrir un formulario para crear un nuevo mensaje en función de la clase de mensaje del formulario. **CreateForm** abre el formulario mediante la creación de una instancia del servidor de formulario para ese formulario tal como se describe en el objeto de información de formulario determinado. Si es necesario, **CreateForm** llama al método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para descargar el código de servidor del formulario en el disco del usuario. 
   
@@ -89,15 +89,15 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el método **IMAPIFormMgr::CreateForm** para crear un formulario antes de mostrarla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

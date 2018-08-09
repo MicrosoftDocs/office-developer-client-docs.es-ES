@@ -1,5 +1,5 @@
 ---
-title: Datos de la aplicación de Access
+title: Datos de aplicaciones de Access
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815853"
 ---
-# <a name="access-application-data"></a>Datos de la aplicación de Access
+# <a name="access-application-data"></a>Datos de aplicaciones de Access
 
 El modelo de objetos de código administrado de InfoPath proporciona objetos y colecciones que se pueden utilizar para obtener acceso a la información sobre la aplicación de InfoPath, incluida información relacionada con el documento XML subyacente de un formulario y el archivo de definición de formulario (.xsf). Para obtener acceso a estos datos, se utiliza el objeto de nivel superior en la jerarquía del modelo de objetos de InfoPath, del que se crea una instancia utilizando la clase [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   

@@ -1,5 +1,5 @@
 ---
-title: Acerca de la conservación de datos TZDEFINITION a una secuencia de confirmación en una propiedad binaria
+title: Información sobre TZDEFINITION persistente en una secuencia para confirmar una propiedad binaria
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816048"
 ---
-# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Acerca de la conservación de datos TZDEFINITION a una secuencia de confirmación en una propiedad binaria
+# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Información sobre TZDEFINITION persistente en una secuencia para confirmar una propiedad binaria
 
 Las propiedades de la zona horaria, [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)y [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) son binarios denominado propiedades, cada uno de ellos contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) . 
   
@@ -61,9 +61,9 @@ El número máximo de reglas es 1024.
   
 Tenga en cuenta que la estructura [TZREG](tzreg.md) se conserva aquí forma diferente de cuando se almacena por separado, por lo que el mismo código no puede usarse para analizarlo. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API exportadas de Outlook)](constants-outlook-exported-apis.md)
 - [Analizar una secuencia de una propiedad binaria para leer la estructura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
-- [Leer las propiedades de la zona horaria de una cita](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Leer las propiedades de la zona horaria en una cita](how-to-read-time-zone-properties-from-an-appointment.md)
 

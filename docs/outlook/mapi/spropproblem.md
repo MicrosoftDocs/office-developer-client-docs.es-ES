@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 32aa91d43e4674c0de20a0dbb670dcb9e2c782cf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820734"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe un error que se relacionan con una operación que implica una propiedad.
   
@@ -41,7 +41,7 @@ typedef struct _SPropProblem
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulIndex**
   
@@ -55,7 +55,7 @@ typedef struct _SPropProblem
   
 > Valor de error que describe el problema con la propiedad. Este valor puede ser cualquier valor [SCODE](scode.md) de MAPI. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Se devuelve una matriz de estructuras **SPropProblem** entre los siguientes métodos: 
   
@@ -77,7 +77,7 @@ Una estructura **SPropProblem** contiene un valor de error **SCODE** que dan com
   
 Para obtener más información acerca de cómo funciona la estructura **SPropProblem** con errores relacionados con las propiedades, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

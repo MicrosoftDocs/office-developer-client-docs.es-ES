@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bf1a84a1f305580fc9d9085753ab7eb5c62b8aa9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19816847"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una rutina de inactividad que el motor de inactividad de MAPI llama periódicamente según la prioridad. 
   
@@ -38,7 +38,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpvContext_
   
@@ -50,7 +50,7 @@ FALSE
   
 > Una rutina de inactividad con el prototipo **FNIDLE** siempre debe devolver FALSE. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La funcionalidad específica de la rutina de inactividad se determina mediante la implementación de la aplicación de cliente o un proveedor de servicio. 
   

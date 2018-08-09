@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817328"
 ---
-# <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr: IUnknown
+# <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite que los visores de formulario obtener información acerca de y activar servidores de formulario. 
   
@@ -53,7 +53,7 @@ Permite que los visores de formulario obtener información acerca de y activar s
 |[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Determina si un formulario puede controlar sus propio conflictos de mensaje.  <br/> |
 |[GetLastError](imapiformmgr-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen en el objeto de administrador de formulario.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

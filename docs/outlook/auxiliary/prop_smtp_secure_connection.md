@@ -27,7 +27,7 @@ Especifica el tipo de conexión cifrada que se usará para una cuenta SMTP.
 |Etiqueta de la propiedad:  <br/> |0x020A0003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor puede ser una de las siguientes constantes. Vea [constantes (API de administración de cuenta)](constants-account-management-api.md) para sus valores. 
   
@@ -38,8 +38,8 @@ El valor puede ser una de las siguientes constantes. Vea [constantes (API de adm
 |**ENCRYPT_CONN_TLS** <br/> |Usar el protocolo de autenticación y el cifrado de seguridad de capa de transporte (TLS).  <br/> |
 |**ENCRYPT_CONN_AUTO** <br/> |Automáticamente detectar y usar el método de cifrado compatible con el servidor de correo.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

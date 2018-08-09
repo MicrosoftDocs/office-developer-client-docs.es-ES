@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c1a78889ea98133af46089fdc93b0c1c4bb24226
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818300"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Disminuye el recuento de referencia, limpia y elimina por instancia global de datos para la DLL de MAPI. 
   
@@ -39,13 +39,13 @@ void MAPIUninitialize ( void );
 
 ## <a name="parameters"></a>Parámetros
 
-None 
+Ninguno 
   
 ## <a name="return-value"></a>Valor devuelto
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Una aplicación cliente llama a la función **MAPIUninitialize** para finalizar su interacción con MAPI, comenzado con una llamada a la función [MAPIInitialize](mapiinitialize.md) . Después de llamar a **MAPIUninitialize** , no hay otras llamadas MAPI pueden estar por el cliente. 
   

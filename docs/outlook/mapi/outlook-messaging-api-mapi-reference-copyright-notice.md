@@ -17,7 +17,7 @@ ms.locfileid: "19818466"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La información de este documento, incluidas las direcciones URL y otras referencias a sitios Web de Internet, está sujeta a cambios sin previo aviso. A menos que se indique lo contrario, las compañías, organizaciones, productos, nombres de dominio, direcciones de correo electrónico, logotipos, personas, lugares y eventos mencionados en los ejemplos son ficticios. Ninguna asociación con cualquier compañía real, organización, producto, nombre de dominio, dirección de correo electrónico, logotipo, persona, lugar o (evento) se pretende ni debe deducirse. Es responsabilidad del usuario el cumplimiento de todas las leyes de derechos de autor aplicables. Ninguna parte de este documento puede ser reproducida, almacenada o introducida en un sistema de recuperación, o transmitida de ninguna forma, ni por ningún medio (ya sea electrónico, mecánico, por fotocopia, grabación o de otra manera) con ningún propósito, sin la previa autorización por escrito de Microsoft Corporation, sin que ello suponga ninguna limitación a los derechos de propiedad industrial o intelectual.
   

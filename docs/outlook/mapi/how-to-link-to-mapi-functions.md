@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816994"
 ---
 # <a name="link-to-mapi-functions"></a>Vínculo a funciones de MAPI
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Hay tres métodos de vinculación: vinculación implícita, vinculación explícita y un nuevo modelo híbrido mediante la biblioteca de código auxiliar de MAPI.
   
@@ -123,12 +123,12 @@ Es un método alternativo de la incorporación de la biblioteca de código auxil
   
 Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y para obtener información acerca de cómo crear e integrarla en su proyecto, así como preguntas acerca de esta biblioteca, como cuándo y por qué usarla, consulte la [Biblioteca de código auxiliar de MAPI](http://mapistublibrary.codeplex.com/documentation) en el sitio de CodePlex. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
 - [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar los archivos de encabezado MAPI](how-to-install-mapi-header-files.md)
-- [Elija una versión específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Determinar qué método de vinculación de uso](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
 - [Vincular un ejecutable a un archivo DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
 - [Configuración de las claves MSI para el archivo DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)

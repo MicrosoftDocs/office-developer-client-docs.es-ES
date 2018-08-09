@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 15e2d5c2aca595c3a06d215cd069c23da3e48125
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817374"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece el estado actual de un objeto sin conexión a en línea o sin conexión.
   
@@ -80,7 +80,7 @@ E_PENDING
   
 > Esto indica que el estado del objeto sin conexión está cambiando de forma asincrónica. Esto se produce cuando _ulFlags_ está establecida en MAPIOFFLINE_FLAG_BLOCK en una anterior llamada **SetCurrentState** , y cualquier llamada **SetCurrentState** subsiguiente devolverá este valor hasta que se complete el cambio de estado asincrónico. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

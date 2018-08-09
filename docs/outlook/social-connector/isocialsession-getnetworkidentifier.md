@@ -23,17 +23,17 @@ Obtiene una cadena que representa un identificador único de redes sociales para
 HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _networkIdentifier_
   
 > [out] Una cadena que contiene un identificador único de redes sociales.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un identificador único de red es una cadena que identifica la red social del proveedor de Outlook Social Connector (OSC). Este método también puede devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

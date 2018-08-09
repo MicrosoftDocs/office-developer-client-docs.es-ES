@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817895"
 ---
-# <a name="ipersistmessage--iunknown"></a>IPersistMessage: IUnknown
+# <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite que los visores de formulario controlar el almacenamiento de un formulario y para la transición entre los distintos Estados.
   
@@ -49,13 +49,13 @@ Permite que los visores de formulario controlar el almacenamiento de un formular
 |[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Se notifica el formulario que guarda una operación se ha completado.  <br/> |
 |[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Hace que el formulario liberar su mensaje actual.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Todos los formularios necesarios para implementar la interfaz **IPersistMessage** . 
   
  **IPersistMessage** funciona de manera similar a la interfaz OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obtener más información, vea los métodos **IPersistStorage** . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

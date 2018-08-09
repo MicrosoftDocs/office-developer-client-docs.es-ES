@@ -19,9 +19,9 @@ ms.locfileid: "19815318"
 Devuelve el valor máximo de la expresión en una consulta o tabla.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Max** (*Expresión*) 
   

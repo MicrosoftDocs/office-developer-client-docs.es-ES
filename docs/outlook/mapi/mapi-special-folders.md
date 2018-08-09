@@ -19,7 +19,7 @@ ms.locfileid: "19818216"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI define algunas carpetas especiales porque sirven roles predefinidos como carpetas predeterminadas para determinados tipos de mensajes. Estas carpetas especiales normalmente no se puede eliminar, y tienen propiedades de identificador de entrada especial.
   
@@ -55,13 +55,13 @@ Las carpetas especiales de Outlook se identifican mediante su identificadores qu
 |**Folder**|**La propiedad para establecer**|
 |:-----|:-----|
 |Calendar  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
-|Contacts  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
+|Contactos  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
 |Journal  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
 |Notas  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
 |Tareas  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Drafts  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

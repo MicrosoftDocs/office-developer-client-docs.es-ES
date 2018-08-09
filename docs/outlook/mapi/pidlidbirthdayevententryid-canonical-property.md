@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidBirthdayEventEntryId
+title: Propiedad canónica PidLidBirthdayEventEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4a8cf9ac24f275d8b9cdbe03b5a90477771a2ab4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818585"
 ---
-# <a name="pidlidbirthdayevententryid-canonical-property"></a>Propiedad canónico PidLidBirthdayEventEntryId
+# <a name="pidlidbirthdayevententryid-canonical-property"></a>Propiedad canónica PidLidBirthdayEventEntryId
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la **propiedad EntryId** de una cita opcional que representa el cumpleaños del contacto. 
   
@@ -35,7 +35,7 @@ Especifica la **propiedad EntryId** de una cita opcional que representa el cumpl
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cita se especifica por esta propiedad debe estar vinculada a este contacto mediante el uso de la **dispidApptStateFlags** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)), **dispidContactLinkSearchKey** ([PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) y ** dispidContactLinkName** propiedades ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)), como especifica en [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

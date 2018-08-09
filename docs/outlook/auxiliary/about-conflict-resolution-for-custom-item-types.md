@@ -1,5 +1,5 @@
 ---
-title: Acerca de la resolución de conflictos para tipos de elemento personalizado
+title: Información sobre la resolución de conflictos para tipos de elementos personalizados
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816042"
 ---
-# <a name="about-conflict-resolution-for-custom-item-types"></a>Acerca de la resolución de conflictos para tipos de elemento personalizado
+# <a name="about-conflict-resolution-for-custom-item-types"></a>Información sobre la resolución de conflictos para tipos de elementos personalizados
 
 En este tema se describe cómo resolver los conflictos de tipos de elemento personalizadas que se crean en Outlook.
   
@@ -51,7 +51,7 @@ Cuando se crea un tipo de elemento personalizado, que no sea la clase de mensaje
     
 Configuración de la resolución de conflictos a través de la directiva de grupo tiene prioridad sobre modificar directamente la clave del registro de usuario. La ubicación de la clave en el registro depende de la versión de Outlook. Especifique el nombre de la clase de mensaje personalizada como un valor bajo esta clave. Especifique el tipo del valor como **DWORD**y los datos del valor como uno de los valores que se muestran en la tabla siguiente, según el esquema de resolución que elija. 
   
-|Datos  | Descripción  |
+|Data  | Descripción  |
 |:-----|:-----|
 |0  <br/> |Resolución de elemento común que requiere una decisión del usuario, como se utiliza en Outlook 2002 y versiones anteriores.  <br/> |
 |1  <br/> |Resolución de elemento común que requiere la intervención mínima del usuario, como se utiliza en Outlook desde Outlook 2003.  <br/> |
@@ -70,7 +70,7 @@ Utilizando el mismo ejemplo de los contactos de negocio anterior, si desea espec
 > [!NOTE]
 > Outlook siempre utiliza un esquema de resolución que es específico de elementos de cita para las clases de mensaje personalizado que se basan en la clase de mensaje de cita, **IPM. Cita** (por ejemplo, **IPM. Appointment.Personal**). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Objetos de elementos de Outlook](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 

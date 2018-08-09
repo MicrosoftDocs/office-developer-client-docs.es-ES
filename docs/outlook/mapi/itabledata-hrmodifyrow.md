@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a1388545597cf0000f270bf693c93f9349fb6426
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817993"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Inserta una nueva fila de tabla, posiblemente reemplazando una fila existente.
   
@@ -33,7 +33,7 @@ HRESULT HrModifyRow(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSRow_
   
@@ -49,7 +49,7 @@ MAPI_E_INVALID_PARAMETER
   
 > La fila se pasan en no tiene una columna de índice.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **ITableData::HrModifyRow** inserta la fila descrita por la estructura de **SRow** indicada por el parámetro _lpSRow_ . Si una fila que tiene el mismo valor para su columna de índice que la fila que señala _lpSRow_ ya existe en la tabla, se reemplaza la fila existente. Si no hay ninguna fila que coincida con el incluido en la estructura de **SRow** , **HrModifyRow** agrega la fila al final de la tabla. 
   
@@ -59,7 +59,7 @@ Las columnas de la fila que señala _lpSRow_ no es necesario estar en el mismo o
   
 Una vez que **HrModifyRow** se agrega la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -67,5 +67,5 @@ Una vez que **HrModifyRow** se agrega la fila, se envían a todos los clientes o
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

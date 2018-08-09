@@ -19,9 +19,9 @@ ms.locfileid: "19815473"
 Devuelve el valor de la expresión especificada a la potencia especificada.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Power** (*NumericExpression*, *Power*) 
   

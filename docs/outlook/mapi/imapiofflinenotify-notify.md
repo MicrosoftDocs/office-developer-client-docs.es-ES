@@ -23,7 +23,7 @@ ms.locfileid: "19817398"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Envía notificaciones al cliente acerca de los cambios en el estado de conexión.
   
@@ -33,13 +33,13 @@ void STDMETHODCALLTYPE Notify(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pNotifyInfo_
   
 > [entrada] La notificación de que Outlook envíe al cliente. La notificación indica la parte del estado de conexión que ha cambiado, el estado de conexión anterior y el nuevo estado de conexión.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Outlook utiliza este método para enviar las devoluciones de llamada de notificación a un cliente. Para realizar esta interfaz disponible en Microsoft Outlook 2010 o Microsoft Outlook 2013, el cliente debe implementar esta interfaz y pasar un puntero a él como un miembro en **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar las devoluciones de llamada con **[IMAPIOfflineMgr::Advise ](imapiofflinemgr-advise.md)**. 
   
@@ -47,11 +47,11 @@ El cliente también pasa al **MAPIOFFLINE_ADVISEINFO** un símbolo (token) de cl
   
 En general, Outlook 2010 y Outlook 2013 pueden notificar a un cliente de cambios en línea o sin conexión y otros cambios de estado de conexión, pero la API de estado sin conexión admite solamente las notificaciones de cambios en línea o sin conexión. El cliente debe omitir todas las notificaciones de otras.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de estado sin conexión](about-the-offline-state-api.md)
+[Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
   
 [MAPIOFFLINE_NOTIFY](mapioffline_notify.md)
 

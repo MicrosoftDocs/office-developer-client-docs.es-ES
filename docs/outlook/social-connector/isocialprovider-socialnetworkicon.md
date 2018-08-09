@@ -27,11 +27,11 @@ Devuelve una matriz de bytes que representa el icono para la red social.
 
 Un puntero a una estructura que especifica una matriz de bytes que contiene el icono para la red social.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los recursos de imagen admitidos son .bmp, .jpeg y .png formatos.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRuleUserFlags
+title: Propiedad canónica PidTagRuleUserFlags
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8a44c88cbc971d9d5358fc6b24093e56e9565eb1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820190"
 ---
-# <a name="pidtagruleuserflags-canonical-property"></a>Propiedad canónico PidTagRuleUserFlags
+# <a name="pidtagruleuserflags-canonical-property"></a>Propiedad canónica PidTagRuleUserFlags
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta propiedad se establece por el cliente para el uso exclusivo del cliente. 
   
@@ -34,7 +34,7 @@ Esta propiedad se establece por el cliente para el uso exclusivo del cliente.
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reglas del servidor  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El servidor debe conservar el valor de esta propiedad si se ha definido por el cliente. El servidor debe omitirlo durante el procesamiento y evaluación de la regla.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

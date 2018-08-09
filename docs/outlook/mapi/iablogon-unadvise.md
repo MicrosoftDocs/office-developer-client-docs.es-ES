@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d9f69098f9c53e75dea6f485248d61d277e181c0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817110"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cancela las notificaciones que se han configurado previamente con una llamada al método [IABLogon::Advise](iablogon-advise.md) . 
   
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
@@ -45,7 +45,7 @@ S_OK
   
 > El registro de notificación se canceló correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI llama al método de **Unadvise** para cancelar el registro de una notificación para un contenedor, usuario o el objeto de lista de distribución de mensajería. 
   
@@ -55,7 +55,7 @@ La implementación de **Unadvise** dependen de si se admite la notificación con
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). Para obtener información acerca de cómo usar el [IMAPISupport: IUnknown](imapisupportiunknown.md) métodos para admitir la notificación, vea [Compatibilidad con notificación de evento](supporting-event-notification.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,5 +63,5 @@ Para obtener más información sobre el proceso de notificación, vea [Notificac
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8938f4f237f5d566b13c86e33fc721ab49e2081b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817747"
 ---
-# <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2: IMsgServiceAdmin
+# <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Realiza cambios en un servicio de mensajes en un perfil.
   
@@ -42,11 +42,11 @@ Realiza cambios en un servicio de mensajes en un perfil.
 |:-----|:-----|
 |[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Agrega un servicio de mensajes para el perfil actual y devuelve que acaba de agregar UID de servicio.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La interfaz de **IMsgServiceAdmin2** se expone con los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y ha estado disponible mediante la implementación del subsistema MAPI de Outlook desde Microsoft Outlook 2003. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

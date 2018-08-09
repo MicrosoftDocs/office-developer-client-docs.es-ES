@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1d85f6-7996-4839-b985-abf83e305651
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9906cb9510716b3be11a1b8bcf12f06e73789445
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817297"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen al objeto de fábrica de formulario. 
   
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y **GetLastError** no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y **GetLastError** admite sólo Unicode. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIFormFactory::GetLastError** proporciona información acerca de una llamada de método anteriores que no se pudo. Los autores de llamadas pueden proporcionar a sus usuarios con información detallada sobre el error mediante la inclusión de los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
@@ -73,7 +73,7 @@ Se puede hacer uso de la **MAPIERROR** estructura indicada por el parámetro _lp
   
 Para obtener más información acerca del método **GetLastError** , vea [Uso de errores extendido](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -81,5 +81,5 @@ Para obtener más información acerca del método **GetLastError** , vea [Uso de
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

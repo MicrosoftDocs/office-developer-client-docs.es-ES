@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5d9a57cee371675493ba71b2df52b83941d34fc2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817816"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proveedor de almacén de registros de un mensaje. 
   
@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
@@ -53,7 +53,7 @@ Los proveedores de almacén de mensajes implementan el método **IMSLogon::Logof
     
 - Mientras MAPI está cerrando un proveedor de almacén de mensajes. En este caso, se denomina **IMSLogon::Logoff** como parte de MAPI al procesar el método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) del objeto de soporte técnico que el proveedor de almacenamiento de mensaje crea mientras está procesando un [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) o **IUnknown:: Versión** llamada al método en un objeto de almacén de mensajes. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -67,5 +67,5 @@ Los proveedores de almacén de mensajes implementan el método **IMSLogon::Logof
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

@@ -29,11 +29,11 @@ Vea [IOlkAccount](iolkaccount.md).
 |Etiqueta de la propiedad:  <br/> |0x20020102  <br/> |
 |Access:  <br/> |Es de lectura y escritura.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **Propiedades\_MAPI\_identidad\_ENTRYID** no se espera que existen en cada cuenta. Por ejemplo, podría tener una cuenta de Exchange **propiedades\_MAPI\_identidad\_ENTRYID** establecer y no [propiedades\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), mientras que para una cuenta POP3/SMTP se invierte la situación. **PROPIEDADES\_MAPI_IDENTITY_ENTRYID** devuelve un identificador de entrada que es similar al valor devuelto por _lppEntryID_ en [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

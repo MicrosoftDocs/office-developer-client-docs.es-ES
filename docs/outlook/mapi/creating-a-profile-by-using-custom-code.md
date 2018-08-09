@@ -1,5 +1,5 @@
 ---
-title: Creación de un perfil mediante el uso de código personalizado
+title: Crear un perfil con código personalizado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 74869293215b86c69ab4e0b1337be6014419fa3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816619"
 ---
-# <a name="creating-a-profile-by-using-custom-code"></a>Creación de un perfil mediante el uso de código personalizado
+# <a name="creating-a-profile-by-using-custom-code"></a>Crear un perfil con código personalizado
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Si opta por escribir código para crear un perfil, asegúrese de que comprende cómo ordenar las entradas del perfil y el tipo y la cantidad de información que se necesita para cada entrada. Las implicaciones de las entradas de ordenación en un perfil se explica en [Perfiles de MAPI](mapi-profiles.md).
   

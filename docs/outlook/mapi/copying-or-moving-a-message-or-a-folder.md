@@ -17,7 +17,7 @@ ms.locfileid: "19816610"
 ---
 # <a name="copying-or-moving-a-message-or-a-folder"></a>Copiar o mover un mensaje o una carpeta
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un cliente puede usar uno de los cuatro métodos para copiar o mover un mensaje o una carpeta:
   

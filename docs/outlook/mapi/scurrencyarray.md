@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c440bb7d8f3d2d3002a4d1a80ca3a671b49f4d2b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820605"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de valores de moneda que se utilizan para describir una propiedad de tipo PT_MV_CURRENCY. 
   
@@ -40,7 +40,7 @@ typedef struct _SCurrencyArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,15 +50,15 @@ typedef struct _SCurrencyArray
   
 > Puntero a una matriz de estructuras de [moneda](currency.md) que contienen los valores de moneda. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener información sobre PT_MV_CURRENCY, vea la [Lista de tipos de propiedad](property-types.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[MONEDA](currency.md)
+[CURRENCY](currency.md)
   
 [SPropValue](spropvalue.md)
 

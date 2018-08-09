@@ -19,9 +19,9 @@ ms.locfileid: "19815681"
 Devuelve el logaritmo en base 10 de un número.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **LOG10** (*NumericExpression*) 
   
@@ -31,7 +31,7 @@ Devuelve el logaritmo en base 10 de un número.
 |:-----|:-----|
 | *NumericExpression*  <br/> |El número positivo para el que desea que el logaritmo en base 10.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función de **registro** permite cambiar la base del logaritmo, en lugar de usar la base 10. 
   

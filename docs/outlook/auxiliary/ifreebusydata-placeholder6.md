@@ -37,11 +37,11 @@ HRESULT Placeholder6(
 
 Siempre E_NOTIMPL, debido a que este miembro es un marcador de posición en **IFreeBusyData** y no es compatible. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Este miembro debe devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)

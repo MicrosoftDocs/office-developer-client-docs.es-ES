@@ -29,11 +29,11 @@ Vea [IOlkAccount](iolkaccount.md).
 |Etiqueta de la propiedad:  <br/> |0x00140003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Obtener esta propiedad mediante el uso de [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

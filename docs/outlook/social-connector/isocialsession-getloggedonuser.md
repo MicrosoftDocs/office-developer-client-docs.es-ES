@@ -23,13 +23,13 @@ Obtiene una interfaz [ISocialProfile](isocialprofileisocialperson.md) que repres
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _resultado_
   
 > [out] Una interfaz **ISocialProfile** . 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

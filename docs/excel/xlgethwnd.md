@@ -10,7 +10,7 @@ keywords:
 - función xlGetHwnd [excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a22365d6c945aaa5995e2c519c757a1a7515655a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815749"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Devuelve el identificador de ventana de la ventana de Microsoft Excel de nivel superior.
   
@@ -29,15 +29,15 @@ Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 Esta función no tiene argumentos.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Contiene el identificador de ventana (**xltypeInt**) en el campo **val.w** . 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta función es útil para la escritura de código de API de Windows.
   
@@ -47,7 +47,7 @@ Cuando se llama a esta función mediante [Excel4](excel4-excel12.md) o [Excel4v]
 
 Vea el código para la [función fShowDialog](fshowdialog.md) en `SAMPLES\GENERIC\GENERIC.C`.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [xlGetInst](xlgetinst.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

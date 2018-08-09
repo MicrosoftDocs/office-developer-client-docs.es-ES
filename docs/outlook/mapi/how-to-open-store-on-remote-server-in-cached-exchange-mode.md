@@ -15,7 +15,7 @@ ms.locfileid: "19817009"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Abra un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Este tema contiene un ejemplo de código en C++ que se muestra cómo usar el indicador **MDB_ONLINE** para abrir un almacén de mensajes en el servidor remoto cuando Microsoft Outlook 2010 o Microsoft Outlook 2013 está en modo caché de Exchange. 
   
@@ -88,9 +88,9 @@ HRESULT HrRemoteMessageStore(
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de las adiciones de MAPI](about-mapi-additions.md) 
+- [Información sobre las adiciones de MAPI](about-mapi-additions.md) 
 - [Constantes MAPI](mapi-constants.md)
-- [Acceso a un almacén en el Remote Server cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0457007334ad8cc69dade3abd5859dd0d5f7af7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817406"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve las etiquetas de propiedad para todas las propiedades. 
   
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::GetPropList** recupera la etiqueta de propiedad para cada propiedad actualmente admitido por un objeto. Si el objeto no es compatible actualmente con todas las propiedades, **GetPropList** devuelve una matriz de etiqueta de propiedad con el miembro **cValues** establece en 0. 
   
@@ -82,7 +82,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp::GetPropList** para obtener una lista de propiedades que se pase a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -90,7 +90,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

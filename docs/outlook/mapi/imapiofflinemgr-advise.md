@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 53fa6bd49190bb88daeb0438dc0112e34322383e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817379"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Registra un cliente para recibir las devoluciones de llamada en un objeto sin conexión.
   
@@ -63,11 +63,11 @@ E_NOINTERFACE
   
 > La interfaz de devolución de llamada especificada en *pAdviseInfo* no es válida. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Al abrir un objeto sin conexión con **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar para los tipos de devoluciones de llamada admitidos por el objeto utilizando **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. El cliente puede determinar el tipo y otros detalles acerca de la devolución de llamada que desea y, a continuación, llame a **IMAPIOfflineMgr::Advise** para registrarse y para recibir esas devoluciones de llamada sobre el objeto. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

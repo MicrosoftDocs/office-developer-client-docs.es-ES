@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0e200ea20c55cfd5729ce4c1f590de2d61ca73bc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816795"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Valida un criterio de ordenación establecer comprobando su asignación de memoria. 
   
@@ -39,7 +39,7 @@ ULONG FBadSortOrderSet(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpsos_
   
@@ -55,7 +55,7 @@ FALSE
   
 > El conjunto de criterio de ordenación especificado es válido.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **FBadSortOrderSet** se puede usar para preparar una llamada a un método de ordenación como el método [SortTable](imapitable-sorttable.md) . 
   

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidRemoteTransferTime
+title: Propiedad canónica PidLidRemoteTransferTime
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bf10434917d639abff21c49251f592b084fb78f8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818897"
 ---
-# <a name="pidlidremotetransfertime-canonical-property"></a>Propiedad canónico PidLidRemoteTransferTime
+# <a name="pidlidremotetransfertime-canonical-property"></a>Propiedad canónica PidLidRemoteTransferTime
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica el tiempo de transferencia, en segundos, para un elemento remoto.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

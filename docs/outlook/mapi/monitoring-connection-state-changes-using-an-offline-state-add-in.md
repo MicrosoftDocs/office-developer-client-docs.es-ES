@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9f7f3bc0e305fb5aa7d6ae1e1909b573b3376ef8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19818397"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Supervisión de los cambios de estado de conexión con un complemento en el estado sin conexión
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Antes de que puede usar un complemento de estado sin conexión para supervisar los cambios de estado de conexión, debe implementar las funciones para configurar e inicializar el complemento. Para obtener más información, vea [Agregar en configuración de seguridad de un estado no conectado](setting-up-an-offline-state-add-in.md).
   
@@ -306,11 +306,11 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de estado sin conexión](about-the-offline-state-api.md)
-- [Instalar el ejemplo sin conexión estado Add-in](installing-the-sample-offline-state-add-in.md)
-- [Acerca del ejemplo sin conexión de estado complemento:](about-the-sample-offline-state-add-in.md)
-- [Configurar un sin conexión estado Add-in](setting-up-an-offline-state-add-in.md)
-- [Desconectar un sin conexión estado Add-in](disconnecting-an-offline-state-add-in.md)
+- [Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
+- [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
+- [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
+- [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md)
+- [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "19818099"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Pueden elegir los implementadores de los m�todos de interfaz devolver simplemente correctas (S_OK) y con errores (MAPI_E_CALL_FAILED) o diferenciar entre las condiciones de error, devolver todos los valores de error como sentido para la situaci�n. Mayor�a de las situaciones puede usar uno de los valores de error definidos por MAPI en el MAPICODE. Archivo de encabezado de H. Sin embargo, para aquellas situaciones que no est�n cubiertas por un valor predefinido, el valor puede utilizarse MAPI_E_EXTENDED_ERROR. MAPI_E_EXTENDED_ERROR indica al autor de la llamada que hay disponible m�s informaci�n sobre el error. El autor de la llamada recupera la informaci�n adicional al llamar al m�todo de **GetLastError** en el mismo objeto que devuelve MAPI_E_EXTENDED_ERROR. 
   

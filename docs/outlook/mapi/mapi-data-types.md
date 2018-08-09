@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 32dfd966ae4c31618a316e1dd396a1b40c71c639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,13 +21,13 @@ ms.locfileid: "19818101"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Las siguientes entradas ordenada alfabéticamente contienen documentación para los tipos de datos usados en los métodos, funciones y estructuras MAPI. 
   
 ||
 |:-----|
-|[Marcador](bookmark.md) <br/> |
+|[BOOKMARK](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
@@ -48,7 +48,7 @@ Las siguientes entradas ordenada alfabéticamente contienen documentación para 
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SINCRONIZACIÓN](sync.md) <br/> |
+|[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[ESTADO DE SINCRONIZACIÓN](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
@@ -63,7 +63,7 @@ Las siguientes entradas ordenada alfabéticamente contienen documentación para 
 |[UPTBL](uptbl.md) <br/> |
 |[UPTBLE](uptble.md) <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

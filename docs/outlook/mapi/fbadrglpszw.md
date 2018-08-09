@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da31da0ae0437e1578a681d9232b0693932b2aec
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816790"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Valida todas las cadenas de una matriz de cadenas Unicode. 
   
@@ -40,7 +40,7 @@ BOOL FBadRglpszW(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lppszW_
   

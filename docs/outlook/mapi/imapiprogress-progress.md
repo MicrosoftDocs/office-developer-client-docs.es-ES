@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2a003be35fc9c3ef8efc7c66997ee99f6e578f09
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817394"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Actualiza el indicador de progreso con una visualización del progreso de la medida que se realiza hacia la finalización de la operación. 
   
@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulValue_
   
@@ -79,18 +79,18 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::Progress  <br/> |MFCMAPI usa el método **IMAPIProgress::Progress** para actualizar la barra de estado MFCMAPI con el porcentaje actual de progreso, que se calcula a partir de _uValue_ y los valores máximo y mínimos actuales.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   
-[Implementación de un indicador de progreso](implementing-a-progress-indicator.md)
+[Implementar un indicador de progreso](implementing-a-progress-indicator.md)
 

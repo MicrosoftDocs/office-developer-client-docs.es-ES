@@ -15,7 +15,7 @@ ms.locfileid: "19817008"
 ---
 # <a name="remove-custom-form-definition-saved-with-a-message"></a>Quitar la definición de formulario personalizada que se guarda con un mensaje
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se muestra un ejemplo de código en C++ que convierte un mensaje que se ha guardado con una definición de formulario personalizada para un mensaje normal sin la definición del formulario.
   
@@ -132,7 +132,7 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Constantes MAPI](mapi-constants.md)
 

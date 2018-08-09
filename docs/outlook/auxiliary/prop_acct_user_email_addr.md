@@ -29,11 +29,11 @@ Vea [IOlkAccount](iolkaccount.md).
 |Etiqueta de la propiedad:  <br/> |0x000C001F  <br/> |
 |Access:  <br/> |Es de lectura y escritura.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **PROP_ACCT_USER_EMAIL_ADDR** no se espera que existen en cada cuenta. Por ejemplo, podría tener una cuenta de Exchange [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) pero no **PROP_ACCT_USER_EMAIL_ADDR**, mientras que para una cuenta POP3/SMTP, la situación se invierte.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

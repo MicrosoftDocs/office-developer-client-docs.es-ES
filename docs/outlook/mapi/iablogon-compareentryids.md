@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 03256f2dec62d0228c4d5456dcd1b60f66b13ad2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817105"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto.
   
@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID1_
   
@@ -74,7 +74,7 @@ MAPI_E_INVALID_ENTRYID
   
 > Uno o ambos de los identificadores de entrada no pertenecen a la libreta de direcciones.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los proveedores de la libreta de direcciones implementan el método **CompareEntryIDs** para comparar dos identificadores de entrada para determinar si hacen referencia al mismo objeto. 
   
@@ -82,9 +82,9 @@ Los proveedores de la libreta de direcciones implementan el método **CompareEnt
   
 Para obtener más información acerca de cómo crear los identificadores de entrada, vea [Identificadores de entrada de MAPI](mapi-entry-identifiers.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

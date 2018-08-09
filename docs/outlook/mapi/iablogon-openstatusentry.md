@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e693e1c3d6cb975a3a329e15c0b1a6d08817461a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817101"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre el objeto de estado del proveedor.
   
@@ -36,7 +36,7 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
@@ -64,19 +64,19 @@ S_OK
   
 > La llamada se ha realizado correctamente y se ha abierto el objeto de estado.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los proveedores de la libreta de direcciones implementan el método **OpenStatusEntry** para conceder acceso a su objeto de estado. Todos los proveedores de libreta de direcciones son necesarios para implementar un objeto de estado que admite, como mínimo, el método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . Para obtener más información, vea [Implementación de objeto de estado](status-object-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   
-[SettingsDialog](imapistatus-settingsdialog.md)
+[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)
   
 [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

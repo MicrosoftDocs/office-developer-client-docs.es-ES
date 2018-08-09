@@ -1,5 +1,5 @@
 ---
-title: XML de amigos
+title: XML para amigos
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821239"
 ---
-# <a name="xml-for-friends"></a>XML de amigos
+# <a name="xml-for-friends"></a>XML para amigos
 
 El elemento de **amigos** en el esquema XML de proveedor de Microsoft Outlook Social Connector (OSC) permite que un proveedor de OSC especificar la información para obtener una lista de las personas asociadas con un usuario de Outlook en la red social. Si el proveedor de OSC admite la sincronización de caché, esta lista de persona va a contener a sólo amigos del usuario de Outlook en la red social. Si el OSC admite la sincronización a petición o híbrida, esta lista puede contener amigos y que no sean de amigos del usuario de Outlook. 
 
@@ -102,10 +102,10 @@ Para ver una definición completa del esquema XML de proveedor OSC, incluido qu�
 |**homePhone** <br/> |Número de teléfono del domicilio de la persona.  <br/> |
 |**índice** <br/> |Ubicación de dirección con algoritmo hash de la persona en el parámetro de cadena de _personsAddresses_ que se pasa a una llamada al método **ISocialSession2::GetPeopleDetails** . También indica **persona** XML en la cadena de _personsCollection_ devuelta por **GetPeopleDetails la persona**.  <br/> |
 |**sectores** <br/> |Sectores que la persona está ocupada en.  <br/> |
-|**intereses** <br/> |Intereses o aficiones de la persona.  <br/> |
+|**interests** <br/> |Intereses o aficiones de la persona.  <br/> |
 |**lastModificationTime** <br/> |Hora en que se modificó por última vez el perfil de la persona en la red social.  <br/> |
 |**lastName** <br/> |Último nombre o apellidos de la persona.  <br/> |
-|**ubicación** <br/> |La ubicación de la persona.  <br/> |
+|**location** <br/> |La ubicación de la persona.  <br/> |
 |**alias** <br/> |Un nombre más corto o un nombre arbitrario de la persona.  <br/> |
 |**otherAddress** <br/> |Dirección postal alternativo de la persona.  <br/> |
 |**otherCity** <br/> |Ciudad de dirección alternativa de la persona.  <br/> |
@@ -114,9 +114,9 @@ Para ver una definición completa del esquema XML de proveedor OSC, incluido qu�
 |**otherZip** <br/> |ZIP o código postal de dirección alternativa de la persona.  <br/> |
 |**teléfono** <br/> |Número de teléfono del contacto principal de la persona.  <br/> |
 |**pictureUrl** <br/> |Dirección URL de una imagen de perfil de la persona.  <br/> |
-|**relación** <br/> |Relación de esta persona con el usuario ha iniciado la sesión.  <br/> |
+|**Relación** <br/> |Relación de esta persona con el usuario ha iniciado la sesión.  <br/> |
 |**escuelas** <br/> |Las escuelas que queda la persona o se ha producido un problema a.  <br/> |
-|**habilidades** <br/> |Habilidades personales de la persona.  <br/> |
+|**skills** <br/> |Habilidades personales de la persona.  <br/> |
 |**state** <br/> |Estado o provincia de la dirección física de la persona.  <br/> |
 |**title** <br/> |Designación de agregado al nombre de la persona.  <br/> |
 |**userID** <br/> |Identificador para identificar a la persona en la red social.  <br/> |
@@ -125,7 +125,7 @@ Para ver una definición completa del esquema XML de proveedor OSC, incluido qu�
 |**workPhone** <br/> |Número de teléfono de trabajo para la persona.  <br/> |
 |**ZIP** <br/> |Código postal o código postal de la dirección física de la persona.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplo de XML de amigos](friends-xml-example.md)  
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  

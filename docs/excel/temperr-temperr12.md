@@ -11,7 +11,7 @@ keywords:
 - temperr (función) [excel 2007], TempErr12 (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 22c0ff1b8259fc0e5ee70edb06bb3db53781ff8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815697"
 ---
 # <a name="temperrtemperr12"></a>TempErr/TempErr12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene un error de hoja de cálculo de Microsoft Excel. 
   
@@ -30,9 +30,9 @@ LPXLOPER TempErr(WORD err);
 LPXLOPER12 TempErr12(BOOL err);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
- _Err_
+ _err_
   
 El código de error que desee, o su equivalente numérico literal, tal como se muestra en la siguiente tabla.
   
@@ -66,9 +66,9 @@ LPXLOPER WINAPI TempErrExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

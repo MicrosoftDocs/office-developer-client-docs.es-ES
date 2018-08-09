@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagScheduleInfoAppointmentTombstone
+title: Propiedad canónica PidTagScheduleInfoAppointmentTombstone
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820214"
 ---
-# <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propiedad canónico PidTagScheduleInfoAppointmentTombstone
+# <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propiedad canónica PidTagScheduleInfoAppointmentTombstone
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una lista de bloques de datos que representan las reuniones que se hayan rechazado.
   
@@ -34,7 +34,7 @@ Contiene una lista de bloques de datos que representan las reuniones que se haya
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Libre/ocupado  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los bloques de datos comienzan con un encabezado de valores de 32 bits definido como:
   
@@ -51,7 +51,7 @@ El encabezado es seguido por **RecordsCount** entradas de valores de 32 bits def
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |StartTime  <br/> |Hora de comienzo del objeto de la reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
-|Hora de finalización  <br/> |Hora de finalización del objeto de la reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
+|EndTime  <br/> |Hora de finalización del objeto de la reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
 |GlobalObjectIdSize  <br/> |El tamaño, en bytes, del campo GlobalObjectId.  <br/> |
 |GlobalObjectId  <br/> |Representa el valor de la propiedad **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la reunión este registro.  <br/> |
 |UserName  <br/> |Los dos primeros bytes son la longitud de la cadena de PT_STRING8 que sigue.  <br/> |
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -86,7 +86,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

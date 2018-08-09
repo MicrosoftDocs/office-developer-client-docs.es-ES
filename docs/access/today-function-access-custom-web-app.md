@@ -19,13 +19,13 @@ ms.locfileid: "19815501"
 Devuelve el valor de la fecha actual en la zona horaria definida por la aplicación
   
 > [!NOTE]
-> [!NOTA] La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Hoy en día** () 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **ahora** es similar, pero devuelve la hora exacta, mientras que **en la actualidad** devuelve la hora 12:00:00 P.M. para todas las fechas de valor. 
   

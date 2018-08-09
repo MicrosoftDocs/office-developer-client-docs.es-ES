@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagConflictItems
+title: Propiedad canónica PidTagConflictItems
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 61176ec6f9ff00fa5a38a2b385cb5281fa40961e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819297"
 ---
-# <a name="pidtagconflictitems-canonical-property"></a>Propiedad canónico PidTagConflictItems
+# <a name="pidtagconflictitems-canonical-property"></a>Propiedad canónica PidTagConflictItems
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la entrada de uno o varios identificadores de elementos que han participado en una resolución automática de conflictos.
   
@@ -36,7 +36,7 @@ Contiene la entrada de uno o varios identificadores de elementos que han partici
 |Tipo de propiedad:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |ICS  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Los tipos de elementos estándar de Microsoft Outlook que admiten la resolución de conflictos automática incluyen los siguientes tipos de elemento estándar: elementos de cita, elementos de contactos, los elementos del diario, elementos de correo, convocatorias de reunión, elementos de notas rápidas y elementos de tarea. Un elemento que pertenecen a una clase de mensaje que se deriva de uno de estos tipos de elementos estándar también es compatible con la resolución de conflictos automática. En Microsoft Outlook 2003 y Microsoft Office Outlook 2007, cuando Outlook sincroniza los elementos y se considera que existe la posibilidad de que la copia resultante no puede contener todos los datos esenciales, Outlook almacena las copias en conflicto en los **conflictos** carpeta, bajo la carpeta **Problemas de sincronización** . 
   
@@ -67,17 +67,17 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de las adiciones de MAPI](about-mapi-additions.md)
+[Información sobre las adiciones de MAPI](about-mapi-additions.md)
   
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,17 +22,17 @@ Representa el número de puerto para un buzón de correo de Internet general.
 
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 0104  <br/> |
+|Identificador:  <br/> |0x0104  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de la propiedad:  <br/> |0x01040003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un ejemplo es 110 para las cuentas POP.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

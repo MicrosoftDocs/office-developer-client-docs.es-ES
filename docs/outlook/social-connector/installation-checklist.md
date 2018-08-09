@@ -203,7 +203,7 @@ El procedimiento siguiente describe las comprobaciones de la instalación que se
 |82  <br/> |Instala la revisión más reciente de 32 bits OSC para Outlook 2007, Outlook 2010 o Outlook Social Connector 2013.  <br/> |
 |83  <br/> |Instala la revisión más reciente de OSC de 64 bits para Outlook 2010 o Outlook Social Connector 2013.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Registrar un proveedor](registering-a-provider.md) 
 - [Pasos rápidos para aprender a desarrollar un proveedor](quick-steps-for-learning-to-develop-a-provider.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ad2014d1d003a4d80646ed1b679f0d3827341c1b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817312"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se resuelve un grupo de clases de mensajes en sus formularios dentro de un contenedor de formulario y devuelve una matriz de formulario objetos de información para los formularios.
   
@@ -36,7 +36,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pMsgClasses_
   
@@ -80,11 +80,11 @@ Los nombres de clase de mensaje siempre son cadenas ANSI, Unicode nunca.
   
 Si una clase de mensaje no se puede resolver a un formulario, se devuelve NULL para esa clase de mensaje en la matriz de información de formulario. Por lo tanto, incluso si el método devuelve S_OK, visores de formulario no deben trabajar en la suposición de que se han resueltos correctamente todas las clases de mensaje. En su lugar, los visores de formulario deben comprobar los valores de la matriz devuelta.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

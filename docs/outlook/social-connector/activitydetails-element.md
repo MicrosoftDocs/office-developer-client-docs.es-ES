@@ -26,13 +26,13 @@ En la siguiente tabla se describe los seis elementos que requiere el elemento **
 |**ownerID** <br/> |El identificador del usuario en la red social que generó esta actividad de fuente de elemento.  <br/> |
 |**objectID** <br/> |Una cadena única para la actividad de fuente elemento para detectar los elementos de fuente duplicado.  <br/> |
 |**applicationId** <br/> |Uno de los dos identificadores únicos que se usan para que coincida con la actividad de fuente elemento con su plantilla. Si tiene varias aplicaciones u otras agrupaciones, esto se puede usar como el organizador de una plantilla de primer nivel.  <br/> |
-|**identificador de plantilla** <br/> |El segundo identificador único que se utiliza para que coincida con la actividad de fuente elemento con su plantilla. Esto se puede usar como el organizador de una plantilla de segundo nivel.  <br/> |
+|**templateId** <br/> |El segundo identificador único que se utiliza para que coincida con la actividad de fuente elemento con su plantilla. Esto se puede usar como el organizador de una plantilla de segundo nivel.  <br/> |
 |**fecha de publicación** <br/> |La fecha y hora en que la actividad fuente elemento se publicó.  <br/> |
 |**templateVariables** <br/> |Los datos que se usará en los tokens para la plantilla de elemento de la fuente de actividad.  <br/> |
    
 Para obtener un ejemplo de la actividad de fuente XML, vea [Ejemplo de XML de fuente de actividad](activity-feed-xml-example.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Elemento de la fuente de información general de XML de una actividad](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityTemplateContainer](activitytemplatecontainer-element.md)  

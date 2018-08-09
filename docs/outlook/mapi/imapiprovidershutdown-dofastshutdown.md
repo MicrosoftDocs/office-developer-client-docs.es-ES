@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2b66a8e-2e28-4c32-af95-38d345c7bbd7
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7c38f0650315495875357862f5fa7fe138d2c61b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817408"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica que el proveedor MAPI que el cliente MAPI está saliendo inmediatamente, para que el proveedor MAPI guardará los cambios para evitar la pérdida de datos.
   
@@ -37,11 +37,11 @@ S_OK
   
 > El proveedor MAPI está listo para el cliente de MAPI salir inmediatamente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md)
+[IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md)
 
 
 [Cierre del cliente de MAPI](client-shutdown-in-mapi.md)

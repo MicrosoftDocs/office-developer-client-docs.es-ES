@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidNonSendableCc
+title: Propiedad canónica PidLidNonSendableCc
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3f4859e4a354d83f62ca8fefa48f932425e2fc3d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818805"
 ---
-# <a name="pidlidnonsendablecc-canonical-property"></a>Propiedad canónico PidLidNonSendableCc
+# <a name="pidlidnonsendablecc-canonical-property"></a>Propiedad canónica PidLidNonSendableCc
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una lista de todos los asistentes compuestas que también son los asistentes opcionales.
   
@@ -35,7 +35,7 @@ Contiene una lista de todos los asistentes compuestas que también son los asist
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor para cada asistente es la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de la libreta de direcciones del asistente. Entradas independientes deben estar delimitadas por un punto y coma seguido de un espacio. Esta propiedad no es necesaria.
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

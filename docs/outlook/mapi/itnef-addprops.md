@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2d37898b100398218d4f8762cdd3a16943d8f11a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817980"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite que el proveedor de servicios de llamada o la puerta de enlace Agregar propiedades a la encapsulación de un mensaje o datos adjuntos. 
   
@@ -100,7 +100,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el método **ITnef::AddProps** para copiar las propiedades de un mensaje a una secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -110,9 +110,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónico PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)
+[Propiedad canónica PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)
   
-[ITnef: IUnknown](itnefiunknown.md)
+[ITnef : IUnknown](itnefiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

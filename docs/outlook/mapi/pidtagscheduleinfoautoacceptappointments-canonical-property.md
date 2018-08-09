@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagScheduleInfoAutoAcceptAppointments
+title: Propiedad canónica PidTagScheduleInfoAutoAcceptAppointments
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4f2cab31d6eed19a262bd0e667166bc79f428877
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820202"
 ---
-# <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propiedad canónico PidTagScheduleInfoAutoAcceptAppointments
+# <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propiedad canónica PidTagScheduleInfoAutoAcceptAppointments
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene TRUE si un cliente o servidor debe responder automáticamente a todas las solicitudes de reunión para el asistente o un recurso.
   
@@ -34,7 +34,7 @@ Contiene TRUE si un cliente o servidor debe responder automáticamente a todas l
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Libre/ocupado  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Al responder, la respuesta debe ser la aceptación, a menos que para una restricción adicional se especifica mediante la **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) o **PR_SCHDINFO_DISALLOW_ OVERLAPPING_APPTS** se cumple las propiedades ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)). Un valor de FALSE o la ausencia de esta propiedad indica que un cliente o servidor debe no aceptar automáticamente las convocatorias de reunión. No es una propiedad necesaria.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

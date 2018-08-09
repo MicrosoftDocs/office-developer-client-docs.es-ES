@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 12b1655b1e6786d2ebc985e834b635679e59f7d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820920"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Llama a una función interna para comprobar si que las aplicaciones cliente de los parámetros han pasado a proveedores de servicios y MAPI. 
   
@@ -40,7 +40,7 @@ HRESULT UlValidateParms(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _eMethod_
   
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > Un error no puede completar la operación.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Parámetros pasados entre MAPI y servicio proveedores se supone que sea correcta y se sincronizan sólo depuración validación con la macro [CheckParms](checkparms.md) . Proveedores deben comprobar todos los parámetros que se pasó por las aplicaciones cliente, pero los clientes deben se presupone que MAPI y proveedor de parámetros correctos. Use la macro **HR_FAILED** para comprobar los valores devueltos. 
   

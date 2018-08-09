@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: abd2a3e2a1a810f902ad977413c89f2e8b0113a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817293"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una matriz de las propiedades que utiliza un grupo de formularios.
   
@@ -35,7 +35,7 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pfrminfoarray_
   
@@ -71,7 +71,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::CalcFormPropSet** para obtener una matriz de las propiedades que utiliza un grupo de formularios. **CalcFormPropSet** toma puede ser una intersección o una unión de propiedad estos formularios establece, según el indicador establecido en el parámetro _ulFlags_ y se devuelve una estructura **SMAPIFormPropArray** que contiene el grupo resultante de Propiedades. 
   
@@ -79,11 +79,11 @@ Visores de formulario llamar al método **IMAPIFormMgr::CalcFormPropSet** para o
 
 Si un visor de formulario, pasa el indicador MAPI_UNICODE el parámetro _ulFlags_ , se deberían devolver todas las cadenas como cadenas Unicode. Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE.. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [SMAPIFormPropArray](smapiformproparray.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

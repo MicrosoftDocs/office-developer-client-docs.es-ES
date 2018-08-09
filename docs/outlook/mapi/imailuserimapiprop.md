@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0c70d16d294426d30f3ac5f00b6bc46992386a86
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817201"
 ---
-# <a name="imailuser--imapiprop"></a>IMailUser: IMAPIProp
+# <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona acceso a las muchas propiedades que se asocian con los usuarios de mensajería. La interfaz de **IMailUser** se implementa mediante objetos de usuario de mensajería. **IMailUser** hereda de la [IMAPIProp: IUnknown](imapipropiunknown.md) de la interfaz y no tiene ningún método único de su propio. 
   
@@ -41,7 +41,7 @@ Proporciona acceso a las muchas propiedades que se asocian con los usuarios de m
 
 Esta interfaz no tiene ningún método único.
   
-|**Propiedades necesarias**|**Access**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
@@ -52,7 +52,7 @@ Esta interfaz no tiene ningún método único.
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cinco de las propiedades necesarias se conocen como las propiedades de la dirección base para los destinatarios:
   
@@ -62,7 +62,7 @@ Cinco de las propiedades necesarias se conocen como las propiedades de la direcc
     
 - **PR_EMAIL_ADDRESS**
     
-- **ENTRADA DEL OBJETO**
+- **PR_ENTRYID**
     
 - **PR_SEARCH_KEY**
     
@@ -88,7 +88,7 @@ Objetos de usuario de mensajería pueden tener otras propiedades opcionales asoc
     
 Para obtener una lista completa de propiedades, vea [Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

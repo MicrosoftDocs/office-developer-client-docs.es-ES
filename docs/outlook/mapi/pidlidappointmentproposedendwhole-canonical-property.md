@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAppointmentProposedEndWhole
+title: Propiedad canónica PidLidAppointmentProposedEndWhole
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6db8c5d8be3bc7120c91da17135b0d871ec2b026
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818503"
 ---
-# <a name="pidlidappointmentproposedendwhole-canonical-property"></a>Propiedad canónico PidLidAppointmentProposedEndWhole
+# <a name="pidlidappointmentproposedendwhole-canonical-property"></a>Propiedad canónica PidLidAppointmentProposedEndWhole
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el valor propuesto para la propiedad **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) de una propuesta de contador.
   
@@ -35,7 +35,7 @@ Especifica el valor propuesto para la propiedad **dispidApptEndWhole** ([PidLidA
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Este valor debe especificarse en hora Universal coordinada (UTC).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

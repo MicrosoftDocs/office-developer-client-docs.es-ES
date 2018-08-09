@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c69ee41fe4cf170deb12ba92e5629627b9cd1bd0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816507"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes en una estructura [FLATMTSIDLIST](flatmtsidlist.md) existente. 
   
@@ -36,18 +36,18 @@ Calcula el número de bytes en una estructura [FLATMTSIDLIST](flatmtsidlist.md) 
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __lplist_
   
 > Puntero a la estructura **FLATMTSIDLIST** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [FLATMTSIDLIST](flatmtsidlist.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

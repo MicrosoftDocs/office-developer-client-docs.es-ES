@@ -11,7 +11,7 @@ keywords:
 - tempactivecolumn12 (función) [excel 2007], TempActiveColumn (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19815701"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Funciones de la biblioteca de Framework que creación un temporal **XLOPER**/ **XLOPER12** que contiene una referencia externa a una columna completa en la hoja activa. 
   
@@ -30,7 +30,7 @@ LPXLOPER TempActiveColumn(BYTE col);
 LPXLOPER12 TempActiveColumn12(COL col);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _col_ (**Bytes**)
   
@@ -54,9 +54,9 @@ short WINAPI TempActiveColumnExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

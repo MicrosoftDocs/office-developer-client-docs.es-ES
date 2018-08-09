@@ -32,11 +32,11 @@ BOOL Placeholder11(
 
 Siempre **false**, debido a que este miembro es un marcador de posición y no es compatible.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Este miembro debe devolver **false**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de libre/ocupado)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)

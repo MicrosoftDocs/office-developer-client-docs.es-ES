@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fd7e3b1d1284cdf4451330aabcce8fd0279ad5ba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817862"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Hace que el formulario liberar su mensaje actual.
   
@@ -33,7 +33,7 @@ HRESULT HandsOffMessage( void );
 
 ## <a name="parameters"></a>Parámetros
 
-None
+Ninguno
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -41,7 +41,7 @@ S_OK
   
 > El mensaje fue publicado correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Transición de formularios en dos Estados de HandsOff:
   
@@ -59,11 +59,11 @@ Cuando un visor de formulario llama a **HandsOffMessage** mientras el formulario
   
 Para obtener más información acerca de los diferentes Estados de un formulario, vea [Estados de formulario](form-states.md). Para obtener más información acerca de cómo trabajar con el estado HandsOff de objetos de almacenamiento, vea el método [IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
 [Estados de formulario](form-states.md)

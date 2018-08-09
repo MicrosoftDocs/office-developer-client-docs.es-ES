@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidCommonEnd
+title: Propiedad canónica PidLidCommonEnd
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4aaa8f1c0bb2d9eb43cd1850ea2148151a0f02fa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818601"
 ---
-# <a name="pidlidcommonend-canonical-property"></a>Propiedad canónico PidLidCommonEnd
+# <a name="pidlidcommonend-canonical-property"></a>Propiedad canónica PidLidCommonEnd
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Representa la fecha de finalización y la hora de un mensaje.
   
@@ -35,7 +35,7 @@ Representa la fecha de finalización y la hora de un mensaje.
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |General de mensajería  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad indica la hora de finalización de un elemento. Debe ser mayor o igual que el valor de la propiedad **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)).
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

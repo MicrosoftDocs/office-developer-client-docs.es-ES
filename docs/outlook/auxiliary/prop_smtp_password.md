@@ -27,8 +27,8 @@ Representa la contraseña de la cuenta de SMTP.
 |Etiqueta de la propiedad:  <br/> |0x2058001F  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

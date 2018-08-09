@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidSharingProviderUrl
+title: Propiedad canónica PidLidSharingProviderUrl
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818918"
 ---
-# <a name="pidlidsharingproviderurl-canonical-property"></a>Propiedad canónico PidLidSharingProviderUrl
+# <a name="pidlidsharingproviderurl-canonical-property"></a>Propiedad canónica PidLidSharingProviderUrl
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la dirección URL que está relacionada con el proveedor de uso compartido e identificada por la propiedad **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Esto es una propiedad de un mensaje para compartir.
   
@@ -35,7 +35,7 @@ Especifica la dirección URL que está relacionada con el proveedor de uso compa
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Uso compartido  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad se usa normalmente para proporcionar más información sobre el proveedor de uso compartido, pero se debe omitir.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

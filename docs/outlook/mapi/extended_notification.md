@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816789"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe la información que se relaciona con un evento que es específico del proveedor de servicio. 
   
@@ -41,7 +41,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulEvent**
   
@@ -67,9 +67,9 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar los métodos [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Notificación de eventos de MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
+|[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar los métodos [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

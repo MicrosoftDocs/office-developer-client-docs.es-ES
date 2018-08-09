@@ -1,12 +1,12 @@
 ---
-title: Controlar eventos
+title: Administración de eventos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: c5508df8466932b6fb5c7e04164aa00a5ea31a8d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815631"
 ---
-# <a name="handling-events"></a>Controlar eventos
+# <a name="handling-events"></a>Administración de eventos
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Iniciar en Excel 2010, XLL pueden recibir eventos diseñados para administrar el ciclo de vida de la función asincrónica. Los eventos son los siguientes:
   

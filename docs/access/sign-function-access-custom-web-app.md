@@ -19,9 +19,9 @@ ms.locfileid: "19815493"
 Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Inicio de sesión** (*NumericExpression*) 
   

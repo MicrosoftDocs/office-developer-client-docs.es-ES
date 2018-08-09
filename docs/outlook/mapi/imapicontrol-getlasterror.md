@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2be5e40de6894b99d9de86423e99dd95a08bc04c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817197"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error de control de botón anterior. 
   
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Proveedores de servicios de implementan el método **IMAPIControl::GetLastError** para proporcionar información acerca de una llamada al método anterior con errores. MAPI puede dar a los usuarios información detallada sobre el error mediante la presentación de los datos de la estructura **MAPIERROR** en un cuadro de diálogo o mensaje. 
   
@@ -73,7 +73,7 @@ No es necesario tener información que debe incluirse en la estructura **MAPIERR
   
 Para obtener más información acerca del método **GetLastError** , vea [Errores de MAPI extendida](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -81,5 +81,5 @@ Para obtener más información acerca del método **GetLastError** , vea [Errore
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

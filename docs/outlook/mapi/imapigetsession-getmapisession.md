@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8090d9b1a1f7fb571532cf32d7a2412261aee1fc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817327"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve un puntero a la sesión MAPI asociada con el objeto de soporte técnico MAPI.
   
@@ -33,18 +33,18 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lppSession_
   
 > [out] Un puntero a la sesión MAPI actual.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIGetSession: IUnknown](imapigetsessioniunknown.md)
+[IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
 
 
-[Información general sobre objetos de soporte técnico](support-object-overview.md)
+[Información general del objeto de soporte técnico](support-object-overview.md)
 

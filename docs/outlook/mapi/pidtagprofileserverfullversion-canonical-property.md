@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagProfileServerFullVersion
+title: Propiedad canónica PidTagProfileServerFullVersion
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 284b4b451a31a9478caf31fe855d38bfeab2caf3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819950"
 ---
-# <a name="pidtagprofileserverfullversion-canonical-property"></a>Propiedad canónico PidTagProfileServerFullVersion
+# <a name="pidtagprofileserverfullversion-canonical-property"></a>Propiedad canónica PidTagProfileServerFullVersion
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica información de versión y de compilación completa acerca de Microsoft Exchange Server a la que están conectadas cuentas en un perfil.
   
@@ -32,7 +32,7 @@ Especifica información de versión y de compilación completa acerca de Microso
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Configuración de perfiles de MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un perfil puede especificar una o más cuentas que se conectan a un servidor de Exchange, pero deben estar conectados al mismo servidor de Exchange.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

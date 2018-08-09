@@ -19,15 +19,15 @@ ms.locfileid: "19815765"
 Devuelve el número de caracteres de la expresión de cadena especificada, excluidos los espacios en blanco.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  **Len** (*TextExpression*) 
   
 La función **Len** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Description**|
+|**Nombre del argumento**|**Descripción**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Expresión de cadena.  <br/> |
    

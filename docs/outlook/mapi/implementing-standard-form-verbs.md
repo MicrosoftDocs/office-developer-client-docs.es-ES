@@ -1,5 +1,5 @@
 ---
-title: Implementación de verbos formulario estándar
+title: Implementar verbos estándar del formulario
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817708"
 ---
-# <a name="implementing-standard-form-verbs"></a>Implementación de verbos formulario estándar
+# <a name="implementing-standard-form-verbs"></a>Implementar verbos estándar del formulario
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI define un conjunto de verbos estándar o acciones llevadas a cabo cuando un usuario realiza una selección de menú o hace clic en un botón, que deben admitir todos los visores de formulario. Cada verbo tiene una constante asociada para la identificación, definido en el EXCHFORM. Archivo de encabezado H. En la siguiente tabla se enumera los verbos de formulario estándar y sus constantes asociadas:
   

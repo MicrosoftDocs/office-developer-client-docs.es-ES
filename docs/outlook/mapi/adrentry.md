@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4b6f850c8f88088863b37bd94de6b1f3d4c48d4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816423"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se describen cero o más propiedades que pertenecen a un destinatario.
   
@@ -41,7 +41,7 @@ typedef struct _ADRENTRY
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulReserved1**
   
@@ -55,7 +55,7 @@ typedef struct _ADRENTRY
   
 > Puntero a una matriz de valores de propiedad que describe las propiedades para el destinatario. El miembro **rgPropVals** puede ser NULL. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura de **ADRENTRY** describe las propiedades que pertenecen a un solo destinatario. Las propiedades que se usan normalmente para describir a un destinatario incluyen lo siguiente: 
   
@@ -77,7 +77,7 @@ Una estructura de **ADRENTRY** puede estar vacía. Por ejemplo, una estructura *
   
 Para obtener más información acerca de cómo asignar memoria para las estructuras **ADRENTRY** , vea [Administración de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

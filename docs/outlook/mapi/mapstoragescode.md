@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ab892513348541ec9de3c071a12268afa9337465
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19818301"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se asigna un SCODE valor devuelto desde un objeto de almacenamiento de información OLE a un tipo de HRESULT. 
   
@@ -39,7 +39,7 @@ SCODE MapStorageSCode(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _StgSCode_
   
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > La función no encuentra un valor coincidente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI proporciona la función **MapStorageSCode** para el uso interno de los componentes MAPI que basar sus implementaciones de mensaje en el archivo DLL de mensajes. Debido a que estos componentes abrir almacenamiento OLE ellos mismos, debe poder asignar valores de error devueltos para problemas con el almacenamiento de OLE en un valor HRESULT. 
   

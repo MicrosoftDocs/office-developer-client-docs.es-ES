@@ -10,7 +10,7 @@ keywords:
 - función xlSet [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815755"
 ---
 # <a name="xlset"></a>xlSet
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Coloca los valores de constantes en las celdas o rangos de muy rápidamente. Para obtener más información, consulte "xlSet y libros con fórmulas de matriz" de [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
@@ -28,7 +28,7 @@ Coloca los valores de constantes en las celdas o rangos de muy rápidamente. Par
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _pxReference_ (**xltypeRef** o **xltypeSRef**)
   
@@ -38,7 +38,7 @@ _pxValue_
   
 El valor o los valores que desea colocar en la celda o celdas. Para obtener más información, vea la sección "Comentarios".
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 ### <a name="pxvalue-argument"></a>argumento de pxValue
 
@@ -81,7 +81,7 @@ short WINAPI xlSetExample(short int iVal)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [xlCoerce](xlcoerce.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidAddressBookProviderArrayType
+title: Propiedad canónica PidLidAddressBookProviderArrayType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3515d0f751cb6d8d0d427079691456519bac97dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818463"
 ---
-# <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Propiedad canónico PidLidAddressBookProviderArrayType
+# <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Propiedad canónica PidLidAddressBookProviderArrayType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el estado de las direcciones de presentación electrónica del contacto y representa un conjunto de indicadores de bits.
   
@@ -35,7 +35,7 @@ Especifica el estado de las direcciones de presentación electrónica del contac
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **dispidABPArrayType** debe ser una combinación de marcadores que especifican el estado del objeto de contacto. Indicadores individuales se especifican en la siguiente tabla. Si se establece esta propiedad, la propiedad **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) debe establecerse, así como. Estas dos propiedades se deben mantener sincronizadas con cada una de las demás. Por ejemplo, si **dispidABPArrayType** tiene el bit "0 x 00000001 conjunto", uno de los valores de **dispidABPEmailList** debe ser "0 x 00000000". 
   
@@ -66,7 +66,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidTaskOwnership
+title: Propiedad canónica PidLidTaskOwnership
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 17f3ac0c5cd6005329212d0dcb458b37bb75f41d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818996"
 ---
-# <a name="pidlidtaskownership-canonical-property"></a>Propiedad canónico PidLidTaskOwnership
+# <a name="pidlidtaskownership-canonical-property"></a>Propiedad canónica PidLidTaskOwnership
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Indica la función del usuario actual con respecto a la tarea.
   
@@ -33,9 +33,9 @@ Indica la función del usuario actual con respecto a la tarea.
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
 |Identificador de tipo Long (LID):  <br/> |0x00008129  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad debe ser uno de los valores siguientes.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

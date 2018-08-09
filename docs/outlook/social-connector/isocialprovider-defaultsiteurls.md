@@ -27,13 +27,13 @@ Devuelve una matriz de cadenas que especifican las direcciones URL de sitio para
 
 Un puntero a una estructura que especifica una matriz de cadenas que representan direcciones URL de sitio para el proveedor de OSC.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un proveedor puede admitir varias direcciones URL de sitio. El OSC establece la propiedad [ISocialSession::SiteUrl](isocialsession-siteurl.md) para informar al proveedor de la dirección URL de sitio seleccionado. 
   
 El OSC utiliza el primer elemento de la matriz como la dirección URL del sitio de forma predeterminada. Un proveedor puede devolver elementos adicionales en la matriz de dirección URL del sitio, pero el OSC no las usa. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

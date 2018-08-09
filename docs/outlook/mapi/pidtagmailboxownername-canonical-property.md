@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagMailboxOwnerName
+title: Propiedad canónica PidTagMailboxOwnerName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7c1267a7b7cf479b62d8b8200573c9b3536f7d04
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819707"
 ---
-# <a name="pidtagmailboxownername-canonical-property"></a>Propiedad canónico PidTagMailboxOwnerName
+# <a name="pidtagmailboxownername-canonical-property"></a>Propiedad canónica PidTagMailboxOwnerName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Muestra el nombre del propietario del buzón.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

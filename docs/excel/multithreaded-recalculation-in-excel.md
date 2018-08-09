@@ -8,7 +8,7 @@ keywords:
 - las celdas de seguros para subprocesos [excel 2007], subprocesamiento múltiple en Excel, tareas simultáneas [Excel 2007], funciones de seguros para subprocesos [Excel 2007], multiproceso recálculo [Excel 2007], MTR [Excel 2007], funciones XLL [Excel 2007], registrar como subprocesos, [recálculo Excel 2007], memoria multiproceso, contención [Excel 2007], registrar XLL funciona como subprocesos funciones no seguras de seguros [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19815687"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>Nuevo cálculo multiproceso en Excel
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Office Excel 2007 fue la primera versión de Excel para usar el nuevo cálculo multiproceso (MTR) de hojas de cálculo. Puede configurar Excel para usar hasta subprocesos simultáneos 1024 al volver a calcular, independientemente del número de procesadores o núcleos de procesador en el equipo. 
   
@@ -222,11 +222,11 @@ UDF de Excel Services se crean mediante código administrado de Microsoft .NET F
   
 Para disponer de las funciones de los XLL de esta manera, que por lo tanto, se deben ajustan en un ensamblado de .NET para los tipos de datos administrados de .NET Framework que convierte los argumentos y valores devueltos de los tipos de datos nativos y que llama a las funciones XLL. El contenedor de .NET exportará un UDF de servidor para cada función XLL que se tiene acceso. Un requisito adicional es que las funciones XLL llamadas de esta forma deben ser seguros para subprocesos. Debido a que las funciones XLL no están registradas en el modo en que son con el cliente de Excel, el servidor y el contenedor de .NET no tienen ninguna manera de exigir que son seguros para subprocesos. Es responsabilidad del desarrollador XLL para asegurarse de esto.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Actualización de Excel](excel-recalculation.md)  
-- [Administraci�n de memoria en Excel](memory-management-in-excel.md) 
-- [Acceso al código XLL en Excel](accessing-xll-code-in-excel.md)  
-- [Conceptos de programaci�n de Excel](excel-programming-concepts.md)  
+- [Administración de memoria en Excel](memory-management-in-excel.md) 
+- [Obtener acceso a código XLL en Excel](accessing-xll-code-in-excel.md)  
+- [Conceptos de programación de Excel](excel-programming-concepts.md)  
 - [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
 

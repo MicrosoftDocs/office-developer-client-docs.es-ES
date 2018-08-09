@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSpouseName
+title: Propiedad canónica PidTagSpouseName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c1b4aabe4f066e8fbb65cbcc5db64a050001e649
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820321"
 ---
-# <a name="pidtagspousename-canonical-property"></a>Propiedad canónico PidTagSpouseName
+# <a name="pidtagspousename-canonical-property"></a>Propiedad canónica PidTagSpouseName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre del usuario del cónyuge.
   
@@ -34,7 +34,7 @@ Contiene el nombre del usuario del cónyuge.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuario de correo MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son definidas por el usuario o la organización del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

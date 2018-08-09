@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e26acb8415df007a7f3fb5901521da7222ae40ed
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816905"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el complemento de dos de un entero de 64 bits sin signo. 
   
@@ -39,7 +39,7 @@ FILETIME FtNegFt(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _FT_
   

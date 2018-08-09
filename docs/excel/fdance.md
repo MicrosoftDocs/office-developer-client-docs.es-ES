@@ -10,7 +10,7 @@ keywords:
 - fdance (función) [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7a2fbdf723d06dcf9b02789178d7d12d0515884
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815637"
 ---
 # <a name="fdance"></a>fDance
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Comando de ejemplo definida por el usuario que cambia las celdas seleccionadas en la hoja de cálculo activa alrededor hasta que el usuario presiona la **tecla ESC**. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
   
@@ -28,15 +28,15 @@ Comando de ejemplo definida por el usuario que cambia las celdas seleccionadas e
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 La función no toma ningún parámetro.
   
-## <a name="property-valuereturn-value"></a>Propiedad valor y valor devuelto
+## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 La función siempre devuelve 1.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Éste es un ejemplo de una operación larga. Llama a la función [xlAbort](xlabort.md) ocasionalmente. Esto da como resultado el procesador (ayudar con tareas cooperación) y comprueba si el usuario ha presionado la **tecla ESC** para cancelar la operación. Si es así, ofrece al usuario una oportunidad para cancelar la anulación. 
   
@@ -44,9 +44,9 @@ La función siempre devuelve 1.
 
 Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Funciones en el archivo DLL genérica](functions-in-the-generic-dll.md)
+[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
 

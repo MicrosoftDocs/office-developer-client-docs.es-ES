@@ -178,7 +178,7 @@ En el ejemplo siguiente se muestra el XML de cuatro actividades **activityFeed**
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplos XML de proveedor OSC](osc-provider-xml-examples.md)  
 - [XML de actividades](xml-for-activities.md) 

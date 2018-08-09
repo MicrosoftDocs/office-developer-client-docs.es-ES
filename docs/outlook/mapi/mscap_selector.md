@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 420b2661e766ecf97a5e9e488e9c18f29cd91329
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818399"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica las funciones que se devuelven en un almacén.
   
@@ -36,7 +36,7 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  *MSCAP_SEL_RESERVED1* 
   

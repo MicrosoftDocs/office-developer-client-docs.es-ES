@@ -39,12 +39,12 @@ Para un usuario determinado, obtiene y establece un intervalo de tiempo y devuel
 |[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
 |[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de disponibilidad de datos para un usuario.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La mayoría de los miembros de esta interfaz es marcadores de posición reservados para el uso interno de Outlook y está sujetos a cambios. Proveedores de libre/ocupado deben implementarlos únicamente como se especifica, devolver que valores devueltos sólo especificado.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de disponibilidad](about-the-free-busy-api.md)
+- [Información sobre la API de disponibilidad](about-the-free-busy-api.md)
 - [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
 

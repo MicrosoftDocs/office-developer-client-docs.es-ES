@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagRuleSequence
+title: Propiedad canónica PidTagRuleSequence
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 29579f91a85e74b568610c749d9408f813f157f6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820196"
 ---
-# <a name="pidtagrulesequence-canonical-property"></a>Propiedad canónico PidTagRuleSequence
+# <a name="pidtagrulesequence-canonical-property"></a>Propiedad canónica PidTagRuleSequence
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un valor utilizado para determinar el orden en que se evalúan y se ejecutan las reglas. 
   
@@ -34,7 +34,7 @@ Un valor utilizado para determinar el orden en que se evalúan y se ejecutan las
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reglas del servidor  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las reglas se evalúan en secuencia de acuerdo con el orden de aumento de este valor. El orden de evaluación para las reglas que tienen el mismo valor de esta propiedad no está definido.
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -80,7 +80,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

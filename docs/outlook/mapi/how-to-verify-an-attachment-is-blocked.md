@@ -15,7 +15,7 @@ ms.locfileid: "19817014"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Compruebe que se bloquea un dato adjunto
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este ejemplo de código en C++, se muestra cómo usar el [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) interfaz para averiguar si un archivo adjunto está bloqueado por Microsoft Outlook 2010 o Microsoft Outlook 2013 para su visualización e indización. 
   

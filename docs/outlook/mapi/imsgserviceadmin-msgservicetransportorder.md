@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5b96a45bab4cd00d23604d0b0b25f3e772277395
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817749"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece el orden en que transporte se denominan proveedores para entregar un mensaje.
   
@@ -35,7 +35,7 @@ HRESULT MsgServiceTransportOrder(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cUID_
   
@@ -63,17 +63,17 @@ MAPI_E_NOT_FOUND
   
 > Una o varias de las estructuras [MAPIUID](mapiuid.md) que se pasa en el parámetro _lpUIDList_ no hacen referencia a un proveedor de transporte que están actualmente en el perfil. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMsgServiceAdmin::MsgServiceTransportOrder** establece el orden de entrega de los proveedores de transporte en un perfil. El parámetro _lpUIDList_ debe contener una lista ordenada de los identificadores de entrada de proveedor de transporte obtenido de la propiedad **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la tabla devuelta desde el [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) (método). Una aplicación de cliente debe pasar la lista completa de _lpUIDList_.
   
  **SetTransportOrder** invalidaciones de transporte preferencias de proveedor como la marca STATUS_XP_PREFER_LAST establecida en la propiedad **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

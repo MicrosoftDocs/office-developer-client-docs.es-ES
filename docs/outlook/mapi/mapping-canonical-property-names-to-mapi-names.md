@@ -1,5 +1,5 @@
 ---
-title: Asignación de nombres de propiedad canónico a nombres de MAPI
+title: Asignar nombres de propiedad canónicos a nombres MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818375"
 ---
-# <a name="mapping-canonical-property-names-to-mapi-names"></a>Asignación de nombres de propiedad canónico a nombres de MAPI
+# <a name="mapping-canonical-property-names-to-mapi-names"></a>Asignar nombres de propiedad canónicos a nombres MAPI
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se asigna cada nombre canónico (propiedad) a la propiedad MAPI o las propiedades que lo representa. El tema contiene tres tablas: una tabla de propiedades con nombre con identificadores numéricos, de la tabla de propiedades con nombre con identificadores de cadena de un segundo y una tercera tabla para propiedades con etiqueta.
   
@@ -328,12 +328,12 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
-|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Palabras clave  <br/> |
+|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
 |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |LastPrinted  <br/> |
 |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |LastSaveDtm  <br/> |
 |[PidNameLineCount](pidnamelinecount-canonical-property.md) <br/> |LineCount  <br/> |
-|[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Administrador  <br/> |
+|[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Manager  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |MMClipCount  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |NoteCount  <br/> |
 |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
@@ -346,7 +346,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |Númerodiapositivas  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Template  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Título  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Capacidades de uso compartido de X  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-uso compartido de-Config-Url  <br/> |
@@ -520,7 +520,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagEmailAddress](pidtagemailaddress-canonical-property.md) <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W  <br/> |
 |[PidTagEmsAbServer](pidtagemsabserver-canonical-property.md) <br/> |PR_EMS_AB_SERVER, PR_EMS_AB_SERVER_A PR_EMS_AB_SERVER_W  <br/> |
 |[PidTagEndDate](pidtagenddate-canonical-property.md) <br/> |PR_END_DATE  <br/> |
-|[PidTagEntryId](pidtagentryid-canonical-property.md) <br/> |ENTRADA DEL OBJETO  <br/> |
+|[PidTagEntryId](pidtagentryid-canonical-property.md) <br/> |PR_ENTRYID  <br/> |
 |[PidTagExceptionEndTime](pidtagexceptionendtime-canonical-property.md) <br/> |PR_EXCEPTION_ENDTIME  <br/> |
 |[PidTagExceptionReplaceTime](pidtagexceptionreplacetime-canonical-property.md) <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |[PidTagExceptionStartTime](pidtagexceptionstarttime-canonical-property.md) <br/> |PR_EXCEPTION_STARTTIME  <br/> |
@@ -577,7 +577,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md) <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |[PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md) <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |[PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md) <br/> |PR_IDENTITY_SEARCH_KEY  <br/> |
-|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |None  <br/> |
+|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |Ninguno  <br/> |
 |[PidTagImplicitConversionProhibited](pidtagimplicitconversionprohibited-canonical-property.md) <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |[PidTagImportance](pidtagimportance-canonical-property.md) <br/> |PR_IMPORTANCE  <br/> |
 |[PidTagIncompleteCopy](pidtagincompletecopy-canonical-property.md) <br/> |PR_INCOMPLETE_COPY  <br/> |
@@ -939,7 +939,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagStatusCode](pidtagstatuscode-canonical-property.md) <br/> |PR_STATUS_CODE  <br/> |
 |[PidTagStatusString](pidtagstatusstring-canonical-property.md) <br/> |PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W  <br/> |
 |[PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md) <br/> |PR_STORE_ENTRYID  <br/> |
-|[Propiedad canónico PidTagStoreEntryIdEmsmdbV1](pidtagstoreentryidemsmdbv1-canonical-property.md) <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
+|[Propiedad canónica PidTagStoreEntryIdEmsmdbV1](pidtagstoreentryidemsmdbv1-canonical-property.md) <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
 |[PidTagStoreProvider](pidtagstoreprovider-canonical-property.md) <br/> |PR_MDB_PROVIDER  <br/> |
 |[PidTagStoreProviders](pidtagstoreproviders-canonical-property.md) <br/> |PR_STORE_PROVIDERS  <br/> |
 |[PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md) <br/> |PR_STORE_RECORD_KEY  <br/> |
@@ -959,7 +959,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagTelecommunicationsDeviceForDeafTelephoneNumber](pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property.md) <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |[PidTagTelexNumber](pidtagtelexnumber-canonical-property.md) <br/> |PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W  <br/> |
 |[PidTagTemplateid](pidtagtemplateid-canonical-property.md) <br/> |PR_TEMPLATEID  <br/> |
-|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |None  <br/> |
+|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |Ninguno  <br/> |
 |[PidTagTitle](pidtagtitle-canonical-property.md) <br/> |PR_TITLE, PR_TITLE_A, PR_TITLE_W  <br/> |
 |[PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md) <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
 |[PidTagTnefUnprocessedProps](pidtagtnefunprocessedprops-canonical-property.md) <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagSwappedToDoStore
+title: Propiedad canónica PidTagSwappedToDoStore
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cbe1915df46010c5574065826ac1814f45c8c093
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820406"
 ---
-# <a name="pidtagswappedtodostore-canonical-property"></a>Propiedad canónico PidTagSwappedToDoStore
+# <a name="pidtagswappedtodostore-canonical-property"></a>Propiedad canónica PidTagSwappedToDoStore
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Determina la necesidad de transmitir posteriores a la transformación de un correo electrónico.
   
@@ -34,7 +34,7 @@ Determina la necesidad de transmitir posteriores a la transformación de un corr
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |MAPI no transmisible  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si esta propiedad se establece en un borrador de mensaje, a continuación, su valor debe establecerse en el valor de propiedad de **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) del mensaje.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

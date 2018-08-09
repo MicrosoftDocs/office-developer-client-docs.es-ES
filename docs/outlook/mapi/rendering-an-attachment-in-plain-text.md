@@ -1,5 +1,5 @@
 ---
-title: Representación de un dato adjunto en texto sin formato
+title: Representar datos adjuntos en texto sin formato
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 38db1d18f240188c7566a57afa23291a307446dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820512"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>Representación de un dato adjunto en texto sin formato
+# <a name="rendering-an-attachment-in-plain-text"></a>Representar datos adjuntos en texto sin formato
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para representar un dato adjunto en un mensaje con texto sin formato, recuperar la propiedad de **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de los datos adjuntos y se aplican a los datos de la **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) propiedad. Hay dos formas de recuperar **PR_RENDERING_POSITION**:
   

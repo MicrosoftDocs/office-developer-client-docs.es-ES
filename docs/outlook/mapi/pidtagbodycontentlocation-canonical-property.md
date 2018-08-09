@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagBodyContentLocation
+title: Propiedad canónica PidTagBodyContentLocation
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a05743f2fa10326a358dd92a72cf530740274f2d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819298"
 ---
-# <a name="pidtagbodycontentlocation-canonical-property"></a>Propiedad canónico PidTagBodyContentLocation
+# <a name="pidtagbodycontentlocation-canonical-property"></a>Propiedad canónica PidTagBodyContentLocation
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el valor de un campo de encabezado MIME Content-Location.
   
@@ -34,7 +34,7 @@ Contiene el valor de un campo de encabezado MIME Content-Location.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para establecer el valor de estas propiedades, los clientes MIME deben escribir el valor deseado en un campo de encabezado Content-Location en una entidad MIME que se asigna a un cuerpo del mensaje.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ecb40262959834ec511601ec3176887c919d944f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19818100"
 ---
 # <a name="mapi-custom-form-objects"></a>MAPI: objetos de formulario personalizado
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Objetos de los formularios personalizados se implementan mediante tres componentes distintos:
   
@@ -49,11 +49,11 @@ En la siguiente tabla se describe todos los objetos de formulario personalizado.
    
 En la siguiente ilustración se muestra la relación entre los componentes de formularios personalizados, los objetos y las interfaces que implementan y los componentes que son los usuarios de los objetos. Tenga en cuenta que, a diferencia de la mayoría de objetos MAPI, el objeto de formulario implementa dos interfaces que no están relacionadas por herencia directa. Cuando un objeto expone varias interfaces independientes, un usuario del objeto que tiene un puntero a una de las interfaces puede recuperar un puntero a cualquiera de las otras interfaces. Esta capacidad para navegar entre las implementaciones de interfaz de un objeto es una característica del método [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
   
-**Componentes de formularios personalizados**
+**Componentes de formulario personalizado**
   
 ![Componentes de formulario personalizado] (media/amapi_67.gif "Componentes de formulario personalizado")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fc6c12d914e581c3f975e94809f0bdea73020099
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820900"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona una manera alternativa para invocar el método OLE **IUnknown:: AddRef**. 
   
@@ -39,7 +39,7 @@ ULONG UlAddRef(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _pUnk_
   
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > Un error de origen desconocido o inesperado no puede completar la operación.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **UlAddRef** devuelve el valor devuelto por el método **IUnknown:: AddRef** , que es el nuevo valor del recuento de referencias para la interfaz. El valor es distinto de cero. 
   

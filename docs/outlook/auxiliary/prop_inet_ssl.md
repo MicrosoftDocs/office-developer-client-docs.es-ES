@@ -22,17 +22,17 @@ Especifica si se debe usar capa de sockets seguros (SSL) para un buzón de corre
 
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 0105  <br/> |
+|Identificador:  <br/> |0x0105  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de la propiedad:  <br/> |0x01050003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un medio de valor cero no usar SSL, en caso contrario, usar SSL.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)  
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

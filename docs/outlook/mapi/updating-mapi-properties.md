@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5cff3a6cbf4bfca7b414f9663e71834da71926d7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820916"
 ---
 # <a name="updating-mapi-properties"></a>Actualizar las propiedades de MAPI
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los clientes y proveedores de servicios pueden actualizar un valor de la propiedad llamando:
   
@@ -44,7 +44,7 @@ El siguiente procedimiento ilustra cómo usar **SetProps** para actualizar la cl
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);
   ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Informaci�n general sobre MAPI (propiedad)](mapi-property-overview.md)
+- [Información general sobre MAPI (propiedad)](mapi-property-overview.md)
 

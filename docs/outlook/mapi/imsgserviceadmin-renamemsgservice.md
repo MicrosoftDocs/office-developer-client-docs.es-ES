@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ff748827950c79c3c94e9f70ce8b0bb335884290
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817736"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En desuso. Asigna un nombre nuevo a un servicio de mensajes. 
   
@@ -35,7 +35,7 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
@@ -55,15 +55,15 @@ MAPI_E_NO_SUPPORT
   
 > MAPI no es compatible con el cambio de nombre de este servicio de mensajes. **RenameMsgService** siempre devuelve este valor. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para asignar un nombre nuevo a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios en un servicio de mensajes se almacenan en sus propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

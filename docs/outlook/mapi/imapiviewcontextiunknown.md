@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a7d62253baaaae7955e722874a15d05ed16e566e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817635"
 ---
-# <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext: IUnknown
+# <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Administra un formulario en el Visor de formulario de la aplicación cliente. 
   
@@ -47,7 +47,7 @@ Administra un formulario en el Visor de formulario de la aplicación cliente.
 |[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado actual del Visor.  <br/> |
 |[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen en el objeto de contexto de la vista.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagCompanyMainTelephoneNumber
+title: Propiedad canónica PidTagCompanyMainTelephoneNumber
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6b0baa18-135d-4cf3-b265-ad873131f036
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 19c776728b8d57c3ca27b29ee3ca0bf2585ac1a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819296"
 ---
-# <a name="pidtagcompanymaintelephonenumber-canonical-property"></a>Propiedad canónico PidTagCompanyMainTelephoneNumber
+# <a name="pidtagcompanymaintelephonenumber-canonical-property"></a>Propiedad canónica PidTagCompanyMainTelephoneNumber
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el número de teléfono principal de una empresa
   
@@ -34,7 +34,7 @@ Contiene el número de teléfono principal de una empresa
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son definidas por el usuario o la organización del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

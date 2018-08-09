@@ -1,5 +1,5 @@
 ---
-title: Recuperar la identidad de proveedor y primaria
+title: Recuperar identidades de proveedor y principales
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2a87e32fe21aa6fb1d9296c568a74da994c146bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820520"
 ---
-# <a name="retrieving-primary-and-provider-identity"></a>Recuperar la identidad de proveedor y primaria
+# <a name="retrieving-primary-and-provider-identity"></a>Recuperar identidades de proveedor y principales
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proveedores de servicios, normalmente proveedores de libreta de direcciones, tienen la opción de proporcionar una identidad que puede usarse para representar la sesión en una gran variedad de situaciones. Tres propiedades describen la identidad de un proveedor:
   

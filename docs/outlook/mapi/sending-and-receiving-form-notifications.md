@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4730fb04d530fce516fe1ca4fd572c58fc1f1ffa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820614"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Notificaciones de formulario se usan en MAPI para facilitar la comunicación tanto desde el formulario a su visor, así como desde el visor al formulario.
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6673e1d51a7c030a35a7c5c3cbc955341afba299
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820610"
 ---
 # <a name="searching-the-address-book"></a>Búsqueda de la libreta de direcciones
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI permite a los proveedores de libreta de direcciones implementar dos niveles de funcionalidad de b�squeda:
   
@@ -29,7 +29,7 @@ Because address book providers can support searching for each of their container
   
 In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Para elegir esta opción, establezca el indicador AB_FIND_ON_OPEN de la propiedad del contenedor **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)). After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
   
-### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Para realizar una búsqueda básica en un contenedor de la libreta de direcciones
+### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Para realizar una b�squeda b�sica en un contenedor de libreta de direcciones
   
 1. Call the container's [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to open its contents table. 
     

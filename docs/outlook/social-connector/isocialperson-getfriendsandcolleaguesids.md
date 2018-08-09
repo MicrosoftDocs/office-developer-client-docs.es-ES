@@ -23,7 +23,7 @@ Este método no se admite actualmente.
 HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* friendsIDs);
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

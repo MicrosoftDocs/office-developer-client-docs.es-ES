@@ -34,7 +34,7 @@ HRESULT Placeholder5(
 
 Siempre E_NOTIMPL, debido a que este miembro es un marcador de posición en **IFreeBusyData** y no es compatible. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Este miembro debe devolver E_NOTIMPL.
   

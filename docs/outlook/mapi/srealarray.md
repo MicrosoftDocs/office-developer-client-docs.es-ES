@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c64e9a7497a70ea34dc09a5749dd281a24f9413d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820746"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de valores flotantes que se utilizan para describir una propiedad de tipo PT_MV_R4. 
   
@@ -40,7 +40,7 @@ typedef struct _SRealArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,11 +50,11 @@ typedef struct _SRealArray
   
 > Puntero a una matriz de valores float.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener más información sobre el tipo de propiedad PT_MV_R4, vea [Tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

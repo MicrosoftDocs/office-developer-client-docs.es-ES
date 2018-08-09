@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c57f945d16cc80c637b1a4074b25f9cf1fb1edc0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817892"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En desuso. Cambia la contraseña de un perfil.
   
@@ -36,7 +36,7 @@ HRESULT ChangeProfilePassword(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpszProfileName_
   
@@ -64,13 +64,13 @@ S_OK
   
 > Si se llama a este método, devolverá S_OK. Sin embargo, no se realizará ninguna acción.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 No use este método. MAPI no admite las contraseñas para los perfiles.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

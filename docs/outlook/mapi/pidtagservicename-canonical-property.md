@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagServiceName
+title: Propiedad canónica PidTagServiceName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 260a35af11b76b1867c693723c1a7fa8133082fd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820290"
 ---
-# <a name="pidtagservicename-canonical-property"></a>Propiedad canónico PidTagServiceName
+# <a name="pidtagservicename-canonical-property"></a>Propiedad canónica PidTagServiceName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre de un servicio de mensajes como conjunto por el usuario en el archivo MapiSvc.inf.
   
@@ -34,7 +34,7 @@ Contiene el nombre de un servicio de mensajes como conjunto por el usuario en el
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Perfil MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El nombre de estas propiedades es específico para el servicio de mensajes. Se trata de la sección [Services] en MapiSvc.inf.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

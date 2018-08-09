@@ -19,9 +19,9 @@ ms.locfileid: "19815462"
 El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas. Todos los demás manipulación de cadenas se administra mediante el uso de funciones de cadena como **subcadena**. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  *TextExpression* **+** *TextExpression* 
   

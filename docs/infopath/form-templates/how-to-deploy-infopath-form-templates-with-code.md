@@ -75,14 +75,14 @@ Para tener más control sobre los permisos que se conceden para ejecutar código
     
 3. Realice el procedimiento descrito en la sección "Asignar FullTrust a formularios en un específico dirección URL o UNC" de la [Configuración de seguridad para las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 #### <a name="tasks"></a>Tareas
 
-[Configuración de seguridad para las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
 
 
 [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)
   
-[Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

@@ -10,7 +10,7 @@ keywords:
 - función de Excel [excel 2007], Excel12f (función) [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 56034984852713496465c3d1f79a9989fc47df1c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19815563"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Funciones de la biblioteca de Framework. **Excel** es un contenedor para la función de [Excel4](excel4-excel12.md) . **Excel12f** es un contenedor para la función [Excel12](excel4-excel12.md) . Cada uno de ellos se comprueba que ninguno de los argumentos es cero, lo que podría indicar que no se pudieron la creación de un temporal **XLOPER** o **XLOPER12** . Si se produce un error, cada uno de ellos se imprime un mensaje de depuración. Cuando haya terminado, cada uno de ellos libera toda la memoria temporal que se han creado para temporal s **XLOPER**y **XLOPER12**.
   
@@ -33,7 +33,7 @@ int Excel12f(int iFunction, LPXLOPER12 pxRes, int iCount,
 LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _iFunction_ (**int**)
   
@@ -69,12 +69,12 @@ short WINAPI Excel12fExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [Excel4/Excel12](excel4-excel12.md)
 
 
-[Funciones de la biblioteca de Framework](functions-in-the-framework-library.md)
+[Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
 

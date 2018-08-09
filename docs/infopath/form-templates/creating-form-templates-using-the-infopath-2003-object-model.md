@@ -25,7 +25,7 @@ En esta sección se explica el código de limpieza e inicialización, cómo agre
   
 > Describe cómo escribir código de limpieza e inicialización en los métodos _Startup y _Shutdown del proyecto.
     
-[Agregar un controlador de eventos con el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 > Describe cómo agregar controladores de eventos y los atributos que se aplican para identificar controladores de eventos.
     

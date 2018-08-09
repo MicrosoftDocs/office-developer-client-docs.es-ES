@@ -19,9 +19,9 @@ ms.locfileid: "19815461"
 Combina dos condiciones. Devuelve TRUE cuando alguna de las dos condiciones sea verdadera.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
  *Expresiónbooleana* **O** *Expresiónbooleana* 
   
@@ -31,7 +31,7 @@ El operador **o** utiliza el siguiente argumento.
 |:-----|:-----|
 | *Expresiónbooleana*  <br/> |Cualquier expresión válida que devuelve TRUE o FALSE.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando se utiliza más de un operador lógico en una instrucción, se evalúan los operadores **o** después de los operadores **y** . Sin embargo, puede cambiar el orden de evaluación mediante el uso de paréntesis. 
   

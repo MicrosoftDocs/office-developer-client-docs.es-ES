@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagPersonalHomePage
+title: Propiedad canónica PidTagPersonalHomePage
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 685ca78367ac4e0a8334a3d14c2fda9d57161e1d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819909"
 ---
-# <a name="pidtagpersonalhomepage-canonical-property"></a>Propiedad canónico PidTagPersonalHomePage
+# <a name="pidtagpersonalhomepage-canonical-property"></a>Propiedad canónica PidTagPersonalHomePage
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la dirección URL de página principal personal de un usuario.
   
@@ -34,7 +34,7 @@ Contiene la dirección URL de página principal personal de un usuario.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuario de correo MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son definidas por el usuario o la organización del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

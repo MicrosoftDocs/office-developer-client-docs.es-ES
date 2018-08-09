@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: dd68bc2054136a7f587b05dc56dbeabd06de1f08
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816590"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Para copiar a uno o más destinatarios de un contenedor a otro o el mismo contenedor, compruebe primero que el contenedor de destino es modificable. Contenedores que son modificables establecen la marca AB_MODIFIABLE en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)).
   

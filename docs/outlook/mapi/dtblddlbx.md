@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816725"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe un control de lista desplegable que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
@@ -42,7 +42,7 @@ typedef struct _DTBLDDLBX
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -60,7 +60,7 @@ typedef struct _DTBLDDLBX
   
 > Etiqueta de la propiedad para una propiedad de tabla de tipo pt Object que se pueden abrir mediante el uso de un **OpenProperty** llamar. La tabla debe tener dos columnas: **ulPRDisplayProperty** y **ulPRSetProperty**. Las filas de la tabla deben corresponden a elementos de la lista.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura **DTBLDDLBX** describe un control de lista desplegable que se muestra como un solo elemento hasta que el usuario elige para expandirla. 
   
@@ -72,7 +72,7 @@ Un valor inicial se muestra en la lista si se ha recuperado la propiedad represe
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md). Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -89,7 +89,7 @@ Para obtener información general de las tablas para mostrar, vea [Mostrar tabla
   
 [Implementación de la tabla para mostrar](display-table-implementation.md)
   
-[Mostrar tablas](display-tables.md)
+[Tablas para mostrar](display-tables.md)
   
 [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md)
 

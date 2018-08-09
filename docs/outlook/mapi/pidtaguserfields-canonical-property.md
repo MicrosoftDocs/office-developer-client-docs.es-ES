@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagUserFields
+title: Propiedad canónica PidTagUserFields
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5abfd9c98c5a83ca45792f094d0c9573b8affb85
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820407"
 ---
-# <a name="pidtaguserfields-canonical-property"></a>Propiedad canónico PidTagUserFields
+# <a name="pidtaguserfields-canonical-property"></a>Propiedad canónica PidTagUserFields
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre, tipo de datos y otra información acerca de un campo definido por el usuario.
   
@@ -30,7 +30,7 @@ Contiene el nombre, tipo de datos y otra información acerca de un campo definid
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Carpeta MAPI  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para cada elemento, Outlook almacena las definiciones de todos los campos definidos por el usuario en la propiedad [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) del objeto **IMessage** correspondiente. La propiedad **PidLidPropertyDefinitionStream** contiene una secuencia binaria conocida como [PropertyDefinition](propertydefinition-stream-structure.md), que contiene las definiciones de campo. Para obtener más información acerca de las estructuras de secuencia para las definiciones de campo, vea [Estructuras de secuencia](stream-structures.md).
   
@@ -55,21 +55,21 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Campos y elementos de outlook](outlook-items-and-fields.md)
+[Campos y elementos de Outlook](outlook-items-and-fields.md)
   
-[Agregue una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Ejemplo de secuencia de PropertyDefinition](propertydefinition-stream-sample.md)
+[Ejemplo de flujo PropertyDefinition](propertydefinition-stream-sample.md)
   
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

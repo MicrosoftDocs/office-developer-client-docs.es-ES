@@ -27,7 +27,7 @@ Especifica dejar una copia de un mensaje en el servidor para una cuenta POP.
 |Etiqueta de la propiedad:  <br/> |0x10000003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 En la siguiente tabla se enumera los valores posibles. Para obtener más información acerca de las constantes, vea [constantes (API de administración de cuenta)](constants-account-management-api.md) . 
   
@@ -39,8 +39,8 @@ En la siguiente tabla se enumera los valores posibles. Para obtener más informa
 |**GET_REMOVE_AFTER_DAYS** ( _ul_)  <br/> |Obtiene el número de días después de que el mensaje se quitará el servidor POP.  <br/> |
 |**SET_REMOVE_AFTER_DAYS** ( _días_)  <br/> |Establece el número de días después de que el mensaje se quitará el servidor POP.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

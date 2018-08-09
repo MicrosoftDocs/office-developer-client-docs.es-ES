@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ea9f37183f33459b09f2730b3efbb7afed3d4766
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19817691"
 ---
 # <a name="implementing-objects-in-c"></a>Implementación de objetos de C++
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proveedores de servicios y los clientes de C++ definición objetos MAPI mediante la creación de clases que heredan de las interfaces que están implementando. Cada uno de los métodos de interfaz es pública, como son el constructor y el destructor para la clase. Si la clase tiene métodos adicionales, pueden ser públicas o privadas, dependiendo de la implementación. Todos los miembros de datos son privados. 
   
@@ -55,7 +55,7 @@ lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Implementación de objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

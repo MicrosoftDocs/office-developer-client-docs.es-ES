@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bae750e7e940bc1417b3d225c9c81129e9da77b4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820708"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Asigna un valor entero enumerado a un nombre para mostrar para ese valor. 
   
@@ -40,7 +40,7 @@ typedef struct _SMAPIFormPropEnumVal
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **pszDisplayName**
   
@@ -50,11 +50,11 @@ typedef struct _SMAPIFormPropEnumVal
   
 > Un valor de enumeración para el nombre para mostrar que señala el miembro **pszDisplayName** . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando un usuario selecciona un nombre para mostrar de un formulario, se almacena valor de enumeración correspondiente del nombre mediante el uso de la implementación de la interfaz de [IMAPIProp](imapipropiunknown.md) que está asociada con el formulario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 64031725e06a949464e7bfabb0a2f114d325470e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817313"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre una interfaz de [IMAPIFormContainer](imapiformcontaineriunknown.md) para un contenedor de forma específicos. 
   
@@ -35,7 +35,7 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hfrmreg_
   
@@ -75,7 +75,7 @@ MAPI_E_NO_INTERFACE
   
 > El objeto al que señala por _lpunk_ no es compatible con la interfaz necesaria. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::OpenFormContainer** para abrir una interfaz **IMAPIFormContainer** para un contenedor de forma específicos. A continuación, se puede usar esta interfaz para instalar formularios en y formularios de eliminación de un contenedor de formulario. 
   
@@ -94,7 +94,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr::OpenFormContainer** para recuperar un contenedor de formulario por lo que se puede representar el contenido del contenedor.  <br/> |
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr::OpenFormContainer** para recuperar un contenedor de formulario para una carpeta, por lo que se puede representar el contenido del contenedor.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -104,7 +104,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

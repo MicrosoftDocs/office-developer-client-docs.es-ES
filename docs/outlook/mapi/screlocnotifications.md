@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bb4ff6a128b9fed29ff0be5325c21e5600389740
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820617"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Ajusta un puntero dentro de una matriz de notificación de evento especificado. 
   
@@ -43,7 +43,7 @@ SCODE ScRelocNotifications(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _cntf_
   
@@ -75,11 +75,11 @@ MAPI_E_INVALID_PARAMETER
   
 > Se ha producido una notificación no válida.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El parámetro _pcb_ a la función **ScRelocNotifications** es opcional. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

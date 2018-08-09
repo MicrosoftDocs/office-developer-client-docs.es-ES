@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e24f5ebd73a4652876282099f1460762c150b94d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817209"
 ---
-# <a name="imapicontainer--imapiprop"></a>IMAPIContainer: IMAPIProp
+# <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Administra las operaciones de alto nivel en objetos de contenedor como libretas de direcciones, listas de distribución y las carpetas. El [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md), y [IDistList: IMAPIContainer](idistlistimapicontainer.md) interfaces se derivan de **IMAPIContainer**.
   
@@ -47,13 +47,13 @@ Administra las operaciones de alto nivel en objetos de contenedor como libretas 
 |[Es posible SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establece los criterios de búsqueda para el contenedor.  <br/> |
 |[Es posible GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda para el contenedor.  <br/> |
    
-|**Propiedades necesarias**|**Access**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

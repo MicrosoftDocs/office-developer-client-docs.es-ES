@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidSharingInitiatorSmtp
+title: Propiedad canónica PidLidSharingInitiatorSmtp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4fb7d91d-4c51-41c1-9cb6-7b837dd12f11
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 188424fc67534ea5df6ed5eb209909731e12c73c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818917"
 ---
-# <a name="pidlidsharinginitiatorsmtp-canonical-property"></a>Propiedad canónico PidLidSharingInitiatorSmtp
+# <a name="pidlidsharinginitiatorsmtp-canonical-property"></a>Propiedad canónica PidLidSharingInitiatorSmtp
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica la dirección SMTP del usuario que inició el mensaje para compartir. Esto es una propiedad de un mensaje para compartir. 
   
@@ -35,7 +35,7 @@ Especifica la dirección SMTP del usuario que inició el mensaje para compartir.
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Uso compartido  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad debe estar establecida en el valor de la propiedad **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) de la libreta de direcciones identificado por la propiedad **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) y debe ser pasa por alto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

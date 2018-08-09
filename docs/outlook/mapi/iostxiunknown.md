@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7419a0df7a2f3b76caeeb1ca564624d437eddd52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817866"
 ---
-# <a name="iostx--iunknown"></a>IOSTX: IUnknown
+# <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona métodos de sincronización. Esta interfaz recupera la información necesaria para replicar los cambios locales en el servidor y los cambios del servidor en el almacén local.
   
@@ -45,7 +45,7 @@ Proporciona métodos de sincronización. Esta interfaz recupera la información 
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |Establece el resultado de la sincronización.  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando un cliente de carga o sincroniza las carpetas y el contenido de la carpeta en un almacén local, mueve el almacén local de un estado a otro como se muestra en el diagrama de transición de estado en [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md). El siguiente es el orden de eventos para el cliente mover el almacén local de un estado a otro:
   
@@ -65,11 +65,11 @@ En particular, cuando la descarga de elementos de mensaje, el cliente utiliza **
     
 3. Outlook actualiza el elemento en el almacén local con el elemento de mensaje completo.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Acerca de la API de replicación](about-the-replication-api.md)
+[Información sobre la API de replicación](about-the-replication-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

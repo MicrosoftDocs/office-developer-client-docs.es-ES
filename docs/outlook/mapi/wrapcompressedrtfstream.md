@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9025bcebdd5e656070b31cd82e6519166a3e3791
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19821004"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un objeto stream de texto en formato de texto de sin comprimir enriquecido (RTF) desde el formato comprimido utilizado en la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
@@ -41,7 +41,7 @@ HRESULT WrapCompressedRTFStream(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpCompressedRTFStream_
   
@@ -79,7 +79,7 @@ Si se pasa cero en el parámetro _ulFlags_ , a continuación, _lpCompressedRTFSt
   
 Debido a que el cliente escribe RTF nuevo en formato sin comprimir, que debe usar **WrapCompressedRTFStream**, en lugar de escribir directamente en la secuencia. Los clientes de tener en cuenta RTF deben buscar el indicador STORE_UNCOMPRESSED_RTF en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) y pase al **WrapCompressed RTFStream** si se establece. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

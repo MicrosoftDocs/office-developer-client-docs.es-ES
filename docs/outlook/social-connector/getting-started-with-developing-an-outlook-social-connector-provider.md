@@ -53,7 +53,7 @@ En esta sección se proporciona una introducción a la OSC, cómo un proveedor d
   
 - [Prepararse liberar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [32 bits de Microsoft Outlook Social Connector](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
 - [Actualización de Outlook Social Connector (KB983403), edición de 32 bits](http://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 744d9a7588bff89e9d306e516a24da2db3038d4d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817098"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Crea un receptor de notificaciones que se ajusta un receptor de notificaciones existentes seguridad para subprocesos. 
   
@@ -40,7 +40,7 @@ HrThisThreadAdviseSink(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpAdviseSink_
   
@@ -54,7 +54,7 @@ HrThisThreadAdviseSink(
 
 Ninguno.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El propósito del contenedor es asegurarse de que la notificación se denomina en el mismo subproceso que llamó a la función **HrThisThreadAdviseSink** . Esta función se usa para proteger las devoluciones de llamada de notificación que se deben ejecutar en un subproceso concreto. 
   

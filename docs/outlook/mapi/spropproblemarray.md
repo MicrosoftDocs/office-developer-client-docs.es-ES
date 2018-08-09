@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3fd61828cd631c4abc0131da867ca213a3c44d20
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820751"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene una matriz de uno o más estructuras [SPropProblem](spropproblem.md) . 
   
@@ -41,7 +41,7 @@ typedef struct _SPropProblemArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cProblem**
   
@@ -51,11 +51,11 @@ typedef struct _SPropProblemArray
   
 > Matriz de estructuras **SPropProblem** , que describe un error de propiedad. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

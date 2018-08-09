@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a591a49c1cb0ec936d09d59b4632d15e4842dd2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817599"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve el número total de filas en la tabla. 
   
@@ -62,7 +62,7 @@ MAPI_W_APPROX_COUNT
   
 > La llamada se ha realizado correctamente, pero se devolvió un recuento de filas aproximado debido a que el número exacto de filas no se puede determinar, posiblemente, debido a las restricciones de memoria. Para probar esta advertencia, utilice la macro **HR_FAILED** . Vea [uso de Macros para el tratamiento de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPITable::GetRowCount** recupera el número total de filas en una tabla. 
   
@@ -86,7 +86,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable::GetRowCount** para determinar cuántas filas se encuentran en la tabla de origen por lo que se puede asignar memoria para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -94,11 +94,11 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPITable::QueryPosition](imapitable-queryposition.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

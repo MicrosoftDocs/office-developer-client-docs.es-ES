@@ -1,5 +1,5 @@
 ---
-title: Llamar a Excel desde el archivo DLL o XLL
+title: Llamar a Excel desde el DLL o XLL
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - comandos, archivos DLL [Excel 2007], llamada en Excel, pasar argumentos a funciones de la API de C [Excel 2007], [Excel 2007], los comandos de excel de cuadros de diálogo [excel 2007], invocación de invocar con cuadros de diálogo, comandos [Excel 2007], accesibles desde el archivo DLL o XLL, Excel4 funcionan [ Función de Excel12 de Excel 2007], [Excel 2007], XLCallVer funcionar el argumento de operRes [Excel 2007], [Excel 2007], funciones [Excel 2007], accesibles desde el archivo DLL o XLL, Excel12v funcionan [Excel 2007], sólo DLL funciona API de C [Excel 2007], [Excel 2007], pasar recuento de argumentos, argumento [Excel 2007], comandos [Excel 2007], al llamar a las versiones internacionales, sólo DLL comandos [Excel 2007], las versiones internacionales [Excel 2007], llamada a funciones y comandos, XLL [Excel 2007], llamada a Excel, Excel 4v función [ Excel 2007], xlfn argumento [Excel 2007], [Excel 2007], funciones de llamada en las versiones internacionales
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815574"
 ---
-# <a name="calling-into-excel-from-the-dll-or-xll"></a>Llamar a Excel desde el archivo DLL o XLL
+# <a name="calling-into-excel-from-the-dll-or-xll"></a>Llamar a Excel desde el DLL o XLL
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel permite que el archivo DLL tener acceso a comandos integrados de Excel, funciones de hoja de cálculo y las funciones de hoja de macro. Se encuentran disponibles tanto de los comandos del archivo DLL y las funciones llamadas desde Visual Basic para aplicaciones (VBA) y de funciones llamadas directamente por Excel y comandos XLL registrados.
   
@@ -36,7 +36,7 @@ El código siguiente muestra los prototipos de función para estas cuatro funcio
   
  `int pascal Excel4v(int xlfn, LPXLOPER operRes, int count, LPXLOPER opers[]);`
   
-**Iniciar en Excel 2007**
+**A partir de Excel 2007**
   
  `int _cdecl Excel12(int xlfn, LPXLOPER12 operRes, int count,... );`
   
@@ -315,17 +315,17 @@ En Excel 97 a Excel 2003, **XLCallVer** devuelve 1280 = 0 x 0500 hex = 5 x 256, 
   
 Aunque se puede usar para determinar si la nueva API de C está disponible en tiempo de ejecución, es posible que prefiera detectar la versión de Excel que se está ejecutando mediante el uso de `Excel4(xlfGetWorkspace, &version, 1, &arg)`, donde `arg` es un valor numérico **XLOPER** establecido en 2. La función devuelve una cadena **XLOPER**, la versión, a continuación, se puede convertir a un número entero. El motivo de la confianza en la versión de Excel en lugar de la versión de la API C es que no hay diferencias entre Excel 2000, Excel 2002 y Excel 2003 que el complemento es posible que también necesite detectar. Por ejemplo, se realizaron cambios en la precisión de algunas de las funciones de estadísticas.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Creación de XLL](creating-xlls.md)
+[Crear XLL](creating-xlls.md)
   
-[Acceso al código XLL en Excel](accessing-xll-code-in-excel.md)
+[Obtener acceso a código XLL en Excel](accessing-xll-code-in-excel.md)
   
 [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
   
-[Devoluci�n de llamada de API de C funciona Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+[Funciones de devolución de llamada de API de C de Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   
 [Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
 

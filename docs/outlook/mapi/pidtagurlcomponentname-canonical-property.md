@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagUrlComponentName
+title: Propiedad canónica PidTagUrlComponentName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3a2b0939bbfa5143e4bd99e74b0f84e3ca7efb12
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820413"
 ---
-# <a name="pidtagurlcomponentname-canonical-property"></a>Propiedad canónico PidTagUrlComponentName
+# <a name="pidtagurlcomponentname-canonical-property"></a>Propiedad canónica PidTagUrlComponentName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El nombre del componente de dirección URL para un mensaje. 
   
@@ -34,7 +34,7 @@ El nombre del componente de dirección URL para un mensaje.
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |General de mensajería  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades deben ser únicas dentro de una carpeta. Si no se conjunto cuando se crea el mensaje, el almacén de mensajes debe establecer estas propiedades en función de diversas propiedades del mensaje, según la clase de mensaje. Por ejemplo, el **IPM. Nota** y **IPM. Cita** mensajes deben tienen esta propiedad establecida en función de la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y la **IPM. Contacto** mensajes deben tener esta propiedad establece en función de la propiedad **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para la mayoría de clases de mensaje, esta propiedad debe basarse en la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

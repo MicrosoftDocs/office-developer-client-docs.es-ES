@@ -23,13 +23,13 @@ Obtiene una cadena que representa una colección de personas.
 HRESULT _stdcall GetFriendsAndColleagues([out, retval] BSTR* personsCollection);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 _personsCollection_
   
 > [out] Una cadena XML que representa un conjunto de amigos de la persona, y que cumple con la definición de **amigos** , tal como se define en el esquema XML de extensibilidad de proveedor de Outlook Social Connector (OSC). 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las llamadas de OSC **GetFriendsAndColleagues** si el proveedor OSC es compatible con caché o sincronización híbrido de amigos en la red social. Cuando el OSC llama inicialmente al método **GetFriendsAndColleagues** para el usuario de Outlook que ha iniciado sesión en la red social, **GetFriendsAndColleagues** devuelve una cadena XML que representa los amigos del usuario ha iniciado sesión en la red social. La cadena XML cumple con la definición de esquema XML de **amigos** y especifica un elemento **person** (que también se ajusta a la definición de esquema de proveedor OSC) para cada uno de ellos. 
   
@@ -41,8 +41,8 @@ Para mostrar las actividades de un usuario de Outlook seleccionado en el panel d
   
 Sin embargo, si el usuario de Outlook seleccionado no especifica esa misma dirección SMTP en una cuenta en la red social, o si el usuario de Outlook no tienen una cuenta en esa red social, el OSC no será capaz de encontrar a una coincidencia para que el usuario y no mostrará ningún activiti es de dicho usuario en la red social.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 - [Obtener información sobre amigos](getting-friends-information.md)
 

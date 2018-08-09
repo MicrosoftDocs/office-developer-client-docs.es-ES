@@ -1,5 +1,5 @@
 ---
-title: Subprocesamiento múltiple y contención de memoria en Excel
+title: Multiproceso y conflictos de memoria en Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - subprocesamiento múltiple en excel, funciones de contención de memoria en Excel, funciones [Excel 2007], seguros para subprocesos, subprocesos memoria de proceso local [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815694"
 ---
-# <a name="multithreading-and-memory-contention-in-excel"></a>Subprocesamiento múltiple y contención de memoria en Excel
+# <a name="multithreading-and-memory-contention-in-excel"></a>Multiproceso y conflictos de memoria en Excel
 
- **Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+ **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Las versiones de Microsoft Excel anteriores a Excel 2007 usan un único subproceso para todos los cálculos de la hoja de cálculo. Sin embargo, empezando en Excel 2007, Excel puede configurarse para usar de 1 a 1024 de subprocesos simultáneos para el cálculo de la hoja de cálculo. En un equipo con varios procesadores o varios núcleo, el número predeterminado de subprocesos es igual al número de procesadores o núcleos. Por lo tanto, las celdas de seguros para subprocesos, o las celdas que contienen sólo funciones de seguridad de subprocesos, se pueden asignar a subprocesos simultáneos, sujetos a la lógica de recálculo habitual de que se necesitan se calcula después de sus celdas precedentes.
   
@@ -302,13 +302,13 @@ bool copy_shared_table_element_A_to_B(unsigned int index)
 
 Donde hay una gran cantidad de contención para un recurso compartido, como las solicitudes de acceso frecuente de corta duración, considere la posibilidad de uso de capacidad de la sección crítica para girar. Ésta es una técnica que pone en espera para el recurso menos intensivos del procesador. Para ello, puede utilizar cualquiera **InitializeCriticalSectionAndSpinCount** al inicializar la sección o **SetCriticalSectionSpinCount** una vez inicializada, para establecer el número de veces que el subproceso realiza un bucle antes de esperar para convertirse en los recursos de se encuentra disponible. La operación de espera es cara, por lo que girando Esto evita si el recurso se libera muchísimo. En un sistema de procesador único, el número de recombinaciones de forma eficaz se pasa por alto, pero aún se puede especificar sin problemas. El administrador del montón de memoria usa un recuento de rotación de 4000. Para obtener más información acerca del uso de secciones críticas, consulte la documentación del SDK de Windows. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Administraci�n de memoria en Excel](memory-management-in-excel.md)
+[Administración de memoria en Excel](memory-management-in-excel.md)
   
-[Nuevo c�lculo multiproceso en Excel](multithreaded-recalculation-in-excel.md)
+[Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
   
-[Administrador de complementos y funciones de la interfaz XLL](add-in-manager-and-xll-interface-functions.md)
+[Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)
 

@@ -29,13 +29,13 @@ Vea [IOlkAccount](iolkaccount.md).
 |Etiqueta de la propiedad:  <br/> |0x20100102  <br/> |
 |Access:  <br/> |Es de lectura y escritura.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Obtener o establecer esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md) o [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
   
 Devuelve **MAPIACCT_SEND_ONLY** si la cuenta sólo puede enviar mensajes pero no puede recibir los mensajes. En este caso, Outlook deshabilita la interfaz de usuario que no se aplica a este tipo de cuentas (por ejemplo, en la interfaz de usuario para el **Envío o recepción**).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

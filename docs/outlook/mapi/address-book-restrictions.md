@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b8ad765a2bbd3aafd87a7eff79993978816729b2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19816402"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los proveedores de la libreta de direcciones son necesarios para admitir tres tipos de restricciones en las tablas de contenido de sus contenedores:
   
@@ -47,7 +47,7 @@ Restricciones de clave de instancia o restricciones de propiedad **PR_INSTANCE_K
   
 Otra característica de cuadros de lista que se usa para la visualización de la tabla es la capacidad para colocar el cursor en función de un conjunto de caracteres de prefijo. Como el usuario empieza a escribir caracteres de prefijo, el cliente mueve el cursor al primer elemento que comienza con estos caracteres. Los clientes de implementan esta característica con una restricción de contenido en función de la propiedad **PR_DISPLAY_NAME** y el nivel de aproximada de FL_PREFIX. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

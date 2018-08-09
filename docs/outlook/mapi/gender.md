@@ -1,5 +1,5 @@
 ---
-title: Género
+title: Gender
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7abc62938b3c33e42adedfe8ccd66e072314e333
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816908"
 ---
-# <a name="gender"></a>Género
+# <a name="gender"></a>Gender
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica los valores posibles para el género de un usuario de mensajería.
   
@@ -37,7 +37,7 @@ enum Gender {
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  _genderMin_
   
@@ -63,9 +63,9 @@ enum Gender {
   
 > El número máximo de diferentes valores admitidos para el género.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagGender](pidtaggender-canonical-property.md)
+[Propiedad canónica PidTagGender](pidtaggender-canonical-property.md)
 

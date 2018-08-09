@@ -1,5 +1,5 @@
 ---
-title: Acerca de cómo registrar un nuevo dominio para la configuración automática
+title: Información sobre cómo registrar un nuevo dominio para la configuración automática
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816055"
 ---
-# <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Acerca de cómo registrar un nuevo dominio para la configuración automática
+# <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Información sobre cómo registrar un nuevo dominio para la configuración automática
 
 Outlook proporciona una forma para especificar un nuevo dominio de servicio de mensaje para la configuración automática y permitir que el proveedor de servicios de mensaje configurar la cuenta.
   
@@ -37,7 +37,7 @@ Si el servicio de mensaje especificado no está registrado actualmente en Mapisv
   
 Si el servicio de mensajes está actualmente registrado en Mapisvc.inf y el archivo .dll de proveedor de servicio es una versión apropiada, crea el servicio de mensajes mediante el uso de [IMsgServiceAdmin::](http://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)Outlook y, a continuación, configura mediante el uso de [ IMsgServiceAdmin::ConfigureMsgService](http://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx). Configuración automática de Outlook usa las tres propiedades siguientes para permitir que el proveedor que se va a configurar la cuenta: [PidTagAutoConfigurationUserName](http://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](http://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)y [PidTagAutoConfigurationUserPassword ](http://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Formato de archivo de MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 

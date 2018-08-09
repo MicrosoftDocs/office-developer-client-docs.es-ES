@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4fd0bf5a542e006ec743dbb7fe03d3331875c6d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820508"
 ---
 # <a name="resending-an-undelivered-message"></a>Volver a enviar un mensaje no entregado
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un proveedor de transporte envía un informe de no entrega (NDR) cuando no puede entregar un mensaje que ha enviado correctamente. Es hasta el cliente si los usuarios pueden intentar volver a enviar estos mensajes no entregados. En caso de admitir volver a enviar mensajes, puede usar un formulario de MAPI o implementar el suyo propio. El formulario MAPI muestra los nombres de los destinatarios con errores y el motivo del error de entrega, si es posible e incluye un botón que, cuando se selecciona, permite que un usuario a enviar el mensaje.
   

@@ -19,7 +19,7 @@ ms.locfileid: "19818398"
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Compara dos cadenas Unicode.
   
@@ -29,7 +29,7 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpString1_
   
@@ -43,11 +43,11 @@ int MNLS_lstrcmpW(
 
 Devuelve los valores que se describen para una llamada equivalente al **MNLS_CompareStringW** excepto CSTR_EQUAL. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  _MNLS_lstrcmpW_ realiza una comparación mediante una llamada a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para indicadores y -1 para cch1 y cch2. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

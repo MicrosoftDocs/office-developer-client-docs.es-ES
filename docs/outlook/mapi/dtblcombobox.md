@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3a5188ea9f83d05722c6b5ab81d9e796b33ef254
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816723"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe un control de cuadro combinado que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
@@ -44,7 +44,7 @@ typedef struct _DTBLCOMBOBOX
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   
@@ -78,7 +78,7 @@ MAPI_UNICODE.
   
 > Etiqueta de propiedad de una propiedad de PT Object de tipo en el que se puede abrir una interfaz **IMAPITable** mediante una llamada **OpenProperty** . La tabla debe tener una columna con una propiedad que es el mismo tipo que la propiedad identificada por el miembro **ulPRPropertyName** . Las filas de la tabla se usan para rellenar la lista. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura **DTBLCOMBOBOX** describe un cuadro combinado un control que consta de una lista y un campo de la selección. La lista presenta la información desde la que puede seleccionar un usuario y el campo de selección muestra la selección actual. El campo de selección es un control de edición que también puede usarse para escribir texto no está ya en la lista. 
   
@@ -90,13 +90,13 @@ Para mostrar un valor inicial para el control de edición, MAPI llama a [IMAPIPr
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [DTCTL](dtctl.md)
   
-[Propiedad canónico PidTagControlType](pidtagcontroltype-canonical-property.md)
+[Propiedad canónica PidTagControlType](pidtagcontroltype-canonical-property.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

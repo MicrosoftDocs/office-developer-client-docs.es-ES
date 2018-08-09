@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b481eaf00b7568da5f02ffa3301e8f2698a98e1e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817321"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Presenta un cuadro de diálogo que permite al usuario seleccionar un formulario y devuelve un objeto de información de formulario que describe ese formulario.
   
@@ -37,7 +37,7 @@ HRESULT SelectForm(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -77,7 +77,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en el cuadro de diálogo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::SelectForm** a presenta primero un cuadro de diálogo que permite al usuario seleccionar un formulario y, a continuación, para recuperar un objeto de información de formulario que describe el formulario seleccionado. El cuadro de diálogo restringe el usuario para seleccionar un único formulario. 
   
@@ -93,11 +93,11 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI usa el método **IMAPIFormMgr::SelectForm** para seleccionar un formulario y enviar información sobre el formulario a uno o más registros.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

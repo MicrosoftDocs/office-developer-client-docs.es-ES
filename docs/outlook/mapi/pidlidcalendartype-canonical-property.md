@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidLidCalendarType
+title: Propiedad canónica PidLidCalendarType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 06e066f1-2b7d-4a6b-b88c-85a9bfa83bd3
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8e3017d18491fde6b66c3173c43b8b9d0ee37ea8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19818588"
 ---
-# <a name="pidlidcalendartype-canonical-property"></a>Propiedad canónico PidLidCalendarType
+# <a name="pidlidcalendartype-canonical-property"></a>Propiedad canónica PidLidCalendarType
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Especifica el valor del campo tipo de calendario de la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
@@ -35,7 +35,7 @@ Especifica el valor del campo tipo de calendario de la propiedad **dispidApptRec
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Cuando la convocatoria de reunión representa una serie periódica o una excepción, este es el valor del campo tipo de calendario de la propiedad **dispidApptRecur** . De lo contrario, esta propiedad no es establecer y se supone que es 0. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

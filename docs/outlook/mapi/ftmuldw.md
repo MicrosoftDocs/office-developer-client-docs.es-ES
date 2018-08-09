@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 861a48464193f357224e33eb0348bc7d5372aa10
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816890"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Multiplica a un entero de 64 bits sin signo por un entero sin signo de 32 bits.
   
@@ -40,7 +40,7 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _Multiplicador_
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c942bdbf27590dde04b84970e345f265bc645045
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817893"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona acceso a la tabla de perfil, una tabla que contiene información acerca de todos los perfiles disponibles.
   
@@ -50,7 +50,7 @@ S_OK
   
 > La tabla de perfil se recuperó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IProfAdmin::GetProfileTable** proporciona acceso a la tabla de perfil, que contiene una fila por cada perfil disponible. Hay sólo dos columnas de cada fila: nombre para mostrar del perfil y una marca que indica si el perfil es el valor predeterminado. 
   
@@ -68,15 +68,15 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI usa el método **IProfAdmin::GetProfileTable** para obtener la tabla de perfil para mostrar un cuadro de diálogo nuevo.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [MAPILogonEx](mapilogonex.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

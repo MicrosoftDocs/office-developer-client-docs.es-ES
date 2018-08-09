@@ -18,9 +18,9 @@ ms.locfileid: "19815328"
 Devuelve el elemento en el índice especificado de una lista de valores.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxis
 
 **Elija** (*NúmeroDeÍndice*, *valor*, [*Value_n*]) 
   
@@ -31,7 +31,7 @@ La función **Choose** contiene los siguientes argumentos.
 | *NúmeroDeÍndice*  <br/> |Una expresión de número entero que representa un índice basado en 1 en la lista de los elementos a continuación del mismo.  <br/> |
 | *Valor*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si la proporcionada *númeroDeÍndice* no es un entero, el valor se convierte implícitamente a un valor entero. 
   

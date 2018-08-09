@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 140fe97662f7a2ce68c18d8e0eb991d0819da6dd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816917"
 ---
 # <a name="handling-a-transport-provider"></a>Tratamiento de un proveedor de transporte
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Los clientes se comuniquen con los proveedores de transporte a través de objetos de estado proporcionados por los proveedores de transporte y la cola de MAPI. Los clientes de acceso a objetos de estado mediante una llamada a [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar la tabla de estado. Objetos de estado implementan el [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) de la interfaz, que tiene métodos para configurar proveedores, vaciado entrante y saliente colas de mensajes, las contraseñas de configuración y validación de estado. Para obtener más información acerca de los objetos de estado, vea la [tabla de estado y objetos de estado](status-table-and-status-objects.md).
 

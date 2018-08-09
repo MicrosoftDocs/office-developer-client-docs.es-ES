@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cdf06861cf123162e726348b12fa6033fc88ffdb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816509"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Calcula el número de bytes en una estructura [SMessageClassArray](smessageclassarray.md) existente que contiene un número especificado de punteros de cadena a las clases de mensajes. 
   
@@ -36,18 +36,18 @@ Calcula el número de bytes en una estructura [SMessageClassArray](smessageclass
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  __c_
   
 > Recuento de los punteros a las clases de mensaje que se incluyen en el existente **SMessageClassArray**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [SMessageClassArray](smessageclassarray.md)
 
 
-[Macros relacionadas con las estructuras](macros-related-to-structures.md)
+[Macros relacionadas con estructuras](macros-related-to-structures.md)
 

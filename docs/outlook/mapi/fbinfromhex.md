@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 64d205ee7f51c0ce6a6eb1e982659c6cda675f8e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19816811"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Convierte una representación de cadena de un número hexadecimal en datos binarios. 
   
@@ -40,7 +40,7 @@ BOOL FBinFromHex(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _sz_
   
@@ -60,7 +60,7 @@ FALSE
   
 > La cadena de entrada contiene caracteres no válidos de hexadecimal de ASCII.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

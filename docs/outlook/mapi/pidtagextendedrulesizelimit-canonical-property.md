@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagExtendedRuleSizeLimit
+title: Propiedad canónica PidTagExtendedRuleSizeLimit
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 87186764-fb58-4cdf-804d-bb13c5a8cb65
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 01d25614780f10f30d9e1314ea7f60ad3fbb4af0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819496"
 ---
-# <a name="pidtagextendedrulesizelimit-canonical-property"></a>Propiedad canónico PidTagExtendedRuleSizeLimit
+# <a name="pidtagextendedrulesizelimit-canonical-property"></a>Propiedad canónica PidTagExtendedRuleSizeLimit
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el tamaño máximo, en bytes, se permite al usuario acumular para una sola regla "extendida".
   
@@ -32,9 +32,9 @@ Contiene el tamaño máximo, en bytes, se permite al usuario acumular para una s
 |Propiedades asociadas:  <br/> |PR_EXTENDED_RULE_SIZE_LIMIT  <br/> |
 |Identificador:  <br/> |0x0E9B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Reglas  <br/> |
+|Área:  <br/> |Rules  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Si esta propiedad se establece en el objeto de inicio de sesión, el cliente debe mantener el tamaño de la propiedad **PR_EXTENDED_RULE_MSG_CONDITION** ([PidTagExtendedRuleMessageCondition](pidtagextendedrulemessagecondition-canonical-property.md)) en el valor especificado por esta propiedad. Por el contrario, el servidor debe devolver un error si el cliente intenta establecer una propiedad binaria que es demasiado grande.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

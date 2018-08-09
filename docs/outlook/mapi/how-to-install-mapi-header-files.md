@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f96d951a79332b07ad65abb30bc1f2916bbbeeef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19816980"
 ---
 # <a name="install-mapi-header-files"></a>Instalar los archivos de encabezado MAPI
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se describe cómo obtener e instalar los archivos de biblioteca y archivos de encabezado MAPI.
 
@@ -25,9 +25,9 @@ Archivos de encabezado MAPI están disponibles como una descarga en [Outlook 201
   
 Para obtener una lista de archivos de encabezado MAPI, vea [Usa archivos de encabezado con frecuencia](commonly-used-header-files.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md) 
-- [Vínculo a funciones de MAPI](how-to-link-to-mapi-functions.md)
-- [Archivos de encabezado utilizados normalmente](commonly-used-header-files.md)
+- [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
+- [Archivos de encabezado de uso frecuente](commonly-used-header-files.md)
 

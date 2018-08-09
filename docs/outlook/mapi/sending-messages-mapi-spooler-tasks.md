@@ -19,7 +19,7 @@ ms.locfileid: "19820630"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La cola MAPI est� implicada en el proceso de transmisi�n de mensajes cuando el almac�n de mensajes no est� asociado estrechamente con un proveedor de transporte, cuando el almac�n de acoplamiento ajustado y el transporte no pueden tratar un destinatario y cuando el mensaje requiere preprocesamiento.
   

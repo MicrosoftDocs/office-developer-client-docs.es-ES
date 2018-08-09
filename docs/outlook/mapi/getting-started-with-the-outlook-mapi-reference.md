@@ -15,11 +15,11 @@ ms.locfileid: "19816913"
 ---
 # <a name="getting-started-with-the-outlook-mapi-reference"></a>Introducción a la referencia de MAPI de Outlook
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La referencia de Microsoft Outlook 2013 Messaging API (MAPI) se describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013. En esta sección se describe cómo encontrar las distintas referencia y conceptuales recursos de la referencia de MAPI de Outlook 2013.
   
-Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades. 
+Si no tiene experiencia en el desarrollo de soluciones para Outlook, consulte [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías más adecuadas para sus necesidades. 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -37,7 +37,7 @@ Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Selecc
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
-- [Ejemplos de MAPI (en inglés)](mapi-samples.md)
+- [Ejemplos de MAPI](mapi-samples.md)
   
 - [Conceptos MAPI](mapi-concepts.md)
   

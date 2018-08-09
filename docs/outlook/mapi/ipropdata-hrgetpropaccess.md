@@ -23,7 +23,7 @@ ms.locfileid: "19817894"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Recupera el nivel de acceso y el estado de una o varias de las propiedades del objeto.
   
@@ -77,7 +77,7 @@ Si una propiedad no se ha modificado o eliminado, se establecer� el indicador 
 
 
 
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
 

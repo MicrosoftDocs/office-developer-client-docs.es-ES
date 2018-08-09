@@ -1,5 +1,5 @@
 ---
-title: ESTADO DE SINCRONIZACIÓN
+title: SYNCSTATE
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 63c47e94-f603-aef9-afed-e3819bd79408
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 080556a7ed4530bb96db20fd96d9dda86672a720
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820847"
 ---
-# <a name="syncstate"></a>ESTADO DE SINCRONIZACIÓN
+# <a name="syncstate"></a>SYNCSTATE
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Esta estructura define los Estados de la máquina de estado de replicación.
   
@@ -41,9 +41,9 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Acerca de la API de replicación](about-the-replication-api.md)
-- [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md)
+- [Información sobre la API de replicación](about-the-replication-api.md)
+- [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 

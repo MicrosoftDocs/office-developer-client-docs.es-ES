@@ -27,7 +27,7 @@ Especifica el método de autenticación que se usará para la cuenta de SMTP.
 |Etiqueta de la propiedad:  <br/> |0x02080003  <br/> |
 |Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El valor es una máscara de bits de las siguientes constantes. Vea [constantes (API de administración de cuenta)](constants-account-management-api.md) para sus valores. 
   
@@ -37,8 +37,8 @@ El valor es una máscara de bits de las siguientes constantes. Vea [constantes (
     
 - **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa que solicita al usuario que inicie sesión en el servidor de correo entrante antes de enviar correo. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Descargas de mensaje administración de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)  
+- [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

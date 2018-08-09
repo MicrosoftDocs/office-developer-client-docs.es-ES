@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagLocation
+title: Propiedad canónica PidTagLocation
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 03082536902ead880ba88343cd1991e518ed5665
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819709"
 ---
-# <a name="pidtaglocation-canonical-property"></a>Propiedad canónico PidTagLocation
+# <a name="pidtaglocation-canonical-property"></a>Propiedad canónica PidTagLocation
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la ubicación del destinatario en un formato que es útil para la organización del destinatario. 
   
@@ -34,7 +34,7 @@ Contiene la ubicación del destinatario en un formato que es útil para la organ
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades proporcionan identificación y obtener acceso a información de un destinatario. Se definen por el destinatario y su organización. 
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

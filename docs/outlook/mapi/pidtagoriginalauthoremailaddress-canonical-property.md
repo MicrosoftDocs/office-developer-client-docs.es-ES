@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagOriginalAuthorEmailAddress
+title: Propiedad canónica PidTagOriginalAuthorEmailAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1954e1760fead9cbe13f0f2394f8095cab7f26ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19819812"
 ---
-# <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>Propiedad canónico PidTagOriginalAuthorEmailAddress
+# <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>Propiedad canónica PidTagOriginalAuthorEmailAddress
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene la dirección de correo electrónico del autor de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
   
@@ -34,7 +34,7 @@ Contiene la dirección de correo electrónico del autor de la primera versión d
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Servidor  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades son ejemplos de las propiedades de dirección para el autor de un mensaje. En el primer envío del mensaje, la aplicación cliente debe establecer estas propiedades en el valor de la propiedad **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)). Nunca se ha cambiado cuando el mensaje se reenvía o se responde a.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

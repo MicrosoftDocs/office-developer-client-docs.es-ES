@@ -1,5 +1,5 @@
 ---
-title: Buscar el icono para un mensaje
+title: Buscar el icono de un mensaje
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b73545585d3279bc290524c7ccb26c14c2977fe4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19816803"
 ---
-# <a name="finding-the-icon-for-a-message"></a>Buscar el icono para un mensaje
+# <a name="finding-the-icon-for-a-message"></a>Buscar el icono de un mensaje
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
  **Para buscar el icono asociado a un mensaje**
   

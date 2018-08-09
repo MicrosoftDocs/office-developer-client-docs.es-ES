@@ -8,7 +8,7 @@ keywords:
 - tipos de datos de registro [excel 2007], tipos de datos, las cadenas [Excel 2007], números [Excel 2007], estructuras de datos [Excel 2007], [Excel 2007] los tipos de datos de Excel
 localization_priority: Normal
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
-description: 'Hace referencia a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b32a9beb2f77c12e6b6f2c445672c717a2546386
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "19815533"
 ---
 # <a name="data-types-used-by-excel"></a>Tipos de datos de Excel
 
-**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel intercambia varios tipos de ANSI C o C++ y también algunas estructuras de datos específicas de Excel. Se mencionan aquí para proporcionar un contexto de otras secciones, y se explican en detalle en el tema [xlfRegister (formulario 1)](xlfregister-form-1.md) . 
   
 ## <a name="ansi-cc-types"></a>Tipos de ANSI C o C++
 
-### <a name="numbers"></a>N�meros
+### <a name="numbers"></a>Números
 
 Todas las versiones de Excel:
   
@@ -36,7 +36,7 @@ Todas las versiones de Excel:
     
 - [long con signo] int
     
-### <a name="strings"></a>Cadenas
+### <a name="strings"></a>Strings
 
 Todas las versiones de Excel:
   
@@ -80,7 +80,7 @@ En la siguiente tabla se reproducen y tratan con más detalle en el tema [xlfReg
   
 |Tipo de datos|Pasar por valor|Pase mediante referencia (puntero)|Comentarios|
 |:-----|:-----|:-----|:-----|
-|Boolean  <br/> |A  <br/> |L  <br/> |short (0 = false o 1 = true)  <br/> |
+|Booleano  <br/> |A  <br/> |L  <br/> |short (0 = false o 1 = true)  <br/> |
 |double  <br/> |B  <br/> |E  <br/> ||
 |Char\*  <br/> ||C, F  <br/> |Cadena de bytes ASCII terminada en null  <br/> |
 |char sin signo\*  <br/> ||D., G  <br/> |Longitud-cadena de bytes ASCII contada  <br/> |
@@ -104,9 +104,9 @@ Tipos **P** y **Q** siempre llegan a la función como uno de los siguientes tipo
   
 Tipo **O**, que es en realidad tres argumentos en la pila, se introdujo para la compatibilidad con archivos DLL Fortran donde los argumentos se pasan por referencia. No se puede utilizar para devolver un valor, excepto por el argumento como un valor devuelto de modificar en lugar de declarar y colocar los resultados en los valores que se hace referencia. Escriba **% O** extiende de tipo **O** en Excel 2007 para que puede obtener acceso a las matrices que cubren áreas mayores que la cuadrícula de Office Excel 2003. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [xlfRegister (formulario 1)](xlfregister-form-1.md)
-- [Conceptos de programaci�n de Excel](excel-programming-concepts.md)
+- [xlfRegister (Formulario 1)](xlfregister-form-1.md)
+- [Conceptos de programación de Excel](excel-programming-concepts.md)
 - [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
 

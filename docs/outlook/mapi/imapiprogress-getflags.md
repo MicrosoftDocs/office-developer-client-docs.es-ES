@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817388"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve marca configuración desde el objeto de progreso para el nivel de operación en la que se calcula la información de progreso.
   
@@ -33,7 +33,7 @@ HRESULT GetFlags(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
@@ -49,7 +49,7 @@ S_OK
   
 > El valor de flags se devolvió correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 MAPI permite a los proveedores de servicio diferenciar entre objetos de nivel superior y subobjetos con el indicador MAPI_TOP_LEVEL para que todos los objetos implicados en una operación pueden usar la misma implementación de [IMAPIProgress](imapiprogressiunknown.md) para mostrar el progreso. Esto hace que la visualización del indicador se realice correctamente en un solo sentido positivo. Si se establece la marca MAPI_TOP_LEVEL determina cómo los proveedores de servicios establecen los demás parámetros en llamadas posteriores al objeto de progreso. 
   
@@ -71,18 +71,18 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI usa el método **IMAPIProgress::GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se han configurado indicadores mediante el método **IMAPIProgress::SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   
-[Implementación de un indicador de progreso](implementing-a-progress-indicator.md)
+[Implementar un indicador de progreso](implementing-a-progress-indicator.md)
 
