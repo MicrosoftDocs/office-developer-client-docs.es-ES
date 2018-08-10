@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821533"
 ---
-# <a name="atan-function"></a>ATAN (función)
+# <a name="atan-function"></a>Función ATAN
 
 Devuelve el arco tangente de un número, por ejemplo, el ángulo cuya tangente es _número_. El ángulo resultante está en el intervalo -PI/2 < = ángulo < = PI/2 radianes (-90 < = ángulo < = 90 grados). 
   
@@ -24,11 +24,11 @@ Devuelve el arco tangente de un número, por ejemplo, el ángulo cuya tangente e
 
 ATAN (** *número* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |La tangente del ángulo.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |La tangente del ángulo.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 

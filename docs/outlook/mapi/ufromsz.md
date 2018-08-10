@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5be5cd7c352201159c0257861c0072b56da65082
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820927"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Convierte una cadena terminada en null de dígitos decimales en un entero sin signo. 
   
@@ -39,7 +39,7 @@ UINT UFromSz(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
@@ -49,7 +49,7 @@ UINT UFromSz(
 
  **UFromSz** devuelve un entero sin signo. Si la cadena no comienza con al menos un dígito decimal, se devuelve cero. 
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La función **UFromSz** detiene la conversión cuando alcanza el primer carácter en la cadena que no es un dígito decimal. Por ejemplo, dada la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dada la cadena "a5b5", **UFromSz** devuelve cero. 
   

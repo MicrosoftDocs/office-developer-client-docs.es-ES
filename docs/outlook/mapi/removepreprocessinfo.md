@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fab8860621cee5a87b087ee9d98f373baa278e45
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820526"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Quita preprocesa escrita por una función [PreprocessMessage](preprocessmessage.md) en función de un mensaje de información. 
   
@@ -39,7 +39,7 @@ HRESULT RemovePreprocessInfo(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
@@ -51,7 +51,7 @@ S_OK
   
 > Información preprocesado se quitó correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La cola MAPI llama a una función según **RemovePreprocessInfo**. Un proveedor de transporte registra la función **RemovePreprocessInfo** en función al mismo tiempo que registra la función **PreprocessMessage** basado paralela en una llamada al método [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
   

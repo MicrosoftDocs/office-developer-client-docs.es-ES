@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 39f255a277403073132dfd3cd21c995eefe904c9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817285"
 ---
-# <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer: IUnknown
+# <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Administra formularios en las bibliotecas de formularios. Esta interfaz se usa para crear bibliotecas de formularios específicos de la aplicación. 
   
@@ -48,7 +48,7 @@ Administra formularios en las bibliotecas de formularios. Esta interfaz se usa p
 |[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Devuelve el nombre para mostrar de un contenedor de formulario.  <br/> |
 |[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen en el objeto de contenedor de formulario.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

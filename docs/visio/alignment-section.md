@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821518"
 ---
-# <a name="alignment-section"></a>Sección de alineación
+# <a name="alignment-section"></a>Sección Alineación
 
 Indica la alineación de una forma con respecto a la guía o la Guía de apuntar a la que está pegada la forma. La sección de **Alineación** sólo aparece para las formas que están pegadas a guías. 
   

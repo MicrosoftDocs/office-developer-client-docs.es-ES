@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónico PidTagTransmittableDisplayName
+title: Propiedad canónica PidTagTransmittableDisplayName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 96eaf6c3f9ddc9d4bf6bc16ddc28a6f38bc311f2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820388"
 ---
-# <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propiedad canónico PidTagTransmittableDisplayName
+# <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propiedad canónica PidTagTransmittableDisplayName
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Contiene el nombre para mostrar de un destinatario en un formulario de seguro que no se puede cambiar.
   
@@ -34,7 +34,7 @@ Contiene el nombre para mostrar de un destinatario en un formulario de seguro qu
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Estas propiedades deben implementarse por todos los proveedores de libreta de direcciones. Que contienen la versión de nombre para mostrar del destinatario que se transmite con el mensaje. Para la mayoría de los proveedores de la libreta de direcciones, estas propiedades tienen el mismo valor que la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Proveedores que no tienen un nombre para mostrar seguro devolver el nombre para mostrar de los cambios PT_ERROR y MAPI mediante la adición de comillas en el nombre.
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -82,7 +82,7 @@ Mapitags.h
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
 

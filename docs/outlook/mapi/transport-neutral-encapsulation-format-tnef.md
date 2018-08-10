@@ -1,5 +1,5 @@
 ---
-title: Formato de encapsulación neutro para el transporte (TNEF)
+title: Formato de encapsulamiento neutro para el transporte (TNEF)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820886"
 ---
-# <a name="transport-neutral-encapsulation-format-tnef"></a>Formato de encapsulación neutro para el transporte (TNEF)
+# <a name="transport-neutral-encapsulation-format-tnef"></a>Formato de encapsulamiento neutro para el transporte (TNEF)
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 TNEF es un formato para convertir un conjunto de propiedades MAPI, un mensaje MAPI: en una secuencia de datos en serie. Las funciones TNEF se usan principalmente los proveedores de transporte que necesitan para codificar las propiedades de mensaje MAPI para la transmisión a través de un sistema de mensajería que no es compatible con esas propiedades directamente. Por ejemplo, un transporte basado en SMTP utiliza TNEF para codificar propiedades como **PR_SENT_REPRESENTING_NAME de MAPI** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)), que no tienen directos representaciones en la estructura de un mensaje SMTP.
   

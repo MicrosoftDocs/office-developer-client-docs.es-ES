@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 713a177d5ceddf5fd4d97a0e35d87b2250748faf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817283"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una clase de mensaje se resuelve en su formulario en un contenedor de formulario y devuelve un objeto de información de formulario para ese formulario.
   
@@ -35,7 +35,7 @@ HRESULT ResolveMessageClass(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _szMessageClass_
   
@@ -63,7 +63,7 @@ MAPI_E_NOT_FOUND
   
 > La clase de mensaje que se pasa en el parámetro _szMessageClass_ no coincide con la clase de mensaje para cualquier formulario en el contenedor de formulario. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Las aplicaciones cliente de llaman al método **IMAPIFormContainer::ResolveMessageClass** para resolver una clase de mensaje a un formulario dentro de un contenedor de formulario. El objeto de información de formulario devuelto en el parámetro _ppforminfo_ aún más proporciona acceso a las propiedades del formulario con la clase de mensaje determinado. 
   
@@ -81,15 +81,15 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMessageClass  <br/> |MFCMAPI utiliza el método **IMAPIFormContainer::ResolveMessageClass** para localizar un formulario que está asociado a una clase de mensaje.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 

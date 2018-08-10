@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821536"
 ---
-# <a name="arcto-row-geometry-section"></a>Fila ArcTo (Sección de geometría)
+# <a name="arcto-row-geometry-section"></a>Fila ArcTo (sección Geometría)
 
 Contiene el *x* - e *y* -las coordenadas y la curvatura de un arco circular. 
   
@@ -32,6 +32,6 @@ Las filas ArcTo contienen las celdas siguientes.
 
 Los arcos que dibuja Visio son elípticos, incluso si se basan en un círculo. De forma predeterminada, los arcos dibujados se representan mediante una fila EllipticalArcTo en la ventana ShapeSheet. Para mostrar una fila ArcTo en una ventana ShapeSheet, tiene que dibujar un arco y, a continuación, cambiar el tipo de fila EllipticalArcTo por el tipo ArcTo; en efecto, está cambiando un arco elíptico por un arco circular.
   
-Para cambiar un tipo de fila, haga clic en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para cambiar un tipo de fila, haga clic con el botón secundario del mouse (ratón) en la fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
   
 

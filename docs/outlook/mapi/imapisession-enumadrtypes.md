@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6bd13eb7180302a5ab770586cf36856ca5a22676
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817433"
 ---
-# <a name="imapisessionenumadrtypes"></a>IMAPISession:: EnumAdrTypes
+# <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En desuso. Devuelve los tipos de direcciones que se pueden controlar por todos los proveedores de transporte en la sesión. 
   
@@ -59,7 +59,7 @@ S_OK
   
 > Los tipos de direcciones se recuperaron correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISession:: EnumAdrTypes** devuelve una lista de los tipos de direcciones que se pueden controlar por todos los proveedores de transporte activo en la sesión. No se incluyen los tipos de direcciones para los proveedores de transporte que no están cargados actualmente en la lista. Registrar los proveedores de transporte para controlar uno o varios tipos de direcciones cuando MAPI llama a su método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
@@ -67,7 +67,7 @@ El método **IMAPISession:: EnumAdrTypes** devuelve una lista de los tipos de di
 
 Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadena indicada por el parámetro _lpppszAdrTypes_ . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

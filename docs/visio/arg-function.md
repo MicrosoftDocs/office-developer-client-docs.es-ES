@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821559"
 ---
-# <a name="arg-function"></a>ARG (función)
+# <a name="arg-function"></a>Función ARG
 
 Especifica un argumento que la celda de llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda de llamada no pasa un valor para el argumento. Devuelve el valor especificado por la celda de llamada y el parámetro argName correspondiente.
   
@@ -22,7 +22,7 @@ Especifica un argumento que la celda de llamada puede pasar a una función perso
 
 ARG (** *argName* **, [** *defaultValue* **]) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

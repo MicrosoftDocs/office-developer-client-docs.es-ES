@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821538"
 ---
-# <a name="alignbottom-cell-alignment-section"></a>Celda AlignBottom (Sección de alineación)
+# <a name="alignbottom-cell-alignment-section"></a>Celda AlignBottom (sección Alineación)
 
 Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el borde inferior de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignBottom por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignBottom por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

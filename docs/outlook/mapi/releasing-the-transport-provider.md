@@ -1,5 +1,5 @@
 ---
-title: Liberar el proveedor de transporte
+title: Publicar el proveedor de transporte
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820493"
 ---
-# <a name="releasing-the-transport-provider"></a>Liberar el proveedor de transporte
+# <a name="releasing-the-transport-provider"></a>Publicar el proveedor de transporte
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Cuando MAPI o la cola MAPI termina de usar un objeto de inicio de sesión de transporte:
   

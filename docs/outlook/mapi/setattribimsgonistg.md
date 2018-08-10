@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e8a0daa2afe2397f39b7f37a31ef718ba65a3350
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820644"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Establece o modifica los atributos de propiedades en un objeto [IMessage](imessageimapiprop.md) proporcionado por la función [OpenIMsgOnIStg](openimsgonistg.md) . 
   
@@ -42,7 +42,7 @@ HRESULT SetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpObject_
   
@@ -70,7 +70,7 @@ MAPI_W_ERRORS_RETURNED
   
 > La llamada satisfactoria, pero una o varias propiedades no se podrían tener acceso a y se han devuelto con un tipo de propiedad de PT_ERROR.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Sólo se pueden tener acceso a atributos de la propiedad en objetos property, es decir, objetos que implementan la [IMAPIProp: IUnknown](imapipropiunknown.md) interfaz. Para hacer que las propiedades MAPI esté disponible en un objeto de almacenamiento estructurado OLE, se basa [OpenIMsgOnIStg](openimsgonistg.md) un [IMessage: IMAPIProp](imessageimapiprop.md) objeto en la parte superior del objeto OLE **IStorage** . Pueden establecer los atributos de propiedad en dichos objetos o modifica con **SetAttribIMsgOnIStg** y recuperar con [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
   

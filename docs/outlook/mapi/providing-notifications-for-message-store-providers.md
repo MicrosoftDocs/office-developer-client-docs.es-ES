@@ -1,5 +1,5 @@
 ---
-title: Proporcionar notificaciones para los proveedores de almacén de mensajes
+title: Proporcionar notificaciones a proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3abb4ba67ff5f0cf2284fa9286b6968698877b84
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820464"
 ---
-# <a name="providing-notifications-for-message-store-providers"></a>Proporcionar notificaciones para los proveedores de almacén de mensajes
+# <a name="providing-notifications-for-message-store-providers"></a>Proporcionar notificaciones a proveedores de almacenamiento de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Mientras que las notificaciones son opcionales, son una parte muy importante de un proveedor de almacén de mensaje válida. Las aplicaciones cliente y la cola MAPI se basan en las notificaciones desde el proveedor de almacenamiento de mensajes para obtener un buen rendimiento al enviar los mensajes salientes o recibir mensajes entrantes. Los clientes y la cola MAPI pueden funcionar sin recibir notificaciones desde el proveedor de almacenamiento de mensajes, pero no podrán informar a los usuarios los cambios en el almacén de mensajes sin ellos. Normalmente, esto significa que los usuarios no podrán ver que ha recibido un nuevo mensaje de hasta que su cliente siguiente abre el almacén de mensajes reciben carpeta.
   
@@ -27,7 +27,7 @@ Registro de clientes para las notificaciones llamando al método [IMsgStore::Adv
   
 Incluso si el mensaje almacenar proveedor nunca notifica a otros componentes MAPI de cambios realizados en el almacén de mensajes, aún debe implementar **IMsgStore::Advise** para devolver MAPI_E_NO_SUPPORT. Esto informa a otros componentes para que no espera que el proveedor de almacén de notificaciones desde el mensaje. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

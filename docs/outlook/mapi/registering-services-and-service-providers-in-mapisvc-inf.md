@@ -1,5 +1,5 @@
 ---
-title: Registro de servicios y proveedores de servicios en MapiSvc.inf
+title: Registrar servicios y proveedores de servicios en MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820490"
 ---
-# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registro de servicios y proveedores de servicios en MapiSvc.inf
+# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar servicios y proveedores de servicios en MapiSvc.inf
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Instalación de un nuevo proveedor en un sistema requiere la actualización del archivo MapiSvc.inf para que apunte al nuevo proveedor. Las propiedades estándar establecer durante la configuración, que se incluyen los siguientes, informar a MAPI dónde encontrar la biblioteca de vínculos dinámicos (.dll) de un proveedor:
   

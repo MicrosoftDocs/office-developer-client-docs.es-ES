@@ -16,15 +16,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821534"
 ---
-# <a name="address-cell-hyperlinks-section"></a>Celda Address (Sección de hipervínculos)
+# <a name="address-cell-hyperlinks-section"></a>Celda Address (sección Hipervínculos)
 
 Especifica una dirección URL, un nombre de archivo o una ruta UNC a la que se va a saltar.
   
 Puede especificar la dirección como una ruta de acceso relativa basada en la ruta de acceso base definida para el documento en el cuadro **base de hipervínculo** en la ficha **Resumen** del cuadro de diálogo **Propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en ** Propiedades ** y, a continuación, haga clic en **Propiedades avanzadas**). Si el documento no tiene ninguna ruta de acceso base, la aplicación se desplaza en función de la ruta de acceso del documento. Si no se ha guardado el documento, el hipervínculo no está definido.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de la celda dirección en el cuadro de diálogo **hipervínculos** (haga clic en **hipervínculo** en la ficha **Insertar** ). 
+También puede establecer el valor de la celda Address en el cuadro de diálogo **Hipervínculos** (haga clic en **Hipervínculos** en la pestaña **Insertar**). 
   
 Para obtener una referencia a la celda Address por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -1,5 +1,5 @@
 ---
-title: Soporte de comparación y el acceso a objetos
+title: Admitir la comparación y acceso a objetos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820823"
 ---
-# <a name="supporting-object-access-and-comparison"></a>Soporte de comparación y el acceso a objetos
+# <a name="supporting-object-access-and-comparison"></a>Admitir la comparación y acceso a objetos
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proveedores de servicios pueden usar los métodos [IMAPISupport::OpenEntry](imapisupport-openentry.md) y [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para abrir y comparar los objetos que pertenecen a su proveedor o a otros proveedores: 
   
@@ -35,7 +35,7 @@ Para ilustrar cómo un proveedor de transporte podría utilizar **IMAPISupport::
     
 Si ha abierto varios objetos de otros proveedores, necesitará averiguar si dos identificadores de entrada hacen referencia al mismo objeto. Por ejemplo, es posible que tenga un identificador de entrada a corto plazo y un identificador de entrada a largo plazo y estos identificadores pueden o no se pueden identificar el mismo objeto. Para evitar el procesamiento redundante, llame al método [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para comparar estos identificadores de entrada. Debe usar este método para la comparación de identificador de entrada debido a que no se pueden comparar directamente los identificadores de entrada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

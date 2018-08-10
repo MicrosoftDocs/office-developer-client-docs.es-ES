@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cbaf37415608dd1d79a06be65b34632f2b4afc89
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820887"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En este tema se presenta un Nauer Bakus parecido a la descripción de la sintaxis de la secuencia TNEF. En esta descripción, no terminal elementos que tienen una definición más están en cursiva. Constantes y elementos literales están en negrita. Las secuencias de elementos se enumeran en el orden de una sola línea. Por ejemplo, el elemento de _secuencia_ consta de la constante **TNEF_SIGNATURE**, seguido de una _clave_, seguido de un _objeto_. Cuando un elemento tiene más de una implementación posible, las alternativas se muestran en líneas consecutivas. Por ejemplo, un _objeto_ puede constar de un _Message_Seq_, un _Message_Seq_ seguido de un _Attach_Seq_, o simplemente un _Attach_Seq_.
   

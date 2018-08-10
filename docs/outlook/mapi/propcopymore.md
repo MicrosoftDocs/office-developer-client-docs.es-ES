@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 750d8b8d50acb9cf7340e6553062412667398665
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820447"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia un valor de propiedad único desde una ubicación de origen a una ubicación de destino. 
   
@@ -42,7 +42,7 @@ SCODE PropCopyMore(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSPropValueDest_
   
@@ -70,7 +70,7 @@ MAPI_E_NO_SUPPORT
   
 > Se encontró un tipo de propiedad desconocido.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una aplicación de cliente o un proveedor de servicios puede usar la función **PropCopyMore** para copiar una propiedad fuera de una tabla que se va a ser liberados para poder utilizarlo en otro lugar. 
   

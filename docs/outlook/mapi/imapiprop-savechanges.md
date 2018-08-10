@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 0a60b813a52779b28124ab6d69b493def35b14aa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817425"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Hace permanentes los cambios realizados a un objeto desde la última operación de guardar. 
   
@@ -81,7 +81,7 @@ MAPI_E_OBJECT_DELETED
   
 > El objeto se ha eliminado desde que se abrió.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPIProp::SaveChanges** realiza los cambios de propiedad permanente para los objetos que admiten el modelo de transacción de procesamiento, como mensajes, datos adjuntos, contenedores de libretas de direcciones y los objetos de usuario de mensajería. Objetos que no admiten transacciones, como las carpetas, los almacenes de mensajes y las secciones de perfil, realice cambios permanentes inmediatamente. Ninguna llamada a **SaveChanges** es necesaria. 
   
@@ -124,15 +124,15 @@ Si **SaveChanges** devuelve un error, abra el objeto cuyos cambios tenían que g
   
 Para obtener más información, vea [Guardar las propiedades de MAPI](saving-mapi-properties.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [Guardar las propiedades MAPI](saving-mapi-properties.md)

@@ -21,7 +21,7 @@ ms.locfileid: "19821527"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de la extensión** <br/> |Ninguna  <br/> |
+|**Base de extensión** <br/> |Ninguna  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -56,8 +56,8 @@ Ninguno.
 
 |**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|id.  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|Iniciales  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|Initials  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
 |Nombre  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
 |ResolutionID  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
    

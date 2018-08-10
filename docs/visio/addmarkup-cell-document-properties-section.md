@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821530"
 ---
-# <a name="addmarkup-cell-document-properties-section"></a>Celda AddMarkup (Sección de propiedades del documento)
+# <a name="addmarkup-cell-document-properties-section"></a>Celda AddMarkup (sección Propiedades del documento)
 
 Indica si el documento se está editando con marcas de revisión.
   
@@ -32,9 +32,9 @@ Cuando se establece la celda AddMarkup es true, el revisor agrega las marcas y l
 > [!NOTE]
 > Puede evitar marcado en los documentos mediante la función GUARD. Si la celda AddMarkup contiene la fórmula = GUARD (false), el comando **Seguimiento de revisiones** está deshabilitado. 
   
-Esta configuración corresponde a la opción de comando **Seguimiento de revisiones** en el grupo de **marcado** en la ficha **Revisar** . 
+Esta configuración corresponde al comando **Seguimiento de revisiones** del grupo **Revisión** de la ficha **Revisar**. 
   
-Para obtener una referencia a la celda AddMarkup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AddMarkup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

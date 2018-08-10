@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1fb7224e110bbee6844cf2820782aac8be213ba3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820487"
 ---
 # <a name="removing-address-book-entries"></a>Quitar entradas de la libreta de direcciones
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Método de [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) de su contenedor se llama para quitar a uno o más destinatarios. **DeleteEntries** tiene dos parámetros: una matriz de identificadores de entrada que representa los destinatarios que se eliminará y un valor de indicadores reservados. Eliminación de un destinatario afecta a la tabla de contenido de su contenedor. Además de eliminar al destinatario, el contenedor debe eliminar la fila de tabla de contenido que representa al destinatario. Cuando se ha quitado la fila de la tabla, el contenedor debe emitir una notificación de la tabla para cada cliente registrado. 
   

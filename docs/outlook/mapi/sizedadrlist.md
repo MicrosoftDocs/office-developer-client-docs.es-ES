@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 13dad61176a877295069317e4a5b51888b01bebb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820661"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una estructura de [ADRLIST](adrlist.md) con el nombre especificado que contiene un número especificado de estructuras [ADRENTRY](adrentry.md) . 
   
@@ -34,7 +34,7 @@ Define una estructura de [ADRLIST](adrlist.md) con el nombre especificado que co
 SizedADRLIST (_centries,_name)
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
 __centries_
   
@@ -44,7 +44,7 @@ __nombre_
   
 > Nombre de la nueva estructura **ADRLIST** . 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 La macro **SizedADRLIST** le permite definir una lista de destinatarios que tiene límites explícitos cuando se conocen los requisitos de longitud de la matriz. El código siguiente muestra cómo convertir el resultado de la macro **SizedADRLIST** a un puntero de estructura **ADRLIST** : 
   
@@ -52,9 +52,9 @@ La macro **SizedADRLIST** le permite definir una lista de destinatarios que tien
 lpADRList = (LPADRLIST) &SizedADRList;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [ADRLIST](adrlist.md)
 - [ADRENTRY](adrentry.md)
-- [Macros relacionadas con las estructuras](macros-related-to-structures.md)
+- [Macros relacionadas con estructuras](macros-related-to-structures.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Subprocesamiento en MAPI
+title: Subprocesos en MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15fb6113e9c3428cff3865307736592fd6e2b2f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820859"
 ---
-# <a name="threading-in-mapi"></a>Subprocesamiento en MAPI
+# <a name="threading-in-mapi"></a>Subprocesos en MAPI
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un subproceso es la entidad básica a la que el sistema operativo asigna tiempo de CPU. Un subproceso tiene su propio registros, la pila, la prioridad y el almacenamiento, pero comparte una dirección espacio y el proceso de los recursos, como los tokens de acceso. Los subprocesos comparten también memoria, con lo que haya escrito otro subproceso de lectura de un subproceso.
   

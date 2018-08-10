@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 22562e1177c9a649bc66b25b5e8e9e6ecc8e397c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820441"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una función que preprocesa el contenido del mensaje o el formato de un mensaje.
   
@@ -48,7 +48,7 @@ HRESULT PreprocessMessage(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpvSession_
   
@@ -96,7 +96,7 @@ S_OK
   
 > El contenido del mensaje se han preprocesado correctamente.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Un preprocesador de mensaje del proveedor de transporte puede presentar un indicador de progreso durante el preprocesamiento del mensaje. Sin embargo, nunca debe presentar un cuadro de diálogo requerir la interacción del usuario durante el preprocesamiento del mensaje. 
   
@@ -108,13 +108,13 @@ Antes de la cola MAPI puede llamar a una función **PreprocessMessage** , el pro
   
 La cola MAPI propietario de la tarea de envío de mensajes. Esto significa que el mensaje original nunca se coloca en una matriz de punteros de mensaje y que nunca se requiere una llamada a los métodos de **SubmitMessage** . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Relacionada con el OSC con Outlook y las redes sociales
+title: Información relativa a la OSC con Outlook y las redes sociales
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821216"
 ---
-# <a name="relating-the-osc-with-outlook-and-social-networks"></a>Relacionada con el OSC con Outlook y las redes sociales
+# <a name="relating-the-osc-with-outlook-and-social-networks"></a>Información relativa a la OSC con Outlook y las redes sociales
 
 Outlook Social Connector (OSC) puede mostrar en la tarjeta de contacto de Office y panel de personas de Outlook actividades, estado o actualizaciones de fotografías para cualquier persona que está asociados con, amigo o un compañero de trabajo. De forma predeterminada, el OSC muestra los correos electrónicos de Outlook, los datos adjuntos, y las convocatorias de reunión reciben de una persona seleccionada. Si la persona seleccionada y el usuario de Office colaboran en un sitio de SharePoint, el OSC muestra también actualizaciones de documentos y otras actividades de sitio de ese sitio de SharePoint. Dependiendo de los contextos de asociación que es de interés para el usuario de Office, el usuario de Office puede instalar a proveedores de OSC para aplicaciones de línea de negocio, sitios Web corporativos interno o una variedad de sitios de red profesionales y sociales, como LinkedIn, Facebook y Windows Live.
   
@@ -45,7 +45,7 @@ En esta referencia de proveedor de conector de Outlook Social, una red social se
     
 El amigo términos se usa generalmente para incluir amigos, familiares, compañeros de trabajo, las conexiones y cualquier otra persona está asociada con en un contexto de colaboración como SharePoint un usuario de Office, o ha agregado a la cuenta de usuario red social. No amigos son las personas que se hace referencia en las actualizaciones de actividad de amigos pero no amigos que se han agregado a la cuenta de red social del usuario de Office. Los contactos son personas en una carpeta de contactos de Outlook. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Introducción al desarrollo de un proveedor de Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

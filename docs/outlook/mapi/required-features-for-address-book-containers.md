@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820521"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 La mayoría de los proveedores de la libreta de direcciones compatible con al menos un contenedor, algunos de ellos modificable. Contenedores de la libreta de direcciones pueden suministrar contenido y las tablas de jerarquía, las capacidades de búsqueda y resolución de nombres. Contenedores modificables permiten la eliminación de entradas, como los usuarios, las listas de distribución, u otros contenedores y la adición de entradas de las entradas de otros contenedores o de plantillas de uso único de mensajería.
   

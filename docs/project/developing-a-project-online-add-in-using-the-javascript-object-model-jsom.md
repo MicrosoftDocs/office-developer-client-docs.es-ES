@@ -149,7 +149,7 @@ El complemento necesita niveles de permiso o ámbito definidos antes de que el s
 
 |Ámbito|Permiso|
 |:-----|:-----|
-|Varios proyectos (Project Server)  <br/> |Leído  <br/> |
+|Varios proyectos (Project Server)  <br/> |Read  <br/> |
    
 Guarde el archivo después de establecer el ámbito de la aplicación. De lo contrario, no se devolverá datos desde el servicio. 
   
@@ -170,7 +170,7 @@ Agregue el siguiente comando para la definición de PS.js o PS.debug.js en el `<
 
 El complemento de ejemplo consta de unos pocos componentes. Descripciones de los elementos estáticos se encuentran en el archivo Default.aspx. Las descripciones de elementos dinámicos y código para todos los componentes se encuentran en el archivo App.js. Para comentarios acerca de los componentes, consulte los listados de código de origen. Aquí tiene una lista de los componentes de la interfaz de usuario en el complemento:
   
-- Título
+- Title
     
 - Vocabulario introductorio
     
@@ -329,7 +329,7 @@ Sigue la salida de ejemplo para las tareas de un único proyecto.
   
 ![Captura de pantalla que muestra el resultado de una tarea de proyecto] (media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "Captura de pantalla que muestra el resultado de una tarea de proyecto")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener documentación y ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal del proyecto de desarrollo](http://dev.office.com/project.aspx).
     

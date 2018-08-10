@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 096437f10c5b992a1db55f6a856c38021a81b99a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817337"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Presenta un cuadro de diálogo que permite al usuario seleccionar varios formularios y devuelve una matriz de formulario objetos de información que se describen dichos formularios.
   
@@ -38,7 +38,7 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -82,7 +82,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en el cuadro de diálogo. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Visores de formulario llamar al método **IMAPIFormMgr::SelectMultipleForms** a presenta primero un cuadro de diálogo que permite al usuario seleccionar varios formularios y, a continuación, para recuperar una matriz de formulario de información de los objetos que se describen los formularios seleccionados. El cuadro de diálogo **SelectMultipleForms** muestra todos los formularios, independientemente de si están ocultos (es decir, si sus propiedades ocultas son claros). 
   
@@ -90,9 +90,9 @@ Visores de formulario llamar al método **IMAPIFormMgr::SelectMultipleForms** a 
 
 Si un visor de formulario, pasa el indicador MAPI_UNICODE el parámetro _ulFlags_ , todas las cadenas son cadenas Unicode. Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE.. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

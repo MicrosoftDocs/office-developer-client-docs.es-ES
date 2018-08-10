@@ -35,7 +35,7 @@ Para especificar las capacidades de un proveedor de OSC como un parámetro de sa
   
 Para obtener descripciones detalladas de los elementos secundarios del elemento de **funciones** , vea [Los elementos XML de las capacidades](capabilities-xml-elements.md). Para obtener un ejemplo de XML de las **capacidades** , vea [Ejemplo de XML de las capacidades](capabilities-xml-example.md). Para ver una definición completa del esquema XML de proveedor OSC, incluido qué elementos son obligatorios u opcionales, vea [Esquema de XML de Outlook Social Connector proveedor](outlook-social-connector-provider-xml-schema.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md)  
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  

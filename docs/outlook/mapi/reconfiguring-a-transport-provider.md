@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d466bde-b70d-44b6-ba03-6ad8353ec759
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ec5a431d04799e3f19c23dd0437aeac13fbf0968
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820482"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Puede usar el objeto de estado del proveedor de transporte para cambiar algunas de las propiedades del proveedor. El intervalo de las propiedades que se pueden cambiar depende de las propiedades que se incluyen con la hoja de propiedades del proveedor y cómo se definen esas propiedades. 
   

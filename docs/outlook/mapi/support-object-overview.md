@@ -1,5 +1,5 @@
 ---
-title: Información general sobre objetos de soporte técnico
+title: Información general del objeto de soporte técnico
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ecc5439b4abbbfd920fba5456db7462f7967388f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820776"
 ---
-# <a name="support-object-overview"></a>Información general sobre objetos de soporte técnico
+# <a name="support-object-overview"></a>Información general del objeto de soporte técnico
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI proporciona un objeto de soporte técnico, un objeto que implementa el [IMAPISupport: IUnknown](imapisupportiunknown.md) interfaz, para todos los proveedores de servicio durante el inicio de sesión y para todos los servicios de mensaje durante la configuración. 
   
@@ -71,7 +71,7 @@ Cuando se necesita para crear una nueva libreta de direcciones o un mensaje alma
   
 A veces, una aplicación cliente puede liberar un objeto sin liberar uno o varios de sus objetos afiliados. En tal caso, un proveedor puede requerir representar un objeto no publicado no se puede utilizar. Para ello, el proveedor libera todos los recursos relacionados con el objeto y, a continuación, llama a [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) para invalidar vtable del objeto. **MakeInvalid** reemplaza los métodos de **IUnknown** del vtable (**QueryInterface**, **AddRef**y **Release**) con implementaciones estándar de MAPI y hace que todos los otros métodos devolver MAPI_E_INVALID_OBJECT. **MakeInvalid** también libera memoria de todos los objetos que no sea la tabla vtable. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

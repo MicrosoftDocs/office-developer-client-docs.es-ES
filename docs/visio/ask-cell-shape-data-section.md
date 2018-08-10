@@ -16,20 +16,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821524"
 ---
-# <a name="ask-cell-shape-data-section"></a>Celda Ask (Sección de datos de formas)
+# <a name="ask-cell-shape-data-section"></a>Celda Ask (sección Datos de formas)
 
 Determina si se le pide al usuario que especifique los datos de formas cuando crea una instancia o cuando duplica o copia la forma.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Pide al usuario que escriba datos de formas en el cuadro de diálogo **Definir datos de formas** .  <br/> |
-|FALSE  <br/> |No se pide al usuario que especifique datos.  <br/> |
+|TRUE  <br/> |
+          Se pide al usuario que especifique los datos de formas en el cuadro de diálogo **Definir datos de formas**.
+  <br/> |
+|FALSE  <br/> |
+          No se le pide al usuario que especifique datos.
+  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-El valor de esta celda corresponde a la casilla de verificación **Preguntar al colocar** en el cuadro de diálogo **Definir datos de formas** (haga clic en la forma, elija **datos**y, a continuación, haga clic en **Definir datos de formas**).
+El valor de esta celda corresponde a la casilla **Preguntar al colocar** del cuadro de diálogo **Definir datos de formas** (haga clic con el botón secundario en la forma, seleccione **Datos** y, a continuación, en **Definir datos de formas**).
   
-Para obtener una referencia a la celda Ask por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Ask por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a2ec6def319b1f4686a61e9f97a936bfeba0d410
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817416"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Proporciona los nombres de propiedad que se corresponden con uno o varios identificadores de propiedad.
   
@@ -37,7 +37,7 @@ HRESULT GetNamesFromIDs(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lppPropTags_
   
@@ -85,7 +85,7 @@ MAPI_E_INVALID_PARAMETER
   
 > El miembro **cValues** de una o varias de las entradas de la matriz de etiqueta de propiedad que señala _lppPropTags_ se establece en 0. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Mientras el acceso a la mayoría de las propiedades es por identificador de la propiedad, se pueden tener acceso a algunas propiedades por su nombre. El método **IMAPIProp::GetNamesFromIDs** se puede llamar para hacer lo siguiente: 
   
@@ -141,7 +141,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI, utiliza el método **IMAPIProp::GetNamesFromIDs** para buscar propiedades con nombre que se han asignado anteriormente.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -155,14 +155,14 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPINAMEID](mapinameid.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
   
 [Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
   
-[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
+[Uso de macros para el control de errores](using-macros-for-error-handling.md)
 

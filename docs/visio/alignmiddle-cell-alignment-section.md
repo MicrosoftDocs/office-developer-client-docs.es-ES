@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821537"
 ---
-# <a name="alignmiddle-cell-alignment-section"></a>Celda AlignMiddle (Sección de alineación)
+# <a name="alignmiddle-cell-alignment-section"></a>Celda AlignMiddle (sección Alineación)
 
 Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el centro vertical de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignMiddle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignMiddle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

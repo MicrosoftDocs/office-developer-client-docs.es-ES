@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3f214001-cd17-40d5-af90-33db1b283797
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 72c89142b73140563645aaaf408772f1a3a9c459
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19818116"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI publica los formatos de los distintos archivos de configuración que los clientes y proveedores de servicios de usan para describir los servicios de mensajes y sus proveedores de servicios y formularios.
   

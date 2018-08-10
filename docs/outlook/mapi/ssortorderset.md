@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820756"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Define una colección de claves de ordenación para una tabla que se usa para la ordenación por categorías o estándar.
   
@@ -43,7 +43,7 @@ typedef struct _SSortOrderSet
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cSorts**
   
@@ -61,7 +61,7 @@ typedef struct _SSortOrderSet
   
 > Matriz de estructuras **SSortOrder** , cada definición de un criterio de ordenación. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Una estructura **SSortOrderSet** se usa para definir varios criterios de ordenación para la ordenación estándar y organizados por categorías. 
   
@@ -73,7 +73,7 @@ El miembro **cExpanded** especifica el número de categorías que expandió en p
   
 Para obtener más información acerca de la ordenación estándar y organizados por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

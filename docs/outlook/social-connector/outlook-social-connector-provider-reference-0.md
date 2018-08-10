@@ -1,5 +1,5 @@
 ---
-title: Referencia del proveedor de Outlook Social Connector
+title: Referencia de proveedores de Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821202"
 ---
-# <a name="outlook-social-connector-provider-reference"></a>Referencia del proveedor de Outlook Social Connector
+# <a name="outlook-social-connector-provider-reference"></a>Referencia de proveedores de Outlook Social Connector
 
 Esta sección contiene temas de referencia de extensibilidad de proveedor de Outlook Social Connector (OSC).
   

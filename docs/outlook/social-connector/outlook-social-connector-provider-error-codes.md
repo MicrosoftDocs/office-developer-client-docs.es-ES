@@ -34,7 +34,7 @@ Los proveedores deben devolver errores al autor de la llamada mediante uno de lo
 |OSC_E_SERVER_VERSION_NOT_SUPPORTED  <br/> |0x80041406  <br/> |No se admite la versión del servidor para configurar la cuenta de redes sociales.  <br/> |
 |OSC_E_VERSION  <br/> |0x80041401  <br/> |El proveedor no es compatible con esta versión de extensibilidad del proveedor OSC.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Correcto, advertencia y los valores de error se devuelven mediante el uso de un número de 32 bits que se llama a un controlador de resultado o **HRESULT**. Un **HRESULT** no es un identificador de nada; es simplemente un valor de 32 bits que tiene varios campos codificados en el valor. Un resultado positivo indica éxito con el estado de un resultado de cero indica éxito sin estado (S_OK) y un resultado negativo indica un error. 
   

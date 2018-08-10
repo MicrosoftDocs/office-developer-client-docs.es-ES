@@ -1,5 +1,5 @@
 ---
-title: Sección de propiedades de efecto adicionales
+title: Sección Propiedades del efecto adicional
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821517"
 ---
-# <a name="additional-effect-properties-section"></a>Sección de propiedades de efecto adicionales
+# <a name="additional-effect-properties-section"></a>Sección Propiedades del efecto adicional
 
 Muestra los efectos adicionales aplicados a la forma, incluyendo reflexión, resplandor y efectos de bordes suaves. En esta sección también se incluye los valores de un efecto de boceto.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Puede establecer el reflejo, resplandor y efectos de bordes suaves en el cuadro de diálogo **Formato de forma** (**Home** > **Estilos de forma** > **efectos**). Un efecto de boceto se puede aplicar a una forma mediante uno de los temas de esbozo (**Diseño** > **temas** > **efectos**) o al realizar cambios en los valores de la hoja ShapeSheet correspondiente cells.
   

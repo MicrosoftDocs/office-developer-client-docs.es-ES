@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a613bd744a113b4378c5bef94fb51f6ae3aa4041
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820461"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Una tabla de proveedor contiene información acerca de los proveedores de servicio. Hay dos tablas de otro proveedor, ambos implementan por MAPI y utilizan por los clientes. La primera tabla, tener acceso a llamando al método [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) , contiene información acerca de todos los proveedores para el perfil actual. La segunda tabla, tiene acceso a través de [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), crea una tabla que almacena información acerca de todos los proveedores de servicios para un servicio de mensajes.
   
@@ -41,7 +41,7 @@ Para cambiar el orden de transporte, aplicar la misma restricción y recuperar l
   
 Después de que se ha realizado una tabla de proveedor disponible, no reflejarán los cambios posteriores, como la adición o eliminación de un proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

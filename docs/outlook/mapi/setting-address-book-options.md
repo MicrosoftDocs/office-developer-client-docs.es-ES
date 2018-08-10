@@ -1,5 +1,5 @@
 ---
-title: Configurar las opciones de la libreta de direcciones
+title: Configurar opciones de libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c64f84da6bece809176bf67985b6f55ce92414a2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820643"
 ---
-# <a name="setting-address-book-options"></a>Configurar las opciones de la libreta de direcciones
+# <a name="setting-address-book-options"></a>Configurar opciones de libreta de direcciones
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Puede establecer tres propiedades que se describen las opciones para el uso de la libreta de direcciones:
   
@@ -37,9 +37,9 @@ Puede establecer tres propiedades que se describen las opciones para el uso de l
     
 Estas tres propiedades son especiales porque no puede trabajar con ellos mediante los métodos **IMAPIProp** estándares. En su lugar, debe usar los métodos de **IAddrBook** . Debido a que ninguna de estas propiedades se pueden cambiar con **IMAPIProp::SetProps**, no es necesario llamar a **IMAPIProp::SaveChanges** para realizar cambios permanentes. Las modificaciones realizadas a través de los métodos **IAddrBook** surtan efecto inmediatamente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Una notificación de intervalos de tiempo
+title: Establecer intervalos de una notificación
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6981a3b0-96eb-44a2-b051-1c5efc70e9e3
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9ee999841b53f358dcee85d4d92c5056f665dbf1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820860"
 ---
-# <a name="timing-a-notification"></a>Una notificación de intervalos de tiempo
+# <a name="timing-a-notification"></a>Establecer intervalos de una notificación
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Debido a que la notificación de eventos es un proceso asincrónico, puede recibir una notificación en cualquier momento, no necesariamente inmediatamente después de que se ha producido el evento.
   

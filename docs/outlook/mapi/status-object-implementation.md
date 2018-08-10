@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 379378f2092f7b119a40ac44cbdcfa03f254b448
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820773"
 ---
 # <a name="status-object-implementation"></a>Implementación de objeto de estado
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Todos los proveedores de servicio deben implementar un objeto de estado y proporcione las propiedades de él en la tabla de estado de sesión. Puede incluir una o varias filas en la tabla de estado, según el número de recursos que controlan. Por ejemplo, un proveedor de transporte, debe crear una fila en la tabla de estado para cada cola de mensajes que administra. Cuando se producen cambios, se debe actualizar la fila de la tabla de estado apropiado. Para proporcionar acceso a la información incluida en la tabla de estado y a información adicional que no se incluyen en la tabla que se implementan los objetos de estado.
   
@@ -73,7 +73,7 @@ Todos los proveedores de servicio deben implementar un objeto de estado y propor
     
 Para obtener más información acerca de los objetos de estado, vea [Objetos de estado de MAPI](mapi-status-objects.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Proveedores de servicios de MAPI](mapi-service-providers.md)
 

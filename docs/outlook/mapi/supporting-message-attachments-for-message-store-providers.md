@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con datos adjuntos de mensajes para los proveedores de almacén de mensajes
+title: Admitir datos adjuntos de mensajes para proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820783"
 ---
-# <a name="supporting-message-attachments-for-message-store-providers"></a>Compatibilidad con datos adjuntos de mensajes para los proveedores de almacén de mensajes
+# <a name="supporting-message-attachments-for-message-store-providers"></a>Admitir datos adjuntos de mensajes para proveedores de almacenamiento de mensajes
 
  
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 El proveedor de almacén de mensajes no es necesario admitir los datos adjuntos del mensaje. Sin embargo, muchas aplicaciones cliente esperan poder agregar datos adjuntos a los mensajes. Si su almacén de mensajes se usará para crear o almacenar IPM. Tenga en cuenta los mensajes, a continuación, se deben admitir los datos adjuntos del mensaje. Los proveedores de almacén de mensajes predeterminado también deben admitir los datos adjuntos del mensaje. Para obtener más información, vea [Clases de mensaje de MAPI](mapi-message-classes.md)y [Los almacenes de mensajes de forma predeterminada](default-message-stores.md).
   
@@ -37,7 +37,7 @@ Se incluyen vínculos en dos tipos: vínculos a archivos y vínculos a otros men
   
 Cómo uno implementa vínculos a los mensajes puede depender de aspectos del sistema de mensajería local y, por lo tanto, no se han documentado completamente aquí. Por ejemplo, enviar un vínculo a un mensaje que se almacena en un almacén de mensajes basado en servidor normalmente es simplemente una cuestión de enviar el identificador de entrada del mensaje vinculado, siempre que el remitente y el destinatario tengan acceso a ese servidor. Otros valores de configuración del sistema mensajería presentan desafíos para la implementación de vínculos a los mensajes y otros requisitos.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

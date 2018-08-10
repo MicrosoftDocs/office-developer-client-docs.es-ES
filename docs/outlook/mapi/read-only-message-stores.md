@@ -19,7 +19,7 @@ ms.locfileid: "19820484"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un almac�n de mensajes de solo lectura es uno en la que ni el cliente MAPI ni la cola MAPI puede crear, modificar o eliminar los objetos en el almac�n de mensajes. Hay muchas razones de por qu� es posible que desee implementar un almac�n de mensajes de s�lo lectura. Por ejemplo, una empresa informes de cr�dito podr�a utilizar un almac�n de s�lo lectura para permitir que sus clientes o empleados ver, pero no cambiar informes de cr�dito individual. Si se elige crear un mensaje de s�lo lectura almacenar tiene implicaciones para la estructura del proveedor de almacenamiento y para el propio almac�n. Por ejemplo, un almac�n de mensajes de solo lectura no puede tener una carpeta Bandeja de salida, ya que, a continuaci�n, los clientes MAPI debe solicitar la creaci�n de nuevos mensajes salientes en esa carpeta. De forma similar, es responsabilidad del proveedor de almacenamiento para garantizar la integridad del mecanismo de almacenamiento subyacente.
   

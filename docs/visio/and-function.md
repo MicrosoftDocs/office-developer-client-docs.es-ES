@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821540"
 ---
-# <a name="and-function"></a>AND (función)
+# <a name="and-function"></a>Función AND
 
 Devuelve TRUE (1) si todas las expresiones lógicas suministradas son TRUE. Si alguna de las expresiones lógicas es falso o 0, la función y devuelve FALSE (0).
   
@@ -24,7 +24,7 @@ Devuelve TRUE (1) si todas las expresiones lógicas suministradas son TRUE. Si a
 
 Y (** *expression1 lógica* **, ** *Expresión2 lógica* **,..., ** *expresiónn lógico* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|

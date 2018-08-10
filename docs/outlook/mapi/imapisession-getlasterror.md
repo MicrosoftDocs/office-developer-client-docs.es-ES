@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38cb3692-a5f8-403a-9615-9bd5868af23c
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 59b534a076aee6498be9146eabb69c62fca313ed
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817435"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error de la sesión anterior. 
   
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Se ha establecido el indicador MAPI_UNICODE y la sesión no es compatible con Unicode.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISession::GetLastError** recupera información sobre el último error que se ha devuelto por una llamada al método **IMAPISession** . Los clientes pueden proporcionar a sus usuarios con información detallada sobre el error mediante la inclusión de esta información en un cuadro de diálogo. 
   
@@ -73,7 +73,7 @@ Puede usar la estructura **MAPIERROR** , si MAPI proporciona uno, indicada por e
   
 Para obtener más información acerca del método **GetLastError** , vea [Errores de MAPI extendida](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

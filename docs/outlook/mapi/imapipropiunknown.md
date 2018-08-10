@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 02d2b136ed1437ba53ce1e54a202d70a48b2abe9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19817427"
 ---
-# <a name="imapiprop--iunknown"></a>IMAPIProp: IUnknown
+# <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades. Todos los objetos que admiten propiedades implementar esta interfaz.
   
@@ -53,7 +53,7 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
 |[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Proporciona los nombres de propiedad que se corresponden con uno o varios identificadores de propiedad.  <br/> |
 |[A GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Proporciona los identificadores de propiedad que se corresponden con uno o varios nombres de propiedad.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
  **IMAPIProp** es la interfaz base para las interfaces siguientes: 
   
@@ -75,7 +75,7 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
     
 - [IPropData](ipropdataimapiprop.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

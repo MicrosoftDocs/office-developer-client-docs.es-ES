@@ -1,5 +1,5 @@
 ---
-title: Celda BevelContourColor (sección de propiedades de bisel)
+title: Celda BevelContourColor (sección Propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821564"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Celda BevelContourColor (sección de propiedades de bisel)
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Celda BevelContourColor (sección Propiedades de bisel)
 
 Determina el color de la bisel contorno en valor RGB o como determinado por el tema activo.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda **BevelContourColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   

@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821516"
 ---
-# <a name="alignment-cell-tabs-section"></a>Celda Alignment (Sección de tabulaciones)
+# <a name="alignment-cell-tabs-section"></a>Celda Alignment (sección Tabulaciones)
 
 Especifica la alineación de las tabulaciones.
   
@@ -28,9 +28,9 @@ Especifica la alineación de las tabulaciones.
 | 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
 | 4  <br/> | Coma  <br/> |**visTabStopComma** <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Alignment por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Alignment por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

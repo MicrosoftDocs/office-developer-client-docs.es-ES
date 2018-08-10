@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821519"
 ---
-# <a name="alignleft-cell-alignment-section"></a>Celda AlignLeft (Sección de alineación)
+# <a name="alignleft-cell-alignment-section"></a>Celda AlignLeft (sección Alineación)
 
 Determina la posición horizontal con respecto al origen de su forma principal, de una guía vertical o un punto de guía al que se alinea el borde izquierdo de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignLeft por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignLeft por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

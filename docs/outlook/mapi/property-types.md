@@ -1,5 +1,5 @@
 ---
-title: Tipos de propiedad
+title: Tipos de propiedades
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fd0f25f20c9e628a80d27f2b70e01dacc98229b7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820463"
 ---
-# <a name="property-types"></a>Tipos de propiedad
+# <a name="property-types"></a>Tipos de propiedades
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 MAPI es compatible con propiedades de valor único y de varios valores. Con una propiedad de valor único, hay un valor del tipo base para la propiedad. Con una propiedad de varios valores, hay varios valores del tipo base. 
   

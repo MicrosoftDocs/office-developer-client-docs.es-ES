@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 96fd317c28d95335a3acc5d0603298f2fe8345e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817598"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Devuelve una lista de columnas para la tabla.
   
@@ -58,7 +58,7 @@ MAPI_E_BUSY
   
 > Otra operación se establece en curso que impide que la columna de operación de recuperación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPITable::QueryColumns** se puede llamar para recuperar: 
   
@@ -84,7 +84,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::QueryColumns** para recuperar la columna actual establecido para una tabla para que el usuario pueda modificarlo.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -92,9 +92,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Elemento SPropTagArray](sproptagarray.md)
+[SPropTagArray](sproptagarray.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

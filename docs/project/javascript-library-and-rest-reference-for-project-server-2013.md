@@ -36,12 +36,12 @@ El recurso de **ProjectServer** se describe en [ProjectServer recursos en la int
 
 - [Referencia REST y la biblioteca de PS.js JavaScript](http://msdn.microsoft.com/library/5a140021-380a-d9e0-e36d-106df85f56d6%28Office.15%29.aspx) Contiene información sobre el modelo de objetos de JavaScript y la interfaz de REST para Project Server 2013. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
 - [Documentación para desarrolladores de Project 2013](project-2013-developer-documentation.md)   
-- [Modelo de objetos de cliente (COM) de Project Server](client-side-object-model-csom-for-project-2013.md)   
-- [Introducción al modelo de objetos de JavaScript](getting-started-with-the-project-server-2013-javascript-object-model.md)  
-- [Trabajar con proyectos mediante el modelo de objetos de JavaScript](create-retrieve-update-delete-projects-using-project-server-javascript.md)
+- [Modelo de objeto de cliente (CSOM) para Project Server](client-side-object-model-csom-for-project-2013.md)   
+- [Introducción al modelo de objetos JavaScript](getting-started-with-the-project-server-2013-javascript-object-model.md)  
+- [Trabajar con proyectos con el modelo de objetos JavaScript](create-retrieve-update-delete-projects-using-project-server-javascript.md)
     
 

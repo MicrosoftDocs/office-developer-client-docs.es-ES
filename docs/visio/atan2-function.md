@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821526"
 ---
-# <a name="atan2-function"></a>ATAN2 (función)
+# <a name="atan2-function"></a>Función ATAN2
 
 Devuelve el ángulo entre el vector representado por *x, y* y la dirección de la *x* -eje. El resultado es un número en la unidad actual de medida para los ángulos. 
   
@@ -24,14 +24,14 @@ Devuelve el ángulo entre el vector representado por *x, y* y la dirección de l
 
 ATAN2 (** *y* **, ** *x* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _y_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |La _y_-valor del punto.  <br/> |
 | _x_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |La _x_-valor del punto.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El arco tangente es el ángulo ascendente medido desde el positivo *x* -eje a una línea que cruza el origen (0,0) y el punto representado por *x* e *y* . En Microsoft Visio, ATAN2(0,0) devuelve 0. Para forzar el resultado de ATAN2 en una medida angular distinta, utilice la función DEG o RAD. 
   

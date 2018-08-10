@@ -155,7 +155,7 @@ Puede ejecutar el ejemplo en unos cuantos pasos:
     
 5. Ejecutar el proyecto.
     
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Cada aplicación de ejemplo tiene un artículo para explicar los aspectos de trabajar con la API de proyecto individuales. Los artículos aparecen en la lista siguiente, junto con algunos artículos que describen las relaciones entre entidades, información sobre el sistema de consulta y obtener acceso a campos personalizados. 
   
@@ -163,9 +163,9 @@ Cada aplicación de ejemplo tiene un artículo para explicar los aspectos de tra
     
 - [Desarrollo de un complemento Project Online mediante el modelo de objetos de JavaScript (JSOM)](developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md)
     
-- [Obtener acceso a Project Online campos personalizados de empresa](accessing-project-online-enterprise-custom-fields.md)
+- [Obtener acceso a campos personalizados de empresa de Project Online](accessing-project-online-enterprise-custom-fields.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener documentación y ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal del proyecto de desarrollo](http://dev.office.com/project.aspx).
     

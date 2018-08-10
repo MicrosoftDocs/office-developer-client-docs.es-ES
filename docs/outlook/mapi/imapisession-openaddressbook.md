@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dcde242f5f2e956d1926d6914431008383f5aa55
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817440"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Se abre la libreta de direcciones integrada de MAPI, la devolución de un puntero [IAddrBook](iaddrbookimapiprop.md) para aún más el acceso. 
   
@@ -36,7 +36,7 @@ HRESULT OpenAddressBook(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
@@ -68,7 +68,7 @@ MAPI_W_ERRORS_RETURNED
   
 > La llamada se ha realizado correctamente, pero no se podrían abrir los contenedores de uno o varios proveedores de libreta de direcciones. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISession::OpenAddressBook** abre la libreta de direcciones integrada de MAPI, una colección de los contenedores de nivel superior de todos los proveedores de la libreta de direcciones en el perfil. El puntero que se devuelve en el parámetro _lppAdrBook_ aún más proporciona acceso al contenido de la libreta de direcciones. Esto permite que el autor de la llamada realizar tareas como contenedores individuales de apertura, los usuarios de mensajería de buscar y mostrar cuadros de diálogo comunes de dirección. 
   
@@ -86,11 +86,11 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenAddressBook** para obtener la libreta de direcciones integrada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
 [IMAPISession::GetLastError](imapisession-getlasterror.md)
   

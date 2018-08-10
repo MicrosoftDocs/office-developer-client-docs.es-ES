@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821499"
 ---
-# <a name="about-format-pictures"></a>Imágenes de formato
+# <a name="about-format-pictures"></a>Información sobre formato de imagen
 
 Las imágenes de formato se utilizan para determinar cómo se muestra un valor. Por ejemplo, puede controlar el número de dígitos que aparecen a la derecha o a la izquierda del separador decimal o si una cadena de texto se muestra en mayúsculas o en minúsculas.
   
@@ -31,8 +31,8 @@ Las secciones siguientes se muestran los símbolos que puede usar para dar forma
 |:-----|:-----|
 |#  <br/> |Marcador de posición de dígito. Muestra un dígito o no muestra nada. Los ceros a la izquierda y a la derecha no se muestran. Si a la izquierda del decimal hay más dígitos que marcadores, se muestran todos los dígitos. Si a la derecha del decimal hay más dígitos que marcadores, la fracción se redondea al número total de marcadores. En el caso de una dimensión, si el marcador es el dígito situado más a la izquierda, no se muestran las subunidades distintas de cero.  <br/> Por ejemplo, FORMAT(0ft 11,25pda,"#,##u") muestra 11,25pda.  <br/> |
 |0  <br/> |Marcador de posición de dígito (cero). Muestra un dígito o no muestra nada. Se muestran los ceros a la izquierda y a la derecha. Si a la izquierda del decimal hay más dígitos que marcadores, se muestran todos los dígitos. Si a la derecha del decimal hay más dígitos que marcadores, la fracción se redondea al número total de marcadores. En el caso de una dimensión, se muestran las subunidades que son cero.  <br/> Por ejemplo, FORMAT(2ft 11,33pda,"0,## u") muestra 2 ft 11,33 pda.  <br/> |
-|.  <br/> |Marcador de posición decimal. Determina cuántos dígitos se muestran a la izquierda y derecha de la posición decimal. En una unidad con varias partes, la coma decimal se usa en el menor fracciones (derecha). Muestra el carácter decimal definido del sistema **idioma y región** configuración (Panel de Control).  <br/> Por ejemplo, FORMAT(250 cm,"0,000 u") muestra 250,000 cm.  <br/> |
-|,  <br/> |Miles separador. Si está rodeado de marcadores de posición de dígitos (# o 0), el separador separa los millares de las centenas en un número que tiene cuatro o más dígitos a la izquierda del separador decimal. Muestra el separador de millares definido para del sistema **idioma y región** configuración (Panel de Control).  <br/> |
+|.  <br/> |Marcador de posición decimal. Determina el número de dígitos que aparecen a la izquierda y a la derecha del separador decimal. En las unidades con varias partes, los decimales se aplican a la subunidad más pequeña (la situada más a la derecha). Muestra el carácter decimal definido en la **configuración regional y de idioma** del sistema (Panel de control).<br/> Por ejemplo, FORMAT(250 cm,"0,000 u") muestra 250,000 cm.  <br/> |
+|,  <br/> |Separador de miles. Si está rodeado de marcadores de posición de dígitos (# ó 0), separa los miles de los cientos en los números que tengan cuatro o más dígitos a la izquierda del separador decimal. Muestra el separador de miles definido en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 |E- E+ e- e+  <br/> |Formato científico. Si el formato contiene al menos un marcador de posición de dígito a la derecha de estos símbolos, el número se muestra en formato científico. Inserta E o e entre el número y su exponente. En el caso de E+ o e+, se muestra el signo más (+) delante de los exponentes positivos y el signo menos (-) delante de los exponentes negativos. En el caso de E- o e-, sólo aparece el signo menos (-) cuando el exponente es negativo.  <br/> Por ejemplo, FORMAT(12345,67,"###,#e+#") muestra 123,5e+2.  <br/> |
 |u o U  <br/> |Marcador de posición de la etiqueta corta. Inserciones de unidad abreviada después de cada fracción. Por ejemplo: pda., pies, grados.. El marcador de posición U inserta etiquetas de mayúsculas y minúsculas, mientras que el marcador de posición u inserta etiquetas en minúsculas. Inserta el mismo número de espacios antes de la etiqueta que antes de que el marcador de posición.  <br/> Por ejemplo, FORMAT(12 c 13 d,"#u") muestra 13c1.  <br/> |
 |uu o UU  <br/> |Marcador de posición de etiqueta larga. Inserta etiquetas de unidad después de cada fracción. Por ejemplo: pulgadas, pies, grados U el marcador de posición inserciones mayúsculas etiquetas, mientras que el marcador de posición u inserta etiquetas en minúsculas. Inserta el mismo número de espacios antes de la etiqueta que antes de que el marcador de posición.  <br/> Por ejemplo, FORMAT(12,43pda,"# #/4 UU") muestra 12 2/4 PULGADAS.  <br/> |
@@ -44,7 +44,7 @@ Las secciones siguientes se muestran los símbolos que puede usar para dar forma
 
 |**Carácter**|**Descripción**|
 |:-----|:-----|
-|$  <br/> |Símbolo de moneda. Muestra el símbolo de moneda definido del sistema **idioma y región** configuración (Panel de Control)  <br/> |
+|$  <br/> |Símbolo de moneda. Muestra el símbolo de moneda definido en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 |u o U  <br/> |Marcador de posición de la etiqueta corta. Inserta el símbolo de moneda local estándar o las abreviaturas de moneda de tres caracteres para monedas no locales. Por ejemplo, $99,00, 42,70 FRF. El marcador de posición u inserta en minúsculas y U inserta etiquetas de mayúsculas y minúsculas.  <br/> |
 |uu o UU  <br/> |Marcador de posición de etiqueta larga. Inserta etiquetas de moneda largas después de cada fracción. Por ejemplo: dólar usa, franco francés. El marcador de posición u inserta en minúsculas y U inserta etiquetas de mayúsculas y minúsculas.  <br/> |
 |uuu o UUU  <br/> |Marcador de posición de etiqueta universal. Inserta las abreviaturas universales, tres caracteres moneda para todas las monedas después de cada fracción. Por ejemplo, 99,00 USD, 42,70 FRF. El marcador de posición u inserta en minúsculas y U inserta etiquetas de mayúsculas y minúsculas. Inserta el mismo número de espacios antes de la etiqueta que antes de que el marcador de posición.  <br/> |
@@ -64,14 +64,14 @@ Las secciones siguientes se muestran los símbolos que puede usar para dar forma
 |**Carácter**|**Descripción**|
 |:-----|:-----|
 |c o C  <br/> |Marcador de posición de fecha u hora. Muestra los valores de fecha y hora con formato corto (c) o largo (C), y el formato de hora genérico. Las versiones 4.0 y anteriores de Visio omiten este marcador de posición.  <br/> Por ejemplo: FORMAT(DATETIME("25/6/07 12:05"),"C") muestra lunes, 25 de junio de 2007 12:05:00 p.m. FORMAT(DATETIME("25 Jun 2007"),"c") muestra 25/6/07.  <br/> |
-|/  <br/> |Separador de fecha. Si la expresión es una fecha, separa los componentes de fecha. Muestra el separador de fecha definido del sistema **idioma y región** configuración (Panel de Control).  <br/> |
+|/  <br/> |Separador de fecha. Si la expresión es una fecha, separa sus componentes. Muestra el separador de fecha definido en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 | [ ]  <br/> |Marcador de posición de fechas transcurridas. Se utiliza con los marcadores de posición d, dd y ww para mostrar las unidades de duración.  <br/> Por ejemplo, [d] o [dd] son los días transcurridos y [w] o [ww] son las semanas transcurridas.  <br/> |
 |d  <br/> |Marcador de posición de día. Muestra el día como un número (de 1 a 31), sin cero a la izquierda.  <br/> |
 |dd  <br/> | Marcador de posición de día. Muestra el día como un número (de 01 a 31), con cero a la izquierda.  <br/> |
 |ddd o w  <br/> |Marcador de posición del día de la semana abreviado. Muestra el día abreviado (de Lun a Dom).  <br/> |
 |dddd o w  <br/> |Marcador de posición del día de la semana sin abreviar. Muestra el día como un nombre completo (de lunes a domingo).  <br/> |
-|ddddd  <br/> |Marcador de posición de fecha corta. Muestra una fecha con la forma corta definida del sistema **idioma y región** configuración (Panel de Control).  <br/> |
-|dddd  <br/> |Marcador de posición de fecha larga. Muestra una fecha con la forma larga definida del sistema **idioma y región** configuración (Panel de Control).  <br/> |
+|ddddd  <br/> |Marcador de posición de fecha abreviada. Muestra una fecha con la forma corta definida en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
+|dddd  <br/> |Marcador de posición de fecha sin abreviar. Muestra una fecha con la forma larga definida en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 |D  <br/> |Marcador de día para chino tradicional. Muestra el día del mes como una representación textual del número ordinal. Específico de la configuración regional.  <br/> |
 |D_c  <br/> |Marcador de posición de día para chino tradicional. Muestra el día del mes como una representación textual del número ordinal. Independiente de la configuración regional del usuario.  <br/> |
 |w_c o w_c  <br/> |Marcador de posición de día para chino tradicional. Independiente de la configuración regional del usuario.  <br/> |
@@ -112,11 +112,11 @@ Las secciones siguientes se muestran los símbolos que puede usar para dar forma
 |n_c  <br/> |Marcador de posición de año. En chino tradicional, muestra el año de la república como un número arábigo. Independiente de la configuración regional del usuario.  <br/> |
 |nn o NN  <br/> |Marcador de posición de año. Específico de la configuración regional. En chino tradicional, muestra el año de la república como un número arábigo. En japonés, muestra el año Gengo como uno o dos dígitos arábigos, con un cero a la izquierda si es necesario. En coreano, muestra el año coreano como un número arábigo de cuatro dígitos.  <br/> |
    
-## <a name="time-values"></a>Valores de tiempo
+## <a name="time-values"></a>Valores de hora
 
 |**Carácter**|**Descripción**|
 |:-----|:-----|
-|:  <br/> |Separador de hora. Muestra la hora definida en del sistema **idioma y región** configuración (Panel de Control).  <br/> |
+|:  <br/> |Separador de hora. Muestra la hora definida en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 |[ ]  <br/> |Marcador de posición de tiempo transcurrido. Se utiliza con los marcadores de posición h, hh, m, mm, s y ss para mostrar las unidades de duración. Por ejemplo, [h] o [hh] son las horas, [m] o [mm] los minutos y [s] o [ss] los segundos transcurridos.  <br/> |
 |h  <br/> |Marcador de posición de hora. Muestra la hora sin cero a la izquierda, en formato de 12 horas (de 0 a 12).  <br/> |
 |hh  <br/> |Marcador de posición de hora. Muestra la hora con cero a la izquierda, en formato de 12 horas (de 00 a 12).  <br/> |
@@ -126,8 +126,8 @@ Las secciones siguientes se muestran los símbolos que puede usar para dar forma
 |mm  <br/> |Marcador de posición de minuto. Muestra los minutos con cero a la izquierda (de 00 a 59).  <br/> |
 |s  <br/> |Marcador de posición de segundo. Muestra los segundos sin cero a la izquierda (de 0 a 59).  <br/> |
 |ss  <br/> |Marcador de posición de segundo. Muestra los segundos con cero a la izquierda (de 00 a 59).  <br/> |
-|t  <br/> |Abreviatura de AM/PM. Muestra la abreviatura definida para del sistema **idioma y región** configuración (Panel de Control).  <br/> |
-|tt  <br/> |Designador AM/PM. Muestra el indicador completo definido para del sistema **idioma y región** configuración (Panel de Control).  <br/> |
+|t  <br/> |Abreviatura a.m. o p.m. Muestra la abreviatura definida en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
+|tt  <br/> |Indicador de a.m. o p.m. Muestra el indicador completo definido en la **configuración regional y de idioma** del sistema (Panel de control).<br/> |
 |t_c o tt_c  <br/> |Indicador a.m. o p.m. en chino tradicional. Muestra el indicador. Independiente de la configuración regional del usuario.  <br/> |
 |t_k o tt_k  <br/> |Indicador a.m. o p.m. en coreano. Muestra el indicador. Independiente de la configuración regional del usuario.  <br/> |
 |t_j o tt_j  <br/> |Indicador a.m. o p.m. en japonés. Muestra el indicador. Independiente de la configuración regional del usuario.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o eliminar las filas de ShapeSheet
+title: Agregar, cambiar o eliminar filas de ShapeSheet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821508"
 ---
-# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Agregar, cambiar o eliminar las filas de ShapeSheet
+# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Agregar, cambiar o eliminar filas de ShapeSheet
 
 Puede agregar nuevas filas, cambiar el tipo de filas existentes o eliminar filas de la hoja ShapeSheet de Microsoft Visio.
   

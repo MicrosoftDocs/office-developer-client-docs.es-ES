@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a00a9b2200f76dfd600f72bf387467b5792599c6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19820561"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Convierte la parte especificada de una representación de cadena de un número hexadecimal en un número binario. 
   
@@ -41,7 +41,7 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _sz_
   
@@ -65,7 +65,7 @@ MAPI_E_CALL_FAILED
   
 > Se encontraron caracteres no válidos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

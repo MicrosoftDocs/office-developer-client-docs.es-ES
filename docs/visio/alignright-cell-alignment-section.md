@@ -16,13 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821529"
 ---
-# <a name="alignright-cell-alignment-section"></a>Celda AlignRight (Sección de alineación)
+# <a name="alignright-cell-alignment-section"></a>Celda AlignRight (sección Alineación)
 
 Determina la posición horizontal con respecto al origen de su forma principal, de una guía vertical o un punto de guía al que se alinea el borde derecho de la forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda AlignRight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda AlignRight por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

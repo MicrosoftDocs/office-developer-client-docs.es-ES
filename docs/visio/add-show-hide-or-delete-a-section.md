@@ -31,21 +31,21 @@ Puede agregar, mostrar, ocultar y eliminar las secciones de ShapeSheet.
     
   - En **Herramientas de ShapeSheet** en la ficha **Diseño** , en el grupo **secciones** , haga clic en **Insertar**.
     
-  - O pulse el botón derecho en la ventana ShapeSheet y, a continuación, haga clic en **Insertar sección** en el menú contextual. 
+  - O bien haga clic con el botón secundario del mouse (ratón) en la ventana ShapeSheet y, a continuación, haga clic en Insertar sección en el menú contextual. 
     
-3. Active la casilla de verificación de la sección que desee agregar y, a continuación, haga clic en **Aceptar**.
+3. Active la casilla de verificación de la sección que desee añadir y, a continuación, haga clic en **Aceptar**.
     
     > [!NOTE]
-    >  Si no ve la nueva sección en la ventana ShapeSheet, asegúrese de que la sección está configurada para aparecer. En el grupo **Ver** , en la ficha **Herramientas de ShapeSheet** , haga clic en **secciones**y, a continuación, seleccione las casillas de verificación de las secciones que desee que aparezca. 
+    >  Si no encuentra la sección nueva en la ventana ShapeSheet, asegúrese de que la sección esté configurada para que aparezca. En el grupo **Ver**, en la ficha **Herramientas de ShapeSheet**, haga clic en **Secciones** y, a continuación, active las casillas de las secciones que desee que aparezcan. 
   
 ### <a name="to-show-or-hide-sections"></a>Para mostrar u ocultar secciones
 
-- Seleccione cualquier celda de la sección que desee eliminar y, a continuación, en el grupo de **secciones** en la ficha **Herramientas de ShapeSheet** , haga clic en **Eliminar**.
+- Seleccione cualquier celda de la sección que desee eliminar y, a continuación, en el grupo **Secciones**, en la ficha **Herramientas de ShapeSheet**, haga clic en **Eliminar**.
     
 - Puede también (ratón) en una celda y, a continuación, haga clic en **Eliminar sección** en el menú contextual. 
     
     > [!NOTE]
-    >  No se puede eliminar determinadas secciones. Por ejemplo, no se puede eliminar la sección **Transformación de forma** ya que especifica la posición de una forma. Si no se puede eliminar una sección, **Eliminar sección** no está disponible. 
+    >  Ciertas secciones no se pueden eliminar. Por ejemplo, no se puede eliminar la sección **Shape transform**, ya que especifica la posición de una forma. Si no puede eliminar una sección, la opción **Eliminar sección** no se encuentra disponible. 
   
 ### <a name="to-collapse-or-expand-a-section"></a>Para contraer o expandir una sección
 

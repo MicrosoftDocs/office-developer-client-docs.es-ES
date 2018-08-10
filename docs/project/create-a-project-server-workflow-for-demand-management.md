@@ -91,29 +91,29 @@ En Project Web App, revise las fases de flujo de trabajo disponibles y las fases
         
 3. **Páginas de detalles del proyecto** Editar o crear el PDP que va a usar las etapas de flujo de trabajo. Por ejemplo, realice los siguientes pasos: 
         
-    1. Elija **Páginas de detalles del proyecto** en la página Configuración del servidor y, a continuación, elija la PDP **ProjectInformation** . 
+    1. Elija **Páginas de detalles del proyecto** en la página Configuración del servidor y seleccione la PDP **ProjectInformation**. 
             
-    2. En **la ficha de la cinta de opciones, en el grupo **Editar** ,** elija **Editar página**.
+    2. En la pestaña **PÁGINA** de la cinta, en el grupo **Editar**, elija **Editar página**.
             
     3. Elija la flecha hacia abajo en la esquina superior derecha del elemento web **Información básica** y, a continuación, elija **Editar elemento web**. O bien, en la ficha de **Elemento WEB** de la cinta de opciones, en el grupo **Propiedades** , elija **el elemento web propiedades** para mostrar el elemento de editor. 
             
-    4. En los **Campos de proyecto mostrados** sección del editor part (vea la figura 1), seleccione **Modificar**.
+    4. En la sección **Campos de proyecto mostrados** del elemento Editor Part (vea la Figura 1), elija **Modificar**.
             
     5. Agregue el campo personalizado de **Costo de la propuesta** , muévalo encima del campo de **propietario** en la lista de **Campos de proyecto seleccionados** y, a continuación, elija **Aceptar** (vea la figura 1).
       
-    6. En el elemento de editor, haga **clic en Aceptar**y, a continuación, elija **Detener la edición** en el grupo **Editar** , en la ficha de **página** de la cinta de opciones. La figura 2 muestra el campo personalizado de **Costo de la propuesta** que se agrega a la PDP de información del proyecto. 
+    6. En el elemento Editor Part, seleccione **Aceptar** y elija **Detener edición** en el grupo **Editar** de la pestaña **PÁGINA** de la cinta. En la Figura 2, se muestra el campo personalizado **Proposal Cost** que se agrega a la PDP Información del proyecto. 
 
     **En la figura 1. Edición del elemento web de los campos de proyecto en un PDP**
 
     ![Modificar los campos de proyecto de elemento en un PDP web] (media/pj15_CreateWorkflowSPD_EditPDP.gif "Modificar los campos de proyecto de elemento en un PDP web")
 
-    **La figura 2. El PDP editado incluye el campo personalizado de costo de la propuesta**
+    **Figura 2. La PDP modificada incluye el campo personalizado Costo de la propuesta**
 
     ![El PDP editado incluye el campo Costo de la propuesta] (media/pj15_CreateWorkflowSPD_EditedPDP.gif "El PDP editado incluye el campo Costo de la propuesta")
   
 4. **Etapas de flujo de trabajo** Cree las etapas que son necesarias para cada fase del flujo de trabajo. En la página Configuración del servidor, elija **Etapas de flujo de trabajo**y, a continuación, elija **Nueva etapa de flujo de trabajo**. La figura 3 muestra parte de la página Agregar etapa de flujo de trabajo.
     
-    **La figura 3. Adición de una etapa de flujo de trabajo en Project Web App**
+    **Figura 3. Adición de una etapa de flujo de trabajo en Project Web App**
 
     ![Adición de una etapa de flujo de trabajo en Project Web App] (media/pj15_CreateWorkflowSPD_AddWorkflowStage.gif "Adición de una etapa de flujo de trabajo en Project Web App")
   
@@ -121,7 +121,7 @@ En Project Web App, revise las fases de flujo de trabajo disponibles y las fases
     
     En la Figura 4 se muestran las cuatro etapas completadas en la página Etapas de flujo del trabajo.
     
-    **La tabla 1. Etapas del flujo de trabajo de bifurcación**
+    **Tabla 1. Etapas para el flujo de trabajo de bifurcación**
 
     |Nombre|Descripción|Descripción para envío|Fase|PDP visibles|Campos personalizados|
     |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -130,7 +130,7 @@ En Project Web App, revise las fases de flujo de trabajo disponibles y las fases
     |Rechazo automatizado  <br/> |La propuesta se rechaza a partir de la información proporcionada.  <br/> | <br/> |Crear  <br/> |Información del proyecto  <br/> |Costo de la propuesta (solo lectura)  <br/> |
     |Ejecución  <br/> |La propuesta se acepta y está lista para la administración del proyecto.  <br/> | <br/> |Administrar  <br/> |Información del proyecto  <br/> Detalles de proyecto  <br/> |Costo de la propuesta (solo lectura)  <br/> |
    
-    **La figura 4. Lista de las fases de flujo de trabajo en Project Web App**
+    **Figura 4. Lista de las etapas del flujo de trabajo en Project Web App**
 
     ![Lista de las fases de flujo de trabajo en Project Web App] (media/pj15_CreateWorkflowSPD_WorkflowStages.gif "Lista de las fases de flujo de trabajo en Project Web App")
   
@@ -140,66 +140,66 @@ En SharePoint Designer 2013, construya el flujo de trabajo mediante el uso de in
     
 1. En la vista Backstage de SharePoint Designer 2013, elija **Abrir sitio**. Por ejemplo, abra `http://ServerName/pwa`. En el panel de **navegación** , elija **los flujos de trabajo**. A continuación, en la pestaña **flujos de trabajo** de la cinta de opciones, en el grupo **nuevo** , elija **Flujo de trabajo de sitio**. Para este ejemplo, el nombre del flujo de trabajo de flujo de trabajo de bifurcación. Asegúrese de que el **Flujo de trabajo de SharePoint 2013 - Project Server** esté seleccionado en la lista desplegable **Tipo de plataforma** (vea la figura 5). 
     
-    **La figura 5. Creación de un flujo de trabajo del sitio de Project Server**
+    **Figura 5. Creación de un flujo de trabajo del sitio de Project Server**
 
     ![Creación de un flujo de trabajo del sitio de Project Server] (media/pj15_CreateWorkflowSPD_CreateSiteWorkflow.gif "Creación de un flujo de trabajo del sitio de Project Server")
   
-2. Seleccione la ficha **Flujo de trabajo de bifurcación** . A continuación, en la ficha **flujo de trabajo** de la cinta de opciones, en el grupo **Administrar** , en la lista desplegable de **vistas** , elija **Diseñador basado en texto**. Para mostrar la vista con el naranja intermitente de inserción línea (vea la figura 6), haga clic en dentro de la vista.
+2. Seleccione la pestaña **Flujo de trabajo de bifurcación**. Después, en la pestaña **FLUJO DE TRABAJO** de la cinta, en el grupo **Administrar** de la lista desplegable **Vistas**, elija **Diseñador basado en texto**. Para mostrar la vista con la línea de inserción naranja intermitente (vea la Figura 6), haga clic dentro de la vista.
     
-    **La figura 6. Uso de la vista de diseñador basado en texto para el flujo de trabajo**
+    **Figura 6. Uso de la vista Diseñador basado en texto para el flujo de trabajo**
 
     ![Uso de la vista Diseñador basado en texto] (media/pj15_CreateWorkflowSPD_TextBasedDesigner.gif "Uso de la vista Diseñador basado en texto")
   
-3. En la vista **Diseñador basado en texto** , agregue las etapas que usa el flujo de trabajo. En la pestaña de **flujo de trabajo** de la cinta de opciones, en el grupo **Insertar** , en la lista desplegable de **fase** en **crear**, elija **Detalles de la propuesta iniciales**.
+3. En la vista **Diseñador basado en texto**, agregue las etapas que usa el flujo de trabajo. En la pestaña **FLUJO DE TRABAJO** de la cinta, en el grupo **Insertar**, en la lista desplegable **Etapa** dentro de **Crear**, elija **Detalles de la propuesta iniciales**.
     
-    De forma similar, coloque la línea de inserción naranja debajo del **etapa: detalles de la propuesta iniciales** cuadro y agregue las otras etapas que usa el flujo de trabajo: **Detalles del proyecto**, **Rechazo automatizado**y **ejecución** (vea la figura 7). 
+    De manera similar, coloque la línea de inserción naranja debajo del cuadro **Etapa: Detalles de la propuesta iniciales** y agregue las otras etapas que usa el flujo de trabajo: **Detalles del proyecto**, **Rechazo automatizado** y **Ejecución** (vea la Figura 7). 
     
-    **La figura 7. Adición de una fase a un flujo de trabajo en SharePoint Designer**
+    **Figura 7. Adición de una etapa a un flujo de trabajo en SharePoint Designer**
 
     ![Adición de una fase a un flujo de trabajo en SPD] (media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Adición de una fase a un flujo de trabajo en SPD")
   
 4. Agregue los pasos del flujo de trabajo y la lógica dentro de cada etapa: 
     
-    1. En la etapa de **Detalles de la propuesta iniciales** , coloque la línea de inserción naranja en la parte superior del cuerpo del escenario. En el grupo **Insertar** de la cinta de opciones, elija **acción**, desplácese hacia abajo hasta **Acciones de Project Web App**y, a continuación, elija **esperar el evento del proyecto**. Elija **este evento de proyecto**y, a continuación, seleccione **evento: cuando se envía un proyecto** en la lista desplegable. 
+    1. En la etapa **Detalles de la propuesta iniciales**, coloque la línea de inserción naranja en la parte superior del cuerpo de la etapa. En el grupo **Insertar** de la cinta, elija **Acción**, desplácese hacia abajo hasta **Acciones de Project Web App** y elija **Esperar evento de proyecto**. Elija **este evento de proyecto** y seleccione **Evento: cuando se envía un proyecto** en la lista desplegable. 
     
-    2. En la sección de **transición a la fase** de la fase de **Detalles de la propuesta iniciales** , inserte **Si cualquier valor es igual al valor**. Puede comenzar a escribir la instrucción o usar el control de **condición** en el grupo **Insertar** en la cinta de opciones. 
+    2. En la sección **Transición a fase** de la etapa **Detalles de la propuesta iniciales**, inserte **Si cualquier valor es igual al valor**. Puede empezar a escribir la instrucción o usar el control **Condición** del grupo **Insertar** de la cinta. 
     
-    3. Elija el primer control de **valor** y, a continuación, elija **fx** para mostrar el cuadro de diálogo **Definir búsqueda de flujo de trabajo** (vea la figura 8). En la lista desplegable **origen de datos** , seleccione **Datos del proyecto**. En la lista desplegable del **campo del origen** , seleccione el **Costo de la propuesta**.
+    3. Elija el primer control **valor** y elija **fx** para mostrar el cuadro de diálogo **Definir búsqueda de flujo de trabajo** (vea la Figura 8). En la lista desplegable **Origen de datos**, seleccione **Datos de Project**. En la lista desplegable **Campo del origen**, seleccione **Costo de la propuesta**.
     
-       **La figura 8. Definición de un valor de búsqueda en el flujo de trabajo**
+       **Figura 8. Definición de un valor de búsqueda en el flujo de trabajo**
 
        ![Definición de un valor de búsqueda en el flujo de trabajo] (media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif "Definición de un valor de búsqueda en el flujo de trabajo")
   
     4. Completar la `If` instrucción de modo que muestre lo siguiente: **costo de datos: propuesta de proyecto si es mayor que 25000**
     
        > [!NOTE]
-       > Como alternativa, podría crear una variable de flujo de trabajo, establezca la variable en el valor de campo personalizado y, a continuación, compare la variable con un valor. Por ejemplo, en la lista desplegable de **Las Variables locales** en la cinta de opciones, cree una variable con el nombre **TotalCost** (sin espacios) del tipo **Number**. En el cuadro de diálogo **Definir búsqueda de flujo de trabajo** , seleccione **flujo de trabajo Variables y parámetros** para el origen de datos y, a continuación, seleccione **Variable: TotalCost** como el campo. La instrucción **If** , a continuación, sería: **If Variable: TotalCost es mayor que 25000**
+       > Si lo prefiere, puede crear una variable de flujo de trabajo, definir la variable en el valor de campo personalizado y luego comparar la variable con un valor. Por ejemplo, desde la lista desplegable **Variables locales** de la cinta, cree una variable con el nombre **TotalCost** (sin espacios) del tipo **Number**. En el cuadro de diálogo **Definir búsqueda de flujo de trabajo**, seleccione **Variables y parámetros de flujo de trabajo** para el origen de datos y luego seleccione **Variable: CostoTotal** como campo. La instrucción **If** sería: **If Variable: CostoTotal es mayor que 25000**
   
     5. Coloque la línea de inserción naranja dentro de la `If` de sucursales y, a continuación, inserte **va a una fase** mediante el control de la **acción** , en el grupo **Insertar** en la cinta de opciones. Seleccione el control de lista desplegable de **una fase** y seleccione la fase de **Rechazo automático** . 
     
        De forma similar, en la `Else` de sucursales, inserte la instrucción **vaya a detalles del proyecto** . La figura 9 muestra la fase de **Detalles de la propuesta iniciales** completada. 
     
-       **En la figura 9. Lógica completada para la fase de detalles de la propuesta iniciales**
+       **Figura 9. Lógica completada para la etapa Detalles de la propuesta iniciales**
 
        ![Lógica completada para detalles de la propuesta iniciales] (media/pj15_CreateWorkflowSPD_InitialStageLogic.gif "Lógica completada para detalles de la propuesta iniciales")
   
-    6. En la fase de **Rechazo automático** , a menos que desea pausar el flujo de trabajo y mostrar algunos datos en un PDP, deje la primera sección vacía. La sección **transición a fase** debe contener una transición; debido a que no hay ningún otro fase siguiendo un rechazo, escriba Go al final del flujo de trabajo para la instrucción. 
+    6. En la etapa **Rechazo automatizado**, a menos que quiera hacer una pausa en el flujo de trabajo y mostrar algunos datos en una PDP, deje vacía la primera sección. La sección **Transición a fase** debe contener una transición; como ninguna otra etapa sigue a un rechazo, tiene que escribir Ir al final del flujo de trabajo para la instrucción. 
     
-    7. En la fase de **Detalles del proyecto** , agregue ir a la ejecución en la sección **realizar la transición a fase** . A menos que no hay datos adicionales para agregar o que desea pausar el flujo de trabajo, no es necesario esperar un evento enviado. 
+    7. En la etapa **Detalles del proyecto**, agregue Ir a ejecución en la sección **Transición a fase**. A menos que haya más datos para agregar o que quiera hacer una pausa en el flujo de trabajo, no es necesario esperar un evento enviado. 
     
-    8. En la etapa de **ejecución** , a menos que desea pausar el flujo de trabajo, deje la sección acción de fase vacío. En la sección de **transición a fase** , agregue **Ir al final del flujo de trabajo**.
+    8. En la etapa **Ejecución**, a menos que desee hacer una pausa en el flujo de trabajo, deje vacía la sección de acción de la etapa. En la sección **Transición a fase**, agregue **Ir al final del flujo de trabajo**.
     
-5. En el grupo **Guardar** en la cinta de opciones, elija **Buscar errores** para comprobar los errores de flujo de trabajo (vea la figura 10). Corrija los errores y, a continuación, elija **Guardar**.
+5. En el grupo **Guardar** de la cinta, elija **Buscar errores** para buscar errores en el flujo de trabajo (vea la Figura 10). Corrija los errores si los hay y elija **Guardar**.
     
-    **La figura 10. Comprobar el flujo de trabajo para errores en SharePoint Designer**
+    **Figura 10. Búsqueda de errores en el flujo de trabajo en SharePoint Designer**
 
     ![Comprobación de errores en el flujo de trabajo] (media/pj15_CreateWorkflowSPD_SPDCheckForErrors.gif "Comprobación de errores en el flujo de trabajo")
   
-6. (Opcional) En el grupo **Administrar** de la cinta de opciones, en el menú desplegable de **vistas** , elija **Diseñador Visual**. En la figura 11, se acerca o aleja la vista de en el 50%.
+6. (Opcional) En el grupo **Administrar** de la cinta, en la lista desplegable **Vistas**, elija **Diseñador visual**. En la Figura 11, la vista está alejada al 50 %.
     
-    Puede editar elementos en el flujo de trabajo mediante el diseñador Visual. Por ejemplo, seleccione la condición **Si cualquier valor es igual al valor** , elija el icono de herramienta en la parte inferior izquierda de la condición y, a continuación, seleccione el **valor** para mostrar las condiciones de la comparación en el cuadro de diálogo **Propiedades** . 
+    Puede editar los elementos del flujo de trabajo con el Diseñador visual. Por ejemplo, seleccione la condición **Si cualquier valor es igual al valor**, elija el icono de información situado en la esquina inferior izquierda de la condición, y después seleccione **Valor** para mostrar las condiciones de comparación en el cuadro de diálogo **Propiedades**. 
     
-    **La figura 11. Con el diseñador Visual para un flujo de trabajo**
+    **Figura 11. Uso del Diseñador visual para un flujo de trabajo**
 
     ![Uso de la vista de diseño de Visio del flujo de trabajo] (media/pj15_CreateWorkflowSPD_SwitchView.gif "Uso de la vista de diseño de Visio del flujo de trabajo")
   
@@ -213,61 +213,61 @@ En Project Web App, cree una EPT para el flujo de trabajo y, a continuación, pr
     
 1. En la página Configuración de PWA, elija **Tipos de proyecto empresarial**y, a continuación, cree una EPT con el nombre de flujo de trabajo de bifurcación de prueba. Desactive la casilla de verificación **crear nuevos proyectos como proyectos de lista de tareas de SharePoint** para que Project Server va a mantener el control total de los proyectos que se crean mediante la plantilla EPT. Seleccione **Flujo de trabajo de bifurcación** en la lista desplegable de **Asociación de flujo de trabajo de sitio** y, a continuación, seleccione la PDP **Información del proyecto** en la lista desplegable **Nueva página de proyecto** para que la primera página que se muestra el flujo de trabajo. 
     
-    **La figura 12. Adición de un EPT para el flujo de trabajo**
+    **Figura 12. Adición de una plantilla EPT para el flujo de trabajo**
 
     ![Adición de un EPT para el flujo de trabajo] (media/pj15_CreateWorkflowSPD_EPTs.gif "Adición de un EPT para el flujo de trabajo")
   
     > [!NOTE]
-    > Un valor **Sí** en la columna **Proyecto de lista de tareas de SharePoint** en la tabla de tipos de proyecto empresarial hace referencia a una EPT que crea una lista de tareas de SharePoint, donde la lista de tareas está visible en Project Web App, pero SharePoint mantiene el control del proyecto . Para obtener más información acerca de la administración de proyectos como listas de tareas de SharePoint, vea [arquitectura de Project Server 2013](project-server-2013-architecture.md). 
+    > Un valor **Sí** en la columna **Proyecto de lista de tareas de SharePoint** de la tabla de tipos de proyectos empresariales hace referencia a una EPT que crea una lista de tareas de SharePoint, donde la lista de tareas es visible en Project Web App, pero SharePoint controla el proyecto. Para más información sobre la administración de proyectos como listas de tareas de SharePoint, vea [Project Server 2013 architecture](project-server-2013-architecture.md). 
   
 2. Abra la página de proyectos en Project Web App y, a continuación, cree un proyecto mediante el uso de la nueva etp (vea la figura 13). Debido a que el **Flujo de trabajo de bifurcación de prueba** está asociada con el **Flujo de trabajo de bifurcación**, se inicia la creación del proyecto bajo el control del flujo de trabajo.
     
-    **La figura 13. Creación de un proyecto con el EPT de flujo de trabajo de bifurcación de prueba**
+    **Figura 13. Creación de un proyecto con la plantilla EPT Flujo de trabajo de bifurcación de prueba**
 
     ![Creación de un proyecto con el EPT] (media/pj15_CreateWorkflowSPD_NewProject.gif "Creación de un proyecto con el EPT")
   
 3. Cuando el flujo de trabajo muestra la **Información del proyecto** PDP, agregar datos a los campos del proyecto. Por ejemplo, escriba un valor de **Costo de la propuesta** de 30000. La versión en inglés de Estados Unidos de Project Server cambia el campo para mostrar 30.000 USD (vea la figura 14).
     
-    **La figura 14. Uso de la PDP modificada de información de proyecto**
+    **Figura 14. Uso de la PDP editada Información del proyecto**
 
     ![Uso de la PDP modificada de información de proyecto] (media/pj15_CreateWorkflowSPD_NewProjectStage1.gif "Uso de la PDP modificada de información de proyecto")
   
-4. En la ficha **proyecto** de la cinta de opciones, en el grupo de **proyectos** , elija **Guardar**. Project Server agrega los datos en el PDP al proyecto y, a continuación, se muestra la página Estado del flujo de trabajo (vea la figura 15). Para ver la descripción completa de la región de detalles de la propuesta iniciales en el diagrama de estado de flujo de trabajo, sitúe el puntero sobre el escenario en el diagrama de visualización del flujo de trabajo.
+4. En la pestaña **PROYECTO** de la cinta, en el grupo **Proyecto**, elija **Guardar**. Project Server agrega los datos de la PDP al proyecto y luego muestra la página Estado del flujo de trabajo (vea la Figura 15). Para ver la descripción completa de la página Detalles de la propuesta iniciales en el diagrama de estado del flujo de trabajo, mantenga el mouse sobre la etapa en el diagrama de visualización del flujo de trabajo.
     
-    La cuadrícula de **Todas las fases de flujo de trabajo** usa una flecha verde para mostrar que la región de detalles de la propuesta iniciales está esperando entrada. Esto es debido a que espera a que el flujo de trabajo para un evento de envío en la fase de detalles de la propuesta iniciales. Si el flujo de trabajo no esperaba a un evento de envío, podría elegir **siguiente** en el grupo de **página** para ir a la siguiente PDP. 
+    La cuadrícula **Todas las etapas de flujo de trabajo** usa una flecha verde para mostrar que la etapa Detalles de la propuesta iniciales está esperando que se introduzcan datos. Esto se debe a que el flujo de trabajo espera un evento de envío en la etapa Detalles de la propuesta iniciales. Si el flujo de trabajo no ha esperado un evento de envío, puede elegir **Siguiente** en el grupo **Página** para ir a la siguiente PDP. 
     
-    **La figura 15. Uso de la página Estado del flujo de trabajo en la fase de detalles de la propuesta iniciales**
+    **Figura 15. Uso de la página Estado del flujo de trabajo en la etapa Detalles de la propuesta iniciales**
 
     ![Página de estado de flujo de trabajo después de la primera fase] (media/pj15_CreateWorkflowSPD_NewProjectStage1Status.gif "Página de estado de flujo de trabajo después de la primera fase")
   
-    El diagrama de visualización de flujo de trabajo muestra la etapa actual en un color verde. En la fase de **creación** , la fase de detalles de la propuesta iniciales es la etapa actual. 
+    El diagrama de visualización del flujo de trabajo muestra la etapa actual en color verde. En la fase **Crear**, la etapa Detalles de la propuesta iniciales es la etapa actual. 
     
-5. En la cinta de opciones, en el grupo de **flujo de trabajo** , elija **Enviar**.
+5. En el grupo **Flujo de trabajo** de la cinta, elija **Enviar**.
     
     > [!TIP]
-    > Si está deshabilitado el control **Enviar** , actualice la página. 
+    > Si el control **Enviar** se encuentra deshabilitado, actualice la página. 
   
-    Si el valor de **Costo de la propuesta** es mayor que 25.000 dólares, el flujo de trabajo se mueve a la fase de rechazo automático. La figura 16 muestra el estado de fase de rechazo automático cuando elija **Enviar** de nuevo. Si el **Costo de la propuesta** es de 25.000 dólares o menos, el flujo de trabajo se mueve a la fase de detalles del proyecto (vea la figura 17). 
+    Si el valor de **Costo de la propuesta** es mayor que 25.000 USD, el flujo de trabajo pasará a la etapa Rechazo automatizado. La Figura 16 muestra el estado de la etapa Rechazo automatizado cuando elige **Enviar** nuevamente. Si el **Costo de la propuesta** es de 25.000 USD o inferior, el flujo de trabajo irá a la etapa Detalles del proyecto (vea la Figura 17). 
     
-    **La figura 16. El flujo de trabajo se completa en la fase de rechazo automático**
+    **Figura 16. El flujo de trabajo se completa en la etapa Rechazo automatizado**
 
     ![El flujo de trabajo se completa en rechazo automatizado] (media/pj15_CreateWorkflowSPD_AutomatedRejectionCompleted.gif "El flujo de trabajo se completa en rechazo automatizado")
   
     La figura 17 muestra otra prueba con una propuesta de proyecto denominada **probar 2 - bifurcación**, donde es actual en la fase de crear la etapa de detalles del proyecto. La fase de administración se muestra en una luz azul del color, que indica la fase no está activa.
     
-    **La figura 17. El flujo de trabajo continúa a la fase de detalles del proyecto si el costo es inferior a 25.000 $**
+    **Figura 17. El flujo de trabajo continúa con la etapa Detalles del proyecto si el costo es inferior a 25.000 $**
 
     ![Estado de flujo de trabajo en la fase de detalles del proyecto] (media/pj15_CreateWorkflowSPD_ProjectDetailsStage.gif "Estado de flujo de trabajo en la fase de detalles del proyecto")
   
-6. Si hace avanzar a la fase de detalles del proyecto, no hay ningún dato adicional para agregar en la página predeterminada. Elija **Enviar** nuevo para avanzar a la fase de ejecución (vea la figura 18). 
+6. Si avanza a la etapa Detalles del proyecto, no es necesario agregar más datos en la página predeterminada. Elija **Enviar** nuevamente para avanzar a la etapa Ejecución (vea la Figura 18). 
     
-    **La figura 18. El flujo de trabajo está listo para administrar en la fase de ejecución**
+    **Figura 18. El flujo de trabajo está listo para administrarse en la etapa Ejecución**
 
     ![Estado de flujo de trabajo en la fase de ejecución] (media/pj15_CreateWorkflowSPD_ExecutionStage.gif "Estado de flujo de trabajo en la fase de ejecución")
   
-En la etapa de detalles del proyecto, el flujo de trabajo no se espera para un evento de envío. Si el PDP de detalles del proyecto incluye campos obligatorios adicionales, Project Server espera hasta que se agregan datos a los campos antes de continuar con la fase de ejecución. Tal como se define en el flujo de trabajo de bifurcación, la etapa ejecución también no esperar a que un evento de envío. En la etapa de ejecución, puede editar el proyecto como un jefe de proyecto o elija **Cerrar** en la ficha **proyecto** de la cinta de opciones. Cuando se elige **Cerrar**, puede comprobar en el proyecto y editarlo más adelante o dejar el proyecto desprotegido.
+En la etapa Detalles del proyecto, el flujo de trabajo no espera un evento de envío. Si la PDP Detalles del proyecto incluye campos necesarios adicionales, Project Server esperará a que agregue datos en los campos antes de continuar a la etapa Ejecución. Según se ha definido en el Flujo de trabajo de bifurcación, la etapa Ejecución tampoco espera un evento de envío. En la etapa Ejecución, puede editar el proyecto como administrador del proyecto o elegir **Cerrar** en la pestaña **PROYECTO** de la cinta. Al elegir **Cerrar**, puede proteger el proyecto y editarlo más tarde, o bien dejarlo desprotegido.
 
-El proyecto de **Flujo de trabajo de bifurcación** es un ejemplo sencillo que tiene sólo una comparación de prueba. El flujo de trabajo implica tres fases en la fase de creación y una fase en la fase de administración de la administración de propuestas. Para probar exhaustivamente un flujo de trabajo, debe probar todas las ramas del flujo de trabajo y use valores extremos y típicos para ver si el comportamiento es como se esperaba. 
+El proyecto **Flujo de trabajo de bifurcación** es un ejemplo sencillo con una sola prueba de comparación. El flujo de trabajo conlleva tres etapas en la fase Crear y una en la fase Administrar de Administración de propuestas. Para probar a fondo un flujo de trabajo, debe probar todas las bifurcaciones del flujo de trabajo y usar valores extremos y típicos para ver si el comportamiento es el esperado. 
 
 <a name="pj15_CreateWorkflowSPD_ImportingVromVisio"> </a>
 
@@ -286,7 +286,7 @@ También puede crear o editar el flujo de trabajo en Visio 2013 e importar el ar
 
 1. En Visio 2013, cree un flujo de trabajo simple. Por ejemplo, realice los siguientes pasos:
     
-   1. Abra Visio y, a continuación, cree un flujo de trabajo. Elija el panel de **categorías** para un nuevo flujo de trabajo, elija **diagrama de flujo**, elija la plantilla de **Flujo de trabajo de Microsoft SharePoint 2013** en el panel de **nuevo** y, a continuación, elija **crear**. Se abre el flujo de trabajo con una forma de fase denominada **etapa 1**. El flujo de trabajo incluye un componente de inicio y una forma de ENTRAR y forma salir como parte de la forma etapa.
+   1. Abra Visio y cree un flujo de trabajo. Elija el panel **CATEGORÍAS** de un flujo de trabajo nuevo, elija **Diagrama de flujo**, elija la plantilla **Flujo de trabajo de Microsoft SharePoint 2013** en el panel **Nuevo** y luego elija **Crear**. El flujo de trabajo se abre con una forma Etapa denominada **Etapa 1**. Incluye un componente Inicio y una forma Entrar y otra Salir que forman parte de la forma Etapa.
     
       Cuando mantenga el mouse sobre la forma de fase y elija el icono de **Propiedades** , se deshabilita la selección. Puede establecer las propiedades de acción y la fase después de importar el diagrama de flujo de trabajo en SharePoint Designer 2013. 
     
@@ -296,23 +296,23 @@ También puede crear o editar el flujo de trabajo en Visio 2013 e importar el ar
       > - **Componentes: flujo de trabajo de SharePoint 2013**
       > - **Condiciones: flujo de trabajo de SharePoint 2013**
   
-   2. En el panel **formas** , elija **Formas rápidas**y, a continuación, arrastre la forma condición denominada **Si cualquier valor es igual al valor** a la derecha de la forma etapa. 
+   2. En el panel **Formas**, elija **Formas rápidas** y luego arrastre la forma Condición denominada **Si cualquier valor es igual al valor** a la derecha de la forma Etapa. 
     
-   3. En la ficha **página principal** de la cinta de opciones, elija la herramienta **conector** y, a continuación, conecte la forma de salir de la etapa con la forma condición (vea la figura 19). 
+   3. En la pestaña **INICIO** de la cinta, elija la herramienta **Conector** y conecte la forma Salir de la etapa con la forma Condición (vea la Figura 19). 
     
-      **La figura 19. Conectar una forma de etapa con una forma de condición en un diagrama de flujo de trabajo de Visio**
+      **Figura 19. Conexión de una forma Etapa con una forma Condición en una diagrama de flujo de trabajo de Visio**
 
       ![Creación de un diagrama de flujo de trabajo en Visio] (media/pj15_CreateWorkflowSPD_NewVisioWorkflow.gif "Creación de un diagrama de flujo de trabajo en Visio")
   
-   4. Arrastre dos formas de fase más a la derecha de la forma de condición. Las formas se denominan **fase 2** y **3 de la fase**.
+   4. Arrastre otras dos formas Etapa a la derecha de la forma Condición. Las formas tienen los nombres **Etapa 2** y **Etapa 3**.
     
    5. Mediante la herramienta **conector** , conectar el lado derecho de la forma de condición con la forma de ENTRAR de la **fase 2**. Elija la herramienta **puntero** , haga doble clic en la conexión para mostrar un cuadro de texto para el nombre y, a continuación, nombre de la conexión de sí.
     
-   6. Conectar la parte inferior de la forma de condición con la forma de ENTRAR de la **fase 3**. Con la herramienta **puntero** , haga clic en la conexión y, a continuación, elija **No**. Cualquiera de los métodos funciona para asignar nombres a los conectores de **Sí** o **No**.
+   6. Conecte la parte inferior de la forma Condición a la forma Entrar de **Etapa 3**. Con la herramienta **Puntero**, haga clic con el botón derecho en la conexión y luego elija **No**. Ambos métodos valen para nombrar los conectores **Sí** o **No**.
     
    7. En el panel **formas** , elija **acciones - flujo de trabajo de SharePoint 2013**y, a continuación, arrastre la acción **esperar el evento de project** a la mitad de la forma **Etapa** 1 (vea la figura 20). 
     
-      **La figura 20. Completar el flujo de trabajo en Visio**
+      **Figura 20. Finalización del flujo de trabajo en Visio**
 
       ![Completar el flujo de trabajo en Visio] (media/pj15_CreateWorkflowSPD_CompletedVisioWorkflow.gif "Completar el flujo de trabajo en Visio")
   
@@ -326,25 +326,25 @@ También puede crear o editar el flujo de trabajo en Visio 2013 e importar el ar
     
    En el cuadro de diálogo **Crear flujo de trabajo de sitio** , asegúrese de que el tipo de plataforma es el **Flujo de trabajo de SharePoint 2013 - Project Server**. Elija **crear**, y SharePoint Designer se abre el panel **Diseñador basado en texto** para el nuevo flujo de trabajo. 
     
-4. En el grupo **Administrar** de la ficha **flujo de trabajo** de la cinta de opciones, elija **Configuración de flujo de trabajo**.
+4. En el grupo **Administrar** de la pestaña **FLUJO DE TRABAJO** de la cinta, elija **Configuración del flujo de trabajo**.
     
 5. En el grupo **Administrar** de la pestaña **Configuración de flujo de trabajo** de la cinta de opciones, elija **Importar desde Visio**y, a continuación, importar el archivo de **flujo de trabajo de prueba desde Visio.vsdx** que guardó anteriormente. Un cuadro de diálogo de **Microsoft SharePoint Designer** le advierte que el diagrama que está importando no contiene las propiedades de ningún flujo de trabajo y pregunta si desea sobrescribir el flujo de trabajo actual. Elija **Sí**; SharePoint Designer se importa el diagrama de flujo de trabajo, se genera las galerías de símbolos para las formas y se muestra el panel de **Diseñador Visual** que contiene el flujo de trabajo importado. 
     
 6. Establecer las propiedades de cada forma de la fase del flujo de trabajo. Por ejemplo, la primera forma de la fase se denomina **etapa 1 (no válido)**, ya que no representa una fase válida en la instancia de Project Web App conectada. Cuando se activa o se mantenga el mouse sobre el escenario, puede elegir el icono de **Propiedades** en la parte inferior izquierda de la forma de fase para mostrar el cuadro de diálogo **Propiedades de fase** cuadro (consulte la figura 21). Seleccione la fase de **Detalles de la propuesta iniciales** en la lista desplegable de **Fase de proyecto** y, a continuación, elija **Aceptar**. SharePoint Designer cambia el nombre de la región.
     
-   **La figura 21. Establecer la propiedad fase en SharePoint Designer**
+   **Figura 21. Definición de la propiedad de etapa en SharePoint Designer**
 
    ![Establecer las propiedades de un flujo de trabajo importado] (media/pj15_CreateWorkflowSPD_ImportFromVisio1.gif "Establecer las propiedades de un flujo de trabajo importado")
   
-   Para la segunda etapa, establezca la propiedad de **Fase de proyecto** en **Rechazo automatizado**. Para la tercera fase, establezca la propiedad de **Fase de proyecto** en **ejecución**.
+   Para la segunda etapa, defina la propiedad **Fase del proyecto** en **Rechazo automatizado**. Para la tercera etapa, defina la propiedad **Fase del proyecto** en **Ejecución**.
     
-7. De forma similar, para la acción **esperar el evento de proyecto** , establezca la propiedad de **Nombre de evento** en **evento: cuando se envía un proyecto**.
+7. De igual modo, para la acción **Esperar el evento del proyecto**, tiene que definir la propiedad **Nombre de evento** en **Evento: cuando se envía un proyecto**.
     
 8. De forma similar, establezca las propiedades de la condición **Si cualquier valor es igual al valor** . Por ejemplo, puede establecer la primera propiedad de **valor** a **Costo de proyecto de datos: propuesta**. Establezca la propiedad **Operator** en **es menor que**. Establezca la propiedad **Value** segundo a 5000.
     
-9. Compruebe el flujo de trabajo para los errores y, a continuación, guarde el flujo de trabajo. Si no hay errores, puede cambiar la vista para el **Diseñador basado en texto** (vea la figura 22). 
+9. Revise el flujo de trabajo para ver si hay errores y luego guárdelo. Si no hay errores, puede cambiar la vista a **Diseñador basado en texto** (vea la Figura 22). 
     
-   **La figura 22. Visualización del flujo de trabajo importado en el diseñador basado en texto**
+   **Figura 22. Visualización del flujo de trabajo importado en el Diseñador basado en texto**
 
    ![Visualización del flujo de trabajo importado] (media/pj15_CreateWorkflowSPD_WorkflowFromVisio.gif "Visualización del flujo de trabajo importado")
   
@@ -356,13 +356,13 @@ En el trabajo a través de este artículo, creado y probado un trabajo de bifurc
   
 Visio 2013 y SharePoint Designer juntos proporcionan sencillos para diseñadores, los jefes de proyecto, los desarrolladores de flujo de trabajo y los evaluadores crear, compartir y personalizar los diseños de flujo de trabajo para las diferentes instalaciones de Project Server 2013 y Project Online. Para flujos de trabajo que requieren acceso mediante programación a Project Server que no proporcionan SharePoint Designer, puede usar Visual Studio 2012 con el modelo de objetos de cliente (COM).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Arquitectura de Project Server 2013](project-server-2013-architecture.md)
-- [Inicio: Instalar y configurar el Administrador de flujo de trabajo de SharePoint de 2013](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)
+- [Project Server 2013 architecture](project-server-2013-architecture.md)
+- [Inicio: instalar y configurar el Administrador de flujos de trabajo de SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)
 - [Descripción de cómo empaquetar e implementar el flujo de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj819316%28office.15%29.aspx)
 - [Flujos de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)
-- [Desarrollo de flujo de trabajo en SharePoint Designer 2013 y Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
-- [Solución de problemas de errores de validación de flujo de trabajo de SharePoint Server 2013 en Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)
+- [Desarrollo de flujos de trabajo en SharePoint Designer 2013 y Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
+- [Solución de problemas de errores de validación del flujo de trabajo de SharePoint Server 2013 en Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)
 - [Flujo de trabajo y administración de propuestas](http://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
 

@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821522"
 ---
-# <a name="angle-cell-shape-transform-section"></a>Celda Angle (Sección de transformación de forma)
+# <a name="angle-cell-shape-transform-section"></a>Celda Angle (sección Transformación de forma)
 
 Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda Angle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Angle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|

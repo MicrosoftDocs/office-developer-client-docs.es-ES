@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0b079b311a68459a43b0a7659ddfbe94d96d7f9c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817475"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Copia o mueve una carpeta de su carpeta primaria actual a otra carpeta primaria.
   
@@ -42,7 +42,7 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _lpSrcInterface_
   
@@ -114,7 +114,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > La llamada se ha realizado correctamente, pero no todas las entradas se copiaron correctamente. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El método **IMAPISupport::CopyFolder** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes pueden llamar a **IMAPISupport::CopyFolder** en su implementación de [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) para copiar o mover una sola carpeta desde la carpeta principal de uno a otro. 
   
@@ -134,7 +134,7 @@ Esperar que el siguiente devolver valores en las siguientes condiciones:
    
 Si **CopyFolder** devuelve un valor de error, no continúe en la suposición de que se ha realizado ningún trabajo. Una o varias carpetas podrían se han copiado o movido antes de **CopyFolder** tuvo el error. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

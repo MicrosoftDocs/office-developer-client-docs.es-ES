@@ -1,5 +1,5 @@
 ---
-title: Propiedades de destinatarios para los informes de estado de entrega
+title: Propiedades de destinatario para informes de estado de entrega
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a6ff82fa3cc4a7ad243285e9eb93b0ec880a3bd4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820466"
 ---
-# <a name="recipient-properties-for-delivery-status-reports"></a>Propiedades de destinatarios para los informes de estado de entrega
+# <a name="recipient-properties-for-delivery-status-reports"></a>Propiedades de destinatario para informes de estado de entrega
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Las siguientes propiedades están presentes para informes de estado de entrega para los destinatarios. **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) no se usa en los informes de no entrega. **PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) y **PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) sólo se utilizan en informes de no entrega.
   
 **Título de la tabla**
 
-|**Propiedad**|**Descifrado**|
+|**Propiedad**|**Descripción**|
 |:-----|:-----|
 |**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contiene la fecha y la hora a la que se ha entregado el mensaje original.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contiene el nombre para mostrar para un determinado objeto MAPI.  <br/> |

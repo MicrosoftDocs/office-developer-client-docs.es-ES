@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821521"
 ---
-# <a name="ang360-function"></a>ANG360 (función)
+# <a name="ang360-function"></a>Función ANG360
 
 Normaliza el intervalo de un ángulo para que sea 0 \<= resultado \< 2 pi radianes (0 \<= resultado \< 360 grados).
   
@@ -24,11 +24,11 @@ Normaliza el intervalo de un ángulo para que sea 0 \<= resultado \< 2 pi radian
 
 ANG360 (** *ángulo* **) 
   
-### <a name="parameters"></a>Sintaxis
+### <a name="parameters"></a>Parámetros
 
 |**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El ángulo que se normalizará.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El ángulo que se normalizará.  <br/> |
    
 ## <a name="remarks"></a>Observaciones
 

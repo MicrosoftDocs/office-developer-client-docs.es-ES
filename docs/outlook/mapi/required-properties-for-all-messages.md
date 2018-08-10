@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ebe4622ec9ed25be5ee8a736ed15e2f230ff05e3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19820524"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 En la siguiente tabla se describe las propiedades que los clientes pueden esperar para establecer o vea admitidos en los mensajes de todas las clases.
   

@@ -55,7 +55,7 @@ No se admite JavaScript Object Notation (JSON) en el modelo de extensibilidad de
   
 No hay ninguna dependencia en un analizador de XML. El proveedor de OSC puede usar un analizador de XML que se incluye con Office, como Microsoft XML Core Services (MSXML), use las funciones integradas en Microsoft .NET Framework de análisis de XML o usar un analizador XML de otros fabricantes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)  
 - [Pasos rápidos para aprender a desarrollar un proveedor](quick-steps-for-learning-to-develop-a-provider.md)

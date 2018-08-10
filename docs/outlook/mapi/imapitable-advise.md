@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 781146193748cdd9408a3320e90a73a070ced2af
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19817589"
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Registra un objeto de receptor advise para recibir notificaciones de los eventos que afectan a la tabla.
   
@@ -35,7 +35,7 @@ ULONG_PTR FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
  _ulEventMask_
   
@@ -61,7 +61,7 @@ MAPI_E_NO_SUPPORT
   
 > La implementación de la tabla no es compatible con los cambios realizados en sus filas y columnas o no admite la notificación.
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Utilice el método **IMAPITable::Advise** para registrar un objeto de tabla implementado en el proveedor para realizar devoluciones de llamadas de notificación. Cada vez que se produce un cambio en el objeto table, el proveedor comprueba qué bit de máscara de eventos se estableció en el parámetro _ulEventMask_ y, por tanto, ¿qué tipo de cambio se ha producido. Si un bit está establecido, a continuación, el proveedor llama al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto de receptor advise indicado por el parámetro _lpAdviseSink_ para notificar el evento. Datos que se pasan en la estructura de notificación a la rutina de **OnNotify** describen el evento. 
   
@@ -83,7 +83,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utiliza el método **IMAPITable::Advise** para registrar para que las notificaciones permitir la vista de tabla para mantenerse al día.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -95,7 +95,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)

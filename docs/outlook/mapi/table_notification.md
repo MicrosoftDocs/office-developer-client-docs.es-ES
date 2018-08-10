@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19820848"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Describe una fila en una tabla que se ha visto afectada por algún tipo de evento, como un cambio o un error. Esto hace que una notificación de la tabla que se genere. 
   
@@ -41,7 +41,7 @@ typedef struct _TABLE_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulTableEvent**
   
@@ -55,11 +55,11 @@ TABLE_ERROR
   
 > Se ha producido un error normalmente durante el procesamiento de una operación asincrónica. Errores durante el procesamiento de los métodos siguientes pueden generar este evento: 
     
-   - [SortTable](imapitable-sorttable.md)
+   - [IMAPITable::SortTable](imapitable-sorttable.md)
     
    - [IMAPITable::SetColumns](imapitable-setcolumns.md)
     
-   - [IMAPITable:: Restrict](imapitable-restrict.md)
+   - [IMAPITable::Restrict](imapitable-restrict.md)
     
    Después de recibir un evento TABLE_ERROR, un cliente no puede confiar en la precisión de la tabla de contenido. Además, las notificaciones sobre otros cambios pendientes se pueden perder. El método [IMAPITable::GetLastError](imapitable-getlasterror.md) no es posible que proporciona información adicional sobre el error ya que se generó en algún momento anterior, no necesariamente desde la última llamada al método. 
     
@@ -105,11 +105,11 @@ TABLE_SORT_DONE
   
 > Estructura de **SPropValue** para la propiedad **PR_INSTANCE_KEY** de la fila antes de la afectados. Si la fila afectada es la primera fila en la tabla, se debe establecer **propPrior** a **PR_NULL** y no cero. Cero no es una etiqueta de propiedad válido. 
     
-**fila**
+**row**
   
 > Estructura de [SRow](srow.md) que describe la fila afectada. Esta estructura se rellena para todos los eventos de notificación de la tabla. Para los eventos de notificación de tabla que no pasan la fila de datos, el miembro **cValues** de la estructura **SRow** se establece en cero y el miembro **lpProps** se establece en NULL. Debido a que esta estructura **SRow** es de sólo lectura; los clientes deben realizar una copia de la misma si desean hacer modificaciones. La función [ScDupPropset](scduppropset.md) puede utilizarse para realizar la copia. 
     
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 El **tabla\_notificación** estructura es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . El miembro **info** incluye un **tabla\_notificación** estructurar cuando el miembro **ulEventType** de la estructura está establecido en _fnevTableModified_.
   
@@ -119,13 +119,13 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Notificación de eventos de MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
+|[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
    
 Debido a que las notificaciones de tabla son asincrónicas, los clientes pueden recibir notificaciones de una fila se ha agregado después de aprendizaje acerca de la adición a través de otro medio. Es posible recibir un evento TABLE_ERROR cuando se ha producido un error en un método **IMAPITable::Sort**, **IMAPITable:: Restrict**o **IMAPITable::SetColumns** o cuando subyacentes de un proceso intenta actualizar una tabla con, por ejemplo, la nueva funcionalidad o las filas modificadas. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Notificaci�n](notification.md) 
 - [ScDupPropset](scduppropset.md)

@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con texto RTF para los proveedores de almacén de mensajes
+title: Admitir texto RTF para proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d7d64c8a7d4df4898502f4574ca879c736547b37
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820824"
 ---
-# <a name="supporting-rtf-text-for-message-store-providers"></a>Compatibilidad con texto RTF para los proveedores de almacén de mensajes
+# <a name="supporting-rtf-text-for-message-store-providers"></a>Admitir texto RTF para proveedores de almacenamiento de mensajes
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Algunas aplicaciones de cliente permiten a los usuarios usar formato de texto enriquecido (RTF) texto en sus mensajes. Si el mensaje almacena las necesidades de proveedor para admitir texto RTF en los mensajes, necesita controlar la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), además de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Principalmente, esto significa que almacenar las dos propiedades y asegurándose de que **PR_BODY** contiene una versión de texto sin formato del texto en **PR_RTF_COMPRESSED**. La función [RTFSync](rtfsync.md) es útil para este propósito. 
   
@@ -27,7 +27,7 @@ Hay dos indicadores que se pueden establecer en la propiedad de **PR_STORE_SUPPO
   
 Los proveedores de almacén de mensajes que no admiten texto RTF necesitan eliminar la propiedad **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) cuando la propiedad **PR_BODY** cambia para que interopere correctamente con las aplicaciones cliente que admiten texto RTF . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

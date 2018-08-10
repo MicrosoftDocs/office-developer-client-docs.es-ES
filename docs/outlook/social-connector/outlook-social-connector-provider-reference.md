@@ -1,5 +1,5 @@
 ---
-title: Referencia del proveedor de Outlook Social Connector
+title: Referencia de proveedores de Outlook Social Connector
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821208"
 ---
-# <a name="outlook-social-connector-provider-reference"></a>Referencia del proveedor de Outlook Social Connector
+# <a name="outlook-social-connector-provider-reference"></a>Referencia de proveedores de Outlook Social Connector
 
 El Outlook Social Connector 2013 proporciona un concentrador de comunicación para las comunicaciones personales y profesionales. Outlook Social Connector (OSC) funciona con SharePoint Server, SharePoint Workspace, cliente de Lync, y todas las aplicaciones de cliente de Office que admiten la información de presencia y la tarjeta de contacto admiten el OSC. 
 
@@ -45,7 +45,7 @@ Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Selecc
     
 - [Referencia del proveedor de Outlook Social Connector](outlook-social-connector-provider-reference-0.md): referencia de proporciona información para las interfaces de extensibilidad de proveedor OSC y esquema XML de OSC y las listas de posibles códigos de error.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Aviso de copyright de la referencia del proveedor de Outlook Social Connector de 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   

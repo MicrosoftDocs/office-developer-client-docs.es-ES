@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
-description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
+description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 390cec0cc59f189f83af2c5339512d82e125771e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19820849"
 ---
 # <a name="tables-and-memory-usage"></a>Las tablas y el uso de memoria
 
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Un problema importante conectado con la recuperación de datos de una tabla es el uso de memoria. Falta de memoria disponible puede provocar [IMAPITable:: QueryRows](imapitable-queryrows.md) y [HrQueryAllRows](hrqueryallrows.md) se lleve a cabo, devolución de menor que el número de filas que desee. Decidir qué método o función que se usará para recuperar los datos de la tabla depende de si la tabla puede esperarse que caben en la memoria y, si no se puede, si el error es aceptable. 
   
@@ -61,7 +61,7 @@ if (hr)
 
 Cuando se complete este bucle y se hayan procesado todas las filas de la tabla y _cRows_ es cero, normalmente será la posición del cursor en la parte inferior de la tabla. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

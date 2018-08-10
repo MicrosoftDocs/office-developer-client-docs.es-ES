@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de proveedor de transporte
+title: Muestra de proveedor de transporte
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
-description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
+description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1d0538f02f852580c064560460bb8b2ba54a2f65
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19820923"
 ---
-# <a name="transport-provider-sample"></a>Ejemplo de proveedor de transporte
+# <a name="transport-provider-sample"></a>Muestra de proveedor de transporte
 
   
   
-**Se aplica a**: Outlook 
+**Hace referencia a**: Outlook 
   
 Este ejemplo utiliza los archivos y directorios para transmitir y recibir mensajes. Se implementa y se registra un preprocesador muy simple que anexa una línea de texto a cada mensaje saliente. El ejemplo muestra cómo dividir el contenido de los mensajes entre el formato de encapsulación neutro de transporte (TNEF) y texto. También es compatible con todas las opciones de configuración (hojas de propiedades, asistentes y configuración mediante programación) y las opciones de mensajes. No admite las interfaces de transporte remoto. 
   
