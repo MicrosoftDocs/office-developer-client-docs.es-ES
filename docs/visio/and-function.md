@@ -16,24 +16,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821540"
 ---
-# <a name="and-function"></a><span data-ttu-id="8a299-104">AND (función)</span><span class="sxs-lookup"><span data-stu-id="8a299-104">AND Function</span></span>
+# <a name="and-function"></a><span data-ttu-id="4b8b5-104">Función AND</span><span class="sxs-lookup"><span data-stu-id="4b8b5-104">AND Function</span></span>
 
-<span data-ttu-id="8a299-105">Devuelve TRUE (1) si todas las expresiones lógicas suministradas son TRUE.</span><span class="sxs-lookup"><span data-stu-id="8a299-105">Returns TRUE (1) if all of the logical expressions supplied are TRUE.</span></span> <span data-ttu-id="8a299-106">Si alguna de las expresiones lógicas es falso o 0, la función y devuelve FALSE (0).</span><span class="sxs-lookup"><span data-stu-id="8a299-106">If any of the logical expressions are FALSE or 0, the AND function returns FALSE (0).</span></span>
+<span data-ttu-id="4b8b5-105">Devuelve TRUE (1) si todas las expresiones lógicas suministradas son TRUE.</span><span class="sxs-lookup"><span data-stu-id="4b8b5-105">Returns TRUE (1) if all of the logical expressions supplied are TRUE.</span></span> <span data-ttu-id="4b8b5-106">Si alguna de las expresiones lógicas es falso o 0, la función y devuelve FALSE (0).</span><span class="sxs-lookup"><span data-stu-id="4b8b5-106">If any of the logical expressions are FALSE or 0, the AND function returns FALSE (0).</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="8a299-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8a299-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b8b5-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4b8b5-107">Syntax</span></span>
 
-<span data-ttu-id="8a299-108">Y (** *expression1 lógica* **, ** *Expresión2 lógica* **,..., ** *expresiónn lógico* **)</span><span class="sxs-lookup"><span data-stu-id="8a299-108">AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** )</span></span> 
+<span data-ttu-id="4b8b5-108">Y (** *expression1 lógica* **, ** *Expresión2 lógica* **,..., ** *expresiónn lógico* **)</span><span class="sxs-lookup"><span data-stu-id="4b8b5-108">AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="8a299-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8a299-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="4b8b5-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4b8b5-109">Parameters</span></span>
 
-|<span data-ttu-id="8a299-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="8a299-110">**Name**</span></span>|<span data-ttu-id="8a299-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="8a299-111">**Required/Optional**</span></span>|<span data-ttu-id="8a299-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="8a299-112">**Data Type**</span></span>|<span data-ttu-id="8a299-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="8a299-113">**Description**</span></span>|
+|<span data-ttu-id="4b8b5-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="4b8b5-110">**Name**</span></span>|<span data-ttu-id="4b8b5-111">**Obligatorio/opcional**</span><span class="sxs-lookup"><span data-stu-id="4b8b5-111">**Required/Optional**</span></span>|<span data-ttu-id="4b8b5-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="4b8b5-112">**Data Type**</span></span>|<span data-ttu-id="4b8b5-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4b8b5-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="8a299-114">_expresión lógica_</span><span class="sxs-lookup"><span data-stu-id="8a299-114">_logical expression_</span></span> <br/> |<span data-ttu-id="8a299-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8a299-115">Required</span></span>  <br/> |<span data-ttu-id="8a299-116">**String**</span><span class="sxs-lookup"><span data-stu-id="8a299-116">**String**</span></span> <br/> | <span data-ttu-id="8a299-p103">Combinación de constantes, operadores, funciones y referencias a celdas de ShapeSheet que da como resultado un valor. Cualquier expresión que al evaluarse se convierta en un valor distinto de cero se considera verdadera.</span><span class="sxs-lookup"><span data-stu-id="8a299-p103">A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. Any expression that evaluates to a non-zero value is considered to be TRUE.</span></span>  <br/> |
+| <span data-ttu-id="4b8b5-114">_expresión lógica_</span><span class="sxs-lookup"><span data-stu-id="4b8b5-114">_logical expression_</span></span> <br/> |<span data-ttu-id="4b8b5-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="4b8b5-115">Required</span></span>  <br/> |<span data-ttu-id="4b8b5-116">**String**</span><span class="sxs-lookup"><span data-stu-id="4b8b5-116">**String**</span></span> <br/> | <span data-ttu-id="4b8b5-p103">Combinación de constantes, operadores, funciones y referencias a celdas de ShapeSheet que da como resultado un valor. Cualquier expresión que al evaluarse se convierta en un valor distinto de cero se considera verdadera.</span><span class="sxs-lookup"><span data-stu-id="4b8b5-p103">A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. Any expression that evaluates to a non-zero value is considered to be TRUE.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="8a299-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="8a299-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4b8b5-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4b8b5-119">Example</span></span>
 
-<span data-ttu-id="8a299-120">Y (alto \> 1, PinX \> 1)</span><span class="sxs-lookup"><span data-stu-id="8a299-120">AND(Height \> 1, PinX \> 1)</span></span>
+<span data-ttu-id="4b8b5-120">Y (alto \> 1, PinX \> 1)</span><span class="sxs-lookup"><span data-stu-id="4b8b5-120">AND(Height \> 1, PinX \> 1)</span></span>
   
-<span data-ttu-id="8a299-p104">Devuelve TRUE si ambas expresiones son verdaderas. Devuelve FALSE si cualquiera de las expresiones es falsa.</span><span class="sxs-lookup"><span data-stu-id="8a299-p104">Returns TRUE if both expressions are TRUE. Returns FALSE if either expression is FALSE.</span></span>
+<span data-ttu-id="4b8b5-p104">Devuelve TRUE si ambas expresiones son verdaderas. Devuelve FALSE si cualquiera de las expresiones es falsa.</span><span class="sxs-lookup"><span data-stu-id="4b8b5-p104">Returns TRUE if both expressions are TRUE. Returns FALSE if either expression is FALSE.</span></span>
   
 

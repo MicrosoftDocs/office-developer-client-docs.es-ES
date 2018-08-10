@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821330"
 ---
-# <a name="weatherdata-element-outlook-weather-information-schema"></a><span data-ttu-id="ba4a4-103">elemento WeatherData (esquema de información de meteorología de Outlook)</span><span class="sxs-lookup"><span data-stu-id="ba4a4-103">weatherdata element (Outlook Weather Information Schema)</span></span>
+# <a name="weatherdata-element-outlook-weather-information-schema"></a><span data-ttu-id="60eeb-103">elemento WeatherData (esquema de información de meteorología de Outlook)</span><span class="sxs-lookup"><span data-stu-id="60eeb-103">weatherdata element (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="ba4a4-104">Define el elemento de meteorología.</span><span class="sxs-lookup"><span data-stu-id="ba4a4-104">Defines the weather element.</span></span>
+<span data-ttu-id="60eeb-104">Define el elemento de meteorología.</span><span class="sxs-lookup"><span data-stu-id="60eeb-104">Defines the weather element.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ba4a4-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="ba4a4-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="60eeb-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="60eeb-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ba4a4-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-106">**Element type**</span></span> <br/> ||
-|<span data-ttu-id="ba4a4-107">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-107">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|<span data-ttu-id="ba4a4-108">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-108">**Schema file**</span></span> <br/> |<span data-ttu-id="ba4a4-109">GetWeatherInfo.xsd</span><span class="sxs-lookup"><span data-stu-id="ba4a4-109">getweatherinfo.xsd</span></span>  <br/> |
+|<span data-ttu-id="60eeb-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="60eeb-106">**Element type**</span></span> <br/> ||
+|<span data-ttu-id="60eeb-107">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="60eeb-107">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|<span data-ttu-id="60eeb-108">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="60eeb-108">**Schema file**</span></span> <br/> |<span data-ttu-id="60eeb-109">GetWeatherInfo.xsd</span><span class="sxs-lookup"><span data-stu-id="60eeb-109">getweatherinfo.xsd</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="ba4a4-110">Definición</span><span class="sxs-lookup"><span data-stu-id="ba4a4-110">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="60eeb-110">Definición</span><span class="sxs-lookup"><span data-stu-id="60eeb-110">Definition</span></span>
 
 ```XML
     <xs:element name="weatherdata"
@@ -44,22 +44,22 @@ ms.locfileid: "19821330"
     
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="ba4a4-111">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="ba4a4-111">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="60eeb-111">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="60eeb-111">Elements and attributes</span></span>
 
-<span data-ttu-id="ba4a4-112">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="ba4a4-112">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="60eeb-112">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="60eeb-112">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="ba4a4-113">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="ba4a4-113">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="60eeb-113">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="60eeb-113">Parent elements</span></span>
 
-<span data-ttu-id="ba4a4-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ba4a4-114">None.</span></span>
+<span data-ttu-id="60eeb-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="60eeb-114">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ba4a4-115">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="ba4a4-115">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="60eeb-115">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="60eeb-115">Child elements</span></span>
 
-|<span data-ttu-id="ba4a4-116">**Element**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-116">**Element**</span></span>|<span data-ttu-id="ba4a4-117">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-117">**Type**</span></span>|<span data-ttu-id="ba4a4-118">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ba4a4-118">**Description**</span></span>|
+|<span data-ttu-id="60eeb-116">**Element**</span><span class="sxs-lookup"><span data-stu-id="60eeb-116">**Element**</span></span>|<span data-ttu-id="60eeb-117">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="60eeb-117">**Type**</span></span>|<span data-ttu-id="60eeb-118">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="60eeb-118">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="ba4a4-119">meteorología</span><span class="sxs-lookup"><span data-stu-id="ba4a4-119">weather</span></span>](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[<span data-ttu-id="ba4a4-120">weatherType</span><span class="sxs-lookup"><span data-stu-id="ba4a4-120">weatherType</span></span>](weathertype-complextype-outlook-weather-information-schema.md) <br/> |<span data-ttu-id="ba4a4-121">Especifica las condiciones del tiempo de una ubicación.</span><span class="sxs-lookup"><span data-stu-id="ba4a4-121">Specifies the weather conditions of a location.</span></span>  <br/> |
+|[<span data-ttu-id="60eeb-119">meteorología</span><span class="sxs-lookup"><span data-stu-id="60eeb-119">weather</span></span>](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[<span data-ttu-id="60eeb-120">weatherType</span><span class="sxs-lookup"><span data-stu-id="60eeb-120">weatherType</span></span>](weathertype-complextype-outlook-weather-information-schema.md) <br/> |<span data-ttu-id="60eeb-121">Especifica las condiciones del tiempo de una ubicación.</span><span class="sxs-lookup"><span data-stu-id="60eeb-121">Specifies the weather conditions of a location.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="ba4a4-122">Atributos</span><span class="sxs-lookup"><span data-stu-id="ba4a4-122">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="60eeb-122">Atributos</span><span class="sxs-lookup"><span data-stu-id="60eeb-122">Attributes</span></span>
 
-<span data-ttu-id="ba4a4-123">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ba4a4-123">None.</span></span>
+<span data-ttu-id="60eeb-123">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="60eeb-123">None.</span></span>
   
 

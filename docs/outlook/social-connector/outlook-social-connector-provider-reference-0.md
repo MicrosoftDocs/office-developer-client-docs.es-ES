@@ -1,5 +1,5 @@
 ---
-title: Referencia del proveedor de Outlook Social Connector
+title: Referencia de proveedores de Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19821202"
 ---
-# <a name="outlook-social-connector-provider-reference"></a><span data-ttu-id="50395-103">Referencia del proveedor de Outlook Social Connector</span><span class="sxs-lookup"><span data-stu-id="50395-103">Outlook Social Connector provider reference</span></span>
+# <a name="outlook-social-connector-provider-reference"></a><span data-ttu-id="de73d-103">Referencia de proveedores de Outlook Social Connector</span><span class="sxs-lookup"><span data-stu-id="de73d-103">Outlook Social Connector provider reference</span></span>
 
-<span data-ttu-id="50395-104">Esta sección contiene temas de referencia de extensibilidad de proveedor de Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="50395-104">This section contains reference topics for Outlook Social Connector (OSC) provider extensibility.</span></span>
+<span data-ttu-id="de73d-104">Esta sección contiene temas de referencia de extensibilidad de proveedor de Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="de73d-104">This section contains reference topics for Outlook Social Connector (OSC) provider extensibility.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="50395-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="50395-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="de73d-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="de73d-105">In this section</span></span>
 
-- [<span data-ttu-id="50395-106">Interfaces</span><span class="sxs-lookup"><span data-stu-id="50395-106">Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
+- [<span data-ttu-id="de73d-106">Interfaces</span><span class="sxs-lookup"><span data-stu-id="de73d-106">Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
   
-- [<span data-ttu-id="50395-107">Esquema XML</span><span class="sxs-lookup"><span data-stu-id="50395-107">XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
+- [<span data-ttu-id="de73d-107">Esquema XML</span><span class="sxs-lookup"><span data-stu-id="de73d-107">XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
   
-- [<span data-ttu-id="50395-108">Códigos de error</span><span class="sxs-lookup"><span data-stu-id="50395-108">Error Codes</span></span>](outlook-social-connector-provider-error-codes.md)
+- [<span data-ttu-id="de73d-108">Códigos de error</span><span class="sxs-lookup"><span data-stu-id="de73d-108">Error Codes</span></span>](outlook-social-connector-provider-error-codes.md)
   
-## <a name="related-sections"></a><span data-ttu-id="50395-109">Secciones relacionadas</span><span class="sxs-lookup"><span data-stu-id="50395-109">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="de73d-109">Secciones relacionadas</span><span class="sxs-lookup"><span data-stu-id="de73d-109">Related sections</span></span>
 
-- [<span data-ttu-id="50395-110">Prácticas recomendadas para desarrollar un proveedor</span><span class="sxs-lookup"><span data-stu-id="50395-110">Best Practices for Developing a Provider</span></span>](best-practices-for-developing-a-provider.md)
+- [<span data-ttu-id="de73d-110">Prácticas recomendadas para desarrollar un proveedor</span><span class="sxs-lookup"><span data-stu-id="de73d-110">Best Practices for Developing a Provider</span></span>](best-practices-for-developing-a-provider.md)
   
-- [<span data-ttu-id="50395-111">Plantillas de ejemplo OSC</span><span class="sxs-lookup"><span data-stu-id="50395-111">OSC Sample Templates</span></span>](osc-sample-templates.md)
+- [<span data-ttu-id="de73d-111">Plantillas de ejemplo OSC</span><span class="sxs-lookup"><span data-stu-id="de73d-111">OSC Sample Templates</span></span>](osc-sample-templates.md)
   
 
