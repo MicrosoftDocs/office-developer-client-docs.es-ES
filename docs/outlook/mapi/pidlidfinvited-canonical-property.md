@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 409fc2e01b103378eb0df1bdd06ee8b5647148bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efedeb54decf1feae7b31f8af299a154606d7afc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582906"
 ---
 # <a name="pidlidfinvited-canonical-property"></a>Propiedad canónica PidLidFInvited
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si se han enviado invitaciones para la reunión que representa esta reunión.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

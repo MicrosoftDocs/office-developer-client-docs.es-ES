@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6bd13eb7180302a5ab770586cf36856ca5a22676
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050068b542616d1ad4d133b289aba46db2888519
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587820"
 ---
 # <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En desuso. Devuelve los tipos de direcciones que se pueden controlar por todos los proveedores de transporte en la sesión. 
   
@@ -67,7 +67,7 @@ El método **IMAPISession:: EnumAdrTypes** devuelve una lista de los tipos de di
 
 Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadena indicada por el parámetro _lpppszAdrTypes_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

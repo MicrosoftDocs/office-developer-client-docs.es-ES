@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c3b371a226c9eb6a3cf675ee316bf22a597fe806
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b21162c53a64675abbf31a8ab512719b413d5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583165"
 ---
 # <a name="disk-instances-and-cache-tables"></a>Instancia de disco y tablas de caché
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para activar un formulario, sus archivos ejecutables deben estar disponibles en el equipo del usuario. Si no están disponibles, deben copiarse desde la biblioteca de formularios en el disco local. Para ello, el Administrador de formulario predeterminado crea un subdirectorio en el directorio de Windows del usuario para que contenga los archivos del formulario ejecutable (. Exe. HLPs). Este directorio se conoce como la instancia de disco del formulario.
   
@@ -28,7 +28,7 @@ Además de la memoria caché la instancia de disco, el Administrador de formular
 > [!NOTE]
 > El Administrador de formulario predeterminado muestra un indicador de progreso al instalar un formulario en la estación de trabajo de un usuario, lo que permite al usuario cancelar la operación. Esto es especialmente útil si la conexión del usuario al archivo ejecutable del servidor de formulario es a través de una red de ancho de banda bajo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Formularios MAPI](mapi-forms.md)
 

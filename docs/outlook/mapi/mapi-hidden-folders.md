@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 81b53bc138a64da673d6723e60fd90b086174efe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70aeda8789665a3f35bf75f83f32a92dbeedc8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818135"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589108"
 ---
 # <a name="mapi-hidden-folders"></a>Carpetas de MAPI oculto
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Carpetas ocultas son gen�rica que los clientes se crean en la carpeta ra�z del almac�n de mensajes, en lugar de en la carpeta ra�z de un sub�rbol de mensajes interpersonales (IPM). Dado que estas carpetas no se colocan en un sub�rbol IPM, por lo general est�n ocultas desde la vista del usuario por el proveedor de almac�n de mensajes. Carpetas ocultas normalmente contienen informaci�n que es relevante para el usuario pero relevantes para el almac�n de mensajes. Los clientes crear las carpetas ocultas para almacenar, por ejemplo, informaci�n adicional que se guarde con el resto de la jerarqu�a de carpetas.
   

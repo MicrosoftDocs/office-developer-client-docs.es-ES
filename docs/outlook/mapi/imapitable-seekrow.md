@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 143ca03a5e98d638d29394f5c0803e349ab4de25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586483"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Mueve el cursor a una posición específica en la tabla.
   
@@ -111,7 +111,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProcessor.cpp  <br/> |CMAPIProcessor::ProcessMailboxTable  <br/> |MFCMAPI, utiliza el método **IMAPITable::SeekRow** para encontrar el principio de la tabla antes del procesamiento.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

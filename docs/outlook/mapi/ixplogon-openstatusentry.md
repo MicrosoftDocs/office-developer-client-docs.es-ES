@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0e96c0b99f0a5f7511ed59b483ab9409eafad882
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818003"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587022"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre el objeto de estado del proveedor de transporte.
   
@@ -68,7 +68,7 @@ S_OK
 
 La cola MAPI llama al método de **IXPLogon::OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada de fila de tabla de estado del proveedor de transporte. **OpenStatusEntry** abre un objeto con la interfaz de **IMAPIStatus** asociada a este inicio de sesión del proveedor de transporte determinado. A continuación, se utiliza este objeto para habilitar las aplicaciones de cliente llamar a métodos **IMAPIStatus** (por ejemplo, para volver a configurar el inicio de sesión mediante el método [SettingsDialog](imapistatus-settingsdialog.md) , o para validar el estado de la sesión de inicio de sesión mediante el uso de la [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) (método)). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

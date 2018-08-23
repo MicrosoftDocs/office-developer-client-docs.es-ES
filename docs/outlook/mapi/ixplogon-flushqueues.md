@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 116e3cfaace9c0965001021575b76ec371667877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818008"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584733"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Solicitudes que el proveedor de transporte entrega inmediatamente todos los mensajes entrantes o salientes pendientes.
   
@@ -82,7 +82,7 @@ La cola MAPI llama al método de **IXPLogon::FlushQueues** para indicar que el p
   
 Para admitir su implementación del método [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) , la cola MAPI llama a **IXPLogon::FlushQueues** para todos los objetos de inicio de sesión para los proveedores de transporte de activo que se ejecutan en una sesión de perfil. Cuando se llama a método de **FlushQueues** del proveedor de transporte como resultado de una llamada de la aplicación de cliente a **IMAPIStatus::FlushQueues**, el procesamiento del mensaje se produce de forma asincrónica al cliente.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

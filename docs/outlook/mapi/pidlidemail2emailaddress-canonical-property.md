@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 89b33a24-395a-4a3f-bc05-a44529399d7c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0c1c463ee6a24f6ef0026264b6790ba50b146a09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bea9e8fbd07be607f57ea2a14ae14de733def44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818641"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588044"
 ---
 # <a name="pidlidemail2emailaddress-canonical-property"></a>Propiedad canónica PidLidEmail2EmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la segunda dirección de correo electrónico del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

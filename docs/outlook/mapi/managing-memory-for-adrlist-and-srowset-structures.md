@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ab582b869fb5a53d7ac4e97e039d9bde4a4f0430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589731"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Administración de la memoria para las estructuras ADRLIST y SRowSet"
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El requisito de asignar toda la memoria para un búfer siempre que sea posible con una sola llamada **MAPIAllocateBuffer** no se aplica cuando se usa la lista de direcciones, o las estructuras de **ADRLIST**y el conjunto de filas o **SRowSet**. 
   
@@ -33,7 +33,7 @@ En el siguiente diagrama muestra el diseño de una estructura de datos **ADRLIST
   
 ![Memoria de adrlist] (media/amapi_52.gif "Memoria de adrlist")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Administración de memoria en MAPI](managing-memory-in-mapi.md)
 

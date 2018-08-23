@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e42bbf23ea8cf4e6196017a962329366e168420d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818419"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585685"
 ---
 # <a name="mtsid"></a>MTSID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de entrada del sistema (MTS) de transporte de mensaje X.400. 
   
@@ -57,7 +57,7 @@ La estructura **MTSID** se usa solo para X.400 asignaciones de identificadores d
   
 Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de la propiedad binaria. Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d5ba7e7bc52ba041e9fe6c9a01b35dc91d3b947b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6de4be29811dafaf5288b2ccb39c0342a314bad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584628"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Convierte una cadena terminada en null de dígitos hexadecimales en un entero largo sin signo. 
   

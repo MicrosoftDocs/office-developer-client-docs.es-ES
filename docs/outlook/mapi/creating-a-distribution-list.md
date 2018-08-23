@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 82fa28f021dbb839c7bb05974682f0bb24174bb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0a6b7af196073d52ce98037b443569dcd1f41e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582549"
 ---
 # <a name="creating-a-distribution-list"></a>Creación de una lista de distribución
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los clientes pueden crear una lista de distribución directamente en un contenedor modificable como la libreta de direcciones personales (PAB).
   

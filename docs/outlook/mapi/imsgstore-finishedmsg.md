@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9da9a13f87eac097fba078da1f1d6c3f78f69c0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589955"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que el proveedor de almacén de mensajes realizar el procesamiento en un mensaje enviado. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -78,7 +78,7 @@ Es posible que ni se establece **PR_DELETE_AFTER_SUBMIT** o **PR_SENTMAIL_ENTRYI
    
 Después de haber tomado cualquier acción es adecuada, llame al método [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e88c240b4219ac66bc9a1d4b8fa11ffc47682dd9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 076ad08cb1ea743a796ce77f401089444de5c824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818780"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590382"
 ---
 # <a name="pidlidlogdocumentrouted-canonical-property"></a>Propiedad canónica PidLidLogDocumentRouted
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si el documento se ha enviado a un destinatario de distribución durante el registro en diario.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

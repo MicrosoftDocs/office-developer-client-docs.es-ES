@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d8b4df2dbb0d7fd2edeb82222f333c11c5f71987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b29f47191bc1f12653ddcc4e78dd8b3401f0480
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820121"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587645"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propiedad canónica PidTagRoamingDatatypes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits que indica qué secuencia de propiedades que existen en el mensaje.
   
@@ -65,7 +65,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

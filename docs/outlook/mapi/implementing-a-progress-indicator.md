@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 767b8723d9a544a31ee5c4bbc1d6186a15387b44
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a359ec413da91b3e2819978e80ea0a921f6b245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587127"
 ---
 # <a name="implementing-a-progress-indicator"></a>Implementar un indicador de progreso
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muchas de las operaciones iniciadas por clientes toman una cantidad considerable de tiempo. Uno de los parámetros de entrada para estas operaciones potencialmente largas es un puntero a un objeto de progreso: un objeto que implementa el [IMAPIProgress: IUnknown](imapiprogressiunknown.md) interfaz. Objetos de progreso controlan el aspecto y la visualización de los indicadores de progreso y se implementan por los clientes y por MAPI. Puede elegir si se va a implementar un objeto de progreso o no. La implementación de MAPI está disponible para los proveedores de servicio que se utilizará si opta por no proporcionar una implementación. 
   

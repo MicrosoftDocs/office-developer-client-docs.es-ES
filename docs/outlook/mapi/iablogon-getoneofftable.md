@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b8a6d74df3749a5445d95ad392f7f88d27190bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583683"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un objeto table de plantillas de uso único para la creación de los destinatarios que se agregará a la lista de destinatarios de un mensaje saliente.
   
@@ -70,7 +70,7 @@ Los proveedores de la libreta de direcciones también pueden admitir una tabla d
   
 Para obtener una lista de las columnas necesarias en la tabla de uso único de un proveedor libreta de direcciones, vea [Las tablas de uso único](one-off-tables.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

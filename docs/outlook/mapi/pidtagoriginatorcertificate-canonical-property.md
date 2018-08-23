@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 871ce5f594a75b9441d0434c3be47b2718540576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 966af9b3b3cbe52031402450be324ab6821d53ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586581"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>Propiedad canónica PidTagOriginatorCertificate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un certificado ASN.1 para el autor del mensaje.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

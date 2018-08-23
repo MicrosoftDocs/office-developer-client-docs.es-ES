@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fe175cda1c968b5efc99adc98ebc54e1b8f4a898
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b0332fb81dadb0f10ab6f55fae317349ab9b8d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584880"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Propiedad canónica PidTagIpmOutboxEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de la carpeta Bandeja de salida estándar de mensajes interpersonales (IPM). 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

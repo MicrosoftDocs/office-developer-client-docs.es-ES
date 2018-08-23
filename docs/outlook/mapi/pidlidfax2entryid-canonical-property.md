@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0a67151-769b-4034-a182-3e4a5a86deb0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e944e77fac510d309add32d927c381843b7d86ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d320716586bc50c4c666b95335c6dcaa4a083424
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818681"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586063"
 ---
 # <a name="pidlidfax2entryid-canonical-property"></a>Propiedad canónica PidLidFax2EntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la propiedad EntryID de dirección de fax del domicilio particular del contacto.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

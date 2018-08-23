@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2a003be35fc9c3ef8efc7c66997ee99f6e578f09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fc72f008d1c2610de3c74762aabc6231dabbfbd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817394"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589059"
 ---
 # <a name="imapiprogressprogress"></a>IMAPIProgress::Progress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Actualiza el indicador de progreso con una visualización del progreso de la medida que se realiza hacia la finalización de la operación. 
   
@@ -79,7 +79,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::Progress  <br/> |MFCMAPI usa el método **IMAPIProgress::Progress** para actualizar la barra de estado MFCMAPI con el porcentaje actual de progreso, que se calcula a partir de _uValue_ y los valores máximo y mínimos actuales.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a73c87f172b4c97379bb9cd117679d3947c188af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817507"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588184"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Implementa un objeto de almacenamiento para obtener acceso a una secuencia.
   
@@ -100,7 +100,7 @@ No permitir una propiedad para abrirse con la interfaz **IStream** si se creó c
   
 Con una excepción, es aceptable para usar la interfaz de **IStreamDocfile** para un objeto de almacenamiento de un contenedor a otro en secuencia, pero se debe pasar el identificador de interfaz IID_IStreamDocfile en el método de **OpenProperty** _lpInterface _parámetro. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

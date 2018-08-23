@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e4e7ecda40f3f3fcb05700ba3e8b79ab21cbe35b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f02da9eb1920f55acf65dfb6a503e42d4c3daf2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585426"
 ---
 # <a name="using-a-table-to-work-with-properties"></a>Usar una tabla para trabajar con propiedades
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muchas propiedades están disponibles desde los objetos que los admiten tanto como columnas en las tablas. Siempre que sea posible, recuperar estas propiedades a través de la tabla.
   

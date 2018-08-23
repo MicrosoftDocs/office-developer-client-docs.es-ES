@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 456ef036b26fd8b9840d33f0f699474c3a6ce127
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586154"
 ---
 # <a name="choosing-a-forms-property-set"></a>Selección de conjunto de propiedades de un formulario
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Al implementar el servidor de formulario, debe tener una propiedad para cada parte de la información que necesita su clase de mensaje. Estas propiedades pueden ser propiedades MAPI predefinidas, o pueden ser propiedades personalizadas que se definen. Para obtener más información sobre cómo trabajar con propiedades, vea [Información general sobre la propiedad de MAPI](mapi-property-overview.md).
   
@@ -36,7 +36,7 @@ Para obtener más información sobre cómo definir propiedades personalizadas, v
 > [!NOTE]
 > Los servidores que tienen un mensaje de texto suelen usar la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) para almacenarlo de formulario. Si su servidor de formulario utiliza **PR_RTF_COMPRESSED**, debe también asegurarse de que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contiene una versión de sólo texto del texto del mensaje, en caso de que se lea el mensaje resultante por un cliente que no admite texto Rich Texto del mensaje con formato (RTF). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

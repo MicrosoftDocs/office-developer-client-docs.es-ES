@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b907b3385a89e0746740a4363bead41cd8fed8fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dba8121ca693e60ec115e5ab039406f4ce399a85
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818942"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583249"
 ---
 # <a name="pidlidsharingremotestoreuid-canonical-property"></a>Propiedad canónica PidLidSharingRemoteStoreUid
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la representación de cadena hexadecimal del valor de la propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) en la carpeta compartida. Esto es una propiedad de un mensaje para compartir.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

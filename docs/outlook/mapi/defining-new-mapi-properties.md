@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1a2325ea-ddfa-480f-b65f-f5b20471fb40
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 68e877568565cfcc30b60e9b21f55b7dc1600b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f922ee95cda84311d840aa9de339883c57efba56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590326"
 ---
 # <a name="defining-new-mapi-properties"></a>Definir nuevas propiedades MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 A pesar de la gran cantidad de propiedades suministrada por MAPI para que usen los clientes y proveedores de servicios, MAPI permite nuevas propiedades que se creará si es necesario. Algunos de los escenarios válidos para definir nuevas propiedades públicas incluyen un cliente de creación de propiedades para admitir una nueva clase de mensaje y un proveedor de servicios creación de nuevas propiedades para exponer características exclusivas de mensajería del sistema.
   

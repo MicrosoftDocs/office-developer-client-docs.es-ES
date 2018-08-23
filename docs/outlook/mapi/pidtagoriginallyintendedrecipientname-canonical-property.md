@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 19c11c4e49eff9156a928dfa3d2a8b51d8873984
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583795"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Propiedad canónica PidTagOriginallyIntendedRecipientName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre codificado del destinatario de un mensaje de autoforwarded originalmente.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

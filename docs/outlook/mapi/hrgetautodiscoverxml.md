@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: da466fc9add8cbc385014782f31749d3b6522da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584068"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una secuencia de lenguaje de marcado Extensible (XML) que representa información recuperada desde el servicio de detección automática de un servidor de Microsoft Exchange 2007.
   

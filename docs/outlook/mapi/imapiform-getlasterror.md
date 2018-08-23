@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 81af8a0b-4ec2-459c-8ab2-29d28a8b680f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8b29298ab97518c2e346c2cdc5dee6baec28f8e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a83af0766c907f2868f7d5e116454e648d6f4463
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817257"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583774"
 ---
 # <a name="imapiformgetlasterror"></a>IMAPIForm::GetLastError
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior generado por el objeto de formulario. 
   
@@ -73,7 +73,7 @@ Puede usar la estructura **MAPIERROR** indicada por el parámetro _lppMAPIError_
   
 Para obtener más información acerca del método **GetLastError** , vea [Uso de errores extendido](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

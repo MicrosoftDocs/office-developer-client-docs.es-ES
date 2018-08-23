@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a679d04f7697abbe0172105febf87082c0cd9946
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81b7b0c235f610e7aaa0c17ecd1760df5d382552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587974"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que el subsistema MAPI informar a un proveedor de MAPI del cierre rápido de un cliente MAPI, por lo que el proveedor MAPI puede responder a la que se cerró.
   
@@ -56,7 +56,7 @@ Dependiendo del registro de Windows del usuario configuración de apagado rápid
   
 Para obtener más información acerca del proceso de apagado rápido, consulte [Información general de cierre rápido](fast-shutdown-overview.md). Para obtener información acerca de cómo llevar a cabo apagado rápido correctamente, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

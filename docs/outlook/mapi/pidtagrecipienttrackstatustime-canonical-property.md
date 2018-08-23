@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0db4efcf1e05536ee7abb3459caa0159f84ef798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7263fc408bd2c3f6838e571407ed8984c61427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582766"
 ---
 # <a name="pidtagrecipienttrackstatustime-canonical-property"></a>Propiedad canónica PidTagRecipientTrackStatusTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y la hora cuando el asistente ha respondido.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

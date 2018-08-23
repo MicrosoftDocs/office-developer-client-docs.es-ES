@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f7f764d95c2fc36ba6af617333cb47d266cd2aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23850e7da71125642abd8484fb45b8ec23264748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818846"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587652"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propiedad canónica PidLidPropertyDefinitionStream
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa las definiciones de campos definidos por el usuario y la configuración de enlace de datos de los campos integrados de un mensaje.
   
@@ -55,7 +55,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

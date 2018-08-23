@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d7294527fcd557ae2d4824b9a3215ff464f62c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816361"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586460"
 ---
 # <a name="about-restrictions"></a>Información sobre las restricciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una restricción es una forma de limitar el número de filas en una vista para sólo las filas con los valores de las columnas que coincidan con criterios específicos. Hay muchas oportunidades diferentes para el uso de restricciones con tablas. Las aplicaciones de cliente pueden usar restricciones, por ejemplo, para filtrar una tabla de contenido para los mensajes enviados por una persona específica, para buscar las filas que no son compatibles con una propiedad o han establecido una propiedad en un valor específico o para buscar los destinatarios duplicados dentro de un Mensaje. 
   
@@ -29,7 +29,7 @@ Algunos clientes pueden generar una restricción de uso de columnas que no está
   
 Los clientes deben tener en cuenta que, incluso si el proveedor admite restricciones en columnas no está en el conjunto actual de columna, va a obtener un mejor rendimiento general mediante la especificación de las columnas que se va a utilizar en sus restricciones con [IMAPITable::SetColumns](imapitable-setcolumns.md) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

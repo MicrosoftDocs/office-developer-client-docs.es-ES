@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ef1c9814aa6d1f81a44883d09ac635a5eed76517
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 739fe4077fa57f0f12dd38f05f90851c5291b45a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818789"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585937"
 ---
 # <a name="pidlidlogend-canonical-property"></a>Propiedad canónica PidLidLogEnd
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la fecha de finalización y la hora para el mensaje de diario.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

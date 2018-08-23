@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 83ab01363d478d197286bfa8f7b5b092a7ffd5a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03465df65498643ce02598fdc26ab78b44e1135a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588681"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>Propiedad canónica PidTagIconIndex
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número que indica qué icono que se utilizará al mostrar un grupo de objetos de correo electrónico.
   
@@ -73,7 +73,7 @@ Esta propiedad, si existe, es una sugerencia para el cliente. El cliente puede p
 |Reunión de instancia única  <br/> |0x00000402  <br/> |
 |Reunión periódica  <br/> |0x00000403  <br/> |
 |Convocatoria de reunión  <br/> |0 x 00000404  <br/> |
-|Accept  <br/> |0x00000405  <br/> |
+|Aceptar  <br/> |0x00000405  <br/> |
 |Rechazar  <br/> |0x00000406  <br/> |
 |Tentativly  <br/> |0 x 00000407  <br/> |
 |Cancelación  <br/> |0x00000408  <br/> |
@@ -134,7 +134,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

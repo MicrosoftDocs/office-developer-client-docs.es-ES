@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9573f10c-66e1-4e87-93f0-89687e906b8b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 51241009262471bf30f7d71e3108b896bbce8df7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4ccfb8cf8201a17993932acc4c0104ace80b94d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820437"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588723"
 ---
 # <a name="preparing-a-recipient"></a>Preparar un destinatario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una aplicación cliente prepara a los destinatarios mediante la conversión de sus identificadores de entrada a corto plazo a los identificadores de entrada a largo plazo y, posiblemente, agregar, cambiar o reordenación de propiedades. Puede preparar los destinatarios que forman parte de una lista de destinatarios para un mensaje o los destinatarios que no están relacionados con un mensaje. Normalmente, los clientes llaman [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) directamente para convertir los identificadores de entrada a corto plazo en los identificadores de entrada a largo plazo para los destinatarios que se incluyen en el cuadro de diálogo dirección comunes. Para los destinatarios que están asociados con un mensaje saliente, la preparación del destinatario se administra mediante el proceso de resolución de nombres. 
   

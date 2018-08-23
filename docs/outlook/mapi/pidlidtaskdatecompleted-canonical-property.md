@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9737b5f940f95c88c2d3c5c6e98fc885daf64219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97d541279f052099498cdf7bfd374a95238a376d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818929"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584222"
 ---
 # <a name="pidlidtaskdatecompleted-canonical-property"></a>Propiedad canónica PidLidTaskDateCompleted
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la fecha cuando el usuario complete la tarea.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

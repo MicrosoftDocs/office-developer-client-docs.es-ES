@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
 description: 'Última modificación: 02 de julio de 2012'
-ms.openlocfilehash: bb2d347d218a7c33a2184bf1fcf181a11fa7d8fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588310"
 ---
 # <a name="feid"></a>FEID
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Identificador de una carpeta. Contiene un identificador de entrada y otra información relevante.
   
@@ -53,7 +53,7 @@ struct FEID
   
 > Identificador a largo plazo de la carpeta.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

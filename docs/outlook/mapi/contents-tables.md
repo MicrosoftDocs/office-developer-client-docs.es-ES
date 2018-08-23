@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0dd79d9630837b5ec8a709d386ccc0db987dfb5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 923fd527eb7d04b31f15e6d8673e2e964fa0d1ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585643"
 ---
 # <a name="contents-tables"></a>Tablas de contenido
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla de contenido contiene información acerca de los objetos en un contenedor MAPI. Los proveedores de la libreta de direcciones implementan las tablas de contenido para cada uno de sus contenedores y almacén de mensajes y los proveedores de transporte remoto implementan las tablas de contenido para sus carpetas. En la tabla de contenido de un contenedor de la libreta de direcciones muestra información sobre sus objetos de lista de distribución mensajería, mientras que la tabla de contenido de una carpeta muestra información acerca de sus mensajes. Tablas de contenido se usan principalmente por las aplicaciones cliente. 
   
@@ -105,7 +105,7 @@ Pueden agregarse propiedades con nombre para el conjunto de columnas de una tabl
   
 Los clientes pueden guardar el criterio de ordenación predeterminado para una tabla de contenido de carpeta llamando a su método [IMAPIFolder::SaveContentsSort](imapifolder-savecontentssort.md) . Si se ha especificado el indicador RECURSIVE_SORT en la llamada, se puede establecer el criterio de ordenación que se debe aplicar a todas las subcarpetas dentro de la carpeta. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

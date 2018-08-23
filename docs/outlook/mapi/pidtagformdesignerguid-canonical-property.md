@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: db3bc9dacb0756f3ed9f16969b95245950b947fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586532"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propiedad canónica PidTagFormDesignerGuid
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador único para el objeto que se utiliza para diseñar un formulario.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

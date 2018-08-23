@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5e8debcd5a60357f05dfb7b6bde1faf972e50a26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586084"
 ---
 # <a name="message-content"></a>Contenido del mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Hay dos codificaciones posibles para el contenido del mensaje: uno mediante MIME, la otra mediante uuencode. MIME es la codificación preferida. Además, MAPI define una propiedad por destinatario, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que controla si se debe incluir la información de TNEF en un mensaje saliente. Por tanto, hay un total de cuatro maneras de codificar el contenido de mensaje:
   

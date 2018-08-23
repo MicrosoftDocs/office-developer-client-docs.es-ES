@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cf687a7bfadb0981ca3440c2f81bc5de8f910924
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 605de2a1aa93a4f02277700b1aa49f7d43728a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582941"
 ---
 # <a name="component-object-model-and-mapi"></a>MAPI y modelo de objetos componentes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La documentación del SDK de Windows incluye una explicación completa de las reglas para la implementación de objetos que se ajustan al modelo de objetos componentes (COM). Estas reglas de direcciones cómo hacer lo siguiente:
   
@@ -53,7 +53,7 @@ Las otras desviaciones de las reglas de COM estándar se describen en la siguien
 |Cerrar todos los parámetros de puntero explícitamente se deben establecer en NULL cuando se produce un error en un método.  <br/> |Interfaces MAPI requieren que los parámetros de puntero estar establecido en NULL o no se modifican cuando un método de salida se produce un error. Todas las implementaciones de MAPI de interfaces definidas por OLE establecer explícitamente los parámetros en NULL en caso de error de salida.  <br/> |
 |Implementar objetos agregables siempre que sea posible.  <br/> |Interfaces MAPI no están agregables.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

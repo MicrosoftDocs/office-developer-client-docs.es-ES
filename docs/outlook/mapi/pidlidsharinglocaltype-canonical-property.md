@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ab9bad51efc4aa9b113bc8d215426c642fc60b9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f24486270f5f20596e76781c7ddf4cbc90e17a11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583956"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>Propiedad canónica PidLidSharingLocalType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el valor de la propiedad **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de la carpeta que se está compartiendo. Esto es una propiedad de un mensaje para compartir.
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

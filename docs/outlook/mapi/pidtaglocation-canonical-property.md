@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 03082536902ead880ba88343cd1991e518ed5665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef88992cefda851742bb332c643136603a4d6a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819709"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584593"
 ---
 # <a name="pidtaglocation-canonical-property"></a>Propiedad canónica PidTagLocation
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la ubicación del destinatario en un formato que es útil para la organización del destinatario. 
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

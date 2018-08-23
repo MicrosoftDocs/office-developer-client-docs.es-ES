@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: c6538f8fef7d8ccb87b6e6d9d2b9c68779ca8582
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd8075d2fddb7ada6803c869cbbd282c464e75bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585881"
 ---
 # <a name="mapi-attachments"></a>Datos adjuntos de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Algunos proveedores de almac�n de mensajes que los clientes puedan asociar se agreg� informaci�n en forma de archivos, objetos OLE, los mensajes o datos binarios con los mensajes. Esta informaci�n se ha agregado se denomina datos adjuntos de un mensaje. Debido a que los datos adjuntos se crean, mantienen y tener acceso s�lo a trav�s de sus mensajes, se consideran subobjetos de mensaje. En lugar de tener un identificador de entrada para obtener acceso, los datos adjuntos tienen conocidos n�mero secuencial como un n�mero de datos adjuntos. Este n�mero identifica de forma exclusiva los datos adjuntos de su mensaje, pero no necesariamente en el almac�n de mensajes. Dos mensajes diferentes pueden tener diferentes datos adjuntos con el mismo n�mero de datos adjuntos. Los números de los datos adjuntos sólo son válidos mientras el mensaje está abierto y se almacenan en la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
   

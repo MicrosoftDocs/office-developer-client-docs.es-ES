@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0708522f918984dca09097104561feca787cd2a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af6eb9ad3332f094d5abfa3d1571714c7f5583ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819635"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583291"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Propiedad canónica PidTagInternetFollowupTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se asigna al seguimiento MIME-al encabezado.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cb683178a8e258f571cbc3d05a3b030481905433
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 524bbfe5f40a66585fb4ed4463b057ca6a0c881a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586805"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra el cuadro de diálogo dirección común. 
   
@@ -85,7 +85,7 @@ Si **dirección** debe devolver una estructura **ADRLIST** más grande, o si han
   
  **Dirección** se devuelve inmediatamente si se ha establecido el indicador DIALOG_SDI en la estructura **ADRPARM** en el parámetro _lpAdrParms_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

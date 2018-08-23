@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: a2d0c3e3-ba49-4e2c-bcfd-27cc5ff78c5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b1e2a76198e0c11a826c1bfec6d5b8af1394899c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6032a1b6e54d9228e88482a1c2b0b194e591b697
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819075"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587757"
 ---
 # <a name="pidnamebytecount-canonical-property"></a>Propiedad canónica PidNameByteCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el tamaño, en bytes, del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |ByteCount  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7f81a0c3c9a9ad0a9bcef5c5685aa5b343237f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817999"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582472"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Informa al proveedor de transporte que la cola MAPI completó su procesamiento en un mensaje de salida.
   
@@ -70,7 +70,7 @@ Una vez que devuelve esta llamada, el valor en el parámetro _ulMsgRef_ ya no es
   
 Todos los objetos que se abre el proveedor de transporte durante la transferencia de un mensaje deben liberarse antes de la devolución de llamada **EndMessage** , excepto el objeto de mensaje que la cola MAPI se pasa al proveedor de transporte. El objeto de mensaje pasado por la cola MAPI no es válido después de la llamada **EndMessage** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

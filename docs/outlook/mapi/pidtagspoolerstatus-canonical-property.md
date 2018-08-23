@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: df52f668e91b707c0436b394186b27fdbb3a5dbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588576"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propiedad canónica PidTagSpoolerStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el estado del mensaje según la información que está disponible para la cola de MAPI.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

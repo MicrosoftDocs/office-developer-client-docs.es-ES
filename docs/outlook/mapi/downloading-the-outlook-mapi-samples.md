@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e3501ef80b6e1b1b99d09e50186fa0bc10d7fb67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816719"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583263"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Descargar las muestras MAPI de Outlook
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los ejemplos de MAPI de Outlook de Microsoft incluyen un proveedor de la libreta de direcciones, un proveedor de almacén de mensajes y un proveedor de transporte.
   
@@ -35,7 +35,7 @@ Los ejemplos de MAPI de Outlook de Microsoft incluyen un proveedor de la libreta
     
 5. En el cuadro de diálogo **Descarga completa** , haga clic en **Cerrar** para cerrar el cuadro de diálogo. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

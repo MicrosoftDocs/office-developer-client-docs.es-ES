@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4178fdf6-af0e-4833-9751-402f86d18206
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9ac847403aea37412069aee51b545b2257404612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f8d1e21ad3f591c8176728084ec74831eb9f5cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587666"
 ---
 # <a name="pidtagotheraddresscountry-canonical-property"></a>Propiedad canónica PidTagOtherAddressCountry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el correo otro país o región del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

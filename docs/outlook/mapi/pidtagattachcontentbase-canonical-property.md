@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cff0e2a5ffdb3b85e73b24ec8a30b7d88637ce48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40e2efbf512265dffeee43d09e85879e8c3a0e56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582423"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>Propiedad canónica PidTagAttachContentBase
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el encabezado contenido de base de datos adjuntos de mensajes de extensiones multipropósito de correo Internet (MIME).
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

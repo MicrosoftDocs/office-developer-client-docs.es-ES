@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 21a6907f7511779d7e8ec6825ac68d109d2f48eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817114"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582465"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece una conexión a una sesión activa.
   
@@ -138,7 +138,7 @@ Normalmente, cuando un proveedor de la libreta de direcciones no puede iniciar s
   
 Retorno MAPI_E_FAILONEPROVIDER si produce un error no es lo suficientemente grave como para impedir que los otros proveedores en el servicio de mensajes establecer conexiones. Devolver MAPI_E_UNCONFIGURED si falta la información de configuración necesaria desde el perfil y no se puede mostrar un cuadro de diálogo para preguntar al usuario. MAPI responderá al llamar a la función de punto de entrada de servicio del su proveedor mensaje con MSG_SERVICE_CONFIGURE establecido como el parámetro _ulContext_ para proporcionar el servicio de una oportunidad para configurarse a sí mismo, ya sea mediante programación o mediante una hoja de propiedades. Cuando elija la entrada de mensajes de servicio finalizado (función), el inicio de sesión de reintentos de MAPI. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

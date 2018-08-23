@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b0f86b2260299d2d0294598628f2895c50ed9452
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818901"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587120"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propiedad canónica PidLidRemoteTransport
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Identifica el elemento de encabezado de qué cuenta está asociado, principalmente para implementar la deje de POP en la funcionalidad del servidor. 
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

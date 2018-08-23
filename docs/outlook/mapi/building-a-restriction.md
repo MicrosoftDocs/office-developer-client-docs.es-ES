@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3b40c8433f93237db2ae4fd5449fe8a0da486539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816499"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590102"
 ---
 # <a name="building-a-restriction"></a>Creación de una restricción
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para crear una restricción, una aplicación de cliente crea una jerarquía de uno o más estructuras de restricción de varios tipos y pasa un puntero a la jerarquía al método [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) . La ilustración siguiente y el ejemplo de código en [Código de restricción de ejemplo](sample-restriction-code.md) demuestran cómo se implementa una restricción típica con estructuras de restricción vinculado de distintos tipos. 
 
@@ -31,7 +31,7 @@ La segundo y terceros los miembros de la matriz son más sencillos. Ambas apunta
   
 ![Implementación de restricción] (media/amapi_61.gif "Implementación de restricción")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

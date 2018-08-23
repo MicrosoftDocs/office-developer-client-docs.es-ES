@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cbf34dd6-7733-47f6-9c41-9d82656ca9dc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4468ecd5946c95fab62d0885d9c0b3343a1508dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5354618383a97b362348b14aea174d6f2266d6c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583284"
 ---
 # <a name="pidtagattachfilename-canonical-property"></a>Propiedad canónica PidTagAttachFilename
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de archivo base y la extensión, excluyendo la ruta de acceso de datos adjuntos.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

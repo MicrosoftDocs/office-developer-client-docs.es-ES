@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 01a8e3c479ab3ddd1be9386e033b993fda5835a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96e81442125ae49e0c2856a1cf3a97a16d3453cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818062"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583340"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece una sesión en el que una aplicación cliente inicia sesión en un proveedor de transporte. 
   
@@ -110,7 +110,7 @@ Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI ll
   
 Si el proveedor busca todas la información necesaria no está en el perfil, debe devolver MAPI_E_UNCONFIGURED para que MAPI llama a la función de punto de entrada de servicio de mensajes del proveedor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IXPProvider : IUnknown](ixpprovideriunknown.md)  
 - [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)  

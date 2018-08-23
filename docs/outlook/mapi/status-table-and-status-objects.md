@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 774aaea0365066981b9d6426a2579160f6578844
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820762"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590067"
 ---
 # <a name="status-table-and-status-objects"></a>Tabla de estado y objetos de estado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI proporciona una tabla con información sobre el estado del subsistema MAPI, cola MAPI, la libreta de direcciones o un proveedor de servicio en particular. Puede tener acceso a esta tabla mediante una llamada a [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
   
@@ -55,7 +55,7 @@ Los clientes que implementan el envío o recepción de mensajes a petición llam
   
 No se espera que puedan llamar al **diálogo Configuración** o [ChangePassword](imapistatus-changepassword.md) en cualquiera de los subsistema MAPI, la cola MAPI o la dirección de objetos de estado de la libreta. Los objetos de estado de la libreta del subsistema y la dirección solo admiten **ValidateState**; el objeto de estado de cola de impresión MAPI admite **FlushQueues** además de **ValidateState**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

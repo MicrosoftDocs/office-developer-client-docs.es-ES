@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fc444725aae20e7321fa287a90cf7d3e13b7ffb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587533"
 ---
 # <a name="mapi-message-service-overview"></a>Información general sobre el servicio de mensaje MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un servicio de mensajes define un grupo de proveedores de servicios relacionados, normalmente los proveedores de servicios que funcionan con el mismo sistema de mensajería. Mientras que los proveedores de servicios de llevar a cabo el trabajo de comunicación entre los sistemas de mensajería y el subsistema MAPI, servicios de mensajes lleve a cabo el trabajo de la interacción entre el usuario y los proveedores de servicios que funcionan con un sistema de mensajería comunes.  
   
@@ -35,7 +35,7 @@ Cuando se instala un servicio de mensajes, su programa de instalación copia los
   
 Para controlar la configuración, un servicio de mensajes implementa una función de punto de entrada que cumple con un prototipo definido por MAPI y un cuadro de diálogo con fichas conocido como una hoja de propiedades. MAPI llama a la función de punto de entrada para atender las solicitudes de cliente que se relacionan con la administración de perfiles y la administración de proveedores de servicio en el servicio de mensajes. Hojas de propiedades se utilizan para ver y cambiar las propiedades de configuración del proveedor de servicio y de servicio de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

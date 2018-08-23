@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 25368f6c-4fba-4381-840c-ca122bd31b5f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4dde93bbec2594804ab18a3ee4eb3e116a57e528
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 121bba82a9ccd40a435769b5eb2d966ed60575f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586973"
 ---
 # <a name="pidtagjunkincludecontacts-canonical-property"></a>Propiedad canónica PidTagJunkIncludeContacts
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si las direcciones de correo electrónico de los contactos de la carpeta Contactos se tratan especialmente en relación con el filtro de spam.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

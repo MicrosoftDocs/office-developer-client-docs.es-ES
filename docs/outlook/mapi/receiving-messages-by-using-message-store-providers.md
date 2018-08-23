@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 94ea0fe7fba4e49c1f646d889f3727cf5ef4739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820477"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590193"
 ---
 # <a name="receiving-messages-by-using-message-store-providers"></a>Recibir mensajes usando proveedores de almacenamiento de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes no es necesario que admitir los envíos de mensajes entrantes (es decir, la compatibilidad con la capacidad de los proveedores de transporte y la cola de MAPI para utilizar el mensaje de proveedor de almacén como punto de entrega de mensajes). Sin embargo, si su proveedor de almacén de mensajes no es compatible con los envíos de mensajes entrantes, no puede usarse como el almacén de mensajes predeterminado.
   
@@ -45,7 +45,7 @@ La secuencia de llamadas a métodos que se produce cuando se entrega un mensaje 
     
 6. La cola MAPI llama (método) [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) del almacén de mensajes. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

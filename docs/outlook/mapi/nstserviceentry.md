@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b5902c25197c2ae5790e654a8f29227e107b4a72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583788"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Función de punto de entrada de servicio de mensajes para una MAPI proveedor para ajustar un almacén local basada en PST como un almacén de NST de almacén. 
   
@@ -79,7 +79,7 @@ Los siguientes comentarios son aplicables a un almacén de NST:
 
 - En este caso, el objeto de soporte técnico del servicio de mensajes debe asegurarse de que **IMAPISupport::OpenProfileSection** devuelve la sección de perfil que se identifica con la propiedad **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** en la sección de perfil predeterminado. Para obtener esta sección de perfil, el objeto de soporte técnico puede abrir la sección de perfil predeterminado, recuperar **PR_SERVICE_UID**y pasa el resultado a **IMAPISupport::OpenProfileSection** para recuperar la sección de perfil global correcto. El objeto de soporte a su vez devuelve un puntero a esta sección de perfil global para el servicio de mensajes. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

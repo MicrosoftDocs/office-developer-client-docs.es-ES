@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 975c01457515a400d1d442fedc432dc000f06665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 42d09fd92edf4dc221b73dac4948e78a7c6898ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589332"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Implementa un objeto de progreso que proporciona a las aplicaciones de cliente con un indicador de progreso. Un indicador de progreso es una presentación de la interfaz de usuario que muestra el porcentaje de finalización de una operación, como copiar carpetas entre almacenes de mensajes. Las aplicaciones MAPI y cliente implementan objetos de progreso y proveedores de servicios de usan. 
   
@@ -58,7 +58,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MapiProgress.h y MapiProgress.cpp  <br/> |No disponible  <br/> |Si está habilitada la configuración de IMAPIProgress, MFCMAPI pasará una implementación de **IMAPIProgress** a todas las funciones que invoca MFCMAPI que aceptan una implementación.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

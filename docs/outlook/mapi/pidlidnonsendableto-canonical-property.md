@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 90e14969-652b-422a-9b0a-ee99e58bc8d5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 297d9047944388afcf75b9645d76eb2670841ba8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4875ff12d494b1d259c4647ff925243e55ee281
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818809"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586616"
 ---
 # <a name="pidlidnonsendableto-canonical-property"></a>Propiedad canónica PidLidNonSendableTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de todos los asistentes compuestas que también son los asistentes necesarios.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

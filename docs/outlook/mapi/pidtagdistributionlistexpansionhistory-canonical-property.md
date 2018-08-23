@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3989532388d9c88c293427a4ce7109579a832ad1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588471"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propiedad canónica PidTagDistributionListExpansionHistory
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un historial que muestra cómo una lista de distribución se ha ampliado durante la transmisión de mensajes. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

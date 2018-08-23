@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c4590b2-631e-4a57-a779-eed8268233da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e72ec613860d6f4ff0f523bb858308f1605c8a00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3833409871b3fd5b454447f16915d2f9f1162399
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587407"
 ---
 # <a name="pidlidformpropstream-canonical-property"></a>Propiedad canónica PidLidFormPropStream
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa los datos en las propiedades personalizadas que se guardan con el mensaje.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

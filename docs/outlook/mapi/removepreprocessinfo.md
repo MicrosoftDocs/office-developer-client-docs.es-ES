@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fab8860621cee5a87b087ee9d98f373baa278e45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c90b569414c1710cc1065fdb4fd72738e265ebff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588835"
 ---
 # <a name="removepreprocessinfo"></a>RemovePreprocessInfo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Quita preprocesa escrita por una función [PreprocessMessage](preprocessmessage.md) en función de un mensaje de información. 
   

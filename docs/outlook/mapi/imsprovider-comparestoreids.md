@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9905a4e972f0e599629aac74b6fbc8bae06c93b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57b8438d655b3bc5b708fd7ed6734554a3a23ac4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817803"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585993"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos mensajes almacén de los identificadores de entrada para determinar si hacen referencia al mismo objeto de almacenamiento.
   
@@ -78,7 +78,7 @@ Los identificadores de entrada que se comparan por **CompareStoreIDs** son ambos
   
 Comparación de los identificadores de entrada es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede suceder, por ejemplo, después de instalar una nueva versión de un proveedor de almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

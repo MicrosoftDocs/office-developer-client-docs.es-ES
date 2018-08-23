@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b8da927fe0080a83748bbb2941979dcb246222fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716d8b5b09ee0e29d1946042cae2631561d74df5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818970"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584656"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>Propiedad canónica PidLidTaskFFixOffline
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la precisión de la propiedad **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

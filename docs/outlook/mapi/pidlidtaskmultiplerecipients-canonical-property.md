@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1e1cba3d927072cb03dbd34eee518c9b0a9e0383
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f20c3e988c0a0461a966a109a8d345c22e1fccee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818978"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585741"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propiedad canónica PidLidTaskMultipleRecipients
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona optimización de las sugerencias acerca de los destinatarios de una tarea.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

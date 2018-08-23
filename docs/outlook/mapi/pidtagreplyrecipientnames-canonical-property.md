@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5abbe14576bec9f03f0b1bf5578b68032f95f8a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc9a64abefb9a4acaa9a1da396fb27f897f04ec2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585608"
 ---
 # <a name="pidtagreplyrecipientnames-canonical-property"></a>Propiedad canónica PidTagReplyRecipientNames
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de nombres para mostrar para los destinatarios que van a obtener una respuesta.
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

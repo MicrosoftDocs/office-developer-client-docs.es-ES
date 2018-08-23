@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a1530443600df7cb73ff27d5cfbeab46f81bc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae3f84c6b219c7becb88737f0d6c9fcb9722ea34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820677"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584971"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura con nombre que incluye una estructura [DTBLPAGE](dtblpage.md) para describir un control de páginas con fichas, una etiqueta de un período especificado y una entrada de archivo de Ayuda de una longitud especificada. 
   
@@ -64,7 +64,7 @@ Para utilizar un puntero a la estructura resultante de la macro **SizedDtblPage*
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [DTBLPAGE](dtblpage.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

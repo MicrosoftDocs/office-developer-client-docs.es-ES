@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 451bab57d4e2e8669a25d119f9ce28a8f78e628f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586140"
 ---
 # <a name="tips-for-working-with-tables"></a>Sugerencias para trabajar con tablas
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Trabajar con una MAPI tabla es un poco like trabajar con una tabla de base de datos relacional. Un usuario puede limitar el número de filas y columnas en la vista y especificar su orden. Filas pueden ser recuperado uno a la vez o en grupos. Un cursor que realiza un seguimiento de la posición actual se puede mover a una ubicación específica en la tabla. 
   
@@ -33,7 +33,7 @@ Las operaciones más comunes son:
     
 - Operaciones globales que afectan a toda la tabla. Éstas incluyen la notificación de eventos, búsqueda y la ordenación.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

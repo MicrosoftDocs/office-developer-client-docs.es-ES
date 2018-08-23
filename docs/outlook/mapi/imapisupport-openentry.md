@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 04bf7f2ddda7377df72417df2472246a2cf329bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b122c98715bd2f6916fe6302fc0b7a01d2cc936
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817534"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584614"
 ---
 # <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre un objeto y devuelve un puntero de interfaz para aún más el acceso. 
   
@@ -106,7 +106,7 @@ Llame a **IMAPISupport::OpenEntry** sólo cuando no sabe qué tipo de objeto que
   
 Comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar que el tipo de objeto devuelto es lo que esperaba. Si el tipo de objeto es como se esperaba, convierta el puntero desde el parámetro _lppUnk_ a un puntero del tipo apropiado. Por ejemplo, si va a abrir una carpeta, convierta _lppUnk_ a un puntero de tipo LPMAPIFOLDER. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

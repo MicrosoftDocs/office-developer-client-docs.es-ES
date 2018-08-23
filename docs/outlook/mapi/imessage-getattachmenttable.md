@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 275dc17a141f1c002f62a43824174458e591d4de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf100ed916080a91366062f45b9e3349516bdb98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588520"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la tabla de datos adjuntos del mensaje.
   
@@ -80,7 +80,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta a las sig
     
 Configuración de las solicitudes de marca de Unicode que la información de todas las columnas de cadena devueltos por estas llamadas estar en formato Unicode. Sin embargo, debido a que no todos los proveedores de almacén de mensajes compatible con Unicode, al establecer este indicador es sólo una solicitud.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

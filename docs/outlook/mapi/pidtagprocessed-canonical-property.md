@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0918f079769a70aa11e4f26551ec232308e5eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 099a744940ffae49f49e9ca25f49dc54414b25dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819941"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590011"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>Propiedad canónica PidTagProcessed
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se establece en TRUE cuando se han procesado la convocatoria de reunión.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

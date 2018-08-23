@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 65a54475afe526cce40030cbfd1cdb9e86126554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589353"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propiedad canónica PidLidContactLinkSearchKey
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la lista de **SearchKeys** para el contacto vinculado a este objeto de mensaje. 
   
@@ -37,7 +37,7 @@ Contiene la lista de **SearchKeys** para el contacto vinculado a este objeto de 
 
 |**Longitud en bytes**|**Descripción**|**Notas**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Ninguno  <br/> |
+|2  <br/> |ContactEntryCount  <br/> |Ninguna  <br/> |
 |variable  <br/> |Datos de SearchKey  <br/> |Repite ContactEntryCount veces  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -58,7 +58,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Propiedades MAPI](mapi-properties.md) 
 - [Propiedades MAPI canónicas](mapi-canonical-properties.md)

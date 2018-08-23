@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9755c342-87ba-47bb-9970-91f7eb796b4d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 45afcbc05aab5fae00b51708e1aae6bc21e91b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de5204ee6c1a7c22b730a1063ca90dfa9b47c4f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819567"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582451"
 ---
 # <a name="pidtaghome2telephonenumber-canonical-property"></a>Propiedad canónica PidTagHome2TelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número de teléfono secundario en la página principal del destinatario. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 62d5b04086e45b6b3d2cfa960472010827d60d6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583634"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propiedad canónica PidTagReportDisposition
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica el estado de los mensajes que solicitar confirmaciones de recibo. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

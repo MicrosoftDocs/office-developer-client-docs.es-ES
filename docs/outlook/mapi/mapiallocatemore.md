@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f6f986ae811f2c7a886231a3046038889b82d683
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e6226dd0fc9c04070ed3d1dda1770f77fbc585c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583011"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Asigna un búfer de memoria que está vinculado a otro búfer asignado previamente con la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   

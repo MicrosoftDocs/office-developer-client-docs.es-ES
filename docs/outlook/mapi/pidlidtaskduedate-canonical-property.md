@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d26a686573a9dc178a46b7dfdc5c18485303b7ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b8ab295c9667d4cabb42c92dff7e8d1a3c2dd5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584712"
 ---
 # <a name="pidlidtaskduedate-canonical-property"></a>Propiedad canónica PidLidTaskDueDate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la fecha cuando el usuario espera para completar la tarea.
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

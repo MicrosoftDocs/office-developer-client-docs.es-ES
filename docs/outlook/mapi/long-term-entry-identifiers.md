@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 589420db48edb348a22f34ce72b948f4d8207ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e624ab4f39ef5a5385119779b0780ee7173a3ee7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586924"
 ---
 # <a name="long-term-entry-identifiers"></a>Identificadores de entrada a largo plazo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando un objeto requiere un identificador con una duración de tiempo prolongado, se asigna un identificador de entrada a largo plazo por un proveedor de servicios a un objeto. Los identificadores de entrada a largo plazo siempre son válidos para semanas o meses y pueden ser válidos en otras estaciones de trabajo, según el proveedor. Los identificadores a largo plazo creados por los proveedores de la libreta de direcciones para los destinatarios personalizados son válidos todo el mundo. 
   
@@ -37,7 +37,7 @@ Normalmente, los proveedores de almacén de mensajes implementan el siguiente co
     
 Cambio de nombre de una carpeta sin cambiar su carpeta principal normalmente no hace que el identificador de entrada cambiar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 44261e5ac296004fd113d4c9123b99c482bcb732
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817950"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585454"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicia una sesión de sincronización y obtiene la interfaz **[IOSTX](iostxiunknown.md)** asociada. 
   
@@ -43,7 +43,7 @@ HRESULT GetSyncObject(
 
 El llamador debe asegurarse de que la misma carpeta no se sincroniza al mismo tiempo en más de un subproceso.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fb1b803-f8b4-4d6d-8e2a-836daa98ac63
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ec87e9c602d556eec37fde292fbca8f40536530e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c3c8f121423cdd15d7f8e8beee80b667b29a09b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819873"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585524"
 ---
 # <a name="pidtagoriginalsentrepresentingsearchkey-canonical-property"></a>Propiedad canónica PidTagOriginalSentRepresentingSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la clave de búsqueda del usuario de mensajería en cuyo nombre se ha enviado el mensaje original.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6ebc4e9cbc79a71a91f1f2f3eec0d40de979ab18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7177b2f0f709939b7580fa7abb87490073bb00c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588814"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción de propiedad compare, que comprueba las propiedades de dos con un operador relacional. 
   
@@ -77,7 +77,7 @@ Las propiedades especificadas en los miembros **ulPropTag1** y **ulPropTag2** pu
   
 Para obtener más información sobre la estructura de **SComparePropsRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [SBitMaskRestriction](sbitmaskrestriction.md)
 - [SRestriction](srestriction.md)

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fa23377a8b080ae9dac3e31dfa137ca03a242c74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6de805da2aadd8ac40ca984c5f336d5ca7906248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590130"
 ---
 # <a name="creating-a-recipient-list"></a>Crear una lista de destinatarios
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una lista de destinatarios es una estructura [ADRLIST](adrlist.md) que contiene una matriz de estructuras de valor de propiedad para cada destinatario de mensaje: destino para el mensaje. Un destinatario puede representar un usuario humano, un equipo o una carpeta. Todos los mensajes que se envíen requieren al menos un destinatario que ha sido a través del proceso de resolución de nombre: un proceso para asegurarse de que la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) se incluye en la matriz de valores de propiedad del destinatario. 
   

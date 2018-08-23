@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5456e0abffd1ac25983809d32fde88644eaa01cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a80669f3d8f3d262cc8787f60efb3bc4b24d4b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589444"
 ---
 # <a name="pidtagruleprovider-canonical-property"></a>Propiedad canónica PidTagRuleProvider
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de la aplicación que establece una regla.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

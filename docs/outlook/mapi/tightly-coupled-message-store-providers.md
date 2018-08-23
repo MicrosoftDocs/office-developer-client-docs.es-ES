@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 83ebb739302ca0e12604b9eaf854f273554826ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820855"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590298"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>Proveedores de almacenamiento de mensajes estrechamente acoplados
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes pueden estar estrechamente acoplados con un proveedor de transporte. Acoplamiento estrechamente significa de proveedores de servicio MAPI implementar los dos proveedores tal que el proveedor de almacenamiento y el proveedor de transporte pueden comunicarse para hacer que el proceso de enviar y recibir mensajes más eficaces. La ventaja de hacerlo es que las mejoras de rendimiento se pueden producir cuando dos proveedores de servicio pueden interactuar con cada una de las demás directamente en lugar de hacerlo por medio de la cola de MAPI. Para asociar estrechamente un proveedor de almacén de mensajes a un proveedor de transporte, el proveedor de transporte debe colocar el identificador de entrada del proveedor de almacén de mensajes en la propiedad **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) en el proveedor de transporte fila en la tabla de estado MAPI. Esto permite que la cola MAPI conectar el proveedor de almacenamiento con el proveedor de transporte.
   
@@ -31,7 +31,7 @@ En general, no hay ningún procedimientos bien especificados para acoplamiento e
     
 - Cuando interactúan los proveedores de servicios totalmente acoplado con otros componentes de MAPI, deben seguir interactuando con ellos en exactamente de la forma que lo haría si no estaban estrechamente acoplados. Por ejemplo, si un usuario está usando un proveedor de transporte y el proveedor de almacén de mensajes combinada como su almacén de mensajes de forma predeterminada, pero está utilizando un proveedor de transporte independiente para enviar mensajes, como puede suceder cuando un usuario tiene un equipo de viaje y pasa a un precio de transporte remoto ovider: la parte de almacén de mensajes del proveedor de servicios totalmente acoplado aún debe interactuar con la cola MAPI como si se tratase de un proveedor de almacén de mensajes independiente.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

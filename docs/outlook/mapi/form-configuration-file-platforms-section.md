@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589899"
 ---
 # <a name="form-configuration-file-platforms-section"></a>Sección del archivo de configuración de formulario [Plataformas]
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La sección **[plataformas]** enumera el conjunto completo de plataformas compatibles con este formulario. Cada entrada de plataforma consta del prefijo **plataforma.** _cadena_, donde la _cadena_ es un código de cadena arbitraria para la plataforma Cada cadena corresponde a la entrada de **CPU** de un secciones **[plataformas]** individuales. Cada entrada en una sección **[plataformas]** define una _cadena de la plataforma_ que hace referencia a una posterior **[plataforma.** _cadena de plataforma_ sección de **]** tal como se muestra aquí. 
   

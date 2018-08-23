@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ce6925f40e09261494e4edbcbd7314728debbe2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caf1cb2e16c298af452e638631293379fdd68b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589787"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Propiedad canónica PidTagMemberId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de un miembro de la tabla que tiene los derechos que se describe en una carpeta de Microsoft Exchange Server o el buzón de correo.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

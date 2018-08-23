@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b0e54f78257eb6890e8afbb7941dc625dc79be0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816949"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589654"
 ---
 # <a name="handling-mapi-forms"></a>Control de formularios MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un formulario MAPI es un visor para un mensaje de una clase determinada. Los clientes que permiten a los usuarios a trabajar con los mensajes que pertenecen a una variedad de clases de mensaje deben escribirse para controlar una gran variedad de formularios MAPI. Para controlar varios formularios, los clientes de implementan un componente conocido como un visor de formulario que contiene los siguientes tres objetos:
   
@@ -65,7 +65,7 @@ Para tener acceso al administrador de formulario, llame a la función [MAPIOpenF
     
 - [Mostrar iconos de formulario](displaying-form-icons.md): se describen los pasos para mostrar un icono con un formulario.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Formularios MAPI](mapi-forms.md)
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)

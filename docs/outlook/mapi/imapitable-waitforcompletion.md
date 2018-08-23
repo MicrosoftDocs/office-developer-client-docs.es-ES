@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c7859e033924786e415f9faa9f75021ea47968c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3343381709b7ce3370ba481ad8dbb935c7d4165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586952"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Suspende el procesamiento hasta que han completado una o varias operaciones asincrónicas en curso en la tabla.
   
@@ -67,7 +67,7 @@ MAPI_E_TIMEOUT
 
 El método **IMAPITable::WaitForCompletion** suspende el procesamiento hasta que han completado las operaciones asincrónicas actualmente en curso para la tabla. **WaitForCompletion** puede permitir que las operaciones asincrónicas a totalmente completa o para que se ejecute durante un determinado número de milisegundos, como se indica en _ulTimeout_, antes de que se interrumpa. Para detectar las operaciones asincrónicas en curso, llame al método [IMAPITable::GetStatus](imapitable-getstatus.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

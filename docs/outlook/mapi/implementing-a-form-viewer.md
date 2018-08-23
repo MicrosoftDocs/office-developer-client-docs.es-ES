@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 645f98342b4b3ec2bebf3f233f719bd5cae69da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad0da261b3059ca83f2d547c25a508ec9337aa72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817659"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584747"
 ---
 # <a name="implementing-a-form-viewer"></a>Implementar un visor de formulario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un visor de formulario incluye tres objetos: un sitio de mensaje, una vista de aviso receptor y un contexto de vista. Cada uno de estos objetos permite interactuar con un servidor de formulario y sus formularios.
   

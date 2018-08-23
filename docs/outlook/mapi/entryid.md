@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8540176b7675917dde7c618c40142605e9622282
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816762"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586224"
 ---
 # <a name="entryid"></a>ENTRYID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de entrada para un objeto MAPI. 
   
@@ -117,7 +117,7 @@ El factor de alineación natural, normalmente de 8 bytes, es el tipo de datos m�
   
 Para obtener más información, vea [Identificadores de entrada](mapi-entry-identifiers.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

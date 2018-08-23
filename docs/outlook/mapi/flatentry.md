@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2f5f4d50b085c437d1caab5f70dcb741afe090bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf84c7d94e67da0ce7453829042e7be0d4e313f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585552"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una estructura de [ENTRYID](entryid.md) además de un recuento de bytes que especifica el tamaño de la estructura de la **propiedad ENTRYID** . 
   
@@ -63,7 +63,7 @@ Una estructura **FLATENTRY** es similar a una estructura de [ENTRYID](entryid.md
     
 - Una estructura **FLATENTRY** se usa para almacenar un identificador de entrada en un archivo o páselo en una secuencia de bytes. Una estructura de **ENTRYID** se usa para almacenar un identificador de entrada en el disco. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

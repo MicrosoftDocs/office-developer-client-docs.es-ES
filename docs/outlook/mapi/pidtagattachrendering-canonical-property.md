@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a1df3ba8e57f1e91894b88d7e8a72feb681e13dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819247"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588947"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Propiedad canónica PidTagAttachRendering
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un metarchivo de Microsoft Windows con la información de representación de los datos adjuntos. 
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7ff0bb5ec1eb56724bee7be7dec13f0474711083
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fd41f46adf9b7d9aa3b48779b03cd6936a5fb5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818804"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583137"
 ---
 # <a name="pidlidnotecolor-canonical-property"></a>Propiedad canónica PidLidNoteColor
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el color de fondo sugerido de la nota. 
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

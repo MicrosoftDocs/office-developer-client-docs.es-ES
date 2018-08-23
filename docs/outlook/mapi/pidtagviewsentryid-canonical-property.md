@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1980e3bd815b370f125f4449dd7b7f340a7dcb9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73ed7213ea2bd5079458ccc237b65590f06e8d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586266"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Propiedad canónica PidTagViewsEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de la carpeta de las vistas definidas por el usuario.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ab92aee6a8254a16c48352e371b711932bbe7427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587827"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el valor mínimo en el método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) de progreso que se muestra la información. 
   
@@ -65,7 +65,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI usa el método **IMAPIProgress::GetMin** para obtener el valor mínimo para el indicador de progreso. Devuelve el valor 1 a menos que se hayan establecido previamente límites llamando al método **IMAPIProgress::SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

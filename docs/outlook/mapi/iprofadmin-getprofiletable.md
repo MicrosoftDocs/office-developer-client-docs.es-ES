@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c942bdbf27590dde04b84970e345f265bc645045
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588247"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la tabla de perfil, una tabla que contiene información acerca de todos los perfiles disponibles.
   
@@ -68,7 +68,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI usa el método **IProfAdmin::GetProfileTable** para obtener la tabla de perfil para mostrar un cuadro de diálogo nuevo.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

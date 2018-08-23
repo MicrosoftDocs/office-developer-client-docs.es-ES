@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online es un servicio de Office 365 que las empresas pueden ampliar para satisfacer las necesidades empresariales. Un área de extensión es campos personalizados de empresa (ECFs). ECFs son campos de valor de tipo que se pueden agregar a proyectos, recursos y tareas. En la siguiente tabla se enumera ECFs que asocian con proyectos, recursos y tareas y proporciona un ejemplo de un valor de una instancia de ese ECF:'
-ms.openlocfilehash: d6c8f97ffc887b33e5d81af8e463cf10502845dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584607"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Obtener acceso a campos personalizados de empresa de Project Online
 
@@ -203,9 +203,9 @@ El método ListPWACustomFields recupera y enumera los ECFs asociados con los pro
 
 El método no se comprueba para ver si un proyecto utiliza un ECF específico.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
-- [Portal del proyecto de desarrollo](http://dev.office.com/project.aspx)
+- [Portal del proyecto de desarrollo](https://developer.microsoft.com/en-us/project)
 - [Información general: Los campos personalizados de empresa y tablas de búsqueda](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Local y campos personalizados de empresa](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
 - [Agregar o editar campos personalizados de empresa en Project Server 2013](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)

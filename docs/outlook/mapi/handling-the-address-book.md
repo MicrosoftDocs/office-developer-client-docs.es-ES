@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6ef441b4315ef21f8b16dc062596bc7f1e526e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a72d0e90e6c28874f341fc9ba7af843a44c5da8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583326"
 ---
 # <a name="handling-the-address-book"></a>Controlar la libreta de direcciones
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Controlar la libreta de direcciones MAPI puede incluir la extracci�n de entradas que se usar� como destinatarios del mensaje, modificar propiedades de los destinatarios, adici�n de usuarios de mensajer�a o listas de distribuci�n, creaci�n de uso �nico y mostrar uno o varios de los cuadros de di�logo comunes de direcci�n para permitir a los usuarios examinar informaci�n de direcci�n y realizar cambios.
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 80d2e4fd353f0746349563fd911e0af09a658b35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586273"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>Registrar identificadores únicos del proveedor de servicios
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Libreta de direcciones, almacén de mensajes y los proveedores de transporte utilizan un identificador único conocido como un [MAPIUID](mapiuid.md) para registrar a los objetos de servicio de diversos tipos. Un **MAPIUID** es un identificador de 16 bytes que contiene un GUID. Puede crear un **MAPIUID** mediante el siguiente procedimiento: 
   
@@ -47,7 +47,7 @@ Aunque los proveedores de servicios suele registran un único **MAPIUID**, se pu
     
 Cuando hay varios objetos de inicio de sesión que están activos simultáneamente, tiene sentido tienen estructuras **MAPIUID** únicas para cada uno de ellos. Esto aumenta la precisión con la que coincide con los identificadores de entrada a proveedores de servicios MAPI y guarda algún trabajo. Cuando todos los objetos de inicio de sesión tienen su propio identificador único, MAPI puede garantizar que cualquier solicitud rutas a un objeto de inicio de sesión pueden controlarse por dicho objeto. Cuando los objetos de inicio de sesión comparten estructuras **MAPIUID** , MAPI enruta la solicitud para el primer objeto de inicio de sesión que se identifica con el **MAPIUID**. Si uno de los objetos de inicio de sesión recibe una solicitud que no se puede procesar porque no controla el identificador de entrada, pase la solicitud de sesión en el siguiente objeto de inicio de sesión antes de devolver un error.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

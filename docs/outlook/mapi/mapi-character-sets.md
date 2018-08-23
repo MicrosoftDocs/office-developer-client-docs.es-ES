@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: fbe63916-b3eb-4ea7-bc42-80a8b0281b03
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3f94823eb3f90ff9ac0f472a2de64e1904920d9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f7da3da8d23b28e13c39570b8f5971cb75a3310
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818091"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582535"
 ---
 # <a name="mapi-character-sets"></a>Conjuntos de caracteres MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Pueden usar proveedores de servicios y aplicaciones de cliente compatible con MAPI (byte único) los caracteres ANSI o Unicode (de doble byte). No se admiten los conjuntos de caracteres OEM. Una cadena de OEM se pasa a un método MAPI o función hará que dicho método o función se lleve a cabo. Las aplicaciones de cliente que funcionan con los nombres de archivo en el juego de caracteres OEM deben tener cuidadas convertir a ANSI antes de pasarlas a un método MAPI o función.
   

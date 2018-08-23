@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: d8cd03fa184865446da48d7532764ba71e0e47d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586966"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatorias y opcionales para proveedores de almacenamiento de mensajes
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI define un conjunto de interfaces que se relacionan con los proveedores de almacén de mensajes. Debido a la amplia gama de características que puede elegir un almacén de mensajes para implementar, algunas de estas interfaces son necesarios y otros no. En la siguiente tabla se enumeran las interfaces MAPI que están relacionadas con los proveedores de almacén de mensajes, especifica si las interfaces son obligatorios u opcionales y describe su propósito.
   
@@ -39,7 +39,7 @@ MAPI define un conjunto de interfaces que se relacionan con los proveedores de a
    
 La información básica que necesita implementar **IMAPIFolder**, **IMessage**, **IMAPIStatus**y **IMAPITable** se documenta en los temas de referencia para estas interfaces. Esta sección contiene información adicional que está más directamente relacionada con los proveedores de almacén de mensajes. Según la información de esta sección y en los temas de referencia adecuado, se debe implementar el resto de las interfaces MAPI. Vea la sección Servicios de objeto de ActiveX y COM en el SDK de Windows para obtener más información acerca de cómo implementar **IStorage**, **IStream**y **IStreamDocFile**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

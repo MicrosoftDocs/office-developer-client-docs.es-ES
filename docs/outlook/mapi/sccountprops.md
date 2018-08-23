@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 97dad50fed4179526e46381c4d9ea9d12d568377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee004bdfb8d13537fd8823225f155223ebc76ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820600"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583354"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina el tamaño, en bytes, de una matriz de valores de propiedad y valida la memoria asociada a la matriz. 
   
@@ -71,7 +71,7 @@ Si se pasa NULL en el parámetro _pcb_ , la función **ScCountProps** valida la 
   
 Tal y como lo está contando, **ScCountProps** valida la memoria asociada a la matriz. **ScCountProps** sólo funciona con las propiedades MAPI sobre qué dispone de información. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

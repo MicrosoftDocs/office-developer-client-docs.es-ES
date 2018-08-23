@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e441e84e0bddff2e5a989849dbcf593320340d2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586210"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicia el proceso de cierre de sesión.
   
@@ -57,7 +57,7 @@ El método **IABLogon::Logoff** hace lo siguiente:
     
 Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, vea [Cerrando hacia abajo un proveedor de servicios](shutting-down-a-service-provider.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

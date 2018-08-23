@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f31a08ce-3a56-4c90-9502-5bcb09d8d80f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f582322c8ba2ffa0369792e531adf1ec4ccb3e28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f25d6b2db00f5629a9bf88499f9f4e080422ac29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816869"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585650"
 ---
 # <a name="form-configuration-file-properties-section"></a>Sección del archivo de configuración de formulario [Propiedades]
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La sección **[Propiedades]** enumera todo el conjunto de propiedades que utiliza el formulario y se publica; es decir, las propiedades que crea en sus mensajes personalizados que el cliente MAPI aplicaciones pueden utilizarla al mostrar columnas, tablas de contenido, configuración de carpetas de resultados de búsqueda, el filtrado y así sucesivamente. Cada entrada de esta lista (propiedad) hace referencia a una posterior **[propiedad.** _cadena_ sección de **]** como se muestra a continuación. 
   

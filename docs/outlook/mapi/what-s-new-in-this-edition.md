@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 4ffd92f44f1fe88b840e8f8119a92d2048f4f526
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7325c42fe7e9c1e043609d5503a3782522f76188
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820967"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590060"
 ---
 # <a name="whats-new-in-this-edition"></a>Novedades de esta edición
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La referencia de MAPI de Microsoft Outlook 2013 se actualizó para incluir la documentación para varias características nuevas. 
   
@@ -107,7 +107,7 @@ Se ha agregado contenido en versiones anteriores de la referencia de MAPI de Out
     
   - Cuotas de modo de caché de las definiciones para el buzón de correo de Exchange Server
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

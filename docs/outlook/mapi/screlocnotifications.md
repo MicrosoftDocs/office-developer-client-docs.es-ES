@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bb4ff6a128b9fed29ff0be5325c21e5600389740
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4117558d27d64444cdac62651584fe6cfe8ff061
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583970"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Ajusta un puntero dentro de una matriz de notificación de evento especificado. 
   
@@ -79,7 +79,7 @@ MAPI_E_INVALID_PARAMETER
 
 El parámetro _pcb_ a la función **ScRelocNotifications** es opcional. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

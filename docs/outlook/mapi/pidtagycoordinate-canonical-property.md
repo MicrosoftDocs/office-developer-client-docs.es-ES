@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 81d154d3044ecb5fb2e920874058f1c5136bc7ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586714"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propiedad canónica PidTagYCoordinate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la coordenada y de la posición inicial (la esquina superior izquierda) de un control de cuadro de diálogo, en unidades de cuadro de diálogo estándares de Windows.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a948c8c25eec9b31735bb34b91e2dec4bca5fcfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19817483"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583452"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Realiza procesamiento posterior en un mensaje. 
   
@@ -67,7 +67,7 @@ Llamar a **CompleteMsg** sólo cuando estrechamente con un proveedor de transpor
     
 - El mensaje requiere procesamiento posterior por la cola de MAPI.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

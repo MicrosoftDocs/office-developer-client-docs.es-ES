@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: eef480e8b024565ab282fb242a36336cd17384a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72f252791e374ed4b9b2a40c9b151ef2b91fefe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588058"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El atributo **attMAPIProps** es especial en que se puede usar para codificar cualquier propiedad MAPI que no tiene un equivalente en el conjunto de atributos definidas por el TNEF existentes. Los datos del atributo están un conjunto contado de las propiedades MAPI que distribuyen un extremo a otro. El formato de codificación, lo cual permite cualquier conjunto de propiedades MAPI, que es como sigue:  
   

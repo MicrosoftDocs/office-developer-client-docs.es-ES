@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b44cf25bafb83e9510d254eb29d35306f3e69051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df3a872aedcba79613a8f2ca2b970069d372eb07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816761"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582633"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una matriz de identificadores de entrada que representa el objeto MAPI que usa la misma implementación como la estructura de [SBinaryArray](sbinaryarray.md) . 
   
@@ -40,7 +40,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 Ver la estructura de **SBinaryArry** para los miembros. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

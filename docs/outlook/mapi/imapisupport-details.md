@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9923813d821e2b34497e3b498c19ce22ceda2eb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c1bfccf635b96dd0744d888e69b4af5b8df0fa2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587876"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra un cuadro de diálogo que muestra detalles acerca de una entrada de la libreta de direcciones determinada.
   
@@ -101,7 +101,7 @@ S_OK
 
 El método **IMAPISupport::Details** se implementa para objetos de compatibilidad con de proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones, llame a **Detalles** para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada determinada en la libreta de direcciones. Los parámetros _lpfButtonCallback_, _lpvButtonContext_y _lpszButtonText_ se pueden usar para agregar un botón definido por el cliente para el cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada que apunta _lpfButtonCallback_, pasando el identificador de entrada de los datos y el botón en _lpvButtonContext_. Si no es necesario un botón extensible, _lpszButtonText_ debe ser nulo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

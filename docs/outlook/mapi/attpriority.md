@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ff63b5b5-fde8-4e5b-a5be-b19e805ac7ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 22a7b4a811c0080c9d840fb0212c659780273c7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d59faeb303806dcc1368eb46f2bcf4bfa893e0e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816469"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587834"
 ---
 # <a name="attpriority"></a>attPriority
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las prioridades de mensaje MAPI se asignan a los valores TNEF para compatibilidad con versiones anteriores de la siguiente manera:
   

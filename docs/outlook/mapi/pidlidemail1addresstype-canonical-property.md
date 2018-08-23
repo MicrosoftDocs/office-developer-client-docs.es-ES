@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a0bc2b5-d0c9-405b-97ad-b43839f908da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 80d135da7f49d12d2d33f7cafe01295673a56902
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ec99eba9759588ff69fc141de8e499ee87d69ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586329"
 ---
 # <a name="pidlidemail1addresstype-canonical-property"></a>Propiedad canónica PidLidEmail1AddressType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el tipo de dirección de la primera dirección de correo electrónico.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

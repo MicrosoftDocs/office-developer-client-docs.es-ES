@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8eb8c56c6b27592347a7d08186287fe1cf67cb41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589710"
 ---
 # <a name="about-mapi-additions"></a>Acerca de las adiciones de MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Adiciones de MAPI son las API que pertenecen a MAPI Messaging Application Programming Interface (), como tipos de datos, funciones y propiedades, que se no han exponen y previamente documentado como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
   
@@ -231,7 +231,7 @@ Las siguientes propiedades se exponen con objetos de almacén y se usan en la b�
     
 - **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detectar la versión de Exchange Server en un perfil de Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38442b763ec97969f73b11b346d638d547302715
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19818615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589003"
 ---
 # <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propiedad canónica PidLidCleanGlobalObjectId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la limpieza global **ObjectID**.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

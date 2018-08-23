@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e0f8dc1beeb669532e3731b38a4f03966403f76c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db09b44bd8eeeb3ab56513b1b9c2cab69f776002
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590088"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina un proveedor de servicios desde el servicio de mensajes.
   
@@ -63,7 +63,7 @@ La mayoría de los servicios de mensaje no permiten que los proveedores se elimi
     
 La función de punto de entrada de servicio de mensajes no se llama de nuevo después de que se ha eliminado el proveedor.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

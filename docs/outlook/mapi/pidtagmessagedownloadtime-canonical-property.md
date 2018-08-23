@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b47d104ade6a7d23f5630d15697b330360d027b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43916f540ca324059d53f0413105146985835ffe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588702"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>Propiedad canónica PidTagMessageDownloadTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tiempo estimado para descargar un mensaje desde un servidor remoto en un almacén de mensajes local. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

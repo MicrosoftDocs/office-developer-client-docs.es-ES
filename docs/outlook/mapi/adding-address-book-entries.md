@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: adbfbb73ac0f5f1e1cba547fa7a91393891fdb1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b2aa2830e2721b9f895b22df12c9d712188625
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590137"
 ---
 # <a name="adding-address-book-entries"></a>Agregar entradas de la libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para agregar un usuario de mensajería o lista de distribución a un contenedor, un [IAddrBook::NewEntry](iaddrbook-newentry.md) las llamadas del cliente o un proveedor llama a [IMAPISupport::NewEntry](imapisupport-newentry.md) con el identificador de entrada del contenedor de destino en el parámetro _lpEIDContainer_ . MAPI a su vez llama al método [IABContainer::CreateEntry](iabcontainer-createentry.md) del contenedor para crear la entrada de uso de una plantilla de uso único de una tabla de uso único. Una plantilla de uso único permite que el cliente crear a un nuevo destinatario de un tipo determinado. La mayoría de los campos es editable. La plantilla indicada por el parámetro _lpEntryID_ es posible que uno que suministra el proveedor o podría ser una plantilla de un proveedor externo, si su proveedor admite plantillas externas. Las implementaciones de **CreateEntry** para los proveedores que se pueden crear destinatarios desde una plantilla externa siempre son más complejas que las implementaciones de los proveedores que no se pueden. 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5d6c029ba91b6b3489d3f6544ead6788760363a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad96b448018ec43cda85aab1245afb1ca22552f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583214"
 ---
 # <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propiedad canónica PidTagSearchRecipientEmailTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una cadena Unicode que se está realizando la consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se tratan en la línea **para** de los mensajes en el almacén. 
   
@@ -57,7 +57,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que se muestran como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

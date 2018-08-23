@@ -12,12 +12,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
 description: Esta es la referencia del programador de InfoPath 2013 sobre plantillas de formulario. En esta documentación encontrará descripciones, tareas de programación e información de referencia sobre la biblioteca de clases que le servirán para crear plantillas de formulario de InfoPath que contengan lógica empresarial escrita en Visual Basic o Visual C#.
-ms.openlocfilehash: 64c79657dcd348e162142193fac4e1040b0d6462
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9e1d023cf7c910c070269a7e46b26c53948fd16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588065"
 ---
 # <a name="infopath-developer-reference-for-form-templates"></a>Referencia para desarrolladores sobre plantillas de formulario de InfoPath
 
@@ -34,7 +34,6 @@ Fecha de publicación de esta referencia: octubre de 2012
 [Convenciones de documentos en la documentación para desarrolladores de Office](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
   
 [Accesibilidad de Microsoft](http://www.microsoft.com/ENABLE/)
-  
-[Aviso de privacidad en línea de Microsoft](http://privacy.microsoft.com/en-us/default.mspx)
+
   
 

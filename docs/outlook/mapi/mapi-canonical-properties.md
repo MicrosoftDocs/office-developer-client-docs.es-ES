@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2a080b9e6a824e50648a6df0757826f45b5da1f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590438"
 ---
 # <a name="mapi-canonical-properties"></a>Propiedades MAPI canónicas
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una propiedad canónica es una propiedad virtual que representa una propiedad MAPI o varias propiedades MAPI definidas con el mismo identificador de propiedad. Propiedades canónicas sólo están diseñadas para facilitar la identificación coherente de las propiedades MAPI en discusiones o documentación fuera del código. A diferencia de los nombres de propiedades con etiqueta definidas en MAPI, los nombres de propiedad canónico no se definen como constantes globales en archivos de encabezado MAPI.
   
@@ -73,7 +73,7 @@ Si debe usar nombres canónicos (propiedad) en el código, primero debe definir 
 
 Nombres canónicos se hace referencia en las especificaciones de protocolo de Microsoft Exchange Server que se utilizan para comunicarse con otros productos de Microsoft Exchange Server. Para obtener más información acerca de las propiedades de objeto de mensaje hace referencia a las especificaciones de protocolo de Exchange, vea [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

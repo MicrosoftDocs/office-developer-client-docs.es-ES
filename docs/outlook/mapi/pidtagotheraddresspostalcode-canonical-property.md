@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f6f0491-2a77-4faf-aa8f-303ebf0ea411
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 959c09072e4c0aeeb54b790cdbead90ef1263d85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b88e32b87c4da243ad6d7531a8ae093631657d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819890"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583711"
 ---
 # <a name="pidtagotheraddresspostalcode-canonical-property"></a>Propiedad canónica PidTagOtherAddressPostalCode
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el código postal para el correo de otra dirección postal del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

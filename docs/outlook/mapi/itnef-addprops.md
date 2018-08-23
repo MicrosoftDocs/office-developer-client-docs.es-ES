@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2d37898b100398218d4f8762cdd3a16943d8f11a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817980"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589521"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que el proveedor de servicios de llamada o la puerta de enlace Agregar propiedades a la encapsulación de un mensaje o datos adjuntos. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Codifica sólo las propiedades desde el mensaje o adjunto especificado por el parámetro _ulElemID_ . Si se establece este indicador, el valor de _lpvData_ debe ser un puntero de [IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx) . 
+> Codifica sólo las propiedades desde el mensaje o adjunto especificado por el parámetro _ulElemID_ . Si se establece este indicador, el valor de _lpvData_ debe ser un puntero de [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
@@ -100,7 +100,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el método **ITnef::AddProps** para copiar las propiedades de un mensaje a una secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

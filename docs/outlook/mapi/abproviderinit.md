@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816367"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590053"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicializa un proveedor de la libreta de direcciones para la operación. 
   
@@ -111,7 +111,7 @@ El proveedor de la libreta de direcciones debe usar las funciones que señala _l
   
 Para obtener más información sobre cómo escribir **ABProviderInit**, vea [implementar una función de punto de entrada de dirección de la libreta de proveedor](implementing-an-address-book-provider-entry-point-function.md). Para obtener más información sobre las funciones de punto de entrada, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IABProvider : IUnknown](iabprovideriunknown.md) 
 - [MSProviderInit](msproviderinit.md)

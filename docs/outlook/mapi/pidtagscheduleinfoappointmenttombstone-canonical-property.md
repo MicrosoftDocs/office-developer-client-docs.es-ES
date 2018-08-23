@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e554a496dd1869dd7c07b315d92a136676e05006
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590046"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propiedad canónica PidTagScheduleInfoAppointmentTombstone
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de bloques de datos que representan las reuniones que se hayan rechazado.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

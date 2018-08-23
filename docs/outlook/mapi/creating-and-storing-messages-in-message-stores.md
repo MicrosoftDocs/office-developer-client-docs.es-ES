@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 32cfae36fb519654c1fb92d2f3b688c966f9288f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be718ea3ef4da91d2f85a0229f5a506198a2527f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816616"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589178"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Creaci�n y almacenamiento de mensajes en los almacenes de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 C�mo el proveedor de almac�n de mensajes se crea y almacena los mensajes en el mecanismo de almacenamiento subyacente depende en gran medida el mecanismo de almacenamiento subyacente propio. En general, s�lo necesita escribir c�digo para conservar las propiedades de un mensaje y sus valores.
   

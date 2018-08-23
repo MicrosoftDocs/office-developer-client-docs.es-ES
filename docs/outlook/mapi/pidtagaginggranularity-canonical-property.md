@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 09a79a68d7619ded9edf3ec4ac67733bdec1e32c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1b5b36c3a05ef17e319ef236b032b7d07ce8fa8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589423"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Propiedad canónica PidTagAgingGranularity
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la unidad de tiempo que se usa para determinar la longitud de tiempo que permanece un elemento en una carpeta antes de que se archiva el elemento.
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

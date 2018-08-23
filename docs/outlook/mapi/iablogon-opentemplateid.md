@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f2fedd98fe84d7359aebaca8d03a20f392dae2b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583389"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre una entrada del destinatario que tiene datos que residen en un proveedor de libreta de direcciones de host.
   
@@ -125,7 +125,7 @@ Si no reconoce el identificador de entrada que se pasan en _lpTemplateID_, devol
   
 Para obtener más información acerca de cómo trabajar con identificadores de plantilla de la libreta de direcciones, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

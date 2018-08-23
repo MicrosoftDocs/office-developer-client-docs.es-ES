@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: be5d0e43-d8ff-41f9-a472-044b53821667
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b3963e8306044c83aa474162b73026b49dbb92e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6842b24347e838fa414c559a35a7185fc97bffb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585496"
 ---
 # <a name="pidtagotheraddresspostofficebox-canonical-property"></a>Propiedad canónica PidTagOtherAddressPostOfficeBox
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el apartado de correos de un contacto otra dirección.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

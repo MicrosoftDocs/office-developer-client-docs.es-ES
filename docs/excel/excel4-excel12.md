@@ -12,22 +12,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7caf4923e336020928006f6838de5eaeba814a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586812"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Llama a un interno función de hoja de cálculo de Microsoft Excel, una función de hoja de macros o un comando, o un solo XLL función especial o un comando, desde dentro de un DLL o XLL o recurso de código.
   
 Todas las versiones recientes de Excel admiten **Excel4**. Iniciar en Excel 2007, se admite **Excel12** . 
   
-Estas funciones se pueden llamar sólo cuando Excel ha pasado el control a la DLL o XLL. También puede llamar cuando Excel ha pasado control indirectamente a través de una llamada a Visual Basic para aplicaciones (VBA). No se puede llamar en cualquier otro momento. Por ejemplo, no se puede llamar durante las llamadas a la función [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) u otros momentos cuando el sistema operativo se llama a la DLL, o desde un subproceso creado por el archivo DLL. 
+Estas funciones se pueden llamar sólo cuando Excel ha pasado el control a la DLL o XLL. También puede llamar cuando Excel ha pasado control indirectamente a través de una llamada a Visual Basic para aplicaciones (VBA). No se puede llamar en cualquier otro momento. Por ejemplo, no se puede llamar durante las llamadas a la función [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) u otros momentos cuando el sistema operativo se llama a la DLL, o desde un subproceso creado por el archivo DLL. 
   
 Las funciones [Excel4v y Excel12v](excel4v-excel12v.md) aceptan sus argumentos como una matriz, mientras que las funciones de **Excel4** y **Excel12** aceptan sus argumentos como una lista de longitud variable en la pila. En todos los demás aspectos, **Excel4** se comporta de la misma que la **Excel4v**y **Excel12** se comporta igual que **Excel12v**.
   
@@ -135,7 +135,7 @@ short WINAPI Excel12Example(void)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

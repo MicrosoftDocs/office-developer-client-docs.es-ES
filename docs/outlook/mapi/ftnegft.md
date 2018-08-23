@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e26acb8415df007a7f3fb5901521da7222ae40ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37dc92a40043657cb791359d543ef52c77dbd8ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589241"
 ---
 # <a name="ftnegft"></a>FtNegFt
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el complemento de dos de un entero de 64 bits sin signo. 
   

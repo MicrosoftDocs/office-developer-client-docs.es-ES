@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 505b27b469a4ab197b41058ea5b933608818f0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584859"
 ---
 # <a name="mapi-service-provider-objects"></a>Objetos de proveedor de servicio MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proveedores de servicios de implementan muchos objetos. Algunos se usan principalmente por MAPI y algunas se usan por las aplicaciones cliente. Algunos objetos se implementan todos los tipos de proveedores de servicios; el resto son específicos de un tipo de proveedor único. En la siguiente tabla se describe todos los objetos de proveedor de servicio.
   
@@ -51,7 +51,7 @@ Algunos proveedores de servicios utilizan objetos de datos de datos y la propied
   
 Los proveedores de transporte que admiten el formato de encapsulación neutro de transporte (TNEF) para la transferencia de las propiedades de usan un objeto TNEF que MAPI implementa para admitir el [ITnef: IUnknown](itnefiunknown.md) interfaz. Para obtener más información, vea [desarrollar un proveedor de transporte TNEF-Enabled](developing-a-tnef-enabled-transport-provider.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

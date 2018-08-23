@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 968768fe75286b93bf12e349a4845fdfaa1923e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bec68568b30bdc3112493a656de591f222801e46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586245"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona objetos de datos de tabla u objetos que implementan **ITableData** para ayudar a los proveedores de servicios de realizar el mantenimiento de la tabla. Para obtener un objeto de datos de tabla, proveedores de servicios de llamar a la función [CreateTable](createtable.md) . 
   
@@ -58,7 +58,7 @@ Objetos de datos de tabla identifican filas mediante el uso de una columna de í
   
 Objetos de datos de tabla generan una única notificación independientemente del número de filas afectadas por un cambio o la eliminación. Si no existe una fila de destino de una operación, se agrega una fila.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

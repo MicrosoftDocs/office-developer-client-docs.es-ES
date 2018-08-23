@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 059d0d4427a8f2d68795a671d77fb9e3d84294f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817217"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584936"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las consultas admiten el subsistema MAPI para apagado rápido proporcionado por proveedores MAPI cargados.
   
@@ -45,7 +45,7 @@ MAPI_E_NO_SUPPORT
 
 Si el subsistema MAPI es compatible con el cliente MAPI de cierre rápido depende de configuración de registro de Windows del usuario o el comportamiento predeterminado del cliente MAPI de apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir apagado rápido. Para obtener más información, vea [Opciones de usuario de apagado Fast](fast-shutdown-user-options.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

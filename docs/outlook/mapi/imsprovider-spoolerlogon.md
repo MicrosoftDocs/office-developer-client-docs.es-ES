@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: eaf84e1b2a747b313f1534eb66b190d86cf89df9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56c025713b0cc2b41a4bf4463f48f8d7c3d2124b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586420"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicie sesión en un almacén de mensajes en la cola de MAPI.
   
@@ -132,7 +132,7 @@ Para mantener la coherencia con el método [IMSProvider::Logon](imsprovider-logo
   
 El proveedor de almacenamiento debe marcar internamente el objeto de almacén de mensaje devuelto para indicar que se está utilizando el almacén de la cola de MAPI. Algunos de los métodos de este objeto de almacenamiento se comportan de forma diferente para el mensaje de almacenar el objeto proporcionado a las aplicaciones cliente. Mantener esta marca interna es la manera más común de desencadenar el comportamiento específico de la cola de MAPI.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

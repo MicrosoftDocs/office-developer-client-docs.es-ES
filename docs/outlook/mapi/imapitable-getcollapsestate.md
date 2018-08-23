@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2c1246c46e9723cd3f6d92f0a44fc1419eef4a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46d993060d03b8c22c2d6c083c05f023648e6642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817583"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589668"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve los datos que es necesario volver a generar la actual contraído o expandido el estado de una tabla con categorías.
   
@@ -93,7 +93,7 @@ Almacenar el estado actual de todos los nodos de una tabla en el parámetro _lpp
 
 Llame siempre a **GetCollapseState** antes de llamar a **SetCollapseState**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

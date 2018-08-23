@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 27ad80b9eca8332beeda147a8b2b4204f9f1cd38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816347"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583676"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Información sobre las direcciones URL de MAPI para la indexación basada en notificaciones
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando un proveedor de almacén notifica un indizador que un objeto está listo para la indización, genera una dirección URL de MAPI que identifica de forma exclusiva el objeto para el controlador de protocolo MAPI. Direcciones URL de MAPI está codificadas en Unicode y tener el siguiente formato: 
   
@@ -88,7 +88,7 @@ El proveedor de almacenamiento debe escribir estos valores en el BLOB en el orde
 |*cbProviderItemID* |Tamaño del identificador de elemento de proveedor, en bytes. El proveedor de almacenamiento debe enviar a sólo el proveedor de identificador de elemento para las carpetas, para impedir la apertura de carpetas adicionales para obtener esta información.|
 |*wszProviderItemID* |Cadena de Unicode terminada en null con el identificador de elemento del proveedor que identifica de forma exclusiva el elemento en el almacén.|
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la indexación de almacenes basada en notificaciones](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)

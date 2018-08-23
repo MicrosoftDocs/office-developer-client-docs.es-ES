@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5d0e95fafb8530f64280aff61dab27d24fba0ba1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a19c67d7b83c4890c998cd2e53a36bfc34d11386
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819907"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583893"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Propiedad canónica PidTagPhysicalDeliveryMode
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de marcadores que definen el modo de entrega física (por ejemplo, entrega especial) para un mensaje designado para un destinatario concreto.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

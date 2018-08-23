@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fce8bc45d5cc87c238288653ab989b62076ad451
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817307"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587134"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que los visores de formulario trabajar con contextos de vista de formulario y notificación de formulario, para llevar a cabo los verbos de formulario y cerrar formularios.
   
@@ -48,7 +48,7 @@ Permite que los visores de formulario trabajar con contextos de vista de formula
 |[Desaconsejar](imapiform-unadvise.md) <br/> |Cancela un registro para las notificaciones con un visor de formulario establecido previamente mediante una llamada a **Advise**.  <br/> |
 |[GetLastError](imapiform-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen al objeto form.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

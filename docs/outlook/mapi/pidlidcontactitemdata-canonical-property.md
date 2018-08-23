@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 411e8f81-c2b9-440a-9e9a-d6add5e4be63
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 510920af290fa1cfe13fc1a85ba72f902532c539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f363b0a756a2cf4c7e37854cab0ddc4a46a0754d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818613"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582661"
 ---
 # <a name="pidlidcontactitemdata-canonical-property"></a>Propiedad canónica PidLidContactItemData
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se usa para mostrar la información de contacto.
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

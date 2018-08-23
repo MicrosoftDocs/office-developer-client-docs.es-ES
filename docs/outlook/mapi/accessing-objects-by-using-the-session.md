@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ee20e73e5bc7bb6854b956da541d3a318a267d0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0696ad4d15274e4af18d2246dd124c1bfee1a2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816394"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589409"
 ---
 # <a name="accessing-objects-by-using-the-session"></a>Obtener acceso a los objetos con la sesión
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El puntero de sesión que recibe de la llamada a [MAPILogonEx](mapilogonex.md) puede utilizarse para tener acceso a una amplia variedad de objetos. En la siguiente tabla se enumera los métodos que se usan para tener acceso a varios objetos: 
   

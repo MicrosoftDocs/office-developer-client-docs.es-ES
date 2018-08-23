@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b637f4921165d70ddeda914b4299c35aabe8218f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07c215511f010741e69c08c184df0ca3ce461e13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583620"
 ---
 # <a name="gateway-mappable-properties"></a>Pueda asignables propiedades de puerta de enlace
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Propiedades pueda asignar la puerta de enlace son propiedades que es posible que requieren conversión cuando se envían desde un dominio de mensajería a otro. Propiedades pueda asignar la puerta de enlace de MAPI permiten los mensajes incluir información que requiere una puerta de enlace para asegurarse de que el sistema de mensajería de destino lo usa correctamente. Aunque los programadores de puerta de enlace no son necesarias para proporcionar esta capacidad de traducción, deben tener en cuenta las propiedades pueda asignar la puerta de enlace como una oportunidad para mejorar el control de contenido de mensaje.
   

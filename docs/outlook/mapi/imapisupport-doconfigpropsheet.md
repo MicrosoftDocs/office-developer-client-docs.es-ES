@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 06341f897a7865c09a565db67bb409fc9f49f8da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817498"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586399"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra una hoja de propiedades de configuración.
   
@@ -80,7 +80,7 @@ Proveedores de servicios de llamada **DoConfigPropSheet** como parte de su imple
 
 Puede crear la tabla de presentación indicada por el parámetro _lpDisplayTable_ mediante una llamada a la función [BuildDisplayTable](builddisplaytable.md) o con código personalizado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

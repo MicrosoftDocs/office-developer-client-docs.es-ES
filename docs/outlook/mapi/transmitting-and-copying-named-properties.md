@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a5d2244270463fcc2fe0a9786112590e741a8a66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c225712e354d72b79313ee4c3f36da55f11b0a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587519"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>Transmitir y copiar propiedades con nombre
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Siempre que se envía una propiedad con nombre, mover o copian, el nombre permanece constante, pero debe cambiar el identificador para adherirse a la asignación del objeto de destino. La única excepción a esta regla es cuando el origen y destino tienen la misma firma de asignación, realizar reasignación innecesarios.
   
@@ -27,7 +27,7 @@ Es responsabilidad del proveedor de transporte para volver a asignar los nombres
   
 Una reasignación similar de propiedades con nombre debe producirse cuando estas propiedades se copian entre almacenes de mensajes. Sin embargo, debido a que los proveedores de almacén de mensaje pueden recuperar el nombre de la asignación del identificador de destino, pueden volver a asignar las propiedades inmediatamente y no tiene que se basan en el almacén de mensajes de destino. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

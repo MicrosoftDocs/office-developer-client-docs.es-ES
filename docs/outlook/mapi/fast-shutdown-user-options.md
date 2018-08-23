@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 'Última modificación: 26 de junio de 2012'
-ms.openlocfilehash: a58f8b98ab2f5a5c1028440676a561427272d028
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd541ed09bc661f3697408d3f475928b9ef0bcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816785"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585195"
 ---
 # <a name="fast-shutdown-user-options"></a>Opciones de usuario de apagado rápido
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Este tema describen las tres del registro opciones de Windows que están disponibles, a partir de Microsoft Outlook 2010 y ahora incluyen Microsoft Outlook 2013, de apagado rápido de los clientes MAPI de un usuario. Los administradores pueden usar esta configuración del registro para especificar el comportamiento de apagado de cliente preferido según la compatibilidad con los proveedores MAPI de apagado rápido de cliente. El Administrador de la configuración, a su vez, determina cómo responde el subsistema MAPI a la llamada del cliente MAPI para [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) en términos de soporte de apagado rápido disponibles. 
   
@@ -73,7 +73,7 @@ Valor:
     
 Cuando un cliente MAPI inicia un apagado rápido y llama a **IMAPIClientShutdown::QueryFastShutdown** para consultar para soporte técnico de apagado rápido, el subsistema MAPI se responde a la consulta mediante la devolución de MAPI_E_NO_SUPPORT, independientemente de si cualquier proveedor MAPI compatible con rapidez en el cierre. En esta configuración del registro, el subsistema MAPI nunca llama al método **IMAPIProviderShutdown::QueryFastShutdown** o [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) de cualquiera de los proveedores. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Cierre del cliente de MAPI](client-shutdown-in-mapi.md)
 - [Información general sobre el apagado rápido](fast-shutdown-overview.md)

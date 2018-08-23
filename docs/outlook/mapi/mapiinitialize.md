@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d22c24088960debcd18ccd818dad23656f6a01f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5fcebd1fefa0d077acbe62a45a19a622e13b35fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818267"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587372"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Incrementa el recuento de referencia del subsistema MAPI e inicializa datos globales para la DLL de MAPI. 
   
@@ -116,7 +116,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> ||MFCMAPI, utiliza el método **MAPIInitialize** para inicializar MAPI en un subproceso en segundo plano para realizar algún procesamiento de tabla.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

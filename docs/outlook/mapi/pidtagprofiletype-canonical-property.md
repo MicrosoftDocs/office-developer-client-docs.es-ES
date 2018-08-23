@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8f490223e56798b962232f0cf2bb4c585ce47c77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f87ac0be4d4fcbb1c1a3dd9d407de5461eb556bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584278"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>Propiedad canónica PidTagProfileType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tipo de almacén de información.
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

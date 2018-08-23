@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: bb7bd25e-5938-4abd-ba2c-c1ad86c75922
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 58b4bb470921e3930c68f3f513b3edb2eb009f6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99c35ae1ef368db00f0889cc649c2835b1a633fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819101"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587568"
 ---
 # <a name="pidnameparagraphcount-canonical-property"></a>Propiedad canónica PidNameParagraphCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el número de párrafos en el archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |ParCount  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

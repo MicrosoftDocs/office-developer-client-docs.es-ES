@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0aa5873d98b7ae9dea1bdaffc37f7996262b6062
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583858"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propiedad canónica PidTagIcon
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un mapa de bits de un icono de tamaño completo para un formulario. 
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4c5b6cbdda63dcb79b23253e0db695ae658c4fa4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816997"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586917"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Instalar los ejemplos que se utilizan en esta sección
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para instalar la aplicación MFCMAPI y el proyecto de CreateOutlookItemsAddin para ver y ejecutar el código de ejemplo al que hace referencia en los temas de la sección [Creación de elementos de Outlook mediante el uso de MAPI](creating-outlook-items-by-using-mapi.md) , siga estos pasos. 
 
@@ -76,7 +76,7 @@ Algunos temas de hacer referencia al código de origen desde la propia aplicaci�
     
 3. Abra el proyecto de MFCMapi (\ _foldername_\ MFCMapi.vcproj) en Visual Studio para examinar el código fuente.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Crear un elemento de correo simple](how-to-create-a-simple-mail-item.md)
 - [Crear un elemento de tarea periódica simple](how-to-create-a-simple-recurrent-task-item.md)

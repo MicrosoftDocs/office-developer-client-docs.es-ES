@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5fe1b064b48bc9112a872677fbf5042b7dfe5449
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583977"
 ---
 # <a name="form-configuration-file-verbs-section"></a>Sección del archivo de configuración de formulario [Verbos]
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La sección **[verbos]** enumera todo el conjunto de verbos admitidos por el formulario. El formato de la sección **[verbos]** es: 
   

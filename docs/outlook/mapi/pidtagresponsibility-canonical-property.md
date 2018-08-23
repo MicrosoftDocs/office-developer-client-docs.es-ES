@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9dba26ab6948d7190521ff31a8732c4b058ab7c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2a1c49b29ba08775768fc74861ba36b3c6356fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589381"
 ---
 # <a name="pidtagresponsibility-canonical-property"></a>Propiedad canónica PidTagResponsibility
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si algún proveedor de transporte ya ha aceptado la responsabilidad de entregar el mensaje a este destinatario y FALSE si la cola MAPI se considera que este proveedor de transporte debe aceptar responsabilidad.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: acd06027f1f9aa051a36192f07efa3ca0671a82e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c97ca1ff27eab1a935317b99cfbf4016d18fa7c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587491"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>Propiedad canónica PidLidTaskLastUpdate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la hora Universal coordinada (UTC) y la fecha del cambio más reciente realizado en la tarea que se ha indicado por la propiedad **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)).
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

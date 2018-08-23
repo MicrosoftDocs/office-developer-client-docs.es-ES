@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a7bb1aca501e24843950114bb76b6a09b20f2467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65d633f0c2b0ce56793eaa55a417b5d6a816d449
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589850"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve los tipos de destinatarios que administra el proveedor de transporte.
   
@@ -87,7 +87,7 @@ Un proveedor de transporte que puede administrar cualquier tipo de destinatario 
   
 Un proveedor de transporte que no es compatible con los mensajes salientes que se envían a él según el tipo de dirección debe devolver una sola cadena de longitud cero en _lpppszAdrTypeArray_. Si un proveedor de transporte no admite ningún tipo de destinatario, debe pasar el valor NULL para la estructura **MAPIUID** y una cadena vacía para el tipo de dirección. Los proveedores de transporte de este tipo se utilizan con más frecuencia para instalar un preprocesador de mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

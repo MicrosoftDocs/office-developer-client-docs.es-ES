@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d60531b087d00ca63a060a4dbfac559ba3b01788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eab72c5b49ba501d8ab5516bf5a5eae9ea82abe0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819829"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588709"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>Propiedad canónica PidTagOriginalEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada original para una entrada de copiado de otra libreta de direcciones grabable o de una libreta de direcciones a una libreta de direcciones personales.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

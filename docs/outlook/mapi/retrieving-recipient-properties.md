@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a7bdcf133b8b2b5d8eb906cc0f5b5803838e27a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a48c6a8e043062bc6b48e09934fded1dccb507b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585440"
 ---
 # <a name="retrieving-recipient-properties"></a>Recuperación de propiedades del destinatario
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 ### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para obtener acceso a una o varias propiedades de una entrada de la libreta de direcciones
   

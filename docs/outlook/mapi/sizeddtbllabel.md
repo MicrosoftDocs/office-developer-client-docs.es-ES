@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c2e275e373677e50510a0aa87f5060070a870a0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d960207e05b33efe55886166ff1322f7f4eedce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586203"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura con nombre que incluye una estructura [DTBLLABEL](dtbllabel.md) para describir un control de etiqueta y la etiqueta asociada de una longitud especificada. 
   
@@ -59,7 +59,7 @@ Para utilizar un puntero a la estructura resultante de la macro **SizedDtblLabel
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [DTBLLABEL](dtbllabel.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

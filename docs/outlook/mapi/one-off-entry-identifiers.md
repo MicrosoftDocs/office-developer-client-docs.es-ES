@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1335de3c1decf6c594f0148fbbf055061d7ce7e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a086d1b9bcc1eae620b2f0a5ce96a545ce68342
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818424"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585538"
 ---
 # <a name="one-off-entry-identifiers"></a>Identificadores de entrada único
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Identificadores de entrada único se crean mediante MAPI en el método **IAddrBook::CreateOneOff** y los componentes que no disponen de acceso en el subsistema MAPI, como los componentes de la puerta de enlace. For more information, see [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). En la siguiente ilustración muestra el formato de un identificador de entrada único.
   

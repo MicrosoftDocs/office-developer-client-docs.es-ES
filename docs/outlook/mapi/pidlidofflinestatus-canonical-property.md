@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 34f50766c2c45d85bbb0bd9e12d32c5dd87e3cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818815"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588779"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propiedad canónica PidLidOfflineStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina el estado de un archivo de documento en un servidor que implementa [MS-LISTSWS].
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

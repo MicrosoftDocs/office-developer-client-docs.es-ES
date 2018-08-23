@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0d0b8f3a394d2ec2239e8ab186d4021b60b00ea4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820006"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590284"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propiedad canónica PidTagReceiptTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y hora que se genera un informe de entrega.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

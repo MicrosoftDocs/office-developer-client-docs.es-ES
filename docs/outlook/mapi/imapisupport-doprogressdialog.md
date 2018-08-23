@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 527a7bb3201a4a6b1bc0807136bc88b80c189de2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817506"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582780"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera un objeto de progreso que muestra un indicador de progreso.
   
@@ -65,7 +65,7 @@ El método **IMAPISupport::DoProgressDialog** se implementa para dirección libr
   
 Para obtener información acerca de cómo usar un objeto de progreso y la interfaz de **IMAPIProgress** , consulte [para mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

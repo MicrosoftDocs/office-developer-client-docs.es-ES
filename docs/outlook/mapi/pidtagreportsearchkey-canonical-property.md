@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fa2770daf38fe93eb9fb69990eebc2a6fcfd6a27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b82e27358c9f30a649dc10e1a53ee7c321cb3d82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820110"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584964"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>Propiedad canónica PidTagReportSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la clave de búsqueda para el destinatario que debería obtener informes para este mensaje.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

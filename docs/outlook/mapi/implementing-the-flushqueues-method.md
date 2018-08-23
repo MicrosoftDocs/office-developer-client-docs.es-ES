@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01296995adbca2640c8da42b4d06c1c749be3266
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582416"
 ---
 # <a name="implementing-the-flushqueues-method"></a>Implementar el método FlushQueues
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La cola MAPI usa el método [IXPLogon::FlushQueues](ixplogon-flushqueues.md) para descargar y cargar todos los mensajes pendientes a y desde un proveedor de transporte. Normalmente, la cola MAPI vaciar las colas para todos los proveedores de transporte que han iniciado sesión en la sesión, empezando por el primer proveedor de transporte como se establece en la sección orden de transporte del perfil de usuario. Las colas de baja casi siempre es el resultado de una solicitud directa por el usuario, por lo que el envío y recepción de mensajes mientras se vaciado de colas son sincrónica a la cola MAPI. Debido a que estas llamadas son sincrónicas, el proveedor de transporte debe procesarlos lo más rápido posible. 
   

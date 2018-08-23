@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c8d46ac6f47eb4dc68aebfa4562403ef1b738213
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad891a9884e72aa352dc114232cd5951c590272f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816649"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585104"
 ---
 # <a name="deleting-a-message"></a>Eliminar un mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un cliente puede eliminar un mensaje cuando está abierto y el usuario lo está leyendo, o cuando se cierra y el usuario está viendo la tabla de contenido. Para proteger a los usuarios quiten un mensaje sin darse cuenta, MAPI define la eliminación de mensajes como un proceso de dos pasos:
   

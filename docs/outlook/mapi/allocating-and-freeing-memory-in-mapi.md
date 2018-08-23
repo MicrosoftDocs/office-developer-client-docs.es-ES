@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dc97abcb4b316b696032f2788f4e653717e1396b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ec5c2604c72d41078aa467764463e2659c62e65
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587946"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>Asignar y liberar memoria en MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Además de especificar cómo asignar y liberar memoria, MAPI define un modelo para saber cuándo memoria se pasa entre el método de interfaz pública y función de la API deben liberarse a las llamadas. El modelo se aplica sólo a la memoria asignada para los parámetros que no sean punteros a las interfaces, como cadenas y punteros a estructuras. Punteros de interfaz usar el mecanismo de implementada a través de **IUnknown**de recuento de referencias. Al asignar y liberar MAPI no relacionadas con la memoria internamente dentro de una aplicación de cliente o un proveedor de servicios, use cualquier mecanismo sentido. 
   

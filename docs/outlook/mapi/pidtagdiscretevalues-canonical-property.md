@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9911d6cee40637a69dfaf432be0e6d42bf38bccd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819462"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587421"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Propiedad canónica PidTagDiscreteValues
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si un informe de no entrega aplica a sólo a discretos miembros de una lista de distribución en lugar de toda la lista. 
   
@@ -54,7 +54,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

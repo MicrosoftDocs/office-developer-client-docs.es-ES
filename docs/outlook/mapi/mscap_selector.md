@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 420b2661e766ecf97a5e9e488e9c18f29cd91329
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c23788d64fe3703c7c46998cade0bd40d2f3dd2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19818399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588128"
 ---
 # <a name="mscapselector"></a>MSCAP_SELECTOR
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica las funciones que se devuelven en un almacén.
   

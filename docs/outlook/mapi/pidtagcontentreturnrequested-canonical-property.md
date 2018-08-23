@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b4aaf05cdd8c85736215bd0d0f3a8c5c9dafecf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819373"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586595"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propiedad canónica PidTagContentReturnRequested
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si se debe devolver un mensaje con un informe de no entrega. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

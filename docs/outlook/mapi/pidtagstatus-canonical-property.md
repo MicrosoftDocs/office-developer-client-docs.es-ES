@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 01a65306e5e0d34ed6f1ce7231227224868ff5cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb04983015e8557541e69981ec130ebf07598655
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820339"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588373"
 ---
 # <a name="pidtagstatus-canonical-property"></a>Propiedad canónica PidTagStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de 32 bits de marcadores que definen el estado de la carpeta.
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

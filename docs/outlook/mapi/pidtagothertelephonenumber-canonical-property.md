@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c3af4e5afa272233cb435b2f856c0aadb42ed16f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9c3fc0eb5b14df27885ec835058f29f9693fb1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584777"
 ---
 # <a name="pidtagothertelephonenumber-canonical-property"></a>Propiedad canónica PidTagOtherTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número de teléfono alternativo para el destinatario.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

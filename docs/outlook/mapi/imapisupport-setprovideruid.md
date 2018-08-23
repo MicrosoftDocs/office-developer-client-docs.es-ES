@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2182ec71c54c81e9a43a34973e005292ddccdfff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df842e633f1586d6d77441126d51b2ce44ec3beb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817546"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589073"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registra una estructura [MAPIUID](mapiuid.md) que representa el proveedor de servicios de forma exclusiva. 
   
@@ -60,7 +60,7 @@ MAPI utiliza la estructura **MAPIUID** cuando envían los mensajes salientes a l
 
 Llamar a **SetProviderUID** en tiempo de inicio de sesión para registrar la estructura **MAPIUID** . MAPI permite dirección libreta de direcciones y el mensaje de los proveedores de almacén registrar varios identificadores. Cuando realiza varias llamadas a **SetProviderUID**, agrega siempre la estructura **MAPIUID** a conjunto del proveedor de estructuras **MAPIUID** , incluso si la **MAPIUID** es un duplicado. **SetProviderUID** no se puede quitar un **MAPIUID**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

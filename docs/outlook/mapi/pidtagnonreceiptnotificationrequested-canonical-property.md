@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 80c76242df409dbea1b60e423629b5b219e1d57d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 896cfa2bf8a1b33fd6dee09649853b71618f31be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582787"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Propiedad canónica PidTagNonReceiptNotificationRequested
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si desea que un remitente del mensaje notificación de no recepción para un destinatario especificado.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

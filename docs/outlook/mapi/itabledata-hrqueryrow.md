@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 92540159386e6f37d93684aff037b235071010f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583823"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera una fila de tabla.
   
@@ -65,7 +65,7 @@ El método **ITableData::HrQueryRow** recupera todas las propiedades de la fila 
   
 Debido a que **HrQueryRow** no modifique la estructura de **SPropValue** que señala _lpSPropValue_, los autores de llamadas deben liberar la estructura cuando devuelve **HrQueryRow** . Los autores de llamadas también deben liberar la estructura **SRow** que contiene la fila recuperada. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

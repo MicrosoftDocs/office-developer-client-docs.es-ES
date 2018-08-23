@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 321cde5a-05db-498b-a9b8-cb54c8a14e34
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d69fb4423fca12134b4401907a16636562557cfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10444131248edea2de712429d7c70a8490eb31ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820263"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584726"
 ---
 # <a name="pidtagsendersmtpaddress-canonical-property"></a>Propiedad canónica PidTagSenderSmtpAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el formato de la dirección de correo electrónico de Protocolo Simple de transferencia de correo (SMTP) del propietario del buzón de envío.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

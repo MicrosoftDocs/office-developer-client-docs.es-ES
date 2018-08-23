@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2f45028219f0f5f4cc881db3bc512626b3ad2f4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e1f546d33d4781f60df56b12fce437d1e7bd675
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588226"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Abre una sección del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para aún más el acceso. 
   
@@ -85,7 +85,7 @@ El método **IMAPISupport::OpenProfileSection** se implementa para todos los obj
   
 Si **OpenProfileSection** intenta abrir una sección de perfil que no existe como de sólo lectura, devuelve MAPI_E_NOT_FOUND. Si **OpenProfileSection** intenta abrir una sección de perfil que no existe como lectura y escritura, la sección de perfil se crea y devuelve el puntero **IProfSect** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6cd9dfe8fabd1ae7a4389550c628fb7ceff09ea8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f8ede3761ca10589c686e2ec4fac18fbe00fb2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820581"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588590"
 ---
 # <a name="scode"></a>SCODE
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un valor de estado de 32 bits que se usa para describir un error o advertencia. 
   
@@ -51,7 +51,7 @@ Muchas de las funciones MAPI y métodos devuelven valores **SCODE** definidos co
   
 Para obtener más información acerca de cómo utiliza el tipo de datos **SCODE** MAPI, vea [Control de errores](error-handling-in-mapi.md). Para obtener más información acerca de OLE y el tipo de datos **SCODE** , vea la *referencia del programador de OLE* . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

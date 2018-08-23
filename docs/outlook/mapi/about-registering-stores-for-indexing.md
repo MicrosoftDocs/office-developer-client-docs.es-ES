@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b16446644c360185908e7f4e58463257fe17f403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584187"
 ---
 # <a name="about-registering-stores-for-indexing"></a>Información sobre el registro de almacenes de indexación
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema es específico para la búsqueda instantánea de Microsoft Office Outlook 2007.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7525eee1-4016-49b8-9509-5ebbe1db819f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9f80feecda219e3bcebbf8ceb346b5034e821470
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4f7ed75bb1144b7cd4a813b0d093246a30cca5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588352"
 ---
 # <a name="developing-a-tnef-enabled-transport-provider"></a>Desarrollar un proveedor de transporte habilitado para TNEF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para promover la interoperabilidad entre los sistemas de mensajería que admiten distintos conjuntos de características MAPI, MAPI proporciona el formato de encapsulación neutro de transporte (TNEF) como una forma estándar para transferir datos. Este formato encapsula las propiedades MAPI no compatibles con un sistema de mensajería subyacente en una secuencia binaria que puede transferirse junto con el mensaje cuando lo envía un proveedor de transporte. El proveedor de transporte que recibe el mensaje, a continuación, puede descodificar la secuencia binaria para recuperar todas las propiedades del mensaje original y que estén disponibles para las aplicaciones cliente. El modelo operativo para TNEF es:
   

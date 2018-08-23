@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5a5e736e8be1120f5fb90048f01fdc8a44479060
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5cb43bfa3acd912e397644657223c177d6afb30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589325"
 ---
 # <a name="hrallocadvisesink"></a>HrAllocAdviseSink
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de receptor advise, dado un contexto especificado por la implementación de llamada y una función de devolución de llamada que se desencadene mediante una notificación de eventos. 
   

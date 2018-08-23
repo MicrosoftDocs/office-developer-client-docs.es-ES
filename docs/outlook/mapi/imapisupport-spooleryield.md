@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6e917991e109ac04a14ea7d93eebcf9cce835845
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d90f502e2cd7f97ac273ebecedbd0363097b1d60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584957"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona control de la CPU a la cola de MAPI para que pueda realizar las tareas que considere necesarias.
   
@@ -61,7 +61,7 @@ Si **SpoolerYield** devuelve con MAPI_W_CANCEL_MESSAGE, la cola MAPI ha determin
   
 Para obtener más información acerca de la obtención de la cola MAPI, consulte [interactuar con la cola de MAPI](interacting-with-the-mapi-spooler.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

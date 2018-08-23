@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aad2509a8960ac7d371346afc61d235a5817c5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f63af98eac8d777e164400acc97043ac1ccc69a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584999"
 ---
 # <a name="pidtaghtml-canonical-property"></a>Propiedad canónica PidTagHtml
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el texto del cuerpo del mensaje en formato HTML.
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

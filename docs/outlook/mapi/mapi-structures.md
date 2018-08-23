@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 91820ae945ba44d36221e3a92ce5ee2fd47c02eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584789"
 ---
 # <a name="mapi-structures"></a>Estructuras MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI. Para obtener información más detallada, también se incluyen las referencias cruzadas a otras publicaciones o a otros temas de esta documentación.
   
@@ -72,7 +72,7 @@ Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI
 |[STnefProblem](stnefproblem.md) <br/> |[STnefProblemArray](stnefproblemarray.md) <br/> |
 |[SWStringArray](swstringarray.md) <br/> |[TABLE_NOTIFICATION](table_notification.md) <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

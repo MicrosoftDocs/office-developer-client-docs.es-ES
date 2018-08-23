@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 861a48464193f357224e33eb0348bc7d5372aa10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c823a4e3d08d9082a3b5ac5c4bd8169612caa16e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816890"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583998"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Multiplica a un entero de 64 bits sin signo por un entero sin signo de 32 bits.
   

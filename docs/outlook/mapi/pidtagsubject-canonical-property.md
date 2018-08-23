@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 63bb5534756f44aebd9e6ca21c336534b279909d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9d37e4ee32cb5db623cece3061012ae4df0173a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820365"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586945"
 ---
 # <a name="pidtagsubject-canonical-property"></a>Propiedad canónica PidTagSubject
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene al asunto de un mensaje completo.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

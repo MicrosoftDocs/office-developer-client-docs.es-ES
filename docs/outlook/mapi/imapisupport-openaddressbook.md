@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e9cd1c7ce0983a47311b2626cc3b40b47748b951
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817528"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588177"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la libreta de direcciones.
   
@@ -69,7 +69,7 @@ El método **IMAPISupport::OpenAddressBook** se implementa para todos los objeto
   
 Si no se pudo cargar uno o más proveedores de libreta de direcciones, llame a [IMAPISupport::GetLastError](imapisupport-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contiene información sobre los proveedores que no se ha cargado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

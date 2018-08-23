@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a5ddc10aa068a7d0a18ae4b648959f258e89d132
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819782"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590242"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Propiedad canónica PidTagNonReceiptReason
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los motivos por qué no se ha recibido un mensaje que forma parte de un informe de no entrega.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

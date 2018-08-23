@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 26dfd40ed8b4cd2b2261abff4d2692de46acb6fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d9db53dd752367570fc10aaabe3143b3b3ea917
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588380"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. Identificador de la propiedad ha cambiado. 
   
@@ -46,7 +46,7 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
   
 > El nuevo valor para el tipo de propiedad.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

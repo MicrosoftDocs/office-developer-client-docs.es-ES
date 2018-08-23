@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 70d621a386465d28e84e4841c14d212e1d2e4d34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab96d4412729e8673f0c1ae088277b9929e4d079
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586819"
 ---
 # <a name="pidtagspamjunksenders-canonical-property"></a>Propiedad canónica PidTagSpamJunkSenders
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista delimitada por punto y coma de direcciones de correo electrónico y dominios que conforman los remitentes bloqueados.
   
@@ -52,7 +52,7 @@ Mapidefs.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

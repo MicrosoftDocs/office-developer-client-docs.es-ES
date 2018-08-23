@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c899eb0afd123b26e12081f5157be3bae7917813
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a14b07888c7a17d550941909b345eff3b0276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585461"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implementar la interfaz IUnknown en C++
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Implementación de los métodos de [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx), [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)e [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) de la interfaz [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) en C++ es bastante sencilla. Después de la validación de estándar de algunos de los parámetros que se pasan en, una implementación de **QueryInterface** comprueba el identificador de la interfaz solicitada respecto de la lista de las interfaces compatibles. Si el identificador solicitado es entre las admitidas, se llama a **AddRef** y se devuelve el puntero **this** . Si el identificador solicitado no está en la lista admitida, el puntero de salida se establece en NULL y se devuelve el valor MAPI_E_INTERFACE_NOT_SUPPORTED. 
   
@@ -65,7 +65,7 @@ ULONG CMyMAPIObject::Release()
  
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Implementar objetos MAPI](implementing-mapi-objects.md)
 - [Implementar la interfaz IUnknown](implementing-the-iunknown-interface.md)

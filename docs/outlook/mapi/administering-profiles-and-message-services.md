@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 71e8cf50c1951abf1df6163cae4757ffebc979b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816401"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587547"
 ---
 # <a name="administering-profiles-and-message-services"></a>Administrar perfiles y servicios de mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Perfiles y mensaje puede implicar la administración del servicio de creación de nuevos perfiles, eliminar perfiles anteriores y modificar el contenido de los perfiles existentes mediante la modificación de los servicios de mensaje y los proveedores de servicios de contenidos en ellos. No todos los clientes admiten la administración de servicio de perfil y mensaje como características estándar. Algunos clientes no tienen nada más que hacer con los perfiles de permitir que sus usuarios seleccionar una en tiempo de inicio de sesión.
   

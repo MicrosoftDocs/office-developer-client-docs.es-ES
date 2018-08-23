@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5429f98a0335ae99b719d0f15b66a95ba87430e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0c5cd70595ea43a0957e764150ee4d5153e32c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818020"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589689"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la aparición de un evento sobre el que el proveedor de transporte solicita la notificación.
   
@@ -98,7 +98,7 @@ Cuando el usuario intenta cancelar un mensaje que el proveedor de transporte ha 
 
 El proveedor debe sincronizar el acceso a sus datos en esta llamada, debido a que la cola MAPI puede invocar este método desde otro subproceso de ejecución o desde un procedimiento para una ventana diferente. Esto es muy probable que se producirá cuando la cola MAPI señala la cancelación de un mensaje que el proveedor de transporte ha empezado a enviar.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) 
 - [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 18fc0983554284355dcdfb301fd41a0161a860fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67c202e5130bd35e1277c5260bc1702043eadd95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820498"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588030"
 ---
 # <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Recibir mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para recibir un mensaje TNEF con procesamiento de datos adjuntos personalizado:
   

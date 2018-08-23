@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590207"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona implementaciones para las tareas que normalmente se llevan a cabo por los proveedores de servicios y funciones de punto de entrada de servicio de mensajes. Proveedores de servicios de reciben un puntero a su objeto de soporte técnico cuando MAPI llama el método de inicio de sesión del objeto de su proveedor. Servicios de mensajes reciben su puntero de objeto de soporte técnico en la llamada a su función de punto de entrada.
   
@@ -132,7 +132,7 @@ Objetos de Ayuda del servicio de mensaje tienen implementaciones para los métod
 |**MakeInvalid** <br/> |**NewUID** <br/> |
 |**OpenProfileSection** <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

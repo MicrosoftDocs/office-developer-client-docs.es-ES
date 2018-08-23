@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: caa7b7f3-a5a1-4f07-98c9-22652ecd5d21
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1e1b05be64029f80ec8a7379ed7b313b9cf645fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aa641ad0a41ff8015d2ece717d5a4cb3a7c4edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818185"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587316"
 ---
 # <a name="mapi-record-and-search-keys"></a>Registro MAPI y las claves de búsqueda
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Claves de registro y las claves de búsqueda son identificadores binarios que se asignan a muchos objetos MAPI. A diferencia de identificador de entrada de un objeto, su clave de registro o búsqueda es directamente comparable, así como transmisible. 
   
@@ -37,7 +37,7 @@ Los mensajes y los usuarios de mensajería tienen claves de búsqueda. La clave 
   
 El valor de la clave de registro de un objeto puede ser igual o diferente que el valor de su clave de búsqueda, según el proveedor de servicio. Algunos proveedores de servicios de usan el mismo valor de clave de búsqueda de un objeto, la clave de registro y el identificador de entrada. Otros proveedores de servicios de asignan valores únicos para cada uno de los identificadores de sus objetos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

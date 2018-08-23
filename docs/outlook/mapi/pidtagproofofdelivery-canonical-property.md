@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c00626480c536e9dda7f4a74bf0a3b7469e95c55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08dadc1de8e827d997dd8a00c56466c0109e79ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585874"
 ---
 # <a name="pidtagproofofdelivery-canonical-property"></a>Propiedad canónica PidTagProofOfDelivery
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene una prueba ASN.1 del valor de entrega.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

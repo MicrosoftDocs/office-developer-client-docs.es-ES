@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 047a3b99b2d615984252071a1264521a4b2240f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6190b2860e227b24b34e31a4ee9741468383460
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589640"
 ---
 # <a name="verifying-service-provider-configuration"></a>Comprobar la configuración del proveedor de servicio
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El método de inicio de sesión ([IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)o [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)) debe comprobar la configuración de su proveedor. Esto implica comprobar que todas las propiedades necesarias para la operación completa se establecen correctamente. Cada proveedor requiere un número diferente de propiedades; configuración depende de su proveedor y el grado de interacción del usuario que va a permitir. Algunos proveedores de servicios tenga todas las propiedades necesarias en el perfil. 
 
@@ -49,7 +49,7 @@ En la siguiente ilustración se muestra la lógica de requerido para la configur
   
 ![Diagrama de flujo de comprobación de configuración] (media/amapi_62.gif "Diagrama de flujo de comprobación de configuración")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Implementar el inicio de sesión del proveedor de servicios](implementing-service-provider-logon.md)
 

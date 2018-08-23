@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 150a0c6eb7efa83f5ff1d12d915351bf5ca9d45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6613e4168fea6536b1df873da12f2c215be515bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588506"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Activa el mensaje siguiente o anterior en el orden de la vista. 
   
@@ -92,7 +92,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa el método **IMAPIViewContext::ActivateNext** en esta función.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)

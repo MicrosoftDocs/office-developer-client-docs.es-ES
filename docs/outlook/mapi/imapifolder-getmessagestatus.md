@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bac363183c15a2d53c15b46724266b6cb5744075
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817244"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583270"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Obtiene el estado asociado a un mensaje de una carpeta determinada (por ejemplo, si ese mensaje está marcado para su eliminación).
   
@@ -101,7 +101,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del siguiente mensaje que se mostrará.  <br/> |
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del mensaje que se mostrará para pasar al Visor de formulario, que es CMyMAPIFormViewer o [IMAPISession:: ShowForm](imapisession-showform.md).  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

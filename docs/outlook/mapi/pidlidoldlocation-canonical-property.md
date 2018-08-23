@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 96bfa9df94af8c4b8b7691027ad6de309206f3fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50cfe5031987fa2a51aef0d02afe94cc46422112
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818834"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585510"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>Propiedad canónica PidLidOldLocation
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica el valor original de la propiedad **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) antes de una actualización de la reunión.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

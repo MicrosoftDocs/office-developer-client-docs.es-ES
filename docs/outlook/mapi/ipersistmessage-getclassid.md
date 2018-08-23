@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e0937eed2e8ca61bc18ee45ff20337267808ea70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9d769e6a32fad22750a965debbbdce83e4de539
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817863"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586462"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un identificador que representa el servidor de formulario que puede administrar el formulario. 
   
@@ -51,7 +51,7 @@ El método **IPersistMessge::GetClassID** establece el contenido del parámetro 
   
 Para obtener más información acerca de cómo se usan los identificadores de clase con objetos de almacenamiento estructurado, consulte la documentación para el método [IPersist:: GetClassID](http://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

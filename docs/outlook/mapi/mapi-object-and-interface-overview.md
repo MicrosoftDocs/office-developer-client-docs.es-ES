@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8882457ff99f4150f2c9b086b92af32de29d60a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f69985f9cdaaba0681b823e6fe448d009ee9dfa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585713"
 ---
 # <a name="mapi-object-and-interface-overview"></a>Objeto MAPI e Introducción a la interfaz
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un objeto MAPI es una clase de objeto de C++ o C estructura de datos se hereda de una o más interfaces MAPI o colecciones de funciones relacionadas. Estas colecciones de funciones relacionadas se conocen los desarrolladores de C++ como funciones virtuales puras. Para una función virtual pura, MAPI proporciona solo el prototipo de función, no una implementación. Se espera que una aplicación cliente, un proveedor de servicios o MAPI proporcionará esta implementación mediante la creación de una clase de objeto que hereda de la interfaz y se ajusta a las descripciones de la función de la API de mensajería. Una interfaz de MAPI se puede crear instancias sólo a través de una clase heredada.
   
@@ -29,7 +29,7 @@ Muchas de las interfaces MAPI se heredan directamente de **IUnknown**, mientras 
   
 MAPI define muchos tipos de objetos, cada uno implementado por uno o más componentes MAPI. Se utilizan objetos implementados por los clientes MAPI, proveedores de servicios y componentes de formularios personalizados. Objetos que implementan los proveedores de servicio se usan normalmente por MAPI y por los clientes. Objetos implementan los proveedores de la biblioteca de formulario y los servidores de formulario se usan por otros componentes de formulario y por los clientes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0f9aa5d508afeaf5933c50763e1e42832ae4e3f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817626"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584439"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se notifica el Visor de formulario que se ha guardado el mensaje actual en un formulario.
   
@@ -33,7 +33,7 @@ HRESULT OnSaved( void );
 
 ## <a name="parameters"></a>Parámetros
 
-Ninguno
+Ninguna
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ Un objeto de formulario llama al método de **IMAPIViewAdviseSink::OnSaved** des
   
 Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

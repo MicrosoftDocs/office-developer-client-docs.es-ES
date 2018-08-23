@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 75ef8d6f2134e0269745f92dab1f790228692853
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cffa3024b8533f07f8f76fa5bbac219e23d61bdb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589507"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Manipula los mensajes y se implementa mediante el código de formulario Visor (normalmente, una aplicación de cliente) que responde a esa manipulación.
   
@@ -54,7 +54,7 @@ Manipula los mensajes y se implementa mediante el código de formulario Visor (n
 |[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Devuelve información de un objeto de sitio de mensaje acerca del mensaje de las capacidades del sitio para el mensaje actual.  <br/> |
 |[GetLastError](imapimessagesite-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el que se producen en el objeto de sitio de mensaje de error anterior.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c249254205e1b2b58505a88443ffef10bfde7d79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587050"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a través de la interfaz **[IOSTX](iostxiunknown.md)** . 
   
@@ -40,7 +40,7 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 | *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
 |**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Establece el estado de suspensión de la cola de impresión.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d6d6c55776c1379ec1dab0e9a6f7ef0943d2480e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586308"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene las definiciones de constantes, declaraciones de interfaz MAPI y los identificadores de clase e interfaz usados por la API de MAPI.
   
@@ -676,7 +676,7 @@ DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0
 DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x36, 0x69, 0x63, 0x42, 0xca);
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre las adiciones de MAPI](about-mapi-additions.md) 
 - [Información sobre las propiedades con nombre que usa Outlook](about-named-properties-used-by-outlook.md)

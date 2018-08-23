@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 37a318df01101487fe0e8970251201c2515d1e8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583193"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propiedad canónica PidTagExchangeProfileSectionId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un GUID generado de forma dinámica se utiliza para determinar una cuenta cuando esté usando varias cuentas de Microsoft Exchange Server.
   
@@ -63,7 +63,7 @@ El servicio de Exchange heredado tiene la propiedad **PR_EMSMDB_LEGACY** (0x3D18
   
 El heredado **emsmdbUID** también se mostrará en la sección de perfil de Outlook Global del perfil como **PidTagExchangeProfileSectionId**. El código escrito para admitir varias cuentas de Exchange no debe tener que recuperar el heredado **emsmdbUID** debido a que debe obtener la correcta **emsmdbUID**, dependiendo de la cuenta de con que su código está interactuando.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

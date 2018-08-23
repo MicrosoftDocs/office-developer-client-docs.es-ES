@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7b2dd30511927f8df8a8bc587a6b1fedd5854810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f85fdc701a29f5865700c6519d589212a06fd0af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818785"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585783"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Propiedad canónica PidLidLogFlags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene metadatos sobre el diario.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

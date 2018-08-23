@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b193e819-749e-4642-8afc-dbc47b17b617
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 11cd1040bb228d789248a89184572b87cd1688ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 244dae4d3413587b7a37e93328998b153fb8ece3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818236"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585335"
 ---
 # <a name="mapi-transport-provider-overview"></a>Información general sobre el proveedor de transporte MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de transporte controlan la recepción y transmisión de mensajes e implementan la seguridad, si es necesario. También se ocupe de cualquier preprocesamiento necesarios y tareas de posprocesamiento. No hay proveedor de transporte normalmente, uno para cada sistema de mensajería activa.
   

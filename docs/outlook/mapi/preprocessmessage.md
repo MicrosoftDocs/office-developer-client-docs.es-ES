@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 22562e1177c9a649bc66b25b5e8e9e6ecc8e397c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 878c3aaf22a6cf8a08c8234df41b671088c435c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584992"
 ---
 # <a name="preprocessmessage"></a>PreprocessMessage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una función que preprocesa el contenido del mensaje o el formato de un mensaje.
   
@@ -108,7 +108,7 @@ Antes de la cola MAPI puede llamar a una función **PreprocessMessage** , el pro
   
 La cola MAPI propietario de la tarea de envío de mensajes. Esto significa que el mensaje original nunca se coloca en una matriz de punteros de mensaje y que nunca se requiere una llamada a los métodos de **SubmitMessage** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

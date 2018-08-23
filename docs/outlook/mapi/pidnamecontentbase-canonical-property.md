@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 21469b944bb2ce5db0576e40012335d89d48cb49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91eb93c9cf3afcecef698e27791c06831c13624d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819113"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589101"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>Propiedad canónica PidNameContentBase
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de campo de encabezado de Base de contenido de [RFC3282].
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

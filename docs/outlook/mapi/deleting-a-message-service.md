@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 34d9d6d428f39765e739ce856f3666d07b457d52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f39f721d434f4e54cbfa5d25a3ba626858f2b13e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583571"
 ---
 # <a name="deleting-a-message-service"></a>Eliminar un servicio de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  **Para eliminar un servicio de mensajes de un perfil**
   

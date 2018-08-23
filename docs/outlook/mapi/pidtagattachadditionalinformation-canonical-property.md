@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 75f092f2-ee3f-45c2-a46f-e1dff2e22b2e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 83de3a4ad7c93b2dfee8063ab63bfbf0724a5f61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8df81920b9d2e88b23438fd398bde7d8e426b248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819208"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587694"
 ---
 # <a name="pidtagattachadditionalinformation-canonical-property"></a>Propiedad canónica PidTagAttachAdditionalInformation
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona información de tipo de archivo para datos adjuntos de que no son de Windows.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

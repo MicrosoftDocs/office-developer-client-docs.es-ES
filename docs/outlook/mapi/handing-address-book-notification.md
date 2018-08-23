@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f198be78dd36a6d0c9439da68ab322cd8cfa4172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816922"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582920"
 ---
 # <a name="handing-address-book-notification"></a>Entrega de notificación de la libreta de direcciones
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las notificaciones de la libreta de direcciones, permitir que un cliente obtener más información de eventos que se producen en cualquier entrada de la libreta de direcciones o en un valor determinado. Se pueden registrar para estas notificaciones a través de la libreta de direcciones MAPI mediante una llamada a [IAddrBook::Advise](iaddrbook-advise.md) o a través de la jerarquía de un contenedor de la libreta de direcciones o una tabla de contenido mediante una llamada a [IMAPITable::Advise](imapitable-advise.md). 
   

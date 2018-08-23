@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: efaa8cf84204234697431a190a5cb6745b55ecae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e1c2783abd186146fe738a3396e098711893d3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583985"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>Propiedad canónica PidTagFlagCompleteTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la fecha y hora en Universal coordinada (UTC) que el objeto de mensaje se marcó como completada.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

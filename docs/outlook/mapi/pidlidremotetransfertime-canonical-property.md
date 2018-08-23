@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bf10434917d639abff21c49251f592b084fb78f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 851a4a959c8eb43edd33505c18577b0523c640ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818897"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586567"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>Propiedad canónica PidLidRemoteTransferTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica el tiempo de transferencia, en segundos, para un elemento remoto.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

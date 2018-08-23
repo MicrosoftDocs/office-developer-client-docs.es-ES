@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: Project Server Interface (PSI) puede ayudar a automatizar muchos procesos de servidor en instalaciones locales de Project Server 2013. Sin embargo, hay varias funciones requieren el uso de Microsoft Project Professional 2013.
-ms.openlocfilehash: 0afdcdf43c4748fff42f7b5bc74af6c4b59b0b07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821448"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588114"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Lo que hace y no hace PSI
 
@@ -230,15 +230,11 @@ Para la tarea de resumen del proyecto, las limitaciones de PSI son las mismas qu
     
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
-## <a name="see-also"></a>Vea también
-<a name="pj14_WhatPSIDoes_AR"> </a>
+## <a name="see-also"></a>Recursos adicionales
 
-- [Lo que hace y no hace CSOM](what-the-csom-does-and-does-not-do.md)
-    
-- [Programación de Project Server](project-server-programmability.md)
-    
-- [Autenticación remota en SharePoint Online mediante la autenticación basada en notificaciones](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
-    
-- [Crear aplicaciones para Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [Lo que hace y no hace CSOM](what-the-csom-does-and-does-not-do.md)  
+- [Programación de Project Server](project-server-programmability.md)   
+- [Autenticación remota en SharePoint Online mediante la autenticación basada en notificaciones](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Crear aplicaciones para Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

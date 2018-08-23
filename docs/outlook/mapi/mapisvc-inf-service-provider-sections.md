@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ad6a4661025dfd8cbd39d8f58a36d94ab997ada2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05666d8d6b7279588b4b442151640fa1696aedda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586784"
 ---
 # <a name="mapisvcinf-service-provider-sections"></a>Secciones del proveedor de servicio de MapiSvc.inf
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPISVC.inf incluye una sección de proveedor de servicio para cada una de las entradas que aparecen en la entrada de **proveedores** en la sección anterior de servicios de mensaje. Secciones de proveedor de **servicio** son similares a las secciones de servicio del mensaje en que ambos tipos de secciones contienen entradas en este formato: 
   

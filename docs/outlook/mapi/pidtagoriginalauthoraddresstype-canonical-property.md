@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fb30f2b29691984614891e2345fe97abe6316f58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc3c06c38f8ff8121a8503341cdd1084c036e52d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589976"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>Propiedad canónica PidTagOriginalAuthorAddressType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tipo de dirección del autor de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

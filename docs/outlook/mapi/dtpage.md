@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a187245b2594282bc9908b3075852440f418af2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 769ae984e4b6e8610ca7909ea2ac714d9d04d698
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816760"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589675"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe el cuadro de diálogo que se genera a partir de una tabla para mostrar por la función [BuildDisplayTable](builddisplaytable.md) . 
   
@@ -78,7 +78,7 @@ Aunque **BuildDisplayTable** usa esta estructura para crear la tabla para mostra
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
