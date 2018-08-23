@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 52dc4f0a11c480c08b5ea66a7f987e968287d490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3ab726d6b1d00db20a4d0dac05f4f0d1fa3259c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818882"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591300"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Propiedad canónica PidLidReminderPlaySound
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica si el cliente debe reproducir un sonido cuando el aviso se convierte en vencidas.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

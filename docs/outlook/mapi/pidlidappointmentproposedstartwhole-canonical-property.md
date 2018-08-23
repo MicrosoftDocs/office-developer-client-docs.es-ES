@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5043d29f18ceb2ef53d3617743d4bf2417d38a39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bdf810ee71f5b79435bb706f8f60f5d4054c7f75
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591705"
 ---
 # <a name="pidlidappointmentproposedstartwhole-canonical-property"></a>Propiedad canónica PidLidAppointmentProposedStartWhole
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el valor propuesto para **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) de una propuesta de contador.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

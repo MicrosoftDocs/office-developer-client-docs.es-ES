@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 42f164f09dbffcc05986771aa05f7ce14eee789c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34f61f3ef64e5751f9be3df534c4379583447799
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592699"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propiedad canónica PidTagContactAddressBookMultipleAddressFlag
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un indicador que es TRUE cuando el proveedor es compatible con varias direcciones de correo electrónico por elemento de contacto.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

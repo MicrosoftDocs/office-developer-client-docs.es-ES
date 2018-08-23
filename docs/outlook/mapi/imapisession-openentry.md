@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f23b4855b7e2faeb599868f8c2db52ae9cbfbfd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591019"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre un objeto y devuelve un puntero de interfaz de acceso adicional.
   
@@ -135,7 +135,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenEntry** para abrir un objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

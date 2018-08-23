@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 995baafc477834d01ed41869c0f1140ef4ebe32f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 224a2b14328795bb2bff4b1e2985f2a4c1e963a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590858"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar del almacén asociado con el proveedor de la libreta de direcciones. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

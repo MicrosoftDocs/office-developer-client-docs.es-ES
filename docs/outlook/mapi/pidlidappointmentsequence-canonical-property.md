@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0a3ac3088f633a72241a1826676aac4db432561e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a047518e43e6397c83aa498de707a79d870a1a68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591789"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Propiedad canónica PidLidAppointmentSequence
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el número de secuencia de un objeto de la reunión.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

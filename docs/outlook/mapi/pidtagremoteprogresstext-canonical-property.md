@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4b4093fd51d781b7226e5d6239a5d894ffe1107
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a9d6bbe6807c2893c1bb208976dae9e695aa125
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592809"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Propiedad canónica PidTagRemoteProgressText
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene una cadena que indica el estado de una transferencia remota.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

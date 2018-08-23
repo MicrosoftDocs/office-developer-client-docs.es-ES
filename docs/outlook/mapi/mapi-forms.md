@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 41d35370-495d-40fe-80bc-6c3bfc995b85
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e3f35126f3887bc1f2979721deb90891b97c9322
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b53cdb4fe379405018555f1cca9fa40ddc5d0fa8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592489"
 ---
 # <a name="mapi-forms"></a>Formularios MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Después de leer esta información general de la arquitectura de formulario MAPI, tendrá una idea clara de qué son los formularios MAPI y cómo interactúan con otros componentes del subsistema MAPI. El propósito de esta sección es ofrecerle el conocimiento conceptual que necesita para implementar sus propios servidores de formulario MAPI.
   

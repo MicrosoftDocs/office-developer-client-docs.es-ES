@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 276f9fa8-c333-4381-b20f-22fe9d2f27cd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a7b603504956be9ec3066e5ff5e1d5db7d59852a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00d1063310aaf1a8948e04d725d7e11418cf986c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592426"
 ---
 # <a name="displaying-the-common-address-dialog-box"></a>Mostrar el cuadro de diálogo Dirección común
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El cuadro de diálogo dirección común de MAPI puede usarse para una variedad de hacer frente a tareas como la construcción de una lista de destinatarios. Para mostrar este cuadro de diálogo, llame a **IAddrBook::Address**. Dependiendo de cuál de los muchos parámetros que defina y cómo establecer, puede limitar la presentación a las entradas de un tipo determinado de un contenedor determinado.
   

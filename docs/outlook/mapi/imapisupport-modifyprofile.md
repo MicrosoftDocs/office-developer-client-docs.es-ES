@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 98e6331d5a9e52d5ae73ed12d8c045bdf226c2c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b16730681b5414f28ae45be7195b4fa551bf0e82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817504"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591992"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Hace que los cambios realizados en un mensaje de almacenar permanente de sección de perfil.
   
@@ -57,7 +57,7 @@ El método **IMAPISupport::ModifyProfile** se implementa para objetos de soporte
   
 Si se establece la marca MDB_TEMPORARY, MAPI no realiza ninguna acción y el método devuelve inmediatamente con S_OK.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

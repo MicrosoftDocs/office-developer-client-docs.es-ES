@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d6c221ae307edb9d84cfcc0026660ea4bce7fadd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592202"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Obliga a todos los mensajes en espera de ser enviados o recibidos para cargarse o descargarse inmediatamente. El objeto de estado de cola de impresión MAPI y objetos de estado que implementan los proveedores de transporte admiten este método.
   
@@ -104,7 +104,7 @@ Implementación del proveedor de transporte remoto de **FlushQueues** establece 
 
 Una llamada al objeto de estado de cola de impresión MAPI es una directiva para transferir todos los mensajes a o desde el proveedor de transporte apropiado. Cuando se llama el objeto de estado de un proveedor de transporte individual, sólo los mensajes de ese proveedor se ven afectados.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

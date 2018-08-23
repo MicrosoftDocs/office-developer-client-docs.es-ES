@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: de4fa7cb24cd486e506f5d747319c44ce9c15a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816408"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592104"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular el número de hash de almacén
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Como parte de un localizador de recursos uniforme (URL) de MAPI, un proveedor de almacén envía un número de hash de almacenamiento para el controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El controlador de protocolo MAPI utiliza este número de hash de almacén para identificar un almacén. En general, un proveedor de almacén calcula el número de hash de almacenamiento en función de la firma de asignación de almacenamiento, si el almacén tiene la propiedad **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida en la sección perfil global. De lo contrario, el proveedor de almacenamiento usa el identificador de entrada de almacén. El algoritmo para calcular el número de hash de almacén debe minimizar ambigüedades en los almacenes de identificación. 
   
@@ -240,7 +240,7 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 > [!TIP]
 > La función HrEmsmdbUIDFromStore funciona sin necesidad de abrir el almacén, por lo que es un enfoque adecuado para el uso general. Sin embargo, si ya tiene un puntero al objeto de almacén, también puede recuperar el GUID de la sección de perfil directamente desde el almacén de mensajes mediante la lectura de la propiedad PR_EMSMDB_SECTION_UID. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la indexación de almacenes basada en notificaciones](about-notification-based-store-indexing.md)
 - [Información sobre las direcciones URL de MAPI para la indexación basada en notificaciones](about-mapi-urls-for-notification-based-indexing.md)

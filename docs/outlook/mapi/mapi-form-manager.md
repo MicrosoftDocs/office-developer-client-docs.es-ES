@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d12d879ea5a82c5e0e3978d90694b3851aaac5cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818114"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592300"
 ---
 # <a name="mapi-form-manager"></a>Administrador de formularios MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El Administrador de un formulario es un objeto que implementa la interfaz [IMAPIFormMgr](imapiformmgriunknown.md) . La mayoría de las organizaciones utilizará el Administrador de formulario que se proporciona con MAPI, que se conoce como el Administrador de forma predeterminada. Sin embargo, una organización puede reemplazar el Administrador de formulario predeterminado con el Administrador de un formulario personalizado, si así lo desea. El Administrador de formulario se encarga de localizar formularios dentro de las bibliotecas de formularios, carga de los formularios en respuesta a las solicitudes de usuario e instalar formularios en la biblioteca de formularios local, biblioteca de formularios de carpeta o biblioteca de formularios personales de un usuario. 
   
@@ -37,7 +37,7 @@ Al cargar los servidores de formulario, el Administrador de formulario predeterm
     
 El Administrador de un formulario personalizado puede buscar las bibliotecas de formulario disponibles en cualquier orden, o puede implementar otras bibliotecas de formularios, como una biblioteca de formularios de toda la organización. Para obtener más detalles sobre las bibliotecas de formularios, vea [Bibliotecas de formularios de MAPI](mapi-form-libraries.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -16,12 +16,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Busque documentación, ejemplos de código, artículos de procedimientos y referencias de programación para ayudar a crear aplicaciones para la tienda de Office o en un catálogo de aplicaciones privada y para personalizar e integrar Project Server y los clientes de Project con una amplia variedad de otros profesionales y de escritorio aplicaciones para la administración de proyectos empresariales.
-ms.openlocfilehash: 490b5bd2fcbe2f92653b6ebc84d36e5c28cdc8c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c1229769a08f78b9ad35eab7403876cbe294d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590760"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentación para desarrolladores de Project 2013
 
@@ -30,7 +30,7 @@ Busque documentación, ejemplos de código, artículos de procedimientos y refer
 Bienvenido a la de Microsoft Project el Kit de desarrollo de Software (SDK) de 2013. El SDK contiene documentación, ejemplos de código, artículos de procedimientos y referencias de programación para ayudar a crear aplicaciones para un almacén público o el catálogo de aplicaciones privada y para personalizar e integrar de Project Server y los clientes de Project con una amplia variedad de otro escritorio y aplicaciones empresariales para la administración de proyectos empresariales.
   
 > [!NOTE]
-> Project Server 2013 se basa en la plataforma SharePoint Server 2013 y Project 2013 incluye gran parte de la misma estructura que las otras aplicaciones de Office 2013. Para obtener documentación sobre el modelo para SharePoint Add-ins, los flujos de trabajo basado en SharePoint, elementos Web, desarrollo con otras características de SharePoint y la documentación de complementos de Office, vea [aplicaciones para Office y SharePoint](http://msdn.microsoft.com/en-us/library/fp161507%28office.15%29.aspx). 
+> Project Server 2013 se basa en la plataforma SharePoint Server 2013 y Project 2013 incluye gran parte de la misma estructura que las otras aplicaciones de Office 2013. Para obtener documentación sobre el modelo para SharePoint Add-ins, los flujos de trabajo basado en SharePoint, elementos Web, desarrollo con otras características de SharePoint y la documentación de complementos de Office, vea [SharePoint complementos](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) y [complementos de Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ## <a name="introduction-to-the-project-sdk"></a>Introducción al SDK de Project
 <a name="pj15_Welcome_IntroToSDK"> </a>

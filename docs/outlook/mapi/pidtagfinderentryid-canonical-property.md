@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ad8e7f8cd4a082a456db4ca9b2bd1b5ba58e60b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ec8b776bddc21d356d6e803f56f6f26738a9747
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590746"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>Propiedad canónica PidTagFinderEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de la carpeta donde se crean normalmente los resultados de búsqueda.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

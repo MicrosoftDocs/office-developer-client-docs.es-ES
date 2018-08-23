@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0d9e7caf43bcee654aa92652e94bc8c2ebba18e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92347ab1a786196e7f0d99b286e8f4134ce7c24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816506"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590704"
 ---
 # <a name="best-practices-for-fast-shutdown"></a>Procedimientos recomendados para el apagado rápido
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema, se recomienda mejores prácticas para los administradores, los clientes MAPI y proveedores de MAPI usar la configuración del registro de Windows y las interfaces de apagado rápido para minimizar la pérdida de datos durante el cierre del cliente.
   
@@ -35,7 +35,7 @@ En este tema, se recomienda mejores prácticas para los administradores, los cli
     
 - Si necesita un proveedor de MAPI para asegurarse de que el cierre rápido no se usa mientras se carga, debe implementar la interfaz **IMAPIProviderShutdown** y devolver MAPI_E_NO_SUPPORT para el método **IMAPIProviderShutdown::QueryFastShutdown** . Sin embargo, para los clientes MAPI, como Outlook, esto hará que el cliente abandonar apagado rápido y tomar más tiempo en Apagar. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

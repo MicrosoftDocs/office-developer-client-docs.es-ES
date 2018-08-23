@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 92e4fa5b540e4d4836a0fa71ea269546afbd1b1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3a109f87ffc7c0e4c1860b779c9447596253a17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593448"
 ---
 # <a name="pidtagdisclosureofrecipients-canonical-property"></a>Propiedad canónica PidTagDisclosureOfRecipients
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si se permite la divulgación de los destinatarios.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

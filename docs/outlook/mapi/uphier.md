@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 041ae867ff3a9cc9636ff1d93f9360576e455420
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a1ec71d7120eab220ee3b11d2a751fba51cee48e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820932"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592097"
 ---
 # <a name="uphier"></a>UPHIER
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para la sincronización de una jerarquía de carpetas durante la [carga de estado de la jerarquía](upload-hierarchy-state.md).
   
@@ -57,7 +57,7 @@ _cEnt_
   
 > [out] Número de carpetas que no están sincronizados.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

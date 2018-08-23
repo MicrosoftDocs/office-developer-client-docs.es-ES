@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c27513474048e9805bc29116aa094bc47f8f0cae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9bfb94b2929f780a428fb932efb3538f94f5aaea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818625"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591467"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propiedad canónica PidLidDistributionListMembers
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la lista de identificadores de los objetos que corresponden a los miembros de la lista de distribución personal.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
-ms.openlocfilehash: be91a56f93b787f5570139768d96eb4f7fe9ac02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19ec67bf033859073e7685912196369b664f4a36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816257"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592692"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Admite enumerar cuentas como objetos de [IUnknown](http://msdn.microsoft.com/library/com.iunknown%28Office.15%29.aspx) . 
+Admite enumerar cuentas como objetos de [IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Hereda de:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hereda de:  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Se implementa mediante:  <br/> |Outlook  <br/> |
 |Suministrado por:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
@@ -40,7 +40,7 @@ Admite enumerar cuentas como objetos de [IUnknown](http://msdn.microsoft.com/lib
 
 Esta interfaz es devuelto por **IOlkAccountManager::EnumerateAccounts** cuando se obtiene un enumerador de cuentas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

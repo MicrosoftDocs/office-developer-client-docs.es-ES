@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e253aa6a701d565fbc61e8a0e0a6388f7199c000
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817230"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593266"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve uno o más mensajes.
   
@@ -124,7 +124,7 @@ Espera a que estos valores devueltos en las siguientes condiciones.
    
 Cuando **IMAPIFolder::CopyMessages** es no se puede completar, no asuma que se ha realizado ningún trabajo. Es posible que han sido **IMAPIFolder::CopyMessages** capaz de copiar o mover mensajes de uno o varios antes de encontrar el error. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

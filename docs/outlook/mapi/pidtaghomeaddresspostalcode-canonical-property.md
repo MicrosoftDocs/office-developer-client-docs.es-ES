@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 098c75bdefc6f1a771aae95e12da436396c63585
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50acbe91854264869e72a5438e5d7df16f2c83bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593511"
 ---
 # <a name="pidtaghomeaddresspostalcode-canonical-property"></a>Propiedad canónica PidTagHomeAddressPostalCode
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el código postal de dirección particular del usuario.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

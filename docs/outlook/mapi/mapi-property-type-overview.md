@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b762f5fb-7c2c-4303-96f7-0b6e657146c9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ce3cd37247f37c4e70adb07769f00b2df07307a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2de51e1cf0f29c91e39eb3c6dbaab065fd7d5972
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590529"
 ---
 # <a name="mapi-property-type-overview"></a>Información general sobre el tipo de propiedad MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Tipos de propiedades son constantes definidas por MAPI en el MAPIDEFS. Archivo de encabezado H que indican el tipo de datos subyacente de un valor de la propiedad. Todas las propiedades, si se definen mediante MAPI, por las aplicaciones cliente o por los proveedores de servicio, use uno de estos tipos. 
   

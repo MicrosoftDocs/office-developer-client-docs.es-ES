@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d1837f1-494f-481b-9e09-ab8249f1488c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9dba148646678f0740c5b2c338ae345ecd76dfac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d74c9d5632e81e5b98cd1a4a02d5646cf3f6300
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592314"
 ---
 # <a name="message-text"></a>Texto del mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para los mensajes salientes en el modo de MIME, el tipo de contenido depende de si hay datos adjuntos y qué aspecto tiene el texto del mensaje. Si hay datos adjuntos, el tipo de contenido es _multipart/mixed;_ el texto del mensaje y los datos adjuntos se convierten en una parte independiente del contenido del mensaje, cada uno con su propio tipo de contenido. Si no hay ningún datos adjuntos, el tipo de contenido del mensaje es _texto sin formato_ y hay sólo una parte. 
   

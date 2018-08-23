@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0e654152-c850-417a-8877-29d47cf85db5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 30c52ca50ed3d04c570bf0a25f98bdd027e411af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 679e19b5c791125fee10454dcec457d6776d7736
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819533"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593091"
 ---
 # <a name="pidtagformcategorysub-canonical-property"></a>Propiedad canónica PidTagFormCategorySub
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la subcategoría de un formulario, tal como se define por una aplicación cliente. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

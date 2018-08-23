@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 985b763ade9670c064c6c338953debf7beaa2783
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae0d6d58f96738a9686dbdda86336c040c2e2f68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817902"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591693"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Agrega una o más propiedades de tipo pt Object para el objeto.
   
@@ -72,7 +72,7 @@ Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido _lppPro
   
 Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no se puede agregar propiedades al objeto debido a que no permite la modificación. Para obtener permiso de lectura y escritura a un objeto antes de llamar a **HrAddObjProps**, llame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

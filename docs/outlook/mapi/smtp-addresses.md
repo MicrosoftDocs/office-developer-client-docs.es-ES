@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 42015740-a94f-4628-bf32-b7fc2fdb9ff6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9bc77e3226066dc88bbaf4f4efc324825add8919
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 655d48d1ea937659f85e0ef7379425759ea7e256
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591362"
 ---
 # <a name="smtp-addresses"></a>Direcciones SMTP
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El formato de direcciones de correo electrónico de SMTP se define en RFC 822. Componentes MAPI deben controlar todas las direcciones que cumplen con ese estándar. Sin embargo, hay una forma especial de dirección RFC 822 que mejor se codifica las direcciones MAPI:
   

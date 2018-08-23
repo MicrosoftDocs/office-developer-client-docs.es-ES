@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 49c9b0a80f9bc3b45dfafa6f4e037fe55af289d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7019ef5e23d0325d43b17009137dd29a2ec95c0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593539"
 ---
 # <a name="pidtagaddressbookhierarchicalrootdepartment"></a>Propiedad canónica PidTagAddressBookHierarchicalRootDepartment
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  Contiene el nombre distintivo (DN) de la raíz de direcciones jerárquicas (HAB). 
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

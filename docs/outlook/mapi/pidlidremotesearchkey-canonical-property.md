@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 299627fe-8fbc-43e9-95aa-daf5c6e31ffb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f9f17ed2e2c18f78eff22f1ac92dc7f386f86068
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb10dee53e2c07449ffc17d3455707f74771ba3f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818887"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593350"
 ---
 # <a name="pidlidremotesearchkey-canonical-property"></a>Propiedad canónica PidLidRemoteSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la clave de búsqueda de un elemento remoto.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

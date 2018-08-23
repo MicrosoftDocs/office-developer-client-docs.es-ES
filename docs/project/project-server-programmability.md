@@ -25,12 +25,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Obtenga información sobre las características principales de programación de Project Server 2013. En este artículo se incluye información acerca de trasladar las aplicaciones que han sido creadas para versiones anteriores de Project Server.
-ms.openlocfilehash: c2c03da1e0b7c010d4cad8801f98c0c0cf0b1883
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3901fe97f1c8291d0b35709f2350fc4358044b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592986"
 ---
 # <a name="project-server-programmability"></a>Programación de Project Server
 
@@ -235,7 +235,7 @@ A continuación se enumeran los problemas y las limitaciones de la programación
   
 - **Cambio del estado activo de una tarea** El motor de programación de Project Server más antiguos puede mostrar incoherente inicio o de finalización veces cuando utilice el método [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) para cambiar el estado activo de una tarea, si hay varios cambios en el objeto **ProjectDataSet** para el _ conjunto de datos_ parámetro. Si la propiedad **TASK_IS_ACTIVE** es el único cambio en el parámetro de _conjunto de datos_ de **QueueUpdateProject**, puede actualizar el proyecto.
     
-    Para obtener más información acerca de las tareas inactivas y el motor de programación más antiguos, consulte el blog de artículos de [Introducción de las tareas inactivas en Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) y [Project Server 2010: programación en el web, la PSI y Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obtener una comparación de programación en Project Professional 2010 y Project Web App en Project Server 2010, consulte [comparación de administración de programación basada en Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx).
+    Para obtener más información acerca de las tareas inactivas y el motor de programación más antiguos, consulte el blog de artículos de [Introducción de las tareas inactivas en Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) y [Project Server 2010: programación en el web, la PSI y Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obtener una comparación de programación en Project Professional 2010 y Project Web App en Project Server 2010, consulte [comparación de administración de programación basada en Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
 - **No calcula el valor acumulado** El motor de programación más antiguos no calcula los campos de valor acumulado: CRTR, CPF, CPTR, CPTP, IRC, VC, VC %, CEF, SPI, VP, VP %, IRPC, VAF, variación de duración, variación de comienzo, variación de fin, variación de costo y variación de trabajo. Si un proyecto tiene los valores de estos campos y el proyecto se actualiza mediante el método **QueueUpdateProject** , no cambie los valores de campo. Para evitar el problema, use el método **QueueUpdateProject2** . 
     
@@ -277,7 +277,7 @@ Para todos estos motivos, Project Professional y Project Web App no realizan lla
   
 Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Puede usar las tablas de informes para ayudar a generar informes y se documenta el esquema de las tablas y vistas de informes en la descarga del SDK de Project 2013. Para el esquema de OData de los datos de informes, consulte [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md)    
 - [Project Server 2013 architecture](project-server-2013-architecture.md)    
@@ -289,7 +289,5 @@ Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Pued
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md)    
 - [Crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
 - [Introducción a las tareas inactivas en Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
-- [Project Server 2010: Programación en el Web, la PSI y Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)
-- [Comparación de la administración de programación basada en Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)
-    
+- [Project Server 2010: Programación en el Web, la PSI y Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

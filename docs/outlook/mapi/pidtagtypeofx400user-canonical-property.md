@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1351ec3c-984d-4b3e-8009-7c39f18d71a5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 85c14f635872aab2e4c9cc648939bc352cf4a015
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41c95147a0bc5a62a4f3a103fccaf0751f89c731
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592811"
 ---
 # <a name="pidtagtypeofx400user-canonical-property"></a>Propiedad canónica PidTagTypeOfX400User
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene el tipo de destinatario de un mensaje para su uso en un informe.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f669eff49665f28f06e23f19f8f0c0fcd9dd6afd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19819619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591929"
 ---
 # <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propiedad canónica PidTagImapCachedMsgsize
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tamaño de los mensajes almacenados en caché de protocolo de acceso a mensajes de Internet.
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |Ninguno  <br/> |
+|Propiedades asociadas:  <br/> |Ninguna  <br/> |
 |Identificador:  <br/> |0x10F0  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Cambiar el nombre de la carpeta de mensajes  <br/> |
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

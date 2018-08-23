@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0ae35166f01f597c2c3ab399a1b66e5760ab0dc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40815f1df597a8fb1fd8adef3dcc09323e946d30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817650"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592965"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece o borra el indicador MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje y administra el envío de informes de lectura.
   
@@ -117,7 +117,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI usa el método **IMessage::SetReadFlag** para establecer marcas de lectura en los mensajes seleccionados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)  
 - [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md)  

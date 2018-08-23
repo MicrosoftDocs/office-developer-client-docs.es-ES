@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5e4bd4f6038db3dbb33ec3511d953448fea7a6c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec581e2170b92721410106eae00e2d36b3c775a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591341"
 ---
 # <a name="mapi-spooler-overview"></a>Información general sobre la cola de impresión MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cola MAPI es una función del proceso de Microsoft Office Outlook que se encarga de envío de mensajes a y recibir mensajes desde un sistema de mensajería. Cola MAPI desempeña un papel fundamental en la entrega y recepción de mensajes. Cuando un sistema de mensajería no está disponible, cola MAPI almacena los mensajes y los reenvía automáticamente en un momento posterior. Esta capacidad de suspensión en a o enviar datos cuando sea necesario se conoce como almacenar y reenviar, una característica importante en entornos donde las conexiones remotas son comunes y el tráfico de red es alto. Cola MAPI se ejecuta como un subproceso de fondo dentro de Outlook.
   
@@ -53,7 +53,7 @@ Si la cola MAPI recibe el mensaje, realiza cualquier preprocesamiento necesarios
   
 Con los mensajes entrantes, se invierte el flujo. El proveedor de transporte recibe un mensaje de su sistema de mensajería y se lo comunica a cola MAPI. Cola de impresión realiza cualquier procesamiento posterior es necesario e informa que el proveedor de almacenamiento de mensaje que ha recibido un nuevo mensaje. Esta notificación hace que el cliente actualizar su presentación de mensajes, permitiendo al usuario leer el mensaje de nuevo.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

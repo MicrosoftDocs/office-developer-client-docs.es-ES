@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1437130caecd57344fc171d234c5391ea92e1d4b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f8da0902ea4c4a862d279ee80ba566c0473c44e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592328"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción **y** , que se usa para unirse a un grupo de restricciones de uso de una operación de **AND** lógica. 
   
@@ -56,7 +56,7 @@ El resultado de la **SAndRestriction** es TRUE si todas las restricciones de sus
   
 Para obtener una descripción de los tipos de restricciones, cómo crearlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

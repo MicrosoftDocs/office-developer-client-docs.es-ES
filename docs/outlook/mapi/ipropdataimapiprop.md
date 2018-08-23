@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d6a53d112e4c12cd9092ac627e99cf3c13d901f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817901"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592573"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona la capacidad para recuperar y cambiar el acceso para las propiedades de un objeto. 
   
@@ -52,7 +52,7 @@ La interfaz de **IPropData::IMAPIProp** se implementa mediante MAPI y resultan d
   
 Para obtener más información acerca de los niveles de acceso en los objetos y propiedades, vea [los permisos de objetos y propiedades](permissions-for-mapi-objects-and-properties.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

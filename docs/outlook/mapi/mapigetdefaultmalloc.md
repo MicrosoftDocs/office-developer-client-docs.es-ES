@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 148695dd-d886-4a06-9cfe-749059ae91ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b236b24c10a241dbdecc28bf2e04de5f69e989e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cb0630ba30f8d3d7ae38c165c5da60bbc12077c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818244"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592335"
 ---
 # <a name="mapigetdefaultmalloc"></a>MAPIGetDefaultMalloc
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera la dirección de la función de asignación de memoria MAPI predeterminada.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 383906b9-4471-456e-9de1-c3d898051627
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 256e6eb76a9155af5f466249d762f16ff32a6e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 405a8685b325ddf13e60e639aba0625f016ed7bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819080"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591446"
 ---
 # <a name="pidlidyomifirstname-canonical-property"></a>Propiedad canónica PidLidYomiFirstName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la pronunciación del nombre del contacto.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

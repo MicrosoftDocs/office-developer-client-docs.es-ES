@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3139f7cc60d19048fb17c64101f279ce377e9b26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819731"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592951"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Propiedad canónica PidTagMemberEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de objeto de Active directory de un miembro de tabla del sistema (SACL) de la lista de control de acceso.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

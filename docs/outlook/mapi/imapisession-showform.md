@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d20c8e7432903ef9334f066df31694752384d034
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9e0ad958acc40dd28f3d9aab9996c1b7a36f38a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817464"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591488"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra un formulario.
   
@@ -125,7 +125,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

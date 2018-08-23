@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8eb19f9a2d3458e153b0758b56c502ce612be0cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0d86b9b0342beea6b33db0219cb5889d2e63f03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592076"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina una o más propiedades de un objeto. 
   
@@ -80,7 +80,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa el método **IMAPIProp::DeleteProps** para eliminar una propiedad de un objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

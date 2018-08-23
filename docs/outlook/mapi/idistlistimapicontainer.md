@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7fee3c84d6a4d4a94397f5197f45637b0c7dd2be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b9fb9bf8c84433ee5000cc8832c2f09bfc5fe3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590627"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a listas de distribución en dirección modificable contenedores de libretas. **IDistList** puede crear, copiar y eliminar listas de distribución, además de realizar la resolución de nombres. 
   
@@ -73,7 +73,7 @@ Observe que **PR_ADDRTYPE** es necesario, pero no es de **PR_EMAIL_ADDRESS** ([P
   
 Para obtener información adicional acerca de cómo usar los métodos **IDistList** , vea las entradas de referencia para los métodos paralelos de **IABContainer**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

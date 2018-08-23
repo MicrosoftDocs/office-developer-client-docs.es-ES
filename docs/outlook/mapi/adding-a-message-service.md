@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a7735be5cfb8ff0716b6bd6eba4951563bb938ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a8b0f8fc8c296fe4022ac28623b83d270472ca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590697"
 ---
 # <a name="adding-a-message-service"></a>Agregar un servicio de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  **Para agregar un nuevo servicio de mensajes a un perfil y tener acceso al servicio de mensaje nuevo**
   

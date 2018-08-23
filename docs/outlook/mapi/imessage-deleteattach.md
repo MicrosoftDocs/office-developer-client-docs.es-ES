@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 93f264cc91118e40f7a2869d29e7e53d404ae381
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de5c98272c08c469acf23b0ecae7eac0a2d1bfe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817651"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592517"
 ---
 # <a name="imessagedeleteattach"></a>IMessage::DeleteAttach
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina un archivo adjunto.
   
@@ -84,7 +84,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMessage::DeleteAttach** para eliminar los datos adjuntos seleccionados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

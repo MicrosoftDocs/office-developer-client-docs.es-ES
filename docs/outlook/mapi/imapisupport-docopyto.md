@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1040a0730c4b26b51d3c2b7763488502b2c5323c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817508"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592111"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve todas las propiedades de un objeto, excepto propiedades excluidas específicamente, a otro objeto.
   
@@ -181,7 +181,7 @@ Si **DoCopyTo** devuelve S_OK, liberar la estructura **SPropProblemArray** devue
   
 Si se produce un error global en la llamada **DoCopyTo** , no utilice ni libre la estructura **SPropProblemArray** . Proveedores de deben omitir al miembro _ulIndex_ en estructuras **SPropProblemArray** devuelto por **DoCopyTo**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

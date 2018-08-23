@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 73475c5ee4e715796e06642756c05746b271d128
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e8e2474d2adb882dd0ba43aeb0d8b05044a6ce6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820700"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592062"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una propiedad con nombre que se utiliza con un formulario. 
   
@@ -106,7 +106,7 @@ FPST_ENUM_PROP
 
 La estructura **SMAPIFormProp** contiene información sobre una propiedad de formulario que se usa como parte de las definiciones de la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) . **nSpecialType** contiene una etiqueta que se aplica a la unión **u** que forma parte de **SMAPIFormProp**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 945dabec4ee34d38d2474c918e779d894f4a917c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820181"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591696"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Propiedad canónica PidTagRulesTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una tabla con todas las reglas que se aplica a una carpeta.
   
@@ -48,7 +48,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

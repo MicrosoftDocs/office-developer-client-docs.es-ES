@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ef877bca8f94844bb257387ff5cc272c10897b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819544"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590648"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propiedad canónica PidTagFormHidden
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si un formulario es se suprimirá de presentación mediante la redacción menús y cuadros de diálogo. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

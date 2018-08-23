@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 50fec332-e7df-4bc6-8c50-59b9ca545f89
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 45d8512d48a1908d81e78b87c5975ab2da8c6c80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf9d11b7a53ee0b9911e32cb3c3e2a0a490e4729
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818811"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592790"
 ---
 # <a name="pidlidnonsendtotrackstatus-canonical-property"></a>Propiedad canónica PidLidNonSendToTrackStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor para cada asistente que aparecen en la propiedad **dispidNonSendableTo** ([PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

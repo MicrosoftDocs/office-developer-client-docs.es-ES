@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cc62219dfb2b5d1549cc060029b69e1736e28964
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff386e8b280eea5bcc5794a3080d9a61cefb20e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592090"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Propiedad canónica PidTagDeltaY
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el alto de un control de cuadro de diálogo en unidades de cuadro de diálogo estándares de Windows. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

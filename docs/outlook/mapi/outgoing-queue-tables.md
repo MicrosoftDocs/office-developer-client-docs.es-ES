@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 10890c1fe430ddbc45c16908df3ac340284c9f18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5f136a0d26b7519bc1b7b3d8f448f5f382767ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591257"
 ---
 # <a name="outgoing-queue-tables"></a>Tablas de cola saliente
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla de cola saliente contiene información sobre todos los mensajes salientes para un almacén de mensajes. Los proveedores de almacén de mensajes implementan tablas de cola saliente para la cola MAPI usar. Almacenes que no admiten el envío o recepción de mensajes, no necesita implementar esta tabla. 
   
@@ -44,7 +44,7 @@ Las siguientes propiedades que conforman la columna requiere establecer en las t
    
 Para obtener más información acerca de cómo se usa la tabla de cola saliente, vea [Enviar mensajes mediante el uso de los proveedores de almacén de mensajes](sending-messages-by-using-message-store-providers.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

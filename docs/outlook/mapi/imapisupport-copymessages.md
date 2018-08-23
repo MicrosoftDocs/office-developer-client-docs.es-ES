@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 64b2c147acb02b6c29cf080076b6fe2e3eefb717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d3f540a14c833e0ee0ed212f6f3b3b709d72ec0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817477"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591040"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve los mensajes de una carpeta a otra carpeta.
   
@@ -96,7 +96,7 @@ MAPI_E_USER_CANCEL
 
 El método **IMAPISupport::CopyMessages** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes pueden llamar a **IMAPISupport::CopyMessages** en su implementación de [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar o mover uno o más mensajes de una carpeta a otra. Como parte de la llamada **IMAPISupport::CopyMessages** , puede especificar el proveedor de almacén de mensajes que MAPI debe mostrar un indicador de progreso. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c728799832b10ad2d4533a9a040582b67054baad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cec34819cfa2c6e790f8808eb5bab70412f286b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820396"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591432"
 ---
 # <a name="pidtagtextattachmentcharset-canonical-property"></a>Propiedad canónica PidTagTextAttachmentCharset
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor de conjunto de caracteres de un mensaje de los datos adjuntos.
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |Ninguno  <br/> |
+|Propiedades asociadas:  <br/> |Ninguna  <br/> |
 |Identificador:  <br/> |0x371B  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Datos adjuntos del mensaje  <br/> |
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

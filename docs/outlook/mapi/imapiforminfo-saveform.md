@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5e2d757fe329f9a57447723d72a859c7d82fc2b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fec6b6236d26789a3ec9abee7d2ae1c620f89b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817299"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593476"
 ---
 # <a name="imapiforminfosaveform"></a>IMAPIFormInfo::SaveForm
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Guarda una descripción de un formulario determinado en un archivo de configuración.
   
@@ -63,7 +63,7 @@ Puede volver a instalar formularios seleccionándolos en una lista de mensajes d
   
 Llamar al método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) si **SaveForm** devuelve MAPI_E_EXTENDED_ERROR y comprobar la estructura **MAPIERROR** devuelta para determinar la condición que provocó el error. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

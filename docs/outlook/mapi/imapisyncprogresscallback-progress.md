@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 12624ef6212f9113041bf5cf3a82e2b7df6eca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817559"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592132"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Actualiza el estado en el cuadro de diálogo de envío o recepción. El proveedor de almacenamiento periódicamente llama a esta función.
   
@@ -55,7 +55,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

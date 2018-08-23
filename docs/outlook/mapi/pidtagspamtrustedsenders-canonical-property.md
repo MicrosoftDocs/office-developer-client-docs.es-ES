@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ce8f76bf42b7483da047cd15f37596364c52fe4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34ed865e97452ee45d229640b2dadf38faffd537
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820315"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593315"
 ---
 # <a name="pidtagspamtrustedsenders-canonical-property"></a>Propiedad canónica PidTagSpamTrustedSenders
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista delimitada por punto y coma de direcciones de correo electrónico y los dominios que se componen de remitentes de confianza.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que se muestran como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

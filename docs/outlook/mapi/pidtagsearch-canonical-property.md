@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 31dcef0c096847a78569c46313c9ede4222d8e36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f51d14160c5fd80c3e65f5e4c38d3347748136b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820232"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593259"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Propiedad canónica PidTagSearch
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un objeto de contenedor que se utiliza para las búsquedas avanzadas.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

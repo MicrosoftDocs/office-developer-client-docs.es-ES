@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fa265d37-a1ea-4812-8fe9-21dac374cd7c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cdc96b076d63eae264eaba2672e7615bc85ed442
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab2c4caf74da8bce143e6b1f4fa6fd2946e37de3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593210"
 ---
 # <a name="pidtaggovernmentidnumber-canonical-property"></a>Propiedad canónica PidTagGovernmentIdNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de gobierno para el destinatario. 
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

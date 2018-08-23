@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: 'Última modificación: 26 de junio de 2012'
-ms.openlocfilehash: 2c5e4f422c4eb4fc59ebab6a2243b14f3e8f9502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfa4f1838cef5b5f4940775ec79c9a4b39b336fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816541"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591719"
 ---
 # <a name="client-shutdown-in-mapi"></a>Cierre del cliente de MAPI 
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 A partir de Microsoft Outlook 2010 y ahora incluyen Microsoft Outlook 2013, los clientes MAPI pueden cerrar de la misma manera que antes, o puede usar el apagado rápido. Apagado rápido para se realizan correctamente, el cliente MAPI, el proveedor MAPI y el administrador del equipo cliente tienen que admitir apagado rápido. 
   

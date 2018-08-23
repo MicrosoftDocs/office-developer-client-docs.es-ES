@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27347302-bd52-4f62-98f1-6c37f9a66463
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4598ca5e654308f7701b1dd66adb227599773b7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08527f3325742eb7c48f11c2ed7d08f71fa3e972
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820363"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592713"
 ---
 # <a name="pidtagstorerecordkey-canonical-property"></a>Propiedad canónica PidTagStoreRecordKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador único de binario comparable (clave de registro) del almacén de mensajes en el que reside un objeto.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

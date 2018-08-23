@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b5347205e10b44d62a7e11cbe2f4179970f1bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591075"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registra un visor de formulario para las notificaciones sobre los eventos que afectan a la forma.
   
@@ -68,7 +68,7 @@ Para obtener más información sobre el proceso de notificación en general, vea
   
 Para obtener más información acerca de la notificación y formularios, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

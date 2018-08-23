@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817549"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592118"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Notifica a la cola MAPI de un cambio de estado o una solicitud de servicio. 
   
@@ -118,7 +118,7 @@ Para obtener más información sobre cómo llamar a **SpoolerNotify**, vea cualq
     
 - [Modelo de recepción del mensaje](message-reception-model.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

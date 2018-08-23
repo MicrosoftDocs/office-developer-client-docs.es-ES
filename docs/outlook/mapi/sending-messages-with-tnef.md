@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fb26d854b47894d8f37763b17e5ba0b26fd25ff6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9de158e2f269c7b000734beb93b26df195255bcf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820637"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592286"
 ---
 # <a name="sending-messages-with-tnef"></a>Enviar mensajes con TNEF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muchos de los proveedores de transporte envían automáticamente todos los mensajes salientes con el formato de encapsulación neutro de transporte (TNEF). TNEF se usa para transmitir el texto con formato que admiten muchos clientes y los proveedores de almacén de mensajes en sus mensajes, datos adjuntos de varios tipos y propiedades personalizadas para las clases de mensaje personalizadas. Aunque es el modo predeterminado para la mayoría de los proveedores de transporte enviar los mensajes salientes con TNEF, algunos proveedores de transporte no lo admiten. La falta de compatibilidad con TNEF no es un problema para los clientes de mensajería estándares que envían y reciben mensajes de IPM. Sin embargo, para los clientes basada en formularios o los clientes que requieren propiedades personalizadas, el uso de TNEF es esencial. Se deben tener en cuenta las capacidades de los proveedores de transporte que utilizan los diseñadores de los clientes que se basan en formularios o propiedades personalizadas.
   

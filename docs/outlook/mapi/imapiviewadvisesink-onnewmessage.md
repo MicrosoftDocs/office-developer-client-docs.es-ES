@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: adf9b28e941e9ead9b83660f58701f13f35cabc7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592937"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se notifica al Visor de formulario que ha cargado un nuevo o un mensaje existente en un formulario.
   
@@ -33,7 +33,7 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Parámetros
 
-Ninguno
+Ninguna
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,7 +51,7 @@ Liberar su puntero al objeto form activo debido a que ya no apunta al mensaje qu
   
 Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

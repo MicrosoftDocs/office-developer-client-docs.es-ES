@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b71579a4652df62e696cd0dc6113dde44fad4287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa337541b45c2cb602f0848769b3b07028ea0fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590543"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Propiedad canónica PidNameKeywords
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene palabras clave o categorías para el objeto de mensaje.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Keywords  <br/> |
 |Tipo de datos:  <br/> |PT_MV_UNICODE  <br/> |
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

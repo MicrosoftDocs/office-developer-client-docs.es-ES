@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fbe7f02555f76532896c951f50648c528c250a58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e240ec4e7a61b9e7484f467926501f8c5f5a59f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817144"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592349"
 ---
 # <a name="iaddrbookdetails"></a>IAddrBook::Details
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra un cuadro de diálogo que muestra detalles acerca de una entrada de la libreta de direcciones determinada.
   
@@ -115,7 +115,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI usa el método **Details** para mostrar un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

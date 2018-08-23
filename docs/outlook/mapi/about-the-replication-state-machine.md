@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30dd43a3ac9a315cd41919872b918bee639ca259
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816365"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593056"
 ---
 # <a name="about-the-replication-state-machine"></a>Información sobre la máquina de estados de replicación
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene una visión general de la máquina de estado de la replicación de datos de Microsoft Outlook 2013 y Microsoft Outlook 2010.
   
@@ -83,7 +83,7 @@ El siguiente diagrama muestra las transiciones de estado que se producen al carg
 |8.  <br/> |El cliente se lo comunica el almacén local de la finalización de la carga de jerarquía: si tiene éxito, el cliente establece el [in] marcar en **UPHIER** con **UPH_OK**y, a continuación, llama a **IOSTX::SetSyncResult (S_OK)** y **IOSTX::SyncEnd**. Al producirse un error, el cliente no debe establecer la marca **UPH_OK** . Se llama **IOSTX::SetSyncResult**, pasando el valor **HRESULT** y **IOSTX::SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |9.  <br/> |Si se establece **UPH_OK** , Outlook 2013 o Outlook 2010 borrará la solicitud interna para cargar la jerarquía. A continuación, independientemente del estado de *ulFlags* , va a limpiar cualquier información de contabilidad interna.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cce98dc630dd9f7fa459ca31d94d012ba9a7fd85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 251359a98f89c88e707e4f705bd94b1f30b32cbd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592055"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica al proveedor MAPI que un cliente MAPI se va a realizar un apagado rápido, por lo que el proveedor puede realizar las acciones para evitar la pérdida de datos.
   
@@ -37,7 +37,7 @@ S_OK
   
 > El proveedor MAPI está realizando acciones para evitar la pérdida de datos cuando se cierra el cliente MAPI.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

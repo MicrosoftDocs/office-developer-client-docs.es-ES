@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ac90910e143d05c17b73aa6a1062cd0999b0d3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c85656c7e618a2329470f8326f434031726d1a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590935"
 ---
 # <a name="pidlidemail3originaldisplayname-canonical-property"></a>Propiedad canónica PidLidEmail3OriginalDisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre para mostrar de terceros que corresponde a la dirección de correo electrónico que se especifica para el contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

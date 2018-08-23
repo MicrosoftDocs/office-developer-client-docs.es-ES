@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 971462b9e85878677b57ec7b53fe46aa64db6dba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3d49faba9d1e9cc8609ee55f7fb3c329e9ae947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819498"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593042"
 ---
 # <a name="pidtagentryid-canonical-property"></a>Propiedad canónica PidTagEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de entrada MAPI utilizado para abrir y editar las propiedades de un determinado objeto MAPI. 
   
@@ -105,7 +105,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

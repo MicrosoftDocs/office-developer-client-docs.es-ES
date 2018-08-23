@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 41e1113faec18625f57b24f9fc165e2cb029724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1312f590dfc0e8388495351dd4870fcf8b9e22f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591369"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Propiedad canónica PidNameExchangeJunkEmailMoveStamp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor conservado de mensaje que indica que el mensaje no se debe procesar mediante un filtro de spam debido a que el mensaje fue ya procesan o no es seguro.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

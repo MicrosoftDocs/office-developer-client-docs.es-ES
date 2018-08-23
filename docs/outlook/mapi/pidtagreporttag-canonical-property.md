@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c832842568ea3d64d50b56d226b66d551402ba6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a328d71aef57f85a5bd33db5cc219dff181dafc0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820106"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593308"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>Propiedad canónica PidTagReportTag
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor binario de etiqueta que se debe copiar el sistema de mensajería para cualquier informe generado para el mensaje. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

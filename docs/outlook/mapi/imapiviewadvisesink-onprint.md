@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bf3eee43a70fbc4abf32b60379fc7b191bd9d513
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817612"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592321"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se notifica el Visor de formulario del estado de impresión de un formulario.
   
@@ -76,7 +76,7 @@ Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** 
   
 Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

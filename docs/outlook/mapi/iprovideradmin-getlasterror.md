@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f00418efa068ea81fab94605cbdfd139e24bb4a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63ddf6fd8f61834c7a7faa910f70bfd98715a703
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817903"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591327"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjeron en el objeto de administración del proveedor. 
   
@@ -73,7 +73,7 @@ Puede usar la estructura **MAPIERROR** , si MAPI proporciona uno, que el paráme
   
 Para obtener más información acerca del método **GetLastError** , vea [Uso de errores extendido](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

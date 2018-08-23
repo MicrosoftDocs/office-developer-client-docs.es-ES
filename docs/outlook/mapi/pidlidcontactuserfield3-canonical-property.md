@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22084d78-c606-4ca9-baa7-09438456d547
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 95c3f4227e62bdfb8c6c438b574b4f3df3d02746
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350d9502413efda4773a2704cff1eeb62aaa014d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818626"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593371"
 ---
 # <a name="pidlidcontactuserfield3-canonical-property"></a>Propiedad canónica PidLidContactUserField3
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el tercer campo en el contacto al que está destinado a diversos usos del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

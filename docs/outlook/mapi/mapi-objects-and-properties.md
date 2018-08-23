@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0efc111523ad285d54fc40e37fe83a1130f1d291
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ba58cc87b0eefe6c6ff70994d887d7f83e713b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592405"
 ---
 # <a name="mapi-objects-and-properties"></a>Las propiedades y objetos MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Algunas propiedades son compatibles con muchos tipos diferentes de objetos. Las propiedades siguientes son ejemplos de propiedades que se usan por varios objetos:
   
@@ -51,7 +51,7 @@ Según el objeto, el proveedor de servicios de proporcionar la implementación y
   
 Para averiguar exactamente qué propiedades se encuentran actualmente definidas para un objeto, llame a [IMAPIProp::GetPropList](imapiprop-getproplist.md). El método **GetPropList** permite a un autor de la llamada a averiguar qué está disponible antes de que se realiza un intento para abrir una propiedad potencialmente inexistente. Debido a que no hay ningún conjunto estándar de propiedades que admiten todos los objetos de un tipo específico, es imposible adivinar independientemente de si está o no admite una propiedad determinada de un objeto. Al llamar a **GetPropList** , elimina el trabajo de estimación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

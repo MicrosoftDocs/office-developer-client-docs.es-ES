@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0415e782a98102314ce732f744c0d29590f646c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38b60180ae7c417bf34998e72f96b353ace02859
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820999"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592538"
 ---
 # <a name="xpproviderinit"></a>XPProviderInit
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicializa un proveedor de transporte para la operación.
   
@@ -113,7 +113,7 @@ El proveedor de transporte debe usar las funciones que señala _lpAllocateBuffer
   
 Para obtener más información acerca de cómo escribir **XPProviderInit**, vea [inicializar el proveedor de transporte](initializing-the-transport-provider.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

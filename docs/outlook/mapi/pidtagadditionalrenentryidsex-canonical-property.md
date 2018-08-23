@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d3a8dc45bb131f5d2e7ff370617a10e3096a99f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819185"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590809"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Propiedad canónica PidTagAdditionalRenEntryIdsEx
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la entrada de carpeta especial los identificadores de un objeto store. Cada entrada de esta propiedad con varios valores se puede asignar a uno o varios de los identificadores de entrada, es decir, hay una relación uno a varios entre una entrada y su identificadores de entrada asociada.
   

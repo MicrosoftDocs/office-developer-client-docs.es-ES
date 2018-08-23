@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: afbef333af46051284fa51d52c2e3f77607b0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee7d729000fbda895918458993437fd4fe72e370
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591614"
 ---
 # <a name="status-tables"></a>Tablas de estado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La tabla de estado contiene información relacionada con el estado de la sesión actual. Hay una tabla de estado para cada sesión MAPI que incluye la información proporcionada por MAPI y por los proveedores de servicios. MAPI proporciona datos para tres filas: una fila para el subsistema MAPI, una fila de la cola MAPI y una fila de la libreta de direcciones integrada. Debido a que los proveedores de transporte son necesarios para suministrar información de estado a la tabla de estado, no hay una fila por cada proveedor de transporte activa. Proveedores de almacén de libreta de direcciones y el mensaje de dirección pueden elegir si desea admitir la tabla de estado. 
   
@@ -50,7 +50,7 @@ Información de la tabla de estado puede usarse en una variedad de formas, como 
   
 Proveedores de servicios que son compatibles con la tabla de estado de usar el método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para crear y actualizar su fila. Cada vez que se produce un cambio en su fila, todos de aviso deben recibir una notificación de objetos del receptor registrados para recibir notificaciones de estado de tabla. Proveedores de servicios pueden llamar al método de [IMAPISupport::Notify](imapisupport-notify.md) si está usando la utilidad de notificación de MAPI o llamar directamente al método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) de cada receptor de notificaciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

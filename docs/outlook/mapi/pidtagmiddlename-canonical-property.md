@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 25ee04fd-7ea1-4011-a45e-cd2d323e5d69
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e15896b7f9eb50048ace90d6f91f78360b4fb8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 026a1ab8afda407e57a18e416cd02125753d3e2d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819774"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593420"
 ---
 # <a name="pidtagmiddlename-canonical-property"></a>Propiedad canónica PidTagMiddleName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el segundo nombre de un contacto.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

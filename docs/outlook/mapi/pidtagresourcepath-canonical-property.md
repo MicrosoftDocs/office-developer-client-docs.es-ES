@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d7385ea403e7ea45c97f6fd98e422ad7eb762c4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a00abec7627eb12e23e7b76f5d0900514d710ffb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593098"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>Propiedad canónica PidTagResourcePath
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una ruta de acceso al servidor del proveedor de servicios.
   
@@ -54,7 +54,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

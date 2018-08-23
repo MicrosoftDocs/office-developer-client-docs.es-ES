@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c5358432-dbd3-4216-af0f-4fd01eacec69
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3a0278d5921bed58678cb0f979735dfcf81cc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 710d8554c8d1f4e00fd0d8e2cb8410fca583c2a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590676"
 ---
 # <a name="pidlidotheraddresscountrycode-canonical-property"></a>Propiedad canónica PidLidOtherAddressCountryCode
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica que la parte del código de país del contacto del otra dirección.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

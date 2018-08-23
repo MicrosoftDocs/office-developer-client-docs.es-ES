@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 87f5c3fc8475f9795847e4680babb26682608a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a4011a22f1029cc4002d4506eb4d335bd280bec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819701"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593441"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>Propiedad canónica PidTagListUnsubscribe
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor del campo de encabezado de un mensaje de extensiones multipropósito de correo Internet (MIME) cancelar su suscripción de lista.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

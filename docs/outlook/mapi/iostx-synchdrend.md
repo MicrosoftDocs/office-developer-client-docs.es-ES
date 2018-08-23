@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
 description: 'Última modificación: 03 de julio de 2012'
-ms.openlocfilehash: ee68052f330bf3239cd12139ffbd77f5a180f6cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a40d4e62a930219a738c7b431f3d2192007c3d9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591334"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Finaliza la sincronización para un encabezado de mensaje.
   
@@ -45,7 +45,7 @@ Una vez **[IOSTX::SyncBeg](iostx-syncbeg.md)**, el almacén local entra en el [e
   
 El almacén local se devuelve al estado que tenía antes de la anterior **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

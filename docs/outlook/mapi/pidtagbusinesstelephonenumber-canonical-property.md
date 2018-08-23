@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e691f428-fdb2-4ec5-b6e6-33fe01725c5c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 690b2c45a8a6226c006a714133e75f48528b5b87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 176c42f26a8c318c05d82c6fa8a81c794b23628a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590907"
 ---
 # <a name="pidtagbusinesstelephonenumber-canonical-property"></a>Propiedad canónica PidTagBusinessTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono principal del lugar del destinatario de negocio. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

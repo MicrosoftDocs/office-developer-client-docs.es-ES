@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2abf8085ae353ea2b50f647e5cf641708008c47d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6025feb77f5e880dec98bc65f0b170c25a00b78
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591712"
 ---
 # <a name="pidtagrecipientstatus-canonical-property"></a>Propiedad canónica PidTagRecipientStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que se usa en la cola MAPI en la asignación de responsabilidad de entrega entre los proveedores de transporte.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
