@@ -8,84 +8,84 @@ api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3c4c553a000dab233eb208c1222cc427c97b1e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62549cbeea0044ceee8aa2e704b8a9bc271b7e8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564496"
 ---
-# <a name="display-a-progress-indicator"></a><span data-ttu-id="30f6c-103">Mostrar un indicador de progreso</span><span class="sxs-lookup"><span data-stu-id="30f6c-103">Display a progress indicator</span></span>
+# <a name="display-a-progress-indicator"></a><span data-ttu-id="687e7-103">Mostrar un indicador de progreso</span><span class="sxs-lookup"><span data-stu-id="687e7-103">Display a progress indicator</span></span>
  
-<span data-ttu-id="30f6c-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="30f6c-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="687e7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="687e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="30f6c-105">Para mostrar un indicador de progreso, llame a [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar los indicadores actuales de configuración.</span><span class="sxs-lookup"><span data-stu-id="30f6c-105">To display a progress indicator, call [IMAPIProgress::GetFlags](imapiprogress-getflags.md) to retrieve the current flags setting.</span></span> 
+<span data-ttu-id="687e7-105">Para mostrar un indicador de progreso, llame a [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar los indicadores actuales de configuración.</span><span class="sxs-lookup"><span data-stu-id="687e7-105">To display a progress indicator, call [IMAPIProgress::GetFlags](imapiprogress-getflags.md) to retrieve the current flags setting.</span></span> 
   
-<span data-ttu-id="30f6c-106">Si se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="30f6c-106">If the MAPI_TOP_LEVEL flag is set, complete the following steps:</span></span>
+<span data-ttu-id="687e7-106">Si se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="687e7-106">If the MAPI_TOP_LEVEL flag is set, complete the following steps:</span></span>
   
-1. <span data-ttu-id="30f6c-107">Establezca a una variable igual al número total de elementos que se procesan en la operación.</span><span class="sxs-lookup"><span data-stu-id="30f6c-107">Set a variable equal to the total number of items to process in the operation.</span></span> <span data-ttu-id="30f6c-108">Por ejemplo, si va a copiar el contenido de una carpeta, este valor será igual que el número de las subcarpetas de la carpeta más el número de mensajes.</span><span class="sxs-lookup"><span data-stu-id="30f6c-108">For example, if you are copying the contents of a folder, this value will be equal to the number of the subfolders in the folder plus the number of messages.</span></span> 
+1. <span data-ttu-id="687e7-107">Establezca a una variable igual al número total de elementos que se procesan en la operación.</span><span class="sxs-lookup"><span data-stu-id="687e7-107">Set a variable equal to the total number of items to process in the operation.</span></span> <span data-ttu-id="687e7-108">Por ejemplo, si va a copiar el contenido de una carpeta, este valor será igual que el número de las subcarpetas de la carpeta más el número de mensajes.</span><span class="sxs-lookup"><span data-stu-id="687e7-108">For example, if you are copying the contents of a folder, this value will be equal to the number of the subfolders in the folder plus the number of messages.</span></span> 
     
-2. <span data-ttu-id="30f6c-109">Establezca a una variable igual a 1000 dividido por el número de elementos.</span><span class="sxs-lookup"><span data-stu-id="30f6c-109">Set a variable equal to 1000 divided by the number of items.</span></span> 
+2. <span data-ttu-id="687e7-109">Establezca a una variable igual a 1000 dividido por el número de elementos.</span><span class="sxs-lookup"><span data-stu-id="687e7-109">Set a variable equal to 1000 divided by the number of items.</span></span> 
     
-3. <span data-ttu-id="30f6c-110">Si se muestra el progreso de subobjetos, llamar al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) del objeto de progreso y pasar los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="30f6c-110">If you are showing progress for subobjects, call the progress object's [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method and pass the following values for the three parameters:</span></span> 
+3. <span data-ttu-id="687e7-110">Si se muestra el progreso de subobjetos, llamar al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) del objeto de progreso y pasar los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="687e7-110">If you are showing progress for subobjects, call the progress object's [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method and pass the following values for the three parameters:</span></span> 
     
-   - <span data-ttu-id="30f6c-111">Establezca el parámetro _lpulMin_ en 0.</span><span class="sxs-lookup"><span data-stu-id="30f6c-111">Set the  _lpulMin_ parameter to 0.</span></span> 
+   - <span data-ttu-id="687e7-111">Establezca el parámetro _lpulMin_ en 0.</span><span class="sxs-lookup"><span data-stu-id="687e7-111">Set the  _lpulMin_ parameter to 0.</span></span> 
     
-   - <span data-ttu-id="30f6c-112">Establezca el parámetro _lpulMax_ en 1000.</span><span class="sxs-lookup"><span data-stu-id="30f6c-112">Set the  _lpulMax_ parameter to 1000.</span></span> 
+   - <span data-ttu-id="687e7-112">Establezca el parámetro _lpulMax_ en 1000.</span><span class="sxs-lookup"><span data-stu-id="687e7-112">Set the  _lpulMax_ parameter to 1000.</span></span> 
     
-   - <span data-ttu-id="30f6c-113">Establezca el parámetro _lpulFlags_ en MAPI_TOP_LEVEL.</span><span class="sxs-lookup"><span data-stu-id="30f6c-113">Set the  _lpulFlags_ parameter to MAPI_TOP_LEVEL.</span></span> 
+   - <span data-ttu-id="687e7-113">Establezca el parámetro _lpulFlags_ en MAPI_TOP_LEVEL.</span><span class="sxs-lookup"><span data-stu-id="687e7-113">Set the  _lpulFlags_ parameter to MAPI_TOP_LEVEL.</span></span> 
     
-4. <span data-ttu-id="30f6c-114">Para que cada objeto que va a procesar, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="30f6c-114">For each object to be processed, complete the following steps:</span></span>
+4. <span data-ttu-id="687e7-114">Para que cada objeto que va a procesar, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="687e7-114">For each object to be processed, complete the following steps:</span></span>
     
-   1. <span data-ttu-id="30f6c-115">Llame a **IMAPIProgress::SetLimits** y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="30f6c-115">Call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
+   1. <span data-ttu-id="687e7-115">Llame a **IMAPIProgress::SetLimits** y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="687e7-115">Call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="30f6c-116">Establezca el parámetro _lpulMin_ en la variable establecida en el paso 2 multiplicado por el elemento actual menos 1.</span><span class="sxs-lookup"><span data-stu-id="30f6c-116">Set the  _lpulMin_ parameter to the variable set in step 2 multiplied by the current item minus 1.</span></span> 
+     - <span data-ttu-id="687e7-116">Establezca el parámetro _lpulMin_ en la variable establecida en el paso 2 multiplicado por el elemento actual menos 1.</span><span class="sxs-lookup"><span data-stu-id="687e7-116">Set the  _lpulMin_ parameter to the variable set in step 2 multiplied by the current item minus 1.</span></span> 
       
-     - <span data-ttu-id="30f6c-117">Establezca el parámetro _lpulMax_ en la variable establecida en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="30f6c-117">Set the  _lpulMax_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="687e7-117">Establezca el parámetro _lpulMax_ en la variable establecida en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="687e7-117">Set the  _lpulMax_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="30f6c-118">Establezca el parámetro _lpulFlags_ en 0.</span><span class="sxs-lookup"><span data-stu-id="30f6c-118">Set the  _lpulFlags_ parameter to 0.</span></span> 
+     - <span data-ttu-id="687e7-118">Establezca el parámetro _lpulFlags_ en 0.</span><span class="sxs-lookup"><span data-stu-id="687e7-118">Set the  _lpulFlags_ parameter to 0.</span></span> 
       
-   2. <span data-ttu-id="30f6c-119">Lleve a cabo el procesamiento se debe realizar en este objeto.</span><span class="sxs-lookup"><span data-stu-id="30f6c-119">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="30f6c-120">Si se trata de un subobjetos y desea mostrar el progreso en subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método.</span><span class="sxs-lookup"><span data-stu-id="30f6c-120">If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
+   2. <span data-ttu-id="687e7-119">Lleve a cabo el procesamiento se debe realizar en este objeto.</span><span class="sxs-lookup"><span data-stu-id="687e7-119">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="687e7-120">Si se trata de un subobjetos y desea mostrar el progreso en subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método.</span><span class="sxs-lookup"><span data-stu-id="687e7-120">If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
       
-   3. <span data-ttu-id="30f6c-121">Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="30f6c-121">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
+   3. <span data-ttu-id="687e7-121">Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="687e7-121">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="30f6c-122">Establezca el parámetro _ulValue_ en la variable establecida en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="30f6c-122">Set the  _ulValue_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="687e7-122">Establezca el parámetro _ulValue_ en la variable establecida en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="687e7-122">Set the  _ulValue_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="30f6c-123">Establezca el parámetro _ulCount_ en el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="30f6c-123">Set the  _ulCount_ parameter to the current object.</span></span> 
+     - <span data-ttu-id="687e7-123">Establezca el parámetro _ulCount_ en el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="687e7-123">Set the  _ulCount_ parameter to the current object.</span></span> 
       
-     - <span data-ttu-id="30f6c-124">Establezca el parámetro _ulTotal_ en la variable establecida en el paso 1, el número total de objetos.</span><span class="sxs-lookup"><span data-stu-id="30f6c-124">Set the  _ulTotal_ parameter to the variable set in step 1, the total number of objects.</span></span> 
+     - <span data-ttu-id="687e7-124">Establezca el parámetro _ulTotal_ en la variable establecida en el paso 1, el número total de objetos.</span><span class="sxs-lookup"><span data-stu-id="687e7-124">Set the  _ulTotal_ parameter to the variable set in step 1, the total number of objects.</span></span> 
     
-<span data-ttu-id="30f6c-125">Si no está establecido el indicador MAPI_TOP_LEVEL, complete los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="30f6c-125">If the MAPI_TOP_LEVEL flag is not set, complete the following steps:</span></span>
+<span data-ttu-id="687e7-125">Si no está establecido el indicador MAPI_TOP_LEVEL, complete los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="687e7-125">If the MAPI_TOP_LEVEL flag is not set, complete the following steps:</span></span>
   
-1. <span data-ttu-id="30f6c-126">Llamar al método [IMAPIProgress::GetMin](imapiprogress-getmin.md) del objeto de progreso para recuperar el valor mínimo para la presentación.</span><span class="sxs-lookup"><span data-stu-id="30f6c-126">Call the progress object's [IMAPIProgress::GetMin](imapiprogress-getmin.md) method to retrieve the minimum value for the display.</span></span> 
+1. <span data-ttu-id="687e7-126">Llamar al método [IMAPIProgress::GetMin](imapiprogress-getmin.md) del objeto de progreso para recuperar el valor mínimo para la presentación.</span><span class="sxs-lookup"><span data-stu-id="687e7-126">Call the progress object's [IMAPIProgress::GetMin](imapiprogress-getmin.md) method to retrieve the minimum value for the display.</span></span> 
     
-2. <span data-ttu-id="30f6c-127">Llame a [IMAPIProgress::GetMax](imapiprogress-getmax.md) para recuperar el valor máximo para la presentación.</span><span class="sxs-lookup"><span data-stu-id="30f6c-127">Call [IMAPIProgress::GetMax](imapiprogress-getmax.md) to retrieve the maximum value for the display.</span></span> 
+2. <span data-ttu-id="687e7-127">Llame a [IMAPIProgress::GetMax](imapiprogress-getmax.md) para recuperar el valor máximo para la presentación.</span><span class="sxs-lookup"><span data-stu-id="687e7-127">Call [IMAPIProgress::GetMax](imapiprogress-getmax.md) to retrieve the maximum value for the display.</span></span> 
     
-3. <span data-ttu-id="30f6c-128">Establezca a una variable igual al número total de objetos que va a procesar.</span><span class="sxs-lookup"><span data-stu-id="30f6c-128">Set a variable equal to the total number of objects to be processed.</span></span> 
+3. <span data-ttu-id="687e7-128">Establezca a una variable igual al número total de objetos que va a procesar.</span><span class="sxs-lookup"><span data-stu-id="687e7-128">Set a variable equal to the total number of objects to be processed.</span></span> 
     
-4. <span data-ttu-id="30f6c-129">Establezca a una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividiendo el número total de objetos.</span><span class="sxs-lookup"><span data-stu-id="30f6c-129">Set a variable equal to the result of subtracting the minimum value from the maximum value and then dividing by the total number of objects.</span></span>
+4. <span data-ttu-id="687e7-129">Establezca a una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividiendo el número total de objetos.</span><span class="sxs-lookup"><span data-stu-id="687e7-129">Set a variable equal to the result of subtracting the minimum value from the maximum value and then dividing by the total number of objects.</span></span>
     
-5. <span data-ttu-id="30f6c-130">Para que cada objeto que va a procesar, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="30f6c-130">For each object to be processed, complete the following steps:</span></span>
+5. <span data-ttu-id="687e7-130">Para que cada objeto que va a procesar, complete los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="687e7-130">For each object to be processed, complete the following steps:</span></span>
     
-   1. <span data-ttu-id="30f6c-131">Si su proveedor es que muestra el progreso de subobjetos, llamar **IMAPIProgress::SetLimits** y pasar los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="30f6c-131">If your provider is showing progress for subobjects, call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
+   1. <span data-ttu-id="687e7-131">Si su proveedor es que muestra el progreso de subobjetos, llamar **IMAPIProgress::SetLimits** y pasar los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="687e7-131">If your provider is showing progress for subobjects, call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="30f6c-132">Establezca el parámetro _lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable establecida en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="30f6c-132">Set the  _lpulMin_ parameter to the minimum value plus the current item minus 1 multiplied by the variable set in step 4.</span></span> 
+     - <span data-ttu-id="687e7-132">Establezca el parámetro _lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable establecida en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="687e7-132">Set the  _lpulMin_ parameter to the minimum value plus the current item minus 1 multiplied by the variable set in step 4.</span></span> 
       
-     - <span data-ttu-id="30f6c-133">Establezca el parámetro _lpulMax_ en el valor mínimo además de la unidad actual multiplicado por la variable establecida en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="30f6c-133">Set the  _lpulMax_ parameter to the minimum value plus the current unit multiplied by the variable set in step 4.</span></span> 
+     - <span data-ttu-id="687e7-133">Establezca el parámetro _lpulMax_ en el valor mínimo además de la unidad actual multiplicado por la variable establecida en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="687e7-133">Set the  _lpulMax_ parameter to the minimum value plus the current unit multiplied by the variable set in step 4.</span></span> 
       
-     - <span data-ttu-id="30f6c-134">Establezca el parámetro _lpulFlags_ en 0.</span><span class="sxs-lookup"><span data-stu-id="30f6c-134">Set the  _lpulFlags_ parameter to 0.</span></span> 
+     - <span data-ttu-id="687e7-134">Establezca el parámetro _lpulFlags_ en 0.</span><span class="sxs-lookup"><span data-stu-id="687e7-134">Set the  _lpulFlags_ parameter to 0.</span></span> 
       
-   2. <span data-ttu-id="30f6c-135">Lleve a cabo el procesamiento se debe realizar en este objeto.</span><span class="sxs-lookup"><span data-stu-id="30f6c-135">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="30f6c-136">Si el objeto es un subobjetos y su proveedor muestra el progreso de subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método.</span><span class="sxs-lookup"><span data-stu-id="30f6c-136">If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
+   2. <span data-ttu-id="687e7-135">Lleve a cabo el procesamiento se debe realizar en este objeto.</span><span class="sxs-lookup"><span data-stu-id="687e7-135">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="687e7-136">Si el objeto es un subobjetos y su proveedor muestra el progreso de subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método.</span><span class="sxs-lookup"><span data-stu-id="687e7-136">If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
       
-   3. <span data-ttu-id="30f6c-137">Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="30f6c-137">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
+   3. <span data-ttu-id="687e7-137">Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros:</span><span class="sxs-lookup"><span data-stu-id="687e7-137">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="30f6c-138">Establezca el parámetro _ulValue_ a la variable se establece en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="30f6c-138">Set the  _ulValue_ parameter to variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="687e7-138">Establezca el parámetro _ulValue_ a la variable se establece en el paso 2 multiplicado por el objeto actual.</span><span class="sxs-lookup"><span data-stu-id="687e7-138">Set the  _ulValue_ parameter to variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="30f6c-139">Establezca el parámetro _ulCount_ en 0.</span><span class="sxs-lookup"><span data-stu-id="30f6c-139">Set the  _ulCount_ parameter to 0.</span></span> 
+     - <span data-ttu-id="687e7-139">Establezca el parámetro _ulCount_ en 0.</span><span class="sxs-lookup"><span data-stu-id="687e7-139">Set the  _ulCount_ parameter to 0.</span></span> 
       
-     - <span data-ttu-id="30f6c-140">Establezca el parámetro _ulTotal_ en 0.</span><span class="sxs-lookup"><span data-stu-id="30f6c-140">Set the  _ulTotal_ parameter to 0.</span></span> 
+     - <span data-ttu-id="687e7-140">Establezca el parámetro _ulTotal_ en 0.</span><span class="sxs-lookup"><span data-stu-id="687e7-140">Set the  _ulTotal_ parameter to 0.</span></span> 
     
-<span data-ttu-id="30f6c-141">En el ejemplo de código siguiente se ilustra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene las cinco subcarpetas.</span><span class="sxs-lookup"><span data-stu-id="30f6c-141">The following code example illustrates the logic required to show progress at all levels of an operation that copies the contents of a folder that contains five subfolders.</span></span> 
+<span data-ttu-id="687e7-141">En el ejemplo de código siguiente se ilustra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene las cinco subcarpetas.</span><span class="sxs-lookup"><span data-stu-id="687e7-141">The following code example illustrates the logic required to show progress at all levels of an operation that copies the contents of a folder that contains five subfolders.</span></span> 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);
@@ -123,7 +123,7 @@ else
  
 ```
 
-## <a name="see-also"></a><span data-ttu-id="30f6c-142">Vea también</span><span class="sxs-lookup"><span data-stu-id="30f6c-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="687e7-142">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="687e7-142">See also</span></span>
 
-- [<span data-ttu-id="30f6c-143">Indicadores de progreso MAPI</span><span class="sxs-lookup"><span data-stu-id="30f6c-143">MAPI Progress Indicators</span></span>](mapi-progress-indicators.md)
+- [<span data-ttu-id="687e7-143">Indicadores de progreso MAPI</span><span class="sxs-lookup"><span data-stu-id="687e7-143">MAPI Progress Indicators</span></span>](mapi-progress-indicators.md)
 
