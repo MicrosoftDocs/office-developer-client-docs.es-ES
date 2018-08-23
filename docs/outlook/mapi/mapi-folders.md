@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 88ddfd9e6bb27abfeee9750c71e98d4fad9d1a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21b738424b27d3d89d8de84c8c9ff2ff86dd945b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818118"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564090"
 ---
 # <a name="mapi-folders"></a>Carpetas de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las carpetas son objetos MAPI que sirven como unidad b�sica de organizaci�n para los mensajes. Organizados jer�rquicamente, carpetas pueden contener otras carpetas y mensajes. Carpetas que m�s f�cil localizar y trabajar con los mensajes.
   

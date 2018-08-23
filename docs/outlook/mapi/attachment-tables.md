@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2fd79cfe18e7d39f26563c87b8fb15553bf32ddf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27e489447b501b6e0d3bb7d668cecc3750be443e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564125"
 ---
 # <a name="attachment-tables"></a>Tablas de datos adjuntos
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla de datos adjuntos contiene información acerca de todos los objetos de datos adjuntos que están asociados con un mensaje enviado o un mensaje que esté redactando. 
   
@@ -70,7 +70,7 @@ Algunas de las propiedades de los proveedores de almacén de mensajes se incluye
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

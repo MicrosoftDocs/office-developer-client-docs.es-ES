@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Para admitir la creación de soluciones de InfoPath que usan los lenguajes de código administrado como Visual C# y Visual Basic, la opción de compatibilidad con programación de .NET en el programa de instalación de InfoPath instala a los ensamblados de interoperabilidad tres.
-ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564132"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Información sobre el conjunto de interoperabilidad principal de InfoPath de Microsoft Office
 
@@ -35,11 +35,11 @@ La opción de instalación predeterminada del programa de instalación de InfoPa
   
 Si el ensamblado Microsoft.Office.Interop.InfoPath no está visible en la GAC, debería confirmar que InfoPath se ha instalado correctamente. De forma predeterminada, se establece la opción de **Compatibilidad con programación de .NET** en el programa de instalación a **Ejecutar desde Mi PC** mientras el paquete redistribuible de .NET Framework 1.1, Kit de desarrollo de Software (SDK) de .NET Framework 1.1 o una versión posterior de .NET Framework está instalado antes de ejecutar el programa de instalación. Si estos ensamblados de interoperabilidad no están disponibles en su equipo, debe confirmar que está instalado .NET Framework 1.1 o posterior y, a continuación, usar **programas y características** del **Panel de Control** para cambiar el programa de instalación mediante la configuración de la programación de .NET ** Compatibilidad con** opción en **Microsoft Office InfoPath** para **Ejecutar desde Mi PC**.
   
-Para obtener información acerca de cómo descargar el paquete redistribuible de .NET Framework 1.1, consulte el [Paquete redistribuible de .NET Framework 1.1](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx).
+Para obtener información acerca de cómo descargar el paquete redistribuible de .NET Framework 1.1, consulte el [Paquete redistribuible de .NET Framework 1.1](https://www.microsoft.com/en-us/download/details.aspx?id=26).
   
 ## <a name="the-microsoftofficeinteropinfopath-namespace"></a>El Namespace Microsoft.Office.Interop.InfoPath
 
-Aunque administra el proceso de escribir código para una tarea determinada es muy similar a realizar la misma tarea utilizando un lenguaje como Visual Basic para aplicaciones o JScript, el modelo de objetos expuesto al ver el **Microsoft.Office.Interop.InfoPath** espacio de nombres desde el **Examinador de objetos** en Microsoft Visual Studio busca más compleja. Esto es debido a que la interoperabilidad con .NET Framework requiere un servidor COM para exponer todas sus interfaces públicas, así como algunas construcciones adicionales requeridos por el propio .NET Framework. Para obtener más información sobre cómo y por qué el modelo de objetos expuesto por un ensamblado de interoperabilidad aparece más complejo, vea la sección "Cómo COM objetos están expuestos a código administrado" del tema de [Modelos de objetos compatible con InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx) . 
+Aunque administra el proceso de escribir código para una tarea determinada es muy similar a realizar la misma tarea utilizando un lenguaje como Visual Basic para aplicaciones o JScript, el modelo de objetos expuesto al ver el **Microsoft.Office.Interop.InfoPath** espacio de nombres desde el **Examinador de objetos** en Microsoft Visual Studio busca más compleja. Esto es debido a que la interoperabilidad con .NET Framework requiere un servidor COM para exponer todas sus interfaces públicas, así como algunas construcciones adicionales requeridos por el propio .NET Framework. Para obtener más información sobre cómo y por qué el modelo de objetos expuesto por un ensamblado de interoperabilidad aparece más complejo, vea la sección "Cómo COM objetos están expuestos a código administrado" del tema de [Modelos de objetos compatible con InfoPath 2003](../form-templates/infopath-2003-compatible-object-models.md) . 
   
 ### <a name="using-intellisense"></a>Utilizar IntelliSense
 
@@ -107,7 +107,7 @@ myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing);
 myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Ejemplos y escenarios de automatización externa](external-automation-scenarios-and-examples.md)
 
