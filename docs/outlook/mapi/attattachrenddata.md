@@ -8,19 +8,19 @@ api_type:
 - COM
 ms.assetid: c510b7a5-0f55-46af-bddb-40a8195a84d4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d8c6699ac1bc5687b1c885d156535e5b54b93140
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a006c126ec5e0fb86847226195efd03f7ae5351f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569452"
 ---
-# <a name="attattachrenddata"></a><span data-ttu-id="057b7-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="057b7-103">attAttachRenddata</span></span>
+# <a name="attattachrenddata"></a><span data-ttu-id="10d0d-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="10d0d-103">attAttachRenddata</span></span>
 
   
   
-<span data-ttu-id="057b7-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="057b7-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="10d0d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10d0d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="057b7-105">El atributo **attAttachRenddata** se codifica como una estructura **RENDDATA** que se describe cómo y dónde se representan los datos adjuntos en el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="057b7-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="057b7-106">La estructura **RENDDATA** simplemente está codificada en la secuencia TNEF como bytes **sizeof(RENDDATA)** que comienzan con el primer miembro de la estructura **RENDDATA** .</span><span class="sxs-lookup"><span data-stu-id="057b7-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="057b7-107">Si se establece el valor de miembro de **dwFlags** de la estructura **RENDDATA** en **MAC_BINARY**, a continuación, se almacenan los datos para los datos adjuntos siguientes en formato MacBinary; de lo contrario, los datos adjuntos se codifican como de costumbre.</span><span class="sxs-lookup"><span data-stu-id="057b7-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
+<span data-ttu-id="10d0d-105">El atributo **attAttachRenddata** se codifica como una estructura **RENDDATA** que se describe cómo y dónde se representan los datos adjuntos en el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="10d0d-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="10d0d-106">La estructura **RENDDATA** simplemente está codificada en la secuencia TNEF como bytes **sizeof(RENDDATA)** que comienzan con el primer miembro de la estructura **RENDDATA** .</span><span class="sxs-lookup"><span data-stu-id="10d0d-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="10d0d-107">Si se establece el valor de miembro de **dwFlags** de la estructura **RENDDATA** en **MAC_BINARY**, a continuación, se almacenan los datos para los datos adjuntos siguientes en formato MacBinary; de lo contrario, los datos adjuntos se codifican como de costumbre.</span><span class="sxs-lookup"><span data-stu-id="10d0d-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
   
 

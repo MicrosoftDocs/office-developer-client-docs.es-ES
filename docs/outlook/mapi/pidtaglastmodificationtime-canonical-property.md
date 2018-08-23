@@ -12,67 +12,67 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bf58e0598af6eb833b003b824be95f8fb82bd8bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19819693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575710"
 ---
-# <a name="pidtaglastmodificationtime-canonical-property"></a><span data-ttu-id="6212d-103">Propiedad canónica PidTagLastModificationTime</span><span class="sxs-lookup"><span data-stu-id="6212d-103">PidTagLastModificationTime Canonical Property</span></span>
+# <a name="pidtaglastmodificationtime-canonical-property"></a><span data-ttu-id="3bbf2-103">Propiedad canónica PidTagLastModificationTime</span><span class="sxs-lookup"><span data-stu-id="3bbf2-103">PidTagLastModificationTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6212d-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="6212d-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="3bbf2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3bbf2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6212d-105">Contiene la fecha y hora de última modificación de el objeto o subobjetos.</span><span class="sxs-lookup"><span data-stu-id="6212d-105">Contains the date and time when the object or subobject was last modified.</span></span> 
+<span data-ttu-id="3bbf2-105">Contiene la fecha y hora de última modificación de el objeto o subobjetos.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-105">Contains the date and time when the object or subobject was last modified.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6212d-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="6212d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6212d-107">PR_LAST_MODIFICATION_TIME</span><span class="sxs-lookup"><span data-stu-id="6212d-107">PR_LAST_MODIFICATION_TIME</span></span>  <br/> |
-|<span data-ttu-id="6212d-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="6212d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6212d-109">0x3008</span><span class="sxs-lookup"><span data-stu-id="6212d-109">0x3008</span></span>  <br/> |
-|<span data-ttu-id="6212d-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="6212d-110">Data type:</span></span>  <br/> |<span data-ttu-id="6212d-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="6212d-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="6212d-112">Área:</span><span class="sxs-lookup"><span data-stu-id="6212d-112">Area:</span></span>  <br/> |<span data-ttu-id="6212d-113">Hora del mensaje</span><span class="sxs-lookup"><span data-stu-id="6212d-113">Message time</span></span>  <br/> |
+|<span data-ttu-id="3bbf2-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="3bbf2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3bbf2-107">PR_LAST_MODIFICATION_TIME</span><span class="sxs-lookup"><span data-stu-id="3bbf2-107">PR_LAST_MODIFICATION_TIME</span></span>  <br/> |
+|<span data-ttu-id="3bbf2-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="3bbf2-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3bbf2-109">0x3008</span><span class="sxs-lookup"><span data-stu-id="3bbf2-109">0x3008</span></span>  <br/> |
+|<span data-ttu-id="3bbf2-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="3bbf2-110">Data type:</span></span>  <br/> |<span data-ttu-id="3bbf2-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="3bbf2-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="3bbf2-112">Área:</span><span class="sxs-lookup"><span data-stu-id="3bbf2-112">Area:</span></span>  <br/> |<span data-ttu-id="3bbf2-113">Hora del mensaje</span><span class="sxs-lookup"><span data-stu-id="3bbf2-113">Message time</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6212d-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6212d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3bbf2-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3bbf2-114">Remarks</span></span>
 
-<span data-ttu-id="6212d-115">Esta propiedad se establece inicialmente en el mismo valor que la propiedad **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="6212d-115">This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property.</span></span> <span data-ttu-id="6212d-116">Datos adjuntos subobjetos actualizarlo, según sea necesario mediante la copia de la hora de última modificación mantenida por el sistema de archivos nativo.</span><span class="sxs-lookup"><span data-stu-id="6212d-116">Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system.</span></span> <span data-ttu-id="6212d-117">Una aplicación cliente puede establecer esta propiedad hasta la primera llamada al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) .</span><span class="sxs-lookup"><span data-stu-id="6212d-117">A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method.</span></span> <span data-ttu-id="6212d-118">En el proveedor debe actualizar **PR_LAST_MODIFICATION_TIME** durante cada llamada **IMAPIProp::SaveChanges** .</span><span class="sxs-lookup"><span data-stu-id="6212d-118">From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call.</span></span> 
+<span data-ttu-id="3bbf2-115">Esta propiedad se establece inicialmente en el mismo valor que la propiedad **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3bbf2-115">This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property.</span></span> <span data-ttu-id="3bbf2-116">Datos adjuntos subobjetos actualizarlo, según sea necesario mediante la copia de la hora de última modificación mantenida por el sistema de archivos nativo.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-116">Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system.</span></span> <span data-ttu-id="3bbf2-117">Una aplicación cliente puede establecer esta propiedad hasta la primera llamada al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) .</span><span class="sxs-lookup"><span data-stu-id="3bbf2-117">A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method.</span></span> <span data-ttu-id="3bbf2-118">En el proveedor debe actualizar **PR_LAST_MODIFICATION_TIME** durante cada llamada **IMAPIProp::SaveChanges** .</span><span class="sxs-lookup"><span data-stu-id="3bbf2-118">From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="6212d-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="6212d-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3bbf2-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="3bbf2-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="6212d-120">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="6212d-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3bbf2-120">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="3bbf2-120">Protocol specifications</span></span>
 
-<span data-ttu-id="6212d-121">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6212d-121">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3bbf2-121">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3bbf2-121">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6212d-122">Controla los objetos de mensaje y los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="6212d-122">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="3bbf2-122">Controla los objetos de mensaje y los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-122">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="6212d-123">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6212d-123">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3bbf2-123">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3bbf2-123">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6212d-124">Controla la sincronización de datos de objeto mensajería entre un servidor y un cliente.</span><span class="sxs-lookup"><span data-stu-id="6212d-124">Handles synchronizing messaging object data between a server and a client.</span></span>
+> <span data-ttu-id="3bbf2-124">Controla la sincronización de datos de objeto mensajería entre un servidor y un cliente.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-124">Handles synchronizing messaging object data between a server and a client.</span></span>
     
-<span data-ttu-id="6212d-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6212d-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3bbf2-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3bbf2-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6212d-126">Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.</span><span class="sxs-lookup"><span data-stu-id="6212d-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="3bbf2-126">Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="6212d-127">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="6212d-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3bbf2-127">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="3bbf2-127">Header files</span></span>
 
-<span data-ttu-id="6212d-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6212d-128">Mapidefs.h</span></span>
+<span data-ttu-id="3bbf2-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3bbf2-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6212d-129">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="6212d-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="3bbf2-129">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-129">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6212d-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="6212d-130">Mapitags.h</span></span>
+<span data-ttu-id="3bbf2-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="3bbf2-130">Mapitags.h</span></span>
   
-> <span data-ttu-id="6212d-131">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="6212d-131">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="3bbf2-131">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="3bbf2-131">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6212d-132">Vea también</span><span class="sxs-lookup"><span data-stu-id="6212d-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3bbf2-132">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="3bbf2-132">See also</span></span>
 
 
 
-[<span data-ttu-id="6212d-133">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="6212d-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3bbf2-133">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="3bbf2-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6212d-134">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="6212d-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3bbf2-134">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="3bbf2-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6212d-135">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="6212d-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3bbf2-135">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="3bbf2-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6212d-136">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="6212d-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3bbf2-136">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="3bbf2-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
