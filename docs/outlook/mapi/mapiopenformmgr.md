@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 592bd2c88c8eea17d80fe7cb725b075235c51763
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ed71b5eef0c25a78d7c8ec695a756a02e796dbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818259"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586035"
 ---
-# <a name="mapiopenformmgr"></a><span data-ttu-id="ca0e6-103">MAPIOpenFormMgr</span><span class="sxs-lookup"><span data-stu-id="ca0e6-103">MAPIOpenFormMgr</span></span>
+# <a name="mapiopenformmgr"></a><span data-ttu-id="82855-103">MAPIOpenFormMgr</span><span class="sxs-lookup"><span data-stu-id="82855-103">MAPIOpenFormMgr</span></span>
 
   
   
-<span data-ttu-id="ca0e6-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="ca0e6-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="82855-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="82855-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ca0e6-105">Se abre una interfaz [IMAPIFormMgr](imapiformmgriunknown.md) en un objeto de proveedor de la biblioteca de formulario en el contexto de una sesión existente.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-105">Opens an [IMAPIFormMgr](imapiformmgriunknown.md) interface on a form library provider object in the context of an existing session.</span></span> 
+<span data-ttu-id="82855-105">Se abre una interfaz [IMAPIFormMgr](imapiformmgriunknown.md) en un objeto de proveedor de la biblioteca de formulario en el contexto de una sesión existente.</span><span class="sxs-lookup"><span data-stu-id="82855-105">Opens an [IMAPIFormMgr](imapiformmgriunknown.md) interface on a form library provider object in the context of an existing session.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ca0e6-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="ca0e6-106">Header file:</span></span>  <br/> |<span data-ttu-id="ca0e6-107">MAPIForm.h</span><span class="sxs-lookup"><span data-stu-id="ca0e6-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="ca0e6-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="ca0e6-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ca0e6-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ca0e6-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="ca0e6-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="ca0e6-110">Called by:</span></span>  <br/> |<span data-ttu-id="ca0e6-111">Aplicaciones cliente</span><span class="sxs-lookup"><span data-stu-id="ca0e6-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="82855-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="82855-106">Header file:</span></span>  <br/> |<span data-ttu-id="82855-107">MAPIForm.h</span><span class="sxs-lookup"><span data-stu-id="82855-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="82855-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="82855-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="82855-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="82855-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="82855-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="82855-110">Called by:</span></span>  <br/> |<span data-ttu-id="82855-111">Aplicaciones cliente</span><span class="sxs-lookup"><span data-stu-id="82855-111">Client applications</span></span>  <br/> |
    
 ```cpp
 MAPIOpenFormMgr(
@@ -40,35 +40,35 @@ MAPIOpenFormMgr(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ca0e6-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ca0e6-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="82855-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="82855-112">Parameters</span></span>
 
- <span data-ttu-id="ca0e6-113">_pSession_</span><span class="sxs-lookup"><span data-stu-id="ca0e6-113">_pSession_</span></span>
+ <span data-ttu-id="82855-113">_pSession_</span><span class="sxs-lookup"><span data-stu-id="82855-113">_pSession_</span></span>
   
-> <span data-ttu-id="ca0e6-114">[entrada] Puntero a la sesión en uso por la aplicación cliente.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-114">[in] Pointer to the session in use by the client application.</span></span>
+> <span data-ttu-id="82855-114">[entrada] Puntero a la sesión en uso por la aplicación cliente.</span><span class="sxs-lookup"><span data-stu-id="82855-114">[in] Pointer to the session in use by the client application.</span></span>
     
- <span data-ttu-id="ca0e6-115">_ppmgr_</span><span class="sxs-lookup"><span data-stu-id="ca0e6-115">_ppmgr_</span></span>
+ <span data-ttu-id="82855-115">_ppmgr_</span><span class="sxs-lookup"><span data-stu-id="82855-115">_ppmgr_</span></span>
   
-> <span data-ttu-id="ca0e6-116">[out] Puntero a la interfaz devuelta de **IMAPIFormMgr** .</span><span class="sxs-lookup"><span data-stu-id="ca0e6-116">[out] Pointer to the returned **IMAPIFormMgr** interface.</span></span> 
+> <span data-ttu-id="82855-116">[out] Puntero a la interfaz devuelta de **IMAPIFormMgr** .</span><span class="sxs-lookup"><span data-stu-id="82855-116">[out] Pointer to the returned **IMAPIFormMgr** interface.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="ca0e6-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ca0e6-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="82855-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="82855-117">Return value</span></span>
 
-<span data-ttu-id="ca0e6-118">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-118">None.</span></span>
+<span data-ttu-id="82855-118">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="82855-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ca0e6-119">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ca0e6-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="82855-119">Comentarios</span><span class="sxs-lookup"><span data-stu-id="82855-119">Remarks</span></span>
 
-<span data-ttu-id="ca0e6-120">Después de que una aplicación cliente realiza una llamada a la función **MAPIOpenFormMgr** , la mayoría relacionadas con formularios de las interacciones subsiguientes tienen lugar a través de una interfaz devuelto por el proveedor de la biblioteca de formulario o el proveedor de la biblioteca de formulario.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-120">After a client application makes a call to the **MAPIOpenFormMgr** function, most subsequent forms-related interactions take place through the form library provider or an interface returned by the form library provider.</span></span> <span data-ttu-id="ca0e6-121">La interfaz de **IMAPIFormMgr** permite que el cliente trabajar con controladores de mensajes y realizar resoluciones entre las clases de mensajes y las bibliotecas de formularios.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-121">The **IMAPIFormMgr** interface allows the client to work with message handlers and perform resolutions between message classes and form libraries.</span></span> 
+<span data-ttu-id="82855-120">Después de que una aplicación cliente realiza una llamada a la función **MAPIOpenFormMgr** , la mayoría relacionadas con formularios de las interacciones subsiguientes tienen lugar a través de una interfaz devuelto por el proveedor de la biblioteca de formulario o el proveedor de la biblioteca de formulario.</span><span class="sxs-lookup"><span data-stu-id="82855-120">After a client application makes a call to the **MAPIOpenFormMgr** function, most subsequent forms-related interactions take place through the form library provider or an interface returned by the form library provider.</span></span> <span data-ttu-id="82855-121">La interfaz de **IMAPIFormMgr** permite que el cliente trabajar con controladores de mensajes y realizar resoluciones entre las clases de mensajes y las bibliotecas de formularios.</span><span class="sxs-lookup"><span data-stu-id="82855-121">The **IMAPIFormMgr** interface allows the client to work with message handlers and perform resolutions between message classes and form libraries.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ca0e6-122">Referencia MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="ca0e6-122">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="82855-122">Referencia MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="82855-122">MFCMAPI reference</span></span>
 
-<span data-ttu-id="ca0e6-123">MFCMAPI c�digo de ejemplo, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-123">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="82855-123">MFCMAPI c�digo de ejemplo, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="82855-123">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="ca0e6-124">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="ca0e6-124">**File**</span></span>|<span data-ttu-id="ca0e6-125">**Funci�n**</span><span class="sxs-lookup"><span data-stu-id="ca0e6-125">**Function**</span></span>|<span data-ttu-id="ca0e6-126">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="ca0e6-126">**Comment**</span></span>|
+|<span data-ttu-id="82855-124">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="82855-124">**File**</span></span>|<span data-ttu-id="82855-125">**Funci�n**</span><span class="sxs-lookup"><span data-stu-id="82855-125">**Function**</span></span>|<span data-ttu-id="82855-126">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="82855-126">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ca0e6-127">MainDlg.cpp abre el Administrador de formularios de modo que se puede seleccionar un formulario.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-127">MainDlg.cpp opens the form manager so a form can be selected.</span></span>  <br/> |<span data-ttu-id="ca0e6-128">CMainDlg::OnSelectForm</span><span class="sxs-lookup"><span data-stu-id="ca0e6-128">CMainDlg::OnSelectForm</span></span>  <br/> |<span data-ttu-id="ca0e6-129">MFCMAPI usa el método **MAPIOpenFormMgr** para abrir el Administrador de formulario, por lo que se puede seleccionar un formulario.</span><span class="sxs-lookup"><span data-stu-id="ca0e6-129">MFCMAPI uses the **MAPIOpenFormMgr** method to open the form manager so a form can be selected.</span></span>  <br/> |
+|<span data-ttu-id="82855-127">MainDlg.cpp abre el Administrador de formularios de modo que se puede seleccionar un formulario.</span><span class="sxs-lookup"><span data-stu-id="82855-127">MainDlg.cpp opens the form manager so a form can be selected.</span></span>  <br/> |<span data-ttu-id="82855-128">CMainDlg::OnSelectForm</span><span class="sxs-lookup"><span data-stu-id="82855-128">CMainDlg::OnSelectForm</span></span>  <br/> |<span data-ttu-id="82855-129">MFCMAPI usa el método **MAPIOpenFormMgr** para abrir el Administrador de formulario, por lo que se puede seleccionar un formulario.</span><span class="sxs-lookup"><span data-stu-id="82855-129">MFCMAPI uses the **MAPIOpenFormMgr** method to open the form manager so a form can be selected.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ca0e6-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="ca0e6-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82855-130">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="82855-130">See also</span></span>
 
 
 
-[<span data-ttu-id="ca0e6-131">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="ca0e6-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="82855-131">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="82855-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
