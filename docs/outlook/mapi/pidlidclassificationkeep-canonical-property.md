@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f448f25b469a1669e2fc3aaaa347dca6242da5f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e2a1aa45bfd718fa8ae1d4cd827023a80463a47
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580449"
 ---
 # <a name="pidlidclassificationkeep-canonical-property"></a>Propiedad canónica PidLidClassificationKeep
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si la clasificación de mensajes debe conservarse con el mensaje si el mensaje se reenvía o se responde.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

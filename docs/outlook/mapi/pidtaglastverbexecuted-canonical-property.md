@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c1a1313a6d24e06cf4d92f5eb57368696a4862e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe75a242772441b23d3aaa87fc57486d1f074914
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581660"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Propiedad canónica PidTagLastVerbExecuted
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el último verbo que se ejecuta.
   
@@ -72,7 +72,7 @@ Esta propiedad puede tener uno de los siguientes valores:
 |Reunión de instancia única  <br/> |0x00000402  <br/> |
 |Reunión periódica  <br/> |0x00000403  <br/> |
 |Solicitud de reunión / completo de la actualización  <br/> |0 x 00000404  <br/> |
-|Accept  <br/> |0x00000405  <br/> |
+|Aceptar  <br/> |0x00000405  <br/> |
 |Rechazar  <br/> |0x00000406  <br/> |
 |Aceptar provisionalmente  <br/> |0 x 00000407  <br/> |
 |Cancelación  <br/> |0x00000408  <br/> |
@@ -126,7 +126,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

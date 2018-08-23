@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7a42a3b50cfa5630ac66cb03caac06dd7cb00e6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cca22b466b1e0d2da9ca9cc009586df08316270c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819966"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581058"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Propiedad canónica PidTagProviderUid
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una estructura **MAPIUID** del proveedor de servicios que se encarga de un mensaje. 
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

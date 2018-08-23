@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 11b3279582c4cfb0d2c2249c6f4eddd7f0260b49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7af1e710006986807091c5c36d54da86204a71d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816702"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568465"
 ---
 # <a name="displaying-table-controls"></a>Mostrar controles de la tabla
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Existen muchos tipos diferentes de controles, ninguno exclusivas de MAPI. Sin embargo, MAPI define sus propias estructuras que se usan en combinación con [BuildDisplayTable](builddisplaytable.md) para describir el único conjunto de datos relacionadas con cada control. 
   
@@ -40,7 +40,7 @@ En la siguiente tabla se enumera las estructuras que describen cada tipo de cont
 |[DTBLPAGE](dtblpage.md) <br/> |Describe un control de páginas con fichas.  <br/> |
 |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Describe un control de botón de opción.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

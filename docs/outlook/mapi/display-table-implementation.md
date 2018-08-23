@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 07ad94c423c3be425dc905dc578f55ad2c467a95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e31dd7b25b3abf333505c8bde57f61be7a10901
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816675"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580610"
 ---
 # <a name="display-table-implementation"></a>Implementación de la tabla para mostrar
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla para mostrar se usa para mostrar una hoja de propiedades, un cuadro de diálogo especial que se compone de una o más páginas con fichas (propiedad) dedicado a mostrar y, posiblemente, editar una o más propiedades. Asociada con cada para mostrar tabla es un [IAttach: IMAPIProp](iattachimapiprop.md) implementación de la interfaz. La implementación de [IMAPIProp](imapipropiunknown.md) mantiene los datos de propiedad que se presentan en la hoja de propiedades. 
   
@@ -41,7 +41,7 @@ La primera técnica de acceso se usa cuando los proveedores de la libreta de dir
     
 4. Muestra el cuadro de diálogo, controlar la interacción del usuario con la información MAPI y lo quita cuando el usuario ha terminado. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3f1cab24ef6bbd632ee3dc204e93f59e6f9ac846
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f931382e790da13e7d4a746e286d9dc176b7b6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571909"
 ---
 # <a name="mapi-service-providers"></a>Proveedores de servicios de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Hay tres tipos comunes de proveedores de servicios:
   
@@ -56,7 +56,7 @@ Libreta de direcciones, almacén de mensajes y los proveedores de transporte rea
     
 - Controlador de apagado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

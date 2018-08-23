@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ff29ac7e7f9b7876bb678930390ca556351ecf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ab459239bdcdcad30c4b6c82d5a3f8641bd4aca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817495"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567807"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios. Este método se admite en todos los objetos de estado. 
   
@@ -187,7 +187,7 @@ Puede establecer la marca CONFIG_CHANGED en una llamada para el objeto de estado
   
 Cuando se establece la marca SUPPRESS_UI, se pueden mostrar ninguna de las hojas de propiedades de configuración o cuadros de diálogo de progreso. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
 - [IXPLogon::AddressTypes](ixplogon-addresstypes.md)

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica los elementos de celda que pueden estar incluidos en un DocumentSheet, hoja de estilos, PageSheet o ShapeSheet.
-ms.openlocfilehash: fb983b31dc69741b12c27f47833213f7b5c3ba2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821795"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575633"
 ---
 # <a name="cell-element-visio-xml"></a>Elemento de celda ('XML de Visio')
 
@@ -149,7 +149,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |EndArrowSize  <br/> |Determina el tamaño de la punta de flecha que aparece en el extremo de la línea.  <br/> |[Celda EndArrowSize (Sección de formato de línea)](endarrowsize-cell-line-format-section.md) <br/> |
 |EndTrigger  <br/> |Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el extremo de una forma 1-D para mantener su conexión con otra forma.  <br/> |[Celda EndTrigger (Sección de información de pegado)](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |Representa la coordenada x del extremo de la forma unidimensional en relación con el origen de su forma principal.  <br/> |[Celda EndX (Sección de extremos 1D)](endx-cell-1-d-endpoints-section.md) <br/> |
-|EndY  <br/> |Representa la coordenada y del extremo de la forma unidimensional en relación con el origen de su forma principal.  <br/> |[Celda EndY (Sección de extremos 1D)](http://msdn.microsoft.com/library/3fbfa4bc-7792-b6d9-d549-4602d252c293"%28Office.15%29.aspx) <br/> |
+|EndY  <br/> |Representa la coordenada y del extremo de la forma unidimensional en relación con el origen de su forma principal.  <br/> |[Celda EndY (Sección de extremos 1D)](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |Una celda de evento que se evalúa cuando se hace doble clic en una forma.  <br/> |[Celda EventDblClick (Sección de eventos)](eventdblclick-cell-events-section.md) <br/> |
 |EventDrop  <br/> |Una celda de evento que se evalúa cuando se coloca una forma en la página de dibujo, ya sea como una instancia o al duplicar o pegar la forma.  <br/> |[Celda EventDrop (Sección de eventos)](eventdrop-cell-events-section.md) <br/> |
 |EventMultiDrop  <br/> |Una celda de evento que se evalúa cuando se colocan varias formas en la página de dibujo, como instancias o cuando se duplicar o pegar formas.  <br/> |[Celda EventMultiDrop (sección Eventos)](eventmultidrop-cell-events-section.md) <br/> |
@@ -168,7 +168,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |Gamma  <br/> |Ajusta o corrige la intensidad de una imagen para un dispositivo específico de salida, como por ejemplo un monitor o un escáner. El valor predeterminado es 1 (sin corrección).  <br/> |[Celda Gamma (Sección de propiedades de la imagen)](gamma-cell-image-properties-section.md) <br/> |
 |GlowColor  <br/> |Determina el color utilizado para el trazo del resplandor externo aplicado a una forma, como un valor RGB o tema.  <br/> |[Celda GlowColor (sección Propiedades del efecto adicional)](glowcolor-cell-additional-effect-properties-section.md) <br/> |
 |GlowColorTrans  <br/> |Determina el nivel de transparencia del color utilizado para el trazo de resplandor de la forma, como un porcentaje.  <br/> |[Celda GlowColorTrans (sección Propiedades del efecto adicional)](glowcolortrans-cell-additional-effect-properties-section.md) <br/> |
-|GlowSize  <br/> |Determina el tamaño del resplandor externo de una forma en puntos.  <br/> |[Celda GlowSize (sección Propiedades del efecto adicional)](http://msdn.microsoft.com/library/2ddc7a08-25b8-4903-b0dd-be72d1fa8075"%28Office.15%29.aspx) <br/> |
+|GlowSize  <br/> |Determina el tamaño del resplandor externo de una forma en puntos.  <br/> |[Celda GlowSize (sección Propiedades del efecto adicional)](glowsize-cell-additional-effect-properties-section.md) <br/> |
 |GlueType  <br/> |Determina si la forma 1D utiliza un pegado estático (punto a punto) o dinámico (forma a forma) cuando se pega encima de otra.  <br/> |[Celda GlueType (Sección de información de pegado)](gluetype-cell-glue-info-section.md) <br/> |
 |Alto  <br/> |Determina el alto de la forma en las unidades de dibujo.  <br/> |[Celda Height (Sección de transformación de forma)](height-cell-shape-transform-section.md) <br/> |
 |HelpTopic  <br/> |Especifica el identificador del tema de Ayuda de la forma.  <br/> ||
@@ -222,7 +222,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |LockGroup  <br/> |Bloquea un grupo de modo que no pueda desagruparse.  <br/> |[Celda LockGroup (Sección de protección)](lockgroup-cell-protection-section.md) <br/> |
 |LockHeight  <br/> |Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.  <br/> |[Celda LockHeight (Sección de protección)](lockheight-cell-protection-section.md) <br/> |
 |LockMoveX  <br/> |Bloquea la posición horizontal de la forma de manera que ésta no se puede desplazar horizontalmente.  <br/> |[Celda LockMoveX (Sección de protección)](lockmovex-cell-protection-section.md) <br/> |
-|LockMoveY  <br/> |Bloquea la posición vertical de la forma de manera que ésta no se pueda desplazar verticalmente.  <br/> |[Celda LockMoveY (Sección de protección)](http://msdn.microsoft.com/library/4ed8cab4-112a-e96a-f4e3-02490a6f87fa"%28Office.15%29.aspx) <br/> |
+|LockMoveY  <br/> |Bloquea la posición vertical de la forma de manera que ésta no se pueda desplazar verticalmente.  <br/> |[Celda LockMoveY (Sección de protección)](lockmovey-cell-protection-section.md) <br/> |
 |LockPreview  <br/> |Determina si una vista previa se guarda automáticamente al guardar un dibujo.  <br/> |[Celda LockPreview (Sección de propiedades del documento)](lockpreview-cell-document-properties-section.md) <br/> |
 |LockReplace  <br/> |Indica si una forma puede participar en una operación de reemplazo (como un destino o una forma de reemplazo).  <br/> |[Celda LockReplace (sección Protección)](lockreplace-cell-protection-section.md) <br/> |
 |LockRotate  <br/> |Bloquea las formas bidimensionales para que no se puedan girar con los controladores de rotación ni con los comandos Girar 90 a la izquierda o Girar 90 a la derecha.  <br/> |[Celda LockRotate (Sección de protección)](lockrotate-cell-protection-section.md) <br/> |

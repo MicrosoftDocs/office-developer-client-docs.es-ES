@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 84076b613fe1fa43fc6c6f6042ec3d984a04bf71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f35780540f42fd4d3777b9fdd89c6795c97d98fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577061"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propiedad canónica PidLidIsInterpersonalFax
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si el elemento es un elemento de fax de internet.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

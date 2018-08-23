@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0de5bf5d5bb4d8c5606e97bdbc6e70493609a05f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7c1241f2ad31dee8277f3b3b77ac02137067a12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576312"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una lista de varios valores que se mostrará en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
   
@@ -60,7 +60,7 @@ Propiedades de cadena multivalor sólo son compatibles con la lista de varios va
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

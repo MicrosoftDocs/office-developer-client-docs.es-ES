@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9f7f3bc0e305fb5aa7d6ae1e1909b573b3376ef8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8385b2379f2fde8689ae2c7fc5d177af696f22e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579882"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Supervisión de los cambios de estado de conexión con un complemento en el estado sin conexión
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Antes de que puede usar un complemento de estado sin conexión para supervisar los cambios de estado de conexión, debe implementar las funciones para configurar e inicializar el complemento. Para obtener más información, vea [Agregar en configuración de seguridad de un estado no conectado](setting-up-an-offline-state-add-in.md).
   
@@ -306,7 +306,7 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
 - [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)

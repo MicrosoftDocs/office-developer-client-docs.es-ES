@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 01bdf6cdde864d1ea4ed19dfeb01a96236dc9c63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e32157f41632b782fbacf87e0411c18d167b4279
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817268"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576683"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que se ha producido un cambio en el estado del Visor del formulario. 
   
@@ -83,7 +83,7 @@ No se puede cambiar la configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE e
 
 La implementación específica de este método depende completamente de las características específicas del formulario. La mayoría de los objetos de formulario use este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar comandos de menú o botones para que coincida con el parámetro de indicadores de estado de Visor).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 70c3c0b60e4792c46d5cba8d40e810664ab3fbb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819362"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572805"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Propiedad canónica PidTagContentLength
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una longitud de mensaje, en bytes, que se pasan a una aplicación de cliente o un proveedor de servicios para determinar si se puede entregar un mensaje de esa longitud. 
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

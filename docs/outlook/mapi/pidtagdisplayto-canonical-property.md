@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 700cc03b-5d98-40ce-adb5-a11fdac8aa28
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d83683fded6a650a947caa7119d138f6f4105e1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79a0307aaf8b91a50485234acc2e1cbdd2314b47
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574170"
 ---
 # <a name="pidtagdisplayto-canonical-property"></a>Propiedad canónica PidTagDisplayTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de los nombres para mostrar de la principal (a) de los destinatarios del mensaje, separados por punto y coma (;). 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

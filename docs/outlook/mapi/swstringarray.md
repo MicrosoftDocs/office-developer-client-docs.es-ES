@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1578e26ec96f69975c2304cb185f352193a52c2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820815"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581359"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de cadenas de caracteres que se utilizan para describir una propiedad de tipo PT_MV_UNICODE. 
   
@@ -54,7 +54,7 @@ typedef struct _SWStringArray
 
 Para obtener más información sobre PT_MV_UNICODE, vea [Tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

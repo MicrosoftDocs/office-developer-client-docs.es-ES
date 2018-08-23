@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5be5cd7c352201159c0257861c0072b56da65082
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7513e361f4c1c1bcc93cc420f3a1987e0d817c54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580505"
 ---
 # <a name="ufromsz"></a>UFromSz
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Convierte una cadena terminada en null de dígitos decimales en un entero sin signo. 
   

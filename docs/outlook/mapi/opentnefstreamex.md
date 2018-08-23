@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 52fd844954f41d5d09b5e78f7c23ff6f7469bb43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b651a913855e99e2f26dfd99fb725cc332201932
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565189"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de formato de encapsulación neutro para el transporte (TNEF) que se puede usar para codificar o descodificar un objeto de mensaje en una secuencia de datos TNEF para su uso por los transportes o puertas de enlace y los almacenes de mensajes. Éste es el punto de entrada para el acceso de TNEF. 
   
@@ -125,7 +125,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |LoadFromTNEF  <br/> |MFCMAPI usa el método **OpenTnefStreamEx** para abrir una secuencia en el archivo TNEF, por lo que se pueden extraer las propiedades.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)

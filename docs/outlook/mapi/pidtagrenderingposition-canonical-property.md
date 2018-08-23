@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa149a81102a4981712ea3ca897d8b1ad448a1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 649490f18bb1a14a7056b49fd846e893fba304bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575213"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>Propiedad canónica PidTagRenderingPosition
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un desplazamiento, en caracteres, que se usarán en la representación de un archivo adjunto dentro del texto principal del mensaje.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

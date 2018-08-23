@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 53325ba2-0b4d-4495-b262-1781117c69a2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6b9fa6a5d793b45c757d228b57e17d6ac176ef5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30000ac957eac9fd16cbc59e3e121320259d6843
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576200"
 ---
 # <a name="pidlidcontactuserfield4-canonical-property"></a>Propiedad canónica PidLidContactUserField4
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el cuarto campo en el contacto al que está destinado a diversos usos del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

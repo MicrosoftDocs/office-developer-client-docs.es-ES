@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 38df67757082bd12e008e56632ec7e6961ba9d42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575962"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>Propiedad canónica PidTagFlagStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el estado de marca del objeto de mensaje.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

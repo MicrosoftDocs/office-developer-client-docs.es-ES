@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 012a3f6e-fd16-4dc9-845d-2bf4cebeaa42
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cc2d52ec183cc336bf126b1fda9a85d41f704f7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92b9fc9dd5fdf359af06e8a8e5b21d4591933a1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818791"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578090"
 ---
 # <a name="pidlidlogduration-canonical-property"></a>Propiedad canónica PidLidLogDuration
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la duración, en minutos, de un mensaje de diario.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

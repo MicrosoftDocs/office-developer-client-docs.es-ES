@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bbd1e187-172e-4612-9efe-7c8e52967dfe
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cb8b7d0fca6b30f75bd35d1e4e48fa359100ad18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f70d5fbe9a52c491d5db668f541ce317f2675c6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569046"
 ---
 # <a name="pidtagemailaddress-canonical-property"></a>Propiedad canónica PidTagEmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección de correo electrónico del usuario de mensajería. 
   
@@ -75,7 +75,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

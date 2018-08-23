@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 93be3351749ac3e9d285fb214f746d58b55fb5b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30a5848e07de03e61d3a63188aa7b608504ff24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573736"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propiedad canónica PidTagSensitivity
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que indica la opinión de la dirección del remitente del mensaje de la confidencialidad de un mensaje.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: 0195c68dae4a9d144da68a5e6d4ab84edca5c880
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 396a6c01d0b9cd867706a7dd4997bd6ddd7fd147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578293"
 ---
 # <a name="mapi-special-folders"></a>Carpetas especiales de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI define algunas carpetas especiales porque sirven roles predefinidos como carpetas predeterminadas para determinados tipos de mensajes. Estas carpetas especiales normalmente no se puede eliminar, y tienen propiedades de identificador de entrada especial.
   
@@ -61,7 +61,7 @@ Las carpetas especiales de Outlook se identifican mediante su identificadores qu
 |Tareas  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Drafts  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

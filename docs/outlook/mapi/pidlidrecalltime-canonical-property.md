@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fd96b4110daf205bf5b6e843b0dbbc91a4839949
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1459dcdb32dce2826f10b5616f899cd424b634b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580603"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>Propiedad canónica PidLidRecallTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la hora a la que se inició una recuperación de mensaje.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f534a4738eb18519dc62cc18cfb79391ea39633b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e05cf37d7605942abc9a2073957264503b8d92db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574072"
 ---
 # <a name="pidlidattendeecriticalchange-canonical-property"></a>Propiedad canónica PidLidAttendeeCriticalChange
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la fecha y hora cuando se ha enviado el objeto relacionados con la reunión.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

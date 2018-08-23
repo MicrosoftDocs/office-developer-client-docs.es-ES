@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fefd81a7d6cdfda24df93ec928cd3305cb8ef8be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579042"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un identificador de entrada para una dirección de uso único.
   
@@ -96,7 +96,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en cualquier libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

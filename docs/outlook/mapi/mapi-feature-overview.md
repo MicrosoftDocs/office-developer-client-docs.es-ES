@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1ff3677a2bbc8ca54e5bc96ae1e873e3efd3c6bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 034f3dd8bc68462348bc92a8acf2904ab66fc798
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818110"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575612"
 ---
 # <a name="mapi-feature-overview"></a>Información general sobre la característica MAPI
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI tiene varias características claves que le permiten proporcionar una manera coherente para desarrolladores trabajar con y utilizar distintos sistemas de mensajería en forma transparente. Estas características incluyen una completa y abrir la interfaz de programación y compatibilidad con los estándares del sector. 
   
@@ -35,7 +35,7 @@ Objetos compatible con MAPI son similares en el formulario a los objetos del mod
   
 MAPI proporciona compatibilidad multiplataforma a través de dichos estándares del sector como SMTP y X.400. Puede ejecutar las aplicaciones MAPI en Windows 7, Windows Vista, Windows Server 2008, Windows Server 2003 y Windows XP. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 165fe3a72060e88dc34d8153c13ae58bcbd9ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577488"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Comprobaciones de estado externo del proveedor de transporte. 
   
@@ -96,7 +96,7 @@ La cola MAPI llama el método **IXPLogon::ValidateState** para admitir las llama
   
 Para admitir su implementación de **IMAPIStatus::ValidateState**, la cola MAPI llama a **IXPLogon::ValidateState** en todos los objetos de inicio de sesión para todos los proveedores de transporte de activo que se ejecutan en una sesión de perfil. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

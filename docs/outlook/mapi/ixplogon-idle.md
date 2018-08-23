@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f600db6-f6a6-44f9-aef7-c1309f61eb12
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 75607550f1d6085a670ad997238994400e08f7bd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12aa8b79e38320d9767a6c333cb0197ea5669862
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578019"
 ---
 # <a name="ixplogonidle"></a>IXPLogon::Idle
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que el sistema está inactivo, habilitar el proveedor de transporte realizar operaciones de prioridad baja.
   
@@ -49,7 +49,7 @@ S_OK
 
 La cola MAPI llama periódicamente el método **IXPLogon::Idle** , si solicitado durante las horas de cuando el sistema está inactivo, se pasa el indicador XP_LOGON_SP en la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) que abrió la sesión actual. A veces cuando el sistema está inactivo, el proveedor de transporte puede realizar operaciones en segundo plano que no son adecuados durante el resto de las llamadas a o de que se producen de forma regular. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

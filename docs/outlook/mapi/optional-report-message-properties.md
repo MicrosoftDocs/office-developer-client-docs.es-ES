@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0dfec4b716a4831aeebb9d558223d919b17cb2d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63c1ca2277a65698ee341c56c27cb451d2b1d87c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574051"
 ---
 # <a name="optional-report-message-properties"></a>Propiedades opcionales para los mensajes de informes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En ocasiones, aparecen las siguientes propiedades con mensajes de informe:
   

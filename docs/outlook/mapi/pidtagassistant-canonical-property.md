@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 24892aff-5a98-4d61-b740-17f74f8ae95d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8e3ace1ff36e433ea7687304a3b1ba26a88309e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 581d99e72fcdc6996e03f04f9c8b5e906049f1c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574919"
 ---
 # <a name="pidtagassistant-canonical-property"></a>Propiedad canónica PidTagAssistant
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre del auxiliar administrativo del destinatario. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

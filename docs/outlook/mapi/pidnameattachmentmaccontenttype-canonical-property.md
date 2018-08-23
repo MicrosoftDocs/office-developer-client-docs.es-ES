@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d345324d-83a1-40e7-a6af-16cfc67a4932
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8f9ad3a6e84d4045d157a18989f62ea6db2fb136
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e98d8f3c94c119477c48e15788cf981a2f4f8f89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581268"
 ---
 # <a name="pidnameattachmentmaccontenttype-canonical-property"></a>Propiedad canónica PidNameAttachmentMacContentType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de campo de encabezado Content-Type de [RFC3282] los datos adjuntos que se usan los clientes de correo electrónico basado en Macintosh.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Attachment  <br/> |
 |Nombre de la propiedad:  <br/> |AttachmentMacContentType  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

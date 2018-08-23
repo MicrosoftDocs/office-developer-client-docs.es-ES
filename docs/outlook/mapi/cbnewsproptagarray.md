@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dffc8093200d5fb65e44236bda0eaca63a580cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716550a847aff868d01cb67356409537df83b6d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816530"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575934"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes que se asignará para una nueva estructura de [elemento SPropTagArray](sproptagarray.md) que contiene un número especificado de etiquetas de propiedad. 
   
@@ -42,7 +42,7 @@ CbNewSPropTagArray (_ctag)
   
 > Recuento de etiquetas de propiedad que se deben incluir en la nueva estructura de **elemento SPropTagArray** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

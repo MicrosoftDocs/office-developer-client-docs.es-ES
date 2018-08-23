@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 40839e34a61b5e5fdd3d7b69d8c553d7e469cd22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 198e388f5cfb6ab0431e7b7a78b9a0be3d103597
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582122"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>Propiedad canónica PidTagDeliverTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y hora cuando se entregó el mensaje original. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

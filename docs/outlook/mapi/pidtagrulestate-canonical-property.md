@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 519ee2b91275e4253845afa35a9a80470071966d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9d1adb6dd1fc151c9a599ea44391c2ca5b2fe2aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580568"
 ---
 # <a name="pidtagrulestate-canonical-property"></a>Propiedad canónica PidTagRuleState
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un valor que se interpreta como una combinación de máscara de bits de marcadores que especifican el estado de la regla.
   
@@ -104,7 +104,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

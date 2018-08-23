@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5c93d00c-a199-4d45-9bf6-87bd2ffe4784
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7b0af907fd5346de5b818c9c75a3d115e598b5e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ce5de883d28d7575a8abb83ec48454752ea7ba6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819637"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580484"
 ---
 # <a name="pidtaginternetmessageid-canonical-property"></a>Propiedad canónica PidTagInternetMessageId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se corresponde con el campo de identificador de mensaje tal como se especifica en [RFC2822].
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 277505beb11dbc2b32b7e970c2bcf2a34dbdf00b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581611"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Obtener la ruta de acceso de una versión específica de MAPI para el cliente de correo predeterminado
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se incluye un ejemplo de código en C++ que se muestra cómo obtener la ruta de acceso de una versión específica de MAPI que se usa en el cliente de correo predeterminado en un equipo. Los clientes de correo MAPI tienen una opción para especificar en el registro de un archivo DLL personalizado que la biblioteca de código auxiliar MAPI debe cargar y distribuir MAPI llamadas a. La clave del registro para establecer para este archivo DLL personalizado para un cliente de correo predeterminado es **MSIComponentID**, bajo la clave **HKLM\Software\Clients\Mail** del cliente de correo predeterminado. La función [FGetComponentPath](fgetcomponentpath.md) , exportada por la biblioteca de código auxiliar MAPI, mapistub.dll, puede devolver la ruta de acceso a la versión personalizada de MAPI especificado por la clave del registro **MSIComponentID** . 
   

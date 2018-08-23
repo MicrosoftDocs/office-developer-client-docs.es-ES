@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4b611818-f99f-43a2-9f6b-1aa5b9564d1d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 29a135264772847a624e1a4558b68bcf822b18df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30dca8323f74bc2817bab375b58fcc1bc15c18b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816611"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574261"
 ---
 # <a name="creating-a-profile-by-using-the-profile-wizard"></a>Crear un perfil con el Asistente de perfiles
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El Asistente para perfiles es una característica MAPI que permite a un usuario crear un perfil de la manera más sencilla posible. El Asistente para perfiles, se muestra una serie de cuadros de diálogo que solicite al usuario que seleccione los servicios de mensajes y escriba los valores para algunas de las propiedades de configuración más esenciales. Para la mayoría de las demás propiedades necesarias, el Asistente para perfiles utiliza los valores predeterminados proporcionados. Para invocar al Asistente para perfiles, llamar a **LaunchWizard**, una función según el prototipo [LAUNCHWIZARDENTRY](launchwizardentry.md) . 
   

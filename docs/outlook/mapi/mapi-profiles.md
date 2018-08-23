@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818171"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579861"
 ---
 # <a name="mapi-profiles"></a>Perfiles de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un perfil de almacena información acerca de los proveedores de servicios y los servicios de mensaje que se instalan en un equipo. Para cada sesión, un cliente en tiempo de inicio de sesión selecciona un perfil que describe los servicios y los proveedores que se va a utilizar. Puede elegir entre una colección de los perfiles de un cliente y, si así lo desea, establecer uno como el valor predeterminado. El perfil predeterminado es el perfil que se selecciona automáticamente cuando un cliente inicia una sesión y no ha especificado explícitamente un perfil.
   

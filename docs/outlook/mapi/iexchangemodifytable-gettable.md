@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0cf9373c68d533908b857a4d8f1c0e71aa11846f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578993"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a una interfaz para un objeto de tabla MAPI.
   
@@ -65,7 +65,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI usa el método **IExchangeModifyTable::GetTable** para obtener una tabla de reglas.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

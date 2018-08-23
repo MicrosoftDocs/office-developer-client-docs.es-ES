@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8a0b10596bdfdc1ea33f6d170ee1e021193d3788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28e7874d1e61c0a4fe0ad702f206ca03a9a1096a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818023"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575878"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que la cola MAPI tiene un mensaje para el proveedor de transporte entregar.
   
@@ -114,7 +114,7 @@ Si **SubmitMessage** devuelve un error, la cola MAPI libera el mensaje en proces
   
 En el caso de errores que se producen debido a problemas de transporte, la cola MAPI conserva el mensaje, pero retrasa el volver a enviar el mensaje para el proveedor de transporte basándose en el valor devuelto en _lpulReturnParm_. Si su valor devuelto desde **SubmitMessage** es MAPI_E_WAIT o MAPI_E_NETWORK_ERROR, debe rellenar el proveedor de transporte en ese valor. Si se produce una condición de error grave, el proveedor de transporte debe llamar al método [SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_CRITICAL_ERROR. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

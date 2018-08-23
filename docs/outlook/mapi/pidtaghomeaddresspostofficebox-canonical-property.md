@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c30377d3-6184-4c8a-8819-dd12c6b08ad4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 167f1c61569c6c9eec4f2361e453b58f0ab127d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f9043a62de37baa89440a6eaa90070f68a311df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580988"
 ---
 # <a name="pidtaghomeaddresspostofficebox-canonical-property"></a>Propiedad canónica PidTagHomeAddressPostOfficeBox
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la información de apartado de correos de la dirección de un usuario.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

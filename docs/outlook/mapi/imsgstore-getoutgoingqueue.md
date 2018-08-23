@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1b59071758aad9c71939eb9efc029005806b2a37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe722e8723fdc3868cbbc3188f03e13ef3f466f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575339"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la tabla de cola saliente, una tabla que contiene información acerca de todos los mensajes en cola de salida del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -62,7 +62,7 @@ Debido a que la cola MAPI está diseñada para aceptar los mensajes de un almac�
   
 Debe admitir las notificaciones para la tabla de cola de mensajes salientes, asegurarse de que la cola MAPI recibe una notificación cuando cambia el contenido de la cola. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

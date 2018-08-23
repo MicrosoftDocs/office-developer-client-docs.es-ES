@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8b4e090b3dd6bf8ecd2517dee57093106147e22d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56bf1366cdd44fac185277280d2e8ab80c644c45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820758"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579126"
 ---
 # <a name="srow"></a>SRow
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una fila de una tabla que contiene las propiedades seleccionadas de un objeto específico. 
   
@@ -87,7 +87,7 @@ Se definen las estructuras **SRow** el mismo como estructuras [ADRENTRY](adrentr
   
 Para obtener información acerca de cómo se debe asignar la memoria para las estructuras de **SRow** , vea [Administración de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [ADRENTRY](adrentry.md)
 - [SPropValue](spropvalue.md)

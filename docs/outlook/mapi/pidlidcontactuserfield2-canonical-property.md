@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 32e33d84-3d75-47e6-9109-d670f9e63d2e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d53a35f3723cdbb44147ae5a5450250d695eab97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e625204ae147ec1fff696bd82c15d4837e65f53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566575"
 ---
 # <a name="pidlidcontactuserfield2-canonical-property"></a>Propiedad canónica PidLidContactUserField2
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el segundo campo en el contacto al que está destinado a diversos usos del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

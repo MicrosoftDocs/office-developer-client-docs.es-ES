@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c0653caec5f3cac531206e1bb9c4330cac5f3133
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8152a9cad7623a077cd9df3f678a9ada56e3960
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577964"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Funciona con las propiedades de objetos de sección de perfil. 
   
@@ -80,7 +80,7 @@ MAPI proporciona una sección de perfil con la MUID_PROFILE_INSTANCE constante c
   
 Para obtener más información acerca de cómo usar las secciones del perfil, vea [administración de perfiles y servicios de mensajes](administering-profiles-and-message-services.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

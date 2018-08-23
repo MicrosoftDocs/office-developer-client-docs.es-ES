@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cae4ef6e4d7634ca2b429eb946aa948f5d90cd92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79f6c90d1ebd2257cc428e88dfce3d9ee9dfeccf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820426"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573470"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>Propiedad canónica PidTagToDoItemFlags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la condición marcado del elemento de tareas pendientes.
   
@@ -69,7 +69,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

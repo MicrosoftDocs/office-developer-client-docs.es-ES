@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 74074f5ad28bca5bc98242cefebd0111d9cf6415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c0b235b3e931a8c188f5c92c3d9eb3f3c326a83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563502"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>Propiedad canónica PidNameHiddenCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el valor oculto del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |HiddenCount  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

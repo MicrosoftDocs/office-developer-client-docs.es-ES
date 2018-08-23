@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d94087c2-a996-45b0-b5ed-0293d8a47d9b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e6375f6db7a2f4dae540267603f5ef50feb4f81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ee0982d8a8f1eb137caa6d708b74794de36cdb9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581338"
 ---
 # <a name="pidtagftpsite-canonical-property"></a>Propiedad canónica PidTagFtpSite
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección URL de protocolo de transferencia de archivos (FTP) del contacto. FTP es un protocolo que se usa para transferir datos, tal como se especifica en [RFC959].
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6f6718bf63c48dec6d2d19b5931c6e7e81513a2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 442a5a69138fdd229289b4201224a4f151c8ccc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581905"
 ---
 # <a name="pidtagreceivedbyemailaddress-canonical-property"></a>Propiedad canónica PidTagReceivedByEmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección de correo electrónico del usuario de mensajería que recibe el mensaje.
   
@@ -80,7 +80,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

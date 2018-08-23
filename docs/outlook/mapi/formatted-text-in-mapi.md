@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6b82a755cbf2c8bd0f1d3676d4560e131dce3bd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816872"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580631"
 ---
 # <a name="formatted-text-in-mapi"></a>Texto con formato de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El texto de un mensaje se puede almacenar y transmite utilizando texto sin formato o texto con formato. Texto con formato mejora el texto del mensaje mediante la modificación de su aspecto con, por ejemplo, uno o más fuentes, tamaños de fuente o los colores de texto. Se recomienda que todos los clientes y siempre que sea posible, todos los proveedores de almacén de mensajes, admiten texto con formato. Compatibilidad con texto con formato en los mensajes agrega valor por mejorar la legibilidad de mensaje y facilitan el control de mensajes y más eficaz.
   

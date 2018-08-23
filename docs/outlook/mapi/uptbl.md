@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 70d23bebfda10339ffb05f573c8c309a44f09d7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580442"
 ---
 # <a name="uptbl"></a>UPTBL
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para cargar el contenido de una carpeta durante la [carga de estado de la tabla](upload-table-state.md).
   
@@ -89,7 +89,7 @@ _Conserva_
   
 > [out] Este miembro está reservado para el uso interno de Outlook y no se admite.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

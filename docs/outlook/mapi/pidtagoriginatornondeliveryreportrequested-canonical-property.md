@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 841d2b14efc781d89727b0c7ed677f527526a4ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569067"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propiedad canónica PidTagOriginatorNonDeliveryReportRequested
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el remitente de un mensaje, solicita un informe de no entrega para un destinatario concreto.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

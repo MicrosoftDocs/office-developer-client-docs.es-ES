@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: db8ca0945c429e7b277ec95b419386d1ce175169
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0f2efc17ca8790502f11d677498013cbe10205d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579357"
 ---
 # <a name="mapi-architecture-overview"></a>Información general sobre la arquitectura MAPI
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI define una arquitectura modular, tal como se muestra en la siguiente ilustración.  
   
@@ -31,7 +31,7 @@ MAPI tiene interfaces que se usan por el subsistema MAPI, por los programadores 
   
 Como desarrollador de software de cliente, realizar llamadas MAPI directamente a través de la interfaz de programación de MAPI. Puede implementar la mensajería con una sola interfaz de cliente MAPI o una combinación de interfaces. Una sola aplicación puede realizar llamadas a métodos o funciones que pertenezcan a cualquiera de las interfaces.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 -[Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

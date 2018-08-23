@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 803481a71d505fc9f12e77b162a91200cac505d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580141"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Propiedad canónica PidTagDeliveryPoint
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la naturaleza de la entidad funcional por medio de que un mensaje se ha o habría se ha entregado al destinatario. 
   
@@ -80,7 +80,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

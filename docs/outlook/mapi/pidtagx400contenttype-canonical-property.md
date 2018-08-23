@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ac79c37c8d646e5fa722af240972a0638d1bcec7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc120a863fb9a061381eac81be04e385831cf484
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566792"
 ---
 # <a name="pidtagx400contenttype-canonical-property"></a>Propiedad canónica PidTagX400ContentType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene el tipo de contenido de un mensaje enviado.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

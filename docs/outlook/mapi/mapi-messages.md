@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1146fa0441d0b55a7610368324489bd3a6bb24e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf7876dacac40420fdedb8b6f55c99efcf56c4f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579938"
 ---
 # <a name="mapi-messages"></a>Mensajes MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los mensajes son objetos MAPI que se transmiten desde una aplicación cliente a otro a través de la cola MAPI y los proveedores de servicios por medio de un sistema de mensajería. Casi todos los componentes en MAPI funciona con los mensajes. Los clientes permiten a los usuarios crear, guardar, enviar y eliminar mensajes además de copiar y mover de una carpeta a otra. Los proveedores de almacén de mensajes son responsables de la administración de mensajes y de entrega de mensajes a la cola MAPI o un proveedor de transporte. La cola MAPI mueve los mensajes a un proveedor de transporte adecuados, mientras que los proveedores de transporte controlen la entrega y la recepción de mensajes a y desde un sistema de mensajería y establezca destinatario y mensaje propiedades de opción. Los proveedores de la libreta de direcciones indirectamente trabajar con mensajes, compatibilidad con las propiedades que describen a los destinatarios del mensaje.
   
@@ -39,7 +39,7 @@ Los proveedores de almacén de mensajes admiten los mensajes, datos adjuntos y l
 |[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Crea, copia y mueve los mensajes y subcarpetas y administra el estado del mensaje.  <br/> |
 |[IAttach](iattachimapiprop.md) <br/> |Administra las propiedades de los datos adjuntos.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

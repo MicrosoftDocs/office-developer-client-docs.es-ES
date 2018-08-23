@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a4a72e6d5136d7e78648cb62849f7162b7b35f6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819311"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565413"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Propiedad canónica PidTagContactAddressBookFolderName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un nombre de carpeta usado para entradas de la libreta de direcciones.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

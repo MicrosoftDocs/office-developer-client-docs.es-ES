@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bc00270b167c9f7317fa466d790d5020d961676f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2bfe2841592987c530f6323db94834c1dcb64b2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576641"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el tamaño de un valor de propiedad único. 
   

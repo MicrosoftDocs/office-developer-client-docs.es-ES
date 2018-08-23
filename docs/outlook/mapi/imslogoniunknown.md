@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 42e2633ac6d534be2c75c47b24c1da5ed9771e18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 013903f36bf648c4aed194c88104e7dd981b199f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817810"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563943"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recursos de accesos en un mensaje almacenan el objeto de inicio de sesión.
   
@@ -52,7 +52,7 @@ Recursos de accesos en un mensaje almacenan el objeto de inicio de sesión.
 
 El objeto de inicio de sesión del almacén de mensajes es la parte de un proveedor de almacén de abrir el mensaje MAPI llama directamente. Hay una correspondencia uno a uno entre el objeto de inicio de sesión del almacén de mensajes que las llamadas MAPI y el mensaje de almacenan objetos que llaman a las aplicaciones cliente; Puede pensar en el inicio de sesión y almacenar objetos como un objeto que expone dos interfaces. Los dos objetos se crean juntos y liberado juntos.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

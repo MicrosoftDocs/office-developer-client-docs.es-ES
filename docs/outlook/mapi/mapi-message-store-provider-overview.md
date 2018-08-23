@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5cc8261dfee6803492ffcf62c182930e2ac6d425
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 614d9ab1037f0fc2735112801e30e530bfafe4db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818160"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569074"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Información general sobre el proveedor de almacén de mensajes MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes controlan el almacenamiento y la recuperación de mensajes y otra información para los usuarios de aplicaciones de cliente. La información del mensaje se organiza mediante el uso de un sistema jerárquico conocido como un almacén de mensajes. El almacén de mensajes se implementa en varios niveles, con contenedores denominados contiene mensajes de distintos tipos de carpetas. No hay ningún límite para el número de niveles en un almacén de mensajes; las carpetas pueden contener varias subcarpetas. 
   
@@ -37,7 +37,7 @@ Los mensajes son las unidades de datos que se transfieren desde una aplicación 
   
 Según el mensaje de proveedor de almacén, un usuario puede guardar un nuevo mensaje actualmente que se está escribiendo además a los mensajes que se han enviado o recibido. Los mensajes se pueden copiar o mover de una carpeta a otra con cada copia se convierta en un mensaje independiente que se puede copiar, eliminar o modificar individualmente. Otra característica que habilitar los proveedores de almacén de algunos mensajes es la capacidad para cambiar un mensaje después de que se ha recibido y almacenar en su carpeta. Un usuario puede aprovechar esta característica para girar un mensaje de fax que llega a boca abajo. El usuario puede almacenar la vista correcta en la carpeta para su posterior consulta. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

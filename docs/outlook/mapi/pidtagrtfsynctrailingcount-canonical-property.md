@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3174ebbcf70104c82305e2a20df1e183d30265d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7efa8dccf4c2c6da0ad60688d06d241d336e3943
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581009"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Propiedad canónica PidTagRtfSyncTrailingCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un recuento de los caracteres puede pasar por alto que aparecen después de los caracteres del mensaje significativos.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

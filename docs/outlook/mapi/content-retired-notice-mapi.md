@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
 description: 'Última modificación: 05 de octubre de 2012'
-ms.openlocfilehash: 08a40a5fddadb732ef906af28d4e7bfaf1480678
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f6e7dd5d04fbfe4bcec739f9e0e858695144b28
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816572"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577670"
 ---
 # <a name="content-retired-notice-mapi"></a>Contenido retirado aviso (MAPI)
 
 
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El contenido que se ha intentado ver ya no está disponible. Es posible que se han eliminado o reemplazado con una versión más reciente. Explore este conjunto de vínculos a su disposición para aumentar la velocidad.
   

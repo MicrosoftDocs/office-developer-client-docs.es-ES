@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eac130cd-51d1-4c73-a301-a7eafa3b7749
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1a05238899ee85b29c2e96b480a0462d7b273650
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02f3a0678c66ef684a69786f7613fa179c9b9862
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582213"
 ---
 # <a name="pidtagprimarytelephonenumber-canonical-property"></a>Propiedad canónica PidTagPrimaryTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono principal del destinatario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

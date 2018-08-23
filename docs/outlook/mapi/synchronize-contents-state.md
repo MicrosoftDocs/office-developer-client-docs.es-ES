@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 216691f2c1f94d658a5aa968d6a19148a9b3c06a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2bdbeb39cce1e62569f364875c3828cdd530c63
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577250"
 ---
 # <a name="synchronize-contents-state"></a>Estado de sincronización de contenidos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado del contenido de sincronizar de la máquina de estado de replicación. 
   
@@ -43,7 +43,7 @@ Además, el cliente obtiene los identificadores de entrada para las carpetas que
   
 Cuando finaliza este estado, Outlook limpia su información interna. Devuelve el almacén local en el estado de sincronización.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

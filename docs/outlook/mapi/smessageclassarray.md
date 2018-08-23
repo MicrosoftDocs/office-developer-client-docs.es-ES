@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 01563e3655d42abc62ea88a12f2878e5d81129d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2caa70600bd32234e38420f274bcd5c46ffb070
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578160"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de punteros a cadenas de clase de mensaje.
   
@@ -59,7 +59,7 @@ La estructura **SMessageClassArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

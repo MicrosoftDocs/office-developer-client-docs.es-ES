@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 465121d37489b6810ca141d798b6c96d3f14980e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576487"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  Crea un objeto sin conexión de MAPI que se usa en el proveedor y el almacenamiento con el fin de notificar a MAPI cuando el objeto queda en línea y sin conexión, 
   

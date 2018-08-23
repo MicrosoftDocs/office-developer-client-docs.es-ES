@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fe07ed7c7f9c76f82b54732c019b9b5f8beb5db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f54ef96443e5c9fc5fb587f5a9c25388c1ff9cdb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577425"
 ---
 # <a name="sbinary"></a>SBinary
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una propiedad de tipo PT_BINARY.
   
@@ -54,7 +54,7 @@ typedef struct _SBinary
 
 Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

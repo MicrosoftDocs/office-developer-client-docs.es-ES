@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e9ad675e6df88265238a28f18e5cfcdacfdfbb5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8f4e62a8eb1b5e61cb0223c66b921e15ab9423b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577684"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de atributos para las propiedades de un objeto. 
   
@@ -63,7 +63,7 @@ typedef struct
 
 La estructura **SPropAttrArray** se usa en los objetos de datos de propiedad que implementan el [IPropData: IMAPIProp](ipropdataimapiprop.md) interfaz. También se usa la implementación de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) es decir, en función de almacenamiento estructurado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

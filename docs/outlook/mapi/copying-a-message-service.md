@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 01e8ad76-973a-42fa-96aa-f41aabc12b4f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7d1296ba74bbafcd26a8878dfb1eb2f359ab3e03
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8388d14446a230b032e49ad0d614c85e79b8ece8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816562"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573722"
 ---
 # <a name="copying-a-message-service"></a>Copiar un servicio de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  **Para copiar un servicio de mensajes a un perfil**
   

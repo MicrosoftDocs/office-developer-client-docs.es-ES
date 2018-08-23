@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5750cf95-8581-43a7-a465-f4114b2939f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1153b1bf248f8f2ce6672f5ee0f30c90124370fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3ba97a9538b6c773c041eb7b890e834da6f0d83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579119"
 ---
 # <a name="pidtagcomment-canonical-property"></a>Propiedad canónica PidTagComment
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un comentario sobre el propósito o el contenido de un objeto. 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

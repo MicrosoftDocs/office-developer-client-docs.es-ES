@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3007aeb5ac3810c57ed6fb4a555d5ce22e831768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567926"
 ---
 # <a name="mapi-progress-objects"></a>Objetos de progreso MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Con los métodos y datos de un objeto de progreso, puede controlar cómo el indicador de informes de progreso. Aunque un cliente o MAPI implementa el objeto de progreso, la mayor parte de la carga de garantizar la corrección de la pantalla de progreso entra en proveedores de servicios. Puede garantizar su exactitud especificando un orden determinado y un valor para los parámetros que se pasan a los métodos del objeto de progreso.
   
@@ -57,7 +57,7 @@ Cuando no se establece MAPI_TOP_LEVEL, los valores máximos y mínimos se consid
   
 El valor de recuento de objetos, objeto total los parámetros y se introducen en el método **IMAPIProgress::Progress** . El parámetro de valor, un número que indica el porcentaje de progreso, es necesario. Si se establece la marca MAPI_TOP_LEVEL, también se pueden pasar un recuento de objetos y un total de objeto. Algunos clientes de utilizan estos valores para mostrar una frase, como "5 elementos completadas del 10" con el indicador de progreso. Una operación puede ser informar del progreso de manera estricta como un porcentaje o como un porcentaje y en cuanto al número de elementos que se han procesado de total que va a procesar. Por ejemplo, si usted es un proveedor de almacén de mensajes y se realiza una operación de copia que está copiando 10 carpetas, el indicador de progreso puede proporcionar el usuario con información adicional mediante la presentación de una frase, como "1 de 10", "2 de 10", "3 de 10" , y así sucesivamente hasta que la operación completa. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

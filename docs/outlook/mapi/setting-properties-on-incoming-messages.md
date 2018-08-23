@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cf4a0501-f42b-4652-a239-003022686475
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f6233afffd532c420ae170ae45b1bf93d6571865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44b5b489d3efce3ecea69ccd8b7b7a638b173c13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578440"
 ---
 # <a name="setting-properties-on-incoming-messages"></a>Establecer propiedades en mensajes entrantes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las aplicaciones cliente dentro del subsistema MAPI esperan un número de propiedades en los mensajes recibidos. Cuando el proveedor de transporte aporta un mensaje en MAPI, debe establecer estas propiedades, ya que es el único proceso con la información necesaria para hacerlo, o al menos el mejor origen de la información.
   

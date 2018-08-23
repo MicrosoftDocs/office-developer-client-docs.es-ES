@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 902b991dcca8a48597a26c52081b8c1993c911b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d42bcf531c09ca2486b0181b86bae72e223d2007
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577166"
 ---
 # <a name="required-report-message-properties"></a>Propiedades necesarias para los mensajes de informes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En la siguiente tabla se describe las propiedades que los clientes pueden esperar para ver admitidos en los mensajes de informe.
   

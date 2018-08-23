@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 926b33fa3627461139362737f86248f217191534
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816974"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576844"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Crear un elemento de tarea periódica simple
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI se puede usar para crear para crear elementos de tarea. En este tema se describe cómo crear un elemento de tarea periódica simple.
   
@@ -176,7 +176,7 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Uso de MAPI para crear elementos de Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
 

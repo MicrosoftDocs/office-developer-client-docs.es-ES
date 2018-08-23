@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef38893c9ad44556cc9220809b5e407f86fd2642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816740"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576319"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe un control de cuadro de grupo que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
@@ -61,7 +61,7 @@ Una estructura **DTBLGROUPBOX** describe un control de cuadro de grupo que se us
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

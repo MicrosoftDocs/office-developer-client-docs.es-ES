@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9444806347c97077b03922b116e2ed7f61665cc1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c00e54d02ba494c94c9826eabe142e1bd3b9a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579630"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a un proveedor de almacén de mensajes a través de un objeto de proveedor de almacén de mensajes. Este objeto de proveedor de almacén de mensajes se devuelve al inicio de sesión de proveedor mediante la función de punto de entrada de [MSProviderInit](msproviderinit.md) del proveedor de almacén de mensajes. El objeto de proveedor de almacén de mensajes se usa principalmente en las aplicaciones cliente y la cola de MAPI para abrir los almacenes de mensajes. 
   
@@ -57,7 +57,7 @@ Un objeto de proveedor de almacén de mensajes debe contener lo siguiente para f
     
 - Una lista vinculada de todos los almacenes abierto mediante el uso de este objeto de proveedor y aún no se ha cerrado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

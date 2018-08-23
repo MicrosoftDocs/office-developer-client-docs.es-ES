@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 86fe4b0a1a7521c310788505b99f53bc8657de75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2405799fa59abf58583553f8e2d3718d68411a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816774"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574975"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe la información que se relacionan con un error crítico. Esto hace que se genere una notificación de error. 
   
@@ -82,7 +82,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
 |[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

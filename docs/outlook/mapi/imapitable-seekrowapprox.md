@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 12b0c9b40c7ff06e9a3cf8e7929489f30434fa12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6803c54ddd60c1bcebbe7a139c2edf2e7f4449d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572097"
 ---
 # <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Mueve el cursor a una posición aproximada fraccionaria en la tabla. 
   
@@ -64,7 +64,7 @@ Llame a **SeekRowApprox** para proporcionar los datos para una implementación d
   
 Usar cualquier combinación de número es adecuado. Es decir, para buscar a una posición intermedia a través de la tabla, puede especificar 1/2, 10/20 o 50/100. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

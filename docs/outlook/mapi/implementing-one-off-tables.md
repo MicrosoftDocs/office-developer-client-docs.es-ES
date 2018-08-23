@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b72b8658270a8e007123df3ead01168208b8d1b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b86ec02c0255d892c42a9be9610d31b76041822c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817692"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579112"
 ---
 # <a name="implementing-one-off-tables"></a>Implementación tablas puntuales
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El proveedor podría implementar una o varias tablas de uso único. Una tabla de uso único es una lista de resumen de uso único plantillas que se usan para crear a destinatarios, ya sea directamente en un contenedor o en la lista de destinatarios de un mensaje saliente. Una plantilla de uso único es un emplean de los usuarios del formulario para escribir datos relevantes para un determinado tipo de dirección. Cuando el usuario es terminado de trabajar con la plantilla, su proveedor crea el destinatario nuevo y lo agrega al mensaje. Normalmente, cada plantilla controla un tipo de una sola dirección. Sin embargo, es posible para una plantilla controlar varios tipos o para varias plantillas controlar el mismo tipo. 
   

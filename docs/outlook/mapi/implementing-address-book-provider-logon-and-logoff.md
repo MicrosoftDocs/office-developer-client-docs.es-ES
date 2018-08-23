@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1ffde0814fe5024a3f89a93462c48136712f1013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817683"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572105"
 ---
 # <a name="implementing-address-book-provider-logon-and-logoff"></a>Implementar el inicio y cierre de sesión de proveedor de libreta de direcciones
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de la libreta de direcciones compatible con inicio de sesión y cierre de sesión mediante la implementación de los métodos de la [IABProvider: IUnknown](iabprovideriunknown.md) interfaz. El ** IABProvider ** interfaz hereda directamente de **IUnknown** y agrega otros sólo dos métodos: **Inicio de sesión** y **apagado**. 
   

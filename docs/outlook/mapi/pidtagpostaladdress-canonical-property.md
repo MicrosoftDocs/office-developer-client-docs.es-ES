@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1c51e223eabea6fdcae32e99f7c04c7fd797f9ee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5456cedb8882bc43b7ee59b53ffb7d6ba40c3414
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569032"
 ---
 # <a name="pidtagpostaladdress-canonical-property"></a>Propiedad canónica PidTagPostalAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección postal del destinatario.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

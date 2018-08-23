@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 99bff153d4ce4bac3f85e0ed0feeaffafa6bf3f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c31045e1fc19da63a2d4b61d92b3629afc96a55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816349"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569424"
 ---
 # <a name="about-asynchronous-table-operations"></a>Acerca de las operaciones asincrónicas de tabla
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La interfaz **IMAPITable** incluye tres métodos que operan de forma asincrónica y tres métodos para controlar una operación asincrónica. En la siguiente tabla se enumera estos métodos: 
   
@@ -35,7 +35,7 @@ La interfaz **IMAPITable** incluye tres métodos que operan de forma asincrónic
   
 - Llame a [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md). Una llamada a **WaitForCompletion** permite la tarea se complete sin interrupciones. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

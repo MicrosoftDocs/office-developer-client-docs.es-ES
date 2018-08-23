@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bb001d159141f70e9a82fa533e805f2a96b230ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82f37e2a6f6834c7a8553a3d9d364f7e657d81da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579511"
 ---
 # <a name="handling-mapi-property-errors"></a>Tratamiento de errores MAPI (propiedad)
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En lugar de �xito o fracaso completo, de los siguientes m�todos de **IMAPIProp** informan parcialmente correcta: 
   

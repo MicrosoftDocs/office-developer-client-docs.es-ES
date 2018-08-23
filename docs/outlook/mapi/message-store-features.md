@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a26701b5b0f9f31277a442321e5e3016cfcb4d1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e99d9d2e1289ed98ba659e97b05c8ea6d891a74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581814"
 ---
 # <a name="message-store-features"></a>Características de almacenamiento de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes son más complejos que otros proveedores de servicios MAPI en que los proveedores de almacén de mensajes tienen una amplia gama de características opcionales que se pueden implementar. La lista de las características necesarias para un proveedor de almacén de mensajes es bastante corta. Sin embargo, un proveedor de almacén de mensajes típico admitirá un número de características opcionales, debido a que muchas de las características opcionales están muy útil o requerido por la mayoría de los clientes MAPI. En la siguiente tabla se enumera las características principales que pueden implementar los proveedores de almacén de mensajes y si cada característica es obligatorio u opcional para el mensaje de todos los proveedores de almacén de mensaje predeterminada de los proveedores de almacén.
   
@@ -43,7 +43,7 @@ Los proveedores de almacén de mensajes son más complejos que otros proveedores
    
 Muchas de las características opcionales se pueden anunciar a MAPI y las aplicaciones de cliente mediante la configuración de diversos indicadores en el mensaje almacén de propiedad de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del objeto. Las características requeridas no tienen indicadores asociados con ellos. **PR_STORE_SUPPORT_MASK** se requiere en el almacén de mensajes, carpetas y objetos de mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

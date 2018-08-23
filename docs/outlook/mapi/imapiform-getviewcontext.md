@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2c463252aa029ac4c7cb2fac6e962a5d8af31b97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f09f29d67bff6588c826b92d93aead491510cef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574821"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el contexto de la vista actual para el formulario. 
   
@@ -65,7 +65,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utiliza el método **IMAPIForm::GetViewContext** para comprobar si un formulario tiene un contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

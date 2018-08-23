@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a84698ccc132c750cbd071c05160117c40e352a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3cd84e4ddb6d722d9f3de11d65b100d86e69ecae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817341"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571818"
 ---
 # <a name="imapiformmgrresolvemessageclass"></a>IMAPIFormMgr::ResolveMessageClass
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una clase de mensaje se resuelve en su formulario dentro de un contenedor de formulario y devuelve un objeto de información de formulario para ese formulario.
   
@@ -82,7 +82,7 @@ Los nombres de clase de mensaje siempre son cadenas ANSI, Unicode nunca.
   
 Se devuelve el identificador de clase para la clase de mensaje resuelto como parte del objeto de información de formulario. Un visor de formulario no debe trabajar en la suposición de que existe el identificador de clase en la biblioteca OLE hasta después de que el Visor de formulario ha llamado al método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) o el método [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

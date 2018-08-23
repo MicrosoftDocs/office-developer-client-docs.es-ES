@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8d9f6311b19ddb489885004a9e507f780d9f1ea9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1936cb8e95e3faef8c92d6bf28f5b63b3ff72df5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572707"
 ---
 # <a name="pidtagstoresupportmask-canonical-property"></a>Propiedad canónica PidTagStoreSupportMask
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de indicadores de esa consulta de aplicaciones de cliente para determinar las características de un almacén de mensajes. 
   
@@ -156,7 +156,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

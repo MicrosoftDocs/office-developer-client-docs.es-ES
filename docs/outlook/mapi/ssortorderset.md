@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d85ba55c5aa2f3780ad8e04cf1326cd7c35865
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820756"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575941"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una colección de claves de ordenación para una tabla que se usa para la ordenación por categorías o estándar.
   
@@ -73,7 +73,7 @@ El miembro **cExpanded** especifica el número de categorías que expandió en p
   
 Para obtener más información acerca de la ordenación estándar y organizados por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

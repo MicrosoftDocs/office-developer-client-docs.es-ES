@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 71bee7321c9b9e2425c70b2377961b74c0df8e73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c07e3c62c5279c8c0f04506d0aff3cb0a1d8ed1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818796"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572623"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>Propiedad canónica PidLidLogTypeDesc
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe la actividad que se está grabando.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

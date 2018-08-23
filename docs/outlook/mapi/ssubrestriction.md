@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 152f3032876d6473f1716afa46507196cd5ecc55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de92a1328eb9a089a7914978ab20ab0bf5c430ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820755"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581961"
 ---
 # <a name="ssubrestriction"></a>SSubRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción de objetos secundarios que se usa para filtrar las filas de datos adjuntos o la tabla de destinatarios de un mensaje.
   
@@ -66,7 +66,7 @@ Si una implementación no es compatible con las restricciones de los objetos sec
   
 Para obtener una descripción general de cómo funcionan las restricciones, vea [Restricciones de sobre](about-restrictions.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

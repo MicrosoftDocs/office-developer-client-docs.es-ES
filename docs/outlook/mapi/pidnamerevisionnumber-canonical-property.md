@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f0ea9833-81b8-4d9d-b91d-1a141c3f3725
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 269220e1155b49fb535d5f922486835fa9f9ff2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78ea7d6c830be6af3ee8cf63167fe74b3acc34e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578377"
 ---
 # <a name="pidnamerevisionnumber-canonical-property"></a>Propiedad canónica PidNameRevisionNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el número de revisión del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |RevNumber  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

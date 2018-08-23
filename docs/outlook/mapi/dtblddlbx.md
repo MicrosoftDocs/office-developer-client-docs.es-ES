@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3307bb252ca4436999a541f85657fed9878c798a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816725"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579399"
 ---
 # <a name="dtblddlbx"></a>DTBLDDLBX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe un control de lista desplegable que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
@@ -72,7 +72,7 @@ Un valor inicial se muestra en la lista si se ha recuperado la propiedad represe
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md). Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c20cd7f82df2fb7f878db177fdc940022e1da351
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bf69e560142ab282d6545389e02766389e4d018
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580701"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una lista ordenada de los identificadores de entrada de los contenedores que se deben incluir en el proceso de resolución de nombres iniciado por el método [IAddrBook::ResolveName](iaddrbook-resolvename.md) . 
   
@@ -70,7 +70,7 @@ Si se ha llamado **SetSearchPath** , **GetSearchPath** crea una ruta de acceso m
   
 Después de la primera llamada a **SetSearchPath**, las llamadas subsiguientes a **SetSearchPath** se deben usar para modificar la ruta de acceso de búsqueda devuelto por **GetSearchPath**. En otras palabras, el cliente o el proveedor realiza la llamada no recibe la ruta de acceso de búsqueda predeterminada después de la primera llamada a **SetSearchPath**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

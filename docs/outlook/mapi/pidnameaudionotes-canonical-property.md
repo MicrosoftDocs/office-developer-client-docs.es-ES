@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2eb1f0a517b430f2c96161e94faa22ec4d67ac41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97986215a2280d64a7affa817e81d66e4fb82817
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819079"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577768"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>Propiedad canónica PidNameAudioNotes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica las notas de texto que se adjuntan a un mensaje de voz.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

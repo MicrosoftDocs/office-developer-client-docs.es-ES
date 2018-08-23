@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580757"
 ---
 # <a name="hierarchy-tables"></a>Tablas de jerarquía
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla de jerarquía contiene información acerca de las carpetas en un almacén de mensajes o los contenedores en un contenedor de la libreta de direcciones. Cada fila de una tabla de jerarquía contiene un conjunto de columnas con información acerca de una carpeta o contenedor de la libreta de direcciones. Tablas de jerarquía principalmente son utilizadas por los clientes e implementadas por los proveedores de almacén de mensajes para mostrar un árbol de carpetas y subcarpetas e implementadas por los proveedores de la libreta de direcciones para mostrar un árbol de contenedores en la libreta de direcciones. Contenedores que no se incluyen los subcontenedores, tal como se indica por la ausencia de la marca AB_SUBCONTAINERS en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), no implementar una tabla de jerarquía.
   
@@ -85,7 +85,7 @@ Los proveedores de la libreta de direcciones deben admitir los siguientes métod
 |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) <br/> |[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
 |[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> | <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

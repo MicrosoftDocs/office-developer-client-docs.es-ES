@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 406451adac3cd73286feb787bd6b4d2f356aa283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a0fad8fa20b2d94077f9fbdf8a3c595c0ab219e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820456"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580869"
 ---
 # <a name="property-sheet-implementation"></a>Implementación de la hoja de propiedades
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una hoja de propiedades es un cuadro de diálogo para mostrar las propiedades de un objeto. Las propiedades pueden ser de sólo lectura, permitiendo al usuario sólo ver, o lectura y escritura, permitiendo al usuario realizar cambios. Una hoja de propiedades contiene una o varias ventanas secundarias superpuestas denominadas páginas. Cada página contiene el control de windows para la configuración de un grupo de propiedades relacionadas. Los usuarios desplazarse de una página a otra mediante la selección de una ficha que aporta la funcionalidad de la página correspondiente en el primer plano de la hoja de propiedades.
   
@@ -69,7 +69,7 @@ Para recuperar el índice de un control que selecciona un usuario en un cuadro d
   
 Si necesita poder agregar o quitar elementos en el cuadro de lista, con una tabla para mostrar y con el método [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) no funcionará. En su lugar, considere la implementación de una hoja de propiedades con la API de Win32 (propiedad) hoja incluida en el archivo comdlg32.dll. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

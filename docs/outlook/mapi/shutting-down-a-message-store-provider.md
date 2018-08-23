@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b5c9874ca465bb0ebed62f218d1512feb1a2f9ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c7ae4ab6de20d69581a98323c14a2c15f436cad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572826"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>Apagar un proveedor de almacén de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si su proveedor es un proveedor de almacén de mensajes, puede apagar en una de las siguientes maneras:
   
@@ -41,7 +41,7 @@ MAPI realiza las siguientes tareas en su implementación de **IUnknown:: Release
     
 Algunos clientes podrían omitir la llamada a **IMsgStore::StoreLogoff**, iniciar el apagado de su proveedor de almacén de mensajes con la llamada al método de **IUnknown:: Release** del almacén de mensajes. Un cierre en estas circunstancias sin la llamada a **StoreLogoff** es menos ordenado y controlado. Método de **versión** de su almacén de mensajes para esta posibilidad de controlar y realizar un seguimiento de si se ha producido una llamada a **IMAPISupport::StoreLogoffTransports** de escritura. **StoreLogoffTransports** se debe llamar una vez durante el proceso de cierre. Si detecta en el método de la **versión** que **StoreLogoffTransports** todavía no se ha llamado, invocar con la marca LOGOFF_ABORT. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

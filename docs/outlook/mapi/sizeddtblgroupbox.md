@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a3d8a76905aa9abb0e5bf001688608e03446704a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882638d5359154a56fa4438e7a62f213159f916d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820682"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581219"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura con nombre que incluye una estructura [DTBLGROUPBOX](dtblgroupbox.md) para describir un control de cuadro de grupo y una etiqueta de un período especificado. 
   
@@ -61,7 +61,7 @@ lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [DTBLGROUPBOX](dtblgroupbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

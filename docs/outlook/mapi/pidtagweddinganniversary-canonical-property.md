@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 815dfc6e-dbc7-4981-9ad3-c1f127a3ee92
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d4c7f0964a822021f760f9fb5ebb56113221677f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7daa7a99918be8657eade5e759494104123d559
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577446"
 ---
 # <a name="pidtagweddinganniversary-canonical-property"></a>Propiedad canónica PidTagWeddingAnniversary
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha de aniversario de despedida de un usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

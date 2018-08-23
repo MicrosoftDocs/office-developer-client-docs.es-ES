@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49311177-17a5-415c-bcb2-dfeb48a5b491
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5371d1def980a6901742a69e7b5796bb82820f22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18b59b705017a2d4307104beba345d537e6bf268
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820378"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573225"
 ---
 # <a name="pidtagtelexnumber-canonical-property"></a>Propiedad canónica PidTagTelexNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de telex del destinatario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

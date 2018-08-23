@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 59911531b6d8f9c094ef8563510aaa176e3a63b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573036"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de valores de entero sin signo que se utilizan para describir una propiedad de tipo PT_MV_SHORT.
   
@@ -54,7 +54,7 @@ typedef struct _SShortArray
 
 Para obtener más información acerca de PT_MV_SHORT y otros tipos de propiedades, vea [Tipos de propiedades](property-types.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

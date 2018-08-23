@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8214390af883432d72f608452b8b944417884fd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43569b22cace7b2700d37ace49fd734b45fec73c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580883"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registra un proveedor de servicio o cliente para recibir notificaciones sobre los cambios realizados en una o más entradas en la libreta de direcciones.
   
@@ -101,7 +101,7 @@ Debido a que un proveedor de la libreta de direcciones puede liberar el objeto d
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

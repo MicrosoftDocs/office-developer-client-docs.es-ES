@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 974060d779f1a91461e7ab3d0af3ef0a7cca082b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57f036872276ed2ff85bf6f8a53801f3af605607
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576193"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>Propiedad canónica PidTagContentIdentifier
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de clave que permite que el destinatario del mensaje identificar su contenido.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

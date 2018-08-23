@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7ea60b73fb1abe32b6db5e3c73d6ef3fac53d35d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 263370590a35f19482cc5ad7e56c65f6df0087fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581303"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>Rol de proveedor de transporte en el subsistema MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Bibliotecas de vínculos dinámicos del proveedor de transporte (DLL) proporcionan la interfaz entre la cola MAPI y la parte de un sistema de mensajería responsable de enviar y recibir mensajes. La cola MAPI y el proveedor de transporte funcionan conjuntamente para controlar las responsabilidades de enviar un mensaje o recibir un mensaje. La cola MAPI carga el archivo DLL del proveedor de transporte cuando se utiliza en primer lugar y lo libera cuando ya no sea necesaria. Se pueden instalar varios proveedores de transporte en el mismo sistema, pero MAPI proporciona la cola de uno impresión necesario.
   

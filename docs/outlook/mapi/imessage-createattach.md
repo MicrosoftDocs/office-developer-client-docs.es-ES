@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6351be353100649e38a14543a44df5e115c9408b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817652"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572098"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un anexo nuevo.
   
@@ -70,7 +70,7 @@ El método **IMessage::CreateAttach** crea un anexo nuevo en un mensaje. Los nue
   
 El número de datos adjuntos que señala _lpulAttachmentNum_ es único y válido sólo dentro del contexto del mensaje. Es decir, dos archivos adjuntos en dos mensajes diferentes pueden tener el mismo número mientras no dos archivos adjuntos en el mismo mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

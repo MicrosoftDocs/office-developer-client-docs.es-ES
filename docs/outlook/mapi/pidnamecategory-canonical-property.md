@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 931a004f-3f20-452b-8d9e-422ee2dba106
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e83029e1813126351593b9311a71ca9dbbbba45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23b364a5b4c9cec3832a4e939fa53d53d3e15420
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819083"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574121"
 ---
 # <a name="pidnamecategory-canonical-property"></a>Propiedad canónica PidNameCategory
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la categoría del archivo adjuntado al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Category  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

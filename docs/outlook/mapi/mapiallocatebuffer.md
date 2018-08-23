@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8ba00ecc1d9ff1c0b7db63d3e6d667b374245742
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0520b219c87207a54555ba74050761f6ecc4854a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579602"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Asigna un búfer de memoria. 
   
@@ -62,7 +62,7 @@ S_OK
   
 Llamar a las versiones de la función [MAPIFreeBuffer](mapifreebuffer.md) el búfer de memoria asignado por **MAPIAllocateBuffer**, mediante una llamada a la función [MAPIAllocateMore](mapiallocatemore.md) y los búferes vinculado a él, cuando ya no se necesita la memoria. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

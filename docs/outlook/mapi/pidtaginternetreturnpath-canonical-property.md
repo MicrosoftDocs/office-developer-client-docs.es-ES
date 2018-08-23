@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa8a683c0033682aa46944c5cc78503dc1a7d729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3f108ff1053c0aa1046597cd2f11b74bc2dab0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574177"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>Propiedad canónica PidTagInternetReturnPath
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor del campo de encabezado de un mensaje de extensiones multipropósito de correo Internet (MIME) Return-Path. La dirección de correo electrónico del remitente del mensaje.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

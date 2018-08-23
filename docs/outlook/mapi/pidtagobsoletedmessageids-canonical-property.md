@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b15b87064cc30035004596e93c20ca7d5f653c9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1717e30679fb3f6721690db75fb5dd402048eb09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819809"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575052"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Propiedad canónica PidTagObsoletedMessageIds
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los identificadores de los mensajes que reemplaza este mensaje.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

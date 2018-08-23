@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: cfc640fd419ad030de6922fa61817881caa70d07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578657"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Acerca de c�mo establecer el orden de resoluci�n para las listas de direcciones en Outlook
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para cada perfil, Microsoft Office Outlook es compatible con varias listas de direcciones y los usuarios pueden especificar manualmente el orden de las listas de direcciones por qué los destinatarios de correo electrónico se resuelven los mensajes y los asistentes de las convocatorias de reunión. Por ejemplo, puede establecer el orden de resoluci�n para que los nombres se resuelven primero en su libreta de direcciones de Outlook y a continuaci�n, en la lista Global de direcciones. En un equipo, un usuario puede abrir la libreta de direcciones, haga clic en **Herramientas** y, a continuaci�n, en **Opciones** para especificar el orden de resoluci�n. Sin embargo, en un entorno corporativo, es m�s eficaz para los administradores de TI establecer mediante programaci�n el orden de las listas de direcciones mediante el cual se resuelven nombres. Este c�digo puede utilizarse como parte de una secuencia de comandos de automatizaci�n de inicio que un administrador implementa dentro de la corporaci�n. 
   

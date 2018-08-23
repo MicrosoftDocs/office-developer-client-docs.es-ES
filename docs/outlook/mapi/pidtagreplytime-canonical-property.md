@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d01f89bd-012e-4f08-9afa-e33aad9679a4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: faf1e31153475283c9592556e891252e5d5bba20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 598fa59cd412d62907ce3c7f2f05b9f153655091
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820083"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569942"
 ---
 # <a name="pidtagreplytime-canonical-property"></a>Propiedad canónica PidTagReplyTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha límite de un mensaje. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

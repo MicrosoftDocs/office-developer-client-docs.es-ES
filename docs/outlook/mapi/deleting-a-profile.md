@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d01ab2e-40fd-409d-a69d-163b7d5462ca
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 29e7806afce885968956d53005a66bd14639ad64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d13af3a2d0293641fd87d1065bceedfa4b62a3b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573246"
 ---
 # <a name="deleting-a-profile"></a>Eliminar un perfil
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  **Para eliminar un perfil**
   

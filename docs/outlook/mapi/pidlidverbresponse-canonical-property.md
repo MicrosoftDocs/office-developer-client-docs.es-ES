@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 267fcc2b6f8902b1f9abb7adcd4409875fc1a7b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2fa762a44a107f826923d71faa79fe865413c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581044"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>Propiedad canónica PidLidVerbResponse
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la opción de votación que cuestionario seleccionado.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

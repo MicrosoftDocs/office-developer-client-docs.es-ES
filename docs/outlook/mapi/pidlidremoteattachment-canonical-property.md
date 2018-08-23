@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dcd786e2-5b93-4a4c-933a-df305abe4bcb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ae88b30baf73f3c90446f5cf0e3466ab6b86deac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a990c3622b9f37332056c162dce9445fd5b2947e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818890"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582346"
 ---
 # <a name="pidlidremoteattachment-canonical-property"></a>Propiedad canónica PidLidRemoteAttachment
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si un elemento remoto tiene datos adjuntos asociados con él.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

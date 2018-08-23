@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e98416ba7796c66d719adcc27ba8029b7908bb79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1bdd8a283fead891261bbb05c38d398132870a50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582262"
 ---
 # <a name="pidtagsearchfolderefpflags-canonical-property"></a>Propiedad canónica PidTagSearchFolderEfpFlags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los indicadores de carpeta extendida que se aplican en el contenedor de la carpeta de búsqueda para la carpeta de búsqueda.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 4546dd8d-b901-4381-a715-887a31cea2b9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 714d7061cdb7fbda2d06488897a962ae5e454d3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4551d3c2e51380ed747e2ff56a357bbcbe6f356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819065"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577138"
 ---
 # <a name="pidnamecompany-canonical-property"></a>Propiedad canónica PidNameCompany
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la compañía para la que se creó el archivo.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Compañía  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

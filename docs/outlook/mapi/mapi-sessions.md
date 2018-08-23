@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 45dc993c337249ed7d4dffbd5324267de82981d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575031"
 ---
 # <a name="mapi-sessions"></a>Sesiones MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Antes de la aplicaci�n cliente puede llamar a un sistema de mensajer�a subyacente, debe establecer una conexi�n con el subsistema MAPI o sesi�n.
   

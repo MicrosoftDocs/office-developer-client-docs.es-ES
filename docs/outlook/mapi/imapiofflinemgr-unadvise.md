@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b52dcd87c8714ad59db560a5ae4a8300f9cc83ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579525"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cancela devoluciones de llamada para un objeto sin conexión.
   
@@ -54,7 +54,7 @@ S_OK
 
 Quita el registro de la devolución de llamada que se ha asociado con *ulAdviseToken* devuelto desde una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que el objeto **IMAPIOfflineMgr** liberar su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con *ulAdviseToken* . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

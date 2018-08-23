@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f915a17b8271f7ec4173f507504bf165a6084085
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0712407a7882c449c065cb6816694b4a1611036f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816942"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568472"
 ---
 # <a name="handling-a-message-store"></a>Tratamiento de un almacén de mensajes
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Controlar un almacén de mensajes es una parte importante del conjunto de cualquier cliente de tareas. Estas tareas incluyen abrir, copiar, mover, agregar y eliminar carpetas y mensajes, mostrar varias tablas, establecer las propiedades y controlar los niveles de acceso.
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0286696707d268867a5536ef345d0af7909918dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ff394c95dfa3166d39dcba4b0c577dcfac7b8d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581597"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>Escribir un visor de jerarquía
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un visor de jerarquía es un componente de la interfaz de usuario que se usa para mostrar la carpeta y la dirección tablas de jerarquía del contenedor de libro. Visores de jerarquía pueden mostrar a los miembros de la jerarquía en diferentes niveles, expandir y cada nivel de petición de contratación.
   

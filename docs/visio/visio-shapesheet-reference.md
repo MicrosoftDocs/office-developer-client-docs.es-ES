@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: Esta referencia contiene descripciones conceptuales, tareas de programación, ejemplos y referencias que le guiarán en el desarrollo de soluciones basadas en Visio 2013.
-ms.openlocfilehash: 4c75623aa0f1fc248c3b1b2b8f1ba1a4d43acedd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d379004aa420febeaea13925c03eaca90349fa7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579175"
 ---
 # <a name="visio-shapesheet-reference"></a>Referencia de ShapeSheet de Visio
 
@@ -32,16 +32,12 @@ En esta documentación se incluyen las siguientes secciones:
     
 - [Referencia](reference-visio-shapesheet.md): proporciona referencia materiales para las funciones, celdas, filas y secciones de ShapeSheet de Visio.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
-- [Centro para desarrolladores de Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
-- [Accesibilidad en productos de Microsoft](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Centro para desarrolladores de Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)    
+- [Accesibilidad en productos de Microsoft](http://www.microsoft.com/enable/products/default.aspx)    
+- [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
 - [Aviso de derechos de autor del SDK de Visio](visio-sdk-copyright-notice.md)
-    
-- [Aviso de privacidad en línea de Microsoft](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

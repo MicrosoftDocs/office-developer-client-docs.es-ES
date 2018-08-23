@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Obtenga información sobre cómo usar CSISyncClient para controlar la memoria caché de documentos de Office (ODC).
-ms.openlocfilehash: adaa56bf040889bd8220506bcfab8fdb0b7ab6c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821486"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565287"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Uso de CSISyncClient para controlar la memoria caché de documentos de Office (ODC)
 
@@ -59,7 +59,7 @@ La cadena que identifica el ResourceID del archivo. Este valor debe ser no vací
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -92,7 +92,7 @@ Enumerador para los eventos que se pasa al consumidor. No debe ser null.
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -117,7 +117,7 @@ Especifica si la heurística de costo solicitado actualmente se reemplaza o no. 
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -154,7 +154,7 @@ Marca que contendrá el estado solicitado a través de _sfRequestedStatus_ para 
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -180,7 +180,7 @@ Una cadena que se va a establecer con un conjunto delimitado por canalización d
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -202,7 +202,7 @@ Identifica el consumidor y que la memoria caché para usar. Debe ser no vacía c
   
  _bstrProgID_
   
-Identifica el objeto de COM del consumidor para la comunicación bidireccional. Debe ser no vacía con un máximo de 39 caracteres. Vea [ \<ProgID\> clave](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) para obtener más información en ProgID. 
+Identifica el objeto de COM del consumidor para la comunicación bidireccional. Debe ser no vacía con un máximo de 39 caracteres. Vea [ \<ProgID\> clave](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) para obtener más información acerca de ProgIDs. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -218,7 +218,7 @@ Devuelve si se ha creado una nueva memoria caché. Si no hay memoria caché est�
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -252,7 +252,7 @@ Una cadena que identifica el archivo en el servidor. Este valor debe ser la dire
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -295,7 +295,7 @@ Especifica si se permite la carga en la nueva ubicación actualmente.
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -315,11 +315,11 @@ ResetCache, se eliminará de la memoria caché asociada con el SuppliedID que le
 
 ##### <a name="parameters"></a>Parámetros
 
-Ninguno
+Ninguna
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |La llamada ha fallado.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) no se ha llamado correctamente en el pasado.  <br/> |
@@ -344,7 +344,7 @@ Este método le permitirá descargas si se marcó como descargas bloqueados ante
    
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |Error al establecer el estado de la conectividad de la memoria caché.  <br/> |
 |E_LSC_CONFLICTINGFILE  <br/> |El archivo especificado por _bstrFileSystemPath_ tiene un ResourceID diferente del especificado.  <br/> |
@@ -373,7 +373,7 @@ Un valor booleano cómo determinar el estado de la conectividad de la memoria ca
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |Error al establecer el estado de la conectividad de la memoria caché.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
@@ -399,7 +399,7 @@ Especifica si para forzar la sincronización en, por lo tanto reemplazar esa heu
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |Error al reemplazar heurística de sincronización.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) no se ha llamado correctamente en el pasado.  <br/> |
@@ -418,7 +418,7 @@ Ninguno.
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |Error al cancelar la inicialización.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) no se ha llamado correctamente en el pasado.  <br/> |
@@ -444,7 +444,7 @@ Un puntero a una interfaz ILSCEvent.
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_FAIL  <br/> |No existen más eventos.  <br/> |
 |S_OK  <br/> |La llamada tuvo éxito.  <br/> |
@@ -533,7 +533,7 @@ El tipo de evento de este evento. Vea [Enum LSCEventType](using-csisyncclient-to
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
 |S_OK  <br/> |La llamada tuvo éxito.  <br/> |
@@ -600,7 +600,7 @@ El tipo de error asociado con este evento. Los valores posibles, vea [Enum LSCEv
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Uno o más parámetros no son válidos.  <br/> |
 |S_OK  <br/> |La llamada tuvo éxito.  <br/> |
@@ -641,7 +641,7 @@ Una cadena que contenga la información de la cadena de error. No debe ser null.
   
 ##### <a name="return-values"></a>Valores devueltos
 
-|Value|Descripción|
+|Valor|Descripción|
 |:-----|:-----|
 |E_NOTIMPL  <br/> |La versión instalada de Office no admite esta interfaz  <br/> |
 |E_INVALIDARG  <br/> |Uno o varios de los valores de parámetro no son válidos.  <br/> |

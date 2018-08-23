@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 884bbad509e459d4f329e6468dd99124cec6c7d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573939"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propiedad canónica PidTagInitialDetailsPane
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la página de una plantilla de presentación para mostrar primero.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

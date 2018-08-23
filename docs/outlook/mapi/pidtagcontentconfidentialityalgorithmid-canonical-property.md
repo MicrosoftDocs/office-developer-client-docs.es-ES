@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c274fb58b8c5c0229c830200768d083dcdcf282d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c49f119dd03e13439193c92168638c565074ee9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819363"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578461"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propiedad canónica PidTagContentConfidentialityAlgorithmId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador para el algoritmo utilizado para confirmar la confidencialidad de contenido del mensaje.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

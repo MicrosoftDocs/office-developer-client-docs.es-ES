@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b2e4c621295289305b34c218202dcfca13460095
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569416"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>Propiedad canónica PidTagNonDeliveryReportFromSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si establece en un informe de no entrega, denota la clave de búsqueda de los errores de envío-como usuario.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

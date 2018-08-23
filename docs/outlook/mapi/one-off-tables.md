@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
 description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 3ad9141f2530e64664a2d0c75ece2b834cc6ad78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc8d8d53dcbc091df98ba9e23533e4138660c8e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574569"
 ---
 # <a name="one-off-tables"></a>Tablas puntuales
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla de uso único contiene información acerca de las plantillas que es compatible con un proveedor de la libreta de direcciones para la creación de nuevos destinatarios. Tablas de uso único se implementan por proveedores de libreta de direcciones, los contenedores de la libreta de direcciones individuales y por MAPI y pueden ser persistentes o temporales. 
   
@@ -66,7 +66,7 @@ Las siguientes propiedades que conforman la columna requiere establecer en las t
   
  **PR_SELECTABLE** se usa para indicar si una fila en la tabla representa una plantilla que se puede seleccionar y usa para crear a un nuevo destinatario. Aunque la mayoría de las filas en una tabla de uso único representan plantillas, proveedores pueden incluir las filas que no son de plantilla. Por ejemplo, es posible que un proveedor de desee organizar de la tabla de uso único por tipo de plantilla, incluida una fila de categoría que aparece en la pantalla, pero no se usa para la creación de destinatarios. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

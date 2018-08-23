@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e0c59b569f4f01584fd65a7c3e13d6daac69d8a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f068ce2e8d98caa7d8733a182c051a820848333
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579812"
 ---
 # <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Propiedad canónica PidTagScheduleInfoFreeBusyBusy
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los bloques de tiempo para la que el estado es no disponible.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

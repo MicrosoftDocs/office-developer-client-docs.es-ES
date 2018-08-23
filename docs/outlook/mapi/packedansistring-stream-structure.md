@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5494558db65e19891848264c170ba85a55c5df71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578979"
 ---
 # <a name="packedansistring-stream-structure"></a>Estructura de la secuencia PackedAnsiString
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La estructura de la secuencia de PackedAnsiString contiene una representación ANSI de una cadena, en función de la página de códigos ANSI del equipo donde se ejecuta Microsoft Outlook. Esta cadena no termina con un carácter nulo. Elementos de datos en esta secuencia se almacenan en orden de bytes little-endian, inmediatamente después de entre sí en el orden indicado a continuación. Los elementos de datos reales que existen dependen de la longitud de la cadena de representación ANSI.
   
@@ -35,7 +35,7 @@ La estructura de la secuencia de PackedAnsiString contiene una representación A
     
   - Caracteres: Una matriz de CHAR. El recuento de esta matriz es igual al elemento de datos de longitud. Los datos de la matriz están la representación ANSI de la cadena.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

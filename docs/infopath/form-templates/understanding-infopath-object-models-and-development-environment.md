@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 admite dos tipos de modelos de programación para desarrollar lógica empresarial en plantillas de formulario, además de automatización externa desde un código administrado.
-ms.openlocfilehash: 18d5d68cdc047ddcb049874d677c6a20e851f2db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579532"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Comprender los modelos de objetos y el entorno de desarrollo de InfoPath
 
@@ -110,16 +110,13 @@ Para más información sobre el modelo de objetos de InfoPath Forms Services, ve
   
 ## <a name="infopath-development-environment"></a>Entorno de desarrollo de InfoPath
 
-La lógica empresarial puede desarrollarse en plantillas de formulario de InfoPath 2013 con Visual Studio 2012 con el complemento [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30364) instalado. 
+La lógica empresarial puede desarrollarse en plantillas de formulario de InfoPath 2013 con Visual Studio 2012 con el complemento [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) instalado. 
   
 > [!NOTE]
 > [!NOTA] InfoPath 2013 no permite crear ni modificar plantillas de formulario que usan lógica empresarial escrita con JScript o VBScript, a pesar de que InfoPath Filler permite abrir plantillas de formulario basadas en script creadas en versiones anteriores de InfoPath. 
   
 ## <a name="see-also"></a>Vea también
 
-
-
-[Tutorial: Crear una plantilla de formulario básica con código](walkthrough-creating-a-basic-form-template-with-code.md)
-  
-[Tutorial: Crear y depurar una plantilla de formulario básica mediante el modelo de objetos de InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Tutorial: Crear una plantilla de formulario básica con código](walkthrough-creating-a-basic-form-template-with-code.md)
+- [Tutorial: Crear y depurar una plantilla de formulario básica mediante el modelo de objetos de InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

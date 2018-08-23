@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 55bf8831af8f78767b2607c21ab54c32f6e4245f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9ab3b75743d882aca0145b73b8ef707204cc8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571902"
 ---
 # <a name="implementing-the-iunknown-interface"></a>Implementar la interfaz IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los métodos de la interfaz [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) , implementada en cada objeto MAPI, admiten la administración de comunicación y objeto entre. 
   
@@ -32,7 +32,7 @@ Los otros dos métodos **IUnknown** , **AddRef** y **Release**, administran el r
 > [!NOTE]
 > Debido a que no están necesario **AddRef** y **Release** para devolver valores precisos, los autores de llamadas de estos métodos no deben utilizar los valores devueltos para determinar si un objeto todavía es válido o se destruye. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

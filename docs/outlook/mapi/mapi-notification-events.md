@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 76974c29f1d1efef376e6d23bb0d1f8b3b0d54c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8acf197f305373c082ef411732d631535201d488
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818162"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567254"
 ---
 # <a name="mapi-notification-events"></a>Eventos de notificación de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando las aplicaciones cliente de registrar la notificación de eventos, deben especificar uno o más eventos. Dependen de los eventos que se pueden especificar en el conjunto de eventos que admite el origen de advise previsto. Hay diez tipos de notificaciones que se pueden registrar los clientes y proveedores de servicios para cada uno de ellos representado por una constante. Notificación de estado de objeto es una excepción. Notificación de estado de objeto es una notificación de MAPI interno; los clientes no se pueden registrar para él y proveedores de servicios lo no pueden generar. En la siguiente tabla se describe los tipos de eventos y los objetos de origen advise que las admiten. La constante de eventos se incluye con el tipo de evento.
   

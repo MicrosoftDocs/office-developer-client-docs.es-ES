@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 63c47e94-f603-aef9-afed-e3819bd79408
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 080556a7ed4530bb96db20fd96d9dda86672a720
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a27f38e759862c7091205a6f9a8aa1cde90c38e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575535"
 ---
 # <a name="syncstate"></a>SYNCSTATE
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta estructura define los Estados de la máquina de estado de replicación.
   
@@ -41,7 +41,7 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

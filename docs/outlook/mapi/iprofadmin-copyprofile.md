@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cd70f5ee7b58bdf0b1fd61b1056bfc77e3e35992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571209"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia un perfil.
   
@@ -99,7 +99,7 @@ No se admiten contraseñas de perfiles en todos los sistemas operativos. En los 
   
 Si _lpszOldPassword_ se establece en NULL, el perfil que se va a copiar requiere una contraseña, y se establece la marca MAPI_DIALOG; se muestra un cuadro de diálogo que solicita al usuario que proporcione la contraseña. Si es necesaria, una contraseña, pero _lpszOldPassword_ se establece en NULL y no se establece la marca MAPI_DIALOG, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

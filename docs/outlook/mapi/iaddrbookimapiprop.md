@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44bc6de420953bd665bd3caa336b76b15c1effd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579462"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Admite el acceso a la libreta de direcciones MAPI e incluye operaciones como mostrar cuadros de diálogo comunes; contenedores de apertura, mensajería a los usuarios y las listas de distribución; y realizar la resolución de nombres.
   
@@ -60,7 +60,7 @@ Admite el acceso a la libreta de direcciones MAPI e incluye operaciones como mos
 |[SetSearchPath](iaddrbook-setsearchpath.md) <br/> |Establece una nueva ruta de acceso de búsqueda en el perfil que se usa para el proceso de resolución de nombres.  <br/> |
 |[PrepareRecips](iaddrbook-preparerecips.md) <br/> |Prepara una lista de destinatarios para usarlo más adelante mediante el sistema de mensajería.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

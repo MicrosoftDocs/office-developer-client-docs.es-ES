@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b2e79e5568de38bee9a97c9df2598b30f1ba1bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ac8026489b06031e07ab4b2978c9ece04063bb1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579147"
 ---
 # <a name="displaying-form-icons"></a>Muestra iconos de formulario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando se muestra una lista de mensajes en una carpeta, es útil para los usuarios distinguir los mensajes con clases de mensaje personalizadas desde el formulario estándar IPM. Tenga en cuenta los mensajes. Clases de mensaje personalizadas se corresponden con los servidores de formulario y los servidores de formulario proporcionan iconos para representar a sí mismos. Puede mostrar estos iconos en la lista de mensajes de alerta a los usuarios a la clase de mensaje de cada mensaje antes de que el usuario abre los mensajes. Normalmente, el icono de la propiedad del formulario **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) es el que deben mostrarse en la lista de mensajes. Formularios también tienen una propiedad de **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) que se puede mostrar cuando el formulario está minimizado en una hoja de propiedades.
   

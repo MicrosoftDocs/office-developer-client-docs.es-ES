@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 27e706315ad81c12b33b1d7670b8196df7fef14d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e965b787c32ea87a06c375cc82f25e385eea8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577474"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propiedad canónica PidTagAssociatedSharingProvider
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina si se configura un proveedor de almacén de carpetas personales (PST) de archivo como un archivo PST de Microsoft SharePoint 2010.
   
@@ -34,7 +34,7 @@ Determina si se configura un proveedor de almacén de carpetas personales (PST) 
 
 Esta propiedad indica si se configura un archivo PST de Microsoft SharePoint 2010. Si la propiedad no está presente, el archivo PST no se ha configurado como un archivo PST de Microsoft SharePoint 2010.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

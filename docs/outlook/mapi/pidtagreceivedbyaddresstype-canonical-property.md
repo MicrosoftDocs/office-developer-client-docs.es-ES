@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 96a53e427460990983242009500ade9ae0c5ada5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd7a287a2240d372edf6cca6bac522266c0ca620
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819998"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581170"
 ---
 # <a name="pidtagreceivedbyaddresstype-canonical-property"></a>Propiedad canónica PidTagReceivedByAddressType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tipo de dirección de correo electrónico, como SMTP, para el usuario de mensajería que reciba el mensaje.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

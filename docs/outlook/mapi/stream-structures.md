@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6ec44fe0dbf8e63b7bbc58da1ba6e20f8ff59d3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f372e93457f2b7ef8830ae6bd0363f6b3a7bd60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581583"
 ---
 # <a name="stream-structures"></a>Estructuras de secuencia
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Definiciones de campos definidos por el usuario de un elemento de Microsoft Outlook se almacenan en la propiedad [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . El valor de esta propiedad es una secuencia binaria que contiene las definiciones de campos definidos por el usuario y la configuración de enlace de datos para los campos integrados para el elemento de Outlook. En esta sección se proporciona información acerca de la estructura de la secuencia binaria, desglosada en las siguientes estructuras de secuencia. 
   
@@ -36,7 +36,7 @@ Definiciones de campos definidos por el usuario de un elemento de Microsoft Outl
     
 - [Estructura de la secuencia PackedUnicodeString](packedunicodestring-stream-structure.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1ab8828dd2fc28a2fba1620fc251ba0a87c3e2bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce433dda7357bdce964f897ce985286d193ec0b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576473"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>Propiedad canónica PidTagReplyRecipientEntries
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de tamaño de los identificadores de entrada para los destinatarios que van a obtener una respuesta.
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

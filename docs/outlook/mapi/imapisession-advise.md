@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 45033ab924dcf443e9d231b3a7b4348119758935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704a556b97f5fd90989641a17afe5a11d127e51b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817446"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577173"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se registra para recibir notificaciones de los eventos que afectan a la sesión.
   
@@ -141,7 +141,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI utiliza el método **IMAPISession::Advise** para registrar para notificaciones de la sesión.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

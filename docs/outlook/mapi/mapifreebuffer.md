@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 22aad12010a4f367e18443d8c0831c6262cc37fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad3d9d12e1073610747b0ab078c6d65c09f8c7c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569144"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Libera un búfer de memoria asignado con una llamada a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) o la función [MAPIAllocateMore](mapiallocatemore.md) . 
   
@@ -62,7 +62,7 @@ Un proveedor de cliente o servicio debe funcionar en la suposición de que el pu
 > [!NOTE]
 > Pasar un puntero nulo a **MAPIFreeBuffer** hace que código de limpieza de la aplicación más sencilla y más pequeño porque **MAPIFreeBuffer** puede inicializar punteros a NULL y, a continuación, liberarlos en el código de limpieza sin tener que volver a probarlas en primer lugar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

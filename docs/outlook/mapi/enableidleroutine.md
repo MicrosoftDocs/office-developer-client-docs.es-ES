@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 00b5c123e588636654fb4287cc7b45500d47d89c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c53bd63e60281e999d0d379913b3609e9472a40e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816755"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579280"
 ---
 # <a name="enableidleroutine"></a>EnableIdleRoutine
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Habilita o deshabilita una rutina de inactividad en función de [FNIDLE](fnidle.md) . 
   

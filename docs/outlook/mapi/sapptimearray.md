@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 834a7141f0e7150140fa27c21d88db422d6f5561
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581226"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de valores de hora.
   
@@ -54,7 +54,7 @@ typedef struct _SAppTimeArray
 
 La estructura **SAppTimeArray** se usa para definir las propiedades de tipo PT_MV_APPTIME. Para obtener más información sobre PT_MV_APPTIME, vea la [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

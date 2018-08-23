@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: df426e3525ee70568041e90998833d6c93edcca7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28b42e6abee5d918dbcca69c13642f3ebcc859e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581940"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propiedad canónica PidTagAcknowledgementMode
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador del modo de confirmación del mensaje.
   
@@ -55,7 +55,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

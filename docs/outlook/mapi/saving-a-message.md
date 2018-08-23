@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820554"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581324"
 ---
 # <a name="saving-a-message"></a>Guardar un mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Antes de que se guarde un mensaje, los clientes normalmente llaman al método [IMAPIProp::SetProps](imapiprop-setprops.md) del mensaje para establecer algunas propiedades además de las propiedades de texto del mensaje, las propiedades de los datos adjuntos, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y las propiedades asociada con la lista de destinatarios.
   

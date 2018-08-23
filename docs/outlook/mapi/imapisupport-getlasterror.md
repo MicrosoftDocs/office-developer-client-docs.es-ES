@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2a20f0f48eebe2194bc92afb98a620f9b39bb88d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e641842dd8264c0cd3556c498bd74c77bda32f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577509"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error de objeto de soporte técnico anterior. 
   
@@ -75,7 +75,7 @@ Para obtener más información acerca del método **GetLastError** , vea [Errore
   
 Para liberar toda la memoria asignada por MAPI, llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para la estructura **MAPIERROR** devuelta. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

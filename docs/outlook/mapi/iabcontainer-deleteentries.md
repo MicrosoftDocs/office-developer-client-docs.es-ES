@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c744407790fecde6b6d89dff669ea4db07ce7701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4140dc39b7f866b0372e5940aef5efc0524ad593
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573113"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Quita una o más entradas, normalmente otros contenedores, listas de distribución o a los usuarios de mensajería.
   
@@ -62,7 +62,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **DeleteEntries** para eliminar una entrada específica de un contenedor de la libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

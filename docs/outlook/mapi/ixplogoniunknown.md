@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0b16fba054533f1cb5d21f3f4b1788c073eca13b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecfbf33641c86d4f162c521466ca2bf0b79a61d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818028"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581408"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona el acceso a la cola de impresión MAPI a un proveedor de transporte. 
   
@@ -53,7 +53,7 @@ Proporciona el acceso a la cola de impresión MAPI a un proveedor de transporte.
 |[ValidateState](ixplogon-validatestate.md) <br/> |Comprobaciones de estado externo del proveedor de transporte.  <br/> |
 |[FlushQueues](ixplogon-flushqueues.md) <br/> |Solicitudes que el proveedor de transporte entrega inmediatamente todos los mensajes entrantes o salientes pendientes.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

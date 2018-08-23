@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 390cec0cc59f189f83af2c5339512d82e125771e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820849"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563019"
 ---
 # <a name="tables-and-memory-usage"></a>Las tablas y el uso de memoria
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un problema importante conectado con la recuperación de datos de una tabla es el uso de memoria. Falta de memoria disponible puede provocar [IMAPITable:: QueryRows](imapitable-queryrows.md) y [HrQueryAllRows](hrqueryallrows.md) se lleve a cabo, devolución de menor que el número de filas que desee. Decidir qué método o función que se usará para recuperar los datos de la tabla depende de si la tabla puede esperarse que caben en la memoria y, si no se puede, si el error es aceptable. 
   
@@ -61,7 +61,7 @@ if (hr)
 
 Cuando se complete este bucle y se hayan procesado todas las filas de la tabla y _cRows_ es cero, normalmente será la posición del cursor en la parte inferior de la tabla. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

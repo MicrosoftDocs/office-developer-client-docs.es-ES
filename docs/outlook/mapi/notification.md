@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d427adde72c24d4ca879c7bd883af09c4ecad53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818437"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579973"
 ---
 # <a name="notification"></a>NOTIFICATION
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene información sobre un evento que se ha producido y los datos que se ha visto afectados por el evento.
   
@@ -118,7 +118,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
 |[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 - [ERROR_NOTIFICATION](error_notification.md)  

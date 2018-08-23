@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a22f7628b306707474e4ffb6fdf4525e00bf0771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b29eab30677dae7f720cecd9fde71e8bbbf752c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579721"
 ---
 # <a name="validateparms"></a>ValidateParms
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Llama a una función interna para comprobar si que las aplicaciones cliente de los parámetros han pasado a proveedores de servicios. 
   
@@ -90,7 +90,7 @@ Los proveedores que implementan las interfaces comunes, como **IMAPITable** y **
     
 Métodos heredados usan la misma validación de parámetros como la interfaz de la que heredan. Por ejemplo, la comprobación de parámetros de **IMessage** y **IMAPIProp** deben ser el mismo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

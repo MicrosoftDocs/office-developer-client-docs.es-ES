@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e68211049bc0f958ae24975f4ab4063953eef567
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fb372e504eaeb55861b09c4151956fb102c08f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577152"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite a un cliente MAPI para llevar a cabo el apagado rápido del proceso de cliente. 
   
@@ -54,7 +54,7 @@ Para continuar con el apagado rápido, el cliente llama al método **IMAPIClient
   
 Para obtener más información acerca de apagado rápido, consulte [Información general de cierre rápido](fast-shutdown-overview.md). Para obtener información sobre cómo se realiza correctamente apagado rápido, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

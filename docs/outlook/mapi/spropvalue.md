@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f378bdd473410b846328cbe1f911eba9401f88cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60528162917a8a383060adbcadefb610aa42ce32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580974"
 ---
 # <a name="spropvalue"></a>SPropValue
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una propiedad MAPI.
   
@@ -106,7 +106,7 @@ El miembro **dwAlignPad** se utiliza como relleno para realizar la alineación a
   
 Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [Actualizar las propiedades de MAPI](updating-mapi-properties.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

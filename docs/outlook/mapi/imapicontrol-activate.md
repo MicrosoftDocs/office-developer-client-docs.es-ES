@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fb6cd23acdb81af250e7e6dfe6facf7226850363
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f330ef3099175dde88bec2de3512a3c4af1db49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817200"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580687"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación de programación cuando un usuario de la aplicación cliente hace clic en el control de botón.
   
@@ -56,7 +56,7 @@ El método **IMAPIControl::Activate** realiza tareas siguiendo hacer clic en un 
   
 Para obtener más información acerca de cómo implementar **Activar** y la otra [IMAPIControl: IUnknown](imapicontroliunknown.md) métodos, vea [Implementación de objeto de Control](control-object-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

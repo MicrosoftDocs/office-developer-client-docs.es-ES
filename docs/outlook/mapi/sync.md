@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c856dfd1d419fd7a4bf4f47852ffb69470f9281b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a40046a26efe118e48cdca4749d2e99212bb8bfe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820821"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579847"
 ---
 # <a name="sync"></a>SYNC
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para iniciar la sincronización entre un almacén local y un servidor. Esta información se usa durante la [sincronización de estado](synchronize-state.md).
   
@@ -84,7 +84,7 @@ struct SYNC
   
 - [entrada] Esto es una matriz de las opciones de carpeta para carpetas correspondientes en *pel* si se ha establecido **UPS_THESE_FOLDERS** . Estas opciones de carpeta se usan cuando se carga cada una de las carpetas que aparecen en *pel* durante la [carga de estado de la carpeta](upload-folder-state.md). Para obtener más información acerca de las opciones de carpeta, consulte **[UPFLD](upfld.md)**. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

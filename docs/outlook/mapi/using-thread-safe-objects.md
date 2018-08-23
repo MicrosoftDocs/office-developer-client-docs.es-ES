@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4a66f892043b9a90893a60f3fa6ba69ea6457f5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49a94b785a51b4b0c3082832145250eec0745a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820977"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580981"
 ---
 # <a name="using-thread-safe-objects"></a>Utilizar objetos seguros para subprocesos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las aplicaciones cliente pueden asumir que objetos usan directamente o como las devoluciones de llamada siempre son seguros para subprocesos, excepto en los casos siguientes:
   

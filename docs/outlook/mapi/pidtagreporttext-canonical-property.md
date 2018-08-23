@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ccd00b368471448e81e32edf99e645024119be00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ef6117557b504678012b79e2b89c13bdaf6b787
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571489"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>Propiedad canónica PidTagReportText
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene texto opcional de un informe generado por el sistema de mensajería.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

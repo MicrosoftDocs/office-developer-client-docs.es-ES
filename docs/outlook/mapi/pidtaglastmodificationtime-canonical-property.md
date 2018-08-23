@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bf58e0598af6eb833b003b824be95f8fb82bd8bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19819693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575710"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>Propiedad canónica PidTagLastModificationTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y hora de última modificación de el objeto o subobjetos. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

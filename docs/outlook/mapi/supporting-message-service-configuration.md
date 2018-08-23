@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e1782f3c20c1741e0e4b1859f1b29d835444009c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f9ac5d9cef09ce6d4f3006ecc804db6291cae77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579343"
 ---
 # <a name="supporting-message-service-configuration"></a>Compatibilidad con la configuración del servicio de mensajes
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para admitir la configuración del servicio de mensajes, use el procedimiento siguiente:
   
@@ -51,7 +51,7 @@ Para admitir la configuración del servicio de mensajes, use el procedimiento si
     
    - Mejorar la función de punto de entrada de servicio de mensaje para responder a eventos adicionales.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Implementación de servicios de mensajería](message-service-implementation.md)
 

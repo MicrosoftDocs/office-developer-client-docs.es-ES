@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 398ff2fd4bab49c8279e198e3efa416c53abda7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b02a55f7b87bef6a4304d006f79472bcf21c811e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581877"
 ---
 # <a name="pidtagprofilehomeserverfqdn-canonical-property"></a>Propiedad canónica PidTagProfileHomeServerFQDN
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Habilita la autenticación Kerberos de una configuración de perfil.
   
@@ -61,7 +61,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

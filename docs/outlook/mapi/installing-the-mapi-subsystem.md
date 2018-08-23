@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c2e135fc031dd3faf5a4e08c50147dfcf7787b5e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adb4d09ccce95683ac46e7b271fafa328b1a9f97
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817824"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575353"
 ---
 # <a name="installing-the-mapi-subsystem"></a>Instalar el subsistema MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Versiones compatibles de Windows instalan la biblioteca de código auxiliar MAPI, Mapi32.dll, en la _ \<unidad\>_ carpeta \Windows\System32. 
   
@@ -52,7 +52,7 @@ La tabla siguiente resume cómo los clientes de recuperar información de la ver
 |Disponibilidad de MAPI  <br/> |Busque `MAPIX=1`.  <br/> |
 |Versión disponible de MAPI  <br/> |Busca una cadena MAPIXVER del formulario " _x.x.x_".  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

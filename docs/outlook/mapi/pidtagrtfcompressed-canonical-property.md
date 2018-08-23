@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c93d850551e766e97292d5417c3be5577f557af0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c88e6789b5b48e946d86a0458674a0fbe6b76356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575451"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>Propiedad canónica PidTagRtfCompressed
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la versión de formato de texto enriquecido (RTF) del texto del mensaje, normalmente en formato comprimido. 
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

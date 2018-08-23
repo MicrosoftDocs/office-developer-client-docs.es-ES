@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ee05f2e539d379e8fe197161fa0f6453add31afb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c25888353857f9233ba487661f5f27d64cd678cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820392"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577432"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Propiedad canónica PidTagTnefUnprocessedProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Serializa las propiedades cuando el filtrado de formato de encapsulación neutro de transporte (TNEF).
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2c1cdd7b-82f1-46f2-a7ce-e0efe857b7cd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 990a48c661621a3a704236a850f5d09239a12fca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d7a95e4681370e1aaf4f8b4c4b7ca0814b3aae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820537"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581849"
 ---
 # <a name="return-value-naming-convention"></a>Devolver convención de nomenclatura de valor
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El MAPICODE. Archivo de encabezado de H contiene muchos de los valores que un proveedor de cliente o servicio podría devolver desde una implementación de método de interfaz o es posible que vea devuelto desde una llamada.
   

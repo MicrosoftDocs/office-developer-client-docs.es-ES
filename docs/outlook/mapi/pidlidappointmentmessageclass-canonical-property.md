@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8777b2119e6beefc4d69dc0babfc8672df3a468b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b26266e58a201b13aa178534039c9e07c900de0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569501"
 ---
 # <a name="pidlidappointmentmessageclass-canonical-property"></a>Propiedad canónica PidLidAppointmentMessageClass
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de la reunión que va a generar a partir de la convocatoria de reunión.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

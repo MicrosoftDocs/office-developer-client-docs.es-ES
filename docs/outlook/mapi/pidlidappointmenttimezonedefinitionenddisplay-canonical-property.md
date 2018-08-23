@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b6193cb-612b-408e-b9bc-285df313e2cc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 119cd7edc5b9b615a39cea6aa1c405c396ce2afa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: facbcb9eed18db304cac334be845c0b3869ba508
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818567"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574807"
 ---
 # <a name="pidlidappointmenttimezonedefinitionenddisplay-canonical-property"></a>Propiedad canónica PidLidAppointmentTimeZoneDefinitionEndDisplay
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que almacena la descripción de la zona horaria que se usa cuando se selecciona la hora de finalización de una instancia única cita o convocatoria de reunión. 
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

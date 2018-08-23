@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d329d3a14b6026d0bd62df9feba6ccff251e4151
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd7bc8f051e9584fc63f22bdbaf9696c2e4d15a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580939"
 ---
 # <a name="imapiformcontainerinstallform"></a>IMAPIFormContainer::InstallForm
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Instala un formulario en una biblioteca de formularios.
   
@@ -109,7 +109,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI usa el método **IMAPIFormContainer::InstallForm** para instalar un formulario en un contenedor de formulario.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

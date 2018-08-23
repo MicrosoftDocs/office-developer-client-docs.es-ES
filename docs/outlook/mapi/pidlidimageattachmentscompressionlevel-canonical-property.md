@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 13e2ac93e7e3ba46bf25b26e76bd44c15f2b89e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55b965374bb1d7e5859f0cac5cc2f61956ea5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818755"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578923"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Propiedad canónica PidLidImageAttachmentsCompressionLevel
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define un nivel de compresión que se debe aplicar en datos adjuntos de imágenes.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

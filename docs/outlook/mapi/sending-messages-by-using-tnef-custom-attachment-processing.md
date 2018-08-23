@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 1dae8d3a7830ddbc50176ec09415457ca9fdac23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c7cdf754b2a4b38516b1ac06074fdba9d2227f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820612"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577747"
 ---
 # <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Enviar mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para personalizar el procesamiento de datos adjuntos al enviar un mensaje:
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f8ac73b1977886208290285fec2d1bd0de1b4f92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb0bfaba1ca0a0d7d34096b3b0b1db9863207097
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820543"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576270"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una fila y la operación que se lleva a cabo en esa fila en una tabla a través de la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
@@ -64,7 +64,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para **ModifyTable** las acciones posteriores.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
   
 - [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 - [Estructuras MAPI](mapi-structures.md)

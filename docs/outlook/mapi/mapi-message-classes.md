@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 27b81c0939aa3e880f3998d33f4717c51bdbe681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eecbbb3b806ecaee6c7ceba5c92bd4b713ad1075
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818155"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575143"
 ---
 # <a name="mapi-message-classes"></a>Clases de mensaje MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cada mensaje tiene una propiedad de clase de mensaje, **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), que identifica el tipo, el propósito o el contenido del mensaje. **PR_MESSAGE_CLASS** es una propiedad necesaria en todos los mensajes nuevos. Clase de un mensaje determina el formulario que se usa para presentar el mensaje al usuario y a la carpeta para colocar los mensajes entrantes. 
   
@@ -39,7 +39,7 @@ Las clases de mensajes tienen una restricción de longitud de 255 caracteres. Si
   
 Los proveedores de almacén de mensajes deben devolver MAPI_E_INVALID_PARAMETER desde sus implementaciones de método [IMAPIProp::SetProps](imapiprop-setprops.md) cuando un cliente intenta asignar una cadena que supera el límite permitido para su clase de mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 00662d7a5bf1c2addc5c4e0b39d657abd7073753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817966"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572112"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina varias filas de tabla.
   
@@ -69,7 +69,7 @@ Después de que se eliminan las filas, las notificaciones se envían a todos los
   
 Eliminación de filas no reduce las columnas disponibles para las vistas de tabla existentes o vuelven a abrir vistas de tabla, incluso si las filas eliminadas son la última que tienen los valores de una columna específica.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

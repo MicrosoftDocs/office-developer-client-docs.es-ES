@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: 75a08db313ac1b38a400fb329eefa914858ec71e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566232"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>Acerca de las propiedades con nombre usadas por Outlook
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI proporciona una utilidad para asignar nombres a determinadas propiedades, para asignar estos nombres a los identificadores �nicos y para hacer que este nombre-a-identificador de asignaci�n persistente entre sesiones. Propiedades con nombre se identifican mediante un nombre y un identificador �nico global (GUID) para un conjunto de propiedades. El nombre puede ser un n�mero o una cadena. Para Microsoft Outlook 2013 o Microsoft Outlook 2010, el conjunto de propiedades a menudo es un espacio de nombres definido por Outlook 2013 o Outlook 2010, como **PSETID_Appointment**. 
   

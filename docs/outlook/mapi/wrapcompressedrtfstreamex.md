@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bdb879a2412c817b7b314cd7bf6de1fa4c9f40d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572721"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Descomprime el el cuerpo de un mensaje de correo electrónico que está en comprimido con formato (RTF), indica el formato de la secuencia descomprimido, de forma opcional convierte la secuencia descomprimida en su formato nativo y devuelve la secuencia de descomprimido o la convertir la secuencia nativo.
   
@@ -76,7 +76,7 @@ El modelo de objetos de Microsoft Office Outlook proporciona una propiedad de **
   
 Debido a que la **MAPI\_NATIVE_BODY** marca no se puede combinar con la **MAPI\_modificar** marca en el campo **ulFlags** de la **RTF\_WCSINFO** estructura señala a *pWCSInfo*, sólo puede tener acceso nativo secuencia de cuerpo en modo de sólo lectura. Para obtener acceso a la secuencia de cuerpo nativos en modo de lectura y escritura, debe utilizar la función **WrapCompressedRTFStream** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Recuperar el cuerpo de un mensaje en formato RTF comprimido y convertirlo a su formato nativo](how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md)
 

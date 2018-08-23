@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 29fdbf060576ee9309473fddf8740b06229dae9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817965"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579889"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inserta una fila de tabla. 
   
@@ -66,7 +66,7 @@ Las columnas de propiedad de la estructura de **SRow** no es necesario estar en 
   
 Después de que se inserte la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. Si la fila insertada no está incluida en la vista debido a una restricción, se envía ninguna notificación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

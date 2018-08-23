@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820848"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565847"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una fila en una tabla que se ha visto afectada por algún tipo de evento, como un cambio o un error. Esto hace que una notificación de la tabla que se genere. 
   
@@ -125,7 +125,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
    
 Debido a que las notificaciones de tabla son asincrónicas, los clientes pueden recibir notificaciones de una fila se ha agregado después de aprendizaje acerca de la adición a través de otro medio. Es posible recibir un evento TABLE_ERROR cuando se ha producido un error en un método **IMAPITable::Sort**, **IMAPITable:: Restrict**o **IMAPITable::SetColumns** o cuando subyacentes de un proceso intenta actualizar una tabla con, por ejemplo, la nueva funcionalidad o las filas modificadas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Notificaci�n](notification.md) 
 - [ScDupPropset](scduppropset.md)

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 30f5e0b59bacfab91a3a6c77c0b345d6299df9e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 038c13d24f3d797f7a4f8f9b7692240ce8004b74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580337"
 ---
 # <a name="property-entries-in-mapisvcinf-message-service-sections"></a>Entradas de las propiedades de las secciones de servicios de mensaje MapiSvc.inf
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las entradas que establecer las propiedades de usar este formato:
   

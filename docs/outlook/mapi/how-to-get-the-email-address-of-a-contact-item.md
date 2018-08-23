@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: ce9579cb6b07336cae7d69fe503c918d96946b0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816981"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575556"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obtener la dirección de correo electrónico de un elemento de contacto
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se muestra cómo obtener el valor de una propiedad con nombre que representa la dirección de correo electrónico de un elemento de Microsoft Outlook 2010 o Microsoft Outlook 2013 contacto.
   

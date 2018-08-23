@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817677"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568241"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>Implementar una tabla puntual de proveedor
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI llama al método [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) de su proveedor cuando el usuario de una aplicación cliente agrega un destinatario a un mensaje saliente. Normalmente, los tipos de direcciones que se solicitó son únicos para el sistema de mensajería. Si el proveedor admite la creación de destinatarios, debe proporcionar una tabla de uso único que expone las plantillas para cada tipo de dirección del destinatario compatible. Si su proveedor no admite la creación de destinatarios, devolver MAPI_E_NO_SUPPORT de la llamada **GetOneOffTable** . 
   

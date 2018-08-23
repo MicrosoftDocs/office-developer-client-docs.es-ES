@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 14c1162bd4e225fd3ab2ea5ab11536b3bdf08edd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820786"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580316"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>Compatibilidad con texto con formato: Representaci�n de los datos adjuntos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una aplicación cliente que se importan a donde se representan sus datos adjuntos en un mensaje, Establece la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para estos datos adjuntos durante la composición de mensaje. Un cliente que no necesita conocer la colocaci�n de representaci�n sale de esta propiedad no definidas.
   

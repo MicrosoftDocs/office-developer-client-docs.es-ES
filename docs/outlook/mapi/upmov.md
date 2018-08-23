@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 43fd56932409861db86679eea6f1405dc4c37e62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820941"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577992"
 ---
 # <a name="upmov"></a>UPMOV
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para cargar los elementos que se han movido. Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md) y [cargar el estado de la tabla](upload-table-state.md).
   
@@ -96,7 +96,7 @@ _cEntMov_
   
 >  [entrada] Número de elementos movidos aquí. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

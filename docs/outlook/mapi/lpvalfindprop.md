@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d7601eb50818fa6f39384a6b024215fc4917e83a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c4a201411e2232a3e5fdcd97dcbc9460f657b12a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578097"
 ---
 # <a name="lpvalfindprop"></a>LpValFindProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establecer las búsquedas para una propiedad especificada en una propiedad.
   
@@ -59,7 +59,7 @@ La función **LpValFindProp** devuelve una estructura **SPropValue** que define 
 
 La función **LpValFindProp** es idéntica a **PpropFindProp**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

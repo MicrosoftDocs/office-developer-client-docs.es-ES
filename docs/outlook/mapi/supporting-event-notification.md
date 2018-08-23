@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 45bfe9f9314a154bd5f096ac20f76f6bf4f259c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820774"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581002"
 ---
 # <a name="supporting-event-notification"></a>Admitir notificaciones de eventos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Debido a que la compatibilidad con notificación de evento puede ser complicada, MAPI proporciona tres métodos de objeto de soporte técnico que implementan las partes más difíciles del proceso. Estos métodos funcionan como una unidad, y debe usar un proveedor de las tres o ninguno de ellos.
   
@@ -43,7 +43,7 @@ Tenga en cuenta que es necesaria para cada evento, incluso para varios eventos d
   
 Proveedores de servicios que envían notificaciones por lotes deben ordenarlas por lo que puede interpretar de la primera notificación a la última. En este orden es especialmente necesaria cuando un lote de notificación contiene una serie de eventos, como TABLE_ROW_ADDED con un evento que hace referencia a una fila anterior que se ha agregado en otro evento en el mismo lote.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 20eb429b2574f67e8b28ae96eeb96f42840123d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80e933f5723746dbaeb39271cc813eb0ea56a705
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571188"
 ---
 # <a name="mapi-address-types"></a>Tipos de direcciones MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Todos los usuarios de mensajería está asociado con un tipo de dirección, una cadena de caracteres que describe el formato de la dirección del usuario que se almacena en la propiedad **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Tipos de direcciones que se asignan a formatos de dirección. Es decir, mirando en el tipo de dirección de un destinatario, las aplicaciones cliente pueden determinar cómo dar formato a una dirección apropiada para el destinatario. 
   

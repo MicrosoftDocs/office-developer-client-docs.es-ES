@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d53304dd74a0e54974d479c66637079cd48b2fc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d65ccec0ab270a59252c8a3ae94bdeca839fa807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582367"
 ---
 # <a name="implementing-mapi-objects"></a>Implementar objetos MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Objetos MAPI se pueden implementar mediante el uso de clases de C++ o C las estructuras de datos, dependiendo del lenguaje y la API de establece a un cliente o está usando el proveedor de servicios. Proveedores de servicios se pueden escribir en C o C++ con la interfaz de proveedor de servicio MAPI; También pueden usar las aplicaciones cliente de C o C++. Si es posible, los clientes y proveedores de servicios que usan la interfaz de programación orientada a objetos deben usar C++. 
   
@@ -40,7 +40,7 @@ Hay muchas macros en el archivo de encabezado Mapidefs.h y los archivos de encab
  
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

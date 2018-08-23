@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: eff192b0d2b5cde51a2909452b19ffe1a47b2c04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817868"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565175"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Carga el formulario para un mensaje especificado.
   
@@ -82,7 +82,7 @@ Una vez haya finalizado **AddRef** , almacenar las propiedades de los parámetro
   
 Si no se producen errores, devuelve S_OK. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

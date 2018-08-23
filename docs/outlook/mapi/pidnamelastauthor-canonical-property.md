@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 50bb6ece-212f-472a-bb37-20ca984c5ef4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ff2092028e2bbfdb0c1e8b4eaa866a374204d687
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b16a7e9dfd21238efa1437d8e9d4fc22c9e04ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576788"
 ---
 # <a name="pidnamelastauthor-canonical-property"></a>Propiedad canónica PidNameLastAuthor
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica al autor más reciente del archivo adjunto.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |LastAuthor  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 04aa4348560396c8237811252fd96a2b461cd791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b572ebcec0a33d2134f4cf19b88e3132cbd47117
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582003"
 ---
 # <a name="designing-a-message-service"></a>Diseño de un servicio de mensajes
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Antes de comenzar a escribir código para admitir el servicio de mensajes, es importante crear un diseño. Resolver los problemas siguientes en el proceso de diseño:
   
@@ -39,7 +39,7 @@ Antes de comenzar a escribir código para admitir el servicio de mensajes, es im
     
 4. Determinar un nombre para el servicio de mensajes DLL o archivos DLL. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Implementación de servicios de mensajería](message-service-implementation.md)
 

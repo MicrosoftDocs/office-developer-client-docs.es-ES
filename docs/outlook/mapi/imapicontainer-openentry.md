@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c13ab9ce9c2564c39bfe9b2689f05439bc7b74ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578468"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Abre un objeto en el contenedor, la devolución de un puntero de interfaz para aún más el acceso.
   
@@ -108,7 +108,7 @@ Dado que los proveedores de servicios no son necesarios para devolver una implem
   
 De forma predeterminada, los proveedores de servicios abran objetos con acceso de sólo lectura a menos que establezca marca la MAPI_MODIFY o MAPI_BEST_ACCESS. Cuando se establece una de estas marcas, proveedores de servicios intentan devolver un objeto modificable. Sin embargo, no asuma que debido a que se solicitó un objeto modificable que el objeto abierto tiene permiso de lectura y escritura. Ya sea, la planeación de la posibilidad de que una modificación posterior para producir un error o recuperar la propiedad del objeto **PR_ACCESS_LEVEL** determinar el nivel de acceso concedido por **OpenEntry**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

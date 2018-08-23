@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7877667d78cf844cce9ff8c183ff1dc575fa2798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819388"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577614"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propiedad canónica PidTagConversionEits
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los tipos de información codificada (EITs) que se aplican a un mensaje en tránsito para describir las conversiones.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

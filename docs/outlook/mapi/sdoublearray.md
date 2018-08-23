@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cde59b73381458533910dc8f0a728cc4e6ca0c01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6986ed7c9ab9932c5d95fcfb7f74f80088f21971
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580372"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de tipo Double que se usa para describir una propiedad de tipo PT_MV_DOUBLE.
   
@@ -54,7 +54,7 @@ typedef struct _SDoubleArray
 
 Para obtener más información sobre PT_MV_DOUBLE, vea la [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: 'Última modificación: 26 de junio de 2012'
-ms.openlocfilehash: 17b1307427af2c35fe9ba8ee40dc78958e6b4a21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b8335fb2722e193f0eab1288b8ffdb2aa62df8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816782"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577789"
 ---
 # <a name="fast-shutdown-overview"></a>Información general sobre el apagado rápido
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cierre rápido es un mecanismo para que un cliente MAPI iniciar un apagado rápido del proceso de cliente, se notifica a todos los proveedores con los que el cliente tiene una sesión activa de MAPI para guardar los datos y la configuración antes de salir del proceso de cliente. En este tema se describe el mecanismo básico de apagado rápido. 
 
@@ -47,7 +47,7 @@ Si un cliente MAPI debe adoptar apagado rápido, debe utilizar el **IMAPIClientS
         
     6. El subsistema MAPI indica a cada proveedor MAPI cargado que está saliendo el proceso de cliente MAPI. Para aquellos proveedores que han implementado el **IMAPIProviderShutdown: IUnknown** interfaz, el subsistema MAPI llama al método [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) correspondiente. En este momento, estos proveedores MAPI deben comprobar que todas las acciones necesarias, como el almacenamiento de datos y la configuración, son completadas en la preparación para el cliente de MAPI desconectar todas las referencias y salir inmediatamente. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Cierre del cliente de MAPI](client-shutdown-in-mapi.md)
 - [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md)

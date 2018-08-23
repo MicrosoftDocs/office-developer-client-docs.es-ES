@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1749c155693529836b20194f9c60763fdd466357
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: deb215e6c54a08a46f071158d2bf2422561d7c80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819480"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580218"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Propiedad canónica PidTagEndDate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha final y la hora de una cita como administrado por una aplicación de programación. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

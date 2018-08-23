@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 5e63d276d25a26f937e9b4f44575fea1030f52d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581534"
 ---
 # <a name="sorting-and-categorization"></a>Ordenar y categorización
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Ordenar una tabla, coloca las filas en un orden que tenga sentido para su visor. Por ejemplo, podría preferir un visor ver la tabla de contenido de una carpeta ordenada por asunto del mensaje de modo que todos los subprocesos de una conversación estén juntas mientras otro visor es posible que desea que los mensajes ordenados por el nombre del remitente. Una tabla de la instancia recién creada no se ordena necesariamente en un orden determinado. 
   
@@ -81,7 +81,7 @@ Para obtener más información acerca de la ordenación los subprocesos de una c
     
 - [Ordenar tablas después de establecer restricciones y columnas](sorting-tables-after-setting-columns-and-restrictions.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

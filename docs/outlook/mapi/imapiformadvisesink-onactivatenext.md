@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e8fb69e7d25420186d7269943c5d957311e813d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581760"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si el formulario puede controlar la clase de mensaje del mensaje siguiente para mostrar.
   
@@ -92,7 +92,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utiliza el método **IMAPIFormAdviseSink::OnActivateNext** para implementar el método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

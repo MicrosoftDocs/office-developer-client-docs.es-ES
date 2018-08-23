@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ec8116d4850935209793553c39862f3cb1084495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e0145401b812b902fff36ab5b55794e34916356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819319"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572518"
 ---
 # <a name="pidtagchildrensnames-canonical-property"></a>Propiedad canónica PidTagChildrensNames
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de nombres de elementos secundarios
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

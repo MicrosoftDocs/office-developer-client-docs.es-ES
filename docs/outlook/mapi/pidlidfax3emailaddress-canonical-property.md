@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b53c307-1a01-4c94-b6db-9fcb840ce390
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0148885a528f10309e2fe1132297ca5ea1f0c3c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c027c165fb4ad353ceadf300ad354aef4af14d47
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818700"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577026"
 ---
 # <a name="pidlidfax3emailaddress-canonical-property"></a>Propiedad canónica PidLidFax3EmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica que la dirección de correo electrónico del contacto del otra dirección de fax.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

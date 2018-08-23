@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bbf09cb841c633b6f13ae12ec20e120ea3fd7ef7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b967b885ef35c04d52699c289dd60248e9abd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581086"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propiedad canónica PidTagOriginCheck
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor binario de comprobación que permite a un destinatario de informe de entrega comprobar el origen del mensaje original.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

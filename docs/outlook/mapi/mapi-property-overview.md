@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ed11677d09ae5acacced77373b2bca783d1ec0b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40a71592e658110dab81c9bcb4aec97f9930d014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576480"
 ---
 # <a name="mapi-property-overview"></a>Información general sobre MAPI (propiedad)
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una propiedad es un atributo de un objeto MAPI. Las propiedades describen algo sobre el objeto, por ejemplo, la línea de asunto de un mensaje o el tipo de dirección de un usuario de mensajería. MAPI define muchas propiedades, algunas para describir muchos objetos y algunos que sólo son apropiadas para un objeto de un tipo determinado. Los clientes y proveedores de servicios pueden ampliar el conjunto de MAPI de propiedades predefinidas mediante la creación de nuevo, las propiedades personalizadas. Los clientes pueden definir propiedades para describir las nuevas clases de mensaje y los proveedores de servicios pueden definir propiedades para exponer las características exclusivas de su sistema de mensajería.
   
@@ -41,7 +41,7 @@ El tipo de propiedad y el identificador se combinan en un solo componente denomi
   
 La estructura del **elemento SPropTagArray** es una matriz unidimensional de etiquetas de propiedad. Muchos de los métodos en **IMAPIProp** y otras interfaces utilizan una estructura de **elemento SPropTagArray** para describir las propiedades. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

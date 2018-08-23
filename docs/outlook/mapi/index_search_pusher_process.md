@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b39504f-6eed-2605-048d-2707f38a7d9a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ada6d4127d503aae0b068d40d2bb48cb6b833ea0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9495caecd514656f6fd62fb5db6cd8ac2faf4b50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581744"
 ---
 # <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el proceso es enviar una notificación para que el controlador de protocolo MAPI que está listo para la indización de un objeto de ese almacén.
   

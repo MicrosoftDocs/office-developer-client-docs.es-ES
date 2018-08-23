@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d84704300602bada4cf93c9d3f6622feaf16f352
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580904"
 ---
 # <a name="skipblock-stream-structure"></a>Estructura de la secuencia SkipBlock
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una estructura de secuencia de SkipBlock es un bloque de datos que comienza con un número entero que especifica la longitud de la parte restante del bloque. Esta estructura de secuencia existe en una secuencia [FieldDefinition](fielddefinition-stream-structure.md) si la definición de campo se encuentra en formato de PropDefV2. 
   
@@ -29,7 +29,7 @@ Elementos de datos en esta secuencia se almacenan en orden de bytes little-endia
     
 - Contenido: Una matriz de bytes. El recuento de esta matriz es igual al elemento de datos de tamaño. El significado del elemento de datos de contenido depende de la ubicación de la estructura de SkipBlock en la serie y la versión de Outlook. Si la primera estructura SkipBlock no es la estructura de terminación, Outlook considera la primera estructura SkipBlock como la estructura de la secuencia de [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica el nombre del campo en Unicode. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

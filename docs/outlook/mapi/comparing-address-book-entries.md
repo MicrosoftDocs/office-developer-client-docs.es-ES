@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 808d5f4bfca15cae4ca7aab6758d3b5361813bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5c46aed7a15ae4f48c8e4f1fe308fcb20ab3fe7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575360"
 ---
 # <a name="comparing-address-book-entries"></a>Comparar entradas de la libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 [IABLogon::CompareEntryIDs](iablogon-compareentryids.md) implementación de su proveedor compara los identificadores de entrada para dos de los objetos de su proveedor. MAPI llama a este método después de determinar que los identificadores de dos entrada contienen su proveedor había registrado [MAPIUID](mapiuid.md). Por lo tanto, el método **CompareEntryIDs** no necesita verificar que los identificadores de entrada que se pasó para los parámetros _lpEntryID1_ y _lpEntryID2_ pertenecen a su proveedor. 
   

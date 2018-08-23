@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ad0d148dd29ad634a420f405cea3b2582d1d8231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40acb94d01afc6b46d5857c5d299195ec90a1d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581499"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>Propiedad canónica PidTagAbDefaultDir
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada del contenedor de la libreta de direcciones para mostrar la primera. 
   
@@ -50,7 +50,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a918b596-a335-47a0-9d1c-109a0b0812a2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c3e4643e99236dbd9e5f277b18db6c774c20f913
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27c9ab646d6a03d63aa2b5a6820f9c3023186d8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574604"
 ---
 # <a name="pidtaglocality-canonical-property"></a>Propiedad canónica PidTagLocality
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de localidad del destinatario, como la ciudad o ciudad. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

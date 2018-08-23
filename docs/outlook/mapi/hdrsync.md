@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bd1c327eb2042957c8fb043736950af3dae520b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 261a59e628320f384deeb760ba71c9c0386cfde6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816958"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576046"
 ---
 # <a name="hdrsync"></a>HDRSYNC
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para la sincronización de un encabezado de mensaje durante el [estado del encabezado de mensaje de descarga](download-message-header-state.md).
   
@@ -70,7 +70,7 @@ struct HDRSYNC
     
   - [entrada] El elemento de mensaje completo, incluido el encabezado del mensaje se descarga desde el servidor. Vea mapidefs.h para la definición de tipo de **LPMESSAGE**. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

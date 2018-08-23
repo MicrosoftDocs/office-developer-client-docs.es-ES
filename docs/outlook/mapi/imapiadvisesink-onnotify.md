@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 73eb92b0c1b88e114775231695b91157a3d26a2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d052e7590ee502b55f2076d698587ab68820ca56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817189"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576704"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Responde a una notificación mediante la realización de una o varias tareas. Las tareas que realiza dependen del tipo de evento y el objeto que genera la notificación. 
   
@@ -97,7 +97,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |AdviseSink.h y AdviseSink.cpp  <br/> |CAdviseSink::OnNotifyDesc  <br/> |La clase CAdviseSink se implementa para controlar todas las notificaciones en MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

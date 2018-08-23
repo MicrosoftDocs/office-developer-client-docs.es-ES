@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 556d7551f64e075d1f15a945ddb1409c3b5a775f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 738957d7fc9567a2e8202802edebd16cf57fbffd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581646"
 ---
 # <a name="display-tables"></a>Tablas para mostrar
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla para mostrar describe cómo mostrar un tipo específico de cuadro de diálogo: una de ellas tiene una o más páginas con fichas (propiedad) dedicadas a mostrar y, posiblemente, editar una o más propiedades. Asociada con cada para mostrar tabla es un [IMAPIProp: IUnknown](imapipropiunknown.md) implementación de la interfaz. La implementación de **IMAPIProp** mantiene los datos de propiedad que se presentan en el cuadro de diálogo. 
   
@@ -68,7 +68,7 @@ El identificador del control, **PR_CONTROL_ID**, identifica de forma única el c
   
 Para obtener más información acerca de las tablas para mostrar, vea [Mostrar tabla de implementación](display-table-implementation.md) y [Sobre cómo mostrar las notificaciones de tabla](about-display-table-notifications.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

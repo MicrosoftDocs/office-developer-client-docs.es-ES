@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0f65cf5d6ec486499bffbc2bc42a5b1d5d731c43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a60fe565992756163eaf19b84e36c03acb66cc73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816519"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569151"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes en una estructura [SMAPIFormPropArray](smapiformproparray.md) existente que contiene un número especificado de estructuras [SMAPIFormProp](smapiformprop.md) . 
   
@@ -42,7 +42,7 @@ CbMAPIFormPropArray (_c)
   
 > Recuento de las estructuras de **SMAPIFormProp** en la estructura de **SMAPIFormPropArray** en cuestión. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 13c151a134e4334e8ed2e75e031a6fc9dddbf941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579966"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Obtiene los criterios de búsqueda para el contenedor.
   
@@ -108,7 +108,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer::GetSearchCriteria** para obtener los criterios de búsqueda de una carpeta para mostrar.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4a8cf9ac24f275d8b9cdbe03b5a90477771a2ab4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d8a142729d1c86c615653b2cbfc708268d4322e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576781"
 ---
 # <a name="pidlidbirthdayevententryid-canonical-property"></a>Propiedad canónica PidLidBirthdayEventEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la **propiedad EntryId** de una cita opcional que representa el cumpleaños del contacto. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

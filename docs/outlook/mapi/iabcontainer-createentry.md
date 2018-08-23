@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: acf9cee9bf0713b909b0d82fc606b015ac28474e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f8a6baa9a910b91e633084f1d9cd8ac52b24d5b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575605"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una nueva entrada, que puede ser un usuario de mensajería, una lista de distribución u otro contenedor.
   
@@ -104,7 +104,7 @@ Cuando se devuelve **CreateEntry** , puede o no inmediatamente obtener acceso el
   
 Aunque los indicadores de comprobación duplicados se pasan como parámetros al **CreateEntry**, el duplicado en la operación de comprobación no se produce hasta que se llama **SaveChanges** . Por lo tanto, se devuelven errores relacionados, como MAPI_E_COLLISION, que indica que se ha intentado crear una entrada ya existente, por **SaveChanges** en lugar de **CreateEntry**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

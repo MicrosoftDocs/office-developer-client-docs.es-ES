@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0cea1a1008ecbff698b757d6c67af5c279954656
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd86e5d06e868ebc540d8eb779c059089045cd8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574184"
 ---
 # <a name="processing-a-sent-message"></a>Procesar un mensaje enviado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Salida de los mensajes, después de que se han enviado, puede dejarse en la Bandeja de salida carpeta, movido a una carpeta designada para almacenar los mensajes enviados o eliminado. El tipo de procesamiento depende de si se han establecido propiedades de almacén del mensaje:
   

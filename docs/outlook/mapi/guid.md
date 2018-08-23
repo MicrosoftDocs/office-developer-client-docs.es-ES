@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 08ecb718572944db07c2888e0aae1464bd5c0f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816932"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577698"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se describe un identificador único global (GUID). 
   
@@ -76,7 +76,7 @@ Además, se usan en la implementación de llamada a procedimiento remoto (RPC) y
   
 La estructura **GUID** se define en la *referencia del programador de Win32* . Los valores específicos para las estructuras **GUID** que se usan dentro de MAPI se definen en el archivo de encabezado Mapiguid.h MAPI. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 096437f10c5b992a1db55f6a856c38021a81b99a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579294"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Presenta un cuadro de diálogo que permite al usuario seleccionar varios formularios y devuelve una matriz de formulario objetos de información que se describen dichos formularios.
   
@@ -90,7 +90,7 @@ Visores de formulario llamar al método **IMAPIFormMgr::SelectMultipleForms** a 
 
 Si un visor de formulario, pasa el indicador MAPI_UNICODE el parámetro _ulFlags_ , todas las cadenas son cadenas Unicode. Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE.. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

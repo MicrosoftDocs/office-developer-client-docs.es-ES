@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d8f28a6b0a1633b0060f02af7e38ef058527eb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 329771bf79e30f07c9de0a311aa2a836ca507c38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580036"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina si un formulario puede controlar sus propio conflictos de mensaje. Un mensaje está en conflicto si se ha editado simultáneamente por más de un usuario. Esto puede ocurrir a los mensajes en las carpetas públicas.
   
@@ -73,7 +73,7 @@ Un formulario que no administran sus propio conflictos se debe abrir con el mét
 
 Las aplicaciones cliente suelen tengan que abordar los problemas con conflictos al mover las aplicaciones de un mensaje para el mensaje siguiente o anterior en una carpeta. Si un mensaje está en conflicto, pero el servidor de formulario para ese mensaje puede controlar conflictos, la aplicación cliente debe ejecutar su código habitual para mostrar el mensaje siguiente o anterior. Si el servidor de formulario no puede controlar conflictos, la aplicación cliente debe seguir como si era consciente de la clase de mensaje del mensaje siguiente o anterior. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

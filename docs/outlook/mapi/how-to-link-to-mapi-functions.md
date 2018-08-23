@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816994"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577719"
 ---
 # <a name="link-to-mapi-functions"></a>Vínculo a funciones de MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Hay tres métodos de vinculación: vinculación implícita, vinculación explícita y un nuevo modelo híbrido mediante la biblioteca de código auxiliar de MAPI.
   
@@ -123,7 +123,7 @@ Es un método alternativo de la incorporación de la biblioteca de código auxil
   
 Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y para obtener información acerca de cómo crear e integrarla en su proyecto, así como preguntas acerca de esta biblioteca, como cuándo y por qué usarla, consulte la [Biblioteca de código auxiliar de MAPI](http://mapistublibrary.codeplex.com/documentation) en el sitio de CodePlex. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
 - [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md)

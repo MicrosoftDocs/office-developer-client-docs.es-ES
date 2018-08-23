@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 10f8f2cf44bf1a8e00f8c2b1a76826db5fc07161
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a13696b355e6fd815cd6bda42843505d9fc3d1f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817118"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579959"
 ---
 # <a name="iaddrbookaddress"></a>IAddrBook::Address
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra el cuadro de diálogo de la libreta de direcciones de Outlook. 
   
@@ -87,7 +87,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI utiliza el método de **dirección** para permitir al usuario seleccionar qué buzón para abrir.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

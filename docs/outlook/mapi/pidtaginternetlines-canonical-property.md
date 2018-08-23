@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6ee311da43704c36a896a5b9cf8115df75ce2a4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe6c756c8ba5cefbcb2878b75db1c465c861fd24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565420"
 ---
 # <a name="pidtaginternetlines-canonical-property"></a>Propiedad canónica PidTagInternetLines
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se asigna al encabezado MIME líneas.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

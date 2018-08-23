@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6135dfae915a1e70743f9224352390c4b56ea02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5125fc8f3e36087a05802c38127a8402ae67d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820549"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576305"
 ---
 # <a name="saving-mapi-properties"></a>Guardar las propiedades MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muchos objetos admiten un modelo de transacción de procesamiento según el cual los cambios realizados en las propiedades no se realizan permanentes hasta que se confirman en un momento posterior. Mientras que los cambios realizados en las propiedades se controlan mediante los métodos [IMAPIProp::SetProps](imapiprop-setprops.md) y [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) , el paso de confirmación se controla mediante [IMAPIProp::SaveChanges](imapiprop-savechanges.md). No es hasta después de una llamada satisfactoria a **SaveChanges** que se puede tener acceso a la versión más reciente de propiedades de un objeto. 
   

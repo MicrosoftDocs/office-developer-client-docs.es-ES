@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d53790cb51b660c781190cf41ca317c823a021e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820940"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572189"
 ---
 # <a name="upload-hierarchy-state"></a>Cargar estado de la jerarquía
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado de la jerarquía de carga de la máquina de estado de replicación. 
   
@@ -39,7 +39,7 @@ Este estado inicia la carga de una jerarquía de árbol de la carpeta que se ha 
   
 Cuando finaliza el estado de la jerarquía de carga, el almacén local se devuelve en el estado de sincronización.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

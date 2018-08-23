@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Contiene filas que enumeran las coordenadas de los vértices de las líneas y arcos que constituyen la forma.
-ms.openlocfilehash: 7a829651c4cab62a5c583d068211b9ffa20e725e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1581c87ae34eff4f01054a2340c18f1e55456cfb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581695"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Elemento Row (sección de geometría) ('XML de Visio')
 
@@ -87,7 +87,7 @@ El atributo **T** de este elemento de **fila** debe ser uno de un conjunto limit
 |ArcTo  <br/> |Contiene las coordenadas x e y, y la curvatura de un arco circular.  <br/> |[Fila ArcTo (Sección de geometría)](arcto-row-geometry-section.md) <br/> |
 |Elipse  <br/> |Contiene las coordenadas x e y del punto central y de dos puntos más de la elipse.  <br/> |[Fila Ellipse (Sección de Geometría)](ellipse-row-geometry-section.md) <br/> |
 |EllipticalArcTo  <br/> |Contiene las coordenadas x e y del extremo de un arco elíptico, las coordenadas x e y de los puntos de control del arco, el ángulo desde el eje x hasta el eje mayor de la elipse y la relación entre los ejes mayor y menor de la elipse.  <br/> |[Fila EllipticalArcTo (Sección de Geometría)](ellipticalarcto-row-geometry-section.md) <br/> |
-|InfiniteLine  <br/> |Contiene las coordenadas x e y de dos puntos en una línea infinita.  <br/> |[Fila InfiniteLine (Sección de Geometría)](http://msdn.microsoft.com/library/Contains the x- and y-coordinates of two points on an infinite line.%28Office.15%29.aspx) <br/> |
+|InfiniteLine  <br/> |Contiene las coordenadas x e y de dos puntos en una línea infinita.  <br/> |[Fila InfiniteLine (Sección de Geometría)](infiniteline-row-geometry-section.md) |
 |LineTo  <br/> |Contiene las coordenadas x e y del vértice del extremo de un segmento de línea recta.  <br/> |[Fila LineTo (Sección de Geometría)](lineto-row-geometry-section.md) <br/> |
 |MoveTo  <br/> |Contiene las coordenadas x e y del primer vértice de una forma o representa las coordenadas x e y del primer vértice después de una interrupción de una trayectoria.  <br/> |[Fila MoveTo (Sección de Geometría)](moveto-row-geometry-section.md) <br/> |
 |NURBSTo  <br/> |Contiene las coordenadas x e y, la posición del segundo al último nodo, la posición del último grosor, la posición del primer nodo, la posición del primer grosor y la fórmula de una spline B racional no uniforme (NURBS).  <br/> |[Fila NURBSTo (Sección de Geometría)](nurbsto-row-geometry-section.md) <br/> |

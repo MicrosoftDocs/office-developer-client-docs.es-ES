@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7b930e58fc47f6927ffe7c7b257070d25de3ec9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579231"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Propiedad canónica PidTagPhysicalRenditionAttributes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de objeto ASN.1 que se usa para la representación de datos adjuntos de mensajes.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

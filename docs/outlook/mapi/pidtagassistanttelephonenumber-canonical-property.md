@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1242415e0698acb210f3e9ef8bfa00fd944816d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecf43894089841b85fe8d5c81c608bc141d571d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819215"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579609"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>Propiedad canónica PidTagAssistantTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono del auxiliar administrativo del destinatario. 
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

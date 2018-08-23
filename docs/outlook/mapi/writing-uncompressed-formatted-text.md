@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c78d4d00-bc31-4d0b-8af0-dd0b8f3febfe
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9baf3397255d6138caaad84de5ff5621bd6c9555
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d34168743926681ee7169a593e302755b193aae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577047"
 ---
 # <a name="writing-uncompressed-formatted-text"></a>Escribir texto con formato sin comprimir
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando se prepare para enviar un mensaje con texto con formato, establezca la propiedad del mensaje **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) al texto comprimido o sin comprimir. Escribir texto comprimido en la propiedad **PR_RTF_COMPRESSED** es una operación de un uso intensivo de CPU muy y considerablemente puede afectar al rendimiento. 
   

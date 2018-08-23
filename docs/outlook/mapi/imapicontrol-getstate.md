@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a6ae89bf9b2b16439cc06f0e106859dda10ea22c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d45c4722b6a0200ea3937ba606da0af5c793df2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19817205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581856"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera un valor que indica si el control de botón está habilitado o deshabilitado.
   
@@ -64,7 +64,7 @@ Proveedores de servicios de implementan el método **IMAPIControl::GetState** pa
   
 Para obtener más información acerca de cómo implementar **GetState** y la otra [IMAPIControl: IUnknown](imapicontroliunknown.md) métodos, vea [Implementación de objeto de Control](control-object-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

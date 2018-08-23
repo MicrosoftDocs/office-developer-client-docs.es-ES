@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5910fd60b7837c2f170358dd5cd4e3306e4c1770
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578650"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Propiedad canónica PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el usuario delegado desea recibir copias de los objetos relacionados con la reunión que se envían al delegado.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

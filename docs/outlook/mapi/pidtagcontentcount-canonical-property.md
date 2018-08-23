@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c542b07eac626da5fbbb6a96b4545ad3c8558b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562942"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propiedad canónica PidTagContentCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de mensajes en una carpeta, como se calcula mediante el almacén de mensajes.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

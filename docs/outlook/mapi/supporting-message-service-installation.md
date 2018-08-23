@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bf3e79ad32801a659df2c68016167d3b547ddc6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581996"
 ---
 # <a name="supporting-message-service-installation"></a>Admitir la instalación del servicio de mensajería
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El programa de instalación para instalar el servicio de mensajes debe hacer lo siguiente:
   
@@ -40,7 +40,7 @@ Colocar el programa de instalación en un directorio público designado. Esto es
 > [!CAUTION]
 > Dado que los perfiles son un elemento prescindibles de la arquitectura MAPI, asegúrese de que el programa de instalación no almacenar nada en el perfil predeterminado que sería difícil de volver a crear. No hay ningún utilidades para la recuperación de perfil, para mover los perfiles de un equipo a otro, de copia de seguridad sin conexión o para la restauración individual o global de copias de seguridad. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

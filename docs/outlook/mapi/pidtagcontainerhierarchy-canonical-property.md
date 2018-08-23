@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 691c5977092b5e2ca6b453209982dd1333a6df89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c9598b583ba62adc42d6fb2b904dfe4981286ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578111"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>Propiedad canónica PidTagContainerHierarchy
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un objeto de la tabla de jerarquía incrustado que proporciona información sobre el elemento secundario de contenedores. 
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

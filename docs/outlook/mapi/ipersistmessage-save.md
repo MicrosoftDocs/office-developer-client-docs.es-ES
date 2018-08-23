@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 222d8257a802739ee8e513a0ea95a13f4b99322e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579903"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Guarda un formulario revisado el mensaje desde la que se ha cargado o creado.
   
@@ -68,7 +68,7 @@ Si se llama a **Guardar** cuando el formulario está en cualquier estado que no 
   
 Para obtener más información acerca de cómo guardar objetos de almacenamiento, consulte la documentación sobre los métodos [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

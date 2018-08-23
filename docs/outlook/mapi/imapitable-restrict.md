@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ab069728f872d82246e8925c5ad35c07f41f02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 924715f26e104739f2e60762511221da5facd5a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817609"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578328"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se aplica un filtro a una tabla, reducción de la fila que se establece en sólo las filas que coincidan con los criterios especificados.
   
@@ -103,7 +103,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI usa el método **IMAPITable:: Restrict** para establecer una restricción en una tabla.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a1388545597cf0000f270bf693c93f9349fb6426
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817993"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574835"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inserta una nueva fila de tabla, posiblemente reemplazando una fila existente.
   
@@ -59,7 +59,7 @@ Las columnas de la fila que señala _lpSRow_ no es necesario estar en el mismo o
   
 Una vez que **HrModifyRow** se agrega la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

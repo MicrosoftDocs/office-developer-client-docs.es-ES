@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 36bf204823711e87ac6250f0997445f2745fbc19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1b8c55a019ee3243de18d5e20ee4084bf6ca11f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581254"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>Propiedad canónica PidLidRecurring
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica si un mensaje de cita es periódico.
   
@@ -59,7 +59,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

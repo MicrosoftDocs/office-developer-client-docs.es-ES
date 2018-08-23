@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 40fc763071f7113e222c6987dfd70fb7d89bab4b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5affce8ab7a8b08019816ad9485641c401dd80c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578776"
 ---
 # <a name="forcing-a-notification"></a>Forzar una notificación
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Uso de proveedores de servicio cuando la [IMAPISupport: IUnknown](imapisupportiunknown.md) métodos de notificación, MAPI ofrece las notificaciones mediante una ventana oculta y su correspondiente procedimiento de ventana. Para que cada proceso recibir una notificación, MAPI envía un mensaje especial a la ventana oculta. Este mensaje se denomina con la constante **szMAPINotificationMsg** que se define en MAPIDEFS. H. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3b05f33328e9e0b90251a99defa9816f86971337
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e00f121bf52f2c6fcbe797fb8f6126584444411
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580694"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Propiedad canónica PidTagRecipientProposed
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si ha respondido o asistente a una reunión.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

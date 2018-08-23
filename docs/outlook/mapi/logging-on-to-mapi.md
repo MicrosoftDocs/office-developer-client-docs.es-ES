@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1ae3c47964ff238f57e98e0005a966008192f7c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579931"
 ---
 # <a name="logging-on-to-mapi"></a>Iniciar sesión en MAPI
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las aplicaciones cliente inicie sesión en el subsistema MAPI mediante una llamada a la función **MAPILogonEx** . Para obtener más información, vea [MAPILogonEx](mapilogonex.md). **MAPILogonEx** valida la selección de perfiles y la configuración de cada proveedor de servicios en el perfil. Una vez configurado, MAPI inicia los proveedores de la libreta de direcciones antes de iniciar los proveedores de almacén de mensajes. Los proveedores de transporte se han iniciado cuando primero se requieren sus servicios. 
   

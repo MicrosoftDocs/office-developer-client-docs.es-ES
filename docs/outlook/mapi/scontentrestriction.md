@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43703051193ffacec6a54355eeea74edf904f186
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820594"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580575"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción de contenido, que se usa para limitar una vista de tabla a sólo las filas en las que incluyen una columna con contenido que coinciden con una cadena de búsqueda. 
   
@@ -81,7 +81,7 @@ El resultado de una restricción de contenido impuesta con respecto a una propie
   
 Para obtener más información sobre la estructura de **SContentRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [SPropValue](spropvalue.md)
 - [SRestriction](srestriction.md)

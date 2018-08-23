@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 651ef6a7c1af70c75a85e13414c4fd7632d30290
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576018"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Admite el uso de formularios configurables de tiempo de ejecución en entornos de sistemas distribuidos. 
   
@@ -50,7 +50,7 @@ La interfaz de **IMAPIFormFactory** se basa en la interfaz [IClassFactory](http:
   
  **IMAPIFormFactory** es la interfaz que los visores de formulario que se usa para crear nuevos objetos de formulario cuando un servidor de formulario es compatible con más de una clase de mensaje (es decir, más de un tipo de objeto de formulario). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

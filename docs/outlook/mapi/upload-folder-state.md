@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 82b00a33c5de11b3fc9ccd3bde4cf31c79b99c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae8c3c4012874e1ca35761b103066cceebb1b165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576753"
 ---
 # <a name="upload-folder-state"></a>Cargar estado de la carpeta
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado de la carpeta de carga de la máquina de estado de replicación. 
   
@@ -44,7 +44,7 @@ Cuando finaliza la carga de la carpeta, el almacén local se devuelve en el esta
 > [!NOTE]
 > Si el cliente necesita cargar sólo una carpeta, el cliente puede iniciar la replicación a través de la [sincronización de estado](synchronize-state.md) sin tener que especificar el estado de la jerarquía de carga. El cliente establece ciertos miembros de **[sincronización](sync.md)** : *ulFlags* para **UPS_UPLOAD_ONLY** y **UPS_ONE_FOLDER** y *feid* para el identificador de la carpeta indicar a Outlook que sólo una carpeta se cargará. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

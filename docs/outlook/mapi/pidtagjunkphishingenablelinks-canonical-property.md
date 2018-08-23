@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e8b2f23c10a0557744f483c894b7b2d00a7947df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee97f1a88213c05b41af07d682d2891baa0015a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819679"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572182"
 ---
 # <a name="pidtagjunkphishingenablelinks-canonical-property"></a>Propiedad canónica PidTagJunkPhishingEnableLinks
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica, si es TRUE, que se debe omitir la marca de suplantación de identidad en el mensaje.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3cd1a19b23a3c4d3ff8a297881eb2b959585eb17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 843eed06f30dcca530cf4306c9e03bbffbb05af5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581289"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de administración de perfiles. 
   
@@ -64,7 +64,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI usa el método **MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

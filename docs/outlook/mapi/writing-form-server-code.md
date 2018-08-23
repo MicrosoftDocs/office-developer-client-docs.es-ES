@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 860b0150fd1ec66fa8fee387d8d4a96e8bb79761
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 463193b55dab0839c756367db16d02aae5980a77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578125"
 ---
 # <a name="writing-form-server-code"></a>Escribir código de servidor de formulario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Puede considerar un servidor de formulario como el siguiente: 
   
@@ -49,7 +49,7 @@ No todas las interfaces MAPI que se relacionan con formularios son necesarios pa
 |[IClassFactory](http://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |La interfaz de fábrica de clase OLE utilizada por los objetos de formulario para el cumplimiento con el mecanismo de fábrica de clase OLE.  <br/> |Obligatorio  <br/> |
 |[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md) <br/> |Se usa si su servidor de formulario es compatible con más de un tipo de formulario. En este caso, la interfaz de **IMAPIFormFactory** permite a las aplicaciones de cliente para tener acceso a las interfaces **IClassFactory** varias (uno por cada tipo de formulario compatible con el servidor de formulario) que también debe implementar el servidor de formulario.  <br/> |Opcional  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

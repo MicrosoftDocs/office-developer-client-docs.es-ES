@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 78e2f63746a866603bc2392fbe5c8bb25d3f38c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: edbc833b411e56e2efb26631362dd25ea42c3c9f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571412"
 ---
 # <a name="message-properties-overview"></a>Información general de propiedades de mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 MAPI divide en tres tipos de propiedades del mensaje:
   
@@ -49,7 +49,7 @@ Muchas propiedades del mensaje son opcionales, lo que significa que los clientes
   
 Mayoría de las propiedades de mensaje que establecen los proveedores de servicios es de solo lectura a los clientes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

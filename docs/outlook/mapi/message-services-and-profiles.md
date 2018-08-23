@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0f55d4cda013810884177a0f47e861e3693defd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581436"
 ---
 # <a name="message-services-and-profiles"></a>Los perfiles y servicios de mensajes
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Algunos usuarios requieren los servicios de varios sistemas de mensajería, cada uno con uno o más proveedores de servicio. Porque se multisistema para instalar y configurar cada uno de estos proveedores de servicios de forma individual, y debido a que un servidor de mensajería normalmente requiere un grupo de proveedores relacionados para exponer toda su funcionalidad, MAPI incluye el concepto de un servicio de mensajes. Servicios de mensajes para los usuarios de instalar y configurar los proveedores de servicios.
   
@@ -57,7 +57,7 @@ En la siguiente ilustración muestra un perfil que incluye dos servicios de mens
   
 ![Instalar y configurar los proveedores de servicios] (media/amapi_55.gif "Instalar y configurar los proveedores de servicios")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [MAPIUID](mapiuid.md)
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a6a3eb88377777a3d27687179bfdcb82057be3a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c12d3e8314dea5be67727d0f286e7df13038fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574373"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>Propiedad canónica PidTagMessageEditorFormat
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el formato para un editor que desea utilizar para mostrar un mensaje.
   
@@ -79,7 +79,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

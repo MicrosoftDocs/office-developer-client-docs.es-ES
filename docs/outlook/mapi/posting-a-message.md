@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 33bf6780979ee25739abf93d89744e1517363c63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61e1039a89f47fe29f9b5a1ba9203cfc88d9797e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820446"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577523"
 ---
 # <a name="posting-a-message"></a>Enviar un mensaje
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Enviar un mensaje es similar a enviar un mensaje. La diferencia principal es el destino. En lugar de que se dirige a uno o más destinatarios a través de uno o varios sistemas de mensajería, un mensaje expuesto permanece en una carpeta en el almacén de mensajes actual.
   

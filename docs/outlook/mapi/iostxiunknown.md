@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7419a0df7a2f3b76caeeb1ca564624d437eddd52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9252e83ce212bacf185d0eedb75d30617f9807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817866"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581751"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona métodos de sincronización. Esta interfaz recupera la información necesaria para replicar los cambios locales en el servidor y los cambios del servidor en el almacén local.
   
@@ -65,7 +65,7 @@ En particular, cuando la descarga de elementos de mensaje, el cliente utiliza **
     
 3. Outlook actualiza el elemento en el almacén local con el elemento de mensaje completo.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

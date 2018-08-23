@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 784430f1286c9a017337a0fae4b269757a56a3e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4421fcde6ccd2f2ac6245927d9d5d63ddc5200af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573519"
 ---
 # <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recursos de accesos en un proveedor de la libreta de direcciones.
   
@@ -55,7 +55,7 @@ Recursos de accesos en un proveedor de la libreta de direcciones.
 
 Para obtener información general acerca de los métodos de la interfaz **IABLogon** , vea [Implementación de inicio de sesión de proveedor de servicio](implementing-service-provider-logon.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

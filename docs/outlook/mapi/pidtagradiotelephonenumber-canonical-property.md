@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5906b296f3a3898a27944373cbbc9c48e3483eb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 777fdc66890bf245702304c0db81becf6e6c4147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820001"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580295"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>Propiedad canónica PidTagRadioTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono de radio del destinatario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

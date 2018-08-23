@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 90ae9cee915296475d7fe64952b40ab7344e89e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5908069f5fa887fd9d2e3f8c0df75f2e3d69515c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579539"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la tabla de destinatarios del mensaje.
   
@@ -80,7 +80,7 @@ Configuración de las solicitudes de marca de Unicode que la información de tod
 
 Puede cambiar una tabla de destinatario mientras está abierto llamando al método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** agrega a destinatarios, elimina a los destinatarios o modifica las propiedades de destinatarios. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

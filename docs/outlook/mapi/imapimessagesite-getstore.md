@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2787150a9fa0fc41e04c58b4a4310ffa844f3743
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567933"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el almacén de mensajes que contiene el mensaje actual, si existe un almacén de este tipo. Este método devolverá NULL en el parámetro _ppStore_ para mensajes incrustados, que se almacenan en otro mensaje en lugar de hacerlo directamente en un almacén de mensajes. 
   
@@ -61,7 +61,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa el método **IMAPIMessageSite::GetStore** para obtener el puntero actualmente en caché para el almacén especificado, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

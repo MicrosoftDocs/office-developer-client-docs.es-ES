@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 866d3be5e1c7a4375db84d1f15802e01f8d10f23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5abd3a80a9736a4d71525805e4bc38289975c34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818450"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577810"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Llamado por un proveedor de transporte para iniciar una sesión de formato de encapsulación neutro de transporte (TNEF) MAPI. 
   
@@ -110,7 +110,7 @@ Un objeto TNEF creado por la función **OpenTnefStream** más adelante, llama al
   
 Esta función es el punto de entrada original para el acceso de TNEF y ha sido reemplazada por [OpenTnefStreamEx](opentnefstreamex.md) , pero aún se usa para la compatibilidad para aquellos ya está usando la codificación TNEF. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)

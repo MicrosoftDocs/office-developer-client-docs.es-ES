@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 710ba5173dcce6e948e1f49c7d82e46bc83b8200
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577922"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar identificadores de entrada y de datos adjuntos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un proveedor de almacén puede enviar como parte de un localizador de recursos uniforme (URL) de MAPI un identificador de entrada y un identificador de datos adjuntos para el controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El proveedor de almacenamiento codifica la entrada de identificador y el identificador de datos adjuntos como cadenas Unicode. En este tema se muestra un algoritmo que genera una representación compacta del identificador de entrada o el identificador de datos adjuntos
   
@@ -52,7 +52,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

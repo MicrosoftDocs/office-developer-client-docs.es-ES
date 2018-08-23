@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b906ce83e26326755b483382eec8e494cbe7875
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818918"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577369"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>Propiedad canónica PidLidSharingProviderUrl
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la dirección URL que está relacionada con el proveedor de uso compartido e identificada por la propiedad **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Esto es una propiedad de un mensaje para compartir.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

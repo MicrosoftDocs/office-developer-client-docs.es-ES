@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580526"
 ---
 # <a name="address-book-identifiers"></a>Identificadores de la libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Todos los proveedores de libreta de direcciones asignan los identificadores de entrada mediante la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para el usuario de mensajería y de objetos de la lista de distribución. Las aplicaciones cliente usan estos identificadores de entrada para abrir y obtener acceso a los objetos a los que se les asignaron.
   

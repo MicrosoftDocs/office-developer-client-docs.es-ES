@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7f60d9524af18bb7f2e876386c45b84f207d42bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d927b00391725d8804e41b66b1ec8c384f98e7c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818068"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568836"
 ---
 # <a name="make-store-type-private-property"></a>Propiedad Hacer tipo de almacén privado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se trata de un almacén secundario como privada.
   

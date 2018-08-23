@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7ce81e419a4092bd99e5082810ea9d08cb2cc163
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c2db9284c0e014101bc3a3d2114a187d7cb3b4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576633"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto de administración del servicio de mensajes. 
   
@@ -73,7 +73,7 @@ Se puede hacer uso de la **MAPIERROR** estructura, si MAPI proporciona uno, indi
   
 Para obtener más información acerca del método **GetLastError** , vea [Uso de errores extendido](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

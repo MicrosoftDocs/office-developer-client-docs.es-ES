@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
 description: 'Última modificación: 03 de julio de 2012'
-ms.openlocfilehash: 3ed3def3fd76ec4f67239958b5d5164d97f81d8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b6c1482554cfb1e756266eb31f992b81bc34bb51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816972"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575899"
 ---
 # <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Detectar la versión de Exchange Server en un perfil de Outlook
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se incluye un ejemplo de código en C++ que se muestra cómo usar la propiedad **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** y **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** (propiedad) para obtener información de la versión de Microsoft Exchange Server que es la cuenta de activada conectado a. 
   

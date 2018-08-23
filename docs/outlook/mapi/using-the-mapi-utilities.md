@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5f0e5c97-5089-47cb-b604-2292b2ff945c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3f461d50e838aac0caee37d295ba8e86b9559bd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4612b6f345d59d988013671758c6d0579aaa127d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820961"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569536"
 ---
 # <a name="using-the-mapi-utilities"></a>Usar las herramientas MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las utilidades MAPI se componen de datos de la tabla y objetos de datos de propiedad y una gran variedad de funciones para admitir las características varias. Es posible que un cliente necesita sólo estas utilidades y no tiene que iniciar sesión en el subsistema MAPI para establecer una conexión con los proveedores de servicios. Si el cliente se ajusta en esta categoría, llame a la función API [ScInitMapiUtil](scinitmapiutil.md) en lugar de la función [MAPIInitialize](mapiinitialize.md) en tiempo de inicialización. 
   

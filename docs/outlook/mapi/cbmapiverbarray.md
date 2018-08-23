@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6673a38a478c080a880dcf70c8528ef93a1b4886
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ae4326cedf7e4fa4c3218d30255a9473ab7fbe0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571419"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes en una estructura [SMAPIVerbArray](smapiverbarray.md) existente que contiene un número especificado de estructuras [SMAPIVerb](smapiverb.md) . 
   
@@ -42,7 +42,7 @@ int CbMAPIVerbArray (_c)
   
 > Recuento de las estructuras de **SMAPIVerb** en la estructura de **SMAPIVerbArray** existente. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

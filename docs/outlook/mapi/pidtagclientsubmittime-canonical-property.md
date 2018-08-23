@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ccf4a6054ecc89e280f2f5cbc4c72b2a8a829055
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c7ca5b2b6f5f3131c2fcb70ff0043825a68a91f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819295"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580127"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propiedad canónica PidTagClientSubmitTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y hora que el remitente del mensaje había enviado un mensaje. 
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

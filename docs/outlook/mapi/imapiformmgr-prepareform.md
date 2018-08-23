@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3b10ac5906be0f95930be3bef51fe2d78d583b03
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e8ea7230ae86dee99cc4413715055fc53afa900
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579728"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Descargas de un formulario para abrirlo.
   
@@ -65,7 +65,7 @@ Visores de formulario llamar al método **IMAPIFormMgr::PrepareForm** para desca
   
 Puede usar **PrepareForm** para obtener las bibliotecas de vínculos dinámicos (DLL) y otros archivos asociados con un formulario para modificarlos. Si se carga el formulario modificado en su contenedor de formulario, se debe volver a instalar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
