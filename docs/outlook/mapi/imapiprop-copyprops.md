@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ff8f13a1dcf678e1d05b6e8e083597156422b83d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571083"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve las propiedades seleccionadas. 
   
@@ -174,7 +174,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI usa el método **IMAPIProp::CopyProps** para copiar las propiedades con nombre de un mensaje a otro.  <br/> |
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI utiliza el método **IMAPIProp::CopyProps** para pegar una propiedad que se ha copiado desde otro objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

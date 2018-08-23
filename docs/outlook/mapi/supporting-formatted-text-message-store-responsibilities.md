@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820780"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567653"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Admitir texto con formato: responsabilidades de almacenamiento de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes usar la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para publicar o no puede controlar el formato de texto enriquecido (RTF), texto HTML y, si son compatible con RTF, si se almacenan el texto con formato en un formato comprimido o sin comprimir. Los proveedores de almacén de mensajes indican que son conscientes de RTF estableciendo el bit STORE_RTF_OK y que contienen el texto con formato en un formulario sin comprimir estableciendo el bit STORE_UNCOMPRESSED_RTF. Los proveedores de almacén de mensajes indican que son compatibles con HTML estableciendo el bit STORE_HTML_OK.
   

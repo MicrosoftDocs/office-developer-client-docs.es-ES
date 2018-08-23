@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f25b3fb967f4ed93ac38487f21145f35413764da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572294"
 ---
 # <a name="upfld"></a>UPFLD
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para cargar una carpeta durante la [carga de estado de la carpeta](upload-folder-state.md).
   
@@ -67,7 +67,7 @@ _feid_
   
 > [out] Identificador de entrada de la carpeta.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

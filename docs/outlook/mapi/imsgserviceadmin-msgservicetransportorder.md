@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5b96a45bab4cd00d23604d0b0b25f3e772277395
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570796"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece el orden en que transporte se denominan proveedores para entregar un mensaje.
   
@@ -69,7 +69,7 @@ El método **IMsgServiceAdmin::MsgServiceTransportOrder** establece el orden de 
   
  **SetTransportOrder** invalidaciones de transporte preferencias de proveedor como la marca STATUS_XP_PREFER_LAST establecida en la propiedad **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

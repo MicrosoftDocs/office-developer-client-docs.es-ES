@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ee60e64559a0b4163074ddb62ed72c4600c8e03d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dba7bd1fb7b0ca9bc23dbc45e07f44d0cc0dc8fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568143"
 ---
 # <a name="displaying-table-rows-and-columns"></a>Mostrar filas y columnas
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  Una página de propiedades puede utilizarse por un proveedor de la libreta de direcciones para habilitar a los usuarios definir a los destinatarios de correo electrónico nuevo. 
   
@@ -56,7 +56,7 @@ En la tabla final se enumera cada control con el contenido de su estructura de c
 > [!NOTE]
 > Los botones **Aceptar**, **Cancelar**y **Ayuda** no se incluyen en la tabla para mostrar. La interfaz de usuario puede agregar el contexto a un cuadro de diálogo mediante la adición de controles no está en la tabla para mostrar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

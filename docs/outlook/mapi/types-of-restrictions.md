@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7e3459c639cac449cdc03361949c9618827515b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572448"
 ---
 # <a name="types-of-restrictions"></a>Tipos de restricciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Existen muchos tipos de restricciones, algunos que se centran en columnas específicas. Se esperan que todas las implementaciones de tabla admite restricciones en las columnas en el conjunto actual de la columna. Sin embargo, para agregar valor, implementadores de tabla también pueden admitir restricciones en función de las propiedades del objeto que no están actualmente en la vista de tabla.
   
@@ -47,7 +47,7 @@ Algunas restricciones usan expresiones regulares y MAPI admite una forma limitad
   
 La restricción de comentario se usa en los clientes que guardar restricciones en disco para mantener la información específica de la aplicación con la restricción. Por ejemplo, un cliente de guardar el nombre de una propiedad con nombre que se usa en una restricción de propiedad puede hacerlo con una restricción de comentario. Guardar el nombre no es posible en una restricción de propiedad; la estructura de datos [SPropertyRestriction](spropertyrestriction.md) contiene sólo la etiqueta de propiedad. Restricciones de comentario se omiten por [IMAPITable:: Restrict](imapitable-restrict.md) en que no tienen ningún efecto en las filas devueltas por [IMAPITable:: QueryRows](imapitable-queryrows.md) después de que se ha realizado una llamada **Restrict** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

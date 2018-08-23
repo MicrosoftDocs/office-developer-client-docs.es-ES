@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 21d9fbcc-67b3-4475-b5c1-ff6af92404da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8eda44012b01f9de94b44a3e13c30b3b382feed6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 280319f0a3cff19bae529eb398a22774eee1ecf0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572784"
 ---
 # <a name="pidlidtaskupdates-canonical-property"></a>Propiedad canónica PidLidTaskUpdates
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si se ha solicitado el encargado de la tarea para enviar una actualización de tarea cuando cambia la tarea asignada.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

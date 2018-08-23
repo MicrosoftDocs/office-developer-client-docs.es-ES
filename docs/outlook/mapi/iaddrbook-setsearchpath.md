@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4f9d2f4d271e467d8fac32b8f17faa8f66cd3f99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571762"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece una nueva ruta de acceso de búsqueda en el perfil que se usa para el proceso de resolución de nombres. 
   
@@ -60,7 +60,7 @@ Los clientes y proveedores de servicios de llamar al método **SetSearchPath** p
   
 Los clientes y proveedores no es necesario que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que los cambios de la ruta de acceso de búsqueda sea permanente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

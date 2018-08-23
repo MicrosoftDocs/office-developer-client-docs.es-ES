@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e3538355-8ce9-4c79-9970-aea828818d26
 description: 'Última modificación: 22 de junio de 2012'
-ms.openlocfilehash: fce566164e2669071490901bcc7d2b5e396e0b11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc6312dc63081f136e799ee1703d3c2d65525473
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572952"
 ---
 # <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Aviso de Copyright de referencia de API (MAPI) de mensajería de Outlook
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La información de este documento, incluidas las direcciones URL y otras referencias a sitios Web de Internet, está sujeta a cambios sin previo aviso. A menos que se indique lo contrario, las compañías, organizaciones, productos, nombres de dominio, direcciones de correo electrónico, logotipos, personas, lugares y eventos mencionados en los ejemplos son ficticios. Ninguna asociación con cualquier compañía real, organización, producto, nombre de dominio, dirección de correo electrónico, logotipo, persona, lugar o (evento) se pretende ni debe deducirse. Es responsabilidad del usuario el cumplimiento de todas las leyes de derechos de autor aplicables. Ninguna parte de este documento puede ser reproducida, almacenada o introducida en un sistema de recuperación, o transmitida de ninguna forma, ni por ningún medio (ya sea electrónico, mecánico, por fotocopia, grabación o de otra manera) con ningún propósito, sin la previa autorización por escrito de Microsoft Corporation, sin que ello suponga ninguna limitación a los derechos de propiedad industrial o intelectual.
   

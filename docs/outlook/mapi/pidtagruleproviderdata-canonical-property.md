@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 054299e6bdf685163bc23678a2070f5d702a4529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4f1070b89971c631fd855a6f84d56b699152421
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566848"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>Propiedad canónica PidTagRuleProviderData
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una propiedad opaca que establece el cliente para el uso exclusivo del cliente. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

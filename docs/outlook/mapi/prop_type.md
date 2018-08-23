@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 91a9d15544ebc71d27c8a9a6f930f3c32ecaa4fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bcaf230eed9cf21388b68f06ab678dc143f64ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820438"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571825"
 ---
 # <a name="proptype"></a>PROP_TYPE
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el tipo de propiedad de una etiqueta de propiedad especificado.
   
@@ -48,7 +48,7 @@ La macro **PROP_TYPE** se puede usar para determinar el tipo de una propiedad. P
   
 Cada etiqueta de la propiedad contiene el tipo de propiedad de la palabra de orden inferior (bits del 0 al 15) y el identificador de propiedad de la palabra de orden superior (bits 16 a 31). La macro **PROP_TYPE** extrae el tipo de propiedad y la coloca en los bits 0 a 15 del número entero que se va a devolver. Se establecen los bits restantes del valor devuelto a ceros. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

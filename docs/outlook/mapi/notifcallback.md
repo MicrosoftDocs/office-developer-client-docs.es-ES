@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b14529e987b85d1dcbe3689d4e852a9efd39a396
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17b038fea2dd1614f94f005e32b9e6ba4423dbda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566267"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una función de devolución de llamada que llama MAPI para enviar una notificación de eventos. Sólo se puede usar esta función de devolución de llamada cuando se ajusta en un objeto de receptor advise creado mediante una llamada a la función [HrAllocAdviseSink](hrallocadvisesink.md) . 
   
@@ -69,7 +69,7 @@ Las siguientes son limitaciones en lo que puede hacer una función de devolució
     
 - No puede mostrar una interfaz de usuario.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

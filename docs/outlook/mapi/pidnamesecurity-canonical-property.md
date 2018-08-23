@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f6e42163-494d-4787-ad83-54452d26b815
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f4a33402ecccb055c2c932f71f744fba7cb9aa45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba26ee19e4bd6efb49f867092c971cb433bfc745
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819120"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571433"
 ---
 # <a name="pidnamesecurity-canonical-property"></a>Propiedad canónica PidNameSecurity
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nivel de seguridad del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Seguridad  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

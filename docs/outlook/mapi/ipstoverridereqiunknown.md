@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22f497de-4afe-4433-965d-c3b5a66b05da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6ee4524d08e334df858c2f035f1b21bd2b0a1c8b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c299af87976336656b7f52f6a24a43f59fc60710
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570138"
 ---
 # <a name="ipstoverridereq--iunknown"></a>IPSTOVERRIDEREQ : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proveedor de almacén de recursos de acceso de un archivo de carpetas personales (PST).
   
@@ -46,7 +46,7 @@ Los identificadores de interfaz de controlador de invalidar PST no puede definir
   
 Para obtener más información, vea [cómo implementar un controlador de reemplazo de PST para que omita la directiva de PSTDisableGrow en Outlook 2007](http://support.microsoft.com/kb/956070).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

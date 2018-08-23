@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6e74dbb1f8e0e64feb2c86eb04e146e201089a4e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd1daddbdf4e953dac53d44181fedf371ce3beb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573883"
 ---
 # <a name="pidlidremindertime-canonical-property"></a>Propiedad canónica PidLidReminderTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la hora de señal inicial de un aviso.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4559e5ed5966197434d88dce80b7d5898db6f9ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c973c7233f1fd91a70f1e03f89d6cb6f5b3d7f1c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819638"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572679"
 ---
 # <a name="pidtaginternetcontrol-canonical-property"></a>Propiedad canónica PidTagInternetControl
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se asigna al encabezado de Control de MIME.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

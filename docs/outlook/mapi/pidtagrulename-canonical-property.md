@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 94373a412f20040a79b90219b1fb4949cfdf2299
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31d5d15c8ccda81fb41a87d285f8f1df70e2253b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820174"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566491"
 ---
 # <a name="pidtagrulename-canonical-property"></a>Propiedad canónica PidTagRuleName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre de usuario legible de la regla.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

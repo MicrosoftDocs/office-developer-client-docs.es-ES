@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8c246968dcac719a8ee8177e20e802f9c7033435
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f37e57f997ead58b1ef0e9a27ccbdb0a810be06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571958"
 ---
 # <a name="openstreamonfile"></a>OpenStreamOnFile
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Asigna e inicializa un objeto **IStream** OLE para tener acceso al contenido de un archivo. Esta función toma una cadena ANSI como el nombre de archivo, incluida la ruta de acceso y la extensión de archivo, por lo tanto, uso de la versión de Unicode de esta función, [OpenStreamOnFileW](openstreamonfilew.md), se recomienda.
   
@@ -128,7 +128,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el método **OpenStreamOnFile** para abrir un objeto stream en un archivo, por lo que se puede escribir un archivo adjunto a ella.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

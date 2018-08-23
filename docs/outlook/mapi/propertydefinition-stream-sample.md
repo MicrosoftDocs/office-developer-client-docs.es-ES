@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc216302cb68be4b0e9d57f60f491adebcba1975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573932"
 ---
 # <a name="propertydefinition-stream-sample"></a>Ejemplo de secuencia de PropertyDefinition
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se describe un ejemplo de una secuencia de PropertyDefinition. La secuencia contiene una definición de un campo definido por el usuario, `TextField1`. El tipo es **texto**, y la definición de está en el formato PropDefV2.
   
@@ -100,7 +100,7 @@ El siguiente es un análisis de los datos de ejemplo de la secuencia de Property
     
     - Tamaño: Desplazamiento 0 x 52, 4 bytes: 0 x 0 (0). Esta es la secuencia de SkipBlock terminación.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Estructuras de secuencia](stream-structures.md)

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a8044eb6647e6f437c87bb4d8b021c62ea15f606
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f696d9739014659812de3309ec885f37a6f85cc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572140"
 ---
 # <a name="mapisib"></a>MAPISIB
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta estructura se utiliza con [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
@@ -66,7 +66,7 @@ HANDLE          *phSyncDoneEvent;
   
 > [OUT] El evento que se producirá cuando se haya completado el subproceso que se acaba de crear. El puntero debe ser válido debido a que contendrá el evento.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 62db34a0-887c-4607-94ad-d8cae68b35c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f09d96fd8b35df6cafa81b3830642cf6d67806e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c2926e7c94178d5a3135f34e2ab3b3ae11d145dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817707"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568486"
 ---
 # <a name="implementing-security"></a>Implementación de seguridad
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si el sistema de mensajería lo requiere, el proveedor de transporte es responsable de implementar un nivel adecuado de seguridad para el acceso al sistema de mensajería. Cada mensaje entrante o saliente enviado a través de un proveedor de transporte por la cola MAPI se administra en el contexto de una sesión de inicio de sesión del proveedor. El proveedor de transporte puede mostrar un cuadro de diálogo de inicio de sesión para el usuario que solicita las credenciales de un usuario antes de establecer una conexión de este tipo. Como alternativa, el proveedor de transporte puede almacenar las credenciales del usuario especificadas anteriormente en el intervalo de la propiedad segura dentro de una sección de perfil y usar para el acceso sin preguntar al usuario.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f96d951a79332b07ad65abb30bc1f2916bbbeeef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 809dbf8cfba447277c28dc72a5370f4bf1071649
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816980"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574910"
 ---
 # <a name="install-mapi-header-files"></a>Instalar los archivos de encabezado MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se describe cómo obtener e instalar los archivos de biblioteca y archivos de encabezado MAPI.
 
@@ -25,7 +25,7 @@ Archivos de encabezado MAPI están disponibles como una descarga en [Outlook 201
   
 Para obtener una lista de archivos de encabezado MAPI, vea [Usa archivos de encabezado con frecuencia](commonly-used-header-files.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md) 
 - [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)

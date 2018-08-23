@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2505f555fd8867fdc24a14f523a74b6f478a3e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571069"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene información sobre un control de botón para un cuadro de diálogo creado a partir de una tabla para mostrar.
   
@@ -70,7 +70,7 @@ El miembro **ulPRControl** describe una propiedad de objeto que, cuando se abre 
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 40f8f2b2d1b4dc6316e1716e102217de43198833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9711a930424deb8a9a9bc2b61f6da6e87f15ce6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567226"
 ---
 # <a name="pidtagrpcoverhttpproxyserver-canonical-property"></a>Propiedad canónica PidTagRpcOverHttpProxyServer
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección URL del servidor proxy que se usa para conectar Microsoft Outlook con Microsoft Exchange Server sin el protocolo HTTP o el protocolo de transferencia de hipertexto protocolo seguro (HTTPS) que precede a la dirección URL.
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

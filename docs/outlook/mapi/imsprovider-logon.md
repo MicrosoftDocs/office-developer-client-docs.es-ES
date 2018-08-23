@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b89c8129f68852bdd243a7f984497ab312aa2551
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567639"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registros MAPI sesión en una instancia de un proveedor de almacén de mensajes.
   
@@ -218,7 +218,7 @@ Para la mayoría de los valores de error devuelta desde el **Inicio de sesión**
   
 Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI llamar a la función de entrada de servicio de mensajes del proveedor y, a continuación, vuelva a intentar el inicio de sesión. MAPI pasa MSG_SERVICE_CONFIGURE como el contexto para dar la oportunidad para que se configure el servicio. Si el cliente ha elegido permitir una interfaz de usuario en el inicio de sesión, el servicio puede presentar su hoja de propiedades de configuración, por lo que el usuario puede escribir información de configuración.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

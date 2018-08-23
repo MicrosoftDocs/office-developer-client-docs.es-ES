@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2b4dcdcb50fb04410ed93940b46ea7a0d74fff41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00791ab47cc3c6bd435d6f581e5ada53ae59d73b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818464"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569200"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Estructura de la secuencia PackedUnicodeString
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La estructura de la secuencia de PackedUnicodeString contiene una representación Unicode (UTF-16) de una cadena. Esta cadena no termina con un carácter nulo. Elementos de datos en esta secuencia se almacenan en orden de bytes little-endian, inmediatamente después de entre sí en el orden indicado a continuación. Los elementos de datos reales que existen dependen de la longitud de la cadena de representación UTF-16.
   
@@ -35,7 +35,7 @@ La estructura de la secuencia de PackedUnicodeString contiene una representació
     
   - Caracteres: Una matriz de WCHAR. El recuento de esta matriz es igual al elemento de datos de longitud. Los datos de la matriz están la representación UTF-16 de la cadena.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

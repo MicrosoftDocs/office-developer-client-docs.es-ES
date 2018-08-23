@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bba1e78d79800b1c8e56ad50ce1abb144d4c9aae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44752e147569619589b23a380b2fefa511724ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818627"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571734"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>Propiedad canónica PidLidDistributionListChecksum
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la suma de comprobación de polinomial de 32 bits de redundancia cíclica (CRC-32) de verificación para obtener una lista de distribución personal.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

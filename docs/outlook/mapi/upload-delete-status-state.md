@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ff957e649d5de64c65ac169b3bc413ac7b6c9491
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a45cfafec5126c72f365858e41963bc95fa707a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574548"
 ---
 # <a name="upload-delete-status-state"></a>Cargar estado de eliminación del estado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante la carga Eliminar estado de estado de la máquina de estado de replicación. 
   
@@ -41,7 +41,7 @@ El cliente, a continuación, elimina los elementos especificados en la carpeta e
   
 Cuando finaliza este estado, Outlook borra la información interna que indica que se ha eliminado el elemento; Por consiguiente, Outlook ya no tendrá un registro del elemento. Devuelve el almacén local en el estado de la tabla de carga.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

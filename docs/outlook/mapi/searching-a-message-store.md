@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 90ed7da43d7f9e5e8b5f3024f1eee99a2d7a2b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74b63719f6d72e3c92cbcef6fdb26ee106d4b9aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571839"
 ---
 # <a name="searching-a-message-store"></a>Búsqueda de un almacén de mensajes
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Pueden buscar las aplicaciones cliente a través de una o varias carpetas busca los mensajes que coinciden con los criterios de búsqueda. La técnica más sencilla de búsqueda implica la aplicación de una restricción para definir los criterios y colocar los resultados en una carpeta de resultados de búsqueda, crea explícitamente para esta búsqueda o para una búsqueda anterior. No todos los almacenes de mensajes admiten esta técnica. 
 

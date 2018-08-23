@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 44bb4d34-ca96-4d5a-93fe-85e09bd7971d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 05d6d548032476062127f21b23aa2ce141ed1b65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569c9d8a7ed3f56d88d83ea6fdac4477d39e50a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569487"
 ---
 # <a name="adding-or-deleting-providers-in-a-message-service"></a>Agregar o eliminar los proveedores de servicio de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para agregar o eliminar proveedores de servicios en un servicio de mensajes, use el [IProviderAdmin: IUnknown](iprovideradminiunknown.md) interfaz. Puede recuperar un puntero **IProviderAdmin** mediante una llamada a [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md). En la tabla de proveedor, puede tener acceso a través de [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), se muestra información acerca de los proveedores de servicios instalados actualmente en el servicio de mensajes. Los clientes y proveedores de servicios pueden usar la tabla de proveedor para tener acceso al nombre de proveedor archivo DLL, por ejemplo, o el **MAPIUID**, el nombre para mostrar y el tipo de proveedor así como información sobre el servicio de mensajes. Para obtener más información, vea [Las tablas de proveedor](provider-tables.md).
   

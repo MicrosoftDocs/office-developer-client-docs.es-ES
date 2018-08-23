@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cbe1915df46010c5574065826ac1814f45c8c093
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fff9e488a83246f78058a699e637d83bb159ed33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577348"
 ---
 # <a name="pidtagswappedtodostore-canonical-property"></a>Propiedad canónica PidTagSwappedToDoStore
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina la necesidad de transmitir posteriores a la transformación de un correo electrónico.
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7fdb8781c39d7814ff2c38ff4df4545511d28a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e856cc8dc131c1b6266181a954a8da9cfb1d1ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820132"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566106"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>Propiedad canónica PidTagRowType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que indica el tipo de una fila de una tabla.
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

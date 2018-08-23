@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5a36cf21a36f83ec252923ddbb137b3b99456927
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1d4600810d4f773896f1880b7309c1f818c7dc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818765"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575780"
 ---
 # <a name="pidlidisexception-canonical-property"></a>Propiedad canónica PidLidIsException
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que el objeto que representa una excepción (incluida una instancia huérfana).
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

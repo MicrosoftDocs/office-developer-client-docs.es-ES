@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa72085c4e50fcef1f2d3da81e5409af3d55d89b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f09c88d9bd6720720e2d30ac24fa4a19aed5538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817130"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567233"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Realiza la resolución de nombres, asignar los identificadores de entrada a los destinatarios en una lista de destinatarios.
   
@@ -125,7 +125,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utiliza el método **ResolveName** para resolver una dirección de uso único antes de agregar a un mensaje.  <br/> |
 |MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utiliza el método **ResolveName** para buscar una entrada de la libreta de direcciones por nombre para mostrar.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

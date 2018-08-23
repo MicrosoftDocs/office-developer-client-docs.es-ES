@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a4e924489f2ec656f473f28407d528e9c2ddda5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571090"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Bloquea o desbloquea un mensaje. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -70,7 +70,7 @@ Después de la cola MAPI ha llamado **SetLockState** con el parámetro _ulLockSt
   
 Llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje en su implementación de **SetLockState** para que se guarden los cambios realizados en el mensaje antes de que se recibió la llamada **SetLockState** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

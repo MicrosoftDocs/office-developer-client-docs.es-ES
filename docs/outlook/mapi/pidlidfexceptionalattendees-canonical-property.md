@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7c7f654d42df7856b0e69bf276a763ccd29d1d87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ad6bd888594d09ab8e1dac050f8181341f7ee4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570788"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propiedad canónica PidLidFExceptionalAttendees
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si esta propiedad es un objeto de calendario periódicos con excepciones de uno o más y, al menos uno de los mensajes de excepción incrustado tiene al menos un RecipientRow.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

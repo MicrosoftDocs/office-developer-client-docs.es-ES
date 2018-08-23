@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0c32a60c7655f4e468a03013cb3979bde228ea3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47dd6f10d1dbd25ea275ea96a2eddb6e9c6dfacb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571776"
 ---
 # <a name="pidlidforwardinstance-canonical-property"></a>Propiedad canónica PidLidForwardInstance
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que la convocatoria de reunión representa una excepción a una serie periódica, y que se reenvió (incluso cuando reenviados mediante el organizador) en lugar de ser una invitación enviada por el organizador.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

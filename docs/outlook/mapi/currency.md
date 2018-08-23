@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0789b566eb814fe984ae78670d22ad2937b0c3a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5a2cd09942559167300d8a921987864b8c5e48f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576466"
 ---
 # <a name="currency"></a>CURRENCY
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un entero de 64 bits con signo que representa un valor de moneda. 
   
@@ -56,7 +56,7 @@ La estructura de **moneda** es una representación de entero con escala de un n�
   
 La estructura de **moneda** se usa para describir una propiedad de tipo PT_CURRENCY. Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

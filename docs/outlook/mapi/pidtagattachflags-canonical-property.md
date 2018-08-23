@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b934f9694061e17118be35e3fabeeff3bbc61a37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf92e62dc572a81b6e0aab4cb1b0fc8afe97800d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819221"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573099"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Propiedad canónica PidTagAttachFlags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de indicadores para los datos adjuntos. 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

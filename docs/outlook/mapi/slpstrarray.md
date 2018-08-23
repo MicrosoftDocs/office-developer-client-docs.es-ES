@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6d2bb6bdb934e0b02831b813b1246a3df4193e0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ccad74a9f2553bf29af124821c6d6a87dcde3303
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572875"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de valores de cadena que se utilizan para describir una propiedad de tipo PT_MV_STRING8.
   
@@ -54,7 +54,7 @@ typedef struct _SLPSTRArray
 
 Para obtener más información sobre PT_MV_STRING8, vea la [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

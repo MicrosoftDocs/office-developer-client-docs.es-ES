@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: dec42f8d-0f5c-4665-b53a-11cbc58b8b76
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5d860135d846df8ef1ea0784d7430c71ad0fe64e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7270bce12f6d91dbb5632f739f4644df866924d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818280"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573148"
 ---
 # <a name="mapisvcinf-default-services-section"></a>Sección MapiSvc.inf [Servicios predeterminados]
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La sección **[Services predeterminado]** enumera todos los servicios de mensaje que se han seleccionado como servicios de mensajes de forma predeterminada. Estos servicios de mensaje predeterminada son un subconjunto de los servicios de mensaje que aparecen en la sección **[Services]** . Cuando un programa de configuración de perfil crea un perfil de forma predeterminada, los servicios de mensaje en esta sección se incluyen automáticamente. 
   

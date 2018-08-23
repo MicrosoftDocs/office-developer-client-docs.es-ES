@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d5ce2e6b0f10ff6c2f6fd91ca9f73953f3ee7cd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 975dd172b6ad342351f014d0966d62a150f713c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571293"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Admitir texto con formato en los mensajes salientes: responsabilidades del cliente
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las aplicaciones cliente de establecer la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) o la propiedad **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) para un mensaje saliente. Los clientes que admiten sólo texto sin formato establecer sólo la propiedad **PR_BODY** . Formato de texto de Rich (RTF)-tener en cuenta los clientes pueden establecer **PR_BODY** y propiedades **PR_RTF_COMPRESSED** o sólo **PR_RTF_COMPRESSED**, según el mensaje almacenar proveedor que se utiliza. Los clientes compatibles con HTML establecer la propiedad **PR_HTML** . 
   

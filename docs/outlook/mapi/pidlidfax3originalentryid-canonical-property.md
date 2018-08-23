@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 76b53e208f95aa2d87e3d47cfc5beb69075d376f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0445c2b31209a0a7851c9fa8322c725c168feb19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570516"
 ---
 # <a name="pidlidfax3originalentryid-canonical-property"></a>Propiedad canónica PidLidFax3OriginalEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica que la propiedad EntryID original del contacto del otra dirección de fax.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

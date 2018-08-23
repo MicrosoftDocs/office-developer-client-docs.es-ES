@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 595d5fdba28634b038838921102d3125135452a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75771670f58f4cd65e15a02d08e6f78ab9d71755
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570740"
 ---
 # <a name="imapisupportmakeinvalid"></a>IMAPISupport::MakeInvalid
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Marca un objeto como no utilizable.
   
@@ -74,7 +74,7 @@ Debe ser propietario del objeto que intenta invalidar. Debe tener una longitud d
   
 Puede llamar a **MakeInvalid** y, a continuación, realizar cualquier trabajo de cierre, como descartar las estructuras de datos asociado, que normalmente se realiza durante la versión de un objeto. Código para admitir el objeto no necesita mantenerse en la memoria, ya que MAPI libera la memoria llamando [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, libera el objeto. Puede liberar recursos, llame a **MakeInvalid**y, a continuación, omitir el objeto invalidado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

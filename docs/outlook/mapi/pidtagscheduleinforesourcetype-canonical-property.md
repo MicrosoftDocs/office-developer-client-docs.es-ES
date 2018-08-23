@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f253378-0a2d-47e3-82d3-8055b5f776dd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2f1f86f72231ae39a70977742481cb435da9d923
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cb149f2ba8c6cd328fcffb00172a1f3f904a24e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572336"
 ---
 # <a name="pidtagscheduleinforesourcetype-canonical-property"></a>Propiedad canónica PidTagScheduleInfoResourceType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que se debe establecer en cero (0).
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

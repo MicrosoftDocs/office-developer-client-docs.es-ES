@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3fd61828cd631c4abc0131da867ca213a3c44d20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820751"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568500"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una matriz de uno o más estructuras [SPropProblem](spropproblem.md) . 
   
@@ -55,7 +55,7 @@ typedef struct _SPropProblemArray
 
 Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

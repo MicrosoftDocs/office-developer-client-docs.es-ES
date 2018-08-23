@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 61176ec6f9ff00fa5a38a2b385cb5281fa40961e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ff428d96de40e70e63659c5a3e5fa1c7cf0d564
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819297"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569116"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propiedad canónica PidTagConflictItems
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la entrada de uno o varios identificadores de elementos que han participado en una resolución automática de conflictos.
   
@@ -67,7 +67,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

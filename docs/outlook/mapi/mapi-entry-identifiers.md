@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b8212f4a055125858b77ee615a5d929a4a62bb82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8c9fb0b24d8954fae75274bfbedca9d7c62de93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818107"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567863"
 ---
 # <a name="mapi-entry-identifiers"></a>Identificadores de entrada MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los identificadores de entrada son fragmentos de datos binarios almacenados en una estructura de [ENTRYID](entryid.md) que se usan para identificar de forma exclusiva y abrir un objeto MAPI. La mayoría de los objetos MAPI tiene los identificadores de entrada. Los identificadores de entrada para los objetos son similares a los nombres de archivo para los archivos. Sin embargo, que no están transmisible y no pueden usarse en sistemas que no sea el sistema que se originan en. 
   
@@ -37,7 +37,7 @@ Los clientes siempre deben pasar los identificadores de entrada con naturalidad 
   
 Los identificadores de entrada se incluyen en dos tipos: a corto plazo y a largo plazo. Los identificadores de entrada a corto plazo son más rápidas construir, pero se garantiza su unicidad sólo a través de la vida de la sesión actual en la estación de trabajo actual. Los identificadores de entrada a largo plazo tienen un ciclo de vida más prolongado. Los identificadores de entrada a corto plazo se usan principalmente para las filas en las tablas y las entradas de los cuadros de diálogo, mientras que los identificadores de entrada a largo plazo se usan para muchos objetos, como mensajes, carpetas y listas de distribución.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573050"
 ---
 # <a name="upload-read-status-state"></a>Cargar estado de lectura de estado
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante la carga leer el estado del estado de la máquina de estado de replicación. 
   
@@ -39,7 +39,7 @@ Este estado inicia carga el estado de lectura de elementos en una carpeta especi
   
 Cuando finaliza este estado, Outlook borra la información interna sobre el estado de lectura del elemento, impide que el estado de lectura del elemento que se está cargando nuevamente. Devuelve el almacén local en el estado de la tabla de carga.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

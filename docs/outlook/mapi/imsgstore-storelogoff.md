@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2ac8fb6f4e56b6f086e6061c227120cd49fc621a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566554"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite el cierre de sesión ordenada del almacén de mensajes.
   
@@ -89,7 +89,7 @@ Guarde los indicadores que se pasan al **StoreLogoff** y páselos al llamar al m
   
 Si no se ha realizado ninguna llamada a **StoreLogoff** antes de que el mensaje recuento de referencia de la tienda llega a cero, establecer el indicador LOGOFF_ABORT en el parámetro _ulFlags_ que se pasa a **StoreLogoffTransports**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

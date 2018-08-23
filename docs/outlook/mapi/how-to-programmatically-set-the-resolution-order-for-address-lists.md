@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Última modificación: 06 de julio de 2012'
-ms.openlocfilehash: 676d74c6441716203006f2db3e4a7d5777320a98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577327"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Establecer mediante programación el orden de resolución para las listas de direcciones
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene un ejemplo de código en C++ que establece mediante programación el orden de las listas de direcciones por qué los destinatarios de correo electrónico se resuelven los mensajes y los asistentes de las convocatorias de reunión.
   
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre cómo establecer el orden de resolución de las listas de direcciones en Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

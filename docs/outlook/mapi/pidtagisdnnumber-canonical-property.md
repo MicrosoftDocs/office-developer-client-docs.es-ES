@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 45ac19f2-67b4-4a8e-9b56-8941db095464
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e3ec17123c0409b9733ae39813c2d21774feb7e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569079559318f50f81bf2ceece7ec5b6333aff1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573680"
 ---
 # <a name="pidtagisdnnumber-canonical-property"></a>Propiedad canónica PidTagIsdnNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono ISDN (RDSI) capaz del destinatario. 
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

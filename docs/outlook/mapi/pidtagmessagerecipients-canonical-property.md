@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 980b1b81a0afbfe05fee915ddd730aad31811132
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d0d2c07355140e89ffb24095d1ca3a302f6e5ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819746"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568451"
 ---
 # <a name="pidtagmessagerecipients-canonical-property"></a>Propiedad canónica PidTagMessageRecipients
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una tabla de las restricciones que se pueden aplicar a una tabla de contenido para buscar todos los mensajes que contienen destinatarios subobjetos que cumplen las restricciones. 
   
@@ -88,7 +88,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

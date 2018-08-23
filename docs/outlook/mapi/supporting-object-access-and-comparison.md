@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f33dcedae5ffe30b85a58d5248d239be81c8efc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575285"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Admitir la comparación y acceso a objetos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proveedores de servicios pueden usar los métodos [IMAPISupport::OpenEntry](imapisupport-openentry.md) y [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para abrir y comparar los objetos que pertenecen a su proveedor o a otros proveedores: 
   
@@ -35,7 +35,7 @@ Para ilustrar cómo un proveedor de transporte podría utilizar **IMAPISupport::
     
 Si ha abierto varios objetos de otros proveedores, necesitará averiguar si dos identificadores de entrada hacen referencia al mismo objeto. Por ejemplo, es posible que tenga un identificador de entrada a corto plazo y un identificador de entrada a largo plazo y estos identificadores pueden o no se pueden identificar el mismo objeto. Para evitar el procesamiento redundante, llame al método [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para comparar estos identificadores de entrada. Debe usar este método para la comparación de identificador de entrada debido a que no se pueden comparar directamente los identificadores de entrada. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

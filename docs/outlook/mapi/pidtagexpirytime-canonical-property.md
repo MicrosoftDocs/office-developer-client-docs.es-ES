@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4666a5837c9f9f2ceb209088929aa3d343eb02f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21e052545c9c5e68bf1bc2f8c1ead054163f3b8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566148"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propiedad canónica PidTagExpiryTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la fecha y la hora cuando el sistema de mensajería puede invalidar el contenido de un mensaje. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d80671331c2760c574ab32d79115a352ee4bcf25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2cc9a6f97fa51a255f8c24c2bb52c912aef7718
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818042"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566253"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una función que inicia la aplicación de Asistente para perfiles con el fin de agregar uno o más servicios de mensaje a un perfil. 
   

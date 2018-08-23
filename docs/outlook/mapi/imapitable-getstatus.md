@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6478f2c6c8196fa332a7b019269e6a6266485d1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cda3de1719ec1b7cfca1a9ecdad7bc3b59a8b17d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817603"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571153"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el estado y el tipo de la tabla.
   
@@ -116,7 +116,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI usa el método **IMAPITable::GetStatus** para informar del estado de una tabla.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

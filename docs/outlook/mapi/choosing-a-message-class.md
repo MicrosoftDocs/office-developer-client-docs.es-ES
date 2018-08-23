@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f1e604120041e9d91d06276fabb2e9dd7505df51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816570"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574240"
 ---
 # <a name="choosing-a-message-class"></a>Elegir una clase de mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Tal como se describe en [Las clases de mensaje MAPI](mapi-message-classes.md), las clases de mensajes que son importantes para establecer la relación entre los tipos de mensajes personalizados y, por extensión, entre los servidores del formulario a sí mismos. Afortunadamente, la elección de una cadena de la clase de mensaje es bastante sencillo. La cadena de la clase de mensaje de una clase de mensaje es una cadena arbitraria, pero debe utilizar las siguientes convenciones:
   
@@ -51,7 +51,7 @@ Cuando el formulario está instalado en el equipo del usuario, el proceso de ins
   
 Para obtener más información, vea [instalar un formulario en una biblioteca](installing-a-form-into-a-library.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

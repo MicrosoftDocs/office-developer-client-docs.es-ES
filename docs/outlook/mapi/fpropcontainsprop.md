@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b08d3af8c61d8ced31e822bb787d49ad90b4df54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571678"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos valores de propiedad, por lo general cadenas o matrices binario, para ver si contiene uno del otro. 
   

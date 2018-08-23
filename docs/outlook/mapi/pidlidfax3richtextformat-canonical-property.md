@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 23c260dc-1eb5-4a06-ad1d-c5e34d04e88b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c8843d31c358ff38236f51618eec26d01b0e6f92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f168b8565bc4f365c87900ea990cb060c573010e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818722"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571741"
 ---
 # <a name="pidlidfax3richtextformat-canonical-property"></a>Propiedad canónica PidLidFax3RichTextFormat
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica que el formato de texto enriquecido del contacto del otra dirección de fax.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 557fd222-8513-4e8a-b605-3def955107dc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bbff39fa100892a74b36d2ca51bab7788ae7ab0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f22f9fef661f611adb9e47272d18f0a69d63f51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572126"
 ---
 # <a name="pidtaghomeaddressstreet-canonical-property"></a>Propiedad canónica PidTagHomeAddressStreet
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la calle de la dirección de un usuario.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

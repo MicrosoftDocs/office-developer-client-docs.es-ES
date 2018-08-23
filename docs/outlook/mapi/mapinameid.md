@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c3a21e8a6e69cae9d8b757a60fe56d63e079b3ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0ff4d8beb9c9d82d685630a35aefebaf7de71fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570831"
 ---
 # <a name="mapinameid"></a>MAPINAMEID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una propiedad con nombre. 
   
@@ -87,7 +87,7 @@ Propiedades con nombre que los clientes puedan definir propiedades personalizada
   
 Para obtener más información acerca de las propiedades con nombre, vea [Las propiedades con nombre](mapi-named-properties.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

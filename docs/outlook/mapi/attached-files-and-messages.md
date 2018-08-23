@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 489930b35d24d2691c9b9fbb59b0fa95707a0618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566834"
 ---
 # <a name="attached-files-and-messages"></a>Mensajes y archivos adjuntos
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si MIME con TNEF se usa durante la codificación de contenido del mensaje, todo el contenido y las propiedades de los datos adjuntos se encuentran en la secuencia TNEF. La codificación TNEF propio es un único archivo adjunto binario denominado Winmail.dat, con codificación tal como se describe para MIME sin TNEF. 
   
@@ -75,7 +75,7 @@ Objetos OLE incrustados se descartan.
   
 Posiciones de procesamiento de datos adjuntos se transmiten literalmente, mediante la propiedad **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) en la codificación TNEF. Si no se usa la codificación TNEF, se pierden. Datos adjuntos entrantes con ninguna posición de representación (incluso cuando no hay ningún TNEF) tienen su posición de representación no establecida en 0xFFFFFFFF, es decir, ninguna posición en el texto del mensaje.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

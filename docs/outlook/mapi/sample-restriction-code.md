@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4f41abe2ee41946f68e1d79c75b36791364ea970
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570264"
 ---
 # <a name="sample-restriction-code"></a>Código de restricción de ejemplo
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El siguiente ejemplo de código se muestra cómo crear una restricción que filtra todos los mensajes que no contienen la palabra "voleibol" en la línea de asunto y no se han enviado a Sue desde Sam. Un árbol de estructuras [SRestriction](srestriction.md) es necesario, con el nodo superior que se va a implementar con una estructura de [SAndRestriction](sandrestriction.md) una restricción de **y** . Las tres restricciones que se unen mediante la operación **AND** son una restricción subobjetos que busca los mensajes enviados a Sue, una restricción de contenido que busca los mensajes de Sam y otra restricción **y** que busca mensajes que tienen un asunto contiene "voleibol." Dado que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) no es una propiedad necesaria, se debe incluir una restricción **existe** . 
   
@@ -96,7 +96,7 @@ HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
  
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

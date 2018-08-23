@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6d2731bd9c022cf18ec0ea7eb75a1d78900e62f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c1c4cc8a645720c6652aa49318b1b2b4920a0b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570621"
 ---
 # <a name="pidtagotheraddressstreet-canonical-property"></a>Propiedad canónica PidTagOtherAddressStreet
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el correo otra dirección del usuario.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c1b4aabe4f066e8fbb65cbcc5db64a050001e649
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f41a353172f3991b6ac4a73afc062bd0741d0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566176"
 ---
 # <a name="pidtagspousename-canonical-property"></a>Propiedad canónica PidTagSpouseName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre del usuario del cónyuge.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

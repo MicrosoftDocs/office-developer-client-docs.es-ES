@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 87f8b4f4011e405d9848f12b5cae56f27fff1ab8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4245b5dd1b70d4cf695190c65b447cf92566ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574485"
 ---
 # <a name="selecting-a-receive-folder"></a>Seleccionar una carpeta de recepción
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una carpeta de recepción es donde se colocan los mensajes entrantes de una clase determinada. Para IPM y los mensajes de informe relacionados, MAPI asigna la Bandeja de entrada, como el valor predeterminado de recepción carpeta. Para IPC y los mensajes de informe relacionados, MAPI asigna la carpeta raíz del almacén de mensajes, como el valor predeterminado de recepción carpeta. Puede cambiar estas asignaciones o realizar asignaciones adicionales para otras clases de mensaje. Realizar explícita de recepción las asignaciones de carpeta de su cliente compatibles mensaje clases es opcional.
   

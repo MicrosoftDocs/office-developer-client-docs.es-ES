@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c6e352288f0bf5b0a3f284441bffc522bf00b9f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9244e28337c74487562ec235f246559a49a390d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19817186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573806"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Implementa un objeto de receptor advise para controlar la notificación. Un puntero a un objeto de receptor advise se pasa en la llamada al método **Advise** de un proveedor de servicios, el mecanismo utilizado para registrar la notificación. 
   
@@ -42,7 +42,7 @@ Implementa un objeto de receptor advise para controlar la notificación. Un punt
 |:-----|:-----|
 |[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación mediante la realización de una o varias tareas. Las tareas que realiza dependen del tipo de evento y el objeto que genera la notificación.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

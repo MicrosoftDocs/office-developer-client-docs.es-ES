@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3aae61f7b21c507da7955dbb4393d13bfb5fa24c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f700389315ca7bd184a9d6defb0b44eaec99a38e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574779"
 ---
 # <a name="imsgserviceadmin2createmsgserviceex"></a>IMsgServiceAdmin2::CreateMsgServiceEx
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Agrega un servicio de mensajes para el perfil actual y devuelve que acaba de agregar UID de servicio.
   
@@ -105,7 +105,7 @@ Pasar el valor de la propiedad **PR_SERVICE_UID** en el parámetro _lpuidService
 > [!IMPORTANT]
 > La interfaz de IMsgServiceAdmin2 es expuesta por el mismo objeto que implementa la interfaz IMsgServiceAdmin y ha estado disponible mediante la implementación de Outlook del subsistema MAPI desde Outlook 2003. Su IID se define como sigue: > `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> _ulFlags_ SERVICE_NO_RESTART_WARNING no pueden definirse en el archivo de encabezado que se pueden descargar tiene actualmente, en cuyo caso se puede agregar a su código con el siguiente valor: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

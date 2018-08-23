@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570915"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Mantiene y proporciona acceso a las propiedades de los datos adjuntos en los mensajes. La interfaz **IAttach** no tiene únicos métodos de su propio. Para obtener más información acerca de cómo usar los datos adjuntos, vea [Los datos adjuntos de MAPI](mapi-attachments.md) y [Las tablas de datos adjuntos](attachment-tables.md). 
   
@@ -47,7 +47,7 @@ Esta interfaz no tiene ningún método único.
 |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
 |**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

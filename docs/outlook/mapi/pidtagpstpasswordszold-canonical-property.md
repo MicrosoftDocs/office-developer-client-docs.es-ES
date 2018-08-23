@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 69d62c4433d85a0e6cd9cf9b3f10acb9d758ffb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0de49d8077e51a78a72b929c4f27b2e80f13f19b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572469"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>Propiedad canónica PidTagPstPasswordSzOld
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la contraseña de la tabla de almacenamiento de información personal (archivos .pst) que se está configurada.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

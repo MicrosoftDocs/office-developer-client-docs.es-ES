@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1be4fd95d29859c542fe553bdc3728ea23444694
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20831901567f177ada70a6cea94db0537786db94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571440"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Envía una notificación para una fila de tabla.
   
@@ -59,7 +59,7 @@ S_OK
 
 El método **ITableData::HrNotify** envía una notificación de TABLE_ROW_MODIFIED para la fila que coincide con la fila que se describen las propiedades que apunta el parámetro _lpSPropValue_ . **HrNotify** envía la notificación, independientemente de si se han producido cambios en la fila. Todos los clientes y proveedores de servicios que tienen las vistas de la tabla y han llamado [IMAPITable::Advise](imapitable-advise.md) para registrar las notificaciones en las vistas de reciben esta notificación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

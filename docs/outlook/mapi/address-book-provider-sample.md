@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c32017598407760d5dbbb01ee6c28267bbffd152
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566862"
 ---
 # <a name="address-book-provider-sample"></a>Muestra de proveedor de libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este ejemplo es compatible con un único contenedor de sólo lectura para los nombres para mostrar y direcciones de correo electrónico, que se leen de un archivo binario de plano. En el ejemplo es compatible con las plantillas de uso único y todas las opciones de configuración, excepto el Asistente para perfiles.
   

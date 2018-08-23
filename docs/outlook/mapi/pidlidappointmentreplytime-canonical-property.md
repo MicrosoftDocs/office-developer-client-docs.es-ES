@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5bc2af5205e6e07b56212a6cf7077f9ef4bee89c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 755342da4bc280241e313fbb7efb818ab29b829f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571629"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propiedad canónica PidLidAppointmentReplyTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la fecha y la hora cuando el asistente ha respondido a una convocatoria de reunión recibida o actualización de la reunión.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

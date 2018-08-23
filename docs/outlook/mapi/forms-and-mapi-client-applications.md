@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f1256616eb73fae5f644e7e79a1b3c3350fa5727
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1357482b372e83be4aab1f77037908cafc0b3f05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569214"
 ---
 # <a name="forms-and-mapi-client-applications"></a>Formularios y las aplicaciones cliente MAPI
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Dado que todos los mensajes MAPI son instancias de formularios, las aplicaciones cliente mostrarán e interactúan con objetos de formulario al igual que con otros objetos de mensaje.
   
@@ -25,7 +25,7 @@ Las aplicaciones de cliente que usan las interfaces de formulario MAPI pueden pr
   
 Para obtener más información, vea [Controlar formularios de MAPI](handling-mapi-forms.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Formularios MAPI](mapi-forms.md)
 

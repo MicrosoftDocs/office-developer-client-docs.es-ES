@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 844880e5a1e40b51ece30baafd969372e7d43121
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575507"
 ---
 # <a name="ending-a-mapi-session"></a>Finalizar una sesión MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los clientes pueden terminar sus sesiones en respuesta a una solicitud de un usuario, ya sea inmediatamente o se han procesado los mensajes salientes después de todo, y cuando se produce un error crítico. Algunos necesitan los clientes para mantenerse iniciar sesión para que los mensajes salientes pendientes puede alcanzar el proveedor de transporte y el sistema de mensajería de destino. Si este tipo de cliente envía un mensaje y se cierra inmediatamente, el mensaje puede permanecer en la cola de salida hasta que un usuario vuelve a iniciar sesión y permanece conectado tiempo suficiente para que el mensaje que se va a transmitir.
   

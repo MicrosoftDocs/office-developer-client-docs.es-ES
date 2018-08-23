@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 14fc5571-acc0-4d75-8598-964aee5ba01c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bc16e88035f091a4f42a03342a70e7e3a1da5e0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53772fca5e8137dfd602d4c7d6f5e6ad40f9c50f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573435"
 ---
 # <a name="pidtaginstancekey-canonical-property"></a>Propiedad canónica PidTagInstanceKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que identifica de forma exclusiva una fila en una tabla. 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

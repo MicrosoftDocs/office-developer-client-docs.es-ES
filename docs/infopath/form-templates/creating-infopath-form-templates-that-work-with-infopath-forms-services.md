@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: Los formularios compatibles con el explorador implementados en Microsoft SharePoint Server 2013 con InfoPath Forms Services admiten características y controles que cubren la mayoría de los escenarios de uso de formularios de InfoPath. Sin embargo, los formularios compatibles con el explorador de InfoPath Forms Services no admiten todas las características de InfoPath. Algunas características y controles no se implementan en el servidor; otras no tienen una representación importante en el servidor.
-ms.openlocfilehash: 65201358fc651325920bd3eefc863e839bb1f1a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c633c93eef5fa2d773ed1497f933f2cc3ee0e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595457"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Crear plantillas de formulario de InfoPath que funcionan con InfoPath Forms Services
 

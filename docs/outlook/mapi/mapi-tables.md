@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7c3c4479cd401a163e34c819ecd44e86d1d01965
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6393de45dbfd130e15a0678f2b6a7f18968dfa03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573218"
 ---
 # <a name="mapi-tables"></a>Tablas MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una tabla MAPI es un objeto MAPI que se utiliza para ver una colección de propiedades pertenecientes a otros objetos MAPI de un tipo determinado. Tablas MAPI se estructuran en un formato de fila y columna con cada fila que representa un objeto y cada columna que representa una propiedad del objeto. Una de las propiedades que normalmente se incluyen en cada fila es la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)), un identificador que se puede usar para abrir y modificar el objeto. 
   
@@ -49,7 +49,7 @@ Existen dos interfaces para trabajar con tablas:
     
 - [ITableData: IUnknown](itabledataiunknown.md) proporciona a los clientes y proveedores de servicios de acceso de lectura/escritura a los datos subyacentes de la tabla, lo que les permite realizar cambios permanentes. **IMAPITable** se implementa mediante MAPI y resultan de utilidad para los proveedores de servicios que tienen acceso a él mediante una llamada a la función [CreateTable](createtable.md) . La implementación de **ITableData** contiene todos los datos para la tabla y cualquier asociado restricciones en la memoria, lo que apropiadas para usar con tablas muy grandes. Restricciones de compuestos y operaciones complejas, como la categorización no son compatibles. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Conceptos MAPI](mapi-concepts.md)
 

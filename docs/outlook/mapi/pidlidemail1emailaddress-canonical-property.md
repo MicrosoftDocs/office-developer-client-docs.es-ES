@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 790800a0-34a2-4223-8b75-b50c57881022
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 478bf24d31cadded872757cdff61da58f602837c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e95af6c34c2b252220911a06b05fda35874ec15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572343"
 ---
 # <a name="pidlidemail1emailaddress-canonical-property"></a>Propiedad canónica PidLidEmail1EmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la primera dirección de correo electrónico del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e9d9ca56a877c0106c76242fe97ce43321e62e08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 619357a608dd160cbe4811cc7db7ae3b392db858
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817804"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576893"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre una carpeta o un objeto de mensaje y devuelve un puntero al objeto para proporcionar más acceso. 
   
@@ -90,7 +90,7 @@ Antes de MAPI llama a **IMSLogon::OpenEntry**, primero determina que el mensaje 
   
  **IMSLogon::OpenEntry** es idéntico al método [IMsgStore::OpenEntry](imsgstore-openentry.md) del objeto de almacén de mensaje, excepto en que el cliente no llama a **IMSLogon::OpenEntry**; Las llamadas de MAPI **IMSLogon::OpenEntry** cuando se procesa un método **IMAPISession::OpenEntry** . Objetos abiertos mediante el uso de **IMSLogon::OpenEntry** deben ser exactamente el mismo se trata como objetos abiertos utilizando el mensaje almacenan el objeto; en concreto, objetos abiertos mediante el uso de esta llamada deben invalidarse cuando se libera el objeto de almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

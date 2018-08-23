@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9e53c39b713aa782eb387b85667f5ded6193006f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbead0a9953ae5106e1fcc7d07d965d4dc7bacb9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820436"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570992"
 ---
 # <a name="proptag"></a>PROP_TAG
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una etiqueta de propiedad creada mediante la combinación de un tipo de propiedad especificado y un identificador. 
   
@@ -57,7 +57,7 @@ Los 16 bits de orden inferior de la etiqueta de propiedad devuelto contienen el 
   
 Para obtener más información acerca de las etiquetas de propiedad, vea [Etiquetas de propiedad MAPI](mapi-property-tags.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [SPropValue](spropvalue.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

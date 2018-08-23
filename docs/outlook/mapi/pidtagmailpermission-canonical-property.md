@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4cc97647c60322783050abbebd18726434632a43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571195"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propiedad canónica PidTagMailPermission
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el usuario de mensajería tiene permiso para enviar y recibir mensajes. 
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

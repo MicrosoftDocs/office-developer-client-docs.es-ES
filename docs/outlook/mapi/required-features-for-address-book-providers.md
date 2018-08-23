@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ac76d1caf5db0b041a17d40d08671665b5427051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 919b21490bb3b4418ba291e8e06198028c995b00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820504"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570874"
 ---
 # <a name="required-features-for-address-book-providers"></a>Características necesarias para los proveedores de libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de la libreta de direcciones pueden trabajar con información de los destinatarios que es temporal o permanente, local o remoto, comprensible por uno o varios sistemas de mensajería y con formato para una tabla de base de datos o archivo de disco. Hay una gran variedad de características que puede implementar un proveedor de la libreta de direcciones, con lo que se agregar valor y mejorar la interoperabilidad con los clientes y otros proveedores. Sin embargo, algunas de las características son necesarios.
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 13dad61176a877295069317e4a5b51888b01bebb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820661"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574744"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una estructura de [ADRLIST](adrlist.md) con el nombre especificado que contiene un número especificado de estructuras [ADRENTRY](adrentry.md) . 
   
@@ -52,7 +52,7 @@ La macro **SizedADRLIST** le permite definir una lista de destinatarios que tien
 lpADRList = (LPADRLIST) &SizedADRList;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [ADRLIST](adrlist.md)
 - [ADRENTRY](adrentry.md)

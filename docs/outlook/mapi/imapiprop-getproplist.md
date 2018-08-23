@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0457007334ad8cc69dade3abd5859dd0d5f7af7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5417853dbb1fa87d2beead2f73ca57329e17b044
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571125"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve las etiquetas de propiedad para todas las propiedades. 
   
@@ -82,7 +82,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp::GetPropList** para obtener una lista de propiedades que se pase a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5d1654908c50c348a27e1281168756100b7a88a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816797"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575101"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las pruebas de la validez de una columna de tabla establecida para usar un proveedor de servicios en una llamada posterior al método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
   

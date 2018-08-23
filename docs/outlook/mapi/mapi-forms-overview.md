@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 91bc0641723a92d8dc86bf3d1037d8e9936930ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29132f24547dc744efcd6f2b6e4a8f6af87ab53c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818132"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574415"
 ---
 # <a name="mapi-forms-overview"></a>Introducción a los formularios MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un formulario MAPI es un visor para un mensaje. Cada mensaje tiene una clase de mensaje que determina la forma concreta que se usa como su visor. MAPI define varias clases de mensaje y ha implementado los formularios para ver los mensajes de estas clases. Los programadores de software de cliente pueden crear nuevas clases de mensaje y formularios personalizados para la visualización de los mensajes creados mediante el uso de las clases nuevas.
   
@@ -47,7 +47,7 @@ En la siguiente lista se describe los componentes en el diagrama y su relación 
     
 Para obtener más información acerca de los componentes de formulario MAPI, vea [Los formularios MAPI](mapi-forms.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9c7ea7d1772ac8dff69783fcff2556b34a3d18e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d9e596bcc8659633228765ddd8f396aaee3c00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570117"
 ---
 # <a name="pidlidsharingresponsetime-canonical-property"></a>Propiedad canónica PidLidSharingResponseTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la hora en que el destinatario de la solicitud para compartir enviado una respuesta para compartir. Esto es una propiedad de un mensaje para compartir.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

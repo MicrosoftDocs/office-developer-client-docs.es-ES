@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dcfaf9f4e71a13a8697da0cac98f7ea9cc3d8708
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819609"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571846"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Propiedad canónica PidTagImplicitConversionProhibited
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si un agente de transferencia de mensajes (MTA) no puede crear mensaje implícita las conversiones de texto.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

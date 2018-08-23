@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 51cd838164e3de28ab33d6ab8a08a021360f3183
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570838"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a la tabla de uso único de MAPI (una lista de plantillas que todos los libreta de direcciones de proveedores de soporte técnico para la creación de nuevos destinatarios).
   
@@ -68,7 +68,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta al format
 
 Si se ha registrado para recibir notificaciones de los cambios realizados en esta tabla de uso único, también recibirá notificaciones de los cambios realizados en las tablas de uso único de otros proveedores. En función de estas notificaciones, puede admitir nuevos tipos de dirección que se agregan durante la sesión actual.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

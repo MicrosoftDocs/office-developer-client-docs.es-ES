@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7113c70c5e60954a63e7efe21ad0dc91c90517d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f53c0b758db69e798b9f15c7749f12dcf3b17e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820640"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566134"
 ---
 # <a name="service-provider-development-basics"></a>Conceptos básicos de desarrollo de proveedor de servicio
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios de MAPI.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

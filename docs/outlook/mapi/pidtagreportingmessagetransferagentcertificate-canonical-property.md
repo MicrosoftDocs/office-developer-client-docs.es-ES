@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 780510b4557d62d77dcd69859492d0974af3a535
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbadc9407a181ba58b4bcd726df05465b11dc789
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820089"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570950"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Propiedad canónica PidTagReportingMessageTransferAgentCertificate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador para el agente de transferencia de mensaje que genera un informe.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

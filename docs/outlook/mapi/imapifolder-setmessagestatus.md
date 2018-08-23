@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fcca6a7e8fa70a2df9042e8b3c2b28825cee9a7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d06523625a20760faec7a6c73a6beaef757818b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817255"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575080"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece el estado asociado a un mensaje (por ejemplo, si ese mensaje está marcado para su eliminación).
   
@@ -103,7 +103,7 @@ Implementación del proveedor de transporte remoto de este método debe seguir l
 
 Puede usar la propiedad **PR_MSG_STATUS** de un mensaje para la negociación de una operación de bloqueo de mensajes con otros clientes. Designar un poco como el bit de bloqueo. Para determinar si se ha establecido el bit de bloqueo, examine el valor anterior de estado del mensaje en el parámetro _lpulOldStatus_ . Use el resto de los bits en el parámetro _ulNewStatus_ para realizar un seguimiento del estado del mensaje sin interferir con el bit de bloqueo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

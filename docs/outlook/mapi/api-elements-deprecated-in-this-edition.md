@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d0a6d182-961c-4496-a3bd-f643612527a5
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: c70e89efba585183d2019bbda49102ecd14b9e20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e40bcbfffc6f149837f4a11351f2bdbbf0dcc524
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571601"
 ---
 # <a name="api-elements-deprecated-in-this-edition"></a>Elementos de la API que se dejan de usar en esta edición
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los siguientes elementos de la API están en desuso en Microsoft Outlook 2013. Ya no son compatibles y no se debe usar en los nuevos proyectos.
   
@@ -41,7 +41,7 @@ Los siguientes elementos de la API están en desuso en esta versión debido a un
     
 - **IAddrBook::QueryDefaultRecipOpt**: proveedores MAPI de cliente y el servicio ya no deben llamar a este método para recuperar las propiedades que controlan las opciones de destinatarios para un tipo de dirección concreto. El método ya no devuelve un puntero a una matriz de valores de propiedad.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

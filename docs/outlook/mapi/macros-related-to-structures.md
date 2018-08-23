@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e60ba98bdf82f7e0f02aefc858f2eefd4c7d91f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 177a453f64dd41197b18418eefbfdf9868ad2849
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818038"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571643"
 ---
 # <a name="macros-related-to-structures"></a>Macros relacionadas con estructuras
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En los temas de esta sección se describen las macros relacionadas con las estructuras MAPI. Para obtener información más detallada, también se incluyen las referencias cruzadas a otras publicaciones o a otros temas de esta documentación. 
   
@@ -52,7 +52,7 @@ En la siguiente tabla se enumera las macros que están relacionadas con las estr
 |[SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |[SizedSPropTagArray](sizedsproptagarray.md) <br/> |
 |[SizedSRowSet](sizedsrowset.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

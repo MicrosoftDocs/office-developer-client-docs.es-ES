@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f94a0f9c7e4ec4a5c567a96e5ddb0dda25a318c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570467"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Propiedad canónica PidTagFormContactName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de un contacto para obtener información acerca de un formulario. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

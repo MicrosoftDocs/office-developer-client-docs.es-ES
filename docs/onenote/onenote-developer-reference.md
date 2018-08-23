@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Esta referencia contiene descripciones conceptuales y las referencias de programación que le guiarán en el desarrollo de soluciones para aplicaciones de cliente de escritorio de OneNote 2013.
-ms.openlocfilehash: 8af3f0b8623f0b457250ea11f185a25cadec7386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566582"
 ---
 # <a name="onenote-developer-reference"></a>Referencia para desarrolladores de OneNote
 
@@ -32,18 +32,13 @@ Esta documentación contiene la siguiente información:
 > [!NOTE]
 > Las API descritas en esta documentación solo están destinadas para soluciones de cliente de escritorio de OneNote Win32 en escenarios no conectados. Para escenarios conectados, use las API de servicio de OneNote recomendadas. Para obtener más información, visite [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
-- [OneNote para desarrolladores](http://go.microsoft.com/fwlink/?LinkID=390615)
-    
-- [Ejemplos en depósito](https://github.com/OneNoteDev/) (API de OneNote service) 
-    
-- [Accesibilidad en productos de Microsoft](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [OneNote para desarrolladores](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [Ejemplos en depósito](https://github.com/OneNoteDev/) (API de OneNote service)     
+- [Accesibilidad en productos de Microsoft](http://www.microsoft.com/enable/products/default.aspx)    
+- [Convenciones de documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
 - [Información de Copyright de referencia para desarrolladores de OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
-- [Aviso de privacidad en línea de Microsoft](http://privacy.microsoft.com/en-us/default.mspx)
     
 

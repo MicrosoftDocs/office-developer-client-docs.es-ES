@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7505c5dbcfc98a8b868424ae51cbe9c47b1d4338
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 363a85e1c6f111936b16e471eda6b9f962f8b65d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820684"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573624"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura de [elemento SPropTagArray](sproptagarray.md) con nombre que incluye un número especificado de etiquetas de propiedad. 
   
@@ -55,7 +55,7 @@ lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [SPropTagArray](sproptagarray.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

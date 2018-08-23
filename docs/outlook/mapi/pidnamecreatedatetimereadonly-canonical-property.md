@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: bb48743f-1f7f-47fb-b339-223d9bbf7072
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cd888ec742d8b4617967970df94662453963908f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a12489ade6f91f8d7c2c227c4f6ca31a6445a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573869"
 ---
 # <a name="pidnamecreatedatetimereadonly-canonical-property"></a>Propiedad canónica PidNameCreateDateTimeReadOnly
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la hora cuando se creó el archivo.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |CreateDtmRo  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

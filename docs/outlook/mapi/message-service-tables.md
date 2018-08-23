@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 81772115fcd4f081718dd560759f6ab93dc7c11c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576675"
 ---
 # <a name="message-service-tables"></a>Tablas de servicio de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La tabla de mensajes de servicio contiene información acerca de los servicios de mensaje en el perfil actual. Hay una tabla de servicio de mensaje para cada sesión MAPI, implementada por MAPI y usados por las aplicaciones de cliente de propósito especial que proporcionan compatibilidad con la configuración. 
   
@@ -52,7 +52,7 @@ Las siguientes propiedades que conforman la columna necesaria establecida en la 
   
  **PR_SERVICE_UID** es un identificador único para el servicio de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

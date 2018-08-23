@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: dad36bfc5fed296cff3baa4cc11bb1fdf359c45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818123"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569928"
 ---
 # <a name="mapi-form-servers"></a>Servidores de formulario MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Desde la perspectiva del usuario, un formulario es normalmente una hoja de propiedades para un mensaje o un formulario de entrada de datos que permite a los usuarios introducir información estructurada. Sin embargo, puede ser cualquier interfaz de usuario que está asociado a una clase de mensaje. Desde el punto de vista del programador, una forma consta de:
   
@@ -52,7 +52,7 @@ Un identificador único de clase (CLSID) identifica cada servidor del formulario
   
 Para obtener más información, vea [Las clases de mensajes de MAPI](mapi-message-classes.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

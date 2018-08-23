@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a0e859ac0f8bcc3bd83e336c85da21f1251efcb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817188"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570945"
 ---
 # <a name="iid"></a>IID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una estructura [GUID](guid.md) que se usa para describir un identificador para una interfaz de MAPI. 
   
@@ -48,7 +48,7 @@ Una estructura de **IID** se usa para identificar de forma exclusiva una interfa
   
 Todas las estructuras **IID** específicas para las interfaces MAPI se definen en el archivo de encabezado Mapiguid.h. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

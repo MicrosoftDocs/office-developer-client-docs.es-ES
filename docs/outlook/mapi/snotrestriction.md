@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a07a7737e9b9354514a2d5ac2ec37a393a3cd4e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 174da93e7682246565b12c4fc4ffa6d1a9de065c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575066"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción **no** , que se usa para aplicar una operación **NOT** lógica a una restricción. 
   
@@ -54,7 +54,7 @@ typedef struct _SNotRestriction
 
 Para obtener más información acerca de la estructura **SNotRestriction** , vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 040c851d64f60c319250fd0e08620285b6f2f0db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36233d51f47c53d6a69494c0fcd799a7c83add29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567877"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>Desarrollar un proveedor de almacén de mensajes MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Al igual que otros proveedores de servicios MAPI, los almacenes de mensajes son bibliotecas de vínculos dinámicos (DLL) que presentan los servicios de un mecanismo de almacenamiento subyacente para las aplicaciones cliente MAPI y la cola de MAPI. El proveedor de almacenamiento de mensaje presenta el mecanismo de almacenamiento subyacente como un conjunto jerárquico de carpetas y los mensajes que pueden usar los clientes MAPI y la cola de MAPI.
   
@@ -39,7 +39,7 @@ Los proveedores de almacén de mensajes realizar un uso intensivo de tablas, las
   
 Hay dos tipos importantes de los proveedores de almacén de mensajes: aquellos que pueden actuar como valor predeterminado de un usuario de mensajes almacén y aquellos que no se puede. Un almacén de mensajes predeterminado es uno en cliente que las aplicaciones y la cola MAPI pueden realizar cualquier tarea de mensajería, como recibir mensajes o la creación de carpetas. Un proveedor de almacén de mensajes predeterminado debe admitir varias características que el número mínimo necesario para todos los proveedores de almacén de mensajes.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Conceptos MAPI](mapi-concepts.md)
 

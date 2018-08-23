@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3dfc67c8bcd899396da5371c614fd221cd9b2251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816360"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571944"
 ---
 # <a name="about-table-notifications"></a>Información sobre las notificaciones de tabla
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los clientes a menudo se basan en las notificaciones de tabla para obtener más información de los cambios a objetos en lugar de registrar para recibir notificaciones directamente desde los objetos. Los cambios más frecuentes que impedir que se envíen notificaciones incluyen la adición, eliminación o modificación de una fila y cualquier error crítico. Cuando se reciben las notificaciones, los clientes pueden determinar si debe realizar otra llamada a volver a cargar en la tabla. 
   
@@ -37,7 +37,7 @@ Los clientes deben tener en cuenta que no todas las tablas admiten la notificaci
     
 2. Volver a cargar las filas de la tabla cuando [SortTable](imapitable-sorttable.md) devuelve. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

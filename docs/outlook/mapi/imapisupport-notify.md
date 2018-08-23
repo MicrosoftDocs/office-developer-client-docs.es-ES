@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: db23d1801bf32fd947a77dfd887c56f75ded5681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f79e5eaa3155bbe3373f5ad9c5182a4a65c62648
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817519"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572042"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Envía una notificación de un evento especificado a un origen de advise que registró originalmente para la notificación a través del método [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
   
@@ -88,7 +88,7 @@ Al usar notificaciones sincrónicas, tenga cuidado para evitar situaciones de in
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  

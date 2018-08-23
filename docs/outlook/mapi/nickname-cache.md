@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Última modificación: 30 de enero de 2013'
-ms.openlocfilehash: 1ea1d3e6f636cf6a3ad47b6fdfe88d0f7130a5f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574534"
 ---
 # <a name="nickname-cache"></a>Caché de sobrenombre
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 y Microsoft Outlook 2013 interactúan con la caché de sobrenombres, también conocida como la "Autocompletar secuencia." La secuencia de Autocompletar es donde Outlook persiste la lista de Autocompletar, que es la lista de nombres que se muestra en el cuadro **para**, **Cc**, **CCO** cuadros de edición y mientras un usuario está redactando un correo electrónico. En este tema se describe cómo Outlook 2007, Outlook 2010 y Outlook 2013 interactúan con la secuencia de Autocompletar y también se describe el formato binario del archivo y los métodos recomendados para interactuar con la secuencia de Autocompletar. 
   
@@ -75,7 +75,7 @@ Guardar los cambios a los datos de Autocompletar implica la escritura de la estr
     
 - Sólo modificar las propiedades de los tipos que están en el conjunto de filas de la secuencia de Autocompletar. Para obtener más información acerca de las propiedades de la secuencia de Autocompletar y tipos de propiedades, vea [secuencia de Autocompletar](autocomplete-stream.md).
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

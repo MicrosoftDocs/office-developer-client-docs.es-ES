@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c28902f142e06970feeaef4233ee32bfa4d0ee74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f700b1294ff08ab514d6a97386b5d40fbee0a75c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818740"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570747"
 ---
 # <a name="pidlidformstorage-canonical-property"></a>Propiedad canónica PidLidFormStorage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa las propiedades del formulario que está asociada con el mensaje.
   
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 56aaf5caf93f90f54d152ab3684ca592cd45cd1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575871"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera la lista de registros para el archivo de carpetas personales (.pst).
   
@@ -46,7 +46,7 @@ S_OK
   
 > La llamada a la función fue correcta.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

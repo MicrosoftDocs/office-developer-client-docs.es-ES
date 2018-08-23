@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e479e863-a8de-4f7e-9eae-3f721cd16e9a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 21336e158d21bba6c7204eb446df3efc80b70e46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 626bd945851155c20850ee7f367ec6073ad57bc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819753"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570390"
 ---
 # <a name="pidtagmessagestatus-canonical-property"></a>Propiedad canónica PidTagMessageStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits 32 bits de indicadores que define el estado de un mensaje en una tabla de contenido. 
   
@@ -102,7 +102,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

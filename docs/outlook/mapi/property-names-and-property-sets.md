@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c586d70054542e8d20c90a8caceafabbbb408de8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571832"
 ---
 # <a name="property-names-and-property-sets"></a>Nombres de propiedad y conjuntos de propiedades
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El nombre de cada propiedad con nombre consta de dos partes:
   
@@ -49,7 +49,7 @@ El conjunto de propiedades PS_MAPI está reservado; se usa por los proveedores d
   
 Los otros conjuntos de propiedades mantenga propiedades con nombre que describa a los destinatarios que suelen ser miembros de una lista de distribución. Que contiene el mismo tipo de información como las propiedades que están asociadas con las propiedades de la lista de destinatarios, las propiedades de estos conjuntos de propiedades se entienden que las puertas de enlace requieren asignación para un sistema de mensajería de destino. Debido a que hay cinco tipos de información para describir las propiedades, MAPI ha definido cinco conjuntos de propiedades diferentes. Establece un cliente envía un mensaje que debe incluir una dirección y el tipo de dirección para sus miembros de la lista enrutamiento asigna una propiedad con nombre para cada miembro de la PS_ROUTING_EMAIL_ADDRESSES y la propiedad PS_ROUTING_ADDRTYPE. Esto garantiza que la dirección y el tipo de dirección siguen siendo viables cuando se envían a un sistema de mensajería externo.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

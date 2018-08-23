@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 66208b2d31ca379389f3249abf281dd4d040e276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570418"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>Propiedad canónica PidLidToDoTitle
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene texto puede especificar el usuario para identificar este objeto de mensaje en una lista de tareas pendientes consolidada.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

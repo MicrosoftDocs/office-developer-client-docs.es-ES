@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: 'Última modificación: 02 de julio de 2012'
-ms.openlocfilehash: 5c8ad7443b0c1aa05f48284e4b09859ab53dd2c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43a65548bedc1729ff2bcb62bc3df78d2408bf12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820664"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571748"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>Apagar un proveedor de almacén de archivos PST ajustado
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando termine de usar un proveedor de almacén de archivo (.pst) de carpetas personales ajustado, debe cerrar correctamente el proveedor de almacén de archivos PST ajustado. Para obtener más información acerca de cómo utilizar el proveedor de almacén de archivos PST ajustado, vea [uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md).
   
@@ -42,7 +42,7 @@ STDMETHODIMP CMSProvider::Shutdown(ULONG * pulFlags)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

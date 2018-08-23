@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
 description: 'Última modificación: 18 de junio de 2012'
-ms.openlocfilehash: 2e4ae22ace37455c9ccb9d8ff2a7f07a48132234
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d3210c098d0a7c83721798c8c32ffd9f1e5ebb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575465"
 ---
 # <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia una cadena en un búfer.
   
@@ -52,7 +52,7 @@ Si se produce un error en la función, el valor devuelto es NULL y lpString1 pod
 
 Esta función ajusta la función **lstrcpy** . Para obtener más información, vea [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

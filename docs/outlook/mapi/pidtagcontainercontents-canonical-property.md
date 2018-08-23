@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 66dbe65a-b9fd-41d5-946f-ec8888363043
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c2979a0825ad6c62dbbb7931255501e90d8450a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d6a2f7b8b4f5345faa54e24c359f15ee181a7f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819347"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575486"
 ---
 # <a name="pidtagcontainercontents-canonical-property"></a>Propiedad canónica PidTagContainerContents
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un objeto de tabla de contenido incrustado que proporciona información sobre un contenedor.
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

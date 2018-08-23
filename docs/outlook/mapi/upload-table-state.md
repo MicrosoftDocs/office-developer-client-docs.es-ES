@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 454df4dde2062d20855e4d9bceaf4400669693ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd54c30e8701a13637235e28ddcfef4c21d10a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576984"
 ---
 # <a name="upload-table-state"></a>Cargar estado de la tabla
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado de la tabla de carga de la máquina de estado de replicación. 
   
@@ -39,7 +39,7 @@ Este estado inicia carga el contenido de una carpeta que se haya especificado en
   
 Cuando finaliza este estado, Outlook marca la carpeta como tener su contenido sincronizado, por lo que el contenido no se cargará nuevo hasta que se realiza otra modificación. Devuelve el almacén local en el estado del contenido de sincronizar.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

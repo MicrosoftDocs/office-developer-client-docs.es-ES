@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 6d532ed4-7dc5-46a9-995a-72bc97d16f6e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 16c3518ab4efddbd68765d9de94db64b4fdc0b64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cafc6e3b6d863a7c2acec5811bf161ad0cd64458
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816375"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570033"
 ---
 # <a name="acting-as-a-foreign-address-book-provider"></a>Que actúa como un proveedor de libreta de direcciones externa
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un proveedor externo es un proveedor de la libreta de direcciones que: 
   

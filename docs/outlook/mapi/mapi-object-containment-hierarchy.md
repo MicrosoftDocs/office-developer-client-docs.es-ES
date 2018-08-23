@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 94fea23f71e6bc29b038db38f6f06cda0f85d635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6350202eb22edc478f7738bebf6d7f0bc4684ee0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566246"
 ---
 # <a name="mapi-object-containment-hierarchy"></a>Jerarquía de contención de objetos MAPI
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La relación de contención entre objetos especifica las dependencias que algunos objetos tienen en otros objetos de access. Para una aplicación cliente, el acceso a determinados objetos habilita el acceso a otros usuarios. En algunos casos, la relación de contención entre objetos de implementada por un proveedor de servicios sigue una jerarquía lógica. En otros casos, es arbitrario. 
   
@@ -33,7 +33,7 @@ En la siguiente ilustración muestra la jerarquía de contención de MAPI. La se
   
 ![Jerarquía de contención de MAPI] (media/amapi_41.gif "Jerarquía de contención de MAPI")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
 

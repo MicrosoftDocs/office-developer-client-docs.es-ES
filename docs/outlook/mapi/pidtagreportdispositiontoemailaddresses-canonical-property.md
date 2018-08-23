@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: e5014abf-eabc-4691-844c-f317a503c41b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 685f988e636f5322e81d093a3d9e7798b4f4d281
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc68fe38b7d658f63c57148a6978d1832bfe82da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566855"
 ---
 # <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a>Propiedad canónica PidTagReportDispositionToEmailAddresses
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica las direcciones de correo electrónico de los destinatarios del informe para los mensajes que solicitar confirmación.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

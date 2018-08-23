@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4745318d5666cc3c138f424c94bc2c5e430a61d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e7d97f4b2043c9ca08e487e52d58fb534c7abef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572658"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>Propiedad canónica PidTagOriginallyIntendedRecipEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada del destinatario de un mensaje reenviado automático originalmente previsto.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

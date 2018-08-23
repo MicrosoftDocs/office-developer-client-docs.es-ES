@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569193"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que los visores de formulario controlar el almacenamiento de un formulario y para la transición entre los distintos Estados.
   
@@ -55,7 +55,7 @@ Todos los formularios necesarios para implementar la interfaz **IPersistMessage*
   
  **IPersistMessage** funciona de manera similar a la interfaz OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obtener más información, vea los métodos **IPersistStorage** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

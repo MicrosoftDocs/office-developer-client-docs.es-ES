@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3d8f1a5f3d244da50b2ebb92be339600d47e2ace
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 120c0619827e8cbbbc92f7665c014eefdd8504e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819281"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572630"
 ---
 # <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Propiedad canónica PidTagBusiness2TelephoneNumbers
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de números de teléfono para una empresa.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
