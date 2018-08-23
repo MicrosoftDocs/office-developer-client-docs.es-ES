@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 95ef351e4fe906608319a3e25de8f20a44e23d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816955"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595135"
 ---
 # <a name="handling-table-notification"></a>Controlar la notificación de la tabla
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Como alternativa al registro directamente con un objeto de origen advise, como una carpeta o un usuario de mensajería, un cliente puede registrar para recibir notificaciones en un contenido o una tabla de jerarquía. Seguimiento de cambios de dirección libreta entradas, carpetas y mensajes a través de un contenido o tabla de jerarquía puede ser más sencilla y más sencillo que a través de los objetos individuales. 
 

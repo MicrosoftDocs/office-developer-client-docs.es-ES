@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 59c0deefc680bdb5eafca681aedbee7fda29a273
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3008422420dc9bd02f32cbb6900ffe4ebba38877
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818756"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595093"
 ---
 # <a name="pidlidimapdeleted-canonical-property"></a>Propiedad canónica PidLidImapDeleted
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Denota los elementos de protocolo de acceso a correo de Internet (IMAP) que están marcados para eliminación.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

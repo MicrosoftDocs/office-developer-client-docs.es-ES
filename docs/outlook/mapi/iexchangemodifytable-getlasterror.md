@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1c817f7ec02e79b956cdd0090ea54ea4528022ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0d2ad118346dd06788af972b64b10d6f6f6d0fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594295"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve información sobre el último error que se produjo en un objeto table.
   
@@ -49,7 +49,7 @@ HRESULT GetLastError(
   
 > [out] Apunta a una estructura MAPI [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto table. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

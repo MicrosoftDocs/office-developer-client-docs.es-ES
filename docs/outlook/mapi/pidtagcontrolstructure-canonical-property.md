@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e531c986ef6de2eccca446f5d560290fed831c21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594358"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propiedad canónica PidTagControlStructure
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un puntero a una estructura para un control que se utiliza en un cuadro de diálogo. 
   
@@ -59,7 +59,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e95c2445-7711-4683-8c39-3979b64fe100
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8bf81b60afb70ad60e382acb5d0cd0a94ca1e244
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b24b76b311c169f9e8d6e6fc8443a064047a3e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818603"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594323"
 ---
 # <a name="pidlidclassificationguid-canonical-property"></a>Propiedad canónica PidLidClassificationGuid
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica un identificador único global (GUID) de una clasificación de mensajes existente.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

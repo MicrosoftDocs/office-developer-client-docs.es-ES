@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: be941efd-04b3-48d0-9b9c-8195ad2bb58d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e778df216d0fe9b901cd9f7136c8014a6b8f0d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0ec3ada71a3e604ea71c5d386f1ff0466132081
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594092"
 ---
 # <a name="strategies-for-error-handling"></a>Estrategias para el control de errores
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Debido a que los métodos de interfaz son virtuales, no es posible saber, como autor de la llamada, el conjunto completo de valores que se pueden devolver desde una llamada de prueba. Una implementación de un método podría devolver cinco valores; otro podría devolver ocho. Lista de las entradas de referencia en la documentación de MAPI unos valores que se pueden devolver para cada método; Estos son los valores que su proveedor de servicio o cliente puede comprobar y controlar porque tienen un significado especial. Se pueden devolver otros valores pero, debido a que no están significativas, no es necesario un código especial para controlar estos. Una comprobación sencilla para el éxito o el fracaso es la adecuada.
   

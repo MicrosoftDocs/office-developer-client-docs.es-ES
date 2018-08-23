@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 55db507055692c9e929b0125abf719d8c03ac967
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595352"
 ---
 # <a name="pidtagnull-canonical-property"></a>Propiedad canónica PidTagNull
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa un valor null o la configuración de una propiedad o se reserva espacio de matriz.
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

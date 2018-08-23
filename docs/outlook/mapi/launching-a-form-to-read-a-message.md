@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 675de7eeda534d8761887cdcb6d5c94a209ca18b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9166090321aa24e35fe1c82908aec0c403095cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593742"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>Iniciar un formulario para leer un mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los implementadores de servidor del formulario deben esperar la siguiente secuencia de llamadas de método a su servidor de formulario y los objetos de formulario cuando un mensaje carga una aplicación cliente:
   
@@ -33,7 +33,7 @@ Los implementadores de servidor del formulario deben esperar la siguiente secuen
     
 5. La aplicación cliente llama a [IMAPIForm::DoVerb](imapiform-doverb.md) para invocar el verbo open, pasando el puntero de interfaz [IMAPIViewContext](imapiviewcontextiunknown.md) opcional. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

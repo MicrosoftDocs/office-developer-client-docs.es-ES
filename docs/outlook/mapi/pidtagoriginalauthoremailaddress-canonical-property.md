@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1954e1760fead9cbe13f0f2394f8095cab7f26ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd019378a8db7b2e356f0c8b2f30a59e685b9e8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819812"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595436"
 ---
 # <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>Propiedad canónica PidTagOriginalAuthorEmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección de correo electrónico del autor de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

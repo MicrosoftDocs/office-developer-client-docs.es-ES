@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1ecc80feec2b0a86f35d03f1ca4f75ea9ff094e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816854"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594106"
 ---
 # <a name="form-verbs"></a>Verbos de formulario
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Normalmente, la interfaz de usuario de un formulario ofrece los elementos de menú o los controles que permiten a los usuarios realizar algún tipo de acción con el formulario. Es del servidor formulario para controlar las acciones del usuario. Esta interfaz se implementa mediante las API de Win32 estándar; escribir uno es igual que escribir otras interfaces de programas de Win32 normales.
   
@@ -30,7 +30,7 @@ Los verbos no pueden tardar parámetros. Los formularios que exportación comand
   
 Los clientes pueden determinar qué verbos son compatibles con una clase de mensaje en particular a través del método [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) , que se implementa mediante el Administrador de formularios de MAPI. El Administrador de formulario obtiene esta información desde el archivo de configuración del formulario. El conjunto de verbos devueltos por este método se usa en el cliente para mostrar al usuario los comandos que se pueden ejecutar en un mensaje. Por ejemplo, un cliente es posible que permiten a los usuarios haga clic en el botón secundario del mouse a través de un mensaje para mostrar los verbos aplicables a ese mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Formularios MAPI](mapi-forms.md)
 

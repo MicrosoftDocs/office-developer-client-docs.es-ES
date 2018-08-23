@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ac4da2d4082cac632548594411528b7bf1d6dc64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820031"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595149"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propiedad canónica PidTagRecipientNumberForAdvice
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene el número de teléfono del destinatario de un mensaje al que llamar para advertir de la entrega física de un mensaje.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

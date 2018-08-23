@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 155300d3c3043713ce2197d3b70843c589d777e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21d1ee071aa5df24d0ddf641ff6f458a7de1cb3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818481"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594281"
 ---
 # <a name="pidlidappointmentendwhole-canonical-property"></a>Propiedad canónica PidLidAppointmentEndWhole
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la fecha y hora en que finaliza una cita.
   
@@ -59,7 +59,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

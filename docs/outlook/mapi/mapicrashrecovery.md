@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 22f17df9347b4744dfe6598e7007469ffb9e5251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595345"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La función **MAPICrashRecovery** comprueba que el estado del archivo de carpetas personales (PST) o archivo de carpetas sin conexión (OST) de memoria compartida. Si la memoria se encuentra en un estado coherente, la función **MAPICrashRecovery** mueve los datos en el disco y se evita que más acceso de lectura o escritura hasta que se finalice el proceso. 
   
@@ -55,7 +55,7 @@ El byte superior (0xFF000000) está reservado para los indicadores de recuperaci
   
 Llamar a **MAPICrashRecovery** con el **MAPICRASH\_recuperar** y los indicadores **MAPICRASH_SYSTEM_SHUTDOWN** en respuesta al mensaje **WM_ENDSESSION** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Información sobre la API de recuperación de bloqueo de MAPI](about-the-mapi-crash-recovery-api.md)
 - [Usar la API de recuperación de bloqueo de MAPI](how-to-use-the-mapi-crash-recovery-api.md)

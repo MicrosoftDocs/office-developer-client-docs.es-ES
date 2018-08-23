@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9dc368e6502bbb14cf42f6bc5a08fd2893f98bf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817557"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594988"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona información detallada que se muestra en el cuadro de diálogo de envío o recepción. Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.
   
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

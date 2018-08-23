@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 134eb844ef7b72d396c300b27a87a3a7ae320cf1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 990fe49d39a73c5bf80b9fdda96d2e5997869edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595422"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción de tamaño que se usa para probar el tamaño de un valor de la propiedad. 
   
@@ -87,7 +87,7 @@ RELOP_EQ
 
 Para obtener una descripción general de cómo funcionan las restricciones, vea [Restricciones de sobre](about-restrictions.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

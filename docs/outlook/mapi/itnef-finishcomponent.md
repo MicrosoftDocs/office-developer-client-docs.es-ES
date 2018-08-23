@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7008549111f1b914cf2025c8d61ebc07196706fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0242015680f11e5be6ae8ea9987e5778dc7cdf05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594365"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Procesa los componentes individuales de un mensaje de uno a la vez en una secuencia de formato de encapsulación neutro para el transporte (TNEF).
   
@@ -92,7 +92,7 @@ Si un proveedor o una puerta de enlace no funciona con matrices de problema, pue
   
 El valor devuelto en _lppProblems_ es válido sólo si la llamada devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace debe comprobar los valores devueltos en la estructura [STnefProblemArray](stnefproblemarray.md) . Si se produce un error en la llamada, no se rellena la estructura de **STnefProblemArray** , y el proveedor o la puerta de enlace realiza la llamada no debe utilizar o libre la estructura. Si se produce ningún error en la llamada, el proveedor o la puerta de enlace realiza la llamada debe liberar la memoria para el **STnefProblemArray** mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

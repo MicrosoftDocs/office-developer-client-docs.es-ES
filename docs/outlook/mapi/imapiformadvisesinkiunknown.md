@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fd2575d401aa8a39d6f3b2cd08377b587b430ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cee58299147c9f97ff61a3b8c460125349910637
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594463"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que los servidores de formulario para recibir notificaciones de los visores del formulario. 
   
@@ -49,7 +49,7 @@ Uso de servidores de formulario un formulario de aviso objeto receptor para impl
   
 Formulario servidores llamar [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) al método de un visor registrar para recibir notificaciones. Un puntero a su implementación de **IMAPIFormAdviseSink** se incluye como un parámetro. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d9a15abc05bf0f0a6fef35dd489f12925b88014a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 791dfe094aa0ff1aab656b56fbdf7d59e880b92e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817745"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593735"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia un servicio de mensajes en un perfil. 
   
@@ -93,7 +93,7 @@ El método **IMsgServiceAdmin::CopyMsgService** copia un servicio de mensajes en
   
 Función de punto de entrada del servicio de mensajes no se llama para una operación de copia. El servicio de mensajes copiados tiene la misma configuración que su original. Para cambiar esta configuración, un cliente debe llamar al método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

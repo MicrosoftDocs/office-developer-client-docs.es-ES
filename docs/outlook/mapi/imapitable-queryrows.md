@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a6659f64f6e8d2e3dc61819b2263efe672cdd15c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 179d76b56c1ba9b40768c691d0b1555377f7adb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595051"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una o varias filas de una tabla, que comienza en la posición actual del cursor.
   
@@ -119,7 +119,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: QueryRows** para recuperar las filas de la tabla que se va a cargar en la vista.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

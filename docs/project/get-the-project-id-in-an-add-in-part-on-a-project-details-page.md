@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Complemento de elementos se hospedan en elementos iframe que están completamente aislados de la página de hospedaje. Para obtener información acerca del proyecto actual de un elemento en en página de detalles de proyecto (PDP), puede usar el método window.postMessage, un agente de escucha de evento y un controlador de eventos que analiza el identificador de proyecto desde el mensaje.
-ms.openlocfilehash: 6704dae7ded385f86d2da47a1334ae4c81622a74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821296"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594428"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtener el identificador del proyecto en una parte del complemento en una página de detalles de Project
 
@@ -38,7 +38,7 @@ Para usar el ejemplo de código de este artículo, necesitará los siguientes el
             
         - Debe iniciar sesión como un usuario que no sea la cuenta del sistema. La cuenta del sistema no tiene permiso para instalar un complemento.
     
-Para obtener más información acerca de los complementos para Project, vea [requisitos previos para crear un complemento para Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Para obtener instrucciones acerca de la instalación local (incluidos los procedimientos para deshabilitar la comprobación de bucle invertido, si es necesario), vea [configurar un entorno de desarrollo local para SharePoint Add-ins](http://msdn.microsoft.com/library/b0878c12-27c9-4eea-ae3b-7e79e5a8838d%28Office.15%29.aspx) . Si está desarrollando de forma remota, vea [Developing aplicaciones para SharePoint en un sistema remoto](http://msdn.microsoft.com/library/bf35d59c-9b84-42e5-877e-fa6881a7b6fc%28Office.15%29.aspx).
+Para obtener más información acerca de los complementos para Project, vea [requisitos previos para crear un complemento para Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Para obtener instrucciones acerca de la instalación local (incluidos los procedimientos para deshabilitar la comprobación de bucle invertido, si es necesario), vea [configurar un entorno de desarrollo local para SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) . Si está desarrollando de forma remota, vea [Developing aplicaciones para SharePoint en un sistema remoto](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Crear el elemento de web hospedada en SharePoint, en Agregar y cliente
 <a name="CreateApp"> </a>
@@ -150,7 +150,7 @@ El elemento GetProjectId complemento define su código personalizado en la pági
     
 7. Agregar el elemento de **Título GetProjectId** a un elemento web en la página. Muestra el identificador del proyecto en el control **span** en la página de elementos web. 
     
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 <a name="NextSteps"> </a>
 
 El elemento en en este ejemplo no tener acceso a datos de Project Server o datos de SharePoint. Puede usar el identificador de producto para obtener información acerca del proyecto actual mediante el uso de un cliente de la API, como el modelo de objetos de JavaScript o el servicio REST.
@@ -248,7 +248,7 @@ El ejemplo siguiente es el código completo en la página de GetProjectID.aspx d
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tareas de programación de Project](project-programming-tasks.md)
 - [Crear un complemento de Project Server hospedado por SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)

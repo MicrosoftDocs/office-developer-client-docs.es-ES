@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 645ea2be2f690701780932e891da3dc32bb1716f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593945"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propiedad canónica PidTagConversionProhibited
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si se prohíbe las conversiones de mensajes de forma predeterminada para el usuario de mensajería asociado.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

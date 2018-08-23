@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5d7e3e89f15b1bc08c7ce9faab0d0a6326300e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c48ceefa84658b236b8dfa4e10df18c175d920e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817494"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595163"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de soporte técnico del servicio de mensajes.
   
@@ -56,7 +56,7 @@ El método **IMAPISupport::GetSvcConfigSupportObj** se implementa para todos los
   
 Una función de punto de entrada de servicio de mensajes se basa en el prototipo [MSGSERVICEENTRY](msgserviceentry.md) y se llama a los métodos de la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Una función de punto de entrada de servicio de mensajes permite servicios de mensajes configurar ellos mismos o realizar otras acciones cuando se cambia el perfil. Punto de entrada de servicio de mensaje funciones pueden admitir los cambios de configuración mediante la presentación de una hoja de propiedades o a través de una matriz de valores de propiedad que se pasa al método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

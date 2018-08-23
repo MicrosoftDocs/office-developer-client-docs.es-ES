@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7566bb075c2ef9903b5a376fd90f209c8683c31e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9e596ff8561d5aabc71ffe3540efaeef8f5b83d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593987"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensaje en un perfil.
   
@@ -107,7 +107,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utiliza el método **IProfAdmin::AdminServices** para abrir un objeto de administración del servicio de mensajes para el perfil seleccionado agregar servicios.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

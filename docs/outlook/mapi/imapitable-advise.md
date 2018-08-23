@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 781146193748cdd9408a3320e90a73a070ced2af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd6b119bd88fccf80bf2488592a24b3398e6e8af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817589"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594246"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registra un objeto de receptor advise para recibir notificaciones de los eventos que afectan a la tabla.
   
@@ -83,7 +83,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utiliza el método **IMAPITable::Advise** para registrar para que las notificaciones permitir la vista de tabla para mantenerse al día.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

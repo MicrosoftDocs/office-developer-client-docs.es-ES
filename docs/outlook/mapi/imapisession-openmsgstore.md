@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 983c22772acfea7837e85d409b7928a35aed91ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdf75787153f9a85e6a7bcddff44cf2c468a7975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595037"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre un almacén de mensajes y devuelve un puntero [IMsgStore](imsgstoreimapiprop.md) para aún más el acceso. 
   
@@ -150,7 +150,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenMsgStore** para abrir un almacén de mensajes.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
 - [IMAPISession::GetLastError](imapisession-getlasterror.md)

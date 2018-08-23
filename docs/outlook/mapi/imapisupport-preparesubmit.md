@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f6902b45cde3e5349d69b6f35c3f8980deb031b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595065"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Prepara un mensaje para el envío a la cola de MAPI.
   
@@ -66,7 +66,7 @@ Para obtener acceso a la lista de destinatarios, **PrepareSubmit** llama (métod
 
 Antes de llamar a **PrepareSubmit**, asegúrese de que se ha llamado al método [SpoolerNotify](imapisupport-spoolernotify.md) y establece el indicador NOTIFY_READYTOSEND en el parámetro _ulFlags indicado_ . La llamada **SpoolerNotify** debe realizarse una vez por sesión antes de la llamada a **PrepareSubmit**. **SpoolerNotify** sincroniza a la cola MAPI y se asegura de que todos los proveedores de transporte necesarios se registran y sus tipos de dirección se registran. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

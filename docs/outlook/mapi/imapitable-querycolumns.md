@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 96fd317c28d95335a3acc5d0603298f2fe8345e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593749"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una lista de columnas para la tabla.
   
@@ -84,7 +84,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::QueryColumns** para recuperar la columna actual establecido para una tabla para que el usuario pueda modificarlo.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

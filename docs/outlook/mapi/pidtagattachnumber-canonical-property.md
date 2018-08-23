@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4a46710311f2c4d26ec3d667c7bf535df69f595
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6de157864bff5be41b6e030d555be7b60dcda5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594757"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>Propiedad canónica PidTagAttachNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número que identifica de forma exclusiva los datos adjuntos en su mensaje primario. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

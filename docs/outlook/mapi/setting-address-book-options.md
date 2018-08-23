@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c64f84da6bece809176bf67985b6f55ce92414a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d93fde7d654f0ee56dcda9f2fb69ad622e476dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593623"
 ---
 # <a name="setting-address-book-options"></a>Configurar opciones de libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Puede establecer tres propiedades que se describen las opciones para el uso de la libreta de direcciones:
   
@@ -37,7 +37,7 @@ Puede establecer tres propiedades que se describen las opciones para el uso de l
     
 Estas tres propiedades son especiales porque no puede trabajar con ellos mediante los métodos **IMAPIProp** estándares. En su lugar, debe usar los métodos de **IAddrBook** . Debido a que ninguna de estas propiedades se pueden cambiar con **IMAPIProp::SetProps**, no es necesario llamar a **IMAPIProp::SaveChanges** para realizar cambios permanentes. Las modificaciones realizadas a través de los métodos **IAddrBook** surtan efecto inmediatamente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

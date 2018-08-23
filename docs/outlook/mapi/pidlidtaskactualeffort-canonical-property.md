@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0782191010341019ebea71ebf545dec490521520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818933"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593672"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Propiedad canónica PidLidTaskActualEffort
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica el número de minutos que el usuario ha realizado una tarea.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 649046aa48f293caa5bd71cc670481b5c205459a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdd5d01b96c9ea756ee64f113ccb5119a9693668
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820645"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594470"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una función de devolución de llamada invocada por el Asistente para perfiles para permitir que un proveedor de servicios reaccionar a los eventos de usuario cuando se va a mostrar páginas o las hojas de propiedades del proveedor. 
   

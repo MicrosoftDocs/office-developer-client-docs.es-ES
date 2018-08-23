@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 15354a4a07304913cce06d50564b66abe5062a96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595177"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Propiedad canónica PidLidFShouldTNEF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si se va a codificar un elemento con el formato de encapsulación neutro de transporte (TNEF). 
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

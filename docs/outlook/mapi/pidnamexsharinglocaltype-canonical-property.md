@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 43549741-ea41-4ea6-9a33-3ede015f901f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c246d83a3c0ea68b1daa07f53764837b94946fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2416861eaed510a27940e63095d1ff35a60e4d67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593952"
 ---
 # <a name="pidnamexsharinglocaltype-canonical-property"></a>Propiedad canónica PidNameXSharingLocalType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la versión de cadena de la propiedad **dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |X-uso compartido-Local-Type  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

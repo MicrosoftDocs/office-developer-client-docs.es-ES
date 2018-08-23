@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8066de8e-2b77-4bac-8df3-e64b03ee42b9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: df2fa19656aa1bff810a082cda94a091e2c7fc9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8bed42ee44e48540df52e806c7113e02b60cd07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819675"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593637"
 ---
 # <a name="pidtagitemtemporaryflags-canonical-property"></a>Propiedad canónica PidTagItemTemporaryflags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una marca que indica que un mensaje se ha de lectura, pero no está marcado como leído.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

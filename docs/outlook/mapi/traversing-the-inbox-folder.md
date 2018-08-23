@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2ad1459f-d59a-4784-94ea-4cad194e6e50
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 87fcde5a28a30f08bc2fd5f28fb692a4b4251fbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e93dbed0fe56ada5fc41c3e2e51aa3d0c3bef6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594491"
 ---
 # <a name="traversing-the-inbox-folder"></a>Recorrer la carpeta Bandeja de entrada
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
  **Para desplazarse por todos los mensajes en la Bandeja de entrada**
   

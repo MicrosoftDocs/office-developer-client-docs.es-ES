@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac5eb91d-31c9-459b-bb22-f4ccfc92d1db
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 26854b640669bbc6479ce90ba9cad18cdf4d9264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69108529b13c8c5523f0ea92ef627c69a6722469
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594582"
 ---
 # <a name="pidtagoriginalsearchkey-canonical-property"></a>Propiedad canónica PidTagOriginalSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la clave de búsqueda original de una entrada copiada de otra libreta de direcciones grabable o de una libreta de direcciones a una libreta de direcciones personales.
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

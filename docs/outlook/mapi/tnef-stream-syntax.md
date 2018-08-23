@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cbaf37415608dd1d79a06be65b34632f2b4afc89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce2b2497bd89f00ce7f063d3e482752fabfeb731
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820887"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594337"
 ---
 # <a name="tnef-stream-syntax"></a>Sintaxis de la secuencia TNEF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se presenta un Nauer Bakus parecido a la descripción de la sintaxis de la secuencia TNEF. En esta descripción, no terminal elementos que tienen una definición más están en cursiva. Constantes y elementos literales están en negrita. Las secuencias de elementos se enumeran en el orden de una sola línea. Por ejemplo, el elemento de _secuencia_ consta de la constante **TNEF_SIGNATURE**, seguido de una _clave_, seguido de un _objeto_. Cuando un elemento tiene más de una implementación posible, las alternativas se muestran en líneas consecutivas. Por ejemplo, un _objeto_ puede constar de un _Message_Seq_, un _Message_Seq_ seguido de un _Attach_Seq_, o simplemente un _Attach_Seq_.
   

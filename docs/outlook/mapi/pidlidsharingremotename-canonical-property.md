@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: be975f74-4b95-45a4-bbee-959fa8e4ad45
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fc3324cb686733f06b9cc0945c93b7df2e5980ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eddcc911653830f63ae4afc564af891d3d7213e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595240"
 ---
 # <a name="pidlidsharingremotename-canonical-property"></a>Propiedad canónica PidLidSharingRemoteName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre de la carpeta remota que se está compartiendo. Esto es una propiedad de un mensaje para compartir.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

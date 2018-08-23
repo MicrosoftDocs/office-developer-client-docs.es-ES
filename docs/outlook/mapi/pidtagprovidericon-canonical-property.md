@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 92407d56bd095135ac1c6c292aa4b1da4755e93c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61dc61872e8d1ed525d5ac3c46c56ccc3e45ea5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593700"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propiedad canónica PidTagProviderIcon
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una cadena Unicode que especifica un icono personalizado o los iconos que se mostrará para un proveedor de MAPI en la barra de estado de Microsoft Office Outlook en Estados en línea y sin conexión.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

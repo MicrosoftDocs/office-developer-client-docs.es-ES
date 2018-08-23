@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa2869b1e3495bfb8a431e79a55d11a1ee1c5ca6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbc9dcf2218907b5d31ce1fc9f904e6ae1da47d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594015"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve todas las propiedades, excepto propiedades excluidas específicamente.
   
@@ -202,7 +202,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI usa el método **IMAPIProp::CopyTo** para copiar las propiedades de un archivo .msg a un objeto [IMAPIMessageSite](imapimessagesiteiunknown.md) .  <br/> |
 |FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI usa el método **IMAPIProp::CopyTo** para copiar las propiedades de un mensaje de origen a un mensaje de destino durante una operación de pegado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

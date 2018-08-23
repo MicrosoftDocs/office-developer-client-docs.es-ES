@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a3a83153dc799154edc6a46946682684cad8a09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593777"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propiedad canónica PidTagContainerClass
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una cadena de texto que describe el tipo de una carpeta. Aunque esta propiedad se omite por lo general, las versiones de Microsoft® Exchange Server antes de administrador de buzones de Exchange Server 2003 esperan que esta propiedad esté presente.
   
@@ -81,7 +81,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

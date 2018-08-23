@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25c606531aa9a7436306a1b87c32aab49fd975db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593917"
 ---
 # <a name="message-store-provider-sample"></a>Ejemplo de proveedor de almacén de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El proveedor de almacén de archivos PST ajustado de ejemplo usa un proveedor de carpetas personales (PST) de archivo como back-end para almacenar los datos. El proveedor de almacén de archivos PST ajustado debe usarse junto con la API de replicación. 
   

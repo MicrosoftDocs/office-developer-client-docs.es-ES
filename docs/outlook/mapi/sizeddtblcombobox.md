@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820686"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593658"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcombobox.md) para describir un control de cuadro combinado y el número máximo de caracteres que se puede escribir en el control de edición asociado. 
   
@@ -61,7 +61,7 @@ lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [DTBLCOMBOBOX](dtblcombobox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

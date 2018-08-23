@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: En este tema se describe los requisitos previos para instalar correctamente un proveedor de Outlook Social Connector (OSC) y la instalación comprueba que el instalador de proveedor se debe completar para que funcione correctamente.
-ms.openlocfilehash: cb8ed24db28c3b0e945c4db4b2daa4a2470d7dd5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821103"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594001"
 ---
 # <a name="installation-checklist"></a>Lista de comprobación de la instalación
 
@@ -90,7 +90,7 @@ El procedimiento siguiente describe las comprobaciones de la instalación que se
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      El identificador del componente completo es un GUID que proporciona un método de direccionamiento indirecto de un solo nivel, similar a un puntero. Para obtener más información acerca de Windows Installer, vea la [Guía básica de documentación de Windows Installer](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx).
+      El identificador del componente completo es un GUID que proporciona un método de direccionamiento indirecto de un solo nivel, similar a un puntero. Para obtener más información acerca de Windows Installer, vea la [Guía básica de documentación de Windows Installer](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. Si el componente completo especificado no existe, se instala una versión de la OSC. Vaya al paso 5 para encontrar la configuración regional actual de Outlook usuario interfaz para prepararse para instalar la versión más reciente de la OSC.
       
@@ -203,7 +203,7 @@ El procedimiento siguiente describe las comprobaciones de la instalación que se
 |82  <br/> |Instala la revisión más reciente de 32 bits OSC para Outlook 2007, Outlook 2010 o Outlook Social Connector 2013.  <br/> |
 |83  <br/> |Instala la revisión más reciente de OSC de 64 bits para Outlook 2010 o Outlook Social Connector 2013.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Registrar un proveedor](registering-a-provider.md) 
 - [Pasos rápidos para aprender a desarrollar un proveedor](quick-steps-for-learning-to-develop-a-provider.md)

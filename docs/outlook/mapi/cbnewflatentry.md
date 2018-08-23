@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d5c91de3dff7e68994e8098d457f89da420228d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf4716bb92f9405986078282510d672e160c5921
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595429"
 ---
 # <a name="cbnewflatentry"></a>CbNewFLATENTRY
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes que se debe asignar para una nueva estructura [FLATENTRY](flatentry.md) que contiene un identificador de entrada de un tamaño de bytes especificada. 
   
@@ -42,7 +42,7 @@ CbNewFLATENTRY (_cb)
   
 > Recuento de bytes en el identificador de entrada que se deben incluir en la nueva estructura **FLATENTRY** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
