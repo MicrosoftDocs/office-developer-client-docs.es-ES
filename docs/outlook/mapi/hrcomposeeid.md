@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a9aa6deeca930da82db61ba517796bfbc0676467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 335fac38ff3f084195a000ad32a27adcb85c1cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817031"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564818"
 ---
 # <a name="hrcomposeeid"></a>HrComposeEID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un identificador de entrada compuestos para un objeto, normalmente un mensaje en un almacén de mensajes. 
   
@@ -85,7 +85,7 @@ Si el mensaje u otro objeto para el que se está creando el identificador de ent
   
 La función **HrComposeEID** permite a las aplicaciones trabajar con objetos en varios almacenes mediante el uso de los identificadores de entrada compuestos. Una aplicación puede llamar a la función [HrDecomposeEID](hrdecomposeeid.md) para dividir el identificador de entrada compuesto en sus componentes originales. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 598ced18d659fcbe52ded07cc3bb80dc396eddbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570096"
 ---
 # <a name="one-off-addresses"></a>Direcciones de uso único
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Direcciones de uso único se utilizan para enviar mensajes a los destinatarios de uso único, los destinatarios que no tienen una entrada correspondiente en cualquiera de los contenedores de la libreta de direcciones de la sesión. Los clientes pueden crear direcciones de uso único al agregar nuevas entradas a la libreta de direcciones o los destinatarios nuevo a la lista de destinatarios de un mensaje saliente. Direcciones de uso único pueden agregarse a cualquier contenedor que se puede modificar.
   
@@ -78,7 +78,7 @@ Identificadores de entrada único incluyen la siguiente información en el orden
     
 En las llamadas a **IAddrBook::CreateOneOff** y **IMAPISupport::CreateOneOff**, los clientes y los proveedores de transporte pueden establecer una marca que indica si el destinatario representado por la dirección de uso único puede procesar con formato de texto o incrustado de OLE objetos. Para indicar que un destinatario puede controlar con formato de texto y objetos OLE, los clientes y un conjunto de proveedores de transporte el indicador MAPI_SEND_NO_RICH_INFO en el parámetro _ulFlags indicado_ . MAPI, a continuación, establece en FALSE (propiedad) **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) de uso único del destinatario. Cuando no se establece este marcador, MAPI establece **PR_SEND_RICH_INFO** en TRUE, a menos que la dirección de uso único se interpreta como una dirección SMTP. En este caso, **PR_SEND_RICH_INFO** el valor predeterminado es FALSE. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IAddrBook::ResolveName](iaddrbook-resolvename.md)
 

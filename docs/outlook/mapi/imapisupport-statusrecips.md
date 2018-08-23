@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f3642c890c3922611d57dea6f03aca5606876864
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817569"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563845"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Genera informes de entrega y no entrega.
   
@@ -68,7 +68,7 @@ Asignar memoria para la estructura **ADRLIST** en _lpRecipList_ mediante el uso 
   
 Para obtener información general de informes de entrega y no entrega, vea [Los mensajes de informe de MAPI](mapi-report-messages.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

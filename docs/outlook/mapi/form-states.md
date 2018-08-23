@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 195a82bfcc163ee01d2d42c71e79a8f5c9c620e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564636"
 ---
 # <a name="form-states"></a>Estados de formulario
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Objetos de formulario pueden estar en uno de cinco estados distintos, dependiendo de qué se ha llamado a los métodos en ellos y si los errores se han producido en la realización de estos métodos. Los Estados se describen en los temas siguientes:
   
@@ -38,7 +38,7 @@ En los temas de esta sección se describen los distintos Estados, junto con las 
 > [!NOTE]
 > Algunas transiciones de estado dependen de la información de estados anteriores. El servidor de formulario muy probable que deba implementar un indicador en sus objetos de formulario para indicar si han cambiado los valores de las propiedades del mensaje para facilitar los cambios de estado de una versión posterior. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

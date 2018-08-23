@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8ea4d975e59a57f6b5df7bdc0fd6aee72888fdf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52cff2c0738622abf17992b2fc5557afef8e69bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819786"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563460"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propiedad canónica PidTagNonIpmSubtreeEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra el identificador de entrada de la carpeta **NON_IPM_SUBTREE** en un almacén de carpetas públicas de Exchange. 
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

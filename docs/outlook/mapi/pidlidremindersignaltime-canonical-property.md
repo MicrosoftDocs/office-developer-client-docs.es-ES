@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 375cde94d0ecd989908fccbdd69710c1961fba17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1a725583faf13fe8b46616d9d341798298a8b53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563439"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propiedad canónica PidLidReminderSignalTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el punto en el tiempo cuando un aviso de transición de pendientes a vencidas.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

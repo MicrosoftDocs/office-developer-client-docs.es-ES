@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: aaba816ca7efab6cee939087a18332561f31b81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569802"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Envío de mensajes mediante el uso de mensaje de los proveedores de almacén
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes no son necesarios para admitir los envíos de mensajes salientes (es decir, la capacidad para las aplicaciones de cliente usar el proveedor de almacenamiento de mensajes para enviar mensajes). Las aplicaciones cliente que necesite utilizar un almacén de mensajes, mientras que el envío de mensajes, debido a que los datos del mensaje deben ser almacenados en algún lugar entre el momento en que el usuario haya terminado de redactar y la hora en que la cola MAPI proporciona el mensaje a un proveedor de transporte para envío al sistema de mensajería subyacente. Si su proveedor de almacén de mensajes no es compatible con los envíos de mensajes salientes, no se utiliza como almacén de mensajes predeterminado.
   
@@ -117,7 +117,7 @@ Si se ha producido ningún preprocesamiento o hubo preprocesamiento y la cola MA
     
   3. Devuelve al cliente y el flujo de mensajes contin�a con un conjunto de tareas que se realizan por la cola MAPI.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Caracter�sticas de almac�n de mensajes](message-store-features.md)
 

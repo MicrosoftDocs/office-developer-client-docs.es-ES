@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c6726b852176fa31bf879b5a32b63c35ce2be514
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa7f6ac116bf5255d2598465085bab2695ae2c25
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816718"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564517"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene información acerca de una casilla de verificación que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar. 
   
@@ -72,7 +72,7 @@ Por ejemplo, un proveedor de la libreta de direcciones puede incluir un control 
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md). Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

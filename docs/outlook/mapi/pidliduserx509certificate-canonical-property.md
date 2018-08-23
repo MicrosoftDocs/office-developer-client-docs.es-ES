@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f40cd807-7aac-49f4-8e82-b0e5e1634b08
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7c356e01b2f1bdf30d72f901bc1e4dd6da8b0dc5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d388ab81be33689612872795d690a26efca064f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563068"
 ---
 # <a name="pidliduserx509certificate-canonical-property"></a>Propiedad canónica PidLidUserX509Certificate
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los certificados de seguridad X.509 versión 3 para un usuario de mensajería.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

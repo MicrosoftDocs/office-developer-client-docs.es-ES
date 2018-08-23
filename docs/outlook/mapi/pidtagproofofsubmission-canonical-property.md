@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 965b46e20f79b0af488e1f7988da4366ba270d69
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 224bf8fa29da63bc96e4d86551545ce83fc411d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819962"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565560"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Propiedad canónica PidTagProofOfSubmission
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene TRUE si el remitente de un mensaje solicita que el sistema de transferencia de mensajes ha enviado un mensaje para su entrega al destinatario previsto originalmente la prueba.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

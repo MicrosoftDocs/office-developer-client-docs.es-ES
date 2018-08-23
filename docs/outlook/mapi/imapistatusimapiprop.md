@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e36a987174ffb2abb4c0f5fc95bf695f31af942e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817473"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565385"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona información de estado sobre el subsistema MAPI, la libreta de direcciones integrada y la cola de MAPI. Un proveedor de servicios implementa **IMAPIStatus** para proporcionar información sobre su propio estado. 
   
@@ -70,7 +70,7 @@ Los objetos de estado que implementa MAPI son necesarios para tener una versión
   
 Los clientes usan los objetos de estado para realizar la configuración y para obtener más información sobre el estado de la sesión. Tienen acceso a un objeto de estado llamando al método **OpenStatusEntry** de un objeto de inicio de sesión del proveedor de servicio o el método [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto de estado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

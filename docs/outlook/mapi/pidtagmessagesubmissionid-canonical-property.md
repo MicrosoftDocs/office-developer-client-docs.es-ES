@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b3286e9e666d59997693df636263cb04f7b767d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a26a8483e584ccc5cf9f33e0dbd75f379c01633
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569669"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>Propiedad canónica PidTagMessageSubmissionId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de sistema (MTS) de transferencia de mensaje para el agente de transferencia de mensajes (MTA).
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

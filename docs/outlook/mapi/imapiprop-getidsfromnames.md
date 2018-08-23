@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f7c243995c633389ab8fa80a26dddd152347276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565364"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona los identificadores de propiedad que se corresponden con uno o varios nombres de propiedad.
   
@@ -120,7 +120,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI utiliza el método **IMAPIProp::GetIDsFromNames** para obtener las etiquetas de propiedad para todas las propiedades con nombre que se han asignado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

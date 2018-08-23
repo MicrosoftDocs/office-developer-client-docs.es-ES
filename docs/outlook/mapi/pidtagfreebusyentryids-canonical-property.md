@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e0feaac0cb4c52b2f2acff1460a4d8a41196954d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564741"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propiedad canónica PidTagFreeBusyEntryIds
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los **identificadores** para el mensaje de información de delegado, el mensaje de disponibilidad del usuario ha iniciado sesión en y la carpeta cuyo **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) es igual a "FreeBusy datos".
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

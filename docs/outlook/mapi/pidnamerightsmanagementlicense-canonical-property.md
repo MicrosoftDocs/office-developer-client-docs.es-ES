@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c75cb480b9a1a7ffdcff9c0f9b49aabba746fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565532"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propiedad canónica PidNameRightsManagementLicense
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Almacena en caché la licencia de uso para el mensaje de correo electrónico con derechos administrados.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |DRMLicense  <br/> |
 |Tipo de datos:  <br/> |PT_MV_BINARY  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

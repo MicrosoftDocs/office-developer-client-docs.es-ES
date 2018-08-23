@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dc830665f425b747d2fdb05641dc037a2e84f695
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565840"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Define una función de devolución de llamada que llama MAPI cuando ha descartado un cuadro de diálogo de la libreta de direcciones no modal. 
   
@@ -58,7 +58,7 @@ Ninguno
 
 Cuando la aplicación cliente invoca un cuadro de diálogo de la libreta de direcciones no modal, en el bucle de mensajes de Windows incluye una llamada a una función según el prototipo [ACCELERATEABSDI](accelerateabsdi.md) , que busca y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, el **DISMISSMODELESS** en la función de función para que la aplicación cliente se detendrá al llamar a la **ACCELERATEABSDI** de las llamadas MAPI en función (función). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

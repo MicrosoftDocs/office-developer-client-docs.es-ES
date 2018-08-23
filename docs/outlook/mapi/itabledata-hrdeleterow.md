@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 37d0ce65e125b2420af775d61ead51db189758ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817970"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563467"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina una fila de tabla.
   
@@ -57,7 +57,7 @@ Después de que se elimina la fila, se envían a todos los clientes o proveedore
   
 Eliminación de una fila no reduce el conjunto de columna que está disponible para las vistas existentes o vuelven a abrir vistas, incluso si la fila eliminada es la última fila que tenga un valor para una columna específica.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

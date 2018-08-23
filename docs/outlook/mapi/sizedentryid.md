@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 814cfeab61854469f460cc38f927b0e3723f6f0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d797acdbf2abfb88151d69d0c93e743f07afc5c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563873"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura [ENTRYID](entryid.md) con nombre que contiene a un miembro **ab** de un tamaño especificado. 
   
@@ -55,7 +55,7 @@ lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [ENTRYID](entryid.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

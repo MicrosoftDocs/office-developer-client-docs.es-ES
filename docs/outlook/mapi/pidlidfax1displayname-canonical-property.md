@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 433c2ce1-4d18-4986-8416-ea0e7e0f841a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4350cd6d5e4711e7743f409a1264619075ef46ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a334032c5ebc5bb5627a8a3d9ea3a0e195824120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564727"
 ---
 # <a name="pidlidfax1displayname-canonical-property"></a>Propiedad canónica PidLidFax1DisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre para mostrar de la dirección de fax del trabajo de un contacto.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

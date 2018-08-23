@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a696357c97a85442bbfd5532892c06d570f6367c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 487a5dbcdefe901b514083ee910972354574bd82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816353"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564461"
 ---
 # <a name="about-display-table-notifications"></a>Acerca de las notificaciones de tabla para mostrar
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En una tabla para mostrar se envían por el proveedor de servicio responsable de la creación de la tabla para mostrar de MAPI. MAPI se registra para estas notificaciones al llamar al método [IMAPITable::Advise](imapitable-advise.md) de una tabla para mostrar y especificar el evento de modificación de tabla. 
   
@@ -50,7 +50,7 @@ MAPI responde para mostrar las notificaciones de tabla cuando sea necesario volv
 |Página con fichas  <br/> |No hay ninguna notificación de este control; todo el contenido es estático.  <br/> |
 |Botón de opción  <br/> |Vuelve a leer la propiedad que está asociada con el botón y se almacena en el miembro **ulPropTag** de la estructura [DTBLRADIOBUTTON](dtblradiobutton.md) y hace que la selección apropiada con los controles.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Tablas MAPI](mapi-tables.md)
 

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: a9d0bf684ba9a6cf00e6fd5003d517cb69f59a47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1240faddf2ebc8b645b6c6bde6aba243e9019507
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816977"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563565"
 ---
 # <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Determinar si Outlook descarga sólo el encabezado de un mensaje
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se muestra un ejemplo de código en Visual C++ que usa la con nombre [Canónico de PidLidHeaderItem (propiedad)](pidlidheaderitem-canonical-property.md) para determinar si ha descargado Microsoft Outlook 2013 sólo el encabezado de un mensaje o el encabezado y el cuerpo de un mensaje. 
   

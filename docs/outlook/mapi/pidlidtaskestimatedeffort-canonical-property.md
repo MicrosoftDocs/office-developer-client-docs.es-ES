@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ceb055f6269e7abc8270c7d16da79c041d7f4ed0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 987188db4a3aceb4b065f59cdf449f943f68e70d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565322"
 ---
 # <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propiedad canónica PidLidTaskEstimatedEffort
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica la cantidad de tiempo, en minutos, que se espera que el usuario para realizar una tarea.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

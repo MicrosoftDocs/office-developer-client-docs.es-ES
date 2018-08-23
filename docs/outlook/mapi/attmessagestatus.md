@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 158e4db4b0f80b80385e85c8afa16fa515dc61b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816475"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565749"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indicadores de mensaje MAPI se asignan a marcas TNEF para preservar la compatibilidad con versiones anteriores. Todos los indicadores se agrupan juntos y codificados en un solo byte. Las asignaciones son los siguientes:
   

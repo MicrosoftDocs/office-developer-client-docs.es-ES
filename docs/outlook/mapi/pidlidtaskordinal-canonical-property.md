@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1021860e-4c40-4c22-aa68-b568d046aaf7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 033bc038988373b11f3eac863a256717624999f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b7c37c800230749f841ba64f4d52cfc9877af0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563657"
 ---
 # <a name="pidlidtaskordinal-canonical-property"></a>Propiedad canónica PidLidTaskOrdinal
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona ayuda para las tareas de ordenación personalizadas.
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

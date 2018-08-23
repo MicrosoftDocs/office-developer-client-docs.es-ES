@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: debf7ec3-e9f9-4912-b9a2-fc0953a56a01
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6465b2d24c3a38da40f2d1e6df79c2fa256b64b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f77b3dd9ca8c977574aab337b0df572404061b4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816496"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565868"
 ---
 # <a name="calling-mapi-from-windows-services"></a>Llamar a MAPI desde servicios de Windows
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para habilitar las aplicaciones de cliente MAPI que se escriben como servicios de Windows para que funcione con los proveedores de servicio compatible con MAPI, MAPI impone varias limitaciones y requisitos.
   
@@ -39,7 +39,7 @@ Para administrar los mensajes en un subproceso de inicialización, un cliente MA
     
 2. Llama a la secuencia [GetMessage](http://msdn.microsoft.com/en-us/library/ms644936%28VS.85%29.aspx), [TranslateMessage](http://msdn.microsoft.com/en-us/library/ms644955%28VS.85%29.aspx)y [DispatchMessage](http://msdn.microsoft.com/en-us/library/ms644934%28VS.85%29.aspx) de funciones de Windows para administrar el mensaje cuando [MsgWaitForMultipleObjects](http://msdn.microsoft.com/en-us/library/ms684242%28VS.85%29.aspx) devuelve la suma del valor del parámetro _nCount_ y el valor de **WAIT_OBJECT_0**, que indica que es un mensaje en la cola.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

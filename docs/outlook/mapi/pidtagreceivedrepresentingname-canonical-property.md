@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f699782-8a82-4834-bc55-a0b3cf18a117
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0df2cef2f82523fd5085f5567cac41dab860916d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 854b9c69a4a3ca74ee18a30e54ebded4976c18e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563754"
 ---
 # <a name="pidtagreceivedrepresentingname-canonical-property"></a>Propiedad canónica PidTagReceivedRepresentingName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar del usuario de mensajería que está representada por el usuario receptora.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6e3ebca954427489313219e8c906b2d9e4c078a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91a2fcbb9d4fb26531bd6786b49df34e86027ee3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566617"
 ---
 # <a name="pidlidclassified-canonical-property"></a>Propiedad canónica PidLidClassified
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica que un mensaje se clasifica.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

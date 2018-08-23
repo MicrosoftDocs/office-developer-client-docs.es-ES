@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76ad693b05e3989bd64ba66565ae4def22110ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564902"
 ---
 # <a name="folderuserfields-stream-sample"></a>Ejemplo de secuencia de FolderUserFields
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se describe un ejemplo de una secuencia de FolderUserFields. La secuencia contiene una definición de un campo definido por el usuario, `TextField1`. El tipo es **texto**, y la secuencia de FolderUserFields contiene los elementos FolderUserFieldsAnsi y FolderUserFieldsUnicode. Para obtener más información, vea [Estructuras de secuencia de los campos de carpeta](folder-fields-stream-structures.md).
   
@@ -159,7 +159,7 @@ El siguiente es un análisis de los datos de ejemplo de la secuencia de **Folder
         
       - wszFormula: desplazamiento 0xD6, matriz de número de WCHAR 0. Valor de cadena vacía.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Muestra de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)

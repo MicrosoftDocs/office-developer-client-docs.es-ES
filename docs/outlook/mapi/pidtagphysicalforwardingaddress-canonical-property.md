@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0306abff23002fd8a55e353e38f0c1bc5dd336b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7aa56e8c472da4d597733393313e44dbf1c1028f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569634"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Propiedad canónica PidTagPhysicalForwardingAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección de reenvío física del destinatario de un mensaje y se utiliza únicamente con informes de mensaje.
   
@@ -46,7 +46,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7981dc8550485aa22859c4a8dc25541bedf1217c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47ea122fce7969b326dbd48f875696b91de464f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568577"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera una secuencia que se utilizará para guardar el mensaje actual.
   
@@ -75,7 +75,7 @@ Objetos de formulario llamar al método **IMAPIViewContext::GetSaveStream** para
 
 No se puede escribir en la secuencia indicada por _ppstm_ antes de llamar a **GetSaveStream**. Cuando se devuelve **GetSaveStream** , no restablezca la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

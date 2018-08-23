@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e8266b0fcac8318420bd67cfd90e8ff594638cf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 545249f4777abc7d1a0a566631c777a6a1ba190b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563767"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreEntryIds
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los identificadores de entrada de los almacenes de en qué carpetas que actúan como dirección de contacto se encuentran entradas de la libreta.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

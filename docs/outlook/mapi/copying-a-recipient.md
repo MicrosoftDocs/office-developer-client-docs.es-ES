@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: dd68bc2054136a7f587b05dc56dbeabd06de1f08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0105ac92c53424199685e76223e6d75792fb674e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816590"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566911"
 ---
 # <a name="copying-a-recipient"></a>Copiar un destinatario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para copiar a uno o más destinatarios de un contenedor a otro o el mismo contenedor, compruebe primero que el contenedor de destino es modificable. Contenedores que son modificables establecen la marca AB_MODIFIABLE en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)).
   

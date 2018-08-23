@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dce3f4b5bfdcb34148c25c880d8d2d8173755b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816508"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563579"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Creación de aplicaciones MAPI en plataformas de 32 bits y 64 bits
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se describe las acciones que deberían seguir los desarrolladores MAPI para cambiar y volver a generar las aplicaciones de MAPI de 32 bits se ejecuten en una plataforma de 64 bits y las aplicaciones de 64 bits se ejecuten en una plataforma de 32 bits. En este tema, una plataforma de 64 bits es un equipo que se instala con Windows de 64 bits y de 64 bits de Microsoft Outlook y una plataforma de 32 bits es un equipo que se instala con un Outlook de 32 bits y Windows de 32 bits o 64 bits. 
   
@@ -79,7 +79,7 @@ La figura 2 muestra un escenario de WOW64 en el que llama a una aplicación de M
 
 ![Procesamiento de MAPISendMail en un escenario de WOW64] (media/346ba974-4844-4b64-9dd1-d0f829ab99b3.gif "Procesamiento de MAPISendMail en un escenario de WOW64")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
 

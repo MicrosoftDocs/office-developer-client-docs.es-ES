@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: addf93cadae418017a40ba448328d2e1fc1decf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a56223e909edf89d0f7fe2ba7f6d281509002429
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818192"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563684"
 ---
 # <a name="mapi-report-messages"></a>Mensajes de informe MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Notificar mensajes presentar estado la información acerca de un mensaje al remitente.
   
@@ -64,7 +64,7 @@ La siguiente tabla muestran las constantes que representan los tipos de informes
    
 Los clientes interactivos pueden mostrar mensajes de informe mediante el uso de formularios estándar de MAPI o formularios personalizados que se han registrado con el Administrador de formulario para la clase de mensaje del informe. Clientes que reciben un informe de no entrega para un IPM. Mensaje de nota, por ejemplo, puede mostrar el formulario estándar de MAPI que presenta una lista de los destinatarios con errores y sugerido motivo del error. El formulario también permite al usuario volver a enviar el mensaje, si así lo desea. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

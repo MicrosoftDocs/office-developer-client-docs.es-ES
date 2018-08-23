@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0fcd1c79d1c0debfb18d270dc0e40de42842c6d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebe10ae741975b33ee58e1e99032aaca64ef38d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569732"
 ---
 # <a name="tnef-stream-structure"></a>Estructura de la secuencia TNEF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una secuencia TNEF comienza con una firma de 32 bits que identifica la secuencia como una secuencia TNEF. Después de la firma son un entero sin signo de 16 bits que se usa como una clave para hacer referencias cruzadas a los datos adjuntos a su ubicación en el texto del mensaje con etiqueta. En el resto de la secuencia es una secuencia de atributos TNEF. Los atributos de mensaje aparezcan en primer lugar en la secuencia TNEF y siga los atributos de los datos adjuntos. Los atributos que pertenecen a un dato adjunto determinado se agrupan juntos, comenzando con el atributo **attAttachRenddata** . 
   

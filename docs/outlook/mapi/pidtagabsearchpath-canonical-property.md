@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7d0a799bb100aa56a47d243916eb136458ca8969
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e489d5ccef9dcec9cdad08c068276e69fdf09566
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567975"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>Propiedad canónica PidTagAbSearchPath
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de los identificadores de entrada para contenedores de libretas de direcciones que se va a buscar para resolver nombres. 
   
@@ -50,7 +50,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

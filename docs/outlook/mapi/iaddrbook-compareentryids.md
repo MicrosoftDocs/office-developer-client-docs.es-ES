@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 807e592cf535ac060fd275075035ae8beb7d6e78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564853"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos identificadores de entrada que pertenecen a un proveedor de libreta de direcciones concreto para determinar si hacen referencia al mismo objeto de la libreta de direcciones. 
   
@@ -82,7 +82,7 @@ MAPI pasa esta llamada a la libreta de direcciones que se encarga de los identif
   
 Si los identificadores de dos entrada hacer referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro _lpulResult_ en TRUE; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece el contenido en FALSE. En cualquier caso, **CompareEntryIDs** devuelve S_OK. Si **CompareEntryIDs** devuelve un error, lo que puede ocurrir si ningún proveedor de libreta de direcciones ha registrado una estructura **MAPIUID** que coincida con el de los identificadores de entrada, los clientes y proveedores no deben realizar ninguna acción en función del resultado de la comparación. En su lugar, que deben seguir el enfoque más conservador para la acción que se lleva a cabo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

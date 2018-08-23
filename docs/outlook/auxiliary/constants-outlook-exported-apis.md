@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Este tema contiene las definiciones de constantes para las API que exporta de Outlook.
-ms.openlocfilehash: 54b491e436b7b9275a227de40439ddb66d8d0c5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564468"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (API exportadas de Outlook)
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificadores de envío varios
 
-Outlook expone los siguientes identificadores de envío (DISPID) para que los programadores pueden utilizar [IDispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) para obtener acceso a la propiedad correspondiente o el método o escuchar el evento correspondiente. 
+Outlook expone los siguientes identificadores de envío (DISPID) para que los programadores pueden utilizar [IDispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para obtener acceso a la propiedad correspondiente o el método o escuchar el evento correspondiente. 
   
 |**Constante asociada**|**Valor de DISPID**|**Descripción**|**Interfaz aplicable**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +46,7 @@ Outlook expone los siguientes identificadores de envío (DISPID) para que los pr
 |**dispidBeforePrint** <br/> |0xFC8E  <br/> |Se usa para controlar el evento de la función de **IDispatch:: Invoke** que se desencadena antes de una operación de impresión.  <br/> |Aplicación  <br/> |
 |**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Se usa para controlar el evento de la función de **IDispatch:: Invoke** que se desencadena cuando Outlook ha finalizado la lectura de las propiedades del elemento.  <br/> |Objetos de nivel de elemento  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [API exportadas de Outlook](outlook-exported-apis.md)
 - [Información sobre las API exportadas por Outlook](about-apis-exported-by-outlook.md)

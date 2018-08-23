@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ff74ef880db286beb5f48ba299a83f2f944170b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816534"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563733"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes en una estructura [SPropProblemArray](spropproblemarray.md) existente. 
   
@@ -42,7 +42,7 @@ CbSPropProblemArray (_lparray)
   
 > Puntero a la estructura **SPropProblemArray** existente. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

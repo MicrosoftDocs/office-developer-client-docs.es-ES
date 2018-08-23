@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 47b698eb12577442e5b2d9ea9ecae3e8a13e402b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816807"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567177"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Formato de archivo de MapiSvc.inf
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El archivo MapiSvc.inf actúa como la base de datos central para la información de configuración de servicio de mensajes MAPI. MapiSvc.inf contiene información acerca de cada uno de los servicios de mensaje instalados en la estación de trabajo, la información acerca de los proveedores de servicios que pertenecen a cada servicio de mensajes y la información sobre el subsistema MAPI. MapiSvc.inf es el origen principal de información de perfiles. Es decir, cuando se está generando un perfil nuevo o uno existente modificado, información relevante para cada servicio de mensajes o proveedor de servicios se copió desde MapiSvc.inf. 
   

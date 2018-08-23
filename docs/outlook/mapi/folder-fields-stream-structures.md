@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816835"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567163"
 ---
 # <a name="folder-fields-stream-structures"></a>Estructuras de la secuencia de campos de carpeta
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Propiedad de [PidTagUserFields](pidtaguserfields-canonical-property.md) de un mensaje contiene una secuencia binaria, FolderUserFields, que contiene las definiciones de campo definido por el usuario de la carpeta. En este tema se describe las estructuras de secuencia para las definiciones de campo definido por el usuario de carpeta. 
 
@@ -130,7 +130,7 @@ Elementos de datos en esta secuencia se almacenan en el orden de bytes little-en
     |FCAPM_MULTILINE_TEXT  <br/> |0 x 00000100  <br/> |El campo puede contener varias líneas de texto.  <br/> |
     |FCAPM_PERCENT  <br/> |0 x 01000000  <br/> |En este campo de la ftFloat de tipo es un campo de porcentaje.  <br/> |
     |FCAPM_DATEONLY  <br/> |0 x 01000000  <br/> |En este campo de la ftTime de tipo es un campo de tiempo sólo de fecha.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0 x 01000000  <br/> |Para este campo de la ftInteger de tipo, no hay ninguna unidad está permitida en formato de presentación; Por ejemplo formatos como "Computer - K. 640..." no se permiten.  <br/> |
+    |FCAPM_UNITLESS  <br/> |0 x 01000000  <br/> |Para este campo de la ftInteger de tipo, no hay ninguna unidad está permitida en formato de presentación; Por ejemplo formatos como "equipo - 640 K..." no se permiten.  <br/> |
     |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0 x 80000000  <br/> |Se puede editar el campo en el elemento: se trata específicamente de formularios personalizados.  <br/> |
    
 - **dwString**: DWORD (4 bytes). Vea la primera nota siguiente.
@@ -168,7 +168,7 @@ Se edita la fórmula del campo en su formato de la interfaz de usuario en el cua
  
   Por ejemplo, con el idioma de la interfaz de usuario de Office inglés de Estados Unidos, si el formato de la interfaz de usuario de una fórmula para un campo del tipo **ftConcat** es `text1 [Business Phone] "text2" [My custom field]`, donde `My custom field` es el nombre de un campo definido por el usuario, el formato estándar para una fórmula de este tipo sería `""text1" & [_14856] & """text2""" & [My custom field]"`. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Muestra de la secuencia FolderUserFields](folderuserfields-stream-sample.md)
 - [Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)

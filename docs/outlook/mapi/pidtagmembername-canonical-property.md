@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 694cc4e4626fb9070927232bb72252f716eb458e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08db12e8ec698ffb6bbbc58f623949d2cb092ceb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563530"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propiedad canónica PidTagMemberName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar de un miembro de la tabla (ACL) de la lista de control de acceso.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1d325c67c836e727d8285bd2dceecf88bf68327c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67c86f39898b4bd0c019b9b3095c9449e6e60b1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567324"
 ---
 # <a name="imessagesubmitmessage"></a>IMessage::SubmitMessage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Guarda todas las propiedades del mensaje y marca el mensaje como listo para ser enviado.
   
@@ -75,7 +75,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI usa el método **IMessage::SubmitMessage** para enviar el mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

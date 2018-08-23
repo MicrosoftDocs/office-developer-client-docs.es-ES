@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c27472a309c26882051744a23fbe05e41c36aa3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 923864c625cb032c3b351bb999ff7cc782eae588
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567170"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Determina el tamaño, en bytes, de una matriz de las notificaciones de eventos y valida la memoria asociada a la matriz.
   

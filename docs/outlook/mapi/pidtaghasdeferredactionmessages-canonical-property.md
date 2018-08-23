@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9ed460a377e2a2f0d2780f97eaebff1f76b9d9fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1fcfd5e257798d21a296f077f0f5eacbcbb82a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569627"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>Propiedad canónica PidTagHasDeferredActionMessages
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si un mensaje tiene al menos una regla de acción aplazada.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

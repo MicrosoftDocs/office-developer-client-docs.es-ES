@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ddc61aa42b1087ed5f0ecb7986125ceef27cddce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37d37d6402b165ea57626fe4791cfb1a4bcf76cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565119"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Prepara el almacén local para la sincronización en un estado determinado y recupera la información necesaria para replicar.
   
@@ -154,7 +154,7 @@ El cliente llama a **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** para estab
   
 La mayoría de estas estructuras contienen [out] o [in] información, lo que permite a Outlook pasar información para el cliente y el cliente para pasar información a Outlook. Cuando el cliente llama a **IOSTX::SyncBeg**, Outlook asigna la estructura de datos para un estado determinado y lo inicializa con información de ese estado. Se trata de la información [out]. Mientras está en un estado, el cliente actualiza la estructura de datos correspondiente para ese estado. Este es el [de] información. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

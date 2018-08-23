@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 338ae3c3c8d8b4037ab0c7b46916e45cf5a8ded2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 125147ed7d6cd90c1069aa5cc1c759abe752dfe2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564524"
 ---
 # <a name="about-notification-based-store-indexing"></a>Información sobre la indexación de almacenes basada en notificaciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un proveedor de almacén MAPI puede especificar si los mensajes de los rastreos de controlador de protocolo MAPI y los índices en el almacén, o si el almacén envía notificaciones al indizador cuando hay mensajes que se va a indizar. Se conoce como indización de notificación y un almacén que admite la indización de notificación es un conocido como un almacén de empuje.
   
@@ -27,7 +27,7 @@ Cada vez que hay un archivo adjunto, carpeta o un mensaje que se va a indizar, e
   
 Debido a que un indizador siempre no puede indizar todo el contenido antes de que se produce un apagado en un almacén de empuje, debe conservar el almacén de empuje lo que necesita que se va a insertar. Cuando un proveedor de almacén envía una notificación sobre un objeto que se debe indizar, especifica el tipo de notificación **fnevIndexing** en el miembro **ulEventType** de la estructura de **[notificación](notification.md)** . El miembro de la **información** de la estructura de **notificación** contiene una estructura **[EXTENDED_NOTIFICATION](extended_notification.md)** . El proveedor de almacenamiento identifica el proceso en la propiedad **[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)** . También identifica el proceso de la estructura de [INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md) y pasa esta información como parte del miembro **pbEventParameters** de la estructura **EXTENDED_NOTIFICATION** . Si el proceso se cierra o se bloquea, el controlador de protocolo MAPI podrán detectar inmediatamente y detener el almacén de empuje de indización. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

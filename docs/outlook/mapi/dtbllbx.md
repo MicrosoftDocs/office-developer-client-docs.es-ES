@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35e19a4281c46ae7c2b5cbd76c1ecea35bf87665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569767"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una lista que se usará en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
   
@@ -87,7 +87,7 @@ Si el miembro **ulPRSetProperty** no está establecido en **PR_NULL**, la lista 
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

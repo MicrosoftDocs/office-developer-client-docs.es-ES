@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30fdfb20-1e12-442a-bfa0-8c18c15fa5c3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6b344986989a47c4f1159fcf50c1d067ae716e98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32dddc77eee2e16dddb57f29bdb836d5962e29d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818859"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567457"
 ---
 # <a name="pidlidpostaladdressid-canonical-property"></a>Propiedad canónica PidLidPostalAddressId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica qué dirección física es la dirección de correo del contacto.
   
@@ -64,7 +64,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

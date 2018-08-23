@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 48dfced07a8fd78a1af22679759effbd3c6da343
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564944"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Propiedad canónica PidTagAddressBookChooseDirectoryAutomatically
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permite que Microsoft Outlook 2010 y Microsoft Outlook 2013 elegir el más adecuada lista global de direcciones (GAL) o la carpeta de contactos para el buzón de correo actual.
   
@@ -46,7 +46,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

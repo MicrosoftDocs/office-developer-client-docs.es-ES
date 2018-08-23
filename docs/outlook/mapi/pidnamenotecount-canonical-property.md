@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 0c38a59f-597c-4f1b-bdbb-788d4f8b1c9c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8329956d05eed80d1c6a1980a7ba99c5f2085b68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93791f2dbe7f412fca71bdd5198474b828b2fa12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819109"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563551"
 ---
 # <a name="pidnamenotecount-canonical-property"></a>Propiedad canónica PidNameNoteCount
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el número de notas en el archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |NoteCount  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

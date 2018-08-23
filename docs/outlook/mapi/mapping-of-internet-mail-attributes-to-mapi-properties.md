@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19818298"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568066"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Asignación de atributos de correo de Internet a las propiedades MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este apéndice se describe cómo debe traducir una puerta de enlace compatible con MAPI que se conecta a Internet o un proveedor de transporte MAPI entre las propiedades de mensaje MAPI y los atributos de mensaje de Protocolo Simple de transferencia de correo (SMTP). SMTP es el protocolo de mensajería que se usa en gran parte de Internet. SMTP define un conjunto de encabezados de mensaje: el sobre del mensaje y un formato de contenido del mensaje. SMTP está totalmente documentado en un conjunto de dos documentos, RFC 821 y RFC 822, que se encuentra en un número de sitios FTP y WWW en Internet.
   

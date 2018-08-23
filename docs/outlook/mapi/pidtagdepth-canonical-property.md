@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 25af87004ef5616a6c6fc575c647fdd1794d710f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 100d59a0fd95fcad1976e82aebf6892227c08ec9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564916"
 ---
 # <a name="pidtagdepth-canonical-property"></a>Propiedad canónica PidTagDepth
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número entero que representa el nivel de sangría, o profundidad, de un objeto en una tabla de jerarquías relativo.
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f2b126fc-41fa-4dc4-9f13-07bc4f621d0b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b20c2171f77451d9b7e85573260acff3243238f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66ec6ecb33336c51ce76dd080a80af4c26e098f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563040"
 ---
 # <a name="pidlidsharinginitiatorname-canonical-property"></a>Propiedad canónica PidLidSharingInitiatorName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Designa como una propiedad de un mensaje para compartir.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

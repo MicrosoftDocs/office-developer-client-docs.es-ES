@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 96e2ca38391931508dd9f3f78f3ba69e6f8b9c15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818030"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568703"
 ---
 # <a name="loading-message-store-providers"></a>Cargar proveedores de almacén de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando una aplicación cliente, abre un almacén de mensajes, MAPI carga el archivo DLL del proveedor de almacén de mensajes en la memoria. Después de MAPI carga el archivo DLL, se produce una secuencia muy específica de las llamadas de método entre el proveedor de almacén de mensajes y MAPI. Esta secuencia de llamada de método permite MAPI obtener el nivel superior [IMSProvider: IUnknown](imsprovideriunknown.md), [IMSLogon: IUnknown](imslogoniunknown.md), y [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) interfaces y permite que el proveedor de almacenamiento de mensajes obtener un objeto de soporte técnico MAPI. Después de la secuencia de llamada, el proveedor de almacenamiento de mensaje deberá estar preparado para aceptar los inicios de sesión de clientes. 
   
@@ -46,7 +46,7 @@ La secuencia de llamada cuando un proveedor de mensajes que se carga el archivo 
 > [!NOTE]
 > Si se produce un error de proveedor del almacén de la llamada de inicio de sesión para el mensaje porque se ha proporcionado una contraseña incorrecta y el proveedor de almacén de mensajes no puede mostrar una interfaz para solicitar la contraseña correcta, debe devolver MAPI_E_FAILONEPROVIDER desde el **IMSProvider::Logon **(método). Esto le permitirá a los clientes solicitar al usuario una contraseña para intentar iniciar sesión en el proveedor de almacenamiento de mensaje nuevo en lugar de lo que provoca que MAPI se lleve a cabo el proveedor para toda la sesión. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

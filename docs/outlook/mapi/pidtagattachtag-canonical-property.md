@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d8d8d32bddb98e0ac180b0898478c67297980492
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af5d05ee6d3592694952002c16e16188c3e458a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565623"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>Propiedad canónica PidTagAttachTag
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de objeto ASN.1 que especifica la aplicación que suministró un dato adjunto. 
   
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

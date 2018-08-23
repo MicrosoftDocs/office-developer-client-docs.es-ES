@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 51a79075dac62a051f5a28dbcb70e7d6ff200e65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d92e8d7b3fb14051ffceb829f3df3f6fa12e6e23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565861"
 ---
 # <a name="dntble"></a>DNTBLE
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Información para descargar el contenido de una carpeta del servidor durante el [estado de la tabla de descarga](download-table-state.md). Este proceso de descarga utiliza sincronización de cambio Incremental (ICS) de Microsoft Exchange. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
   
@@ -53,7 +53,7 @@ struct DNTBLE
   
 > [out] Número de elementos eliminados en el almacén local. Outlook rellena este valor durante la descarga al usar ICS.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

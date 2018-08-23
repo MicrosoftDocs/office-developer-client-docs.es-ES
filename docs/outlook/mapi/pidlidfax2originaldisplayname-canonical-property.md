@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f521e27-834c-4fb5-9782-2c5d1380690f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d009118b8e4c11f70e9545302e2fd7ab9b43f00e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc7f4e5f0de940d852665fee3c32838b437895a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563173"
 ---
 # <a name="pidlidfax2originaldisplayname-canonical-property"></a>Propiedad canónica PidLidFax2OriginalDisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre para mostrar original de dirección de fax del domicilio particular del contacto.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

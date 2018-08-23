@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 27a5978d85cf06a31f583b82cd39d0001852876b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56e663ced33da933b4276911b609f2fae1c5d78e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818439"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563971"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un nuevo objeto [IMessage](imessageimapiprop.md) encima de un objeto OLE **IStorage** existente, para usarse dentro de una sesión de mensajería. 
   
@@ -142,7 +142,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |LoadMSGToMessage  <br/> |MFCMAPI utiliza el método **OpenIMsgOnIStg** para abrir una interfaz en la parte superior de la. MSG de archivos para que el archivo se puede manipular con MAPI.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

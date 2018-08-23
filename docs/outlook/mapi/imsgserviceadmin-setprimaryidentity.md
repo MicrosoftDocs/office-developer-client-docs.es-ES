@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 38d55f45280b0b037dc9b5cbbd0dc8809ed04e35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92807cb216e8a7f4eef6b4d95a8d12826b176e6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817746"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564671"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Designa un servicio de mensajes para ser el proveedor de la identidad principal para el perfil.
   
@@ -70,7 +70,7 @@ La propiedad **PR_RESOURCE_FLAGS** se establece a STATUS_PRIMARY_IDENTITY para c
   
 Cada proveedor de servicios de mensaje MAPI tiene información sobre puede establecer una identidad para cada uno de sus usuarios cuando un cliente inicia sesión en el servicio. Sin embargo, debido a que MAPI admite conexiones a varios proveedores de servicio para cada sesión MAPI, no hay ninguna definición firme de identidad de un usuario determinado para la sesión MAPI como un todo; depende de la identidad del usuario en el servicio que está implicado. Los clientes pueden llamar a **SetPrimaryIdentity** para designar una de las muchas identidades establecidas para un usuario por servicios de mensajes como la identidad principal para ese usuario. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

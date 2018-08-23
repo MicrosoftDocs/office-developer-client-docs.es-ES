@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 'Última modificación: 01 de febrero de 2013'
-ms.openlocfilehash: c0d7faaa957167977606cd93800a085d62b214f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818454"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564783"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Información general de la referencia MAPI de Outlook
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 En este tema se proporciona información general sobre la documentación de referencia de MAPI de Outlook 2013.
   
@@ -62,7 +62,7 @@ El resto de esta referencia se clasifica en los siguientes tres tipos de informa
     
 - [Referencia de la MAPI](mapi-reference.md) - proporciona información detallada sobre las funciones, interfaces, estructuras y las propiedades de MAPI. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Ejemplos de MAPI](mapi-samples.md)

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a6bdf408-114a-2203-189f-101251a65a8c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9a4dbe6757ae7ce5eccee3c3a366660db412cfe6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dcb5d63e2f8b7b1371fbcf2d74f52c6bba84e6dc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569018"
 ---
 # <a name="about-the-sample-offline-state-add-in"></a>Información sobre el complemento de estado sin conexión de muestra
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La API de estado sin conexión admite las devoluciones de llamada que indica los cambios en el estado de conexión de un usuario en Outlook, por ejemplo, desde la que se está en línea en Outlook para que se está sin conexión. El complemento de estado sin conexión de ejemplo es un complemento COM escrito en C++ que se muestra cómo recibir las notificaciones de cambios de estado de conexión y cómo modificar el estado actual de uso de la API de estado sin conexión. Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).
   
@@ -39,7 +39,7 @@ La API de estado sin conexión admite las devoluciones de llamada que indica los
     
 - Describe cómo finalizar correctamente y limpiar un complemento estado sin conexión cuando el complemento está desconectado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

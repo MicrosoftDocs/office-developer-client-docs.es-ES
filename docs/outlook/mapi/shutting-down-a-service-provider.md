@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 71706fc970170f74aa5555da29d904c08c0422f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567198"
 ---
 # <a name="shutting-down-a-service-provider"></a>Apagar un proveedor de servicios
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar la sesión y apagar todos los proveedores de servicio de active, MAPI a su vez llama a los métodos siguientes: 
   
@@ -67,7 +67,7 @@ Si su proveedor es un almacén de mensajes, una llamada de cliente a [IMsgStore:
   
 Archivo DLL de su proveedor se descargará cuando llama a la función API de Win32 **FreeLibrary**, una llamada que se realiza después de que el último cliente activo ha llamado [MAPIUninitialize](mapiuninitialize.md)MAPI. En este momento, su proveedor de servicios habrá terminado de cerrarse. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

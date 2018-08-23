@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e28bde9571081d61b37f6939a991c11ddeb75a4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566050"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propiedad canónica PidLidExceptionReplaceTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la fecha y hora en el patrón de periodicidad que va a reemplazar la excepción.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

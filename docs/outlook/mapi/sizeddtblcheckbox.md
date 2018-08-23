@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9a30554253bc11c8905273079429e4b41c20583a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567534"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea una estructura con nombre que incluye una estructura [DTBLCHECKBOX](dtblcheckbox.md) para describir un control de casilla de verificación y una etiqueta de un período especificado. 
   
@@ -59,7 +59,7 @@ Para utilizar un puntero a la estructura resultante de la macro **SizedDtblCheck
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [DTBLCHECKBOX](dtblcheckbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

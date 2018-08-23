@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 10d45a99-54aa-4721-8847-1c7033a8a5b5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b6ee348ba63be4220114992379f4e71801884c9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08495ef0a38fda52c0cd011277995cf21ea756f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564475"
 ---
 # <a name="pidlidemail2originalentryid-canonical-property"></a>Propiedad canónica PidLidEmail2OriginalEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la **propiedad EntryId** del objeto que corresponde a la segunda dirección de correo electrónico. 
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

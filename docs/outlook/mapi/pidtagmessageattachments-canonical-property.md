@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5b76a73a0fde8f4531b99a58646b927724162e81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819713"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569340"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propiedad canónica PidTagMessageAttachments
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una tabla de las restricciones que se pueden aplicar a una tabla de contenido para buscar todos los mensajes que contienen los subobjetos de datos adjuntos que cumplen las restricciones. 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

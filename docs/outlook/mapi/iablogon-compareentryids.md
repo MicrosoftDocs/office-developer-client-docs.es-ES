@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 03256f2dec62d0228c4d5456dcd1b60f66b13ad2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565007"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto.
   
@@ -82,7 +82,7 @@ Los proveedores de la libreta de direcciones implementan el método **CompareEnt
   
 Para obtener más información acerca de cómo crear los identificadores de entrada, vea [Identificadores de entrada de MAPI](mapi-entry-identifiers.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

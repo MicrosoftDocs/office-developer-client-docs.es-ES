@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 462ee84d5e9acd26f80bae6516179f21651749be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 937643d90534f73477b90fd7ce883615a7e296f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820795"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569718"
 ---
 # <a name="structured-storage-in-mapi"></a>Almacenamiento estructurado en MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Almacenamiento estructurado hace referencia a la organización jerárquica de almacenamiento de información que se introdujo con COM. En un entorno de almacenamiento estructurado, el almacenamiento se organiza en dos o tres tipos de objetos: 
   

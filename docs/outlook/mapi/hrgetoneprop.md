@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4dcdce72781669988a0cb15eb9b3a7cd73494bfb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99b63e7b0b31a603bf372b1d52e83af39784b628
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817069"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564160"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera el valor de una propiedad única de una interfaz (propiedad), es decir, una interfaz que se deriva de [IMAPIProp](imapipropiunknown.md). 
   
@@ -75,7 +75,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI usa el método **HrGetOneProp** para recuperar el tipo de un objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

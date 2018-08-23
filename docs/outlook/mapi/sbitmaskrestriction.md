@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f0cf6fa03d8f38b7d160a8747111445cfdac1ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9197201388530bd7755eb1987ecc863220e3847
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566610"
 ---
 # <a name="sbitmaskrestriction"></a>SBitMaskRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción de máscara de bits que se usa para realizar una operación **AND** bit a bit y el resultado de la prueba. 
   
@@ -69,7 +69,7 @@ La estructura **SBitMaskRestriction** realiza una operación **AND** bit a bit c
   
 Para obtener más información sobre la estructura de **SBitMaskRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

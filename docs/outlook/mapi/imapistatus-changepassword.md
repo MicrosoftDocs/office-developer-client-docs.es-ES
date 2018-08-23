@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b667f56553b717f1bc938b6ce045dbfdde8fdc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565553"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Modifica la contraseña de un proveedor de servicios sin mostrar la interfaz de usuario. Opcionalmente, este método se admite en los objetos de estado que implementan los proveedores de servicio.
   
@@ -77,7 +77,7 @@ No todos los objetos de estado admiten el método **IMAPIStatus** . Se admite s�
 
 Los proveedores de transporte remoto implementan **ChangePassword** tal como se especifica aquí. No hay ninguna consideración especial. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

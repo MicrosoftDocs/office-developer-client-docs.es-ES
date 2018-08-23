@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 444d98c4e8e32e0cc7d2eb8af753a394af1f020c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb048d622aaf3cfa97f380e21324749d7421603e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563691"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propiedad canónica PidTagSubmitFlags
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de marcadores que indican los detalles acerca de un envío de mensajes.
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0debee5d480c4ea0c0a8fb4b54d9fa5d92a45987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f1e86924c0464814e3aa1e219930bd23fc78fb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563488"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propiedad canónica PidTagAttachLongFilename
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de archivo largo y la extensión, excluyendo la ruta de acceso de datos adjuntos. 
   
@@ -74,7 +74,7 @@ Mmapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

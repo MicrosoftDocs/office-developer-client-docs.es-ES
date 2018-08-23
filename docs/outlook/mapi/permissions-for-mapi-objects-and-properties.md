@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: aad19bbc016af6bdc0b17124b46112656af53a4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11c8a58e6cfe0719e8683c4e7a0fd966972117c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569382"
 ---
 # <a name="permissions-for-mapi-objects-and-properties"></a>Permisos para objetos MAPI y propiedades
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Permiso de acceso o el conjunto de operaciones de permisible, puede ser una característica de objetos MAPI y de las propiedades individuales compatibles con esos objetos. Acceso a objetos está determinada por el elemento primario de un objeto. Para un mensaje, su carpeta determina los permisos de acceso. Para un usuario de mensajería o lista de distribución, su contenedor de la libreta de direcciones realiza esta determinación. Cuando un objeto como un mensaje reside en dos carpetas, los permisos para las dos copias del objeto pueden ser diferentes. 
   

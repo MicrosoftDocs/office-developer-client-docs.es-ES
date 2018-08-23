@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9fecd67c370333064fd593634ad2a924a3005d28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f3c385c29589638bc314cc15635a12bb157d949
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568745"
 ---
 # <a name="pidlidrecurrencetype-canonical-property"></a>Propiedad canónica PidLidRecurrenceType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el tipo de periodicidad de la serie periódica.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

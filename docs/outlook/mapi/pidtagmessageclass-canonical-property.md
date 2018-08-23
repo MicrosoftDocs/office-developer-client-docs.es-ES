@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d4e478b053bc1aa81643a60899480ac2ad9d4265
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f54bdb70e9f48c89cb50e8238f8638deac8a93b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567821"
 ---
 # <a name="pidtagmessageclass-canonical-property"></a>Propiedad canónica PidTagMessageClass
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una cadena de texto que identifica la clase de mensaje definido por el remitente, como IPM. Tenga en cuenta. 
   
@@ -93,7 +93,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

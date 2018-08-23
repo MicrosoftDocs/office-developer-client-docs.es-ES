@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8d435907c150de2ad3273ac263e7c93fb19e92a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 309d2ee5310f4e329b3f08eabe98bdf834a4fd92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563096"
 ---
 # <a name="pidtaglastverbexecutiontime-canonical-property"></a>Propiedad canónica PidTagLastVerbExecutionTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la hora cuando se ejecutó el último verbo.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

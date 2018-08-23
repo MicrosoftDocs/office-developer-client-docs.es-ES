@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 644fad96c8aec3701233351469a84ef93341b397
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5a4a073559c58599b175b6f85a6dfe697aec623
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563838"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Admite registrar para realizar devoluciones de llamadas de notificación acerca de los cambios de estado de conexión de una cuenta de usuario.
   
@@ -56,7 +56,7 @@ Debido a que esta interfaz hereda de **[IUnknown](http://msdn.microsoft.com/en-u
   
 La mayoría de los miembros de esta interfaz es marcadores de posición reservados para el uso interno de Outlook y está sujetos a cambios. Los autores de llamadas de esta interfaz deben usar el marcador de posición que no sean miembros sólo tal como se documenta.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

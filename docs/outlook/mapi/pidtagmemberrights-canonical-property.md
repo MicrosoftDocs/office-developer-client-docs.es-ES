@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2ffc6973d2670402ec8095120eea3db02f529d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a120c44a83ad5e5a822e3959417b162e8ccbdd8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566918"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>Propiedad canónica PidTagMemberRights
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un conjunto de bits que indica los derechos de este miembro en una carpeta o un buzón de correo.
   
@@ -124,7 +124,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

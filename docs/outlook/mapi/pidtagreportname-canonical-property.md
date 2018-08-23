@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4d3a38f55fa2869df3f8afa1301cf1ad0c7b0737
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c1a848eec84c7d81792a95baa3f47fa6779e95f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820100"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569585"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propiedad canónica PidTagReportName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar para el destinatario que debería obtener informes para este mensaje.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

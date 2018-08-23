@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b4e7fed2-88e4-4e14-90b6-913a1b7e338a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cb6138072cd5dedc528168d4056041661c40fd06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d882fa1e705969ae06da46710fc7216625ca932e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566379"
 ---
 # <a name="hrdoabdetailswithexchangecontext"></a>HrDoABDetailsWithExchangeContext
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se asegura de que se abre el método **OpenEntry** por el proveedor de la libreta de direcciones de Exchange esperado. Esta función funciona de manera similar a [IAddrBook::Details](iaddrbook-details.md), pero abre el **entryID** de la libreta de direcciones de Exchange identificado mediante el parámetro _pEmsmdbUID_ . 
   

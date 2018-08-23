@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ece5340497f83862b711f076c8c6346e14ec9355
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 668e1c57c59bf2356be808e0347e1bd5135478a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820629"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563894"
 ---
 # <a name="sending-or-receiving-a-message-on-demand"></a>Enviar o recibir un mensaje a petición
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los clientes que normalmente se basan en el subsistema MAPI: la cola MAPI y los proveedores de servicios, para controlar el tiempo de recepción y transmisión de mensajes. Sin embargo, puede modificar este intervalo mediante el objeto de estado de la cola MAPI o un proveedor de transporte.
   

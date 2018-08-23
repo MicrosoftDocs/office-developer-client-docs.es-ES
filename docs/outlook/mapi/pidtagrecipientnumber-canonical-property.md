@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d097ed0f-cd41-4f11-9195-56e936308087
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 01b7e3ffa7ac03a825db2e775fd271c4e85b3bc1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4deb61fa7dfce25a1087522d7ee831372ec1ed54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563902"
 ---
 # <a name="pidtagrecipientnumber-canonical-property"></a>Propiedad canónica PidTagRecipientNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa el número del destinatario de un destinatario en el mensaje.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

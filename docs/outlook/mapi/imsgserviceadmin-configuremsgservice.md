@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f58d0f5cd7dfe74d3859d4f06a41aad6c3a55ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a599a6fe5093e52e50d33a1761df5689b7335138
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817713"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568297"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Vuelve a configurar un servicio de mensajes.
   
@@ -119,7 +119,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IMsgServiceAdmin::ConfigureMsgService** para configurar un servicio que se ha agregado a un perfil.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

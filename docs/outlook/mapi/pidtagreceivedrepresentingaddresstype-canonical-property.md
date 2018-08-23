@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c342bb2a-157e-4748-bf21-0926f95e5312
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cf62338ef2dfca2c4e7edc3cdf05ffae50f269e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c57324972f02366822a64e9e6c642d0f22ce158b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820028"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563383"
 ---
 # <a name="pidtagreceivedrepresentingaddresstype-canonical-property"></a>Propiedad canónica PidTagReceivedRepresentingAddressType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tipo de dirección del usuario de mensajería que está representada por el usuario que realmente recibe el mensaje.
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

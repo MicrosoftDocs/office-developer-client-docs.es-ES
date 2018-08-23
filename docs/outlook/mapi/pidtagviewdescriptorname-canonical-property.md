@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9a186af55a8a2846bbb8af9e51be45ef73ce5d66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820416"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567786"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propiedad canónica PidTagViewDescriptorName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de un descriptor de vista.
   
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

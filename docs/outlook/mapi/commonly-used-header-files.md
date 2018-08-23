@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a87f7595eb03062e54ea3aa8f7dca1f1b0f1e568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 377dc67b737f8b40c89d7f45d6fff544ce63193e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563887"
 ---
 # <a name="commonly-used-header-files"></a>Archivos de encabezado de uso frecuente
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cada tema de referencia incluye una tabla que nombra el archivo de encabezado MAPI donde se define el elemento de la API. En la siguiente tabla se describe los archivos de encabezado MAPI que los programadores usan con frecuencia.
   
@@ -45,7 +45,7 @@ Cada tema de referencia incluye una tabla que nombra el archivo de encabezado MA
    
 Para obtener información acerca de cómo obtener los archivos de encabezado MAPI, vea [Instalar los archivos de encabezado de MAPI](how-to-install-mapi-header-files.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

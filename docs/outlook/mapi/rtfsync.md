@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565742"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se asegura de que el texto del mensaje de formato de texto enriquecido (RTF) coincide con la versión de texto sin formato. Es necesario llamar a esta función antes de leer la versión RTF y después de modificar la versión RTF. 
   
@@ -79,7 +79,7 @@ Los proveedores de almacén de mensajes pueden utilizar **RTFSync** para mantene
   
 Para obtener más información, vea [Compatibilidad con texto RTF para los proveedores de almacén de mensajes](supporting-rtf-text-for-message-store-providers.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [WrapCompressedRTFStream](wrapcompressedrtfstream.md)
 

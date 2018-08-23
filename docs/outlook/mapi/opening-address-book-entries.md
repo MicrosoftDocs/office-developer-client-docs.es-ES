@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c36c70eacffcb4a41af0e73eea85143ab737867f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd86b9cc86f30aac75b732b97208933de4d336e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818449"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566435"
 ---
 # <a name="opening-address-book-entries"></a>Entradas de la libreta de direcciones de apertura
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando un cliente o proveedor ha solicitado que se abra uno de los objetos, MAPI llama al método [IABLogon::OpenEntry](iablogon-openentry.md) de su proveedor. MAPI determina que el identificador de entrada que representa el objeto de destino pertenece a su proveedor de examinando la parte [MAPIUID](mapiuid.md) del identificador de entrada y coincidencia a **MAPIUID** que su proveedor registrado en la llamada a ** IMAPISupport::SetProviderUID**. MAPI, a continuación, llama al método **OpenEntry** . El proveedor debe responder, se recupera el objeto correspondiente: un contenedor, una lista de distribución o un usuario de mensajería. 
   

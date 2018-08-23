@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f1558259-7f0b-4731-80d2-88e51e203df0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ffdd1203316b2c80aba34c980745a0330ec19888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 378dcc3e1506432de22731a27731c58067647952
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818448"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565896"
 ---
 # <a name="optional-features-for-address-book-providers"></a>Características opcionales para los proveedores de libreta de direcciones
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Existen muchas características opcionales para los proveedores de la libreta de direcciones. Algunas de las características implementadas con más frecuencia son:
   

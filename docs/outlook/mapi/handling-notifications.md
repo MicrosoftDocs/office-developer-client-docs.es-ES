@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fdd66e4a27209e6b80757bcf52408eb0cea43794
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c19e88ac1cfb29a9841ec78516410e23b3e5403
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567583"
 ---
 # <a name="handling-notifications"></a>Administrar notificaciones
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las notificaciones de habilitar un objeto informar a otro objeto que ha experimentado un cambio. El tipo de cambio se conoce como un evento. MAPI define varios eventos para el que se generan notificaciones. 
   

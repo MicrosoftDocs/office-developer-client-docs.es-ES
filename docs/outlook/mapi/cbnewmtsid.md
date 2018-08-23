@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 562fff0654def6cf2f05aa5f0b95a4df243c7abf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7be2c8176e890e71963fa9c58ebea6b5bb510fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816520"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570082"
 ---
 # <a name="cbnewmtsid"></a>CbNewMTSID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes que se debe asignar para una nueva estructura [MTSID](mtsid.md) con un identificador de agente de transferencia de mensaje de un tamaño especificado. 
   
@@ -42,7 +42,7 @@ CbNewMTSID (_cb)
   
 > Recuento de bytes para el identificador de agente de transferencia de mensaje que se deben incluir en la nueva estructura **MTSID** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: 619bd2d5e3b40e49da835d774035ba237af06699
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a305b9c9ea2802ac63a22118b55274bcdff23617
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569011"
 ---
 # <a name="mapi-receive-folders"></a>Las carpetas de recepci�n de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una carpeta de recepci�n contiene los mensajes entrantes de una clase de mensaje en particular. Recibir carpeta asociaciones pueden establecerse por los clientes, el proveedor de almacenamiento de mensajes o MAPI. MAPI tiene dos predeterminada las carpetas de recepci�n: la carpeta ra�z del almac�n de mensajes y a continuaci�n, la carpeta Bandeja de entrada del sub�rbol de mensajes interpersonales (IPM). La carpeta ra�z del almac�n de mensajes es el valor predeterminado recibir carpeta para todos los mensajes de comunicaci�n entre procesos (IPC).
   

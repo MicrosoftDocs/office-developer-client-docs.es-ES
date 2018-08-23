@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1546ee1aa970be71d853dba59ce0fab7cc5a4dac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a37382cda1a96025f950d941f83fb5b6a0497bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819961"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565504"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Propiedad canónica PidTagProviderDisplay
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar definido por el proveedor para un proveedor de servicios.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

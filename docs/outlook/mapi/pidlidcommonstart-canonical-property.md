@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d999852d-ce98-4c3c-a772-87f5db4aa04e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e2d3dee4d268a1747d6b77acf62f24c6ec459bdc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d72f3ca63930f1a8df7818e4ce4a34e8d11e71
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818600"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567779"
 ---
 # <a name="pidlidcommonstart-canonical-property"></a>Propiedad canónica PidLidCommonStart
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa la fecha de inicio y la hora de un mensaje.
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2baed391-85bd-4e88-8800-c19bc2d2d54a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 256412f6ccbe66da067411bf9f66ad0478cf5ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b52edf7f4633fdf9c925a8d8db4953590713b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562935"
 ---
 # <a name="resolving-a-recipient-name"></a>Resolver un nombre de destinatario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Cuando se envía un mensaje, se genera una lista de destinatarios con las propiedades relativas a cada destinatario. En el momento en que se envía el mensaje, una de esas propiedades debe ser el identificador de entrada a largo plazo del destinatario. Para asegurarse de que cada destinatario incluye la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)), pase la estructura [ADRLIST](adrlist.md) que describe la lista de destinatarios en el contenido del parámetro en una llamada a [IAddrBook _lpAdrList_ :: ResolveName](iaddrbook-resolvename.md).
   

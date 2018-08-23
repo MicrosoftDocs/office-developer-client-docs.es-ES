@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818039"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564503"
 ---
 # <a name="launching-a-new-compose-form"></a>Iniciar un nuevo formulario de redacción
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los implementadores de servidor del formulario deben esperar la siguiente secuencia de llamadas a métodos a su servidor de formulario y objetos de formulario cuando una aplicación cliente abre un nuevo mensaje para redactar:
   
@@ -35,7 +35,7 @@ Los implementadores de servidor del formulario deben esperar la siguiente secuen
     
 6. La aplicación cliente llama al método de [IMAPIForm::DoVerb](imapiform-doverb.md) para invocar el verbo abrir. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

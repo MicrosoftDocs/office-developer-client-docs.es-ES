@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: 'Última modificación: 13 de agosto de 2013'
-ms.openlocfilehash: 346e6bc471f5257aacb34c2e7d02a0aade1bb46e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 472b5847053c0a18026c76b8055a26551331d8dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564545"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtener un mensaje de contacto determinado en una entrada de la libreta de direcciones de contactos
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene un ejemplo en C++, `HrOpenContact`, que muestra cómo usar la estructura [CONTAB_ENTRYID](contab_entryid.md) que identifica una entrada en una libreta de direcciones de contactos para obtener el mensaje MAPI contacto asociado. 
   
@@ -98,7 +98,7 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 

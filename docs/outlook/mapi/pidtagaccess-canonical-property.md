@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bb00d4e0e1437f9b3c13ac5e7d0a9dc4f3610d32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc4a784b3a3f3792622fca2d04f5bb4504a98b54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565371"
 ---
 # <a name="pidtagaccess-canonical-property"></a>Propiedad canónica PidTagAccess
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de marcadores que indica las operaciones que están disponibles para el cliente para el objeto.
   
@@ -71,7 +71,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

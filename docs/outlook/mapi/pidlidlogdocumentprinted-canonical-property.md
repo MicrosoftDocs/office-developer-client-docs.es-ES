@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e01bf0d9-62cf-4fba-8cec-232a46025feb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c8aac3ff8a81c9e7ec921df4d86dd33af3045064
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dcff67f6528805a33ae7a00e03e753c3219155ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566022"
 ---
 # <a name="pidlidlogdocumentprinted-canonical-property"></a>Propiedad canónica PidLidLogDocumentPrinted
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica si se imprime el documento durante el registro en diario.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

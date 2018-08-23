@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7f31162e669af6efaf9e935c7c400d105c1321c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 423992e0485e8e3092cfc4126164576906d51149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567067"
 ---
 # <a name="property-identifiers-and-types"></a>Tipos e identificadores de propiedad
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Todas las propiedades MAPI se representan mediante las etiquetas de propiedad. Una etiqueta de propiedad es un valor entero sin signo de 32 bits que contiene el identificador de la propiedad en la alta pedidos 16 bits y el tipo de propiedad en la baja pedidos 16 bits. Etiquetas de propiedad para todas las propiedades definidas por MAPI se incluyen en el archivo de encabezado mapitags.h.
   

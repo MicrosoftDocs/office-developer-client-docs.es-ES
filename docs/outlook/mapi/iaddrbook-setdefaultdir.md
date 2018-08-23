@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 00d5b2bfc6b0c024f0ef12ce19fed90ef0af6721
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817133"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564657"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece el contenedor especificado como el contenedor de la libreta de direcciones predeterminada.
   
@@ -65,7 +65,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI usa el método **SetDefaultDir** para realizar el contenedor de la libreta de direcciones especificado en el valor predeterminado uno.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

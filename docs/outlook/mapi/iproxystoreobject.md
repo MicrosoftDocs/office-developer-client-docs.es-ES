@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f6566f567c228b6416a64dbd58653561bb592e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b842bee8d9e243aa38bafe39d786a31b5527b054
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567947"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona un objeto de almacén de protocolo de acceso a mensajes de Internet (IMAP) que ha sido no ajustado y que permite el acceso a los elementos en el archivo de carpetas personales (PST) sin invocar la sincronización y descarga de los elementos.
   

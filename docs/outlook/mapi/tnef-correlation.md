@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
 description: 'Última modificación: 12 de marzo de 2013'
-ms.openlocfilehash: b8b30dcc2fcf0c8e75004e36b6fd9f4f4583e304
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b5af5cee7c58eb300e4020c763431fd96bdd295
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820868"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563768"
 ---
 # <a name="tnef-correlation"></a>Correlación TNEF
 
  
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Algunos sistemas de mensajería realizan una comprobación de correlación en cualquier secuencia de formato de encapsulación neutro para el transporte (TNEF) que se adjunta a un mensaje entrante para comprobar que la secuencia TNEF en realidad pertenecen a ese mensaje. Esto implica que coincidan con el valor de algún campo en el encabezado del mensaje entrante con una copia de ese valor almacenado en alguna propiedad en la secuencia TNEF. Los valores que son supuestamente únicos para cada mensaje, como los números de identificador de mensaje, se suelen usar para esto. El transporte o la puerta de enlace que se creó la secuencia TNEF es responsable de elegir un valor apropiado en el encabezado del mensaje y coloca una copia en una propiedad adecuada antes de la codificación de propiedades de los mensajes salientes en la secuencia de TNEF. Las puertas de enlace o los transportes que reciben el mensaje, a continuación, pueden extraer dicha propiedad de la secuencia TNEF y compruebe que su valor coincide con el valor del campo de encabezado correspondiente en el mensaje entrante.
   

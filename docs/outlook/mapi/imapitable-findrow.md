@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2a50a5f536e337e5ca37e61f17d4dfd40aa9c51e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565336"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Busca la siguiente fila en una tabla que coincide con los criterios de búsqueda específicos y mueve el cursor a esa fila.
   
@@ -117,7 +117,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: FindRow** para buscar las filas que coinciden con una restricción.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

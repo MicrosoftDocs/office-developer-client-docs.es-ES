@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 14b1b424bc55a3a8c898eaac386a5344c2e5cf99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8260b5b7c1dd3fd6608c2fd17471d21ad362ece
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819413"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568997"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Propiedad canónica PidTagDeferredSendUnits
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la unidad de tiempo por el que se multiplicará el valor de la propiedad **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

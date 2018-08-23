@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 423b03d674028a2f81b4c042d6e65e9acfb57274
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b369e20101bbaba5e246b2ef9f6ab3ed1771ef6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817829"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563558"
 ---
 # <a name="initializing-the-transport-provider"></a>Inicializar el proveedor de transporte
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La interfaz de transporte y cola de impresión define las llamadas que realiza la cola MAPI a un proveedor de transporte. Los proveedores de transporte implementan estas rutinas en una biblioteca de vínculos dinámicos (DLL). El primer punto de entrada directa en el archivo DLL utilizado por la cola MAPI debe ser la función de inicialización del proveedor de transporte [XPProviderInit](xpproviderinit.md).
   

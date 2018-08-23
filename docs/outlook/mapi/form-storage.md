@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a99ef76e63e634c661bf82bdab10b86c843e0df0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c98427ab326ada0b717282dc4077d526780aa45c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568164"
 ---
 # <a name="form-storage"></a>Almacenamiento de formularios
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Aunque no es necesario conocer todos los detalles de cómo se almacenan físicamente los formularios, es útil comprender algunos de los conceptos principales. Por lo tanto, antes de describir los tres tipos de bibliotecas de formularios compatibles con el Administrador de forma predeterminada, este tema proporciona una visión general de cómo se almacenan los formularios.
   
@@ -35,7 +35,7 @@ La mayor parte de la información almacenada dentro de una definición de formul
   
 Los tres tipos de bibliotecas de formularios se describen en los temas de [Las bibliotecas de formularios Local](local-form-libraries.md), [Bibliotecas de formularios de carpeta](folder-form-libraries.md) y [Bibliotecas de formularios personales](personal-form-libraries.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Formularios MAPI](mapi-forms.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6ff3548883e273fc10a885a67209b0da52c23a12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563047"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Propiedad canónica PidTagTransportProviders
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de identificadores de los proveedores de transporte en el perfil actual.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

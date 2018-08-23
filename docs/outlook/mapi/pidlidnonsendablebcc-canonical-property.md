@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c7523896-c391-443d-bd4e-cc13f3367f08
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3cafcca1ed71f8841f530d368a027fbe5aea1fb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c732bb1f4f8b973e1b267ca241c62c71254adcb1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818812"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563999"
 ---
 # <a name="pidlidnonsendablebcc-canonical-property"></a>Propiedad canónica PidLidNonSendableBcc
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de todos los asistentes compuestas que son recursos.
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

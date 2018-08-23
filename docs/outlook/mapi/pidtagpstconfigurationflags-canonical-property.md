@@ -10,16 +10,16 @@ api_type:
 - COM
 ms.assetid: e4234ddf-d9dc-4dc9-8eda-dbbee151b5d7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b5a3978741f7ecb871e3c3de28e52dffdcf3a74f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b79b40a59a2bf7b68c58bffbccca04034b853a15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570208"
 ---
 # <a name="pidtagpstconfigurationflags-canonical-property"></a>Propiedad canónica PidTagPstConfigurationFlags
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica los indicadores de configuración para una tabla de almacenamiento de información personal (archivos .pst).
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

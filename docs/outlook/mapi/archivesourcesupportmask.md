@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19816441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563817"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica si Microsoft Office Outlook debe examinar las carpetas de un almacén y archivarlos automáticamente.
   

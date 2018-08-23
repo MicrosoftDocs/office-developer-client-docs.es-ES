@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9be25dc655536ff5d32a635da57c54ebd12fea0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569774"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Agrega un entero de 64 bits sin signo a otro, de forma opcional mediante una marca de transporte.
   
@@ -58,7 +58,7 @@ La función **FtAdcFt** devuelve una estructura **FILETIME** que contiene la sum
 
 La función **FtAdcFt** es idéntica a **FtAddFt** cuando _pwCarry_ es NULL. Si _pwCarry_ no es NULL y puntos en 0, **FtAdcFt** devuelve el mismo valor **FILETIME** que devuelve **FtAddFt** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

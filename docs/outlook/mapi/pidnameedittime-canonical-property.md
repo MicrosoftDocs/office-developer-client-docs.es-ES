@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1257fe3fd5be226c04aece1c082152ea37d1214f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba103ab0e071b8841d55e11d7472eb41f97f97b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567408"
 ---
 # <a name="pidnameedittime-canonical-property"></a>Propiedad canónica PidNameEditTime
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica la hora cuando se modificó por última vez el archivo.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |EditTime  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

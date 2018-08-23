@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e2871f5804cda172328fbd3ebdc43f860de939ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a176b51577c7d4616d988a0b28f2afcfb554e9f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817761"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564986"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Intenta quitar un mensaje de la cola de salida.
   
@@ -79,7 +79,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa el método **IMsgStore::AbortSubmit** para anular el envío del mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

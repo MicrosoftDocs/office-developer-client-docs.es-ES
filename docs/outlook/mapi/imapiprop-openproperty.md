@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 656e5c5532edfc6c791ca30aa30f4c4d96847295
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563978"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a una interfaz que se puede usar para obtener acceso a una propiedad.
   
@@ -138,7 +138,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI usa el método **IMAPIProp::OpenProperty** para recuperar una interfaz de secuencia de texto de gran tamaño y propiedades binarias.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [HrIStorageFromStream](hristoragefromstream.md) 
 - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) 

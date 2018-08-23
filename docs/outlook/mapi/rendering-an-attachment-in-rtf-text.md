@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cf22e360a0319a662c9b7dd31856dbb6eccec02a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d8fc10f876408d616c5acefb664ba5d61c927a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820496"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562977"
 ---
 # <a name="rendering-an-attachment-in-rtf-text"></a>Representar datos adjuntos en texto RTF
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Formato de texto de Rich (RTF)-tener en cuenta los clientes pueden recuperar información de posición de representación de texto del mensaje RTF mediante busca la siguiente secuencia de escape en la propiedad del mensaje **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
   

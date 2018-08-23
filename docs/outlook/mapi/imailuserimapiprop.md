@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0c70d16d294426d30f3ac5f00b6bc46992386a86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817201"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564566"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a las muchas propiedades que se asocian con los usuarios de mensajería. La interfaz de **IMailUser** se implementa mediante objetos de usuario de mensajería. **IMailUser** hereda de la [IMAPIProp: IUnknown](imapipropiunknown.md) de la interfaz y no tiene ningún método único de su propio. 
   
@@ -88,7 +88,7 @@ Objetos de usuario de mensajería pueden tener otras propiedades opcionales asoc
     
 Para obtener una lista completa de propiedades, vea [Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

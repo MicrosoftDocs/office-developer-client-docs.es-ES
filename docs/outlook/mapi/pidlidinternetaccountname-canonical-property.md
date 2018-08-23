@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 29bedadf-903d-419d-804d-dc8bd92b745d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6705b121c58e0ff14726f835c779237cb35c32a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ac47f150ebdd39ed5f2abe4b30a2cac5768fd229
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565133"
 ---
 # <a name="pidlidinternetaccountname-canonical-property"></a>Propiedad canónica PidLidInternetAccountName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre de cuenta de correo electrónico visible para el usuario a través del cual se envía el mensaje de correo electrónico.
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

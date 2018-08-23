@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e5f329ef0d3483683d5c94ed38c6631d86e77b93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: feb12be5cc836a0c7ff90dd5054a34d9df4b6622
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568192"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Abre una sección del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para aún más el acceso. 
   
@@ -94,7 +94,7 @@ Se produce un error en una operación de apertura de sólo lectura si la secció
   
 Puede crear una sección de perfil mediante una llamada a **OpenProfileSection** con la marca MAPI_MODIFY y una estructura **MAPIUID** que no existe en el parámetro _lpUID_ . Asegúrese de que especificar MAPI_MODIFY. Si se establece _lpUID_ para que apunte a una que no existe **MAPIUID** y **OpenProfileSection** está configurado para usar el modo de acceso predeterminada de sólo lectura, se producirá un error en la llamada con MAPI_E_NOT_FOUND. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

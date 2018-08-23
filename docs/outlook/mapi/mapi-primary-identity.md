@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bd6fe1298a38733cb9d4916a931138c616e110bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de1fe8fd5ef5a6e79934478c62b2403c48f85b5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565882"
 ---
 # <a name="mapi-primary-identity"></a>Identidad principal de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La mayoría de las sesiones MAPI tienen un proveedor de servicio en particular que proporciona la identidad principal para la sesión. Normalmente, es un proveedor de libreta de direcciones, que proporciona la identidad a través de uno de sus objetos de usuario de mensajería o listas de distribución. De hecho, MAPI se recomienda que los servicios de mensajes que incluyen un proveedor de la libreta de direcciones usar uno de sus objetos para la identidad principal. Cuando un proveedor de servicios que pertenece a un servicio de mensaje proporciona la identidad principal, todos los otros proveedores de servicio en el servicio de mensajes de compartan esta identidad.
   

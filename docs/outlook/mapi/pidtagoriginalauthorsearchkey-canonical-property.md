@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e5b283376d018b7b2675e05f994d586126437590
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 225c0813139a74b735b5b8a3d5a729e630cd3511
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819806"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563341"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propiedad canónica PidTagOriginalAuthorSearchKey
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la clave de búsqueda del autor de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

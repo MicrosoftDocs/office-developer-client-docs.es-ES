@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566659"
 ---
 # <a name="propertydefinition-stream-structure"></a>Estructura de la secuencia de PropertyDefinition
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Una estructura de secuencia PropertyDefinition es una matriz de estructuras de secuencia [FieldDefinition](fielddefinition-stream-structure.md) que contienen definiciones para todos los campos definidos por el usuario en un elemento de Microsoft Outlook y la configuración de enlace de datos para algunos campos integrados. 
   
@@ -36,7 +36,7 @@ Elementos de datos en esta secuencia se almacenan en orden de bytes little-endia
     
 - FieldDefinitions: Una matriz de estructuras de secuencia FieldDefinition. El recuento de esta matriz es igual al elemento de datos de FieldDefinitionCount.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)

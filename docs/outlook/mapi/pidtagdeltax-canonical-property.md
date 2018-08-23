@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7e264a75a02a08518efcf3202a60d2a4654ddfe5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a3a77864780fe641aabfd275567ae8ecc5e604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819438"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569004"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propiedad canónica PidTagDeltaX
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el ancho de un control de cuadro de diálogo en unidades de cuadro de diálogo estándares de Windows. 
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

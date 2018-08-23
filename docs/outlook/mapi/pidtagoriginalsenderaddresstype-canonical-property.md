@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5cac96287db9638f699b75e0c387e003beb5e197
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba0d68482c06a1f6d9ccdae95f63e980a1fd23e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819838"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563747"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propiedad canónica PidTagOriginalSenderAddressType
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el tipo de dirección del remitente de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

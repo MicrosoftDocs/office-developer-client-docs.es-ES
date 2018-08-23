@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b94e1f2d66f89d680cc738968342de0fbcee5cda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae1f5b62c59c2e9a1c02c1a2fc0ee91ef1e19387
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19820424"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562984"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Propiedad canónica PidTagWizardNoPstPage
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Esta propiedad contiene TRUE si el Asistente de perfil suprimir la página de almacén (PST) de mensaje personal.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

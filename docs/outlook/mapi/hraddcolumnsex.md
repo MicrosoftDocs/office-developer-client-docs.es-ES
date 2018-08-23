@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c79d9ebb5be1d8af6c9136514d8a2b695513f755
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 566a9d23c46ec717eb5eed711fff801b15d49fc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817027"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564237"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Agrega o mueve las columnas al principio de una tabla existente. 
   
@@ -90,7 +90,7 @@ La función **HrAddColumnsEx** permite que el autor de la llamada proporcionar u
   
 Los parámetros de entrada _lpAllocateBuffer_ y _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Los valores de los punteros que se pasan a **HrAddColumnsEx** exactos dependen de si el autor de la llamada es una aplicación cliente o un proveedor de servicios. Un cliente pasa punteros a las funciones MAPI con los nombres especificados. Un proveedor de servicios pasa los punteros que reciben en su llamada de inicialización o recuperar llamando al método [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

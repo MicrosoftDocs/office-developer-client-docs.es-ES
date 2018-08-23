@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 926fef0e1b2f905d510102e69afb667414e6cce3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea72a6fd2a22fe87ad63bb9c8fa6c1416d876b66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817109"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564251"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Registra el autor de la llamada para recibir notificaciones de los eventos que afectan a un contenedor, usuario o lista de distribución de mensajería.
   
@@ -118,7 +118,7 @@ Esté preparado para que su objeto de receptor advise liberarse en cualquier mom
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). Para obtener información acerca de cómo usar los métodos **IMAPISupport** para admitir la notificación, vea [Compatibilidad con notificación de evento](supporting-event-notification.md). Para obtener más información acerca de subprocesamiento múltiple y MAPI, vea [subprocesamiento en MAPI](threading-in-mapi.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

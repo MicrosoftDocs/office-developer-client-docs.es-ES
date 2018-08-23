@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 573709c4374786bb1bd3d763c8ba91de59f7fb1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818159"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563917"
 ---
 # <a name="mapi-profile-overview"></a>Información general sobre el perfil MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Un perfil es una colección de información acerca de los servicios de mensaje y los proveedores de servicios que un usuario de una aplicación de cliente desea estar disponibles durante una sesión MAPI en particular. Cada usuario tiene al menos un perfil; muchos usuarios mantienen varias. Por ejemplo, un usuario puede tener un perfil para que funcione con un servicio de almacenamiento de mensajes basado en servidor y otro perfil para que funcione con un servicio de almacenamiento de mensajes en el equipo local. Un usuario es posible que desee tener acceso a un conjunto de sistemas de mensajería mediante el uso de los servicios de transporte adecuados para la parte del día y otro conjunto para el resto del día. Los perfiles proporcionan una forma flexible para seleccionar combinaciones de servicios del sistema de mensajería. 
   
@@ -41,7 +41,7 @@ Los perfiles se pueden crear en tiempo de instalación, cuando se carga MAPI o u
   
 El Asistente para perfiles es una aplicación que crea nuevos perfiles con una cantidad mínima de trabajo. El asistente usa los valores predeterminados para la configuración siempre que sea posible, ahorrando esfuerzo y tiempo a los usuarios. Los usuarios escriben valores sólo cuando sea absolutamente necesario. Para obtener más información, vea [creación de un perfil mediante el Asistente para perfiles](creating-a-profile-by-using-the-profile-wizard.md). También puede usar la herramienta de personalización de Office para crear un nuevo perfil. Para obtener más información, vea [Office Customization Tool](http://go.microsoft.com/fwlink/?LinkId=123000).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

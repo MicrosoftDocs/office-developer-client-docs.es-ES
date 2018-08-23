@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b957c02f331038ee9104f01806720d2f8e0b542
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 366208b8288aeb61bf1bb78f2c9f10b400a3dc26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817068"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567597"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Codifica un identificador de entrada en una cadena ASCII. 
   

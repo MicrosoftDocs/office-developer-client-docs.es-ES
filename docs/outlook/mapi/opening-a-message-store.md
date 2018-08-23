@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 39d6df6db329abf7509f816165341ea0eda8331b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bab31dbcd1f7139980d7df5559c1ee52a6f167f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818426"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563649"
 ---
 # <a name="opening-a-message-store"></a>Abrir un almacén de mensajes
 
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Dependiendo del perfil, un cliente tendrá que abrir uno o más almacenes de mensaje durante una sesión típica. Abrir un almacén de mensajes significa para obtener acceso a un puntero a su [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) implementación. La interfaz de **IMsgStore** proporciona los métodos de notificación, hacer que las asignaciones de carpetas y obtener acceso a carpetas y mensajes. 
   
@@ -61,7 +61,7 @@ Llamar a **OpenMsgStore** si necesita especificar una amplia variedad de opcione
   
 Establecer el MDB_NO_MAIL marca indica a MAPI que no se utilizará el almacén de mensajes para enviar o recibir mensajes. MAPI no comunicar a la cola MAPI sobre la existencia de este almacén de mensajes. El indicador MDB_TEMPORARY designa un almacén de mensajes como temporal, lo que implica que no puede usarse para almacenar información permanente. Almacenes de mensaje temporal no aparecen en la tabla de almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [IMAPITable::SetColumns](imapitable-setcolumns.md)
 

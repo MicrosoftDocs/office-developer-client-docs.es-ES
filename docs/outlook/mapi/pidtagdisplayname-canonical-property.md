@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d914d071d0845dee7d402e45d281cd774095a5a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70b0508d9a19df42e4ab164aba58aaef44b0c01a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565490"
 ---
 # <a name="pidtagdisplayname-canonical-property"></a>Propiedad canónica PidTagDisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar para un determinado objeto MAPI. 
   
@@ -93,7 +93,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

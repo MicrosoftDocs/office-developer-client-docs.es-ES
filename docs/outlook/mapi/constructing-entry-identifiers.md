@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1d38c0ac7ddbd24123dd51d7315644f3ad786d15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f15749077596bd6c89828eb730cadd5624a75fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564587"
 ---
 # <a name="constructing-entry-identifiers"></a>Crear identificadores de entrada
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Los identificadores de entrada se construyen con la estructura de la [propiedad ENTRYID](entryid.md) . La estructura de la **propiedad ENTRYID** consta de una marca que se describe los atributos del identificador de entrada y el identificador de entrada real. 
   
@@ -64,7 +64,7 @@ El resto del miembro **ab** después de la **MAPIUID** de 16 bytes contiene dato
     
 Aunque los proveedores de servicios pueden reciclar sus identificadores de entrada, debe evitar esta práctica. Si es necesario volver a usar un identificador de entrada, los proveedores de servicios deben realizar el período de tiempo que debe transcurrir entre el uso inicial y la reutilización siempre que sea posible. Además, el identificador de entrada se debe reasignar a otro objeto del mismo tipo. Es decir, un identificador de entrada determinado no debe ser asociado en primer lugar con un mensaje y, a continuación, con una carpeta.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5cd113c263c97ba306fcf7bf97c750e710eac922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819333"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565616"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreSupportMask
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenida en el almacén que contiene la carpeta Contactos.
   
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Las plantillas de formulario que se crean con Microsoft InfoPath usan un esquema XML (XSD) para llevar a cabo la validación estructural y de datos en el XML que entra, se modifica y sale de un formulario de InfoPath. Todas las plantillas de formulario creadas en el diseñador de formularios de InfoPath contienen por lo menos un archivo de esquema XSD (.xsd) que se usa para la validación en tiempo de ejecución.
-ms.openlocfilehash: 6921a2206c098992a0a24e85c263992a0e2c98b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b19399e4f31f6270fa6f360a8428c725050ce16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568276"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Trabajo con esquemas XML en InfoPath
 
@@ -532,8 +532,8 @@ Aprovechando las ventajas que presenta InfoPath para diseñar soluciones de form
 
 - [Esquema XML W3C ](http://www.w3.org/XML/Schema)
 - [Esquema W3C XML Primer](http://www.w3.org/TR/xmlschema-0/)
-- [Referencia de estructuras de Esquema W3C XML](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-- [Referencia de tipos de datos de esquema W3C XML](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-- [Tutorial del esquema XML](http://www.w3schools.com/schema/default.asp)
+- [Referencia de estructuras de Esquema W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
+- [Referencia de tipos de datos de esquema W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
+- [Tutorial del esquema XML](https://www.w3schools.com/xml/schema_intro.asp)
 - [Centro de programadores de XML](http://msdn.microsoft.com/en-us/xml/default.aspx)
 

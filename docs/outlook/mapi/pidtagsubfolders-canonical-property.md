@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: acde7f18324d5642f7b8f8b5aa25721c4019ce3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93e5510802fe5ff0327d7ed3fc702fa61cd3c1c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820358"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565581"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>Propiedad canónica PidTagSubfolders
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si una carpeta contiene las subcarpetas.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

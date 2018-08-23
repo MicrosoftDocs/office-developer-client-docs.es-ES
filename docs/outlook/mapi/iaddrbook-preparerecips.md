@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fe3e098b2b70e77bd0c536002a4724810261bff3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 004498ac94aadaa075d87d4dd3c675c8cd5f4feb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19817159"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563880"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Prepara una lista de destinatarios para usarlo más adelante mediante el sistema de mensajería. 
   
@@ -73,7 +73,7 @@ En una entrada de destinatarios individual, las propiedades solicitadas se orden
   
 Para obtener información sobre PT_ERROR, vea [Tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

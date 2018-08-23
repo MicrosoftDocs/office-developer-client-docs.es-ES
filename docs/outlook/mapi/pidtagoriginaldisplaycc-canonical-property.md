@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f48d723c-3ad8-4617-952a-ba5216b2129c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4fc8ef6dd67eb5187bbc0bac8c4f4f9bee13826
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 933e48de74402b02426343353b3d1e0af2c41c19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819821"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569837"
 ---
 # <a name="pidtagoriginaldisplaycc-canonical-property"></a>Propiedad canónica PidTagOriginalDisplayCc
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene los nombres para mostrar de los destinatarios con copia (CC) del mensaje original.
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816941"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564594"
 ---
 # <a name="handling-message-store-notification"></a>Controlar la notificación de almacenamiento de mensajes
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para registrar las notificaciones del almacén de mensajes, llamar a los métodos [IMAPISession::Advise](imapisession-advise.md) o [IMsgStore::Advise](imsgstore-advise.md) y especificar un almacén de mensajes, la carpeta o el identificador de mensaje de entrada en el contenido del parámetro _lpEntryID_ . Los proveedores de almacén de mensajes admitan notificaciones de objeto y de tabla. Si registrar con objetos de almacén de mensaje en particular, con las tablas de jerarquía y contenido de carpeta que describen estos objetos o con ambos objetos y tablas depende de las notificaciones que esperaba, las llamadas que realice para realizar operaciones, y cómo el proveedor de almacenamiento de mensaje admite la notificación. 
   

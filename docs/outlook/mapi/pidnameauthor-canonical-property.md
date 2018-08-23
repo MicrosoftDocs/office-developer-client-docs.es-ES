@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d45ea1e4-727e-434a-b6b7-73179baa3e5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 24682906f6f018822f50bc1461fadd48996c46aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e442d57a75fac2292bc70b287da20bdcc5100dc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819068"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570103"
 ---
 # <a name="pidnameauthor-canonical-property"></a>Propiedad canónica PidNameAuthor
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa al autor del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Autor  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

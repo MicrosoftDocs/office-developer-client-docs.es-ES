@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 34bd6de95f731c03466f19e0bc4fd6e2c9910900
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817576"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563852"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un marcador en la posición actual de la tabla.
   
@@ -67,7 +67,7 @@ Cuando el autor de la llamada intenta utilizar un marcador que señala a una fil
 
  **CreateBookmark** asigna memoria para el marcador que se creen. Liberar los recursos para el marcador llamando al método [IMAPITable::FreeBookmark](imapitable-freebookmark.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

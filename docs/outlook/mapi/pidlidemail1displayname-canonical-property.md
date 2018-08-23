@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3429fc9f-25fe-4a73-9a95-469a92645e39
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 69e56b15904cc2cc66c2c3e1cbb6af04afa5e37b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b060ebc341f4039913ff102f734c91572c19988d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818631"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562963"
 ---
 # <a name="pidlidemail1displayname-canonical-property"></a>Propiedad canónica PidLidEmail1DisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica el nombre para mostrar legible por el usuario para la primera dirección de correo electrónico.
   
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

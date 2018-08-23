@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 44a31e46c43a065c720564f2aa193913dbfd9a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817081"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565329"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Copia las entradas de uno o más, los usuarios normalmente mensajería o listas de distribución.
   
@@ -112,7 +112,7 @@ Devolver la advertencia MAPI_W_PARTIAL_COMPLETION sólo si no se puede copiar un
 
 Utilice los indicadores CREATE_CHECK_DUP_LOOSE y CREATE_CHECK_DUP_STRICT para indicar al proveedor de cómo desea que el contenedor para realizar la comprobación de entrada de duplicado. Si necesita tener una entrada agregada independientemente de que sea un duplicado, no configure cualquiera de estos marcadores o establecer la marca CREATE_REPLACE. CREATE_REPLACE indica que no importa si una entrada es un duplicado; siempre que desea reemplazar la entrada original. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b30c6e9840ed5dddfd2d3a5f149a3f0f6e8da605
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88b6f220f812f419b3f881aaa7f70a22186b589e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817228"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563803"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a la tabla de jerarquía del contenedor.
   
@@ -106,7 +106,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |HierarchyTableTreeCtrl.cpp  <br/> |CHierarchyTableTreeCtrl::GetHierarchyTable  <br/> |La clase CHierarchyTableTreeCtrl utiliza **GetHierarchyTable** para obtener las tablas de jerarquía para mostrar en un control de vista de árbol.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

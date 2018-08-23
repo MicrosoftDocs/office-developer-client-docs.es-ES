@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b3d8c74d85696e733b378a4cac2b8e2a3b6a072
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce78c6873f3a1dc034ae33f3c9e965ef8f2f1815
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563782"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Expande una categoría de tabla contraído, adición de la hoja o las filas de encabezado de nivel inferior que pertenecen a la categoría a la vista de tabla.
   
@@ -100,7 +100,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI usa el método **IMAPITable::ExpandRow** para expandir una categoría de tabla contraídos.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

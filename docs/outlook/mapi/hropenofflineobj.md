@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563390"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Se abre un objeto sin conexión basada en un perfil determinado.
   
@@ -85,7 +85,7 @@ Cuando se usa [GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.
   
  **HrOpenOfflineObj** sólo funciona para los clientes que son proveedores MAPI, complementos COM y las extensiones de cliente de Exchange que se ejecuta dentro del proceso de Outlook. De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

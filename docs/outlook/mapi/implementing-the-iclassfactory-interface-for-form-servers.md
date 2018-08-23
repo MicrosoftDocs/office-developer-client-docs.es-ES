@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22402261-c0fc-49bd-a222-e31989d6ff30
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ecae23d8631c818fb3d1c6786b2d180e9f32a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff8766c6211d9820a2beed1fed871f82089b82fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566785"
 ---
 # <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implementar la interfaz IClassFactory de servidores de formulario
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) es la interfaz OLE que las aplicaciones cliente que se usan para crear nuevos objetos de formulario de clase de mensaje del servidor de su formulario. En la siguiente tabla se enumera los métodos de **IClassFactory** que son necesarios. 
   
@@ -30,7 +30,7 @@ ms.locfileid: "19817706"
    
 Para toda la información necesaria para implementar estos métodos, vea la sección Servicios de objeto de ActiveX y COM en el SDK de Windows.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cbc934eec5331a0302ba222108ee92a0dc696b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 252a5f9cbb923728b78a232666a275ebbd2576c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820061"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568710"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propiedad canónica PidTagRecipientTrackStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Indica el estado de respuesta devuelto por el asistente.
   
@@ -71,7 +71,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

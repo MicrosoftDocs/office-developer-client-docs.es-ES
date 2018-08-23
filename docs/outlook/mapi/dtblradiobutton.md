@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dee12ba9da83d2167afe13d00270a900bf0d73d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 493176029be3e7b154188aa164a95a8bc9c0e7d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569746"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Describe un botón de opción que formará parte de un grupo de botones de radio. Se usará el grupo de botones de radio en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
   
@@ -77,7 +77,7 @@ El recuento de botón es el número de botones de opción en el grupo. Las estru
   
 Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

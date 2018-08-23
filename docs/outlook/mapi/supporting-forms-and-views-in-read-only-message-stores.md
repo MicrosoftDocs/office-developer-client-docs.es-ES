@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 1ef9b85fd8dad980f92f5e06a4b54daf146fbcec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563355"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Compatibilidad con formularios y vistas de s�lo lectura de los almacenes de mensajes
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si el proveedor de almac�n de mensajes permite permiso de solo lectura para el mecanismo de almacenamiento subyacente, las aplicaciones cliente y el Administrador de formularios MAPI se puedan realizar determinadas tareas. En concreto, los clientes no podr�n agregar o modificar vistas personalizadas y Administrador de formularios MAPI no podr�n instalar formularios en las tablas de contenido asociada de carpetas del almac�n.
   

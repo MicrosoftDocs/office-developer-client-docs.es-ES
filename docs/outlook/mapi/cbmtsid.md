@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 356c7e800bdcac84c3cc8062e40372112727999e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2297f7fa17eb25752e0acec2a5287dfaef77e4af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816532"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567268"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Calcula el número de bytes en una estructura [MTSID](mtsid.md) existente. 
   
@@ -42,7 +42,7 @@ CbMTSID (_lpentry)
   
 > Puntero a la estructura **MTSID** existente. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 

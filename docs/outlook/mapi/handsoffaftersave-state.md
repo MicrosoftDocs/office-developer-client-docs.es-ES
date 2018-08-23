@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4bc4d680903d81b51a39ed39db3861597443d116
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 274e7206171e1874e3625896952f861d25f3b382
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816954"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564538"
 ---
 # <a name="handsoffaftersave-state"></a>Estado HandsOffAfterSave
 
   
   
-**Hace referencia a**: Outlook 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 El estado de HandsOffAfterSave es parte del proceso de guardar el contenido de un formulario en un almacenamiento permanente. En este estado, el objeto de formulario debe evitar realizar cambios en las copias en memoria de los valores de las propiedades del mensaje, porque puede que no haya otra oportunidad para guardar los cambios. La siguiente tabla describe las transiciones permitidas desde el estado HandsOffAfterSave.
   
@@ -32,7 +32,7 @@ El estado de HandsOffAfterSave es parte del proceso de guardar el contenido de u
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |HandsOffAfterSave  <br/> |
 |Otros [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos o métodos de otras interfaces  <br/> |Establece el último error y devolver E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 
 
