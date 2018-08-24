@@ -1,21 +1,21 @@
 ---
-title: Seleccionar una API o tecnología para desarrollar soluciones para Outlook
+title: Seleccionar una API o tecnología para desarrollar soluciones de Outlook
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
-description: En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
-ms.openlocfilehash: 267ddcd69354664254755dc45ef0b0ca90f7da32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y Outlook 2016 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
+ms.openlocfilehash: e78e96f776b8f7c584dbd82163f41d0f5d8c80f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593427"
 ---
-# <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Seleccionar una API o tecnología para desarrollar soluciones para Outlook
+# <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Seleccionar una API o tecnología para desarrollar soluciones de Outlook
 
-En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
+En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y Outlook 2016 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
   
 Microsoft admite diversas API y tecnologías que amplían Outlook: 
   
@@ -65,7 +65,7 @@ Las tablas de esta sección definen criterios de evaluación en las siguientes c
 
 A partir de Office 2013, los desarrolladores pueden usar la plataforma de Complementos de Office para ampliar los servicios web y el contenido en el contexto de clientes enriquecidos y web de Office. Una Complemento de Office es una página web desarrollada con tecnologías web habituales, hospedada dentro de una aplicación cliente de Office (como Outlook) y que puede ejecutarse localmente o en la nube. De los tipos de Complementos de Office, el que es compatible con Outlook se denomina aplicaciones de correo. Aunque el modelo de objetos, PIA y MAPI se usan a menudo para automatizar Outlook en el nivel de aplicación, puede usar la API de JavaScript para Office para interactuar en el nivel de elemento con el contenido y las propiedades de un mensaje de correo electrónico, convocatoria de reunión. Puede publicar aplicaciones de correo en la Tienda Office o en un catálogo interno de Exchange. 
   
-Los usuarios finales y los administradores pueden instalar aplicaciones de correo en un buzón de Exchange y usar aplicaciones de correo en el cliente enriquecido y en Outlook Web App. Como desarrollador, puede hacer que la aplicación de correo esté disponible solo en equipos de escritorio o también en tabletas o smartphones. En la Figura 1 se muestra un ejemplo de una aplicación de correo de YouTube, que se describe detalladamente en [Procedimiento para crear una aplicación de correo para Outlook 2013 Preview para ver vídeos de YouTube](http://msdn.microsoft.com/library/bfde1d24-2c13-4798-9b13-5f307d49370f%28Office.15%29.aspx). La aplicación de correo de YouTube permite a los usuarios finales seleccionar una dirección URL de un vídeo de YouTube y ver el vídeo en Outlook u Outlook Web App, en un equipo de escritorio o una tableta.
+Los usuarios finales y los administradores pueden instalar aplicaciones de correo en un buzón de Exchange y usar aplicaciones de correo en el cliente enriquecido y en Outlook Web App. Como desarrollador, puede hacer que la aplicación de correo esté disponible solo en equipos de escritorio o también en tabletas o smartphones. En la Figura 1 se muestra un ejemplo de una aplicación de correo de YouTube, que se describe detalladamente en [Procedimiento para crear una aplicación de correo para Outlook 2013 Preview para ver vídeos de YouTube](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). La aplicación de correo de YouTube permite a los usuarios finales seleccionar una dirección URL de un vídeo de YouTube y ver el vídeo en Outlook u Outlook Web App, en un equipo de escritorio o una tableta.
   
 **Figura 1. La aplicación de correo de YouTube está activa para el mensaje seleccionado, que contiene una dirección URL de un vídeo de YouTube.com.**
 
@@ -95,7 +95,7 @@ En las tablas siguientes se muestran los criterios de evaluación de la platafor
 |Lenguajes y herramientas  <br/> |Puede implementar aplicaciones de correo con cualquier tecnología web habitual, como HTML5, JavaScript, CSS3, XML y API de REST. Puede usar la herramienta de desarrollo web que prefiera. Como alternativa, con Napa, Visual Studio 2012 o una versión posterior de estas herramientas, logrará ahorrar tiempo en el desarrollo.  <br/> |
 |Implementación administrada  <br/> |Cuando resulte apropiado en su escenario, puede usar páginas .aspx administradas para implementar código de servidor en las aplicaciones de correo.  <br/> |
 |Permite scripts  <br/> |La API de JavaScript para Office se usa directamente en scripts.  <br/> |
-|Herramientas de prueba y depuración  <br/> |Puede usar las herramientas de desarrollo web que prefiera. Napa y Visual Studio proporcionan un entorno de desarrollo integrado que facilita las pruebas y depuración de aplicaciones. [Solucionar problemas relacionados con la activación de los complementos de Outlook](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) y [Procedimiento para depurar propiedades en elementos de Outlook](http://msdn.microsoft.com/library/e3f14f07-cf35-4896-aab0-cb7625ca09b5%28Office.15%29.aspx) proporcionan más ayuda para solucionar problemas de aplicaciones de correo y depurarlas.  <br/> |
+|Herramientas de prueba y depuración  <br/> |Puede usar las herramientas de desarrollo web que prefiera. Napa y Visual Studio proporcionan un entorno de desarrollo integrado que facilita las pruebas y depuración de aplicaciones. [Solucionar problemas relacionados con la activación de los complementos de Outlook](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) y [Procedimiento para depurar propiedades en elementos de Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-faca78cd) proporcionan más ayuda para solucionar problemas de aplicaciones de correo y depurarlas.  <br/> |
 |Disponibilidad de expertos  <br/> |Es relativamente fácil encontrar programadores que tengan el nivel de experiencia en desarrollo web necesario para Complementos de Office. La plataforma está pensada para desarrolladores tanto profesionales como no profesionales.  <br/> |
 |Información disponible  <br/> |Encontrará información sobre cómo desarrollar y publicar Complementos de Office en [Crear aplicaciones para Office y SharePoint](http://msdn.microsoft.com/es-ES/office/apps/fp160950.aspx). Encontrará documentación específica sobre las aplicaciones de correo en [Aplicaciones de correo para Outlook 2013 Preview](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx).  <br/> |
 |Licencias de desarrollador e implementación  <br/> |Consulte [Licencias de complementos de Office y SharePoint](http://msdn.microsoft.com/library/3e0e8ff6-66d6-44ff-b0c2-59108ebd9181%28Office.15%29.aspx) para obtener información sobre el marco de licencias de aplicaciones para Complementos de Office.  <br/> |
@@ -263,7 +263,7 @@ No obstante, las siguientes características son exclusivas de los complementos 
     
 - Puede detectar eventos como el envío de un elemento o la modificación de las propiedades de un elemento.
     
-- Puede usar complementos Outlook 2013 y Exchange Server 2013, así como en las versiones anteriores de Outlook y Exchange. Por otra parte, las aplicaciones de correo funcionan con Outlook y Exchange a partir de Outlook 2013 y Exchange Server 2013, pero no en las versiones anteriores.
+- Puede usar complementos en Outlook 2013 y Exchange Server 2013, así como en versiones anteriores de Outlook y Exchange. Por otra parte, las aplicaciones de correo funcionan con Outlook y Exchange a partir de Outlook 2013 y Exchange Server 2013, pero no en versiones anteriores.
     
 Para obtener más información acerca de los escenarios compatibles con el modelo de objetos y PIA, vea la siguiente sección, [Factores de decisión para el modelo de objetos o PIA](#OLSelectAPI_FactorsOM). Pera ver una comparación de la plataforma de Complementos de Office con otras tecnologías de extensibilidad para Office, vea la entrada de blog sobre los [antecedentes de las aplicaciones para Office y SharePoint](http://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx).
   
@@ -883,40 +883,25 @@ Los siguientes recursos proporcionan más información acerca de las referencias
   
 ### <a name="major-references-and-resources"></a>Referencias y recursos principales
 
-- [Crear aplicaciones para Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
-    
-- [Referencia del desarrollador de Outlook 2013](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)
-    
-- [Referencia del ensamblado de interoperabilidad primario de Outlook 2010](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)
-    
-- [Referencia MAPI de Outlook](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
-    
-- [Referencia auxiliar de Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)
-    
-- [Referencia del proveedor de Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)
-    
-- [Ampliación de la barra de meteorología en Outlook](weather/extending-the-weather-bar-in-outlook.md)
-    
-- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)
-    
-- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)
-    
-- [Novedades de esquemas XML para Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)
-    
-- [Outlook 2010: esquema XML Reference](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)
-    
+- [Crear aplicaciones para Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
+- [Referencia del desarrollador de Outlook 2013](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
+- [Referencia del ensamblado de interoperabilidad primario de Outlook 2010](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
+- [Referencia MAPI de Outlook](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Referencia auxiliar de Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
+- [Referencia del proveedor de Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)   
+- [Ampliación de la barra de meteorología en Outlook](weather/extending-the-weather-bar-in-outlook.md)   
+- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
+- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
+- [Novedades de esquemas XML para Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
+- [Outlook 2010: esquema XML Reference](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
 - [Desarrollo de soluciones de Outlook 2010 para sistemas de 32 bits y 64 bits](http://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
     
 ### <a name="code-samples"></a>Ejemplos de código
 
-- [Ejemplos de aplicaciones de correo](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)
-    
-- Ejemplos de código del modelo de objetos: [Cómo... (Referencia del programador de outlook 2013)](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)
-    
-- Ejemplos de código de PIA: [Procedimiento para... en Outlook 2010](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)
-    
+- [Ejemplos de aplicaciones de correo](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
+- Ejemplos de código del modelo de objetos: [Cómo... (Referencia del programador de outlook 2013)](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
+- Ejemplos de código de PIA: [Procedimiento para... en Outlook 2010](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
 - [Ejemplos de MAPI](http://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
-    
 - Ejemplos de código de API auxiliares: [Tareas de ejemplo](auxiliary/sample-tasks.md)
     
 

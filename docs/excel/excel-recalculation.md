@@ -1,7 +1,7 @@
 ---
 title: Actualización de Excel
 manager: kelbow
-ms.date: 03/09/2018
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9964f2c4282158e83891d82ba43fa19f23ab1eb6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70ca322173fb76eb1871d841b6246b62b3a5000a
+ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815598"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554172"
 ---
 # <a name="excel-recalculation"></a>Actualización de Excel
 
- **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
+**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
 El usuario puede desencadenar la actualización en Microsoft Excel de varias maneras, por ejemplo:
   
@@ -131,6 +131,8 @@ La actualización de las tablas de datos se trata de manera diferente:
 - La actualización se controla de forma asincrónica para la actualización de libros normales de modo que las tablas de gran tamaño pueden tardar más en actualizarse que el resto del libro.
     
 - Se toleran las referencias circulares. Si el cálculo que se usa para obtener el resultado depende de uno o varios valores de la tabla de datos, Excel no devuelve un error para la dependencia circular. 
+
+- Las tablas de datos no usan cálculos multiproceso.
     
 Dada la forma distinta en que Excel gestiona la actualización de las tablas de datos, y el hecho de que las tablas de gran tamaño que dependen de cálculos largos o complejos pueden tardar mucho tiempo en calcularse, Excel permite deshabilitar el cálculo automático de tablas de datos. Para ello, configure el modo de cálculo en Automático excepto en tablas de datos. Cuando el cálculo se encuentra en este modo, el usuario actualiza las tablas de datos presionando F9 o alguna operación de programación equivalente.
   
