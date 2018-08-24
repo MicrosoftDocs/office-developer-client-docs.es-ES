@@ -6,26 +6,26 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 7b3d0eed6039552813798d4ceb30158444902b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576256"
 ---
-# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="57c32-103">Configuración de un complemento en el estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="57c32-103">Setting up an offline state add-in</span></span>
+# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="3850c-103">Configuración de un complemento en el estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="3850c-103">Setting up an offline state add-in</span></span>
 
-<span data-ttu-id="57c32-104">**Hace referencia a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="57c32-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="3850c-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3850c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="57c32-105">Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="57c32-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="57c32-106">En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57c32-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="57c32-107">El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="57c32-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="57c32-108">A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual.</span><span class="sxs-lookup"><span data-stu-id="57c32-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="57c32-109">Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="57c32-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="57c32-110">Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).</span><span class="sxs-lookup"><span data-stu-id="57c32-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
+<span data-ttu-id="3850c-105">Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="3850c-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="3850c-106">En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="3850c-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="3850c-107">El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="3850c-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="3850c-108">A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual.</span><span class="sxs-lookup"><span data-stu-id="3850c-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="3850c-109">Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="3850c-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="3850c-110">Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).</span><span class="sxs-lookup"><span data-stu-id="3850c-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
   
-<span data-ttu-id="57c32-111">Después de configurar un complemento en el estado sin conexión, debe implementar las funciones para supervisar y modificar los cambios de estado de conexión.</span><span class="sxs-lookup"><span data-stu-id="57c32-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="57c32-112">Para obtener más información, vea [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="57c32-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
+<span data-ttu-id="3850c-111">Después de configurar un complemento en el estado sin conexión, debe implementar las funciones para supervisar y modificar los cambios de estado de conexión.</span><span class="sxs-lookup"><span data-stu-id="3850c-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="3850c-112">Para obtener más información, vea [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="3850c-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
   
-## <a name="on-connection-routine"></a><span data-ttu-id="57c32-113">En la rutina de conexión</span><span class="sxs-lookup"><span data-stu-id="57c32-113">On Connection routine</span></span>
+## <a name="on-connection-routine"></a><span data-ttu-id="3850c-113">En la rutina de conexión</span><span class="sxs-lookup"><span data-stu-id="3850c-113">On Connection routine</span></span>
 
-<span data-ttu-id="57c32-114">Se llama al **[Método IDTExtensibility2.OnConnection](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** cada vez que se carga un complemento.</span><span class="sxs-lookup"><span data-stu-id="57c32-114">The **[IDTExtensibility2.OnConnection Method](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="57c32-115">Es el punto de entrada para el complemento, por lo que el código coloca en el `OnConnection` función se llamará cuando se inicia el complemento.</span><span class="sxs-lookup"><span data-stu-id="57c32-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="57c32-116">En el siguiente ejemplo, el `OnConnection` llamadas a función el `HrInitAddin` (función).</span><span class="sxs-lookup"><span data-stu-id="57c32-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
+<span data-ttu-id="3850c-114">Se llama al **[Método IDTExtensibility2.OnConnection](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** cada vez que se carga un complemento.</span><span class="sxs-lookup"><span data-stu-id="3850c-114">The **[IDTExtensibility2.OnConnection Method](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="3850c-115">Es el punto de entrada para el complemento, por lo que el código coloca en el `OnConnection` función se llamará cuando se inicia el complemento.</span><span class="sxs-lookup"><span data-stu-id="3850c-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="3850c-116">En el siguiente ejemplo, el `OnConnection` llamadas a función el `HrInitAddin` (función).</span><span class="sxs-lookup"><span data-stu-id="3850c-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
   
-### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="57c32-117">Ejemplo de CMyAddin::OnConnection()</span><span class="sxs-lookup"><span data-stu-id="57c32-117">CMyAddin::OnConnection() example</span></span>
+### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="3850c-117">Ejemplo de CMyAddin::OnConnection()</span><span class="sxs-lookup"><span data-stu-id="3850c-117">CMyAddin::OnConnection() example</span></span>
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -44,11 +44,11 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## <a name="initialize-add-in-routine"></a><span data-ttu-id="57c32-118">Inicializar la rutina de agregar</span><span class="sxs-lookup"><span data-stu-id="57c32-118">Initialize Add-in routine</span></span>
+## <a name="initialize-add-in-routine"></a><span data-ttu-id="3850c-118">Inicializar la rutina de agregar</span><span class="sxs-lookup"><span data-stu-id="3850c-118">Initialize Add-in routine</span></span>
 
-<span data-ttu-id="57c32-119">El `HrInitAddin` llamadas a función el `LoadLibraries`, `HrCacheProfileName`, y `HrAddMenuItems` funciones para terminar de configurar el complemento en el estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="57c32-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
+<span data-ttu-id="3850c-119">El `HrInitAddin` llamadas a función el `LoadLibraries`, `HrCacheProfileName`, y `HrAddMenuItems` funciones para terminar de configurar el complemento en el estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="3850c-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
   
-### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="57c32-120">Ejemplo de CMyAddin::HrInitAddin()</span><span class="sxs-lookup"><span data-stu-id="57c32-120">CMyAddin::HrInitAddin() example</span></span>
+### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="3850c-120">Ejemplo de CMyAddin::HrInitAddin()</span><span class="sxs-lookup"><span data-stu-id="3850c-120">CMyAddin::HrInitAddin() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a><span data-ttu-id="57c32-121">Rutina de bibliotecas de carga</span><span class="sxs-lookup"><span data-stu-id="57c32-121">Load Libraries routine</span></span>
+## <a name="load-libraries-routine"></a><span data-ttu-id="3850c-121">Rutina de bibliotecas de carga</span><span class="sxs-lookup"><span data-stu-id="3850c-121">Load Libraries routine</span></span>
 
-<span data-ttu-id="57c32-122">El `LoadLibraries` función carga los archivos de biblioteca de vínculos dinámicos (DLL) que el complemento requiere.</span><span class="sxs-lookup"><span data-stu-id="57c32-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
+<span data-ttu-id="3850c-122">El `LoadLibraries` función carga los archivos de biblioteca de vínculos dinámicos (DLL) que el complemento requiere.</span><span class="sxs-lookup"><span data-stu-id="3850c-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
   
-### <a name="loadlibraries-example"></a><span data-ttu-id="57c32-123">Ejemplo de LoadLibraries()</span><span class="sxs-lookup"><span data-stu-id="57c32-123">LoadLibraries() example</span></span>
+### <a name="loadlibraries-example"></a><span data-ttu-id="3850c-123">Ejemplo de LoadLibraries()</span><span class="sxs-lookup"><span data-stu-id="3850c-123">LoadLibraries() example</span></span>
 
 ```cpp
 void LoadLibraries() 
@@ -166,11 +166,11 @@ void LoadLibraries()
 }
 ```
 
-## <a name="cache-profile-name-routine"></a><span data-ttu-id="57c32-124">Rutina de nombre de perfil de memoria caché</span><span class="sxs-lookup"><span data-stu-id="57c32-124">Cache Profile Name routine</span></span>
+## <a name="cache-profile-name-routine"></a><span data-ttu-id="3850c-124">Rutina de nombre de perfil de memoria caché</span><span class="sxs-lookup"><span data-stu-id="3850c-124">Cache Profile Name routine</span></span>
 
-<span data-ttu-id="57c32-125">El `HrCacheProfileName` función llama a la función **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** para abrir una sección de perfil para la sesión actual y, a continuación, Establece el perfil de los controladores de botón.</span><span class="sxs-lookup"><span data-stu-id="57c32-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
+<span data-ttu-id="3850c-125">El `HrCacheProfileName` función llama a la función **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** para abrir una sección de perfil para la sesión actual y, a continuación, Establece el perfil de los controladores de botón.</span><span class="sxs-lookup"><span data-stu-id="3850c-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="57c32-126">Ejemplo de CMyAddin::HrCacheProfileName()</span><span class="sxs-lookup"><span data-stu-id="57c32-126">CMyAddin::HrCacheProfileName() example</span></span>
+### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="3850c-126">Ejemplo de CMyAddin::HrCacheProfileName()</span><span class="sxs-lookup"><span data-stu-id="3850c-126">CMyAddin::HrCacheProfileName() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a><span data-ttu-id="57c32-127">Agregar elementos de menú rutina</span><span class="sxs-lookup"><span data-stu-id="57c32-127">Add Menu Items routine</span></span>
+## <a name="add-menu-items-routine"></a><span data-ttu-id="3850c-127">Agregar elementos de menú rutina</span><span class="sxs-lookup"><span data-stu-id="3850c-127">Add Menu Items routine</span></span>
 
-<span data-ttu-id="57c32-128">El `HrAddMenuItems` (función) define las opciones de menú que aparecen en el menú de **Estado sin conexión** que se crea cuando el complemento se carga en Outlook y, a continuación, se llama a `DispEventAdvise` para cada elemento de menú.</span><span class="sxs-lookup"><span data-stu-id="57c32-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
+<span data-ttu-id="3850c-128">El `HrAddMenuItems` (función) define las opciones de menú que aparecen en el menú de **Estado sin conexión** que se crea cuando el complemento se carga en Outlook y, a continuación, se llama a `DispEventAdvise` para cada elemento de menú.</span><span class="sxs-lookup"><span data-stu-id="3850c-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
   
-### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="57c32-129">Ejemplo de CMyAddin::HrAddMenuItems()</span><span class="sxs-lookup"><span data-stu-id="57c32-129">CMyAddin::HrAddMenuItems() example</span></span>
+### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="3850c-129">Ejemplo de CMyAddin::HrAddMenuItems()</span><span class="sxs-lookup"><span data-stu-id="3850c-129">CMyAddin::HrAddMenuItems() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -287,11 +287,11 @@ HRESULT CMyAddin::HrAddMenuItems()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="57c32-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="57c32-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3850c-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="3850c-130">See also</span></span>
 
-- [<span data-ttu-id="57c32-131">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="57c32-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
-- [<span data-ttu-id="57c32-132">Instalar el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="57c32-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="57c32-133">Información sobre el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="57c32-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="57c32-134">Supervisar los cambios estado de conexión con un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="57c32-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [<span data-ttu-id="57c32-135">Desconectar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="57c32-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
+- [<span data-ttu-id="3850c-131">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="3850c-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
+- [<span data-ttu-id="3850c-132">Instalar el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="3850c-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="3850c-133">Información sobre el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="3850c-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="3850c-134">Supervisar los cambios estado de conexión con un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="3850c-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [<span data-ttu-id="3850c-135">Desconectar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="3850c-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
 
