@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7407b6606634ecc0151f582e4481ecbff5e7dc57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816705"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578846"
 ---
 # <a name="download-message-header-state"></a>Descargar estado del encabezado de mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado del encabezado de mensaje de descarga de la máquina de estado de replicación. 
   

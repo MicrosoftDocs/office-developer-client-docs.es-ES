@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a8e353bbb4f276169ae26ba9d05821158bf55f00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580722"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece un almacén local para emular al administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor.
   

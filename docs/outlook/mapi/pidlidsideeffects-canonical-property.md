@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 479ba1990f7cac1768fc5e514e3fc55f017e4a0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa29a55a5fc2ce89e125909d13a2c14a347ef831
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818915"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594029"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Propiedad canónica PidLidSideEffects
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Controla cómo se administra un objeto de mensaje por el cliente cuando actúa en la entrada del usuario final.
   

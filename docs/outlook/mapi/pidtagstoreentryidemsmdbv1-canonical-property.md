@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 40161358-4d41-43cf-83c7-fdd843bec87b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 74626b735599a5f1485b26fcb65d907b552b3089
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 505ea9ba5d7105f20f335035e42286fdab1cb1aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576326"
 ---
 # <a name="pidtagstoreentryidemsmdbv1-canonical-property"></a>Propiedad canónica PidTagStoreEntryIdEmsmdbV1
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el estilo antiguo del identificador de entrada de un almacén de mensajes de Microsoft Exchange Server 2010 o Exchange Server 2013 (Microsoft Outlook 2002 y versiones anteriores).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9eeab1e1186aeb5a9b458facd59bd4cc155e8014
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b6a27231c8dd2c0796b2dcba268de54fcd93e38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587911"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Define las propiedades concretas y el orden de las propiedades que aparecen como columnas en la tabla.
   

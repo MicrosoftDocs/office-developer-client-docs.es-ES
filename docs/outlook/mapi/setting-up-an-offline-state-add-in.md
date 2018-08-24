@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 7b3d0eed6039552813798d4ceb30158444902b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576256"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Configuración de un complemento en el estado sin conexión
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación. En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión. A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).
   

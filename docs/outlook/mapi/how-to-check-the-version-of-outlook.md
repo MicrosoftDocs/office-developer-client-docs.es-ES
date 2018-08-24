@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 15729f8d2c618f16fb5bebab885eaf610c09da77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816993"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574695"
 ---
 # <a name="check-the-version-of-outlook"></a>Comprobar la versión de Outlook
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema se proporciona un ejemplo de c�digo que comprueba la informaci�n de la versi�n de las versiones instaladas de Microsoft Outlook si la versi�n instalada es Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 o Microsoft Outlook 2003. Comprobaci�n de la versi�n de Outlook a veces es necesario para asegurarse de que un MAPI aplicaci�n llamadas elementos de la API que son compatibles con la versi�n que se est� ejecutando de Outlook.
 

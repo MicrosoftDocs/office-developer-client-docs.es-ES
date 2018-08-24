@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 83d652f313e139b1c6bb628d1119edda03a70e23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d55134cf5181ebbba0108c228d9afc3a494e75ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816674"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576242"
 ---
 # <a name="developing-mapi-form-servers"></a>Desarrollar servidores de formulario MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En esta sección se describe el proceso de creación de servidor de formulario ejecutable y los archivos de configuración de formulario para la creación de formularios personalizados de MAPI. Antes de leer esta sección, debe familiarizarse con la información de [Formularios de MAPI](mapi-forms.md).
   

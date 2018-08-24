@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 30f1e2389698f5ec96874f46a685a7e087dbb773
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58642cd84c9f9b784a8a9d7246bfed0dab58e119
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577054"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>Propiedad canónica PidLidIntendedBusyStatus
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica el valor de la propiedad **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) en la reunión en el calendario del organizer cuando se envió la convocatoria de reunión o una actualización de la reunión.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ab77f25-ad11-4501-8d35-ef560c07e2f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a31e2862aa3a6265f1dd9f8036abe329cf556276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38bcf40f24cc7901ebcbb60a099dc0e797d8e4b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818999"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588037"
 ---
 # <a name="pidlidtaskversion-canonical-property"></a>Propiedad canónica PidLidTaskVersion
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica qué copia es la actualización más reciente de una tarea.
   

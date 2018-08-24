@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 24cf7d8d7b025e5a013ce3a5c1bb03da5ae8a6a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6caa322e1d266be1fe56aecd89736e757067758
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594372"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>Propiedad canónica PidTagMessageSecurityLabel
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una etiqueta de seguridad para un mensaje.
   

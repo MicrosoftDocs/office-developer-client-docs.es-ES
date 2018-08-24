@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: 50b36ee60d00e06a1f5baa8726b5f27c4a3e6ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582325"
 ---
 # <a name="about-the-replication-api"></a>Información sobre la API de replicación
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 La API de replicación proporciona la funcionalidad para un proveedor de almacén de mensajes MAPI sincronizar los elementos de Microsoft Outlook 2013 o Microsoft Outlook 2010 entre un servidor y un almacén local privado basada en .pst que se crea para ese proveedor. 
   

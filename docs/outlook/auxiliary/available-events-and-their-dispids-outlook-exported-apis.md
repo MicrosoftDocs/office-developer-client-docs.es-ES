@@ -7,18 +7,18 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: En esta sección se describe los identificadores de envío para los eventos que Outlook pone a disposición.
-ms.openlocfilehash: 1542ff85579346a3674593e9ea38115170df2237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94787063e0fd5be30de1ef772813979d3cb2f21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582976"
 ---
 # <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Los eventos disponibles y su identificadores DispId (API exportadas de Outlook)
 
 En esta sección se describe los identificadores de envío para los eventos que Outlook pone a disposición.
   
-Outlook expone los siguientes identificadores de envío (DISPID) para permitir que los complementos de C++ escuchar y controlar los eventos correspondientes de la función de [IDispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) . 
+Outlook expone los siguientes identificadores de envío (DISPID) para permitir que los complementos de C++ escuchar y controlar los eventos correspondientes de la función de [IDispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) . 
   
 |**Constante**|**Identificador de envío (evento)**|**Descripción**|**Parameters**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|

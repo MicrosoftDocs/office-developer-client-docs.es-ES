@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3eabbc1f43ae183eb7e24f3ddffaba9211e289a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5090ec35885ada98e1e9c0e35c97d51ba98b1b77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819747"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595261"
 ---
 # <a name="pidtagmessagesizeextended-canonical-property"></a>Propiedad canónica PidTagMessageSizeExtended
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una versión de entero de 64 bits de la propiedad **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   

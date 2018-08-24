@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c535da245be09f930a70c5fae2a892f33087ebf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fdc254053c2d35c83866bd8a076279fd383db02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583039"
 ---
 # <a name="mapi-idle-engine"></a>Motor de inactividad de MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI proporciona varias funciones que se conocen como el motor de inactividad. Estas funciones permiten a los clientes, los proveedores de la libreta de direcciones y los proveedores de almacén de mensajes realizar diversas tareas durante tiempos lentos en la sesión o en respuesta a un tiempo lento. Por ejemplo, clientes y proveedores de servicios pueden aplazar operaciones lentas o cerrar los archivos que han permanecido sin usar durante un período extenso. Normalmente, los proveedores de transporte no usar el motor de inactivo debido a que el método **IXPLogon::Idle** toma su lugar. Para obtener más información, vea [IXPLogon::Idle](ixplogon-idle.md).
   

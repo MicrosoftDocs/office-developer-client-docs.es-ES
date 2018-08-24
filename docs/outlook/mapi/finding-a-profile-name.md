@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 332b78bcebbcd54de43376553ec4aea386c1c359
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a32c73f8a907b371c4d0f1c07050d44fd45801ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576291"
 ---
 # <a name="finding-a-profile-name"></a>Buscar un nombre de perfil
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 A veces, los clientes necesitan buscar el nombre del perfil se utiliza actualmente para la sesión, el nombre del perfil predeterminado o el nombre de un perfil alternativo instalado en el equipo.
   

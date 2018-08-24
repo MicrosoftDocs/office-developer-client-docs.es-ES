@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5e2f158607496a8cee9f9c731f2d7d6e185a2851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d5f63a7a57a01096151b3b6992796381ebddbdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820240"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574520"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Propiedad canónica PidTagSearchFolderTag
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor utilizado para sincronizar este mensaje definición con el contenedor de carpeta de búsqueda coincidentes.
   

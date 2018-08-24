@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 53dfb62bb33a4941e2b5627e729763101e24319d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf6386ae3a7d835c8748e332235d8737c7a502e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817096"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589472"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre un contenedor, usuario o lista de distribución, de mensajería y devuelve un puntero a una implementación de interfaz para proporcionar más acceso.
   

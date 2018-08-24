@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0ffaf5909c978059343067c93a2b30f5969327e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a5504711bdeac4ef94cbe47395ceb8163b60ad68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584334"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona una vista de sólo lectura de una tabla. **IMAPITable** se usa en los clientes y proveedores de servicios para manipular la apariencia de una tabla. 
   

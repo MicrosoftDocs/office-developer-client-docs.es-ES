@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 119c00cf-b7df-4354-aef8-575429e5ab3c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 16b1ebeb67b48c62bcccc804415d962831f13d7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4dc5d1aee7a0e712853c9686c59dea724904b6f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578391"
 ---
 # <a name="pidlidfax2emailaddress-canonical-property"></a>Propiedad canónica PidLidFax2EmailAddress
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica la dirección de correo electrónico de dirección de fax del domicilio particular del contacto.
   

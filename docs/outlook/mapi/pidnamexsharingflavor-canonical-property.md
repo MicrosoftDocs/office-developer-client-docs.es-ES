@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1f07a11c47c6785bc9a166f11bde8f2e5ef464a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bcdca783778e1a310be638ce376d408acf0b247f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819140"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580043"
 ---
 # <a name="pidnamexsharingflavor-canonical-property"></a>Propiedad canónica PidNameXSharingFlavor
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Representa el valor de la propiedad **dispidSharingFlavor** ([PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |Tipo de uso compartido de X  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |

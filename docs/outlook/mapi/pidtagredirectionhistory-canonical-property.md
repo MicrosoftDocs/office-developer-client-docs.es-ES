@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 26e66d9a9c7427688deb3d1e888b6c2ac8d06634
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e986313ccac7533178e2c6b466053d5665b9e7e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574527"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>Propiedad canónica PidTagRedirectionHistory
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene información acerca de la ruta de un mensaje entregado.
   

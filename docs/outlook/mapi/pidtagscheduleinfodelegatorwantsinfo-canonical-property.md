@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9d88b5b0-cb61-4714-8cef-9916c6e85854
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bc4a397bec14ed54ac5c310d90dbef6a5b79e131
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92b0c4b287d01e53e82dcf0fb2c730a9042a2d57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820203"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594400"
 ---
 # <a name="pidtagscheduleinfodelegatorwantsinfo-canonical-property"></a>Propiedad canónica PidTagScheduleInfoDelegatorWantsInfo
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el usuario delegado que desea recibir actualizaciones informativas.
   

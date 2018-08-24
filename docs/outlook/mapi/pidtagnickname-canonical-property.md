@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 088ffc58-d456-471b-af2f-7961e9c701f3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5e0aea21d48692c354c77750a8cb2d6e0b39b715
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 410a92c38c6eb4e8ee9b8ffce47f0cd00904e1be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594050"
 ---
 # <a name="pidtagnickname-canonical-property"></a>Propiedad canónica PidTagNickname
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el alias del contacto.
   

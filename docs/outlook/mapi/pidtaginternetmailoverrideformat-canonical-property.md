@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2c77393b44df1a3b21f20dbc0f6d8090299f9eda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73fa720b4285524d12a9dac468785f6ce211a2b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574667"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Propiedad canónica PidTagInternetMailOverrideFormat
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica el método de codificación y la inclusión de HTML para los datos adjuntos que se deben establecer en el correo saliente.
   

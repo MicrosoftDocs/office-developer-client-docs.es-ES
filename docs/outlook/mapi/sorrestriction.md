@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 06b9b6a046aaa0f16418f75d402cc5be44f845a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 054625601b496a8ec8f7745aa4cbc4715eed81a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585062"
 ---
 # <a name="sorrestriction"></a>SOrRestriction
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Describe una restricción **o** que se usa para aplicar una operación **OR** lógica para una restricción. 
   

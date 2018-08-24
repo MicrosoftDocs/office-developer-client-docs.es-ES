@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cf52062eacbd13b45087df9d8558bffd43ccd744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0acb88eee6addc0347f5281e5fbe5070bad0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816388"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595414"
 ---
 # <a name="acting-as-a-host-address-book-provider"></a>Actuar como un proveedor de libreta de direcciones host
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Un proveedor de host es un proveedor de la libreta de direcciones que incluye a los destinatarios de otros proveedores en sus contenedores y se basa en la implementación de los destinatarios por los demás proveedores para controlar parcialmente su mantenimiento. Un proveedor de host usa los identificadores de la plantilla de estos destinatarios externos para enlazar los datos para estos destinatarios al código en el proveedor extranjero. Este proceso de enlace se inicia cuando el proveedor recupera la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de un destinatario y lo pasa en una llamada a [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
   

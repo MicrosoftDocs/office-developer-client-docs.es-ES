@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4bd64aadd5fc18ba79a8717a5c58df72cd3695ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 855b145bcca8007601eb8e841665306d4c58982f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818061"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576564"
 ---
 # <a name="mapi-address-book-provider-overview"></a>Introducción al proveedor de la libreta de direcciones MAPI
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Libreta de direcciones de proveedores de controlar el acceso a información de Active directory. Información de Active Directory se compone de datos para dos tipos de destinatarios del mensaje: individuales de los usuarios y grupos de usuarios de mensajería que con frecuencia se tratan juntos en las listas de distribución de mensajería. Según el tipo de destinatario y el proveedor de la libreta de direcciones, hay una amplia variedad de información que puede estar disponible. Por ejemplo, todos los proveedores de libreta de direcciones almacenan nombre, dirección y tipo de dirección de un destinatario.
   

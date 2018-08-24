@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b9992683-6ea9-4789-8554-024cc1dc7a5d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d07ef00f9eb8a20349f78a7426dcdd61f92fb342
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 110b6e917ac4352256163893d25370d74d33a2b9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589626"
 ---
 # <a name="pidnamecontenttype-canonical-property"></a>Propiedad canónica PidNameContentType
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de campo de encabezado de tipo de contenido [RFC3282].
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguno  <br/> |
+|Nombres descriptivos:  <br/> |Ninguna  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |Content-Type  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ce8573310e17e26b4e2deb4c0a0f835a6569151e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 063e41bf9fe306b3862e302abb4495ca56e3087b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575458"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>Propiedad canónica PidTagCorrelate
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el remitente de un mensaje solicita la característica de correlación del sistema de mensajería.
   

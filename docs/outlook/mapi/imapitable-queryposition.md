@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c3c66b9e54f0776a8afd6b4638d36dec3393dda8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817595"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584341"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Recupera la posición de fila de tabla actual del cursor, basándose en un valor decimal.
   

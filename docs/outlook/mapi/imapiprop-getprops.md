@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 33351235db2a9a3f9d9b67f59e8356a0fa8abfa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 462d42d68bddba72fd81b97e2aeb9eb5ee8c9c20
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588009"
 ---
 # <a name="imapipropgetprops"></a>IMAPIProp::GetProps
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Recupera el valor de la propiedad de una o varias propiedades de un objeto.
   

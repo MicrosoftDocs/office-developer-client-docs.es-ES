@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0a60b813a52779b28124ab6d69b493def35b14aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817425"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569529"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Hace permanentes los cambios realizados a un objeto desde la última operación de guardar. 
   

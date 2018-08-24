@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: b328a65f400e424fb2cd177e710fb8bcffa392c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818059"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587925"
 ---
 # <a name="mapi-address-book"></a>Libreta de direcciones MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 La libreta de direcciones integrada es un objeto que implementa MAPI para proporcionar acceso a un conjunto integrado de informaci�n de direcciones de todos los proveedores de libreta de direcciones en el perfil. Con la libreta de direcciones, los proveedores de servicios y las aplicaciones cliente no es necesario diferenciar entre los esquemas de direccionamiento �nicos de sistemas de mensajer�a. En su lugar, puede buscar las direcciones de los destinatarios en cualquier sistema de mensajer�a, siempre y cuando se instala el proveedor de libreta de direcciones para el sistema de mensajer�a.
   

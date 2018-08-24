@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: 8ac75bfb686496c151b5edc3a692c99a6e47ee96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41d70c2ab94712e40de9011bc752c79d8c859161
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817018"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595184"
 ---
 # <a name="use-the-mapi-crash-recovery-api"></a>Usar la API de recuperación de bloqueo de MAPI
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene un ejemplo de código en C++ que se muestra cómo llamar a la función [MAPICrashRecovery](mapicrashrecovery.md) desde la función [UnhandledExceptionFilter](http://msdn.microsoft.com/en-us/library/ms681401%28VS.85%29.aspx) . La función [MAPICrashRecovery](mapicrashrecovery.md) comprueba que el estado del archivo de carpetas personales (PST) o archivo de carpetas sin conexión (OST) de memoria compartida. 
 

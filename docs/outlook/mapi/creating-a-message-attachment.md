@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816620"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577103"
 ---
 # <a name="creating-a-message-attachment"></a>Creación de datos adjuntos del mensaje
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Datos adjuntos del mensaje son algunos datos adicionales, como un archivo, otro mensaje o un objeto OLE, que se puede enviar o guardar junto con un mensaje. Cada dato adjunto tiene una colección de propiedades que lo identifica y describe su tipo y cómo se presenta. Al igual que los destinatarios, datos adjuntos de mensajes sólo pueden tener acceso a través del mensaje al que pertenecen. Por lo tanto, para que los datos adjuntos que se pueda usar, su mensaje debe estar abierto.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bae750e7e940bc1417b3d225c9c81129e9da77b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c49a17389a9bfc998f892e0becf96dca4cd773f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820708"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578720"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Asigna un valor entero enumerado a un nombre para mostrar para ese valor. 
   

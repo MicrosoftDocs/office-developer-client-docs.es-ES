@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 62bc0e75d0a405ebe9f68ec9f4af1ca038bda219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588408"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propiedad canónica PidTagFolderWebViewInfo Cannonical Property
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la dirección URL de la página principal de una carpeta de Microsoft Outlook. Esta propiedad contiene una secuencia binaria denominada **WebViewPersistenceObject**.
   

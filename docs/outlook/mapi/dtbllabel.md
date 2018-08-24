@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 28f6471f74fb0fcc4f7e2f4114f0790e1564e17e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09f0d7988f85a6d6018c45cb64245ab331cda052
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582815"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Describe una etiqueta que se usará en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
   

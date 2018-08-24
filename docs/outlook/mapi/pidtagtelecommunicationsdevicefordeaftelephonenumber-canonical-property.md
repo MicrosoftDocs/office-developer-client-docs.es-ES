@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa6510e74030407015330ed6f0259d50559c09d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81e3fca956fcfb8aa5285a30aa2254b721847850
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584761"
 ---
 # <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propiedad canónica PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el dispositivo de telecomunicaciones del usuario de mensajería para los usuarios con discapacidades auditivas () teléfono TTYTDD.
   

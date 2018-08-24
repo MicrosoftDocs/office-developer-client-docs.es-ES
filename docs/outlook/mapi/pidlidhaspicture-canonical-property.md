@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3bea11c-3197-4060-8672-f1b4bf352112
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 74a54db3ebb55c178fd5f8b7317bb27c83a47311
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30046bd7982d08d99c5581c27d1616162d904dee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818758"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577110"
 ---
 # <a name="pidlidhaspicture-canonical-property"></a>Propiedad canónica PidLidHasPicture
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica si existe un dato adjunto de foto de un contacto.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817667"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582934"
 ---
 # <a name="implementing-a-sample-object"></a>Implementación de un objeto de ejemplo
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Objetos del receptor de aviso: los objetos que admiten la [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interfaz — son MAPI objetos que implementan las aplicaciones cliente para procesar las notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) y contiene un solo método, **OnNotify**. Por lo tanto, para implementar un objeto de receptor advise, un cliente crea código para los tres métodos de **IUnknown** y para [OnNotify](imapiadvisesink-onnotify.md).
   

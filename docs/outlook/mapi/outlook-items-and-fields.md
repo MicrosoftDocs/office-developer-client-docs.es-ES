@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 71c67c37cc4f9cd3ddd7a55c37c4ebd6ddd35cfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa231842c5fd51deb80144f12fdf53e51ccc980
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582878"
 ---
 # <a name="outlook-items-and-fields"></a>Campos y elementos de Outlook
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook proporciona los tipos de elementos que están especializados para su funcionalidad (por ejemplo, elementos de correo, citas, contactos, tareas y notas). Outlook proporciona campos estándar para cada tipo de elemento, comúnmente como campos integrados. Outlook también permite a los usuarios crear campos personalizados, comúnmente como campos definidos por el usuario. Cada campo está asociado con un tipo de datos y un valor. Ejemplos de tipos de datos son **moneda**, **Fecha y hora**, **duración**, **número entero**, **palabras clave**y **texto**. Los usuarios pueden definir campos personalizados mediante el Diseñador de formularios de Outlook.
   

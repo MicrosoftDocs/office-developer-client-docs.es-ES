@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e7b3774d8dce446f0e87f041f11dac607f464680
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357ace3267f22d751a20a12c96f108ee2f8ae1e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595205"
 ---
 # <a name="tchar"></a>TCHAR
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Una cadena de caracteres Win32 que puede utilizarse para describir las cadenas ANSI, DBCS o Unicode. Para las plataformas ANSI y DBCS, TCHAR se define como sigue:
   

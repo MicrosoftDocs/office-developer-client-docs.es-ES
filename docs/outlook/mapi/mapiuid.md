@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3675c6a8ee2ee208f175dd5f7d219447aa52e9ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818294"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587169"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Una versión independiente de orden de bytes de una estructura [GUID](guid.md) que se utiliza para identificar de forma única un proveedor de servicios. 
   

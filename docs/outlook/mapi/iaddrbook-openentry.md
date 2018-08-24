@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: 'Última modificación: 01 de febrero de 2013'
-ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d380f784094064232cdb7369080612ba9ccac0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19817148"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576872"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre una entrada de la libreta de direcciones y devuelve un puntero a una interfaz que se puede usar para tener acceso a la entrada.
   

@@ -5,25 +5,25 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
-description: La referencia de Microsoft Outlook 2013 Messaging API (MAPI) se describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013.
-ms.openlocfilehash: a17038a8c0460450ac393cfad997802e7eafb0b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: La referencia de API de mensajería de Outlook (MAPI) de Microsoft describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013 y Outlook 2016.
+ms.openlocfilehash: f8603c2aff1d2647ff3b02cafc4760aa7f00392c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577089"
 ---
 # <a name="getting-started-with-the-outlook-mapi-reference"></a>Introducción a la referencia de MAPI de Outlook
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-La referencia de Microsoft Outlook 2013 Messaging API (MAPI) se describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013. En esta sección se describe cómo encontrar las distintas referencia y conceptuales recursos de la referencia de MAPI de Outlook 2013.
+La referencia de API de mensajería de Outlook (MAPI) de Microsoft describe cómo crear soluciones MAPI que funcionan con Microsoft Outlook 2013 y Outlook 2016. En esta sección se describe cómo encontrar las distintas referencia y conceptuales recursos de la referencia de MAPI de Outlook.
   
-Si no tiene experiencia en el desarrollo de soluciones para Outlook, consulte [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar las API y tecnologías más adecuadas para sus necesidades. 
+Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) para identificar las API y tecnologías que son los más adecuadas para sus necesidades. 
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Información general sobre la referencia de MAPI de Outlook](outlook-mapi-reference-overview.md): proporciona información general acerca de la referencia de MAPI de Outlook 2013.
+- [Información general sobre la referencia de MAPI de Outlook](outlook-mapi-reference-overview.md): proporciona información general acerca de la referencia de MAPI de Outlook.
     
 - [Novedades de esta edición](what-s-new-in-this-edition.md): describe las actualizaciones en la versión de Outlook 2013 de la referencia de MAPI.
     
@@ -37,10 +37,8 @@ Si no tiene experiencia en el desarrollo de soluciones para Outlook, consulte [S
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
-- [Ejemplos de MAPI](mapi-samples.md)
-  
+- [Ejemplos de MAPI](mapi-samples.md) 
 - [Conceptos MAPI](mapi-concepts.md)
-  
 - [Referencia MAPI](mapi-reference.md)
   
 

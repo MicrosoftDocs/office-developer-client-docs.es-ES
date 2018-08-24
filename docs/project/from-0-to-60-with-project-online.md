@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un desarrollador de aplicaciones puede personalizar un sitio de Project Online (SharePoint hospedado), uso de aplicaciones independientes o complementos en el proyecto. Una gran cantidad de aplicaciones es posible que van desde hacer frente a las necesidades de los implicados en un proyecto a las funciones de soporte PMO, por ejemplo, cualquiera de las siguientes opciones:'
-ms.openlocfilehash: c50ed12e9f1127f6313a02db4d84a151778e17b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594534"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 a 60 con Project Online
 
@@ -83,7 +83,7 @@ Puede descargar y ejecutar el ejemplo en unos cuantos pasos sencillos:
     
    Project Online examina del ámbito de aplicación del complemento y los permisos de usuario para controlar el acceso a la información en el host de Project Online. Si el acceso se deniega explícitamente en la configuración de uno o ambos, Project Online deniega el acceso a la información. De lo contrario, se concede el acceso.
     
-3. Habilitar sideloading en su sitio. Vea el artículo [Configurar Project Online para el desarrollo de la aplicación ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)para obtener más información. 
+3. Habilitar [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio.  
     
 4. Genere el proyecto.
     
@@ -101,7 +101,7 @@ Un ejemplo del entorno de desarrollo de Windows para este tipo de aplicación in
     
 - .NET framework 4.0 o posterior
     
-- [Paquete de CSOM de SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (para las llamadas CSOM) 
+- [Paquete de CSOM de SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para las llamadas CSOM) 
     
 - Un lenguaje de programación, como C# 
     
@@ -115,7 +115,7 @@ Puede ejecutar el ejemplo en unos cuantos pasos:
     
    Project Online examina del ámbito de aplicación del complemento y los permisos de usuario para controlar el acceso a la información en el host de Project Online. Si el acceso se deniega explícitamente en la configuración de uno o ambos, Project Online deniega el acceso a la información. De lo contrario, se concede el acceso.
     
-3. Habilitar sideloading en su sitio. Vea el artículo [Configurar Project Online para el desarrollo de la aplicación ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)para obtener más información. 
+3. Habilitar [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio. 
     
 4. Genere el proyecto.
     
@@ -133,7 +133,7 @@ Un ejemplo del entorno de desarrollo de Windows para este tipo de aplicación in
     
 - .NET framework 4.0 o posterior
     
-- [Paquete de CSOM de SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (para las llamadas CSOM) 
+- [Paquete de CSOM de SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para las llamadas CSOM) 
     
 - Un lenguaje de programación, como C# 
     
@@ -155,7 +155,7 @@ Puede ejecutar el ejemplo en unos cuantos pasos:
     
 5. Ejecutar el proyecto.
     
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Cada aplicación de ejemplo tiene un artículo para explicar los aspectos de trabajar con la API de proyecto individuales. Los artículos aparecen en la lista siguiente, junto con algunos artículos que describen las relaciones entre entidades, información sobre el sistema de consulta y obtener acceso a campos personalizados. 
   
@@ -167,6 +167,6 @@ Cada aplicación de ejemplo tiene un artículo para explicar los aspectos de tra
     
 ## <a name="see-also"></a>Vea también
 
-Para obtener documentación y ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal del proyecto de desarrollo](http://dev.office.com/project.aspx).
+Para obtener documentación y ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal del proyecto de desarrollo](https://developer.microsoft.com/en-us/project).
     
 

@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilizar funciones definidas por el usuario (UDF) de Excel en línea en Office Online Server Preview para llamar a funciones personalizadas.
-ms.openlocfilehash: ae2d668ebd4a4df278a5c19e702de248b1749b84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12f452241754be1b4b1e545c69225aed055f4965
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590186"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>Configurar las UDF en Excel en línea en Office Online Server Preview
 
@@ -83,11 +83,11 @@ Use los siguientes cmdlets de Windows PowerShell para trabajar con las UDF:
 Los siguientes archivos proporcionan un libro de ejemplo que usa una UDF y el archivo UDF binario:
   
 - [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un libro de ejemplo que usa una UDF  
-- [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) --el archivo binario UDF 
+- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) --el archivo binario UDF 
     
 ## <a name="see-also"></a>Vea también
 
-- [Configurar las opciones administrativas Excel Online](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [Office Online Server Preview](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [Configurar las opciones administrativas Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
     
 

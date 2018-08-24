@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 772ecab1-7e91-415b-bae8-af8ffb7b7ed9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4a0ab660b8df2fb32f21f9bc93932a9187c37b7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9bba55b585b09d6a5779ba41a283b20c645656f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576235"
 ---
 # <a name="types-of-transport-providers"></a>Tipos de proveedores de transporte
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Todos los proveedores de transporte admiten una gama de características estándares, como:
   

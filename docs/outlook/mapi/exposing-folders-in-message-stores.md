@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 0e7b479931b6b2b00dd3927133187fe058b4c6e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f50ed7925305eca7432da17130d2be0365ef03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816773"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582598"
 ---
 # <a name="exposing-folders-in-message-stores"></a>Exposici�n de las carpetas de almacenes de mensaje
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cada proveedor de almac�n de mensajes debe presentar una interfaz de [IMAPIFolder](imapifolderimapicontainer.md) de nivel superior a las aplicaciones cliente. La carpeta de nivel superior se corresponde con el almac�n de todo el mensaje; proporciona acceso a las carpetas que los usuarios ven como el contenido del almac�n de mensajes. Adem�s, la carpeta de nivel superior se usa a menudo como el valor predeterminado de recepci�n carpeta para los mensajes IPC y como la carpeta desde la que se env�an los informes de lectura. Los proveedores de almac�n de mensajes tambi�n deben presentar un sub�rbol IPM, un conjunto de carpetas que se usa para contener los mensajes de IPM: a las aplicaciones cliente. 
   

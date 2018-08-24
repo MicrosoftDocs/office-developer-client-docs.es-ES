@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fe5549e41008dbf5b5f50f9f32769f1a820e3bc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d212a86aae0503a5e02a5a7ecddb83db10a4d664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818140"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572378"
 ---
 # <a name="mapi-implemented-objects"></a>Objetos implementa MAPI
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI implementa varios objetos para su uso por las aplicaciones cliente y los proveedores de servicios. El objeto de sesión permite a los clientes usar los servicios de sesión, para tener acceso a las tablas y para comunicarse con los proveedores de servicios. El objeto de la libreta de direcciones proporciona a los clientes con acceso integrado a todos los proveedores de libreta de direcciones diferente. 
   

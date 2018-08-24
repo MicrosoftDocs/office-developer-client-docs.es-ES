@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b5eea554-6bca-42d1-b943-1327f0d70584
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a6fc194a3ef7d82be656a8d6c3f5fb9ad8326ceb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954e6fdf2f306f5a49e2d32e191c41f146ef5997
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19819891"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573022"
 ---
 # <a name="pidtagownerappointmentid-canonical-property"></a>Propiedad canónica PidTagOwnerAppointmentId
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador para una cita en programación del propietario.
   

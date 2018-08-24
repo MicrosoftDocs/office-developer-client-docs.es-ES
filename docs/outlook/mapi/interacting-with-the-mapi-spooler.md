@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: faf3d48b63d1858a2b91f66c83d9ce08e9daa02b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8032172ef19fbb01af68058b2e0255e269183a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587897"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>Interactuar con el administrador de trabajos en cola MAPI
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los métodos en el [IXPLogon: IUnknown](ixplogoniunknown.md) interfaz usadas por la cola MAPI al llamar al proveedor de transporte. Debe ser posible para la mayoría de los tipos de proveedores de transporte para implementar la mayoría de estos métodos para que devuelvan rápidamente. Esto es deseable porque si un método toma mucho tiempo en devolver, a continuación, se debe ser dividido con las llamadas a la cola de MAPI para liberar la CPU para otras tareas. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aad4d3be8757ca4cd7719bfd7a53ae8bbf6711f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569515"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Describe la información que se relacionan con la llegada de un nuevo mensaje. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 075c5e894d4b039ce06ca0508b838a7094af8768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffe4798c5e8ef200619b060a58e868cc4a1b2bc2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590074"
 ---
 # <a name="pidtagstoreentryid-canonical-property"></a>Propiedad canónica PidTagStoreEntryId
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador único de entrada del almacén de mensajes donde reside un objeto.
   

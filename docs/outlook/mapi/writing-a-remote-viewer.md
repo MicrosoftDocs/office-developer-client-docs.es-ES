@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 554f98f7bda8c6616ce06b86142213c18bff1f69
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820996"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584768"
 ---
 # <a name="writing-a-remote-viewer"></a>Escribir un visor remoto
 
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Un visor remoto es una ventana en una aplicación cliente que proporciona acceso controlado a los mensajes almacenados en otro equipo. Este acceso controlado puede funcionar en un vínculo de comunicaciones lento. En lugar de recuperar una selección completa de mensajes disponibles cada vez que un usuario abre una carpeta, el visor remoto primero muestra sólo los encabezados. A continuación, selecciona el usuario de los encabezados de cuál de los mensajes para mostrar en su totalidad. Los clientes de visor remoto pueden permitir que sus usuarios eliminar los mensajes antes de que nunca se descargan. 
   

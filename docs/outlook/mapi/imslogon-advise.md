@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817787"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587862"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Registra un objeto con un proveedor de almacén de mensajes para las notificaciones sobre cambios en el almacén de mensajes. El almacén de mensajes, a continuación, enviará las notificaciones sobre cambios en el objeto registrado.
   

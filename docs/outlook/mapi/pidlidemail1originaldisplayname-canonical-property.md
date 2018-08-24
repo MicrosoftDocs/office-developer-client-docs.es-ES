@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 991c2969-0180-4c7d-95ee-e62fd24d67ef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7d09830f471fbaa0e8ed6ae70420dfea6428b9df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a29cfca2112bf7ae75844a2e87f4e134a7016aba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582311"
 ---
 # <a name="pidlidemail1originaldisplayname-canonical-property"></a>Propiedad canónica PidLidEmail1OriginalDisplayName
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica el primer nombre para mostrar que corresponde a la dirección de correo electrónico que se especifica para el contacto.
   

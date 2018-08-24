@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1fd711683ff476ef5d381bca2f9db6bc25b07c68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595303"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contrae una categoría de tabla expandida, quitar los encabezados de nivel inferior y filas de la hoja que pertenecen a la categoría de la vista de tabla.
   

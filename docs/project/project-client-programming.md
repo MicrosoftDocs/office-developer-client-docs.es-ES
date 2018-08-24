@@ -13,12 +13,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
 description: Las aplicaciones de cliente de escritorio de Project 2013, Project Standard 2013 y Project Professional 2013, puede personalizar y extender mediante el uso de VBA para escribir las macros. Puede usar Visual Studio 2012 para personalizar la interfaz de usuario de la cinta de opciones y crear complementos complejo permite a los complementos de Office modelar una nueva extensibilidad para paneles de tareas de proyecto que se basan en una plataforma común de Office 2013. Project Standard 2013 y Project Professional 2013 pueden ejecutar general complementos de Office y utilizar tarea panel complementos que se ha desarrollado específicamente para que Project integrar con SharePoint, otros sitios Web y aplicaciones web y los datos externos.
-ms.openlocfilehash: e8604b4d479d0c64f8d45ad2363d7391d57408ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e89c5a1f6486ce49ad8b95bcd7a92497b7a2436
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594743"
 ---
 # <a name="project-client-programming"></a>Programación de cliente de Project
 
@@ -43,15 +43,9 @@ Complementos de panel de tareas y otros complementos para Office y SharePoint se
   
 ## <a name="see-also"></a>Vea también
 
-
-
-[Project para desarrolladores](http://msdn.microsoft.com/en-us/office/aa905469)
-  
-[Centro para desarrolladores de Office](https://dev.office.com)
-  
-[Centro para desarrolladores de Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
-  
-[Implementación y seguridad de ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
-  
-[Referencia de los campos disponibles](http://office.microsoft.com/en-us/project-help/available-fields-reference-HA102749299.aspx?CTT=1)
+- [Project para desarrolladores](http://msdn.microsoft.com/en-us/office/aa905469)
+- [Centro para desarrolladores de Office](https://dev.office.com)
+- [Centro para desarrolladores de Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
+- [Implementación y seguridad de ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+- [Referencia de los campos disponibles](https://support.office.com/en-us/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)
 

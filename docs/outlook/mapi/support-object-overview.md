@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ecc5439b4abbbfd920fba5456db7462f7967388f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19820776"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577439"
 ---
 # <a name="support-object-overview"></a>Información general del objeto de soporte técnico
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI proporciona un objeto de soporte técnico, un objeto que implementa el [IMAPISupport: IUnknown](imapisupportiunknown.md) interfaz, para todos los proveedores de servicio durante el inicio de sesión y para todos los servicios de mensaje durante la configuración. 
   

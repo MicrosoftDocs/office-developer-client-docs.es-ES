@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 54436af4-b851-49ab-875a-c52f5da6b776
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1c82ef5d6a4d50e643a6b0a156622e9429290618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 286f86bddc7f938f9401de1041d1574113670f52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818662"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576830"
 ---
 # <a name="pidlidfax1emailtype-canonical-property"></a>Propiedad canónica PidLidFax1EmailType
 
   
   
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica el tipo de correo electrónico de la dirección de fax del trabajo del contacto.
   

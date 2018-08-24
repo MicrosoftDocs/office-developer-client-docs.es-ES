@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4ea75f723a2fcb242d8b9a516498855aa20cfdd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0701e64469576a8241002a6ff11299d1c343556
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19818434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582983"
 ---
 # <a name="opening-a-message"></a>Abrir un mensaje
  
-**Hace referencia a**: Outlook 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 ### <a name="to-open-a-message"></a>Para abrir un mensaje
   
