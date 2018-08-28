@@ -14,7 +14,7 @@ ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22587827"
@@ -23,9 +23,9 @@ ms.locfileid: "22587827"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el valor mínimo en el método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) de progreso que se muestra la información. 
+Devuelve el valor mínimo del método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) para el que se muestra información de progreso. 
   
 ```cpp
 HRESULT GetMin(
@@ -37,35 +37,35 @@ HRESULT GetMin(
 
  _lpulMin_
   
-> [out] Un puntero al número mínimo de elementos de la operación.
+> [salida] Un puntero al número mínimo de elementos de la operación.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha recuperado el número mínimo de elementos de la operación.
+> El número mínimo de elementos de la operación que se ha recuperado.
     
 ## <a name="remarks"></a>Comentarios
 
-El valor mínimo representa el inicio de la operación con formato numérico. El valor puede ser un valor máximo global, usado para representar el ámbito de la pantalla de progreso todo, o un valor local, que se usa para representar sólo una parte de la pantalla. 
+El valor mínimo representa el inicio de la operación en formato numérico. El valor puede ser un valor máximo global, usado para representar el ámbito de la pantalla de progreso total, o un valor local, para representar únicamente una parte de la pantalla. 
   
-El valor de la opción marca determina si el objeto de progreso comprende el valor mínimo para ser local o global. Cuando se establece la marca MAPI_TOP_LEVEL, el valor mínimo se considera que es global y se utiliza para calcular el progreso de toda la operación. Cuando MAPI_TOP_LEVEL no está establecido, el valor mínimo se considera local y proveedores de utilizan internamente para mostrar el progreso de subobjetos de nivel inferiores. Objetos de progreso guardar el valor mínimo local sólo para devolver a un proveedor a través de una llamada **GetMin** . 
+El valor de la configuración de la etiqueta determina si el objeto de progreso comprende el valor mínimo local o global. Cuando se establece la etiqueta MAPI_TOP_LEVEL, el valor mínimo se considera global y se usa para calcular el progreso de toda la operación. Cuando no se establece MAPI_TOP_LEVEL, el valor mínimo se considera local y los proveedores lo usan internamente para mostrar el progreso de objetos secundarios de nivel inferior. Los objetos de progreso guardan el valor mínimo local solo para devolverlo a un proveedor a través de una llamada **GetMin**. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Inicializar el valor mínimo en 1. Proveedores de servicios pueden restablecer este valor llamando al método **IMAPIProgress::SetLimits** . Para obtener más información acerca de cómo implementar otros métodos [IMAPIProgress](imapiprogressiunknown.md) y **GetMin** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Inicialice el valor mínimo en 1. Los proveedores de servicios pueden restablecer este valor llamando al método **IMAPIProgress::SetLimits**. Para obtener más información sobre cómo implementar **GetMin** y otros métodos [IMAPIProgress](imapiprogressiunknown.md), vea [Implementar un indicador de progreso](implementing-a-progress-indicator.md).
   
-Para que obtener más información acerca de cómo y cuándo se deben realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
+Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI usa el método **IMAPIProgress::GetMin** para obtener el valor mínimo para el indicador de progreso. Devuelve el valor 1 a menos que se hayan establecido previamente límites llamando al método **IMAPIProgress::SetLimits** .  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI usa el método **IMAPIProgress::GetMin** para obtener el valor mínimo para el indicador de progreso. Devuelve el valor 1 a menos que se hayan establecido límites anteriormente llamando al método **IMAPIProgress::SetLimits**.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -78,7 +78,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   
