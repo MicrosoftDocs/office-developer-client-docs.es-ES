@@ -20,7 +20,7 @@ items:
   - name: Office Online Server
     href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
   - name: Office para Mac
-    href: https://docs.microsoft.com/en-us/office/vba/api/overview/office-mac
+    href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
   - name: Office compartido
     href: shared/office-shared.md
     items:
@@ -38,20 +38,20 @@ items:
       - name: Problemas de compatibilidad en Office
         href: shared/compatibility-issues-in-office.md
     - name: Referencia de la biblioteca de objetos de VBA de Office
-      href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
+      href: https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference
     - name: Referencia del lenguaje VBA para Office
-      href: https://docs.microsoft.com/office/vba/api/overview/language-reference
+      href: https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference
     - name: Referencia del ensamblado de interoperabilidad primario de Office
       href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
     - name: SDK de Open XML 2.5
-      href: https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk
+      href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
     - name: Usar CSISyncClient para controlar la ODC
       href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
   - name: Access
     href: access/access-home.md
     items:
     - name: Referencia de VBA para Access
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/access
+      href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
     - name: Referencia de aplicación web personalizada de Access
       href: access/access-custom-web-app-reference.md
       items:
@@ -350,7 +350,7 @@ items:
     href: excel/excel-home.md
     items:
     - name: Referencia de VBA para Excel
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
+      href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
     - name: Referencia del ensamblado de interoperabilidad primario de Excel
       href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
     - name: SDK de XLL de Excel
@@ -600,7 +600,7 @@ items:
           - name: ShowOptions
             href: excel/showoptions.md
     - name: Sugerencias para salvar los obstáculos de rendimiento
-      href: https://docs.microsoft.com/en-us/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
+      href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
   - name: Infopath
     href: infopath/infopath-home.md
     items:
@@ -829,7 +829,7 @@ items:
     - name: Seleccionar una API o tecnología para desarrollar soluciones de Outlook
       href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
     - name: Referencia de VBA para Outlook
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/outlook
+      href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
     - name: Referencia del ensamblado de interoperabilidad primario de Outlook
       href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
     - name: Referencia de proveedores de Outlook Social Connector
@@ -6204,12 +6204,12 @@ items:
     href: powerpoint-home.md
     items:
     - name: Referencia de VBA para PowerPoint
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/powerpoint
+      href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
   - name: Project
     href: project/project-home.md
     items:
     - name: Referencia VBA para Project
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/project
+      href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
     - name: Documentación para desarrolladores
       href: project/project-2013-developer-documentation.md
       items:
@@ -6274,25 +6274,25 @@ items:
           - name: Códigos de error de Project Server
             href: project/project-server-error-codes.md
           - name: 'ProjectData: referencia de servicio OData'
-            href: https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)
+            href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
       - name: Referencia sobre bibliotecas de clases y servicios web
-        href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
+        href: https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server
       - name: Referencia de la API de JavaScript
-        href: https://msdn.microsoft.com/library/office/jj712612.aspx
+        href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
   - name: Publisher
     href: publisher-home.md
     items:
     - name: Referencia de VBA para Publisher
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/publisher
+      href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
   - name: Visio
     href: visio/visio-home.md
     items:
     - name: Referencia de VBA para Visio
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/visio
+      href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
     - name: Guardar como referencia web en Visio
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/Visio/visio-save-as-web-reference
+      href: https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx
     - name: Referencia de Visio Viewer
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/Visio/visio-viewer-reference
+      href: https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx
     - name: Referencia de ShapeSheet de Visio
       href: visio/visio-shapesheet-reference.md
       items:
@@ -8434,16 +8434,16 @@ items:
     - name: Controles de contenido en Word
       href: word/content-controls-in-word.md
     - name: Referencia de VBA para Word
-      href: https://docs.microsoft.com/en-us/office/vba/api/overview/word
+      href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
     - name: Referencia de ensamblado de interoperabilidad primario de Word
       href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
   - name: Esquema de URI de Sway
     href: swayuri.md
   - name: Esquemas URI de Office
     href: office-uri-schemes.md
-ms.openlocfilehash: ac85fd26b4eb220e6f2031d63352bb2e8c106005
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2f3460ac612fea7fb558ed841fa9e21a0e97a4ac
+ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585762"
+ms.lasthandoff: 07/16/2018
+ms.locfileid: "20389584"
