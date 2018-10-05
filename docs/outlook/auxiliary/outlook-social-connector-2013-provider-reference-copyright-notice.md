@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Este documento se proporcionatal cual. La información y las vistas contenidas en este documento, incluidas las referencias a direcciones URL y otros sitios web, pueden variar sin previo aviso. Usted asume todo el riesgo de usarlo.
-ms.openlocfilehash: 710250d7080c5c24a5ee3d9174effc25f816069c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este documento se proporcionatal cual. Información y las vistas contenidas en este documento, incluidas direcciones URL y otras referencias a sitios Web de Internet, pueden cambiar sin previo aviso. Usted asume todo el riesgo de usarlo.
+ms.openlocfilehash: 4a4d83667a4661d66f180d5898eeef3e5704db1e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816309"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397425"
 ---
 # <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de copyright de la referencia del proveedor de Outlook Social Connector de 2013
 
-Este documento se proporciona "tal cual". La información y las vistas contenidas en este documento, incluidas las referencias a direcciones URL y otros sitios web, pueden variar sin previo aviso. Usted asume todo el riesgo de usarlo.
+Este documento se proporciona "tal cual". Información y las vistas contenidas en este documento, incluidas direcciones URL y otras referencias a sitios Web de Internet, pueden cambiar sin previo aviso. Usted asume todo el riesgo de usarlo.
   
 Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
   

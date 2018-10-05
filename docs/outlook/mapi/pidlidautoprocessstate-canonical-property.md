@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b7e2db23b43383ca405ac58216b94a23d3257fe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0918c15d87219c1ee20b177ae21e718e0289cf04
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578342"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397621"
 ---
 # <a name="pidlidautoprocessstate-canonical-property"></a>Propiedad canónica PidLidAutoProcessState
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica las opciones que se usan en el procesamiento automático de los mensajes de correo electrónico.
   
@@ -49,11 +49,11 @@ La propiedad puede estar ausente, en cuyo caso se utiliza el valor predeterminad
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: Especifica una propiedad que controla la forma y el estilo de posición de tabulación o la alineación.
-ms.openlocfilehash: da2fb31688227180bb38a4366c3293a2e16600c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6641c452144544dc769616130c96d6cf89aca23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821736"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395066"
 ---
 # <a name="cell-element-tabs-section-visio-xml"></a>Elemento de celda (sección de tabulaciones) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica una propiedad que controla la forma y el estilo de posición de tabul
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, master # .xml, # .xml de página  <br/> |
    

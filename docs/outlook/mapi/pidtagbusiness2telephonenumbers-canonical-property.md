@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 120c0619827e8cbbbc92f7665c014eefdd8504e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7cc107739c54478262f0095ec866e1b75e46e5fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572630"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398993"
 ---
 # <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Propiedad canónica PidTagBusiness2TelephoneNumbers
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de números de teléfono para una empresa.
   
@@ -42,11 +42,11 @@ Esta propiedad se puede usar para obtener una lista de números de teléfono alt
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

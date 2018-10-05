@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Las interfaces de ventana y Windows son que objetos de OneNote 2013 API que permite a los usuarios trabajar con ventanas de OneNote. Estos objetos permiten a los usuarios enumerar a través del conjunto de ventanas de OneNote y modificar determinadas propiedades de la ventana.
-ms.openlocfilehash: 83a3742419a4c8faf11c22c4766744d675151c1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816056"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399952"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de ventana (OneNote)
 
@@ -87,7 +87,7 @@ Puede usar los siguientes métodos de la interfaz de **ventana** para navegar a 
 
 |||
 |:-----|:-----|
-|**Descripción** <br/> |Si pasa un vínculo de OneNote (onenote: / /), se abre la ventana de OneNote a la ubicación correspondiente en OneNote. Sin embargo, si el vínculo es un vínculo externo, por ejemplo, http:// o file://, aparecerá un cuadro de diálogo de seguridad. Tras despido, OneNote intenta abrir el vínculo y se devuelve un error de HResult.hrObjectDoesNotExist.  <br/> |
+|**Descripción** <br/> |Si pasa un vínculo de OneNote (onenote: / /), se abre la ventana de OneNote a la ubicación correspondiente en OneNote. Sin embargo, si el vínculo es un vínculo externo, por ejemplo, https:// o file://, aparecerá un cuadro de diálogo de seguridad. Tras despido, OneNote intenta abrir el vínculo y se devuelve un error de HResult.hrObjectDoesNotExist.  <br/> |
 |**Sintaxis** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**Parameters** <br/> | _bstrUrl_: la dirección URL de destino.  <br/> |
    

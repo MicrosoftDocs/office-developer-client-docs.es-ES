@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: En los temas de esta sección se ofrece información sobre cómo crear plantillas de formulario que tienen lógica empresarial escrita con código administrado (Visual Basic o C#) con los miembros del espacio de nombres Microsoft.Office.InfoPath .
-ms.openlocfilehash: 4b113e1c189fe8ebdb5781e969e7f67961d4ea18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399392"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Desarrollo de plantillas de formulario de InfoPath con código
 
@@ -43,11 +43,11 @@ En los temas de esta sección se ofrece información sobre cómo crear plantilla
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
-[Portal de programadores de InfoPath](http://go.microsoft.com/fwlink?LinkID=11689)
+[Portal de programadores de InfoPath](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Contiene vínculos a artículos técnicos, ejemplos de código, descargas, soporte técnico y documentación de MSDN relacionada con la creación de soluciones personalizadas de InfoPath.
     
-[Centro de programadores de Microsoft Office](http://go.microsoft.com/fwlink?LinkID=27128)
+[Centro de programadores de Microsoft Office](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Contiene vínculos a artículos técnicos, ejemplos de código, descargas, soporte técnico y documentación de MSDN relacionada con la creación de soluciones personalizadas de Office.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584068"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400722"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una secuencia de lenguaje de marcado Extensible (XML) que representa información recuperada desde el servicio de detección automática de un servidor de Microsoft Exchange 2007.
   
@@ -33,7 +33,7 @@ Devuelve una secuencia de lenguaje de marcado Extensible (XML) que representa in
 |:-----|:-----|
 |Exportada por:  <br/> |olmapi32.dll  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
-|Se implementa mediante:  <br/> |Outlook  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrGetAutoDiscoverXML( 
@@ -65,7 +65,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [out] Un puntero a un objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) que contiene el XML de detección automática. Devuelve **null** si se produce un error en la operación de detección automática. Debe liberar el objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) cuando haya terminado con él. 
+> [out] Un puntero a un objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que contiene el XML de detección automática. Devuelve **null** si se produce un error en la operación de detección automática. Debe liberar el objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) cuando haya terminado con él. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -75,7 +75,7 @@ S_OK
     
 E_INVALIDARG 
   
--  _pwzAddress_ es **null** o no es una dirección SMTP válida, o _ppXmlStream_ es un puntero **nulo** a un objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) . 
+-  _pwzAddress_ es **null** o no es una dirección SMTP válida, o _ppXmlStream_ es un puntero **nulo** a un objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . 
     
 MAPI_E_NOT_FOUND 
   

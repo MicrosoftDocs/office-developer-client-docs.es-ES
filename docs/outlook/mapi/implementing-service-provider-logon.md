@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589556"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401646"
 ---
 # <a name="implementing-service-provider-logon"></a>Implementar el inicio de sesión del proveedor de servicios
 
@@ -29,7 +29,7 @@ MAPI llama a un método en el objeto de proveedor para comenzar el proceso de in
     
 Realizar las siguientes tareas en el método de inicio de sesión que implementa:
   
-1. Incrementar el recuento de referencia en el objeto de soporte técnico que se pasa como un parámetro de entrada mediante una llamada a su método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) . 
+1. Incrementar el recuento de referencia en el objeto de soporte técnico que se pasa como un parámetro de entrada mediante una llamada a su método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) . 
     
 2. Llamar al método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) del objeto de soporte para obtener acceso a la sección de perfil. 
     

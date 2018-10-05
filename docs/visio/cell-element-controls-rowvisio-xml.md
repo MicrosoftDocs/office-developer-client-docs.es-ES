@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: Contiene una propiedad para un controlador definido para una forma.
-ms.openlocfilehash: ff9bd2111b0f5a6544638fb7b33a1a9b797ede7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea54865a645486dfba53688278cb380142899d77
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821717"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401275"
 ---
 # <a name="cell-element-controls-row-visio-xml"></a>Elemento de celda (fila de controles) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene una propiedad para un controlador definido para una forma.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    
@@ -69,10 +69,10 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |CanGlue  <br/> |Determina si un controlador puede pegarse a otras formas.  <br/> |[Celda Can Glue (Sección de controles)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Representa una cadena de texto descriptivo que aparece como información de herramientas cuando el usuario deja el puntero sobre el controlador de una forma.  <br/> |[Celda Tip (Sección de controles)](tip-cell-controls-section.md) <br/> |
 |X  <br/> |Representa la coordenada x que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda X (Sección de controles)](x-cell-controls-section.md) <br/> |
-|xCon  <br/> |Especifica el tipo de comportamiento de la coordenada x del controlador presenta después de mover el controlador.  <br/> |Ninguno.  <br/> |
+|xCon  <br/> |Especifica el tipo de comportamiento de la coordenada x del controlador presenta después de mover el controlador.  <br/> |Ninguna.  <br/> |
 |xDyn  <br/> |Representa la coordenada x de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda X Dynamics (Sección de controles)](x-dynamics-cell-controls-section.md) <br/> |
 |v  <br/> |Representa la coordenada y que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda Y (Sección de controles)](y-cell-controls-section.md) <br/> |
-|YCon  <br/> |Especifica el tipo de comportamiento de que la coordenada y del controlador cuando éste se mueve.  <br/> |Ninguno.  <br/> |
+|YCon  <br/> |Especifica el tipo de comportamiento de que la coordenada y del controlador cuando éste se mueve.  <br/> |Ninguna.  <br/> |
 |YDyn  <br/> |Representa la coordenada y de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda Y Dynamics (Sección de controles)](y-dynamics-cell-controls-section.md) <br/> |
    
 

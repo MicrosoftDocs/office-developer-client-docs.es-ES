@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cacaf05-a84b-b597-0b2c-2f12c4c50376
-ms.openlocfilehash: 9b3cdc457dc3ec1255def7ecfe3cdeea27c554de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f745f91af7f68a86582740ff74b740ebd67db282
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823083"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400435"
 ---
 # <a name="ruletesttype-complextype-visio-xml"></a>RuleTest_Type complexType ('XML de Visio')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19823083"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |xsd: String  <br/> |
    

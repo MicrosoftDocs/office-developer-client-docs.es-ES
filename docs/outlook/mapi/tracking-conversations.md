@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1dd7a23bbd643b496b7634b6ad0230c806585f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572224"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398608"
 ---
 # <a name="tracking-conversations"></a>Conversaciones de seguimiento
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Conversaci�n de seguimiento est� recopilando las respuestas a un mensaje. Clientes deben establecer dos propiedades que facilitan el seguimiento de las conversaciones:
   
@@ -47,7 +47,7 @@ Cada bloque secundarios se compone de 5 bytes, divididas como sigue:
     
 - Bits de treinta uno que contiene la diferencia entre la hora actual y la hora en el bloque de encabezado expresada en unidades de **FILETIME**. Esta parte del bloque de secundarios se crearon con uno de dos estrategias, seg�n el valor del primer bit. Si este bit es cero, **ScCreateConversationIndex** descarta los bits superiores de 15 y 18 bits bajos. Si este bit es uno, la funci�n descarta los 10 bits alta y los 23 bits inferiores. 
     
-- Cuatro bits que contiene un n�mero aleatorio generado por llamar a la funci�n de Win32 [GetTickCount](http://msdn.microsoft.com/en-us/library/ms724408%28VS.85%29.aspx).
+- Cuatro bits que contiene un n�mero aleatorio generado por llamar a la funci�n de Win32 [GetTickCount](https://msdn.microsoft.com/library/ms724408%28VS.85%29.aspx).
     
 - Cuatro bits que contiene un recuento de secuencia que se obtiene de la parte del n�mero aleatorio.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f7dcfe32a5edc6587dfbd1351b61e2b1901e1d28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1ea0830a06f303da8243f927e4a07cc744951ca9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579056"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399875"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Propiedad canónica PidLidAppointmentColor
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica el color para utilizarla al mostrar el calendario.
   
@@ -37,11 +37,11 @@ Especifica el color para utilizarla al mostrar el calendario.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica el color para utilizarla al mostrar el calendario. Un cliente o servidor debe establecer este valor para la compatibilidad con versiones anteriores con los clientes más antiguos. En su lugar, puede mostrar el calendario en función del valor de la propiedad **palabras clave** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) como especifica en [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Cuando se establece, el valor debe ser uno de los siguientes.
+Esta propiedad especifica el color para utilizarla al mostrar el calendario. Un cliente o servidor debe establecer este valor para la compatibilidad con versiones anteriores con los clientes más antiguos. En su lugar, puede mostrar el calendario en función del valor de la propiedad **palabras clave** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) como especifica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Cuando se establece, el valor debe ser uno de los siguientes.
   
 |**Valor**|**Color**|
 |:-----|:-----|
-|0x00000000  <br/> |Ninguna  <br/> |
+|0x00000000  <br/> |Ninguno  <br/> |
 |0x00000001  <br/> |Rojo  <br/> |
 |0x00000002  <br/> |Azul  <br/> |
 |0 x 00000003  <br/> |Verde  <br/> |
@@ -57,11 +57,11 @@ Esta propiedad especifica el color para utilizarla al mostrar el calendario. Un 
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
     
@@ -71,7 +71,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

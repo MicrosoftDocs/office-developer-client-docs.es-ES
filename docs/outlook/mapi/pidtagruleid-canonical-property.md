@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2831e31e8139dd2348c2deffa6da41793d0a3f4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576249"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398062"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propiedad canónica PidTagRuleId
 
@@ -44,11 +44,11 @@ Cuando se elimina una regla, la única propiedad que el cliente debe pasar es **
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrante en un servidor.
     

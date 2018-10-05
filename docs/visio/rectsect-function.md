@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Calcula el sector de un rectángulo asociado a x e y y devuelve un número entero entre 0 y 4, que indica el sector.
-ms.openlocfilehash: 1f35704cdb827c9c751f11593436c110755d7777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822903"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395087"
 ---
 # <a name="rectsect-function"></a>Función RECTSECT
 
@@ -38,7 +38,7 @@ RECTSECT (** *ancho* **, ** *alto* **, ** *x* **, ** *y* **, ** *opción* **)
 
 Considere la posibilidad de un rectángulo que tiene un *ancho* y un *alto* y un punto (*x, y*) desde el punto central del rectángulo. Dibuja líneas diagonales a través de las esquinas del rectángulo que se va a dividir en cuatro sectores y un punto central. Los sectores 0 al 4 representan el punto central, derecha, arriba, izquierda y abajo respectivamente. 
   
-![](media/ShpSheetRef_CA_03_ZA07645862.gif)
+![Sectores 0 al 4 representan el punto central, derecha, arriba, izquierda y abajo, respectivamente](media/ShpSheetRef_CA_03_ZA07645862.gif)
   
 ## <a name="example"></a>Ejemplo
 

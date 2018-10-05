@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398846"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
@@ -87,9 +87,9 @@ El método **IMAPIProp::SaveChanges** realiza los cambios de propiedad permanent
   
 Debido a que no es necesario generar un identificador de entrada para sus objetos hasta que se han guardado todas las propiedades de los proveedores de servicios, la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de un objeto no esté disponible hasta después de su método **SaveChanges** se ha llamado. Algunos proveedores de esperar hasta que se establezca el indicador KEEP_OPEN_READONLY en la llamada de **SaveChanges** . KEEP_OPEN_READONLY indica que los cambios se guarden en la llamada actual serán los últimos cambios que se realizarán en el objeto. 
   
-Algunas implementaciones de almacén de mensajes no mostrar recién creado mensajes hacer en una carpeta hasta que un cliente guarda el mensaje cambia mediante el uso de **SaveChanges** y libera los objetos de mensaje con el método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . Además, algunas implementaciones de objeto no pueden generar una propiedad de **entrada del objeto** para un objeto recién creado hasta que después se ha llamado al **SaveChanges** y algunas pueden hacerlo sólo una vez que se ha llamado al **SaveChanges** mediante el uso de KEEP_OPEN_READONLY establecer en _ulFlags_.
+Algunas implementaciones de almacén de mensajes no mostrar recién creado mensajes hacer en una carpeta hasta que un cliente guarda el mensaje cambia mediante el uso de **SaveChanges** y libera los objetos de mensaje con el método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Además, algunas implementaciones de objeto no pueden generar una propiedad de **entrada del objeto** para un objeto recién creado hasta que después se ha llamado al **SaveChanges** y algunas pueden hacerlo sólo una vez que se ha llamado al **SaveChanges** mediante el uso de KEEP_OPEN_READONLY establecer en _ulFlags_.
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si recibe la marca KEEP_OPEN_READONLY, tendrá la opción de salir de access del objeto como de lectura y escritura. Sin embargo, un proveedor de nunca puede dejar un objeto en un estado de sólo lectura cuando se pasa el indicador KEEP_OPEN_READWRITE.
   

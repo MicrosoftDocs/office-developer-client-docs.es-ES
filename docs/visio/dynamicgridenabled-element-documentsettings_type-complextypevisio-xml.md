@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Especifica si está habilitada la característica de cuadrícula dinámica de un documento.
-ms.openlocfilehash: aa463f55dd3733e4a424146bcdc0e8557cfacde8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d92f717ee07118abab8b2acf81b54197afb22b45
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822036"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396172"
 ---
 # <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica si está habilitada la característica de cuadrícula dinámica de un
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.XML, document.xml  <br/> |
    

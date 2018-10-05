@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49deb153-03c6-4be2-a3a5-53cca01accba
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a0abd3618f7a1586d8ca786fc1b6802c17e0f0f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 677ba61e3d812909ac4f28f3542f6a79f971ed06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573120"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398692"
 ---
 # <a name="pidtagoriginalmessageclass-canonical-property"></a>Propiedad canónica PidTagOriginalMessageClass
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la clase del mensaje original para su uso en un informe.
   
@@ -42,11 +42,11 @@ Estas propiedades contienen una copia de la propiedad **PR_MESSAGE_CLASS** ([Pid
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Codifica y descodifica los objetos de mensaje y datos adjuntos a una representación de secuencia eficaz.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

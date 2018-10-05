@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 76ea38db86f678c250016c2f5e2feea3a173bb5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d9f166b0d1e180fdb087fbf602e6841c3fdac3dc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589388"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395990"
 ---
 # <a name="pidlidnonsendablecc-canonical-property"></a>Propiedad canónica PidLidNonSendableCc
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de todos los asistentes compuestas que también son los asistentes opcionales.
   
@@ -43,15 +43,15 @@ El valor para cada asistente es la propiedad **PR_DISPLAY_NAME** ([PidTagDisplay
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
     
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

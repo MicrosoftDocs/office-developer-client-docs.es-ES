@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564265"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397026"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cola de estructuras de identificador a largo plazo utilizado por el proveedor de almacén de carpetas personales (PST) para asignar un identificador de entrada para un nuevo mensaje o una carpeta en modo sin conexión.
   
@@ -69,7 +69,7 @@ typedef struct {
     
 ## <a name="remarks"></a>Comentarios
 
-Un identificador de entrada es un identificador de entrada MAPI de 4 bytes para una carpeta o un mensaje. Para obtener más información, vea la [propiedad ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
+Un identificador de entrada es un identificador de entrada MAPI de 4 bytes para una carpeta o un mensaje. Para obtener más información, vea la [propiedad ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
 Cuando un proveedor de almacén de archivos PST, asigna un identificador de entrada a un nuevo objeto, primero necesita un GUID que identifica el servidor y un índice que identifica el objeto en el almacén. Aunque el GUID no es único entre todos los identificadores de entrada, el GUID y el índice combinado proporcionan una única entrada. Este par GUID y el índice se realiza un seguimiento por una estructura de identificador a largo plazo, **LTID**, que forma parte de la estructura **OLFI** . 
   
@@ -81,7 +81,7 @@ Si el tamaño de una solicitud es mayor que *dwAlloc* , el proveedor de almacén
   
 Un proveedor que se ajusta el proveedor de almacén de archivos PST debe comprobar periódicamente *ltidNextAlloc* para ver si es NULL. Si es así, el proveedor debe rellenar con un nuevo GUID y restablecer *dwNextAlloc* de modo que se pueden asignar más identificadores de entrada. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

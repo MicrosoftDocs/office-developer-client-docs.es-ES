@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Obtenga información sobre cómo integrar al instalador de Office 365 Click-to-Run con una solución de administración de software.
-ms.openlocfilehash: abe941e3e3818eed1f18108f1678e46e8156b08c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e9e82fbf86b81ad35928277ff11fe9b86d91964
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821451"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401751"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Integración de aplicaciones de la capacidad de administración con el instalador de click-to-run de Office 365
 
@@ -351,7 +351,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 > [!NOTE]
 > En este resumen se proporciona como una información en el complemento para [integrar las aplicaciones de la capacidad de administración con el programa de instalación de hacer clic y ejecutar de Office 365](https://msdn.microsoft.com/EN-US/library/office/mt608768.aspx). Una vez que se ha actualizado el doc pública, puede considerarse como obsoleto este doc. 
   
-Desde C2RTenant [16.0.8208.6352](http://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (primera generación públicamente disponible debe ser la compilación de horquilla junio--8326.*) hemos agregado una nueva interfaz de **IUpdateNotify2** . Aquí es algunos información básica acerca de esta interfaz: 
+Desde C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (primera generación públicamente disponible debe ser la compilación de horquilla junio--8326.*) hemos agregado una nueva interfaz de **IUpdateNotify2** . Aquí es algunos información básica acerca de esta interfaz: 
   
 - CLSID_UpdateNotifyObject2, {52C2F9C2-F1AC-4021-BF50-756A5FA8DDFE}
     
@@ -373,7 +373,7 @@ Si no usa cualquiera de los nuevos métodos, no es necesario cambiar nada. Todos
   
 ## <a name="implementing-the-bits-interface"></a>Implementación de la interfaz de BITS
 
-El [Servicio de transferencia inteligente en segundo plano](https://msdn.microsoft.com/en-us/library/bb968799(v=vs.85).aspx) (BITS) es un servicio proporcionado por Microsoft para transferir archivos entre un cliente y un servidor. BITS es uno de los canales que puede usar el instalador de Office Click-To-Run para descargar el contenido. De forma predeterminada, la Office Click-To-Run installer usa las ventanas se basa en la implementación de BITS para descargar el contenido desde la CDN. 
+El [Servicio de transferencia inteligente en segundo plano](https://msdn.microsoft.com/library/bb968799(v=vs.85).aspx) (BITS) es un servicio proporcionado por Microsoft para transferir archivos entre un cliente y un servidor. BITS es uno de los canales que puede usar el instalador de Office Click-To-Run para descargar el contenido. De forma predeterminada, la Office Click-To-Run installer usa las ventanas se basa en la implementación de BITS para descargar el contenido desde la CDN. 
   
 Al proporcionar una implementación personalizada de BITS para el método **download()** de la interfaz de **IUpdateNotify** , el software de la capacidad de administración puede controlar dónde y cómo el cliente descarga el contenido. Una interfaz de BITS personalizada es útil cuando se proporciona un canal de distribución de contenido personalizados que no sean los canales de Click-to-Run integrados, como la CDN de Office, servidores IIS, o recursos compartidos de archivos. 
   
@@ -474,7 +474,7 @@ If the update is applicable, the manageability software can use the CDN content 
   
 ### Format of the XML file list
 
-There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [http://officecdn.microsoft.com/pr/wsus/ofl.cab](http://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
+There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
   
 - O365Client_32bit.xml
     
@@ -512,18 +512,18 @@ The steps for creating an image are:
 The following examples use the Monthly channel (as defined by the  `baseURL` node) and build version 16.0.4229.1004 from releasehistory.xml. 
   
 ```cpp
-baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" /
+baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" /
 ```
 
-- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab.
+- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab.
     
   ```cpp
-  baseURL branch="Business" URL="http://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" /
+  baseURL branch="Business" URL="https://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" /
   File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/
   
   ```
 
-- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
+- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
     
   ```cpp
   File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" /
@@ -537,7 +537,7 @@ Image creation tools may verify the integrity of the downloaded .dat files by co
 File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"
 ```
 
-- The  _hashLocation_ attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In this example the stream.x64.bg-bg.hash location would be http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
+- The  _hashLocation_ attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In this example the stream.x64.bg-bg.hash location would be https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
     
 - The  _hashAlgo_ attribute specifies what hashing algorithm was used. In this case the Sha256 algorithm was used. 
     
@@ -574,8 +574,8 @@ Each Office 365 Client Update that is published includes metadata about the upda
 The following is an example of the  _MoreInfoURL_ parameter which refers to the Office 365 Client Update for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
   
 ```http
-http://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
-http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
+https://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
+https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
 
 ```
 THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARILY COMMENTING IT OUT.-->
@@ -600,7 +600,7 @@ Si la actualización es aplicable, el software de la capacidad de administració
   
 ### <a name="format-of-the-xml-file-list"></a>Formato de la lista de archivos XML
 
-Hay dos listas de archivos en un archivo cab en la CDN. Uno enumera los archivos de la versión de 32 bits de Office y otra para la versión de 64 bits de Office. La dirección URL de la ubicación de la lista de archivos de Office (OFL. Archivo CAB) es [http://officecdn.microsoft.com/pr/wsus/ofl.cab](http://officecdn.microsoft.com/pr/wsus/ofl.cab). Se llaman a las listas de dos archivos:
+Hay dos listas de archivos en un archivo cab en la CDN. Uno enumera los archivos de la versión de 32 bits de Office y otra para la versión de 64 bits de Office. La dirección URL de la ubicación de la lista de archivos de Office (OFL. Archivo CAB) es [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab). Se llaman a las listas de dos archivos:
   
 - O365Client_32bit.Xml
     
@@ -636,17 +636,17 @@ Los pasos para la creación de una imagen son:
 Los siguientes son ejemplos que usan el canal mensual (tal como se define por la `<baseURL>` nodo) y crear versión 16.0.4229.1004 desde releasehistory.xml. 
   
 ```xml
-<baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
+<baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
 ```
 
-- El siguiente es un archivo de idioma neutro necesario para todos los idiomas. El nombre del archivo es v64_16.0.4229.1004.cab y se debe copiar de `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` y cuyo nombre ha cambiado a `…/office/data/v64.cab`. 
+- El siguiente es un archivo de idioma neutro necesario para todos los idiomas. El nombre del archivo es v64_16.0.4229.1004.cab y se debe copiar de `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` y cuyo nombre ha cambiado a `…/office/data/v64.cab`. 
     
   ```xml
   <File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/>
   
   ```
 
-- El siguiente es un archivo que se deben incluir en la imagen en-US como designado por el LCID del idioma = 1033. El nombre del archivo es s641033.cab y se debe copiar de `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab` y no cambia el nombre.
+- El siguiente es un archivo que se deben incluir en la imagen en-US como designado por el LCID del idioma = 1033. El nombre del archivo es s641033.cab y se debe copiar de `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab` y no cambia el nombre.
     
   ```xml
   <File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" />
@@ -663,7 +663,7 @@ Herramientas de creación de imagen pueden comprobar la integridad de los archiv
 - El atributo **hashLocation** especifica la ubicación de la ruta de acceso relativa de la bg.hash stream.x64.bg para el archivo stream.x64.bg bg.dat. Construir la ubicación del archivo hash concatenando la dirección URL + relativePath + hashLocation. En el siguiente ejemplo, la ubicación de stream.x64.bg bg.hash sería: 
     
   ```http
-  http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
+  https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
   ```
 
 - El atributo **hashAlgo** especifica qué algoritmo hash se usó. En este caso se usó Sha256. 
@@ -679,7 +679,7 @@ Herramientas de creación de imagen pueden comprobar la integridad de los archiv
 
 ### <a name="office-365-client-updates"></a>Actualizaciones de cliente de Office 365
 
-Todas las actualizaciones de cliente de Office 365 se publican en el [Catálogo de Microsoft Update](http://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
+Todas las actualizaciones de cliente de Office 365 se publican en el [Catálogo de Microsoft Update](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
   
 Actualizaciones de cliente de Office 365 permiten que el software de la capacidad de administración tratar las actualizaciones del cliente de Office 365 de manera muy similar a cualquier otra actualización WU con una excepción; las actualizaciones del cliente no contienen una carga real. No se debería instaladas en los clientes pero en su lugar se utiliza para activar los flujos de trabajo con el software de la capacidad de administración reemplazando el comando de instalación con COM según el mecanismo de instalación que se muestra encima de las actualizaciones del cliente de Office 365. 
   
@@ -703,9 +703,9 @@ Cada Office 365 actualización de cliente que se publicará incluye metadatos ac
     
 La siguiente dirección URL es un ejemplo del parámetro *MoreInfoURL* que hace referencia a las versiones de actualización de cliente de Office 365 para la versión de 32 bits de Office con la versión de compilación de 16.0.2342.2343 en el canal actual. 
   
-http://officecdn.microsoft.com/pr/wsus/ofl.cabes la ubicación de las listas de archivo XML para esta actualización, específicamente la O365Client_32bit.xml desde dentro de la OFL. CAB.
+https://officecdn.microsoft.com/pr/wsus/ofl.cabes la ubicación de las listas de archivo XML para esta actualización, específicamente la O365Client_32bit.xml desde dentro de la OFL. CAB.
   
-[Versiones de canal de actualización de cliente de Office 365](http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
+[Versiones de canal de actualización de cliente de Office 365](https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
   
 ### <a name="additional-metadata-for-automating-content-staging"></a>Metadatos adicionales para automatizar el almacenamiento provisional de contenido
 
@@ -713,7 +713,7 @@ Además de los metadatos que se publicarán hay que define son archivos XML adic
   
 **SKU. XML**
   
-Este archivo XML está contenido dentro de un archivo CAB firmado y publicado en la CDN de Office en la siguiente dirección URL: [http://officecdn.microsoft.com/pr/wsus/skus.cab](http://officecdn.microsoft.com/pr/wsus/skus.cab).
+Este archivo XML está contenido dentro de un archivo CAB firmado y publicado en la CDN de Office en la siguiente dirección URL: [https://officecdn.microsoft.com/pr/wsus/skus.cab](https://officecdn.microsoft.com/pr/wsus/skus.cab).
   
 Los metadatos que se publican en este archivo XML están útil para determinar qué productos están disponibles para la implementación y la atención desde la CDN de Office junto con distintas opciones para cada uno. 
   
@@ -760,7 +760,7 @@ Los metadatos que se publican en este archivo XML están útil para determinar q
     
 **RELEASEHISTORY. XML**
   
-Este archivo XML está contenido dentro de un archivo CAB firmado y publicado en la CDN de Office en la siguiente ubicación: [http://officecdn.microsoft.com/pr/wsus/releasehistory.cab](http://officecdn.microsoft.com/pr/wsus/releasehistory.cab). 
+Este archivo XML está contenido dentro de un archivo CAB firmado y publicado en la CDN de Office en la siguiente ubicación: [https://officecdn.microsoft.com/pr/wsus/releasehistory.cab](https://officecdn.microsoft.com/pr/wsus/releasehistory.cab). 
   
 Los metadatos que se publican en este archivo XML están útil para determinar qué canales se admiten para el mantenimiento de las actualizaciones desde la CDN de Office junto con información sobre el historial de compilación para cada uno de los canales compatibles.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 505f9bb80c86b956cd920348f2120f7fc8494d8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aca9c9f9c22fc4057f1650d1342492d2ed34653c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587505"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397607"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Propiedad canónica PidTagHasAttachments
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si un mensaje contiene al menos un dato adjunto. 
   
@@ -44,7 +44,7 @@ El valor de que esta propiedad se ha actualizado con el método [IMAPIProp::Save
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

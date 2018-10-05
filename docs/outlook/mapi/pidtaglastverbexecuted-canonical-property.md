@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fe75a242772441b23d3aaa87fc57486d1f074914
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9abd4eb955428595ebe41ab9b2c661303ee2779a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581660"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398580"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Propiedad canónica PidTagLastVerbExecuted
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el último verbo que se ejecuta.
   
@@ -109,11 +109,11 @@ Esta propiedad puede tener uno de los siguientes valores:
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > 
 ### <a name="header-files"></a>Archivos de encabezado
@@ -126,7 +126,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

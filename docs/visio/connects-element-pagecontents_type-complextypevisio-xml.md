@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Contiene un elemento Connect para cada conexión entre dos formas de un dibujo.
-ms.openlocfilehash: 93930a8f21f9d250bf24d821b0eeb4036f6fe187
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821853"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399959"
 ---
 # <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Se conecta el elemento (PageContents_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene un elemento **Connect** para cada conexión entre dos formas de un dibu
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |página # .xml, master # .xml  <br/> |
    

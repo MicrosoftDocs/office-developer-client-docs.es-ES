@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Última modificación: 07 de septiembre de 2016'
-ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583655"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400729"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propiedad canónica PidTagAttachMethod
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una constante definidas en MAPI que representa la manera en que se puede tener acceso el contenido de los datos adjuntos. 
   
@@ -94,7 +94,7 @@ Cuando el **PR_ATTACH_METHOD** es **ATTACH_BY_WEBREFERENCE**, el contenido de lo
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
@@ -108,7 +108,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

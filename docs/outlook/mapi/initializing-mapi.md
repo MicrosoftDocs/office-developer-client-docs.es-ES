@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574793"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399042"
 ---
 # <a name="initializing-mapi"></a>Inicializar MAPI
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Todas las aplicaciones de cliente que usan las bibliotecas de MAPI deben llamar a la función **MAPIInitialize** . Para obtener más información, vea [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** inicializa datos globales para la sesión y prepara las bibliotecas de MAPI para aceptar llamadas. Hay algunas marcas que son importantes para establecer en algunas situaciones: 
   
@@ -33,7 +33,7 @@ Todas las aplicaciones de cliente que usan las bibliotecas de MAPI deben llamar 
     
 - MAPI_NO_COINIT
     
-    Establecer la marca MAPI_NO_COINT para que no intente inicializar COM con una llamada a [CoInitialize](http://msdn.microsoft.com/en-us/library/ms886303.aspx) **MAPIInitialize** . Si se pasa una estructura **MAPIINIT_0** **MAPIInitialize** con _ulFlags_ establecida en MAPI_NO_COINIT, MAPI asumirá que COM ya se ha inicializado y omitir la llamada a **CoInitialize**.
+    Establecer la marca MAPI_NO_COINT para que no intente inicializar COM con una llamada a [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx) **MAPIInitialize** . Si se pasa una estructura **MAPIINIT_0** **MAPIInitialize** con _ulFlags_ establecida en MAPI_NO_COINIT, MAPI asumirá que COM ya se ha inicializado y omitir la llamada a **CoInitialize**.
     
 Si no se pasa el indicador MAPI_MULTITHREAD_NOTIFICATIONS, MAPI crea la ventana de notificación en el subproceso que se usó para la primera llamada **MAPIInitialize** . MAPI crea la ventana de notificación en un subproceso independiente, si se pasa MAPI_MULTITHREAD_NOTIFICATIONS: un subproceso dedicado para controlar las notificaciones. MAPI espera del subproceso que se usa para crear la ventana de notificación oculto para: 
   

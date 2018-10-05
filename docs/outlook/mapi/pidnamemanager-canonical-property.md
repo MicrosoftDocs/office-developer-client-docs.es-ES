@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d1883d22-5eca-4d00-8222-3fc74782c7a9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7f4d555f6ed0cc960c9752bfc2e27a70596b9a73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aef8eb4c9f65b5075f12c33768098fb1b6dac095
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567835"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399693"
 ---
 # <a name="pidnamemanager-canonical-property"></a>Propiedad canónica PidNameManager
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica el administrador del archivo que se adjunta al documento.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguna  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nombre de la propiedad:  <br/> |Manager  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Especifica el administrador del archivo que se adjunta al documento.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten en los documentos.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

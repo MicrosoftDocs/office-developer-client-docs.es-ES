@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a10209bd965591e9049027e46d84d904bba14065
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9456178e9426d7a5fe17382d876f507daa0251f4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580232"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396179"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>Propiedad canónica PidTagProfileServerFullVersion
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica información de versión y de compilación completa acerca de Microsoft Exchange Server a la que están conectadas cuentas en un perfil.
   
@@ -48,7 +48,7 @@ En el modelo de objetos de Outlook, puede usar la propiedad **ExchangeMailboxSer
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades.
     
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

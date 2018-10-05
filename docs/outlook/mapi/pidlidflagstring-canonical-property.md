@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b29fdbb82635ca7706be15ee9f674262d2204ad5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3cd88db7e93b53990cf0181af623ebca75f0c6e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395584"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Propiedad canónica PidLidFlagString
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un índice que identifica un conjunto predefinido de cadenas de texto asociado con la marca.
   
@@ -72,11 +72,11 @@ Todas las cadenas especificadas anteriormente pueden convertirse en el idioma de
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica las propiedades y las operaciones relacionadas con marcas.
     
@@ -86,7 +86,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

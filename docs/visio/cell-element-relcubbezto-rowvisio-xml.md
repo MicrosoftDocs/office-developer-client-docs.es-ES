@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: Contiene las coordenadas x o y de extremo de una curva de Bézier cúbica con relación al ancho de la forma y el alto, las coordenadas x o y del punto de control del principio de la curva relativa al ancho de la forma y el alto o las coordenadas x o y del punto de control del final del ancho y alto de la forma relativa de curva.
-ms.openlocfilehash: e4a5353f3ecfb514b61ee893905e54c8951a2be5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15cfbbfd9b773169e338d7d364540582229a4ac7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821718"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398615"
 ---
 # <a name="cell-element-relcubbezto-row-visio-xml"></a>Elemento de celda (fila RelCubBezTo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y de extremo de una curva de Bézier cúbica con re
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

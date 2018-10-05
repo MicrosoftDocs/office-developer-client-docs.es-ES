@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398125"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Información para descargar el contenido de una carpeta del servidor durante el [estado de la tabla de descarga](download-table-state.md), como parte de una sincronización completa para el contenido en un almacén.
   
@@ -75,11 +75,11 @@ _pstmReserved4_
     
 _pxicc_
   
->  [out] Puntero a la interfaz de contenido de **IExchangeImportContentsChanges** que admite la descarga de cambios en el contenido. Para obtener más información sobre **IExchangeImportContentsChanges**, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Puntero a la interfaz de contenido de **IExchangeImportContentsChanges** que admite la descarga de cambios en el contenido. Para obtener más información sobre **IExchangeImportContentsChanges**, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   
->  [out] Puntero a la interfaz de jerarquía de **IExchangeImportHierarchyChanges** que admite la descarga de los cambios incrementales de jerarquía. Para obtener más información sobre **IExchangeImportHierarchyChanges**, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Puntero a la interfaz de jerarquía de **IExchangeImportHierarchyChanges** que admite la descarga de los cambios incrementales de jerarquía. Para obtener más información sobre **IExchangeImportHierarchyChanges**, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pszName_
   
@@ -91,7 +91,7 @@ _ftLastMod_
     
 _ulRights_
   
->  [out] Valor de la propiedad **[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** de la carpeta. 
+>  [out] Valor de la propiedad **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** de la carpeta. 
     
 _feid_
   
@@ -103,7 +103,7 @@ _uintReserved_
     
 _rgte_
   
-> [out] Los cambios de normal (o no ocultos) y elementos asociados (u ocultos).  *rgte [0]* es para los elementos normales y *rgte [1]* es para los elementos asociados. Outlook rellena a este miembro durante la descarga, cuando se usa la sincronización de cambio Incremental (ICS). Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+> [out] Los cambios de normal (o no ocultos) y elementos asociados (u ocultos).  *rgte [0]* es para los elementos normales y *rgte [1]* es para los elementos asociados. Outlook rellena a este miembro durante la descarga, cuando se usa la sincronización de cambio Incremental (ICS). Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _lpsrReserved_
   
@@ -121,7 +121,7 @@ _pReserved2_
   
 >  [entrada] Este miembro está reservado para el uso interno de Outlook y no se admite. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)  
 - [Constantes MAPI](mapi-constants.md) 

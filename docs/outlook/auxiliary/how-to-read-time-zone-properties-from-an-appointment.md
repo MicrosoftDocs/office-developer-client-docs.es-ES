@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: En este tema se muestra una función, ReadTimeZones, que llama a las dos funciones, BinToTZDEFINITION y BinToTZREG, para leer las propiedades de la zona horaria, PidLidAppointmentTimeZoneDefinitionStartDisplay y PidLidTimeZoneStruct, de una cita.
-ms.openlocfilehash: a344f44a1f195ec6dc5f80677f08f52be490e6b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816071"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396039"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Leer las propiedades de la zona horaria en una cita
 
-En este tema se muestra una función, `ReadTimeZones`, que llama a las dos funciones, `BinToTZDEFINITION` y `BinToTZREG`, y para leer las propiedades de la zona horaria, [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), de una cita.
+En este tema se muestra una función, `ReadTimeZones`, que llama a las dos funciones, `BinToTZDEFINITION` y `BinToTZREG`, y para leer las propiedades de la zona horaria, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), de una cita.
   
 **PidLidAppointmentTimeZoneDefinitionStartDisplay** contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) y **PidLidTimeZoneStruct** contiene una secuencia que se asigna al formato persistente de un [TZREG](tzreg.md) estructura. Para obtener las estructuras exactas de **TZDEFINITION** y **TZREG** , `BinToTZDEFINITION` y `BinToTZREG` se usan para analizar los valores de la secuencia de estas propiedades de forma adecuada. Estas dos funciones se definen en [analizar una secuencia de una propiedad binaria para leer la estructura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) y [analizar una secuencia de una propiedad binaria para leer la estructura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
   

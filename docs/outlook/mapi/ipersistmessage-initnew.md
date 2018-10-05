@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: efeac5a54c576d8b76d94ea7af8949e64dbccab6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588513"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394884"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inicializa un nuevo mensaje.
   
@@ -56,13 +56,13 @@ Visores de formulario, llame al método **IPersistMessage::InitNew** cuando el u
   
  No se debe llamar **InitNew** cuando el formulario está en cualquier estado excepto el estado [Uninitialized](uninitialized-state.md) . Si el formulario está en uno de los demás Estados cuando se llama a **InitNew** , devolver E_UNEXPECTED. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Normalmente, los mensajes que han guardado los propiedades están marcados como modificado para que el cliente puede mostrar un cuadro de diálogo que solicita al usuario si se deben guardar estas propiedades. Si el usuario indica que se debe guardar un mensaje, guarde los datos, marcar el mensaje como limpio y salir normalmente.
   
 Sin embargo, si el procesamiento para los mensajes recién inicializados incluye la configuración de uno o más propiedades calculan y es importante para las propiedades que se guarde, marcar los mensajes como modificado. Debido a que calcula las propiedades deben ser visibles para los usuarios, no se debe mostrar ningún cuadro de diálogo.
   
-Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasó a **InitNew**, suelte el sitio original debido a que ya no se usará. Almacenar los punteros para el sitio de mensaje y el mensaje de los parámetros _pMessageSite_ y _pMessage_ y llamar a métodos de [IUnknown:: AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
+Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasó a **InitNew**, suelte el sitio original debido a que ya no se usará. Almacenar los punteros para el sitio de mensaje y el mensaje de los parámetros _pMessageSite_ y _pMessage_ y llamar a métodos de [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
   
 Establecer las propiedades de **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para el nuevo mensaje y **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) a algo apropiado para su clase de mensaje. Muchas clases de mensaje, por ejemplo, establezca **PR_MESSAGE_FLAGS** en MSGFLAG_UNSENT para los mensajes nuevos. 
   
@@ -86,9 +86,9 @@ Después de realizar una llamada satisfactoria a **InitNew**, se puede asumir qu
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Para obtener más información acerca de los Estados de los formularios, vea [Estados de formulario](form-states.md). Para obtener más información acerca de cómo se inicializan los objetos de almacenamiento, vea el método [IPersistStorage::InitNew](http://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
+Para obtener más información acerca de los Estados de los formularios, vea [Estados de formulario](form-states.md). Para obtener más información acerca de cómo se inicializan los objetos de almacenamiento, vea el método [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

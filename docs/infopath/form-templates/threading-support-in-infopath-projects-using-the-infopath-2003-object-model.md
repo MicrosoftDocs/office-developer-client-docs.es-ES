@@ -8,16 +8,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: Los objetos COM a los que se obtiene acceso mediante los ensamblados de interoperabilidad Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll y Microsoft.Office.Interop.InfoPath.Xml.dll que instala Microsoft InfoPath no admiten la realización de llamadas en varios subprocesos. Esta regla se aplica también a las interfaces para objetos de Microsoft XML Core Services (MSXML) que se ajustan mediante el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust (la mayor parte de los cuales llevan el prefijo IXMLDOM) y a todas las interfaces que expone el espacio de nombres Microsoft.Office.Interop.InfoPath.Xml, que no son seguras para subprocesos.
-ms.openlocfilehash: 314ef57e11295c0b2dbc9866c5faa392aab055ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815966"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395563"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Compatibilidad con el subprocesamiento en los proyectos de InfoPath mediante el modelo de objetos de InfoPath 2003
 
-Los objetos COM a los que se obtiene acceso mediante los ensamblados de interoperabilidad Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll y Microsoft.Office.Interop.InfoPath.Xml.dll que instala Microsoft InfoPath no admiten la realización de llamadas en varios subprocesos. Esto incluye las interfaces para los objetos de Microsoft XML Core Services (MSXML) que se ajustan mediante el espacio de nombres **Microsoft.Office.Interop.InfoPath.SemiTrust** (la mayoría de los cuales tienen nombres que van precedidos de IXMLDOM) y todas las interfaces expuestas por el espacio de nombres [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) , ninguno de los cuales son seguros para subprocesos. 
+Los objetos COM a los que se obtiene acceso mediante los ensamblados de interoperabilidad Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll y Microsoft.Office.Interop.InfoPath.Xml.dll que instala Microsoft InfoPath no admiten la realización de llamadas en varios subprocesos. Esto incluye las interfaces para los objetos de Microsoft XML Core Services (MSXML) que se ajustan mediante el espacio de nombres **Microsoft.Office.Interop.InfoPath.SemiTrust** (la mayoría de los cuales tienen nombres que van precedidos de IXMLDOM) y todas las interfaces expuestas por el espacio de nombres [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) , ninguno de los cuales son seguros para subprocesos. 
   
 Todas las llamadas a estos objetos COM se deben realizar en un único subproceso. El código administrado de un proyecto de InfoPath puede crear otros subprocesos para realizar trabajo en segundo plano, pero el código que se ejecuta en subprocesos distintos del subproceso principal no puede llamar a los modelos de objetos de InfoPath.
   
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

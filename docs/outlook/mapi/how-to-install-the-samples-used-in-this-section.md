@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 288ece7a26fb89fa240339da681f163909124823
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586917"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397061"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Instalar los ejemplos que se utilizan en esta sección
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Para instalar la aplicación MFCMAPI y el proyecto de CreateOutlookItemsAddin para ver y ejecutar el código de ejemplo al que hace referencia en los temas de la sección [Creación de elementos de Outlook mediante el uso de MAPI](creating-outlook-items-by-using-mapi.md) , siga estos pasos. 
 
@@ -25,11 +25,11 @@ Para descargar e instalar los ejemplos utilizados en el "uso de MAPI para crear 
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Para descargar e instalar la aplicación MFCMAPI y abra el proyecto CreateOutlookItemsAddin
 
-1. Descargue la versión actual de la [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) ejecutable a una carpeta en el sistema. 
+1. Descargue la versión actual de la [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) ejecutable a una carpeta en el sistema. 
     
 2. Extraiga el archivo MFCMapi.exe en MFCMapi.exe. _versión_zip a una carpeta vacía en la unidad de disco duro.
     
-3. Descargue la versión actual del proyecto [CreateOutlookItemsAddin](http://go.microsoft.com/fwlink/?LinkID=127828) . 
+3. Descargue la versión actual del proyecto [CreateOutlookItemsAddin](https://go.microsoft.com/fwlink/?LinkID=127828) . 
     
 4. Extraer todos los archivos en el archivo CreateOutlookItemsAddin.zip a la carpeta donde extrajo el archivo MFCMapi.exe en el paso 2.
     
@@ -70,13 +70,13 @@ Algunos temas de hacer referencia al código de origen desde la propia aplicaci�
 
 ### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Para descargar y ver el código fuente de la aplicación de MFCMAPI
 
-1. Descargar el código fuente para la versión actual de la aplicación [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) en una carpeta en el sistema. 
+1. Descargar el código fuente para la versión actual de la aplicación [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) en una carpeta en el sistema. 
     
 2. Extraiga los archivos en MFCMAPI - .zip de _conjunto de cambios_a una carpeta vacía en la unidad de disco duro.
     
 3. Abra el proyecto de MFCMapi (\ _foldername_\ MFCMapi.vcproj) en Visual Studio para examinar el código fuente.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Crear un elemento de correo simple](how-to-create-a-simple-mail-item.md)
 - [Crear un elemento de tarea periódica simple](how-to-create-a-simple-recurrent-task-item.md)

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: En este artículo se describe el desarrollo de Microsoft Project Online Add-in para mejorar su experiencia con Project Online. El proyecto de desarrollo se implementa como un tutorial. El complemento utilizado para este artículo lee y muestra los nombres de proyecto y los identificadores de los proyectos publicados desde su cuenta de Project Online y le permite profundizar en las tareas de recuperación asociadas con proyectos individuales.
-ms.openlocfilehash: ea5c7e3f3d20aa6bf5b6bb77a18eb87d06f549e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572546"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399308"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Desarrollo de un complemento Project Online mediante el modelo de objetos de JavaScript (JSOM)
 
@@ -37,7 +37,7 @@ Project Online lleva a cabo una acción más para proteger la información que p
 El programa de instalación de desarrollo para complementos Project Online utiliza el tipo de proyecto de Visual Studio SharePoint Add-in. El complemento está escrito en JavaScript y usa el modelo de objetos de JavaScript de Project (JSOM) para interactuar con el servicio de proyecto en línea. El JSOM de gran parte de su funcionalidad hereda el JSOM de SharePoint.
   
 > [!NOTE]
-> Complementos pueden publicados y se venden en la tienda Office o implementados en un catálogo de aplicaciones privada en SharePoint. Para obtener más información, vea [implementar y publicar su complemento Office](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish).
+> Complementos pueden publicados y se venden en la tienda Office o implementados en un catálogo de aplicaciones privada en SharePoint. Para obtener más información, vea [implementar y publicar su complemento Office](https://docs.microsoft.com/office/dev/add-ins/publish/publish).
 > 
 > El complemento usado en este artículo es un ejemplo para desarrolladores; no está pensada para su uso en un entorno de producción. El propósito principal es mostrar un ejemplo de desarrollo de aplicaciones para Project Online. 
   
@@ -45,7 +45,7 @@ El programa de instalación de desarrollo para complementos Project Online utili
 
 Agregue los siguientes elementos en un entorno de Windows compatible:
   
-- **.NET framework 4.0 o posterior**: versiones completas del marco de trabajo de la versión 4.0 son compatibles. El sitio de descarga es https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- **.NET framework 4.0 o posterior**: versiones completas del marco de trabajo de la versión 4.0 son compatibles. El sitio de descarga es https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - **Visual Studio 2013 o posterior**:  
     
@@ -92,7 +92,7 @@ El Asistente de Visual Studio realiza preguntas de seguimiento unas acerca del s
     
 2. ¿Cómo desea hospedar su Add in SharePoint? Elija [X] **hospedada en SharePoint**.
     
-   Para obtener más información acerca de SharePoint Add-ins, incluidas las opciones de hospedaje, vea [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+   Para obtener más información acerca de SharePoint Add-ins, incluidas las opciones de hospedaje, vea [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
     
 3. Haga clic en **Siguiente**. 
     
@@ -143,7 +143,7 @@ El proyecto de complemento consta de varios archivos. En este ejemplo, debe edit
     
 Si cambia el inquilino Project Online, como mover de una versión de prueba a un sitio de suscripción, puede actualizar las propiedades del proyecto, incluidas la conexión de servidor y la dirección URL del sitio, utilizando la ventana de propiedades disponibles a través de la **vista** > **Propiedades Ventana** comando. 
   
-También puede agregar archivos al proyecto. Si es así, debe actualizar el archivo Elements.xml que se encuentra en el mismo grupo (contenido, imágenes, páginas o secuencias de comandos) para incluir los nuevos archivos. Para obtener más información acerca de los archivos de proyecto, vea [Explorar la estructura de manifiesto de aplicación y el paquete de un complemento de SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
+También puede agregar archivos al proyecto. Si es así, debe actualizar el archivo Elements.xml que se encuentra en el mismo grupo (contenido, imágenes, páginas o secuencias de comandos) para incluir los nuevos archivos. Para obtener más información acerca de los archivos de proyecto, vea [Explorar la estructura de manifiesto de aplicación y el paquete de un complemento de SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
   
 ### <a name="set-application-scope"></a>Ámbito de aplicación de conjunto
 
@@ -331,7 +331,7 @@ Sigue la salida de ejemplo para las tareas de un único proyecto.
   
 ![Captura de pantalla que muestra el resultado de una tarea de proyecto] (media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "Captura de pantalla que muestra el resultado de una tarea de proyecto")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 Para obtener documentación y ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal del proyecto de desarrollo](https://developer.microsoft.com/en-us/project).
     

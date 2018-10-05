@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
-ms.openlocfilehash: e21ae09918c1814f2daedfdfb42f52b7d8f515ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e48172e8213359244a61716d208b8b98776429af
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822493"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397379"
 ---
 # <a name="linegradientrowtype-complextype-visio-xml"></a>LineGradientRow_Type complexType ('XML de Visio')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19822493"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |IndexedRow_Type  <br/> |
    

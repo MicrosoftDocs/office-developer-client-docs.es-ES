@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: Una convocatoria de reunión es un correo electrónico que tiene IPM. Schedule.Meeting.Request como la clase de mensaje. De forma predeterminada, un asistente recibir una convocatoria de reunión responde a ella directamente.
-ms.openlocfilehash: 3565b2af03ef79d70fc9f2817c64a788f031c416
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400134"
 ---
 # <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Información sobre las convocatorias de reunión como actualizaciones informativas y completas
 
-Una convocatoria de reunión es un correo electrónico que tiene **IPM. Schedule.Meeting.Request** como la clase de mensaje. De forma predeterminada, un asistente recibir una convocatoria de reunión responde a ella directamente. Outlook es compatible con la configuración de delegados que puede responder a las convocatorias de reunión en nombre del destinatario de la entidad de seguridad. Mediante programación, Outlook establece la propiedad con nombre [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de una convocatoria de reunión para identificar el estado actual de la actualización. 
+Una convocatoria de reunión es un correo electrónico que tiene **IPM. Schedule.Meeting.Request** como la clase de mensaje. De forma predeterminada, un asistente recibir una convocatoria de reunión responde a ella directamente. Outlook es compatible con la configuración de delegados que puede responder a las convocatorias de reunión en nombre del destinatario de la entidad de seguridad. Mediante programación, Outlook establece la propiedad con nombre [PidLidMeetingType](https://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de una convocatoria de reunión para identificar el estado actual de la actualización. 
   
 ## <a name="recipients-without-delegates"></a>Destinatarios sin delegados
 

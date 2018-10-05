@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0701bb2cf08c79a69c9cd21e9acf1ce4e8ac4ee1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d494f1f14daff75be55e910da56204ecb3dbcf83
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593077"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400715"
 ---
 # <a name="pidtagattachmentflags-canonical-property"></a>Propiedad canónica PidTagAttachmentFlags
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica un tratamiento especial para este objeto de datos adjuntos.
   
@@ -36,17 +36,17 @@ Indica un tratamiento especial para este objeto de datos adjuntos.
    
 ## <a name="remarks"></a>Comentarios
 
-Debe ser 0 x 00000000, a menos que se reemplaza por otros protocolos que amplían el mensaje y los datos adjuntos de protocolo de objetos como se indicó en [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+Debe ser 0 x 00000000, a menos que se reemplaza por otros protocolos que amplían el mensaje y los datos adjuntos de protocolo de objetos como se indicó en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

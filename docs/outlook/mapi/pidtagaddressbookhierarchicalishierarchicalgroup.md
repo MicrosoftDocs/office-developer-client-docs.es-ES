@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 15c635992134d61329f2f49c0fe3dd84d7225837
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 37a0e31ea368f091e3ad9c46473d3d33299d5a21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577131"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396606"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>Propiedad canónica PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si la lista de distribución también es un grupo de departamento. Esta propiedad solo está disponible en las listas de distribución.
   
@@ -39,11 +39,11 @@ Contiene TRUE si la lista de distribución también es un grupo de departamento.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones de protocolo de Microsoft Exchange Server relacionadas.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/en-us/library/cc433489%28v=exchg.80%29)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
 > Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

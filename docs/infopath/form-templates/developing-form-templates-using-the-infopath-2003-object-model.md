@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Microsoft InfoPath sigue siendo compatible con los proyectos de plantillas de formulario creados con el Kit de herramientas de Microsoft Office InfoPath 2003 para Visual Studio .NET o con Visual Studio 2005 Tools para Microsoft Office System que tienen lógica empresarial escrita en miembros del espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust . Los temas de esta sección se refieren a los tipos y miembros de este espacio de nombres como el modelo de objetos compatible con InfoPath 2003 o sencillamente el modelo de objetos de InfoPath 2003. InfoPath también es compatible con los proyectos de plantillas de formulario creados con Microsoft Office InfoPath 2007 que usan el modelo de objetos compatible con InfoPath 2003. Asimismo, puede usar InfoPath para crear nuevos proyectos de plantillas de formulario que usen el modelo de objetos compatible con InfoPath 2003 para que los usuarios de Office InfoPath 2007 dispongan de compatibilidad con versiones anteriores. En todos los temas de esta sección, se describe la creación y el desarrollo de plantillas de formulario que funcionen con el modelo de objetos compatible con InfoPath 2003 proporcionado por el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust .
-ms.openlocfilehash: 5d949242068586c752e7a92fa53792cda9ececea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815850"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401415"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Programar plantillas de formulario con código mediante el modelo de objetos de InfoPath 2003
 
@@ -46,11 +46,11 @@ Microsoft InfoPath sigue siendo compatible con los proyectos de plantillas de fo
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
-[Portal de programadores de InfoPath](http://go.microsoft.com/fwlink?LinkID=11689)
+[Portal de programadores de InfoPath](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Contiene vínculos a artículos técnicos, ejemplos de código, descargas, soporte técnico y documentación de MSDN relacionada con la creación de soluciones personalizadas de InfoPath.
     
-[Centro de programadores de Microsoft Office](http://go.microsoft.com/fwlink?LinkID=27128)
+[Centro de programadores de Microsoft Office](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Contiene vínculos a artículos técnicos, ejemplos de código, descargas, soporte técnico y documentación de MSDN relacionada con la creación de soluciones personalizadas de Office.
     

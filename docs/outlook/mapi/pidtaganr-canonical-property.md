@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6cc5edf1c93ca94fb9d8cab302ccd8e96373cd94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce08ba971662b7f5060e6b24a6d2c5ee1a921d5b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581947"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400443"
 ---
 # <a name="pidtaganr-canonical-property"></a>Propiedad canónica PidTagAnr
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de cadena para su uso en una restricción de propiedad en una tabla de contenido de contenedor de la libreta de direcciones. 
   
@@ -46,11 +46,11 @@ Para obtener más información sobre la resolución de nombres ambiguos, vea [Re
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.
     
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Las plantillas de formulario que se crean con Microsoft InfoPath usan un esquema XML (XSD) para llevar a cabo la validación estructural y de datos en el XML que entra, se modifica y sale de un formulario de InfoPath. Todas las plantillas de formulario creadas en el diseñador de formularios de InfoPath contienen por lo menos un archivo de esquema XSD (.xsd) que se usa para la validación en tiempo de ejecución.
-ms.openlocfilehash: 6b19399e4f31f6270fa6f360a8428c725050ce16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568276"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395507"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Trabajo con esquemas XML en InfoPath
 
@@ -151,13 +151,13 @@ Al igual que en el caso de los elementos, puede declarar un atributo con un elem
 
 ## <a name="storing-xml-signatures-in-the-data-source"></a>Almacenar firmas XML en orígenes de datos
 
-Para permitir que los usuarios firmen digitalmente un formulario en tiempo de ejecución, el esquema del origen de datos debe declarar un elemento denominado firma para almacenar la información de las firmas XML (firma digital) que se crea cuando un usuario firma el formulario. Esta declaración se hace con el elemento **xsd:any** con el atributo de espacio de nombres especificado como espacio de nombres de firmas XML con un carácter de comodín, del modo siguiente: "http://www.w3c.org/2000/09/xmldsig#" 
+Para permitir que los usuarios firmen digitalmente un formulario en tiempo de ejecución, el esquema del origen de datos debe declarar un elemento denominado firma para almacenar la información de las firmas XML (firma digital) que se crea cuando un usuario firma el formulario. Esta declaración se hace con el elemento **xsd:any** con el atributo de espacio de nombres especificado como espacio de nombres de firmas XML con un carácter de comodín, del modo siguiente: "https://www.w3c.org/2000/09/xmldsig#" 
   
 ```XML
 <xsd:element name="signature"> 
     <xsd:complexType> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3c.org/2000/09/xmldsig#"  
+            <xsd:any namespace="https://www.w3c.org/2000/09/xmldsig#"  
              processContents="lax" minOccurs="0" maxOccurs="unbounded"/> 
         <xsd:sequence> 
     </xsd:complexType> 
@@ -173,7 +173,7 @@ Para permitir que los usuarios firmen digitalmente un formulario en tiempo de ej
 <xsd:element name="xhtml"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/> 
+            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="https://www.w3.org/1999/xhtml" processContents="lax"/> 
         </xsd:sequence> 
     </xsd:complexType> 
 </xsd:element> 
@@ -194,7 +194,7 @@ Al igual que todos los estándares W3C, los esquemas XML (XSD) completaron un la
 Para asegurar que un archivo XSD admite la recomendación XSD completa, debe contener la siguiente declaración de espacio de nombres XML en la etiqueta \<schema\>:
   
 ```XML
-xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsd="https://www.w3.org/2001/XMLSchema"
 ```
 
 Al igual que todas las declaraciones de espacios de nombres XML, el prefijo XML (en este caso "xsd") puede ser cualquier cadena de prefijo válida. Algunos prefijos habituales que se pueden ver en la práctica son "xsd", "xs" y "" (sin prefijo). Por lo general, MSXML informa de un error referente a que la raíz no está adecuadamente definida si falta esta declaración del espacio de nombres.
@@ -377,14 +377,14 @@ Al quitar la etiqueta  `<xsd:choice />` vacía, se debería solucionar el proble
   
 ## <a name="regular-expressions"></a>Expresiones regulares
 
-MSXML 5.0 puede tener problemas cuando valida modelos de expresiones regulares durante la carga. Las expresiones regulares pueden ser complicadas y hay que tener precaución al usarlas. Cada analizador XSD parece tener lenguajes de expresiones regulares flexibles; es decir, implementan el lenguaje de expresiones regulares XSD oficial junto con los elementos de otros lenguajes de expresiones regulares. Si el diseñador de formularios de InfoPath tiene problemas al analizar una expresión regular, los datos de muestra que genera pueden no ser válidos o no llegar a generarse en absoluto. Esto es aceptable en tiempo de diseño, porque InfoPath solo usa datos de muestra para fines de formato. Ahora bien, si se usa una expresión regular que MSXML no admite, InfoPath no puede usarla para validar un valor cuando el usuario está rellenando un formulario. En [Esquema XML Parte 0: Primera, segunda edición](http://www.w3.org/TR/xmlschema-0/) se describe lo que se admite en las expresiones regulares XSD. Para obtener más información sobre las expresiones regulares XSD y las expresiones regulares de nivel 1 de Unicode, vea las [Expresiones habituales de Unicode](http://www.unicode.org/reports/tr18/). 
+MSXML 5.0 puede tener problemas cuando valida modelos de expresiones regulares durante la carga. Las expresiones regulares pueden ser complicadas y hay que tener precaución al usarlas. Cada analizador XSD parece tener lenguajes de expresiones regulares flexibles; es decir, implementan el lenguaje de expresiones regulares XSD oficial junto con los elementos de otros lenguajes de expresiones regulares. Si el diseñador de formularios de InfoPath tiene problemas al analizar una expresión regular, los datos de muestra que genera pueden no ser válidos o no llegar a generarse en absoluto. Esto es aceptable en tiempo de diseño, porque InfoPath solo usa datos de muestra para fines de formato. Ahora bien, si se usa una expresión regular que MSXML no admite, InfoPath no puede usarla para validar un valor cuando el usuario está rellenando un formulario. En [Esquema XML Parte 0: Primera, segunda edición](https://www.w3.org/TR/xmlschema-0/) se describe lo que se admite en las expresiones regulares XSD. Para obtener más información sobre las expresiones regulares XSD y las expresiones regulares de nivel 1 de Unicode, vea las [Expresiones habituales de Unicode](https://www.unicode.org/reports/tr18/). 
   
 ## <a name="targetnamespace-attribute-issues"></a>Problemas con el atributo targetNamespace
 
 XSD es interesante en el sentido de que, de manera predeterminada, el atributo **targetNamespace** se refiere únicamente a las declaraciones de nivel superior, aunque se puede establecer  `attributeFormDefault=qualified` y  `elementFormDefault=qualified` para invalidar este comportamiento predeterminado. Como ejemplo, suponga que tiene el siguiente XSD. 
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -399,7 +399,7 @@ XSD es interesante en el sentido de que, de manera predeterminada, el atributo *
 Y que el documento de instancia XML se parece a este ejemplo.
   
 ```XML
-<ns:root xmlns:ns="http://ns"> 
+<ns:root xmlns:ns="https://ns"> 
     <local/> 
 </ns:root> 
 
@@ -408,7 +408,7 @@ Y que el documento de instancia XML se parece a este ejemplo.
 Las definiciones locales no requieren el espacio de nombres de destino porque la cualificación de nombre completo está deshabilitada de manera predeterminada. Sin embargo, si cambia la definición local para que sea global, entonces la referencia debe completarse con el prefijo del espacio de nombres. Por ejemplo, el esquema siguiente no es válido.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -422,11 +422,11 @@ Las definiciones locales no requieren el espacio de nombres de destino porque la
 
 ```
 
-Este esquema no es válido porque "global" está en el espacio de nombres "http://ns". La simple ref="global" no se reconoce porque el espacio de nombres predeterminado no es "http://ns". Para solucionarlo, debe agregar un prefijo al espacio de nombres de destino y usarlo en todos las referencias globales y usos de tipos. El esquema correcto se muestra a continuación.
+Este esquema no es válido porque "global" está en el espacio de nombres "https://ns". La simple ref="global" no se reconoce porque el espacio de nombres predeterminado no es "https://ns". Para solucionarlo, debe agregar un prefijo al espacio de nombres de destino y usarlo en todos las referencias globales y usos de tipos. El esquema correcto se muestra a continuación.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
-    xmlns:ns="http://ns" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
+    xmlns:ns="https://ns" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -510,13 +510,13 @@ Si también desea permitir atributos definidos por el usuario, debe agregar  `<x
   
 ## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>Permitir enlazar elementos de texto enriquecido en los modos de diseño y de edición de InfoPath
 
-Si desea declarar un elemento que se pueda enlazar a un control **Rich Text Box**, debe tener el formulario siguiente, que incluye el elemento **xsd:any** que tiene un atributo de espacio de nombres establecido en "http://www.w3.org/1999/xhtml", como se muestra en el ejemplo siguiente. 
+Si desea declarar un elemento que se pueda enlazar a un control **Rich Text Box**, debe tener el formulario siguiente, que incluye el elemento **xsd:any** que tiene un atributo de espacio de nombres establecido en "https://www.w3.org/1999/xhtml", como se muestra en el ejemplo siguiente. 
   
 ```XML
 <xsd:element name="your_node_name"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml"  
+            <xsd:any namespace="https://www.w3.org/1999/xhtml"  
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
@@ -530,10 +530,10 @@ Aprovechando las ventajas que presenta InfoPath para diseñar soluciones de form
   
 ## <a name="see-also"></a>Vea también
 
-- [Esquema XML W3C ](http://www.w3.org/XML/Schema)
-- [Esquema W3C XML Primer](http://www.w3.org/TR/xmlschema-0/)
+- [Esquema XML W3C ](https://www.w3.org/XML/Schema)
+- [Esquema W3C XML Primer](https://www.w3.org/TR/xmlschema-0/)
 - [Referencia de estructuras de Esquema W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
 - [Referencia de tipos de datos de esquema W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
 - [Tutorial del esquema XML](https://www.w3schools.com/xml/schema_intro.asp)
-- [Centro de programadores de XML](http://msdn.microsoft.com/en-us/xml/default.aspx)
+- [Centro de programadores de XML](https://msdn.microsoft.com/xml/default.aspx)
 

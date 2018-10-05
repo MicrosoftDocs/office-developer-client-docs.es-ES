@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: df9b880739215a681986670926b843fec6cc3969
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f25f8a538ff61bc7e04c234efd7404b1c866d64d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584194"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399105"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>Propiedad canónica PidLidBusinessCardDisplayDefinition
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene detalles de personalización de usuario para mostrar un contacto como una tarjeta de presentación.
   
@@ -43,11 +43,11 @@ El diseño de una tarjeta de presentación se puede representar como una imagen 
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

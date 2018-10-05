@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 813d6dee-b113-c0c9-3f53-c5bfd05b92f2
-ms.openlocfilehash: 4093f0e826fabc3f732f71b91beaf0ad40f8c54c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc59e95c8bb95932dd181b40a2e60dc6a3dac485
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822883"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395276"
 ---
 # <a name="propertyrowtype-complextype-visio-xml"></a>PropertyRow_Type complexType ('XML de Visio')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19822883"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |NamedRow_Type  <br/> |
    

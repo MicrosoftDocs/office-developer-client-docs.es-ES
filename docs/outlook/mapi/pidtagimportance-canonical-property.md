@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 12fa3d0d1c5cc84c42049f4a208ea961f6631bcd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6bef8b05f2fbf94b74ee126b80dfc6ae0c5e9d11
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566211"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400834"
 ---
 # <a name="pidtagimportance-canonical-property"></a>Propiedad canónica PidTagImportance
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que indica la opinión de la dirección del remitente del mensaje de la importancia de un mensaje. 
   
@@ -56,11 +56,11 @@ IMPORTANCE_NORMAL
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

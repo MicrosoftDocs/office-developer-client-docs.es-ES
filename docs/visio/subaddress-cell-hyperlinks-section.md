@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: Especifica una ubicación del documento de destino con la que se establece el vínculo.
-ms.openlocfilehash: 0509b9b6a708924b5aeb69f16f3f4cd99573cc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 092a53bd7c9d5adb77ed35f3e2ef53888bd6ebea
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823349"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395269"
 ---
 # <a name="subaddress-cell-hyperlinks-section"></a>Celda SubAddress (sección Hipervínculos)
 
@@ -22,7 +22,7 @@ Especifica una ubicación del documento de destino con la que se establece el v�
   
 ## <a name="remarks"></a>Observaciones
 
-Por ejemplo, si la celda Address es "Drawing1.vsdx", la celda SubAddress puede especificar un nombre de página como "Página 3". Si la celda Address es el archivo de Microsoft Excel "Samples.xlsx", el valor de esta celda puede ser una hoja de cálculo o un intervalo dentro de una hoja de cálculo, como "Funciones de hoja de cálculo" o "Sheet1! A1: D10 ". Si la celda Address "http://www.microsoft.com/office/", el valor de esta celda puede ser un anclaje con nombre dentro del documento, como "soluciones".
+Por ejemplo, si la celda Address es "Drawing1.vsdx", la celda SubAddress puede especificar un nombre de página como "Página 3". Si la celda Address es el archivo de Microsoft Excel "Samples.xlsx", el valor de esta celda puede ser una hoja de cálculo o un intervalo dentro de una hoja de cálculo, como "Funciones de hoja de cálculo" o "Sheet1! A1: D10 ". Si la celda Address "https://www.microsoft.com/office/", el valor de esta celda puede ser un anclaje con nombre dentro del documento, como "soluciones".
   
 También puede establecer el valor de esta celda en el cuadro de diálogo ** Hipervínculos** (en el grupo **Vínculos** en la ficha **Insertar**, haga clic en **Hipervínculo**).
   

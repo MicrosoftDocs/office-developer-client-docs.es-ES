@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: El modelo de objetos de cliente (CSOM) es un conjunto de API para Project Server 2013 que están diseñados para ambos en línea y local usar en las aplicaciones que se pueden desarrollar para PC, dispositivos móviles y tabletas. En este artículo incluye algunos escenarios típicos para usar el CSOM y también se enumera las limitaciones del CSOM.
-ms.openlocfilehash: 232152d3d2ee902b438bc1fe3ece06acca713175
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9f9e0404cb0063a1c58c8e66a022372881a24f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821447"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399294"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>Lo que hace y no hace CSOM
 
@@ -65,11 +65,11 @@ Para obtener una lista de acciones que controlan la PSI ni CSOM, vea la sección
 
 El CSOM no incluye funciones de los siguientes servicios de PSI:
   
-- **Servicio de administración** Para administrar la configuración administrativa y las operaciones en Project Server y para los sitios de proyecto relacionadas, como la creación de períodos fiscales y realizar la configuración del parte de horas, use los métodos PSI en la clase [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) . Project Web App propio usa los métodos de **administración** en muchas de las páginas que están vinculadas a la página Configuración del servidor (http:// *nombreDeServidor*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx). 
+- **Servicio de administración** Para administrar la configuración administrativa y las operaciones en Project Server y para los sitios de proyecto relacionadas, como la creación de períodos fiscales y realizar la configuración del parte de horas, use los métodos PSI en la clase [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) . Project Web App propio usa los métodos de **administración** en muchas de las páginas que están vinculadas a la página Configuración del servidor (https:// *nombreDeServidor*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx). 
     
 - **Servicio de archivado** Para guardar y administrar entidades tales como proyectos, recursos y campos personalizados en las tablas de archivado, usan los métodos PSI en la clase de [archivo](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx) . 
     
-- **Servicio CubeAdmin** Para crear y administrar cubos OLAP para instalaciones locales, use los métodos PSI en la clase [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) o use la página de administración de bases de datos OLAP (http:// *nombreDeServidor*  /  ** ProjectServerName/_layouts/15/pwa / CubeAdmin/CubeAnalysisAdmin.aspx) en Project Web App. 
+- **Servicio CubeAdmin** Para crear y administrar cubos OLAP para instalaciones locales, use los métodos PSI en la clase [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) o use la página de administración de bases de datos OLAP (https:// *nombreDeServidor*  /  *ProjectServerName* /_layouts/15/pwa / CubeAdmin/CubeAnalysisAdmin.aspx) en Project Web App. 
     
     > [!NOTE]
     > Project Online no es compatible con los cubos OLAP. 
@@ -110,7 +110,7 @@ El CSOM en Project Server 2013 se basa en la implementación de CSOM en SharePoi
   
 Por ejemplo, si usa el CSOM para crear un proyecto y edita a continuación el proyecto para añadir 252 tareas con una cantidad de información mínima, tal como un nombre corto, el GUID de tarea y una duración de 1d, la cantidad total de datos en la solicitud de **DraftProject.Update** es inferior a 2 MB. Pero si trata de añadir 253 de dichas tareas a un proyecto vacío, se superará el límite de 2 MB y obtendrá la siguiente excepción: **Microsoft.SharePoint.Client.ServerException: La solicitud utiliza demasiados recursos.**
   
-Para capturar los datos en una solicitud CSOM a través de HTTP o HTTPS, puede usar una herramienta como [Fiddler](http://www.fiddler2.com) de depuración de web (http://www.fiddler2.com). Para obtener un ejemplo de código que implementa una prueba para el tamaño de la solicitud e incluye una solución que se interrumpe una solicitud de gran tamaño en a grupos más pequeños, vea [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
+Para capturar los datos en una solicitud CSOM a través de HTTP o HTTPS, puede usar una herramienta como [Fiddler](https://www.fiddler2.com) de depuración de web (https://www.fiddler2.com). Para obtener un ejemplo de código que implementa una prueba para el tamaño de la solicitud e incluye una solución que se interrumpe una solicitud de gran tamaño en a grupos más pequeños, vea [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
   
 ## <a name="see-also"></a>Vea también
 <a name="pj15_WhatTheCSOM_AR"> </a>

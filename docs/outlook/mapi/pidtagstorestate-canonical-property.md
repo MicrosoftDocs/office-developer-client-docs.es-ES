@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7348d0395952036ee6b356b013072324b64e4b98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f00addf7abdd765d97c54350e46979f788f06ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570824"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399014"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>Propiedad canónica PidTagStoreState
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un indicador que describe el estado del almacén de mensajes. 
   
@@ -48,11 +48,11 @@ STORE_HAS_SEARCHES
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Especifica las operaciones permitidas para los objetos de almacén de mensajes principales.
     
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 263b7eb0de7fe724625d99c3f08ad12d5740dd52
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4b2aa12b1b81dfd218781a839f5f84881763ef06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400330"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>Propiedad canónica PidTagRoamingDictionary
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un documento XML que describe el diccionario de movilidad.
   
@@ -38,7 +38,7 @@ Esta propiedad contiene un documento XML UNICODE que está usando la codificaci�
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
-<xs:schema targetNamespace="Dictionary.xsd" xmlns="Dictionary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:schema targetNamespace="Dictionary.xsd" xmlns="Dictionary.xsd" xmlns:xs="https://www.w3.org/2001/XMLSchema"> 
    <xs:element name="UserConfiguration"> 
    <xs:complexType> 
    <xs:sequence> 
@@ -68,11 +68,11 @@ El siguiente es un documento XML de ejemplo almacenado en esta propiedad en un m
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Especifica la ubicación y las propiedades de datos de configuración de cliente y servidor, como las listas de categoría compartida y horas de trabajo.
     
@@ -86,7 +86,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

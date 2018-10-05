@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 74b7bdd0-89d1-4013-a6f1-8ea102974f19
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a91d565774806b0c25c4088fdee0a3811f639b6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 820c00d9b375734343af8226fdbd1dca3b8a506e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583648"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401163"
 ---
 # <a name="pidtaglanguage-canonical-property"></a>Propiedad canónica PidTagLanguage
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor que indica el idioma en el que el usuario de mensajería es escribir los mensajes.
   
@@ -42,15 +42,15 @@ La cadena contiene un código de país o región de dos caracteres único.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.
     
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

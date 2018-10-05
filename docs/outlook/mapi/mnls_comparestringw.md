@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
 description: 'Última modificación: 20 de febrero de 2012'
-ms.openlocfilehash: 3e23fa9fcb074fabacf1a2dd9ac3f632cdce5b5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576179"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396214"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Compara dos cadenas Unicode.
   
@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [entrada] Identificador de configuración regional. Para obtener definiciones detalladas, vea el parámetro de _Configuración regional_ de [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+> [entrada] Identificador de configuración regional. Para obtener definiciones detalladas, vea el parámetro de _Configuración regional_ de [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [entrada] Marcas para pasar por alto mayúsculas y minúsculas y diacríticos. Para obtener definiciones detalladas, vea el parámetro _dwCmpFlags_ de [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+> [entrada] Marcas para pasar por alto mayúsculas y minúsculas y diacríticos. Para obtener definiciones detalladas, vea el parámetro _dwCmpFlags_ de [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
@@ -61,17 +61,17 @@ int MNLS_CompareStringW (
     
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve los valores que se describen para [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+Devuelve los valores que se describen para [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función ajusta [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** acepta los mismos parámetros y tiene el mismo comportamiento como [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+Esta función ajusta [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** acepta los mismos parámetros y tiene el mismo comportamiento como [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

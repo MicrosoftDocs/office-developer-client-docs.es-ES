@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Última modificación: 18 de julio de 2013'
-ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566925"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399559"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar servicios y proveedores de servicios en MapiSvc.inf
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Instalación de un nuevo proveedor en un sistema requiere la actualización del archivo MapiSvc.inf para que apunte al nuevo proveedor. Las propiedades estándar establecer durante la configuración, que se incluyen los siguientes, informar a MAPI dónde encontrar la biblioteca de vínculos dinámicos (.dll) de un proveedor:
   
@@ -43,11 +43,11 @@ A veces en un proveedor de almacén generará mediante la función **WrapStoreEn
 > [!IMPORTANT]
 > Si está utilizando rutas de acceso completas en MapiSvc.inf, debe usar la misma ruta de acceso en todas las llamadas a **WrapStoreEntryID**. 
   
-Además, la ruta de acceso que se utiliza es posible que se va a convertir a y desde Unicode mediante la página de código proporcionada por la función [GetACP](http://msdn.microsoft.com/en-us/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
+Además, la ruta de acceso que se utiliza es posible que se va a convertir a y desde Unicode mediante la página de código proporcionada por la función [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
   
 > [!CAUTION]
-> Si elige una ruta de acceso que contiene caracteres que no se pueden sobrevivir fácilmente a través de las funciones de [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) y [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) experimentará errores. 
+> Si elige una ruta de acceso que contiene caracteres que no se pueden sobrevivir fácilmente a través de las funciones de [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) y [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) experimentará errores. 
   
-Para una demostración de esta funcionalidad, se ha revisado el [ejemplo PST ajustado](http://ol2010mapisamples.codeplex.com/) en CodePlex - la funcionalidad pertinente se encuentra en **MergeWithMapiSvc** y **GenerateProviderPath**.
+Para una demostración de esta funcionalidad, se ha revisado el [ejemplo PST ajustado](https://ol2010mapisamples.codeplex.com/) en CodePlex - la funcionalidad pertinente se encuentra en **MergeWithMapiSvc** y **GenerateProviderPath**.
   
 

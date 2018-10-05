@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577719"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400148"
 ---
 # <a name="link-to-mapi-functions"></a>Vínculo a funciones de MAPI
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Hay tres métodos de vinculación: vinculación implícita, vinculación explícita y un nuevo modelo híbrido mediante la biblioteca de código auxiliar de MAPI.
   
@@ -121,15 +121,15 @@ Algunas de las nuevas funciones vinculadas desde esta biblioteca que no están d
     
 Es un método alternativo de la incorporación de la biblioteca de código auxiliar de MAPI copiar los archivos de origen, MapiStubLibrary.cpp y StubUtils.cpp, directamente en el proyecto y quitar cualquier vinculaciones a Mapi32.lib y cualquier código que se vincula explícitamente a MAPI.
   
-Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y para obtener información acerca de cómo crear e integrarla en su proyecto, así como preguntas acerca de esta biblioteca, como cuándo y por qué usarla, consulte la [Biblioteca de código auxiliar de MAPI](http://mapistublibrary.codeplex.com/documentation) en el sitio de CodePlex. 
+Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y para obtener información acerca de cómo crear e integrarla en su proyecto, así como preguntas acerca de esta biblioteca, como cuándo y por qué usarla, consulte la [Biblioteca de código auxiliar de MAPI](https://mapistublibrary.codeplex.com/documentation) en el sitio de CodePlex. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
 - [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar los archivos de encabezado MAPI](how-to-install-mapi-header-files.md)
 - [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Determinar qué método de vinculación de uso](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [Vincular un ejecutable a un archivo DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [Configuración de las claves MSI para el archivo DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [Determinar qué método de vinculación de uso](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Vincular un ejecutable a un archivo DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [Configuración de las claves MSI para el archivo DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

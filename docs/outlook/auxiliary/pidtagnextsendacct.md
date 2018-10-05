@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
 description: Especifica la accountsendstamp secundaria para el mensaje.
-ms.openlocfilehash: 63d98382ff8a5a545cdb015c089c7b0a38926138
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3aa88a1fd5a73cc4ae2e990e6dad0697083bb694
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816314"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396480"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
@@ -34,6 +34,6 @@ Esta propiedad se aplica a un objeto de mensaje MAPI. Para un mensaje recibido, 
 ## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
-- [Propiedades MAPI](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx) 
-- [Propiedad canónica PidTagNextSendAcct](http://msdn.microsoft.com/library/b7429c2e-0d9d-4921-9f56-9ecad817f8cb%28Office.15%29.aspx)
+- [Propiedades MAPI](https://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx) 
+- [Propiedad canónica PidTagNextSendAcct](https://msdn.microsoft.com/library/b7429c2e-0d9d-4921-9f56-9ecad817f8cb%28Office.15%29.aspx)
 

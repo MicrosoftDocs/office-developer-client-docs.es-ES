@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a8c89afe0d70a1737c6ce694c66359fd6aae4f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573820"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398097"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
@@ -52,7 +52,7 @@ HRESULT DoVerb(
     
  _lprcPosRect_
   
-> [entrada] Un puntero a un Win32 estructura de [rectángulo](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario. 
+> [entrada] Un puntero a un Win32 estructura de [rectángulo](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -70,7 +70,7 @@ Visores de formulario llamar al método **IMAPIForm::DoVerb** para solicitar que
   
 Cada uno de los verbos admitidos se identifica mediante un valor numérico, pasado a **DoVerb** en el parámetro _iVerb_ . Las implementaciones típicas de **DoVerb** contienen una instrucción **switch** que comprueba los valores que son válidos para el parámetro _iVerb_ para el formulario. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si el Visor de formulario especifica un contexto de vista en el parámetro _lpViewContext_ , usar en su implementación **DoVerb** en lugar de al contexto de la vista que se pasan en una llamada anterior al método [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) . Hacer que los cambios son necesarios para las estructuras de datos internos y no guardar el contexto de vista. 
   
@@ -86,7 +86,7 @@ En su implementación **DoVerb** , realice las siguientes tareas:
     
 Algunos verbos, como la impresión, deben ser modales con respecto a la llamada **DoVerb** , es decir, la operación indicada se debe finalizar antes de la llamada **DoVerb** devuelve. 
   
-Para obtener la estructura de **rectángulo** usada por la ventana de un formulario, llame a la función [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) . 
+Para obtener la estructura de **rectángulo** usada por la ventana de un formulario, llame a la función [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
 No guarde el controlador en el parámetro _hwndParent_ porque, aunque normalmente permanece válido hasta la finalización de **DoVerb**, puede ser destruir inmediatamente tras la devolución de llamada.
   
@@ -94,13 +94,13 @@ No guarde el controlador en el parámetro _hwndParent_ porque, aunque normalment
 
 Puede realizar los verbos no modal actuar como verbos modales señalando _lpViewContext_ a una implementación de contexto de vista que devuelve la marca VCSTATUS_MODAL desde su método [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) . 
   
-Para obtener más información acerca de los verbos en MAPI, vea [Verbos de formulario](form-verbs.md). Para obtener más información acerca de cómo se administran los verbos en OLE, vea [OLE y la transferencia de datos](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).
+Para obtener más información acerca de los verbos en MAPI, vea [Verbos de formulario](form-verbs.md). Para obtener más información acerca de cómo se administran los verbos en OLE, vea [OLE y la transferencia de datos](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI usa el método **IMAPIForm::DoVerb** para invocar un verbo en un formulario.  <br/> |
    
@@ -115,7 +115,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Verbos de formulario](form-verbs.md)
 

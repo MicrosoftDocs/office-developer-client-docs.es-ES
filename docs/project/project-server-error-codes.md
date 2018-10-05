@@ -14,28 +14,28 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Este tema contiene tablas de códigos de error para Project Server Interface (PSI) en Project Server 2013. Las tablas se organizan por área funcional y por intervalo de códigos de error.
-ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7fdfafa562492fe4d5671f1335ca58cf50c91e88
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564146"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401786"
 ---
 # <a name="project-server-error-codes"></a>Códigos de error de Project Server
 
 Este tema contiene tablas de códigos de error para Project Server Interface (PSI) en Project Server 2013. Las tablas se organizan por área funcional y por intervalo de códigos de error.
    
-Project Server 2013 procesos y métodos PSI tienen números de código de error que generalmente se organizan por área funcional. La enumeración [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) se duplica en [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); enumeran los códigos de error en orden alfabético por nombre. En este tema se enumera los códigos de error en las tablas que se organizan por la clase PSI o el área funcional y por el número de identificador (Id.) de error. 
+Project Server 2013 procesos y métodos PSI tienen números de código de error que generalmente se organizan por área funcional. La enumeración [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) se duplica en [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); enumeran los códigos de error en orden alfabético por nombre. En este tema se enumera los códigos de error en las tablas que se organizan por la clase PSI o el área funcional y por el número de identificador (Id.) de error. 
   
 > [!NOTE]
 >  Muchos de los códigos de error son generales y pueden tener varias causas posibles. Si desea más información sobre los errores, puede hacer lo siguiente: 
 > - Para las aplicaciones basadas en ASMX, use **System.Web.Services.Protocols.SoapException** con el objeto **PSClientError** para mostrar una lista o jerarquía de errores en una llamada de método PSI. Vea [Ejemplo de códigos de error de ASMX](#pj15_ErrorCodes_ASMXExample). 
 > - Para las aplicaciones basadas en WCF, puede usar **System.ServiceModel.FaultException** para obtener un objeto **PSClientError** y también para obtener información adicional sobre el error. Vea [Ejemplo de códigos de error de WCF](#pj15_ErrorCodes_WCFExample). 
 > - Use el registro de eventos de la aplicación en el equipo de Project Server.
-> - Use los registros de seguimiento del servicio de registro unificado (ULS). Para obtener una explicación, consulte la sección *Comprobación de errores* en [Introducción al desarrollo para Project 2010](http://msdn.microsoft.com/en-us/library/gg607685.aspx). 
-> - Para obtener más información acerca del uso de los registros de ULS, vea el artículo del blog de soporte técnico de Project [Project Server 2010: qué esperar cuando obtenga la inesperado](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)y buscar el blog para "leer ULS registros." 
-> - Para ayudar a encontrar o controlar problemas específicos en los datos del ULS, utilice el [Visor de ULS](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Use Microsoft SQL Server Profiler para capturar o controlar errores de base de datos. Para obtener más información, vea [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - Use los registros de seguimiento del servicio de registro unificado (ULS). Para obtener una explicación, consulte la sección *Comprobación de errores* en [Introducción al desarrollo para Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
+> - Para obtener más información acerca del uso de los registros de ULS, vea el artículo del blog de soporte técnico de Project [Project Server 2010: qué esperar cuando obtenga la inesperado](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)y buscar el blog para "leer ULS registros." 
+> - Para ayudar a encontrar o controlar problemas específicos en los datos del ULS, utilice el [Visor de ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
+> - Use Microsoft SQL Server Profiler para capturar o controlar errores de base de datos. Para obtener más información, vea [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
 > - Muchos de los códigos de error solo se usan internamente. Por ejemplo, como los servicios web **ExchangeSync** y **PWA** no se pueden usar para el desarrollo de terceros, no es probable que vea los códigos de error de métodos de esas áreas, como, por ejemplo, los métodos **Rules** y **StatusReports**. Sin embargo, las tablas de este artículo incluyen todos los códigos de error de Project Server con la pretensión de ser exhaustivas. 
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Tabla 1. Áreas funcionales de los códigos de error e intervalos de números relacionados
@@ -1050,7 +1050,7 @@ Los códigos de error de la Tabla 22 corresponden a los métodos de **Rules** de
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## <a name="table-22-rules"></a>Tabla 22. Rules
+## <a name="table-22-rules"></a>Tabla 22. Reglas
 
 |Código de error de reglas|Descripción|
 |:-----|:-----|
@@ -1610,8 +1610,8 @@ CustomFieldRequiredValueNotProvided
 ## <a name="see-also"></a>Vea también
 
 - [Artículos con conceptos e instrucciones de Project](project-conceptual-and-how-to-articles.md)
-- [Analizador de SQL Server](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
-- [Project Server 2010: Qué esperar cuando obtenga la inesperado](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
-- [Visor de ULS](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
+- [Analizador de SQL Server](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
+- [Project Server 2010: Qué esperar cuando obtenga la inesperado](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
+- [Visor de ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
     
 

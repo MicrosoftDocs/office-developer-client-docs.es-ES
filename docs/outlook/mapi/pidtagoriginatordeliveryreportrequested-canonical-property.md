@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9e508f9c3d84272a0641a27e18c94e0620a7072c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a92ee13e571032c050f69677d9daba8dad7aea3c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574408"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395500"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Propiedad canónica PidTagOriginatorDeliveryReportRequested
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el remitente del mensaje solicita un informe de entrega para un destinatario concreto desde el sistema de mensajería antes de que el mensaje se coloca en el almacén de mensajes.
   
@@ -44,7 +44,7 @@ Establecimiento de la propiedad **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** en u
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

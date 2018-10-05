@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6c7dbbaf9d3d8cc09eef8a6ac193e786092bb8cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24c3369d1d6db4977d26e4d31678a4f2cc5808a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571454"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399805"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propiedad canónica PidTagFreeBusyRangeTimestamp
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la hora cuando se publican los datos.
   
@@ -42,11 +42,11 @@ Esta propiedad es el número de minutos transcurridos desde la medianoche del 1 
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica la disponibilidad de un usuario o recurso.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 30ee7c1a7eb86fd4cdfe90fb6711bd1b295fd5e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591089"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398027"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Propiedad canónica PidTagDeferredSendNumber
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número que se puede usar para calcular el aplazamiento de enviar un mensaje.
   
@@ -44,7 +44,7 @@ El valor **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -58,7 +58,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 658f3694e7592fab54b2ddf303da2e15e4510354
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 662c191f36f9ca30dcdf0f559ea5385bfe5fd305
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567107"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396438"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>Propiedad canónica PidTagReadReceiptEntryId
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador de entrada para el usuario de mensajería donde el sistema de mensajería debe dirigir un informe de lectura para este mensaje.
   
@@ -44,11 +44,11 @@ Si una aplicación cliente desea recibir informes de lectura propiamente dicha, 
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten en los objetos de mensajes de correo electrónico.
     
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

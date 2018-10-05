@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb478151-4afc-9a06-42a2-1defa54a3c4a
-description: Este documento se proporcionatal cual. La información y las vistas contenidas en este documento, incluidas las referencias a direcciones URL y otros sitios web, pueden variar sin previo aviso. Usted asume todo el riesgo de usarlo.
-ms.openlocfilehash: a3d572d61ade70ec09eeead608d5a1c7ae2fb029
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este documento se proporcionatal cual. Información y las vistas contenidas en este documento, incluidas direcciones URL y otras referencias a sitios Web de Internet, pueden cambiar sin previo aviso. Usted asume todo el riesgo de usarlo.
+ms.openlocfilehash: 2faffee253779cbc2c6fde0716db1ff46b1583bc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823519"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401114"
 ---
 # <a name="visio-sdk-copyright-notice"></a>Aviso de derechos de autor del SDK de Visio
 
-Este documento se proporciona "tal cual". La información y las vistas contenidas en este documento, incluidas las referencias a direcciones URL y otros sitios web, pueden variar sin previo aviso. Usted asume todo el riesgo de usarlo. 
+Este documento se proporciona "tal cual". Información y las vistas contenidas en este documento, incluidas direcciones URL y otras referencias a sitios Web de Internet, pueden cambiar sin previo aviso. Usted asume todo el riesgo de usarlo. 
   
 Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
   

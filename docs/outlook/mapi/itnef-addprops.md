@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589521"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396319"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Permite que el proveedor de servicios de llamada o la puerta de enlace Agregar propiedades a la encapsulación de un mensaje o datos adjuntos. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Codifica sólo las propiedades desde el mensaje o adjunto especificado por el parámetro _ulElemID_ . Si se establece este indicador, el valor de _lpvData_ debe ser un puntero de [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Codifica sólo las propiedades desde el mensaje o adjunto especificado por el parámetro _ulElemID_ . Si se establece este indicador, el valor de _lpvData_ debe ser un puntero de [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
@@ -92,15 +92,15 @@ Los proveedores de transporte, los proveedores de almacén de mensajes y las pue
   
 Tenga en cuenta que no hay codificación TNEF real ocurre para **AddProps** hasta que se llama al método [ITnef::Finish](itnef-finish.md) . Esta funcionalidad significa que punteros pasados a **AddProps** deben permanecer válidos hasta después de que se realiza la llamada al **Finalizar** . En ese momento, todos los objetos y datos pasadas con las llamadas de **AddProps** pueden publicados o liberados. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el método **ITnef::AddProps** para copiar las propiedades de un mensaje a una secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

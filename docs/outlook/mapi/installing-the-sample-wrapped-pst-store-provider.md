@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397768"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar la muestra de proveedor de almacén de archivos PST ajustado
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema le lleva a través de los pasos para descargar e instalar al proveedor de almacén de archivos PST ajustado de ejemplo. El ejemplo ajustado PST Store Provider, WrapPST, se implementa un proveedor de almacén de archivos PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación](about-the-replication-api.md).
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Instalar al proveedor de almacén de archivos PST ajustado de ejemplo
 
-1. Para descargar el proveedor de almacén de archivos PST ajustado de ejemplo, vea [ejemplos de código de referencia auxiliar de Outlook 2007 e instalador redistribuible](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Para descargar el proveedor de almacén de archivos PST ajustado de ejemplo, vea [ejemplos de código de referencia auxiliar de Outlook 2007 e instalador redistribuible](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Abra la carpeta **SampleWrappedPSTStoreProvider** y haga clic en **Extraer todos los archivos**.
     
@@ -48,7 +48,7 @@ En este tema le lleva a través de los pasos para descargar e instalar al provee
     
 11. En el cuadro de diálogo **Control de cuentas de usuario** , haga clic en **continuar**.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

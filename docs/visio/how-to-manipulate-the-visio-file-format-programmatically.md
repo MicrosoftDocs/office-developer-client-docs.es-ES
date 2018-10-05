@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: ba3c03069235b1054dabd122471be996ec515772
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3da5d0c0c63ba58649435d2e2289b58ab30de2ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567849"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395822"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular el formato de archivo de Visio mediante programación
 
@@ -32,15 +32,15 @@ Versiones anteriores de Visio guardan los archivos en un formato de archivo bina
 En este artículo, analizaremos cómo trabajar mediante programación, con el formato de archivo de Visio 2013 using the Microsoft .NET Framework 4.5, C# o Visual Basic y Visual Studio 2012. Puede ver cómo abrir un archivo de Visio 2013, seleccione partes del documento dentro del archivo, cambiar los datos en elementos y crear un nuevo elemento de documento.
   
 > [!NOTE]
-> Los ejemplos de código en este artículo se suponen que tiene una comprensión básica de las clases en los espacios de nombres [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) y [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . > Este artículo también se supone que comprende los conceptos y la terminología de las convenciones de empaquetado abierto. Debe tener un poco familiarizado con los conceptos de paquetes, partes de documentos o elementos del paquete y relaciones. Para obtener más información, vea [OPC: nuevo estándar para empaquetar sus datos](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > El código, muestra cómo crear consultas LINQ (Language-Integrated Query) para seleccionar XML. La mayoría de los ejemplos de código use la sintaxis de consulta para crear consultas de LINQ. Puede volver a escribir las consultas LINQ proporcionadas en el código mediante el uso de la sintaxis del método LINQ, si es necesario. Para obtener más información acerca de la sintaxis de consultas LINQ y sintaxis de método, vea [Sintaxis de consulta de LINQ en comparación con la sintaxis del método (C#)](http://msdn.microsoft.com/en-us/library/bb397947.aspx)> la tabla 1 muestra los temas esenciales que debería estar familiarizado con antes de que funciona a través de este artículo. 
+> Los ejemplos de código en este artículo se suponen que tiene una comprensión básica de las clases en los espacios de nombres [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) y [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . > Este artículo también se supone que comprende los conceptos y la terminología de las convenciones de empaquetado abierto. Debe tener un poco familiarizado con los conceptos de paquetes, partes de documentos o elementos del paquete y relaciones. Para obtener más información, vea [OPC: nuevo estándar para empaquetar sus datos](https://msdn.microsoft.com/magazine/cc163372.aspx). > El código, muestra cómo crear consultas LINQ (Language-Integrated Query) para seleccionar XML. La mayoría de los ejemplos de código use la sintaxis de consulta para crear consultas de LINQ. Puede volver a escribir las consultas LINQ proporcionadas en el código mediante el uso de la sintaxis del método LINQ, si es necesario. Para obtener más información acerca de la sintaxis de consultas LINQ y sintaxis de método, vea [Sintaxis de consulta de LINQ en comparación con la sintaxis del método (C#)](https://msdn.microsoft.com/library/bb397947.aspx)> la tabla 1 muestra los temas esenciales que debería estar familiarizado con antes de que funciona a través de este artículo. 
   
 **Tabla 1. Conceptos básicos de la manipulación del formato de archivo de Visio 2013**
 
 |**Título del artículo**|**Descripción**|
 |:-----|:-----|
 |[Introducción al formato de archivo de Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Esta información general de alto nivel describe algunas de las principales características de formato de archivo de Visio 2013. Se describen Open Packaging Conventions (OPC), tal y como se han aplicado al formato de archivo de Visio 2013. También se enumeran algunas diferencias entre el formato de archivo de Visio 2013 y el formato de archivo de dibujo de Visio XML (.vdx) anterior.  <br/> |
-|[OPC: Nuevo estándar para empaquetar sus datos](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx) <br/> |En este artículo de MSDN Magazine se describen las Convenciones de empaquetado abierto como concepto.  <br/> |
-|[Aspectos básicos de las convenciones de empaquetado abierto](http://msdn.microsoft.com/en-us/library/ee361919.aspx) <br/> [Introducción a los formatos de archivo de Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx) <br/> |Estos dos artículos describen cómo se han aplicado las convenciones de empaquetado abierto a archivos de Microsoft Office. Que contienen las descripciones de cómo relaciones de trabajar en un paquete y también incluyen algunos ejemplos de código.  <br/> |
+|[OPC: Nuevo estándar para empaquetar sus datos](https://msdn.microsoft.com/magazine/cc163372.aspx) <br/> |En este artículo de MSDN Magazine se describen las Convenciones de empaquetado abierto como concepto.  <br/> |
+|[Aspectos básicos de las convenciones de empaquetado abierto](https://msdn.microsoft.com/library/ee361919.aspx) <br/> [Introducción a los formatos de archivo de Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx) <br/> |Estos dos artículos describen cómo se han aplicado las convenciones de empaquetado abierto a archivos de Microsoft Office. Que contienen las descripciones de cómo relaciones de trabajar en un paquete y también incluyen algunos ejemplos de código.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Crear un archivo .vsdx y una nueva solución de Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>
@@ -220,7 +220,7 @@ Use el siguiente código para obtener la ruta de acceso completa para el archivo
 ## <a name="select-and-read-package-parts-from-a-package"></a>Seleccionar y leer elementos de un paquete
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-Una vez que el archivo de Visio 2013 abra como un paquete, puede tener acceso a los elementos de documento dentro de ella mediante la clase [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluida en el espacio de nombres **System.IO.Packaging** . Individualmente o como una colección, se pueden crear instancias **PackagePart** objetos. La clase de **paquete** expone un método de [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) y un método [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) para obtener objetos de **PackagePart** fuera del **paquete**. El método **Package.GetParts** devuelve una instancia de la clase [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , que, a continuación, puede interactuar con al igual que cualquier otra colección que implementa el [IEnumerator\<T\> ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) interfaz. 
+Una vez que el archivo de Visio 2013 abra como un paquete, puede tener acceso a los elementos de documento dentro de ella mediante la clase [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluida en el espacio de nombres **System.IO.Packaging** . Individualmente o como una colección, se pueden crear instancias **PackagePart** objetos. La clase de **paquete** expone un método de [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) y un método [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) para obtener objetos de **PackagePart** fuera del **paquete**. El método **Package.GetParts** devuelve una instancia de la clase [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , que, a continuación, puede interactuar con al igual que cualquier otra colección que implementa el [IEnumerator\<T\> ](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) interfaz. 
   
 Use el código del procedimiento siguiente para obtener un objeto **PackagePartCollection** de la clase **Package** como una colección, iterar en los objetos **PackagePart** de la colección y escribir el URI y el tipo de contenido de cada objeto **PackagePart** en la consola. 
   
@@ -307,7 +307,7 @@ La aplicación de consola produce una salida similar a la siguiente (se ha omiti
   
 Más a menudo de no, debe seleccionar una **PackagePart** sin tener que iterar en todos ellos. Puede obtener un objeto **PackagePart** desde un **paquete** mediante el uso de su relación con el **paquete** o de otro **PackagePart**. Una relación en el formato de archivo es una entidad discreta que describe cómo se relaciona un elemento de documento con Visio 2013 del paquete de archivo o cómo dos partes del documento se relacionan entre sí. Por ejemplo, el paquete de archivo de Visio 2013 sí tiene una relación con su parte de documento de Visio, y el elemento de documento de Visio tiene una relación con la parte de Windows. Estas relaciones se representan como instancias de las clases [PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) o [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx) . 
   
-La clase de **paquete** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection** . Puede usar el método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para crear una instancia de un objeto **PackageRelationshipCollection** que contiene objetos **PackageRelationship** de un único tipo específico. Por supuesto, con el método **Package.GetRelationshipsByType** requiere que ya conoce el tipo de relación que necesita. Tipos de relación son cadenas en formato de espacio de nombres XML. Por ejemplo, el tipo de relación de la parte del documento de Visio es http://schemas.microsoft.com/visio/2010/relationships/document. 
+La clase de **paquete** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection** . Puede usar el método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para crear una instancia de un objeto **PackageRelationshipCollection** que contiene objetos **PackageRelationship** de un único tipo específico. Por supuesto, con el método **Package.GetRelationshipsByType** requiere que ya conoce el tipo de relación que necesita. Tipos de relación son cadenas en formato de espacio de nombres XML. Por ejemplo, el tipo de relación de la parte del documento de Visio es https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Una vez que conozca la relación de un objeto **PackagePart** con la clase **Package** o con otro objeto **PackagePart** (es decir, tiene un objeto **PackageRelationship** que hace referencia al objeto **PackagePart** que quiere), puede usar esa relación para obtener el identificador URI de dicho objeto **PackagePart**. Después, pase el identificador URI al método **Package.GetPart** para devolver el objeto **PackagePart**.
   
@@ -370,14 +370,14 @@ Use el procedimiento siguiente para obtener un objeto **PackagePart** (el elemen
   ```cs
   // Get a reference to the Visio Document part contained in the file package.
   PackagePart documentPart = GetPackagePart(visioPackage, 
-      "http://schemas.microsoft.com/visio/2010/relationships/document");
+      "https://schemas.microsoft.com/visio/2010/relationships/document");
   
   ```
 
   ```vb
   ' Get a reference to the Visio Document part contained in the file package.
   Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-      "http://schemas.microsoft.com/visio/2010/relationships/document")
+      "https://schemas.microsoft.com/visio/2010/relationships/document")
   
   ```
 
@@ -442,9 +442,9 @@ Use el código siguiente para obtener un objeto **PackagePart** de la clase **Pa
   // Get a reference to the collection of pages in the document, 
   // and then to the first page in the document.
   PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/pages");
+      "https://schemas.microsoft.com/visio/2010/relationships/pages");
   PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/page");
+      "https://schemas.microsoft.com/visio/2010/relationships/page");
   
   ```
 
@@ -452,9 +452,9 @@ Use el código siguiente para obtener un objeto **PackagePart** de la clase **Pa
   ' Get a reference to the collection of pages in the document,
   ' and then to the first page in the document.
   Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/pages") 
+      "https://schemas.microsoft.com/visio/2010/relationships/pages") 
   Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/page") 
+      "https://schemas.microsoft.com/visio/2010/relationships/page") 
   ```
 
 Antes de que puede realizar cambios en el XML incluido en un elemento de documento, debe cargar el documento XML en un objeto que permite leer el XML, mediante la clase [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) o clase [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx) . Ambas clases exponen métodos para tareas como la selección de los elementos XML contenidos en los documentos XML; crear, leer y escribir los atributos; e insertar nuevos elementos XML en un documento. 
@@ -775,7 +775,7 @@ Use el código siguiente para cambiar el valor de la celda **PinY** de la forma 
       // Get the Custom File Properties part from the package and
       // and then extract the XML from it.
       PackagePart customPart = GetPackagePart(filePackage, 
-          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+          "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
           "custom-properties");
       XDocument customPartXML = GetXMLFromPart(customPart);
       // Check to see whether document recalculation has already been 
@@ -814,7 +814,7 @@ Use el código siguiente para cambiar el valor de la celda **PinY** de la forma 
           ' Get the Custom File Properties part from the package and
           ' then extract the XML from it.
           Dim customPart As PackagePart = GetPackagePart(filePackage, _
-              "http://schemas.openxmlformats.org/officeDocument/2006/" + _
+              "https://schemas.openxmlformats.org/officeDocument/2006/" + _
               "relationships/custom-properties")
           Dim customPartXML As XDocument = GetXMLFromPart(customPart)
           ' Check to see whether document recalculation has already been
@@ -1010,7 +1010,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
       // This code adds a new CUSTOM tab to the ribbon for this
       // document. The tab has one group that contains one button.
       XNamespace customUINS = 
-          "http://schemas.microsoft.com/office/2006/01/customui";
+          "https://schemas.microsoft.com/office/2006/01/customui";
       XDocument customUIXDoc = new XDocument(
           new XDeclaration("1.0", "utf-8", "true"),
           new XElement(customUINS + "customUI",
@@ -1044,7 +1044,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
       ' This code adds a new CUSTOM tab to the ribbon for this
       ' document. The tab has one group that contains one button.
       Dim customUINS As XNamespace = _
-          "http://schemas.microsoft.com/office/2006/01/customui"
+          "https://schemas.microsoft.com/office/2006/01/customui"
       Dim customUIXML = New XDocument( _
           New XDeclaration("1.0", "utf-8", "true"), _
           New XElement(customUINS + "customUI", _
@@ -1136,7 +1136,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
   CreateNewPackagePart(visioPackage, customUIXML, 
       new Uri("/customUI/customUI1.xml", UriKind.Relative),
       "application/xml",
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
   ```
 
   ```vb
@@ -1145,7 +1145,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
   CreateNewPackagePart(visioPackage, customUIXML, _
       New Uri("/customUI/customUI1.xml", UriKind.Relative), _
       "application/xml", _
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
   ```
 
 4. Elija la tecla F5 para depurar la solución. Cuando el programa haya completado su ejecución, elija cualquier tecla para salir.
@@ -1162,7 +1162,7 @@ El código XML creado por la `CreateCustomUI` método el siguiente aspecto.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
@@ -1188,18 +1188,18 @@ Para obtener más información sobre el trabajo de con el formato de archivo de 
 
 - De Al Edlund:
     
-  - proyecto [pkgVisio - manipulación de Visio 2013 XML](http://pkgvisio.codeplex.com/documentation) en CodePlex. 
+  - proyecto [pkgVisio - manipulación de Visio 2013 XML](https://pkgvisio.codeplex.com/documentation) en CodePlex. 
     
-  - [pkgVisio_pt1](http://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) vídeo de YouTube. 
+  - [pkgVisio_pt1](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) vídeo de YouTube. 
     
-  - [pkgVisio_pt2](http://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) vídeo de YouTube. 
+  - [pkgVisio_pt2](https://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) vídeo de YouTube. 
     
-- [Centro para desarrolladores de Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Centro para desarrolladores de Visio](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [Manipular documentos con formatos Office Open XML](http://msdn.microsoft.com/en-us/library/aa982683%28v=office.12%29.aspx)
+- [Manipular documentos con formatos Office Open XML](https://msdn.microsoft.com/library/aa982683%28v=office.12%29.aspx)
     
-- [Crear un documento con espacios de nombres (C#) (LINQ to XML)](http://msdn.microsoft.com/en-us/library/bb387075.aspx)
+- [Crear un documento con espacios de nombres (C#) (LINQ to XML)](https://msdn.microsoft.com/library/bb387075.aspx)
     
-- [Agregar elementos XML personalizados en documentos sin iniciar Microsoft Office](http://msdn.microsoft.com/en-us/library/bb608597%28VS.90%29.aspx)
+- [Agregar elementos XML personalizados en documentos sin iniciar Microsoft Office](https://msdn.microsoft.com/library/bb608597%28VS.90%29.aspx)
     
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Define cómo aparece una columna de datos en la ventana datos externos en la interfaz de usuario de Visio y califica los datos en la columna mediante la definición de su tipo de datos y el formato.
-ms.openlocfilehash: f74061b9f3b8f4b93d8aa0e97e4e7c1e45131cbd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395850"
 ---
 # <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Define cómo aparece una columna de datos en la ventana **Datos externos** en la
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Recordsets.Xml  <br/> |
    

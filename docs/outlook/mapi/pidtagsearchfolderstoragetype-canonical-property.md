@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: accea8bdea25ac44e6cc5d8fe88cb32caf1961be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590025"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397726"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propiedad canónica PidTagSearchFolderStorageType
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene indicadores que especifican los datos de objetos binarios grandes (BLOB) que aparece en la propiedad **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   
@@ -36,17 +36,17 @@ Contiene indicadores que especifican los datos de objetos binarios grandes (BLOB
    
 ## <a name="remarks"></a>Comentarios
 
-Las definiciones de los indicadores se especifican en [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Búsqueda de **PR_WB_SF_STORAGE_TYPE**.
+Las definiciones de los indicadores se especifican en [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Búsqueda de **PR_WB_SF_STORAGE_TYPE**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para manipular la configuración de la lista de carpetas de búsqueda.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

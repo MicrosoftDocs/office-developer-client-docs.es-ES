@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 012a3f6e-fd16-4dc9-845d-2bf4cebeaa42
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 92b9fc9dd5fdf359af06e8a8e5b21d4591933a1b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f25c1a72882f9236d56532b7259f51512734945
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578090"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400345"
 ---
 # <a name="pidlidlogduration-canonical-property"></a>Propiedad canónica PidLidLogDuration
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Representa la duración, en minutos, de un mensaje de diario.
   
@@ -43,11 +43,11 @@ La duración, en minutos, de la actividad que debe ser la diferencia entre las p
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para diarios.
     
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

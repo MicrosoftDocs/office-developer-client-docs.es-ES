@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587841"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399651"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Termina una sesión MAPI.
   
@@ -65,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession::Logoff** finaliza una sesión MAPI. Cuando se devuelve el **cierre de sesión** , se puede llamar a ninguno de los métodos excepto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . 
+El método **IMAPISession::Logoff** finaliza una sesión MAPI. Cuando se devuelve el **cierre de sesión** , se puede llamar a ninguno de los métodos excepto [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
@@ -73,25 +73,25 @@ Cuando se devuelve el **cierre de sesión** , liberar el objeto de sesión llama
   
 Para obtener más información acerca de terminar una sesión, vea [Finalizar una sesión de MAPI](ending-a-mapi-session.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI usa el método **IMAPISession::Logoff** para cerrar la sesión antes de enviarlo.  <br/> |
    
 > [!NOTE]
 > Debido al comportamiento de apagado rápido que se introdujo en Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 y Microsoft Outlook 2013, los clientes nunca deben pasar el parámetro **MAPI_LOGOFF_SHARED** a [IMAPISession::Logoff](imapisession-logoff.md). Pasando **MAPI_LOGOFF_SHARED** hará que todos los clientes MAPI empezar el cierre y se producirá un comportamiento inesperado. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Finalizar una sesión MAPI](ending-a-mapi-session.md)
 

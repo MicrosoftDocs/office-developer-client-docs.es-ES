@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27347302-bd52-4f62-98f1-6c37f9a66463
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 08527f3325742eb7c48f11c2ed7d08f71fa3e972
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d6f858a9f1d3d4620a86621e3f5ecb4ad4609691
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592713"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401086"
 ---
 # <a name="pidtagstorerecordkey-canonical-property"></a>Propiedad canónica PidTagStoreRecordKey
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador único de binario comparable (clave de registro) del almacén de mensajes en el que reside un objeto.
   
@@ -44,11 +44,11 @@ La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relaci�
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
     
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

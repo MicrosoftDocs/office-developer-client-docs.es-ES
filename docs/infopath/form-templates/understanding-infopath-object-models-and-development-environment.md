@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 admite dos tipos de modelos de programación para desarrollar lógica empresarial en plantillas de formulario, además de automatización externa desde un código administrado.
-ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c2ed1254acf86136ab7144c732aef91ac4c14c53
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579532"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400113"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Comprender los modelos de objetos y el entorno de desarrollo de InfoPath
 
@@ -89,14 +89,14 @@ Las clases y los miembros de este modelo de objetos se exponen a través del esp
 
 Además de escribir lógica empresarial con código administrado, los desarrolladores pueden automatizar InfoPath con el código administrado que se inicia en una aplicación externa. Esta funcionalidad y los ensamblados necesarios para escribir código se introdujeron por primera vez en InfoPath 2003 Service Pack 1. Los objetos y los miembros para automatizar InfoPath se actualizaron y ahora proporcionan funciones adicionales cuando se escribe código de automatización externa para InfoPath 2013.
   
-Las clases y los miembros usados para automatización externa se exponen con los espacios de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) y [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml). Los archivos de ensamblado necesarios para escribir código de automatización se encuentran en la carpeta C:\Archivos de programa\Microsoft Office\Office14. 
+Las clases y los miembros usados para automatización externa se exponen con los espacios de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) y [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml). Los archivos de ensamblado necesarios para escribir código de automatización se encuentran en la carpeta C:\Archivos de programa\Microsoft Office\Office14. 
   
 |**Ensamblado**|**Descripción**|
 |:-----|:-----|
 |Microsoft.Office.Interop.InfoPath.dll  <br/> |Proporciona la interoperabilidad COM con el modelo de objetos COM de InfoPath para el código de automatización externa escrito con C# o Visual Basic.  <br/> |
 |Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Proporciona la interoperabilidad COM con las operaciones de MSXML para DOM XML en el código de automatización externa escrito con C# o Visual Basic.  <br/> |
    
-Para más información sobre los modelos de objetos proporcionados por los espacios de nombres **Microsoft.Office.Interop.InfoPath** y **Microsoft.Office.Interop.InfoPath.Xml**, que se usan exclusivamente para automatizar la aplicación de InfoPath con código administrado de aplicaciones externas, visite el [Centro para desarrolladores de InfoPath Developer](http://msdn.microsoft.com/en-us/office/aa905434.aspx).
+Para más información sobre los modelos de objetos proporcionados por los espacios de nombres **Microsoft.Office.Interop.InfoPath** y **Microsoft.Office.Interop.InfoPath.Xml**, que se usan exclusivamente para automatizar la aplicación de InfoPath con código administrado de aplicaciones externas, visite el [Centro para desarrolladores de InfoPath Developer](https://msdn.microsoft.com/office/aa905434.aspx).
   
 ### <a name="the-infopath-forms-services-object-model"></a>Modelo de objetos de InfoPath Forms Services
 

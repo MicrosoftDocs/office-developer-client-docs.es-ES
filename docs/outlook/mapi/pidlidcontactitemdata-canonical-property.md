@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 411e8f81-c2b9-440a-9e9a-d6add5e4be63
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f363b0a756a2cf4c7e37854cab0ddc4a46a0754d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 031e5483539ce17c8b9b994690985c2349573e27
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582661"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400813"
 ---
 # <a name="pidlidcontactitemdata-canonical-property"></a>Propiedad canónica PidLidContactItemData
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se usa para mostrar la información de contacto.
   
@@ -47,17 +47,17 @@ Si está presente, la propiedad debe tener seis entradas, cada una correspondien
 |2  <br/> |0x00008080  <br/> |La aplicación debe mostrar correo electrónico1.  <br/> |
 |2  <br/> |0x00008090  <br/> |La aplicación debe mostrar correo electrónico 2.  <br/> |
 |2  <br/> |0x000080A0  <br/> |La aplicación debe mostrar correo electrónico 3.  <br/> |
-|3,4,5,6  <br/> |PropertyID de cualquiera de las propiedades de teléfono o cualquiera de los números de fax que se especifican en [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |La aplicación debe mostrar la propiedad correspondiente.  <br/> |
+|3,4,5,6  <br/> |PropertyID de cualquiera de las propiedades de teléfono o cualquiera de los números de fax que se especifican en [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |La aplicación debe mostrar la propiedad correspondiente.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -67,7 +67,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

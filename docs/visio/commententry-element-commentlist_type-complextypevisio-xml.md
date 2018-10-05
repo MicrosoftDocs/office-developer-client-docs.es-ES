@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: Especifica las propiedades que se usa para identificar un comentario en un dibujo.
-ms.openlocfilehash: b2ab1925c8b3b9a9c2d67ac48c1db1768f5916b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79d15b95f986826a4848c2dfbb003255d3482134
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397047"
 ---
 # <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Elemento de CommentEntry (CommentList_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica las propiedades que se usa para identificar un comentario en un dibuj
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Comments.Xml  <br/> |
    

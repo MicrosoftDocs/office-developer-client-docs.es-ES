@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582325"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396060"
 ---
 # <a name="about-the-replication-api"></a>Información sobre la API de replicación
 
@@ -30,7 +30,7 @@ Para usar la API de replicación, un proveedor de almacén de mensajes MAPI en p
 
 La interfaz **IOSTX** es la interfaz principal que realiza la sincronización de la API de replicación. **IOSTX** mueve el almacén local a través de una serie de Estados, recuperación de información de cada estado acerca de los cambios en el almacén local, así como para informar el almacén local de los cambios realizados en el servidor. La API de replicación especifica también muchas de las estructuras de datos que admiten la sincronización. 
   
-Un proveedor de almacenamiento, como un cliente a esta API, usa la API de replicación para ajustar el almacén local y mover a través de estos Estados, e inserta los cambios en el almacén local (por ejemplo, los cambios en la jerarquía de carpetas o la adición de nuevos elementos) para el servidor y también recuperar información acerca de los cambios en el servidor y proporcionar esa información a la interfaz **IOSTX** . La interfaz de **IOSTX** adopta la sincronización de cambio Incremental (ICS) proporcionado por Microsoft Exchange Server. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx). A través de **IOSTX**, el cliente utiliza ICS para supervisar y sincronizar los cambios incrementales en la jerarquía o el contenido en un almacén local. 
+Un proveedor de almacenamiento, como un cliente a esta API, usa la API de replicación para ajustar el almacén local y mover a través de estos Estados, e inserta los cambios en el almacén local (por ejemplo, los cambios en la jerarquía de carpetas o la adición de nuevos elementos) para el servidor y también recuperar información acerca de los cambios en el servidor y proporcionar esa información a la interfaz **IOSTX** . La interfaz de **IOSTX** adopta la sincronización de cambio Incremental (ICS) proporcionado por Microsoft Exchange Server. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). A través de **IOSTX**, el cliente utiliza ICS para supervisar y sincronizar los cambios incrementales en la jerarquía o el contenido en un almacén local. 
   
 ## <a name="the-ipstx-interface"></a>La interfaz de IPSTX
 
@@ -74,7 +74,7 @@ Tipos de datos:
     
 - **[SYNCCONT](synccont.md)**
     
-- **[ESTADO DE SINCRONIZACIÓN](syncstate.md)**
+- **[SYNCSTATE](syncstate.md)**
     
 - **[UPDEL](updel.md)**
     

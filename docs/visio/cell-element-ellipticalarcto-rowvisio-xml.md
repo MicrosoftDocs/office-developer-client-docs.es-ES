@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
 description: Contiene las coordenadas x o y del extremo de un arco elíptico, puntos de coordenadas x o y del control del arco, el ángulo desde el eje x a eje mayor de la elipse o relación entre los ejes mayor y menor de la elipse.
-ms.openlocfilehash: 01d28fae5943251b61d0d26211ee91f09f25b9cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22dc813108d8f7b5b517c298c40c73ead8d4eec4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395892"
 ---
 # <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Elemento de celda (fila EllipticalArcTo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y del extremo de un arco elíptico, puntos de coord
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

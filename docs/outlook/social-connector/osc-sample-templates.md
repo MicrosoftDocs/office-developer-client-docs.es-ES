@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
 description: 'Que acompañan a la referencia de proveedores de Outlook Social Connector 2013 son varias las plantillas de proveedor en C++, C# y Visual Basic. Puede descargar las plantillas en Outlook Social Connector 2013: plantillas de proveedor.'
-ms.openlocfilehash: a15cc6a7530adc38b89660c489d0c27904b86211
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821207"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395927"
 ---
 # <a name="osc-sample-templates"></a>Plantillas de ejemplo OSC
 
-Que acompañan a la referencia de proveedores de Outlook Social Connector 2013 son varias las plantillas de proveedor en C++, C# y Visual Basic. Puede descargar las plantillas en [Outlook Social Connector 2013: plantillas de proveedor](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+Que acompañan a la referencia de proveedores de Outlook Social Connector 2013 son varias las plantillas de proveedor en C++, C# y Visual Basic. Puede descargar las plantillas en [Outlook Social Connector 2013: plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
   
 Las plantillas de proveedor estarán disponibles para su uso al crear un proveedor en el idioma de su elección. A fin de minimizar el tamaño de descarga del proveedor y para minimizar el tiempo de carga de proveedor, debe generar un proveedor de producción mediante el uso de C++. Si está desarrollando un proveedor para los usuarios que tienen .NET Framework 3.5 SP1 o una versión posterior de .NET Framework instalado en sus equipos, se puede considerar la posibilidad de escribir un proveedor administrado con C# o Visual Basic.
   

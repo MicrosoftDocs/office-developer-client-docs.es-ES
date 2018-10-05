@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 375a0f1d39b09b7ad453120f20752e00ffda0e15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582990"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398713"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
@@ -64,7 +64,7 @@ S_OK
 
 El método **ITableData::HrGetView** crea una vista de solo lectura de los datos en la tabla, se ordenan en el orden que apunta el parámetro _lpSSortOrderSet_ . Se coloca el cursor al principio de la primera fila en la vista. Se devuelve una implementación de interfaz **IMAPITable** para obtener acceso a la vista. 
   
-Proveedores de servicios de llamada **HrGetView** cuando sea necesario proporcionar un acceso de cliente a una tabla. **HrGetView** crea la vista y devuelve el puntero **IMAPITable** . Proveedores de servicios a su vez pasan el puntero de la sesión en el cliente. Cuando el cliente haya terminado de usar la tabla y llama a su método [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** llama a la función de devolución de llamada indicada por el parámetro _lpfCallerRelease_ . 
+Proveedores de servicios de llamada **HrGetView** cuando sea necesario proporcionar un acceso de cliente a una tabla. **HrGetView** crea la vista y devuelve el puntero **IMAPITable** . Proveedores de servicios a su vez pasan el puntero de la sesión en el cliente. Cuando el cliente haya terminado de usar la tabla y llama a su método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** llama a la función de devolución de llamada indicada por el parámetro _lpfCallerRelease_ . 
   
 Si necesita un proveedor de servicios para volver a un cliente de una vista que tenga una columna personalizada o una restricción, el proveedor puede llamar a los métodos la vista [IMAPITable::SetColumns](imapitable-setcolumns.md) e [IMAPITable:: Restrict](imapitable-restrict.md) antes de permitir el acceso de cliente. 
   

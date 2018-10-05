@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: Especifica la ubicación de meteorología de informe en.
-ms.openlocfilehash: a95e207845a9e54f5cac58b64ce85ec17b59fa22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821303"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398300"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>meteorología elemento (weatherdata) (esquema de ubicación de meteorología de Outlook)
 
@@ -24,7 +24,7 @@ Especifica la ubicación de meteorología de informe en.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Archivo de esquema** <br/> |getweatherlocation.xsd  <br/> |
    
 ## <a name="definition"></a>Definición

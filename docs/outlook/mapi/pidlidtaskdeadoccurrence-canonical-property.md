@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5fca47055d0c88293156483a53118667c1c72276
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b740368aae43549e81cf3f4f6de40526c505b6b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574104"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401520"
 ---
 # <a name="pidlidtaskdeadoccurrence-canonical-property"></a>Propiedad canónica PidLidTaskDeadOccurrence
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica si se deben generar nuevas ocurrencias.
   
@@ -43,11 +43,11 @@ Un patrón de periodicidad ya no está en vigor cuando su última instancia est�
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modelar el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas. 
     
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

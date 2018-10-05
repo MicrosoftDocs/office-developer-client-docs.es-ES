@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: Una propiedad de una parte especificada por el usuario de la información que se puede hacer referencia a otras celdas y herramientas complementarias.
-ms.openlocfilehash: 40555c58e6afdb3eefe5b1a14d4155ad4e57ed6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ce456b624f4a4b12a3f2fdc73f56651ea6985ed
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821729"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397502"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>Elemento de celda (sección de celdas definidas por el usuario) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Una propiedad de una parte especificada por el usuario de la información que se
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    
@@ -67,6 +67,6 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Prompt  <br/> |Especifica un mensaje o comentario descriptivo para la celda definida por el usuario.  <br/> |[Celda Prompt (Sección de celdas definidas por el usuario)](prompt-cell-user-defined-cells-section.md) <br/> |
-|Value  <br/> |Especifica un valor para la correspondiente celda definida por el usuario.  <br/> |[Celda Value (Sección de celdas definidas por el usuario)](value-cell-user-defined-cells-section.md) <br/> |
+|Valor  <br/> |Especifica un valor para la correspondiente celda definida por el usuario.  <br/> |[Celda Value (Sección de celdas definidas por el usuario)](value-cell-user-defined-cells-section.md) <br/> |
    
 

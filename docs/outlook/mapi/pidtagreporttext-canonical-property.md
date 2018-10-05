@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8ef6117557b504678012b79e2b89c13bdaf6b787
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7173caa7a31bc3ad11a4785b6a1498aba139de7c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396025"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>Propiedad canónica PidTagReportText
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene texto opcional de un informe generado por el sistema de mensajería.
   
@@ -42,11 +42,11 @@ Normalmente, el texto contenido en estas propiedades se genera en respuesta a un
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten en mensajes de correo electrónico.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

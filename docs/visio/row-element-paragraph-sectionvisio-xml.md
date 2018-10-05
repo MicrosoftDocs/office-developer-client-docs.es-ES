@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 00ecaa82-3b40-24cc-91c0-b2562e92161d
 description: Muestra los atributos de formato de párrafo del texto de una forma, como la sangría, el espacio entre líneas, las viñetas y la alineación horizontal de los párrafos.
-ms.openlocfilehash: ac4b2083889d3cf01b8c5bfe2fa64fe0ec1ad01a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 304c63bf810232b5a9a0f08b9b36718dd75dcc69
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823044"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398195"
 ---
 # <a name="row-element-paragraph-section-visio-xml"></a>Elemento Row (sección de párrafo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Muestra los atributos de formato de párrafo del texto de una forma, como la san
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, master # .xml, # .xml de página  <br/> |
    

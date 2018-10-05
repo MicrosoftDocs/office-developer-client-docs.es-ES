@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 96266b948d80b07d7aefefbf29225d2f85089094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c1c04e5b04be9bb67b050f5cf498be89d380410
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396326"
 ---
 # <a name="mapi-custom-form-objects"></a>MAPI: objetos de formulario personalizado
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Objetos de los formularios personalizados se implementan mediante tres componentes distintos:
   
@@ -47,13 +47,13 @@ En la siguiente tabla se describe todos los objetos de formulario personalizado.
 |Contexto de vista  <br/> |Admite comandos para activar los mensajes anteriores y siguiente y para guardar o imprimir del formulario.  <br/> |
 |Vista de aviso receptor  <br/> |Controla las notificaciones desde el servidor de formulario.  <br/> |
    
-En la siguiente ilustración se muestra la relación entre los componentes de formularios personalizados, los objetos y las interfaces que implementan y los componentes que son los usuarios de los objetos. Tenga en cuenta que, a diferencia de la mayoría de objetos MAPI, el objeto de formulario implementa dos interfaces que no están relacionadas por herencia directa. Cuando un objeto expone varias interfaces independientes, un usuario del objeto que tiene un puntero a una de las interfaces puede recuperar un puntero a cualquiera de las otras interfaces. Esta capacidad para navegar entre las implementaciones de interfaz de un objeto es una característica del método [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
+En la siguiente ilustración se muestra la relación entre los componentes de formularios personalizados, los objetos y las interfaces que implementan y los componentes que son los usuarios de los objetos. Tenga en cuenta que, a diferencia de la mayoría de objetos MAPI, el objeto de formulario implementa dos interfaces que no están relacionadas por herencia directa. Cuando un objeto expone varias interfaces independientes, un usuario del objeto que tiene un puntero a una de las interfaces puede recuperar un puntero a cualquiera de las otras interfaces. Esta capacidad para navegar entre las implementaciones de interfaz de un objeto es una característica del método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
   
 **Componentes de formulario personalizado**
   
 ![Componentes de formulario personalizado] (media/amapi_67.gif "Componentes de formulario personalizado")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c88e6789b5b48e946d86a0458674a0fbe6b76356
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3091a76a1b755bf5a0d641ed9bd79bcfaa4641b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575451"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394898"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>Propiedad canónica PidTagRtfCompressed
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la versión de formato de texto enriquecido (RTF) del texto del mensaje, normalmente en formato comprimido. 
   
@@ -48,19 +48,19 @@ Almacenes de mensaje que admiten el formato RTF omitir los cambios realizados en
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
-[[MS-OXRTFCP]](http://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
+[[MS-OXRTFCP]](https://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
   
 > Codifica y descodifica una secuencia comprimida en cuerpos de mensaje RTF.
     
-[[MS-OXRTFEX]](http://msdn.microsoft.com/library/411d0d58-49f7-496c-b8c3-5859b045f6cf%28Office.15%29.aspx)
+[[MS-OXRTFEX]](https://msdn.microsoft.com/library/411d0d58-49f7-496c-b8c3-5859b045f6cf%28Office.15%29.aspx)
   
 > Encapsula formatos de contenido adicionales (por ejemplo, HTML) dentro de la propiedad body RTF de mensajes y datos adjuntos.
     
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

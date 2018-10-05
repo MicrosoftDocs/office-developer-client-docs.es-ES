@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0902aeb71ed66381772a808d21d77edb7e0e2da8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51bf5f8455d4cb790d0c955e96249b0f9deef1af
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589878"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396977"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre la libreta de direcciones integrada de MAPI, la devolución de un puntero [IAddrBook](iaddrbookimapiprop.md) para aún más el acceso. 
   
@@ -74,19 +74,19 @@ El método **IMAPISession::OpenAddressBook** abre la libreta de direcciones inte
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de la libreta de direcciones en el perfil. Este valor es una advertencia, no es un valor de error; controlarla como lo haría S_OK. **OpenAddressBook** siempre devuelve un puntero válido en el parámetro _lppAdrBook_ , independientemente de cómo muchos de los proveedores de la libreta de direcciones no se pudo cargar. Por lo tanto, debe llamar siempre (método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) ) de la libreta de direcciones en algún momento antes de cerrar la sesión. 
+ **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de la libreta de direcciones en el perfil. Este valor es una advertencia, no es un valor de error; controlarla como lo haría S_OK. **OpenAddressBook** siempre devuelve un puntero válido en el parámetro _lppAdrBook_ , independientemente de cómo muchos de los proveedores de la libreta de direcciones no se pudo cargar. Por lo tanto, debe llamar siempre (método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) ) de la libreta de direcciones en algún momento antes de cerrar la sesión. 
   
 Cuando **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED, llame a [IMAPISession::GetLastError](imapisession-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contiene información acerca de los proveedores con errores. Se devuelve una única estructura **MAPIERROR** que contiene la información proporcionada por todos los proveedores. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenAddressBook** para obtener la libreta de direcciones integrada.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

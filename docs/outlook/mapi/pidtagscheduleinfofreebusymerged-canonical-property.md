@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5b83a4acf30f498a0d17cc2c3c76f40c2c3c4b96
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d15c6cb256fb1e80e3c94bdfe7e71bd8625aa35
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582017"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400911"
 ---
 # <a name="pidtagscheduleinfofreebusymerged-canonical-property"></a>Propiedad canónica PidTagScheduleInfoFreeBusyMerged
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene las horas para la que se establece el estado de disponibilidad a ocupado o fuera de la oficina.
   
@@ -42,11 +42,11 @@ Eventos de tipo de libre/ocupado provisional no se incluyen en esta propiedad. E
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica la disponibilidad de un usuario o recurso.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

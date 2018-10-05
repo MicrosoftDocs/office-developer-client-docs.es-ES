@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: Microsoft InfoPath admite mover plantillas de formulario de una ubicación a otra, enviarlas como datos adjuntos a un mensaje de correo electrónico y crear plantillas de formulario de plena confianza que estén firmadas digitalmente o instaladas.
-ms.openlocfilehash: ea0145eb45f6a03dc8637ba5ec1dc1c80d240006
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815969"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396879"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Niveles de seguridad, implementación de correo electrónico y plantillas de formulario remotas
 
@@ -186,7 +186,7 @@ En el ejemplo siguiente se muestra cómo una plantilla de formulario firmada y a
     
 ### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>Ejemplo: Implementar restringidos plantillas de formulario en una extranet
   
-1. Guarde la plantilla de formulario con nivel de seguridad Dominio en un sitio web en el que se ejecute Microsoft SharePoint Foundation 2010.
+1. Guarde la plantilla de formulario de dominio en un sitio Web que ejecuta Microsoft SharePoint Foundation 2010.
     
 2. Cambie el nivel de seguridad de la plantilla de formulario a Restringido.
     
@@ -200,7 +200,7 @@ En el ejemplo siguiente se muestra cómo una plantilla de formulario firmada y a
     
 7. Pida a los usuarios que se lo devuelvan después de haberlo rellenado.
     
-8. Vuelva a guardar el formulario en el sitio web en el que se ejecuta SharePoint Foundation 2010 y vuelva a vincular el formulario mediante la opción **Volver a vincular documentos a esta biblioteca** de la página **Configuración de Biblioteca de formularios**. 
+8. Guardar el formulario en el sitio Web que ejecuta SharePoint Foundation 2010 y vuelva a vincular el formulario utilizando la opción **volver a vincular documentos a esta biblioteca** en la página **Configuración de biblioteca de formularios** . 
     
 ## <a name="signature-verification-failure"></a>Error de comprobación de firma
 

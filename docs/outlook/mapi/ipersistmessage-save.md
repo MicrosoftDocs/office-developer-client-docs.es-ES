@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579903"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397159"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Guarda un formulario revisado el mensaje desde la que se ha cargado o creado.
   
@@ -56,7 +56,7 @@ Visores de formulario llamar al método **IPersistMessage::Save** para guardar u
   
  **Guardar** sólo se debe llamar cuando el formulario está en su estado [Normal](normal-state.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 No confirme los cambios guardados; es el autor de la llamada para confirmar los cambios. Nunca realice cambios en las propiedades que pertenecen al mensaje del formulario, excepto durante la llamada de **Guardar** . 
   
@@ -66,9 +66,9 @@ Cuando todas las propiedades se han copiado, especifique el estado de [NoScribbl
   
 Si se llama a **Guardar** cuando el formulario está en cualquier estado que no sea Normal, devolver E_UNEXPECTED. 
   
-Para obtener más información acerca de cómo guardar objetos de almacenamiento, consulte la documentación sobre los métodos [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
+Para obtener más información acerca de cómo guardar objetos de almacenamiento, consulte la documentación sobre los métodos [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

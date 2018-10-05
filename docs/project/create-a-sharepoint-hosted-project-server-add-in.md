@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: De los tres tipos de aplicaciones que se pueden crear para Project Online (autohospedada, hospedada en proveedor y hospedadas en SharePoint), es la más sencilla de crear e implementar la aplicación hospedada en SharePoint.
-ms.openlocfilehash: 135a6cd330224041db213e0408735209056d34af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821333"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399588"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Crear un complemento de Project Server hospedado por SharePoint
 
@@ -21,7 +21,7 @@ En Project, estado es un proceso donde un integrante del grupo puede usar la pá
   
 La aplicación **QuickStatus** es un ejemplo para desarrolladores; no está pensada para su uso en un entorno de producción. El propósito principal es mostrar un ejemplo de desarrollo de aplicaciones para Project Online, no para crear una aplicación de estado totalmente funcional. Para un mejor enfoque para la administración de Estados, vea la recomendación de los [pasos siguientes](#pj15_StatusingApp_NextSteps).
   
-Para obtener información general sobre el estado, vea el [progreso de la tarea](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Para obtener más información acerca de cómo desarrollar complementos para SharePoint y Project Server, vea [SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/jj163230.aspx).
+Para obtener información general sobre el estado, vea el [progreso de la tarea](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Para obtener más información acerca de cómo desarrollar complementos para SharePoint y Project Server, vea [SharePoint Add-ins](https://msdn.microsoft.com/library/jj163230.aspx).
 
 <a name="pj15_StatusingApp_Prerequisites"> </a>
 
@@ -33,16 +33,16 @@ El desarrollo de aplicaciones de Project Server con Visual Studio exige lo sigui
   
 - Asegúrese de haber instalado los Service Pack y las actualizaciones de Windows más recientes en el equipo de desarrollo local. El sistema operativo puede ser Windows 7, Windows 8, Windows Server 2008 o Windows Server 2012.
     
-- Debe tener un equipo que tenga instalado, donde el equipo está configurado para el aislamiento de aplicaciones y sideloading de aplicaciones de Project Server 2013 y de SharePoint Server 2013. Sideloading permite a Visual Studio instalar temporalmente la aplicación para la depuración. Puede usar una instalación local de SharePoint y Project Server. Para obtener más información, vea [configurar un entorno de desarrollo local para aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/fp179923%28Office.15%29.aspx).
+- Debe tener un equipo que tenga instalado, donde el equipo está configurado para el aislamiento de aplicaciones y sideloading de aplicaciones de Project Server 2013 y de SharePoint Server 2013. Sideloading permite a Visual Studio instalar temporalmente la aplicación para la depuración. Puede usar una instalación local de SharePoint y Project Server. Para obtener más información, vea [configurar un entorno de desarrollo local para aplicaciones para SharePoint](https://msdn.microsoft.com/library/fp179923%28Office.15%29.aspx).
     
    > [!NOTE]
    > Para una instalación local, configure una aplicación aislado dominio *antes de* crear un catálogo de aplicaciones corporativo. 
   
-- El equipo de desarrollo puede ser un equipo remoto que tiene Office Developer Tools para Visual Studio 2012 instalado. Asegúrese de que ha instalado la versión más reciente; vea la sección *Herramientas* de las [descargas de aplicaciones para Office y SharePoint](http://msdn.microsoft.com/en-us/office/apps/fp123627.aspx).
+- El equipo de desarrollo puede ser un equipo remoto que tiene Office Developer Tools para Visual Studio 2012 instalado. Asegúrese de que ha instalado la versión más reciente; vea la sección *Herramientas* de las [descargas de aplicaciones para Office y SharePoint](https://msdn.microsoft.com/office/apps/fp123627.aspx).
     
 - Compruebe que la instancia de Project Web App va a usar para el desarrollo y la prueba es accesible en el explorador.
     
-Para obtener información acerca del uso de las herramientas en línea, vea [configurar un entorno de desarrollo de aplicaciones para SharePoint en Office 365](http://msdn.microsoft.com/en-us/library/fp161179.aspx). Para obtener un tutorial de creación de una aplicación simple de Project Server que usa las herramientas en línea, vea la serie de blog EPMSource, [creación de su primera aplicación de Project Server](http://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
+Para obtener información acerca del uso de las herramientas en línea, vea [configurar un entorno de desarrollo de aplicaciones para SharePoint en Office 365](https://msdn.microsoft.com/library/fp161179.aspx). Para obtener un tutorial de creación de una aplicación simple de Project Server que usa las herramientas en línea, vea la serie de blog EPMSource, [creación de su primera aplicación de Project Server](https://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
 
 <a name="pj15_StatusingApp_UsingVisualStudio"> </a>
 
@@ -115,14 +115,14 @@ La aplicación **QuickStatus** permite a un usuario de Project Web App leer las 
     
 - **Flujo de trabajo**: si el usuario tiene permiso para ejecutar flujos de trabajo de Project Server, la aplicación se ejecuta con permisos elevados para el flujo de trabajo.
     
-Para obtener más información acerca de los ámbitos de solicitud de permiso para Project Server 2013, vea la sección *aplicaciones de Project* en [actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md) y [los permisos de aplicación en SharePoint 2013](http://msdn.microsoft.com/library/fp142383.aspx).
+Para obtener más información acerca de los ámbitos de solicitud de permiso para Project Server 2013, vea la sección *aplicaciones de Project* en [actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md) y [los permisos de aplicación en SharePoint 2013](https://msdn.microsoft.com/library/fp142383.aspx).
 
 
 <a name="pj15_StatusingApp_HTML"> </a>
 
 ### <a name="creating-the-html-content-for-the-quickstatus-app"></a>Creación de contenido HTML para la aplicación QuickStatus
 
-Antes de comenzar a codificar el contenido HTML, diseño de la interfaz de usuario y la experiencia del usuario para la aplicación QuickStatus (en la figura 3 muestra un ejemplo de la página completado). Un diseño también puede incluir un esquema de las funciones de JavaScript que interactúan con el código HTML. Para obtener información general, vea [Diseño de la experiencia de usuario de aplicaciones en SharePoint 2013](http://msdn.microsoft.com/library/fp179934.aspx).
+Antes de comenzar a codificar el contenido HTML, diseño de la interfaz de usuario y la experiencia del usuario para la aplicación QuickStatus (en la figura 3 muestra un ejemplo de la página completado). Un diseño también puede incluir un esquema de las funciones de JavaScript que interactúan con el código HTML. Para obtener información general, vea [Diseño de la experiencia de usuario de aplicaciones en SharePoint 2013](https://msdn.microsoft.com/library/fp179934.aspx).
   
 **Ilustración 3. Diseño de la página de la aplicación QuickStatus**
 
@@ -314,7 +314,7 @@ Las funciones de JavaScript en la aplicación **QuickStatus** incluyen los sigui
 5. Agregue la función **onGetAssignmentsSuccess**, que agrega una fila para cada asignación a la tabla. La variable **prevProjName** se usa para determinar si una fila es para otro proyecto. Si es así, el nombre del proyecto se muestra en negrita; si no, el nombre del proyecto se establece en una cadena vacía. 
     
    > [!NOTE]
-   > El JSOM no incluye las propiedades de **TimeSpan** que incluye el CSOM, como **ActualWorkTimeSpan**. En su lugar, utiliza el JSOM de propiedades para el número de milisegundos, como el [PS. StatusAssignment.actualWorkMilliseconds](http://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx) (propiedad). Es el método para obtener dicha propiedad **obtener\_actualWorkMilliseconds**, que devuelve un valor entero. > El método **get_actualWork** devuelve una cadena como "h 3". Puede usar cualquiera de los valores de la aplicación **QuickStatus** , pero mostrar de forma diferente. La consulta de las asignaciones incluye las dos propiedades, por lo que puede probar el valor durante la depuración. Si se quita la variable **actualWork** , también puede quitar la propiedad **ActualWork** en la consulta de las asignaciones. 
+   > El JSOM no incluye las propiedades de **TimeSpan** que incluye el CSOM, como **ActualWorkTimeSpan**. En su lugar, utiliza el JSOM de propiedades para el número de milisegundos, como el [PS. StatusAssignment.actualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx) (propiedad). Es el método para obtener dicha propiedad **obtener\_actualWorkMilliseconds**, que devuelve un valor entero. > El método **get_actualWork** devuelve una cadena como "h 3". Puede usar cualquiera de los valores de la aplicación **QuickStatus** , pero mostrar de forma diferente. La consulta de las asignaciones incluye las dos propiedades, por lo que puede probar el valor durante la depuración. Si se quita la variable **actualWork** , también puede quitar la propiedad **ActualWork** en la consulta de las asignaciones. 
   
    Por último, la función **onGetAssignmentsSuccess** inicializa el botón **Actualizar** y el botón **Actualizar** con controladores de eventos clic. El valor de texto del botón **Actualizar** también se podría establecer en el código HTML. 
     
@@ -513,7 +513,7 @@ Si el modo de entrada único está activado, la cinta de opciones de la página 
 Aunque los grupos y los controles de cada región parecen similares, un control del modo vinculado puede llamar a una función distinta que el mismo control del modo no vinculado. El procedimiento 4 muestra cómo agregar un control de botón para la aplicación **QuickStatus** si el modo de entrada único está desactivado (la casilla de verificación **Modo de entrada único** está desactivada). 
   
 > [!NOTE]
-> Para obtener información general acerca de cómo agregar acciones personalizadas en una cinta de opciones o en un menú en una aplicación de SharePoint, vea [crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/jj163954.aspx). 
+> Para obtener información general acerca de cómo agregar acciones personalizadas en una cinta de opciones o en un menú en una aplicación de SharePoint, vea [crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](https://msdn.microsoft.com/library/jj163954.aspx). 
   
 ### <a name="procedure-4-to-add-a-ribbon-custom-action-to-the-tasks-page"></a>Procedimiento 4. Agregar una acción personalizada de cinta de opciones a la página Tareas
 
@@ -541,7 +541,7 @@ Aunque los grupos y los controles de cada región parecen similares, un control 
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -637,7 +637,7 @@ El procedimiento 5 muestra cómo implementar e instalar la aplicación **QuickSt
 
 ## <a name="deploying-the-quickstatus-app"></a>Implementación de la aplicación QuickStatus
 
-Hay varias maneras de implementar una aplicación en una aplicación web de SharePoint como Project Web App. Qué implementación que utilice dependerá de si desea publicar la aplicación en un catálogo privado de SharePoint o en la tienda de Office pública, y si está instalado SharePoint local o es un arrendamiento de en línea. Procedimiento 5 muestra cómo implementar la aplicación **QuickStatus** a una instalación local en un catálogo de aplicaciones privada. Para obtener más información, vea [instalar y administrar aplicaciones para SharePoint 2013](http://technet.microsoft.com/library/fp161232.aspx) y [publicar aplicaciones para SharePoint](http://msdn.microsoft.com/library/jj164070.aspx)
+Hay varias maneras de implementar una aplicación en una aplicación web de SharePoint como Project Web App. Qué implementación que utilice dependerá de si desea publicar la aplicación en un catálogo privado de SharePoint o en la tienda de Office pública, y si está instalado SharePoint local o es un arrendamiento de en línea. Procedimiento 5 muestra cómo implementar la aplicación **QuickStatus** a una instalación local en un catálogo de aplicaciones privada. Para obtener más información, vea [instalar y administrar aplicaciones para SharePoint 2013](https://technet.microsoft.com/library/fp161232.aspx) y [publicar aplicaciones para SharePoint](https://msdn.microsoft.com/library/jj164070.aspx)
   
 > [!NOTE]
 > La adición de una aplicación a un catálogo de SharePoint exige permisos de administrador de SharePoint. 
@@ -656,9 +656,9 @@ Hay varias maneras de implementar una aplicación en una aplicación web de Shar
     
 4. En Administración central de SharePoint, seleccione **Aplicaciones** en el Inicio rápido y, luego, **Administrar catálogo de aplicaciones**.
     
-5. Si no existe un catálogo de aplicaciones, cree una colección de sitios para el catálogo de aplicaciones, siguiendo la sección *Configurar el sitio del catálogo de aplicaciones para una aplicación web* en [administrar el catálogo de aplicaciones en SharePoint 2013](http://technet.microsoft.com/library/fp161234.aspx).
+5. Si no existe un catálogo de aplicaciones, cree una colección de sitios para el catálogo de aplicaciones, siguiendo la sección *Configurar el sitio del catálogo de aplicaciones para una aplicación web* en [administrar el catálogo de aplicaciones en SharePoint 2013](https://technet.microsoft.com/library/fp161234.aspx).
     
-   Si no existe un catálogo de aplicaciones, vaya a la dirección URL del sitio en la página Administrar catálogo de aplicaciones. Por ejemplo, en los pasos siguientes, el sitio del catálogo de aplicaciones es `http://ServerName/sites/TestApps`.
+   Si no existe un catálogo de aplicaciones, vaya a la dirección URL del sitio en la página Administrar catálogo de aplicaciones. Por ejemplo, en los pasos siguientes, el sitio del catálogo de aplicaciones es `https://ServerName/sites/TestApps`.
     
 6. En la página del catálogo de aplicaciones, seleccione **Aplicaciones para SharePoint** en el Inicio rápido. En la página Aplicaciones para SharePoint, en la pestaña **ARCHIVOS** de la cinta de opciones, seleccione **Cargar documento**.
     
@@ -670,7 +670,7 @@ Hay varias maneras de implementar una aplicación en una aplicación web de Shar
     
    2. Campo de **Descripción** : aplicación de prueba de tipo para actualizar el porcentaje completado de tareas en varios proyectos.
     
-   3. Los campos de la **Dirección URL del icono** : agregar una imagen de 96 x 96 píxeles para el icono de la aplicación a los activos del sitio para el catálogo de aplicaciones. Por ejemplo, vaya a `http://ServerName/sites/TestApps`, elija **contenido del sitio** en el menú de lista desplegable **configuración** , elija **Activos del sitio**y, a continuación, agregue la imagen quickStatusApp.png. Haga clic en el elemento **quickStatusApp** , elija **Propiedades**y, a continuación, copie el valor de la **Dirección (URL)** en el cuadro de diálogo de **Propiedades** . Por ejemplo, copie `http://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png`y, a continuación, pegue el valor en el campo de dirección **URL de icono** web. Escriba una descripción para el icono, por ejemplo (como se muestra en la figura 9), escriba el icono de la aplicación QuickStatus. Probar que la dirección URL es válida.
+   3. Los campos de la **Dirección URL del icono** : agregar una imagen de 96 x 96 píxeles para el icono de la aplicación a los activos del sitio para el catálogo de aplicaciones. Por ejemplo, vaya a `https://ServerName/sites/TestApps`, elija **contenido del sitio** en el menú de lista desplegable **configuración** , elija **Activos del sitio**y, a continuación, agregue la imagen quickStatusApp.png. Haga clic en el elemento **quickStatusApp** , elija **Propiedades**y, a continuación, copie el valor de la **Dirección (URL)** en el cuadro de diálogo de **Propiedades** . Por ejemplo, copie `https://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png`y, a continuación, pegue el valor en el campo de dirección **URL de icono** web. Escriba una descripción para el icono, por ejemplo (como se muestra en la figura 9), escriba el icono de la aplicación QuickStatus. Probar que la dirección URL es válida.
     
       **Ilustración 9. Adición de una dirección URL de icono para la aplicación QuickStatus**
 
@@ -1141,7 +1141,7 @@ La siguiente definición de XML para el se ha agregado un botón en la ficha **t
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1185,7 +1185,7 @@ El siguiente es el código XML para el manifiesto de la aplicación del proyecto
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"
@@ -1199,8 +1199,8 @@ El siguiente es el código XML para el manifiesto de la aplicación del proyecto
         <Internal />
     </AppPrincipal>
     <AppPermissionRequests>
-        <AppPermissionRequest Scope="http://sharepoint/projectserver/statusing" Right="SubmitStatus" />
-        <AppPermissionRequest Scope="http://sharepoint/projectserver/projects" Right="Read" />
+        <AppPermissionRequest Scope="https://sharepoint/projectserver/statusing" Right="SubmitStatus" />
+        <AppPermissionRequest Scope="https://sharepoint/projectserver/projects" Right="Read" />
     </AppPermissionRequests>
     </App>
 ```
@@ -1213,17 +1213,17 @@ La solución de Visual Studio completa para la aplicación **QuickStatus** inclu
 
 <a name="pj15_StatusingApp_NextSteps"> </a>
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
-La aplicación **QuickStatus** es un ejemplo de cómo escribir aplicaciones que se pueden instalar en Project Server 2013 y Project Online relativamente simple. La sección de [prueba de la aplicación QuickStatus](#pj15_StatusingApp_Testing) enumera varias mejoras que se pueden realizar para facilidad de uso. La aplicación **QuickStatus** utiliza las funciones de JavaScript para actualizar el estado de asignación de Project Web App. Pero, cambiar el porcentaje completado de la asignación no es una práctica de administración recomendado de proyecto. Otro enfoque sería actualizar la fecha de comienzo real y la duración restante de las tareas asignadas. Para obtener una descripción de los problemas, consulte [Actualización mejor](http://www.mpug.com/articles/update-better) en el boletín de seguridad MPUG. 
+La aplicación **QuickStatus** es un ejemplo de cómo escribir aplicaciones que se pueden instalar en Project Server 2013 y Project Online relativamente simple. La sección de [prueba de la aplicación QuickStatus](#pj15_StatusingApp_Testing) enumera varias mejoras que se pueden realizar para facilidad de uso. La aplicación **QuickStatus** utiliza las funciones de JavaScript para actualizar el estado de asignación de Project Web App. Pero, cambiar el porcentaje completado de la asignación no es una práctica de administración recomendado de proyecto. Otro enfoque sería actualizar la fecha de comienzo real y la duración restante de las tareas asignadas. Para obtener una descripción de los problemas, consulte [Actualización mejor](https://www.mpug.com/articles/update-better) en el boletín de seguridad MPUG. 
 
 <a name="pj15_StatusingApp_AdditionalResources"> </a>
 
 ## <a name="see-also"></a>Vea también
 
 - [Tareas de programación de Project Server ](project-programming-tasks.md)
-- [Complementos de SharePoint](http://msdn.microsoft.com/library/jj163230.aspx)
+- [Complementos de SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
 - [Administración de actualizaciones de tareas en Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
-- [Crear acciones personalizadas para implementar complementos de SharePoint](http://msdn.microsoft.com/library/jj163954.aspx)
+- [Crear acciones personalizadas para implementar complementos de SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

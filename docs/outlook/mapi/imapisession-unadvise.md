@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3b582b48773b9f6f1a6f46f9c0e4c6dcb9782b86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98a5faca00f5877eb10110406875b46a69244d94
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592069"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397894"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cancela el envío de notificaciones configuradas previamente con una llamada al método [IMAPISession::Advise](imapisession-advise.md) . 
   
@@ -49,9 +49,9 @@ S_OK
 
 El método **IMAPISession::Unadvise** cancela un registro de notificación. Versiones de **Unadvise** su puntero al autor de la llamada de aviso receptor, que recibe en la llamada **Advise** utilizan para el registro. 
   
-Por lo general, **Unadvise** llama a método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) del receptor de notificaciones durante la llamada **Unadvise** . Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de notificaciones, la llamada de la **versión** se retrasa hasta que el método **OnNotify** devuelve. 
+Por lo general, **Unadvise** llama a método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de notificaciones durante la llamada **Unadvise** . Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de notificaciones, la llamada de la **versión** se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

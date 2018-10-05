@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567198"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395178"
 ---
 # <a name="shutting-down-a-service-provider"></a>Apagar un proveedor de servicios
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar la sesión y apagar todos los proveedores de servicio de active, MAPI a su vez llama a los métodos siguientes: 
   
@@ -33,7 +33,7 @@ Estos métodos tienen implementaciones similar. Las principales tareas que reali
   
 - Liberación de todos los objetos abiertos, incluidos los subobjetos y objetos de estado.
     
-- Llamar al método [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del objeto de soporte técnico para reducir su recuento de referencia. 
+- Llamar al método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del objeto de soporte técnico para reducir su recuento de referencia. 
     
 - Eliminación de todas las estructuras [MAPIUID](mapiuid.md) registradas de su proveedor de. 
     
@@ -67,7 +67,7 @@ Si su proveedor es un almacén de mensajes, una llamada de cliente a [IMsgStore:
   
 Archivo DLL de su proveedor se descargará cuando llama a la función API de Win32 **FreeLibrary**, una llamada que se realiza después de que el último cliente activo ha llamado [MAPIUninitialize](mapiuninitialize.md)MAPI. En este momento, su proveedor de servicios habrá terminado de cerrarse. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

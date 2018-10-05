@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: Microsoft InfoPath admite complementos COM para ampliar la experiencia de usuario de edición de formularios. Aunque la compatibilidad con complementos COM en primer lugar se agregan en InfoPath, otras aplicaciones de Office, como Microsoft Office Word y Microsoft Office Excel, han admitido complementos COM desde Office 2000.
-ms.openlocfilehash: 4c70dfb71cf7b15a0978b4567ffac02a8ba524c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395486"
 ---
 # <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Crear un complemento COM para agregar características personalizadas a InfoPath
 
@@ -129,11 +129,11 @@ Para compilar el administradas COM Add-in para realizar pruebas en el equipo en 
     
 Para compilar el complemento COM administrado para su uso en un equipo distinto del equipo en el que se desarrolló el proyecto de complemento compartido, debe seguir pasos adicionales para proteger el código. Para obtener información acerca de cómo proteger proyectos de complemento compartido para su uso en otros equipos, vea los tres artículos siguientes:
   
-- [Implementación de complementos COM administrados en Office XP](http://go.microsoft.com/fwlink/?LinkID=73473)
+- [Implementación de complementos COM administrados en Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
-- [Uso de la solución de compatibilidad (shim) de complemento COM para implementar administrado complementos COM de Office XP](http://go.microsoft.com/fwlink/?LinkID=73474)
+- [Uso de la solución de compatibilidad (shim) de complemento COM para implementar administrado complementos COM de Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
-- [Aislar las extensiones de Office con el Asistente de compatibilidad (shim) de COM](http://go.microsoft.com/fwlink/?LinkID=73475)
+- [Aislar las extensiones de Office con el Asistente de compatibilidad (shim) de COM](https://go.microsoft.com/fwlink/?LinkID=73475)
   
 > [!IMPORTANT]
 > Si no se aísla COM Add-in puede provocar pérdidas de memoria e inestabilidad en la aplicación. 
@@ -200,10 +200,10 @@ Cualquiera de los eventos del objeto **ApplicationEvents** puede ser controlado 
   
 ## <a name="see-also"></a>Vea también
 
-- [Creación de una Microsoft Office 2000 COM Add-in](http://go.microsoft.com/fwlink/?LinkID=73468) 
-- [Creación de Office Managed COM Add-Ins con Visual Studio .NET](http://go.microsoft.com/fwlink/?LinkID=73470)
-- [Trabajar con los procedimientos del evento IDTExtensibility2](http://go.microsoft.com/fwlink/?LinkID=73471)
-- [Crear un complemento COM de Office con Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
-- [Crear un complemento COM de Office con Visual C# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
-- [Creación de complementos de 2007 de InfoPath mediante el uso de Visual Studio 2005 Tools para Office System SE](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
+- [Creación de una Microsoft Office 2000 COM Add-in](https://go.microsoft.com/fwlink/?LinkID=73468) 
+- [Creación de Office Managed COM Add-Ins con Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [Trabajar con los procedimientos del evento IDTExtensibility2](https://go.microsoft.com/fwlink/?LinkID=73471)
+- [Crear un complemento COM de Office con Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [Crear un complemento COM de Office mediante Visual C#.](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Creación de complementos de 2007 de InfoPath mediante el uso de Visual Studio 2005 Tools para Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

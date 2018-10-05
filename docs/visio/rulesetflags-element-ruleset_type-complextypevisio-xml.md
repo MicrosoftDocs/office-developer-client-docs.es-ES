@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: Especifica las propiedades del conjunto de reglas.
-ms.openlocfilehash: f656e8ace045d45460ab353444c39c760448aa7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a8ba44e2c77281f3d68fb3f5a7a2c58884ce66b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400105"
 ---
 # <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Elemento de RuleSetFlags (RuleSet_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica las propiedades del conjunto de reglas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Validation.Xml  <br/> |
    

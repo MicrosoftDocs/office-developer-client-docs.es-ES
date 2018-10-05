@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565175"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395941"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Carga el formulario para un mensaje especificado.
   
@@ -64,7 +64,7 @@ S_OK
 
 Visores de formulario llamar al método **IPersistMessage::Load** para cargar un formulario para un mensaje existente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
  **Carga** sólo se llama cuando un formulario está en uno de los siguientes estados: 
   
@@ -76,13 +76,13 @@ Visores de formulario llamar al método **IPersistMessage::Load** para cargar un
     
 Si un visor de formulario llama **carga** mientras el formulario está en cualquier otro estado, el método devuelve E_UNEXPECTED. 
   
-Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasó a la **carga**, la versión del sitio original debido a que ya no se usará. Almacenar los punteros para el sitio de mensaje y el mensaje de los parámetros _pMessageSite_ y _pMessage_ y llamar a métodos de [IUnknown:: AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
+Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasó a la **carga**, la versión del sitio original debido a que ya no se usará. Almacenar los punteros para el sitio de mensaje y el mensaje de los parámetros _pMessageSite_ y _pMessage_ y llamar a métodos de [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
   
 Una vez haya finalizado **AddRef** , almacenar las propiedades de los parámetros _ulMessageStatus_ y _ulMessageFlags_ en el formulario. Realizar la transición del formulario a su estado [Normal](normal-state.md) antes de mostrarla y notificar a los visores registrados llamando a sus métodos [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
   
 Si no se producen errores, devuelve S_OK. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -102,9 +102,9 @@ Si no se producen errores, devuelve S_OK.
 [Estados de formulario](form-states.md)
 
 
-[IPersistStorage:: Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage:: Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream:: Load](http://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream:: Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile:: Load](http://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

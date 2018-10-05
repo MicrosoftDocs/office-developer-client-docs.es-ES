@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: Muestra la página que tiene el nombre pagename en la ventana actualmente activa.
-ms.openlocfilehash: 67f8a79b854fd6f2ae47e39877ffcdbe4a1be5cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c96585406b6104aeedbe46c35024a4f13bb0953e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822248"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397152"
 ---
 # <a name="gotopage-function"></a>Función GOTOPAGE
 
@@ -32,7 +32,7 @@ GOTOPAGE ("** *pagename* **")
    
 ## <a name="remarks"></a>Observaciones
 
-Si una ventana ya muestra la página, esa ventana se convierte en activa. Si *pagename* no existe, la aplicación intenta vaya a http:// *pagename* /. Si Visio actúa como un servidor en contexto, la función GOTOPAGE tiene ningún efecto. 
+Si una ventana ya muestra la página, esa ventana se convierte en activa. Si *pagename* no existe, la aplicación intenta navegar a https:// *pagename* /. Si Visio actúa como un servidor en contexto, la función GOTOPAGE tiene ningún efecto. 
   
 Puede utilizar la función HYPERLINK para buscar cualquier ruta de acceso DOS, UNC o dirección URL. 
   

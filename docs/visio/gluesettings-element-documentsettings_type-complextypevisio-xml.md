@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
 description: Especifica los objetos que se pegan las formas cuando el pegado está habilitado en el documento.
-ms.openlocfilehash: 0341e3e405c42707c802d1f193d341c8f125c159
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c85f1b201a15f5edb7e3ddb0f21553d80b9dd17a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822245"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398146"
 ---
 # <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Elemento GlueSettings (DocumentSettings_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica los objetos que se pegan las formas cuando el pegado está habilitado
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.XML, document.xml  <br/> |
    

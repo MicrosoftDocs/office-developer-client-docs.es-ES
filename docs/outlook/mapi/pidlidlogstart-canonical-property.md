@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b8c0c871-51d8-4752-ad4b-607463a9f837
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 359eb4ea4cbbcf6244bf3cca2f3a66b369bce6e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd5805cb0ee6b172506a532a513d06f57c583eee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586679"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396270"
 ---
 # <a name="pidlidlogstart-canonical-property"></a>Propiedad canónica PidLidLogStart
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Representa la fecha de inicio y la hora para el mensaje de diario.
   
@@ -43,11 +43,11 @@ El tiempo en hora Universal coordinada (UTC) cuando comenzó la actividad debe s
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona la definición del conjunto de propiedad y referencias a las especificaciones de protocolo de Exchange Server relacionadas.
     
-[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para diarios.
     
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

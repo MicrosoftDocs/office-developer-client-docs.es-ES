@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 description: Representa una cadena de texto descriptivo para un hipervínculo.
-ms.openlocfilehash: 567a90b3162c109582c3149c156a994392980577
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821990"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396627"
 ---
 # <a name="description-cell-hyperlinks-section"></a>Celda Description (sección Hipervínculos)
 
@@ -22,7 +22,7 @@ Representa una cadena de texto descriptivo para un hipervínculo.
   
 ## <a name="remarks"></a>Observaciones
 
-Use esta celda para guardar comentarios acerca del hipervínculo; por ejemplo "Vínculo a nuestro sitio web de precios".
+Use esta celda para almacenar comentarios acerca del hipervínculo; Por ejemplo, "vínculo a nuestro sitio Web de precio".
   
 También puede usar el cuadro de diálogo **Hipervínculos** para establecer el valor de esta celda (haga clic en **Hipervínculo** en la ficha **Insertar**). 
   

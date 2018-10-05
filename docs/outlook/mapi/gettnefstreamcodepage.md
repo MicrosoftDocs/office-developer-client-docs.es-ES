@@ -8,25 +8,25 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d00a2ce3ebec24ca69875bdcb83066d8b891137a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585958"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399658"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Determina la página de códigos para una secuencia de formato de encapsulación neutro para el transporte (TNEF).
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |TNEF.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones de cliente y los proveedores de servicios.  <br/> |
    
 ```cpp
@@ -69,9 +69,9 @@ HRESULT GetTnefStreamCodepage(
 
 Use la función **GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de subcode y página de códigos. Si no se encuentra **attOemCodepage** , **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página subcode de 0. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
+[attOemCodepage](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
 

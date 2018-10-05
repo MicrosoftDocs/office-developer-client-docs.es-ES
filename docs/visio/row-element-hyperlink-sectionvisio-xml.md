@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: Contiene los elementos para crear varios saltos entre una forma o un sitio Web y otra página de dibujo, otro archivo o página de dibujo.
-ms.openlocfilehash: ea2428ffbefa9ac2bf592e37d10c0089e72f6ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16935e463e76e0f0ee72b3fa40964551cf125cdd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823066"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400036"
 ---
 # <a name="row-element-hyperlink-section-visio-xml"></a>Elemento Row (sección de hipervínculos) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene los elementos para crear varios saltos entre una forma o un sitio Web y
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

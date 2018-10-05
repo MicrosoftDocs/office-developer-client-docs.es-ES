@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7451d159ef97ef9d8160b386ec5bf88fb388706e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595401"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395073"
 ---
 # <a name="download-table-state"></a>Descargar estado de la tabla
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado de la tabla de descarga de la máquina de estado de replicación. 
   
@@ -35,11 +35,11 @@ ms.locfileid: "22595401"
   
 ## <a name="description"></a>Descripción
 
-Este estado inicia la descarga de una carpeta. Durante este estado, Outlook inicializa la estructura de datos **DNTBL** asociada con información acerca de la carpeta. El cliente descarga el contenido de la carpeta y actualiza la carpeta en el almacén local con contenido nuevo, modificaciones o eliminaciones desde el servidor. El proceso de descarga adopta la sincronización de cambio Incremental (ICS) de Microsoft Exchange. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Este estado inicia la descarga de una carpeta. Durante este estado, Outlook inicializa la estructura de datos **DNTBL** asociada con información acerca de la carpeta. El cliente descarga el contenido de la carpeta y actualiza la carpeta en el almacén local con contenido nuevo, modificaciones o eliminaciones desde el servidor. El proceso de descarga adopta la sincronización de cambio Incremental (ICS) de Microsoft Exchange. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Cuando finaliza este estado, se devuelve el almacén local en el estado del contenido de sincronizar.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -49,5 +49,5 @@ Cuando finaliza este estado, se devuelve el almacén local en el estado del cont
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b02a55f7b87bef6a4304d006f79472bcf21c811e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aef4a932da35f3c4955bc2f4b265b146775c6d87
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400358"
 ---
 # <a name="pidtagprofilehomeserverfqdn-canonical-property"></a>Propiedad canónica PidTagProfileHomeServerFQDN
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Habilita la autenticación Kerberos de una configuración de perfil.
   
@@ -43,11 +43,11 @@ Al establecer esta propiedad en el nombre de dominio de servidor de Active direc
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Especifica las operaciones permitidas para los objetos de almacén de mensajes principales.
     
@@ -61,7 +61,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

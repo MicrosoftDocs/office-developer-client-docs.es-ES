@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bf1d6912e44319c36e288cd3870218e8c4e45ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563978"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395808"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a una interfaz que se puede usar para obtener acceso a una propiedad.
   
@@ -114,11 +114,11 @@ Para obtener acceso a datos adjuntos de mensajes, abra la propiedad **PR_ATTACH_
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile** es un derivado de la interfaz [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) que se basa en un archivo compuesto OLE 2.0. **IStreamDocfile** es la mejor opción para obtener acceso a los datos adjuntos de OLE 2.0, ya que implica la menor cantidad de sobrecarga. Puede usar IID_IStreamDocFile para las propiedades que contienen datos almacenados en almacenamiento estructurado disponible a través de la interfaz [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) . 
+**IStreamDocfile** es un derivado de la interfaz [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que se basa en un archivo compuesto OLE 2.0. **IStreamDocfile** es la mejor opción para obtener acceso a los datos adjuntos de OLE 2.0, ya que implica la menor cantidad de sobrecarga. Puede usar IID_IStreamDocFile para las propiedades que contienen datos almacenados en almacenamiento estructurado disponible a través de la interfaz [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) . 
   
 Para obtener más información acerca de cómo usar **OpenProperty** con datos adjuntos, vea la propiedad **PR_ATTACH_DATA_OBJ** y [Abrir un archivo adjunto](opening-an-attachment.md).
   
-No use el puntero **IStream** que reciben para llamar al método su [Seek](http://msdn.microsoft.com/en-us/library/aa380043%28v=VS.85%29.aspx) o [SetSize](http://msdn.microsoft.com/en-us/library/aa380044%28v=VS.85%29.aspx) a menos que utilice una cero variable de tamaño o posición. Además, no se basan en el valor del parámetro de salida _plibNewPosition_ devuelto de la llamada **Seek** . 
+No use el puntero **IStream** que reciben para llamar al método su [Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx) o [SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx) a menos que utilice una cero variable de tamaño o posición. Además, no se basan en el valor del parámetro de salida _plibNewPosition_ devuelto de la llamada **Seek** . 
   
 Si se llama **OpenProperty** para tener acceso a una propiedad con la interfaz **IStream** , use sólo esa interfaz para realizar cambios en él. No intente actualizar la propiedad con cualquiera de las otras [IMAPIProp: IUnknown](imapipropiunknown.md) métodos, como **SetProps** o [IMAPIProp::DeleteProps](imapiprop-deleteprops.md). 
   
@@ -126,19 +126,19 @@ No intente abrir una propiedad con **OpenProperty** más de una vez. Los resulta
   
 Si necesita modificar la propiedad que se va a abrir, establecer la marca MAPI_MODIFY. Si no está seguro de si el objeto es compatible con la propiedad pero cree que debería, establezca los indicadores MAPI_CREATE y MAPI_MODIFY. Siempre que se establezca MAPI_CREATE, también se debe establecer MAPI_MODIFY.
   
-Usted es responsable de refundición el puntero de interfaz devuelto en el parámetro _lppUnk_ a uno que sea apropiado para la interfaz especificada en el parámetro _lpiid_ . También debe usar el puntero devuelto para llamar al método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) cuando haya terminado con él. 
+Usted es responsable de refundición el puntero de interfaz devuelto en el parámetro _lppUnk_ a uno que sea apropiado para la interfaz especificada en el parámetro _lpiid_ . También debe usar el puntero devuelto para llamar al método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) cuando haya terminado con él. 
   
 En ocasiones, establecer los marcadores en el parámetro _ulFlags indicado_ no es suficiente para indicar el tipo de acceso a la propiedad que es necesario. Puede colocar datos adicionales, como indicadores, en el parámetro _ulInterfaceOptions_ . Estos datos son dependientes de la interfaz. Algunas interfaces (como **IStream**) usarla y otros no lo hacen. Por ejemplo, cuando se abre una propiedad que se debe modificar con **IStream**, establecer la marca STGM_WRITE en el parámetro _ulInterfaceOptions_ además de MAPI_MODIFY. Cuando se abre una tabla mediante la interfaz [IMAPITable](imapitableiunknown.md) , puede establecer _ulInterfaceOptions_ en MAPI_UNICODE para indicar si las columnas de la tabla que tienen propiedades de cadena deben estar en formato Unicode. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI usa el método **IMAPIProp::OpenProperty** para recuperar una interfaz de secuencia de texto de gran tamaño y propiedades binarias.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [HrIStorageFromStream](hristoragefromstream.md) 
 - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) 
@@ -147,6 +147,6 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 - [IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
 - [IMAPITable : IUnknown](imapitableiunknown.md)
 - [IMAPIProp : IUnknown](imapipropiunknown.md)
-- [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+- [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
 - [Abrir datos adjuntos](opening-an-attachment.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7eb65bbae2fca6648c3a701dfa5c83c5bf297ec5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569193"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396186"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Permite que los visores de formulario controlar el almacenamiento de un formulario y para la transición entre los distintos Estados.
   
@@ -31,7 +31,7 @@ Permite que los visores de formulario controlar el almacenamiento de un formular
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
 |Expuestos por:  <br/> |Conservar los objetos de mensaje  <br/> |
-|Se implementa mediante:  <br/> |Objetos de formulario  <br/> |
+|Implementado por:  <br/> |Objetos de formulario  <br/> |
 |Llamado por:  <br/> |Visores de formulario  <br/> |
 |Identificador de interfaz:  <br/> |IID_IPersistMessage  <br/> |
 |Tipo de puntero:  <br/> |LPPERSISTMESSAGE  <br/> |
@@ -53,9 +53,9 @@ Permite que los visores de formulario controlar el almacenamiento de un formular
 
 Todos los formularios necesarios para implementar la interfaz **IPersistMessage** . 
   
- **IPersistMessage** funciona de manera similar a la interfaz OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obtener más información, vea los métodos **IPersistStorage** . 
+ **IPersistMessage** funciona de manera similar a la interfaz OLE [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obtener más información, vea los métodos **IPersistStorage** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

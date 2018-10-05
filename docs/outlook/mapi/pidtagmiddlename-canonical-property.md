@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 25ee04fd-7ea1-4011-a45e-cd2d323e5d69
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 026a1ab8afda407e57a18e416cd02125753d3e2d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 832c2e92c4215e39a0698cd4e4ad19759c30b820
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593420"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400323"
 ---
 # <a name="pidtagmiddlename-canonical-property"></a>Propiedad canónica PidTagMiddleName
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el segundo nombre de un contacto.
   
@@ -42,11 +42,11 @@ Estas propiedades son definidas por el usuario.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

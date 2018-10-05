@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: Contiene las coordenadas x o y para el punto de control de una spline o nodo de una spline.
-ms.openlocfilehash: 14a62fba7d900f1d15a21b4a348c9affda6cad05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f2ddbcf7b750f2c2de983e16861070c7305fc3a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395122"
 ---
 # <a name="cell-element-splineknot-row-visio-xml"></a>Elemento de celda (fila SplineKnot) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y para el punto de control de una spline o nodo de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

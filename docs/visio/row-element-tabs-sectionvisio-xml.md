@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: Contiene celdas para formas o estilos que controlan la posición de tabulación y la alineación.
-ms.openlocfilehash: 7d233e5051e5b7ab9715d2840182b1426f31f5bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3299a35a3f7391e587a31869adf64caf3c614f08
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823063"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395294"
 ---
 # <a name="row-element-tabs-section-visio-xml"></a>Elemento Row (sección de tabulaciones) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene celdas para formas o estilos que controlan la posición de tabulación 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, master # .xml, # .xml de página  <br/> |
    

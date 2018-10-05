@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Obtenga información sobre cómo usar CSISyncClient para controlar la memoria caché de documentos de Office (ODC).
-ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399455"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Uso de CSISyncClient para controlar la memoria caché de documentos de Office (ODC)
 
@@ -202,7 +202,7 @@ Identifica el consumidor y que la memoria caché para usar. Debe ser no vacía c
   
  _bstrProgID_
   
-Identifica el objeto de COM del consumidor para la comunicación bidireccional. Debe ser no vacía con un máximo de 39 caracteres. Vea [ \<ProgID\> clave](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) para obtener más información acerca de ProgIDs. 
+Identifica el objeto de COM del consumidor para la comunicación bidireccional. Debe ser no vacía con un máximo de 39 caracteres. Vea [ \<ProgID\> clave](https://docs.microsoft.com/windows/desktop/com/-progid--key) para obtener más información acerca de ProgIDs. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -248,7 +248,7 @@ Una cadena que identifica el ResourceID del archivo. Este valor debe ser no vac�
   
  _bstrWebPath_
   
-Una cadena que identifica el archivo en el servidor. Este valor debe ser la dirección URL no vacía, válido, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por http://support.microsoft.com/kb/208427. 
+Una cadena que identifica el archivo en el servidor. Este valor debe ser la dirección URL no vacía, válido, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por https://support.microsoft.com/kb/208427. 
   
 ##### <a name="return-values"></a>Valores devueltos
 
@@ -287,7 +287,7 @@ Una cadena que especifica la nueva ruta de acceso local para el archivo. Este va
   
  _bstrNewWebPath_
   
-Una cadena que especifica la nueva dirección URL para el archivo. Este valor debe ser no vacías dirección URL válida, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por http://support.microsoft.com/kb/208427. 
+Una cadena que especifica la nueva dirección URL para el archivo. Este valor debe ser no vacías dirección URL válida, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por https://support.microsoft.com/kb/208427. 
   
  _fBlockUploads_
   
@@ -315,7 +315,7 @@ ResetCache, se eliminará de la memoria caché asociada con el SuppliedID que le
 
 ##### <a name="parameters"></a>Parámetros
 
-Ninguna
+Ninguno
   
 ##### <a name="return-values"></a>Valores devueltos
 
@@ -340,7 +340,7 @@ Este método le permitirá descargas si se marcó como descargas bloqueados ante
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |Una cadena que identifica el archivo en el cliente. Este valor debe ser una ruta de acceso local no vacía con un máximo de 256 caracteres. Esta ruta de acceso debe estar en el árbol del directorio especificado por la FileSystemDirectoryHint cuando se realizó la llamada a Initialize.  <br/> |
 |bstrResourceID  <br/> |Una cadena que identifica el ResourceID del archivo. Este valor debe ser no vacía con un máximo de 128 caracteres.  <br/> |
-|bstrWebPath  <br/> |Una cadena que identifica el archivo en el servidor. Este valor debe ser una no vacías dirección URL válida, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por http://support.microsoft.com/kb/208427.  <br/> |
+|bstrWebPath  <br/> |Una cadena que identifica el archivo en el servidor. Este valor debe ser una no vacías dirección URL válida, pero no puede superar los INTERNET_MAX_URL_LENGTH, tal como se define por https://support.microsoft.com/kb/208427.  <br/> |
    
 ##### <a name="return-values"></a>Valores devueltos
 
