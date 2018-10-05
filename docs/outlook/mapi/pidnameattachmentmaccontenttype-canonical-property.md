@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d345324d-83a1-40e7-a6af-16cfc67a4932
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e98d8f3c94c119477c48e15788cf981a2f4f8f89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e3eed151cfcf6f269e8706d93c1ae23d1bbb0ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581268"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390950"
 ---
 # <a name="pidnameattachmentmaccontenttype-canonical-property"></a>Propiedad canónica PidNameAttachmentMacContentType
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de campo de encabezado Content-Type de [RFC3282] los datos adjuntos que se usan los clientes de correo electrónico basado en Macintosh.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguna  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Attachment  <br/> |
 |Nombre de la propiedad:  <br/> |AttachmentMacContentType  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Contiene un valor de campo de encabezado Content-Type de [RFC3282] los datos adj
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convierte de las convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

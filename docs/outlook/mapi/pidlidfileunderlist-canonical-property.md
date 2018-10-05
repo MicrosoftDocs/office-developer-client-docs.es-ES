@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 353734d28dd10da1e503e268f9e06e9bf9c86cfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 309c20be5c17746ec10495400d069f1f9b857556
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567569"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391440"
 ---
 # <a name="pidlidfileunderlist-canonical-property"></a>Propiedad canónica PidLidFileUnderList
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica una lista de valores posibles para la propiedad **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
   
@@ -37,17 +37,17 @@ Especifica una lista de valores posibles para la propiedad **dispidFileUnderId**
    
 ## <a name="remarks"></a>Comentarios
 
-Cada valor de la propiedad de varios valor debe ser uno de los valores permitidos para **dispidFileUnderId** especificado en [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
+Cada valor de la propiedad de varios valor debe ser uno de los valores permitidos para **dispidFileUnderId** especificado en [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

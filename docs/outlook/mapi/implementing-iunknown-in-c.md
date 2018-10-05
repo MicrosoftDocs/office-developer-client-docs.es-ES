@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bdc81d78927e530037c65ca7fd61d722cd96bab7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581443"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391447"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implementar la interfaz IUnknown en C
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Las implementaciones del método [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) en C son muy similares a las implementaciones de C++. Hay dos pasos básicos para la implementación: 
+Las implementaciones del método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en C son muy similares a las implementaciones de C++. Hay dos pasos básicos para la implementación: 
   
 1. Validación de parámetros.
     
-2. El identificador de la interfaz solicitada respecto de la lista de interfaces compatibles con el objeto de comprobación y devolver el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencia. 
+2. El identificador de la interfaz solicitada respecto de la lista de interfaces compatibles con el objeto de comprobación y devolver el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencia. 
     
 La diferencia principal entre una implementación de **QueryInterface** en C y C++ es el primer parámetro adicional en la versión de C. Dado que el puntero de objeto se agrega a la lista de parámetros, una implementación de C de **QueryInterface** debe tener más validación de parámetro que una implementación de C++. La lógica para comprobar el identificador de interfaz, incrementar el recuento de referencia y la devolución de un puntero de objeto debe ser idéntica en ambos lenguajes. 
   
@@ -64,7 +64,7 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Mientras que la implementación del método **AddRef** en C es similar a una implementación de C++, una implementación de C del método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) puede obtener más elaborada que una versión de C++. Esto es debido a que muchas de las funciones relacionadas con la liberación de un objeto pueden incorporarse en el constructor de C++ y el destructor y C no tiene ningún mecanismo de este tipo. Toda esta funcionalidad debe estar incluido en el método de la **versión** . Además, debido a los parámetros adicionales y su tabla vtable explícita, validación más es necesario. 
+Mientras que la implementación del método **AddRef** en C es similar a una implementación de C++, una implementación de C del método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) puede obtener más elaborada que una versión de C++. Esto es debido a que muchas de las funciones relacionadas con la liberación de un objeto pueden incorporarse en el constructor de C++ y el destructor y C no tiene ningún mecanismo de este tipo. Toda esta funcionalidad debe estar incluido en el método de la **versión** . Además, debido a los parámetros adicionales y su tabla vtable explícita, validación más es necesario. 
   
 La siguiente llamada al método **AddRef** ilustra una implementación típica de C para un objeto de estado. 
   
@@ -130,7 +130,7 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Implementar objetos MAPI](implementing-mapi-objects.md)
 - [Implementar la interfaz IUnknown](implementing-the-iunknown-interface.md)

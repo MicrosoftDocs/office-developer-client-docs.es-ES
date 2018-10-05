@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d837a83ea8773018033a27ec894375a22c15c8a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815360"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391125"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Crear y personalizar una aplicación web en Access
 
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 Access 2013 incluye un nuevo modelo de aplicación que permite a los expertos en la materia crear rápidamente aplicaciones web. Con Access se incluye un conjunto de plantillas que puede usar para iniciar la creación de su aplicación.
 
@@ -30,9 +30,9 @@ Para seguir los pasos de este ejemplo, necesita lo siguiente:
     
 - Un entorno de desarrollo de SharePoint.
     
-Para obtener más información sobre cómo configurar el entorno de desarrollo de SharePoint, vea [Configurar un entorno de desarrollo general para SharePoint](https://docs.microsoft.com/es-ES/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
+Para obtener más información sobre cómo configurar el entorno de desarrollo de SharePoint, vea [Configurar un entorno de desarrollo general para SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-Para obtener más información sobre cómo conseguir Access y SharePoint, vea [Descargas](http://msdn.microsoft.com/es-ES/office/apps/fp123627).
+Para obtener más información sobre cómo conseguir Access y SharePoint, vea [Descargas](https://msdn.microsoft.com/office/apps/fp123627).
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -241,7 +241,7 @@ El uso de una de las plantillas de esquema incluidas con es una buena manera de 
   
 ## <a name="see-also"></a>Vea también
 
-- [Novedades para desarrolladores de Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Novedades para desarrolladores de Access 2013](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Referencia de la aplicación de acceso web personalizados](access-custom-web-app-reference.md)
   
 

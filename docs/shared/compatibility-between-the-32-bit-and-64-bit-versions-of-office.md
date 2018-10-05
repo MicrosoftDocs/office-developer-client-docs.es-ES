@@ -5,12 +5,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Descubra cómo la versión de 32 bits de Office es compatible con la versión de 64 bits de Office.
-ms.openlocfilehash: 924f7a1aa891addc5841e6cdefc5226dcb056096
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeff11f11d4f2595b7111c0233703d09b1c46651
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821444"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390943"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilidad entre versiones de 32 y 64 bits de Office
 
@@ -67,7 +67,7 @@ Procesos de 64 bits nativos de Office no pueden cargar los archivos binarios de 
 La combinación de las bibliotecas de VBA y tipo le ofrece una gran cantidad de funcionalidad para crear aplicaciones de Office. Sin embargo, en ocasiones, se debe comunicar directamente con el sistema operativo y otros componentes, por ejemplo, al administrar memoria o procesos, cuando se trabaja con controles y ventanas de linke de elementos de la interfaz de usuario, o cuando se modifica el registro de Windows. En estos escenarios, la mejor opción es utilizar una de las funciones externas que están incrustadas en archivos DLL. Puede hacerlo en VBA mediante la realización de llamadas a API utilizando instrucciones **Declare** . 
   
 > [!NOTE]
-> Microsoft proporciona un archivo Win32API.txt que contiene las instrucciones Declare 1.500 y una herramienta para copiar la instrucción **Declare** que desee en el código. Sin embargo, estas instrucciones son para sistemas de 32 bits y se debe convertir a 64 bits mediante el uso de la información que se trata más adelante en este artículo. Las instrucciones **Declare** existentes no se compilan en VBA de 64 bits hasta que haya marcado como seguros para 64 bits mediante el atributo **PtrSafe** . Puede encontrar ejemplos de este tipo de conversión en el sitio Web del Excel MVP Jan Karel Pieterse en [http://www.jkp-ads.com/articles/apideclarations.asp](http://www.jkp-ads.com/articles/apideclarations.asp). La [Guía de usuario del Inspector de compatibilidad de código de Office](http://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) es una herramienta muy útil para inspeccionar la sintaxis de instrucciones **Declare** de API para el atributo **PtrSafe** , si es necesario, y el correspondiente tipo de valor devuelto. 
+> Microsoft proporciona un archivo Win32API.txt que contiene las instrucciones Declare 1.500 y una herramienta para copiar la instrucción **Declare** que desee en el código. Sin embargo, estas instrucciones son para sistemas de 32 bits y se debe convertir a 64 bits mediante el uso de la información que se trata más adelante en este artículo. Las instrucciones **Declare** existentes no se compilan en VBA de 64 bits hasta que haya marcado como seguros para 64 bits mediante el atributo **PtrSafe** . Puede encontrar ejemplos de este tipo de conversión en el sitio Web del Excel MVP Jan Karel Pieterse en [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). La [Guía de usuario del Inspector de compatibilidad de código de Office](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) es una herramienta muy útil para inspeccionar la sintaxis de instrucciones **Declare** de API para el atributo **PtrSafe** , si es necesario, y el correspondiente tipo de valor devuelto. 
   
 Instrucciones **Declare** se parecen a uno de los siguientes, dependiendo de si se está llamando a una subrutina (que no tiene ningún valor devuelto) o una función (que tiene un valor devuelto). 
   
@@ -219,7 +219,7 @@ No.
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>¿Cuándo debo convertir parámetros largos a LongPtr?
   
-Debe consultar la documentación de API de Windows en la red de programadores de Microsoft para la función que desea llamar. Punteros y controladores necesitan que se va a convertir a **LongPtr**. Por ejemplo, la documentación de [RegOpenKeyA](http://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) proporciona la siguiente firma: 
+Debe consultar la documentación de API de Windows en la red de programadores de Microsoft para la función que desea llamar. Punteros y controladores necesitan que se va a convertir a **LongPtr**. Por ejemplo, la documentación de [RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) proporciona la siguiente firma: 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -241,7 +241,7 @@ Los parámetros se definen como:
 |samDesired [in]  <br/> |Máscara que especifica los derechos de acceso que desee a la clave.  <br/> |
 |phkResult [out]  <br/> |Un *puntero* a una variable que recibe un identificador de la clave abierta.  <br/> |
    
-En [Win32API_PtrSafe.txt](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b), la instrucción **Declare** se define como: 
+En [Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b), la instrucción **Declare** se define como: 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -269,6 +269,6 @@ Debe utilizar estas funciones para recuperar punteros a cadenas, variables y obj
 ## <a name="see-also"></a>Vea también
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Anatomía de una instrucción Declare](https://msdn.microsoft.com/en-us/library/office/aa671659.aspx)
+- [Anatomía de una instrucción Declare](https://msdn.microsoft.com/library/office/aa671659.aspx)
     
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: Especifica una propiedad de una capa o sus propiedades de una página.
-ms.openlocfilehash: 92be29321ba637bb694c0cf5d3cddcb888618c1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e96fdc1dcd5c9a7a2cb8753beaff766c2b477af2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821744"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390978"
 ---
 # <a name="cell-element-layer-section-visio-xml"></a>Elemento de celda (sección de capas) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica una propiedad de una capa o sus propiedades de una página.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Masters.XML, pages.xml  <br/> |
    
@@ -66,16 +66,16 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
   
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Activo  <br/> |Especifica si una capa está activa.  <br/> |Ninguno.  <br/> |
-|Color  <br/> |Especifica uno de los siguientes: el índice del color en la tabla de color utilizado para mostrar la capa o un valor RGB que especifica un color personalizado no está en la tabla de colores.  <br/> |Ninguno.  <br/> |
-|ColorTrans  <br/> |Determina el grado de transparencia de una capa o el color del texto de la forma, de 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguno.  <br/> |
-|Pegado  <br/> |Especifica si las formas que pertenecen a la capa pueden pegarse a.  <br/> |Ninguno.  <br/> |
-|Lock  <br/> |Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.  <br/> |Ninguno.  <br/> |
-|Nombre  <br/> |El nombre de una capa.  <br/> |Ninguno.  <br/> |
-|NameUniv  <br/> |Especifica el nombre universal de una capa.  <br/> |Ninguno.  <br/> |
-|Imprimir  <br/> |Especifica si las formas que pertenecen a la capa se imprimen cuando se imprime el dibujo.  <br/> |Ninguno.  <br/> |
-|Complemento  <br/> |Especifica si otras formas se pueden ajustar a formas asignadas a la capa.  <br/> |Ninguno.  <br/> |
-|Status  <br/> |Especifica si la capa es una capa válida para un documento.  <br/> |Ninguno.  <br/> |
+|Activo  <br/> |Especifica si una capa está activa.  <br/> |Ninguna.  <br/> |
+|Color  <br/> |Especifica uno de los siguientes: el índice del color en la tabla de color utilizado para mostrar la capa o un valor RGB que especifica un color personalizado no está en la tabla de colores.  <br/> |Ninguna.  <br/> |
+|ColorTrans  <br/> |Determina el grado de transparencia de una capa o el color del texto de la forma, de 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguna.  <br/> |
+|Pegado  <br/> |Especifica si las formas que pertenecen a la capa pueden pegarse a.  <br/> |Ninguna.  <br/> |
+|Lock  <br/> |Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.  <br/> |Ninguna.  <br/> |
+|Nombre  <br/> |El nombre de una capa.  <br/> |Ninguna.  <br/> |
+|NameUniv  <br/> |Especifica el nombre universal de una capa.  <br/> |Ninguna.  <br/> |
+|Imprimir  <br/> |Especifica si las formas que pertenecen a la capa se imprimen cuando se imprime el dibujo.  <br/> |Ninguna.  <br/> |
+|Complemento  <br/> |Especifica si otras formas se pueden ajustar a formas asignadas a la capa.  <br/> |Ninguna.  <br/> |
+|Status  <br/> |Especifica si la capa es una capa válida para un documento.  <br/> |Ninguna.  <br/> |
 |Visible  <br/> |Especifica si las formas de la capa son visibles en la página de dibujo.  <br/> |Ninguno.  <br/> |
    
 

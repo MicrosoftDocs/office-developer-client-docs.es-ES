@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 07d8ba86-8e35-d151-e6c1-150c37cc2acd
 description: Especifica que un MIME (Extensiones multipropósito de correo Internet) codificado binario icono (en formato .ico) para un elemento MasterShortcut en un documento.
-ms.openlocfilehash: 46ca7c3f6ba733d31823f6b47f083c46dd941c14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2c9a662266620a10ed6d07592388f83bf2aedf6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822311"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389655"
 ---
 # <a name="icon-element-mastershortcuttype-complextype-visio-xml"></a>Elemento de icono (MasterShortcut_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica que un MIME (Extensiones multipropósito de correo Internet) codifica
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Masters.Xml  <br/> |
    

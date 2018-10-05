@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578118"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391664"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI como un ejemplo de código
  
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En el ejemplo MFCMAPI usa la API de mensajería para proporcionar acceso a los almacenes MAPI a través de una interfaz gráfica de usuario. Después de descargar este ejemplo, puede utilizar los archivos de origen para examinar los casos de uso de ejemplo para muchas de las interfaces MAPI y referencias. Para obtener más información, vea [Interfaces de MAPI](mapi-interfaces.md).
   
@@ -27,7 +27,7 @@ En el ejemplo MFCMAPI usa la API de mensajería para proporcionar acceso a los a
    
 ### <a name="to-download-mfcmapi"></a>Para descargar MFCMAPI
   
-1. En la página [MFCMAPI](http://codeplex.com/MFCMAPI) , haga clic en la ficha de **Código fuente** . 
+1. En la página [MFCMAPI](https://codeplex.com/MFCMAPI) , haga clic en la ficha de **Código fuente** . 
     
 2. **Protecciones recientes**, haga clic en **Descargar** para la compilación más reciente. 
     
@@ -58,7 +58,7 @@ En el **Explorador de soluciones**, expanda el proyecto **MFCMapi** y examine lo
   
 Elija los archivos de origen MFCMAPI para ver ejemplos de programación temas muchos de los métodos en la sección de [Interfaces de MAPI](mapi-interfaces.md) . Por ejemplo, en [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) que se indique examine la función `CMsgStoreDlg::OnDisplayReceiveFolderTable` en el archivo MsgStoreDlg.cpp. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Ejemplos de MAPI](mapi-samples.md)
 

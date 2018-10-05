@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592111"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390635"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve todas las propiedades de un objeto, excepto propiedades excluidas específicamente, a otro objeto.
   
@@ -171,7 +171,7 @@ Si se pasan un identificador de interfaz aceptable en _lpDestInterface_ pero un 
   
 Por el contrario, si tiene constancia de información complementaria que no se puede copiar o mover, agregar los identificadores de interfaz de las interfaces que se deben excluir de la matriz que se pasa en el parámetro _rgiidExclude_ . Por ejemplo, si va a copiar los mensajes, pero no en cualquiera de sus datos adjuntos de mensajes, pase IID_IMessage en la matriz _rgiidExclude_ . **DoCopyTo** pasa por alto cualquier interfaces que aparecen en _rgiidExclude_ que no reconoce. 
   
-Cuando se usa el parámetro _rgiidExclude_ para excluir una interfaz, también excluye todas las interfaces derivadas de dicha interfaz. Por ejemplo, la exclusión de la interfaz de [IMAPIContainer](imapicontainerimapiprop.md) hace que las carpetas o los contenedores de la libreta de direcciones que se deben excluir, según el tipo de proveedor de. No excluya [IMAPIProp](imapipropiunknown.md) o [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) debido a que muchas interfaces derivan de ellos. 
+Cuando se usa el parámetro _rgiidExclude_ para excluir una interfaz, también excluye todas las interfaces derivadas de dicha interfaz. Por ejemplo, la exclusión de la interfaz de [IMAPIContainer](imapicontainerimapiprop.md) hace que las carpetas o los contenedores de la libreta de direcciones que se deben excluir, según el tipo de proveedor de. No excluya [IMAPIProp](imapipropiunknown.md) o [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) debido a que muchas interfaces derivan de ellos. 
   
  **DoCopyTo** informes de errores global que se aplican a la operación como un todo y errores individuales que se aplican a las propiedades individuales. Estos errores individuales se colocan en una estructura **SPropProblemArray** . Puede suprimir informes en el nivel de propiedad pasando NULL, en lugar de un puntero válido para el parámetro de estructura de matriz de propiedad problema de error. 
   
@@ -181,7 +181,7 @@ Si **DoCopyTo** devuelve S_OK, liberar la estructura **SPropProblemArray** devue
   
 Si se produce un error global en la llamada **DoCopyTo** , no utilice ni libre la estructura **SPropProblemArray** . Proveedores de deben omitir al miembro _ulIndex_ en estructuras **SPropProblemArray** devuelto por **DoCopyTo**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

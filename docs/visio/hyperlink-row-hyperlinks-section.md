@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
 description: Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una fila Hyperlink por cada hipervínculo.
-ms.openlocfilehash: 99295838f5d1860e3c34cf4e37866eb477fe81ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36b9b62f248e4f5b9407156a79fa674dc2e8f14d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822304"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390257"
 ---
 # <a name="hyperlink-row-hyperlinks-section"></a>Fila Hyperlink (sección Hipervínculos)
 
@@ -30,7 +30,7 @@ Las filas Hyperlink se denominan Hyperlink. *nombre* y contienen las celdas sigu
 |[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |Cadena de texto que pasa información utilizada para obtener una dirección URL.  <br/> |
 |[Marco](frame-cell-hyperlinks-section.md) <br/> |Nombre de un marco de destino cuando Microsoft Office Visio se abre como documento Active en un contenedor ActiveX. El valor predeterminado es una cadena vacía.  <br/> |
 |[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |Determina el orden de los hipervínculos en el menú contextual.  <br/> |
-|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica si el hipervínculo se abre en una ventana nueva. Si es TRUE, la página, documento o sitio Web vinculado se abre en una ventana nueva. El valor predeterminado es FALSE.  <br/> |
+|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica si el hipervínculo se abre en una ventana nueva. Si es TRUE, abre la página vinculada, documento o sitio Web en una nueva ventana. El valor predeterminado es FALSE.  <br/> |
 |[Default](default-cell-hyperlinks-section.md) <br/> |Hipervínculo predeterminado de una forma o de una página.  <br/> |
 |[Invisible](invisible-cell-hyperlinks-section.md) <br/> |Indica si el hipervínculo aparece o no en el menú contextual.  <br/> |
    

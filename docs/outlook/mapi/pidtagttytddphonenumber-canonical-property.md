@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0471b331-7c8e-4b48-996c-276bdd61f522
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c5d2c7a58db4f3c6d505a35867ebab6a5b6bf43
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c442fcdaaa88834b1f25912ac98eb70ddcd45129
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575745"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390232"
 ---
 # <a name="pidtagttytddphonenumber-canonical-property"></a>Propiedad canónica PidTagTtyTddPhoneNumber
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el número de teléfono del contacto de texto (TTY) teléfono o dispositivo de telecomunicaciones para personas con discapacidades auditivas (TDD).
   
@@ -38,11 +38,11 @@ Contiene el número de teléfono del contacto de texto (TTY) teléfono o disposi
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

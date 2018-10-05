@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4b2b9971677312dbea297c9fe2d29ba65174904d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4b610415089ff19165ffcabc9e13901ed63c907d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588793"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391790"
 ---
 # <a name="mapi-object-inheritance-hierarchy"></a>Jerarquía de herencia de objetos MAPI
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Todas las interfaces implementadas por objetos MAPI se heredan de [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), la interfaz OLE que permite a los objetos para comunicarse. La mayoría de las interfaces heredan directamente de **IUnknown**, pero algunas heredan de una de las otras dos interfaces bases: [IMAPIProp: IUnknown](imapipropiunknown.md) o [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). En la siguiente ilustración muestra la jerarquía de herencia completa de MAPI.
+Todas las interfaces implementadas por objetos MAPI se heredan de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), la interfaz OLE que permite a los objetos para comunicarse. La mayoría de las interfaces heredan directamente de **IUnknown**, pero algunas heredan de una de las otras dos interfaces bases: [IMAPIProp: IUnknown](imapipropiunknown.md) o [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). En la siguiente ilustración muestra la jerarquía de herencia completa de MAPI.
   
 **Jerarquía de herencia de MAPI**
   
 ![Jerarquía de herencia de MAPI] (media/amapi_06.gif "Jerarquía de herencia de MAPI")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md) 
 - [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)

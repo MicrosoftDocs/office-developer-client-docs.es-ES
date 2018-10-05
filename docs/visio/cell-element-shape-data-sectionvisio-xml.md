@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: Especifica una propiedad de los datos de formas.
-ms.openlocfilehash: 899b518f86979c831c0c05913420c7a62f0ea717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e0c79d9439fb3800a277e039143060eec708b11
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821758"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390649"
 ---
 # <a name="cell-element-shape-data-section-visio-xml"></a>Elemento de celda (sección de datos de formas) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica una propiedad de los datos de formas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    
@@ -75,7 +75,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |Prompt  <br/> |Especifica un texto descriptivo o con instrucciones que aparece como sugerencia cuando el mouse se detiene sobre un valor en la ventana Datos de formas.  <br/> |[Celda Prompt (Sección de datos de formas)](prompt-cell-shape-data-section.md) <br/> |
 |SortKey  <br/> |Da como resultado una cadena que influye en el orden en el que se presentan los elementos en la ventana Datos de formas.  <br/> |[Celda SortKey (Sección de datos de formas)](sortkey-cell-shape-data-section.md) <br/> |
 |Tipo  <br/> |Especifica un tipo de datos para el valor de los datos de formas.  <br/> |[Celda Type (Sección de datos de formas)](type-cell-shape-data-section.md) <br/> |
-|Value  <br/> |Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo Definir datos de formas.  <br/> |[Celda Value (Sección de datos de formas)](value-cell-shape-data-section.md) <br/> |
+|Valor  <br/> |Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo Definir datos de formas.  <br/> |[Celda Value (Sección de datos de formas)](value-cell-shape-data-section.md) <br/> |
 |Comprobar  <br/> |Especifica si el usuario se le pide que escriba la información de propiedad personalizada de una forma cuando se crea una instancia o se duplica o copia la forma.  <br/> |Ninguno.  <br/> |
    
 

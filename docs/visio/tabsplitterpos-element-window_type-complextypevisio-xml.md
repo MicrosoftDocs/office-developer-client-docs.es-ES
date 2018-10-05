@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: Especifica el ancho del control de ficha de página de una ventana de dibujo (como una fracción del ancho total de la ventana de dibujo).
-ms.openlocfilehash: dff8732ad96e43627e08565927edbc11dd40df49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d30c151b8ad928f271ff2d8a6332755d11a562b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823356"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390647"
 ---
 # <a name="tabsplitterpos-element-windowtype-complextype-visio-xml"></a>Elemento de TabSplitterPos (Window_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica el ancho del control de ficha de página de una ventana de dibujo (co
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.Xml  <br/> |
    

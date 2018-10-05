@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: Contiene información acerca de una fuente.
-ms.openlocfilehash: 8a66d5294e239e4540939cc7053e1f67a777144d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c8f047d655be167dc058b3e29ac62161887ce99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822086"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389781"
 ---
 # <a name="facename-element-facenamestype-complextype-visio-xml"></a>Elemento de nombre de fuente (FaceNames_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene información acerca de una fuente.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.Xml  <br/> |
    

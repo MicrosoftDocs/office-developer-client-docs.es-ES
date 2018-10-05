@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 08db12e8ec698ffb6bbbc58f623949d2cb092ceb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a119cf1446600153e433c4aae99037d9810015c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563530"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390894"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propiedad canónica PidTagMemberName
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre para mostrar de un miembro de la tabla (ACL) de la lista de control de acceso.
   
@@ -42,11 +42,11 @@ Estas propiedades se usan por la [IExchangeModifyTable: IUnknown](iexchangemodif
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCPERM]](http://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
 > Controla la recuperación de listas de permisos de carpeta que se almacenan en el servidor.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

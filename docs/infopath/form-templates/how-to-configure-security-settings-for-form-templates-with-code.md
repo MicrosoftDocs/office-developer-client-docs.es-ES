@@ -8,18 +8,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Puede personalizar el conjunto de permisos que se aplicará a las plantillas de formulario de código administrado de InfoPath usando el complemento Configuración de .NET.
-ms.openlocfilehash: f04ce71875eac7695d2900131ca7c9cd333fa90f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815882"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391419"
 ---
 # <a name="configure-security-settings-for-form-templates-with-code"></a>Configurar las opciones de seguridad de las plantillas de formulario con código
 
 Puede personalizar el conjunto de permisos que se aplicará a las plantillas de formulario de código administrado de InfoPath usando el complemento Configuración de .NET.
   
-El componente CLR que hospeda InfoPath buscará un grupo de código predefinido denominado  *Plantillas de formulario de InfoPath*  en el grupo Todo_el_código del nivel de directivas Equipo. CLR aplicará los conjuntos de permisos definidos en ese grupo al dominio de aplicación (AppDomain) en el que se ejecuta el código. Ello permite personalizar los conjuntos de permisos que se conceden a las plantillas de formulario con código administrado de InfoPath. Por ejemplo, puede conceder permiso para obtener acceso a Active Directory a plantillas de formulario descargadas desde http://MySite. 
+El componente CLR que hospeda InfoPath buscará un grupo de código predefinido denominado  *Plantillas de formulario de InfoPath*  en el grupo Todo_el_código del nivel de directivas Equipo. CLR aplicará los conjuntos de permisos definidos en ese grupo al dominio de aplicación (AppDomain) en el que se ejecuta el código. Ello permite personalizar los conjuntos de permisos que se conceden a las plantillas de formulario con código administrado de InfoPath. Por ejemplo, puede conceder permiso para obtener acceso a Active Directory a plantillas de formulario descargadas desde https://MySite. 
   
 Para que la directiva de seguridad personalizada definida mediante el complemento Configuración de .NET se aplique, se debe implementar en todos los equipos cliente en los que se vaya a ejecutar la plantilla de formularios.
   
@@ -75,13 +75,13 @@ Puede crear grupos de código en el grupo **Plantillas de formulario de InfoPath
     
      `\\MyServer\MyShare\MyFormTemplate.xsn`
     
-     `http://MySite/MySubsite/MyFormTempate.xsn`
+     `https://MySite/MySubsite/MyFormTempate.xsn`
     
     Para conceder el conjunto de permisos a todas las plantillas de formulario de una dirección URL o UNC, omita el nombre de la plantilla y agregue un asterisco al final de la dirección URL o UNC. Por ejemplo:
     
      `\\MyServer\MyShare\*`
     
-     `http://MySite/MySubsite/*`
+     `https://MySite/MySubsite/*`
     
 5. Haga clic en **Siguiente**, a continuación, en **Usar el conjunto de permisos existente** y asigne el conjunto de permisos **Plena confianza** al grupo de código. 
     
@@ -108,7 +108,7 @@ Una vez definida la directiva de seguridad personalizada para las plantillas de 
     
 4. Haga clic en **Finalizar** para crear el paquete de implementación. 
     
-5. Para obtener información sobre cómo usar la herramienta Configuración de .NET Framework, busque "Herramienta de configuración de .NET Framework (Mscorcfg.msc)" en la Ayuda de Visual Studio o en el sitio web de MSDN.
+5. Para obtener información acerca de cómo usar la herramienta de configuración de .NET Framework, busque ".NET Framework Configuration Tool (Mscorcfg.msc)" en Ayuda de Visual Studio o el sitio Web de MSDN.
     
 ## <a name="see-also"></a>Vea también
 

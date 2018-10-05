@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica los elementos de celda que pueden estar incluidos en un DocumentSheet, hoja de estilos, PageSheet o ShapeSheet.
-ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575633"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391475"
 ---
 # <a name="cell-element-visio-xml"></a>Elemento de celda ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica los elementos de celda que pueden estar incluidos en un DocumentSheet
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, pages.xml, masters.xml, maestra # .xml, página # .xml  <br/> |
    

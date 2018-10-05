@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: En este tema se describe cómo actualizar mediante programación un perfil de Outlook 2016 agregando una propiedad MAPI a la sección emsuid del objeto Perfil.
-ms.openlocfilehash: fbd2dffc637cad022f78c9986eccd91a2c1fe4bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19817003"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391056"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>Crear mediante programación un perfil en Outlook
 
@@ -25,7 +25,7 @@ En MAPI, puede actualizar un perfil estableciendo la propiedad **PR_PROFILE_USER
 
 1. Make sure Outlook 2016 is property configured.
     
-2. Using the [IMAPIProp](https://msdn.microsoft.com/es-ES/library/cc815525.aspx) interface, go to the Outlook Profile section. 
+2. Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section. 
     
    Esto puede resultar difícil en la MAPI de Outlook, ya que en 2010 y versiones posteriores ya no existe la sección de perfil global. Para buscar la sección Perfil, busque la propiedad PR_EMSMDB_SECTION_UID (0x3D150102). El valor será el GUID de la sección de perfil en un formato binario, que se usará en los pasos siguientes. Debe recordar este valor. 
     
@@ -316,10 +316,10 @@ Cleanup:
 
 ## <a name="use-mfcmapi-to-configure-outlook-profiles"></a>Use MFCMAPI to configure Outlook profiles
 
-[MFCMAPI](http://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
+[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
   
 ## <a name="see-also"></a>Vea también
 
-- [Crear un perfil de Outlook con MFCMAPI](https://msdn.microsoft.com/es-ES/library/office/mt723322.aspx)
+- [Crear un perfil de Outlook con MFCMAPI](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

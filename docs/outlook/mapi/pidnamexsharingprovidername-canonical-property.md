@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cfd1dfa70352880b6bd62d936ba9ed27a558dc7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a56a93f425ccba36229e262c0e93815ffc998017
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586007"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390880"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>Propiedad canónica PidNameXSharingProviderName
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Representa un usuario que se pueden mostrar nombre del proveedor de uso compartido identificado por la propiedad **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguna  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |X-uso compartido--nombre de proveedor  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Representa un usuario que se pueden mostrar nombre del proveedor de uso comparti
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Comparte las carpetas de buzón de correo entre los clientes.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

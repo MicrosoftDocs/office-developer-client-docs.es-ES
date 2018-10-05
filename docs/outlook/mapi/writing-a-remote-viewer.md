@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584768"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391608"
 ---
 # <a name="writing-a-remote-viewer"></a>Escribir un visor remoto
 
@@ -37,7 +37,7 @@ Un visor remoto es una ventana en una aplicación cliente que proporciona acceso
     
 5. Pase el identificador de entrada para cada fila de la tabla en una llamada a [IMAPISession::OpenEntry](imapisession-openentry.md). Debido a que esta interfaz se calculan las referencias de contexto del proceso de la cola MAPI al contexto de proceso del cliente, a diferencia de las interfaces que normalmente se obtienen de la libreta de direcciones o un mensaje los proveedores de almacén: problemas con respecto a multithreading son de mayor importancia. 
     
-6. Llamar al método [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) del objeto de estado, pasando IID_IMAPIFolder como el identificador de interfaz, para recuperar la carpeta remota. La carpeta remota no es una implementación completa de la carpeta; admite solo un subconjunto de las propiedades y métodos de carpeta. Uno de los métodos necesarios, [IMAPIProp::GetProps](imapiprop-getprops.md), admite la recuperación de las siguientes propiedades:
+6. Llamar al método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) del objeto de estado, pasando IID_IMAPIFolder como el identificador de interfaz, para recuperar la carpeta remota. La carpeta remota no es una implementación completa de la carpeta; admite solo un subconjunto de las propiedades y métodos de carpeta. Uno de los métodos necesarios, [IMAPIProp::GetProps](imapiprop-getprops.md), admite la recuperación de las siguientes propiedades:
     
     |||
     |:-----|:-----|

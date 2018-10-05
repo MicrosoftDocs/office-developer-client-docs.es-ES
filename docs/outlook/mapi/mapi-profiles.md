@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579861"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391433"
 ---
 # <a name="mapi-profiles"></a>Perfiles de MAPI
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Un perfil de almacena información acerca de los proveedores de servicios y los servicios de mensaje que se instalan en un equipo. Para cada sesión, un cliente en tiempo de inicio de sesión selecciona un perfil que describe los servicios y los proveedores que se va a utilizar. Puede elegir entre una colección de los perfiles de un cliente y, si así lo desea, establecer uno como el valor predeterminado. El perfil predeterminado es el perfil que se selecciona automáticamente cuando un cliente inicia una sesión y no ha especificado explícitamente un perfil.
   
@@ -29,7 +29,7 @@ También en estos temas, encontrará una explicación de la caché de alias, que
     
 - [Secuencia de Autocompletar](autocomplete-stream.md)
     
-- [Análisis de archivos binarios](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [Análisis de archivos binarios](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>Secciones del perfil
 

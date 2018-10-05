@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Complemento de elementos se hospedan en elementos iframe que están completamente aislados de la página de hospedaje. Para obtener información acerca del proyecto actual de un elemento en en página de detalles de proyecto (PDP), puede usar el método window.postMessage, un agente de escucha de evento y un controlador de eventos que analiza el identificador de proyecto desde el mensaje.
-ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffaf9cb7dac783a754b2d56b5ece4d5a7a0319be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389886"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtener el identificador del proyecto en una parte del complemento en una página de detalles de Project
 
@@ -38,7 +38,7 @@ Para usar el ejemplo de código de este artículo, necesitará los siguientes el
             
         - Debe iniciar sesión como un usuario que no sea la cuenta del sistema. La cuenta del sistema no tiene permiso para instalar un complemento.
     
-Para obtener más información acerca de los complementos para Project, vea [requisitos previos para crear un complemento para Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Para obtener instrucciones acerca de la instalación local (incluidos los procedimientos para deshabilitar la comprobación de bucle invertido, si es necesario), vea [configurar un entorno de desarrollo local para SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) . Si está desarrollando de forma remota, vea [Developing aplicaciones para SharePoint en un sistema remoto](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
+Para obtener más información acerca de los complementos para Project, vea [requisitos previos para crear un complemento para Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Para obtener instrucciones acerca de la instalación local (incluidos los procedimientos para deshabilitar la comprobación de bucle invertido, si es necesario), vea [configurar un entorno de desarrollo local para SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) . Si está desarrollando de forma remota, vea [Developing aplicaciones para SharePoint en un sistema remoto](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Crear el elemento de web hospedada en SharePoint, en Agregar y cliente
 <a name="CreateApp"> </a>
@@ -157,7 +157,7 @@ El elemento en en este ejemplo no tener acceso a datos de Project Server o datos
   
 En el archivo AppManifest.xml, especifique los permisos que el complemento necesita obtener acceso a datos de Project Server o datos de SharePoint. 
   
-Consulte [Crear complemento elementos para instalar con el complemento de SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) para aprender a establecer propiedades personalizadas para una parte del complemento. 
+Consulte [Crear complemento elementos para instalar con el complemento de SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) para aprender a establecer propiedades personalizadas para una parte del complemento. 
   
 ## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>Ejemplo: Obtener el identificador del proyecto en un elemento en en una página PDP
 <a name="CodeExample"> </a>
@@ -248,10 +248,10 @@ El ejemplo siguiente es el código completo en la página de GetProjectID.aspx d
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Tareas de programación de Project](project-programming-tasks.md)
 - [Crear un complemento de Project Server hospedado por SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
-- [Crear elementos de complemento para instalarlos con el complemento de SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
+- [Crear elementos de complemento para instalarlos con el complemento de SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

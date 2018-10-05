@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578657"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391412"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Acerca de c�mo establecer el orden de resoluci�n para las listas de direcciones en Outlook
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Para cada perfil, Microsoft Office Outlook es compatible con varias listas de direcciones y los usuarios pueden especificar manualmente el orden de las listas de direcciones por qué los destinatarios de correo electrónico se resuelven los mensajes y los asistentes de las convocatorias de reunión. Por ejemplo, puede establecer el orden de resoluci�n para que los nombres se resuelven primero en su libreta de direcciones de Outlook y a continuaci�n, en la lista Global de direcciones. En un equipo, un usuario puede abrir la libreta de direcciones, haga clic en **Herramientas** y, a continuaci�n, en **Opciones** para especificar el orden de resoluci�n. Sin embargo, en un entorno corporativo, es m�s eficaz para los administradores de TI establecer mediante programaci�n el orden de las listas de direcciones mediante el cual se resuelven nombres. Este c�digo puede utilizarse como parte de una secuencia de comandos de automatizaci�n de inicio que un administrador implementa dentro de la corporaci�n. 
   
@@ -27,6 +27,6 @@ Los siguientes son ejemplos de c�digo de c�mo especificar una ruta de acceso
   
 - [Establecer mediante programación el orden de resolución para las listas de direcciones](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [KB 292590: c�mo cambiar el orden de ordenaci�n de la libreta de direcciones con SetSearchPath](http://support.microsoft.com/kb/292590)
+- [KB 292590: c�mo cambiar el orden de ordenaci�n de la libreta de direcciones con SetSearchPath](https://support.microsoft.com/kb/292590)
     
 
