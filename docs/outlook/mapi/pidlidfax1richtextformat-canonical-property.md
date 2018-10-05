@@ -12,56 +12,56 @@ api_type:
 - COM
 ms.assetid: 2ee78458-7b51-4092-9c30-22ecafb5ce37
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 620ca83396817de7acd0ce82b70c55c77da9d5ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0a1a88e2a828d0d0a51036c9d67e6af2c804af5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570271"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390908"
 ---
-# <a name="pidlidfax1richtextformat-canonical-property"></a><span data-ttu-id="265d5-103">Propiedad canónica PidLidFax1RichTextFormat</span><span class="sxs-lookup"><span data-stu-id="265d5-103">PidLidFax1RichTextFormat Canonical Property</span></span>
+# <a name="pidlidfax1richtextformat-canonical-property"></a><span data-ttu-id="2bee1-103">Propiedad canónica PidLidFax1RichTextFormat</span><span class="sxs-lookup"><span data-stu-id="2bee1-103">PidLidFax1RichTextFormat Canonical Property</span></span>
 
   
   
-<span data-ttu-id="265d5-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="265d5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2bee1-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2bee1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="265d5-105">Especifica el formato de texto enriquecido de dirección de fax del trabajo del contacto.</span><span class="sxs-lookup"><span data-stu-id="265d5-105">Specifies the rich text format of the contact's business fax address.</span></span>
+<span data-ttu-id="2bee1-105">Especifica el formato de texto enriquecido de dirección de fax del trabajo del contacto.</span><span class="sxs-lookup"><span data-stu-id="2bee1-105">Specifies the rich text format of the contact's business fax address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="265d5-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="265d5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="265d5-107">dispidFax1RTF</span><span class="sxs-lookup"><span data-stu-id="265d5-107">dispidFax1RTF</span></span>  <br/> |
-|<span data-ttu-id="265d5-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="265d5-108">Property set:</span></span>  <br/> |<span data-ttu-id="265d5-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="265d5-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="265d5-110">Identificador de tipo Long (LID):</span><span class="sxs-lookup"><span data-stu-id="265d5-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="265d5-111">0x000080B6</span><span class="sxs-lookup"><span data-stu-id="265d5-111">0x000080B6</span></span>  <br/> |
-|<span data-ttu-id="265d5-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="265d5-112">Data type:</span></span>  <br/> |<span data-ttu-id="265d5-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="265d5-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="265d5-114">Área:</span><span class="sxs-lookup"><span data-stu-id="265d5-114">Area:</span></span>  <br/> |<span data-ttu-id="265d5-115">Contacto</span><span class="sxs-lookup"><span data-stu-id="265d5-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="2bee1-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="2bee1-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2bee1-107">dispidFax1RTF</span><span class="sxs-lookup"><span data-stu-id="2bee1-107">dispidFax1RTF</span></span>  <br/> |
+|<span data-ttu-id="2bee1-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="2bee1-108">Property set:</span></span>  <br/> |<span data-ttu-id="2bee1-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="2bee1-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="2bee1-110">Identificador de tipo Long (LID):</span><span class="sxs-lookup"><span data-stu-id="2bee1-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="2bee1-111">0x000080B6</span><span class="sxs-lookup"><span data-stu-id="2bee1-111">0x000080B6</span></span>  <br/> |
+|<span data-ttu-id="2bee1-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="2bee1-112">Data type:</span></span>  <br/> |<span data-ttu-id="2bee1-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="2bee1-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="2bee1-114">Área:</span><span class="sxs-lookup"><span data-stu-id="2bee1-114">Area:</span></span>  <br/> |<span data-ttu-id="2bee1-115">Contacto</span><span class="sxs-lookup"><span data-stu-id="2bee1-115">Contact</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="265d5-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="265d5-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2bee1-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="2bee1-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="265d5-117">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="265d5-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="2bee1-117">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="2bee1-117">Protocol specifications</span></span>
 
-<span data-ttu-id="265d5-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="265d5-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2bee1-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2bee1-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="265d5-119">Proporciona la definición del conjunto de propiedad y referencias a las especificaciones de protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="265d5-119">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="2bee1-119">Proporciona la definición del conjunto de propiedad y referencias a las especificaciones de protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="2bee1-119">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="265d5-120">[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="265d5-120">[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2bee1-120">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2bee1-120">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="265d5-121">Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.</span><span class="sxs-lookup"><span data-stu-id="265d5-121">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="2bee1-121">Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.</span><span class="sxs-lookup"><span data-stu-id="2bee1-121">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="265d5-122">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="265d5-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="2bee1-122">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="2bee1-122">Header files</span></span>
 
-<span data-ttu-id="265d5-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="265d5-123">Mapidefs.h</span></span>
+<span data-ttu-id="2bee1-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2bee1-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="265d5-124">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="265d5-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="2bee1-124">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="2bee1-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="265d5-125">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="265d5-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2bee1-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="2bee1-125">See also</span></span>
 
 
 
-[<span data-ttu-id="265d5-126">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="265d5-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="2bee1-126">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="2bee1-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="265d5-127">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="265d5-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="2bee1-127">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="2bee1-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="265d5-128">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="265d5-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="2bee1-128">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="2bee1-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="265d5-129">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="265d5-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="2bee1-129">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="2bee1-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
