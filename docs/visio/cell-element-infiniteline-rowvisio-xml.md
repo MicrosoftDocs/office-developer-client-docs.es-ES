@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contiene las coordenadas x o y de dos puntos en una línea infinita.
-ms.openlocfilehash: 2ead373e3ef28f9871d861a668f564c1296023d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1dde7958116824efffce6247855a959fee61e869
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821725"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392791"
 ---
 # <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento de celda (fila InfiniteLine) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y de dos puntos en una línea infinita.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

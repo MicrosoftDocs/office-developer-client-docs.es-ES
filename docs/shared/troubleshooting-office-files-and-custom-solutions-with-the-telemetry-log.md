@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Use Registro de telemetría de Office 2013 para determinar problemas de compatibilidad con Office 2013 y soluciones generadas para las versiones anteriores de Office.
-ms.openlocfilehash: 95b23bfbb45a492147ec4d56849a08e0ec14e4a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebcf7908fb9f7e1558b0f0576fbbf9a6f0b07568
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821485"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393281"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Solución de problemas de los archivos de Office y soluciones personalizadas con el registro de telemetría
 
@@ -25,7 +25,7 @@ Con semejante proliferación de soluciones de Office, la actualización de versi
   
 Registro de telemetría de Office 2013, una herramienta basada en Excel 2013, muestra eventos relacionados con la selección de aplicaciones de Office 2013 para ayudar a los desarrolladores y usuarios con experiencia a diagnosticar problemas de compatibilidad. Con esta herramienta, los usuarios pueden determinar los posibles problemas con relación a los complementos que usan en su entorno de trabajo, y proporcionar a los responsables de las decisiones empresariales la información necesaria para decidir si deben o no actualizarse a Office 2013. Asimismo, Registro de telemetría proporciona comentarios detallados sobre el proceso de desuso o los cambios específicos de los modelos de objetos de las aplicaciones de Office 2013, lo que permite a los desarrolladores identificar y refactorizar rápidamente el código o los controles problemáticos. Los profesionales de TI pueden ver las tendencias en el estado de las soluciones en varios clientes con el Panel de telemetría para Office 2013, una herramienta complementaria de Registro de telemetría.
   
-Para obtener más información, vea [Implementar el Panel de telemetría de Office](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+Para obtener más información, vea [Implementar el Panel de telemetría de Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
   
 ## <a name="how-the-telemetry-log-works"></a>Funcionamiento de Registro de telemetría
 <a name="OEV_Types"> </a>
@@ -126,11 +126,11 @@ Use la siguiente tabla (Tabla 2) para interpretar los registros mostrados en Reg
 |**Id. de evento**|**Título**|**Gravedad**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |El documento se ha cargado correctamente  <br/> ||El archivo mostrado en la columna **Archivo** se ha abierto en la aplicación de Office sin problemas.  <br/> |
-|2  <br/> |No se pudo cargar el documento  <br/> |Advertencia  <br/> | La aplicación no pudo cargar el archivo. Podría haber problemas de compatibilidad subyacentes.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](http://office.microsoft.com/es-ES/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](http://office.microsoft.com/es-ES/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|2  <br/> |No se pudo cargar el documento  <br/> |Advertencia  <br/> | La aplicación no pudo cargar el archivo. Podría haber problemas de compatibilidad subyacentes.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |La plantilla se ha cargado correctamente  <br/> ||El archivo de plantilla mostrado en la columna **Archivo** se abrió en la aplicación de Office sin ningún problema.  <br/> |
-|4  <br/> |No se pudo cargar la plantilla  <br/> |Advertencia  <br/> | La aplicación no pudo cargar el archivo de plantilla. Podría haber problemas de compatibilidad subyacentes o es posible que la disponibilidad de la plantilla haya cambiado.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](http://office.microsoft.com/es-ES/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](http://office.microsoft.com/es-ES/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|4  <br/> |No se pudo cargar la plantilla  <br/> |Advertencia  <br/> | La aplicación no pudo cargar el archivo de plantilla. Podría haber problemas de compatibilidad subyacentes o es posible que la disponibilidad de la plantilla haya cambiado.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |El complemento se ha cargado correctamente  <br/> ||El complemento que aparece en la columna **Archivo** se ha cargado correctamente en la aplicación de Office. No se han detectado problemas de compatibilidad.  <br/> |
-|6  <br/> |El complemento no se pudo cargar.  <br/> |Crítico  <br/> | La aplicación no ha podido cargar el complemento que aparece en la columna **Archivo**.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](http://office.microsoft.com/es-ES/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](http://office.microsoft.com/es-ES/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|6  <br/> |El complemento no se pudo cargar.  <br/> |Crítico  <br/> | La aplicación no ha podido cargar el complemento que aparece en la columna **Archivo**.  <br/><br/>Para obtener más información sobre cómo reparar un libro dañado en Excel 2013, vea [Reparar un libro dañado](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Para obtener más información sobre cómo reparar un documento dañado en Word 2013, vea [Guardar y recuperar una copia de seguridad de un documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |El manifiesto del complemento se descargó correctamente  <br/> ||La aplicación host cargó el manifiesto de la Complemento de Office correctamente.  <br/> |
 |8  <br/> |No se pudo descargar el manifiesto del complemento  <br/> |Crítico  <br/> |La aplicación host no pudo cargar el archivo de manifiesto de la Complemento de Office desde el catálogo de SharePoint, el catálogo corporativo o la Tienda Office.  <br/> |
 |9  <br/> |No se pudo analizar el manifiesto del complemento  <br/> |Crítico  <br/> |La aplicación host cargó el manifiesto de Complemento de Office del complemento, pero no pudo leer el XML.  <br/> |
@@ -158,9 +158,9 @@ Registro de telemetría proporciona a las grandes empresas, a los usuarios indiv
 ## <a name="see-also"></a>Vea también
 <a name="OEV_Additional"> </a>
 
-- [Centro para desarrolladores de Office](http://msdn.microsoft.com/es-ES/office/aa905340.aspx)
+- [Centro para desarrolladores de Office](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Problemas de compatibilidad en Office](compatibility-issues-in-office.md)
-- [Implementar el panel de telemetría de Office](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Centro para desarrolladores de Office](http://msdn.microsoft.com/es-ES/office/aa905340)
+- [Implementar el panel de telemetría de Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
+- [Centro para desarrolladores de Office](https://msdn.microsoft.com/office/aa905340)
     
 

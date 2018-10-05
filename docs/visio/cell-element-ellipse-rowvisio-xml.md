@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 210e6731-7c94-90b1-c7c4-635df974fdb6
 description: Contiene las coordenadas x o y del punto central y dos puntos de la elipse de la elipse.
-ms.openlocfilehash: 40458d7d9945897fd9d8f9764ff6b81884490b1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75c3cf86b7c8668b70915117e1fc70b07d2cef0b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821723"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394394"
 ---
 # <a name="cell-element-ellipse-row-visio-xml"></a>Elemento de celda (fila Ellipse) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y del punto central y dos puntos de la elipse de la
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Para admitir la creación de soluciones de InfoPath que usan los lenguajes de código administrado como Visual C# y Visual Basic, la opción de compatibilidad con programación de .NET en el programa de instalación de InfoPath instala a los ensamblados de interoperabilidad tres.
-ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51773ad46b1371c410c4249e13a489f0c5550cd1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564132"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393358"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Información sobre el conjunto de interoperabilidad principal de InfoPath de Microsoft Office
 
@@ -27,7 +27,7 @@ Los archivos de los tres ensamblados de interoperabilidad que instala InfoPath s
     
 - Microsoft.Office.Interop.InfoPath.Xml.dll
     
-En este tema se describe el modelo de objetos expuesto a través del ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath, que se usa exclusivamente para el código de automatización externo. Para obtener información sobre el ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust, que se usa exclusivamente para escribir y ejecutar código administrado que se ejecuta desde dentro de las plantillas de formulario de InfoPath (.xsn), vea [Modelos de objetos compatible con InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
+En este tema se describe el modelo de objetos expuesto a través del ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath, que se usa exclusivamente para el código de automatización externo. Para obtener información sobre el ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust, que se usa exclusivamente para escribir y ejecutar código administrado que se ejecuta desde dentro de las plantillas de formulario de InfoPath (.xsn), vea [Modelos de objetos compatible con InfoPath 2003](https://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
   
 ## <a name="important-installation-information"></a>Información importante sobre la instalación
 
@@ -107,7 +107,7 @@ myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing);
 myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Ejemplos y escenarios de automatización externa](external-automation-scenarios-and-examples.md)
 

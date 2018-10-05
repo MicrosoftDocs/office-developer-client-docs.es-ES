@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
 description: Especifica la información de una regla de zona horaria acerca de cuándo se inicia el horario de verano y el año en el que dicha regla de zona horaria en primer lugar en vigor.
-ms.openlocfilehash: 77d56d238d959992bfadd2d8c143391ca6fa4d5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71ede7c0061a058c2dd85c7b9b36c42583a6bb84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816346"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392700"
 ---
 # <a name="tzrule"></a>TZRULE
 
@@ -36,7 +36,7 @@ _wFlags_
     
    - **TZRULE_FLAG_EFFECTIVE_TZREG** : identifica la regla que el que se debe usar actualmente. Sólo una regla puede estar marcada como la regla eficaz. Todas las demás reglas son únicamente con fines de comparación. 
     
-   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** : en las reuniones periódicas, identifica la regla como que coincidan con la regla en [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx). Esto puede usarse para detectar si se ha modificado considerablemente **PidLidTimeZoneStruct** por un cliente heredado, lo que sería en caso contrario, sin ser conscientes de la propiedad nuevo, más completa. 
+   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** : en las reuniones periódicas, identifica la regla como que coincidan con la regla en [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx). Esto puede usarse para detectar si se ha modificado considerablemente **PidLidTimeZoneStruct** por un cliente heredado, lo que sería en caso contrario, sin ser conscientes de la propiedad nuevo, más completa. 
     
 _stStart_
   

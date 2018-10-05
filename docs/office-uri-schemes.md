@@ -5,12 +5,12 @@ ms.date: 01/14/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 834c4d2c2f47c6cc3f35423a7dfe3c13caf3d209
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71325af974e4778d65bea7d74561bde3c9c8bca2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816031"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394037"
 ---
 # <a name="office-uri-schemes"></a>Esquemas URI de Office
 
@@ -30,7 +30,7 @@ Estos esquemas URI permiten invocar con diversos comandos las aplicaciones de pr
   
 Un URI, tal y como se define en este documento puede tener un argumento de comando o más, cada uno de los cuales debe incluir los elementos < *descriptor-argumento-comando*  > y el <  *argumento-comando*  > y debe estar delimitado con el carácter de barra vertical ("|"). Cuando se incluye un argumento de comando o más en un URI, debe haber un carácter de barra vertical ("|") para separar cada argumento de comando del argumento de comando siguiente. 
   
-Estos esquemas no incluyen un componente de la entidad emisora tal como se define en la sección 3.2 de RFC 3986. La invocación de los comandos especificados en este documento se realiza en el contexto del sistema al invocar el comando. Por ejemplo, cuando se invoca el URI "ms-excel:ofv|u|http://contoso/Q4/budget.xls" desde un equipo que tiene Microsoft Windows con Microsoft Office 2013 instalado, el resultado que se espera es que se ejecutará la instalación local de Microsoft Excel y se pasarán argumentos para abrir el archivo en  *http://contoso/Q4/budget.xls*  en modo de solo lectura. Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. 
+Estos esquemas no incluyen un componente de la entidad emisora tal como se define en la sección 3.2 de RFC 3986. La invocación de los comandos especificados en este documento se realiza en el contexto del sistema al invocar el comando. Por ejemplo, cuando se invoca el URI "ms-excel:ofv|u|https://contoso/Q4/budget.xls" desde un equipo que tiene Microsoft Windows con Microsoft Office 2013 instalado, el resultado que se espera es que se ejecutará la instalación local de Microsoft Excel y se pasarán argumentos para abrir el archivo en  *https://contoso/Q4/budget.xls*  en modo de solo lectura. Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. 
   
 La sintaxis de esquema incluye lo siguiente:
   
@@ -92,7 +92,7 @@ El siguiente comando hará que la aplicación abra el documento al que hace refe
     
 > Argumento de comando: Un URI para el documento, según el esquema http o https
     
-> Ejemplo:  *ms-excel:ofv|u|http://contoso/Q4/budget.xls* 
+> Ejemplo:  *ms-excel:ofv|u|https://contoso/Q4/budget.xls* 
     
 ### <a name="edit-document"></a>Editar documento
 
@@ -104,7 +104,7 @@ El siguiente comando hará que la aplicación abra el documento al que hace refe
     
 > Argumento de comando: Un URI para el documento, según el esquema http o https
     
-> Ejemplo:  *ms-powerpoint:ofe|u|http://www.fourthcoffee.com/AllHandsDeck.ppt* 
+> Ejemplo:  *ms-powerpoint:ofe|u|https://www.fourthcoffee.com/AllHandsDeck.ppt* 
     
 ### <a name="new-document-from-template"></a>Nuevo documento de plantilla
 
@@ -120,7 +120,7 @@ El siguiente comando hará que la aplicación cree y abra un nuevo documento seg
     
 > Argumento de comando opcional 2: URI para especificar la carpeta de guardado predeterminada
     
-> Ejemplo:  *ms-word:nft|u|http://cohowinery/templates/elegance.pot|s|http://cohowinery/presentations* 
+> Ejemplo:  *ms-word:nft|u|https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations* 
     
 Como nota, si se proporciona la ubicación de guardado predeterminada opcional, debe estar apuntando al mismo nombre de host que la plantilla.
   

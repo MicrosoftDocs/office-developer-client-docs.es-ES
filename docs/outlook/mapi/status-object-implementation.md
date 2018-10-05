@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e97efb70716ffbd7fa98f980ce8520cfcb988532
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569599"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392406"
 ---
 # <a name="status-object-implementation"></a>Implementación de objeto de estado
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Todos los proveedores de servicio deben implementar un objeto de estado y proporcione las propiedades de él en la tabla de estado de sesión. Puede incluir una o varias filas en la tabla de estado, según el número de recursos que controlan. Por ejemplo, un proveedor de transporte, debe crear una fila en la tabla de estado para cada cola de mensajes que administra. Cuando se producen cambios, se debe actualizar la fila de la tabla de estado apropiado. Para proporcionar acceso a la información incluida en la tabla de estado y a información adicional que no se incluyen en la tabla que se implementan los objetos de estado.
   
@@ -31,7 +31,7 @@ Todos los proveedores de servicio deben implementar un objeto de estado y propor
           
       2. Crear un nuevo objeto de estado.
           
-      3. Almacenar una referencia a la sección de perfil en el objeto de estado de su proveedor y llamar al método [IUnknown:: AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la sección de perfil para incrementar su recuento de referencia. 
+      3. Almacenar una referencia a la sección de perfil en el objeto de estado de su proveedor y llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la sección de perfil para incrementar su recuento de referencia. 
           
       4. Almacenar una referencia al objeto de inicio de sesión en el objeto de estado de su proveedor y llamar al método **IUnknown:: AddRef** del objeto de inicio de sesión para incrementar su recuento de referencia. 
           
@@ -73,7 +73,7 @@ Todos los proveedores de servicio deben implementar un objeto de estado y propor
     
 Para obtener más información acerca de los objetos de estado, vea [Objetos de estado de MAPI](mapi-status-objects.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Proveedores de servicios de MAPI](mapi-service-providers.md)
 

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577992"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393386"
 ---
 # <a name="upmov"></a>UPMOV
  
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Información para cargar los elementos que se han movido. Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md) y [cargar el estado de la tabla](upload-table-state.md).
   
@@ -82,7 +82,7 @@ _pfld_
     
 _pxicc_
   
->  [entrada] Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la carga de los cambios de contenido cuando se usa la sincronización de cambio Incremental (ICS). Para obtener más información sobre **IExchangeImportContentsChanges** y ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [entrada] Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la carga de los cambios de contenido cuando se usa la sincronización de cambio Incremental (ICS). Para obtener más información sobre **IExchangeImportContentsChanges** y ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReservado_
   
@@ -96,7 +96,7 @@ _cEntMov_
   
 >  [entrada] Número de elementos movidos aquí. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

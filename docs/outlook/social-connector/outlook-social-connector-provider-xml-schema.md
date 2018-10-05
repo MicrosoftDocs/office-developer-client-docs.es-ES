@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: Todo el código XML que es devuelto por proveedores de OSC en métodos de extensibilidad de proveedor OSC debe cumplir con el siguiente esquema XML de OSC proveedor. El esquema OSC se reproduce aquí en su totalidad.
-ms.openlocfilehash: 0cf46d2a995fe9362777e853b0f13a9aceacfb99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1ec7888f5b6d9a7264f597e0c1ef3855d27b011
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821217"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394108"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML de proveedor de Outlook Social Connector
 
-Todo el código XML que es devuelto por proveedores de OSC en métodos de extensibilidad de proveedor OSC debe cumplir con el siguiente esquema XML de OSC proveedor. El esquema OSC se reproduce aquí en su totalidad. El archivo de definición de esquema actual, OutlookSocialProvider1_1.xsd, también se proporciona en la descarga de las plantillas de proveedor que acompañan a este artículo. Para obtener más información, vea [Outlook Social Connector 2013: plantillas de proveedor](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+Todo el código XML que es devuelto por proveedores de OSC en métodos de extensibilidad de proveedor OSC debe cumplir con el siguiente esquema XML de OSC proveedor. El esquema OSC se reproduce aquí en su totalidad. El archivo de definición de esquema actual, OutlookSocialProvider1_1.xsd, también se proporciona en la descarga de las plantillas de proveedor que acompañan a este artículo. Para obtener más información, vea [Outlook Social Connector 2013: plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,9 +27,9 @@ Todo el código XML que es devuelto por proveedores de OSC en métodos de extens
     All Rights Reserved
 -->
 <xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

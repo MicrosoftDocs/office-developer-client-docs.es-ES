@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 15a10793102e79428dc13b62631ffcf79df437c8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f39d78d9e5a9fed40085b069a841a69bc597cc4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572749"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393750"
 ---
 # <a name="pidlidscriptstream-canonical-property"></a>Propiedad canónica PidLidScriptStream
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Representa el código escrito en Visual Basic Scripting Edition (VBScript) detrás del formulario personalizado asociado con el mensaje.
   
@@ -39,7 +39,7 @@ Representa el código escrito en Visual Basic Scripting Edition (VBScript) detr�
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
@@ -49,7 +49,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

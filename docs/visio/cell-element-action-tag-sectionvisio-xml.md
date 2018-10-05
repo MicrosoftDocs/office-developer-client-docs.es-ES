@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: Define una propiedad para una etiqueta de acción en una forma o página.
-ms.openlocfilehash: 0945235c49e77210564e50e5c111579ab37f3e31
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61fad8575532adde0106ef6db2888fe38f3ae4b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821690"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392504"
 ---
 # <a name="cell-element-action-tag-section-visio-xml"></a>Elemento de celda (sección de etiqueta de acción) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Define una propiedad para una etiqueta de acción en una forma o página.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Masters.XML, maestra # .xml, pages.xml, página # .xml  <br/> |
    

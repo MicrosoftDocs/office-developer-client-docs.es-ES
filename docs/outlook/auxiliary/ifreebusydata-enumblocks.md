@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
 description: Obtiene una interfaz que se enumera los bloques de disponibilidad de datos para un usuario dentro de un intervalo de tiempo especificado.
-ms.openlocfilehash: ab377b1029296b6b4bac68d7169dcf7b8dcd8b87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816096"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394541"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
@@ -39,7 +39,7 @@ _ppenumfb_
     
 _ftmStart_
   
-> [entrada] La hora de inicio para la enumeración. Se expresa en [FILETIME](http://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
+> [entrada] La hora de inicio para la enumeración. Se expresa en [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
     
 _ftmEnd_
   

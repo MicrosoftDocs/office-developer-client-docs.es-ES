@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab906d83ae4ad46747fd9037728620db1d656d25
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567786"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394772"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propiedad canónica PidTagViewDescriptorName
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de un descriptor de vista.
   
@@ -42,7 +42,7 @@ Estas propiedades se deben establecer en una cadena no vacía para un mensaje de
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Especifica la ubicación y las propiedades de datos de configuración de cliente y servidor, como las listas de categoría compartida y horas de trabajo.
     
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

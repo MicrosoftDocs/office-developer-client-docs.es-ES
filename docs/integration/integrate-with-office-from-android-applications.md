@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office para Android proporciona una solución extensible que permite la integración con aplicaciones de terceros. Puede integrarse con Office desde su aplicación de Android pasando usuarios de la aplicación a Office.
-ms.openlocfilehash: 2fd60c7e86d3390bc5343f3e09fb2235f97e0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393029"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>Integración con Office desde aplicaciones de Android
 
@@ -106,8 +106,8 @@ Formato de esquema:
 
 - [Integración con Office](integrate-with-office.md)
     
-- [PackageManager](http://developer.android.com/reference/android/content/pm/PackageManager.html)
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
     
-- [GetPackageManager()](http://developer.android.com/reference/android/content/Context.html)
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
     
 

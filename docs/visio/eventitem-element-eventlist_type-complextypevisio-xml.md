@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: Encapsula un código de evento.
-ms.openlocfilehash: dcdd3aa264e8ddfb1aa6f2e908f1c43a0d470872
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ed539bd6cb4524b2498b636295442bed917c72a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822080"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394401"
 ---
 # <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Elemento de EventItem (EventList_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Encapsula un código de evento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.Xml  <br/> |
    

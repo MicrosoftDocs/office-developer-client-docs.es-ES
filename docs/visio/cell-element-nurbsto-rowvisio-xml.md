@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e76bae8f-b9de-39ef-1f56-b00a6cd2ba6c
 description: Contiene las coordenadas x o y, la posición del segundo al último nodo, la posición del último grosor, la posición del primer nodo, la posición del primer grosor o la fórmula para una B-spline racional no uniforme (NURBS).
-ms.openlocfilehash: acdc61235fde88a0f5b03eb6e83f54092b4f1fd3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f23f73d67d72f9536dc7ffe9e083058ea9306217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821730"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392805"
 ---
 # <a name="cell-element-nurbsto-row-visio-xml"></a>Elemento de celda (fila NURBSTo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y, la posición del segundo al último nodo, la pos
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

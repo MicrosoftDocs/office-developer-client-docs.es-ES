@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Última modificación: 06 de julio de 2012'
-ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577327"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392924"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Establecer mediante programación el orden de resolución para las listas de direcciones
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene un ejemplo de código en C++ que establece mediante programación el orden de las listas de direcciones por qué los destinatarios de correo electrónico se resuelven los mensajes y los asistentes de las convocatorias de reunión.
   
-En MAPI, cada perfil puede admitir varias listas de direcciones y cada lista de direcciones se encuentra en su propio contenedor. MAPI es compatible con el método **[SetSearchPath](http://support.microsoft.com/kb/292590)** en la interfaz que le permite establecer una nueva ruta de acceso de búsqueda en el perfil que se usa para la resolución de nombres. Para usar el método **IAddrBook::SetSearchPath** , tiene que definir el orden de resolución deseada en una matriz de **[SRowSet](srowset.md)** que contiene los contenedores de las libretas de direcciones relevantes en el orden que desee y, a continuación, especifique la matriz como la *lpSearchPath*  parámetro. La primera propiedad para cada entrada en la matriz de **SRowSet** debe ser la propiedad de **[entrada del objeto](pidtagentryid-canonical-property.md)** de la libreta de direcciones correspondiente. 
+En MAPI, cada perfil puede admitir varias listas de direcciones y cada lista de direcciones se encuentra en su propio contenedor. MAPI es compatible con el método **[SetSearchPath](https://support.microsoft.com/kb/292590)** en la interfaz que le permite establecer una nueva ruta de acceso de búsqueda en el perfil que se usa para la resolución de nombres. Para usar el método **IAddrBook::SetSearchPath** , tiene que definir el orden de resolución deseada en una matriz de **[SRowSet](srowset.md)** que contiene los contenedores de las libretas de direcciones relevantes en el orden que desee y, a continuación, especifique la matriz como la *lpSearchPath*  parámetro. La primera propiedad para cada entrada en la matriz de **SRowSet** debe ser la propiedad de **[entrada del objeto](pidtagentryid-canonical-property.md)** de la libreta de direcciones correspondiente. 
   
 El ejemplo de código establece el orden de resolución de los siguientes pasos:
   
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre cómo establecer el orden de resolución de las listas de direcciones en Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

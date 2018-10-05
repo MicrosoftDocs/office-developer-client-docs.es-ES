@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583788"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392420"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Función de punto de entrada de servicio de mensajes para una MAPI proveedor para ajustar un almacén local basada en PST como un almacén de NST de almacén. 
   
@@ -27,7 +27,7 @@ Función de punto de entrada de servicio de mensajes para una MAPI proveedor par
 
 |||
 |:-----|:-----|
-|Se implementa mediante:  <br/> |Proveedor MAPI  <br/> |
+|Implementado por:  <br/> |Proveedor MAPI  <br/> |
 |Llamado por:  <br/> |MAPI  <br/> |
    
 ```cpp
@@ -55,7 +55,7 @@ Para obtener información acerca de los valores devueltos, vea **[MSGSERVICEENTR
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando se usa **[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** para buscar la dirección de esta función en msmapi32.dll, especifique "NSTServiceEntry" como el nombre del procedimiento. 
+Cuando se usa **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** para buscar la dirección de esta función en msmapi32.dll, especifique "NSTServiceEntry" como el nombre del procedimiento. 
   
 Para usar la API de replicación, un proveedor de almacén MAPI en primer lugar debe abrir y se ajusta a un almacén local basada en PST mediante una llamada a **[NSTServiceEntry](nstserviceentry.md)**. El proveedor, a continuación, puede usar las interfaces principales de la API, **[IOSTX](iostxiunknown.md)** y **[IPSTX](ipstxiunknown.md)**, para llevar a cabo la replicación. 
   
@@ -79,7 +79,7 @@ Los siguientes comentarios son aplicables a un almacén de NST:
 
 - En este caso, el objeto de soporte técnico del servicio de mensajes debe asegurarse de que **IMAPISupport::OpenProfileSection** devuelve la sección de perfil que se identifica con la propiedad **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** en la sección de perfil predeterminado. Para obtener esta sección de perfil, el objeto de soporte técnico puede abrir la sección de perfil predeterminado, recuperar **PR_SERVICE_UID**y pasa el resultado a **IMAPISupport::OpenProfileSection** para recuperar la sección de perfil global correcto. El objeto de soporte a su vez devuelve un puntero a esta sección de perfil global para el servicio de mensajes. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

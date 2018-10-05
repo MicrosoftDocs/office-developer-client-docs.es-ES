@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: Especifica el accountsendstamp principal para un mensaje.
-ms.openlocfilehash: f94ac104a77e8400909dc06db44ce8ca03e4653f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 902c71bd4a1bd5a25ab50c4b26bcfa6d5e8489e6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816308"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394088"
 ---
 # <a name="pidtagprimarysendaccount"></a>PidTagPrimarySendAccount
 
@@ -34,6 +34,6 @@ Esta propiedad se aplica a un objeto de mensaje MAPI. Para un mensaje recibido, 
 ## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
-- [Propiedades MAPI](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
-- [Propiedad canónica PidTagPrimarySendAccount](http://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
+- [Propiedades MAPI](https://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
+- [Propiedad canónica PidTagPrimarySendAccount](https://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
 

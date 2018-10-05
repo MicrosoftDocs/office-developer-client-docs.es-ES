@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 integra funciones de administración de proyectos a lo largo de una granja de servidores de SharePoint y permite el uso de Project Online con un modelo de objetos de cliente (CSOM) y una interfaz de OData para los datos de informes.
-ms.openlocfilehash: 992fae3790b8bdb6ab55f41d42ef0229a75e255c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633532d85b4d910c11a284231cb9a4c3e5a549cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821449"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394100"
 ---
 # <a name="project-server-architecture"></a>Arquitectura de Project Server
 
@@ -113,7 +113,7 @@ Los siguientes comentarios generales se aplican a la Figura 3:
     > [!NOTE]
     > La interfaz ASMX basada en SOAP para los servicios web en PSI sigue estando disponible en Project Server 2013, pero está en desuso. 
   
-    El servicio de OData para informes se implementa mediante el servicio de WCF OData.svc interno. Puede obtener el documento de metadatos de servicio para los datos de informes mediante el uso de `http://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    El servicio de OData para informes se implementa mediante el servicio de WCF OData.svc interno. Puede obtener el documento de metadatos de servicio para los datos de informes mediante el uso de `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
     El servicio de OData para CSOM está diseñado para plataformas como Windows RT, iOS y Android, donde puede usar la interfaz REST con JavaScript en páginas HTML. 
     
@@ -165,7 +165,7 @@ Project Professional 2013 y el uso de Project Web App de la PSI para obtener acc
   
 Algunas aplicaciones de línea de negocio (LOB) y otras aplicaciones de terceros que se desarrollaron para Project Server 2010 requieren servicios PSI que aún no representados en el CSOM. Si tienen como objetivo sólo una instalación local de Project Server, las aplicaciones pueden seguir usando la interfaz WCF o la interfaz ASMX de la PSI.
   
-Las aplicaciones cliente llaman a través de servidores proxy de servicio a la PSI. Los clientes que usan la interfaz WCF tener acceso a todos los servicios PSI a través de `http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Los clientes que usan una interfaz de servicio web ASMX usan la dirección URL de Project Web App para el servicio específico. Por ejemplo, el servicio de **recursos** está en `http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Si las aplicaciones no tiene acceso a la intranet a Project Server, pueden utilizar un servidor de Project Web App en una red perimetral (no se muestra en la figura 3).
+Las aplicaciones cliente llaman a través de servidores proxy de servicio a la PSI. Los clientes que usan la interfaz WCF tener acceso a todos los servicios PSI a través de `https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Los clientes que usan una interfaz de servicio web ASMX usan la dirección URL de Project Web App para el servicio específico. Por ejemplo, el servicio de **recursos** está en `https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Si las aplicaciones no tiene acceso a la intranet a Project Server, pueden utilizar un servidor de Project Web App en una red perimetral (no se muestra en la figura 3).
   
 La figura 4 se muestra el panel **conexiones** en el **Administrador de Internet Information Services (IIS)** para una instalación de un único servidor de SharePoint Server 2013, Project Server 2013 y un sitio de administración de flujo de trabajo local para 1.0 de cliente del Administrador de flujo de trabajo. La colección de sitios de SharePoint (A) incluye los servicios PSI front-end en el `_vti_bin\PSI` subdirectorio virtual. La aplicación de servicios Web de SharePoint (B) incluye la aplicación de servicio de Project, con los servicios PSI back-end en el `508c23fb7dfd4c83a8919fae24bc68c5/PSI` subdirectorio virtual. El GUID es el nombre de la instancia de aplicación de servicio de proyecto para esa instalación de Project Server. 
   
@@ -173,7 +173,7 @@ La figura 4 se muestra el panel **conexiones** en el **Administrador de Internet
 
 ![La PSI front-end y back-end PSI] (media/pj15_Architecture_PSI_IIS.gif "La PSI front-end y back-end PSI")
   
-Las aplicaciones cliente no pueden tener acceso directamente a los servicios de WCF para la PSI en la aplicación de servicio de proyecto de back-end. Si no requieren acceso a Project Online, las aplicaciones cliente y los componentes de las aplicaciones LOB usan a servidores proxy para la interfaz PSI. Una dirección URL de back-end para la interfaz WCF del **recurso de** servicio en la figura 4, por ejemplo, podría ser `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Puerto 32843 es el puerto HTTP predeterminado para la aplicación de servicios Web de SharePoint (32844 es el puerto de comunicaciones HTTPS). Sin embargo, el archivo web.config para los bloques de Project Web App de acceso directo a los servicios PSI back-end.
+Las aplicaciones cliente no pueden tener acceso directamente a los servicios de WCF para la PSI en la aplicación de servicio de proyecto de back-end. Si no requieren acceso a Project Online, las aplicaciones cliente y los componentes de las aplicaciones LOB usan a servidores proxy para la interfaz PSI. Una dirección URL de back-end para la interfaz WCF del **recurso de** servicio en la figura 4, por ejemplo, podría ser `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Puerto 32843 es el puerto HTTP predeterminado para la aplicación de servicios Web de SharePoint (32844 es el puerto de comunicaciones HTTPS). Sin embargo, el archivo web.config para los bloques de Project Web App de acceso directo a los servicios PSI back-end.
   
 > [!NOTE]
 > La descarga del SDK de Project 2013 incluye archivos de proxy PSI para los servicios de WCF y los servicios ASMX así como instrucciones acerca de cómo compilarlos en ensamblados de servidores proxy. > Para crear archivos proxy PSI que usan la interfaz WCF, se debe usar la utilidad svcutil.exe o Visual Studio directamente en el equipo de Project Server. 
@@ -261,12 +261,12 @@ Project Server permite la versión publicada de un proyecto para que se actualic
     
 ## <a name="see-also"></a>Vea también
 
-- [Información general de Project 2013 para desarrolladores](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Información general de Project 2013 para desarrolladores](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Programación de Project Server](project-server-programmability.md)  
 - [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md)  
 - [Lo que hace y no hace PSI](what-the-psi-does-and-does-not-do.md)  
 - [Empezar a desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)   
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md)   
-- [Protocolo de datos abierto](http://www.odata.org/)
+- [Protocolo de datos abierto](https://www.odata.org/)
     
 

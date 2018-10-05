@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: La referencia del proveedor de Outlook Social Connector (OSC) describe cómo desarrollar un proveedor de OSC mediante el uso de extensibilidad del proveedor OSC.
-ms.openlocfilehash: 19f5ffe8987d0b19017692ddb8f7888be2140033
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24f8eabe33103f53e848f055b72fd402bc5dd89a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821079"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392168"
 ---
 # <a name="getting-started-with-developing-an-outlook-social-connector-provider"></a>Introducción al desarrollo de un proveedor de Outlook Social Connector
 
-La referencia del proveedor de Outlook Social Connector (OSC) describe cómo desarrollar un proveedor de OSC mediante el uso de extensibilidad del proveedor OSC. Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook](http://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades. 
+La referencia del proveedor de Outlook Social Connector (OSC) describe cómo desarrollar un proveedor de OSC mediante el uso de extensibilidad del proveedor OSC. Si está familiarizado con el desarrollo de soluciones para Outlook, vea [Seleccionar una API o tecnología para desarrollar soluciones de Outlook](https://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) para identificar las API y tecnologías que son los más adecuadas para sus necesidades. 
 
 En esta sección se proporciona una introducción a la OSC, cómo un proveedor de OSC puede ser útiles, rápidos pasos para aprender a desarrollar un proveedor, requisitos técnicos, prácticas recomendadas para desarrollar un proveedor y cuáles son las novedades en esta versión. 
   
@@ -55,8 +55,8 @@ En esta sección se proporciona una introducción a la OSC, cómo un proveedor d
   
 ## <a name="see-also"></a>Vea también
 
-- [32 bits de Microsoft Outlook Social Connector](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
-- [Actualización de Outlook Social Connector (KB983403), edición de 32 bits](http://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
-- [Actualización de Outlook Social Connector (KB983403), edición de 64 bits](http://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
-- [Outlook Social Connector 2013: Plantillas de proveedor](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+- [32 bits de Microsoft Outlook Social Connector](https://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
+- [Actualización de Outlook Social Connector (KB983403), edición de 32 bits](https://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
+- [Actualización de Outlook Social Connector (KB983403), edición de 64 bits](https://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
+- [Outlook Social Connector 2013: Plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
 

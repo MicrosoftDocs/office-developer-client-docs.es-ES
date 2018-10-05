@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4de88a12b5fb945c6243e52b77babe88b2d02417
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 492b8097c681ec072d2ec3ca26a9a2bfeba054ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815708"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392364"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>Kit de desarrollo de software Excel
 
@@ -24,7 +24,7 @@ Bienvenido a la documentación del Kit de desarrollo de software de XLL (SDK) de
   
 Revisado: Noviembre de 2012
   
-Descargue el [SDK de XLL de Excel 2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
+Descargue el [SDK de XLL de Excel 2013](https://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
   
 El SDK de XLL de Excel 2013 incluye lo siguiente:
   
@@ -54,10 +54,10 @@ No se tratan los siguientes temas:
     
 ## <a name="related-links"></a>Vínculos relacionados
 
-[Centro de desarrollo de Excel](http://msdn.microsoft.com/es-ES/office/aa905411.aspx)
+[Centro de desarrollo de Excel](https://msdn.microsoft.com/office/aa905411.aspx)
   
-[Centro para desarrolladores de Microsoft Office](http://msdn.microsoft.com/es-ES/office/default.aspx)
+[Centro para desarrolladores de Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
   
-[SDK de Excel 2010: Kit de desarrollo de software de XLL de Excel 2010](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+[SDK de Excel 2010: Kit de desarrollo de software de XLL de Excel 2010](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   
 

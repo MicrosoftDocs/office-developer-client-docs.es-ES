@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e3ab726d6b1d00db20a4d0dac05f4f0d1fa3259c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e89209b39f2d904967011731c885e12a0d6ddc19
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591300"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394317"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Propiedad canónica PidLidReminderPlaySound
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica si el cliente debe reproducir un sonido cuando el aviso se convierte en vencidas.
   
@@ -39,11 +39,11 @@ Especifica si el cliente debe reproducir un sonido cuando el aviso se convierte 
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica las propiedades y el modelo de interacción para correo electrónico y otros avisos de objeto.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

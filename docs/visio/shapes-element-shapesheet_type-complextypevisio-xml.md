@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85aa7df3-d9bd-acb3-61b3-2bd5fa256435
 description: Contiene una colección de elementos de la forma.
-ms.openlocfilehash: d2e725a28873cac8dded49587a98400df1d9bf7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4de4436079ec6290b52dd74bf3ee015c5b0d3f5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823181"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392098"
 ---
 # <a name="shapes-element-shapesheettype-complextype-visio-xml"></a>Elemento de formas (ShapeSheet_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene una colección de elementos de la forma.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |página # .xml, master # .xml  <br/> |
    

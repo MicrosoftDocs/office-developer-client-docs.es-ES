@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica una colección de propiedades relacionadas.
-ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593525"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394341"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento de sección (Sheet_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica una colección de propiedades relacionadas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    
@@ -54,7 +54,7 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
 |**Element**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica una propiedad única.  <br/> |
-|[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Especifica una colección de elementos de **Cell_Type** .  <br/> |
+|[Row](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Especifica una colección de elementos de **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
@@ -70,7 +70,7 @@ El atributo **N** de este elemento de la **sección** debe ser uno de un conjunt
   
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Actions  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
+|Acciones  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
 |ActionTag  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de la etiqueta de acción](action-tag-section.md) <br/> |
 |Connections  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> ||
 |Controles  <br/> |Una colección de propiedades que se usan para la evaluación de la fórmula sólo. DEBE tener un elemento primario de **ShapeSheet_Type** .  <br/> |[Sección de controles](controls-section.md) <br/> |

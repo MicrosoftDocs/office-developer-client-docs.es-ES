@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590739"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392280"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propiedad canónica PidTagDelegateFlags
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica si un delegado puede ver objetos de mensaje privado de la persona que delega.
   
@@ -49,7 +49,7 @@ Esta propiedad se debe establecer en el objeto de información de delegado. El v
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Especifica los métodos para conectarse a y configurar los buzones de correo como delegados y las interacciones con objetos de mensaje y calendario cuando actúen en nombre de otro usuario.
     
@@ -63,7 +63,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

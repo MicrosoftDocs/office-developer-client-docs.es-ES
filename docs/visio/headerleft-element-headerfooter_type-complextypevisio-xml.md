@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1702e2fb-ed52-1ff6-e539-fcd656199797
 description: Contiene la cadena de texto que aparece en la parte izquierda del encabezado de un documento.
-ms.openlocfilehash: 8075fd41a8d3c1cbfc43551b7489e8e66ff65436
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6a548e74a0928957338536761033a753436799d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822281"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394933"
 ---
 # <a name="headerleft-element-headerfootertype-complextype-visio-xml"></a>Elemento HeaderLeft (HeaderFooter_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene la cadena de texto que aparece en la parte izquierda del encabezado de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.Xml  <br/> |
    

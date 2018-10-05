@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Para obtener acceso a los datos XML y manipularlos en los orígenes de datos de la plantilla de formulario, muchos miembros del modelo de objetos de código administrado proporcionado por el espacio de nombres Microsoft.Office.InfoPath crean (o se les pasa) una instancia de la clase XPathNavigator del espacio de nombres System.Xml.XPath. Una vez que se tiene acceso a un objeto XPathNavigator devuelto por un miembro del modelo de objetos de InfoPath, se pueden usar las propiedades y los métodos de la clase XPathNavigator para trabajar con los datos.
-ms.openlocfilehash: a672ea2733d971c829b77e0c18a74f26c7050b34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393043"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Trabajar con las clases XPathNavigator y XPathNodeIterator
 
@@ -73,11 +73,11 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-Para obtener información acerca del procedimiento para crear expresiones XPath, vea el tema sobre referencia de XPath en MSDN y el artículo de [recomendación de W3C del Lenguaje de rutas XML (XPath), versión 1.0](http://www.w3.org/TR/xpath).
+Para obtener información acerca del procedimiento para crear expresiones XPath, vea el tema sobre referencia de XPath en MSDN y el artículo de [recomendación de W3C del Lenguaje de rutas XML (XPath), versión 1.0](https://www.w3.org/TR/xpath).
   
 ### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Configuración del valor de un nodo que tiene el atributo xsi:nil
 
-Con algunos tipos de datos, al intentar establecer el valor de un campo en blanco mediante programación, se produce el error "La validación del esquema encontró errores que no son de tipo de datos". Normalmente, este error se produce porque el atributo [xsi:nil](http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) del elemento está establecido en **true**. Si se examina el elemento XML subyacente para el campo en blanco del formulario, se puede ver este valor de configuración. Por ejemplo, el fragmento XML para el siguiente campo Fecha en blanco tiene el atributo **xsi:nil** establecido en **true**.
+Con algunos tipos de datos, al intentar establecer el valor de un campo en blanco mediante programación, se produce el error "La validación del esquema encontró errores que no son de tipo de datos". Normalmente, este error se produce porque el atributo [xsi:nil](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) del elemento está establecido en **true**. Si se examina el elemento XML subyacente para el campo en blanco del formulario, se puede ver este valor de configuración. Por ejemplo, el fragmento XML para el siguiente campo Fecha en blanco tiene el atributo **xsi:nil** establecido en **true**.
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
@@ -101,7 +101,7 @@ Para evitar este error, debe probarse el código para el atributo **xsi:nil** y,
 public void DeleteNil(XPathNavigator node)
 {
    if (node.MoveToAttribute(
-      "nil", "http://www.w3.org/2001/XMLSchema-instance"))
+      "nil", "https://www.w3.org/2001/XMLSchema-instance"))
       node.DeleteSelf();
 }
 ```
@@ -109,7 +109,7 @@ public void DeleteNil(XPathNavigator node)
 ```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
-      "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
+      "nil", "https://www.w3.org/2001/XMLSchema-instance")) Then
       node.DeleteSelf()
    End If
 End Sub

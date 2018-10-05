@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580708"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392189"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
@@ -29,7 +29,7 @@ Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las a
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuestos por:  <br/> |Objetos de contenedor de la libreta de direcciones  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de la libreta de direcciones  <br/> |
+|Implementado por:  <br/> |Proveedores de la libreta de direcciones  <br/> |
 |Llamado por:  <br/> |MAPI y las aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IABContainer  <br/> |
 |Tipo de puntero:  <br/> |LPABCONT  <br/> |
@@ -62,7 +62,7 @@ Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las a
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz de **IABContainer** indirectamente hereda de la interfaz [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) a través de la [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) y [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Los proveedores de la libreta de direcciones implementan la interfaz de **IABContainer** . 
+La interfaz de **IABContainer** indirectamente hereda de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) a través de la [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) y [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Los proveedores de la libreta de direcciones implementan la interfaz de **IABContainer** . 
   
 Puede existir cualquier número de objetos de mensajería de usuario, listas de distribución y otros contenedores de libretas de direcciones en un contenedor de la libreta de direcciones. Al igual que con cualquier contenedor, los clientes o proveedores de servicios pueden usar un contenedor de la libreta de direcciones para abrir una de sus entradas o para recuperar una tabla de jerarquías o una tabla de contenido. Contenedores de la libreta de direcciones también proporcionan resolución de nombres y, según el proveedor, la capacidad de agregar, quitar o modificar las entradas.
   

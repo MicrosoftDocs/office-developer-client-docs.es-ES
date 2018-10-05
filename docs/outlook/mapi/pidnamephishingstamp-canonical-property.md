@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1eac8831b144053ff364208404dbac3925b51c4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572938"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392945"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propiedad canónica PidNamePhishingStamp
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor de mensaje que identifica y los mensajes de las marcas que suelen ser suplantación de identidad.
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguna  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nombre de la propiedad:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Nombre de la propiedad:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería segura  <br/> |
    
@@ -39,11 +39,11 @@ Contiene el valor de mensaje que identifica y los mensajes de las marcas que sue
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > Identifica y marca los mensajes de correo electrónico que están diseñados para engañar a los destinatarios para que divulguen información confidencial (por ejemplo, las contraseñas y otra información personal) a un origen no confiable.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: Especifica información acerca de la regla de validación que el problema de validación primario pertenece a.
-ms.openlocfilehash: ff5a7e4e8918d5ae151a0d4582d1a393509e1b64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0cf726f0c5d6943ef72669aa92f361a7367459c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823068"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394751"
 ---
 # <a name="ruleinfo-element-issuetype-complextype-visio-xml"></a>Elemento de RuleInfo (Issue_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica información acerca de la regla de validación que el problema de val
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Validation.Xml  <br/> |
    

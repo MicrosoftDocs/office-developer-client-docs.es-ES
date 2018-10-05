@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
 description: Contiene el nombre del archivo de interfaz (.vsu) de usuario de Microsoft Visio que define las barras de herramientas personalizadas y las barras de estado para un documento.
-ms.openlocfilehash: 46abc567d2135815a82b4efec47a7bd77d0763cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3744caeb09e1fe865c9e669b9cacfada4cbef1c7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821909"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392910"
 ---
 # <a name="customtoolbarsfile-element-documentsettingstype-complextype-visio-xml"></a>Elemento CustomToolbarsFile (DocumentSettings_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene el nombre del archivo de interfaz (.vsu) de usuario de Microsoft Visio 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.Xml  <br/> |
    

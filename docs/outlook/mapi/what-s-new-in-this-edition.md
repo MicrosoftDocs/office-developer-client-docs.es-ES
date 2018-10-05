@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 7325c42fe7e9c1e043609d5503a3782522f76188
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590060"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392889"
 ---
 # <a name="whats-new-in-this-edition"></a>Novedades de esta edición
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 La referencia de MAPI de Microsoft Outlook 2013 se actualizó para incluir la documentación para varias características nuevas. 
   
@@ -59,9 +59,9 @@ Se ha agregado el contenido de las siguientes características:
 
 Se ha agregado contenido en versiones anteriores de la referencia de MAPI de Outlook para las siguientes características:
   
-- Microsoft Outlook 2013 permite escenarios de implementación no tradicionales como en paralelo y Click-to-Run. Estos escenarios pueden dificultar la lógica utilizada para cargar la biblioteca MAPI correcta. Los programadores MAPI ahora tienen la opción de vinculación explícitamente a las funciones MAPI y pueden elegir para vincularse explícitamente al código auxiliar MAPI del cliente MAPI predeterminado (por ejemplo, Msmapi32.dll de Outlook) sin pasar por la biblioteca MAPI y el código auxiliar de MAPI de Windows. Para obtener más información acerca de la vinculación explícita en comparación con la vinculación implícita, vea el [vínculo a las funciones de MAPI](how-to-link-to-mapi-functions.md). La **Biblioteca de código auxiliar de MAPI**, registrado en el sitio Web de [CodePlex](http://mapistublibrary.codeplex.com/) , proporciona un reemplazo de orden para Mapi32.lib que admita la generación de aplicaciones de MAPI de 32 bits y 64 bits. 
+- Microsoft Outlook 2013 permite escenarios de implementación no tradicionales como en paralelo y Click-to-Run. Estos escenarios pueden dificultar la lógica utilizada para cargar la biblioteca MAPI correcta. Los programadores MAPI ahora tienen la opción de vinculación explícitamente a las funciones MAPI y pueden elegir para vincularse explícitamente al código auxiliar MAPI del cliente MAPI predeterminado (por ejemplo, Msmapi32.dll de Outlook) sin pasar por la biblioteca MAPI y el código auxiliar de MAPI de Windows. Para obtener más información acerca de la vinculación explícita en comparación con la vinculación implícita, vea el [vínculo a las funciones de MAPI](how-to-link-to-mapi-functions.md). La **Biblioteca de código auxiliar de MAPI**, registrado en el sitio Web de [CodePlex](https://mapistublibrary.codeplex.com/) , proporciona un reemplazo de orden para Mapi32.lib que admita la generación de aplicaciones de MAPI de 32 bits y 64 bits. 
     
-- **Compatibilidad para Outlook de Microsoft de 64 bits**, temas de referencia para elementos de la API aplicables se actualizaron para corresponden a los nuevos archivos de encabezado que admiten Outlook de 64 bits. Los archivos de encabezado están disponibles como una descarga en [Outlook 2010: archivos de encabezado de MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un ejemplo de código nuevo le ha proporcionado en [comprobar la versión de Outlook](how-to-check-the-version-of-outlook.md) para mostrar cómo comprobar si la versión de Outlook instalada es de 64 bits de Microsoft Outlook 2010 y se ha revisado para Outlook 2013. Si la aplicación existente de MAPI de 32 bits se va a ejecutar en un sistema operativo de 64 bits con Outlook de 64 bits instalado, debe volver a generar la aplicación de 32 bits como una aplicación de 64 bits. Para obtener más información sobre la compatibilidad de MAPI para Outlook de 64 bits, vea [Creación de aplicaciones MAPI en plataformas de 32 bits y 64 bits](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
+- **Compatibilidad para Outlook de Microsoft de 64 bits**, temas de referencia para elementos de la API aplicables se actualizaron para corresponden a los nuevos archivos de encabezado que admiten Outlook de 64 bits. Los archivos de encabezado están disponibles como una descarga en [Outlook 2010: archivos de encabezado de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un ejemplo de código nuevo le ha proporcionado en [comprobar la versión de Outlook](how-to-check-the-version-of-outlook.md) para mostrar cómo comprobar si la versión de Outlook instalada es de 64 bits de Microsoft Outlook 2010 y se ha revisado para Outlook 2013. Si la aplicación existente de MAPI de 32 bits se va a ejecutar en un sistema operativo de 64 bits con Outlook de 64 bits instalado, debe volver a generar la aplicación de 32 bits como una aplicación de 64 bits. Para obtener más información sobre la compatibilidad de MAPI para Outlook de 64 bits, vea [Creación de aplicaciones MAPI en plataformas de 32 bits y 64 bits](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
     
 - **Ejemplo de proveedor de almacén de mensaje**: el [Proveedor de almacén de archivos PST ajustado de ejemplo](message-store-provider-sample.md) ya se ha actualizado para admitir la arquitectura de 64 bits. Tema de [inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md) del ejemplo ahora se ha ampliado para proporcionar información acerca de la "Wrapped PST y rutas de acceso Unicode." 
     
@@ -107,11 +107,11 @@ Se ha agregado contenido en versiones anteriores de la referencia de MAPI de Out
     
   - Cuotas de modo de caché de las definiciones para el buzón de correo de Exchange Server
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
   
-[CodePlex](http://mapistublibrary.codeplex.com/)
+[CodePlex](https://mapistublibrary.codeplex.com/)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un desarrollador de aplicaciones puede personalizar un sitio de Project Online (SharePoint hospedado), uso de aplicaciones independientes o complementos en el proyecto. Una gran cantidad de aplicaciones es posible que van desde hacer frente a las necesidades de los implicados en un proyecto a las funciones de soporte PMO, por ejemplo, cualquiera de las siguientes opciones:'
-ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594534"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392588"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 a 60 con Project Online
 
@@ -83,7 +83,7 @@ Puede descargar y ejecutar el ejemplo en unos cuantos pasos sencillos:
     
    Project Online examina del ámbito de aplicación del complemento y los permisos de usuario para controlar el acceso a la información en el host de Project Online. Si el acceso se deniega explícitamente en la configuración de uno o ambos, Project Online deniega el acceso a la información. De lo contrario, se concede el acceso.
     
-3. Habilitar [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio.  
+3. Habilitar [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio.  
     
 4. Genere el proyecto.
     
@@ -115,7 +115,7 @@ Puede ejecutar el ejemplo en unos cuantos pasos:
     
    Project Online examina del ámbito de aplicación del complemento y los permisos de usuario para controlar el acceso a la información en el host de Project Online. Si el acceso se deniega explícitamente en la configuración de uno o ambos, Project Online deniega el acceso a la información. De lo contrario, se concede el acceso.
     
-3. Habilitar [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio. 
+3. Habilitar [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) en su sitio. 
     
 4. Genere el proyecto.
     

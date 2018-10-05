@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
 description: El modelo de objetos de cliente (COM) de Project Server 2013 implementa la funcionalidad del servidor comunes. CSOM de Project Server incluye un Microsoft .NET CSOM, un Microsoft Silverlight CSOM, un CSOM de Windows Phone 8 y un modelo de objetos de JavaScript (JSOM). Además, el CSOM incluye un servicio de OData que permite una interfaz de REST. La interfaz REST está pensada principalmente para el desarrollo de aplicaciones en plataformas que no son de Windows, como iOS y Android.
-ms.openlocfilehash: a17dc816cd2033ff0057821ef029f0163881f9ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8be603fbee35f228dea0fa6b6be087b8e09c30e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821295"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394450"
 ---
 # <a name="client-side-object-model-csom-for-project-2013"></a>Modelo de objetos de cliente (COM) de Project 2013
 
@@ -27,9 +27,9 @@ En las extensiones CSOM, el objeto de **ProjectContext** proporciona el punto de
  **Consultas de REST** Puede crear consultas REST del servicio OData CSOM sin consumir los metadatos. Algunas herramientas de terceros permiten el uso de los ensamblados de .NET para el CSOM para desarrollar aplicaciones para otros dispositivos. Por ejemplo, buscar en Internet "multiplataforma .NET herramientas de desarrollo para iOS o Android." 
   
 > [!NOTE]
-> Aunque la `$metadata` opción para la **ProjectData** informes de servicio es válido ( `http://ServerName/pwaName/_api/ProjectData/$metadata`), la `$metadata` opción para el servicio de **ProjectServer** del CSOM se ha eliminado en la versión publicada de Project Server 2013. Para buscar los objetos CSOM y miembros que están disponibles como extremos REST, consulte la [biblioteca de JavaScript y referencia REST para Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). 
+> Aunque la `$metadata` opción para la **ProjectData** informes de servicio es válido ( `https://ServerName/pwaName/_api/ProjectData/$metadata`), la `$metadata` opción para el servicio de **ProjectServer** del CSOM se ha eliminado en la versión publicada de Project Server 2013. Para buscar los objetos CSOM y miembros que están disponibles como extremos REST, consulte la [biblioteca de JavaScript y referencia REST para Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). 
   
-Para ver las entidades disponibles en el CSOM a través de la interfaz de REST, puede usar el `http://ServerName/pwaName/_api/ProjectServer` consulta. Para las consultas REST, la entidad **ProjectServer** refleja estrechamente las propiedades del objeto de [ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el ensamblado Microsoft.ProjectServer.Client.dll administrados y la [PS. ProjectContext](http://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx) objeto en el JSOM. Por ejemplo, puede usar el explorador para obtener información desde el CSOM acerca de los proyectos en Project Web App, las asignaciones en un proyecto especificado y el nombre de la tarea de una asignación especificada para un recurso especificado mediante el uso de las siguientes consultas (cada consulta usa el mismo `http://ServerName/pwaName/_api` prefijo de dirección URL). Los GUID son valores de ejemplo para **Project.Id**, **EnterpriseResource.Id**y **Assignment.Id**.
+Para ver las entidades disponibles en el CSOM a través de la interfaz de REST, puede usar el `https://ServerName/pwaName/_api/ProjectServer` consulta. Para las consultas REST, la entidad **ProjectServer** refleja estrechamente las propiedades del objeto de [ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el ensamblado Microsoft.ProjectServer.Client.dll administrados y la [PS. ProjectContext](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx) objeto en el JSOM. Por ejemplo, puede usar el explorador para obtener información desde el CSOM acerca de los proyectos en Project Web App, las asignaciones en un proyecto especificado y el nombre de la tarea de una asignación especificada para un recurso especificado mediante el uso de las siguientes consultas (cada consulta usa el mismo `https://ServerName/pwaName/_api` prefijo de dirección URL). Los GUID son valores de ejemplo para **Project.Id**, **EnterpriseResource.Id**y **Assignment.Id**.
   
 ```HTML
 /ProjectServer/Projects
@@ -37,7 +37,7 @@ Para ver las entidades disponibles en el CSOM a través de la interfaz de REST, 
 /ProjectServer/EnterpriseResources('28eeb2b5-fe74-4efc-aa35-6a64514d1526')/Assignments('a2eafeb5-437c-e111-92fc-00155d3ba208')/Task?$select=Name
 ```
 
-A diferencia de la interfaz de OData para el servicio **ProjectData** , que es de sólo lectura para informes, se pueden realizar operaciones CRUD con consultas de REST con el servicio de **ProjectServer** . Consultas de REST para el CSOM de Project Server se han diseñado principalmente para plataformas que no sea el escritorio de Windows, como Windows RT, iOS y Android. Para las plataformas de escritorio y servidor de Windows, como Windows 7, Windows 8 y Windows Server 2008 R2, puede usar los ensamblados CSOM administrado. Para las aplicaciones web, puede usar PS.js para JavaScript. Para obtener información acerca de cómo realizar operaciones CRUD con consultas de REST, vea el tema de [las operaciones de consulta de uso OData en solicitudes REST de SharePoint](http://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx) en el SDK de SharePoint 2013. Para obtener información acerca de cómo utilizar el servicio **ProjectData** , vea [fuentes de OData consultar datos de informes del proyecto](https://msdn.microsoft.com/en-us/library/office/jj163048.aspx).
+A diferencia de la interfaz de OData para el servicio **ProjectData** , que es de sólo lectura para informes, se pueden realizar operaciones CRUD con consultas de REST con el servicio de **ProjectServer** . Consultas de REST para el CSOM de Project Server se han diseñado principalmente para plataformas que no sea el escritorio de Windows, como Windows RT, iOS y Android. Para las plataformas de escritorio y servidor de Windows, como Windows 7, Windows 8 y Windows Server 2008 R2, puede usar los ensamblados CSOM administrado. Para las aplicaciones web, puede usar PS.js para JavaScript. Para obtener información acerca de cómo realizar operaciones CRUD con consultas de REST, vea el tema de [las operaciones de consulta de uso OData en solicitudes REST de SharePoint](https://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx) en el SDK de SharePoint 2013. Para obtener información acerca de cómo utilizar el servicio **ProjectData** , vea [fuentes de OData consultar datos de informes del proyecto](https://msdn.microsoft.com/library/office/jj163048.aspx).
   
 La tabla 1 se enumeran las propiedades de **ProjectContext** que representan objetos de Project Server. Puede usar estos objetos para recuperar otras entidades de Project Server 2013, como las asignaciones y tareas. 
   
@@ -84,5 +84,5 @@ Además, debe desproteger estos artículos que muestran cómo usar el CSOM:
 [Project Server 2013 architecture](project-server-2013-architecture.md)
 
 
-[Elegir el conjunto de API correcto en SharePoint 2013](http://msdn.microsoft.com/library/f36645da-77c5-47f1-a2ca-13d4b62b320d%28Office.15%29.aspx)
+[Elegir el conjunto de API correcto en SharePoint 2013](https://msdn.microsoft.com/library/f36645da-77c5-47f1-a2ca-13d4b62b320d%28Office.15%29.aspx)
 

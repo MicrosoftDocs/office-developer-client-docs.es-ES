@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: Se pueden hospedar controles ActiveX en formularios de InfoPath diseñados para abrirse en el editor de InfoPath. Estos controles pueden existir previamente (con algunas restricciones) o escribirse específicamente para InfoPath.
-ms.openlocfilehash: 90378533a7c3cde4a1927753c0325fdd8d0b3ce5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815856"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392798"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Crear un control ActiveX que pueda enlazar a datos de formulario de InfoPath
 
@@ -51,9 +51,9 @@ Para que InfoPath actualice las propiedades del Modelo de objetos de documentos 
     
 Asimismo, existen dos interfaces COM específicas de InfoPath que permiten una mejor integración de controles:
   
-- [IInfoPathControl](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [IInfoPathControl](https://msdn.microsoft.com/library/bb264625.aspx)
     
-- [IInfoPathControlSite](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Agregar un control ActiveX al entorno de diseño de InfoPath
 
@@ -76,9 +76,7 @@ Para distribuir un control ActiveX, es posible escribir un instalador que instal
   
 ## <a name="see-also"></a>Vea también
 
-
-
 Práctica 6: Agregar controles ActiveX en InfoPath 2003
   
-[Crear un control personalizado de InfoPath con C# y .NET (Blog del equipo de InfoPath)](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
+[Crear un control personalizado de InfoPath con C# y .NET (Blog del equipo de InfoPath)](https://blogs.msdn.microsoft.com/infopath/2005/04/15/creating-an-infopath-custom-control-using-c-and-net/)
 
