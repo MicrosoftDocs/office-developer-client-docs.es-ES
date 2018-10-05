@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
-ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577992"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393386"
 ---
-# <a name="upmov"></a><span data-ttu-id="0eeb8-103">UPMOV</span><span class="sxs-lookup"><span data-stu-id="0eeb8-103">UPMOV</span></span>
+# <a name="upmov"></a><span data-ttu-id="bcefe-103">UPMOV</span><span class="sxs-lookup"><span data-stu-id="bcefe-103">UPMOV</span></span>
  
-<span data-ttu-id="0eeb8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0eeb8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bcefe-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcefe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0eeb8-105">Información para cargar los elementos que se han movido.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-105">Information for uploading items that have been moved.</span></span> <span data-ttu-id="0eeb8-106">Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md) y [cargar el estado de la tabla](upload-table-state.md).</span><span class="sxs-lookup"><span data-stu-id="0eeb8-106">This information is used during the [upload delete status state](upload-delete-status-state.md) and [upload table state](upload-table-state.md).</span></span>
+<span data-ttu-id="bcefe-105">Información para cargar los elementos que se han movido.</span><span class="sxs-lookup"><span data-stu-id="bcefe-105">Information for uploading items that have been moved.</span></span> <span data-ttu-id="bcefe-106">Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md) y [cargar el estado de la tabla](upload-table-state.md).</span><span class="sxs-lookup"><span data-stu-id="bcefe-106">This information is used during the [upload delete status state](upload-delete-status-state.md) and [upload table state](upload-table-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="0eeb8-107">Información rápida</span><span class="sxs-lookup"><span data-stu-id="0eeb8-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="bcefe-107">Información rápida</span><span class="sxs-lookup"><span data-stu-id="bcefe-107">Quick info</span></span>
 
 ```cpp
 struct UPMOV 
@@ -39,67 +39,67 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="0eeb8-108">Members</span><span class="sxs-lookup"><span data-stu-id="0eeb8-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bcefe-108">Members</span><span class="sxs-lookup"><span data-stu-id="bcefe-108">Members</span></span>
 
-<span data-ttu-id="0eeb8-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-109">_ulFlags_</span></span>
+<span data-ttu-id="bcefe-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bcefe-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="0eeb8-110">[entrada] Marcas para determinar el comportamiento adecuado durante la carga.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-110">[in] Flags to determine the appropriate behavior during the upload.</span></span>
+> <span data-ttu-id="bcefe-110">[entrada] Marcas para determinar el comportamiento adecuado durante la carga.</span><span class="sxs-lookup"><span data-stu-id="bcefe-110">[in] Flags to determine the appropriate behavior during the upload.</span></span>
     
-  - <span data-ttu-id="0eeb8-111">UPV_ERROR</span><span class="sxs-lookup"><span data-stu-id="0eeb8-111">UPV_ERROR</span></span>
+  - <span data-ttu-id="bcefe-111">UPV_ERROR</span><span class="sxs-lookup"><span data-stu-id="bcefe-111">UPV_ERROR</span></span>
     
-    - <span data-ttu-id="0eeb8-112">[entrada] Problema al abrir la carpeta del servidor.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-112">[in] Problem opening server folder.</span></span>
+    - <span data-ttu-id="bcefe-112">[entrada] Problema al abrir la carpeta del servidor.</span><span class="sxs-lookup"><span data-stu-id="bcefe-112">[in] Problem opening server folder.</span></span>
     
-  - <span data-ttu-id="0eeb8-113">UPV_DIRTY</span><span class="sxs-lookup"><span data-stu-id="0eeb8-113">UPV_DIRTY</span></span>
+  - <span data-ttu-id="bcefe-113">UPV_DIRTY</span><span class="sxs-lookup"><span data-stu-id="bcefe-113">UPV_DIRTY</span></span>
     
-    - <span data-ttu-id="0eeb8-114">[entrada] Ha cambiado el estado de carga.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-114">[in] The upload state has changed.</span></span> <span data-ttu-id="0eeb8-115">Esto se usa en el cliente para realizar un seguimiento el cambio de estado para el almacén local.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-115">This is used by the client to track the change in state for the local store.</span></span>
+    - <span data-ttu-id="bcefe-114">[entrada] Ha cambiado el estado de carga.</span><span class="sxs-lookup"><span data-stu-id="bcefe-114">[in] The upload state has changed.</span></span> <span data-ttu-id="bcefe-115">Esto se usa en el cliente para realizar un seguimiento el cambio de estado para el almacén local.</span><span class="sxs-lookup"><span data-stu-id="bcefe-115">This is used by the client to track the change in state for the local store.</span></span>
     
-  - <span data-ttu-id="0eeb8-116">UPV_COMMIT</span><span class="sxs-lookup"><span data-stu-id="0eeb8-116">UPV_COMMIT</span></span>
+  - <span data-ttu-id="bcefe-116">UPV_COMMIT</span><span class="sxs-lookup"><span data-stu-id="bcefe-116">UPV_COMMIT</span></span>
     
-    - <span data-ttu-id="0eeb8-117">[entrada] Confirmar el estado de carga.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-117">[in] Commit upload state.</span></span>
+    - <span data-ttu-id="bcefe-117">[entrada] Confirmar el estado de carga.</span><span class="sxs-lookup"><span data-stu-id="bcefe-117">[in] Commit upload state.</span></span>
     
-<span data-ttu-id="0eeb8-118">_Conserva_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-118">_pReserved_</span></span>
+<span data-ttu-id="bcefe-118">_Conserva_</span><span class="sxs-lookup"><span data-stu-id="bcefe-118">_pReserved_</span></span>
   
->  <span data-ttu-id="0eeb8-119">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-119">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+>  <span data-ttu-id="bcefe-119">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="bcefe-119">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-<span data-ttu-id="0eeb8-120">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-120">_pstmReserved_</span></span>
+<span data-ttu-id="bcefe-120">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="bcefe-120">_pstmReserved_</span></span>
   
->  <span data-ttu-id="0eeb8-121">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-121">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+>  <span data-ttu-id="bcefe-121">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="bcefe-121">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-<span data-ttu-id="0eeb8-122">_pszName_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-122">_pszName_</span></span>
+<span data-ttu-id="bcefe-122">_pszName_</span><span class="sxs-lookup"><span data-stu-id="bcefe-122">_pszName_</span></span>
   
->  <span data-ttu-id="0eeb8-123">[out] Nombre de la carpeta de destino.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-123">[out] Name of the destination folder.</span></span> 
+>  <span data-ttu-id="bcefe-123">[out] Nombre de la carpeta de destino.</span><span class="sxs-lookup"><span data-stu-id="bcefe-123">[out] Name of the destination folder.</span></span> 
     
   > [!NOTE]
-  > <span data-ttu-id="0eeb8-124">Este miembro no es compatible con UNICODE.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-124">This member does not support UNICODE.</span></span> 
+  > <span data-ttu-id="bcefe-124">Este miembro no es compatible con UNICODE.</span><span class="sxs-lookup"><span data-stu-id="bcefe-124">This member does not support UNICODE.</span></span> 
   
-<span data-ttu-id="0eeb8-125">_feid_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-125">_feid_</span></span>
+<span data-ttu-id="bcefe-125">_feid_</span><span class="sxs-lookup"><span data-stu-id="bcefe-125">_feid_</span></span>
   
->  <span data-ttu-id="0eeb8-126">[out] Identificador de entrada de la carpeta de destino.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-126">[out] Entry ID of destination folder.</span></span> 
+>  <span data-ttu-id="bcefe-126">[out] Identificador de entrada de la carpeta de destino.</span><span class="sxs-lookup"><span data-stu-id="bcefe-126">[out] Entry ID of destination folder.</span></span> 
     
-<span data-ttu-id="0eeb8-127">_pfld_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-127">_pfld_</span></span>
+<span data-ttu-id="bcefe-127">_pfld_</span><span class="sxs-lookup"><span data-stu-id="bcefe-127">_pfld_</span></span>
   
->  <span data-ttu-id="0eeb8-128">[entrada] Puntero a la carpeta del servidor.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-128">[in] Pointer to server folder.</span></span> 
+>  <span data-ttu-id="bcefe-128">[entrada] Puntero a la carpeta del servidor.</span><span class="sxs-lookup"><span data-stu-id="bcefe-128">[in] Pointer to server folder.</span></span> 
     
-<span data-ttu-id="0eeb8-129">_pxicc_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-129">_pxicc_</span></span>
+<span data-ttu-id="bcefe-129">_pxicc_</span><span class="sxs-lookup"><span data-stu-id="bcefe-129">_pxicc_</span></span>
   
->  <span data-ttu-id="0eeb8-130">[entrada] Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la carga de los cambios de contenido cuando se usa la sincronización de cambio Incremental (ICS).</span><span class="sxs-lookup"><span data-stu-id="0eeb8-130">[in] Pointer to the **IExchangeImportContentsChanges** contents interface that supports uploading content changes when using Incremental Change Synchronization (ICS).</span></span> <span data-ttu-id="0eeb8-131">Para obtener más información sobre **IExchangeImportContentsChanges** y ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="0eeb8-131">For more information on **IExchangeImportContentsChanges** and ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).</span></span>
+>  <span data-ttu-id="bcefe-130">[entrada] Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la carga de los cambios de contenido cuando se usa la sincronización de cambio Incremental (ICS).</span><span class="sxs-lookup"><span data-stu-id="bcefe-130">[in] Pointer to the **IExchangeImportContentsChanges** contents interface that supports uploading content changes when using Incremental Change Synchronization (ICS).</span></span> <span data-ttu-id="bcefe-131">Para obtener más información sobre **IExchangeImportContentsChanges** y ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="bcefe-131">For more information on **IExchangeImportContentsChanges** and ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).</span></span>
     
-<span data-ttu-id="0eeb8-132">_dwReservado_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-132">_dwReserved_</span></span>
+<span data-ttu-id="bcefe-132">_dwReservado_</span><span class="sxs-lookup"><span data-stu-id="bcefe-132">_dwReserved_</span></span>
   
->  <span data-ttu-id="0eeb8-133">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-133">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+>  <span data-ttu-id="bcefe-133">[out] Este miembro está reservado para el uso interno de Outlook y no se admite.</span><span class="sxs-lookup"><span data-stu-id="bcefe-133">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-<span data-ttu-id="0eeb8-134">_pupmovNext_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-134">_pupmovNext_</span></span>
+<span data-ttu-id="bcefe-134">_pupmovNext_</span><span class="sxs-lookup"><span data-stu-id="bcefe-134">_pupmovNext_</span></span>
   
->  <span data-ttu-id="0eeb8-135">[out] A continuación, mover contexto.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-135">[out] Next move context.</span></span> 
+>  <span data-ttu-id="bcefe-135">[out] A continuación, mover contexto.</span><span class="sxs-lookup"><span data-stu-id="bcefe-135">[out] Next move context.</span></span> 
     
-<span data-ttu-id="0eeb8-136">_cEntMov_</span><span class="sxs-lookup"><span data-stu-id="0eeb8-136">_cEntMov_</span></span>
+<span data-ttu-id="bcefe-136">_cEntMov_</span><span class="sxs-lookup"><span data-stu-id="bcefe-136">_cEntMov_</span></span>
   
->  <span data-ttu-id="0eeb8-137">[entrada] Número de elementos movidos aquí.</span><span class="sxs-lookup"><span data-stu-id="0eeb8-137">[in] Number of items moved here.</span></span> 
+>  <span data-ttu-id="bcefe-137">[entrada] Número de elementos movidos aquí.</span><span class="sxs-lookup"><span data-stu-id="bcefe-137">[in] Number of items moved here.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="0eeb8-138">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="0eeb8-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bcefe-138">Vea también</span><span class="sxs-lookup"><span data-stu-id="bcefe-138">See also</span></span>
 
-- [<span data-ttu-id="0eeb8-139">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="0eeb8-139">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="0eeb8-140">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="0eeb8-140">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="0eeb8-141">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="0eeb8-141">MAPI Constants</span></span>](mapi-constants.md)
-- [<span data-ttu-id="0eeb8-142">FEID</span><span class="sxs-lookup"><span data-stu-id="0eeb8-142">FEID</span></span>](feid.md)
+- [<span data-ttu-id="bcefe-139">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="bcefe-139">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="bcefe-140">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="bcefe-140">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="bcefe-141">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="bcefe-141">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="bcefe-142">FEID</span><span class="sxs-lookup"><span data-stu-id="bcefe-142">FEID</span></span>](feid.md)
 
