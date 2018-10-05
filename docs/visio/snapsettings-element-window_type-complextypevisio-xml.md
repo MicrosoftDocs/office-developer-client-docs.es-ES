@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: Especifica los objetos que las formas ajustan ajustar cuando está en la ventana activa.
-ms.openlocfilehash: 55558301b1f85f70f723d4282b438e4883d90c25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4793c6d9c13a922db4d3ed9504a3a08e933230a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823280"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385210"
 ---
 # <a name="snapsettings-element-windowtype-complextype-visio-xml"></a>Elemento SnapSettings (Window_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica los objetos que las formas ajustan ajustar cuando está en la ventana
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.Xml  <br/> |
    

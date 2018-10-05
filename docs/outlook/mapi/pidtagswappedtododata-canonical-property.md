@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8086bc3ea35fdbb4e0f7758b7931e305259a3a9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ecfa1e89688ae525a28e221424fb4a8194fc217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578671"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386673"
 ---
 # <a name="pidtagswappedtododata-canonical-property"></a>Propiedad canónica PidTagSwappedToDoData
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Mantiene un segundo conjunto de valores de propiedad que no influyen en el estado del objeto de mensaje marcado.
   
@@ -40,21 +40,21 @@ Actúa como la ubicación de almacenamiento marca secundaria si son compatibles 
   
 De forma similar, esta estructura proporciona una ubicación en la que se va a almacenar todas las propiedades relacionadas con el protocolo de marcar informativos que son compatibles con marcas de destinatarios y propiedades relacionadas con el protocolo de configuración de aviso que son compatibles con destinatario avisos en un mensaje enviado anteriormente.
   
-Para obtener más información acerca de esta propiedad, vea [[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
+Para obtener más información acerca de esta propiedad, vea [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica las propiedades y las operaciones relacionadas con marcas.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica las propiedades y el modelo de interacción para correo electrónico y otros avisos de objeto.
     
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

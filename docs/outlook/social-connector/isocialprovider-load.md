@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
 description: Inicializa el proveedor de Outlook Social Connector (OSC).
-ms.openlocfilehash: 172595db8d9467f22a80c8caf0e3444250826aaf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73d14f66785417e80448f622256d0b9cb059b83c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821108"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385833"
 ---
 # <a name="isocialproviderload"></a>ISocialProvider::Load
 
@@ -31,7 +31,7 @@ _socialProviderInterfaceVersion_
     
 _languageTag_
   
-> [entrada] La etiqueta de idioma de ingeniería de Internet (IETF), definida por [[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt) y [[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt), que representa el idioma de interfaz de usuario de Outlook actual.
+> [entrada] La etiqueta de idioma de ingeniería de Internet (IETF), definida por [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) y [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), que representa el idioma de interfaz de usuario de Outlook actual.
     
 ## <a name="remarks"></a>Comentarios
 

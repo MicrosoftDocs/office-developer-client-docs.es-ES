@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Última modificación: 30 de enero de 2013'
-ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574534"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389263"
 ---
 # <a name="nickname-cache"></a>Caché de sobrenombre
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 y Microsoft Outlook 2013 interactúan con la caché de sobrenombres, también conocida como la "Autocompletar secuencia." La secuencia de Autocompletar es donde Outlook persiste la lista de Autocompletar, que es la lista de nombres que se muestra en el cuadro **para**, **Cc**, **CCO** cuadros de edición y mientras un usuario está redactando un correo electrónico. En este tema se describe cómo Outlook 2007, Outlook 2010 y Outlook 2013 interactúan con la secuencia de Autocompletar y también se describe el formato binario del archivo y los métodos recomendados para interactuar con la secuencia de Autocompletar. 
   
@@ -37,7 +37,7 @@ Los medios de almacenamiento de los datos de Autocompletar difiere entre Outlook
   
  **Outlook 2007**
   
-Para Outlook 2007, la secuencia de Autocompletar se almacena en un archivo con el mismo nombre que el perfil y una extensión. nk2. Por ejemplo, si se usa el perfil predeterminado de "outlook", el archivo se llamará "outlook.nk2". El archivo. nk2 se almacena en % APPDATA%\Microsoft\Outlook. Para obtener más información sobre el formato de archivo binario de la memoria caché de alias, vea [formato de archivo de Outlook 2003/2007 NK2 y las directrices del desarrollador](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+Para Outlook 2007, la secuencia de Autocompletar se almacena en un archivo con el mismo nombre que el perfil y una extensión. nk2. Por ejemplo, si se usa el perfil predeterminado de "outlook", el archivo se llamará "outlook.nk2". El archivo. nk2 se almacena en % APPDATA%\Microsoft\Outlook. Para obtener más información sobre el formato de archivo binario de la memoria caché de alias, vea [formato de archivo de Outlook 2003/2007 NK2 y las directrices del desarrollador](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
  **Outlook 2010 y Outlook 2013**
   
@@ -75,7 +75,7 @@ Guardar los cambios a los datos de Autocompletar implica la escritura de la estr
     
 - Sólo modificar las propiedades de los tipos que están en el conjunto de filas de la secuencia de Autocompletar. Para obtener más información acerca de las propiedades de la secuencia de Autocompletar y tipos de propiedades, vea [secuencia de Autocompletar](autocomplete-stream.md).
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -84,5 +84,5 @@ Guardar los cambios a los datos de Autocompletar implica la escritura de la estr
 [Perfiles de MAPI](mapi-profiles.md)
 
 
-[Formato de archivo de Outlook 2003/2007 NK2 y directrices para desarrolladores](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Formato de archivo de Outlook 2003/2007 NK2 y directrices para desarrolladores](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

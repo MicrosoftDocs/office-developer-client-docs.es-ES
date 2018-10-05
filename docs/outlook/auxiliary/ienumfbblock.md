@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
-ms.openlocfilehash: 536c19aa314db9fca39298536c12464e71a71407
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b37aa2000218acc0663ee8e2db12f01b93c0663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816101"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388192"
 ---
 # <a name="ienumfbblock"></a>IEnumFBBlock
 
@@ -21,7 +21,7 @@ Admite acceso y enumerar los bloques de disponibilidad de datos para un usuario 
 
 |||
 |:-----|:-----|
-|Hereda de:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hereda de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Suministrado por:  <br/> |Proveedor de libre/ocupado  <br/> |
 |Identificador de interfaz:  <br/> |**IEnumFBBlock** <br/> |
    

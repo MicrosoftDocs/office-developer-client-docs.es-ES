@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Obtenga información sobre el nuevo formato de archivo en Visio 2013, explore algunos conceptos de alto nivel para trabajar mediante programación con el formato de archivo de Visio 2013 y crear una aplicación de consola sencilla que examina un archivo de Visio 2013.
-ms.openlocfilehash: aa3497af7c467c8f51ab80ab82071776568b4978
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efa90ee513def005653f4f8717b0149de1cdc3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822348"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389368"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Introducción al formato de archivo de Visio (.vsdx)
 
@@ -50,7 +50,7 @@ Hay varios tipos de archivo, por extensión, que conforman el formato de archivo
 El formato de archivo de Visio 2013 usa Open albarán Conventions (OPC), que define un medio estructurado para almacenar datos de la aplicación con los recursos relacionados con un contenedor de algunos sort─for ejemplo, un archivo ZIP. En un nivel básico, un archivo de Visio 2013 es en realidad un contenedor ZIP que contiene otros tipos de archivos. De hecho, puede guardar un dibujo de Visio 2013 como un archivo .vsdx, cambie el nombre de la extensión de archivo a "\*.zip" en el Explorador de Windows y, a continuación, abra el archivo como una carpeta para ver el contenido dentro de.
   
 > [!NOTE]
->  Este artículo contiene sólo una breve introducción a las convenciones de empaquetado abierto. Puede encontrar más detallada de la cobertura de las convenciones de otros artículos: > para obtener más información acerca de las convenciones de empaquetado abierto a sí mismos, vea [OPC: nuevo estándar para empaquetar sus datos](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > Para obtener más información acerca de las convenciones de empaquetado abierto y su uso en archivos de Microsoft Office, vea [aspectos básicos de las convenciones de empaquetado abierto](http://msdn.microsoft.com/en-us/library/ee361919.aspx) y [presentación de los formatos de archivo XML abiertos de Office (2007)](http://msdn.microsoft.com/en-us/library/aa338205.aspx). 
+>  Este artículo contiene sólo una breve introducción a las convenciones de empaquetado abierto. Puede encontrar más detallada de la cobertura de las convenciones de otros artículos: > para obtener más información acerca de las convenciones de empaquetado abierto a sí mismos, vea [OPC: nuevo estándar para empaquetar sus datos](https://msdn.microsoft.com/magazine/cc163372.aspx). > Para obtener más información acerca de las convenciones de empaquetado abierto y su uso en archivos de Microsoft Office, vea [aspectos básicos de las convenciones de empaquetado abierto](https://msdn.microsoft.com/library/ee361919.aspx) y [presentación de los formatos de archivo XML abiertos de Office (2007)](https://msdn.microsoft.com/library/aa338205.aspx). 
   
 ### <a name="packages-and-package-parts"></a>Paquetes y elementos del paquete
 
@@ -134,7 +134,7 @@ Sin embargo, tenga un aspecto similar al siguiente código en el archivo de Visi
 ## <a name="developer-scenarios-for-working-with-the-visio-2013-file-format"></a>Escenarios de desarrollador para trabajar con el formato de archivo de Visio 2013
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-Como se explicó anteriormente, el formato de archivo de Visio 2013 aprovecha varias tecnologías bien conocidas como archivos ZIP y XML para almacenar datos. Para manipular un dibujo en el nivel de archivo de Visio 2013, una solución sólo tiene que usar los espacios de nombres de .NET Framework y las clases asociadas a trabajar con archivos ZIP o XML, como [System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx) o [System.Xml](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx).
+Como se explicó anteriormente, el formato de archivo de Visio 2013 aprovecha varias tecnologías bien conocidas como archivos ZIP y XML para almacenar datos. Para manipular un dibujo en el nivel de archivo de Visio 2013, una solución sólo tiene que usar los espacios de nombres de .NET Framework y las clases asociadas a trabajar con archivos ZIP o XML, como [System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx) o [System.Xml](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx).
   
 La ventaja clave para los programadores del formato de archivo de Visio 2013 es que puedan leer y escribir en los archivos de Visio 2013 sin automatización de la aplicación de cliente de Visio. Algunos escenarios que pueden considerar como un desarrollador para trabajar con formato de archivo de Visio 2013 incluyen:
   
@@ -284,12 +284,12 @@ En el código de ejemplo siguiente, se puede ver cómo abrir un archivo .vsdx, l
 
 Para obtener más información sobre el formato de archivo de Visio 2013, las convenciones de empaquetado abierto o cómo trabajar con archivos de Visio 2013or Office OpenXML mediante programación, vea los siguientes recursos:
   
-- [Visio para desarrolladores](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio para desarrolladores](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC: nuevo estándar para empaquetar sus datos](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx).
+- [OPC: nuevo estándar para empaquetar sus datos](https://msdn.microsoft.com/magazine/cc163372.aspx).
     
-- [Aspectos básicos de las convenciones de empaquetado abierto](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [Aspectos básicos de las convenciones de empaquetado abierto](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Introducción a los formatos de archivo de Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [Introducción a los formatos de archivo de Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 49ed8669a5496524917c15ac86e4a13060931057
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 073a76766a296d86e7a23809921b832d494a8f1b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578573"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384839"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cierra el formulario.
   
@@ -65,19 +65,19 @@ E_UNEXPECTED
 
 Visores de formulario llamar al método **IMAPIForm::ShutdownForm** para cerrar un formulario. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Realizar las siguientes tareas en su implementación de **ShutdownForm**:
   
 1. Comprobar que un visor ya no llamado **ShutdownForm**y devolver E_UNEXPECTED si lo tiene. Aunque es poco probable, se debe comprobar.
     
-2. Llamar al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) de su formulario para que el almacenamiento de información para el formulario y las estructuras de datos internos permanecen disponibles hasta que haya terminado el procesamiento. 
+2. Llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de su formulario para que el almacenamiento de información para el formulario y las estructuras de datos internos permanecen disponibles hasta que haya terminado el procesamiento. 
     
 3. Determinar si hay cambios no guardados para los datos del formulario. Guarde los datos no guardados según cómo se establece el parámetro _ulSaveOptions_ al llamar al método de [IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md) del Visor. 
     
 4. Destruir la ventana de interfaz de usuario de su formulario.
     
-5. Liberar el formulario mensaje y objetos de sitio de mensaje llamando a sus métodos [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . 
+5. Liberar el formulario mensaje y objetos de sitio de mensaje llamando a sus métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . 
     
 6. Notificar a todos los visores del cierre pendiente llamando a sus métodos [IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md) . 
     
@@ -90,13 +90,13 @@ Realizar las siguientes tareas en su implementación de **ShutdownForm**:
 10. Devuelve S_OK.
     
 > [!NOTE]
-> Después de que se hayan completado estas acciones, los métodos solo es válidos en el objeto de formulario que se puede llamar son los de la interfaz [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) . 
+> Después de que se hayan completado estas acciones, los métodos solo es válidos en el objeto de formulario que se puede llamar son los de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 Cuando se devuelve **ShutdownForm** , independientemente de si devuelve un error, la versión del formulario llamando a su método **IUnknown:: Release** . Puede omitir sin ningún riesgo los errores devueltos por **ShutdownForm**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

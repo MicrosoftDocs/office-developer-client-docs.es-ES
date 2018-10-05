@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Para ayudar a los clientes obtener el máximo partido de Project Online y mejorar nuestros extensibilidad de servicio y flexibilidad, hemos agregado dos métodos para el modelo de objetos de cliente que pueden usar los flujos de trabajo y aplicaciones de Project Online.
-ms.openlocfilehash: 4f8fee5de5efb69f410b78e9ce93b9dc9bb133f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821319"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386162"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Actualización en masa de los campos personalizados y crear sitios de proyecto desde un flujo de trabajo en Project Online
 
@@ -25,7 +25,7 @@ Para ayudar a los clientes obtener el máximo partido de Project Online y mejora
 Además de proporcionar más flexibilidad, estos métodos también ofrecen importantes mejoras de rendimiento al guardar y publicar proyectos en un flujo de trabajo. En este artículo se describe cómo utilizar los métodos de la API de REST y proporciona instrucciones para crear un flujo de trabajo que los campos personalizados de forma masiva actualizaciones y un flujo de trabajo que se crea un sitio de proyecto.
   
 > [!NOTE]
-> Para obtener más información sobre cómo llamar a las API de REST de los flujos de trabajo de SharePoint 2013, vea [uso de REST de SharePoint services de flujo de trabajo con el método POST](http://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) y [llamar a la API de Rest de SharePoint 2013 desde un flujo de trabajo de SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
+> Para obtener más información sobre cómo llamar a las API de REST de los flujos de trabajo de SharePoint 2013, vea [uso de REST de SharePoint services de flujo de trabajo con el método POST](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) y [llamar a la API de Rest de SharePoint 2013 desde un flujo de trabajo de SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
   
 ## <a name="bulk-update-project-custom-fields-from-a-workflow"></a>Proyecto de campos personalizados de un flujo de trabajo para la actualización masiva
 <a name="BulkUpdateCustomFields"> </a>
@@ -219,6 +219,6 @@ Hemos agregado el método **CreateProjectSite** para que pueda elegir cuándo se
 
 - [Tareas de programación de Project](project-programming-tasks.md)
 - [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md)
-- [Flujos de trabajo en SharePoint 2013](http://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
+- [Flujos de trabajo en SharePoint 2013](https://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
     
 

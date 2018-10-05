@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: Los comandos de menú para agregar funciones de controlador de eventos de un proyecto de plantilla de formulario que sea compatible con el modelo de objetos de InfoPath 2003 esencialmente son los mismos que los de otros tipos de plantillas de formulario.
-ms.openlocfilehash: 9f037c59180b9c8d858ec73d79ef892974efe483
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815880"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386708"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Agregar un controlador de eventos con el modelo de objetos de InfoPath
 
@@ -91,7 +91,7 @@ En el ejemplo siguiente se muestra cómo agregar un controlador de eventos para 
   
 ```xml
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema">
     <xsd:element name="catalog">
         <xsd:complexType>
             <xsd:sequence>

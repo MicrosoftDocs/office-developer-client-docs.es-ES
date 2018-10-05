@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f403890d-4a3a-bacc-53d7-1b9920b23639
 description: Cada uno de los objetos de Microsoft Visio (documentos, páginas, estilos, formas, grupos, formas u objetos de un grupo, patrones, objetos de otros programas, guías y puntos de guía) tiene una hoja de cálculo ShapeSheet asociada en la que se almacena información acerca del objeto. Esta hoja de cálculo contiene información tal como el alto, ancho, ángulo, color y otros atributos que determinan la apariencia y el comportamiento de la forma.
-ms.openlocfilehash: f443a596174ac4a555d53a271372e73367197da0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37b2ae10b1f511197af5ccf739de91edb74e7819
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821490"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389354"
 ---
 # <a name="about-the-shapesheet-spreadsheet"></a>Información sobre la hoja de cálculo ShapeSheet
 
@@ -36,13 +36,13 @@ Puede visualizar simultáneamente la ventana ShapeSheet y la ventana de dibujo p
 
 Una hoja ShapeSheet se divide en *las secciones* que controlan un aspecto determinado del comportamiento de una forma o la apariencia, por ejemplo, su geometría o su formato. Cada sección contiene una o varias *filas* que contienen *las celdas* . Cada celda puede contener una fórmula, su resultado (normalmente denominado valor de la celda) y la información de error opcional. Una fórmula puede ser obligatorio u opcional, dependiendo de la celda concreta. Los datos de una celda (por ejemplo, su fórmula o valor) es posible que se definidos localmente o, más a menudo, se hereda de la celda equivalente de la forma patrón o estilo. 
   
-El ejemplo siguiente muestra la barra de fórmulas ![Número 1](media/callout1_ZA01036259.gif), una sección ![Número 2](media/callout2_ZA01036260.gif), una celda ![Número 3](media/callout3_ZA01036261.gif)y una fila ![Número 4](media/callout4_ZA01036262.gif) en la ventana ShapeSheet. 
+El ejemplo siguiente muestra la barra de fórmulas ![barra de fórmulas](media/callout1_ZA01036259.gif), una sección ![sección](media/callout2_ZA01036260.gif), una celda ![celda](media/callout3_ZA01036261.gif)y una fila ![row](media/callout4_ZA01036262.gif) en la ventana ShapeSheet. 
   
-![](media/ShpSheetRef_CA_02a_ZA07645861.gif)
+![Ventana ShapeSheet](media/ShpSheetRef_CA_02a_ZA07645861.gif)
   
 Cuando se dibuja una forma, Visio registra la forma como una colección de ubicaciones horizontales y verticales conectados con segmentos de línea. Estas ubicaciones (llamadas vértices) se registran en las celdas X e Y de la sección de **geometría** de la forma. Tal como se muestra en el siguiente ejemplo, al hacer clic en las celdas X e Y en la sección de **geometría** de la ventana ShapeSheet de una forma, podrá ver un cuadro con borde negro que resalta el vértice de la forma en la ventana de dibujo. 
   
-![](media/ShpSheetRef_CA_01_ZA07645860.gif)
+![Cuadro con borde negro que resalta el vértice de la forma en la ventana de dibujo](media/ShpSheetRef_CA_01_ZA07645860.gif)
   
 ## <a name="editing-an-object-in-the-shapesheet-window"></a>Editar un objeto en la ventana ShapeSheet
 

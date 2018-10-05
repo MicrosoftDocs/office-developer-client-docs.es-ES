@@ -8,19 +8,19 @@ api_type:
 - COM
 ms.assetid: 53b65299-69f8-4fc0-8d9b-f666e814aaac
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cd279c17574ce73b42d5e07e96ac817af71dc700
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87310916f4a54b308f0599ec5c1a4a3bfe83c376
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388424"
 ---
 # <a name="initializing-ole-for-mapi"></a>Inicializar OLE para MAPI
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Si también utiliza OLE, llame a la función OLE [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) para inicializar las bibliotecas OLE. **OleInitialize** inicializa datos globales para la sesión y prepara las bibliotecas OLE para aceptar llamadas. Para obtener información acerca de la llamada **OleInitialize**, vea el SDK de Windows.
+Si también utiliza OLE, llame a la función OLE [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) para inicializar las bibliotecas OLE. **OleInitialize** inicializa datos globales para la sesión y prepara las bibliotecas OLE para aceptar llamadas. Para obtener información acerca de la llamada **OleInitialize**, vea el SDK de Windows.
   
 

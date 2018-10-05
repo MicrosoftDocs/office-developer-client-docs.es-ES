@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 description: Contiene el id. de la imagen de botón que aparece en el botón de etiqueta de acción.
-ms.openlocfilehash: ca6be0a95b33e173219f4bdc1ba042c7162941b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74b3281d894cebd8491112181198d427f0d337f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821692"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385483"
 ---
 # <a name="buttonface-cell-action-tags-section"></a>Celda ButtonFace (sección Etiquetas de acción)
 
@@ -25,7 +25,7 @@ Contiene el id. de la imagen de botón que aparece en el botón de etiqueta de a
   
 ## <a name="remarks"></a>Comentarios
 
-La cadena de la celda ButtonFace representa el identificador de una imagen de botón de Microsoft Office. Un valor de 0 (cero) o en blanco el valor predeterminado es el botón de información "i" de etiquetas de acción estándar ![](media/InfoPS_ZA10180114.gif).
+La cadena de la celda ButtonFace representa el id. de una imagen de botón de Microsoft Office. Si el valor es 0 (cero) o si no hay ningún valor, se aplica la forma predeterminada del botón de información "i" estándar de etiquetas de acción ![Botón de información "i" de etiquetas de acción estándar](media/InfoPS_ZA10180114.gif).
   
 Los identificadores que pueden usarse en la celda ButtonFace son los mismos que los identificadores que se utiliza con la propiedad **FaceID** de un objeto **CommandBarButton** . Para obtener más detalles acerca de estos identificadores, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
   

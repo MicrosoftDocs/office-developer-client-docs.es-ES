@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página.
-ms.openlocfilehash: 67ddbf633a93a8295667d10d8957828ff4c76bfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388913"
 ---
 # <a name="row-element-actions-section-visio-xml"></a>Elemento Row (sección de acciones) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene filas que describen los elementos de menú en un menú contextual o de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Masters.XML, maestra # .xml, pages.xml, página # .xml  <br/> |
    

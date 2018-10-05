@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso.
-ms.openlocfilehash: dbcf8d111ab86671fb2aeb073d2a13f40810f941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12c36b009b019592ae48d24a0e16c3edcd6110e3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821716"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382970"
 ---
 # <a name="cell-element-moveto-row-visio-xml"></a>Elemento de celda (fila MoveTo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y del primer vértice de una forma o representa las
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Devuelve un valor con formato según un patrón especificado.
-ms.openlocfilehash: 974b56ab8e6bc3f97c1931ba67ca9cd08c3511c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1739f87fd6e77c91aa66a64c0b7520fa6a641e95
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815353"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387800"
 ---
 # <a name="format-function-access-custom-web-app"></a>Función Format (aplicación web personalizada de Access)
 
@@ -36,13 +36,13 @@ La función **Format** contiene los siguientes argumentos.
 
 Para el parámetro  *Formato*  , puede pasar las cadenas que coincidan con cualquiera de los siguientes patrones: 
   
-- [Cadenas de formato numérico estándar](http://msdn.microsoft.com/es-ES/library/dwhawy9k%28v=vs.110%29.aspx)
+- [Cadenas de formato numérico estándar](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [Cadenas de formato numérico personalizado](http://msdn.microsoft.com/es-ES/library/0c899ak8%28v=vs.110%29.aspx)
+- [Cadenas de formato numérico personalizado](https://msdn.microsoft.com/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [Cadenas de formato de fecha y hora estándar](http://msdn.microsoft.com/es-ES/library/az4se3k1%28v=vs.110%29.aspx)
+- [Cadenas de formato de fecha y hora estándar](https://msdn.microsoft.com/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [Cadenas de formato de fecha y hora personalizado](http://msdn.microsoft.com/es-ES/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [Cadenas de formato de fecha y hora personalizado](https://msdn.microsoft.com/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 No puede usar la función **Formato** en las siguientes áreas de las aplicaciones web de Access 2013: 
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
 description: Define una regla que se compara una columna en el elemento de DataRecordset primario con un elemento de datos de formas de la última correcta automática vinculación acción realizada en la interfaz de usuario.
-ms.openlocfilehash: 38970a84676f769c36c9bdc3f8334652f7d9ec21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 474acc4c1d259621881ea498decfeaf18b69809e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821554"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385721"
 ---
 # <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Elemento de AutoLinkComparison (DataRecordSet_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Define una regla que se compara una columna en el elemento de **DataRecordset** 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Recordsets.Xml  <br/> |
    

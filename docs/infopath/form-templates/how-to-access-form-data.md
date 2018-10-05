@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Si desea ampliar la funcionalidad de un formulario de InfoPath, con frecuencia es preciso tener acceso mediante programación a la información sobre el documento XML subyacente del formulario, tener acceso a los datos contenidos en dicho documento o realizar alguna acción en él. El modelo de objetos de InfoPath permite obtener acceso al documento XML subyacente de un formulario y manipularlo utilizando la clase XmlForm en asociación con la clase XmlFormCollection .
-ms.openlocfilehash: c39862fd404575fe95bc1986ce7ab7d9689acfb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815903"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386834"
 ---
 # <a name="access-form-data"></a>Obtener acceso a datos de formularios
 
@@ -62,7 +62,7 @@ La clase [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.
 |[DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) (propiedad)  <br/> |Obtiene el objeto [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) asociado al formulario.  <br/> |
 |[Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx) (propiedad)  <br/> |Obtiene un valor que indica si los datos de un formulario han sido modificados desde la última vez que se guardó.  <br/> |
 |[Errores](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) (propiedad)  <br/> |Obtiene una referencia a la [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) que está asociada con un formulario.  <br/> |
-|[Extensión](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) (propiedad)  <br/> |Obtiene un [objeto System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) para obtener acceso a las funciones y variables globales contenidas en el archivo de código del formulario principal de un formulario mediante [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).  <br/> |
+|[Extensión](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) (propiedad)  <br/> |Obtiene un [objeto System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) para obtener acceso a las funciones y variables globales contenidas en el archivo de código del formulario principal de un formulario mediante [System.Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
 |Propiedad [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Obtiene una referencia a una bolsa de propiedades de tipo [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) que los formularios compatibles con exploradores pueden usar para conservar la información de estado de distintas sesiones en el servidor.  <br/> |
 |[Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx) (propiedad)  <br/> |Obtiene un objeto [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) que puede usar el código que se ejecuta en una instancia hospedada de InfoPath para tener acceso al modelo de objetos de la aplicación de hospedaje.  <br/> |
 |[Hospedado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx) (propiedad)  <br/> |Obtiene información sobre si InfoPath está hospedada como control en otra aplicación.  <br/> |

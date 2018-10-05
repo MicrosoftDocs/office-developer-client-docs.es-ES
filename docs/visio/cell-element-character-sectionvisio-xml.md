@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Especifica un atributo de formato para la ejecución de texto de una forma, como fuente, color, estilo, caso, posición relativa a la línea base o tamaño en puntos.
-ms.openlocfilehash: 0d0725ec6ff19104d95780dcfbb3fff9715cbe92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821706"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384251"
 ---
 # <a name="cell-element-character-section-visio-xml"></a>Elemento de celda (sección Character) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica un atributo de formato para la ejecución de texto de una forma, como
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, master # .xml, # .xml de página  <br/> |
    
@@ -69,15 +69,15 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |AsianFont  <br/> |Contiene la enumeración de la fuente empleada para dar formato a un segmento que contiene caracteres asiáticos de texto.  <br/> |[Celda AsianFont (Sección de caracteres)](asianfont-cell-character-section.md) <br/> |
 |Case  <br/> |Determina el caso de ejecución de texto de una forma.  <br/> |[Celda Case (Sección de caracteres)](case-cell-character-section.md) <br/> |
 |Color  <br/> |Determina el color utilizado para la ejecución de texto de una forma.  <br/> |[Celda Color (Sección de caracteres)](color-cell-character-section.md) <br/> |
-|ColorTrans  <br/> |Determina el grado de transparencia de una capa o texto de la forma que se ejecute el color, desde 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguno.  <br/> |
+|ColorTrans  <br/> |Determina el grado de transparencia de una capa o texto de la forma que se ejecute el color, desde 0 (completamente opaco) a 1 (completamente transparente).  <br/> |Ninguna.  <br/> |
 |ComplexScriptFont  <br/> |Contiene el número de la fuente empleada para dar formato a un texto ejecutar compuesta por caracteres de un alfabeto complejo.  <br/> |[Celda ComplexScriptFont (Sección de caracteres)](complexscriptfont-cell-character-section.md) <br/> |
 |ComplexScriptSize  <br/> |El tamaño de la fuente empleada para dar formato a un texto ejecute compuesta por caracteres de un alfabeto complejo.  <br/> |[Celda ComplexScriptSize (Sección de caracteres)](complexscriptsize-cell-character-section.md) <br/> |
 |DblUnderline  <br/> |Determina si el intervalo de un segmento de texto tiene doble subrayado.  <br/> |[Celda DoubleULine (Sección de caracteres)](doubleuline-cell-character-section.md) <br/> |
 |DoubleStrikethrough  <br/> |Determina si un segmento de texto tiene el formato de tachado doble.  <br/> |[Celda DoubleStrikethrough (Sección de caracteres)](doublestrikethrough-cell-character-section.md) <br/> |
 |Font  <br/> |Representa el número de la fuente empleada para dar formato a un segmento de texto.  <br/> |[Celda Font (Sección de caracteres)](font-cell-character-section.md) <br/> |
-|FontScale  <br/> |Especifica el ancho de la fuente.  <br/> |Ninguno.  <br/> |
+|FontScale  <br/> |Especifica el ancho de la fuente.  <br/> |Ninguna.  <br/> |
 |LangID  <br/> |Indica el idioma en el que se ha escrito una ejecución de texto.  <br/> |[Celda LangID (Sección de caracteres)](langid-cell-character-section.md) <br/> |
-|Letterspace  <br/> |Especifica la cantidad de espacio entre dos o más caracteres. Espacio puede sumar o restar en incrementos de 1/20 de punto.  <br/> |Ninguno.  <br/> |
+|Letterspace  <br/> |Especifica la cantidad de espacio entre dos o más caracteres. Espacio puede sumar o restar en incrementos de 1/20 de punto.  <br/> |Ninguna.  <br/> |
 |Overline  <br/> |Determina si un segmento de texto tiene una línea encima.  <br/> |[Celda Overline (Sección de caracteres)](overline-cell-character-section.md) <br/> |
 |POS  <br/> |Determina la posición del texto de una forma ejecutar con respecto a la línea base.  <br/> |[Celda Pos (Sección de caracteres)](pos-cell-character-section.md) <br/> |
 |Size  <br/> |Determina el tamaño de un segmento de bloque de texto de la forma de texto.  <br/> |[Celda Size (Sección de caracteres)](size-cell-character-section.md) <br/> |

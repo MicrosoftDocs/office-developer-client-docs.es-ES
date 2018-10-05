@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 'Última modificación: 01 de febrero de 2013'
-ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5c1daf44f89d1ef8aa7472d69dfd7e86bbb92f6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564783"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388003"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Información general de la referencia MAPI de Outlook
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema se proporciona información general sobre la documentación de referencia de MAPI de Outlook 2013.
   
@@ -32,7 +32,7 @@ Anteriores a Microsoft Office Outlook 2007, referencia del programador de MAPI f
   
 La implementación de Outlook de MAPI difiere de la implementación de Microsoft Exchange. La implementación de Outlook está optimizada para que se ejecutan en los equipos cliente y enfatiza baja latencia. La implementación de Exchange está pensada para los servidores donde una alta disponibilidad y mejor multithreading son importantes.
   
-Utilice esta documentación para aplicaciones que se ejecutan en sistemas de usuario final. Para aplicaciones de servidor, use la implementación de Exchange de MAPI si es necesario o usar las API de Exchange actual, como los servicios Web Exchange. Para obtener más información sobre los servicios Web Exchange, vea la [Referencia de servicios Web de Exchange](http://msdn.microsoft.com/en-us/library/bb204119.aspx).
+Utilice esta documentación para aplicaciones que se ejecutan en sistemas de usuario final. Para aplicaciones de servidor, use la implementación de Exchange de MAPI si es necesario o usar las API de Exchange actual, como los servicios Web Exchange. Para obtener más información sobre los servicios Web Exchange, vea la [Referencia de servicios Web de Exchange](https://msdn.microsoft.com/library/bb204119.aspx).
   
 Es posible escribir aplicaciones que funcionan con las implementaciones de Outlook ni en Exchange de MAPI. Por ejemplo, MFCMAPI funciona bien en cualquier plataforma. Las implementaciones tienen muchas características comunes, pero existen diferencias sutiles y evidente. Debe probar detenidamente en ambas plataformas, si tiene intención de su aplicación para que funcionen en todos los entornos. Esta prueba requiere dos sistemas porque no se admite la ejecución de ambas implementaciones en la misma instalación de sistema operativo.
   
@@ -46,7 +46,7 @@ Para obtener información acerca de cuáles son las novedades de esta edición, 
     
 Si está familiarizado con desarrollo de aplicaciones de MAPI para Outlook, vea los temas siguientes:
   
-- [Seleccionar una API o tecnología para desarrollar soluciones para Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [Seleccionar una API o tecnología para desarrollar soluciones para Outlook 2013](https://msdn.microsoft.com/library/jj900714.aspx)
     
 - [Archivos de encabezado de uso frecuente](commonly-used-header-files.md)
     
@@ -62,7 +62,7 @@ El resto de esta referencia se clasifica en los siguientes tres tipos de informa
     
 - [Referencia de la MAPI](mapi-reference.md) - proporciona información detallada sobre las funciones, interfaces, estructuras y las propiedades de MAPI. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Ejemplos de MAPI](mapi-samples.md)

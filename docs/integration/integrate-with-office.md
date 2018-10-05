@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: Puede integrarse con Office para iOS, Office para Android, Office Online y Excel, PowerPoint o Word Mobile desde sus aplicaciones y experiencias basadas en web, permitir que los usuarios realicen una transición sin problemas para trabajar en aplicaciones Office desde soluciones de terceros.
-ms.openlocfilehash: cbd66c9ea6427826a2c043cdb4660f5d3c481efe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3656e458857124430949a515f2f517fca7cad23b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388290"
 ---
 # <a name="integrate-with-office"></a>Integración con Office
 
@@ -19,7 +19,7 @@ Puede integrarse con Office para iOS, Office para Android, Office Online y Excel
   
 Universal Office, Office para iPad, Office para iPhone y Office para tabletas Android se pueden integrar de forma nativa con proveedores de almacenamiento en la nube de terceros. Puede realizar una integración con Office desde las aplicaciones para permitir a los usuarios abrir, editar y guardar documentos en Excel, OneNote, PowerPoint o Word.
   
-Si usted es un proveedor de almacenamiento en la nube, puede registrarse en nuestro [programa para asociados](http://dev.office.com/programs/officecloudstorage) para realizar una integración con las aplicaciones de Office Online que permita a los usuarios ver y editar documentos de Excel, PowerPoint y Word en cualquier explorador web. 
+Si usted es un proveedor de almacenamiento en la nube, puede registrarse en nuestro [programa para asociados](https://developer.microsoft.com/office/cloud-storage-partner-program) para realizar una integración con las aplicaciones de Office Online que permita a los usuarios ver y editar documentos de Excel, PowerPoint y Word en cualquier explorador web. 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -37,9 +37,9 @@ Si usted es un proveedor de almacenamiento en la nube, puede registrarse en nues
     
 ## <a name="see-also"></a>Vea también
 
-- [Desarrollo del cliente Office](https://msdn.microsoft.com/es-ES/library/dn833103.aspx)
+- [Desarrollo del cliente Office](https://msdn.microsoft.com/library/dn833103.aspx)
     
-- [Desarrollo de Office](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
+- [Desarrollo de Office](https://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     
 - [Integración con Office Online](https://wopi.readthedocs.org/en/latest/)
     

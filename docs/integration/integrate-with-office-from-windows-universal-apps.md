@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Puede integrar aplicaciones de terceros de la plataforma de aplicaciones universales Windows con Excel Mobile, PowerPoint Mobile y Word Mobile. Las aplicaciones universales se integran con aplicaciones Office a través del contratos del selector de archivos de Windows, propiedades de Expando y contratos del Actualizador de archivos en caché.
-ms.openlocfilehash: 2c170fd55c9c6f10d348610ffbc75ffa86447529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815983"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388227"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Integrar con Office desde aplicaciones universales de Windows
 
-Puede integrar aplicaciones de terceros de la plataforma de aplicaciones universales Windows con Excel Mobile, PowerPoint Mobile y Word Mobile. Las aplicaciones universales se integran con aplicaciones Office a través del [contratos del selector de archivos](https://msdn.microsoft.com/es-ES/library/windows/apps/hh465174.aspx) de Windows, [propiedades de Expando](https://msdn.microsoft.com/es-ES/library/windows/apps/xaml/hh770655.aspx) y [contratos del Actualizador de archivos en caché](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
+Puede integrar aplicaciones de terceros de la plataforma de aplicaciones universales Windows con Excel Mobile, PowerPoint Mobile y Word Mobile. Las aplicaciones universales se integran con aplicaciones Office a través del [contratos del selector de archivos](https://msdn.microsoft.com/library/windows/apps/hh465174.aspx) de Windows, [propiedades de Expando](https://msdn.microsoft.com/library/windows/apps/xaml/hh770655.aspx) y [contratos del Actualizador de archivos en caché](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
   
 Al integrar la aplicación universal con Excel, PowerPoint o Word Mobile, los usuarios pueden abrir documentos Office que proporciona la aplicación, ya sea al buscar desde Office o cuando usan Windows para abrir archivos desde de la aplicación. También pueden guardar el archivo en la aplicación universal, que carga el archivo en su servicio.
   
@@ -23,13 +23,13 @@ Los archivos abiertos de este modo aparecen en la lista Recientes de Office, por
   
 Esta integración requiere que la aplicación universal:
     
-- Implemente [los contratos de selector de archivos](https://msdn.microsoft.com/es-ES/library/windows/apps/hh465174.aspx) de Windows.
+- Implemente [los contratos de selector de archivos](https://msdn.microsoft.com/library/windows/apps/hh465174.aspx) de Windows.
     
 - Represente un almacén de archivos (por ejemplo, una aplicación que permita tener acceso al almacenamiento en la nube).
     
 ## <a name="expando-properties"></a>Propiedades de Expando
 
-Las aplicaciones universales de Windows pueden usar propiedades de Expando para comunicar información adicional asociada a archivos. Para obtener información sobre cómo hacerlo en Windows, consulte "System.ExpandoProperties" en [StorageItemContentProperties.SavePropertiesAsync](https://msdn.microsoft.com/es-ES/library/windows/apps/xaml/hh770655.aspx).
+Las aplicaciones universales de Windows pueden usar propiedades de Expando para comunicar información adicional asociada a archivos. Para obtener información sobre cómo hacerlo en Windows, consulte "System.ExpandoProperties" en [StorageItemContentProperties.SavePropertiesAsync](https://msdn.microsoft.com/library/windows/apps/xaml/hh770655.aspx).
   
 La tabla siguiente describe las propiedades que la aplicación tiene que proporcionar a Office para habilitar escenarios de archivos abiertos. Si no se proporciona esta información, todos los archivos de la aplicación se abren como de solo lectura. Que los usuarios puedan abrir archivos para su edición depende del tipo de licencia de Office que tengan y del tipo de documento que estén intentando abrir.
   
@@ -63,7 +63,7 @@ public static async Task SetExpandoProperties(StorageFile file,... other params 
 
 ## <a name="cached-file-updater-contracts"></a>Contratos del Actualizador de archivos en caché
 
-Si la aplicación universal participa en los contratos del Actualizador de archivos en caché, se le notificarán los cambios realizados en el archivo por otra aplicación universal (como Office). Para obtener información sobre cómo hacerlo en Windows, consulte [clase CachedFileUpdater](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
+Si la aplicación universal participa en los contratos del Actualizador de archivos en caché, se le notificarán los cambios realizados en el archivo por otra aplicación universal (como Office). Para obtener información sobre cómo hacerlo en Windows, consulte [clase CachedFileUpdater](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
   
 Office usa la opción **AllowOnlyReaders** para abrir los archivos de lectura y escritura que proporciona su aplicación universal a través de los contratos del selector de archivos. Esto significa que otra aplicación no pueden mover, eliminar, cambiar el nombre ni escribir en el archivo, incluidas las suyas mientras el archivo está abierto en Office. Office guardará automáticamente el archivo, establece CachedFileManager.DeferUpdates para evitar la activación de la aplicación hasta que Office cierre el documento o Office suspenda Windows (cuando el usuario cambie a otra aplicación). Cuando Office cierre el archivo, la aplicación podrá escribir en él. 
   
@@ -73,9 +73,9 @@ En las tablas siguientes se enumeran los parámetros para configurar y controlar
   
 |**Parámetro**|**Descripción**|
 |:-----|:-----|
-|[ReadActivationMode](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Establezca **BeforeAccess** para permitir que la aplicación actualice el archivo antes de enviarlo a Office.  <br/> |
-|[WriteActivationMode](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Establezca **ReadOnly** para que el archivo sea de solo lectura. Establezca **AfterWrite** para asegurarse de que CacheFileUpdater activará la aplicación cuando Office acabe con el archivo.  <br/><br/>**NOTA**: Si no establece **AfterWrite**, no se notificará a la aplicación para que cargue los cambios, lo que significa que los cambios del usuario solo serán locales.           |
-|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Establezca esta propiedad para asegurarse de que la aplicación puede actualizar el archivo cuando un usuario tenga acceso a él desde la lista utilizados recientemente.  <br/> |
+|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Establezca **BeforeAccess** para permitir que la aplicación actualice el archivo antes de enviarlo a Office.  <br/> |
+|[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Establezca **ReadOnly** para que el archivo sea de solo lectura. Establezca **AfterWrite** para asegurarse de que CacheFileUpdater activará la aplicación cuando Office acabe con el archivo.  <br/><br/>**NOTA**: Si no establece **AfterWrite**, no se notificará a la aplicación para que cargue los cambios, lo que significa que los cambios del usuario solo serán locales.           |
+|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Establezca esta propiedad para asegurarse de que la aplicación puede actualizar el archivo cuando un usuario tenga acceso a él desde la lista utilizados recientemente.  <br/> |
    
 ## <a name="invoking-office-from-your-app"></a>Invocar a Office desde la aplicación
 
@@ -83,7 +83,7 @@ Cuando un usuario abre un documento de Office desde la aplicación, el documento
   
 Para abrir un archivo desde la aplicación en Office, le recomendamos que use **LaunchFileAsync()** para iniciar el archivo. No se recomienda utilizar **LaunchUriAsync()** para iniciar el archivo ya que hará que se inicie la aplicación registrada para el esquema URI (el explorador) en lugar de Office. Aunque **LaunchUriAsync()** con la opción **LauncherOptions.ContentType()** puede invocar a Office, en este caso el archivo abierto se marca como temporal y es de solo lectura en Office. 
   
-Para obtener más información, consulte [clase Iniciador](https://msdn.microsoft.com/es-ES/library/windows/apps/windows.system.launcher.aspx).
+Para obtener más información, consulte [clase Iniciador](https://msdn.microsoft.com/library/windows/apps/windows.system.launcher.aspx).
   
 ## <a name="temporary-and-read-only-files"></a>Archivos temporales y de solo lectura
 
@@ -91,7 +91,7 @@ Establezca el atributo **FILE_ATTRIBUTE_TEMPORARY** en los archivos temporales y
   
 Los archivos que tienen el conjunto de atributos **FILE_ATTRIBUTE_TEMPORARY** o **FILE_ATTRIBUTE_READONLY** se abren como de solo lectura en Office. **FILE_ATTRIBUTE_TEMPORARY** también impide que el archivo aparezca en la lista de utilizados recientemente. 
   
-Para obtener más información sobre los atributos de archivo, consulte [función SetFileAttributes](https://msdn.microsoft.com/es-ES/library/windows/desktop/aa365535%28v=vs.85%29.aspx).
+Para obtener más información sobre los atributos de archivo, consulte [función SetFileAttributes](https://msdn.microsoft.com/library/windows/desktop/aa365535%28v=vs.85%29.aspx).
   
 ## <a name="other-best-practices"></a>Otros procedimientos recomendados
 

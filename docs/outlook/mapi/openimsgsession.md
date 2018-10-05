@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 607105bd58a14a3510f1ae71246069440a4f05cb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564958"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389627"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea y se abre una sesión de mensajería que agrupa los mensajes creados dentro de él. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |IMessage.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [entrada] Puntero a un objeto del asignador de memoria exposición de la interfaz de OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . Debe usar este método de asignación al trabajar con la interfaz OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) MAPI. 
+> [entrada] Puntero a un objeto del asignador de memoria exposición de la interfaz de OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) . Debe usar este método de asignación al trabajar con la interfaz OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) MAPI. 
     
  _ulFlags_
   
@@ -81,6 +81,6 @@ Una sesión de mensajería realiza un seguimiento de todos los **IMessage**- en 
   
  **OpenIMsgSession** se usa en los clientes y proveedores que requieren la capacidad para manejar varios mensajes relacionados como objetos OLE **IStorage** . Si sólo hay un mensaje de este tipo esté abierto en un momento, no es necesario realizar un seguimiento de varios mensajes y no hay motivo para crear una sesión de mensajería con **OpenIMsgSession**. 
   
-Debido a que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y asignación de memoria OLE, vea [OLE y la transferencia de datos](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Debido a que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y asignación de memoria OLE, vea [OLE y la transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

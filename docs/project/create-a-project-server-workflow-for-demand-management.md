@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: En este artículo se describe cómo crear un flujo de trabajo simple mediante el uso de SharePoint Designer 2013.
-ms.openlocfilehash: d548cbc47585add2648396f4736e6ad36a00bcb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbefc5d30ccb508a24c32fe41e733e6e8187ecd9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821324"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388304"
 ---
 # <a name="create-a-project-server-workflow-for-demand-management"></a>Crear un flujo de trabajo de Project Server para la administración de propuestas
 
-En este artículo se describe cómo crear un flujo de trabajo simple mediante el uso de SharePoint Designer 2013. Puede exportar el flujo de trabajo a Visio 2013 para la visualización y edición, o usar Visio 2013 para los flujos de trabajo de Project Server 2013 de diseño e importar el diseño en SharePoint Designer 2013 publicación para Project Web App. Para obtener más información acerca de la plataforma de flujo de trabajo de SharePoint y la creación de flujos de trabajo con Visio 2013 y SharePoint Designer 2013, vea los artículos de [flujos de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx) en la documentación para desarrolladores de SharePoint 2013. 
+En este artículo se describe cómo crear un flujo de trabajo simple mediante el uso de SharePoint Designer 2013. Puede exportar el flujo de trabajo a Visio 2013 para la visualización y edición, o usar Visio 2013 para los flujos de trabajo de Project Server 2013 de diseño e importar el diseño en SharePoint Designer 2013 publicación para Project Web App. Para obtener más información acerca de la plataforma de flujo de trabajo de SharePoint y la creación de flujos de trabajo con Visio 2013 y SharePoint Designer 2013, vea los artículos de [flujos de trabajo en SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx) en la documentación para desarrolladores de SharePoint 2013. 
   
-Para obtener información sobre la preparación de Project Server para flujos de trabajo, consulte [iniciar: establecer seguridad y configuración del Administrador de flujo de trabajo de SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx).
+Para obtener información sobre la preparación de Project Server para flujos de trabajo, consulte [iniciar: establecer seguridad y configuración del Administrador de flujo de trabajo de SharePoint 2013](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx).
 
 <a name="pj15_CreateWorkflowSPD_General"> </a>
 
@@ -67,7 +67,7 @@ Para obtener instrucciones detalladas, vea la sección [creación de un flujo de
 
 ## <a name="creating-a-branching-workflow"></a>Crear un flujo de trabajo de bifurcación
 
-Antes de que puede usar SharePoint Designer 2013 para crear un flujo de trabajo de Project Server, el servicio 1.0 de cliente del Administrador de flujo de trabajo debe configurarse para usar las actividades de flujo de trabajo de Project Server 2013. Para obtener información acerca de cómo configurar el flujo de trabajo de administrador de Client 1.0, vea los artículos de [flujos de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx) en la documentación para desarrolladores de SharePoint Server 2013. 
+Antes de que puede usar SharePoint Designer 2013 para crear un flujo de trabajo de Project Server, el servicio 1.0 de cliente del Administrador de flujo de trabajo debe configurarse para usar las actividades de flujo de trabajo de Project Server 2013. Para obtener información acerca de cómo configurar el flujo de trabajo de administrador de Client 1.0, vea los artículos de [flujos de trabajo en SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx) en la documentación para desarrolladores de SharePoint Server 2013. 
   
 El siguiente procedimiento detallado incluye los mismos pasos que en la sección [creación de un flujo de trabajo general](#pj15_CreateWorkflowSPD_General) . 
   
@@ -77,7 +77,7 @@ El siguiente procedimiento detallado incluye los mismos pasos que en la sección
 
 Un flujo de trabajo de Project Server se puede integrar con varias etapas y fases de un proceso de administración de propuestas. Debido a que los flujos de trabajo pueden ser complicadas, debe comprender los requisitos de negocio y planear cuidadosamente un flujo de trabajo. Para obtener un ejemplo simple, diseñar un flujo de trabajo de bifurcación que utiliza el costo estimado de una propuesta de proyecto para determinar si se acepta la propuesta. Si el costo estimado es mayor que $ 25.000, rechazar la propuesta; de lo contrario, acepte la propuesta y crear el proyecto.
     
-Debido a que puede usar Visio 2013 y SharePoint Designer 2013 para ayudarle a diseñar y crear flujos de trabajo de Project Server 2013, puede experimentar más fácilmente con los flujos de trabajo que es posible con Project Server 2010. El diseño de flujo de trabajo de ejemplo en este artículo es la misma que en el artículo [crear un flujo de trabajo de bifurcación](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) en el SDK de Project 2010. Puede diseñar y crear un flujo de trabajo de prueba en un equipo remoto mediante una instancia de prueba de Project Web App: no es necesario que crear flujos de trabajo directamente en un equipo de Project Server 2013. 
+Debido a que puede usar Visio 2013 y SharePoint Designer 2013 para ayudarle a diseñar y crear flujos de trabajo de Project Server 2013, puede experimentar más fácilmente con los flujos de trabajo que es posible con Project Server 2010. El diseño de flujo de trabajo de ejemplo en este artículo es la misma que en el artículo [crear un flujo de trabajo de bifurcación](https://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) en el SDK de Project 2010. Puede diseñar y crear un flujo de trabajo de prueba en un equipo remoto mediante una instancia de prueba de Project Web App: no es necesario que crear flujos de trabajo directamente en un equipo de Project Server 2013. 
     
 #### <a name="2-create-the-entities-that-your-workflow-requires"></a>2. Cree las entidades que requiere el flujo de trabajo.
 
@@ -138,7 +138,7 @@ En Project Web App, revise las fases de flujo de trabajo disponibles y las fases
 
 En SharePoint Designer 2013, construya el flujo de trabajo mediante el uso de instrucciones declarativas en el diseñador basado en texto. Puede comenzar a escribir en la línea de inserción naranja para obtener instrucciones de autocompletado sensible al contexto para la lógica de flujo de trabajo y los pasos, o puede insertar la lógica y los pasos mediante el uso de controles en el grupo **Insertar** en la ficha **flujo de trabajo** de la cinta de opciones. 
     
-1. En la vista Backstage de SharePoint Designer 2013, elija **Abrir sitio**. Por ejemplo, abra `http://ServerName/pwa`. En el panel de **navegación** , elija **los flujos de trabajo**. A continuación, en la pestaña **flujos de trabajo** de la cinta de opciones, en el grupo **nuevo** , elija **Flujo de trabajo de sitio**. Para este ejemplo, el nombre del flujo de trabajo de flujo de trabajo de bifurcación. Asegúrese de que el **Flujo de trabajo de SharePoint 2013 - Project Server** esté seleccionado en la lista desplegable **Tipo de plataforma** (vea la figura 5). 
+1. En la vista Backstage de SharePoint Designer 2013, elija **Abrir sitio**. Por ejemplo, abra `https://ServerName/pwa`. En el panel de **navegación** , elija **los flujos de trabajo**. A continuación, en la pestaña **flujos de trabajo** de la cinta de opciones, en el grupo **nuevo** , elija **Flujo de trabajo de sitio**. Para este ejemplo, el nombre del flujo de trabajo de flujo de trabajo de bifurcación. Asegúrese de que el **Flujo de trabajo de SharePoint 2013 - Project Server** esté seleccionado en la lista desplegable **Tipo de plataforma** (vea la figura 5). 
     
     **Figura 5. Creación de un flujo de trabajo del sitio de Project Server**
 
@@ -275,7 +275,7 @@ El proyecto **Flujo de trabajo de bifurcación** es un ejemplo sencillo con una 
 
 Para cambiar el flujo de trabajo, puede crear o modificar los campos personalizados con flujo de trabajo controlado y crear o modificar etapas y fases de flujo de trabajo. Puede usar SharePoint Designer 2013 para agregar condiciones, acciones, bucles y fases y, a continuación, guarde y vuelva a publicar el flujo de trabajo. Para volver a usar o conservar una copia de seguridad de un flujo de trabajo, puede exportarla a un archivo de Visio 2013. 
   
-También puede crear o editar el flujo de trabajo en Visio 2013 e importar el archivo a SharePoint Designer 2013 para su uso por Project Web App. Para usar un flujo de trabajo sin modificar, la instancia de Project Web App debe incluir las propiedades de la fase de flujo de trabajo que son los mismos que los de la instancia de Project Web App original. Para obtener más información acerca del uso de Visio para ayudar a crear flujos de trabajo, vea [desarrollo de flujo de trabajo en SharePoint Designer 2013 y Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx).
+También puede crear o editar el flujo de trabajo en Visio 2013 e importar el archivo a SharePoint Designer 2013 para su uso por Project Web App. Para usar un flujo de trabajo sin modificar, la instancia de Project Web App debe incluir las propiedades de la fase de flujo de trabajo que son los mismos que los de la instancia de Project Web App original. Para obtener más información acerca del uso de Visio para ayudar a crear flujos de trabajo, vea [desarrollo de flujo de trabajo en SharePoint Designer 2013 y Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx).
   
 > [!NOTE]
 > Cuando se importa un archivo de Visio 2013 a una instancia diferente de Project Web App, las fases tienen diferentes etapas GUID, incluso si los nombres de región son los mismos. Después de importar el flujo de trabajo, debe configurar las propiedades de acción y la fase para utilizar los valores que son específicos de la instancia de Project Web App. 
@@ -318,7 +318,7 @@ También puede crear o editar el flujo de trabajo en Visio 2013 e importar el ar
   
    8. En la ficha **proceso** de la cinta de opciones, en el grupo de **Validación del diagrama** , elija **Comprobar diagrama**. Corrija los errores y, a continuación, guarde el dibujo. Por ejemplo, el nombre del flujo de trabajo de prueba de archivo de Visio.vsdx.
     
-      Para obtener información acerca de cómo corregir errores de flujo de trabajo, vea [errores de validación de flujo de trabajo de solución de problemas de SharePoint Server 2013 en Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx).
+      Para obtener información acerca de cómo corregir errores de flujo de trabajo, vea [errores de validación de flujo de trabajo de solución de problemas de SharePoint Server 2013 en Visio 2013](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx).
     
 2. Abra SharePoint Designer 2013 y, a continuación, abra el mismo sitio de Project Web App que usa para el ejemplo de **Flujo de trabajo de bifurcación** . 
     
@@ -359,10 +359,10 @@ Visio 2013 y SharePoint Designer juntos proporcionan sencillos para diseñadores
 ## <a name="see-also"></a>Vea también
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)
-- [Inicio: instalar y configurar el Administrador de flujos de trabajo de SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)
-- [Descripción de cómo empaquetar e implementar el flujo de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj819316%28office.15%29.aspx)
-- [Flujos de trabajo en SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)
-- [Desarrollo de flujos de trabajo en SharePoint Designer 2013 y Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
-- [Solución de problemas de errores de validación del flujo de trabajo de SharePoint Server 2013 en Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)
-- [Flujo de trabajo y administración de propuestas](http://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
+- [Inicio: instalar y configurar el Administrador de flujos de trabajo de SharePoint 2013](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx)
+- [Descripción de cómo empaquetar e implementar el flujo de trabajo en SharePoint 2013](https://msdn.microsoft.com/library/jj819316%28office.15%29.aspx)
+- [Flujos de trabajo en SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx)
+- [Desarrollo de flujos de trabajo en SharePoint Designer 2013 y Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)
+- [Solución de problemas de errores de validación del flujo de trabajo de SharePoint Server 2013 en Visio 2013](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx)
+- [Flujo de trabajo y administración de propuestas](https://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
 

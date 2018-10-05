@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a6e8c8fb-b76a-4a73-b112-6399e4d94233
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 64945d678051d2e3ae486395fb8ec6630de6a59e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d27506edf6eb40f6b244733336b8b381ea941442
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571160"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384762"
 ---
 # <a name="pidtagipmappointmententryid-canonical-property"></a>Propiedad canónica PidTagIpmAppointmentEntryId
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la **propiedad EntryID** de la carpeta Calendario de Outlook. 
   
@@ -52,11 +52,11 @@ Esta propiedad se almacena en la carpeta Bandeja de entrada y en la carpeta raí
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para la creación y la ubicación de las carpetas especiales en un buzón de correo.
     
@@ -70,7 +70,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

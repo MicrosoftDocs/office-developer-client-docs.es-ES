@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566351"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384503"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la ruta de acceso para el archivo Mapi32.dll privada.
   
@@ -41,7 +41,7 @@ BOOL FGetComponentPath(
 
  _szComponent_
   
-> [entrada] La clave del registro MSIComponentID se describe en [Configuración de Mapi32.dll código auxiliar del registro](http://msdn.microsoft.com/en-us/library/dd162409.aspx).
+> [entrada] La clave del registro MSIComponentID se describe en [Configuración de Mapi32.dll código auxiliar del registro](https://msdn.microsoft.com/library/dd162409.aspx).
     
  _szQualifier_
   
@@ -73,12 +73,12 @@ BOOL FGetComponentPath(
 
 Use la función **FGetComponentPath** cuando se necesita para obtener la ruta de acceso para el archivo Mapi32.dll privada. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Configuración de Mapi32.dll código auxiliar del registro](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
+[Configuración de Mapi32.dll código auxiliar del registro](https://msdn.microsoft.com/library/dd162409.aspx)
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
 description: Contiene los elementos de la ventana de un documento.
-ms.openlocfilehash: 70746ccfa2d99a9fdd5b3a91320c9372aa233c7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df4d4bc48db157bd05fd39177975c9dbeaa5de52
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823542"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386806"
 ---
 # <a name="windows-element-visio-xml"></a>Elemento de Windows ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene los elementos de la **ventana** de un documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Windows_Type](windows_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.Xml  <br/> |
    

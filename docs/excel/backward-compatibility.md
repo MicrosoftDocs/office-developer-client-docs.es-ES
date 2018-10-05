@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e1368ef55b96be947527456e0f01918afec6663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815525"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387975"
 ---
 # <a name="backward-compatibility"></a>Compatibilidad con versiones anteriores
 
@@ -63,7 +63,7 @@ Por estos motivos, idealmente, empezando en Excel 2007 debe exportar una funció
   
 Otro motivo por qué es posible que desee registrar una función diferente a partir de Excel 2007 es que permite que las funciones XLL puedan tomar hasta 255 argumentos, en lugar del límite de 30 de versiones anteriores.
   
-Afortunadamente, puede hacer que las ventajas de ambos métodos exportando ambas versiones desde su proyecto. Puede detectar, a continuación, la versión de Excel que se está ejecutando y registra de forma condicional la función más apropiada. Para obtener más información y un ejemplo de implementación, vea [Developing complementos (XLL) en Excel 2007](http://msdn.microsoft.com/en-us/library/aa730920.aspx).
+Afortunadamente, puede hacer que las ventajas de ambos métodos exportando ambas versiones desde su proyecto. Puede detectar, a continuación, la versión de Excel que se está ejecutando y registra de forma condicional la función más apropiada. Para obtener más información y un ejemplo de implementación, vea [Developing complementos (XLL) en Excel 2007](https://msdn.microsoft.com/library/aa730920.aspx).
   
 Este enfoque tiene las siguientes consecuencias la posibilidad de que una hoja de cálculo que se ejecuta en Excel 2003 podría mostrar resultados diferentes de la misma hoja ejecutándose a partir de Excel 2007. Por ejemplo, podría asignar una cadena Unicode en una celda de hoja de cálculo de Excel 2003 a una cadena de bytes ASCII y truncar antes de pasar a una función XLL Excel 2003. Iniciar en Excel 2007, Excel pasará una cadena Unicode no convertida a una función XLL registrada en la forma correcta. Esto puede producir un resultado diferente. Debe tener en cuenta esta posibilidad y las consecuencias para los usuarios, no sólo en la actualización. Por ejemplo, algunas funciones numéricas integradas se mejoraron entre Excel 2000 y Excel 2003.
   

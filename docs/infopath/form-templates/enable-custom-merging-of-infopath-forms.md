@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: La característica Combinar formularios del editor de Microsoft InfoPath está diseñada para combinar los datos de varios formularios en un único formulario.
-ms.openlocfilehash: e0e6bfc074829f262d7eef3cf7bf6a86c3b2253b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815859"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386918"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Habilitar combinación personalizada de formularios de InfoPath
 
@@ -25,7 +25,7 @@ La agregación de datos que tiene lugar con la combinación de formularios puede
     
 ## <a name="creating-a-custom-transform"></a>Crear una transformación personalizada
 
-La operación predeterminada cuando se combinan formularios funciona correctamente con formularios basados en el mismo esquema XML. Sin embargo, en algunas circunstancias, es posible que desee combinar formularios basados en esquemas diferentes o invalidar la operación de combinación predeterminada para formularios basados en el mismo esquema. En estos escenarios, puede crear una transformación XSL (XSLT), que contiene instrucciones de agregación para la operación de combinación. La transformación se aplica durante la combinación para crear un documento DOM que contiene la información que se va a importar, junto con anotaciones que especifican cómo incorporar esta información en el documento de destino. Estas anotaciones son atributos XML del espacio de nombres  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+La operación predeterminada cuando se combinan formularios funciona correctamente con formularios basados en el mismo esquema XML. Sin embargo, en algunas circunstancias, es posible que desee combinar formularios basados en esquemas diferentes o invalidar la operación de combinación predeterminada para formularios basados en el mismo esquema. En estos escenarios, puede crear una transformación XSL (XSLT), que contiene instrucciones de agregación para la operación de combinación. La transformación se aplica durante la combinación para crear un documento DOM que contiene la información que se va a importar, junto con anotaciones que especifican cómo incorporar esta información en el documento de destino. Estas anotaciones son atributos XML del espacio de nombres  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 Los atributos XML y sus valores sirven como instrucciones de agregación sobre cómo cada nodo se combina con el documento XML de destino. Estos atributos se describen en las siguientes secciones.
   
@@ -70,7 +70,7 @@ Si el valor del atributo es **agg:action** "delete", los elementos de destino a 
  agg:action="delete"/>
 ```
 
-Junto con los atributos especificados en el espacio de nombres  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, se usa el espacio de nombres  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` para denotar un objeto XSL que implementa la interfaz **IXMLDOMDocument**. Uno de los miembros más útiles de esta interfaz es el método **get-documentElement**.
+Junto con los atributos especificados en el espacio de nombres  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, se usa el espacio de nombres  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` para denotar un objeto XSL que implementa la interfaz **IXMLDOMDocument**. Uno de los miembros más útiles de esta interfaz es el método **get-documentElement**.
   
 ### <a name="get-documentelement"></a>get-documentElement
 
@@ -102,10 +102,10 @@ La función **target:get-documentElement** proporciona acceso al Modelo de objet
     
     ```XML
         <?xml version="1.0"?> 
-        <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
+        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

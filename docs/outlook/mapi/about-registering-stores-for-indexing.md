@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386533"
 ---
 # <a name="about-registering-stores-for-indexing"></a>Información sobre el registro de almacenes de indexación
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema es específico para la búsqueda instantánea de Microsoft Office Outlook 2007.
   
@@ -38,7 +38,7 @@ De forma predeterminada, Windows Desktop Search agrega los siguientes cuatro tip
  Los proveedores de almacén de otro fabricante que desean que se indice deben registrarse en el registro de Windows. 
   
 > [!NOTE]
-> Los administradores y usuarios pueden usar una configuración de directiva de grupo para impedir la indización de los elementos de Outlook de Windows Desktop Search. Para obtener más información, vea [Ampliación de Windows Desktop Search](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Los administradores y usuarios pueden usar una configuración de directiva de grupo para impedir la indización de los elementos de Outlook de Windows Desktop Search. Para obtener más información, vea [Ampliación de Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Claves del registro
 

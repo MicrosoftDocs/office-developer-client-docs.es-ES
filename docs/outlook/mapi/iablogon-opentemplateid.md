@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583389"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384636"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre una entrada del destinatario que tiene datos que residen en un proveedor de libreta de direcciones de host.
   
@@ -101,7 +101,7 @@ Algunos ejemplos de cuándo un proveedor de la libreta de direcciones debe imple
     
 - Para controlar la interacción entre las propiedades de entrada del proveedor de host y la entrada original, como los sistemas de la **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) de los valores de los controles de edición en la pantalla de detalles que contienen diferentes componentes de la dirección.
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Cuando un proveedor de host copia o crea una entrada de su proveedor y proporcionar una implementación de objeto de la propiedad a través de **IABLogon::OpenTemplateID**, controlar la mayoría de las llamadas para mantener la entrada. Sin embargo, porque es el proveedor de host para reenviar estas llamadas a usted, el proveedor de host puede interceptar cualquier llamada y realizar un procesamiento personalizado antes de reenviar la llamada.
   
@@ -117,7 +117,7 @@ Debe usar las siguientes instrucciones en las implementaciones de objeto de la p
     
 En general, hacer que la implementación de la entrada que se pasa al proveedor de host todos los métodos para manipular los específicos del contexto de las propiedades relevantes intercept. Si la marca FILL_ENTRY se pasa en el parámetro _ulTemplateFlags_ , establezca todas las propiedades de la entrada. 
   
-Si se devuelve un nuevo objeto property en el parámetro _lppMAPIPropNew_ , llame al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) del objeto de propiedad del proveedor de host para mantener una referencia. Todas las llamadas a través del objeto dependiente que devuelve la implementación de **IMAPIProp** en _lppMAPIPropNew_ deben enrutarse a su método correspondiente en el objeto de la propiedad host después de que se tratarán por el objeto dependiente. 
+Si se devuelve un nuevo objeto property en el parámetro _lppMAPIPropNew_ , llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto de propiedad del proveedor de host para mantener una referencia. Todas las llamadas a través del objeto dependiente que devuelve la implementación de **IMAPIProp** en _lppMAPIPropNew_ deben enrutarse a su método correspondiente en el objeto de la propiedad host después de que se tratarán por el objeto dependiente. 
   
 Los identificadores de propiedad de las propiedades con nombre que se pasan a través de su objeto dependiente (propiedad) se encuentran en el espacio de nombres de identificador del proveedor. La implementación del método [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) debe determinar los nombres de las propiedades de modo que pueda realizar las tareas específicas de las plantillas. De forma similar, también deben ser propiedades que pasa el proveedor el proveedor de host en el espacio de nombres. Por ejemplo, si establece una propiedad con nombre en **OpenTemplateID**, se debe utilizar uno de los identificadores para el nombre, crear, si es necesario, llamando al método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
@@ -125,7 +125,7 @@ Si no reconoce el identificador de entrada que se pasan en _lpTemplateID_, devol
   
 Para obtener más información acerca de cómo trabajar con identificadores de plantilla de la libreta de direcciones, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

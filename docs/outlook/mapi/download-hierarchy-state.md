@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f9c334bc86bdff4abb2762642a37e3f0933a0b29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45535eef75c6fc091c02ec35b669675a51e4cf48
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589031"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384860"
 ---
 # <a name="download-hierarchy-state"></a>Descargar estado de la jerarquía
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  En este tema se describe qué ocurre durante el estado de la jerarquía de descarga de la máquina de estado de replicación. 
   
@@ -37,11 +37,11 @@ ms.locfileid: "22589031"
 
 Este estado inicia la descarga de una jerarquía de árbol de carpetas de un servidor en el almacén local. 
   
-Outlook inicializa la estructura de datos **DNHIER** asociada con un puntero a la jerarquía. El cliente de descargas de la jerarquía e inserta nuevas carpetas o modificaciones realizadas a las carpetas en el almacén local. El proceso de descarga adopta la sincronización de cambio Incremental (ICS) de Microsoft Exchange. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Outlook inicializa la estructura de datos **DNHIER** asociada con un puntero a la jerarquía. El cliente de descargas de la jerarquía e inserta nuevas carpetas o modificaciones realizadas a las carpetas en el almacén local. El proceso de descarga adopta la sincronización de cambio Incremental (ICS) de Microsoft Exchange. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Cuando finaliza este estado, el almacén local se devuelve en el estado de sincronización.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -49,5 +49,5 @@ Cuando finaliza este estado, el almacén local se devuelve en el estado de sincr
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

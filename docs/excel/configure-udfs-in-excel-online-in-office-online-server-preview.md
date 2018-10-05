@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilizar funciones definidas por el usuario (UDF) de Excel en línea en Office Online Server Preview para llamar a funciones personalizadas.
-ms.openlocfilehash: 12f452241754be1b4b1e545c69225aed055f4965
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b76b7351a0882762165e37b55c8fbe78f657c34
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384825"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>Configurar las UDF en Excel en línea en Office Online Server Preview
 
@@ -82,12 +82,12 @@ Use los siguientes cmdlets de Windows PowerShell para trabajar con las UDF:
 
 Los siguientes archivos proporcionan un libro de ejemplo que usa una UDF y el archivo UDF binario:
   
-- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un libro de ejemplo que usa una UDF  
+- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un libro de ejemplo que usa una UDF  
 - [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) --el archivo binario UDF 
     
 ## <a name="see-also"></a>Vea también
 
-- [Configurar las opciones administrativas Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
+- [Configurar las opciones administrativas Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c60b542852653bd617b5b9f604bbc44d575e5cb3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384769"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Admite el uso de formularios configurables de tiempo de ejecución en entornos de sistemas distribuidos. 
   
@@ -31,7 +31,7 @@ Admite el uso de formularios configurables de tiempo de ejecución en entornos d
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
 |Expuestos por:  <br/> |Objetos de generador de formulario  <br/> |
-|Se implementa mediante:  <br/> |Servidores de formulario  <br/> |
+|Implementado por:  <br/> |Servidores de formulario  <br/> |
 |Llamado por:  <br/> |Visores de formulario  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMFACTORY  <br/> |
@@ -46,11 +46,11 @@ Admite el uso de formularios configurables de tiempo de ejecución en entornos d
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz de **IMAPIFormFactory** se basa en la interfaz [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) y los objetos que implementan **IMAPIFormFactory** también deben heredar de **IClassFactory**.
+La interfaz de **IMAPIFormFactory** se basa en la interfaz [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) y los objetos que implementan **IMAPIFormFactory** también deben heredar de **IClassFactory**.
   
  **IMAPIFormFactory** es la interfaz que los visores de formulario que se usa para crear nuevos objetos de formulario cuando un servidor de formulario es compatible con más de una clase de mensaje (es decir, más de un tipo de objeto de formulario). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: Obtener la instancia actual de ProjectContext; recuperar y recorrer en iteración la colección de proyectos publicados en el servidor; crear, recuperar, desproteger y eliminar un proyecto mediante el modelo de objetos de JavaScript de Project Server; y cambiar las propiedades de un proyecto.
-ms.openlocfilehash: 966c1298d210cb608001e4ce2b390611a75bdb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821299"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382914"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Crear, recuperar, actualizar y eliminar proyectos con JavaScript de Project Server
 
@@ -53,7 +53,7 @@ Los pasos siguientes crean una solución de Visual Studio 2012 que contiene un p
     
 6. En el cuadro de diálogo **Asistente para la personalización de SharePoint**, elija **Implementar como solución de granja** y luego haga clic en el botón **Finalizar**. 
     
-7. Edite el valor de la propiedad **Dirección URL del sitio** para el proyecto **ProjectsJSOM** para que coincida con la dirección URL de la instancia de Project Web App (por ejemplo, `http://ServerName/PWA`).
+7. Edite el valor de la propiedad **Dirección URL del sitio** para el proyecto **ProjectsJSOM** para que coincida con la dirección URL de la instancia de Project Web App (por ejemplo, `https://ServerName/PWA`).
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>Para crear la página de aplicación en Visual Studio
 

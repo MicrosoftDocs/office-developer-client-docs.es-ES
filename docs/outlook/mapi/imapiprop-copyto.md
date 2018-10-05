@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bbc9dcf2218907b5d31ce1fc9f904e6ae1da47d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f76b0a5482647fe3e181a36d7dcd8cb60ffc8985
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594015"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388584"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve todas las propiedades, excepto propiedades excluidas específicamente.
   
@@ -145,7 +145,7 @@ De forma predeterminada, el método **IMAPIProp::CopyTo** copia o mueve todas la
   
 Los objetos secundarios en el objeto de origen se incluyen automáticamente en la operación y se copian o mueven en su totalidad. De forma predeterminada, **CopyTo** sobrescribe cualquier propiedades en el objeto de destino que coinciden con las propiedades del objeto de origen. Si cualquiera de las propiedades que se ha movido o copiadas ya existe en el objeto de destino, se sobrescriben las propiedades existentes por las nuevas propiedades, a menos que se establece la marca MAPI_NOREPLACE en el parámetro _ulFlags indicado_ . Información existente en el objeto de destino que no se sobrescribe se toca. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede proporcionar una implementación completa de **CopyTo** o se basan en la implementación que proporciona MAPI en su objeto de soporte técnico. Si desea utilizar la implementación de MAPI, llame a **IMAPISupport::DoCopyTo**. Sin embargo, si delegar procesamiento a **DoCopyTo** y se pasa el indicador MAPI_DECLINE_OK, evitar la llamada de soporte técnico y devolver MAPI_E_DECLINE_COPY en su lugar. MAPI llamará a con esta marca para evitar la recursividad posible que puede ocurrir cuando se copian las carpetas. 
   
@@ -173,7 +173,7 @@ Si **CopyTo** devuelve S_OK, liberar la estructura **SPropProblemArray** devuelt
   
 Si copia las propiedades que son únicas para el tipo de objeto de origen, debe asegurarse de que el objeto de destino es del mismo tipo. **CopyTo** no impide la asociación de las propiedades que suelen pertenecen a un tipo de objeto con otro tipo de objeto. Depende de usted para copiar las propiedades que tienen sentido para el objeto de destino. Por ejemplo, no debe copiar las propiedades del mensaje a un contenedor de la libreta de direcciones. 
   
-Para asegurarse de que copie entre objetos del mismo tipo, compruebe que el objeto de origen y de destino son el mismo tipo, ya sea mediante la comparación de punteros a objetos o llamar a [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx). Establecer el identificador de interfaz que señala _lpInterface_ a la interfaz estándar para el objeto de origen. Además, asegúrese de que el tipo de objeto o la propiedad de **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) es el mismo para los dos objetos. Por ejemplo, si copia de un mensaje, establecer _lpInterface_ a IID_IMessage y el **PR_OBJECT_TYPE** para ambos objetos a MAPI_MESSAGE. 
+Para asegurarse de que copie entre objetos del mismo tipo, compruebe que el objeto de origen y de destino son el mismo tipo, ya sea mediante la comparación de punteros a objetos o llamar a [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx). Establecer el identificador de interfaz que señala _lpInterface_ a la interfaz estándar para el objeto de origen. Además, asegúrese de que el tipo de objeto o la propiedad de **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) es el mismo para los dos objetos. Por ejemplo, si copia de un mensaje, establecer _lpInterface_ a IID_IMessage y el **PR_OBJECT_TYPE** para ambos objetos a MAPI_MESSAGE. 
   
 Si se pasa un puntero no válido en el parámetro _lpDestObj_ , los resultados serán impredecibles. 
   
@@ -189,20 +189,20 @@ La etiqueta de propiedad de **PR_NULL** ([PidTagNull](pidtagnull-canonical-prope
   
 La utilidad de la característica de **CopyTo** para excluir interfaces quizás no es tan obvia como la utilidad de exclusión de propiedades. Puede excluir una interfaz cuando se copia a un objeto que no tiene conocimiento de un grupo de propiedades. Por ejemplo, si copia propiedades de una carpeta a un archivo adjunto, las únicas propiedades que los datos adjuntos pueden trabajar con son las propiedades genéricas disponibles con cualquier implementación de [IMAPIProp](imapipropiunknown.md) . Mediante la exclusión de [IMAPIFolder](imapifolderimapicontainer.md) desde la operación de copia, los datos adjuntos no recibirá ninguna de las propiedades de carpeta más específicas. 
   
-Cuando se usa el parámetro _rgiidExclude_ para excluir una interfaz, también excluye todas las interfaces derivadas de dicha interfaz. Por ejemplo, excluyendo [IMAPIContainer](imapicontainerimapiprop.md) hace que las carpetas o los contenedores de la libreta de direcciones que se deben excluir, según el tipo de proveedor. No excluya **IMAPIProp** o [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) debido a que muchas interfaces derivan de ellos. 
+Cuando se usa el parámetro _rgiidExclude_ para excluir una interfaz, también excluye todas las interfaces derivadas de dicha interfaz. Por ejemplo, excluyendo [IMAPIContainer](imapicontainerimapiprop.md) hace que las carpetas o los contenedores de la libreta de direcciones que se deben excluir, según el tipo de proveedor. No excluya **IMAPIProp** o [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) debido a que muchas interfaces derivan de ellos. 
   
 Omitir MAPI_E_COMPUTED devuelven errores en la estructura de **SPropProblemArray** en el parámetro _lppProblems_ . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI usa el método **IMAPIProp::CopyTo** para copiar las propiedades de un archivo .msg a un objeto [IMAPIMessageSite](imapimessagesiteiunknown.md) .  <br/> |
 |FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI usa el método **IMAPIProp::CopyTo** para copiar las propiedades de un mensaje de origen a un mensaje de destino durante una operación de pegado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

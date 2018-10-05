@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Los miembros proporcionan por Microsoft Office InfoPath principal ensamblado de interoperabilidad (Microsoft.Office.Interop.InfoPath.dll) y el ensamblado de interoperabilidad XML de InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) admiten escribir código administrado para automatizar InfoPath.
-ms.openlocfilehash: 1c76e5cb659c9d3f39eec4a7e517ab57c98c858a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815761"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383166"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Ejemplos y escenarios de automatización externa
 
@@ -21,7 +21,7 @@ Los miembros proporcionan por Microsoft Office InfoPath principal ensamblado de 
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Establecimiento de referencias a los ensamblados de interoperabilidad primaria de Microsoft Office InfoPath y la interoperabilidad de XML de InfoPath
 
-Para escribir código administrado para automatizar InfoPath, debe establecer referencias a los ensamblados de interoperabilidad XML de InfoPath y a la interoperabilidad primaria de Microsoft InfoPath. El ensamblado de interoperabilidad primario de Microsoft InfoPath ofrece compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por IPEDITOR. DLL mediante el uso de los miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . El ensamblado de interoperabilidad XML de InfoPath proporciona compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por Microsoft XML Core Services (MSXML) mediante el uso de los miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) . 
+Para escribir código administrado para automatizar InfoPath, debe establecer referencias a los ensamblados de interoperabilidad XML de InfoPath y a la interoperabilidad primaria de Microsoft InfoPath. El ensamblado de interoperabilidad primario de Microsoft InfoPath ofrece compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por IPEDITOR. DLL mediante el uso de los miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . El ensamblado de interoperabilidad XML de InfoPath proporciona compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por Microsoft XML Core Services (MSXML) mediante el uso de los miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
   
 > [!IMPORTANT]
 > Los usuarios de aplicaciones de código administrado que automaticen InfoPath deben tener InfoPath, el ensamblado de interoperabilidad primario de Microsoft Office InfoPath y el ensamblado de interoperabilidad XML de InfoPath instalado en sus equipos. La opción de **Compatibilidad con programación de .NET** en el programa de instalación de InfoPath se establece en **Ejecutar desde Mi PC** para una instalación típica de InfoPath.
@@ -109,7 +109,7 @@ Suponga que uno de los clientes del usuario de una plantilla de formulario de in
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ Suponga que uno de los clientes del usuario de una plantilla de formulario de in
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -247,7 +247,7 @@ En el ejemplo siguiente se automatiza la apertura de un formulario en blanco y r
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ En el ejemplo siguiente se automatiza la apertura de un formulario en blanco y r
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"

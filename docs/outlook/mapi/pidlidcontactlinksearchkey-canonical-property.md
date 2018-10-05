@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589353"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387499"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propiedad canónica PidLidContactLinkSearchKey
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la lista de **SearchKeys** para el contacto vinculado a este objeto de mensaje. 
   
@@ -37,18 +37,18 @@ Contiene la lista de **SearchKeys** para el contacto vinculado a este objeto de 
 
 |**Longitud en bytes**|**Descripción**|**Notas**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Ninguna  <br/> |
+|2  <br/> |ContactEntryCount  <br/> |Ninguno  <br/> |
 |variable  <br/> |Datos de SearchKey  <br/> |Repite ContactEntryCount veces  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Controla los objetos de mensaje y los datos adjuntos.
     
@@ -58,7 +58,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Propiedades MAPI](mapi-properties.md) 
 - [Propiedades MAPI canónicas](mapi-canonical-properties.md)

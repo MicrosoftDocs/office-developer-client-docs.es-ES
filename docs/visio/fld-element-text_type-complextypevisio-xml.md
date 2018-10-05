@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: Indica un punto de inserción de campos de texto para el elemento correspondiente del campo.
-ms.openlocfilehash: 9ff1a81c8ceba83adc110596de86831b58db0167
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7303697a9471dab68f5b1cf851f60d51650a84e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822153"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383327"
 ---
 # <a name="fld-element-texttype-complextype-visio-xml"></a>elemento fld (Text_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Indica un punto de inserción de campos de texto para el elemento correspondient
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |página # .xml, master # .xml  <br/> |
    

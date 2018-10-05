@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Última modificación: 06 de julio de 2012'
-ms.openlocfilehash: 7616c3a6077b9354cda7046c0949e7c5553f6551
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586840"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389200"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Instalar el complemento de estado sin conexión de muestra
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema le lleva a través de los pasos para descargar e instalar el complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y utiliza la API de estado sin conexión. A través del menú de estado sin conexión se puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información acerca de cómo se implementa el complemento de estado sin conexión, vea [Agregar en configuración de seguridad de un estado no conectado](setting-up-an-offline-state-add-in.md).
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Instalar el ejemplo sin conexión estado Add-in
 
-1. Descargue el ejemplo desconectado estado complemento aquí: [ejemplos de código de referencia auxiliar de Outlook 2007 e instalador redistribuible](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Descargue el ejemplo desconectado estado complemento aquí: [ejemplos de código de referencia auxiliar de Outlook 2007 e instalador redistribuible](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Ejecute Visual Studio 2005 como administrador.
     
@@ -56,7 +56,7 @@ En este tema le lleva a través de los pasos para descargar e instalar el comple
     
 12. Reinicie Outlook para ver el menú de **Estado sin conexión** . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

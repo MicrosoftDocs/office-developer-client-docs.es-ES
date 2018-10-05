@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 00377e78-a208-4942-a7a6-893b2a71ab0b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3d27ad5fbc02e3883d6f74129323165394c4cf2b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2bf862317ca1d2f2a09a71e1af62b82661b33326
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577733"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383852"
 ---
 # <a name="pidtagdisplaycc-canonical-property"></a>Propiedad canónica PidTagDisplayCc
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de ASCII de los nombres para mostrar de los destinatarios del mensaje con copia (CC), separados por punto y coma (;). 
   
@@ -54,7 +54,7 @@ Debido a la necesidad de posible para la localización, MAPI proporciona estas i
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 44d369f0-ab37-75ca-727e-b421d6f95ba7
 description: Contiene x- o coordenadas y del vértice del extremo de un segmento de línea recta con relación al ancho y alto de una forma.
-ms.openlocfilehash: 73930b15a62a483b38da4791511f735ac81bb1a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63c9b2b87363ee798adc98eeeb780a30035a95e6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821743"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384538"
 ---
 # <a name="cell-element-rellineto-row-visio-xml"></a>Elemento de celda (fila RelLineTo) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene x- o coordenadas y del vértice del extremo de un segmento de línea re
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    

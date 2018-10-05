@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59c6d4a05c91511ad8c481fd4ddbe42396442190
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582465"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384111"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece una conexión a una sesión activa.
   
@@ -118,7 +118,7 @@ Las conexiones se establecen con cada proveedor de la libreta de direcciones en 
   
 El nombre del perfil que apunta el parámetro _lpszProfileName_ se muestra en el juego de caracteres del cliente del usuario como se indica por la presencia o ausencia de la marca MAPI_UNICODE en el parámetro _ulFlags indicado_ . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 En la implementación del método de **Inicio de sesión** , llame al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar un identificador único o la estructura [MAPIUID](mapiuid.md) . Cada uno de los objetos tendrá un identificador de entrada que incluye este **MAPIUID**. MAPI utiliza el **MAPIUID** para que coincida con un objeto con su proveedor. Por ejemplo, cuando un cliente llama al método [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir un usuario de mensajería, **OpenEntry** examina la parte **MAPIUID** del identificador de entrada que se pasó y coincide con un **MAPIUID** registrado por un proveedor de libreta de direcciones. 
   
@@ -126,7 +126,7 @@ Si un cliente inicia sesión en su proveedor de más de una vez, es posible que 
   
 El objeto de soporte técnico que MAPI se pasa al método de **Inicio de sesión** en el parámetro _lpMAPISup_ proporciona acceso a muchos de los métodos incluidos en la [IMAPISupport: IUnknown](imapisupportiunknown.md) interfaz. MAPI crea un objeto de soporte técnico personalizado para el tipo de proveedor. Por ejemplo, si necesita iniciar sesión en un sistema de mensajería subyacente o el servicio de directorio al establecer la conexión, puede llamar al método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para recuperar las credenciales de seguridad para esta sesión de inicio de sesión determinado. 
   
-Si el **Inicio de sesión** es correcta, asegúrese de que llame al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) del objeto de soporte técnico para incrementar su recuento de referencia. Esto permite a su proveedor retener el puntero del objeto de soporte técnico para el resto de la sesión. Si no se llama a este método **AddRef** , MAPI descargará su proveedor. 
+Si el **Inicio de sesión** es correcta, asegúrese de que llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto de soporte técnico para incrementar su recuento de referencia. Esto permite a su proveedor retener el puntero del objeto de soporte técnico para el resto de la sesión. Si no se llama a este método **AddRef** , MAPI descargará su proveedor. 
   
 Puede incluir el nombre de perfil que se pasa en el parámetro _lpszProfileName_ en otras interfaces de usuario, pantallas de inicio de sesión o cuadros de diálogo de error. Para usar el nombre del perfil, cópielo en el almacenamiento que haya asignado. 
   
@@ -138,7 +138,7 @@ Normalmente, cuando un proveedor de la libreta de direcciones no puede iniciar s
   
 Retorno MAPI_E_FAILONEPROVIDER si produce un error no es lo suficientemente grave como para impedir que los otros proveedores en el servicio de mensajes establecer conexiones. Devolver MAPI_E_UNCONFIGURED si falta la información de configuración necesaria desde el perfil y no se puede mostrar un cuadro de diálogo para preguntar al usuario. MAPI responderá al llamar a la función de punto de entrada de servicio del su proveedor mensaje con MSG_SERVICE_CONFIGURE establecido como el parámetro _ulContext_ para proporcionar el servicio de una oportunidad para configurarse a sí mismo, ya sea mediante programación o mediante una hoja de propiedades. Cuando elija la entrada de mensajes de servicio finalizado (función), el inicio de sesión de reintentos de MAPI. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: Obtenga información para ayudarle a crear proyectos en Visual Studio mediante el uso de los ejemplos de código basados en WCF que se incluyen en los temas de referencia de Project Server Interface (PSI).
-ms.openlocfilehash: 43700a9db4445dacf366c7ca2efe1bfb10914372
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2222e1b3651044c41f45e57481f80093aac67bdb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821440"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383383"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>Requisitos previos para ejemplos de código basados en WCF en Project
 
 Obtenga información para ayudarle a crear proyectos en Visual Studio mediante el uso de los ejemplos de código basados en WCF que se incluyen en los temas de referencia de Project Server Interface (PSI).
    
-Muchos de los ejemplos de código basados en WCF incluidos en la [referencia de servicio de web y biblioteca de clase de Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) se crearon originalmente para la documentación para desarrolladores de Project 2010 y utilizan un formato estándar para los servicios web de WCF. Los ejemplos de aún funcionan en Project Server 2013 y están diseñados para ser copiado en una aplicación de consola y se ejecute como una unidad completa. En el ejemplo se indican excepciones. 
+Muchos de los ejemplos de código basados en WCF incluidos en la [referencia de servicio de web y biblioteca de clase de Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) se crearon originalmente para la documentación para desarrolladores de Project 2010 y utilizan un formato estándar para los servicios web de WCF. Los ejemplos de aún funcionan en Project Server 2013 y están diseñados para ser copiado en una aplicación de consola y se ejecute como una unidad completa. En el ejemplo se indican excepciones. 
   
 Ejemplos de código en la documentación para desarrolladores de Project 2013 que se han modificado en los ejemplos de desarrollado para Office Project Server 2007 usan servicios Web de ASMX. Los ejemplos basados en ASMX también puede adaptarse a usar los servicios de WCF. En este artículo se muestra cómo usar los ejemplos con los servicios de WCF. Para obtener información acerca de cómo usar los ejemplos con servicios web de ASMX, vea [requisitos previos para ejemplos de código basados en ASMX en Project](prerequisites-for-asmx-based-code-samples-in-project.md).
   
@@ -168,11 +168,11 @@ Los pasos siguientes muestran cómo establecer una referencia de servicio median
     
 2. En **Solution Explorer**, haga clic con el botón secundario en la carpeta **Referencias** y, a continuación, seleccione **Agregar referencia de servicio**. 
     
-3. En el cuadro de diálogo **Agregar referencia de servicio** , en el cuadro de texto **dirección** , escriba http://localhost:32843/ _GUID_/psi/ _ServiceName_svc y, a continuación, presione **ENTRAR**. Reemplazar el _GUID_ con el nombre del directorio virtual de la aplicación de servicio de Project Server, como 534c37eb00d74ccfadcecf9827e95239. Reemplace _ServiceName_ con el nombre del servicio, como recurso (vea la figura 3). 
+3. En el cuadro de diálogo **Agregar referencia de servicio** , en el cuadro de texto **dirección** , escriba https://localhost:32843/ _GUID_/psi/ _ServiceName_svc y, a continuación, presione **ENTRAR**. Reemplazar el _GUID_ con el nombre del directorio virtual de la aplicación de servicio de Project Server, como 534c37eb00d74ccfadcecf9827e95239. Reemplace _ServiceName_ con el nombre del servicio, como recurso (vea la figura 3). 
     
    Puede obtener el nombre del directorio virtual del servicio de Project Server de una de las siguientes maneras:
     
-   - Abra la aplicación de Administración Central de SharePoint 2013 en el explorador. Elija **Administrar aplicaciones de servicio**y, a continuación, elija la aplicación de servicio de PSI de Project Server que desee. Por ejemplo, elija **ProjectServerService**. La dirección URL de la página Administrar sitios de Project Web App contiene el nombre del directorio virtual. Por ejemplo, en `http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, el nombre del directorio virtual es `534c37eb00d74ccfadcecf9827e95239` (el nombre del directorio no contiene guiones). 
+   - Abra la aplicación de Administración Central de SharePoint 2013 en el explorador. Elija **Administrar aplicaciones de servicio**y, a continuación, elija la aplicación de servicio de PSI de Project Server que desee. Por ejemplo, elija **ProjectServerService**. La dirección URL de la página Administrar sitios de Project Web App contiene el nombre del directorio virtual. Por ejemplo, en `https://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, el nombre del directorio virtual es `534c37eb00d74ccfadcecf9827e95239` (el nombre del directorio no contiene guiones). 
     
    - Abra el cuadro de diálogo **Administrador de Servicios de información de internet (IIS)** en el equipo de Project Server. Expanda el nodo **Servicios web de SharePoint** en el panel **Conexiones** y, a continuación, expanda los directorios virtuales de servicio debajo de eso, hasta que encuentra el directorio que incluye una carpeta de PSI. Seleccione el directorio, elija **Configuración avanzada** en el panel **Acciones** y, a continuación, copie el nombre del directorio en el campo **Ruta virtual**. 
     
@@ -205,7 +205,7 @@ Los pasos siguientes muestran cómo establecer una referencia de servicio median
       > [!NOTE]
       > Elimine los guiones del GUID para obtener el nombre del directorio virtual. 
   
-   Las direcciones URL como `http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` son estándar para los servicios de Project Server. 
+   Las direcciones URL como `https://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` son estándar para los servicios de Project Server. 
     
 4. Una vez que se resuelve la referencia de servicio, escriba el nombre de referencia en el cuadro de texto de **Namespace** . Ejemplos de código en la documentación para desarrolladores de Project 2013 usan el nombre de espacio de nombres arbitrario **Svc _ServiceName_**. Por ejemplo, el servicio de recursos en los ejemplos de código se denomina **SvcResource**.
     
@@ -232,16 +232,16 @@ Las referencias locales para el ejemplo de código se enumeran en instrucciones 
 ## <a name="adding-a-service-configuration-file"></a>Agregar un archivo de configuración de servicio
 <a name="pj15_PrerequisitesWCF_AddConfig"> </a>
 
-Si una aplicación configura de forma programada los servicios de WCF, no utiliza un archivo de configuración de servicio. De lo contrario, una aplicación de consola o una aplicación de Windows utiliza el elemento **system.serviceModel** en un archivo app.config; una aplicación web incluye **system.serviceModel** en web.config. Para obtener más información sobre el uso de un archivo app.config o la configuración preprogramada de los servicios de WCF, consulte [Tutorial: desarrollo de aplicaciones de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+Si una aplicación configura de forma programada los servicios de WCF, no utiliza un archivo de configuración de servicio. De lo contrario, una aplicación de consola o una aplicación de Windows utiliza el elemento **system.serviceModel** en un archivo app.config; una aplicación web incluye **system.serviceModel** en web.config. Para obtener más información sobre el uso de un archivo app.config o la configuración preprogramada de los servicios de WCF, consulte [Tutorial: desarrollo de aplicaciones de PSI mediante WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 Cuando genera un archivo de código fuente del proxy de servicio, el comando SvcUtil.exe también crea un archivo output.config que es la base para el elemento de **system.serviceModel** de forma predeterminada en un archivo app.config o el archivo web.config. La descarga del SDK de Project 2013 incluye un ejemplo de archivo output.config en `Documentation\IntelliSense\WCF\Source.zip`. Por ejemplo, el archivo output.config predeterminado que crea SvcUtil.exe para el servicio de recursos incluye dos enlaces, denominados **BasicHttpBinding_Resource** y **BasicHttpBinding_Resource1**. El elemento de **cliente** incluye dos extremos predeterminados. Es uno de los extremos para el acceso seguro a la dirección HTTP en el puerto 32843 y la otra es para el acceso normal en el puerto 32843, como se indica a continuación: 
   
 ```XML
 <client>
-    <endpoint address="http://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
+    <endpoint address="https://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource" />
-address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
+address="https://ServerName.domain:32843/GUID/PSI/Resource.svc"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource1"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource1" />
 </client>
@@ -274,13 +274,13 @@ La configuración de servicio de PSI no utiliza los extremos y enlazados predete
                                 maxArrayLength="16384" maxBytesPerRead="4096" 
                                 maxNameTableCharCount="500000000" />
                             <security mode="TransportCredentialOnly">
-                                <transport clientCredentialType="Ntlm" realm="http://SecurityDomain" />
+                                <transport clientCredentialType="Ntlm" realm="https://SecurityDomain" />
                             </security>
                         </binding>
                     </basicHttpBinding>
                 </bindings>
                 <client>
-                    <endpoint address="http://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
+                    <endpoint address="https://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
                         behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
                         bindingConfiguration="basicHttpConf" 
                         contract="SvcServiceName.ServiceName"
@@ -295,7 +295,7 @@ La configuración de servicio de PSI no utiliza los extremos y enlazados predete
 4. Reemplace `ServiceName` con el nombre de un servicio PSI, como recurso. Asegúrese de que reemplace todas las instancias de tres el nombre del servicio, por ejemplo:
     
     ```XML
-        <endpoint address="http://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcResource.Resource"
@@ -309,12 +309,12 @@ La configuración de servicio de PSI no utiliza los extremos y enlazados predete
   
     ```XML
         <client>
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcProject.Project"
             name="basicHttp_Project" />
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcQueueSystem.QueueSystem"
@@ -328,7 +328,7 @@ Puede editar un archivo app.config mediante el **Editor de configuración del se
 
 ![Uso del Editor de configuración del servicio WCF] (media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Uso del Editor de configuración del servicio WCF")
   
-Si la solución es usar un archivo de proxy de servicio, como wcfResource.cs, compile la aplicación y, a continuación, abra el archivo ejecutable en el `bin\debug` Active directory. Para obtener más información acerca de cómo modificar el archivo app.config, vea [Tutorial: aplicaciones de desarrollo de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+Si la solución es usar un archivo de proxy de servicio, como wcfResource.cs, compile la aplicación y, a continuación, abra el archivo ejecutable en el `bin\debug` Active directory. Para obtener más información acerca de cómo modificar el archivo app.config, vea [Tutorial: aplicaciones de desarrollo de PSI mediante WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 **Figura 5. Uso del Explorador de tipo de contrato en el Editor de configuración de servicio de WCF**
 
@@ -386,7 +386,7 @@ private void WcfSample()
 Mayoría de los ejemplos tiene una o más variables que se debe actualizar para que el ejemplo funcione correctamente en su entorno. En el siguiente ejemplo, si tiene instalado de SSL, use el protocolo HTTPS en lugar del protocolo HTTP. Reemplace _ServerName_ con el nombre del servidor que va a usar. Reemplace _ProjectServerName_ con el nombre del directorio virtual de su sitio de project server, por ejemplo, PWA. 
   
 ```cs
-const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
+const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
 ```
 
 Cualquier otra variable que deba cambiar se señala en la parte superior del ejemplo de código.
@@ -400,11 +400,11 @@ Puede verificar los resultados de muestra de código de varias formas, por ejemp
   
 - Use el cliente de Project Professional 2013 para abrir el proyecto desde el equipo de Project Server y ver los elementos que desee.
     
-- Ver los proyectos publicados en la página Centro de proyectos de Project Web App ( `http://ServerName/ProjectServerName/projects.aspx`).
+- Ver los proyectos publicados en la página Centro de proyectos de Project Web App ( `https://ServerName/ProjectServerName/projects.aspx`).
     
-- Ver el registro de cola en Project Web App. Abra la página Configuración del servidor (en la esquina superior derecha, elija el icono **configuración** ) y, a continuación, elija **Mis trabajos en cola** en la sección **Configuración Personal** ( `http://ServerName/ProjectServerName/MyJobs.aspx`). En la lista desplegable **vista** , puede ordenar por el estado del trabajo. El estado predeterminado es **en curso y los trabajos con errores en la semana pasada**. 
+- Ver el registro de cola en Project Web App. Abra la página Configuración del servidor (en la esquina superior derecha, elija el icono **configuración** ) y, a continuación, elija **Mis trabajos en cola** en la sección **Configuración Personal** ( `https://ServerName/ProjectServerName/MyJobs.aspx`). En la lista desplegable **vista** , puede ordenar por el estado del trabajo. El estado predeterminado es **en curso y los trabajos con errores en la semana pasada**. 
     
-- Use la página Configuración del servidor de Project Web App ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para administrar todos los trabajos en cola y eliminar o forzar la protección de empresa de objetos. Debe tener permisos administrativos para tener acceso a los vínculos en la página Configuración del servidor.
+- Use la página Configuración del servidor de Project Web App ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para administrar todos los trabajos en cola y eliminar o forzar la protección de empresa de objetos. Debe tener permisos administrativos para tener acceso a los vínculos en la página Configuración del servidor.
     
 - Utilice **Microsoft SQL Server Management Studio** para ejecutar una consulta en una tabla de una base de datos de Project Server. Por ejemplo, utilice la siguiente consulta para seleccionar las 200 filas superiores de la tabla MSP_WORKFLOW_STAGE_PDPS para mostrar información sobre las páginas de detalles de proyectos (PDP) en etapas de flujo de trabajo. 
     
@@ -422,7 +422,7 @@ Puede verificar los resultados de muestra de código de varias formas, por ejemp
 ## <a name="cleaning-up"></a>Limpiar
 <a name="pj15_PrerequisitesWCF_Cleanup"> </a>
 
-Después de probar algunos ejemplos de código, son objetos de empresa y la configuración que se debe eliminar o restablecer. Puede usar la página Configuración del servidor en Project Web App para administrar datos de la empresa ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Vínculos en la página Configuración del servidor permiten eliminar elementos antiguos, forzar la protección de proyectos, administrar la cola de trabajo para todos los usuarios y realizar otras tareas administrativas.
+Después de probar algunos ejemplos de código, son objetos de empresa y la configuración que se debe eliminar o restablecer. Puede usar la página Configuración del servidor en Project Web App para administrar datos de la empresa ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Vínculos en la página Configuración del servidor permiten eliminar elementos antiguos, forzar la protección de proyectos, administrar la cola de trabajo para todos los usuarios y realizar otras tareas administrativas.
   
 A continuación aparecen algunos de los enlaces de la página Configuración de servidor para utilizar para actividades típicas de limpieza después de ejecutar muestras de código:
   
@@ -453,9 +453,9 @@ Configuración adicional se administra mediante SharePoint Server 2013 para cada
 ## <a name="see-also"></a>Vea también
 
 - [Requisitos previos para ejemplos de código basados en ASMX en Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
-- [Tutorial: Desarrollar aplicaciones de PSI mediante WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
-- [Usar suplantación con WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
+- [Tutorial: Desarrollar aplicaciones de PSI mediante WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
+- [Usar suplantación con WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md) 
-- [Centro para desarrolladores de SharePoint](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [Centro para desarrolladores de SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

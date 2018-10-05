@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 40bbe110c7453cf2360fc103710fbc3bcb7f1c67
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14dd11f873493e32b83dbd1960cac8ff8ef8e436
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572056"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387051"
 ---
 # <a name="implementing-a-service-provider-entry-point-function"></a>Implementar una función de punto de entrada de proveedor de servicios
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Cada proveedor de servicios de DLL tiene una entrada de función que llama MAPI para cargarlo de punto. Tenga en cuenta que esta función de punto de entrada no es el mismo que [DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx), la función de punto de entrada de DLL de Win32.
+Cada proveedor de servicios de DLL tiene una entrada de función que llama MAPI para cargarlo de punto. Tenga en cuenta que esta función de punto de entrada no es el mismo que [DllMain](https://msdn.microsoft.com/library/ms682583.aspx), la función de punto de entrada de DLL de Win32.
   
 Según el tipo de su proveedor, la función de punto de entrada de proveedor se ajusta a un prototipo diferente. MAPI define los prototipos de función de punto de entrada diferente para los proveedores de servicios.
   
@@ -49,7 +49,7 @@ Libreta de direcciones, almacén de mensajes y los proveedores de transporte rea
     
     Si está escribiendo un proveedor de transporte, implementar [IXPProvider: IUnknown](ixpprovideriunknown.md). Para obtener más información, vea [inicializar el proveedor de transporte](initializing-the-transport-provider.md).
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

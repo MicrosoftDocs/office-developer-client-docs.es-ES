@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815694"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384426"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Multiproceso y conflictos de memoria en Excel
 
@@ -142,7 +142,7 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-Después de obtener el índice, el siguiente paso es asignar un bloque de memoria para cada subproceso. La [Documentación de desarrollo de Windows](http://msdn.microsoft.com/en-us/library/ms682583%28VS.85%29.aspx) se recomienda hacer esto cada vez que se llama a la función de devolución de llamada de **DllMain** con un evento **DLL_THREAD_ATTACH** y liberar la memoria en cada **DLL_THREAD_DETACH**. Sin embargo, siga este Consejo hará que el archivo DLL realizar el trabajo innecesario para subprocesos que no se usan para el recálculo. 
+Después de obtener el índice, el siguiente paso es asignar un bloque de memoria para cada subproceso. La [Documentación de desarrollo de Windows](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) se recomienda hacer esto cada vez que se llama a la función de devolución de llamada de **DllMain** con un evento **DLL_THREAD_ATTACH** y liberar la memoria en cada **DLL_THREAD_DETACH**. Sin embargo, siga este Consejo hará que el archivo DLL realizar el trabajo innecesario para subprocesos que no se usan para el recálculo. 
   
 En su lugar, es mejor usar una estrategia de asignación en primer uso. En primer lugar, debe definir una estructura que se va a asignar a cada proceso. Para los ejemplos anteriores que devuelven **XLOPER** o **XLOPER12s**, será suficiente, pero puede crear cualquier estructura que satisfaga sus necesidades.
   

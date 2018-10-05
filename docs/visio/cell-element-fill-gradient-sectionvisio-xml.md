@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de relleno.
-ms.openlocfilehash: c5366d1d3fcf5a4cd453bc62467353b940e89792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386358"
 ---
 # <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento de celda (relleno degradado sección) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene el color, la transparencia y la posición de un punto de degradado para
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, master # .xml, # .xml de página  <br/> |
    

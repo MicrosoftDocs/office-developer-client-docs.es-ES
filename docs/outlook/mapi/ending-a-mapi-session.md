@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575507"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385203"
 ---
 # <a name="ending-a-mapi-session"></a>Finalizar una sesión MAPI
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los clientes pueden terminar sus sesiones en respuesta a una solicitud de un usuario, ya sea inmediatamente o se han procesado los mensajes salientes después de todo, y cuando se produce un error crítico. Algunos necesitan los clientes para mantenerse iniciar sesión para que los mensajes salientes pendientes puede alcanzar el proveedor de transporte y el sistema de mensajería de destino. Si este tipo de cliente envía un mensaje y se cierra inmediatamente, el mensaje puede permanecer en la cola de salida hasta que un usuario vuelve a iniciar sesión y permanece conectado tiempo suficiente para que el mensaje que se va a transmitir.
   
@@ -27,7 +27,7 @@ Los clientes pueden terminar sus sesiones en respuesta a una solicitud de un usu
   
 1. Cancelar los registros para todas las notificaciones llamando al método **Unadvise** de todos los objetos registrados. 
     
-2. Liberar todos los objetos abiertos mediante una llamada a sus métodos [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) . Pueden incluir los tipos de objetos abiertos receptores, la tabla de estado, la carpeta Bandeja de salida, uno o varios almacenes de mensajes y la libreta de direcciones de aviso. 
+2. Liberar todos los objetos abiertos mediante una llamada a sus métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) . Pueden incluir los tipos de objetos abiertos receptores, la tabla de estado, la carpeta Bandeja de salida, uno o varios almacenes de mensajes y la libreta de direcciones de aviso. 
     
 3. Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria para los identificadores de entrada almacenada en caché, como **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
@@ -35,7 +35,7 @@ Los clientes pueden terminar sus sesiones en respuesta a una solicitud de un usu
     
 5. Liberar el puntero de sesión mediante una llamada al método **IUnknown:: Release** de la sesión. 
     
-6. Si se llama a [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) durante el inicio de sesión para inicializar las bibliotecas OLE, cancelar la inicialización de ellos ahora llamando [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx). Solo los clientes que se han llamado **OleInitialize** deben llamar **OleUninitialize**. 
+6. Si se llama a [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) durante el inicio de sesión para inicializar las bibliotecas OLE, cancelar la inicialización de ellos ahora llamando [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Solo los clientes que se han llamado **OleInitialize** deben llamar **OleUninitialize**. 
     
 7. Cancelar la inicialización de las bibliotecas de MAPI llamando [MAPIUninitialize](mapiuninitialize.md). Si se llama a **OleInitialize** en algún momento, asegúrese de que una llamada a **OleUninitialize** se produce antes de esta llamada a **MAPIUninitialize**. El momento oportuno es crucial. Si la llamada a **OleUninitialize** sigue a la llamada a **MAPIUninitialize**, su cliente puede terminar incorrectamente. 
     

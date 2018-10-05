@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d24f350c-35bf-ab16-2469-39fd5344e5fe
-ms.openlocfilehash: 554a8144fd38c34d59aa2fd0ae25d171c20cd8ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8035f541e619360403336bd2fbd931cf05dbfe59
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822097"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382445"
 ---
 # <a name="facenametype-complextype-visio-xml"></a>FaceName_Type complexType ('XML de Visio')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19822097"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguna  <br/> |
    

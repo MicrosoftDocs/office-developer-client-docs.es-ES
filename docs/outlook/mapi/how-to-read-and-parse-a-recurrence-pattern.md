@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5127f5aef50b1040b3e6f4bc644395f2af7555cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563544"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382879"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Leer y analizar un patrón de periodicidad
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI se puede usar para leer y analizar un patrón de periodicidad de una cita.
   
@@ -29,7 +29,7 @@ Para obtener información acerca de cómo descargar, ver y ejecutar el código d
     
 2. Recupere la propiedad con nombre **dispidApptRecur** ([Propiedad canónico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Para obtener información acerca de la recuperación de propiedades con nombre, vea [Propiedades de nombre de MAPI](mapi-named-properties.md).
     
-3. Siga las instrucciones en [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28EXCHG.80%29.aspx) para leer la estructura de patrón de periodicidad de una cita. 
+3. Siga las instrucciones en [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) para leer la estructura de patrón de periodicidad de una cita. 
     
 La aplicación de referencia MFCMAPI, muestra el último paso con el `BinToAppointmentRecurrencePatternStruct` (función) en el archivo de origen InterpretProp2.cpp del proyecto MFCMapi. El `BinToAppointmentRecurrencePatternStruct` función toma un puntero a un búfer en la memoria como un parámetro. La aplicación MFCMAPI obtiene este búfer mediante la primera asignación de la **dispidApptRecur** propiedad con nombre a una etiqueta de propiedad, a continuación, al solicitar el valor de la propiedad utilizando el método [IMAPIProp::GetProps](imapiprop-getprops.md) . Si la propiedad es demasiado grande para recuperar mediante el método **GetProps** , MFCMAPI abre una interfaz de secuencia para recuperar la propiedad utilizando el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . A continuación, la aplicación de MFCMAPI lee los datos fuera de la secuencia para crear el búfer. 
   
@@ -210,7 +210,7 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Uso de MAPI para crear elementos de Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Uso de MAPI para crear elementos de Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: Informa de la finalización de reajuste de citas.
-ms.openlocfilehash: 735d875b4151c86103a1ac0378bd33b84de64997
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816343"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388920"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
@@ -23,7 +23,7 @@ Informa de la finalización de reajuste de citas.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |tzmovelib.h  <br/> |
-|Se implementa mediante:  <br/> |Aplicaciones cliente MAPI  <br/> |
+|Implementado por:  <br/> |Aplicaciones cliente MAPI  <br/> |
 |Llamado por:  <br/> |Objeto de reajuste de Outlook  <br/> |
 |Tipo de puntero:  <br/> |**PFNREBASETASKCOMPLETE** tal como se define en tzmovelib.h  <br/> |
    
@@ -42,11 +42,11 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 _ulRowIndex_
   
-> [entrada] La fila que se procesó. Este índice hace referencia a la estructura **[SRowSet](http://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** pasada a [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
+> [entrada] La fila que se procesó. Este índice hace referencia a la estructura **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** pasada a [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     
 _pRowCur_
   
-> [entrada] un puntero a una estructura **[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** que describe el elemento que se procesó. 
+> [entrada] un puntero a una estructura **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** que describe el elemento que se procesó. 
     
 _hrResult_
   

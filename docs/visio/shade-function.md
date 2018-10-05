@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b4fbcb8-1ae4-c9fb-6337-b72f49aedd91
 description: Modifica el color disminuyendo su luminosidad según la cantidad (positiva o negativa) especificado en el parámetro int.
-ms.openlocfilehash: 4a02aa41050c3cf36b567c238670b5f61074bd7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b31b4c49a823ace3f6474b94ba3737791928520d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823133"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382984"
 ---
 # <a name="shade-function"></a>Función SHADE
 
@@ -37,6 +37,6 @@ TONO (** *color* **, ** *int* **)
 
 Los límites superiores e inferiores de luminosidad son 0 y 240, respectivamente. No hay ningún límite en el tamaño del número entero que se puede pasar para el parámetro _int_ , pero la luminosidad nunca supera estos límites. 
   
-![](media/image199_ZA10173627.gif)
+![Límites superior e inferior de luminosidad](media/image199_ZA10173627.gif)
   
 

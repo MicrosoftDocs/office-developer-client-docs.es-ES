@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 69023d2c13037fb52a4d1dc4f7376efbd839aebc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385728"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Especifica que un carácter opcional establece que la MAPI para el uso de convertidor MIME al convertir un mensaje MAPI a una secuencia MIME.
   
@@ -42,7 +42,7 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [entrada] Un identificador de un juego de caracteres como se define en mimeole.h de correo de Windows. Especifique **null** para especificar que no desea aplicar cualquier juego de caracteres específico. Para los valores que no son **null** , usar una función como [MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx) para obtener un identificador para el juego de caracteres. 
+> [entrada] Un identificador de un juego de caracteres como se define en mimeole.h de correo de Windows. Especifique **null** para especificar que no desea aplicar cualquier juego de caracteres específico. Para los valores que no son **null** , usar una función como [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) para obtener un identificador para el juego de caracteres. 
     
  _csetapplytype_
   
@@ -54,16 +54,16 @@ S_OK
   
 > La llamada a la función es correcta.
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

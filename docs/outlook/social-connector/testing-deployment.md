@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
 description: En este tema se describe algunos escenarios que se deben probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
-ms.openlocfilehash: 0494d2ecab446b7da091f80df02267e281987d8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c811683097a08b9f6e575d4ea2fee29cdd545d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821230"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383938"
 ---
 # <a name="testing-deployment"></a>Probar la implementación
 
@@ -27,7 +27,7 @@ Factores de la afectan a la instalación de un proveedor de OSC incluye el valor
   
 Para obtener una versión de 32 bits o 64 bits de la OSC se puede escribir un proveedor de OSC. Outlook 2010 y Outlook 2013 están disponibles en versiones de 32 bits y 64 bits, y Office Outlook 2003 y Office Outlook 2007 están disponibles en versiones de 32 bits sólo. En un sistema operativo de Windows de 64 bits, puede instalar Outlook de 32 bits o 64 bits. En un sistema operativo de 32 bits, puede instalar pero no sólo 32 bits, 64 bits, Outlook. Según el valor de bits de la versión instalada de Outlook y el proveedor de OSC propio, el usuario debe usar al instalador adecuado para instalar a un proveedor de OSC del valor de bits adecuada. Por ejemplo, si está instalado Outlook de 64 bits, y el proveedor de OSC es un componente COM nativo, un proveedor OSC de 32 bits no funcionarán y el usuario debe usar al instalador adecuado para instalar a un proveedor OSC de 64 bits.
   
-El código de implementación del proveedor de OSC puede asumir que el usuario tiene una versión compatible de Outlook en el equipo. Sin embargo, si la versión actual de OSC no está en el equipo cliente, el código de implementación puede descargar e instalar una versión adecuada de la OSC mediante el uso de las direcciones URL de vínculo de g construidas especialmente en http://g.live.com. Estos vínculos de g dependen de la versión y el valor de bits de Outlook y la configuración regional del equipo cliente. Para obtener más información acerca del uso de vínculos de g para instalar o actualizar el OSC, vea [lista de comprobación de instalación](installation-checklist.md).
+El código de implementación del proveedor de OSC puede asumir que el usuario tiene una versión compatible de Outlook en el equipo. Sin embargo, si la versión actual de OSC no está en el equipo cliente, el código de implementación puede descargar e instalar una versión adecuada de la OSC mediante el uso de las direcciones URL de vínculo de g construidas especialmente en https://g.live.com. Estos vínculos de g dependen de la versión y el valor de bits de Outlook y la configuración regional del equipo cliente. Para obtener más información acerca del uso de vínculos de g para instalar o actualizar el OSC, vea [lista de comprobación de instalación](installation-checklist.md).
   
 Antes de instalar a un proveedor de OSC, el usuario de Outlook debe asegurarse de que el complemento de OSC esté habilitado en Outlook.
   

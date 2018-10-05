@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: ea9656f9571777478d3db9a2613fbff5ddef0ee6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41d953db8e00ff52cd09a27e2f7550f9f1879321
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592293"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386225"
 ---
 # <a name="releasing-the-transport-provider"></a>Publicar el proveedor de transporte
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cuando MAPI o la cola MAPI termina de usar un objeto de inicio de sesión de transporte:
   
@@ -27,7 +27,7 @@ Cuando MAPI o la cola MAPI termina de usar un objeto de inicio de sesión de tra
     
 2. El proveedor de transporte invalida el objeto de estado llamando al método [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) . Si el proveedor de transporte invalida los objetos de mensaje que se va a enviados o recibidos en el momento de la llamada **TransportLogoff** dependen de los indicadores que se han pasado a **TransportLogoff**.
     
-3. El proveedor de transporte llama a [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) (método) del objeto de soporte técnico para quitar la fila del proveedor de transporte de la tabla de estado y quitar de las tablas internas cualquier identificadores únicos (UID) que se han establecido con el [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) (método). Se disminuye el recuento de objetos de inicio de sesión conocido activos en este objeto de proveedor. Si el recuento llega a cero, MAPI llama al método [IXPProvider::Shutdown](ixpprovider-shutdown.md) y la **versión** en el objeto de proveedor. Si éste era el último objeto de proveedor conocidos con este archivo DLL en este proceso, MAPI llama a la función **FreeLibrary** en el archivo DLL en un momento posterior. Se libera memoria para el objeto de soporte técnico MAPI y devuelve el objeto compatible con el método de **versión** . 
+3. El proveedor de transporte llama a [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) (método) del objeto de soporte técnico para quitar la fila del proveedor de transporte de la tabla de estado y quitar de las tablas internas cualquier identificadores únicos (UID) que se han establecido con el [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) (método). Se disminuye el recuento de objetos de inicio de sesión conocido activos en este objeto de proveedor. Si el recuento llega a cero, MAPI llama al método [IXPProvider::Shutdown](ixpprovider-shutdown.md) y la **versión** en el objeto de proveedor. Si éste era el último objeto de proveedor conocidos con este archivo DLL en este proceso, MAPI llama a la función **FreeLibrary** en el archivo DLL en un momento posterior. Se libera memoria para el objeto de soporte técnico MAPI y devuelve el objeto compatible con el método de **versión** . 
     
 4. El método **TransportLogoff** devuelve S_OK. 
     

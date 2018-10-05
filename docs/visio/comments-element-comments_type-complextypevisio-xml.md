@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
 description: Especifica propiedades que se usan para identificar los autores y los comentarios en un dibujo.
-ms.openlocfilehash: 77695fb32aa88cb6c2b6ac5e9bff99fa12e262bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d82125cc5d795f0cb4455a5c10be1abf001e1198
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389648"
 ---
 # <a name="comments-element-commentstype-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica propiedades que se usan para identificar los autores y los comentario
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Comments.Xml  <br/> |
    

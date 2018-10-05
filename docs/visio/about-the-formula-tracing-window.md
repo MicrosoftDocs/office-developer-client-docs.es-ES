@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0cdacd4e-74dc-32c3-2eb2-219bf7fcb532
 description: La ventana Rastreo de fórmulas se ha diseñado para ofrecer a los programadores de formas información sobre las interdependencias entre celdas, tanto las dependientes (celdas que dependen de otra celda determinada) como las precedentes (celdas de las cuales depende una celda determinada).
-ms.openlocfilehash: 316ac219f548b2459ea2d0ad8cece0f693957fcf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5f9d6a7ba3ab7049715d31342cfe7aa68ea053f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821492"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385329"
 ---
 # <a name="about-the-formula-tracing-window"></a>Información sobre la ventana Rastreo de fórmulas
 
@@ -32,24 +32,24 @@ Para ver la ventana **Rastreo de fórmulas** , con la ventana ShapeSheet activa,
 
 Para ver una lista de las celdas dependientes de una celda determinada, seleccione dicha celda en la ventana ShapeSheet. En este ejemplo, está seleccionada la celda Width. 
   
-![](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
+![Se selecciona la celda Width](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
   
 Para ver sus celdas dependientes, en el grupo **Rastreo de fórmulas**, haga clic en **Rastrear dependientes**.
   
 Aparecerá una lista de todas las celdas que dependan de Width en la ventana **Rastreo de fórmulas**. Puede explorar cualquiera de ellas haciendo doble clic en la ventana **Rastreo de fórmulas**. 
   
-![](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
+![Todas las celdas con una dependencia en la celda Width aparecen en la ventana Rastreo de fórmulas](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
   
 ## <a name="tracing-precendent-cells"></a>Rastreo de celdas precendent
 
 Para ver una lista de las celdas de las cuales depende una celda determinada, seleccione primero dicha celda en la ventana ShapeSheet. En este ejemplo, está seleccionada la celda Geometry1.X2. 
   
-![](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
+![Se selecciona la celda Geometry1.X2](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
   
 Para ver sus celdas precedentes, en el grupo **Rastreo de fórmulas**, haga clic en **Rastrear precedentes**.
   
 Aparece una lista de todas las celdas que depende la celda Geometry1.X2 en la ventana **Rastreo de fórmulas** . Puede navegar a cualquier celda de la lista haciendo doble clic en su entrada en la ventana **Rastreo de fórmulas** . 
   
-![](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
+![Todas las celdas que depende la celda Geometry1.X2 aparecen en la ventana Rastreo de fórmulas](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
   
 

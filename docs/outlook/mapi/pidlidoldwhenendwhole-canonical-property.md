@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 788227e9-9bcf-465c-886c-746dbc665230
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f1b98b12ac573165495de6938dd4bcd7e22a084b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a00517dfa87d739f19c19d0b02ab8437cae698d5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588464"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382557"
 ---
 # <a name="pidlidoldwhenendwhole-canonical-property"></a>Propiedad canónica PidLidOldWhenEndWhole
 
@@ -43,11 +43,11 @@ Esta propiedad no es necesaria.
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
 description: Presenta funciones y fórmulas insertadas en el texto de una forma con el cuadro de diálogo Campo.
-ms.openlocfilehash: 94c9807984ef0e327c1cc9f8449d1ea065fdd717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6c3c724b210ad579012ff58b93333e28c2a8cf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821707"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383341"
 ---
 # <a name="cell-element-field-section-visio-xml"></a>Elemento de celda (sección de campos) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Presenta funciones y fórmulas insertadas en el texto de una forma con el cuadro
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    
@@ -73,6 +73,6 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
 |UICat  <br/> |Determina la categoría de un campo insertado. Esta celda se usa en los cuadros de diálogo de formato de campo y de datos para determinar la información de campo y de categoría.  <br/> |[Celda UICategory (Sección de campos de texto)](uicategory-cell-text-fields-section.md) <br/> |
 |UICod  <br/> |Determina el código de un campo insertado. Esta celda se usa en los cuadros de diálogo de formato de campo y de datos para determinar la información de campo y de categoría.  <br/> |[Celda UICode (Sección de campos de texto)](uicode-cell-text-fields-section.md) <br/> |
 |UIFmt  <br/> |Determina el formato de un campo insertado. Esta celda se usa en los cuadros de diálogo de formato de campo y de datos para determinar el campo y  <br/> |[Celda UIFormat (Sección de campos de texto)](uiformat-cell-text-fields-section.md) <br/> |
-|Value  <br/> |Contiene la función de un campo.  <br/> |[Celda Value (Sección de campos de texto)](value-cell-text-fields-section.md) <br/> |
+|Valor  <br/> |Contiene la función de un campo.  <br/> |[Celda Value (Sección de campos de texto)](value-cell-text-fields-section.md) <br/> |
    
 

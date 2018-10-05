@@ -25,12 +25,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Obtenga información sobre las características principales de programación de Project Server 2013. En este artículo se incluye información acerca de trasladar las aplicaciones que han sido creadas para versiones anteriores de Project Server.
-ms.openlocfilehash: f3901fe97f1c8291d0b35709f2350fc4358044b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57802cf8ce1597b759201ef1e2a0ea9bd1e394b1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386736"
 ---
 # <a name="project-server-programmability"></a>Programación de Project Server
 
@@ -58,7 +58,7 @@ La aplicación de servicio de proyecto es un proveedor de servicio lógico que p
 
 ![Edición de la página principal de Project Web Access] (media/pj15_Programmability_PWAHome.gif "Edición de la página principal de Project Web Access")
   
-Para obtener acceso a la página Configuración del sitio de Project Web App, elija el icono de **configuración** en la esquina superior derecha de la página. La página Configuración del sitio ( `http://ServerName/ProjectServerName/_layouts/15/settings.aspx`) permite cambiar la apariencia y el tema del sitio, agregar elementos Web personalizados y modificar o crear páginas maestras de los sitios de proyecto.
+Para obtener acceso a la página Configuración del sitio de Project Web App, elija el icono de **configuración** en la esquina superior derecha de la página. La página Configuración del sitio ( `https://ServerName/ProjectServerName/_layouts/15/settings.aspx`) permite cambiar la apariencia y el tema del sitio, agregar elementos Web personalizados y modificar o crear páginas maestras de los sitios de proyecto.
   
 Personalización del código en las páginas ASPX o personalización de las páginas maestras de Project Web App con SharePoint Designer 2013, no se admite. Personalización del código en las páginas de Project Web App puede causar problemas con los service packs y actualizaciones de Project Server. 
   
@@ -67,7 +67,7 @@ Personalización del código en las páginas ASPX o personalización de las pág
 
 Debido a que Project Web App es una aplicación de SharePoint y los sitios de proyecto son sitios de SharePoint, puede agregar aplicaciones personalizadas, elementos Web, controladores de eventos, campos personalizados y otras características mediante el uso de paquetes de SharePoint (archivos .wsp) o aplicaciones de SharePoint (archivos .spapp). Un paquete de SharePoint o un paquete de aplicación puede incluir varias entidades de Project Server, donde se especifican las definiciones de entidad en un archivo elements.xml dentro del paquete.
   
-Para Project Online, puede agregar botones a la cinta de opciones de Project Web App, pero no se puede quitar o cambiar el nombre de los botones de producto existente y no se puede crear nuevas fichas de la cinta de opciones. Para obtener más información, vea [crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx).
+Para Project Online, puede agregar botones a la cinta de opciones de Project Web App, pero no se puede quitar o cambiar el nombre de los botones de producto existente y no se puede crear nuevas fichas de la cinta de opciones. Para obtener más información, vea [crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx).
   
 > [!CAUTION]
 > Al instalar un paquete o un paquete de aplicación de SharePoint, los tipos de entidades de Project Server deben aparecer en el orden especificado por el esquema PSEntityProvision.xsd o se producirá un error en la validación del esquema del paquete y la instalación no se realizará. 
@@ -104,7 +104,7 @@ Al actualizar una aplicación desarrollada para una versión anterior de Project
 > [!NOTE]
 > Si el CSOM incluye la funcionalidad que necesita, se recomienda actualizar aplicaciones para usar el CSOM. El CSOM permite que las aplicaciones que se usará para local y las instalaciones en línea de Project Server 2013. 
   
-Si la aplicación lee principalmente datos de Project Server, puede usar las tablas y vistas de informes en la base de datos de Project Server para un escenario local. Si piensa usar la aplicación con Project Online, puede usar el Protocolo OData para el servicio **ProjectData** , que proporciona acceso en línea a los datos de informes y local. Para obtener más información, vea [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)
+Si la aplicación lee principalmente datos de Project Server, puede usar las tablas y vistas de informes en la base de datos de Project Server para un escenario local. Si piensa usar la aplicación con Project Online, puede usar el Protocolo OData para el servicio **ProjectData** , que proporciona acceso en línea a los datos de informes y local. Para obtener más información, vea [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/library/office/jj163015.aspx)
   
 ### <a name="using-the-psi"></a>Empleo de PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -153,7 +153,7 @@ Las aplicaciones desarrolladas para PDS no son compatibles con versiones posteri
 > [!NOTE]
 > Debido a que las aplicaciones de PDS deben deben rediseñarse por completo para Project Server 2013, se recomienda que use el CSOM. 
   
-Para obtener más información sobre la compatibilidad de PDS y para ver directrices para la migración de extensiones de PDS a PSI, consulte [PDS Parity in PSI Web Services](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
+Para obtener más información sobre la compatibilidad de PDS y para ver directrices para la migración de extensiones de PDS a PSI, consulte [PDS Parity in PSI Web Services](https://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>Aplicaciones de migración compiladas para Project Server 2007 y Project Server 2010
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -168,12 +168,12 @@ La PSI de Project Server 2013 es un superconjunto del modelo de objetos PSI en O
     
 - Para las aplicaciones que modifican la programación de proyectos, use el CSOM o cambie la aplicación para que utilice el método PSI [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) . 
     
-- Local o aplicaciones web que inicie sesión en instancias diferentes de Project Web App a los usuarios deben usar valores mediante programación para los extremos WCF de CSOM o la PSI. Los métodos están en desuso. Aplicaciones deben usar la autenticación de OAuth en lugar de la autenticación de formularios y para su uso con Project Online. Para obtener más información, vea [autorización y autenticación para aplicaciones en SharePoint 2013](http://msdn.microsoft.com/en-us/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1).
+- Local o aplicaciones web que inicie sesión en instancias diferentes de Project Web App a los usuarios deben usar valores mediante programación para los extremos WCF de CSOM o la PSI. Los métodos están en desuso. Aplicaciones deben usar la autenticación de OAuth en lugar de la autenticación de formularios y para su uso con Project Online. Para obtener más información, vea [autorización y autenticación para aplicaciones en SharePoint 2013](https://msdn.microsoft.com/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1).
     
 - Aplicaciones que se basan en una configuración concreta de seguridad de Project Server o la modifican.
     
   > [!NOTE]
-  > Una instalación local de predeterminada de Project Server 2013 usa el modo de permiso de SharePoint, donde la configuración de seguridad de Project Server no es accesibles a través de la PSI. Para cambiar al modo de permiso de Project, vea la sección *Modo de permisos de SharePoint* en [Novedades para los profesionales de TI en Project Server 2013](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
+  > Una instalación local de predeterminada de Project Server 2013 usa el modo de permiso de SharePoint, donde la configuración de seguridad de Project Server no es accesibles a través de la PSI. Para cambiar al modo de permiso de Project, vea la sección *Modo de permisos de SharePoint* en [Novedades para los profesionales de TI en Project Server 2013](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
   
 - Para muchos Project Server flujos de trabajo personalizados, puede usar SharePoint Designer 2013 para crear flujos de trabajo declarativos. Para flujos de trabajo personalizados que requieren programación adicional, debería usar *no* directamente clases o miembros en el espacio de nombres **Microsoft.Office.Project.Server.Workflow** . En su lugar, use la clase [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) en el CSOM. 
     
@@ -235,7 +235,7 @@ A continuación se enumeran los problemas y las limitaciones de la programación
   
 - **Cambio del estado activo de una tarea** El motor de programación de Project Server más antiguos puede mostrar incoherente inicio o de finalización veces cuando utilice el método [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) para cambiar el estado activo de una tarea, si hay varios cambios en el objeto **ProjectDataSet** para el _ conjunto de datos_ parámetro. Si la propiedad **TASK_IS_ACTIVE** es el único cambio en el parámetro de _conjunto de datos_ de **QueueUpdateProject**, puede actualizar el proyecto.
     
-    Para obtener más información acerca de las tareas inactivas y el motor de programación más antiguos, consulte el blog de artículos de [Introducción de las tareas inactivas en Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) y [Project Server 2010: programación en el web, la PSI y Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obtener una comparación de programación en Project Professional 2010 y Project Web App en Project Server 2010, consulte [comparación de administración de programación basada en Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
+    Para obtener más información acerca de las tareas inactivas y el motor de programación más antiguos, consulte el blog de artículos de [Introducción de las tareas inactivas en Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) y [Project Server 2010: programación en el web, la PSI y Project Professional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obtener una comparación de programación en Project Professional 2010 y Project Web App en Project Server 2010, consulte [comparación de administración de programación basada en Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
 - **No calcula el valor acumulado** El motor de programación más antiguos no calcula los campos de valor acumulado: CRTR, CPF, CPTR, CPTP, IRC, VC, VC %, CEF, SPI, VP, VP %, IRPC, VAF, variación de duración, variación de comienzo, variación de fin, variación de costo y variación de trabajo. Si un proyecto tiene los valores de estos campos y el proyecto se actualiza mediante el método **QueueUpdateProject** , no cambie los valores de campo. Para evitar el problema, use el método **QueueUpdateProject2** . 
     
@@ -275,9 +275,9 @@ Las aplicaciones que tienen acceso directamente a la borrador, publicados o arch
   
 Para todos estos motivos, Project Professional y Project Web App no realizan llamadas directas a la borrador, publicado, o archivar tablas; tampoco deberían cualquier otra aplicación que se integra con Project Server.
   
-Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Puede usar las tablas de informes para ayudar a generar informes y se documenta el esquema de las tablas y vistas de informes en la descarga del SDK de Project 2013. Para el esquema de OData de los datos de informes, consulte [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
+Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Puede usar las tablas de informes para ayudar a generar informes y se documenta el esquema de las tablas y vistas de informes en la descarga del SDK de Project 2013. Para el esquema de OData de los datos de informes, consulte [ProjectData: referencia de servicio OData de Project](https://msdn.microsoft.com/library/office/jj163015.aspx).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md)    
 - [Project Server 2013 architecture](project-server-2013-architecture.md)    
@@ -287,7 +287,7 @@ Los esquemas del borrador, publicado, y tablas de archivo no se documentan. Pued
 - [Empezar a desarrollar flujos de trabajo de Project Server](getting-started-developing-project-server-workflows.md)    
 - [Referencias de programación de Project 2013](project-2013-programming-references.md)    
 - [Información general de referencia PSI de Project](project-psi-reference-overview.md)    
-- [Crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
-- [Introducción a las tareas inactivas en Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
+- [Crear acciones personalizadas para implementarlas con aplicaciones para SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx)    
+- [Introducción a las tareas inactivas en Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
 - [Project Server 2010: Programación en el Web, la PSI y Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

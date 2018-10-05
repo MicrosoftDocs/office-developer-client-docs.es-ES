@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587862"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382760"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
@@ -87,7 +87,7 @@ Los proveedores de almacén de mensajes implementan el método **IMSLogon::Advis
   
 La llamada a **OnNotify** puede producirse durante la llamada que cambia el objeto, o en cualquier momento posterior. En los sistemas que admiten varios subprocesos de ejecución, puede producirse la llamada a **OnNotify** en cualquier subproceso. Para administrar de forma segura una llamada a **OnNotify** que puede suceder en un momento inoportuno, una aplicación de cliente debe usar la función [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Para proporcionar notificaciones, el proveedor de almacenamiento de mensajes que implementa las necesidades de **Advise** para mantener una copia del puntero a la _lpAdviseSink_ aviso objeto receptor; Para ello, el proveedor llama al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para el receptor de notificaciones mantener su puntero del objeto hasta que se cancele el registro de la notificación con una llamada al método [IMSLogon::Unadvise](imslogon-unadvise.md) . La implementación de **Advise** debe asignar a un número de conexión para el registro de la notificación y llamar a **AddRef** en este número de conexión antes de devolver en el parámetro _lpulConnection_ . Proveedores de servicios pueden liberar el objeto de receptor de advise antes de que se ha cancelado el registro, pero no debe liberar el número de conexión hasta que se ha llamado al **Unadvise** . 
+Para proporcionar notificaciones, el proveedor de almacenamiento de mensajes que implementa las necesidades de **Advise** para mantener una copia del puntero a la _lpAdviseSink_ aviso objeto receptor; Para ello, el proveedor llama al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para el receptor de notificaciones mantener su puntero del objeto hasta que se cancele el registro de la notificación con una llamada al método [IMSLogon::Unadvise](imslogon-unadvise.md) . La implementación de **Advise** debe asignar a un número de conexión para el registro de la notificación y llamar a **AddRef** en este número de conexión antes de devolver en el parámetro _lpulConnection_ . Proveedores de servicios pueden liberar el objeto de receptor de advise antes de que se ha cancelado el registro, pero no debe liberar el número de conexión hasta que se ha llamado al **Unadvise** . 
   
 Después de que se ha realizado correctamente una llamada a **Advise** y antes de que se ha llamado al **Unadvise** , es preciso preparar los proveedores para que el objeto de receptor advise que liberar. Por lo tanto, un proveedor debe liberar su objeto de receptor advise después **Advise** devuelve, a menos que tenga un uso a largo plazo específico para él. 
   

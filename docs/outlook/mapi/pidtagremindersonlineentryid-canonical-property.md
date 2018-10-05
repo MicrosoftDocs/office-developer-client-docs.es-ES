@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cad25cca-248d-4845-9d60-7aa60f2dda62
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b3d1d2a20720bd1c4b15464cd24aac4415721ae8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d845a37f9248a30dadd4db7722d8bed0f9f8d264
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563180"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384755"
 ---
 # <a name="pidtagremindersonlineentryid-canonical-property"></a>Propiedad canónica PidTagRemindersOnlineEntryId
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene la **propiedad EntryID** de la carpeta de avisos. 
   
@@ -52,11 +52,11 @@ Esta propiedad se almacena en la carpeta Bandeja de entrada y en la carpeta raí
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para la creación y la ubicación de las carpetas especiales en un buzón de correo.
     
@@ -70,7 +70,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

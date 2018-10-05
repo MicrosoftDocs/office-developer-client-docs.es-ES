@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 14964f367e3dbca484c4e1612b374a6a72ddf17b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593784"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383746"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre una interfaz de secuencia en el texto de un mensaje de encapsulado.
   
@@ -55,7 +55,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] Un puntero a un puntero a un objeto stream que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de en el pasado encapsula el mensaje y admita la interfaz [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [out] Un puntero a un puntero a un objeto stream que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de en el pasado encapsula el mensaje y admita la interfaz [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -77,7 +77,7 @@ Como parte de su procesamiento, **OpenTaggedBody** inserta o analiza las etiquet
   
 Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se eliminan las etiquetas y los objetos de datos adjuntos se reubican en la posición de las etiquetas en el objeto stream.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

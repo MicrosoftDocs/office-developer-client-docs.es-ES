@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc98b201b31048e22e093d92c9cf2d5ff1fb0257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563579"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383152"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Creación de aplicaciones MAPI en plataformas de 32 bits y 64 bits
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En este tema se describe las acciones que deberían seguir los desarrolladores MAPI para cambiar y volver a generar las aplicaciones de MAPI de 32 bits se ejecuten en una plataforma de 64 bits y las aplicaciones de 64 bits se ejecuten en una plataforma de 32 bits. En este tema, una plataforma de 64 bits es un equipo que se instala con Windows de 64 bits y de 64 bits de Microsoft Outlook y una plataforma de 32 bits es un equipo que se instala con un Outlook de 32 bits y Windows de 32 bits o 64 bits. 
   
@@ -53,7 +53,7 @@ Las aplicaciones MAPI compiladas para un subsistema MAPI de 32 bits que está di
   
 ### <a name="32-bit-mapi-application-and-64-bit-outlook"></a>aplicación de MAPI de 32 bits y 64 bits Outlook
 
-no se admiten las aplicaciones de MAPI de 32 bits para ejecutar en un equipo que se instala con Outlook de 64 bits y 64 bits de Windows. El desarrollador de aplicaciones debe actualizar y volver a generar la aplicación como una aplicación de 64 bits para la plataforma de 64 bits. Esto es debido a que una aplicación de 32 bits no puede cargar un archivo Msmapi32.dll de 64 bits. Hay un pequeño número de cambios en la API que los desarrolladores de aplicaciones deben incorporar para generar su código correctamente para un entorno de 64 bits. Se han actualizado los archivos de encabezado MAPI con estos cambios para admitir la plataforma de 64 bits. Puede descargar estos archivos de encabezado en [Outlook 2010: archivos de encabezado de MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Los desarrolladores pueden utilizar este mismo conjunto de archivos de encabezado MAPI para crear aplicaciones de MAPI de 32 bits y 64 bits.
+no se admiten las aplicaciones de MAPI de 32 bits para ejecutar en un equipo que se instala con Outlook de 64 bits y 64 bits de Windows. El desarrollador de aplicaciones debe actualizar y volver a generar la aplicación como una aplicación de 64 bits para la plataforma de 64 bits. Esto es debido a que una aplicación de 32 bits no puede cargar un archivo Msmapi32.dll de 64 bits. Hay un pequeño número de cambios en la API que los desarrolladores de aplicaciones deben incorporar para generar su código correctamente para un entorno de 64 bits. Se han actualizado los archivos de encabezado MAPI con estos cambios para admitir la plataforma de 64 bits. Puede descargar estos archivos de encabezado en [Outlook 2010: archivos de encabezado de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Los desarrolladores pueden utilizar este mismo conjunto de archivos de encabezado MAPI para crear aplicaciones de MAPI de 32 bits y 64 bits.
   
 ### <a name="64-bit-mapi-application-and-64-bit-outlook"></a>aplicación de MAPI de 64 bits y 64 bits Outlook
 
@@ -61,7 +61,7 @@ se admiten las aplicaciones de MAPI de 64 bits en equipos instalados con Outlook
   
 ### <a name="64-bit-mapi-application-and-32-bit-outlook"></a>aplicación de 64 bits MAPI y Outlook de 32 bits
 
-no se admiten las aplicaciones de MAPI de 64 bits para ejecutar en un equipo que se instala con Outlook de 32 bits y Windows de 32 bits o 64 bits. El desarrollador de aplicaciones debe actualizar y volver a generar la aplicación como una aplicación de 32 bits para trabajar con Outlook de 32 bits. Usar los archivos de encabezado MAPI actualizados, que puede descargar en [Outlook 2010: archivos de encabezado de MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Los desarrolladores pueden utilizar este mismo conjunto de archivos de encabezado MAPI para crear aplicaciones de MAPI de 32 bits y 64 bits.
+no se admiten las aplicaciones de MAPI de 64 bits para ejecutar en un equipo que se instala con Outlook de 32 bits y Windows de 32 bits o 64 bits. El desarrollador de aplicaciones debe actualizar y volver a generar la aplicación como una aplicación de 32 bits para trabajar con Outlook de 32 bits. Usar los archivos de encabezado MAPI actualizados, que puede descargar en [Outlook 2010: archivos de encabezado de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Los desarrolladores pueden utilizar este mismo conjunto de archivos de encabezado MAPI para crear aplicaciones de MAPI de 32 bits y 64 bits.
   
 ### <a name="exception-mapisendmail"></a>Excepción: MAPISendMail
 
@@ -79,7 +79,7 @@ La figura 2 muestra un escenario de WOW64 en el que llama a una aplicación de M
 
 ![Procesamiento de MAPISendMail en un escenario de WOW64] (media/346ba974-4844-4b64-9dd1-d0f829ab99b3.gif "Procesamiento de MAPISendMail en un escenario de WOW64")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
 

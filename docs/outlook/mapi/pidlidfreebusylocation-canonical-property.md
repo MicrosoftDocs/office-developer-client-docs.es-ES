@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c7c123e7a715d13be9a7e46a63a4dfdc21fa2e39
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50fa3c1e1173a91d7c03759f4f635f1bb6e0600d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385658"
 ---
 # <a name="pidlidfreebusylocation-canonical-property"></a>Propiedad canónica PidLidFreeBusyLocation
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Especifica una ruta de acceso de dirección URL desde la que un cliente puede recuperar la información de disponibilidad para el contacto como un archivo de iCalendar, como especifica en [[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
+Especifica una ruta de acceso de dirección URL desde la que un cliente puede recuperar la información de disponibilidad para el contacto como un archivo de iCalendar, como especifica en [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ Especifica una ruta de acceso de dirección URL desde la que un cliente puede re
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
     
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

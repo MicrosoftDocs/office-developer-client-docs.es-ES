@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: 311d055e0a319ec26cdc4eba5ac3b50dc9e63d9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dc2fe6bbaf4515d5c5f5be694b15040bf03ef374
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565182"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384643"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 
@@ -21,7 +21,7 @@ Proporciona información adicional sobre el último error.
 
 |||
 |:-----|:-----|
-|Hereda de:  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Hereda de:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
@@ -35,7 +35,7 @@ Proporciona información adicional sobre el último error.
 
 Esta interfaz proporciona información adicional acerca de un error en [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)y [IOlkAccount](iolkaccount.md). También es la interfaz base para **IOlkAccountManager**, **IOlkAccountNotify**y **IOlkAccount**. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: Project Server Interface (PSI) puede ayudar a automatizar muchos procesos de servidor en instalaciones locales de Project Server 2013. Sin embargo, hay varias funciones requieren el uso de Microsoft Project Professional 2013.
-ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b93c3535ca6693a84d11370de17bc18375f168ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588114"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386344"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Lo que hace y no hace PSI
 
@@ -49,12 +49,12 @@ A continuación se muestran ejemplos de algunas aplicaciones compatibles con PSI
     
 - **Crear actividades de flujo de trabajo personalizado para la administración de propuestas** Use la interfaz PSI en las actividades del flujo de trabajo local, de plena confianza para modificar y actualizar las propuestas de proyecto en función de las plantillas de proyecto de empresa. Usar campos personalizados de proyecto para etiquetar el proyecto con la información necesaria para el proceso de inicio y aprobación. Agregue tareas para identificar las fases de proyecto para los hitos clave o entregas. Cuando se aprueban las propuestas de proyecto, un flujo de trabajo puede cambiar las propuestas en proyectos a gran escala que se administran con Project Professional. 
     
-- **Extensiones de creación de PSI** (**En desuso.** Las extensiones están en desuso en Project Server 2013 y no se admite en versiones futuras). La PSI se puede extender con servicios personalizados mediante la interfaz de Windows Communication Foundation (WCF). Extensiones de PSI ejecutan en el equipo de Project Server y pueden usar la misma infraestructura de seguridad que usan los servicios integrados de PSI. Las extensiones de las tablas de informes de consulta, utilice tablas de base de datos independiente, consolidar las llamadas PSI para ahorrar ancho de banda e integrar con aplicaciones de terceros y otros componentes del lado del servidor. Para obtener más información, vea [Desarrollar extensiones de PSI](http://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
+- **Extensiones de creación de PSI** (**En desuso.** Las extensiones están en desuso en Project Server 2013 y no se admite en versiones futuras). La PSI se puede extender con servicios personalizados mediante la interfaz de Windows Communication Foundation (WCF). Extensiones de PSI ejecutan en el equipo de Project Server y pueden usar la misma infraestructura de seguridad que usan los servicios integrados de PSI. Las extensiones de las tablas de informes de consulta, utilice tablas de base de datos independiente, consolidar las llamadas PSI para ahorrar ancho de banda e integrar con aplicaciones de terceros y otros componentes del lado del servidor. Para obtener más información, vea [Desarrollar extensiones de PSI](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
     
-- **Usar suplantación en las aplicaciones locales y de plena confianza** Las llamadas a la interfaz WCF de la PSI pueden ser suplantadas, por lo que una aplicación supone que los permisos de seguridad del usuario suplantado. Suplantación debe usarse con moderación y cuidadosamente. Leer y actualizar la información de estado de otros usuarios no requieren suplantación. Nuevas aplicaciones que requieren la suplantación deben usar el protocolo de OAuth y el CSOM en lugar de la PSI. Para obtener más información sobre la suplantación con la interfaz PSI, vea [Usar suplantación con WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
+- **Usar suplantación en las aplicaciones locales y de plena confianza** Las llamadas a la interfaz WCF de la PSI pueden ser suplantadas, por lo que una aplicación supone que los permisos de seguridad del usuario suplantado. Suplantación debe usarse con moderación y cuidadosamente. Leer y actualizar la información de estado de otros usuarios no requieren suplantación. Nuevas aplicaciones que requieren la suplantación deben usar el protocolo de OAuth y el CSOM en lugar de la PSI. Para obtener más información sobre la suplantación con la interfaz PSI, vea [Usar suplantación con WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
     
 > [!NOTE]
-> En algunos casos, se puede usar la interfaz PSI en aplicaciones de cliente con el CSOM y Project Online. Si usa un servicio web PSI basadas en ASMX, la aplicación debe incluir un método para autenticar el objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el CSOM y un método para autenticar el ** System.Web.Services.Protocols.SoapHttpClientProtocol** objeto de cliente. Para obtener un ejemplo que usa un servicio web con el CSOM de SharePoint, vea [Autenticación remota en la autenticación SharePoint Online Using Claims-Based](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Porque de permisos de nivel de aplicación limitados, la interfaz PSI no puede usarse en las aplicaciones que están diseñadas para su distribución en la tienda de Office pública. En ese caso, puede usar sólo el CSOM. 
+> En algunos casos, se puede usar la interfaz PSI en aplicaciones de cliente con el CSOM y Project Online. Si usa un servicio web PSI basadas en ASMX, la aplicación debe incluir un método para autenticar el objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el CSOM y un método para autenticar el ** System.Web.Services.Protocols.SoapHttpClientProtocol** objeto de cliente. Para obtener un ejemplo que usa un servicio web con el CSOM de SharePoint, vea [Autenticación remota en la autenticación SharePoint Online Using Claims-Based](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Porque de permisos de nivel de aplicación limitados, la interfaz PSI no puede usarse en las aplicaciones que están diseñadas para su distribución en la tienda de Office pública. En ese caso, puede usar sólo el CSOM. 
   
 ## <a name="what-the-psi-does-not-do"></a>Lo que la interfaz PSI no hace
 <a name="pj14_WhatPSIDoes_DoesNotDo"> </a>
@@ -230,11 +230,11 @@ Para la tarea de resumen del proyecto, las limitaciones de PSI son las mismas qu
     
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Lo que hace y no hace CSOM](what-the-csom-does-and-does-not-do.md)  
 - [Programación de Project Server](project-server-programmability.md)   
-- [Autenticación remota en SharePoint Online mediante la autenticación basada en notificaciones](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Autenticación remota en SharePoint Online mediante la autenticación basada en notificaciones](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
 - [Crear aplicaciones para Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

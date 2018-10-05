@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bdbaf263-ae57-2807-f100-8d590ab92927
 description: Un área de trabajo para escribir y probar fórmulas a las que hacen referencia otras celdas.
-ms.openlocfilehash: 078205b08ab40c2b88320779b1fbabc31c781eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eac975fa1233e74b7bb5f2efc90b6b6edad8215c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823046"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388010"
 ---
 # <a name="row-element-scratch-section-visio-xml"></a>Elemento Row (sección de borrador) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Un área de trabajo para escribir y probar fórmulas a las que hacen referencia 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ScratchRow_Type](scratchrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    

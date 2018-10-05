@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 227ceb468c54cea98519057b2f837a4aee84820c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569067"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387219"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propiedad canónica PidTagOriginatorNonDeliveryReportRequested
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el remitente de un mensaje, solicita un informe de no entrega para un destinatario concreto.
   
@@ -42,7 +42,7 @@ Esta propiedad se utiliza para dirigir el sistema de mensajería en el control d
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
     
@@ -56,7 +56,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

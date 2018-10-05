@@ -11,12 +11,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4fb4e8656b4f27105a30764cdda020849a07645e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3cd2e5072c8602fe301028e69592220a8345c211
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815734"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385084"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (Formulario 1)
 
@@ -101,7 +101,7 @@ Una cadena de un carácter, entre mayúsculas y minúsculas que especifica la cl
   
 _pxHelpTopic_ (**xltypeStr**)
   
-Una referencia opcional para el archivo de ayuda (.chm o .hlp) que se mostrará cuando el usuario hace clic en el botón de ayuda (cuando se muestra la función personalizada). Puede ser en el formulario `filepath!HelpContextID` o `http://address/path_to_file_in_site!0`. Ambos elementos antes y después de la "!" son necesarios.  *HelpContextID* no debe contener comillas simples y Excel convertirá en un entero sin signo de 4 bytes de longitud, en formato decimal. Cuando se usa el formulario de dirección URL, abre Excel sólo el archivo de ayuda que se hace referencia. 
+Una referencia opcional para el archivo de ayuda (.chm o .hlp) que se mostrará cuando el usuario hace clic en el botón de ayuda (cuando se muestra la función personalizada). Puede ser en el formulario `filepath!HelpContextID` o `https://address/path_to_file_in_site!0`. Ambos elementos antes y después de la "!" son necesarios.  *HelpContextID* no debe contener comillas simples y Excel convertirá en un entero sin signo de 4 bytes de longitud, en formato decimal. Cuando se usa el formulario de dirección URL, abre Excel sólo el archivo de ayuda que se hace referencia. 
   
 _pxFunctionHelp_ (**xltypeStr**)
   

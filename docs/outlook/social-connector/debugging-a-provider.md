@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 'Hay varias maneras puede depurar un proveedor de Outlook Social Connector (OSC):'
-ms.openlocfilehash: ada439ca3b038ca9a0e849b47ff6a5f54e5016f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821091"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386855"
 ---
 # <a name="debugging-a-provider"></a>Depurar un proveedor
 
@@ -39,7 +39,7 @@ Para Outlook 2010 y las aplicaciones de cliente con respecto a Office 2013, los 
   
 En la siguiente tabla se describe los botones de depuración.
   
-|**Botón de depuración**|**Funci�n**|
+|**Botón de depuración**|**Función**|
 |:-----|:-----|
 |Sincronizar contactos  <br/> |Hace que el OSC para solicitar al proveedor de OSC sólo los contactos almacenados en caché.  <br/> |
 |Sincronización de GAL  <br/> |Hace que el OSC rellenar los datos desde la lista Global de direcciones de Exchange para los contactos de Outlook.  <br/> |
@@ -47,7 +47,7 @@ En la siguiente tabla se describe los botones de depuración.
    
 ## <a name="fiddler"></a>Fiddler
 
-Fiddler es una herramienta de depuración sobre el cable para comprobar el llamadas a la API enviados desde su proveedor a la red social y XML que se envían por la red social a su proveedor. Fiddler está disponible para su descarga en el [Proxy de depuración de Web de Fiddler](http://www.fiddler2.com/fiddler2/version.asp).
+Fiddler es una herramienta de depuración sobre el cable para comprobar el llamadas a la API enviados desde su proveedor a la red social y XML que se envían por la red social a su proveedor. Fiddler está disponible para su descarga en el [Proxy de depuración de Web de Fiddler](https://www.fiddler2.com/fiddler2/version.asp).
   
 ## <a name="see-also"></a>Vea también
 

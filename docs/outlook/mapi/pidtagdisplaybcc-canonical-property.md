@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cd37d72d6a214f91e371b7126c90e3fda25cde2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74669d102462e1a825568615d1d30346e99e90a6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388262"
 ---
 # <a name="pidtagdisplaybcc-canonical-property"></a>Propiedad canónica PidTagDisplayBcc
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una lista de ASCII de los nombres para mostrar de los destinatarios del mensaje de copia oculta (CCO), separados por punto y coma (;).
   
@@ -54,7 +54,7 @@ Debido a la necesidad de posible para la localización, MAPI proporciona estas i
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Describe el formato de los mensajes que se utiliza para enviar información relacionada con el uso compartido de carpetas en el cliente.
     
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

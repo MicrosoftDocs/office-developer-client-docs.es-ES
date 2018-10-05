@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c7f62c69c7a06f7ca0e4bfddcf789cddc536ea6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386568"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Registros MAPI sesión en una instancia de un proveedor de almacén de mensajes.
   
@@ -158,7 +158,7 @@ MAPI llama el método **IMSProvider::Logon** para llevar a cabo la mayoría de l
   
 Además del objeto de almacén de mensaje devuelto para el cliente y el uso de la cola de impresión MAPI, el proveedor también devuelve un objeto de inicio de sesión del almacén de mensajes de MAPI usar en el control de la tienda abierta. El objeto de inicio de sesión del almacén de mensajes y el objeto de almacén de mensajes deben vincularse estrechamente dentro del proveedor de almacén de mensajes para cada uno de ellos puede afectar a la otra. El uso del objeto de almacenamiento y el objeto de inicio de sesión debe ser idéntico; debe haber una correspondencia uno a uno entre el objeto de inicio de sesión y el objeto de almacén de manera que los objetos que actúe como si fueran un único objeto que expone dos interfaces. Los dos objetos también se deben crear juntos y liberado juntos. 
   
-El objeto compatible con MAPI, creado por MAPI y se pasan al proveedor en el parámetro _lpMAPISup_ , proporciona acceso a las funciones de MAPI que requiere el proveedor. Éstas incluyen las funciones que guardar y recuperar información de perfil, tener acceso a las libretas de direcciones y así sucesivamente. El puntero _lpMAPISup_ puede ser diferente para cada almacén que se abre. Mientras el procesamiento llama a un almacén de mensajes después de inicio de sesión, el proveedor de almacenamiento debe usar la variable _lpMAPISup_ que es específica de ese almacén. Para cualquier llamada de **Inicio de sesión** que se abre un almacén de mensajes y funciona correctamente en la creación de un objeto de inicio de sesión del almacén de mensajes, el proveedor debe guardar un puntero al objeto de compatibilidad con MAPI en el objeto de inicio de sesión de almacén y debe llamar al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para agregar una referencia para el objeto de soporte. 
+El objeto compatible con MAPI, creado por MAPI y se pasan al proveedor en el parámetro _lpMAPISup_ , proporciona acceso a las funciones de MAPI que requiere el proveedor. Éstas incluyen las funciones que guardar y recuperar información de perfil, tener acceso a las libretas de direcciones y así sucesivamente. El puntero _lpMAPISup_ puede ser diferente para cada almacén que se abre. Mientras el procesamiento llama a un almacén de mensajes después de inicio de sesión, el proveedor de almacenamiento debe usar la variable _lpMAPISup_ que es específica de ese almacén. Para cualquier llamada de **Inicio de sesión** que se abre un almacén de mensajes y funciona correctamente en la creación de un objeto de inicio de sesión del almacén de mensajes, el proveedor debe guardar un puntero al objeto de compatibilidad con MAPI en el objeto de inicio de sesión de almacén y debe llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para agregar una referencia para el objeto de soporte. 
   
 El parámetro _ulUIParam_ debe usarse si el proveedor presenta cuadros de diálogo durante la llamada de **Inicio de sesión** . Sin embargo, cuadros de diálogo no deben presentarse si _ulFlags_ contiene la marca MDB_NO_DIALOG. Si necesita una interfaz de usuario que se llame pero _ulFlags_ no permitir, o si por alguna otra razón no se puede mostrar una interfaz de usuario, el proveedor debe devolver MAPI_E_LOGON_FAILED. Si el **Inicio de sesión** muestra un cuadro de diálogo y el usuario cancela el inicio de sesión, normalmente haciendo clic en el botón **Cancelar** del cuadro de diálogo, el proveedor debe devolver MAPI_E_USER_CANCEL. 
   
@@ -178,7 +178,7 @@ Cuando _lpEntryID_ es **null**, se que aún no se ha seleccionado el almacén de
   
 Si un proveedor busca todas la información necesaria no está en el perfil, debe devolver MAPI_E_UNCONFIGURED. MAPI le llamará en función del punto de entrada del proveedor mensaje servicio para permitir que el usuario para seleccionar un almacén, o incluso para crear uno, y escribir un nombre de cuenta y una contraseña, como sea necesario. MAPI crea automáticamente una nueva sección de perfil para un nuevo almacén; en esta sección de perfil nuevo puede ser temporal o permanente, dependiendo de cómo se ha agregado. Si el proveedor de almacenamiento llama al método de **IMAPISupport::ModifyProfile** , la nueva sección de perfil se convierte en permanente y el almacén se agrega a la lista de almacenes de mensaje devuelto por el método [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
   
-El parámetro _lpInterface_ especifica el IID de la interfaz necesaria para el objeto store acaba de abrir. Pasar **null** en _lpInterface_ especifica que la interfaz de almacén de mensajes MAPI, **IMsgStore**, es necesaria. Pase el objeto de almacén de mensajes, IID_IMsgStore, también especifica que se requiere **IMsgStore** . Si se pasa IID_IUnknown en _lpInterface_, el proveedor debe abrir el almacén de mediante el uso de cualquier interfaz derivada de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) es mejor para el proveedor (de nuevo, esto es normalmente **IMsgStore**). Cuando se pasa IID_IUnknown, la implementación llamada usa el método [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) para seleccionar una interfaz después de que se haya realizado correctamente la operación de apertura de almacén. 
+El parámetro _lpInterface_ especifica el IID de la interfaz necesaria para el objeto store acaba de abrir. Pasar **null** en _lpInterface_ especifica que la interfaz de almacén de mensajes MAPI, **IMsgStore**, es necesaria. Pase el objeto de almacén de mensajes, IID_IMsgStore, también especifica que se requiere **IMsgStore** . Si se pasa IID_IUnknown en _lpInterface_, el proveedor debe abrir el almacén de mediante el uso de cualquier interfaz derivada de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) es mejor para el proveedor (de nuevo, esto es normalmente **IMsgStore**). Cuando se pasa IID_IUnknown, la implementación llamada usa el método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) para seleccionar una interfaz después de que se haya realizado correctamente la operación de apertura de almacén. 
   
 La llamada **IMSProvider::Logon** debe devolver información suficiente, como una ruta de acceso en el almacén y las credenciales para tener acceso al almacén, para permitir que la cola MAPI iniciar sesión en el mismo almacén que el proveedor de almacenamiento hace sin presentar un cuadro de diálogo. Los parámetros _lpcbSpoolSecurity_ y _lppbSpoolSecurity_ se utilizan para devolver esta información. El proveedor asigna la memoria para estos datos pasando un puntero a un búfer en [MSProviderInit](msproviderinit.md) _lpfAllocateBuffer_ parámetro de la función; el proveedor coloca el tamaño de este búfer en _lpcbSpoolSecurity_. 
   
@@ -218,7 +218,7 @@ Para la mayoría de los valores de error devuelta desde el **Inicio de sesión**
   
 Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI llamar a la función de entrada de servicio de mensajes del proveedor y, a continuación, vuelva a intentar el inicio de sesión. MAPI pasa MSG_SERVICE_CONFIGURE como el contexto para dar la oportunidad para que se configure el servicio. Si el cliente ha elegido permitir una interfaz de usuario en el inicio de sesión, el servicio puede presentar su hoja de propiedades de configuración, por lo que el usuario puede escribir información de configuración.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

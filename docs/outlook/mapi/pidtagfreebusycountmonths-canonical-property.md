@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e7dc8c06fca48c5f7c124a1fdf2228ebeb9da450
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 610e9d396442f981b7bcbf126e3086e6885399d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388941"
 ---
 # <a name="pidtagfreebusycountmonths-canonical-property"></a>Propiedad canónica PidTagFreeBusyCountMonths
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el valor para calcular las fechas de inicio y fin del rango de datos de disponibilidad para su publicación en carpetas públicas.
   
@@ -42,11 +42,11 @@ Valor de esta propiedad debe ser mayor o igual que 0 y menor o igual a 36. No es
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica la disponibilidad de un usuario o recurso.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
     
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

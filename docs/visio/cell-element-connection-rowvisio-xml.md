@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: Contiene las coordenadas x o y, dirección horizontal o vertical o tipo para un único punto de conexión en una forma.
-ms.openlocfilehash: 52328e50b185a96ebb06634248b93a4332ac35c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821705"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388962"
 ---
 # <a name="cell-element-connection-row-visio-xml"></a>Elemento de celda (fila de conexión) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y, dirección horizontal o vertical o tipo para un 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
    
@@ -66,10 +66,10 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limi
   
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|AutoGen  <br/> |Especifica si el punto de conexión se genera automáticamente. Un valor de 1 indica que el punto de conexión se genera automáticamente.  <br/> |Ninguno.  <br/> |
+|AutoGen  <br/> |Especifica si el punto de conexión se genera automáticamente. Un valor de 1 indica que el punto de conexión se genera automáticamente.  <br/> |Ninguna.  <br/> |
 |DirX  <br/> |Determina el componente x para el vector de alineación necesario de un punto de conexión coincidente.  <br/> |[Celda DirX / A (Sección de puntos de conexión)](dirxa-cell-connection-points-section.md) <br/> |
 |DirY  <br/> |Determina el componente y para el vector de alineación necesario de un punto de conexión coincidente.  <br/> |[Celda DirY / B (Sección de puntos de conexión)](diryb-cell-connection-points-section.md) <br/> |
-|Prompt  <br/> |Este atributo está reservado para uso futuro.  <br/> |Ninguno.  <br/> |
+|Prompt  <br/> |Este atributo está reservado para uso futuro.  <br/> |Ninguna.  <br/> |
 |Tipo  <br/> |Determina el tipo de punto de conexión.  <br/> |[Celda Type / C (Sección de puntos de conexión)](typec-cell-connection-points-section.md) <br/> |
 |X  <br/> |Representa la coordenada x de un punto de conexión en coordenadas locales.  <br/> |[Celda X (Sección de puntos de conexión)](x-cell-connection-points-section.md) <br/> |
 |v  <br/> |Determina la coordenada y de un punto de conexión en coordenadas locales.  <br/> |[Celda Y (Sección de puntos de conexión)](y-cell-connection-points-section.md) <br/> |

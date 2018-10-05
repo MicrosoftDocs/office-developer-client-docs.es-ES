@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddb730ed92db4c8d281e7c8d5d9b18bc44505598
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565329"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382949"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Copia las entradas de uno o más, los usuarios normalmente mensajería o listas de distribución.
   
@@ -92,9 +92,9 @@ El método **IABContainer::CopyEntries** copia entradas desde el mismo contenedo
     
 4. [IMAPIProp::SaveChanges](imapiprop-savechanges.md) (método) de la nueva entrada para llevar a cabo un proceso de guardar. 
     
-5. [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) (método) de la nueva entrada para liberar la referencia del contenedor. 
+5. [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) (método) de la nueva entrada para liberar la referencia del contenedor. 
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Todos los contenedores que admiten el método **IABContainer::CopyEntries** deben ser modificables. Establecer marca AB_MODIFIABLE de su contenedor en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que es modificable. 
   
@@ -112,7 +112,7 @@ Devolver la advertencia MAPI_W_PARTIAL_COMPLETION sólo si no se puede copiar un
 
 Utilice los indicadores CREATE_CHECK_DUP_LOOSE y CREATE_CHECK_DUP_STRICT para indicar al proveedor de cómo desea que el contenedor para realizar la comprobación de entrada de duplicado. Si necesita tener una entrada agregada independientemente de que sea un duplicado, no configure cualquiera de estos marcadores o establecer la marca CREATE_REPLACE. CREATE_REPLACE indica que no importa si una entrada es un duplicado; siempre que desea reemplazar la entrada original. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

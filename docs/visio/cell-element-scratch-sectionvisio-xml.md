@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Especifica un área de trabajo para escribir y probar fórmulas a las que se pueden hacer referencia a otras celdas.
-ms.openlocfilehash: c8917a8d4bcf26789f631238e6a9547e9ca2d59c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 147cc152ec20e3e2b032b91f6387ec06a3cb1d6f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384223"
 ---
 # <a name="cell-element-scratch-section-visio-xml"></a>Elemento de celda (sección de borrador) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica un área de trabajo para escribir y probar fórmulas a las que se pue
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    

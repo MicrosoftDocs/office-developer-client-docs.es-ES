@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591082"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384650"
 ---
 # <a name="autocomplete-stream"></a>Secuencia de Autocompletar
 
@@ -71,7 +71,7 @@ Información adicional (bytes EI)
   
 Metadatos (8 bytes)
   
-Para obtener un ejemplo de una estructura binaria, vea el ejemplo binario en las [Directrices de desarrollador y formato de archivo NK2 de Outlook 2003/2007.](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+Para obtener un ejemplo de una estructura binaria, vea el ejemplo binario en las [Directrices de desarrollador y formato de archivo NK2 de Outlook 2003/2007.](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
   
 ## <a name="high-level-layout"></a>Diseño de alto nivel
 
@@ -198,7 +198,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## <a name="significant-properties"></a>Propiedades importantes
 
-Como se indicó anteriormente en este tema, los bloques binarios que representan las propiedades tienen etiquetas de propiedades que se corresponden a propiedades de los destinatarios de la libreta de direcciones. Para propiedades que no se muestran aquí, puede buscar la descripción de la propiedad en http://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx.
+Como se indicó anteriormente en este tema, los bloques binarios que representan las propiedades tienen etiquetas de propiedades que se corresponden a propiedades de los destinatarios de la libreta de direcciones. Para propiedades que no se muestran aquí, puede buscar la descripción de la propiedad en https://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx.
   
 |**Nombre de propiedad**|**Etiqueta de propiedad**|**Descripción (vea MSDN para obtener más información)**|
 |:-----|:-----|:-----|

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e16c1b46b5a8181b1225c706dbed6cd1bb3f486f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a438fb2b1862d44905a63fda3e5f68b7878cd99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583179"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384958"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>Propiedad canónica PidLidTaskResetReminder
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica si las instancias futuras de tareas repetitivas necesitan avisos, aunque **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) es FALSE.
   
@@ -39,21 +39,21 @@ Indica si las instancias futuras de tareas repetitivas necesitan avisos, aunque 
 
 Este valor se establece en TRUE cuando aviso de la tarea se descarta y se establece en FALSE en caso contrario. Si se dejan sin establecer, se supone el valor predeterminado es FALSE.
   
-Tal como se especifica en [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), la propiedad **dispidReminderSet** indica si se ha establecido un aviso en la tarea. Sin embargo, esta propiedad sólo indica la presencia de un aviso en una única tarea. Se no se puede usar solo para determinar si una instancia de una tarea periódica futura necesita un aviso. 
+Tal como se especifica en [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), la propiedad **dispidReminderSet** indica si se ha establecido un aviso en la tarea. Sin embargo, esta propiedad sólo indica la presencia de un aviso en una única tarea. Se no se puede usar solo para determinar si una instancia de una tarea periódica futura necesita un aviso. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modelar el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica las propiedades y el modelo de interacción para correo electrónico y otros avisos de objeto.
     
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

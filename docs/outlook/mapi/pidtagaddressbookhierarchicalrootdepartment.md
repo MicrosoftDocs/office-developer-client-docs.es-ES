@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7019ef5e23d0325d43b17009137dd29a2ec95c0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22a1a62f4ee6ff492f36eb18e2d92c8d70febd72
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593539"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382613"
 ---
 # <a name="pidtagaddressbookhierarchicalrootdepartment"></a>Propiedad canónica PidTagAddressBookHierarchicalRootDepartment
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  Contiene el nombre distintivo (DN) de la raíz de direcciones jerárquicas (HAB). 
   
@@ -55,7 +55,7 @@ En el esquema de nuevo, todos los grupos de departamentos también son listas de
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones de protocolo de Microsoft Exchange Server relacionadas.
     
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

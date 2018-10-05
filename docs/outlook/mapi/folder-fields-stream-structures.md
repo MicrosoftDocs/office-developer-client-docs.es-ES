@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567163"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385091"
 ---
 # <a name="folder-fields-stream-structures"></a>Estructuras de la secuencia de campos de carpeta
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Propiedad de [PidTagUserFields](pidtaguserfields-canonical-property.md) de un mensaje contiene una secuencia binaria, FolderUserFields, que contiene las definiciones de campo definido por el usuario de la carpeta. En este tema se describe las estructuras de secuencia para las definiciones de campo definido por el usuario de carpeta. 
 
@@ -66,7 +66,7 @@ Elementos de datos en esta secuencia se almacenan en el orden de bytes little-en
     
 - **FieldNameLength**: palabra (2 bytes), el número de elementos de la matriz **FieldName** .
     
-- **FieldName**: una matriz de CHAR. Ésta es la representación de página de códigos de ANSI CP_ACP del nombre del campo. El recuento de esta matriz es igual a **FieldNameLength**. El nombre de campo debe cumplir las restricciones en el parámetro Name tal como se especifica en el método [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: una matriz de CHAR. Ésta es la representación de página de códigos de ANSI CP_ACP del nombre del campo. El recuento de esta matriz es igual a **FieldNameLength**. El nombre de campo debe cumplir las restricciones en el parámetro Name tal como se especifica en el método [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Por motivos de compatibilidad heredada, Outlook podrá controlar algunos valores de **FieldName** no se ajusten a estas restricciones, sin embargo tales casos no se incluyen en este tema. 
@@ -83,7 +83,7 @@ Elementos de datos en esta secuencia se almacenan en el orden de bytes little-en
     
 - **FieldNameLength**: palabra (2 bytes), el número de elementos de la matriz **FieldName** .
     
-- **FieldName**: una matriz de WCHAR. Ésta es la representación de Unicode (UTF-16) del nombre del campo. El recuento de esta matriz es igual a **FieldNameLength**. El nombre de campo debe cumplir las restricciones en el parámetro Name tal como se especifica en el método [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: una matriz de WCHAR. Ésta es la representación de Unicode (UTF-16) del nombre del campo. El recuento de esta matriz es igual a **FieldNameLength**. El nombre de campo debe cumplir las restricciones en el parámetro Name tal como se especifica en el método [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Por motivos de compatibilidad heredada, Outlook puede ser capaz de controlar algunos valores de **FieldName** no se ajusten a estas restricciones, pero estos casos no se incluyen en este tema. 
@@ -168,7 +168,7 @@ Se edita la fórmula del campo en su formato de la interfaz de usuario en el cua
  
   Por ejemplo, con el idioma de la interfaz de usuario de Office inglés de Estados Unidos, si el formato de la interfaz de usuario de una fórmula para un campo del tipo **ftConcat** es `text1 [Business Phone] "text2" [My custom field]`, donde `My custom field` es el nombre de un campo definido por el usuario, el formato estándar para una fórmula de este tipo sería `""text1" & [_14856] & """text2""" & [My custom field]"`. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Muestra de la secuencia FolderUserFields](folderuserfields-stream-sample.md)
 - [Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)

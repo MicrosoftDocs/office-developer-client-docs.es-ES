@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
-ms.openlocfilehash: 0c7cdf754b2a4b38516b1ac06074fdba9d2227f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d154b26319f5ed72b1abd6aeef307d07a63bda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577747"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388570"
 ---
 # <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Enviar mensajes a través del procesamiento de datos adjuntos personalizado TNEF
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Para personalizar el procesamiento de datos adjuntos al enviar un mensaje:
   
@@ -41,7 +41,7 @@ Para personalizar el procesamiento de datos adjuntos al enviar un mensaje:
     
 9. Obtener el texto del mensaje con etiqueta llamando al método [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Este texto etiquetado es de lectura con los métodos de la interfaz **IStream** , codifican mediante el modelo de datos adjuntos del sistema de mensajería y se escriben en el sistema de mensajería. 
     
-10. Llame al método [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar el objeto [ITnef](itnefiunknown.md) . 
+10. Llame al método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar el objeto [ITnef](itnefiunknown.md) . 
     
 11. Escribir los datos adjuntos restante para el sistema de mensajería a través del modelo de datos adjuntos del sistema de mensajería.
     

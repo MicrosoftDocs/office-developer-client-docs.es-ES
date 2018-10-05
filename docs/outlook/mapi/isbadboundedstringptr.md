@@ -8,25 +8,25 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d5ebb0e16138c3cc65ff6fd7c635e5498c9c1ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573407"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388906"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Comprueba que el proceso de llamada tiene acceso de lectura para el intervalo de memoria especificado.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |mapiwin.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones de cliente y los proveedores de servicios.  <br/> |
    
 ```cpp
@@ -56,9 +56,9 @@ El valor devuelto es distinto de cero cuando el proceso de llamada no tiene acce
 
 La función **IsBadBoundedStringPtr** equivale a usar **IsBadStringPtr**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[IsBadStringPtr](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
+[IsBadStringPtr](https://msdn.microsoft.com/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

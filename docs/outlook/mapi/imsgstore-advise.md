@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4abef731541e308b2c2ebc6f4aaddf4458e257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388249"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se registra para recibir notificaciones de los eventos que afectan el almacén de mensajes.
   
@@ -119,11 +119,11 @@ El método **IMsgStore::Advise** establece una conexión entre el autor de la ll
   
 Para enviar una notificación, el proveedor de almacén de mensajes o MAPI llama (método) [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor advise registrados. Uno de los parámetros para **OnNotify**, una estructura de notificación, contiene información que describe el evento específico.
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede admitir notificación con o sin ayuda de MAPI. MAPI tiene tres métodos de objeto de soporte técnico para ayudar a los proveedores de servicios a implementar notificación: [IMAPISupport::Subscribe](imapisupport-subscribe.md), [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)y [IMAPISupport::Notify](imapisupport-notify.md). Si decide utilizar los métodos de soporte técnico MAPI, llamar a **Subscribe** cuando se llame al método **Advise** y liberar el puntero _lpAdviseSink_ . 
   
-Si decide admitir la notificación usted mismo, llame al método [IUnknown:: AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) del receptor advise representado por el parámetro _lpAdviseSink_ para mantener una copia de este puntero. Mantener esta copia hasta que se llama al método [IMsgStore::Unadvise](imsgstore-unadvise.md) para cancelar el registro. 
+Si decide admitir la notificación usted mismo, llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) del receptor advise representado por el parámetro _lpAdviseSink_ para mantener una copia de este puntero. Mantener esta copia hasta que se llama al método [IMsgStore::Unadvise](imsgstore-unadvise.md) para cancelar el registro. 
   
 Independientemente de cómo se admite la notificación, asigne a un número distinto de cero de conexión para el registro de la notificación y devolver en el parámetro _lpulConnection_ . No número de versión de esta conexión hasta que se ha llamado al **Unadvise** y se ha completado. 
   
@@ -137,15 +137,15 @@ Para obtener más información sobre el proceso de notificación, vea [Notificac
   
 Para obtener más información acerca de cómo controlar las notificaciones, vea [Controlar notificaciones](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI, utiliza el método **IMsgStore::Advise** para registrar las notificaciones de en el almacén de todo el mensaje.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

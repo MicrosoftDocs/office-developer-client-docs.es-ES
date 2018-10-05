@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
-ms.openlocfilehash: 3d51c8a2d3fe8fddaf245cd0a6fcdf44305fdef4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f688f02c90e4341fe9cb0a1294b9f0f278bb7065
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816136"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386498"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 
@@ -21,7 +21,7 @@ Admite la especificación de las interfaces que tienen acceso a datos de disponi
 
 |||
 |:-----|:-----|
-|Hereda de:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hereda de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Suministrado por:  <br/> |Proveedor de libre/ocupado  <br/> |
 |Identificador de interfaz:  <br/> |IID_IFreeBusySupport  <br/> |
    

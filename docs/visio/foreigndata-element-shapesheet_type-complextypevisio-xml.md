@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
 description: Contiene un BLOB codificado MIME (Extensiones multipropósito de correo Internet) de datos de imagen, como metarchivo de Windows, mapa de bits o de datos OLE.
-ms.openlocfilehash: d548ce8a6b05f8a9a104aee96c0982c6dbccc417
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cce7665230fb9e68bf37002e1953944a5b8f8082
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822199"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382684"
 ---
 # <a name="foreigndata-element-shapesheettype-complextype-visio-xml"></a>Elemento ForeignData (ShapeSheet_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Contiene un BLOB codificado MIME (Extensiones multipropósito de correo Internet
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |página # .xml, master # .xml  <br/> |
    

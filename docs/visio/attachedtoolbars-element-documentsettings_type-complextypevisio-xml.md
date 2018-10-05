@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
 description: MIME (Extensiones multipropósito de correo Internet) con una codificación de archivo de (VSU) de la interfaz de usuario de Microsoft Visio que representa las barras de herramientas personalizadas.
-ms.openlocfilehash: c62cc334d8a0c4142c8a47d5dc8aab16a755ceb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821571"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388465"
 ---
 # <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento de AttachedToolbars (DocumentSettings_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ MIME (Extensiones multipropósito de correo Internet) con una codificación de a
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.Xml  <br/> |
    

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6f623345-b30e-452f-a822-9308b455697a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 20dcef118a5e3f513f8330802684a59f0f0dcf73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51788a49d1c0d01ef7ff5daca853000a8f1e34a0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565350"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384545"
 ---
 # <a name="pidnamecontentclass-canonical-property"></a>Propiedad canónica PidNameContentClass
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene un valor de campo de encabezado de clase de contenido [RFC3282].
   
 |||
 |:-----|:-----|
-|Nombres descriptivos:  <br/> |Ninguna  <br/> |
+|Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nombre de la propiedad:  <br/> |Content-Class  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
@@ -43,15 +43,15 @@ Para establecer el valor de esta propiedad, los clientes de extensiones multipro
 
 ### <a name="protocol-specifications"></a>Especificaciones de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convierte de las convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Especifica las propiedades de mensajes codificados con derechos administrados.
     
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: El modelo de seguridad de Microsoft InfoPath está basado en el modelo de seguridad implementado por Internet Explorer. El modelo de seguridad de Internet Explorer ayuda a proteger su equipo de operaciones inseguras mediante el uso de zonas y niveles de seguridad. Al trabajar junto al modelo de seguridad de Internet Explorer, InfoPath proporciona dos tipos de implementación de formularios que afectan a la manera en que un formulario de InfoPath trabaja dentro de este modelo de seguridad.
-ms.openlocfilehash: dc155e2c2962e2cca2b4465e5a9632f92488cef9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815846"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387422"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>Conceptos de seguridad adicionales de los formularios de InfoPath
 
@@ -154,7 +154,7 @@ Todos los formularios en el Diseñador de InfoPath se crean con una identidad. E
   
 ## <a name="activex-controls"></a>Controles ActiveX
 
-InfoPath admite el hospedaje de controles ActiveX en formularios que se abren en el editor de InfoPath. Los controles ActiveX pueden ser preexistentes (con algunas restricciones) o escritos específicamente para uso con InfoPath. Los controles ActiveX usados en los formularios de InfoPath no se descargan automáticamente de los sitios web. En cambio, los archivos CAB para los controles ActiveX que todavía no se encuentran presentes en el equipo del usuario se deben agregar al archivo de plantilla de formulario.
+InfoPath admite el hospedaje de controles ActiveX en formularios que se abren en el editor de InfoPath. Los controles ActiveX pueden ser preexistentes (con algunas restricciones) o escritos específicamente para uso con InfoPath. Los controles ActiveX que se usan en formularios de InfoPath no se descargan automáticamente desde los sitios Web. En cambio, los archivos CAB para los controles ActiveX que todavía no se encuentran presentes en el equipo del usuario se deben agregar al archivo de plantilla de formulario.
   
 Cuando se usa un control ActiveX en un formulario y el control no está registrado en el equipo del usuario, el comportamiento cuando se abre el formulario depende de la configuración del control ActiveX dentro del formulario. Si no se incluye un archivo CAB en el archivo de plantilla de formulario, InfoPath no abrirá el formulario. Si el archivo CAB está presente en el archivo de plantilla de formulario, InfoPath iniciará un proceso de instalación. Para que InfoPath instale un archivo CAB, el archivo debe estar firmado y la firma debe ser de un editor de confianza. Si el editor todavía no se encuentra en la lista de editores de confianza del usuario que tenga un certificado presente (con una cadena de confianza que conduzca a un certificado raíz de confianza), se le pedirá al usuario que acepte o niegue confiar en el editor. Si el usuario elige no confiar en el editor, no se instalará el archivo CAB para el control e InfoPath no abrirá el formulario.
   

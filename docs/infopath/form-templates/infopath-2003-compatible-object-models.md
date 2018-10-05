@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath está escrita como una aplicación de modelo de objetos de componentes (COM) y expone sus interfaces de programabilidad para la automatización externa y para la secuencia de comandos de plantillas de formulario como interfaces COM.
-ms.openlocfilehash: 09ba36b39e520629764bd57a623e8fb490a63a89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815913"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389032"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Modelos de objetos compatible de InfoPath 2003
 
@@ -29,7 +29,7 @@ Los archivos de los tres ensamblados de interoperabilidad que instala InfoPath s
     
 En este tema se trata el modelo de objetos expuesto a través del ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.SemiTrust, que se utiliza exclusivamente para escribir y ejecutar lógica empresarial con código administrado desde dentro de las plantillas de formulario de InfoPath (.xsn). 
   
-Para obtener información acerca de los ensamblados Microsoft.Office.Interop.InfoPath y Microsoft.Office.Interop.InfoPath.Xml, consulte la documentación para el [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) y [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) espacios de nombres. 
+Para obtener información acerca de los ensamblados Microsoft.Office.Interop.InfoPath y Microsoft.Office.Interop.InfoPath.Xml, consulte la documentación para el [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) y [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) espacios de nombres. 
   
 ## <a name="important-installation-information"></a>Información de instalación importantes
 
@@ -37,7 +37,7 @@ De manera predeterminada, la opción **Típica** del programa de instalación de
   
 Si estos ensamblados no están instalados, deberá comprobar si Microsoft InfoPath está correctamente instalado. Siempre que .NET Framework 2.0 (o una versión posterior) esté instalado antes de ejecutar el programa de instalación, la opción **Compatibilidad con programación de .NET** del programa de instalación de InfoPath estará establecida en **Ejecutar desde mi PC** para una instalación **Típica** de InfoPath. Si estos ensamblados de interoperabilidad no están disponibles en su PC, deberá confirmar que .NET Framework 2.0 (o una versión posterior) está instalado y, a continuación, ejecutar **Agregar o quitar programas** desde el **Panel de control** para establecer la opción **Compatibilidad con programación de .NET** en **Ejecutar desde mi PC**.
   
-Para obtener información sobre la descarga del redistribuible .NET Framework 2.0, vea [.NET Framework 2.0 Redistributable.](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
+Para obtener información sobre la descarga del redistribuible .NET Framework 2.0, vea [.NET Framework 2.0 Redistributable.](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
 ## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>El espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust
 

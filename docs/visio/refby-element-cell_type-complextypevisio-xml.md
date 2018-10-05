@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea2a63d3-d319-4420-1929-013dc832b308
 description: Especifica una referencia a una página en el dibujo.
-ms.openlocfilehash: 4d3f131ba5fc106c886d30d8561e095972b05a21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1731bd20a5ba4358c72370dfcdc6d8a6fc791e2f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822908"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385861"
 ---
 # <a name="refby-element-celltype-complextype-visio-xml"></a>Elemento de RefBy (Cell_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica una referencia a una página en el dibujo.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    

@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 60c5d7e980d1dc4d4263a2be2267008dbee1fd4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f4af3f2fd094942c48e02849c60f3e46acb1a5f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385567"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Envío de fuerza de todas las notificaciones en la cola. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
    
 ```cpp
@@ -65,6 +65,6 @@ La función **HrDispatchNotifications** hace que MAPI enviar todas las notificac
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Algunas aplicaciones de esperen un mensaje de notificación en un bucle de tiempo de espera mediante las funciones de [DispatchMessage](http://msdn.microsoft.com/en-us/library/ms644934.aspx) y Windows [PeekMessage](http://msdn.microsoft.com/en-us/library/ms644943.aspx) . En todos los pero las plataformas más rápidas, dichas aplicaciones podrían experimentar un rendimiento deficiente o incluso bloqueo de notificaciones. Uso de **HrDispatchNotifications** no sólo reduce el código pero mejora el rendimiento. 
+Algunas aplicaciones de esperen un mensaje de notificación en un bucle de tiempo de espera mediante las funciones de [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) y Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) . En todos los pero las plataformas más rápidas, dichas aplicaciones podrían experimentar un rendimiento deficiente o incluso bloqueo de notificaciones. Uso de **HrDispatchNotifications** no sólo reduce el código pero mejora el rendimiento. 
   
 

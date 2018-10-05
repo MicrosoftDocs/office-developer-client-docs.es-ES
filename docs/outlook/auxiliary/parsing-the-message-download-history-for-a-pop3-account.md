@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: En este tema se describe la estructura del objeto binario de POP3 que representa el historial de descarga de mensajes de una cuenta POP3, para identificar los mensajes que se han descargado o eliminado en esa cuenta.
-ms.openlocfilehash: ffed3178e4e8b45f17fc335575a7febd77d40902
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44a799f6b6fbe2a2841522c18405149a470b0236
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816303"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389011"
 ---
 # <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analizar el historial de descarga de mensajes de una cuenta POP3
 
@@ -26,7 +26,7 @@ El proveedor de protocolo de oficina de correos (POP) para Outlook permite a los
   
 Para obtener el historial de descarga de los mensajes para una bandeja de entrada:
   
-- Siga los pasos de [historial para una cuenta POP3 de descarga de encontrar el mensaje](locating-the-message-download-history-for-a-pop3-account.md) para buscar la propiedad [PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , que contiene un objeto binario grande (BLOB) que representa el historial de mensajes de una cuenta POP3. 
+- Siga los pasos de [historial para una cuenta POP3 de descarga de encontrar el mensaje](locating-the-message-download-history-for-a-pop3-account.md) para buscar la propiedad [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , que contiene un objeto binario grande (BLOB) que representa el historial de mensajes de una cuenta POP3. 
     
 - Lea este tema, que describe la estructura del objeto binario y se muestra un ejemplo de blobs para identificar los mensajes que se han descargado o eliminado de la Bandeja de entrada de la cuenta POP3.
 
@@ -40,7 +40,7 @@ La estructura de BLOB de POP, tal como se describe en la tabla 1, comienza con d
 
 |**Campo de BLOB**|**Size**|**Descripción**|
 |:-----|:-----|:-----|
-|**Versión** <br/> |2 bytes  <br/> |Debe ser 3 (**PBLOB_VERSION_NUM**).  <br/> |
+|**Version** <br/> |2 bytes  <br/> |Debe ser 3 (**PBLOB_VERSION_NUM**).  <br/> |
 |**Count** <br/> |2 bytes  <br/> |El número de etiquetas de recurso en este BLOB.  <br/> |
 |Etiqueta de recurso  <br/> |Variable  <br/> |cadenas de UTF-8 de 0 o más terminada en null que codifican las etiquetas de recursos. El número de cadenas terminada en null debe coincidir con **recuento**.  <br/> |
    
@@ -91,6 +91,6 @@ De forma similar puede analizar las etiquetas restantes de 22 recurso de BLOB.
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)    
 - [Localizar el historial de descarga de mensajes de una cuenta POP3](locating-the-message-download-history-for-a-pop3-account.md)    
-- [Analizar el historial UIDL de POP3](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
+- [Analizar el historial UIDL de POP3](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
     
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: Puede agregar, mostrar, ocultar y eliminar las secciones de ShapeSheet.
-ms.openlocfilehash: 37bd28083a38fa2c38630994ee42d3f001cf6893
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821520"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389193"
 ---
 # <a name="add-show-hide-or-delete-a-section"></a>Agregar, mostrar, ocultar o eliminar una sección
 
@@ -53,9 +53,9 @@ Puede agregar, mostrar, ocultar y eliminar las secciones de ShapeSheet.
     
 2. Seleccione el título de sección.
     
-    Si el puntero se convierte en un signo menos ![](media/IC_SSMinus_ZA07645855.gif), puede contraer la sección.
+    Si el puntero se convierte en un signo menos ![Si el puntero cambia a un signo menos, contraer la sección](media/IC_SSMinus_ZA07645855.gif), puede contraer la sección.
     
-    Si el puntero se convierte en un signo más ![](media/IC_SSPlus_ZA07645856.gif), puede expandir la sección.
+    Si el puntero se convierte en un signo más ![Si el puntero cambia a un signo más, expanda la sección](media/IC_SSPlus_ZA07645856.gif), puede expandir la sección.
     
 3. Haga clic en el título de la sección.
     

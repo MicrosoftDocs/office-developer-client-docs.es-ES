@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
 description: Según el destino del elemento primario problema de validación, especifica la página, o la página y la forma, asociado con el problema de validación primario. Si el destino del problema de validación primario es un documento, IssueTarget especifica una página ni una forma.
-ms.openlocfilehash: 72789782a37b29daa48cd01adb0b8eda4ebf73ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74005bfb6035e32b7b34fdd5a8a5737813a562a0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822404"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385364"
 ---
 # <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Elemento de IssueTarget (Issue_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Según el destino del elemento primario problema de validación, especifica la p
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Validation.Xml  <br/> |
    

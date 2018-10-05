@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: Especifica si se muestra una cuadrícula en la ventana de dibujo.
-ms.openlocfilehash: c4b4ceafd0107fb620f32016619e8abe853f2eaf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34ba3503cc8995554f1f6d696b27a6a4be37359
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823222"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386233"
 ---
 # <a name="showgrid-element-windowtype-complextype-visio-xml"></a>Elemento ShowGrid (Window_Type complexType) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Especifica si se muestra una cuadrícula en la ventana de dibujo.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Windows.Xml  <br/> |
    

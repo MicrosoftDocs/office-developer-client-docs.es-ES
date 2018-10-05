@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: En este tema se describe los lenguajes de programación compatibles, método y la visibilidad de COM devuelven requisitos de tipo y obtener información detallada de la extensibilidad de proveedor de Outlook Social Connector (OSC) DLL.
-ms.openlocfilehash: 94b57e20957f3d8d779c4d3324ecbb8ccd37f60a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821214"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383117"
 ---
 # <a name="technical-requirements"></a>Requisitos técnicos
 
@@ -33,7 +33,7 @@ Un proveedor de OSC debe ser visible a través de COM, tal como se define por lo
     
 - Un proveedor de OSC desarrollado en un lenguaje administrado es COM-visible.
     
-- Un proveedor de OSC debe agregar valores al registro de Windows que indican que el archivo DLL del proveedor admite apartamento de un único subproceso (STA) y apartamento multiproceso (MTA) modelos de subprocesos. Para obtener más información acerca de los modelos de subprocesos de COM, vea [funcionamiento de OLE Threading modelos y descripciones](http://support.microsoft.com/kb/150777).
+- Un proveedor de OSC debe agregar valores al registro de Windows que indican que el archivo DLL del proveedor admite apartamento de un único subproceso (STA) y apartamento multiproceso (MTA) modelos de subprocesos. Para obtener más información acerca de los modelos de subprocesos de COM, vea [funcionamiento de OLE Threading modelos y descripciones](https://support.microsoft.com/kb/150777).
     
 Métodos de extensibilidad de proveedores OSC deben devolver tipos primitivos como **cadena** o **bool**. Determinadas **cadena** devolver valores deben cumplir con la definición del esquema para la extensibilidad de proveedor OSC. XML sólo se admite como un valor devuelto. 
   

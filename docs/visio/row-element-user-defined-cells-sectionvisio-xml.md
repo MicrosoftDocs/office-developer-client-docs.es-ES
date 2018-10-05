@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Una parte especificada por el usuario de la información que se puede hacer referencia a otras celdas y herramientas complementarias.
-ms.openlocfilehash: 10a0e0e5f7255274de528a34d5faa2de6137446e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8852c1db31e9a9b8f0860c111da32de6d44dc7f5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388017"
 ---
 # <a name="row-element-user-defined-cells-section-visio-xml"></a>Elemento Row (sección de celdas definidas por el usuario) ('XML de Visio')
 
@@ -23,7 +23,7 @@ Una parte especificada por el usuario de la información que se puede hacer refe
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Elementos de documento** <br/> |Document.XML, masters.xml, maestra # .xml, pages.xml, página # .xml  <br/> |
    

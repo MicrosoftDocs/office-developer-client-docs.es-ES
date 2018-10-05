@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: En este tema se describe cómo resolver los conflictos de tipos de elemento personalizadas que se crean en Outlook.
-ms.openlocfilehash: d85c2022d909901c71c20214f91b316cce81c596
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357dd9182f26c4e9e1e264afdee296859e7b3483
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816042"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382991"
 ---
 # <a name="about-conflict-resolution-for-custom-item-types"></a>Información sobre la resolución de conflictos para tipos de elementos personalizados
 
@@ -33,7 +33,7 @@ En estos casos, los usuarios pueden elegir ir a la carpeta conflictos para compr
 
 ### <a name="item-types-and-message-classes"></a>Tipos de elementos y clases de mensajes
   
-Todos los elementos de Outlook están asociados con una clase de mensaje. Por ejemplo, de forma predeterminada, un elemento de correo está asociado con la clase de mensaje IPM **. Nota**. La clase de mensaje se usa principalmente para identificar el formulario que debe usarse para mostrar el elemento de Outlook. Outlook es compatible con una lista de las clases de mensajes que se asignan a los tipos de elementos que se integra en Outlook. Para más información sobre las clases de mensajes, vea [Tipos de elementos y clases de mensajes](http://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
+Todos los elementos de Outlook están asociados con una clase de mensaje. Por ejemplo, de forma predeterminada, un elemento de correo está asociado con la clase de mensaje IPM **. Nota**. La clase de mensaje se usa principalmente para identificar el formulario que debe usarse para mostrar el elemento de Outlook. Outlook es compatible con una lista de las clases de mensajes que se asignan a los tipos de elementos que se integra en Outlook. Para más información sobre las clases de mensajes, vea [Tipos de elementos y clases de mensajes](https://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
   
 Los usuarios pueden crear tipos de elemento personalizado, asignar clases de mensaje personalizadas a los tipos de elemento personalizado y que Outlook utilice un formulario personalizado para mostrar los tipos de elemento personalizado. Por ejemplo, puede ser conveniente para mostrar un formulario de contacto de negocio personalizado para los contactos profesionales de Outlook. Para ello, puede crear una clase de mensaje personalizada **IPM. Contact.Business**, crear un formulario personalizado para esta clase de mensaje y asignar contactos profesionales con esta clase de mensaje. 
   
@@ -72,5 +72,5 @@ Utilizando el mismo ejemplo de los contactos de negocio anterior, si desea espec
   
 ## <a name="see-also"></a>Vea también
 
-- [Objetos de elementos de Outlook](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
+- [Objetos de elementos de Outlook](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 
