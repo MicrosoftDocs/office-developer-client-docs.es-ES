@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 69023d2c13037fb52a4d1dc4f7376efbd839aebc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385728"
 ---
-# <a name="iconvertersessionsetcharset"></a><span data-ttu-id="81ced-103">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="81ced-103">IConverterSession::SetCharSet</span></span>
+# <a name="iconvertersessionsetcharset"></a><span data-ttu-id="ef385-103">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="ef385-103">IConverterSession::SetCharSet</span></span>
 
   
   
-<span data-ttu-id="81ced-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="81ced-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ef385-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef385-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="81ced-105">Especifica que un carácter opcional establece que la MAPI para el uso de convertidor MIME al convertir un mensaje MAPI a una secuencia MIME.</span><span class="sxs-lookup"><span data-stu-id="81ced-105">Specifies an optional character set that the MAPI to MIME converter use when converting a MAPI message to a MIME stream.</span></span>
+<span data-ttu-id="ef385-105">Especifica que un carácter opcional establece que la MAPI para el uso de convertidor MIME al convertir un mensaje MAPI a una secuencia MIME.</span><span class="sxs-lookup"><span data-stu-id="ef385-105">Specifies an optional character set that the MAPI to MIME converter use when converting a MAPI message to a MIME stream.</span></span>
   
 ```cpp
 HRESULT SetCharset( 
@@ -34,50 +34,50 @@ HRESULT SetCharset(
      CSETAPPLYTYPE csetapplytype); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="81ced-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="81ced-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ef385-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ef385-106">Parameters</span></span>
 
- <span data-ttu-id="81ced-107">_fApply_</span><span class="sxs-lookup"><span data-stu-id="81ced-107">_fApply_</span></span>
+ <span data-ttu-id="ef385-107">_fApply_</span><span class="sxs-lookup"><span data-stu-id="ef385-107">_fApply_</span></span>
   
-> <span data-ttu-id="81ced-108">[entrada] Indica si se debe usar un juego específico para la conversión.</span><span class="sxs-lookup"><span data-stu-id="81ced-108">[in] Indicates whether to use a specific character set for the conversion.</span></span> <span data-ttu-id="81ced-109">Establezca este parámetro en **true** para aplicar el juego de caracteres de las conversiones subsiguientes.</span><span class="sxs-lookup"><span data-stu-id="81ced-109">Set this parameter to **true** to apply the character set in subsequent conversions.</span></span> <span data-ttu-id="81ced-110">Establezca este parámetro en **false** si ya no desea aplicar cualquier juego de caracteres específico y volver a los valores predeterminados para los mensajes subsiguientes.</span><span class="sxs-lookup"><span data-stu-id="81ced-110">Set this parameter to **false** if you no longer want to apply any specific character set and return to the defaults for subsequent messages.</span></span> 
+> <span data-ttu-id="ef385-108">[entrada] Indica si se debe usar un juego específico para la conversión.</span><span class="sxs-lookup"><span data-stu-id="ef385-108">[in] Indicates whether to use a specific character set for the conversion.</span></span> <span data-ttu-id="ef385-109">Establezca este parámetro en **true** para aplicar el juego de caracteres de las conversiones subsiguientes.</span><span class="sxs-lookup"><span data-stu-id="ef385-109">Set this parameter to **true** to apply the character set in subsequent conversions.</span></span> <span data-ttu-id="ef385-110">Establezca este parámetro en **false** si ya no desea aplicar cualquier juego de caracteres específico y volver a los valores predeterminados para los mensajes subsiguientes.</span><span class="sxs-lookup"><span data-stu-id="ef385-110">Set this parameter to **false** if you no longer want to apply any specific character set and return to the defaults for subsequent messages.</span></span> 
     
- <span data-ttu-id="81ced-111">_hcharset_</span><span class="sxs-lookup"><span data-stu-id="81ced-111">_hcharset_</span></span>
+ <span data-ttu-id="ef385-111">_hcharset_</span><span class="sxs-lookup"><span data-stu-id="ef385-111">_hcharset_</span></span>
   
-> <span data-ttu-id="81ced-112">[entrada] Un identificador de un juego de caracteres como se define en mimeole.h de correo de Windows.</span><span class="sxs-lookup"><span data-stu-id="81ced-112">[in] A handle to a character set as defined in mimeole.h of Windows Mail.</span></span> <span data-ttu-id="81ced-113">Especifique **null** para especificar que no desea aplicar cualquier juego de caracteres específico.</span><span class="sxs-lookup"><span data-stu-id="81ced-113">Specify **null** to specify that you do not want to apply any specific character set.</span></span> <span data-ttu-id="81ced-114">Para los valores que no son **null** , usar una función como [MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx) para obtener un identificador para el juego de caracteres.</span><span class="sxs-lookup"><span data-stu-id="81ced-114">For non- **null** values, use a function such as [MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx) to obtain a handle to the character set.</span></span> 
+> <span data-ttu-id="ef385-112">[entrada] Un identificador de un juego de caracteres como se define en mimeole.h de correo de Windows.</span><span class="sxs-lookup"><span data-stu-id="ef385-112">[in] A handle to a character set as defined in mimeole.h of Windows Mail.</span></span> <span data-ttu-id="ef385-113">Especifique **null** para especificar que no desea aplicar cualquier juego de caracteres específico.</span><span class="sxs-lookup"><span data-stu-id="ef385-113">Specify **null** to specify that you do not want to apply any specific character set.</span></span> <span data-ttu-id="ef385-114">Para los valores que no son **null** , usar una función como [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) para obtener un identificador para el juego de caracteres.</span><span class="sxs-lookup"><span data-stu-id="ef385-114">For non- **null** values, use a function such as [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) to obtain a handle to the character set.</span></span> 
     
- <span data-ttu-id="81ced-115">_csetapplytype_</span><span class="sxs-lookup"><span data-stu-id="81ced-115">_csetapplytype_</span></span>
+ <span data-ttu-id="ef385-115">_csetapplytype_</span><span class="sxs-lookup"><span data-stu-id="ef385-115">_csetapplytype_</span></span>
   
-> <span data-ttu-id="81ced-116">[entrada] Indica cómo aplicar un juego de caracteres para convertir un mensaje, como se define en mimeole.h de correo de Windows.</span><span class="sxs-lookup"><span data-stu-id="81ced-116">[in] Indicates how to apply a character set to convert a message, as defined in mimeole.h of Windows Mail.</span></span>
+> <span data-ttu-id="ef385-116">[entrada] Indica cómo aplicar un juego de caracteres para convertir un mensaje, como se define en mimeole.h de correo de Windows.</span><span class="sxs-lookup"><span data-stu-id="ef385-116">[in] Indicates how to apply a character set to convert a message, as defined in mimeole.h of Windows Mail.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="81ced-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="81ced-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ef385-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ef385-117">Return value</span></span>
 
-<span data-ttu-id="81ced-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="81ced-118">S_OK</span></span>
+<span data-ttu-id="ef385-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="ef385-118">S_OK</span></span>
   
-> <span data-ttu-id="81ced-119">La llamada a la función es correcta.</span><span class="sxs-lookup"><span data-stu-id="81ced-119">The function call is successful.</span></span>
+> <span data-ttu-id="ef385-119">La llamada a la función es correcta.</span><span class="sxs-lookup"><span data-stu-id="ef385-119">The function call is successful.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="81ced-120">Referencia MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="81ced-120">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ef385-120">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="ef385-120">MFCMAPI reference</span></span>
 
-<span data-ttu-id="81ced-121">MFCMAPI c�digo de ejemplo, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="81ced-121">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="ef385-121">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="ef385-121">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="81ced-122">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="81ced-122">**File**</span></span>|<span data-ttu-id="81ced-123">**Funci�n**</span><span class="sxs-lookup"><span data-stu-id="81ced-123">**Function**</span></span>|<span data-ttu-id="81ced-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="81ced-124">**Comment**</span></span>|
+|<span data-ttu-id="ef385-122">**File**</span><span class="sxs-lookup"><span data-stu-id="ef385-122">**File**</span></span>|<span data-ttu-id="ef385-123">**Función**</span><span class="sxs-lookup"><span data-stu-id="ef385-123">**Function**</span></span>|<span data-ttu-id="ef385-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="ef385-124">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="81ced-125">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="81ced-125">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="81ced-126">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="81ced-126">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="81ced-127">MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.</span><span class="sxs-lookup"><span data-stu-id="81ced-127">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
-|<span data-ttu-id="81ced-128">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="81ced-128">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="81ced-129">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="81ced-129">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="81ced-130">MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.</span><span class="sxs-lookup"><span data-stu-id="81ced-130">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
+|<span data-ttu-id="ef385-125">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="ef385-125">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="ef385-126">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="ef385-126">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="ef385-127">MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.</span><span class="sxs-lookup"><span data-stu-id="ef385-127">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
+|<span data-ttu-id="ef385-128">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="ef385-128">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="ef385-129">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="ef385-129">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="ef385-130">MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.</span><span class="sxs-lookup"><span data-stu-id="ef385-130">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="81ced-131">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="81ced-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ef385-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="ef385-131">See also</span></span>
 
 
 
-[<span data-ttu-id="81ced-132">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="81ced-132">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
+[<span data-ttu-id="ef385-132">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ef385-132">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
   
-[<span data-ttu-id="81ced-133">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="81ced-133">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
+[<span data-ttu-id="ef385-133">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="ef385-133">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
   
-[<span data-ttu-id="81ced-134">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="81ced-134">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
+[<span data-ttu-id="ef385-134">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="ef385-134">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
   
-[<span data-ttu-id="81ced-135">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="81ced-135">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
+[<span data-ttu-id="ef385-135">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="ef385-135">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
   
-[<span data-ttu-id="81ced-136">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="81ced-136">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
+[<span data-ttu-id="ef385-136">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="ef385-136">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
   
-[<span data-ttu-id="81ced-137">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="81ced-137">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
+[<span data-ttu-id="ef385-137">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="ef385-137">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
   
-[<span data-ttu-id="81ced-138">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="81ced-138">IConverterSession::SetTextWrapping</span></span>](iconvertersession-settextwrapping.md)
+[<span data-ttu-id="ef385-138">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="ef385-138">IConverterSession::SetTextWrapping</span></span>](iconvertersession-settextwrapping.md)
 
