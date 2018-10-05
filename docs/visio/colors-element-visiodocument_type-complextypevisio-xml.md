@@ -7,51 +7,51 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
 description: Contiene la tabla de colores del documento.
-ms.openlocfilehash: d13690ce6e1772ab1a43e697e8b99c0776a204b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd46f58dfbb8a596717662b9a0524d59bb508270
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821783"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400533"
 ---
-# <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a><span data-ttu-id="4e6a3-103">Elemento de colores (VisioDocument_Type complexType) ('XML de Visio')</span><span class="sxs-lookup"><span data-stu-id="4e6a3-103">Colors element (VisioDocument_Type complexType) ('Visio XML')</span></span>
+# <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a><span data-ttu-id="44478-103">Elemento de colores (VisioDocument_Type complexType) ('XML de Visio')</span><span class="sxs-lookup"><span data-stu-id="44478-103">Colors element (VisioDocument_Type complexType) ('Visio XML')</span></span>
 
-<span data-ttu-id="4e6a3-104">Contiene la tabla de colores del documento.</span><span class="sxs-lookup"><span data-stu-id="4e6a3-104">Contains the document's color table.</span></span>
+<span data-ttu-id="44478-104">Contiene la tabla de colores del documento.</span><span class="sxs-lookup"><span data-stu-id="44478-104">Contains the document's color table.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4e6a3-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="4e6a3-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="44478-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="44478-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4e6a3-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-106">**Element type**</span></span> <br/> |[<span data-ttu-id="4e6a3-107">Colors_Type</span><span class="sxs-lookup"><span data-stu-id="4e6a3-107">Colors_Type</span></span>](colors_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="4e6a3-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="4e6a3-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-109">**Schema file**</span></span> <br/> |<span data-ttu-id="4e6a3-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="4e6a3-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="4e6a3-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-111">**Document parts**</span></span> <br/> |<span data-ttu-id="4e6a3-112">Document.Xml</span><span class="sxs-lookup"><span data-stu-id="4e6a3-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="44478-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="44478-106">**Element type**</span></span> <br/> |[<span data-ttu-id="44478-107">Colors_Type</span><span class="sxs-lookup"><span data-stu-id="44478-107">Colors_Type</span></span>](colors_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="44478-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="44478-108">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="44478-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="44478-109">**Schema file**</span></span> <br/> |<span data-ttu-id="44478-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="44478-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="44478-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="44478-111">**Document parts**</span></span> <br/> |<span data-ttu-id="44478-112">Document.Xml</span><span class="sxs-lookup"><span data-stu-id="44478-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="4e6a3-113">Definición</span><span class="sxs-lookup"><span data-stu-id="4e6a3-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="44478-113">Definición</span><span class="sxs-lookup"><span data-stu-id="44478-113">Definition</span></span>
 
 ```XML
 < xs:element name="Colors" type="Colors_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="4e6a3-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="4e6a3-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="44478-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="44478-114">Elements and attributes</span></span>
 
-<span data-ttu-id="4e6a3-115">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="4e6a3-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="44478-115">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="44478-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="4e6a3-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="4e6a3-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="44478-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="44478-116">Parent elements</span></span>
 
-|<span data-ttu-id="4e6a3-117">**Element**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-117">**Element**</span></span>|<span data-ttu-id="4e6a3-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-118">**Type**</span></span>|<span data-ttu-id="4e6a3-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-119">**Description**</span></span>|
+|<span data-ttu-id="44478-117">**Element**</span><span class="sxs-lookup"><span data-stu-id="44478-117">**Element**</span></span>|<span data-ttu-id="44478-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="44478-118">**Type**</span></span>|<span data-ttu-id="44478-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="44478-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="4e6a3-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="4e6a3-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="4e6a3-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="4e6a3-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="4e6a3-122">El elemento raíz de un documento de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="4e6a3-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
+|[<span data-ttu-id="44478-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="44478-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="44478-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="44478-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="44478-122">El elemento raíz de un documento de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="44478-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="4e6a3-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="4e6a3-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="44478-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="44478-123">Child elements</span></span>
 
-|<span data-ttu-id="4e6a3-124">**Element**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-124">**Element**</span></span>|<span data-ttu-id="4e6a3-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-125">**Type**</span></span>|<span data-ttu-id="4e6a3-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4e6a3-126">**Description**</span></span>|
+|<span data-ttu-id="44478-124">**Element**</span><span class="sxs-lookup"><span data-stu-id="44478-124">**Element**</span></span>|<span data-ttu-id="44478-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="44478-125">**Type**</span></span>|<span data-ttu-id="44478-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="44478-126">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="4e6a3-127">ColorEntry</span><span class="sxs-lookup"><span data-stu-id="4e6a3-127">ColorEntry</span></span>](colorentry-element-colors_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="4e6a3-128">ColorEntry_Type</span><span class="sxs-lookup"><span data-stu-id="4e6a3-128">ColorEntry_Type</span></span>](colorentry_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="4e6a3-129">Contiene una entrada de la tabla de color.</span><span class="sxs-lookup"><span data-stu-id="4e6a3-129">Contains a color table entry.</span></span>  <br/> |
+|[<span data-ttu-id="44478-127">ColorEntry</span><span class="sxs-lookup"><span data-stu-id="44478-127">ColorEntry</span></span>](colorentry-element-colors_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="44478-128">ColorEntry_Type</span><span class="sxs-lookup"><span data-stu-id="44478-128">ColorEntry_Type</span></span>](colorentry_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="44478-129">Contiene una entrada de la tabla de color.</span><span class="sxs-lookup"><span data-stu-id="44478-129">Contains a color table entry.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="4e6a3-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="4e6a3-130">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="44478-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="44478-130">Attributes</span></span>
 
-<span data-ttu-id="4e6a3-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="4e6a3-131">None.</span></span>
+<span data-ttu-id="44478-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="44478-131">None.</span></span>
   
 
