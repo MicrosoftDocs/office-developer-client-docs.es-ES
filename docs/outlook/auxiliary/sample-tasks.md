@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
 description: Esta sección contiene tareas de ejemplo que usan las API disponibles en la referencia auxiliar de 2013 de Outlook.
-ms.openlocfilehash: 79971b64892c83e97f10b55eae236bc8f18ee1f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 790b6ca3f1432b801044176acd9cebebfcb1dcee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816352"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391202"
 ---
 # <a name="sample-tasks"></a>Tareas de ejemplo (en inglés)
 
@@ -26,7 +26,7 @@ Esta sección contiene tareas de ejemplo que usan las API disponibles en la refe
     
 - [Leer las propiedades de la zona horaria en una cita](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Especificar si se debe mostrar la imagen de un contacto en Outlook (referencia auxiliar de Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Especificar si se debe mostrar la imagen de un contacto en Outlook (referencia auxiliar de Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Utilizar un tiempo relativo a los datos de disponibilidad de acceso](how-to-use-relative-time-to-access-free-busy-data.md)
     
