@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b0f11822-d45e-48e6-bf59-990164e3d6d9
 description: Encuentre contenido sobre procedimientos, artículos técnicos y referencias para desarrollar soluciones y personalizar Publisher.
-ms.openlocfilehash: 0beb7085648a81cf835d1aed6c7f33c011532f14
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 16e250b1b04a2c5c63e19aa3a6b7e0ad0cd1caef
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397243"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454547"
 ---
 # <a name="publisher"></a>Publisher
 
@@ -22,10 +22,10 @@ Encuentre contenido sobre procedimientos, artículos técnicos y referencias par
 
 ### <a name="viewed-most"></a>Más vistos
 
-- [Referencia de VBA para Publisher](https://msdn.microsoft.com/VBA/VBA-Publisher)
+- [Referencia de VBA para Publisher](https://docs.microsoft.com/office/vba/api/overview/publisher)
 
 - 
-  [Publisher 2010](https://msdn.microsoft.com/library/office/ff604963(v=office.14).aspx)
+  [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
 
 
 ### <a name="office-add-ins"></a>Complementos de Office 
@@ -37,10 +37,10 @@ Encuentre contenido sobre procedimientos, artículos técnicos y referencias par
 
 ### <a name="other-resources"></a>Otros recursos
 
-- [Referencia de la biblioteca de objetos de VBA de Office](https://msdn.microsoft.com/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference)
+- [Referencia de la biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [Referencia del lenguaje VBA para Office](https://msdn.microsoft.com/VBA/VBA-Language-Reference) 
+- [Referencia del lenguaje VBA para Office](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Open XML SDK](https://msdn.microsoft.com/library/bb448854.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [complementos VSTO para Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [complementos VSTO para Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)

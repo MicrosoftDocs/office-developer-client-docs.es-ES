@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
 description: Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SDK y API, referencias de VBA, cursos y artículos técnicos para desarrollar soluciones y personalizar Word.
-ms.openlocfilehash: c180c664d4c48204704cea02ce19e3f32510e7a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 936b4826343fb39c34d21c96228af60f9f6b34db
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400285"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454533"
 ---
 # <a name="word"></a>Word
 
@@ -22,9 +22,9 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
   
 ### <a name="viewed-most"></a>Más vistos
   
-- [Referencia de VBA para Word](https://msdn.microsoft.com/library/ee861527.aspx)
+- [Referencia de VBA para Word](https://docs.microsoft.com/office/vba/api/overview/word)
   
-- [Word 2010](https://msdn.microsoft.com/library/office/ff601860%28v=office.14%29.aspx)
+- [Word 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff601860(v=office.14))
   
 ### <a name="office-add-ins"></a>Complementos de Office
   
@@ -35,16 +35,16 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
 ### <a name="code-samples"></a>Ejemplos de código
   
 - 
-  [Ejemplos de código de Word en el Centro para desarrolladores de Office](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
+  [Ejemplos de código de Word en el Centro para desarrolladores de Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Otros recursos
   
-- [Referencia de la biblioteca de objetos de VBA de Office](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Referencia de la biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Referencia del lenguaje VBA para Office](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Referencia del lenguaje VBA para Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [complementos VSTO para Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [complementos VSTO para Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 
