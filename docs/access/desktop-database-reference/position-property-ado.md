@@ -1,0 +1,40 @@
+---
+title: Position (propiedad, ADO)
+TOCTitle: Position Property (ADO)
+ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
+ms:contentKeyID: 48546709
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a06810fe339bd9b0b24137e178517c062962c096
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25484854"
+---
+# <a name="position-property-ado"></a>Position (propiedad, ADO)
+
+
+**Se aplica a**: Access 2013 | Office 2013
+
+Indica la posición actual dentro de un objeto [Stream](stream-object-ado.md).
+
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+
+Establece o devuelve un valor de tipo **Long** que especifica el desplazamiento, en número de bytes, de la posición actual desde el principio de la secuencia. El valor predeterminado es 0, que representa el primer byte de la secuencia.
+
+## <a name="remarks"></a>Comentarios
+
+La posición actual puede moverse a un punto situado detrás del final de la secuencia. Si se especifica la posición actual detrás del fin de la secuencia, el [tamaño](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) del objeto **Stream** aumentará en consecuencia. Cualquier byte nuevo agregado de esta forma será nulo.
+
+
+> [!NOTE]
+> <P>[!NOTA] <STRONG>Position</STRONG> siempre mide bytes. En las secuencias de texto que usan juegos de caracteres multibyte, multiplique la posición por el tamaño de los caracteres para determinar el número de caracteres. Por ejemplo, en un juego de caracteres de dos bytes, el primer carácter se encuentra en la posición 0, el segundo en la 2, el tercero en la 4 y así sucesivamente.</P>
+
+
+
+No es posible utilizar valores negativos para cambiar la posición actual en un objeto **Stream**. Con **Position** sólo se pueden utilizar números positivos.
+
+En los objetos **Stream** de sólo lectura, ADO no devolverá un error si **Position** se establece en un valor superior al **tamaño** de **Stream**. Eso no modifica el tamaño de **Stream** ni altera el contenido de **Stream** de ninguna forma. Sin embargo, debe evitarse, ya que da lugar a un valor de **Position** sin sentido.
+

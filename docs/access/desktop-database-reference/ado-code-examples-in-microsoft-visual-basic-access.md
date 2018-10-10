@@ -1,0 +1,146 @@
+---
+title: Ejemplos de código de ADO en Microsoft Visual Basic (acceso)
+TOCTitle: ADO Code Examples in Microsoft Visual Basic
+ms:assetid: 2784352b-71cd-40aa-9feb-1976a54b5fc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249038(v=office.15)
+ms:contentKeyID: 48543840
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: aa5678c8c9eba037eb1bca15353a5759bc51d3a5
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25485854"
+---
+# <a name="ado-code-examples-in-microsoft-visual-basic-access"></a>Ejemplos de código de ADO en Microsoft Visual Basic (acceso)
+
+**Se aplica a**: Access 2013 | Office 2013
+
+
+  - [Ejemplos de código de ADO en Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
+
+  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VB)](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation (VB)](absoluteposition-and-cursorlocation-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad ActiveCommand (VB)](activecommand-property-example-vb.md)
+
+  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (VB)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades ActualSize y DefinedSize (VB)](actualsize-and-definedsize-properties-example-vb.md)
+
+  - [Ejemplo del método AddNew (VB)](addnew-method-example-vb.md)
+
+  - [Ejemplo de los métodos Append y CreateParameter (VB)](append-and-createparameter-methods-example-vb.md)
+
+  - [Ejemplo de los métodos AppendChunk y GetChunk (VB)](appendchunk-and-getchunk-methods-example-vb.md)
+
+  - [Ejemplo de las propiedades Attributes y Name (VB)](attributes-and-name-properties-example-vb.md)
+
+  - [Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VB)](begintrans-committrans-and-rollbacktrans-methods-example-vb.md)
+
+  - [Ejemplo de las propiedades BOF, EOF y Bookmark (VB)](bof-eof-and-bookmark-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad CacheSize (VB)](cachesize-property-example-vb.md)
+
+  - [Ejemplo del método Cancel (VB)](cancel-method-example-vb.md)
+
+  - [Ejemplo del método Clone (VB)](clone-method-example-vb.md)
+
+  - [Ejemplo del método CompareBookmarks (VB)](comparebookmarks-method-example-vb.md)
+
+  - [Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VB)](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
+
+  - [Ejemplo del método ConvertToString (VB)](converttostring-method-example-vb.md)
+
+  - [Ejemplo de los métodos CopyRecord, CopyTo y SaveToFile (VB)](copyrecord-copyto-and-savetofile-methods-example-vb.md)
+
+  - [Ejemplo de la propiedad Count (VB)](count-property-example-vb.md)
+
+  - [Ejemplo del método CreateRecordset (VB)](createrecordset-method-example-vb.md)
+
+  - [Ejemplo de las propiedades CursorType, LockType y EditMode (VB)](cursortype-locktype-and-editmode-properties-example-vb.md)
+
+  - [Ejemplo del método Delete (VB)](delete-method-example-vb.md)
+
+  - [Ejemplo de los métodos DeleteRecord y MoveRecord (VB)](deleterecord-and-moverecord-methods-example-vb.md)
+
+  - [Ejemplo de las propiedades Description, HelpContext, HelpFile, NativeError, Number, Source y SQLState (VB)](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades EOS y LineSeparator y el método SkipLine (VB)](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+
+  - [Ejemplo de los métodos Execute, Requery y Clear (VB)](execute-requery-and-clear-methods-example-vb.md)
+
+  - [Ejemplo de las propiedades Filter y RecordCount (VB)](filter-and-recordcount-properties-example-vb.md)
+
+  - [Ejemplo del método Find (VB)](find-method-example-vb.md)
+
+  - [Ejemplo del método GetRows (VB)](getrows-method-example-vb.md)
+
+  - [Ejemplo del método GetString (VB)](getstring-method-example-vb.md)
+
+  - [Ejemplo de las propiedades IsolationLevel y Mode (VB)](isolationlevel-and-mode-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Item (VB)](item-property-example-vb.md)
+
+  - [Ejemplo de la propiedad MarshalOptions (VB)](marshaloptions-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Número máximo de registros (MaxRecords) (VB)](maxrecords-property-example-vb.md)
+
+  - [Ejemplo del método Move (VB)](move-method-example-vb.md)
+
+  - [Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious (VB)](movefirst-movelast-movenext-and-moveprevious-methods-example-vb.md)
+
+  - [Ejemplo del método NextRecordset (VB)](nextrecordset-method-example-vb.md)
+
+  - [ADO NumericScale and Precision Properties Example (VB)](ado-numericscale-and-precision-properties-example-vb.md)
+
+  - [Ejemplo de los métodos Open y Close (VB)](open-and-close-methods-example-vb.md)
+
+  - [Ejemplo del método OpenSchema (VB)](openschema-method-example-vb.md)
+
+  - [Ejemplo de la propiedad Optimize (VB)](optimize-property-example-vb.md)
+
+  - [Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)](originalvalue-and-underlyingvalue-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Prepared (VB)](prepared-property-example-vb.md)
+
+  - [Ejemplo de las propiedades Provider y DefaultDatabase (VB)](provider-and-defaultdatabase-properties-example-vb.md)
+
+  - [Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)](read-readtext-write-and-writetext-methods-example-vb.md)
+
+  - [Ejemplo del método Refresh (VB)](refresh-method-example-vb.md)
+
+  - [Ejemplo del método Resync (VB)](resync-method-example-vb.md)
+
+  - [Ejemplo de los métodos Save y Open (VB)](save-and-open-methods-example-vb.md)
+
+  - [Ejemplo del método Seek y de la propiedad Index (VB)](seek-method-and-index-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Sort (VB)](sort-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Source (VB)](source-property-example-vb.md)
+
+  - [Ejemplo de la propiedad State (VB)](state-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Status (Field) (VB)](status-property-example-field-vb.md)
+
+  - [Ejemplo de la propiedad Status (Recordset) (VB)](status-property-example-recordset-vb.md)
+
+  - [Ejemplo de la propiedad StayInSync (VB)](stayinsync-property-example-vb.md)
+
+  - [Ejemplo del método Supports (VB)](supports-method-example-vb.md)
+
+  - [Ejemplo de la propiedad Type (Field) (VB)](type-property-example-field-vb.md)
+
+  - [Ejemplo de la propiedad Type (VB)](type-property-example-property-vb.md)
+
+  - [Ejemplo de los métodos Update y CancelUpdate (VB)](update-and-cancelupdate-methods-example-vb.md)
+
+  - [Ejemplo de los métodos UpdateBatch y CancelBatch (VB)](updatebatch-and-cancelbatch-methods-example-vb.md)
+
+  - [Ejemplo de la propiedad Value (VB)](value-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Version (VB)](version-property-example-vb.md)
+
