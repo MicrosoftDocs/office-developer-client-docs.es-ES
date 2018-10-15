@@ -1,0 +1,65 @@
+---
+title: Asignar categorías a un elemento
+TOCTitle: Assign categories to an item
+ms:assetid: 4070801b-994a-46df-91fe-4efca834886e
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424469(v=office.15)
+ms:contentKeyID: 55119828
+ms.date: 07/24/2014
+mtps_version: v=office.15
+ms.openlocfilehash: 762fd5954e6ec47aed24a9c91b41839f6d292cd9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25407194"
+---
+# <a name="assign-categories-to-an-item"></a><span data-ttu-id="5b4fb-102">Asignar categorías a un elemento</span><span class="sxs-lookup"><span data-stu-id="5b4fb-102">Assign categories to an item</span></span>
+
+<span data-ttu-id="5b4fb-103">En este ejemplo se muestra cómo asignar categorías a un elemento mediante su propiedad **Categories**.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-103">This example shows how to assign categories to an item by using its **Categories** property.</span></span>
+
+## <a name="example"></a><span data-ttu-id="5b4fb-104">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="5b4fb-104">Example</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="5b4fb-105">El siguiente ejemplo de código es un fragmento de [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493) (Programación de aplicaciones para Microsoft Office Outlook 2007).</span><span class="sxs-lookup"><span data-stu-id="5b4fb-105">The following code example is an excerpt from Programming Applications for Microsoft Office Outlook 2007, from  Microsoft Press http://www.microsoft.com/learning/books/default.mspx  (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</span></span>
+
+
+<span data-ttu-id="5b4fb-106">Para asignar categorías a un elemento use la propiedad **Categories** del elemento.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-106">To assign categories to an item, use the particular item's **Categories** property.</span></span> <span data-ttu-id="5b4fb-107">Este ejemplo de código utiliza la clase auxiliar OutlookItem, definida en [Create a Helper class to access common Outlook item members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md) (Crear una clase auxiliar para acceder a los miembros de elementos comunes de Outlook) para llamar a la propiedad OutlookItem.**Categories** sin tener que convertir antes el elemento.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-107">This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.**Categories** property without having to first cast the item.</span></span> <span data-ttu-id="5b4fb-108">La propiedad **Categories** obtiene o establece las categorías que se representan mediante una cadena delimitada por comas que puede contener un máximo de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-108">The **Categories** property gets or sets categories that are represented by a comma-delimited string that can contain a maximum of 255 characters.</span></span> <span data-ttu-id="5b4fb-109">Las comas y los espacios se usan para separar los valores de categoría.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-109">The commas and spaces are used to separate the category values.</span></span> <span data-ttu-id="5b4fb-110">Asignar una categoría que no esté en la colección [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) del objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) provocará que una categoría no muestre un color.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-110">Assigning a category that is not in the [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) collection of the [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) object will result in the category not displaying a color.</span></span>
+
+<span data-ttu-id="5b4fb-p102">En el ejemplo de código siguiente, AssignCategories crea una restricción para los elementos que contienen “ISV” en el asunto. Para ello, primero usa una consulta de búsqueda y ubicación DAV (DASL) para filtrar los elementos de la Bandeja de entrada que contienen “ISV” en el asunto. A continuación, AssignCategories itera a través de los elementos filtrados mediante la clase **OutlookItem** y, si la cadena que devuelve **item.Categories** no es una referencia nula o ya se asignó a ISV, la categoría ISV se asigna al elemento.</span><span class="sxs-lookup"><span data-stu-id="5b4fb-p102">In the following code example, AssignCategories creates a restriction for items that contain “ISV” in the subject by first using a DAV Searching and Locating (DASL) query to filter items in the Inbox that contain “ISV” in the subject. AssignCategories then iterates through the filtered items by using the **OutlookItem** class and, if the string returned by **item.Categories** is not a null reference or was already assigned to the ISV, the ISV category is assigned to the item.</span></span>
+
+```csharp
+using Outlook = Microsoft.Office.Interop.Outlook;
+```
+
+```csharp
+private void AssignCategories()
+{
+    string filter = "@SQL=" + "\"" + "urn:schemas:httpmail:subject"
+        + "\"" + " ci_phrasematch 'ISV'";
+    Outlook.Items items =
+        Application.Session.GetDefaultFolder(
+        Outlook.OlDefaultFolders.olFolderInbox).Items.Restrict(filter);
+    for (int i = 1; i <= items.Count; i++)
+    {
+        OutlookItem item = new OutlookItem(items[i]);
+        string existingCategories = item.Categories;
+        if (String.IsNullOrEmpty(existingCategories))
+        {
+            item.Categories = "ISV";
+        }
+        else
+        {
+            if (item.Categories.Contains("ISV") == false)
+            {
+                item.Categories = existingCategories + ", ISV";
+            }
+        }
+        item.Save();
+    }
+}
+```
+
+## <a name="see-also"></a><span data-ttu-id="5b4fb-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="5b4fb-113">See also</span></span>
+
+- <span data-ttu-id="5b4fb-114">[Color categories](color-categories.md) (Categorías de color)</span><span class="sxs-lookup"><span data-stu-id="5b4fb-114">[Color Categories](color-categories.md)</span></span>
+
