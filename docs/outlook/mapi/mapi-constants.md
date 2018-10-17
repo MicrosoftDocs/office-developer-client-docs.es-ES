@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Definiciones de constantes, declaraciones de interfaz MAPI e identificadores de clase e interfaz usados por las API de MAPI.
-ms.openlocfilehash: dfc7d16cdb2f57d3f095ceea5fa1ba2eba2e3afe
-ms.sourcegitcommit: b91294da1627f6580f52fd3867e2fec8073c6531
+ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25362046"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393736"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
@@ -575,7 +575,7 @@ MAPI de Outlook es compatible con la reconexión a un servidor de catálogo glob
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Se devuelve cuando el token de conexión de llamada a procedimiento remoto (RPC) no está actualizado. Si el token de la transacción actual es diferente del token de la conexión, significa que se ha vuelto a conectar, por lo que se devuelve **MAPI_E_RECONNECTED** y se puede tratar del mismo modo que **MAPI_E_END_OF_SESSION**. Debería volver a intentar la llamada.  <br/> |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Se devuelve cuando la conexión está desconectada. Normalmente, esto significa que ha ocurrido algo en el entorno, como errores en el servidor o pérdida de conectividad de red. Es más probable que aparezca este error al usar el modo caché de un perfil e intenta evitar la caché para comunicarse con el servidor. Si la caché no pudo inicialmente establecer una conexión con el servidor, puede que esté en el estado sin conexión en el que **MAPI_E_OFFLINE** puede aparecer.  <br/> |
    
-Ninguno de los dos errores anteriores se devolverán en todos los escenarios donde parece probable que se aplicasen. En la mayoría de los casos, se devolverán **MAPI\_E_NETWORK_ERROR** o **MAPI_E_CALL_FAILED**. Ninguno aparecerá al usar la descarga de [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440). 
+Ninguno de los dos errores anteriores se devolverán en todos los escenarios donde parece probable que se aplicasen. En la mayoría de los casos, se devolverán **MAPI\_E_NETWORK_ERROR** o **MAPI_E_CALL_FAILED**. Ninguno aparecerá al usar la descarga de [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440). 
   
 ### <a name="definitions-for-exchange-server-mailbox-cached-mode-quotas"></a>Definiciones para las cuotas del modo de almacenamiento en caché del buzón de correo Exchange Server
 
