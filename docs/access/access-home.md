@@ -5,12 +5,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 description: Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SDK y API, referencias de VBA, cursos y artículos técnicos para desarrollar soluciones y personalizar Access.
-ms.openlocfilehash: d37fafa580cfb30142352ebd4c4e9898bfa1de8d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: b1e7bb1acc4a552443b26fd7cd9281488baba15d
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395787"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454512"
 ---
 # <a name="access"></a>Access
 
@@ -40,10 +40,10 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
   
 ### <a name="support"></a>Soporte técnico
   
-- [Centro para desarrolladores de Office](https://developer.microsoft.com/es-ES/office)
+- [Centro para desarrolladores de Office](https://developer.microsoft.com/office)
   
 - [Soporte técnico de Office](https://support.office.com/)
   
-- [Foro de Access en el Centro para desarrolladores de Office](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Foro de Access en el Centro para desarrolladores de Office](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
   
 
