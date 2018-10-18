@@ -24,11 +24,11 @@ En este ejemplo se muestra cómo enumerar las categorías y agregar una categor�
 
 El modelo de objetos de Microsoft Outlook admite categorías que ayudan a organizar los elementos de la Bandeja de entrada del usuario. Para mantener un mayor nivel de organización, puede hacer lo siguiente:
 
-- Clasificar los elementos de Outlook y mostrarlos por categoría.
+- Clasifique los elementos de Outlook y muéstrelos por categoría.
 - Aplicar varias categorías de color a un solo elemento de Outlook.
 - Agrupar y ordenar elementos de Outlook por categoría de color.
 - Asignar teclas de método abreviado a cada categoría de color, lo que permite a los usuarios asignar más fácilmente categorías a los elementos.
-- Crear, eliminar y cambiar las categorías de color mediante programación o mediante una acción del usuario en la interfaz de usuario de Outlook.
+- Cree, elimine y cambie las categorías de color mediante programación o mediante una acción del usuario en la interfaz de usuario de Outlook.
 
 Para exponer la funcionalidad de las categorías, el modelo de objetos de Outlook proporciona un objeto [Category](https://msdn.microsoft.com/library/bb623480\(v=office.15\)) que representa una categoría de color definida por el usuario en la lista de categorías principales. La lista principal de categorías contiene categorías de color que se presentan en la interfaz de usuario de Outlook. La lista se representa mediante la colección [Categories](https://msdn.microsoft.com/library/bb623535\(v=office.15\)) del objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)). Para crear un objeto **Category**, use el método [Add(String, Object, Object)](https://msdn.microsoft.com/library/bb623093\(v=office.15\)) de la colección **Categories**. Al crear un objeto **Category**, se crea un identificador único global (GUID). Este identificador no se puede cambiar. Se representa mediante la propiedad [CategoryID](https://msdn.microsoft.com/library/bb647100\(v=office.15\)). No obstante, el nombre, el color y la tecla de acceso directo asociados a una categoría de color pueden cambiarse estableciendo las propiedades [Name](https://msdn.microsoft.com/library/bb645577\(v=office.15\)), [Color](https://msdn.microsoft.com/library/bb612316\(v=office.15\)) y [ShortcutKey](https://msdn.microsoft.com/library/bb644944\(v=office.15\)), respectivamente, del objeto **Category**. La propiedad **Color** puede cambiarse estableciendo u obteniendo su constante [OlCategoryColor](https://msdn.microsoft.com/library/bb608974\(v=office.15\)). Para reproducir el color de un control personalizado, utilice las siguientes propiedades de solo lectura del objeto **Category**:
 
