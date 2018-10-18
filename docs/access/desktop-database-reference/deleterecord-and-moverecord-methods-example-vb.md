@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cddc944cbf0aff981495b38dff64dbe62d1483f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d260c0413cc542b6875fbe37fdd22e28fdcf53a5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486661"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602401"
 ---
-# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="85ed4-102">Ejemplo de los métodos DeleteRecord y MoveRecord (VB)</span><span class="sxs-lookup"><span data-stu-id="85ed4-102">DeleteRecord and MoveRecord Methods Example (VB)</span></span>
+# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="54bfa-102">Ejemplo de los métodos DeleteRecord y MoveRecord (VB)</span><span class="sxs-lookup"><span data-stu-id="54bfa-102">DeleteRecord and MoveRecord Methods Example (VB)</span></span>
 
 
-<span data-ttu-id="85ed4-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="85ed4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="54bfa-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="54bfa-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="85ed4-p101">En este ejemplo se muestra cómo copiar, mover, modificar y eliminar el contenido de un archivo de texto publicado en una carpeta Web. Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="85ed4-p101">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder. Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="54bfa-104"><<<<<<< HEAD en este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta Web.</span><span class="sxs-lookup"><span data-stu-id="54bfa-104"><<<<<<< HEAD This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder.</span></span> <span data-ttu-id="54bfa-105">Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="54bfa-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="54bfa-106">=== En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta web.</span><span class="sxs-lookup"><span data-stu-id="54bfa-106">======= This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="54bfa-107">Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="54bfa-107">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+>>>>>>> <span data-ttu-id="54bfa-108">master</span><span class="sxs-lookup"><span data-stu-id="54bfa-108">master</span></span>
 
 ```vb 
  

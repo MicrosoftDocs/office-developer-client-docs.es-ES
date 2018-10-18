@@ -1,26 +1,20 @@
 ---
-title: Ejemplo de la Propiedad ActiveCommand (VJ++)
-TOCTitle: ActiveCommand Property Example (VJ++)
-ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
-ms:contentKeyID: 48548415
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 556bf57b1f6ebb27bf1119d0b4962d16aa38c2c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486447"
+<span data-ttu-id="43d3a-101"><<<<<<< Título HEAD: TOCTitle de ejemplo de la propiedad ActiveCommand (VJ ++): ms:assetid de ejemplo de la propiedad ActiveCommand (VJ ++): e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: ms.date 48548415: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="43d3a-101"><<<<<<< HEAD title: ActiveCommand Property Example (VJ++) TOCTitle: ActiveCommand Property Example (VJ++) ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-vj"></a><span data-ttu-id="fabd1-102">Ejemplo de la Propiedad ActiveCommand (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fabd1-102">ActiveCommand Property Example (VJ++)</span></span>
 
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="43d3a-102">Ejemplo de la Propiedad ActiveCommand (VJ++)</span><span class="sxs-lookup"><span data-stu-id="43d3a-102">ActiveCommand Property Example (VJ++)</span></span>
 
-<span data-ttu-id="fabd1-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fabd1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="43d3a-103">=== título: ejemplo de la propiedad ActiveCommand (VJ ++) TOCTitle: ms:assetid de ejemplo (VJ ++) de propiedad ActiveCommand: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: ms.date 48548415: 17/10/2018 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="43d3a-103">======= title: ActiveCommand property example (VJ++) TOCTitle: ActiveCommand property example (VJ++) ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
 
-<span data-ttu-id="fabd1-104">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fabd1-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="43d3a-104">Ejemplo de la propiedad ActiveCommand (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="43d3a-104">ActiveCommand property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="43d3a-105">master</span><span class="sxs-lookup"><span data-stu-id="43d3a-105">master</span></span>
 
-<span data-ttu-id="fabd1-105">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="fabd1-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="43d3a-106">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="43d3a-106">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="43d3a-107">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="43d3a-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+
+<span data-ttu-id="43d3a-108">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="43d3a-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```java 
  

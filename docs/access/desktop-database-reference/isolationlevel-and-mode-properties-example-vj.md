@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de las propiedades IsolationLevel y Mode (VJ++)
-TOCTitle: IsolationLevel and Mode Properties Example (VJ++)
-ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
-ms:contentKeyID: 48547711
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6b8ff091d17a8e46ad6439ef7964ab4a8ff87e00
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483523"
+<span data-ttu-id="683ba-101"><<<<<<< Título HEAD: IsolationLevel y TOCTitle de ejemplo de las propiedades de modo (VJ ++): ejemplo IsolationLevel y Mode propiedades (VJ ++) === título: ejemplo de las propiedades IsolationLevel y modo (VJ ++) TOCTitle: IsolationLevel y modo ejemplo de las propiedades (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="683ba-101"><<<<<<< HEAD title: IsolationLevel and Mode Properties Example (VJ++) TOCTitle: IsolationLevel and Mode Properties Example (VJ++) ======= title: IsolationLevel and Mode properties example (VJ++) TOCTitle: IsolationLevel and Mode properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="683ba-102">Master ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: ms.date 48547711: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="683ba-102">master ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: 48547711 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="92219-102">Ejemplo de las propiedades IsolationLevel y Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="92219-102">IsolationLevel and Mode Properties Example (VJ++)</span></span>
+
+<span data-ttu-id="683ba-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="683ba-103"><<<<<<< HEAD</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="683ba-104">Ejemplo de las propiedades IsolationLevel y Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="683ba-104">IsolationLevel and Mode Properties Example (VJ++)</span></span>
+=======
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="683ba-105">Ejemplo de las propiedades IsolationLevel y modo (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="683ba-105">IsolationLevel and Mode properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="683ba-106">master</span><span class="sxs-lookup"><span data-stu-id="683ba-106">master</span></span>
 
 
-<span data-ttu-id="92219-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="92219-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="683ba-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="683ba-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="92219-104">En este ejemplo se utiliza la propiedad [Mode](mode-property-ado.md) para abrir una conexión exclusiva y la propiedad [IsolationLevel](isolationlevel-property-ado.md) para abrir una transacción realizada de forma aislada con respecto a otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="92219-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="683ba-108">En este ejemplo se utiliza la propiedad [Mode](mode-property-ado.md) para abrir una conexión exclusiva y la propiedad [IsolationLevel](isolationlevel-property-ado.md) para abrir una transacción realizada de forma aislada con respecto a otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="683ba-108">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```java 
  

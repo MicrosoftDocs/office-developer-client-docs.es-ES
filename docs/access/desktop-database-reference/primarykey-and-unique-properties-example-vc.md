@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de propiedades ClavePrincipal y Única (VC++)
-TOCTitle: PrimaryKey and Unique Properties Example (VC++)
-ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
-ms:contentKeyID: 48543158
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9cb0cdfa68ac3437e368e245a70a7743ac0b7724
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484768"
+<span data-ttu-id="a3046-101"><<<<<<< Título HEAD: PrimaryKey y ejemplo de las propiedades único (VC ++) TOCTitle: ClavePrincipal y única ejemplo de las propiedades (VC ++) === título: ejemplo de propiedades ClavePrincipal y única (VC ++) TOCTitle: propiedades ClavePrincipal y única ejemplo (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a3046-101"><<<<<<< HEAD title: PrimaryKey and Unique Properties Example (VC++) TOCTitle: PrimaryKey and Unique Properties Example (VC++) ======= title: PrimaryKey and Unique properties example (VC++) TOCTitle: PrimaryKey and Unique properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a3046-102">Master ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: ms.date 48543158: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="a3046-102">master ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="1aa40-102">Ejemplo de propiedades ClavePrincipal y Única (VC++)</span><span class="sxs-lookup"><span data-stu-id="1aa40-102">PrimaryKey and Unique Properties Example (VC++)</span></span>
+
+<span data-ttu-id="a3046-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="a3046-103"><<<<<<< HEAD</span></span>
+# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="a3046-104">Ejemplo de propiedades ClavePrincipal y Única (VC++)</span><span class="sxs-lookup"><span data-stu-id="a3046-104">PrimaryKey and Unique Properties Example (VC++)</span></span>
+=======
+# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="a3046-105">Ejemplo de propiedades ClavePrincipal y única (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a3046-105">PrimaryKey and Unique properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a3046-106">master</span><span class="sxs-lookup"><span data-stu-id="a3046-106">master</span></span>
 
 
-<span data-ttu-id="1aa40-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1aa40-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a3046-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3046-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1aa40-p101">En este ejemplo, se muestran las propiedades [ClavePrincipal](primarykey-property-adox.md) y [Única](unique-property-adox.md) de un [índice](index-object-adox.md). El código crea una nueva tabla con dos columnas. Las propiedades **ClavePrincipal** y **Única** sirven para establecer una columna como clave principal para la que no se permiten valores duplicados.</span><span class="sxs-lookup"><span data-stu-id="1aa40-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="a3046-p101">En este ejemplo, se muestran las propiedades [ClavePrincipal](primarykey-property-adox.md) y [Única](unique-property-adox.md) de un [índice](index-object-adox.md). El código crea una nueva tabla con dos columnas. Las propiedades **ClavePrincipal** y **Única** sirven para establecer una columna como clave principal para la que no se permiten valores duplicados.</span><span class="sxs-lookup"><span data-stu-id="a3046-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```cpp 
  

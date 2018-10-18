@@ -1,23 +1,22 @@
 ---
-title: Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
-ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
-ms:contentKeyID: 48545506
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 60e302cc61b9bbf61a7183d5e74ea6a9dac4a135
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483542"
+<span data-ttu-id="2490a-101"><<<<<<< Título HEAD: AbsolutePage, PageCount y ejemplo de las propiedades PageSize (JScript) TOCTitle: AbsolutePage, PageCount y ejemplo de las propiedades PageSize (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: ms.date 48545506: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="2490a-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="d2338-102">Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="d2338-102">AbsolutePage, PageCount, and PageSize Properties Example (JScript)</span></span>
 
-<span data-ttu-id="d2338-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2338-103">**Applies to**: Access 2013 | Office 2013</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="2490a-102">Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="2490a-102">AbsolutePage, PageCount, and PageSize Properties Example (JScript)</span></span>
 
-<span data-ttu-id="d2338-104">En este ejemplo se muestra cómo las propiedades AbsolutePage, PageCount y PageSize.</span><span class="sxs-lookup"><span data-stu-id="d2338-104">This example demonstrates the AbsolutePage, PageCount, and PageSize properties.</span></span> <span data-ttu-id="d2338-105">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d2338-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+<span data-ttu-id="2490a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2490a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<a name="this-example-demonstrates-the-absolutepage-pagecount-and-pagesize-properties-cut-and-paste-the-following-code-to-notepad-or-another-text-editor-and-save-it-as-absolutepagejsasp"></a><span data-ttu-id="2490a-104">En este ejemplo se muestra cómo las propiedades AbsolutePage, PageCount y PageSize.</span><span class="sxs-lookup"><span data-stu-id="2490a-104">This example demonstrates the AbsolutePage, PageCount, and PageSize properties.</span></span> <span data-ttu-id="2490a-105">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="2490a-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+=======
+<span data-ttu-id="2490a-106">título: ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript) TOCTitle: ms:assetid de ejemplo (JScript) de las propiedades AbsolutePage, PageCount y PageSize: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: ms.date 48545506: 17/10/2018 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="2490a-106">title: AbsolutePage, PageCount, and PageSize properties example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="2490a-107">Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="2490a-107">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
+
+<span data-ttu-id="2490a-108">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2490a-108">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="2490a-109">En este ejemplo se utilizan las propiedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) y [PageSize](pagesize-property-ado.md) para mostrar los nombres y las fechas de contratación de la tabla ***Employees*** de cinco registros a la vez.</span><span class="sxs-lookup"><span data-stu-id="2490a-109">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="2490a-110">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="2490a-110">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+>>>>>>> <span data-ttu-id="2490a-111">master</span><span class="sxs-lookup"><span data-stu-id="2490a-111">master</span></span>
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

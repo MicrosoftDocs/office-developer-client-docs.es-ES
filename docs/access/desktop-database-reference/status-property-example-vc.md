@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de la propiedad Status (VC++)
-TOCTitle: Status Property Example (VC++)
-ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
-ms:contentKeyID: 48545618
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1f2dfa41e11f448f9f302bbc25d9e12a582324f5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483853"
+<span data-ttu-id="1d6a9-101"><<<<<<< Título HEAD: ejemplo de la propiedad Status (VC ++) TOCTitle: ejemplo de la propiedad Status (VC ++) === título: ejemplo de la propiedad Status (VC ++) TOCTitle: ejemplo de la propiedad Status (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1d6a9-101"><<<<<<< HEAD title: Status Property Example (VC++) TOCTitle: Status Property Example (VC++) ======= title: Status property example (VC++) TOCTitle: Status property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1d6a9-102">Master ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: ms.date 48545618: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="1d6a9-102">master ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="status-property-example-vc"></a><span data-ttu-id="1845f-102">Ejemplo de la propiedad Status (VC++)</span><span class="sxs-lookup"><span data-stu-id="1845f-102">Status Property Example (VC++)</span></span>
+
+<span data-ttu-id="1d6a9-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="1d6a9-103"><<<<<<< HEAD</span></span>
+# <a name="status-property-example-vc"></a><span data-ttu-id="1d6a9-104">Ejemplo de la propiedad Status (VC++)</span><span class="sxs-lookup"><span data-stu-id="1d6a9-104">Status Property Example (VC++)</span></span>
+=======
+# <a name="status-property-example-vc"></a><span data-ttu-id="1d6a9-105">Ejemplo de la propiedad Status (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1d6a9-105">Status property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1d6a9-106">master</span><span class="sxs-lookup"><span data-stu-id="1d6a9-106">master</span></span>
 
 
-<span data-ttu-id="1845f-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1845f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1d6a9-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d6a9-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1845f-104">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="1845f-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="1d6a9-108">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="1d6a9-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```cpp 
  
@@ -209,7 +203,7 @@ void PrintComError(_com_error &e)
 // EndStatusCpp 
 ```
 
-<span data-ttu-id="1845f-105">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="1845f-105">**StatusX.h**</span></span>
+<span data-ttu-id="1d6a9-109">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="1d6a9-109">**StatusX.h**</span></span>
 
 ```cpp 
  

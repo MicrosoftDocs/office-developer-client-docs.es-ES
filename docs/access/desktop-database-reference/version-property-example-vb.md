@@ -1,34 +1,28 @@
 ---
-title: Ejemplo de la propiedad Version (VB)
-TOCTitle: Version Property Example (VB)
-ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
-ms:contentKeyID: 48548968
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 159a8c29db34c432ecd332c489ad3917eab00416
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484897"
+<span data-ttu-id="336f4-101"><<<<<<< Título HEAD: ejemplo de propiedad Version (VB) TOCTitle: ejemplo de propiedad Version (VB) === título: ejemplo de la propiedad Version (VB) TOCTitle: ejemplo de la propiedad Version (VB)</span><span class="sxs-lookup"><span data-stu-id="336f4-101"><<<<<<< HEAD title: Version Property Example (VB) TOCTitle: Version Property Example (VB) ======= title: Version property example (VB) TOCTitle: Version property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="336f4-102">Master ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15) ms:contentKeyID: ms.date 48548968: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="336f4-102">master ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15) ms:contentKeyID: 48548968 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="version-property-example-vb"></a><span data-ttu-id="4c128-102">Ejemplo de la propiedad Version (VB)</span><span class="sxs-lookup"><span data-stu-id="4c128-102">Version Property Example (VB)</span></span>
+
+<span data-ttu-id="336f4-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="336f4-103"><<<<<<< HEAD</span></span>
+# <a name="version-property-example-vb"></a><span data-ttu-id="336f4-104">Ejemplo de la propiedad Version (VB)</span><span class="sxs-lookup"><span data-stu-id="336f4-104">Version Property Example (VB)</span></span>
+=======
+# <a name="version-property-example-vb"></a><span data-ttu-id="336f4-105">Ejemplo de la propiedad Version (VB)</span><span class="sxs-lookup"><span data-stu-id="336f4-105">Version property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="336f4-106">master</span><span class="sxs-lookup"><span data-stu-id="336f4-106">master</span></span>
 
 
-<span data-ttu-id="4c128-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c128-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="336f4-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="336f4-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="4c128-p101">En este ejemplo se usa la propiedad [Version](version-property-ado.md) de un objeto [Connection](connection-object-ado.md) para mostrar la versión de ADO actual. También se usan varias propiedades dinámicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="4c128-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="336f4-p101">En este ejemplo se usa la propiedad [Version](version-property-ado.md) de un objeto [Connection](connection-object-ado.md) para mostrar la versión de ADO actual. También se usan varias propiedades dinámicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="336f4-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="4c128-106">El nombre DBMS y la versión actuales.</span><span class="sxs-lookup"><span data-stu-id="4c128-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="336f4-110">El nombre DBMS y la versión actuales.</span><span class="sxs-lookup"><span data-stu-id="336f4-110">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="4c128-107">La versión de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="4c128-107">OLE DB version.</span></span>
+  - <span data-ttu-id="336f4-111">La versión de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="336f4-111">OLE DB version.</span></span>
 
-  - <span data-ttu-id="4c128-108">El nombre del proveedor y la versión.</span><span class="sxs-lookup"><span data-stu-id="4c128-108">provider name and version.</span></span>
+  - <span data-ttu-id="336f4-112">El nombre del proveedor y la versión.</span><span class="sxs-lookup"><span data-stu-id="336f4-112">provider name and version.</span></span>
 
-  - <span data-ttu-id="4c128-109">La versión de ODBC.</span><span class="sxs-lookup"><span data-stu-id="4c128-109">ODBC version.</span></span>
+  - <span data-ttu-id="336f4-113">La versión de ODBC.</span><span class="sxs-lookup"><span data-stu-id="336f4-113">ODBC version.</span></span>
 
-  - <span data-ttu-id="4c128-110">El nombre del controlador ODBC y la versión.</span><span class="sxs-lookup"><span data-stu-id="4c128-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="336f4-114">El nombre del controlador ODBC y la versión.</span><span class="sxs-lookup"><span data-stu-id="336f4-114">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

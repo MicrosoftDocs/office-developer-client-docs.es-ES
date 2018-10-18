@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de la propiedad CacheSize (VB)
-TOCTitle: CacheSize Property Example (VB)
-ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
-ms:contentKeyID: 48544934
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2770ff65745deacfbed7df48c74952e5afa943c8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485110"
+<span data-ttu-id="b9479-101"><<<<<<< Título HEAD: ejemplo de propiedad CacheSize (VB) TOCTitle: ejemplo de propiedad CacheSize (VB) === título: ejemplo de la propiedad CacheSize (VB) TOCTitle: ejemplo de la propiedad CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="b9479-101"><<<<<<< HEAD title: CacheSize Property Example (VB) TOCTitle: CacheSize Property Example (VB) ======= title: CacheSize property example (VB) TOCTitle: CacheSize property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="b9479-102">Master ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15) ms:contentKeyID: ms.date 48544934: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="b9479-102">master ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15) ms:contentKeyID: 48544934 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="cachesize-property-example-vb"></a><span data-ttu-id="ffd4f-102">Ejemplo de la propiedad CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="ffd4f-102">CacheSize Property Example (VB)</span></span>
+
+<span data-ttu-id="b9479-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="b9479-103"><<<<<<< HEAD</span></span>
+# <a name="cachesize-property-example-vb"></a><span data-ttu-id="b9479-104">Ejemplo de la propiedad CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="b9479-104">CacheSize Property Example (VB)</span></span>
+=======
+# <a name="cachesize-property-example-vb"></a><span data-ttu-id="b9479-105">Ejemplo de la propiedad CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="b9479-105">CacheSize property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="b9479-106">master</span><span class="sxs-lookup"><span data-stu-id="b9479-106">master</span></span>
 
 
-<span data-ttu-id="ffd4f-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffd4f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b9479-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9479-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="ffd4f-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="ffd4f-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="b9479-108">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="b9479-108">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```vb 
  

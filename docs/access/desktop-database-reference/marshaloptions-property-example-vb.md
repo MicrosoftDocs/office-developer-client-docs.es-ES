@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de la propiedad MarshalOptions (VB)
-TOCTitle: MarshalOptions Property Example (VB)
-ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
-ms:contentKeyID: 48548691
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6da1e748f9cbf350b880f77ec18f1368a99eaa63
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484119"
+<span data-ttu-id="862a1-101"><<<<<<< Título HEAD: ejemplo de propiedad MarshalOptions (VB) TOCTitle: ejemplo de propiedad MarshalOptions (VB) === título: ejemplo de la propiedad MarshalOptions (VB) TOCTitle: ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="862a1-101"><<<<<<< HEAD title: MarshalOptions Property Example (VB) TOCTitle: MarshalOptions Property Example (VB) ======= title: MarshalOptions property example (VB) TOCTitle: MarshalOptions property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="862a1-102">Master ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: ms.date 48548691: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="862a1-102">master ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="a7e63-102">Ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="a7e63-102">MarshalOptions Property Example (VB)</span></span>
+
+<span data-ttu-id="862a1-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="862a1-103"><<<<<<< HEAD</span></span>
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="862a1-104">Ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="862a1-104">MarshalOptions Property Example (VB)</span></span>
+=======
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="862a1-105">Ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="862a1-105">MarshalOptions property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="862a1-106">master</span><span class="sxs-lookup"><span data-stu-id="862a1-106">master</span></span>
 
 
-<span data-ttu-id="a7e63-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7e63-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="862a1-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="862a1-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a7e63-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="a7e63-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="862a1-108">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="862a1-108">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```vb 
  

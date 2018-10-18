@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de la propiedad Type (Field) (VB)
-TOCTitle: Type Property Example (Field) (VB)
-ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
-ms:contentKeyID: 48548966
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0206bf366cfa5ef21e1816a2dba2eaad8dbe67ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485807"
+<span data-ttu-id="f3bb9-101"><<<<<<< Título HEAD: ejemplo de la propiedad Type (Field) (VB) TOCTitle: ejemplo de la propiedad Type (Field) (VB) === título: ejemplo de la propiedad Type (Field) (VB) TOCTitle: ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="f3bb9-101"><<<<<<< HEAD title: Type Property Example (Field) (VB) TOCTitle: Type Property Example (Field) (VB) ======= title: Type property example (Field) (VB) TOCTitle: Type property example (Field) (VB)</span></span>
+>>>>>>> <span data-ttu-id="f3bb9-102">Master ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: ms.date 48548966: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="f3bb9-102">master ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: 48548966 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="type-property-example-field-vb"></a><span data-ttu-id="74f4e-102">Ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="74f4e-102">Type Property Example (Field) (VB)</span></span>
+
+<span data-ttu-id="f3bb9-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="f3bb9-103"><<<<<<< HEAD</span></span>
+# <a name="type-property-example-field-vb"></a><span data-ttu-id="f3bb9-104">Ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="f3bb9-104">Type Property Example (Field) (VB)</span></span>
+=======
+# <a name="type-property-example-field-vb"></a><span data-ttu-id="f3bb9-105">Ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="f3bb9-105">Type property example (Field) (VB)</span></span>
+>>>>>>> <span data-ttu-id="f3bb9-106">master</span><span class="sxs-lookup"><span data-stu-id="f3bb9-106">master</span></span>
 
 
-<span data-ttu-id="74f4e-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="74f4e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f3bb9-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3bb9-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="74f4e-p101">En este ejemplo se muestra la propiedad [Type](type-property-ado.md) al mostrar el nombre de la constante que corresponde al valor de la propiedad [Type](type-property-ado.md) de todos los objetos [Field](field-object-ado.md) de la tabla ***Employees***. Para que este procedimiento se ejecute se necesita la función FieldType.</span><span class="sxs-lookup"><span data-stu-id="74f4e-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="f3bb9-p101">En este ejemplo se muestra la propiedad [Type](type-property-ado.md) al mostrar el nombre de la constante que corresponde al valor de la propiedad [Type](type-property-ado.md) de todos los objetos [Field](field-object-ado.md) de la tabla ***Employees***. Para que este procedimiento se ejecute se necesita la función FieldType.</span><span class="sxs-lookup"><span data-stu-id="f3bb9-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
 
 ```vb 
  

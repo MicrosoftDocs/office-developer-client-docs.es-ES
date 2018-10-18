@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile (VC ++)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
-ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
-ms:contentKeyID: 48543369
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8216021745ee4b4fe6dda43a1a0f48f0eb5b9214
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483533"
+<span data-ttu-id="1b7aa-101"><<<<<<< Título HEAD: Description, ContextoDeAyuda (HelpContext), ejemplo de las propiedades HelpFile (VC ++) TOCTitle: Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y ejemplo de las propiedades SQLState (VC ++) === título: descripción, ContextoDeAyuda (HelpContext), ejemplo de las propiedades HelpFile (VC ++) TOCTitle: ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1b7aa-101"><<<<<<< HEAD title: Description, HelpContext, HelpFile Properties Example (VC++) TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++) ======= title: Description, HelpContext, HelpFile properties example (VC++) TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1b7aa-102">Master ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID: ms.date 48543369: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="1b7aa-102">master ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID: 48543369 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a><span data-ttu-id="dbd2a-102">Ejemplo de las propiedades Description, HelpContext, HelpFile, NativeError, Number, Source y SQLState (VC++)</span><span class="sxs-lookup"><span data-stu-id="dbd2a-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)</span></span>
+
+<span data-ttu-id="1b7aa-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="1b7aa-103"><<<<<<< HEAD</span></span>
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a><span data-ttu-id="1b7aa-104">Ejemplo de las propiedades Description, HelpContext, HelpFile, NativeError, Number, Source y SQLState (VC++)</span><span class="sxs-lookup"><span data-stu-id="1b7aa-104">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)</span></span>
+=======
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a><span data-ttu-id="1b7aa-105">Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1b7aa-105">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1b7aa-106">master</span><span class="sxs-lookup"><span data-stu-id="1b7aa-106">master</span></span>
 
 
-<span data-ttu-id="dbd2a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbd2a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1b7aa-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b7aa-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="dbd2a-104">Este ejemplo desencadena un error, lo captura y muestra las propiedades [Description](description-property-ado.md), [ContextoDeAyuda (HelpContext)](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) y [SQLState](sqlstate-property-ado.md) del objeto [Error](error-object-ado.md) resultante.</span><span class="sxs-lookup"><span data-stu-id="dbd2a-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="1b7aa-108">Este ejemplo desencadena un error, lo captura y muestra las propiedades [Description](description-property-ado.md), [ContextoDeAyuda (HelpContext)](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) y [SQLState](sqlstate-property-ado.md) del objeto [Error](error-object-ado.md) resultante.</span><span class="sxs-lookup"><span data-stu-id="1b7aa-108">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
 
 ```cpp
     // BeginDescriptionCpp

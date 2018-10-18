@@ -1,24 +1,18 @@
 ---
-title: Ejemplo de la propiedad State (VB)
-TOCTitle: State Property Example (VB)
-ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
-ms:contentKeyID: 48548366
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09f80226664c06fcc6c78a8d17c59aa2bc22c7c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484690"
+<span data-ttu-id="e534d-101"><<<<<<< Título HEAD: ejemplo de propiedad de estado (VB) TOCTitle: ejemplo de propiedad de estado (VB) === título: ejemplo de la propiedad estado (VB) TOCTitle: ejemplo de la propiedad estado (VB)</span><span class="sxs-lookup"><span data-stu-id="e534d-101"><<<<<<< HEAD title: State Property Example (VB) TOCTitle: State Property Example (VB) ======= title: State property example (VB) TOCTitle: State property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="e534d-102">Master ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: ms.date 48548366: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="e534d-102">master ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: 48548366 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="state-property-example-vb"></a><span data-ttu-id="51181-102">Ejemplo de la propiedad State (VB)</span><span class="sxs-lookup"><span data-stu-id="51181-102">State Property Example (VB)</span></span>
+
+<span data-ttu-id="e534d-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="e534d-103"><<<<<<< HEAD</span></span>
+# <a name="state-property-example-vb"></a><span data-ttu-id="e534d-104">Ejemplo de la propiedad State (VB)</span><span class="sxs-lookup"><span data-stu-id="e534d-104">State Property Example (VB)</span></span>
+=======
+# <a name="state-property-example-vb"></a><span data-ttu-id="e534d-105">Ejemplo de la propiedad State (VB)</span><span class="sxs-lookup"><span data-stu-id="e534d-105">State property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="e534d-106">master</span><span class="sxs-lookup"><span data-stu-id="e534d-106">master</span></span>
 
 
-<span data-ttu-id="51181-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="51181-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e534d-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e534d-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="51181-104">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="51181-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="e534d-108">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="e534d-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```vb 
  

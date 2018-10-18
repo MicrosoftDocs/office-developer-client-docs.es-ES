@@ -1,26 +1,20 @@
 ---
-title: Ejemplo de la propiedad Type (VC++)
-TOCTitle: Type Property Example (Property) (VC++)
-ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
-ms:contentKeyID: 48548168
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 31708d28134b42915b6c8e0ccef1b65b7f06fabb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485584"
+<span data-ttu-id="e0eb2-101"><<<<<<< Título HEAD: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++) === título: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++)</span><span class="sxs-lookup"><span data-stu-id="e0eb2-101"><<<<<<< HEAD title: Type Property Example (Property) (VC++) TOCTitle: Type Property Example (Property) (VC++) ======= title: Type property example (Property) (VC++) TOCTitle: Type property example (Property) (VC++)</span></span>
+>>>>>>> <span data-ttu-id="e0eb2-102">Master ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: ms.date 48548168: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="e0eb2-102">master ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="type-property-example-property-vc"></a><span data-ttu-id="a6bb3-102">Ejemplo de la propiedad Type (VC++)</span><span class="sxs-lookup"><span data-stu-id="a6bb3-102">Type Property Example (Property) (VC++)</span></span>
+
+<span data-ttu-id="e0eb2-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="e0eb2-103"><<<<<<< HEAD</span></span>
+# <a name="type-property-example-property-vc"></a><span data-ttu-id="e0eb2-104">Ejemplo de la propiedad Type (VC++)</span><span class="sxs-lookup"><span data-stu-id="e0eb2-104">Type Property Example (Property) (VC++)</span></span>
+=======
+# <a name="type-property-example-property-vc"></a><span data-ttu-id="e0eb2-105">Ejemplo de la propiedad tipo (propiedad) (VC ++)</span><span class="sxs-lookup"><span data-stu-id="e0eb2-105">Type property example (Property) (VC++)</span></span>
+>>>>>>> <span data-ttu-id="e0eb2-106">master</span><span class="sxs-lookup"><span data-stu-id="e0eb2-106">master</span></span>
 
 
-<span data-ttu-id="a6bb3-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6bb3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e0eb2-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0eb2-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a6bb3-p101">En este ejemplo se muestra la propiedad [Type](type-property-ado.md). Se trata de un modelo de una utilidad para enumerar los nombres y tipos de una colección, como [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span><span class="sxs-lookup"><span data-stu-id="a6bb3-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
+<span data-ttu-id="e0eb2-p101">En este ejemplo se muestra la propiedad [Type](type-property-ado.md). Se trata de un modelo de una utilidad para enumerar los nombres y tipos de una colección, como [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span><span class="sxs-lookup"><span data-stu-id="e0eb2-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
 
-<span data-ttu-id="a6bb3-p102">No es necesario abrir el objeto [Recordset](recordset-object-ado.md) para obtener acceso a su colección **Properties**; se activan al iniciar el objeto **Recordset**. Sin embargo, al establecer la propiedad [CursorLocation](cursorlocation-property-ado.md) en **adUseClient**, se agregan varias propiedades dinámicas a la colección **Properties** del objeto **Recordset**, lo que hace que este ejemplo sea un poco más interesante. Para ilustrar, se usa de forma explícita la propiedad [Item](item-property-ado.md) para obtener acceso a cada objeto [Property](property-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a6bb3-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
+<span data-ttu-id="e0eb2-p102">No es necesario abrir el objeto [Recordset](recordset-object-ado.md) para obtener acceso a su colección **Properties**; se activan al iniciar el objeto **Recordset**. Sin embargo, al establecer la propiedad [CursorLocation](cursorlocation-property-ado.md) en **adUseClient**, se agregan varias propiedades dinámicas a la colección **Properties** del objeto **Recordset**, lo que hace que este ejemplo sea un poco más interesante. Para ilustrar, se usa de forma explícita la propiedad [Item](item-property-ado.md) para obtener acceso a cada objeto [Property](property-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="e0eb2-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
 
 ```cpp 
  
