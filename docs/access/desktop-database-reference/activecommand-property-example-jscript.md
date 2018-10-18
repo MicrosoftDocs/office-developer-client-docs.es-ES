@@ -1,20 +1,14 @@
 ---
-title: Ejemplo de la propiedad ActiveCommand (JScript)
-TOCTitle: ActiveCommand Property Example (JScript)
-ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
-ms:contentKeyID: 48547070
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9d89547e56ddf6aa499a096b5991fc22cbf282e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483726"
+<<<<<<< Título HEAD: TOCTitle de ejemplo de la propiedad ActiveCommand (JScript): ms:assetid de ejemplo de la propiedad ActiveCommand (JScript): ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: ms.date 48547070: 09/18 / 2015 mtps_version: Office.15
 ---
+
 # <a name="activecommand-property-example-jscript"></a>Ejemplo de la propiedad ActiveCommand (JScript)
 
+=== título: ejemplo de la propiedad ActiveCommand (JScript) TOCTitle: ActiveCommand (propiedad) (JScript) de ejemplo ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: ms.date 48547070: 17/10/2018 mtps_version: v = Office.15
+---
+
+# <a name="activecommand-property-example-jscript"></a>Ejemplo de la propiedad ActiveCommand (JScript)
+>>>>>>> master
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -34,7 +28,11 @@ En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-a
 <html> 
  
 <head> 
+<<<<<<< HEAD
 <title>ActiveCommand Property Example (JScript)</title> 
+=======
+<title>ActiveCommand property example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -48,7 +46,11 @@ BODY {
  
 <body bgcolor="White"> 
  
+<<<<<<< HEAD
 <h1>ActiveCommand Property Example (JScript)</h1> 
+=======
+<h1>ActiveCommand property example (JScript)</h1> 
+>>>>>>> master
  
 <% 
 if (strName.length > 0) 

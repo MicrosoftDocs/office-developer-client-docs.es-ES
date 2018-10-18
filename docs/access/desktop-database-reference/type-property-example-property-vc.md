@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Type (VC++)
-TOCTitle: Type Property Example (Property) (VC++)
-ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
-ms:contentKeyID: 48548168
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 31708d28134b42915b6c8e0ccef1b65b7f06fabb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485584"
+<<<<<<< Título HEAD: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++) === título: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++)
+>>>>>>> Master ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: ms.date 48548168: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="type-property-example-property-vc"></a>Ejemplo de la propiedad Type (VC++)
+=======
+# <a name="type-property-example-property-vc"></a>Ejemplo de la propiedad tipo (propiedad) (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

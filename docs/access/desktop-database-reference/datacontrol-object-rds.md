@@ -6,18 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca699fcfb850f00789fab632a9cae28a5e1e5a98
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3382b86ad14b484cb0fb9a8f6ecbd95018c25835
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485727"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607014"
 ---
 # <a name="datacontrol-object-rds"></a>DataControl (objeto) (RDS)
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Enlaza un objeto [Recordset](recordset-object-ado.md) de una consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos de **Recordset** en una página web.
+<<<<<<< HEAD se enlaza a datos de [conjunto de registros de](recordset-object-ado.md) consulta a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o cuadro combinado) para mostrar los datos de **Recordset** en una página Web.
+=== Enlaza un [objeto Recordset](recordset-object-ado.md) de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o cuadro combinado) para mostrar los datos del **conjunto de registros** en una página Web.
+>>>>>>> master
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -80,15 +82,24 @@ Use un objeto **RDS.DataControl** para vincular los resultados de una consulta �
 
 Use objetos **RDS.DataControl** diferentes para vincular los resultados de varias consultas a controles visuales diferentes. Por ejemplo, suponga que utiliza una consulta para obtener información sobre un cliente y otra consulta para obtener información sobre los productos que el cliente ha comprado. Además, desea que los resultados de la primera consulta se muestren en tres cuadros de texto y una casilla de verificación, y que los resultados de la segunda consulta se muestren en un control de cuadrícula. Si utiliza el objeto de negocio predeterminado (**RDSServer.DataFactory**), tiene que realizar lo siguiente:
 
+<<<<<<< HEAD
   - Agregar dos objetos **RDS.DataControl** a la página Web.
+=======
+  - Agregar dos **RDS. DataControl** objetos a la página Web.
+>>>>>>> master
 
   - Escribir dos consultas, una para cada propiedad **SQL** de los dos objetos **RDS.DataControl**. Un objeto **RDS.DataControl** contendrá una consulta SQL solicitando información del cliente, y el otro contendrá una consulta solicitando una lista de los productos que el cliente ha comprado.
 
   - En cada una de las etiquetas OBJECT de los controles dependientes, especifique el valor DATAFLD de modo que se establezcan los valores correspondientes a los datos que desea que se muestren en cada control visual.
 
-No hay limitaciones de recuento en el número de objetos **RDS.DataControl** que puede incrustar mediante etiquetas OBJECT en una única página Web.
+<<<<<<< HEAD no es ninguna restricción de recuento en el número de **RDS. DataControl** objetos que puede incrustar mediante etiquetas OBJECT en una sola página Web.
 
-Cuando defina el objeto **RDS.DataControl** en una página Web, use valores de **Alto** y **Ancho** distintos de cero, por ejemplo 1 (para evitar la inclusión de espacio adicional).
+<a name="when-you-define-the-rdsdatacontrol-object-on-a-web-page-use-nonzero-height-and-width-values-such-as-1-to-avoid-the-inclusion-of-extra-space"></a>Cuando defina el objeto **RDS.DataControl** en una página Web, use valores de **Alto** y **Ancho** distintos de cero, por ejemplo 1 (para evitar la inclusión de espacio adicional).
+=======
+No hay ninguna restricción de recuento en el número de **RDS. DataControl** objetos que puede incrustar mediante etiquetas OBJECT en una página Web único.
+
+Al definir el **RDS. DataControl** de objetos en una página Web, use valores de **alto** y **ancho** distintos de cero, como 1 (para evitar la inclusión de espacio adicional).
+>>>>>>> master
 
 Los componentes del cliente de servicio de datos remotos ya están incluidos como parte de Internet Explorer 4.0; por lo tanto, no es necesario incluir un parámetro CODEBASE en la etiqueta del objeto **RDS.DataControl**.
 

@@ -1,26 +1,24 @@
 ---
-title: RecordCount (propiedad, ADO)
-TOCTitle: RecordCount Property (ADO)
-ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
-ms:contentKeyID: 48548304
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a619570264973fc70b7cc5bd581437a4002b00be
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486164"
+<<<<<<< Título HEAD: RecordCount (propiedad) (ADO) TOCTitle: RecordCount (propiedad) (ADO) === título: RecordCount (propiedad, ADO) TOCTitle: RecordCount (propiedad, ADO)
+>>>>>>> Master ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15) ms:contentKeyID: ms.date 48548304: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="recordcount-property-ado"></a>RecordCount (propiedad, ADO)
+=======
+# <a name="recordcount-property-ado"></a>RecordCount (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el número de registros de un objeto [Recordset](recordset-object-ado.md).
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve un valor de tipo **Long** que indica el número de registros del objeto **Recordset**.
 

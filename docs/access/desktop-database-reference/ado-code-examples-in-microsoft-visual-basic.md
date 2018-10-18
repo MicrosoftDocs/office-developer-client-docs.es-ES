@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eba2881e4a892f32c70875f80cb8db7c71fb5d34
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483954"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604613"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Ejemplos de código de ADO en Microsoft Visual Basic
 
@@ -60,7 +60,11 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
   - [Ejemplo del método GetString](getstring-method-example-vb.md)
 
-  - [Ejemplo del método SkipLine y las propiedades EOS y LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+<<<<<<< HEAD
+  - [Método SkipLine, EOS y LineSeparator ejemplo de las propiedades](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+=======
+  - [Ejemplo de las propiedades del método SkipLine, EOS y LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+>>>>>>> master
 
   - [Ejemplo del método Move](move-method-example-vb.md)
 
@@ -80,9 +84,13 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
   - [Ejemplo de los métodos Save y Open](save-and-open-methods-example-vb.md)
 
-  - [Ejemplo del método Seek y la propiedad Index](seek-method-and-index-property-example-vb.md)
+<<<<<<< HEAD
+  - [Método Seek y ejemplo de la propiedad de índice](seek-method-and-index-property-example-vb.md)
+=======
+  - [Seek (método) y el índice de ejemplo de la propiedad](seek-method-and-index-property-example-vb.md)
+>>>>>>> master
 
-  - [Ejemplo de método Supports](supports-method-example-vb.md)
+  - [Ejemplo del método Supports](supports-method-example-vb.md)
 
   - [Ejemplo de los métodos Update y CancelUpdate](update-and-cancelupdate-methods-example-vb.md)
 
@@ -90,6 +98,7 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
 **Propiedades**
 
+<<<<<<< HEAD
   - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -152,5 +161,70 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
   - [Ejemplo de la propiedad Value](value-property-example-vb.md)
 
-  - [Ejemplo de la propiedad Version](version-property-example-vb.md)
+  - [Ejemplo de la propiedad de versión](version-property-example-vb.md)
+=======
+  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-vb.md)
+
+  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades de nombre y atributos](attributes-and-name-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades BOF, EOF y Bookmark](bof-eof-and-bookmark-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad CacheSize](cachesize-property-example-vb.md)
+
+  - [Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Count](count-property-example-vb.md)
+
+  - [Ejemplo de las propiedades CursorType, LockType y EditMode](cursortype-locktype-and-editmode-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
+
+  - [Ejemplo del método SkipLine y las propiedades EOS y LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+
+  - [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-vb.md)
+
+  - [Ejemplo de las propiedades IsolationLevel y modo](isolationlevel-and-mode-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad de elemento](item-property-example-vb.md)
+
+  - [Ejemplo de la propiedad MarshalOptions](marshaloptions-property-example-vb.md)
+
+  - [Ejemplo de la propiedad MaxRecords](maxrecords-property-example-vb.md)
+
+  - [Ejemplo de las propiedades NumericScale y Precision](ado-numericscale-and-precision-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Optimize](optimize-property-example-vb.md)
+
+  - [Ejemplo de las propiedades OriginalValue y UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Prepared](prepared-property-example-vb.md)
+
+  - [Ejemplo de las propiedades Provider y DefaultDatabase](provider-and-defaultdatabase-properties-example-vb.md)
+
+  - [Ejemplo de la propiedad Sort](sort-property-example-vb.md)
+
+  - [Ejemplo de la propiedad de origen](source-property-example-vb.md)
+
+  - [Ejemplo de la propiedad State](state-property-example-vb.md)
+
+  - [Ejemplo de la propiedad de estado](status-property-example-recordset-vb.md)
+
+  - [Ejemplo de la propiedad StayInSync](stayinsync-property-example-vb.md)
+
+  - [Ejemplo de la propiedad Type (campo)](type-property-example-field-vb.md)
+
+  - [Ejemplo de la propiedad tipo (propiedad)](type-property-example-property-vb.md)
+
+  - [Ejemplo de la propiedad de valor](value-property-example-vb.md)
+
+  - [Ejemplo de la propiedad de versión](version-property-example-vb.md)
+>>>>>>> master
 

@@ -1,19 +1,13 @@
 ---
-title: Rowset (propiedad, ADO)
-TOCTitle: Rowset Property (ADO)
-ms:assetid: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15)
-ms:contentKeyID: 48543515
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 95a33fb3d24e5cdbf608d268781be0dd536fa315
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485042"
+<<<<<<< Título HEAD: TOCTitle del conjunto de filas (propiedad) (ADO): conjunto de filas (propiedad) (ADO) === título: conjunto de filas (propiedad, ADO) TOCTitle: conjunto de filas (propiedad, ADO)
+>>>>>>> Master ms:assetid: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15) ms:contentKeyID: ms.date 48543515: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="rowset-property-ado"></a>Rowset (propiedad, ADO)
+=======
+# <a name="rowset-property-ado"></a>Conjunto de filas (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -40,7 +34,11 @@ Poner HRESULT\_conjunto de filas (\[en\] IUnknown\* pRowset);
 
   - Un objeto **Rowset** de OLE DB.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
+=======
+## <a name="return-values"></a>Valores devueltos
+>>>>>>> master
 
 Este método de propiedad devuelve los valores estándar HRESULT, incluidos S\_Aceptar y E\_producirá un error.
 

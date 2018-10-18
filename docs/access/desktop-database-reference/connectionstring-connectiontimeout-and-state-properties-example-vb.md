@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VB)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
-ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
-ms:contentKeyID: 48546984
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 79825670b05279071182f41a6523ac552c4ea1ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485063"
+<<<<<<< Título HEAD: ConnectionString, ConnectionTimeout y ejemplo de propiedades de estado (VB) TOCTitle: ConnectionString, ConnectionTimeout y ejemplo de propiedades de estado (VB) === título: ConnectionString, ConnectionTimeout, ejemplo de propiedades de estado (VB) y TOCTitle: ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VB)
+>>>>>>> Master ms:assetid: abdd0262-8647-d545-60e0-13f99337df06 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15) ms:contentKeyID: ms.date 48546984: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VB)
+=======
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

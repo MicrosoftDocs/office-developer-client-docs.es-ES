@@ -1,26 +1,24 @@
 ---
-title: Value (propiedad, ADO)
-TOCTitle: Value Property (ADO)
-ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
-ms:contentKeyID: 48548958
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 68c0d45345dfc768f5d435689abf67bcc3d9abe2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483567"
+<<<<<<< Título HEAD: valor (propiedad) (ADO) TOCTitle: valor (propiedad) (ADO) === título: valor (propiedad, ADO) TOCTitle: valor (propiedad, ADO)
+>>>>>>> Master ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15) ms:contentKeyID: ms.date 48548958: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="value-property-ado"></a>Value (propiedad, ADO)
+=======
+# <a name="value-property-ado"></a>Valor (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el valor asignado a un objeto [Field](field-object-ado.md), [Parameter](parameter-object-ado.md) o [Property](property-object-ado.md).
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece o devuelve un valor de tipo **Variant** que indica el valor del objeto. El valor predeterminado depende de la propiedad [Type](type-property-ado.md).
 

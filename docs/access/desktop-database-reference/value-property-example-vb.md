@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Value (VB)
-TOCTitle: Value Property Example (VB)
-ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
-ms:contentKeyID: 48547547
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1f46122495af58c15788d58e9c3f83eaee9c9a09
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486359"
+<<<<<<< Título HEAD: ejemplo de propiedad de valor (VB) TOCTitle: ejemplo de propiedad de valor (VB) === título: ejemplo de la propiedad Value (VB) TOCTitle: ejemplo de la propiedad Value (VB)
+>>>>>>> Master ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: ms.date 48547547: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="value-property-example-vb"></a>Ejemplo de la propiedad Value (VB)
+=======
+# <a name="value-property-example-vb"></a>Ejemplo de la propiedad Value (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

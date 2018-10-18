@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 714a8a13ab621a8cc4dee3ba3fb52995e1edd7c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d56ba87c9b510bb0d2e81463453e72e4dd44639
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486692"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604858"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Ejemplos de código de ADO en Microsoft Visual C++
 
@@ -66,9 +66,13 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
   - [Ejemplo de los métodos Save y Open](save-and-open-methods-example-vc.md)
 
-  - [Ejemplo del método Seek y la propiedad Index](seek-method-and-index-property-example-vc.md)
+<<<<<<< HEAD
+  - [Método Seek y ejemplo de la propiedad de índice](seek-method-and-index-property-example-vc.md)
+=======
+  - [Seek (método) y el índice de ejemplo de la propiedad](seek-method-and-index-property-example-vc.md)
+>>>>>>> master
 
-  - [Ejemplo de método Supports](supports-method-example-vc.md)
+  - [Ejemplo del método Supports](supports-method-example-vc.md)
 
   - [Ejemplo de los métodos Update y CancelUpdate](update-and-cancelupdate-methods-example-vc.md)
 
@@ -76,6 +80,7 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
 **Propiedades**
 
+<<<<<<< HEAD
   - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
 
   - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vc.md)
@@ -138,7 +143,72 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
   - [Ejemplo de la propiedad Value](value-property-example-vc.md)
 
-  - [Ejemplo de la propiedad Version](version-property-example-vc.md)
+  - [Ejemplo de la propiedad de versión](version-property-example-vc.md)
+=======
+  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-vc.md)
+
+  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades de nombre y atributos](attributes-and-name-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades BOF, EOF y Bookmark](bof-eof-and-bookmark-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad CacheSize](cachesize-property-example-vc.md)
+
+  - [Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad Count](count-property-example-vc.md)
+
+  - [Ejemplo de las propiedades CursorType, LockType y EditMode](cursortype-locktype-and-editmode-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
+
+  - [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-vc.md)
+
+  - [Ejemplo del método Seek y la propiedad Index](seek-method-and-index-property-example-vc.md)
+
+  - [Ejemplo de las propiedades IsolationLevel y modo](isolationlevel-and-mode-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad de elemento](item-property-example-vc.md)
+
+  - [Ejemplo de la propiedad MarshalOptions](marshaloptions-property-example-vc.md)
+
+  - [Ejemplo de la propiedad MaxRecords](maxrecords-property-example-vc.md)
+
+  - [Ejemplo de las propiedades NumericScale y Precision](ado-numericscale-and-precision-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad Optimize](optimize-property-example-vc.md)
+
+  - [Ejemplo de las propiedades OriginalValue y UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad Prepared](prepared-property-example-vc.md)
+
+  - [Ejemplo de las propiedades Provider y DefaultDatabase](provider-and-defaultdatabase-properties-example-vc.md)
+
+  - [Ejemplo de la propiedad Sort](sort-property-example-vc.md)
+
+  - [Ejemplo de la propiedad de origen](source-property-example-vc.md)
+
+  - [Ejemplo de la propiedad State](state-property-example-vc.md)
+
+  - [Ejemplo de la propiedad de estado](status-property-example-vc.md)
+
+  - [Ejemplo de la propiedad StayInSync](stayinsync-property-example-vc.md)
+
+  - [Ejemplo de la propiedad tipo (campos)](type-property-example-field-vc.md)
+
+  - [Ejemplo de la propiedad tipo (propiedad)](type-property-example-property-vc.md)
+
+  - [Ejemplo de la propiedad de valor](value-property-example-vc.md)
+
+  - [Ejemplo de la propiedad de versión](version-property-example-vc.md)
+>>>>>>> master
 
 **Otros**
 

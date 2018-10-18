@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Source (VB)
-TOCTitle: Source Property Example (VB)
-ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
-ms:contentKeyID: 48545885
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6e430f7148df45e22a09c60332dde5d8b45713c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485649"
+<<<<<<< Título HEAD: ejemplo de propiedad de origen (VB) TOCTitle: ejemplo de propiedad de origen (VB) === título: ejemplo de la propiedad Source (VB) TOCTitle: ejemplo de la propiedad Source (VB)
+>>>>>>> Master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: ms.date 48545885: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="source-property-example-vb"></a>Ejemplo de la propiedad Source (VB)
+=======
+# <a name="source-property-example-vb"></a>Ejemplo de la propiedad Source (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: abb461473d15f163fac6ea00f2af5d39f7b40d0a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486395"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606405"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configurar DataFactory para los modos seguros o no restringidos
 
@@ -30,7 +30,9 @@ Opcionalmente, puede configurar una instalación de **DataFactory** no restringi
 
 El archivo de Registro, handsafe.reg, se ha proporcionado para configurar las entradas de controlador del Registro para una configuración segura. Para un funcionamiento en modo seguro, ejecute handsafe.reg. El archivo de Registro, handunsf.reg, se ha proporcionado para configurar las entradas de controlador del Registro para una configuración segura. Para un funcionamiento en modo no restringido, ejecute handunsf.reg.
 
-Después de ejecutar handsafe.reg o handunsf.reg, deberá detener y reiniciar el servicio de publicación Web en el servidor Web escribiendo los comandos siguientes en una ventana de comandos: "NET STOP W3SVC" y "NET START W3SVC".
+<<<<<<< HEAD después de ejecutar handsafe.reg o handunsf.reg, debe detener y reiniciar el servicio de publicación World Wide Web en el servidor Web, escriba los siguientes comandos en una ventana de comandos: "NET detener W3SVC" y "NET iniciar W3SVC".
+=== Después de ejecutar handsafe.reg o handunsf.reg, debe detener y reiniciar el servicio de publicación World Wide Web en el servidor web, escriba los siguientes comandos en una ventana de comandos: "NET detener W3SVC" y "NET iniciar W3SVC".
+>>>>>>> master
 
 Para obtener más información acerca del uso de la característica de personalización de controladores de RDS, vea el artículo técnico "Using the Customization Handler Feature in RDS 2.1" (en inglés).
 

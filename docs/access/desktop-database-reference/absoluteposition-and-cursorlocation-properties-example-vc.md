@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades AbsolutePosition y CursorLocation (VC++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++)
-ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
-ms:contentKeyID: 48546739
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 47525373d5034da4b6b2c88a2b96b050f1c6c496
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486021"
+<<<<<<< Título HEAD: AbsolutePosition y CursorLocation ejemplo de las propiedades (VC ++) TOCTitle: ejemplo AbsolutePosition y CursorLocation propiedades (VC ++) ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) MS:contentKeyID: ms.date 48546739: 18/09/2015 mtps_version: Office.15
 ---
+
 # <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>Ejemplo de las propiedades AbsolutePosition y CursorLocation (VC++)
+=== título: ejemplo de las propiedades AbsolutePosition y CursorLocation (VC ++) TOCTitle: ms:assetid de ejemplo (VC ++) de las propiedades AbsolutePosition y CursorLocation: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) ms:contentKeyID: 48546739 MS.Date: 17/10/2018 mtps_version: Office.15
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>Ejemplo de las propiedades AbsolutePosition y CursorLocation (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

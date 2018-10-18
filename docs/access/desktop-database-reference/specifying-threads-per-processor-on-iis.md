@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248898(v=office.15)
 ms:contentKeyID: 48543344
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de3c8c99c7f615928ea0a0f1e15171cc90b25f3d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5041eb32397fc9a234d0e4a0fff622f31b56a0a5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483916"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603360"
 ---
 # <a name="specifying-threads-per-processor-on-iis"></a>Especificar subprocesos por procesador en IIS
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Cuando se usa RDS con Internet Information Services 4.0 o una versión posterior, el número de subprocesos creados por procesador se puede controlar manipulando el Registro en el servidor web. El número de subprocesos por procesador puede afectar al rendimiento en una situación de tráfico elevado o en situaciones de poco tráfico con tamaños de consultas grandes. El usuario debería experimentar para obtener los mejores resultados.
+<<<<<<< HEAD al utilizar RDS con servicios de Internet Information Server 4.0 o posterior, el número de subprocesos creados por procesador se puede controlar manipulando el registro en el servidor Web. El número de subprocesos por procesador puede afectar al rendimiento en una situación de tráfico elevado o en situaciones de poco tráfico con tamaños de consultas grandes. El usuario debería experimentar para obtener los mejores resultados.
+=== Cuando se utiliza RDS con servicios de Internet Information Server 4.0 o posterior, el número de subprocesos creados por procesador se puede controlar manipulando el registro en el servidor web. El número de subprocesos por procesador puede afectar al rendimiento en una situación de tráfico elevado o en situaciones de poco tráfico con tamaños de consultas grandes. El usuario debería experimentar para obtener los mejores resultados.
+>>>>>>> master
 
 El método utilizado para determinar y cambiar el valor predeterminado de esta configuración depende de la configuración del servidor de IIS 4.0.
 

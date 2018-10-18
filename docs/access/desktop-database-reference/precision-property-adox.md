@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fab2a7dc7a2d9f05e22b064acfaeabf93106a3e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 77b1083cd9625ded4360311ce9cd0a6d557a3698
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483747"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606531"
 ---
 # <a name="precision-property-adox"></a>Precision (propiedad, ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25483747"
 
 Indica la precisión máxima de los valores de datos de la columna.
 
-## <a name="settings-and-return-values"></a>Configuraciones y valores devueltos
+<<<<<<< HEAD
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece y devuelve un valor **Long** que es la precisión máxima de valores de datos de la columna cuando la propiedad [Tipo](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) es un tipo numérico. **Precision** se omite para todos los demás tipos de datos.
 

@@ -1,19 +1,13 @@
 ---
-title: ADO NumericScale and Precision Properties Example (VC++)
-TOCTitle: NumericScale and Precision Properties Example (VC++)
-ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
-ms:contentKeyID: 48548611
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 79621765e310ba88e7923902c027c147c92eb9e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486269"
+<<<<<<< Título HEAD: ADO NumericScale y ejemplo de las propiedades de precisión (VC ++) TOCTitle: NumericScale y Precision ejemplo de las propiedades (VC ++) === título: ejemplo de las propiedades de ADO NumericScale y Precision (VC ++) TOCTitle: Ejemplo de las propiedades NumericScale y Precision (VC ++)
+>>>>>>> Master ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15) ms:contentKeyID: ms.date 48548611: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="ado-numericscale-and-precision-properties-example-vc"></a>ADO NumericScale and Precision Properties Example (VC++)
+=======
+# <a name="ado-numericscale-and-precision-properties-example-vc"></a>Ejemplo de las propiedades de ADO NumericScale y Precision (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

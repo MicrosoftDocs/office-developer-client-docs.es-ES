@@ -1,19 +1,13 @@
 ---
-title: Item (propiedad, ADO)
-TOCTitle: Item Property (ADO)
-ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
-ms:contentKeyID: 48545767
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 29453ac2801f606640fd6d9506a8ee1ee8625396
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483605"
+<<<<<<< Título HEAD: elemento (propiedad) (ADO) TOCTitle: elemento (propiedad) (ADO) === título: Item (propiedad, ADO) TOCTitle: Item (propiedad, ADO)
+>>>>>>> Master ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15) ms:contentKeyID: ms.date 48545767: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="item-property-ado"></a>Item (propiedad, ADO)
+=======
+# <a name="item-property-ado"></a>Elemento (propiedad, ADO)
+>>>>>>> master
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -23,7 +17,11 @@ Indica un miembro específico de una colección, por nombre o número ordinal.
 
 *Objeto*de conjunto de = *colección*. Item (Index)
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve una referencia de objeto.
 

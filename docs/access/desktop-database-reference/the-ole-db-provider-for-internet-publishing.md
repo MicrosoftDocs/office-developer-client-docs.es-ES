@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9f8fbed638c07e55b3ecb1730633dceee2b5c7e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf41e23b56a05c8c119713b7fb459a34ca526169
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483722"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602520"
 ---
 # <a name="the-ole-db-provider-for-internet-publishing"></a>OLE DB Provider for Internet Publishing
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Los objetos [Record](record-object-ado.md) y [Stream](stream-object-ado.md) de ADO se pueden usar con Microsoft OLE DB Provider for Internet Publishing para obtener acceso a recursos, tales como carpetas Web o archivos, proporcionados por Microsoft FrontPage y manipularlos. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
+<<<<<<< ADO del encabezado [registro](record-object-ado.md) y objetos [Stream](stream-object-ado.md) pueden usarse con Microsoft OLE DB Provider for Internet Publishing (proveedor de publicación en Internet) para obtener acceso y manipular los recursos, como archivos o carpetas Web procesadas por mediante Microsoft FrontPage. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
+=== Los objetos de ADO [Record](record-object-ado.md) y [Stream](stream-object-ado.md) se pueden usar con Microsoft OLE DB Provider for Internet Publishing (proveedor de publicación en Internet) para obtener acceso y manipular los recursos, como carpetas web o archivos, proporcionados por Microsoft FrontPage. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
+>>>>>>> master
 
 Para obtener un ejemplo de código que utiliza **Records** y **Streams** con el Proveedor de publicación en Internet, vea el [Escenario de Internet Publishing](internet-publishing-scenario.md).
 

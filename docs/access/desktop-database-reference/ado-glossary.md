@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93f60d38ba68e18b427af3d907a3a41e655c7a32
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d991da62a8820db3506059e81d136208cca73db3
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483647"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607063"
 ---
 # <a name="ado-glossary"></a>Glosario de ADO
 
@@ -259,13 +259,17 @@ El proceso de empaquetado, envío y desempaquetado de parámetros de método de 
 
 **nivel intermedio**
 
-La capa lógica de un sistema distribuido entre una interfaz de usuario o cliente Web y la base de datos. Normalmente, esto es donde se crean instancias de objetos de negocios. El nivel intermedio es una colección de reglas de negocio y las funciones que se generan y actúan tras recibir la información. Para ello a través de reglas de negocio, que pueden cambiar con frecuencia y, por tanto, se encapsulan en componentes físicamente independientes de la lógica de la aplicación. También se conoce como *nivel de servidor de aplicaciones*. Vea también **aplicación distribuida**, el **nivel del cliente**, el **nivel de origen de datos**.
+<<<<<<< HEAD la capa lógica de un sistema distribuido entre una interfaz de usuario o cliente Web y la base de datos. Normalmente, esto es donde se crean instancias de objetos de negocios. El nivel intermedio es una colección de reglas de negocio y las funciones que se generan y actúan tras recibir la información. Para ello a través de reglas de negocio, que pueden cambiar con frecuencia y, por tanto, se encapsulan en componentes físicamente independientes de la lógica de la aplicación. También se conoce como *nivel de servidor de aplicaciones*. Vea también **aplicación distribuida**, el **nivel del cliente**, el **nivel de origen de datos**.
+=== La capa lógica de un sistema distribuido entre un cliente de web o de interfaz de usuario y la base de datos. Normalmente, esto es donde se crean instancias de objetos de negocios. El nivel intermedio es una colección de reglas de negocio y las funciones que se generan y actúan tras recibir la información. Para ello a través de reglas de negocio, que pueden cambiar con frecuencia y, por tanto, se encapsulan en componentes físicamente independientes de la lógica de la aplicación. También se conoce como *nivel de servidor de aplicaciones*. Vea también **aplicación distribuida**, el **nivel del cliente**, el **nivel de origen de datos**.
+>>>>>>> master
 
 **MIME (extensión de correo de Internet de varios propósitos)**
 
 Un protocolo de Internet desarrollado originalmente para permitir el intercambio de mensajes de correo electrónico con contenido enriquecido entre la red heterogénea, equipo y entornos de correo electrónico. En la práctica, MIME tiene también se han adoptado y extendido por las aplicaciones que no sean de correo.
 
-MIME es un estándar que permite que los datos binarios poder publicar y leer en Internet. El encabezado de un archivo con datos binarios contiene el tipo MIME de los datos; así se informa a los programas cliente (exploradores Web y paquetes de correo, por ejemplo) que se necesitan administrar los datos de una manera diferente lo hacen con texto recta. Por ejemplo, el encabezado de un documento Web que contiene un gráfico JPEG contiene el tipo MIME específico para el formato de archivo JPEG. Esto permite a un explorador mostrar el archivo con su visor JPEG, si hay alguno.
+<<<<<<< HEAD MIME es un estándar que permite que los datos binarios poder publicar y leer en Internet. El encabezado de un archivo con datos binarios contiene el tipo MIME de los datos; así se informa a los programas cliente (exploradores Web y paquetes de correo, por ejemplo) que se necesitan administrar los datos de una manera diferente lo hacen con texto recta. Por ejemplo, el encabezado de un documento Web que contiene un gráfico JPEG contiene el tipo MIME específico para el formato de archivo JPEG. Esto permite a un explorador mostrar el archivo con su visor JPEG, si hay alguno.
+=== MIME es un estándar que permite que los datos binarios poder publicar y leer en Internet. El encabezado de un archivo con datos binarios contiene el tipo MIME de los datos; así se informa a los programas cliente (exploradores web y paquetes de correo, por ejemplo) que se necesitan administrar los datos de una manera diferente lo hacen con texto recta. Por ejemplo, el encabezado de un documento web que contiene un gráfico JPEG contiene el tipo MIME específico para el formato de archivo JPEG. Esto permite a un explorador mostrar el archivo con su visor JPEG, si hay alguno.
+>>>>>>> master
 
 Volver arriba
 
@@ -427,9 +431,14 @@ File://Server/Share/File.doc
 
 Vea también **URL absoluta** y **URL relativa**.
 
-**Servidor Web**
+<<<<<<< HEAD **servidor Web**
 
-Un equipo que proporciona servicios Web y las páginas en la intranet y los usuarios de Internet.
+<a name="a-computer-that-provides-web-services-and-pages-to-intranet-and-internet-users"></a>Un equipo que proporciona servicios Web y las páginas en la intranet y los usuarios de Internet.
+=======
+**servidor Web**
+
+Un equipo que proporciona servicios web y las páginas en la intranet y los usuarios de Internet.
+>>>>>>> master
 
 Volver arriba
 

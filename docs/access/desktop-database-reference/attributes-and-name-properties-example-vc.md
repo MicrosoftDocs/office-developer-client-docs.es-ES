@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades Attributes y Name (VC++)
-TOCTitle: Attributes and Name Properties Example (VC++)
-ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
-ms:contentKeyID: 48545203
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 56346ce15c2598686ab3684a1a972e276d94e939
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486650"
+<<<<<<< Título HEAD: TOCTitle de ejemplo de las propiedades nombre (VC ++) y atributos: atributos y ejemplo de las propiedades nombre (VC ++) === título: atributos y ejemplo de las propiedades nombre (VC ++) TOCTitle: atributos y (de ejemplo de las propiedades de nombre VC++)
+>>>>>>> Master ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15) ms:contentKeyID: ms.date 48545203: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="attributes-and-name-properties-example-vc"></a>Ejemplo de las propiedades Attributes y Name (VC++)
+=======
+# <a name="attributes-and-name-properties-example-vc"></a>Atributos y ejemplo de las propiedades nombre (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de propiedades ClavePrincipal y Única (VC++)
-TOCTitle: PrimaryKey and Unique Properties Example (VC++)
-ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
-ms:contentKeyID: 48543158
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9cb0cdfa68ac3437e368e245a70a7743ac0b7724
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484768"
+<<<<<<< Título HEAD: PrimaryKey y ejemplo de las propiedades único (VC ++) TOCTitle: ClavePrincipal y única ejemplo de las propiedades (VC ++) === título: ejemplo de propiedades ClavePrincipal y única (VC ++) TOCTitle: propiedades ClavePrincipal y única ejemplo (VC ++)
+>>>>>>> Master ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: ms.date 48543158: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="primarykey-and-unique-properties-example-vc"></a>Ejemplo de propiedades ClavePrincipal y Única (VC++)
+=======
+# <a name="primarykey-and-unique-properties-example-vc"></a>Ejemplo de propiedades ClavePrincipal y única (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de propiedades ClavePrincipal y Única (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
-ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
-ms:contentKeyID: 48546137
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 22653f1b8ad7806d3125f86acadf590e321eb073
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485626"
+<<<<<<< Título HEAD: PrimaryKey y ejemplo de propiedades únicos (VB) TOCTitle: PrimaryKey y ejemplo de propiedades únicos (VB) === título: ejemplo de propiedades ClavePrincipal y única (VB) TOCTitle: ejemplo de propiedades ClavePrincipal y única (VB)
+>>>>>>> Master ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15) ms:contentKeyID: ms.date 48546137: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="primarykey-and-unique-properties-example-vb"></a>Ejemplo de propiedades ClavePrincipal y Única (VB)
+=======
+# <a name="primarykey-and-unique-properties-example-vb"></a>Ejemplo de propiedades ClavePrincipal y única (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

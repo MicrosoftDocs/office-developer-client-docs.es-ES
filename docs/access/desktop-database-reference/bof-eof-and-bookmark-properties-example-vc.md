@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades BOF, EOF y Bookmark (VC++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VC++)
-ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
-ms:contentKeyID: 48547914
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9decac7ec04c3b4dd456b3a406c54418aa955646
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485699"
+<<<<<<< Título HEAD: BOF, EOF y ejemplo de las propiedades Bookmark (VC ++) TOCTitle: BOF, EOF y ejemplo de las propiedades Bookmark (VC ++) === título: ejemplo de las propiedades BOF, EOF y Bookmark (VC ++) TOCTitle: las propiedades BOF, EOF y Bookmark ejemplo (VC ++)
+>>>>>>> Master ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15) ms:contentKeyID: ms.date 48547914: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>Ejemplo de las propiedades BOF, EOF y Bookmark (VC++)
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a>Ejemplo de las propiedades BOF, EOF y Bookmark (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

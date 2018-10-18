@@ -10,21 +10,25 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c79d859b122eb3595c31b2ffcec192e2d69ed7b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7c9a3282f3bb508a4c68ecbd3f2c0465cfee9bac
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486402"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603101"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicializar el controlador de Microsoft Excel
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Cuando se instala el controlador de Microsoft® Excel, el programa de instalación escribe un conjunto de valores predeterminados en el Registro de Microsoft Windows®, concretamente en las subclaves Engines e ISAM Formats. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
+<<<<<<< HEAD al instalar el controlador de Microsoft® Excel, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Microsoft Windows®, en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
 
 ## <a name="microsoft-excel-initialization-settings"></a>Configuración de inicialización de Microsoft Excel
+=== Al instalar el controlador de Excel, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
+
+## <a name="excel-initialization-settings"></a>Configuración de inicialización de Excel
+>>>>>>> master
 
 La **Access Connectivity Engine\\motores\\Excel** carpeta incluye la configuración de inicialización para el controlador Aceexcl.dll, utilizado para el acceso externo a hojas de cálculo de Microsoft Excel. En el siguiente ejemplo se muestra una configuración típica para las entradas de esta carpeta.
 
@@ -147,4 +151,10 @@ La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las sigui
 > [!NOTE]
 > Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
+<<<<<<< HEAD
 
+=======
+## <a name="see-also"></a>Vea también
+
+[Utilizando la configuración de TypeGuessRows para el controlador de Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+>>>>>>> master

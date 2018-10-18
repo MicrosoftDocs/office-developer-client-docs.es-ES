@@ -1,26 +1,24 @@
 ---
-title: SQLState (propiedad, ADO)
-TOCTitle: SQLState Property (ADO)
-ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
-ms:contentKeyID: 48547806
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aead95e4276d61d69ae6ba5a86974cbe630f9043
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484989"
+<<<<<<< Título HEAD: SQLState (propiedad) (ADO) TOCTitle: SQLState (propiedad) (ADO) === título: SQLState (propiedad, ADO) TOCTitle: SQLState (propiedad, ADO)
+>>>>>>> Master ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15) ms:contentKeyID: ms.date 48547806: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="sqlstate-property-ado"></a>SQLState (propiedad, ADO)
+=======
+# <a name="sqlstate-property-ado"></a>SQLState (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el estado SQL de un objeto [Error](error-object-ado.md) especificado.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve un valor de cinco caracteres de tipo **String** que sigue el estándar ANSI SQL e indica el código del error.
 

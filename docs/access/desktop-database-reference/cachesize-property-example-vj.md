@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad CacheSize (VJ++)
-TOCTitle: CacheSize Property Example (VJ++)
-ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
-ms:contentKeyID: 48548704
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 38b04e88777113216b7a5ad6bc22e2b2f8bd81fd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483784"
+<<<<<<< Título HEAD: ejemplo de la propiedad CacheSize (VJ ++) TOCTitle: ejemplo de la propiedad CacheSize (VJ ++) === título: ejemplo de la propiedad CacheSize (VJ ++) TOCTitle: ejemplo de la propiedad CacheSize (VJ ++)
+>>>>>>> Master ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15) ms:contentKeyID: ms.date 48548704: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="cachesize-property-example-vj"></a>Ejemplo de la propiedad CacheSize (VJ++)
+=======
+# <a name="cachesize-property-example-vj"></a>Ejemplo de la propiedad CacheSize (VJ ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

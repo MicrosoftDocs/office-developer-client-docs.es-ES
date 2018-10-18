@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10af40231fc10e222f818896b3d65f44ac3d6d71
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484584"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607056"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-El Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft proporciona acceso de sólo lectura mediante programación al sistema de datos y a los datos Web indizados por los Servicios de Index Server. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+<<<<<<< HEAD el proveedor Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de sólo lectura mediante programación al sistema de archivos y datos Web indizados por los servicios de Index Server de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+=== El proveedor Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de sólo lectura mediante programación a los datos del sistema y web de archivo indizados por el servicio de Index Server de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+>>>>>>> master
 
 El proveedor es de subprocesamiento libre y está habilitado para Unicode.
 

@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de propiedad ActiveConnection de Catalog (VC++)
-TOCTitle: Catalog ActiveConnection Property Example (VC++)
-ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
-ms:contentKeyID: 48543246
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 30eea3d77121712b33881cad13d3445de1467c81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484058"
+<<<<<<< Título HEAD: TOCTitle ejemplo de propiedad ActiveConnection de Catalog (VC ++): ejemplo de propiedad ActiveConnection de Catalog (VC ++) === título: ejemplo de la propiedad ActiveConnection de Catalog (VC ++) TOCTitle: catálogo ActiveConnection ejemplo de la propiedad (VC ++)
+>>>>>>> Master ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: ms.date 48543246: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="catalog-activeconnection-property-example-vc"></a>Ejemplo de propiedad ActiveConnection de Catalog (VC++)
+=======
+# <a name="catalog-activeconnection-property-example-vc"></a>Ejemplo de propiedad ActiveConnection de Catalog (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

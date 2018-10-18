@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249946(v=office.15)
 ms:contentKeyID: 48547540
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd2f17bcc490031625cc8f6cd0ea6d369133fa06
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4eab9679b09b31b01250372df294af55729e9dd9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484191"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604543"
 ---
 # <a name="data-providers"></a>Proveedores de datos
 
@@ -22,5 +22,7 @@ Los proveedores de datos representan diversos orígenes de datos como bases de d
 
 ADO es eficaz y flexible porque puede conectarse a cualquiera entre varios proveedores de datos y seguir exponiendo el mismo modelo de programación, independientemente de las características específicas de un proveedor determinado. No obstante, dado que cada proveedor de datos es único, la interacción de una aplicación con ADO variará según cuál sea el proveedor de datos.
 
-Por ejemplo, las funcionalidades y las características del proveedor OLE DB para SQL Server, que se utiliza para tener acceso a bases de datos de Microsoft SQL Server, son considerablemente diferentes de las correspondientes al proveedor de Microsoft OLE DB para Internet Publishing, que se utiliza para tener acceso a almacenes de archivo en un servidor Web.
+<<<<<<< HEAD por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para tener acceso a las bases de datos de Microsoft SQL Server, son considerablemente distintas de los del proveedor Microsoft OLE DB para Internet Publicación, que se usa para obtener acceso al archivo almacena en un servidor Web.
+=== Por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para tener acceso a las bases de datos de Microsoft SQL Server, son considerablemente diferentes de las del proveedor Microsoft OLE DB para Internet Publishing, que se usa para el acceso almacenes de archivos en un servidor web.
+>>>>>>> master
 

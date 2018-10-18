@@ -1,19 +1,13 @@
 ---
-title: RowPosition (propiedad, ADO)
-TOCTitle: RowPosition Property (ADO)
-ms:assetid: b87f14b0-136b-0564-3e12-f9d5ecc4f7c8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
-ms:contentKeyID: 48547325
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6a4512157e70f4f5a7533e2a480dd96aa3693741
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484209"
+<<<<<<< Título HEAD: RowPosition (propiedad) (ADO) TOCTitle: RowPosition (propiedad) (ADO) === título: RowPosition (propiedad, ADO) TOCTitle: RowPosition (propiedad, ADO)
+>>>>>>> Master ms:assetid: b87f14b0-136b-0564-3e12-f9d5ecc4f7c8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15) ms:contentKeyID: ms.date 48547325: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="rowposition-property-ado"></a>RowPosition (propiedad, ADO)
+=======
+# <a name="rowposition-property-ado"></a>RowPosition (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -40,7 +34,11 @@ Poner HRESULT\_RowPosition (\[en\] IUnknown\* pRowPos);
 
   - Un objeto **RowPosition** de OLE DB.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
+=======
+## <a name="return-values"></a>Valores devueltos
+>>>>>>> master
 
 Este método de propiedad devuelve los valores estándar HRESULT, incluidos S\_Aceptar y E\_producirá un error.
 

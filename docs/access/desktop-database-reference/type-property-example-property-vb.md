@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Type (VB)
-TOCTitle: Type Property Example (Property) (VB)
-ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
-ms:contentKeyID: 48547209
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2b99729b4826f25aa8b5f32475ad4b3f0921e849
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484441"
+<<<<<<< Título HEAD: ejemplo de la propiedad tipo (propiedad) (VB) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VB) === título: ejemplo de la propiedad tipo (propiedad) (VB) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VB)
+>>>>>>> Master ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: ms.date 48547209: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="type-property-example-property-vb"></a>Ejemplo de la propiedad Type (VB)
+=======
+# <a name="type-property-example-property-vb"></a>Ejemplo de la propiedad tipo (propiedad) (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

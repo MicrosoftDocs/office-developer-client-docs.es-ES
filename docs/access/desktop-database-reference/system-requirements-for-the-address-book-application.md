@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8890e9dba072e2c35d9773ea389701bb7d631ee7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1536b1a03ed0e7c873b2db06e76ee9b505ee00c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486296"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604431"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Requisitos del sistema para la aplicación Libreta de direcciones
 
@@ -22,13 +22,15 @@ Para configurar la aplicación de ejemplo Libreta de direcciones, se deben cumpl
 
 **Requisitos de software**
 
-Los requisitos de software del equipo servidor para ejecutar esta aplicación Web son:
+<<<<<<< HEAD incluyen los requisitos de software del equipo servidor para ejecutar esta aplicación Web: === los requisitos de software del equipo servidor para ejecutar esta aplicación web son:
+>>>>>>> master
 
   - Microsoft Windows NT® Server 4.0 con Service Pack 3 o posterior, o Microsoft Windows® 2000 Server.
 
   - Servicios de Microsoft Internet Information Server (IIS) versión 3.0 o posterior con ASP.
 
-Los requisitos de software del equipo cliente para ejecutar esta aplicación web son:
+<<<<<<< HEAD los requisitos de software del equipo cliente para ejecutar esta aplicación Web son: === los requisitos de software del equipo cliente para ejecutar esta aplicación web son:
+>>>>>>> master
 
   - Microsoft Internet Explorer 4.0 o posterior.
 

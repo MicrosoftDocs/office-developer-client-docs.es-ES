@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fad18c6e7a9ca185e15598b532bbc6de4e5b4f9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486131"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606398"
 ---
 # <a name="setfilter-macro-action"></a>EstablecerFiltro (acción de macro)
 
@@ -41,11 +41,19 @@ La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nombre del filtro</p></td>
+<<<<<<< HEAD
 <td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento WhereCondition es necesario en una base de datos de cliente. En una base de datos de Web, este argumento no está disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
 <td><p>Si se proporciona, es una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos web, este argumento es obligatorio.</p></td>
+=======
+<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento WhereCondition es necesario en una base de datos de cliente. En una base de datos de web, este argumento no está disponible.</p></td>
+</tr>
+<tr class="even">
+<td><p>Where Condition</p></td>
+<td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos de web, este argumento es necesario.</p></td>
+>>>>>>>patrón
 </tr>
 <tr class="odd">
 <td><p>Nombre del control</p></td>

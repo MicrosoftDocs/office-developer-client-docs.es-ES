@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de método Close de Connection, propiedad Tipo de Table (VB)
-TOCTitle: Connection Close Method, Table Type Property Example (VB)
-ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
-ms:contentKeyID: 48547754
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b0a7cb6f2f2e78727c8e4a383a901d4712916fee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483835"
+<<<<<<< Título HEAD: método Close de Connection, TOCTitle de ejemplo de propiedad de tipo tabla (VB): método Close de Connection, ejemplo de propiedad de tipo tabla (VB) === título: método Close de Connection, ejemplo de la propiedad tipo de Table (VB) TOCTitle: Método Close de Connection, ejemplo de la propiedad tipo de Table (VB)
+>>>>>>> Master ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: ms.date 48547754: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="connection-close-method-table-type-property-example-vb"></a>Ejemplo de método Close de Connection, propiedad Tipo de Table (VB)
+=======
+# <a name="connection-close-method-table-type-property-example-vb"></a>Método Close de Connection, ejemplo de la propiedad tipo de Table (VB)
+>>>>>>> master
 
 **Se aplica a**: Access 2013 | Office 2013
 

@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad MarshalOptions (VJ++)
-TOCTitle: MarshalOptions Property Example (VJ++)
-ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
-ms:contentKeyID: 48544313
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ea6d3f2a8b4481a15050f0429fef5bb558ffba79
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485240"
+<<<<<<< Título HEAD: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++) === título: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++)
+>>>>>>> Master ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15) ms:contentKeyID: ms.date 48544313: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="marshaloptions-property-example-vj"></a>Ejemplo de la propiedad MarshalOptions (VJ++)
+=======
+# <a name="marshaloptions-property-example-vj"></a>Ejemplo de la propiedad MarshalOptions (VJ ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

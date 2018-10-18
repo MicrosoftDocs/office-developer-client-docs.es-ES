@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Item (VJ++)
-TOCTitle: Item Property Example (VJ++)
-ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
-ms:contentKeyID: 48547461
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8fdbfc6e7b14cca8968f0990c0456defe302b773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486518"
+<<<<<<< Título HEAD: ejemplo de la propiedad Item (VJ ++) TOCTitle: ejemplo de la propiedad Item (VJ ++) === título: ejemplo de la propiedad Item (VJ ++) TOCTitle: ejemplo de la propiedad Item (VJ ++)
+>>>>>>> Master ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15) ms:contentKeyID: ms.date 48547461: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="item-property-example-vj"></a>Ejemplo de la propiedad Item (VJ++)
+=======
+# <a name="item-property-example-vj"></a>Ejemplo de la propiedad Item (VJ ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

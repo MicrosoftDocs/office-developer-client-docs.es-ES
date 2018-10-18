@@ -1,20 +1,14 @@
 ---
-title: Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
-TOCTitle: ActualSize and DefinedSize Properties Example (JScript)
-ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
-ms:contentKeyID: 48547811
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c1411030bc5f936d4c0d8e7ee841a90c915cfcb9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485518"
+<<<<<<< Título HEAD: ActualSize y ejemplo de las propiedades DefinedSize (JScript) TOCTitle: ActualSize y DefinedSize (JScript) de las propiedades ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms: contentKeyID: ms.date 48547811: 18/09/2015 mtps_version: Office.15
 ---
+
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
 
+=== título: ejemplo de las propiedades ActualSize y DefinedSize (JScript) TOCTitle: ms:assetid de ejemplo (JScript) de las propiedades ActualSize y DefinedSize: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: ms.date 48547811: 10 / 16/2018 mtps_version: Office.15
+---
+
+# <a name="actualsize-and-definedsize-properties-example-jscript"></a>Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
+>>>>>>> master
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -28,7 +22,11 @@ En este ejemplo se utilizan las propiedades [ActualSize](actualsize-property-ado
 <html> 
  
 <head> 
+<<<<<<< HEAD
  <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
+=======
+ <title>ActualSize and DefinedSize properties example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 body { 

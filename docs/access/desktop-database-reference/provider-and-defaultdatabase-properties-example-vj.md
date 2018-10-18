@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades Provider y DefaultDatabase (VJ++)
-TOCTitle: Provider and DefaultDatabase Properties Example (VJ++)
-ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
-ms:contentKeyID: 48547380
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7d870c13824e7c14ad216bd614106d47f00b595a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485290"
+<<<<<<< Título HEAD: proveedor y TOCTitle de ejemplo de las propiedades DefaultDatabase (VJ ++): ejemplo de propiedades de DefaultDatabase (VJ ++) y proveedor === título: ejemplo de las propiedades Provider y DefaultDatabase (VJ ++) TOCTitle: proveedor y ejemplo de las propiedades DefaultDatabase (VJ ++)
+>>>>>>> Master ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15) ms:contentKeyID: ms.date 48547380: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="provider-and-defaultdatabase-properties-example-vj"></a>Ejemplo de las propiedades Provider y DefaultDatabase (VJ++)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vj"></a>Ejemplo de las propiedades Provider y DefaultDatabase (VJ ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

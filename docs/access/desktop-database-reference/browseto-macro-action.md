@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09e2b8238555a0d1b718f04c69f733039c1d8477
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486741"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603766"
 ---
 # <a name="browseto-macro-action"></a>Explorar (acción de macro)
 
@@ -57,7 +57,11 @@ La acción **Explorar** tiene el siguiente argumento.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
+<<<<<<< HEAD
 <td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento sólo es web.</p></td>
+=======
+<td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento es sólo web.</p></td>
+>>>>>>>patrón
 </tr>
 <tr class="even">
 <td><p>Modo de datos</p></td>

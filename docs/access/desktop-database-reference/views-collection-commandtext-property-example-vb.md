@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de colección Views, propiedad CommandText (VB)
-TOCTitle: Views Collection, CommandText Property Example (VB)
-ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
-ms:contentKeyID: 48545120
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a9e290c656d0d66dc180c86429c305588eac26d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483500"
+<<<<<<< Título HEAD: colección Views, TOCTitle de ejemplo de propiedad CommandText (VB): colección Views, ejemplo de propiedad CommandText (VB) === título: colección Views, propiedad CommandText (VB) TOCTitle: colección de vistas, Ejemplo de la propiedad CommandText (VB)
+>>>>>>> Master ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: ms.date 48545120: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="views-collection-commandtext-property-example-vb"></a>Ejemplo de colección Views, propiedad CommandText (VB)
+=======
+# <a name="views-collection-commandtext-property-example-vb"></a>Colección Views, propiedad CommandText (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

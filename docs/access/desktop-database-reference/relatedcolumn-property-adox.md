@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249791(v=office.15)
 ms:contentKeyID: 48546955
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f16715de6f9b82080b402379baf6ac3d83ddc5c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d1bca66c6d770dca75a2716a56559cdc785eb356
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485898"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603409"
 ---
 # <a name="relatedcolumn-property-adox"></a>RelatedColumn (propiedad, ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25485898"
 
 Indica el nombre de la columna relacionada en la tabla relacionada (sólo columnas de clave).
 
-## <a name="settings-and-return-values"></a>Configuraciones y valores devueltos
+<<<<<<< HEAD
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece y devuelve un valor **String** que es el nombre de la columna relacionada en la tabla relacionada.
 

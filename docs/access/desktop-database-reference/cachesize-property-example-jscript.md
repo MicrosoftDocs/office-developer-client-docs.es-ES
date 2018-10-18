@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad CacheSize (JScript)
-TOCTitle: CacheSize Property Example (JScript)
-ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
-ms:contentKeyID: 48547473
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aacf45db59c63ad79946bcbd5b5971d9b6859b46
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486665"
+<<<<<<< Título HEAD: ejemplo de la propiedad CacheSize (JScript) TOCTitle: ejemplo de la propiedad CacheSize (JScript) === título: ejemplo de la propiedad CacheSize (JScript) TOCTitle: ejemplo de la propiedad CacheSize (JScript)
+>>>>>>> Master ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID: ms.date 48547473: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="cachesize-property-example-jscript"></a>Ejemplo de la propiedad CacheSize (JScript)
+=======
+# <a name="cachesize-property-example-jscript"></a>Ejemplo de la propiedad CacheSize (JScript)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -29,7 +23,11 @@ En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) p
  
 <HTML> 
 <HEAD> 
+<<<<<<< HEAD
 <title>CacheSize Property Example (JScript)</title> 
+=======
+<title>CacheSize property example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -53,7 +51,11 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
+<<<<<<< HEAD
 <h1>CacheSize Property Example (JScript)</h1> 
+=======
+<h1>CacheSize property example (JScript)</h1> 
+>>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

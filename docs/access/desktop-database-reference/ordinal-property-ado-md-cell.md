@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 284e2cac2c1a86d87e39d9913a262fbafb435ece
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0e067fbc90a0e05d31611d7284a735cf1cfe6aa1
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484080"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606783"
 ---
 # <a name="ordinal-property-ado-md-cell"></a>Ordinal (propiedad) (celda de ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25484080"
 
 Identifica exclusivamente una celda por su posición dentro de un conjunto de celdas.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
+=======
+## <a name="return-values"></a>Valores devueltos
+>>>>>>> master
 
 Devuelve un entero **Long** y es de sólo lectura.
 

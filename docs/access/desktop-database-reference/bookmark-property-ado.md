@@ -1,26 +1,24 @@
 ---
-title: Bookmark (propiedad, ADO)
-TOCTitle: Bookmark Property (ADO)
-ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
-ms:contentKeyID: 48543287
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a89be0ad75ea84faa9fe17834260832070dd7578
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485002"
+<<<<<<< Título HEAD: marcador (propiedad) (ADO) TOCTitle: marcador (propiedad) (ADO) === título: Bookmark (propiedad, ADO) TOCTitle: Bookmark (propiedad, ADO)
+>>>>>>> Master ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15) ms:contentKeyID: ms.date 48543287: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="bookmark-property-ado"></a>Bookmark (propiedad, ADO)
+=======
+# <a name="bookmark-property-ado"></a>Bookmark (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica un marcador que identifica de manera única el registro actual de un objeto [Recordset](recordset-object-ado.md) o que establece el registro actual de un objeto **Recordset** en el registro identificado por un marcador válido.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece o devuelve una expresión de tipo **Variant** que da como resultado un marcador válido.
 

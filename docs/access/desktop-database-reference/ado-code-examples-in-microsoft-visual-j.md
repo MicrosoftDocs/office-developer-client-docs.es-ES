@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6581027f136f578112614528bf485afa03dbc2bb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bcea4236021668a05779cb82a59baf287a7a9db
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485652"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604837"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Ejemplos de código de ADO en Microsoft Visual J++
 
@@ -74,6 +74,7 @@ Utilice los ejemplos de código siguientes para aprender a utilizar los métodos
 
 **Propiedades**
 
+<<<<<<< HEAD
   - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -134,5 +135,68 @@ Utilice los ejemplos de código siguientes para aprender a utilizar los métodos
 
   - [Ejemplo de la propiedad Value](value-property-example-vj.md)
 
-  - [Ejemplo de la propiedad Version](version-property-example-vj.md)
+  - [Ejemplo de la propiedad de versión](version-property-example-vj.md)
+=======
+  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-vj.md)
+
+  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades de nombre y atributos](attributes-and-name-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades BOF, EOF y Bookmark](bof-eof-and-bookmark-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad CacheSize](cachesize-property-example-vj.md)
+
+  - [Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad Count](count-property-example-vj.md)
+
+  - [Ejemplo de las propiedades CursorType, LockType y EditMode](cursortype-locktype-and-editmode-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-vj.md)
+
+  - [Ejemplo de las propiedades IsolationLevel y modo](isolationlevel-and-mode-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad de elemento](item-property-example-vj.md)
+
+  - [Ejemplo de la propiedad MarshalOptions](marshaloptions-property-example-vj.md)
+
+  - [Ejemplo de la propiedad MaxRecords](maxrecords-property-example-vj.md)
+
+  - [Ejemplo de las propiedades NumericScale y Precision](numericscale-and-precision-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad Optimize](optimize-property-example-vj.md)
+
+  - [Ejemplo de las propiedades OriginalValue y UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad Prepared](prepared-property-example-vj.md)
+
+  - [Ejemplo de las propiedades Provider y DefaultDatabase](provider-and-defaultdatabase-properties-example-vj.md)
+
+  - [Ejemplo de la propiedad Sort](sort-property-example-vj.md)
+
+  - [Ejemplo de la propiedad de origen](source-property-example-vj.md)
+
+  - [Ejemplo de la propiedad State](state-property-example-vj.md)
+
+  - [Ejemplo de la propiedad de estado](status-property-example-vj.md)
+
+  - [Ejemplo de la propiedad StayInSync](stayinsync-property-example-vj.md)
+
+  - [Ejemplo de la propiedad tipo (campos)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
+
+  - [Ejemplo de la propiedad tipo (propiedad)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
+
+  - [Ejemplo de la propiedad de valor](value-property-example-vj.md)
+
+  - [Ejemplo de la propiedad de versión](version-property-example-vj.md)
+>>>>>>> master
 

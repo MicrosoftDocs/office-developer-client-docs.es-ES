@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9de96854eb08ff73fe9f70edf35dee972fd1a31e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e5a578d0a3e17bfa04c18ea4b2c69c43c22ffc5d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483995"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606076"
 ---
 # <a name="the-ado-family-of-libraries"></a>La familia de bibliotecas ADO
 
@@ -26,7 +26,9 @@ Tres bibliotecas principales componen la familia ADO: ADO (incluyendo RDS), ADO 
 
 ADO permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Las principales ventajas de ADO son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO es compatible con características clave para generación de aplicaciones cliente/servidor y aplicaciones basadas en Web.
 
-ADO también incluye el Servicio de datos remoto (RDS), que permite mover datos desde un servidor a una aplicación cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor de una sola vez.
+<<<<<<< HEAD ADO también las características de servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
+=== ADO también incluye el servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
+>>>>>>> master
 
 ## <a name="ado-md"></a>ADO MD
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52dcd2c09d04ca0cb7078c946edc4525fe49280d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484743"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603185"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -90,7 +90,11 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 </table>
 
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
+=======
+### <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Recordset
 

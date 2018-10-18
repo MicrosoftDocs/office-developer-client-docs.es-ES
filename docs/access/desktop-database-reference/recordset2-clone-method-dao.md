@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e8356fe5a9f6d0a02fd63ca6664a03fb5e6bc77
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 47aa31bf6b32b674d7701b6572cc411eb88cc301
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483683"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603290"
 ---
 # <a name="recordset2clone-method-dao"></a>Recordset2.Clone Method (DAO)
 
@@ -26,7 +26,11 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
+=======
+### <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Recordset
 

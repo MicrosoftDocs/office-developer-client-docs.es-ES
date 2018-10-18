@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7baaf81d7a5d6a91416ea5baf8ba57745612740e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ee66e68cb8eeaaca57c007dc64a9e2b3a8476ec7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483680"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606020"
 ---
 # <a name="using-rds-with-odbc-connection-pooling"></a>Utilizar RDS con agrupamiento de conexiones ODBC
 
@@ -22,7 +22,9 @@ Si está utilizando un origen de datos ODBC, puede utilizar la opción de agrupa
 
 Para habilitar el agrupamiento de conexiones, consulte la documentación de Internet Information Services.
 
-Observe que, si habilita el agrupamiento de conexiones, puede someter el servidor web a otras restricciones, como se indica en la documentación de Microsoft Internet Information Services.
+<<<<<<< HEAD tenga en cuenta que la habilitación de la agrupación de conexiones puede sujeto el servidor Web a otras restricciones, como se indicó en la documentación de Microsoft Internet Information Services.
+=== Tenga en cuenta que si habilita el agrupamiento de conexión puede sujeto al servidor web a otras restricciones, como se indicó en la documentación de Microsoft Internet Information Services.
+>>>>>>> master
 
 Para garantizar que el agrupamiento de conexiones sea estable y proporcione mejoras de rendimiento adicionales, deberá configurar Microsoft SQL Server de modo que utilice la biblioteca de red de Sockets TCP/IP.
 
@@ -30,7 +32,11 @@ Para ello, deberá:
 
   - Configurar el equipo de SQL Server para utilizar sockets TCP/IP.
 
+<<<<<<< HEAD
   - Configurar el servidor Web para utilizar sockets TCP/IP.
+=======
+  - Configurar el servidor web para utilizar Sockets TCP/IP.
+>>>>>>> master
 
 ## <a name="configuring-the-sql-server-computer-to-use-tcpip-sockets"></a>Configurar el equipo de SQL Server para utilizar sockets TCP/IP
 
@@ -62,13 +68,23 @@ En el equipo de SQL Server, utilice el programa de configuración de SQL Server 
 
 5.  Haga clic en **Aceptar** para terminar y salga del programa de instalación.
 
+<<<<<<< HEAD
 ## <a name="configuring-the-web-server-to-use-tcpip-sockets"></a>Configurar el servidor Web para utilizar sockets TCP/IP
 
 Existen dos opciones para configurar el servidor Web de modo que utilice sockets TCP/IP. La elección depende de si el acceso a todos los servidores SQL Server se realiza desde el servidor Web o si el acceso es sólo a un servidor SQL Server específico.
 
 Si el acceso a todos los servidores SQL Server se realiza desde el servidor Web, deberá ejecutar la Utilidad de Configuración de cliente de SQL Server en el equipo del servidor Web. Los siguientes pasos cambian la biblioteca de red predeterminada para todas las conexiones de SQL Server procedentes de este servidor Web de IIS de modo que utilicen la biblioteca de red de sockets TCP/IP.
 
-**Para configurar el servidor Web (todos los servidores SQL Server)**
+<a name="to-configure-the-web-server-all-sql-servers"></a>**Para configurar el servidor Web (todos los servidores SQL Server)**
+=======
+## <a name="configuring-the-web-server-to-use-tcpip-sockets"></a>Configurar el servidor para usar TCP/IP Sockets de web
+
+Hay dos opciones para configurar el servidor web para utilizar Sockets TCP/IP. ¿Qué depende de si se tiene acceso a todos los servidores de SQL Server desde el servidor web o sólo un servidor SQL Server específico se obtiene acceso desde el servidor web.
+
+Si se tiene acceso a todos los servidores de SQL Server desde el servidor web, debe ejecutar la utilidad de configuración de cliente de SQL Server en el equipo servidor web. Los siguientes pasos cambian la biblioteca de red predeterminada para todas las conexiones de SQL Server realizadas desde el servidor web de IIS para usar la biblioteca de red de Sockets TCP/IP.
+
+**Para configurar el servidor web (todos los servidores de SQL)**
+>>>>>>> master
 
 **En Microsoft SQL Server 6.5:**
 
@@ -90,9 +106,14 @@ Si el acceso a todos los servidores SQL Server se realiza desde el servidor Web,
 
 4.  Haga clic en **Aceptar** para guardar los cambios y salir de la utilidad.
 
-Si el acceso a un servidor SQL Server específico se realiza desde un servidor Web, deberá ejecutar la Utilidad de configuración de cliente de SQL Server en el equipo del servidor Web. Para cambiar la biblioteca de red para una conexión específica de SQL Server, configure el software del cliente de SQL Server en el equipo del servidor Web del siguiente modo.
+<<<<<<< HEAD si se obtiene acceso a un servidor SQL Server específico desde un servidor Web, debe ejecutar la utilidad de configuración de cliente de SQL Server en el equipo servidor Web. Para cambiar la biblioteca de red para una conexión específica de SQL Server, configure el software del cliente de SQL Server en el equipo del servidor Web del siguiente modo.
 
-**Para configurar el servidor Web (un servidor SQL Server específico)**
+<a name="to-configure-the-web-server-a-specific-sql-server"></a>**Para configurar el servidor Web (un servidor SQL Server específico)**
+=======
+Si se obtiene acceso a un servidor SQL Server específico desde un servidor web, debe ejecutar la utilidad de configuración de cliente de SQL Server en el equipo servidor web. Para cambiar la biblioteca de red para una conexión específica de SQL Server, configure el software de cliente de SQL Server en el equipo servidor web.
+
+**Para configurar el servidor web (un servidor SQL Server específico)**
+>>>>>>> master
 
 **En Microsoft SQL Server 6.5:**
 

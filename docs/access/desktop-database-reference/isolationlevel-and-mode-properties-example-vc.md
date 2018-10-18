@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades IsolationLevel y Mode (VC++)
-TOCTitle: IsolationLevel and Mode Properties Example (VC++)
-ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
-ms:contentKeyID: 48546050
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 44059c4955f0edfe86adc5b36816cc2d4737296f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485265"
+<<<<<<< Título HEAD: IsolationLevel y TOCTitle de ejemplo de las propiedades de modo (VC ++): ejemplo IsolationLevel y Mode propiedades (VC ++) === título: ejemplo de las propiedades IsolationLevel y modo (VC ++) TOCTitle: IsolationLevel y modo ejemplo de las propiedades (VC ++)
+>>>>>>> Master ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15) ms:contentKeyID: ms.date 48546050: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="isolationlevel-and-mode-properties-example-vc"></a>Ejemplo de las propiedades IsolationLevel y Mode (VC++)
+=======
+# <a name="isolationlevel-and-mode-properties-example-vc"></a>Ejemplo de las propiedades IsolationLevel y modo (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

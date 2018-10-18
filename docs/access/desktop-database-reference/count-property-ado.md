@@ -1,26 +1,24 @@
 ---
-title: Count (propiedad, ADO)
-TOCTitle: Count Property (ADO)
-ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
-ms:contentKeyID: 48547253
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ad02d854a560e3fa99bf7454c97083e88638c520
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484937"
+<<<<<<< Título HEAD: Count (propiedad) (ADO) TOCTitle: Count (propiedad) (ADO) === título: Count (propiedad, ADO) TOCTitle: Count (propiedad, ADO)
+>>>>>>> Master ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15) ms:contentKeyID: ms.date 48547253: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="count-property-ado"></a>Count (propiedad, ADO)
+=======
+# <a name="count-property-ado"></a>Count (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el número de objetos de una colección.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve un valor de tipo **Long**.
 

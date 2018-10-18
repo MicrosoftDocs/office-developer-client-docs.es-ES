@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249046(v=office.15)
 ms:contentKeyID: 48543868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f269922b23a903291c61415e6dbd5f4985356ff1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c73a4aaeefd88710dab611c740e834694b0d3da
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484402"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605257"
 ---
 # <a name="primarykey-property-adox"></a>ClavePrincipal (propiedad, ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25484402"
 
 Indica si el índice representa la clave principal en la tabla.
 
-## <a name="settings-and-return-values"></a>Configuraciones y valores devueltos
+<<<<<<< HEAD
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece y devuelve un valor **Boolean**.
 

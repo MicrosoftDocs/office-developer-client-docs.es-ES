@@ -1,26 +1,24 @@
 ---
-title: RecordType (propiedad, ADO)
-TOCTitle: RecordType Property (ADO)
-ms:assetid: a42001a6-7312-162d-dd71-c82f8c9d527f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249762(v=office.15)
-ms:contentKeyID: 48546806
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2c8921262e7573c3485458a3f39b44e01fe18e83
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486189"
+<<<<<<< Título HEAD: RecordType (propiedad) (ADO) TOCTitle: RecordType (propiedad) (ADO) === título: RecordType (propiedad, ADO) TOCTitle: RecordType (propiedad, ADO)
+>>>>>>> Master ms:assetid: a42001a6-7312-162d-dd71-c82f8c9d527f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249762(v=office.15) ms:contentKeyID: ms.date 48546806: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="recordtype-property-ado"></a>RecordType (propiedad, ADO)
+=======
+# <a name="recordtype-property-ado"></a>RecordType (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el tipo de objeto [Record](record-object-ado.md).
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve un valor [RecordTypeEnum](recordtypeenum.md).
 

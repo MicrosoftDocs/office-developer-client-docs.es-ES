@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
 ms:contentKeyID: 48546515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a11f3e34f8dcb45bab88d8ff87e69067103e4640
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 06474b6c4ecb29388367f8ceac7c7676002e1384
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483854"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602663"
 ---
 # <a name="getchildren-method-ado"></a>GetChildren (método, ADO)
 
@@ -25,7 +25,11 @@ Devuelve un objeto [Recordset](recordset-object-ado.md) cuyas filas representan 
 
 **Establecer** *conjunto de registros*  =  *registro*. GetChildren
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Objeto **Recordset** cuyas filas representan los elementos secundarios del actual objeto **Record**. Por ejemplo, los elementos secundarios de un objeto **Record** que representa un directorio serían los archivos y subdirectorios incluidos en el directorio primario.
 

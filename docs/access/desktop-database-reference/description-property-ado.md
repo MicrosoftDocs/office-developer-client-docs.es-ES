@@ -1,26 +1,24 @@
 ---
-title: Description (propiedad, ADO)
-TOCTitle: Description Property (ADO)
-ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
-ms:contentKeyID: 48544064
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3837d60b58772bbe6b65af6673c4eaa471507e66
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484099"
+<<<<<<< Título HEAD: descripción (propiedad) (ADO) TOCTitle: descripción (propiedad) (ADO) === título: descripción (propiedad, ADO) TOCTitle: descripción (propiedad, ADO)
+>>>>>>> Master ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15) ms:contentKeyID: ms.date 48544064: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="description-property-ado"></a>Description (propiedad, ADO)
+=======
+# <a name="description-property-ado"></a>Descripción (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Describe un objeto [Error](error-object-ado.md).
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Devuelve un valor de tipo **String** que contiene una descripción del error.
 

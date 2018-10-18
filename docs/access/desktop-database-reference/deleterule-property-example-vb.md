@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de propiedad DeleteRule (VB)
-TOCTitle: DeleteRule Property Example (VB)
-ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
-ms:contentKeyID: 48544142
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: bdfcbd581c39faf4344701d322e47999c77b7bca
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485778"
+<<<<<<< Título HEAD: ejemplo de propiedad DeleteRule (VB) TOCTitle: ejemplo de propiedad DeleteRule (VB) === título: ejemplo de propiedad DeleteRule (VB) TOCTitle: ejemplo de propiedad DeleteRule (VB)
+>>>>>>> Master ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: ms.date 48544142: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="deleterule-property-example-vb"></a>Ejemplo de propiedad DeleteRule (VB)
+=======
+# <a name="deleterule-property-example-vb"></a>Ejemplo de propiedad DeleteRule (VB)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

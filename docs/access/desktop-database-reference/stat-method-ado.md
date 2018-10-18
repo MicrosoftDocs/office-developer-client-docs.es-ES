@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d2b8c69df8caba93f693194573d057d52dffeb8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6bc4ff8076ec07d065ba932ef0e0017edb97e703
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483792"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606958"
 ---
 # <a name="stat-method-ado"></a>Stat (método, ADO)
 
@@ -24,7 +24,11 @@ Recupera información acerca de un objeto **Stream**.
 
 *Secuencia*de tipo Long. Stat (*StatStg*, *StatFlag*)
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Valor largo que indica el estado de la operación.
 

@@ -1,26 +1,24 @@
 ---
-title: MaxRecords (propiedad, ADO)
-TOCTitle: MaxRecords Property (ADO)
-ms:assetid: 424b2d41-073a-3fbe-30aa-99fac94f9a81
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15)
-ms:contentKeyID: 48544475
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d8753bf09655371042e97ead083c6849f1736b8b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484859"
+<<<<<<< Título HEAD: MaxRecords (propiedad) (ADO) TOCTitle: MaxRecords (propiedad) (ADO) === título: MaxRecords (propiedad, ADO) TOCTitle: MaxRecords (propiedad, ADO)
+>>>>>>> Master ms:assetid: 424b2d41-073a-3fbe-30aa-99fac94f9a81 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15) ms:contentKeyID: ms.date 48544475: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="maxrecords-property-ado"></a>MaxRecords (propiedad, ADO)
+=======
+# <a name="maxrecords-property-ado"></a>MaxRecords (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica el número máximo de registros que se va a devolver a un objeto [Recordset](recordset-object-ado.md) desde una consulta.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece o devuelve un valor de tipo **Long** que indica el número máximo de registros que se va a devolver. El valor predeterminado es cero (sin límite).
 

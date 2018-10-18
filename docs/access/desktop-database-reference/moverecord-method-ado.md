@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd7496efe7c38fcd78800ad087730bb21a19c32e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d6955bca1bf693386d1f5edb4bac04cee311d78e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484916"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606965"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord (método, ADO)
 
@@ -51,7 +51,11 @@ Mueve a otra ubicación la entidad representada por un objeto [Record](record-ob
 
   - Es opcional. Valor de tipo **Boolean** que, cuando es **True**, especifica que esta operación debe ser asincrónica.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
+=======
+## <a name="return-value"></a>Valor devuelto
+>>>>>>> master
 
 Valor de tipo **String**. Normalmente, se devuelve el valor de *destino* . Sin embargo, el valor devuelto exacto depende del proveedor.
 
@@ -73,6 +77,10 @@ Si este objeto **Record** se ha obtenido de un objeto [Recordset](recordset-obje
 
 
 > [!NOTE]
+<<<<<<< HEAD
 > <P>[!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obtener más información, vea <A href="absolute-and-relative-urls.md">Direcciones URL absolutas y relativas</A>.</P>
+=======
+> [!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

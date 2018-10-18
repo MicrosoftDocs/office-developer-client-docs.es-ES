@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Source (VC++)
-TOCTitle: Source Property Example (VC++)
-ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
-ms:contentKeyID: 48543949
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7c0e4a5be5f6ec5e54bc598aeb183ff51109da56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483921"
+<<<<<<< Título HEAD: ejemplo de la propiedad Source (VC ++) TOCTitle: ejemplo de la propiedad Source (VC ++) === título: ejemplo de la propiedad Source (VC ++) TOCTitle: ejemplo de la propiedad Source (VC ++)
+>>>>>>> Master ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: ms.date 48543949: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="source-property-example-vc"></a>Ejemplo de la propiedad Source (VC++)
+=======
+# <a name="source-property-example-vc"></a>Ejemplo de la propiedad Source (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013

@@ -1,30 +1,26 @@
 ---
-title: Prepared (propiedad, ADO)
-TOCTitle: Prepared Property (ADO)
-ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
-ms:contentKeyID: 48544116
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- ado210.chm1231161
-f1_categories:
+<<<<<<< Título HEAD: preparado (propiedad) (ADO) TOCTitle: preparado (propiedad) (ADO) === título: preparado (propiedad, ADO) TOCTitle: preparado (propiedad, ADO)
+>>>>>>> Master ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15) ms:contentKeyID: ms.date 48544116: 18/09/2015 mtps_version: Office.15 f1_keywords:
+- ado210.chm1231161 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 865453f89cd5942ec7f9f8d036beb72dc519397e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483614"
 ---
+
+<<<<<<< HEAD
 # <a name="prepared-property-ado"></a>Prepared (propiedad, ADO)
+=======
+# <a name="prepared-property-ado"></a>Prepared (propiedad, ADO)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Indica si se va a guardar una versión compilada de un comando antes de la ejecución.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+=======
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+>>>>>>> master
 
 Establece o devuelve un valor de tipo **Boolean** que, si se establece en **True**, indica que debe prepararse el comando.
 

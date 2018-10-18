@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de las propiedades OriginalValue y UnderlyingValue (VC++)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VC++)
-ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
-ms:contentKeyID: 48547246
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 69a1895ab96d02e7f56736debdde72bd337d0771
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483990"
+<<<<<<< Título HEAD: OriginalValue y ejemplo de las propiedades UnderlyingValue (VC ++) TOCTitle: OriginalValue y ejemplo de las propiedades UnderlyingValue (VC ++) === título: ejemplo de las propiedades OriginalValue y UnderlyingValue (VC ++) TOCTitle: Ejemplo de las propiedades OriginalValue y UnderlyingValue (VC ++)
+>>>>>>> Master ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15) ms:contentKeyID: ms.date 48547246: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a>Ejemplo de las propiedades OriginalValue y UnderlyingValue (VC++)
+=======
+# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a>Ejemplo de las propiedades OriginalValue y UnderlyingValue (VC ++)
+>>>>>>> master
 
 **Se aplica a**: Access 2013 | Office 2013
 

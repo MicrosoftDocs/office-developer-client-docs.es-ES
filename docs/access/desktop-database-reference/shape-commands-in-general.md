@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33570bec65de4ff88667ad90b591c4f288c86d96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485190"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603955"
 ---
 # <a name="shape-commands-in-general"></a>Comandos Shape en general
 
@@ -62,7 +62,9 @@ Un comando Shape puede contener una cláusula que especifica un comando de consu
 
 Se puede usar una cláusula SQL JOIN para relacionar dos tablas; sin embargo, un objeto **Recordset** jerárquico puede representar la información más eficazmente. Cada fila de un objeto **Recordset** que se ha creado mediante JOIN repite de manera redundante la información de una de las tablas. Un objeto **Recordset** jerárquico tiene solo un objeto **Recordset** primario por cada uno de los múltiples objetos **Recordset** secundarios.
 
-Los comandos Shape los pueden emitir los objetos **Recordset** o se pueden emitir estableciendo la propiedad [CommandText](commandtext-property-ado.md) del objeto [Command](command-object-ado.md) y, a continuación, llamando al método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)).
+<<<<<<< Los comandos Shape HEAD se pueden emitir los objetos **Recordset** o estableciendo la propiedad [CommandText](commandtext-property-ado.md) del objeto [Command](command-object-ado.md) y, a continuación, llamar al método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+=== Los comandos shape pueden ser emitidos por los objetos **Recordset** o estableciendo la propiedad [CommandText](commandtext-property-ado.md) del objeto [Command](command-object-ado.md) y, a continuación, llamar al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
+>>>>>>> master
 
 Los comandos Shape se pueden anidar. Es decir, el *comando a primario* o el *comando a secundario* puede ser otro comando shape.
 

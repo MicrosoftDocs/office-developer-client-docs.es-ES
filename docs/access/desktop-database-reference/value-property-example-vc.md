@@ -1,19 +1,13 @@
 ---
-title: Ejemplo de la propiedad Value (VC++)
-TOCTitle: Value Property Example (VC++)
-ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
-ms:contentKeyID: 48548040
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 91be0b756d8eb91deacb3971ecf0448dcf068308
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484260"
+<<<<<<< Título HEAD: ejemplo de la propiedad Value (VC ++) TOCTitle: ejemplo de la propiedad Value (VC ++) === título: ejemplo de la propiedad Value (VC ++) TOCTitle: ejemplo de la propiedad Value (VC ++)
+>>>>>>> Master ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15) ms:contentKeyID: ms.date 48548040: 18/09/2015 mtps_version: Office.15
 ---
+
+<<<<<<< HEAD
 # <a name="value-property-example-vc"></a>Ejemplo de la propiedad Value (VC++)
+=======
+# <a name="value-property-example-vc"></a>Ejemplo de la propiedad Value (VC ++)
+>>>>>>> master
 
 
 **Se aplica a**: Access 2013 | Office 2013
