@@ -5,27 +5,27 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564139"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a><span data-ttu-id="bb2ab-103">Desconectar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="bb2ab-103">Disconnecting an Offline State Add-in</span></span>
+# <a name="disconnecting-an-offline-state-add-in"></a><span data-ttu-id="5f10b-103">Desconectar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="5f10b-103">Disconnecting an Offline State Add-in</span></span>
 
-<span data-ttu-id="bb2ab-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb2ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5f10b-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5f10b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bb2ab-105">Cuando el estado sin conexión complemento está desconectado, debe implementar las funciones para terminar y limpiar el complemento correctamente.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-105">When the offline state add-in is disconnected, you must implement functions to properly terminate and clean up the add-in.</span></span> <span data-ttu-id="bb2ab-106">Para obtener más información sobre la configuración y el uso sin conexión de estado complemento para supervisar los cambios de estado de conexión, vea [Agregar en configuración de seguridad de un estado sin conexión](setting-up-an-offline-state-add-in.md) y [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="bb2ab-106">For more information on setting up and using the offline state add-in to monitor connection state changes, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md) and [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
+<span data-ttu-id="5f10b-105">Cuando el complemento de estado sin conexión está desconectado, deberá implementar funciones para finalizar correctamente y limpiar el complemento.</span><span class="sxs-lookup"><span data-stu-id="5f10b-105">When the offline state add-in is disconnected, you must implement functions to properly terminate and clean up the add-in.</span></span> <span data-ttu-id="5f10b-106">Para obtener más información sobre cómo configurar y usar el complemento de estado sin conexión para supervisar los cambios de estado de conexión, vea [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md) y [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="5f10b-106">For more information on setting up and using the offline state add-in to monitor connection state changes, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md) and [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
   
-<span data-ttu-id="bb2ab-107">En este tema, estos desconexión, terminar y se muestran las funciones de limpieza mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-107">In this topic, these disconnection, terminate, and clean-up functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="bb2ab-108">El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-108">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="bb2ab-109">A través del menú de estado desconectado, puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-109">Through the Offline State menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="bb2ab-110">Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="bb2ab-110">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="bb2ab-111">Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).</span><span class="sxs-lookup"><span data-stu-id="bb2ab-111">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
+<span data-ttu-id="5f10b-107">En este artículo, se muestran estas funciones de desconexión, finalización y limpieza mediante ejemplos de código desde el complemento de estado sin conexión de muestra.</span><span class="sxs-lookup"><span data-stu-id="5f10b-107">In this topic, these disconnection, terminate, and clean-up functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="5f10b-108">El complemento estado sin conexión de muestra es un complemento COM que agrega un menú **Estado sin conexión** a Outlook y usa la API de estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="5f10b-108">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="5f10b-109">Mediante el menú estado sin conexión, se puede habilitar o deshabilitar la supervisión del estado, comprobar el estado actual y cambiar el estado actual.</span><span class="sxs-lookup"><span data-stu-id="5f10b-109">Through the Offline State menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="5f10b-110">Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="5f10b-110">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="5f10b-111">Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).</span><span class="sxs-lookup"><span data-stu-id="5f10b-111">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
   
-## <a name="on-disconnection-routine"></a><span data-ttu-id="bb2ab-112">En la rutina de desconexión</span><span class="sxs-lookup"><span data-stu-id="bb2ab-112">On Disconnection Routine</span></span>
+## <a name="on-disconnection-routine"></a><span data-ttu-id="5f10b-112">Rutina En desconexión</span><span class="sxs-lookup"><span data-stu-id="5f10b-112">On Disconnection Routine</span></span>
 
-<span data-ttu-id="bb2ab-113">Se llama al método de **IDTExtensibility2.OnDisconnection** cuando el estado sin conexión complemento se descarga.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-113">The **IDTExtensibility2.OnDisconnection** method is called when the Offline State Add-in is unloaded.</span></span> <span data-ttu-id="bb2ab-114">Debe implementar una limpieza de código en esta función.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-114">You should implement clean up code in this function.</span></span> <span data-ttu-id="bb2ab-115">En el siguiente ejemplo, llama la función **IDTExtensibility2.OnDisconnection** el `HrTermAddin` (función).</span><span class="sxs-lookup"><span data-stu-id="bb2ab-115">In the following example, the **IDTExtensibility2.OnDisconnection** function calls the  `HrTermAddin` function.</span></span> 
+<span data-ttu-id="5f10b-113">Se llama al método **IDTExtensibility2.OnDisconnection** cuando el complemento de estado sin conexión se descarga.</span><span class="sxs-lookup"><span data-stu-id="5f10b-113">The **IDTExtensibility2.OnDisconnection** method is called when the Offline State Add-in is unloaded.</span></span> <span data-ttu-id="5f10b-114">Es recomendable implementar el código de limpieza en esta función.</span><span class="sxs-lookup"><span data-stu-id="5f10b-114">You should implement clean up code in this function.</span></span> <span data-ttu-id="5f10b-115">En el ejemplo siguiente, la función **IDTExtensibility2.OnDisconnection** llama a la función `HrTermAddin`.</span><span class="sxs-lookup"><span data-stu-id="5f10b-115">In the following example, the **IDTExtensibility2.OnDisconnection** function calls the  `HrTermAddin` function.</span></span> 
   
-### <a name="cmyaddinondisconnection-example"></a><span data-ttu-id="bb2ab-116">Ejemplo de CMyAddin::OnDisconnection()</span><span class="sxs-lookup"><span data-stu-id="bb2ab-116">CMyAddin::OnDisconnection() example</span></span>
+### <a name="cmyaddinondisconnection-example"></a><span data-ttu-id="5f10b-116">Ejemplo CMyAddin::OnDisconnection()</span><span class="sxs-lookup"><span data-stu-id="5f10b-116">CMyAddin::OnDisconnection() example</span></span>
 
 ```cpp
 STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEARRAY * * /*custom*/) 
@@ -37,11 +37,11 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 }
 ```
 
-## <a name="terminate-add-in-function"></a><span data-ttu-id="bb2ab-117">Terminar complemento (función)</span><span class="sxs-lookup"><span data-stu-id="bb2ab-117">Terminate Add-in Function</span></span>
+## <a name="terminate-add-in-function"></a><span data-ttu-id="5f10b-117">Finalizar la función de complemento</span><span class="sxs-lookup"><span data-stu-id="5f10b-117">Terminate Add-in Function</span></span>
 
-<span data-ttu-id="bb2ab-118">El `HrTermAddin` llamadas a función el `inDeInitMonitor`, `HrRemoveMenuItems`, y `UnloadLibraries` funciones para terminar de limpiar el complemento estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-118">The  `HrTermAddin` function calls the  `inDeInitMonitor`,  `HrRemoveMenuItems`, and  `UnloadLibraries` functions to finish cleaning up the Offline State Add-in.</span></span> 
+<span data-ttu-id="5f10b-118">La función `HrTermAddin` llama a las funciones `inDeInitMonitor`, `HrRemoveMenuItems`, y `UnloadLibraries` para terminar de limpiar el complemento de estado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="5f10b-118">The  `HrTermAddin` function calls the  `inDeInitMonitor`,  `HrRemoveMenuItems`, and  `UnloadLibraries` functions to finish cleaning up the Offline State Add-in.</span></span> 
   
-### <a name="cmyaddinhrtermaddin-example"></a><span data-ttu-id="bb2ab-119">Ejemplo de CMyAddin::HrTermAddin()</span><span class="sxs-lookup"><span data-stu-id="bb2ab-119">CMyAddin::HrTermAddin() example</span></span>
+### <a name="cmyaddinhrtermaddin-example"></a><span data-ttu-id="5f10b-119">Ejemplo CMyAddin::HrTermAddin()</span><span class="sxs-lookup"><span data-stu-id="5f10b-119">CMyAddin::HrTermAddin() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrTermAddin() 
@@ -54,11 +54,11 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a><span data-ttu-id="bb2ab-120">Deinitialize rutina de Monitor</span><span class="sxs-lookup"><span data-stu-id="bb2ab-120">Deinitialize Monitor Routine</span></span>
+## <a name="deinitialize-monitor-routine"></a><span data-ttu-id="5f10b-120">Rutina Desinicializar supervisión</span><span class="sxs-lookup"><span data-stu-id="5f10b-120">Deinitialize Monitor Routine</span></span>
 
-<span data-ttu-id="bb2ab-121">El `inDeInitMonitor` función llama a la función [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar las devoluciones de llamada para el objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-121">The  `inDeInitMonitor` function calls the [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) function to cancel the callbacks for the offline object.</span></span> 
+<span data-ttu-id="5f10b-121">La función `inDeInitMonitor` llama a la función [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar las retrollamadas del objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="5f10b-121">The  `inDeInitMonitor` function calls the [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) function to cancel the callbacks for the offline object.</span></span> 
   
-### <a name="deinitmonitor-example"></a><span data-ttu-id="bb2ab-122">Ejemplo de DeInitMonitor()</span><span class="sxs-lookup"><span data-stu-id="bb2ab-122">DeInitMonitor() example</span></span>
+### <a name="deinitmonitor-example"></a><span data-ttu-id="5f10b-122">Ejemplo DeInitMonitor()</span><span class="sxs-lookup"><span data-stu-id="5f10b-122">DeInitMonitor() example</span></span>
 
 ```cpp
 void DeInitMonitor() 
@@ -75,11 +75,11 @@ g_ulAdviseToken = NULL;
 }
 ```
 
-## <a name="remove-menu-items-routine"></a><span data-ttu-id="bb2ab-123">Quitar la rutina de los elementos de menú</span><span class="sxs-lookup"><span data-stu-id="bb2ab-123">Remove Menu Items Routine</span></span>
+## <a name="remove-menu-items-routine"></a><span data-ttu-id="5f10b-123">Rutina Quitar elementos de menú</span><span class="sxs-lookup"><span data-stu-id="5f10b-123">Remove Menu Items Routine</span></span>
 
-<span data-ttu-id="bb2ab-124">El `HrRemoveMenuItems` llamadas a función `DispEventUnadvise` para cada elemento de menú en el menú de **Estado sin conexión** y, a continuación, elimina el menú de **Estado sin conexión** .</span><span class="sxs-lookup"><span data-stu-id="bb2ab-124">The  `HrRemoveMenuItems` function calls  `DispEventUnadvise` for each menu item under the **Offline State** menu, and then deletes the **Offline State** menu.</span></span> 
+<span data-ttu-id="5f10b-124">La función `HrRemoveMenuItems` llama a `DispEventUnadvise` para cada elemento del menú en el menú **Estado sin conexión** y después elimina el menú **Estado sin conexión**.</span><span class="sxs-lookup"><span data-stu-id="5f10b-124">The  `HrRemoveMenuItems` function calls  `DispEventUnadvise` for each menu item under the **Offline State** menu, and then deletes the **Offline State** menu.</span></span> 
   
-### <a name="cmyaddinhrremovemenuitems-example"></a><span data-ttu-id="bb2ab-125">Ejemplo de CMyAddin::HrRemoveMenuItems()</span><span class="sxs-lookup"><span data-stu-id="bb2ab-125">CMyAddin::HrRemoveMenuItems() example</span></span>
+### <a name="cmyaddinhrremovemenuitems-example"></a><span data-ttu-id="5f10b-125">Ejemplo CMyAddin::HrRemoveMenuItems() </span><span class="sxs-lookup"><span data-stu-id="5f10b-125">CMyAddin::HrRemoveMenuItems() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrRemoveMenuItems() 
@@ -122,11 +122,11 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 }
 ```
 
-## <a name="unload-libraries-routine"></a><span data-ttu-id="bb2ab-126">Descargar la rutina de bibliotecas</span><span class="sxs-lookup"><span data-stu-id="bb2ab-126">Unload Libraries Routine</span></span>
+## <a name="unload-libraries-routine"></a><span data-ttu-id="5f10b-126">Rutina Descargar bibliotecas</span><span class="sxs-lookup"><span data-stu-id="5f10b-126">Unload Libraries Routine</span></span>
 
-<span data-ttu-id="bb2ab-127">Cuando el complemento se descarga desde Outlook, el `UnloadLibraries` función descarga las bibliotecas de vínculos dinámicos (DLL) que el complemento necesario.</span><span class="sxs-lookup"><span data-stu-id="bb2ab-127">When the add-in is unloaded from Outlook, the  `UnloadLibraries` function unloads the dynamic-link libraries (DLLs) that the add-in required.</span></span> 
+<span data-ttu-id="5f10b-127">Cuando el complemento se descarga desde Outlook, la función `UnloadLibraries` descarga las bibliotecas de vínculos dinámicos (DLL) que el complemento necesita.</span><span class="sxs-lookup"><span data-stu-id="5f10b-127">When the add-in is unloaded from Outlook, the  `UnloadLibraries` function unloads the dynamic-link libraries (DLLs) that the add-in required.</span></span> 
   
-### <a name="unloadlibraries-example"></a><span data-ttu-id="bb2ab-128">Ejemplo de UnloadLibraries()</span><span class="sxs-lookup"><span data-stu-id="bb2ab-128">UnloadLibraries() example</span></span>
+### <a name="unloadlibraries-example"></a><span data-ttu-id="5f10b-128">Ejemplo UnloadLibraries()</span><span class="sxs-lookup"><span data-stu-id="5f10b-128">UnloadLibraries() example</span></span>
 
 ```cpp
 void UnloadLibraries() 
@@ -143,11 +143,11 @@ void UnloadLibraries()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bb2ab-129">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="bb2ab-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f10b-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="5f10b-129">See also</span></span>
 
-- [<span data-ttu-id="bb2ab-130">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="bb2ab-130">About the Offline State API</span></span>](about-the-offline-state-api.md)
-- [<span data-ttu-id="bb2ab-131">Instalar el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="bb2ab-131">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="bb2ab-132">Información sobre el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="bb2ab-132">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="bb2ab-133">Configurar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="bb2ab-133">Setting Up an Offline State Add-in</span></span>](setting-up-an-offline-state-add-in.md)
-- [<span data-ttu-id="bb2ab-134">Supervisar los cambios estado de conexión con un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="bb2ab-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [<span data-ttu-id="5f10b-130">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="5f10b-130">About the Offline State API</span></span>](about-the-offline-state-api.md)
+- [<span data-ttu-id="5f10b-131">Instalar el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="5f10b-131">Installing the sample Offline State add-in</span></span>](installing-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="5f10b-132">Información sobre el complemento de estado sin conexión de muestra</span><span class="sxs-lookup"><span data-stu-id="5f10b-132">About the sample Offline State add-in</span></span>](about-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="5f10b-133">Configurar un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="5f10b-133">Setting up an Offline State add-in</span></span>](setting-up-an-offline-state-add-in.md)
+- [<span data-ttu-id="5f10b-134">Supervisar los cambios de estado de conexión con un complemento de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="5f10b-134">Monitoring connection state changes using an Offline State add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 
