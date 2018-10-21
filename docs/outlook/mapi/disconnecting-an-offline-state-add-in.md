@@ -5,27 +5,27 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564139"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Desconectar un complemento de estado sin conexión
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Cuando el estado sin conexión complemento está desconectado, debe implementar las funciones para terminar y limpiar el complemento correctamente. Para obtener más información sobre la configuración y el uso sin conexión de estado complemento para supervisar los cambios de estado de conexión, vea [Agregar en configuración de seguridad de un estado sin conexión](setting-up-an-offline-state-add-in.md) y [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Cuando el complemento de estado sin conexión está desconectado, deberá implementar funciones para finalizar correctamente y limpiar el complemento. Para obtener más información sobre cómo configurar y usar el complemento de estado sin conexión para supervisar los cambios de estado de conexión, vea [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md) y [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-En este tema, estos desconexión, terminar y se muestran las funciones de limpieza mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión. A través del menú de estado desconectado, puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).
+En este artículo, se muestran estas funciones de desconexión, finalización y limpieza mediante ejemplos de código desde el complemento de estado sin conexión de muestra. El complemento estado sin conexión de muestra es un complemento COM que agrega un menú **Estado sin conexión** a Outlook y usa la API de estado sin conexión. Mediante el menú estado sin conexión, se puede habilitar o deshabilitar la supervisión del estado, comprobar el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
-## <a name="on-disconnection-routine"></a>En la rutina de desconexión
+## <a name="on-disconnection-routine"></a>Rutina En desconexión
 
-Se llama al método de **IDTExtensibility2.OnDisconnection** cuando el estado sin conexión complemento se descarga. Debe implementar una limpieza de código en esta función. En el siguiente ejemplo, llama la función **IDTExtensibility2.OnDisconnection** el `HrTermAddin` (función). 
+Se llama al método **IDTExtensibility2.OnDisconnection** cuando el complemento de estado sin conexión se descarga. Es recomendable implementar el código de limpieza en esta función. En el ejemplo siguiente, la función **IDTExtensibility2.OnDisconnection** llama a la función `HrTermAddin`. 
   
-### <a name="cmyaddinondisconnection-example"></a>Ejemplo de CMyAddin::OnDisconnection()
+### <a name="cmyaddinondisconnection-example"></a>Ejemplo CMyAddin::OnDisconnection()
 
 ```cpp
 STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEARRAY * * /*custom*/) 
@@ -37,11 +37,11 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 }
 ```
 
-## <a name="terminate-add-in-function"></a>Terminar complemento (función)
+## <a name="terminate-add-in-function"></a>Finalizar la función de complemento
 
-El `HrTermAddin` llamadas a función el `inDeInitMonitor`, `HrRemoveMenuItems`, y `UnloadLibraries` funciones para terminar de limpiar el complemento estado sin conexión. 
+La función `HrTermAddin` llama a las funciones `inDeInitMonitor`, `HrRemoveMenuItems`, y `UnloadLibraries` para terminar de limpiar el complemento de estado sin conexión. 
   
-### <a name="cmyaddinhrtermaddin-example"></a>Ejemplo de CMyAddin::HrTermAddin()
+### <a name="cmyaddinhrtermaddin-example"></a>Ejemplo CMyAddin::HrTermAddin()
 
 ```cpp
 HRESULT CMyAddin::HrTermAddin() 
@@ -54,11 +54,11 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a>Deinitialize rutina de Monitor
+## <a name="deinitialize-monitor-routine"></a>Rutina Desinicializar supervisión
 
-El `inDeInitMonitor` función llama a la función [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar las devoluciones de llamada para el objeto sin conexión. 
+La función `inDeInitMonitor` llama a la función [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar las retrollamadas del objeto sin conexión. 
   
-### <a name="deinitmonitor-example"></a>Ejemplo de DeInitMonitor()
+### <a name="deinitmonitor-example"></a>Ejemplo DeInitMonitor()
 
 ```cpp
 void DeInitMonitor() 
@@ -75,11 +75,11 @@ g_ulAdviseToken = NULL;
 }
 ```
 
-## <a name="remove-menu-items-routine"></a>Quitar la rutina de los elementos de menú
+## <a name="remove-menu-items-routine"></a>Rutina Quitar elementos de menú
 
-El `HrRemoveMenuItems` llamadas a función `DispEventUnadvise` para cada elemento de menú en el menú de **Estado sin conexión** y, a continuación, elimina el menú de **Estado sin conexión** . 
+La función `HrRemoveMenuItems` llama a `DispEventUnadvise` para cada elemento del menú en el menú **Estado sin conexión** y después elimina el menú **Estado sin conexión**. 
   
-### <a name="cmyaddinhrremovemenuitems-example"></a>Ejemplo de CMyAddin::HrRemoveMenuItems()
+### <a name="cmyaddinhrremovemenuitems-example"></a>Ejemplo CMyAddin::HrRemoveMenuItems() 
 
 ```cpp
 HRESULT CMyAddin::HrRemoveMenuItems() 
@@ -122,11 +122,11 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 }
 ```
 
-## <a name="unload-libraries-routine"></a>Descargar la rutina de bibliotecas
+## <a name="unload-libraries-routine"></a>Rutina Descargar bibliotecas
 
-Cuando el complemento se descarga desde Outlook, el `UnloadLibraries` función descarga las bibliotecas de vínculos dinámicos (DLL) que el complemento necesario. 
+Cuando el complemento se descarga desde Outlook, la función `UnloadLibraries` descarga las bibliotecas de vínculos dinámicos (DLL) que el complemento necesita. 
   
-### <a name="unloadlibraries-example"></a>Ejemplo de UnloadLibraries()
+### <a name="unloadlibraries-example"></a>Ejemplo UnloadLibraries()
 
 ```cpp
 void UnloadLibraries() 
@@ -143,11 +143,11 @@ void UnloadLibraries()
 }
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de estado sin conexión](about-the-offline-state-api.md)
 - [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
 - [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
 - [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md)
-- [Supervisar los cambios estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

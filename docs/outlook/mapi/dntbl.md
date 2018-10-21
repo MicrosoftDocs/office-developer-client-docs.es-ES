@@ -7,10 +7,10 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
-description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
+description: 'Última modificación: 05 de julio de 2012'
 ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25398125"
@@ -19,7 +19,7 @@ ms.locfileid: "25398125"
  
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Información para descargar el contenido de una carpeta del servidor durante el [estado de la tabla de descarga](download-table-state.md), como parte de una sincronización completa para el contenido en un almacén.
+Información para descargar el contenido de una carpeta del servidor durante el [estado descargar tabla](download-table-state.md), como parte de una sincronización completa para el contenido de un almacén.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -47,79 +47,79 @@ struct DNTBL
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
-> [entrada] Indicadores para modificar el comportamiento 
+> [entrada] Marcadores para modificar el comportamiento. 
     
   - DNT_OK
     
-    - [entrada] Descarga fue correcta. El cliente establece esto después de descargar información desde el servidor.
+    - [entrada] La descarga se ha completado correctamente. El cliente lo establece después de descargar la información del servidor.
     
 _pstmReserved1_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pstmReserved2_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pstmReserved3_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pstmReserved4_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pxicc_
   
->  [out] Puntero a la interfaz de contenido de **IExchangeImportContentsChanges** que admite la descarga de cambios en el contenido. Para obtener más información sobre **IExchangeImportContentsChanges**, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [salida] Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la descarga de cambios en el contenido. Para más información sobre **IExchangeImportContentsChanges**, consulte [Criterios de evaluación ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   
->  [out] Puntero a la interfaz de jerarquía de **IExchangeImportHierarchyChanges** que admite la descarga de los cambios incrementales de jerarquía. Para obtener más información sobre **IExchangeImportHierarchyChanges**, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [salida] Puntero a la interfaz de contenido **IExchangeImportHierarchyChanges** que admite la descarga de los cambios de jerarquía incremental. Para más información sobre **IExchangeImportHierarchyChanges**, consulte [Criterios de evaluación ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pszName_
   
->  [out] Nombre de la carpeta. 
+>  [salida] Nombre de la carpeta. 
     
 _ftLastMod_
   
->  [out] Hora de última modificación de la carpeta. 
+>  [salida] Última vez que se modificó la carpeta. 
     
 _ulRights_
   
->  [out] Valor de la propiedad **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** de la carpeta. 
+>  [salida] Valor de la propiedad **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** de la carpeta. 
     
 _feid_
   
->  [out] Identificador de entrada de la carpeta. 
+>  [salida] Id. de entrada de la carpeta. 
     
 _uintReserved_
   
->  [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _rgte_
   
-> [out] Los cambios de normal (o no ocultos) y elementos asociados (u ocultos).  *rgte [0]* es para los elementos normales y *rgte [1]* es para los elementos asociados. Outlook rellena a este miembro durante la descarga, cuando se usa la sincronización de cambio Incremental (ICS). Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [salida] Cambios de elementos normales (o no ocultos) y asociados (ocultos).  *rgte[0]* es para elementos normales y *rgte[1]* para elementos asociados. Outlook rellena este miembro durante la descarga al usar la sincronización de cambio incremental (ICS). Para obtener más información sobre ICS, consulte [Criterios de evaluación ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _lpsrReserved_
   
->  [en] / [out] este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [entrada] / [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _boReserved_
   
->  [entrada] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [entrada] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pReserved1_
   
->  [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pReserved2_
   
->  [entrada] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [entrada] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 ## <a name="see-also"></a>Vea también
 
