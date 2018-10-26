@@ -23,7 +23,7 @@ ms.locfileid: "22563803"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a la tabla de jerarquía del contenedor.
   
@@ -48,7 +48,7 @@ MAPI_DEFERRED_ERRORS
   
 > **GetHierarchyTable** puede devolver correctamente, posiblemente antes de que la tabla está disponible para el autor de la llamada. Si no está disponible en la tabla, realizar una llamada de tabla subsiguiente puede producir un error. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Solicitudes que se devuelven las columnas que contienen datos de cadena en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., se deben devolver las cadenas en formato ANSI. 
     
@@ -84,7 +84,7 @@ Cuando se establece la marca CONVENIENT_DEPTH, cada fila de la tabla de jerarqu�
   
 Para obtener una lista completa de columnas opcionales y obligatorios en las tablas de jerarquía, vea [Las tablas de jerarquía](hierarchy-tables.md).
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si decide admitir una tabla de jerarquías de su contenedor, también debe hacer lo siguiente:
   
@@ -98,15 +98,15 @@ Las columnas de tabla de contenido de cadena y binaria se pueden truncar. Normal
   
 Dependiendo del proveedor en la implementación, las restricciones y las operaciones de ordenación pueden aplicar a toda la cadena o a la versión truncada de dicha cadena. Además, no se garantiza que los proveedores de almacén para respetar el conjunto de criterio de ordenación [que ssortorderset](ssortorderset.md) especificado para tablas de jerarquía. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |HierarchyTableTreeCtrl.cpp  <br/> |CHierarchyTableTreeCtrl::GetHierarchyTable  <br/> |La clase CHierarchyTableTreeCtrl utiliza **GetHierarchyTable** para obtener las tablas de jerarquía para mostrar en un control de vista de árbol.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -116,7 +116,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
   
-[Propiedad canónica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propiedad canónico PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

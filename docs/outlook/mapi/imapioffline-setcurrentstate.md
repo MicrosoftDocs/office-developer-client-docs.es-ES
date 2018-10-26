@@ -23,7 +23,7 @@ ms.locfileid: "22567142"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece el estado actual de un objeto sin conexión a en línea o sin conexión.
   
@@ -80,7 +80,7 @@ E_PENDING
   
 > Esto indica que el estado del objeto sin conexión está cambiando de forma asincrónica. Esto se produce cuando _ulFlags_ está establecida en MAPIOFFLINE_FLAG_BLOCK en una anterior llamada **SetCurrentState** , y cualquier llamada **SetCurrentState** subsiguiente devolverá este valor hasta que se complete el cambio de estado asincrónico. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

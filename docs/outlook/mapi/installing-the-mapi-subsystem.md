@@ -19,7 +19,7 @@ ms.locfileid: "22575353"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Versiones compatibles de Windows instalan la biblioteca de código auxiliar MAPI, Mapi32.dll, en la _ \<unidad\>_ carpeta \Windows\System32. 
   
@@ -52,7 +52,7 @@ La tabla siguiente resume cómo los clientes de recuperar información de la ver
 |Disponibilidad de MAPI  <br/> |Busque `MAPIX=1`.  <br/> |
 |Versión disponible de MAPI  <br/> |Busca una cadena MAPIXVER del formulario " _x.x.x_".  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22586168"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre un formulario para crear un nuevo mensaje en función de la clase de mensaje del formulario.
   
@@ -81,15 +81,15 @@ El parámetro _pfrminfoToActivate_ debe apuntar a un objeto de información de f
   
 Después de que se ha abierto el formulario, el Visor de formulario llamada debe configurar un mensaje mediante la interfaz de [IPersistMessage](ipersistmessageiunknown.md) y, opcionalmente, puede configurar un contexto de vista para el formulario. Para obtener más información, vea [iniciar un servidor de formulario](launching-a-form-server.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el método **IMAPIFormMgr::CreateForm** para crear un formulario antes de mostrarla.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -100,7 +100,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Iniciar un servidor de formulario](launching-a-form-server.md)
 

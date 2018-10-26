@@ -23,7 +23,7 @@ ms.locfileid: "22594295"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve información sobre el último error que se produjo en un objeto table.
   
@@ -49,7 +49,7 @@ HRESULT GetLastError(
   
 > [out] Apunta a una estructura MAPI [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto table. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

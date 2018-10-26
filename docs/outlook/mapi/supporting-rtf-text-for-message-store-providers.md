@@ -19,7 +19,7 @@ ms.locfileid: "22594071"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Algunas aplicaciones de cliente permiten a los usuarios usar formato de texto enriquecido (RTF) texto en sus mensajes. Si el mensaje almacena las necesidades de proveedor para admitir texto RTF en los mensajes, necesita controlar la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), además de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Principalmente, esto significa que almacenar las dos propiedades y asegurándose de que **PR_BODY** contiene una versión de texto sin formato del texto en **PR_RTF_COMPRESSED**. La función [RTFSync](rtfsync.md) es útil para este propósito. 
   
@@ -27,7 +27,7 @@ Hay dos indicadores que se pueden establecer en la propiedad de **PR_STORE_SUPPO
   
 Los proveedores de almacén de mensajes que no admiten texto RTF necesitan eliminar la propiedad **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) cuando la propiedad **PR_BODY** cambia para que interopere correctamente con las aplicaciones cliente que admiten texto RTF . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

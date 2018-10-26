@@ -23,7 +23,7 @@ ms.locfileid: "22588625"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Genera una lectura o del informe nonread para un mensaje.
   
@@ -85,7 +85,7 @@ Si se produce un error en **ReadReceipt** , se debe liberar el mensaje sin que s
   
 Puede ocultar o mostrar informes de lectura y nonread generados por almacenes en las carpetas. Almacenamiento de informes de lectura y nonread en las carpetas ocultas le permite implementar una mayor seguridad.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -93,7 +93,7 @@ Puede ocultar o mostrar informes de lectura y nonread generados por almacenes en
   
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[Propiedad canónica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
+[Propiedad canónico PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

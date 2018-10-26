@@ -23,7 +23,7 @@ ms.locfileid: "22573141"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el nombre para mostrar de un contenedor de formulario.
   
@@ -40,7 +40,7 @@ HRESULT GetDisplay(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de la cadena devuelta. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > La cadena devuelta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la cadena está en formato ANSI.
     
@@ -54,15 +54,15 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI usa el método **IMAPIFormContainer::GetDisplay** para obtener el nombre del contenedor de formulario cuando se representa CFormContainerDlg.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

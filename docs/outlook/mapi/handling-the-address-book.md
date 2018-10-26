@@ -1,5 +1,5 @@
 ---
-title: Controlar la libreta de direcciones
+title: Administrar la libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22583326"
 ---
-# <a name="handling-the-address-book"></a>Controlar la libreta de direcciones
+# <a name="handling-the-address-book"></a>Administrar la libreta de direcciones
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Controlar la libreta de direcciones MAPI puede incluir la extracci�n de entradas que se usar� como destinatarios del mensaje, modificar propiedades de los destinatarios, adici�n de usuarios de mensajer�a o listas de distribuci�n, creaci�n de uso �nico y mostrar uno o varios de los cuadros de di�logo comunes de direcci�n para permitir a los usuarios examinar informaci�n de direcci�n y realizar cambios.
 

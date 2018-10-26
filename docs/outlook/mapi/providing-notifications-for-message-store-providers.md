@@ -19,7 +19,7 @@ ms.locfileid: "22587512"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Mientras que las notificaciones son opcionales, son una parte muy importante de un proveedor de almacén de mensaje válida. Las aplicaciones cliente y la cola MAPI se basan en las notificaciones desde el proveedor de almacenamiento de mensajes para obtener un buen rendimiento al enviar los mensajes salientes o recibir mensajes entrantes. Los clientes y la cola MAPI pueden funcionar sin recibir notificaciones desde el proveedor de almacenamiento de mensajes, pero no podrán informar a los usuarios los cambios en el almacén de mensajes sin ellos. Normalmente, esto significa que los usuarios no podrán ver que ha recibido un nuevo mensaje de hasta que su cliente siguiente abre el almacén de mensajes reciben carpeta.
   
@@ -27,7 +27,7 @@ Registro de clientes para las notificaciones llamando al método [IMsgStore::Adv
   
 Incluso si el mensaje almacenar proveedor nunca notifica a otros componentes MAPI de cambios realizados en el almacén de mensajes, aún debe implementar **IMsgStore::Advise** para devolver MAPI_E_NO_SUPPORT. Esto informa a otros componentes para que no espera que el proveedor de almacén de notificaciones desde el mensaje. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

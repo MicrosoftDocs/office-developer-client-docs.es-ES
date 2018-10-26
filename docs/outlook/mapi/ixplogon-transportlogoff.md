@@ -23,7 +23,7 @@ ms.locfileid: "22586315"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inicia el proceso de cierre de sesión. 
   
@@ -49,7 +49,7 @@ S_OK
 
 La cola MAPI llama al método de **IXPLogon::TransportLogoff** para finalizar una sesión de proveedor de transporte de un usuario concreto. Antes de llamar a **TransportLogoff**, la cola MAPI descarta los datos acerca de los tipos de dirección de mensajería admitidos para esta sesión pasada en el método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 El proveedor de transporte debe estar preparado para aceptar una llamada a **TransportLogoff** en cualquier momento. Si un mensaje está en proceso, el proveedor debe detener el proceso de envío. 
   
@@ -57,7 +57,7 @@ El proveedor de transporte debe liberar todos los recursos asignados para la ses
   
 Normalmente, en completar una llamada **TransportLogoff** , un proveedor debe invalidar primero su objeto de inicio de sesión llamando al método [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, de su objeto de compatibilidad con la versión. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de soporte técnico por última vez, ya que cuando se libera el objeto de soporte, la cola MAPI también puede liberar el objeto de proveedor de sí mismo. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

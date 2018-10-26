@@ -54,7 +54,7 @@ MAPI_CACHE_ONLY
   
 > Sólo la libreta de direcciones sin conexión se usará para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para habilitar una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las propiedades de la cadena devuelta se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -104,7 +104,7 @@ Después de todos los contenedores en la búsqueda de ruta de acceso ha intentad
   
 Los clientes también pueden usar la estructura **ADRLIST** devuelta en las llamadas al método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 No son necesarios para admitir la resolución de nombres con el método **ResolveNames** . En su lugar, o además, se pueden admitir con la restricción de propiedad **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Si decide se basan en la restricción de **PR_ANR** para la resolución de nombres, puede devolver MAPI_E_NO_SUPPORT. For more information, see [Implementaci�n de la resoluci�n de nombres](implementing-name-resolution.md).
   
@@ -150,7 +150,7 @@ Si debe reemplazar en lugar de modificar una estructura **ADRENTRY** , libre de 
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propiedad canónica PidTagAnr](pidtaganr-canonical-property.md)
+[Propiedad canónico PidTagAnr](pidtaganr-canonical-property.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   

@@ -19,7 +19,7 @@ ms.locfileid: "22564090"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Las carpetas son objetos MAPI que sirven como unidad b�sica de organizaci�n para los mensajes. Organizados jer�rquicamente, carpetas pueden contener otras carpetas y mensajes. Carpetas que m�s f�cil localizar y trabajar con los mensajes.
   

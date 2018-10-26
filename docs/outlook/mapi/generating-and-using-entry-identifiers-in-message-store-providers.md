@@ -1,5 +1,5 @@
 ---
-title: Generación y uso de identificadores de entrada en el mensaje de los proveedores de almacén
+title: Generar y usar identificadores de entrada en proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22565455"
 ---
-# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Generación y uso de identificadores de entrada en el mensaje de los proveedores de almacén
+# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Generar y usar identificadores de entrada en proveedores de almacenamiento de mensajes
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cuando se crea una nueva carpeta o mensaje en un almacén de mensajes, el proveedor de almacén de mensajes tiene que asignar un identificador de entrada de ese objeto para que las aplicaciones cliente pueden hacer referencia a él. Los proveedores de almacén de mensajes pueden volver a usar los identificadores de entrada a largo plazo inactivo de objetos eliminados o crear nuevos identificadores. No hay ningún requisito de una forma o el otro para los proveedores de almacén de mensajes; Sin embargo, si es factible, un proveedor de almacén de mensajes siempre debe generar nuevos identificadores de entrada a largo plazo para los nuevos objetos en lugar de reutilización de las antiguas. Es preciso volver a usar los identificadores de entrada a corto plazo cuando se eliminan los objetos que hacen referencia a.
   
@@ -25,7 +25,7 @@ La razón de esta eliminación es que los clientes pueden almacenar en caché lo
   
 De forma similar, los proveedores de almacén de mensajes deben intentar conservar los identificadores de entrada para las carpetas y los mensajes cuando se mueven en el almacén de mensajes. Si el proveedor de almacenamiento de mensajes puede hacer, las referencias a objetos en el almacén no será válidas cuando el objeto se mueve a una ubicación diferente en el almacén.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Caracter�sticas de almac�n de mensajes](message-store-features.md)
 

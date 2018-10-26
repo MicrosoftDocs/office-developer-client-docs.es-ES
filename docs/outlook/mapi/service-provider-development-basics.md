@@ -19,19 +19,19 @@ ms.locfileid: "22566134"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios de MAPI.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollar un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
+[Desarrollar un proveedor de la libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
   
 [Desarrollar un proveedor de transporte MAPI](developing-a-mapi-transport-provider.md)
   
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
   
 [Proveedores de servicios de MAPI](mapi-service-providers.md)
   

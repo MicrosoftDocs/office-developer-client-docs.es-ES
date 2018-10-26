@@ -23,7 +23,7 @@ ms.locfileid: "22579707"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Desconecta el almacén local.
   
@@ -39,7 +39,7 @@ HRESULT DisconnectStore(
   
 >  [entrada] Marcadores para modificar el comportamiento. Este parámetro siempre debe establecerse en 0. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

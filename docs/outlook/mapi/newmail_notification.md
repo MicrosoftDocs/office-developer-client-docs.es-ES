@@ -45,7 +45,7 @@ typedef struct _NEWMAIL_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cbEntryID**
   
@@ -67,7 +67,7 @@ typedef struct _NEWMAIL_NOTIFICATION
   
 > Máscara de bits de indicadores que se utilizan para describir el formato de las propiedades de cadena incluido con el mensaje. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -89,9 +89,9 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos de MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
+|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -99,7 +99,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 
 [Notificaci�n](notification.md)
   
-[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

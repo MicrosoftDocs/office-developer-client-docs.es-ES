@@ -23,7 +23,7 @@ ms.locfileid: "22573547"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve marca configuración desde el objeto de progreso para el nivel de operación en la que se calcula la información de progreso.
   
@@ -55,7 +55,7 @@ MAPI permite a los proveedores de servicio diferenciar entre objetos de nivel su
   
 El valor devuelto por **GetFlags** se establece inicialmente el implementador y posteriormente por el proveedor de servicios a través de una llamada al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Inicializar siempre la marca a MAPI_TOP_LEVEL y, a continuación, se basan en proveedores de servicios para desactivarla cuando sea apropiado. Proveedores de servicios pueden borrar y restablecer el indicador llamando al método **IMAPIProgress::SetLimits** . Para obtener más información acerca de cómo implementar **GetFlags** y los otros métodos de **IMAPIProgress** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
   
@@ -63,15 +63,15 @@ Inicializar siempre la marca a MAPI_TOP_LEVEL y, a continuación, se basan en pr
 
 Cuando se muestra un indicador de progreso, realizar su primera llamada a una llamada a **IMAPIProgress::GetFlags**. El valor devuelto debe ser MAPI_TOP_LEVEL, debido a que todas las implementaciones de inicialización el contenido del parámetro _lpulFlags_ para este valor. Para obtener más información acerca de la secuencia de llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI usa el método **IMAPIProgress::GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se han configurado indicadores mediante el método **IMAPIProgress::SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -80,7 +80,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   

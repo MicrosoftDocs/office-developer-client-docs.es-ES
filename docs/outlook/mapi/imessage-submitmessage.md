@@ -23,7 +23,7 @@ ms.locfileid: "22567324"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Guarda todas las propiedades del mensaje y marca el mensaje como listo para ser enviado.
   
@@ -57,7 +57,7 @@ MAPI_E_NO_RECIPIENTS
 
 El método **IMessage::SubmitMessage** marca un mensaje como listo para ser transmitidos. MAPI pasa los mensajes al sistema de mensajería subyacente en el orden en que están marcados para el envío. Debido a esta funcionalidad, puede permanecer en un mensaje en un almacén de mensajes para algún tiempo antes de que el sistema de mensajería subyacente puede asumir la responsabilidad de él. El orden de recepción en el destino se encuentra en el control del sistema mensajería subyacente y no necesariamente deben coincidir con el orden en que se enviaron mensajes. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje para guardarlo y, a continuación, compruebe la propiedad del mensaje **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Si se establece la marca MSGFLAG_RESEND, llame a [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit** actualiza el tipo de destinatario y la propiedad de **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) para todos los destinatarios en el mensaje de reenvío.
   
@@ -67,15 +67,15 @@ Cuando se devuelve en **SubmitMessage** , todos los punteros en el mensaje y sus
   
 Para cancelar una operación de envío, obtener y almacenar un puntero a la propiedad del mensaje de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) antes de que se envíe el mensaje. Debido a que el identificador de entrada de un mensaje se invalida después de que se ha enviado el mensaje, es necesario guardar antes de llamar a **SubmitMessage**. Para cancelar el envío, seleccione el parámetro _lpEntryId_ para este identificador de entrada y llame a [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI usa el método **IMessage::SubmitMessage** para enviar el mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

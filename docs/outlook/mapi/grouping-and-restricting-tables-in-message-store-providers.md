@@ -19,7 +19,7 @@ ms.locfileid: "22578790"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Con frecuencia, las aplicaciones cliente de permiten a los usuarios cierto control sobre cómo se muestra el contenido de una carpeta. Normalmente, un usuario puede elegir para que los mensajes se agrupan según el valor de una o varias propiedades del mensaje, o puede optar por excluir los mensajes que coinciden con determinados criterios. Esto se realiza mediante la [IMAPITable: IUnknown](imapitableiunknown.md) interfaz. Las aplicaciones cliente pueden restringir las filas devueltas desde la tabla a cualquier criterio especifica el usuario. Por lo tanto, un mensaje de almacenar las necesidades del proveedor para implementar los métodos **IMAPITable** siguientes. 
   
@@ -33,7 +33,7 @@ Con frecuencia, las aplicaciones cliente de permiten a los usuarios cierto contr
    
 Restricciones pueden ser difíciles implementar; Para obtener más información, vea [Acerca de las restricciones](about-restrictions.md). Para obtener más información acerca de cómo implementar las tablas, vea [Tablas de MAPI](mapi-tables.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

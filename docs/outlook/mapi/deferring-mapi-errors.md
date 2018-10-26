@@ -19,7 +19,7 @@ ms.locfileid: "22569865"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Algunos m�todos de interfaz aceptan la marca MAPI_DEFERRED_ERRORS como un par�metro de entrada. Cuando se establece este indicador, el m�todo no tiene que devolver inmediatamente con un valor; puede permitir que el autor de la llamada saber el resultado de la llamada en alg�n momento posterior.
   

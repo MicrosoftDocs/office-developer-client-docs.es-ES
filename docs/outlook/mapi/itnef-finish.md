@@ -23,7 +23,7 @@ ms.locfileid: "22583767"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Termina de procesamiento para todas las operaciones de formato de encapsulación neutro para el transporte (TNEF) que se ponen en cola y a la espera. 
   
@@ -67,15 +67,15 @@ Si un proveedor o una puerta de enlace no funciona con matrices de problema, pue
   
 El valor devuelto en _lpProblem_ es válido sólo si la llamada devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace debe comprobar los valores devueltos en la estructura **STnefProblemArray** . Si se produce un error en la llamada, no se rellena la estructura **STnefProblemArray** y el proveedor o la puerta de enlace realiza la llamada no debe utilizar o libre la estructura. Si se produce ningún error en la llamada, el proveedor o la puerta de enlace realiza la llamada debe liberar la memoria para el **STnefProblemArray** mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI, utiliza el método **ITnef::Finish** para finalizar el procesamiento de la nueva secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -87,7 +87,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propiedad canónico PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
   
 [STnefProblemArray](stnefproblemarray.md)
   

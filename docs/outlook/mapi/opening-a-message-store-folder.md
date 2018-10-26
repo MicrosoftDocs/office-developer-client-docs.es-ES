@@ -17,7 +17,7 @@ ms.locfileid: "22586126"
 ---
 # <a name="opening-a-message-store-folder"></a>Abrir una carpeta de almacén de mensajes
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Antes de que se puede abrir cualquier carpeta, su identificador de entrada debe estar disponible. Para la mayoría de las carpetas, esto significa que la recuperación de sus propiedades de **entrada del objeto** . Para las carpetas especiales, como algunas de las carpetas del subárbol IPM y otras carpetas raíz, MAPI define las propiedades de identificador de entrada especiales que son accesibles mediante una llamada al método de **IMAPIProp::GetProps** del almacén de mensajes. Estos identificadores de entrada siempre son a largo plazo y se denominan de la siguiente manera: 
   
@@ -67,8 +67,8 @@ Antes de intentar recuperar uno de estos identificadores de entrada especiales, 
     
    Sin embargo, debido a que muchos de los proveedores de almacén de mensajes calculen el valor de esta propiedad en propuestas, en lugar de dar soporte técnico como una propiedad de la carpeta o como una columna en su tabla de jerarquía, la recuperación se puede llevar mucho tiempo. Es una estrategia alternativa intentar cualquier operación que debe realizar y devolver un error si es necesario.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md) 
+- [Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md) 
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
 

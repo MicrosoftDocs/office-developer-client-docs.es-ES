@@ -46,7 +46,7 @@ HRESULT SetReceiveFolder(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo del texto en las cadenas que se pasan en. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > La cadena de la clase de mensaje está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la cadena de la clase de mensaje está en formato ANSI.
     
@@ -72,11 +72,11 @@ Si se produce un error durante la llamada a **SetReceiveFolder**, la configuraci
   
 Si cambia de **SetReceiveFolder** la configuración de la carpeta de recepción con _lpEntryID_ establecido en NULL, que indica que se debe establecer la carpeta de recepción predeterminada, **SetReceiveFolder** devuelve S_OK incluso si se ha producido ningún valor existente para el indicado clase de mensaje. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI usa el método **IMsgStore::SetReceiveFolder** para establecer una carpeta como la carpeta de recepción para una clase de mensaje en particular.  <br/> |
    

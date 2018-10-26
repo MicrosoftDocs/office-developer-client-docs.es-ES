@@ -23,7 +23,7 @@ ms.locfileid: "22579868"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Obsoleto: Se recomienda el uso de [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) . Agrega un servicio de mensajes para el perfil actual. 
   
@@ -54,7 +54,7 @@ HRESULT CreateMsgService(
   
 > [entrada] Una máscara de bits de indicadores que controla cómo se instala el servicio de mensajes. Se pueden establecer los siguientes indicadores:
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
 > El lpszService y los parámetros de lpszDisplayName deben convertirse a LPWSTR e interpreta como cadenas Unicode.
     
@@ -108,15 +108,15 @@ Para recuperar la **MAPIUID** para el servicio de mensaje de creación, utilice 
 > [!IMPORTANT]
 > _UlFlags_ SERVICE_NO_RESTART_WARNING no pueden definirse en el archivo de encabezado que se pueden descargar tiene actualmente, en cuyo caso se puede agregar a su código con el siguiente valor: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IMsgServiceAdmin::** para agregar un servicio a un perfil.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22588520"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la tabla de datos adjuntos del mensaje.
   
@@ -40,7 +40,7 @@ HRESULT GetAttachmentTable(
   
 > [entrada] Máscara de bits de marcadores que se relacionan con la creación de la tabla. Se puede establecer la marca siguiente: 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
     
@@ -80,7 +80,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta a las sig
     
 Configuración de las solicitudes de marca de Unicode que la información de todas las columnas de cadena devueltos por estas llamadas estar en formato Unicode. Sin embargo, debido a que no todos los proveedores de almacén de mensajes compatible con Unicode, al establecer este indicador es sólo una solicitud.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

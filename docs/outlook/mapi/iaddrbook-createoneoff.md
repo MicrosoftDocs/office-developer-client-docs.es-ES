@@ -23,7 +23,7 @@ ms.locfileid: "22579042"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea un identificador de entrada para una dirección de uso único.
   
@@ -60,7 +60,7 @@ MAPI_SEND_NO_RICH_INFO
   
 > El destinatario no puede controlar el contenido del mensaje con formato. Si se establece MAPI_SEND_NO_RICH_INFO, MAPI establece la propiedad del destinatario **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) en FALSE. Si MAPI_SEND_NO_RICH_INFO no está establecido, MAPI establece esta propiedad en TRUE, a menos que se interpreta la dirección del destinatario mensajería indicada por _lpszAddress_ para que sea una dirección de Internet. En este caso, MAPI establece **PR_SEND_RICH_INFO** en FALSE. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > El nombre para mostrar, el tipo de dirección y la dirección están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., estas cadenas se encuentran en formato ANSI.
     
@@ -88,15 +88,15 @@ MAPI admite cadenas de caracteres Unicode para el nombre para mostrar, el tipo d
   
 El indicador MAPI_SEND_NO_RICH_INFO controla si el texto con formato en el formato de texto enriquecido (RTF) se envía junto con cada mensaje. El formato de transporte de encapsulación neutro (TNEF): un formato que se utiliza para transmitir con formato de texto, se envía por la mayoría de los proveedores de transporte, independientemente de cómo el destinatario establece su propiedad **PR_SEND_RICH_INFO** . No es un problema para los clientes que funcionan con mensajes interpersonales de mensajería. Sin embargo, debido a que TNEF normalmente se usa para enviar las propiedades personalizadas para las clases de mensaje personalizadas, no se admite puede ser un problema para los clientes basada en formularios o los clientes que requieren las propiedades personalizadas de MAPI. Para obtener más información, consulte [Envío de mensajes con TNEF](sending-messages-with-tnef.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en cualquier libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

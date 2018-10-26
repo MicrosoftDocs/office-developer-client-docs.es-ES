@@ -23,7 +23,7 @@ ms.locfileid: "22586217"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inicia un formulario para abrir un mensaje existente.
   
@@ -117,27 +117,27 @@ Visores de formulario llamar al método **IMAPIFormMgr::LoadForm** para abrir un
   
 El parámetro _pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el mensaje está incrustado en otro mensaje, _pFolderFocus_ debe ser nulo. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si se pasa NULL en _lpszMessageClass_, la implementación obtiene la clase de mensaje del mensaje, estado y los indicadores desde el mensaje **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** y **PR_MESSAGE_FLAGS **propiedades. Si se proporciona una cadena de la clase de mensaje en _lpszMessageClass_, la implementación debe usar los valores de _ulMessageStatus_ y _ulMessageFlags_.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIFormMgr::LoadForm** para cargar un formulario antes de mostrarla.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónica PidTagMessageClass](pidtagmessageclass-canonical-property.md)
+[Propiedad canónico PidTagMessageClass](pidtagmessageclass-canonical-property.md)
   
-[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

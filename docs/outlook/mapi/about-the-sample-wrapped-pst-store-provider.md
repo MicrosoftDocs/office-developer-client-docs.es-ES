@@ -17,7 +17,7 @@ ms.locfileid: "22563831"
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 ## <a name="overview-of-message-store-providers"></a>Información general de los proveedores de almacén de mensajes
 
@@ -37,7 +37,7 @@ El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Instalar la muestra de proveedor de almacén de archivos PST ajustado](installing-the-sample-wrapped-pst-store-provider.md)
+- [Instalar el ejemplo ajusta el proveedor de almacén de archivos PST](installing-the-sample-wrapped-pst-store-provider.md)
     
 - Se explica cómo descargar e instalar al proveedor de almacén de archivos PST ajustado de ejemplo.
     
@@ -45,23 +45,23 @@ El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de
     
 - Es el primer paso en la implementación de un proveedor de almacén de archivos PST ajustado inicializar y configurar el proveedor de almacén de archivos PST ajustado.
     
-- [Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
     
 - Después de Inicializa un proveedor de almacén de archivos PST ajustado, debe implementar las funciones para que MAPI y la cola MAPI pueden iniciar sesión en el proveedor de almacén de archivos PST ajustado.
     
-- [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
     
 - Para usar un almacén de archivos PST ajustado proveedor debe ajustar la interfaz **[IMAPISupport::IUnknown](imapisupportiunknown.md)** para implementar comunes ajustado tareas de proveedor de almacén de archivos PST. 
     
-- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
     
 - Cuando termine de usar un proveedor de almacén de archivos PST ajustado, debe cerrar correctamente el proveedor de almacén de archivos PST ajustado.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Información sobre la API de replicación](about-the-replication-api.md)
   
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 

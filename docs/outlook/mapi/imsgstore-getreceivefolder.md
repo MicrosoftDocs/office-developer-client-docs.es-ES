@@ -23,7 +23,7 @@ ms.locfileid: "22579945"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Obtiene la carpeta que se estableció como el destino para los mensajes entrantes de una clase de mensaje especificado o como el valor predeterminado de recepción carpeta para el almacén de mensajes.
   
@@ -47,7 +47,7 @@ HRESULT GetReceiveFolder(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de las cadenas en el pasado y devueltos. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > La cadena de la clase de mensaje está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la cadena de la clase de mensaje está en formato ANSI.
     
@@ -85,15 +85,15 @@ Un valor predeterminado recibir carpeta, obtenido por pasando NULL en el paráme
   
 Un cliente debe llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) cuando se realiza con el identificador de entrada que se devuelven en _lppEntryID_ para liberar la memoria que contiene ese identificador de entrada. También debe llamar **MAPIFreeBuffer** cuando se hace con la cadena de la clase de mensaje devuelta en _lppszExplicitClass_ para liberar la memoria que contiene dicha cadena. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI usa el método **IMsgStore::GetReceiveFolder** para buscar la carpeta Bandeja de entrada.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

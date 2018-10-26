@@ -19,7 +19,7 @@ ms.locfileid: "22567156"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de la carpeta Contactos.
   
@@ -42,7 +42,7 @@ typedef struct _contab_entryid
 #pragma pack() 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **abFlags**
   
@@ -62,8 +62,8 @@ typedef struct _contab_entryid
     
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|CONTAB_USER  <br/> |Un objeto de usuario de mensajer�a.  <br/> |
-|CONTAB_DISTLIST  <br/> |Un objeto de lista de distribuci�n.  <br/> |
+|CONTAB_USER  <br/> |Un objeto de usuario de mensajería.  <br/> |
+|CONTAB_DISTLIST  <br/> |Un objeto de la lista de distribución.  <br/> |
    
  **ulIndex**
   
@@ -87,7 +87,7 @@ La estructura **CONTAB_ENTRYID** admite un subconjunto de la información que es
   
 Los campos **cbeid** y **abeid** sólo son válidos cuando se establece el valor del campo **ulType** en CONTAB_DISTLIST o CONTAB_USER. Cuando se establece el valor del campo **ulType** en CONTAB_ROOT, CONTAB_SUBROOT o CONTAB_CONTAINER, la estructura [DIR_ENTRYID](dir_entryid.md) debe usarse en su lugar. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

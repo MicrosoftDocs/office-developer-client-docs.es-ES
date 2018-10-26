@@ -19,7 +19,7 @@ ms.locfileid: "22584516"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Un almac�n de mensajes de solo lectura es uno en la que ni el cliente MAPI ni la cola MAPI puede crear, modificar o eliminar los objetos en el almac�n de mensajes. Hay muchas razones de por qu� es posible que desee implementar un almac�n de mensajes de s�lo lectura. Por ejemplo, una empresa informes de cr�dito podr�a utilizar un almac�n de s�lo lectura para permitir que sus clientes o empleados ver, pero no cambiar informes de cr�dito individual. Si se elige crear un mensaje de s�lo lectura almacenar tiene implicaciones para la estructura del proveedor de almacenamiento y para el propio almac�n. Por ejemplo, un almac�n de mensajes de solo lectura no puede tener una carpeta Bandeja de salida, ya que, a continuaci�n, los clientes MAPI debe solicitar la creaci�n de nuevos mensajes salientes en esa carpeta. De forma similar, es responsabilidad del proveedor de almacenamiento para garantizar la integridad del mecanismo de almacenamiento subyacente.
   
@@ -49,9 +49,9 @@ B�squeda presenta una complejidad adicional para los proveedores de almac�n 
   
 El hecho de que el proveedor de almac�n de mensajes es de s�lo lectura se anuncia en propiedad de **PR_STORE_SUPPORT_MASK** del objeto de proveedor de almac�n. Sin embargo, no se cuentan en los clientes que respete esa propiedad; c�digo del proveedor de almacenamiento debe aplicar el estado de s�lo lectura del mecanismo de almacenamiento subyacente. 
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 

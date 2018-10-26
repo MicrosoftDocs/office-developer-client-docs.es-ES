@@ -23,7 +23,7 @@ ms.locfileid: "22567905"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Vuelve a crear el estado actual de expandidos o contraído de una tabla con categorías utilizando los datos que se guardan por una llamada anterior al método [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) . 
   
@@ -80,7 +80,7 @@ El método **IMAPITable::SetCollapseState** restablece el estado expandido o con
     
 Para obtener más información acerca de las tablas ordenadas por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md). 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Usted es responsable de comprobar que el criterio de ordenación y restricciones son exactamente los mismos tal como se administraban en el momento de la llamada **GetCollapseState** . Si se ha realizado un cambio, no debe llamarse **SetCollapseState** debido a que los resultados pueden ser impredecibles. Esto puede ocurrir si, por ejemplo, un cliente llama a **GetCollapseState** y, a continuación, **SortTable** para cambiar el criterio de ordenación antes de llamar a **SetCollapseState**. Para estar seguro, compruebe que los datos guardados todavía están válidos antes de continuar con la restauración. 
   
@@ -88,7 +88,7 @@ Usted es responsable de comprobar que el criterio de ordenación y restricciones
 
 Para llamar a **SetCollapseState**, debe haber llamado anteriormente **GetCollapseState**. El establecimiento de las categorías de criterio de ordenación debe ser el mismo para ambos métodos. Si difieren de los criterios de ordenación, los resultados de la operación de **SetCollapseState** son imprevisibles. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

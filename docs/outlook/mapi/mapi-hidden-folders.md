@@ -19,7 +19,7 @@ ms.locfileid: "22589108"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Carpetas ocultas son gen�rica que los clientes se crean en la carpeta ra�z del almac�n de mensajes, en lugar de en la carpeta ra�z de un sub�rbol de mensajes interpersonales (IPM). Dado que estas carpetas no se colocan en un sub�rbol IPM, por lo general est�n ocultas desde la vista del usuario por el proveedor de almac�n de mensajes. Carpetas ocultas normalmente contienen informaci�n que es relevante para el usuario pero relevantes para el almac�n de mensajes. Los clientes crear las carpetas ocultas para almacenar, por ejemplo, informaci�n adicional que se guarde con el resto de la jerarqu�a de carpetas.
   

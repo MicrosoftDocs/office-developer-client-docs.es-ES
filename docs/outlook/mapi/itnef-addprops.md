@@ -110,7 +110,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónica PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)
+[Propiedad canónico PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

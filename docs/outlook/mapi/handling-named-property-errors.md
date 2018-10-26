@@ -1,5 +1,5 @@
 ---
-title: Denominado de tratamiento de errores (propiedad)
+title: Control de errores de propiedad con nombre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22583312"
 ---
-# <a name="handling-named-property-errors"></a>Denominado de tratamiento de errores (propiedad)
+# <a name="handling-named-property-errors"></a>Control de errores de propiedad con nombre
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 When a request is made to [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) or [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) that is too large for the implementer to handle, the error value MAPI_E_TOO_BIG is returned. Callers must divide their request into several requests, calling the appropriate method in a loop. 
   

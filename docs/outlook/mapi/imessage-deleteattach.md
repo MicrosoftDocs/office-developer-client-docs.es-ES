@@ -23,7 +23,7 @@ ms.locfileid: "22592517"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Elimina un archivo adjunto.
   
@@ -76,15 +76,15 @@ Antes de llamar a **DeleteAttach**, llame al método **IUnknown:: Release** para
   
 Debido a que la eliminación de un archivo adjunto puede ser un proceso largo, **DeleteAttach** proporciona el mecanismo que muestra un indicador de progreso. Puede solicitar la visualización de un indicador de progreso pasando un puntero a su [IMAPIProgress: IUnknown](imapiprogressiunknown.md) implementación o NULL si no tiene una implementación. También debe especificar un identificador de ventana en el parámetro _ulUIParam_ y el indicador ATTACH_DIALOG en el parámetro _ulFlags indicado_ . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMessage::DeleteAttach** para eliminar los datos adjuntos seleccionados.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

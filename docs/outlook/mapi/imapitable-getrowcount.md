@@ -23,7 +23,7 @@ ms.locfileid: "22584327"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el número total de filas en la tabla. 
   
@@ -66,7 +66,7 @@ MAPI_W_APPROX_COUNT
 
 El método **IMAPITable::GetRowCount** recupera el número total de filas en una tabla. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si no puede determinar el número de fila exacto de la tabla, MAPI_W_APPROX_COUNT devuelto y una fila aproximada contar en el contenido del parámetro _lpulCount_ . 
   
@@ -78,15 +78,15 @@ Algunas tablas no admiten **GetRowCount** y devolver MAPI_E_NO_SUPPORT. Si no se
   
 Cuando **GetRowCount** devuelve MAPI_E_BUSY porque está temporalmente no se puede recuperar un recuento de filas, llame al método [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) . Cuando se devuelve **WaitForCompletion** , vuelva a intentar la llamada a **GetRowCount**. Llame al método [IMAPITable::GetStatus](imapitable-getstatus.md) y compruebe el contenido del parámetro _lpulTableState_ es otra forma de detectar si una operación asincrónica está en curso. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable::GetRowCount** para determinar cuántas filas se encuentran en la tabla de origen por lo que se puede asignar memoria para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22581786"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea una nueva subcarpeta.
   
@@ -72,7 +72,7 @@ MAPI_DEFERRED_ERRORS
   
 > Permite **CreateFolder** devolver de correctamente, posiblemente antes de que la nueva carpeta es completamente disponible para el cliente de la llamada. Si la nueva carpeta no está disponible, realizar una llamada posterior a él puede provocar un error. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > El nombre de la carpeta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre de la carpeta está en formato ANSI.
     
@@ -112,15 +112,15 @@ La mayoría de los proveedores de almacén de mensajes requieren el nombre de la
   
 Para determinar el identificador de entrada de la carpeta recién creada, llamar al método **IMAPIProp::GetProps** de la carpeta nueva para recuperar su propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |MFCMAPI utiliza el método **CMsgStoreDlg::OnCreateSubFolder** para crear nuevas carpetas en MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

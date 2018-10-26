@@ -23,7 +23,7 @@ ms.locfileid: "22571111"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inserta varias filas de tabla, posiblemente reemplazando las filas existentes.
   
@@ -64,7 +64,7 @@ Las columnas de las filas que señala _lpSRowSet_ no es necesario estar en el mi
   
 Después de **HrModifyRows** que agrega las filas, las notificaciones se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. MAPI envía notificaciones TABLE_ROW_ADDED o TABLE_ROW_MODIFIED para cada fila, hasta ocho filas. Si más de ocho filas se ven afectadas por la llamada **HrModifyRows** , MAPI envía una única notificación TABLE_CHANGED en su lugar. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Envío de mensajes mediante el uso de mensaje de los proveedores de almacén
+title: Enviar mensajes usando proveedores de almacenamiento de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22569802"
 ---
-# <a name="sending-messages-by-using-message-store-providers"></a>Envío de mensajes mediante el uso de mensaje de los proveedores de almacén
+# <a name="sending-messages-by-using-message-store-providers"></a>Enviar mensajes usando proveedores de almacenamiento de mensajes
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes no son necesarios para admitir los envíos de mensajes salientes (es decir, la capacidad para las aplicaciones de cliente usar el proveedor de almacenamiento de mensajes para enviar mensajes). Las aplicaciones cliente que necesite utilizar un almacén de mensajes, mientras que el envío de mensajes, debido a que los datos del mensaje deben ser almacenados en algún lugar entre el momento en que el usuario haya terminado de redactar y la hora en que la cola MAPI proporciona el mensaje a un proveedor de transporte para envío al sistema de mensajería subyacente. Si su proveedor de almacén de mensajes no es compatible con los envíos de mensajes salientes, no se utiliza como almacén de mensajes predeterminado.
   
@@ -117,7 +117,7 @@ Si se ha producido ningún preprocesamiento o hubo preprocesamiento y la cola MA
     
   3. Devuelve al cliente y el flujo de mensajes contin�a con un conjunto de tareas que se realizan por la cola MAPI.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Caracter�sticas de almac�n de mensajes](message-store-features.md)
 

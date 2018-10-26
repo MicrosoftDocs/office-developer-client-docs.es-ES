@@ -40,7 +40,7 @@ HRESULT GetProviderTable(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de las cadenas devueltas en columnas de la tabla proveedor. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas están en formato ANSI.
     
@@ -76,11 +76,11 @@ Para recuperar las filas de una tabla de proveedor en el orden de transporte, or
   
 Para recuperar sólo las filas que representan los proveedores de servicios (sin incluir filas adicionales), limitar la recuperación a las filas que tienen un valor de PT_ERROR en su columna **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 | MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa el método **IProviderAdmin::GetProviderTable** para obtener la tabla de proveedores para representar en un cuadro de diálogo nuevo.  <br/> |
    

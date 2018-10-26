@@ -19,7 +19,7 @@ ms.locfileid: "22581919"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Existen muchos tipos diferentes de las tablas, cada tipo diferenciado por la información que presenta. Tablas de habilitar las aplicaciones cliente y proveedores de servicios para obtener acceso fácilmente y manipular las propiedades importantes de muchos tipos de objetos. 
   
@@ -47,7 +47,7 @@ Las tablas MAPI y sus implementadores y los usuarios son:
 |Recipient  <br/> |Implementada por los proveedores de almacén de mensajes. Usada por los clientes y los proveedores de transporte.  <br/> |
 |Status  <br/> |Implementado por MAPI y los proveedores de servicios. Utilizado por los clientes.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

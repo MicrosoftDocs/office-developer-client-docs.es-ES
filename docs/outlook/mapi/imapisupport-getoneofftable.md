@@ -23,7 +23,7 @@ ms.locfileid: "22570838"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a la tabla de uso único de MAPI (una lista de plantillas que todos los libreta de direcciones de proveedores de soporte técnico para la creación de nuevos destinatarios).
   
@@ -40,7 +40,7 @@ HRESULT GetOneOffTable(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de las columnas de cadena. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
     
@@ -68,7 +68,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta al format
 
 Si se ha registrado para recibir notificaciones de los cambios realizados en esta tabla de uso único, también recibirá notificaciones de los cambios realizados en las tablas de uso único de otros proveedores. En función de estas notificaciones, puede admitir nuevos tipos de dirección que se agregan durante la sesión actual.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -84,10 +84,10 @@ Si se ha registrado para recibir notificaciones de los cambios realizados en est
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
-[Propiedad canónica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propiedad canónico PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Tablas puntuales](one-off-tables.md)
+[Tablas de uso único](one-off-tables.md)
 

@@ -21,7 +21,7 @@ ms.locfileid: "22572042"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Envía una notificación de un evento especificado a un origen de advise que registró originalmente para la notificación a través del método [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
   
@@ -52,7 +52,7 @@ _lpulFlags_
   
 > [entrada, salida] Una máscara de bits de indicadores que controla el proceso de notificación. En la entrada, se puede establecer la marca siguiente:
     
-  - MAPI_UNICODE. 
+  - MAPI_UNICODE 
     
     > Las cadenas en las estructuras de notificación que señala _lpNotifications_ están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI. 
 
@@ -88,13 +88,13 @@ Al usar notificaciones sincrónicas, tenga cuidado para evitar situaciones de in
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  
 - [NOTIFCALLBACK](notifcallback.md) 
 - [Notificaci�n](notification.md)  
 - [NOTIFKEY](notifkey.md)  
-- [Propiedad canónica PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
+- [Propiedad canónico PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

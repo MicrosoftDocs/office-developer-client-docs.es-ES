@@ -23,7 +23,7 @@ ms.locfileid: "22571440"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Envía una notificación para una fila de tabla.
   
@@ -59,7 +59,7 @@ S_OK
 
 El método **ITableData::HrNotify** envía una notificación de TABLE_ROW_MODIFIED para la fila que coincide con la fila que se describen las propiedades que apunta el parámetro _lpSPropValue_ . **HrNotify** envía la notificación, independientemente de si se han producido cambios en la fila. Todos los clientes y proveedores de servicios que tienen las vistas de la tabla y han llamado [IMAPITable::Advise](imapitable-advise.md) para registrar las notificaciones en las vistas de reciben esta notificación. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22593987"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensaje en un perfil.
   
@@ -59,7 +59,7 @@ MAPI_DIALOG
   
 > Habilita la presentación de una interfaz de usuario. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > El nombre del perfil está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre está en formato ANSI.
     
@@ -99,15 +99,15 @@ El nombre del perfil puede tener hasta 64 caracteres de longitud y puede incluir
     
 - Espacios incrustados, pero no espacios al principio o al final.
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utiliza el método **IProfAdmin::AdminServices** para abrir un objeto de administración del servicio de mensajes para el perfil seleccionado agregar servicios.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

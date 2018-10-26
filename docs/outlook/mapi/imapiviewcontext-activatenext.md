@@ -21,7 +21,7 @@ ms.locfileid: "22588506"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Activa el mensaje siguiente o anterior en el orden de la vista. 
   
@@ -76,7 +76,7 @@ Objetos de formulario llamar al método **IMAPIViewContext::ActivateNext** para 
   
 Los indicadores VCDIR_DELETE y VCDIR_MOVE se establecen por el [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) y los métodos [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) , respectivamente. Implementaciones de estos métodos llame al método **ActivateNext** con la dirección apropiada y, a continuación, realizan la operación solicitada en el mensaje si la llamada **ActivateNext** no produjo un error. Visores de formulario normalmente permiten a los usuarios especificar la dirección que desea mover en la lista de mensajes. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 La implementación de [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) hace que el mensaje siguiente o anterior en la carpeta, según el valor de _ulDir_, el mensaje actual. Una vez **ActivateNext** devuelve, llame a [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) para obtener un puntero al mensaje recién activado. 
   
@@ -84,15 +84,15 @@ La implementación de [IMAPIViewContext::ActivateNext](imapiviewcontext-activate
 
 Si **ActivateNext** devuelve S_FALSE, o si no está presente un mensaje actual, realice el procedimiento de cierre normal que debe incluir una llamada a método de [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) del formulario. Si se muestra un mensaje siguiente o anterior, utilice el rectángulo de ventana que se pasa en el parámetro _prcPosRect_ para que se muestre. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa el método **IMAPIViewContext::ActivateNext** en esta función.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)

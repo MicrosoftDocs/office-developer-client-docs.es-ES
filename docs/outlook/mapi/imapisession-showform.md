@@ -23,7 +23,7 @@ ms.locfileid: "22591488"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Muestra un formulario.
   
@@ -117,15 +117,15 @@ Debe tener sólo una sola referencia para el mensaje que se pasa en el **Prepare
   
 Tenga en cuenta que las implementaciones de formulario pueden devolver valores de error que no sean las documentadas por MAPI. Si puede usar estos valores de error para realizar una determinación más precisa de la condición de error, lo haga. De lo contrario, controlar estos errores se deben controlar MAPI_E_CALL_FAILED. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

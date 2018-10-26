@@ -23,7 +23,7 @@ ms.locfileid: "22584572"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Codifica una vista de tabla de destinatarios de un mensaje en la secuencia de datos de formato de encapsulación neutro para el transporte (TNEF) para el mensaje.
   
@@ -60,7 +60,7 @@ Por tanto, al llamar a **EncodeRecips** con NULL _lpRecipientTable_ codifica a t
   
 Tenga en cuenta que es rara vez es necesario llamar a **EncodeRecips** a menos que haya un requisito para codificar una vista de tabla de destinatarios determinada. Sistemas de mensajería externos casi siempre tengan instalaciones para el tratamiento de las listas de destinatarios que son lo suficientemente eficaces para controlar las necesidades comunes de codificación de las listas de destinatarios; por lo tanto, estos sistemas casi nunca requieran la codificación TNEF para este propósito. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Tenga en cuenta que es rara vez es necesario llamar a **EncodeRecips** a menos q
   
 [ITnef::AddProps](itnef-addprops.md)
   
-[Propiedad canónica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propiedad canónico PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

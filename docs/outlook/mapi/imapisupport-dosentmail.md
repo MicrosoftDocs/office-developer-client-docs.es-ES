@@ -23,7 +23,7 @@ ms.locfileid: "22568213"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Procesa un mensaje enviado.
   

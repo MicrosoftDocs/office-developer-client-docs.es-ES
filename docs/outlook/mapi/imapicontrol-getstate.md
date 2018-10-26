@@ -23,7 +23,7 @@ ms.locfileid: "22581856"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Recupera un valor que indica si el control de botón está habilitado o deshabilitado.
   
@@ -64,7 +64,7 @@ Proveedores de servicios de implementan el método **IMAPIControl::GetState** pa
   
 Para obtener más información acerca de cómo implementar **GetState** y la otra [IMAPIControl: IUnknown](imapicontroliunknown.md) métodos, vea [Implementación de objeto de Control](control-object-implementation.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

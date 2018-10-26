@@ -17,14 +17,14 @@ ms.locfileid: "22576487"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  Crea un objeto sin conexión de MAPI que se usa en el proveedor y el almacenamiento con el fin de notificar a MAPI cuando el objeto queda en línea y sin conexión, 
   
 |||
 |:-----|:-----|
 |Exportada por:  <br/> |Msmapi32.dll  <br/> |
-|Se implementa mediante:  <br/> |Outlook  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
    
 ```cpp

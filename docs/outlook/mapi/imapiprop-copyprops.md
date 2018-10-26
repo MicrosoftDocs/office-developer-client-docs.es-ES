@@ -192,19 +192,19 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propiedad canónica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propiedad canónico PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propiedad canónica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propiedad canónico PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propiedad canónica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propiedad canónico PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propiedad canónica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propiedad canónico PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propiedad canónica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propiedad canónico PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propiedad canónica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propiedad canónico PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
-[Propiedad canónica PidTagObjectType](pidtagobjecttype-canonical-property.md)
+[Propiedad canónico PidTagObjectType](pidtagobjecttype-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   

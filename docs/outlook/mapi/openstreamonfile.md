@@ -23,14 +23,14 @@ ms.locfileid: "22571958"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Asigna e inicializa un objeto **IStream** OLE para tener acceso al contenido de un archivo. Esta función toma una cadena ANSI como el nombre de archivo, incluida la ruta de acceso y la extensión de archivo, por lo tanto, uso de la versión de Unicode de esta función, [OpenStreamOnFileW](openstreamonfilew.md), se recomienda.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
    
 ```cpp
@@ -120,15 +120,15 @@ El indicador SOF_UNIQUEFILENAME se utiliza para crear un archivo temporal con un
   
 Si no está establecido el indicador SOF_UNIQUEFILENAME, se omite _lpszPrefix_ y _lpszFileName_ debe contener la ruta de acceso completa y el nombre del archivo que se va a abrir o crear. El archivo se va a abrir o crear en función de los otros marcadores que se establecen en _ulFlags_. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el método **OpenStreamOnFile** para abrir un objeto stream en un archivo, por lo que se puede escribir un archivo adjunto a ella.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

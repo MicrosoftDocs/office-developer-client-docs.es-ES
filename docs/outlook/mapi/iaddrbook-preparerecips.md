@@ -23,7 +23,7 @@ ms.locfileid: "22563880"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Prepara una lista de destinatarios para usarlo más adelante mediante el sistema de mensajería. 
   
@@ -73,7 +73,7 @@ En una entrada de destinatarios individual, las propiedades solicitadas se orden
   
 Para obtener información sobre PT_ERROR, vea [Tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,7 +83,7 @@ Para obtener información sobre PT_ERROR, vea [Tipos de propiedades](property-ty
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

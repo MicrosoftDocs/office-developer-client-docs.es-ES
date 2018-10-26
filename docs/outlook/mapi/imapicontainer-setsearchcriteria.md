@@ -23,7 +23,7 @@ ms.locfileid: "22585895"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece los criterios de búsqueda para el contenedor.
   
@@ -95,7 +95,7 @@ Una operación de búsqueda sólo funciona en esta tabla de contenido combinado;
   
 Control se devuelve al cliente cuando haya finalizado la búsqueda.
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Contenedores de libretas de direcciones establecer los criterios de búsqueda mediante la aplicación de restricciones a sus tablas de contenido. Para obtener más información acerca de los criterios de búsqueda y contenedores de libretas de direcciones, vea [Implementación avanzada buscar](implementing-advanced-searching.md).
   
@@ -115,15 +115,15 @@ Cuando haya terminado el uso de una carpeta de resultados de búsqueda, puede el
   
 Para obtener más información acerca de las carpetas de resultados de búsqueda, vea [Las carpetas de búsqueda de MAPI](mapi-search-folders.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer::SetSearchCriteria** para escribir criterios de búsqueda para una carpeta una vez que un usuario lo ha editado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22591693"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Agrega una o más propiedades de tipo pt Object para el objeto.
   
@@ -72,7 +72,7 @@ Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido _lppPro
   
 Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no se puede agregar propiedades al objeto debido a que no permite la modificación. Para obtener permiso de lectura y escritura a un objeto antes de llamar a **HrAddObjProps**, llame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

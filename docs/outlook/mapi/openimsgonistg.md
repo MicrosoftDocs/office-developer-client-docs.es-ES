@@ -21,14 +21,14 @@ ms.locfileid: "22563971"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea un nuevo objeto [IMessage](imessageimapiprop.md) encima de un objeto OLE **IStorage** existente, para usarse dentro de una sesión de mensajería. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |IMessage.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
    
 ```cpp
@@ -93,7 +93,7 @@ IMSG_NO_ISTG_COMMIT
   
 > El método OLE **IStorage::Commit** no es se llama cuando el cliente o el proveedor llama a [SaveChanges](imapiprop-savechanges.md). 
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
 > Habilita la creación de archivos .msg de Unicode. El archivo [IMessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su [PR_STORE_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md) y es compatible con propiedades de Unicode. 
     
@@ -134,15 +134,15 @@ MAPI no define el comportamiento de varias operaciones open realizadas en un sub
   
 El procedimiento correcto para colocar un mensaje en un archivo adjunto es llamar al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con un identificador de interfaz de IID_IMessage. **OpenProperty** actualmente también admite la creación de datos adjuntos de mensajes disponibles directamente en la interfaz OLE **IStorage** , es decir, utilizando el identificador de la interfaz IID_IStorage. Se admite el acceso de **IStorage** para permitir que una forma sencilla de poner un documento de Microsoft Word en un archivo adjunto sin convertirlo a o desde la interfaz **IStream** OLE. Sin embargo, **IMessage** es posible que no se comportan de forma predecible si **OpenIMsgOnIStg** se pasa un puntero **IStorage** para los datos adjuntos y, a continuación, se liberan los objetos en el orden incorrecto. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |LoadMSGToMessage  <br/> |MFCMAPI utiliza el método **OpenIMsgOnIStg** para abrir una interfaz en la parte superior de la. MSG de archivos para que el archivo se puede manipular con MAPI.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

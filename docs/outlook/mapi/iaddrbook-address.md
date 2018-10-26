@@ -23,7 +23,7 @@ ms.locfileid: "22579959"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Muestra el cuadro de diálogo de la libreta de direcciones de Outlook. 
   
@@ -79,15 +79,15 @@ Es posible que la estructura **ADRLIST** que el autor de la llamada que se pasa 
   
  **Dirección** admite cadenas de caracteres Unicode en la estructura **ADRPARM** si AB_UNICODEUI se especificó en el miembro **ulFlags** de **ADRPARM** en el parámetro _lpAdrParms_ , y admite las cadenas de caracteres Unicode en ** ADRLIST**. Las cadenas de Unicode se convierten en el formato de caracteres de varios bytes (MBCS) de la cadena antes de que se muestren en el cuadro de diálogo de la libreta de direcciones de Outlook.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI utiliza el método de **dirección** para permitir al usuario seleccionar qué buzón para abrir.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -118,7 +118,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

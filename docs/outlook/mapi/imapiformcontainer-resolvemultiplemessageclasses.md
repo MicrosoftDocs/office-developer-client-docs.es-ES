@@ -23,7 +23,7 @@ ms.locfileid: "22577712"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se resuelve un grupo de clases de mensajes en sus formularios en un contenedor de formulario y devuelve una matriz de formulario objetos de información para los formularios.
   
@@ -69,15 +69,15 @@ Para resolver un grupo de clases de mensajes a los formularios, pase una matriz 
   
 Si una clase de mensaje no se puede resolver a un formulario, se devuelve NULL para esa clase de mensaje en la matriz de información de formulario. Por lo tanto, incluso si el método devuelve S_OK, no se supone que se han resueltos correctamente todas las clases de mensaje. En su lugar, compruebe los valores en la matriz devuelta.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI usa el método **IMAPIFormContainer::ResolveMultipleMessageClasses** para buscar un formulario que está asociado a un conjunto de clases de mensajes.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

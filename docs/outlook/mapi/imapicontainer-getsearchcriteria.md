@@ -23,7 +23,7 @@ ms.locfileid: "22579966"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Obtiene los criterios de búsqueda para el contenedor.
   
@@ -42,7 +42,7 @@ HRESULT GetSearchCriteria(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de las cadenas que se pasan en. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -92,7 +92,7 @@ MAPI_E_NOT_INITIALIZED
 
 El método **IMAPIContainer::GetSearchCriteria** obtiene los criterios de búsqueda para un contenedor que admite búsquedas, normalmente una carpeta de resultados de búsqueda. Para crear criterios de búsqueda, llamar al método **IMAPIContainer::SetSearchCriteria** de un contenedor. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Contenedores de libretas de direcciones que necesite admitir **es posible GetSearchCriteria** sólo si se proporcionan las capacidades de búsqueda avanzada asociadas con la propiedad **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Para obtener más información acerca de cómo implementar la característica de búsqueda avanzada para contenedores de la libreta de direcciones, vea [Implementación de búsqueda avanzada](implementing-advanced-searching.md).
   
@@ -100,15 +100,15 @@ Contenedores de libretas de direcciones que necesite admitir **es posible GetSea
 
 Cuando haya terminado con las estructuras de datos indicadas por los parámetros _lppRestriction_ y _lppContainerList_ , llame a [MAPIFreeBuffer](mapifreebuffer.md) una vez para cada estructura que liberar. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer::GetSearchCriteria** para obtener los criterios de búsqueda de una carpeta para mostrar.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -118,7 +118,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propiedad canónica PidTagSearch](pidtagsearch-canonical-property.md)
+[Propiedad canónico PidTagSearch](pidtagsearch-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

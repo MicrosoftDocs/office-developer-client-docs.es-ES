@@ -23,7 +23,7 @@ ms.locfileid: "22586483"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Mueve el cursor a una posición específica en la tabla.
   
@@ -85,7 +85,7 @@ El método **IMAPITable::SeekRow** establece una nueva posición de BOOKMARK_CUR
   
 Si la posición resultante es más allá de la última fila de la tabla, se coloca el cursor después de la última fila. Si la posición resultante es antes de la primera fila de la tabla, se coloca el cursor al principio de la primera fila. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si la fila que apunta _bkOrigin_ ya no existe en la tabla y no se puede establecer una nueva posición para el marcador, devolver MAPI_E_INVALID_BOOKMARK. Si la fila que apunta _bkOrigin_ ya no existe y se puede establecer una nueva posición para el marcador, devolver MAPI_W_POSITION_CHANGED. 
   
@@ -103,15 +103,15 @@ Si hay una gran cantidad de filas de la tabla, la operación **SeekRow** puede s
   
 No establezca _lRowCount_ a un número mayor que 50. Para buscar a través de un número mayor de filas, utilice el método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProcessor.cpp  <br/> |CMAPIProcessor::ProcessMailboxTable  <br/> |MFCMAPI, utiliza el método **IMAPITable::SeekRow** para encontrar el principio de la tabla antes del procesamiento.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

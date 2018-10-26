@@ -23,7 +23,7 @@ ms.locfileid: "22572259"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Recupera el estado actual del Visor. 
   
@@ -85,15 +85,15 @@ Normalmente, formularios deshabilitación botones y comandos de menú si no son 
   
 Se establece la marca VCSTATUS_MODAL si el formulario debe ser modal a la ventana cuyo controlador se pasa en la llamada de [IMAPIForm::DoVerb](imapiform-doverb.md) anterior. Si se establece VCSTATUS_MODAL, el formulario puede usar el subproceso en el que se realizó la llamada **DoVerb** hasta que se cierra el formulario. Si VCSTATUS_MODAL no está establecido, el formulario no debe ser modal a esta ventana y no debe usar el subproceso. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implementa el método **IMAPIViewContext::GetViewStatus** en esta función.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

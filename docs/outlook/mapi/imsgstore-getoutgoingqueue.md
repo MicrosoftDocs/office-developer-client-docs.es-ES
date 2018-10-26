@@ -23,7 +23,7 @@ ms.locfileid: "22575339"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la tabla de cola saliente, una tabla que contiene información acerca de todos los mensajes en cola de salida del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -54,7 +54,7 @@ S_OK
 
 El método **IMsgStore::GetOutgoingQueue** proporciona a la cola MAPI con acceso a la tabla que muestra la cola del almacén de mensajes de los mensajes salientes. Normalmente, los mensajes se colocan en la tabla cola saliente después de que se llama a su método [IMessage::SubmitMessage](imessage-submitmessage.md) . Sin embargo, debido a que el orden de envío afecta al orden de preprocesamiento y envío para el proveedor de transporte, algunos mensajes que se han marcado para el envío es posible que no aparezca en la tabla cola saliente inmediatamente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Para obtener una lista de las propiedades que se debe incluir como columnas en la tabla cola saliente, vea [Las tablas de cola saliente](outgoing-queue-tables.md). 
   
@@ -62,7 +62,7 @@ Debido a que la cola MAPI está diseñada para aceptar los mensajes de un almac�
   
 Debe admitir las notificaciones para la tabla de cola de mensajes salientes, asegurarse de que la cola MAPI recibe una notificación cuando cambia el contenido de la cola. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

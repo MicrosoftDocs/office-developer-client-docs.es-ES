@@ -23,7 +23,7 @@ ms.locfileid: "22590123"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Registra un receptor de notificaciones para recibir notificaciones a través de MAPI.
   
@@ -117,7 +117,7 @@ MAPI utiliza la clave de notificación para buscar todas las funciones de devolu
   
 El indicador NOTIFY_SYNC afecta a la operación de las llamadas subsiguientes a **Notify**. Cuando se establece NOTIFY_SYNC, **Notificar** no devuelve hasta que ha terminado de enviar todas las notificaciones necesarias. Cuando no se establece NOTIFY_SYNC, **Notify** funciona de forma asincrónica, devolución, posiblemente, antes de que todas las notificaciones se han enviado. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

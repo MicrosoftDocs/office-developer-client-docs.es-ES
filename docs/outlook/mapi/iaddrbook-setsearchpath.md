@@ -23,7 +23,7 @@ ms.locfileid: "22571762"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece una nueva ruta de acceso de búsqueda en el perfil que se usa para el proceso de resolución de nombres. 
   
@@ -60,7 +60,7 @@ Los clientes y proveedores de servicios de llamar al método **SetSearchPath** p
   
 Los clientes y proveedores no es necesario que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que los cambios de la ruta de acceso de búsqueda sea permanente. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Los clientes y proveedores no es necesario que llamar al método [IMAPIProp::Sav
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propiedad canónica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propiedad canónico PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

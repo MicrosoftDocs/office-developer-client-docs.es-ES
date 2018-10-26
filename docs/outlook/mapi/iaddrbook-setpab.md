@@ -23,7 +23,7 @@ ms.locfileid: "22569305"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Designa un contenedor determinado como la libreta de direcciones personales (PAB).
   
@@ -58,15 +58,15 @@ Una llamada a **SetPAB** establece un contenedor como el archivo PAB hasta que e
   
 Los clientes y proveedores no es necesario que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que el cambio PAB sea permanente. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI, utiliza el método **SetPAB** para realizar el contenedor especificado de la Libreta personal de direcciones.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propiedad canónica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propiedad canónico PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

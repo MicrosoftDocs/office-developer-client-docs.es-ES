@@ -23,7 +23,7 @@ ms.locfileid: "22589059"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Actualiza el indicador de progreso con una visualización del progreso de la medida que se realiza hacia la finalización de la operación. 
   
@@ -55,7 +55,7 @@ S_OK
   
 > El indicador de progreso se actualizó correctamente.
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 El parámetro _ulValue_ será igual al valor mínimo global sólo al principio de la operación y para el valor máximo global sólo en la finalización de la operación. 
   
@@ -69,17 +69,17 @@ No todos los tres de los parámetros para **IMAPIProgress::Progress** son necesa
   
 Si va a copiar todos los mensajes en una sola carpeta, establezca _ulTotal_ en el número total de mensajes que se está copiando. Si va a copiar una carpeta, establezca _ulTotal_ en el número de subcarpetas de la carpeta. Si la carpeta que se va a copiar no contiene subcarpetas y sólo los mensajes, establezca _ulTotal_ en 1. 
   
-Para que obtener más información acerca de cómo y cuándo se deben realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
+Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::Progress  <br/> |MFCMAPI usa el método **IMAPIProgress::Progress** para actualizar la barra de estado MFCMAPI con el porcentaje actual de progreso, que se calcula a partir de _uValue_ y los valores máximo y mínimos actuales.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -88,7 +88,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   

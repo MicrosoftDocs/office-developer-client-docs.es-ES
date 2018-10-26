@@ -23,7 +23,7 @@ ms.locfileid: "22579259"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Copia el mensaje actual en una carpeta.
   
@@ -53,7 +53,7 @@ MAPI_E_NO_SUPPORT
 
 Objetos de formulario llamar al método **IMAPIMessageSite::CopyMessage** para copiar el mensaje actual en una nueva carpeta. **CopyMessage** no cambia el mensaje que se muestra actualmente al usuario y ninguna interfaz para el mensaje recién creada se devuelve al formulario. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Una implementación típica del método **CopyMessage** realiza las tareas siguientes: 
   
@@ -67,15 +67,15 @@ Una implementación típica del método **CopyMessage** realiza las tareas sigui
     
 Para obtener una lista de las interfaces que están relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |No se ha implementado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -88,7 +88,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario MAPI](mapi-form-interfaces.md)
 

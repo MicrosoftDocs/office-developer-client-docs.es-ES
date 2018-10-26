@@ -19,7 +19,7 @@ ms.locfileid: "22578293"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI define algunas carpetas especiales porque sirven roles predefinidos como carpetas predeterminadas para determinados tipos de mensajes. Estas carpetas especiales normalmente no se puede eliminar, y tienen propiedades de identificador de entrada especial.
   
@@ -61,7 +61,7 @@ Las carpetas especiales de Outlook se identifican mediante su identificadores qu
 |Tareas  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Drafts  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

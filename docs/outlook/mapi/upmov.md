@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
+description: 'Última modificación: 05 de julio de 2012'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
@@ -59,11 +59,11 @@ _ulFlags_
     
 _Conserva_
   
->  [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pstmReserved_
   
->  [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pszName_
   
@@ -86,7 +86,7 @@ _pxicc_
     
 _dwReservado_
   
->  [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+>  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pupmovNext_
   

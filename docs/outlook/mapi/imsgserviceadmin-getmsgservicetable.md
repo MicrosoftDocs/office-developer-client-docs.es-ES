@@ -23,7 +23,7 @@ ms.locfileid: "22568171"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la tabla de servicio de mensajes, una lista de los servicios de mensaje en el perfil.
   
@@ -56,15 +56,15 @@ El método **IMsgServiceAdmin::GetMsgServiceTable** proporciona acceso a la tabl
   
 En la tabla de servicio del mensaje es estática. Después de que un cliente se han concedido acceso a él, mensaje subsiguientes servicio incorporaciones o eliminaciones no afectará a él. Si no hay ningún servicio de mensaje en el perfil actual, **GetMsgServiceTable** devuelve un objeto table con cero filas. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI utiliza el método **IMsgServiceAdmin::GetMsgServiceTable** para cargar en la tabla de servicios en un perfil para representar en la vista.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

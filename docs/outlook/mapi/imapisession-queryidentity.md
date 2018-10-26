@@ -23,7 +23,7 @@ ms.locfileid: "22583417"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el identificador de entrada del objeto que proporciona la identidad principal para la sesión.
   
@@ -86,15 +86,15 @@ Para obtener más información acerca de la identidad en general, vea [Identidad
   
 Para obtener más información acerca de cómo recuperar la identidad de la sesión MAPI, vea [recuperación principales y proveedor de identidad](retrieving-primary-and-provider-identity.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |MFCMAPI utiliza el método **IMAPISession::QueryIdentity** para abrir la entrada de la libreta de direcciones para la identidad principal de la sesión.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -107,13 +107,13 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Identidad principal de MAPI](mapi-primary-identity.md)
   
-[Recuperar identidades de proveedor y principales](retrieving-primary-and-provider-identity.md)
+[Recuperar la identidad de proveedor y primaria](retrieving-primary-and-provider-identity.md)
   
-[Uso de macros para el control de errores](using-macros-for-error-handling.md)
+[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
   
 [Tabla de estado y objetos de estado](status-table-and-status-objects.md)
 

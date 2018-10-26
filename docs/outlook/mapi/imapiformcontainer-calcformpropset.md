@@ -23,7 +23,7 @@ ms.locfileid: "22576585"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una matriz de las propiedades de todos los formularios instalados en un contenedor de formulario.
   
@@ -48,7 +48,7 @@ FORMPROPSET_UNION
   
 > La matriz devuelta contiene la unión de las propiedades de los formularios.
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas devueltas en la matriz están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -70,7 +70,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Las aplicaciones cliente de llaman al método **IMAPIFormContainer::CalcFormPropSet** para obtener una matriz de propiedades que se usan por todos los formularios instalados en un contenedor de formulario. **IMAPIFormContainer::CalcFormPropSet** funciona como el método [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) , salvo que opera en cada formulario registrado en un contenedor determinado. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE..
   
@@ -80,7 +80,7 @@ Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben dev
   
 Si un cliente pasa el indicador MAPI_UNICODE _ulFlags_, todas las cadenas devueltas son Unicode.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

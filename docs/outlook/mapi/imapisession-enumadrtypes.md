@@ -23,7 +23,7 @@ ms.locfileid: "22587820"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En desuso. Devuelve los tipos de direcciones que se pueden controlar por todos los proveedores de transporte en la sesión. 
   
@@ -41,7 +41,7 @@ HRESULT EnumAdrTypes(
   
 > [entrada] Una máscara de bits de marcadores que indica el formato para los tipos de dirección devuelta. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Los tipos de direcciones están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., los tipos de direcciones están en formato ANSI.
     
@@ -67,7 +67,7 @@ El método **IMAPISession:: EnumAdrTypes** devuelve una lista de los tipos de di
 
 Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadena indicada por el parámetro _lpppszAdrTypes_ . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22575073"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Informa el almac�n de mensajes que ha llegado un mensaje nuevo. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -49,7 +49,7 @@ S_OK
 
 Se llama al m�todo de **IMsgStore::NotifyNewMail** por la cola MAPI para notificar el almac�n de mensajes que est� listo para la entrega de un mensaje. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Cuando se llama a **NotifyNewMail**, env�e una notificaci�n de correo nuevo a todos los clientes registrados. Puede enviar la notificaci�n mediante una llamada a [IMAPISupport::Notify](imapisupport-notify.md), si opta por utilizar los m�todos del objeto de soporte t�cnico, o mediante su propia implementaci�n. Un cliente registrado es uno que se llama [IMsgStore::Advise](imsgstore-advise.md) y se establece el par�metro  _lpEntryID_ en NULL y el par�metro  _ulEventMask_ a  _fnevNewMail_. 
   

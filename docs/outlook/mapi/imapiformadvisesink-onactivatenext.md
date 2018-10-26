@@ -23,7 +23,7 @@ ms.locfileid: "22581760"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica si el formulario puede controlar la clase de mensaje del mensaje siguiente para mostrar.
   
@@ -70,7 +70,7 @@ Visores de formulario llamar al método **IMAPIFormAdviseSink::OnActivateNext** 
   
 La mayoría de los objetos de formulario usará la clase de mensaje que apunta el parámetro _lpszMessageClass_ para determinar si pueden procesar el mensaje siguiente. Normalmente, un formulario puede administrar los mensajes que pertenecen a las clases de que la clase del formulario de forma predeterminada es una subclase, además de los mensajes que pertenecen a la clase predeterminada. Sin embargo, un formulario puede usar otros factores para determinar sin pregunta si un mensaje puede ser controlado, como el estado enviado y no enviado del mensaje siguiente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Devolver S_OK y NULL en el parámetro _ppPersistMessage_ si el formulario puede controlar la clase de mensaje. Si el formulario puede crear un nuevo formulario que puede administrar el mensaje que el formulario no puede controlar, siga estos pasos: 
   
@@ -84,15 +84,15 @@ El Visor de formulario cargará el mensaje mediante el método [IPersistMessage:
   
 Si ni el formulario ni en un formulario que se puede crear puede controlar el mensaje siguiente, devuelve S_FALSE. Sin embargo, en general, formularios no deben devolver que este valor porque hace disminución del rendimiento en el Visor de formulario.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utiliza el método **IMAPIFormAdviseSink::OnActivateNext** para implementar el método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -102,9 +102,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IPersistMessage::Load](ipersistmessage-load.md)
   
-[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
 

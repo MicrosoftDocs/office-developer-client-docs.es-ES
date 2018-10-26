@@ -19,7 +19,7 @@ ms.locfileid: "22564223"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Es posible que varias aplicaciones de cliente abrir un mensaje determinado simult�neamente. Los proveedores de almac�n de mensajes no es necesario seguir las reglas determinadas para control de acceso a dicha informaci�n. Sin embargo, si las aplicaciones cliente de modificaci�n el mensaje y guarden los cambios, el proveedor de almacenamiento debe cumplir con las siguientes reglas:
   
@@ -31,9 +31,9 @@ Es posible que varias aplicaciones de cliente abrir un mensaje determinado simul
     
 Como alternativa, el proveedor de almacenamiento de mensajes puede detectar el conflicto y presentar una interfaz que permite al usuario elegir si desea conservar el mensaje original, sobrescribir el mensaje original con los nuevos cambios o guardar los cambios nuevos en otra ubicaci�n.
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 
-[Implementaci�n de los mensajes en los almacenes de mensajes](implementing-messages-in-message-stores.md)
+[Implementar mensajes en los almacenes de mensajes](implementing-messages-in-message-stores.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
-description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+description: 'Última modificación: 25 de junio de 2012'
 ms.openlocfilehash: bd9cdd9119f94e1f7684be34e1b4ef6fb40ab2bf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22576508"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Esta referencia de API de mensajería de Outlook (MAPI) de Microsoft se ha diseñado para C y los desarrolladores de C++ con una gran variedad de necesidades y experimentar con la mensajería. Para los programadores que deseen utilizar MAPI para ampliar sus aplicaciones que tienen las características de mensajería, no es necesario ningún requisito de conocimientos específico. Es necesario un fondo de mensajería y el modelo de objetos de componentes (COM) a usar MAPI para crear aplicaciones de grupo de trabajo a gran escala o controladores para los servicios del sistema de mensajería especializados.
   

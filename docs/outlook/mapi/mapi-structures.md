@@ -21,7 +21,7 @@ ms.locfileid: "22584789"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI. Para obtener información más detallada, también se incluyen las referencias cruzadas a otras publicaciones o a otros temas de esta documentación.
   
@@ -72,7 +72,7 @@ Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI
 |[STnefProblem](stnefproblem.md) <br/> |[STnefProblemArray](stnefproblemarray.md) <br/> |
 |[SWStringArray](swstringarray.md) <br/> |[TABLE_NOTIFICATION](table_notification.md) <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

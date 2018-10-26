@@ -23,7 +23,7 @@ ms.locfileid: "22584957"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona control de la CPU a la cola de MAPI para que pueda realizar las tareas que considere necesarias.
   
@@ -61,7 +61,7 @@ Si **SpoolerYield** devuelve con MAPI_W_CANCEL_MESSAGE, la cola MAPI ha determin
   
 Para obtener más información acerca de la obtención de la cola MAPI, consulte [interactuar con la cola de MAPI](interacting-with-the-mapi-spooler.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

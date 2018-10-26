@@ -19,7 +19,7 @@ ms.locfileid: "22568234"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Para poder comunicarse con proveedores de servicios y un sistema de mensajería subyacente, debe establecer una sesión. Una sesión MAPI es un vínculo desde un cliente a otros componentes MAPI. Como resultado de inicio de una sesión correctamente, MAPI devuelve a los clientes un puntero a un objeto de sesión, un objeto que implementa la interfaz **IMAPISession** . Para obtener más información, vea [IMAPISession: IUnknown](imapisessioniunknown.md). Puede usar los métodos de la interfaz **IMAPISession** para tener acceso a los objetos de proveedores de almacenes de libreta de direcciones y el mensaje de dirección, obtener acceso a varias tablas, mostrar formularios, establecer propiedades del proveedor de transporte y realizar la administración del servicio de perfil y el mensaje. 
   
@@ -33,11 +33,11 @@ Para poder comunicarse con proveedores de servicios y un sistema de mensajería 
   
 > Se describe cómo finalizar una sesión de MAPI.
     
-[Obtener acceso a los objetos con la sesión](accessing-objects-by-using-the-session.md)
+[Obtener acceso a objetos mediante el uso de la sesión](accessing-objects-by-using-the-session.md)
   
 > Describe cómo utilizar un puntero de sesión para tener acceso a objetos de la sesión.
     
-[Recuperar identidades de proveedor y principales](retrieving-primary-and-provider-identity.md)
+[Recuperar la identidad de proveedor y primaria](retrieving-primary-and-provider-identity.md)
   
 > Se describen las propiedades que se usan para recuperar principal y la identidad del proveedor.
     

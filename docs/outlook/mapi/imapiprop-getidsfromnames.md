@@ -23,7 +23,7 @@ ms.locfileid: "22565364"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona los identificadores de propiedad que se corresponden con uno o varios nombres de propiedad.
   
@@ -96,7 +96,7 @@ Si se ha producido un error que devuelve un identificador para un nombre en part
   
 Asignación de nombre a identificador está representado por una propiedad del objeto **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)). **PR_MAPPING_SIGNATURE** contiene una estructura [MAPIUID](mapiuid.md) que indica el proveedor de servicio responsable del objeto. Si la propiedad **PR_MAPPING_SIGNATURE** es el mismo para dos objetos, se supone que estos objetos utilizan la misma asignación de nombre a identificador. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Los identificadores que se pasan en la matriz de etiqueta de la propiedad indicada por el parámetro _lppPropNames_ deben estar en el intervalo de 0 x 8000 a 0xFFFE. Las entradas de esta matriz deben estar en el mismo orden que los nombres pasados en la matriz de nombre de la propiedad indicadas por _lppPropNames_. 
   
@@ -112,15 +112,15 @@ Algunos objetos tienen un límite en el número de identificadores de propiedad 
   
 Para obtener más información, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI utiliza el método **IMAPIProp::GetIDsFromNames** para obtener las etiquetas de propiedad para todas las propiedades con nombre que se han asignado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -135,9 +135,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
   
-[Uso de macros para el control de errores](using-macros-for-error-handling.md)
+[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
-description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+description: 'Última modificación: 25 de junio de 2012'
 ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "22584803"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Abra un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Este tema contiene un ejemplo de código en C++ que se muestra cómo usar el indicador **MDB_ONLINE** para abrir un almacén de mensajes en el servidor remoto cuando Microsoft Outlook 2010 o Microsoft Outlook 2013 está en modo caché de Exchange. 
   
@@ -23,7 +23,7 @@ El modo de intercambio en caché permite que Outlook 2010 y Outlook 2013 para us
   
 Un proveedor de servicio o cliente puede invalidar la conexión con el almacén de mensajes local y abrir el almacén en el servidor remoto estableciendo el bit de **MDB_ONLINE** en el parámetro *ulFlags* al llamar a [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md). Después de que el almacén se ha abierto correctamente en el servidor remoto para esa sesión, puede usar [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir elementos o carpetas en el almacén remoto. 
   
-No se puede abrir un almacén de Exchange en modo de caché y en modo sin caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes almacenados en caché, ya sea debe cerrar el almacén antes de que se abra con esta marca, o se abre una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante el uso de esta marca.
+No se puede abrir un almacén de Exchange en modo de caché y en modo sin caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
   
 El ejemplo de código siguiente muestra cómo llamar a **IMAPISession::OpenMsgStore** con el indicador **MDB_ONLINE** establecido en el parámetro *ulFlags* para abrir el almacén predeterminado en el servidor remoto. 
   
@@ -88,9 +88,9 @@ HRESULT HrRemoteMessageStore(
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Información sobre las adiciones de MAPI](about-mapi-additions.md) 
+- [Acerca de las adiciones de MAPI](about-mapi-additions.md) 
 - [Constantes MAPI](mapi-constants.md)
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

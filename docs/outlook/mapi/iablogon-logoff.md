@@ -23,7 +23,7 @@ ms.locfileid: "22586210"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inicia el proceso de cierre de sesión.
   
@@ -57,7 +57,7 @@ El método **IABLogon::Logoff** hace lo siguiente:
     
 Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, vea [Cerrando hacia abajo un proveedor de servicios](shutting-down-a-service-provider.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

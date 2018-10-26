@@ -23,7 +23,7 @@ ms.locfileid: "22572112"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Elimina varias filas de tabla.
   
@@ -69,7 +69,7 @@ Después de que se eliminan las filas, las notificaciones se envían a todos los
   
 Eliminación de filas no reduce las columnas disponibles para las vistas de tabla existentes o vuelven a abrir vistas de tabla, incluso si las filas eliminadas son la última que tienen los valores de una columna específica.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22583683"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un objeto table de plantillas de uso único para la creación de los destinatarios que se agregará a la lista de destinatarios de un mensaje saliente.
   
@@ -40,7 +40,7 @@ HRESULT GetOneOffTable(
   
 > [entrada] Una máscara de bits de indicadores que controla el tipo de columnas de cadena que se incluyen en la tabla. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
     
@@ -70,7 +70,7 @@ Los proveedores de la libreta de direcciones también pueden admitir una tabla d
   
 Para obtener una lista de las columnas necesarias en la tabla de uso único de un proveedor libreta de direcciones, vea [Las tablas de uso único](one-off-tables.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

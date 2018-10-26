@@ -23,7 +23,7 @@ ms.locfileid: "22583452"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Realiza procesamiento posterior en un mensaje. 
   
@@ -67,7 +67,7 @@ Llamar a **CompleteMsg** sólo cuando estrechamente con un proveedor de transpor
     
 - El mensaje requiere procesamiento posterior por la cola de MAPI.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

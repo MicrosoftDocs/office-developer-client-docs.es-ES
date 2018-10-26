@@ -23,7 +23,7 @@ ms.locfileid: "22564251"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Registra el autor de la llamada para recibir notificaciones de los eventos que afectan a un contenedor, usuario o lista de distribución de mensajería.
   
@@ -94,7 +94,7 @@ Los clientes normalmente llaman al método de [IAddrBook::Advise](iaddrbook-advi
   
 Cuando se produce un cambio en el objeto del tipo representado en _ulEventMask_indicado, se realiza una llamada al método **OnNotify** del receptor de notificaciones que señala _lpAdviseSink_. Datos que se pasan en la estructura de **notificación** a la rutina de **OnNotify** describen el evento. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede admitir notificación con o sin ayuda de MAPI. MAPI tiene tres métodos del objeto de soporte técnico para ayudar a los proveedores de servicios de implementar la notificación de:
   
@@ -118,7 +118,7 @@ Esté preparado para que su objeto de receptor advise liberarse en cualquier mom
   
 Para obtener más información sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). Para obtener información acerca de cómo usar los métodos **IMAPISupport** para admitir la notificación, vea [Compatibilidad con notificación de evento](supporting-event-notification.md). Para obtener más información acerca de subprocesamiento múltiple y MAPI, vea [subprocesamiento en MAPI](threading-in-mapi.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

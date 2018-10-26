@@ -23,7 +23,7 @@ ms.locfileid: "22564986"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Intenta quitar un mensaje de la cola de salida.
   
@@ -71,15 +71,15 @@ El método **IMsgStore::AbortSubmit** intenta quitar un mensaje enviado desde la
 
 Una vez que se envía un mensaje, anulando el envío mediante una llamada a **AbortSubmit** es la única acción que se puede realizar en el mensaje. No se espera **AbortSubmit** siempre se realice correctamente. Dependiendo de cómo se implementa el sistema de mensajería subyacente, no sería posible cancelar el envío del mensaje. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa el método **IMsgStore::AbortSubmit** para anular el envío del mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

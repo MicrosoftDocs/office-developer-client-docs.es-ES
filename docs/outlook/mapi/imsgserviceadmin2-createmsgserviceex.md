@@ -23,7 +23,7 @@ ms.locfileid: "22574779"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Agrega un servicio de mensajes para el perfil actual y devuelve que acaba de agregar UID de servicio.
   
@@ -55,7 +55,7 @@ HRESULT CreateMsgServiceEx(
   
 > [entrada] Una máscara de bits de indicadores que controla cómo se instala el servicio de mensajes. Se pueden establecer los siguientes indicadores:
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
 > El lpszService y los parámetros de lpszDisplayName deben convertirse a LPWSTR e interpreta como cadenas Unicode.
     
@@ -105,7 +105,7 @@ Pasar el valor de la propiedad **PR_SERVICE_UID** en el parámetro _lpuidService
 > [!IMPORTANT]
 > La interfaz de IMsgServiceAdmin2 es expuesta por el mismo objeto que implementa la interfaz IMsgServiceAdmin y ha estado disponible mediante la implementación de Outlook del subsistema MAPI desde Outlook 2003. Su IID se define como sigue: > `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> _ulFlags_ SERVICE_NO_RESTART_WARNING no pueden definirse en el archivo de encabezado que se pueden descargar tiene actualmente, en cuyo caso se puede agregar a su código con el siguiente valor: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

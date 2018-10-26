@@ -23,7 +23,7 @@ ms.locfileid: "22579651"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece el valor de una o más propiedades para un mensaje encapsulado o adjunto sin modificar el mensaje original o datos adjuntos. 
   
@@ -73,7 +73,7 @@ Transporte proveedores, los proveedores de almacén de mensajes y las puertas de
 > [!NOTE]
 > No hay real la codificación TNEF para **SetProps** sucede hasta después de que se llama al método [ITnef::Finish](itnef-finish.md) . Esta funcionalidad significa que punteros pasados **SetProps** deben siguen siendo válidos hasta después de que se realiza la llamada al **Finalizar** . En ese momento, todos los objetos y datos que se pasan en **SetProps** llamadas pueden publicada el o liberados. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,7 +83,7 @@ Transporte proveedores, los proveedores de almacén de mensajes y las puertas de
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propiedad canónico PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

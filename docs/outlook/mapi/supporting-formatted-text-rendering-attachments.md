@@ -19,7 +19,7 @@ ms.locfileid: "22580316"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Una aplicación cliente que se importan a donde se representan sus datos adjuntos en un mensaje, Establece la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para estos datos adjuntos durante la composición de mensaje. Un cliente que no necesita conocer la colocaci�n de representaci�n sale de esta propiedad no definidas.
   

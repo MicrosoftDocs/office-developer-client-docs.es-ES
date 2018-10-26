@@ -23,7 +23,7 @@ ms.locfileid: "22592349"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Muestra un cuadro de diálogo que muestra detalles acerca de una entrada de la libreta de direcciones determinada.
   
@@ -91,7 +91,7 @@ DIALOG_SDI
   
 >  Mostrar la versión del cuadro de diálogo dirección comunes no modal. Este indicador se omite para los clientes de Outlook que no sean. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -107,15 +107,15 @@ Las aplicaciones cliente de llaman al método **Detalles** para mostrar un cuadr
   
  **Detalles** admite las cadenas de caracteres Unicode; Las cadenas de Unicode se convierten en el formato de caracteres de varios bytes (MBCS) de la cadena antes de que se muestren en el cuadro de diálogo de detalles. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI usa el método **Details** para mostrar un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

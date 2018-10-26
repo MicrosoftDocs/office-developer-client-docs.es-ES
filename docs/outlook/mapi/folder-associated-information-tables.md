@@ -19,7 +19,7 @@ ms.locfileid: "22564650"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI define el indicador MAPI_ASSOCIATED para diversos componentes MAPI usar cuando trabaja con tablas de información asociada. Cada carpeta en un almacén de mensajes debe tener una tabla de contenido asociada junto con su tabla de contenido estándar. Las aplicaciones cliente almacenan mensajes especiales en tabla de contenido asociada de una carpeta para contener los formularios y vistas. De hecho, para admitir los formularios y vistas, el proveedor de almacén de mensajes debe implementar las tablas de contenido asociada.
   
@@ -41,7 +41,7 @@ Para implementar las tablas de contenido asociado, su proveedor de almacenamient
     
 No hay ningún bit en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar si el proveedor de almacén de mensajes es compatible con las tablas de contenido asociada. Si su proveedor de almacén de mensajes no es compatible con ellos, debe devolver MAPI_E_NO_SUPPORT cuando llama a aplicaciones cliente de cualquiera de los métodos anteriores con la marca MAPI_ASSOCIATED.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

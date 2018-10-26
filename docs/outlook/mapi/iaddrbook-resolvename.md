@@ -23,7 +23,7 @@ ms.locfileid: "22567233"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Realiza la resolución de nombres, asignar los identificadores de entrada a los destinatarios en una lista de destinatarios.
   
@@ -58,7 +58,7 @@ MAPI_DIALOG
   
 > Muestra un cuadro de diálogo para preguntar al usuario para la información de resolución de nombres adicionales. Si no se establece este marcador, no se muestra ningún cuadro de diálogo. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Indica que las propiedades devueltas en la lista de direcciones deben ser de tipo PT_UNICODE en lugar de PT_STRING8. 
     
@@ -116,16 +116,16 @@ MAPI admite cadenas de caracteres Unicode para el **ADRLIST** y los nuevos pará
     
 Sin embargo, siempre se devuelve la propiedad de **PR_7BIT_DISPLAY_NAME** ([PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md)) mientras escribe PT_STRING8.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utiliza el método **ResolveName** para resolver una dirección de uso único antes de agregar a un mensaje.  <br/> |
 |MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utiliza el método **ResolveName** para buscar una entrada de la libreta de direcciones por nombre para mostrar.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

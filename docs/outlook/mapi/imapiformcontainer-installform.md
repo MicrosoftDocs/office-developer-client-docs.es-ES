@@ -23,7 +23,7 @@ ms.locfileid: "22580939"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Instala un formulario en una biblioteca de formularios.
   
@@ -49,7 +49,7 @@ MAPI_DIALOG
   
 > Muestra un cuadro de diálogo para proporcionar información de progreso o solicite al usuario para obtener más información. Si no se establece este marcador, no se muestra ningún cuadro de diálogo.
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -75,7 +75,7 @@ MAPI_E_USER_CANCEL
   
 > El usuario canceló la instalación del formulario, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Proveedores de biblioteca de formulario deben rellenar una estructura **MAPIERROR** y devolver MAPI_E_EXTENDED_ERROR si se produce alguna de las condiciones siguientes: 
   
@@ -101,15 +101,15 @@ Las aplicaciones cliente de llaman al método **IMAPIFormContainer::InstallForm*
     
 Los clientes deben llamar [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** devuelve MAPI_E_EXTENDED_ERROR, y se deben proteger la estructura [MAPIERROR](mapierror.md) devuelta para determinar la condición que provocó el error. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI usa el método **IMAPIFormContainer::InstallForm** para instalar un formulario en un contenedor de formulario.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

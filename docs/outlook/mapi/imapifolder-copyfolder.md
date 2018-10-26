@@ -23,7 +23,7 @@ ms.locfileid: "22585153"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Copia o mueve una subcarpeta.
   
@@ -90,7 +90,7 @@ MAPI_DECLINE_OK
   
 > El proveedor de almacenamiento de mensaje le informa de que si implementa **CopyFolder** mediante una llamada al método [IMAPISupport::DoCopyTo](imapisupport-docopyto.md) o [IMAPISupport::DoCopyProps](imapisupport-docopyprops.md) del objeto de su soporte técnico, **CopyFolder** debe devolver en su lugar inmediatamente MAPI_E_ DECLINE_COPY. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > El nombre de la carpeta de destino está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre de la carpeta está en formato ANSI.
     
@@ -124,7 +124,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 El método **IMAPIFolder::CopyFolder** copia o mueve una subcarpeta de una ubicación a otra. La subcarpeta se copien o muevan se agrega a la carpeta de destino como una subcarpeta. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Cuando la operación de copiar o mover implica más de una carpeta, como se indica mediante la configuración de la marca COPY_SUBFOLDERS, realizar la operación más completo posible para cada carpeta. En ocasiones, una de las carpetas que se va a mover o copiar no existe o ya se ha movido o copiado en otro lugar. No detiene la operación de forma prematura a menos que se produzca un error que está fuera de su control, como la falta de memoria, está quedando sin espacio en disco o daños en el almacén de mensajes.
   
@@ -152,15 +152,15 @@ Dependiendo del proveedor de almacén de mensajes, el identificador de entrada d
     
 - Cuando se mueve una carpeta a otra ubicación en el mismo almacén de mensajes, el identificador de entrada puede o puede que no cambie, según el mensaje de proveedor de almacén.
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI usa el método **IMAPIFolder::CopyFolder** para copiar las carpetas desde una ubicación a otra. MFCMAPI recuerda la carpeta de origen durante la operación de copia y realmente realiza la copia durante la operación de pegado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

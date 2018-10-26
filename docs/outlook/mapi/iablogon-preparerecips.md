@@ -75,7 +75,7 @@ Un cliente llama al método MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerec
     
 La estructura **ADRENTRY** en el parámetro _lpRecipList_ contiene una estructura **ADRENTRY** para cada destinatario. Cada estructura **ADRENTRY** contiene una matriz de estructuras [SPropValue](spropvalue.md) para describir las propiedades del destinatario. Cuando se devuelve **IABLogon::PrepareRecips** , la matriz de la estructura de **SPropValue** para cada destinatario incluye las propiedades de la _lpPropTagArray_ seguido de las demás propiedades para el destinatario. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 La implementación de **IABLogon::PrepareRecips** implica la colocación de propiedades en un orden específico, recuperación de valores de propiedad y convertir los identificadores de entrada a corto plazo a los identificadores de entrada a largo plazo. Las propiedades que se solicitan en el parámetro _lpPropTagArray_ deben ser al principio de la matriz de valores de propiedad asociado con la estructura **ADRENTRY** de cada destinatario en el parámetro _lpRecipList_ . Si no existen valores de estas propiedades, abra la lista de usuarios o distribución mensajería asociada mediante su identificador de entrada y recuperar los valores de propiedad que faltan. 
   
@@ -106,7 +106,7 @@ Para implementar **IABLogon::PrepareRecips**, use el procedimiento siguiente:
 
 - [ADRLIST](adrlist.md)
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
-- [Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
+- [Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
 - [SPropValue](spropvalue.md)
 - [IABLogon : IUnknown](iablogoniunknown.md)
 

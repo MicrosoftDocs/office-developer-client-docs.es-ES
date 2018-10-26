@@ -61,7 +61,7 @@ MAPI_DEFERRED_ERRORS
     
 SPAMFILTER_ONSAVE
   
-> Permite contra correo no deseado filtrado en un mensaje que se va a guardar. Soporte técnico de filtrado de correo no está disponible sólo si el tipo de dirección de correo electrónico del remitente es el protocolo Simple de transferencia de correo (SMTP) y el mensaje se guarda en un almacén para un archivo de carpetas personales (PST).
+> Permite contra correo no deseado filtrado en un mensaje que se va a guardar. El soporte de filtrado de spam solo está disponible si el tipo de dirección de correo electrónico del remitente es Protocolo simple de transferencia de correo (SMTP) y el mensaje se está guardando en un almacén de un archivo de carpetas personales (PST).
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -130,7 +130,7 @@ Para obtener más información, vea [Guardar las propiedades de MAPI](saving-map
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 

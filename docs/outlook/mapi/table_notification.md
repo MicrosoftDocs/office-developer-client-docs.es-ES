@@ -21,7 +21,7 @@ ms.locfileid: "22565847"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Describe una fila en una tabla que se ha visto afectada por algún tipo de evento, como un cambio o un error. Esto hace que una notificación de la tabla que se genere. 
   
@@ -41,7 +41,7 @@ typedef struct _TABLE_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 **ulTableEvent**
   
@@ -119,13 +119,13 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos de MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar las notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Admitir notificaciones de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
+|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
    
 Debido a que las notificaciones de tabla son asincrónicas, los clientes pueden recibir notificaciones de una fila se ha agregado después de aprendizaje acerca de la adición a través de otro medio. Es posible recibir un evento TABLE_ERROR cuando se ha producido un error en un método **IMAPITable::Sort**, **IMAPITable:: Restrict**o **IMAPITable::SetColumns** o cuando subyacentes de un proceso intenta actualizar una tabla con, por ejemplo, la nueva funcionalidad o las filas modificadas. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Notificaci�n](notification.md) 
 - [ScDupPropset](scduppropset.md)

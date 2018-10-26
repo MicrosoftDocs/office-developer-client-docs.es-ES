@@ -19,7 +19,7 @@ ms.locfileid: "22581814"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes son más complejos que otros proveedores de servicios MAPI en que los proveedores de almacén de mensajes tienen una amplia gama de características opcionales que se pueden implementar. La lista de las características necesarias para un proveedor de almacén de mensajes es bastante corta. Sin embargo, un proveedor de almacén de mensajes típico admitirá un número de características opcionales, debido a que muchas de las características opcionales están muy útil o requerido por la mayoría de los clientes MAPI. En la siguiente tabla se enumera las características principales que pueden implementar los proveedores de almacén de mensajes y si cada característica es obligatorio u opcional para el mensaje de todos los proveedores de almacén de mensaje predeterminada de los proveedores de almacén.
   
@@ -43,9 +43,9 @@ Los proveedores de almacén de mensajes son más complejos que otros proveedores
    
 Muchas de las características opcionales se pueden anunciar a MAPI y las aplicaciones de cliente mediante la configuración de diversos indicadores en el mensaje almacén de propiedad de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del objeto. Las características requeridas no tienen indicadores asociados con ellos. **PR_STORE_SUPPORT_MASK** se requiere en el almacén de mensajes, carpetas y objetos de mensaje. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 

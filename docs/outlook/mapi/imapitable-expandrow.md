@@ -23,7 +23,7 @@ ms.locfileid: "22563782"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Expande una categoría de tabla contraído, adición de la hoja o las filas de encabezado de nivel inferior que pertenecen a la categoría a la vista de tabla.
   
@@ -80,7 +80,7 @@ El método **IMAPITable::ExpandRow** expande una categoría de tabla contraído,
   
 Cuando _ulRowCount_ se establece en cero, que solicita que cero hoja o filas de título de nivel inferior se agrega a la categoría o, se devuelven cero filas porque no hay ninguna hoja o las filas de encabezado de nivel inferior de la categoría, se establece la posición de BOOKMARK_CURRENT en la fila Después de la fila identificada por _pbInstanceKey_. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 No generan notificaciones en las filas que se agregan a una vista de tabla debido a la expansión de la categoría.
   
@@ -92,15 +92,15 @@ No se debe esperar recibir una notificación de tabla cuando una categoría camb
   
 Para obtener más información acerca de las tablas ordenadas por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI usa el método **IMAPITable::ExpandRow** para expandir una categoría de tabla contraídos.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

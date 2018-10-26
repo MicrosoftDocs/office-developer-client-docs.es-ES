@@ -1,11 +1,11 @@
 ---
-title: Compruebe que se bloquea un dato adjunto
+title: Comprobar si los datos adjuntos están bloqueados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
-description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+description: 'Última modificación: 25 de junio de 2012'
 ms.openlocfilehash: c1c6f960f2e24108bebdc8f6cbf08bf1d94d85ae
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25393841"
 ---
-# <a name="verify-an-attachment-is-blocked"></a>Compruebe que se bloquea un dato adjunto
+# <a name="verify-an-attachment-is-blocked"></a>Comprobar si los datos adjuntos están bloqueados
 
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22578636"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Elimina uno o más mensajes.
   
@@ -76,7 +76,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 El método **IMAPIFolder::DeleteMessages** elimina los mensajes de una carpeta. No se puede eliminar los mensajes que no existen, que se han movido en otra parte, que están abiertos con permiso de lectura y escritura o que se envían actualmente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Cuando la operación de eliminación implica más de un mensaje, realizar la operación más completo posible para cada carpeta, incluso si no se puede eliminar uno o varios de los mensajes. No detiene la operación de forma prematura a menos que se produzca un error que está fuera de su control, como la falta de memoria, está quedando sin espacio en disco o daños en el almacén de mensajes.
   
@@ -94,15 +94,15 @@ Cuando **DeleteMessages** es no se puede completar, no asuma que se ha realizado
   
  **DeleteMessages** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, según la implementación del almacén de mensajes. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFolder::DeleteMessages** para eliminar los mensajes especificados.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -113,7 +113,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Uso de macros para el control de errores](using-macros-for-error-handling.md)
+[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

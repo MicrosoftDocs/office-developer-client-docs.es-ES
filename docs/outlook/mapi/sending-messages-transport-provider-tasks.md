@@ -19,7 +19,7 @@ ms.locfileid: "22586231"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
  **Para transmitir un mensaje, los proveedores de transporte**
   

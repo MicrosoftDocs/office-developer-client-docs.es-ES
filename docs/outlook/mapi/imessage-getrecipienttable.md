@@ -23,7 +23,7 @@ ms.locfileid: "22579539"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la tabla de destinatarios del mensaje.
   
@@ -44,7 +44,7 @@ MAPI_DEFERRED_ERRORS
   
 > Permite **GetRecipientTable** devolver de correctamente, posiblemente antes de la tabla es completamente disponible para el cliente de la llamada. Si no está disponible en la tabla, realizar una llamada posterior a él puede provocar un error. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Columnas de la cadena deben estar en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de la cadena deben estar en formato ANSI.
     
@@ -80,7 +80,7 @@ Configuración de las solicitudes de marca de Unicode que la información de tod
 
 Puede cambiar una tabla de destinatario mientras está abierto llamando al método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** agrega a destinatarios, elimina a los destinatarios o modifica las propiedades de destinatarios. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -31,7 +31,7 @@ Proporciona acceso al almacén de información del mensaje y a los mensajes y ca
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuestos por:  <br/> |Objeto de almacén de mensajes  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de almacén de mensajes  <br/> |
+|Implementado por:  <br/> |Proveedores de almacén de mensajes  <br/> |
 |Llamado por:  <br/> |Las aplicaciones cliente, la cola MAPI y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMsgStore  <br/> |
 |Tipo de puntero:  <br/> |LPMDB  <br/> |

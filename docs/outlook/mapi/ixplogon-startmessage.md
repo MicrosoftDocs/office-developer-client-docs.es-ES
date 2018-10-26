@@ -23,7 +23,7 @@ ms.locfileid: "22579952"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Inicia a la transferencia de un mensaje entrante desde el proveedor de transporte a la cola MAPI.
   
@@ -75,7 +75,7 @@ Si **desea iniciar** devuelve un error, el mensaje en el proceso se libera sin n
   
 Para obtener más información, consulte [interactuar con la cola de MAPI](interacting-with-the-mapi-spooler.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

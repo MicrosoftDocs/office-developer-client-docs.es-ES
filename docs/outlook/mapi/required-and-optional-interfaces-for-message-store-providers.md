@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22586966"
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI define un conjunto de interfaces que se relacionan con los proveedores de almacén de mensajes. Debido a la amplia gama de características que puede elegir un almacén de mensajes para implementar, algunas de estas interfaces son necesarios y otros no. En la siguiente tabla se enumeran las interfaces MAPI que están relacionadas con los proveedores de almacén de mensajes, especifica si las interfaces son obligatorios u opcionales y describe su propósito.
   
@@ -39,9 +39,9 @@ MAPI define un conjunto de interfaces que se relacionan con los proveedores de a
    
 La información básica que necesita implementar **IMAPIFolder**, **IMessage**, **IMAPIStatus**y **IMAPITable** se documenta en los temas de referencia para estas interfaces. Esta sección contiene información adicional que está más directamente relacionada con los proveedores de almacén de mensajes. Según la información de esta sección y en los temas de referencia adecuado, se debe implementar el resto de las interfaces MAPI. Vea la sección Servicios de objeto de ActiveX y COM en el SDK de Windows para obtener más información acerca de cómo implementar **IStorage**, **IStream**y **IStreamDocFile**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 

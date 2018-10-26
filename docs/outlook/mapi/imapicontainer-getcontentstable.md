@@ -23,7 +23,7 @@ ms.locfileid: "22578867"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero a la tabla de contenido del contenedor.
   
@@ -52,7 +52,7 @@ MAPI_DEFERRED_ERRORS
   
 > **GetContentsTable** puede devolver correctamente, posiblemente antes de que la tabla está disponible para el autor de la llamada. Si no está disponible en la tabla, realizar una llamada de tabla subsiguiente puede producir un error. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Solicitudes que se devuelven las columnas que contienen datos de cadena en el formato Unicode. Si no está establecido el indicador MAPI_UNICODE., se deben devolver las cadenas en el formato ANSI. 
     
@@ -86,7 +86,7 @@ Las tablas de contenido tienen conjuntos de columnas prolongada. Para obtener un
   
 Es posible que algunos contenedores tener ningún contenido. Estos contenedores devuelven MAPI_E_NO_SUPPORT de sus implementaciones de **GetContentsTable**.
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si decide admitir una tabla de contenido de su contenedor, también debe hacer lo siguiente:
   
@@ -140,15 +140,15 @@ Las columnas de tabla de contenido de cadena y binaria se pueden truncar. Normal
   
 Dependiendo del proveedor en la implementación, las restricciones y las operaciones de ordenación pueden aplicar a todos de una cadena o a la versión truncada de dicha cadena.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |La clase **CContentsTableDlg** utiliza **GetContentsTable** para obtener las entradas en una tabla de contenido.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -160,7 +160,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
   
-[Propiedad canónica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propiedad canónico PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

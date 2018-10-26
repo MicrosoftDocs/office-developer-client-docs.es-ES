@@ -23,7 +23,7 @@ ms.locfileid: "22567289"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Agrega, elimina o modifica a los destinatarios del mensaje.
   
@@ -106,11 +106,11 @@ Si se incluye la propiedad **PR_ADDRTYPE** o **PR_EMAIL_ADDRESS** (propiedad) pa
     
 Use las reglas de asignaci�n descritas en [Administraci�n de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md) asignar memoria para la lista de destinatarios. **ModifyRecipients** no libere la estructura **ADRLIST** ni ninguna de sus subestructuras. La estructura de **ADRLIST** y cada estructura [SPropValue](spropvalue.md) deben asignarse por separado mediante el uso de la funci�n [MAPIAllocateBuffer](mapiallocatebuffer.md) tal que cada uno de ellos se puede liberar individualmente. Si el m�todo requiere espacio adicional para cualquier estructura **SPropValue**, puede reemplazar la estructura de **SPropValue** con una nueva que m�s adelante se puede liberar mediante [MAPIFreeBuffer](mapifreebuffer.md). La estructura **SPropValue** original tambi�n debe liberarse mediante **MAPIFreeBuffer**.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI, utiliza el m�todo **IMessage::ModifyRecipients** para agregar a un nuevo destinatario a un mensaje.  <br/> |
    

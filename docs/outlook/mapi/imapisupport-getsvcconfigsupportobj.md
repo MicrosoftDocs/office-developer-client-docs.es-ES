@@ -23,7 +23,7 @@ ms.locfileid: "22595163"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de soporte técnico del servicio de mensajes.
   
@@ -56,7 +56,7 @@ El método **IMAPISupport::GetSvcConfigSupportObj** se implementa para todos los
   
 Una función de punto de entrada de servicio de mensajes se basa en el prototipo [MSGSERVICEENTRY](msgserviceentry.md) y se llama a los métodos de la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Una función de punto de entrada de servicio de mensajes permite servicios de mensajes configurar ellos mismos o realizar otras acciones cuando se cambia el perfil. Punto de entrada de servicio de mensaje funciones pueden admitir los cambios de configuración mediante la presentación de una hoja de propiedades o a través de una matriz de valores de propiedad que se pasa al método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

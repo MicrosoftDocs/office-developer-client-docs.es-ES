@@ -1,5 +1,5 @@
 ---
-title: Sesiones MAPI
+title: Sesiones de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22575031"
 ---
-# <a name="mapi-sessions"></a>Sesiones MAPI
+# <a name="mapi-sessions"></a>Sesiones de MAPI
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Antes de la aplicaci�n cliente puede llamar a un sistema de mensajer�a subyacente, debe establecer una conexi�n con el subsistema MAPI o sesi�n.
   

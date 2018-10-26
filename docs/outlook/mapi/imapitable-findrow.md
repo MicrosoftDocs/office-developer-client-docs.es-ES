@@ -23,7 +23,7 @@ ms.locfileid: "22565336"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Busca la siguiente fila en una tabla que coincide con los criterios de búsqueda específicos y mueve el cursor a esa fila.
   
@@ -95,7 +95,7 @@ Si el marcador se pasan en _BkOrigin_ es BOOKMARK_BEGINNING o BOOKMARK_END, **Fi
   
 La columna de la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) es obligatoria para todas las tablas y todas las implementaciones de **FindRow** son necesarios para admitir las llamadas que busquen una fila basada en PR_INSTANCE_KEY. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 El tipo de prefijo buscar realizado por **FindRow** sólo es útil cuando la búsqueda sigue la misma dirección que la organización de la tabla. Con el fin de lograr el comportamiento necesario, la función de comparación implicada por la **RELOP_GE** se pasan en la estructura de la restricción de propiedad debe ser la misma función de comparación en la que se basa el criterio de ordenación de la tabla. 
   
@@ -109,15 +109,15 @@ Use una restricción para buscar un prefijo de cadena para el desplazamiento de 
   
 Para obtener más información acerca del uso de las estructuras de restricción para especificar un filtro, vea el tema [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: FindRow** para buscar las filas que coinciden con una restricción.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

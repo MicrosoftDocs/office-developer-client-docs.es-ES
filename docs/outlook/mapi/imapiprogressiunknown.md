@@ -23,7 +23,7 @@ ms.locfileid: "22589332"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Implementa un objeto de progreso que proporciona a las aplicaciones de cliente con un indicador de progreso. Un indicador de progreso es una presentación de la interfaz de usuario que muestra el porcentaje de finalización de una operación, como copiar carpetas entre almacenes de mensajes. Las aplicaciones MAPI y cliente implementan objetos de progreso y proveedores de servicios de usan. 
   
@@ -31,7 +31,7 @@ Implementa un objeto de progreso que proporciona a las aplicaciones de cliente c
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuestos por:  <br/> |Objetos de progreso  <br/> |
-|Se implementa mediante:  <br/> |MAPI y las aplicaciones cliente  <br/> |
+|Implementado por:  <br/> |MAPI y las aplicaciones cliente  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIProgress  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIPROGRESS  <br/> |
@@ -50,19 +50,19 @@ Implementa un objeto de progreso que proporciona a las aplicaciones de cliente c
 
 MAPI incluye un parámetro _lpProgress_ en muchos de los métodos que realizan operaciones potencialmente prolongadas.  _lpProgress_ apunta a una implementación de cliente de un objeto de progreso. Los clientes que implementan la interfaz **IMAPIProgress** establezca este parámetro para que apunte a su implementación; los clientes que implementan **IMAPIProgress** establecer el parámetro en NULL. Para mostrar un indicador de progreso durante el procesamiento de la operación, proveedores de servicios de usar el objeto de progreso proporcionada por el cliente, si está disponible, o una implementación de MAPI (indicado cuando _lpProgress_ se establece en NULL). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivos**|**Funci�n**|**Comentario**|
+|**Archivos**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MapiProgress.h y MapiProgress.cpp  <br/> |No disponible  <br/> |Si está habilitada la configuración de IMAPIProgress, MFCMAPI pasará una implementación de **IMAPIProgress** a todas las funciones que invoca MFCMAPI que aceptan una implementación.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces MAPI](mapi-interfaces.md)
 

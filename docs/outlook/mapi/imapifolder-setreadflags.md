@@ -21,7 +21,7 @@ ms.locfileid: "22578321"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece o borra el indicador MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) de uno o varios de los mensajes de la carpeta y administra el envío de informes de lectura. 
   
@@ -106,7 +106,7 @@ No se puede cambiar la marca de lectura para los siguientes elementos:
     
 - Mensajes que se envían actualmente.
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede decidir no compatible con el envío de informes de lectura y la solicitud para suprimir informes de lectura. Para evitar la eliminación de un informe de lectura, devolver MAPI_E_NO_SUPPRESS cuando se llama a **SetReadFlags** con SUPPRESS_RECEIPT establecido en el parámetro _ulFlags indicado_ . 
   
@@ -142,21 +142,21 @@ Espera a que estos valores devueltos en las siguientes condiciones.
    
 Cuando **SetReadFlags** es no se puede completar, no asuma que se ha realizado ningún trabajo. **SetReadFlags** es posible que han sido capaces establecer o borrar la marca MSGFLAG_READ para uno o varios de los mensajes antes de encontrar el error. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI usa el método **IMAPIFolder::SetReadFlags** para establecer manualmente el estado de lectura en los mensajes especificados.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [ENTRYLIST](entrylist.md) 
 - [IMessage::SetReadFlag](imessage-setreadflag.md)  
-- [Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
-- [Propiedad canónica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
+- [Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
+- [Propiedad canónico PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
 - [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-- [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)  
-- [Uso de macros para el control de errores](using-macros-for-error-handling.md)
+- [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)  
+- [Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

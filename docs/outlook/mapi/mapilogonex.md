@@ -23,14 +23,14 @@ ms.locfileid: "22579987"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los registros de una aplicación cliente de sesión en una sesión con el sistema de mensajería. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapix.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
 ```cpp
@@ -105,7 +105,7 @@ MAPI_TIMEOUT_SHORT
   
 > El inicio de sesión debe producirá un error si bloqueado durante más de unos segundos. 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI. 
     
@@ -163,15 +163,15 @@ El indicador MAPI_NO_MAIL tiene varios efectos que hacen lo siguiente cuando no 
     
 Un servicio siempre debe iniciar sesión con la marca MAPI_NO_MAIL. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI usa el método MAPILogonEx para iniciar sesión en MAPI.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "22574387"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona los nombres de propiedad que se corresponden con uno o varios identificadores de propiedad.
   
@@ -113,7 +113,7 @@ Cuando no hay ningún nombre que se va a devolver, quizás porque no hay ninguna
     
 - El contenido de _lpppPropNames_ se establece en NULL. 
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si los puntos de _lpPropSetGuid_ a un conjunto de propiedades válido y _lppPropTags_ es NULL, el resultado es indefinido. Puede usar una de las siguientes estrategias: 
   
@@ -133,15 +133,15 @@ Cuando haya terminado con los nombres de propiedad, compruebe el contenido del p
   
 Para obtener más información acerca de las propiedades con nombre, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI, utiliza el método **IMAPIProp::GetNamesFromIDs** para buscar propiedades con nombre que se han asignado anteriormente.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -160,9 +160,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
   
-[Uso de macros para el control de errores](using-macros-for-error-handling.md)
+[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "22568493"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Acceso delegado hace referencia a la capacidad del usuario para enviar un mensaje como otro usuario o recibir un mensaje de otro usuario. Acceso delegado es una caracter�stica independiente del proveedor de servicio de MAPI que admiten los proveedores de transporte si eligen. Sin embargo, ning�n proveedor es necesario para hacerlo. Acceso delegado es valioso cuando sea necesario para un usuario enviar mensajes como o filtrar los mensajes entrantes de otro usuario o al usuario debe tener acceso al almac�n de mensajes de otro usuario. Antes de permitir que un usuario delegado conectar al almac�n de otro usuario, el proveedor de almacenamiento de mensaje debe comprobar que el usuario delegado tiene la autoridad apropiada. 
   

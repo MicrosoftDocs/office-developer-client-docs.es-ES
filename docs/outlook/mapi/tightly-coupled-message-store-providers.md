@@ -19,7 +19,7 @@ ms.locfileid: "22590298"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes pueden estar estrechamente acoplados con un proveedor de transporte. Acoplamiento estrechamente significa de proveedores de servicio MAPI implementar los dos proveedores tal que el proveedor de almacenamiento y el proveedor de transporte pueden comunicarse para hacer que el proceso de enviar y recibir mensajes más eficaces. La ventaja de hacerlo es que las mejoras de rendimiento se pueden producir cuando dos proveedores de servicio pueden interactuar con cada una de las demás directamente en lugar de hacerlo por medio de la cola de MAPI. Para asociar estrechamente un proveedor de almacén de mensajes a un proveedor de transporte, el proveedor de transporte debe colocar el identificador de entrada del proveedor de almacén de mensajes en la propiedad **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) en el proveedor de transporte fila en la tabla de estado MAPI. Esto permite que la cola MAPI conectar el proveedor de almacenamiento con el proveedor de transporte.
   
@@ -31,9 +31,9 @@ En general, no hay ningún procedimientos bien especificados para acoplamiento e
     
 - Cuando interactúan los proveedores de servicios totalmente acoplado con otros componentes de MAPI, deben seguir interactuando con ellos en exactamente de la forma que lo haría si no estaban estrechamente acoplados. Por ejemplo, si un usuario está usando un proveedor de transporte y el proveedor de almacén de mensajes combinada como su almacén de mensajes de forma predeterminada, pero está utilizando un proveedor de transporte independiente para enviar mensajes, como puede suceder cuando un usuario tiene un equipo de viaje y pasa a un precio de transporte remoto ovider: la parte de almacén de mensajes del proveedor de servicios totalmente acoplado aún debe interactuar con la cola MAPI como si se tratase de un proveedor de almacén de mensajes independiente.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 

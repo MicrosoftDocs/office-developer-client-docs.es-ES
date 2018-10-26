@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22576102"
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 El proveedor de almacén de mensajes no es necesario admitir los datos adjuntos del mensaje. Sin embargo, muchas aplicaciones cliente esperan poder agregar datos adjuntos a los mensajes. Si su almacén de mensajes se usará para crear o almacenar IPM. Tenga en cuenta los mensajes, a continuación, se deben admitir los datos adjuntos del mensaje. Los proveedores de almacén de mensajes predeterminado también deben admitir los datos adjuntos del mensaje. Para obtener más información, vea [Clases de mensaje de MAPI](mapi-message-classes.md)y [Los almacenes de mensajes de forma predeterminada](default-message-stores.md).
   
@@ -37,7 +37,7 @@ Se incluyen vínculos en dos tipos: vínculos a archivos y vínculos a otros men
   
 Cómo uno implementa vínculos a los mensajes puede depender de aspectos del sistema de mensajería local y, por lo tanto, no se han documentado completamente aquí. Por ejemplo, enviar un vínculo a un mensaje que se almacena en un almacén de mensajes basado en servidor normalmente es simplemente una cuestión de enviar el identificador de entrada del mensaje vinculado, siempre que el remitente y el destinatario tengan acceso a ese servidor. Otros valores de configuración del sistema mensajería presentan desafíos para la implementación de vínculos a los mensajes y otros requisitos.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

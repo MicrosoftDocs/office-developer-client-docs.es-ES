@@ -23,7 +23,7 @@ ms.locfileid: "22588716"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre un archivo adjunto. 
   
@@ -84,15 +84,15 @@ No intente abrir un archivo adjunto varias veces; los resultados son dependiente
   
 Puede solicitar que los datos adjuntos se pueden abrir en modo de lectura y escritura, en lugar del modo de sólo lectura de forma predeterminada. Sin embargo, si los datos adjuntos en realidad se abrirán en modo de lectura y escritura es responsabilidad del proveedor de almacén de mensajes. Puede intentar modificar los datos adjuntos, preparación para controlar posibles errores o comprobar el nivel de acceso que se ha concedido, se recupera la propiedad de **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de los datos adjuntos, si está disponible. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |AttachmentsDlg.cpp usado para  <br/> |CAttachmentsDlg::OpenItemProp  <br/> |MFCMAPI usa el método **IMessage::OpenAttach** para abrir los objetos de datos adjuntos,  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

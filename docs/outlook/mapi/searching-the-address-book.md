@@ -1,5 +1,5 @@
 ---
-title: Búsqueda de la libreta de direcciones
+title: Buscar en la libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22595128"
 ---
-# <a name="searching-the-address-book"></a>Búsqueda de la libreta de direcciones
+# <a name="searching-the-address-book"></a>Buscar en la libreta de direcciones
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 MAPI permite a los proveedores de libreta de direcciones implementar dos niveles de funcionalidad de b�squeda:
   

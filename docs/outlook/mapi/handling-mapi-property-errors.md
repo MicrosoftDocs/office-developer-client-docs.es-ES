@@ -17,7 +17,7 @@ ms.locfileid: "22579511"
 ---
 # <a name="handling-mapi-property-errors"></a>Tratamiento de errores MAPI (propiedad)
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 En lugar de �xito o fracaso completo, de los siguientes m�todos de **IMAPIProp** informan parcialmente correcta: 
   

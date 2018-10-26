@@ -23,7 +23,7 @@ ms.locfileid: "22567240"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el número máximo de elementos en la operación de progreso que se muestra la información.
   
@@ -47,25 +47,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El valor máximo representa el final de la operación con formato numérico. El valor puede ser un valor máximo global, usado para representar el ámbito de la pantalla de progreso todo, o un valor local, que se usa para representar sólo una parte de la pantalla. 
+El valor máximo representa el final de la operación con formato numérico. El valor puede ser un valor máximo global, usado para representar el ámbito de la pantalla de progreso total, o un valor local, para representar únicamente una parte de la pantalla. 
   
 El valor de la opción marca determina si el objeto de progreso comprende el valor máximo para ser local o global. Cuando se establece la marca MAPI_TOP_LEVEL, el valor máximo se considera que es global y se utiliza para calcular el progreso de toda la operación. Cuando MAPI_TOP_LEVEL no está establecida, se considera que el valor máximo es local, y proveedores de usarlo internamente para mostrar progreso para subobjetos de nivel inferiores. Objetos de progreso guardar el valor máximo local sólo para devolver a un proveedor a través de una llamada **GetMax** . 
   
-Para que obtener más información acerca de cómo y cuándo se deben realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
+Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Inicializar el valor máximo en 1000. Proveedores de servicios pueden restablecer este valor llamando al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) . Para obtener más información acerca de cómo implementar otros métodos [IMAPIProgress](imapiprogressiunknown.md) y **GetMax** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Inicializar el valor máximo en 1000. Los proveedores de servicios pueden restablecer este valor llamando al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). Para obtener más información acerca de cómo implementar otros métodos [IMAPIProgress](imapiprogressiunknown.md) y **GetMax** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI usa el método **IMAPIProgress::GetMax** para obtener el valor máximo para el objeto de progreso. Devuelve 1000 a menos que los límites se han establecido previamente con el método **IMAPIProgress::SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -78,7 +78,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md)
   

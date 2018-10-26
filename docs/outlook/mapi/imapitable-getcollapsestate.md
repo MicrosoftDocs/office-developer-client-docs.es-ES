@@ -23,7 +23,7 @@ ms.locfileid: "22589668"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve los datos que es necesario volver a generar la actual contraído o expandido el estado de una tabla con categorías.
   
@@ -85,7 +85,7 @@ El método **IMAPITable::GetCollapseState** funciona con el método [IMAPITable:
     
 Para obtener más información acerca de las tablas ordenadas por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Almacenar el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState_ . 
   
@@ -93,7 +93,7 @@ Almacenar el estado actual de todos los nodos de una tabla en el parámetro _lpp
 
 Llame siempre a **GetCollapseState** antes de llamar a **SetCollapseState**. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
