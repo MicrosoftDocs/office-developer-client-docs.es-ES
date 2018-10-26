@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22578636"
 ---
-# <a name="imapifolderdeletemessages"></a><span data-ttu-id="84178-103">IMAPIFolder::DeleteMessages</span><span class="sxs-lookup"><span data-stu-id="84178-103">IMAPIFolder::DeleteMessages</span></span>
+# <a name="imapifolderdeletemessages"></a><span data-ttu-id="42c80-103">IMAPIFolder::DeleteMessages</span><span class="sxs-lookup"><span data-stu-id="42c80-103">IMAPIFolder::DeleteMessages</span></span>
 
   
   
-<span data-ttu-id="84178-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84178-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="42c80-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="42c80-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84178-105">Elimina uno o más mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-105">Deletes one or more messages.</span></span>
+<span data-ttu-id="42c80-105">Elimina uno o más mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-105">Deletes one or more messages.</span></span>
   
 ```cpp
 HRESULT DeleteMessages(
@@ -36,84 +36,84 @@ HRESULT DeleteMessages(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="84178-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="84178-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="42c80-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="42c80-106">Parameters</span></span>
 
- <span data-ttu-id="84178-107">_lpMsgList_</span><span class="sxs-lookup"><span data-stu-id="84178-107">_lpMsgList_</span></span>
+ <span data-ttu-id="42c80-107">_lpMsgList_</span><span class="sxs-lookup"><span data-stu-id="42c80-107">_lpMsgList_</span></span>
   
-> <span data-ttu-id="84178-108">[entrada] Un puntero a una estructura [ENTRYLIST](entrylist.md) que contiene el número de mensajes para eliminar y una matriz de estructuras [ENTRYID](entryid.md) que identifique los mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-108">[in] A pointer to an [ENTRYLIST](entrylist.md) structure that contains the number of messages to delete and an array of [ENTRYID](entryid.md) structures that identify the messages.</span></span> 
+> <span data-ttu-id="42c80-108">[entrada] Un puntero a una estructura [ENTRYLIST](entrylist.md) que contiene el número de mensajes para eliminar y una matriz de estructuras [ENTRYID](entryid.md) que identifique los mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-108">[in] A pointer to an [ENTRYLIST](entrylist.md) structure that contains the number of messages to delete and an array of [ENTRYID](entryid.md) structures that identify the messages.</span></span> 
     
- <span data-ttu-id="84178-109">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="84178-109">_ulUIParam_</span></span>
+ <span data-ttu-id="42c80-109">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="42c80-109">_ulUIParam_</span></span>
   
-> <span data-ttu-id="84178-110">[entrada] Identificador de la ventana principal del indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="84178-110">[in] A handle to the parent window of the progress indicator.</span></span> <span data-ttu-id="84178-111">El parámetro _ulUIParam_ se omite a menos que se establece la marca MESSAGE_DIALOG en el parámetro _ulFlags indicado_ .</span><span class="sxs-lookup"><span data-stu-id="84178-111">The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="42c80-110">[entrada] Identificador de la ventana principal del indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="42c80-110">[in] A handle to the parent window of the progress indicator.</span></span> <span data-ttu-id="42c80-111">El parámetro _ulUIParam_ se omite a menos que se establece la marca MESSAGE_DIALOG en el parámetro _ulFlags indicado_ .</span><span class="sxs-lookup"><span data-stu-id="42c80-111">The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="84178-112">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="84178-112">_lpProgress_</span></span>
+ <span data-ttu-id="42c80-112">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="42c80-112">_lpProgress_</span></span>
   
-> <span data-ttu-id="84178-113">[entrada] Un puntero a un objeto de progreso que muestra un indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="84178-113">[in] A pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="84178-114">Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensaje muestra un indicador de progreso mediante el uso de la implementación del objeto de progreso MAPI.</span><span class="sxs-lookup"><span data-stu-id="84178-114">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation.</span></span> <span data-ttu-id="84178-115">El parámetro _lpProgress_ se omite a menos que se establece la marca MESSAGE_DIALOG en el parámetro _ulFlags indicado_ .</span><span class="sxs-lookup"><span data-stu-id="84178-115">The  _lpProgress_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="42c80-113">[entrada] Un puntero a un objeto de progreso que muestra un indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="42c80-113">[in] A pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="42c80-114">Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensaje muestra un indicador de progreso mediante el uso de la implementación del objeto de progreso MAPI.</span><span class="sxs-lookup"><span data-stu-id="42c80-114">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation.</span></span> <span data-ttu-id="42c80-115">El parámetro _lpProgress_ se omite a menos que se establece la marca MESSAGE_DIALOG en el parámetro _ulFlags indicado_ .</span><span class="sxs-lookup"><span data-stu-id="42c80-115">The  _lpProgress_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="84178-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="84178-116">_ulFlags_</span></span>
+ <span data-ttu-id="42c80-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="42c80-116">_ulFlags_</span></span>
   
-> <span data-ttu-id="84178-117">[entrada] Una máscara de bits de indicadores que controla cómo se eliminan los mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-117">[in] A bitmask of flags that controls how the messages are deleted.</span></span> <span data-ttu-id="84178-118">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="84178-118">The following flags can be set:</span></span>
+> <span data-ttu-id="42c80-117">[entrada] Una máscara de bits de indicadores que controla cómo se eliminan los mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-117">[in] A bitmask of flags that controls how the messages are deleted.</span></span> <span data-ttu-id="42c80-118">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="42c80-118">The following flags can be set:</span></span>
     
-<span data-ttu-id="84178-119">DELETE_HARD_DELETE</span><span class="sxs-lookup"><span data-stu-id="84178-119">DELETE_HARD_DELETE</span></span>
+<span data-ttu-id="42c80-119">DELETE_HARD_DELETE</span><span class="sxs-lookup"><span data-stu-id="42c80-119">DELETE_HARD_DELETE</span></span>
   
-> <span data-ttu-id="84178-120">Quita de forma permanente todos los mensajes, incluidos los eliminado temporalmente.</span><span class="sxs-lookup"><span data-stu-id="84178-120">Permanently removes all messages, including soft-deleted ones.</span></span>
+> <span data-ttu-id="42c80-120">Quita de forma permanente todos los mensajes, incluidos los eliminado temporalmente.</span><span class="sxs-lookup"><span data-stu-id="42c80-120">Permanently removes all messages, including soft-deleted ones.</span></span>
     
-<span data-ttu-id="84178-121">MESSAGE_DIALOG</span><span class="sxs-lookup"><span data-stu-id="84178-121">MESSAGE_DIALOG</span></span> 
+<span data-ttu-id="42c80-121">MESSAGE_DIALOG</span><span class="sxs-lookup"><span data-stu-id="42c80-121">MESSAGE_DIALOG</span></span> 
   
-> <span data-ttu-id="84178-122">Muestra un indicador de progreso mientras se realiza la operación.</span><span class="sxs-lookup"><span data-stu-id="84178-122">Displays a progress indicator as the operation proceeds.</span></span>
+> <span data-ttu-id="42c80-122">Muestra un indicador de progreso mientras se realiza la operación.</span><span class="sxs-lookup"><span data-stu-id="42c80-122">Displays a progress indicator as the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="84178-123">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="84178-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="42c80-123">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="42c80-123">Return value</span></span>
 
-<span data-ttu-id="84178-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="84178-124">S_OK</span></span> 
+<span data-ttu-id="42c80-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="42c80-124">S_OK</span></span> 
   
-> <span data-ttu-id="84178-125">El mensaje especificado o los mensajes se han eliminado correctamente.</span><span class="sxs-lookup"><span data-stu-id="84178-125">The specified message or messages were successfully deleted.</span></span>
+> <span data-ttu-id="42c80-125">El mensaje especificado o los mensajes se han eliminado correctamente.</span><span class="sxs-lookup"><span data-stu-id="42c80-125">The specified message or messages were successfully deleted.</span></span>
     
-<span data-ttu-id="84178-126">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="84178-126">MAPI_W_PARTIAL_COMPLETION</span></span> 
+<span data-ttu-id="42c80-126">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="42c80-126">MAPI_W_PARTIAL_COMPLETION</span></span> 
   
-> <span data-ttu-id="84178-127">La llamada se ha realizado correctamente, pero no todos los mensajes se han eliminado correctamente.</span><span class="sxs-lookup"><span data-stu-id="84178-127">The call succeeded, but not all of the messages were successfully deleted.</span></span> <span data-ttu-id="84178-128">Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta.</span><span class="sxs-lookup"><span data-stu-id="84178-128">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="84178-129">Para probar esta advertencia, utilice la macro **HR_FAILED** .</span><span class="sxs-lookup"><span data-stu-id="84178-129">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="84178-130">Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="84178-130">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="42c80-127">La llamada se ha realizado correctamente, pero no todos los mensajes se han eliminado correctamente.</span><span class="sxs-lookup"><span data-stu-id="42c80-127">The call succeeded, but not all of the messages were successfully deleted.</span></span> <span data-ttu-id="42c80-128">Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta.</span><span class="sxs-lookup"><span data-stu-id="42c80-128">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="42c80-129">Para probar esta advertencia, utilice la macro **HR_FAILED** .</span><span class="sxs-lookup"><span data-stu-id="42c80-129">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="42c80-130">Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="42c80-130">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="84178-131">Comentarios</span><span class="sxs-lookup"><span data-stu-id="84178-131">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42c80-131">Comentarios</span><span class="sxs-lookup"><span data-stu-id="42c80-131">Remarks</span></span>
 
-<span data-ttu-id="84178-132">El método **IMAPIFolder::DeleteMessages** elimina los mensajes de una carpeta.</span><span class="sxs-lookup"><span data-stu-id="84178-132">The **IMAPIFolder::DeleteMessages** method deletes messages from a folder.</span></span> <span data-ttu-id="84178-133">No se puede eliminar los mensajes que no existen, que se han movido en otra parte, que están abiertos con permiso de lectura y escritura o que se envían actualmente.</span><span class="sxs-lookup"><span data-stu-id="84178-133">Messages that do not exist, that have been moved elsewhere, that are open with read/write permission, or that are currently submitted cannot be deleted.</span></span> 
+<span data-ttu-id="42c80-132">El método **IMAPIFolder::DeleteMessages** elimina los mensajes de una carpeta.</span><span class="sxs-lookup"><span data-stu-id="42c80-132">The **IMAPIFolder::DeleteMessages** method deletes messages from a folder.</span></span> <span data-ttu-id="42c80-133">No se puede eliminar los mensajes que no existen, que se han movido en otra parte, que están abiertos con permiso de lectura y escritura o que se envían actualmente.</span><span class="sxs-lookup"><span data-stu-id="42c80-133">Messages that do not exist, that have been moved elsewhere, that are open with read/write permission, or that are currently submitted cannot be deleted.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="84178-134">Notas para los implementadores</span><span class="sxs-lookup"><span data-stu-id="84178-134">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="42c80-134">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="42c80-134">Notes to implementers</span></span>
 
-<span data-ttu-id="84178-135">Cuando la operación de eliminación implica más de un mensaje, realizar la operación más completo posible para cada carpeta, incluso si no se puede eliminar uno o varios de los mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-135">When the delete operation involves more than one message, perform the operation as completely as possible for each folder, even if one or more of the messages cannot be deleted.</span></span> <span data-ttu-id="84178-136">No detiene la operación de forma prematura a menos que se produzca un error que está fuera de su control, como la falta de memoria, está quedando sin espacio en disco o daños en el almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-136">Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store.</span></span>
+<span data-ttu-id="42c80-135">Cuando la operación de eliminación implica más de un mensaje, realizar la operación más completo posible para cada carpeta, incluso si no se puede eliminar uno o varios de los mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-135">When the delete operation involves more than one message, perform the operation as completely as possible for each folder, even if one or more of the messages cannot be deleted.</span></span> <span data-ttu-id="42c80-136">No detiene la operación de forma prematura a menos que se produzca un error que está fuera de su control, como la falta de memoria, está quedando sin espacio en disco o daños en el almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-136">Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="84178-137">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="84178-137">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="42c80-137">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="42c80-137">Notes to callers</span></span>
 
-<span data-ttu-id="84178-138">Espera a que estos valores devueltos en las siguientes condiciones.</span><span class="sxs-lookup"><span data-stu-id="84178-138">Expect these return values under the following conditions.</span></span>
+<span data-ttu-id="42c80-138">Espera a que estos valores devueltos en las siguientes condiciones.</span><span class="sxs-lookup"><span data-stu-id="42c80-138">Expect these return values under the following conditions.</span></span>
   
-|<span data-ttu-id="84178-139">**Condición**</span><span class="sxs-lookup"><span data-stu-id="84178-139">**Condition**</span></span>|<span data-ttu-id="84178-140">**Valor devuelto**</span><span class="sxs-lookup"><span data-stu-id="84178-140">**Return value**</span></span>|
+|<span data-ttu-id="42c80-139">**Condición**</span><span class="sxs-lookup"><span data-stu-id="42c80-139">**Condition**</span></span>|<span data-ttu-id="42c80-140">**Valor devuelto**</span><span class="sxs-lookup"><span data-stu-id="42c80-140">**Return value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="84178-141">**DeleteMessages** ha eliminado correctamente todos los mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-141">**DeleteMessages** has successfully deleted every message.</span></span>  <br/> |<span data-ttu-id="84178-142">S_OK</span><span class="sxs-lookup"><span data-stu-id="84178-142">S_OK</span></span>  <br/> |
-|<span data-ttu-id="84178-143">**DeleteMessages** no pudo eliminar correctamente todos los mensajes y subcarpeta.</span><span class="sxs-lookup"><span data-stu-id="84178-143">**DeleteMessages** was unable to successfully delete every message and subfolder.</span></span>  <br/> |<span data-ttu-id="84178-144">MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="84178-144">MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND</span></span>  <br/> |
-|<span data-ttu-id="84178-145">**DeleteMessages** no pudo completar.</span><span class="sxs-lookup"><span data-stu-id="84178-145">**DeleteMessages** was unable to complete.</span></span>  <br/> |<span data-ttu-id="84178-146">Cualquier valor de error excepto MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="84178-146">Any error value except MAPI_E_NOT_FOUND</span></span>  <br/> |
+|<span data-ttu-id="42c80-141">**DeleteMessages** ha eliminado correctamente todos los mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-141">**DeleteMessages** has successfully deleted every message.</span></span>  <br/> |<span data-ttu-id="42c80-142">S_OK</span><span class="sxs-lookup"><span data-stu-id="42c80-142">S_OK</span></span>  <br/> |
+|<span data-ttu-id="42c80-143">**DeleteMessages** no pudo eliminar correctamente todos los mensajes y subcarpeta.</span><span class="sxs-lookup"><span data-stu-id="42c80-143">**DeleteMessages** was unable to successfully delete every message and subfolder.</span></span>  <br/> |<span data-ttu-id="42c80-144">MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="42c80-144">MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND</span></span>  <br/> |
+|<span data-ttu-id="42c80-145">**DeleteMessages** no pudo completar.</span><span class="sxs-lookup"><span data-stu-id="42c80-145">**DeleteMessages** was unable to complete.</span></span>  <br/> |<span data-ttu-id="42c80-146">Cualquier valor de error excepto MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="42c80-146">Any error value except MAPI_E_NOT_FOUND</span></span>  <br/> |
    
-<span data-ttu-id="84178-147">Cuando **DeleteMessages** es no se puede completar, no asuma que se ha realizado ningún trabajo.</span><span class="sxs-lookup"><span data-stu-id="84178-147">When **DeleteMessages** is unable to complete, do not assume that no work was done.</span></span> <span data-ttu-id="84178-148">Es posible que han sido **DeleteMessages** podrá eliminar uno o varios de los mensajes antes de encontrar el error.</span><span class="sxs-lookup"><span data-stu-id="84178-148">**DeleteMessages** might have been able to delete one or more of the messages before encountering the error.</span></span> 
+<span data-ttu-id="42c80-147">Cuando **DeleteMessages** es no se puede completar, no asuma que se ha realizado ningún trabajo.</span><span class="sxs-lookup"><span data-stu-id="42c80-147">When **DeleteMessages** is unable to complete, do not assume that no work was done.</span></span> <span data-ttu-id="42c80-148">Es posible que han sido **DeleteMessages** podrá eliminar uno o varios de los mensajes antes de encontrar el error.</span><span class="sxs-lookup"><span data-stu-id="42c80-148">**DeleteMessages** might have been able to delete one or more of the messages before encountering the error.</span></span> 
   
- <span data-ttu-id="84178-149">**DeleteMessages** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, según la implementación del almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="84178-149">**DeleteMessages** returns MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND, depending on the message store's implementation.</span></span> 
+ <span data-ttu-id="42c80-149">**DeleteMessages** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, según la implementación del almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="42c80-149">**DeleteMessages** returns MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND, depending on the message store's implementation.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="84178-150">Referencia MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="84178-150">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="42c80-150">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="42c80-150">MFCMAPI reference</span></span>
 
-<span data-ttu-id="84178-151">MFCMAPI c�digo de ejemplo, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="84178-151">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="42c80-151">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="42c80-151">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="84178-152">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="84178-152">**File**</span></span>|<span data-ttu-id="84178-153">**Funci�n**</span><span class="sxs-lookup"><span data-stu-id="84178-153">**Function**</span></span>|<span data-ttu-id="84178-154">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="84178-154">**Comment**</span></span>|
+|<span data-ttu-id="42c80-152">**File**</span><span class="sxs-lookup"><span data-stu-id="42c80-152">**File**</span></span>|<span data-ttu-id="42c80-153">**Función**</span><span class="sxs-lookup"><span data-stu-id="42c80-153">**Function**</span></span>|<span data-ttu-id="42c80-154">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="42c80-154">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="84178-155">FolderDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="84178-155">FolderDlg.cpp</span></span>  <br/> |<span data-ttu-id="84178-156">CFolderDlg::OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="84178-156">CFolderDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="84178-157">MFCMAPI usa el método **IMAPIFolder::DeleteMessages** para eliminar los mensajes especificados.</span><span class="sxs-lookup"><span data-stu-id="84178-157">MFCMAPI uses the **IMAPIFolder::DeleteMessages** method to delete the specified messages.</span></span>  <br/> |
+|<span data-ttu-id="42c80-155">FolderDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="42c80-155">FolderDlg.cpp</span></span>  <br/> |<span data-ttu-id="42c80-156">CFolderDlg::OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="42c80-156">CFolderDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="42c80-157">MFCMAPI usa el método **IMAPIFolder::DeleteMessages** para eliminar los mensajes especificados.</span><span class="sxs-lookup"><span data-stu-id="42c80-157">MFCMAPI uses the **IMAPIFolder::DeleteMessages** method to delete the specified messages.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="84178-158">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="84178-158">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="42c80-158">Vea también</span><span class="sxs-lookup"><span data-stu-id="42c80-158">See also</span></span>
 
 
 
-[<span data-ttu-id="84178-159">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="84178-159">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="42c80-159">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="42c80-159">ENTRYID</span></span>](entryid.md)
   
-[<span data-ttu-id="84178-160">ENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="84178-160">ENTRYLIST</span></span>](entrylist.md)
+[<span data-ttu-id="42c80-160">ENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="42c80-160">ENTRYLIST</span></span>](entrylist.md)
   
-[<span data-ttu-id="84178-161">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="84178-161">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
+[<span data-ttu-id="42c80-161">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="42c80-161">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
 
 
-[<span data-ttu-id="84178-162">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="84178-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="42c80-162">MFCMAPI como un ejemplo de código</span><span class="sxs-lookup"><span data-stu-id="42c80-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="84178-163">Uso de macros para el control de errores</span><span class="sxs-lookup"><span data-stu-id="84178-163">Using Macros for Error Handling</span></span>](using-macros-for-error-handling.md)
+[<span data-ttu-id="42c80-163">Usar Macros para el tratamiento de errores</span><span class="sxs-lookup"><span data-stu-id="42c80-163">Using Macros for Error Handling</span></span>](using-macros-for-error-handling.md)
 

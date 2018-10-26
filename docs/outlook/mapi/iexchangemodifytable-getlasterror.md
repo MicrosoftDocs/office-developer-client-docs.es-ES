@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594295"
 ---
-# <a name="iexchangemodifytablegetlasterror"></a><span data-ttu-id="00d4d-103">IExchangeModifyTable::GetLastError</span><span class="sxs-lookup"><span data-stu-id="00d4d-103">IExchangeModifyTable::GetLastError</span></span>
+# <a name="iexchangemodifytablegetlasterror"></a><span data-ttu-id="50ae3-103">IExchangeModifyTable::GetLastError</span><span class="sxs-lookup"><span data-stu-id="50ae3-103">IExchangeModifyTable::GetLastError</span></span>
 
   
   
-<span data-ttu-id="00d4d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="00d4d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="50ae3-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50ae3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="00d4d-105">Devuelve información sobre el último error que se produjo en un objeto table.</span><span class="sxs-lookup"><span data-stu-id="00d4d-105">Returns information about the last error that occurred in a table object.</span></span>
+<span data-ttu-id="50ae3-105">Devuelve información sobre el último error que se produjo en un objeto table.</span><span class="sxs-lookup"><span data-stu-id="50ae3-105">Returns information about the last error that occurred in a table object.</span></span>
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,28 +35,28 @@ HRESULT GetLastError(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="00d4d-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="00d4d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="50ae3-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="50ae3-106">Parameters</span></span>
 
- <span data-ttu-id="00d4d-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="00d4d-107">_hResult_</span></span>
+ <span data-ttu-id="50ae3-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="50ae3-107">_hResult_</span></span>
   
-> <span data-ttu-id="00d4d-108">[entrada] El valor devuelto por el método fallidas.</span><span class="sxs-lookup"><span data-stu-id="00d4d-108">[in] The return value from the method that failed.</span></span>
+> <span data-ttu-id="50ae3-108">[entrada] El valor devuelto por el método fallidas.</span><span class="sxs-lookup"><span data-stu-id="50ae3-108">[in] The return value from the method that failed.</span></span>
     
- <span data-ttu-id="00d4d-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="00d4d-109">_ulFlags_</span></span>
+ <span data-ttu-id="50ae3-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="50ae3-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="00d4d-110">[entrada] No se usa, se establece en 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="00d4d-110">[in] Not used, set to 0 (zero).</span></span>
+> <span data-ttu-id="50ae3-110">[entrada] No se usa, se establece en 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="50ae3-110">[in] Not used, set to 0 (zero).</span></span>
     
- <span data-ttu-id="00d4d-111">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="00d4d-111">_lppMAPIError_</span></span>
+ <span data-ttu-id="50ae3-111">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="50ae3-111">_lppMAPIError_</span></span>
   
-> <span data-ttu-id="00d4d-112">[out] Apunta a una estructura MAPI [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto table.</span><span class="sxs-lookup"><span data-stu-id="00d4d-112">[out] Points to a MAPI [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for a table object.</span></span> 
+> <span data-ttu-id="50ae3-112">[out] Apunta a una estructura MAPI [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto table.</span><span class="sxs-lookup"><span data-stu-id="50ae3-112">[out] Points to a MAPI [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for a table object.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="00d4d-113">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="00d4d-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50ae3-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="50ae3-113">See also</span></span>
 
 
 
-[<span data-ttu-id="00d4d-114">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="00d4d-114">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
+[<span data-ttu-id="50ae3-114">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="50ae3-114">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
   
-[<span data-ttu-id="00d4d-115">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="00d4d-115">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="50ae3-115">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="50ae3-115">MAPIERROR</span></span>](mapierror.md)
 
 
-[<span data-ttu-id="00d4d-116">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="00d4d-116">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="50ae3-116">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="50ae3-116">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
