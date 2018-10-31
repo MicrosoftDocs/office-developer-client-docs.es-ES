@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602590"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862565"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
@@ -68,7 +68,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p>Una <strong>cadena</strong> que contiene la contraseña para el nuevo objeto de <strong>área de trabajo</strong> . La contraseña puede tener hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</p>
 
 > [!NOTE]
-> <P>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</P>
+> [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
 
 
 </td>
@@ -80,7 +80,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Si se establece el argumento type en <STRONG>dbUseODBC</STRONG> , se producirá un error en tiempo de ejecución. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Si se establece el argumento type en **dbUseODBC** , se producirá un error en tiempo de ejecución. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 </td>

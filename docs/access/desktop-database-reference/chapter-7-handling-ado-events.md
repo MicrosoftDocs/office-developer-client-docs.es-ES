@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d85532c93c6d175b90f957d7831b71a460ba5b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 816dd98e5e4c21f3159edf18b5687b2b0578e399
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485995"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860843"
 ---
 # <a name="chapter-7-handling-ado-events"></a>Capítulo 7: Controlar eventos de ADO
 
@@ -26,3 +26,14 @@ El grupo de eventos que ocurren tras completar una operación es especialmente i
 
 El uso del modelo de eventos de ADO agrega alguna sobrecarga a la aplicación, pero proporciona mucha más flexibilidad que otros métodos de trabajar con operaciones asincrónicas, tales como el de vigilar la propiedad [State](state-property-ado.md) de un objeto con un bucle.
 
+En este capítulo, se tratan los temas siguientes:
+
+- [Resumen de controladores de eventos de ADO](ado-event-handler-summary.md)
+
+- [Tipos de eventos](types-of-events.md)
+
+- [Parámetros de evento](event-parameters.md)
+
+- [Cómo funcionan los controladores de eventos combinados](how-event-handlers-work-together.md)
+
+- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)

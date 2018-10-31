@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b52644cb9a0a5140f45c42eaead84a63723c23e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486298"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862537"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopiarArchivoDeBaseDeDatos (acción de macro)
 
@@ -22,7 +22,7 @@ La acción **CopiarArchivoDeBaseDeDatos** se puede usar para realizar una copia 
 
 
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
 
 
 
@@ -57,7 +57,7 @@ La acción **CopiarArchivoDeBaseDeDatos** tiene los siguientes argumentos.
 </p>
 
 > [!WARNING]
-> <P>Desconectar usuarios de una base de datos sin una advertencia adecuada puede generar pérdida de datos.</P>
+> Desconectar usuarios de una base de datos sin una advertencia adecuada puede generar pérdida de datos.
 
 
 <p></p></td>

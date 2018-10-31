@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15fc13b27b30c87bd3993b12303cc59b8a0115bf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3926caa69e6a4e67bf66f2fdecde1db5fd79e2f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484244"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863090"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser Property (DAO)
 
@@ -36,9 +36,7 @@ El valor de **DefaultUser** es un tipo de datos String. Puede ser 1 y 20 caracte
 
 
 > [!NOTE]
-> <P>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</P>
-
-
+> [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
 
 De forma predeterminada, la propiedad **DefaultUser** está establecida en "admin" y la propiedad **DefaultPassword** está establecida en una cadena de longitud cero ("").
 

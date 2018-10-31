@@ -4,21 +4,22 @@ TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
 ms:contentKeyID: 48545681
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cd8a62d332588bf3b04e9cbcea2bcbfb2e63af8c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60ae21fc65fd480abe4fc094d61a04498d0da2ea
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484245"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863664"
 ---
 # <a name="bookmarkenum"></a>BookmarkEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica un marcador que indica dónde debe comenzar la operación.
+
+<br/>
 
 <table>
 <colgroup>
@@ -53,7 +54,7 @@ Especifica un marcador que indica dónde debe comenzar la operación.
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

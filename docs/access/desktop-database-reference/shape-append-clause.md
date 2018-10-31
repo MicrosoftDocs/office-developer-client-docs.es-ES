@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6460572f44e79fe4bdb30d1ca33810d610da9721
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8e60c52ded359350adff737807c3e0f92cb7c4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483840"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862130"
 ---
-# <a name="shape-append-clause"></a>Cláusula Append del comando Shape
+# <a name="shape-append-clause"></a>Cláusula de forma Append
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -122,3 +122,12 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 SHAPE ejecuta select \* from t1; DROP table t1 y (seleccione \* from t2 RELATE k1 TO k2), sin darse cuenta de que drop table t1 es un independiente y en este comando de proveedor caso, peligroso. Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.
 
+Esta sección incluye los temas siguientes:
+
+- [Funcionamiento de los comandos sin parámetros](operation-of-non-parameterized-commands.md)
+
+- [Funcionamiento de los comandos con parámetros](operation-of-parameterized-commands.md)
+
+- [Comandos híbridos](hybrid-commands.md)
+
+- [Intervenir en cláusulas COMPUTE de Shape](intervening-shape-compute-clauses.md)

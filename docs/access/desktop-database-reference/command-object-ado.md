@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605747"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864077"
 ---
 # <a name="command-object-ado"></a>Command (objeto) (ADO)
 
@@ -54,11 +54,8 @@ Con las colecciones, los métodos y las propiedades de un objeto **Command**, se
 
   - Obtener acceso a atributos específicos del proveedor con la colección [Properties](properties-collection-ado.md).
 
-
 > [!NOTE]
-> <P>[!NOTA] Para ejecutar una consulta sin usar un objeto <STRONG>Command</STRONG>, pase una cadena de consulta al método <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</A> de un objeto <STRONG>Connection</STRONG> o al método <A href="open-method-ado-recordset.md">Open</A> de un objeto <STRONG>Recordset</STRONG>. Sin embargo, un objeto <STRONG>Command</STRONG> es necesario cuando quiere conservar el texto del comando y volver a ejecutarlo o usar parámetros de consulta.</P>
-
-
+> [!NOTA] Para ejecutar una consulta sin usar un objeto **Command**, pase una cadena de consulta al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) de un objeto **Connection** o al método [Open](open-method-ado-recordset.md) de un objeto **Recordset**. Sin embargo, un objeto **Command** es necesario cuando quiere conservar el texto del comando y volver a ejecutarlo o usar parámetros de consulta.
 
 Para crear un objeto **Command** independientemente de un objeto **Connection** definido anteriormente, establezca su propiedad **ActiveConnection** en una cadena de conexión válida. ADO seguirá creando un objeto **Connection**, pero no asignará ese objeto a una variable de objeto. Sin embargo, si asocia varios objetos **Command** a la misma conexión, debe crear y abrir explícitamente un objeto **Connection**; de este modo, se asigna el objeto **Connection** a una variable de objeto. Si no establece la propiedad **ActiveConnection** del objeto **Command** en esta variable de objeto, ADO creará un nuevo objeto **Connection** para cada objeto **Command**, aunque se utilice la misma cadena de conexión.
 

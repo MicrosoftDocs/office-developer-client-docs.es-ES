@@ -6,24 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b1e22c3f85c4289520326c34c6d0c218a442a3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485184"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860997"
 ---
-# <a name="persisting-records-in-xml-format"></a>Almacenar registros en formato XML
+# <a name="persisting-records-in-xml-format"></a>Almacenamiento de registros en formato XML
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Igual que con formato ADTG, un **conjunto de registros** persistentes en formato XML se implementa con el proveedor de persistencia de Microsoft OLE DB. Este proveedor genera un conjunto de filas de sólo avance y de sólo lectura a partir de una secuencia o un archivo XML guardado que contiene la información de esquema generada por ADO. Del mismo modo, este proveedor puede tomar un **conjunto de registros** de ADO, generar XML y guardarlo en un archivo o en cualquier objeto que implemente la interfaz COM **IStream** (de hecho, un archivo no es más que otro ejemplo de objeto que admite **IStream** ). Para las versiones 2.5 y posteriores, ADO se basa en el analizador XML de Microsoft XML (MSXML) para cargar el XML en el **conjunto de registros**; por tanto, se requiere msxml.dll. Para la versión 2.5, MSXML se incluye con Internet Explorer 5. Para la versión 2.6, MSXML se incluye con SQL Server 2000.
 
-
 > [!NOTE]
-> <P>[!NOTA] Existen algunas limitaciones para guardar <STRONG>conjuntos de registros</STRONG> jerárquicos (formas de datos) en formato XML. No se puede guardar en XML si el <STRONG>conjunto de registros</STRONG> jerárquico contiene actualizaciones pendientes, y no se puede guardar un <STRONG>conjunto de registros</STRONG> jerárquico parametrizado. Para obtener más información, vea <A href="hierarchical-recordsets-in-xml.md">Conjuntos de registros jerárquicos en XML</A>.</P>
-
+> [!NOTA] Existen algunas limitaciones para guardar **conjuntos de registros** jerárquicos (formas de datos) en formato XML. No se puede guardar en XML si el **conjunto de registros** jerárquico contiene actualizaciones pendientes, y no se puede guardar un **conjunto de registros** jerárquico parametrizado. Para obtener más información, vea [Conjuntos de registros jerárquicos en XML](hierarchical-recordsets-in-xml.md).
 
 
 La forma más sencilla de conservar datos en XML y cargarlos de nuevo a través de ADO es con los métodos **Save** y **Open**, respectivamente. El siguiente código de ejemplo de ADO muestra cómo se guardan los datos de la tabla Titles en un archivo denominado titles.sav.
@@ -67,3 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 ADO siempre usa el conjunto de filas de Client Cursor Engine para producir un objeto **Recordset** que permita desplazamientos y en el que se puedan establecer marcadores, además de los datos de sólo avance generados por el proveedor de persistencia.
 
+Esta sección incluye los temas siguientes:
+
+- [Formato de persistencia XML](xml-persistence-format.md)
+
+- [Espacios de nombres](namespaces.md)
+
+- [Sección de esquema](schema-section.md)
+
+- [Sección de datos](data-section.md)
+
+- [Conjuntos de registros jerárquicos en XML](hierarchical-recordsets-in-xml.md)
+
+- [Propiedades dinámicas del objeto Recordset en XML](recordset-dynamic-properties-in-xml.md)
+
+- [Transformaciones XSLT](xslt-transformations.md)
+
+- [Al guardar en el objeto XML DOM](saving-to-the-xml-dom-object.md)
+
+- [Consideraciones de seguridad XML](xml-security-considerations.md)
+
+- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

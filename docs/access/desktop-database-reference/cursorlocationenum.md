@@ -4,21 +4,22 @@ TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 90226413579a8fac7586cbd5ef08510a36a42959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7f8eedd1245be16d87a2d3b2cd2b9121853529c5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484695"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863643"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica la ubicación del servicio de cursores.
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,13 +48,13 @@ Especifica la ubicación del servicio de cursores.
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>Valor predeterminado. Usa cursores suministrados por controlador o por proveedor de datos. Estos cursores a veces son muy flexibles y permiten una sensibilidad adicional a los cambios realizados por otros en el origen de datos. No obstante, algunas características del <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Servicio de cursores de Microsoft para OLE DB</a> (como los objetos <a href="recordset-object-ado.md">Recordset</a> desasociados) no se pueden simular con cursores de servidor y dichas características no estarán disponibles con esta opción.</p></td>
+<td><p>Valor predeterminado. Utiliza cursores suministrados por controlador o por proveedor de datos. Estos cursores a veces son muy flexibles y permiten adicional sensibilidad a los cambios que otros usuarios realicen en el origen de datos. Sin embargo, algunas de las características del <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Servicio de cursores de Microsoft para OLE DB</a> (por ejemplo, los objetos <a href="recordset-object-ado.md">Recordset</a> desasociados) no se pueden simular con cursores de servidor, y estas características estarán disponibles con esta opción.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

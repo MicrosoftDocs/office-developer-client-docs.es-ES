@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd949b92068619b76ac78d5e62cde0e247ed7b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 178254006216a71ae34c437da86cb8381d82125e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484748"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861585"
 ---
 # <a name="copyto-method-ado"></a>CopyTo (método, ADO)
 
@@ -31,13 +31,10 @@ Copia el número especificado de caracteres o bytes (según [Type](type-property
 
   - Valor de variable de objeto que contiene una referencia a un objeto **Stream** abierto. El actual objeto **Stream** se copia en el objeto **Stream** de destino especificado por *DestStream*. El objeto **Stream** de destino ya debe estar abierto. De lo contrario, se produce un error en tiempo de ejecución.
 
-
-    
+   
 
     > [!NOTE]
-    > <P>El parámetro <EM>DestStream</EM> puede no ser un proxy del objeto <STRONG>Stream</STRONG> porque esto requiere acceso a una interfaz privada en el objeto <STRONG>Stream</STRONG> que no puede ser remoto para el cliente.</P>
-
-
+    > El parámetro *DestStream* puede no ser un proxy del objeto **Stream** porque esto requiere acceso a una interfaz privada en el objeto **Stream** que no puede ser remoto para el cliente.
 
   - *NumChars*
 

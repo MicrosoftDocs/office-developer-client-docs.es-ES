@@ -6,31 +6,70 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85ca44a2891b763274a279a7dbed062f4fc05c56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2e0ad3f70f1bfe2aa8128e0bd2f504c200546a9a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485512"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862887"
 ---
 # <a name="ado-programmers-guide"></a>Guía del programador de ADO
 
+**Se aplica a**: Access 2013, Office 2013
 
-**Se aplica a**: Access 2013 | Office 2013
+La Guía del programador de ADO se ha creado para ayudar a programadores que no conocen ADO, ofreciéndoles una introducción completa a la tecnología. Esta guía describe las bibliotecas de la familia de ADO y utiliza códigos de ejemplo en diversos lenguajes para explicar cómo utilizar las bibliotecas, prácticas recomendadas para usar las bibliotecas, y sugerencias y trucos para maximizar el rendimiento de una aplicación de ADO.
 
-Como introducción a la Guía del programador de Microsoft ActiveX Data Objects (ADO), vea los temas siguientes:
+La Guía del programador de ADO contiene las secciones y los capítulos siguientes:
 
-  - [Introducción](introduction-to-ado-programming.md)
+- [Introduction](introduction-to-ado-programming.md)
+  
+- [Sección I: Objetos de datos ActiveX (ADO)](section-i-activex-data-objects.md)
+    
+    - [Capítulo 1: Conceptos básicos de ADO](chapter-1-ado-fundamentals.md)
+    
+    - [Capítulo 2: Obtener datos](chapter-2-getting-data.md)
+    
+    - [Capítulo 3: Examinar datos](chapter-3-examining-data.md)
+    
+    - [Capítulo 4: Modificar datos](chapter-4-editing-data.md)
+    
+    - [Capítulo 5: Actualizar y almacenar datos](chapter-5-updating-and-persisting-data.md)
+    
+    - [Capítulo 6: Tratamiento de errores](chapter-6-error-handling.md)
+    
+    - [Capítulo 7: Controlar eventos de ADO](chapter-7-handling-ado-events.md)
+    
+    - [Capítulo 8: Cursores y bloqueos](chapter-8-understanding-cursors-and-locks.md)
+    
+    - [Capítulo 9: Forma de datos](chapter-9-data-shaping.md)
+    
+    - [Capítulo 10: Objetos Record y Stream](chapter-10-records-and-streams.md)
 
-  - [Lo nuevo en ADO](what-s-new-in-ado.md)
+- [Sección II: Servicio de datos remotos (RDS)](section-ii-remote-data-service.md)
+    
+    - [Capítulo 11: Conceptos básicos de RDS](chapter-11-rds-fundamentals.md)
+    
+    - [Capítulo 12: Tutorial de RDS](chapter-12-rds-tutorial.md)
+    
+    - [Capítulo 13: Uso y seguridad de RDS](chapter-13-rds-usage-and-security.md)
 
-  - [Requisitos previos](prerequisites-ado-introduction.md)
+- [Sección III: ActiveX Data Objects (Multidimensional) (ADOMD)](section-iii-ado-multidimensional-ado-md.md)
+    
+    - [Capítulo 14: Conceptos básicos de ADO MD](chapter-14-ado-md-fundamentals.md)
 
-  - [Familia de bibliotecas de ADO](the-ado-family-of-libraries.md)
+- [Sección IV: Extensiones de ActiveX Data Objects para lenguaje de definición de datos y seguridad (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+    
+    - [Capítulo 15: Conceptos básicos de ADOX](chapter-15-adox-fundamentals.md)
 
-  - [Rol de ADO en Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
+- [Sección V: Apéndices](section-v-appendixes.md)
+    
+    - [Apéndice A: Proveedores](appendix-a-providers.md)
+    
+    - [Apéndice B: Errores de ADO](appendix-b-ado-errors.md)
+    
+    - [Apéndice C: Programar con ADO](appendix-c-programming-with-ado.md)
+    
+    - [Apéndice D: Ejemplos de ADO](appendix-d-ado-samples.md)
 
-  - [Tabla de tareas de ADO](ado-task-table.md)
-
-  - [Tabla de tecnología ADO](ado-technology-table.md)
+- [Glosario de ADO](ado-glossary.md)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d61d298da0e3b44895c8fce3ee1adc3b55d9a491
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486349"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860857"
 ---
 # <a name="importexportdata-macro-action"></a>ImportarExportarDatos (acción de macro)
 
@@ -66,7 +66,7 @@ La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 <li><p>Seleccione una tabla en el cuadro de diálogo <strong>Vincular tablas </strong> y haga clic en <strong> Aceptar </strong>.</p></li>
 </ol>
 <p>Abra la tabla recién vinculada en la vista Diseño y examine las propiedades de la tabla; para ello, haga clic en <strong>Hoja de propiedades</strong>, en la ficha <strong>Diseño</strong>, <strong>Herramientas</strong>. El texto de la propiedad <strong>Descripción</strong> es la cadena de conexión para esta tabla.  </p>
-<p>Para obtener más información acerca de las cadenas de conexión ODBC, vea el archivo de Ayuda u otro tipo de documentación relativa al controlador ODBC de este tipo de base de datos ODBC.</p></td>
+<p>Para obtener más información acerca de las cadenas de conexión ODBC, consulte el archivo de Ayuda u otra documentación para el controlador ODBC de este tipo de base de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de objeto</strong></p></td>

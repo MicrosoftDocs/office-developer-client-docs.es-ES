@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d595136c229234dfa0cb04a44fbe45f58cd79fe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b8576d2a1d579de306b438f7b0fb04a1eb2d46cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484241"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863656"
 ---
 # <a name="chapter-14-ado-md-fundamentals"></a>Capítulo 14: Conceptos básicos de ADO MD
 
@@ -22,13 +22,14 @@ Microsoft ActiveX Data Objects (MultiDimensional) (ADO MD) proporciona acceso se
 
 Al igual que ADO, ADO MD usa un proveedor OLE DB subyacente para obtener acceso a datos. Para trabajar con ADO MD, debe usarse un proveedor de datos multidimensionales (MDP) según se define en las especificaciones de OLE DB para OLAP. Los proveedores de datos multidimensionales presentan datos en vistas multidimensionales, al contrario que los proveedores de datos tabulares (TDP), que presentan datos en vistas tabulares. Vea la documentación correspondiente de su proveedor OLE DB para OLAP para obtener información más detallada acerca de la sintaxis y los comportamientos específicos que admite su proveedor.
 
-En este documento, se supone que se tiene un conocimiento práctico del lenguaje de programación Visual Basic y conocimientos generales de ADO y de OLAP. Para obtener más información, vea la [Guía del programador de ADO](ado-programmer-s-guide.md) y la Referencia del programador de OLE DB para OLAP. Para obtener más información general acerca de ADO MD, vea los temas siguientes:
+En este documento, se supone que se tiene un conocimiento práctico del lenguaje de programación Visual Basic y conocimientos generales de ADO y de OLAP. Para obtener más información, vea la [Guía del programador de ADO](ado-programmer-s-guide.md) y la Referencia del programador de OLE DB para OLAP. 
 
-  - [Descripción general de esquemas y datos multidimensionales](overview-of-multidimensional-schemas-and-data.md)
+En este capítulo, se tratan los temas siguientes:
 
-  - [Trabajar con datos multidimensionales](working-with-multidimensional-data.md)
+- [Descripción general de esquemas y datos multidimensionales](overview-of-multidimensional-schemas-and-data.md)
 
-  - [Utilizar ADO con ADO MD](using-ado-with-ado-md.md)
+- [Trabajar con datos multidimensionales](working-with-multidimensional-data.md)
 
-  - [Programar con ADO MD](programming-with-ado-md.md)
+- [Utilizar ADO con ADO MD](using-ado-with-ado-md.md)
 
+- [Programar con ADO MD](programming-with-ado-md.md)

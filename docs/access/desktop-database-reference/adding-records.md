@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa1503e7f7b874136ab5aee70721a3b9cf3463b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f235d7535f15eea7bd5d4c2abb88abb1a30935c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486282"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862517"
 ---
-# <a name="adding-records"></a>Agregar registros
+# <a name="adding-records"></a>Adición de registros
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -23,4 +23,12 @@ Utilice el método **AddNew** para crear e inicializar un registro nuevo en un *
 Después de llamar al método **AddNew**, el registro nuevo pasa a ser el registro actual y sigue siéndolo después de llamar al método **Update**. Si el objeto **Recordset** no admite marcadores, tal vez no tenga acceso al registro nuevo cuando se haya movido a otro registro. Por lo tanto, dependiendo de su tipo de cursor, es posible que tenga que llamar al método **Requery** para poder tener acceso al registro nuevo.
 
 Si llama a **AddNew** mientras modifica el registro actual o agrega un registro nuevo, ADO llamará al método **Update** para guardar todos los cambios y, después, ADO creará el registro nuevo.
+
+Esta sección incluye los temas siguientes:
+
+- [Adición de varios campos](adding-multiple-fields.md)
+
+- [Determinación del modo de edición](determining-edit-mode.md)
+
+- [Utilizar AddNew en modos Inmediato y Proceso por lotes](using-addnew-in-immediate-and-batch-modes.md)
 

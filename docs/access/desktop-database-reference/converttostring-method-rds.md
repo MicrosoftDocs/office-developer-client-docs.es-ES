@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa1a4326cf318a9cbcddf8ebcdf584543ac8ebfb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486088"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860514"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString (método, RDS)
 
@@ -44,6 +44,6 @@ En el cliente, el Servicio de datos remoto puede volver a convertir la cadena MI
 
 
 > [!NOTE]
-> <P>[!NOTA] Si utiliza páginas Active Server para incrustar la cadena MIME resultante en una página HTML de cliente, tenga en cuenta que las versiones de VBScript anteriores a la versión 2.0 limitan el tamaño de la cadena a 32 K. Si se supera este límite, se devuelve un error. Mantenga el ámbito de consulta bastante reducido al utilizar la incrustación MIME a través de archivos .asp. Para solucionar esto, descargue la última versión de VBScript del <A href="https://www.microsoft.com/downloads/en/default.aspx">Centro de descarga de Microsoft</A>.</P>
+> [!NOTA] Si utiliza páginas Active Server para incrustar la cadena MIME resultante en una página HTML de cliente, tenga en cuenta que las versiones de VBScript anteriores a la versión 2.0 limitan el tamaño de la cadena a 32 K. Si se supera este límite, se devuelve un error. Mantenga el ámbito de consulta bastante reducido al utilizar la incrustación MIME a través de archivos .asp. Para solucionar esto, descargue la última versión de VBScript del [Centro de descarga de Microsoft](https://www.microsoft.com/downloads/en/default.aspx).
 
 

@@ -4,21 +4,22 @@ TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
 ms:contentKeyID: 48545965
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e405b1eb3a1326d56a32c432fb212de417cf3469
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f10fd9fada954bb5e3a356961636b2022c73bae3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486475"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862173"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica si se debe mostrar un cuadro de diálogo para solicitar los parámetros que faltan al abrir una conexión con un origen de datos.
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ Especifica si se debe mostrar un cuadro de diálogo para solicitar los parámetr
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

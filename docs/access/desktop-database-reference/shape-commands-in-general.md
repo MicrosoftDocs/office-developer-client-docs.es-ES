@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5cf2dc58ee3fa9205b9657366d8706b64b0aa58a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603955"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861032"
 ---
-# <a name="shape-commands-in-general"></a>Comandos Shape en general
+# <a name="shape-commands-in-general"></a>Comandos de forma en general
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -73,4 +73,8 @@ El proveedor de formas siempre devuelve un cursor de cliente, incluso si el usua
 Para obtener información sobre cómo desplazarse por un objeto **Recordset** jerárquico, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico ](accessing-rows-in-a-hierarchical-recordset.md).
 
 Para obtener información precisa sobre los comandos Shape sintácticamente correctos, vea [Gramática formal del comando Shape](formal-shape-grammar.md).
+
+## <a name="see-also"></a>Vea también
+
+- [Emitir comandos al proveedor de datos subyacente](issuing-commands-to-the-underlying-data-provider.md)
 

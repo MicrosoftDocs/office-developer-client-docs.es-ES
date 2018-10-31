@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60fe0519bc722e688630f13acdd6701b96beff05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35d9d80ba9299049eb55ee4ae83ac00d57c22293
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484461"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861963"
 ---
 # <a name="document-object-dao"></a>Document Object (DAO)
 
@@ -56,10 +56,8 @@ Cada objeto **Container** tiene una colección **Documents** que contiene objeto
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!NOTA] No confunda los objetos <STRONG>Container</STRONG> enumerados en la tabla anterior con las colecciones del mismo nombre. El objeto <STRONG>Container</STRONG> de bases de datos hace referencia a todos los objetos de bases de datos guardados pero la colección <STRONG>Databases</STRONG> hace referencia sólo a los objetos de bases de datos que están abiertos en un área de trabajo en particular.</P>
+> [!NOTA] No confunda los objetos **Container** enumerados en la tabla anterior con las colecciones del mismo nombre. El objeto **Container** de bases de datos hace referencia a todos los objetos de bases de datos guardados pero la colección **Databases** hace referencia sólo a los objetos de bases de datos que están abiertos en un área de trabajo en particular.
 
 
 

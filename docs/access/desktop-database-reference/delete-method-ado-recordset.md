@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 118cc56bf33812819dd34089ac97c72259228f4c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ce20bad72dfc74879093cd3445830f6087ad7e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485716"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860969"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete (método, objeto Recordset de ADO)
 
@@ -34,9 +34,7 @@ Elimina el registro actual o un grupo de registros.
 
 
 > [!NOTE]
-> <P>[!NOTA] <STRONG>adAffectAll</STRONG> y <STRONG>adAffectAllChapters</STRONG> no son argumentos válidos para el método <STRONG>Delete</STRONG>.</P>
-
-
+> [!NOTA] **adAffectAll** y **adAffectAllChapters** no son argumentos válidos para el método **Delete**.
 
 ## <a name="remarks"></a>Comentarios
 

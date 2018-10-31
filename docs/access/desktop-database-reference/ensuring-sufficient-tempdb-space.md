@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 886db9f42f44bd1df4acb678cb969b6d81a64df8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d049a098a7f7cfd826c6c5945c71831acbceb04
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484436"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863055"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>Garantizar espacio suficiente para la base de datos temporal
 
@@ -20,15 +20,11 @@ ms.locfileid: "25484436"
 
 Si se producen errores mientras se procesan objetos [Recordset](recordset-object-ado.md) que requieren espacio de procesamiento en Microsoft SQL Server 6.5, puede que sea necesario aumentar el tamaño de la base de datos temporal (TempDB). Algunas consultas requieren espacio de procesamiento temporal; por ejemplo, una consulta con una cláusula ORDER BY necesita ordenar el objeto **Recordset**, lo cual requiere algo de espacio temporal.
 
-
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Lea este procedimiento antes de realizar las acciones, ya que no es tan fácil reducir un dispositivo una vez que se ha expandido.</P>
-
-
-
+> [!IMPORTANTE] Lea este procedimiento antes de realizar las acciones, ya que no es tan fácil reducir un dispositivo una vez que se ha expandido.
 
 > [!NOTE]
-> <P>[!NOTA] De forma predeterminada en Microsoft SQL Server 7.0 y versiones posteriores, TempDB se configura de modo que pueda aumentar automáticamente según sea necesario. Por lo tanto, puede que este procedimiento sólo sea necesario en servidores que ejecutan versiones anteriores a la 7.0.</P>
+> [!NOTA] De forma predeterminada en Microsoft SQL Server 7.0 y versiones posteriores, TempDB se configura de modo que pueda aumentar automáticamente según sea necesario. Por lo tanto, puede que este procedimiento sólo sea necesario en servidores que ejecutan versiones anteriores a la 7.0.
 
 
 

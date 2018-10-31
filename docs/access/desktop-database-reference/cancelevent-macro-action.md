@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52822d45b30c631dcabe3c38b6722398e96f489f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485885"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862964"
 ---
 # <a name="cancelevent-macro-action"></a>CancelarEvento (acción de macro)
 
@@ -80,19 +80,14 @@ La acción **CancelarEvento** puede cancelar los eventos siguientes.
 
 
 > [!NOTE]
-> <P>[!NOTA] Puede usar la acción <STRONG>CancelarEvento</STRONG> con el evento <STRONG>BajarMouse</STRONG> sólo para cancelar el evento que se produce al hacer clic con el botón secundario en un objeto.</P>
-
-
+> [!NOTA] Puede usar la acción **CancelarEvento** con el evento **BajarMouse** sólo para cancelar el evento que se produce al hacer clic con el botón secundario en un objeto.
 
 Si la configuración de la propiedad de evento **AlHacerDobleClic** de un control especifica una macro que contiene la acción **CancelarEvento**, la acción cancela el evento **HacerDobleClic**.
 
 Para los eventos que pueden cancelarse, el comportamiento predeterminado para el evento (es decir, lo que generalmente hace Access cuando ocurre un evento) se produce después de que se ejecuta la macro para el evento. Esto permite cancelar el comportamiento predeterminado. Por ejemplo, cuando hace doble clic en una palabra en la que está el punto de inserción en un cuadro de texto, Access en general selecciona la palabra. Puede cancelar este comportamiento predeterminado en una macro para el evento **HacerDobleClic** y realizar alguna otra acción, como abrir un formulario que contenga información acerca de los datos en el cuadro de texto. Para eventos que se pueden cancelar, el comportamiento predeterminado se produce antes de que se ejecuta la macro.
 
-
 > [!NOTE]
-> <P>[!NOTA] Si la propiedad de evento <STRONG>AlDescargar</STRONG> de un formulario especifica una macro que lleva a cabo la acción <STRONG>CancelarEvento</STRONG>, no podrá cerrar el formulario. Debe corregir la condición que generó la acción <STRONG>CancelarEvento</STRONG> o abrir la macro y eliminar la acción <STRONG>CancelarEvento</STRONG>. Si el formulario es modal, no podrá abrir la macro.</P>
-
-
+> [!NOTA] Si la propiedad de evento **AlDescargar** de un formulario especifica una macro que lleva a cabo la acción **CancelarEvento**, no podrá cerrar el formulario. Debe corregir la condición que generó la acción **CancelarEvento** o abrir la macro y eliminar la acción **CancelarEvento**. Si el formulario es modal, no podrá abrir la macro.
 
 Para llevar a cabo la acción **CancelarEvento** en un módulo de Visual Basic para Aplicaciones (VBA), utilice el método **CancelEvent** del objeto **DoCmd**.
 

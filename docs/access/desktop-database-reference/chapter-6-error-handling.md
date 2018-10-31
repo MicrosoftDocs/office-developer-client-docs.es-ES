@@ -1,19 +1,19 @@
 ---
-title: 'Capítulo 6: Tratamiento de errores'
+title: 'Capítulo 6: Control de errores'
 TOCTitle: 'Chapter 6: Error Handling'
 ms:assetid: 6ae7343b-b9e0-c4c3-f65c-110f903e573e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e00f762ac76023f3f720d8e7341c517b932e3f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7fd97104be4563b0245aac97f37aa1158d0463fa
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483684"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860416"
 ---
-# <a name="chapter-6-error-handling"></a>Capítulo 6: Tratamiento de errores
+# <a name="chapter-6-error-handling"></a>Capítulo 6: Control de errores
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -38,3 +38,16 @@ ADO notifica los errores de varias formas:
 
 En las secciones siguientes, se describe cada uno de estos métodos de notificación con más detalle.
 
+- [Errores de ADO](ado-errors.md)
+
+- [Referencia de Error ADO](ado-error-reference.md)
+
+- [Errores de proveedor](provider-errors.md)
+
+- [Información de errores relacionados con campos](field-related-error-information.md)
+
+- [Información de errores relacionados con conjuntos de registros](recordset-related-error-information.md)
+
+- [Anticipación de errores](anticipating-errors.md)
+
+- [Handling Errors in Other Languages (ADO)](handling-errors-in-other-languages.md)

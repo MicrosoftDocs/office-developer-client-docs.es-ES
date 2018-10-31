@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13f9a17d7dfcd9e621e4f4b1f1fcc03e88b4d832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d49fa1bf77a66dbab829aff20ee666ae1a5082cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486144"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862222"
 ---
 # <a name="columns-collection-adox"></a>Columns (colección) (ADOX)
 
@@ -38,6 +38,6 @@ Los demás métodos o propiedades son estándar en las colecciones ADO. Se puede
 
 
 > [!NOTE]
-> <P>[!NOTA] Si se anexa una <STRONG>columna</STRONG> a la colección <STRONG>Columns</STRONG> de un <A href="index-object-adox.md">índice</A> pero la <STRONG>columna</STRONG> no existe en alguna <A href="table-object-adox.md">tabla</A> que ya se haya anexado a la colección <A href="tables-collection-adox.md">Tables</A>, se producirá un error.</P>
+> [!NOTA] Si se anexa una **columna** a la colección **Columns** de un [índice](index-object-adox.md) pero la **columna** no existe en alguna [tabla](table-object-adox.md) que ya se haya anexado a la colección [Tables](tables-collection-adox.md), se producirá un error.
 
 

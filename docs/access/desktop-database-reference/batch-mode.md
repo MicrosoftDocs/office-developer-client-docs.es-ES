@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e72997d2484bdfcec91542b0b8de6bbbb23e3fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 37f66f6ef6c4ed63b106584a6ac5118cddf20526
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483499"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861207"
 ---
-# <a name="batch-mode"></a>Modo de proceso por lotes
+# <a name="batch-mode"></a>Modo por lotes
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -21,4 +21,18 @@ ms.locfileid: "25483499"
 El modo de proceso por lotes está activo cuando la propiedad **LockType** se ha establecido en **adLockBatchOptimistic** y el proveedor admite la actualización por lotes. Algunas opciones de configuración del tipo de bloqueo no están disponibles según cuál sea la ubicación del cursor. Por ejemplo, un tipo de bloqueo pesimista no está disponible cuando **CursorLocation** está establecido en **adUseClient**. A la inversa, es posible que un proveedor no admita un bloqueo optimista por lotes cuando la ubicación del cursor esté en el servidor. La actualización por lotes se debe utilizar únicamente con un conjunto de claves o con un cursor estático.
 
 El método **UpdateBatch** se utiliza para enviar cambios en un **conjunto de registros** guardados en el búfer de copia hasta el servidor, para actualizar el origen de datos. En la sección siguiente, abriremos un **conjunto de registros** en modo de proceso por lotes, realizaremos cambios en el búfer de copia y a continuación, enviaremos nuestros cambios al origen de datos mediante una llamada a **UpdateBatch**.
+
+Esta sección incluye los temas siguientes:
+
+- [Envío de actualizaciones: UpdateBatch](sending-the-updates-updatebatch.md)
+
+- [Filtro de registros actualizados](filtering-for-updated-records.md)
+
+- [Tratamiento de las actualizaciones con errores](dealing-with-failed-updates.md)
+
+- [Detección y resolución de conflictos](detecting-and-resolving-conflicts.md)
+
+- [Desconexión y reconexión del conjunto de registros](disconnecting-and-reconnecting-the-recordset.md)
+
+- [Actualizar los resultados de una operación JOIN: Tabla única](updating-joined-results-unique-table.md)
 

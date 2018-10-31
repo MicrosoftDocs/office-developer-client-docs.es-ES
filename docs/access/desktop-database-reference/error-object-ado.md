@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5fbefa5d857e7c239cbbcfc4502d60aabce347e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38fa73120ed868c7b7a0e086cdcbe822e4c16730
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485892"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860990"
 ---
 # <a name="error-object-ado"></a>Error (objeto) (ADO)
 
@@ -24,21 +24,18 @@ Contiene detalles sobre errores de acceso a datos relacionados con una operació
 
 Toda operación que implique a objetos de ADO puede generar errores relacionados con el proveedor. Cuando se produce alguno de estos errores, se colocan objetos **Error** en la colección [Errors](errors-collection-ado.md) del objeto [Connection](connection-object-ado.md). Cuando otra operación ADO genera un error, se borra la colección **Errors** y el nuevo conjunto de objetos **Error** se coloca en la colección **Errors**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Cada objeto <STRONG>Error</STRONG> representa un error de proveedor específico, no un error de ADO. Los errores de ADO se exponen al mecanismo de control de excepciones en tiempo de ejecución. Por ejemplo, en Microsoft Visual Basic, la generación de un error específico de ADO desencadenará un evento <STRONG>On Error</STRONG> y aparecerá el objeto <STRONG>Error</STRONG>. Para obtener una lista completa de errores de ADO, vea el tema correspondiente a <A href="errorvalueenum.md">ErrorValueEnum</A>.</P>
-
-
+> [!NOTA] Cada objeto **Error** representa un error de proveedor específico, no un error de ADO. Los errores de ADO se exponen al mecanismo de control de excepciones en tiempo de ejecución. Por ejemplo, en Microsoft Visual Basic, la generación de un error específico de ADO desencadenará un evento **On Error** y aparecerá el objeto **Error**. Para obtener una lista completa de errores de ADO, vea el tema correspondiente a [ErrorValueEnum](errorvalueenum.md).
 
 Puede leer las propiedades de un objeto **Error** para obtener detalles específicos de cada error, como por ejemplo:
 
-  - La propiedad [Description](description-property-ado.md), que contiene el texto del error. Esta es la propiedad predeterminada.
+- La propiedad [Description](description-property-ado.md), que contiene el texto del error. Esta es la propiedad predeterminada.
 
-  - La propiedad [Number](number-property-ado.md), que contiene al valor entero de tipo **Long** de la constante del error.
+- La propiedad [Number](number-property-ado.md), que contiene al valor entero de tipo **Long** de la constante del error.
 
-  - La propiedad [Source](source-property-ado-error.md), que identifica el objeto que generó el error. Esto es sumamente útil cuando se tienen varios objetos **Error** en la colección **Errors** tras realizar una solicitud a un origen de datos.
+- La propiedad [Source](source-property-ado-error.md), que identifica el objeto que generó el error. Esto es sumamente útil cuando se tienen varios objetos **Error** en la colección **Errors** tras realizar una solicitud a un origen de datos.
 
-  - Las propiedades [SQLState](sqlstate-property-ado.md) y [NativeError](nativeerror-property-ado.md), que proporcionan información de orígenes de datos SQL.
+- Las propiedades [SQLState](sqlstate-property-ado.md) y [NativeError](nativeerror-property-ado.md), que proporcionan información de orígenes de datos SQL.
 
 Cuando se produce un error de proveedor, se coloca en la colección **Errors** del objeto **Connection**. ADO admite la devolución de varios errores mediante una única operación de ADO para proporcionar información específica de errores al proveedor. Para obtener esta valiosa información de errores en un controlador de errores, utilice las características de intercepción de errores apropiadas del lenguaje o del entorno con el que está trabajando y, a continuación, use bucles anidados para enumerar las propiedades de cada objeto **Error** de la colección **Errors**.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d48869d42d44a6440a1cc971ec9497320758ef16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60c0204bd374feaa950d3158873f68127debaf0f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485008"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862551"
 ---
 # <a name="copyobject-macro-action"></a>CopiarObjeto (acción de macro)
 
@@ -26,7 +26,7 @@ Puede usar la acción **CopiarObjeto** para copiar el objeto de base de datos es
 
 
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
 
 
 
@@ -53,7 +53,7 @@ La acción **CopiarObjeto** tiene los siguientes argumentos.
 </p>
 
 > [!NOTE]
-> <P>Este argumento solo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento Base de datos de destino debe estar en blanco.</P>
+> Este argumento solo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento Base de datos de destino debe estar en blanco.
 
 
 <p>Si se ejecuta una macro que contiene la acción <strong>CopiarObjeto</strong> en una base de datos de biblioteca y se deja este argumento en blanco, Microsoft Office Access 2007 copiará el objeto a la base de datos de biblioteca.</p></td>
@@ -90,7 +90,7 @@ La acción **CopiarObjeto** es similar a realizar los siguientes pasos manualmen
 
 
 > [!NOTE]
-> <P>[!NOTA] Al copiar páginas de acceso a datos, la acción <STRONG>CopiarObjeto</STRONG> copia solo el vínculo al archivo .htm asociado, no al archivo en sí.</P>
+> [!NOTA] Al copiar páginas de acceso a datos, la acción **CopiarObjeto** copia solo el vínculo al archivo .htm asociado, no al archivo en sí.
 
 
 

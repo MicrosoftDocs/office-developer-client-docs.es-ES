@@ -4,21 +4,22 @@ TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
 ms:contentKeyID: 48543336
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 1255f691f2cd0bde1e3ed83ebffc1f0d31fb3119
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 69a8c49fd9d07c1e0d67a91e131be76ad9803ad0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485376"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861053"
 ---
 # <a name="streamreadenum"></a>StreamReadEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica si se debe leer toda la secuencia o sólo la línea siguiente de un objeto [Stream](stream-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ Especifica si se debe leer toda la secuencia o sólo la línea siguiente de un o
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

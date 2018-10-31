@@ -1,17 +1,17 @@
 ---
 title: Ejemplo de los métodos CopyRecord, CopyTo y SaveToFile (VB)
-TOCTitle: CopyRecord, CopyTo, and SaveToFile Methods Example (VB)
+TOCTitle: CopyRecord, CopyTo, and SaveToFile methods example (VB)
 ms:assetid: 97f9bdc5-acde-ef74-f96a-d2daeb252911
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c9476a2cae5a3df131ec8cc465866ae44189c1a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 3f17c0315016b6cd38ef0eda5c975b79047967ff
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606279"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861242"
 ---
 # <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a>Ejemplo de los métodos CopyRecord, CopyTo y SaveToFile (VB)
 

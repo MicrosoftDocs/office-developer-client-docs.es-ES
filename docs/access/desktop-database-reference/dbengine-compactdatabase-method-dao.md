@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1be6f910c8ab4aefed483c147ef88e8cecfa3a84
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9452a76f9e5d467279ee427c6c07016107833acf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484579"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861438"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
 
@@ -86,7 +86,7 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 <td><p>Una expresión de cadena que contiene una clave de cifrado, si se cifra la base de datos. La cadena &quot;; pwd =&quot; deben preceder a la contraseña real. Si incluye una opción de contraseña en DstLocale, este valor se omite.</p>
 
 > [!NOTE]
-> <P>Este parámetro en desuso es y no se admite en. Formato ACCDB. Para cifrar una. Archivo ACCDB, use la "pwd =" cadena de opción. [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</P>
+> Este parámetro en desuso es y no se admite en. Formato ACCDB. Para cifrar una. Archivo ACCDB, use la "pwd =" cadena de opción. [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
 
 
 </td>

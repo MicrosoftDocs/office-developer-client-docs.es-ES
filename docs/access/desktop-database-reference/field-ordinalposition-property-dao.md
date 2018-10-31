@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7151ed1a03c0ce0cf0204716d19bb7cfd2b4f607
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1218dd1cc6b1b309c5513a9b0f67a66d06d9c499
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483577"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863650"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition Property (DAO)
 
@@ -81,11 +81,8 @@ Dos o más objetos **Field** en la misma colección pueden tener el mismo valor 
 
 Puede especificar un número que sea mayor que el número de campos menos 1. El campo se devolverá siguiendo un orden respecto al número más grande. Por ejemplo, si establece una propiedad de campo **OrdinalPosition** en 20 (y sólo hay 5 campos) y ha establecido la propiedad **OrdinalPosition** para dos campos más en 10 y en 30, respectivamente, el campo establecido en 20 se devolverá entre los campos establecidos en 10 y en 30.
 
-
 > [!NOTE]
-> <P>[!NOTA] Incluso si la colección <STRONG>Fields</STRONG> de un <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> no se actualizó, el orden del campo en un <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> abierto desde <STRONG>TableDef</STRONG> reflejará los datos de <STRONG>OrdinalPosition</STRONG> del objeto <STRONG>TableDef</STRONG>. Un tipo de tabla <STRONG>Recordset</STRONG> tendrá los mismos datos <STRONG>OrdinalPosition</STRONG> que la tabla base, pero cualquier otro tipo de <STRONG>Recordset</STRONG> tendrá nuevos datos <STRONG>OrdinalPosition</STRONG> (comenzando por 0) que sigue el orden determinado por los datos de <STRONG>OrdinalPosition</STRONG> del objeto <STRONG>TableDef</STRONG>.</P>
-
-
+> [!NOTA] Incluso si la colección **Fields** de un [TableDef](tabledef-object-dao.md) no se actualizó, el orden del campo en un [Recordset](recordset-object-dao.md) abierto desde **TableDef** reflejará los datos de **OrdinalPosition** del objeto **TableDef**. Un tipo de tabla **Recordset** tendrá los mismos datos **OrdinalPosition** que la tabla base, pero cualquier otro tipo de **Recordset** tendrá nuevos datos **OrdinalPosition** (comenzando por 0) que sigue el orden determinado por los datos de **OrdinalPosition** del objeto **TableDef**.
 
 ## <a name="example"></a>Ejemplo
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 422d33e65f2ca3148276759a8c973295db8bc447
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485824"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861571"
 ---
 # <a name="ado-task-table"></a>Tabla de tareas de ADO
 
@@ -34,11 +34,11 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 <tbody>
 <tr class="odd">
 <td><p>Conectar con un proveedor de datos</p></td>
-<td><p><a href="making-a-connection.md">Realizar una conexión</a></p></td>
+<td><p><a href="making-a-connection.md">Creación de una conexión</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ejecutar comandos o llamar a procedimientos almacenados</p></td>
-<td><p><a href="using-the-command-object-access.md">Utilizar el objeto Command</a></p></td>
+<td><p><a href="using-the-command-object-access.md">Uso del objeto de comando</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Abrir un objeto <strong>Recordset</strong></p></td>
@@ -50,7 +50,7 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 </tr>
 <tr class="odd">
 <td><p>Desplazarse a un registro específico</p></td>
-<td><p><a href="navigating-through-the-data.md">Desplazarse por los datos</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Navegación por los datos</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Obtener acceso a valores de columna</p></td>
@@ -62,11 +62,11 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 </tr>
 <tr class="even">
 <td><p>Modificar datos y cambiar valores</p></td>
-<td><p><a href="editing-existing-records.md">Editar registros existentes</a></p></td>
+<td><p><a href="editing-existing-records.md">Edición de registros existentes</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Agregar nuevos datos</p></td>
-<td><p><a href="adding-records.md">Agregar registros</a></p></td>
+<td><p><a href="adding-records.md">Adición de registros</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Eliminar o quitar datos</p></td>
@@ -74,7 +74,7 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 </tr>
 <tr class="odd">
 <td><p>Enviar cambios al origen de datos</p></td>
-<td><p><a href="updating-data.md">Actualizar datos</a></p></td>
+<td><p><a href="updating-data.md">Actualización de datos</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Iniciar, confirmar y deshacer transacciones</p></td>
@@ -82,7 +82,7 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 </tr>
 <tr class="odd">
 <td><p>Guardar registros en un archivo (XML o binario)</p></td>
-<td><p><a href="persisting-data.md">Datos persistentes</a></p></td>
+<td><p><a href="persisting-data.md">Persistencia de datos</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Controlar errores</p></td>
@@ -102,7 +102,7 @@ La tabla siguiente enumera las tareas de programación contenidas en la *Guía d
 </tr>
 <tr class="even">
 <td><p>Devolver registros relacionados en un objeto <strong>Recordset</strong></p></td>
-<td><p><a href="data-shaping-summary.md">Resumen de forma de datos</a></p></td>
+<td><p><a href="data-shaping.md">Forma de datos</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Obtener acceso a datos semiestructurados</p></td>

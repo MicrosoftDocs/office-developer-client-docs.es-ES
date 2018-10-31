@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823048(v=office.15)
 ms:contentKeyID: 48547578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ccc238940ec75b04cf900fbc6604df7b41d2ca4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b497e2859b265f5bb939fdd2b4913a54fdf2d170
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484087"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864203"
 ---
 # <a name="databaseconnect-property-dao"></a>Database.Connect Property (DAO)
 
@@ -159,10 +159,7 @@ Puede establecer la propiedad **Connect** para un objeto de **base de datos** pr
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>La propiedad <STRONG>Connect</STRONG> debe establecerse antes que la propiedad <STRONG>ReturnsRecords</STRONG>.</P>
-> <LI>
-> <P>Debe tener permisos de acceso al equipo que contiene el servidor de base de datos al que intenta obtener acceso.</P></LI></UL>
+> - La propiedad **Connect** debe establecerse antes que la propiedad **ReturnsRecords**.
+> - Debe tener permisos de acceso al equipo que contiene el servidor de base de datos al que intenta obtener acceso.
 
 

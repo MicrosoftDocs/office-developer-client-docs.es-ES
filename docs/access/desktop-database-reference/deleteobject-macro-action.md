@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85e9fc888e06a69be6f458ed03ad92b8253b30a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484831"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860941"
 ---
 # <a name="deleteobject-macro-action"></a>EliminarObjeto (acción de macro)
 
@@ -26,9 +26,7 @@ La acción **EliminarObjeto** permite eliminar un objeto de base de datos especi
 
 
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
 
 ## <a name="setting"></a>Configuración
 
@@ -60,7 +58,7 @@ La acción **EliminarObjeto** tiene los argumentos siguientes.
 
 
 > [!WARNING]
-> <P>[!PRECAUCIóN] Si deja en blanco los cuadros <STRONG>Tipo de objeto</STRONG> y <STRONG>Nombre del objeto</STRONG>, Access elimina el objeto seleccionado en el panel de navegación sin mostrar ningún mensaje de advertencia cuando encuentra la acción <STRONG>EliminarObjeto</STRONG>.</P>
+> [!PRECAUCIóN] Si deja en blanco los cuadros **Tipo de objeto** y **Nombre del objeto**, Access elimina el objeto seleccionado en el panel de navegación sin mostrar ningún mensaje de advertencia cuando encuentra la acción **EliminarObjeto**.
 
 
 

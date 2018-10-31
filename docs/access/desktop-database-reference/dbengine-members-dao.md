@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d01ba185112bc396181dfe7f5e45df2f082d191
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b534d4595bd003c76e756c44d6e88f53a725cc8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485538"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861788"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine Members (DAO)
 
@@ -63,7 +63,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
@@ -115,7 +115,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 <td><p>Establece el nombre de usuario utilizado para crear el objeto <strong>Workspace</strong> predeterminado cuando se inicializa. <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></p></td>
+<td><p><strong><a href="dbengine-errors-property-dao.md">Errores</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Errors</strong> que contiene todos los objetos <strong>Error</strong> almacenados para el objeto especificado. Es de solo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -131,7 +131,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="dbengine-version-property-dao.md">Versión</a></strong></p></td>
 <td><p>Devuelve la versión de DAO que se está utilizando. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">

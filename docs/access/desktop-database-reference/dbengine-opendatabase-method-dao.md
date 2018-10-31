@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 311481a83c25df29a26610a979a67ceb38124470
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606162"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860423"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase Method (DAO)
 
@@ -122,10 +122,10 @@ Se aplican determinadas consideraciones cuando se utiliza dbname:
 
   - Si es una cadena de longitud cero ("") y *Conectar* es "ODBC;", se muestra un cuadro de diálogo lista de todos los nombres de orígenes de datos ODBC para el usuario pueda seleccionar una base de datos.
 
-Para cerrar una base de datos y, así, quitar el objeto **Database** de la colección **Databases**, utilice el método **[Close](connection-close-method-dao.md)** con el objeto.
+Para cerrar una base de datos y eliminar el objeto **Database** de la colección **Databases**, use el método **[Close](connection-close-method-dao.md)** del objeto.
 
 
 > [!NOTE]
-> <P>[!NOTA] Cuando acceda a un origen de datos ODBC conectado a un motor de base de datos de Microsoft Access, podrá mejorar el rendimiento de la aplicación abriendo un objeto <STRONG>Database</STRONG> conectado al origen de datos ODBC, en lugar de vincular los objetos <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> uno por uno a tablas concretas del origen de datos ODBC.</P>
+> [!NOTA] Cuando acceda a un origen de datos ODBC conectado a un motor de base de datos de Microsoft Access, podrá mejorar el rendimiento de la aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular los objetos [TableDef](tabledef-object-dao.md) uno por uno a tablas concretas del origen de datos ODBC.
 
 

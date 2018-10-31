@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2927a3ede26487cabf9986b301cfc0617ba155c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6c4e854e13527f0c20551950aa49dde30cdae9ab
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486674"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862264"
 ---
 # <a name="after-update-macro-event"></a>Después de actualizar (evento de macro)
 
@@ -26,7 +26,7 @@ El evento **Después de actualizar** se produce después de actualizar un regist
 
 
 > [!NOTE]
-> <P>[!NOTA] El evento <STRONG>Después de actualizar</STRONG> solo está disponible en macros de datos.</P>
+> [!NOTA] El evento **Después de actualizar** solo está disponible en macros de datos.
 
 
 

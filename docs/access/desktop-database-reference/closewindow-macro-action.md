@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d80ac5b545f07d3bd39f69f16c4578e49439cdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483384"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861858"
 ---
 # <a name="closewindow-macro-action"></a>CerrarVentana (acción de macro)
 
@@ -47,7 +47,7 @@ La acción **CerrarVentana** tiene los siguientes argumentos.
 </p>
 
 > [!NOTE]
-> <P>Si desea cerrar un módulo en el Editor de Visual Basic, debe usar <STRONG>Módulo</STRONG> en el argumento <STRONG>Tipo de objeto</STRONG>.</P>
+> Si desea cerrar un módulo en el Editor de Visual Basic, debe usar **Módulo** en el argumento **Tipo de objeto**.
 
 
 <p></p></td>

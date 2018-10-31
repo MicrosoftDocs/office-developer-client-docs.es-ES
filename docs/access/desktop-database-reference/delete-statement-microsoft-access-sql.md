@@ -1,27 +1,27 @@
 ---
-title: DELETE (instrucción de Microsoft Access SQL)
-TOCTitle: DELETE Statement (Microsoft Access SQL)
+title: ELIMINAR instrucción (Microsoft Access SQL)
+TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
 ms:contentKeyID: 48545299
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d8a0d78350a9689af67f33262ff510d8638de40c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7e41e7597a967e7029cb3ce6ae120bb382714288
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485074"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864126"
 ---
-# <a name="delete-statement-microsoft-access-sql"></a>DELETE (instrucción de Microsoft Access SQL)
+# <a name="delete-statement-microsoft-access-sql"></a>ELIMINAR instrucción (Microsoft Access SQL)
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Crea una consulta de eliminación que elimina los registros de una o varias tablas enumeradas en la cláusula [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) que cumplen la cláusula [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)).
+Crea una consulta de eliminación que elimina los registros de una o varias tablas enumeradas en la cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) que cumplen la cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Sintaxis
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3616ab20e1d1f6a5d80c70f90a90ad13b3abc0fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8250d2a21f0c4a4d5af64310fc14f96f56a46b54
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484214"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860017"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Funciones de agregado, la función CALC y la palabra clave NEW
 
@@ -64,7 +64,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </p>
 
 > [!NOTE]
-> <P>Si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para que sea el valor de la función ANY.</P>
+> Si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para que sea el valor de la función ANY.
 
 
 <p></p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
 ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a40aab088d7b49d55902cc3e790feffb31abbb5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6bb7b3f1dffdff797b0cfaa278c6d9dc98109fb8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485131"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862488"
 ---
 # <a name="containers-members-dao"></a>Containers Members (DAO)
 
@@ -20,7 +20,7 @@ ms.locfileid: "25485131"
 
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos de conexión actuales de un objeto Workspace. (Sólo para áreas de trabajo de ODBCDirect).</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos de conexión actuales de un objeto Workspace (sólo para áreas de trabajo de ODBCDirect).
 
 
 

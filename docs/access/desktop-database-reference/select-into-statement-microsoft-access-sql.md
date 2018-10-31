@@ -1,20 +1,19 @@
 ---
 title: SELECCIONE ESTA OPCIÓN. EN la instrucción (Microsoft Access SQL)
-TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
+TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4122421642b9746b5832984bf784faf65c603fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c05679994cfd98fdc5d6ffb389df00c2f5c9b94
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483899"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861998"
 ---
 # <a name="selectinto-statement-microsoft-access-sql"></a>SELECCIONE ESTA OPCIÓN. EN la instrucción (Microsoft Access SQL)
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -48,7 +47,7 @@ La instrucción SELECT…INTO consta de los siguientes elementos:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a>.  </p></td>
+<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -62,15 +61,10 @@ La instrucción SELECT…INTO consta de los siguientes elementos:
 
 Puede usar consultas de creación de tabla para archivar registros, crear copias de seguridad de las tablas o realizar copias para exportarlas a otra base de datos o usarlas como base para informes que muestren datos de un período de tiempo determinado. Por ejemplo, puede generar un informe de ventas mensuales por región ejecutando la misma consulta de creación de tabla cada mes.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Puede que desee definir una clave principal para la nueva tabla. Al crear la tabla, los campos de la nueva tabla heredan el tipo de datos y tamaño de campo de cada campo de las tablas base de la consulta, pero no se transfiere ninguna otra propiedad de campo o tabla.</P>
-> <LI>
-> <P>Para agregar datos a una tabla existente, use la instrucción <A href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</A> en lugar de crear una consulta de datos anexados.</P>
-> <LI>
-> <P>Para averiguar qué registros se seleccionarán antes de ejecutar la consulta de creación de tabla, examine primero los resultados de una instrucción <A href="select-statement-microsoft-access-sql.md">SELECT</A> que use los mismos criterios de selección.</P></LI></UL>
+> - Puede que desee definir una clave principal para la nueva tabla. Al crear la tabla, los campos de la nueva tabla heredan el tipo de datos y tamaño de campo de cada campo de las tablas base de la consulta, pero no se transfiere ninguna otra propiedad de campo o tabla.
+> - Para agregar datos a una tabla existente, use la instrucción [INSERT INTO](insert-into-statement-microsoft-access-sql.md) en lugar de crear una consulta de datos anexados.
+> - Para averiguar qué registros se seleccionarán antes de ejecutar la consulta de creación de tabla, examine primero los resultados de una instrucción [SELECT](select-statement-microsoft-access-sql.md) que use los mismos criterios de selección.
 
 
 

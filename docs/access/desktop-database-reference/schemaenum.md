@@ -4,31 +4,32 @@ TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e928271d61cf38232014db1c67482ca6d47fd863
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6f1e174253904adf7392aa7ae19786103e55843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486374"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863356"
 ---
 # <a name="schemaenum"></a>SchemaEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica el tipo de objeto **Recordset** de esquema recuperado por el método [OpenSchema](openschema-method-ado.md).
 
-**Comentarios**
+## <a name="remarks"></a>Comentarios
 
-Se puede encontrar información adicional acerca de la función y las columnas que se devuelven para cada constante de ADO en los temas del Apéndice B de la *Referencia para programadores de OLE DB*. El nombre de cada tema aparece entre paréntesis en la sección Descripción de la tabla siguiente.
+Información adicional acerca de la función y las columnas que se devuelven para cada constante ADO puede encontrarse en los temas del apéndice B de la *Referencia para programadores de OLE DB*. El nombre de cada tema aparece entre paréntesis en la sección Descripción de la tabla siguiente.
 
 Encontrará información adicional acerca de la función y las columnas que se devuelven para cada constante ADO MD en los temas del capítulo 23 de la documentación de *OLE DB para OLAP* . El nombre de cada tema se enumeran entre paréntesis y marcado con un asterisco (\*) en la columna Descripción de la tabla siguiente.
 
 Convierta los tipos de datos de columnas de la documentación de OLE DB a tipo de datos ADO consultando la columna Descripción del tema [DataTypeEnum](datatypeenum.md) de ADO. Por ejemplo, un tipo de datos OLE DB de **DBTYPE\_WSTR** es equivalente a un tipo de datos ADO de **adWChar**.
 
-ADO genera resultados con el aspecto del esquema para las constantes **adSchemaDBInfoKeywords** y **adSchemaDBInfoLiterals**. ADO crea un objeto **Recordset** y, a continuación, rellena cada fila con los valores devueltos respectivamente por los métodos **IDBInfo::GetKeywords** e **IDBInfo::GetLiteralInfo**. Encontrará información adicional acerca de estos métodos en la sección IDBInfo de la * Referencia del programador de OLE DB*.
+ADO genera resultados con el aspecto del esquema para las constantes **adSchemaDBInfoKeywords** y **adSchemaDBInfoLiterals**. ADO crea un **objeto Recordset**y, a continuación, rellena cada fila con los valores devueltos respectivamente por los métodos **GetKeywords** e **IDBInfo:: GetLiteralInfo** . Obtener información adicional acerca de estos métodos puede encontrarse en la sección IDBInfo de la *referencia del programador de OLE DB*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -154,14 +155,14 @@ CUBE_NAME</p></td>
 <td><p>30</p></td>
 <td><p>Devuelve una lista de palabras clave específicas del proveedor.
  (IDBInfo::GetKeywords *)</p></td>
-<td><p>&lt;None&gt;</p></td>
+<td><p>&lt;Ninguno&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaDBInfoLiterals</strong></p></td>
 <td><p>31</p></td>
 <td><p>Devuelve una lista de los literales específicos del proveedor utilizados en comandos de texto.
  (IDBInfo::GetLiteralInfo *)</p></td>
-<td><p>&lt;None&gt;</p></td>
+<td><p>&lt;Ninguno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaDimensions</strong></p></td>
@@ -354,7 +355,7 @@ SCHEMA_OWNER</p></td>
 <td><p>18</p></td>
 <td><p>Devuelve los niveles de conformidad, las opciones y los dialectos admitidos por los datos de procesamiento de la implementación de SQL definidos en el catálogo.
  (Conjunto de filas SQL_LANGUAGES)</p></td>
-<td><p>&lt;None&gt;</p></td>
+<td><p>&lt;Ninguno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaStatistics</strong></p></td>
@@ -458,7 +459,7 @@ NOMBREVISTA</p></td>
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

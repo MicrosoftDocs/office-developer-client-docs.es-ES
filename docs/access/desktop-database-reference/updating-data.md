@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2f507cb7d8939a4d4da65b570ae8e2db53cc8c7c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6b7255fb97798a8c074dc650cc4c61e17c22dd9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484243"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863804"
 ---
-# <a name="updating-data"></a>Actualizar datos
+# <a name="updating-data"></a>Actualización de datos
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -25,4 +25,12 @@ Use el método **Update** para guardar los cambios efectuados en el registro act
 Si el objeto **Recordset** admite la actualización por lotes, se pueden almacenar en la memoria caché local varios cambios realizados en uno o varios registros hasta que se llame al método **UpdateBatch**. Si modifica el registro actual o agrega un nuevo registro mientras llama al método **UpdateBatch**, ADO llamará automáticamente al método **Update** para guardar todos los cambios pendientes en el registro actual antes de transmitir los cambios por lotes al proveedor.
 
 El registro actual sigue siendo el actual después de la llamada a los métodos **Update** o **UpdateBatch**.
+
+Esta sección incluye los temas siguientes:
+
+- [Modo Inmediato](immediate-mode.md)
+
+- [Procesamiento de transacciones](transaction-processing.md)
+
+- [Batch Mode (ADO)](batch-mode.md)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb8c41917ab6834cda15a706ae550751698543eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1106d477f0c9e055e01db34cafa959b3fcddec37
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485369"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861522"
 ---
 # <a name="connections-collection-dao"></a>Connections Collection (DAO)
 
@@ -42,7 +42,7 @@ El valor de la propiedad **Name** de un objeto **Connection** es una cadena que 
 
 
 > [!NOTE]
-> <P>[!NOTA] Puede abrir el mismo origen de datos varias veces creando nombres duplicados en la colección <STRONG>Connections</STRONG>. Debe asignar objetos <STRONG>Connection</STRONG> a variables de objeto y hacer referencia a ellas mediante el nombre de variable.</P>
+> [!NOTA] Puede abrir el mismo origen de datos varias veces creando nombres duplicados en la colección **Connections**. Debe asignar objetos **Connection** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
 
 
 

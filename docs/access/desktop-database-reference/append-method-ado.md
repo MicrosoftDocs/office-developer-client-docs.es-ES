@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b47b7b0514b78a89425e47962c36b092e35677ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03d3b7ac215c8b5328148b33e2e966c4e574c98e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485535"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864017"
 ---
 # <a name="append-method-ado"></a>Append (método, ADO)
 
@@ -78,8 +78,7 @@ El parámetro *FieldValue* sólo es válido cuando se agrega un objeto **Field**
 
 
 > [!NOTE]
-> <P>[!NOTA] Para los nuevos objetos <STRONG>Field</STRONG> que se han anexado a la colección <STRONG>Fields</STRONG> de un objeto <STRONG>Record</STRONG>, se debe establecer primero la propiedad <A href="value-property-ado.md">Value</A> para que se puedan especificar las demás propiedades de <STRONG>Field</STRONG>. Primero, se debe asignar un valor específico a la propiedad <STRONG>Value</STRONG> y se debe llamar a <A href="update-method-ado.md">Update</A> en la colección <STRONG>Fields</STRONG>. A continuación, se podrá obtener acceso a otras propiedades como <A href="type-property-ado.md">Type</A> o <A href="attributes-property-ado.md">Attributes</A>.</P>
-
+> [!NOTA] Para los nuevos objetos **Field** que se han anexado a la colección **Fields** de un objeto **Record**, se debe establecer primero la propiedad [Value](value-property-ado.md) para que se puedan especificar las demás propiedades de **Field**. Primero, se debe asignar un valor específico a la propiedad **Value** y se debe llamar a [Update](update-method-ado.md) en la colección **Fields**. A continuación, se podrá obtener acceso a otras propiedades como [Type](type-property-ado.md) o [Attributes](attributes-property-ado.md).
 
 
 Los objetos **Field** de los siguientes tipos de datos (**DataTypeEnum**) no se pueden anexar a la colección **Fields**; si se anexan, se generará un error: **adArray**, **adChapter**, **adEmpty**, **adPropVariant** y **adUserDefined**. Además, ADO no admite los siguientes tipos de datos: **adIDispatch**, **adIUnknown** y **adIVariant**. En el caso de estos tipos, no se producirá un error cuando se anexen, pero su uso puede generar resultados imprevisibles, incluidas pérdidas de memoria.

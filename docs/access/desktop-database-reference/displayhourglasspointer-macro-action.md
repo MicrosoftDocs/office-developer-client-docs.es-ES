@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003fb36fc876aa573419b963a9eca6f54332190a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 725bb4530bffe9aeead327caa74cdba0798c181d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485010"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862667"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>MostrarCursorDeRelojDeArena (acción de macro)
 
@@ -54,15 +54,9 @@ Esta acción se suele usar si se ha desactivado el eco mediante la acción **Eco
 
 Access restablece automáticamente el argumento **Reloj de arena activo** en **No** cuando la macro deja de ejecutarse.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>En Microsoft Windows, es el icono que se establece para <STRONG>Ocupado</STRONG> en el cuadro de diálogo <STRONG>Propiedades de Mouse</STRONG> del Panel de control de Windows. El icono predeterminado para todos los sistemas operativos Windows es un reloj de arena animado.</P>
-> <LI>
-> <P>Si lo desea, puede elegir otro icono.</P></LI></UL>
-
-
+> - En Microsoft Windows, es el icono que se establece para **Ocupado** en el cuadro de diálogo **Propiedades de Mouse** del Panel de control de Windows. El icono predeterminado para todos los sistemas operativos Windows es un reloj de arena animado.
+> - Si lo desea, puede elegir otro icono.
 
 Para ejecutar la acción **MostrarCursorDeRelojDeArena** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **RelojDeArena** del objeto **DoCmd**.
 

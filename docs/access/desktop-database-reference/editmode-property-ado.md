@@ -32,6 +32,6 @@ Cuando una llamada a [Eliminar](delete-method-ado-recordset.md) no elimina corre
 
 
 > [!NOTE]
-> <P>[!NOTA] <STRONG>EditMode</STRONG> puede devolver un valor válido únicamente si hay un registro actual. <STRONG>EditMode</STRONG> devolverá un error si <A href="bof-eof-properties-ado.md">BOF o EOF</A> son True o si se ha eliminado el registro actual.</P>
+> [!NOTA] **EditMode** puede devolver un valor válido únicamente si hay un registro actual. **EditMode** devolverá un error si [BOF o EOF](bof-eof-properties-ado.md) son True o si se ha eliminado el registro actual.
 
 

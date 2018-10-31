@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 719c495e18fb769a2d3f994542ab8d9e93a469f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605761"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860381"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans y RollbackTrans (ADO)
 
@@ -57,9 +57,7 @@ Utilice estos métodos con un objeto **Connection** cuando desee guardar o cance
 
 
 > [!NOTE]
-> <P>No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor "<STRONG>Transaction DDL</STRONG>" aparece en la colección <A href="properties-collection-ado.md">Properties</A> del objeto <STRONG>Connection</STRONG>, lo que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.</P>
-
-
+> No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor "**Transaction DDL**" aparece en la colección [Properties](properties-collection-ado.md) del objeto **Connection**, lo que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
 
 Tras llamarse al método **BeginTrans**, el proveedor ya no confirmará instantáneamente los cambios realizados hasta que se llame a **CommitTrans** o a **RollbackTrans** para finalizar la transacción.
 

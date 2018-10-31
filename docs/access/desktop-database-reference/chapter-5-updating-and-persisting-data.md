@@ -1,19 +1,19 @@
 ---
-title: 'Capítulo 5: Actualizar y almacenar datos'
+title: 'Capítulo 5: Actualización y persistencia de datos'
 TOCTitle: 'Chapter 5: Updating and Persisting Data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91c747c970988a9ca853f0be66f5c0b485f5c3f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483624"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861977"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>Capítulo 5: Actualizar y almacenar datos
+# <a name="chapter-5-updating-and-persisting-data"></a>Capítulo 5: Actualización y persistencia de datos
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -28,3 +28,8 @@ La segunda noción es que los cambios se que cualquiera propagan al origen de da
 
 En el modo inmediato, cada llamada al método **Update** propaga los cambios al origen de datos. En el modo de proceso por lotes, cada llamada a **Update** o movimiento de la posición actual de fila guarda los cambios en el búfer de copia, pero sólo el método **UpdateBatch** propaga los cambios al origen de datos.
 
+En este capítulo, se tratan los temas siguientes:
+
+- [Updating Data (ADO)](updating-data.md)
+
+- [Persisting Data (ADO)](persisting-data.md)

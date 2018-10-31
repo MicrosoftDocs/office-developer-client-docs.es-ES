@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d95af128b9b0d44c69399fd8b15180b70207c6bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1767f3569cb9b58936e01bcd8b0350f374899f2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485067"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862285"
 ---
-# <a name="troubleshooting-rds"></a>Solucionar problemas en RDS
+# <a name="troubleshooting-rds"></a>Solución de problemas de RDS
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Consulte esta sección para buscar soluciones a errores o problemas específicos de RDS. Esta sección trata los siguientes temas:
+Consulte esta sección para soluciones de errores específicos o problemas con RDS:
 
-  - [Configurar RDS en Windows 2000](configuring-rds-on-windows-2000.md)
+- [Configurar RDS en Windows 2000](configuring-rds-on-windows-2000.md)
 
-  - ["Error de servidor de Internet: Acceso denegado"](internet-server-error-access-denied.md)
+- [Error de servidor de Internet: Acceso denegado](internet-server-error-access-denied.md)
 
-  - [RDS devuelve el error "Objeto Stream no leído"](rds-returns-stream-not-read-error.md)
+- [RDS devuelve el error "Objeto Stream no leído"](rds-returns-stream-not-read-error.md)
 
-  - [Interbloqueos con nivel de aislamiento de lectura repetible](deadlocks-with-read-repeatable-isolation-level.md)
+- [Interbloqueos con nivel de aislamiento de lectura repetible](deadlocks-with-read-repeatable-isolation-level.md)
 
-  - [Garantizar espacio suficiente para la base de datos temporal](ensuring-sufficient-tempdb-space.md)
+- [Garantizar espacio suficiente para la base de datos temporal](ensuring-sufficient-tempdb-space.md)
 
-  - [Minimizar el uso de espacio de archivo de registro](minimizing-log-file-space-usage.md)
+- [Minimizar el uso de espacio de archivo de registro](minimizing-log-file-space-usage.md)
 

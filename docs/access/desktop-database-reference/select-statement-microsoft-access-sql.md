@@ -1,19 +1,19 @@
 ---
 title: Instrucción SELECT (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: ae7a63a3fe7647dde117db80a52e2322b9af75b9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484035"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860586"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>Instrucción SELECT (Microsoft Access SQL)
 
@@ -41,7 +41,7 @@ La instrucción SELECT consta de los siguientes elementos:
 <tbody>
 <tr class="odd">
 <td><p><em>predicado</em></p></td>
-<td><p>Uno de los siguientes predicados: <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW o TOP</a>. El predicado se usa para restringir el número de registros devueltos. Si no se especifica ninguno, el valor predeterminado es ALL.  </p></td>
+<td><p>Uno de los siguientes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW o TOP</a>. El predicado se usa para restringir el número de registros devueltos. Si no se especifica ninguno, el valor predeterminado es ALL.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -73,7 +73,7 @@ La instrucción SELECT consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Para llevar a cabo esta operación, el motor de base de datos Microsoft® Jet busca en la tabla o tablas especificadas, extrae loas columnas seleccionadas, selecciona las filas que cumplen el criterio y ordena o agrupa las filas resultantes en el orden especificado.
+Para realizar esta operación, el motor de base de datos de Microsoft Jet busca en la tabla o tablas especificadas, extrae las columnas elegidas, selecciona las filas que cumplen con el criterio y ordena o agrupa las filas resultantes en el orden especificado.
 
 Las instrucciones SELECT no modifican los datos de la base de datos.
 
@@ -151,6 +151,8 @@ En este ejemplo, se crea un objeto **Recordset** de tipo Dynaset basado en una i
     End Sub
 ```
 
+<br/>
+
 En este ejemplo, se cuenta el número de registros que tienen una entrada en el campo PostalCode y asigna al campo devuelto el nombre Tally.
 
 ```sql
@@ -178,6 +180,8 @@ En este ejemplo, se cuenta el número de registros que tienen una entrada en el 
      
     End Sub 
 ```
+
+<br/>
 
 En este ejemplo, se muestra el número de empleados y los salarios medio y máximo.
 
@@ -209,6 +213,8 @@ En este ejemplo, se muestra el número de empleados y los salarios medio y máxi
      
     End Sub 
 ```
+
+<br/>
 
 Se pasa un objeto **Recordset** al procedimiento **Sub** EnumFields desde el procedimiento que realiza la llamada. Después, el procedimiento da formato a los campos de **Recordset** y los imprime en la ventana **Depuración**. La variable es el ancho del campo impreso deseado. Algunos campos pueden estar truncados.
 

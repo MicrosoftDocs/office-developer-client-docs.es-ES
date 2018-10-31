@@ -4,23 +4,24 @@ TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5c7ecb345c993b2582ce6971044d325afca857a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 22c5d53427d1380273ea82b3a28ae044e103b179
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486558"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860612"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica el estado de un objeto **Field**.
 
 Los valores **adFieldPending\*** indican la operación que provocó el estado, y se pueden combinar con otros valores de estado.
+
+<br/>
 
 <table>
 <colgroup>
@@ -190,7 +191,7 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

@@ -4,21 +4,22 @@ TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e8b70ad0067083373679286bdb452cb667d3de0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5c192589f2c90b2ce7b6c7b376b80c92b341e2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486014"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860661"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Parameter](parameter-object-ado.md) o [Property](property-object-ado.md). El indicador correspondiente de tipo OLE DB se muestra entre paréntesis en la columna Descripción de la tabla siguiente. Para obtener más información acerca de los tipos de datos OLE DB, vea el Capítulo 13 y el Apéndice A de la *Referencia del programador de OLE DB*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -129,13 +130,8 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9</p></td>
 <td><p>Indica un puntero a una interfaz <strong>IDispatch</strong> sobre un objeto COM (DBTYPE_IDISPATCH).
-</p>
-
-> [!NOTE]
-> <P>ADO no admite actualmente este tipo de datos. Su uso puede provocar resultados impredecibles.</P>
-
-
-<p></p></td>
+</p><p><strong>Nota</strong>: este tipo de datos no se admite actualmente por ADO. Su uso puede provocar resultados impredecibles.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>son también tipos</strong></p></td>
@@ -146,13 +142,8 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
 <td><p>Indica un puntero a una interfaz <strong>IUnknown</strong> sobre un objeto COM (DBTYPE_IUNKNOWN).
-</p>
-
-> [!NOTE]
-> <P>ADO no admite actualmente este tipo de datos. Su uso puede provocar resultados impredecibles.</P>
-
-
-<p></p></td>
+</p><p><strong>Nota</strong>: este tipo de datos no se admite actualmente por ADO. Su uso puede provocar resultados impredecibles.
+</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLongVarBinary</strong></p></td>
@@ -233,13 +224,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12</p></td>
 <td><p>Indica un <strong>Variant</strong> de automatización (DBTYPE_VARIANT).
-</p>
-
-> [!NOTE]
-> <P>ADO no admite actualmente este tipo de datos. Su uso puede provocar resultados impredecibles.</P>
-
-
-<p></p></td>
+</p><p><strong>Nota</strong>: este tipo de datos no se admite actualmente por ADO. Su uso puede provocar resultados impredecibles.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -260,7 +245,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

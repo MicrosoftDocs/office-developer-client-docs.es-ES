@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
 ms:contentKeyID: 48543197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3306c81af03b374416c948f44107690f188769cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4cdb0a08cf4336716aa86e878b309822f71287c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486564"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861382"
 ---
 # <a name="dbenginecommittrans-method-dao"></a>DBEngine.CommitTrans Method (DAO)
 
@@ -60,11 +60,8 @@ Los métodos de transacción **BeginTrans**, **CommitTrans** y **Rollback** diri
 
 En general, las transacciones se utilizan para mantener la integridad de los datos cuando debe actualizar registros en dos o más tablas y asegurarse de que se han completado los cambios (se han aplicado) en todas las tablas o en ninguna (se han deshecho). Por ejemplo, si ha transferido dinero de una cuenta a otra, debe restar una cantidad de otra y sumar la cantidad a otra. Si alguna de las actualizaciones no se realiza correctamente, las cuentas ya no están equilibradas. Utilice el método **BeginTrans** antes de actualizar el primer registro y, luego, si no se realiza correctamente cualquier actualización posterior, puede utilizar el método **Rollback** para deshacer todas las actualizaciones. Utilice el método **CommitTrans** después de actualizar correctamente el último registro.
 
-
 > [!NOTE]
-> <P>[!NOTA] Dentro de un objeto <STRONG>Workspace</STRONG>, las transacciones son siempre globales para <STRONG>Workspace</STRONG> y no están limitadas a un único objeto <STRONG>Connection</STRONG> o <STRONG>Database</STRONG>. Si realiza operaciones en varias conexiones o bases de datos dentro de una transacción de <STRONG>Workspace</STRONG>, la resolución de la transacción (es decir, el uso del método <STRONG>CommitTrans</STRONG> o <STRONG>Rollback</STRONG>) afecta a todas las operaciones de todas las conexiones y bases de datos incluidos en esta área de trabajo.</P>
-
-
+> [!NOTA] Dentro de un objeto **Workspace**, las transacciones son siempre globales para **Workspace** y no están limitadas a un único objeto **Connection** o **Database**. Si realiza operaciones en varias conexiones o bases de datos dentro de una transacción de **Workspace**, la resolución de la transacción (es decir, el uso del método **CommitTrans** o **Rollback**) afecta a todas las operaciones de todas las conexiones y bases de datos incluidos en esta área de trabajo.
 
 Tras utilizar **CommitTrans**, no puede deshacer los cambios realizados durante esta transacción a menos que la transacción esté anidada dentro de otra transacción que, a su vez, se haya deshecho. Si anida transacciones, debe resolver la transacción activa antes de poder resolver una transacción en un nivel de anidamiento superior.
 
@@ -82,12 +79,8 @@ En áreas de trabajo de ODBC, cuando usa **CommitTrans**, es posible que el curs
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>A menudo, puede mejorar el rendimiento de su aplicación segmentando las operaciones que requieren acceso al disco en bloques de transacciones. Esto guarda en el búfer las operaciones y puede reducir significativamente el número de veces que se tiene acceso a un disco.</P>
-> <LI>
-> <P>En un área de trabajo de Microsoft Access, las transacciones se registran en un archivo que se guarda en el directorio especificado por la variable de entorno TEMP en la estación de trabajo. Si el archivo de registro de transacciones agota el almacenamiento disponible en la unidad TEMP, el motor de base de datos activa un error en tiempo de ejecución. En ese momento, si utiliza <STRONG>CommitTrans</STRONG>, se aplica un número indeterminado de operaciones pero se pierden las operaciones restantes que no se hayan completado y es necesario reiniciar la operación. El uso del método <STRONG>Rollback</STRONG> libera el registro de transacciones y deshace todas las operaciones de la transacción.</P>
-> <LI>
-> <P>Cerrar un objeto <STRONG>Recordset</STRONG> clon con una transacción pendiente provoca una operación <STRONG>Rollback</STRONG> implícita.</P></LI></UL>
+> - A menudo, puede mejorar el rendimiento de su aplicación segmentando las operaciones que requieren acceso al disco en bloques de transacciones. Esto guarda en el búfer las operaciones y puede reducir significativamente el número de veces que se tiene acceso a un disco.
+> - En un área de trabajo de Microsoft Access, las transacciones se registran en un archivo que se guarda en el directorio especificado por la variable de entorno TEMP en la estación de trabajo. Si el archivo de registro de transacciones agota el almacenamiento disponible en la unidad TEMP, el motor de base de datos activa un error en tiempo de ejecución. En ese momento, si utiliza **CommitTrans**, se aplica un número indeterminado de operaciones pero se pierden las operaciones restantes que no se hayan completado y es necesario reiniciar la operación. El uso del método **Rollback** libera el registro de transacciones y deshace todas las operaciones de la transacción.
+> - Cerrar un objeto **Recordset** clon con una transacción pendiente provoca una operación **Rollback** implícita.
 
 

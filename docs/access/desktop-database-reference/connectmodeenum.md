@@ -4,21 +4,22 @@ TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 5b39fc42259a1906891b82bf9b9ef252997e6240
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 91d1ad892557ad944dca175a3589a74e7205ad01
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486228"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862579"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Especifica los permisos disponibles para modificar datos en un objeto [Connection](connection-object-ado.md), abrir un [Record](record-object-ado.md) o especificar los valores de la propiedad [Mode](mode-property-ado.md) de los objetos **Record** y [Stream](stream-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,7 +48,7 @@ Especifica los permisos disponibles para modificar datos en un objeto [Connectio
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0 x 400000</p></td>
-<td><p>Se usa junto con los otros valores de <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>o <strong>adModeShareDenyRead</strong>) para propagar restricciones de uso compartidas a todos los registros secundarios del actual <strong>registro</strong>. No tiene ningún efecto si el <strong>registro</strong> no tiene todos los elementos secundarios. Se genera un error en tiempo de ejecución si se utiliza sólo con <strong>adModeShareDenyNone</strong> . Sin embargo, se puede usar con <strong>adModeShareDenyNone</strong> cuando se combina con otros valores. Por ejemplo, puede usar &quot; <strong>adModeUnknown</strong> o <strong>adModeShareDenyNone</strong> o <strong>adModeRecursive</strong>&quot;.</p></td>
+<td><p>Se usa junto con los otros valores de <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>o <strong>adModeShareDenyRead</strong>) para propagar restricciones de uso compartidas a todos los registros secundarios del actual <strong>registro</strong>. No tiene ningún efecto si el <strong>registro</strong> no tiene todos los elementos secundarios.</p><p>Se genera un error en tiempo de ejecución si se utiliza sólo con <strong>adModeShareDenyNone</strong> . Sin embargo, se puede usar con <strong>adModeShareDenyNone</strong> cuando se combina con otros valores. Por ejemplo, puede usar &quot; <strong>adModeUnknown</strong> o <strong>adModeShareDenyNone</strong> o <strong>adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -83,7 +84,7 @@ Especifica los permisos disponibles para modificar datos en un objeto [Connectio
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

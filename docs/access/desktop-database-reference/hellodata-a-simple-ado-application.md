@@ -1,19 +1,19 @@
 ---
-title: 'HelloData: una aplicación ADO simple'
+title: 'HelloData: Una aplicación de ADO simple'
 TOCTitle: 'HelloData: A Simple ADO Application'
 ms:assetid: c271abeb-8865-81f9-db8e-47d3db87ad30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7a3ef1f8b1a183bcef760af28d6eb8a849b17aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e70d611f351cf3ff073a1ad91e359a08e026295
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483617"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863300"
 ---
-# <a name="hellodata-a-simple-ado-application"></a>HelloData: una aplicación ADO simple
+# <a name="hellodata-a-simple-ado-application"></a>HelloData: Una aplicación de ADO simple
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -32,7 +32,7 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 4.  Cree un control **cuadro de texto** en el formulario debajo de la cuadrícula y establezca sus propiedades tal como se muestra en la tabla. El formulario debe tener un aspecto similar a la ilustración siguiente cuando haya finalizado.
 
-5.  Por último, copie el código que se muestra en "[Código HelloData](hellodata-code.md)" y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
+5.  Por último, copie el código que aparece en el [Código HelloData](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 
 
-Para obtener una descripción detallada del código, vea "[Detalles sobre HelloData](hellodata-details.md)".
+Para obtener una descripción detallada del código, vea [Detalles sobre HelloData](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -135,4 +135,6 @@ Para obtener una descripción detallada del código, vea "[Detalles sobre HelloD
 </tr>
 </tbody>
 </table>
+
+
 

@@ -1,17 +1,17 @@
 ---
 title: Ejemplos de código de ADO en Microsoft Visual Basic
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604613"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862117"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Ejemplos de código de ADO en Microsoft Visual Basic
 
@@ -20,9 +20,8 @@ ms.locfileid: "25604613"
 
 Utilice los ejemplos de código siguientes para obtener información sobre cómo utilizar los métodos, propiedades y eventos de ADO al escribir código en Visual Basic.
 
-
 > [!NOTE]
-> <P>[!NOTA] Pegue el ejemplo de código completo, desde Sub hasta End Sub, en un editor de código. Es posible que el ejemplo no se ejecute correctamente si se utilizan ejemplos parciales o si se pierde el formato de párrafo.</P>
+> [!NOTA] Pegue el ejemplo de código completo, de principio a fin, en un editor de código. Es posible que el ejemplo no se ejecute correctamente si se utilizan ejemplos parciales o si se pierde el formato de párrafo.
 
 
 

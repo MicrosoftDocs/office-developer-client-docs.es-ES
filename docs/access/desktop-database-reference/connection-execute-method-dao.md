@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3171ec1d35f08a5bc9d6a02a9a50ca80e11413de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862607"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute Method (DAO)
 
@@ -111,18 +111,11 @@ Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum
 </tbody>
 </table>
 
-
+> [!NOTE]
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!NOTA] Las constantes <STRONG>dbConsistent</STRONG> y <STRONG>dbInconsistent</STRONG> son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de <STRONG>OpenRecordset</STRONG>. Si se usan <STRONG>dbConsistent</STRONG> y <STRONG>dbInconsistent</STRONG>, se produce un error.</P>
-
-
+> [!NOTA] Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de **OpenRecordset**. Si se usan **dbConsistent** y **dbInconsistent**, se produce un error.
 
 El método **Execute** solo es válido para consultas de acción. Si utiliza **Execute** con otro tipo de consulta, se produce un error. Como una consulta de acción no devuelve registros, **Execute** no devuelve un objeto **Recordset**. (La ejecución de una consulta de paso SQL en un área de trabajo de ODBCDirect no devuelve un error si no se devuelve un objeto **Recordset**.)
 

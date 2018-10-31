@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 301fce8bcdeff45135c305054da72f4c75f503eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483930"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862894"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferirBaseDeDatosSQL (acción de macro)
 
@@ -26,7 +26,7 @@ En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQ
 
 
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
 
 
 

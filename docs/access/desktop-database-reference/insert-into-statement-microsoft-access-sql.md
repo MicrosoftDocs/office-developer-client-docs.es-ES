@@ -1,21 +1,21 @@
 ---
 title: Instrucción INSERT INTO (Microsoft Access SQL)
-TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
+TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 751d2e2747a2d3b9aac4a0d36b8fac11a60c418f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ae2aaffc7361588a55cc17cc33169a9b8b840e1f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485347"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860465"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instrucción INSERT INTO (Microsoft Access SQL)
 
@@ -25,11 +25,11 @@ Añade un registro o varios registros a una tabla. A esto se le denomina consult
 
 ## <a name="syntax"></a>Sintaxis
 
-Consulta anexada de varios registros:
+**Consulta de datos anexados de varios registros**:
 
 INSERT INTO *destino* \[(*campo1*\[, *field2*\[,... \] \])\] \[IN *basededatosexterna* \] seleccione \[ *origen*. \] *campo1*\[, *field2*\[,... \] FROM *expresióndetabla*
 
-Consulta anexada de un solo registro:
+**Consulta de datos anexados de un único registro**:
 
 INSERT INTO *destino* \[(*campo1*\[, *field2*\[,... \] \])\] Valores (*valor1*\[, *valor2*\[,... \])
 
@@ -57,7 +57,7 @@ La instrucción INSERT INTO tiene estas partes:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a>.  </p></td>
+<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -101,9 +101,9 @@ En vez de anexar registros existentes de otra tabla, puede especificar el valor 
 
 **Vínculos proporcionan por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki sobre Microsoft Access.
 
-  - [Generación de números secuenciales para instrucciones INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+- [Generación de números secuenciales para instrucciones INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-  - [Herramienta de formato de SQL a VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [Herramienta de formato de SQL a VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## <a name="example"></a>Ejemplo
 
@@ -128,6 +128,8 @@ Este ejemplo selecciona todos los registros en una tabla hipotética New Custome
      
     End Sub
 ```
+
+<br/>
 
 Este ejemplo muestra un nuevo registro en la tabla Employees.
 

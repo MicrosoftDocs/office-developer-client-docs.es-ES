@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11c999fcac3b77ddc4eeb9ef8f4414a5f8aa1559
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fa52050e91c1a291dd59f9cde1ea36c320406dd6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484258"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860269"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
 
@@ -79,7 +79,7 @@ El método **PopulatePartial** sólo se puede abrir en una réplica parcial que 
 
 
 > [!NOTE]
-> <P>[!NOTA] Aunque <STRONG>PopulatePartial</STRONG> realiza una sincronización de sentido único antes de borrar y rellenar la réplica parcial, resulta recomendable llamar a <STRONG>Synchronize</STRONG> antes de a <STRONG>PopulatePartial</STRONG>. Esto se debe a que si ocurre un error en la llamada a <STRONG>Synchronize</STRONG>, se produce un error capturable. Puede utilizar este error para decidir si prosigue o no con el método <STRONG>PopulatePartial</STRONG> (que elimina todos los registros de la réplica parcial). Si <STRONG>PopulatePartial</STRONG> se llama a sí mismo y se produce un error mientras se sincronizan los registros, se borrarán los registros de la réplica parcial, lo que quizá no sea el resultado esperado.</P>
+> [!NOTA] Aunque **PopulatePartial** realiza una sincronización de sentido único antes de borrar y rellenar la réplica parcial, resulta recomendable llamar a **Synchronize** antes de a **PopulatePartial**. Esto se debe a que si ocurre un error en la llamada a **Synchronize**, se produce un error capturable. Puede utilizar este error para decidir si prosigue o no con el método **PopulatePartial** (que elimina todos los registros de la réplica parcial). Si **PopulatePartial** se llama a sí mismo y se produce un error mientras se sincronizan los registros, se borrarán los registros de la réplica parcial, lo que quizá no sea el resultado esperado.
 
 
 

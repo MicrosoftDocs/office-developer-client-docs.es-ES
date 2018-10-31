@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9606f3a1f76da677d3a17e91da943d12bbe5ffe1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36af1f7716573c85c87e796dd7dc7deed705afe1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483551"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860437"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum Enumeration (DAO)
 
@@ -120,7 +120,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>Datos decimales (ODBCDirect únicamente)</p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 </td>
@@ -135,8 +135,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>21</p></td>
 <td><p>Datos de punto flotante (ODBCDirect únicamente)</p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 </td>
@@ -171,8 +170,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>19</p></td>
 <td><p>Datos numéricos (ODBCDirect únicamente)</p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 </td>
@@ -192,8 +190,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>22</p></td>
 <td><p>Datos en formato de hora (ODBCDirect únicamente)</p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 </td>
@@ -203,8 +200,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>23</p></td>
 <td><p>Datos en formato de fecha y hora (ODBCDirect únicamente)</p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 </td>
@@ -214,8 +210,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>17</p></td>
 <td><p>Datos binarios variables (ODBCDirect únicamente)</p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 </td>

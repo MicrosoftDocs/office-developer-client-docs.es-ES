@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a482da49bb78a74cc68f589c928ffe13dd4a54ad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aec7c9a89ea078bfad9b05d664d373831491edc4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486198"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860227"
 ---
 # <a name="chapter-12-rds-tutorial"></a>Capítulo 12: Tutorial de RDS
 
@@ -48,3 +48,20 @@ El modelo de programación RDS se especifica a continuación. Úselo como una gu
 
   - Los cambios realizados en el objeto **Recordset** se envían al servidor y se usan para actualizar el origen de datos.
 
+A continuación figuran los pasos en este tutorial:
+
+- [Paso 1: Especificar un programa de servidor (tutorial de RDS)](step-1-specify-a-server-program-rds-tutorial.md)
+
+- [Paso 2: Invocar el programa de servidor (tutorial de RDS)](step-2-invoke-the-server-program-rds-tutorial.md)
+
+- [Paso 3: El servidor obtiene un conjunto de registros (tutorial de RDS)](step-3-server-obtains-a-recordset-rds-tutorial.md)
+
+- [Paso 4: El servidor devuelve el conjunto de registros (tutorial de RDS)](step-4-server-returns-the-recordset-rds-tutorial.md)
+
+- [Paso 5: Se habilita el uso de DataControl (tutorial de RDS)](step-5-datacontrol-is-made-usable-rds-tutorial.md)
+
+- [Paso 6: Los cambios se envían al servidor (tutorial de RDS)](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
+
+- [Tutorial de RDS (VBScript)](rds-tutorial-vbscript.md)
+
+- [Tutorial de RDS (Visual J++)](rds-tutorial-visual-j.md)

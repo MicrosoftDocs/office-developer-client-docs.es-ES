@@ -26,11 +26,8 @@ Establece o devuelve un valor de tipo **Long** que debe ser mayor que 0. El valo
 
 Use la propiedad **CacheSize** para controlar el número de registros que se van a recuperar a la vez en la memoria local del proveedor. Por ejemplo, si el valor de **CacheSize** es 10, tras abrir el objeto **Recordset**, el proveedor recupera los 10 primeros registros en la memoria local. Cuando el usuario se mueve por el objeto **Recordset**, el proveedor devuelve los datos desde el búfer de memoria local. Cuando el usuario se desplaza hasta un punto situado más allá del último registro de la caché, el proveedor recupera en la memoria caché los 10 siguientes registros del origen de datos.
 
-
 > [!NOTE]
-> <P>[!NOTA] <STRONG>CacheSize</STRONG> se basa en la propiedad específica del proveedor <STRONG>Número máximo de filas abiertas</STRONG> (en la colección <STRONG>Properties</STRONG> del objeto <STRONG>Recordset</STRONG> ). No se puede establecer <STRONG>CacheSize</STRONG> en un valor mayor que el valor de <STRONG>Número máximo de filas abiertas</STRONG>. Para modificar el número de registros que el proveedor puede abrir, establezca el valor de <STRONG>Número máximo de filas abiertas</STRONG>.</P>
-
-
+> [!NOTA] **CacheSize** se basa en la propiedad específica del proveedor **Número máximo de filas abiertas** (en la colección **Properties** del objeto **Recordset** ). No se puede establecer **CacheSize** en un valor mayor que el valor de **Número máximo de filas abiertas**. Para modificar el número de registros que el proveedor puede abrir, establezca el valor de **Número máximo de filas abiertas**.
 
 El valor de **CacheSize** se puede ajustar a lo largo del ciclo de vida del objeto **Recordset**, pero al cambiar este valor, sólo se ve afectado el número de registros en la memoria caché después de recuperaciones subsiguientes desde el origen de datos. Al cambiar sólo el valor de esta propiedad, no se modificará el actual contenido de la memoria caché.
 

@@ -1,23 +1,23 @@
 ---
-title: Instrucción TRANSFORM (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+title: TRANSFORMACIÓN de instrucción (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d05f278e38cc8cf132cf06605703dfa99eb8728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485760"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861221"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a>Instrucción TRANSFORM (Microsoft Access SQL)
+# <a name="transform-statement-microsoft-access-sql"></a>TRANSFORMACIÓN de instrucción (Microsoft Access SQL)
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -64,7 +64,7 @@ La instrucción TRANSFORM consta de los siguientes elementos:
 
 Al resumir datos mediante una consulta de tabla de referencias cruzadas, selecciona valores en campos o expresiones especificados como encabezados de columna para poder ver los datos en un formato más compacto que con una consulta de selección.
 
-TRANSFORM es opcional pero si se incluye, es la primera instrucción de una cadena SQL. Precede a una instrucción SELECT que especifica los campos usados como encabezados de fila y una cláusula [GROUP BY](https://msdn.microsoft.com/library/ff837271\(v=office.15\)) que especifica el agrupamiento de filas. Opcionalmente, puede incluir otras cláusulas, como [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)), que especifican criterios adicionales de selección u ordenación. También puede usar subconsultas o predicados, específicamente los de la cláusula WHERE, en una consulta de tabla de referencias cruzadas.
+TRANSFORM es opcional pero si se incluye, es la primera instrucción de una cadena SQL. Precede a una instrucción SELECT que especifica los campos usados como encabezados de fila y una cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica el agrupamiento de filas. Opcionalmente, puede incluir otras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifican criterios adicionales de selección u ordenación. También puede usar subconsultas o predicados, específicamente los de la cláusula WHERE, en una consulta de tabla de referencias cruzadas.
 
 Los valores devueltos en *campoDeTablaDinámica* se usan como encabezados de columna en el conjunto de resultados de la consulta. Por ejemplo, si se crea un campo de tabla dinámica con las cifras de ventas por el mes de la venta en una consulta de tabla de referencias cruzadas, se generarían 12 columnas. Puede restringir *campoDeTablaDinámica* para crear encabezados a partir de los valores fijos (*valor1*, *valor2*) enumerados en la cláusula IN opcional. También puede incluir valores fijos para los que no existen datos para crear columnas adicionales.
 

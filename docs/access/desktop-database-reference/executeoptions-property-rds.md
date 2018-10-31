@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5a91d3941db0b7daa61b506c136dab59f24ed0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8b91fc64a05ebdd947274cc4a119344ec2a6e284
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603591"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863958"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions (propiedad, RDS)
 
@@ -54,7 +54,7 @@ Establece o devuelve uno de los valores siguientes.
 
 
 > [!NOTE]
-> <P>[!NOTA] Cada archivo ejecutable del cliente que usa estas constantes debe proporcionar declaraciones. Puede cortar y pegar las declaraciones de constante que desee desde el archivo Adcvbs.inc que se encuentra en la carpeta C:\Archivos de programa\Archivos comunes\System\MSADC.</P>
+> [!NOTA] Cada archivo ejecutable del cliente que usa estas constantes debe proporcionar declaraciones. Puede cortar y pegar las declaraciones de constante que desee desde el archivo Adcvbs.inc que se encuentra en la carpeta C:\Archivos de programa\Archivos comunes\System\MSADC.
 
 
 

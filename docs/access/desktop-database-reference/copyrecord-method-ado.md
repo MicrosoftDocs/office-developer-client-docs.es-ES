@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73940108f96cf46cb15d646936039c0329373899
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606909"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860346"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord (método, ADO)
 
@@ -68,7 +68,7 @@ Este método se produce un error si *Destination* identifica una entidad existen
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Utilice la opción <STRONG>adCopyOverWrite</STRONG> con criterio. Por ejemplo, si especifica esta opción cuando copia un archivo en un directorio va a <EM>Eliminar</EM> el directorio y reemplácelo con el archivo.</P>
+> [!IMPORTANTE] Utilice la opción **adCopyOverWrite** con criterio. Por ejemplo, si especifica esta opción cuando copia un archivo en un directorio va a *Eliminar* el directorio y reemplácelo con el archivo.
 
 
 

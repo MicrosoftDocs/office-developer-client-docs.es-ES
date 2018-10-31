@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 7f0e8fa499a21bb231131b968c1456af9cb86a45
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603185"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862957"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -57,7 +57,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 <td><p>Una constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica el tipo de <strong>Recordset</strong> para abrir.</p>
 
 > [!NOTE]
-> <P>Si abre un <STRONG>Recordset</STRONG> en un área de trabajo de Microsoft Access y no especifica un tipo, <STRONG>OpenRecordset</STRONG> crea un <STRONG>Recordset</STRONG> de tipo tabla, si es posible. Si especifica una tabla o una consulta vinculada, <STRONG>OpenRecordset</STRONG> crea un <STRONG>Recordset</STRONG> de tipo conjunto de registros dinámicos.</P>
+> Si abre un **Recordset** en un área de trabajo de Microsoft Access y no especifica un tipo, **OpenRecordset** crea un **Recordset** de tipo tabla, si es posible. Si especifica una tabla o una consulta vinculada, **OpenRecordset** crea un **Recordset** de tipo conjunto de registros dinámicos.
 
 
 </td>
@@ -69,7 +69,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 <td><p>Una combinación de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica las características del nuevo <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>Las constantes <STRONG>dbConsistent</STRONG> y <STRONG>dbInconsistent</STRONG> son mutuamente exclusivas, y usar las dos producirá un error. Proporcionar un argumento lockedits cuando las opciones usan la constante <STRONG>dbReadOnly</STRONG> también produce un error.</P>
+> Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes, y el uso de ambos provoca un error. También se proporciona un argumento lockedits cuando opciones utilizan la constante **dbReadOnly** produce un error.
 
 
 </td>
@@ -81,7 +81,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 <td><p>Una constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina el bloqueo de <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>Puede usar <STRONG>dbReadOnly</STRONG> en el argumento options o en el argumento lockedits, pero no en ambos. Si lo usa para los dos argumentos, ocurre un error en tiempo de ejecución.</P>
+> Puede usar **dbReadOnly** en el argumento options o en el argumento lockedits, pero no en ambos. Si lo usa para los dos argumentos, ocurre un error en tiempo de ejecución.
 
 
 </td>
@@ -110,6 +110,6 @@ Cerrar un objeto **Recordset** con el método **[Close](connection-close-method-
 
 
 > [!NOTE]
-> <P>Si <EM>origen</EM> hace referencia a una instrucción SQL consta de una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se produce un error al intentar abrir el <STRONG>conjunto de registros</STRONG>. Esto se debe a que, durante la concatenación, el número se convierte en una cadena con el carácter decimal predeterminado del sistema, y SQL solo acepta los caracteres decimales de Estados Unidos.</P>
+> Si *origen* hace referencia a una instrucción SQL consta de una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se produce un error al intentar abrir el **conjunto de registros**. Esto se debe a que, durante la concatenación, el número se convierte en una cadena con el carácter decimal predeterminado del sistema, y SQL solo acepta los caracteres decimales de Estados Unidos.
 
 

@@ -1,20 +1,19 @@
 ---
 title: Instrucción CREATE USER o GROUP (Microsoft Access SQL)
-TOCTitle: CREATE USER or GROUP Statement (Microsoft Access SQL)
+TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: dce5b9a6894eb1e09a0307b389207baefae6aa58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 391c31240acf33a458895b00335d1600b975e834
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485557"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862649"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>Instrucción CREATE USER o GROUP (Microsoft Access SQL)
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -22,11 +21,11 @@ Crea uno o varios usuarios o grupos nuevos.
 
 ## <a name="syntax"></a>Sintaxis
 
-Para crear un usuario:
+**Crear un usuario**:
 
 CREATE USER *usuario* *contraseña pid* \[, *usuario* *contraseña pid*,...\]
 
-Para crear un grupo:
+**Creación de un grupo**:
 
 CREATE GROUP *grupo* *pid*\[, *grupo* *pid*,...\]
 

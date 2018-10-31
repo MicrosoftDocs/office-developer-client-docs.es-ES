@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250049(v=office.15)
 ms:contentKeyID: 48547878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed3e6bfd6fe3b6727055eb264b1261b13d7a5a0b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 692bf7e1adf561c99ec1e3060578de93fbd1a064
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483541"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861886"
 ---
 # <a name="step-3-send-the-data"></a>Paso 3: Enviar los datos
 
@@ -40,5 +40,7 @@ Tenga en cuenta que el objeto de **respuesta** de ASP se especifica como el dest
 
 Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp. Copie también el archivo adovbs.inc desde C:\\archivos de programa\\archivos comunes\\System\\carpeta de Ado en la misma carpeta donde se encuentra el archivo XMLResponse.asp.
 
-**Siguiente** [Paso 4: recibir los datos](step-4-receive-and-display-the-data.md)
+### <a name="next-step"></a>Paso siguiente
+
+[Paso 4: Recibir los datos](step-4-receive-and-display-the-data.md)
 

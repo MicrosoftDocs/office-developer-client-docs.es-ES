@@ -1,30 +1,30 @@
 ---
-title: CREATE INDEX (instrucción de Microsoft Access SQL)
-TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
+title: Instrucción CREATE INDEX (Microsoft Access SQL)
+TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab501348d19ad8577bf1a55a3f37c6c3923381b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7710dd89a645b10d20044e2eeaeb26986730c843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483718"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861557"
 ---
-# <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX (instrucción de Microsoft Access SQL)
+# <a name="create-index-statement-microsoft-access-sql"></a>Instrucción CREATE INDEX (Microsoft Access SQL)
 
 **Se aplica a**: Access 2013 | Office 2013
 
 Crea un índice nuevo en una tabla existente.
 
 > [!NOTE]
-> [!NOTA] Para las bases de datos que no son del motor de base de datos de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) ni las instrucciones de lenguaje de definición de datos (DDL). En su lugar, use los métodos Create de DAO. Para obtener más información, vea la sección Comentarios.
+> Para las bases de datos del motor de base de datos de no sean de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) o cualquiera de las instrucciones de lenguaje (DDL) de definición de datos. Utilice en su lugar los métodos **Create de DAO** . Si desea más información, vea la sección Comentarios.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -64,7 +64,7 @@ La instrucción CREATE INDEX consta de los siguientes elementos:
 
 Para prohibir valores duplicados en el campo o campos indizados de diferentes registros, use la palabra reservada UNIQUE.
 
-En la cláusula WITH opcional, puede aplicar reglas de validación de datos. Se puede:
+En la cláusula opcional WITH, puede aplicar las reglas de validación de datos. Se puede:
 
 - Prohibir entradas Null en el campo o campos indizados de nuevos registros mediante la opción DISALLOW NULL.
 
@@ -72,7 +72,7 @@ En la cláusula WITH opcional, puede aplicar reglas de validación de datos. Se 
 
 - Designar el campo o campos indizados como la clave principal mediante la palabra reservada PRIMARY. Esto implica que la clave es única, por lo que se puede omitir la palabra reservada UNIQUE.
 
-Puede usar CREATE INDEX para crear un pseudoíndice en una tabla vinculada de un origen de datos ODBC, por ejemplo Microsoft® SQL Server, que no tenga un índice. No es necesario permiso o acceso al servidor remoto para crear un pseudoíndice y éste no es conocido por la base de datos remota ni le afecta. Se usa la misma sintaxis para las tablas vinculadas y nativas. Puede ser especialmente útil la creación de un pseudoíndice en una tabla que normalmente será de sólo lectura.
+Puede utilizar CREATE INDEX para crear un pseudoíndice en una tabla vinculada en un origen de datos ODBC, como Microsoft SQL Server, que ya no tiene un índice. No es necesario permiso o acceso al servidor remoto para crear un pseudoíndice y éste no es conocido por la base de datos remota ni le afecta. Se usa la misma sintaxis para las tablas vinculadas y nativas. Puede ser especialmente útil la creación de un pseudoíndice en una tabla que normalmente será de sólo lectura.
 
 También puede usar la instrucción [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) para agregar un índice de campo único o de varios campos a una tabla y puede usar la instrucción ALTER TABLE o la instrucción [DROP](drop-statement-microsoft-access-sql.md) para eliminar un índice creado con ALTER TABLE o CREATE INDEX.
 

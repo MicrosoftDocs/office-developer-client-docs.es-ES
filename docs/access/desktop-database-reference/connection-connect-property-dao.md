@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
 ms:contentKeyID: 48545001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b1b4baff3bd1ca7d39fbf86f2002b73bda996f1a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a362f2d480a27341620695038e6507083ae5ed81
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485844"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861845"
 ---
 # <a name="connectionconnect-property-dao"></a>Connection.Connect Property (DAO)
 
@@ -165,10 +165,7 @@ En un objeto **QueryDef** de un área de trabajo de Microsoft Access, puede usar
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Debe establecer la propiedad <STRONG>Connect</STRONG> antes de establecer la propiedad <STRONG>ReturnsRecords</STRONG>.</P>
-> <LI>
-> <P>Debe tener permisos de acceso al equipo que contiene el servidor de base de datos al que intenta obtener acceso.</P></LI></UL>
+> - Debe establecer la propiedad **Connect** antes de establecer la propiedad **ReturnsRecords**.
+> - Debe tener permisos de acceso al equipo que contiene el servidor de base de datos al que intenta obtener acceso.
 
 

@@ -1,17 +1,17 @@
 ---
 title: Ejemplo de los métodos Save y Open (VJ++)
-TOCTitle: Save and Open Methods Example (VJ++)
+TOCTitle: Save and Open methods example (VJ++)
 ms:assetid: 15ad340a-2d32-3656-25d1-5c3927b9fed2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69d2ea8f40946ea3edcacf52c97a7464d47cd653
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c671946dbd8a7be83c9d2a3c651e614b1fa90bfc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483364"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864015"
 ---
 # <a name="save-and-open-methods-example-vj"></a>Ejemplo de los métodos Save y Open (VJ++)
 

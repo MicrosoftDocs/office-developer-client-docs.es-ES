@@ -1,19 +1,19 @@
 ---
-title: Ejemplo de métodos Append, ChangePassword de Groups y Users (VC++)
-TOCTitle: Groups and Users Append, ChangePassword Methods Example (VC++)
+title: Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)
+TOCTitle: Groups and Users Append, ChangePassword methods example (VC++)
 ms:assetid: 4eaaed4f-f5bf-38d0-b984-8e3f344923c5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249252(v=office.15)
 ms:contentKeyID: 48544759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49a3018257de782a7b3d50128dd5d6ff692707cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 841ac1f5f4c29c5eb23d85509d06023000cf1959
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483599"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863076"
 ---
-# <a name="groups-and-users-append-changepassword-methods-example-vc"></a>Ejemplo de métodos Append, ChangePassword de Groups y Users (VC++)
+# <a name="groups-and-users-append-changepassword-methods-example-vc"></a>Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)
 
 
 **Se aplica a**: Access 2013 | Office 2013

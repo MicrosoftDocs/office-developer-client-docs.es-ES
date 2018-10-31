@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62b195907d5acc05832c1feac45165aadd9e14d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 526498ee22bc82735eb3b98e633aa3d1b4cfb610
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484643"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864105"
 ---
 # <a name="error-object-dao"></a>Error Object (DAO)
 
@@ -40,7 +40,7 @@ Enumerar los errores específicos en la colección **Errors** permite rutinas de
     
 
     > [!NOTE]
-    > <P>[!NOTA] Al programar en Microsoft Visual Basic para Aplicaciones (VBA), si usa la palabra clave <STRONG>New</STRONG> para crear un objeto que provoca posteriormente un error antes de que se anexe este objeto a una colección, la colección <STRONG>Errors</STRONG> del objeto <STRONG>DBEngine</STRONG> no va a contener una entrada para este error del objeto porque el nuevo objeto no está asociado al objeto <STRONG>DBEngine</STRONG>. No obstante, la información de error está disponible en el objeto <STRONG>Err</STRONG> VBA. El código de tratamiento de errores VBA debe examinar la colección <STRONG>Errors</STRONG> siempre que prevea un error de acceso a datos. Si está escribiendo un tratamiento de errores centralizado, compruebe el objeto <STRONG>Err</STRONG> VBA para determinar si la información de error de la colección <STRONG>Errors</STRONG> es válida. Si la propiedad <STRONG>Number</STRONG> del último elemento de la colección <STRONG>Errors</STRONG> (DBEngine.Errors.Count - 1) y el valor del objeto <STRONG>Err</STRONG> coinciden, a continuación, puede usar una serie de instrucciones <STRONG>Select Case</STRONG> para identificar el error DAO determinado o errores que se ha producido. Si no coinciden, use el método <STRONG><A href="errors-refresh-method-dao.md">Refresh</A></STRONG> de la colección <STRONG>Errors</STRONG>.</P>
+    > [!NOTA] Al programar en Microsoft Visual Basic para Aplicaciones (VBA), si usa la palabra clave **New** para crear un objeto que provoca posteriormente un error antes de que se anexe este objeto a una colección, la colección **Errors** del objeto **DBEngine** no va a contener una entrada para este error del objeto porque el nuevo objeto no está asociado al objeto **DBEngine**. No obstante, la información de error está disponible en el objeto **Err** VBA. El código de tratamiento de errores VBA debe examinar la colección **Errors** siempre que prevea un error de acceso a datos. Si está escribiendo un tratamiento de errores centralizado, compruebe el objeto **Err** VBA para determinar si la información de error de la colección **Errors** es válida. Si la propiedad **Number** del último elemento de la colección **Errors** (DBEngine.Errors.Count - 1) y el valor del objeto **Err** coinciden, a continuación, puede usar una serie de instrucciones **Select Case** para identificar el error DAO determinado o errores que se ha producido. Si no coinciden, use el método [Refresh](errors-refresh-method-dao.md) de la colección **Errors**.
 
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb0f40ed8dcffc4af54d7cba68cf5ddd62ed8b96
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4bcd98c41fe6961112758a284aadb3806754bb77
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602534"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863328"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Document.CreateProperty Method (DAO)
 
@@ -96,6 +96,6 @@ Para quitar un objeto **Property** definido por el usuario de la colección, use
 
 
 > [!NOTE]
-> <P>Si se omite el argumento DDL, el valor predeterminado es False (no DDL). Como no se expone ninguna propiedad DLL correspondiente, debe eliminar y volver a crear un objeto <STRONG>Property</STRONG> que desee cambiar de DDL a no DDL.</P>
+> Si se omite el argumento DDL, el valor predeterminado es False (no DDL). Como no se expone ninguna propiedad DLL correspondiente, debe eliminar y volver a crear un objeto **Property** que desee cambiar de DDL a no DDL.
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62e57c91acd83291ee7390d305303521510acbd2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485750"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864140"
 ---
 # <a name="ado-technology-table"></a>Tabla de tecnología ADO
 
@@ -38,7 +38,7 @@ La tabla siguiente enumera los productos, herramientas y tecnologías de Microso
 </tr>
 <tr class="even">
 <td><p>Interfaces del servicio de Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Proveedor de Microsoft OLE DB para Servicio de Active Directory de Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Proveedor de Microsoft OLE DB para el servicio Microsoft Active Directory</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
@@ -46,11 +46,11 @@ La tabla siguiente enumera los productos, herramientas y tecnologías de Microso
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Proveedor de Microsoft OLE DB para publicaciones en Internet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Servicio de Index Server</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Proveedor de Microsoft OLE DB para el servicio de indexación de Microsoft</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>

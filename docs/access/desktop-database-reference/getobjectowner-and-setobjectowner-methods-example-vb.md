@@ -1,24 +1,24 @@
 ---
-title: Ejemplo de métodos GetObjectOwner y SetObjectOwner (VB)
-TOCTitle: GetObjectOwner and SetObjectOwner Methods Example (VB)
+title: Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VB)
+TOCTitle: GetObjectOwner and SetObjectOwner methods example (VB)
 ms:assetid: 0a30cce1-7626-8db3-4af4-84098c284db0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248833(v=office.15)
 ms:contentKeyID: 48543146
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 720eaf7d4ba4a73a85f392d33244369ae96a75b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1e79e57cc88e85c9533201ca791fba13c9e3c65
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485052"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862929"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>Ejemplo de métodos GetObjectOwner y SetObjectOwner (VB)
+# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VB)
 
 
 **Se aplica a**: Access 2013 | Office 2013
 
-En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Este código supone la existencia del grupo Contabilidad (vea el [Ejemplo de métodos Append, ChangePassword de Groups y Users (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para averiguar cómo se agrega este grupo al sistema). El propietario de la tabla Categorías se establece en Contabilidad.
+En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver cómo se agrega este grupo al sistema). El propietario de la tabla Categorías se establece en Contabilidad.
 
 ```vb 
  

@@ -4,14 +4,14 @@ TOCTitle: ADCPROP_UPDATECRITERIA_ENUM
 ms:assetid: 70da63fa-fa75-9bb4-683d-0fcb4c4a2934
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b018402f6a2d48819a3f97c69e2a8db77fa9e84c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 942639a4c87cfe325b9ec8326e2eb392458fa8b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486793"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863695"
 ---
 # <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_ENUM
 
@@ -20,6 +20,8 @@ ms.locfileid: "25486793"
 Especifica qué campos se pueden usar para detectar conflictos durante una actualización optimista de una fila del origen de datos con un objeto [Recordset](recordset-object-ado.md).
 
 Use estas constantes con la propiedad dinámica "**Update Criteria**" del objeto **Recordset**, que aparece en el [Índice de propiedades dinámicas de ADO](ado-dynamic-property-index.md) y se explica en la documentación del [Servicio de cursores de Microsoft para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -59,7 +61,7 @@ Use estas constantes con la propiedad dinámica "**Update Criteria**" del objeto
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

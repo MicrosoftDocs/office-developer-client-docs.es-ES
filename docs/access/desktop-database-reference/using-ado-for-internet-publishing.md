@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e2d939f8583fdfd98ed1ae8e51a5bbfe792e486
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f8266d2b632b27ee4fafbb4ed0634def544c17a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486307"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860262"
 ---
-# <a name="using-ado-for-internet-publishing"></a>Utilizar ADO para publicaciones en Internet
+# <a name="using-ado-for-internet-publishing"></a>Uso de ADO para publicaciones en Internet
 
 
 **Se aplica a**: Access 2013 | Office 2013
@@ -42,3 +42,6 @@ Se han mejorado varios objetos de ADO para que funcionen conjuntamente con los o
 
   - Como método abreviado y una alternativa al método **Append**, se pueden crear campos asignando simplemente un valor a un campo sin definir o un campo anteriormente eliminado.
 
+## <a name="see-also"></a>Vea también
+
+- [Temas de escenario de Internet Publishing](internet-publishing-scenario.md)

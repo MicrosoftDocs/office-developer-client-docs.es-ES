@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d32c0860f76aeeaa64a060a55579d05c1eb571ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2c8a4844d02c55db6cea80e0767b4b7f75d114
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485304"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861457"
 ---
 # <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType Property (DAO)
 
@@ -36,9 +36,7 @@ La configuración o el valor devuelto puede ser una de las constantes **[Workspa
 
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 El valor se puede invalidar para un único **Workspace** estableciendo el argumento type en el método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .
 

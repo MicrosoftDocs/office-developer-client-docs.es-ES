@@ -46,7 +46,7 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>none</p></td>
+<td><p>ninguno</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -64,11 +64,8 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 </table>
 
 
-
 > [!NOTE]
-> <P>Si bien el método <STRONG>Supports</STRONG>(<STRONG>adUpdateBatch</STRONG>) puede tener el valor True para los cursores dinámicos y de sólo avance, para las actualizaciones por lotes se debe usar un cursor estático o un cursor de conjunto de claves. Establezca el valor de la propiedad <A href="locktype-property-ado.md">LockType</A> en <STRONG>adLockBatchOptimistic</STRONG> y el valor de la propiedad <STRONG>CursorLocation</STRONG> en <STRONG>adUseClient</STRONG> para habilitar el Servicio de cursores para OLE DB, que se requiere para las actualizaciones por lotes.</P>
-
-
+> Si bien el método **Supports**(**adUpdateBatch**) puede tener el valor True para los cursores dinámicos y de sólo avance, para las actualizaciones por lotes se debe usar un cursor estático o un cursor de conjunto de claves. Establezca el valor de la propiedad [LockType](locktype-property-ado.md) en **adLockBatchOptimistic** y el valor de la propiedad **CursorLocation** en **adUseClient** para habilitar el Servicio de cursores para OLE DB, que se requiere para las actualizaciones por lotes.
 
 La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.
 

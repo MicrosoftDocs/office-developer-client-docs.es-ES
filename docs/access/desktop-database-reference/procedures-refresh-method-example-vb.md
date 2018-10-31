@@ -1,19 +1,19 @@
 ---
-title: Ejemplo de método Refresh de Procedures (VB)
-TOCTitle: Procedures Refresh Method Example (VB)
+title: Ejemplo del método Refresh de Procedures (VB)
+TOCTitle: Procedures Refresh method example (VB)
 ms:assetid: fd6d71cf-7a6b-49d7-220b-dd5b815a92ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250300(v=office.15)
 ms:contentKeyID: 48548916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dc8c3f31de408c0bf071e18493a1989718d589ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef872fbb5fed4c981f127c3fc98ea4656f0dab98
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485978"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863020"
 ---
-# <a name="procedures-refresh-method-example-vb"></a>Ejemplo de método Refresh de Procedures (VB)
+# <a name="procedures-refresh-method-example-vb"></a>Ejemplo del método Refresh de Procedures (VB)
 
 
 **Se aplica a**: Access 2013 | Office 2013

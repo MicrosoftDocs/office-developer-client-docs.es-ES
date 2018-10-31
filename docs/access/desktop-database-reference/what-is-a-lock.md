@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f852901be41060568bdbad539906e9166d080fad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d37d5b618db5e2de698fc4250afde7c4ca5fb5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485182"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862187"
 ---
 # <a name="what-is-a-lock"></a>¿Qué es un bloqueo?
 
@@ -31,4 +31,8 @@ Puede que los proveedores no admitan todos los tipos de bloqueo. Si un proveedor
 El valor **adLockPessimistic** no se admite si la propiedad [CursorLocation](cursorlocation-property-ado.md) se establece en **adUseClient**. Si se establece un valor no admitido, no se producirá ningún error; en su lugar, se utilizará el **LockType** admitido más próximo.
 
 La propiedad **LockType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y de solo lectura cuando está abierto.
+
+En esta sección se incluye el siguiente tema:
+
+- [Tipos de bloqueos](types-of-locks.md)
 

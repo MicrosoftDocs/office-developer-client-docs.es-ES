@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36d7bf1b39186eca841e417473e31e2bfd3a2dfc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1779f2c7e16e2f39a3912f271296c6a7bd0fd550
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483793"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861949"
 ---
 # <a name="using-the-command-object-access"></a>Using the Command Object (Access)
 
@@ -24,8 +24,17 @@ Puede usar el objeto **Command** para solicitar cualquier tipo de operación del
 
 No siempre es necesario crear un objeto **Command** para ejecutar un comando en un origen de datos. Puede utilizar el método **Execute** en el objeto **Connection** o el método **Open** en el objeto **Recordset**. Sin embargo, debe usar un objeto **Command** si necesita volver a usar un comando en el código o si debe pasar información detallada de parámetros con el comando. Estos escenarios se describen con más detalle posteriormente en este capítulo.
 
-
 > [!NOTE]
-> <P>Algunos objetos <STRONG>Command</STRONG> pueden devolver un conjunto de resultados como una secuencia binaria o un único <STRONG>registro</STRONG>, en vez de un objeto <STRONG>Recordset</STRONG>, si el proveedor admite esa posibilidad. Además, algunos objetos <STRONG>Command</STRONG> no devuelven ningún conjunto de resultados (por ejemplo, una consulta Update de SQL). Este capítulo tratará el escenario más típico: ejecutar objetos <STRONG>Command</STRONG> que devuelven resultados en un objeto <STRONG>Recordset</STRONG>. Para obtener más información acerca de los resultados devueltos en objetos <STRONG>Record</STRONG> o <STRONG>Stream</STRONG>, vea <A href="chapter-10-records-and-streams.md">Capítulo 10: Objetos Record y Stream</A>.</P>
+> Determinados comandos pueden devolver un resultado de establecer como una secuencia binaria o un único registro, en lugar de un objeto Recordset, si esto es compatible con el proveedor. Además, algunos comandos no están diseñados para devolver cualquier conjunto en absoluto de resultados (por ejemplo, una consulta SQL Update). Este capítulo tratará el escenario más típico: ejecutar comandos que devuelven resultados en un objeto Recordset. Para obtener más información sobre cómo devolver los resultados en secuencias o de registros, vea [capítulo 10: objetos Record y Stream](chapter-10-records-and-streams.md).
 
+Esta sección incluye los temas siguientes:
 
+- [Información general del objeto Command](command-object-overview.md)
+
+- [Creación y ejecución de un comando simple](creating-and-executing-a-simple-command.md)
+
+- [Parámetros del objeto Command](command-object-parameters.md)
+
+- [Llamada a un procedimiento almacenado con un comando](calling-a-stored-procedure-with-a-command.md)
+
+- [Comandos con nombre](named-commands.md)

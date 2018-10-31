@@ -6,23 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 001cb1372acf4a4a55b3841a3f4ca8d6598f55e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d797852512becee7f076298750495205cd09bf86
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484107"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861506"
 ---
 # <a name="connection-members-dao"></a>Connection Members (DAO)
 
-
 **Se aplica a**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.Un objeto Connection representa una conexión a una base de datos ODBC (solo áreas de trabajo de ODBCDirect).</P>
-
-
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).
+ 
 
 ## <a name="methods"></a>Métodos
 
@@ -42,8 +39,7 @@ ms.locfileid: "25484107"
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 <p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
@@ -90,8 +86,7 @@ ms.locfileid: "25484107"
 <td><p><strong><a href="connection-database-property-dao.md">Base de datos</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 <p>Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</p></td>
@@ -120,8 +115,7 @@ ms.locfileid: "25484107"
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+<br/>
 
 
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>

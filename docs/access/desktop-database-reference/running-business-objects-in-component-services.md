@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41424fd62e915ecb2d54fdb49c939b788f458804
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0eb70a615f49ff351ec31a826abc9775558218dd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484540"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862558"
 ---
 # <a name="running-business-objects-in-component-services"></a>Ejecutar objetos de negocio en servicios de componentes
 
@@ -26,6 +26,11 @@ Los objetos de negocio pueden ser archivos ejecutables (.exe) o bibliotecas de v
 
 
 > [!NOTE]
-> <P>Cuando los objetos de negocios en el nivel intermedio se implementan como componentes de servicios de componentes (mediante <STRONG>GetObjectContext</STRONG>, <STRONG>SetComplete</STRONG>y <STRONG>SetAbort</STRONG>), pueden usar servicios de componentes (o MTS, si está utilizando Windows NT) para los objetos de contexto mantener su estado entre diferentes llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). En este caso, el objeto <A href="dataspace-object-rds.md">RDS.DataSpace</A> y el método <A href="createobject-method-rds.md">CreateObject</A> del cliente se reemplazan con el objeto de contexto de transacción y el método <STRONG>CreateInstance</STRONG> (proporcionado por la interfaz <STRONG>ITransactionContext</STRONG> ), implementados por Servicios de componentes.</P>
+> Cuando los objetos de negocios en el nivel intermedio se implementan como componentes de servicios de componentes (mediante **GetObjectContext**, **SetComplete**y **SetAbort**), pueden usar servicios de componentes (o MTS, si está utilizando Windows NT) para los objetos de contexto mantener su estado entre diferentes llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). 
+>
+> En este caso, el objeto [RDS.DataSpace](dataspace-object-rds.md) y el método [CreateObject](createobject-method-rds.md) del cliente se reemplazan con el objeto de contexto de transacción y el método **CreateInstance** (proporcionado por la interfaz **ITransactionContext** ), implementados por Servicios de componentes.
 
 
+## <a name="see-also"></a>Vea también
+
+- [Ejecutar objetos de negocio en servicios de componentes (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

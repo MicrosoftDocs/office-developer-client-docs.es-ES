@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 106dd9d72cb350422f00da05859bc096cb2b52e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca51537c78dfc07a6cd3560bba7154f6b56ef31f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485066"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861214"
 ---
 # <a name="append-method-adox-views"></a>Append (método, vistas ADOX)
 
@@ -43,6 +43,6 @@ Si el texto del comando que especifica el usuario representa un procedimiento en
 
 
 > [!NOTE]
-> <P>Cuando se usa el proveedor OLE DB para Microsoft Jet, el método <STRONG>Append</STRONG> de la colección de <STRONG>vistas</STRONG> permiten especificar un <STRONG>procedimiento</STRONG> en lugar de una <STRONG>vista</STRONG> en el parámetro <EM>Command</EM> . El <STRONG>procedimiento</STRONG> se agregará al origen de datos y a la colección <STRONG>Views</STRONG>. Después del proceso <STRONG>Append</STRONG>, si se actualizan las colecciones <STRONG>Procedures</STRONG> y <STRONG>Views</STRONG>, el <STRONG>procedimiento</STRONG> ya no estará en la colección <STRONG>Views</STRONG> y aparecerá en la colección <STRONG>Procedures</STRONG>.</P>
+> Cuando se usa el proveedor OLE DB para Microsoft Jet, el método **Append** de la colección de **vistas** permiten especificar un **procedimiento** en lugar de una **vista** en el parámetro *Command* . El **procedimiento** se agregará al origen de datos y a la colección **Views**. Después del proceso **Append**, si se actualizan las colecciones **Procedures** y **Views**, el **procedimiento** ya no estará en la colección **Views** y aparecerá en la colección **Procedures**.
 
 

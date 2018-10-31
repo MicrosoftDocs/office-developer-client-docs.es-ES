@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 727b6df3907354d681312637b3a02d242db69528
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 892dc16d0422572e83f92316ce2c1c67f9ce5cc0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485588"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860647"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword Method (DAO)
 
@@ -61,7 +61,7 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 <td><p>La nueva configuración de la propiedad <strong>Password</strong> del objeto de <strong>base de datos</strong> .</p>
 
 > [!NOTE]
-> <P>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</P>
+> [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
 
 
 </td>
@@ -80,6 +80,6 @@ Si una base de datos no tiene contraseña, el motor de base de datos de Microsof
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Si pierde la contraseña, puede que nunca vuelva a abrir la base de datos.</P>
+> [!IMPORTANTE] Si pierde la contraseña, puede que nunca vuelva a abrir la base de datos.
 
 

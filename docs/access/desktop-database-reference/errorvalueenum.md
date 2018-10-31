@@ -4,17 +4,16 @@ TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
 ms:contentKeyID: 48543921
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: de7f19c119c3161ece57344b911fcca36a1a8a3d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5e9da9b9c197bb9917d2184e07a76bdfb25bd031
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485242"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860867"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -22,17 +21,16 @@ Especifica el tipo de error ADO en tiempo de ejecución.
 
 Se muestran tres formas del número de error:
 
-  - Decimal positivo: los dos bytes bajos del número completo en formato decimal. Este número aparece en el cuadro de diálogo predeterminado de mensaje de error de Visual Basic. Por ejemplo, Error en tiempo de ejecución "3707".
+- Decimal positivo: los dos bytes bajos del número completo en formato decimal. Este número aparece en el cuadro de diálogo predeterminado de mensaje de error de Visual Basic. Por ejemplo, Error en tiempo de ejecución "3707".
 
-  - Decimal negativo: la traducción decimal del número de error completo.
+- Decimal negativo: la traducción decimal del número de error completo.
 
-  - Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para números de error ADO es *A*. Por ejemplo: 0x800***A***0E7B.
-
+- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para números de error ADO es *A*. Por ejemplo: 0x800***A***0E7B.
 
 > [!NOTE]
-> <P>Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de <EM>4</EM> dígitos. Por ejemplo, 0x800<STRONG><EM>4</EM></STRONG>... Para obtener más información acerca de estos números, vea el Capítulo 16 de la <EM>Referencia del programador de OLE DB</EM>.</P>
+> Errores de OLE DB se pueden pasar a una aplicación de ADO. Normalmente, estos se pueden identificar por un código de servicio de Windows de *4*. Por ejemplo, 0x800_**4**_... Para obtener más información acerca de estos números, consulte el capítulo 16 de la *referencia del programador de OLE DB.*
 
-
+<br/>
 
 <table>
 <colgroup>
@@ -430,7 +428,7 @@ Se muestran tres formas del número de error:
 </table>
 
 
-**Equivalente ADO/WFC**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

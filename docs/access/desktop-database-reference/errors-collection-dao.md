@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f118bab1a73d29858776e33149c54aab39ef5cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9091d2c767bf7910a99d30cd0ffa7cbe122a1be0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483672"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864070"
 ---
 # <a name="errors-collection-dao"></a>Errors Collection (DAO)
 
@@ -34,9 +34,7 @@ La enumeración de los errores específicos en la colección **Errors** permite 
 
 
 > [!NOTE]
-> <P>[!NOTA] Si utiliza la palabra clave <STRONG>New</STRONG> para crear un objeto que causa un error antes o mientras se coloca en la colección <STRONG>Errors</STRONG>, la colección no contiene información de error del objeto, porque el nuevo objeto no está asociado al objeto <STRONG>DBEngine</STRONG>. Sin embargo, la información sobre el error está disponible en el objeto <STRONG>Err</STRONG> de VBA.</P>
-
-
+> [!NOTA] Si utiliza la palabra clave **New** para crear un objeto que causa un error antes o mientras se coloca en la colección **Errors**, la colección no contiene información de error del objeto, porque el nuevo objeto no está asociado al objeto **DBEngine**. Sin embargo, la información sobre el error está disponible en el objeto **Err** de VBA.
 
 ## <a name="example"></a>Ejemplo
 

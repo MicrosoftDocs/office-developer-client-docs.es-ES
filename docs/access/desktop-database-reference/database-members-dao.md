@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15f868867466bdbce6f15b326a88b7a9f0842015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58e36426360abf36d7fdf0cb026f6d8ff14b29b5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483553"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864032"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -109,7 +109,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 <p>Devuelve el objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde a la base de datos (sólo áreas de trabajo de ODBCDirect).</p></td>
@@ -167,7 +167,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="database-version-property-dao.md">Versión</a></strong></p></td>
 <td><p>En un área de trabajo de Microsoft Access, devuelve la versión del motor de base de datos de Microsoft Jet o Microsoft Access que creó la base de datos. <strong>String</strong> de solo lectura.</p></td>
 </tr>
 </tbody>

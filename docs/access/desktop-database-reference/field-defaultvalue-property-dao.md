@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862229"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
 
@@ -33,11 +33,10 @@ La configuración o el valor devuelto es un tipo de datos **String** que puede c
 
 
 > [!NOTE]
-> <P>[!NOTA] También puede establecer la propiedad <STRONG>DefaultValue</STRONG> de un objeto <STRONG>Field</STRONG> en un objeto <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> del campo debe ser de tipo <STRONG>Long</STRONG>.</P>
+> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser de tipo **Long**.
 
 
-
-La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se indica en la siguiente tabla.
+La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.
 
 <table>
 <colgroup>

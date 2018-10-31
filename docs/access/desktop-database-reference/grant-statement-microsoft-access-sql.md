@@ -1,24 +1,23 @@
 ---
 title: Instrucción GRANT (Microsoft Access SQL)
-TOCTitle: GRANT Statement (Microsoft Access SQL)
+TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
 ms:contentKeyID: 48544800
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277478
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d4fffc9ac40586be899de0dd4054ba39dd3a6489
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4e37c0853c2b80c42bb2560cb0a19122c45f85f4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483351"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860882"
 ---
 # <a name="grant-statement-microsoft-access-sql"></a>Instrucción GRANT (Microsoft Access SQL)
-
 
 **Se aplica a**: Access 2013 | Office 2013
 
@@ -46,7 +45,7 @@ La instrucción GRANT consta de los siguientes elementos:
 <tbody>
 <tr class="odd">
 <td><p><em>privilegio</em></p></td>
-<td><p>El privilegio o privilegios que se conceden. Los privilegios se especifican mediante las siguientes palabras clave: seleccionar, eliminar, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</p></td>
+<td><p>El privilegio o privilegios que se conceden. Los privilegios se especifican mediante las siguientes palabras clave: seleccionar, eliminar, insertar, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, esquema y UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>nombretabla</em></p></td>

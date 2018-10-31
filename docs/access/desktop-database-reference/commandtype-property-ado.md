@@ -24,10 +24,8 @@ Indica el tipo de un objeto [Command](command-object-ado.md).
 
 Establece o devuelve uno o varios valores de [CommandTypeEnum](commandtypeenum.md).
 
-
 > [!NOTE]
-> <P>[!NOTA] No use los valores <STRONG>adCmdFile</STRONG> ni <STRONG>adCmdTableDirect</STRONG> de <STRONG>CommandTypeEnum</STRONG> con la propiedad <STRONG>CommandType</STRONG>. Estos valores se pueden usar únicamente como opciones con los métodos <A href="open-method-ado-recordset.md">Open</A> y <A href="requery-method-ado.md">Requery</A> de un objeto <A href="recordset-object-ado.md">Recordset</A>.</P>
-
+> [!NOTA] No use los valores **adCmdFile** ni **adCmdTableDirect** de **CommandTypeEnum** con la propiedad **CommandType**. Estos valores se pueden usar únicamente como opciones con los métodos [Open](open-method-ado-recordset.md) y [Requery](requery-method-ado.md) de un objeto [Recordset](recordset-object-ado.md).
 
 
 ## <a name="remarks"></a>Comentarios

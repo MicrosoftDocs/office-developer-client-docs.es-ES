@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249019(v=office.15)
 ms:contentKeyID: 48543764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6336819b759e7ced832e993f72b05ebc2108587
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e94f4d313a9c43d08c9786c6f27fd49624709249
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486306"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863069"
 ---
 # <a name="vbscript-ado-programming"></a>Programación ADO en VBScript
 
@@ -75,7 +75,7 @@ Response.Write("Success!")
 </HTML> 
 ```
 
-En la documentación de ADO, se incluyen ejemplos más específicos de VBScript. Para obtener más información, vea [Ejemplos de código de ADO en Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
+En la documentación de ADO, se incluyen ejemplos más específicos de VBScript. Para obtener más información, vea [ejemplos de código de ADO en Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
 
 ## <a name="differences-between-vbscript-and-visual-basic"></a>Diferencias entre VBScript y Visual Basic
 

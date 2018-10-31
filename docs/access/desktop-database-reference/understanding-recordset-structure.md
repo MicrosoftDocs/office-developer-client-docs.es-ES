@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249027(v=office.15)
 ms:contentKeyID: 48543808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f62045704003f8642beeef69987af595636c6be0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 32bb976c4b5a88855d1e1351c49d9de6c054a492
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484286"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860199"
 ---
-# <a name="understanding-recordset-structure"></a>Estructura de un objeto Recordset
-
+# <a name="understanding-recordset-structure"></a>Descripción de la estructura del conjunto de registros
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Cada objeto **Recordset** tiene una colección **Fields** que consta de uno o varios objetos **Field**. Un objeto **Field** suele representar una columna de tabla. En los temas siguientes, se detallará cómo navegar por la colección **Fields** y obtener información acerca de cada campo. Después, se explicará qué tipo de información se encuentra disponible a través del objeto **Field** y cómo usarla.
+Cada objeto **Recordset** tiene una colección **Fields** que consta de uno o varios objetos **Field**. Un objeto **Field** suele representar una columna de tabla. 
 
-  - [La colección Fields](the-fields-collection.md)
+Los temas siguientes explican cómo desplazarse a través de la colección **Fields** y obtener información acerca de cada campo. Describen a continuación, ¿qué tipo de información está disponible a través del objeto de **campo** y cómo usarla.
 
-  - [El objeto Field](the-field-object.md)
+- [La colección Fields](the-fields-collection.md)
 
-  - [Trabajar con objetos Recordset](working-with-recordsets.md)
+- [El objeto Field](the-field-object.md)
+
+- [Trabajar con objetos Recordset](working-with-recordsets.md)
 

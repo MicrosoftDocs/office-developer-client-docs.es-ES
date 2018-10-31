@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b9aafe1b16b3d989a81ff21f97bd4b6d10f79de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51acfc5f349d6096028ef86aac480ce81c9b26bf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485597"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860500"
 ---
 # <a name="errorsource-property-dao"></a>Error.Source Property (DAO)
 
@@ -41,9 +41,7 @@ Basándose en toda la documentación del error, puede escribir código que contr
 
 
 > [!NOTE]
-> <P>La construcción <STRONG>On Error Resume Next</STRONG> puede ser preferible a <STRONG>On Error GoTo</STRONG> cuando se tratan errores generados durante el acceso a otros objetos. La comprobación de la propiedad del objeto <STRONG>Error</STRONG> después de cada interacción con un objeto elimina la ambigüedad sobre cuál fue el objeto al que obtuvo acceso el código cuando se produjo el error. De este modo, puede saber con seguridad qué objeto colocó el código de error en <STRONG>Error.Number</STRONG> y qué objeto generó originalmente el error (<STRONG>Error.Source</STRONG>).</P>
-
-
+> La construcción **On Error Resume Next** puede ser preferible a **On Error GoTo** cuando se tratan errores generados durante el acceso a otros objetos. La comprobación de la propiedad del objeto **Error** después de cada interacción con un objeto elimina la ambigüedad sobre cuál fue el objeto al que obtuvo acceso el código cuando se produjo el error. De este modo, puede saber con seguridad qué objeto colocó el código de error en **Error.Number** y qué objeto generó originalmente el error (**Error.Source**).
 
 ## <a name="example"></a>Ejemplo
 
