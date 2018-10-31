@@ -1,24 +1,24 @@
 ---
 title: Ejemplo del método Move (VJ++)
-TOCTitle: Move Method Example (VJ++)
+TOCTitle: Move method example (VJ++)
 ms:assetid: 819c02ff-a574-ca91-3ef1-ac90ed4f402f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249558(v=office.15)
 ms:contentKeyID: 48545956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c70de290460afa19c7e83de7f4d676e4eafe0232
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 246f346ffedfed6213d6df0fa7829447d2dbb631
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486284"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861508"
 ---
-# <a name="move-method-example-vj"></a><span data-ttu-id="60a39-102">Ejemplo del método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="60a39-102">Move Method Example (VJ++)</span></span>
+# <a name="move-method-example-vj"></a><span data-ttu-id="12c42-102">Ejemplo del método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="12c42-102">Move method example (VJ++)</span></span>
 
 
-<span data-ttu-id="60a39-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="60a39-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="12c42-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="12c42-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="60a39-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="60a39-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="12c42-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="12c42-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```java 
  

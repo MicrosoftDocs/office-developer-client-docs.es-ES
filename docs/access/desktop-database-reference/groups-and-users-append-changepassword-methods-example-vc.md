@@ -1,24 +1,24 @@
 ---
-title: Ejemplo de métodos Append, ChangePassword de Groups y Users (VC++)
-TOCTitle: Groups and Users Append, ChangePassword Methods Example (VC++)
+title: Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)
+TOCTitle: Groups and Users Append, ChangePassword methods example (VC++)
 ms:assetid: 4eaaed4f-f5bf-38d0-b984-8e3f344923c5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249252(v=office.15)
 ms:contentKeyID: 48544759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49a3018257de782a7b3d50128dd5d6ff692707cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 841ac1f5f4c29c5eb23d85509d06023000cf1959
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483599"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863076"
 ---
-# <a name="groups-and-users-append-changepassword-methods-example-vc"></a><span data-ttu-id="1e2a4-102">Ejemplo de métodos Append, ChangePassword de Groups y Users (VC++)</span><span class="sxs-lookup"><span data-stu-id="1e2a4-102">Groups and Users Append, ChangePassword Methods Example (VC++)</span></span>
+# <a name="groups-and-users-append-changepassword-methods-example-vc"></a><span data-ttu-id="501a8-102">Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)</span><span class="sxs-lookup"><span data-stu-id="501a8-102">Groups and Users Append, ChangePassword methods example (VC++)</span></span>
 
 
-<span data-ttu-id="1e2a4-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e2a4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="501a8-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="501a8-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1e2a4-p101">En este ejemplo, se muestra el método [Append](append-method-adox-groups.md) de [Groups](groups-collection-adox.md), así como el método [Append](append-method-adox-users.md) de [Users](users-collection-adox.md), agregando un nuevo [grupo](group-object-adox.md) y un nuevo [usuario](user-object-adox.md) al sistema. El nuevo **grupo** se anexa a la colección **Groups** del nuevo **usuario**. Como consecuencia, el nuevo **usuario** se agrega al **grupo**. Además, se utiliza el método [ChangePassword](changepassword-method-adox.md) para especificar la contraseña del **usuario**.</span><span class="sxs-lookup"><span data-stu-id="1e2a4-p101">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system. The new **Group** is appended to the **Groups** collection of the new **User**. Consequently, the new **User** is added to the **Group**. Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
+<span data-ttu-id="501a8-p101">En este ejemplo, se muestra el método [Append](append-method-adox-groups.md) de [Groups](groups-collection-adox.md), así como el método [Append](append-method-adox-users.md) de [Users](users-collection-adox.md), agregando un nuevo [grupo](group-object-adox.md) y un nuevo [usuario](user-object-adox.md) al sistema. El nuevo **grupo** se anexa a la colección **Groups** del nuevo **usuario**. Como consecuencia, el nuevo **usuario** se agrega al **grupo**. Además, se utiliza el método [ChangePassword](changepassword-method-adox.md) para especificar la contraseña del **usuario**.</span><span class="sxs-lookup"><span data-stu-id="501a8-p101">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system. The new **Group** is appended to the **Groups** collection of the new **User**. Consequently, the new **User** is added to the **Group**. Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
 
 ```cpp 
  

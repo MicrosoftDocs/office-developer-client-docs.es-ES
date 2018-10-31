@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
 ms:contentKeyID: 48544062
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a12304cc30e9e653f1cb10343cac390395961fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e6f0e020373db9bf0fe7acc1b1c7bfeab210329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484251"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861424"
 ---
-# <a name="visual-c"></a><span data-ttu-id="7abf6-102">Visual C++</span><span class="sxs-lookup"><span data-stu-id="7abf6-102">Visual C++</span></span>
+# <a name="visual-c"></a><span data-ttu-id="28fa8-102">Visual C++</span><span class="sxs-lookup"><span data-stu-id="28fa8-102">Visual C++</span></span>
 
 
-<span data-ttu-id="7abf6-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7abf6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="28fa8-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="28fa8-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7abf6-p101">Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++. Vea [Ejemplo de modelo de eventos de ADO (VC++)](ado-events-model-example-vc.md) para obtener una descripción completa.</span><span class="sxs-lookup"><span data-stu-id="7abf6-p101">This is a schematic description of how to instantiate ADO events in Microsoft Visual C++. See [ADO Events Model Example (VC++)](ado-events-model-example-vc.md) for a complete description.</span></span>
+<span data-ttu-id="28fa8-104">Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++.</span><span class="sxs-lookup"><span data-stu-id="28fa8-104">This is a schematic description of how to instantiate ADO events in Microsoft Visual C++.</span></span> <span data-ttu-id="28fa8-105">Vea [ejemplo de modelo de eventos de ADO (VC ++)](ado-events-model-example-vc.md) para obtener una descripción completa.</span><span class="sxs-lookup"><span data-stu-id="28fa8-105">See [ADO Events Model example (VC++)](ado-events-model-example-vc.md) for a complete description.</span></span>
 
-<span data-ttu-id="7abf6-106">Cree clases derivadas de las interfaces **ConnectionEventsVt** y **RecordsetEventsVt** incluidas en el archivo adoint.h.</span><span class="sxs-lookup"><span data-stu-id="7abf6-106">Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.</span></span>
+<span data-ttu-id="28fa8-106">Cree clases derivadas de las interfaces **ConnectionEventsVt** y **RecordsetEventsVt** incluidas en el archivo adoint.h.</span><span class="sxs-lookup"><span data-stu-id="28fa8-106">Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.</span></span>
 
 ```cpp 
  
@@ -48,7 +48,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-<span data-ttu-id="7abf6-107">Implemente cada uno de los métodos event-handler en ambas clases.</span><span class="sxs-lookup"><span data-stu-id="7abf6-107">Implement each of the event-handler methods in both classes.</span></span> <span data-ttu-id="7abf6-108">Basta con que cada método devuelva un HRESULT de S\_Aceptar.</span><span class="sxs-lookup"><span data-stu-id="7abf6-108">It is sufficient that each method merely return an HRESULT of S\_OK.</span></span> <span data-ttu-id="7abf6-109">Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="7abf6-109">However, when you make it known that your event handlers are available, they will be called continuously by default.</span></span> <span data-ttu-id="7abf6-110">En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.</span><span class="sxs-lookup"><span data-stu-id="7abf6-110">Instead, you might want to request no further notification after the first time by setting **adStatus** to **adStatusUnwantedEvent**.</span></span>
+<span data-ttu-id="28fa8-107">Implemente cada uno de los métodos event-handler en ambas clases.</span><span class="sxs-lookup"><span data-stu-id="28fa8-107">Implement each of the event-handler methods in both classes.</span></span> <span data-ttu-id="28fa8-108">Basta con que cada método devuelva un HRESULT de S\_Aceptar.</span><span class="sxs-lookup"><span data-stu-id="28fa8-108">It is sufficient that each method merely return an HRESULT of S\_OK.</span></span> <span data-ttu-id="28fa8-109">Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="28fa8-109">However, when you make it known that your event handlers are available, they will be called continuously by default.</span></span> <span data-ttu-id="28fa8-110">En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.</span><span class="sxs-lookup"><span data-stu-id="28fa8-110">Instead, you might want to request no further notification after the first time by setting **adStatus** to **adStatusUnwantedEvent**.</span></span>
 
 ```cpp 
  
@@ -65,11 +65,11 @@ STDMETHODIMP CConnEvent::ConnectComplete(
 // EndEventExampleVC02 
 ```
 
-<span data-ttu-id="7abf6-p103">Las clases de eventos heredan de **IUnknown**, por lo que también se deben implementar los métodos **QueryInterface**, **AddRef** y **Release**. Además, implemente constructores y destructores de clases. Elija las herramientas de Visual C++ que prefiera para simplificar esta parte de la tarea.</span><span class="sxs-lookup"><span data-stu-id="7abf6-p103">The event classes inherit from **IUnknown**, so you must also implement the **QueryInterface**, **AddRef**, and **Release** methods. Also implement class constructors and destructors. Choose the Visual C++ tools with which you are most comfortable to simplify this part of the task.</span></span>
+<span data-ttu-id="28fa8-p103">Las clases de eventos heredan de **IUnknown**, por lo que también se deben implementar los métodos **QueryInterface**, **AddRef** y **Release**. Además, implemente constructores y destructores de clases. Elija las herramientas de Visual C++ que prefiera para simplificar esta parte de la tarea.</span><span class="sxs-lookup"><span data-stu-id="28fa8-p103">The event classes inherit from **IUnknown**, so you must also implement the **QueryInterface**, **AddRef**, and **Release** methods. Also implement class constructors and destructors. Choose the Visual C++ tools with which you are most comfortable to simplify this part of the task.</span></span>
 
-<span data-ttu-id="7abf6-p104">Notifique la disponibilidad de sus controladores de eventos emitiendo una llamada a **QueryInterface** en los objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) para las interfaces **IConnectionPointContainer** e **IConnectionPoint**. A continuación, emita **IConnectionPoint::Advise** para cada clase.</span><span class="sxs-lookup"><span data-stu-id="7abf6-p104">Make it known that your event handlers are available by issuing **QueryInterface** on the [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects for the **IConnectionPointContainer** and **IConnectionPoint** interfaces. Then issue **IConnectionPoint::Advise** for each class.</span></span>
+<span data-ttu-id="28fa8-p104">Notifique la disponibilidad de sus controladores de eventos emitiendo una llamada a **QueryInterface** en los objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) para las interfaces **IConnectionPointContainer** e **IConnectionPoint**. A continuación, emita **IConnectionPoint::Advise** para cada clase.</span><span class="sxs-lookup"><span data-stu-id="28fa8-p104">Make it known that your event handlers are available by issuing **QueryInterface** on the [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects for the **IConnectionPointContainer** and **IConnectionPoint** interfaces. Then issue **IConnectionPoint::Advise** for each class.</span></span>
 
-<span data-ttu-id="7abf6-116">Por ejemplo, suponga que está usando una función booleana que devuelve **True** si informa correctamente a un objeto **Recordset** de que sus controladores de eventos están disponibles.</span><span class="sxs-lookup"><span data-stu-id="7abf6-116">For example, assume you are using a Boolean function that returns **True** if it successfully informs a **Recordset** object that you have event handlers available.</span></span>
+<span data-ttu-id="28fa8-116">Por ejemplo, suponga que está usando una función booleana que devuelve **True** si informa correctamente a un objeto **Recordset** de que sus controladores de eventos están disponibles.</span><span class="sxs-lookup"><span data-stu-id="28fa8-116">For example, assume you are using a Boolean function that returns **True** if it successfully informs a **Recordset** object that you have event handlers available.</span></span>
 
 ```cpp 
  
@@ -99,9 +99,9 @@ return TRUE;
 // EndEventExampleVC03 
 ```
 
-<span data-ttu-id="7abf6-117">En este punto, se habilitan eventos para la familia **RecordsetEvent** y sus métodos recibirán llamadas cuando se produzcan eventos de **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="7abf6-117">At this point, events for the **RecordsetEvent** family are enabled and your methods will be called as **Recordset** events occur.</span></span>
+<span data-ttu-id="28fa8-117">En este punto, se habilitan eventos para la familia **RecordsetEvent** y sus métodos recibirán llamadas cuando se produzcan eventos de **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="28fa8-117">At this point, events for the **RecordsetEvent** family are enabled and your methods will be called as **Recordset** events occur.</span></span>
 
-<span data-ttu-id="7abf6-118">Más tarde, si desea que sus controladores de eventos dejen de estar disponibles, obtenga de nuevo el punto de conexión y emita el método **IConnectionPoint::Unadvise**.</span><span class="sxs-lookup"><span data-stu-id="7abf6-118">Later, when you want to make your event handlers unavailable, get the connection point again and issue the **IConnectionPoint::Unadvise** method.</span></span>
+<span data-ttu-id="28fa8-118">Más tarde, si desea que sus controladores de eventos dejen de estar disponibles, obtenga de nuevo el punto de conexión y emita el método **IConnectionPoint::Unadvise**.</span><span class="sxs-lookup"><span data-stu-id="28fa8-118">Later, when you want to make your event handlers unavailable, get the connection point again and issue the **IConnectionPoint::Unadvise** method.</span></span>
 
 ```cpp 
  
@@ -114,9 +114,9 @@ if (FAILED(hr)) return FALSE;
 // EndEventExampleVC04 
 ```
 
-<span data-ttu-id="7abf6-119">Debe liberar interfaces y destruir objetos de clase según proceda.</span><span class="sxs-lookup"><span data-stu-id="7abf6-119">You must release interfaces and destroy class objects as appropriate.</span></span>
+<span data-ttu-id="28fa8-119">Debe liberar interfaces y destruir objetos de clase según proceda.</span><span class="sxs-lookup"><span data-stu-id="28fa8-119">You must release interfaces and destroy class objects as appropriate.</span></span>
 
-<span data-ttu-id="7abf6-120">El código siguiente muestra un ejemplo completo de una clase de receptor de eventos de **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="7abf6-120">The following code shows a complete example of a **Recordset** Event sink class.</span></span>
+<span data-ttu-id="28fa8-120">El código siguiente muestra un ejemplo completo de una clase de receptor de eventos de **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="28fa8-120">The following code shows a complete example of a **Recordset** Event sink class.</span></span>
 
 ```vb 
  

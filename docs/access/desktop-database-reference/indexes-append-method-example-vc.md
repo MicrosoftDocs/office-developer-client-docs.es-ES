@@ -1,24 +1,24 @@
 ---
-title: Ejemplo de método Append de Indexes (VC++)
-TOCTitle: Indexes Append Method Example (VC++)
+title: Ejemplo del método Append de Indexes (VC++)
+TOCTitle: Indexes Append method example (VC++)
 ms:assetid: fd7a020e-19bd-db14-bcdf-d34b23002e44
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250302(v=office.15)
 ms:contentKeyID: 48548918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 40c397b69c8a8288ef35d0d5e188512cdf315adc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aba5cd48caa791817c6d8c4083d8a340aba55283
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486187"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863363"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="b05ca-102">Ejemplo de método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="b05ca-102">Indexes Append Method Example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="5635d-102">Ejemplo del método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="5635d-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="b05ca-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b05ca-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5635d-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5635d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b05ca-p101">El código siguiente muestra cómo crear un índice nuevo. El índice es para dos columnas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="b05ca-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="5635d-p101">El código siguiente muestra cómo crear un índice nuevo. El índice es para dos columnas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="5635d-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

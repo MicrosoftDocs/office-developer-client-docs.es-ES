@@ -1,24 +1,24 @@
 ---
 title: Ejemplo de los métodos AppendChunk y GetChunk (VJ++)
-TOCTitle: AppendChunk and GetChunk Methods Example (VJ++)
+TOCTitle: AppendChunk and GetChunk methods example (VJ++)
 ms:assetid: c2d940a4-9954-0282-9438-6a1b1241e38d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249952(v=office.15)
 ms:contentKeyID: 48547562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b6f9ed55783e17b7f6c00ad52399d9f2ccaaf05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4e815f7bb6d1c93e5d2d61275eefa15c962a70de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486786"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863792"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vj"></a><span data-ttu-id="adb7e-102">Ejemplo de los métodos AppendChunk y GetChunk (VJ++)</span><span class="sxs-lookup"><span data-stu-id="adb7e-102">AppendChunk and GetChunk Methods Example (VJ++)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vj"></a><span data-ttu-id="b194d-102">Ejemplo de los métodos AppendChunk y GetChunk (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b194d-102">AppendChunk and GetChunk methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="adb7e-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="adb7e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b194d-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b194d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="adb7e-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="adb7e-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="b194d-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="b194d-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```java 
  

@@ -1,24 +1,24 @@
 ---
 title: Ejemplo del método Refresh (VB)
-TOCTitle: Refresh Method Example (VB)
+TOCTitle: Refresh method example (VB)
 ms:assetid: d5094e57-e85e-7c65-cd28-ac04692608d0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250071(v=office.15)
 ms:contentKeyID: 48547958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea38044d25d9690ae126182491403d5229f75fd6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0fe6b05fb2cacafdb1844e3a3be9bdffce8a4737
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486579"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861228"
 ---
-# <a name="refresh-method-example-vb"></a><span data-ttu-id="cd211-102">Ejemplo del método Refresh (VB)</span><span class="sxs-lookup"><span data-stu-id="cd211-102">Refresh Method Example (VB)</span></span>
+# <a name="refresh-method-example-vb"></a><span data-ttu-id="3a5c8-102">Ejemplo del método Refresh (VB)</span><span class="sxs-lookup"><span data-stu-id="3a5c8-102">Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="cd211-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd211-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3a5c8-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a5c8-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="cd211-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="cd211-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="3a5c8-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="3a5c8-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```vb 
  

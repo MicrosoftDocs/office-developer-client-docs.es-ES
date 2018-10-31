@@ -1,24 +1,24 @@
 ---
 title: Ejemplo del método GetRows (JScript)
-TOCTitle: GetRows Method Example (JScript)
+TOCTitle: GetRows method example (JScript)
 ms:assetid: 72d7e2d9-1e19-e993-0b0e-5310405c9b75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09c8a463f049e168a44a3b2175c40000b59a4c72
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8da290cc259f9be165e069c8a62e61fa8b748b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484705"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864119"
 ---
-# <a name="getrows-method-example-jscript"></a><span data-ttu-id="7eb2c-102">Ejemplo del método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="7eb2c-102">GetRows Method Example (JScript)</span></span>
+# <a name="getrows-method-example-jscript"></a><span data-ttu-id="eef76-102">Ejemplo del método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="eef76-102">GetRows method example (JScript)</span></span>
 
 
-<span data-ttu-id="7eb2c-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7eb2c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="eef76-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="eef76-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7eb2c-104">En este ejemplo se utiliza el método [GetRows](getrows-method-ado.md) para recuperar todas las filas de la tabla *Customers* de un [conjunto de registros](recordset-object-ado.md) y rellenar una matriz con los datos resultantes.</span><span class="sxs-lookup"><span data-stu-id="7eb2c-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="7eb2c-105">El método **GetRows** devolverá un número de filas menor que el deseado en los dos siguientes casos: si se alcanza [EOF](bof-eof-properties-ado.md) o si **GetRows** ha tratado de recuperar un registro anteriormente eliminado por otro usuario.</span><span class="sxs-lookup"><span data-stu-id="7eb2c-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="7eb2c-106">La función devuelve **False** sólo si se produce el segundo caso.</span><span class="sxs-lookup"><span data-stu-id="7eb2c-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="7eb2c-107">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="7eb2c-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
+<span data-ttu-id="eef76-104">En este ejemplo se utiliza el método [GetRows](getrows-method-ado.md) para recuperar todas las filas de la tabla *Customers* de un [conjunto de registros](recordset-object-ado.md) y rellenar una matriz con los datos resultantes.</span><span class="sxs-lookup"><span data-stu-id="eef76-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="eef76-105">El método **GetRows** devolverá un número de filas menor que el deseado en los dos siguientes casos: si se alcanza [EOF](bof-eof-properties-ado.md) o si **GetRows** ha tratado de recuperar un registro anteriormente eliminado por otro usuario.</span><span class="sxs-lookup"><span data-stu-id="eef76-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="eef76-106">La función devuelve **False** sólo si se produce el segundo caso.</span><span class="sxs-lookup"><span data-stu-id="eef76-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="eef76-107">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="eef76-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
 
 ```javascript 
  
@@ -30,7 +30,7 @@ ms.locfileid: "25484705"
 <html> 
  
 <head> 
-<title>ADO Recordset.GetRows Example (JScript)</title> 
+<title>ADO Recordset.GetRows example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -62,7 +62,7 @@ BODY {
  
 <body bgcolor="white"> 
  
-<h1>ADO Recordset.GetRows Example (JScript)</h1> 
+<h1>ADO Recordset.GetRows example (JScript)</h1> 
  <!-- Page text goes here --> 
 <% 
  var Connect = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

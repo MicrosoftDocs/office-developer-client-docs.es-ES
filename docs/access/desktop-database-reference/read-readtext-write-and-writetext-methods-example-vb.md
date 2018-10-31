@@ -1,24 +1,24 @@
 ---
 title: Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)
-TOCTitle: Read, ReadText, Write, and WriteText Methods Example (VB)
+TOCTitle: Read, ReadText, Write, and WriteText methods example (VB)
 ms:assetid: 13e0bb73-0077-2a15-9ea3-4fd7b3b34787
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f706f36cd1f00635d141d7e5ede67c5789025abe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e36e17b36b633e717b387e9a40451ace9244b38
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484724"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861004"
 ---
-# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="189b1-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="189b1-102">Read, ReadText, Write, and WriteText Methods Example (VB)</span></span>
+# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="1c67a-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="1c67a-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
 
 
-<span data-ttu-id="189b1-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="189b1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1c67a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c67a-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="189b1-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="189b1-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="1c67a-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1c67a-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
 
 ```vb 
  

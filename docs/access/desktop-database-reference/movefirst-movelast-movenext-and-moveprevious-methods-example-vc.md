@@ -1,24 +1,24 @@
 ---
 title: Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious (VC++)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VC++)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)
 ms:assetid: c4abacfa-724a-dbfd-5bdd-0e34e45093d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249962(v=office.15)
 ms:contentKeyID: 48547596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a2bb02cd4b4fd86335ea09dc03272efa01d5271
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2fb858e7e763cb5118e8e64af87f98fc66c6b13e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486218"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862145"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="56340-102">Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="56340-102">MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VC++)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="c1172-102">Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="c1172-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)</span></span>
 
 
-<span data-ttu-id="56340-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="56340-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c1172-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1172-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="56340-p101">En este ejemplo se usan los métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) y [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover el puntero de registro de un objeto [Recordset](recordset-object-ado.md) en función del comando proporcionado. Se requiere la función MoveAny para que pueda ejecutarse este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="56340-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny function is required for this example to run.</span></span>
+<span data-ttu-id="c1172-p101">En este ejemplo se usan los métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) y [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover el puntero de registro de un objeto [Recordset](recordset-object-ado.md) en función del comando proporcionado. Se requiere la función MoveAny para que pueda ejecutarse este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="c1172-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny function is required for this example to run.</span></span>
 
 ```cpp 
  

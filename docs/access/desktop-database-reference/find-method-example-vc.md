@@ -1,24 +1,24 @@
 ---
 title: Ejemplo del método Find (VC++)
-TOCTitle: Find Method Example (VC++)
+TOCTitle: Find method example (VC++)
 ms:assetid: dc6adb54-48ef-475e-7b52-435ac0fc63ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250114(v=office.15)
 ms:contentKeyID: 48548137
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c832e86c4031fd069cfca18f9135a1f766a36d2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09c7ad1a5fc78f1e41767a6bded2d05de94319a0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861851"
 ---
-# <a name="find-method-example-vc"></a><span data-ttu-id="132cd-102">Ejemplo del método Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="132cd-102">Find Method Example (VC++)</span></span>
+# <a name="find-method-example-vc"></a><span data-ttu-id="1985b-102">Ejemplo del método Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="1985b-102">Find method example (VC++)</span></span>
 
 
-<span data-ttu-id="132cd-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="132cd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1985b-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1985b-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="132cd-104">En este ejemplo se utiliza el método de [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="132cd-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="132cd-105">En el ejemplo se da por supuesto que el proveedor subyacente no admite una funcionalidad similar.</span><span class="sxs-lookup"><span data-stu-id="132cd-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="1985b-104">En este ejemplo se utiliza el método de [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="1985b-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="1985b-105">En el ejemplo se da por supuesto que el proveedor subyacente no admite una funcionalidad similar.</span><span class="sxs-lookup"><span data-stu-id="1985b-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```cpp 
  
@@ -187,7 +187,7 @@ void PrintComError(_com_error &e)
 // EndFindCpp 
 ```
 
-<span data-ttu-id="132cd-106">**FindX.h**</span><span class="sxs-lookup"><span data-stu-id="132cd-106">**FindX.h**</span></span>
+<span data-ttu-id="1985b-106">**FindX.h**</span><span class="sxs-lookup"><span data-stu-id="1985b-106">**FindX.h**</span></span>
 
 ```cpp 
  

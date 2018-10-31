@@ -1,24 +1,24 @@
 ---
 title: Ejemplo de los métodos Append y CreateParameter (VB)
-TOCTitle: Append and CreateParameter Methods Example (VB)
+TOCTitle: Append and CreateParameter methods example (VB)
 ms:assetid: 0b7a5329-4be3-2854-530d-fb01213f34f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248846(v=office.15)
 ms:contentKeyID: 48543177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95fcabdcf0a9f139bf7c4ced1e76f16a948cce65
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7aa5a47d04f0e20a21e42b8ac9b1a75dda996be5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485928"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862689"
 ---
-# <a name="append-and-createparameter-methods-example-vb"></a><span data-ttu-id="416ff-102">Ejemplo de los métodos Append y CreateParameter (VB)</span><span class="sxs-lookup"><span data-stu-id="416ff-102">Append and CreateParameter Methods Example (VB)</span></span>
+# <a name="append-and-createparameter-methods-example-vb"></a><span data-ttu-id="cb2e9-102">Ejemplo de los métodos Append y CreateParameter (VB)</span><span class="sxs-lookup"><span data-stu-id="cb2e9-102">Append and CreateParameter methods example (VB)</span></span>
 
 
-<span data-ttu-id="416ff-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="416ff-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cb2e9-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb2e9-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="416ff-104">En este ejemplo se utilizan los métodos [Append](append-method-ado.md) y [CreateParameter](createparameter-method-ado.md) para ejecutar un procedimiento almacenado con un parámetro de entrada.</span><span class="sxs-lookup"><span data-stu-id="416ff-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="cb2e9-104">En este ejemplo se utilizan los métodos [Append](append-method-ado.md) y [CreateParameter](createparameter-method-ado.md) para ejecutar un procedimiento almacenado con un parámetro de entrada.</span><span class="sxs-lookup"><span data-stu-id="cb2e9-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```vb 
  

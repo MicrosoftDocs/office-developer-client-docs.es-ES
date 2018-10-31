@@ -1,24 +1,24 @@
 ---
 title: Ejemplo del método Delete (VC++)
-TOCTitle: Delete Method Example (VC++)
+TOCTitle: Delete method example (VC++)
 ms:assetid: 605daa2f-aaf3-7928-9523-6bc58e8bd61a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d1869b3aa2d526c5181671fa5275943d3d2dcf6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9bf844c4290750bacf860bf407f3feee18ae0d9a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485900"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863725"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="75d27-102">Ejemplo del método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="75d27-102">Delete Method Example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="49c39-102">Ejemplo del método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="49c39-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="75d27-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="75d27-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="49c39-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="49c39-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="75d27-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="75d27-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="49c39-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="49c39-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -293,7 +293,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="75d27-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="75d27-105">**DeleteX.h**</span></span>
+<span data-ttu-id="49c39-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="49c39-105">**DeleteX.h**</span></span>
 
 ```cpp 
  
