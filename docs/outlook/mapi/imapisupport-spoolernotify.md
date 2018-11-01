@@ -23,7 +23,7 @@ ms.locfileid: "22592118"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Notifica a la cola MAPI de un cambio de estado o una solicitud de servicio. 
   
@@ -112,13 +112,13 @@ Si su proveedor de almacén de mensajes se complementa con un transporte de prov
   
 Para obtener más información sobre cómo llamar a **SpoolerNotify**, vea cualquiera de los siguientes temas:
   
-- [Implementar el método FlushQueues](implementing-the-flushqueues-method.md)
+- [Implementación del método FlushQueues](implementing-the-flushqueues-method.md)
     
-- [Interactuar con el administrador de trabajos en cola MAPI](interacting-with-the-mapi-spooler.md)
+- [Interactuar con la cola de MAPI](interacting-with-the-mapi-spooler.md)
     
-- [Modelo de recepción del mensaje](message-reception-model.md)
+- [Modelo de recepción de mensajes](message-reception-model.md)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

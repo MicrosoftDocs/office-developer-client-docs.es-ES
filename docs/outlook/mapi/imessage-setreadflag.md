@@ -21,7 +21,7 @@ ms.locfileid: "22592965"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece o borra el indicador MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje y administra el envío de informes de lectura.
   
@@ -109,21 +109,21 @@ Cuando se establecen los indicadores de la SUPPRESS_RECEIPT y la GENERATE_RECEIP
   
 Puede optimizar el comportamiento de informe mediante la supresión de la generación de informes de lectura en determinadas condiciones. Sin embargo, si no se admiten la supresión de informes y un cliente llama a **SetReadFlag** con el conjunto de marca SUPPRESS_RECEIPT, devolver MAPI_E_NO_SUPPRESS. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI usa el método **IMessage::SetReadFlag** para establecer marcas de lectura en los mensajes seleccionados.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)  
 - [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md)  
 - [IMAPIProp::GetProps](imapiprop-getprops.md)  
 - [IMAPIProp::SaveChanges](imapiprop-savechanges.md) 
-- [Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md) 
+- [Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md) 
 - [IMessage: IMAPIProp](imessageimapiprop.md)
 - [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

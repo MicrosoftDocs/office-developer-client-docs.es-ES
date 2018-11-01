@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad Sort (VB) TOCTitle: ejemplo de propiedad de ordenación (VB) === título: ejemplo de la propiedad Sort (VB) TOCTitle: ejemplo de la propiedad Sort (VB)
->>>>>>> Master ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: ms.date 48545539: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Sort (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891257"
 ---
-
-<<<<<<< HEAD
 # <a name="sort-property-example-vb"></a>Ejemplo de la propiedad Sort (VB)
-=======
-# <a name="sort-property-example-vb"></a>Ejemplo de la propiedad Sort (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos ***Pubs***. Una rutina de la utilidad secundaria imprime cada fila.
 

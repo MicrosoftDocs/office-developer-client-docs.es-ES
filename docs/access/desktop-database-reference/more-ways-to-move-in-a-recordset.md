@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a9a98471a73f5e3471d55ba6e81689dd39a5934
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: af1ce2c9b79d150a6949619026eff8b7bdbbd0ef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483903"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875864"
 ---
 # <a name="more-ways-to-move-in-a-recordset"></a>Más formas de moverse en un conjunto de registros
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Los cuatro métodos siguientes sirven para moverse o desplazarse por el **conjunto de registros**: [MoveFirst, MoveLast, MoveNext y MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) (algunos de estos métodos no están disponibles con cursores de sólo avance).
 

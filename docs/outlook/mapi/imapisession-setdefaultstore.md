@@ -23,7 +23,7 @@ ms.locfileid: "22587848"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece un almacén de mensajes como el almacén de mensajes predeterminado para la sesión.
   
@@ -105,21 +105,21 @@ Cada vez que se realiza un cambio a la configuración predeterminada de almacén
     
 - Se emite una notificación interna a la cola MAPI. Operaciones en curso se completan sin cambio; nuevas operaciones relacionadas con el almacén de mensajes de forma predeterminada, como una descarga el mensaje, se procesan para el nuevo almacén predeterminado.
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI usa el método **IMAPISession::SetDefaultStore** para establecer el almacén seleccionado como el almacén predeterminado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónica PidTagResourceFlags](pidtagresourceflags-canonical-property.md)
+[Propiedad canónico PidTagResourceFlags](pidtagresourceflags-canonical-property.md)
   
-[Propiedad canónica PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
+[Propiedad canónico PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
   
 [TABLE_NOTIFICATION](table_notification.md)
   

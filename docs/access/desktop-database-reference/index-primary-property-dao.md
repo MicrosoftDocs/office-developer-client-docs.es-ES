@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d551b60919b1fb3d48c7ac75bbf7c6183aee04d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: efaf00dc54068c6ce7c2991613b9485bcbdf41c7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486845"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891243"
 ---
 # <a name="indexprimary-property-dao"></a>Index.Primary Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa un índice de clave principal en una tabla (sólo para áreas de trabajo de Microsoft Access).

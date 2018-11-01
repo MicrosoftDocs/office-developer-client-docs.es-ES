@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: proveedor y ejemplo de propiedades de DefaultDatabase (VB) TOCTitle: proveedor y ejemplo de propiedades de DefaultDatabase (VB) === título: ejemplo de las propiedades Provider y DefaultDatabase (VB) TOCTitle: proveedor y Ejemplo de las propiedades DefaultDatabase (VB)
->>>>>>> Master ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: ms.date 48544107: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades Provider y DefaultDatabase (VB)
+TOCTitle: Provider and DefaultDatabase properties example (VB)
+ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
+ms:contentKeyID: 48544107
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c213347532407b96c13fc009fa05740dabc4658d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891012"
 ---
-
-<<<<<<< HEAD
 # <a name="provider-and-defaultdatabase-properties-example-vb"></a>Ejemplo de las propiedades Provider y DefaultDatabase (VB)
-=======
-# <a name="provider-and-defaultdatabase-properties-example-vb"></a>Ejemplo de las propiedades Provider y DefaultDatabase (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Provider](provider-property-ado.md) al abrir tres objetos [Connection](connection-object-ado.md) mediante diferentes proveedores. También se utiliza la propiedad [DefaultDatabase](defaultdatabase-property-ado.md) para establecer la base de datos predeterminada del Proveedor Microsoft ODBC.
 

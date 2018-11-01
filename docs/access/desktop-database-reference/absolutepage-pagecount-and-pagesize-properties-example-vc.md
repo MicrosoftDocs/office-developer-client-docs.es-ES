@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: AbsolutePage, PageCount y ejemplo de las propiedades PageSize (VC ++) TOCTitle: AbsolutePage, PageCount y ejemplo de las propiedades PageSize (VC ++) ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) MS:contentKeyID: ms.date 48546133: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
+ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
+ms:contentKeyID: 48546133
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891274"
 ---
-
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VC++)
-=== título: ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VC ++) TOCTitle: ms:assetid de ejemplo (VC ++) de las propiedades AbsolutePage, PageCount y PageSize: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID: ms.date 48546133: 17/10/2018 mtps_version: Office.15
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utilizan las propiedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) y [PageSize](pagesize-property-ado.md) para mostrar los nombres y las fechas de contratación de la tabla ***Employees*** de cinco registros a la vez.
 

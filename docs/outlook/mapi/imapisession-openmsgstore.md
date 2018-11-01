@@ -21,7 +21,7 @@ ms.locfileid: "22595037"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se abre un almacén de mensajes y devuelve un puntero [IMsgStore](imsgstoreimapiprop.md) para aún más el acceso. 
   
@@ -66,7 +66,7 @@ _ulFlags_
       
   - MDB\_NO_MAIL: el almacén de mensajes no se debe usar para enviar o recibir correo. Cuando se establece este marcador, MAPI no notifica a la cola MAPI que se va a abrir este almacén de mensajes.
       
-  - MDB\_ONLINE: en modo caché de Exchange, un proveedor de servicio o cliente puede llamar a este método con MDB_ONLINE para reemplazar la conexión con el almacén de mensajes local y abrir el almacén en el servidor remoto. No se puede abrir un almacén de Exchange en modo de caché y en modo sin caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes almacenados en caché, ya sea debe cerrar el almacén antes de que se abra con esta marca, o se abre una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante el uso de esta marca.
+  - MDB\_ONLINE: en modo caché de Exchange, un proveedor de servicio o cliente puede llamar a este método con MDB_ONLINE para reemplazar la conexión con el almacén de mensajes local y abrir el almacén en el servidor remoto. No se puede abrir un almacén de Exchange en modo de caché y en modo sin caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
       
   - MDB_TEMPORARY: Indica a MAPI que el almacén de mensajes no es permanente y no se debe agregar a la tabla de almacenamiento de mensajes. Este indicador se utiliza para iniciar sesión en el almacén de mensajes, por lo que la información se puede recuperar mediante programación desde la sección de perfil. 
       
@@ -142,21 +142,21 @@ Si se llama **OpenMsgStore** para abrir un almacén de mensajes con permiso de s
     
   - [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenMsgStore** para abrir un almacén de mensajes.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
 - [IMAPISession::GetLastError](imapisession-getlasterror.md)
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 - [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
 - [IMAPISession: IUnknown](imapisessioniunknown.md)
-- [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
-- [Uso de macros para el control de errores](using-macros-for-error-handling.md)
+- [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
+- [Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

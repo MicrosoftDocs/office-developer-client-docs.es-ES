@@ -23,7 +23,7 @@ ms.locfileid: "22577173"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Se registra para recibir notificaciones de los eventos que afectan a la sesión.
   
@@ -133,15 +133,15 @@ Para obtener información general del proceso de notificación, vea [Notificaci�
   
 Para obtener más información acerca de cómo controlar las notificaciones, vea [Controlar notificaciones](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI utiliza el método **IMAPISession::Advise** para registrar para notificaciones de la sesión.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -156,7 +156,7 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Notificación de eventos de MAPI](event-notification-in-mapi.md)
+[Notificación de eventos en MAPI](event-notification-in-mapi.md)
 

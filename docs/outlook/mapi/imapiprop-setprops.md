@@ -23,7 +23,7 @@ ms.locfileid: "22592034"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Actualiza las propiedades de uno o más.
   
@@ -81,7 +81,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > El tipo de propiedad no es el tipo esperado por la implementación de la llamada.
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Omitir la etiqueta de propiedad de **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) y todas las propiedades con un tipo de **PT_ERROR**. No realice cambios o informar de los problemas en la estructura **SPropProblemArray** . 
   
@@ -103,15 +103,15 @@ Al actualizar las propiedades de gran tamaño, **SetProps** puede producir un er
   
 Llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la estructura **SPropProblemArray** . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |MFCMAPI usa el método **IMAPIProp::SetProps** volver a escribir una propiedad en un objeto después de que la propiedad se ha editado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc7777535fdba5bcb1f6ace167e23e1294f13960
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b183b7815769c1eed8c3ee0826167b93453ca19d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484275"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891313"
 ---
 # <a name="gotopage-macro-action"></a>IrAPágina (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.
 
