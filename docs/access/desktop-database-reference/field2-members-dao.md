@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3afd550364836602271f66837265c38b6153ace8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 915a733d59d938e77f32a051b267b5e26bddf6a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484368"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877124"
 ---
 # <a name="field2-members-dao"></a>Field2 Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto Field2 representa una columna de datos con un tipo de datos común y un conjunto de propiedades común.
 
@@ -155,7 +155,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Devuelve un valor que indica el nombre de la tabla que es la fuente original de los datos para un objeto <strong>Field2</strong>. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="field2-type-property-dao.md">Tipo de</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">

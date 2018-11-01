@@ -21,7 +21,7 @@ ms.locfileid: "22595345"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 La función **MAPICrashRecovery** comprueba que el estado del archivo de carpetas personales (PST) o archivo de carpetas sin conexión (OST) de memoria compartida. Si la memoria se encuentra en un estado coherente, la función **MAPICrashRecovery** mueve los datos en el disco y se evita que más acceso de lectura o escritura hasta que se finalice el proceso. 
   
@@ -31,7 +31,7 @@ La función **MAPICrashRecovery** comprueba que el estado del archivo de carpeta
 |:-----|:-----|
 |Exportada por:  <br/> |olmapi32.dll  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
-|Se implementa mediante:  <br/> |Outlook  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 void MAPICrashRecovery(ULONG ulFlags);
@@ -55,7 +55,7 @@ El byte superior (0xFF000000) está reservado para los indicadores de recuperaci
   
 Llamar a **MAPICrashRecovery** con el **MAPICRASH\_recuperar** y los indicadores **MAPICRASH_SYSTEM_SHUTDOWN** en respuesta al mensaje **WM_ENDSESSION** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de recuperación de bloqueo de MAPI](about-the-mapi-crash-recovery-api.md)
 - [Usar la API de recuperación de bloqueo de MAPI](how-to-use-the-mapi-crash-recovery-api.md)

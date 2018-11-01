@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4636c853f58557b30474b78d902131329084a1a2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 988766f71fd57505693683d54a15b13409ae6960
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863888"
+ms.locfileid: "25875878"
 ---
 # <a name="chapter-9-data-shaping"></a>Capítulo 9: Creación de formas de datos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La *Forma de datos* permite consultar un origen de datos y devolver un objeto [Recordset](recordset-object-ado.md) que representa una relación de objeto primario-objeto secundario entre dos o más entidades lógicas (una jerarquía). Un ejemplo clásico de una relación jerárquica es la de clientes y pedidos. Para cada cliente de una base de datos, puede haber cero o más pedidos. SQL permite recuperar los datos mediante la sintaxis de JOIN, pero esto puede resultar ser ineficaz y poco flexible porque los datos primarios redundantes se repiten en cada registro devuelto para una determinada relación de objeto primario-objeto secundario. La Forma de datos puede relacionar un solo registro primario del objeto **Recordset** primario con varios registros secundarios en el objeto **Recordset** secundario, evitando la redundancia de una sintaxis de JOIN. La mayoría de los usuarios opinan que este modelo de programación de ** Recordset** es más natural y más sencillo de usar que el modelo de JOIN de un solo objeto **Recordset**.
 

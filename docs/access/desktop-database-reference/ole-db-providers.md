@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab2a2ca391927b3ae338910af544d99e01309b06
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: cc70603c9b3dc48090558662b775725017062411
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861802"
+ms.locfileid: "25880225"
 ---
 # <a name="ole-db-providers"></a>Proveedores OLE DB
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La [Introducción](introduction-to-ado-programming.md) de la Guía del programador de ADO analiza la relación entre ADO y el resto de la arquitectura de acceso a datos de Microsoft. OLE DB define un conjunto de interfaces COM que proporcionan a las aplicaciones un acceso uniforme a los datos almacenados en diversos orígenes de información. Este enfoque permite que un origen de datos comparta sus datos a través de las interfaces que admiten la funcionalidad de administración de base de datos adecuada al origen de datos. Por diseño, la arquitectura de alto rendimiento de OLE DB se basa en el uso de un modelo de servicios flexible basado en componentes. En vez de tener un número predefinido de capas intermedias entre la aplicación y los datos, OLE DB sólo requiere los componentes estrictamente necesarios para realizar una determinada tarea.
 

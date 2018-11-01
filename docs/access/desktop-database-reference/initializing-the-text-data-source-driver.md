@@ -10,17 +10,17 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb897c4e057b767c98676bc14c9f1e70c22095ee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485542"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875164"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializar el controlador de orígenes de datos de texto
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Se utiliza el mismo controlador de base de datos para los orígenes de datos de texto y los orígenes de datos HTML.

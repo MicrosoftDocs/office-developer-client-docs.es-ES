@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ddd823baf153ebc78fc34ca838184f415edd29ef
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 36f82510c4dd0004aa89b3f79ac0049cc2193ed3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605922"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877670"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema (método, ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Obtiene información del esquema de base de datos del proveedor.
@@ -25,11 +25,7 @@ Obtiene información del esquema de base de datos del proveedor.
 
 **Establecer *** recordset* = *conexión*. OpenSchema (* QueryType *, *criterios*, *SchemaID*)
 
-<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
-=======
-## <a name="return-values"></a>Valores devueltos
->>>>>>> master
 
 Devuelve un objeto [Recordset](recordset-object-ado.md) que contiene información de esquema. El objeto **Recordset** se abrirá como un cursor estático de solo lectura. El *QueryType* determina qué columnas aparecen en el **conjunto de registros**.
 

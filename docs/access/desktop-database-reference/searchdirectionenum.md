@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250064(v=office.15)
 ms:contentKeyID: 48547943
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc3803fe6afb482dc42ca12476024325fc1022ae
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e456cfcc344c818504cb2ae1c2af9a4294b004ed
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862985"
+ms.locfileid: "25876417"
 ---
 # <a name="searchdirectionenum"></a>SearchDirectionEnum
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica la dirección de una búsqueda de registro dentro de un objeto [Recordset](recordset-object-ado.md).
 

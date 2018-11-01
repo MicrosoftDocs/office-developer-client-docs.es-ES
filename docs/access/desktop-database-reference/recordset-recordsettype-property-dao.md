@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 043437a893eaba53ff89e7e77c018b19ebd38b5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea371a29a37e4d8ffb235f08b1a7f9b2abb42418
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486254"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880337"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Propiedad Recordset.RecordsetType (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede utilizar la propiedad **RecordsetType** para especificar el tipo de conjunto de registros que se hace disponible para un formulario. **Byte** de Lectura y escritura.
 

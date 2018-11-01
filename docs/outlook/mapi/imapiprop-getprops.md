@@ -46,7 +46,7 @@ HRESULT GetProps(
   
 > [entrada] Una máscara de bits de marcadores que indica el formato para las propiedades que tengan el tipo de PT_UNSPECIFIED. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Los valores de cadena para estas propiedades se deben devolver en el formato Unicode. Si no está establecido el indicador MAPI_UNICODE., se deben devolver los valores de cadena en el formato ANSI.
     
@@ -100,7 +100,7 @@ Si el parámetro _lpPropTagArray_ se establece en NULL para recuperar todas las 
     
  **GetProps** no debe devolver las propiedades de varios valores con **cValues** se establecen en 0. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Llame a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) para asignar memoria inicialmente para la estructura de [SPropValue](spropvalue.md) que señala _lpPropTagArray_; Llame a [MAPIAllocateMore](mapiallocatemore.md) para asignar cualquier memoria adicional necesaria para los miembros de estructura. 
   
@@ -164,11 +164,11 @@ Para comprobar si un archivo PST es un archivo PST de SharePoint, monte el PST u
   
 Para obtener más información acerca de cómo usar **GetProps** para tener acceso a las propiedades, vea [Recuperar propiedades de MAPI](retrieving-mapi-properties.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utiliza el método **IMAPIProp::GetProps** para obtener todas las propiedades de un objeto pasando NULL o la matriz devuelta por el método [IMAPIProp::GetPropList](imapiprop-getproplist.md) en el parámetro _lpPropTagArray_ .  <br/> |
    
@@ -193,9 +193,9 @@ MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Recuperación de propiedades MAPI](retrieving-mapi-properties.md)
   
-[Uso de macros para el control de errores](using-macros-for-error-handling.md)
+[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
 

@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4468887c0ef187e6dd955c20db91050415ec68ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76bfc8f81b7f9df3d1b0e759620952f92bb5c8f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483752"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875300"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Detectar y resolver conflictos
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
-## <a name="detecting-and-resolving-conflicts"></a>Detectar y resolver conflictos
+## <a name="detecting-and-resolving-conflicts"></a>Detección y resolución de conflictos
 
 Si trabaja con un **conjunto de registros** en modo inmediato, las posibilidades de que se produzcan problemas de simultaneidad son mucho menores. Por otra parte, si la aplicación utiliza el modo de actualización por lotes, es muy probable que un usuario cambie un registro antes de que se hayan guardado los cambios realizados por otro usuario que esté editando el mismo registro. En tal caso, deseará que la aplicación pueda ocuparse de resolver el conflicto sin más problemas. Puede que prefiera que sea la última persona que envíe una actualización al servidor la que "gane". O tal vez desee que sea el usuario más reciente quien decida qué actualización debe tener prioridad, permitiéndole escoger entre los dos valores en conflicto.
 

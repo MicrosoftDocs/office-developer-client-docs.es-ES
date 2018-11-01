@@ -1,16 +1,21 @@
 ---
-<<<<<<< Título HEAD: ActualSize y ejemplo de las propiedades DefinedSize (JScript) TOCTitle: ActualSize y DefinedSize (JScript) de las propiedades ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms: contentKeyID: ms.date 48547811: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
+TOCTitle: ActualSize and DefinedSize properties example (JScript)
+ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
+ms:contentKeyID: 48547811
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: ce9c50039566511a4f22f3ab613e5dce36c3931d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878699"
 ---
-
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
 
-=== título: ejemplo de las propiedades ActualSize y DefinedSize (JScript) TOCTitle: ms:assetid de ejemplo (JScript) de las propiedades ActualSize y DefinedSize: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: ms.date 48547811: 10 / 16/2018 mtps_version: Office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a>Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
->>>>>>> master
-
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utilizan las propiedades [ActualSize](actualsize-property-ado.md) y [DefinedSize](definedsize-property-ado.md) para mostrar el tamaño definido y el tamaño real de un campo. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto, y guárdelo como **ActualSizeJS.asp**.
 
@@ -22,11 +27,7 @@ En este ejemplo se utilizan las propiedades [ActualSize](actualsize-property-ado
 <html> 
  
 <head> 
-<<<<<<< HEAD
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
-=======
  <title>ActualSize and DefinedSize properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 

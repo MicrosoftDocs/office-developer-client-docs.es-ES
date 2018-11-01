@@ -23,7 +23,7 @@ ms.locfileid: "22592076"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Elimina una o más propiedades de un objeto. 
   
@@ -58,7 +58,7 @@ MAPI_E_NO_ACCESS
 
 El método **IMAPIProp::DeleteProps** quita una o varias propiedades del objeto actual. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 No es necesario que permitir que las propiedades que se eliminará de todos los objetos. Si el objeto no es modificable, devuelva MAPI_E_NO_ACCESS desde el método **DeleteProps** . 
   
@@ -72,15 +72,15 @@ La estructura que señala _lppProblems_ sólo es válida si **DeleteProps** devu
   
 Libere la estructura **SPropProblemArray** devuelta mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa el método **IMAPIProp::DeleteProps** para eliminar una propiedad de un objeto.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

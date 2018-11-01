@@ -23,7 +23,7 @@ ms.locfileid: "22595051"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una o varias filas de una tabla, que comienza en la posición actual del cursor.
   
@@ -93,7 +93,7 @@ Si se ha realizado ninguna de estas llamadas, **QueryRows** devuelve todas las f
   
 Cuando el conjunto de columnas establecido en una llamada a [IMAPITable::SetColumns](imapitable-setcolumns.md) incluye columnas establecida en PR_NULL, la matriz [SPropValue](spropvalue.md) dentro del conjunto de filas devuelto en _lppRows_ contendrá ranuras vacías. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede permitir que un autor de la llamada solicitar una columna no compatible que se deben incluir en el conjunto de columnas. Cuando esto ocurre, coloque PT_ERROR en la parte de tipo de propiedad de la etiqueta de propiedad y MAPI_E_NOT_FOUND en el valor de la propiedad para la columna no compatible. 
   
@@ -111,15 +111,15 @@ Cuando se llama a **QueryRows**, tenga en cuenta que la sincronización de notif
   
 Para obtener más información acerca de cómo recuperar filas de tablas, vea [Recuperación de datos de las filas de tabla](retrieving-data-from-table-rows.md).
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: QueryRows** para recuperar las filas de la tabla que se va a cargar en la vista.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

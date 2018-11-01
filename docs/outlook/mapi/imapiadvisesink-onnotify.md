@@ -23,7 +23,7 @@ ms.locfileid: "22576704"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Responde a una notificación mediante la realización de una o varias tareas. Las tareas que realiza dependen del tipo de evento y el objeto que genera la notificación. 
   
@@ -77,7 +77,7 @@ Para obtener más información acerca de cómo configurar y dejar de recibir not
   
 Para obtener información general sobre el proceso de notificación, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 La implementación de **OnNotify** normalmente consistirá en uno o más bloques de código para cada tipo de notificación que espera recibir. Dentro de estos bloques de código, realice las tareas que considere necesarias como respuesta a la notificación. Por ejemplo, suponga que registrar para recibir notificaciones de **fnevObjectModified** en una carpeta que se incluye en una presentación del cuadro de diálogo. En el bloque de código que incluya en el método **OnNotify** para controlar las notificaciones de **fnevObjectModified** , es posible que envíe un mensaje de Windows para el cuadro de diálogo para solicitar una pantalla actualizado. 
   
@@ -89,15 +89,15 @@ Cuando se producen cambios a varios objetos, se puede notificar a un receptor de
   
 Para que obtener más información acerca de cómo y cuándo se debe generar notificaciones, vea [Compatibilidad con notificación de eventos](supporting-event-notification.md)y [Notificación de eventos en MAPI](event-notification-in-mapi.md) . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |AdviseSink.h y AdviseSink.cpp  <br/> |CAdviseSink::OnNotifyDesc  <br/> |La clase CAdviseSink se implementa para controlar todas las notificaciones en MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

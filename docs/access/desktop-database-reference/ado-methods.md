@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b7a685352063c3c1dd4c9bbd62e9c1fc4cdfe11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6ef05e7f322b769102ce25aab7dfc26a75b0aa22
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483575"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879336"
 ---
 # <a name="ado-methods"></a>Métodos de ADO
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 <table>
 <colgroup>
@@ -227,7 +227,7 @@ ms.locfileid: "25483575"
 <td><p>Escribe en el disco todas las actualizaciones por lotes que están pendientes.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">Escritura</a></p></td>
+<td><p><a href="write-method-ado.md">Write</a></p></td>
 <td><p>Escribe datos binarios en un objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

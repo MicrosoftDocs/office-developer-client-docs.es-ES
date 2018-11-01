@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249044(v=office.15)
 ms:contentKeyID: 48543865
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31be87f9689e03a9451290ac5f60edb051692564
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 570e6057f09098006613181b0e3e05d1151a315e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862271"
+ms.locfileid: "25874695"
 ---
 # <a name="chapter-11-rds-fundamentals"></a>Capítulo 11: Conceptos básicos de RDS
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Esta sección contiene una serie de temas que se pueden leer en un orden prescrito. Incluye los temas siguientes:
 

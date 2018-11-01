@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e45356a09a6a625381ef9a39d40e7349234460ba
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d4ed801dfa746af3ad649738e32cec58afe17f6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485254"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877082"
 ---
 # <a name="index-object-dao"></a>Index Object (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El objeto **Index** especifica el orden de los registros a los que se tiene acceso desde las tablas de la base de datos y si se aceptan o no los registros duplicados, lo que proporciona un acceso a los datos eficaz. Para bases de datos externas, los objetos **Index** describen los índices establecidos para tablas externas (sólo áreas de trabajo de Microsoft Access).
 

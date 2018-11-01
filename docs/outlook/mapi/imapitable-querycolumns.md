@@ -23,7 +23,7 @@ ms.locfileid: "22593749"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve una lista de columnas para la tabla.
   
@@ -76,15 +76,15 @@ Si se establece la marca TBL_ALL_COLUMNS, **QueryColumns** devuelve todas las co
   
 Libere la memoria para la matriz de etiqueta de propiedad que apunta el parámetro _lpPropTagArray_ mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::QueryColumns** para recuperar la columna actual establecido para una tabla para que el usuario pueda modificarlo.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

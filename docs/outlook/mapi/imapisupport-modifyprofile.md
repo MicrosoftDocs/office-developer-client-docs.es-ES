@@ -23,7 +23,7 @@ ms.locfileid: "22591992"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Hace que los cambios realizados en un mensaje de almacenar permanente de sección de perfil.
   
@@ -57,7 +57,7 @@ El método **IMAPISupport::ModifyProfile** se implementa para objetos de soporte
   
 Si se establece la marca MDB_TEMPORARY, MAPI no realiza ninguna acción y el método devuelve inmediatamente con S_OK.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

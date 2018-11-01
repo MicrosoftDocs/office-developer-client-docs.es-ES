@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad MaxRecords (VC ++) TOCTitle: ejemplo de la propiedad MaxRecords (VC ++) === título: ejemplo de la propiedad MaxRecords (VC ++) TOCTitle: ejemplo de la propiedad MaxRecords (VC ++)
->>>>>>> Master ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: ms.date 48542910: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad MaxRecords (VC++)
+TOCTitle: MaxRecords property example (VC++)
+ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
+ms:contentKeyID: 48542910
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfd310d635f347bf3ad49b2cc8332c2bde84322e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891222"
 ---
-
-<<<<<<< HEAD
-# <a name="maxrecords-property-example-vc"></a>Ejemplo de la propiedad Número máximo de registros (MaxRecords) (VC++)
-=======
-# <a name="maxrecords-property-example-vc"></a>Ejemplo de la propiedad MaxRecords (VC ++)
->>>>>>> master
+# <a name="maxrecords-property-example-vc"></a>Ejemplo de la propiedad MaxRecords (VC++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se usa la propiedad [MaxRecords](maxrecords-property-ado.md) para abrir un objeto [Recordset](recordset-object-ado.md) que contiene los 10 títulos con un precio más elevado de la tabla ***Títulos***.
 

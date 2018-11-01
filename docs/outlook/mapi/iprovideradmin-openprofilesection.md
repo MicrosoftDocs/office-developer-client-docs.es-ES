@@ -23,7 +23,7 @@ ms.locfileid: "22573015"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Abre una sección de perfil desde el perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para aún más el acceso. 
   
@@ -94,15 +94,15 @@ Si solicita **OpenProfileSection** para abrir una sección de perfil que no exis
   
 Si solicita que **OpenProfileSection** abrir una sección que no existe con permiso de sólo lectura, devuelve MAPI_E_NOT_FOUND. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utiliza el método **IProviderAdmin::OpenProfileSection** para abrir una sección de perfil desde el perfil actual.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
