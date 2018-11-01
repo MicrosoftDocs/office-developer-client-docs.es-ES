@@ -6,34 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
 ms:contentKeyID: 48546515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06474b6c4ecb29388367f8ceac7c7676002e1384
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 3fc0eba7e05259048f7e5261277f48c7d714ccb7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602663"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879763"
 ---
-# <a name="getchildren-method-ado"></a><span data-ttu-id="18b4f-102">GetChildren (método, ADO)</span><span class="sxs-lookup"><span data-stu-id="18b4f-102">GetChildren Method (ADO)</span></span>
+# <a name="getchildren-method-ado"></a><span data-ttu-id="38604-102">GetChildren (método, ADO)</span><span class="sxs-lookup"><span data-stu-id="38604-102">GetChildren Method (ADO)</span></span>
 
 
-<span data-ttu-id="18b4f-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="18b4f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="38604-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38604-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="18b4f-104">Devuelve un objeto [Recordset](recordset-object-ado.md) cuyas filas representan los elementos secundarios de un objeto [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="18b4f-104">Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).</span></span>
+<span data-ttu-id="38604-104">Devuelve un objeto [Recordset](recordset-object-ado.md) cuyas filas representan los elementos secundarios de un objeto [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="38604-104">Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="18b4f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="18b4f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="38604-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="38604-105">Syntax</span></span>
 
-<span data-ttu-id="18b4f-106">**Establecer** *conjunto de registros*  =  *registro*. GetChildren</span><span class="sxs-lookup"><span data-stu-id="18b4f-106">**Set** *recordset* = *record*.GetChildren</span></span>
+<span data-ttu-id="38604-106">**Establecer** *conjunto de registros*  =  *registro*. GetChildren</span><span class="sxs-lookup"><span data-stu-id="38604-106">**Set** *recordset* = *record*.GetChildren</span></span>
 
-<span data-ttu-id="18b4f-107"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="18b4f-107"><<<<<<< HEAD</span></span>
-## <a name="return-value"></a><span data-ttu-id="18b4f-108">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="18b4f-108">Return Value</span></span>
-=======
-## <a name="return-value"></a><span data-ttu-id="18b4f-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="18b4f-109">Return value</span></span>
->>>>>>> <span data-ttu-id="18b4f-110">master</span><span class="sxs-lookup"><span data-stu-id="18b4f-110">master</span></span>
+## <a name="return-value"></a><span data-ttu-id="38604-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="38604-107">Return value</span></span>
 
-<span data-ttu-id="18b4f-p101">Objeto **Recordset** cuyas filas representan los elementos secundarios del actual objeto **Record**. Por ejemplo, los elementos secundarios de un objeto **Record** que representa un directorio serían los archivos y subdirectorios incluidos en el directorio primario.</span><span class="sxs-lookup"><span data-stu-id="18b4f-p101">A **Recordset** object for which each row represents a child of the current **Record** object. For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.</span></span>
+<span data-ttu-id="38604-p101">Objeto **Recordset** cuyas filas representan los elementos secundarios del actual objeto **Record**. Por ejemplo, los elementos secundarios de un objeto **Record** que representa un directorio serían los archivos y subdirectorios incluidos en el directorio primario.</span><span class="sxs-lookup"><span data-stu-id="38604-p101">A **Recordset** object for which each row represents a child of the current **Record** object. For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="18b4f-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="18b4f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="38604-110">Comentarios</span><span class="sxs-lookup"><span data-stu-id="38604-110">Remarks</span></span>
 
-<span data-ttu-id="18b4f-p102">El proveedor determina qué columnas hay en el objeto **Recordset** devuelto. Por ejemplo, un proveedor de orígenes de documentos siempre devuelve un objeto **Recordset** de recurso.</span><span class="sxs-lookup"><span data-stu-id="18b4f-p102">The provider determines what columns exist in the returned **Recordset**. For example, a document source provider always returns a resource **Recordset**.</span></span>
+<span data-ttu-id="38604-p102">El proveedor determina qué columnas hay en el objeto **Recordset** devuelto. Por ejemplo, un proveedor de orígenes de documentos siempre devuelve un objeto **Recordset** de recurso.</span><span class="sxs-lookup"><span data-stu-id="38604-p102">The provider determines what columns exist in the returned **Recordset**. For example, a document source provider always returns a resource **Recordset**.</span></span>
 

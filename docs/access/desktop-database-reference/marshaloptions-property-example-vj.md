@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="1dc37-101"><<<<<<< Título HEAD: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++) === título: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="1dc37-101"><<<<<<< HEAD title: MarshalOptions Property Example (VJ++) TOCTitle: MarshalOptions Property Example (VJ++) ======= title: MarshalOptions property example (VJ++) TOCTitle: MarshalOptions property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="1dc37-102">Master ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15) ms:contentKeyID: ms.date 48544313: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="1dc37-102">master ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15) ms:contentKeyID: 48544313 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad MarshalOptions (VJ++)
+TOCTitle: MarshalOptions property example (VJ++)
+ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
+ms:contentKeyID: 48544313
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfb62f996bc09446445d8ef2cc49644fa99c1a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883193"
 ---
-
-<span data-ttu-id="1dc37-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="1dc37-103"><<<<<<< HEAD</span></span>
-# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="1dc37-104">Ejemplo de la propiedad MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1dc37-104">MarshalOptions Property Example (VJ++)</span></span>
-=======
-# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="1dc37-105">Ejemplo de la propiedad MarshalOptions (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="1dc37-105">MarshalOptions property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="1dc37-106">master</span><span class="sxs-lookup"><span data-stu-id="1dc37-106">master</span></span>
+# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="1d274-102">Ejemplo de la propiedad MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1d274-102">MarshalOptions property example (VJ++)</span></span>
 
 
-<span data-ttu-id="1dc37-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dc37-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1d274-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d274-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1dc37-108">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="1dc37-108">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="1d274-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="1d274-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```java 
  

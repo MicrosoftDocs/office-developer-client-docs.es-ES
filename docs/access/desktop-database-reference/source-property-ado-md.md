@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249664(v=office.15)
 ms:contentKeyID: 48546431
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d257d4ec94c44fbdf78a6101264e808a2d84cee
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 98778ee98f88ba12b4100e9d852990eeecc881dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602618"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872287"
 ---
-# <a name="source-property-ado-md"></a><span data-ttu-id="f6cac-102">Source (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f6cac-102">Source Property (ADO MD)</span></span>
+# <a name="source-property-ado-md"></a><span data-ttu-id="c794f-102">Source (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c794f-102">Source Property (ADO MD)</span></span>
 
 
-<span data-ttu-id="f6cac-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6cac-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c794f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c794f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f6cac-104">Indica el origen de los datos del conjunto de celdas.</span><span class="sxs-lookup"><span data-stu-id="f6cac-104">Indicates the source for the data in the cellset.</span></span>
+<span data-ttu-id="c794f-104">Indica el origen de los datos del conjunto de celdas.</span><span class="sxs-lookup"><span data-stu-id="c794f-104">Indicates the source for the data in the cellset.</span></span>
 
-<span data-ttu-id="f6cac-105"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="f6cac-105"><<<<<<< HEAD</span></span>
-## <a name="settings-and-return-values"></a><span data-ttu-id="f6cac-106">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f6cac-106">Settings and Return Values</span></span>
-=======
-## <a name="settings-and-return-values"></a><span data-ttu-id="f6cac-107">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f6cac-107">Settings and return values</span></span>
->>>>>>> <span data-ttu-id="f6cac-108">master</span><span class="sxs-lookup"><span data-stu-id="f6cac-108">master</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="c794f-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="c794f-105">Settings and return values</span></span>
 
-<span data-ttu-id="f6cac-p101">Establece o devuelve un valor de tipo **Variant** y es de lectura y escritura para objetos [Cellset](cellset-object-ado-md.md) cerrados y de sólo lectura para objetos **Cellset** abiertos. El valor **Variant** debe contener una **cadena** válida, por ejemplo, una consulta MDX.</span><span class="sxs-lookup"><span data-stu-id="f6cac-p101">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects. The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
+<span data-ttu-id="c794f-p101">Establece o devuelve un valor de tipo **Variant** y es de lectura y escritura para objetos [Cellset](cellset-object-ado-md.md) cerrados y de sólo lectura para objetos **Cellset** abiertos. El valor **Variant** debe contener una **cadena** válida, por ejemplo, una consulta MDX.</span><span class="sxs-lookup"><span data-stu-id="c794f-p101">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects. The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
 

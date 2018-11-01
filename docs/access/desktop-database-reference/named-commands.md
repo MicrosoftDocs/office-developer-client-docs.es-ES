@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248948(v=office.15)
 ms:contentKeyID: 48543518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 940e0ace8577e6fdb7dc01daf3cd67320dfbf18c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c13a91495d283c6ce0f76c93d0ecae3e44d5f56f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483338"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878342"
 ---
-# <a name="named-commands"></a><span data-ttu-id="d2e78-102">Comandos con nombre</span><span class="sxs-lookup"><span data-stu-id="d2e78-102">Named Commands</span></span>
+# <a name="named-commands"></a><span data-ttu-id="fa72e-102">Comandos con nombre</span><span class="sxs-lookup"><span data-stu-id="fa72e-102">Named Commands</span></span>
 
 
-<span data-ttu-id="d2e78-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2e78-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fa72e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa72e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2e78-p101">Se puede establecer la propiedad **Name** en un objeto **Command** y después, ejecutar el comando llamándolo como si fuese un método para la propiedad **ActiveConnection** del objeto **Command**. Esto se muestra en el ejemplo siguiente, en el que el comando se denomina *GetCustomers*. Observe que el código pasa un objeto **Recordset** declarado y del que se creó una instancia al "método" GetCustomers. También se pueden pasar parámetros al "método" si así lo requiere el **comando**.</span><span class="sxs-lookup"><span data-stu-id="d2e78-p101">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property. This is illustrated in the following example, in which the command is named *GetCustomers*. Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method." You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
+<span data-ttu-id="fa72e-p101">Se puede establecer la propiedad **Name** en un objeto **Command** y después, ejecutar el comando llamándolo como si fuese un método para la propiedad **ActiveConnection** del objeto **Command**. Esto se muestra en el ejemplo siguiente, en el que el comando se denomina *GetCustomers*. Observe que el código pasa un objeto **Recordset** declarado y del que se creó una instancia al "método" GetCustomers. También se pueden pasar parámetros al "método" si así lo requiere el **comando**.</span><span class="sxs-lookup"><span data-stu-id="fa72e-p101">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property. This is illustrated in the following example, in which the command is named *GetCustomers*. Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method." You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
 
 ```vb 
  

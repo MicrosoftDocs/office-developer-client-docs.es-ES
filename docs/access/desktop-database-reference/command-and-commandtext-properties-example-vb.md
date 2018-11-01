@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a3d06-101"><<<<<<< Título HEAD: comando y ejemplo de las propiedades CommandText (VB) TOCTitle: comando y ejemplo de las propiedades CommandText (VB) === título: ejemplo de propiedades comando y CommandText (VB) TOCTitle: comando y CommandText ejemplo de las propiedades (VB)</span><span class="sxs-lookup"><span data-stu-id="a3d06-101"><<<<<<< HEAD title: Command and CommandText Properties Example (VB) TOCTitle: Command and CommandText Properties Example (VB) ======= title: Command and CommandText properties example (VB) TOCTitle: Command and CommandText properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="a3d06-102">Master ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: ms.date 48545462: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="a3d06-102">master ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: 48545462 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de propiedades Command y CommandText (VB)
+TOCTitle: Command and CommandText properties example (VB)
+ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
+ms:contentKeyID: 48545462
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: e19ac7517e548f1594c0b525671e6aff66eef72c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888513"
 ---
-
-<span data-ttu-id="a3d06-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="a3d06-103"><<<<<<< HEAD</span></span>
-# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="a3d06-104">Ejemplo de propiedades Comando y CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="a3d06-104">Command and CommandText Properties Example (VB)</span></span>
-=======
-# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="a3d06-105">Ejemplo de propiedades comando y CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="a3d06-105">Command and CommandText properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="a3d06-106">master</span><span class="sxs-lookup"><span data-stu-id="a3d06-106">master</span></span>
+# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="a56cb-102">Ejemplo de propiedades Command y CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="a56cb-102">Command and CommandText properties example (VB)</span></span>
 
 
-<span data-ttu-id="a3d06-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3d06-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a56cb-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a56cb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a3d06-108">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="a3d06-108">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="a56cb-104">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="a56cb-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```vb 
  

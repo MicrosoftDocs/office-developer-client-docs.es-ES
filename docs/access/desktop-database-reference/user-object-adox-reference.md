@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248974(v=office.15)
 ms:contentKeyID: 48543617
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 312b32ce952f79470ca6f13ef762350dd2eabe22
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a41126344e82074be3295b32c31783b068ea35b4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483307"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889906"
 ---
-# <a name="user-object-adox-reference"></a><span data-ttu-id="4bd63-102">User Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="4bd63-102">User Object (ADOX) Reference</span></span>
+# <a name="user-object-adox-reference"></a><span data-ttu-id="8cd50-102">User Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="8cd50-102">User Object (ADOX) Reference</span></span>
 
 
-<span data-ttu-id="4bd63-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4bd63-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8cd50-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8cd50-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="4bd63-104">User (objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4bd63-104">User Object (ADOX)</span></span>](user-object-adox.md)
+  - [<span data-ttu-id="8cd50-104">Objeto de usuario) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8cd50-104">User Object (ADOX)</span></span>](user-object-adox.md)
 
-  - [<span data-ttu-id="4bd63-105">User Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4bd63-105">User Properties, Methods, and Events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
+  - [<span data-ttu-id="8cd50-105">User Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8cd50-105">User Properties, Methods, and Events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
 

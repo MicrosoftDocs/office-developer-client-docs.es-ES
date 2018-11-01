@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 759b855660904f70746abd36bf5f386cb7630944
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864098"
+ms.locfileid: "25878202"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="72611-102">Ejemplo del método NextRecordset (VC++)</span><span class="sxs-lookup"><span data-stu-id="72611-102">NextRecordset method example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="33a3e-102">Ejemplo del método NextRecordset (VC++)</span><span class="sxs-lookup"><span data-stu-id="33a3e-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="72611-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="72611-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="33a3e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33a3e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72611-104">En este ejemplo se utiliza el método [NextRecordset](nextrecordset-method-ado.md) para ver los datos de un conjunto de registros que utiliza una instrucción compuesta formada por tres instrucciones **SELECT**.</span><span class="sxs-lookup"><span data-stu-id="72611-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="33a3e-104">En este ejemplo se utiliza el método [NextRecordset](nextrecordset-method-ado.md) para ver los datos de un conjunto de registros que utiliza una instrucción compuesta formada por tres instrucciones **SELECT**.</span><span class="sxs-lookup"><span data-stu-id="33a3e-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  

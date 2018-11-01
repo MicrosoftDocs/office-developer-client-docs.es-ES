@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123731(v=office.15)
 ms:contentKeyID: 52071372
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb8ba5cf959aaa78cf6437bccb0934338318477a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5e79134fb64b7b90f69fa0fa0c3d56d08af3f8c3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483915"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871328"
 ---
-# <a name="database-object-reference-dao"></a><span data-ttu-id="f0448-102">Referencia de objeto de base de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0448-102">Database Object Reference (DAO)</span></span>
+# <a name="database-object-reference-dao"></a><span data-ttu-id="9da92-102">Referencia de objeto de base de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="9da92-102">Database Object Reference (DAO)</span></span>
 
 
-<span data-ttu-id="f0448-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0448-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9da92-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9da92-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="f0448-104">Database Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0448-104">Database Object (DAO)</span></span>](database-object-dao.md)
+  - [<span data-ttu-id="9da92-104">Database Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="9da92-104">Database Object (DAO)</span></span>](database-object-dao.md)
 
-  - [<span data-ttu-id="f0448-105">Database Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0448-105">Database Members (DAO)</span></span>](database-members-dao.md)
+  - [<span data-ttu-id="9da92-105">Database Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="9da92-105">Database Members (DAO)</span></span>](database-members-dao.md)
 
-  - [<span data-ttu-id="f0448-106">Database Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0448-106">Database Properties (DAO)</span></span>](database-properties-dao.md)
+  - [<span data-ttu-id="9da92-106">Database Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="9da92-106">Database Properties (DAO)</span></span>](database-properties-dao.md)
 
-  - [<span data-ttu-id="f0448-107">Database Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0448-107">Database Methods (DAO)</span></span>](database-methods-dao.md)
+  - [<span data-ttu-id="9da92-107">Database Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="9da92-107">Database Methods (DAO)</span></span>](database-methods-dao.md)
 
