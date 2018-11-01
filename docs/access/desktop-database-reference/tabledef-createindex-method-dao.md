@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1c0dd3a48274c7a0affae9caa87ec762bea498ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 017fbbe543540d45a7b05dec7ca992614bda40ad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606377"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868094"
 ---
-# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="97f49-102">TableDef.CreateIndex Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="97f49-102">TableDef.CreateIndex Method (DAO)</span></span>
+# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="b1ad8-102">TableDef.CreateIndex Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="b1ad8-102">TableDef.CreateIndex Method (DAO)</span></span>
 
 
-<span data-ttu-id="97f49-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="97f49-103">**Applies to**: Access 2013 | Office 2013</span></span> 
+<span data-ttu-id="b1ad8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1ad8-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="97f49-p101">Crea un nuevo objeto **[Index](index-object-dao.md)** (solo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="97f49-p101">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="b1ad8-p101">Crea un nuevo objeto **[Index](index-object-dao.md)** (solo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="b1ad8-p101">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="97f49-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="97f49-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b1ad8-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b1ad8-106">Syntax</span></span>
 
-<span data-ttu-id="97f49-107">*expresión* . CreateIndex (***nombre***)</span><span class="sxs-lookup"><span data-stu-id="97f49-107">*expression* .CreateIndex(***Name***)</span></span>
+<span data-ttu-id="b1ad8-107">*expresión* . CreateIndex (***nombre***)</span><span class="sxs-lookup"><span data-stu-id="b1ad8-107">*expression* .CreateIndex(***Name***)</span></span>
 
-<span data-ttu-id="97f49-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="97f49-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="b1ad8-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="b1ad8-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="97f49-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="97f49-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="b1ad8-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="b1ad8-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,42 +41,38 @@ ms.locfileid: "25606377"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="97f49-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="97f49-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="97f49-111">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="97f49-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="97f49-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="97f49-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="97f49-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="97f49-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="b1ad8-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="b1ad8-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="b1ad8-111">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="b1ad8-111">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="b1ad8-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="b1ad8-112">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="b1ad8-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="b1ad8-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97f49-114">Nombre</span><span class="sxs-lookup"><span data-stu-id="97f49-114">Name</span></span></p></td>
-<td><p><span data-ttu-id="97f49-115">Opcional</span><span class="sxs-lookup"><span data-stu-id="97f49-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="97f49-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="97f49-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="97f49-p102"><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Index</strong>. Vea el tema relativo a la propiedad <strong>Name</strong> para obtener información detallada sobre los nombres de <strong>Index</strong> válidos.</span><span class="sxs-lookup"><span data-stu-id="97f49-p102">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object. See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="b1ad8-114">Nombre</span><span class="sxs-lookup"><span data-stu-id="b1ad8-114">Name</span></span></p></td>
+<td><p><span data-ttu-id="b1ad8-115">Opcional</span><span class="sxs-lookup"><span data-stu-id="b1ad8-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b1ad8-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="b1ad8-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="b1ad8-p102"><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Index</strong>. Vea el tema relativo a la propiedad <strong>Name</strong> para obtener información detallada sobre los nombres de <strong>Index</strong> válidos.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-p102">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object. See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="97f49-119"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="97f49-119"><<<<<<< HEAD</span></span>
-### <a name="return-value"></a><span data-ttu-id="97f49-120">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="97f49-120">Return Value</span></span>
-=======
-### <a name="return-value"></a><span data-ttu-id="97f49-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="97f49-121">Return value</span></span>
->>>>>>> <span data-ttu-id="97f49-122">master</span><span class="sxs-lookup"><span data-stu-id="97f49-122">master</span></span>
+### <a name="return-value"></a><span data-ttu-id="b1ad8-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b1ad8-119">Return value</span></span>
 
-<span data-ttu-id="97f49-123">Index</span><span class="sxs-lookup"><span data-stu-id="97f49-123">Index</span></span>
+<span data-ttu-id="b1ad8-120">Index</span><span class="sxs-lookup"><span data-stu-id="b1ad8-120">Index</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="97f49-124">Observaciones</span><span class="sxs-lookup"><span data-stu-id="97f49-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1ad8-121">Observaciones</span><span class="sxs-lookup"><span data-stu-id="b1ad8-121">Remarks</span></span>
 
-<span data-ttu-id="97f49-125">Puede utilizar el método **CreateIndex** para crear un nuevo objeto **Index** para un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="97f49-125">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="97f49-126">Si se omite la parte del nombre opcional cuando utiliza **CreateIndex**, puede usar una instrucción de asignación adecuada para establecer o restablecer la propiedad **Name** antes de agregar el nuevo objeto a una colección.</span><span class="sxs-lookup"><span data-stu-id="97f49-126">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="97f49-127">Después de agregar el objeto, podrá o no establecer su propiedad **Name** en función del tipo de objeto que contenga la colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="97f49-127">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="97f49-128">Vea el tema correspondiente a la propiedad **Name** para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="97f49-128">See the **Name** property topic for more details.</span></span>
+<span data-ttu-id="b1ad8-122">Puede utilizar el método **CreateIndex** para crear un nuevo objeto **Index** para un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-122">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="b1ad8-123">Si se omite la parte del nombre opcional cuando utiliza **CreateIndex**, puede usar una instrucción de asignación adecuada para establecer o restablecer la propiedad **Name** antes de agregar el nuevo objeto a una colección.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-123">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="b1ad8-124">Después de agregar el objeto, podrá o no establecer su propiedad **Name** en función del tipo de objeto que contenga la colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-124">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="b1ad8-125">Vea el tema correspondiente a la propiedad **Name** para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-125">See the **Name** property topic for more details.</span></span>
 
-<span data-ttu-id="97f49-129">Si name hace referencia a un objeto que ya es un miembro de la colección, se produce un error en tiempo de ejecución cuando se utiliza el método **[Append](fields-append-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="97f49-129">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
+<span data-ttu-id="b1ad8-126">Si name hace referencia a un objeto que ya es un miembro de la colección, se produce un error en tiempo de ejecución cuando se utiliza el método **[Append](fields-append-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="b1ad8-126">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="97f49-130">Para quitar un objeto **Index** de una colección, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección.</span><span class="sxs-lookup"><span data-stu-id="97f49-130">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="b1ad8-127">Para quitar un objeto **Index** de una colección, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-127">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="97f49-131">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="97f49-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b1ad8-128">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b1ad8-128">Example</span></span>
 
-<span data-ttu-id="97f49-p104">En este ejemplo se utiliza el método **CreateIndex** para crear dos objetos **Index** nuevos y agregarlos después a la colección **Indexes** del objeto **TableDef** de empleados. A continuación, se enumera la colección Indexes del objeto **TableDef**, la colección **Fields** de los nuevos objetos **Index** y la colección Properties de los nuevos objetos **Index**. Se requiere la función CreateIndexOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="97f49-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="b1ad8-p104">En este ejemplo se utiliza el método **CreateIndex** para crear dos objetos **Index** nuevos y agregarlos después a la colección **Indexes** del objeto **TableDef** de empleados. A continuación, se enumera la colección Indexes del objeto **TableDef**, la colección **Fields** de los nuevos objetos **Index** y la colección Properties de los nuevos objetos **Index**. Se requiere la función CreateIndexOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="b1ad8-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateIndexX() 
