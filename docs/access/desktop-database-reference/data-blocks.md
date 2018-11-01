@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125230(v=office.15)
 ms:contentKeyID: 52073354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb88ca3d5d77dbe13adb283e5582fdb4d0f4639c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d72b9302b19fb0f176e46f83436a25d36018cc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483678"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868933"
 ---
 # <a name="data-blocks"></a>Bloques de datos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
@@ -24,7 +24,7 @@ ms.locfileid: "25483678"
 
   - [EditarRegistro (bloque de datos)](editrecord-data-block.md)
 
-  - [ParaCadaRegistro (bloque de datos)](foreachrecord-data-block.md)
+  - [DeCadaRegistro (bloque de datos)](foreachrecord-data-block.md)
 
   - [BuscarRegistro (bloque de datos)](lookuprecord-data-block.md)
 

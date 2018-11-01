@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fff0c9ac46e4a616fb5ea134e3dabc6b4e90576f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862894"
+ms.locfileid: "25873106"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferirBaseDeDatosSQL (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información sobre la transferencia de una base de datos, vea la documentación de SQL Server.
 
