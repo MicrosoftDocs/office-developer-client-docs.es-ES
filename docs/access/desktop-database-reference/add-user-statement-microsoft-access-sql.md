@@ -6,24 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 80e3a8fe62cf077accfc18a30e188898fb279d1d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7a27874a7264258fee51f90fabaeecd180d7aeae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862292"
+ms.locfileid: "25868612"
 ---
-# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="3fc23-102">Instrucción ADD USER (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="3fc23-102">ADD USER statement (Microsoft Access SQL)</span></span>
+# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="847c3-102">Instrucción ADD USER (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="847c3-102">ADD USER statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="3fc23-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fc23-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="847c3-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="847c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3fc23-104">Agrega uno o varios *usuarios* existentes a un *grupo* existente.</span><span class="sxs-lookup"><span data-stu-id="3fc23-104">Adds one or more existing *user*s to an existing *group*.</span></span>
+<span data-ttu-id="847c3-104">Agrega uno o varios *usuarios* existentes a un *grupo* existente.</span><span class="sxs-lookup"><span data-stu-id="847c3-104">Adds one or more existing *user*s to an existing *group*.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3fc23-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3fc23-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="847c3-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="847c3-105">Syntax</span></span>
 
-<span data-ttu-id="3fc23-106">ADD USER *usuario*\[, *usuario*,... \] Al *grupo*</span><span class="sxs-lookup"><span data-stu-id="3fc23-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
+<span data-ttu-id="847c3-106">ADD USER *usuario*\[, *usuario*,... \] Al *grupo*</span><span class="sxs-lookup"><span data-stu-id="847c3-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
 
-<span data-ttu-id="3fc23-107">La instrucción ADD USER consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="3fc23-107">The ADD USER statement has these parts:</span></span>
+<span data-ttu-id="847c3-107">La instrucción ADD USER consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="847c3-107">The ADD USER statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -32,24 +32,24 @@ ms.locfileid: "25862292"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3fc23-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="3fc23-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="3fc23-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="3fc23-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="847c3-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="847c3-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="847c3-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="847c3-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3fc23-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="3fc23-110"><em>user</em></span></span></p></td>
-<td><p><span data-ttu-id="3fc23-111">Nombre de un usuario que se agregará al archivo de información de grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="3fc23-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="847c3-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="847c3-110"><em>user</em></span></span></p></td>
+<td><p><span data-ttu-id="847c3-111">Nombre de un usuario que se agregará al archivo de información de grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="847c3-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3fc23-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="3fc23-112"><em>group</em></span></span></p></td>
-<td><p><span data-ttu-id="3fc23-113">Nombre de un grupo que se agregará al archivo de información de grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="3fc23-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="847c3-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="847c3-112"><em>group</em></span></span></p></td>
+<td><p><span data-ttu-id="847c3-113">Nombre de un grupo que se agregará al archivo de información de grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="847c3-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="3fc23-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3fc23-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="847c3-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="847c3-114">Remarks</span></span>
 
-<span data-ttu-id="3fc23-115">Después de que un *usuario* se haya agregado a un *grupo*, el *usuario* tiene todos los permisos que se han concedido al *grupo*.</span><span class="sxs-lookup"><span data-stu-id="3fc23-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
+<span data-ttu-id="847c3-115">Después de que un *usuario* se haya agregado a un *grupo*, el *usuario* tiene todos los permisos que se han concedido al *grupo*.</span><span class="sxs-lookup"><span data-stu-id="847c3-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
 

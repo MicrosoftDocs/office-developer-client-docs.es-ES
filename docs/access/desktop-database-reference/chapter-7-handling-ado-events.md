@@ -6,34 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 816dd98e5e4c21f3159edf18b5687b2b0578e399
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 48b74b3de734ecc10a4ff9a46b517eba18191179
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860843"
+ms.locfileid: "25880078"
 ---
-# <a name="chapter-7-handling-ado-events"></a><span data-ttu-id="d0512-102">Capítulo 7: Controlar eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="d0512-102">Chapter 7: Handling ADO Events</span></span>
+# <a name="chapter-7-handling-ado-events"></a><span data-ttu-id="35a77-102">Capítulo 7: Controlar eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="35a77-102">Chapter 7: Handling ADO Events</span></span>
 
 
-<span data-ttu-id="d0512-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0512-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="35a77-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35a77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d0512-p101">El modelo de eventos de ADO admite ciertas operaciones sincrónicas y asincrónicas de ADO que generan *eventos*, o notificaciones, antes de iniciar la operación o después de completarla. Un evento es realmente una llamada a una rutina de controlador de eventos que se define en una aplicación.</span><span class="sxs-lookup"><span data-stu-id="d0512-p101">The ADO event model supports certain synchronous and asynchronous ADO operations that issue *events*, or notifications, before the operation starts or after it completes. An event is actually a call to an event-handler routine that you define in your application.</span></span>
+<span data-ttu-id="35a77-p101">El modelo de eventos de ADO admite ciertas operaciones sincrónicas y asincrónicas de ADO que generan *eventos*, o notificaciones, antes de iniciar la operación o después de completarla. Un evento es realmente una llamada a una rutina de controlador de eventos que se define en una aplicación.</span><span class="sxs-lookup"><span data-stu-id="35a77-p101">The ADO event model supports certain synchronous and asynchronous ADO operations that issue *events*, or notifications, before the operation starts or after it completes. An event is actually a call to an event-handler routine that you define in your application.</span></span>
 
-<span data-ttu-id="d0512-p102">Si proporciona procedimientos o funciones de controlador para el grupo de eventos que ocurren antes de iniciarse una operación, podrá examinar o modificar los parámetros que se pasaron a la operación. Puesto que aún no se ha ejecutado, puede cancelar la operación o bien permitir que se ejecute.</span><span class="sxs-lookup"><span data-stu-id="d0512-p102">If you provide handler functions or procedures for the group of events that occur before the operation starts, you can examine or modify the parameters that were passed to the operation. Because it has not been executed yet, you can either cancel the operation or allow it to complete.</span></span>
+<span data-ttu-id="35a77-p102">Si proporciona procedimientos o funciones de controlador para el grupo de eventos que ocurren antes de iniciarse una operación, podrá examinar o modificar los parámetros que se pasaron a la operación. Puesto que aún no se ha ejecutado, puede cancelar la operación o bien permitir que se ejecute.</span><span class="sxs-lookup"><span data-stu-id="35a77-p102">If you provide handler functions or procedures for the group of events that occur before the operation starts, you can examine or modify the parameters that were passed to the operation. Because it has not been executed yet, you can either cancel the operation or allow it to complete.</span></span>
 
-<span data-ttu-id="d0512-p103">El grupo de eventos que ocurren tras completar una operación es especialmente importante si utiliza ADO asincrónicamente. Por ejemplo, para una aplicación que inicia una operación asincrónica [Recordset.Open](open-method-ado-recordset.md) la notificación de que la operación concluyó se realiza mediante un evento de finalización de ejecución.</span><span class="sxs-lookup"><span data-stu-id="d0512-p103">The group of events that occur after an operation completes are especially important if you use ADO asynchronously. For example, an application that starts an asynchronous [Recordset.Open](open-method-ado-recordset.md) operation is notified by an execution complete event when the operation concludes.</span></span>
+<span data-ttu-id="35a77-p103">El grupo de eventos que ocurren tras completar una operación es especialmente importante si utiliza ADO asincrónicamente. Por ejemplo, para una aplicación que inicia una operación asincrónica [Recordset.Open](open-method-ado-recordset.md) la notificación de que la operación concluyó se realiza mediante un evento de finalización de ejecución.</span><span class="sxs-lookup"><span data-stu-id="35a77-p103">The group of events that occur after an operation completes are especially important if you use ADO asynchronously. For example, an application that starts an asynchronous [Recordset.Open](open-method-ado-recordset.md) operation is notified by an execution complete event when the operation concludes.</span></span>
 
-<span data-ttu-id="d0512-110">El uso del modelo de eventos de ADO agrega alguna sobrecarga a la aplicación, pero proporciona mucha más flexibilidad que otros métodos de trabajar con operaciones asincrónicas, tales como el de vigilar la propiedad [State](state-property-ado.md) de un objeto con un bucle.</span><span class="sxs-lookup"><span data-stu-id="d0512-110">Using the ADO event model adds some overhead to your application but provides far more flexibility than other methods of dealing with asynchronous operations, such as monitoring the [State](state-property-ado.md) property of an object with a loop.</span></span>
+<span data-ttu-id="35a77-110">El uso del modelo de eventos de ADO agrega alguna sobrecarga a la aplicación, pero proporciona mucha más flexibilidad que otros métodos de trabajar con operaciones asincrónicas, tales como el de vigilar la propiedad [State](state-property-ado.md) de un objeto con un bucle.</span><span class="sxs-lookup"><span data-stu-id="35a77-110">Using the ADO event model adds some overhead to your application but provides far more flexibility than other methods of dealing with asynchronous operations, such as monitoring the [State](state-property-ado.md) property of an object with a loop.</span></span>
 
-<span data-ttu-id="d0512-111">En este capítulo, se tratan los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="d0512-111">This chapter covers the following topics:</span></span>
+<span data-ttu-id="35a77-111">En este capítulo, se tratan los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="35a77-111">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="d0512-112">Resumen de controladores de eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="d0512-112">ADO Event Handler Summary</span></span>](ado-event-handler-summary.md)
+- [<span data-ttu-id="35a77-112">Resumen de controladores de eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="35a77-112">ADO Event Handler Summary</span></span>](ado-event-handler-summary.md)
 
-- [<span data-ttu-id="d0512-113">Tipos de eventos</span><span class="sxs-lookup"><span data-stu-id="d0512-113">Types of Events</span></span>](types-of-events.md)
+- [<span data-ttu-id="35a77-113">Tipos de eventos</span><span class="sxs-lookup"><span data-stu-id="35a77-113">Types of Events</span></span>](types-of-events.md)
 
-- [<span data-ttu-id="d0512-114">Parámetros de evento</span><span class="sxs-lookup"><span data-stu-id="d0512-114">Event Parameters</span></span>](event-parameters.md)
+- [<span data-ttu-id="35a77-114">Parámetros de evento</span><span class="sxs-lookup"><span data-stu-id="35a77-114">Event Parameters</span></span>](event-parameters.md)
 
-- [<span data-ttu-id="d0512-115">Cómo funcionan los controladores de eventos combinados</span><span class="sxs-lookup"><span data-stu-id="d0512-115">How Event Handlers Work Together</span></span>](how-event-handlers-work-together.md)
+- [<span data-ttu-id="35a77-115">Cómo funcionan los controladores de eventos combinados</span><span class="sxs-lookup"><span data-stu-id="35a77-115">How Event Handlers Work Together</span></span>](how-event-handlers-work-together.md)
 
-- [<span data-ttu-id="d0512-116">ADO Event Instantiation by Language (ADO)</span><span class="sxs-lookup"><span data-stu-id="d0512-116">ADO Event Instantiation by Language (ADO)</span></span>](ado-event-instantiation-by-language-ado.md)
+- [<span data-ttu-id="35a77-116">ADO Event Instantiation by Language (ADO)</span><span class="sxs-lookup"><span data-stu-id="35a77-116">ADO Event Instantiation by Language (ADO)</span></span>](ado-event-instantiation-by-language-ado.md)

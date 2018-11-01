@@ -6,34 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249774(v=office.15)
 ms:contentKeyID: 48546878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d5f72ac5bdc9630754ca018fcc93bb15bbea7f0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 32a566f4b0876d9dfc38d30c215bd08b2bb59fd7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486085"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887953"
 ---
-# <a name="adox-enumerated-constants-reference"></a><span data-ttu-id="0ce7b-102">ADOX Enumerated Constants Reference</span><span class="sxs-lookup"><span data-stu-id="0ce7b-102">ADOX Enumerated Constants Reference</span></span>
+# <a name="adox-enumerated-constants-reference"></a><span data-ttu-id="2e201-102">ADOX Enumerated Constants Reference</span><span class="sxs-lookup"><span data-stu-id="2e201-102">ADOX Enumerated Constants Reference</span></span>
 
 
-<span data-ttu-id="0ce7b-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ce7b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2e201-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e201-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-  - [<span data-ttu-id="0ce7b-104">Constantes enumeradas de ADOX</span><span class="sxs-lookup"><span data-stu-id="0ce7b-104">ADOX Enumerated Constants</span></span>](adox-enumerated-constants.md)
+  - [<span data-ttu-id="2e201-104">Constantes enumeradas de ADOX</span><span class="sxs-lookup"><span data-stu-id="2e201-104">ADOX Enumerated Constants</span></span>](adox-enumerated-constants.md)
 
-  - [<span data-ttu-id="0ce7b-105">ActionEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-105">ActionEnum</span></span>](actionenum.md)
+  - [<span data-ttu-id="2e201-105">ActionEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-105">ActionEnum</span></span>](actionenum.md)
 
-  - [<span data-ttu-id="0ce7b-106">AllowNullsEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-106">AllowNullsEnum</span></span>](allownullsenum.md)
+  - [<span data-ttu-id="2e201-106">AllowNullsEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-106">AllowNullsEnum</span></span>](allownullsenum.md)
 
-  - [<span data-ttu-id="0ce7b-107">ColumnAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-107">ColumnAttributesEnum</span></span>](columnattributesenum.md)
+  - [<span data-ttu-id="2e201-107">ColumnAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-107">ColumnAttributesEnum</span></span>](columnattributesenum.md)
 
-  - [<span data-ttu-id="0ce7b-108">InheritTypeEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-108">InheritTypeEnum</span></span>](inherittypeenum.md)
+  - [<span data-ttu-id="2e201-108">InheritTypeEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-108">InheritTypeEnum</span></span>](inherittypeenum.md)
 
-  - [<span data-ttu-id="0ce7b-109">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-109">KeyTypeEnum</span></span>](keytypeenum.md)
+  - [<span data-ttu-id="2e201-109">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-109">KeyTypeEnum</span></span>](keytypeenum.md)
 
-  - [<span data-ttu-id="0ce7b-110">RightsEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-110">RightsEnum</span></span>](rightsenum.md)
+  - [<span data-ttu-id="2e201-110">RightsEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-110">RightsEnum</span></span>](rightsenum.md)
 
-  - [<span data-ttu-id="0ce7b-111">RuleEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-111">RuleEnum</span></span>](ruleenum.md)
+  - [<span data-ttu-id="2e201-111">RuleEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-111">RuleEnum</span></span>](ruleenum.md)
 
-  - [<span data-ttu-id="0ce7b-112">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="0ce7b-112">SortOrderEnum</span></span>](sortorderenum.md)
+  - [<span data-ttu-id="2e201-112">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="2e201-112">SortOrderEnum</span></span>](sortorderenum.md)
 

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="f442a-101"><<<<<<< Título HEAD: ejemplo de propiedad Status (Recordset) (VB) TOCTitle: ejemplo de propiedad Status (Recordset) (VB) === título: ejemplo de la propiedad Status (Recordset) (VB) TOCTitle: ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="f442a-101"><<<<<<< HEAD title: Status Property Example (Recordset) (VB) TOCTitle: Status Property Example (Recordset) (VB) ======= title: Status property example (Recordset) (VB) TOCTitle: Status property example (Recordset) (VB)</span></span>
->>>>>>> <span data-ttu-id="f442a-102">Master ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: ms.date 48546476: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="f442a-102">master ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad Status (Recordset) (VB)
+TOCTitle: Status property example (Recordset) (VB)
+ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
+ms:contentKeyID: 48546476
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23e444b2b10946c815cb25b0ed8aedb7533b89c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869067"
 ---
-
-<span data-ttu-id="f442a-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="f442a-103"><<<<<<< HEAD</span></span>
-# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="f442a-104">Ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="f442a-104">Status Property Example (Recordset) (VB)</span></span>
-=======
-# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="f442a-105">Ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="f442a-105">Status property example (Recordset) (VB)</span></span>
->>>>>>> <span data-ttu-id="f442a-106">master</span><span class="sxs-lookup"><span data-stu-id="f442a-106">master</span></span>
+# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="b76e0-102">Ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="b76e0-102">Status property example (Recordset) (VB)</span></span>
 
 
-<span data-ttu-id="f442a-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f442a-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b76e0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b76e0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f442a-108">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="f442a-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="b76e0-104">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="b76e0-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```vb 
  

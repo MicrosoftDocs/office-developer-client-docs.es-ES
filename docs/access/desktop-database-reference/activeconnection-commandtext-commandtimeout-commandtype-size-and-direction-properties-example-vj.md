@@ -1,18 +1,23 @@
 ---
-<span data-ttu-id="51e80-101"><<<<<<< Título HEAD: ActiveConnection, CommandText, CommandTimeout ejemplo de las propiedades (VJ ++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y ejemplo de las propiedades de dirección (VJ ++) ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: ms.date 48545936: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="51e80-101"><<<<<<< HEAD title: ActiveConnection, CommandText, CommandTimeout Properties Example (VJ++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VJ++) ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: 48545936 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout (VJ ++)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
+ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
+ms:contentKeyID: 48545936
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 8199c278b6552a40735f17f5f9f3a05e70e3f075
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879203"
 ---
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="bab7c-102">Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bab7c-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
 
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="51e80-102">Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (VJ++)</span><span class="sxs-lookup"><span data-stu-id="51e80-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VJ++)</span></span>
+<span data-ttu-id="bab7c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bab7c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51e80-103">=== título: ActiveConnection, CommandText, CommandTimeout ejemplo de las propiedades (VJ ++) TOCTitle: ms:assetid de ejemplo (VJ ++) de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: ms.date 48545936: 17/10/2018 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="51e80-103">======= title: ActiveConnection, CommandText, CommandTimeout properties example (VJ++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++) ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: 48545936 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="51e80-104">Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y Direction (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="51e80-104">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="51e80-105">master</span><span class="sxs-lookup"><span data-stu-id="51e80-105">master</span></span>
-
-<span data-ttu-id="51e80-106">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="51e80-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="51e80-107">En este ejemplo se utilizan las propiedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) y [Direction](direction-property-ado.md) para ejecutar un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="51e80-107">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="bab7c-104">En este ejemplo se utilizan las propiedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) y [Direction](direction-property-ado.md) para ejecutar un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="bab7c-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```java 
  

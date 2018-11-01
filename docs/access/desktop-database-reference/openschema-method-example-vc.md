@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249584(v=office.15)
 ms:contentKeyID: 48546083
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77d50f07aa3b98f93280105776b433a7c7302b57
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 922a24efcadcae0d5a62156c7247685aa70a3d82
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861403"
+ms.locfileid: "25878419"
 ---
-# <a name="openschema-method-example-vc"></a><span data-ttu-id="254d0-102">Ejemplo del método OpenSchema (VC++)</span><span class="sxs-lookup"><span data-stu-id="254d0-102">OpenSchema method example (VC++)</span></span>
+# <a name="openschema-method-example-vc"></a><span data-ttu-id="c1e2b-102">Ejemplo del método OpenSchema (VC++)</span><span class="sxs-lookup"><span data-stu-id="c1e2b-102">OpenSchema method example (VC++)</span></span>
 
 
-<span data-ttu-id="254d0-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="254d0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c1e2b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1e2b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="254d0-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="254d0-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="c1e2b-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="c1e2b-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```cpp 
  

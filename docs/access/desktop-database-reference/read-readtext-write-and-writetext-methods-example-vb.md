@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e36e17b36b633e717b387e9a40451ace9244b38
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 072abea009dfa2cd3d4f43a1da448fec60aa33b8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861004"
+ms.locfileid: "25885832"
 ---
-# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="1c67a-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="1c67a-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
+# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="0a666-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="0a666-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
 
 
-<span data-ttu-id="1c67a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c67a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0a666-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a666-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1c67a-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1c67a-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="0a666-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="0a666-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
 
 ```vb 
  

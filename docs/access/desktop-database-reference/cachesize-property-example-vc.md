@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="fa520-101"><<<<<<< Título HEAD: ejemplo de la propiedad CacheSize (VC ++) TOCTitle: ejemplo de la propiedad CacheSize (VC ++) === título: ejemplo de la propiedad CacheSize (VC ++) TOCTitle: ejemplo de la propiedad CacheSize (VC ++)</span><span class="sxs-lookup"><span data-stu-id="fa520-101"><<<<<<< HEAD title: CacheSize Property Example (VC++) TOCTitle: CacheSize Property Example (VC++) ======= title: CacheSize property example (VC++) TOCTitle: CacheSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="fa520-102">Master ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15) ms:contentKeyID: ms.date 48547435: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="fa520-102">master ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15) ms:contentKeyID: 48547435 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad CacheSize (VC++)
+TOCTitle: CacheSize property example (VC++)
+ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
+ms:contentKeyID: 48547435
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 944aaae506a8a7f3faba45e2220daf5caf46bed1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885713"
 ---
-
-<span data-ttu-id="fa520-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fa520-103"><<<<<<< HEAD</span></span>
-# <a name="cachesize-property-example-vc"></a><span data-ttu-id="fa520-104">Ejemplo de la propiedad CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="fa520-104">CacheSize Property Example (VC++)</span></span>
-=======
-# <a name="cachesize-property-example-vc"></a><span data-ttu-id="fa520-105">Ejemplo de la propiedad CacheSize (VC ++)</span><span class="sxs-lookup"><span data-stu-id="fa520-105">CacheSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="fa520-106">master</span><span class="sxs-lookup"><span data-stu-id="fa520-106">master</span></span>
+# <a name="cachesize-property-example-vc"></a><span data-ttu-id="570b0-102">Ejemplo de la propiedad CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="570b0-102">CacheSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="fa520-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa520-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="570b0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="570b0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fa520-108">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="fa520-108">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="570b0-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="570b0-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```cpp 
  

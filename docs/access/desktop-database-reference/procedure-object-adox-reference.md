@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
 ms:contentKeyID: 48545769
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cbadb95e726d0b40013a4fdbe37e18f0db42c5c5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4cc9bc1c48fc6b634ab09311ba0b6101b5ba12bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485279"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876242"
 ---
-# <a name="procedure-object-adox-reference"></a><span data-ttu-id="d7f36-102">Procedure Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="d7f36-102">Procedure Object (ADOX) Reference</span></span>
+# <a name="procedure-object-adox-reference"></a><span data-ttu-id="fcc5d-102">Procedure Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="fcc5d-102">Procedure Object (ADOX) Reference</span></span>
 
 
-<span data-ttu-id="d7f36-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7f36-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fcc5d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fcc5d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="d7f36-104">Procedure (objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d7f36-104">Procedure Object (ADOX)</span></span>](procedure-object-adox.md)
+  - [<span data-ttu-id="fcc5d-104">Objeto Procedure) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fcc5d-104">Procedure Object (ADOX)</span></span>](procedure-object-adox.md)
 
-  - [<span data-ttu-id="d7f36-105">Procedure Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d7f36-105">Procedure Properties, Methods, and Events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
+  - [<span data-ttu-id="fcc5d-105">Procedure Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fcc5d-105">Procedure Properties, Methods, and Events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
 

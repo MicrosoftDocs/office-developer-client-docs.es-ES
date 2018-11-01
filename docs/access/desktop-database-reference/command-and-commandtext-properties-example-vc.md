@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="c358d-101"><<<<<<< Título HEAD: comando y ejemplo de las propiedades CommandText (VC ++) TOCTitle: comando y ejemplo de las propiedades CommandText (VC ++) === título: ejemplo de propiedades comando y CommandText (VC ++) TOCTitle: comando y CommandText ejemplo de las propiedades (VC ++)</span><span class="sxs-lookup"><span data-stu-id="c358d-101"><<<<<<< HEAD title: Command and CommandText Properties Example (VC++) TOCTitle: Command and CommandText Properties Example (VC++) ======= title: Command and CommandText properties example (VC++) TOCTitle: Command and CommandText properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="c358d-102">Master ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: ms.date 48546525: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="c358d-102">master ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: 48546525 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de las propiedades Command y CommandText (VC++)
+TOCTitle: Command and CommandText properties example (VC++)
+ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
+ms:contentKeyID: 48546525
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0d329fb08604f0b3f9cf9336108696778ff26df0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879252"
 ---
-
-<span data-ttu-id="c358d-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="c358d-103"><<<<<<< HEAD</span></span>
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="c358d-104">Ejemplo de propiedades Comando y CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="c358d-104">Command and CommandText Properties Example (VC++)</span></span>
-=======
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="c358d-105">Ejemplo de propiedades comando y CommandText (VC ++)</span><span class="sxs-lookup"><span data-stu-id="c358d-105">Command and CommandText properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="c358d-106">master</span><span class="sxs-lookup"><span data-stu-id="c358d-106">master</span></span>
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="85177-102">Ejemplo de las propiedades Command y CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="85177-102">Command and CommandText properties example (VC++)</span></span>
 
 
-<span data-ttu-id="c358d-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c358d-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="85177-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85177-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c358d-108">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="c358d-108">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="85177-104">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="85177-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```cpp 
  

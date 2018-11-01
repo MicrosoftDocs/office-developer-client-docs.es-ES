@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249882(v=office.15)
 ms:contentKeyID: 48547290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73706fc5e3e95b83e9e2c8e485364afdc4f141cd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7d7e3455612952c386898a00bbc1a7629113acc9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859919"
+ms.locfileid: "25869347"
 ---
-# <a name="addnew-method-example-jscript"></a><span data-ttu-id="93b56-102">Ejemplo del método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="93b56-102">AddNew method example (JScript)</span></span>
+# <a name="addnew-method-example-jscript"></a><span data-ttu-id="288fa-102">Ejemplo del método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="288fa-102">AddNew method example (JScript)</span></span>
 
-<span data-ttu-id="93b56-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="93b56-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="288fa-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="288fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93b56-p101">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="93b56-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
+<span data-ttu-id="288fa-p101">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="288fa-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAddNewJS --> 

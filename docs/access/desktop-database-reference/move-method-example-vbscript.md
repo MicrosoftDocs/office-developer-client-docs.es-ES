@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eccec24c2e0fa110e0266cbab610c4e7d5c16c84
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fc2c55b3f4c665860a7d609877823423d87c6690
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863965"
+ms.locfileid: "25882009"
 ---
-# <a name="move-method-example-vbscript"></a><span data-ttu-id="370bb-102">Ejemplo del método Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="370bb-102">Move method example (VBScript)</span></span>
+# <a name="move-method-example-vbscript"></a><span data-ttu-id="621d4-102">Ejemplo del método Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="621d4-102">Move method example (VBScript)</span></span>
 
 
-<span data-ttu-id="370bb-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="370bb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="621d4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="621d4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="370bb-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registro, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="370bb-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
+<span data-ttu-id="621d4-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registro, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="621d4-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
 
-<span data-ttu-id="370bb-105">Utilice el ejemplo siguiente en una página Active Server (ASP).</span><span class="sxs-lookup"><span data-stu-id="370bb-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="621d4-105">Utilice el ejemplo siguiente en una página Active Server (ASP).</span><span class="sxs-lookup"><span data-stu-id="621d4-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="370bb-p101">Utilice **Buscar** para localizar el archivo Adovbs.inc y colocarlo en el directorio que desee utilizar. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **MoveVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="370bb-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="621d4-p101">Utilice **Buscar** para localizar el archivo Adovbs.inc y colocarlo en el directorio que desee utilizar. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **MoveVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="621d4-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**. You can view the result in any browser.</span></span>
 
-<span data-ttu-id="370bb-109">Escriba una letra o un valor que no sea entero para ver cómo funciona el tratamiento de errores.</span><span class="sxs-lookup"><span data-stu-id="370bb-109">Try entering a letter or noninteger to see the error handling work.</span></span>
+<span data-ttu-id="621d4-109">Escriba una letra o un valor que no sea entero para ver cómo funciona el tratamiento de errores.</span><span class="sxs-lookup"><span data-stu-id="621d4-109">Try entering a letter or noninteger to see the error handling work.</span></span>
 
 ```vb 
  

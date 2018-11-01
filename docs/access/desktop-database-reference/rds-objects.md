@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)
 ms:contentKeyID: 48548740
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e3ffbc78319af8505c9e70f8c7461b1404edb88
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e57ff6a7c8fe4cf05b6a5375449d2ebfce2051ad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605292"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884075"
 ---
-# <a name="rds-objects"></a><span data-ttu-id="022b2-102">Objetos de RDS</span><span class="sxs-lookup"><span data-stu-id="022b2-102">RDS Objects</span></span>
+# <a name="rds-objects"></a><span data-ttu-id="2b519-102">Objetos de RDS</span><span class="sxs-lookup"><span data-stu-id="2b519-102">RDS Objects</span></span>
 
 
-<span data-ttu-id="022b2-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="022b2-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2b519-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b519-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <table>
 <colgroup>
@@ -25,21 +25,16 @@ ms.locfileid: "25605292"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="022b2-104"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="022b2-104"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span></span></p></td>
-<span data-ttu-id="022b2-105"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="022b2-105"><<<<<<< HEAD</span></span>
-<td><p><span data-ttu-id="022b2-106">Enlaza un objeto <strong>Recordset</strong> de una consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos de <strong>Recordset</strong> en una página web.</span><span class="sxs-lookup"><span data-stu-id="022b2-106">Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a Web page.</span></span></p></td>
-=======
-<td><p><span data-ttu-id="022b2-107">Enlaza un <strong>objeto Recordset</strong> de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o cuadro combinado) para mostrar los datos del <strong>conjunto de registros</strong> en una página Web.</span><span class="sxs-lookup"><span data-stu-id="022b2-107">Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</span></span></p></td><span data-ttu-id="022b2-108">
->>>>>>>patrón</span><span class="sxs-lookup"><span data-stu-id="022b2-108">
->>>>>>> master</span></span>
+<td><p><span data-ttu-id="2b519-104"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="2b519-104"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="2b519-105">Enlaza un <strong>objeto Recordset</strong> de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o cuadro combinado) para mostrar los datos del <strong>conjunto de registros</strong> en una página Web.</span><span class="sxs-lookup"><span data-stu-id="2b519-105">Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="022b2-109"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span><span class="sxs-lookup"><span data-stu-id="022b2-109"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span></span></p></td>
-<td><p><span data-ttu-id="022b2-110">Implementa métodos que proporcionan acceso de lectura o escritura a los datos de los orígenes de datos especificados para aplicaciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="022b2-110">Implements methods that provide read/write data access to specified data sources for client-side applications.</span></span></p></td>
+<td><p><span data-ttu-id="2b519-106"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span><span class="sxs-lookup"><span data-stu-id="2b519-106"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span></span></p></td>
+<td><p><span data-ttu-id="2b519-107">Implementa métodos que proporcionan acceso de lectura o escritura a los datos de los orígenes de datos especificados para aplicaciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="2b519-107">Implements methods that provide read/write data access to specified data sources for client-side applications.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="022b2-111"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="022b2-111"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="022b2-112">Crea proxies de cliente a objetos comerciales personalizados ubicados en el nivel medio.</span><span class="sxs-lookup"><span data-stu-id="022b2-112">Creates client-side proxies to custom business objects located on the middle tier.</span></span></p></td>
+<td><p><span data-ttu-id="2b519-108"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="2b519-108"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="2b519-109">Crea proxies de cliente a objetos comerciales personalizados ubicados en el nivel medio.</span><span class="sxs-lookup"><span data-stu-id="2b519-109">Creates client-side proxies to custom business objects located on the middle tier.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -10,46 +10,46 @@ f1_keywords:
 - dao360.chm1053586
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4612b578971f59744e25c15d3762cc893f6f71ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c06fbf6bb3424e776e21f32343c8cdb8a795b604
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483985"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877110"
 ---
-# <a name="parameterdirection-property-dao"></a><span data-ttu-id="56252-102">Parameter.Direction Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="56252-102">Parameter.Direction Property (DAO)</span></span>
+# <a name="parameterdirection-property-dao"></a><span data-ttu-id="cf318-102">Parameter.Direction Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="cf318-102">Parameter.Direction Property (DAO)</span></span>
 
 
-<span data-ttu-id="56252-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="56252-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cf318-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf318-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="syntax"></a><span data-ttu-id="56252-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="56252-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cf318-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cf318-104">Syntax</span></span>
 
-<span data-ttu-id="56252-105">*expresión* . Dirección</span><span class="sxs-lookup"><span data-stu-id="56252-105">*expression* .Direction</span></span>
+<span data-ttu-id="cf318-105">*expresión* . Dirección</span><span class="sxs-lookup"><span data-stu-id="cf318-105">*expression* .Direction</span></span>
 
-<span data-ttu-id="56252-106">*expresión* Variable que representa un objeto **Parameter** .</span><span class="sxs-lookup"><span data-stu-id="56252-106">*expression* A variable that represents a **Parameter** object.</span></span>
+<span data-ttu-id="cf318-106">*expresión* Variable que representa un objeto **Parameter** .</span><span class="sxs-lookup"><span data-stu-id="cf318-106">*expression* A variable that represents a **Parameter** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="56252-107">Observaciones</span><span class="sxs-lookup"><span data-stu-id="56252-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf318-107">Observaciones</span><span class="sxs-lookup"><span data-stu-id="cf318-107">Remarks</span></span>
 
-<span data-ttu-id="56252-108">La configuración o el valor devuelto es un tipo de datos Long que se puede establecer en una de las constantes **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="56252-108">The setting or return value is a Long that can be set to one of the **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="cf318-108">La configuración o el valor devuelto es un tipo de datos Long que se puede establecer en una de las constantes **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="cf318-108">The setting or return value is a Long that can be set to one of the **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)** constants.</span></span>
 
-<span data-ttu-id="56252-p101">Use la propiedad **Direction** para determinar si el parámetro es un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento. Algunos controladores ODBC no proporcionan información sobre la dirección de los parámetros a una instrucción SELECT o llamada a procedimiento. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="56252-p101">Use the **Direction** property to determine whether the parameter is an input parameter, output parameter, both, or the return value from the procedure. Some ODBC drivers do not provide information on the direction of parameters to a SELECT statement or procedure call. In these cases, it is necessary to set the direction prior to executing the query.</span></span>
+<span data-ttu-id="cf318-p101">Use la propiedad **Direction** para determinar si el parámetro es un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento. Algunos controladores ODBC no proporcionan información sobre la dirección de los parámetros a una instrucción SELECT o llamada a procedimiento. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="cf318-p101">Use the **Direction** property to determine whether the parameter is an input parameter, output parameter, both, or the return value from the procedure. Some ODBC drivers do not provide information on the direction of parameters to a SELECT statement or procedure call. In these cases, it is necessary to set the direction prior to executing the query.</span></span>
 
-<span data-ttu-id="56252-112">Por ejemplo, el siguiente procedimiento devuelve un valor desde un procedimiento almacenado llamado "obtener\_empleados":</span><span class="sxs-lookup"><span data-stu-id="56252-112">For example, the following procedure returns a value from a stored procedure named "get\_employees":</span></span>
+<span data-ttu-id="cf318-112">Por ejemplo, el siguiente procedimiento devuelve un valor desde un procedimiento almacenado llamado "obtener\_empleados":</span><span class="sxs-lookup"><span data-stu-id="cf318-112">For example, the following procedure returns a value from a stored procedure named "get\_employees":</span></span>
 
-<span data-ttu-id="56252-113">{?</span><span class="sxs-lookup"><span data-stu-id="56252-113"></span></span> <span data-ttu-id="56252-114">= llamada get\_empleados}</span><span class="sxs-lookup"><span data-stu-id="56252-114">= call get\_employees}</span></span>
+<span data-ttu-id="cf318-113">{?</span><span class="sxs-lookup"><span data-stu-id="cf318-113"></span></span> <span data-ttu-id="cf318-114">= llamada get\_empleados}</span><span class="sxs-lookup"><span data-stu-id="cf318-114">= call get\_employees}</span></span>
 
-<span data-ttu-id="56252-p103">Esta llamada produce un parámetro: el valor devuelto. Debe establecer la dirección de este parámetro en **dbParamOutput** o **dbParamReturnValue** antes de ejecutar **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="56252-p103">This call produces one parameter — the return value. You need to set the direction of this parameter to **dbParamOutput** or **dbParamReturnValue** before executing the **[QueryDef](querydef-object-dao.md)**.</span></span>
+<span data-ttu-id="cf318-p103">Esta llamada produce un parámetro: el valor devuelto. Debe establecer la dirección de este parámetro en **dbParamOutput** o **dbParamReturnValue** antes de ejecutar **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="cf318-p103">This call produces one parameter — the return value. You need to set the direction of this parameter to **dbParamOutput** or **dbParamReturnValue** before executing the **[QueryDef](querydef-object-dao.md)**.</span></span>
 
-<span data-ttu-id="56252-117">Debe establecer todas las direcciones de parámetros excepto **dbParamInput** antes de establecer o tener acceso a los valores de los parámetros y antes de ejecutar **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="56252-117">You need to set all parameter directions except **dbParamInput** before accessing or setting the values of the parameters and before executing the **QueryDef**.</span></span>
+<span data-ttu-id="cf318-117">Debe establecer todas las direcciones de parámetros excepto **dbParamInput** antes de establecer o tener acceso a los valores de los parámetros y antes de ejecutar **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="cf318-117">You need to set all parameter directions except **dbParamInput** before accessing or setting the values of the parameters and before executing the **QueryDef**.</span></span>
 
-<span data-ttu-id="56252-118">Debe usar **dbParamReturnValue** para los valores devueltos, pero en los casos en que el controlador o el servidor no admitan dicha opción, puede usar **dbParamOutput** en su lugar.</span><span class="sxs-lookup"><span data-stu-id="56252-118">You should use **dbParamReturnValue** for return values, but in cases where that option is not supported by the driver or the server, you can use **dbParamOutput** instead.</span></span>
+<span data-ttu-id="cf318-118">Debe usar **dbParamReturnValue** para los valores devueltos, pero en los casos en que el controlador o el servidor no admitan dicha opción, puede usar **dbParamOutput** en su lugar.</span><span class="sxs-lookup"><span data-stu-id="cf318-118">You should use **dbParamReturnValue** for return values, but in cases where that option is not supported by the driver or the server, you can use **dbParamOutput** instead.</span></span>
 
-<span data-ttu-id="56252-p104">El controlador de Microsoft SQL Server establece automáticamente la propiedad **Direction** para todos los parámetros de procedimientos. No todos los controladores ODBC pueden determinar la dirección de un parámetro de consulta. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="56252-p104">The Microsoft SQL Server driver automatically sets the **Direction** property for all procedure parameters. Not all ODBC drivers can determine the direction of a query parameter. In these cases, it is necessary to set the direction prior to executing the query.</span></span>
+<span data-ttu-id="cf318-p104">El controlador de Microsoft SQL Server establece automáticamente la propiedad **Direction** para todos los parámetros de procedimientos. No todos los controladores ODBC pueden determinar la dirección de un parámetro de consulta. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="cf318-p104">The Microsoft SQL Server driver automatically sets the **Direction** property for all procedure parameters. Not all ODBC drivers can determine the direction of a query parameter. In these cases, it is necessary to set the direction prior to executing the query.</span></span>
 
-## <a name="example"></a><span data-ttu-id="56252-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="56252-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cf318-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="cf318-122">Example</span></span>
 
-<span data-ttu-id="56252-123">En este ejemplo, se usa la propiedad **Direction** para configurar los parámetros de una consulta en un origen de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="56252-123">This example uses the **Direction** property to configure the parameters of a query to an ODBC data source.</span></span>
+<span data-ttu-id="cf318-123">En este ejemplo, se usa la propiedad **Direction** para configurar los parámetros de una consulta en un origen de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="cf318-123">This example uses the **Direction** property to configure the parameters of a query to an ODBC data source.</span></span>
 
 ```vb 
 Sub DirectionX() 

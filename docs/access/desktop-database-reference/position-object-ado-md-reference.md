@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
 ms:contentKeyID: 48548878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5410a1e1a4fddd006d4c189e3f5e0bedcffa1088
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f9915f53521d4538574395a61981f21acf779e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484110"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877495"
 ---
-# <a name="position-object-ado-md-reference"></a><span data-ttu-id="56e7a-102">Position Object (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="56e7a-102">Position Object (ADO MD Reference)</span></span>
+# <a name="position-object-ado-md-reference"></a><span data-ttu-id="73c41-102">Position Object (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="73c41-102">Position Object (ADO MD Reference)</span></span>
 
 
-<span data-ttu-id="56e7a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="56e7a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="73c41-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73c41-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="56e7a-104">Position (objeto) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="56e7a-104">Position Object (ADO MD)</span></span>](position-object-ado-md.md)
+  - [<span data-ttu-id="73c41-104">Objeto Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="73c41-104">Position Object (ADO MD)</span></span>](position-object-ado-md.md)
 
-  - [<span data-ttu-id="56e7a-105">Position Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="56e7a-105">Position Properties, Methods, and Events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
+  - [<span data-ttu-id="73c41-105">Position Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="73c41-105">Position Properties, Methods, and Events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
 

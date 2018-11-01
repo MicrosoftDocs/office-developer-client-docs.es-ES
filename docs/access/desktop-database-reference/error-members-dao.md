@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845280(v=office.15)
 ms:contentKeyID: 48543262
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29ff44b8ea8d553b631af4a15a57a3af6e6b74be
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aed11619c683389114e220c102207425dbd2b93d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484577"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889675"
 ---
-# <a name="error-members-dao"></a><span data-ttu-id="85990-102">Error Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="85990-102">Error Members (DAO)</span></span>
+# <a name="error-members-dao"></a><span data-ttu-id="b0b9f-102">Error Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="b0b9f-102">Error Members (DAO)</span></span>
 
 
-<span data-ttu-id="85990-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="85990-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b0b9f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0b9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="85990-104">El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno de los cuales pertenece a una operación única que implica a DAO.</span><span class="sxs-lookup"><span data-stu-id="85990-104">Error object contains details about data access errors, each of which pertains to a single operation involving DAO.</span></span>
+<span data-ttu-id="b0b9f-104">El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno de los cuales pertenece a una operación única que implica a DAO.</span><span class="sxs-lookup"><span data-stu-id="b0b9f-104">Error object contains details about data access errors, each of which pertains to a single operation involving DAO.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="85990-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="85990-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="b0b9f-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="b0b9f-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -29,22 +29,22 @@ ms.locfileid: "25484577"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="85990-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="85990-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="85990-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="85990-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="b0b9f-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="b0b9f-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="b0b9f-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="b0b9f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85990-108"><strong><a href="error-description-property-dao.md">Descripción</a></strong></span><span class="sxs-lookup"><span data-stu-id="85990-108"><strong><a href="error-description-property-dao.md">Description</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="85990-p101">Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto <strong>Error</strong>.</span><span class="sxs-lookup"><span data-stu-id="85990-p101">Returns a descriptive string associated with an error. This is the default property for the <strong>Error</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-108"><strong><a href="error-description-property-dao.md">Descripción</a></strong></span><span class="sxs-lookup"><span data-stu-id="b0b9f-108"><strong><a href="error-description-property-dao.md">Description</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-p101">Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto <strong>Error</strong>.</span><span class="sxs-lookup"><span data-stu-id="b0b9f-p101">Returns a descriptive string associated with an error. This is the default property for the <strong>Error</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85990-111"><strong><a href="error-number-property-dao.md">Número</a></strong></span><span class="sxs-lookup"><span data-stu-id="85990-111"><strong><a href="error-number-property-dao.md">Number</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="85990-112">Devuelve un valor numérico que especifica un error.</span><span class="sxs-lookup"><span data-stu-id="85990-112">Returns a numeric value specifying an error.</span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-111"><strong><a href="error-number-property-dao.md">Número</a></strong></span><span class="sxs-lookup"><span data-stu-id="b0b9f-111"><strong><a href="error-number-property-dao.md">Number</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-112">Devuelve un valor numérico que especifica un error.</span><span class="sxs-lookup"><span data-stu-id="b0b9f-112">Returns a numeric value specifying an error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85990-113"><strong><a href="error-source-property-dao.md">Source</a></strong></span><span class="sxs-lookup"><span data-stu-id="85990-113"><strong><a href="error-source-property-dao.md">Source</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="85990-114">Devuelve el nombre del objeto o de la aplicación que generó originalmente el error.</span><span class="sxs-lookup"><span data-stu-id="85990-114">Returns the name of the object or application that originally generated the error.</span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-113"><strong><a href="error-source-property-dao.md">Source</a></strong></span><span class="sxs-lookup"><span data-stu-id="b0b9f-113"><strong><a href="error-source-property-dao.md">Source</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="b0b9f-114">Devuelve el nombre del objeto o de la aplicación que generó originalmente el error.</span><span class="sxs-lookup"><span data-stu-id="b0b9f-114">Returns the name of the object or application that originally generated the error.</span></span></p></td>
 </tr>
 </tbody>
 </table>

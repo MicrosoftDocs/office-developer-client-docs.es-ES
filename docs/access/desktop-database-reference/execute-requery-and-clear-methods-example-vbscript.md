@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 340be13a5b6acb830ec38108d4a279814d1c459a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 594c969aafb071888383a717efb2b5db20039b1c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863048"
+ms.locfileid: "25886476"
 ---
-# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="023ee-102">Ejemplo de los métodos Execute, Requery y Clear (VBScript)</span><span class="sxs-lookup"><span data-stu-id="023ee-102">Execute, Requery, and Clear methods example (VBScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="be065-102">Ejemplo de los métodos Execute, Requery y Clear (VBScript)</span><span class="sxs-lookup"><span data-stu-id="be065-102">Execute, Requery, and Clear methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="023ee-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="023ee-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="be065-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be065-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="023ee-p101">En este ejemplo se muestra la ejecución del método **Execute** desde un objeto [Command](command-object-ado.md) y un objeto [Connection](connection-object-ado.md). También se usa el método [Requery](requery-method-ado.md) para recuperar los datos actuales de un objeto [Recordset](recordset-object-ado.md) y el método [Clear](clear-method-ado.md) para borrar el contenido de la colección [Errors](errors-collection-ado.md). Se necesitan los procedimientos de ExecuteCommand y PrintOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="023ee-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="be065-p101">En este ejemplo se muestra la ejecución del método **Execute** desde un objeto [Command](command-object-ado.md) y un objeto [Connection](connection-object-ado.md). También se usa el método [Requery](requery-method-ado.md) para recuperar los datos actuales de un objeto [Recordset](recordset-object-ado.md) y el método [Clear](clear-method-ado.md) para borrar el contenido de la colección [Errors](errors-collection-ado.md). Se necesitan los procedimientos de ExecuteCommand y PrintOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="be065-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
-<span data-ttu-id="023ee-p102">Utilice el ejemplo siguiente en una página Active Server (ASP). Use **Buscar** para localizar el archivo Adovbs.inc y colóquelo en el directorio que desee utilizar. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **ExecuteVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="023ee-p102">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="be065-p102">Utilice el ejemplo siguiente en una página Active Server (ASP). Use **Buscar** para localizar el archivo Adovbs.inc y colóquelo en el directorio que desee utilizar. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **ExecuteVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="be065-p102">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**. You can view the result in any client browser.</span></span>
 
 ```vb 
  

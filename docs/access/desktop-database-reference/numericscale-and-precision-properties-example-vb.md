@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="dd872-101"><<<<<<< Título HEAD: NumericScale y Precision propiedades ejemplo (VB) TOCTitle: NumericScale y Precision propiedades ejemplo (VB) === título: ejemplo de las propiedades NumericScale y Precision (VB) TOCTitle: NumericScale y Ejemplo de las propiedades Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="dd872-101"><<<<<<< HEAD title: NumericScale and Precision Properties Example (VB) TOCTitle: NumericScale and Precision Properties Example (VB) ======= title: NumericScale and Precision properties example (VB) TOCTitle: NumericScale and Precision properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="dd872-102">Master ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15) ms:contentKeyID: ms.date 48545610: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="dd872-102">master ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15) ms:contentKeyID: 48545610 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de propiedades NumericScale y Precision (VB)
+TOCTitle: NumericScale and Precision properties example (VB)
+ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
+ms:contentKeyID: 48545610
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc1dd570a1b2fbb3b178216e6b1742aaeb682947
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882080"
 ---
-
-<span data-ttu-id="dd872-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="dd872-103"><<<<<<< HEAD</span></span>
-# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="dd872-104">Ejemplo de las propiedades NumericScale y Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="dd872-104">NumericScale and Precision Properties Example (VB)</span></span>
-=======
-# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="dd872-105">Ejemplo de las propiedades NumericScale y Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="dd872-105">NumericScale and Precision properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="dd872-106">master</span><span class="sxs-lookup"><span data-stu-id="dd872-106">master</span></span>
+# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="5c86c-102">Ejemplo de propiedades NumericScale y Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="5c86c-102">NumericScale and Precision properties example (VB)</span></span>
 
 
-<span data-ttu-id="dd872-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd872-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5c86c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c86c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd872-108">En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="dd872-108">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="dd872-109">Este código muestra su valor para la tabla **Detalles de pedidos** de la base de datos *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="dd872-109">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="5c86c-104">En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="5c86c-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="5c86c-105">Este código muestra su valor para la tabla **Detalles de pedidos** de la base de datos *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="5c86c-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```vb 
  

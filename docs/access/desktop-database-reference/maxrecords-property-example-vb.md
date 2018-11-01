@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="7a3bc-101"><<<<<<< Título HEAD: ejemplo de propiedad MaxRecords (VB) TOCTitle: ejemplo de propiedad MaxRecords (VB) === título: ejemplo de la propiedad MaxRecords (VB) TOCTitle: ejemplo de la propiedad MaxRecords (VB)</span><span class="sxs-lookup"><span data-stu-id="7a3bc-101"><<<<<<< HEAD title: MaxRecords Property Example (VB) TOCTitle: MaxRecords Property Example (VB) ======= title: MaxRecords property example (VB) TOCTitle: MaxRecords property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7a3bc-102">Master ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: ms.date 48548241: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="7a3bc-102">master ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: 48548241 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad MaxRecords (VB)
+TOCTitle: MaxRecords property example (VB)
+ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
+ms:contentKeyID: 48548241
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ad7dc4370419c46a1f4d7a4b2511dd86795c323
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876522"
 ---
-
-<span data-ttu-id="7a3bc-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="7a3bc-103"><<<<<<< HEAD</span></span>
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="7a3bc-104">Ejemplo de la propiedad Número máximo de registros (MaxRecords) (VB)</span><span class="sxs-lookup"><span data-stu-id="7a3bc-104">MaxRecords Property Example (VB)</span></span>
-=======
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="7a3bc-105">Ejemplo de la propiedad MaxRecords (VB)</span><span class="sxs-lookup"><span data-stu-id="7a3bc-105">MaxRecords property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7a3bc-106">master</span><span class="sxs-lookup"><span data-stu-id="7a3bc-106">master</span></span>
+# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="73f99-102">Ejemplo de la propiedad MaxRecords (VB)</span><span class="sxs-lookup"><span data-stu-id="73f99-102">MaxRecords property example (VB)</span></span>
 
 
-<span data-ttu-id="7a3bc-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a3bc-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="73f99-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73f99-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a3bc-108">En este ejemplo se usa la propiedad [MaxRecords](maxrecords-property-ado.md) para abrir un objeto [Recordset](recordset-object-ado.md) que contiene los 10 títulos con un precio más elevado de la tabla ***Títulos***.</span><span class="sxs-lookup"><span data-stu-id="7a3bc-108">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="73f99-104">En este ejemplo se usa la propiedad [MaxRecords](maxrecords-property-ado.md) para abrir un objeto [Recordset](recordset-object-ado.md) que contiene los 10 títulos con un precio más elevado de la tabla ***Títulos***.</span><span class="sxs-lookup"><span data-stu-id="73f99-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```vb 
  
