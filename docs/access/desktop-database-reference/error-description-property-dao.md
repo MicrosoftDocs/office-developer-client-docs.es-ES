@@ -10,34 +10,34 @@ f1_keywords:
 - dao360.chm1053358
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e261bdffb7a8cbd616515c6cbcaa7e4ea291d086
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2de4c87832956fb690f67f734d418a855b179d8c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483957"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870341"
 ---
-# <a name="errordescription-property-dao"></a><span data-ttu-id="5fc4a-102">Error.Description Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="5fc4a-102">Error.Description Property (DAO)</span></span>
+# <a name="errordescription-property-dao"></a><span data-ttu-id="f5a94-102">Error.Description Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f5a94-102">Error.Description Property (DAO)</span></span>
 
 
-<span data-ttu-id="5fc4a-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5fc4a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f5a94-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5a94-103">**Applies to**: Access 2013, Office 2013</span></span>
  
 
-<span data-ttu-id="5fc4a-p101">Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto **Error**.</span><span class="sxs-lookup"><span data-stu-id="5fc4a-p101">Returns a descriptive string associated with an error. This is the default property for the **Error** object.</span></span>
+<span data-ttu-id="f5a94-p101">Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto **Error**.</span><span class="sxs-lookup"><span data-stu-id="f5a94-p101">Returns a descriptive string associated with an error. This is the default property for the **Error** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5fc4a-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5fc4a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f5a94-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f5a94-106">Syntax</span></span>
 
-<span data-ttu-id="5fc4a-107">*expresión* . Descripción</span><span class="sxs-lookup"><span data-stu-id="5fc4a-107">*expression* .Description</span></span>
+<span data-ttu-id="f5a94-107">*expresión* . Descripción</span><span class="sxs-lookup"><span data-stu-id="f5a94-107">*expression* .Description</span></span>
 
-<span data-ttu-id="5fc4a-108">*expresión* Variable que representa un objeto **Error** .</span><span class="sxs-lookup"><span data-stu-id="5fc4a-108">*expression* A variable that represents an **Error** object.</span></span>
+<span data-ttu-id="f5a94-108">*expresión* Variable que representa un objeto **Error** .</span><span class="sxs-lookup"><span data-stu-id="f5a94-108">*expression* A variable that represents an **Error** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5fc4a-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="5fc4a-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f5a94-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="f5a94-109">Remarks</span></span>
 
-<span data-ttu-id="5fc4a-p102">La propiedad **Description** incluye una descripción breve del error. Use esta propiedad para avisar al usuario acerca de un error que no puede o no desea controlar.</span><span class="sxs-lookup"><span data-stu-id="5fc4a-p102">The **Description** property comprises a short description of the error. Use this property to alert the user about an error that you cannot or do not want to handle.</span></span>
+<span data-ttu-id="f5a94-p102">La propiedad **Description** incluye una descripción breve del error. Use esta propiedad para avisar al usuario acerca de un error que no puede o no desea controlar.</span><span class="sxs-lookup"><span data-stu-id="f5a94-p102">The **Description** property comprises a short description of the error. Use this property to alert the user about an error that you cannot or do not want to handle.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5fc4a-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="5fc4a-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f5a94-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f5a94-112">Example</span></span>
 
-<span data-ttu-id="5fc4a-113">En este ejemplo, se fuerza un error, se captura y se muestran las propiedades **Description**, **Number**, **Source**, **HelpContext** y **HelpFile** del objeto Error resultante.</span><span class="sxs-lookup"><span data-stu-id="5fc4a-113">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting Error object.</span></span>
+<span data-ttu-id="f5a94-113">En este ejemplo, se fuerza un error, se captura y se muestran las propiedades **Description**, **Number**, **Source**, **HelpContext** y **HelpFile** del objeto Error resultante.</span><span class="sxs-lookup"><span data-stu-id="f5a94-113">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting Error object.</span></span>
 
 ```vb 
 Sub DescriptionX() 

@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="0a79d-101"><<<<<<< Título HEAD: ejemplo de la propiedad Item (VC ++) TOCTitle: ejemplo de la propiedad Item (VC ++) === título: ejemplo de la propiedad Item (VC ++) TOCTitle: ejemplo de la propiedad Item (VC ++)</span><span class="sxs-lookup"><span data-stu-id="0a79d-101"><<<<<<< HEAD title: Item Property Example (VC++) TOCTitle: Item Property Example (VC++) ======= title: Item property example (VC++) TOCTitle: Item property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="0a79d-102">Master ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: ms.date 48543452: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="0a79d-102">master ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad Item (VC++)
+TOCTitle: Item property example (VC++)
+ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
+ms:contentKeyID: 48543452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ae4ffe7f1d600fe89788c3084a9e9dc409fc00f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882500"
 ---
-
-<span data-ttu-id="0a79d-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="0a79d-103"><<<<<<< HEAD</span></span>
-# <a name="item-property-example-vc"></a><span data-ttu-id="0a79d-104">Ejemplo de la propiedad Item (VC++)</span><span class="sxs-lookup"><span data-stu-id="0a79d-104">Item Property Example (VC++)</span></span>
-=======
-# <a name="item-property-example-vc"></a><span data-ttu-id="0a79d-105">Ejemplo de la propiedad Item (VC ++)</span><span class="sxs-lookup"><span data-stu-id="0a79d-105">Item property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="0a79d-106">master</span><span class="sxs-lookup"><span data-stu-id="0a79d-106">master</span></span>
+# <a name="item-property-example-vc"></a><span data-ttu-id="c5f7e-102">Ejemplo de la propiedad Item (VC++)</span><span class="sxs-lookup"><span data-stu-id="c5f7e-102">Item property example (VC++)</span></span>
 
 
-<span data-ttu-id="0a79d-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a79d-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c5f7e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c5f7e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0a79d-p101">En este ejemplo se muestra cómo la propiedad [Item](item-property-ado.md) obtiene acceso a los miembros de una colección. En el ejemplo, se abre la tabla ***Authors*** de la base de datos ***Pubs*** con un comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="0a79d-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="c5f7e-p101">En este ejemplo se muestra cómo la propiedad [Item](item-property-ado.md) obtiene acceso a los miembros de una colección. En el ejemplo, se abre la tabla ***Authors*** de la base de datos ***Pubs*** con un comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="c5f7e-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="0a79d-p102">Al parámetro del comando emitido a la base de datos se obtiene acceso a través de la colección [Parameters](command-object-ado.md) del objeto [Command](parameters-collection-ado.md), por índice y por nombre. A continuación, se obtiene acceso, por índice y por nombre, a los campos del objeto [Recordset](recordset-object-ado.md) desde la colección [Fields](fields-collection-ado.md) de ese objeto.</span><span class="sxs-lookup"><span data-stu-id="0a79d-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="c5f7e-p102">Al parámetro del comando emitido a la base de datos se obtiene acceso a través de la colección [Parameters](command-object-ado.md) del objeto [Command](parameters-collection-ado.md), por índice y por nombre. A continuación, se obtiene acceso, por índice y por nombre, a los campos del objeto [Recordset](recordset-object-ado.md) desde la colección [Fields](fields-collection-ado.md) de ese objeto.</span><span class="sxs-lookup"><span data-stu-id="c5f7e-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```cpp 
  

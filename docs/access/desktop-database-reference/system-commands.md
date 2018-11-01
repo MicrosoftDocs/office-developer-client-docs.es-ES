@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5925cabf5eaa0acb5cabcb7a598b8f8344c3174f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c37d97121948f3f119056fb678cbd6b59a0140b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485516"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872630"
 ---
-# <a name="system-commands"></a><span data-ttu-id="38d29-102">Comandos del sistema</span><span class="sxs-lookup"><span data-stu-id="38d29-102">System Commands</span></span>
+# <a name="system-commands"></a><span data-ttu-id="b6b28-102">Comandos del sistema</span><span class="sxs-lookup"><span data-stu-id="b6b28-102">System Commands</span></span>
 
 
-<span data-ttu-id="38d29-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="38d29-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b6b28-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6b28-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="38d29-104">Bip (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-104">Beep Macro Action</span></span>](beep-macro-action.md)
+  - [<span data-ttu-id="b6b28-104">Acción de Macro Bip</span><span class="sxs-lookup"><span data-stu-id="b6b28-104">Beep Macro Action</span></span>](beep-macro-action.md)
 
-  - [<span data-ttu-id="38d29-105">CerrarBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-105">CloseDatabase Macro Action</span></span>](closedatabase-macro-action.md)
+  - [<span data-ttu-id="b6b28-105">Acción de Macro CerrarBaseDeDatos</span><span class="sxs-lookup"><span data-stu-id="b6b28-105">CloseDatabase Macro Action</span></span>](closedatabase-macro-action.md)
 
-  - [<span data-ttu-id="38d29-106">MostrarCursorDeRelojDeArena (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-106">DisplayHourglassPointer Macro Action</span></span>](displayhourglasspointer-macro-action.md)
+  - [<span data-ttu-id="b6b28-106">Acción de Macro Mostrarcursorderelojdearena</span><span class="sxs-lookup"><span data-stu-id="b6b28-106">DisplayHourglassPointer Macro Action</span></span>](displayhourglasspointer-macro-action.md)
 
-  - [<span data-ttu-id="38d29-107">Imprimir (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-107">PrintOut Macro Action</span></span>](printout-macro-action.md)
+  - [<span data-ttu-id="b6b28-107">Acción de Macro imprimir</span><span class="sxs-lookup"><span data-stu-id="b6b28-107">PrintOut Macro Action</span></span>](printout-macro-action.md)
 
-  - [<span data-ttu-id="38d29-108">SalirDeAccess (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-108">QuitAccess Macro Action</span></span>](quitaccess-macro-action.md)
+  - [<span data-ttu-id="b6b28-108">Acción de Macro Salirdeaccess</span><span class="sxs-lookup"><span data-stu-id="b6b28-108">QuitAccess Macro Action</span></span>](quitaccess-macro-action.md)
 
-  - [<span data-ttu-id="38d29-109">EjecutarAplicación (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-109">RunApplication Macro Action</span></span>](runapplication-macro-action.md)
+  - [<span data-ttu-id="b6b28-109">Acción de Macro EjecutarAplicación</span><span class="sxs-lookup"><span data-stu-id="b6b28-109">RunApplication Macro Action</span></span>](runapplication-macro-action.md)
 
-  - [<span data-ttu-id="38d29-110">EnviarTeclas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-110">SendKeys Macro Action</span></span>](sendkeys-macro-action.md)
+  - [<span data-ttu-id="b6b28-110">Acción de Macro EnviarTeclas</span><span class="sxs-lookup"><span data-stu-id="b6b28-110">SendKeys Macro Action</span></span>](sendkeys-macro-action.md)
 
-  - [<span data-ttu-id="38d29-111">EstablecerAdvertencias (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="38d29-111">SetWarnings Macro Action</span></span>](setwarnings-macro-action.md)
+  - [<span data-ttu-id="b6b28-111">EstablecerAdvertencias (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b6b28-111">SetWarnings Macro Action</span></span>](setwarnings-macro-action.md)
 

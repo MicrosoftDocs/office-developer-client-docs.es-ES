@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249194(v=office.15)
 ms:contentKeyID: 48544474
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 251a8429e11a59d9276c79034c68860375cba7e7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4a016a0be48dfd91ad288937584b0d928c960e01
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861074"
+ms.locfileid: "25868675"
 ---
-# <a name="views-delete-method-example-vb"></a><span data-ttu-id="3061e-102">Ejemplo del método Delete de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="3061e-102">Views Delete method example (VB)</span></span>
+# <a name="views-delete-method-example-vb"></a><span data-ttu-id="41829-102">Ejemplo del método Delete de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="41829-102">Views Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="3061e-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3061e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="41829-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41829-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3061e-104">El código siguiente muestra cómo utilizar el método [Delete](delete-method-adox-collections.md) para eliminar una vista del catálogo.</span><span class="sxs-lookup"><span data-stu-id="3061e-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
+<span data-ttu-id="41829-104">El código siguiente muestra cómo utilizar el método [Delete](delete-method-adox-collections.md) para eliminar una vista del catálogo.</span><span class="sxs-lookup"><span data-stu-id="41829-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
 
 ```vb 
  

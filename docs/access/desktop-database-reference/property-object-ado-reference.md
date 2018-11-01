@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249303(v=office.15)
 ms:contentKeyID: 48545016
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76da08c4c4746726abd6791710f35c314dbcf318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7fc1022db3d4176caa157f1df2fe3fdf91d9f698
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485882"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883809"
 ---
-# <a name="property-object-ado-reference"></a><span data-ttu-id="63113-102">Property Object (ADO) Reference</span><span class="sxs-lookup"><span data-stu-id="63113-102">Property Object (ADO) Reference</span></span>
+# <a name="property-object-ado-reference"></a><span data-ttu-id="e3409-102">Property Object (ADO) Reference</span><span class="sxs-lookup"><span data-stu-id="e3409-102">Property Object (ADO) Reference</span></span>
 
 
-<span data-ttu-id="63113-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="63113-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e3409-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3409-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="63113-104">Property (objeto) (ADO)</span><span class="sxs-lookup"><span data-stu-id="63113-104">Property Object (ADO)</span></span>](property-object-ado.md)
+  - [<span data-ttu-id="e3409-104">Objeto Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="e3409-104">Property Object (ADO)</span></span>](property-object-ado.md)
 
-  - [<span data-ttu-id="63113-105">Property Properties, Methods, and Events (ADO)</span><span class="sxs-lookup"><span data-stu-id="63113-105">Property Properties, Methods, and Events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
+  - [<span data-ttu-id="e3409-105">Property Properties, Methods, and Events (ADO)</span><span class="sxs-lookup"><span data-stu-id="e3409-105">Property Properties, Methods, and Events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
 

@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="59d0d-101"><<<<<<< Título HEAD: TOCTitle ejemplo de propiedad ActiveCommand (VB): ms:assetid ejemplo de propiedad ActiveCommand (VB): 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 18/09/2015 mtps_ versión: Office.15</span><span class="sxs-lookup"><span data-stu-id="59d0d-101"><<<<<<< HEAD title: ActiveCommand Property Example (VB) TOCTitle: ActiveCommand Property Example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad ActiveCommand (VB)
+TOCTitle: ActiveCommand property example (VB)
+ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
+ms:contentKeyID: 48545999
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 46338c801bbdf1e4faaef5a3f6ff1c10d28ab544
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870005"
 ---
-
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="59d0d-102">Ejemplo de la propiedad ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="59d0d-102">ActiveCommand Property Example (VB)</span></span>
-<span data-ttu-id="59d0d-103">=== título: ejemplo de la propiedad ActiveCommand (VB) TOCTitle: ActiveCommand (propiedad) (VB) de ejemplo ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 17/10/2018 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="59d0d-103">======= title: ActiveCommand property example (VB) TOCTitle: ActiveCommand property example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="59d0d-104">Ejemplo de la propiedad ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="59d0d-104">ActiveCommand property example (VB)</span></span>
->>>>>>> <span data-ttu-id="59d0d-105">master</span><span class="sxs-lookup"><span data-stu-id="59d0d-105">master</span></span>
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="f264e-102">Ejemplo de la propiedad ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="f264e-102">ActiveCommand property example (VB)</span></span>
 
 
-<span data-ttu-id="59d0d-106">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="59d0d-106">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f264e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f264e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="59d0d-107">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="59d0d-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="f264e-104">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="f264e-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="59d0d-108">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="59d0d-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="f264e-105">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="f264e-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -81,11 +87,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="59d0d-p101">A la subrutina **ActiveCommandXprint** se le asigna sólo un objeto **Recordset**, si bien tiene que imprimir el texto y los parámetros del comando que ha creado el objeto **Recordset**. Esto es posible porque la propiedad **ActiveCommand** del objeto **Recordset** genera el objeto [Command](command-object-ado.md) asociado.</span><span class="sxs-lookup"><span data-stu-id="59d0d-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="f264e-p101">A la subrutina **ActiveCommandXprint** se le asigna sólo un objeto **Recordset**, si bien tiene que imprimir el texto y los parámetros del comando que ha creado el objeto **Recordset**. Esto es posible porque la propiedad **ActiveCommand** del objeto **Recordset** genera el objeto [Command](command-object-ado.md) asociado.</span><span class="sxs-lookup"><span data-stu-id="f264e-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="59d0d-p102">La propiedad [CommandText](commandtext-property-ado.md) del objeto **Command** genera el comando parametrizado que ha creado el objeto **Recordset**. La colección [Parameters](parameters-collection-ado.md) del objeto **Command** genera el valor que se ha reemplazado con el marcador de posición de parámetro del comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="59d0d-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="f264e-p102">La propiedad [CommandText](commandtext-property-ado.md) del objeto **Command** genera el comando parametrizado que ha creado el objeto **Recordset**. La colección [Parameters](parameters-collection-ado.md) del objeto **Command** genera el valor que se ha reemplazado con el marcador de posición de parámetro del comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="f264e-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="59d0d-113">Por último, se imprime el mensaje de error o el nombre y el identificador del autor.</span><span class="sxs-lookup"><span data-stu-id="59d0d-113">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="f264e-110">Por último, se imprime el mensaje de error o el nombre y el identificador del autor.</span><span class="sxs-lookup"><span data-stu-id="f264e-110">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  

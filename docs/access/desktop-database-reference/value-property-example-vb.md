@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d4dd6-101"><<<<<<< Título HEAD: ejemplo de propiedad de valor (VB) TOCTitle: ejemplo de propiedad de valor (VB) === título: ejemplo de la propiedad Value (VB) TOCTitle: ejemplo de la propiedad Value (VB)</span><span class="sxs-lookup"><span data-stu-id="d4dd6-101"><<<<<<< HEAD title: Value Property Example (VB) TOCTitle: Value Property Example (VB) ======= title: Value property example (VB) TOCTitle: Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="d4dd6-102">Master ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: ms.date 48547547: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="d4dd6-102">master ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad Value (VB)
+TOCTitle: Value property example (VB)
+ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
+ms:contentKeyID: 48547547
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37182f2de5342374ddb3d12d38e35c63bafaf1aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872833"
 ---
-
-<span data-ttu-id="d4dd6-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="d4dd6-103"><<<<<<< HEAD</span></span>
-# <a name="value-property-example-vb"></a><span data-ttu-id="d4dd6-104">Ejemplo de la propiedad Value (VB)</span><span class="sxs-lookup"><span data-stu-id="d4dd6-104">Value Property Example (VB)</span></span>
-=======
-# <a name="value-property-example-vb"></a><span data-ttu-id="d4dd6-105">Ejemplo de la propiedad Value (VB)</span><span class="sxs-lookup"><span data-stu-id="d4dd6-105">Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="d4dd6-106">master</span><span class="sxs-lookup"><span data-stu-id="d4dd6-106">master</span></span>
+# <a name="value-property-example-vb"></a><span data-ttu-id="e9e1b-102">Ejemplo de la propiedad Value (VB)</span><span class="sxs-lookup"><span data-stu-id="e9e1b-102">Value property example (VB)</span></span>
 
 
-<span data-ttu-id="d4dd6-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4dd6-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e9e1b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9e1b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4dd6-108">En este ejemplo se muestra la propiedad [Value](value-property-ado.md) con los objetos [Field](field-object-ado.md) y [Property](property-object-ado.md) al mostrar los valores de campo y propiedad de la tabla ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="d4dd6-108">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="e9e1b-104">En este ejemplo se muestra la propiedad [Value](value-property-ado.md) con los objetos [Field](field-object-ado.md) y [Property](property-object-ado.md) al mostrar los valores de campo y propiedad de la tabla ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="e9e1b-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```vb 
  

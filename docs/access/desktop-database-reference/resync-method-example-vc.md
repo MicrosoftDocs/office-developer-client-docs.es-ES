@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 021b7d92c97a343e74068c41cae29acbb059855b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e87035c751bf5542a13ab7e750415a990a14adf7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862515"
+ms.locfileid: "25885370"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="1bbcd-102">Ejemplo del método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="1bbcd-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="9eb59-102">Ejemplo del método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="9eb59-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="1bbcd-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bbcd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9eb59-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9eb59-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1bbcd-104">En este ejemplo se muestra cómo utilizar el método [Resync](resync-method-ado.md) para actualizar los datos de un conjunto de registros estático.</span><span class="sxs-lookup"><span data-stu-id="1bbcd-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="9eb59-104">En este ejemplo se muestra cómo utilizar el método [Resync](resync-method-ado.md) para actualizar los datos de un conjunto de registros estático.</span><span class="sxs-lookup"><span data-stu-id="9eb59-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

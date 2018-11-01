@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="c4819-101"><<<<<<< Título HEAD: filtro y ejemplo de propiedades RecordCount (VB) TOCTitle: filtro y ejemplo de propiedades RecordCount (VB) === título: ejemplo de las propiedades Filter y RecordCount (VB) TOCTitle: propiedades Filter y RecordCount ejemplo (VB)</span><span class="sxs-lookup"><span data-stu-id="c4819-101"><<<<<<< HEAD title: Filter and RecordCount Properties Example (VB) TOCTitle: Filter and RecordCount Properties Example (VB) ======= title: Filter and RecordCount properties example (VB) TOCTitle: Filter and RecordCount properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="c4819-102">Master ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: ms.date 48544354: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="c4819-102">master ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de las propiedades Filter y RecordCount (VB)
+TOCTitle: Filter and RecordCount properties example (VB)
+ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
+ms:contentKeyID: 48544354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873169"
 ---
-
-<span data-ttu-id="c4819-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="c4819-103"><<<<<<< HEAD</span></span>
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="c4819-104">Ejemplo de las propiedades Filter y RecordCount (VB)</span><span class="sxs-lookup"><span data-stu-id="c4819-104">Filter and RecordCount Properties Example (VB)</span></span>
-=======
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="c4819-105">Ejemplo de las propiedades Filter y RecordCount (VB)</span><span class="sxs-lookup"><span data-stu-id="c4819-105">Filter and RecordCount properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="c4819-106">master</span><span class="sxs-lookup"><span data-stu-id="c4819-106">master</span></span>
+# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="7e373-102">Ejemplo de las propiedades Filter y RecordCount (VB)</span><span class="sxs-lookup"><span data-stu-id="7e373-102">Filter and RecordCount properties example (VB)</span></span>
 
 
-<span data-ttu-id="c4819-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4819-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7e373-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e373-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4819-108">Este ejemplo se abre un **objeto Recordset** en la tabla Publishers en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="c4819-108">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="c4819-109">A continuación, se usa la propiedad [Filter](filter-property-ado.md) para limitar el número de registros visibles a aquellos editores de una región o país concreto.</span><span class="sxs-lookup"><span data-stu-id="c4819-109">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="c4819-110">La propiedad **RecordCount** se usa para mostrar la diferencia entre los conjuntos de registros filtrados y sin filtrar.</span><span class="sxs-lookup"><span data-stu-id="c4819-110">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
+<span data-ttu-id="7e373-104">Este ejemplo se abre un **objeto Recordset** en la tabla Publishers en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="7e373-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="7e373-105">A continuación, se usa la propiedad [Filter](filter-property-ado.md) para limitar el número de registros visibles a aquellos editores de una región o país concreto.</span><span class="sxs-lookup"><span data-stu-id="7e373-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="7e373-106">La propiedad **RecordCount** se usa para mostrar la diferencia entre los conjuntos de registros filtrados y sin filtrar.</span><span class="sxs-lookup"><span data-stu-id="7e373-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
 
 ```vb 
  
@@ -99,7 +105,7 @@ End Sub
 
 
 > [!NOTE]
-> <P><span data-ttu-id="c4819-p102">[!NOTA] Cuando se saben los datos que se desean seleccionar, normalmente es más eficaz abrir un objeto <STRONG>Recordset</STRONG> con una instrucción SQL. En este ejemplo se muestra cómo se puede crear sólo un objeto <STRONG>Recordset</STRONG> y obtener registros de un país o región determinado.</span><span class="sxs-lookup"><span data-stu-id="c4819-p102">When you know the data you want to select, it's usually more efficient to open a <STRONG>Recordset</STRONG> with an SQL statement. This example shows how you can create just one <STRONG>Recordset</STRONG> and obtain records from a particular country/region.</span></span></P>
+> <P><span data-ttu-id="7e373-p102">[!NOTA] Cuando se saben los datos que se desean seleccionar, normalmente es más eficaz abrir un objeto <STRONG>Recordset</STRONG> con una instrucción SQL. En este ejemplo se muestra cómo se puede crear sólo un objeto <STRONG>Recordset</STRONG> y obtener registros de un país o región determinado.</span><span class="sxs-lookup"><span data-stu-id="7e373-p102">When you know the data you want to select, it's usually more efficient to open a <STRONG>Recordset</STRONG> with an SQL statement. This example shows how you can create just one <STRONG>Recordset</STRONG> and obtain records from a particular country/region.</span></span></P>
 
 
 

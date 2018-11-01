@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161008(v=office.15)
 ms:contentKeyID: 52072970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 87da2e99499713c1e260c0768828109a212d19e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fae647d48c4576269fc04524eb790354745bcefc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483359"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884208"
 ---
-# <a name="indexes-properties-dao"></a><span data-ttu-id="59517-102">Indexes Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="59517-102">Indexes Properties (DAO)</span></span>
+# <a name="indexes-properties-dao"></a><span data-ttu-id="88d07-102">Indexes Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="88d07-102">Indexes Properties (DAO)</span></span>
 
 
-<span data-ttu-id="59517-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="59517-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="88d07-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88d07-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="59517-104">Indexes.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="59517-104">Indexes.Count Property (DAO)</span></span>](indexes-count-property-dao.md)
+  - [<span data-ttu-id="88d07-104">Indexes.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="88d07-104">Indexes.Count Property (DAO)</span></span>](indexes-count-property-dao.md)
 

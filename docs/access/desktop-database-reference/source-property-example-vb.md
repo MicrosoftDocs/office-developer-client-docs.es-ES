@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="6d025-101"><<<<<<< Título HEAD: ejemplo de propiedad de origen (VB) TOCTitle: ejemplo de propiedad de origen (VB) === título: ejemplo de la propiedad Source (VB) TOCTitle: ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="6d025-101"><<<<<<< HEAD title: Source Property Example (VB) TOCTitle: Source Property Example (VB) ======= title: Source property example (VB) TOCTitle: Source property example (VB)</span></span>
->>>>>>> <span data-ttu-id="6d025-102">Master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: ms.date 48545885: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="6d025-102">master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad Source (VB)
+TOCTitle: Source property example (VB)
+ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
+ms:contentKeyID: 48545885
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889668"
 ---
-
-<span data-ttu-id="6d025-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="6d025-103"><<<<<<< HEAD</span></span>
-# <a name="source-property-example-vb"></a><span data-ttu-id="6d025-104">Ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="6d025-104">Source Property Example (VB)</span></span>
-=======
-# <a name="source-property-example-vb"></a><span data-ttu-id="6d025-105">Ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="6d025-105">Source property example (VB)</span></span>
->>>>>>> <span data-ttu-id="6d025-106">master</span><span class="sxs-lookup"><span data-stu-id="6d025-106">master</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="1dbc9-102">Ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="1dbc9-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="6d025-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d025-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1dbc9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dbc9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d025-108">En este ejemplo se muestra la propiedad [Source](source-property-ado-recordset.md) al abrir tres objetos [Recordset](recordset-object-ado.md) basados en diferentes orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="6d025-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="1dbc9-104">En este ejemplo se muestra la propiedad [Source](source-property-ado-recordset.md) al abrir tres objetos [Recordset](recordset-object-ado.md) basados en diferentes orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="1dbc9-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

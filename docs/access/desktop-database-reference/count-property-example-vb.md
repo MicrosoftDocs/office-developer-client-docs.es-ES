@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="3135a-101"><<<<<<< Título HEAD: ejemplo de propiedad Count (VB) TOCTitle: ejemplo de propiedad Count (VB) === título: ejemplo de la propiedad Count (VB) TOCTitle: ejemplo de la propiedad Count (VB)</span><span class="sxs-lookup"><span data-stu-id="3135a-101"><<<<<<< HEAD title: Count Property Example (VB) TOCTitle: Count Property Example (VB) ======= title: Count property example (VB) TOCTitle: Count property example (VB)</span></span>
->>>>>>> <span data-ttu-id="3135a-102">Master ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: ms.date 48546695: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="3135a-102">master ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: 48546695 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad Count (VB)
+TOCTitle: Count property example (VB)
+ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
+ms:contentKeyID: 48546695
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c47436a5c701abb9bff29fea718fa7119594cd1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873624"
 ---
-
-<span data-ttu-id="3135a-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="3135a-103"><<<<<<< HEAD</span></span>
-# <a name="count-property-example-vb"></a><span data-ttu-id="3135a-104">Ejemplo de la propiedad Count (VB)</span><span class="sxs-lookup"><span data-stu-id="3135a-104">Count Property Example (VB)</span></span>
-=======
-# <a name="count-property-example-vb"></a><span data-ttu-id="3135a-105">Ejemplo de la propiedad Count (VB)</span><span class="sxs-lookup"><span data-stu-id="3135a-105">Count property example (VB)</span></span>
->>>>>>> <span data-ttu-id="3135a-106">master</span><span class="sxs-lookup"><span data-stu-id="3135a-106">master</span></span>
+# <a name="count-property-example-vb"></a><span data-ttu-id="74fb8-102">Ejemplo de la propiedad Count (VB)</span><span class="sxs-lookup"><span data-stu-id="74fb8-102">Count property example (VB)</span></span>
 
 
-<span data-ttu-id="3135a-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3135a-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="74fb8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74fb8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3135a-108">En este ejemplo se muestra la propiedad [Count](count-property-ado.md) con dos colecciones en la base de datos de ***los empleados*** .</span><span class="sxs-lookup"><span data-stu-id="3135a-108">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="3135a-109">La propiedad obtiene el número de objetos de cada colección y establece el límite superior de los bucles que enumeran estas colecciones.</span><span class="sxs-lookup"><span data-stu-id="3135a-109">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="3135a-110">Otra forma de enumerar estas colecciones sin utilizar la propiedad **Count** sería utilizar instrucciones.</span><span class="sxs-lookup"><span data-stu-id="3135a-110">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="74fb8-104">En este ejemplo se muestra la propiedad [Count](count-property-ado.md) con dos colecciones en la base de datos de ***los empleados*** .</span><span class="sxs-lookup"><span data-stu-id="74fb8-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="74fb8-105">La propiedad obtiene el número de objetos de cada colección y establece el límite superior de los bucles que enumeran estas colecciones.</span><span class="sxs-lookup"><span data-stu-id="74fb8-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="74fb8-106">Otra forma de enumerar estas colecciones sin utilizar la propiedad **Count** sería utilizar instrucciones.</span><span class="sxs-lookup"><span data-stu-id="74fb8-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```vb 
  

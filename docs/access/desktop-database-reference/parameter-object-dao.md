@@ -6,37 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845640(v=office.15)
 ms:contentKeyID: 48543495
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69388834d5469c9fa66d70d397d63be4376db218
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3ba1744d1cd740c61c7b80d1a08a73fec317c3a3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486519"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888569"
 ---
-# <a name="parameter-object-dao"></a><span data-ttu-id="f99aa-102">Parameter Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="f99aa-102">Parameter Object (DAO)</span></span>
+# <a name="parameter-object-dao"></a><span data-ttu-id="89009-102">Parameter Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="89009-102">Parameter Object (DAO)</span></span>
 
 
-<span data-ttu-id="f99aa-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f99aa-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="89009-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="89009-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f99aa-p101">Un objeto **Parameter** representa un valor suministrado a una consulta. El parámetro está asociado con un objeto **QueryDef** creado a partir de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="f99aa-p101">A **Parameter** object represents a value supplied to a query. The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
+<span data-ttu-id="89009-p101">Un objeto **Parameter** representa un valor suministrado a una consulta. El parámetro está asociado con un objeto **QueryDef** creado a partir de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="89009-p101">A **Parameter** object represents a value supplied to a query. The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f99aa-106">Observaciones</span><span class="sxs-lookup"><span data-stu-id="f99aa-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89009-106">Observaciones</span><span class="sxs-lookup"><span data-stu-id="89009-106">Remarks</span></span>
 
-<span data-ttu-id="f99aa-107">Los objetos **Parameter** permiten cambiar los argumentos de un objeto **QueryDef** ejecutado con frecuencia sin tener que volver a compilar la consulta.</span><span class="sxs-lookup"><span data-stu-id="f99aa-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
+<span data-ttu-id="89009-107">Los objetos **Parameter** permiten cambiar los argumentos de un objeto **QueryDef** ejecutado con frecuencia sin tener que volver a compilar la consulta.</span><span class="sxs-lookup"><span data-stu-id="89009-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
 
-<span data-ttu-id="f99aa-p102">Mediante las propiedades de un objeto **Parameter**, puede establecer un parámetro de consulta que se puede cambiar antes de ejecutar la consulta. Se puede:</span><span class="sxs-lookup"><span data-stu-id="f99aa-p102">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run. You can:</span></span>
+<span data-ttu-id="89009-p102">Mediante las propiedades de un objeto **Parameter**, puede establecer un parámetro de consulta que se puede cambiar antes de ejecutar la consulta. Se puede:</span><span class="sxs-lookup"><span data-stu-id="89009-p102">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run. You can:</span></span>
 
-  - <span data-ttu-id="f99aa-110">Usar la propiedad **Name** para devolver el nombre de un parámetro.</span><span class="sxs-lookup"><span data-stu-id="f99aa-110">Use the **Name** property to return the name of a parameter.</span></span>
+  - <span data-ttu-id="89009-110">Usar la propiedad **Name** para devolver el nombre de un parámetro.</span><span class="sxs-lookup"><span data-stu-id="89009-110">Use the **Name** property to return the name of a parameter.</span></span>
 
-  - <span data-ttu-id="f99aa-111">Usar la propiedad **Value** para establecer o devolver los valores de parámetros que se utilizarán en la consulta.</span><span class="sxs-lookup"><span data-stu-id="f99aa-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
+  - <span data-ttu-id="89009-111">Usar la propiedad **Value** para establecer o devolver los valores de parámetros que se utilizarán en la consulta.</span><span class="sxs-lookup"><span data-stu-id="89009-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
 
-  - <span data-ttu-id="f99aa-112">Usar la propiedad **Type** para devolver el tipo de datos del objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="f99aa-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
+  - <span data-ttu-id="89009-112">Usar la propiedad **Type** para devolver el tipo de datos del objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="89009-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
 
-  - <span data-ttu-id="f99aa-113">Usar la propiedad **Direction** para establecer o devolver si el parámetro es un parámetro de entrada, un parámetro de salida o ambos.</span><span class="sxs-lookup"><span data-stu-id="f99aa-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
+  - <span data-ttu-id="89009-113">Usar la propiedad **Direction** para establecer o devolver si el parámetro es un parámetro de entrada, un parámetro de salida o ambos.</span><span class="sxs-lookup"><span data-stu-id="89009-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f99aa-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f99aa-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="89009-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="89009-114">Example</span></span>
 
-<span data-ttu-id="f99aa-p103">En este ejemplo se utilizan objetos **Parameter** y la colección **Parameters** para crear un objeto **QueryDef** temporal y recuperar datos a partir de los cambios efectuados en los **Parameters** del objeto **QueryDef**. Se requiere el procedimiento ParametersChange para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="f99aa-p103">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="89009-p103">En este ejemplo se utilizan objetos **Parameter** y la colección **Parameters** para crear un objeto **QueryDef** temporal y recuperar datos a partir de los cambios efectuados en los **Parameters** del objeto **QueryDef**. Se requiere el procedimiento ParametersChange para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="89009-p103">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 

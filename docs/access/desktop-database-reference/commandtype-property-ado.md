@@ -1,38 +1,40 @@
 ---
-<span data-ttu-id="edbeb-101"><<<<<<< Título HEAD: CommandType (propiedad) (ADO) TOCTitle: CommandType (propiedad) (ADO) === título: CommandType (propiedad, ADO) TOCTitle: CommandType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="edbeb-101"><<<<<<< HEAD title: CommandType Property (ADO) TOCTitle: CommandType Property (ADO) ======= title: CommandType property (ADO) TOCTitle: CommandType property (ADO)</span></span>
->>>>>>> <span data-ttu-id="edbeb-102">Master ms:assetid: c8d4fc1c-502b-11f3-af9d-605a03b6f056 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249976(v=office.15) ms:contentKeyID: ms.date 48547663: 18/09/2015 mtps_version: Office.15 f1_keywords:</span><span class="sxs-lookup"><span data-stu-id="edbeb-102">master ms:assetid: c8d4fc1c-502b-11f3-af9d-605a03b6f056 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249976(v=office.15) ms:contentKeyID: 48547663 ms.date: 09/18/2015 mtps_version: v=office.15 f1_keywords:</span></span>
-- <span data-ttu-id="edbeb-103">ado210.chm1231125 f1_categories:</span><span class="sxs-lookup"><span data-stu-id="edbeb-103">ado210.chm1231125 f1_categories:</span></span>
-- <span data-ttu-id="edbeb-104">Office.Version=v15</span><span class="sxs-lookup"><span data-stu-id="edbeb-104">Office.Version=v15</span></span>
+title: CommandType (propiedad, ADO)
+TOCTitle: CommandType property (ADO)
+ms:assetid: c8d4fc1c-502b-11f3-af9d-605a03b6f056
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249976(v=office.15)
+ms:contentKeyID: 48547663
+ms.date: 09/18/2015
+mtps_version: v=office.15
+f1_keywords:
+- ado210.chm1231125
+f1_categories:
+- Office.Version=v15
+ms.openlocfilehash: 89264889281070b8a477c3a04b8f6f5735efdf3e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880239"
 ---
-
-<span data-ttu-id="edbeb-105"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="edbeb-105"><<<<<<< HEAD</span></span>
-# <a name="commandtype-property-ado"></a><span data-ttu-id="edbeb-106">CommandType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="edbeb-106">CommandType Property (ADO)</span></span>
-=======
-# <a name="commandtype-property-ado"></a><span data-ttu-id="edbeb-107">CommandType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="edbeb-107">CommandType property (ADO)</span></span>
->>>>>>> <span data-ttu-id="edbeb-108">master</span><span class="sxs-lookup"><span data-stu-id="edbeb-108">master</span></span>
+# <a name="commandtype-property-ado"></a><span data-ttu-id="85d42-102">CommandType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="85d42-102">CommandType property (ADO)</span></span>
 
 
-<span data-ttu-id="edbeb-109">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="edbeb-109">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="85d42-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85d42-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="edbeb-110">Indica el tipo de un objeto [Command](command-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="edbeb-110">Indicates the type of a [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="85d42-104">Indica el tipo de un objeto [Command](command-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="85d42-104">Indicates the type of a [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="edbeb-111"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="edbeb-111"><<<<<<< HEAD</span></span>
-## <a name="settings-and-return-values"></a><span data-ttu-id="edbeb-112">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="edbeb-112">Settings and Return Values</span></span>
-=======
-## <a name="settings-and-return-values"></a><span data-ttu-id="edbeb-113">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="edbeb-113">Settings and return values</span></span>
->>>>>>> <span data-ttu-id="edbeb-114">master</span><span class="sxs-lookup"><span data-stu-id="edbeb-114">master</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="85d42-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="85d42-105">Settings and return values</span></span>
 
-<span data-ttu-id="edbeb-115">Establece o devuelve uno o varios valores de [CommandTypeEnum](commandtypeenum.md).</span><span class="sxs-lookup"><span data-stu-id="edbeb-115">Sets or returns one or more [CommandTypeEnum](commandtypeenum.md) values.</span></span>
+<span data-ttu-id="85d42-106">Establece o devuelve uno o varios valores de [CommandTypeEnum](commandtypeenum.md).</span><span class="sxs-lookup"><span data-stu-id="85d42-106">Sets or returns one or more [CommandTypeEnum](commandtypeenum.md) values.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="edbeb-p101">[!NOTA] No use los valores **adCmdFile** ni **adCmdTableDirect** de **CommandTypeEnum** con la propiedad **CommandType**. Estos valores se pueden usar únicamente como opciones con los métodos [Open](open-method-ado-recordset.md) y [Requery](requery-method-ado.md) de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="edbeb-p101">Do not use the **CommandTypeEnum** values of **adCmdFile** or **adCmdTableDirect** with **CommandType**. These values can only be used as options with the [Open](open-method-ado-recordset.md) and [Requery](requery-method-ado.md) methods of a [Recordset](recordset-object-ado.md).</span></span>
+> <span data-ttu-id="85d42-p101">[!NOTA] No use los valores **adCmdFile** ni **adCmdTableDirect** de **CommandTypeEnum** con la propiedad **CommandType**. Estos valores se pueden usar únicamente como opciones con los métodos [Open](open-method-ado-recordset.md) y [Requery](requery-method-ado.md) de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="85d42-p101">Do not use the **CommandTypeEnum** values of **adCmdFile** or **adCmdTableDirect** with **CommandType**. These values can only be used as options with the [Open](open-method-ado-recordset.md) and [Requery](requery-method-ado.md) methods of a [Recordset](recordset-object-ado.md).</span></span>
 
 
-## <a name="remarks"></a><span data-ttu-id="edbeb-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="edbeb-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="85d42-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="85d42-109">Remarks</span></span>
 
-<span data-ttu-id="edbeb-119">Utilice la propiedad **CommandType** para optimizar la evaluación de la propiedad [CommandText](commandtext-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="edbeb-119">Use the **CommandType** property to optimize evaluation of the [CommandText](commandtext-property-ado.md) property.</span></span>
+<span data-ttu-id="85d42-110">Utilice la propiedad **CommandType** para optimizar la evaluación de la propiedad [CommandText](commandtext-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="85d42-110">Use the **CommandType** property to optimize evaluation of the [CommandText](commandtext-property-ado.md) property.</span></span>
 
-<span data-ttu-id="edbeb-120"><<<<<<< HEAD si el valor de la propiedad **CommandType** es **adCmdUnknown** (el valor predeterminado), es posible que disminuya el rendimiento porque ADO debe realizar llamadas al proveedor para determinar si el **CommandText** propiedad es una instrucción SQL, un procedimiento almacenado o un nombre de tabla.</span><span class="sxs-lookup"><span data-stu-id="edbeb-120"><<<<<<< HEAD If the **CommandType** property value equals **adCmdUnknown** (the default value), you may experience diminished performance because ADO must make calls to the provider to determine if the **CommandText** property is an SQL statement, a stored procedure, or a table name.</span></span> <span data-ttu-id="edbeb-121">Si se conoce el tipo de comando que se está usando y se establece el valor de la propiedad **CommandType**, se indica a ADO que vaya directamente al código pertinente.</span><span class="sxs-lookup"><span data-stu-id="edbeb-121">If you know what type of command you're using, setting the **CommandType** property instructs ADO to go directly to the relevant code.</span></span> <span data-ttu-id="edbeb-122">Si el valor de la propiedad **CommandType** no coincide con el tipo de comando especificado por la propiedad **CommandText**, se genera un error cuando se llama al método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="edbeb-122">If the **CommandType** property does not match the type of command in the **CommandText** property, an error occurs when you call the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method.</span></span>
-<span data-ttu-id="edbeb-123">=== Si el valor de la propiedad **CommandType** es **adCmdUnknown** (el valor predeterminado), es posible que disminuya el rendimiento porque ADO debe realizar llamadas al proveedor para determinar si la propiedad **CommandText** es una instrucción SQL, un procedimiento almacenado o un nombre de tabla.</span><span class="sxs-lookup"><span data-stu-id="edbeb-123">======= If the **CommandType** property value equals **adCmdUnknown** (the default value), you may experience diminished performance because ADO must make calls to the provider to determine if the **CommandText** property is an SQL statement, a stored procedure, or a table name.</span></span> <span data-ttu-id="edbeb-124">Si se conoce el tipo de comando que se está usando y se establece el valor de la propiedad **CommandType**, se indica a ADO que vaya directamente al código pertinente.</span><span class="sxs-lookup"><span data-stu-id="edbeb-124">If you know what type of command you're using, setting the **CommandType** property instructs ADO to go directly to the relevant code.</span></span> <span data-ttu-id="edbeb-125">Si el valor de la propiedad **CommandType** no coincide con el tipo de comando especificado por la propiedad **CommandText**, se genera un error cuando se llama al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).</span><span class="sxs-lookup"><span data-stu-id="edbeb-125">If the **CommandType** property does not match the type of command in the **CommandText** property, an error occurs when you call the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.</span></span>
->>>>>>> <span data-ttu-id="edbeb-126">master</span><span class="sxs-lookup"><span data-stu-id="edbeb-126">master</span></span>
+<span data-ttu-id="85d42-p102">Si el valor de la propiedad **CommandType** es **adCmdUnknown** (el valor predeterminado), puede que disminuya el rendimiento porque ADO debe realizar llamadas al proveedor para determinar si la propiedad **CommandText** es una instrucción SQL, un procedimiento almacenado o un nombre de tabla. Si se conoce el tipo de comando que se está usando y se establece el valor de la propiedad **CommandType**, se indica a ADO que vaya directamente al código pertinente. Si el valor de la propiedad **CommandType** no coincide con el tipo de comando especificado por la propiedad **CommandText**, se genera un error cuando se llama al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).</span><span class="sxs-lookup"><span data-stu-id="85d42-p102">If the **CommandType** property value equals **adCmdUnknown** (the default value), you may experience diminished performance because ADO must make calls to the provider to determine if the **CommandText** property is an SQL statement, a stored procedure, or a table name. If you know what type of command you're using, setting the **CommandType** property instructs ADO to go directly to the relevant code. If the **CommandType** property does not match the type of command in the **CommandText** property, an error occurs when you call the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.</span></span>
 

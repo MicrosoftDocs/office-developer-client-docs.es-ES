@@ -1,36 +1,38 @@
 ---
-<span data-ttu-id="19a51-101"><<<<<<< Título HEAD: propiedad CursorType (ADO) TOCTitle: propiedad CursorType (ADO) === título: CursorType (propiedad, ADO) TOCTitle: CursorType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="19a51-101"><<<<<<< HEAD title: CursorType Property (ADO) TOCTitle: CursorType Property (ADO) ======= title: CursorType property (ADO) TOCTitle: CursorType property (ADO)</span></span>
->>>>>>> <span data-ttu-id="19a51-102">Master ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID: ms.date 48548682: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="19a51-102">master ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID: 48548682 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: CursorType (propiedad, ADO)
+TOCTitle: CursorType property (ADO)
+ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15)
+ms:contentKeyID: 48548682
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1d9560ad975d545015a02bb0e594777ced3cc8d3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886661"
 ---
-
-<span data-ttu-id="19a51-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="19a51-103"><<<<<<< HEAD</span></span>
-# <a name="cursortype-property-ado"></a><span data-ttu-id="19a51-104">CursorType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="19a51-104">CursorType Property (ADO)</span></span>
-=======
-# <a name="cursortype-property-ado"></a><span data-ttu-id="19a51-105">CursorType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="19a51-105">CursorType property (ADO)</span></span>
->>>>>>> <span data-ttu-id="19a51-106">master</span><span class="sxs-lookup"><span data-stu-id="19a51-106">master</span></span>
+# <a name="cursortype-property-ado"></a><span data-ttu-id="9e6ed-102">CursorType (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="9e6ed-102">CursorType property (ADO)</span></span>
 
 
-<span data-ttu-id="19a51-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="19a51-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9e6ed-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e6ed-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19a51-108">Indica el tipo de cursor que se usa en un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="19a51-108">Indicates the type of cursor used in a [Recordset](recordset-object-ado.md) object.</span></span>
+<span data-ttu-id="9e6ed-104">Indica el tipo de cursor que se usa en un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="9e6ed-104">Indicates the type of cursor used in a [Recordset](recordset-object-ado.md) object.</span></span>
 
-<span data-ttu-id="19a51-109"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="19a51-109"><<<<<<< HEAD</span></span>
-## <a name="settings-and-return-values"></a><span data-ttu-id="19a51-110">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="19a51-110">Settings and Return Values</span></span>
-=======
-## <a name="settings-and-return-values"></a><span data-ttu-id="19a51-111">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="19a51-111">Settings and return values</span></span>
->>>>>>> <span data-ttu-id="19a51-112">master</span><span class="sxs-lookup"><span data-stu-id="19a51-112">master</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="9e6ed-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="9e6ed-105">Settings and return values</span></span>
 
-<span data-ttu-id="19a51-p101">Establece o devuelve un valor de tipo [CursorTypeEnum](cursortypeenum.md). El valor predeterminado es **adOpenForwardOnly**.</span><span class="sxs-lookup"><span data-stu-id="19a51-p101">Sets or returns a [CursorTypeEnum](cursortypeenum.md) value. The default value is **adOpenForwardOnly**.</span></span>
+<span data-ttu-id="9e6ed-p101">Establece o devuelve un valor de tipo [CursorTypeEnum](cursortypeenum.md). El valor predeterminado es **adOpenForwardOnly**.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-p101">Sets or returns a [CursorTypeEnum](cursortypeenum.md) value. The default value is **adOpenForwardOnly**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="19a51-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="19a51-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e6ed-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9e6ed-108">Remarks</span></span>
 
-<span data-ttu-id="19a51-116">Use la propiedad **CursorType** para especificar el tipo de cursor que se va a usar cuando se abra el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="19a51-116">Use the **CursorType** property to specify the type of cursor that should be used when opening the **Recordset** object.</span></span>
+<span data-ttu-id="9e6ed-109">Use la propiedad **CursorType** para especificar el tipo de cursor que se va a usar cuando se abra el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-109">Use the **CursorType** property to specify the type of cursor that should be used when opening the **Recordset** object.</span></span>
 
-<span data-ttu-id="19a51-p102">Sólo se admite el valor **adOpenStatic** si la propiedad [CursorLocation](cursorlocation-property-ado.md) tiene el valor **adUseClient**. Si se establece un valor no admitido, no se generará ningún error sino que se utilizará el valor de **CursorType** admitido más próximo.</span><span class="sxs-lookup"><span data-stu-id="19a51-p102">Only a setting of **adOpenStatic** is supported if the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**. If an unsupported value is set, then no error will result; the closest supported **CursorType** will be used instead.</span></span>
+<span data-ttu-id="9e6ed-p102">Sólo se admite el valor **adOpenStatic** si la propiedad [CursorLocation](cursorlocation-property-ado.md) tiene el valor **adUseClient**. Si se establece un valor no admitido, no se generará ningún error sino que se utilizará el valor de **CursorType** admitido más próximo.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-p102">Only a setting of **adOpenStatic** is supported if the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**. If an unsupported value is set, then no error will result; the closest supported **CursorType** will be used instead.</span></span>
 
-<span data-ttu-id="19a51-p103">Si un proveedor no admite el tipo de cursor solicitado, puede que devuelva otro tipo de cursor. El valor de la propiedad **CursorType** cambia para que coincida con el tipo de cursor que se usa realmente cuando está abierto el objeto [Recordset](recordset-object-ado.md). Para comprobar la funcionalidad específica del cursor devuelto, use el método [Supports](supports-method-ado.md). Tras cerrarse el objeto **Recordset**, se restablece el valor original de la propiedad **CursorType**.</span><span class="sxs-lookup"><span data-stu-id="19a51-p103">If a provider does not support the requested cursor type, it may return another cursor type. The **CursorType** property will change to match the actual cursor type in use when the [Recordset](recordset-object-ado.md) object is open. To verify specific functionality of the returned cursor, use the [Supports](supports-method-ado.md) method. After you close the **Recordset**, the **CursorType** property reverts to its original setting.</span></span>
+<span data-ttu-id="9e6ed-p103">Si un proveedor no admite el tipo de cursor solicitado, puede que devuelva otro tipo de cursor. El valor de la propiedad **CursorType** cambia para que coincida con el tipo de cursor que se usa realmente cuando está abierto el objeto [Recordset](recordset-object-ado.md). Para comprobar la funcionalidad específica del cursor devuelto, use el método [Supports](supports-method-ado.md). Tras cerrarse el objeto **Recordset**, se restablece el valor original de la propiedad **CursorType**.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-p103">If a provider does not support the requested cursor type, it may return another cursor type. The **CursorType** property will change to match the actual cursor type in use when the [Recordset](recordset-object-ado.md) object is open. To verify specific functionality of the returned cursor, use the [Supports](supports-method-ado.md) method. After you close the **Recordset**, the **CursorType** property reverts to its original setting.</span></span>
 
-<span data-ttu-id="19a51-123">En el gráfico siguiente se muestra la funcionalidad (identificada mediante las constantes del método **Supports** ) del proveedor que se requiere para cada tipo de cursor.</span><span class="sxs-lookup"><span data-stu-id="19a51-123">The following chart shows the provider functionality (identified by **Supports** method constants) required for each cursor type.</span></span>
+<span data-ttu-id="9e6ed-116">En el gráfico siguiente se muestra la funcionalidad (identificada mediante las constantes del método **Supports** ) del proveedor que se requiere para cada tipo de cursor.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-116">The following chart shows the provider functionality (identified by **Supports** method constants) required for each cursor type.</span></span>
 
 <table>
 <colgroup>
@@ -39,35 +41,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="19a51-124">Para un objeto Recordset con este valor de CursorType</span><span class="sxs-lookup"><span data-stu-id="19a51-124">For a Recordset of this CursorType</span></span></p></th>
-<th><p><span data-ttu-id="19a51-125">El método Supports debe devolver True para todas estas constantes</span><span class="sxs-lookup"><span data-stu-id="19a51-125">The Supports method must return True for all of these constants</span></span></p></th>
+<th><p><span data-ttu-id="9e6ed-117">Para un objeto Recordset con este valor de CursorType</span><span class="sxs-lookup"><span data-stu-id="9e6ed-117">For a Recordset of this CursorType</span></span></p></th>
+<th><p><span data-ttu-id="9e6ed-118">El método Supports debe devolver True para todas estas constantes</span><span class="sxs-lookup"><span data-stu-id="9e6ed-118">The Supports method must return True for all of these constants</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="19a51-126"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-126"><strong>adOpenForwardOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="19a51-127">ninguno</span><span class="sxs-lookup"><span data-stu-id="19a51-127">none</span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-119"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-119"><strong>adOpenForwardOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-120">ninguno</span><span class="sxs-lookup"><span data-stu-id="9e6ed-120">none</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="19a51-128"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-128"><strong>adOpenKeyset</strong></span></span></p></td>
-<td><p><span data-ttu-id="19a51-129"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-129"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-121"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-121"><strong>adOpenKeyset</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-122"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-122"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="19a51-130"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-130"><strong>adOpenDynamic</strong></span></span></p></td>
-<td><p><span data-ttu-id="19a51-131"><strong>adMovePrevious</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-131"><strong>adMovePrevious</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-123"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-123"><strong>adOpenDynamic</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-124"><strong>adMovePrevious</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-124"><strong>adMovePrevious</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="19a51-132"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-132"><strong>adOpenStatic</strong></span></span></p></td>
-<td><p><span data-ttu-id="19a51-133"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="19a51-133"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-125"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-125"><strong>adOpenStatic</strong></span></span></p></td>
+<td><p><span data-ttu-id="9e6ed-126"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="9e6ed-126"><strong>adBookmark</strong>, <strong>adHoldRecords</strong>, <strong>adMovePrevious</strong>, <strong>adResync</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> <span data-ttu-id="19a51-p104">Si bien el método **Supports**(**adUpdateBatch**) puede tener el valor True para los cursores dinámicos y de sólo avance, para las actualizaciones por lotes se debe usar un cursor estático o un cursor de conjunto de claves. Establezca el valor de la propiedad [LockType](locktype-property-ado.md) en **adLockBatchOptimistic** y el valor de la propiedad **CursorLocation** en **adUseClient** para habilitar el Servicio de cursores para OLE DB, que se requiere para las actualizaciones por lotes.</span><span class="sxs-lookup"><span data-stu-id="19a51-p104">Although **Supports**(**adUpdateBatch**) may be true for dynamic and forward-only cursors, for batch updates you should use either a keyset or static cursor. Set the [LockType](locktype-property-ado.md) property to **adLockBatchOptimistic** and the **CursorLocation** property to **adUseClient** to enable the Cursor Service for OLE DB, which is required for batch updates.</span></span>
+> <span data-ttu-id="9e6ed-p104">Si bien el método **Supports**(**adUpdateBatch**) puede tener el valor True para los cursores dinámicos y de sólo avance, para las actualizaciones por lotes se debe usar un cursor estático o un cursor de conjunto de claves. Establezca el valor de la propiedad [LockType](locktype-property-ado.md) en **adLockBatchOptimistic** y el valor de la propiedad **CursorLocation** en **adUseClient** para habilitar el Servicio de cursores para OLE DB, que se requiere para las actualizaciones por lotes.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-p104">Although **Supports**(**adUpdateBatch**) may be true for dynamic and forward-only cursors, for batch updates you should use either a keyset or static cursor. Set the [LockType](locktype-property-ado.md) property to **adLockBatchOptimistic** and the **CursorLocation** property to **adUseClient** to enable the Cursor Service for OLE DB, which is required for batch updates.</span></span>
 
-<span data-ttu-id="19a51-136">La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.</span><span class="sxs-lookup"><span data-stu-id="19a51-136">The **CursorType** property is read/write when the **Recordset** is closed and read-only when it is open.</span></span>
+<span data-ttu-id="9e6ed-129">La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-129">The **CursorType** property is read/write when the **Recordset** is closed and read-only when it is open.</span></span>
 
-<span data-ttu-id="19a51-137">**Uso de servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **CursorType** puede establecerse sólo en **adOpenStatic**.</span><span class="sxs-lookup"><span data-stu-id="19a51-137">**Remote Data Service Usage**When used on a client-side Recordset object, the **CursorType** property can be set only to **adOpenStatic**.</span></span>
+<span data-ttu-id="9e6ed-130">**Uso de servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **CursorType** puede establecerse sólo en **adOpenStatic**.</span><span class="sxs-lookup"><span data-stu-id="9e6ed-130">**Remote Data Service Usage**When used on a client-side Recordset object, the **CursorType** property can be set only to **adOpenStatic**.</span></span>
 

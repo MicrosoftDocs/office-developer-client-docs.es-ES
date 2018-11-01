@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249238(v=office.15)
 ms:contentKeyID: 48544697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51b7aaaed8e09aa537794415ff2fddabfcd6a9b6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7c19e12077c42d9487d6410793f07a6fa2c4bb18
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860339"
+ms.locfileid: "25885615"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="a6eb4-102">Ejemplo del método AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="a6eb4-102">AddNew method example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="92285-102">Ejemplo del método AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="92285-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="a6eb4-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6eb4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="92285-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92285-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a6eb4-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="a6eb4-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="92285-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="92285-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  

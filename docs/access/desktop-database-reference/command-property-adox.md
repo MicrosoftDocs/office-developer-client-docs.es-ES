@@ -6,29 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249671(v=office.15)
 ms:contentKeyID: 48546457
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb55812de85b9db7273cc6d3be0e6f9bd6545a13
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b5a9474c2415b986ff7008a67133ba1557a56fc2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605271"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869368"
 ---
-# <a name="command-property-adox"></a><span data-ttu-id="f8a2f-102">Comando (propiedad, ADOX)</span><span class="sxs-lookup"><span data-stu-id="f8a2f-102">Command Property (ADOX)</span></span>
+# <a name="command-property-adox"></a><span data-ttu-id="ebcfc-102">Comando (propiedad, ADOX)</span><span class="sxs-lookup"><span data-stu-id="ebcfc-102">Command Property (ADOX)</span></span>
 
 
-<span data-ttu-id="f8a2f-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8a2f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ebcfc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ebcfc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f8a2f-104">Especifica un objeto [Command](command-object-ado.md) de ADO que se puede utilizar para crear o ejecutar el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="f8a2f-104">Specifies an ADO [Command](command-object-ado.md) object that can be used to create or execute the procedure.</span></span>
+<span data-ttu-id="ebcfc-104">Especifica un objeto [Command](command-object-ado.md) de ADO que se puede utilizar para crear o ejecutar el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="ebcfc-104">Specifies an ADO [Command](command-object-ado.md) object that can be used to create or execute the procedure.</span></span>
 
-<span data-ttu-id="f8a2f-105"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="f8a2f-105"><<<<<<< HEAD</span></span>
-## <a name="settings-and-return-values"></a><span data-ttu-id="f8a2f-106">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f8a2f-106">Settings and Return Values</span></span>
-=======
-## <a name="settings-and-return-values"></a><span data-ttu-id="f8a2f-107">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f8a2f-107">Settings and return values</span></span>
->>>>>>> <span data-ttu-id="f8a2f-108">master</span><span class="sxs-lookup"><span data-stu-id="f8a2f-108">master</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="ebcfc-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="ebcfc-105">Settings and return values</span></span>
 
-<span data-ttu-id="f8a2f-109">Establece o devuelve un objeto **Command** de ADO válido.</span><span class="sxs-lookup"><span data-stu-id="f8a2f-109">Sets or returns a valid ADO **Command** object.</span></span>
+<span data-ttu-id="ebcfc-106">Establece o devuelve un objeto **Command** de ADO válido.</span><span class="sxs-lookup"><span data-stu-id="ebcfc-106">Sets or returns a valid ADO **Command** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f8a2f-110">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f8a2f-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ebcfc-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ebcfc-107">Remarks</span></span>
 
-<span data-ttu-id="f8a2f-111">Se producirá un error al obtener y establecer esta propiedad si el proveedor no admite comandos persistentes.</span><span class="sxs-lookup"><span data-stu-id="f8a2f-111">An error will occur when getting and setting this property if the provider does not support persisting commands.</span></span>
+<span data-ttu-id="ebcfc-108">Se producirá un error al obtener y establecer esta propiedad si el proveedor no admite comandos persistentes.</span><span class="sxs-lookup"><span data-stu-id="ebcfc-108">An error will occur when getting and setting this property if the provider does not support persisting commands.</span></span>
 

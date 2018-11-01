@@ -1,17 +1,23 @@
 ---
-<span data-ttu-id="1d3a6-101"><<<<<<< Título HEAD: OriginalValue y UnderlyingValue propiedades ejemplo (VB) TOCTitle: OriginalValue y UnderlyingValue propiedades ejemplo (VB) === título: ejemplo de las propiedades OriginalValue y UnderlyingValue (VB) TOCTitle: Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="1d3a6-101"><<<<<<< HEAD title: OriginalValue and UnderlyingValue Properties Example (VB) TOCTitle: OriginalValue and UnderlyingValue Properties Example (VB) ======= title: OriginalValue and UnderlyingValue properties example (VB) TOCTitle: OriginalValue and UnderlyingValue properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="1d3a6-102">Master ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15) ms:contentKeyID: ms.date 48548189: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="1d3a6-102">master ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15) ms:contentKeyID: 48548189 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VB)
+ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15)
+ms:contentKeyID: 48548189
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ffe9672be5dd970e77368d7298283462fe74f25c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879061"
 ---
+# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a><span data-ttu-id="913f4-102">Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="913f4-102">OriginalValue and UnderlyingValue properties example (VB)</span></span>
 
-<span data-ttu-id="1d3a6-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="1d3a6-103"><<<<<<< HEAD</span></span>
-# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a><span data-ttu-id="1d3a6-104">Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="1d3a6-104">OriginalValue and UnderlyingValue Properties Example (VB)</span></span>
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a><span data-ttu-id="1d3a6-105">Ejemplo de las propiedades OriginalValue y UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="1d3a6-105">OriginalValue and UnderlyingValue properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="1d3a6-106">master</span><span class="sxs-lookup"><span data-stu-id="1d3a6-106">master</span></span>
+<span data-ttu-id="913f4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="913f4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1d3a6-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d3a6-107">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="1d3a6-108">En este ejemplo se muestran las propiedades [OriginalValue](originalvalue-property-ado.md) y [UnderlyingValue](underlyingvalue-property-ado.md) al mostrar un mensaje si los datos subyacentes de un registro han cambiado durante una actualización por lotes del objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1d3a6-108">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="913f4-104">En este ejemplo se muestran las propiedades [OriginalValue](originalvalue-property-ado.md) y [UnderlyingValue](underlyingvalue-property-ado.md) al mostrar un mensaje si los datos subyacentes de un registro han cambiado durante una actualización por lotes del objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="913f4-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```vb 
  

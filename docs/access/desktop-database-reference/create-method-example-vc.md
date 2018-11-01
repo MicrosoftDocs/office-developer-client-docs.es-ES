@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50fb678cb9346641b38acc3ca4f3a9553fd2a1c2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 205c727b140ac8d9bd5b0aa096b7650e12e78e2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862936"
+ms.locfileid: "25873421"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="db5bb-102">Ejemplo del método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="db5bb-102">Create method example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="ced5a-102">Ejemplo del método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="ced5a-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="db5bb-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="db5bb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ced5a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ced5a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="db5bb-104">El código siguiente muestra cómo crear una nueva base de datos de Microsoft Jet con el método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="db5bb-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="ced5a-104">El código siguiente muestra cómo crear una nueva base de datos de Microsoft Jet con el método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="ced5a-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

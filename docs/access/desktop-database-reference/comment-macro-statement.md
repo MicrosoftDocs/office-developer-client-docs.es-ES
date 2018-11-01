@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193209(v=office.15)
 ms:contentKeyID: 48544594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7de1a67b973948d37bbdb558a6f2059dae61558
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78a6bf0f0b170a69635837d8e2b40a8e1cf5f6d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485673"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883529"
 ---
-# <a name="comment-macro-statement"></a><span data-ttu-id="a65cb-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="a65cb-102">Comment Macro Statement</span></span>
+# <a name="comment-macro-statement"></a><span data-ttu-id="7ae70-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="7ae70-102">Comment Macro Statement</span></span>
 
 
-<span data-ttu-id="a65cb-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a65cb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7ae70-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ae70-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a65cb-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="a65cb-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
+<span data-ttu-id="7ae70-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="7ae70-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a65cb-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a65cb-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ae70-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7ae70-105">Remarks</span></span>
 
-<span data-ttu-id="a65cb-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="a65cb-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
+<span data-ttu-id="7ae70-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="7ae70-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
 

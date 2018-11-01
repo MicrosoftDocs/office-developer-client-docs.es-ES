@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="26425-101"><<<<<<< Título HEAD: ejemplo de la propiedad StayInSync (VC ++) TOCTitle: ejemplo de la propiedad StayInSync (VC ++) === título: ejemplo de la propiedad StayInSync (VC ++) TOCTitle: ejemplo de la propiedad StayInSync (VC ++)</span><span class="sxs-lookup"><span data-stu-id="26425-101"><<<<<<< HEAD title: StayInSync Property Example (VC++) TOCTitle: StayInSync Property Example (VC++) ======= title: StayInSync property example (VC++) TOCTitle: StayInSync property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="26425-102">Master ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: ms.date 48544485: 18/09/2015 mtps_version: Office.15</span><span class="sxs-lookup"><span data-stu-id="26425-102">master ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: 48544485 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ejemplo de la propiedad StayInSync (VC++)
+TOCTitle: StayInSync property example (VC++)
+ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
+ms:contentKeyID: 48544485
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1c8816e7883cbccb23425ddb057e0c811338b2bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867422"
 ---
-
-<span data-ttu-id="26425-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="26425-103"><<<<<<< HEAD</span></span>
-# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="26425-104">Ejemplo de la propiedad StayInSync (VC++)</span><span class="sxs-lookup"><span data-stu-id="26425-104">StayInSync Property Example (VC++)</span></span>
-=======
-# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="26425-105">Ejemplo de la propiedad StayInSync (VC ++)</span><span class="sxs-lookup"><span data-stu-id="26425-105">StayInSync property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="26425-106">master</span><span class="sxs-lookup"><span data-stu-id="26425-106">master</span></span>
+# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="effc2-102">Ejemplo de la propiedad StayInSync (VC++)</span><span class="sxs-lookup"><span data-stu-id="effc2-102">StayInSync property example (VC++)</span></span>
 
 
-<span data-ttu-id="26425-107">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="26425-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="effc2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="effc2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="26425-108">En este ejemplo se muestra cómo facilita la propiedad [StayInSync](stayinsync-property-ado.md) el acceso a las filas de un objeto [Recordset](recordset-object-ado.md) jerárquico.</span><span class="sxs-lookup"><span data-stu-id="26425-108">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="effc2-104">En este ejemplo se muestra cómo facilita la propiedad [StayInSync](stayinsync-property-ado.md) el acceso a las filas de un objeto [Recordset](recordset-object-ado.md) jerárquico.</span><span class="sxs-lookup"><span data-stu-id="effc2-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="26425-p101">El bucle externo muestra el nombre y apellido de cada autor, el país y la identificación. El objeto **Recordset** anexado de cada fila se recupera desde la colección [Fields](fields-collection-ado.md) y es asignado automáticamente a **rstTitleAuthor** por la propiedad **StayInSync** siempre que el objeto **Recordset** primario se mueve a una nueva fila. El bucle interno muestra cuatro campos de cada fila en el conjunto de registros anexado.</span><span class="sxs-lookup"><span data-stu-id="26425-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="effc2-p101">El bucle externo muestra el nombre y apellido de cada autor, el país y la identificación. El objeto **Recordset** anexado de cada fila se recupera desde la colección [Fields](fields-collection-ado.md) y es asignado automáticamente a **rstTitleAuthor** por la propiedad **StayInSync** siempre que el objeto **Recordset** primario se mueve a una nueva fila. El bucle interno muestra cuatro campos de cada fila en el conjunto de registros anexado.</span><span class="sxs-lookup"><span data-stu-id="effc2-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```cpp 
  
