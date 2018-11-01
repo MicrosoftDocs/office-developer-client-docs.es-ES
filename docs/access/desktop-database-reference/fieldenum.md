@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
 ms:contentKeyID: 48548876
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 9ab46fc7c3817cbfa83c78816a42472e425d2d71
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6975017ed8867d794dce189de74f617636b9f223
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860052"
+ms.locfileid: "25886665"
 ---
 # <a name="fieldenum"></a>FieldEnum
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica los campos especiales a los que se hace referencia en la colección [Fields](record-object-ado.md) de un objeto [Record](fields-collection-ado.md).
 

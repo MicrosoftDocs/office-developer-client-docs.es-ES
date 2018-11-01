@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6742e8b97e3444df38a7c52d048aaa6a2f023cb0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca1e0be9c5957e11c66487e913693bb16644211b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486097"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877159"
 ---
 # <a name="field2attributes-property-dao"></a>Field2.Attributes Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Establece o devuelve un valor que indica una o varias características de un objeto **Field2**. **Long** de lectura y escritura.

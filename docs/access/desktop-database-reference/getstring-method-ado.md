@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba235094aa7f491cbd86bf753713d50f01009d47
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b6c4de1278a093a1b0d4493c5dd994afe6a5d1b8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605404"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879875"
 ---
 # <a name="getstring-method-ado"></a>GetString (método, ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Devuelve el objeto [Recordset](recordset-object-ado.md) en forma de cadena.
@@ -25,11 +25,7 @@ Devuelve el objeto [Recordset](recordset-object-ado.md) en forma de cadena.
 
 *Variant* = *conjunto de registros*. GetString (*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve el objeto **Recordset** como **Variant** de valores de cadena (BSTR).
 

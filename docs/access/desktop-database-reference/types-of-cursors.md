@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
 ms:contentKeyID: 48544996
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 559d2ea0ccf1cb34e801d75657695f191ef7076b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 95b16ba79a90765be9c6850c6aea6a000993f695
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484125"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880428"
 ---
 # <a name="types-of-cursors"></a>Tipos de cursores
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Como regla general, una aplicación debería utilizar el cursor más sencillo que proporcione el acceso a datos requerido. Cada característica de cursor adicional más allá de lo básico (sólo avance, sólo lectura, estático, con desplazamiento, sin búfer) supone un costo en memoria de cliente, carga de red o rendimiento. En muchos casos, las opciones predeterminadas de cursor generan un cursor más complejo que el que realmente necesita la aplicación.
 

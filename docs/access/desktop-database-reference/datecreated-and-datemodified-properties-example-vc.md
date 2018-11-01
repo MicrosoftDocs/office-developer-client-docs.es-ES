@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: DateCreated y DateModified ejemplo de las propiedades (VC ++) TOCTitle: ejemplo DateCreated y DateModified propiedades (VC ++) === título: ejemplo de las propiedades DateCreated y DateModified (VC ++) TOCTitle: Ejemplo de las propiedades DateCreated y DateModified (VC ++)
->>>>>>> Master ms:assetid: 1c92e8f5-2fed-55dc-2cdd-51dfa16ecd84 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15) ms:contentKeyID: ms.date 48543573: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades DateCreated y DateModified (VC++)
+TOCTitle: DateCreated and DateModified properties example (VC++)
+ms:assetid: 1c92e8f5-2fed-55dc-2cdd-51dfa16ecd84
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15)
+ms:contentKeyID: 48543573
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 100062ceb7aab0b3d5b74ee3ac1b13cf725c09bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870180"
 ---
-
-<<<<<<< HEAD
-# <a name="datecreated-and-datemodified-properties-example-vc"></a>Ejemplo de propiedades DateCreated y DateModified (VC++)
-=======
-# <a name="datecreated-and-datemodified-properties-example-vc"></a>Ejemplo de las propiedades DateCreated y DateModified (VC ++)
->>>>>>> master
+# <a name="datecreated-and-datemodified-properties-example-vc"></a>Ejemplo de las propiedades DateCreated y DateModified (VC++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo, se muestran las propiedades [DateCreated](datecreated-property-adox.md) y [DateModified](datemodified-property-adox.md) agregando una nueva [columna](column-object-adox.md) a una [tabla](table-object-adox.md) existente y creando una nueva **tabla**. El procedimiento DateOutput es necesario para que se pueda ejecutar este ejemplo.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad de origen (VB) TOCTitle: ejemplo de propiedad de origen (VB) === título: ejemplo de la propiedad Source (VB) TOCTitle: ejemplo de la propiedad Source (VB)
->>>>>>> Master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: ms.date 48545885: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Source (VB)
+TOCTitle: Source property example (VB)
+ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
+ms:contentKeyID: 48545885
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889668"
 ---
-
-<<<<<<< HEAD
 # <a name="source-property-example-vb"></a>Ejemplo de la propiedad Source (VB)
-=======
-# <a name="source-property-example-vb"></a>Ejemplo de la propiedad Source (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Source](source-property-ado-recordset.md) al abrir tres objetos [Recordset](recordset-object-ado.md) basados en diferentes orígenes de datos.
 

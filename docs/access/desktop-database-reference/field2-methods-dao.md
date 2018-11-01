@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124187(v=office.15)
 ms:contentKeyID: 52071823
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fcdad993f6aeb949109e0026f68624ff79762885
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e994fcfd568607d6dc8dfdfb4e8b944a445bb512
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484234"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872840"
 ---
 # <a name="field2-methods-dao"></a>Field2 Methods (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 

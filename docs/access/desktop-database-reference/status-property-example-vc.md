@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad Status (VC ++) TOCTitle: ejemplo de la propiedad Status (VC ++) === título: ejemplo de la propiedad Status (VC ++) TOCTitle: ejemplo de la propiedad Status (VC ++)
->>>>>>> Master ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: ms.date 48545618: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Status (VC++)
+TOCTitle: Status property example (VC++)
+ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
+ms:contentKeyID: 48545618
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06758dd435389ba0abfbd1a1c8dda8c5a492ab8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886861"
 ---
-
-<<<<<<< HEAD
 # <a name="status-property-example-vc"></a>Ejemplo de la propiedad Status (VC++)
-=======
-# <a name="status-property-example-vc"></a>Ejemplo de la propiedad Status (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.
 

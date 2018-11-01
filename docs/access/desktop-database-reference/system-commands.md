@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5925cabf5eaa0acb5cabcb7a598b8f8344c3174f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c37d97121948f3f119056fb678cbd6b59a0140b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485516"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872630"
 ---
 # <a name="system-commands"></a>Comandos del sistema
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Bip (acción de macro)](beep-macro-action.md)
+  - [Acción de Macro Bip](beep-macro-action.md)
 
-  - [CerrarBaseDeDatos (acción de macro)](closedatabase-macro-action.md)
+  - [Acción de Macro CerrarBaseDeDatos](closedatabase-macro-action.md)
 
-  - [MostrarCursorDeRelojDeArena (acción de macro)](displayhourglasspointer-macro-action.md)
+  - [Acción de Macro Mostrarcursorderelojdearena](displayhourglasspointer-macro-action.md)
 
-  - [Imprimir (acción de macro)](printout-macro-action.md)
+  - [Acción de Macro imprimir](printout-macro-action.md)
 
-  - [SalirDeAccess (acción de macro)](quitaccess-macro-action.md)
+  - [Acción de Macro Salirdeaccess](quitaccess-macro-action.md)
 
-  - [EjecutarAplicación (acción de macro)](runapplication-macro-action.md)
+  - [Acción de Macro EjecutarAplicación](runapplication-macro-action.md)
 
-  - [EnviarTeclas (acción de macro)](sendkeys-macro-action.md)
+  - [Acción de Macro EnviarTeclas](sendkeys-macro-action.md)
 
   - [EstablecerAdvertencias (acción de macro)](setwarnings-macro-action.md)
 

@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f17c0315016b6cd38ef0eda5c975b79047967ff
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 58b8a22155b7626850defc2cb02c5fbae0cbda9a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861242"
+ms.locfileid: "25868283"
 ---
 # <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a>Ejemplo de los métodos CopyRecord, CopyTo y SaveToFile (VB)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
-<<<<<<< HEAD en este ejemplo muestra cómo crear copias de un archivo con objetos [Stream](stream-object-ado.md) o [Record](record-object-ado.md) . Se realiza una copia en una carpeta Web para su publicación en Internet. También se muestran otros métodos y propiedades, como [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) y [Record Open](open-method-ado-record.md).
-=== En este ejemplo se muestra cómo crear copias de un archivo con objetos [Stream](stream-object-ado.md) o [Record](record-object-ado.md) . Se realiza una copia en una carpeta web para la publicación en Internet. También se muestran otros métodos y propiedades, como [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) y [Record Open](open-method-ado-record.md).
->>>>>>> master
+En este ejemplo se muestra cómo crear copias de un archivo con los objetos [Stream](stream-object-ado.md) o [Record](record-object-ado.md). Se realiza una copia en una carpeta web para la publicación en Internet. También se muestran otros métodos y propiedades, como [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) y [Record Open](open-method-ado-record.md).
 
 ```vb 
  
@@ -71,11 +69,7 @@ Private Sub Form_Load()
  ' Save the second stream to a different path 
  objStream2.SaveToFile strStream2Path, adSaveCreateOverWrite 
  
-<<<<<<< HEAD
- ' Because strStreamPath is a Web Folder, open a Record on the URL 
-=======
  ' Because strStreamPath is a web folder, open a Record on the URL 
->>>>>>> master
  objRecord.Open "", strStreamURL 
  
  ' Display the Fields of the record 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: PageCount (propiedad) (ADO) TOCTitle: PageCount (propiedad) (ADO) === título: PageCount (propiedad, ADO) TOCTitle: PageCount (propiedad, ADO)
->>>>>>> Master ms:assetid: 9cd8bf5c-b1e7-a453-4629-9cba7e408f53 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15) ms:contentKeyID: ms.date 48546609: 18/09/2015 mtps_version: Office.15
+title: PageCount (propiedad, ADO)
+TOCTitle: PageCount property (ADO)
+ms:assetid: 9cd8bf5c-b1e7-a453-4629-9cba7e408f53
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15)
+ms:contentKeyID: 48546609
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ef5179f44a2c7c153411ae33566f3806f1e93573
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867373"
 ---
-
-<<<<<<< HEAD
 # <a name="pagecount-property-ado"></a>PageCount (propiedad, ADO)
-=======
-# <a name="pagecount-property-ado"></a>PageCount (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica cuántas páginas de datos contiene el objeto [Recordset](recordset-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve un valor de tipo **Long** que indica el número de páginas del objeto **Recordset**.
 

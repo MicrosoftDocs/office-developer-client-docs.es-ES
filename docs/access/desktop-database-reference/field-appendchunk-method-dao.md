@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
 ms:contentKeyID: 48548819
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2ba2009bb9b8ccbde52c3b521c0551bf803fdb1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 44aef9e335b606b88dfcc1446a3d167627b1db2b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486236"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870957"
 ---
 # <a name="fieldappendchunk-method-dao"></a>Field.AppendChunk Method (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.md)** de Memo o binario largo en un objeto **[Recordset](recordset-object-dao.md)**.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248804(v=office.15)
 ms:contentKeyID: 48542998
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 43d193a78be10ec5cedc2fe1a4001e677878dfb6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e519d40a081b132cd09030e9ba97de9e8987af99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485569"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881961"
 ---
 # <a name="delete-method-ado-parameters-collection"></a>Delete (método, Colección Parameters de ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Elimina un objeto de la colección [Parameters](parameters-collection-ado.md).

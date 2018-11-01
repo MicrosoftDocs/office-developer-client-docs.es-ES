@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d47d7bb4d8e9243d48daf4ad7947cef2416d4004
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65fda92e28aab278fde4dafba4e94c576827370a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485774"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881751"
 ---
 # <a name="streams-and-persistence"></a>Secuencias y persistencia
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El método [Save](save-method-ado.md) del objeto [Recordset](recordset-object-ado.md) guarda o *persiste* un objeto **Recordset** en un archivo, y el método [Open](open-method-ado-recordset.md) restaura el objeto **Recordset** de ese archivo.
 

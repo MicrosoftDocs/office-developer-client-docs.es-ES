@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ce29ed129035dcb6799844a4b78509b976f0ee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2a02db4af012bb7eb0b297d93ef35ba3fc0bd90c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862943"
+ms.locfileid: "25883599"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>Configurar RDS en Windows 2000
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Si tiene dificultades para conseguir que RDS funcione correctamente tras actualizarse a Windows 2000, siga los pasos que se enumeran a continuación para solucionar el problema.
 
@@ -31,11 +31,7 @@ Si tiene dificultades para conseguir que RDS funcione correctamente tras actuali
 
 4.  Utilizando RegEdit, desplácese en el registro para "HKEY\_LOCAL\_máquina\\SYSTEM\\CurrentControlSet\\servicios\\W3SVC\\parámetros\\ADCLaunch" y compruebe que haya una clave **llamado RDSServer.Datafactory**. Si no existe, créela.
 
-<<<<<<< HEAD
-5.  Mediante Internet Services Manager, vaya el sitio Web predeterminado y vea las propiedades de la raíz virtual MSADC. Inspeccione las restricciones de Seguridad de directorio/Dirección IP y Nombre de dominio. Si está activada la opción "Acceso denegado", seleccione "Concedido".
-=======
 5.  Uso de administrador de servicios Internet, vaya al sitio Web predeterminado y ver las propiedades de la raíz virtual MSADC. Inspeccione las restricciones de Seguridad de directorio/Dirección IP y Nombre de dominio. Si está activada la opción "Acceso denegado", seleccione "Concedido".
->>>>>>> master
 
 Si los cambios no parecen solucionar el problema, intente reiniciar el servidor.
 

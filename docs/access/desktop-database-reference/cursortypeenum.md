@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
 ms:contentKeyID: 48545835
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c394f8000f1d4ae7867d83974e0e186616145fb5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 67b7dcd52214c23c45b48de40b46fc4782f1629d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864034"
+ms.locfileid: "25880834"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica el tipo de cursor usado en un objeto [Recordset](recordset-object-ado.md).
 

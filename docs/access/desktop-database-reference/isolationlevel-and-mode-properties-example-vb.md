@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: IsolationLevel y TOCTitle de ejemplo de las propiedades de modo (VB): IsolationLevel y ejemplo de las propiedades de modo (VB) === título: ejemplo de las propiedades IsolationLevel y modo (VB) TOCTitle: IsolationLevel y modo ejemplo de las propiedades (VB)
->>>>>>> Master ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID: ms.date 48546999: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades IsolationLevel y Mode (VB)
+TOCTitle: IsolationLevel and Mode properties example (VB)
+ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
+ms:contentKeyID: 48546999
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bda6536d76e488c4ede8aff20610bf3eca84210a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877719"
 ---
-
-<<<<<<< HEAD
 # <a name="isolationlevel-and-mode-properties-example-vb"></a>Ejemplo de las propiedades IsolationLevel y Mode (VB)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vb"></a>Ejemplo de las propiedades IsolationLevel y modo (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [Mode](mode-property-ado.md) para abrir una conexión exclusiva y la propiedad [IsolationLevel](isolationlevel-property-ado.md) para abrir una transacción realizada de forma aislada con respecto a otras transacciones.
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 723820a2a1c5300bfdc3e688d693d29e2bddda33
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 491aea720995ec140ef3701a5ffdbdc5171c4a32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602517"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868360"
 ---
 # <a name="prompt-property--dynamic-ado"></a>dinámica Prompt (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica si el proveedor OLE DB debe solicitar al usuario información de inicialización.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece y devuelve un valor [ConnectPromptEnum](connectpromptenum.md).
 

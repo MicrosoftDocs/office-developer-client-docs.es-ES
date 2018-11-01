@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 0ac5e65356e7ee66cda864bffc983ae1d394825b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606028"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879609"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount (propiedad, ADO MD)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el número de elementos para los que el objeto [Member](member-object-ado-md.md) activo es el principal en una jerarquía.
 
-<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
-=======
-## <a name="return-values"></a>Valores devueltos
->>>>>>> master
 
 Devuelve un entero **Long** y es de sólo lectura.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45c36e12ab5d646e225690711d035ba8d36f4cc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f30ccd48ee5e4f4815be4d7e1ec6d94f237bc16
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483977"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874289"
 ---
 # <a name="properties-collection-dao"></a>Properties Collection (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Una colección **Properties** contiene todos los objetos **[Property](property-object-dao.md)** de una instancia específica de un objeto.
 

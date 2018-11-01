@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad StayInSync (VC ++) TOCTitle: ejemplo de la propiedad StayInSync (VC ++) === título: ejemplo de la propiedad StayInSync (VC ++) TOCTitle: ejemplo de la propiedad StayInSync (VC ++)
->>>>>>> Master ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: ms.date 48544485: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad StayInSync (VC++)
+TOCTitle: StayInSync property example (VC++)
+ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
+ms:contentKeyID: 48544485
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1c8816e7883cbccb23425ddb057e0c811338b2bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867422"
 ---
-
-<<<<<<< HEAD
 # <a name="stayinsync-property-example-vc"></a>Ejemplo de la propiedad StayInSync (VC++)
-=======
-# <a name="stayinsync-property-example-vc"></a>Ejemplo de la propiedad StayInSync (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra cómo facilita la propiedad [StayInSync](stayinsync-property-ado.md) el acceso a las filas de un objeto [Recordset](recordset-object-ado.md) jerárquico.
 

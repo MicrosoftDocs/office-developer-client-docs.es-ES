@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
 ms:contentKeyID: 48544671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf8efb435fb11a909b5deea7b1ed6891811a670e
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8f4a06956db9a051a130af0cbaa6f9090daa586b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603486"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889367"
 ---
 # <a name="type-property-ado-md"></a>Tipo (propiedad, ADO MD)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el tipo de elemento activo.
 
-<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
-=======
-## <a name="return-values"></a>Valores devueltos
->>>>>>> master
 
 Devuelve un valor [MemberTypeEnum](membertypeenum.md) y es de sólo lectura.
 

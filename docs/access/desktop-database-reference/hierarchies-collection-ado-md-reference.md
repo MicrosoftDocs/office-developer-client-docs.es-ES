@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250040(v=office.15)
 ms:contentKeyID: 48547839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f207571312a83e3be76c2d7ec7ec55f5d14cd94f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 104cfccfd9b71adfcd64b5452978d5e060b51fdc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486585"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886343"
 ---
 # <a name="hierarchies-collection-ado-md-reference"></a>Hierarchies Collection (ADO MD Reference)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Hierarchies (colección) (ADO MD)](hierarchies-collection-ado-md.md)
+  - [Colección Hierarchies (ADO MD)](hierarchies-collection-ado-md.md)
 
   - [Hierarchies Collection Properties, Methods, and Events (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

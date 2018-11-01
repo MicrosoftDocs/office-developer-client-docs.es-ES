@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: EditMode (propiedad) (ADO) TOCTitle: EditMode (propiedad) (ADO) === título: EditMode (propiedad, ADO) TOCTitle: EditMode (propiedad, ADO)
->>>>>>> Master ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: ms.date 48543867: 18/09/2015 mtps_version: Office.15
+title: EditMode (propiedad, ADO)
+TOCTitle: EditMode property (ADO)
+ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
+ms:contentKeyID: 48543867
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4c859d85dc62e09a1fd21af11deaca5d0f2e8b85
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867352"
 ---
-
-<<<<<<< HEAD
 # <a name="editmode-property-ado"></a>EditMode (propiedad, ADO)
-=======
-# <a name="editmode-property-ado"></a>EditMode (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el estado de modificación del registro actual.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve un valor [EditModeEnum](editmodeenum.md).
 

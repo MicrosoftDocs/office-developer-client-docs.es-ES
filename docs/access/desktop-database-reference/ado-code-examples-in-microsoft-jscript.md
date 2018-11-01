@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 930516aa9ffc3c12c6df96dda2cb8cf4a47b5f99
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 166cdc22c7448851605789f04f590ca9fff04758
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863741"
+ms.locfileid: "25873756"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Ejemplos de código de ADO en Microsoft JScript
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Utilice los ejemplos de código siguientes para obtener información sobre cómo utilizar los métodos, propiedades y eventos de ADO al escribir código en JScript.
 
@@ -36,21 +36,6 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
 **Propiedades**
 
-<<<<<<< HEAD
-  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-jscript.md)
-
-  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [Ejemplo de la propiedad CacheSize](cachesize-property-example-jscript.md)
-
-  - [Ejemplo Filter y RecordCount propiedades](filter-and-recordcount-properties-example-jscript.md)
-=======
   - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -64,5 +49,4 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
   - [Ejemplo de la propiedad CacheSize](cachesize-property-example-jscript.md)
 
   - [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-jscript.md)
->>>>>>> master
 

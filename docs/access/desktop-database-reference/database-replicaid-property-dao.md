@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053375
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca879a3c56d23a67987d86b7fbc21421cd8db843
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4336caf98c0adf4fde3ad6eaed28e0509aeb71e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483357"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872854"
 ---
 # <a name="databasereplicaid-property-dao"></a>Database.ReplicaID Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Devuelve un valor de 16 bytes que identifica de forma exclusiva una réplica de base de datos (sólo para áreas de trabajo de Microsoft Access).

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
 ms:contentKeyID: 48547326
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d9380a852caceba8c42c828e969e163253dc785
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 92faa7ad56625d9d66da4ebd260bde96c18c2ab5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485179"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871867"
 ---
 # <a name="relations-members-dao"></a>Relations Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Una colección Relations contiene objetos Relation almacenados de un objeto Database (sólo bases de datos del motor de base de datos de Microsoft Access).
 

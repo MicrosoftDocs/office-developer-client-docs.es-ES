@@ -1,15 +1,21 @@
 ---
-<<<<<<< Título HEAD: TOCTitle ejemplo de propiedad ActiveConnection de catálogo (VB): ejemplo de propiedad ActiveConnection de catálogo (VB) === título: ejemplo de la propiedad ActiveConnection de Catalog (VB) TOCTitle: catálogo ActiveConnection ejemplo de la propiedad (VB)
->>>>>>> Master ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15) ms:contentKeyID: ms.date 48543348: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de propiedad ActiveConnection de Catalog (VB)
+TOCTitle: Catalog ActiveConnection property example (VB)
+ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
+ms:contentKeyID: 48543348
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 36dc7ce169bcfbfc341968db9f571532dae24970
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884649"
 ---
-
-<<<<<<< HEAD
 # <a name="catalog-activeconnection-property-example-vb"></a>Ejemplo de propiedad ActiveConnection de Catalog (VB)
-=======
-# <a name="catalog-activeconnection-property-example-vb"></a>Ejemplo de propiedad ActiveConnection de Catalog (VB)
->>>>>>> master
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Si se establece la propiedad [ActiveConnection](activeconnection-property-adox.md) en una conexión abierta válida, se "abre" el catálogo. Desde un catálogo abierto se puede tener acceso a los objetos de esquema que contiene el catálogo.
 

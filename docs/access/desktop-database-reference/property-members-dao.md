@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
 ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd6a24820e373c2b7ffcc1332f2fc5f9c2942481
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 07e9aa4ec5305b79dc3e48442cf6b76b2ce78fb7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484144"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888282"
 ---
 # <a name="property-members-dao"></a>Property Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto Property representa una característica integrada o definida por el usuario de un objeto DAO.
 
@@ -47,7 +47,7 @@ Un objeto Property representa una característica integrada o definida por el us
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="property-type-property-dao.md">Tipo de</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">

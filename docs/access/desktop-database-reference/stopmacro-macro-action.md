@@ -1,21 +1,21 @@
 ---
-title: DetenerMacro (acción de macro)
+title: Acción de Macro DetenerMacro
 TOCTitle: StopMacro Macro Action
 ms:assetid: 6bbf9026-4536-43f2-aa43-3f2ecea01005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a918fd128456450c21b5a36e74b7266df661cb75
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3880b57e235520e3351ef16282fb8883d93b11e3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485041"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873715"
 ---
-# <a name="stopmacro-macro-action"></a>DetenerMacro (acción de macro)
+# <a name="stopmacro-macro-action"></a>Acción de Macro DetenerMacro
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede utilizar la acción **DetenerMacro** para detener la macro que se está ejecutando.
 

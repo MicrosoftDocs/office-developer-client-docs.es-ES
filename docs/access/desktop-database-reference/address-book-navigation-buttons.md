@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d0a6409bcdeca211c3badb1ca7918d3d34bc3f1f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603948"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869025"
 ---
 # <a name="address-book-navigation-buttons"></a>Botones de desplazamiento por la Libreta de direcciones
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
-<<<<<<< Aplicación HEAD la libreta de direcciones muestra los botones de navegación en la parte inferior de la página Web. Puede utilizar estos botones para desplazarse por los datos de la cuadrícula HTML seleccionando la primera o la última fila de datos o las filas adyacentes a la selección actual.
-=== La aplicación de la libreta de direcciones muestra los botones de navegación en la parte inferior de la página Web. Puede utilizar estos botones para desplazarse por los datos de la cuadrícula HTML seleccionando la primera o la última fila de datos o las filas adyacentes a la selección actual.
->>>>>>> master
+La aplicación de la libreta de direcciones muestra los botones de navegación en la parte inferior de la página Web. Puede utilizar estos botones para desplazarse por los datos de la cuadrícula HTML seleccionando la primera o la última fila de datos o las filas adyacentes a la selección actual.
 
 ## <a name="navigation-sub-procedures"></a>Procedimientos (Sub) de desplazamiento
 

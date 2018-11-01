@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm159503
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89c29d18e21a28448e03fee763b4087bf623d5a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8a0ca9d2dde2ae5d39fb9159655f37b5140eee3e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483410"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868024"
 ---
 # <a name="exportwithformatting-macro-action"></a>ExportarConFormato (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **ExportarConFormato** a fin de ejecutar la salida de los datos del objeto de base de datos de Microsoft Access especificado (una hoja de datos, un formulario, un informe, un módulo o una página de acceso a datos) en varios formatos de salida.
 

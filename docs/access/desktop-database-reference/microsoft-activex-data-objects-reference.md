@@ -1,21 +1,21 @@
 ---
-title: Referencia de Microsoft ActiveX Data Objects
+title: Referencia de objetos de datos ActiveX de Microsoft
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a774dc4ee20e1f97e2b77d8835abb0524881e465
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606762"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871433"
 ---
-# <a name="microsoft-activex-data-objects-reference"></a>Referencia de Microsoft ActiveX Data Objects
+# <a name="microsoft-activex-data-objects-reference"></a>Referencia de objetos de datos ActiveX de Microsoft
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 ## <a name="purpose"></a>Propósito
 
@@ -23,9 +23,7 @@ Microsoft ActiveX Data Objects (ADO) permite a las aplicaciones cliente el acces
 
 ## <a name="rds"></a>RDS
 
-<<<<<<< HEAD ADO también las características de servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
-=== ADO también incluye el servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
->>>>>>> master
+ADO también incluye el servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
 
 ## <a name="ado-md"></a>ADO MD
 

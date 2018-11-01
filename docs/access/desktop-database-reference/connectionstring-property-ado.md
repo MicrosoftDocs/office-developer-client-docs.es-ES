@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: ConnectionString (propiedad) (ADO) TOCTitle: ConnectionString (propiedad) (ADO) === título: ConnectionString (propiedad, ADO) TOCTitle: ConnectionString (propiedad, ADO)
->>>>>>> Master ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15) ms:contentKeyID: ms.date 48547627: 18/09/2015 mtps_version: Office.15
+title: ConnectionString (propiedad, ADO)
+TOCTitle: ConnectionString property (ADO)
+ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
+ms:contentKeyID: 48547627
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 48e8998676a9c96bc7a6820d765a8b17a9dfafef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882801"
 ---
-
-<<<<<<< HEAD
 # <a name="connectionstring-property-ado"></a>ConnectionString (propiedad, ADO)
-=======
-# <a name="connectionstring-property-ado"></a>ConnectionString (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica la información utilizada para establecer una conexión con un origen de datos.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **String**.
 

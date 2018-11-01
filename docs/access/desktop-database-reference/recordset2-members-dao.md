@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fd3d9ad8dd8dc16587a59a0a24b57543c92288
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484575"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878426"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto Recordset2 representa los registros de una tabla base o los registros resultantes de la ejecución de una consulta.
 
@@ -241,7 +241,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filtro</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>Establece o devuelve un valor que determina los registros incluidos en un objeto <strong>Recordset</strong> abierto posteriormente (solo en áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -317,7 +317,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="recordset2-type-property-dao.md">Tipo de</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">

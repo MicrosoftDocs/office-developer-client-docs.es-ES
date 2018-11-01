@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f45bb8e148fe2ba252b2620d41685006302cfdb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3e1799e5e40ffa3ffcd6698900b8678b309696e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484141"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885160"
 ---
 # <a name="operation-of-non-parameterized-commands"></a>Funcionamiento de comandos no parametrizados
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Para comandos no parametrizados, durante la ejecución del comando, se ejecutan todos los comandos de proveedor y se crean los **conjuntos de registros**. Si el comando se ejecuta sincrónicamente, todos los **conjuntos de registros** se llenarán completamente. Si se seleccionó un modo de llenado asincrónico, el estado relleno de los **conjuntos de registros** dependerá del modo de llenado y del tamaño de los **conjuntos de registros**.
 

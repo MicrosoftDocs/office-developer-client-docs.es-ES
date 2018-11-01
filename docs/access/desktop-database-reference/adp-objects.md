@@ -6,28 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)
 ms:contentKeyID: 52071277
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb23156ec26ac4302e77b2abe6127605c7fcf204
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52c60e3ad564307985e9322bbf470d5113a595bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484975"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884593"
 ---
 # <a name="adp-objects"></a>Objetos de ADP
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
-  - [CopiarArchivoDeBaseDeDatos (acción de macro)](copydatabasefile-macro-action.md)
+  - [Acción de Macro CopiarArchivoDeBaseDeDatos](copydatabasefile-macro-action.md)
 
-  - [AbrirDiagrama (acción de macro)](opendiagram-macro-action.md)
+  - [Acción de Macro AbrirDiagrama](opendiagram-macro-action.md)
 
-  - [AbrirFunción (acción de macro)](openfunction-macro-action.md)
+  - [Acción de Macro AbrirFunción](openfunction-macro-action.md)
 
-  - [AbrirProcedimientoAlmacenado (acción de macro)](openstoredprocedure-macro-action.md)
+  - [Acción de Macro AbrirProcedimientoAlmacenado](openstoredprocedure-macro-action.md)
 
-  - [AbrirVista (acción de macro)](openview-macro-action.md)
+  - [Acción de Macro AbrirVista](openview-macro-action.md)
 
   - [TransferirBaseDeDatosSQL (acción de macro)](transfersqldatabase-macro-action.md)
 

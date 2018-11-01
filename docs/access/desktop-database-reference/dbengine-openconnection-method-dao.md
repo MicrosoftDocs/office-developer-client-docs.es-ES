@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3110bd89b0dc56b13a42c7152465c0f9b39e3175
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 959291193b8606ce223e6ad1a20c17895b136a13
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607049"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876795"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>DBEngine.OpenConnection Method (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -74,11 +74,7 @@ ms.locfileid: "25607049"
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
-=======
-### <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Connection
 

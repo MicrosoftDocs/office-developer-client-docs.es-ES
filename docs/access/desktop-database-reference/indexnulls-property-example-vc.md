@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad IndexNulls (VC ++) TOCTitle: ejemplo de propiedad IndexNulls (VC ++) === título: ejemplo de propiedad IndexNulls (VC ++) TOCTitle: ejemplo de propiedad IndexNulls (VC ++)
->>>>>>> Master ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15) ms:contentKeyID: ms.date 48543039: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad IndexNulls (VC++)
+TOCTitle: IndexNulls property example (VC++)
+ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
+ms:contentKeyID: 48543039
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f91883349a39a5674459328d5335cc892e0bb79
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877243"
 ---
-
-<<<<<<< HEAD
-# <a name="indexnulls-property-example-vc"></a>Ejemplo de propiedad IndexNulls (VC++)
-=======
-# <a name="indexnulls-property-example-vc"></a>Ejemplo de propiedad IndexNulls (VC ++)
->>>>>>> master
+# <a name="indexnulls-property-example-vc"></a>Ejemplo de la propiedad IndexNulls (VC++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo, se muestra la propiedad [IndexNulls](indexnulls-property-adox.md) de un [índice](index-object-adox.md). El código crea un nuevo índice y establece el valor de **IndexNulls** en función de valores especificados por el usuario. A continuación, se anexa el **índice** a la [tabla](table-object-adox.md) de **empleados** en el [catálogo](catalog-object-adox.md)de *Northwind* . El nuevo **índice** se aplica a un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees** y el **conjunto de registros** se abre. Se añade un nuevo registro a la tabla **Employees**, con valor **Nulo** en el campo indizado. Que el nuevo registro se muestre o no depende de la configuración de la propiedad **IndexNulls**.
 

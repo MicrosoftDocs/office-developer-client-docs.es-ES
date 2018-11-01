@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
 ms:contentKeyID: 48543381
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: fc2c41ddd672ff303584762f6091bab4c128de99
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5c42b703536e931405325d3a91219a148e6580d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862698"
+ms.locfileid: "25873292"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset](recordset-object-ado.md).
 

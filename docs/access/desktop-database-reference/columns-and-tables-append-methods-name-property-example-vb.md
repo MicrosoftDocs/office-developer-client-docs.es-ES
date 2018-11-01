@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: columnas y tablas de métodos Append, TOCTitle de ejemplo de la propiedad de nombre (VB): columnas y tablas de métodos Append, ejemplo de propiedad de nombre (VB) === título: columnas y tablas métodos Append, nombre de la propiedad (VB) TOCTitle: Columnas y tablas métodos Append, nombre de la propiedad (VB)
->>>>>>> Master ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15) ms:contentKeyID: ms.date 48544238: 18/09/2015 mtps_version: Office.15
+title: Columnas y tablas métodos Append, nombre de la propiedad (VB)
+TOCTitle: Columns and Tables Append Methods, Name property example (VB)
+ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
+ms:contentKeyID: 48544238
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f017092a5bd68a4fbde7cc1a7ceab9ccf3ff2900
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872560"
 ---
-
-<<<<<<< HEAD
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Ejemplo de métodos Append de Columns y Tables, propiedad Name (VB)
-=======
 # <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columnas y tablas métodos Append, nombre de la propiedad (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El código siguiente muestra cómo crear una tabla nueva.
 

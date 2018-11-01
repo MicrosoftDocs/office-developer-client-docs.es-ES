@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7863f8500a81014f3c70b5547fb363c46803f4f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ee4878a742454eb1b02f4b9a45c14ad79097c46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485580"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876263"
 ---
 # <a name="before-delete-macro-event"></a>Eliminación previa (evento de macro)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El evento **Eliminación previa** se produce cuando se elimina un registro, pero antes de confirmar el cambio.
 

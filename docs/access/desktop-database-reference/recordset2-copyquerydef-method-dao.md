@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e70093a6678a61874462ec3517f6424e5da79f71
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d65f46433aa3071ce9709f1c3841dda45e02a5b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605586"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870390"
 ---
 # <a name="recordset2copyquerydef-method-dao"></a>Recordset2.CopyQueryDef Method (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 Devuelve un objeto **[QueryDef](querydef-object-dao.md)** que es una copia del **objeto QueryDef** utilizado para crear el objeto **[Recordset](recordset-object-dao.md)** representado por el marcador de posición de recordset (sólo áreas de trabajo de Microsoft Access). .
 
@@ -30,11 +30,7 @@ Devuelve un objeto **[QueryDef](querydef-object-dao.md)** que es una copia del *
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
-=======
-### <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Objeto QueryDef
 

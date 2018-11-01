@@ -1,16 +1,22 @@
 ---
-título: fila (propiedad) - ActiveX Data Objects (ADO) <<<<<<< TOCTitle HEAD: fila (propiedad) (ADO) === TOCTitle: fila (propiedad, ADO)
->>>>>>> Master ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15) ms:contentKeyID: ms.date 48543562: 18/09/2015 mtps_version: Office.15
+title: Fila (propiedad) - ActiveX Data Objects (ADO)
+TOCTitle: Row property (ADO)
+ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
+ms:contentKeyID: 48543562
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7578a00719946450e840080c21284784a27be170
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870950"
 ---
-
-<<<<<<< HEAD
 # <a name="row-property-ado"></a>Row (propiedad, ADO)
-=======
-# <a name="row-property-ado"></a>Fila (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
@@ -32,11 +38,7 @@ Poner HRESULT\_fila (\[en\] IUnknown\* pRow);
 
   - Un objeto **Row** de OLE DB.
 
-<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
-=======
-## <a name="return-values"></a>Valores devueltos
->>>>>>> master
 
 Este método de propiedad devuelve los valores estándar HRESULT, incluidos S\_Aceptar y E\_producirá un error.
 

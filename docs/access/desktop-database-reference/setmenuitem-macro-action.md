@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d6b5a91e9aa2f0c729a7fce221c859eb0cecc290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d7a7de3d627dacfa0ca014a80ea037d0728220d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483864"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873568"
 ---
 # <a name="setmenuitem-macro-action"></a>EstablecerElementoDelMenú (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La acción **EstablecerElementoDelMenú** sirve para establecer el estado de los elementos de menú (habilitado o deshabilitado, seleccionado o no seleccionado) en los menús globales o personalizados de la ficha **Complementos**.
 

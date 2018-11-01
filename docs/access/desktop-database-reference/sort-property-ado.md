@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: ordenar (propiedad) (ADO) TOCTitle: ordenar (propiedad) (ADO) === título: ordenar (propiedad, ADO) TOCTitle: ordenar (propiedad, ADO)
->>>>>>> Master ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15) ms:contentKeyID: ms.date 48548652: 18/09/2015 mtps_version: Office.15
+title: Sort (propiedad, ADO)
+TOCTitle: Sort property (ADO)
+ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
+ms:contentKeyID: 48548652
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ebd515d2812ce453711c2b6519b1875250911d1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886609"
 ---
-
-<<<<<<< HEAD
 # <a name="sort-property-ado"></a>Sort (propiedad, ADO)
-=======
-# <a name="sort-property-ado"></a>Sort (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica uno o más nombres de campo por los que se ordena el objeto [Recordset](recordset-object-ado.md), así como si el orden es ascendente o descendente.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **String** que indica los nombres de campo del objeto **Recordset** que hay que ordenar. Cada nombre está separado por una coma y va seguido de forma opcional por un espacio en blanco y la palabra clave, **ASC**, que ordena el campo en orden ascendente o **DESC**, que lo hace por orden descendente. De forma predeterminada, si no se especifica palabra clave, el campo se ordena de forma ascendente.
 

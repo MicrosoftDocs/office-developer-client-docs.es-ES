@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192460(v=office.15)
 ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f626dd61782baed2e46aa931891a172fc53c1bde
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 093313028822bebea26fbf86dfc94063e5512e14
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485412"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873379"
 ---
 # <a name="logevent-macro-action"></a>RegistrarEvento (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La acción **RegistrarEvento** escribe información en la tabla de sistema **USysApplicationLog**.
 
