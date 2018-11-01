@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: comando y ejemplo de las propiedades CommandText (VB) TOCTitle: comando y ejemplo de las propiedades CommandText (VB) === título: ejemplo de propiedades comando y CommandText (VB) TOCTitle: comando y CommandText ejemplo de las propiedades (VB)
->>>>>>> Master ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: ms.date 48545462: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de propiedades Command y CommandText (VB)
+TOCTitle: Command and CommandText properties example (VB)
+ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
+ms:contentKeyID: 48545462
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: e19ac7517e548f1594c0b525671e6aff66eef72c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888513"
 ---
-
-<<<<<<< HEAD
-# <a name="command-and-commandtext-properties-example-vb"></a>Ejemplo de propiedades Comando y CommandText (VB)
-=======
-# <a name="command-and-commandtext-properties-example-vb"></a>Ejemplo de propiedades comando y CommandText (VB)
->>>>>>> master
+# <a name="command-and-commandtext-properties-example-vb"></a>Ejemplo de propiedades Command y CommandText (VB)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de un procedimiento.
 

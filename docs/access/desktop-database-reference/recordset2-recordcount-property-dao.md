@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052890
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 999cebd7fa038d3efeeac963ba6844545a41373a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 94328c10b2416d660de325fc3a6de316b08c627a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486687"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885916"
 ---
 # <a name="recordset2recordcount-property-dao"></a>Recordset2.RecordCount Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Devuelve el número de registros a los que se tuvo acceso en un objeto **[Recordset](recordset-object-dao.md)**, o el número total de registros en un objeto **Recordset** u objeto **[TableDef](tabledef-object-dao.md)** tipo tabla. **Long** de solo lectura.
 

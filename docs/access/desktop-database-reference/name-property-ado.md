@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: nombre (propiedad) (ADO) TOCTitle: nombre (propiedad) (ADO) === título: nombre (propiedad, ADO) TOCTitle: Name (propiedad, ADO)
->>>>>>> Master ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15) ms:contentKeyID: ms.date 48544683: 18/09/2015 mtps_version: Office.15
+title: Name (propiedad, ADO)
+TOCTitle: Name property (ADO)
+ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
+ms:contentKeyID: 48544683
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8be8e1dcb2defacffda92e4a6f60e0c7f7a8f52d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882556"
 ---
-
-<<<<<<< HEAD
 # <a name="name-property-ado"></a>Name (propiedad, ADO)
-=======
-# <a name="name-property-ado"></a>Nombre (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el nombre de un objeto.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **String** que indica el nombre de un objeto.
 

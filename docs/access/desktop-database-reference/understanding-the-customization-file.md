@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5bd19a1cec1e9618586b25b0b5cdf654cd1a5fdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5c764c543c3d8734a47927d702daca1552e497b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484313"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879476"
 ---
 # <a name="understanding-the-customization-file"></a>Introducción al archivo de personalización
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Cada encabezado de sección en el archivo de personalización consta de corchetes (**\[**) que contiene un tipo y un parámetro. Los cuatro tipos de sección vienen indicados por las cadenas literales **connect**, **sql**, **userlist** o **logs**. El parámetro es la cadena literal, el valor predeterminado, un identificador especificado por el usuario o nada.
 

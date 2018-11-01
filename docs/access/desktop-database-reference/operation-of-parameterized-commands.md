@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42f0e8ffc7472dbf8a8c03fa320d3ae2b4a2e21b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ae1b0545ac647b0034b0d24cac1a653cfeb4b7e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486622"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883851"
 ---
 # <a name="operation-of-parameterized-commands"></a>Funcionamiento de comandos parametrizados
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Si se trabaja con un **conjunto de registros** secundario grande, especialmente en comparación con el tamaño del **conjunto de registros** principal, pero sólo se necesita obtener acceso a unos pocos capítulos secundarios, podría resultar más eficaz utilizar un comando parametrizado.
 

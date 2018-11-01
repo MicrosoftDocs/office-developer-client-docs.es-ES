@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861455"
+ms.locfileid: "25888037"
 ---
 # <a name="appendix-a-providers"></a>Apéndice A: Proveedores
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 En esta sección se habla sobre tres tipos de proveedores: proveedores de datos, de servicios y componentes de servicios. Los proveedores se clasifican en dos categorías: aquellos que proporcionan datos y aquellos que proporcionan servicios. Un *proveedor de datos* posee sus propios datos y los expone en un formato de tabla en la aplicación del usuario. Un *proveedor de servicios* encapsula un servicio al producir y consumir datos, con lo que aumentan las características de las aplicaciones ADO del usuario. Un proveedor de servicios también puede definirse como un *componente de servicios*, que debe trabajar en cooperación con otros proveedores o componentes de servicios.

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: Charset (propiedad) (ADO) TOCTitle: Charset (propiedad) (ADO) === título: Charset (propiedad, ADO) TOCTitle: Charset (propiedad, ADO)
->>>>>>> Master ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID: ms.date 48544551: 18/09/2015 mtps_version: Office.15
+title: Charset (propiedad, ADO)
+TOCTitle: Charset property (ADO)
+ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
+ms:contentKeyID: 48544551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 46d9016e84b507526fa36202169f532e9ee7d738
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887792"
 ---
-
-<<<<<<< HEAD
 # <a name="charset-property-ado"></a>Charset (propiedad, ADO)
-=======
-# <a name="charset-property-ado"></a>CharSet (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el juego de caracteres al que debe convertirse el contenido de un objeto [Stream](stream-object-ado.md) de texto para su almacenamiento en el búfer interno de objetos Stream.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **String** que especifica el juego de caracteres al que se va a convertir el contenido del objeto **Stream**. El valor predeterminado es "Unicode". Los valores permitidos son cadenas típicas que se pasan a través de la interfaz como cadenas de juegos de caracteres de Internet (por ejemplo, "iso-8859-1", "Windows-1252", etc.). Para obtener una lista de las cadenas de conjunto de caracteres que se conoce por un sistema, vea las subclaves de HKEY\_clases\_raíz\\MIME\\base de datos\\Charset en el registro de Windows.
 

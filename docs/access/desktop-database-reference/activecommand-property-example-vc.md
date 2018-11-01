@@ -1,16 +1,21 @@
 ---
-<<<<<<< Título HEAD: TOCTitle de ejemplo de la propiedad ActiveCommand (VC ++): ms:assetid de ejemplo de la propiedad ActiveCommand (VC ++): 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: ms.date 48544157: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la Propiedad ActiveCommand (VC++)
+TOCTitle: ActiveCommand property example (VC++)
+ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
+ms:contentKeyID: 48544157
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 8db00f46c657dd2b296963b7be50269b4699d171
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882626"
 ---
-
 # <a name="activecommand-property-example-vc"></a>Ejemplo de la Propiedad ActiveCommand (VC++)
 
-=== título: ejemplo de la propiedad ActiveCommand (VC ++) TOCTitle: ms:assetid de ejemplo (VC ++) de propiedad ActiveCommand: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: ms.date 48544157: 17/10/2018 mtps_version: Office.15
----
-
-# <a name="activecommand-property-example-vc"></a>Ejemplo de la propiedad ActiveCommand (VC ++)
->>>>>>> master
-
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).
 

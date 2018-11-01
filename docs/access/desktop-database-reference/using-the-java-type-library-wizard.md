@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931434288cbc14da5d3d9d9d53cd250555c7a767
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 233e1a9e6237500b3d13e3234e7c6ddf4d556abc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486465"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884138"
 ---
 # <a name="using-the-java-type-library-wizard"></a>Utilizar el Asistente para bibliotecas de tipos de Java
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El Asistente para bibliotecas de tipos de Java es una característica de Visual J++ 1.x integrada en el menú **Herramientas** del entorno de desarrollo. Su propósito es buscar en una biblioteca de tipos y crear una interfaz Java que permita obtener acceso a objetos COM. Para Visual J++ 6.0, el Asistente para bibliotecas de tipos de Java se ha reemplazado con [ADO para Windows Foundation Classes](ado-wfc-programming.md).
 

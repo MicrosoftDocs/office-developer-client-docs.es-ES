@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f8a1ee45227518cee9b279e31f25d253f59bf1f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65ba3b34ca70ac94f771cfc8545cf5e703e769b9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485479"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885958"
 ---
 # <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 Establece o devuelve un valor que especifica el nombre de una tabla vinculada o el nombre de una tabla base (únicamente áreas de trabajo de Microsoft Access).
 

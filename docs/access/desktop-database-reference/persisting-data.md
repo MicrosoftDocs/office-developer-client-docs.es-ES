@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fdac02c2293088c60c3346b333b6619777b9a18
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f4db6e157ff5999dbf8892029840529c2306ef4e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862915"
+ms.locfileid: "25869935"
 ---
 # <a name="persisting-data"></a>Persistencia de datos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El uso de equipos informáticos portátiles ha generado la necesidad de aplicaciones que se puedan ejecutar tanto si se está conectado como si no se está. ADO ha agregado esta funcionalidad ofreciendo al programador la posibilidad de guardar un **conjunto de registros** de cursor de cliente en disco y de volverlo a cargar posteriormente.
 

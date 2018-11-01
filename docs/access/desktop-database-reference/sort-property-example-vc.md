@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad Sort (VC ++) TOCTitle: ejemplo de la propiedad Sort (VC ++) === título: ejemplo de la propiedad Sort (VC ++) TOCTitle: ejemplo de la propiedad Sort (VC ++)
->>>>>>> Master ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: ms.date 48543259: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Sort (VC++)
+TOCTitle: Sort property example (VC++)
+ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
+ms:contentKeyID: 48543259
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881219"
 ---
-
-<<<<<<< HEAD
 # <a name="sort-property-example-vc"></a>Ejemplo de la propiedad Sort (VC++)
-=======
-# <a name="sort-property-example-vc"></a>Ejemplo de la propiedad Sort (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos **Pubs**. Una rutina de la utilidad secundaria imprime cada fila.
 

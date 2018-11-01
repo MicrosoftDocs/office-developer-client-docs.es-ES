@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad CacheSize (JScript) TOCTitle: ejemplo de la propiedad CacheSize (JScript) === título: ejemplo de la propiedad CacheSize (JScript) TOCTitle: ejemplo de la propiedad CacheSize (JScript)
->>>>>>> Master ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID: ms.date 48547473: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad CacheSize (JScript)
+TOCTitle: CacheSize property example (JScript)
+ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
+ms:contentKeyID: 48547473
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab8a8f3aa1bb968ebed86c5718c4f236a9d4fc3b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887799"
 ---
-
-<<<<<<< HEAD
 # <a name="cachesize-property-example-jscript"></a>Ejemplo de la propiedad CacheSize (JScript)
-=======
-# <a name="cachesize-property-example-jscript"></a>Ejemplo de la propiedad CacheSize (JScript)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y, a continuación, guárdelo como **CacheSizeJS.asp**.
 
@@ -23,11 +29,7 @@ En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) p
  
 <HTML> 
 <HEAD> 
-<<<<<<< HEAD
-<title>CacheSize Property Example (JScript)</title> 
-=======
 <title>CacheSize property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -51,11 +53,7 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
-<<<<<<< HEAD
-<h1>CacheSize Property Example (JScript)</h1> 
-=======
 <h1>CacheSize property example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

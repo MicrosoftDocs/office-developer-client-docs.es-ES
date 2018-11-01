@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 533ac6aff194296a9e4470e01672a8338dcbc318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18e31837027f9c861480b738de5e77a0b5e2d13b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486442"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867548"
 ---
 # <a name="runmacro-macro-action"></a>EjecutarMacro (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **EjecutarMacro** para ejecutar una macro. La macro puede estar dentro de un grupo de macros.
 

@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bf2bbd8e1bf5c7c51d93e0669becbfd093e29994
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 877be95d2cd65b020946f125714e0229650d5ec5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486030"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871888"
 ---
 # <a name="indexunique-property-dao"></a>Index.Unique Property (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa un índice (clave) único para una tabla (únicamente áreas de trabajo de Microsoft Access).
 

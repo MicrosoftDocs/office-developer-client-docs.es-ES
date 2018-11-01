@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad Count (VC ++) TOCTitle: ejemplo de la propiedad Count (VC ++) === título: ejemplo de la propiedad Count (VC ++) TOCTitle: ejemplo de la propiedad Count (VC ++)
->>>>>>> Master ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15) ms:contentKeyID: ms.date 48545134: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Count (VC++)
+TOCTitle: Count property example (VC++)
+ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
+ms:contentKeyID: 48545134
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7a2761c34e71664d97118766ddfd8121542b67c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867226"
 ---
-
-<<<<<<< HEAD
 # <a name="count-property-example-vc"></a>Ejemplo de la propiedad Count (VC++)
-=======
-# <a name="count-property-example-vc"></a>Ejemplo de la propiedad Count (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Count](count-property-ado.md) con dos colecciones en la base de datos de ***los empleados*** . La propiedad obtiene el número de objetos de cada colección y establece el límite superior de los bucles que enumeran estas colecciones. Otra forma de enumerar estas colecciones sin utilizar la propiedad **Count** sería utilizar instrucciones.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39152be2c53dc0de9bc1bcb21fee505fcb9106dc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 818a38c4c7d11442b1deb7ddeef72a828283c897
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484503"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887337"
 ---
 # <a name="filtervalue-property-rds"></a>FilterValue (propiedad, RDS)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Indica el valor mediante el que se van a filtrar registros.

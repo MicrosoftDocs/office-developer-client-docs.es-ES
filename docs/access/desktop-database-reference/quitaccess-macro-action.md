@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5fa3b7ffc97f69b1ebc85799a8b2a27b6acc1d90
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d26f8d32e0df350c52ea22dfec44ac7a24c9ecc9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483507"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870754"
 ---
 # <a name="quitaccess-macro-action"></a>SalirDeAccess (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **SalirDeAccess** para salir de Microsoft Access. La acción **SalirDeAccess** también puede especificar una de las varias opciones para guardar objetos de base de datos antes de salir de Access.
 

@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e1e3919cbb47ca00d6fe9f399cba0c77e91417e7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fb530cc31756205e736422f28e7ece3f4cd79440
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606819"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885790"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation Method (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trabajo de Microsoft Access).
 
@@ -75,11 +75,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
-=======
-### <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Relation
 

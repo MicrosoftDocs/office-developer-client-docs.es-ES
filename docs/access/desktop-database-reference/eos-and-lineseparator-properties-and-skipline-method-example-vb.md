@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf46c6aa2adcf49fa1e51580c83a92611b25111e
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 9a48792379f91e7cdc02653898ee880caa429fe5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862180"
+ms.locfileid: "25869214"
 ---
 # <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>Ejemplo del método EOS y LineSeparator propiedades y SkipLine (VB)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra cómo manipular secuencias de texto de línea en línea. Se muestra el efecto del cambio del separador de línea de retorno de carro o salto de línea predeterminados (**adCRLF**) por salto de línea (**adLF**) o retorno de carro (**adCR**) simplemente.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2ff2381626e8cf81aa95ee9d49f9396bd4b0316
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 87bba22a6563c92e78b5dff3f737c0963de51cb5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602723"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867394"
 ---
 # <a name="createobject-method-rds"></a>CreateObject (método, RDS)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Crea el proxy para el objeto de negocio de destino y devuelve un puntero al mismo. El proxy empaqueta y calcula las referencias de los datos en el código auxiliar de servidor para permitir la comunicación con el objeto de negocio y enviar solicitudes y datos a través de Internet. Para los objetos componentes en proceso, no se utiliza ningún proxy; solo se proporciona un puntero al objeto.
@@ -73,17 +73,9 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 
   - *awebsrvr* o *computername*
 
-<<<<<<< HEAD
-  - Valor de tipo **String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.
-
-## <a name="remarks"></a>Comentarios
-
-<a name="the-http-protocol-is-the-standard-web-protocol-https-is-a-secure-web-protocol-use-the-dcom-protocol-when-running-a-local-area-network-without-http-the-in-process-protocol-is-a-local-dynamic-link-library-dll-it-does-not-use-a-network"></a>El *protocolo HTTP* es el protocolo Web estándar; *HTTPS* es un protocolo Web seguro. Usar el *protocolo DCOM* cuando ejecute una red de área local sin HTTP. El protocolo *en proceso* es una biblioteca de vínculos dinámicos (DLL); local no se usa una red.
-=======
   - Un valor de **tipo String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.
 
 ## <a name="remarks"></a>Comentarios
 
 El *protocolo HTTP* es el protocolo web estándar; *HTTPS* es un protocolo web seguro. Usar el *protocolo DCOM* cuando ejecute una red de área local sin HTTP. El protocolo *en proceso* es una biblioteca de vínculos dinámicos (DLL); local no se usa una red.
->>>>>>> master
 

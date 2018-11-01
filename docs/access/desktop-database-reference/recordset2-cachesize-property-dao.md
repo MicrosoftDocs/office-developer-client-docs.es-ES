@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0c24e1bbf2ea3cf35211647512aebc298e7ce728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f314644d54c7a6361cf196f4e3c2a59df8af271d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485425"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872245"
 ---
 # <a name="recordset2cachesize-property-dao"></a>Recordset2.CacheSize Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve el número de registros recuperados de un origen de datos ODBC que se almacenarán localmente en caché. **Long** de lectura y escritura.
 

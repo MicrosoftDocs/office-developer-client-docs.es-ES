@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ConnectionString, ConnectionTimeout y ejemplo de las propiedades de estado (VC ++) TOCTitle: ConnectionString, ConnectionTimeout y ejemplo de las propiedades de estado (VC ++) === título: ConnectionString, ConnectionTimeout y ejemplo de las propiedades de estado (VC ++) TOCTitle: ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VC ++)
->>>>>>> Master ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15) ms:contentKeyID: ms.date 48544254: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VC++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VC++)
+ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
+ms:contentKeyID: 48544254
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ad2bb36a6e3b714a1fb5730978877d09637d141c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878909"
 ---
-
-<<<<<<< HEAD
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VC++)
-=======
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestran diferentes formas de utilizar la propiedad [ConnectionString](connectionstring-property-ado.md) para abrir un objeto [Connection](connection-object-ado.md). También se utilizan la propiedad [ConnectionTimeout](connectiontimeout-property-ado.md) para establecer un período de espera y la propiedad [State](state-property-ado.md) para comprobar el estado de las conexiones. Se requiere la función GetState para que pueda ejecutarse este procedimiento.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++) === título: ejemplo de la propiedad MarshalOptions (VJ ++) TOCTitle: ejemplo de la propiedad MarshalOptions (VJ ++)
->>>>>>> Master ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15) ms:contentKeyID: ms.date 48544313: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad MarshalOptions (VJ++)
+TOCTitle: MarshalOptions property example (VJ++)
+ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
+ms:contentKeyID: 48544313
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfb62f996bc09446445d8ef2cc49644fa99c1a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883193"
 ---
-
-<<<<<<< HEAD
 # <a name="marshaloptions-property-example-vj"></a>Ejemplo de la propiedad MarshalOptions (VJ++)
-=======
-# <a name="marshaloptions-property-example-vj"></a>Ejemplo de la propiedad MarshalOptions (VJ ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.
 

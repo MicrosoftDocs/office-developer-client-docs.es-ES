@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: filtro (propiedad) (ADO) TOCTitle: filtro (propiedad) (ADO) === título: filtrar (propiedad, ADO) TOCTitle: filtrar (propiedad, ADO)
->>>>>>> Master ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15) ms:contentKeyID: ms.date 48545053: 18/09/2015 mtps_version: Office.15
+title: Filter (propiedad, ADO)
+TOCTitle: Filter property (ADO)
+ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
+ms:contentKeyID: 48545053
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888667"
 ---
-
-<<<<<<< HEAD
 # <a name="filter-property-ado"></a>Filter (propiedad, ADO)
-=======
-# <a name="filter-property-ado"></a>Filter (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica un filtro para datos en un objeto [ Recordset ](recordset-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **Variant** que puede contener uno de los siguientes:
 

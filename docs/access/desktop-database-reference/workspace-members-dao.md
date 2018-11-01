@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04dd82fcdb3bd9be0581ea5172429960769b31af
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ec5e11a8bdc33923ca92f96833605338e9f19566
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486614"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889997"
 ---
 # <a name="workspace-members-dao"></a>Workspace Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto Workspace define una sesión con nombre para un usuario. Contiene bases de datos abiertas y proporciona mecanismos para transacciones simultáneas y, en áreas de trabajo de Microsoft Access, compatibilidad con grupos de trabajo seguros.
 
@@ -121,7 +121,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="workspace-type-property-dao.md">Tipo de</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</p></td>
 </tr>
 </tbody>

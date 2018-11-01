@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248848(v=office.15)
 ms:contentKeyID: 48543194
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dcad4823d39408d2404a8c3c42022ed7178f5902
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1bd682efcb4a06ff2d49527a7625b9a14519357f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485576"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888205"
 ---
 # <a name="hierarchy-object-ado-md-reference"></a>Hierarchy Object (ADO MD Reference)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Hierarchy (objeto) (ADO MD)](hierarchy-object-ado-md.md)
+  - [Objeto Hierarchy (ADO MD)](hierarchy-object-ado-md.md)
 
   - [Hierarchy Properties, Methods, and Events (ADO MD)](hierarchy-properties-methods-and-events-ado-md.md)
 

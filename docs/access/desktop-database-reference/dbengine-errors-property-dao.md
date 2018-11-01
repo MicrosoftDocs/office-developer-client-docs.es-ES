@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053176
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88c1347c66c06810d6a2dac0486bb2a721b0d749
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea36947b9c3c85f2b82f5a9831f62248b3e75fda
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484961"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889626"
 ---
 # <a name="dbengineerrors-property-dao"></a>DBEngine.Errors Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado. Es de solo lectura.
 

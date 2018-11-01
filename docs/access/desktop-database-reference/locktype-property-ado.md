@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: propiedad LockType (ADO) TOCTitle: propiedad LockType (ADO) === título: LockType (propiedad, ADO) TOCTitle: LockType (propiedad, ADO)
->>>>>>> Master ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15) ms:contentKeyID: ms.date 48543589: 18/09/2015 mtps_version: Office.15
+title: LockType (propiedad, ADO)
+TOCTitle: LockType property (ADO)
+ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
+ms:contentKeyID: 48543589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 88657361d6ce5ac168f21f5709bdaf68eeb23b6d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879063"
 ---
-
-<<<<<<< HEAD
 # <a name="locktype-property-ado"></a>LockType (propiedad, ADO)
-=======
-# <a name="locktype-property-ado"></a>LockType (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el tipo de bloqueos colocados en registros durante la modificación.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo [LockTypeEnum](locktypeenum.md). El valor predeterminado es **adLockReadOnly**.
 

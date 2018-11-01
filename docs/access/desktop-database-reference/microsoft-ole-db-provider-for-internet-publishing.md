@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7221c6bd0a6e8576237fdf4cbfcabe70620f6af8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603997"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882087"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>OLE DB Provider for Internet Publishing
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Microsoft OLE DB Provider for Internet Publishing permite que ADO obtenga acceso a recursos proporcionados por Microsoft FrontPage o Microsoft Internet Information Server. Los recursos incluyen archivos Web de código fuente como archivos HTML o carpetas Web de Windows 2000.
 
@@ -66,11 +66,7 @@ La cadena consta de estas palabras clave:
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> o <strong>URL</strong></p></td>
-<<<<<<< HEAD
-<td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta Web.</p></td>
-=======
 <td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta web.</p></td>
->>>>>>>patrón
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>

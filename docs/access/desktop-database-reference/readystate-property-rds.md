@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a22099e49489226c7848a54112e7ab5e70b64ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: be07b0ffb983889aa7002406da9c40e13522c5c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603920"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880123"
 ---
 # <a name="readystate-property-rds"></a>ReadyState (propiedad, RDS)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el progreso de un objeto [DataControl](datacontrol-object-rds.md) a medida que recupera datos en su objeto [Recordset](recordset-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve uno de los valores siguientes.
 

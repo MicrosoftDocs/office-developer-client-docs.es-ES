@@ -1,23 +1,25 @@
 ---
-<<<<<<< Título HEAD: ParentURL (propiedad) (ADO) TOCTitle: ParentURL (propiedad) (ADO) === título: ParentURL (propiedad, ADO) TOCTitle: ParentURL (propiedad, ADO)
->>>>>>> Master ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15) ms:contentKeyID: ms.date 48548517: 18/09/2015 mtps_version: Office.15
+title: ParentURL (propiedad, ADO)
+TOCTitle: ParentURL property (ADO)
+ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
+ms:contentKeyID: 48548517
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 29245960ad845587ac8f31931bdd5ce1e39a63c9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885890"
 ---
-
-<<<<<<< HEAD
 # <a name="parenturl-property-ado"></a>ParentURL (propiedad, ADO)
-=======
-# <a name="parenturl-property-ado"></a>ParentURL (propiedad, ADO)
->>>>>>> master
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica una cadena URL absoluta que apunta al objeto [Record](record-object-ado.md) primario del objeto **Record** actual.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve un valor de tipo **String** que indica la dirección URL del objeto **Record** primario.
 

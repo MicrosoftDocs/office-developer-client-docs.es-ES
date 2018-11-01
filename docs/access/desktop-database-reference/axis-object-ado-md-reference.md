@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249239(v=office.15)
 ms:contentKeyID: 48544698
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 724939d90226598b9f70b71bbaad51352d0dc174
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d565310c3ed536a80a973759e252b19f6374d9dd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486195"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889731"
 ---
 # <a name="axis-object-ado-md-reference"></a>Axis Object (ADO MD Reference)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Axis (objeto) (ADO MD)](axis-object-ado-md.md)
+  - [Objeto Axis (ADO MD)](axis-object-ado-md.md)
 
   - [Axis Properties, Methods, and Events (ADO MD)](axis-properties-methods-and-events-ado-md.md)
 

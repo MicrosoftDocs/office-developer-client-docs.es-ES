@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 83ba764fa23c972c93156d418bffcde6f3239145
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863699"
+ms.locfileid: "25889633"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instrucción ALTER TABLE (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Modifica el diseño de una tabla después de que se ha creado con la instrucción [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
@@ -97,12 +97,13 @@ Mediante el uso de la instrucción ALTER TABLE, puede modificar una tabla existe
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-  
+
 - Usar ADD CONSTRAINT para agregar un índice de varios campos. Para obtener más información acerca de los índices de varios campos, vea la [cláusula CONSTRAINT](constraint-clause-microsoft-access-sql.md).
 
 - Usar DROP COLUMN para eliminar un campo. Sólo debe especificar el nombre del campo.
 
 - Usar DROP CONSTRAINT para eliminar un índice de varios campos. Sólo debe especificar el nombre del índice a continuación de la palabra reservada CONSTRAINT.
+
 
 > [!NOTE] 
 > - [!NOTA] No se puede agregar o eliminar más de un campo o índice a la vez.

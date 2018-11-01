@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
 ms:contentKeyID: 48545202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d971b14093dd02204327e6f0ef30a81c6567c5bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b8ce99f7fbedc487f5c5bae98745f1d446c2da3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486563"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867149"
 ---
 # <a name="field2validationtext-property-dao"></a>Field2.ValidationText Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto **Field2** no satisface la regla de validación que especifica el valor de la propiedad **ValidationRule** (sólo para áreas de trabajo de Microsoft Access). **String** de lectura y escritura.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c61cc86fbca68e8c3aca38fd86ed36b8c8f403dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 644eb2e1a8f979451d233bcc5a48f723c25739b0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484802"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888478"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve un marcador que identifica de forma exclusiva el registro actual de un objeto **[Recordset](recordset-object-dao.md)**.
 

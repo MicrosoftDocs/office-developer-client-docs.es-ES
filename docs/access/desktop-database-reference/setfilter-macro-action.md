@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4292ded0638e8dbe3ad56aa835caa9c6541f0432
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606398"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874317"
 ---
 # <a name="setfilter-macro-action"></a>EstablecerFiltro (acción de macro)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede utilizar la acción **EstablecerFiltro** para aplicar un filtro a los registros de la hoja de datos, formulario, informe o tabla que esté activo.
 
@@ -41,19 +41,11 @@ La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nombre del filtro</p></td>
-<<<<<<< HEAD
-<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento WhereCondition es necesario en una base de datos de cliente. En una base de datos de Web, este argumento no está disponible.</p></td>
-</tr>
-<tr class="even">
-<td><p>Condición WHERE</p></td>
-<td><p>Si se proporciona, es una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos web, este argumento es obligatorio.</p></td>
-=======
 <td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento WhereCondition es necesario en una base de datos de cliente. En una base de datos de web, este argumento no está disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos de web, este argumento es necesario.</p></td>
->>>>>>>patrón
 </tr>
 <tr class="odd">
 <td><p>Nombre del control</p></td>

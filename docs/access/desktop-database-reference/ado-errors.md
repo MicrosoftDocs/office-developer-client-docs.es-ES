@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 66b0d7ca54723755bcdb6e24726f75836cd9716f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861235"
+ms.locfileid: "25885643"
 ---
 # <a name="ado-errors"></a>Errores de ADO
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Los errores de ADO se notifican a su programa como errores en tiempo de ejecución. Puede usar el mecanismo de interceptación de errores de su lenguaje de programación para interceptarlos y controlarlos. Por ejemplo, en Visual Basic, use la instrucción **On Error**. En Visual J++, use un bloque **try-catch**. En Visual C++, depende del método que esté usando para obtener acceso a las bibliotecas ADO. Con \#importar, utilice un bloque **try-catch** . De lo contrario, los programadores de C++ tienen que recuperar explícitamente el objeto de error llamando a **GetErrorInfo**. El siguiente procedimiento Sub de Visual Basic muestra cómo interceptar un error en ADO:
 
