@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: ConnectionTimeout (propiedad) (ADO) TOCTitle: ConnectionTimeout (propiedad) (ADO) === título: ConnectionTimeout (propiedad, ADO) TOCTitle: ConnectionTimeout (propiedad, ADO)
->>>>>>> Master ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15) ms:contentKeyID: ms.date 48548589: 18/09/2015 mtps_version: Office.15
+title: ConnectionTimeout (propiedad, ADO)
+TOCTitle: ConnectionTimeout property (ADO)
+ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
+ms:contentKeyID: 48548589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab98e60e88a9685f138262a59a83f2b311c636da
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890935"
 ---
-
-<<<<<<< HEAD
 # <a name="connectiontimeout-property-ado"></a>ConnectionTimeout (propiedad, ADO)
-=======
-# <a name="connectiontimeout-property-ado"></a>ConnectionTimeout (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el tiempo que se va a esperar durante el establecimiento de una conexión para que finalice el intento y se genere un error.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **Long** que indica, en segundos, el tiempo que se va a esperar a que se abra la conexión. El valor predeterminado es 15.
 
