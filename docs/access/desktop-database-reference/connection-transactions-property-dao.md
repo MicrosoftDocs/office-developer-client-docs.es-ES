@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
 ms:contentKeyID: 48546225
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bc58041e0d07373686048812fc8ac0f74d22c5a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 56f48478c1a989cb987bad6e7a4cccee84c1d3f8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486070"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874555"
 ---
-# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="1d86c-102">Connection.Transactions Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="1d86c-102">Connection.Transactions Property (DAO)</span></span>
+# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="f1dff-102">Connection.Transactions Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1dff-102">Connection.Transactions Property (DAO)</span></span>
 
 
-<span data-ttu-id="1d86c-103">**Se aplica a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d86c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f1dff-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1dff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1d86c-p101">Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="1d86c-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
+<span data-ttu-id="f1dff-p101">Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="f1dff-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1d86c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1d86c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1dff-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f1dff-106">Syntax</span></span>
 
-<span data-ttu-id="1d86c-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="1d86c-107">*expression* .Transactions</span></span>
+<span data-ttu-id="f1dff-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="f1dff-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="1d86c-108">*expresión* Variable que representa un objeto **Connection** .</span><span class="sxs-lookup"><span data-stu-id="1d86c-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="f1dff-108">*expresión* Variable que representa un objeto **Connection** .</span><span class="sxs-lookup"><span data-stu-id="f1dff-108">*expression* A variable that represents a **Connection** object.</span></span>
 
