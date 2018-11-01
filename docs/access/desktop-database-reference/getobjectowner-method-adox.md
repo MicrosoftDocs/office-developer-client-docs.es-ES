@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249451(v=office.15)
 ms:contentKeyID: 48545585
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e6c2432370f2480484cf1165249bc8573b27372
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 6961cb1de192e480ca68d9688105600ac85c69c9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603115"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874220"
 ---
 # <a name="getobjectowner-method-adox"></a>GetObjectOwner (método, ADOX)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Devuelve el propietario de un objeto de un [catálogo](catalog-object-adox.md).
@@ -25,11 +25,7 @@ Devuelve el propietario de un objeto de un [catálogo](catalog-object-adox.md).
 
 *Propietario* = *catálogo*. GetObjectOwner (*ObjectName*, *ObjectType* \[,*valor de ObjectTypeId*\])
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve un valor **String** que especifica el [nombre](name-property-adox.md) del [usuario](user-object-adox.md) o el [grupo](group-object-adox.md) propietario del objeto.
 

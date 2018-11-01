@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
 ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8e42e11fa2fd9fe3d1b7c09ada65869d609a7df
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f210497a541efa40d8ddf2e5bfd43637706efce8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484876"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867450"
 ---
 # <a name="querydefs-collection-dao"></a>Colección QueryDefs (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 Una colección **QueryDefs** contiene todos los objetos **QueryDef** de un objeto de **Base de datos** que hay en una base de datos de motor de base de datos de Microsoft Access.
 

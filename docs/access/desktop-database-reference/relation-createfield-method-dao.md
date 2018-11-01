@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d86230f99afb95d121ea683ed4324d361b77757
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f2236a36f04f647ee5d18a58f7df54eeafba5399
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602898"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872112"
 ---
 # <a name="relationcreatefield-method-dao"></a>Relation.CreateField Method (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo de Microsoft Access).
 
@@ -66,11 +66,7 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
-=======
-### <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Field
 

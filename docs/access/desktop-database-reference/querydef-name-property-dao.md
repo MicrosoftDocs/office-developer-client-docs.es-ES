@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
 ms:contentKeyID: 48548776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8100910f412c86a9a1ec5b8138d33f75315806f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f3ba50936229c2d59a1fdfa7a6fafe34fd5ca6ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485632"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886231"
 ---
 # <a name="querydefname-property-dao"></a>QueryDef.Name Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Devuelve o establece el nombre del objeto especificado. **String** de lectura y escritura.
 

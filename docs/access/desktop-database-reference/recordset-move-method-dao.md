@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 23de94392fb2d9f1b0106c39f21a8872783b6d7b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2caa468f189e30373e2818b090688ca6f239258d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485744"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870593"
 ---
 # <a name="recordsetmove-method-dao"></a>Recordset.Move Method (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Mueve la posición del registro activo de un objeto **[Recordset](recordset-object-dao.md)**.
 

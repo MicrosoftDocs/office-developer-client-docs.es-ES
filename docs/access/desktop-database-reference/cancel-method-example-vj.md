@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ce7a0429b80cbed0f5abe97dcaa3cbbd0da8be1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 571adee7649f08bc44b26a25ba645668c8594ea9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862516"
+ms.locfileid: "25876096"
 ---
 # <a name="cancel-method-example-vj"></a>Ejemplo del método Cancel (VJ++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.
 

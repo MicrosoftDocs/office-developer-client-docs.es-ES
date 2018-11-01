@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
 ms:contentKeyID: 48548935
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3c5d05c958a30f1ec5782a5dce0dd66ccd5dad4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c362e87f3e962586c2bd821bd6facb35966a77f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483673"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886840"
 ---
-# <a name="using-bookmarks"></a>Utilizar marcadores
+# <a name="using-bookmarks"></a>Uso de marcadores
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 A menudo, es útil volver directamente a un registro específico después de haberse movido por el **conjunto de registros** sin tener que desplazarse por cada registro y comparar valores. Por ejemplo, si se intenta buscar un registro mediante el método **Find** pero la búsqueda no devuelve ningún registro, se le lleva automáticamente a cualquier extremo del **conjunto de registros**. Si su proveedor los admite, se pueden utilizar marcadores para marcar la ubicación propia antes de utilizar el método **Find**, para poder regresar a esa ubicación. Un marcador es un valor de tipo **Variant** que identifica un registro de un **conjunto de registros** de forma exclusiva.
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d6e010ce8db93baaf8faddaeff5ab4dabda6a84
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5e0157bc81e3f7efdb2227b5c5a9e2bc3642a7d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603388"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883956"
 ---
 # <a name="source-property-ado-record"></a>Source (propiedad, Record ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el origen de datos o el objeto representados por el objeto [Record](record-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **Variant** que indica la entidad representada por el objeto **Record**.
 
@@ -40,13 +36,7 @@ Si también se establece la propiedad **ActiveConnection**, la propiedad **Sourc
 
 La propiedad **Source** es de lectura y escritura mientras el objeto **Record** está cerrado y de sólo lectura mientras el objeto **Record** está abierto.
 
-<<<<<<< HEAD
-
 > [!NOTE]
-> <P>[!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obtener más información, vea <A href="absolute-and-relative-urls.md">Direcciones URL absolutas y relativas</A>.</P>
-=======
-> [!NOTE]
-> [!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
->>>>>>> master
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente al [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
 
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250096(v=office.15)
 ms:contentKeyID: 48548054
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1be81e5c76f8744220f1190bef42d303b0bed6d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 02202e27be845906a05db8229d1873a8bb46f51e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863992"
+ms.locfileid: "25879553"
 ---
 # <a name="chapter-1-ado-fundamentals"></a>Capítulo 1: Conceptos básicos de ADO
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Este capítulo es una introducción a la biblioteca ADO. Describe qué se puede hacer con ADO, revisa los objetos de la jerarquía de ADO y presenta una aplicación sencilla de ADO que utiliza muchos de los objetos de ADO para recuperar, modificar y actualizar datos de un origen de datos. Por último, en este capítulo se tratan dos problemas que es importante comprender para escribir aplicaciones de ADO: proveedores OLE DB y errores.
 

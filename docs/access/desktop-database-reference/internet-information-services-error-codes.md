@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d62be19cb472673a4bdafd3574bbe1fcb7b876c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7890bdbd38b790d846b195570a05b55846cdcda9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483544"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879945"
 ---
 # <a name="internet-information-services-error-codes"></a>Códigos de error de Internet Information Services
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En la tabla siguiente se enumeran los códigos de error de Internet Information Services relacionados con el uso del Servicio de datos remoto. Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.
 

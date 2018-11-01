@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 74441e4a13e2cbe6b812b18b2c4ecab1a66dceaf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862537"
+ms.locfileid: "25882773"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopiarArchivoDeBaseDeDatos (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La acción **CopiarArchivoDeBaseDeDatos** se puede usar para realizar una copia de la base de datos de Microsoft SQL Server 7.0 o posterior que está conectada al proyecto de Access. Access desasocia la base de datos actual y, a continuación, adjunta al servidor de destino. Para obtener más información acerca de cómo se desasocia y asocia una base de datos, vea la documentación de SQL Server.
 

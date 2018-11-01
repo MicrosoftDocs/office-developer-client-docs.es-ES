@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249943(v=office.15)
 ms:contentKeyID: 48547536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 626b6d4aadc4326c370da3b9137f8990d5f818d7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 427159a5f9bf73081e459dfe11cdb13dc3969cf0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861480"
+ms.locfileid: "25877334"
 ---
 # <a name="createrecordset-method-example-vb"></a>Ejemplo del método CreateRecordset (VB)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede crear un objeto [Recordset](recordset-object-ado.md) y especificar la información de las columnas. Después, puede insertar datos en el objeto **Recordset**; el conjunto de filas subyacente almacena las inserciones en el búfer.
 

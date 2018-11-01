@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c324923f0e702ad59ac120ea5de2eebcccd260e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2c0cb4c9e4c8dd17098f6d94d83793fbcbc28cef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483320"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869830"
 ---
 # <a name="dynamic-cursors"></a>Cursores dinámicos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Los cursores dinámicos detectan todos los cambios realizados en las filas del conjunto de resultados, independientemente de que los cambios se produzcan desde dentro del cursor o los realicen otros usuarios ajenos al cursor. Todas las instrucciones para inserción, actualización y eliminación realizadas por todos los usuarios se pueden ver a través del cursor. El cursor dinámico puede detectar cualquier cambio realizado en las filas, en el orden y en los valores del conjunto de resultados después de abrirse el cursor. Las actualizaciones realizadas fuera del cursor no son visibles hasta que se confirman (a menos que el nivel de aislamiento de la transacción del cursor esté establecido en "no guardados").
 

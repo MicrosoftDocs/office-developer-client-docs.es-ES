@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 357e419f27efdcc7b6b46004cd340c100114a72a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34a6086fb7ae5f84e4360ab47f330fd884b061d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484529"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887302"
 ---
 # <a name="querydef-members-dao"></a>QueryDef Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto QueryDef es una definición de una consulta almacenada en una base de datos del motor de base de datos de Microsoft Access.
 
@@ -151,7 +151,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Tipo de</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Read-only<strong>entero</strong>.</p></td>
 </tr>
 <tr class="odd">

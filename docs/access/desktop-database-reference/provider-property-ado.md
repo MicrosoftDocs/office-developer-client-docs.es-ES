@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: proveedor (propiedad) (ADO) TOCTitle: proveedor (propiedad) (ADO) === título: proveedor (propiedad, ADO) TOCTitle: proveedor (propiedad, ADO)
->>>>>>> Master ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15) ms:contentKeyID: ms.date 48543543: 18/09/2015 mtps_version: Office.15
+title: Provider (propiedad, ADO)
+TOCTitle: Provider property (ADO)
+ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
+ms:contentKeyID: 48543543
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: df764aca267cab9b38760c432cd19154d6c6827f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881569"
 ---
-
-<<<<<<< HEAD
 # <a name="provider-property-ado"></a>Provider (propiedad, ADO)
-=======
-# <a name="provider-property-ado"></a>Proveedor (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el nombre del proveedor para un objeto [Connection](connection-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo **String** que indica el nombre del proveedor.
 

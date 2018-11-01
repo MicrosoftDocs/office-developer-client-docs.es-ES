@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249261(v=office.15)
 ms:contentKeyID: 48544817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b25123698f39e602b59a2f5cd6bd9a2f0595addb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ff4c0368d2811767b3211a664a42dfc8aac16ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486536"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874772"
 ---
-# <a name="using-pages"></a>Utilizar páginas
+# <a name="using-pages"></a>Uso de páginas
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Utilice la propiedad **NúmeroDePáginas (PageCount)** para determinar cuántas páginas de datos hay en el objeto **Recordset**. *Las páginas* son grupos de registros cuyo tamaño es igual que el valor de la propiedad **PageSize** . Incluso aunque la última página esté incompleta porque haya menos registros que el valor de **PageSize**, cuenta como una página más en el valor **PageCount**. Si el objeto **Recordset** no admite esta propiedad, **PageCount** será -1, que significa que **PageCount** no se puede determinar.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: Description, ContextoDeAyuda (HelpContext), ejemplo de las propiedades HelpFile (VC ++) TOCTitle: Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y ejemplo de las propiedades SQLState (VC ++) === título: descripción, ContextoDeAyuda (HelpContext), ejemplo de las propiedades HelpFile (VC ++) TOCTitle: ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState (VC ++)
->>>>>>> Master ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID: ms.date 48543369: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile (VC ++)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
+ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
+ms:contentKeyID: 48543369
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1b6c0a1788d4a8eb8f3b3f0c3cf67303a8506089
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878853"
 ---
-
-<<<<<<< HEAD
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Ejemplo de las propiedades Description, HelpContext, HelpFile, NativeError, Number, Source y SQLState (VC++)
-=======
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile, NativeError, número, origen y SQLState (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Este ejemplo desencadena un error, lo captura y muestra las propiedades [Description](description-property-ado.md), [ContextoDeAyuda (HelpContext)](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) y [SQLState](sqlstate-property-ado.md) del objeto [Error](error-object-ado.md) resultante.
 

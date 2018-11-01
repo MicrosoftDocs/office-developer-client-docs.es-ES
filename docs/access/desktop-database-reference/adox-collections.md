@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b98460e9bcfb1003a8cda8e88784362a3f50d41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e26031d6acaf958f1f715e210fa7bb8e4d3b9515
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486795"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879434"
 ---
 # <a name="adox-collections"></a>Colecciones de ADOX
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ ms.locfileid: "25486795"
 <td><p>Contiene todos los objetos <strong>User</strong> almacenados de un catálogo o un grupo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="views-collection-adox.md">Views</a></p></td>
+<td><p><a href="views-collection-adox.md">Vistas</a></p></td>
 <td><p>Contiene todos los objetos <strong>View</strong> de un catálogo.</p></td>
 </tr>
 </tbody>

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: NumericScale y Precision ejemplo de las propiedades (VC ++) TOCTitle: NumericScale y Precision ejemplo de las propiedades (VC ++) === título: ejemplo de las propiedades NumericScale y Precision (VC ++) TOCTitle: NumericScale y Ejemplo de las propiedades Precision (VC ++)
->>>>>>> Master ms:assetid: da4bec90-b039-1764-3b8b-c74bb725da61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250098(v=office.15) ms:contentKeyID: ms.date 48548078: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de propiedades NumericScale y Precision (VC++)
+TOCTitle: NumericScale and Precision properties example (VC++)
+ms:assetid: da4bec90-b039-1764-3b8b-c74bb725da61
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250098(v=office.15)
+ms:contentKeyID: 48548078
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5cdfc5fe2c59b6431d1f8497aa91160d0c68b36
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877698"
 ---
-
-<<<<<<< HEAD
-# <a name="numericscale-and-precision-properties-example-vc"></a>Ejemplo de las propiedades NumericScale y Precision (VC++)
-=======
-# <a name="numericscale-and-precision-properties-example-vc"></a>Ejemplo de las propiedades NumericScale y Precision (VC ++)
->>>>>>> master
+# <a name="numericscale-and-precision-properties-example-vc"></a>Ejemplo de propiedades NumericScale y Precision (VC++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md). Este código muestra su valor para la tabla **Detalles de pedidos** de la base de datos *Northwind* .
 

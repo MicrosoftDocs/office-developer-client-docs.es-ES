@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
 ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32c1f5f5cefe0930ba67f47367584c8c5489e963
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 10b30fc2e47ca2811bdd0eaad9c18c6e9bfca342
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484166"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875668"
 ---
 # <a name="recordsetfindlast-method-dao"></a>Recordset.FindLast Method (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Busca el último registro de un objeto **[Recordset](recordset-object-dao.md)** de tipo Dynaset o de instantánea que satisfaga los criterios especificados y hace que el registro sea el registro activo (solo áreas de trabajo de Microsoft Access).
 

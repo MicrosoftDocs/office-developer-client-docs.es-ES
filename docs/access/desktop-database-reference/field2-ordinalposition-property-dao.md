@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5c086263ffe2267a8f01cfae2e67db125313c0b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 451f2d1045b900460a24533ca49579bd9252f456
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484010"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881513"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Field2.OrdinalPosition Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Establece o devuelve la posición relativa de un objeto **Field2** en una colección **[Fields](fields-collection-dao.md)**.

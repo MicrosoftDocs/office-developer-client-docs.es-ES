@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: NativeError (propiedad) (ADO) TOCTitle: NativeError (propiedad) (ADO) === título: NativeError (propiedad, ADO) TOCTitle: NativeError (propiedad, ADO)
->>>>>>> Master ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15) ms:contentKeyID: ms.date 48546685: 18/09/2015 mtps_version: Office.15
+title: NativeError (propiedad, ADO)
+TOCTitle: NativeError property (ADO)
+ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
+ms:contentKeyID: 48546685
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3d572e7629deca0c7732bafbdfdb0c600ce34a35
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880183"
 ---
-
-<<<<<<< HEAD
 # <a name="nativeerror-property-ado"></a>NativeError (propiedad, ADO)
-=======
-# <a name="nativeerror-property-ado"></a>NativeError (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el código de error específico de un proveedor para un objeto [Error](error-object-ado.md) dado.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Valor devuelto
-=======
-## <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Devuelve un valor de tipo **Long** que indica el código del error.
 

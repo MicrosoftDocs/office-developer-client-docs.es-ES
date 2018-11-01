@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 30d4f245618e305be0e46b75cc0ea5c224444fa8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3a718355f8305c7182ba2bc1196e0099205f6da1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485430"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880274"
 ---
 # <a name="openquery-macro-action"></a>AbrirConsulta (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **AbrirConsulta** para abrir una consulta de selección o de tabla de referencias cruzadas en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta una consulta de acción. También puede seleccionar un modo de entrada de datos para la consulta.
 

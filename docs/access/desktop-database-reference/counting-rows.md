@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
 ms:contentKeyID: 48548963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93a583ef0a8f0ef287835eebdd9d68cf726a19df
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 664e7022d3a49f7c4c7c1fa6122b05a230b6e297
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485707"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889654"
 ---
-# <a name="counting-rows"></a>Contar filas
+# <a name="counting-rows"></a>Recuento de filas
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La propiedad **RecordCount** devuelve un valor **Long** que indica el número de registros del **Recordset**. Use la propiedad **RecordCount** para determinar cuántos registros hay en un objeto **Recordset**. La propiedad devuelve -1 cuando ADO no puede determinar el número de registros o si el proveedor o tipo de cursor no admite **RecordCount**. La lectura de la propiedad **RecordCount** de un **Recordset** cerrado causa un error.
 

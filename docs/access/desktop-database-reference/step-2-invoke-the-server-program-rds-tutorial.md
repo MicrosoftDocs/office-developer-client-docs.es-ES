@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249211(v=office.15)
 ms:contentKeyID: 48544549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edd9f8561e6275e3b8eb33e86be745345d7c797a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 53ad3306bf9e175566f0a3d02b1454872264d4b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486362"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885482"
 ---
-# <a name="step-2-invoke-the-server-program-rds-tutorial"></a>Paso 2: Llamar al programa de servidor (Tutorial de RDS)
+# <a name="step-2-invoke-the-server-program-rds-tutorial"></a>Paso 2: Invocar el programa de servidor (tutorial de RDS)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Cuando se llama a un método en el *proxy* cliente, el programa real en el servidor ejecuta el método. En este paso, se ejecutará una consulta en el servidor.
 

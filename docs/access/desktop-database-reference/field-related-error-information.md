@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa35220e463cada69c94fe56a72732591683686
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: de2a737e314322064894142b2494e3b3793d1625
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483922"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884859"
 ---
 # <a name="field-related-error-information"></a>Información de errores relacionados con campos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Si un error está relacionado directamente con un campo (por ejemplo, si faltan datos o si no son del tipo correcto para el campo), puede recuperar más información sobre la causa del problema examinando la propiedad **Status** del objeto **Field**. Esta propiedad se ha mejorado para que proporcione información específica sobre el problema. Así pues, por ejemplo, si una llamada a **UpdateBatch** falla, la causa del problema se puede determinar examinando la propiedad **Status** de los **campos** en cada uno de los registros afectados. La propiedad contendrá uno de los valores de la constante **FieldStatusEnum**. La tabla siguiente incluye los valores que son especialmente interesantes cuando se produce un error.
 

@@ -1,16 +1,21 @@
 ---
-<<<<<<< Título HEAD: ActiveConnection, CommandText, CommandTimeout ejemplo de las propiedades (JScript) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y ejemplo de las propiedades de dirección (JScript) ms:assetid : 2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: ms.date 48543909: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout (JScript)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript)
+ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
+ms:contentKeyID: 48543909
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 71df0230e9f1ddd99f29c28c33260f43244f62e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880071"
 ---
-
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a>Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (JScript)
 
-=== título: ActiveConnection, CommandText, CommandTimeout ejemplo de las propiedades (JScript) TOCTitle: ms:assetid de example(JScript) de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección: 2a79222c-4dba-9C5A-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: ms.date 48543909: 17/10/2018 mtps_version: Office.15
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a>Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y Direction (JScript)
->>>>>>> master
-
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utilizan las propiedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) y [Direction](direction-property-ado.md) para ejecutar un procedimiento almacenado. Corte y pegue el siguiente código en Bloc de notas u otro editor de texto, y guárdelo como **ActiveConnectionJS.asp**.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0820aec3ce8606f5f8f0fcb8dac838ae7bbd15d8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860514"
+ms.locfileid: "25869134"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString (método, RDS)
 
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 Convierte un objeto [Recordset](recordset-object-ado.md) en una cadena MIME que representa los datos del conjunto de registros.
 

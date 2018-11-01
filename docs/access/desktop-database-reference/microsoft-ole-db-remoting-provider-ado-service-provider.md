@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 907686e0dcd1be8ef24747d9ff655a7ff0f7f91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485193"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878062"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Proveedor de servicios remotos de Microsoft OLE DB (proveedor de servicios ADO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El Proveedor de servicios remotos de Microsoft OLE DB permite a un usuario local de un equipo cliente llamar a proveedores de datos en un equipo remoto. Especifique los parámetros del proveedor de datos del equipo remoto del mismo modo que si fuera un usuario local del equipo remoto. A continuación, especifique los parámetros usados por el Proveedor de servicios remotos para obtener acceso al equipo remoto. El resultado es que podrá obtener acceso al equipo remoto como si fuera un usuario local.
 

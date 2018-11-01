@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248933(v=office.15)
 ms:contentKeyID: 48543473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b50f73e53cf954a3b24b90d1b02469973148ecf
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 45f95145d7f6c645a133ed50594300e8ae279b19
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861837"
+ms.locfileid: "25876340"
 ---
 # <a name="clone-method-example-vc"></a>Ejemplo del método Clone (VC++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se usa el método [Clone](clone-method-ado.md) para crear copias de un objeto [Recordset](recordset-object-ado.md) y, a continuación, se deja que el usuario coloque el puntero de registro de cada copia de manera independiente.
 

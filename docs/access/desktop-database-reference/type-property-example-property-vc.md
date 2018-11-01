@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++) === título: ejemplo de la propiedad tipo (propiedad) (VC ++) TOCTitle: ejemplo de la propiedad tipo (propiedad) (VC ++)
->>>>>>> Master ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: ms.date 48548168: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Type (VC++)
+TOCTitle: Type property example (Property) (VC++)
+ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
+ms:contentKeyID: 48548168
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868430"
 ---
-
-<<<<<<< HEAD
 # <a name="type-property-example-property-vc"></a>Ejemplo de la propiedad Type (VC++)
-=======
-# <a name="type-property-example-property-vc"></a>Ejemplo de la propiedad tipo (propiedad) (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Type](type-property-ado.md). Se trata de un modelo de una utilidad para enumerar los nombres y tipos de una colección, como [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.
 

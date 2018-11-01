@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2989159683b668c798181c2e99d58fade8fba467
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d0bf59a8be000d01dc6f514112265b640384e549
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485764"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869382"
 ---
 # <a name="recordset-members-dao"></a>Miembros Recordset (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Un objeto Recordset representa los registros de una tabla base o los registros que son el resultado de ejecutar una consulta.
 
@@ -241,7 +241,7 @@ Un objeto Recordset representa los registros de una tabla base o los registros q
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-filter-property-dao.md">Filtro</a></strong></p></td>
+<td><p><strong><a href="recordset-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>Establece o devuelve un valor que determina los registros incluidos en un objeto <strong>Recordset</strong> abierto posteriormente (solo en áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">

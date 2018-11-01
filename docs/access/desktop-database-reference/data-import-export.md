@@ -6,31 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 12525e212b29c02c891fb5524b89771467cb326e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f3b4770cb480ff5c99722d84758df2c638264bcc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484262"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876753"
 ---
-# <a name="data-importexport"></a>Importación/exportación de datos
+# <a name="data-importexport"></a>Importación o exportación de datos
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [EjecutarImportaciónExportaciónGuardada (acción de macro)](runsavedimportexport-macro-action.md)
+  - [Acción de Macro EjecutarImportaciónExportaciónGuardada](runsavedimportexport-macro-action.md)
 
-  - [EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)](emaildatabaseobject-macro-action.md)
+  - [Acción de Macro Enviarporcorreoobjetodebasededatos](emaildatabaseobject-macro-action.md)
 
-  - [ExportarConFormato (acción de macro)](exportwithformatting-macro-action.md)
+  - [Acción de Macro Exportarconformato](exportwithformatting-macro-action.md)
 
-  - [ImportarExportarDatos (acción de macro)](importexportdata-macro-action.md)
+  - [Acción de Macro Importarexportardatos](importexportdata-macro-action.md)
 
-  - [ImportarExportarHojaDeCálculo (acción de macro)](importexportspreadsheet-macro-action.md)
+  - [Acción de Macro Importarexportarhojadecálculo](importexportspreadsheet-macro-action.md)
 
-  - [ImportarExportarTexto (acción de macro)](importexporttext-macro-action.md)
+  - [Acción de Macro Importarexportartexto](importexporttext-macro-action.md)
 
   - [ImportarListaDeSharePoint (acción de macro)](importsharepointlist-macro-action.md)
 

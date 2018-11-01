@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad preparado (VB) TOCTitle: ejemplo de propiedad preparado (VB) === título: ejemplo de la propiedad Prepared (VB) TOCTitle: ejemplo de la propiedad Prepared (VB)
->>>>>>> Master ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: ms.date 48548000: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Prepared (VB)
+TOCTitle: Prepared property example (VB)
+ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
+ms:contentKeyID: 48548000
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8c5e139ddfae11a92ccc5cbcea4ca509c8cdeecc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875430"
 ---
-
-<<<<<<< HEAD
 # <a name="prepared-property-example-vb"></a>Ejemplo de la propiedad Prepared (VB)
-=======
-# <a name="prepared-property-example-vb"></a>Ejemplo de la propiedad Prepared (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Prepared](prepared-property-ado.md) al abrir dos objetos [Command](command-object-ado.md), uno preparado y otro sin preparar.
 

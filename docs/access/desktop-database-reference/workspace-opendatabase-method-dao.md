@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bbcba1ea6a495904e36f5ef085d52a67809019f
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bd82a8159ae0a0f9388f62ff5db32e8d7989ef2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602562"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883445"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Método Workspace.OpenDatabase (DAO)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Abre una base de datos determinada en un objeto **[Workspace](workspace-object-dao.md)** y devuelve una referencia al objeto **[Database](database-object-dao.md)** que lo representa.
 
@@ -71,11 +71,7 @@ Abre una base de datos determinada en un objeto **[Workspace](workspace-object-d
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Valor devuelto
-=======
-### <a name="return-value"></a>Valor devuelto
->>>>>>> master
 
 Base de datos
 

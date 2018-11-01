@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 33a7024b25ee74e38874eb7e2b598273f0daf248
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ad95e1ff7402ce9115421554c5a08b31a6145ac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483325"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878664"
 ---
 # <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve el nombre de la tabla externa en una relación (solo en áreas de trabajo de Microsoft Access).
 

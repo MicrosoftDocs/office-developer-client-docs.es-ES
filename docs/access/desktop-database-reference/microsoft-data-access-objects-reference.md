@@ -1,79 +1,22 @@
 ---
-título: TOCTitle hacer referencia a objetos de acceso a datos de Microsoft: hacer referencia a objetos de acceso a datos de Microsoft ms:assetid: 4893b994-9697-4f30-aeef-c8ed98b73b7d ms:mtpsurl: https://msdn.microsoft.com/library/Dn124645(v=office.15) ms:contentKeyID: 52072268 <<<<<<< ms.date HEAD: 18/09 / 2015 === ms.date: 17/10/2018
->>>>>>> mtps_version principal: Office.15
+title: Microsoft Data Access Objects reference
+TOCTitle: Microsoft Data Access Objects reference
+ms:assetid: 4893b994-9697-4f30-aeef-c8ed98b73b7d
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124645(v=office.15)
+ms:contentKeyID: 52072268
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 9af1fc1ba168366c7bb661afd463355575b62d08
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877208"
 ---
-
 # <a name="microsoft-data-access-objects-reference"></a>Microsoft Data Access Objects reference
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
-<<<<<<< HEAD
-  - [Objeto ComplexType](complextype-object-reference-dao.md)
-
-  - [Objeto Connection](connection-object-reference-dao.md)
-
-  - [Connections (objeto)](connections-object-reference-dao.md)
-
-  - [Objeto de contenedor](container-object-reference-dao.md)
-
-  - [Objeto de contenedores](containers-object-reference-dao.md)
-
-  - [Objeto de base de datos](database-object-reference-dao.md)
-
-  - [Objeto de las bases de datos](databases-object-reference-dao.md)
-
-  - [Objeto DBEngine](dbengine-object-reference-dao.md)
-
-  - [Objeto Document](document-object-reference-dao.md)
-
-  - [Objeto de documentos](documents-object-reference-dao.md)
-
-  - [Objeto Error](error-object-reference-dao.md)
-
-  - [Objeto Errors](errors-object-reference-dao.md)
-
-  - [Objeto Field](field-object-reference-dao.md)
-
-  - [Objeto Field2](field2-object-reference-dao.md)
-
-  - [Objeto de campos](fields-object-reference-dao.md)
-
-  - [Objeto Index](index-object-reference-dao.md)
-
-  - [Objeto Indexes](indexes-object-reference-dao.md)
-
-  - [Objeto Parameter](parameter-object-reference-dao.md)
-
-  - [Parameters (objeto)](parameters-object-reference-dao.md)
-
-  - [Objeto Properties](properties-object-reference-dao.md)
-
-  - [Property (objeto)](property-object-reference-dao.md)
-
-  - [Objeto QueryDef](querydef-object-reference-dao.md)
-
-  - [Objeto QueryDefs](querydefs-object-reference-dao.md)
-
-  - [Objeto de conjunto de registros](recordset-object-reference-dao.md)
-
-  - [Objeto Recordset2](recordset2-object-reference-dao.md)
-
-  - [Objeto de conjuntos de registros](recordsets-object-reference-dao.md)
-
-  - [Objeto Relation](relation-object-reference-dao.md)
-
-  - [Objeto de relaciones](relations-object-reference-dao.md)
-
-  - [Objeto TableDef](tabledef-object-reference-dao.md)
-
-  - [Objeto TableDefs](tabledefs-object-reference-dao.md)
-
-  - [Objeto de área de trabajo](workspace-object-reference-dao.md)
-
-  - [Objeto de áreas de trabajo](workspaces-object-reference-dao.md)
-
-  - [Enumeraciones (referencia DAO)](enumerations-dao-reference.md)
-=======
 - [ComplexType](complextype-object-reference-dao.md)
 - [Connection](connection-object-reference-dao.md)
 - [Connections](connections-object-reference-dao.md)
@@ -108,5 +51,4 @@ título: TOCTitle hacer referencia a objetos de acceso a datos de Microsoft: hac
 - [Workspaces](workspaces-object-reference-dao.md)
 - [Enumeraciones (referencia DAO)](enumerations-dao-reference.md)
 
->>>>>>> master
 

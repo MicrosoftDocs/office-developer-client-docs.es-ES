@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c25197f0a8a45487f93f56543f73a2beeea062ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2fb5171e8b0a0b23f46ff5b4667b4c2b0ff4df34
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603158"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889843"
 ---
-# <a name="hellodata-details"></a>Detalles sobre HelloData
+# <a name="hellodata-details"></a>Detalles de HelloData
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 La aplicación HelloData realiza las operaciones básicas de una aplicación ADO típica: obtener, examinar, editar y actualizar datos. Cuando inicie la aplicación, haga clic en el primer botón, **Obtener datos**. De esta forma, se ejecutará la subrutina GetData().
 
@@ -28,9 +28,7 @@ Asigne un controlador de errores mediante una instrucción **OnError** de Visual
 
 Una vez establecida la conexión, asigne una cadena SQL a una variable (sSQL). A continuación, cree una instancia de un nuevo objeto **Recordset** , m\_oRecordset1. En la siguiente línea de código, abra el **objeto Recordset** a través de la existente **conexión**, pasando. En la siguiente línea de código, abra el **objeto Recordset** a través de la existente **conexión**, pasando sSQL como el origen del **objeto Recordset**. Ayude a ADO a tomar la determinación de que la cadena SQL que se acaba de pasar como origen del objeto **Recordset** es una definición textual de un comando al pasar **adCmdText** en el argumento al método **Open** del objeto **Recordset**. Esta línea también establece las propiedades **LockType** y **CursorType** asociadas al objeto **Recordset**.
 
-<<<<<<< HEAD la siguiente línea de código establece la propiedad **MarshalOptions** en **adMarshalModifiedOnly**. **MarshalOptions** indica en qué registros se deben calcular las referencias en el nivel intermedio (o el servidor web). Para obtener más información acerca del cálculo de referencias, vea la documentación sobre COM. Cuando utilice **adMarshalModifiedOnly** con un cursor de cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), sólo los registros que se han modificado en el cliente se vuelven a escribir el nivel intermedio. El establecimiento de **MarshalOptions** en **adMarshalModifiedOnly** puede mejorar el rendimiento, dado que se calculan las referencias de menos filas.
-=== La siguiente línea de código establece la propiedad **MarshalOptions** en **adMarshalModifiedOnly**. **MarshalOptions** indica qué registros deben calcularse en el nivel intermedio (o el servidor web). Para obtener más información acerca del cálculo de referencias, vea la documentación sobre COM. Cuando utilice **adMarshalModifiedOnly** con un cursor de cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), sólo los registros que se han modificado en el cliente se vuelven a escribir el nivel intermedio. El establecimiento de **MarshalOptions** en **adMarshalModifiedOnly** puede mejorar el rendimiento, dado que se calculan las referencias de menos filas.
->>>>>>> master
+La siguiente línea de código establece la propiedad **MarshalOptions** en **adMarshalModifiedOnly**. **MarshalOptions** indica qué registros deben calcularse en el nivel intermedio (o el servidor web). Para obtener más información acerca del cálculo de referencias, vea la documentación sobre COM. Cuando utilice **adMarshalModifiedOnly** con un cursor de cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), sólo los registros que se han modificado en el cliente se vuelven a escribir el nivel intermedio. El establecimiento de **MarshalOptions** en **adMarshalModifiedOnly** puede mejorar el rendimiento, dado que se calculan las referencias de menos filas.
 
 A continuación, desconecte el objeto **Recordset** al establecer su propiedad **ActiveConnection** en **Nothing**. Para obtener más información, vea [Desconectar y volver a conectar el objeto Recordset](disconnecting-and-reconnecting-the-recordset.md) en el capítulo 5: Actualizar y almacenar datos.
 

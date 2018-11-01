@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249497(v=office.15)
 ms:contentKeyID: 48545759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 828ff68f8515239d36c3e6a47f418a41c12fd508
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f67482304d7971f9397ad2550ced601f3c3d6158
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486739"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886672"
 ---
 # <a name="ado-methods-reference"></a>ADO Methods Reference
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
   - [Métodos de ADO](ado-methods.md)
@@ -27,7 +27,7 @@ ms.locfileid: "25486739"
 
   - [AppendChunk (método, ADO)](appendchunk-method-ado.md)
 
-  - [Métodos BeginTrans, CommitTrans y RollbackTrans (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
+  - [BeginTrans, CommitTrans y RollbackTrans métodos (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
   - [Cancel (método, ADO)](cancel-method-ado.md)
 
@@ -39,7 +39,7 @@ ms.locfileid: "25486739"
 
   - [Clone (método, ADO)](clone-method-ado.md)
 
-  - [Método Close (ADO)](close-method-ado.md)
+  - [Cerrar (método, ADO)](close-method-ado.md)
 
   - [CompareBookmarks (método, ADO)](comparebookmarks-method-ado.md)
 
@@ -73,7 +73,7 @@ ms.locfileid: "25486739"
 
   - [Move (método, ADO)](move-method-ado.md)
 
-  - [Métodos MoveFirst, MoveLast, MoveNext y MovePrevious (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+  - [Métodos MoveFirst, MoveLast, MoveNext y MovePrevious métodos (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 
   - [MoveRecord (método, ADO)](moverecord-method-ado.md)
 
@@ -89,7 +89,7 @@ ms.locfileid: "25486739"
 
   - [OpenSchema (método, ADO)](openschema-method-ado.md)
 
-  - [Read (método, ADO)](read-method-ado.md)
+  - [Lectura (método, ADO)](read-method-ado.md)
 
   - [ReadText (método, ADO)](readtext-method-ado.md)
 
@@ -99,7 +99,7 @@ ms.locfileid: "25486739"
 
   - [Resync (método, ADO)](resync-method-ado.md)
 
-  - [Save (método, ADO)](save-method-ado.md)
+  - [Guardar (método, ADO)](save-method-ado.md)
 
   - [SaveToFile (método, ADO)](savetofile-method-ado.md)
 
@@ -117,7 +117,7 @@ ms.locfileid: "25486739"
 
   - [UpdateBatch (método, ADO)](updatebatch-method-ado.md)
 
-  - [Write (método, ADO)](write-method-ado.md)
+  - [Escribir (método, ADO)](write-method-ado.md)
 
   - [WriteText (método, ADO)](writetext-method-ado.md)
 

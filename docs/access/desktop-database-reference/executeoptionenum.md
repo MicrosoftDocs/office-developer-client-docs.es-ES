@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
 ms:contentKeyID: 48547438
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 51c5ab78c4ea49ade7fd2b6972aa3753b0c6df09
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 8fa81d535a10aa0f359ba6e03b0f47048713671f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862313"
+ms.locfileid: "25867856"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Especifica la forma en que un proveedor debe ejecutar un comando.
 

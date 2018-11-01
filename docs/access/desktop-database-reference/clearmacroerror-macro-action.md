@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8e5cf0b8cb7ac5b9c49e86ae3a0399d0222b3b04
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e9b8232f24a837466529f8ce04f9f830af72e7a7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484430"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870194"
 ---
 # <a name="clearmacroerror-macro-action"></a>BorrarErrorDeMacro (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Puede usar la acción **BorrarErrorDeMacro** para borrar la información acerca de un error que está almacenado en el objeto **ErrorDeMacro**.

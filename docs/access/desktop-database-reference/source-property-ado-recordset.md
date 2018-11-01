@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db44459bf3629f6cedfbee023b0be9161ed3bb14
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 32d3d44094e9e5922b7c5e0cfa59ccd1f344ef0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879142"
 ---
 # <a name="source-property-ado-recordset"></a>Source (propiedad, Recordset ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el origen de datos de un objeto [Recordset](recordset-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece un valor de tipo **String** o una referencia al objeto [Command](command-object-ado.md); sólo devuelve un valor de tipo **String** que indica el origen del objeto **Recordset**.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 53df33e3171cde0d861f738a852350ec20bf0dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c6b7798419dc72dc28822741e2d038203ae257e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484491"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880722"
 ---
 # <a name="dbenginelogintimeout-property-dao"></a>DBEngine.LoginTimeout Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve el número de segundos transcurridos antes de que se produzca un error cuando se intenta iniciar sesión en una base de datos ODBC.
 

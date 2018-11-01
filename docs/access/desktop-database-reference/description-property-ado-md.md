@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
 ms:contentKeyID: 48543055
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7dd66e0288e20bcf38adefc2fcc30f1856ebf3e6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 96f3762df84f2534b31501bdf44059152e7077bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606874"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873155"
 ---
 # <a name="description-property-ado-md"></a>Description (propiedad, ADO MD)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Devuelve un texto de explicación del objeto actual.
 
-<<<<<<< HEAD
 ## <a name="return-values"></a>Valores devueltos
-=======
-## <a name="return-values"></a>Valores devueltos
->>>>>>> master
 
 Devuelve un valor **String** y es de sólo lectura.
 

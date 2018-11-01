@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4693cbe643ab34431f7920564e704808c1b0f73b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78819ba2a82bf2fc9ab5c39300d06c1acdda80bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483955"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875808"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>ImportarExportarHojaDeCálculo (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **ImportarExportarHojaDeCálculo** para importar o exportar datos entre la base de datos de Access activa (.mdb o .accdb) o un proyecto de Access (.adp) y un archivo de hoja de cálculo. También puede vincular los datos en una hoja de cálculo de Microsoft Excel a la base de datos de Microsoft Access. Con una hoja de cálculo vinculada, puede ver y editar los datos de la hoja de cálculo con Access y a su vez tener un acceso total a los datos desde el programa de hoja de cálculo Excel. También puede vincular a datos en un archivo de hoja de cálculo de Lotus 1-2-3, pero estos datos son de solo lectura en Access.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa474a1fd8b592f8ad8d309526c8b94cb1fba25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 77214fcad0f5b2cafe794282782df4446d37fcf6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485895"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887162"
 ---
 # <a name="fieldrequired-property-dao"></a>Field.Required Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao.md)** requiere un valor no Null.
 

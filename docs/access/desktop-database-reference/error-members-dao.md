@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845280(v=office.15)
 ms:contentKeyID: 48543262
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29ff44b8ea8d553b631af4a15a57a3af6e6b74be
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aed11619c683389114e220c102207425dbd2b93d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484577"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889675"
 ---
 # <a name="error-members-dao"></a>Error Members (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno de los cuales pertenece a una operación única que implica a DAO.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053364
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6678939edea3e0ae673b70c61566194bcdeb606
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09a50709df32e9853cca0c35adfc4dde5e8a0258
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486624"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887449"
 ---
 # <a name="connectionrecordsets-property-dao"></a>Connection.Recordsets Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Devuelve una colección **Recordsets** que contiene todos los conjuntos de registros abiertos para la conexión especificada. Es de solo lectura.
 

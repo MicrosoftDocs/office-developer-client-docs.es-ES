@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título HEAD: LineSeparator (propiedad) (ADO) TOCTitle: LineSeparator (propiedad) (ADO) === título: LineSeparator (propiedad, ADO) TOCTitle: LineSeparator (propiedad, ADO)
->>>>>>> Master ms:assetid: 9f1323cd-d4ed-2bfa-554b-faebab529548 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249729(v=office.15) ms:contentKeyID: ms.date 48546676: 18/09/2015 mtps_version: Office.15
+title: LineSeparator (propiedad, ADO)
+TOCTitle: LineSeparator property (ADO)
+ms:assetid: 9f1323cd-d4ed-2bfa-554b-faebab529548
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249729(v=office.15)
+ms:contentKeyID: 48546676
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 831b6377ade43b3be04ed21add20fbd10e48ac2f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882507"
 ---
-
-<<<<<<< HEAD
 # <a name="lineseparator-property-ado"></a>LineSeparator (propiedad, ADO)
-=======
-# <a name="lineseparator-property-ado"></a>LineSeparator (propiedad, ADO)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Indica el carácter binario que se utiliza como separador de línea en objetos de texto [Stream](stream-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
-=======
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
->>>>>>> master
 
 Establece o devuelve un valor de tipo [LineSeparatorsEnum](lineseparatorsenum.md) que indica el carácter separador de línea utilizado en el objeto **Stream**. El valor predeterminado es **adCRLF**.
 

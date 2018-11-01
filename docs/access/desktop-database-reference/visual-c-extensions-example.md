@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f848e5adb9e8aca3a53732633b8b40cd75550cf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 172774af5297f456b53dcdbadfc4080f533bc8b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484445"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878118"
 ---
 # <a name="visual-c-extensions-example"></a>Ejemplo de Extensiones de Visual C++
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Este programa muestra cómo se recuperan los valores de los campos y se convierten en variables de C/C++.
 

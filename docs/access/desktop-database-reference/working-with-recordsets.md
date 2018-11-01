@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab78043392801f04a85a80c103c7afad6091b30b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484583"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883690"
 ---
 # <a name="working-with-recordsets"></a>Trabajar con conjuntos de registros
 
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 El objeto **Recordset** tiene características integradas para reorganizar el orden de los datos en el conjunto de resultados, para buscar un registro concreto según los criterios especificados e, incluso, para optimizar aquellas operaciones de búsqueda mediante índices. La disponibilidad de uso de estas características depende del proveedor y, en algunos casos, como en el de la propiedad [Index](index-property-ado.md), de la estructura del propio origen de datos.
 

@@ -1,61 +1,38 @@
 ---
-título: uso de Microsoft Access como servidor DDE TOCTitle: uso de Microsoft Access como servidor DDE <<<<<<< HEAD ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: ms.date 48546801: 18/09/2015 === Descripción: Microsoft Access admite el intercambio dinámico de datos (DDE) como una aplicación de destino (cliente) o una aplicación de origen (servidor).  
-MS:AssetId: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: ms.date 48546801: 16/10/2018
->>>>>>> maestro mtps_version: Office.15 f1_keywords:
-- vbaac10.chm5186349 f1_categories:
+title: Usar Microsoft Access como servidor DDE
+TOCTitle: Use Microsoft Access as a DDE Server
+description: Microsoft Access admite el intercambio dinámico de datos (DDE) como aplicación de destino (cliente) o aplicación de origen (servidor).
+ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
+ms:contentKeyID: 48546801
+ms.date: 10/16/2018
+mtps_version: v=office.15
+f1_keywords:
+- vbaac10.chm5186349
+f1_categories:
 - Office.Version=v15
+ms.openlocfilehash: 0e22eb03571d51f28344f6d41fdcaa47321f67af
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870925"
 ---
+# <a name="use-microsoft-access-as-a-dde-server"></a>Usar Microsoft Access como servidor DDE
 
-# <a name="use-microsoft-access-as-a-dde-server"></a>Uso de Microsoft Access como servidor DDE
-
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013 
 
 Microsoft Access admite el intercambio dinámico de datos (DDE) como aplicación de destino (cliente) o aplicación de origen (servidor). Por ejemplo, una aplicación como Microsoft Word, que actúa como cliente, puede solicitar datos a través de DDE de una base de datos de Microsoft Access que actúa como servidor.
 
 > [!TIP]
 > [!SUGERENCIA] Si necesita manipular objetos de Microsoft Access desde otra aplicación, considere la posibilidad de usar Automatización.
 
-<<<<<<< Conversación de cabeza A DDE entre un cliente y el servidor se establece sobre un tema concreto. Un tema puede ser un archivo de datos en el formato admitido por la aplicación servidor o puede ser el tema System, que proporciona información sobre la propia aplicación servidor. Una vez iniciada una conversación sobre un tema determinado, sólo se puede transferir un elemento de datos asociado con dicho tema.
-=== Una conversación DDE entre un cliente y un servidor se establece sobre un tema concreto. Un tema puede ser un archivo de datos en el formato admitido por la aplicación servidor o puede ser el tema System, que proporciona información sobre la propia aplicación servidor. Una vez iniciada una conversación sobre un tema determinado, sólo un elemento de datos asociado con dicho tema puede transferirse.
->>>>>>> master
+Una conversación DDE entre un cliente y un servidor se establece sobre un tema determinado. Un tema puede ser un archivo de datos en el formato admitido por la aplicación servidor o puede ser el tema System, que proporciona información sobre la propia aplicación servidor. Una vez iniciada una conversación sobre un tema determinado, sólo un elemento de datos asociado con dicho tema puede transferirse.
 
 Por ejemplo, suponga que está ejecutando Microsoft Word y desea insertar en un documento datos de una determinada base de datos de Microsoft Access. Para iniciar una conversación DDE con Microsoft Access, abra un canal DDE mediante la función **DDEInitiate** y especifique el nombre del archivo de la base de datos como tema. A continuación, podrá transferir los datos de esa base de datos a Microsoft Word a través de dicho canal.
 
 Como servidor DDE, Microsoft Access admite los siguiente temas:
 
-<<<<<<< HEAD
-  - El tema System (Sistema)
-
-  - El nombre de una base de datos (tema *database (base de datos)*)
-
-  - El nombre de una tabla (tema *tablename (nombretabla)*)
-
-  - El nombre de una consulta (tema *queryname (nombreconsulta)*)
-
-  - Una cadena SQL de Microsoft Access (tema *sqlstring (cadenasql)*)
-
-Sólo después de establecer una conversación DDE, podrá utilizar la instrucción **DDEExecute** para enviar un comando de la aplicación cliente a la aplicación servidor. Cuando se utiliza como servidor DDE, Microsoft Access reconoce los siguientes elementos como un comando válido:
-
-  - El nombre de una macro en la actual base de datos.
-
-  - Cualquier acción que se pueda realizar en Visual Basic mediante uno de los métodos del objeto **DoCmd**.
-
-  - Las acciones AbrirBaseDeDatos (OpenDatabase) y CerrarBaseDeDatos (CloseDatabase), que se utilizan sólo para las operaciones DDE. (Para ver cómo se utilizan estas funciones, vea el ejemplo que aparece a continuación en este tema.)
-
-
-> [!NOTE]
-> <P>[!NOTA] Al especificar una acción de macro como instrucción <STRONG>DDEExecute</STRONG>, la acción y los argumentos siguen la sintaxis del objeto <STRONG>DoCmd</STRONG> y deben ir entre corchetes ([ ]). Sin embargo, las aplicaciones que admiten DDE no reconocen las constantes intrínsecas en las operaciones DDE. Asimismo, los argumentos de cadena deben ir entre comillas (" ") si la cadena contiene una coma. En caso contrario, no son necesarias las comillas.</P>
-
-
-
-La aplicación cliente puede utilizar la función **DDERequest** para solicitar datos de texto de la aplicación servidor a través de un canal DDE abierto. O bien, el cliente puede utilizar la instrucción **DDEPoke** para enviar datos a la aplicación servidor. Tras finalizar la transferencia de datos, el cliente puede utilizar la instrucción **DDETerminate** para cerrar el canal DDE o la instrucción **DDETerminateAll** para cerrar todos los canales abiertos.
-
-
-> [!NOTE]
-> <P>[!NOTA] Cuando la aplicación cliente termine de recibir datos a través de un canal DDE, deberá cerrar dicho canal para conservar los recursos de la memoria.</P>
-
-
-=======
 - El tema System (Sistema)
 
 - El nombre de una base de datos (tema *database (base de datos)*)
@@ -81,7 +58,6 @@ La aplicación cliente puede utilizar la función **DDERequest** para solicitar 
 
 > [!NOTE]
 > [!NOTA] Cuando la aplicación cliente termine de recibir datos a través de un canal DDE, deberá cerrar dicho canal para conservar los recursos de la memoria.
->>>>>>> master
 
 El siguiente ejemplo muestra cómo se crea un procedimiento de Microsoft Word mediante Visual Basic que utiliza Microsoft Access como servidor DDE. (Para que funcione este ejemplo, Microsoft Access debe estar ejecutándose.)
 
@@ -112,17 +88,13 @@ El siguiente ejemplo muestra cómo se crea un procedimiento de Microsoft Word me
     End Sub
 ```
 
-<a name="-head"></a><<<<<<< HEAD
-=======
 <br/>
 
->>>>>>> patrón de que las secciones siguientes proporcionan información acerca de los temas DDE válidos que admite Microsoft Access.
+La siguiente sección facilita información sobre los temas DDE válidos que admite Microsoft Access.
 
 ## <a name="the-system-topic"></a>El tema System (Sistema)
 
-<<<<<<< HEAD del sistema es un tema estándar para todas las aplicaciones basadas en Windows de Microsoft. Facilita información sobre los demás temas que admite la aplicación. Para obtener acceso a esta información, el código debe llamar primero a la función **DDEInitiate** con como el argumento *tema* y, a continuación, ejecutar la instrucción **DDERequest** con uno de los siguientes para el argumento de *elemento* .
-=== El tema System es un tema estándar para todas las aplicaciones basadas en Windows de Microsoft. Facilita información sobre los demás temas que admite la aplicación. Para obtener acceso a esta información, el código debe llamar primero a la función **DDEIniciar (DDEInitiate)** con el argumento *tema* y, a continuación, ejecutar la instrucción **DDERequest** con uno de los siguientes argumentos *elemento* .
->>>>>>> master
+El tema System es un tema estándar para todas las aplicaciones basadas en Windows de Microsoft. Facilita información sobre los demás temas que admite la aplicación. Para obtener acceso a esta información, el código debe llamar primero a la función **DDEIniciar (DDEInitiate)** con el argumento *tema* y, a continuación, ejecutar la instrucción **DDERequest** con uno de los siguientes argumentos *elemento* .
 
 <table>
 <colgroup>
@@ -155,10 +127,7 @@ El siguiente ejemplo muestra cómo se crea un procedimiento de Microsoft Word me
 </tbody>
 </table>
 
-<a name="-head"></a><<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 El siguiente ejemplo muestra cómo se utilizan las funciones **DDEIniciar (DDEInitiate)** y **DDEPedido (DDERequest)** con el tema System:
 
@@ -178,16 +147,8 @@ El siguiente ejemplo muestra cómo se utilizan las funciones **DDEIniciar (DDEIn
 
 El tema de la *base de datos* es el nombre de archivo de base de datos existente. Puede escribir simplemente el nombre (Northwind) o su ruta de acceso y la extensión .mdb (C:\\Access\\ejemplos\\Neptuno.mdb). Tras iniciar una conversación DDE con la base de datos, puede solicitar una lista de los objetos incluidos en dicha base de datos.
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>[!NOTA] No se puede utilizar DDE para consultar el archivo de información de grupo de trabajo de Microsoft Access.</P>
-
-
-=======
 > [!NOTE]
 > [!NOTA] No se puede utilizar DDE para consultar el archivo de información de grupo de trabajo de Microsoft Access.
->>>>>>> master
 
 El tema *database* admite los siguientes elementos.
 
@@ -205,29 +166,6 @@ El tema *database* admite los siguientes elementos.
 <tbody>
 <tr class="odd">
 <td><p>ListaDeTablas</p></td>
-<<<<<<< HEAD
-<td><p>Una lista de tablas.</p></td>
-</tr>
-<tr class="even">
-<td><p>QueryList</p></td>
-<td><p>Una lista de consultas.</p></td>
-</tr>
-<tr class="odd">
-<td><p>FormList</p></td>
-<td><p>Una lista de formularios.</p></td>
-</tr>
-<tr class="even">
-<td><p>ReportList</p></td>
-<td><p>Una lista de informes.</p></td>
-</tr>
-<tr class="odd">
-<td><p>MacroList</p></td>
-<td><p>Una lista de macros.</p></td>
-</tr>
-<tr class="even">
-<td><p>ModuleList</p></td>
-<td><p>Una lista de módulos.</p></td>
-=======
 <td><p>Una lista de tablas</p></td>
 </tr>
 <tr class="even">
@@ -249,7 +187,6 @@ El tema *database* admite los siguientes elementos.
 <tr class="even">
 <td><p>ModuleList</p></td>
 <td><p>Una lista de módulos</p></td>
->>>>>>>patrón
 </tr>
 <tr class="odd">
 <td><p>ViewList</p></td>
@@ -266,10 +203,7 @@ El tema *database* admite los siguientes elementos.
 </tbody>
 </table>
 
-<a name="-head"></a><<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 El siguiente ejemplo muestra cómo se puede abrir el formulario Empleados en la base de datos de ejemplo Northwind desde un procedimiento de Visual Basic:
 
@@ -357,69 +291,6 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 </tr>
 <tr class="even">
 <td><p>FieldNames; T</p></td>
-<<<<<<< HEAD
-<td><p>Una lista de dos filas con los nombres de campo (primera fila) y los tipos de datos (segunda fila).</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>Éstos son los valores devueltos y los tipos de datos que representan.</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p><b>Valor</b></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>5</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>6</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>7</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>8</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>9</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>11</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>12</p></td>
-=======
 <td><p>Una lista de dos filas con los nombres de campo (primera fila) y los tipos de datos (segunda fila).</p>
 <p>Estos son los valores devueltos:</p>
 <p>Valor</p>
@@ -440,7 +311,6 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 </ul>
 </p>
 </td>
->>>>>>>patrón
 </tr>
 <tr class="even">
 <td><p>NextRow</p></td>
@@ -473,10 +343,7 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 </tbody>
 </table>
 
-<a name="-head"></a><<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 El siguiente ejemplo muestra cómo se puede utilizar DDE en un procedimiento de Visual Basic para solicitar datos de una tabla en la base de datos de ejemplo Northwind e insertar dichos datos en un archivo de texto:
 

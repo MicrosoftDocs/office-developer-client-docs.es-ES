@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250278(v=office.15)
 ms:contentKeyID: 48548839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0f04d52edc55c7ccc5163bc9a858d7bc8845702
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0c00fd9d1a13a68361c5b1a7c3c2aa39736b3c88
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485175"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867261"
 ---
 # <a name="step-4-populate-the-details-text-box"></a>Paso 4: Rellenar el cuadro de texto de detalles
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
-## <a name="step-4-populate-the-details-text-box"></a>Paso 4: Rellenar el cuadro de texto de detalles
+## <a name="step-4-populate-the-details-text-box"></a>Paso 3: Rellenar el cuadro de texto de detalles
 
 **Para rellenar el cuadro de texto de detalles**
 

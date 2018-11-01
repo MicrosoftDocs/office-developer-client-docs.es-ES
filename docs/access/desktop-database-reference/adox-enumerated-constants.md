@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6849961c0428079227348e1bb68c6ceb8dfd73a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f8be72ea28d9814890bcaf193c1175725fcfe1d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486733"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869503"
 ---
 # <a name="adox-enumerated-constants"></a>Constantes enumeradas de ADOX
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Para ayudar en un proceso de depuración, las constantes enumeradas de ADOX muestran un valor para cada constante. No obstante, este valor es sólo una recomendación y puede cambiar de una versión de ADOX a otra. Su código sólo debería depender del nombre, y no del valor real, de las constantes enumeradas.
 

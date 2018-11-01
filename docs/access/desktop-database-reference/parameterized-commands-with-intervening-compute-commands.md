@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c05e1a8b31523b9dd225c062caf2b602df1b222e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c44afce969af77696e52cea3bc194d73eb2ddd25
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483332"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877257"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>Comandos parametrizados con comandos COMPUTE intermedios
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Una comando shape APPEND parametrizado típico tiene una cláusula que crea un objeto **Recordset** secundario con un comando de consulta y otra cláusula que crea un objeto **Recordset** secundario con un comando de consulta parameterizado, es decir, un comando que contiene un marcador de posición de parámetro (un signo de interrogación, "?" ). El objeto **Recordset** con forma resultante tiene dos niveles, en los que el elemento principal ocupa el nivel superior y el elemento secundario el nivel inferior.
 

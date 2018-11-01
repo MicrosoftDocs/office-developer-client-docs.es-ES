@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42cdf33d7b34dc4a48392d21dcdb2d9de26b4bbc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b013ab0b05242b4928f7a9b9d974ef98ca6103d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484829"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885027"
 ---
-# <a name="adding-data-to-a-recordset"></a>Agregar datos a un conjunto de registros
+# <a name="adding-data-to-a-recordset"></a>Adición de datos a un conjunto de registros
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Probablemente, el objeto **Recordset** es el más usado de los objetos de ADO. En ADO, un **conjunto de registros** se entiende mejor como la combinación de un conjunto de resultados de un origen de datos y sus comportamientos de cursor asociados. Así pues, puede colocar datos en un **conjunto de registros** y luego utilizar los métodos y las propiedades del **conjunto de registros** para desplazarse por las filas de datos, ver los valores de las filas y manipular de otras maneras el conjunto de resultados.
 

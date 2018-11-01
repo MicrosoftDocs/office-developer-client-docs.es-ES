@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
 ms:contentKeyID: 48545637
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 46d349bb5b9061afa2f5df13b6a9da45e1b942a8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5336c0993230b7d380b335e6f8e7eaa1af9b306c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483919"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867828"
 ---
 # <a name="recordset2bookmark-property-dao"></a>Recordset2.Bookmark Property (DAO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Establece o devuelve un marcador que identifica únicamente al registro actual en un objeto **Recordset**.
 

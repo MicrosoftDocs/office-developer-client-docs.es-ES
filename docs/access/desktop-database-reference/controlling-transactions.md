@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248994(v=office.15)
 ms:contentKeyID: 48543685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b70e6586e17286f4f7a13417d0901f1250635631
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4acd03e387f50d9035c73dd2fef934f6fd6985a5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486533"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889647"
 ---
 # <a name="controlling-transactions"></a>Controlar transacciones
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Una *transacción* delimita el principio y el final de una serie de operaciones de acceso a datos que ocurren durante una conexión. Dependiendo de las funcionalidades transaccionales de un origen de datos, el objeto **Connection** también permite crear y administrar transacciones. Por ejemplo, si utiliza el proveedor de Microsoft OLE DB para SQL Server para tener acceso a una base de datos en Microsoft SQL Server 2000, puede crear varias transacciones anidadas para los comandos que ejecute.
 

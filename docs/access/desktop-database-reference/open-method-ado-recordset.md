@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd5a956d5a978a374e10c85e7803715f81d48f2a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bf40fa501c24af3433dde1bf2b0686fd3854acf2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603081"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884293"
 ---
 # <a name="open-method-ado-recordset"></a>Open (método, objeto Recordset de ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Abre un cursor.
@@ -63,9 +63,7 @@ Si se utiliza el método **Open** en un objeto **Recordset**, se abre un cursor 
 
 Use el argumento *Source* opcional para especificar un origen de datos mediante uno de los siguientes: una variable del objeto **Command** , una instrucción SQL, un procedimiento almacenado, un nombre de tabla, una dirección URL o un nombre de ruta de acceso completa del archivo. Si el *origen* es un nombre de ruta de acceso de archivo, puede ser una ruta de acceso completa ("c:\\dir\\file.rst"), una ruta de acceso relativa ("... \\file.rst "), o una dirección URL ("https://files/file.rst").
 
-<<<<<<< HEAD no resulta una buena idea utilizar el argumento *Source* del método **Open** para realizar una consulta de acción que no devuelve registros porque no hay ninguna forma sencilla de determinar si la llamada se ha realizado correctamente. El objeto **Recordset** devuelto por esa consulta se cerrará. Llame al método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) de un objeto **Command** o al método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de un objeto **Connection** para realizar una consulta que no devuelve registros, como una instrucción SQL INSERT.
-=== No resulta una buena idea utilizar el argumento *Source* del método **Open** para realizar una consulta de acción que no devuelve registros porque no hay ninguna forma sencilla de determinar si la llamada se ha realizado correctamente. El objeto **Recordset** devuelto por esa consulta se cerrará. Llame al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de un objeto **Command** o al método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de un objeto **Connection** para realizar una consulta que no devuelve registros, como una instrucción SQL INSERT.
->>>>>>> master
+No es una buena idea utilizar el argumento *Source* del método **Open** para realizar una consulta de acción que no devuelve registros porque no hay ninguna forma sencilla de determinar si la llamada se ha realizado correctamente. El objeto **Recordset** devuelto por esa consulta se cerrará. Llame al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de un objeto **Command** o al método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de un objeto **Connection** para realizar una consulta que no devuelve registros, como una instrucción SQL INSERT.
 
 El argumento *ActiveConnection* corresponde a la propiedad [ActiveConnection](activeconnection-property-ado.md) y especifica en qué conexión para abrir el **conjunto de registros** del objeto. Si pasa una definición de conexión para este argumento, ADO abre una conexión nueva con los parámetros especificados. Después de abrir el **objeto Recordset** con un cursor de cliente (**CursorLocation** = **adUseClient**), puede cambiar el valor de esta propiedad para enviar actualizaciones a otro proveedor. O bien, puede establecer el valor de esta propiedad en **Nothing** (en Microsoft Visual Basic) o en NULL para desconectar el objeto **Recordset** de todos los proveedores. Sin embargo, si se cambia el valor de **ActiveConnection** en el caso de un cursor de servidor, se generará un error.
 
@@ -104,14 +102,7 @@ Si el valor de la propiedad [CursorLocation](cursorlocation-property-ado.md) es 
 > <P>Recuperación en segundo plano en el proveedor MS Remote se admite sólo a través del parámetro <EM>Options</EM> del método <STRONG>Open</STRONG> .</P>
 
 
-<<<<<<< HEAD
-
-
-> [!NOTE]
-> <P>[!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obtener más información, vea <A href="absolute-and-relative-urls.md">Direcciones URL absolutas y relativas</A>.</P>
-=======
 > [!NOTE]
 > [!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
->>>>>>> master
 
 

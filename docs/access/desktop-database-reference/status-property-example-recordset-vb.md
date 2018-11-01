@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad Status (Recordset) (VB) TOCTitle: ejemplo de propiedad Status (Recordset) (VB) === título: ejemplo de la propiedad Status (Recordset) (VB) TOCTitle: ejemplo de la propiedad Status (Recordset) (VB)
->>>>>>> Master ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: ms.date 48546476: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Status (Recordset) (VB)
+TOCTitle: Status property example (Recordset) (VB)
+ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
+ms:contentKeyID: 48546476
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23e444b2b10946c815cb25b0ed8aedb7533b89c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869067"
 ---
-
-<<<<<<< HEAD
 # <a name="status-property-example-recordset-vb"></a>Ejemplo de la propiedad Status (Recordset) (VB)
-=======
-# <a name="status-property-example-recordset-vb"></a>Ejemplo de la propiedad Status (Recordset) (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249870(v=office.15)
 ms:contentKeyID: 48547248
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15eadc36079faa529585e539b67eb0da246cf4bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b01809cd17c9c1a5c1a73a5765bb8808692e4c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484918"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877922"
 ---
 # <a name="rds-tutorial-visual-j"></a>Tutorial de RDS (Visual J++)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 ADO/WFC no sigue completamente el modelo de objetos RDS, ya que no implementa el objeto [RDS.DataControl](datacontrol-object-rds.md). ADO/WFC sólo implementa la clase de la parte cliente, [RDS.DataSpace](dataspace-object-rds.md).
 

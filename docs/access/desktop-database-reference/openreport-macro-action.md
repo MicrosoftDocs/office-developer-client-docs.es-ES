@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 06828474aee961dd6df02f29c7d046805a1c764c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2a1f5afd4b8828fdc39744e92d0a4e92ca7bd6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484467"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871496"
 ---
 # <a name="openreport-macro-action"></a>AbrirInforme (acción de macro)
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **AbrirInforme** para abrir un informe en la vista Diseño o Vista preliminar, o bien, para enviar el informe directamente a la impresora. También puede restringir los registros que se imprimen en el informe.
 

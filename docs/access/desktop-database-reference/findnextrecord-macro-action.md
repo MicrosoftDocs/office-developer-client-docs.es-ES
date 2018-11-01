@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b58478a67468fa7d00c348066459672bc31c52a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485917"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883655"
 ---
 # <a name="findnextrecord-macro-action"></a>BuscarRegistroSiguiente (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **BuscarRegistroSiguiente** para buscar el siguiente registro que cumpla los criterios especificados por la anterior acción **BuscarRegistro** o el valor en el cuadro de diálogo **Buscar y reemplazar** (en la ficha **Inicio**, haga clic en **Buscar**). Puede usar la acción **BuscarRegistroSiguiente** para buscar registros repetidamente. Por ejemplo, para recorrer sucesivamente todos los registros de un cliente concreto.
 

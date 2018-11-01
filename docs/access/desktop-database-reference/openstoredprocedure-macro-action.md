@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b30049348171fcd65bbc2edd25c18256a12c955
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d7d6c54913511ab593ee77d374ed55984ed40b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484685"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883256"
 ---
 # <a name="openstoredprocedure-macro-action"></a>AbrirProcedimientoAlmacenado (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, puede utilizar la acción **AbrirProcedimientoAlmacenado** para abrir un procedimiento almacenado en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta el procedimiento almacenado especificado cuando se abre en la vista Hoja de datos. Puede seleccionar el modo de entrada de datos del procedimiento almacenado y restringir los registros que muestra el procedimiento almacenado.
 

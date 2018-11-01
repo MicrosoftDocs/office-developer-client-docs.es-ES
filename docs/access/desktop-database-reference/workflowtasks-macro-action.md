@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm8454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 29bd256c08a3b7c650609bc9b365436e5d332b8d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1bbb04600dc6f7ecea4ce9084b146d3bf696cd6b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484674"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878125"
 ---
 # <a name="workflowtasks-macro-action"></a>TareasFlujoTrabajo (acción de macro)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **TareasFlujoTrabajo** para mostrar el cuadro de diálogo **Tarea de flujo de trabajo**.
 

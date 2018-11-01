@@ -1,22 +1,22 @@
 ---
-title: MoveAndSizeWindow Macro Action
+title: Acción de Macro Moverycambiartamañodeventana
 TOCTitle: MoveAndSizeWindow Macro Action
 ms:assetid: 86bcf45f-90ce-4ca2-a7fb-efbe5347d137
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d423668f5ef53abf4216fa8f976c674474a752ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ab2998140f46fd3275f564684995d9a4d8d56968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485291"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882542"
 ---
-# <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow Macro Action
+# <a name="moveandsizewindow-macro-action"></a>Acción de Macro Moverycambiartamañodeventana
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 
 Si ha establecido el documento de opciones de la ventana para usar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa. Para obtener información acerca de cómo configurar las opciones de la ventana de documento, vea la sección Comentarios.

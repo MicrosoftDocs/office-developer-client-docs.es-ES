@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249223(v=office.15)
 ms:contentKeyID: 48544617
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a97c487dd2d8f7a49af05fc9be689fd5672f6149
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf497c64767a872a2bfd1e07754fcc8a5afa9dd9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25484825"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881835"
 ---
 # <a name="visual-basic-for-applications-functions"></a>Funciones de Visual Basic para Aplicaciones
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Se pueden utilizar las siguientes funciones de Visual Basic para Aplicaciones para la forma de datos de las expresiones CALC:
 

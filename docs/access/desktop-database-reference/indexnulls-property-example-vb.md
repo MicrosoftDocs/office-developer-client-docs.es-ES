@@ -1,15 +1,21 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad IndexNulls (VB) TOCTitle: ejemplo de propiedad IndexNulls (VB) === título: ejemplo de propiedad IndexNulls (VB) TOCTitle: ejemplo de propiedad IndexNulls (VB)
->>>>>>> Master ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: ms.date 48545417: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad IndexNulls (VB)
+TOCTitle: IndexNulls property example (VB)
+ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
+ms:contentKeyID: 48545417
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c1baa2169b2d953f7a390dee44f9841a4c7ecfa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869851"
 ---
+# <a name="indexnulls-property-example-vb"></a>Ejemplo de la propiedad IndexNulls (VB)
 
-<<<<<<< HEAD
-# <a name="indexnulls-property-example-vb"></a>Ejemplo de propiedad IndexNulls (VB)
-=======
-# <a name="indexnulls-property-example-vb"></a>Ejemplo de propiedad IndexNulls (VB)
->>>>>>> master
-
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo, se muestra la propiedad [IndexNulls](indexnulls-property-adox.md) de un [índice](index-object-adox.md). El código crea un nuevo índice y establece el valor de **IndexNulls** en función de valores especificados por el usuario (de un cuadro de lista denominado List1). A continuación, se anexa el **índice** a la [tabla](table-object-adox.md) de **empleados** en el [catálogo](catalog-object-adox.md)de *Northwind* . El nuevo **índice** se aplica a un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees** y el **conjunto de registros** se abre. Se añade un nuevo registro a la tabla **Employees**, con valor **Nulo** en el campo indizado. Que el nuevo registro se muestre o no depende de la configuración de la propiedad **IndexNulls**.
 

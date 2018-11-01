@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5ac9c60be702841a4e45628ba609bdc63e14477
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862141"
+ms.locfileid: "25882738"
 ---
 # <a name="absolute-and-relative-urls"></a>Direcciones URL absolutas y relativas
 
-**Se aplica a**: Access 2013 | Office 2013 
+**Se aplica a**: Access 2013, Office 2013    
 
 Una dirección URL especifica la ubicación de un destino almacenado en un equipo local o de red, como un archivo, directorio, HTML página, imagen, programa y así sucesivamente. En esta descripción, una *dirección URL absoluta* es del formulario:
 
@@ -81,5 +81,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 La parte inicial de una dirección URL completa es el *esquema* utilizado para obtener acceso al recurso identificado por el resto de la dirección URL. Por ejemplo, HTTP (Protocolo de transferencia de hipertexto) y FTP (Protocolo de transferencia de archivos).
 
 ADO admite proveedores OLE DB que reconocen sus propios esquemas de dirección URL. Por ejemplo, el [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), que obtiene acceso a los archivos de Windows 2000 "habían publicado", reconoce el esquema HTTP existente.
-
 

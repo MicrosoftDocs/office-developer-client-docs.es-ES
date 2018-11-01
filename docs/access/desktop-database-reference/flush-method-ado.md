@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c2d7543d2e9a1229661e572e95b783621aa43fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4ecf56ccf715df324798cd9b5adfc57f92591f05
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25486234"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885132"
 ---
 # <a name="flush-method-ado"></a>Flush (método, ADO)
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Vuelca el contenido del objeto [Stream](stream-object-ado.md) que queda en el búfer de ADO en el objeto subyacente al que está asociado el objeto **Stream**.
 

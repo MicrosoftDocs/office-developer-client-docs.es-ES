@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606944"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883186"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Proveedor de Microsoft OLE DB para ODBC
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Para un programador de ADO o RDS, un mundo ideal sería aquel en que cada origen de datos expusiera una interfaz OLE DB, de modo que ADO pudiera llamar directamente al origen de datos. Aunque cada vez más proveedores de bases de datos están implementando interfaces OLE DB, algunos orígenes de datos aún no están expuestos de esta forma. Sin embargo, es posible obtener acceso a prácticamente todos los sistemas DBMS que se usan en la actualidad a través de ODBC.
 
@@ -79,11 +79,7 @@ La cadena consta de estas palabras clave:
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<<<<<<< HEAD
-<td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta Web.</p></td>
-=======
 <td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta web.</p></td>
->>>>>>>patrón
 </tr>
 </tbody>
 </table>

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249033(v=office.15)
 ms:contentKeyID: 48543829
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d12ab7bedd58743eb7545ed8b0b8b585ab2ea217
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c88c7c5643559dabf3304863417c526a9fd15354
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485128"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873274"
 ---
 # <a name="jumping-to-a-record"></a>Saltar a un registro
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 El método [Move](move-method-ado.md) permite avanzar o retroceder un número determinado de registros en el **conjunto de registros** utilizando la sintaxis siguiente:
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: TOCTitle de ejemplo de la propiedad de preparado (VC ++): ejemplo de propiedad preparado (VC ++) === título: ejemplo de la propiedad Prepared (VC ++) TOCTitle: ejemplo de la propiedad Prepared (VC ++)
->>>>>>> Master ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: ms.date 48546562: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de la propiedad Prepared (VC++)
+TOCTitle: Prepared property example (VC++)
+ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
+ms:contentKeyID: 48546562
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f0c3f6f48418b6b8df95b423b9baba3a9c84c21b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885818"
 ---
-
-<<<<<<< HEAD
 # <a name="prepared-property-example-vc"></a>Ejemplo de la propiedad Prepared (VC++)
-=======
-# <a name="prepared-property-example-vc"></a>Ejemplo de la propiedad Prepared (VC ++)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [Prepared](prepared-property-ado.md) al abrir dos objetos [Command](command-object-ado.md), uno preparado y otro sin preparar.
 

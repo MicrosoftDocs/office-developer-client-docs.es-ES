@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título HEAD: ejemplo de propiedad de atributos (VB) TOCTitle: ejemplo de propiedad de atributos (VB) === título: ejemplo de propiedad Attributes (VB) TOCTitle: ejemplo de propiedad Attributes (VB)
->>>>>>> Master ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: ms.date 48547442: 18/09/2015 mtps_version: Office.15
+title: Ejemplo de propiedad Attributes (VB)
+TOCTitle: Attributes property example (VB)
+ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
+ms:contentKeyID: 48547442
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879259"
 ---
-
-<<<<<<< HEAD
 # <a name="attributes-property-example-vb"></a>Ejemplo de propiedad Attributes (VB)
-=======
-# <a name="attributes-property-example-vb"></a>Ejemplo de propiedad Attributes (VB)
->>>>>>> master
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo, se muestra la propiedad [Attributes](attributes-property-adox.md) de una [columna](column-object-adox.md). Si se establece en **adColNullable**, el usuario puede establecer el valor de un objeto [Field](recordset-object-ado.md) de [Recordset](field-object-ado.md) en una cadena vacía. En esta situación, el usuario puede distinguir entre un registro en el que no se conocen los datos y un registro en el que los datos no son aplicables.
 

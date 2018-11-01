@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a953157e7b38aab7989b4c52f60bfffd1c56766
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25485076"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877551"
 ---
 # <a name="ado-dynamic-properties"></a>Propiedades dinámicas de ADO
 
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Access 2013, Office 2013
 
 Las propiedades dinámicas se pueden agregar a las colecciones [Properties](properties-collection-ado.md) de los objetos [Connection](connection-object-ado.md), [Command](command-object-ado.md) o [Recordset](recordset-object-ado.md). El origen de estas propiedades es un proveedor de datos, tal como el [Proveedor OLE DB para SQL Server](microsoft-ole-db-provider-for-sql-server.md), o un proveedor de servicios, tal como el [Servicio de cursores de Microsoft para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md). Consulte la documentación correspondiente del proveedor de datos o servicios para obtener más información acerca de una propiedad dinámica concreta.
 
