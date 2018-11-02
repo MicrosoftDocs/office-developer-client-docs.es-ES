@@ -1,19 +1,19 @@
 ---
-title: Indexes (colección) (ADOX)
-TOCTitle: Indexes Collection (ADOX)
+title: Indexes (colección, ADOX)
+TOCTitle: Indexes collection (ADOX)
 ms:assetid: ab04bdd1-7c4a-44cb-dfc6-add3a52f502f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249793(v=office.15)
 ms:contentKeyID: 48546963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: babe561a42a3157422b7b382410363e1ca3786b3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7d40736d30b0ebb62796b7cd2d0f8b4ede9e964c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888184"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930654"
 ---
-# <a name="indexes-collection-adox"></a>Indexes (colección) (ADOX)
+# <a name="indexes-collection-adox"></a>Indexes (colección, ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

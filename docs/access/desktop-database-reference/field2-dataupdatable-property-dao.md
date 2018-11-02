@@ -1,19 +1,19 @@
 ---
-title: Field2.DataUpdatable Property (DAO)
+title: Propiedad Field2.DataUpdatable (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
 ms:contentKeyID: 48548377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f961bf727c016a025e5ebe7107c5082b1b63deb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aafa6e49168d6ab04ad357f867554ecaff581afd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885839"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930927"
 ---
-# <a name="field2dataupdatable-property-dao"></a>Field2.DataUpdatable Property (DAO)
+# <a name="field2dataupdatable-property-dao"></a>Propiedad Field2.DataUpdatable (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013

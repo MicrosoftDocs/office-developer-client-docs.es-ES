@@ -1,19 +1,19 @@
 ---
-title: EditarRegistro (bloque de datos)
-TOCTitle: EditRecord Data Block
+title: Bloque de datos EditarRegistro
+TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c4d5a5a1565aeda41e5a52127e9f82b5304e686
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c2b3499d7b2a779739dc965e6f0ca35ebab369ea
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876887"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930885"
 ---
-# <a name="editrecord-data-block"></a>EditarRegistro (bloque de datos)
+# <a name="editrecord-data-block"></a>Bloque de datos EditarRegistro
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -65,7 +65,7 @@ Después de la instrucción **EditarRegistro**, puede insertar un bloque de coma
 <td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... A continuación... Instrucción de Macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... A continuación... Instrucción de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>

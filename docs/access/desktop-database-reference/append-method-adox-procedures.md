@@ -1,19 +1,19 @@
 ---
-title: Append (método, procedimientos ADOX)
-TOCTitle: Append Method (ADOX Procedures)
+title: Append (método, Procedures de ADOX)
+TOCTitle: Append method (ADOX Procedures)
 ms:assetid: a93b31bb-e41a-5152-abe7-dd7c2b2fcd0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef11c9d45cc5b34b5ef7b1cf762dfd6f3e4c1d64
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 838483d03ee57dd9a546692e130aea2360a5b83d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873050"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930619"
 ---
-# <a name="append-method-adox-procedures"></a>Append (método, procedimientos ADOX)
+# <a name="append-method-adox-procedures"></a>Append (método, Procedures de ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

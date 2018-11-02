@@ -1,19 +1,19 @@
 ---
-title: CubeDefs (colección) (ADO MD)
-TOCTitle: CubeDefs Collection (ADO MD)
+title: CubeDefs (colección, ADO MD)
+TOCTitle: CubeDefs collection (ADO MD)
 ms:assetid: 31adca99-7c4f-7393-4bab-bcb38bcfc2ac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249090(v=office.15)
 ms:contentKeyID: 48544060
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4775e167152b7ddb244fd4b1e440432ce84e064d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 65f2368f3bf4d3839a9883399c3a96e61d01c1e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872546"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928708"
 ---
-# <a name="cubedefs-collection-ado-md"></a>CubeDefs (colección) (ADO MD)
+# <a name="cubedefs-collection-ado-md"></a>CubeDefs (colección, ADO MD)
 
 
 **Se aplica a**: Access 2013, Office 2013

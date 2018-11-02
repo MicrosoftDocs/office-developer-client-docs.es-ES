@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfb2ea094594d3a2b71b1e449ecae1bf7b3631e6
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 406380b0c935e94b8478e0b135bf5f92180faaca
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910679"
+ms.locfileid: "25928335"
 ---
 # <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl propiedades, métodos y eventos (RDS)
 
@@ -19,7 +19,7 @@ ms.locfileid: "25910679"
 
 ## <a name="properties"></a>Propiedades
 
-- [Propiedad Connect (RDS)](connect-property-rds.md)
+- [Conectar (propiedad, RDS)](connect-property-rds.md)
 
 - [ExecuteOptions (propiedad, RDS)](executeoptions-property-rds.md)
 
@@ -43,19 +43,19 @@ ms.locfileid: "25910679"
 
 - [SortColumn (propiedad, RDS)](sortcolumn-property-rds.md)
 
-- [Propiedad SortDirection (RDS)](sortdirection-property-rds.md)
+- [SortDirection (propiedad, RDS)](sortdirection-property-rds.md)
 
-- [Propiedad SQL (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
+- [SQL (propiedad, RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
 
-- [Propiedad URL (RDS)](url-property-rds.md)
+- [Dirección URL (propiedad, RDS)](url-property-rds.md)
 
 ## <a name="methods"></a>Métodos
 
 - [Método Cancel (RDS)](cancel-method-rds.md)
 
-- [Método CancelUpdate (RDS)](cancelupdate-method-rds.md)
+- [CancelUpdate (método, RDS)](cancelupdate-method-rds.md)
 
-- [Método CreateRecordset (RDS)](createrecordset-method-rds.md)
+- [Ejemplo del método CreateRecordset (RDS)](createrecordset-method-rds.md)
 
 - [Métodos MoveFirst, MoveLast, MoveNext y MovePrevious (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 

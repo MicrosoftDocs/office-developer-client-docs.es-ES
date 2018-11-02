@@ -6,25 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124002(v=office.15)
 ms:contentKeyID: 52071639
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b3a7a67d5ee29970442e97998b53876f4bbf7c1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e88a32fc1a757b7c6459a0d59c4b76510a87271d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878503"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929604"
 ---
 # <a name="recordsets-object-reference-dao"></a>Referencia de objeto de conjuntos de registros (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Recordsets Collection (DAO)](recordsets-collection-dao.md)
-
-  - [Recordsets Members (DAO)](recordsets-members-dao.md)
-
-  - [Recordsets Properties (DAO)](recordsets-properties-dao.md)
-
-  - [Recordsets Methods (DAO)](recordsets-methods-dao.md)
+- [Colección Recordsets (DAO)](recordsets-collection-dao.md)
+- [Miembros de los conjuntos de registros (DAO)](recordsets-members-dao.md)
+- [Propiedades de conjuntos de registros (DAO)](recordsets-properties-dao.md)
+- [Métodos de conjuntos de registros (DAO)](recordsets-methods-dao.md)
 

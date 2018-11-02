@@ -1,19 +1,19 @@
 ---
-title: Hierarchy (objeto) (ADO MD)
-TOCTitle: Hierarchy Object (ADO MD)
+title: Hierarchy (objeto, ADO MD)
+TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 26e4e690-59ad-fb87-66b0-f3310df42d0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249031(v=office.15)
 ms:contentKeyID: 48543825
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ad6eb40873d0cd88b441adaa5568ad57dced83c6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5005ffec000c8fecc1188f37fad75227385f9ee2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869788"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928190"
 ---
-# <a name="hierarchy-object-ado-md"></a>Hierarchy (objeto) (ADO MD)
+# <a name="hierarchy-object-ado-md"></a>Hierarchy (objeto, ADO MD)
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ---
 title: EjecutarMacroDeDatos (acción de macro)
-TOCTitle: RunDataMacro Macro Action
+TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6777ae05d2ab7455016df834d17abb3406a2d710
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1d540b909a2ac5741719470f5632e34205806ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889927"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927987"
 ---
 # <a name="rundatamacro-macro-action"></a>EjecutarMacroDeDatos (acción de macro)
 
@@ -49,7 +49,7 @@ La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Puede utilizar la acción **EjecutarMacroDeDatos** en macros, macros de datos con nombre y en los siguientes eventos de macro: **[Después de eliminar](after-delete-macro-event.md)**, **[Después de insertar](after-insert-macro-event.md)** y **[Después de actualizar](after-update-macro-event.md)**.
+Puede usar la acción **EjecutarMacroDeDatos** en macros, denominadas macros de datos y los siguientes eventos de macro: **[evento de macro después de eliminar](after-delete-macro-event.md)**, **[evento de macro después de insertar](after-insert-macro-event.md)** y **[eventos de macro después de actualizar](after-update-macro-event.md)**.
 
 El nombre de la macro de datos debe incluir en la tabla a la que está conectado (por ejemplo, **Comments.AddComment**, no sólo **AddComment**).
 

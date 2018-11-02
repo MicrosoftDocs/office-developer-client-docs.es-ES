@@ -1,6 +1,6 @@
 ---
-title: Connection (objeto) (ADO)
-TOCTitle: Connection Object (ADO)
+title: Connection (objeto, ADO)
+TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
 ms:contentKeyID: 48547528
@@ -10,14 +10,14 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f2c629a24bf6327be8a9848e719b40bfa88ea17
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d7f35c2f76ec8cf2fd671f5ef9eefb42f8555237
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873323"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931389"
 ---
-# <a name="connection-object-ado"></a>Connection (objeto) (ADO)
+# <a name="connection-object-ado"></a>Connection (objeto, ADO)
 
 **Se aplica a**: Access 2013, Office 2013
 

@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
 ms:contentKeyID: 52073528
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a51cd495df003063da8e3ac924770a9c880b4cad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 77cc75c11f6e123eecec89e8ecfc30e9151f8631
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876914"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930206"
 ---
 # <a name="error-object-reference-dao"></a>Referencia de objeto de error (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Error Object (DAO)](error-object-dao.md)
-
-  - [Error Members (DAO)](error-members-dao.md)
-
-  - [Error Properties (DAO)](error-properties-dao.md)
+- [Objeto Error (DAO)](error-object-dao.md)
+- [Miembros de error (DAO)](error-members-dao.md)
+- [Propiedades de error (DAO)](error-properties-dao.md)
 

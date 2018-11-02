@@ -1,19 +1,19 @@
 ---
-title: Users (colección) (ADOX)
-TOCTitle: Users Collection (ADOX)
+title: Users (colección, ADOX)
+TOCTitle: Users collection (ADOX)
 ms:assetid: bc61c862-1637-02e7-4b56-5ad984bdbcb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3415fb7a2972621978ba3673343eb5f32b0eec1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b44b7b858adca5672266eb1898213d8f28429f2e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885622"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931137"
 ---
-# <a name="users-collection-adox"></a>Users (colección) (ADOX)
+# <a name="users-collection-adox"></a>Users (colección, ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

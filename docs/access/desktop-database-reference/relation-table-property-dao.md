@@ -1,5 +1,5 @@
 ---
-title: Relation.Table Property (DAO)
+title: Propiedad Relation.Table (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053068
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bdc58837cea3f54e46a3e805523e77c27cb21e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd6f1ef3ea1d955f3b17d4cafb7e521c54191d27
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870831"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929583"
 ---
-# <a name="relationtable-property-dao"></a>Relation.Table Property (DAO)
+# <a name="relationtable-property-dao"></a>Propiedad Relation.Table (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013
