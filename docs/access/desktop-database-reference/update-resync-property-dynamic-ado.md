@@ -1,19 +1,19 @@
 ---
-title: dinámica Update Resync (propiedad, ADO)
-TOCTitle: Update Resync Property--Dynamic (ADO)
+title: Actualizar la propiedad dinámica Resync (ADO)
+TOCTitle: Update Resync dynamic property (ADO)
 ms:assetid: 0af9cfd2-8042-65c9-cec6-77d2e7a88ad9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
 ms:contentKeyID: 48543166
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 57b7fd5dadf6b4da3239cc208744691ce22e62f1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0f1443d1f2a4eccd8599256425a971bc63cd4d8b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880477"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918985"
 ---
-# <a name="update-resync-property--dynamic-ado"></a>dinámica Update Resync (propiedad, ADO)
+# <a name="update-resync-dynamic-property-ado"></a>Actualizar la propiedad dinámica Resync (ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013

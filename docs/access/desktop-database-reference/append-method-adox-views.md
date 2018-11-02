@@ -1,19 +1,19 @@
 ---
-title: Append (método, vistas ADOX)
-TOCTitle: Append Method (ADOX Views)
+title: Append (método, Views de ADOX)
+TOCTitle: Append method (ADOX Views)
 ms:assetid: 202f1d0a-dc5d-84e5-daf3-3212e5bc6088
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 706ab2607f7f169b9b731f9ac81409bf1ac97230
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ccba425e74321f4ab760e9ddc4a722295290ffd1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888212"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925159"
 ---
-# <a name="append-method-adox-views"></a>Append (método, vistas ADOX)
+# <a name="append-method-adox-views"></a>Append (método, Views de ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -1,92 +1,92 @@
 ---
-title: Propiedades de Recordset (DAO)
+title: Propiedades del objeto Recordset (DAO)
 TOCTitle: Properties
 ms:assetid: 37114a17-3737-4995-b35d-dd64c75b5ed2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
 ms:contentKeyID: 52071970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8bfdfa2894620cd4ee0281776dd426ef0a086a2a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23e83019a51b73f67b983b9c84672d2d9321539d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871916"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925033"
 ---
-# <a name="recordset-properties-dao"></a>Propiedades de Recordset (DAO)
+# <a name="recordset-properties-dao"></a>Propiedades del objeto Recordset (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Recordset.AbsolutePosition Property (DAO)](recordset-absoluteposition-property-dao.md)
+  - [Propiedad Recordset.AbsolutePosition (DAO)](recordset-absoluteposition-property-dao.md)
 
-  - [Recordset.BatchCollisionCount Property (DAO)](recordset-batchcollisioncount-property-dao.md)
+  - [Propiedad Recordset.BatchCollisionCount (DAO)](recordset-batchcollisioncount-property-dao.md)
 
-  - [Recordset.BatchCollisions Property (DAO)](recordset-batchcollisions-property-dao.md)
+  - [Propiedad Recordset.BatchCollisions (DAO)](recordset-batchcollisions-property-dao.md)
 
-  - [Recordset.BatchSize Property (DAO)](recordset-batchsize-property-dao.md)
+  - [Propiedad Recordset.BatchSize (DAO)](recordset-batchsize-property-dao.md)
 
-  - [Recordset.BOF Property (DAO)](recordset-bof-property-dao.md)
+  - [Propiedad Recordset.BOF (DAO)](recordset-bof-property-dao.md)
 
-  - [Recordset.Bookmark Property (DAO)](recordset-bookmark-property-dao.md)
+  - [Propiedad Recordset.Bookmark (DAO)](recordset-bookmark-property-dao.md)
 
-  - [Recordset.Bookmarkable Property (DAO)](recordset-bookmarkable-property-dao.md)
+  - [Propiedad Recordset.Bookmarkable (DAO)](recordset-bookmarkable-property-dao.md)
 
-  - [Recordset.CacheSize Property (DAO)](recordset-cachesize-property-dao.md)
+  - [Propiedad Recordset.CacheSize (DAO)](recordset-cachesize-property-dao.md)
 
-  - [Recordset.CacheStart Property (DAO)](recordset-cachestart-property-dao.md)
+  - [Propiedad Recordset.CacheStart (DAO)](recordset-cachestart-property-dao.md)
 
-  - [Recordset.Connection Property (DAO)](recordset-connection-property-dao.md)
+  - [Propiedad Recordset.Connection (DAO)](recordset-connection-property-dao.md)
 
-  - [Recordset.DateCreated Property (DAO)](recordset-datecreated-property-dao.md)
+  - [Propiedad Recordset.DateCreated (DAO)](recordset-datecreated-property-dao.md)
 
-  - [Recordset.EditMode Property (DAO)](recordset-editmode-property-dao.md)
+  - [Propiedad Recordset.EditMode (DAO)](recordset-editmode-property-dao.md)
 
   - [Propiedad Recordset.EOF (DAO)](recordset-eof-property-dao.md)
 
-  - [Recordset.Fields Property (DAO)](recordset-fields-property-dao.md)
+  - [Propiedad Recordset.Fields (DAO)](recordset-fields-property-dao.md)
 
   - [Propiedad Recordset.Filter (DAO)](recordset-filter-property-dao.md)
 
   - [Propiedad Recordset.Index (DAO)](recordset-index-property-dao.md)
 
-  - [Recordset.LastModified Property (DAO)](recordset-lastmodified-property-dao.md)
+  - [Propiedad Recordset.LastModified (DAO)](recordset-lastmodified-property-dao.md)
 
-  - [Recordset.LastUpdated Property (DAO)](recordset-lastupdated-property-dao.md)
+  - [Propiedad Recordset.LastUpdated (DAO)](recordset-lastupdated-property-dao.md)
 
-  - [Recordset.LockEdits Property (DAO)](recordset-lockedits-property-dao.md)
+  - [Propiedad Recordset.LockEdits (DAO)](recordset-lockedits-property-dao.md)
 
-  - [Recordset.Name Property (DAO)](recordset-name-property-dao.md)
+  - [Propiedad Recordset.Name (DAO)](recordset-name-property-dao.md)
 
-  - [Recordset.NoMatch Property (DAO)](recordset-nomatch-property-dao.md)
+  - [Propiedad Recordset.NoMatch (DAO)](recordset-nomatch-property-dao.md)
 
-  - [Recordset.PercentPosition Property (DAO)](recordset-percentposition-property-dao.md)
+  - [Propiedad Recordset.PercentPosition (DAO)](recordset-percentposition-property-dao.md)
 
-  - [Recordset.Properties Property (DAO)](recordset-properties-property-dao.md)
+  - [Propiedad Recordset.Properties (DAO)](recordset-properties-property-dao.md)
 
   - [Propiedad Recordset.RecordCount (DAO)](recordset-recordcount-property-dao.md)
 
-  - [Recordset.RecordStatus Property (DAO)](recordset-recordstatus-property-dao.md)
+  - [Propiedad Recordset.RecordStatus (DAO)](recordset-recordstatus-property-dao.md)
 
-  - [Recordset.Restartable Property (DAO)](recordset-restartable-property-dao.md)
+  - [Propiedad Recordset.Restartable (DAO)](recordset-restartable-property-dao.md)
 
   - [Propiedad Recordset.Sort (DAO)](recordset-sort-property-dao.md)
 
-  - [Recordset.StillExecuting Property (DAO)](recordset-stillexecuting-property-dao.md)
+  - [Propiedad Recordset.StillExecuting (DAO)](recordset-stillexecuting-property-dao.md)
 
-  - [Recordset.Transactions Property (DAO)](recordset-transactions-property-dao.md)
+  - [Propiedad Recordset.Transactions (DAO)](recordset-transactions-property-dao.md)
 
-  - [Recordset.Type Property (DAO)](recordset-type-property-dao.md)
+  - [Propiedad Recordset.Type (DAO)](recordset-type-property-dao.md)
 
-  - [Recordset.Updatable Property (DAO)](recordset-updatable-property-dao.md)
+  - [Propiedad Recordset.Updatable (DAO)](recordset-updatable-property-dao.md)
 
-  - [Recordset.UpdateOptions Property (DAO)](recordset-updateoptions-property-dao.md)
+  - [Propiedad Recordset.UpdateOptions (DAO)](recordset-updateoptions-property-dao.md)
 
-  - [Recordset.ValidationRule Property (DAO)](recordset-validationrule-property-dao.md)
+  - [Propiedad Recordset.ValidationRule (DAO)](recordset-validationrule-property-dao.md)
 
-  - [Recordset.ValidationText Property (DAO)](recordset-validationtext-property-dao.md)
+  - [Propiedad Recordset.ValidationText (DAO)](recordset-validationtext-property-dao.md)
 
   - [Propiedad Recordset.RecordsetType (DAO)](recordset-recordsettype-property-dao.md)
 

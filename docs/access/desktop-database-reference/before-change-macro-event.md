@@ -1,6 +1,6 @@
 ---
 title: Cambio previo (evento de macro)
-TOCTitle: Before Change Macro Event
+TOCTitle: Before Change macro event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835322(v=office.15)
 ms:contentKeyID: 48548077
@@ -12,12 +12,12 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887862"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926566"
 ---
 # <a name="before-change-macro-event"></a>Cambio previo (evento de macro)
 
@@ -90,43 +90,43 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 <tbody>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instrucción de macro de comentario</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
+<td><p><a href="group-macro-statement.md">Instrucción de macro de grupo</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="if-then-else-macro-block.md">Si...Entonces...Sino (bloque de macro)</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... A continuación... Bloque de macro Else</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">Acción de Macro BuscarRegistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Acción de macro BuscarRegistro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Acción de macro BorrarErrorDeMacro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></p></td>
+<td><p><a href="onerror-macro-action.md">Acción de macro AlOcurrirError</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Acción de macro Provocarerror</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>
+<td><p><a href="setfield-macro-action.md">Acción de macro SetField</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Acción de macro EstablecerVariableLocal</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Acción de macro DetenerMacro</a></p></td>
 </tr>
 </tbody>
 </table>

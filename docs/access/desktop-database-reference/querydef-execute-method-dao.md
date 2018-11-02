@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef.Execute (DAO)
+title: QueryDef.Execute (método) (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8857ef902f10fb31ffb7580d28427ace24d99fd9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890977"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926216"
 ---
-# <a name="querydefexecute-method-dao"></a>Método QueryDef.Execute (DAO)
+# <a name="querydefexecute-method-dao"></a>QueryDef.Execute (método) (DAO)
 
 **Se aplica a**: Access 2013, Office 2013
 

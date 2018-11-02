@@ -1,19 +1,19 @@
 ---
 title: Objeto de usuario) (ADOX - referencia de escritorio de la base de datos de Access)
-TOCTitle: User Object (ADOX)
+TOCTitle: User object (ADOX)
 ms:assetid: e88b9a8a-e70f-c7ca-cb8c-bd274ff24948
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
 ms:contentKeyID: 48548426
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c37e43f09fb4187de246e687d81dbd72463d390
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 845697f54ea5e37e051836896b84d8a3ff061237
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889318"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919885"
 ---
-# <a name="user-object-adox"></a>User (objeto) (ADOX)
+# <a name="user-object-adox"></a>User (objeto, ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

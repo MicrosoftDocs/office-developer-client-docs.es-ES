@@ -6,25 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124871(v=office.15)
 ms:contentKeyID: 52072492
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b30752936cf0540e321ea3d4776b292925ba9f02
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 76d5c1537d9227001b16bbf7e267ab88692c010a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877320"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921120"
 ---
 # <a name="field-object-reference-dao"></a>Referencia de objeto de campo (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Field Object (DAO)](field-object-dao.md)
-
-  - [Field Members (DAO)](field-members-dao.md)
-
-  - [Field Properties (DAO)](field-properties-dao.md)
-
-  - [Field Methods (DAO)](field-methods-dao.md)
+- [Objeto Field (DAO)](field-object-dao.md)
+- [Miembros del campo (DAO)](field-members-dao.md)
+- [Propiedades de campo (DAO)](field-properties-dao.md)
+- [Métodos de campo (DAO)](field-methods-dao.md)
 

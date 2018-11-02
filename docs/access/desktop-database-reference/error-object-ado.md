@@ -1,19 +1,19 @@
 ---
 title: Objeto Error - ActiveX Data Objects (ADO)
-TOCTitle: Error Object (ADO)
+TOCTitle: Error object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae89c4d2300b167a8e7b993ad8830838d91f0617
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f6a18570071428bfbd92d6674ca281234ea883bf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877026"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925215"
 ---
-# <a name="error-object-ado"></a>Error (objeto) (ADO)
+# <a name="error-object-ado"></a>Error (objeto, ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013

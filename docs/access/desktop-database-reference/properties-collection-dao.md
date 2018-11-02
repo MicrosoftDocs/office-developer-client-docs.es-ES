@@ -1,19 +1,19 @@
 ---
-title: Properties Collection (DAO)
+title: Colección Properties (DAO)
 TOCTitle: Properties Collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f30ccd48ee5e4f4815be4d7e1ec6d94f237bc16
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874289"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926944"
 ---
-# <a name="properties-collection-dao"></a>Properties Collection (DAO)
+# <a name="properties-collection-dao"></a>Colección Properties (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013

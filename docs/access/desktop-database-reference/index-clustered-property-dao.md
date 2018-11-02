@@ -1,5 +1,5 @@
 ---
-title: Index.Clustered Property (DAO)
+title: Propiedad Index.Clustered (DAO)
 TOCTitle: Clustered Property
 ms:assetid: dd0876a9-b7fe-c8c8-e675-5ed758ce5bd3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835375(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2748be69677cacee246864303d2ff57dad9235b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875591"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921309"
 ---
-# <a name="indexclustered-property-dao"></a>Index.Clustered Property (DAO)
+# <a name="indexclustered-property-dao"></a>Propiedad Index.Clustered (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013

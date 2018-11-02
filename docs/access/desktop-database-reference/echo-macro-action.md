@@ -1,19 +1,19 @@
 ---
-title: Acción de Macro eco (referencia de escritorio de la base de datos de Access)
-TOCTitle: Echo Macro Action
+title: Acción de macro eco (referencia de escritorio de la base de datos de Access)
+TOCTitle: Echo macro action
 ms:assetid: 38dfb2cf-8db5-44b3-91fa-e490932b940b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34d157398d3e288f96b550a152bb78c12f255573
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868395"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921547"
 ---
-# <a name="echo-macro-action"></a>Acción de macro Echo
+# <a name="echo-macro-action"></a>Eco (acción de macro)
 
 
 **Se aplica a**: Access 2013, Office 2013

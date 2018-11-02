@@ -1,19 +1,19 @@
 ---
-title: s WillMove y MoveComplete (evento, ADO)
-TOCTitle: WillMove and MoveComplete Events (ADO)
+title: WillMove y MoveComplete (eventos, ADO)
+TOCTitle: WillMove and MoveComplete events (ADO)
 ms:assetid: fe7eb823-b388-6b3d-1ae9-056018032ef5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b1a0e119d857947b78eb6adcfc9a5b1ba87e055
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5388601f1ac88e281a6abc5cfe1e644bdeebef28
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868836"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923570"
 ---
-# <a name="willmove-and-movecomplete-events-ado"></a>s WillMove y MoveComplete (evento, ADO)
+# <a name="willmove-and-movecomplete-events-ado"></a>WillMove y MoveComplete (eventos, ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013

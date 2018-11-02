@@ -1,19 +1,19 @@
 ---
-title: Procedures (colección) (ADOX)
-TOCTitle: Procedures Collection (ADOX)
+title: Procedures (colección, ADOX)
+TOCTitle: Procedures collection (ADOX)
 ms:assetid: e1ca53ad-1213-b514-e015-e18c2ab15e23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250150(v=office.15)
 ms:contentKeyID: 48548267
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d0ef2be923a9c38553700539933604ffbc2c00f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd426f25567dee3eb7e43e46b341ac503e558f1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877894"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919118"
 ---
-# <a name="procedures-collection-adox"></a>Procedures (colección) (ADOX)
+# <a name="procedures-collection-adox"></a>Procedures (colección, ADOX)
 
 
 **Se aplica a**: Access 2013, Office 2013

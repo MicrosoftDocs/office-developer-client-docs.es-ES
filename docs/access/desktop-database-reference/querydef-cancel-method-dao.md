@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Cancel Method (DAO)
+title: QueryDef.Cancel (método) (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 91e61012-c01c-4c24-185c-bdadb7f33a58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197642(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8e121457f7084b4d13e89c43a30a7632a3cd7377
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab28f1b976144c40eb8be639bb7c7a1adc3e4450
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873981"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920231"
 ---
-# <a name="querydefcancel-method-dao"></a>QueryDef.Cancel Method (DAO)
+# <a name="querydefcancel-method-dao"></a>QueryDef.Cancel (método) (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013

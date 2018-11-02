@@ -1,19 +1,19 @@
 ---
-title: WillChangeRecordset y RecordsetChangeComplete (evento, ADO)
-TOCTitle: WillChangeRecordset and RecordsetChangeComplete Events (ADO)
+title: WillChangeRecordset y RecordsetChangeComplete (eventos, ADO)
+TOCTitle: WillChangeRecordset and RecordsetChangeComplete events (ADO)
 ms:assetid: 2cec4cf9-a4e9-c386-5202-04e86f4cf8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
 ms:contentKeyID: 48543963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a7bf9a69fd5a648efc86f698e82ca0ba9413a30
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac85cd672a07d65b19578daa8ca737af584972a2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886315"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919146"
 ---
-# <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>WillChangeRecordset y RecordsetChangeComplete (evento, ADO)
+# <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>WillChangeRecordset y RecordsetChangeComplete (eventos, ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -1,26 +1,22 @@
 ---
-title: Column Object (ADOX) Reference
-TOCTitle: Column Object (ADOX)
+title: Referencia de columna (objeto) (ADOX)
+TOCTitle: Column object (ADOX)
 ms:assetid: f35e1307-6424-414c-a170-d389b5e4dc89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250234(v=office.15)
 ms:contentKeyID: 48548669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c9dbcd19735e2494217991040b715efe8765887
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67c979bfc2aac280f4ec8738ef343abfa6c95f9a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881947"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925823"
 ---
-# <a name="column-object-adox-reference"></a>Column Object (ADOX) Reference
-
+# <a name="column-object-adox-reference"></a>Referencia de columna (objeto) (ADOX)
 
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Objeto Column (ADOX)](column-object-adox.md)
-
-  - [Column Properties, Methods, and Events (ADOX)](column-properties-methods-and-events-adox.md)
+- [Column (objeto, ADOX)](column-object-adox.md)
+- [Propiedades de columna, métodos y eventos (ADOX)](column-properties-methods-and-events-adox.md)
 

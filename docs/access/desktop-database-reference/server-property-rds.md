@@ -1,17 +1,17 @@
 ---
 title: Server (propiedad, RDS)
-TOCTitle: Server Property (RDS)
+TOCTitle: Server property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 487b6e676816ab571cb08f6cfe7870362c7a8c84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868437"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925236"
 ---
 # <a name="server-property-rds"></a>Server (propiedad, RDS)
 

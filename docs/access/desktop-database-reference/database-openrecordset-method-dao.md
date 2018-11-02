@@ -1,5 +1,5 @@
 ---
-title: Método Database.OpenRecordset (DAO)
+title: Database.OpenRecordset (método) (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0bc6cc78d932b6735b231d86347512d1c0a4b25d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab969f2e26751a70a0f9ac9daf2ca17bcaa103c5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868290"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925978"
 ---
-# <a name="databaseopenrecordset-method-dao"></a>Método Database.OpenRecordset (DAO)
+# <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset (método) (DAO)
 
 **Se aplica a:** Access 2013 | Office 2013
 

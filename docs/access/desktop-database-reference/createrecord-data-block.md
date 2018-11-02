@@ -1,19 +1,19 @@
 ---
-title: CrearRegistro (bloque de datos)
-TOCTitle: CreateRecord Data Block
+title: Bloque de datos CrearRegistro
+TOCTitle: CreateRecord data block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bda30265cbcf2377114734d03b16f889b0d165b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 69656b6ab65cef0e2dfec01a338dfc5a70752de3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880820"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922100"
 ---
-# <a name="createrecord-data-block"></a>CrearRegistro (bloque de datos)
+# <a name="createrecord-data-block"></a>Bloque de datos CrearRegistro
 
 
 **Se aplica a**: Access 2013, Office 2013
@@ -76,7 +76,7 @@ Después de la instrucción de **CrearRegistro** , puede insertar un bloque de c
 <td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... A continuación... Instrucción de Macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... A continuación... Instrucción de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>

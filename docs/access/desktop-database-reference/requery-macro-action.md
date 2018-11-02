@@ -1,6 +1,6 @@
 ---
 title: NuevaConsulta (acción de macro)
-TOCTitle: Requery Macro Action
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885944"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920035"
 ---
 # <a name="requery-macro-action"></a>NuevaConsulta (acción de macro)
 
@@ -82,5 +82,5 @@ Si deja en blanco el argumento **Nombre del control**, la acción **NuevaConsult
 
 
 
-Si desea volver a consultar un control que no esté en el objeto activo, deberá utilizar el método **Requery** en un módulo de Visual Basic para Aplicaciones (VBA), en lugar de la acción **NuevaConsulta** o su correspondiente método **Requery** del objeto **DoCmd**. El método **Requery** en VBA es más rápido que la acción **NuevaConsulta** o el método **DoCmd.Requery**. Además, cuando se utiliza la acción **NuevaConsulta** o el método **DoCmd.Requery**, Microsoft Access cierra la consulta y vuelve a cargarla desde la base de datos, pero cuando se utiliza el método **Requery**, Access ejecuta de nuevo la consulta sin cerrarla ni cargarla. Observe que el método **Requery** de ActiveX Data Object (ADO) funciona de la misma manera que el método **Requery** de Access.
+Si desea volver a consultar un control que no esté en el objeto activo, deberá utilizar el método **Requery** en un módulo de Visual Basic para Aplicaciones (VBA), en lugar de la acción **NuevaConsulta** o su correspondiente método **Requery** del objeto **DoCmd**. El método **Requery** en VBA es más rápido que la acción **NuevaConsulta** o el método **DoCmd.Requery**. Además, cuando se utiliza la acción **NuevaConsulta** o el método **DoCmd.Requery**, Microsoft Access cierra la consulta y vuelve a cargarla desde la base de datos, pero cuando se utiliza el método **Requery**, Access ejecuta de nuevo la consulta sin cerrarla ni cargarla. Tenga en cuenta que el objeto de datos ActiveX (ADO) **Requery** (método) funciona de la misma manera que el método **Requery** de de Access.
 

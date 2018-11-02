@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123787(v=office.15)
 ms:contentKeyID: 52071427
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10a1e80be5e576bd5b58033fe5abecd2c429c45d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e379ffbcffb5157e633ad3c67364a72364089e06
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925571"
 ---
 # <a name="complextype-object-reference-dao"></a>Referencia de objeto ComplexType (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [ComplexType Object (DAO)](complextype-object-dao.md)
-
-  - [ComplexType Members (DAO)](complextype-members-dao.md)
-
-  - [ComplexType Properties (DAO)](complextype-properties-dao.md)
+- [Objeto ComplexType (DAO)](complextype-object-dao.md)
+- [ComplexType (miembros) (DAO)](complextype-members-dao.md)
+- [Propiedades de ComplexType (DAO)](complextype-properties-dao.md)
 
