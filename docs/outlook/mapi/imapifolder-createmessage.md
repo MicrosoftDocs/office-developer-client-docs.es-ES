@@ -23,7 +23,7 @@ ms.locfileid: "22568227"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Crea un nuevo mensaje.
   
@@ -71,7 +71,7 @@ S_OK
 
 El método **IMAPIFolder::CreateMessage** crea un nuevo mensaje con contenido genérico o asociado y le asigna un identificador de entrada. El identificador de entrada consta de un elemento que representa el proveedor de almacén de mensajes y un elemento que representa el mensaje individual. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Puede elegir si va a establecer todas las propiedades del mensaje se requiere en **CreateMessage** o en el método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje. No es necesario que estas propiedades esté disponible hasta que se ha producido una operación de guardar correcta. 
   
@@ -87,15 +87,15 @@ Para crear un mensaje saliente, llamar al método **IMAPIFolder::CreateMessage**
   
 Si elimina una carpeta que contiene un mensaje nuevo antes de que el mensaje se guarda, los resultados son no definidos.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolder::OnNewMessage  <br/> |MFCMAPI usa el método **IMAPIFolder::CreateMessage** para crear y guardar un mensaje nuevo.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

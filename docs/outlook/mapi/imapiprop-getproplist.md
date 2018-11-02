@@ -23,7 +23,7 @@ ms.locfileid: "22571125"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Devuelve las etiquetas de propiedad para todas las propiedades. 
   
@@ -40,7 +40,7 @@ HRESULT GetPropList(
   
 > [entrada] Una máscara de bits de indicadores que controla el formato de las cadenas en las etiquetas de propiedades que se devuelven. Se puede establecer la marca siguiente:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas devueltas están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -66,7 +66,7 @@ El ámbito de las propiedades devueltas por **GetPropList** varía en función d
   
 Si el objeto no es compatible con Unicode, **GetPropList** devuelve MAPI_E_BAD_CHARWIDTH, incluso si no hay ninguna propiedad de cadena definida para el objeto. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Los proveedores de transporte remoto implementan **GetPropList** exactamente como se especifica aquí. No existen problemas especiales. La implementación debe, devolver por supuesto, la misma lista de propiedades como compatible con el método [IMAPIProp::GetProps](imapiprop-getprops.md) . 
   
@@ -74,15 +74,15 @@ Los proveedores de transporte remoto implementan **GetPropList** exactamente com
 
 Llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de etiqueta de propiedad que señala _lppPropTagArray_. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp::GetPropList** para obtener una lista de propiedades que se pase a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

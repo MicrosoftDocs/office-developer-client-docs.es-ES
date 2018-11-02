@@ -19,13 +19,13 @@ ms.locfileid: "22592930"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Los proveedores de almacén de mensajes son necesarios para implementar una interfaz que permite al usuario configurar el proveedor de almacenamiento de mensajes para que se ejecute en el equipo del usuario. Normalmente, se configura el proveedor de almacén de mensajes cuando se agrega el proveedor de almacenamiento de mensajes a un perfil de usuario. Interfaz de configuración del proveedor de almacén de mensajes generalmente controla las tareas como la configuración de los nombres de usuario y contraseñas para almacenes de mensaje protegido, selección de rutas de acceso a los archivos necesarios, y crear el mecanismo de almacenamiento subyacente va a utilizar, si es necesario.
   
 Se obtiene acceso a la interfaz de configuración que se implementa a través de puntos de entrada adicionales en el archivo DLL del proveedor de servicio mensaje. Para obtener más información, vea [configurar un servicio de mensajes](configuring-a-message-service.md). Interfaz de configuración del proveedor de almacén de mensajes es la única interfaz de usuario que debe implementar un proveedor de almacén de mensajes.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

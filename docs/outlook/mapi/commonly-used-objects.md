@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
-description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+description: 'Última modificación: 25 de junio de 2012'
 ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22567730"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Información acerca de los objetos se documenta en distintas secciones de la referencia de MAPI de Microsoft Outlook 2013. Debido a que casi todos los objetos MAPI exponen una sola interfaz MAPI, el enfoque es tratar los objetos y las interfaces que expongan como sinónimos.
   
@@ -69,7 +69,7 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
     Describe cómo se usan los objetos de soporte técnico y el progreso y cómo implementar un objeto de estado y mostrar tabla.
     
-- [Desarrollar un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
+- [Desarrollar un proveedor de la libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
     
     Describe cómo implementar los objetos de inicio de sesión y proveedor de la libreta de direcciones, direcciones de contenedores de libretas, mensajería a los usuarios, las listas de distribución y tablas relacionadas.
     
@@ -77,11 +77,11 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
     Describe cómo implementar el inicio de sesión de transporte y objetos de proveedor, el objeto de estado, objeto de formato de encapsulación neutro de transporte (TNEF) y las carpetas.
     
-- [Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+- [Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
     
     Describe cómo implementar objetos de inicio de sesión y proveedor de almacén de mensajes, los almacenes de mensajes, carpetas, mensajes, datos adjuntos, los destinatarios y tablas relacionadas.
     
-- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
     
     Describe cómo implementar objetos de formulario.
     

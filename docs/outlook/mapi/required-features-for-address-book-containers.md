@@ -19,7 +19,7 @@ ms.locfileid: "22577215"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 La mayoría de los proveedores de la libreta de direcciones compatible con al menos un contenedor, algunos de ellos modificable. Contenedores de la libreta de direcciones pueden suministrar contenido y las tablas de jerarquía, las capacidades de búsqueda y resolución de nombres. Contenedores modificables permiten la eliminación de entradas, como los usuarios, las listas de distribución, u otros contenedores y la adición de entradas de las entradas de otros contenedores o de plantillas de uso único de mensajería.
   

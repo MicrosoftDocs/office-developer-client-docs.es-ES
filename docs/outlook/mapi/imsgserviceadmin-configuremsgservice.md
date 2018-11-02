@@ -23,7 +23,7 @@ ms.locfileid: "22568297"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Vuelve a configurar un servicio de mensajes.
   
@@ -51,7 +51,7 @@ HRESULT ConfigureMsgService(
   
 > [entrada] Una máscara de bits de indicadores que controla la presentación de la hoja de propiedades. Se pueden establecer los siguientes indicadores:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
 > Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
     
@@ -111,15 +111,15 @@ Puede configurar un servicio de mensajes sin mostrar una hoja de propiedades a u
   
 Si recibe todo o parte de la información de configuración del usuario por medio de una hoja de propiedades, establezca SERVICE_UI_ALLOWED en _ulFlags_. Si utiliza información de la propiedad existente sólo para establecer la configuración predeterminada y el usuario tiene permiso Cambiar la configuración, establezca SERVICE_UI_ALWAYS en _ulFlags_.
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IMsgServiceAdmin::ConfigureMsgService** para configurar un servicio que se ha agregado a un perfil.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

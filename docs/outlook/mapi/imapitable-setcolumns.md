@@ -68,7 +68,7 @@ El conjunto de columnas de una tabla es el grupo de propiedades que componen las
   
 El éxito de la operación **SetColumns** es evidente sólo después de que se ha realizado una llamada posterior para recuperar los datos de la tabla. A continuación, es que los errores se notifican. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Algunos proveedores permiten una llamada **SetColumns** ordenar sólo columnas de la tabla que forman parte de las columnas disponibles para una vista de tabla. Otros proveedores de permiten una llamada **SetColumns** ordenar todas las columnas de tabla, incluidas aquellas que contienen propiedades no en el conjunto de columna original. 
   
@@ -107,11 +107,11 @@ Si una llamada a **SetColumns** devuelve MAPI_E_BUSY, que indica que otra operac
   
 También puede llamar a [HrAddColumnsEx](hraddcolumnsex.md) para cambiar un conjunto de columnas. La diferencia entre **HrAddColumnsEx** y **IMAPITable::SetColumns** es que **HrAddColumnsEx** es menos flexible; sólo puede agregar columnas. Las columnas adicionales se colocan al principio del conjunto de columna; todas las columnas existentes aparecen a continuación de estas columnas. 
   
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::SetColumns** para establecer las columnas de la tabla que desee.  <br/> |
    

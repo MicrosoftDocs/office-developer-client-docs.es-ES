@@ -23,7 +23,7 @@ ms.locfileid: "22565294"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Proporciona acceso a la tabla de proveedor, una lista de los proveedores de servicios en el perfil.
   
@@ -84,7 +84,7 @@ Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ hace lo siguient
     
 - Controles de los tipos de propiedad de devuelto por el método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) antes de que el cliente que contiene la tabla de proveedor llama al método [SortTable](imapitable-sorttable.md) el criterio de ordenación. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

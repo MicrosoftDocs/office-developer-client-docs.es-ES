@@ -21,7 +21,7 @@ ms.locfileid: "22576270"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Contiene una fila y la operación que se lleva a cabo en esa fila en una tabla a través de la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
@@ -34,7 +34,7 @@ typedef struct
 }  ROWENTRY, FAR * LPROWENTRY;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 **ulRowFlags**
   
@@ -56,15 +56,15 @@ typedef struct
   
 > Una matriz de estructuras [SPropValue](spropvalue.md) que representa los valores de las columnas que se insertará en la tabla. 
     
-## <a name="mfcmapi-reference"></a>Referencia MFCMAPI
+## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
-MFCMAPI c�digo de ejemplo, vea la siguiente tabla.
+Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**Archivo**|**Funci�n**|**Comentario**|
+|**File**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para **ModifyTable** las acciones posteriores.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
   
 - [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 - [Estructuras MAPI](mapi-structures.md)

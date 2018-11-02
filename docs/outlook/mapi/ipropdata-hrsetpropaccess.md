@@ -23,7 +23,7 @@ ms.locfileid: "22564664"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Establece el nivel de acceso o el estado de una o varias de las propiedades del objeto.
   

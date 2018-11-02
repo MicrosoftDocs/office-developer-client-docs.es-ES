@@ -23,7 +23,7 @@ ms.locfileid: "22575878"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Indica que la cola MAPI tiene un mensaje para el proveedor de transporte entregar.
   
@@ -114,7 +114,7 @@ Si **SubmitMessage** devuelve un error, la cola MAPI libera el mensaje en proces
   
 En el caso de errores que se producen debido a problemas de transporte, la cola MAPI conserva el mensaje, pero retrasa el volver a enviar el mensaje para el proveedor de transporte basándose en el valor devuelto en _lpulReturnParm_. Si su valor devuelto desde **SubmitMessage** es MAPI_E_WAIT o MAPI_E_NETWORK_ERROR, debe rellenar el proveedor de transporte en ese valor. Si se produce una condición de error grave, el proveedor de transporte debe llamar al método [SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_CRITICAL_ERROR. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

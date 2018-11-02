@@ -23,7 +23,7 @@ ms.locfileid: "22570740"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Marca un objeto como no utilizable.
   
@@ -74,7 +74,7 @@ Debe ser propietario del objeto que intenta invalidar. Debe tener una longitud d
   
 Puede llamar a **MakeInvalid** y, a continuación, realizar cualquier trabajo de cierre, como descartar las estructuras de datos asociado, que normalmente se realiza durante la versión de un objeto. Código para admitir el objeto no necesita mantenerse en la memoria, ya que MAPI libera la memoria llamando [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, libera el objeto. Puede liberar recursos, llame a **MakeInvalid**y, a continuación, omitir el objeto invalidado. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

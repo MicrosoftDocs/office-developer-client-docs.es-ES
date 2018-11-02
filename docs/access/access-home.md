@@ -5,12 +5,12 @@ ms.date: 10/16/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
-ms.openlocfilehash: e754a4e706bd85ac55f8e2540cd337c5ffc64f9a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ff4b96b06b57de1fdf394e93d213a4262dcafc0e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606482"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861543"
 ---
 # <a name="access"></a>Access
 
@@ -37,15 +37,8 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
   
 ### <a name="support"></a>Soporte técnico
   
-<<<<<<< HEAD
-- [Centro para desarrolladores de Office](https://developer.microsoft.com/office)
-  
-- [Soporte técnico de Office](https://support.office.com/)
-  
-=======
 - [Centro para desarrolladores de Office](https://developer.microsoft.com/office) 
 - [Soporte técnico de Office](https://support.office.com/) 
->>>>>>> master
 - [Foro de Access en el Centro para desarrolladores de Office](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
   
 

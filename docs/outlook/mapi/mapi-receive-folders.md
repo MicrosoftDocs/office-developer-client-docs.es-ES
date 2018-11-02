@@ -19,7 +19,7 @@ ms.locfileid: "22569011"
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Una carpeta de recepci�n contiene los mensajes entrantes de una clase de mensaje en particular. Recibir carpeta asociaciones pueden establecerse por los clientes, el proveedor de almacenamiento de mensajes o MAPI. MAPI tiene dos predeterminada las carpetas de recepci�n: la carpeta ra�z del almac�n de mensajes y a continuaci�n, la carpeta Bandeja de entrada del sub�rbol de mensajes interpersonales (IPM). La carpeta ra�z del almac�n de mensajes es el valor predeterminado recibir carpeta para todos los mensajes de comunicaci�n entre procesos (IPC).
   

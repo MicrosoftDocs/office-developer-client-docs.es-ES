@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bd3f9f59-9020-46e6-9560-86a7a0eeca20
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: 1404239a54f9b8991099a66831e3364d9a683d1d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22566337"
 
  
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
 Cuando un proveedor de servicio o cliente, recupera una propiedad de un objeto, el objeto pone a disposición identificador, tipo y valor de la propiedad. 
   
