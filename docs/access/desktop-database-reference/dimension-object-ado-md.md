@@ -1,19 +1,19 @@
 ---
-title: Dimension (objeto) (ADO MD)
-TOCTitle: Dimension Object (ADO MD)
+title: Dimension (objeto, ADO MD)
+TOCTitle: Dimension object (ADO MD)
 ms:assetid: 12f43cfc-c74e-a2e8-7f6e-75fc68472c4b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3581f9bce5e2e56b341928df3415a1b9b223beb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3d42c01d1d9d4e77169f74afcc97d147d6f5d53
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872889"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921190"
 ---
-# <a name="dimension-object-ado-md"></a>Dimension (objeto) (ADO MD)
+# <a name="dimension-object-ado-md"></a>Dimension (objeto, ADO MD)
 
 
 **Se aplica a**: Access 2013, Office 2013

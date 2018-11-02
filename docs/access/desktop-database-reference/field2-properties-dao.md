@@ -1,72 +1,72 @@
 ---
-title: Field2 Properties (DAO)
+title: Propiedades de Field2 (DAO)
 TOCTitle: Properties
 ms:assetid: 58b44dfc-3fa7-4c69-80cf-04f231c49899
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124918(v=office.15)
 ms:contentKeyID: 52072538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d1880ad5e0697ebb2e9614bb6c51fd37bb78375
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3e418485ad64af82ca803fd4eea0e4cf899b04be
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889724"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922275"
 ---
-# <a name="field2-properties-dao"></a>Field2 Properties (DAO)
+# <a name="field2-properties-dao"></a>Propiedades de Field2 (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013
 
 
 
-  - [Field2.AllowZeroLength Property (DAO)](field2-allowzerolength-property-dao.md)
+  - [Propiedad Field2.AllowZeroLength (DAO)](field2-allowzerolength-property-dao.md)
 
-  - [Field2.AppendOnly Property (DAO)](field2-appendonly-property-dao.md)
+  - [Propiedad Field2.AppendOnly (DAO)](field2-appendonly-property-dao.md)
 
-  - [Field2.Attributes Property (DAO)](field2-attributes-property-dao.md)
+  - [Propiedad Field2.Attributes (DAO)](field2-attributes-property-dao.md)
 
-  - [Field2.CollatingOrder Property (DAO)](field2-collatingorder-property-dao.md)
+  - [Propiedad Field2.CollatingOrder (DAO)](field2-collatingorder-property-dao.md)
 
-  - [Field2.ComplexType Property (DAO)](field2-complextype-property-dao.md)
+  - [Propiedad Field2.complexType (DAO)](field2-complextype-property-dao.md)
 
-  - [Field2.DataUpdatable Property (DAO)](field2-dataupdatable-property-dao.md)
+  - [Propiedad Field2.DataUpdatable (DAO)](field2-dataupdatable-property-dao.md)
 
-  - [Field2.DefaultValue Property (DAO)](field2-defaultvalue-property-dao.md)
+  - [Propiedad Field2.DefaultValue (DAO)](field2-defaultvalue-property-dao.md)
 
-  - [Field2.Expression Property (DAO)](field2-expression-property-dao.md)
+  - [Propiedad Field2.Expression (DAO)](field2-expression-property-dao.md)
 
-  - [Field2.FieldSize Property (DAO)](field2-fieldsize-property-dao.md)
+  - [Propiedad Field2.FieldSize (DAO)](field2-fieldsize-property-dao.md)
 
-  - [Field2.ForeignName Property (DAO)](field2-foreignname-property-dao.md)
+  - [Propiedad Field2.ForeignName (DAO)](field2-foreignname-property-dao.md)
 
-  - [Field2.IsComplex Property (DAO)](field2-iscomplex-property-dao.md)
+  - [Propiedad Field2.IsComplex (DAO)](field2-iscomplex-property-dao.md)
 
-  - [Field2.Name Property (DAO)](field2-name-property-dao.md)
+  - [Propiedad Field2.Name (DAO)](field2-name-property-dao.md)
 
-  - [Field2.OrdinalPosition Property (DAO)](field2-ordinalposition-property-dao.md)
+  - [Propiedad Field2.OrdinalPosition (DAO)](field2-ordinalposition-property-dao.md)
 
-  - [Field2.OriginalValue Property (DAO)](field2-originalvalue-property-dao.md)
+  - [Propiedad Field2.OriginalValue (DAO)](field2-originalvalue-property-dao.md)
 
-  - [Field2.Properties Property (DAO)](field2-properties-property-dao.md)
+  - [Propiedad Field2.Properties (DAO)](field2-properties-property-dao.md)
 
-  - [Field2.Required Property (DAO)](field2-required-property-dao.md)
+  - [Propiedad Field2.Required (DAO)](field2-required-property-dao.md)
 
-  - [Field2.Size Property (DAO)](field2-size-property-dao.md)
+  - [Propiedad Field2.Size (DAO)](field2-size-property-dao.md)
 
-  - [Field2.SourceField Property (DAO)](field2-sourcefield-property-dao.md)
+  - [Propiedad Field2.SourceField (DAO)](field2-sourcefield-property-dao.md)
 
-  - [Field2.SourceTable Property (DAO)](field2-sourcetable-property-dao.md)
+  - [Propiedad Field2.SourceTable (DAO)](field2-sourcetable-property-dao.md)
 
-  - [Field2.Type Property (DAO)](field2-type-property-dao.md)
+  - [Propiedad Field2.Type (DAO)](field2-type-property-dao.md)
 
-  - [Field2.ValidateOnSet Property (DAO)](field2-validateonset-property-dao.md)
+  - [Propiedad Field2.ValidateOnSet (DAO)](field2-validateonset-property-dao.md)
 
-  - [Field2.ValidationRule Property (DAO)](field2-validationrule-property-dao.md)
+  - [Propiedad Field2.ValidationRule (DAO)](field2-validationrule-property-dao.md)
 
-  - [Field2.ValidationText Property (DAO)](field2-validationtext-property-dao.md)
+  - [Propiedad Field2.ValidationText (DAO)](field2-validationtext-property-dao.md)
 
-  - [Field2.Value Property (DAO)](field2-value-property-dao.md)
+  - [Propiedad Field2.Value (DAO)](field2-value-property-dao.md)
 
-  - [Field2.VisibleValue Property (DAO)](field2-visiblevalue-property-dao.md)
+  - [Propiedad Field2.VisibleValue (DAO)](field2-visiblevalue-property-dao.md)
 

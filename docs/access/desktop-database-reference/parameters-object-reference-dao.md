@@ -6,25 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161302(v=office.15)
 ms:contentKeyID: 52074269
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 99326ffee1b916569966ffaaa504f2da681e15ac
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a7a791eb907a5044586cc5cd004e8eaf402a4ddd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883305"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921043"
 ---
 # <a name="parameters-object-reference-dao"></a>Referencia de objeto de parámetros (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Parameters Collection (DAO)](parameters-collection-dao.md)
-
-  - [Parameters Members (DAO)](parameters-members-dao.md)
-
-  - [Parameters Properties (DAO)](parameters-properties-dao.md)
-
-  - [Parameters Methods (DAO)](parameters-methods-dao.md)
+- [Colección Parameters (DAO)](parameters-collection-dao.md)
+- [Miembros de los parámetros (DAO)](parameters-members-dao.md)
+- [Propiedades de los parámetros (DAO)](parameters-properties-dao.md)
+- [Métodos de parámetros (DAO)](parameters-methods-dao.md)
 

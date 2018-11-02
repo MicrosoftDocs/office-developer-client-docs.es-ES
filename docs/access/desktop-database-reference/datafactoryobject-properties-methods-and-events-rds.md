@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01fc9aa35b3ecf43e7ebddc7f573fcb7a860c021
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 86ad613da0cc438b01593c79521aa80dfd666b43
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910785"
+ms.locfileid: "25919321"
 ---
 # <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory propiedades, métodos y eventos (RDS)
 
@@ -37,7 +37,7 @@ Ninguna.
 <td><p>Convierte un conjunto de registros en una cadena MIME64.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="createrecordset-method-rds.md">Método CreateRecordset (RDS)</a></p></td>
+<td><p><a href="createrecordset-method-rds.md">CreateRecordset (método, RDS)</a></p></td>
 <td><p>Crea y devuelve un conjunto de registros vacío.</p></td>
 </tr>
 <tr class="odd">
@@ -45,7 +45,7 @@ Ninguna.
 <td><p>Ejecuta la solicitud y crea un conjunto de filas de datos avanzados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="submitchanges-method-rds.md">SubmitChanges (RDS) (método)</a></p></td>
+<td><p><a href="submitchanges-method-rds.md">SubmitChanges (método, RDS)</a></p></td>
 <td><p>Dado un conjunto de registros con cambios pendientes, este método los envía a la base de datos identificada en la cadena de conexión.</p></td>
 </tr>
 </tbody>

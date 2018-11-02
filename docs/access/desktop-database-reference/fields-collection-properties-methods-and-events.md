@@ -1,17 +1,17 @@
 ---
 title: Propiedades, métodos y eventos de la colección Fields
-TOCTitle: Fields Collection Properties, Methods, and Events
+TOCTitle: Fields collection properties, methods, and events
 ms:assetid: 9b471249-e5d1-990d-fb7c-d830848d65ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249706(v=office.15)
 ms:contentKeyID: 48546566
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9a6ce0b02daa7e0fed919546c101bfcb79b9650
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: faaa35164de92d39a061be87fe216e55dbb7c42b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874191"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919720"
 ---
 # <a name="fields-collection-properties-methods-and-events"></a>Propiedades, métodos y eventos de la colección Fields
 

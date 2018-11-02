@@ -1,19 +1,19 @@
 ---
-title: Axes (colección) (ADO MD)
-TOCTitle: Axes Collection (ADO MD)
+title: Axes (colección, ADO MD)
+TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1bcae98c301793d64e97d8626da30fde0ffdaea1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c88bf27f406a439d051112afb9abf94697a13b12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869557"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922238"
 ---
-# <a name="axes-collection-ado-md"></a>Axes (colección) (ADO MD)
+# <a name="axes-collection-ado-md"></a>Axes (colección, ADO MD)
 
 
 **Se aplica a**: Access 2013, Office 2013

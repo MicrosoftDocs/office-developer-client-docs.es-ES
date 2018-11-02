@@ -1,5 +1,5 @@
 ---
-title: Recordset.UpdateOptions Property (DAO)
+title: Propiedad Recordset.UpdateOptions (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 14ab955d-1c5a-dc76-8dbf-dbca49816bc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845468(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101185
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b39b9920625d970a51feadc706a3c5ff62359e53
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2e267e913ed89707ca79642b96dafa2cae85a574
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884355"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927538"
 ---
-# <a name="recordsetupdateoptions-property-dao"></a>Recordset.UpdateOptions Property (DAO)
+# <a name="recordsetupdateoptions-property-dao"></a>Propiedad Recordset.UpdateOptions (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013
