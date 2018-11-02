@@ -1,31 +1,31 @@
 ---
-title: Parameters Collection (DAO)
+title: Colección Parameters (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f1741bc56fd1b81d056b5b408c4a2869ee15136
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0263c87ea12384fb3e1fe722c00cd58f4d7f45e0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877232"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924480"
 ---
-# <a name="parameters-collection-dao"></a><span data-ttu-id="9951e-102">Parameters Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="9951e-102">Parameters Collection (DAO)</span></span>
+# <a name="parameters-collection-dao"></a><span data-ttu-id="12ac1-102">Colección Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="12ac1-102">Parameters collection (DAO)</span></span>
 
-<span data-ttu-id="9951e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9951e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12ac1-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12ac1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9951e-104">Una colección **Parameters** contiene los objetos **Parameter** de un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="9951e-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
+<span data-ttu-id="12ac1-104">Una colección **Parameters** contiene los objetos **Parameter** de un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="12ac1-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9951e-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="9951e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12ac1-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="12ac1-105">Remarks</span></span>
 
-<span data-ttu-id="9951e-p101">La colección **Parameters** proporciona información sobre los parámetros existentes. No puede agregar ni eliminar objetos en la colección **Parameters**.</span><span class="sxs-lookup"><span data-stu-id="9951e-p101">The **Parameters** collection provides information only about existing parameters. You can't append objects to or delete objects from the **Parameters** collection.</span></span>
+<span data-ttu-id="12ac1-p101">La colección **Parameters** proporciona información sobre los parámetros existentes. No puede agregar ni eliminar objetos en la colección **Parameters**.</span><span class="sxs-lookup"><span data-stu-id="12ac1-p101">The **Parameters** collection provides information only about existing parameters. You can't append objects to or delete objects from the **Parameters** collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9951e-108">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9951e-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="12ac1-108">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="12ac1-108">Example</span></span>
 
-<span data-ttu-id="9951e-p102">En este ejemplo se utilizan objetos **Parameter** y la colección **Parameters** para crear un objeto **QueryDef** temporal y recuperar datos a partir de los cambios efectuados en los **Parameters** del objeto **QueryDef**. Se requiere el procedimiento ParametersChange para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="9951e-p102">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="12ac1-p102">En este ejemplo se utilizan objetos **Parameter** y la colección **Parameters** para crear un objeto **QueryDef** temporal y recuperar datos a partir de los cambios efectuados en los **Parameters** del objeto **QueryDef**. Se requiere el procedimiento ParametersChange para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="12ac1-p102">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 
@@ -93,9 +93,9 @@ ms.locfileid: "25877232"
 
 <br/>
 
-En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se crea una consulta denominada **myQuery** con dos parámetros, denominados Param1 y parámetro2. <span data-ttu-id="9951e-113">Para ello, la propiedad SQL de la consulta está configurada en una instrucción Lenguaje de consulta estructurado (SQL) que define los parámetros.</span><span class="sxs-lookup"><span data-stu-id="9951e-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
+En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se crea una consulta denominada **myQuery** con dos parámetros, denominados Param1 y parámetro2. <span data-ttu-id="12ac1-113">Para ello, la propiedad SQL de la consulta está configurada en una instrucción Lenguaje de consulta estructurado (SQL) que define los parámetros.</span><span class="sxs-lookup"><span data-stu-id="12ac1-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
 
-<span data-ttu-id="9951e-114">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="9951e-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="12ac1-114">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="12ac1-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -122,7 +122,7 @@ En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se cr
 
 <br/>
 
-<span data-ttu-id="9951e-p104">En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.</span><span class="sxs-lookup"><span data-stu-id="9951e-p104">The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
+<span data-ttu-id="12ac1-p104">En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.</span><span class="sxs-lookup"><span data-stu-id="12ac1-p104">The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -149,7 +149,7 @@ En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se cr
 
 <br/>
 
-<span data-ttu-id="9951e-117">En el ejemplo siguiente vemos cómo abrir un Recordset basado en una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="9951e-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="12ac1-117">En el ejemplo siguiente vemos cómo abrir un Recordset basado en una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="12ac1-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database

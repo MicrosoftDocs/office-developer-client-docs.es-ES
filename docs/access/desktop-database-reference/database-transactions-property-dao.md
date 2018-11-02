@@ -1,5 +1,5 @@
 ---
-title: Database.Transactions Property (DAO)
+title: Propiedad Database.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f05e4b9fe7dfeff687e7709462efbe37f10be42
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 515bde2cf4c25aff7c0e6ee709b8a7795e217488
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889878"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925992"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="f49d3-102">Database.Transactions Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f49d3-102">Database.Transactions Property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="a18c2-102">Propiedad Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a18c2-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="f49d3-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f49d3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a18c2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a18c2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f49d3-p101">Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="f49d3-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
+<span data-ttu-id="a18c2-p101">Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="a18c2-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f49d3-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f49d3-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a18c2-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a18c2-106">Syntax</span></span>
 
-<span data-ttu-id="f49d3-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="f49d3-107">*expression* .Transactions</span></span>
+<span data-ttu-id="a18c2-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="a18c2-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="f49d3-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="f49d3-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="a18c2-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="a18c2-108">*expression* A variable that represents a **Database** object.</span></span>
 

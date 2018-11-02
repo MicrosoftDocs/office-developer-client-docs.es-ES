@@ -1,6 +1,6 @@
 ---
-title: Properties (colección) (ADO)
-TOCTitle: Properties Collection (ADO)
+title: Properties (colección, ADO)
+TOCTitle: Properties collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249245(v=office.15)
 ms:contentKeyID: 48544729
@@ -10,29 +10,29 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 018c09919aa09864d0b9027c6309b3b61212cf8b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 37cebaad95f1715ad53147709fb7f6a11344ef10
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875857"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922709"
 ---
-# <a name="properties-collection-ado"></a><span data-ttu-id="b8664-102">Properties (colección) (ADO)</span><span class="sxs-lookup"><span data-stu-id="b8664-102">Properties Collection (ADO)</span></span>
+# <a name="properties-collection-ado"></a><span data-ttu-id="a04a0-102">Properties (colección, ADO)</span><span class="sxs-lookup"><span data-stu-id="a04a0-102">Properties collection (ADO)</span></span>
 
 
-<span data-ttu-id="b8664-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8664-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a04a0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a04a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8664-104">Contiene todos los objetos [Property](property-object-ado.md) para una instancia específica de un objeto.</span><span class="sxs-lookup"><span data-stu-id="b8664-104">Contains all the [Property](property-object-ado.md) objects for a specific instance of an object.</span></span>
+<span data-ttu-id="a04a0-104">Contiene todos los objetos [Property](property-object-ado.md) para una instancia específica de un objeto.</span><span class="sxs-lookup"><span data-stu-id="a04a0-104">Contains all the [Property](property-object-ado.md) objects for a specific instance of an object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b8664-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b8664-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a04a0-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a04a0-105">Remarks</span></span>
 
-<span data-ttu-id="b8664-p101">Algunos objetos ADO tienen una colección **Properties** formada por objetos **Property**. Cada objeto **Property** corresponde a una característica del objeto ADO específica del proveedor.</span><span class="sxs-lookup"><span data-stu-id="b8664-p101">Some ADO objects have a **Properties** collection made up of **Property** objects. Each **Property** object corresponds to a characteristic of the ADO object specific to the provider.</span></span>
+<span data-ttu-id="a04a0-p101">Algunos objetos ADO tienen una colección **Properties** formada por objetos **Property**. Cada objeto **Property** corresponde a una característica del objeto ADO específica del proveedor.</span><span class="sxs-lookup"><span data-stu-id="a04a0-p101">Some ADO objects have a **Properties** collection made up of **Property** objects. Each **Property** object corresponds to a characteristic of the ADO object specific to the provider.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="b8664-108">[!NOTA] Para obtener una explicación más detallada sobre cómo se usan los objetos <A href="property-object-ado.md">Property</A>, vea el tema sobre el objeto <STRONG>Property</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b8664-108">See the <A href="property-object-ado.md">Property</A> object topic for a more detailed explanation of how to use <STRONG>Property</STRONG> objects.</span></span></P>
+> <P><span data-ttu-id="a04a0-108">[!NOTA] Para obtener una explicación más detallada sobre cómo se usan los objetos <A href="property-object-ado.md">Property</A>, vea el tema sobre el objeto <STRONG>Property</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="a04a0-108">See the <A href="property-object-ado.md">Property</A> object topic for a more detailed explanation of how to use <STRONG>Property</STRONG> objects.</span></span></P>
 
 
 
-<span data-ttu-id="b8664-109">Las **propiedades dinámicas** del objeto **Recordset** quedan fuera del ámbito (no están disponibles) cuando el objeto **Recordset** está cerrado.</span><span class="sxs-lookup"><span data-stu-id="b8664-109">The **Dynamic Properties** of the **Recordset** object go out of scope (become unavailable) when the **Recordset** is closed.</span></span>
+<span data-ttu-id="a04a0-109">Las **propiedades dinámicas** del objeto **Recordset** quedan fuera del ámbito (no están disponibles) cuando el objeto **Recordset** está cerrado.</span><span class="sxs-lookup"><span data-stu-id="a04a0-109">The **Dynamic Properties** of the **Recordset** object go out of scope (become unavailable) when the **Recordset** is closed.</span></span>
 

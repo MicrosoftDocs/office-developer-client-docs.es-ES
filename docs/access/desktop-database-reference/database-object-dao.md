@@ -1,5 +1,5 @@
 ---
-title: Database Object (DAO)
+title: Objeto de base de datos (DAO)
 TOCTitle: Database Object
 ms:assetid: 6cf2ddf8-3957-a15e-5eeb-85f81c1e415e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195520(v=office.15)
@@ -10,66 +10,66 @@ f1_keywords:
 - dao360.chm0
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca0538f07f25ffe41288d15fd3737e08eb58f491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 265edf6b5d426b87d718c66e9886b7a4877120de
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886756"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918852"
 ---
-# <a name="database-object-dao"></a><span data-ttu-id="e9674-102">Database Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="e9674-102">Database Object (DAO)</span></span>
+# <a name="database-object-dao"></a><span data-ttu-id="39b36-102">Objeto de base de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="39b36-102">Database object (DAO)</span></span>
 
-<span data-ttu-id="e9674-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9674-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="39b36-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="39b36-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e9674-104">Un objeto **Database** representa una base de datos abierta.</span><span class="sxs-lookup"><span data-stu-id="e9674-104">A **Database** object represents an open database.</span></span>
+<span data-ttu-id="39b36-104">Un objeto **Database** representa una base de datos abierta.</span><span class="sxs-lookup"><span data-stu-id="39b36-104">A **Database** object represents an open database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e9674-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e9674-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="39b36-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="39b36-105">Remarks</span></span>
 
-<span data-ttu-id="e9674-p101">El objeto **Database** y sus métodos y propiedades se usan para manipular una base de datos abierta. En cualquier tipo de base de datos, puede:</span><span class="sxs-lookup"><span data-stu-id="e9674-p101">You use the **Database** object and its methods and properties to manipulate an open database. In any type of database, you can:</span></span>
+<span data-ttu-id="39b36-p101">El objeto **Database** y sus métodos y propiedades se usan para manipular una base de datos abierta. En cualquier tipo de base de datos, puede:</span><span class="sxs-lookup"><span data-stu-id="39b36-p101">You use the **Database** object and its methods and properties to manipulate an open database. In any type of database, you can:</span></span>
 
-  - <span data-ttu-id="e9674-108">Usar el método **Execute** para ejecutar una consulta de acciones.</span><span class="sxs-lookup"><span data-stu-id="e9674-108">Use the **Execute** method to run an action query.</span></span>
+  - <span data-ttu-id="39b36-108">Usar el método **Execute** para ejecutar una consulta de acciones.</span><span class="sxs-lookup"><span data-stu-id="39b36-108">Use the **Execute** method to run an action query.</span></span>
 
-  - <span data-ttu-id="e9674-109">Configurar la propiedad **Connect** para establecer una conexión a un origen de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="e9674-109">Set the **Connect** property to establish a connection to an ODBC data source.</span></span>
+  - <span data-ttu-id="39b36-109">Configurar la propiedad **Connect** para establecer una conexión a un origen de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="39b36-109">Set the **Connect** property to establish a connection to an ODBC data source.</span></span>
 
-  - <span data-ttu-id="e9674-110">Establecer la propiedad **QueryTimeout** a fin de limitar la duración del tiempo de espera para que se ejecute una consulta en un origen de base de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="e9674-110">Set the **QueryTimeout** property to limit the length of time to wait for a query to execute against an ODBC data source.</span></span>
+  - <span data-ttu-id="39b36-110">Establecer la propiedad **QueryTimeout** a fin de limitar la duración del tiempo de espera para que se ejecute una consulta en un origen de base de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="39b36-110">Set the **QueryTimeout** property to limit the length of time to wait for a query to execute against an ODBC data source.</span></span>
 
-  - <span data-ttu-id="e9674-111">Usar la propiedad **RecordsAffected** para determinar cuántos registros ha modificado una consulta de acciones.</span><span class="sxs-lookup"><span data-stu-id="e9674-111">Use the **RecordsAffected** property to determine how many records were changed by an action query.</span></span>
+  - <span data-ttu-id="39b36-111">Usar la propiedad **RecordsAffected** para determinar cuántos registros ha modificado una consulta de acciones.</span><span class="sxs-lookup"><span data-stu-id="39b36-111">Use the **RecordsAffected** property to determine how many records were changed by an action query.</span></span>
 
-  - <span data-ttu-id="e9674-112">Usar el método **OpenRecordset** para ejecutar una consulta de selección y crear un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="e9674-112">Use the **OpenRecordset** method to execute a select query and create a **Recordset** object.</span></span>
+  - <span data-ttu-id="39b36-112">Usar el método **OpenRecordset** para ejecutar una consulta de selección y crear un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="39b36-112">Use the **OpenRecordset** method to execute a select query and create a **Recordset** object.</span></span>
 
-  - <span data-ttu-id="e9674-113">Usar la propiedad **Version** para determinar qué versión de un motor de base de datos ha creado la base de datos.</span><span class="sxs-lookup"><span data-stu-id="e9674-113">Use the **Version** property to determine which version of a database engine created the database.</span></span>
+  - <span data-ttu-id="39b36-113">Usar la propiedad **Version** para determinar qué versión de un motor de base de datos ha creado la base de datos.</span><span class="sxs-lookup"><span data-stu-id="39b36-113">Use the **Version** property to determine which version of a database engine created the database.</span></span>
 
-<span data-ttu-id="e9674-p102">Con la base de datos del motor de base de datos de Microsoft Access, puede usar también otros métodos, propiedades y colecciones para manipular un objeto **Database**, así como crear, modificar u obtener información sobre sus tablas, consultas y relaciones. Por ejemplo, puede:</span><span class="sxs-lookup"><span data-stu-id="e9674-p102">With a Microsoft Access database engine database, you can also use other methods, properties, and collections to manipulate a **Database** object, as well as create, modify, or get information about its tables, queries, and relationships. For example, you can:</span></span>
+<span data-ttu-id="39b36-p102">Con la base de datos del motor de base de datos de Microsoft Access, puede usar también otros métodos, propiedades y colecciones para manipular un objeto **Database**, así como crear, modificar u obtener información sobre sus tablas, consultas y relaciones. Por ejemplo, puede:</span><span class="sxs-lookup"><span data-stu-id="39b36-p102">With a Microsoft Access database engine database, you can also use other methods, properties, and collections to manipulate a **Database** object, as well as create, modify, or get information about its tables, queries, and relationships. For example, you can:</span></span>
 
-  - <span data-ttu-id="e9674-116">Usar los métodos **CreateTableDef** y **CreateRelation** para crear tablas y relaciones respectivamente.</span><span class="sxs-lookup"><span data-stu-id="e9674-116">Use the **CreateTableDef** and **CreateRelation** methods to create tables and relations, respectively.</span></span>
+  - <span data-ttu-id="39b36-116">Usar los métodos **CreateTableDef** y **CreateRelation** para crear tablas y relaciones respectivamente.</span><span class="sxs-lookup"><span data-stu-id="39b36-116">Use the **CreateTableDef** and **CreateRelation** methods to create tables and relations, respectively.</span></span>
 
-  - <span data-ttu-id="e9674-117">Usar el método **CreateProperty** para definir nuevas propiedades de **Database**.</span><span class="sxs-lookup"><span data-stu-id="e9674-117">Use the **CreateProperty** method to define new **Database** properties.</span></span>
+  - <span data-ttu-id="39b36-117">Usar el método **CreateProperty** para definir nuevas propiedades de **Database**.</span><span class="sxs-lookup"><span data-stu-id="39b36-117">Use the **CreateProperty** method to define new **Database** properties.</span></span>
 
-  - <span data-ttu-id="e9674-118">Usar el método **CreateQueryDef** para crear una definición de consulta persistente o temporal.</span><span class="sxs-lookup"><span data-stu-id="e9674-118">Use the **CreateQueryDef** method to create a persistent or temporary query definition.</span></span>
+  - <span data-ttu-id="39b36-118">Usar el método **CreateQueryDef** para crear una definición de consulta persistente o temporal.</span><span class="sxs-lookup"><span data-stu-id="39b36-118">Use the **CreateQueryDef** method to create a persistent or temporary query definition.</span></span>
 
-  - <span data-ttu-id="e9674-119">Usar los métodos **MakeReplica**, **Synchronize** y **PopulatePartial** para crear y sincronizar réplicas completas o parciales de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="e9674-119">Use **MakeReplica**, **Synchronize**, and **PopulatePartial** methods to create and synchronize full or partial replicas of your database.</span></span>
+  - <span data-ttu-id="39b36-119">Usar los métodos **MakeReplica**, **Synchronize** y **PopulatePartial** para crear y sincronizar réplicas completas o parciales de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="39b36-119">Use **MakeReplica**, **Synchronize**, and **PopulatePartial** methods to create and synchronize full or partial replicas of your database.</span></span>
 
-  - <span data-ttu-id="e9674-120">Configurar la propiedad **CollatingOrder** para establecer el criterio de ordenación alfabético para los campos basados en caracteres en distintos idiomas.</span><span class="sxs-lookup"><span data-stu-id="e9674-120">Set the **CollatingOrder** property to establish the alphabetic sorting order for character-based fields in different languages.</span></span>
+  - <span data-ttu-id="39b36-120">Configurar la propiedad **CollatingOrder** para establecer el criterio de ordenación alfabético para los campos basados en caracteres en distintos idiomas.</span><span class="sxs-lookup"><span data-stu-id="39b36-120">Set the **CollatingOrder** property to establish the alphabetic sorting order for character-based fields in different languages.</span></span>
 
-<span data-ttu-id="e9674-121">El método **CreateDatabase** se usa para crear un objeto **Database** persistente que se anexa automáticamente a la colección **Databases** y se guarda, por lo tanto, en el disco.</span><span class="sxs-lookup"><span data-stu-id="e9674-121">You use the **CreateDatabase** method to create a persistent **Database** object that is automatically appended to the **Databases** collection, thereby saving it to disk.</span></span>
+<span data-ttu-id="39b36-121">El método **CreateDatabase** se usa para crear un objeto **Database** persistente que se anexa automáticamente a la colección **Databases** y se guarda, por lo tanto, en el disco.</span><span class="sxs-lookup"><span data-stu-id="39b36-121">You use the **CreateDatabase** method to create a persistent **Database** object that is automatically appended to the **Databases** collection, thereby saving it to disk.</span></span>
 
-<span data-ttu-id="e9674-122">No necesita especificar el objeto **DBEngine** cuando usa el método **OpenDatabase**.</span><span class="sxs-lookup"><span data-stu-id="e9674-122">You don't need to specify the **DBEngine** object when you use the **OpenDatabase** method.</span></span>
+<span data-ttu-id="39b36-122">No necesita especificar el objeto **DBEngine** cuando usa el método **OpenDatabase**.</span><span class="sxs-lookup"><span data-stu-id="39b36-122">You don't need to specify the **DBEngine** object when you use the **OpenDatabase** method.</span></span>
 
-<span data-ttu-id="e9674-p103">Al abrir una base de datos con tablas vinculadas, no se establecen automáticamente vínculos con los archivos externos especificados. Debe hacer referencia a los objetos **TableDef** o **Field** de la tabla o abrir un objeto **Recordset**. Si no puede establecer vínculos con estas tablas, se produce un error capturable. Es posible que necesite permisos para tener acceso a la base de datos o que otro usuario tenga la base de datos abierta en modo exclusivo. En estos casos se producen errores capturables.</span><span class="sxs-lookup"><span data-stu-id="e9674-p103">Opening a database with linked tables doesn't automatically establish links to the specified external files. You must either reference the table's **TableDef** or **Field** objects or open a **Recordset** object. If you can't establish links to these tables, a trappable error occurs. You may also need permission to access the database, or another user might have the database opened exclusively. In these cases, trappable errors occur.</span></span>
+<span data-ttu-id="39b36-p103">Al abrir una base de datos con tablas vinculadas, no se establecen automáticamente vínculos con los archivos externos especificados. Debe hacer referencia a los objetos **TableDef** o **Field** de la tabla o abrir un objeto **Recordset**. Si no puede establecer vínculos con estas tablas, se produce un error capturable. Es posible que necesite permisos para tener acceso a la base de datos o que otro usuario tenga la base de datos abierta en modo exclusivo. En estos casos se producen errores capturables.</span><span class="sxs-lookup"><span data-stu-id="39b36-p103">Opening a database with linked tables doesn't automatically establish links to the specified external files. You must either reference the table's **TableDef** or **Field** objects or open a **Recordset** object. If you can't establish links to these tables, a trappable error occurs. You may also need permission to access the database, or another user might have the database opened exclusively. In these cases, trappable errors occur.</span></span>
 
-<span data-ttu-id="e9674-p104">Cuando se ejecuta un procedimiento que declara un objeto **Database**, los objetos **Database** locales se cierran junto con los objetos **Recordset** abiertos. Se pierden las actualizaciones pendientes y se deshacen las transacciones pendientes, pero no se producen errores capturables. Debe completar explícitamente las transacciones o ediciones pendientes, y cerrar los objetos **Recordset** y **Database** antes de salir de los procedimientos que declaran estas variables de objetos localmente.</span><span class="sxs-lookup"><span data-stu-id="e9674-p104">When a procedure that declares a **Database** object has executed, local **Database** objects are closed along with any open **Recordset** objects. Any pending updates are lost and any pending transactions are rolled back, but no trappable error occurs. You should explicitly complete any pending transactions or edits and close **Recordset** objects and **Database** objects before exiting procedures that declare these object variables locally.</span></span>
+<span data-ttu-id="39b36-p104">Cuando se ejecuta un procedimiento que declara un objeto **Database**, los objetos **Database** locales se cierran junto con los objetos **Recordset** abiertos. Se pierden las actualizaciones pendientes y se deshacen las transacciones pendientes, pero no se producen errores capturables. Debe completar explícitamente las transacciones o ediciones pendientes, y cerrar los objetos **Recordset** y **Database** antes de salir de los procedimientos que declaran estas variables de objetos localmente.</span><span class="sxs-lookup"><span data-stu-id="39b36-p104">When a procedure that declares a **Database** object has executed, local **Database** objects are closed along with any open **Recordset** objects. Any pending updates are lost and any pending transactions are rolled back, but no trappable error occurs. You should explicitly complete any pending transactions or edits and close **Recordset** objects and **Database** objects before exiting procedures that declare these object variables locally.</span></span>
 
-<span data-ttu-id="e9674-p105">Cuando usa uno de los métodos de transacción (**BeginTrans**, **CommitTrans** o **Rollback**) en el objeto **Workspace**, estas transacciones se aplican a todas las bases de datos abiertas en el objeto **Workspace** desde el que se ha abierto el objeto **Database**. Si quiere usar transacciones independientes, primero debe abrir un objeto **Workspace** adicional y, después, abrir otro objeto **Database** en este objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="e9674-p105">When you use one of the transaction methods (**BeginTrans**, **CommitTrans**, or **Rollback**) on the **Workspace** object, these transactions apply to all databases opened on the **Workspace** from which the **Database** object was opened. If you want to use independent transactions, you must first open an additional **Workspace** object, and then open another **Database** object in that **Workspace** object.</span></span>
+<span data-ttu-id="39b36-p105">Cuando usa uno de los métodos de transacción (**BeginTrans**, **CommitTrans** o **Rollback**) en el objeto **Workspace**, estas transacciones se aplican a todas las bases de datos abiertas en el objeto **Workspace** desde el que se ha abierto el objeto **Database**. Si quiere usar transacciones independientes, primero debe abrir un objeto **Workspace** adicional y, después, abrir otro objeto **Database** en este objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="39b36-p105">When you use one of the transaction methods (**BeginTrans**, **CommitTrans**, or **Rollback**) on the **Workspace** object, these transactions apply to all databases opened on the **Workspace** from which the **Database** object was opened. If you want to use independent transactions, you must first open an additional **Workspace** object, and then open another **Database** object in that **Workspace** object.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="e9674-p106">[!NOTA] Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.</span><span class="sxs-lookup"><span data-stu-id="e9674-p106">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="39b36-p106">[!NOTA] Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.</span><span class="sxs-lookup"><span data-stu-id="39b36-p106">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="e9674-135">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e9674-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="39b36-135">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="39b36-135">Example</span></span>
 
-<span data-ttu-id="e9674-p107">En este ejemplo se crea un nuevo objeto **Database** y se abre un objeto **Database** existente en el objeto **Workspace** predeterminado. Después, se enumera la colección **Database** y la colección **Properties** de cada objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="e9674-p107">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object. Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
+<span data-ttu-id="39b36-p107">En este ejemplo se crea un nuevo objeto **Database** y se abre un objeto **Database** existente en el objeto **Workspace** predeterminado. Después, se enumera la colección **Database** y la colección **Properties** de cada objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="39b36-p107">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object. Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
 
 ```vb 
 Sub DatabaseObjectX() 
@@ -116,7 +116,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="e9674-138">En este ejemplo se usa **CreateDatabase** para crear un objeto **Database** nuevo y cifrado.</span><span class="sxs-lookup"><span data-stu-id="e9674-138">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
+<span data-ttu-id="39b36-138">En este ejemplo se usa **CreateDatabase** para crear un objeto **Database** nuevo y cifrado.</span><span class="sxs-lookup"><span data-stu-id="39b36-138">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
 
 ```vb
     Sub CreateDatabaseX() 

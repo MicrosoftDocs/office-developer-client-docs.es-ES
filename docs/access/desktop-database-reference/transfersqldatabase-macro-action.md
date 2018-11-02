@@ -1,6 +1,6 @@
 ---
 title: TransferirBaseDeDatosSQL (acción de macro)
-TOCTitle: TransferSQLDatabase Macro Action
+TOCTitle: TransferSQLDatabase macro action
 ms:assetid: 8cb95e22-f1f0-6c70-7dcb-3a3e9aafdc57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197344(v=office.15)
 ms:contentKeyID: 48546244
@@ -10,29 +10,29 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fff0c9ac46e4a616fb5ea134e3dabc6b4e90576f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae05da3d07cc17f54584d11282721ac83f23ccd8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873106"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926545"
 ---
-# <a name="transfersqldatabase-macro-action"></a><span data-ttu-id="3a7de-102">TransferirBaseDeDatosSQL (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a7de-102">TransferSQLDatabase Macro Action</span></span>
+# <a name="transfersqldatabase-macro-action"></a><span data-ttu-id="47654-102">TransferirBaseDeDatosSQL (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="47654-102">TransferSQLDatabase macro action</span></span>
 
 
-<span data-ttu-id="3a7de-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a7de-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="47654-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47654-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3a7de-104">En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior.</span><span class="sxs-lookup"><span data-stu-id="3a7de-104">In an Access project, you can use the **TransferSQLDatabase** action to transfer a Microsoft SQL Server 7.0 or later database to another SQL Server 7.0 or later database.</span></span> <span data-ttu-id="3a7de-105">Para obtener más información sobre la transferencia de una base de datos, vea la documentación de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="3a7de-105">For more information about transferring a database, see the SQL Server documentation.</span></span>
+<span data-ttu-id="47654-104">En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior.</span><span class="sxs-lookup"><span data-stu-id="47654-104">In an Access project, you can use the **TransferSQLDatabase** action to transfer a Microsoft SQL Server 7.0 or later database to another SQL Server 7.0 or later database.</span></span> <span data-ttu-id="47654-105">Para obtener más información sobre la transferencia de una base de datos, vea la documentación de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="47654-105">For more information about transferring a database, see the SQL Server documentation.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="3a7de-p102">[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</span><span class="sxs-lookup"><span data-stu-id="3a7de-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
+> <span data-ttu-id="47654-p102">[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</span><span class="sxs-lookup"><span data-stu-id="47654-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
 
 
 
-## <a name="setting"></a><span data-ttu-id="3a7de-108">Configuración</span><span class="sxs-lookup"><span data-stu-id="3a7de-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="47654-108">Configuración</span><span class="sxs-lookup"><span data-stu-id="47654-108">Setting</span></span>
 
-<span data-ttu-id="3a7de-109">La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-109">The **TransferSQLDatabase** action has the following arguments.</span></span>
+<span data-ttu-id="47654-109">La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="47654-109">The **TransferSQLDatabase** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -41,58 +41,58 @@ ms.locfileid: "25873106"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3a7de-110">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="3a7de-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="3a7de-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="3a7de-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="47654-110">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="47654-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="47654-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="47654-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3a7de-112"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-112"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-113">El nombre de la base de datos de SQL Server 7.0 o posterior donde se están copiando los datos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-113">The name of the SQL Server 7.0 or later database server you are copying to.</span></span></p></td>
+<td><p><span data-ttu-id="47654-112"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="47654-112"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-113">El nombre de la base de datos de SQL Server 7.0 o posterior donde se están copiando los datos.</span><span class="sxs-lookup"><span data-stu-id="47654-113">The name of the SQL Server 7.0 or later database server you are copying to.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a7de-114"><strong>Database</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-114"><strong>Database</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-115">El nombre de la nueva base de datos que se creará en el servidor de destino.</span><span class="sxs-lookup"><span data-stu-id="3a7de-115">The name of the new database that will be created on the destination server.</span></span></p></td>
+<td><p><span data-ttu-id="47654-114"><strong>Database</strong></span><span class="sxs-lookup"><span data-stu-id="47654-114"><strong>Database</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-115">El nombre de la nueva base de datos que se creará en el servidor de destino.</span><span class="sxs-lookup"><span data-stu-id="47654-115">The name of the new database that will be created on the destination server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a7de-116"><strong>Usar conexión de confianza</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-116"><strong>Use Trusted Connection</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-117">Especifica si existe o no es una conexión de confianza para el servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="3a7de-117">Specifes whether or not there is a trusted connection to the SQL Server.</span></span> <span data-ttu-id="3a7de-118">Si establece en <strong>Yes</strong>, a continuación, hay una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> .</span><span class="sxs-lookup"><span data-stu-id="3a7de-118">If set to <strong>Yes</strong>, then there is a trusted connection and the <strong>Login</strong> and <strong>Password</strong> arguments are not required.</span></span> <span data-ttu-id="3a7de-119">Si se establece en <strong>No</strong>, el <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> argumentos es necesario.</span><span class="sxs-lookup"><span data-stu-id="3a7de-119">If set to <strong>No</strong>, the <strong>Login</strong> and <strong>Password</strong> arguments are required.</span></span> <span data-ttu-id="3a7de-120">El valor predeterminado es <strong>Sí</strong>.</span><span class="sxs-lookup"><span data-stu-id="3a7de-120">The default is <strong>Yes</strong>.</span></span> <span data-ttu-id="3a7de-121">Cuando se usa una conexión de confianza, la seguridad de SQL Server se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión de la red y la base de datos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-121">When you use a trusted connection, SQL Server security integrates with the Windows operating system security to provide a single log on to the network and the database.</span></span></p></td>
+<td><p><span data-ttu-id="47654-116"><strong>Usar conexión de confianza</strong></span><span class="sxs-lookup"><span data-stu-id="47654-116"><strong>Use Trusted Connection</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-117">Especifica si existe o no es una conexión de confianza para el servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="47654-117">Specifes whether or not there is a trusted connection to the SQL Server.</span></span> <span data-ttu-id="47654-118">Si establece en <strong>Yes</strong>, a continuación, hay una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> .</span><span class="sxs-lookup"><span data-stu-id="47654-118">If set to <strong>Yes</strong>, then there is a trusted connection and the <strong>Login</strong> and <strong>Password</strong> arguments are not required.</span></span> <span data-ttu-id="47654-119">Si se establece en <strong>No</strong>, el <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> argumentos es necesario.</span><span class="sxs-lookup"><span data-stu-id="47654-119">If set to <strong>No</strong>, the <strong>Login</strong> and <strong>Password</strong> arguments are required.</span></span> <span data-ttu-id="47654-120">El valor predeterminado es <strong>Sí</strong>.</span><span class="sxs-lookup"><span data-stu-id="47654-120">The default is <strong>Yes</strong>.</span></span> <span data-ttu-id="47654-121">Cuando se usa una conexión de confianza, la seguridad de SQL Server se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión de la red y la base de datos.</span><span class="sxs-lookup"><span data-stu-id="47654-121">When you use a trusted connection, SQL Server security integrates with the Windows operating system security to provide a single log on to the network and the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a7de-122"><strong>Conexión</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-122"><strong>Login</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-123">El nombre de inicio de sesión en el servidor de destino.</span><span class="sxs-lookup"><span data-stu-id="3a7de-123">The name of the Login to the destination server.</span></span></p></td>
+<td><p><span data-ttu-id="47654-122"><strong>Conexión</strong></span><span class="sxs-lookup"><span data-stu-id="47654-122"><strong>Login</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-123">El nombre de inicio de sesión en el servidor de destino.</span><span class="sxs-lookup"><span data-stu-id="47654-123">The name of the Login to the destination server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a7de-124"><strong>Password</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-124"><strong>Password</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-p104">La contraseña para el argumento <strong>Inicio de sesión</strong>. Esta contraseña se almacena como texto en el proyecto de Access, pero se oculta durante la operación de transferencia de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-p104">The password for the <strong>Login</strong> argument. This password is stored as text in the Access project, but is hidden during the transfer database operation.</span></span></p></td>
+<td><p><span data-ttu-id="47654-124"><strong>Password</strong></span><span class="sxs-lookup"><span data-stu-id="47654-124"><strong>Password</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-p104">La contraseña para el argumento <strong>Inicio de sesión</strong>. Esta contraseña se almacena como texto en el proyecto de Access, pero se oculta durante la operación de transferencia de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="47654-p104">The password for the <strong>Login</strong> argument. This password is stored as text in the Access project, but is hidden during the transfer database operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a7de-127"><strong>Transferir datos de copia</strong></span><span class="sxs-lookup"><span data-stu-id="3a7de-127"><strong>Transfer Copy Data</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a7de-p105">Especifica si se deben incluir datos en la operación de transferencia de la base de datos. El valor <strong>Sí</strong> indica que se incluyen todos los datos en todas las tablas, junto con todas las estructuras de datos, propiedades extendidas y objetos de base de datos. La opción <strong>No</strong> indica que no se incluyen los datos en las tablas. En el servidor de destino sólo se crean la estructura de la tabla y las propiedades extendidas, junto con todos los objetos de base de datos (excepto diagramas de base de datos). La opción predeterminada es <strong>Sí</strong>.</span><span class="sxs-lookup"><span data-stu-id="3a7de-p105">Specifies whether or not to include data in the transfer database operation. When set to <strong>Yes</strong>, all data is included for all the tables, along with all data structures, extended properties, and database objects. When set to <strong>No</strong>, no data is included from the tables. Only the table structure and extended properties are created on the destination server, along with all other database objects (except database diagrams). The default is <strong>Yes</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="47654-127"><strong>Transferir datos de copia</strong></span><span class="sxs-lookup"><span data-stu-id="47654-127"><strong>Transfer Copy Data</strong></span></span></p></td>
+<td><p><span data-ttu-id="47654-p105">Especifica si se deben incluir datos en la operación de transferencia de la base de datos. El valor <strong>Sí</strong> indica que se incluyen todos los datos en todas las tablas, junto con todas las estructuras de datos, propiedades extendidas y objetos de base de datos. La opción <strong>No</strong> indica que no se incluyen los datos en las tablas. En el servidor de destino sólo se crean la estructura de la tabla y las propiedades extendidas, junto con todos los objetos de base de datos (excepto diagramas de base de datos). La opción predeterminada es <strong>Sí</strong>.</span><span class="sxs-lookup"><span data-stu-id="47654-p105">Specifies whether or not to include data in the transfer database operation. When set to <strong>Yes</strong>, all data is included for all the tables, along with all data structures, extended properties, and database objects. When set to <strong>No</strong>, no data is included from the tables. Only the table structure and extended properties are created on the destination server, along with all other database objects (except database diagrams). The default is <strong>Yes</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="3a7de-133">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3a7de-133">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="47654-133">Comentarios</span><span class="sxs-lookup"><span data-stu-id="47654-133">Remarks</span></span>
 
-<span data-ttu-id="3a7de-134">No es posible realizar otras operaciones mientras se transfiere la base de datos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-134">You cannot perform other operations while the database is being transferred.</span></span>
+<span data-ttu-id="47654-134">No es posible realizar otras operaciones mientras se transfiere la base de datos.</span><span class="sxs-lookup"><span data-stu-id="47654-134">You cannot perform other operations while the database is being transferred.</span></span>
 
-<span data-ttu-id="3a7de-135">La acción **TransferirBaseDeDatosSQL** copia de forma predeterminada datos, definiciones de datos, objetos de base de datos y propiedades extendidas (tales como valores predeterminados, restricciones de texto y valores de búsqueda).</span><span class="sxs-lookup"><span data-stu-id="3a7de-135">The **TransferSQLDatabase** action, by default, copies data, data definitions, database objects, and extended properties, such as default values, text constraints, and lookup values.</span></span>
+<span data-ttu-id="47654-135">La acción **TransferirBaseDeDatosSQL** copia de forma predeterminada datos, definiciones de datos, objetos de base de datos y propiedades extendidas (tales como valores predeterminados, restricciones de texto y valores de búsqueda).</span><span class="sxs-lookup"><span data-stu-id="47654-135">The **TransferSQLDatabase** action, by default, copies data, data definitions, database objects, and extended properties, such as default values, text constraints, and lookup values.</span></span>
 
-<span data-ttu-id="3a7de-136">Existen ciertos requisitos para transferir una base de datos:</span><span class="sxs-lookup"><span data-stu-id="3a7de-136">There are requirements for transferring a database:</span></span>
+<span data-ttu-id="47654-136">Existen ciertos requisitos para transferir una base de datos:</span><span class="sxs-lookup"><span data-stu-id="47654-136">There are requirements for transferring a database:</span></span>
 
-  - <span data-ttu-id="3a7de-137">El usuario debe ser un administrador del sistema en el servidor de destino (esto no es necesario en el servidor de origen).</span><span class="sxs-lookup"><span data-stu-id="3a7de-137">You must be a member of the sysadmin role on the destination server (No special role is required on the source server).</span></span>
+  - <span data-ttu-id="47654-137">El usuario debe ser un administrador del sistema en el servidor de destino (esto no es necesario en el servidor de origen).</span><span class="sxs-lookup"><span data-stu-id="47654-137">You must be a member of the sysadmin role on the destination server (No special role is required on the source server).</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a7de-138">El servidor SQL Server conectado actualmente al proyecto de Access y el servidor de destino al que se está transfiriendo la base de datos debe ser SQL Server versión 7.0 o posterior.</span><span class="sxs-lookup"><span data-stu-id="3a7de-138">The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.</span></span>
+  - <span data-ttu-id="47654-138">El servidor SQL Server conectado actualmente al proyecto de Access y el servidor de destino al que se está transfiriendo la base de datos debe ser SQL Server versión 7.0 o posterior.</span><span class="sxs-lookup"><span data-stu-id="47654-138">The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="3a7de-139">[!NOTA] Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.</span><span class="sxs-lookup"><span data-stu-id="3a7de-139">Linked servers are not transferred during a database transfer operation.</span></span></P>
+> <P><span data-ttu-id="47654-139">[!NOTA] Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.</span><span class="sxs-lookup"><span data-stu-id="47654-139">Linked servers are not transferred during a database transfer operation.</span></span></P>
 
 
 
-<span data-ttu-id="3a7de-140">Para ejecutar la acción **TransferirBaseDeDatosSQL** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **TransferSQLDatabase** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="3a7de-140">To run the **TransferSQLDatabase** action in a Visual Basic for Applications (VBA) module, use the **TransferSQLDatabase** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="47654-140">Para ejecutar la acción **TransferirBaseDeDatosSQL** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **TransferSQLDatabase** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="47654-140">To run the **TransferSQLDatabase** action in a Visual Basic for Applications (VBA) module, use the **TransferSQLDatabase** method of the **DoCmd** object.</span></span>
 

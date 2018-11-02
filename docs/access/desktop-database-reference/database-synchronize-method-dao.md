@@ -1,5 +1,5 @@
 ---
-title: Database.Synchronize Method (DAO)
+title: Database.Synchronize (método) (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194659(v=office.15)
@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: af280c1fca9465d9d8c02c2496ccc7b74e4d8b5d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19c9935b92e1b7f0b60efb3e00df22133c4d7658
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867526"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927308"
 ---
-# <a name="databasesynchronize-method-dao"></a><span data-ttu-id="51c33-102">Database.Synchronize Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="51c33-102">Database.Synchronize Method (DAO)</span></span>
+# <a name="databasesynchronize-method-dao"></a><span data-ttu-id="66a1e-102">Database.Synchronize (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="66a1e-102">Database.Synchronize method (DAO)</span></span>
 
 
-<span data-ttu-id="51c33-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51c33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66a1e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66a1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51c33-p101">Sincroniza dos réplicas (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="51c33-p101">Synchronizes two replicas. (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="66a1e-p101">Sincroniza dos réplicas (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="66a1e-p101">Synchronizes two replicas. (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="51c33-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="51c33-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="66a1e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="66a1e-106">Syntax</span></span>
 
-<span data-ttu-id="51c33-107">*expresión* . Sincronizar (***DbPathName***, ***ExchangeType***)</span><span class="sxs-lookup"><span data-stu-id="51c33-107">*expression* .Synchronize(***DbPathName***, ***ExchangeType***)</span></span>
+<span data-ttu-id="66a1e-107">*expresión* . Sincronizar (***DbPathName***, ***ExchangeType***)</span><span class="sxs-lookup"><span data-stu-id="66a1e-107">*expression* .Synchronize(***DbPathName***, ***ExchangeType***)</span></span>
 
-<span data-ttu-id="51c33-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="51c33-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="66a1e-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="66a1e-108">*expression* A variable that represents a **Database** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="51c33-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="51c33-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="66a1e-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="66a1e-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,39 +41,39 @@ ms.locfileid: "25867526"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="51c33-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="51c33-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="51c33-111">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="51c33-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="51c33-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="51c33-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="51c33-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="51c33-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="66a1e-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="66a1e-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="66a1e-111">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="66a1e-111">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="66a1e-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="66a1e-112">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="66a1e-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="66a1e-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51c33-114">DbPathName</span><span class="sxs-lookup"><span data-stu-id="51c33-114">DbPathName</span></span></p></td>
-<td><p><span data-ttu-id="51c33-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="51c33-115">Required</span></span></p></td>
-<td><p><span data-ttu-id="51c33-116"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="51c33-116"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="51c33-117">Ruta de acceso a la réplica de destino con la que la base de datos estará sincronizada.</span><span class="sxs-lookup"><span data-stu-id="51c33-117">The path to the target replica with which database will be synchronized.</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-114">DbPathName</span><span class="sxs-lookup"><span data-stu-id="66a1e-114">DbPathName</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="66a1e-115">Required</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-116"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="66a1e-116"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="66a1e-117">Ruta de acceso a la réplica de destino con la que la base de datos estará sincronizada.</span><span class="sxs-lookup"><span data-stu-id="66a1e-117">The path to the target replica with which database will be synchronized.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51c33-118">ExchangeType</span><span class="sxs-lookup"><span data-stu-id="51c33-118">ExchangeType</span></span></p></td>
-<td><p><span data-ttu-id="51c33-119">Opcional</span><span class="sxs-lookup"><span data-stu-id="51c33-119">Optional</span></span></p></td>
-<td><p><span data-ttu-id="51c33-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="51c33-120"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="51c33-121">Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> que indica la dirección para sincronizar los cambios entre las dos bases de datos.</span><span class="sxs-lookup"><span data-stu-id="51c33-121">A <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> constant indicating which direction to synchronize changes between the two databases.</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-118">ExchangeType</span><span class="sxs-lookup"><span data-stu-id="66a1e-118">ExchangeType</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-119">Opcional</span><span class="sxs-lookup"><span data-stu-id="66a1e-119">Optional</span></span></p></td>
+<td><p><span data-ttu-id="66a1e-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="66a1e-120"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="66a1e-121">Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> que indica la dirección para sincronizar los cambios entre las dos bases de datos.</span><span class="sxs-lookup"><span data-stu-id="66a1e-121">A <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> constant indicating which direction to synchronize changes between the two databases.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="51c33-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="51c33-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="66a1e-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="66a1e-122">Remarks</span></span>
 
-<span data-ttu-id="51c33-123">Utilice **Synchronize** para intercambiar datos y cambios de diseño entre dos bases de datos.</span><span class="sxs-lookup"><span data-stu-id="51c33-123">You use **Synchronize** to exchange data and design changes between two databases.</span></span> <span data-ttu-id="51c33-124">Los cambios de diseño siempre se ejecutan primero.</span><span class="sxs-lookup"><span data-stu-id="51c33-124">Design changes always happen first.</span></span> <span data-ttu-id="51c33-125">Ambas bases de datos deben estar en el mismo nivel de diseño antes de que puedan intercambiar datos.</span><span class="sxs-lookup"><span data-stu-id="51c33-125">Both databases must be at the same design level before they can exchange data.</span></span> <span data-ttu-id="51c33-126">Por ejemplo, un intercambio de tipo **dbRepExportChanges** puede provocar cambios de diseño en una réplica incluso aunque los cambios de datos flujo sólo desde la base de datos a DbPathName.</span><span class="sxs-lookup"><span data-stu-id="51c33-126">For example, an exchange of type **dbRepExportChanges** might cause design changes at a replica even though data changes flow only from the database to DbPathName.</span></span>
+<span data-ttu-id="66a1e-123">Utilice **Synchronize** para intercambiar datos y cambios de diseño entre dos bases de datos.</span><span class="sxs-lookup"><span data-stu-id="66a1e-123">You use **Synchronize** to exchange data and design changes between two databases.</span></span> <span data-ttu-id="66a1e-124">Los cambios de diseño siempre se ejecutan primero.</span><span class="sxs-lookup"><span data-stu-id="66a1e-124">Design changes always happen first.</span></span> <span data-ttu-id="66a1e-125">Ambas bases de datos deben estar en el mismo nivel de diseño antes de que puedan intercambiar datos.</span><span class="sxs-lookup"><span data-stu-id="66a1e-125">Both databases must be at the same design level before they can exchange data.</span></span> <span data-ttu-id="66a1e-126">Por ejemplo, un intercambio de tipo **dbRepExportChanges** puede provocar cambios de diseño en una réplica incluso aunque los cambios de datos flujo sólo desde la base de datos a DbPathName.</span><span class="sxs-lookup"><span data-stu-id="66a1e-126">For example, an exchange of type **dbRepExportChanges** might cause design changes at a replica even though data changes flow only from the database to DbPathName.</span></span>
 
-<span data-ttu-id="51c33-127">La réplica identificada en DbPathName debe formar parte del mismo conjunto de réplicas.</span><span class="sxs-lookup"><span data-stu-id="51c33-127">The replica identified in DbPathName must be part of the same replica set.</span></span> <span data-ttu-id="51c33-128">Si ambas réplicas tienen el mismo valor de la propiedad **ReplicaID** o son Diseños principales para dos conjuntos de réplicas distintos, la sincronización produce un error.</span><span class="sxs-lookup"><span data-stu-id="51c33-128">If both replicas have the same **ReplicaID** property setting or are Design Masters for two different replica sets, the synchronization fails.</span></span>
+<span data-ttu-id="66a1e-127">La réplica identificada en DbPathName debe formar parte del mismo conjunto de réplicas.</span><span class="sxs-lookup"><span data-stu-id="66a1e-127">The replica identified in DbPathName must be part of the same replica set.</span></span> <span data-ttu-id="66a1e-128">Si ambas réplicas tienen el mismo valor de la propiedad **ReplicaID** o son Diseños principales para dos conjuntos de réplicas distintos, la sincronización produce un error.</span><span class="sxs-lookup"><span data-stu-id="66a1e-128">If both replicas have the same **ReplicaID** property setting or are Design Masters for two different replica sets, the synchronization fails.</span></span>
 
-<span data-ttu-id="51c33-129">Al sincronizar dos réplicas a través de Internet, debe utilizar la constante **dbRepSyncInternet**.</span><span class="sxs-lookup"><span data-stu-id="51c33-129">When you synchronize two replicas over the Internet, you must use the **dbRepSyncInternet** constant.</span></span> <span data-ttu-id="51c33-130">En este caso, especifique una dirección de localizador de recursos uniforme (URL) para el argumento DbPathName en lugar de especificar una ruta de acceso de red de área local.</span><span class="sxs-lookup"><span data-stu-id="51c33-130">In this case, you specify a Uniform Resource Locator (URL) address for the DbPathName argument instead of specifying a local area network path.</span></span>
+<span data-ttu-id="66a1e-129">Al sincronizar dos réplicas a través de Internet, debe utilizar la constante **dbRepSyncInternet**.</span><span class="sxs-lookup"><span data-stu-id="66a1e-129">When you synchronize two replicas over the Internet, you must use the **dbRepSyncInternet** constant.</span></span> <span data-ttu-id="66a1e-130">En este caso, especifique una dirección de localizador de recursos uniforme (URL) para el argumento DbPathName en lugar de especificar una ruta de acceso de red de área local.</span><span class="sxs-lookup"><span data-stu-id="66a1e-130">In this case, you specify a Uniform Resource Locator (URL) address for the DbPathName argument instead of specifying a local area network path.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="51c33-p105">[!NOTA] No puede sincronizar réplicas parciales con otras réplicas parciales. Vea el método [PopulatePartial](database-populatepartial-method-dao.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51c33-p105">You can't synchronize partial replicas with other partial replicas. See the [PopulatePartial](database-populatepartial-method-dao.md) method for more information.</span></span>
+> <span data-ttu-id="66a1e-p105">[!NOTA] No puede sincronizar réplicas parciales con otras réplicas parciales. Vea el método [PopulatePartial](database-populatepartial-method-dao.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="66a1e-p105">You can't synchronize partial replicas with other partial replicas. See the [PopulatePartial](database-populatepartial-method-dao.md) method for more information.</span></span>
 
 

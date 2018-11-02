@@ -1,26 +1,26 @@
 ---
-title: Workspace Members (DAO)
+title: Miembros del área de trabajo (DAO)
 TOCTitle: Workspace Members
 ms:assetid: 13ac7d41-1b25-20d2-5c85-0f21bfd38328
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec5e11a8bdc33923ca92f96833605338e9f19566
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f3deb259e5058fe595099e5fa556ff5fca8e4baf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889997"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923892"
 ---
-# <a name="workspace-members-dao"></a><span data-ttu-id="4f82a-102">Workspace Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f82a-102">Workspace Members (DAO)</span></span>
+# <a name="workspace-members-dao"></a><span data-ttu-id="3cd50-102">Miembros del área de trabajo (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cd50-102">Workspace members (DAO)</span></span>
 
 
-<span data-ttu-id="4f82a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f82a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cd50-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cd50-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4f82a-p101">Un objeto Workspace define una sesión con nombre para un usuario. Contiene bases de datos abiertas y proporciona mecanismos para transacciones simultáneas y, en áreas de trabajo de Microsoft Access, compatibilidad con grupos de trabajo seguros.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p101">A Workspace object defines a named session for a user. It contains open databases and provides mechanisms for simultaneous transactions and, in Microsoft Access workspaces, secure workgroup support.</span></span>
+<span data-ttu-id="3cd50-p101">Un objeto Workspace define una sesión con nombre para un usuario. Contiene bases de datos abiertas y proporciona mecanismos para transacciones simultáneas y, en áreas de trabajo de Microsoft Access, compatibilidad con grupos de trabajo seguros.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p101">A Workspace object defines a named session for a user. It contains open databases and provides mechanisms for simultaneous transactions and, in Microsoft Access workspaces, secure workgroup support.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="4f82a-106">Métodos</span><span class="sxs-lookup"><span data-stu-id="4f82a-106">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="3cd50-106">Métodos</span><span class="sxs-lookup"><span data-stu-id="3cd50-106">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,50 +29,50 @@ ms.locfileid: "25889997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4f82a-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="4f82a-107">Name</span></span></p></th>
-<th><p><span data-ttu-id="4f82a-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="4f82a-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="3cd50-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="3cd50-107">Name</span></span></p></th>
+<th><p><span data-ttu-id="3cd50-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="3cd50-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-109"><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-109"><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p102">Comienza una nueva transacción <strong>Database</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p102">Begins a new transaction. Read/write <strong>Database</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-109"><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-109"><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p102">Comienza una nueva transacción <strong>Database</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p102">Begins a new transaction. Read/write <strong>Database</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-112"><strong><a href="workspace-close-method-dao.md">Cerrar</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-112"><strong><a href="workspace-close-method-dao.md">Close</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-113">Cierra un objeto <strong>Workspace</strong> abierto.</span><span class="sxs-lookup"><span data-stu-id="4f82a-113">Closes an open <strong>Workspace</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-112"><strong><a href="workspace-close-method-dao.md">Cerrar</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-112"><strong><a href="workspace-close-method-dao.md">Close</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-113">Cierra un objeto <strong>Workspace</strong> abierto.</span><span class="sxs-lookup"><span data-stu-id="3cd50-113">Closes an open <strong>Workspace</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-114"><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-114"><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-115">Finaliza la transacción actual y guarda los cambios.</span><span class="sxs-lookup"><span data-stu-id="4f82a-115">Ends the current transaction and saves the changes.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-114"><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-114"><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-115">Finaliza la transacción actual y guarda los cambios.</span><span class="sxs-lookup"><span data-stu-id="3cd50-115">Ends the current transaction and saves the changes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-116"><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-116"><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-117">Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en el disco y devuelve un objeto <strong>Database</strong> abierto (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="4f82a-117">Creates a new <strong><a href="database-object-dao.md">Database</a></strong> object, saves the database to disk, and returns an opened <strong>Database</strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-116"><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-116"><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-117">Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en el disco y devuelve un objeto <strong>Database</strong> abierto (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3cd50-117">Creates a new <strong><a href="database-object-dao.md">Database</a></strong> object, saves the database to disk, and returns an opened <strong>Database</strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-118"><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-118"><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-118"><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-118"><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="4f82a-p103">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p103">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="3cd50-p103">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p103">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="4f82a-121">Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="4f82a-121">Opens a <strong><a href="connection-object-dao.md">Connection</a></strong> object on an ODBC data source (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="3cd50-121">Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="3cd50-121">Opens a <strong><a href="connection-object-dao.md">Connection</a></strong> object on an ODBC data source (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-122"><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-122"><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-123">Abre una base de datos determinada en un objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong> y devuelve una referencia al objeto <strong><a href="database-object-dao.md">Database</a></strong> que lo representa.</span><span class="sxs-lookup"><span data-stu-id="4f82a-123">Opens a specified database in a <strong><a href="workspace-object-dao.md">Workspace</a></strong> object and returns a reference to the <strong><a href="database-object-dao.md">Database</a></strong> object that represents it.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-122"><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-122"><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-123">Abre una base de datos determinada en un objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong> y devuelve una referencia al objeto <strong><a href="database-object-dao.md">Database</a></strong> que lo representa.</span><span class="sxs-lookup"><span data-stu-id="3cd50-123">Opens a specified database in a <strong><a href="workspace-object-dao.md">Workspace</a></strong> object and returns a reference to the <strong><a href="database-object-dao.md">Database</a></strong> object that represents it.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-124"><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-124"><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-125">Finaliza la transacción actual y restaura las bases de datos en el objeto <strong>Workspace</strong> en el estado en el que estaban cuando comenzó la transacción actual.</span><span class="sxs-lookup"><span data-stu-id="4f82a-125">Ends the current transaction and restores the databases in the <strong>Workspace</strong> object to the state they were in when the current transaction began.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-124"><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-124"><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-125">Finaliza la transacción actual y restaura las bases de datos en el objeto <strong>Workspace</strong> en el estado en el que estaban cuando comenzó la transacción actual.</span><span class="sxs-lookup"><span data-stu-id="3cd50-125">Ends the current transaction and restores the databases in the <strong>Workspace</strong> object to the state they were in when the current transaction began.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="4f82a-126">Propiedades</span><span class="sxs-lookup"><span data-stu-id="4f82a-126">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="3cd50-126">Propiedades</span><span class="sxs-lookup"><span data-stu-id="3cd50-126">Properties</span></span>
 
 <table>
 <colgroup>
@@ -81,48 +81,48 @@ ms.locfileid: "25889997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4f82a-127">Nombre</span><span class="sxs-lookup"><span data-stu-id="4f82a-127">Name</span></span></p></th>
-<th><p><span data-ttu-id="4f82a-128">Descripción</span><span class="sxs-lookup"><span data-stu-id="4f82a-128">Description</span></span></p></th>
+<th><p><span data-ttu-id="3cd50-127">Nombre</span><span class="sxs-lookup"><span data-stu-id="3cd50-127">Name</span></span></p></th>
+<th><p><span data-ttu-id="3cd50-128">Descripción</span><span class="sxs-lookup"><span data-stu-id="3cd50-128">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-129"><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-129"><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p104">Devuelve una colección <strong>Connections</strong> que representa las conexiones actuales del objeto <strong>Workspace</strong> especificado. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p104">Returns a <strong>Connections</strong> collection that represents the current connections in the specified <strong>Workspace</strong>. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-129"><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-129"><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p104">Devuelve una colección <strong>Connections</strong> que representa las conexiones actuales del objeto <strong>Workspace</strong> especificado. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p104">Returns a <strong>Connections</strong> collection that represents the current connections in the specified <strong>Workspace</strong>. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-132"><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-132"><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p105">Devuelve una colección <strong>Databases</strong> que representa las bases de datos abiertas del objeto <strong>Workspace</strong> especificado. Es de solo lectura</span><span class="sxs-lookup"><span data-stu-id="4f82a-p105">Returns a <strong>Databases</strong> collection that represents the open databases in the specified <strong>Workspace</strong>. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-132"><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-132"><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p105">Devuelve una colección <strong>Databases</strong> que representa las bases de datos abiertas del objeto <strong>Workspace</strong> especificado. Es de solo lectura</span><span class="sxs-lookup"><span data-stu-id="3cd50-p105">Returns a <strong>Databases</strong> collection that represents the open databases in the specified <strong>Workspace</strong>. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-135"><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-135"><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-135"><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-135"><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="4f82a-p106">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p106">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="3cd50-p106">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p106">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="4f82a-138">Establece o devuelve el tipo de controlador de cursor utilizado en la conexión creada por los métodos <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> o <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="4f82a-138">Sets or returns the type of cursor driver used on the connection created by the <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> or <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> methods (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="3cd50-138">Establece o devuelve el tipo de controlador de cursor utilizado en la conexión creada por los métodos <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> o <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="3cd50-138">Sets or returns the type of cursor driver used on the connection created by the <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> or <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> methods (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-139"><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-139"><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-140">Establece o devuelve un valor que indica si varias transacciones que implican los mismos motores de base de datos de Microsoft Access conectados al origen de datos ODBC están aisladas (sólo para áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="4f82a-140">Sets or returns a value that indicates whether multiple transactiond that involve the same Microsoft Access database engine-connected ODBC data source are isolated (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-139"><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-139"><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-140">Establece o devuelve un valor que indica si varias transacciones que implican los mismos motores de base de datos de Microsoft Access conectados al origen de datos ODBC están aisladas (sólo para áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3cd50-140">Sets or returns a value that indicates whether multiple transactiond that involve the same Microsoft Access database engine-connected ODBC data source are isolated (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-141"><strong><a href="workspace-logintimeout-property-dao.md">LoginTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-141"><strong><a href="workspace-logintimeout-property-dao.md">LoginTimeout</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-142">Establece o devuelve el número de segundos transcurridos antes de que se produzca un error cuando se intenta iniciar sesión en una base de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="4f82a-142">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-141"><strong><a href="workspace-logintimeout-property-dao.md">LoginTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-141"><strong><a href="workspace-logintimeout-property-dao.md">LoginTimeout</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-142">Establece o devuelve el número de segundos transcurridos antes de que se produzca un error cuando se intenta iniciar sesión en una base de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="3cd50-142">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-143"><strong><a href="workspace-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-143"><strong><a href="workspace-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p107">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p107">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-143"><strong><a href="workspace-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-143"><strong><a href="workspace-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p107">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p107">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f82a-147"><strong><a href="workspace-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-147"><strong><a href="workspace-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p108">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p108">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-147"><strong><a href="workspace-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-147"><strong><a href="workspace-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p108">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p108">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f82a-150"><strong><a href="workspace-type-property-dao.md">Tipo de</a></strong></span><span class="sxs-lookup"><span data-stu-id="4f82a-150"><strong><a href="workspace-type-property-dao.md">Type</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="4f82a-p109">Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="4f82a-p109">Sets or returns a value that indicates the operational type or data type of an object. Read-only <strong>Integer</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3cd50-150"><strong><a href="workspace-type-property-dao.md">Tipo de</a></strong></span><span class="sxs-lookup"><span data-stu-id="3cd50-150"><strong><a href="workspace-type-property-dao.md">Type</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3cd50-p109">Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="3cd50-p109">Sets or returns a value that indicates the operational type or data type of an object. Read-only <strong>Integer</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

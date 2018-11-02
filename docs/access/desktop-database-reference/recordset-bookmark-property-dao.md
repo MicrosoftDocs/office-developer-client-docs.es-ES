@@ -1,5 +1,5 @@
 ---
-title: Recordset.Bookmark Property (DAO)
+title: Propiedad Recordset.Bookmark (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823084(v=office.15)
@@ -10,45 +10,45 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 644eb2e1a8f979451d233bcc5a48f723c25739b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8b45d0bdf605f77084353da065c2cc8c674bd24e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888478"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922884"
 ---
-# <a name="recordsetbookmark-property-dao"></a><span data-ttu-id="fbd9e-102">Recordset.Bookmark Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="fbd9e-102">Recordset.Bookmark Property (DAO)</span></span>
+# <a name="recordsetbookmark-property-dao"></a><span data-ttu-id="f7b44-102">Propiedad Recordset.Bookmark (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7b44-102">Recordset.Bookmark property (DAO)</span></span>
 
 
-<span data-ttu-id="fbd9e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fbd9e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f7b44-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7b44-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fbd9e-104">Establece o devuelve un marcador que identifica de forma exclusiva el registro actual de un objeto **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-104">Sets or returns a bookmark that uniquely identifies the current record in a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="f7b44-104">Establece o devuelve un marcador que identifica de forma exclusiva el registro actual de un objeto **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="f7b44-104">Sets or returns a bookmark that uniquely identifies the current record in a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fbd9e-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="fbd9e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f7b44-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f7b44-105">Syntax</span></span>
 
-<span data-ttu-id="fbd9e-106">*expresión* . Marcador</span><span class="sxs-lookup"><span data-stu-id="fbd9e-106">*expression* .Bookmark</span></span>
+<span data-ttu-id="f7b44-106">*expresión* . Marcador</span><span class="sxs-lookup"><span data-stu-id="f7b44-106">*expression* .Bookmark</span></span>
 
-<span data-ttu-id="fbd9e-107">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="fbd9e-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="f7b44-107">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="f7b44-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fbd9e-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fbd9e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f7b44-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f7b44-108">Remarks</span></span>
 
-<span data-ttu-id="fbd9e-109">Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar la propiedad **Bookmark** con ese **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-109">For a **Recordset** object based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use the **Bookmark** property with that **Recordset**.</span></span> <span data-ttu-id="fbd9e-110">Sin embargo, puede que otros productos de base de datos no admitan marcadores.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-110">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="fbd9e-111">Por ejemplo, no se pueden usar marcadores en un objeto **Recordset** basado en una tabla vinculada de Paradox que no tenga una clave principal.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-111">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
+<span data-ttu-id="f7b44-109">Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar la propiedad **Bookmark** con ese **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="f7b44-109">For a **Recordset** object based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use the **Bookmark** property with that **Recordset**.</span></span> <span data-ttu-id="f7b44-110">Sin embargo, puede que otros productos de base de datos no admitan marcadores.</span><span class="sxs-lookup"><span data-stu-id="f7b44-110">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="f7b44-111">Por ejemplo, no se pueden usar marcadores en un objeto **Recordset** basado en una tabla vinculada de Paradox que no tenga una clave principal.</span><span class="sxs-lookup"><span data-stu-id="f7b44-111">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
 
-<span data-ttu-id="fbd9e-p102">Cuando se crea o se abre un objeto **Recordset**, cada registro tiene ya un marcador único. Puede guardar el marcador del registro actual asignando el valor de la propiedad **Bookmark** a una variable. Para poder volver rápidamente a ese registro después de moverse a otro, establezca la propiedad **Bookmark** del objeto **Recordset** en el valor de dicha variable.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-p102">When you create or open a **Recordset** object, each of its records already has a unique bookmark. You can save the bookmark for the current record by assigning the value of the **Bookmark** property to a variable. To quickly return to that record at any time after moving to a different record, set the **Recordset** object's **Bookmark** property to the value of that variable.</span></span>
+<span data-ttu-id="f7b44-p102">Cuando se crea o se abre un objeto **Recordset**, cada registro tiene ya un marcador único. Puede guardar el marcador del registro actual asignando el valor de la propiedad **Bookmark** a una variable. Para poder volver rápidamente a ese registro después de moverse a otro, establezca la propiedad **Bookmark** del objeto **Recordset** en el valor de dicha variable.</span><span class="sxs-lookup"><span data-stu-id="f7b44-p102">When you create or open a **Recordset** object, each of its records already has a unique bookmark. You can save the bookmark for the current record by assigning the value of the **Bookmark** property to a variable. To quickly return to that record at any time after moving to a different record, set the **Recordset** object's **Bookmark** property to the value of that variable.</span></span>
 
-<span data-ttu-id="fbd9e-p103">No hay límite en el número de marcadores que se pueden establecer. Para crear un marcador para un registro distinto del actual, desplácese al registro deseado y asigne el valor de la propiedad **Bookmark** a una variable de tipo **String** que identifique el registro.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-p103">There is no limit to the number of bookmarks you can establish. To create a bookmark for a record other than the current record, move to the desired record and assign the value of the **Bookmark** property to a **String** variable that identifies the record.</span></span>
+<span data-ttu-id="f7b44-p103">No hay límite en el número de marcadores que se pueden establecer. Para crear un marcador para un registro distinto del actual, desplácese al registro deseado y asigne el valor de la propiedad **Bookmark** a una variable de tipo **String** que identifique el registro.</span><span class="sxs-lookup"><span data-stu-id="f7b44-p103">There is no limit to the number of bookmarks you can establish. To create a bookmark for a record other than the current record, move to the desired record and assign the value of the **Bookmark** property to a **String** variable that identifies the record.</span></span>
 
-<span data-ttu-id="fbd9e-117">Para asegurarse de que el objeto **Recordset** admita marcadores, compruebe el valor de su propiedad **[Bookmarkable](recordset-bookmarkable-property-dao.md)** antes de usar la propiedad **Bookmark**.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-117">To make sure the **Recordset** object supports bookmarks, check the value of its **[Bookmarkable](recordset-bookmarkable-property-dao.md)** property before you use the **Bookmark** property.</span></span> <span data-ttu-id="fbd9e-118">Si la propiedad **Bookmarkable** es False, el objeto **Recordset** no admite marcadores y, mediante el **marcador** de propiedad da como resultado un error capturable.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-118">If the **Bookmarkable** property is False, the **Recordset** object doesn't support bookmarks, and using the **Bookmark** property results in a trappable error.</span></span>
+<span data-ttu-id="f7b44-117">Para asegurarse de que el objeto **Recordset** admita marcadores, compruebe el valor de su propiedad **[Bookmarkable](recordset-bookmarkable-property-dao.md)** antes de usar la propiedad **Bookmark**.</span><span class="sxs-lookup"><span data-stu-id="f7b44-117">To make sure the **Recordset** object supports bookmarks, check the value of its **[Bookmarkable](recordset-bookmarkable-property-dao.md)** property before you use the **Bookmark** property.</span></span> <span data-ttu-id="f7b44-118">Si la propiedad **Bookmarkable** es False, el objeto **Recordset** no admite marcadores y, mediante el **marcador** de propiedad da como resultado un error capturable.</span><span class="sxs-lookup"><span data-stu-id="f7b44-118">If the **Bookmarkable** property is False, the **Recordset** object doesn't support bookmarks, and using the **Bookmark** property results in a trappable error.</span></span>
 
-<span data-ttu-id="fbd9e-p105">Si usa el método **[Clone](recordset-clone-method-dao.md)** para crear una copia de un objeto **Recordset**, la configuración de la propiedad **Bookmark** de los objetos **Recordset** original y duplicado es idéntica y se puede usar indistintamente. Sin embargo, no se pueden usar marcadores de distintos objetos **Recordset** indistintamente, incluso si se crearon mediante el mismo objeto o la misma instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-p105">If you use the **[Clone](recordset-clone-method-dao.md)** method to create a copy of a **Recordset** object, the **Bookmark** property settings for the original and the duplicate **Recordset** objects are identical and can be used interchangeably. However, you can't use bookmarks from different **Recordset** objects interchangeably, even if they were created by using the same object or the same SQL statement.</span></span>
+<span data-ttu-id="f7b44-p105">Si usa el método **[Clone](recordset-clone-method-dao.md)** para crear una copia de un objeto **Recordset**, la configuración de la propiedad **Bookmark** de los objetos **Recordset** original y duplicado es idéntica y se puede usar indistintamente. Sin embargo, no se pueden usar marcadores de distintos objetos **Recordset** indistintamente, incluso si se crearon mediante el mismo objeto o la misma instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="f7b44-p105">If you use the **[Clone](recordset-clone-method-dao.md)** method to create a copy of a **Recordset** object, the **Bookmark** property settings for the original and the duplicate **Recordset** objects are identical and can be used interchangeably. However, you can't use bookmarks from different **Recordset** objects interchangeably, even if they were created by using the same object or the same SQL statement.</span></span>
 
-<span data-ttu-id="fbd9e-121">Si se establece la propiedad **Bookmark** en un valor que representa un registro eliminado, se produce un error capturable.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-121">If you set the **Bookmark** property to a value that represents a deleted record, a trappable error occurs.</span></span>
+<span data-ttu-id="f7b44-121">Si se establece la propiedad **Bookmark** en un valor que representa un registro eliminado, se produce un error capturable.</span><span class="sxs-lookup"><span data-stu-id="f7b44-121">If you set the **Bookmark** property to a value that represents a deleted record, a trappable error occurs.</span></span>
 
-<span data-ttu-id="fbd9e-122">El valor de la propiedad **Bookmark** no es lo mismo que el número de registro.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-122">The value of the **Bookmark** property isn't the same as a record number.</span></span>
+<span data-ttu-id="f7b44-122">El valor de la propiedad **Bookmark** no es lo mismo que el número de registro.</span><span class="sxs-lookup"><span data-stu-id="f7b44-122">The value of the **Bookmark** property isn't the same as a record number.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fbd9e-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="fbd9e-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f7b44-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f7b44-123">Example</span></span>
 
-<span data-ttu-id="fbd9e-124">En este ejemplo, se usan las propiedades **Bookmark** y **Bookmarkable** para permitir que el usuario marque un registro de un objeto **Recordset** y vuelva a él más adelante.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-124">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="f7b44-124">En este ejemplo, se usan las propiedades **Bookmark** y **Bookmarkable** para permitir que el usuario marque un registro de un objeto **Recordset** y vuelva a él más adelante.</span><span class="sxs-lookup"><span data-stu-id="f7b44-124">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb
     Sub BookmarkX() 
@@ -125,7 +125,7 @@ ms.locfileid: "25888478"
 
 <br/>
 
-<span data-ttu-id="fbd9e-125">En este ejemplo se utiliza la propiedad **LastModified** para mover el puntero de registros actual a ambos registros, al que se ha modificado y al que se ha creado recientemente.</span><span class="sxs-lookup"><span data-stu-id="fbd9e-125">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
+<span data-ttu-id="f7b44-125">En este ejemplo se utiliza la propiedad **LastModified** para mover el puntero de registros actual a ambos registros, al que se ha modificado y al que se ha creado recientemente.</span><span class="sxs-lookup"><span data-stu-id="f7b44-125">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
 
 ```vb
     Sub LastModifiedX() 

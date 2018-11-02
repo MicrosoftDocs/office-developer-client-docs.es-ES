@@ -1,28 +1,28 @@
 ---
-title: Container Properties (DAO)
+title: Propiedades de contenedor (DAO)
 TOCTitle: Properties
 ms:assetid: 78edc02d-68a9-4e9c-84ff-f77cf6ff2754
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161089(v=office.15)
 ms:contentKeyID: 52073051
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 984e5db7da5c4f739461a4da2beca9fc77af9019
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a581d919ec6ff15b0b684faf839ee0341dfd0959
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891145"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923997"
 ---
-# <a name="container-properties-dao"></a><span data-ttu-id="a9974-102">Container Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9974-102">Container Properties (DAO)</span></span>
+# <a name="container-properties-dao"></a><span data-ttu-id="23efc-102">Propiedades de contenedor (DAO)</span><span class="sxs-lookup"><span data-stu-id="23efc-102">Container properties (DAO)</span></span>
 
 
-<span data-ttu-id="a9974-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9974-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23efc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23efc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="a9974-104">Container.Documents Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9974-104">Container.Documents Property (DAO)</span></span>](container-documents-property-dao.md)
+  - [<span data-ttu-id="23efc-104">Propiedad Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="23efc-104">Container.Documents property (DAO)</span></span>](container-documents-property-dao.md)
 
-  - [<span data-ttu-id="a9974-105">Container.Name Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9974-105">Container.Name Property (DAO)</span></span>](container-name-property-dao.md)
+  - [<span data-ttu-id="23efc-105">Propiedad Container.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="23efc-105">Container.Name property (DAO)</span></span>](container-name-property-dao.md)
 
-  - [<span data-ttu-id="a9974-106">Container.Properties Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9974-106">Container.Properties Property (DAO)</span></span>](container-properties-property-dao.md)
+  - [<span data-ttu-id="23efc-106">Propiedad Container.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="23efc-106">Container.Properties property (DAO)</span></span>](container-properties-property-dao.md)
 
