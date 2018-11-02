@@ -1,40 +1,33 @@
 ---
-title: ActiveX Data Objects (ADO) referencia de la API
-TOCTitle: ADO API Reference
+title: Referencia de API de ActiveX Data Objects (ADO)
+TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
 ms:contentKeyID: 48543275
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27f0032cc92105a2cc88dd23e18311ee892b105c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4fb6b06fd23577812f43db2f80829831b3f6409c
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885552"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910848"
 ---
-# <a name="ado-api-reference"></a><span data-ttu-id="7a156-102">Referencia de las API de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-102">ADO API Reference</span></span>
+# <a name="ado-api-reference"></a><span data-ttu-id="3cf1a-102">Referencia de API de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-102">ADO API reference</span></span>
 
+<span data-ttu-id="3cf1a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cf1a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a156-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a156-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cf1a-104">En esta sección de la documentación de ActiveX Data Objects (ADO) contiene temas para cada ADO objeto, colección, (propiedad), propiedad dinámica, método, evento y (enumeración).</span><span class="sxs-lookup"><span data-stu-id="3cf1a-104">This section of the ActiveX Data Objects (ADO) documentation contains topics for each ADO object, collection, property, dynamic property, method, event, and enumeration.</span></span> <span data-ttu-id="3cf1a-105">Además, contiene una lista de índices de sintaxis ADO para su uso con Microsoft Visual C++ y Windows Foundation Classes (WFC).</span><span class="sxs-lookup"><span data-stu-id="3cf1a-105">In addition, it contains a list of ADO syntax indexes to be used with Microsoft Visual C++ and Windows Foundation Classes (WFC).</span></span>
 
-<span data-ttu-id="7a156-p101">En esta sección de la documentación ADO, se presentan temas para cada objeto, colección, propiedad, propiedad dinámica, método, evento y enumeración de ADO. Además, contiene una lista de índices de sintaxis ADO para su uso con Microsoft Visual C++ y Windows Foundation Classes (WFC).</span><span class="sxs-lookup"><span data-stu-id="7a156-p101">This section of the ADO documentation contains topics for each ADO object, collection, property, dynamic property, method, event, and enumeration. In addition, it contains a list of ADO syntax indexes to be used with Microsoft Visual C++ and Windows Foundation Classes (WFC).</span></span>
+<span data-ttu-id="3cf1a-106">Si desea obtener más información, busque un tema específico en el índice o consulte los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="3cf1a-106">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
 
-<span data-ttu-id="7a156-106">Si desea obtener más información, busque un tema específico en el índice o consulte los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="7a156-106">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
-
-  - [<span data-ttu-id="7a156-107">Objetos de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-107">ADO Objects</span></span>](ado-objects-and-interfaces.md)
-
-  - [<span data-ttu-id="7a156-108">Colecciones de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-108">ADO Collections</span></span>](ado-collections.md)
-
-  - [<span data-ttu-id="7a156-109">Propiedades de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-109">ADO Properties</span></span>](ado-properties.md)
-
-  - [<span data-ttu-id="7a156-110">Propiedades dinámicas de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-110">ADO Dynamic Properties</span></span>](ado-dynamic-properties.md)
-
-  - [<span data-ttu-id="7a156-111">Métodos de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-111">ADO Methods</span></span>](ado-methods.md)
-
-  - [<span data-ttu-id="7a156-112">Eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-112">ADO Events</span></span>](ado-events.md)
-
-  - [<span data-ttu-id="7a156-113">Constantes enumeradas de ADO</span><span class="sxs-lookup"><span data-stu-id="7a156-113">ADO Enumerated Constants</span></span>](ado-enumerated-constants.md)
-
-  - <span data-ttu-id="7a156-114">[Índices de sintaxis de ADO](https://msdn.microsoft.com/library/jj248990\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="7a156-114">[ADO Syntax Indexes](https://msdn.microsoft.com/library/jj248990\(v=office.15\))</span></span>
+- [<span data-ttu-id="3cf1a-107">Objetos de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-107">ADO objects</span></span>](ado-objects-and-interfaces.md)
+- [<span data-ttu-id="3cf1a-108">Colecciones de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-108">ADO collections</span></span>](ado-collections.md)
+- [<span data-ttu-id="3cf1a-109">Propiedades de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-109">ADO properties</span></span>](ado-properties.md)
+- [<span data-ttu-id="3cf1a-110">Propiedades dinámicas de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-110">ADO dynamic properties</span></span>](ado-dynamic-properties.md)
+- [<span data-ttu-id="3cf1a-111">Métodos de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-111">ADO methods</span></span>](ado-methods.md)
+- [<span data-ttu-id="3cf1a-112">Eventos de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-112">ADO events</span></span>](ado-events.md)
+- [<span data-ttu-id="3cf1a-113">Constantes enumeradas de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-113">ADO enumerated constants</span></span>](ado-enumerated-constants.md)
+- [<span data-ttu-id="3cf1a-114">Ejemplos de código de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-114">ADO code examples</span></span>](ado-code-examples.md)
+- [<span data-ttu-id="3cf1a-115">Índices de sintaxis de ADO</span><span class="sxs-lookup"><span data-stu-id="3cf1a-115">ADO syntax indexes</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)
 
