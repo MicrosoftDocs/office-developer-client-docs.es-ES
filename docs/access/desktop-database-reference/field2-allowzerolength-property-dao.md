@@ -1,19 +1,19 @@
 ---
-title: Field2.AllowZeroLength Property (DAO)
+title: Propiedad Field2.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
 ms:contentKeyID: 48547908
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1ec717cdeda58ef8eabcb1cd62c2629018313db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 853b2ca82703174ab1d62007dd92b8268ea13e54
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882528"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923052"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Field2.AllowZeroLength Property (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Propiedad Field2.AllowZeroLength (DAO)
 
 
 **Se aplica a**: Access 2013, Office 2013

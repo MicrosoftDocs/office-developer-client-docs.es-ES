@@ -1,19 +1,19 @@
 ---
-title: Level (objeto) (ADO MD)
-TOCTitle: Level Object (ADO MD)
+title: Level (objeto, ADO MD)
+TOCTitle: Level object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
 ms:contentKeyID: 48548160
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6137e35d43153d7d9d36f23e1bdbe9fc80a442d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 02637a7a7cb312f7749775f4f2bc29dcddd95e66
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881443"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923814"
 ---
-# <a name="level-object-ado-md"></a>Level (objeto) (ADO MD)
+# <a name="level-object-ado-md"></a>Level (objeto, ADO MD)
 
 
 **Se aplica a**: Access 2013, Office 2013

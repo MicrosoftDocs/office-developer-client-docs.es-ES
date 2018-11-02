@@ -1,19 +1,19 @@
 ---
-title: Método Database.CreateQueryDef (DAO)
+title: Database.CreateQueryDef (método) (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 75ee7cac-dcd0-b4c5-b55b-9cbaaae2cbf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 24cb363d253e9abd18d251299c36edbdb371d56d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7e6a6fe546f862f2452ac992c140a63959e48a6b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880785"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919748"
 ---
-# <a name="databasecreatequerydef-method-dao"></a>Método Database.CreateQueryDef (DAO)
+# <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef (método) (DAO)
 
 **Se aplica a**: Access 2013, Office 2013
 
