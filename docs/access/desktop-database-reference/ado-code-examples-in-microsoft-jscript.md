@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 166cdc22c7448851605789f04f590ca9fff04758
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f35b2ef2d4b7ccd858edc98569239ee757ec9d86
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873756"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910890"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Ejemplos de código de ADO en Microsoft JScript
 
@@ -22,31 +22,21 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 > [!NOTE]
 > [!NOTA] Pegue el ejemplo de código completo, de principio a fin, en un editor de código. Es posible que el ejemplo no se ejecute correctamente si se utilizan ejemplos parciales o si se pierde el formato de párrafo.
 
-**Métodos**
+## <a name="methods"></a>Métodos
 
-  - [Ejemplo del método AddNew](addnew-method-example-jscript.md)
+- [Ejemplo del método AddNew](addnew-method-example-jscript.md)
+- [Append y CreateParameter ejemplo de los métodos](append-and-createparameter-methods-example-jscript.md)
+- [Execute, Requery y Clear ejemplo de los métodos](execute-requery-and-clear-methods-example-jscript.md)
+- [Ejemplo del método Find](find-method-example-jscript.md)
+- [Ejemplo del método GetRows](getrows-method-example-vb.md)
 
-  - [Ejemplo de los métodos Append y CreateParameter](append-and-createparameter-methods-example-jscript.md)
+## <a name="properties"></a>Propiedades
 
-  - [Ejemplo de los métodos Execute, Requery, y Clear](execute-requery-and-clear-methods-example-jscript.md)
-
-  - [Ejemplo del método Find](find-method-example-jscript.md)
-
-  - [Ejemplo del método GetRows](getrows-method-example-vb.md)
-
-**Propiedades**
-
-  - [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-jscript.md)
-
-  - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [Ejemplo de la propiedad CacheSize](cachesize-property-example-jscript.md)
-
-  - [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-jscript.md)
+- [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+- [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+- [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-jscript.md)
+- [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamaño y dirección](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
+- [Ejemplo de la propiedad CacheSize](cachesize-property-example-jscript.md)
+- [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

@@ -1,22 +1,23 @@
 ---
 title: Métodos de ActiveX Data Objects (ADO)
-TOCTitle: ADO Methods
+TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ef05e7f322b769102ce25aab7dfc26a75b0aa22
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879336"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910806"
 ---
 # <a name="ado-methods"></a>Métodos de ADO
 
-
 **Se aplica a**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25879336"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Método</th>
+<th>Descripción</th>
+</tr>
 <tr class="odd">
 <td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>Crea un nuevo registro de un objeto <strong>Recordset</strong> actualizable.</p></td>
@@ -38,8 +43,9 @@ ms.locfileid: "25879336"
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans y RollbackTrans</a></p></td>
-<td><p>Administra el procesamiento de transacciones en un objeto de <strong>conexión de</strong> la siguiente manera: <strong>BeginTrans</strong> : inicia una transacción nueva.<br />
-<strong>CommitTrans</strong>: guarda los cambios y termina la transacción actual. También puede iniciar una transacción nueva.<br />
+<td><p>Administra el procesamiento de transacciones dentro de un objeto <strong>Connection</strong> del siguiente modo:
+<br/><br/><strong>BeginTrans</strong>: inicia una transacción nueva.<br/><br/>
+<strong>CommitTrans</strong>: guarda los cambios y termina la transacción actual. También puede iniciar una transacción nueva.<br/><br/>
 <strong>RollbackTrans</strong> — cancela cualquier cambio y termina la transacción actual. También puede iniciar una transacción nueva.</p></td>
 </tr>
 <tr class="odd">
@@ -237,3 +243,4 @@ ms.locfileid: "25879336"
 </tbody>
 </table>
 
+<br/>

@@ -1,24 +1,25 @@
 ---
-title: Colecciones de ActiveX Data Objects (ADO)
-TOCTitle: ADO Collections
+title: Colecciones de objetos de datos ActiveX (ADO)
+TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cbddefcdfa17326f922cad49c774e8ade06e5137
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9a9510ce1e8c9dcb1e46f7cfdc4e45e71f779910
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873682"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910862"
 ---
 # <a name="ado-collections"></a>Colecciones de ADO
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [Objetos de ADO](ado-objects-and-interfaces.md) o el tema de un objeto específico.
+Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [objetos de ADO](ado-objects-and-interfaces.md) o el tema de un objeto específico.
+
+<br/>
 
 <table>
 <colgroup>
@@ -26,6 +27,10 @@ Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Colección</th>
+<th>Descripción</th>
+</tr>
 <tr class="odd">
 <td><p><a href="errors-collection-ado.md">Errors</a></p></td>
 <td><p>Contiene todos los objetos <strong>Error</strong> creados en respuesta a un error relacionado con el proveedor.</p></td>
@@ -44,4 +49,6 @@ Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto
 </tr>
 </tbody>
 </table>
+
+<br/>
 

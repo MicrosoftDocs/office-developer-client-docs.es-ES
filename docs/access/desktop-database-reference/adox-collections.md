@@ -1,28 +1,35 @@
 ---
 title: Colecciones de ADOX (referencia de escritorio de la base de datos de Access)
-TOCTitle: ADOX Collections
+TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e26031d6acaf958f1f715e210fa7bb8e4d3b9515
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aa9cf4128f8c5ae37281cd8b996b9bf59094ba70
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879434"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910702"
 ---
 # <a name="adox-collections"></a>Colecciones de ADOX
 
-
 **Se aplica a**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th><p>Colección</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="columns-collection-adox.md">Columns</a></p></td>
@@ -59,3 +66,4 @@ ms.locfileid: "25879434"
 </tbody>
 </table>
 
+<br/>
