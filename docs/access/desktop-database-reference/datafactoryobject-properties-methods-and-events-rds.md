@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01fc9aa35b3ecf43e7ebddc7f573fcb7a860c021
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 86ad613da0cc438b01593c79521aa80dfd666b43
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910785"
+ms.locfileid: "25919321"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a><span data-ttu-id="15c18-102">DataFactory propiedades, métodos y eventos (RDS)</span><span class="sxs-lookup"><span data-stu-id="15c18-102">DataFactory properties, methods, and events (RDS)</span></span>
+# <a name="datafactory-properties-methods-and-events-rds"></a><span data-ttu-id="5b1e8-102">DataFactory propiedades, métodos y eventos (RDS)</span><span class="sxs-lookup"><span data-stu-id="5b1e8-102">DataFactory properties, methods, and events (RDS)</span></span>
 
 
-<span data-ttu-id="15c18-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15c18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5b1e8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5b1e8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-## <a name="properties"></a><span data-ttu-id="15c18-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="15c18-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="5b1e8-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="5b1e8-104">Properties</span></span>
 
-<span data-ttu-id="15c18-105">Ninguna.</span><span class="sxs-lookup"><span data-stu-id="15c18-105">None.</span></span>
+<span data-ttu-id="5b1e8-105">Ninguna.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-105">None.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="15c18-106">Métodos</span><span class="sxs-lookup"><span data-stu-id="15c18-106">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="5b1e8-106">Métodos</span><span class="sxs-lookup"><span data-stu-id="5b1e8-106">Methods</span></span>
 
 <table>
 <colgroup>
@@ -33,26 +33,26 @@ ms.locfileid: "25910785"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="15c18-107"><a href="converttostring-method-rds.md">ConvertToString (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="15c18-107"><a href="converttostring-method-rds.md">ConvertToString Method (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="15c18-108">Convierte un conjunto de registros en una cadena MIME64.</span><span class="sxs-lookup"><span data-stu-id="15c18-108">Converts a recordset into a MIME64 string.</span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-107"><a href="converttostring-method-rds.md">ConvertToString (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="5b1e8-107"><a href="converttostring-method-rds.md">ConvertToString method (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-108">Convierte un conjunto de registros en una cadena MIME64.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-108">Converts a recordset into a MIME64 string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="15c18-109"><a href="createrecordset-method-rds.md">Método CreateRecordset (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="15c18-109"><a href="createrecordset-method-rds.md">CreateRecordset Method (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="15c18-110">Crea y devuelve un conjunto de registros vacío.</span><span class="sxs-lookup"><span data-stu-id="15c18-110">Creates and returns an empty recordset.</span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-109"><a href="createrecordset-method-rds.md">CreateRecordset (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="5b1e8-109"><a href="createrecordset-method-rds.md">CreateRecordset method (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-110">Crea y devuelve un conjunto de registros vacío.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-110">Creates and returns an empty recordset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="15c18-111"><a href="query-method-rds.md">Query (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="15c18-111"><a href="query-method-rds.md">Query Method (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="15c18-112">Ejecuta la solicitud y crea un conjunto de filas de datos avanzados.</span><span class="sxs-lookup"><span data-stu-id="15c18-112">Execute the request and create an advanced data rowset.</span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-111"><a href="query-method-rds.md">Query (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="5b1e8-111"><a href="query-method-rds.md">Query method (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-112">Ejecuta la solicitud y crea un conjunto de filas de datos avanzados.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-112">Execute the request and create an advanced data rowset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="15c18-113"><a href="submitchanges-method-rds.md">SubmitChanges (RDS) (método)</a></span><span class="sxs-lookup"><span data-stu-id="15c18-113"><a href="submitchanges-method-rds.md">SubmitChanges Method (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="15c18-114">Dado un conjunto de registros con cambios pendientes, este método los envía a la base de datos identificada en la cadena de conexión.</span><span class="sxs-lookup"><span data-stu-id="15c18-114">Given a recordset with pending changes, this method submits them to the database identified in the connection string.</span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-113"><a href="submitchanges-method-rds.md">SubmitChanges (método, RDS)</a></span><span class="sxs-lookup"><span data-stu-id="5b1e8-113"><a href="submitchanges-method-rds.md">SubmitChanges method (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="5b1e8-114">Dado un conjunto de registros con cambios pendientes, este método los envía a la base de datos identificada en la cadena de conexión.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-114">Given a recordset with pending changes, this method submits them to the database identified in the connection string.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="events"></a><span data-ttu-id="15c18-115">Eventos</span><span class="sxs-lookup"><span data-stu-id="15c18-115">Events</span></span>
+## <a name="events"></a><span data-ttu-id="5b1e8-115">Eventos</span><span class="sxs-lookup"><span data-stu-id="5b1e8-115">Events</span></span>
 
-<span data-ttu-id="15c18-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="15c18-116">None.</span></span>
+<span data-ttu-id="5b1e8-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="5b1e8-116">None.</span></span>
 

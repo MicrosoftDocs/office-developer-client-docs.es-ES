@@ -1,28 +1,28 @@
 ---
-title: Field2.Properties Property (DAO)
+title: Propiedad Field2.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: a365c2ef-c9b5-d765-e609-2e070c66de55
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821031(v=office.15)
 ms:contentKeyID: 48546785
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa047ee0c90c93680bb475f369e2a7d0e4f2baf1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3f5a9e7935e41b7bf237f0ef725dd3e0686f5f00
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877614"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921015"
 ---
-# <a name="field2properties-property-dao"></a><span data-ttu-id="5cf3b-102">Field2.Properties Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="5cf3b-102">Field2.Properties Property (DAO)</span></span>
+# <a name="field2properties-property-dao"></a><span data-ttu-id="ed62c-102">Propiedad Field2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ed62c-102">Field2.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="5cf3b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5cf3b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ed62c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed62c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5cf3b-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="5cf3b-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="ed62c-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="ed62c-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5cf3b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5cf3b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ed62c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ed62c-106">Syntax</span></span>
 
-<span data-ttu-id="5cf3b-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="5cf3b-107">*expression* .Properties</span></span>
+<span data-ttu-id="ed62c-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="ed62c-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="5cf3b-108">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="5cf3b-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="ed62c-108">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="ed62c-108">*expression* A variable that represents a **Field2** object.</span></span>
 

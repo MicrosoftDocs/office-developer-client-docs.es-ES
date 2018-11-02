@@ -1,34 +1,34 @@
 ---
 title: CerrarBaseDeDatos (acción de macro)
-TOCTitle: CloseDatabase Macro Action
+TOCTitle: CloseDatabase macro action
 ms:assetid: c4b4278d-932c-99f6-da2d-8953109b44b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823085(v=office.15)
 ms:contentKeyID: 48547598
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42ba5925c35081f612bd4a81b49f3c2b16cf61dd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1d55e2028027f0861b1e9ad00518d9c51180fdfc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876641"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919888"
 ---
-# <a name="closedatabase-macro-action"></a><span data-ttu-id="b3c52-102">CerrarBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b3c52-102">CloseDatabase Macro Action</span></span>
+# <a name="closedatabase-macro-action"></a><span data-ttu-id="b7072-102">CerrarBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b7072-102">CloseDatabase macro action</span></span>
 
 
-<span data-ttu-id="b3c52-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3c52-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7072-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7072-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3c52-104">La acción **CerrarBaseDeDatos** puede usarse para cerrar la actual base de datos.</span><span class="sxs-lookup"><span data-stu-id="b3c52-104">You can use the **CloseDatabase** action to close the current database.</span></span>
+<span data-ttu-id="b7072-104">La acción **CerrarBaseDeDatos** puede usarse para cerrar la actual base de datos.</span><span class="sxs-lookup"><span data-stu-id="b7072-104">You can use the **CloseDatabase** action to close the current database.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="b3c52-105">Configuración</span><span class="sxs-lookup"><span data-stu-id="b3c52-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="b7072-105">Configuración</span><span class="sxs-lookup"><span data-stu-id="b7072-105">Setting</span></span>
 
-<span data-ttu-id="b3c52-106">La acción **CerrarBaseDeDatos** no tiene ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="b3c52-106">The **CloseDatabase** action does not have any arguments.</span></span>
+<span data-ttu-id="b7072-106">La acción **CerrarBaseDeDatos** no tiene ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="b7072-106">The **CloseDatabase** action does not have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b3c52-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b3c52-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b7072-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b7072-107">Remarks</span></span>
 
-  - <span data-ttu-id="b3c52-108">Access no ejecuta ninguna acción que siga a la acción **CerrarBaseDeDatos** de una macro.</span><span class="sxs-lookup"><span data-stu-id="b3c52-108">Access will not run any actions that follow the **CloseDatabase** action in a macro.</span></span>
+  - <span data-ttu-id="b7072-108">Access no ejecuta ninguna acción que siga a la acción **CerrarBaseDeDatos** de una macro.</span><span class="sxs-lookup"><span data-stu-id="b7072-108">Access will not run any actions that follow the **CloseDatabase** action in a macro.</span></span>
 
-  - <span data-ttu-id="b3c52-109">Esta acción tiene el mismo efecto que hacer clic en la pestaña **archivo** y, a continuación, haciendo clic en **Cerrar base de datos**.</span><span class="sxs-lookup"><span data-stu-id="b3c52-109">This action has the same effect as clicking the **File** tab and then clicking **Close Database**.</span></span> <span data-ttu-id="b3c52-110">Si hay objetos abiertos que no se guardaron cuando ejecuta la acción **CerrarBaseDeDatos**, los cuadros de diálogo que aparecen son los mismos que los que se muestran al hacer clic en **Cerrar base de datos**.</span><span class="sxs-lookup"><span data-stu-id="b3c52-110">If there are any unsaved objects open when you run the **CloseDatabase** action, the dialog boxes that appear are the same as those displayed when you click **Close Database**.</span></span>
+  - <span data-ttu-id="b7072-109">Esta acción tiene el mismo efecto que hacer clic en la pestaña **archivo** y, a continuación, haciendo clic en **Cerrar base de datos**.</span><span class="sxs-lookup"><span data-stu-id="b7072-109">This action has the same effect as clicking the **File** tab and then clicking **Close Database**.</span></span> <span data-ttu-id="b7072-110">Si hay objetos abiertos que no se guardaron cuando ejecuta la acción **CerrarBaseDeDatos**, los cuadros de diálogo que aparecen son los mismos que los que se muestran al hacer clic en **Cerrar base de datos**.</span><span class="sxs-lookup"><span data-stu-id="b7072-110">If there are any unsaved objects open when you run the **CloseDatabase** action, the dialog boxes that appear are the same as those displayed when you click **Close Database**.</span></span>
 
-  - <span data-ttu-id="b3c52-111">Para ejecutar la acción **CerrarBaseDeDatos** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **CloseDatabase** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="b3c52-111">To run the **CloseDatabase** action in a Visual Basic for Applications (VBA) module, use the **CloseDatabase** method of the **DoCmd** object.</span></span>
+  - <span data-ttu-id="b7072-111">Para ejecutar la acción **CerrarBaseDeDatos** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **CloseDatabase** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="b7072-111">To run the **CloseDatabase** action in a Visual Basic for Applications (VBA) module, use the **CloseDatabase** method of the **DoCmd** object.</span></span>
 

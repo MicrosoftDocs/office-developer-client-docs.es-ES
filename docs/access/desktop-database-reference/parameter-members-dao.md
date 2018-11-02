@@ -1,26 +1,26 @@
 ---
-title: Parameter Members (DAO)
+title: Miembros del parámetro (DAO)
 TOCTitle: Parameter Members
 ms:assetid: 38e19de8-5318-6077-13b1-10653069aaeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
 ms:contentKeyID: 48544228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f480534aae7de980f330aa6e36c35997130e6bf1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 94d3bb48da8d16a2a9cae1ec0f692a3475c57c31
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884936"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919209"
 ---
-# <a name="parameter-members-dao"></a><span data-ttu-id="76e1c-102">Parameter Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="76e1c-102">Parameter Members (DAO)</span></span>
+# <a name="parameter-members-dao"></a><span data-ttu-id="722d7-102">Miembros del parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="722d7-102">Parameter members (DAO)</span></span>
 
 
-<span data-ttu-id="76e1c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76e1c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="722d7-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="722d7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76e1c-p101">Un objeto Parameter representa un valor suministrado a una consulta. El parámetro está asociado con un objeto QueryDef creado a partir de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p101">A Parameter object represents a value supplied to a query. The parameter is associated with a QueryDef object created from a parameter query.</span></span>
+<span data-ttu-id="722d7-p101">Un objeto Parameter representa un valor suministrado a una consulta. El parámetro está asociado con un objeto QueryDef creado a partir de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="722d7-p101">A Parameter object represents a value supplied to a query. The parameter is associated with a QueryDef object created from a parameter query.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="76e1c-106">Propiedades</span><span class="sxs-lookup"><span data-stu-id="76e1c-106">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="722d7-106">Propiedades</span><span class="sxs-lookup"><span data-stu-id="722d7-106">Properties</span></span>
 
 <table>
 <colgroup>
@@ -29,36 +29,36 @@ ms.locfileid: "25884936"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="76e1c-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="76e1c-107">Name</span></span></p></th>
-<th><p><span data-ttu-id="76e1c-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="76e1c-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="722d7-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="722d7-107">Name</span></span></p></th>
+<th><p><span data-ttu-id="722d7-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="722d7-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76e1c-109"><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></span><span class="sxs-lookup"><span data-stu-id="76e1c-109"><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="722d7-109"><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></span><span class="sxs-lookup"><span data-stu-id="722d7-109"><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="76e1c-p102">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="722d7-p102">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="722d7-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="76e1c-112">Establece o devuelve un valor que indica si un objeto <strong><a href="parameter-object-dao.md">Parameter</a></strong> representa un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="76e1c-112">Sets or returns a value that indicates whether a <strong><a href="parameter-object-dao.md">Parameter</a></strong> object represents an input parameter, an output parameter, both, or the return value from the procedure (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="722d7-112">Establece o devuelve un valor que indica si un objeto <strong><a href="parameter-object-dao.md">Parameter</a></strong> representa un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="722d7-112">Sets or returns a value that indicates whether a <strong><a href="parameter-object-dao.md">Parameter</a></strong> object represents an input parameter, an output parameter, both, or the return value from the procedure (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e1c-113"><strong><a href="parameter-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="76e1c-113"><strong><a href="parameter-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="76e1c-p103">Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p103">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="722d7-113"><strong><a href="parameter-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="722d7-113"><strong><a href="parameter-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="722d7-p103">Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="722d7-p103">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e1c-116"><strong><a href="parameter-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="76e1c-116"><strong><a href="parameter-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="76e1c-p104">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p104">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="722d7-116"><strong><a href="parameter-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="722d7-116"><strong><a href="parameter-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="722d7-p104">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="722d7-p104">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e1c-119"><strong><a href="parameter-type-property-dao.md">Tipo de</a></strong></span><span class="sxs-lookup"><span data-stu-id="76e1c-119"><strong><a href="parameter-type-property-dao.md">Type</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="76e1c-p105">Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p105">Sets or returns a value that indicates the operational type or data type of an object. Read/write <strong>Integer</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="722d7-119"><strong><a href="parameter-type-property-dao.md">Tipo de</a></strong></span><span class="sxs-lookup"><span data-stu-id="722d7-119"><strong><a href="parameter-type-property-dao.md">Type</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="722d7-p105">Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="722d7-p105">Sets or returns a value that indicates the operational type or data type of an object. Read/write <strong>Integer</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e1c-122"><strong><a href="parameter-value-property-dao.md">Valor</a></strong></span><span class="sxs-lookup"><span data-stu-id="76e1c-122"><strong><a href="parameter-value-property-dao.md">Value</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="76e1c-p106">Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="76e1c-p106">Sets or returns the value of an object. Read/write <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="722d7-122"><strong><a href="parameter-value-property-dao.md">Valor</a></strong></span><span class="sxs-lookup"><span data-stu-id="722d7-122"><strong><a href="parameter-value-property-dao.md">Value</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="722d7-p106">Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="722d7-p106">Sets or returns the value of an object. Read/write <strong>Variant</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
