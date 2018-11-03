@@ -1,26 +1,22 @@
 ---
-title: Members Collection (ADO MD Reference)
-TOCTitle: Members Collection (ADO MD)
+title: Colección Members (referencia de ADO MD)
+TOCTitle: Members collection (ADO MD)
 ms:assetid: 7365afa6-2b59-404c-a6f7-ca2104303d3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249470(v=office.15)
 ms:contentKeyID: 48545636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d87107a1d7a16187803f82ba7e379b8703b9b6ff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bde351e49cd099e412786b339009f883d4ca6b95
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886630"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928603"
 ---
-# <a name="members-collection-ado-md-reference"></a><span data-ttu-id="bc348-102">Members Collection (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="bc348-102">Members Collection (ADO MD Reference)</span></span>
+# <a name="members-collection-ado-md-reference"></a><span data-ttu-id="a89f2-102">Colección Members (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a89f2-102">Members collection (ADO MD reference)</span></span>
 
+<span data-ttu-id="a89f2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a89f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bc348-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc348-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="bc348-104">Colección Members (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bc348-104">Members Collection (ADO MD)</span></span>](members-collection-ado-md.md)
-
-  - [<span data-ttu-id="bc348-105">Members Collection Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bc348-105">Members Collection Properties, Methods, and Events (ADO MD)</span></span>](members-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="a89f2-104">Members (colección, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a89f2-104">Members collection (ADO MD)</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="a89f2-105">Propiedades de la colección de miembros, métodos y eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a89f2-105">Members collection properties, methods, and events (ADO MD)</span></span>](members-collection-properties-methods-and-events-ado-md.md)
 

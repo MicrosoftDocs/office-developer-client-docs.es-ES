@@ -1,30 +1,30 @@
 ---
-title: BuscarRegistro (bloque de datos)
-TOCTitle: LookupRecord Data Block
+title: Bloque de datos BuscarRegistro
+TOCTitle: LookupRecord data block
 ms:assetid: 750dc8ca-3bab-c3d1-c91d-2196f9c0604d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bd9a687d7f74b99dc20ee079f970c37ba627f31
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877691"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928596"
 ---
-# <a name="lookuprecord-data-block"></a><span data-ttu-id="a0db4-102">BuscarRegistro (bloque de datos)</span><span class="sxs-lookup"><span data-stu-id="a0db4-102">LookupRecord Data Block</span></span>
+# <a name="lookuprecord-data-block"></a><span data-ttu-id="cd8de-102">Bloque de datos BuscarRegistro</span><span class="sxs-lookup"><span data-stu-id="cd8de-102">LookupRecord data block</span></span>
 
-<span data-ttu-id="a0db4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0db4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd8de-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd8de-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a0db4-104">Un bloque de datos **BuscarRegistro** realiza un conjunto de acciones en un registro específico.</span><span class="sxs-lookup"><span data-stu-id="a0db4-104">A **LookupRecord** data block performs a set of actions on a specific record.</span></span>
+<span data-ttu-id="cd8de-104">Un bloque de datos **BuscarRegistro** realiza un conjunto de acciones en un registro específico.</span><span class="sxs-lookup"><span data-stu-id="cd8de-104">A **LookupRecord** data block performs a set of actions on a specific record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a0db4-105">[!NOTA] El bloque de datos **BuscarRegistro** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="a0db4-105">The **LookupRecord** data block is available only in Data Macros.</span></span>
+> <span data-ttu-id="cd8de-105">[!NOTA] El bloque de datos **BuscarRegistro** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="cd8de-105">The **LookupRecord** data block is available only in Data Macros.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="a0db4-106">Valores</span><span class="sxs-lookup"><span data-stu-id="a0db4-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="cd8de-106">Valores</span><span class="sxs-lookup"><span data-stu-id="cd8de-106">Setting</span></span>
 
-<span data-ttu-id="a0db4-107">La acción **EstablecerCampo** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="a0db4-107">The **SetField** action has the following arguments.</span></span>
+<span data-ttu-id="cd8de-107">La acción **EstablecerCampo** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="cd8de-107">The **SetField** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -34,46 +34,46 @@ ms.locfileid: "25877691"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a0db4-108">Argumento</span><span class="sxs-lookup"><span data-stu-id="a0db4-108">Argument</span></span></p></th>
-<th><p><span data-ttu-id="a0db4-109">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="a0db4-109">Required</span></span></p></th>
-<th><p><span data-ttu-id="a0db4-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="a0db4-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="cd8de-108">Argumento</span><span class="sxs-lookup"><span data-stu-id="cd8de-108">Argument</span></span></p></th>
+<th><p><span data-ttu-id="cd8de-109">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="cd8de-109">Required</span></span></p></th>
+<th><p><span data-ttu-id="cd8de-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="cd8de-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a0db4-111">In</span><span class="sxs-lookup"><span data-stu-id="a0db4-111">In</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-112">Sí</span><span class="sxs-lookup"><span data-stu-id="a0db4-112">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-113">Una cadena que identifica el registro para funcionar en.</span><span class="sxs-lookup"><span data-stu-id="a0db4-113">A string that identifies the record to operate on.</span></span> <span data-ttu-id="a0db4-114">El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="a0db4-114">The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</span></span></p>
+<td><p><span data-ttu-id="cd8de-111">In</span><span class="sxs-lookup"><span data-stu-id="cd8de-111">In</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-112">Sí</span><span class="sxs-lookup"><span data-stu-id="cd8de-112">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-113">Una cadena que identifica el registro para funcionar en.</span><span class="sxs-lookup"><span data-stu-id="cd8de-113">A string that identifies the record to operate on.</span></span> <span data-ttu-id="cd8de-114">El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="cd8de-114">The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</span></span></p>
 
 > [!NOTE]
-> <span data-ttu-id="a0db4-115">El registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC .</span><span class="sxs-lookup"><span data-stu-id="a0db4-115">The specified record cannot include data stored in a linked table or ODBC data source.</span></span>
+> <span data-ttu-id="cd8de-115">El registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC .</span><span class="sxs-lookup"><span data-stu-id="cd8de-115">The specified record cannot include data stored in a linked table or ODBC data source.</span></span>
 
 
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0db4-116">Condición WHERE</span><span class="sxs-lookup"><span data-stu-id="a0db4-116">Where Condition</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-117">No</span><span class="sxs-lookup"><span data-stu-id="a0db4-117">No</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-118">Expresión de cadena utilizada para restringir el intervalo de datos en la que el bloque de datos <strong>BuscarRegistro</strong> se lleva a cabo.</span><span class="sxs-lookup"><span data-stu-id="a0db4-118">A string expression used to restrict the range of data on which the <strong>LookupRecord</strong> data block is performed.</span></span> <span data-ttu-id="a0db4-119">Por ejemplo, criterios suelen ser equivalentes a la cláusula WHERE en una expresión SQL, sin la palabra donde.</span><span class="sxs-lookup"><span data-stu-id="a0db4-119">For example, criteria are often equivalent to the WHERE clause in an SQL expression, without the word WHERE.</span></span> <span data-ttu-id="a0db4-120">Si se omiten criterios, el bloque de datos <strong>BuscarRegistro</strong> funciona en todo el dominio especificado por el argumento <em>en</em> .</span><span class="sxs-lookup"><span data-stu-id="a0db4-120">If criteria are omitted, the <strong>LookupRecord</strong> data block operates on the entire domain specified by the <em>In</em> argument.</span></span> <span data-ttu-id="a0db4-121">Cualquier campo que se incluya en criterios debe ser también un campo de <em>en</em>.</span><span class="sxs-lookup"><span data-stu-id="a0db4-121">Any field that is included in criteria must also be a field in <em>In</em>.</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-116">Condición WHERE</span><span class="sxs-lookup"><span data-stu-id="cd8de-116">Where Condition</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-117">No</span><span class="sxs-lookup"><span data-stu-id="cd8de-117">No</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-118">Expresión de cadena utilizada para restringir el intervalo de datos en la que el bloque de datos <strong>BuscarRegistro</strong> se lleva a cabo.</span><span class="sxs-lookup"><span data-stu-id="cd8de-118">A string expression used to restrict the range of data on which the <strong>LookupRecord</strong> data block is performed.</span></span> <span data-ttu-id="cd8de-119">Por ejemplo, criterios suelen ser equivalentes a la cláusula WHERE en una expresión SQL, sin la palabra donde.</span><span class="sxs-lookup"><span data-stu-id="cd8de-119">For example, criteria are often equivalent to the WHERE clause in an SQL expression, without the word WHERE.</span></span> <span data-ttu-id="cd8de-120">Si se omiten criterios, el bloque de datos <strong>BuscarRegistro</strong> funciona en todo el dominio especificado por el argumento <em>en</em> .</span><span class="sxs-lookup"><span data-stu-id="cd8de-120">If criteria are omitted, the <strong>LookupRecord</strong> data block operates on the entire domain specified by the <em>In</em> argument.</span></span> <span data-ttu-id="cd8de-121">Cualquier campo que se incluya en criterios debe ser también un campo de <em>en</em>.</span><span class="sxs-lookup"><span data-stu-id="cd8de-121">Any field that is included in criteria must also be a field in <em>In</em>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0db4-122">Alias</span><span class="sxs-lookup"><span data-stu-id="a0db4-122">Alias</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-123">No</span><span class="sxs-lookup"><span data-stu-id="a0db4-123">No</span></span></p></td>
-<td><p><span data-ttu-id="a0db4-124">Una cadena que proporciona un nombre alternativo para el registro especificado por el argumento <em>en</em> .</span><span class="sxs-lookup"><span data-stu-id="a0db4-124">A string that provides an alternative name for the record specified by the <em>In</em> argument.</span></span> <span data-ttu-id="a0db4-125">A menudo se usa para acortar el nombre de tabla para las referencias subsiguientes a fin de evitar posibles referencias ambiguas.</span><span class="sxs-lookup"><span data-stu-id="a0db4-125">Often used to shorten the table name for subsequent references to prevent possible ambiguous references.</span></span> <span data-ttu-id="a0db4-126">Si no se especifica ningún <em>Alias</em>, se utilizará el nombre de la tabla o consulta como el alias.</span><span class="sxs-lookup"><span data-stu-id="a0db4-126">If <em>Alias</em> is not specified, the table or query name will be used as the alias.</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-122">Alias</span><span class="sxs-lookup"><span data-stu-id="cd8de-122">Alias</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-123">No</span><span class="sxs-lookup"><span data-stu-id="cd8de-123">No</span></span></p></td>
+<td><p><span data-ttu-id="cd8de-124">Una cadena que proporciona un nombre alternativo para el registro especificado por el argumento <em>en</em> .</span><span class="sxs-lookup"><span data-stu-id="cd8de-124">A string that provides an alternative name for the record specified by the <em>In</em> argument.</span></span> <span data-ttu-id="cd8de-125">A menudo se usa para acortar el nombre de tabla para las referencias subsiguientes a fin de evitar posibles referencias ambiguas.</span><span class="sxs-lookup"><span data-stu-id="cd8de-125">Often used to shorten the table name for subsequent references to prevent possible ambiguous references.</span></span> <span data-ttu-id="cd8de-126">Si no se especifica ningún <em>Alias</em>, se utilizará el nombre de la tabla o consulta como el alias.</span><span class="sxs-lookup"><span data-stu-id="cd8de-126">If <em>Alias</em> is not specified, the table or query name will be used as the alias.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="a0db4-127">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a0db4-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cd8de-127">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cd8de-127">Remarks</span></span>
 
-<span data-ttu-id="a0db4-128">Si los criterios especificados por los argumentos *en* y *Condición Where* especifica más de un registro, el bloque de datos **BuscarRegistro** funcionará sólo en el primer registro.</span><span class="sxs-lookup"><span data-stu-id="a0db4-128">If the criteria specified by the *In* and *Where Condition* arguments specifies more than one record, the **LookupRecord** data block will operate only on the first record.</span></span>
+<span data-ttu-id="cd8de-128">Si los criterios especificados por los argumentos *en* y *Condición Where* especifica más de un registro, el bloque de datos **BuscarRegistro** funcionará sólo en el primer registro.</span><span class="sxs-lookup"><span data-stu-id="cd8de-128">If the criteria specified by the *In* and *Where Condition* arguments specifies more than one record, the **LookupRecord** data block will operate only on the first record.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a0db4-129">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="a0db4-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cd8de-129">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="cd8de-129">Example</span></span>
 
-<span data-ttu-id="a0db4-130">En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor desde una macro de datos con nombre.</span><span class="sxs-lookup"><span data-stu-id="a0db4-130">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="a0db4-131">Un ReturnVar denominado **CurrentServiceRequest** se devuelve a la macro o Visual Basic para la subrutina de aplicaciones (VBA) que llama a la macro de datos con nombre.</span><span class="sxs-lookup"><span data-stu-id="a0db4-131">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
+<span data-ttu-id="cd8de-130">En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor desde una macro de datos con nombre.</span><span class="sxs-lookup"><span data-stu-id="cd8de-130">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="cd8de-131">Un ReturnVar denominado **CurrentServiceRequest** se devuelve a la macro o Visual Basic para la subrutina de aplicaciones (VBA) que llama a la macro de datos con nombre.</span><span class="sxs-lookup"><span data-stu-id="cd8de-131">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
 
-<span data-ttu-id="a0db4-132">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="a0db4-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="cd8de-132">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="cd8de-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     RunDataMacro
@@ -90,7 +90,7 @@ ms.locfileid: "25877691"
 
 <br/>
 
-<span data-ttu-id="a0db4-133">En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos antes de cambiar.</span><span class="sxs-lookup"><span data-stu-id="a0db4-133">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="a0db4-134">Cuando se actualiza el campo AssignedTo, un bloque de datos BuscarRegistro se usa para determinar si el técnico asignado actualmente está asignado a una solicitud de servicio abiertas.</span><span class="sxs-lookup"><span data-stu-id="a0db4-134">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="a0db4-135">Si es true, se cancela el evento cambio previo y no se actualiza el registro.</span><span class="sxs-lookup"><span data-stu-id="a0db4-135">If this is true, the Before Change event is cancelled and the record is not updated.</span></span>
+<span data-ttu-id="cd8de-133">En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos antes de cambiar.</span><span class="sxs-lookup"><span data-stu-id="cd8de-133">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="cd8de-134">Cuando se actualiza el campo AssignedTo, un bloque de datos BuscarRegistro se usa para determinar si el técnico asignado actualmente está asignado a una solicitud de servicio abiertas.</span><span class="sxs-lookup"><span data-stu-id="cd8de-134">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="cd8de-135">Si es true, se cancela el evento cambio previo y no se actualiza el registro.</span><span class="sxs-lookup"><span data-stu-id="cd8de-135">If this is true, the Before Change event is cancelled and the record is not updated.</span></span>
 
 ```vb
     /* Get the name of the technician  */

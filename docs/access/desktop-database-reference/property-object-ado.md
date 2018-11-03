@@ -1,42 +1,42 @@
 ---
-title: Property (objeto) (ADO)
-TOCTitle: Property Object (ADO)
+title: Property (objeto, ADO)
+TOCTitle: Property object (ADO)
 ms:assetid: eec318fd-f5ed-d9ef-9830-848439a8914d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
 ms:contentKeyID: 48548567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fe6ac64417c5758d25872a7b67be7cb9f12ac6d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b26a305557e2b7244399c6c2c5513909846eaaff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874513"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929575"
 ---
-# <a name="property-object-ado"></a><span data-ttu-id="d5484-102">Property (objeto) (ADO)</span><span class="sxs-lookup"><span data-stu-id="d5484-102">Property Object (ADO)</span></span>
+# <a name="property-object-ado"></a><span data-ttu-id="ae911-102">Property (objeto, ADO)</span><span class="sxs-lookup"><span data-stu-id="ae911-102">Property object (ADO)</span></span>
 
 
-<span data-ttu-id="d5484-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5484-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ae911-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae911-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5484-104">Representa una característica dinámica de un objeto ADO definido por el proveedor.</span><span class="sxs-lookup"><span data-stu-id="d5484-104">Represents a dynamic characteristic of an ADO object that is defined by the provider.</span></span>
+<span data-ttu-id="ae911-104">Representa una característica dinámica de un objeto ADO definido por el proveedor.</span><span class="sxs-lookup"><span data-stu-id="ae911-104">Represents a dynamic characteristic of an ADO object that is defined by the provider.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d5484-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d5484-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae911-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ae911-105">Remarks</span></span>
 
-<span data-ttu-id="d5484-106">Los objetos de ADO tienen dos tipos de propiedades: integradas y dinámicas.</span><span class="sxs-lookup"><span data-stu-id="d5484-106">ADO objects have two types of properties: built-in and dynamic.</span></span>
+<span data-ttu-id="ae911-106">Los objetos de ADO tienen dos tipos de propiedades: integradas y dinámicas.</span><span class="sxs-lookup"><span data-stu-id="ae911-106">ADO objects have two types of properties: built-in and dynamic.</span></span>
 
-<span data-ttu-id="d5484-107">Las propiedades integradas son aquellas propiedades implementadas en ADO y disponibles inmediatamente para cualquier objeto nuevo, utilizando la sintaxis.</span><span class="sxs-lookup"><span data-stu-id="d5484-107">Built-in properties are those properties implemented in ADO and immediately available to any new object, using the syntax.</span></span> <span data-ttu-id="d5484-108">No aparecen como objetos **Property** en la colección [Properties](properties-collection-ado.md) de un objeto, por lo que, aunque se puedan cambiar sus valores, no se pueden modificar sus características.</span><span class="sxs-lookup"><span data-stu-id="d5484-108">They do not appear as **Property** objects in an object's [Properties](properties-collection-ado.md) collection, so although you can change their values, you cannot modify their characteristics.</span></span>
+<span data-ttu-id="ae911-107">Las propiedades integradas son aquellas propiedades implementadas en ADO y disponibles inmediatamente para cualquier objeto nuevo, utilizando la sintaxis.</span><span class="sxs-lookup"><span data-stu-id="ae911-107">Built-in properties are those properties implemented in ADO and immediately available to any new object, using the syntax.</span></span> <span data-ttu-id="ae911-108">No aparecen como objetos **Property** en la colección [Properties](properties-collection-ado.md) de un objeto, por lo que, aunque se puedan cambiar sus valores, no se pueden modificar sus características.</span><span class="sxs-lookup"><span data-stu-id="ae911-108">They do not appear as **Property** objects in an object's [Properties](properties-collection-ado.md) collection, so although you can change their values, you cannot modify their characteristics.</span></span>
 
-<span data-ttu-id="d5484-109">Las propiedades dinámicas las define el proveedor de datos subyacente y aparecen en la colección **Properties** para el objeto de ADO apropiado.</span><span class="sxs-lookup"><span data-stu-id="d5484-109">Dynamic properties are defined by the underlying data provider, and appear in the **Properties** collection for the appropriate ADO object.</span></span> <span data-ttu-id="d5484-110">Por ejemplo, una propiedad específica del proveedor puede indicar si un objeto [Recordset](recordset-object-ado.md) admite transacciones o actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="d5484-110">For example, a property specific to the provider may indicate if a [Recordset](recordset-object-ado.md) object supports transactions or updating.</span></span> <span data-ttu-id="d5484-111">Estas propiedades adicionales aparecerán como objetos **Property** en la colección **Properties** de ese objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="d5484-111">These additional properties will appear as **Property** objects in that **Recordset** object's **Properties** collection.</span></span> <span data-ttu-id="d5484-112">Se pueden hacer referencia a las propiedades dinámicas sólo a través de la colección, utilizando el MyObject.Properties(0) u o sintaxis MyObject.Properties.</span><span class="sxs-lookup"><span data-stu-id="d5484-112">Dynamic properties can be referenced only through the collection, using the MyObject.Properties(0) or or MyObject.Properties("Name") syntax.</span></span>
+<span data-ttu-id="ae911-109">Las propiedades dinámicas las define el proveedor de datos subyacente y aparecen en la colección **Properties** para el objeto de ADO apropiado.</span><span class="sxs-lookup"><span data-stu-id="ae911-109">Dynamic properties are defined by the underlying data provider, and appear in the **Properties** collection for the appropriate ADO object.</span></span> <span data-ttu-id="ae911-110">Por ejemplo, una propiedad específica del proveedor puede indicar si un objeto [Recordset](recordset-object-ado.md) admite transacciones o actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="ae911-110">For example, a property specific to the provider may indicate if a [Recordset](recordset-object-ado.md) object supports transactions or updating.</span></span> <span data-ttu-id="ae911-111">Estas propiedades adicionales aparecerán como objetos **Property** en la colección **Properties** de ese objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="ae911-111">These additional properties will appear as **Property** objects in that **Recordset** object's **Properties** collection.</span></span> <span data-ttu-id="ae911-112">Se pueden hacer referencia a las propiedades dinámicas sólo a través de la colección, utilizando el MyObject.Properties(0) u o sintaxis MyObject.Properties.</span><span class="sxs-lookup"><span data-stu-id="ae911-112">Dynamic properties can be referenced only through the collection, using the MyObject.Properties(0) or or MyObject.Properties("Name") syntax.</span></span>
 
-<span data-ttu-id="d5484-113">No se puede eliminar ningún tipo de propiedad.</span><span class="sxs-lookup"><span data-stu-id="d5484-113">You cannot delete either kind of property.</span></span>
+<span data-ttu-id="ae911-113">No se puede eliminar ningún tipo de propiedad.</span><span class="sxs-lookup"><span data-stu-id="ae911-113">You cannot delete either kind of property.</span></span>
 
-<span data-ttu-id="d5484-114">Un objeto dinámico **Property** tiene cuatro propiedades integradas propias:</span><span class="sxs-lookup"><span data-stu-id="d5484-114">A dynamic **Property** object has four built-in properties of its own:</span></span>
+<span data-ttu-id="ae911-114">Un objeto dinámico **Property** tiene cuatro propiedades integradas propias:</span><span class="sxs-lookup"><span data-stu-id="ae911-114">A dynamic **Property** object has four built-in properties of its own:</span></span>
 
-  - <span data-ttu-id="d5484-115">La propiedad [Name](name-property-ado.md) es una cadena que identifica a la propiedad.</span><span class="sxs-lookup"><span data-stu-id="d5484-115">The [Name](name-property-ado.md) property is a string that identifies the property.</span></span>
+  - <span data-ttu-id="ae911-115">La propiedad [Name](name-property-ado.md) es una cadena que identifica a la propiedad.</span><span class="sxs-lookup"><span data-stu-id="ae911-115">The [Name](name-property-ado.md) property is a string that identifies the property.</span></span>
 
-  - <span data-ttu-id="d5484-116">La propiedad [Type](type-property-ado.md) es un entero que especifica el tipo de datos de la propiedad.</span><span class="sxs-lookup"><span data-stu-id="d5484-116">The [Type](type-property-ado.md) property is an integer that specifies the property data type.</span></span>
+  - <span data-ttu-id="ae911-116">La propiedad [Type](type-property-ado.md) es un entero que especifica el tipo de datos de la propiedad.</span><span class="sxs-lookup"><span data-stu-id="ae911-116">The [Type](type-property-ado.md) property is an integer that specifies the property data type.</span></span>
 
-  - <span data-ttu-id="d5484-p103">La propiedad [Value](value-property-ado.md) es una variante que contiene la configuración de la propiedad. **Value** es la propiedad predeterminada de un objeto **Property**.</span><span class="sxs-lookup"><span data-stu-id="d5484-p103">The [Value](value-property-ado.md) property is a variant that contains the property setting. **Value** is the default property for a **Property** object.</span></span>
+  - <span data-ttu-id="ae911-p103">La propiedad [Value](value-property-ado.md) es una variante que contiene la configuración de la propiedad. **Value** es la propiedad predeterminada de un objeto **Property**.</span><span class="sxs-lookup"><span data-stu-id="ae911-p103">The [Value](value-property-ado.md) property is a variant that contains the property setting. **Value** is the default property for a **Property** object.</span></span>
 
-  - <span data-ttu-id="d5484-119">La propiedad [Attributes](attributes-property-ado.md) es un valor de tipo Long que indica características de la propiedad específicas del proveedor.</span><span class="sxs-lookup"><span data-stu-id="d5484-119">The [Attributes](attributes-property-ado.md) property is a long value that indicates characteristics of the property specific to the provider.</span></span>
+  - <span data-ttu-id="ae911-119">La propiedad [Attributes](attributes-property-ado.md) es un valor de tipo Long que indica características de la propiedad específicas del proveedor.</span><span class="sxs-lookup"><span data-stu-id="ae911-119">The [Attributes](attributes-property-ado.md) property is a long value that indicates characteristics of the property specific to the provider.</span></span>
 

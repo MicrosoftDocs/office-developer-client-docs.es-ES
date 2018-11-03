@@ -1,36 +1,36 @@
 ---
-title: Field.Required Property (DAO)
+title: Propiedad Field.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77214fcad0f5b2cafe794282782df4446d37fcf6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 25ba678f759fefa460dd505cded6e05b3e96fdf5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887162"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928358"
 ---
-# <a name="fieldrequired-property-dao"></a><span data-ttu-id="7e763-102">Field.Required Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e763-102">Field.Required Property (DAO)</span></span>
+# <a name="fieldrequired-property-dao"></a><span data-ttu-id="58a71-102">Propiedad Field.Required (DAO)</span><span class="sxs-lookup"><span data-stu-id="58a71-102">Field.Required property (DAO)</span></span>
 
 
-<span data-ttu-id="7e763-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e763-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58a71-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58a71-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7e763-104">Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao.md)** requiere un valor no Null.</span><span class="sxs-lookup"><span data-stu-id="7e763-104">Sets or returns a value that indicates whether a **[Field](field-object-dao.md)** object requires a non-Null value.</span></span>
+<span data-ttu-id="58a71-104">Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao.md)** requiere un valor no Null.</span><span class="sxs-lookup"><span data-stu-id="58a71-104">Sets or returns a value that indicates whether a **[Field](field-object-dao.md)** object requires a non-Null value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7e763-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7e763-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="58a71-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="58a71-105">Syntax</span></span>
 
-<span data-ttu-id="7e763-106">*expresión* . Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7e763-106">*expression* .Required</span></span>
+<span data-ttu-id="58a71-106">*expresión* . Obligatorio</span><span class="sxs-lookup"><span data-stu-id="58a71-106">*expression* .Required</span></span>
 
-<span data-ttu-id="7e763-107">*expresión* Variable que representa un objeto **Field** .</span><span class="sxs-lookup"><span data-stu-id="7e763-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="58a71-107">*expresión* Variable que representa un objeto **Field** .</span><span class="sxs-lookup"><span data-stu-id="58a71-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7e763-108">Observaciones</span><span class="sxs-lookup"><span data-stu-id="7e763-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="58a71-108">Observaciones</span><span class="sxs-lookup"><span data-stu-id="58a71-108">Remarks</span></span>
 
-<span data-ttu-id="7e763-109">Para un **Field** que todavía no está anexado a la colección **Fields**, esta propiedad es de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7e763-109">For a **Field** not yet appended to the **Fields** collection, this property is read/write.</span></span>
+<span data-ttu-id="58a71-109">Para un **Field** que todavía no está anexado a la colección **Fields**, esta propiedad es de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="58a71-109">For a **Field** not yet appended to the **Fields** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="7e763-110">La disponibilidad de la propiedad **Required** depende del objeto que contiene la colección [Fields](fields-collection-dao.md), como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="7e763-110">The availability of the **Required** property depends on the object that contains the [Fields](fields-collection-dao.md) collection, as shown in the following table.</span></span>
+<span data-ttu-id="58a71-110">La disponibilidad de la propiedad **Required** depende del objeto que contiene la colección [Fields](fields-collection-dao.md), como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="58a71-110">The availability of the **Required** property depends on the object that contains the [Fields](fields-collection-dao.md) collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -39,46 +39,46 @@ ms.locfileid: "25887162"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7e763-111">Si la colección Fields pertenece a un</span><span class="sxs-lookup"><span data-stu-id="7e763-111">If the Fields collection belongs to a</span></span></p></th>
-<th><p><span data-ttu-id="7e763-112">Entonces Required</span><span class="sxs-lookup"><span data-stu-id="7e763-112">Then Required is</span></span></p></th>
+<th><p><span data-ttu-id="58a71-111">Si la colección Fields pertenece a un</span><span class="sxs-lookup"><span data-stu-id="58a71-111">If the Fields collection belongs to a</span></span></p></th>
+<th><p><span data-ttu-id="58a71-112">Entonces Required</span><span class="sxs-lookup"><span data-stu-id="58a71-112">Then Required is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7e763-113">							Objeto <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="7e763-113"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="7e763-114">No admitido</span><span class="sxs-lookup"><span data-stu-id="7e763-114">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="58a71-113">							Objeto <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="58a71-113"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="58a71-114">No admitido</span><span class="sxs-lookup"><span data-stu-id="58a71-114">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e763-115">							Objeto <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="7e763-115"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="7e763-116">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="7e763-116">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="58a71-115">							Objeto <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="58a71-115"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="58a71-116">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="58a71-116">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e763-117">							Objeto <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="7e763-117"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="7e763-118">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="7e763-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="58a71-117">							Objeto <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="58a71-117"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="58a71-118">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="58a71-118">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e763-119">							Objeto <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="7e763-119"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="7e763-120">No admitido</span><span class="sxs-lookup"><span data-stu-id="7e763-120">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="58a71-119">							Objeto <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="58a71-119"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="58a71-120">No admitido</span><span class="sxs-lookup"><span data-stu-id="58a71-120">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e763-121">							Objeto <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="7e763-121"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="7e763-122">Es de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7e763-122">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="58a71-121">							Objeto <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="58a71-121"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="58a71-122">Es de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="58a71-122">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="7e763-p101">Puede utilizar la propiedad **Required** junto con la propiedad **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)** o **[ValidationRule](field-validationrule-property-dao.md)** para determinar la validez del valor de la propiedad **[Value](field-value-property-dao.md)** para ese objeto **Field**. Si la propiedad **Required** está establecida en **False**, el campo puede contener valores **null**, así como valores que cumplan las condiciones especificadas por los valores de las propiedades **AllowZeroLength** y **ValidationRule**.</span><span class="sxs-lookup"><span data-stu-id="7e763-p101">You can use the **Required** property along with the **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)**, or **[ValidationRule](field-validationrule-property-dao.md)** property to determine the validity of the **[Value](field-value-property-dao.md)** property setting for that **Field** object. If the **Required** property is set to **False**, the field can contain **null** values as well as values that meet the conditions specified by the **AllowZeroLength** and **ValidationRule** property settings.</span></span>
+<span data-ttu-id="58a71-p101">Puede utilizar la propiedad **Required** junto con la propiedad **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)** o **[ValidationRule](field-validationrule-property-dao.md)** para determinar la validez del valor de la propiedad **[Value](field-value-property-dao.md)** para ese objeto **Field**. Si la propiedad **Required** está establecida en **False**, el campo puede contener valores **null**, así como valores que cumplan las condiciones especificadas por los valores de las propiedades **AllowZeroLength** y **ValidationRule**.</span><span class="sxs-lookup"><span data-stu-id="58a71-p101">You can use the **Required** property along with the **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)**, or **[ValidationRule](field-validationrule-property-dao.md)** property to determine the validity of the **[Value](field-value-property-dao.md)** property setting for that **Field** object. If the **Required** property is set to **False**, the field can contain **null** values as well as values that meet the conditions specified by the **AllowZeroLength** and **ValidationRule** property settings.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="7e763-p102">[!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto <STRONG>Index</STRONG> como para un objeto <STRONG>Field</STRONG>, establézcala para el objeto <STRONG>Field</STRONG>. La validez del valor de la propiedad para un objeto <STRONG>Field</STRONG> se comprueba antes que para un objeto <STRONG>Index</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7e763-p102">When you can set this property for either an <STRONG>Index</STRONG> object or a <STRONG>Field</STRONG> object, set it for the <STRONG>Field</STRONG> object. The validity of the property setting for a <STRONG>Field</STRONG> object is checked before that of an <STRONG>Index</STRONG> object.</span></span></P>
+> <P><span data-ttu-id="58a71-p102">[!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto <STRONG>Index</STRONG> como para un objeto <STRONG>Field</STRONG>, establézcala para el objeto <STRONG>Field</STRONG>. La validez del valor de la propiedad para un objeto <STRONG>Field</STRONG> se comprueba antes que para un objeto <STRONG>Index</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="58a71-p102">When you can set this property for either an <STRONG>Index</STRONG> object or a <STRONG>Field</STRONG> object, set it for the <STRONG>Field</STRONG> object. The validity of the property setting for a <STRONG>Field</STRONG> object is checked before that of an <STRONG>Index</STRONG> object.</span></span></P>
 
 
 
-## <a name="example"></a><span data-ttu-id="7e763-127">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7e763-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="58a71-127">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="58a71-127">Example</span></span>
 
-<span data-ttu-id="7e763-p103">En este ejemplo se utiliza la propiedad **Required** que informa sobre qué campo de tres tablas distintas debe contener los datos necesarios para agregar un nuevo registro. El procedimiento RequiredOutput es necesario para ejecutar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="7e763-p103">This example uses the **Required** property to report which fields in three different tables must contain data in order for a new record to be added. The RequiredOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="58a71-p103">En este ejemplo se utiliza la propiedad **Required** que informa sobre qué campo de tres tablas distintas debe contener los datos necesarios para agregar un nuevo registro. El procedimiento RequiredOutput es necesario para ejecutar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="58a71-p103">This example uses the **Required** property to report which fields in three different tables must contain data in order for a new record to be added. The RequiredOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RequiredX() 

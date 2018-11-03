@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Requery Method (DAO)
+title: Recordset2.Requery (método) (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4646003bb7911fc18840d75addf459935ebb1fbd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878636"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925488"
 ---
-# <a name="recordset2requery-method-dao"></a><span data-ttu-id="0606d-102">Recordset2.Requery Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="0606d-102">Recordset2.Requery Method (DAO)</span></span>
+# <a name="recordset2requery-method-dao"></a><span data-ttu-id="416ea-102">Recordset2.Requery (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="416ea-102">Recordset2.Requery method (DAO)</span></span>
 
 
-<span data-ttu-id="0606d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0606d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="416ea-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="416ea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0606d-104">Actualiza los datos de un objeto **[Recordset](recordset-object-dao.md)** volviendo a ejecutar la consulta en la que se basa el objeto.</span><span class="sxs-lookup"><span data-stu-id="0606d-104">Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.</span></span>
+<span data-ttu-id="416ea-104">Actualiza los datos de un objeto **[Recordset](recordset-object-dao.md)** volviendo a ejecutar la consulta en la que se basa el objeto.</span><span class="sxs-lookup"><span data-stu-id="416ea-104">Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0606d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0606d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="416ea-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="416ea-105">Syntax</span></span>
 
-<span data-ttu-id="0606d-106">*expresión* . Requery (***NewQueryDef***)</span><span class="sxs-lookup"><span data-stu-id="0606d-106">*expression* .Requery(***NewQueryDef***)</span></span>
+<span data-ttu-id="416ea-106">*expresión* . Requery (***NewQueryDef***)</span><span class="sxs-lookup"><span data-stu-id="416ea-106">*expression* .Requery(***NewQueryDef***)</span></span>
 
-<span data-ttu-id="0606d-107">*expresión* Variable que representa un objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="0606d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="416ea-107">*expresión* Variable que representa un objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="416ea-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="0606d-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="0606d-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="416ea-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="416ea-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,42 +41,42 @@ ms.locfileid: "25878636"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0606d-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="0606d-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="0606d-110">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="0606d-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="0606d-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="0606d-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="0606d-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="0606d-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="416ea-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="416ea-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="416ea-110">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="416ea-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="416ea-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="416ea-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="416ea-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="416ea-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0606d-113">NewQueryDef</span><span class="sxs-lookup"><span data-stu-id="0606d-113">NewQueryDef</span></span></p></td>
-<td><p><span data-ttu-id="0606d-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="0606d-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="0606d-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="0606d-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="0606d-116">Representa el valor de la propiedad <strong>Name</strong> de un objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="0606d-116">Represents the <strong>Name</strong> property value of a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object</span></span></p></td>
+<td><p><span data-ttu-id="416ea-113">NewQueryDef</span><span class="sxs-lookup"><span data-stu-id="416ea-113">NewQueryDef</span></span></p></td>
+<td><p><span data-ttu-id="416ea-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="416ea-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="416ea-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="416ea-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="416ea-116">Representa el valor de la propiedad <strong>Name</strong> de un objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="416ea-116">Represents the <strong>Name</strong> property value of a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="0606d-117">Observaciones</span><span class="sxs-lookup"><span data-stu-id="0606d-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="416ea-117">Observaciones</span><span class="sxs-lookup"><span data-stu-id="416ea-117">Remarks</span></span>
 
-<span data-ttu-id="0606d-118">Use este método para asegurarse de que un objeto **Recordset** contiene los datos más recientes.</span><span class="sxs-lookup"><span data-stu-id="0606d-118">Use this method to make sure that a **Recordset** contains the most recent data.</span></span> <span data-ttu-id="0606d-119">Este método rellena el actual **objeto Recordset** mediante el uso de los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos proporcionados por el argumento newquerydef.</span><span class="sxs-lookup"><span data-stu-id="0606d-119">This method re-populates the current **Recordset** by using either the current query parameters or (in a Microsoft Access workspace) the new ones supplied by the newquerydef argument.</span></span>
+<span data-ttu-id="416ea-118">Use este método para asegurarse de que un objeto **Recordset** contiene los datos más recientes.</span><span class="sxs-lookup"><span data-stu-id="416ea-118">Use this method to make sure that a **Recordset** contains the most recent data.</span></span> <span data-ttu-id="416ea-119">Este método rellena el actual **objeto Recordset** mediante el uso de los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos proporcionados por el argumento newquerydef.</span><span class="sxs-lookup"><span data-stu-id="416ea-119">This method re-populates the current **Recordset** by using either the current query parameters or (in a Microsoft Access workspace) the new ones supplied by the newquerydef argument.</span></span>
 
-<span data-ttu-id="0606d-120">Si no especifica un argumento newquerydef, el **objeto Recordset** se rellena volver a según la misma definición de consulta y los parámetros que se utilizaron originalmente para llenar el **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="0606d-120">If you don't specify a newquerydef argument, the **Recordset** is re-populated based on the same query definition and parameters used to originally populate the **Recordset**.</span></span> <span data-ttu-id="0606d-121">Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno.</span><span class="sxs-lookup"><span data-stu-id="0606d-121">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="0606d-122">Si no usó **QueryDef** para crear **Recordset**, **Recordset** se vuelve a crear desde cero.</span><span class="sxs-lookup"><span data-stu-id="0606d-122">If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
+<span data-ttu-id="416ea-120">Si no especifica un argumento newquerydef, el **objeto Recordset** se rellena volver a según la misma definición de consulta y los parámetros que se utilizaron originalmente para llenar el **conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="416ea-120">If you don't specify a newquerydef argument, the **Recordset** is re-populated based on the same query definition and parameters used to originally populate the **Recordset**.</span></span> <span data-ttu-id="416ea-121">Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno.</span><span class="sxs-lookup"><span data-stu-id="416ea-121">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="416ea-122">Si no usó **QueryDef** para crear **Recordset**, **Recordset** se vuelve a crear desde cero.</span><span class="sxs-lookup"><span data-stu-id="416ea-122">If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
 
-<span data-ttu-id="0606d-123">Si especifica **QueryDef** original en el argumento newquerydef, a continuación, se vuelve a consultar el **conjunto de registros** mediante los parámetros especificados por **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="0606d-123">If you specify the original **QueryDef** in the newquerydef argument, then the **Recordset** is requeried using the parameters specified by the **QueryDef**.</span></span> <span data-ttu-id="0606d-124">Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno.</span><span class="sxs-lookup"><span data-stu-id="0606d-124">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="0606d-125">Para reflejar los cambios realizados en los valores de parámetro de consulta en el **conjunto de registros**, debe proporcionar el argumento newquerydef.</span><span class="sxs-lookup"><span data-stu-id="0606d-125">To reflect any changes to the query parameter values in the **Recordset**, you must supply the newquerydef argument.</span></span>
+<span data-ttu-id="416ea-123">Si especifica **QueryDef** original en el argumento newquerydef, a continuación, se vuelve a consultar el **conjunto de registros** mediante los parámetros especificados por **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="416ea-123">If you specify the original **QueryDef** in the newquerydef argument, then the **Recordset** is requeried using the parameters specified by the **QueryDef**.</span></span> <span data-ttu-id="416ea-124">Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno.</span><span class="sxs-lookup"><span data-stu-id="416ea-124">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="416ea-125">Para reflejar los cambios realizados en los valores de parámetro de consulta en el **conjunto de registros**, debe proporcionar el argumento newquerydef.</span><span class="sxs-lookup"><span data-stu-id="416ea-125">To reflect any changes to the query parameter values in the **Recordset**, you must supply the newquerydef argument.</span></span>
 
-<span data-ttu-id="0606d-126">Si especifica un objeto **QueryDef** diferente al que se usó originalmente para crear **Recordset**, **Recordset** se vuelve a crear desde cero.</span><span class="sxs-lookup"><span data-stu-id="0606d-126">If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
+<span data-ttu-id="416ea-126">Si especifica un objeto **QueryDef** diferente al que se usó originalmente para crear **Recordset**, **Recordset** se vuelve a crear desde cero.</span><span class="sxs-lookup"><span data-stu-id="416ea-126">If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
 
-<span data-ttu-id="0606d-127">Cuando usa **Requery**, el primer registro de **Recordset** se convierte en el registro activo.</span><span class="sxs-lookup"><span data-stu-id="0606d-127">When you use **Requery**, the first record in the **Recordset** becomes the current record.</span></span>
+<span data-ttu-id="416ea-127">Cuando usa **Requery**, el primer registro de **Recordset** se convierte en el registro activo.</span><span class="sxs-lookup"><span data-stu-id="416ea-127">When you use **Requery**, the first record in the **Recordset** becomes the current record.</span></span>
 
-<span data-ttu-id="0606d-128">No puede usar el método **Requery** en objetos **Recordset** de tipo dynaset o snapshot cuya propiedad **[Restartable](recordset2-restartable-property-dao.md)** está establecida en **False**.</span><span class="sxs-lookup"><span data-stu-id="0606d-128">You can't use the **Requery** method on dynaset- or snapshot-type **Recordset** objects whose **[Restartable](recordset2-restartable-property-dao.md)** property is set to **False**.</span></span> <span data-ttu-id="0606d-129">Sin embargo, si se proporciona el argumento opcional newquerydef, se omite la propiedad **Restartable** .</span><span class="sxs-lookup"><span data-stu-id="0606d-129">However, if you supply the optional newquerydef argument, the **Restartable** property is ignored.</span></span>
+<span data-ttu-id="416ea-128">No puede usar el método **Requery** en objetos **Recordset** de tipo dynaset o snapshot cuya propiedad **[Restartable](recordset2-restartable-property-dao.md)** está establecida en **False**.</span><span class="sxs-lookup"><span data-stu-id="416ea-128">You can't use the **Requery** method on dynaset- or snapshot-type **Recordset** objects whose **[Restartable](recordset2-restartable-property-dao.md)** property is set to **False**.</span></span> <span data-ttu-id="416ea-129">Sin embargo, si se proporciona el argumento opcional newquerydef, se omite la propiedad **Restartable** .</span><span class="sxs-lookup"><span data-stu-id="416ea-129">However, if you supply the optional newquerydef argument, the **Restartable** property is ignored.</span></span>
 
-<span data-ttu-id="0606d-130">Si los dos valores de las propiedades **[BOF](recordset2-bof-property-dao.md)** y **[EOF](recordset2-eof-property-dao.md)** del objeto **Recordset** son **True** después de usar el método **Requery**, la consulta no devuelve ningún registro y **Recordset** no contiene datos.</span><span class="sxs-lookup"><span data-stu-id="0606d-130">If both the **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)** property settings of the **Recordset** object are **True** after you use the **Requery** method, the query didn't return any records and the **Recordset** contains no data.</span></span>
+<span data-ttu-id="416ea-130">Si los dos valores de las propiedades **[BOF](recordset2-bof-property-dao.md)** y **[EOF](recordset2-eof-property-dao.md)** del objeto **Recordset** son **True** después de usar el método **Requery**, la consulta no devuelve ningún registro y **Recordset** no contiene datos.</span><span class="sxs-lookup"><span data-stu-id="416ea-130">If both the **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)** property settings of the **Recordset** object are **True** after you use the **Requery** method, the query didn't return any records and the **Recordset** contains no data.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0606d-131">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="0606d-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="416ea-131">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="416ea-131">Example</span></span>
 
-<span data-ttu-id="0606d-132">En este ejemplo se muestra cómo se puede utilizar el método **Requery** para actualizar una consulta después de cambiar los datos subyacentes.</span><span class="sxs-lookup"><span data-stu-id="0606d-132">This example shows how the **Requery** method can be used to refresh a query after underlying data has been changed.</span></span>
+<span data-ttu-id="416ea-132">En este ejemplo se muestra cómo se puede utilizar el método **Requery** para actualizar una consulta después de cambiar los datos subyacentes.</span><span class="sxs-lookup"><span data-stu-id="416ea-132">This example shows how the **Requery** method can be used to refresh a query after underlying data has been changed.</span></span>
 
 ```vb
     Sub RequeryX() 
@@ -134,7 +134,7 @@ ms.locfileid: "25878636"
 
 <br/>
 
-<span data-ttu-id="0606d-133">En este ejemplo se muestra cómo se puede utilizar el método **Requery** para actualizar una consulta después de cambiar los parámetros de consulta.</span><span class="sxs-lookup"><span data-stu-id="0606d-133">This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.</span></span>
+<span data-ttu-id="416ea-133">En este ejemplo se muestra cómo se puede utilizar el método **Requery** para actualizar una consulta después de cambiar los parámetros de consulta.</span><span class="sxs-lookup"><span data-stu-id="416ea-133">This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.</span></span>
 
 ```vb
 Sub RequeryX2() 

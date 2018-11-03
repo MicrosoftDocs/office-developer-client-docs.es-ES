@@ -6,45 +6,45 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821459(v=office.15)
 ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2e8a7c3dfb3f531fa20ee9a52a1d83e5e8c7a3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6fc6c304f427d4ee98f6c7c653cfd4da76c8cf96
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884054"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931060"
 ---
-# <a name="recordseteof-property-dao"></a><span data-ttu-id="f8f9f-102">Propiedad Recordset.EOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8f9f-102">Recordset.EOF Property (DAO)</span></span>
+# <a name="recordseteof-property-dao"></a><span data-ttu-id="e4ef9-102">Propiedad Recordset.EOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="e4ef9-102">Recordset.EOF property (DAO)</span></span>
 
 
-<span data-ttu-id="f8f9f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8f9f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e4ef9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4ef9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f8f9f-p101">Devuelve un valor que indica si la posición actual del registro se encuentra después del último registro en un objeto **Recordset**. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-p101">Returns a value that indicates whether the current record position is after the last record in a **Recordset** object. Read-only **Boolean**.</span></span>
+<span data-ttu-id="e4ef9-p101">Devuelve un valor que indica si la posición actual del registro se encuentra después del último registro en un objeto **Recordset**. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-p101">Returns a value that indicates whether the current record position is after the last record in a **Recordset** object. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f8f9f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f8f9f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e4ef9-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e4ef9-106">Syntax</span></span>
 
-<span data-ttu-id="f8f9f-107">*expresión* . EOF</span><span class="sxs-lookup"><span data-stu-id="f8f9f-107">*expression* .EOF</span></span>
+<span data-ttu-id="e4ef9-107">*expresión* . EOF</span><span class="sxs-lookup"><span data-stu-id="e4ef9-107">*expression* .EOF</span></span>
 
-<span data-ttu-id="f8f9f-108">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="f8f9f-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="e4ef9-108">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="e4ef9-108">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f8f9f-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="f8f9f-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e4ef9-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e4ef9-109">Remarks</span></span>
 
-<span data-ttu-id="f8f9f-110">Puede usar las propiedades **BOF** y **EOF** para determinar si un objeto **Recordset** contiene registros o si se desplazó más allá de los límites de un objeto **Recordset** cuando se mueve de un registro a otro.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-110">You can use the **BOF** and **EOF** properties to determine whether a **Recordset** object contains records or whether you've gone beyond the limits of a **Recordset** object when you move from record to record.</span></span>
+<span data-ttu-id="e4ef9-110">Puede usar las propiedades **BOF** y **EOF** para determinar si un objeto **Recordset** contiene registros o si se desplazó más allá de los límites de un objeto **Recordset** cuando se mueve de un registro a otro.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-110">You can use the **BOF** and **EOF** properties to determine whether a **Recordset** object contains records or whether you've gone beyond the limits of a **Recordset** object when you move from record to record.</span></span>
 
-<span data-ttu-id="f8f9f-111">La ubicación del puntero de registro actual determina los valores **BOF** y **EOF** devueltos.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-111">The location of the current record pointer determines the **BOF** and **EOF** return values.</span></span>
+<span data-ttu-id="e4ef9-111">La ubicación del puntero de registro actual determina los valores **BOF** y **EOF** devueltos.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-111">The location of the current record pointer determines the **BOF** and **EOF** return values.</span></span>
 
-<span data-ttu-id="f8f9f-112">Si la propiedad **BOF** o **EOF** es **True**, no hay ningún registro actual.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-112">If either the **BOF** or **EOF** property is **True**, there is no current record.</span></span>
+<span data-ttu-id="e4ef9-112">Si la propiedad **BOF** o **EOF** es **True**, no hay ningún registro actual.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-112">If either the **BOF** or **EOF** property is **True**, there is no current record.</span></span>
 
-<span data-ttu-id="f8f9f-p102">Si abre un objeto **Recordset** sin registros, las propiedades **BOF** y **EOF** se configuran en **True**, y el valor de la propiedad **RecordCount** del objeto **Recordset** será 0. Si abre un objeto **Recordset** con al menos un registro, el primer registro será el registro actual, y las propiedades **BOF** y **EOF** serán **False**; estas serán **False** hasta que se desplace más allá del principio o del final del objeto **Recordset** mediante el método **MovePrevious** o **MoveNext**, respectivamente. Cuando se desplace más allá del principio o del final del **Recordset**, no habrá registro actual o no existirá ningún registro.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-p102">If you open a **Recordset** object containing no records, the **BOF** and **EOF** properties are set to **True**, and the **Recordset** object's **RecordCount** property setting is 0. When you open a **Recordset** object that contains at least one record, the first record is the current record and the **BOF** and **EOF** properties are **False**; they remain **False** until you move beyond the beginning or end of the **Recordset** object by using the **MovePrevious** or **MoveNext** method, respectively. When you move beyond the beginning or end of the **Recordset**, there is no current record or no record exists.</span></span>
+<span data-ttu-id="e4ef9-p102">Si abre un objeto **Recordset** sin registros, las propiedades **BOF** y **EOF** se configuran en **True**, y el valor de la propiedad **RecordCount** del objeto **Recordset** será 0. Si abre un objeto **Recordset** con al menos un registro, el primer registro será el registro actual, y las propiedades **BOF** y **EOF** serán **False**; estas serán **False** hasta que se desplace más allá del principio o del final del objeto **Recordset** mediante el método **MovePrevious** o **MoveNext**, respectivamente. Cuando se desplace más allá del principio o del final del **Recordset**, no habrá registro actual o no existirá ningún registro.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-p102">If you open a **Recordset** object containing no records, the **BOF** and **EOF** properties are set to **True**, and the **Recordset** object's **RecordCount** property setting is 0. When you open a **Recordset** object that contains at least one record, the first record is the current record and the **BOF** and **EOF** properties are **False**; they remain **False** until you move beyond the beginning or end of the **Recordset** object by using the **MovePrevious** or **MoveNext** method, respectively. When you move beyond the beginning or end of the **Recordset**, there is no current record or no record exists.</span></span>
 
-<span data-ttu-id="f8f9f-116">Si elimina el último registro que queda en el objeto **Recordset**, puede que el valor de las propiedades **BOF** y **EOF** siga siendo **False** hasta que intente ajustar la posición del registro actual.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-116">If you delete the last remaining record in the **Recordset** object, the **BOF** and **EOF** properties may remain **False** until you attempt to reposition the current record.</span></span>
+<span data-ttu-id="e4ef9-116">Si elimina el último registro que queda en el objeto **Recordset**, puede que el valor de las propiedades **BOF** y **EOF** siga siendo **False** hasta que intente ajustar la posición del registro actual.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-116">If you delete the last remaining record in the **Recordset** object, the **BOF** and **EOF** properties may remain **False** until you attempt to reposition the current record.</span></span>
 
-<span data-ttu-id="f8f9f-p103">Si usa el método **MoveLast** en un objeto **Recordset** que contiene registros, el último registro será el registro actual; si usa el método **MoveNext**, el registro actual no será válido y la propiedad **EOF** se configurará en **True**. A la inversa, si usa el método **MoveFirst** en un objeto **Recordset** que contiene registros, el primer registró será el registro actual; si usa el método **MovePrevious**, no habrá registro actual y la propiedad **BOF** se configurará en **True**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-p103">If you use the **MoveLast** method on a **Recordset** object containing records, the last record becomes the current record; if you then use the **MoveNext** method, the current record becomes invalid and the **EOF** property is set to **True**. Conversely, if you use the **MoveFirst** method on a **Recordset** object containing records, the first record becomes the current record; if you then use the **MovePrevious** method, there is no current record and the **BOF** property is set to **True**.</span></span>
+<span data-ttu-id="e4ef9-p103">Si usa el método **MoveLast** en un objeto **Recordset** que contiene registros, el último registro será el registro actual; si usa el método **MoveNext**, el registro actual no será válido y la propiedad **EOF** se configurará en **True**. A la inversa, si usa el método **MoveFirst** en un objeto **Recordset** que contiene registros, el primer registró será el registro actual; si usa el método **MovePrevious**, no habrá registro actual y la propiedad **BOF** se configurará en **True**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-p103">If you use the **MoveLast** method on a **Recordset** object containing records, the last record becomes the current record; if you then use the **MoveNext** method, the current record becomes invalid and the **EOF** property is set to **True**. Conversely, if you use the **MoveFirst** method on a **Recordset** object containing records, the first record becomes the current record; if you then use the **MovePrevious** method, there is no current record and the **BOF** property is set to **True**.</span></span>
 
-<span data-ttu-id="f8f9f-119">Generalmente al trabajar con todos los registros en un objeto **Recordset**, el código repetirá los registros con el método **MoveNext** hasta que la propiedad **EOF** se configure en **True**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-119">Typically, when you work with all the records in a **Recordset** object, your code will loop through the records by using the **MoveNext** method until the **EOF** property is set to **True**.</span></span>
+<span data-ttu-id="e4ef9-119">Generalmente al trabajar con todos los registros en un objeto **Recordset**, el código repetirá los registros con el método **MoveNext** hasta que la propiedad **EOF** se configure en **True**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-119">Typically, when you work with all the records in a **Recordset** object, your code will loop through the records by using the **MoveNext** method until the **EOF** property is set to **True**.</span></span>
 
-<span data-ttu-id="f8f9f-120">Si usa el método **MoveNext** mientras la propiedad **EOF** se configura en **True**, o usa el método **MovePrevious** mientras la propiedad **BOF** se configura en **True**, se producirá un error.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-120">If you use the **MoveNext** method while the **EOF** property is set to **True** or the **MovePrevious** method while the **BOF** property is set to **True**, an error occurs.</span></span>
+<span data-ttu-id="e4ef9-120">Si usa el método **MoveNext** mientras la propiedad **EOF** se configura en **True**, o usa el método **MovePrevious** mientras la propiedad **BOF** se configura en **True**, se producirá un error.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-120">If you use the **MoveNext** method while the **EOF** property is set to **True** or the **MovePrevious** method while the **BOF** property is set to **True**, an error occurs.</span></span>
 
-<span data-ttu-id="f8f9f-121">En esta tabla se muestran los métodos Move permitidos con diferentes combinaciones de las propiedades **BOF** y **EOF**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-121">This table shows which Move methods are allowed with different combinations of the **BOF** and **EOF** properties.</span></span>
+<span data-ttu-id="e4ef9-121">En esta tabla se muestran los métodos Move permitidos con diferentes combinaciones de las propiedades **BOF** y **EOF**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-121">This table shows which Move methods are allowed with different combinations of the **BOF** and **EOF** properties.</span></span>
 
 <table>
 <colgroup>
@@ -57,64 +57,64 @@ ms.locfileid: "25884054"
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p><span data-ttu-id="f8f9f-122">Métodos MoveFirst,</span><span class="sxs-lookup"><span data-stu-id="f8f9f-122">MoveFirst,</span></span><br />
-<span data-ttu-id="f8f9f-123">MoveLast</span><span class="sxs-lookup"><span data-stu-id="f8f9f-123">MoveLast</span></span></p></th>
-<th><p><span data-ttu-id="f8f9f-124">MovePrevious,</span><span class="sxs-lookup"><span data-stu-id="f8f9f-124">MovePrevious,</span></span><br />
-<span data-ttu-id="f8f9f-125">Mover &lt; 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-125">Move &lt; 0</span></span></p></th>
+<th><p><span data-ttu-id="e4ef9-122">Métodos MoveFirst,</span><span class="sxs-lookup"><span data-stu-id="e4ef9-122">MoveFirst,</span></span><br />
+<span data-ttu-id="e4ef9-123">MoveLast</span><span class="sxs-lookup"><span data-stu-id="e4ef9-123">MoveLast</span></span></p></th>
+<th><p><span data-ttu-id="e4ef9-124">MovePrevious,</span><span class="sxs-lookup"><span data-stu-id="e4ef9-124">MovePrevious,</span></span><br />
+<span data-ttu-id="e4ef9-125">Mover &lt; 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-125">Move &lt; 0</span></span></p></th>
 <th><p><br />
-<span data-ttu-id="f8f9f-126">Move 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-126">Move 0</span></span></p></th>
-<th><p><span data-ttu-id="f8f9f-127">MoveNext,</span><span class="sxs-lookup"><span data-stu-id="f8f9f-127">MoveNext,</span></span><br />
-<span data-ttu-id="f8f9f-128">Mover &gt; 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-128">Move &gt; 0</span></span></p></th>
+<span data-ttu-id="e4ef9-126">Move 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-126">Move 0</span></span></p></th>
+<th><p><span data-ttu-id="e4ef9-127">MoveNext,</span><span class="sxs-lookup"><span data-stu-id="e4ef9-127">MoveNext,</span></span><br />
+<span data-ttu-id="e4ef9-128">Mover &gt; 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-128">Move &gt; 0</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f8f9f-129"><strong>BOF = True,</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-129"><strong>BOF=True,</strong></span></span><br /><span data-ttu-id="f8f9f-130">
-<strong>EOF = False</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-130">
+<td><p><span data-ttu-id="e4ef9-129"><strong>BOF = True,</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-129"><strong>BOF=True,</strong></span></span><br /><span data-ttu-id="e4ef9-130">
+<strong>EOF = False</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-130">
 <strong>EOF=False</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-131">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-131">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-132">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-132">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-133">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-133">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-134">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-134">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-131">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-131">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-132">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-132">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-133">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-133">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-134">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-134">Allowed</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f8f9f-135"><strong>BOF = False,</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-135"><strong>BOF=False,</strong></span></span><br /><span data-ttu-id="f8f9f-136">
-<strong>EOF = True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-136">
+<td><p><span data-ttu-id="e4ef9-135"><strong>BOF = False,</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-135"><strong>BOF=False,</strong></span></span><br /><span data-ttu-id="e4ef9-136">
+<strong>EOF = True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-136">
 <strong>EOF=True</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-137">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-137">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-138">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-138">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-139">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-139">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-140">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-140">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-137">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-137">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-138">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-138">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-139">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-139">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-140">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-140">Error</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f8f9f-141">Ambas propiedades son <strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-141">Both <strong>True</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-142">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-142">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-143">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-143">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-144">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-144">Error</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-145">Error</span><span class="sxs-lookup"><span data-stu-id="f8f9f-145">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-141">Ambas propiedades son <strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-141">Both <strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-142">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-142">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-143">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-143">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-144">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-144">Error</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-145">Error</span><span class="sxs-lookup"><span data-stu-id="e4ef9-145">Error</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f8f9f-146">Ambas propiedades son <strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-146">Both <strong>False</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-147">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-147">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-148">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-148">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-149">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-149">Allowed</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-150">Permitido</span><span class="sxs-lookup"><span data-stu-id="f8f9f-150">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-146">Ambas propiedades son <strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-146">Both <strong>False</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-147">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-147">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-148">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-148">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-149">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-149">Allowed</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-150">Permitido</span><span class="sxs-lookup"><span data-stu-id="e4ef9-150">Allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f8f9f-p104">Permitir un método Move no significa que ese método se ubique correctamente en un registro. Simplemente indica que se permite un intento para realizar el método Move especificado y que no se producirá un error. El estado de las propiedades **BOF** y **EOF** puede cambiar como resultado del intento de Move.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-p104">Allowing a Move method doesn't mean that the method will successfully locate a record. It merely indicates that an attempt to perform the specified Move method is allowed and won't generate an error. The state of the **BOF** and **EOF** properties may change as a result of the attempted Move.</span></span>
+<span data-ttu-id="e4ef9-p104">Permitir un método Move no significa que ese método se ubique correctamente en un registro. Simplemente indica que se permite un intento para realizar el método Move especificado y que no se producirá un error. El estado de las propiedades **BOF** y **EOF** puede cambiar como resultado del intento de Move.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-p104">Allowing a Move method doesn't mean that the method will successfully locate a record. It merely indicates that an attempt to perform the specified Move method is allowed and won't generate an error. The state of the **BOF** and **EOF** properties may change as a result of the attempted Move.</span></span>
 
-<span data-ttu-id="f8f9f-p105">Un método **OpenRecordset** invoca internamente a un método **MoveFirst**. Por tanto, usar un método **OpenRecordset** en un conjunto de registros vacío, configura las propiedades **BOF** y **EOF** en **True**. (En la siguiente tabla puede ver el comportamiento de un método **MoveFirst** cuando se produce un error).</span><span class="sxs-lookup"><span data-stu-id="f8f9f-p105">An **OpenRecordset** method internally invokes a **MoveFirst** method. Therefore, using an **OpenRecordset** method on an empty set of records sets the **BOF** and **EOF** properties to **True**. (See the following table for the behavior of a failed **MoveFirst** method.)</span></span>
+<span data-ttu-id="e4ef9-p105">Un método **OpenRecordset** invoca internamente a un método **MoveFirst**. Por tanto, usar un método **OpenRecordset** en un conjunto de registros vacío, configura las propiedades **BOF** y **EOF** en **True**. (En la siguiente tabla puede ver el comportamiento de un método **MoveFirst** cuando se produce un error).</span><span class="sxs-lookup"><span data-stu-id="e4ef9-p105">An **OpenRecordset** method internally invokes a **MoveFirst** method. Therefore, using an **OpenRecordset** method on an empty set of records sets the **BOF** and **EOF** properties to **True**. (See the following table for the behavior of a failed **MoveFirst** method.)</span></span>
 
-<span data-ttu-id="f8f9f-157">Todos los métodos Move que se ubican correctamente en un registro, configurarán **BOF** y **EOF** en **False**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-157">All Move methods that successfully locate a record will set both **BOF** and **EOF** to **False**.</span></span>
+<span data-ttu-id="e4ef9-157">Todos los métodos Move que se ubican correctamente en un registro, configurarán **BOF** y **EOF** en **False**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-157">All Move methods that successfully locate a record will set both **BOF** and **EOF** to **False**.</span></span>
 
-<span data-ttu-id="f8f9f-158">En un área de trabajo de Microsoft Access, si agrega un registro a un **Recordset** vacío, **BOF** será **False**, pero **EOF** seguirá en **True**, lo que indica que la posición actual se encuentra al final del **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-158">In a Microsoft Access workspace, if you add a record to an empty **Recordset**, **BOF** will become **False**, but **EOF** will remain **True**, indicating that the current position is at the end of **Recordset**.</span></span>
+<span data-ttu-id="e4ef9-158">En un área de trabajo de Microsoft Access, si agrega un registro a un **Recordset** vacío, **BOF** será **False**, pero **EOF** seguirá en **True**, lo que indica que la posición actual se encuentra al final del **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-158">In a Microsoft Access workspace, if you add a record to an empty **Recordset**, **BOF** will become **False**, but **EOF** will remain **True**, indicating that the current position is at the end of **Recordset**.</span></span>
 
-<span data-ttu-id="f8f9f-159">Cualquier método **Delete**, incluso si quita el único registro de un **Recordset**, no cambiará la configuración de la propiedad **BOF** o **EOF**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-159">Any **Delete** method, even if it removes the only remaining record from a **Recordset**, won't change the setting of the **BOF** or **EOF** property.</span></span>
+<span data-ttu-id="e4ef9-159">Cualquier método **Delete**, incluso si quita el único registro de un **Recordset**, no cambiará la configuración de la propiedad **BOF** o **EOF**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-159">Any **Delete** method, even if it removes the only remaining record from a **Recordset**, won't change the setting of the **BOF** or **EOF** property.</span></span>
 
-<span data-ttu-id="f8f9f-160">En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un registro afectan a la configuración de las propiedades **BOF** y **EOF**.</span><span class="sxs-lookup"><span data-stu-id="f8f9f-160">The following table shows how Move methods that don't locate a record affect the **BOF** and **EOF** property settings.</span></span>
+<span data-ttu-id="e4ef9-160">En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un registro afectan a la configuración de las propiedades **BOF** y **EOF**.</span><span class="sxs-lookup"><span data-stu-id="e4ef9-160">The following table shows how Move methods that don't locate a record affect the **BOF** and **EOF** property settings.</span></span>
 
 <table>
 <colgroup>
@@ -125,30 +125,30 @@ ms.locfileid: "25884054"
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p><span data-ttu-id="f8f9f-161">BOF</span><span class="sxs-lookup"><span data-stu-id="f8f9f-161">BOF</span></span></p></th>
-<th><p><span data-ttu-id="f8f9f-162">EOF</span><span class="sxs-lookup"><span data-stu-id="f8f9f-162">EOF</span></span></p></th>
+<th><p><span data-ttu-id="e4ef9-161">BOF</span><span class="sxs-lookup"><span data-stu-id="e4ef9-161">BOF</span></span></p></th>
+<th><p><span data-ttu-id="e4ef9-162">EOF</span><span class="sxs-lookup"><span data-stu-id="e4ef9-162">EOF</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f8f9f-163"><strong>Métodos MoveFirst</strong>, <strong>MoveLast</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-163"><strong>MoveFirst</strong>, <strong>MoveLast</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-164"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-164"><strong>True</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-165"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-165"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-163"><strong>Métodos MoveFirst</strong>, <strong>MoveLast</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-163"><strong>MoveFirst</strong>, <strong>MoveLast</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-164"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-164"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-165"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-165"><strong>True</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f8f9f-166"><strong>Move</strong> 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-166"><strong>Move</strong> 0</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-167">No cambia</span><span class="sxs-lookup"><span data-stu-id="f8f9f-167">No change</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-168">No cambia</span><span class="sxs-lookup"><span data-stu-id="f8f9f-168">No change</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-166"><strong>Move</strong> 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-166"><strong>Move</strong> 0</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-167">No cambia</span><span class="sxs-lookup"><span data-stu-id="e4ef9-167">No change</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-168">No cambia</span><span class="sxs-lookup"><span data-stu-id="e4ef9-168">No change</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f8f9f-169"><strong>MovePrevious</strong>, <strong>mueva</strong> &lt; 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-169"><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-170"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-170"><strong>True</strong></span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-171">No cambia</span><span class="sxs-lookup"><span data-stu-id="f8f9f-171">No change</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-169"><strong>MovePrevious</strong>, <strong>mueva</strong> &lt; 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-169"><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-170"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-170"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-171">No cambia</span><span class="sxs-lookup"><span data-stu-id="e4ef9-171">No change</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f8f9f-172"><strong>MoveNext</strong>, <strong>mueva</strong> &gt; 0</span><span class="sxs-lookup"><span data-stu-id="f8f9f-172"><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-173">No cambia</span><span class="sxs-lookup"><span data-stu-id="f8f9f-173">No change</span></span></p></td>
-<td><p><span data-ttu-id="f8f9f-174"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="f8f9f-174"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-172"><strong>MoveNext</strong>, <strong>mueva</strong> &gt; 0</span><span class="sxs-lookup"><span data-stu-id="e4ef9-172"><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-173">No cambia</span><span class="sxs-lookup"><span data-stu-id="e4ef9-173">No change</span></span></p></td>
+<td><p><span data-ttu-id="e4ef9-174"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="e4ef9-174"><strong>True</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>

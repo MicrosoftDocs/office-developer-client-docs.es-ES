@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd4bafd29195e2ff9898973351cd7d13262c3cec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b346cd5c53ee101809237896acc0806bbf4e4624
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869683"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936934"
 ---
-# <a name="creating-the-connection-string"></a><span data-ttu-id="8c1f4-102">Crear la cadena de conexión</span><span class="sxs-lookup"><span data-stu-id="8c1f4-102">Creating the Connection String</span></span>
+# <a name="creating-the-connection-string"></a><span data-ttu-id="591cc-102">Crear la cadena de conexión</span><span class="sxs-lookup"><span data-stu-id="591cc-102">Creating the Connection String</span></span>
 
 
-<span data-ttu-id="8c1f4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c1f4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="591cc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="591cc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8c1f4-p101">ADO admite directamente cinco argumentos en una cadena de conexión. ADO pasa otros argumentos al proveedor que se menciona en el argumento *Provider* sin ningún procesamiento.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-p101">ADO directly supports five arguments in a connection string. Other arguments are passed to the provider that is named in the *Provider* argument without any processing by ADO.</span></span>
+<span data-ttu-id="591cc-p101">ADO admite directamente cinco argumentos en una cadena de conexión. ADO pasa otros argumentos al proveedor que se menciona en el argumento *Provider* sin ningún procesamiento.</span><span class="sxs-lookup"><span data-stu-id="591cc-p101">ADO directly supports five arguments in a connection string. Other arguments are passed to the provider that is named in the *Provider* argument without any processing by ADO.</span></span>
 
 <table>
 <colgroup>
@@ -27,30 +27,30 @@ ms.locfileid: "25869683"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8c1f4-106">Argumento</span><span class="sxs-lookup"><span data-stu-id="8c1f4-106">Argument</span></span></p></th>
-<th><p><span data-ttu-id="8c1f4-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="8c1f4-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="591cc-106">Argumento</span><span class="sxs-lookup"><span data-stu-id="591cc-106">Argument</span></span></p></th>
+<th><p><span data-ttu-id="591cc-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="591cc-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8c1f4-108"><em>Provider</em></span><span class="sxs-lookup"><span data-stu-id="8c1f4-108"><em>Provider</em></span></span></p></td>
-<td><p><span data-ttu-id="8c1f4-109">Especifica el nombre del proveedor que se va a usar en la conexión.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-109">Specifies the name of a provider to use for the connection.</span></span></p></td>
+<td><p><span data-ttu-id="591cc-108"><em>Provider</em></span><span class="sxs-lookup"><span data-stu-id="591cc-108"><em>Provider</em></span></span></p></td>
+<td><p><span data-ttu-id="591cc-109">Especifica el nombre del proveedor que se va a usar en la conexión.</span><span class="sxs-lookup"><span data-stu-id="591cc-109">Specifies the name of a provider to use for the connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8c1f4-110"><em>Nombre del archivo</em></span><span class="sxs-lookup"><span data-stu-id="8c1f4-110"><em>File Name</em></span></span></p></td>
-<td><p><span data-ttu-id="8c1f4-111">Especifica el nombre de un archivo específico del proveedor (por ejemplo, un objeto de origen de datos almacenado de manera persistente) que contiene información de conexión predefinida.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-111">Specifies the name of a provider-specific file (for example, a persisted data source object) containing preset connection information.</span></span></p></td>
+<td><p><span data-ttu-id="591cc-110"><em>Nombre del archivo</em></span><span class="sxs-lookup"><span data-stu-id="591cc-110"><em>File Name</em></span></span></p></td>
+<td><p><span data-ttu-id="591cc-111">Especifica el nombre de un archivo específico del proveedor (por ejemplo, un objeto de origen de datos almacenado de manera persistente) que contiene información de conexión predefinida.</span><span class="sxs-lookup"><span data-stu-id="591cc-111">Specifies the name of a provider-specific file (for example, a persisted data source object) containing preset connection information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8c1f4-112"><em>URL</em></span><span class="sxs-lookup"><span data-stu-id="8c1f4-112"><em>URL</em></span></span></p></td>
-<td><p><span data-ttu-id="8c1f4-113">Especifica la cadena de conexión como una dirección URL absoluta que identifica un recurso, como un archivo o un directorio.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-113">Specifies the connection string as an absolute URL identifying a resource, such as a file or directory.</span></span></p></td>
+<td><p><span data-ttu-id="591cc-112"><em>URL</em></span><span class="sxs-lookup"><span data-stu-id="591cc-112"><em>URL</em></span></span></p></td>
+<td><p><span data-ttu-id="591cc-113">Especifica la cadena de conexión como una dirección URL absoluta que identifica un recurso, como un archivo o un directorio.</span><span class="sxs-lookup"><span data-stu-id="591cc-113">Specifies the connection string as an absolute URL identifying a resource, such as a file or directory.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8c1f4-114"><em>Remote Provider</em></span><span class="sxs-lookup"><span data-stu-id="8c1f4-114"><em>Remote Provider</em></span></span></p></td>
-<td><p><span data-ttu-id="8c1f4-p102">Especifica el nombre del proveedor que se va a usar cuando se abre una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</span><span class="sxs-lookup"><span data-stu-id="8c1f4-p102">Specifies the name of a provider to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
+<td><p><span data-ttu-id="591cc-114"><em>Remote Provider</em></span><span class="sxs-lookup"><span data-stu-id="591cc-114"><em>Remote Provider</em></span></span></p></td>
+<td><p><span data-ttu-id="591cc-p102">Especifica el nombre del proveedor que se va a usar cuando se abre una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</span><span class="sxs-lookup"><span data-stu-id="591cc-p102">Specifies the name of a provider to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8c1f4-117"><em>Remote Server</em></span><span class="sxs-lookup"><span data-stu-id="8c1f4-117"><em>Remote Server</em></span></span></p></td>
-<td><p><span data-ttu-id="8c1f4-p103">Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente (sólo Servicio de datos remoto).</span><span class="sxs-lookup"><span data-stu-id="8c1f4-p103">Specifies the path name of the server to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
+<td><p><span data-ttu-id="591cc-117"><em>Remote Server</em></span><span class="sxs-lookup"><span data-stu-id="591cc-117"><em>Remote Server</em></span></span></p></td>
+<td><p><span data-ttu-id="591cc-p103">Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente. (Sólo con el Servicio de datos remotos, RDS.)</span><span class="sxs-lookup"><span data-stu-id="591cc-p103">Specifies the path name of the server to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -58,9 +58,9 @@ ms.locfileid: "25869683"
 
 
 > [!NOTE]
-> <span data-ttu-id="8c1f4-p104">En los ejemplos siguientes y en toda la Guía del programador de ADO, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el nombre de su servidor por "MySqlServer".</span><span class="sxs-lookup"><span data-stu-id="8c1f4-p104">In the following examples and throughout the ADO Programmer's Guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server. You should substitute these values with valid login credentials for your server. Also, substitute the name of your server for "MySqlServer".</span></span>
+> <span data-ttu-id="591cc-120">En los ejemplos siguientes y a lo largo de la Guía del programador de ADO, se usa el identificador de usuario "MyId" con la contraseña "123aBc" para autenticarse en el servidor.</span><span class="sxs-lookup"><span data-stu-id="591cc-120">In the following examples and throughout the ADO programmer's guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server.</span></span> <span data-ttu-id="591cc-121">Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor.</span><span class="sxs-lookup"><span data-stu-id="591cc-121">You should substitute these values with valid login credentials for your server.</span></span> <span data-ttu-id="591cc-122">Sustituya también el nombre de su servidor por "MySqlServer".</span><span class="sxs-lookup"><span data-stu-id="591cc-122">Also, substitute the name of your server for "MySqlServer".</span></span>
 
-<span data-ttu-id="8c1f4-123">La aplicación HelloData del capítulo 1 utilizó la cadena de conexión siguiente:</span><span class="sxs-lookup"><span data-stu-id="8c1f4-123">The HelloData application in Chapter 1 used the following connection string:</span></span>
+<span data-ttu-id="591cc-123">La aplicación HelloData del capítulo 1 utilizó la cadena de conexión siguiente:</span><span class="sxs-lookup"><span data-stu-id="591cc-123">The HelloData application in Chapter 1 used the following connection string:</span></span>
 
 ```vb 
  
@@ -68,7 +68,7 @@ m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _
  "Initial Catalog='Northwind';Integrated Security='SSPI';" 
 ```
 
-<span data-ttu-id="8c1f4-124">El único parámetro de ADO que se proporcionó en esta cadena de conexión fue "Provider=SQLOLEDB ", que indicó el proveedor de Microsoft OLE DB para SQL Server.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-124">The only ADO parameter supplied in this connection string was "Provider=SQLOLEDB", which indicated the Microsoft OLE DB Provider for SQL Server.</span></span> <span data-ttu-id="8c1f4-125">Para determinar otros parámetros válidos que se pueden pasar en la cadena de conexión, se puede consultar la documentación de cada proveedor.</span><span class="sxs-lookup"><span data-stu-id="8c1f4-125">Other valid parameters that can be passed in the connection string can be determined by referring to individual providers' documentation.</span></span> <span data-ttu-id="8c1f4-126">Según el proveedor OLE DB para la documentación de SQL Server, puede sustituir "Server" para el parámetro *Data Source* y "Database" por el parámetro *Initial Catalog* .</span><span class="sxs-lookup"><span data-stu-id="8c1f4-126">According to the OLE DB Provider for SQL Server documentation, you can substitute "Server" for the *Data Source* parameter and "Database" for the *Initial Catalog* parameter.</span></span> <span data-ttu-id="8c1f4-127">Por tanto, la cadena de conexión siguiente generaría resultados idénticos a la primera:</span><span class="sxs-lookup"><span data-stu-id="8c1f4-127">Thus, the following connection string would produce results identical to the first:</span></span>
+<span data-ttu-id="591cc-124">El único parámetro de ADO que se proporcionó en esta cadena de conexión fue "Provider=SQLOLEDB ", que indicó el proveedor de Microsoft OLE DB para SQL Server.</span><span class="sxs-lookup"><span data-stu-id="591cc-124">The only ADO parameter supplied in this connection string was "Provider=SQLOLEDB", which indicated the Microsoft OLE DB Provider for SQL Server.</span></span> <span data-ttu-id="591cc-125">Para determinar otros parámetros válidos que se pueden pasar en la cadena de conexión, se puede consultar la documentación de cada proveedor.</span><span class="sxs-lookup"><span data-stu-id="591cc-125">Other valid parameters that can be passed in the connection string can be determined by referring to individual providers' documentation.</span></span> <span data-ttu-id="591cc-126">Según el proveedor OLE DB para la documentación de SQL Server, puede sustituir "Server" para el parámetro *Data Source* y "Database" por el parámetro *Initial Catalog* .</span><span class="sxs-lookup"><span data-stu-id="591cc-126">According to the OLE DB Provider for SQL Server documentation, you can substitute "Server" for the *Data Source* parameter and "Database" for the *Initial Catalog* parameter.</span></span> <span data-ttu-id="591cc-127">Por tanto, la cadena de conexión siguiente generaría resultados idénticos a la primera:</span><span class="sxs-lookup"><span data-stu-id="591cc-127">Thus, the following connection string would produce results identical to the first:</span></span>
 
 ```vb 
  
@@ -76,14 +76,14 @@ m_sConnStr = "Provider='SQLOLEDB';Server='MySqlServer';" & _
  "Database='Northwind';Integrated Security='SSPI';" 
 ```
 
-<span data-ttu-id="8c1f4-128">Para abrir la conexión, simplemente pase la cadena de conexión como primer argumento en el método **Open** del objeto **Connection**:</span><span class="sxs-lookup"><span data-stu-id="8c1f4-128">To open the connection, simply pass the connection string as the first argument in the **Connection** object **Open** method:</span></span>
+<span data-ttu-id="591cc-128">Para abrir la conexión, simplemente pase la cadena de conexión como primer argumento en el método **Open** del objeto **Connection**:</span><span class="sxs-lookup"><span data-stu-id="591cc-128">To open the connection, simply pass the connection string as the first argument in the **Connection** object **Open** method:</span></span>
 
 ```vb 
  
 objConn.Open m_sConnStr 
 ```
 
-<span data-ttu-id="8c1f4-p106">También es posible proporcionar una gran parte de esta información estableciendo propiedades del objeto **Connection** antes de abrir la conexión. Por ejemplo, se podría lograr el mismo efecto que con la cadena de conexión anterior utilizando el código siguiente:</span><span class="sxs-lookup"><span data-stu-id="8c1f4-p106">It is also possible to supply much of this information by setting properties of the **Connection** object before opening the connection. For example, you could achieve the same effect as the connection string above by using the following code:</span></span>
+<span data-ttu-id="591cc-p106">También es posible proporcionar una gran parte de esta información estableciendo propiedades del objeto **Connection** antes de abrir la conexión. Por ejemplo, se podría lograr el mismo efecto que con la cadena de conexión anterior utilizando el código siguiente:</span><span class="sxs-lookup"><span data-stu-id="591cc-p106">It is also possible to supply much of this information by setting properties of the **Connection** object before opening the connection. For example, you could achieve the same effect as the connection string above by using the following code:</span></span>
 
 ```vb 
  

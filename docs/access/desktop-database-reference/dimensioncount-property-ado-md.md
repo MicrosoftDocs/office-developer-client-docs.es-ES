@@ -1,26 +1,26 @@
 ---
 title: DimensionCount (propiedad, ADO MD)
-TOCTitle: DimensionCount Property (ADO MD)
+TOCTitle: DimensionCount property (ADO MD)
 ms:assetid: 10c6c0eb-d859-621c-9d7c-fa49c480cc91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248875(v=office.15)
 ms:contentKeyID: 48543301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dc3a28332c639124bd7561dca89b3ca7a1a00bc1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d187479498ac2ae28650a9c7046054f3023715d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869179"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923780"
 ---
-# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="05c6d-102">DimensionCount (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="05c6d-102">DimensionCount Property (ADO MD)</span></span>
+# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="9c05d-102">DimensionCount (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9c05d-102">DimensionCount property (ADO MD)</span></span>
 
 
-<span data-ttu-id="05c6d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="05c6d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9c05d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c05d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="05c6d-104">Indica el número de dimensiones de un eje.</span><span class="sxs-lookup"><span data-stu-id="05c6d-104">Indicates the number of dimensions on an axis.</span></span>
+<span data-ttu-id="9c05d-104">Indica el número de dimensiones de un eje.</span><span class="sxs-lookup"><span data-stu-id="9c05d-104">Indicates the number of dimensions on an axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="05c6d-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="05c6d-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9c05d-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="9c05d-105">Return values</span></span>
 
-<span data-ttu-id="05c6d-106">Devuelve un entero **Long** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="05c6d-106">Returns a **Long** integer, and is read-only.</span></span>
+<span data-ttu-id="9c05d-106">Devuelve un entero **Long** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="9c05d-106">Returns a **Long** integer, and is read-only.</span></span>
 

@@ -1,6 +1,6 @@
 ---
 title: QuitarVariableTemporal (acción de macro)
-TOCTitle: RemoveTempVar Macro Action
+TOCTitle: RemoveTempVar macro action
 ms:assetid: 7bcc5010-3e30-ecef-2c5d-a35e73c8e325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196352(v=office.15)
 ms:contentKeyID: 48545822
@@ -10,25 +10,25 @@ f1_keywords:
 - vbaac10.chm147125
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 54831b0f0da673c7c7a6a901fd40fc6daee12603
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e43181626b885664eaf370decb7d471082c7a263
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887554"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928120"
 ---
-# <a name="removetempvar-macro-action"></a><span data-ttu-id="b5eca-102">QuitarVariableTemporal (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b5eca-102">RemoveTempVar Macro Action</span></span>
+# <a name="removetempvar-macro-action"></a><span data-ttu-id="1bd2b-102">QuitarVariableTemporal (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="1bd2b-102">RemoveTempVar macro action</span></span>
 
 
-<span data-ttu-id="b5eca-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5eca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1bd2b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bd2b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-<span data-ttu-id="b5eca-104">Puede usar la acción **QuitarVariableTemporal** para quitar una sola variable temporal creada mediante la acción **DefinirVariableTemporal**.</span><span class="sxs-lookup"><span data-stu-id="b5eca-104">You can use the **RemoveTempVar** action to remove a single temporary variable that you created by using the **SetTempVar** action.</span></span>
+<span data-ttu-id="1bd2b-104">Puede usar la acción **QuitarVariableTemporal** para quitar una sola variable temporal creada mediante la acción **DefinirVariableTemporal**.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-104">You can use the **RemoveTempVar** action to remove a single temporary variable that you created by using the **SetTempVar** action.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="b5eca-105">Configuración</span><span class="sxs-lookup"><span data-stu-id="b5eca-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="1bd2b-105">Configuración</span><span class="sxs-lookup"><span data-stu-id="1bd2b-105">Setting</span></span>
 
-<span data-ttu-id="b5eca-106">La acción **QuitarVariableTemporal** tiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="b5eca-106">The **RemoveTempVar** action has the following argument.</span></span>
+<span data-ttu-id="1bd2b-106">La acción **QuitarVariableTemporal** tiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-106">The **RemoveTempVar** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -37,34 +37,34 @@ ms.locfileid: "25887554"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b5eca-107">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="b5eca-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="b5eca-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="b5eca-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="1bd2b-107">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="1bd2b-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="1bd2b-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="1bd2b-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b5eca-109"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="b5eca-109"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5eca-110">Especifique el nombre de la variable temporal que desee quitar.</span><span class="sxs-lookup"><span data-stu-id="b5eca-110">Enter the name of the temporary variable you want to remove.</span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-109"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="1bd2b-109"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-110">Especifique el nombre de la variable temporal que desee quitar.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-110">Enter the name of the temporary variable you want to remove.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="b5eca-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b5eca-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1bd2b-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1bd2b-111">Remarks</span></span>
 
-  - <span data-ttu-id="b5eca-p101">Puede haber hasta 255 variables temporales definidas a la vez. Si no se quita una variable temporal, se mantiene en la memoria hasta que se cierre la base de datos. Se recomienda quitar las variables temporales cuando termine de usarlas.</span><span class="sxs-lookup"><span data-stu-id="b5eca-p101">You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them.</span></span>
+  - <span data-ttu-id="1bd2b-p101">Puede haber hasta 255 variables temporales definidas a la vez. Si no se quita una variable temporal, se mantiene en la memoria hasta que se cierre la base de datos. Se recomienda quitar las variables temporales cuando termine de usarlas.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-p101">You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them.</span></span>
 
-  - <span data-ttu-id="b5eca-115">Access quita automáticamente todas las variables temporales cuando se cierra la base de datos o el proyecto.</span><span class="sxs-lookup"><span data-stu-id="b5eca-115">Access automatically removes all temporary variables when you close the database or project.</span></span>
+  - <span data-ttu-id="1bd2b-115">Access quita automáticamente todas las variables temporales cuando se cierra la base de datos o el proyecto.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-115">Access automatically removes all temporary variables when you close the database or project.</span></span>
 
-  - <span data-ttu-id="b5eca-p102">Si está mal escrito el nombre de la variable que se desea quitar, Access no muestra ningún error. La variable en cuestión permanecerá en la memoria hasta que se cierre la base de datos.</span><span class="sxs-lookup"><span data-stu-id="b5eca-p102">If you misspell the name of the variable to be removed, Access does not display an error. The variable you wanted to remove will remain in memory until you close the database.</span></span>
+  - <span data-ttu-id="1bd2b-p102">Si está mal escrito el nombre de la variable que se desea quitar, Access no muestra ningún error. La variable en cuestión permanecerá en la memoria hasta que se cierre la base de datos.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-p102">If you misspell the name of the variable to be removed, Access does not display an error. The variable you wanted to remove will remain in memory until you close the database.</span></span>
 
-  - <span data-ttu-id="b5eca-118">Si ha creado más de una variable temporal y desea quitarlas todas a la vez, use la acción **QuitarTodasLasVariablesTemporales**.</span><span class="sxs-lookup"><span data-stu-id="b5eca-118">If you have created more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.</span></span>
+  - <span data-ttu-id="1bd2b-118">Si ha creado más de una variable temporal y desea quitarlas todas a la vez, use la acción **QuitarTodasLasVariablesTemporales**.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-118">If you have created more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.</span></span>
 
-  - <span data-ttu-id="b5eca-119">Para ejecutar la acción **QuitarVariableTemporal** en un módulo de VBA, use el método **Remove** del objeto **TempVars**.</span><span class="sxs-lookup"><span data-stu-id="b5eca-119">To run the **RemoveTempVar** action in a VBA module, use the **Remove** method of the **TempVars** object.</span></span>
+  - <span data-ttu-id="1bd2b-119">Para ejecutar la acción **QuitarVariableTemporal** en un módulo de VBA, use el método **Remove** del objeto **TempVars**.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-119">To run the **RemoveTempVar** action in a VBA module, use the **Remove** method of the **TempVars** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b5eca-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b5eca-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1bd2b-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="1bd2b-120">Example</span></span>
 
-<span data-ttu-id="b5eca-121">En la siguiente macro se muestra cómo crear una variable temporal, cómo usarla en una condición y un cuadro de mensaje y, a continuación, cómo quitarla mediante la acción **QuitarVariableTemporal**.</span><span class="sxs-lookup"><span data-stu-id="b5eca-121">The following macro demonstrates how to create a temporary variable, use it in a condition and a message box, and then remove the temporary variable by using the **RemoveTempVar** action.</span></span>
+<span data-ttu-id="1bd2b-121">En la siguiente macro se muestra cómo crear una variable temporal, cómo usarla en una condición y un cuadro de mensaje y, a continuación, cómo quitarla mediante la acción **QuitarVariableTemporal**.</span><span class="sxs-lookup"><span data-stu-id="1bd2b-121">The following macro demonstrates how to create a temporary variable, use it in a condition and a message box, and then remove the temporary variable by using the **RemoveTempVar** action.</span></span>
 
 <table>
 <colgroup>
@@ -74,26 +74,26 @@ ms.locfileid: "25887554"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b5eca-122">Condición</span><span class="sxs-lookup"><span data-stu-id="b5eca-122">Condition</span></span></p></th>
-<th><p><span data-ttu-id="b5eca-123">Acción</span><span class="sxs-lookup"><span data-stu-id="b5eca-123">Action</span></span></p></th>
-<th><p><span data-ttu-id="b5eca-124">Argumentos</span><span class="sxs-lookup"><span data-stu-id="b5eca-124">Arguments</span></span></p></th>
+<th><p><span data-ttu-id="1bd2b-122">Condición</span><span class="sxs-lookup"><span data-stu-id="1bd2b-122">Condition</span></span></p></th>
+<th><p><span data-ttu-id="1bd2b-123">Acción</span><span class="sxs-lookup"><span data-stu-id="1bd2b-123">Action</span></span></p></th>
+<th><p><span data-ttu-id="1bd2b-124">Argumentos</span><span class="sxs-lookup"><span data-stu-id="1bd2b-124">Arguments</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="b5eca-125"><strong>DefinirVariableTemporal</strong></span><span class="sxs-lookup"><span data-stu-id="b5eca-125"><strong>SetTempVar</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5eca-126"><strong>Nombre</strong>: MiVar<strong>expresión</strong>: CuadroEntr (&quot;escriba un número distinto de cero.&quot;)</span><span class="sxs-lookup"><span data-stu-id="b5eca-126"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-125"><strong>DefinirVariableTemporal</strong></span><span class="sxs-lookup"><span data-stu-id="1bd2b-125"><strong>SetTempVar</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-126"><strong>Nombre</strong>: MiVar<strong>expresión</strong>: CuadroEntr (&quot;escriba un número distinto de cero.&quot;)</span><span class="sxs-lookup"><span data-stu-id="1bd2b-126"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5eca-127">[TempVars]![MyVar]&lt;&gt;0</span><span class="sxs-lookup"><span data-stu-id="b5eca-127">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
-<td><p><span data-ttu-id="b5eca-128"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="b5eca-128"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5eca-129"><strong>Mensaje</strong>: =&quot;ha escrito &quot; &amp; [variables temporales]! [MiVar] &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>información</strong></span><span class="sxs-lookup"><span data-stu-id="b5eca-129"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-127">[TempVars]![MyVar]&lt;&gt;0</span><span class="sxs-lookup"><span data-stu-id="1bd2b-127">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-128"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="1bd2b-128"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-129"><strong>Mensaje</strong>: =&quot;ha escrito &quot; &amp; [variables temporales]! [MiVar] &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>información</strong></span><span class="sxs-lookup"><span data-stu-id="1bd2b-129"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="b5eca-130"><strong>QuitarVariableTemporal</strong></span><span class="sxs-lookup"><span data-stu-id="b5eca-130"><strong>RemoveTempVar</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5eca-131"><strong>Nombre</strong>: MiVar</span><span class="sxs-lookup"><span data-stu-id="b5eca-131"><strong>Name</strong>: MyVar</span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-130"><strong>QuitarVariableTemporal</strong></span><span class="sxs-lookup"><span data-stu-id="1bd2b-130"><strong>RemoveTempVar</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bd2b-131"><strong>Nombre</strong>: MiVar</span><span class="sxs-lookup"><span data-stu-id="1bd2b-131"><strong>Name</strong>: MyVar</span></span></p></td>
 </tr>
 </tbody>
 </table>

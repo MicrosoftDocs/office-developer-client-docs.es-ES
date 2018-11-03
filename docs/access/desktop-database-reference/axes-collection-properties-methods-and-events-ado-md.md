@@ -1,33 +1,33 @@
 ---
-title: Axes Collection Properties, Methods, and Events (ADO MD)
-TOCTitle: Axes Collection Properties, Methods, and Events
+title: Propiedades de la colección de ejes, métodos y eventos (ADO MD)
+TOCTitle: Axes collection properties, methods, and events
 ms:assetid: 613f3e77-11fb-4bf6-0f26-5be2b5cd4594
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249357(v=office.15)
 ms:contentKeyID: 48545205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77fdb07fd031ff798ad93c49b9d6b9dd198c4603
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 60e9fa53eeda60547cd66cff6ca35e39ad49cde3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870110"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927525"
 ---
-# <a name="axes-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="7163e-102">Axes Collection Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7163e-102">Axes Collection Properties, Methods, and Events (ADO MD)</span></span>
+# <a name="axes-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="ce5e8-102">Propiedades de la colección de ejes, métodos y eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ce5e8-102">Axes collection properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="7163e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7163e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ce5e8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce5e8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="7163e-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="7163e-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="ce5e8-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="ce5e8-104">Properties</span></span>
 
-- [<span data-ttu-id="7163e-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="7163e-105">Count Property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="ce5e8-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="ce5e8-105">Count Property</span></span>](count-property-ado.md)
 
-- [<span data-ttu-id="7163e-106">Propiedad Item</span><span class="sxs-lookup"><span data-stu-id="7163e-106">Item Property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="ce5e8-106">Propiedad Item</span><span class="sxs-lookup"><span data-stu-id="ce5e8-106">Item Property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="7163e-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="7163e-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="ce5e8-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="ce5e8-107">Methods</span></span>
 
-- [<span data-ttu-id="7163e-108">Método Refresh</span><span class="sxs-lookup"><span data-stu-id="7163e-108">Refresh Method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="ce5e8-108">Método Refresh</span><span class="sxs-lookup"><span data-stu-id="ce5e8-108">Refresh Method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="7163e-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="7163e-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="ce5e8-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="ce5e8-109">Events</span></span>
 
-<span data-ttu-id="7163e-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="7163e-110">None.</span></span>
+<span data-ttu-id="ce5e8-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ce5e8-110">None.</span></span>
 

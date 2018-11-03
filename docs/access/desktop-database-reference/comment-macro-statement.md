@@ -1,26 +1,26 @@
 ---
 title: Comentario (instrucción de macro)
-TOCTitle: Comment Macro Statement
+TOCTitle: Comment macro statement
 ms:assetid: 474f9410-8099-9b72-01d8-08c07f736c9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193209(v=office.15)
 ms:contentKeyID: 48544594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78a6bf0f0b170a69635837d8e2b40a8e1cf5f6d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3339a75a121d67345610334df7ff6a58b5ab6c9c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883529"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931214"
 ---
-# <a name="comment-macro-statement"></a><span data-ttu-id="7ae70-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="7ae70-102">Comment Macro Statement</span></span>
+# <a name="comment-macro-statement"></a><span data-ttu-id="09ca3-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="09ca3-102">Comment macro statement</span></span>
 
 
-<span data-ttu-id="7ae70-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ae70-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="09ca3-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="09ca3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ae70-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="7ae70-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
+<span data-ttu-id="09ca3-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="09ca3-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7ae70-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7ae70-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="09ca3-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="09ca3-105">Remarks</span></span>
 
-<span data-ttu-id="7ae70-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="7ae70-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
+<span data-ttu-id="09ca3-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="09ca3-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
 

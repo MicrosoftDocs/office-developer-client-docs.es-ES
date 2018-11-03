@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fccddd2f9566e0cb864a7a1cb4ccddb340fd0c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d5de504f851bfa228bfaddad8923d7365e25492b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873463"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936535"
 ---
-# <a name="openschema-method-example-vb"></a><span data-ttu-id="5beec-102">Ejemplo del método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="5beec-102">OpenSchema method example (VB)</span></span>
+# <a name="openschema-method-example-vb"></a><span data-ttu-id="ca0c4-102">Ejemplo del método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="ca0c4-102">OpenSchema method example (VB)</span></span>
 
 
-<span data-ttu-id="5beec-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5beec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca0c4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca0c4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5beec-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="5beec-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="ca0c4-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="ca0c4-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```vb 
  
@@ -75,7 +75,9 @@ End Sub
 'EndOpenSchemaVB 
 ```
 
-<span data-ttu-id="5beec-105">En este ejemplo se especifica una tabla\_restricción de tipo de consulta en el argumento ***Criteria*** del método **OpenSchema** .</span><span class="sxs-lookup"><span data-stu-id="5beec-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="5beec-106">Como resultado, se devuelven sólo la información de esquema de las vistas especificadas en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="5beec-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="5beec-107">A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.</span><span class="sxs-lookup"><span data-stu-id="5beec-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
+<br/>
+
+<span data-ttu-id="ca0c4-105">En este ejemplo se especifica una tabla\_restricción de tipo de consulta en el argumento ***Criteria*** del método **OpenSchema** .</span><span class="sxs-lookup"><span data-stu-id="ca0c4-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="ca0c4-106">Como resultado, se devuelven sólo la información de esquema de las vistas especificadas en la base de datos ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="ca0c4-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="ca0c4-107">A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.</span><span class="sxs-lookup"><span data-stu-id="ca0c4-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
 
 ```vb 
  
