@@ -12,25 +12,25 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 068496332479d25dfc4f20bdc683330ee462ce78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927672"
+ms.locfileid: "25937424"
 ---
-# <a name="union-operation-microsoft-access-sql"></a><span data-ttu-id="ca89b-102">Operación UNION (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ca89b-102">UNION operation (Microsoft Access SQL)</span></span>
+# <a name="union-operation-microsoft-access-sql"></a><span data-ttu-id="3c2a2-102">Operación UNION (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="3c2a2-102">UNION operation (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="ca89b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca89b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3c2a2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c2a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ca89b-104">Crea una consulta de unión, que combina los resultados de dos o más consultas o tablas independientes.</span><span class="sxs-lookup"><span data-stu-id="ca89b-104">Creates a union query, which combines the results of two or more independent queries or tables.</span></span>
+<span data-ttu-id="3c2a2-104">Crea una consulta de unión, que combina los resultados de dos o más consultas o tablas independientes.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-104">Creates a union query, which combines the results of two or more independent queries or tables.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ca89b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ca89b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3c2a2-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3c2a2-105">Syntax</span></span>
 
-<span data-ttu-id="ca89b-106">\[TABLA\] *Consulta1* UNION \[todos los\] \[tabla\] *consulta2* \[unión \[todos los\] \[tabla\] *consultan* \[ ...</span><span class="sxs-lookup"><span data-stu-id="ca89b-106">\[TABLE\] *query1* UNION \[ALL\] \[TABLE\] *query2* \[UNION \[ALL\] \[TABLE\] *queryn* \[ …</span></span> <span data-ttu-id="ca89b-107">\]\]</span><span class="sxs-lookup"><span data-stu-id="ca89b-107"></span></span>
+<span data-ttu-id="3c2a2-106">\[TABLA\] *Consulta1* UNION \[todos los\] \[tabla\] *consulta2* \[unión \[todos los\] \[tabla\] *consultan* \[ ...</span><span class="sxs-lookup"><span data-stu-id="3c2a2-106">\[TABLE\] *query1* UNION \[ALL\] \[TABLE\] *query2* \[UNION \[ALL\] \[TABLE\] *queryn* \[ …</span></span> <span data-ttu-id="3c2a2-107">\]\]</span><span class="sxs-lookup"><span data-stu-id="3c2a2-107"></span></span>
 
-<span data-ttu-id="ca89b-108">La operación UNION consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="ca89b-108">The UNION operation has these parts:</span></span>
+<span data-ttu-id="3c2a2-108">La operación UNION consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="3c2a2-108">The UNION operation has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,22 +39,22 @@ ms.locfileid: "25927672"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ca89b-109">Elemento</span><span class="sxs-lookup"><span data-stu-id="ca89b-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="ca89b-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="ca89b-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="3c2a2-109">Elemento</span><span class="sxs-lookup"><span data-stu-id="3c2a2-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="3c2a2-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="3c2a2-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ca89b-111"><em>consulta1-n</em></span><span class="sxs-lookup"><span data-stu-id="ca89b-111"><em>query1-n</em></span></span></p></td>
-<td><p><span data-ttu-id="ca89b-112">Instrucción SELECT, nombre de una consulta almacenada o nombre de una tabla almacenada precedido de la palabra clave TABLE.</span><span class="sxs-lookup"><span data-stu-id="ca89b-112">A SELECT statement, the name of a stored query, or the name of a stored table preceded by the TABLE keyword.</span></span></p></td>
+<td><p><span data-ttu-id="3c2a2-111"><em>consulta1-n</em></span><span class="sxs-lookup"><span data-stu-id="3c2a2-111"><em>query1-n</em></span></span></p></td>
+<td><p><span data-ttu-id="3c2a2-112">Instrucción SELECT, nombre de una consulta almacenada o nombre de una tabla almacenada precedido de la palabra clave TABLE.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-112">A SELECT statement, the name of a stored query, or the name of a stored table preceded by the TABLE keyword.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="ca89b-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ca89b-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3c2a2-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3c2a2-113">Remarks</span></span>
 
-<span data-ttu-id="ca89b-p102">Puede combinar los resultados de dos o más consultas, tablas e instrucciones SELECT, en cualquier combinación, en una sola operación UNION. En el siguiente ejemplo, se combinan una tabla existente denominada New Accounts (Nuevas cuentas) y una instrucción SELECT:</span><span class="sxs-lookup"><span data-stu-id="ca89b-p102">You can merge the results of two or more queries, tables, and SELECT statements, in any combination, in a single UNION operation. The following example merges an existing table named New Accounts and a SELECT statement:</span></span>
+<span data-ttu-id="3c2a2-p102">Puede combinar los resultados de dos o más consultas, tablas e instrucciones SELECT, en cualquier combinación, en una sola operación UNION. En el siguiente ejemplo, se combinan una tabla existente denominada New Accounts (Nuevas cuentas) y una instrucción SELECT:</span><span class="sxs-lookup"><span data-stu-id="3c2a2-p102">You can merge the results of two or more queries, tables, and SELECT statements, in any combination, in a single UNION operation. The following example merges an existing table named New Accounts and a SELECT statement:</span></span>
 
 ```sql
 TABLE [New Accounts] UNION ALL 
@@ -63,27 +63,25 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-<span data-ttu-id="ca89b-p103">De forma predeterminada, no se devuelven registros duplicados cuando se usa la operación UNION; sin embargo, puede incluir el predicado [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) para asegurarse de que se devuelven todos los registros. Además, de esta manera, la consulta se ejecuta más rápidamente.</span><span class="sxs-lookup"><span data-stu-id="ca89b-p103">By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned. This also makes the query run faster.</span></span>
+<span data-ttu-id="3c2a2-p103">De forma predeterminada, no se devuelven registros duplicados cuando se usa la operación UNION; sin embargo, puede incluir el predicado [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) para asegurarse de que se devuelven todos los registros. Además, de esta manera, la consulta se ejecuta más rápidamente.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-p103">By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned. This also makes the query run faster.</span></span>
 
-<span data-ttu-id="ca89b-118">Todas las consultas de una operación UNION deben solicitar el mismo número de campos; sin embargo, no es necesario que los campos sean del mismo tamaño o tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ca89b-118">All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.</span></span>
+<span data-ttu-id="3c2a2-118">Todas las consultas de una operación UNION deben solicitar el mismo número de campos; sin embargo, no es necesario que los campos sean del mismo tamaño o tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-118">All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.</span></span>
 
-<span data-ttu-id="ca89b-p104">Use alias sólo en la primera instrucción SELECT, ya que en las demás se omiten. En la cláusula ORDER BY, haga referencia a los campos por el nombre que se utilice en la primera instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="ca89b-p104">Use aliases only in the first SELECT statement because they are ignored in any others. In the ORDER BY clause, refer to fields by what they are called in the first SELECT statement.</span></span>
+<span data-ttu-id="3c2a2-p104">Use alias sólo en la primera instrucción SELECT, ya que en las demás se omiten. En la cláusula ORDER BY, haga referencia a los campos por el nombre que se utilice en la primera instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-p104">Use aliases only in the first SELECT statement because they are ignored in any others. In the ORDER BY clause, refer to fields by what they are called in the first SELECT statement.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="ca89b-121">Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> o <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> en cada argumento de <EM>consulta</EM> para agrupar los datos devueltos.</span><span class="sxs-lookup"><span data-stu-id="ca89b-121">You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</span></span></P>
+> <P><span data-ttu-id="3c2a2-121">Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> o <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> en cada argumento de <EM>consulta</EM> para agrupar los datos devueltos.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-121">You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="ca89b-122">Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> al final del último argumento de <EM>consulta</EM> para mostrar los datos devueltos en un orden especificado.</span><span class="sxs-lookup"><span data-stu-id="ca89b-122">You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</span></span></P></LI></UL>
+> <P><span data-ttu-id="3c2a2-122">Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> al final del último argumento de <EM>consulta</EM> para mostrar los datos devueltos en un orden especificado.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-122">You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</span></span></P></LI></UL>
 
 
 
-## <a name="example"></a><span data-ttu-id="ca89b-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ca89b-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3c2a2-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3c2a2-123">Example</span></span>
 
-<span data-ttu-id="ca89b-124">En este ejemplo, se recuperan los nombres y ciudades de todos los proveedores y clientes de Brasil.</span><span class="sxs-lookup"><span data-stu-id="ca89b-124">This example retrieves the names and cities of all suppliers and customers in Brazil.</span></span>
-
-<span data-ttu-id="ca89b-125">En este ejemplo, se llama al procedimiento EnumFields, que se incluye en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="ca89b-125">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="3c2a2-124">En este ejemplo, se recuperan los nombres y ciudades de todos los proveedores y clientes de Brasil.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-124">This example retrieves the names and cities of all suppliers and customers in Brazil.</span></span> <span data-ttu-id="3c2a2-125">Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="3c2a2-125">It calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub UnionX() 
