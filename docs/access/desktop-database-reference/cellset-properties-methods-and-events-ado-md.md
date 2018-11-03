@@ -6,39 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
 ms:contentKeyID: 48545723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91e2a13613dd9d7f096f70a6f98161480014f3be
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a2cfb8f95cf8ebd66055043f33c988c29f7330e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924046"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943895"
 ---
 # <a name="cellset-properties-methods-and-events-ado-md"></a>Conjunto de celdas propiedades, métodos y eventos (ADO MD)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propiedades y colecciones
 
-- [Propiedad ActiveConnection](activeconnection-property-ado-md.md)
-
+- [ActiveConnection (propiedad)](activeconnection-property-ado-md.md)
 - [Colección Axes](axes-collection-ado-md.md)
-
-- [Propiedad FilterAxis](filteraxis-property-ado-md.md)
-
-- [Propiedad Item (Conjunto de celdas)](item-property-ado-md-cellset.md)
-
-- [Colección Properties](properties-collection-ado.md)
-
-- [Propiedad Source](source-property-ado-md.md)
-
-- [Propiedad State](state-property-ado-md.md)
+- [FilterAxis (propiedad)](filteraxis-property-ado-md.md)
+- [Propiedad Item (conjunto de celdas)](item-property-ado-md-cellset.md)
+- [Properties (colección)](properties-collection-ado.md)
+- [Source (propiedad)](source-property-ado-md.md)
+- [State (propiedad)](state-property-ado-md.md)
 
 ## <a name="methods"></a>Métodos
 
-- [Método Close](close-method-ado-md.md)
-
-- [Método Open](open-method-ado-md.md)
+- [Close (método)](close-method-ado-md.md)
+- [Open (método)](open-method-ado-md.md)
 
 ## <a name="events"></a>Eventos
 

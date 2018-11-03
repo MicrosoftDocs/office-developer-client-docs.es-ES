@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d4f2f67daf4bf072037fac07ecdc3cd163904818
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883802"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946618"
 ---
-# <a name="item-property-ado-md-cellset"></a>Item (propiedad) (conjunto de celdas de ADO MD)
+# <a name="item-property-ado-md-cellset"></a>Item (propiedad, Cellset de ADO MD)
 
 **Se aplica a**: Access 2013, Office 2013
 

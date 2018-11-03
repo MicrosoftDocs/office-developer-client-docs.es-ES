@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249019(v=office.15)
 ms:contentKeyID: 48543764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e91eedbb790eabd49cfacc83b37a9db8cfad720
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 694580005a3d016448ea9e5e715fea236a1d93f5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867674"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944868"
 ---
-# <a name="vbscript-ado-programming"></a>Programación ADO en VBScript
+# <a name="vbscript-ado-programming"></a>Programación ADO de VBScript
 
 
 **Se aplica a**: Access 2013, Office 2013 

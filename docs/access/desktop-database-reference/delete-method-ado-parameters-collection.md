@@ -1,19 +1,19 @@
 ---
-title: Delete (método, Colección Parameters de ADO)
-TOCTitle: Delete Method (ADO Parameters Collection)
+title: Método Delete (colección de parámetros de ADO)
+TOCTitle: Delete method (ADO Parameters Collection)
 ms:assetid: 03ffc24d-fea2-30fa-c8e9-43eb524fd51f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248804(v=office.15)
 ms:contentKeyID: 48542998
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e519d40a081b132cd09030e9ba97de9e8987af99
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b18a09d6a0c9d6a6ad8e9f579068c4f6d7162d1f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881961"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944875"
 ---
-# <a name="delete-method-ado-parameters-collection"></a>Delete (método, Colección Parameters de ADO)
+# <a name="delete-method-ado-parameters-collection"></a>Método Delete (colección de parámetros de ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ Elimina un objeto de la colección [Parameters](parameters-collection-ado.md).
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Index*
+- *Index*
 
   - Valor de tipo **String** que contiene el nombre del objeto que se va a eliminar, o bien, la posición ordinal (índice) del objeto en la colección.
 

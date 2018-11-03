@@ -1,20 +1,19 @@
 ---
 title: Modo de proceso por lotes (referencia de escritorio de la base de datos de Access)
-TOCTitle: Batch Mode
+TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ee4805f89d6a6a9d114c4347d808be61683efe6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880617"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945792"
 ---
-# <a name="batch-mode"></a>Modo por lotes
-
+# <a name="batch-mode"></a>Modo de proceso por lotes
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -24,15 +23,10 @@ El método **UpdateBatch** se utiliza para enviar cambios en un **conjunto de re
 
 Esta sección incluye los temas siguientes:
 
-- [Envío de actualizaciones: UpdateBatch](sending-the-updates-updatebatch.md)
-
-- [Filtro de registros actualizados](filtering-for-updated-records.md)
-
-- [Tratamiento de las actualizaciones con errores](dealing-with-failed-updates.md)
-
-- [Detección y resolución de conflictos](detecting-and-resolving-conflicts.md)
-
-- [Desconexión y reconexión del conjunto de registros](disconnecting-and-reconnecting-the-recordset.md)
-
-- [Actualizar los resultados de una operación JOIN: Tabla única](updating-joined-results-unique-table.md)
+- [Enviar actualizaciones: UpdateBatch](sending-the-updates-updatebatch.md)
+- [Filtrar registros actualizados](filtering-for-updated-records.md)
+- [Tratar actualizaciones con errores](dealing-with-failed-updates.md)
+- [Detectar y resolver conflictos](detecting-and-resolving-conflicts.md)
+- [Desconectar y volver a conectar el objeto Recordset](disconnecting-and-reconnecting-the-recordset.md)
+- [Actualizar los resultados de JOIN: tabla única](updating-joined-results-unique-table.md)
 

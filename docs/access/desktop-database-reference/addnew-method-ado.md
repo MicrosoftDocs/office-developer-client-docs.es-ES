@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 379aa71ad875213ab8c1ae022f7c8af3350b2662
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c4ac833f2ff7681e3a4abe77ff53928fc3f4fe2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927749"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944567"
 ---
 # <a name="addnew-method-ado"></a>AddNew (método, ADO)
 
@@ -26,17 +26,11 @@ Crea un nuevo registro de un objeto [Recordset](recordset-object-ado.md) actuali
 
 ## <a name="parameters"></a>Parámetros
 
-  - *recordset*
-
-  - Un objeto **Recordset**.
-
-  - *Lista de campos*
-
-  - Es opcional. Un solo nombre o una matriz de nombres o posiciones ordinales de los campos en el nuevo registro.
-
-  - *Values*
-
-  - Es opcional. Un solo valor o una matriz de valores para los campos en el registro nuevo. Si *Fieldlist* es una matriz, *los valores* también debe ser una matriz con el mismo número de miembros; de lo contrario, se produce un error. El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*recordset* |Un objeto **Recordset**.|
+|*Lista de campos* |Es opcional. Un solo nombre o una matriz de nombres o posiciones ordinales de los campos en el nuevo registro.|
+|*Values* |Es opcional. Un solo valor o una matriz de valores para los campos en el registro nuevo. Si *Fieldlist* es una matriz, *los valores* también debe ser una matriz con el mismo número de miembros; de lo contrario, se produce un error. El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.|
 
 ## <a name="remarks"></a>Comentarios
 

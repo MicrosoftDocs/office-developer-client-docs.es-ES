@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 929202df2d85ba2a4625a94506f8515eaba9fb39
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 44e41c3e9d46c9d26f5aed18755c158a5dc68ba7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923689"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946394"
 ---
 # <a name="fetchprogress-event-ado"></a>FetchProgress (evento, ADO)
 
@@ -27,19 +27,19 @@ De*progreso*, *MaxProgress*, FetchProgress *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Progress*
+- *Progress*
 
   - Valor **Long** que indica el número de registros que han sido recuperados actualmente por la operación de búsqueda.
 
-  - *MaxProgress*
+- *MaxProgress*
 
   - Valor **Long** que indica el número máximo de registros que se espera recuperar.
 
-  - *valor de adStatus*
+- *valor de adStatus*
 
   - Valor de estado [EventStatusEnum](eventstatusenum.md).
 
-  - *Connection*
+- *Connection*
 
   - Objeto **Recordset** para el que se están recuperando los registros.
 

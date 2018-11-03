@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887435"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945757"
 ---
 # <a name="ado-events-model-example-vc"></a>Ejemplo de modelo de eventos de ADO (VC ++)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -22,27 +21,27 @@ En la sección [Creación de instancias de eventos de ADO por lenguaje](https://
 
 La descripción general utiliza **adoint.h** como referencia para firmas de método. Sin embargo, algunos detalles de la descripción general cambian ligeramente debido al uso de la ** \#importar** directiva:
 
-  - La ** \#importar** directiva descompone los modificadores y tipos de datos de firma de método y **typedef**en sus formas fundamentales.
+- La ** \#importar** directiva descompone los modificadores y tipos de datos de firma de método y **typedef**en sus formas fundamentales.
 
-  - Todos los métodos virtuales puros que se deben sobrescribir llevan el prefijo por "**sin procesar\_**".
+- Todos los métodos virtuales puros que se deben sobrescribir llevan el prefijo por "**sin procesar\_**".
 
 Parte del código simplemente refleja el estilo de codificación.
 
-  - El puntero a **IUnknown** utilizado por el método **Advise** se obtiene explícitamente con una llamada a **QueryInterface**.
+- El puntero a **IUnknown** utilizado por el método **Advise** se obtiene explícitamente con una llamada a **QueryInterface**.
 
-  - No es necesario codificar explícitamente un destructor en las definiciones de clase.
+- No es necesario codificar explícitamente un destructor en las definiciones de clase.
 
-  - Quizá desee codificar implementaciones más robustas de QueryInterface, AddRef y Release.
+- Quizá desee codificar implementaciones más robustas de QueryInterface, AddRef y Release.
 
-  - La ** \_ \_uuidof()** directiva se utiliza ampliamente para obtener identificadores de interfaz.
+- La ** \_ \_uuidof()** directiva se utiliza ampliamente para obtener identificadores de interfaz.
 
 Por último, el ejemplo contiene parte de código funcional.
 
-  - El ejemplo está escrito como una aplicación de consola.
+- El ejemplo está escrito como una aplicación de consola.
 
-  - Deberá insertar su propio código bajo el comentario "/ / realizar algún trabajo".
+- Deberá insertar su propio código bajo el comentario "/ / realizar algún trabajo".
 
-  - El comportamiento predeterminado de todos los controladores de eventos es no hacer nada y cancelar posteriores notificaciones. Por tanto, si se requiere, deberá insertar el código apropiado para su aplicación y permitir las notificaciones.
+- El comportamiento predeterminado de todos los controladores de eventos es no hacer nada y cancelar posteriores notificaciones. Por tanto, si se requiere, deberá insertar el código apropiado para su aplicación y permitir las notificaciones.
 
 <!-- end list -->
 

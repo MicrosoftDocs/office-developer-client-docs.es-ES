@@ -1,19 +1,19 @@
 ---
-title: Source (propiedad, Record ADO)
-TOCTitle: Source Property (ADO Record)
+title: Source (propiedad, Record de ADO)
+TOCTitle: Source property (ADO Record)
 ms:assetid: f36f0f5f-4493-d8c5-db4b-c72f5031bcb3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e0157bc81e3f7efdb2227b5c5a9e2bc3642a7d2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b41521ac3b4ba0f07eac188a7103025be2800e4d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883956"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946506"
 ---
-# <a name="source-property-ado-record"></a>Source (propiedad, Record ADO)
+# <a name="source-property-ado-record"></a>Source (propiedad, Record de ADO)
 
 
 **Se aplica a**: Access 2013, Office 2013

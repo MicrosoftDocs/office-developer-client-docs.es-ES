@@ -1,31 +1,29 @@
 ---
-title: Métodos BeginTrans, CommitTrans y RollbackTrans (ADO)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+title: BeginTrans, CommitTrans y RollbackTrans (métodos, ADO)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68e827f6177c0ea90d4dd8d74c9782d552b3fdd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884670"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945925"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans y RollbackTrans (ADO)
-
+# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans y RollbackTrans (métodos, ADO)
 
 **Se aplica a**: Access 2013, Office 2013
 
-
 Estos métodos de transacción administran el procesamiento de las transacciones en un objeto [Connection](connection-object-ado.md) de la siguiente manera:
 
-  - **BeginTrans**: inicia una transacción nueva.
+- **BeginTrans**: inicia una transacción nueva.
 
-  - **CommitTrans**: guarda los cambios y termina la transacción actual. También puede iniciar una transacción nueva.
+- **CommitTrans**: guarda los cambios y termina la transacción actual. También puede iniciar una transacción nueva.
 
-  - **RollbackTrans**: cancela los cambios realizados durante la transacción actual y termina la transacción. También puede iniciar una transacción nueva.
+- **RollbackTrans**: cancela los cambios realizados durante la transacción actual y termina la transacción. También puede iniciar una transacción nueva.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -43,14 +41,13 @@ Al método **BeginTrans** se le puede llamar como una función que devuelve una 
 
 ## <a name="parameters"></a>Parámetros
 
-  - *objeto*
+- *objeto*
 
   - Objeto **Connection**.
 
-**Connection**
+### <a name="connection"></a>Connection
 
 Utilice estos métodos con un objeto **Connection** cuando desee guardar o cancelar una serie de cambios realizados en los datos de origen como una sola unidad. Por ejemplo, para transferir dinero entre cuentas, se resta una cantidad de una de las cuentas y se suma la misma cantidad a la otra. Si alguna de las actualizaciones no se realiza correctamente, las cuentas ya no están equilibradas. Si se realizan estos cambios en una transacción abierta, se garantiza que se llevan a cabo todos los cambios, o bien, que no se lleva a cabo ninguno de los cambios.
-
 
 > [!NOTE]
 > No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor "**Transaction DDL**" aparece en la colección [Properties](properties-collection-ado.md) del objeto **Connection**, lo que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
@@ -63,7 +60,7 @@ Si se llama al método **CommitTrans**, se guardan los cambios realizados en una
 
 Dependiendo de la propiedad **Attributes** del objeto [Connection](attributes-property-ado.md), una llamada al método **CommitTrans** o **RollbackTrans** puede iniciar automáticamente una transacción nueva. Si el valor de la propiedad **Attributes** es **adXactCommitRetaining**, el proveedor inicia automáticamente una transacción nueva después de una llamada a **CommitTrans**. Si el valor de la propiedad **Attributes** es **adXactAbortRetaining**, el proveedor inicia automáticamente una transacción nueva después de una llamada a **RollbackTrans**.
 
-**Servicio de datos remotos (RDS)**
+### <a name="remote-data-service"></a>Servicio de datos remotos (RDS)
 
 Los métodos **BeginTrans**, **CommitTrans** y **RollbackTrans** no están disponibles en un objeto **Connection** de cliente.
 

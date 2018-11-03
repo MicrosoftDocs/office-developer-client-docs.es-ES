@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0820d7efbc4dc742879fa454a49f91e99e1b7981
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 88257a39ffc459f04a8fbd5afda476ef58955c03
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928883"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945666"
 ---
 # <a name="comparebookmarks-method-ado"></a>CompareBookmarks (método, ADO)
 
@@ -30,11 +30,11 @@ Devuelve un valor de [CompareEnum](compareenum.md) que indica la posición de fi
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Bookmark1*
+- *Bookmark1*
 
   - Marcador de la primera fila.
 
-  - *Bookmark2*
+- *Bookmark2*
 
   - Marcador de la segunda fila.
 

@@ -1,23 +1,21 @@
 ---
 title: Parámetros de evento (referencia de escritorio de la base de datos de Access)
-TOCTitle: Event Parameters
+TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
 ms:contentKeyID: 48545239
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 023109586d13dc25846c8c145746aaf97fc22c15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3acad111c3e1329f50c64f3f6fd6c5f7430e558d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888373"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946744"
 ---
 # <a name="event-parameters"></a>Parámetros de evento
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Cada controlador de eventos tiene un parámetro de estado que controla el controlador de eventos. Para los eventos Complete, este parámetro también se utiliza para indicar si la operación que generó el evento se ha realizado correcta o incorrectamente. La mayoría de los eventos Complete también tienen un parámetro de error para proporcionar información sobre los errores que se hayan producido, así como uno o varios parámetros de objeto que hacen referencia al objeto ADO utilizado para llevar a cabo la operación. Por ejemplo, el evento [ExecuteComplete](executecomplete-event-ado.md) incluye parámetros de objeto para los objetos **Command**, **Recordset** y **Connection** asociados al evento. En el ejemplo siguiente de Microsoft Visual Basic, puede ver los objetos pCommand, pRecordset y pConnection que representan los objetos **Command**, **Recordset** y **Connection** usados por el método **Execute**.
 

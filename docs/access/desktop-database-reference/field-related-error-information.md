@@ -1,19 +1,19 @@
 ---
-title: Información de errores relacionados con campos
-TOCTitle: Field-Related Error Information
+title: Información de errores relacionados con el campo
+TOCTitle: Field-related error information
 ms:assetid: 81a2c5a4-ab09-53d8-b270-e889b00a0c1a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de2a737e314322064894142b2494e3b3793d1625
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6e853c45e4ee0de9a958ccc791bac3afcd305a23
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884859"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943566"
 ---
-# <a name="field-related-error-information"></a>Información de errores relacionados con campos
+# <a name="field-related-error-information"></a>Información de errores relacionados con el campo
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31a0d2212f063eca013c1668b47e548df1405366
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8bb6024043655c2529ce8309e5a6bead08cb4225
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922576"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947059"
 ---
 # <a name="catalog-object-adox"></a>Catalog (objeto, ADOX)
 
@@ -26,9 +26,9 @@ Puede modificar el objeto **Catalog** agregando o quitando objetos, o modificand
 
 Con las propiedades y los métodos de un objeto **Catalog**, se puede:
 
-  - Abrir el catálogo estableciendo la propiedad [ActiveConnection](activeconnection-property-adox.md) en un objeto [Connection](connection-object-ado.md) de ADO o en una cadena de conexión válida.
+- Abrir el catálogo estableciendo la propiedad [ActiveConnection](activeconnection-property-adox.md) en un objeto [Connection](connection-object-ado.md) de ADO o en una cadena de conexión válida.
 
-  - Crear un nuevo catálogo con el método [Create](create-method-adox.md).
+- Crear un nuevo catálogo con el método [Create](create-method-adox.md).
 
-  - Determinar los propietarios de los objetos de un **catálogo** con los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).
+- Determinar los propietarios de los objetos de un **catálogo** con los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).
 

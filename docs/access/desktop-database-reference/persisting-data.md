@@ -1,19 +1,19 @@
 ---
 title: Datos persistentes (referencia de escritorio de la base de datos de Access)
-TOCTitle: Persisting Data
+TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4db6e157ff5999dbf8892029840529c2306ef4e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d72ba6d895fc5aac2612eb3f81ecc95ac032d49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869935"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946751"
 ---
-# <a name="persisting-data"></a>Persistencia de datos
+# <a name="persisting-data"></a>Conservar datos
 
 
 **Se aplica a**: Access 2013, Office 2013

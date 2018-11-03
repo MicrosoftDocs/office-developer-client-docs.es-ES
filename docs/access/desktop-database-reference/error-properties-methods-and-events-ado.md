@@ -6,32 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
 ms:contentKeyID: 48546183
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 849fcf9c3be55cfab0036e839ae4a9e395cf98dd
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 297108566d3ce8e6f2c3037d9d607d1c233a4c4f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928715"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946562"
 ---
 # <a name="error-properties-methods-and-events-ado"></a>Error propiedades, métodos y eventos (ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 ## <a name="properties"></a>Propiedades
 
-- [Propiedad Description](description-property-ado.md)
-
-- [Propiedades ContextoDeAyuda (HelpContext) y HelpFile](helpcontext-helpfile-properties-ado.md)
-
-- [Propiedad NativeError](nativeerror-property-ado.md)
-
-- [Propiedad Number](number-property-ado.md)
-
-- [Propiedad Source (Objeto Error de ADO)](source-property-ado-error.md)
-
-- [Propiedad SQLState](sqlstate-property-ado.md)
+- [Description (propiedad)](description-property-ado.md)
+- [ContextoDeAyuda (HelpContext), HelpFile propiedades](helpcontext-helpfile-properties-ado.md)
+- [NativeError (propiedad)](nativeerror-property-ado.md)
+- [Number (propiedad)](number-property-ado.md)
+- [Source (propiedad, Error de ADO)](source-property-ado-error.md)
+- [SQLState (propiedad)](sqlstate-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 

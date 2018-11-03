@@ -1,20 +1,19 @@
 ---
-title: Gramática formal del comando Shape
-TOCTitle: Formal Shape Grammar
+title: Gramática formal de forma
+TOCTitle: Formal shape grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f226faa303a4ff99a062449548478d32fc60612
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0de4f2eca0b5dd607cb9d93cc7e90f4af0ba8d89
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877152"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945540"
 ---
-# <a name="formal-shape-grammar"></a>Gramática formal del comando Shape
-
+# <a name="formal-shape-grammar"></a>Gramática formal de forma
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -163,7 +162,7 @@ TABLA &lt;nombre entre comillas&gt; |<br />
 <td><p>Unicode-char [unicode char...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;expression&gt;</p></td>
+<td><p>&lt;expresión&gt;</p></td>
 <td><p>Una expresión de Visual Basic para Aplicaciones cuyos operandos son otras columnas que no sean CALC en la misma fila.</p></td>
 </tr>
 </tbody>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249090(v=office.15)
 ms:contentKeyID: 48544060
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65f2368f3bf4d3839a9883399c3a96e61d01c1e5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e3e51047ab3e6de9967887ebeb5a0ec27ec5eaf
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928708"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945197"
 ---
 # <a name="cubedefs-collection-ado-md"></a>CubeDefs (colección, ADO MD)
 
@@ -24,9 +24,9 @@ Contiene los objetos [CubeDef](cubedef-object-ado-md.md) que representan un cubo
 
 **CubeDefs** es una colección de ADO estándar. Con las propiedades y los métodos de una colección, puede realizar las siguientes operaciones:
 
-  - Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).
+- Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).
 
-  - Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.
+- Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.
 
-  - Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).
+- Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba1e32c3d2638589675a45c7cbc5a3e722651358
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6e90ff31c0b6a78a3f242927e2fa7e84c42d6ab3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928435"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945351"
 ---
 # <a name="axis-object-ado-md"></a>Axis (objeto, ADO MD)
 
@@ -26,11 +26,11 @@ Un objeto **Axis** puede estar incluido en una colección [Axes](axes-collection
 
 Con las colecciones y las propiedades de un objeto **Axis**, puede hacer lo siguiente:
 
-  - Identificar el **eje** con la propiedad [Name](name-property-ado-md.md).
+- Identificar el **eje** con la propiedad [Name](name-property-ado-md.md).
 
-  - Recorrer en iteración cada posición a lo largo de un **eje** mediante la colección [Positions](positions-collection-ado-md.md).
+- Recorrer en iteración cada posición a lo largo de un **eje** mediante la colección [Positions](positions-collection-ado-md.md).
 
-  - Obtener el número de dimensiones del **eje** con la propiedad [DimensionCount](dimensioncount-property-ado-md.md).
+- Obtener el número de dimensiones del **eje** con la propiedad [DimensionCount](dimensioncount-property-ado-md.md).
 
-  - Obtener atributos específicos de proveedor del **eje** con la colección [Properties](properties-collection-ado.md) de ADO estándar.
+- Obtener atributos específicos de proveedor del **eje** con la colección [Properties](properties-collection-ado.md) de ADO estándar.
 

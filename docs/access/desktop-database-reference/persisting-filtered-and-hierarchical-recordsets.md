@@ -1,19 +1,19 @@
 ---
-title: Conjuntos de registros filtrados y jerárquicos persistentes
-TOCTitle: Persisting Filtered and Hierarchical Recordsets
+title: Almacenar conjuntos de registros filtrados y jerárquicos
+TOCTitle: Persisting filtered and hierarchical Recordsets
 ms:assetid: 3648a997-dac7-d8a3-3cca-a6827f26a4f0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249120(v=office.15)
 ms:contentKeyID: 48544162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931345aff0cd3d8c9b10c53073e640b3cfdd5de5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13255bcd5cd40745a767b8aff9f49449b0127294
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889717"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946121"
 ---
-# <a name="persisting-filtered-and-hierarchical-recordsets"></a>Conjuntos de registros filtrados y jerárquicos persistentes
+# <a name="persisting-filtered-and-hierarchical-recordsets"></a>Almacenar conjuntos de registros filtrados y jerárquicos
 
 
 **Se aplica a**: Access 2013, Office 2013
@@ -22,6 +22,6 @@ Si la propiedad [Filter](filter-property-ado.md) está activada para el **conjun
 
 
 > [!NOTE]
-> <P>[!NOTA] Existen algunas limitaciones para guardar <STRONG>conjuntos de registros</STRONG> jerárquicos (formas de datos) en formato XML. Para obtener más información, vea <A href="hierarchical-recordsets-in-xml.md">Conjuntos de registros jerárquicos en XML</A>.</P>
+> [!NOTA] Existen algunas limitaciones para guardar **conjuntos de registros** jerárquicos (formas de datos) en formato XML. Para obtener más información, vea [Conjuntos de registros jerárquicos en XML](hierarchical-recordsets-in-xml.md).
 
 

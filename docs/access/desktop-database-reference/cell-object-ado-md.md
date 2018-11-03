@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e119600567c8d3c6cd23348d9b9560011e27a87
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d1d34409b170f2747ee5652210379087015f83dc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924613"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944087"
 ---
 # <a name="cell-object-ado-md"></a>Cell (objeto, ADO MD)
 
@@ -26,15 +26,15 @@ El objeto **Cell** lo devuelve la propiedad [Item](item-property-ado-md-cellset.
 
 Con las colecciones y las propiedades de un objeto **Cell**, puede hacer lo siguiente:
 
-  - Devolver los datos de la **celda** con la propiedad [Value](value-property-ado-md.md).
+- Devolver los datos de la **celda** con la propiedad [Value](value-property-ado-md.md).
 
-  - Devolver la cadena que representa la presentación con formato de la propiedad **Value** con la propiedad [FormattedValue](formattedvalue-property-ado-md.md).
+- Devolver la cadena que representa la presentación con formato de la propiedad **Value** con la propiedad [FormattedValue](formattedvalue-property-ado-md.md).
 
-  - Devolver el valor ordinal de la **celda** incluida en el **conjunto de celdas** con la propiedad [Ordinal](ordinal-property-ado-md-cell.md).
+- Devolver el valor ordinal de la **celda** incluida en el **conjunto de celdas** con la propiedad [Ordinal](ordinal-property-ado-md-cell.md).
 
-  - Determinar la posición de la **celda** incluida en el objeto [CubeDef](cubedef-object-ado-md.md) con la colección [Positions](positions-collection-ado-md.md).
+- Determinar la posición de la **celda** incluida en el objeto [CubeDef](cubedef-object-ado-md.md) con la colección [Positions](positions-collection-ado-md.md).
 
-  - Recuperar otra información sobre la **celda** con la colección [Properties](properties-collection-ado.md) de ADO estándar.
+- Recuperar otra información sobre la **celda** con la colección [Properties](properties-collection-ado.md) de ADO estándar.
 
 La colección **Properties** contiene propiedades proporcionadas por el proveedor. En la tabla siguiente se incluyen las propiedades que pueden estar disponibles. La lista de propiedades reales puede variar en función de la implementación del proveedor. Vea la documentación del proveedor para obtener una lista más completa de las propiedades disponibles.
 

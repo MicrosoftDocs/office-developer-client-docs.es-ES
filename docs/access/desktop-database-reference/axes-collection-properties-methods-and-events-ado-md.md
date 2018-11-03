@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249357(v=office.15)
 ms:contentKeyID: 48545205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60e9fa53eeda60547cd66cff6ca35e39ad49cde3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 028743d48b311404a2c50d744a42eeb967ce5b0f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927525"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946345"
 ---
 # <a name="axes-collection-properties-methods-and-events-ado-md"></a>Propiedades de la colección de ejes, métodos y eventos (ADO MD)
 
@@ -19,13 +19,12 @@ ms.locfileid: "25927525"
 
 ## <a name="properties"></a>Propiedades
 
-- [Propiedad Count](count-property-ado.md)
-
-- [Propiedad Item](item-property-ado.md)
+- [Count (propiedad)](count-property-ado.md)
+- [Elemento (propiedad)](item-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 
-- [Método Refresh](refresh-method-ado.md)
+- [Refresh (método)](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos
 

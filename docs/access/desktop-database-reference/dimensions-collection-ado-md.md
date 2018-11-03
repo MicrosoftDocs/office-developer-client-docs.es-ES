@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
 ms:contentKeyID: 48543035
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de12fba58611486cc977aacadea0432f26ed5691
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4840fe1b715c9e328034a6f2cd15b57dd78f31c1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925320"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944644"
 ---
 # <a name="dimensions-collection-ado-md"></a>Dimensions (colección, ADO MD)
 
@@ -24,9 +24,9 @@ Contiene los objetos [Dimension](dimension-object-ado-md.md) que componen un cub
 
 **Dimensions** es una colección de ADO estándar. Con las propiedades y los métodos de una colección, puede realizar las siguientes operaciones:
 
-  - Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).
+- Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).
 
-  - Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.
+- Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.
 
-  - Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).
+- Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).
 

@@ -1,28 +1,28 @@
 ---
-title: Resumen de controladores de eventos de ADO
-TOCTitle: ADO Event Handler Summary
+title: Controlador de eventos de ADO resumen
+TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e47cf076c213707857285757d936d58bd153e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880603"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945365"
 ---
-# <a name="ado-event-handler-summary"></a>Resumen de controladores de eventos de ADO
+# <a name="ado-event-handler-summary"></a>Resumen del controlador de eventos de ADO
 
 
 **Se aplica a**: Access 2013, Office 2013
 
 Existen dos objetos de ADO que pueden provocar eventos: el objeto [Connection](connection-object-ado.md) y el objeto [Recordset](recordset-object-ado.md). La familia **ConnectionEvent** (eventos de conexión) se relaciona con operaciones sobre el objeto **Connection**, mientras que la familia **RecordsetEvent** (eventos de conjunto de registros) tiene que ver con operaciones sobre el objeto **Recordset**.
 
-  - **Eventos de conexión**. Son eventos que se generan cuando una transacción sobre una conexión comienza, se confirma (commit) o se deshace (rollback), cuando se ejecuta un [comando](command-object-ado.md), cuando se produce una advertencia durante una operación de **evento de conexión** o cuando se inicia o finaliza una **conexión**.
+- **Eventos de conexión**. Son eventos que se generan cuando una transacción sobre una conexión comienza, se confirma (commit) o se deshace (rollback), cuando se ejecuta un [comando](command-object-ado.md), cuando se produce una advertencia durante una operación de **evento de conexión** o cuando se inicia o finaliza una **conexión**.
 
-  - **Eventos de conjunto de registros (recordset)**. Son eventos que se generan en operaciones de búsqueda asincrónicas, así como al desplazarse por las filas de un objeto **Recordset**, cambiar un campo de una fila de un **Recordset**, cambiar una fila de un **Recordset**, abrir un **Recordset** con un cursor de servidor, cerrar un **Recordset** o realizar cualquier otro cambio en el **Recordset**.
+- **Eventos de conjunto de registros (recordset)**. Son eventos que se generan en operaciones de búsqueda asincrónicas, así como al desplazarse por las filas de un objeto **Recordset**, cambiar un campo de una fila de un **Recordset**, cambiar una fila de un **Recordset**, abrir un **Recordset** con un cursor de servidor, cerrar un **Recordset** o realizar cualquier otro cambio en el **Recordset**.
 
 En las tablas siguientes, se resumen los eventos y sus descripciones.
 

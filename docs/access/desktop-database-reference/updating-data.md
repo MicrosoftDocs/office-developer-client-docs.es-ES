@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9202a81617f253477c9788055738eaa64e73322
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 70ca34183d135c6907a185984b02b394776bfda4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880484"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944224"
 ---
 # <a name="updating-data"></a>Actualización de datos
 
@@ -28,9 +28,7 @@ El registro actual sigue siendo el actual después de la llamada a los métodos 
 
 Esta sección incluye los temas siguientes:
 
-- [Modo Inmediato](immediate-mode.md)
-
+- [Modo inmediato](immediate-mode.md)
 - [Procesamiento de transacciones](transaction-processing.md)
-
-- [Batch Mode (ADO)](batch-mode.md)
+- [Modo de proceso por lotes (ADO)](batch-mode.md)
 

@@ -1,20 +1,19 @@
 ---
 title: Registros y campos proporcionados por el proveedor
-TOCTitle: Records and Provider-Supplied Fields
+TOCTitle: Records and provider-supplied fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf0e13569e902cd8665cd2a023ba1707d63f51a6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a2de9f48b9f35afb208006118add97c9b29c4885
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887463"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944525"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Registros y campos proporcionados por el proveedor
-
 
 **Se aplica a**: Access 2013, Office 2013
 

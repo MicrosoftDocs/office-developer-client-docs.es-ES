@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249209(v=office.15)
 ms:contentKeyID: 48544542
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c7aaaa556d11fc3c457c89a35edb1240628aa9e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 515573d9992ec85652897ff08b034bee02beea9d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868626"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946163"
 ---
-# <a name="step-4-server-returns-the-recordset-rds-tutorial"></a>Paso 4: El servidor devuelve el conjunto de registros (tutorial de RDS)
-
+# <a name="step-4-server-returns-the-recordset-rds-tutorial"></a>Paso 4: El servidor devuelve el objeto Recordset (Tutorial de RDS)
 
 **Se aplica a**: Access 2013, Office 2013
 

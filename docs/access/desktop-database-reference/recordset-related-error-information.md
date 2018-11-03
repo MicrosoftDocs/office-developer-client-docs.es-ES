@@ -1,20 +1,19 @@
 ---
-title: Información de errores relacionados con conjuntos de registros
-TOCTitle: Recordset-Related Error Information
+title: Información de errores relacionados con el conjunto de registros
+TOCTitle: Recordset-related error information
 ms:assetid: 388308c7-e121-bd12-228a-312c897b8c55
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249136(v=office.15)
 ms:contentKeyID: 48544222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2df186db80515fdc9a7e77b8030d3ccd82ad793
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5b0dc56ba591263cd834e26ca4e89a371f272d5a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888702"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946471"
 ---
-# <a name="recordset-related-error-information"></a>Información de errores relacionados con conjuntos de registros
-
+# <a name="recordset-related-error-information"></a>Información de errores relacionados con el conjunto de registros
 
 **Se aplica a**: Access 2013, Office 2013
 

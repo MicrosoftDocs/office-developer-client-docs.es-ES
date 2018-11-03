@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
 ms:contentKeyID: 48545691
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17da3304dd6737712b1bd79dc4c9088bcdc2bc2a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6ba082ab64a7f2a3f4d5d5a4246e0a31c34fc075
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924543"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944574"
 ---
 # <a name="cell-properties-methods-and-events-ado-md"></a>Celda propiedades, métodos y eventos (ADO MD)
 
@@ -19,15 +19,11 @@ ms.locfileid: "25924543"
 
 ## <a name="propertiescollections"></a>Propiedades y colecciones
 
-- [Propiedad FormattedValue](formattedvalue-property-ado-md.md)
-
-- [Propiedad Ordinal (Celda)](ordinal-property-ado-md-cell.md)
-
+- [FormattedValue (propiedad)](formattedvalue-property-ado-md.md)
+- [Ordinal (propiedad) (celda)](ordinal-property-ado-md-cell.md)
 - [Colección Positions](positions-collection-ado-md.md)
-
-- [Colección Properties](properties-collection-ado.md)
-
-- [Propiedad Value](value-property-ado-md.md)
+- [Properties (colección)](properties-collection-ado.md)
+- [Valor (propiedad)](value-property-ado-md.md)
 
 ## <a name="methods"></a>Métodos
 

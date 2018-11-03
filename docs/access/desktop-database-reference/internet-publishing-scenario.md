@@ -1,32 +1,160 @@
 ---
-title: Escenario de Internet Publishing
-TOCTitle: Internet Publishing Scenario
+title: Escenario de Internet publishing
+TOCTitle: Internet publishing scenario
 ms:assetid: 25a3fa8b-86ec-9e72-5e62-bf0d849479b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09d8d95c14b0ff53e1f81379ac3b98a4b3cca09e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7d502c95b985d83f5c19f68d3477a678c5471c54
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877866"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945876"
 ---
-# <a name="internet-publishing-scenario"></a>Escenario de publicación en Internet
-
+# <a name="internet-publishing-scenario"></a>Escenario de Internet publishing
 
 **Se aplica a**: Access 2013, Office 2013
 
 En este ejemplo de código, se muestra cómo usar ADO con Microsoft OLE DB Provider for Internet Publishing. En este escenario, creará una aplicación de Visual Basic que usa objetos **Recordset**, **Record** y **Stream** para mostrar el contenido de recursos publicados con el proveedor de publicaciones en Internet.
 
-Para crear el escenario, siga estos pasos:
+Para crear el escenario, siga estos pasos: 
 
-- [Paso 1: Configurar el proyecto de Visual Basic](step-1-set-up-the-visual-basic-project.md)
+1. Configurar el proyecto de Visual Basic.
+2. Inicializar el cuadro de lista principal.
+3. Rellenar el cuadro de lista de campos.
+4. Rellenar el cuadro de texto de detalles.
 
-- [Paso 2: Inicializar el cuadro de lista principal](step-2-initialize-the-main-list-box.md)
+## <a name="step-1-set-up-the-visual-basic-project"></a>Paso 1: Configurar el proyecto de Visual Basic
 
-- [Paso 3: Rellenar el cuadro de lista de campos](step-3-populate-the-fields-list-box.md)
+En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 2.5, o versiones posteriores, y Microsoft OLE DB Provider for Internet Publishing en el sistema.
 
-- [Paso 4: Rellenar el cuadro de texto de detalles](step-4-populate-the-details-text-box.md)
+### <a name="create-an-ado-project"></a>Crear un proyecto de ADO
+
+1.  En Microsoft Visual Basic, cree un nuevo proyecto EXE estándar.
+
+2.  En el menú **Herramientas**, haga clic en **Referencias**.
+
+3.  Seleccione **"Biblioteca Microsoft ActiveX Data Objects 2.5"** y haga clic en **Aceptar**.
+
+### <a name="insert-controls-on-the-main-form"></a>Insertar controles en el formulario principal
+
+1.  Agregue un control ListBox a Form1. Establezca su propiedad **Name** en **lstMain**.
+
+2.  Agregue otro control ListBox a Form1. Establezca su propiedad **Name** en **lstDetails**.
+
+3.  Agregue un control TextBox a Form1. Establezca su propiedad **Name** en **txtDetails**.
+
+## <a name="step-2-initialize-the-main-list-box"></a>Paso 2: Inicializar el cuadro de lista principal
+
+### <a name="declare-global-record-and-recordset-objects"></a>Declarar objetos Record y Recordset globales
+
+- Inserte el código siguiente en la sección de declaraciones generales de Form1:
+    
+   ```vb 
+     
+    Option Explicit 
+    Dim grec As Record 
+    Dim grs As Recordset 
+   ```
+    
+   Este código declara referencias de objetos globales para **Record** y **Recordset** que se usarán posteriormente en este escenario.
+
+### <a name="connect-to-a-url-and-populate-lstmain"></a>Conectarse a una dirección URL y llenar lstMain
+
+- Inserte el código siguiente en el controlador del evento Form Load para Form1:
+    
+   ```vb 
+     
+    Private Sub Form_Load() 
+        Set grec = New Record 
+        Set grs = New Recordset 
+        grec.Open "", "URL=https://servername/foldername/", , _ 
+            adOpenIfExists Or adCreateCollection 
+        Set grs = grec.GetChildren 
+        While Not grs.EOF 
+            lstMain.AddItem grs(0) 
+            grs.MoveNext 
+        Wend 
+    End Sub 
+   ```
+    
+   Este código crea instancias de los objetos globales **Record** y **Recordset**. El **registro** `grec` se abre con una dirección URL especificada como **ActiveConnection**. Si la dirección URL existe, se abre; si aún no existe, se crea. 
+   
+   Tenga en cuenta que se debe reemplazar `https://servername/foldername/` con una dirección URL válida de su entorno. 
+   
+   El **objeto Recordset** `grs` se abre sobre los elementos secundarios del **registro** `grec`. El lstMain, a continuación, se rellena con los nombres de archivo de los recursos publicados en la dirección URL.
+
+## <a name="step-3-populate-the-fields-list-box"></a>Paso 3: Rellenar el cuadro de lista de campos
+
+- Inserte el siguiente código en el controlador del evento Click de lstMain:
+
+   ```vb 
+    
+    Private Sub lstMain_Click() 
+        Dim rec As Record 
+        Dim rs As Recordset 
+        Set rec = New Record 
+        Set rs = New Recordset 
+        grs.MoveFirst 
+        grs.Move lstMain.ListIndex 
+        lstDetails.Clear 
+        rec.Open grs 
+        Select Case rec.RecordType 
+            Case adCollectionRecord: 
+                Set rs = rec.GetChildren 
+                While Not rs.EOF 
+                    lstDetails.AddItem rs(0) 
+                    rs.MoveNext 
+                Wend 
+            Case adSimpleRecord: 
+                recFields rec, lstDetails, txtDetails 
+                
+            Case adStructDoc: 
+        End Select 
+        
+    End Sub 
+   ```
+
+   Este código declara y crea instancias de objetos **Record** y **Recordset** locales `rec` y `rs`respectivamente.
+
+   La fila correspondiente al recurso seleccionado en lstMain se convierte en la fila actual de `grs`. A continuación, se borra el cuadro de lista **Detalles** y `rec` se abre con la fila actual de `grs` como el origen.
+
+   Si el recurso es un registro de colección (según se especifica en **RecordType**), el **conjunto de registros** de local `rs` se abre sobre los elementos secundarios de `rec`. a continuación, se rellena lstDetails con los valores de las filas de `rs`.
+
+   Si el recurso es un registro simple, `recFields` se llama. Para obtener más información acerca de `recFields`, vea el paso siguiente.
+
+   Si el recurso es un documento estructurado, entonces no se implementa ningún código.
+
+## <a name="step-4-populate-the-details-text-box"></a>Paso 4: Rellenar el cuadro de texto de detalles
+
+- Cree una subrutina nueva denominada `recFields` e inserte el código siguiente:
+
+   ```vb 
+    
+    Sub recFields(r As Record, l As ListBox, t As TextBox) 
+        Dim f As Field 
+        Dim s As Stream 
+        Set s = New Stream 
+        Dim str As String 
+        
+        For Each f In r.Fields 
+            l.AddItem f.Name & ": " & f.Value 
+        Next 
+        t.Text = "" 
+        If r!RESOURCE_CONTENTCLASS = "text/plain" Then 
+            s.Open r, adModeRead, adOpenStreamFromRecord 
+            str = s.ReadText(1) 
+            s.Position = 0 
+            If Asc(Mid(str, 1, 1)) = 63 Then '//63 = "?" 
+                s.Charset = "ascii" 
+                s.Type = adTypeText 
+            End If 
+            t.Text = s.ReadText(adReadAll) 
+        End If 
+    End Sub 
+   ```
+
+   Este código rellena lstDetails con los campos y valores del registro simple pasan a `recFields`. Si el recurso es un archivo de texto, se abre un **Stream** de texto desde el registro de recursos. El código determina si el juego de caracteres es ASCII y copia el contenido de la **secuencia** en `txtDetails`.
 
