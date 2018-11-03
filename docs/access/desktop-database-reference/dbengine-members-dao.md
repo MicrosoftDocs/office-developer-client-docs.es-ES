@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dee1030540944fc0be6bc8fb69004188c28c0c73
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 17a086e38d1654a880a7c223e7a4347455b9d31a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920413"
+ms.locfileid: "25937739"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine (miembros) (DAO)
 
@@ -60,12 +60,8 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
-
-
+<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">

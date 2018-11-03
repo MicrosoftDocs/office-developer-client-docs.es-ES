@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 10: Registros y flujos'
-TOCTitle: 'Chapter 10: Records and Streams'
+title: 'Capítulo 10: Objetos Record y Stream'
+TOCTitle: 'Chapter 10: Records and streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c61aef7a4f0cc34f256300304823341c99fb8436
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d0d5eec3c032780dd6065bd29f6d41c299a7379
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876970"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937697"
 ---
-# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Registros y flujos
-
+# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Objetos Record y Stream
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -36,28 +35,25 @@ Si desea obtener más información acerca del uso del objeto **Record** para pro
 
 El objeto **Stream** proporciona el medio para leer, escribir y administrar una secuencia de bytes. Esta secuencia de bytes puede ser texto o datos binarios, y su tamaño sólo está limitada por los recursos del sistema. Los objetos **Stream** de ADO se suelen utilizar para los propósitos siguientes:
 
-  - Contener el texto o los bytes que componen un archivo o un mensaje (normalmente se utiliza con proveedores tales como el Microsoft OLE DB Provider for Internet Publishing. Si desea obtener más información acerca de este uso de los objetos **Stream**, vea [Uso de ADO para publicación en Internet](using-ado-for-internet-publishing.md).
+- Contener el texto o los bytes que componen un archivo o un mensaje (normalmente se utiliza con proveedores tales como el Microsoft OLE DB Provider for Internet Publishing. Si desea obtener más información acerca de este uso de los objetos **Stream**, vea [Uso de ADO para publicación en Internet](using-ado-for-internet-publishing.md).
 
 Un objeto **Stream** se puede abrir sobre:
 
-  - Un archivo simple especificado con una dirección URL.
+- Un archivo simple especificado con una dirección URL.
 
-  - Un campo de un objeto **Record** o un objeto **Recordset** que contiene un objeto **Stream**.
+- Un campo de un objeto **Record** o un objeto **Recordset** que contiene un objeto **Stream**.
 
-  - La secuencia predeterminada de un objeto **Record** o **Recordset** que representa un directorio o un archivo compuesto.
+- La secuencia predeterminada de un objeto **Record** o **Recordset** que representa un directorio o un archivo compuesto.
 
-  - Un campo de recurso que contiene la dirección URL de un archivo simple.
+- Un campo de recurso que contiene la dirección URL de un archivo simple.
 
-  - Ninguna origen determinado. En este caso, el objeto **Stream** se abre en la memoria. Se pueden escribir datos en él y después guardarlos en otro **Stream** o en un archivo.
+- Ninguna origen determinado. En este caso, el objeto **Stream** se abre en la memoria. Se pueden escribir datos en él y después guardarlos en otro **Stream** o en un archivo.
 
-  - Un campo BLOB de un objeto **Recordset**.
+- Un campo BLOB de un objeto **Recordset**.
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Flujos y persistencia](streams-and-persistence.md)
-
+- [Secuencias y persistencia](streams-and-persistence.md)
 - [Registros y campos proporcionados por el proveedor](records-and-provider-supplied-fields.md)
-
-- [Direcciones URL relativas y absolutas](absolute-and-relative-urls.md)
-
-- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)
+- [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md)
+- [Utilizar ADO para Internet publishing (ADO)](using-ado-for-internet-publishing.md)

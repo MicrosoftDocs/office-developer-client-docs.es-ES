@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922037"
+ms.locfileid: "25936618"
 ---
 # <a name="find-method-ado"></a>Find (método, ADO)
 
@@ -57,12 +57,9 @@ Se pueden utilizar asteriscos sólo al final de la cadena, o bien, tanto al prin
 
 
 > [!NOTE]
-> <P>[!NOTA] Se producirá un error si no se establece una posición de fila actual antes de llamar a <STRONG>Find</STRONG>. Es preciso llamar a algún método que establezca la posición de fila, como el método <A href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</A>, antes de llamar a <STRONG>Find</STRONG>.</P>
-
-
-
+> [!NOTA] Se producirá un error si no se establece una posición de fila actual antes de llamar a **Find**. Es preciso llamar a algún método que establezca la posición de fila, como el método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), antes de llamar a **Find**.
 
 > [!NOTE]
-> <P>[!NOTA] Si llama al método <STRONG>Find</STRONG> en un conjunto de registros y la posición actual en el conjunto de registros se encuentra en el último registro o al final del archivo (EOF), la búsqueda no tendrá resultados. Deberá llamar al método <STRONG>MoveFirst</STRONG> para establecer el cursor o la posición actual en el inicio del conjunto de registros.</P>
+> [!NOTA] Si llama al método **Find** en un conjunto de registros y la posición actual en el conjunto de registros se encuentra en el último registro o al final del archivo (EOF), la búsqueda no tendrá resultados. Deberá llamar al método **MoveFirst** para establecer el cursor o la posición actual en el inicio del conjunto de registros.
 
 

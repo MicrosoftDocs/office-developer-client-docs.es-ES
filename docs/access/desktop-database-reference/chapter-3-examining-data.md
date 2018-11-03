@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 3: Examen de datos'
-TOCTitle: 'Chapter 3: Examining Data'
+title: 'Capítulo 3: Examinar datos'
+TOCTitle: 'Chapter 3: Examining data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5542b465cc6fc31949f2ceb5ed8bda408b1e653
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b489400536675fccced8f87aae515b019b87123
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875934"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936864"
 ---
-# <a name="chapter-3-examining-data"></a>Capítulo 3: Examen de datos
-
+# <a name="chapter-3-examining-data"></a>Capítulo 3: Examinar datos
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -54,6 +53,8 @@ ErrHandler:
 End Sub 
 'EndRsTour 
 ```
+
+<br/>
 
 Esta consulta SQL devuelve un objeto **Recordset** con cinco filas (registros) y tres columnas (campos). En la tabla siguiente se muestran los valores correspondientes a cada fila.
 
@@ -107,8 +108,6 @@ La siguiente sección explica cómo se localiza la posición actual del cursor e
 
 En este capítulo, se tratan los temas siguientes:
 
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)
+- [Ubicar el registro activo (ADO)](locating-the-current-record.md)
+- [Desplazarse por los datos (ADO)](navigating-through-the-data.md)
+- [Descripción de la estructura del conjunto de registros (ADO)](understanding-recordset-structure.md)

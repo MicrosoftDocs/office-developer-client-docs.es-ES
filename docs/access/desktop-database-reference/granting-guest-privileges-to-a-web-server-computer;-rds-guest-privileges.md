@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed450913c7512e8ef20983484ca4b874878fd791
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 213e405718d50369367d439457e8026d4ef71242
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867170"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937508"
 ---
 # <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>Conceder privilegios de invitado a un equipo de servidor Web; Privilegios de invitado RDS 
 
@@ -22,7 +22,7 @@ La cuenta del servidor web anónimo (IUSR\_*ComputerName*) debe agregarse al gru
 
 **Para conceder privilegios de invitado a un equipo servidor web**
 
-1.  En su equipo con Microsoft Windows ® 2000 Server, haga clic en **Inicio**, elija **Programas**, ** Herramientas administrativas** y haga clic en **Administración de equipos**.
+1.  En el equipo de Microsoft Windows 2000 Server, haga clic en **Inicio**, elija **programas**, elija **Herramientas administrativas**y, a continuación, haga clic en **Administración de equipos**.
 
 2.  En el árbol de la consola, en **Usuarios locales y grupos**, haga clic en **Grupos**.
 

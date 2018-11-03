@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b55bf1897c6b5fc5cd7ee70402e466f2180b7d92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26d2b4b6281dd762e95113d5ca022e7c0d136755
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890928"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937050"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>Cláusula CONSTRAINT (Microsoft Access SQL)
 
@@ -32,11 +32,11 @@ La cláusula CONSTRAINT se usa en las instrucciones [ALTER TABLE](alter-table-st
 
 ## <a name="syntax"></a>Sintaxis
 
-**Restricción de campo único**:
+### <a name="single-field-constraint"></a>Restricción de campo único
 
 CONSTRAINT *nombre* {PRIMARY KEY | ÚNICO | NOT NULL | REFERENCES *tablaexterna* \[(*campoexterno1, campoexterno2*)\] \[ON UPDATE CASCADE | ESTABLECER como NULL\] \[ON DELETE CASCADE | ESTABLECER como NULL\]}
 
-**Restricción de varios campos**:
+### <a name="multiple-field-constraint"></a>Restricción de varios campos
 
 CONSTRAINT *nombre* {PRIMARY KEY (*principal1*\[, *principal2* \[,... \]\]) | ÚNICO (*único1*\[, *único2* \[,... \]\]) | NOT NULL (*noNull1*\[, *noNull2* \[,... \]\]) | CLAVE externa \[sin índice\] (*referencia1*\[, *referencia2* \[,... \] \]) REFERENCES *tablaexterna* \[(*campoexterno1* \[, *campoexterno2* \[,... \] \])\] \[ON UPDATE CASCADE | ESTABLECER como NULL\] \[ON DELETE CASCADE | ESTABLECER como NULL\]}
 

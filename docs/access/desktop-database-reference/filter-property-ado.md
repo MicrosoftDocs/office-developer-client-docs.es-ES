@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888667"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937137"
 ---
 # <a name="filter-property-ado"></a>Filter (propiedad, ADO)
 
@@ -44,7 +44,7 @@ La cadena de criterios se compone de cláusulas con el formato *NombreCampo-Oper
     
 
     > [!NOTE]
-    > <P>[!NOTA] Para incluir comillas sencillas (') en el filtro Valor, utilice dos comillas sencillas para representar una. Por ejemplo, para filtrar por O'Malley, la cadena de criterios debería ser "col1 = 'O''Malley'". Para incluir comillas sencillas al principio y al final del valor de filtrado, incluya la cadena entre signos de número (#). Por ejemplo, para filtrar por '1', la cadena de criterios debería ser "col1 = #'1'#".</P>
+    > [!NOTA] Para incluir comillas sencillas (') en el filtro Valor, utilice dos comillas sencillas para representar una. Por ejemplo, para filtrar por O'Malley, la cadena de criterios debería ser "col1 = 'O''Malley'". Para incluir comillas sencillas al principio y al final del valor de filtrado, incluya la cadena entre signos de número (#). Por ejemplo, para filtrar por '1', la cadena de criterios debería ser "col1 = #'1'#".
 
 
 
@@ -66,19 +66,12 @@ Vea la propiedad [Bookmark](bookmark-property-ado.md) para obtener una explicaci
 
 Sólo los **filtros** con el formato de las cadenas de criterios (por ejemplo, FechaPedido \> ' 12/31/1999 ') afectan al contenido de un **objeto Recordset**de persistentes. Los **filtros** creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectarán al contenido del objeto Recordset persistente. Estas reglas se aplican a los objetos **Recordset** creados con cursores cliente o servidor.
 
-
 > [!NOTE]
-> <P>[!NOTA] Cuando se aplica la marca <STRONG>adFilterPendingRecords</STRONG> a un objeto <STRONG>Recordset</STRONG> filtrado y modificado en el modo de actualización por lotes, el objeto <STRONG>Recordset</STRONG> resultante estará vacío si el filtrado se ha basado en el campo clave de una tabla de una única clave y la modificación se ha realizado en los valores del campo clave. El objeto <STRONG>Recordset</STRONG> resultante no estará vacío si se cumple una de las siguientes condiciones:</P>
-
-
-
-  - El filtrado se ha basado en campos sin clave de una tabla con una única clave.
-
-  - El filtrado se ha basado en cualquier campo de una tabla con varias claves.
-
-  - Las modificaciones se han realizado en campos sin clave de una tabla con una única clave.
-
-  - Las modificaciones se han realizado en cualquier campo de una tabla con varias claves.
+> [!NOTA] Cuando se aplica la marca **adFilterPendingRecords** a un objeto **Recordset** filtrado y modificado en el modo de actualización por lotes, el objeto **Recordset** resultante estará vacío si el filtrado se ha basado en el campo clave de una tabla de una única clave y la modificación se ha realizado en los valores del campo clave. El objeto **Recordset** resultante no estará vacío si se cumple una de las siguientes condiciones:
+> - El filtrado se ha basado en campos sin clave de una tabla con una única clave.
+> - El filtrado se ha basado en cualquier campo de una tabla con varias claves.
+> - Las modificaciones se han realizado en campos sin clave de una tabla con una única clave.
+> - Las modificaciones se han realizado en cualquier campo de una tabla con varias claves.
 
 En la siguiente tabla se resumen los efectos de **adFilterPendingRecords** sobre diferentes combinaciones de filtrado y modificaciones. En la columna de la izquierda se muestran las posibles modificaciones; éstas se pueden realizar en cualquiera de los campos sin clave, en el campo clave de una tabla con una única clave o en cualquiera de los campos clave de una tabla con varias claves. En la fila superior se muestra el criterio de filtrado; éste puede basarse en cualquiera de los campos sin clave, en el campo clave de una tabla con una única clave o en cualquiera de los campos clave de una tabla con varias claves. En las celdas de intersección se muestran los resultados: + significa que la aplicación de **adFilterPendingRecords** da lugar a un objeto **Recordset** no vacío; **-** significa un objeto **Recordset** vacío.
 

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125294(v=office.15)
 ms:contentKeyID: 52073418
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f26c8dc4f8b48c4851cb17ab762a3d904479a981
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e8a3a28b0557f19a32a83e0a61f3ede725ff71c5
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924522"
+ms.locfileid: "25936444"
 ---
 # <a name="errors-methods-dao"></a>Métodos de errores (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Errors.Refresh (método) (DAO)](errors-refresh-method-dao.md)
+- [Errors.Refresh (método) (DAO)](errors-refresh-method-dao.md)
 

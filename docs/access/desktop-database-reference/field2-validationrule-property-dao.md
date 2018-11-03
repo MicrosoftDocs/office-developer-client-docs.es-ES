@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf640597405205987040d95033b2eb1ceee13867
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 354b080b40c9dfc59394f1a860453e539c5949fb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922716"
+ms.locfileid: "25936605"
 ---
 # <a name="field2validationrule-property-dao"></a>Propiedad Field2.ValidationRule (DAO)
 
@@ -76,6 +76,6 @@ La expresión de cadena que especifica la propiedad **ValidationRule** de un obj
 
 
 > [!NOTE]
-> <P>Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se debe a que, durante la concatenación, el número se convertirá en una cadena que utiliza el carácter decimal predeterminado del sistema, y el motor de base de datos de Microsoft Access SQL sólo acepta caracteres decimales anglosajones.</P>
+> Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se debe a que, durante la concatenación, el número se convertirá en una cadena que utiliza el carácter decimal predeterminado del sistema, y el motor de base de datos de Microsoft Access SQL sólo acepta caracteres decimales anglosajones.
 
 

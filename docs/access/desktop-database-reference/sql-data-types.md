@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd49861af896ae1c2d55a80665f119662c0baf53
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cfaecd26ebd3f747a0e2db2ec530c151928fec74
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880400"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936913"
 ---
 # <a name="sql-data-types"></a>Tipos de datos SQL
 
 
 **Se aplica a**: Access 2013, Office 2013
 
-Los tipos de datos SQL del motor de base de datos de Microsoft Access están formados por 13 tipos de datos principales definidos por el motor de base de datos Microsoft® Jet y varios sinónimos válidos reconocidos para estos tipos de datos.
+Los tipos de datos Microsoft Access SQL de motor de base de datos consisten en 13 tipos de datos principales definidos por el motor de base de datos de Microsoft Jet y varios sinónimos válidos reconocidos para estos tipos de datos.
 
 En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimos se identifican en [Palabras reservadas SQL del motor de base de datos de Microsoft Access](sql-reserved-words.md).
 

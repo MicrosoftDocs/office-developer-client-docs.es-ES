@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d941e93fba9e5152bb2f1c973245fa9a7647dab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cd5350248c33b344695a02020b4b91bdbb1bb984
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874408"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937179"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparación de Microsoft Access SQL y ANSI SQL
 
 
 **Se aplica a**: Access 2013, Office 2013
 
-En términos generales, SQL en el motor de base de datos de Microsoft Access es compatible con ANSI-89 nivel 1. Sin embargo, determinadas características de ANSI SQL no se implementan en Microsoft® Access SQL. Por su parte, Microsoft Access SQL incluye palabras reservadas y características no admitidas en ANSI SQL.
+En términos generales, SQL en el motor de base de datos de Microsoft Access es compatible con ANSI-89 nivel 1. Sin embargo, algunas características de ANSI SQL no se implementan en Microsoft Access SQL. Por su parte, Microsoft Access SQL incluye palabras reservadas y características no admitidas en ANSI SQL.
 
 ## <a name="major-differences"></a>Diferencias principales
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c291dcfdcaf14543100d68bed46cabbc05403d7e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873169"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936521"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Ejemplo de las propiedades Filter y RecordCount (VB)
 
@@ -105,7 +105,7 @@ End Sub
 
 
 > [!NOTE]
-> <P>[!NOTA] Cuando se saben los datos que se desean seleccionar, normalmente es más eficaz abrir un objeto <STRONG>Recordset</STRONG> con una instrucción SQL. En este ejemplo se muestra cómo se puede crear sólo un objeto <STRONG>Recordset</STRONG> y obtener registros de un país o región determinado.</P>
+> [!NOTA] Cuando se saben los datos que se desean seleccionar, normalmente es más eficaz abrir un objeto **Recordset** con una instrucción SQL. En este ejemplo se muestra cómo se puede crear sólo un objeto **Recordset** y obtener registros de un país o región determinado.
 
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1672c893994c1257a3898304042816d859e83314
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 600fe2855ba10e1ab36413f6395d3455bb7bd00b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927322"
+ms.locfileid: "25937060"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Propiedad Field2.OrdinalPosition (DAO)
 
@@ -88,7 +88,7 @@ Puede especificar un número que sea mayor que el número de campos menos 1. El 
 
 
 > [!NOTE]
-> <P>[!NOTA] Incluso si la colección <STRONG>Fields</STRONG> de un <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> no se actualizó, el orden del campo en un <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> abierto desde <STRONG>TableDef</STRONG> reflejará los datos de <STRONG>OrdinalPosition</STRONG> del objeto <STRONG>TableDef</STRONG>. Un tipo de tabla <STRONG>Recordset</STRONG> tendrá los mismos datos <STRONG>OrdinalPosition</STRONG> que la tabla base, pero cualquier otro tipo de <STRONG>Recordset</STRONG> tendrá nuevos datos <STRONG>OrdinalPosition</STRONG> (comenzando por 0) que sigue el orden determinado por los datos de <STRONG>OrdinalPosition</STRONG> del objeto <STRONG>TableDef</STRONG>.</P>
+> Incluso si no se ha actualizado la colección **Fields** de un objeto **[TableDef](tabledef-object-dao.md)** , el orden de los campos en un **[objeto Recordset](recordset-object-dao.md)** abierto desde **TableDef** reflejará los datos de **OrdinalPosition** del objeto **TableDef** . Un tipo de tabla **Recordset** tendrá los mismos datos **OrdinalPosition** que la tabla base, pero cualquier otro tipo de **Recordset** tendrá nuevos datos **OrdinalPosition** (comenzando por 0) que sigue el orden determinado por los datos de **OrdinalPosition** del objeto **TableDef**.
 
 
 

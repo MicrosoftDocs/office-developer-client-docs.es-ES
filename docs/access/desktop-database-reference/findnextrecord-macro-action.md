@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0309a72040751aaab994225159fdca6698a189cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 426bf296345c47abe58e3e6e5057a43a0d43aa21
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920735"
+ms.locfileid: "25936633"
 ---
 # <a name="findnextrecord-macro-action"></a>BuscarRegistroSiguiente (acción de macro)
 
@@ -34,17 +34,11 @@ Para establecer los criterios de búsqueda, utilice la acción **BuscarRegistro*
 
 Esta acción tiene el mismo efecto que utilizar el botón **Buscar siguiente** del cuadro de diálogo **Buscar y reemplazar**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Si bien la acción <STRONG>BuscarRegistro</STRONG> corresponde al comando <STRONG>Buscar</STRONG> en la ficha <STRONG>Inicio</STRONG> de tablas, consultas y formularios, no corresponde al comando <STRONG>Buscar</STRONG> del menú <STRONG>Edición</STRONG> en la ventana Código. No se puede utilizar la acción <STRONG>BuscarRegistro</STRONG> o <STRONG>BuscarRegistroSiguiente</STRONG> para buscar texto en módulos.</P>
-
-
-
+> [!NOTA] Si bien la acción **BuscarRegistro** corresponde al comando **Buscar** en la ficha **Inicio** de tablas, consultas y formularios, no corresponde al comando **Buscar** del menú **Edición** en la ventana Código. No se puede utilizar la acción **BuscarRegistro** o **BuscarRegistroSiguiente** para buscar texto en módulos.
 
 > [!TIP]
-> <P>[!SUGERENCIA] Si ha establecido en <STRONG>Sí</STRONG> el valor del argumento <STRONG>Sólo el campo activo</STRONG> de la acción <STRONG>BuscarRegistro</STRONG>, es posible que tenga que utilizar la acción <STRONG>IrAControl</STRONG> para mover el enfoque al control que contiene los datos que está buscando antes de utilizar la acción <STRONG>BuscarRegistroSiguiente</STRONG>.</P>
-
-
+> [!SUGERENCIA] Si ha establecido en **Sí** el valor del argumento **Sólo el campo activo** de la acción **BuscarRegistro**, es posible que tenga que utilizar la acción **IrAControl** para mover el enfoque al control que contiene los datos que está buscando antes de utilizar la acción **BuscarRegistroSiguiente**.
 
 Si el texto seleccionado actualmente es el mismo que el texto seleccionado en el momento en el que se ejecuta la acción de macro **BuscarRegistroSiguiente**, la búsqueda se inicia inmediatamente después de la selección, en el mismo campo que la selección y en el mismo registro. En caso contrario, la búsqueda se inicia al principio del registro activo. Esto permite buscar múltiples instancias de los mismos criterios de búsqueda que pudieran aparecer en un único registro.
 

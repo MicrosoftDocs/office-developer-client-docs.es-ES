@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf12c224de0593fa3202ab74cdd0c5346c9570a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 24e7940c86b079d5eb51fa894426a19e7700bf39
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874198"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937487"
 ---
 # <a name="transaction-processing"></a>Procesamiento de transacciones
 
@@ -34,7 +34,7 @@ En función de la propiedad **Attributes** del objeto [Connection](attributes-pr
 
 ## <a name="transaction-isolation-level"></a>Nivel de aislamiento de la transacción
 
-Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el nivel superior siguiente de aislamiento. Consulte la propiedad **IsolationLevel** en la Referencia del programador de ADO para obtener más detalles sobre valores válidos.
+Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el nivel superior siguiente de aislamiento. Hacer referencia a la propiedad **IsolationLevel** en la referencia del programador de ADO para obtener más detalles sobre valores válidos.
 
 ## <a name="nested-transactions"></a>Transacciones anidadas
 

@@ -6,29 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fafa3ea40b492baf8b49dd240c6f7767ffad655
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926657"
+ms.locfileid: "25937634"
 ---
 # <a name="gotocontrol-macro-action"></a>IrAControl (acción de macro)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Puede utilizar la acción **GoToControl (IrAControl)** para desplazar el enfoque para el campo o control especificado en el registro actual del formulario abierto, hoja de datos de formulario, hoja de datos de tabla o consulta de la hoja de datos. Puede usar esta acción si desea que un campo o control concreto tenga el foco. A continuación, en este campo o control puede utilizarse para realizar comparaciones o acciones **FindRecord** . También puede usar esta acción para desplazarse por un formulario según ciertas condiciones. Por ejemplo, si el usuario escribe No en un control Casado en un formulario de seguros de salud, el foco puede omitir automáticamente el control Nombre de cónyuge y pasar al siguiente control.
 
 ## <a name="setting"></a>Configuración
 
-
 > [!NOTE]
-> <P>Esta acción no está disponible para su uso con páginas de acceso a datos.</P>
-
-
+> Esta acción no está disponible para su uso con páginas de acceso a datos.
 
 La acción **GoToControl** tiene el siguiente argumento.
 
@@ -49,7 +43,7 @@ La acción **GoToControl** tiene el siguiente argumento.
 <td><p>El nombre del campo o control donde desea el foco. Escriba el nombre del campo o control en el cuadro <strong>Nombre del Control</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.</p>
 
 > [!NOTE]
-> <P>¡Escriba sólo el nombre del campo o control en el argumento <STRONG>Nombre del Control</STRONG> , no el identificador completo, como Forms! ¡Productos! [Product ID].</P>
+> ¡Escriba sólo el nombre del campo o control en el argumento **Nombre del Control** , no el identificador completo, como Forms! ¡Productos! [Product ID].
 
 
 <p></p></td>
@@ -62,11 +56,8 @@ La acción **GoToControl** tiene el siguiente argumento.
 
 No se puede utilizar la acción **GoToControl (IrAControl)** para desplazar el enfoque a un control de un formulario oculto.
 
-
 > [!TIP]
-> <P>Puede utilizar la acción <STRONG>GoToControl (IrAControl)</STRONG> para desplazarse a un subformulario, que es un tipo de control. A continuación, puede usar la acción <STRONG>IrARegistro</STRONG> para mover a un registro determinado del subformulario. También puede mover a un control de un subformulario usando la acción <STRONG>IrAControl</STRONG> para moverse primero al subformulario y, a continuación, al control del subformulario.</P>
-
-
+> Puede utilizar la acción **GoToControl (IrAControl)** para desplazarse a un subformulario, que es un tipo de control. A continuación, puede usar la acción **IrARegistro** para mover a un registro determinado del subformulario. También puede mover a un control de un subformulario usando la acción **IrAControl** para moverse primero al subformulario y, a continuación, al control del subformulario.
 
 Para ejecutar la acción **GoToControl (IrAControl)** en un módulo Visual Basic para aplicaciones (VBA), use el método **GoToControl** del objeto **DoCmd** . También puede usar el método **SetFocus** para desplazar el enfoque a un control de un formulario o cualquiera de sus subformularios, o a un campo en una tabla abierta, una consulta o una hoja de datos de formulario.
 

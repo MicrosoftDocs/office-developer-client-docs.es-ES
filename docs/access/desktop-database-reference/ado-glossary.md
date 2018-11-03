@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e7085edf0d7f30c70868d308130b3f438347ad4b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869970"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937823"
 ---
 # <a name="ado-glossary"></a>Glosario de ADO
 
@@ -419,11 +419,11 @@ Una estructura que representa una relación jerárquica entre elementos (nodos).
 
 Especifica la ubicación de un recurso que reside en Internet o en una intranet. Una dirección URL completa consta de un esquema (por ejemplo, FTP, HTTP, mailto, archivo y así sucesivamente), seguido de un punto y coma, un nombre de servidor y la ruta de acceso completa de un recurso (por ejemplo, un documento, gráfico u otro archivo). Algunos ejemplos de direcciones URL son:  
   
-https://www.domain.com/default.html  
-FTP://FTP.Server.somewhere/ftp.File  
+- https://www.domain.com/default.html  
+- FTP://FTP.Server.somewhere/ftp.File  
   
-FTP://FTP.Server.somewhere/ftp.File  
-File://Server/Share/File.doc
+- FTP://FTP.Server.somewhere/ftp.File  
+- File://Server/Share/File.doc
 
 Vea también **URL absoluta** y **URL relativa**.
 
@@ -431,5 +431,5 @@ Vea también **URL absoluta** y **URL relativa**.
 
 Un equipo que proporciona servicios web y las páginas en la intranet y los usuarios de Internet.
 
-Volver arriba
+
 

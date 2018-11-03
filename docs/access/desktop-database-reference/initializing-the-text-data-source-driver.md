@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d52020deecce9235db12f749b9d6913653157034
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937774"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializar el controlador de orígenes de datos de texto
 
@@ -25,7 +25,7 @@ ms.locfileid: "25875164"
 
 Se utiliza el mismo controlador de base de datos para los orígenes de datos de texto y los orígenes de datos HTML.
 
-Cuando se instala el controlador de base de datos de orígenes de datos de texto, el programa de instalación escribe un conjunto de valores predeterminados en el Registro de Microsoft® Windows®, concretamente en las subclaves Engines e ISAM Formats. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de orígenes de datos de texto.
+Cuando se instala el controlador de base de datos de origen de datos de texto, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows de Microsoft en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de orígenes de datos de texto.
 
 ## <a name="text-data-source-initialization-settings"></a>Configuración de inicialización de los orígenes de datos de texto
 

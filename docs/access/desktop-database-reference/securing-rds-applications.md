@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be6c210ef75b6a9e96b8733d12f3aa598d158df7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4240ca118adfcc122ebe346cb60f8b9a0b6efd9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881261"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937494"
 ---
 # <a name="securing-rds-applications"></a>Proteger aplicaciones RDS
 
@@ -19,7 +19,7 @@ ms.locfileid: "25881261"
 
 ## <a name="microsoft-internet-explorer-security-issues"></a>Aspectos de seguridad en Microsoft Internet Explorer
 
-Con las nuevas mejoras de seguridad incluidas en Microsoft® Internet Explorer, algunos objetos ADO y RDS están restringidos para ejecutarse sólo en un entorno de modo "seguro". Esto requiere tener en cuenta estos aspectos, incluidos las diferentes zonas, niveles de seguridad, comportamiento restrictivo, operaciones no seguras y configuraciones de seguridad personalizadas.
+Con las nuevas mejoras de seguridad agregadas a Microsoft Internet Explorer, algunos objetos ADO y RDS están restringidos para ejecutarse sólo en un entorno de modo "seguro". Esto requiere tener en cuenta estos aspectos, incluidos las diferentes zonas, niveles de seguridad, comportamiento restrictivo, operaciones no seguras y configuraciones de seguridad personalizadas.
 
 Para obtener más información acerca de estos aspectos, vea "ADO and RDS Security Issues in Microsoft Internet Explorer" (en inglés) en los artículos técnicos sobre Objetos de datos ActiveX (ADO).
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869627"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936969"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Usar caracteres comodín en comparaciones de cadenas
 
@@ -60,7 +60,7 @@ Puede utilizar un grupo de uno o varios caracteres (*listacaracteres*) entre cor
 
 Además de una lista simple de caracteres incluidos entre corchetes, *listacaracteres* puede especificar un intervalo de caracteres mediante un guión (-) para separar la parte superior y los límites inferiores del rango. Por ejemplo, mediante \[A Z\] en *modelo* da como resultado una coincidencia si la posición del carácter correspondiente en *expresión* contiene cualquiera de las letras mayúsculas en el intervalo de la a la Z. Puede incluir varios intervalos dentro de los corchetes sin delimitar los intervalos. Por ejemplo, \[a-zA-Z0-9\] coincide con cualquier carácter alfanumérico.
 
-Es importante tener en cuenta que los caracteres comodín de ANSI SQL (%) y (\_) sólo están disponibles con Microsoft® Jet versión 4.X y el proveedor Microsoft OLE DB para Jet. Se tratarán como literales si se usan en Microsoft Access o DAO.
+Es importante tener en cuenta que los caracteres comodín de ANSI SQL (%) y (\_) sólo están disponibles con Microsoft Jet versión 4.X y el proveedor Microsoft OLE DB para Jet. Se tratarán como literales si se usan en Microsoft Access o DAO.
 
 Otras reglas importantes de la coincidencia de patrones son:
 

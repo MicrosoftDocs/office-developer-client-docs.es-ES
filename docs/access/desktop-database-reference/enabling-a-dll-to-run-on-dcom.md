@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eeec1109d2e352d43eaaa66a7e081123d7f388ee
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868696"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937718"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>Habilitar una biblioteca DLL para que se ejecute en DCOM
 
 
 **Se aplica a**: Access 2013, Office 2013
 
-Los pasos siguientes describen cómo habilitar una biblioteca de vínculo dinámico (DLL) de un objeto de negocio de modo que pueda usar DCOM y Microsoft® Internet Information Services (HTTP) a través de Servicios de componentes.
+Los pasos siguientes describen cómo habilitar una biblioteca de vínculos dinámicos del objeto empresarial usar DCOM y Microsoft Internet Information Services (HTTP) a través de servicios de componentes.
 
 1.  Cree un paquete vacío en el complemento MMC de Servicios de componentes. Utilizará el complemento MMC de Servicios de componentes para crear un paquete y agregar la biblioteca DLL a él. De este modo, se puede tener acceso a la .dll a través de DCOM, pero elimina la accesibilidad mediante IIS. (Si comprueba la dll en el Registro, verá que la clave **Inproc** ahora está vacía; al configurar el atributo Activation, explicado más adelante en este tema, se agrega un valor en la clave **Inproc**.)
 

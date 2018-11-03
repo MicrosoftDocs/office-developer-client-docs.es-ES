@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f638ae278835841ebf297f2472c04235c6a325b4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878314"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936654"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>Marcar objetos de negocio como seguros para scripting
 
@@ -32,7 +32,7 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 donde \< *MyActiveXGUID* \> es el número GUID hexadecimal de su objeto de negocio. Guárdelo e insértelo en el Registro mediante el Editor del registro o haciendo doble clic sobre el archivo .reg desde el Explorador de Windows.
 
-Los objetos de negocio creados en Microsoft® Visual Basic se pueden marcar automáticamente como "seguros para scripting" con el Asistente para empaquetado y distribución. Cuando el asistente le pida que especifique una configuración de seguridad, seleccione **Seguro para inicialización** y **Seguro para scripting**.
+Objetos de negocio creados en Microsoft Visual Basic se pueden marcar automáticamente como "seguros para scripting" con el paquete y el Asistente para la implementación. Cuando el asistente le pida que especifique una configuración de seguridad, seleccione **Seguro para inicialización** y **Seguro para scripting**.
 
 En el último paso, el Asistente para la instalación de aplicaciones crea un archivo .htm y un archivo .cab. Puede copiar estos dos archivos en el equipo de destino y hacer a continuación doble clic en el archivo .htm para cargar la página y registrar el servidor correctamente.
 

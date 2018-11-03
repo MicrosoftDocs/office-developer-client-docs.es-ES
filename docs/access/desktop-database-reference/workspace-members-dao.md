@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3deb259e5058fe595099e5fa556ff5fca8e4baf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 525b261f5184f520d6f24c81f3d446fee8aa800e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923892"
+ms.locfileid: "25936962"
 ---
 # <a name="workspace-members-dao"></a>Miembros del área de trabajo (DAO)
 
@@ -52,12 +52,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -96,12 +91,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve el tipo de controlador de cursor utilizado en la conexión creada por los métodos <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> o <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">

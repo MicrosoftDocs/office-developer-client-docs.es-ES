@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101188
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 31f5e0b4dbb924c57c6a94e80cfb98e119292bd7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8b418b63e0c89246ac2caa88c98ea1d4e490cbbb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922492"
+ms.locfileid: "25937648"
 ---
 # <a name="recordset2parentrecordset-property-dao"></a>Propiedad Recordset2.ParentRecordset (DAO)
 
@@ -26,7 +26,7 @@ Devuelve el objeto **Recordset** principal del conjunto de registros especificad
 
 ## <a name="version-information"></a>Información de versión
 
-Versión añadida: Access 2007
+Versión agregada: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 

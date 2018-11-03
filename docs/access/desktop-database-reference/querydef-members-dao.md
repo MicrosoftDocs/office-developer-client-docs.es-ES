@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73e01c11f62b8c9eaff874dc315be083474532a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919741"
+ms.locfileid: "25937620"
 ---
 # <a name="querydef-members-dao"></a>Miembros del objeto QueryDef (DAO)
 
@@ -39,7 +39,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p></p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 <p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
@@ -119,7 +119,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p></p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 <p>Establece o devuelve un valor que indica si la consulta debería prepararse en el servidor como un procedimiento almacenado temporal con la función API de ODBC <strong>SQLPrepare</strong> Aantes de la ejecución, o bien ejecutarse con la función API de ODBC <strong>SQLExecDirect</strong> (solo en áreas de trabajo de ODBCDirect). <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> de lectura y escritura.</p></td>
@@ -145,7 +145,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p></p>
 
 > [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
+> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>

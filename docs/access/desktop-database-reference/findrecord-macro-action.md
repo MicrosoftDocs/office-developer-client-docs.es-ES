@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 74d3c050b7d3912c6b0b369f99ca163cee87643a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 19b6c80af2bcee9ca3dbe51bbbcf56343f33d550
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919713"
+ms.locfileid: "25937613"
 ---
 # <a name="findrecord-macro-action"></a>BuscarRegistro (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -61,7 +60,7 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 <td><p>Especifica si la búsqueda incluye datos con formato. Haga clic en <strong>Sí</strong> (Microsoft Office Access 2007 busca los datos con el formato y tal y como se muestran en el campo) o <strong>No</strong> (Access busca los datos tal y cómo se almacenan en la base de datos, que no siempre son los mismos que se muestran). El valor predeterminado es <strong>No</strong>. Puede usar esta característica para restringir la búsqueda a los datos con un formato concreto. Por ejemplo, haga clic en <strong>Sí</strong> y escriba <strong>1,234</strong> en el argumento <strong>Buscar</strong> para buscar un valor de 1,234 en el campo con formato para incluir comas. Haga clic en <strong>No</strong> si quiere escribir <strong>1234</strong> para buscar los datos de este campo. Para buscar fechas, haga clic en <strong>Sí</strong> para buscar una fecha exacta con el formato exacto, como 08-Julio-2003. Si hace clic en <strong>No</strong>, escriba la fecha para el argumento <strong>Buscar</strong> con el formato configurado en la configuración regional del Panel de control de Windows. Este formato se muestra en el cuadro <strong>Formato de fecha corta</strong> de la pestaña <strong>Fecha</strong> de la configuración regional. Por ejemplo, si el cuadro <strong>Formato de fecha corta</strong> está configurado en <strong>M/d/aa</strong>, puede escribir 7/8/03 y Access buscará todas las entradas de un campo Fecha que se correspondan al 8 de julio de 2003, independientemente del formato que tenga el campo.  </p>
 
 > [!NOTE]
-> <P>El argumento <STRONG>Buscar con formato</STRONG> sólo tiene efecto si el campo activo es un control dependiente, el argumento <STRONG>Coincidir</STRONG> está establecido en <STRONG>Hacer coincidir todo el campo</STRONG>, el argumento <STRONG>Sólo el campo activo</STRONG> está establecido en <STRONG>Sí</STRONG> y el argumento <STRONG>Coincidir mayúsculas y minúsculas</STRONG> está establecido en <STRONG>No</STRONG>.</P>
+> El argumento **Buscar con formato** sólo tiene efecto si el campo activo es un control dependiente, el argumento **Coincidir** está establecido en **Hacer coincidir todo el campo**, el argumento **Sólo el campo activo** está establecido en **Sí** y el argumento **Coincidir mayúsculas y minúsculas** está establecido en **No**.
 
 
 <p>
@@ -92,11 +91,8 @@ Access conserva los argumentos más recientes de **BuscarRegistro** durante una 
 
 Cuando desee buscar un registro mediante una macro, utilice la acción **BuscarRegistro** en lugar de la acción **EjecutarComandoDeMenú** con su argumento establecido para que se ejecute el comando **Buscar**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Si bien la acción <STRONG>BuscarRegistro</STRONG> corresponde al comando <STRONG>Buscar</STRONG> en la ficha <STRONG>Inicio</STRONG> de tablas, consultas y formularios, no corresponde al comando <STRONG>Buscar</STRONG> del menú <STRONG>Edición</STRONG> en la ventana Código. No se puede utilizar la acción <STRONG>BuscarRegistro</STRONG> para buscar texto en módulos.</P>
-
-
+> [!NOTA] Si bien la acción **BuscarRegistro** corresponde al comando **Buscar** en la ficha **Inicio** de tablas, consultas y formularios, no corresponde al comando **Buscar** del menú **Edición** en la ventana Código. No se puede utilizar la acción **BuscarRegistro** para buscar texto en módulos.
 
 Si el texto actualmente seleccionado es el mismo que el texto seleccionado en el momento en el que se ejecuta la acción **BuscarRegistro**, la búsqueda se inicia inmediatamente después de la selección en el mismo campo que la selección y en el mismo registro. En caso contrario, la búsqueda se inicia al principio del registro actual. Esto permite buscar múltiples instancias de los mismos criterios de búsqueda que pudieran aparecer en un único registro.
 
@@ -116,7 +112,6 @@ Sin embargo, observe que si usa un botón de comando para ejecutar una macro que
 </tr>
 </tbody>
 </table>
-
 
 El mismo comportamiento se produce si usa un botón de comando para ejecutar una macro que contenga la acción **BuscarSiguiente**.
 

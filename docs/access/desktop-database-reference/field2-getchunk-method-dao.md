@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926650"
+ms.locfileid: "25937452"
 ---
 # <a name="field2getchunk-method-dao"></a>Field2.GetChunk (método) (DAO)
 
@@ -72,11 +72,8 @@ Si offset es 0, **GetChunk** inicia la copia desde el primer byte del campo.
 
 Si numbytes es mayor que el número de bytes en el campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
 
-
 > [!NOTE]
-> <P>[!NOTA] Utilice un campo <STRONG>Memo</STRONG> para el texto y coloque los datos binarios únicamente en campos <STRONG>Long Binary</STRONG> ya que, de lo contrario, se pueden obtener resultados no deseados.</P>
-
-
+> [!NOTA] Utilice un campo **Memo** para el texto y coloque los datos binarios únicamente en campos **Long Binary** ya que, de lo contrario, se pueden obtener resultados no deseados.
 
 ## <a name="example"></a>Ejemplo
 

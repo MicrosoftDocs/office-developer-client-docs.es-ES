@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dd38a7f4973195fdd758934ceec787d623c3353c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923269"
+ms.locfileid: "25936682"
 ---
 # <a name="gotopage-macro-action"></a>IrAPágina (acción de macro)
 
@@ -55,12 +55,8 @@ La acción **IrAPágina** tiene los siguientes argumentos.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!NOTA] Los argumentos <STRONG>Derecha</STRONG> y <STRONG>Abajo</STRONG> se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.</P>
-
-
+> >[!NOTA] Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.
 
 ## <a name="remarks"></a>Comentarios
 

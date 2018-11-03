@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
 ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d39dc351eee86ec409f85b602dfa46099c0381b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 611fed16c9020b0a6499427af0788bf9ff050c28
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923619"
+ms.locfileid: "25936563"
 ---
 # <a name="databaseversion-property-dao"></a>Propiedad Database.Version (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ En un área de trabajo de Microsoft Access, devuelve la versión del motor de ba
 
 El valor devuelto es un valor de tipo String que da como resultado un número de versión, con el formato siguiente.
 
-  - El área de trabajo de Microsoft Access representa el número de versión en la forma "*principal.secundario*". Por ejemplo, "3.0". El número de versión del producto consta del número de versión (3), un punto y el número de publicación (0).
+- El área de trabajo de Microsoft Access representa el número de versión en la forma "*principal.secundario*". Por ejemplo, "3.0". El número de versión del producto consta del número de versión (3), un punto y el número de publicación (0).
 
 En la tabla siguiente se muestra la versión del motor de base de datos que se incluye en diversas versiones de productos de Microsoft.
 

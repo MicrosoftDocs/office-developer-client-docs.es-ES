@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b75fff8251e74a525798cd5eb2c6feb2d69016b7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: aa627d7c44700041209b9884374e57f7e3fa6c28
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919755"
+ms.locfileid: "25937102"
 ---
 # <a name="database-members-dao"></a>Miembros de la base de datos (DAO)
 
@@ -106,12 +106,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde a la base de datos (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">

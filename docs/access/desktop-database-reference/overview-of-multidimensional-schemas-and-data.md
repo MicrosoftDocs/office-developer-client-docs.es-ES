@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887171"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937032"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Descripción general de esquemas y datos multidimensionales
 
@@ -80,17 +80,14 @@ Cada nivel tiene el siguiente conjunto de miembros:
 
 Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundarios y los miembros en el nivel raíz no tienen miembros principales. Todos los demás miembros tienen al menos un miembro principal y un miembro secundario. Por ejemplo, un recorrido transversal parcial del árbol jerárquico de la dimensión Zona geográfica da lugar a las siguientes relaciones principal-secundario:
 
-  - {All} (elemento principal de) {Europa, Norteamérica}
-
-  - {North America} (elemento principal de) {Canada, USA}
-
-  - {EE.} (elemento principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
-
-  - {USA-NW} (elemento principal de) {Boise, Seattle}
+- {All} (elemento principal de) {Europa, Norteamérica}
+- {North America} (elemento principal de) {Canada, USA}
+- {EE.} (elemento principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (elemento principal de) {Boise, Seattle}
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-Este ejemplo ilustra también otra característica: algunos miembros del nivel Semana de la jerarquía Año-Semana no aparecen en ningún nivel de la jerarquía Año-Trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+En este ejemplo se ilustra también otra característica: algunos miembros del nivel semana de la jerarquía de la semana del año no aparecen en cualquier nivel de la jerarquía de trimestre del año. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 
 ## <a name="understanding-multidimensional-schemas"></a>Esquemas multidimensionales
 
@@ -164,5 +161,5 @@ Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundario
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-Este ejemplo ilustra también otra característica: algunos miembros del nivel Semana de la jerarquía Año-Semana no aparecen en ningún nivel de la jerarquía Año-Trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+En este ejemplo se ilustra también otra característica: algunos miembros del nivel semana de la jerarquía de la semana del año no aparecen en cualquier nivel de la jerarquía de trimestre del año. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 

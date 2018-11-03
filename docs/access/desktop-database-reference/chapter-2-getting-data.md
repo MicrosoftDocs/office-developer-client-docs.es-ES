@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 2: Obtención de datos'
-TOCTitle: 'Chapter 2: Getting Data'
+title: 'Capítulo 2: Obtener datos'
+TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888079"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937004"
 ---
-# <a name="chapter-2-getting-data"></a>Capítulo 2: Obtención de datos
-
+# <a name="chapter-2-getting-data"></a>Capítulo 2: Obtener datos
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,20 +25,17 @@ Para obtener datos, la aplicación debe estar en comunicación con un origen de 
 
 El modelo de objetos de ADO representa el concepto de una conexión con el objeto **Connection** (la base sobre la que se construye una parte importante de la funcionalidad de ADO). El propósito de un objeto **Connection** es:
 
-  - Definir la información que ADO necesita para comunicarse con orígenes de datos y crear sesiones.
+- Definir la información que ADO necesita para comunicarse con orígenes de datos y crear sesiones.
 
-  - Definir las características transaccionales de la sesión.
+- Definir las características transaccionales de la sesión.
 
-  - Permitirle crear y ejecutar comandos en el origen de datos.
+- Permitirle crear y ejecutar comandos en el origen de datos.
 
-  - Proporcionar información acerca del diseño del origen de datos subyacente en forma de conjuntos de filas de esquema. Para obtener más información acerca de conjuntos de filas de esquema, vea [Método OpenSchema](openschema-method-ado.md).
+- Proporcionar información acerca del diseño del origen de datos subyacente en forma de conjuntos de filas de esquema. Para obtener más información acerca de conjuntos de filas de esquema, vea [Método OpenSchema](openschema-method-ado.md).
 
 En este capítulo, se tratan los temas siguientes:
 
-  - [Creación de una conexión](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Realizar una conexión](making-a-connection.md)
+- [Uso de la referencia del objeto connection (ADO)](using-the-connection-object-access.md)
+- [Uso de la referencia al objeto command (ADO)](using-the-command-object-access.md)
+- [Agregar datos a un objeto Recordset (ADO)](adding-data-to-a-recordset.md)

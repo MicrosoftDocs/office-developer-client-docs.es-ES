@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
 ms:contentKeyID: 48545515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec1bdab14743a43bc4abda029e5f77ec1a8e6212
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e7c17992daff5064b41507f5c2a1b2781476095a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925152"
+ms.locfileid: "25936878"
 ---
 # <a name="field2value-property-dao"></a>Propiedad Field2.Value (DAO)
 
@@ -38,6 +38,6 @@ Si intenta establecer o devolver la propiedad **Value** en un contexto poco apro
 
 
 > [!NOTE]
-> <P>Cuando se lean valores decimales de una base de datos de Microsoft SQL Server, se les dará formato con notación científica a través de un área de trabajo de Microsoft Access, pero aparecerán como valores decimales normales a través de un área de trabajo de ODBCDirect.</P>
+> Cuando se lean valores decimales de una base de datos de Microsoft SQL Server, se les dará formato con notación científica a través de un área de trabajo de Microsoft Access, pero aparecerán como valores decimales normales a través de un área de trabajo de ODBCDirect.
 
 

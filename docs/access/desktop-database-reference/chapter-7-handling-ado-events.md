@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 7: Controlar eventos de ADO'
-TOCTitle: 'Chapter 7: Handling ADO Events'
+title: 'Capítulo 7: Control de eventos de ADO'
+TOCTitle: 'Chapter 7: Handling ADO events'
 ms:assetid: 22924fe2-d00d-8a0c-52f5-2dc6039537ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 48b74b3de734ecc10a4ff9a46b517eba18191179
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 58186a9f5612308c7762a815520d49ddce8eaf57
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880078"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937543"
 ---
-# <a name="chapter-7-handling-ado-events"></a>Capítulo 7: Controlar eventos de ADO
-
+# <a name="chapter-7-handling-ado-events"></a>Capítulo 7: Control de eventos de ADO
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -28,12 +27,8 @@ El uso del modelo de eventos de ADO agrega alguna sobrecarga a la aplicación, p
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Resumen de controladores de eventos de ADO](ado-event-handler-summary.md)
-
+- [Controlador de eventos de ADO resumen](ado-event-handler-summary.md)
 - [Tipos de eventos](types-of-events.md)
-
 - [Parámetros de evento](event-parameters.md)
-
-- [Cómo funcionan los controladores de eventos combinados](how-event-handlers-work-together.md)
-
-- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Cómo funcionan conjuntamente los controladores de eventos](how-event-handlers-work-together.md)
+- [Creación de instancias de eventos de ADO por lenguaje (ADO)](ado-event-instantiation-by-language-ado.md)

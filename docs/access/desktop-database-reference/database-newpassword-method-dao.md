@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f4dca778da3c364d9e9b5a5eaf8ebbc32501853f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919363"
+ms.locfileid: "25936857"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword (método) (DAO)
 
@@ -59,11 +59,7 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>La nueva configuración de la propiedad <strong>Password</strong> del objeto de <strong>base de datos</strong> .</p>
-
-> [!NOTE]
-> [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
-
-
+<p><strong>Nota</strong> Use contraseñas seguras que combinen mayúsculas y minúsculas letras, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 </tbody>

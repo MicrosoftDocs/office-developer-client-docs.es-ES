@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 21e6000e8620011f5f6f0c2481bb9c03fd71bab5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4a519f1853c0779777d59e6e6c314cbaaf60621
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887960"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937459"
 ---
 # <a name="odbc-scalar-functions"></a>Funciones escalares ODBC
 
 
 **Se aplica a**: Access 2013, Office 2013
 
-Microsoft® Access SQL admite el uso de la sintaxis definida por ODBC para las funciones escalares. Por ejemplo, la consulta:
+Microsoft Access SQL admite el uso de la sintaxis definida ODBC para funciones escalares. Por ejemplo, la consulta:
 
 SELECT CIERREDIARIO, CAMBIODIARIO FROM COTIZACIÓNDIARIA WHERE {fn ABS(CAMBIODIARIO)} \> 5
 

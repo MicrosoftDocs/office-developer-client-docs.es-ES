@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe14fd74f30a4d686dca517acd84d89a3df82555
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8a34321df27b5270bd35844eaf28b0b335b0294e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871930"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937480"
 ---
 # <a name="rds-programming-model-in-detail"></a>Modelo de programación detallado de RDS
 
@@ -60,7 +60,7 @@ El modelo de objetos de RDS incluye esta funcionalidad con el objeto [RDS.DataCo
 
 **RDS.DataControl** tiene dos aspectos. Un aspecto pertenece al origen de datos. Si se configura el comando y la información de conexión mediante las propiedades **Connect** y **SQL** de **RDS.DataControl**, usará automáticamente **RDS.DataSpace** para crear una referencia al objeto **RDSServer.DataFactory** predeterminado. A continuación, **RDSServer.DataFactory** usará el valor de la propiedad **Connect** para conectarse al origen de datos, usará el valor de la propiedad **SQL** para obtener un objeto **Recordset** del origen de datos y devolverá el objeto **Recordset** a **RDS.DataControl**.
 
-El segundo aspecto pertenece a la presentación de la información devuelta de **Recordset** en un control visual. Puede asociar un control visual con el **RDS. DataControl** (en un proceso que se denomina enlace) y obtener acceso a la información en el objeto **Recordset** asociado, mostrar resultados de la consulta en una página Web en Microsoft® Internet Explorer. Cada objeto **RDS.DataControl** enlaza un objeto **Recordset**, que representa los resultados de una consulta única, a uno o varios controles visuales (por ejemplo, un cuadro de texto, un cuadro combinado, un control de cuadrícula, etc.). Puede haber más de un objeto **RDS.DataControl** en cada página. Cada objeto **RDS.DataControl** puede conectarse con un origen de datos diferente y contiene los resultados de una consulta independiente.
+El segundo aspecto pertenece a la presentación de la información devuelta de **Recordset** en un control visual. Puede asociar un control visual con el **RDS. DataControl** (en un proceso que se denomina enlace) y obtener acceso a la información en el objeto **Recordset** asociado, mostrar resultados de la consulta en una página Web en Microsoft Internet Explorer. Cada objeto **RDS.DataControl** enlaza un objeto **Recordset**, que representa los resultados de una consulta única, a uno o varios controles visuales (por ejemplo, un cuadro de texto, un cuadro combinado, un control de cuadrícula, etc.). Puede haber más de un objeto **RDS.DataControl** en cada página. Cada objeto **RDS.DataControl** puede conectarse con un origen de datos diferente y contiene los resultados de una consulta independiente.
 
 El objeto **RDS.DataControl** también tiene sus propios métodos para explorar, ordenar y filtrar las filas del objeto **Recordset** asociado. Estos métodos son similares pero no iguales a los métodos del objeto **Recordset** de ADO.
 

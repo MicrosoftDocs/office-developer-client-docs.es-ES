@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90dbaae5ab803173493e5348b77b124d83f8f9d6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b12fcf4d92bbe0949065557973efe94688a7a30
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873036"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937207"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrucción CREATE INDEX (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25873036"
 Crea un índice nuevo en una tabla existente.
 
 > [!NOTE]
-> Para las bases de datos del motor de base de datos de no sean de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) o cualquiera de las instrucciones de lenguaje (DDL) de definición de datos. Utilice en su lugar los métodos **Create de DAO** . Si desea más información, vea la sección Comentarios.
+> Para las bases de datos del motor de base de datos de no sean de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) o cualquiera de las instrucciones de lenguaje (DDL) de definición de datos. Utilice los métodos DAO **crear** en su lugar. Si desea más información, vea la sección Comentarios.
 
 ## <a name="syntax"></a>Sintaxis
 

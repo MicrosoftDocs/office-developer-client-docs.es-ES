@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90d50ce1f1435d38fdfe1ed11e76b49c212b87b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922457"
+ms.locfileid: "25937732"
 ---
 # <a name="gotorecord-macro-action"></a>IrARegistro (acción de macro)
 
@@ -61,7 +61,7 @@ La acción **IrARegistro** tiene los siguientes argumentos.
 </ul>
 
 > [!NOTE]
-> <P>Si se usa el valor <STRONG>Primero</STRONG>, <STRONG>Último</STRONG> o <STRONG>Nuevo</STRONG> para el argumento <STRONG>Registro</STRONG>, Access omite el argumento <STRONG>Desplazamiento</STRONG>. Si se especifica para el argumento <STRONG>Desplazamiento</STRONG> un valor excesivo, Access muestra un mensaje de error. No se pueden especificar números negativos para el argumento <STRONG>Desplazamiento</STRONG>.</P>
+> Si se usa el valor **Primero**, **Último** o **Nuevo** para el argumento **Registro**, Access omite el argumento **Desplazamiento**. Si se especifica para el argumento **Desplazamiento** un valor excesivo, Access muestra un mensaje de error. No se pueden especificar números negativos para el argumento **Desplazamiento**.
 
 
 <p></p>
