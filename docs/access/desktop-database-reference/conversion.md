@@ -6,22 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142285(v=office.15)
 ms:contentKeyID: 52072763
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: d519efb05a9aa20ef379ed4b3904856ada8da6d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26aae5c8bbc626fda3e8af21e1f22bda665cbdaf
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873358"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945127"
 ---
-# <a name="conversion"></a><span data-ttu-id="a59f9-102">Conversión</span><span class="sxs-lookup"><span data-stu-id="a59f9-102">Conversion</span></span>
+# <a name="conversion"></a><span data-ttu-id="f878e-102">Conversión</span><span class="sxs-lookup"><span data-stu-id="f878e-102">Conversion</span></span>
 
-<span data-ttu-id="a59f9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a59f9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f878e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f878e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a59f9-104">Cambios en Access</span><span class="sxs-lookup"><span data-stu-id="a59f9-104">Changes in Access</span></span>](changes-in-access.md)
-
-- [<span data-ttu-id="a59f9-105">Convertir código DAO en ADO</span><span class="sxs-lookup"><span data-stu-id="a59f9-105">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
-
-- [<span data-ttu-id="a59f9-106">Convertir tablas, formularios e informes</span><span class="sxs-lookup"><span data-stu-id="a59f9-106">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
+- [<span data-ttu-id="f878e-104">Cambios en Access</span><span class="sxs-lookup"><span data-stu-id="f878e-104">Changes in Access</span></span>](changes-in-access.md)
+- [<span data-ttu-id="f878e-105">Convertir código DAO en ADO</span><span class="sxs-lookup"><span data-stu-id="f878e-105">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
+- [<span data-ttu-id="f878e-106">Convertir tablas, formularios e informes</span><span class="sxs-lookup"><span data-stu-id="f878e-106">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
 
 
 

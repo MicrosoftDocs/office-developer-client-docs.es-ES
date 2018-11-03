@@ -1,24 +1,23 @@
 ---
-title: Agregar varios campos
-TOCTitle: Adding Multiple Fields
+title: Adición de varios campos
+TOCTitle: Adding multiple fields
 ms:assetid: 81b2f9de-4805-4494-9990-09ffda1b2068
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01330eeed2645a0bd76f6ac51e96542068b245e7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6ea9b4999ae107c6b6ca88ca7cf75888163a5b05
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878979"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944112"
 ---
-# <a name="adding-multiple-fields"></a><span data-ttu-id="45c3b-102">Agregar varios campos</span><span class="sxs-lookup"><span data-stu-id="45c3b-102">Adding Multiple Fields</span></span>
+# <a name="adding-multiple-fields"></a><span data-ttu-id="2fdc0-102">Adición de varios campos</span><span class="sxs-lookup"><span data-stu-id="2fdc0-102">Adding multiple fields</span></span>
 
+<span data-ttu-id="2fdc0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fdc0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="45c3b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="45c3b-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-<span data-ttu-id="45c3b-104">En ocasiones, podría resultar más eficaz pasar una matriz de campos y sus correspondientes valores al método **AddNew** que establecer **Value** varias veces para cada nuevo campo.</span><span class="sxs-lookup"><span data-stu-id="45c3b-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="45c3b-105">Si *FieldList* es una matriz, *los valores* también debe ser una matriz con el mismo número de miembros; de lo contrario, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="45c3b-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="45c3b-106">El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.</span><span class="sxs-lookup"><span data-stu-id="45c3b-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="45c3b-107">El código siguiente pasa una matriz de campos y una matriz de valores al método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="45c3b-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
+<span data-ttu-id="2fdc0-104">En ocasiones, podría resultar más eficaz pasar una matriz de campos y sus correspondientes valores al método **AddNew** que establecer **Value** varias veces para cada nuevo campo.</span><span class="sxs-lookup"><span data-stu-id="2fdc0-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="2fdc0-105">Si *FieldList* es una matriz, *los valores* también debe ser una matriz con el mismo número de miembros; de lo contrario, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="2fdc0-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="2fdc0-106">El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.</span><span class="sxs-lookup"><span data-stu-id="2fdc0-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="2fdc0-107">El código siguiente pasa una matriz de campos y una matriz de valores al método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="2fdc0-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
 
 ```vb 
  

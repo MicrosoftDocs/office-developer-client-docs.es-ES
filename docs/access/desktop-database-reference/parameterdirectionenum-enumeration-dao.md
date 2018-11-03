@@ -1,24 +1,24 @@
 ---
-title: ParameterDirectionEnum Enumeration (DAO)
+title: ParameterDirectionEnum (enumeración) (DAO)
 TOCTitle: ParameterDirectionEnum Enumeration
 ms:assetid: 3f2b91f4-a932-aca5-34a0-4002c27d6b3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
 ms:contentKeyID: 48544389
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3e6cbf486dff87cb8b81b9a593dd3dedcc52a1e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bca1a7cc2d01c6664a5200325a93dd242deb6eff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886329"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944852"
 ---
-# <a name="parameterdirectionenum-enumeration-dao"></a><span data-ttu-id="eea69-102">ParameterDirectionEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="eea69-102">ParameterDirectionEnum Enumeration (DAO)</span></span>
+# <a name="parameterdirectionenum-enumeration-dao"></a><span data-ttu-id="6bae2-102">ParameterDirectionEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bae2-102">ParameterDirectionEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="eea69-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eea69-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6bae2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6bae2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="eea69-104">Se utiliza con la propiedad **Direction** para especificar el tipo de un objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="eea69-104">Used with the **Direction** property to specify the type for a **Parameter** object.</span></span>
+<span data-ttu-id="6bae2-104">Se utiliza con la propiedad **Direction** para especificar el tipo de un objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="6bae2-104">Used with the **Direction** property to specify the type for a **Parameter** object.</span></span>
 
 <table>
 <colgroup>
@@ -28,31 +28,31 @@ ms.locfileid: "25886329"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="eea69-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="eea69-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="eea69-106">Valor</span><span class="sxs-lookup"><span data-stu-id="eea69-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="eea69-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="eea69-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="6bae2-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="6bae2-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="6bae2-106">Valor</span><span class="sxs-lookup"><span data-stu-id="6bae2-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="6bae2-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="6bae2-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="eea69-108">dbParamInput</span><span class="sxs-lookup"><span data-stu-id="eea69-108">dbParamInput</span></span></p></td>
-<td><p><span data-ttu-id="eea69-109">1</span><span class="sxs-lookup"><span data-stu-id="eea69-109">1</span></span></p></td>
-<td><p><span data-ttu-id="eea69-110">(Valor predeterminado) Pasa información al procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eea69-110">(Default) Passes information to the procedure.</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-108">dbParamInput</span><span class="sxs-lookup"><span data-stu-id="6bae2-108">dbParamInput</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-109">1</span><span class="sxs-lookup"><span data-stu-id="6bae2-109">1</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-110">(Valor predeterminado) Pasa información al procedimiento.</span><span class="sxs-lookup"><span data-stu-id="6bae2-110">(Default) Passes information to the procedure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eea69-111">dbParamInputOutput</span><span class="sxs-lookup"><span data-stu-id="eea69-111">dbParamInputOutput</span></span></p></td>
-<td><p><span data-ttu-id="eea69-112">3</span><span class="sxs-lookup"><span data-stu-id="eea69-112">3</span></span></p></td>
-<td><p><span data-ttu-id="eea69-113">Pasa información al procedimiento y desde el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eea69-113">Passes information both to and from the procedure.</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-111">dbParamInputOutput</span><span class="sxs-lookup"><span data-stu-id="6bae2-111">dbParamInputOutput</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-112">3</span><span class="sxs-lookup"><span data-stu-id="6bae2-112">3</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-113">Pasa información al procedimiento y desde el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="6bae2-113">Passes information both to and from the procedure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="eea69-114">dbParamOutput</span><span class="sxs-lookup"><span data-stu-id="eea69-114">dbParamOutput</span></span></p></td>
-<td><p><span data-ttu-id="eea69-115">2</span><span class="sxs-lookup"><span data-stu-id="eea69-115">2</span></span></p></td>
-<td><p><span data-ttu-id="eea69-116">Devuelve información desde el procedimiento como parámetro de salida en SQL.</span><span class="sxs-lookup"><span data-stu-id="eea69-116">Returns information from the procedure as an output parameter in SQL.</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-114">dbParamOutput</span><span class="sxs-lookup"><span data-stu-id="6bae2-114">dbParamOutput</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-115">2</span><span class="sxs-lookup"><span data-stu-id="6bae2-115">2</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-116">Devuelve información desde el procedimiento como parámetro de salida en SQL.</span><span class="sxs-lookup"><span data-stu-id="6bae2-116">Returns information from the procedure as an output parameter in SQL.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eea69-117">dbParamReturnValue</span><span class="sxs-lookup"><span data-stu-id="eea69-117">dbParamReturnValue</span></span></p></td>
-<td><p><span data-ttu-id="eea69-118">4</span><span class="sxs-lookup"><span data-stu-id="eea69-118">4</span></span></p></td>
-<td><p><span data-ttu-id="eea69-119">Pasa el valor devuelto desde un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eea69-119">Passes the return value from a procedure.</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-117">dbParamReturnValue</span><span class="sxs-lookup"><span data-stu-id="6bae2-117">dbParamReturnValue</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-118">4</span><span class="sxs-lookup"><span data-stu-id="6bae2-118">4</span></span></p></td>
+<td><p><span data-ttu-id="6bae2-119">Pasa el valor devuelto desde un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="6bae2-119">Passes the return value from a procedure.</span></span></p></td>
 </tr>
 </tbody>
 </table>

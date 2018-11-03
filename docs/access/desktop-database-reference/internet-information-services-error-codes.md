@@ -1,24 +1,23 @@
 ---
 title: Códigos de error de Internet Information Services
-TOCTitle: Internet Information Services Error Codes
+TOCTitle: Internet Information Services error codes
 ms:assetid: 1ed57b89-b471-88e5-e5af-85323dec18d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7890bdbd38b790d846b195570a05b55846cdcda9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5f4c3c4d710128ba97d8b54b376072aa4ad122e5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879945"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944980"
 ---
-# <a name="internet-information-services-error-codes"></a><span data-ttu-id="22b5f-102">Códigos de error de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="22b5f-102">Internet Information Services Error Codes</span></span>
+# <a name="internet-information-services-error-codes"></a><span data-ttu-id="6ab4a-102">Códigos de error de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="6ab4a-102">Internet Information Services error codes</span></span>
 
+<span data-ttu-id="6ab4a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6ab4a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22b5f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22b5f-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-<span data-ttu-id="22b5f-p101">En la tabla siguiente se enumeran los códigos de error de Internet Information Services relacionados con el uso del Servicio de datos remoto. Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.</span><span class="sxs-lookup"><span data-stu-id="22b5f-p101">The following table lists Microsoft Internet Information Services (IIS) error codes related to Remote Data Service usage. The positive decimal translation of the low two bytes, the negative decimal translation of the full error code, and the hexadecimal values are shown.</span></span>
+<span data-ttu-id="6ab4a-p101">En la tabla siguiente se enumeran los códigos de error de Internet Information Services relacionados con el uso del Servicio de datos remoto. Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.</span><span class="sxs-lookup"><span data-stu-id="6ab4a-p101">The following table lists Microsoft Internet Information Services (IIS) error codes related to Remote Data Service usage. The positive decimal translation of the low two bytes, the negative decimal translation of the full error code, and the hexadecimal values are shown.</span></span>
 
 <table>
 <colgroup>
@@ -28,39 +27,39 @@ ms.locfileid: "25879945"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="22b5f-106">Errores de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="22b5f-106">Internet Information Services errors</span></span></p></th>
-<th><p><span data-ttu-id="22b5f-107">Número</span><span class="sxs-lookup"><span data-stu-id="22b5f-107">Number</span></span></p></th>
-<th><p><span data-ttu-id="22b5f-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="22b5f-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="6ab4a-106">Errores de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="6ab4a-106">Internet Information Services errors</span></span></p></th>
+<th><p><span data-ttu-id="6ab4a-107">Número</span><span class="sxs-lookup"><span data-stu-id="6ab4a-107">Number</span></span></p></th>
+<th><p><span data-ttu-id="6ab4a-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="6ab4a-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22b5f-109"><strong>IDS_IIS_AccessDenied</strong></span><span class="sxs-lookup"><span data-stu-id="22b5f-109"><strong>IDS_IIS_AccessDenied</strong></span></span></p></td>
-<td><p><span data-ttu-id="22b5f-110">8208</span><span class="sxs-lookup"><span data-stu-id="22b5f-110">8208</span></span><br />
-<span data-ttu-id="22b5f-111">-2146820080</span><span class="sxs-lookup"><span data-stu-id="22b5f-111">-2146820080</span></span><br />
-<span data-ttu-id="22b5f-112">0x800A2010</span><span class="sxs-lookup"><span data-stu-id="22b5f-112">0x800A2010</span></span></p></td>
-<td><p><span data-ttu-id="22b5f-113">Error en servidor Internet: acceso denegado.</span><span class="sxs-lookup"><span data-stu-id="22b5f-113">Internet Server Error: Access Denied.</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-109"><strong>IDS_IIS_AccessDenied</strong></span><span class="sxs-lookup"><span data-stu-id="6ab4a-109"><strong>IDS_IIS_AccessDenied</strong></span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-110">8208</span><span class="sxs-lookup"><span data-stu-id="6ab4a-110">8208</span></span><br />
+<span data-ttu-id="6ab4a-111">-2146820080</span><span class="sxs-lookup"><span data-stu-id="6ab4a-111">-2146820080</span></span><br />
+<span data-ttu-id="6ab4a-112">0x800A2010</span><span class="sxs-lookup"><span data-stu-id="6ab4a-112">0x800A2010</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-113">Error en servidor Internet: acceso denegado.</span><span class="sxs-lookup"><span data-stu-id="6ab4a-113">Internet Server Error: Access Denied.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22b5f-114"><strong>IDS_IIS_ObjectNotFound</strong></span><span class="sxs-lookup"><span data-stu-id="22b5f-114"><strong>IDS_IIS_ObjectNotFound</strong></span></span></p></td>
-<td><p><span data-ttu-id="22b5f-115">8209</span><span class="sxs-lookup"><span data-stu-id="22b5f-115">8209</span></span><br />
-<span data-ttu-id="22b5f-116">-2146820079</span><span class="sxs-lookup"><span data-stu-id="22b5f-116">-2146820079</span></span><br />
-<span data-ttu-id="22b5f-117">0x800A2011</span><span class="sxs-lookup"><span data-stu-id="22b5f-117">0x800A2011</span></span></p></td>
-<td><p><span data-ttu-id="22b5f-118">Error en servidor Internet: objeto o módulo no encontrado.</span><span class="sxs-lookup"><span data-stu-id="22b5f-118">Internet Server Error: Object/module not found.</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-114"><strong>IDS_IIS_ObjectNotFound</strong></span><span class="sxs-lookup"><span data-stu-id="6ab4a-114"><strong>IDS_IIS_ObjectNotFound</strong></span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-115">8209</span><span class="sxs-lookup"><span data-stu-id="6ab4a-115">8209</span></span><br />
+<span data-ttu-id="6ab4a-116">-2146820079</span><span class="sxs-lookup"><span data-stu-id="6ab4a-116">-2146820079</span></span><br />
+<span data-ttu-id="6ab4a-117">0x800A2011</span><span class="sxs-lookup"><span data-stu-id="6ab4a-117">0x800A2011</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-118">Error en servidor Internet: objeto o módulo no encontrado.</span><span class="sxs-lookup"><span data-stu-id="6ab4a-118">Internet Server Error: Object/module not found.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="22b5f-119"><strong>IDS_IIS_RequestForbidden</strong></span><span class="sxs-lookup"><span data-stu-id="22b5f-119"><strong>IDS_IIS_RequestForbidden</strong></span></span></p></td>
-<td><p><span data-ttu-id="22b5f-120">8210</span><span class="sxs-lookup"><span data-stu-id="22b5f-120">8210</span></span><br />
-<span data-ttu-id="22b5f-121">-2146820078</span><span class="sxs-lookup"><span data-stu-id="22b5f-121">-2146820078</span></span><br />
-<span data-ttu-id="22b5f-122">0x800A2012</span><span class="sxs-lookup"><span data-stu-id="22b5f-122">0x800A2012</span></span></p></td>
-<td><p><span data-ttu-id="22b5f-123">Error en servidor Internet: petición prohibida.</span><span class="sxs-lookup"><span data-stu-id="22b5f-123">Internet Server Error: Request Forbidden.</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-119"><strong>IDS_IIS_RequestForbidden</strong></span><span class="sxs-lookup"><span data-stu-id="6ab4a-119"><strong>IDS_IIS_RequestForbidden</strong></span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-120">8210</span><span class="sxs-lookup"><span data-stu-id="6ab4a-120">8210</span></span><br />
+<span data-ttu-id="6ab4a-121">-2146820078</span><span class="sxs-lookup"><span data-stu-id="6ab4a-121">-2146820078</span></span><br />
+<span data-ttu-id="6ab4a-122">0x800A2012</span><span class="sxs-lookup"><span data-stu-id="6ab4a-122">0x800A2012</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-123">Error en servidor Internet: petición prohibida.</span><span class="sxs-lookup"><span data-stu-id="6ab4a-123">Internet Server Error: Request Forbidden.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22b5f-124"><strong>IDS_IIS_UnexpectedError</strong></span><span class="sxs-lookup"><span data-stu-id="22b5f-124"><strong>IDS_IIS_UnexpectedError</strong></span></span></p></td>
-<td><p><span data-ttu-id="22b5f-125">8447</span><span class="sxs-lookup"><span data-stu-id="22b5f-125">8447</span></span><br />
-<span data-ttu-id="22b5f-126">-2146819841</span><span class="sxs-lookup"><span data-stu-id="22b5f-126">-2146819841</span></span><br />
-<span data-ttu-id="22b5f-127">0x800A20FF</span><span class="sxs-lookup"><span data-stu-id="22b5f-127">0x800A20FF</span></span></p></td>
-<td><p><span data-ttu-id="22b5f-128">Error en servidor Internet.</span><span class="sxs-lookup"><span data-stu-id="22b5f-128">Internet Server Error.</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-124"><strong>IDS_IIS_UnexpectedError</strong></span><span class="sxs-lookup"><span data-stu-id="6ab4a-124"><strong>IDS_IIS_UnexpectedError</strong></span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-125">8447</span><span class="sxs-lookup"><span data-stu-id="6ab4a-125">8447</span></span><br />
+<span data-ttu-id="6ab4a-126">-2146819841</span><span class="sxs-lookup"><span data-stu-id="6ab4a-126">-2146819841</span></span><br />
+<span data-ttu-id="6ab4a-127">0x800A20FF</span><span class="sxs-lookup"><span data-stu-id="6ab4a-127">0x800A20FF</span></span></p></td>
+<td><p><span data-ttu-id="6ab4a-128">Error en servidor Internet.</span><span class="sxs-lookup"><span data-stu-id="6ab4a-128">Internet Server Error.</span></span></p></td>
 </tr>
 </tbody>
 </table>

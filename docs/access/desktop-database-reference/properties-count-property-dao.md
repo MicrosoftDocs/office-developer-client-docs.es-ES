@@ -10,31 +10,28 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b4762e8cda4dc0fee0cf1aa60a9a3cafee998e9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7422b7b4805bf09cdbf0b37ecf9ae025c3267fff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922310"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944835"
 ---
-# <a name="propertiescount-property-dao"></a><span data-ttu-id="16efc-102">Propiedad Properties.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="16efc-102">Properties.Count property (DAO)</span></span>
+# <a name="propertiescount-property-dao"></a><span data-ttu-id="e7a9e-102">Propiedad Properties.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="e7a9e-102">Properties.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="16efc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16efc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e7a9e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7a9e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16efc-p101">Puede usar la propiedad **Count** para determinar el número de elementos de una colección especificada. **Long** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="16efc-p101">You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.</span></span>
+<span data-ttu-id="e7a9e-p101">Puede usar la propiedad **Count** para determinar el número de elementos de una colección especificada. **Long** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e7a9e-p101">You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="16efc-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="16efc-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e7a9e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e7a9e-106">Syntax</span></span>
 
-<span data-ttu-id="16efc-107">*expresión* . Recuento</span><span class="sxs-lookup"><span data-stu-id="16efc-107">*expression* .Count</span></span>
+<span data-ttu-id="e7a9e-107">*expresión* . Recuento</span><span class="sxs-lookup"><span data-stu-id="e7a9e-107">*expression* .Count</span></span>
 
-<span data-ttu-id="16efc-108">*expresión* Variable que representa un objeto **Properties** .</span><span class="sxs-lookup"><span data-stu-id="16efc-108">*expression* A variable that represents a **Properties** object.</span></span>
+<span data-ttu-id="e7a9e-108">*expresión* Variable que representa un objeto **Properties** .</span><span class="sxs-lookup"><span data-stu-id="e7a9e-108">*expression* A variable that represents a **Properties** object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="16efc-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="16efc-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7a9e-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="e7a9e-109">See also</span></span>
 
-#### <a name="other-resources"></a><span data-ttu-id="16efc-110">Otros recursos</span><span class="sxs-lookup"><span data-stu-id="16efc-110">Other resources</span></span>
-
-<span data-ttu-id="16efc-111">[Colección Properties](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="16efc-111">[Properties Collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span></span>
-
-<span data-ttu-id="16efc-112">[Miembros de las propiedades](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="16efc-112">[Properties Members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span></span>
+- <span data-ttu-id="e7a9e-110">[Properties (colección)](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="e7a9e-110">[Properties collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span></span>
+- <span data-ttu-id="e7a9e-111">[Miembros de las propiedades](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="e7a9e-111">[Properties members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span></span>
 

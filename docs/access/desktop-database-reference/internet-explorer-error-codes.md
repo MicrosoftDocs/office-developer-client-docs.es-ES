@@ -1,24 +1,23 @@
 ---
 title: Códigos de error de Internet Explorer
-TOCTitle: Internet Explorer Error Codes
+TOCTitle: Internet Explorer error codes
 ms:assetid: 776580d5-05fc-aa7a-d066-530d887a2a64
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2818fb05d5842c7f465bd47d1ce7eaa28ea00365
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f3520216bd6f7994826fc6cf035931068f532250
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882017"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943818"
 ---
-# <a name="internet-explorer-error-codes"></a><span data-ttu-id="e1cdc-102">Códigos de error de Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="e1cdc-102">Internet Explorer Error Codes</span></span>
+# <a name="internet-explorer-error-codes"></a><span data-ttu-id="1469d-102">Códigos de error de Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="1469d-102">Internet Explorer error codes</span></span>
 
+<span data-ttu-id="1469d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1469d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e1cdc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1cdc-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-<span data-ttu-id="e1cdc-p101">En la tabla siguiente se enumeran los códigos de error de Microsoft Internet Explorer relacionados con el uso del Servicio de datos remoto. Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-p101">The following table lists Microsoft Internet Explorer error codes related to Remote Data Service usage. The positive decimal translation of the low two bytes, the negative decimal translation of the full error code, and the hexadecimal values are shown.</span></span>
+<span data-ttu-id="1469d-p101">En la tabla siguiente se enumeran los códigos de error de Microsoft Internet Explorer relacionados con el uso del Servicio de datos remoto. Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.</span><span class="sxs-lookup"><span data-stu-id="1469d-p101">The following table lists Microsoft Internet Explorer error codes related to Remote Data Service usage. The positive decimal translation of the low two bytes, the negative decimal translation of the full error code, and the hexadecimal values are shown.</span></span>
 
 <table>
 <colgroup>
@@ -28,56 +27,56 @@ ms.locfileid: "25882017"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e1cdc-106">Errores de Internet Explorer (Wininet)</span><span class="sxs-lookup"><span data-stu-id="e1cdc-106">Internet Explorer (Wininet) errors</span></span></p></th>
-<th><p><span data-ttu-id="e1cdc-107">Número</span><span class="sxs-lookup"><span data-stu-id="e1cdc-107">Number</span></span></p></th>
-<th><p><span data-ttu-id="e1cdc-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="e1cdc-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="1469d-106">Errores de Internet Explorer (Wininet)</span><span class="sxs-lookup"><span data-stu-id="1469d-106">Internet Explorer (Wininet) errors</span></span></p></th>
+<th><p><span data-ttu-id="1469d-107">Número</span><span class="sxs-lookup"><span data-stu-id="1469d-107">Number</span></span></p></th>
+<th><p><span data-ttu-id="1469d-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="1469d-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1cdc-109"><strong>IDS_WinInet_CantConnect</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-109"><strong>IDS_WinInet_CantConnect</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-110">8195</span><span class="sxs-lookup"><span data-stu-id="e1cdc-110">8195</span></span><br />
-<span data-ttu-id="e1cdc-111">-2146820093</span><span class="sxs-lookup"><span data-stu-id="e1cdc-111">-2146820093</span></span><br />
-<span data-ttu-id="e1cdc-112">0x800A2003</span><span class="sxs-lookup"><span data-stu-id="e1cdc-112">0x800A2003</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-113">Error en cliente Internet: no se puede conectar al servidor.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-113">Internet Client Error: Cannot Connect to Server.</span></span></p></td>
+<td><p><span data-ttu-id="1469d-109"><strong>IDS_WinInet_CantConnect</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-109"><strong>IDS_WinInet_CantConnect</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-110">8195</span><span class="sxs-lookup"><span data-stu-id="1469d-110">8195</span></span><br />
+<span data-ttu-id="1469d-111">-2146820093</span><span class="sxs-lookup"><span data-stu-id="1469d-111">-2146820093</span></span><br />
+<span data-ttu-id="1469d-112">0x800A2003</span><span class="sxs-lookup"><span data-stu-id="1469d-112">0x800A2003</span></span></p></td>
+<td><p><span data-ttu-id="1469d-113">Error en cliente Internet: no se puede conectar al servidor.</span><span class="sxs-lookup"><span data-stu-id="1469d-113">Internet Client Error: Cannot Connect to Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1cdc-114"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="e1cdc-114"><strong>IDS_WinInet_</span></span><br />
-<span data-ttu-id="e1cdc-115">ConnectionReset</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-115">ConnectionReset</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-116">12031</span><span class="sxs-lookup"><span data-stu-id="e1cdc-116">12031</span></span><br />
-<span data-ttu-id="e1cdc-117">-2146816257</span><span class="sxs-lookup"><span data-stu-id="e1cdc-117">-2146816257</span></span><br />
-<span data-ttu-id="e1cdc-118">0x800A2EFF</span><span class="sxs-lookup"><span data-stu-id="e1cdc-118">0x800A2EFF</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-119">Error en cliente Internet: conexión restablecida.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-119">Internet Client Error: Connection Reset.</span></span></p></td>
+<td><p><span data-ttu-id="1469d-114"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="1469d-114"><strong>IDS_WinInet_</span></span><br />
+<span data-ttu-id="1469d-115">ConnectionReset</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-115">ConnectionReset</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-116">12031</span><span class="sxs-lookup"><span data-stu-id="1469d-116">12031</span></span><br />
+<span data-ttu-id="1469d-117">-2146816257</span><span class="sxs-lookup"><span data-stu-id="1469d-117">-2146816257</span></span><br />
+<span data-ttu-id="1469d-118">0x800A2EFF</span><span class="sxs-lookup"><span data-stu-id="1469d-118">0x800A2EFF</span></span></p></td>
+<td><p><span data-ttu-id="1469d-119">Error en cliente Internet: conexión restablecida.</span><span class="sxs-lookup"><span data-stu-id="1469d-119">Internet Client Error: Connection Reset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1cdc-120"><strong>IDS_WinInet_Error</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-120"><strong>IDS_WinInet_Error</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-121">8193</span><span class="sxs-lookup"><span data-stu-id="e1cdc-121">8193</span></span><br />
-<span data-ttu-id="e1cdc-122">-2146820095</span><span class="sxs-lookup"><span data-stu-id="e1cdc-122">-2146820095</span></span><br />
-<span data-ttu-id="e1cdc-123">0x800A2001</span><span class="sxs-lookup"><span data-stu-id="e1cdc-123">0x800A2001</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-124">Error en cliente Internet.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-124">Internet Client Error.</span></span></p></td>
+<td><p><span data-ttu-id="1469d-120"><strong>IDS_WinInet_Error</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-120"><strong>IDS_WinInet_Error</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-121">8193</span><span class="sxs-lookup"><span data-stu-id="1469d-121">8193</span></span><br />
+<span data-ttu-id="1469d-122">-2146820095</span><span class="sxs-lookup"><span data-stu-id="1469d-122">-2146820095</span></span><br />
+<span data-ttu-id="1469d-123">0x800A2001</span><span class="sxs-lookup"><span data-stu-id="1469d-123">0x800A2001</span></span></p></td>
+<td><p><span data-ttu-id="1469d-124">Error en cliente Internet.</span><span class="sxs-lookup"><span data-stu-id="1469d-124">Internet Client Error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1cdc-125"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="e1cdc-125"><strong>IDS_WinInet_</span></span><br />
-<span data-ttu-id="e1cdc-126">InvalidServerResponse</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-126">InvalidServerResponse</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-127">8430</span><span class="sxs-lookup"><span data-stu-id="e1cdc-127">8430</span></span><br />
-<span data-ttu-id="e1cdc-128">-2146819858</span><span class="sxs-lookup"><span data-stu-id="e1cdc-128">-2146819858</span></span><br />
-<span data-ttu-id="e1cdc-129">0x800A20EE</span><span class="sxs-lookup"><span data-stu-id="e1cdc-129">0x800A20EE</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-130">Error en cliente Internet: respuesta de servidor no válida.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-130">Internet Client Error: Invalid Server Response.</span></span></p></td>
+<td><p><span data-ttu-id="1469d-125"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="1469d-125"><strong>IDS_WinInet_</span></span><br />
+<span data-ttu-id="1469d-126">InvalidServerResponse</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-126">InvalidServerResponse</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-127">8430</span><span class="sxs-lookup"><span data-stu-id="1469d-127">8430</span></span><br />
+<span data-ttu-id="1469d-128">-2146819858</span><span class="sxs-lookup"><span data-stu-id="1469d-128">-2146819858</span></span><br />
+<span data-ttu-id="1469d-129">0x800A20EE</span><span class="sxs-lookup"><span data-stu-id="1469d-129">0x800A20EE</span></span></p></td>
+<td><p><span data-ttu-id="1469d-130">Error en cliente Internet: respuesta de servidor no válida.</span><span class="sxs-lookup"><span data-stu-id="1469d-130">Internet Client Error: Invalid Server Response.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1cdc-131"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="e1cdc-131"><strong>IDS_WinInet_</span></span><br />
-<span data-ttu-id="e1cdc-132">SSLPostLimitation</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-132">SSLPostLimitation</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-133">8196</span><span class="sxs-lookup"><span data-stu-id="e1cdc-133">8196</span></span><br />
-<span data-ttu-id="e1cdc-134">-2146820092</span><span class="sxs-lookup"><span data-stu-id="e1cdc-134">-2146820092</span></span><br />
-<span data-ttu-id="e1cdc-135">0x800A2004</span><span class="sxs-lookup"><span data-stu-id="e1cdc-135">0x800A2004</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-136">Error en cliente Internet: error SSL (probable límite de 32 KB en la carga de datos).</span><span class="sxs-lookup"><span data-stu-id="e1cdc-136">Internet Client Error: SSL Error (possibly 32K data upload limitation).</span></span></p></td>
+<td><p><span data-ttu-id="1469d-131"><strong>IDS_WinInet_</span><span class="sxs-lookup"><span data-stu-id="1469d-131"><strong>IDS_WinInet_</span></span><br />
+<span data-ttu-id="1469d-132">SSLPostLimitation</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-132">SSLPostLimitation</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-133">8196</span><span class="sxs-lookup"><span data-stu-id="1469d-133">8196</span></span><br />
+<span data-ttu-id="1469d-134">-2146820092</span><span class="sxs-lookup"><span data-stu-id="1469d-134">-2146820092</span></span><br />
+<span data-ttu-id="1469d-135">0x800A2004</span><span class="sxs-lookup"><span data-stu-id="1469d-135">0x800A2004</span></span></p></td>
+<td><p><span data-ttu-id="1469d-136">Error en cliente Internet: error SSL (probable límite de 32 KB en la carga de datos).</span><span class="sxs-lookup"><span data-stu-id="1469d-136">Internet Client Error: SSL Error (possibly 32K data upload limitation).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1cdc-137"><strong>IDS_WinInet_Timeout</strong></span><span class="sxs-lookup"><span data-stu-id="e1cdc-137"><strong>IDS_WinInet_Timeout</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-138">8194</span><span class="sxs-lookup"><span data-stu-id="e1cdc-138">8194</span></span><br />
-<span data-ttu-id="e1cdc-139">-2146820094</span><span class="sxs-lookup"><span data-stu-id="e1cdc-139">-2146820094</span></span><br />
-<span data-ttu-id="e1cdc-140">0x800A2002</span><span class="sxs-lookup"><span data-stu-id="e1cdc-140">0x800A2002</span></span></p></td>
-<td><p><span data-ttu-id="e1cdc-141">Error en cliente Internet: excedido el tiempo de espera en la petición.</span><span class="sxs-lookup"><span data-stu-id="e1cdc-141">Internet Client Error: Request Timeout.</span></span></p></td>
+<td><p><span data-ttu-id="1469d-137"><strong>IDS_WinInet_Timeout</strong></span><span class="sxs-lookup"><span data-stu-id="1469d-137"><strong>IDS_WinInet_Timeout</strong></span></span></p></td>
+<td><p><span data-ttu-id="1469d-138">8194</span><span class="sxs-lookup"><span data-stu-id="1469d-138">8194</span></span><br />
+<span data-ttu-id="1469d-139">-2146820094</span><span class="sxs-lookup"><span data-stu-id="1469d-139">-2146820094</span></span><br />
+<span data-ttu-id="1469d-140">0x800A2002</span><span class="sxs-lookup"><span data-stu-id="1469d-140">0x800A2002</span></span></p></td>
+<td><p><span data-ttu-id="1469d-141">Error en cliente Internet: excedido el tiempo de espera en la petición.</span><span class="sxs-lookup"><span data-stu-id="1469d-141">Internet Client Error: Request Timeout.</span></span></p></td>
 </tr>
 </tbody>
 </table>

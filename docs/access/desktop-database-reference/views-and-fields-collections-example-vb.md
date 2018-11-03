@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5d22d4d5be88063524b2a55bb1703deeb173018
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13b81a2bc6b40ae8ad8904b53095164749e49847
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884630"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944791"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="b5bff-102">Ejemplo de las vistas y las colecciones Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="b5bff-102">Views and Fields Collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="9a2de-102">Ejemplo de las colecciones Views y Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="9a2de-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="b5bff-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5bff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9a2de-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a2de-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b5bff-104">El código siguiente muestra cómo usar la propiedad [Comando](command-property-adox.md) y el objeto [Recordset](recordset-object-ado.md) para recuperar información de campos para la vista.</span><span class="sxs-lookup"><span data-stu-id="b5bff-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="9a2de-104">El código siguiente muestra cómo usar la propiedad [Comando](command-property-adox.md) y el objeto [Recordset](recordset-object-ado.md) para recuperar información de campos para la vista.</span><span class="sxs-lookup"><span data-stu-id="9a2de-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

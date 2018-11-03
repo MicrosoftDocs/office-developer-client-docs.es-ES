@@ -6,67 +6,48 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d710944375a7fbac22371d1b18f69424b4bcf061
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a66e7f62f47e4237d827d5799bf864132321531
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931039"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943552"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a><span data-ttu-id="57661-102">Secuencia propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="57661-102">Stream properties, methods, and events (ADO)</span></span>
+# <a name="stream-properties-methods-and-events-ado"></a><span data-ttu-id="f1275-102">Secuencia propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="f1275-102">Stream properties, methods, and events (ADO)</span></span>
+
+<span data-ttu-id="f1275-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1275-103">**Applies to**: Access 2013, Office 2013</span></span>
+
+## <a name="properties"></a><span data-ttu-id="f1275-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="f1275-104">Properties</span></span>
+
+- [<span data-ttu-id="f1275-105">CharSet (propiedad)</span><span class="sxs-lookup"><span data-stu-id="f1275-105">Charset property</span></span>](charset-property-ado.md)
+- [<span data-ttu-id="f1275-106">Propiedad EOS</span><span class="sxs-lookup"><span data-stu-id="f1275-106">EOS property</span></span>](eos-property-ado.md)
+- [<span data-ttu-id="f1275-107">LineSeparator (propiedad)</span><span class="sxs-lookup"><span data-stu-id="f1275-107">LineSeparator property</span></span>](lineseparator-property-ado.md)
+- [<span data-ttu-id="f1275-108">Propiedad Mode</span><span class="sxs-lookup"><span data-stu-id="f1275-108">Mode property</span></span>](mode-property-ado.md)
+- [<span data-ttu-id="f1275-109">Propiedad Position</span><span class="sxs-lookup"><span data-stu-id="f1275-109">Position property</span></span>](position-property-ado.md)
+- <span data-ttu-id="f1275-110">[Propiedad Size (Stream de ADO)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="f1275-110">[Size property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))</span></span>
+- [<span data-ttu-id="f1275-111">State (propiedad)</span><span class="sxs-lookup"><span data-stu-id="f1275-111">State property</span></span>](state-property-ado.md)
+- [<span data-ttu-id="f1275-112">Propiedad Type (objeto Stream de ADO)</span><span class="sxs-lookup"><span data-stu-id="f1275-112">Type property (ADO Stream)</span></span>](type-property-ado-stream.md)
 
 
-<span data-ttu-id="57661-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57661-103">**Applies to**: Access 2013, Office 2013</span></span>
+## <a name="methods"></a><span data-ttu-id="f1275-113">Métodos</span><span class="sxs-lookup"><span data-stu-id="f1275-113">Methods</span></span>
 
-## <a name="properties"></a><span data-ttu-id="57661-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="57661-104">Properties</span></span>
+- [<span data-ttu-id="f1275-114">Cancel (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-114">Cancel method</span></span>](cancel-method-ado.md)
+- [<span data-ttu-id="f1275-115">Close (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-115">Close method</span></span>](close-method-ado.md)
+- [<span data-ttu-id="f1275-116">CopyTo (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-116">CopyTo method</span></span>](copyto-method-ado.md)
+- [<span data-ttu-id="f1275-117">Flush (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-117">Flush method</span></span>](flush-method-ado.md)
+- [<span data-ttu-id="f1275-118">LoadFromFile (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-118">LoadFromFile method</span></span>](loadfromfile-method-ado.md)
+- [<span data-ttu-id="f1275-119">Open (método, Stream de ADO)</span><span class="sxs-lookup"><span data-stu-id="f1275-119">Open method (ADO Stream)</span></span>](open-method-ado-stream.md)
+- [<span data-ttu-id="f1275-120">Método Read</span><span class="sxs-lookup"><span data-stu-id="f1275-120">Read method</span></span>](read-method-ado.md)
+- [<span data-ttu-id="f1275-121">ReadText (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-121">ReadText method</span></span>](readtext-method-ado.md)
+- [<span data-ttu-id="f1275-122">SaveToFile (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-122">SaveToFile method</span></span>](savetofile-method-ado.md)
+- [<span data-ttu-id="f1275-123">SetEOS (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-123">SetEOS method</span></span>](seteos-method-ado.md)
+- [<span data-ttu-id="f1275-124">SkipLine (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-124">SkipLine method</span></span>](skipline-method-ado.md)
+- [<span data-ttu-id="f1275-125">Stat (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-125">Stat method</span></span>](stat-method-ado.md)
+- [<span data-ttu-id="f1275-126">Escribir (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-126">Write method</span></span>](write-method-ado.md)
+- [<span data-ttu-id="f1275-127">WriteText (método)</span><span class="sxs-lookup"><span data-stu-id="f1275-127">WriteText method</span></span>](writetext-method-ado.md)
 
-- [<span data-ttu-id="57661-105">Propiedad Charset</span><span class="sxs-lookup"><span data-stu-id="57661-105">Charset Property</span></span>](charset-property-ado.md)
 
-- [<span data-ttu-id="57661-106">Propiedad EOS</span><span class="sxs-lookup"><span data-stu-id="57661-106">EOS Property</span></span>](eos-property-ado.md)
+## <a name="events"></a><span data-ttu-id="f1275-128">Eventos</span><span class="sxs-lookup"><span data-stu-id="f1275-128">Events</span></span>
 
-- [<span data-ttu-id="57661-107">Propiedad LineSeparator</span><span class="sxs-lookup"><span data-stu-id="57661-107">LineSeparator Property</span></span>](lineseparator-property-ado.md)
-
-- [<span data-ttu-id="57661-108">Propiedad Mode</span><span class="sxs-lookup"><span data-stu-id="57661-108">Mode Property</span></span>](mode-property-ado.md)
-
-- [<span data-ttu-id="57661-109">Propiedad Position</span><span class="sxs-lookup"><span data-stu-id="57661-109">Position Property</span></span>](position-property-ado.md)
-
-- <span data-ttu-id="57661-110">[Propiedad Size (Objeto Stream de ADO)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="57661-110">[Size Property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))</span></span>
-
-- [<span data-ttu-id="57661-111">Propiedad State</span><span class="sxs-lookup"><span data-stu-id="57661-111">State Property</span></span>](state-property-ado.md)
-
-- [<span data-ttu-id="57661-112">Propiedad Type (Objeto Stream de ADO)</span><span class="sxs-lookup"><span data-stu-id="57661-112">Type Property (ADO Stream)</span></span>](type-property-ado-stream.md)
-
-## <a name="methods"></a><span data-ttu-id="57661-113">Métodos</span><span class="sxs-lookup"><span data-stu-id="57661-113">Methods</span></span>
-
-- [<span data-ttu-id="57661-114">Método Cancel</span><span class="sxs-lookup"><span data-stu-id="57661-114">Cancel Method</span></span>](cancel-method-ado.md)
-
-- [<span data-ttu-id="57661-115">Método Close</span><span class="sxs-lookup"><span data-stu-id="57661-115">Close Method</span></span>](close-method-ado.md)
-
-- [<span data-ttu-id="57661-116">Método CopyTo</span><span class="sxs-lookup"><span data-stu-id="57661-116">CopyTo Method</span></span>](copyto-method-ado.md)
-
-- [<span data-ttu-id="57661-117">Método Flush</span><span class="sxs-lookup"><span data-stu-id="57661-117">Flush Method</span></span>](flush-method-ado.md)
-
-- [<span data-ttu-id="57661-118">Método LoadFromFile</span><span class="sxs-lookup"><span data-stu-id="57661-118">LoadFromFile Method</span></span>](loadfromfile-method-ado.md)
-
-- [<span data-ttu-id="57661-119">Método Open (Objeto Stream de ADO)</span><span class="sxs-lookup"><span data-stu-id="57661-119">Open Method (ADO Stream)</span></span>](open-method-ado-stream.md)
-
-- [<span data-ttu-id="57661-120">Método Read</span><span class="sxs-lookup"><span data-stu-id="57661-120">Read Method</span></span>](read-method-ado.md)
-
-- [<span data-ttu-id="57661-121">Método ReadText</span><span class="sxs-lookup"><span data-stu-id="57661-121">ReadText Method</span></span>](readtext-method-ado.md)
-
-- [<span data-ttu-id="57661-122">Método SaveToFile</span><span class="sxs-lookup"><span data-stu-id="57661-122">SaveToFile Method</span></span>](savetofile-method-ado.md)
-
-- [<span data-ttu-id="57661-123">Método SetEOS</span><span class="sxs-lookup"><span data-stu-id="57661-123">SetEOS Method</span></span>](seteos-method-ado.md)
-
-- [<span data-ttu-id="57661-124">Método SkipLine</span><span class="sxs-lookup"><span data-stu-id="57661-124">SkipLine Method</span></span>](skipline-method-ado.md)
-
-- [<span data-ttu-id="57661-125">Método Stat</span><span class="sxs-lookup"><span data-stu-id="57661-125">Stat Method</span></span>](stat-method-ado.md)
-
-- [<span data-ttu-id="57661-126">Método Write</span><span class="sxs-lookup"><span data-stu-id="57661-126">Write Method</span></span>](write-method-ado.md)
-
-- [<span data-ttu-id="57661-127">Método WriteText</span><span class="sxs-lookup"><span data-stu-id="57661-127">WriteText Method</span></span>](writetext-method-ado.md)
-
-## <a name="events"></a><span data-ttu-id="57661-128">Eventos</span><span class="sxs-lookup"><span data-stu-id="57661-128">Events</span></span>
-
-<span data-ttu-id="57661-129">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="57661-129">None.</span></span>
+<span data-ttu-id="f1275-129">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="f1275-129">None.</span></span>
 
