@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
 ms:contentKeyID: 48548970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 83fe55421bb5d45e53280c7ac323f571e1f4d88e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c50262b457109a05930640979694ffc97368442b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930038"
+ms.locfileid: "25936409"
 ---
 # <a name="field2iscomplex-property-dao"></a>Propiedad Field2.IsComplex (DAO)
 
@@ -21,7 +21,7 @@ Devuelve un valor de tipo **Boolean** que indica si el campo especificado es un 
 
 ## <a name="version-information"></a>Información de versión
 
-Versión añadida: Access 2007
+Versión agregada: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 

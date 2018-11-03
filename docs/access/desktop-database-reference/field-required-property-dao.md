@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 25ba678f759fefa460dd505cded6e05b3e96fdf5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6fbf95e02c9945558d70fff35f12a73ce0dee45e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928358"
+ms.locfileid: "25937319"
 ---
 # <a name="fieldrequired-property-dao"></a>Propiedad Field.Required (DAO)
 
@@ -72,7 +72,7 @@ Puede utilizar la propiedad **Required** junto con la propiedad **[AllowZeroLeng
 
 
 > [!NOTE]
-> <P>[!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto <STRONG>Index</STRONG> como para un objeto <STRONG>Field</STRONG>, establézcala para el objeto <STRONG>Field</STRONG>. La validez del valor de la propiedad para un objeto <STRONG>Field</STRONG> se comprueba antes que para un objeto <STRONG>Index</STRONG>.</P>
+> [!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto **Index** como para un objeto **Field**, establézcala para el objeto **Field**. La validez del valor de la propiedad para un objeto **Field** se comprueba antes que para un objeto **Index**.
 
 
 

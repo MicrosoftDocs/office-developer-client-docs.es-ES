@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c68379b5672246f738bdecdb1e3a3bb32df2f1c4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5f7011edaf7cbeb145ea30af64f7ba6bd85945f4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921673"
+ms.locfileid: "25937711"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 (miembros) (DAO)
 
@@ -40,12 +40,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -118,13 +113,8 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
-<p>Obtiene el siguiente conjunto de registros, si existe, devuelto por una consulta de selección de varias partes en una llamada <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> y devuelve un valor <strong>Boolean</strong> que indica si hay uno o más registros adicionales pendientes (solo áreas de trabajo de ODBCDirect).</p></td>
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<p>Obtiene el siguiente conjunto de registros, si existe, devuelto por una consulta de selección de varias partes en una llamada <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> y devuelve un valor <strong>Boolean</strong> que indica si hay uno o más registros adicionales pendientes (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
@@ -140,12 +130,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-update-method-dao.md">Update</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Guarda el contenido del búfer de copia en un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable.</p></td>
 </tr>
 </tbody>
@@ -172,32 +157,17 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el número de registros que no finalizaron la última actualización del lote (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve una matriz de marcadores que indican las filas que generaron conflictos en la última operación de actualización del lote (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve el número de instrucciones devueltas al servidor en cada lote (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -286,12 +256,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve un valor que indica el estado de actualización del registro actual si es parte de una actualización por lotes (sólo para áreas de trabajo de ODBCDirect). <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -304,12 +269,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>Áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -326,12 +286,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve un valor que indica cómo se construye la cláusula WHERE para cada registro durante una actualización por lotes, y si la actualización por lotes debería utilizar una instrucción UPDATE o DELETE seguida de INSERT (sólo para áreas de trabajo de ODBCDirect). <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong> de lectura y escritura</p></td>
 </tr>
 <tr class="even">

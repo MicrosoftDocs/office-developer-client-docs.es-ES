@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7feb483d60084e62c6233d039e568477eda9d134
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927869"
+ms.locfileid: "25937347"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>Declaración PARAMETERS (Microsoft Access SQL)
 
@@ -83,7 +83,7 @@ AND OrderDate >= [Beginning date];
 
 Este ejemplo requiere que el usuario proporcione un puesto y lo use como criterios para la búsqueda.
 
-Este ejemplo llama al procedimiento EnumFields, que encontrará en el ejemplo de [instrucción SELECT](select-statement-microsoft-access-sql.md).
+Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la [instrucción SELECT](select-statement-microsoft-access-sql.md) .
 
 ```vb
     Sub ParametersX() 

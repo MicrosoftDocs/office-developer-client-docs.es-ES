@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61130db9bd4564523688adc4e045f665e7310e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ea7346c8c1b97ef16af71f56aafbbf777635d906
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919013"
+ms.locfileid: "25937788"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk (método, ADO)
 
@@ -49,6 +49,6 @@ Si no hay ningún registro actual cuando utiliza el método **GetChunk** en un o
 
 
 > [!NOTE]
-> <P>[!NOTA] El método <STRONG>GetChunk</STRONG> no se ejecuta en los objetos <STRONG>Field</STRONG> de un objeto <A href="record-object-ado.md">Record</A>. No realiza ninguna operación y generará un error en tiempo de ejecución.</P>
+> [!NOTA] El método **GetChunk** no se ejecuta en los objetos **Field** de un objeto [Record](record-object-ado.md). No realiza ninguna operación y generará un error en tiempo de ejecución.
 
 

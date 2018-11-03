@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8127109834a617e86116a81731d964181c1bdf2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930598"
+ms.locfileid: "25936766"
 ---
 # <a name="connection-members-dao"></a>Miembros de conexión (DAO)
 
@@ -20,7 +20,6 @@ ms.locfileid: "25930598"
 > [!NOTE]
 > [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).
  
-
 ## <a name="methods"></a>Métodos
 
 <table>
@@ -37,12 +36,7 @@ ms.locfileid: "25930598"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
+<td><p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-close-method-dao.md">Cerrar</a></strong></p></td>
@@ -84,12 +78,7 @@ ms.locfileid: "25930598"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-database-property-dao.md">Base de datos</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</p></td>
+<td><p>Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
@@ -113,12 +102,7 @@ ms.locfileid: "25930598"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
+<td><p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transacciones</a></strong></p></td>

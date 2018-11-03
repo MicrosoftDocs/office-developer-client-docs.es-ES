@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf4fb6b98782b3a3f5951a6f0aa42e300f0c2620
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f7d368077e94a24dfd7b3d20dcdaafb0ee7d3c84
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931340"
+ms.locfileid: "25937795"
 ---
 # <a name="field2-members-dao"></a>Field2 (miembros) (DAO)
 
@@ -126,12 +126,8 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el valor de un <strong>Field2</strong> en la base de datos existente cuando comienza la actualización del último lote (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -176,12 +172,8 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</P>
-
-
+<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve un valor existente en la base de datos que es más actual que la propiedad <strong>OriginalValue</strong> según lo determinado por un conflicto de actualización por lotes (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 </tbody>

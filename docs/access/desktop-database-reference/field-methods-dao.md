@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125509(v=office.15)
 ms:contentKeyID: 52073631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6148d8135ce1197004a10a49fb52df1ef0c27d3d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bfbed291e7d05580a552cf628e43052aa14ebc4a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930366"
+ms.locfileid: "25937522"
 ---
 # <a name="field-methods-dao"></a>Métodos de campo (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-
-
-  - [Field.AppendChunk (método) (DAO)](field-appendchunk-method-dao.md)
-
-  - [Field.CreateProperty (método) (DAO)](field-createproperty-method-dao.md)
-
-  - [Field.GetChunk (método) (DAO)](field-getchunk-method-dao.md)
+- [Field.AppendChunk (método) (DAO)](field-appendchunk-method-dao.md)
+- [Field.CreateProperty (método) (DAO)](field-createproperty-method-dao.md)
+- [Field.GetChunk (método) (DAO)](field-getchunk-method-dao.md)
 

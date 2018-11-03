@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 683255f8bc425ba5d8d2cdf4c66bc2ff16eec43c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928483"
+ms.locfileid: "25937676"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Propiedad Field2.DefaultValue (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Establece o devuelve el valor predeterminado de un objeto **Field2**. Para un objeto **Field2** no anexado todavía a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura (sólo para áreas de trabajo de Microsoft Access).
 
@@ -35,11 +33,8 @@ Establece o devuelve el valor predeterminado de un objeto **Field2**. Para un ob
 
 La configuración o el valor devuelto es un tipo de datos **String** que puede contener un máximo de 255 caracteres. Puede ser texto o una expresión. Si el valor de la propiedad es una expresión, no puede contener funciones definidas por el usuario, no puede agregar funciones SQL del motor de base de datos de Microsoft Access, ni tener referencias a consultas, formularios u otros objetos **Field2**.
 
-
 > [!NOTE]
-> <P>[!NOTA] También puede establecer la propiedad <STRONG>DefaultValue</STRONG> de un objeto <STRONG>Field2</STRONG> en un objeto <STRONG>TableDef</STRONG> para un valor especial denominado "GenUniqueID( )". Esto provoca que se asigne un número aleatorio a este campo siempre que se agregue o se cree un nuevo registro, de ese modo se asigna cada registro a un identificador único. La propiedad <STRONG>Type</STRONG> del campo debe ser <STRONG>Long</STRONG>.</P>
-
-
+> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field2** en un objeto **TableDef** para un valor especial denominado "GenUniqueID( )". Esto provoca que se asigne un número aleatorio a este campo siempre que se agregue o se cree un nuevo registro, de ese modo se asigna cada registro a un identificador único. La propiedad **Type** del campo debe ser **Long**.
 
 La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.
 
