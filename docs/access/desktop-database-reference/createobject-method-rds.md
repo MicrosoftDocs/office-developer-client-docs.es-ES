@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d08b596afb24fff430c6c662a557da1880addefa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921183"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950086"
 ---
 # <a name="createobject-method-rds"></a>CreateObject (método, RDS)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Crea el proxy para el objeto de negocio de destino y devuelve un puntero al mismo. El proxy empaqueta y calcula las referencias de los datos en el código auxiliar de servidor para permitir la comunicación con el objeto de negocio y enviar solicitudes y datos a través de Internet. Para los objetos componentes en proceso, no se utiliza ningún proxy; solo se proporciona un puntero al objeto.
 
@@ -59,21 +57,12 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Object*
-
-  - Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.
-
-  - *DataSpace*
-
-  - Variable de objeto que representa un objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para crear una instancia del objeto nuevo.
-
-  - *ProgID*
-
-  - Valor de tipo **String** que contiene el identificador de programación que especifica un objeto de negocio de servidor que implementa las reglas de negocios de la aplicación.
-
-  - *awebsrvr* o *computername*
-
-  - Un valor de **tipo String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Object* |Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.|
+|*DataSpace* |Variable de objeto que representa un objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para crear una instancia del objeto nuevo.|
+|*ProgID* |Valor de tipo **String** que contiene el identificador de programación que especifica un objeto de negocio de servidor que implementa las reglas de negocios de la aplicación.|
+|*awebsrvr* o *computername* |Un valor de **tipo String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.|
 
 ## <a name="remarks"></a>Comentarios
 

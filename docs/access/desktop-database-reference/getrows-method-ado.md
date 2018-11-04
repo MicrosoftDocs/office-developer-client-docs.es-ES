@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 853f971f68bb0ec4069ba58e04b7cf9d231c6467
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920280"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949863"
 ---
 # <a name="getrows-method-ado"></a>GetRows (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Recupera varios registros de un objeto [Recordset](recordset-object-ado.md) en una matriz.
 
@@ -31,17 +29,11 @@ Devuelve un valor de tipo **Variant** que es una matriz bidimensional.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Rows*
-
-  - Es opcional. Valor de [GetRowsOptionEnum](getrowsoptionenum.md) que indica el número de registros que se van a recuperar. El valor predeterminado es **adGetRowsRest**.
-
-  - *Start*
-
-  - Es opcional. Valor de tipo **String** o **Variant** que se establece en el marcador del registro donde debe iniciar la operación de **GetRows**. También puede utilizar un valor de [BookmarkEnum](bookmarkenum.md).
-
-  - *Fields*
-
-  - Es opcional. **Variant** que representa el nombre o la posición ordinal de un solo campo, o bien, una matriz de nombres de campo o números de posición ordinal. ADO devuelve sólo los datos de estos campos.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Rows* |Es opcional. Valor de [GetRowsOptionEnum](getrowsoptionenum.md) que indica el número de registros que se van a recuperar. El valor predeterminado es **adGetRowsRest**.|
+|*Start* |Es opcional. Valor de tipo **String** o **Variant** que se establece en el marcador del registro donde debe iniciar la operación de **GetRows**. También puede utilizar un valor de [BookmarkEnum](bookmarkenum.md).|
+|*Fields* |Es opcional. **Variant** que representa el nombre o la posición ordinal de un solo campo, o bien, una matriz de nombres de campo o números de posición ordinal. ADO devuelve sólo los datos de estos campos.|
 
 ## <a name="remarks"></a>Comentarios
 

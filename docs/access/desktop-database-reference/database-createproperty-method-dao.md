@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
 ms:contentKeyID: 48548638
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0b9403c485df44935c7db5b8464d26424cf3993
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b746ba3d8acfd8f32b20ed41f8f7bffe1b4d3b12
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920658"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950198"
 ---
 # <a name="databasecreateproperty-method-dao"></a>Database.CreateProperty (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crea un nuevo objeto **[Property](property-object-dao.md)** definido por el usua
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -45,25 +44,25 @@ Crea un nuevo objeto **[Property](property-object-dao.md)** definido por el usua
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Property</strong>. Vea el tema relativo a la propiedad <strong>Name</strong> para obtener información detallada sobre los nombres de <strong>Property</strong> válidos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p><em>Tipo</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante que define el tipo de datos del nuevo objeto <strong>Property</strong>. Vea el tema relativo a la propiedad <strong><a href="field-type-property-dao.md">Type</a></strong> para obtener información sobre los tipos de datos válidos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Valor</p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> que contiene el valor inicial de la propiedad. Vea el tema relativo a la propiedad <strong><a href="field-value-property-dao.md">Value</a></strong> para obtener información detallada.</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL</p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo<strong>Boolean</strong> ) que indica si la <strong>propiedad</strong> es un objeto DDL. El valor predeterminado es False. Si DDL es True, los usuarios no pueden cambiar o eliminar este objeto <strong>Property</strong> a menos que tengan un permiso dbSecWriteDef.</p></td>
@@ -72,7 +71,7 @@ Crea un nuevo objeto **[Property](property-object-dao.md)** definido por el usua
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Property
 

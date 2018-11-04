@@ -1,17 +1,17 @@
 ---
 title: Database.Execute (método) (DAO)
-TOCTitle: Execute Method
+TOCTitle: Execute method
 ms:assetid: 9294d530-f70f-e1ed-3990-ce128de4378b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d3204ed2f5fd44b346b7b1c55be3304138d3e7b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 424fa55f90c0968d70c47b0d5fa3ff8c704f2ac9
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920063"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950155"
 ---
 # <a name="databaseexecute-method-dao"></a>Database.Execute (método) (DAO)
 
@@ -25,7 +25,7 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -44,13 +44,13 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>

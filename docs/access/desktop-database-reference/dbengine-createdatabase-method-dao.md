@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7478a06df491f4c2254f8c72f0eacf9c4b19d49e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e988eec4b3997bb24bf3a9aa0bb7faed1629b1f1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927511"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950107"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Cadena de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que está creando. Puede ser el nombre de archivo y ruta de acceso completo. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1&quot;. Sólo se pueden crear archivos de base de datos de Microsoft Access con este método.</p></td>
 </tr>
 <tr class="even">
-<td><p>Locale</p></td>
+<td><p><em>Configuración regional</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
@@ -68,7 +67,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Opción</p></td>
+<td><p><em>Opción</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante o combinación de constantes que indican una o varias opciones, tal como se especifica en la sección de configuración. Puede combinar opciones sumando las constantes correspondientes.</p></td>

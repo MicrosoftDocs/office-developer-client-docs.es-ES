@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923381"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949715"
 ---
 # <a name="seek-method-ado"></a>Seek (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Busca en el índice de un objeto [Recordset](recordset-object-ado.md) para localizar rápidamente la fila que coincida con los valores especificados, y cambia la posición de fila actual a dicha fila.
 
@@ -28,13 +25,10 @@ Busca en el índice de un objeto [Recordset](recordset-object-ado.md) para local
 
 ## <a name="parameters"></a>Parámetros
 
-  - *KeyValues*
-
-  - Matriz de valores **Variant**. Un índice consta de una o varias columnas y la matriz contiene un valor que se va a comparar con cada columna correspondiente.
-
-  - *SeekOption*
-
-  - Valor de [SeekEnum](seekenum.md) que especifica el tipo de comparación que se va a realizar entre las columnas del índice y el valor de *KeyValues* correspondiente.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*KeyValues* |Matriz de valores **Variant**. Un índice consta de una o varias columnas y la matriz contiene un valor que se va a comparar con cada columna correspondiente.|
+|*SeekOption* |Valor de [SeekEnum](seekenum.md) que especifica el tipo de comparación que se va a realizar entre las columnas del índice y el valor de *KeyValues* correspondiente.|
 
 ## <a name="remarks"></a>Comentarios
 

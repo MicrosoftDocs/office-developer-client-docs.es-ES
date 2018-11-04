@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250153(v=office.15)
 ms:contentKeyID: 48548292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c67e277c35e3cf6c75226dc138aa4b288843e6bf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a61ec584f5baddcfdb8ce1f6dda1bf990546c053
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930864"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949358"
 ---
 # <a name="onerror-event-rds"></a>onError (evento, RDS)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,19 +25,10 @@ onError*SCode*, *Descripción*, *origen*, *CancelDisplay*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *SCode*
-
-  - Un entero que indica el código de estado del error.
-
-  - *Description*
-
-  - Un objeto **String** que indica una descripción del error.
-
-  - *Origen*
-
-  - Un objeto **String** que indica la consulta o el comando que produjo el error.
-
-  - *CancelDisplay*
-
-  - Una variable de tipo **Boolean** que, si se establece en **True**, evita que se muestre el error en un cuadro de diálogo.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*SCode* |Un entero que indica el código de estado del error.|
+|*Description* |Un objeto **String** que indica una descripción del error.|
+|*Origen* |Un objeto **String** que indica la consulta o el comando que produjo el error.|
+|*CancelDisplay* |Una variable de tipo **Boolean** que, si se establece en **True**, evita que se muestre el error en un cuadro de diálogo.|
 

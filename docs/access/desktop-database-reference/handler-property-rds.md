@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb9444091611fbd051da9fa649b5d3efdb92ee6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 98aeb3a56203fd5adbeb5b58a1298a7b1df98439
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923584"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950135"
 ---
 # <a name="handler-property-rds"></a>Handler (propiedad, RDS)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Indica el nombre de un programa de personalización del servidor (controlador) que amplía la funcionalidad de [RDSServer.DataFactory](datafactory-object-rdsserver.md) y de cualquier parámetro utilizado por el *controlador*.
 
@@ -27,13 +25,10 @@ Indica el nombre de un programa de personalización del servidor (controlador) q
 
 ## <a name="parameters"></a>Parámetros
 
-  - *DataControl*
-
-  - Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *String*
-
-  - Un valor de **tipo String** que contiene el nombre del controlador y de cualquier parámetro, todo separado por comas (por ejemplo, "handlerName, parm1, parm2,..., parm *N"*).
+|Parámetro|Descripción|
+|:--------|:----------|
+|*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*String* |Un valor de **tipo String** que contiene el nombre del controlador y de cualquier parámetro, todo separado por comas (por ejemplo, "handlerName, parm1, parm2,..., parm *N"*).|
 
 ## <a name="remarks"></a>Comentarios
 

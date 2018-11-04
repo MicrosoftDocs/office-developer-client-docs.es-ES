@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944441"
+ms.locfileid: "25950261"
 ---
 # <a name="clone-method-ado"></a>Clone (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Crea un objeto [Recordset](recordset-object-ado.md) duplicado a partir de un objeto **Recordset** existente. Opcionalmente, especifica que el duplicado es de solo lectura.
 
@@ -30,19 +27,13 @@ Crea un objeto [Recordset](recordset-object-ado.md) duplicado a partir de un obj
 
 Devuelve una referencia al objeto **Recordset**.
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parámetros
 
-- *rstDuplicate*
-
-  - Una variable de objeto que identifica el objeto **Recordset** duplicado que se creará.
-
-- *rstOriginal*
-
-  - Una variable de objeto que identifica el objeto **Recordset** duplicado.
-
-- *LockType*
-
-  - Opcional. Valor de [LockTypeEnum](locktypeenum.md) que especifica el tipo de bloqueo del objeto **Recordset** original, o bien un **Recordset** de sólo lectura. Los valores válidos son **adLockUnspecified** o **adLockReadOnly**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*rstDuplicate* |Una variable de objeto que identifica el objeto **Recordset** duplicado que se creará.|
+|*rstOriginal* |Una variable de objeto que identifica el objeto **Recordset** duplicado.|
+|*LockType* |Opcional. Valor de [LockTypeEnum](locktypeenum.md) que especifica el tipo de bloqueo del objeto **Recordset** original, o bien un **Recordset** de sólo lectura. Los valores válidos son **adLockUnspecified** o **adLockReadOnly**.|
 
 ## <a name="remarks"></a>Comentarios
 

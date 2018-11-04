@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e898a089843774792b1ed48cea65086331a94ec6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: df7533376bf6f6d3c5387173a90c7d5e1a5013cd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931221"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950051"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase (método) (DAO)
 
@@ -32,7 +32,7 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 
 *expresión* Una expresión que devuelve un objeto **DBEngine** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -51,19 +51,19 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SrcName</p></td>
+<td><p><em>SrcName</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Identifica una base de datos existente, cerrado. Puede ser una ruta de acceso completa y el nombre de archivo, como &quot;C:\db1.mdb&quot;. Si el nombre de archivo tiene una extensión, debe especificar. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p>DstName</p></td>
+<td><p><em>DstName</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>el nombre de archivo (y la ruta) de la base de datos compactada que está creando. También puede especificar una ruta de acceso de red. No puede usar este argumento para especificar el mismo archivo de base de datos que SrcName.</p></td>
 </tr>
 <tr class="odd">
-<td><p>DstLocale</p></td>
+<td><p><em>DstLocale</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Expresión de cadena que especifica un orden de intercalación para crear DstName, tal como se ha especificado en los comentarios.</p>
@@ -74,21 +74,16 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Opcional. Constante o combinación de constantes que indican una o varias opciones, tal como se ha especificado en los comentarios. Puede combinar opciones sumando las constantes correspondientes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>contraseña</p></td>
+<td><p><em>contraseña</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una expresión de cadena que contiene una clave de cifrado, si se cifra la base de datos. La cadena &quot;; pwd =&quot; deben preceder a la contraseña real. Si incluye una opción de contraseña en DstLocale, este valor se omite.</p>
-
-> [!NOTE]
-> Este parámetro en desuso es y no se admite en. Formato ACCDB. Para cifrar una. Archivo ACCDB, use la "pwd =" cadena de opción. [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.
-
-
+<td><p>Una expresión de cadena que contiene una clave de cifrado, si se cifra la base de datos. La cadena &quot;; pwd =&quot; deben preceder a la contraseña real. Si incluye una opción de contraseña en DstLocale, este valor se omite.</p><p><strong>Nota</strong>: este es un parámetro en desuso y no se admite en. Formato ACCDB. Para cifrar una. Archivo ACCDB, use la "pwd =" cadena de opción. [!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 </tbody>

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a9724d84bed6c89267aeb811936eeb49b49bc17
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f9887551d4d8a141c8390764bcd23c98c59edc26
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929345"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950226"
 ---
 # <a name="filtercriterion-property-rds"></a>FilterCriterion (propiedad, RDS)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Indica el operador de evaluación que se utilizará en el valor de filtro.
 
@@ -28,13 +25,10 @@ Indica el operador de evaluación que se utilizará en el valor de filtro.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *DataControl*
-
-  - Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *String*
-
-  - Un valor de tipo **String** que especifica el operador de evaluación de [FilterValue](filtervalue-property-rds.md) a los registros. Puede ser uno de los siguientes: \<, \<=, \>, \>=, =, o \< \>.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*String* |Un valor de tipo **String** que especifica el operador de evaluación de [FilterValue](filtervalue-property-rds.md) a los registros. Puede ser uno de los siguientes: \<, \<=, \>, \>=, =, o \< \>.|
 
 ## <a name="remarks"></a>Comentarios
 

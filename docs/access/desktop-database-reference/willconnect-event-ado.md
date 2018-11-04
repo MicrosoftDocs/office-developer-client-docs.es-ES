@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4148baa827b42f34d9b4d15f2f94df2667959b0c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c8ac4ab83062d9297483b7ee4883ab0b289af227
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928316"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949834"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect (evento, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Al evento **WillConnect** se le llama antes de iniciarse una conexión.
 
@@ -27,33 +25,14 @@ WillConnect*ConnectionString*, *UserID*, *contraseña*, *Opciones*, *adStatus*, 
 
 ## <a name="parameters"></a>Parámetros
 
-  - *ConnectionString*
-
-  - **String** que contiene información de conexión para la conexión pendiente.
-
-  - *UserID*
-
-  - **String** que contiene un nombre de usuario para la conexión pendiente.
-
-  - *Password*
-
-  - **String** que contiene una contraseña para la conexión pendiente.
-
-  - *Options*
-
-  - Valor **Long** que indica cómo debe evaluar el proveedor el valor *ConnectionString*. La única opción es **adAsyncOpen**.
-
-  - *valor de adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Cuando el evento recibe una llamada, este parámetro se establece de forma predeterminada en **adStatusOK**. Si el evento no puede solicitar la cancelación de la operación pendiente, el parámetro se establece en **adStatusCantDeny**.
-    
-    Antes de que este evento regrese, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores. Establezca este parámetro como **adStatusCancel** para solicitar la operación de conexión que provocó la cancelación de esta notificación.
-
-  - *pConnection*
-
-  - Objeto [Connection](connection-object-ado.md) al que se aplica esta notificación de eventos. Los cambios en los parámetros de **Connection** debidos al controlador del evento **WillConnect** no tendrán efecto en el objeto **Connection**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*ConnectionString* |**String** que contiene información de conexión para la conexión pendiente.|
+|*UserID* |**String** que contiene un nombre de usuario para la conexión pendiente.|
+|*Password* |**String** que contiene una contraseña para la conexión pendiente.|
+|*Options* |Valor **Long** que indica cómo debe evaluar el proveedor el valor *ConnectionString*. La única opción es **adAsyncOpen**.|
+|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Cuando el evento recibe una llamada, este parámetro se establece de forma predeterminada en **adStatusOK**. Si el evento no puede solicitar la cancelación de la operación pendiente, el parámetro se establece en **adStatusCantDeny**.<br/><br/>Antes de que este evento regrese, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores. Establezca este parámetro como **adStatusCancel** para solicitar la operación de conexión que provocó la cancelación de esta notificación.|
+|*pConnection* |Objeto [Connection](connection-object-ado.md) al que se aplica esta notificación de eventos. Los cambios en los parámetros de **Connection** debidos al controlador del evento **WillConnect** no tendrán efecto en el objeto **Connection**.|
 
 ## <a name="remarks"></a>Comentarios
 

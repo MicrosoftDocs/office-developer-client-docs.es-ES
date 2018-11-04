@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2a1ad7798fc6236f95d31c18cd864fe64e7a3fd8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927012"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949932"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation (método) (DAO)
 
@@ -29,7 +29,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>Relation</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información sobre los nombres de <strong>Relation</strong> válidos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tabla</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa la tabla principal de la relación. Si la tabla no existe antes de agregar el objeto <strong>Relation</strong>, se produce un error en tiempo de ejecución.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ForeignTable</p></td>
+<td><p><em>ForeignTable</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa la tabla externa de la relación. Si la tabla no existe antes de agregar el objeto <strong>Relation</strong>, se produce un error en tiempo de ejecución.</p></td>
 </tr>
 <tr class="even">
-<td><p>Atributos</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante o combinación de constantes que contienen información sobre el tipo de relación. Vea el tema relativo a la propiedad <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> para obtener información detallada.</p></td>
@@ -75,7 +75,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Relation
 

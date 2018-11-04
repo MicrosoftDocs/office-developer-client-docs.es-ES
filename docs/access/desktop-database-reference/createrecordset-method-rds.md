@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42a5bf11e2ed287ac683f634d3953739b2501f60
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0b4d68ac2dfca344cb98885846f2cd09fafd0ea0
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922807"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950240"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset (método, RDS)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Crea un objeto [Recordset](recordset-object-ado.md) vacío y desconectado.
 
@@ -27,54 +25,24 @@ Crea un objeto [Recordset](recordset-object-ado.md) vacío y desconectado.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Object*
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Object* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) o [RDS.DataControl](datacontrol-object-rds.md).|
+|*ColumnsInfos* |Matriz de atributos **Variant** que define cada columna del objeto **Recordset** creado. Cada definición de columna contiene una matriz de cuatro atributos necesarios y un atributo opcional. A continuación, el conjunto de matrices de columnas se agrupa en una matriz, que define el **Recordset**. Para obtener una lista de atributos, vea la siguiente tabla.|
 
-  - Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) o [RDS.DataControl](datacontrol-object-rds.md).
+### <a name="variant-array-attributes"></a>Atributos de la matriz de tipo Variant
 
-  - *ColumnsInfos*
-
-  - Matriz de atributos **Variant** que define cada columna del objeto **Recordset** creado. Cada definición de columna contiene una matriz de cuatro atributos necesarios y un atributo opcional. A continuación, el conjunto de matrices de columnas se agrupa en una matriz, que define el **Recordset**.
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Atributo</p></th>
-    <th><p>Descripción</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Name</p></td>
-    <td><p>Nombre del encabezado de columna.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Type</p></td>
-    <td><p>Entero del tipo de datos.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Size</p></td>
-    <td><p>Entero del ancho en caracteres, independientemente del tipo de datos.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Nullability</p></td>
-    <td><p>Valor booleano.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Scale<br />
-(Opcional)</p></td>
-    <td><p>Este atributo opcional define la escala de los campos numéricos.
+|Atributo|Descripción|
+|:--------|:----------|
+|Name |Nombre del encabezado de columna.|
+|Type |Entero del tipo de datos.|
+|Size |Entero del ancho en caracteres, independientemente del tipo de datos.|
+|Nullability |Valor booleano.|
+|Scale (opcional) |Este atributo opcional define la escala de los campos numéricos.
 
 Si no se especifica este valor, los valores numéricos se truncarán en una escala de tres.
 
-No se ve afectada la precisión, pero el número de dígitos después del separador decimal se truncará en tres.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
+No se ve afectada la precisión, pero el número de dígitos después del separador decimal se truncará en tres.|
 
 ## <a name="remarks"></a>Comentarios
 

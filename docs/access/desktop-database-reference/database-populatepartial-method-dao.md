@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc089ded79e9a25da566f44b668bf788d97fc4be
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919496"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949981"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial (método) (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Sincroniza cualquier cambio en una réplica parcial con la réplica completa, desactiva todos los registros en la réplica parcial y, a continuación, vuelve a llenar la réplica parcial en función de los filtros de la réplica activa. (Solo bases de datos del motor de base de datos de Microsoft Access).
 
@@ -31,7 +29,7 @@ Sincroniza cualquier cambio en una réplica parcial con la réplica completa, de
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ Sincroniza cualquier cambio en una réplica parcial con la réplica completa, de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Ruta y nombre de la réplica completa a partir de la cual se llenan los registros.</p></td>

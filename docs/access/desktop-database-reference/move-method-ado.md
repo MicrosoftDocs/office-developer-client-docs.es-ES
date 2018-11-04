@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55439f14cd2a498ec2592c533dd308f82798b1e8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 30feb9aabeb84c577b415b2872ce407cf3fc0f44
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929450"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950009"
 ---
 # <a name="move-method-ado"></a>Move (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Mueve la posición del actual registro en un objeto [Recordset](recordset-object-ado.md).
 
@@ -28,13 +25,10 @@ Mueve la posición del actual registro en un objeto [Recordset](recordset-object
 
 ## <a name="parameters"></a>Parámetros
 
-  - *NumRecords*
-
-  - Expresión de tipo **Long** con signo que especifica, en número de registros, el desplazamiento de la posición de registro actual.
-
-  - *Start*
-
-  - Es opcional. Valor de tipo **String** o **Variant** que da como resultado un marcador. También se puede utilizar un valor de [BookmarkEnum](bookmarkenum.md).
+|Parámetro|Descripción|
+|:--------|:----------|
+|*NumRecords* |Expresión de tipo **Long** con signo que especifica, en número de registros, el desplazamiento de la posición de registro actual.|
+|*Start* |Es opcional. Valor de tipo **String** o **Variant** que da como resultado un marcador. También se puede utilizar un valor de [BookmarkEnum](bookmarkenum.md).|
 
 ## <a name="remarks"></a>Comentarios
 

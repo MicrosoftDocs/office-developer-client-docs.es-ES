@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c6524c52ad3c4821d5b7987415f8a9c2dcb1b1d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2b4926b3568d6c7289ca9d3158a8723e016ed344
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919027"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949676"
 ---
 # <a name="getstring-method-ado"></a>GetString (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Devuelve el objeto [Recordset](recordset-object-ado.md) en forma de cadena.
 
@@ -31,25 +29,13 @@ Devuelve el objeto **Recordset** como **Variant** de valores de cadena (BSTR).
 
 ## <a name="parameters"></a>Parámetros
 
-  - *StringFormat*
-
-  - Valor de [StringFormatEnum](stringformatenum.md) que especifica cómo debe convertirse el objeto **Recordset** en una cadena. Los parámetros *RowDelimiter*, *ColumnDelimiter* y *NullExpr* se utilizan sólo cuando el valor de *StringFormat* es **adClipString**.
-
-  - *NumRows*
-
-  - Es opcional. Número de filas del objeto **Recordset** que se van a convertir. Si no se especifica *NumRows* o si es mayor que el número total de filas en el **conjunto de registros**, a continuación, se convierten todas las filas en el **conjunto de registros** .
-
-  - *ColumnDelimiter*
-
-  - Es opcional. Delimitador que se utiliza entre las columnas, si se ha especificado; en caso contrario, el carácter de tabulación.
-
-  - *RowDelimiter*
-
-  - Es opcional. Delimitador que se utiliza entre las filas, si se ha especificado; en caso contrario, el carácter de retorno de carro.
-
-  - *NullExpr*
-
-  - Es opcional. Expresión que se utiliza en lugar de un valor nulo, si se ha especificado; en caso contrario, la cadena vacía.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*StringFormat* |Valor de [StringFormatEnum](stringformatenum.md) que especifica cómo debe convertirse el objeto **Recordset** en una cadena. Los parámetros *RowDelimiter*, *ColumnDelimiter* y *NullExpr* se utilizan sólo cuando el valor de *StringFormat* es **adClipString**.|
+|*NumRows* |Es opcional. Número de filas del objeto **Recordset** que se van a convertir. Si no se especifica *NumRows* o si es mayor que el número total de filas en el **conjunto de registros**, a continuación, se convierten todas las filas en el **conjunto de registros** .|
+|*ColumnDelimiter* |Es opcional. Delimitador que se utiliza entre las columnas, si se ha especificado; en caso contrario, el carácter de tabulación.|
+|*RowDelimiter* |Es opcional. Delimitador que se utiliza entre las filas, si se ha especificado; en caso contrario, el carácter de retorno de carro.|
+|*NullExpr* |Es opcional. Expresión que se utiliza en lugar de un valor nulo, si se ha especificado; en caso contrario, la cadena vacía.|
 
 ## <a name="remarks"></a>Comentarios
 

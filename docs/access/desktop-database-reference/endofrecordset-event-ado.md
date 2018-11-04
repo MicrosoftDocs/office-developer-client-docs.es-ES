@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
 ms:contentKeyID: 48546167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89ca397c4e95dd6f18de41862e9383f77fe14aa8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 36babff0c6de48e0539375caaad367698906e3fd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928841"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950191"
 ---
 # <a name="endofrecordset-event-ado"></a>EndOfRecordset (evento, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Al evento **EndOfRecordset** se le llama cuando se intenta pasar a una fila más allá del final del objeto [Recordset](recordset-object-ado.md).
 
@@ -28,21 +25,11 @@ EndOfRecordset*fMoreData*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *fMoreData*
-
-  - A **VARIANT\_BOOL** valor que, si se establece en VARIANT\_TRUE, indica que se han agregado más filas para el **conjunto de registros**.
-
-  - *valor de adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Al llamar a **EndOfRecordset**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación que provocó este evento.
-    
-    Antes de que **EndOfRecordset** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para evitar notificaciones posteriores.
-
-  - *Connection*
-
-  - Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*fMoreData* |A **VARIANT\_BOOL** valor que, si se establece en VARIANT\_TRUE, indica que se han agregado más filas para el **conjunto de registros**.|
+|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Al llamar a **EndOfRecordset**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación que provocó este evento.<br/><br/>Antes de que **EndOfRecordset** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para evitar notificaciones posteriores.|
+|*Connection* | Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.|
 
 ## <a name="remarks"></a>Comentarios
 

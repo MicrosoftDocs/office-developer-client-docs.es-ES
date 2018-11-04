@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86d164a133538379a15c80f7fb5f2f4ba71267bf
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919685"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950212"
 ---
 # <a name="save-method-ado"></a>Save (método, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ Guarda el objeto [Recordset](recordset-object-ado.md) en un archivo o un objeto 
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Destination*
-
-  - Es opcional. **Variant** que representa la ruta de acceso completa al archivo donde se va a guardar el objeto **Recordset** o una referencia a un objeto **Stream**.
-
-  - *PersistFormat*
-
-  - Es opcional. Valor de [PersistFormatEnum](persistformatenum.md) que especifica el formato en el que se va a guardar el objeto **Recordset** (XML o ADTG). El valor predeterminado es **adPersistADTG**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Destination* |Es opcional. **Variant** que representa la ruta de acceso completa al archivo donde se va a guardar el objeto **Recordset** o una referencia a un objeto **Stream**.|
+|*PersistFormat* |Es opcional. Valor de [PersistFormatEnum](persistformatenum.md) que especifica el formato en el que se va a guardar el objeto **Recordset** (XML o ADTG). El valor predeterminado es **adPersistADTG**.|
 
 ## <a name="remarks"></a>Comentarios
 
@@ -56,11 +52,8 @@ Para obtener los mejores resultados, establezca el valor de la propiedad [Cursor
 
 Cuando se almacena un objeto **Recordset** con el valor de la propiedad **CursorLocation** establecido en **adUseServer**, la función de actualización del objeto **Recordset** es limitada. Normalmente, solo se permiten eliminaciones, inserciones y actualizaciones de una sola tabla (según la funcionalidad del proveedor). El método [Resync](resync-method-ado.md) tampoco está disponible en esta configuración.
 
-
 > [!NOTE]
-> <P>[!NOTA] El almacenamiento de un objeto <STRONG>Recordset</STRONG> con <STRONG>campos</STRONG> de tipo <STRONG>adVariant</STRONG>, <STRONG>adIDispatch</STRONG> o <STRONG>adIUnknown</STRONG> no lo admite ADO y puede generar resultados impredecibles.</P>
-
-
+> [!NOTA] El almacenamiento de un objeto **Recordset** con **campos** de tipo **adVariant**, **adIDispatch** o **adIUnknown** no lo admite ADO y puede generar resultados impredecibles.
 
 Sólo los **filtros** con el formato de las cadenas de criterios (por ejemplo, FechaPedido \> ' 12/31/1999 ') afectan al contenido de un **objeto Recordset**de persistentes. Los filtros creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectan al contenido del objeto **Recordset** almacenado. Estas reglas se aplican a los objetos **Recordset** creados con cursores de cliente o de servidor.
 
@@ -68,11 +61,8 @@ Debido a que el parámetro *Destination* puede aceptar cualquier objeto que admi
 
 También se puede guardar un objeto **Recordset** con formato XML en una instancia de un objeto DOM MSXML, tal y como se muestra en el código siguiente de Visual Basic:
 
-
 > [!NOTE]
-> <P>[!NOTA] Existen dos limitaciones cuando se guardan objetos <STRONG>Recordset</STRONG> jerárquicos (formas de datos) en formato XML: no se puede guardar en XML si el objeto <STRONG>Recordset</STRONG> jerárquico contiene actualizaciones pendientes y no se puede guardar un objeto <STRONG>Recordset</STRONG> jerárquico parametrizado.</P>
-
-
+> [!NOTA] Existen dos limitaciones cuando se guardan objetos **Recordset** jerárquicos (formas de datos) en formato XML: no se puede guardar en XML si el objeto **Recordset** jerárquico contiene actualizaciones pendientes y no se puede guardar un objeto **Recordset** jerárquico parametrizado.
 
 Un objeto Recordset guardado en formato XML se guarda mediante el formato UTF-8. Cuando ese archivo se carga en un objeto Stream de ADO, este objeto no intentará abrir un objeto Recordset de la secuencia, a menos que la propiedad Charset de la secuencia tenga el valor apropiado para el formato UTF-8.
 

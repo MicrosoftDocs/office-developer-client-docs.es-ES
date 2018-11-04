@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3850d57bfcbf61cd5e17456f86dd30812dfde4e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1db793ec99dd0248eacc527bd76068ceec025a58
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921757"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949435"
 ---
 # <a name="infomessage-event-ado"></a>InfoMessage (evento, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,17 +25,9 @@ InfoMessage*pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *pError*
-
-  - Objeto [Error](error-object-ado.md). Este parámetro contiene cualquier error devuelto. Si se devuelven varios errores, enumere la colección **Errors** para encontrarlos.
-
-  - *valor de adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.
-
-  - *pConnection*
-
-  - Objeto [Connection](connection-object-ado.md). La conexión para la que se produjo la advertencia. Por ejemplo, las advertencias pueden ocurrir al abrir un objeto **Connection** o ejecutar un objeto [Command](command-object-ado.md) sobre un objeto **Connection**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*pError* |Objeto [Error](error-object-ado.md). Este parámetro contiene cualquier error devuelto. Si se devuelven varios errores, enumere la colección **Errors** para encontrarlos.|
+|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.|
+|*pConnection* |Objeto [Connection](connection-object-ado.md). La conexión para la que se produjo la advertencia. Por ejemplo, las advertencias pueden ocurrir al abrir un objeto **Connection** o ejecutar un objeto [Command](command-object-ado.md) sobre un objeto **Connection**.|
 

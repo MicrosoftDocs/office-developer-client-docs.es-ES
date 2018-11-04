@@ -10,18 +10,16 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88a5d62cc94aa707c2e90467d74dc07d80a0af02
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d3b36d04345df4c1d556d0607c70b3425f0047e6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928946"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949961"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Crea un nuevo objeto [Parameter](parameter-object-ado.md) con las propiedades especificadas.
 
@@ -35,25 +33,13 @@ Devuelve un objeto **Parameter**.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Nombre*
-
-  - Es opcional. Valor de tipo **String** que contiene el nombre del objeto **Parameter**.
-
-  - *Type*
-
-  - Es opcional. Valor de [DataTypeEnum](datatypeenum.md) que especifica el tipo de datos del objeto **Parameter**.
-
-  - *Direction*
-
-  - Es opcional. Valor de [ParameterDirectionEnum](parameterdirectionenum.md) que especifica el tipo del objeto **Parameter**.
-
-  - *Size*
-
-  - Es opcional. Valor de tipo **Long** que especifica la longitud máxima del valor de parámetro, en caracteres o bytes.
-
-  - *Valor*
-
-  - Es opcional. **Variant** que especifica el valor del objeto **Parameter**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Name* |Es opcional. Valor de tipo **String** que contiene el nombre del objeto **Parameter**.|
+|*Type* |Es opcional. Valor de [DataTypeEnum](datatypeenum.md) que especifica el tipo de datos del objeto **Parameter**.|
+|*Direction* |Es opcional. Valor de [ParameterDirectionEnum](parameterdirectionenum.md) que especifica el tipo del objeto **Parameter**.|
+|*Size* |Es opcional. Valor de tipo **Long** que especifica la longitud máxima del valor de parámetro, en caracteres o bytes.|
+|*Valor* |Es opcional. **Variant** que especifica el valor del objeto **Parameter**.|
 
 ## <a name="remarks"></a>Comentarios
 

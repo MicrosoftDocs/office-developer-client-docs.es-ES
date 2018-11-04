@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29af4adf95eeb47be18bd8cb8368c47fc0e70a85
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 9103135100c5a10931ee63bfbdeabe9d97119fd2
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928267"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949267"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Anexa datos a un objeto [Field](field-object-ado.md) de texto o de datos binarios de gran tamaño, o bien, a un objeto [Parameter](parameter-object-ado.md).
 
@@ -27,13 +25,10 @@ Anexa datos a un objeto [Field](field-object-ado.md) de texto o de datos binario
 
 ## <a name="parameters"></a>Parámetros
 
-  - *objeto*
-
-  - Objeto **Field** o **Parameter**.
-
-  - *Datos*
-
-  - **Variant** que contiene los datos que se van a anexar al objeto.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*objeto* |Objeto **Field** o **Parameter**.|
+|*Datos* |**Variant** que contiene los datos que se van a anexar al objeto.|
 
 ## <a name="remarks"></a>Comentarios
 

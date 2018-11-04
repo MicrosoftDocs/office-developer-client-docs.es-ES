@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a47709d1be3eab66f849e076c5756d5081d28fc8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 632bf0af35dd49951d58ba126b6e03678a1a12db
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930234"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950254"
 ---
 # <a name="databasemakereplica-method-dao"></a>Database.MakeReplica (método) (DAO)
 
@@ -29,7 +29,7 @@ Crea una nueva réplica a partir de otra réplica de base de datos (sólo en ár
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -48,19 +48,19 @@ Crea una nueva réplica a partir de otra réplica de base de datos (sólo en ár
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ruta de acceso</p></td>
+<td><p><em>Ruta de acceso</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Ruta de acceso y nombre de archivo de la nueva réplica. Si la réplica es un nombre de archivo existente, se produce un error.</p></td>
 </tr>
 <tr class="even">
-<td><p>Descripción</p></td>
-<td><p>Necesario</p></td>
+<td><p><em>Descripción</em></p></td>
+<td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p><strong>String</strong> que describe la réplica que se va a crear</p></td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> que especifica las características de la réplica que se va a crear.</p></td>

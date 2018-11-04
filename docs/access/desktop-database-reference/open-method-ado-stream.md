@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc0f12e05e65dd24b73dfcf5702fbe09169ba397
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944840"
+ms.locfileid: "25949827"
 ---
 # <a name="open-method-ado-stream"></a>Open (método, Stream de ADO)
 
@@ -27,25 +27,13 @@ Abre un objeto [Stream](stream-object-ado.md) para manipular secuencias de datos
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Source*
-
-  - Es opcional. Valor de tipo **Variant** que especifica el origen de datos del objeto **Stream**. *Source* puede contener una cadena de dirección URL absoluta que apunta a un nodo existente en una estructura de árbol conocida, como un sistema de correo electrónico o archivo. Una dirección URL debe especificarse mediante la palabra clave URL ("URL =*combinación*://*server*/*carpeta*"). Asimismo, *Source* puede contener una referencia a un objeto [Record](record-object-ado.md) ya está abierto, que abre la secuencia predeterminada asociada con el **registro**. Si no se especifica *Source* , una **secuencia** se crea una instancia y se abre, asociada a ningún origen subyacente de forma predeterminada. Para obtener más información acerca de los esquemas URL y sus proveedores asociados, vea [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
-
-  - *Mode*
-
-  - Es opcional. Valor de [ConnectModeEnum](connectmodeenum.md) que especifica el modo de acceso del objeto **Stream** resultante (por ejemplo, de lectura y escritura, o bien, de solo lectura). El valor predeterminado es **adModeUnknown**. Vea la propiedad [Mode](mode-property-ado.md) para obtener más información sobre los modos de acceso. Si no se especifica el *modo* , es heredada por el objeto de origen. Por ejemplo, si el objeto **Record** de origen se abre en modo de solo lectura, el objeto **Stream** también se abrirá de forma predeterminada en modo de solo lectura.
-
-  - *AdOpenStreamFromRecord*
-
-  - Es opcional. Valor de [StreamOpenOptionsEnum](streamopenoptionsenum.md). El valor predeterminado es **adOpenStreamUnspecified**.
-
-  - *UserName*
-
-  - Es opcional. Valor de tipo **String** con la identificación del usuario que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.
-
-  - *Password*
-
-  - Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Source* |Es opcional. Valor de tipo **Variant** que especifica el origen de datos del objeto **Stream**. *Source* puede contener una cadena de dirección URL absoluta que apunta a un nodo existente en una estructura de árbol conocida, como un sistema de correo electrónico o un archivo. Una dirección URL debe especificarse mediante la palabra clave URL ("URL =*combinación*://*server*/*carpeta*"). Asimismo, *Source* puede contener una referencia a un objeto [Record](record-object-ado.md) ya está abierto, que abre la secuencia predeterminada asociada con el **registro**. Si no se especifica *Source* , una **secuencia** se crea una instancia y se abre, asociada a ningún origen subyacente de forma predeterminada. Para obtener más información sobre los esquemas URL y sus proveedores asociados, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).|
+|*Mode* |Es opcional. Valor de [ConnectModeEnum](connectmodeenum.md) que especifica el modo de acceso del objeto **Stream** resultante (por ejemplo, de lectura y escritura, o bien, de solo lectura). El valor predeterminado es **adModeUnknown**. Vea la propiedad [Mode](mode-property-ado.md) para obtener más información sobre los modos de acceso. Si no se especifica el *modo* , es heredada por el objeto de origen. Por ejemplo, si el objeto **Record** de origen se abre en modo de solo lectura, el objeto **Stream** también se abrirá de forma predeterminada en modo de solo lectura.|
+|*AdOpenStreamFromRecord* |Es opcional. Valor de [StreamOpenOptionsEnum](streamopenoptionsenum.md). El valor predeterminado es **adOpenStreamUnspecified**.|
+|*UserName* |Es opcional. Valor de tipo **String** con la identificación del usuario que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.|
+|*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.|
 
 ## <a name="remarks"></a>Comentarios
 

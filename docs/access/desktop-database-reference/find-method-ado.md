@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: fa7dc2361d31a6d18af3c381dd75f8f934e78e05
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936618"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949883"
 ---
 # <a name="find-method-ado"></a>Find (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Busca en un objeto [Recordset](recordset-object-ado.md) la fila que cumpla los criterios especificados. De manera opcional, se puede especificar la dirección de la búsqueda, la fila inicial y el desplazamiento desde la fila inicial. Si se cumplen los criterios, la posición de fila actual se establece en el registro encontrado; en caso contrario, se establece en el final (o el inicio) del objeto **Recordset**.
 
@@ -27,21 +25,12 @@ Buscar (*criterios*, *SkipRows*, *SearchDirection*, *Iniciar*)
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Criteria*
-
-  - Valor de tipo **String** con una instrucción que especifica el nombre de columna, el operador de comparación y el valor que se van a utilizar en la búsqueda.
-
-  - *SkipRows*
-
-  - Es opcional *.* Valor de tipo **Long**, cuyo valor predeterminado es cero, que especifica el desplazamiento con respecto a la fila actual o el marcador *Start* para iniciar la búsqueda. De forma predeterminada, la búsqueda inicia en la fila actual.
-
-  - *SearchDirection*
-
-  - Es opcional *.* Valor de [SearchDirectionEnum](searchdirectionenum.md) que especifica si la búsqueda debe iniciar en la fila actual o la siguiente fila disponible en dirección de la búsqueda. Una búsqueda sin resultados se detiene al final del objeto **Recordset** si el valor es **adSearchForward**. Una búsqueda sin resultados se detiene al principio del objeto **Recordset** si el valor es **adSearchBackward**.
-
-  - *Start*
-
-  - Es opcional. Marcador de tipo **Variant** que funciona como posición inicial de la búsqueda.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Criteria* |Valor de tipo **String** con una instrucción que especifica el nombre de columna, el operador de comparación y el valor que se van a utilizar en la búsqueda.|
+|*SkipRows* |Opcional. Un valor de **tipo Long** , cuyo valor predeterminado es cero, que especifica el desplazamiento de fila de la fila actual o el marcador de *Inicio* para iniciar la búsqueda. De forma predeterminada, la búsqueda inicia en la fila actual.|
+|*SearchDirection* |Opcional. Valor de [SearchDirectionEnum](searchdirectionenum.md) que especifica si la búsqueda debe iniciar en la fila actual o la siguiente fila disponible en dirección de la búsqueda. Una búsqueda sin resultados se detiene al final del objeto **Recordset** si el valor es **adSearchForward**. Una búsqueda sin resultados se detiene al principio del objeto **Recordset** si el valor es **adSearchBackward**.|
+|*Start* |Es opcional. Marcador de tipo **Variant** que funciona como posición inicial de la búsqueda.|
 
 ## <a name="remarks"></a>Comentarios
 
@@ -54,7 +43,6 @@ El valor especificado en *Criteria* puede ser una cadena, un número de punto fl
 Si el operador de comparación es "like", el valor de cadena puede contener un asterisco (\*) para que se busque una o varias apariciones de cualquier carácter o subcadena. Por ejemplo, "state like 'M\*'" encuentra Maine y Massachusetts. También se pueden utilizar asteriscos inicial y final para buscar una subcadena incluida en los valores. Por ejemplo, "state like '\*as\*' encuentra Alaska, Arkansas y Massachusetts.
 
 Se pueden utilizar asteriscos sólo al final de la cadena, o bien, tanto al principio como al final de la cadena, tal y como se ha mostrado anteriormente. No se puede utilizar el asterisco como comodín inicial ('\*str') o comodín incrustado ('s\*r'). En caso contrario, se provocará un error.
-
 
 > [!NOTE]
 > [!NOTA] Se producirá un error si no se establece una posición de fila actual antes de llamar a **Find**. Es preciso llamar a algún método que establezca la posición de fila, como el método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), antes de llamar a **Find**.

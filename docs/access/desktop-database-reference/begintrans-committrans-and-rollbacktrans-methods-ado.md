@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f6e797865889bcf52c6f13e4411e945a72b978e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945925"
+ms.locfileid: "25949995"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans y RollbackTrans (métodos, ADO)
 
@@ -41,16 +41,16 @@ Al método **BeginTrans** se le puede llamar como una función que devuelve una 
 
 ## <a name="parameters"></a>Parámetros
 
-- *objeto*
-
-  - Objeto **Connection**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*objeto* |Objeto **Connection**.|
 
 ### <a name="connection"></a>Connection
 
 Utilice estos métodos con un objeto **Connection** cuando desee guardar o cancelar una serie de cambios realizados en los datos de origen como una sola unidad. Por ejemplo, para transferir dinero entre cuentas, se resta una cantidad de una de las cuentas y se suma la misma cantidad a la otra. Si alguna de las actualizaciones no se realiza correctamente, las cuentas ya no están equilibradas. Si se realizan estos cambios en una transacción abierta, se garantiza que se llevan a cabo todos los cambios, o bien, que no se lleva a cabo ninguno de los cambios.
 
 > [!NOTE]
-> No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor "**Transaction DDL**" aparece en la colección [Properties](properties-collection-ado.md) del objeto **Connection**, lo que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
+> [!NOTA] No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor de **DDL de transacción** aparece en la colección de [Propiedades](properties-collection-ado.md) del objeto **Connection** , que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
 
 Tras llamarse al método **BeginTrans**, el proveedor ya no confirmará instantáneamente los cambios realizados hasta que se llame a **CommitTrans** o a **RollbackTrans** para finalizar la transacción.
 

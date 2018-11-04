@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e998bb49fab57927a8bb233d9eeb3245a1a3876
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ce946d3354f6bbf05ac3819efc5f96c436fa174
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929940"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950128"
 ---
 # <a name="updatebatch-method-ado"></a>UpdateBatch (método, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,9 +25,9 @@ Escribe en el disco todas las actualizaciones por lotes que están pendientes.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *AffectRecords*
-
-  - Es opcional. Valor de [AffectEnum](affectenum.md) que indica el número de registros afectados por el método **UpdateBatch**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*AffectRecords* |Es opcional. Valor de [AffectEnum](affectenum.md) que indica el número de registros afectados por el método **UpdateBatch**.|
 
 ## <a name="remarks"></a>Comentarios
 
@@ -36,11 +35,8 @@ Use el método **UpdateBatch** cuando modifique un objeto **Recordset** en modo 
 
 Si el objeto **Recordset** admite la actualización por lotes, se pueden almacenar en la memoria caché local varios cambios realizados en uno o varios registros hasta que se llama al método **UpdateBatch**. Si está modificando el registro actual o agregando un nuevo registro mientras llama al método **UpdateBatch**, ADO llamará automáticamente al método [Update](update-method-ado.md) para guardar todos los cambios pendientes en el registro actual antes de transmitir al proveedor los cambios por lotes. La actualización por lotes debe utilizarse únicamente con un cursor estático o un cursor dirigido por un conjunto de claves.
 
-
 > [!NOTE]
-> <P>[!NOTA] Si se especifica <STRONG>adAffectGroup</STRONG> como valor para este parámetro, se producirá un error cuando no haya registros visibles en el actual objeto <STRONG>Recordset</STRONG> (como un filtro sin registros coincidentes).</P>
-
-
+> [!NOTA] Si se especifica **adAffectGroup** como valor para este parámetro, se producirá un error cuando no haya registros visibles en el actual objeto **Recordset** (como un filtro sin registros coincidentes).
 
 Si un intento de transmitir los cambios de algunos o todos los registros genera un error debido a un conflicto con los datos subyacentes (por ejemplo, otro usuario ya ha eliminado un registro), el proveedor devuelve advertencias a la colección [Errors](errors-collection-ado.md) y se genera un error en tiempo de ejecución. Utilice la propiedad [Filter](filter-property-ado.md) (**adFilterAffectedRecords**) y la propiedad [Status](status-property-ado-recordset.md) para localizar los registros con conflictos.
 

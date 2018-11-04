@@ -1,17 +1,17 @@
 ---
-title: Item (propiedad) (conjunto de celdas de ADO MD)
-TOCTitle: Item Property (ADO MD Cellset)
+title: Item (propiedad, Cellset de ADO MD)
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946618"
+ms.locfileid: "25949610"
 ---
 # <a name="item-property-ado-md-cellset"></a>Item (propiedad, Cellset de ADO MD)
 
@@ -25,15 +25,9 @@ Establecer*celda* = *conjunto de celdas*. Elemento (*posiciones*)
 
 ## <a name="parameters"></a>Parámetros
 
-- *Positions*
-
-- Una **matriz** **Variant** de valores que especifican inequívocamente una celda. *Positions* puede ser una de las siguientes opciones:
-    
-  - Una matriz de números de posiciones
-    
-  - Una matriz de nombres de miembros
-    
-  - La posición ordinal
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Positions* |Una **matriz de tipo Variant** de valores que especifican inequívocamente una celda. *Positions* puede ser una de las siguientes opciones:<br/><br/>-Una matriz de números de posiciones<br/>-Una matriz de nombres de miembro<br/>-La posición ordinal |
 
 ## <a name="remarks"></a>Comentarios
 

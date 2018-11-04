@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 492602d7150f3080df329d30a38e3af51755cf0f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925236"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949506"
 ---
 # <a name="server-property-rds"></a>Server (propiedad, RDS)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -42,17 +41,11 @@ Es posible establecer la propiedad **Server** durante el diseño en las etiqueta
 
 ## <a name="parameters"></a>Parámetros
 
-*awebsrvr* o *computername*
-
-- Un valor de tipo **String** que incluye una ruta de acceso de Internet o intranet o el nombre del equipo si el servidor se encuentra en un equipo remoto; o, si el servidor se encuentra en el equipo local, una cadena vacía.
-
-*port*
-
-- Opcional. Un puerto que se usa para conectarse a un servidor de IIS. El número de puerto se establece en Internet Explorer (en el menú **Ver**, haga clic en **Opciones de Internet** y, a continuación, seleccione la pestaña **Conexión** ) o en IIS.
-
-*DataControl*
-
-- Variable de objeto que representa un objeto **RDS.DataControl**.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*awebsrvr* o *computername* |Un valor de tipo **String** que incluye una ruta de acceso de Internet o intranet o el nombre del equipo si el servidor se encuentra en un equipo remoto; o, si el servidor se encuentra en el equipo local, una cadena vacía.|
+|*port* |Opcional. Un puerto que se usa para conectarse a un servidor de IIS. El número de puerto se establece en Internet Explorer (en el menú **Ver**, haga clic en **Opciones de Internet** y, a continuación, seleccione la pestaña **Conexión** ) o en IIS.|
+|*DataControl* |Variable de objeto que representa un objeto **RDS.DataControl**.|
 
 ## <a name="remarks"></a>Comentarios
 

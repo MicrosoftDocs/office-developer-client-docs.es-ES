@@ -1,24 +1,22 @@
 ---
-title: Open (método, Objeto Connection de ADO)
-TOCTitle: Open Method (ADO Connection)
+title: Open (método, Connection de ADO)
+TOCTitle: Open method (ADO Connection)
 ms:assetid: 1adaa17d-dfe1-22e0-3415-720516d138f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bd698f7ea6c05d81e07969ae8031049804b7706
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 66a62128a8ad8828c501cdaf899448edd9f1d37f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889472"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949876"
 ---
-# <a name="open-method-ado-connection"></a>Open (método, Objeto Connection de ADO)
-
+# <a name="open-method-ado-connection"></a>Open (método, Connection de ADO)
 
 **Se aplica a**: Access 2013, Office 2013
  
-
 Abre una conexión con un origen de datos.
 
 ## <a name="syntax"></a>Sintaxis
@@ -27,21 +25,12 @@ Abre una conexión con un origen de datos.
 
 ## <a name="parameters"></a>Parámetros
 
-  - *ConnectionString*
-
-  - Es opcional. Valor de tipo **String** que contiene la información de conexión. Vea la propiedad [ConnectionString](connectionstring-property-ado.md) para obtener información detallada sobre los valores de configuración válidos.
-
-  - *UserID*
-
-  - Es opcional. Valor de tipo **String** que contiene el nombre de usuario que se va a utilizar para establecer la conexión.
-
-  - *Password*
-
-  - Es opcional. Valor de tipo **String** que contiene la contraseña que se va a utilizar para establecer la conexión.
-
-  - *Options*
-
-  - Es opcional. Valor de [ConnectOptionEnum](connectoptionenum.md) que determina si este método debe devolver un valor después (sincrónicamente) o antes (asincrónicamentep>) de que se establezca la conexión.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*ConnectionString* |Es opcional. Valor de tipo **String** que contiene la información de conexión. Vea la propiedad [ConnectionString](connectionstring-property-ado.md) para obtener información detallada sobre los valores de configuración válidos.|
+|*UserID* |Es opcional. Valor de tipo **String** que contiene el nombre de usuario que se va a utilizar para establecer la conexión.|
+|*Password* |Es opcional. Valor de tipo **String** que contiene la contraseña que se va a utilizar para establecer la conexión.|
+|*Options* |Es opcional. Valor de [ConnectOptionEnum](connectoptionenum.md) que determina si este método debe devolver un valor después (sincrónicamente) o antes (asincrónicamentep>) de que se establezca la conexión.|
 
 ## <a name="remarks"></a>Comentarios
 
@@ -54,7 +43,6 @@ Si pasa la información de usuario y de contraseña en el argumento *ConnectionS
 Una vez finalizadas las operaciones en un objeto **Connection** abierto, use el método [Close](close-method-ado.md) para liberar los recursos del sistema asociados. Cerrar un objeto no lo quita de la memoria; puede cambiar los valores de sus propiedades y volver a abrirlo más adelante mediante el método **Open**. Para eliminar completamente un objeto de la memoria, establezca el valor de la variable del objeto en *Nothing*.
 
 **Uso de servicio de datos remotos** Cuando se usa en un objeto **Connection** de cliente, el método **Open** no establece una conexión con el servidor hasta que se abre un [objeto Recordset](recordset-object-ado.md) en el objeto **Connection** .
-
 
 > [!NOTE]
 > [!NOTA] Las direcciones URL que utilicen el esquema http invocarán automáticamente [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).

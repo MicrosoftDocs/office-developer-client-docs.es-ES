@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 23357443eeb479a6bdba2a3cc994de226290118a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: eb3f6795ba2e64ebd6be1b04d6aa6aecccef781b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922625"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950093"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Método DBEngine.OpenDatabase (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Abre una base de datos especificada y devuelve una referencia al objeto **[Datab
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -49,25 +48,25 @@ Abre una base de datos especificada y devuelve una referencia al objeto **[Datab
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>El nombre de un archivo de base de datos de Microsoft Access existente, o el nombre de origen de datos (DSN) de un origen de datos ODBC. Para más información sobre la configuración de este valor, consulte la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Establece varias opciones para la base de datos, tal como se especifica en Comentarios.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> si quiere abrir la base de datos con un acceso de solo lectura o <strong>False</strong> (opción predeterminada) si quiere abrir la base de datos con un acceso de escritura/lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conexión</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Especifica diversa información de conexión, incluidas las contraseñas.</p></td>
@@ -76,7 +75,7 @@ Abre una base de datos especificada y devuelve una referencia al objeto **[Datab
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Base de datos
 
@@ -112,14 +111,13 @@ Al abrir una base de datos, se agrega automáticamente a la colección **Databas
 
 Se aplican determinadas consideraciones cuando se utiliza dbname:
 
-  - Si se refiere a una base de datos que ya está abierta para que tenga acceso a ella otro usuario, se produce un error.
+- Si se refiere a una base de datos que ya está abierta para que tenga acceso a ella otro usuario, se produce un error.
 
-  - Si no se refiere a una base de datos existente o a un nombre de origen de datos ODBC válido, se produce un error.
+- Si no se refiere a una base de datos existente o a un nombre de origen de datos ODBC válido, se produce un error.
 
-  - Si es una cadena de longitud cero ("") y *Conectar* es "ODBC;", se muestra un cuadro de diálogo lista de todos los nombres de orígenes de datos ODBC para el usuario pueda seleccionar una base de datos.
+- Si es una cadena de longitud cero ("") y *Conectar* es "ODBC;", se muestra un cuadro de diálogo lista de todos los nombres de orígenes de datos ODBC para el usuario pueda seleccionar una base de datos.
 
 Para cerrar una base de datos y eliminar el objeto **Database** de la colección **Databases**, use el método **[Close](connection-close-method-dao.md)** del objeto.
-
 
 > [!NOTE]
 > [!NOTA] Cuando acceda a un origen de datos ODBC conectado a un motor de base de datos de Microsoft Access, podrá mejorar el rendimiento de la aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular los objetos [TableDef](tabledef-object-dao.md) uno por uno a tablas concretas del origen de datos ODBC.

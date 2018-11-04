@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
 ms:contentKeyID: 48547162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3177e27d3485d8a4ec6adafaa03d968fc15fa62a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4488b18d6c3ab603a84822bfeea732931746b3be
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925965"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949953"
 ---
 # <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>WillChangeRecord y RecordChangeComplete (eventos, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 El evento **WillChangeRecord** se usa (recibe una llamada) antes de cualquier cambio en uno o más registros (filas) del objeto [Recordset](recordset-object-ado.md). El evento **RecordChangeComplete** recibe una llamada después de cualquier cambio en uno o más registros.
 
@@ -29,33 +27,13 @@ RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *adReason*
-
-  - Valor [EventReasonEnum](eventreasonenum.md) que especifica el motivo para este evento. El valor puede ser **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, ** adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete** o **adRsnFirstChange**.
-
-  - *cRecords*
-
-  - Valor **Long** que indica el número de registros cambiados (afectados).
-
-  - *pError*
-
-  - Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de *adStatus* es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.
-
-  - *valor de adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Cuando se realiza una llamada a **WillChangeRecord**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar cancelación de la operación pendiente.
-    
-    Cuando se llama a **RecordChangeComplete**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente, o en **adStatusErrorsOccurred** si se produjo un error en la operación.
-    
-    Antes de que **WillChangeRecord** vuelva, establezca este parámetro en **adStatusCancel** para solicitar la cancelación de la operación que causó este evento, o en adStatusUnwantedEvent para impedir notificaciones posteriores.
-    
-    Antes de que **RecordChangeComplete** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.
-
-  - *Connection*
-
-  - Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*adReason* |Valor [EventReasonEnum](eventreasonenum.md) que especifica el motivo para este evento. El valor puede ser **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, ** adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete** o **adRsnFirstChange**.|
+|*cRecords* |Valor **Long** que indica el número de registros cambiados (afectados).|
+|*pError* |Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de *adStatus* es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.|
+|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Cuando se realiza una llamada a **WillChangeRecord**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar cancelación de la operación pendiente. <br/><br/>Cuando se llama a **RecordChangeComplete**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente, o en **adStatusErrorsOccurred** si se produjo un error en la operación. <br/><br/>Antes de que **WillChangeRecord** vuelva, establezca este parámetro en **adStatusCancel** para solicitar la cancelación de la operación que causó este evento, o en adStatusUnwantedEvent para impedir notificaciones posteriores. <br/><br/>Antes de que **RecordChangeComplete** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.|
+|*Connection* |Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.|
 
 ## <a name="remarks"></a>Comentarios
 

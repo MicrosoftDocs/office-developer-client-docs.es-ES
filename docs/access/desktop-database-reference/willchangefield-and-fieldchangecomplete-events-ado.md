@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2967b6670ad96752e7ce47d82227fad70335e1f6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c6f6d0f44000c0e40f93b7acfc461c7e3fb4e9c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927406"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949841"
 ---
 # <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField y FieldChangeComplete (eventos, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -28,35 +27,13 @@ FieldChangeComplete*cFields*, *campos*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-  - *cFields*
-
-  - Valor **Long** que indica el número de objetos **Field** en *Fields*.
-
-  - *Fields*
-
-  - Para **WillChangeField**, el parámetro *Fields* es una matriz de **valores de tipo Variant** que contiene objetos **Field** con los valores originales.  
-      
-    Para **FieldChangeComplete**, el parámetro *Fields* es una matriz de **valores de tipo Variant** que contiene objetos **Field** con los valores modificados.
-
-  - *pError*
-
-  - Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de *adStatus* es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.
-
-  - *valor de adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Cuando se llama a **WillChangeField**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación pendiente.
-    
-    Cuando se llama a **FieldChangeComplete**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente, o en **adStatusErrorsOccurred** si se produjo un error en la operación.
-    
-    Antes de que **WillChangeField** vuelva, establezca este parámetro en **adStatusCancel** para solicitar la cancelación de la operación pendiente.
-    
-    Antes de que **FieldChangeComplete** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.
-
-  - *Connection*
-
-  - Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*cFields* |Valor **Long** que indica el número de objetos **Field** en *Fields*.|
+|*Fields* |Para **WillChangeField**, el parámetro *Fields* es una matriz de **valores de tipo Variant** que contiene objetos **Field** con los valores originales. <br/><br/>Para **FieldChangeComplete**, el parámetro *Fields* es una matriz de **valores de tipo Variant** que contiene objetos **Field** con los valores modificados.|
+|*pError* |Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de *adStatus* es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.|
+|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Cuando se llama a **WillChangeField**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación pendiente. <br/><br/>Cuando se llama a **FieldChangeComplete**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente, o en **adStatusErrorsOccurred** si se produjo un error en la operación. <br/><br/>Antes de que **WillChangeField** vuelva, establezca este parámetro en **adStatusCancel** para solicitar la cancelación de la operación pendiente. <br/><br/>Antes de que **FieldChangeComplete** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.|
+|*Connection* |Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.|
 
 ## <a name="remarks"></a>Comentarios
 

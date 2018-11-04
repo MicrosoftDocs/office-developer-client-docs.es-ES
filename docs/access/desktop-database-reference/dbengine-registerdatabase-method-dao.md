@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8310f695bdcf229e61e09bce6c0846f9520c0fc6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923514"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949869"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase (método) (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Proporciona información de conexión para un origen de datos ODBC en el Registro de Windows. El controlador ODBC necesita información de conexión cuando se abre el origen de datos ODBC durante una sesión.
 
@@ -31,7 +29,7 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -50,25 +48,25 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DSN</p></td>
+<td><p><em>DSN</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Controlador</p></td>
+<td><p><em>Controlador</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Nombre del controlador ODBC. Éste no es el nombre del archivo DLL del controlador ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Silenciosa</p></td>
+<td><p><em>Silenciosa</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador; o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC. Si silent es <strong>True</strong>, attributes debe contener toda la información necesaria específica del controlador o se muestran los cuadros de diálogo de todos modos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Atributos</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Lista de palabras clave que se deben agregar al Registro de Windows. Las palabras clave están en una cadena delimitada por retornos de carro.</p></td>

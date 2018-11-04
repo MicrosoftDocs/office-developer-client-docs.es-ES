@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927896"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950047"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef (método) (DAO)
 
@@ -29,7 +29,7 @@ Crea un nuevo objeto **[TableDef](tabledef-object-dao.md)** (solo áreas de trab
 
 *expresión* Variable que representa un objeto de **base de datos** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ Crea un nuevo objeto **[TableDef](tabledef-object-dao.md)** (solo áreas de trab
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>TableDef</strong>. Vea el tema relativo a la propiedad <strong><a href="tabledef-name-property-dao.md">Name</a></strong> para obtener información sobre los nombres de <strong>TableDef</strong> válidos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Atributos</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante o combinación de constantes que indican una o varias características del nuevo objeto <strong>TableDef</strong>. Vea el tema relativo a la propiedad <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SourceTableName</p></td>
+<td><p><em>SourceTableName</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que contiene el nombre de una tabla en una base de datos externa que es el origen de los datos. La cadena source se convierte en el valor de la propiedad <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> del nuevo objeto <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conexión</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que contiene información sobre el origen de una base de datos abierta, una base de datos utilizada en una consulta de paso o una tabla vinculada. Vea el tema relativo a la propiedad <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> para obtener más información sobre las cadenas de conexión válidas.</p></td>
@@ -75,7 +75,7 @@ Crea un nuevo objeto **[TableDef](tabledef-object-dao.md)** (solo áreas de trab
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 TableDef
 

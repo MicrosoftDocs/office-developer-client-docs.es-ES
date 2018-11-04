@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c0a62618eef0a829db84de050aa07c2c645636e5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7501f7607dbee558a67dd0e11d7f2498874f8870
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929443"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950233"
 ---
 # <a name="update-method-ado"></a>Update (método, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -28,27 +27,24 @@ Guarda los cambios realizados en la fila actual de un objeto [Recordset](records
 
 ## <a name="parameters"></a>Parámetros
 
-  - *Fields*
-
-  - Es opcional. **Variant** que representa un solo nombre, o bien, matriz de tipo **Variant** que representa los nombres o las posiciones ordinales del campo o de los campos que se van a modificar.
-
-  - *Values*
-
-  - Es opcional. **Variant** que representa un solo valor, o bien, matriz de tipo **Variant** que representa los valores del campo o de los campos en el registro nuevo.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*Fields* |Es opcional. **Variant** que representa un solo nombre, o bien, matriz de tipo **Variant** que representa los nombres o las posiciones ordinales del campo o de los campos que se van a modificar.|
+|*Values* |Es opcional. **Variant** que representa un solo valor, o bien, matriz de tipo **Variant** que representa los valores del campo o de los campos en el registro nuevo.|
 
 ## <a name="remarks"></a>Comentarios
 
-**Recordset**
+### <a name="recordset"></a>Recordset
 
 Use el método **Update** para guardar los cambios efectuados en el registro actual de un objeto **Recordset** desde la llamada al método [AddNew](addnew-method-ado.md) o desde el cambio de alguno de los valores de campo de un registro existente. El objeto **Recordset** debe ser compatible con las actualizaciones.
 
 Para establecer los valores de campo, siga uno de estos procedimientos:
 
-  - Asigne valores a la propiedad [Value](field-object-ado.md) de un objeto [Field](value-property-ado.md) y llame al método **Update**.
+- Asigne valores a la propiedad [Value](field-object-ado.md) de un objeto [Field](value-property-ado.md) y llame al método **Update**.
 
-  - Pase un nombre de campo y un valor como argumentos con la llamada a **Update**.
+- Pase un nombre de campo y un valor como argumentos con la llamada a **Update**.
 
-  - Pase una matriz de nombres de campo y una matriz de valores con la llamada a **Update**.
+- Pase una matriz de nombres de campo y una matriz de valores con la llamada a **Update**.
 
 Cuando utiliza matrices de campos y valores, debe haber el mismo número de elementos en ambas matrices. Además, el orden de los nombres de campo debe coincidir con el orden de los valores de campo. Si no coinciden el número ni el orden de los campos y valores, se produce un error.
 
@@ -58,7 +54,7 @@ Si sale del registro que está agregando o editando antes de llamar al método *
 
 El registro actual se mantiene actual después de llamar al método **Update**.
 
-**Record**
+### <a name="record"></a>Record
 
 El método **Update** finaliza las adiciones, eliminaciones y actualizaciones realizadas en los campos de la colección [Fields](fields-collection-ado.md) de un objeto **Record**.
 

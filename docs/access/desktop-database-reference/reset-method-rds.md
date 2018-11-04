@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
 ms:contentKeyID: 48543435
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e336a7ddf4db6e927c185b33a4138ab8dd5d5e9a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cebb2f464b63106545ff5b27b1722b6417b9dbe1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925971"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949946"
 ---
 # <a name="reset-method-rds"></a>Reset (método, RDS)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ Ordena o filtra un objeto **Recordset** de cliente según las propiedades de ord
 
 ## <a name="parameters"></a>Parámetros
 
-  - *DataControl*
-
-  - Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *value*
-
-  - Es opcional. Valor de tipo **Boolean** que es **True** (valor predeterminado) si se desea filtrar el conjunto de filas "filtrado" actual. El valor **False** indica que se va a filtrar el conjunto de filas original y que se quitan todas las opciones de filtro anteriores.
+|Parámetro|Descripción|
+|:--------|:----------|
+|*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*value* |Es opcional. Valor de tipo **Boolean** que es **True** (valor predeterminado) si se desea filtrar el conjunto de filas "filtrado" actual. El valor **False** indica que se va a filtrar el conjunto de filas original y que se quitan todas las opciones de filtro anteriores.|
 
 ## <a name="remarks"></a>Comentarios
 
