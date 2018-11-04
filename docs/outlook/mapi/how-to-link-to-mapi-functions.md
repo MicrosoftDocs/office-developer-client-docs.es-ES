@@ -1,5 +1,5 @@
 ---
-title: Vínculo a funciones de MAPI
+title: Vínculo a funciones MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25400148"
 ---
-# <a name="link-to-mapi-functions"></a>Vínculo a funciones de MAPI
+# <a name="link-to-mapi-functions"></a>Vínculo a funciones MAPI
 
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
@@ -128,7 +128,7 @@ Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y p
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
 - [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar los archivos de encabezado MAPI](how-to-install-mapi-header-files.md)
-- [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Elija una versión específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Determinar qué método de vinculación de uso](https://msdn.microsoft.com/library/253b8k2c.aspx)
 - [Vincular un ejecutable a un archivo DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
 - [Configuración de las claves MSI para el archivo DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)

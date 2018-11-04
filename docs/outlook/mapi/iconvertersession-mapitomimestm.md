@@ -126,9 +126,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
   
-[Propiedad canónica PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
+[Propiedad canónico PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[Propiedad can�nico de PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Propiedad canónica PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
 [Constantes MAPI](mapi-constants.md)

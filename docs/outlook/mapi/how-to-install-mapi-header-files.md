@@ -28,6 +28,6 @@ Para obtener una lista de archivos de encabezado MAPI, vea [Usa archivos de enca
 ## <a name="see-also"></a>Vea también
 
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md) 
-- [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
-- [Archivos de encabezado de uso frecuente](commonly-used-header-files.md)
+- [Vínculo a funciones de MAPI](how-to-link-to-mapi-functions.md)
+- [Archivos de encabezado utilizados normalmente](commonly-used-header-files.md)
 

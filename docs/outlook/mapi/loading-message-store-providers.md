@@ -50,5 +50,5 @@ La secuencia de llamada cuando un proveedor de mensajes que se carga el archivo 
 
 
 
-[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
 
