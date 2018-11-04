@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
+description: 'Última modificación: 05 de julio de 2012'
 ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25390964"
 
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación. En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo es un complemento COM que se agrega un menú de **Estado desconectado** a Outlook y usa la API de estado sin conexión. A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento de ejemplo desconectado estado, vea [instalar el complemento de estado sin conexión de ejemplo](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Acerca de la sin conexión estado API](about-the-offline-state-api.md).
+Para implementar un complemento en el estado sin conexión, debe implementar connection, inicialización y otras funciones del programa de instalación. En este tema, estos conexión, inicialización y el programa de instalación se muestran las funciones mediante el uso de los ejemplos de código desde el complemento de estado sin conexión de ejemplo. El complemento estado sin conexión de muestra es un complemento COM que agrega un menú **Estado sin conexión** a Outlook y usa la API de estado sin conexión. A través del menú de **Estado desconectado** , puede habilitar o deshabilitar la supervisión de estado, compruebe el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
 Después de configurar un complemento en el estado sin conexión, debe implementar las funciones para supervisar y modificar los cambios de estado de conexión. Para obtener más información, vea [Supervisión conexión el estado de los cambios utilizando un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -292,6 +292,6 @@ HRESULT CMyAddin::HrAddMenuItems()
 - [Información sobre la API de estado sin conexión](about-the-offline-state-api.md) 
 - [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
 - [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
-- [Supervisar los cambios estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
+- [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Desconectar un sin conexión estado Add-in](disconnecting-an-offline-state-add-in.md)
 

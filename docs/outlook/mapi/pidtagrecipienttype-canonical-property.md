@@ -110,20 +110,20 @@ Mapitags.h
 
 
 
-[Propiedad canónica PidTagRecipientStatus](pidtagrecipientstatus-canonical-property.md)
+[Propiedad canónico PidTagRecipientStatus](pidtagrecipientstatus-canonical-property.md)
   
-[Propiedad canónica PidTagDisplayTo](pidtagdisplayto-canonical-property.md)
+[Propiedad canónico PidTagDisplayTo](pidtagdisplayto-canonical-property.md)
   
-[Propiedad canónica PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)
+[Propiedad canónico PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)
   
-[Propiedad canónica PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)
+[Propiedad canónico PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)
 
 
 [Propiedades MAPI](mapi-properties.md)
   
 [Propiedades MAPI canónicas](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
 
