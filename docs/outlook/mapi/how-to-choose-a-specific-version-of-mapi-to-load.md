@@ -1,5 +1,5 @@
 ---
-title: Elija una versión específica de MAPI para cargar
+title: Elegir una versión específica de MAPI para cargar
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25399735"
 ---
-# <a name="choose-a-specific-version-of-mapi-to-load"></a>Elija una versión específica de MAPI para cargar
+# <a name="choose-a-specific-version-of-mapi-to-load"></a>Elegir una versión específica de MAPI para cargar
 
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
@@ -107,7 +107,7 @@ Debido a que MFCMAPI carga la implementación predeterminada de MAPI de forma pr
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
-- [Vínculo a funciones MAPI](how-to-link-to-mapi-functions.md)
+- [Vínculo a funciones de MAPI](how-to-link-to-mapi-functions.md)
 - [Configuración de Mapi32.dll código auxiliar del registro](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
 - [Configuración de las claves MSI para el archivo DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
 - [Asignación explícitamente las llamadas MAPI a los archivos DLL MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)

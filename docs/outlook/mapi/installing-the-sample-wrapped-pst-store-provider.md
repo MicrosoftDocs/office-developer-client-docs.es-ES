@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
-description: '�ltima modificaci�n: jueves, 5 de julio de 2012'
+description: 'Última modificación: 05 de julio de 2012'
 ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -52,13 +52,13 @@ En este tema le lleva a través de los pasos para descargar e instalar al provee
 
 
 
-[Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md)
+[Acerca del ejemplo ajusta el proveedor de almacén de archivos PST](about-the-sample-wrapped-pst-store-provider.md)
   
 [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
   
-[Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+[Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+[Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
   
-[Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+[Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

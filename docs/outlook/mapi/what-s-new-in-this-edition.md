@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+description: 'Última modificación: 07 de diciembre de 2015'
 ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Se ha agregado el contenido de las siguientes características:
     
   - [Referencia MAPI de Outlook](outlook-mapi-reference.md)
     
-  - [Información general de la referencia MAPI de Outlook](outlook-mapi-reference-overview.md)
+  - [Información general sobre la referencia MAPI de Outlook](outlook-mapi-reference-overview.md)
     
 - **Ejemplo de proveedor de almacén de mensaje**: el código de [Ejemplo de proveedor de almacén de archivos PST ajustado](message-store-provider-sample.md) ahora se ha revisado para que reconozca y dar cabida a Outlook 2013. Para obtener más información, vea el contenido se revisó anteriormente en este tema. 
     
@@ -39,7 +39,7 @@ Se ha agregado el contenido de las siguientes características:
     
   - [Perfiles de MAPI](mapi-profiles.md)
     
-  - [Caché de sobrenombre](nickname-cache.md)
+  - [Caché de alias](nickname-cache.md)
     
   - [Secuencia de Autocompletar](autocomplete-stream.md)
     
@@ -47,11 +47,11 @@ Se ha agregado el contenido de las siguientes características:
     
 - **Propiedades**: el **PR_CONVERSATION_KEY** con el nombre de tema de la propiedad ([Propiedad canónico PidTagConversationKey](pidtagconversationkey-canonical-property.md)) se ha agregado y se relaciona con **IPM. Objeto** sólo los mensajes de MAPI de Outlook. Se han revisado los siguientes temas relacionados con él y la documentación de secuencia de formato de encapsulación neutro para el transporte (TNEF): 
     
-  - [Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+  - [Asignación de nombres MAPI para nombres canónicos (propiedad)](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [Asignación de atributos TNEF a propiedades MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [Asignación de atributos TNEF a las propiedades de MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID y attParentID](attconversationid-and-attparentid.md)
     
