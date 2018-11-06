@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7aace8618e9ca5cdd540c15d04869dbce8c3a891
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4682af5c4583b99104acf96b9cd0a4f311e6cb90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926118"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997549"
 ---
 # <a name="runmacro-macro-action"></a>EjecutarMacro (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,11 +25,11 @@ Puede usar la acción **EjecutarMacro** para ejecutar una macro. La macro puede 
 
 Podrá usar esta acción en los siguientes casos:
 
-  - Ejecutar una macro desde dentro de otra macro.
+- Ejecutar una macro desde dentro de otra macro.
 
-  - Ejecutar una macro según una condición determinada.
+- Ejecutar una macro según una condición determinada.
 
-  - Asociar una macro a un comando de menú personalizado.
+- Asociar una macro a un comando de menú personalizado.
 
 ## <a name="setting"></a>Configuración
 
@@ -63,38 +62,24 @@ La acción **EjecutarMacro** utiliza los siguientes argumentos.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentarios
 
 Si escribe un nombre de grupo de macros en el argumento **Nombre de macro**, Access ejecuta la primera macro del grupo de macros.
 
 Esta acción es similar a hacer clic en **Ejecutar macro** en la ficha **Herramientas de base de datos**, seleccionar una macro y hacer clic en **Aceptar**. Sin embargo, el comando ejecuta la macro solo una vez, mientras que la acción **EjecutarMacro** puede ejecutar una macro tantas veces como se desee.
 
-
 > [!TIP]
-> <P>[!SUGERENCIA] Puede usar los argumentos <STRONG>Número de repeticiones</STRONG> y <STRONG>Expresión de repetición</STRONG> para determinar cuántas veces se ejecuta la macro:</P>
-
-
-
-  - Si deja ambos argumentos en blanco, la macro se ejecuta una vez.
-
-  - Si especifica un número en **Número de repeticiones**, pero deja la **Expresión de repetición** en blanco, la macro se ejecuta el número de veces especificado.
-
-  - Si deja el argumento **Número de repeticiones** en blanco, pero especifica una expresión en **Expresión de repetición**, la macro se ejecuta hasta que la expresión se evalúe como **Falso**.
-
-  - Si especifica valores en ambos argumentos, la macro se ejecuta el número de veces que especifica el argumento **Número de repeticiones** o hasta que la **Expresión de repetición** se evalúe como **Falso** (el primer caso de los dos que se produzca).
+> [!SUGERENCIA] Puede usar los argumentos **Número de repeticiones** y **Expresión de repetición** para determinar cuántas veces se ejecuta la macro:
+> - Si deja ambos argumentos en blanco, la macro se ejecuta una vez.
+> - Si especifica un número en **Número de repeticiones**, pero deja la **Expresión de repetición** en blanco, la macro se ejecuta el número de veces especificado.
+> - Si deja el argumento **Número de repeticiones** en blanco, pero especifica una expresión en **Expresión de repetición**, la macro se ejecuta hasta que la expresión se evalúe como **Falso**.
+> - Si especifica valores en ambos argumentos, la macro se ejecuta el número de veces que especifica el argumento **Número de repeticiones** o hasta que la **Expresión de repetición** se evalúe como **Falso** (el primer caso de los dos que se produzca).
 
 Cuando se ejecuta una macro que contiene la acción **EjecutarMacro** y se llega a la acción **EjecutarMacro**, Access ejecuta la macro a la que se ha llamado. Cuando esta macro termina, Access vuelve a la macro original y ejecuta la acción siguiente.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Puede llamar a una macro del mismo grupo de macros o de otro grupo de macros.</P>
-> <LI>
-> <P>Puede anidar macros. Es decir, puede ejecutar la macro A, que a su vez llama a la macro B, y así sucesivamente. En cada caso, cuando termina la macro a la que se ha llamado, Access regresa a la macro que efectuó la llamada y ejecuta la siguiente acción de esa macro.</P></LI></UL>
-
-
+> - Puede llamar a una macro del mismo grupo de macros o de otro grupo de macros.
+> - Puede anidar macros. Es decir, puede ejecutar la macro A, que a su vez llama a la macro B, y así sucesivamente. En cada caso, cuando termina la macro a la que se ha llamado, Access regresa a la macro que efectuó la llamada y ejecuta la siguiente acción de esa macro.
 
 Para ejecutar la acción **EjecutarMacro** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **RunMacro** del objeto **DoCmd**.
 

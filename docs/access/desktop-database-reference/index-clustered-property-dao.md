@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921309"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998934"
 ---
 # <a name="indexclustered-property-dao"></a>Propiedad Index.Clustered (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -38,12 +37,8 @@ Determinados formatos de base de datos de escritorio IISAM utilizan índices agr
 
 La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nuevo que todavía no se ha anexado a una colección y de sólo lectura para un objeto **Index** existente de una colección **Indexes**.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad <STRONG>Clustered</STRONG>, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.</P>
-> <LI>
-> <P>Para los orígenes de datos ODBC, la propiedad <STRONG>Clustered</STRONG> siempre devuelve <STRONG>False</STRONG>; no detecta si el origen de datos ODBC tiene o no un índice agrupado.</P></LI></UL>
+> - Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.
+> - Para los orígenes de datos ODBC, la propiedad **Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene un índice agrupado o no.
 
 

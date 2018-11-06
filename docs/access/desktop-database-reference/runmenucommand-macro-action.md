@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01fc72a620e5c08a6f98b4b69a8eb8da7b98bbb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925677"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996814"
 ---
 # <a name="runmenucommand-macro-action"></a>EjecutarComandoDeMenú (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -47,18 +46,14 @@ La acción **EjecutarComandoDeMenú** usa el siguiente argumento de acción.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentarios
 
 Puede usar la acción **EjecutarComandoDeMenú** para ejecutar un comando de Access desde una barra de menús personalizada, una barra de menús global, un menú contextual personalizado o un menú contextual global.
 
 La acción **EjecutarComandoDeMenú** se puede utilizar en una macro con expresiones condicionales para ejecutar un comando según ciertas condiciones.
 
-
 > [!NOTE]
-> <P>[!NOTA] Al hacer clic en la pestaña <STRONG>Archivo</STRONG> y <STRONG>Reciente</STRONG>, se muestran las bases de datos utilizadas más recientemente. Puede hacer clic en una de estas bases de datos en lugar de hacer clic en <STRONG>Abrir</STRONG>. Estos elementos de base de datos no aparecen en el cuadro de lista desplegable para el argumento <STRONG>Comando</STRONG>, y no están disponibles cuando se utiliza la acción <STRONG>EjecutarComandoDeMenú</STRONG> en una macro.</P>
-
-
+> [!NOTA] Al hacer clic en la pestaña **Archivo** y **Reciente**, se muestran las bases de datos utilizadas más recientemente. Puede hacer clic en una de estas bases de datos en lugar de hacer clic en **Abrir**. Estos elementos de base de datos no aparecen en el cuadro de lista desplegable para el argumento **Comando**, y no están disponibles cuando se utiliza la acción **EjecutarComandoDeMenú** en una macro.
 
 Cuando se convierte una base de datos de Access desde una versión anterior, es posible que algunos comandos dejen de estar disponibles. Puede que algún comando haya cambiado de nombre, se haya trasladado a un menú distinto o ya no esté disponible en Access. Las acciones **EjecutarComandoDeMenú** para tales comandos no pueden ser convertidas a acciones **EjecutarComandoDeMenú**. Cuando se abre la macro, Access muestra una acción **EjecutarComandoDeMenú** con un argumento **Comando** en blanco para esos comandos. Deberá modificar la macro y especificar un argumento de comando válido, o eliminar la acción **EjecutarComandoDeMenú**.
 

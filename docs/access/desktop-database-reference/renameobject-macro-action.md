@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88009020fb320c823f9ca4c1688a0f2bfdecbd44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7d47a59bc82cb6f603fc52d45c675eb8e2877f91
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931011"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998969"
 ---
 # <a name="renameobject-macro-action"></a>CambiarNombreDeObjeto (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **CambiarNombreDeObjeto** para cambiar el nombre de un objeto de base de datos especificado.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
 
 ## <a name="setting"></a>Configuración
 
@@ -58,13 +54,7 @@ La acción **CambiarNombreDeObjeto** tiene los siguientes argumentos.
 <td><p><strong>Nombre anterior</strong></p></td>
 <td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento. 
 
-</p>
-
-> [!NOTE]
-> <P>Si ejecuta una macro que contiene la acción <STRONG>CambiarNombre</STRONG> en una base de datos de biblioteca, Microsoft Access primero busca el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</P>
-
-
-<p></p></td>
+</p><p><strong>Nota</strong>: si ejecuta una macro que contiene la acción <STRONG>CambiarNombre</STRONG> en una base de datos de biblioteca, Microsoft Access busca primero el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
 </tr>
 </tbody>
 </table>

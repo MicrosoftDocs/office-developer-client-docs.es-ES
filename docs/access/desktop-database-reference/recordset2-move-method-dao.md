@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8ed9eb021df9d4c82473f1924a539787680f76a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d2231e94703b49fd14fb89d7642c0144c1dda532
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928806"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998598"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Filas</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>El número de filas en que se mueve la posición. Si rows es superior a 0, la posición se desplaza hacia delante (hacia el final del archivo). Si rows es inferior a 0, la posición se desplaza hacia atrás (hacia el principio del archivo).</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Valor que identifica un marcador. Si especifica startbookmark, el desplazamiento se inicia en relación con este marcador. De lo contrario, el desplazamiento comienza en el registro activo.</p></td>
@@ -68,16 +67,10 @@ Si usa **Move** para colocar el puntero del registro actual detrás del primer r
 
 Si la propiedad **BOF** o **EOF** es **True** e intenta utilizar el método **Move** sin un marcador válido, se produce un error en tiempo de ejecución.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Cuando use <STRONG>Move</STRONG> en un objeto <STRONG>Recordset</STRONG> de tipo de solo avance, el argumento rows debe ser un entero positivo y no se permiten marcadores. Esto significa que el movimiento solo puede ser hacia delante.</P>
-> <LI>
-> <P>Para que el registro primero, último, siguiente o anterior de un objeto <STRONG>Recordset</STRONG> sea el registro activo, use el método <STRONG>MoveFirst</STRONG>, <STRONG>MoveLast</STRONG>, <STRONG>MoveNext</STRONG> o <STRONG>MovePrevious</STRONG>.</P>
-> <LI>
-> <P>El uso de <STRONG>Move</STRONG> con un número de filas igual a 0 es una manera fácil de recuperar los datos subyacentes para el registro activo. Esto es útil si desea asegurarse de que el registro activo tiene los datos más recientes de las tablas base. Asimismo, cancela cualquier llamada <STRONG><A href="recordset2-edit-method-dao.md">Edit</A></STRONG> o <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> pendiente.</P></LI></UL>
-
+> - Cuando use **Move** en un objeto **Recordset** de tipo de solo avance, el argumento rows debe ser un entero positivo y no se permiten marcadores. Esto significa que el movimiento solo puede ser hacia delante.
+> - Para que el registro primero, último, siguiente o anterior de un objeto **Recordset** sea el registro activo, use el método **MoveFirst**, **MoveLast**, **MoveNext** o **MovePrevious**.
+> - El uso de **Move** con un número de filas igual a 0 es una manera fácil de recuperar los datos subyacentes para el registro activo. Esto es útil si desea asegurarse de que el registro activo tiene los datos más recientes de las tablas base. Asimismo, cancela cualquier llamada **[Edit](recordset2-edit-method-dao.md)** o **[AddNew](recordset-addnew-method-dao.md)** pendiente.
 
 
 ## <a name="example"></a>Ejemplo

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8ca2315a9a84000aa29b88043e4edea05ffb0ea
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 66dfe95aaa335e14b0148d2fcd610abc30556e3a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922828"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997500"
 ---
 # <a name="setfield-macro-action"></a>EstablecerCampo (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **EstablecerCampo** puede utilizarse para asignar un valor a un campo.
 
-
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>EstablecerCampo</STRONG> solo está disponible en macros de datos.</P>
-
-
+> [!NOTA] La acción **EstablecerCampo** solo está disponible en macros de datos.
 
 ## <a name="setting"></a>Valores
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f241d8b6a5b13d68ed58b984ef84bfdd942a3891
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 00b39fc81e929ad32a19ef81d3dc9fa5633308f7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949967"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997273"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset (método) (DAO)
 
@@ -41,7 +41,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -82,7 +82,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 
 Recordset
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 En general, si el usuario obtiene este error mientras actualiza un registro, el código debe actualizar el contenido de los campos y recuperar los valores recién modificados. Si el error se produce al eliminar un registro, el código puede mostrar los nuevos datos de registros al usuario y un mensaje en el que se indica que los datos han cambiado recientemente. En ese momento, el código puede pedir una confirmación de que aún se desea eliminar el registro.
 

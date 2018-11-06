@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926216"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997395"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute (método) (DAO)
 
@@ -29,7 +29,7 @@ Ejecuta una instrucción SQL en el objeto especificado.
 
 *expresión* Variable que representa un objeto **QueryDef** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -41,14 +41,14 @@ Ejecuta una instrucción SQL en el objeto especificado.
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Opciones</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -57,7 +57,7 @@ Ejecuta una instrucción SQL en el objeto especificado.
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para ver las opciones.
 

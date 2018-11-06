@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c170c9d02967cb04b387d9f549ad77933d1f55b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b04870a416874e2136e21b40c62d8e64a6182efe
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925649"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998549"
 ---
 # <a name="opendiagram-macro-action"></a>AbrirDiagrama (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, puede usar la acción **AbrirDiagrama** para abrir un diagrama de base de datos en la vista Diseño.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -53,16 +49,12 @@ La acción **AbrirDiagrama** tiene el siguiente argumento.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentarios
 
 Esta acción es similar a hacer doble clic en un diagrama de base de datos en el panel de navegación, o bien, a hacer clic con el botón secundario en el diagrama de base de datos en el panel de navegación y después en **Vista Diseño**.
 
-
 > [!TIP]
-> <P>[!SUGERENCIA] Puede arrastrar un diagrama de base de datos desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción <STRONG>AbrirDiagrama</STRONG> que abre el diagrama de base de datos en la vista Diseño.</P>
-
-
+> [!SUGERENCIA] Puede arrastrar un diagrama de base de datos desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirDiagrama** que abre el diagrama de base de datos en la vista Diseño.
 
 Para ejecutar la acción **AbrirDiagrama** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **OpenDiagram** del objeto **DoCmd**.
 

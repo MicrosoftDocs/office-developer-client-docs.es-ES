@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a4b44545453d9ed92ae09c1d7722ae24ea35fd78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 47dbb798a0b293f1651308de9aa2064e1c421a07
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926349"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996863"
 ---
 # <a name="tabledefvalidationrule-property-dao"></a>Propiedad TableDef.ValidationRule (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -44,8 +43,5 @@ La propiedad **ValidationRule** de un objeto **Recordset** o **TableDef** puede 
 
 Para un objeto **TableDef** basado en una tabla vinculada, la propiedad **ValidationRule** hereda el valor de la propiedad **ValidationRule** de la tabla base subyacente. Si la tabla base subyacente no admite la validación, el valor de esta propiedad es una cadena de longitud cero ("").
 
-
 > [!NOTE]
-> <P>Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.</P>
-
-
+> Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.

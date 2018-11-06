@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7bce54b0cf7e589641eff35c3cbed2bd54dbe3d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: aa5a04ec08136dda637aabff15d89f81be6ecde8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923003"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998577"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Recordset
 
@@ -42,15 +41,9 @@ Puede usar el método **Clone** cuando quiera realizar una operación en un **co
 
 El uso del método **[Close](connection-close-method-dao.md)** en el objeto original o duplicado no afecta al otro objeto. Por ejemplo, usar **Close** en el **conjunto de registros** original no cierra el clon.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Cerrar un conjunto de registros clon con una transacción pendiente provoca una operación <STRONG>Rollback</STRONG> implícita.</P>
-> <LI>
-> <P>Al clonar un objeto <STRONG>Recordset</STRONG> de tipo tabla en un área de trabajo de Microsoft Access, no se clona el valor de la propiedad <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> en la nueva copia del conjunto de registros. Debe copiar el valor de la propiedad <STRONG>Index</STRONG> manualmente.</P></LI></UL>
-
-
+> - Cerrar un conjunto de registros clon con una transacción pendiente provoca una operación **Rollback** implícita.
+> - Al clonar un objeto **Recordset** de tipo tabla en un área de trabajo de Microsoft Access, no se clona el valor de la propiedad **[Index](recordset2-index-property-dao.md)** en la nueva copia del conjunto de registros. Debe copiar el valor de la propiedad **Index** manualmente.
 
 ## <a name="example"></a>Ejemplo
 

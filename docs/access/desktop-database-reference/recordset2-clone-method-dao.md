@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 666e27b176fb973298c791f7473dbda6fe37c7b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 598944aadb344ab97d7561e7ef55a67041c4fbf1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928834"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998755"
 ---
 # <a name="recordset2clone-method-dao"></a>Recordset2.Clone (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Recordset
 
@@ -38,15 +37,9 @@ Puede utilizar el método **Clone** cuando desea realizar una operación en un c
 
 El uso del método **[Close](connection-close-method-dao.md)** en el objeto original o duplicado no afecta al otro objeto. Por ejemplo, utilizar **Close** en el conjunto de registros original no cierra el clon.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Cerrar un conjunto de registros clon con una transacción pendiente provoca una operación <STRONG>Rollback</STRONG> implícita.</P>
-> <LI>
-> <P>Al clonar un objeto <STRONG>Recordset</STRONG> de tipo tabla en un área de trabajo de Microsoft Access, no se clona el valor de la propiedad <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> en la nueva copia del conjunto de registros. Debe copiar el valor de la propiedad <STRONG>Index</STRONG> manualmente.</P></LI></UL>
-
-
+> - Cerrar un conjunto de registros clon con una transacción pendiente provoca una operación **Rollback** implícita.
+> - Al clonar un objeto **Recordset** de tipo tabla en un área de trabajo de Microsoft Access, no se clona el valor de la propiedad **[Index](recordset2-index-property-dao.md)** en la nueva copia del conjunto de registros. Debe copiar el valor de la propiedad **Index** manualmente.
 
 ## <a name="example"></a>Ejemplo
 

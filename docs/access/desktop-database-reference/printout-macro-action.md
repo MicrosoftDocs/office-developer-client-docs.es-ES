@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926755"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999032"
 ---
 # <a name="printout-macro-action"></a>Imprimir (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **Imprimir** para imprimir el objeto activo de la base de datos abierta. Puede imprimir hojas de datos, informes, formularios, páginas de acceso a datos y módulos.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -78,11 +74,8 @@ La acción **Imprimir** tiene los siguientes argumentos.
 
 Esta acción es similar a seleccionar un objeto, hacer clic en la pestaña **Archivo** y, a continuación, hacer clic en **Imprimir**. Con esta acción, no obstante, no aparece el cuadro de diálogo **Imprimir**.
 
-
 > [!TIP]
-> <P>[!SUGERENCIA] Si utiliza frecuentemente determinados valores de impresión, cree una macro que contenga una acción <STRONG>Imprimir</STRONG> con esos valores en sus argumentos.</P>
-
-
+> [!SUGERENCIA] Si utiliza frecuentemente determinados valores de impresión, cree una macro que contenga una acción **Imprimir** con esos valores en sus argumentos.
 
 Los argumentos de esta acción corresponden a las opciones del cuadro de diálogo **Imprimir**. No obstante, a diferencia de la acción **BuscarRegistro** y del cuadro de diálogo **Buscar y reemplazar**, los valores de los argumentos no se comparten con las opciones del cuadro de diálogo **Imprimir**.
 

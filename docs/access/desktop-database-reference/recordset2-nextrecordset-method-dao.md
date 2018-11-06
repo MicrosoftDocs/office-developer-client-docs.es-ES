@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3bbc70c132f0171b5aaeed02abdcdcc933926297
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ada4a573b691fc63a34a9daa5bd60d3aebe0c87d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920679"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997073"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset (método) (DAO)
 
@@ -28,11 +28,11 @@ ms.locfileid: "25920679"
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Booleano
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 En un área de trabajo de ODBCDirect, puede abrir un **objeto Recordset** que contiene más de una consulta de selección en el argumento source de **OpenRecordset**o la propiedad **[SQL](querydef-sql-property-dao.md)** de una objeto **[QueryDef](querydef-object-dao.md)** , como se muestra en el siguiente ejemplo de consulta de selección.
 

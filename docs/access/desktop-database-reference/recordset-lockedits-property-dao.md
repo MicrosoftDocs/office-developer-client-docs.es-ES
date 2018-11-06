@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1f539659ef81ebb484c4a116176974491b0a480
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 81c7b3e2474ee6cbcd8e45b61369e22f20440587
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931067"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996758"
 ---
 # <a name="recordsetlockedits-property-dao"></a>Propiedad Recordset.LockEdits (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -66,11 +65,8 @@ Si establece la propiedad **LockEdits** en **False** y después utiliza el méto
 
 Cuando trabaje con un motor de base de datos Microsoft Access conectado a orígenes de datos ODBC, la propiedad **LockEdits** estará siempre establecida en **False** o en bloqueo optimista. El motor de base de datos Microsoft Access no tiene control sobre los mecanismos de bloqueo utilizados en servidores de bases de datos externos.
 
-
 > [!NOTE]
-> <P>Puede definir previamente el valor de <STRONG>LockEdits</STRONG> la primera vez que abre el <STRONG>conjunto de registros</STRONG> estableciendo el argumento lockedits del método <STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG> . Establecer el argumento lockedits en <STRONG>dbPessimistic</STRONG> se establecerá la propiedad <STRONG>LockEdits</STRONG> en <STRONG>True</STRONG>, y configuración lockedits en cualquier otro valor establecerá la propiedad <STRONG>LockEdits</STRONG> en <STRONG>False</STRONG>.</P>
-
-
+> Puede definir previamente el valor de **LockEdits** la primera vez que abre el **conjunto de registros** estableciendo el argumento lockedits del método **[OpenRecordset](connection-openrecordset-method-dao.md)** . Establecer el argumento lockedits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True**, y configuración lockedits en cualquier otro valor establecerá la propiedad **LockEdits** en **False**.
 
 ## <a name="example"></a>Ejemplo
 

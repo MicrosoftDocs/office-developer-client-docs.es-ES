@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50e1cf6b2eb87e27f6ee0ca1468ef6dadc17e602
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c3f8ee64f7eff6b02ddf4a004eaec7364436e0d1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922534"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998423"
 ---
 # <a name="relationsappend-method-dao"></a>Relations.Append (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Agrega un nuevo objeto **Relation** a la colección **Relations**.
 
 *expresión* Variable que representa un objeto **Relations** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Agrega un nuevo objeto **Relation** a la colección **Relations**.
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>Variable de objeto que representa el campo que se va a anexar a la colección.</p></td>

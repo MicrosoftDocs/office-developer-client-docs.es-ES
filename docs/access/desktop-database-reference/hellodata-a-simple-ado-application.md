@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29d3485526b4adb5084b7dd8277b0c93d664af47
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 359816f828191a8643941a21ac520ba7b3231e6b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944658"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998206"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData: Una aplicación sencilla de ADO
 
@@ -33,11 +33,8 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 5.  Por último, copie el código que aparece en el [Código HelloData](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
 
-
 > [!NOTE]
-> <P>[!NOTA] En el ejemplo siguiente y en toda la Guía, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el valor "MyServer" por el nombre del servidor.</P>
-
-
+> [!NOTA] En el ejemplo siguiente y en toda la Guía, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el valor "MyServer" por el nombre del servidor.
 
 Para obtener una descripción detallada del código, vea [Detalles sobre HelloData](hellodata-details.md).
 

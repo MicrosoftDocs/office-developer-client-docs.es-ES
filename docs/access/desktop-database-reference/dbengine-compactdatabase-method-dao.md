@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: df7533376bf6f6d3c5387173a90c7d5e1a5013cd
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950051"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998724"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase (método) (DAO)
 
@@ -44,7 +44,7 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -90,7 +90,7 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede utilizar alguna de las constantes siguientes para el argumento DstLocale si desea especificar la propiedad **CollatingOrder** para comparaciones de cadenas de texto.
 

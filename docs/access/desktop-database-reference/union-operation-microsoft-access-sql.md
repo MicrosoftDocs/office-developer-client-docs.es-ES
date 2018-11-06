@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937424"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998822"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Operación UNION (Microsoft Access SQL)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -69,15 +68,9 @@ Todas las consultas de una operación UNION deben solicitar el mismo número de 
 
 Use alias sólo en la primera instrucción SELECT, ya que en las demás se omiten. En la cláusula ORDER BY, haga referencia a los campos por el nombre que se utilice en la primera instrucción SELECT.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> o <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> en cada argumento de <EM>consulta</EM> para agrupar los datos devueltos.</P>
-> <LI>
-> <P>Puede usar una cláusula <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> al final del último argumento de <EM>consulta</EM> para mostrar los datos devueltos en un orden especificado.</P></LI></UL>
-
-
+> - Puede usar una cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) o [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) en cada argumento de *consulta* para agrupar los datos devueltos.
+> - Puede usar una cláusula [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) al final del último argumento de *consulta* para mostrar los datos devueltos en un orden especificado.
 
 ## <a name="example"></a>Ejemplo
 

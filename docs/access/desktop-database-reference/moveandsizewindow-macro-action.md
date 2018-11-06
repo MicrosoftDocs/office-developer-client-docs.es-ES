@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925271"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998815"
 ---
 # <a name="moveandsizewindow-macro-action"></a>MoverYCambiarTamañoDeVentana (acción de macro)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Si ha establecido el documento de opciones de la ventana para usar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa. Para obtener información acerca de cómo configurar las opciones de la ventana de documento, vea la sección Comentarios.
 
@@ -61,17 +59,14 @@ Si deja un argumento en blanco, Microsoft Access utiliza la configuración actua
 
 Debe escribir un valor para al menos un argumento.
 
-
 > [!NOTE]
-> <P>Cada medida es en pulgadas o centímetros, dependiendo de la configuración regional en el Panel de Control de Windows.</P>
+> Cada medida es en pulgadas o centímetros, dependiendo de la configuración regional en el Panel de Control de Windows.
 
-
-
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para configurar una aplicación para utilizar ventanas superpuestas en lugar de documentos con fichas, utilice el procedimiento siguiente:
 
-1.  y, a continuación, haga clic en **Opciones**
+1.  Haga clic en **Opciones**
 
 2.  Haga clic en **base de datos actual**.
 
@@ -83,11 +78,9 @@ Esta acción es similar a hacer clic en **mover** o **tamaño** en el menú **Co
 
 Puede usar esta acción en cualquier ventana, en cualquier vista.
 
-**Sugerencias**
-
-  - Para mover una ventana sin cambiar su tamaño, especifique valores para la **derecha** y **abajo** argumentos pero deja en blanco los argumentos **ancho** y **alto** .
-
-  - Para cambiar el tamaño de una ventana sin moverla, especifique valores para los argumentos de **alto** y **ancho** pero deja en blanco los argumentos **derecha** y **abajo** .
+> [!TIP]
+> - Para mover una ventana sin cambiar su tamaño, especifique valores para la **derecha** y **abajo** argumentos pero deja en blanco los argumentos **ancho** y **alto** .
+> - Para cambiar el tamaño de una ventana sin moverla, especifique valores para los argumentos de **alto** y **ancho** pero deja en blanco los argumentos **derecha** y **abajo** .
 
 Para ejecutar la acción **Moverycambiartamañodeventana** en un módulo Visual Basic para aplicaciones (VBA), use el método **MoveSize** del objeto **DoCmd** .
 

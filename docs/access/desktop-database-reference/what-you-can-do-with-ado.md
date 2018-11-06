@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02fd4c5dc5c44e15d8318653bbef9755899d61f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 88334bc2d8d1290d21cb9bccddea0801cc51b3b3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947794"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997059"
 ---
 # <a name="what-you-can-do-with-ado"></a>¿Qué se puede hacer con ADO
 
@@ -20,31 +20,31 @@ ms.locfileid: "25947794"
 
 ADO se ha diseñado para proporcionar a los programadores un modelo de objetos lógico y eficaz para el acceso, modificación y actualización, mediante código de programación, de una gran variedad de orígenes de datos por medio de interfaces de sistema OLE DB. El uso más común de ADO es el de consultar en una o varias tablas de una base de datos relacional, recuperar y mostrar los resultados en una aplicación y, quizá, permitir a los usuarios que realicen y guarden cambios en los datos. Otras acciones que se pueden realizar mediante programación con ADO son las siguientes:
 
-  - Consultar una base de datos mediante SQL y mostrar los resultados.
+- Consultar una base de datos mediante SQL y mostrar los resultados.
 
-  - Obtener acceso a información ubicada en un almacén de archivos a través de Internet.
+- Obtener acceso a información ubicada en un almacén de archivos a través de Internet.
 
-  - Manipular mensajes y carpetas en un sistema de correo electrónico.
+- Manipular mensajes y carpetas en un sistema de correo electrónico.
 
-  - Guardar los datos de una base de datos en un archivo XML.
+- Guardar los datos de una base de datos en un archivo XML.
 
-  - Permitir a un usuario revisar y realizar cambios en datos de tablas de base de datos.
+- Permitir a un usuario revisar y realizar cambios en datos de tablas de base de datos.
 
-  - Crear y volver a usar comandos de base de datos parametrizados.
+- Crear y volver a usar comandos de base de datos parametrizados.
 
-  - Ejecutar procedimientos almacenados.
+- Ejecutar procedimientos almacenados.
 
-  - Crear dinámicamente una estructura flexible, denominada **Recordset**, para contener, manipular datos y navegar por ellos.
+- Crear dinámicamente una estructura flexible, denominada **Recordset**, para contener, manipular datos y navegar por ellos.
 
-  - Realizar operaciones transaccionales de bases de datos.
+- Realizar operaciones transaccionales de bases de datos.
 
-  - Filtrar y ordenar copias locales de información de base de datos según criterios especificados en tiempo de ejecución.
+- Filtrar y ordenar copias locales de información de base de datos según criterios especificados en tiempo de ejecución.
 
-  - Crear y manipular resultados jerárquicos de bases de datos.
+- Crear y manipular resultados jerárquicos de bases de datos.
 
-  - Enlazar campos de base de datos a componentes diseñados para datos.
+- Enlazar campos de base de datos a componentes diseñados para datos.
 
-  - Crear **conjuntos de registros** desconectados remotos.
+- Crear **conjuntos de registros** desconectados remotos.
 
 ADO debe exponer una gran variedad de opciones y valores de configuración para proporcionar dicha flexibilidad. Por lo tanto, es importante adoptar un enfoque metódico para aprender a utilizar ADO en una aplicación, descomponiendo cada uno de sus objetivos en partes manejables.
 

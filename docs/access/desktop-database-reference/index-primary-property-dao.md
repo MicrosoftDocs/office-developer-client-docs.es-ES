@@ -1,6 +1,6 @@
 ---
 title: Propiedad Index.Primary (DAO)
-TOCTitle: Primary Property
+TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2ef796ca15ea551010ebf3605a6662bf66d83131
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff99f60fce41c7fa7de604a5109e68f6f744e68a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921883"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997647"
 ---
 # <a name="indexprimary-property-dao"></a>Propiedad Index.Primary (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa un índice de clave principal en una tabla (sólo para áreas de trabajo de Microsoft Access).
 
@@ -37,11 +35,8 @@ El valor de la propiedad **Primary** es de lectura y escritura para un nuevo obj
 
 Un índice de clave principal consiste en uno o varios campos que identifican de manera única todos los registros de una tabla según un orden predefinido. Como el campo de índice debe ser único, la propiedad **[Unique](index-unique-property-dao.md)** del objeto **Index** está establecida en **True**. Si el índice de clave principal se compone de varios campos, cada campo puede contener valores duplicados, pero cada combinación de valores de todos los campos indizados debe ser única. Un índice de clave principal se compone de una clave para la tabla y generalmente contiene los mismos campos que la clave principal.
 
-
 > [!NOTE]
-> <P>[!NOTA] No tiene que crear índices para las tablas, pero el proceso para tener acceso a un registro concreto en tablas grandes sin indizar puede durar mucho tiempo. La propiedad <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de cada objeto <STRONG><A href="field-object-dao.md">Field</A></STRONG> en el objeto <STRONG>Index</STRONG> determina el orden de los registros y, como consecuencia, se determinan las técnicas de acceso que hay que usar para ese índice. Al crear una nueva tabla en su base de datos, es recomendable crear un índice para uno o más campos que identifique cada registro de forma única y después establecer la propiedad <STRONG>Primary</STRONG> del objeto <STRONG>Index</STRONG> en <STRONG>True</STRONG>.</P>
-
-
+> [!NOTA] No tiene que crear índices para las tablas, pero el proceso para tener acceso a un registro concreto en tablas grandes sin indizar puede durar mucho tiempo. La propiedad **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** en el objeto **Index** determina el orden de los registros y, como consecuencia, se determinan las técnicas de acceso que hay que usar para ese índice. Al crear una nueva tabla en su base de datos, es recomendable crear un índice para uno o más campos que identifique cada registro de forma única y después establecer la propiedad **Primary** del objeto **Index** en **True**.
 
 Cuando se establece una clave principal en una tabla, la clave principal se define automáticamente como el índice de clave principal de esa tabla.
 

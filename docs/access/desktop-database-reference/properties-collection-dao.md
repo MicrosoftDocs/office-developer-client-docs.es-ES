@@ -1,20 +1,19 @@
 ---
 title: Colección Properties (DAO)
-TOCTitle: Properties Collection
+TOCTitle: Properties collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0cd2198d0578c6ec42e4bf800d95e1d7afe22786
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926944"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998346"
 ---
 # <a name="properties-collection-dao"></a>Colección Properties (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -28,29 +27,23 @@ Además de las propiedades integradas, también puede crear y agregar sus propia
 
 Puede utilizar el método **Delete** para quitar propiedades definidas por el usuario de la colección **Properties**, pero no puede quitar propiedades integradas.
 
-
 > [!NOTE]
-> <P>[!NOTA] Un objeto <STRONG>Property</STRONG> definido por el usuario sólo está asociado con la instancia concreta de un objeto. La propiedad no está definida para todas las instancias de objetos del tipo seleccionado.</P>
-
-
+> [!NOTA] Un objeto **Property** definido por el usuario sólo está asociado con la instancia concreta de un objeto. La propiedad no está definida para todas las instancias de objetos del tipo seleccionado.
 
 Para hacer referencia a un objeto **Property** integrado en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-objeto. **Propiedades** (0)
+- objeto. **Propiedades** (0)
 
-objeto. **Propiedades** ("nombre")
+- objeto. **Propiedades** ("nombre")
 
-objeto. **Propiedades** \! \[nombre\]
+- objeto. **Propiedades** \! \[nombre\]
 
 Para una propiedad integrada, también se puede usar la siguiente sintaxis:
 
-objeto.Name
-
+- objeto.Name
 
 > [!NOTE]
-> <P>Para una propiedad definida por el usuario, debe usar el objeto completo. <STRONG>Propiedades</STRONG> sintaxis ("nombre").</P>
-
-
+> Para una propiedad definida por el usuario, debe usar el objeto completo. **Propiedades** sintaxis ("nombre").
 
 Con las misma formas sintácticas, se puede hacer referencia también a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si hace referencia al propio objeto **Property** o a la propiedad **Value** del objeto **Property**.
 

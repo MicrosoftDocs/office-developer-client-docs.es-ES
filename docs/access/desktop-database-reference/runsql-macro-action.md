@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb1bdb998373c8dba92910bd6331261514542a04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0527f5a55235fa36725152d228dfd2294c63bf53
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923724"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996877"
 ---
 # <a name="runsql-macro-action"></a>EjecutarSQL (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **EjecutarSQL** se usa para ejecutar una consulta de acción de Access mediante la correspondiente instrucción SQL. También puede ejecutar una consulta de definición de datos.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -125,11 +121,7 @@ Las consultas de Access son en realidad instrucciones SQL que se crean cuando se
 </tbody>
 </table>
 
-
 También puede usar una cláusula IN con estas instrucciones para modificar datos de otra base de datos.
 
-
 > [!NOTE]
-> <P>[!NOTA] Para ejecutar una consulta de selección o una consulta de tabla de referencias cruzadas desde una macro, use el argumento Vista de la acción <STRONG>AbrirConsulta</STRONG> para abrir una consulta de selección o una consulta de tabla de referencias cruzadas existente en la vista Hoja de datos. También puede ejecutar consultas de acción y consultas específicas de SQL existentes de la misma manera.</P>
-
-
+> [!NOTA] Para ejecutar una consulta de selección o una consulta de tabla de referencias cruzadas desde una macro, use el argumento Vista de la acción **AbrirConsulta** para abrir una consulta de selección o una consulta de tabla de referencias cruzadas existente en la vista Hoja de datos. También puede ejecutar consultas de acción y consultas específicas de SQL existentes de la misma manera.

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5116adbf68e4e98c7fbda8285348e00638465742
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bf4c442ecd7cbce740df69d60b5ec3e1e405a412
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946275"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997857"
 ---
 # <a name="recordset-positioning"></a>Posicionamiento de conjunto de registros
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -24,8 +23,7 @@ Use la propiedad **AbsolutePosition** para desplazarse a un registro basándose 
 
 Cuando se establece la propiedad **AbsolutePosition**, incluso aunque sea en un registro en la caché actual, ADO vuelve a cargar la caché con un nuevo grupo de registros empezando por el registro que se haya especificado. La propiedad **CacheSize** determina el tamaño de este grupo.
 
-
 > [!NOTE]
-> <P>[!NOTA] No es aconsejable usar la propiedad <STRONG>AbsolutePosition</STRONG> como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Además, no se tiene la certeza de que un registro dado tenga el mismo valor de <STRONG>AbsolutePosition</STRONG> si se vuelve a consultar y a abrir el objeto <STRONG>Recordset</STRONG>. Los marcadores son el método recomendado para retener cierta posición y volver a ella, y son la única manera de establecer un posicionamiento a través de todos los tipos de objetos <STRONG>Recordset</STRONG>.</P>
+> [!NOTA] No es aconsejable usar la propiedad **AbsolutePosition** como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Además, no se tiene la certeza de que un registro dado tenga el mismo valor de **AbsolutePosition** si se vuelve a consultar y a abrir el objeto **Recordset**. Los marcadores son el método recomendado para retener cierta posición y volver a ella, y son la única manera de establecer un posicionamiento a través de todos los tipos de objetos **Recordset**.
 
 

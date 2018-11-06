@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ecdfcb638a471a91cc6249636748c02b341151b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 342b4c38b6a48ad36dc6d62ee34900e6f2057d42
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922555"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996870"
 ---
 # <a name="setmenuitem-macro-action"></a>EstablecerElementoDelMenú (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **EstablecerElementoDelMenú** sirve para establecer el estado de los elementos de menú (habilitado o deshabilitado, seleccionado o no seleccionado) en los menús globales o personalizados de la ficha **Complementos**.
 
-
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>EstablecerElementoDelMenú</STRONG> solo funciona con menús globales y personalizados creados mediante macros de menús. La acción <STRONG>EstablecerElementoDelMenú</STRONG> está incluida en Microsoft Access sólo a efectos de compatibilidad con versiones anteriores. No se puede usar con la funcionalidad de las barras de comandos. Sin embargo, puede usar las propiedades <STRONG>Enabled</STRONG> y <STRONG>State</STRONG> en un módulo de Visual Basic para Aplicaciones (VBA) con el fin de habilitar, deshabilitar, seleccionar o cancelar la selección de elementos de menús contextuales o menús globales o personalizados.</P>
-
-
+> [!NOTA] La acción **EstablecerElementoDelMenú** solo funciona con menús globales y personalizados creados mediante macros de menús. La acción **EstablecerElementoDelMenú** está incluida en Microsoft Access sólo a efectos de compatibilidad con versiones anteriores. No se puede usar con la funcionalidad de las barras de comandos. Sin embargo, puede usar las propiedades **Enabled** y **State** en un módulo de Visual Basic para Aplicaciones (VBA) con el fin de habilitar, deshabilitar, seleccionar o cancelar la selección de elementos de menús contextuales o menús globales o personalizados.
 
 ## <a name="setting"></a>Configuración
 

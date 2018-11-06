@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920812"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998283"
 ---
 # <a name="navigateto-macro-action"></a>DesplazarseA (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -52,52 +51,50 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Notas
 
-  - Esta acción es similar a seleccionar categorías y grupos de la barra de título del Panel de navegación.
+- Esta acción es similar a seleccionar categorías y grupos de la barra de título del panel de navegación.
 
-  - Los argumentos **Grupo** válidos dependen del argumento **Categoría** que se utilice. Si especifica un argumento **Grupo** no válido, aparecerá un mensaje de error.La tabla siguiente contiene ejemplo de argumentos **Grupo** válidos para cada argumento **Categoría**.
+- Los argumentos **Grupo** válidos dependen del argumento **Categoría** que se utilice. Si especifica un argumento **Grupo** no válido, aparecerá un mensaje de error.La tabla siguiente contiene ejemplo de argumentos **Grupo** válidos para cada argumento **Categoría**.
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Argumento Categoría</p></th>
-    <th><p>Ejemplo de argumentos Grupo</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Tipo de objeto</p></td>
-    <td><p>Tablas; Formularios; Consultas; Páginas; Macros; Módulos</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Tablas y vistas</p></td>
-    <td><p>Nombres de tablas específicas de la base de datos</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Fecha de modificación</p></td>
-    <td><p>Hoy; Ayer; Mes pasado; Con más de</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Fecha de creación</p></td>
-    <td><p>Hoy; Ayer; El mes pasado; Antiguo</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Categoría personalizada</p></td>
-    <td><p>Nombres de grupos que creó para la categoría personalizada especificada</p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p>Argumento Categoría</p></th>
+  <th><p>Ejemplo de argumentos Grupo</p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p>Tipo de objeto</p></td>
+  <td><p>Tablas; Formularios; Consultas; Páginas; Macros; Módulos</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Tablas y vistas</p></td>
+  <td><p>Nombres de tablas específicas de la base de datos</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Fecha de modificación</p></td>
+  <td><p>Hoy; Ayer; Mes pasado; Con más de</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Fecha de creación</p></td>
+  <td><p>Hoy; Ayer; El mes pasado; Antiguo</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Categoría personalizada</p></td>
+  <td><p>Nombres de grupos que creó para la categoría personalizada especificada</p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - Para ejecutar la acción **DesplazarseA** en un módulo de VBA, use el método **NavigateTo** del objeto **DoCmd**.
-
+- Para ejecutar la acción **DesplazarseA** en un módulo de VBA, use el método **NavigateTo** del objeto **DoCmd**.
 
 > [!NOTE]
-> <P>[!NOTA] Para desplazarse al nivel superior de una categoría (por ejemplo, <STRONG>Todas las tablas</STRONG>, <STRONG>Todos los objetos de Access</STRONG> o <STRONG>Todas las fechas</STRONG>), deje el argumento Grupo en blanco. Por ejemplo, cuando el valor del argumento <STRONG>Categoría</STRONG> es <STRONG>Tipo de objeto</STRONG> y se especifica <STRONG>Todos los objetos de Access</STRONG> como argumento <STRONG>Grupo</STRONG>, se genera un error.</P>
+> [!NOTA] Para desplazarse al nivel superior de una categoría (por ejemplo, **Todas las tablas**, **Todos los objetos de Access** o **Todas las fechas**), deje el argumento Grupo en blanco. Por ejemplo, cuando el valor del argumento **Categoría** es **Tipo de objeto** y se especifica **Todos los objetos de Access** como argumento **Grupo**, se genera un error.
 
 

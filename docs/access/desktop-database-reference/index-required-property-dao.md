@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 44fa827be7359c598ff610313be4c2acf30d5e50
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5daadde111c18831108c1149170b71960d84b64
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920567"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996842"
 ---
 # <a name="indexrequired-property-dao"></a>Propiedad Index.Required (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -32,11 +31,8 @@ Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao
 
 ## <a name="remarks"></a>Observaciones
 
-
 > [!NOTE]
-> <P>[!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto <STRONG>Index</STRONG> como para un objeto <STRONG>Field</STRONG>, establézcala para el objeto <STRONG>Field</STRONG>. La validez del valor de la propiedad para un objeto <STRONG>Field</STRONG> se comprueba antes que para un objeto <STRONG>Index</STRONG>.</P>
-
-
+> [!NOTA] Cuando pueda establecer esta propiedad tanto para un objeto **Index** como para un objeto **Field**, establézcala para el objeto **Field**. La validez del valor de la propiedad para un objeto **Field** se comprueba antes que para un objeto **Index**.
 
 La disponibilidad de la propiedad **Required** depende del objeto que contiene la colección [Fields](fields-collection-dao.md), como se muestra en la siguiente tabla.
 

@@ -1,20 +1,19 @@
 ---
 title: El objeto Field (referencia de escritorio de la base de datos de Access)
-TOCTitle: The Field Object
+TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf5e5de6c45cd3b8cc8827a794f5c2ce394d8f43
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d7a8dad03bee863ec53f2731f9e3c99287a70442
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947297"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997430"
 ---
 # <a name="field-object"></a>Field (objeto)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -24,21 +23,21 @@ Utilice la propiedad **Valor** de objetos **Field** para establecer o devolver d
 
 Con las colecciones, los métodos y las propiedades de un objeto **Field**, puede hacer lo siguiente:
 
-  - Devolver el nombre de un campo usando la propiedad **Name**.
+- Devolver el nombre de un campo usando la propiedad **Name**.
 
-  - Ver o cambiar los datos del campo utilizando la propiedad **Valor**. **Valor** es la propiedad predeterminada del objeto **Field**.
+- Ver o cambiar los datos del campo utilizando la propiedad **Valor**. **Valor** es la propiedad predeterminada del objeto **Field**.
 
-  - Devolver las características básicas de un campo mediante las propiedades **Tipo**, **Precision** y **NumericScale**.
+- Devolver las características básicas de un campo mediante las propiedades **Tipo**, **Precision** y **NumericScale**.
 
-  - Devolver el tamaño declarado de un campo mediante la propiedad **DefinedSize**.
+- Devolver el tamaño declarado de un campo mediante la propiedad **DefinedSize**.
 
-  - Devolver el tamaño real de los datos de un campo dado mediante la propiedad **ActualSize**.
+- Devolver el tamaño real de los datos de un campo dado mediante la propiedad **ActualSize**.
 
-  - Determinar qué tipos de funcionalidad se admiten para un campo dado utilizando la propiedad **Attributes** y la colección **Properties**.
+- Determinar qué tipos de funcionalidad se admiten para un campo dado utilizando la propiedad **Attributes** y la colección **Properties**.
 
-  - Manipular los valores de campos que contienen datos de caracteres Long o binarios largos utilizando los métodos **AppendChunk** y **GetChunk**.
+- Manipular los valores de campos que contienen datos de caracteres Long o binarios largos utilizando los métodos **AppendChunk** y **GetChunk**.
 
-Resolver discrepancias en valores de campo durante una actualización por lotes (si el proveedor admite actualizaciones por lotes) utilizando las propiedades **OriginalValue** y **UnderlyingValue**.
+- Resolver discrepancias en valores de campo durante una actualización por lotes (si el proveedor admite actualizaciones por lotes) utilizando las propiedades **OriginalValue** y **UnderlyingValue**.
 
 ## <a name="describing-a-field"></a>Describir un campo
 
@@ -50,7 +49,7 @@ La propiedad **Tipo** indica el tipo de datos del campo. Las constantes de tipo 
 
 Para tipos numéricos de coma flotante como **adNumeric**, se puede obtener más información. La propiedad **NumericScale** indica cuántos dígitos a la derecha del separador decimal se utilizarán para representar valores para el **campo**. La propiedad **Precision** especifica el número máximo de dígitos utilizados para representar valores para el **campo**.
 
-## <a name="determining-field-size"></a>Determinar el tamaño del campo
+## <a name="determining-field-size"></a>Determinar el tamaño de campo
 
 Utilice la propiedad **DefinedSize** para determinar la capacidad de datos de un objeto **Field**.
 
@@ -64,13 +63,10 @@ El identificador de la columna desde el origen de datos se representa mediante l
 
 Para cambiar los datos de un campo, establezca la propiedad **Valor** en un valor nuevo del tipo correcto. Su tipo de cursor debe admitir actualizaciones para cambiar el contenido de un campo. La validación de la base de datos no se hace aquí en modo de proceso por lotes, por lo que deberá comprobar si hay errores cuando llame a **UpdateBatch** en tal caso. Algunos proveedores también admiten las propiedades **UnderlyingValue** y **OriginalValue** del objeto **Field** de ADO para ayudarle a resolver conflictos cuando intenta realizar actualizaciones por lotes. Para obtener detalles acerca de cómo resolver tales conflictos, vea el [Capítulo 4: Modificar datos](chapter-4-editing-data.md).
 
-
 > [!NOTE]
-> <P>[!NOTA] Los valores del <STRONG>campo Recordset</STRONG> no se pueden establecer al anexar nuevos <STRONG>campos</STRONG> a un <STRONG>conjunto de registros</STRONG>. Más bien, los <STRONG>campos</STRONG> nuevos se pueden anexar a un <STRONG>conjunto de registros</STRONG> cerrado. Después, se debe abrir el <STRONG>conjunto de registros</STRONG>, y sólo entonces se podrán asignar valores a estos <STRONG>campos</STRONG>.</P>
+> [!NOTA] Los valores del **campo Recordset** no se pueden establecer al anexar nuevos **campos** a un **conjunto de registros**. Más bien, los **campos** nuevos se pueden anexar a un **conjunto de registros** cerrado. Después, se debe abrir el **conjunto de registros**, y sólo entonces se podrán asignar valores a estos **campos**.
 
-
-
-## <a name="getting-more-field-information"></a>Obtener más información de campos
+## <a name="getting-more-field-information"></a>Obtener más información acerca de campo
 
 Los objetos de ADO tienen dos tipos de propiedades: integradas y dinámicas. Hasta ahora, se han descrito sólo las propiedades integradas del objeto **Field**.
 
@@ -82,13 +78,13 @@ No se puede eliminar ningún tipo de propiedad.
 
 Un objeto dinámico **Property** tiene cuatro propiedades integradas propias:
 
-  - La propiedad **Name** es una cadena que identifica a la propiedad.
+- La propiedad **Name** es una cadena que identifica a la propiedad.
 
-  - La propiedad **Type** es un entero que especifica el tipo de datos de la propiedad.
+- La propiedad **Type** es un entero que especifica el tipo de datos de la propiedad.
 
-  - La propiedad **Value** es una variante que contiene la configuración de la propiedad. **Valor** es la propiedad predeterminada de un objeto **Property**.
+- La propiedad **Value** es una variante que contiene la configuración de la propiedad. **Valor** es la propiedad predeterminada de un objeto **Property**.
 
-  - La propiedad **Attributes** es un valor **Long** que indica características de la propiedad específicas del proveedor.
+- La propiedad **Attributes** es un valor **Long** que indica características de la propiedad específicas del proveedor.
 
 La colección **Properties** del objeto **Field** contiene metadatos adicionales acerca del campo. El contenido de esta colección varía dependiendo del proveedor. El código de ejemplo siguiente examina la colección **Properties** del **conjunto de registros** de ejemplo que se presentó al principio de este capítulo. Primero examina el contenido de la colección. Este código utiliza [OLE DB Provider para SQL Server](microsoft-ole-db-provider-for-sql-server.md), de forma que la colección **Properties** contiene información relativa a ese proveedor.
 

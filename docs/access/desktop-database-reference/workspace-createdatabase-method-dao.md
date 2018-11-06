@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923416"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996898"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 *expresión* Variable que representa un objeto **Workspace** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Cadena de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que está creando. Puede ser el nombre de archivo y ruta de acceso completo. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1&quot;. Sólo se pueden crear archivos de base de datos de Microsoft Access con este método.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conexión</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
@@ -64,7 +63,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Opción</p></td>
+<td><p><em>Opción</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante o combinación de constantes que indican una o varias opciones, tal como se especifica en la sección de configuración. Puede combinar opciones sumando las constantes correspondientes.</p></td>
@@ -176,6 +175,7 @@ Puede utilizar alguna de las constantes siguientes para el argumento locale si d
 </tbody>
 </table>
 
+<br/>
 
 Puede utilizar una o varias de las constantes siguientes en el argumento options para especificar la versión que debe tener el formato de datos y si va a cifrar o no la base de datos.
 
@@ -222,6 +222,7 @@ Puede utilizar una o varias de las constantes siguientes en el argumento options
 </tbody>
 </table>
 
+<br/>
 
 Si omite la constante de cifrado, **CreateDatabase** crea una base de datos no cifrada.
 

@@ -6,32 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f407c5da2ca669025d5aec47685e6eb9732c72c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927105"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998878"
 ---
 # <a name="setvalue-macro-action"></a>EstablecerValor (acción de macro)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Puede usar la ación **SetValue** para configurar el valor de un campo, un control o una propiedad de Microsoft Access en un formulario, una hoja de datos del formulario o un informe.
 
-
 > [!NOTE]
-> <P>[!NOTA] No puede usar la acción <STRONG>SetValue</STRONG> para configuar el valor de una propiedad de Access que devuelva un objeto.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> - [!NOTA] No puede usar la acción **SetValue** para configuar el valor de una propiedad de Access que devuelva un objeto.
+> - [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -55,23 +45,14 @@ La acción **SetValue** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Expresión</strong></p></td>
-<td><p>La expresión que Access usa para configurar el valor de este elemento. Siempre debe usar la sintaxis completa para hacer referencia a los objetos de la expresión. Por ejemplo, para aumentar el valor de un control Salario de un formulario Empleados en un 10 por ciento, use Forms!Employees!Salary*1.1. Se trata de un argumento obligatorio.</p>
-
-> [!NOTE]
-> <P>No debe utilizar un signo igual (<STRONG>=</STRONG>) antes de la expresión en este argumento. Si lo hace, Access evalúa la expresión y, a continuación, utiliza este valor como la expresión en este argumento. Esto puede producir resultados inesperados si la expresión es una cadena.</P>
-
-
+<td><p>La expresión que Access usa para configurar el valor de este elemento. Siempre debe usar la sintaxis completa para hacer referencia a los objetos de la expresión. Por ejemplo, para aumentar el valor de un control Salario de un formulario Empleados en un 10 por ciento, use Forms!Employees!Salary*1.1. Se trata de un argumento obligatorio.</p><p><strong>Nota</strong>: no debe utilizar un signo de igual (=) antes de la expresión en este argumento. Si lo hace, Access evalúa la expresión y, a continuación, utiliza este valor como la expresión en este argumento. Esto puede producir resultados inesperados si la expresión es una cadena.</p>
 <p>Por ejemplo, si escribe <strong> = &quot;cadena1&quot; </strong> para este argumento, Access evalúa primero la expresión como Cadena1. A continuación, utiliza Cadena1 como la expresión en este argumento, esperando encontrar un control o una propiedad denominados cadena1 en el formulario o informe que llamó a la macro.</p></td>
 </tr>
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!NOTA] En una base de datos de Access (.mdb o .accdb), haga clic en el botón <STRONG>Crear</STRONG> para usar el Generador de expresiones para crear una expresión para cualquiera de estos argumentos.</P>
-
-
+> [!NOTA] En una base de datos de Access (.mdb o .accdb), haga clic en el botón **Crear** para usar el Generador de expresiones para crear una expresión para cualquiera de estos argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -83,22 +64,13 @@ Si configura el valor de un control en un formulario, la acción **SetValue** no
 
 Para cambiar el valor de un control, puede usar la acción **SetValue** en una macro especificada por la propiedad de evento **AfterUpdate** del control. Sin embargo, no puede usar la acción **SetValue** en una macro especificada por una propiedad de evento **BeforeUpdate** del control para cambiar el valor del control (aunque puede usar la acción **SetValue** para cambiar el valor de otros controles). También puede usar la acción **SetValue** en una macro especificada por la propiedad **BeforeUpdate** o **AfterUpdate** de un formulario para cambiar el valor de los controles del registro actual.
 
-
 > [!NOTE]
-> <P>No puede usar la acción <STRONG>SetValue</STRONG> para configurar el valor de los siguientes controles:</P>
-> <UL>
-> <LI>
-> <P>Controles enlazados y calculados en informes.</P>
-> <LI>
-> <P>Controles calculados en formularios.</P></LI></UL>
-
-
-
+> No puede usar la acción **SetValue** para configurar el valor de los siguientes controles:
+> - Controles enlazados y calculados en informes.
+> - Controles calculados en formularios.
 
 > [!TIP]
-> <P>Puede usar la acción <STRONG>SetValue</STRONG> para ocultar o mostrar un formulario en la vista Formulario. Escriba <STRONG>Forms</STRONG>!<EM>formname</EM><STRONG>.Visible</STRONG> en el cuadro <STRONG>Elemento</STRONG> y <STRONG>No</STRONG> o <STRONG>Sí</STRONG> en el cuadro <STRONG>Expresión</STRONG>. Configurar una propiedad <STRONG>Visible</STRONG> de un formulario modal en <STRONG>No</STRONG> oculta el formulario y lo convierte en no modal. Configurar la propiedad en <STRONG>Sí</STRONG> muestra el formulario y lo convierte en modal de nuevo.</P>
-
-
+> [!SUGERENCIA] Puede usar la acción **SetValue** para ocultar o mostrar un formulario en la vista Formulario. ¡Escriba **formularios**! formname ****. Visible** en el cuadro **elemento** y **No** o **Sí** en el cuadro **expresión** . Configurar una propiedad **Visible** de un formulario modal en **No** oculta el formulario y lo convierte en no modal. Configurar la propiedad en **Sí** muestra el formulario y lo convierte en modal de nuevo.
 
 Cambiar el valor de o agregar nuevos datos a un control mediante la acción **SetValue** en una macro no desencadena eventos como **BeforeUpdate**, **BeforeInsert** o **Change** que ocurren al cambiar o introducir datos en estos controles en la interfaz de usuario. Estos eventos tampoco ocurren si configura el valor del control con un módulo de Visual Basic para aplicaciones (VBA).
 

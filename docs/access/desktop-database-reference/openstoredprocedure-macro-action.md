@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 22d3422a5c00e6caa20003df3574c26ab061ab53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dba3d57a1b9ce890898ac2f5b76b916b848c5a9b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925348"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997521"
 ---
 # <a name="openstoredprocedure-macro-action"></a>AbrirProcedimientoAlmacenado (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, puede utilizar la acción **AbrirProcedimientoAlmacenado** para abrir un procedimiento almacenado en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta el procedimiento almacenado especificado cuando se abre en la vista Hoja de datos. Puede seleccionar el modo de entrada de datos del procedimiento almacenado y restringir los registros que muestra el procedimiento almacenado.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -61,25 +57,16 @@ La acción **AbrirProcedimientoAlmacenado** tiene los siguientes argumentos.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentarios
 
 Esta acción es similar a hacer doble clic en el procedimiento almacenado en el panel de navegación, o bien, hacer clic con el botón secundario en el procedimiento almacenado en el panel de navegación y seleccionar el comando deseado.
 
 Si se cambia a la vista Diseño mientras está abierto el procedimiento almacenado, se quita el valor del argumento **Modo de datos** del procedimiento almacenado. Este valor no tiene efecto aunque el usuario vuelva a la vista Hoja de datos.
 
-
 > [!TIP]
-> <P></P>
-> <UL>
-> <LI>
-> <P>Puede arrastrar un procedimiento almacenado desde el panel de navegación a una fila de la acción de macro. Esto crea automáticamente una acción <STRONG>AbrirProcedimientoAlmacenado</STRONG> que abre el procedimiento almacenado en la vista Hoja de datos.</P>
-> <LI>
-> <P>
-> 						Si no desea que se muestren los mensajes del sistema que normalmente aparecen al ejecutarse un procedimiento almacenado (los mensajes indican que se trata de un procedimiento almacenado y muestran cuántos registros se verán afectados), puede utilizar la acción <STRONG>EstablecerAdvertencias</STRONG> para suprimir la presentación de estos mensajes.
-</P></LI></UL>
-<P></P>
-
+> - Puede arrastrar un procedimiento almacenado desde el panel de navegación a una fila de la acción de macro. Esto crea automáticamente una acción **AbrirProcedimientoAlmacenado** que abre el procedimiento almacenado en la vista Hoja de datos.
+> - 
+						Si no desea que se muestren los mensajes del sistema que normalmente aparecen al ejecutarse un procedimiento almacenado (los mensajes indican que se trata de un procedimiento almacenado y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.
 
 
 Para ejecutar la acción **AbrirProcedimientoAlmacenado** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **OpenStoredProcedure** del objeto **DoCmd**.

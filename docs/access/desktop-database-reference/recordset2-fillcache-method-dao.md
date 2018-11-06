@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 308d388b023b2697d1e7af52b47218eeb3d023f2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: ef0f4ad298e316cbae295bcf4f6c4c5349b18655
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949533"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998535"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache (método) (DAO)
 
@@ -29,7 +29,7 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -41,20 +41,20 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Filas</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si omite este argumento, el valor se determina mediante el valor de la propiedad <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si omite este argumento, la caché se rellena empezando por el registro indicado por la propiedad <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
@@ -75,15 +75,9 @@ Si rows y startbookmark crean un intervalo de registros que está parcial o tota
 
 Si **FillCache** solicita más registros que el número restante en el origen de datos remoto, el motor de base de datos de Microsoft Access sólo recupera los registros restantes y no se produce ningún error.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Los registros recuperados de la caché no reflejan los cambios simultáneos realizados por otros usuarios en el origen de datos.</P>
-> <LI>
-> <P><STRONG>FillCache</STRONG> solo recupera los registros que aún no están almacenados en la memoria caché. Para forzar una actualización de todos los datos almacenados en la memoria caché, establezca la propiedad <STRONG>CacheSize</STRONG> del objeto <STRONG>Recordset</STRONG> en 0, restablézcala al tamaño de la memoria caché que solicitó originalmente y, a continuación, use <STRONG>FillCache</STRONG>.</P></LI></UL>
-
-
+> - Los registros recuperados de la caché no reflejan los cambios simultáneos realizados por otros usuarios en el origen de datos.
+> - **FillCache** solo recupera los registros que aún no están almacenados en la memoria caché. Para forzar una actualización de todos los datos almacenados en la memoria caché, establezca la propiedad **CacheSize** del objeto **Recordset** en 0, restablézcala al tamaño de la memoria caché que solicitó originalmente y, a continuación, use **FillCache**.
 
 ## <a name="example"></a>Ejemplo
 

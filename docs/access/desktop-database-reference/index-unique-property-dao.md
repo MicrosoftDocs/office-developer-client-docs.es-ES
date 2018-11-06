@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dd3bd047afed2e547be0fb7b6999c16dd0b12cc1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926111"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996478"
 ---
 # <a name="indexunique-property-dao"></a>Propiedad Index.Unique (DAO)
 
@@ -37,21 +37,12 @@ Un índice único consta de uno o varios campos que organizan de forma lógica t
 
 Si las propiedades **Unique** y **[Primary](index-primary-property-dao.md)** de un objeto **Index** se establecen en **True**, el índice es único y principal: identifica de forma única todos los registros de la tabla en un orden lógico predefinido. Si la propiedad **Primary** se establece en **False**, el índice es un índice secundario. Los índices secundarios (ya sean o no clave) organizan de forma lógica los registros según un orden predefinido y no actúan como identificadores de los registros de la tabla.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>No tiene que crear índices para las tablas pero, en tablas grandes sin indizar, el acceso a un registro concreto puede durar mucho tiempo.</P>
-> <LI>
-> <P>Los registros recuperados de tablas sin índices se devuelven sin seguir una secuencia concreta.</P>
-> <LI>
-> <P>La propiedad <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de cada objeto <STRONG><A href="field-object-dao.md">Field</A></STRONG> del objeto <STRONG>Index</STRONG> determina el orden de los registros y, por lo tanto, determina las técnicas de acceso que se utilizan para ese objeto <STRONG>Index</STRONG>.</P>
-> <LI>
-> <P>Un índice único ayuda a optimizar la búsqueda de registros.</P>
-> <LI>
-> <P>Los índices no afectan al orden físico de una tabla base; solo afectan a cómo el objeto <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> de tipo tabla obtiene acceso a los registros cuando se elige un índice concreto o cuando el motor de base de datos de Microsoft Access crea objetos <STRONG>Recordset</STRONG>.</P></LI></UL>
-
-
+> - No tiene que crear índices para las tablas pero, en tablas grandes sin indizar, el acceso a un registro concreto puede durar mucho tiempo.
+> - Los registros recuperados de tablas sin índices se devuelven sin seguir una secuencia concreta.
+> - La propiedad **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** del objeto **Index** determina el orden de los registros y, por lo tanto, determina las técnicas de acceso que se utilizan para ese objeto **Index**.
+> - Un índice único ayuda a optimizar la búsqueda de registros.
+> - Los índices no afectan al orden físico de una tabla base; indiza afectan sólo cómo se tiene acceso a los registros por el objeto de **[conjunto de registros](recordset-object-dao.md)** de tipo tabla cuando se elige un índice concreto o cuando el motor de base de datos de Microsoft Access crea objetos **Recordset** .
 
 ## <a name="example"></a>Ejemplo
 

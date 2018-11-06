@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 241d9470d518893312daaa8101a5517706ea1e50
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883690"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998360"
 ---
 # <a name="working-with-recordsets"></a>Trabajar con conjuntos de registros
-
 
 **Se aplica a**: Access 2013, Office 2013 
 
@@ -48,7 +47,7 @@ El método **Find** busca rápidamente un valor en una columna (campo) de un obj
 
 El método **Find** limita la búsqueda al contenido de un campo. El método **Seek** requiere un índice y tiene también otras limitaciones. Si es necesario buscar en varios campos que no constituyan un índice, o si su proveedor no admite índices, puede limitar los resultados mediante la propiedad **Filter** del objeto **Recordset**.
 
-## <a name="find"></a>Find
+### <a name="find"></a>Find
 
 El método **Find** busca en un objeto **Recordset** la fila que cumple un criterio especificado. Opcionalmente, es posible especificar la dirección de la búsqueda, la fila inicial y el desplazamiento desde ésta. Si se cumple el criterio, la posición de la fila actual se establece en el registro encontrado; de lo contrario, se establece al final o al principio del objeto **Recordset**, según la dirección de búsqueda.
 
@@ -62,7 +61,7 @@ Si el operador de comparación es "like", el valor de cadena puede contener un a
 
 Se pueden utilizar asteriscos sólo al final de la cadena; o bien, tanto al principio como al final de la cadena, como se ha indicado anteriormente. No se puede utilizar el asterisco como comodín inicial ('\*str') o comodín incrustado ('s\*r'). De lo contrario, se generará un error.
 
-## <a name="seek-and-index"></a>Seek e Index
+### <a name="seek-and-index"></a>Seek e Index
 
 Use el método **Seek** junto con la propiedad **Index** si el proveedor subyacente admite índices en el objeto **Recordset**. Use el método [Supports](supports-method-ado.md)**(adSeek)** para determinar si el proveedor subyacente admite **Seek**, y el método **Supports(adIndex)** para determinar si el proveedor admite índices. Por ejemplo, el [proveedor OLE DB para Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) admite **Seek** e **Index**.
 
@@ -80,29 +79,25 @@ Use la propiedad **Filter** para ocultar selectivamente los registros de un obje
 
 La propiedad **Filter** toma un argumento Variant. Este valor representa uno de los tres métodos para utilizar esta**** propiedad: una cadena de criterio, una constante **FilterGroupEnum** o una matriz de marcadores. Para obtener más información, vea Filtrar por una cadena de criterios, Filtrar por una constante y Filtrar por marcadores, más adelante en este mismo tema.
 
-
 > [!NOTE]
-> <P>[!NOTA] Cuando se conocen los datos que se desean seleccionar, normalmente es más eficiente abrir un objeto <STRONG>Recordset</STRONG> con una instrucción SQL que filtra, de hecho, el conjunto de resultados, en vez de utilizar la propiedad <STRONG>Filter</STRONG>.</P>
-
-
+> [!NOTA] Cuando se conocen los datos que se desean seleccionar, normalmente es más eficiente abrir un objeto **Recordset** con una instrucción SQL que filtra, de hecho, el conjunto de resultados, en vez de utilizar la propiedad **Filter**.
 
 Para quitar un filtro de un objeto **Recordset**, use la constante **adFilterNone**. El establecimiento de la propiedad **Filter** en una cadena de longitud cero ("") tiene el mismo efecto que el uso de la constante **adFilterNone**.
 
-## <a name="filtering-with-a-criteria-string"></a>Filtrar por una cadena de criterios
+### <a name="filtering-with-a-criteria-string"></a>Filtrar por una cadena de criterios
 
 La cadena de criterios se compone de cláusulas con el formato *NombreCampo Operador valor* (por ejemplo, "LastName = 'Cervantes'"). Puede crear cláusulas compuestas concatenando cláusulas individuales con AND (por ejemplo, "LastName = 'Smith' AND FirstName = 'John'") y OR (por ejemplo,). Puede crear cláusulas compuestas concatenando cláusulas individuales con AND (por ejemplo, "LastName = 'Smith' AND FirstName = 'Juan'") y o (por ejemplo, "LastName = 'Smith' OR LastName = 'Jones'"). Utilice las indicaciones siguientes para las cadenas de criterios:
 
-  - *FieldName* debe ser un nombre de campo válido desde el **conjunto de registros**. Si el nombre de campo contiene espacios, debe ir entre corchetes.
+- *FieldName* debe ser un nombre de campo válido desde el **conjunto de registros**. Si el nombre de campo contiene espacios, debe ir entre corchetes.
 
-  - *Operador* debe ser uno de los siguientes: \<, \>, \<=, \>=, \< \>, = o LIKE.
+- *Operador* debe ser uno de los siguientes: \<, \>, \<=, \>=, \< \>, = o LIKE.
 
-  - *Valor* es el valor con el que se va a comparar los valores de campo (por ejemplo, 'Smith', \#24/8/95\#, 12.345 o $50.00). Usar comillas simples (') con las cadenas y signos de número (\#) con las fechas. Con los números puede utilizar comas decimales, signos de dólar y notación científica. Si *operador* es LIKE, *valor* puede utilizar caracteres comodín. Sólo el asterisco (\*) y el signo de porcentaje (%) se admiten caracteres comodín y deben ser el último carácter en la cadena. *Valor* no puede ser null.
+- *Valor* es el valor con el que se va a comparar los valores de campo (por ejemplo, 'Smith', \#24/8/95\#, 12.345 o $50.00). Usar comillas simples (') con las cadenas y signos de número (\#) con las fechas. Con los números puede utilizar comas decimales, signos de dólar y notación científica. Si *operador* es LIKE, *valor* puede utilizar caracteres comodín. Sólo el asterisco (\*) y el signo de porcentaje (%) se admiten caracteres comodín y deben ser el último carácter en la cadena. *Valor* no puede ser null.
     
-
-    > [!NOTE]
-    > <P>Para incluir comillas simples (') en el filtro de <EM>valor</EM>, utilice dos comillas simples para representar una. Por ejemplo, para filtrar por <EM>o ' Malley</EM>, la cadena de criterios debe ser "col1 = ' O'' Malley'". Para incluir comillas simples al principio y al final del valor de filtro, ponga la cadena entre signos de número (#). Por ejemplo, para filtrar por <EM>'1'</EM>, la cadena de criterios debería ser "col1 = #' 1' #".</P>
-
-
+  > [!NOTE]
+  > Para incluir comillas simples (') en el filtro de *valor*, utilice dos comillas simples para representar una. Por ejemplo, para filtrar por *o ' Malley*, la cadena de criterios debe ser "col1 = ' O'' Malley'". 
+  > 
+  > Para incluir comillas simples al principio y al final del valor de filtro, ponga la cadena entre signos de número (#). Por ejemplo, para filtrar por *'1'*, la cadena de criterios debería ser "col1 = #' 1' #".
 
 No se aplica ningún orden de prioridad entre AND y OR. Las cláusulas se pueden agrupar entre paréntesis. Sin embargo, no puede agrupar cláusulas unidas por un operador OR y, a continuación, unir el grupo a otra cláusula con un operador AND, como se indica a continuación:
 
@@ -120,7 +115,7 @@ En su lugar, debería crear el filtro del siguiente modo:
 
 En una cláusula LIKE, puede utilizar un comodín al principio y al final del patrón (por ejemplo LastName Like '\*mit\*') o sólo al final del patrón (por ejemplo) o sólo al final del patrón (por ejemplo LastName Like ' Smit\*').
 
-## <a name="filtering-with-a-constant"></a>Filtrar por una constante
+### <a name="filtering-with-a-constant"></a>Filtrar por una constante
 
 Las constantes siguientes están disponibles para filtrar objetos **Recordset**.
 
@@ -159,6 +154,7 @@ Las constantes siguientes están disponibles para filtrar objetos **Recordset**.
 </tbody>
 </table>
 
+<br/>
 
 Las constantes de filtro facilitan la resolución de conflictos de registros individuales durante el modo de actualización de proceso por lotes al permitir ver, por ejemplo, sólo aquellos registros que se vieron afectados durante la última llamada al método **UpdateBatch**, como se muestra en el ejemplo siguiente:
 
@@ -193,7 +189,7 @@ Las constantes de filtro facilitan la resolución de conflictos de registros ind
 'EndDeleteGroup 
 ```
 
-## <a name="filtering-with-bookmarks"></a>Filtrar por marcadores
+### <a name="filtering-with-bookmarks"></a>Filtrar por marcadores
 
 Por último, puede pasar una matriz Variant de marcadores a la propiedad **Filter**. El cursor resultante contendrá solo aquellos registros cuyo marcador se pasó a la propiedad. En el ejemplo de código siguiente se crea una matriz de marcadores de los registros de un **conjunto de registros** que tienen una "B" en el campo *ProductName* . A continuación, se pasa la matriz a la propiedad **Filter** y se muestra información acerca del objeto **Recordset** filtrado resultante.
 
@@ -228,7 +224,7 @@ Por último, puede pasar una matriz Variant de marcadores a la propiedad **Filte
     'EndFilterBkmk 
 ```
 
-## <a name="creating-a-clone-of-a-recordset"></a>Crear un clon de un objeto Recordset
+## <a name="creating-a-clone-of-a-recordset"></a>Creación de un clon de un objeto Recordset
 
 Use el método **Clone** para crear varios objetos **Recordset** duplicados, sobre todo si desea mantener más de un registro actual en un conjunto determinado de registros. El método **Clone** es más eficaz que crear y abrir un nuevo objeto **Recordset** con la misma definición que el original.
 

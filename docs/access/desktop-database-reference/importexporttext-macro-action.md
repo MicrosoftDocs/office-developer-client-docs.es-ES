@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: be5497b7f1dbed4d32f25f2a675c3f996ed47c9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 10c4c4cb4d0e63f0610c753363b208990e6faae7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925453"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999088"
 ---
 # <a name="importexporttext-macro-action"></a>ImportarExportarTexto (acción de macro)
 
@@ -24,9 +24,7 @@ ms.locfileid: "25925453"
 Puede usar la acción **ImportarExportarTexto** para importar o exportar texto entre la base de datos activa de Microsoft Access (.mdb o .accdb) o un proyecto de Access (.adp) y un archivo de texto. También puede vincular los datos en un archivo de texto a una base de datos de Access activa. Con un archivo de texto vinculado, puede ver los datos del texto con Access y tener al mismo tiempo completo acceso a los datos desde su programa de procesamiento de textos. También puede importar desde, exportar a y vincular a una tabla o lista en un archivo HTML (\*.html).
 
 > [!NOTE]
-> [!NOTA] Si establece un vínculo con los datos de un archivo de texto o de un archivo HTML, los datos en Access son de solo lectura.
-> 
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> [!NOTA] Si establece un vínculo con los datos de un archivo de texto o de un archivo HTML, los datos en Access son de solo lectura. [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -46,13 +44,7 @@ La acción **ImportarExportarTexto** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de transferencia</strong></p></td>
-<td><p>El tipo de transferencia que quiera realizar. Puede importar, exportar o vincular datos en archivos de texto delimitados, de ancho fijo o HTML. También puede exportar datos a un archivo de datos de combinación de correspondencia de Microsoft Word, que puede usar con la característica de combinación de correspondencia para crear documentos combinados, como cartas modelo o etiquetas postales. Seleccione <strong>Importar delimitado</strong>, <strong>Importar ancho fijo</strong>, <strong>Importar HTML</strong>, <strong>Exportar delimitado</strong>, <strong>Exportar ancho fijo</strong>, <strong>Exportar HTML</strong>, <strong>Exportar Word para combinación de Windows</strong>, <strong>Vincular delimitado</strong>, <strong>Vincular ancho fijo</strong> o <strong>Vincular HTML</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. El valor predeterminado es <strong>Importar delimitado</strong>.  </p>
-
-> [!NOTE]
-> <P>En un proyecto de Access (.adp), sólo se admiten los tipos de transferencia <STRONG>Importar delimitado</STRONG>, <STRONG>Importar ancho fijo</STRONG>, <STRONG>Exportar delimitado</STRONG>, <STRONG>Exportar ancho fijo</STRONG> o <STRONG>Exportar combinación de Word para Windows</STRONG>.</P>
-
-
-<p></p></td>
+<td><p>El tipo de transferencia que quiera realizar. Puede importar, exportar o vincular datos en archivos de texto delimitados, de ancho fijo o HTML. También puede exportar datos a un archivo de datos de combinación de correspondencia de Microsoft Word, que puede usar con la característica de combinación de correspondencia para crear documentos combinados, como cartas modelo o etiquetas postales. Seleccione <strong>Importar delimitado</strong>, <strong>Importar ancho fijo</strong>, <strong>Importar HTML</strong>, <strong>Exportar delimitado</strong>, <strong>Exportar ancho fijo</strong>, <strong>Exportar HTML</strong>, <strong>Exportar Word para combinación de Windows</strong>, <strong>Vincular delimitado</strong>, <strong>Vincular ancho fijo</strong> o <strong>Vincular HTML</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. El valor predeterminado es <strong>Importar delimitado</strong>.  </p><p><strong>Nota</strong>: tipos de transferencia <STRONG>Importar delimitado</STRONG>, <STRONG>Importar ancho fijo</STRONG>, <STRONG>Exportar delimitado</STRONG>, <STRONG>Exportar ancho fijo</STRONG>o <STRONG>Exportar combinación de Word para Windows</STRONG> sólo se admiten en un proyecto de Access (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de especificación</strong></p></td>
@@ -80,11 +72,15 @@ La acción **ImportarExportarTexto** utiliza los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Contiene nombres de campo</strong></p></td>
-<td><p>Especifica la primera fila del archivo de texto que contiene los nombres de los campos. Si selecciona <strong>Sí</strong>, Access usa los nombres de esta fila como nombres de campo en la tabla de Access al importar o vincular los datos de texto. Si selecciona <strong>No</strong>, Access tratará la primera fila como una fila de datos normal. El valor predeterminado es <strong>No</strong>. Access ignora este argumento para los archivos de datos de combinación de correspondencia de Word para Windows porque la primera fila debe contener los nombres de campo. Al exportar una tabla de Access o seleccionar una consulta para un archivo de texto delimitado o de ancho fijo, Access inserta los nombre de campo de la tabla o de la consulta de selección en la primera fila el archivo de texto, si selecciona <strong>Sí</strong> para este argumento. Si importa o vincula un archivo de texto de ancho fijo y selecciona <strong>Sí</strong> en este cuadro, la primera fila que contiene los nombres de campo debe usar el delimitador de campo configurado en la especificación importar/exportar para separar los nombres de campo. Si exporta a un archivo de texto de ancho fijo y selecciona <strong>Sí</strong> para este argumento, Access inserta los nombres de campo en la primera fila del archivo de texto con este delimitador.  </p></td>
+<td><p>Especifica si la primera fila del archivo de texto contiene los nombres de los campos. Si selecciona <strong>Sí</strong>, Access utiliza los nombres de esta fila como nombres de campos de la tabla de Access al importar o vincular los datos de texto. Si selecciona <strong>No</strong>, Access trata la primera fila como una fila normal de datos. El valor predeterminado es <strong>No</strong>. 
+
+<br/><br/>Access ignora este argumento para los archivos de datos de combinación de correspondencia de Word para Windows porque la primera fila debe contener los nombres de campo. Al exportar una tabla de Access o seleccionar una consulta para un archivo de texto delimitado o de ancho fijo, Access inserta los nombre de campo de la tabla o de la consulta de selección en la primera fila el archivo de texto, si selecciona <strong>Sí</strong> para este argumento.<br/><br/>Si está importando o vinculando un archivo de texto de ancho fijo y selecciona <strong>Sí</strong> en este cuadro, la primera fila, que contiene los nombres de los campos, debe usar el delimitador de campos establecido en la especificación de importación y exportación para separar los nombres de los campos. Si va a exportar los datos a un archivo de texto de ancho fijo y selecciona <strong>Sí</strong> para este argumento, Access inserta los nombres de los campos en la primera fila del archivo de texto con este delimitador.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de tabla HTML</strong></p></td>
-<td><p>El nombre de la tabla o lista del archivo HTML que desea importar o vincular. Este argumento se omite a menos que se establezca el argumento <strong>Tipo de transferencia</strong> Importar HTML o Vincular HTML. Si deja este argumento en blanco, se importa o se vincula la primera tabla o lista del archivo HTML. El nombre de tabla o lista en el archivo HTML se determina por el texto especificado por el &lt;título&gt; etiqueta, si no hay un &lt;título&gt; etiqueta. Si no hay ninguna etiqueta &lt;TÍTULO&gt;, el nombre de etiqueta está determinado por el texto especificado por la etiqueta &lt;TÍTULO&gt;. Si más de una tabla o lista con el mismo nombre, Access las distingue agregando un número al final de cada nombre; Por ejemplo, Empleados1 y Empleados2.</p></td>
+<td><p>El nombre de la tabla o lista del archivo HTML que desea importar o vincular. Este argumento no se tiene en cuenta a menos que el argumento <strong>Tipo de transferencia</strong> presente el valor Importar HTML o Vincular HTML. Si deja en blanco este argumento, se importará o vinculará la primera tabla o lista del archivo HTML. 
+
+<br/><br/>El nombre de tabla o lista en el archivo HTML se determina por el texto especificado por el &lt;título&gt; etiqueta, si no hay un &lt;título&gt; etiqueta. Si no hay ninguna etiqueta &lt;TÍTULO&gt;, el nombre de etiqueta está determinado por el texto especificado por la etiqueta &lt;TÍTULO&gt;. Si más de una tabla o lista con el mismo nombre, Access las distingue agregando un número al final de cada nombre; Por ejemplo, Empleados1 y Empleados2.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Página de códigos</strong></p></td>

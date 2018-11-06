@@ -10,31 +10,22 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 254a54b4b672ba9e40253e3bd95283eec655d3dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ed69a84f9b1774b7c33711a0bb8e80da54e656cc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920511"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997933"
 ---
 # <a name="showtoolbar-macro-action"></a>MostrarBarraDeHerramientas (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **MostrarBarraDeHerramientas** se utiliza para mostrar u ocultar un grupo de comandos en la ficha **Complementos**.
 
-
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>MostrarBarraDeHerramientas</STRONG> no afecta a los menús contextuales.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> - [!NOTA] La acción **MostrarBarraDeHerramientas** no afecta a los menús contextuales.
+> - [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 

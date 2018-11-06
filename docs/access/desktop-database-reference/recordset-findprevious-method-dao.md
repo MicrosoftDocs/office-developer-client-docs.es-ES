@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 80760d817b55b885ea9db8124f247e1c58787264
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a6634067e1d26c32847f6ddf9b7ec518ff17539a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920595"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997465"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Recordset.FindPrevious (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Busca el registro anterior de un objeto **[Recordset](recordset-object-dao.md)**
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Busca el registro anterior de un objeto **[Recordset](recordset-object-dao.md)**
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criterios</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
@@ -121,12 +120,6 @@ Debe utilizar el formato de fecha de EE.UU. (mes-día-año) cuando busca campos 
 
 Si criteria está compuesto de una cadena que se concatena con un valor no entero y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice y lngPrice = 125,50), se produce un error al intentar Llame al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Para obtener el mejor rendimiento, los <EM>criterios</EM> deben tener el formulario "<EM>campo</EM> = <EM>valor</EM>" donde <EM>campo</EM> es un campo indizado en la tabla base subyacente o "<EM>campo</EM> LIKE <EM>prefijo</EM>" donde <EM>campo</EM> es un campo indizado en la tabla base subyacente y <EM>prefijo</EM> es una cadena de búsqueda de prefijo (por ejemplo, "ART *").</P>
-> <LI>
-> <P>En general, para tipos de búsquedas equivalentes, el método <STRONG>Seek</STRONG> proporciona un mejor rendimiento que los métodos <STRONG>Find</STRONG>. Esto supone que los objetos <STRONG>Recordset</STRONG> de tipo tabla por sí mismos pueden satisfacer sus necesidades.</P></LI></UL>
-
-
+> - Para obtener el mejor rendimiento, los *criterios* deben tener el formulario "*campo* = *valor*" donde *campo* es un campo indizado en la tabla base subyacente o "*campo* LIKE *prefijo*" donde *campo* es un campo indizado en la tabla base subyacente y *prefijo* es una cadena de búsqueda de prefijo (por ejemplo, "ART *").
+> - En general, para tipos de búsquedas equivalentes, el método **Seek** proporciona un mejor rendimiento que los métodos **Find**. Esto supone que los objetos **Recordset** de tipo tabla por sí mismos pueden satisfacer sus necesidades.

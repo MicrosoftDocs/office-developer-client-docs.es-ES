@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928771"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997010"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField (método) (DAO)
 
@@ -29,7 +29,7 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 
 *expresión* Variable que representa un objeto **TableDef** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -41,26 +41,26 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Una cadena que asigna nombres únicos al nuevo objeto <strong>Field</strong>. Consulte la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más detalles sobre los nombres de <strong>Field</strong> válidos.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Una constante que determina el tipo de datos del nuevo objeto <strong>Field</strong>. Consulte la propiedad <strong><a href="field-type-property-dao.md">Type</a></strong> para obtener los tipos de datos válidos.  </p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Un Integer que indica el tamaño máximo, en bytes, de un objeto <strong>Field</strong> que contiene texto. Vea la propiedad <strong><a href="field-size-property-dao.md">Size</a></strong> para valores size válidos. Este argumento se omite para campos numéricos y de ancho fijo.</p></td>
@@ -69,7 +69,7 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Field
 

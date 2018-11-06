@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a926bed97cf3f21e81fbf01eae554aaec45406a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a397b0f88bb60552a6e53432a3c8c4d788013103
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947787"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997276"
 ---
 # <a name="how-event-handlers-work-together"></a>Cómo funcionan conjuntamente los controladores de eventos
 
@@ -41,12 +41,11 @@ Los controladores de eventos Complete pueden ser útiles para administrar las op
 
 Por ejemplo, puede que tarde mucho tiempo en rellenar un objeto [Recordset](recordset-object-ado.md) de gran tamaño. Si la aplicación se ha escrito correctamente, puede iniciar una operación y continuar con otros procesamientos. Finalmente notificará cuando se rellena el **conjunto de registros** por un evento **ExecuteComplete** .
 
-## <a name="single-event-handlers-and-multiple-objects"></a>Un solo controlador de eventos y varios objetos
+## <a name="single-event-handlers-and-multiple-objects"></a>Los controladores de eventos único y de varios objetos
 
 La flexibilidad de un lenguaje de programación como Microsoft Visual C++ permite que un controlador de eventos procese los eventos de varios objetos. Por ejemplo, un controlador de eventos **Disconnect** puede procesar los eventos de varios objetos **Connection**. Si una de las conexiones finaliza, se llamará al controlador de eventos **Disconnect**. Se podrá indicar cuál es la conexión que ha causado el evento porque el parámetro de objeto del controlador de eventos estará establecido en el correspondiente objeto **Connection**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta técnica no se puede utilizar en Visual Basic porque este lenguaje sólo puede correlacionar un objeto con un controlador de eventos.</P>
+> [!NOTA] Esta técnica no se puede utilizar en Visual Basic porque este lenguaje sólo puede correlacionar un objeto con un controlador de eventos.
 
 

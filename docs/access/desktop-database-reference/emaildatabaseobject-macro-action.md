@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922919"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997451"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25922919"
 La acción **EnviarPorCorreoObjetoDeBaseDeDatos** se utiliza para incluir un objeto hoja de datos, formulario, informe, módulo o página de acceso a datos especificado de Microsoft Access en un mensaje de correo electrónico, desde donde se puede examinar y enviar.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="settings"></a>Configuración
 
@@ -112,7 +112,7 @@ Para ejecutar la acción **EnviarPorCorreoObjetoDeBaseDeDatos** en un módulo de
 
 **Vínculo proporcionado por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), el fundador y presidente de FMS, Inc., un proveedor líder de soluciones de base de datos personalizada y herramientas para desarrolladores.
 
-  - [Características y límites del uso del método EnviarObjeto para enviar correos](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [Características y límites del uso del método EnviarObjeto para enviar correos](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

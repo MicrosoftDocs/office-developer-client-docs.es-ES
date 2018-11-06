@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22f89b4fb22e7625f73eb938aa011beb42c6b99c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: e63e765461eec1c89f3e3dc04d35f1bf88a3c578
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944350"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997626"
 ---
 # <a name="using-ado-for-internet-publishing"></a>Utilizar ADO para publicación en Internet
 
@@ -20,7 +20,7 @@ ms.locfileid: "25944350"
 
 
 
-[OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) muestra un ejemplo específico de cómo obtener acceso a datos heterogéneos con ADO. Si bien los ejemplos de esta sección son específicos del proveedor de publicaciones en Internet, los principios descritos deben ser similares en el caso de utilizar ADO con otros proveedores para obtener acceso a datos heterogéneos, como un proveedor para obtener acceso a un almacén de correo electrónico.
+[OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) muestra un ejemplo específico de cómo obtener acceso a datos heterogéneos con ADO. Mientras que los ejemplos de esta sección será específicos para usar el proveedor de publicación en Internet, los principios mostrados deberían ser similares al uso de ADO con otros proveedores de datos heterogéneos, como un proveedor a un almacén de correo electrónico.
 
 ## <a name="urls"></a>Localizadores URL
 

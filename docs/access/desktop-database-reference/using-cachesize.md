@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa624c545d17ef0d56a076b3d30326bacd2c6edf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edf413cbfac35aa20b09508c3af5069f18d5076e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871965"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997437"
 ---
 # <a name="using-cachesize"></a>Uso de CacheSize
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Use la propiedad **CacheSize** para controlar el número de registros que se van a recuperar a la vez en la memoria local del proveedor. Por ejemplo, si el valor de **CacheSize** es 10, tras abrir el objeto **Recordset**, el proveedor recupera los 10 primeros registros en la memoria local. Cuando el usuario se mueve por el objeto **Recordset**, el proveedor devuelve los datos desde el búfer de memoria local. Cuando el usuario se desplaza hasta un punto situado más allá del último registro de la memoria caché, el proveedor recupera en la memoria caché los 10 siguientes registros del origen de datos.
 
-
 > [!NOTE]
-> <P>[!NOTA] <STRONG>CacheSize</STRONG> se basa en la propiedad específica del proveedor <STRONG>Número máximo de filas abiertas</STRONG> (en la colección <STRONG>Properties</STRONG> del objeto <STRONG>Recordset</STRONG> ). No puede establecer <STRONG>CacheSize</STRONG> en un valor mayor que el valor de <STRONG>Número máximo de filas abiertas</STRONG>. Para modificar el número de filas que puede abrir el proveedor, establezca el valor de <STRONG>Número máximo de filas abiertas</STRONG>.</P>
-
-
+> [!NOTA] **CacheSize** se basa en la propiedad específica del proveedor **Número máximo de filas abiertas** (en la colección **Properties** del objeto **Recordset** ). No puede establecer **CacheSize** en un valor mayor que el valor de **Número máximo de filas abiertas**. Para modificar el número de filas que puede abrir el proveedor, establezca el valor de **Número máximo de filas abiertas**.
 
 El valor de **CacheSize** se puede ajustar durante la vida del objeto **Recordset**, pero cambiar este valor solo afecta al número de registros en la memoria caché después de recuperaciones posteriores desde el origen de datos. Si solo se cambia el valor de la propiedad, el contenido de la memoria caché en ese momento no cambiará.
 

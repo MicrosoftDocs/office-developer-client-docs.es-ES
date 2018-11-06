@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa783dcc7ad02cc36b14ef9ef97436cb1ad88e4a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a5016500b62a465f21ecab93a6fb66c9e6d514e1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924690"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998843"
 ---
 # <a name="sendemail-macro-action"></a>EnviarCorreoElectrónico (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **EnviarCorreoElectrónico** envía un mensaje de correo electrónico.
 
-
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>EnviarCorreoElectrónico</STRONG> solo está disponible en macros de datos.</P>
-
-
+> [!NOTA] La acción **EnviarCorreoElectrónico** solo está disponible en macros de datos.
 
 ## <a name="setting"></a>Valores
 

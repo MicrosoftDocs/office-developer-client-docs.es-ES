@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1c6b42d9560a30b45fb777bb4fd1de4351830a4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 996c0adf8c883de5c73174d726cf5bd11fc42457
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936297"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996884"
 ---
 # <a name="rds-tutorial-vbscript"></a>Tutorial de RDS (VBScript)
 
@@ -54,7 +54,7 @@ VBScript puede descubrir el nombre del servidor web IIS que se está ejecutando 
 Sin embargo, para este tutorial, utilice el servidor imaginario "yourServer".
 
 > [!NOTE]
-> <P>[!NOTA] Preste atención a los tipos de datos de argumentos <STRONG>ByRef</STRONG>. VBScript no permite especificar el tipo de variable, por lo que siempre se debe pasar un tipo Variant. Cuando se usa HTTP, RDS permitirá pasar un valor Variant a un método que espera un valor no Variant si lo llama con el método <STRONG>CreateObject</STRONG> del objeto <A href="createobject-method-rds.md">RDS.DataSpace</A>. Cuando se usa DCOM o un servidor en proceso, use los mismos tipos de parámetro en el cliente y en el servidor o recibirá un error de no coincidencia de tipos.</P>
+> [!NOTA] Preste atención a los tipos de datos de argumentos **ByRef**. VBScript no permite especificar el tipo de variable, por lo que siempre se debe pasar un tipo Variant. Cuando se usa HTTP, RDS permitirá pasar un valor Variant a un método que espera un valor no Variant si lo llama con el método **CreateObject** del objeto [RDS.DataSpace](createobject-method-rds.md). Cuando se usa DCOM o un servidor en proceso, use los mismos tipos de parámetro en el cliente y en el servidor o recibirá un error de no coincidencia de tipos.
 
 ```vb
  

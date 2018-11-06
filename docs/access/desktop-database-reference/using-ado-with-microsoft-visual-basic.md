@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8644bd4f5b1a19848689adf92dca91ba30f324c4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a405189f3130a24c98112f0b0d9f31c7bfa4c217
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889850"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997752"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>Uso de ADO con Microsoft Visual Basic
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -24,43 +23,39 @@ Configurar un proyecto de ADO y escribir código de ADO es un procedimiento simi
 
 El proyecto debe hacer referencia a la biblioteca de ADO.
 
-**Para hacer referencia a ADO desde Microsoft Visual Basic**
+### <a name="to-reference-ado-from-microsoft-visual-basic"></a>Para hacer referencia a ADO desde Microsoft Visual Basic
 
-1.  En Visual Basic, en el menú **Proyecto**, seleccione **Referencias**.
+1. En Visual Basic, en el menú **Proyecto**, seleccione **Referencias**.
 
-2.  Seleccione **Biblioteca de Microsoft ActiveX Data Objects x.x** en la lista. Compruebe que estén seleccionadas al menos las siguientes bibliotecas:
-    
-    - Visual Basic para Aplicaciones
-    
-    - Objetos y procedimientos del motor en tiempo de ejecución de Visual Basic
-    
-    - Objetos y procedimientos de Visual Basic
-    
-    - Automatización OLE
+2. Seleccione **Biblioteca de Microsoft ActiveX Data Objects x.x** en la lista. Compruebe que estén seleccionadas al menos las siguientes bibliotecas:
+   
+   - Visual Basic para Aplicaciones
+   - Objetos y procedimientos del motor en tiempo de ejecución de Visual Basic
+   - Objetos y procedimientos de Visual Basic
+   - Automatización OLE
 
-3.  Haga clic en **Aceptar**.
+3. Haga clic en **Aceptar**.
 
 ADO se puede utilizar con la misma facilidad con Visual Basic para Aplicaciones mediante, por ejemplo, Microsoft Access.
 
-**Para hacer referencia a ADO desde Microsoft Access**
+### <a name="to-reference-ado-from-microsoft-access"></a>Para hacer referencia a ADO desde Microsoft Access
 
-1.  En Microsoft Access, seleccione o cree un módulo en la pestaña **Módulos** de la ventana **Base de datos**.
+1. En Microsoft Access, seleccione o cree un módulo en la pestaña **Módulos** de la ventana **Base de datos**.
 
-2.  En el menú **Herramientas**, seleccione **Referencias**.
+2. En el menú **Herramientas**, seleccione **Referencias**.
 
-3.  Seleccione **Biblioteca de Microsoft ActiveX Data Objects x.x** en la lista. Compruebe que estén seleccionadas al menos las siguientes bibliotecas:
+3. Seleccione **Biblioteca de Microsoft ActiveX Data Objects x.x** en la lista. Compruebe que estén seleccionadas al menos las siguientes bibliotecas:
     
-    - Visual Basic para Aplicaciones
-    
-    - Biblioteca de objetos de Microsoft Access 11.0 (o posterior)
+   - Visual Basic para Aplicaciones
+   - Biblioteca de objetos de Microsoft Access 11.0 (o posterior)
 
-4.  Haga clic en **Aceptar**.
+4. Haga clic en **Aceptar**.
 
-## <a name="creating-ado-objects-in-visual-basic"></a>Crear objetos ADO en Visual Basic
+## <a name="creating-ado-objects-in-visual-basic"></a>Crear objetos de ADO en Visual Basic
 
 Para crear una variable de automatización y una instancia de un objeto para esa variable, se pueden utilizar dos métodos: **Dim** o **CreateObject**.
 
-## <a name="dim"></a>Dim
+### <a name="dim"></a>Dim
 
 Se puede utilizar la palabra clave **New** con **Dim** para declarar y crear instancias de los objetos ADO en un solo paso:
 
@@ -77,18 +72,16 @@ Dim conn As ADODB.Connection
 Set conn = New ADODB.Connection 
 ```
 
-
 > [!NOTE]
-> <P>No es necesario utilizar explícitamente el identificador de programa ADODB con la instrucción <STRONG>Dim</STRONG>, suponiendo que se ha hecho correctamente referencia a la biblioteca de ADO en el proyecto. Sin embargo, su uso garantiza que no habrá conflictos de nomenclatura con otras bibliotecas.</P>
+> No es necesario utilizar explícitamente el identificador de programa ADODB con la instrucción **Dim**, suponiendo que se ha hecho correctamente referencia a la biblioteca de ADO en el proyecto. Sin embargo, su uso garantiza que no habrá conflictos de nomenclatura con otras bibliotecas.
+> 
+> Por ejemplo, si se incluyen referencias a ADO y DAO en el mismo proyecto, se deberá incluir un calificador para especificar el modelo de objetos que se va a usar cuando se creen instancias de los objetos **Recordset**, como en el siguiente código:  
+> 
+> `Dim adoRS As ADODB.Recordset`  
+>   
+> `Dim daoRS As DAO.Recordset`
 
-
-
-Por ejemplo, si se incluyen referencias a ADO y DAO en el mismo proyecto, se deberá incluir un calificador para especificar el modelo de objetos que se va a usar cuando se creen instancias de los objetos **Recordset**, como en el siguiente código:  
-Dim adoRS As ADODB. Conjunto de registros  
-  
-Dim daoRS As DAO. Conjunto de registros
-
-## <a name="createobject"></a>CreateObject
+### <a name="createobject"></a>CreateObject
 
 Con el método **CreateObject**, la declaración y la creación de instancias de objetos deben constar de dos pasos diferenciados:
 
@@ -109,9 +102,9 @@ Para ello, también se puede crear específicamente una referencia a la versión
 
 La creación de instancias de los objetos con el método **CreateObject** suele ser más lenta que cuando se utiliza la instrucción **Dim**.
 
-## <a name="handling-events"></a>Controlar eventos
+## <a name="handling-events"></a>Administración de eventos
 
-Para controlar los eventos de ADO en Microsoft Visual Basic, es preciso declarar una variable en el nivel de módulo mediante la palabra clave **WithEvents**. La variable se puede declarar únicamente como parte de un módulo de clase y debe declararse en el nivel de módulo. Para obtener una descripción más completa de cómo controlar los eventos de ADO, vea [Capítulo 7: Controlar eventos de ADO](chapter-7-handling-ado-events.md).
+Para controlar eventos de ADO en Microsoft Visual Basic, debe declarar una variable de nivel de módulo mediante la palabra clave **WithEvents** . La variable se puede declarar sólo como parte de un módulo de clase y se debe declarar en el nivel de módulo. Para obtener una descripción más completa de control de eventos de ADO, vea [capítulo 7: eventos de ADO controlar](chapter-7-handling-ado-events.md).
 
 ## <a name="visual-basic-examples"></a>Ejemplos de Visual Basic
 

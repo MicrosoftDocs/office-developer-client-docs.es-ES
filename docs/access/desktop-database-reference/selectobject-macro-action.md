@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919293"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997416"
 ---
 # <a name="selectobject-macro-action"></a>SeleccionarObjeto (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -46,13 +45,7 @@ La acción **SeleccionarObjeto** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del objeto</strong></p></td>
-<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p>
-
-> [!NOTE]
-> <P>Los nombres de los objetos <STRONG>Vista de servidor</STRONG>, <STRONG>Diagrama</STRONG> o <STRONG>Procedimiento almacenado</STRONG> no se muestran en el cuadro <STRONG>Nombre del objeto</STRONG> de un proyecto de Access (.adp).</P>
-
-
-<p></p></td>
+<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p><p><strong>Nota</strong>: los nombres de objeto para objetos <STRONG>Vista de servidor</STRONG>, <STRONG>diagrama</STRONG>o <STRONG>Procedimiento almacenado</STRONG> no se muestran en el cuadro <STRONG>Nombre de objeto</STRONG> de un proyecto de Access (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En panel de navegación</strong></p></td>

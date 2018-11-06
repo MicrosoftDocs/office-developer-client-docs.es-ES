@@ -6,25 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8677428c32c70bc11b9eef6f168b09c72592a0b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a9f75e5215e3e3d79363ab7110f7c16bcacf3cbb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944252"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998997"
 ---
 # <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>Paso 6: Los cambios se envían al servidor (Tutorial de RDS)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Si se modifica el objeto **Recordset**, cualquier cambio (es decir, filas que se agregan, modifican o eliminan) se puede enviar de nuevo al servidor.
 
-
-> [!NOTE]
-> <P>El comportamiento predeterminado de RDS se puede invocar implícitamente con objetos ADO y con el Proveedor de acceso remoto de OLE DB de Microsoft. Las consultas pueden devolver objetos <STRONG>Recordset</STRONG>, y los <STRONG> conjuntos de registros</STRONG> modificados pueden actualizar el origen de datos. Este tutorial no usa RDS con objetos ADO, pero, en caso de hacerlo, sería del siguiente modo:</P>
-
-
+El comportamiento predeterminado de RDS se puede invocar implícitamente con objetos ADO y el proveedor de servicios remotos de Microsoft OLE DB. Las consultas pueden devolver **conjuntos de registros**y editado **los conjuntos de registros** pueden actualizar el origen de datos. En este tutorial no utiliza RDS con objetos ADO, pero este es el aspecto que tendría si lo hiciera:
 
 ```vb 
  

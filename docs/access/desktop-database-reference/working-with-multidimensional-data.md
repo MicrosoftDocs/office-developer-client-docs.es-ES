@@ -1,20 +1,19 @@
 ---
 title: Trabajar con datos multidimensionales
-TOCTitle: Working with Multidimensional Data
+TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2210799fe46a0993a917a85a0e06a1a806b04548
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1fc86aa61b9dda9db2246b7b5720eed31a595ea0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945827"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998696"
 ---
 # <a name="working-with-multidimensional-data"></a>Trabajar con datos multidimensionales
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -28,35 +27,27 @@ Una *celda* es un objeto situado en la intersección de coordenadas de ejes. Cad
 
 Por ejemplo, un cubo tiene las seis dimensiones siguientes (observe que este esquema de cubo presenta ligeras diferencias con respecto al ejemplo incluido en [Descripción general de esquemas y datos multidimensionales](overview-of-multidimensional-schemas-and-data.md)):
 
-  - Vendedor
-
-  - Zona geográfica (jerarquía natural): Continentes, Países, Estados, etc.
-
-  - Trimestres: Trimestres, Meses, Días
-
-  - Años
-
-  - Medidas: Ventas, CambioPorcentual, VentasPresupuestadas
-
-  - Productos
-
+- Vendedor
+- Zona geográfica (jerarquía natural): Continentes, Países, Estados, etc.
+- Trimestres: Trimestres, Meses, Días
+- Años
+- Medidas: Ventas, CambioPorcentual, VentasPresupuestadas
+- Productos
 
 > [!NOTE]
-> <P>[!NOTA] Los valores de celda del ejemplo pueden considerarse pares ordenados de ordinales de posiciones de eje, donde el primer dígito representa la posición en el eje x y el segundo dígito, la posición en el eje y.</P>
-
-
+> [!NOTA] Los valores de celda del ejemplo pueden considerarse pares ordenados de ordinales de posiciones de eje, donde el primer dígito representa la posición en el eje x y el segundo dígito, la posición en el eje y.
 
 Las características de este conjunto de celdas son las siguientes:
 
-  - Dimensiones de eje: Trimestres, Vendedor, Zona geográfica
+- Dimensiones de eje: Trimestres, Vendedor, Zona geográfica
 
-  - Dimensiones de filtro: Medidas, Años, Productos
+- Dimensiones de filtro: Medidas, Años, Productos
 
-  - Dos ejes: COLUMNA (x o Eje 0) y FILA (y o Eje 1)
+- Dos ejes: COLUMNA (x o Eje 0) y FILA (y o Eje 1)
 
-  - Eje x: dos dimensiones anidadas, Vendedor y Zona geográfica
+- Eje x: dos dimensiones anidadas, Vendedor y Zona geográfica
 
-  - Eje y: dimensión Trimestres
+- Eje y: dimensión Trimestres
 
 El eje x tiene dos dimensiones anidadas, Vendedor y Zona geográfica. De Zona geográfica se seleccionan cuatro miembros: Seattle, Boston, USA-South y Japan. De Vendedor se seleccionan dos miembros: Valentine y Nash. Esto produce un total de ocho posiciones en este eje (8 = 4\*2).
 

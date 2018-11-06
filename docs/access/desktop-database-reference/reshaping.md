@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
 ms:contentKeyID: 48546174
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a051c62d73a36fed0832f17b1cb53b1641d4a152
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 49a61e72a4d9260b73275d84ce912ebc76f37652
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889283"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996457"
 ---
 # <a name="reshaping"></a>Cambio de forma
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -38,8 +37,7 @@ rs2.Open "SHAPE {select * from Employees} " & _
 
 La segunda función consiste en habilitar el acceso no estructurado en capítulos en los objetos **Recordset** secundarios existentes, mediante la sintaxis `"SHAPE <recordset reshape name>"`.
 
-
 > [!NOTE]
-> <P>[!NOTA] No se pueden anexar columnas a un objeto <STRONG>Recordset</STRONG> existente, crear nuevas formas para un objeto <STRONG>Recordset</STRONG> parametrizado o los objetos <STRONG>Recordset</STRONG> de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto <STRONG>Recordset</STRONG> descendiente del objeto <STRONG>Recordset</STRONG> que se está creando con nuevas formas. Este objeto <STRONG>Recordset</STRONG> y el nuevo comando Shape deben usar ambos el mismo objeto <A href="connection-object-ado.md">Connection</A>.</P>
+> [!NOTA] No se pueden anexar columnas a un objeto **Recordset** existente, crear nuevas formas para un objeto **Recordset** parametrizado o los objetos **Recordset** de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto **Recordset** descendiente del objeto **Recordset** que se está creando con nuevas formas. El **conjunto de registros** que se va a cambiar la forma y la nueva forma de comando deben utilizar ambos el mismo ** objeto[Connection](connection-object-ado.md) .
 
 

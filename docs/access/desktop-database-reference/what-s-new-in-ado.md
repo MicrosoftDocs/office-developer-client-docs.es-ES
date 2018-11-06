@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 950edd8ce1cd0e5081d569b1b11a02a14fe94d99
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 232af159c669968c9c3b4d3d65acbc181f958689
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937704"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998906"
 ---
 # <a name="whats-new-in-ado"></a>Novedades de ADO
 
@@ -23,7 +23,7 @@ ADO 2.5 incluye las siguientes características nuevas y una documentación mejo
 
 - **[Objetos Record y Stream](chapter-10-records-and-streams.md)**
 
-  Esta versión de ADO introduce el objeto [Record](record-object-ado.md), que puede representar y administrar elementos como directorios y archivos en un sistema de archivos, así como carpetas y mensajes en un sistema de correo electrónico. Un objeto **Record** también puede representar una fila en un objeto [Recordset](recordset-object-ado.md), si bien los objetos **Record** y **Recordset** tienen métodos y propiedades diferentes.
+  Esta versión de ADO introduce el objeto [Record](record-object-ado.md) , que puede representar y administrar elementos como directorios y archivos en un sistema de archivos y carpetas y mensajes en un sistema de correo electrónico. Un objeto **Record** también puede representar una fila en un objeto [Recordset](recordset-object-ado.md), si bien los objetos **Record** y **Recordset** tienen métodos y propiedades diferentes.
 
   El nuevo objeto [Stream](stream-object-ado.md) permite leer, escribir y administrar la secuencia binaria de bytes o texto que componen una secuencia de archivos o mensajes.
 

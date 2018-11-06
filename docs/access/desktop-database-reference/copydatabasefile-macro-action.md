@@ -6,24 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2034bb4d8d1fbf3f1a0a37bf6adc7c8b8001bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 330ae78b86c678b675cfd44afa75f72348ac582f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925208"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998913"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopiarArchivoDeBaseDeDatos (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **CopiarArchivoDeBaseDeDatos** se puede usar para realizar una copia de la base de datos de Microsoft SQL Server 7.0 o posterior que está conectada al proyecto de Access. Access desasocia la base de datos actual y, a continuación, adjunta al servidor de destino. Para obtener más información acerca de cómo se desasocia y asocia una base de datos, vea la documentación de SQL Server.
 
-
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 
 ## <a name="setting"></a>Configuración
@@ -54,13 +51,7 @@ La acción **CopiarArchivoDeBaseDeDatos** tiene los siguientes argumentos.
 <td><p><strong>Desconectar todos los usuarios</strong></p></td>
 <td><p>Especifica si Access debe obligar a los usuarios a salir de la base de datos. Si se establece en <strong>Sí</strong>, todos los usuarios que estén conectados a la base de datos se desconectan para que pueda realizarse la operación de copia de la base de datos. Si se establece en <strong>No</strong> y hay uno o más usuarios conectados a la base de datos, se produce un error en la operación de copia de la base de datos. El valor predeterminado es <strong>No</strong>. 
 
-</p>
-
-> [!WARNING]
-> Desconectar usuarios de una base de datos sin una advertencia adecuada puede generar pérdida de datos.
-
-
-<p></p></td>
+</p><p><strong>Advertencia</strong>: desconectar usuarios de una base de datos sin una advertencia adecuada puede provocar una pérdida de datos.</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,19 +65,17 @@ La acción **CopiarArchivoDeBaseDeDatos** no solo copia datos, definiciones de d
 
 Requisitos para copiar una base de datos:
 
-  - Debe desconectar todas las aplicaciones y los usuarios antes de copiar el archivo de la base de datos.
+- Debe desconectar todas las aplicaciones y los usuarios antes de copiar el archivo de la base de datos.
 
-  - Todos los objetos y las vistas excepto el Panel de navegación deben cerrarse.
+- Todos los objetos y las vistas excepto el Panel de navegación deben cerrarse.
 
-  - La base de datos actual no se debe replicar.
+- La base de datos actual no se debe replicar.
 
-  - La base de datos del servidor de origen debe ser Microsoft SQL Server versión 7.0 o superior, o SQL Server 2000 Desktop Engine en un equipo local.
+- La base de datos del servidor de origen debe ser Microsoft SQL Server versión 7.0 o superior, o SQL Server 2000 Desktop Engine en un equipo local.
 
-<!-- end list -->
+- La base de datos de SQL Server del servidor de origen debe ser una base de datos de un solo archivo.
 
-  - La base de datos de SQL Server del servidor de origen debe ser una base de datos de un solo archivo.
-
-  - Debe ser miembro del rol sysadmin tanto en el equipo SQL Server de origen como en el de destino.
+- Debe ser miembro del rol sysadmin tanto en el equipo SQL Server de origen como en el de destino.
 
 Para ejecutar la acción **CopiarArchivoDeBaseDeDatos** en un módulo de Visual Basic para Aplicaciones, utilice el método **CopyDatabaseFile** del objeto **DoCmd**.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d5e636bf5ecae615df458754d6c4e08f00065ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 83db6ae8da804237222fc1f58e03058951d7ce41
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923612"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998990"
 ---
 # <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Se desplaza al último registro de un objeto **Recordset** especificado y convie
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -38,14 +37,14 @@ Se desplaza al último registro de un objeto **Recordset** especificado y convie
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Opciones</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Establecido en <strong>dbRunAsync</strong> para ejecutar la llamada en <strong>MoveLast</strong> de forma asincrónica.</p></td>
@@ -66,11 +65,10 @@ Si el primer o el último registro ya está activo cuando utiliza **MoveFirst** 
 
 Si el objeto recordset hace referencia a un **objeto Recordset** de tipo tabla (sólo áreas de trabajo de Microsoft Access), el desplazamiento sigue el índice actual. Puede definir el índice actual mediante la propiedad **Index**. Si no define el índice actual, el orden de los registros devueltos queda sin definir.
 
-
 > [!NOTE]
-> <P>[!NOTA] Puede usar el método <STRONG>MoveLast</STRONG> para llenar totalmente un objeto <STRONG>Recordset</STRONG> de tipo dynaset o snapshot y que proporcione el número actual de registros de <STRONG>Recordset</STRONG>. No obstante, si usa <STRONG>MoveLast</STRONG> de esta forma, puede ralentizar el rendimiento de la aplicación. Solo debe usar <STRONG>MoveLast</STRONG> para obtener el recuento de registros si es absolutamente necesario para lograr un recuento preciso en un objeto <STRONG>Recordset</STRONG> recién abierto. Si usa la constante <STRONG>dbRunAsync</STRONG> con <STRONG>MoveLast</STRONG>, la llamada al método es asincrónica. Puede usar la propiedad <STRONG>StillExecuting</STRONG> para determinar cuándo está totalmente lleno el objeto <STRONG>Recordset</STRONG> y el método <STRONG>Cancel</STRONG> para terminar la ejecución de la llamada a método <STRONG>MoveLast</STRONG> asincrónica.</P>
-
-
+> [!NOTA] Puede usar el método **MoveLast** para llenar totalmente un objeto **Recordset** de tipo dynaset o snapshot y que proporcione el número actual de registros de **Recordset**. No obstante, si usa **MoveLast** de esta forma, puede ralentizar el rendimiento de la aplicación. Solo debe usar **MoveLast** para obtener el recuento de registros si es absolutamente necesario para lograr un recuento preciso en un objeto **Recordset** recién abierto. 
+>
+> Si usa la constante **dbRunAsync** con **MoveLast**, la llamada al método es asincrónica. Puede usar la propiedad **StillExecuting** para determinar cuándo está totalmente lleno el objeto **Recordset** y el método **Cancel** para terminar la ejecución de la llamada a método **MoveLast** asincrónica.
 
 No puede usar los métodos **MoveFirst**, **MoveLast**ni **MovePrevious** en un objeto **Recordset** de tipo forward – only.
 

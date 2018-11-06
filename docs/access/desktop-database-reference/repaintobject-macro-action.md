@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919419"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996464"
 ---
 # <a name="repaintobject-macro-action"></a>RepintarObjeto (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -56,19 +55,13 @@ La acción **RepintarObjeto** tiene los siguientes argumentos.
 
 Microsoft Access espera a completar las actualizaciones de pantalla pendientes hasta que termina otras tareas pendientes. Con esta acción, se puede forzar a que se vuelvan a pintar inmediatamente los controles del objeto especificado. Podrá usar esta acción en los siguientes casos:
 
-  - Cuando use la acción **EstablecerValor** para cambiar valores en varios controles. Es posible que Access no muestre los cambios de forma inmediata, especialmente si hay otros controles (por ejemplo, controles calculados) que dependan de los valores de los controles modificados.
+- Cuando use la acción **EstablecerValor** para cambiar valores en varios controles. Es posible que Access no muestre los cambios de forma inmediata, especialmente si hay otros controles (por ejemplo, controles calculados) que dependan de los valores de los controles modificados.
 
-  - Cuando desee estar seguro de que el formulario que está viendo muestra los datos de todos sus controles. Por ejemplo, los controles que contienen objetos OLE no muestran sus datos de forma inmediata después de abrirse un formulario.
-
+- Cuando desee estar seguro de que el formulario que está viendo muestra los datos de todos sus controles. Por ejemplo, los controles que contienen objetos OLE no muestran sus datos de forma inmediata después de abrirse un formulario.
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Esta acción no genera una nueva consulta de la base de datos, por lo que no muestra los registros nuevos o cambiados ni quita los registros eliminados de la tabla o consulta subyacente del objeto. Use la acción <STRONG>NuevaConsulta</STRONG> para volver a consultar el origen del objeto o uno de sus controles. Use la acción <STRONG>MostrarTodosRegistros</STRONG> para mostrar los registros más recientes y quitar los filtros que se hayan aplicado.</P>
-> <LI>
-> <P>La acción <STRONG>RepintarObjeto</STRONG> no tiene el mismo efecto que hacer clic en <STRONG>Actualizar</STRONG> en el grupo <STRONG>Registros</STRONG> de la ficha <STRONG>Inicio</STRONG>, lo que muestra todos los cambios realizados por los usuarios en los registros que se muestran actualmente en los formularios y hojas de datos.</P></LI></UL>
-
-
+> - Esta acción no genera una nueva consulta de la base de datos, por lo que no muestra los registros nuevos o cambiados ni quita los registros eliminados de la tabla o consulta subyacente del objeto. Use la acción **NuevaConsulta** para volver a consultar el origen del objeto o uno de sus controles. Use la acción **MostrarTodosRegistros** para mostrar los registros más recientes y quitar los filtros que se hayan aplicado.
+> - La acción **RepintarObjeto** no tiene el mismo efecto que hacer clic en **Actualizar** en el grupo **Registros** de la ficha **Inicio**, lo que muestra todos los cambios realizados por los usuarios en los registros que se muestran actualmente en los formularios y hojas de datos.
 
 Para ejecutar la acción **RepintarObjeto** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **RepaintObject** del objeto **DoCmd**.
 

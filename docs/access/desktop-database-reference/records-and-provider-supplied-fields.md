@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2de9f48b9f35afb208006118add97c9b29c4885
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3e01d9dd1dce81911b11b7de8ca8c6ad5a19eaaf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944525"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998325"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Registros y campos proporcionados por el proveedor
 
@@ -23,7 +23,7 @@ Si el objeto **Record** se abre desde un objeto **Recordset**, la colección **F
 
 El proveedor puede insertar campos adicionales que sirven de características complementarias del objeto **Record**. Como resultado, un objeto **Record** puede tener campos únicos no incluidos en el objeto **Recordset** como conjunto o cualquier objeto **Record** derivado de otra fila del objeto **Recordset**.
 
-Por ejemplo, todas las filas de un objeto **Recordset** derivado de un origen de datos de correo electrónico pueden tener columnas De, Para y Asunto. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
+Por ejemplo, todas las filas de un **objeto Recordset** derivado de un origen de datos de correo electrónico es posible que tenga columnas de, para y asunto. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
 
 Si bien el objeto **Record** y la actual fila del objeto **Recordset** tienen los mismos campos, son diferentes porque los objetos **Record** y **Recordset** tienen métodos y propiedades distintos.
 

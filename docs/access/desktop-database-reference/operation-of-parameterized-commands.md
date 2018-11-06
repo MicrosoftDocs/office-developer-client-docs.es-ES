@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1623b32a5ec52acd086bf028a5c1775daae989e8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946155"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997052"
 ---
 # <a name="operation-of-parameterized-commands"></a>Funcionamiento de comandos parametrizados
 
@@ -34,11 +34,8 @@ SHAPE {SELECT * FROM customer}
 
 Las tablas primarias y secundarias tienen un nombre de columna en común, cliente\_identificador *.* El *comando secundario* tiene un marcador de posición "?", a la que hace referencia la cláusula RELATE (es decir, "..." PARÁMETRO 0").
 
-
 > [!NOTE]
-> <P>[!NOTA] La cláusula PARAMETER pertenece sólo a la sintaxis del comando Shape. No está asociada al objeto <A href="parameter-object-ado.md">Parameter</A> de ADO ni a la colección <A href="parameters-collection-ado.md">Parameters</A>.</P>
-
-
+> [!NOTA] La cláusula PARAMETER pertenece sólo a la sintaxis del comando Shape. No está asociada al objeto [Parameter](parameter-object-ado.md) de ADO ni a la colección [Parameters](parameters-collection-ado.md).
 
 Cuando se ejecuta el comando parametrizado Shape, ocurre lo siguiente:
 
@@ -56,8 +53,7 @@ Cuando se ejecuta el comando parametrizado Shape, ocurre lo siguiente:
 
 La propiedad dinámica **Cache Child Rows** se establece de forma predeterminada en **True**. El comportamiento de almacenamiento en caché varía según los valores de los parámetros de la consulta. En una consulta con un solo parámetro, el **conjunto de registros** secundario correspondiente a un valor de parámetro determinado se almacenará en caché entre solicitudes de un secundario con ese valor. El código siguiente lo muestra:
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 
@@ -72,7 +68,7 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 En una consulta con dos o más parámetros, sólo se utiliza un secundario almacenado en caché si todos los valores de parámetros coinciden con los valores en caché.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados y relaciones complejas entre principal y secundario
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados y relaciones secundarias de complejas entre principal
 
 Además de utilizar comandos parametrizados para mejorar el rendimiento de una jerarquía de tipo combinación equivalente, los comandos parametrizados pueden servir para admitir relaciones principal-secundario más complejas. Por ejemplo, considere la posibilidad de una base de datos de poca deportiva con dos tablas: uno que consta de los equipos (equipo\_identificador, equipo\_nombre) y la otra de juegos (fecha, página principal\_equipo, visite\_equipo).
 

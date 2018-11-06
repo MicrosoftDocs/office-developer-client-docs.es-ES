@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1e5e031b0dc89626a40934cb42f8f54a0eb8d057
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fe08f6c6ab0eba46f7fff2713403f56e82983357
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928113"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999067"
 ---
 # <a name="openquery-macro-action"></a>AbrirConsulta (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **AbrirConsulta** para abrir una consulta de selección o de tabla de referencias cruzadas en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta una consulta de acción. También puede seleccionar un modo de entrada de datos para la consulta.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción sólo está disponible en el entorno de bases de datos de Access (.mdb o .accdb). Vea las acciones <STRONG>AbrirVista</STRONG>, <STRONG>AbrirProcedimientoAlmacenado</STRONG> o <STRONG>AbrirFunción</STRONG> si utiliza el entorno de proyectos de Access (.adp).</P>
-
-
+> [!NOTA] Esta acción sólo está disponible en el entorno de bases de datos de Access (.mdb o .accdb). Vea las acciones **AbrirVista**, **AbrirProcedimientoAlmacenado** o **AbrirFunción** si utiliza el entorno de proyectos de Access (.adp).
 
 ## <a name="setting"></a>Configuración
 
@@ -68,11 +64,9 @@ Si usa **Hoja de datos** para el argumento **Vista**, Access muestra el conjunto
 
 La acción **AbrirConsulta** es similar a hacer doble clic en la consulta en el panel de navegación o hacer clic con el botón secundario en la consulta en el panel de navegación y seleccionar una vista. Con esta acción, se pueden seleccionar opciones adicionales.
 
-**Sugerencias**
-
-  - Puede arrastrar una consulta desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirConsulta** que abre la consulta en la vista Hoja de datos. Al cambiar a la vista Diseño mientras está abierta la consulta, se quita el valor del argumento **Modo de datos** de la consulta. Este valor no tiene efecto, incluso si el usuario vuelve a la vista Hoja de datos.
-
-  - Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una consulta de acción (que indican que es una consulta de acción y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.
+> [!TIP]
+> - Puede arrastrar una consulta desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirConsulta** que abre la consulta en la vista Hoja de datos. Al cambiar a la vista Diseño mientras está abierta la consulta, se quita el valor del argumento **Modo de datos** de la consulta. Este valor no tiene efecto, incluso si el usuario vuelve a la vista Hoja de datos.
+> - Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una consulta de acción (que indican que es una consulta de acción y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.
 
 Para ejecutar la acción **AbrirConsulta** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **OpenQuery** del objeto **DoCmd**.
 

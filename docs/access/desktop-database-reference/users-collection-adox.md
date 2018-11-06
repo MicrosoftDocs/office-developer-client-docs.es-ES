@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b44b7b858adca5672266eb1898213d8f28429f2e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b3d91af56dc37cf8719a241a35046d663f7c9d57
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931137"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998079"
 ---
 # <a name="users-collection-adox"></a>Users (colección, ADOX)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,20 +25,18 @@ La colección **Users** de un [catálogo](catalog-object-adox.md) representa tod
 
 El método [Append](append-method-adox-users.md) de una colección **Users** es único para ADOX. Se puede:
 
-  - Agregar un nuevo usuario a la colección con el método **Append**.
+- Agregar un nuevo usuario a la colección con el método **Append**.
 
 Los demás métodos o propiedades son estándar en las colecciones ADO. Se puede:
 
-  - Tener acceso a un usuario de la colección con la propiedad [Item](item-property-ado.md).
+- Tener acceso a un usuario de la colección con la propiedad [Item](item-property-ado.md).
 
-  - Devolver el número de usuarios incluido en la colección con la propiedad [Count](count-property-ado.md).
+- Devolver el número de usuarios incluido en la colección con la propiedad [Count](count-property-ado.md).
 
-  - Quitar un usuario de la colección con el método [Delete](delete-method-adox-collections.md).
+- Quitar un usuario de la colección con el método [Delete](delete-method-adox-collections.md).
 
-  - Actualizar los objetos de la colección de forma que reflejen el esquema de base de datos actual con el método [Refresh](refresh-method-ado.md).
-
+- Actualizar los objetos de la colección de forma que reflejen el esquema de base de datos actual con el método [Refresh](refresh-method-ado.md).
 
 > [!NOTE]
-> <P>[!NOTA] Para poder anexar un objeto <STRONG>User</STRONG> a la colección <STRONG>Users</STRONG> de un objeto <STRONG>Group</STRONG>, debe existir previamente un objeto <STRONG>User</STRONG> con el mismo <A href="name-property-adox.md">nombre</A> que el que se va a anexar en la colección <STRONG>Users</STRONG> del <STRONG>catálogo</STRONG>.</P>
-
+> [!NOTA] Para poder anexar un objeto **User** a la colección **Users** de un objeto **Group**, debe existir previamente un objeto **User** con el mismo [nombre](name-property-adox.md) que el que se va a anexar en la colección **Users** del **catálogo**.
 

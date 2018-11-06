@@ -1,6 +1,6 @@
 ---
 title: Recordset.GetRows (método) (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931242"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998388"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Recupera varias filas de un objeto **[Recordset](recordset-object-dao.md)**.
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Recupera varias filas de un objeto **[Recordset](recordset-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>El número de filas que quiere recuperar.</p></td>
@@ -58,29 +57,29 @@ Recupera varias filas de un objeto **[Recordset](recordset-object-dao.md)**.
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Variant
 
 ## <a name="remarks"></a>Comentarios
 
-Use el método **GetRows** para copiar registros de un objeto **Recordset**. **GetRows** devuelve una matriz bidimensional. El primer subíndice identifica el campo y el segundo identifica el número de fila. Por ejemplo, intField representa el campo e intRecord identifica el número de fila:
+Use el método **GetRows** para copiar registros de un objeto **Recordset**. **GetRows** devuelve una matriz bidimensional. El primer subíndice identifica el campo y el segundo identifica el número de fila. Por ejemplo, `intField` representa el campo, y `intRecord` identifica el número de fila:
 
-avarRecords (intField, intRecord)
+`avarRecords(intField, intRecord)`
 
 Para obtener el primer valor de campo en la segunda fila devuelta, utilice un código como el siguiente:
 
-Campo1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 Para obtener el segundo valor de campo en la primera fila, utilice un código como el siguiente:
 
-Field2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 La variable avarRecords se convierte automáticamente en una matriz bidimensional cuando **GetRows** devuelve datos.
 
 Si solicitan más filas que las que están disponibles, **GetRows** devuelve sólo el número de filas disponibles. Puede utilizar la función **UBound** de Visual Basic para Aplicaciones para determinar cuántas filas **GetRows** ha recuperado realmente porque la matriz está adaptada para que quepa el número de filas devueltas. Por ejemplo, si ha devuelto los resultados en una **Variant** llamada varA, podría usar el siguiente código para determinar cuántas filas se han devuelto realmente:
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 Debe utilizar "+ 1" porque la primera fila devuelta está en el elemento 0 de la matriz. El número de filas que puede recuperar está limitado por la cantidad de memoria disponible. No debe utilizar **GetRows** para recuperar toda una tabla en una matriz si es grande.
 

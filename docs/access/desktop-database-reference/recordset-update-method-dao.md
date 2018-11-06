@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
 ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d095fd8288ddd3b778bb8d4384fdea9e423ad8d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6d81eaf181a87d6afc13dbf2908be307d120d349
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930311"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997024"
 ---
 # <a name="recordsetupdate-method-dao"></a>Recordset.Update (método) (DAO)
 
@@ -23,7 +23,7 @@ ms.locfileid: "25930311"
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -35,20 +35,20 @@ ms.locfileid: "25930311"
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Una constante <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> que indica el tipo de actualización, como se especifica en la Configuración (únicamente espacios de trabajo ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p>Force</p></td>
+<td><p><em>Force</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p>Un valor <strong>Boolean</strong> que indica si se van a forzar los cambios en la base de datos, independientemente de que los datos subyacentes hayan sido cambiados por otro usuarios desde la llamada <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong> o <strong><a href="recordset-edit-method-dao.md">Edit</a></strong>. Si es <strong>True</strong>, se fuerzan los cambios y se sobrescriben los cambios realizados por otros usuarios. Si es <strong>False</strong> (predeterminado), los cambios realizados por otro usuario mientras la actualización está pendiente, harán que la actualización falle para los cambios en conflicto. No se generan errores, pero las propiedades <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> y <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> indicarán el número de conflictos y las filas afectadas por los conflictos respectivamente (únicamente espacios de trabajo ODBCDirect).  </p></td>
@@ -76,7 +76,6 @@ En un área de trabajo de ODBCDirect, puede realizar actualizaciones por lotes, 
 En un área de trabajo de Microsoft Access, cuando el valor de la propiedad **LockEdits** del objeto **Recordset** es **True** (bloqueado de forma pesimista) en un entorno multiusuario, el registro sigue bloqueado desde que se usa **Edit** hasta que se ejecuta el método **Update** o se cancela la edición. Si el valor de la propiedad **LockEdits** es **False** (bloqueado de forma optimista), el registro se bloquea y se compara con el registro preeditado justo antes de que se actualice en la base de datos. 
 
 Si el registro cambió desde que se usó el método **Edit**, la operación **Update** produce un error. Las bases de datos ODBC e ISAM instalable conectadas por el motor de base de datos de Microsoft Access usan siempre un bloqueo optimista. Para seguir con la operación **Update** en los cambios, use el método **Update** de nuevo. Para volver al registro cuando otro usuario lo cambia, actualice el registro activo mediante Move 0.
-
 
 > [!NOTE]
 > [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. Si no hay, se genera un error "Permiso denegado" en la llamada del método **AddNew**, **Delete** o **Edit** en un espacio de trabajo de Microsoft Access, o se genera un error "Argumento no válido" en una llamada de **Update** en un espacio de trabajo de ODBCDirect.

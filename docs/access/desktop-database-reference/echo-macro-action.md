@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921547"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997458"
 ---
 # <a name="echo-macro-action"></a>Eco (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -22,11 +21,8 @@ Puede usar la acción **Eco** para especificar si se activa el eco. Por ejemplo,
 
 ## <a name="setting"></a>Configuración
 
-
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
 
 La acción **Eco** tiene los siguientes argumentos.
 
@@ -54,7 +50,7 @@ La acción **Eco** tiene los siguientes argumentos.
 </table>
 
 
-Cuando ejecuta una macro, la actualización de la pantalla suele mostrar la información no esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
+Cuando se ejecuta una macro, actualización de la pantalla muestra a menudo información no esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
 
 La acción **Eco** no suprime la visualización de los cuadros de diálogo modales, como mensajes de error o formularios emergentes, como hojas de propiedades. Puede usar los cuadros de diálogo y los formularios emergentes para recopilar o mostrar información, incluso si el eco está desactivado. Para suprimir todos los cuadros de diálogo o de mensaje, excepto los cuadros de mensaje de error y los cuadros de diálogo que necesitan que el usuario introduzca información, use la acción **EstablecerAdvertencias**.
 
@@ -66,7 +62,7 @@ Para ejecutar la acción **Eco** en un módulo Visual Basic para Aplicaciones (V
 
 ## <a name="examples"></a>Ejemplos
 
-**Configurar el valor de un control con una macro**
+### <a name="set-the-value-of-a-control-by-using-a-macro"></a>Configurar el valor de un control con una macro
 
 La siguiente macro abre el formulario Agregar productos desde un botón del formulario Proveedores. Muestra el uso de las acciones **Eco**, **CerrarVentana**, **AbrirFormulario**, **ConfigurarValor** e **IrAControl**. La acción **ConfigurarValor** configura el control Id. de proveedor en el formulario Productos para el proveedor actual del formulario Proveedores. La acción **IrAControl** mueve el foco al campo Id. de categoría, donde puede empezar a introducir los datos para el nuevo producto. Esta macro se debe adjuntar al botón Agregar productos del formulario Proveedores.
 
@@ -113,7 +109,7 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 </table>
 
 
-**Sincronizar los formularios con una macro**
+### <a name="synchronize-forms-by-using-a-macro"></a>Sincronizar los formularios con una macro
 
 La siguiente macro abre el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores y muestra los productos del proveedor actual. Muestra el uso de las acciones **Eco**, **CuadroDeMensajes**, **IrAControl**, **DetenerMacro**, **AbrirFormulario** y **MoverYCambiarTamañoDeVentana**. También muestra el uso de una expresión condicional con las acciones **CuadroDeMensajes**, **IrAControl** y **DetenerMacro**. Esta macro se debe adjuntar al botón Revisar productos del formulario Proveedores.
 

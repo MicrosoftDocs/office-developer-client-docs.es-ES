@@ -10,23 +10,21 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921946"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997262"
 ---
 # <a name="deleteobject-macro-action"></a>EliminarObjeto (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 La acción **EliminarObjeto** permite eliminar un objeto de base de datos especificado.
 
-
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -55,12 +53,8 @@ La acción **EliminarObjeto** tiene los argumentos siguientes.
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > [!PRECAUCIóN] Si deja en blanco los cuadros **Tipo de objeto** y **Nombre del objeto**, Access elimina el objeto seleccionado en el panel de navegación sin mostrar ningún mensaje de advertencia cuando encuentra la acción **EliminarObjeto**.
-
-
 
 ## <a name="remarks"></a>Comentarios
 

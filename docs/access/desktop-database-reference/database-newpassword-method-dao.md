@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949519"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998941"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword (método) (DAO)
 
@@ -41,7 +41,7 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -65,7 +65,7 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Las cadenas bstrOld y bstrNew pueden tener hasta 20 caracteres y pueden incluir cualquier carácter excepto el carácter ASCII 0 (null). Para borrar la contraseña, utilice una cadena de longitud cero ("") para bstrNew.
 

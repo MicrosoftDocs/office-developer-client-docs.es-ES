@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b8dc3c551c9aa75da205717fef682f0abed7a54b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926265"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998731"
 ---
 # <a name="recordsetsort-property-dao"></a>Propiedad Recordset.Sort (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Establece o devuelve el criterio de ordenación para los registros de un objeto 
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede usar la propiedad **Sort** con objetos **Recordset** de tipo dynaset y snapshot.
 
@@ -40,11 +39,8 @@ El criterio de ordenación predeterminado es ascendente (de A a Z, o de 0 a 100)
 
 La propiedad **Sort** no se aplica a los objetos **Recordset** de tipo tabla o de tipo de sólo avance. Para ordenar un objeto **Recordset** de tipo tabla, utilice la propiedad **[Index](recordset-index-property-dao.md)** .
 
-
 > [!NOTE]
-> <P>[!NOTA] En muchos casos, es más rápido abrir un nuevo objeto <STRONG>Recordset</STRONG> mediante una instrucción SQL que incluya los criterios de ordenación.</P>
-
-
+> [!NOTA] En muchos casos, es más rápido abrir un nuevo objeto **Recordset** mediante una instrucción SQL que incluya los criterios de ordenación.
 
 ## <a name="example"></a>Ejemplo
 

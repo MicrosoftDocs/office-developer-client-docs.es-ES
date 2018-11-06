@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ae05da3d07cc17f54584d11282721ac83f23ccd8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff903c459a351f69b272224ca29f9cc717498f0a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926545"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996856"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferirBaseDeDatosSQL (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información sobre la transferencia de una base de datos, vea la documentación de SQL Server.
 
-
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
 
 ## <a name="setting"></a>Configuración
 
@@ -82,17 +78,12 @@ La acción **TransferirBaseDeDatosSQL** copia de forma predeterminada datos, def
 
 Existen ciertos requisitos para transferir una base de datos:
 
-  - El usuario debe ser un administrador del sistema en el servidor de destino (esto no es necesario en el servidor de origen).
+- El usuario debe ser un administrador del sistema en el servidor de destino (esto no es necesario en el servidor de origen).
 
-<!-- end list -->
+- El servidor SQL Server conectado actualmente al proyecto de Access y el servidor de destino al que se está transfiriendo la base de datos debe ser SQL Server versión 7.0 o posterior.
 
-  - El servidor SQL Server conectado actualmente al proyecto de Access y el servidor de destino al que se está transfiriendo la base de datos debe ser SQL Server versión 7.0 o posterior.
-
-
-> [!NOTE]
-> <P>[!NOTA] Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.</P>
-
-
+  > [!NOTE]
+  > [!NOTA] Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.
 
 Para ejecutar la acción **TransferirBaseDeDatosSQL** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **TransferSQLDatabase** del objeto **DoCmd**.
 

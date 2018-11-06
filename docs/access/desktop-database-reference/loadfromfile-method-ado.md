@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96bc0f55f6524a2aaa04bbe1f9b591ff2eb85bb8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c7b8492da87d0443d7992a1b9443501885ade3a0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925726"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998584"
 ---
 # <a name="loadfromfile-method-ado"></a>LoadFromFile (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Carga el contenido de un archivo existente en un objeto [Stream](stream-object-ado.md).
 
@@ -26,11 +23,11 @@ Carga el contenido de un archivo existente en un objeto [Stream](stream-object-a
 
 *Secuencia*. LoadFromFile *FileName*
 
-## <a name="parameter"></a>Parámetro
+## <a name="parameters"></a>Parámetros
 
-  - *FileName*
-
-  - Valor de tipo **String** que contiene el nombre del archivo que se va a cargar en el objeto **Stream**. *Nombre de archivo* puede contener cualquier ruta de acceso válida y un nombre en formato UNC. Si no existe el archivo especificado, se produce un error en tiempo de ejecución.
+|Nombre |Descripción|
+|:----|:----------|
+|*FileName* |Valor de tipo **String** que contiene el nombre del archivo que se va a cargar en el objeto **Stream**. *Nombre de archivo* puede contener cualquier ruta de acceso válida y un nombre en formato UNC. Si no existe el archivo especificado, se produce un error en tiempo de ejecución.|
 
 ## <a name="remarks"></a>Comentarios
 

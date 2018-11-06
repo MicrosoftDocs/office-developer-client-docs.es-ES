@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
 ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6dacfb1b46899397647c928c2b8032a97417fbf5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6db35b060d59891bfc33bb75c6e6bb370fb3dc9a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927420"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998234"
 ---
 # <a name="recordset2seek-method-dao"></a>Recordset2.Seek (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Busca el registro en un objeto **Recordset** de tipo tabla indizada que satisfac
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Busca el registro en un objeto **Recordset** de tipo tabla indizada que satisfac
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Una de las siguientes expresiones de cadena: &lt;, &lt;=, =, &gt;=, o &gt;.</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1, Key2...Key13</p></td>
+<td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uno o más valores correspondientes a campos en el índice actual del objeto <strong>Recordset</strong>, según lo especificado por su configuración de propiedad <strong>Index</strong>. Puede utilizar hasta 13 argumentos key.</p></td>
@@ -60,7 +59,7 @@ Busca el registro en un objeto **Recordset** de tipo tabla indizada que satisfac
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Debe establecer el índice activo con la propiedad **Index** antes de utilizar **Seek**. Si el índice identifica un campo clave no único, **Seek** localiza el primer registro que satisface los criterios.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 31d314ebbdc43bd6e50c187cafcb68028d03a7e5
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871433"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996807"
 ---
 # <a name="microsoft-activex-data-objects-reference"></a>Referencia de objetos de datos ActiveX de Microsoft
 
@@ -19,7 +19,7 @@ ms.locfileid: "25871433"
 
 ## <a name="purpose"></a>Propósito
 
-Microsoft ActiveX Data Objects (ADO) permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Sus principales ventajas son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO es compatible con características clave para generación de aplicaciones cliente/servidor y aplicaciones basadas en Web.
+Microsoft ActiveX Data Objects (ADO) permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Sus principales ventajas son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO admite las características principales para crear aplicaciones basadas en web y cliente/servidor.
 
 ## <a name="rds"></a>RDS
 

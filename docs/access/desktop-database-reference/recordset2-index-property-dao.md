@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a0956efd8082363c4d00acf491bcb0b990cdf0e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 034fd349f140e931d1a5f654dfb275854aa2b78d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920406"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998983"
 ---
 # <a name="recordset2index-property-dao"></a>Propiedad Recordset2.Index (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -38,21 +37,12 @@ Puede crear un índice nuevo para la tabla mediante la creación de un nuevo obj
 
 Los registros devueltos desde un objeto **Recordset** de tipo de tabla pueden ordenarse sólo por los índices definidos por el objeto base **TableDef**. Para ordenar los registros en cualquier otro orden, puede abrir un dynaset, instantánea u objeto **Recordset** de tipo forward – only mediante el uso de una instrucción SQL con una cláusula ORDER BY.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>No tiene que crear índices para tablas. Con grandes tablas sin índice, puede que tarde mucho tiempo en tener acceso a un registro específico o en crear un objeto <STRONG>Recordset</STRONG>. Por otra parte, al crear demasiados índices se ralentiza el actualizar, anexar y eliminar operaciones debido a que todos los índices se actualizan automáticamente.</P>
-> <LI>
-> <P>Los registros leídos desde tablas sin índices no se devuelven en secuencias concretas.</P>
-> <LI>
-> <P>La propiedad <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de cada objeto <STRONG><A href="field-object-dao.md">Field</A></STRONG> en el objeto <STRONG>Index</STRONG> determina el orden de los registros y, como consecuencia, se determinan las técnicas de acceso que hay que usar para ese índice.</P>
-> <LI>
-> <P>Un índice único ayuda a optimizar la búsqueda de registros.</P>
-> <LI>
-> <P>Los índices no afectan al orden físico de los índices de tablas base, solo afectan a cómo se tiene acceso a los registros mediante el objeto <STRONG>Recordset</STRONG> de tipo de tabla cuando se elige un índice concreto o cuando se abre <STRONG>Recordset</STRONG>.</P></LI></UL>
-
-
+> - No tiene que crear índices para tablas. Con grandes tablas sin índice, puede que tarde mucho tiempo en tener acceso a un registro específico o en crear un objeto **Recordset**. Por otra parte, al crear demasiados índices se ralentiza el actualizar, anexar y eliminar operaciones debido a que todos los índices se actualizan automáticamente.
+> - Los registros leídos desde tablas sin índices no se devuelven en secuencias concretas.
+> - La propiedad **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** en el objeto **Index** determina el orden de los registros y, como consecuencia, se determinan las técnicas de acceso que hay que usar para ese índice.
+> - Un índice único ayuda a optimizar la búsqueda de registros.
+> - Los índices no afectan al orden físico de los índices de tablas base, solo afectan a cómo se tiene acceso a los registros mediante el objeto **Recordset** de tipo de tabla cuando se elige un índice concreto o cuando se abre **Recordset**.
 
 ## <a name="example"></a>Ejemplo
 

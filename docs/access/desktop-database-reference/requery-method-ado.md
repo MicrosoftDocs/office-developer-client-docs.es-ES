@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925803"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998199"
 ---
 # <a name="requery-method-ado"></a>Requery (método, ADO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
-
 
 Actualiza los datos de un objeto [Recordset](recordset-object-ado.md) ejecutando de nuevo la consulta en la que se basa el objeto.
 
@@ -26,17 +23,14 @@ Actualiza los datos de un objeto [Recordset](recordset-object-ado.md) ejecutando
 
 *conjunto de registros*. Requery *Opciones*
 
-## <a name="parameter"></a>Parámetro
+## <a name="parameters"></a>Parámetros
 
-  - *Options*
-
-  - Es opcional. Máscara de bits que contiene valores de [ExecuteOptionEnum](executeoptionenum.md) y [CommandTypeEnum](commandtypeenum.md) que afectan a esta operación.
-
+|Nombre |Descripción|
+|:----|:----------|
+|*Options* |Es opcional. Máscara de bits que contiene valores de [ExecuteOptionEnum](executeoptionenum.md) y [CommandTypeEnum](commandtypeenum.md) que afectan a esta operación.|
 
 > [!NOTE]
-> <P>Si <EM>las opciones</EM> está establecido en <STRONG>adAsyncExecute</STRONG>, esta operación se ejecutará asincrónicamente y se emitirá un evento <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> cuando finalice.</P>
-
-
+> Si *las opciones* está establecido en **adAsyncExecute**, esta operación se ejecutará asincrónicamente y se emitirá un evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) cuando finalice.
 
 Los valores de **ExecuteOpenEnum** de **adExecuteNoRecords** o **adExecuteStream** no deben utilizarse con **Requery**.
 

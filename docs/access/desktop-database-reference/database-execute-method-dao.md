@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 424fa55f90c0968d70c47b0d5fa3ff8c704f2ac9
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 13568f689d9e5b4e4533969192de7af65ea1f8ec
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950155"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997829"
 ---
 # <a name="databaseexecute-method-dao"></a>Database.Execute (método) (DAO)
 
@@ -37,7 +37,7 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -59,7 +59,7 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para ver las opciones.
 

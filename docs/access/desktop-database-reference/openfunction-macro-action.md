@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2a9a96b22669889cf4dc51984fc3d3c9f7623428
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930227"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998864"
 ---
 # <a name="openfunction-macro-action"></a>AbrirFunción (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 En un proyecto de Access, puede abrir la acción **AbrirFunción** para abrir una función definida por el usuario en la vista Hoja de datos, vista Diseño de función en línea, vista Editor de texto SQL (para una función escalar o una función de tabla definida por el usuario) o Vista preliminar. Esta acción ejecuta la función definida por el usuario cuando se abre en la vista Hoja de datos. También puede seleccionar el modo de entrada de datos para la función definida por el usuario y restringir los registros que muestra la función definida por el usuario.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -68,11 +64,9 @@ Esta acción es similar a hacer doble clic en una función definida por el usuar
 
 Si se cambia a la vista Diseño mientras está abierta la función definida por el usuario, se quita el valor del argumento **Modo de datos** de la función definida por el usuario. Este valor no tiene efecto aunque el usuario vuelva a la vista Hoja de datos.
 
-**Sugerencias**
-
-  - Puede seleccionar una función definida por el usuario en el panel de navegación y arrastrarla hasta una fila de acción de una macro. De este modo, se crea automáticamente la acción **AbrirFunción** que abre la función definida por el usuario en la vista Hoja de datos.
-
-  - Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una función definida por el usuario (esos mensajes indican que se trata de una función definida por el usuario y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.
+> [!TIP]
+> - Puede seleccionar una función definida por el usuario en el panel de navegación y arrastrarla hasta una fila de acción de una macro. De este modo, se crea automáticamente la acción **AbrirFunción** que abre la función definida por el usuario en la vista Hoja de datos.
+> - Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una función definida por el usuario (esos mensajes indican que se trata de una función definida por el usuario y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.
 
 Para ejecutar la acción **AbrirFunción** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **OpenFunction** del objeto **DoCmd**.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: aa029e3a81670746cdc467ddf7578c5900b58b29
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 206c12d324b2b9c11b22357a3262a343bba3c122
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929037"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998808"
 ---
 # <a name="sendkeys-macro-action"></a>EnviarTeclas (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -37,14 +36,10 @@ ms.locfileid: "25929037"
 </tbody>
 </table>
 
-
 Puede usar la acción **EnviarTeclas** para enviar pulsaciones de teclas directamente a Microsoft Access o a una aplicación activa basada en Windows.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -80,23 +75,14 @@ Access procesa las pulsaciones que recibe a través de la acción **EnviarTeclas
 
 Para especificar las pulsaciones, utilice la misma sintaxis que usaría para la instrucción **EnviarTeclas**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Puede ocurrir un error si el argumento <STRONG>Pulsaciones de teclas</STRONG> contiene una sintaxis incorrecta, texto mal escrito u otros valores que no sean apropiados para la ventana a la que se envían las pulsaciones.</P>
-
-
+> [!NOTA] Puede ocurrir un error si el argumento **Pulsaciones de teclas** contiene una sintaxis incorrecta, texto mal escrito u otros valores que no sean apropiados para la ventana a la que se envían las pulsaciones.
 
 Puede usar esta acción para insertar información en un cuadro de diálogo, particularmente si no desea interrumpir la macro para responder de forma manual al cuadro de diálogo. Algunas acciones de Access, como **Imprimir** o **BuscarRegistro**, seleccionan de forma automática las opciones de determinados cuadros de diálogo de uso frecuente. Puede usar la acción **EnviarTeclas** para seleccionar las opciones de los cuadros de diálogo que se usan menos frecuentemente.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Dado que el cuadro de diálogo suspende la macro, se deberá colocar la acción <STRONG>EnviarTeclas</STRONG> antes de la acción que abre el cuadro de diálogo, y establecer el argumento <STRONG>Esperar</STRONG> en <STRONG>No</STRONG>.</P>
-> <LI>
-> <P>El momento en que las pulsaciones de teclas llegan a Access o a otra aplicación puede no ser el adecuado. Por ello, se recomienda que, si existe otro método (como la acción <STRONG>BuscarRegistro</STRONG> ) disponible para realizar la tarea deseada, se utilice en vez de usar la acción <STRONG>EnviarTeclas</STRONG> para rellenar las opciones de cuadros de diálogo.</P></LI></UL>
-
-
+> - Dado que el cuadro de diálogo suspende la macro, se deberá colocar la acción **EnviarTeclas** antes de la acción que abre el cuadro de diálogo, y establecer el argumento **Esperar** en **No**.
+> - El momento en que las pulsaciones de teclas llegan a Access o a otra aplicación puede no ser el adecuado. Por ello, se recomienda que, si existe otro método (como la acción **BuscarRegistro** ) disponible para realizar la tarea deseada, se utilice en vez de usar la acción **EnviarTeclas** para rellenar las opciones de cuadros de diálogo.
 
 Si desea enviar más de 255 caracteres a Access o a cualquier otra aplicación basada en Windows, puede utilizar varias acciones **EnviarTeclas** seguidas en una macro.
 

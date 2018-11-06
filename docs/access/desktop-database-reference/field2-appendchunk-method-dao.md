@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: eeaed6e6c2f32463a12f617c8fee90b2d5f24a86
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937053"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998437"
 ---
 # <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk (método) (DAO)
 
@@ -29,7 +29,7 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 
 *expresión* Variable que representa un objeto **Field2** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -41,14 +41,14 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Val</p></td>
+<td><p><em>Val</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Expresión o variable Variant (subtipo cadena) que contiene los datos que desea agregar al objeto <strong>Field2</strong>.</p></td>

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921554"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996996"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Field.GetChunk (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Devuelve todo o parte del contenido de un objeto **Memo** o **Long Binary** **[F
 
 *expresión* Variable que representa un objeto **Field** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -42,20 +41,20 @@ Devuelve todo o parte del contenido de un objeto **Memo** o **Long Binary** **[F
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Número de bytes que se omiten antes de que se inicie la copia.</p></td>
 </tr>
 <tr class="even">
-<td><p>Bytes</p></td>
+<td><p><em>Bytes</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Número de bytes que desea devolver.</p></td>
@@ -64,7 +63,7 @@ Devuelve todo o parte del contenido de un objeto **Memo** o **Long Binary** **[F
 </table>
 
 
-### <a name="return-value"></a>Valor devuelto
+## <a name="return-value"></a>Valor devuelto
 
 Variant
 
@@ -76,11 +75,8 @@ Si offset es 0, **GetChunk** inicia la copia desde el primer byte del campo.
 
 Si numbytes es mayor que el número de bytes en el campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
 
-
 > [!NOTE]
 > [!NOTA] Utilice un campo **Memo** para el texto y coloque los datos binarios únicamente en campos **Long Binary** ya que, de lo contrario, se pueden obtener resultados no deseados.
-
-
 
 ## <a name="example"></a>Ejemplo
 

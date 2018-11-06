@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab1111cdbc0e5a319f1f3431477854c6d38eff20
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0d4d907cedc3490f4ca13d47a12b9719cf3e2ee1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875409"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997157"
 ---
 # <a name="position-property-ado"></a>Position (propiedad, ADO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ Establece o devuelve un valor de tipo **Long** que especifica el desplazamiento,
 
 ## <a name="remarks"></a>Comentarios
 
-La posición actual puede moverse a un punto situado detrás del final de la secuencia. Si se especifica la posición actual detrás del fin de la secuencia, el [tamaño](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) del objeto **Stream** aumentará en consecuencia. Cualquier byte nuevo agregado de esta forma será nulo.
-
+La posición actual puede moverse a un punto situado detrás del final de la secuencia. Si se especifica la posición actual detrás del fin de la secuencia, el [tamaño](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) del objeto **Stream** aumentará en consecuencia. Cualquier byte nuevo agregado de esta forma será nulo.
 
 > [!NOTE]
-> <P>[!NOTA] <STRONG>Position</STRONG> siempre mide bytes. En las secuencias de texto que usan juegos de caracteres multibyte, multiplique la posición por el tamaño de los caracteres para determinar el número de caracteres. Por ejemplo, en un juego de caracteres de dos bytes, el primer carácter se encuentra en la posición 0, el segundo en la 2, el tercero en la 4 y así sucesivamente.</P>
-
-
+> [!NOTA] **Position** siempre mide bytes. En las secuencias de texto que usan juegos de caracteres multibyte, multiplique la posición por el tamaño de los caracteres para determinar el número de caracteres. Por ejemplo, en un juego de caracteres de dos bytes, el primer carácter se encuentra en la posición 0, el segundo en la 2, el tercero en la 4 y así sucesivamente.
 
 No es posible utilizar valores negativos para cambiar la posición actual en un objeto **Stream**. Con **Position** sólo se pueden utilizar números positivos.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a65bad49c7b9b7a7af91403b1119923b62daa04a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c66c4e6b8fc43a27b2feb87e45ec436e3abfa49
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931249"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998920"
 ---
 # <a name="name-property-adox"></a>Name (propiedad, ADOX)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -32,14 +31,8 @@ La propiedad **Name** es de lectura y escritura en objetos [Column](column-objec
 
 Para objetos de lectura y escritura (objetos **Column**, **Group**, **Key**, **Index**, **Table** y **User**), el valor predeterminado es una cadena vacía ("").
 
-
 > [!NOTE]
-> <P>[!NOTA] Para claves, esta propiedad es de sólo lectura en objetos <STRONG>Key</STRONG> ya anexados a una colección.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!NOTA] Para tablas, esta propiedad es de sólo lectura en objetos <STRONG>Table</STRONG> ya anexados a una colección.</P>
+> - [!NOTA] Para claves, esta propiedad es de sólo lectura en objetos **Key** ya anexados a una colección.
+> - [!NOTA] Para tablas, esta propiedad es de sólo lectura en objetos **Table** ya anexados a una colección.
 
 

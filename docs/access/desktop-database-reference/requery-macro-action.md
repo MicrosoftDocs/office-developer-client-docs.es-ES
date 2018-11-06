@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e59a1f5ce676ceaa1b0b346a38b4487b3233e514
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920035"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997381"
 ---
 # <a name="requery-macro-action"></a>NuevaConsulta (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -52,35 +51,29 @@ La acción **NuevaConsulta** tiene el siguiente argumento.
 
 La acción **NuevaConsulta** realiza alguna de las siguientes acciones:
 
-  - Ejecuta de nuevo la consulta en la que está basada el control o el objeto.
+- Ejecuta de nuevo la consulta en la que está basada el control o el objeto.
 
-  - Presenta cualquier registro nuevo o modificado y quita cualquier registro eliminado de la tabla en la que está basado el control o el objeto.
-
+- Presenta cualquier registro nuevo o modificado y quita cualquier registro eliminado de la tabla en la que está basado el control o el objeto.
 
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>NuevaConsulta</STRONG> no afecta a la posición del puntero de registro.</P>
-
-
+> [!NOTA] La acción **NuevaConsulta** no afecta a la posición del puntero de registro.
 
 Los controles basados en una consulta o tabla son:
 
-  - Cuadros de lista y cuadros combinados.
+- Cuadros de lista y cuadros combinados.
 
-  - Controles de subformulario.
+- Controles de subformulario.
 
-  - Objetos OLE, por ejemplo, gráficos.
+- Objetos OLE, por ejemplo, gráficos.
 
-  - Controles que contienen funciones de agregado de dominio, como **DSuma**.
+- Controles que contienen funciones de agregado de dominio, como **DSuma**.
 
 Si el control especificado no está basado en una consulta o tabla, esta acción hace que se vuelva a calcular el control.
 
 Si deja en blanco el argumento **Nombre del control**, la acción **NuevaConsulta** tiene el mismo efecto que presionar MAYÚS+F9 cuando el objeto tiene el enfoque. Si un control de subformulario tiene el enfoque, esta acción vuelve a consultar sólo el origen del subformulario (al igual que cuando se presionan MAYÚS+F9).
 
-
 > [!NOTE]
-> <P>[!NOTA] La acción <STRONG>NuevaConsulta</STRONG> vuelve a consultar el origen del control u objeto. En cambio, la acción <STRONG>RepintarObjeto</STRONG> vuelve a pintar los controles del objeto especificado pero no vuelve a consultar la base de datos ni muestra los nuevos registros. La acción <STRONG>MostrarTodosRegistros</STRONG> no sólo vuelve a consultar el objeto activo sino que también quita todos los filtros que se hayan aplicado, a diferencia de la acción <STRONG>NuevaConsulta</STRONG>.</P>
-
-
+> [!NOTA] La acción **NuevaConsulta** vuelve a consultar el origen del control u objeto. En cambio, la acción **RepintarObjeto** vuelve a pintar los controles del objeto especificado pero no vuelve a consultar la base de datos ni muestra los nuevos registros. La acción **MostrarTodosRegistros** no sólo vuelve a consultar el objeto activo sino que también quita todos los filtros que se hayan aplicado, a diferencia de la acción **NuevaConsulta**.
 
 Si desea volver a consultar un control que no esté en el objeto activo, deberá utilizar el método **Requery** en un módulo de Visual Basic para Aplicaciones (VBA), en lugar de la acción **NuevaConsulta** o su correspondiente método **Requery** del objeto **DoCmd**. El método **Requery** en VBA es más rápido que la acción **NuevaConsulta** o el método **DoCmd.Requery**. Además, cuando se utiliza la acción **NuevaConsulta** o el método **DoCmd.Requery**, Microsoft Access cierra la consulta y vuelve a cargarla desde la base de datos, pero cuando se utiliza el método **Requery**, Access ejecuta de nuevo la consulta sin cerrarla ni cargarla. Tenga en cuenta que el objeto de datos ActiveX (ADO) **Requery** (método) funciona de la misma manera que el método **Requery** de de Access.
 

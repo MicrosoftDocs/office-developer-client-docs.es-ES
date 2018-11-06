@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d0d5eec3c032780dd6065bd29f6d41c299a7379
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 96350229bce2ecc25ff035f2e5949f080f0fa10f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937697"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997731"
 ---
 # <a name="chapter-10-records-and-streams"></a>Capítulo 10: Objetos Record y Stream
 
@@ -25,7 +25,7 @@ Los objetos **Record** funcionan básicamente como objetos **Recordset** de una 
 
 Los objetos **Record** pueden servir para otro propósito, especialmente con proveedores para orígenes de datos distintos de las bases de datos relacionales tradicionales, tales como [ Microsoft OLE DB Provider for Internet Publishing ](microsoft-ole-db-provider-for-internet-publishing.md). Gran parte de la información que se debe procesar existe no como tablas de bases de datos, sino como mensajes de sistemas de correo electrónico o como archivos de los modernos sistemas de archivos. Los objetos **Record** y **Stream** facilitan el acceso a información almacenada en orígenes distintos de las bases de datos relacionales.
 
-El objeto **Record** puede representar y administrar datos tales como directorios y archivos de un sistema de archivos, o carpetas y mensajes de un sistema de correo electrónico. En estos casos, el origen para el **registro** puede ser la fila actual de un objeto **Recordset** abierto, una dirección URL absoluta o una dirección URL relativa en combinación con un objeto [Connection](connection-object-ado.md) abierto.
+El objeto **Record** puede representar y administrar datos tales como directorios y archivos en un sistema de archivos o carpetas y mensajes en un sistema de correo electrónico. En estos casos, el origen para el **registro** puede ser la fila actual de un objeto **Recordset** abierto, una dirección URL absoluta o una dirección URL relativa en combinación con un objeto [Connection](connection-object-ado.md) abierto.
 
 Normalmente, un objeto **Recordset** se puede usar para representar un contenedor o un elemento principal de una jerarquía, tal como una carpeta o un directorio. Un **registro** se puede usar para devolver información específica sobre un nodo del contenedor principal, tal como un archivo o documento. La razón principal por la que los objetos **Record** se utilizan para representar este tipo de información es que estos orígenes de datos son heterogéneos. Esto significa que cada **registro** puede tener un conjunto y un número diferente de campos. Los objetos **Recordset** usuales que contienen filas de una base de datos son homogéneos, lo cual significa que cada fila tiene el mismo número y tipo de campos.
 

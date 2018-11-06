@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8b1e32eca6862645fc4f9c3b9021258e805dc8c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f01899833b4cf0537a4437a643f2aeedf99e586c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921323"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996919"
 ---
 # <a name="importsharepointlist-macro-action"></a>ImportarListaDeSharePoint (acción de macro)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25921323"
 Puede usar la acción **ImportarListaDeSharePoint** para importar o vincular los datos de un sitio de Microsoft SharePoint Foundation.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 

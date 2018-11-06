@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e9e7fb19504e606fed9960a3982c0f98f9081325
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950002"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997569"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema (método, ADO)
 
@@ -49,8 +49,7 @@ Los proveedores no tienen que admitir necesariamente todas las consultas de esqu
 
 **Uso de servicio de datos remotos** El método **OpenSchema** no está disponible en un objeto de [conexión](connection-object-ado.md) de cliente.
 
-
 > [!NOTE]
-> <P>En Visual Basic, las columnas que tienen un entero sin signo de cuatro bytes (DBTYPE UI4) en el objeto <STRONG>Recordset</STRONG> devuelto por el método <STRONG>OpenSchema</STRONG> en el objeto <STRONG>Connection</STRONG>, no se pueden comparar con otras variables. Para obtener más información sobre los tipos de datos OLE DB, vea el capítulo 13 y el apéndice A de la <EM>Referencia del programador de Microsoft OLE DB</EM>.</P>
+> En Visual Basic, las columnas que tienen un entero sin signo de cuatro bytes (DBTYPE UI4) en el objeto **Recordset** devuelto por el método **OpenSchema** en el objeto **Connection**, no se pueden comparar con otras variables. Para obtener más información sobre los tipos de datos OLE DB, vea el capítulo 13 y el apéndice A de la *Referencia del programador de Microsoft OLE DB*.
 
 

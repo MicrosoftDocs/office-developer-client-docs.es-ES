@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 451d27f97c0b4f5fc4707d3947e262ba84b9a40e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d80065c976a014ccf379bdc2016b0324cb02b269
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926104"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998150"
 ---
 # <a name="opentable-macro-action"></a>AbrirTabla (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -55,16 +54,12 @@ La acción **AbrirTabla** tiene los siguientes argumentos.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentarios
 
 Esta acción es similar a hacer doble clic en una tabla en el panel de navegación, o bien, a hacer clic con el botón secundario en la tabla en el panel de navegación y, a continuación, seleccionar una vista.
 
-
 > [!TIP]
-> <P>[!SUGERENCIA] Puede arrastrar una tabla desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción <STRONG>AbrirTabla</STRONG> que abre la tabla en la vista Hoja de datos.</P>
-
-
+> [!SUGERENCIA] Puede arrastrar una tabla desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirTabla** que abre la tabla en la vista Hoja de datos.
 
 Para ejecutar la acción **AbrirTabla** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **OpenTable** del objeto **DoCmd**.
 

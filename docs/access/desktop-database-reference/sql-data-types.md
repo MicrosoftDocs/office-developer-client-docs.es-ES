@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd5deb6d14aaf5911cd87c4d562dbec74e7ad1f2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ef5a794014f1397202483e008d164cb5de0b5179
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944490"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997815"
 ---
 # <a name="sql-data-types"></a>Tipos de datos SQL
 
@@ -112,13 +112,6 @@ En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimo
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>El valor de inicialización y el incremento se pueden modificar mediante una <A href="alter-table-statement-microsoft-access-sql.md">instrucción ALTER TABLE</A>. Las filas nuevas insertadas en la tabla tendrán valores, basados en los nuevos valores de inicialización e incremento, que se generan automáticamente para la columna. Si los nuevos valores de inicialización e incremento pueden proporcionar valores que coinciden con los valores generados en función de los valores de inicialización e incremento anteriores, se generarán valores duplicados. Si la columna es una clave principal, la inserción de nuevas filas puede producir errores al generarse valores duplicados.</P>
-> <LI>
-> <P>Para buscar el último valor que se usó para una columna de incremento automático, puede utilizar la siguiente instrucción: SELECT @@IDENTITY. No puede especificar el nombre de una tabla. El valor devuelto pertenece a la última tabla, que contenga una columna de incremento automático, que se actualizó.</P></LI></UL>
-
-
+> - El valor de inicialización y el incremento se pueden modificar mediante una [instrucción ALTER TABLE](alter-table-statement-microsoft-access-sql.md). Las filas nuevas insertadas en la tabla tendrán valores, basados en los nuevos valores de inicialización e incremento, que se generan automáticamente para la columna. Si los nuevos valores de inicialización e incremento pueden proporcionar valores que coinciden con los valores generados en función de los valores de inicialización e incremento anteriores, se generarán valores duplicados. Si la columna es una clave principal, la inserción de nuevas filas puede producir errores al generarse valores duplicados.
+> - Para buscar el último valor que se usó para una columna de incremento automático, puede utilizar la siguiente instrucción: SELECT @@IDENTITY. No puede especificar el nombre de una tabla. El valor devuelto pertenece a la última tabla, que contenga una columna de incremento automático, que se actualizó.

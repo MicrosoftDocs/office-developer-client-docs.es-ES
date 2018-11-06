@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 66905394b0bf7127e952c9fe17860e84a151a3b0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a651e017b77e01a3fc6e810f58c00c94ece123ad
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937606"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997773"
 ---
 # <a name="querydefreturnsrecords-property-dao"></a>Propiedad QueryDef.ReturnsRecords (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Establece o devuelve un valor que indica si una consulta de paso a través SQL a una base de datos externa devuelve registros (únicamente áreas de trabajo de Microsoft Access).
 
@@ -35,11 +33,8 @@ Establece o devuelve un valor que indica si una consulta de paso a través SQL a
 
 No todas las consultas de paso a través SQL a bases de datos externas devuelven registros. Por ejemplo, una instrucción UPDATE SQL actualiza registros sin devolver registros, mientras que una instrucción SELECT SQL sí devuelve registros. Si la consulta devuelve registros, establezca la propiedad **ReturnsRecords** en **True**; si no devuelve registros, establezca la propiedad **ReturnsRecords** en **False**.
 
-
 > [!NOTE]
-> <P>[!NOTA] Debe establecer la propiedad <STRONG><A href="querydef-connect-property-dao.md">Connect</A></STRONG> antes de establecer la propiedad <STRONG>ReturnsRecords</STRONG>.</P>
-
-
+> [!NOTA] Debe establecer la propiedad **[Connect](querydef-connect-property-dao.md)** antes de establecer la propiedad **ReturnsRecords**.
 
 ## <a name="example"></a>Ejemplo
 

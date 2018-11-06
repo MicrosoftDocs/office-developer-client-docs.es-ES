@@ -10,24 +10,22 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f87c8e45cbc719ee50c017abd45a8950dc6ec7ed
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945449"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997472"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializar el controlador de origen de datos de texto
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 Se utiliza el mismo controlador de base de datos para los orígenes de datos de texto y los orígenes de datos HTML.
 
 Cuando se instala el controlador de base de datos de origen de datos de texto, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows de Microsoft en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de orígenes de datos de texto.
 
-## <a name="text-data-source-initialization-settings"></a>Configuración de inicialización de los orígenes de datos de texto
+## <a name="text-data-source-initialization-settings"></a>Configuración de inicialización del origen de datos de texto
 
 La **Access Connectivity Engine\\formatos ISAM de\\la carpeta de texto** incluye la configuración de inicialización para el controlador Acetxt.dll, utilizado para el acceso externo a los archivos de datos de texto. En el siguiente ejemplo se muestra una configuración típica para las entradas de esta carpeta.
 
@@ -102,7 +100,7 @@ El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta
 </table>
 
 
-## <a name="text-data-source-isam-formats"></a>Formatos ISAM de los orígenes de datos de texto
+## <a name="text-data-source-isam-formats"></a>Formatos ISAM de origen de datos de texto
 
 La **Access Connectivity Engine\\formatos ISAM de\\texto** carpeta contiene las siguientes entradas.
 
@@ -184,13 +182,10 @@ La **Access Connectivity Engine\\formatos ISAM de\\texto** carpeta contiene las 
 </table>
 
 
-
 > [!NOTE]
-> <P>Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</P>
+> Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
-
-
-## <a name="html-import-isam-formats"></a>Formatos ISAM de HTML Import
+## <a name="html-import-isam-formats"></a>Formatos ISAM de HTML import
 
 La **Access Connectivity Engine\\formatos ISAM de\\importación HTML** carpeta contiene las siguientes entradas.
 
@@ -261,14 +256,10 @@ La **Access Connectivity Engine\\formatos ISAM de\\importación HTML** carpeta c
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</P>
+> Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
-
-
-## <a name="html-export-isam-formats"></a>Formatos ISAM de HTML Export
+## <a name="html-export-isam-formats"></a>Formatos ISAM de HTML export
 
 La **Access Connectivity Engine\\formatos ISAM de\\HTML Export** carpeta contiene las siguientes entradas.
 
@@ -334,14 +325,10 @@ La **Access Connectivity Engine\\formatos ISAM de\\HTML Export** carpeta contien
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</P>
+> Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
-
-
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalizar el archivo Schema.ini para datos de texto y HTML
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalizar el archivo Schema.ini para datos HTML y texto
 
 Para poder leer, importar o exportar texto y datos HTML, es necesario crear un archivo Schema.ini e incluir la información ISAM de texto en dicho archivo. El archivo Schema.ini contiene información detallada sobre un origen de datos: cómo se da formato al archivo de texto, cómo se lee en el momento de la importación y cuál es el formato de exportación predeterminado para los archivos. Los ejemplos siguientes muestran el diseño para un archivo de ancho fijo, Filename.txt:
 
@@ -368,6 +355,8 @@ Para poder leer, importar o exportar texto y datos HTML, es necesario crear un a
     Col5=columnname9 LongChar Width 10
 ```
 
+<br/>
+
 De forma similar, el formato para un archivo delimitado se especifica de la manera siguiente:
 
 ```text
@@ -385,6 +374,8 @@ De forma similar, el formato para un archivo delimitado se especifica de la mane
     
     Col2=dateofbirth Date width 9
 ```
+
+<br/>
 
 Si está exportando datos a un archivo de texto delimitado, especifique también el formato de dicho archivo:
 
@@ -421,6 +412,8 @@ Si está exportando datos a un archivo de texto delimitado, especifique también
     
     TextDelimeter="
 ```
+
+<br/>
 
 El ejemplo My Special Export hace referencia a una opción de exportación determinada; es posible especificar cualquier variación de las opciones de exportación a la hora de realizar la conexión. Este último ejemplo también corresponde a un nombre de origen de datos (DSN) que se puede pasar de forma opcional al efectuar la conexión. Se pueden incluir las tres secciones de formato en el mismo archivo .ini.
 
@@ -510,8 +503,6 @@ El motor de base de datos de Microsoft Access utiliza las entradas del archivo S
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!NOTA] Si modifica la configuración del archivo Schema.ini, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.

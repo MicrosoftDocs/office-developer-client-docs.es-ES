@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dbd8ecc670742d6b9f88dd9c608d2304e26a8d09
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dc8f9103cffb4df4a4db327da9c8ff36e3ec2555
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929667"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997808"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>Propiedad TableDef.ReplicaFilter (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -78,11 +77,8 @@ Si su aplicación cambia los filtros de réplica, debería seguir los pasos que 
 
 Para quitar un filtro, establezca la propiedad **ReplicaFilter** en **False**. Si quita todos los filtros y llama al método **PopulatePartial**, no aparecerá ningún registro en ninguna tabla replicada de la réplica parcial.
 
-
 > [!NOTE]
-> <P>[!NOTA] Si un filtro de réplica cambia y se llama al método <STRONG>Synchronize</STRONG> sin haber llamado primero a <STRONG>PopulatePartial</STRONG>, se producirá un error capturable.</P>
-
-
+> [!NOTA] Si un filtro de réplica cambia y se llama al método **Synchronize** sin haber llamado primero a **PopulatePartial**, se producirá un error capturable.
 
 ## <a name="example"></a>Ejemplo
 

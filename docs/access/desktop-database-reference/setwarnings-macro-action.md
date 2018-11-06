@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d72a594a09196f5061ede52b4fbcbbc2cf96253c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7642c7a727853005cb6cf664bf44f29bcd6e14ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923164"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997975"
 ---
 # <a name="setwarnings-macro-action"></a>EstablecerAdvertencias (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 Puede usar la acción **EstablecerAdvertencias** para activar y desactivar los mensajes del sistema.
 
-
 > [!NOTE]
-> <P>[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</P>
-
-
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -64,11 +60,8 @@ Cuando termina la macro, Access vuelve a activar automáticamente la presentaci�
 
 Esta acción se suele utilizar con la acción **Eco**, la cual permite ocultar los resultados de una macro mientras ésta se ejecuta. Puede usar entonces la acción **EstablecerAdvertencias** para ocultar también los cuadros de mensajes y advertencias.
 
-
 > [!WARNING]
-> <P>[!PRECAUCIóN] Aunque la acción <STRONG>EstablecerAdvertencias</STRONG> puede simplificar las interacciones con las macros, se debe tener cuidado con la desactivación de los mensajes del sistema. En algunas situaciones, no deseará continuar con una macro si aparece un determinado mensaje. A menos que esté muy seguro del resultado de todas las acciones de la macro, debería evitar utilizar esta acción.</P>
-
-
+> [!PRECAUCIóN] Aunque la acción **EstablecerAdvertencias** puede simplificar las interacciones con las macros, se debe tener cuidado con la desactivación de los mensajes del sistema. En algunas situaciones, no deseará continuar con una macro si aparece un determinado mensaje. A menos que esté muy seguro del resultado de todas las acciones de la macro, debería evitar utilizar esta acción.
 
 Para ejecutar la acción **EstablecerAdvertencias** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **SetWarnings** del objeto **DoCmd**.
 

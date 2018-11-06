@@ -1,6 +1,6 @@
 ---
 title: Recordset.CancelUpdate (método) (DAO)
-TOCTitle: CancelUpdate Method
+TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
 ms:contentKeyID: 48548590
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053072
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c75b98de62738e479b0bbb1608097f0f920cf60c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6cb9823cec79a31f8ae26b2518d4368f6eefe2ce
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926489"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999081"
 ---
 # <a name="recordsetcancelupdate-method-dao"></a>Recordset.CancelUpdate (método) (DAO)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Cancela todas las actualizaciones pendientes para un objeto **[Recordset](record
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-### <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -42,22 +41,17 @@ Cancela todas las actualizaciones pendientes para un objeto **[Recordset](record
 <thead>
 <tr class="header">
 <th><p>Nombre</p></th>
-<th><p>Necesario/Opcional</p></th>
+<th><p>Obligatorio/opcional</p></th>
 <th><p>Tipo de datos</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Establecer en uno de los valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p>
-
-> [!NOTE]
-> <P>Los valores de <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> son válidos sólo si está habilitada la actualización por lotes.</P>
-
-
+<td><p>Establecer en uno de los valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Nota</strong>: los valores de <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> son válidos sólo si está habilitada la actualización por lotes.</p>
 </td>
 </tr>
 </tbody>
@@ -70,10 +64,8 @@ Puede utilizar el método **CancelUpdate** para cancelar todas las operaciones p
 
 Compruebe la propiedad **[EditMode](recordset-editmode-property-dao.md)** del objeto **Recordset** para determinar si hay alguna operación pendiente que se pueda cancelar.
 
-
 > [!NOTE]
-> <P>[!NOTA] El método <STRONG>CancelUpdate</STRONG> tiene el mismo efecto que desplazarse a otro registro sin usar el método <STRONG><A href="recordset-update-method-dao.md">Update</A></STRONG>, con la diferencia de que el registro actual no cambia y algunas propiedades, como <STRONG><A href="recordset-bof-property-dao.md">BOF</A></STRONG> y <STRONG><A href="recordset-eof-property-dao.md">EOF</A></STRONG> no se actualizan.</P>
-
+> [!NOTA] El método **CancelUpdate** tiene el mismo efecto que desplazarse a otro registro sin usar el método **[Update](recordset-update-method-dao.md)**, con la diferencia de que el registro actual no cambia y algunas propiedades, como **[BOF](recordset-bof-property-dao.md)** y **[EOF](recordset-eof-property-dao.md)** no se actualizan.
 
 
 ## <a name="example"></a>Ejemplo

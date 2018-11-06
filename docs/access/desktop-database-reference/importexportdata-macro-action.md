@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920399"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997619"
 ---
 # <a name="importexportdata-macro-action"></a>ImportarExportarDatos (acción de macro)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25920399"
 La acción **ImportarExportarDatos** se utiliza para importar o exportar datos entre la base de datos de Access (.mdb o .accdb) o el proyecto de Access (.adp) actual y otra base de datos. Para bases de datos de Microsoft Access, también se puede vincular una tabla a la base de datos actual de Access desde otra base de datos. Con una tabla vinculada, se tiene acceso a los datos de la tabla mientras la propia tabla permanece en la otra base de datos.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.
+> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
 ## <a name="settings"></a>Configuración
 
@@ -44,13 +44,7 @@ La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de transferencia</strong></p></td>
-<td><p>El tipo de transferencia que se desea realizar. Seleccione <strong>Importar</strong>, <strong>Exportar</strong> o <strong>Vincular</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. La opción predeterminada es <strong>Importar</strong>.  </p>
-
-> [!NOTE]
-> Los proyectos de Access (.adp) no admiten el tipo de transferencia **Vincular**.
-
-
-<p></p></td>
+<td><p>El tipo de transferencia que se desea realizar. Seleccione <strong>Importar</strong>, <strong>Exportar</strong> o <strong>Vincular</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. La opción predeterminada es <strong>Importar</strong>.  </p><p><strong>Nota</strong>: no se admite el tipo de transferencia <strong>vincular</strong> los proyectos de Access (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de base de datos</strong></p></td>
