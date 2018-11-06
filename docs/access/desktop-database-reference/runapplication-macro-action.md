@@ -10,43 +10,38 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2fcc3cc7bac9bcc4ab1f87c6e3da791eab06fc94
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: caa22f142062b929b2520d5a2de69f9ccddb2145
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919279"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998682"
 ---
-# <a name="runapplication-macro-action"></a><span data-ttu-id="1effe-102">EjecutarAplicación (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="1effe-102">RunApplication macro action</span></span>
+# <a name="runapplication-macro-action"></a><span data-ttu-id="c6d73-102">EjecutarAplicación (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c6d73-102">RunApplication macro action</span></span>
 
-
-<span data-ttu-id="1effe-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1effe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c6d73-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6d73-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" /><span data-ttu-id="1effe-105">de seguridad\*\*</span><span class="sxs-lookup"><span data-stu-id="1effe-105"><strong>Security Note</strong></span></span></th>
+<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" /><span data-ttu-id="c6d73-105">de seguridad\*\*</span><span class="sxs-lookup"><span data-stu-id="c6d73-105"><strong>Security Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="1effe-p101">Sea prudente al ejecutar archivos ejecutables o código en macros y aplicaciones. Los archivos ejecutables o el código se pueden usar para llevar a cabo acciones que podrían vulnerar la seguridad de su equipo y de los datos.</span><span class="sxs-lookup"><span data-stu-id="1effe-p101">Use caution when running executable files or code in macros or applications. Executable files or code can be used to carry out actions that might compromise the security of your computer and data.</span></span></td>
+<td><span data-ttu-id="c6d73-p101">Sea prudente al ejecutar archivos ejecutables o código en macros y aplicaciones. Los archivos ejecutables o el código se pueden usar para llevar a cabo acciones que podrían vulnerar la seguridad de su equipo y de los datos.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p101">Use caution when running executable files or code in macros or applications. Executable files or code can be used to carry out actions that might compromise the security of your computer and data.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-
-<span data-ttu-id="1effe-p102">Puede usar la función **EjecutarAplicación** para ejecutar una aplicación basada en Microsoft Windows o MS-DOS, como Microsoft Excel, Microsoft Word o Microsoft PowerPoint, desde Microsoft Access. Por ejemplo, es posible que desee pegar datos de hoja de cálculo de Excel en la base de datos de Access.</span><span class="sxs-lookup"><span data-stu-id="1effe-p102">You can use the **RunApplication** action to run a Microsoft Windows-based or MS-DOS-based application, such as Microsoft Excel, Microsoft Word, or Microsoft PowerPoint, from within Microsoft Access. For example, you may want to paste Excel spreadsheet data into your Access database.</span></span>
-
+<span data-ttu-id="c6d73-p102">Puede usar la función **EjecutarAplicación** para ejecutar una aplicación basada en Microsoft Windows o MS-DOS, como Microsoft Excel, Microsoft Word o Microsoft PowerPoint, desde Microsoft Access. Por ejemplo, es posible que desee pegar datos de hoja de cálculo de Excel en la base de datos de Access.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p102">You can use the **RunApplication** action to run a Microsoft Windows-based or MS-DOS-based application, such as Microsoft Excel, Microsoft Word, or Microsoft PowerPoint, from within Microsoft Access. For example, you may want to paste Excel spreadsheet data into your Access database.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="1effe-p103">[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. Si desea más información sobre la activación de macros, consulte los vínculos de la sección See Also de este artículo.</span><span class="sxs-lookup"><span data-stu-id="1effe-p103">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
+> <span data-ttu-id="c6d73-110">[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="c6d73-110">This action will not be allowed if the database is not trusted.</span></span> 
 
+## <a name="setting"></a><span data-ttu-id="c6d73-111">Configuración</span><span class="sxs-lookup"><span data-stu-id="c6d73-111">Setting</span></span>
 
-
-## <a name="setting"></a><span data-ttu-id="1effe-112">Configuración</span><span class="sxs-lookup"><span data-stu-id="1effe-112">Setting</span></span>
-
-<span data-ttu-id="1effe-113">La acción **EjecutarAplicación** tiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="1effe-113">The **RunApplication** action has the following argument.</span></span>
+<span data-ttu-id="c6d73-112">La acción **EjecutarAplicación** tiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="c6d73-112">The **RunApplication** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -55,28 +50,28 @@ ms.locfileid: "25919279"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1effe-114">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="1effe-114">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="1effe-115">Descripción</span><span class="sxs-lookup"><span data-stu-id="1effe-115">Description</span></span></p></th>
+<th><p><span data-ttu-id="c6d73-113">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="c6d73-113">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="c6d73-114">Descripción</span><span class="sxs-lookup"><span data-stu-id="c6d73-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1effe-116"><strong>Línea de comandos</strong></span><span class="sxs-lookup"><span data-stu-id="1effe-116"><strong>Command Line</strong></span></span></p></td>
-<td><p><span data-ttu-id="1effe-p104">La línea de comandos que se utiliza para iniciar la aplicación (con la ruta de acceso y otros parámetros necesarios, tales como las opciones que ejecutan la aplicación de un modo particular). Introduzca la línea de comandos en el cuadro <strong>Línea de comandos</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.</span><span class="sxs-lookup"><span data-stu-id="1effe-p104">The command line used to start the application (including the path and any other necessary parameters, such as switches that run the application in a particular mode). Enter the command line in the <strong>Command Line</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p></td>
+<td><p><span data-ttu-id="c6d73-115"><strong>Línea de comandos</strong></span><span class="sxs-lookup"><span data-stu-id="c6d73-115"><strong>Command Line</strong></span></span></p></td>
+<td><p><span data-ttu-id="c6d73-p103">La línea de comandos que se utiliza para iniciar la aplicación (con la ruta de acceso y otros parámetros necesarios, tales como las opciones que ejecutan la aplicación de un modo particular). Introduzca la línea de comandos en el cuadro <strong>Línea de comandos</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p103">The command line used to start the application (including the path and any other necessary parameters, such as switches that run the application in a particular mode). Enter the command line in the <strong>Command Line</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="1effe-120">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1effe-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6d73-119">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c6d73-119">Remarks</span></span>
 
-<span data-ttu-id="1effe-p105">La aplicación seleccionada con esta acción se carga y se ejecuta en primer plano. La macro que contiene esta acción continúa su ejecución una vez iniciada la aplicación.</span><span class="sxs-lookup"><span data-stu-id="1effe-p105">The application selected with this action loads and runs in the foreground. The macro containing this action continues to run after starting the application.</span></span>
+<span data-ttu-id="c6d73-p104">La aplicación seleccionada con esta acción se carga y se ejecuta en primer plano. La macro que contiene esta acción continúa su ejecución una vez iniciada la aplicación.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p104">The application selected with this action loads and runs in the foreground. The macro containing this action continues to run after starting the application.</span></span>
 
-<span data-ttu-id="1effe-p106">Puede transferir datos entre Access y la otra aplicación mediante el mecanismo de intercambio dinámico de datos (DDE) o el Portapapeles. Puede usar la acción **EnviarTeclas** para enviar pulsaciones de teclas a la otra aplicación (aunque DDE es un método más eficiente para transferir datos). También puede compartir datos entre aplicaciones mediante automatización.</span><span class="sxs-lookup"><span data-stu-id="1effe-p106">You can transfer data between the other application and Access by using the Microsoft Windows dynamic data exchange (DDE) facility or the Clipboard. You can use the **SendKeys** action to send keystrokes to the other application (although DDE is a more efficient method for transferring data). You can also share data among applications by using automation.</span></span>
+<span data-ttu-id="c6d73-p105">Puede transferir datos entre Access y la otra aplicación mediante el mecanismo de intercambio dinámico de datos (DDE) o el Portapapeles. Puede usar la acción **EnviarTeclas** para enviar pulsaciones de teclas a la otra aplicación (aunque DDE es un método más eficiente para transferir datos). También puede compartir datos entre aplicaciones mediante automatización.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p105">You can transfer data between the other application and Access by using the Microsoft Windows dynamic data exchange (DDE) facility or the Clipboard. You can use the **SendKeys** action to send keystrokes to the other application (although DDE is a more efficient method for transferring data). You can also share data among applications by using automation.</span></span>
 
-<span data-ttu-id="1effe-126">Las aplicaciones basadas en MS-DOS se ejecutan en una ventana MS-DOS dentro del entorno de Windows.</span><span class="sxs-lookup"><span data-stu-id="1effe-126">MS-DOS-based applications run in an MS-DOS window within the Windows environment.</span></span>
+<span data-ttu-id="c6d73-125">Las aplicaciones basadas en MS-DOS se ejecutan en una ventana MS-DOS dentro del entorno de Windows.</span><span class="sxs-lookup"><span data-stu-id="c6d73-125">MS-DOS-based applications run in an MS-DOS window within the Windows environment.</span></span>
 
-<span data-ttu-id="1effe-127">En los sistemas operativos Windows, hay varias formas de ejecutar una aplicación: iniciar el programa desde el Explorador de Windows, utilizar el comando **Ejecutar** en el menú **Inicio** o hacer doble clic en el icono de un programa en el Escritorio de Windows.</span><span class="sxs-lookup"><span data-stu-id="1effe-127">In Windows operating systems, there are a number of ways to run an application, including starting the program from the Windows Explorer, using the **Run** command on the **Start** menu, and double-clicking a program icon on the Windows Desktop.</span></span>
+<span data-ttu-id="c6d73-126">En los sistemas operativos Windows, hay varias formas de ejecutar una aplicación: iniciar el programa desde el Explorador de Windows, utilizar el comando **Ejecutar** en el menú **Inicio** o hacer doble clic en el icono de un programa en el Escritorio de Windows.</span><span class="sxs-lookup"><span data-stu-id="c6d73-126">In Windows operating systems, there are a number of ways to run an application, including starting the program from the Windows Explorer, using the **Run** command on the **Start** menu, and double-clicking a program icon on the Windows Desktop.</span></span>
 
-<span data-ttu-id="1effe-p107">La acción **EjecutarAplicación** no se puede ejecutar en un módulo de Visual Basic para Aplicaciones (VBA). En su lugar, utilice la función **Shell** de VBA.</span><span class="sxs-lookup"><span data-stu-id="1effe-p107">You can't run the **RunApplication** action in a Visual Basic for Applications (VBA) module. Use the VBA **Shell** function instead.</span></span>
+<span data-ttu-id="c6d73-p106">La acción **EjecutarAplicación** no se puede ejecutar en un módulo de Visual Basic para Aplicaciones (VBA). En su lugar, utilice la función **Shell** de VBA.</span><span class="sxs-lookup"><span data-stu-id="c6d73-p106">You can't run the **RunApplication** action in a Visual Basic for Applications (VBA) module. Use the VBA **Shell** function instead.</span></span>
 

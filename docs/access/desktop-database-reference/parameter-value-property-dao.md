@@ -6,38 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195733(v=office.15)
 ms:contentKeyID: 48545556
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7c7eda7c438658022e0330c606169a1ed5bb2b3b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95086e811288bd70dce15a22319531b28a1ecd6c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919258"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996730"
 ---
-# <a name="parametervalue-property-dao"></a><span data-ttu-id="7a00a-102">Propiedad Parameter.Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="7a00a-102">Parameter.Value property (DAO)</span></span>
+# <a name="parametervalue-property-dao"></a><span data-ttu-id="7fe81-102">Propiedad Parameter.Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="7fe81-102">Parameter.Value property (DAO)</span></span>
 
+<span data-ttu-id="7fe81-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7fe81-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a00a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a00a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7fe81-p101">Establece o devuelve el valor de un objeto. **Variant** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7fe81-p101">Sets or returns the value of an object. Read/write **Variant**.</span></span>
 
-<span data-ttu-id="7a00a-p101">Establece o devuelve el valor de un objeto. **Variant** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7a00a-p101">Sets or returns the value of an object. Read/write **Variant**.</span></span>
+## <a name="syntax"></a><span data-ttu-id="7fe81-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7fe81-106">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7a00a-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7a00a-106">Syntax</span></span>
+<span data-ttu-id="7fe81-107">*expresión* . Valor</span><span class="sxs-lookup"><span data-stu-id="7fe81-107">*expression* .Value</span></span>
 
-<span data-ttu-id="7a00a-107">*expresión* . Valor</span><span class="sxs-lookup"><span data-stu-id="7a00a-107">*expression* .Value</span></span>
+<span data-ttu-id="7fe81-108">*expresión* Variable que representa un objeto **Parameter** .</span><span class="sxs-lookup"><span data-stu-id="7fe81-108">*expression* A variable that represents a **Parameter** object.</span></span>
 
-<span data-ttu-id="7a00a-108">*expresión* Variable que representa un objeto **Parameter** .</span><span class="sxs-lookup"><span data-stu-id="7a00a-108">*expression* A variable that represents a **Parameter** object.</span></span>
+## <a name="remarks"></a><span data-ttu-id="7fe81-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="7fe81-109">Remarks</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7a00a-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="7a00a-109">Remarks</span></span>
+<span data-ttu-id="7fe81-110">La configuración o el valor devuelto es un tipo de datos Variant que da como resultado un valor apropiado para el tipo de datos, tal como especifica la propiedad **Type** de un objeto.</span><span class="sxs-lookup"><span data-stu-id="7fe81-110">The setting or return value is a Variant data type that evaluates to a value appropriate for the data type, as specified by the **Type** property of an object.</span></span>
 
-<span data-ttu-id="7a00a-110">La configuración o el valor devuelto es un tipo de datos Variant que da como resultado un valor apropiado para el tipo de datos, tal como especifica la propiedad **Type** de un objeto.</span><span class="sxs-lookup"><span data-stu-id="7a00a-110">The setting or return value is a Variant data type that evaluates to a value appropriate for the data type, as specified by the **Type** property of an object.</span></span>
+<span data-ttu-id="7fe81-111">En general, la propiedad **Value** se usa para recuperar y modificar datos en objetos **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="7fe81-111">Generally, the **Value** property is used to retrieve and alter data in **Recordset** objects.</span></span>
 
-<span data-ttu-id="7a00a-111">En general, la propiedad **Value** se usa para recuperar y modificar datos en objetos **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="7a00a-111">Generally, the **Value** property is used to retrieve and alter data in **Recordset** objects.</span></span>
+<span data-ttu-id="7fe81-p102">La propiedad **Value** es la propiedad predeterminada de los objetos **Field**, **Parameter** y **Property**. Por lo tanto, puede hacer que se establezca o devuelva el valor de uno de estos objetos haciendo referencia a ellos directamente en lugar de especificar la propiedad **Value**.</span><span class="sxs-lookup"><span data-stu-id="7fe81-p102">The **Value** property is the default property of the **Field**, **Parameter**, and **Property** objects. Therefore, you can set or return the value of one of these objects by referring to them directly instead of specifying the **Value** property.</span></span>
 
-<span data-ttu-id="7a00a-p102">La propiedad **Value** es la propiedad predeterminada de los objetos **Field**, **Parameter** y **Property**. Por lo tanto, puede hacer que se establezca o devuelva el valor de uno de estos objetos haciendo referencia a ellos directamente en lugar de especificar la propiedad **Value**.</span><span class="sxs-lookup"><span data-stu-id="7a00a-p102">The **Value** property is the default property of the **Field**, **Parameter**, and **Property** objects. Therefore, you can set or return the value of one of these objects by referring to them directly instead of specifying the **Value** property.</span></span>
-
-<span data-ttu-id="7a00a-114">Si intenta que se establezca o devuelva la propiedad **Value** en un contexto no apropiado (por ejemplo, la propiedad **Value** de un objeto **Field** de la colección **Fields** de un objeto **TableDef**) se producirá un error capturable.</span><span class="sxs-lookup"><span data-stu-id="7a00a-114">Trying to set or return the **Value** property in an inappropriate context (for example, the **Value** property of a **Field** object in the **Fields** collection of a **TableDef** object) will cause a trappable error.</span></span>
-
+<span data-ttu-id="7fe81-114">Si intenta que se establezca o devuelva la propiedad **Value** en un contexto no apropiado (por ejemplo, la propiedad **Value** de un objeto **Field** de la colección **Fields** de un objeto **TableDef**) se producirá un error capturable.</span><span class="sxs-lookup"><span data-stu-id="7fe81-114">Trying to set or return the **Value** property in an inappropriate context (for example, the **Value** property of a **Field** object in the **Fields** collection of a **TableDef** object) will cause a trappable error.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="7a00a-115">Cuando se lean valores decimales de una base de datos de Microsoft SQL Server, se les dará formato con notación científica a través de un área de trabajo de Microsoft Access, pero aparecerán como valores decimales normales a través de un área de trabajo de ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="7a00a-115">When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.</span></span></P>
+> <span data-ttu-id="7fe81-115">Cuando se lean valores decimales de una base de datos de Microsoft SQL Server, se les dará formato con notación científica a través de un área de trabajo de Microsoft Access, pero aparecerán como valores decimales normales a través de un área de trabajo de ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="7fe81-115">When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.</span></span>
 
 

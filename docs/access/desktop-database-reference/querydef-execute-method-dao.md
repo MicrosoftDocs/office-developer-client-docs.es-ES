@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926216"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997395"
 ---
-# <a name="querydefexecute-method-dao"></a><span data-ttu-id="d164f-102">QueryDef.Execute (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="d164f-102">QueryDef.Execute method (DAO)</span></span>
+# <a name="querydefexecute-method-dao"></a><span data-ttu-id="75093-102">QueryDef.Execute (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="75093-102">QueryDef.Execute method (DAO)</span></span>
 
-<span data-ttu-id="d164f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d164f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="75093-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75093-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d164f-104">Ejecuta una instrucción SQL en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="d164f-104">Executes an SQL statement on the specified object.</span></span>
+<span data-ttu-id="75093-104">Ejecuta una instrucción SQL en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="75093-104">Executes an SQL statement on the specified object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d164f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="d164f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="75093-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="75093-105">Syntax</span></span>
 
-<span data-ttu-id="d164f-106">*expresión* . Ejecutar (***Opciones***)</span><span class="sxs-lookup"><span data-stu-id="d164f-106">*expression* .Execute(***Options***)</span></span>
+<span data-ttu-id="75093-106">*expresión* . Ejecutar (***Opciones***)</span><span class="sxs-lookup"><span data-stu-id="75093-106">*expression* .Execute(***Options***)</span></span>
 
-<span data-ttu-id="d164f-107">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="d164f-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="75093-107">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="75093-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="d164f-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="d164f-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="75093-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="75093-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,26 +40,26 @@ ms.locfileid: "25926216"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d164f-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="d164f-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="d164f-110">Necesario/Opcional</span><span class="sxs-lookup"><span data-stu-id="d164f-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="d164f-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="d164f-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="d164f-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="d164f-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="75093-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="75093-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="75093-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="75093-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="75093-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="75093-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="75093-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="75093-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d164f-113">Opciones</span><span class="sxs-lookup"><span data-stu-id="d164f-113">Options</span></span></p></td>
-<td><p><span data-ttu-id="d164f-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="d164f-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d164f-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-113"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="75093-113"><em>Options</em></span></span></p></td>
+<td><p><span data-ttu-id="75093-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="75093-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="75093-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="75093-115"><strong>Variant</strong></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d164f-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d164f-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="75093-116">Observaciones</span><span class="sxs-lookup"><span data-stu-id="75093-116">Remarks</span></span>
 
-<span data-ttu-id="d164f-117">Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para ver las opciones.</span><span class="sxs-lookup"><span data-stu-id="d164f-117">You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for Options.</span></span>
+<span data-ttu-id="75093-117">Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para ver las opciones.</span><span class="sxs-lookup"><span data-stu-id="75093-117">You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for Options.</span></span>
 
 <table>
 <colgroup>
@@ -68,64 +68,64 @@ ms.locfileid: "25926216"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d164f-118">Constante</span><span class="sxs-lookup"><span data-stu-id="d164f-118">Constant</span></span></p></th>
-<th><p><span data-ttu-id="d164f-119">Descripción</span><span class="sxs-lookup"><span data-stu-id="d164f-119">Description</span></span></p></th>
+<th><p><span data-ttu-id="75093-118">Constante</span><span class="sxs-lookup"><span data-stu-id="75093-118">Constant</span></span></p></th>
+<th><p><span data-ttu-id="75093-119">Descripción</span><span class="sxs-lookup"><span data-stu-id="75093-119">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d164f-120"><strong>dbDenyWrite</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-120"><strong>dbDenyWrite</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-121">Deniega el permiso de escritura a otros usuarios (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-121">Denies write permission to other users (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-120"><strong>dbDenyWrite</strong></span><span class="sxs-lookup"><span data-stu-id="75093-120"><strong>dbDenyWrite</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-121">Deniega el permiso de escritura a otros usuarios (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-121">Denies write permission to other users (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d164f-122"><strong>dbInconsistent</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-122"><strong>dbInconsistent</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-123">(Valor predeterminado) Ejecuta actualizaciones no coherentes (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-123">(Default) Executes inconsistent updates (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-122"><strong>dbInconsistent</strong></span><span class="sxs-lookup"><span data-stu-id="75093-122"><strong>dbInconsistent</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-123">(Valor predeterminado) Ejecuta actualizaciones no coherentes (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-123">(Default) Executes inconsistent updates (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d164f-124"><strong>dbConsistent</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-124"><strong>dbConsistent</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-125">Ejecuta actualizaciones coherentes (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-125">Executes consistent updates (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-124"><strong>dbConsistent</strong></span><span class="sxs-lookup"><span data-stu-id="75093-124"><strong>dbConsistent</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-125">Ejecuta actualizaciones coherentes (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-125">Executes consistent updates (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d164f-126"><strong>dbSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-126"><strong>dbSQLPassThrough</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-p101">Ejecuta una consulta de paso a través de SQL. Establecer esta opción pasa la instrucción SQL a una base de datos ODBC para procesamiento (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-p101">Executes an SQL pass-through query. Setting this option passes the SQL statement to an ODBC database for processing (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-126"><strong>dbSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="75093-126"><strong>dbSQLPassThrough</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-p101">Ejecuta una consulta de paso a través de SQL. Establecer esta opción pasa la instrucción SQL a una base de datos ODBC para procesamiento (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-p101">Executes an SQL pass-through query. Setting this option passes the SQL statement to an ODBC database for processing (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d164f-129"><strong>dbFailOnError</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-129"><strong>dbFailOnError</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-130">Deshace las actualizaciones si se produce un error (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-130">Rolls back updates if an error occurs (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-129"><strong>dbFailOnError</strong></span><span class="sxs-lookup"><span data-stu-id="75093-129"><strong>dbFailOnError</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-130">Deshace las actualizaciones si se produce un error (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-130">Rolls back updates if an error occurs (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d164f-131"><strong>dbSeeChanges</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-131"><strong>dbSeeChanges</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-132">Genera un error en tiempo de ejecución si otro usuario cambia los datos que está usted editando (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d164f-132">Generates a run-time error if another user is changing data you are editing (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-131"><strong>dbSeeChanges</strong></span><span class="sxs-lookup"><span data-stu-id="75093-131"><strong>dbSeeChanges</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-132">Genera un error en tiempo de ejecución si otro usuario cambia los datos que está usted editando (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="75093-132">Generates a run-time error if another user is changing data you are editing (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d164f-133"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-133"><strong>dbRunAsync</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-134">Ejecuta la consulta de forma asincrónica (sólo conexiones ODBCDirect y objetos QueryDef).</span><span class="sxs-lookup"><span data-stu-id="d164f-134">Executes the query asynchronously (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-133"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="75093-133"><strong>dbRunAsync</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-134">Ejecuta la consulta de forma asincrónica (sólo conexiones ODBCDirect y objetos QueryDef).</span><span class="sxs-lookup"><span data-stu-id="75093-134">Executes the query asynchronously (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d164f-135"><strong>dbExecDirect</strong></span><span class="sxs-lookup"><span data-stu-id="d164f-135"><strong>dbExecDirect</strong></span></span></p></td>
-<td><p><span data-ttu-id="d164f-136">Ejecuta la instrucción sin llamar primero a la función API de ODBC SQLPrepare (sólo conexiones ODBCDirect y objetos QueryDef).</span><span class="sxs-lookup"><span data-stu-id="d164f-136">Executes the statement without first calling SQLPrepare ODBC API function (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
+<td><p><span data-ttu-id="75093-135"><strong>dbExecDirect</strong></span><span class="sxs-lookup"><span data-stu-id="75093-135"><strong>dbExecDirect</strong></span></span></p></td>
+<td><p><span data-ttu-id="75093-136">Ejecuta la instrucción sin llamar primero a la función API de ODBC SQLPrepare (sólo conexiones ODBCDirect y objetos QueryDef).</span><span class="sxs-lookup"><span data-stu-id="75093-136">Executes the statement without first calling SQLPrepare ODBC API function (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> <span data-ttu-id="d164f-p102">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d164f-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="75093-p102">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="75093-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d164f-p103">[!NOTA] Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de **OpenRecordset**. Si se usan **dbConsistent** y **dbInconsistent**, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="d164f-p103">The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.</span></span>
+> <span data-ttu-id="75093-p103">[!NOTA] Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de **OpenRecordset**. Si se usan **dbConsistent** y **dbInconsistent**, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="75093-p103">The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.</span></span>
 
-<span data-ttu-id="d164f-p104">Use la propiedad **[RecordsAffected](querydef-recordsaffected-property-dao.md)** del objeto **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)** o **[QueryDef](querydef-object-dao.md)** para determinar el número de registros afectados por el método **[Execute](querydef-execute-method-dao.md)** más reciente. Por ejemplo, **RecordsAffected** contiene el número de registros eliminados, actualizados o insertados cuando se ejecuta una consulta de acciones. Cuando usa el método **Execute** para ejecutar una consulta, la propiedad **RecordsAffected** del objeto **QueryDef** se configura en el número de registros afectados.</span><span class="sxs-lookup"><span data-stu-id="d164f-p104">Use the **[RecordsAffected](querydef-recordsaffected-property-dao.md)** property of the **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)**, or **[QueryDef](querydef-object-dao.md)** object to determine the number of records affected by the most recent **[Execute](querydef-execute-method-dao.md)** method. For example, **RecordsAffected** contains the number of records deleted, updated, or inserted when executing an action query. When you use the **Execute** method to run a query, the **RecordsAffected** property of the **QueryDef** object is set to the number of records affected.</span></span>
+<span data-ttu-id="75093-p104">Use la propiedad **[RecordsAffected](querydef-recordsaffected-property-dao.md)** del objeto **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)** o **[QueryDef](querydef-object-dao.md)** para determinar el número de registros afectados por el método **[Execute](querydef-execute-method-dao.md)** más reciente. Por ejemplo, **RecordsAffected** contiene el número de registros eliminados, actualizados o insertados cuando se ejecuta una consulta de acciones. Cuando usa el método **Execute** para ejecutar una consulta, la propiedad **RecordsAffected** del objeto **QueryDef** se configura en el número de registros afectados.</span><span class="sxs-lookup"><span data-stu-id="75093-p104">Use the **[RecordsAffected](querydef-recordsaffected-property-dao.md)** property of the **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)**, or **[QueryDef](querydef-object-dao.md)** object to determine the number of records affected by the most recent **[Execute](querydef-execute-method-dao.md)** method. For example, **RecordsAffected** contains the number of records deleted, updated, or inserted when executing an action query. When you use the **Execute** method to run a query, the **RecordsAffected** property of the **QueryDef** object is set to the number of records affected.</span></span>
 
-<span data-ttu-id="d164f-p105">En un área de trabajo de Microsoft Access, si proporciona una instrucción SQL sintácticamente correcta y tiene los permisos adecuados, el método **Execute** no provocará errores, incluso si no se puede modificar ni eliminar una sola línea. Por lo tanto, use siempre la opción **dbFailOnError** al uasr el método **Execute** para ejecutar o eliminar una consulta. Esta opción genera un error en tiempo de ejecución y deshace todos los cambios correctos si los objetos afectados están bloqueados y no se pueden actualizar ni eliminar.</span><span class="sxs-lookup"><span data-stu-id="d164f-p105">In a Microsoft Access workspace, if you provide a syntactically correct SQL statement and have the appropriate permissions, the **Execute** method won't fail — even if not a single row can be modified or deleted. Therefore, always use the **dbFailOnError** option when using the **Execute** method to run an update or delete query. This option generates a run-time error and rolls back all successful changes if any of the records affected are locked and can't be updated or deleted.</span></span>
+<span data-ttu-id="75093-p105">En un área de trabajo de Microsoft Access, si proporciona una instrucción SQL sintácticamente correcta y tiene los permisos adecuados, el método **Execute** no provocará errores, incluso si no se puede modificar ni eliminar una sola línea. Por lo tanto, use siempre la opción **dbFailOnError** al uasr el método **Execute** para ejecutar o eliminar una consulta. Esta opción genera un error en tiempo de ejecución y deshace todos los cambios correctos si los objetos afectados están bloqueados y no se pueden actualizar ni eliminar.</span><span class="sxs-lookup"><span data-stu-id="75093-p105">In a Microsoft Access workspace, if you provide a syntactically correct SQL statement and have the appropriate permissions, the **Execute** method won't fail — even if not a single row can be modified or deleted. Therefore, always use the **dbFailOnError** option when using the **Execute** method to run an update or delete query. This option generates a run-time error and rolls back all successful changes if any of the records affected are locked and can't be updated or deleted.</span></span>
 
-<span data-ttu-id="d164f-p106">En versiones anteriores del motor de base de datos de Microsoft Jet, las instrucciones SQL se insertaban automáticamente en transacciones implícitas. Si parte de una instrucción ejecutada con **dbFailOnError** producía un error, se revertía toda la instrucción. Para mejorar el rendimiento, desde la versión 3.5 estas instrucciones implícitas ya no existen. Si actualiza código DAO antiguo, no olvide que debe usar transacciones explícitas con las instrucciones **Execute**.</span><span class="sxs-lookup"><span data-stu-id="d164f-p106">In earlier versions of the Microsoft Jet database engine, SQL statements were automatically embedded in implicit transactions. If part of a statement executed with **dbFailOnError** failed, the entire statement would be rolled back. To improve performance, these implicit transactions were removed starting with version 3.5. If you are updating older DAO code, be sure to consider using explicit transactions around **Execute** statements.</span></span>
+<span data-ttu-id="75093-p106">En versiones anteriores del motor de base de datos de Microsoft Jet, las instrucciones SQL se insertaban automáticamente en transacciones implícitas. Si parte de una instrucción ejecutada con **dbFailOnError** producía un error, se revertía toda la instrucción. Para mejorar el rendimiento, desde la versión 3.5 estas instrucciones implícitas ya no existen. Si actualiza código DAO antiguo, no olvide que debe usar transacciones explícitas con las instrucciones **Execute**.</span><span class="sxs-lookup"><span data-stu-id="75093-p106">In earlier versions of the Microsoft Jet database engine, SQL statements were automatically embedded in implicit transactions. If part of a statement executed with **dbFailOnError** failed, the entire statement would be rolled back. To improve performance, these implicit transactions were removed starting with version 3.5. If you are updating older DAO code, be sure to consider using explicit transactions around **Execute** statements.</span></span>
 
-<span data-ttu-id="d164f-p107">Para mejorar el rendimiento de un área de trabajo de Microsoft Access, especialmente en un entorno multiusuario, anide el método **Execute** dentro de una transacción. Use el método **[BeginTrans](workspace-begintrans-method-dao.md)** en el objeto **[Workspace](workspace-object-dao.md)** actual, use el método **Execute** y complete la transacción con el método **[CommitTrans](workspace-committrans-method-dao.md)** en el objeto **Workspace**. Esto guarda los cambios en el disco y libera cualquier bloqueo existente mientras se ejecuta la consulta.</span><span class="sxs-lookup"><span data-stu-id="d164f-p107">For best performance in a Microsoft Access workspace, especially in a multiuser environment, nest the **Execute** method inside a transaction. Use the **[BeginTrans](workspace-begintrans-method-dao.md)** method on the current **[Workspace](workspace-object-dao.md)** object, then use the **Execute** method, and complete the transaction by using the **[CommitTrans](workspace-committrans-method-dao.md)** method on the **Workspace**. This saves changes on disk and frees any locks placed while the query is running.</span></span>
+<span data-ttu-id="75093-p107">Para mejorar el rendimiento de un área de trabajo de Microsoft Access, especialmente en un entorno multiusuario, anide el método **Execute** dentro de una transacción. Use el método **[BeginTrans](workspace-begintrans-method-dao.md)** en el objeto **[Workspace](workspace-object-dao.md)** actual, use el método **Execute** y complete la transacción con el método **[CommitTrans](workspace-committrans-method-dao.md)** en el objeto **Workspace**. Esto guarda los cambios en el disco y libera cualquier bloqueo existente mientras se ejecuta la consulta.</span><span class="sxs-lookup"><span data-stu-id="75093-p107">For best performance in a Microsoft Access workspace, especially in a multiuser environment, nest the **Execute** method inside a transaction. Use the **[BeginTrans](workspace-begintrans-method-dao.md)** method on the current **[Workspace](workspace-object-dao.md)** object, then use the **Execute** method, and complete the transaction by using the **[CommitTrans](workspace-committrans-method-dao.md)** method on the **Workspace**. This saves changes on disk and frees any locks placed while the query is running.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d164f-155">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="d164f-155">Example</span></span>
+## <a name="example"></a><span data-ttu-id="75093-155">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="75093-155">Example</span></span>
 
-<span data-ttu-id="d164f-p108">Este ejemplo muestra el método **Execute** cuando se ejecuta desde un objeto **QueryDef** y un objeto **Database**. Se necesitan los procedimientos ExecuteQueryDef y PrintOutput para que se pueda ejecutar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="d164f-p108">This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="75093-p108">Este ejemplo muestra el método **Execute** cuando se ejecuta desde un objeto **QueryDef** y un objeto **Database**. Se necesitan los procedimientos ExecuteQueryDef y PrintOutput para que se pueda ejecutar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="75093-p108">This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub ExecuteX() 
@@ -242,9 +242,9 @@ ms.locfileid: "25926216"
 
 <br/>
 
-<span data-ttu-id="d164f-p109">En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.</span><span class="sxs-lookup"><span data-stu-id="d164f-p109">The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
+<span data-ttu-id="75093-p109">En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.</span><span class="sxs-lookup"><span data-stu-id="75093-p109">The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
 
-<span data-ttu-id="d164f-160">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="d164f-160">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="75093-160">**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="75093-160">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Sub ExecParameterQuery()
