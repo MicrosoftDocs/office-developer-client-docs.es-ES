@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997472"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026466"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializar el controlador de origen de datos de texto
 
 **Se aplica a**: Access 2013, Office 2013
 
-Se utiliza el mismo controlador de base de datos para los orígenes de datos de texto y los orígenes de datos HTML.
+Se utiliza el mismo controlador de base de datos de ambos orígenes de datos de texto y HTML para orígenes de datos.
 
 Cuando se instala el controlador de base de datos de origen de datos de texto, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows de Microsoft en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de orígenes de datos de texto.
 
@@ -44,6 +44,8 @@ La **Access Connectivity Engine\\formatos ISAM de\\la carpeta de texto** incluye
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta Text de la manera siguiente.
 

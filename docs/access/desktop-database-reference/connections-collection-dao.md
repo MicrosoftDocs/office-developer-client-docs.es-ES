@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f47b3ca15e51211a8593c5e177f53507128b2f76
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ca6acbea99dd2a6dcb434cf4c4d18a0a065af133
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936584"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026018"
 ---
 # <a name="connections-collection-dao"></a>Colección de conexiones (DAO)
 
-
 **Se aplica a**: Access 2013, Office 2013
-
 
 > [!NOTE]
 > [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
-
-
 
 Una colección **Connections** contiene los objetos **Connection** actuales de un objeto **Workspace** (sólo las áreas de trabajo de ODBCDirect).
 
@@ -34,16 +30,15 @@ Al mismo tiempo que abre un objeto **Connection**, se crea el objeto **[Database
 
 El valor de la propiedad **Name** de un objeto **Connection** es una cadena que especifica la ruta del archivo de base de datos. Para hacer referencia a un objeto **Connection** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-  - **Connections**(0)
+- **Connections**(0)
 
-  - **Conexiones** ("*nombre*")
+- **Conexiones** ("*nombre*")
 
-  - **Conexiones de**\!\[*nombre*\]
+- **Conexiones de**\!\[*nombre*\]
 
 
 > [!NOTE]
 > [!NOTA] Puede abrir el mismo origen de datos varias veces creando nombres duplicados en la colección **Connections**. Debe asignar objetos **Connection** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
-
 
 
 ## <a name="example"></a>Ejemplo

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8bb6024043655c2529ce8309e5a6bead08cb4225
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d680c89f7188dafd216edf62bd07c80fa924a119
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947059"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026242"
 ---
 # <a name="catalog-object-adox"></a>Catalog (objeto, ADOX)
 
@@ -30,5 +30,5 @@ Con las propiedades y los métodos de un objeto **Catalog**, se puede:
 
 - Crear un nuevo catálogo con el método [Create](create-method-adox.md).
 
-- Determinar los propietarios de los objetos de un **catálogo** con los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).
+- Determinar los propietarios de los objetos de un **catálogo** con los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).
 

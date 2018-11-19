@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c93f312dd9b43a3235f049b9e6d3f95d08eba87f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928596"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025598"
 ---
 # <a name="lookuprecord-data-block"></a>Bloque de datos BuscarRegistro
 
@@ -43,13 +43,7 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 <tr class="odd">
 <td><p>In</p></td>
 <td><p>Sí</p></td>
-<td><p>Una cadena que identifica el registro para funcionar en. El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p>
-
-> [!NOTE]
-> El registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC .
-
-
-<p></p></td>
+<td><p>Una cadena que identifica el registro para funcionar en. El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p><p><strong>Nota</strong>: el registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
@@ -65,7 +59,7 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Si los criterios especificados por los argumentos *en* y *Condición Where* especifica más de un registro, el bloque de datos **BuscarRegistro** funcionará sólo en el primer registro.
 

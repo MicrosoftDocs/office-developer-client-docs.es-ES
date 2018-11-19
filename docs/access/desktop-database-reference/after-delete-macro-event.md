@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 943f16c5bb1f1525c8da36938fa6beb2e6f71444
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8f72083201fefffc5dfff4627cd3b54c1449e083
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929800"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026060"
 ---
 # <a name="after-delete-macro-event"></a>Después de eliminar (evento de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 El evento **Después de eliminar** se produce después de eliminar un registro.
 
-
 > [!NOTE]
 > [!NOTA] El evento **Después de eliminar** solo está disponible en macros de datos.
-
-
 
 ## <a name="remarks"></a>Comentarios
 

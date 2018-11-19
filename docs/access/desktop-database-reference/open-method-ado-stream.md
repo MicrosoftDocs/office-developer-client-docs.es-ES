@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: b20a68f1707e496b92ba8acbf8bc7ed8d8a2b058
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949827"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026417"
 ---
 # <a name="open-method-ado-stream"></a>Open (método, Stream de ADO)
 
@@ -37,7 +37,7 @@ Abre un objeto [Stream](stream-object-ado.md) para manipular secuencias de datos
 
 ## <a name="remarks"></a>Comentarios
 
-No se usan cuando un objeto **Record** se pasa como el parámetro source, el *identificador de usuario* y los parámetros de *contraseña* debido a que el acceso al objeto **Record** ya está disponible. De forma similar, el [modo](mode-property-ado.md) del objeto **Record** se transfiere al objeto **Stream** . Cuando no se especifica el *origen* , la **secuencia** abierta no contiene datos y tiene un [tamaño](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) de cero (0). Para evitar la pérdida de los datos que se escriben en esta **secuencia** cuando está cerrada la **secuencia** , guardar la **secuencia** con los métodos [CopyTo](copyto-method-ado.md) o [SaveToFile](savetofile-method-ado.md) , o a otra ubicación de memoria.
+No se usan cuando un objeto **Record** se pasa como el parámetro source, el *identificador de usuario* y los parámetros de *contraseña* debido a que el acceso al objeto **Record** ya está disponible. De forma similar, el [modo](mode-property-ado.md) del objeto **Record** se transfiere al objeto **Stream** . Cuando no se especifica el *origen* , la **secuencia** abierta no contiene datos y tiene un [tamaño](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) de cero (0). Para evitar la pérdida de los datos que se escriben en esta **secuencia** cuando está cerrada la **secuencia** , guardar la **secuencia** con los métodos [CopyTo](copyto-method-ado.md) o [SaveToFile](savetofile-method-ado.md) , o a otra ubicación de memoria.
 
 Un valor *adOpenStreamFromRecord* de **OpenOptions** identifica el contenido del parámetro *Source* como un objeto **Record** ya está abierto. El comportamiento predeterminado es tratar *Source* como una dirección URL que señala directamente a un nodo en una estructura de árbol, como un archivo. Se abre la secuencia predeterminada asociada a ese nodo.
 

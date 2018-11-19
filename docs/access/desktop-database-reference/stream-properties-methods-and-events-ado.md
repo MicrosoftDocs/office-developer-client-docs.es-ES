@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a66e7f62f47e4237d827d5799bf864132321531
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4d846f1dff8002dd00735e6c77205b458ccea9b0
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943552"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026039"
 ---
 # <a name="stream-properties-methods-and-events-ado"></a>Secuencia propiedades, métodos y eventos (ADO)
 
@@ -20,11 +20,11 @@ ms.locfileid: "25943552"
 ## <a name="properties"></a>Propiedades
 
 - [CharSet (propiedad)](charset-property-ado.md)
-- [Propiedad EOS](eos-property-ado.md)
+- [EOS (propiedad)](eos-property-ado.md)
 - [LineSeparator (propiedad)](lineseparator-property-ado.md)
-- [Propiedad Mode](mode-property-ado.md)
-- [Propiedad Position](position-property-ado.md)
-- [Propiedad Size (Stream de ADO)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
+- [Mode (propiedad)](mode-property-ado.md)
+- [Position (propiedad)](position-property-ado.md)
+- [Propiedad Size (Stream de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State (propiedad)](state-property-ado.md)
 - [Propiedad Type (objeto Stream de ADO)](type-property-ado-stream.md)
 
@@ -37,13 +37,13 @@ ms.locfileid: "25943552"
 - [Flush (método)](flush-method-ado.md)
 - [LoadFromFile (método)](loadfromfile-method-ado.md)
 - [Open (método, Stream de ADO)](open-method-ado-stream.md)
-- [Método Read](read-method-ado.md)
+- [Read (método)](read-method-ado.md)
 - [ReadText (método)](readtext-method-ado.md)
 - [SaveToFile (método)](savetofile-method-ado.md)
 - [SetEOS (método)](seteos-method-ado.md)
 - [SkipLine (método)](skipline-method-ado.md)
 - [Stat (método)](stat-method-ado.md)
-- [Escribir (método)](write-method-ado.md)
+- [Write (método)](write-method-ado.md)
 - [WriteText (método)](writetext-method-ado.md)
 
 

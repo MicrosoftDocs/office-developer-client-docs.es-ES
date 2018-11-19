@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d55fd58daf13fa0f3995480f35da4ccc0f17ac5c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3bd48ecee927f3b8a725c7d066997a4b907c5438
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946688"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026226"
 ---
 # <a name="using-the-command-object-access"></a>Uso del objeto de comando (Access)
 
@@ -29,12 +29,8 @@ No siempre es necesario crear un objeto **Command** para ejecutar un comando en 
 
 Esta sección incluye los temas siguientes:
 
-- [Información general del objeto Command](command-object-overview.md)
-
-- [Creación y ejecución de un comando simple](creating-and-executing-a-simple-command.md)
-
+- [Información general sobre el objeto Command](command-object-overview.md)
+- [Crear y ejecutar un comando sencillo](creating-and-executing-a-simple-command.md)
 - [Parámetros del objeto Command](command-object-parameters.md)
-
-- [Llamada a un procedimiento almacenado con un comando](calling-a-stored-procedure-with-a-command.md)
-
+- [Llamar a un procedimiento almacenado con un comando](calling-a-stored-procedure-with-a-command.md)
 - [Comandos con nombre](named-commands.md)

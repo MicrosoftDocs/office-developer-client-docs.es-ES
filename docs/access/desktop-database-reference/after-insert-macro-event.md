@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm3180
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4dc9d509dedfb74769c84f44a6237b9f6354dc16
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: af6bc99374c67560e9cd78a9f26bc9dd601c70d8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921687"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026151"
 ---
 # <a name="after-insert-macro-event"></a>Después de insertar (evento de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
 El evento **Después de insertar** se produce después de agregar un registro.
 
-
 > [!NOTE]
 > [!NOTA] El evento **Después de insertar** solo está disponible en macros de datos.
-
-
 
 ## <a name="remarks"></a>Comentarios
 

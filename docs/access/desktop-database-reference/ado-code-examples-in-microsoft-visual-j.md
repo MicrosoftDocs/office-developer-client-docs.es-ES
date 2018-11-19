@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 951eb10c30a0e83903b3f7c075e72d5f82e0ce9b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: a0394b95b392bf26f68dc64f64ad70ada09e8d86
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910883"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025766"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Ejemplos de código de ADO en Microsoft Visual J++
 
@@ -76,8 +76,8 @@ Utilice los ejemplos de código siguientes para aprender a utilizar los métodos
 - [Ejemplo de la propiedad State](state-property-example-vj.md)
 - [Ejemplo de la propiedad de estado](status-property-example-vj.md)
 - [Ejemplo de la propiedad StayInSync](stayinsync-property-example-vj.md)
-- [Ejemplo de la propiedad tipo (campos)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-- [Ejemplo de la propiedad tipo (propiedad)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
-- [Ejemplo de la propiedad de valor](value-property-example-vj.md)
+- [Ejemplo de la propiedad tipo (campos)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Ejemplo de la propiedad tipo (propiedad)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
+- [Ejemplo de la propiedad Value](value-property-example-vj.md)
 - [Ejemplo de la propiedad de versión](version-property-example-vj.md)
 

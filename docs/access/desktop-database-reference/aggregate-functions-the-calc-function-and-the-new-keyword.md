@@ -1,26 +1,26 @@
 ---
-title: Funciones de agregado, función CALC y la palabra clave NEW
+title: Funciones de agregado, función CALC y palabra clave NEW
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947892"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025990"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Funciones de agregado, función CALC y la palabra clave NEW
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Funciones de agregado, función CALC y palabra clave NEW
 
 
 **Se aplica a**: Access 2013, Office 2013
 
 El servicio de forma de datos admite las siguientes funciones. El nombre asignado al capítulo que contiene la columna en la que se van a realizar las operaciones es el *alias del capítulo*.
 
-Un alias de capítulo puede ser completo y constar del nombre de columna de cada capítulo que lleva al capítulo que contiene el *nombre de columna*, todo separado por puntos. Por ejemplo, si el capítulo principal, chap1, contiene un capítulo secundario, chap2, que tiene una columna de cantidad, amt, entonces el nombre completo será chap1.chap2.amt.
+Un alias de capítulo puede ser completo, formado por cada nombre de columna de capítulo que lleva al capítulo que contiene el *nombre de columna,* todos los separados por puntos. Por ejemplo, si el capítulo principal, chap1, contiene un capítulo secundario, chap2, que tiene una columna de cantidad, amt, entonces el nombre completo será chap1.chap2.amt.
 
 <table>
 <colgroup>
@@ -61,17 +61,12 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 <tr class="odd">
 <td><p>CUALQUIER (<em>alias de capítulo</em>.<em> nombre de la columna</em>)</p></td>
 <td><p>Un valor de la columna especificada. ANY sólo tiene un valor predecible si el valor de la columna es el mismo para todas las filas del capítulo.
-</p>
-
-> [!NOTE]
-> Si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para que sea el valor de la función ANY.
-
-
-<p></p></td>
+</p><p><strong>Nota</strong>: si la columna no contiene el mismo valor para todas las filas en el capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores que sea el valor de la función ANY.</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -92,6 +87,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -112,6 +108,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </tbody>
 </table>
 
+<br/>
 
 El *tipo de campo* que se pasa con la palabra clave NEW puede ser cualquiera de los tipos de datos siguientes.
 

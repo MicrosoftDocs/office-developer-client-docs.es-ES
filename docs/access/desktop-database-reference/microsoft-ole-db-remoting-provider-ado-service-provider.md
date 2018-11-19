@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 07031639b707fc24a3e5b057520c601c9472b01b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878062"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026319"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Proveedor de servicios remotos de Microsoft OLE DB (proveedor de servicios ADO)
 
@@ -153,7 +153,7 @@ cn.Properties("Internet Timeout") = 5000
 
 En ADO 2.0, sólo se podría especificar el proveedor de servicios remotos de OLE DB en el parámetro *ActiveConnection* del método **Open** del objeto [Recordset](recordset-object-ado.md) . A partir de ADO 2.1, también se puede especificar el proveedor en el parámetro *ConnectionString* del método **Open** del objeto de [conexión](connection-object-ado.md) .
 
-El equivalente de la propiedad **SQL** del objeto [RDS.DataControl](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) no está disponible. El argumento *Source* del método **Open** del objeto [Recordset](recordset-object-ado.md) se usa en su lugar.
+El equivalente de la propiedad **SQL** del objeto [RDS.DataControl](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) no está disponible. El argumento *Source* del método **Open** del objeto [Recordset](recordset-object-ado.md) se usa en su lugar.
 
 La especificación de "...;Remote Provider=MS Remote;..." crearía un escenario de cuatro niveles. No se han probado los escenarios de más de tres niveles y no deberían ser necesarios.
 

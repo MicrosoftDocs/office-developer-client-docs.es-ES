@@ -1,20 +1,19 @@
 ---
-title: Usar caracteres comodín en comparaciones de cadenas
-TOCTitle: Using Wildcard Characters in String Comparisons
+title: Uso de caracteres comodín en comparaciones de cadenas
+TOCTitle: Using wildcard characters in string comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc45b71f1b70f1a36a9456f3ab83612933af11f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 9fb6c63d5d2db1db54d52a03fef41e44a29f42c9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946709"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026171"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Uso de caracteres comodín en comparaciones de cadenas
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -64,11 +63,11 @@ Es importante tener en cuenta que los caracteres comodín de ANSI SQL (%) y (\_)
 
 Otras reglas importantes de la coincidencia de patrones son:
 
-  - Un signo de exclamación (\!) al principio de *listacaracteres* significa que se realiza una coincidencia si cualquier carácter excepto incluido en *listaDeCaracteres* se encuentra en la *expresión*. Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
+- Un signo de exclamación (\!) al principio de *listacaracteres* significa que se realiza una coincidencia si cualquier carácter excepto incluido en *listaDeCaracteres* se encuentra en la *expresión*. Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
 
-  - Puede usar el guión (-) al principio (después de un signo de exclamación si se utiliza uno) o al final de *listacaracteres* para que coincida con el propio. En cualquier otra posición, el guión identifica un intervalo de caracteres ANSI.
+- Puede usar el guión (-) al principio (después de un signo de exclamación si se utiliza uno) o al final de *listacaracteres* para que coincida con el propio. En cualquier otra posición, el guión identifica un intervalo de caracteres ANSI.
 
-  - Cuando se especifica un intervalo de caracteres, éstos deben aparecer en un criterio de ordenación ascendente (A-Z o 0-100). \[A-z\] es un patrón válido, pero \[Z-A\] no es.
+- Cuando se especifica un intervalo de caracteres, éstos deben aparecer en un criterio de ordenación ascendente (A-Z o 0-100). \[A-z\] es un patrón válido, pero \[Z-A\] no es.
 
-  - La secuencia de caracteres \[ \] se omite; se considera una cadena de longitud cero ("").
+- La secuencia de caracteres \[ \] se omite; se considera una cadena de longitud cero ("").
 

@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 179ee840370cef98c70e947cef555401408bbe12
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936682"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026228"
 ---
 # <a name="gotopage-macro-action"></a>IrAPágina (acción de macro)
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -56,7 +55,7 @@ La acción **IrAPágina** tiene los siguientes argumentos.
 </table>
 
 > [!NOTE]
-> >[!NOTA] Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.
+> [!NOTA] Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -66,9 +65,9 @@ Puede usar los argumentos **derecha** y **abajo** para los formularios con pági
 
 La acción **IrAPágina** no se puede usar en los siguientes casos:
 
-  - Para mover el enfoque a una página de un formulario oculto.
+- Para mover el enfoque a una página de un formulario oculto.
 
-  - Para mover el enfoque de una página a otra dentro del control de pestaña.
+- Para mover el enfoque de una página a otra dentro del control de pestaña.
 
 Para ejecutar la acción **IrAPágina** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **GoToPage** del objeto **DoCmd**.
 

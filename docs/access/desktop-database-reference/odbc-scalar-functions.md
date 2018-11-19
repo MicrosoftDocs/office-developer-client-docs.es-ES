@@ -10,23 +10,20 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6e312bf0b6092df88f86f4bbf843d7951f3c86cc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4e841da9d401558311682f0abcbefde9161b71b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947878"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025997"
 ---
 # <a name="odbc-scalar-functions"></a>Funciones escalares ODBC
 
-
 **Se aplica a**: Access 2013, Office 2013
 
-Microsoft Access SQL admite el uso de la sintaxis definida ODBC para funciones escalares. Por ejemplo, la consulta:
+Microsoft Access SQL admite el uso de la sintaxis definida ODBC para funciones escalares. 
 
-SELECT CIERREDIARIO, CAMBIODIARIO FROM COTIZACIÓNDIARIA WHERE {fn ABS(CAMBIODIARIO)} \> 5
-
-devolvería todas las filas en las que el valor absoluto del cambio en el precio de un valor bursátil es mayor de cinco.
+Por ejemplo, la consulta `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` devolvería todas las filas donde el valor absoluto del cambio en el precio de un valor bursátil es mayor de cinco.
 
 Se admite un subconjunto de las funciones escalares definidas por ODBC. En la siguiente tabla, se enumeran las funciones admitidas.
 
@@ -146,7 +143,7 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 </table>
 
 
-## <a name="data-type-conversion"></a>Conversión de tipo de datos
+## <a name="data-type-conversion"></a>Conversión de tipos de datos
 
 <table>
 <colgroup>

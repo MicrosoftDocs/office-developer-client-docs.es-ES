@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937137"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026473"
 ---
 # <a name="filter-property-ado"></a>Filter (propiedad, ADO)
 
@@ -41,12 +41,9 @@ La cadena de criterios se compone de cláusulas con el formato *NombreCampo-Oper
   - *Operador* debe ser uno de los siguientes: \<, \>, \<=, \>=, \< \>, = o **LIKE**.
 
   - *Valor* es el valor con el que se va a comparar los valores de campo (por ejemplo, 'Smith', \#24/8/95\#, 12.345 o $50.00). Utilice comillas simples con las cadenas y signos de número (\#) con las fechas. Con los números puede utilizar comas decimales, signos de dólar y notación científica. Si el *operador* es **similar**, el *valor* puede usar caracteres comodín. Sólo el asterisco (\*) y el signo de porcentaje (%) se permiten caracteres comodín y deben ser el último carácter en la cadena. *Valor* no puede ser null.
-    
 
     > [!NOTE]
     > [!NOTA] Para incluir comillas sencillas (') en el filtro Valor, utilice dos comillas sencillas para representar una. Por ejemplo, para filtrar por O'Malley, la cadena de criterios debería ser "col1 = 'O''Malley'". Para incluir comillas sencillas al principio y al final del valor de filtrado, incluya la cadena entre signos de número (#). Por ejemplo, para filtrar por '1', la cadena de criterios debería ser "col1 = #'1'#".
-
-
 
   - No hay ninguna preferencia entre **AND** y **OR**. Las cláusulas se pueden agrupar entre paréntesis. Sin embargo, no es posible agrupar cláusulas unidas mediante **OR** y, a continuación, unir el grupo a otra cláusula mediante **AND**, como se muestra a continuación:
 

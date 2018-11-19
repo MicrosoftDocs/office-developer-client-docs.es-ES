@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937634"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026249"
 ---
 # <a name="gotocontrol-macro-action"></a>IrAControl (acción de macro)
 
@@ -41,18 +41,13 @@ La acción **GoToControl** tiene el siguiente argumento.
 <tr class="odd">
 <td><p><strong>Nombre del control</strong></p></td>
 <td><p>El nombre del campo o control donde desea el foco. Escriba el nombre del campo o control en el cuadro <strong>Nombre del Control</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.</p>
-
-> [!NOTE]
-> ¡Escriba sólo el nombre del campo o control en el argumento **Nombre del Control** , no el identificador completo, como Forms! ¡Productos! [Product ID].
-
-
-<p></p></td>
+<p><strong>Nota</strong>: escriba sólo el nombre del campo o control en el argumento <strong>Nombre del Control</strong> , no el identificador completo, como Forms! ¡Productos! [Product ID].</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 No se puede utilizar la acción **GoToControl (IrAControl)** para desplazar el enfoque a un control de un formulario oculto.
 
@@ -92,17 +87,17 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <td><p>Cerrar el formulario lista de productos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Productos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConfigurarValor</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Elemento</strong>: [Forms]![Products]![SupplierID] <strong>Expresión</strong>: IdProveedor</p></td>
 <td><p>Configurar el control Id. de proveedor para el proveedor actual del formulario Proveedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: IdCategoría</p></td>
 <td><p>Ir al control Id. de categoría.</p></td>
 </tr>
@@ -144,13 +139,13 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>CancelarEvento</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: CódigoPostal</p></td>
 <td><p></p></td>
 </tr>
@@ -162,13 +157,13 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>CancelarEvento</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: CódigoPostal</p></td>
 <td><p></p></td>
 </tr>
@@ -180,7 +175,7 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>CancelarEvento</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>

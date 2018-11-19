@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7bf5ee16987ba72c6f191b5f74390b26cf90ceb
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: bcad6b9e1c106bb365b0594e1e2cb32df33f0b23
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910904"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026095"
 ---
 # <a name="adox-properties"></a>Propiedades de ADOX
 
@@ -36,7 +36,7 @@ ms.locfileid: "25910904"
 <td><p>Indica el objeto <strong>Connection</strong> de ADO al que pertenece el catálogo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-adox.md">Attributes</a></p></td>
+<td><p><a href="attributes-property-adox.md">Atributos</a></p></td>
 <td><p>Describe características de columna.</p></td>
 </tr>
 <tr class="odd">
@@ -108,15 +108,15 @@ ms.locfileid: "25910904"
 <td><p>Indica la secuencia de ordenación para la columna (sólo columnas de índice).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">Tipo (columna)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Tipo (columna)</a></p></td>
 <td><p>Indica el tipo de datos de una columna.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">Tipo (clave)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Tipo (clave)</a></p></td>
 <td><p>Indica el tipo de datos de la clave.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">Tipo (tabla)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Tipo (tabla)</a></p></td>
 <td><p>Indica el tipo de una tabla.</p></td>
 </tr>
 <tr class="odd">

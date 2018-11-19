@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910806"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026382"
 ---
 # <a name="ado-methods"></a>Métodos de ADO
 
@@ -105,11 +105,11 @@ ms.locfileid: "25910806"
 <td><p>Elimina un archivo o directorio y todos sus subdirectorios.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute (objeto Command de ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (objeto Command de ADO)</a></p></td>
 <td><p>Ejecuta la consulta, la instrucción SQL o el procedimiento almacenado especificados en la propiedad <strong>CommandText</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute (objeto Connection de ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (objeto Connection de ADO)</a></p></td>
 <td><p>Ejecuta la consulta, la instrucción SQL, el procedimiento almacenado o texto específico del proveedor.</p></td>
 </tr>
 <tr class="odd">
@@ -141,7 +141,7 @@ ms.locfileid: "25910806"
 <td><p>Carga el contenido de un archivo existente en un objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Mover</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Mueve la posición del actual registro en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -225,7 +225,7 @@ ms.locfileid: "25910806"
 <td><p>Determina si el objeto <strong>Recordset</strong> especificado admite un determinado tipo de funcionalidad.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Guarda los cambios realizados en la fila actual de un objeto <strong>Recordset</strong> o la colección <strong>Fields</strong> de un objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

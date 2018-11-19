@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d7f35c2f76ec8cf2fd671f5ef9eefb42f8555237
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 87df4d1597661dc599c08b0f0b45b8e129484a2d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931389"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025934"
 ---
 # <a name="connection-object-ado"></a>Connection (objeto, ADO)
 
@@ -41,9 +41,8 @@ Con las colecciones, los métodos y las propiedades de un objeto **Connection**,
 
   - Establecer y, posteriormente, interrumpir la conexión física con el origen de datos con los métodos [Open](open-method-ado-connection.md) y [Close](close-method-ado.md).
 
-  - Ejecutar un comando en la conexión con el método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) y configurar la ejecución con la propiedad [CommandTimeout](commandtimeout-property-ado.md).
+  - Ejecutar un comando en la conexión con el método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) y configurar la ejecución con la propiedad [CommandTimeout](commandtimeout-property-ado.md).
     
-
     > [!NOTE]
     > [!NOTA] Para ejecutar una consulta sin usar un objeto Command, pase una cadena de consulta al método **Execute** de un objeto **Connection**. Sin embargo, se requiere un objeto [Command](command-object-ado.md) cuando se desea conservar el texto del comando y volver a ejecutarlo, o usar parámetros de consulta.
 

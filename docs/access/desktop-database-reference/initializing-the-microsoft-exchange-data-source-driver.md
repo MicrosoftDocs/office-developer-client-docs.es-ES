@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947857"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026053"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Inicializar el controlador de origen de datos de Microsoft Exchange
 
@@ -169,7 +169,7 @@ La **Access Connectivity Engine\\formatos ISAM de\\Exchange 4.0** carpeta contie
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalizar el archivo Schema.ini para los datos de Outlook y de Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalizar el archivo Schema.ini para datos de Outlook y Exchange
 
 Outlook y Exchange utilizan el archivo Schema.ini casi de la misma manera que el ISAM de texto. Dicho archivo contiene los detalles de un origen de datos: cómo se da formato a los datos y los nombres de las columnas a las que se debe tener acceso.
 

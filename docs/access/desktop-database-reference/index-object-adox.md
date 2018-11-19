@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cc27964bed572431f3482e0834868690f3b77df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5bc2eeaf4d26c957abb67780fe2f5d0df8f73049
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921904"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026179"
 ---
 # <a name="index-object-adox"></a>Index (objeto, ADOX)
 
@@ -27,19 +27,19 @@ El siguiente código crea un nuevo objeto **Index**:
 
 Con las propiedades y las colecciones de un objeto **Index**, se puede:
 
-  - Identificar el índice con la propiedad [Name](name-property-adox.md).
+- Identificar el índice con la propiedad [Name](name-property-adox.md).
 
-  - Tener acceso a las columnas de base de datos del índice con la colección [Columns](columns-collection-adox.md).
+- Tener acceso a las columnas de base de datos del índice con la colección [Columns](columns-collection-adox.md).
 
-  - Especificar si las claves de índice deben ser únicas con la propiedad [Unique](unique-property-adox.md).
+- Especificar si las claves de índice deben ser únicas con la propiedad [Unique](unique-property-adox.md).
 
-  - Especificar si el índice es la clave principal de una tabla con la propiedad [PrimaryKey](primarykey-property-adox.md).
+- Especificar si el índice es la clave principal de una tabla con la propiedad [PrimaryKey](primarykey-property-adox.md).
 
-  - Especificar si los registros que tienen valores nulos en sus campos de índice tienen entradas de índice con la propiedad [IndexNulls](indexnulls-property-adox.md).
+- Especificar si los registros que tienen valores nulos en sus campos de índice tienen entradas de índice con la propiedad [IndexNulls](indexnulls-property-adox.md).
 
-  - Especificar si el índice está agrupado con la propiedad [Clustered](clustered-property-adox.md).
+- Especificar si el índice está agrupado con la propiedad [Clustered](clustered-property-adox.md).
 
-  - Obtener acceso a propiedades de índice específicas del proveedor con la colección [Properties](properties-collection-ado.md).
+- Obtener acceso a propiedades de índice específicas del proveedor con la colección [Properties](properties-collection-ado.md).
 
 
 > [!NOTE]

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f90a0e4ff4accfd4496df46fb48faaf6f589f37c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945188"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025717"
 ---
 # <a name="address-book-data-binding-object"></a>Objeto de enlace de datos de la Libreta de direcciones
 
@@ -81,7 +81,7 @@ En la tabla siguiente, se describen los parámetros específicos del objeto **RD
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro</p></th>
+<th><p>Parameter</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -95,7 +95,7 @@ En la tabla siguiente, se describen los parámetros específicos del objeto **RD
 <td><p>Proporciona la información de conexión necesaria para que el objeto <strong>RDS.DataControl</strong> se conecte al servidor SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Establece o devuelve la cadena de consulta usada para recuperar el objeto <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 </tbody>

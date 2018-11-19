@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888037"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026207"
 ---
 # <a name="appendix-a-providers"></a>Apéndice A: Proveedores
 
@@ -27,11 +27,11 @@ ADO es eficaz y flexible porque puede conectar con varios proveedores de datos d
 
 No obstante, dado que cada proveedor de datos es único, el modo en que la aplicación interactúa con ADO variará ligeramente según el proveedor. Las diferencias suelen clasificarse en tres categorías:
 
-  - Parámetros de conexión de la propiedad [ConnectionString](connectionstring-property-ado.md).
+- Parámetros de conexión de la propiedad [ConnectionString](connectionstring-property-ado.md).
 
-  - Uso de objeto [Command](command-object-ado.md).
+- Uso de objeto [Command](command-object-ado.md).
 
-  - Comportamiento del objeto [Recordset](recordset-object-ado.md) del proveedor.
+- Comportamiento del objeto [Recordset](recordset-object-ado.md) del proveedor.
 
 A continuación puede ver los detalles de cada uno de los proveedores de datos disponibles en la actualidad desde Microsoft.
 
@@ -79,7 +79,7 @@ A continuación puede ver los detalles de cada uno de los proveedores de datos d
 </table>
 
 
-## <a name="provider-specific-dynamic-properties"></a>Propiedades dinámicas específicas de los proveedores
+## <a name="provider-specific-dynamic-properties"></a>Propiedades dinámicas específicas del proveedor
 
 Las colecciones [Properties](properties-collection-ado.md) de los objetos [Connection](connection-object-ado.md), [Command](command-object-ado.md) y [Recordset](recordset-object-ado.md) incluyen propiedades dinámicas específicas del proveedor. Estas propiedades ofrecen información acerca de funciones específicas del proveedor distintas a las propiedades integradas admitidas por ADO.
 
@@ -89,17 +89,17 @@ Después de establecer la conexión y crear estos objetos, utilice el método [R
 
 Para utilizar un proveedor de servicios, debe proporcionar una palabra clave. También debe ser consciente de las propiedades dinámicas específicas del proveedor asociadas a cada proveedor de servicios. A continuación se ofrecen detalles sobre los proveedores de servicios disponibles en la actualidad desde Microsoft:
 
-  - [Servicio de forma de datos de Microsoft para OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+- [Servicio de forma de datos de Microsoft para OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
-  - [Proveedor de persistencia de Microsoft OLE DB](microsoft-ole-db-persistence-provider-ado-service-provider.md)
+- [Proveedor de persistencia de Microsoft OLE DB](microsoft-ole-db-persistence-provider-ado-service-provider.md)
 
-  - [Proveedor de servicios remotos de Microsoft OLE DB](microsoft-ole-db-remoting-provider-ado-service-provider.md)
+- [Proveedor de servicios remotos de Microsoft OLE DB](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
-## <a name="service-components"></a>Componentes de servicios
+## <a name="service-components"></a>Componentes del servicio
 
 El componente de servicios [Servicio de cursores para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) complementa a las funciones de compatibilidad de cursor de los proveedores de datos. También exige una palabra clave y tiene propiedades dinámicas.
 
-Para obtener más información acerca de los proveedores, vea la documentación de Microsoft OLE DB en el paquete Microsoft Data Access Components SDK o visite el [Centro de desarrollo de plataformas de datos](https://msdn.microsoft.com/data/default.aspx).
+Para obtener más información acerca de los proveedores, vea la documentación de Microsoft OLE DB en el paquete Microsoft Data Access Components SDK o visite el [Centro de desarrollo de plataformas de datos](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 
 ## <a name="provider-commands"></a>Comandos de proveedor
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21798f476e0d67b7b23ef38c6e2b268893173ac6
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 5e0d5302291f1514fd11bca8fe7094af4525c900
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950065"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026480"
 ---
 # <a name="open-method-ado-recordset"></a>Open (método, Recordset de ADO)
 
@@ -46,7 +46,7 @@ Si se utiliza el método **Open** en un objeto **Recordset**, se abre un cursor 
 
 Use el argumento *Source* opcional para especificar un origen de datos mediante uno de los siguientes: una variable del objeto **Command** , una instrucción SQL, un procedimiento almacenado, un nombre de tabla, una dirección URL o un nombre de ruta de acceso completa del archivo. Si el *origen* es un nombre de ruta de acceso de archivo, puede ser una ruta de acceso completa ("c:\\dir\\file.rst"), una ruta de acceso relativa ("... \\file.rst "), o una dirección URL ("https://files/file.rst").
 
-No es una buena idea utilizar el argumento *Source* del método **Open** para realizar una consulta de acción que no devuelve registros porque no hay ninguna forma sencilla de determinar si la llamada se ha realizado correctamente. El objeto **Recordset** devuelto por esa consulta se cerrará. Llame al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de un objeto **Command** o al método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de un objeto **Connection** para realizar una consulta que no devuelve registros, como una instrucción SQL INSERT.
+No es una buena idea utilizar el argumento *Source* del método **Open** para realizar una consulta de acción que no devuelve registros porque no hay ninguna forma sencilla de determinar si la llamada se ha realizado correctamente. El objeto **Recordset** devuelto por esa consulta se cerrará. Llame al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de un objeto **Command** o al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) de un objeto **Connection** para realizar una consulta que no devuelve registros, como una instrucción SQL INSERT.
 
 El argumento *ActiveConnection* corresponde a la propiedad [ActiveConnection](activeconnection-property-ado.md) y especifica en qué conexión para abrir el **conjunto de registros** del objeto. Si pasa una definición de conexión para este argumento, ADO abre una conexión nueva con los parámetros especificados. Después de abrir el **objeto Recordset** con un cursor de cliente (**CursorLocation** = **adUseClient**), puede cambiar el valor de esta propiedad para enviar actualizaciones a otro proveedor. O bien, puede establecer el valor de esta propiedad en **Nothing** (en Microsoft Visual Basic) o en NULL para desconectar el objeto **Recordset** de todos los proveedores. Sin embargo, si se cambia el valor de **ActiveConnection** en el caso de un cursor de servidor, se generará un error.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
 ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42bd391cea721176973ce4dd30c9ddc7d15471b8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bd958c4b2123c727c3bc0a14a067fcb719ec86b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937025"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026389"
 ---
 # <a name="querydeftype-property-dao"></a>Propiedad QueryDef.Type (DAO)
 
@@ -72,13 +72,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p>
-
-> [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
-
-
-<p></p></td>
+<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

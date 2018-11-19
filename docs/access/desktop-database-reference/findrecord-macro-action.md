@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 19b6c80af2bcee9ca3dbe51bbbcf56343f33d550
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4c115a5f7c2d13e918e891e80997a7327885669d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937613"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026277"
 ---
 # <a name="findrecord-macro-action"></a>BuscarRegistro (acción de macro)
 
@@ -58,11 +58,7 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 <tr class="odd">
 <td><p><strong>Buscar con formato</strong></p></td>
 <td><p>Especifica si la búsqueda incluye datos con formato. Haga clic en <strong>Sí</strong> (Microsoft Office Access 2007 busca los datos con el formato y tal y como se muestran en el campo) o <strong>No</strong> (Access busca los datos tal y cómo se almacenan en la base de datos, que no siempre son los mismos que se muestran). El valor predeterminado es <strong>No</strong>. Puede usar esta característica para restringir la búsqueda a los datos con un formato concreto. Por ejemplo, haga clic en <strong>Sí</strong> y escriba <strong>1,234</strong> en el argumento <strong>Buscar</strong> para buscar un valor de 1,234 en el campo con formato para incluir comas. Haga clic en <strong>No</strong> si quiere escribir <strong>1234</strong> para buscar los datos de este campo. Para buscar fechas, haga clic en <strong>Sí</strong> para buscar una fecha exacta con el formato exacto, como 08-Julio-2003. Si hace clic en <strong>No</strong>, escriba la fecha para el argumento <strong>Buscar</strong> con el formato configurado en la configuración regional del Panel de control de Windows. Este formato se muestra en el cuadro <strong>Formato de fecha corta</strong> de la pestaña <strong>Fecha</strong> de la configuración regional. Por ejemplo, si el cuadro <strong>Formato de fecha corta</strong> está configurado en <strong>M/d/aa</strong>, puede escribir 7/8/03 y Access buscará todas las entradas de un campo Fecha que se correspondan al 8 de julio de 2003, independientemente del formato que tenga el campo.  </p>
-
-> [!NOTE]
-> El argumento **Buscar con formato** sólo tiene efecto si el campo activo es un control dependiente, el argumento **Coincidir** está establecido en **Hacer coincidir todo el campo**, el argumento **Sólo el campo activo** está establecido en **Sí** y el argumento **Coincidir mayúsculas y minúsculas** está establecido en **No**.
-
-
+<p><strong>Nota</strong>: el argumento <strong>Buscar con formato</strong> surte efecto sólo si el campo actual es un control dependiente, el argumento de <strong>coincidencia</strong> se establece en <strong>Todo el campo</strong>, el argumento <strong>Sólo el campo activo</strong> está establecido en <strong>Sí</strong>y la coincidencia de <strong> Caso</strong> argumento se establece en <strong>No</strong>.</p>
 <p>
 
 					Si establece <strong>Coincidir mayúsculas y minúsculas</strong> en <strong>Sí</strong> o <strong>Sólo el campo activo</strong> en <strong>No</strong>, también debe establecer <strong>Buscar con formato</strong> en <strong>Sí</strong>.

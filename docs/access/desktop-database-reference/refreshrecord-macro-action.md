@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927273"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026200"
 ---
 # <a name="refreshrecord-macro-action"></a>ActualizarRegistro (acción de macro)
 
@@ -32,7 +32,7 @@ El comportamiento de esta acción de macro depende de si se está llamando en un
 
 ## <a name="client-database"></a>Base de datos cliente
 
-En una base de datos cliente, puede utilizar la acción **ActualizarRegistro** para actualizar el origen de registros subyacente para el formulario o la hoja de datos que esté activo con el fin de reflejar los cambios realizados en los datos del conjunto actual. Los cambios incluyen los realizados por el usuario actual o por otros usuarios en un entorno multiusuario. Es equivalente al método **[Refresh](https://msdn.microsoft.com/library/ff836021\(v=office.15\))**.
+En una base de datos cliente, puede utilizar la acción **ActualizarRegistro** para actualizar el origen de registros subyacente para el formulario o la hoja de datos que esté activo con el fin de reflejar los cambios realizados en los datos del conjunto actual. Los cambios incluyen los realizados por el usuario actual o por otros usuarios en un entorno multiusuario. Es equivalente al método **[Refresh](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)**.
 
 La acción de macro **ActualizarRegistro** realiza lo siguiente en una base de datos cliente:
 

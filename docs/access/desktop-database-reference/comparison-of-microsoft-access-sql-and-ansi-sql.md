@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd5350248c33b344695a02020b4b91bdbb1bb984
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 8ce6b1ae1ab15a25eca61a22049d538736c3672d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937179"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026186"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparación de Microsoft Access SQL y ANSI SQL
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -22,15 +21,15 @@ En términos generales, SQL en el motor de base de datos de Microsoft Access es 
 
 ## <a name="major-differences"></a>Diferencias principales
 
-  - Microsoft Access SQL y ANSI SQL tienen palabras reservadas y tipos de datos diferentes. Para obtener más información, vea [Palabras reservadas SQL del motor de base de datos de Microsoft Access](sql-reserved-words.md) y [Tipos de datos equivalentes de ANSI SQL](equivalent-ansi-sql-data-types.md). Si se usa el proveedor OLE DB del motor de base de datos de Microsoft Access, hay palabras reservadas adicionales.
+- Microsoft Access SQL y ANSI SQL tienen palabras reservadas y tipos de datos diferentes. Para obtener más información, vea [Palabras reservadas SQL del motor de base de datos de Microsoft Access](sql-reserved-words.md) y [Tipos de datos equivalentes de ANSI SQL](equivalent-ansi-sql-data-types.md). Si se usa el proveedor OLE DB del motor de base de datos de Microsoft Access, hay palabras reservadas adicionales.
 
-  - **[Between…And](https://msdn.microsoft.com/library/ff192436\(v=office.15\))**
+- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-    *expr1* \[No\] **entre** *valor1* **y** *valor2*
+  *expr1* \[No\] **entre** *valor1* **y** *valor2*
     
-    En Microsoft Access SQL, *valor1* puede ser mayor que *valor2*; en ANSI SQL, *valor1* debe ser igual o menor que *valor2.*
+  En Microsoft Access SQL, *valor1* puede ser mayor que *valor2*; en ANSI SQL, *valor1* debe ser igual o menor que *valor2.*
 
-  - Microsoft Access SQL admite los caracteres comodín de ANSI SQL y los [caracteres comodín](using-wildcard-characters-in-string-comparisons.md) que son específicos del motor de base de datos de Microsoft Access para su uso con el operador **[Like](https://msdn.microsoft.com/library/ff195752\(v=office.15\))**. El uso de los caracteres comodín de ANSI y el motor de base de datos de Microsoft Access es mutuamente excluyente. Debe usar uno de los dos conjuntos y no se pueden mezclar. Los caracteres comodín de ANSI SQL sólo están disponibles cuando se usa el motor de base de datos de Microsoft Access y el proveedor OLE DB del motor de base de datos de Microsoft Access. Si intenta usar los caracteres comodín de ANSI SQL con Microsoft Access o DAO, se interpretarán como caracteres literales. Y también sucede lo contrario cuando se utiliza el proveedor OLE DB del motor de base de datos de Microsoft Access.
+- Microsoft Access SQL admite los caracteres comodín de ANSI SQL y los [caracteres comodín](using-wildcard-characters-in-string-comparisons.md) que son específicos del motor de base de datos de Microsoft Access para su uso con el operador **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)**. El uso de los caracteres comodín de ANSI y el motor de base de datos de Microsoft Access es mutuamente excluyente. Debe usar uno de los dos conjuntos y no se pueden mezclar. Los caracteres comodín de ANSI SQL sólo están disponibles cuando se usa el motor de base de datos de Microsoft Access y el proveedor OLE DB del motor de base de datos de Microsoft Access. Si intenta usar los caracteres comodín de ANSI SQL con Microsoft Access o DAO, se interpretarán como caracteres literales. Y también sucede lo contrario cuando se utiliza el proveedor OLE DB del motor de base de datos de Microsoft Access.
     
     <table>
     <colgroup>
@@ -60,25 +59,25 @@ En términos generales, SQL en el motor de base de datos de Microsoft Access es 
     </table>
 
 
-  - En general, Microsoft Access SQL es menos restrictivo. Por ejemplo, permite agrupar y ordenar por expresiones.
+- En general, Microsoft Access SQL es menos restrictivo. Por ejemplo, permite agrupar y ordenar por expresiones.
 
-  - Microsoft Access SQL admite expresiones más eficaces.
+- Microsoft Access SQL admite expresiones más eficaces.
 
 ## <a name="enhanced-features-of-microsoft-access-sql"></a>Características mejoradas de Microsoft Access SQL
 
 Microsoft Access SQL ofrece las siguientes características mejoradas:
 
-  - Instrucción [TRANSFORM](transform-statement-microsoft-access-sql.md), que proporciona compatibilidad con las consultas de tabla de referencias cruzadas.
+- Instrucción [TRANSFORM](transform-statement-microsoft-access-sql.md), que proporciona compatibilidad con las consultas de tabla de referencias cruzadas.
 
-  - [Funciones de agregado](sql-aggregate-functions-sql.md) adicionales, como **StDev** y **VarP**.
+- [Funciones de agregado](sql-aggregate-functions-sql.md) adicionales, como **StDev** y **VarP**.
 
-  - Declaración [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definir consultas de parámetros.
+- Declaración [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definir consultas de parámetros.
 
 ## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Características de ANSI SQL no admitidas en Microsoft Access SQL
 
 Microsoft Access SQL no admite las siguientes características de ANSI SQL:
 
-  - Referencias de la función de agregado DISTINCT. Por ejemplo, Microsoft Access SQL no permite SUM(DISTINCT *nombreDeColumna*).
+- Referencias de la función de agregado DISTINCT. Por ejemplo, Microsoft Access SQL no permite SUM(DISTINCT *nombreDeColumna*).
 
-  - La cláusula límite *nn* ROWS utilizada para limitar el número de filas devueltas por una consulta. Sólo se puede usar la [cláusula WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) para limitar el ámbito de una consulta.
+- La cláusula límite *nn* ROWS utilizada para limitar el número de filas devueltas por una consulta. Sólo se puede usar la [cláusula WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) para limitar el ámbito de una consulta.
 

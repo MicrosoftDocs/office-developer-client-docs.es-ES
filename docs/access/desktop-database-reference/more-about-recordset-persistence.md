@@ -1,23 +1,23 @@
 ---
-title: Más información acerca de la persistencia de Recordset
+title: Más información sobre la persistencia del conjunto de registros
 TOCTitle: More about Recordset persistence
 ms:assetid: f3248de7-6eef-1dd0-ff96-557b411789e7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250232(v=office.15)
 ms:contentKeyID: 48548666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed9d6e264c6bdaedcc0b921b6eed66bf1ff6afa4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b0b5888d5a616ad36812af93922cb085a5c8cbb7
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946702"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026081"
 ---
-# <a name="more-about-recordset-persistence"></a>Más información acerca de la persistencia de Recordset
+# <a name="more-about-recordset-persistence"></a>Más información sobre la persistencia del conjunto de registros
 
 **Se aplica a**: Access 2013, Office 2013
 
-El objeto Recordset de ADO admite el almacenamiento del contenido de un objeto **Recordset** en un archivo mediante el método [Save](save-method-ado.md). El archivo almacenado de manera persistente puede existir en una unidad local, servidor de red, o como una dirección URL en un sitio Web. Más adelante, se puede restaurar el archivo con el método **Open** del objeto [Recordset](open-method-ado-recordset.md) o el método [Execute](connection-object-ado.md) del objeto [Connection](https://msdn.microsoft.com/library/jj249832\(v=office.15\)).
+El objeto Recordset de ADO admite el almacenamiento del contenido de un objeto **Recordset** en un archivo mediante el método [Save](save-method-ado.md). El archivo almacenado de manera persistente puede existir en una unidad local, servidor de red, o como una dirección URL en un sitio Web. Más adelante, se puede restaurar el archivo con el método **Open** del objeto [Recordset](open-method-ado-recordset.md) o el método [Execute](connection-object-ado.md) del objeto [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
 
 Además, el método [GetString](getstring-method-ado.md) convierte un objeto **Recordset** a un formato donde las columnas y las filas estén delimitadas con los caracteres especificados.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e521c4de48f45d080a3b201ac431b2d7da14bc22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923227"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026214"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Propiedad Recordset.RecordsetType (DAO)
 
@@ -29,7 +29,7 @@ Puede utilizar la propiedad **RecordsetType** para especificar el tipo de conjun
 
 *expression* Variable que representa un objeto **Form**.
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 La propiedad **RecordsetType** usa los siguientes valores en una base de datos de Microsoft Access.
 
@@ -65,12 +65,8 @@ La propiedad **RecordsetType** usa los siguientes valores en una base de datos d
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!NOTA] Si no desea que se puedan modificar los datos de controles dependientes cuando un formulario está en la vista Formulario o en la vista Hoja de datos, puede establecer la propiedad **RecordsetType** en 2.
-
-
 
 La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Microsoft Access (.ADP).
 
@@ -101,12 +97,8 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!NOTA] Si se modifica la propiedad **RecordsetType** de un formulario o informe abierto, se vuelve a crear automáticamente el conjunto de registros.
-
-
 
 Puede crear formularios basados en varias tablas base con campos vinculados a los controles del formulario. Según el valor de la propiedad **RecordsetType**, podrá limitar qué control dependiente se puede editar.
 

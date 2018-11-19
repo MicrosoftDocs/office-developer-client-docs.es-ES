@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250177(v=office.15)
 ms:contentKeyID: 48548423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ffc93c2d09c185ea7eaa4a9291ec87aaa72d5eb
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c2f14be526100b1ffcbe34af89c1f72d0a64ff99
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943573"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025503"
 ---
 # <a name="using-the-connection-object-access"></a>Uso del objeto de conexión (Access)
 
@@ -27,6 +27,5 @@ Antes de abrir un objeto **Connection**, debe definir parte de la información s
 
 Esta sección incluye los temas siguientes:
 
-- [Creación de la cadena de conexión](creating-the-connection-string.md)
-
+- [Crear la cadena de conexión](creating-the-connection-string.md)
 - [Controlar transacciones](controlling-transactions.md)

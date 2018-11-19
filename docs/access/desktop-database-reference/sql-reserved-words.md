@@ -10,21 +10,24 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc481a699ad0703075e7c7c4f97dffb147cd0280
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998948"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026403"
 ---
 # <a name="sql-reserved-words"></a>Palabras reservadas de SQL
 
 **Se aplica a**: Access 2013, Office 2013
 
-En la siguiente lista, se incluyen todas las palabras reservadas por el motor de base de datos de Microsoft Access para su uso en instrucciones SQL. Las palabras de la lista que no aparecen completamente en mayúsculas también están reservadas para otras aplicaciones. En consecuencia, en los temas individuales de la Ayuda sobre estas palabras se proporcionan descripciones generales que no se centran en el uso SQL.
+En la siguiente lista, se incluyen todas las palabras reservadas por el motor de base de datos de Microsoft Access para su uso en instrucciones SQL. 
 
-> [!NOTE]
-> Las palabras seguidas por un asterisco (*) están reservadas, pero actualmente no tienen ningún significado en el contexto de una instrucción SQL de Microsoft Access (por ejemplo, **nivel** y **TableID**). Las palabras que no aparecen subrayadas no tienen vínculo a una explicación.
+- Las palabras de la lista que no aparecen completamente en mayúsculas también están reservadas para otras aplicaciones. En consecuencia, en los temas individuales de la Ayuda sobre estas palabras se proporcionan descripciones generales que no se centran en el uso SQL.
+
+- Las palabras seguidas por un asterisco (*) están reservadas, pero actualmente no tienen ningún significado en el contexto de una instrucción SQL de Microsoft Access (por ejemplo, **nivel** y **TableID**). 
+
+- Las palabras que no aparecen subrayadas no tienen vínculo a una explicación.
 
 ## <a name="a"></a>A
 
@@ -44,10 +47,10 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="odd">
 <td><p>ADMINDB</p></td>
-<td><p><a href="select-statement-microsoft-access-sql.md">COMO</a></p></td>
+<td><p><a href="select-statement-microsoft-access-sql.md">AS</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">TODOS LOS</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></p></td>
 </tr>
 <tr class="odd">
@@ -63,11 +66,11 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a> (vea COUNTER)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Y</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">COMO</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -111,8 +114,8 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><a href="constraint-clause-microsoft-access-sql.md">RESTRICCIÓN, RESTRICCIONES</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">POR</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTENEDOR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">BYTE</a></p></td>
@@ -132,11 +135,11 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREAR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
+<td><p><a href="sql-data-types.md">MONEDA</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>CHECK</p></td>
@@ -220,7 +223,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">De</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>EXEC, EXECUTE</p></td>
@@ -243,8 +246,8 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><a href="sql-data-types.md">GUID</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">PRIMERA</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">TENER</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> (vea DOUBLE)</p></td>
@@ -276,7 +279,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> (vea SINGLE)</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERTAR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">OMITIR</a></p></td>
@@ -295,12 +298,12 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> (vea SHORT)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">EN</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTERVALO</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">ÍNDICE</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">EN</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>INDEXCREATEDB</p></td>
@@ -323,7 +326,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">UNIRSE A</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></p></td>
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
@@ -335,7 +338,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p>MATCH</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">POR ÚLTIMA VEZ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
@@ -479,7 +482,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">ESQUEMA</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></p></td>
 <td><p>SQLCODE, SQLERROR, SQLSTATE</p></td>
 </tr>
 <tr class="even">
@@ -487,8 +490,8 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECCIONE</a></p></td>
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">DesvEstP</a></strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff192275(v=office.15)">SELECTSCHEMA</a></p></td>
@@ -527,7 +530,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLA</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></p></td>
 </tr>
 <tr class="even">
@@ -544,7 +547,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">TIME</a> (vea DATETIME)</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USUARIO</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">MARCA DE TIEMPO</a></p></td>
@@ -563,7 +566,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">Para</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> (vea BINARY)</p></td>
 </tr>
 <tr class="odd">
@@ -580,7 +583,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="even">
 <td><p><a href="transform-statement-microsoft-access-sql.md">TRANSFORMACIÓN</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VISTA</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>TRANSLATE</p></td>
@@ -592,11 +595,11 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 </tr>
 <tr class="odd">
 <td><p>TRIM</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">DONDE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TRUE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">CON</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="union-operation-microsoft-access-sql.md">UNIÓN</a></p></td>
@@ -615,7 +618,7 @@ En la siguiente lista, se incluyen todas las palabras reservadas por el motor de
 <td><p><a href="equivalent-ansi-sql-data-types.md">YESNO</a> (vea BIT)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">ACTUALIZACIÓN</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></p></td>
 <td><p>ZONE</p></td>
 </tr>
 <tr class="even">

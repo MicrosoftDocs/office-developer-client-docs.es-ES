@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7413b8b8f30e432f29fbee495fcc67e72439ad76
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910709"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026256"
 ---
 # <a name="rds-properties"></a>Propiedades de RDS
 
@@ -70,7 +70,7 @@ ms.locfileid: "25910709"
 <td><p>Indica el objeto <strong>Recordset</strong> devuelto desde un objeto de negocio personalizado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Server</a></p></td>
+<td><p><a href="server-property-rds.md">Servidor</a></p></td>
 <td><p>Indica el nombre y el protocolo de comunicación de Internet Information Services (IIS).</p></td>
 </tr>
 <tr class="even">
@@ -82,7 +82,7 @@ ms.locfileid: "25910709"
 <td><p>Indica si un criterio de ordenación es ascendente o descendente.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Indica la cadena de consulta usada para recuperar el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a627804676ad4e61c5eef050c5bc12c36b9e6d1a
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937529"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026235"
 ---
 # <a name="foreachrecord-data-block"></a>Bloque de datos ParaCadaRegistro
-
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -44,13 +43,7 @@ La acción **ParaCadaRegistro** utiliza los siguientes argumentos.
 <tr class="odd">
 <td><p><strong>En </strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Una cadena que identifica el dominio de registros que se va a funcionar en. El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p>
-
-> [!NOTE]
-> El dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC .
-
-
-<p></p></td>
+<td><p>Una cadena que identifica el dominio de registros que se va a funcionar en. El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p><p><strong>Nota</strong>: el dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>

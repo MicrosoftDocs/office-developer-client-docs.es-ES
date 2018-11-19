@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937732"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026004"
 ---
 # <a name="gotorecord-macro-action"></a>IrARegistro (acción de macro)
 
@@ -49,7 +49,7 @@ La acción **IrARegistro** tiene los siguientes argumentos.
 <td><p>Nombre del objeto que contiene el registro que se desea convertir en registro activo. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos de la base de datos activa que sean del tipo seleccionado por el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Record</strong></p></td>
+<td><p><strong>Registro</strong></p></td>
 <td><p>Registro que se va a convertir en registro activo. Haga clic en <strong>Anterior</strong>, <strong>Siguiente</strong>, <strong>Primero</strong>, <strong>Último</strong>, <strong>Ir a</strong> o <strong>Nuevo</strong> en el cuadro <strong>Registro</strong>. El valor predeterminado es <strong>Siguiente</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -57,18 +57,12 @@ La acción **IrARegistro** tiene los siguientes argumentos.
 <td><p>Un número entero o una expresión que da como resultado un número entero. Una expresión debe ir precedida de un signo igual (<strong>=</strong>). Este argumento especifica el registro para hacer que sea el registro actual. Puede usar el argumento <strong>desplazamiento</strong> de dos maneras:</p>
 <ul>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Siguiente</strong> o <strong>Anterior</strong>, Microsoft Office Access 2007 se mueve hacia delante o hacia atrás el número de registros especificado en el argumento <strong>Desplazamiento</strong>.</p></li>
-<li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Ir a</strong>, Access se desplaza al registro que tenga el mismo número que el argumento <strong>Desplazamiento</strong>. El número de registro se muestra en el cuadro de número de registro situado en la parte inferior de la ventana.</p></li>
-</ul>
-
-> [!NOTE]
-> Si se usa el valor **Primero**, **Último** o **Nuevo** para el argumento **Registro**, Access omite el argumento **Desplazamiento**. Si se especifica para el argumento **Desplazamiento** un valor excesivo, Access muestra un mensaje de error. No se pueden especificar números negativos para el argumento **Desplazamiento**.
-
-
-<p></p>
-<ul>
+<li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Ir a</strong>, Access se desplaza al registro que tenga el mismo número que el argumento <strong>Desplazamiento</strong>. El número de registro se muestra en el cuadro de número de registro situado en la parte inferior de la ventana.</p>
+<p><strong>Nota</strong>: si se usa la <strong>primera</strong>, <strong>última</strong>o <strong>nueva</strong> configuración para el argumento <strong>registro</strong> , Access omite el argumento <strong>desplazamiento</strong> . Si se especifica un argumento <strong>desplazamiento</strong> que es demasiado grande, Access muestra un mensaje de error. No se puede escribir números negativos para el argumento <strong>desplazamiento</strong> .</p></li>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Siguiente</strong> o <strong>Anterior</strong>, Microsoft Office Access 2007 se mueve hacia delante o hacia atrás el número de registros especificado en el argumento <strong>Desplazamiento</strong>.</p></li>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Ir a</strong>, Access se desplaza al registro que tenga el mismo número que el argumento <strong>Desplazamiento</strong>. El número de registro se muestra en el cuadro de número de registro situado en la parte inferior de la ventana.</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

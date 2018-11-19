@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99e2b31cf686895a56e9d70b177314355c1aff3c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b961869f3add04cf4af827f96721aad6dba611b6
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945150"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025605"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Personalización de la configuración del Registro de Windows para el motor de base de datos de Microsoft Access
 
@@ -25,8 +25,8 @@ Si su aplicación no funciona correctamente con funcionalidad predeterminada del
 
 Puede personalizar la configuración del Registro de Windows de cuatro formas distintas:
 
-- [Use Regedit.exe para sobrescribir la configuración predeterminada](https://msdn.microsoft.com/library/ff193205\(v=office.15\))
-- [Creación de una parte en el árbol de registro de la aplicación para administrar la configuración](https://msdn.microsoft.com/library/ff836342\(v=office.15\))
-- [Mediante el método SetOption de DAO](https://msdn.microsoft.com/library/ff194471\(v=office.15\))
-- [Usar las propiedades de conexión en el proveedor Microsoft OLE DB para Access](https://msdn.microsoft.com/library/ff196356\(v=office.15\))
+- [Use Regedit.exe para sobrescribir la configuración predeterminada](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Creación de una parte en el árbol de registro de la aplicación para administrar la configuración](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [Mediante el método SetOption de DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [Usar las propiedades de conexión en el proveedor Microsoft OLE DB para Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 
