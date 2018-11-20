@@ -6,51 +6,51 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac4416dce7d3f9fa52c4b948b1e8d3e0167c2751
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b1b7ebd312727e1dc5071964cf1125d1c76bec4d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930633"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026013"
 ---
-# <a name="column-object-adox"></a><span data-ttu-id="de1f3-102">Column (objeto, ADOX)</span><span class="sxs-lookup"><span data-stu-id="de1f3-102">Column object (ADOX)</span></span>
+# <a name="column-object-adox"></a><span data-ttu-id="b3a74-102">Column (objeto, ADOX)</span><span class="sxs-lookup"><span data-stu-id="b3a74-102">Column object (ADOX)</span></span>
 
 
-<span data-ttu-id="de1f3-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de1f3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b3a74-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3a74-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="de1f3-104">Representa una columna de una tabla, un índice o una clave.</span><span class="sxs-lookup"><span data-stu-id="de1f3-104">Represents a column from a table, index, or key.</span></span>
+<span data-ttu-id="b3a74-104">Representa una columna de una tabla, un índice o una clave.</span><span class="sxs-lookup"><span data-stu-id="b3a74-104">Represents a column from a table, index, or key.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="de1f3-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="de1f3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b3a74-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b3a74-105">Remarks</span></span>
 
-<span data-ttu-id="de1f3-106">El siguiente código crea un nuevo objeto **Column**:</span><span class="sxs-lookup"><span data-stu-id="de1f3-106">The following code creates a new **Column**:</span></span>
+<span data-ttu-id="b3a74-106">El siguiente código crea un nuevo objeto **Column**:</span><span class="sxs-lookup"><span data-stu-id="b3a74-106">The following code creates a new **Column**:</span></span>
 
 `Dim obj As New Column`
 
-<span data-ttu-id="de1f3-107">Con las propiedades y las colecciones de un objeto **Column**, se puede:</span><span class="sxs-lookup"><span data-stu-id="de1f3-107">With the properties and collections of a **Column** object, you can:</span></span>
+<span data-ttu-id="b3a74-107">Con las propiedades y las colecciones de un objeto **Column**, se puede:</span><span class="sxs-lookup"><span data-stu-id="b3a74-107">With the properties and collections of a **Column** object, you can:</span></span>
 
-  - <span data-ttu-id="de1f3-108">Identificar la columna con la propiedad [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-108">Identify the column with the [Name](name-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-108">Identificar la columna con la propiedad [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-108">Identify the column with the [Name](name-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-109">Especificar el tipo de datos de la columna con la propiedad [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="de1f3-109">Specify the data type of the column with the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property.</span></span>
+  - <span data-ttu-id="b3a74-109">Especificar el tipo de datos de la columna con la propiedad [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox).</span><span class="sxs-lookup"><span data-stu-id="b3a74-109">Specify the data type of the column with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) property.</span></span>
 
-  - <span data-ttu-id="de1f3-110">Determinar si la columna tiene una longitud fija o si puede contener valores nulos con la propiedad [Attributes](attributes-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-110">Determine if the column is fixed-length, or if it can contain null values with the [Attributes](attributes-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-110">Determinar si la columna tiene una longitud fija o si puede contener valores nulos con la propiedad [Attributes](attributes-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-110">Determine if the column is fixed-length, or if it can contain null values with the [Attributes](attributes-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-111">Especificar el tamaño máximo de la columna con la propiedad [DefinedSize](definedsize-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-111">Specify the maximum size of the column with the [DefinedSize](definedsize-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-111">Especificar el tamaño máximo de la columna con la propiedad [DefinedSize](definedsize-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-111">Specify the maximum size of the column with the [DefinedSize](definedsize-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-112">Para los valores de datos numéricos, especificar la escala con la propiedad [NumericScale](numericscale-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-112">For numeric data values, specify the scale with the [NumericScale](numericscale-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-112">Para los valores de datos numéricos, especificar la escala con la propiedad [NumericScale](numericscale-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-112">For numeric data values, specify the scale with the [NumericScale](numericscale-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-113">Para los valores de datos numéricos, especificar la precisión máxima con la propiedad [Precision](precision-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-113">For numeric data value, specify the maximum precision with the [Precision](precision-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-113">Para los valores de datos numéricos, especificar la precisión máxima con la propiedad [Precision](precision-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-113">For numeric data value, specify the maximum precision with the [Precision](precision-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-114">Especificar el [catálogo](catalog-object-adox.md) que contiene la columna con la propiedad [ParentCatalog](parentcatalog-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-114">Specify the [Catalog](catalog-object-adox.md) that owns the column with the [ParentCatalog](parentcatalog-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-114">Especificar el [catálogo](catalog-object-adox.md) que contiene la columna con la propiedad [ParentCatalog](parentcatalog-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-114">Specify the [Catalog](catalog-object-adox.md) that owns the column with the [ParentCatalog](parentcatalog-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-115">Para las columnas clave, especificar el nombre de la columna relacionada en la tabla relacionada con la propiedad [RelatedColumn](relatedcolumn-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-115">For key columns, specify the name of the related column in the related table with the [RelatedColumn](relatedcolumn-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-115">Para las columnas clave, especificar el nombre de la columna relacionada en la tabla relacionada con la propiedad [RelatedColumn](relatedcolumn-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-115">For key columns, specify the name of the related column in the related table with the [RelatedColumn](relatedcolumn-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-116">Para las columnas de índices, especificar si el criterio de ordenación es ascendente o descendente con la propiedad [SortOrder](sortorder-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-116">For index columns, specify whether the sort order is ascending or descending with the [SortOrder](sortorder-property-adox.md) property.</span></span>
+  - <span data-ttu-id="b3a74-116">Para las columnas de índices, especificar si el criterio de ordenación es ascendente o descendente con la propiedad [SortOrder](sortorder-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-116">For index columns, specify whether the sort order is ascending or descending with the [SortOrder](sortorder-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="de1f3-117">Obtener acceso a propiedades específicas del proveedor con la colección [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="de1f3-117">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
+  - <span data-ttu-id="b3a74-117">Obtener acceso a propiedades específicas del proveedor con la colección [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b3a74-117">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="de1f3-p101">[!NOTA] Puede que el proveedor de datos no admita todas las propiedades de los objetos **Column**. Se producirá un error si ha definido un valor para una propiedad no admitida por el proveedor. Para los nuevos objetos **Column**, el error se producirá cuando se anexe el objeto a la colección. Para los objetos existentes, el error se producirá al definir la propiedad.</span><span class="sxs-lookup"><span data-stu-id="de1f3-p101">Not all properties of **Column** objects may be supported by your data provider. An error will occur if you have set a value for a property that the provider does not support. For new **Column** objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.</span></span>
+> <span data-ttu-id="b3a74-p101">[!NOTA] Puede que el proveedor de datos no admita todas las propiedades de los objetos **Column**. Se producirá un error si ha definido un valor para una propiedad no admitida por el proveedor. Para los nuevos objetos **Column**, el error se producirá cuando se anexe el objeto a la colección. Para los objetos existentes, el error se producirá al definir la propiedad.</span><span class="sxs-lookup"><span data-stu-id="b3a74-p101">Not all properties of **Column** objects may be supported by your data provider. An error will occur if you have set a value for a property that the provider does not support. For new **Column** objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.</span></span>
 > 
-> <span data-ttu-id="de1f3-p102">Cuando se crean objetos **Column**, la existencia de un valor predeterminado adecuado para una propiedad opcional no es una garantía de que el proveedor admita la propiedad. Para obtener más información sobre las propiedades admitidas por el proveedor, vea la documentación del proveedor.</span><span class="sxs-lookup"><span data-stu-id="de1f3-p102">When creating **Column** objects, the existence of an appropriate default value for an optional property does not guarantee that your provider supports the property. For more information about which properties your provider supports, see your provider documentation.</span></span>
+> <span data-ttu-id="b3a74-p102">Cuando se crean objetos **Column**, la existencia de un valor predeterminado adecuado para una propiedad opcional no es una garantía de que el proveedor admita la propiedad. Para obtener más información sobre las propiedades admitidas por el proveedor, vea la documentación del proveedor.</span><span class="sxs-lookup"><span data-stu-id="b3a74-p102">When creating **Column** objects, the existence of an appropriate default value for an optional property does not guarantee that your provider supports the property. For more information about which properties your provider supports, see your provider documentation.</span></span>
 

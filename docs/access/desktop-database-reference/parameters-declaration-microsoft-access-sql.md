@@ -12,25 +12,25 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 64e40da96dc6d82c0f682cba5a3ebc7cfb82bb50
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937347"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026410"
 ---
-# <a name="parameters-declaration-microsoft-access-sql"></a><span data-ttu-id="7ec46-102">Declaración PARAMETERS (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="7ec46-102">PARAMETERS declaration (Microsoft Access SQL)</span></span>
+# <a name="parameters-declaration-microsoft-access-sql"></a><span data-ttu-id="cc9c0-102">Declaración PARAMETERS (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="cc9c0-102">PARAMETERS declaration (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="7ec46-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ec46-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc9c0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc9c0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ec46-104">Declara el nombre y tipo de datos de cada parámetro de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="7ec46-104">Declares the name and data type of each parameter in a parameter query.</span></span>
+<span data-ttu-id="cc9c0-104">Declara el nombre y tipo de datos de cada parámetro de una consulta de parámetros.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-104">Declares the name and data type of each parameter in a parameter query.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7ec46-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7ec46-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cc9c0-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cc9c0-105">Syntax</span></span>
 
-<span data-ttu-id="7ec46-106">PARAMETERS *nombre tipodedatos* \[, *nombre tipodedatos* \[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="7ec46-106">PARAMETERS *name datatype* \[, *name datatype* \[, …\]\]</span></span>
+<span data-ttu-id="cc9c0-106">PARAMETERS *nombre tipodedatos* \[, *nombre tipodedatos* \[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="cc9c0-106">PARAMETERS *name datatype* \[, *name datatype* \[, …\]\]</span></span>
 
-<span data-ttu-id="7ec46-107">La instrucción PARAMETERS consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="7ec46-107">The PARAMETERS declaration has these parts:</span></span>
+<span data-ttu-id="cc9c0-107">La instrucción PARAMETERS consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="cc9c0-107">The PARAMETERS declaration has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,36 +39,36 @@ ms.locfileid: "25937347"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7ec46-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="7ec46-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="7ec46-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="7ec46-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="cc9c0-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="cc9c0-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="cc9c0-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="cc9c0-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ec46-110"><em>nombre</em></span><span class="sxs-lookup"><span data-stu-id="7ec46-110"><em>name</em></span></span></p></td>
-<td><p><span data-ttu-id="7ec46-111">Nombre del parámetro.</span><span class="sxs-lookup"><span data-stu-id="7ec46-111">The name of the parameter.</span></span> <span data-ttu-id="7ec46-112">Se asigna a la propiedad <strong>Name</strong> del objeto <strong>Parameter</strong> y se usa para identificar este parámetro en la colección <strong>Parameters</strong>.</span><span class="sxs-lookup"><span data-stu-id="7ec46-112">Assigned to the <strong>Name</strong> property of the <strong>Parameter</strong> object and used to identify this parameter in the <strong>Parameters</strong> collection.</span></span> <span data-ttu-id="7ec46-113">Puede usar <em>nombre</em> como una cadena que se muestra en un cuadro de diálogo mientras la aplicación ejecuta la consulta.</span><span class="sxs-lookup"><span data-stu-id="7ec46-113">You can use <em>name</em> as a string that is displayed in a dialog box while your application runs the query.</span></span> <span data-ttu-id="7ec46-114">Use corchetes ([ ]) para incluir el texto que contenga espacios o signos de puntuación.</span><span class="sxs-lookup"><span data-stu-id="7ec46-114">Use brackets ([ ]) to enclose text that contains spaces or punctuation.</span></span> <span data-ttu-id="7ec46-115">Por ejemplo, [precio bajo] y [empezar informe con qué month?] son argumentos válidos de <em>nombre</em> .</span><span class="sxs-lookup"><span data-stu-id="7ec46-115">For example, [Low price] and [Begin report with which month?] are valid <em>name</em> arguments.</span></span></p></td>
+<td><p><span data-ttu-id="cc9c0-110"><em>nombre</em></span><span class="sxs-lookup"><span data-stu-id="cc9c0-110"><em>name</em></span></span></p></td>
+<td><p><span data-ttu-id="cc9c0-111">Nombre del parámetro.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-111">The name of the parameter.</span></span> <span data-ttu-id="cc9c0-112">Se asigna a la propiedad <strong>Name</strong> del objeto <strong>Parameter</strong> y se usa para identificar este parámetro en la colección <strong>Parameters</strong>.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-112">Assigned to the <strong>Name</strong> property of the <strong>Parameter</strong> object and used to identify this parameter in the <strong>Parameters</strong> collection.</span></span> <span data-ttu-id="cc9c0-113">Puede usar <em>nombre</em> como una cadena que se muestra en un cuadro de diálogo mientras la aplicación ejecuta la consulta.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-113">You can use <em>name</em> as a string that is displayed in a dialog box while your application runs the query.</span></span> <span data-ttu-id="cc9c0-114">Use corchetes ([ ]) para incluir el texto que contenga espacios o signos de puntuación.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-114">Use brackets ([ ]) to enclose text that contains spaces or punctuation.</span></span> <span data-ttu-id="cc9c0-115">Por ejemplo, [precio bajo] y [empezar informe con qué month?] son argumentos válidos de <em>nombre</em> .</span><span class="sxs-lookup"><span data-stu-id="cc9c0-115">For example, [Low price] and [Begin report with which month?] are valid <em>name</em> arguments.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ec46-116"><em>tipoDeDatos</em></span><span class="sxs-lookup"><span data-stu-id="7ec46-116"><em>datatype</em></span></span></p></td>
-<td><p><span data-ttu-id="7ec46-117">Uno de los principales <a href="sql-data-types.md">tipos de datos de Microsoft Access SQL</a> o sus sinónimos.</span><span class="sxs-lookup"><span data-stu-id="7ec46-117">One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</span></span></p></td>
+<td><p><span data-ttu-id="cc9c0-116"><em>tipoDeDatos</em></span><span class="sxs-lookup"><span data-stu-id="cc9c0-116"><em>datatype</em></span></span></p></td>
+<td><p><span data-ttu-id="cc9c0-117">Uno de los principales <a href="sql-data-types.md">tipos de datos de Microsoft Access SQL</a> o sus sinónimos.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-117">One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="7ec46-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7ec46-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cc9c0-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cc9c0-118">Remarks</span></span>
 
-<span data-ttu-id="7ec46-p102">Para consultas que se ejecuten habitualmente, puede usar una declaración PARAMETERS para crear una consulta de parámetros. Una consulta de parámetros puede ayudar a automatizar el proceso de cambio de los criterios de la consulta. Con una consulta de parámetros, deberán proporcionarse los parámetros en el código cada vez que se ejecute la consulta.</span><span class="sxs-lookup"><span data-stu-id="7ec46-p102">For queries that you run regularly, you can use a PARAMETERS declaration to create a parameter query. A parameter query can help automate the process of changing query criteria. With a parameter query, your code will need to provide the parameters each time the query is run.</span></span>
+<span data-ttu-id="cc9c0-p102">Para consultas que se ejecuten habitualmente, puede usar una declaración PARAMETERS para crear una consulta de parámetros. Una consulta de parámetros puede ayudar a automatizar el proceso de cambio de los criterios de la consulta. Con una consulta de parámetros, deberán proporcionarse los parámetros en el código cada vez que se ejecute la consulta.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-p102">For queries that you run regularly, you can use a PARAMETERS declaration to create a parameter query. A parameter query can help automate the process of changing query criteria. With a parameter query, your code will need to provide the parameters each time the query is run.</span></span>
 
-<span data-ttu-id="7ec46-122">La declaración PARAMETERS es opcional pero si se incluye, va delante de cualquier otra instrucción, incluida la instrucción [SELECT](select-statement-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="7ec46-122">The PARAMETERS declaration is optional but when included precedes any other statement, including [SELECT](select-statement-microsoft-access-sql.md).</span></span>
+<span data-ttu-id="cc9c0-122">La declaración PARAMETERS es opcional pero si se incluye, va delante de cualquier otra instrucción, incluida la instrucción [SELECT](select-statement-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="cc9c0-122">The PARAMETERS declaration is optional but when included precedes any other statement, including [SELECT](select-statement-microsoft-access-sql.md).</span></span>
 
-<span data-ttu-id="7ec46-p103">Si la declaración incluye varios parámetros, sepárelos mediante comas. En el siguiente ejemplo, se incluyen dos parámetros:</span><span class="sxs-lookup"><span data-stu-id="7ec46-p103">If the declaration includes more than one parameter, separate them with commas. The following example includes two parameters:</span></span>
+<span data-ttu-id="cc9c0-p103">Si la declaración incluye varios parámetros, sepárelos mediante comas. En el siguiente ejemplo, se incluyen dos parámetros:</span><span class="sxs-lookup"><span data-stu-id="cc9c0-p103">If the declaration includes more than one parameter, separate them with commas. The following example includes two parameters:</span></span>
 
 ```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-<span data-ttu-id="7ec46-125">Puede usar *nombre* pero no *tipoDeDatos* en una cláusula [donde](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) o [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) .</span><span class="sxs-lookup"><span data-stu-id="7ec46-125">You can use *name* but not *datatype* in a [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) clause.</span></span> <span data-ttu-id="7ec46-126">En el siguiente ejemplo, se espera que se proporcionen dos parámetros y, después, se aplican los criterios a los registros de la tabla Orders:</span><span class="sxs-lookup"><span data-stu-id="7ec46-126">The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:</span></span>
+<span data-ttu-id="cc9c0-125">Puede usar *nombre* pero no *tipoDeDatos* en una cláusula [donde](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) o [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) .</span><span class="sxs-lookup"><span data-stu-id="cc9c0-125">You can use *name* but not *datatype* in a [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) or [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) clause.</span></span> <span data-ttu-id="cc9c0-126">En el siguiente ejemplo, se espera que se proporcionen dos parámetros y, después, se aplican los criterios a los registros de la tabla Orders:</span><span class="sxs-lookup"><span data-stu-id="cc9c0-126">The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:</span></span>
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -79,11 +79,11 @@ WHERE OrderAmount > [Low price]
 AND OrderDate >= [Beginning date];
 ```
 
-## <a name="example"></a><span data-ttu-id="7ec46-127">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7ec46-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cc9c0-127">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="cc9c0-127">Example</span></span>
 
-<span data-ttu-id="7ec46-128">Este ejemplo requiere que el usuario proporcione un puesto y lo use como criterios para la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7ec46-128">This example requires the user to provide a job title and then uses that job title as the criteria for the query.</span></span>
+<span data-ttu-id="cc9c0-128">Este ejemplo requiere que el usuario proporcione un puesto y lo use como criterios para la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="cc9c0-128">This example requires the user to provide a job title and then uses that job title as the criteria for the query.</span></span>
 
-<span data-ttu-id="7ec46-129">Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la [instrucción SELECT](select-statement-microsoft-access-sql.md) .</span><span class="sxs-lookup"><span data-stu-id="7ec46-129">It calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.</span></span>
+<span data-ttu-id="cc9c0-129">Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la [instrucción SELECT](select-statement-microsoft-access-sql.md) .</span><span class="sxs-lookup"><span data-stu-id="cc9c0-129">It calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.</span></span>
 
 ```vb
     Sub ParametersX() 

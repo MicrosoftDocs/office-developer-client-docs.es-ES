@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 991d4957b803ff0fe55ab54c4a00b9a0409b94f0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2245ddca1dc71027887f99127f599e405a0782c2
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877369"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026424"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="272d8-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VC++)</span><span class="sxs-lookup"><span data-stu-id="272d8-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="60add-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VC++)</span><span class="sxs-lookup"><span data-stu-id="60add-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
 
 
-<span data-ttu-id="272d8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="272d8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="60add-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60add-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="272d8-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="272d8-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.</span></span> <span data-ttu-id="272d8-105">Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VC ++)](groups-and-users-append-changepassword-methods-example-vc.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="272d8-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="272d8-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="272d8-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="60add-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="60add-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="60add-105">Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VC ++)](groups-and-users-append-changepassword-methods-example-vc.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="60add-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="60add-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="60add-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```cpp 
  
