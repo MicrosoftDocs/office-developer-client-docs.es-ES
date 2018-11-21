@@ -6,11 +6,11 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath proporciona la capacidad para crear formularios de plena confianza, que son formularios que tienen permisos de seguridad de mayor y pueden tener acceso a recursos del sistema y otros componentes en el equipo del usuario. En este artículo se explica qué es y por qué se usa un formulario de plena confianza, así como la creación de un formulario de plena confianza mediante la conversión y el registro manual de un formulario estándar, o mediante la firma digital de un formulario estándar.
-ms.openlocfilehash: b410d5bee0080aae5e0af9687999595655b42edf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 11/20/2018
 ms.locfileid: "19815972"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Descripción de los formularios de plena confianza
