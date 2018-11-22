@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815651"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643181"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Obtener acceso a la instancia de Excel y los controladores de la ventana principal
 
@@ -63,7 +63,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
@@ -85,7 +85,7 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[Mostrar cuadros de diálogo de un DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[Mostrar cuadros de diálogo desde dentro de una DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   

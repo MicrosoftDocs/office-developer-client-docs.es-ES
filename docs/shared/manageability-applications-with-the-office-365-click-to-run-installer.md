@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Obtenga información sobre cómo integrar al instalador de Office 365 Click-to-Run con una solución de administración de software.
-ms.openlocfilehash: 0e9e82fbf86b81ad35928277ff11fe9b86d91964
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401751"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643223"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Integración de aplicaciones de la capacidad de administración con el instalador de click-to-run de Office 365
 
@@ -127,7 +127,7 @@ En la siguiente documentación de referencia de API:
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Parámetros
+#### <a name="parameters"></a>Parameters
 
 -  _nivel de presentación_: **true** para mostrar el estado de instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>Comentarios
+#### <a name="remarks"></a>Observaciones
 
 - Si se está ejecutando cualquier aplicación de Office cuando se desencadena la acción **Aplicar** , se producirá un error en la acción **Aplicar** . Pasando `forceappshutdown=true` a la que **Aplicar** método hará que el servicio de **OfficeClickToRun** cerrar inmediatamente a las aplicaciones de Office que se están ejecutando y aplican la actualización. El usuario puede experimentar datos tal como se les solicita no para guardar los cambios para abrir documentos.. 
     
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>Comentarios
+#### <a name="remarks"></a>Observaciones
 
 - Este método sólo se puede desencadenar cuando el identificador de estado de COM **eDOWNLOAD_WIP**. Intentará cancelar la acción de descarga actual. El estado de COM se cambie a **eDOWNLOAD_CANCELLING** y finalmente, cambie a **eDOWNLOAD_CANCELED**. El estado de COM devolverá **E_ILLEGAL_METHOD_CALL** si se desencadena en cualquier otro momento. 
     
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Parámetros
+#### <a name="parameters"></a>Parameters
 
 -  _nivel de presentación_: **true** para mostrar el estado de instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>Comentarios
+#### <a name="remarks"></a>Observaciones
 
 - Debe especificar _downloadsource_ y _contentid_ como un par. En caso contrario, el método **Descargar** devolverá un error **E_INVALIDARG** . 
     
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Parámetros
+#### <a name="parameters"></a>Parameters
 
 |||
 |:-----|:-----|
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |El método de **estado** siempre devuelve este resultado. Inspeccionar el `UPDATE_STATUS_RESULT` estructura para el estado de la acción actual.  <br/> |
    
-#### <a name="remarks"></a>Comentarios
+#### <a name="remarks"></a>Observaciones
 
 - El campo de estado de la `UPDATE_STATUS_REPORT` contiene el estado de la acción actual. Se devuelve uno de los siguientes valores de estado: 
     
@@ -300,7 +300,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 - Si el último comando produjo un error, el campo de error de la `UPDATE_STATUS_REPORT` contiene información detallada sobre el error. Dos tipos de códigos de error se devuelven desde el método de **estado** . 
     
-- Si el error inferior a `UDPATE_ERROR_CODE::eUNKNOWN`, el error es uno de los siguientes códigos de error predefinidos:
+- Si el error inferior a `UPDATE_ERROR_CODE::eUNKNOWN`, el error es uno de los siguientes códigos de error predefinidos:
     
   ```cpp
   typedef enum _UPDATE_ERROR_CODE
@@ -324,7 +324,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-  Si el código de error devuelto es mayor que `UDPATE_ERROR_CODE::eUNKNOWN` es el **valor HRESULT** de una llamada de función con errores. Para extraer el HRESULT restar `UDPATE_ERROR_CODE::eUNKNOWN` desde el valor devuelto en el campo de error de la `UPDATE_STATUS_REPORT`.
+  Si el código de error devuelto es mayor que `UPDATE_ERROR_CODE::eUNKNOWN` es el **valor HRESULT** de una llamada de función con errores. Para extraer el HRESULT restar `UPDATE_ERROR_CODE::eUNKNOWN` desde el valor devuelto en el campo de error de la `UPDATE_STATUS_REPORT`.
     
   La lista completa de los valores de estado y error puede verse mediante la inspección de la biblioteca de tipos de **IUpdateNotify** incrustada en OfficeC2RCom.dll. 
     

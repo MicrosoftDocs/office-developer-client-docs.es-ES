@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: Reemplaza parte de una cadena de texto con una cadena de texto diferente.
-ms.openlocfilehash: 2c33d8aafbd68054ac39d14bb4fb3cf857fb367e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823347"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643216"
 ---
 # <a name="substitute-function"></a>Función SUBSTITUTE
 
@@ -32,14 +32,14 @@ Reemplaza parte de una cadena de texto con una cadena de texto diferente.
 | _texto original_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que se desea reemplazar.
   <br/> |
 | _texto_nuevo_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que desea usar para reemplazar el _texto original_.  <br/> |
-| _número_inicio_opcional_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica qué apariciones de texto_anterior desea reemplazar.  <br/> |
+| _número_inicio_opcional_ <br/> |Opcional  <br/> |**Numérico** <br/> |Especifica que las apariciones de texto_anterior desea reemplazar.  <br/> |
 | _distinguir_mayúsculas_minúsculas_opcional_ <br/> |Opcional  <br/> |**Boolean** <br/> |Será FALSE si diferencia entre mayúsculas y minúsculas y, si no, TRUE. El valor predeterminado es FALSE (falso).  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Observaciones
 
  Si especifica _número_inicio_opcional_, se reemplaza la única aparición de _texto_anterior_ . De lo contrario, todas las apariciones de _texto_anterior_ en _texto_ se ha cambiado a _texto_nuevo._
   
