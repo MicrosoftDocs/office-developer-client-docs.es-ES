@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9cdbb10ea68723bd7e1cd9289e8592a7cc087c46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34784f6895386efe7e6c3ca7ec213c7d71931058
+ms.sourcegitcommit: f139451a43598b59da22775333779df691df460a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815641"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26685182"
 ---
 # <a name="known-issues-in-excel-xll-development"></a>Problemas conocidos en el desarrollo de XLL de Excel
 
@@ -28,7 +28,7 @@ Cuando registra un XLL una función o un comando, Excel crea un nuevo nombre par
   
 ## <a name="argument-description-string-truncation-in-the-function-wizard"></a>Truncamiento de cadena de argumento descripción en el Asistente para funciones
 
-El parámetro *pxArgumentHelp1* y todos los parámetros posteriores de la función **xlfRegister** son cadenas opcionales que se corresponden con los argumentos de la función XLL. El Asistente para la función muestra estos para proporcionar ayuda en el cuadro de diálogo de construcción de argumento. A veces Excel trunca la cadena que corresponde al argumento final por uno o dos caracteres cuando se muestra en el cuadro de diálogo. Se puede evitar mediante la adición de uno o dos espacios al final de la cadena final. 
+El parámetro *pxArgumentHelp1* y todos los parámetros posteriores de la función **xlfRegister** son cadenas opcionales que se corresponden con los argumentos de la función XLL. El Asistente para la función muestra estos para proporcionar ayuda en el cuadro de diálogo de construcción de argumento. A veces Excel trunca la cadena que corresponde al argumento final por uno o dos caracteres cuando se muestra en el cuadro de diálogo. Se puede evitar mediante la adición de una adicional "cadena vacía" como el último parámetro "Ayuda argumento" del registro (función).
   
 ## <a name="binary-name-scope-limitation"></a>Limitación del ámbito de nombre del archivo binario
 
