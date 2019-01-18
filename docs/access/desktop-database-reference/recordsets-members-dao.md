@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
 ms:contentKeyID: 48546271
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c88e0e98a8d45e4cf211cfed0eef8c45ae9f750a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 154de04122d67c782b3ae0b4d9a084dadada97bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718689"
 ---
 # <a name="recordsets-members-dao"></a>Miembros de los conjuntos de registros (DAO)
 
@@ -57,7 +58,7 @@ Una colección Recordsets contiene todos los objetos Recordset abiertos en un ob
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="recordsets-count-property-dao.md">Recuento</a></strong></p></td>
+<td><p><strong><a href="recordsets-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Devuelve el número de objetos de la colección especificada. <strong>Integer</strong> de sólo lectura.</p></td>
 </tr>
 </tbody>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
 ms:contentKeyID: 48547123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 977bdfa921ea99db82fd2a429fcfba53680140f3
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ef68db39b7dcad380eae16f789f4dd5b0eab75f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937256"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722112"
 ---
 # <a name="fieldvalidationrule-property-dao"></a>Propiedad Field.ValidationRule (DAO)
 
@@ -47,11 +48,11 @@ Para un objeto **[Field](field-object-dao.md)**, el uso de la propiedad **Valida
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Índice</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Objeto QueryDef</strong></p></td>
+<td><p><strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">

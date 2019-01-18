@@ -1,19 +1,20 @@
 ---
-title: 'Capítulo 10: Objetos Record y Stream'
+title: 'Capítulo 10: Registros y flujos'
 TOCTitle: 'Chapter 10: Records and streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96350229bce2ecc25ff035f2e5949f080f0fa10f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a47ac1f850905546651ffbdd708887bf7d74940
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721832"
 ---
-# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Objetos Record y Stream
+# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Registros y flujos
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -53,7 +54,7 @@ Un objeto **Stream** se puede abrir sobre:
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Secuencias y persistencia](streams-and-persistence.md)
+- [Flujos y persistencia](streams-and-persistence.md)
 - [Registros y campos proporcionados por el proveedor](records-and-provider-supplied-fields.md)
-- [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md)
+- [Direcciones URL relativas y absolutas](absolute-and-relative-urls.md)
 - [Utilizar ADO para Internet publishing (ADO)](using-ado-for-internet-publishing.md)

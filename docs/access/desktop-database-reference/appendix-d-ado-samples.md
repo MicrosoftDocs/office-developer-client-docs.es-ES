@@ -1,19 +1,20 @@
 ---
-title: 'Apéndice D: ejemplos de ADO'
+title: 'Apéndice D: Ejemplos de ADO'
 TOCTitle: 'Appendix D: ADO samples'
 ms:assetid: 87cb09e7-5199-5f78-ad6e-bb38079c59cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249588(v=office.15)
 ms:contentKeyID: 48546113
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 83fff605e7908c8d2d8523639f07fb7046c572b7
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: eb1998d47717c488356b9cd84d2779b540b23956
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947388"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700664"
 ---
-# <a name="appendix-d-ado-samples"></a>Apéndice D: ejemplos de ADO
+# <a name="appendix-d-ado-samples"></a>Apéndice D: Ejemplos de ADO
 
 **Se aplica a**: Access 2013, Office 2013
 

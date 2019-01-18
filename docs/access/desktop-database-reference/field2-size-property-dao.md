@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
 ms:contentKeyID: 48548282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 241233c65606df54feceb99903656d4d873b320b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930458"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699040"
 ---
 # <a name="field2size-property-dao"></a>Propiedad Field2.Size (DAO)
 
@@ -48,11 +49,11 @@ El uso de la propiedad **Size** depende del objeto que contenga la colección **
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Índice</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Objeto QueryDef</strong></p></td>
+<td><p><strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">

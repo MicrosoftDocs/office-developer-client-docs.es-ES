@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f9662c4f0cb691136a556faa32cb0d5a1c775268
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 995f935ceea5af3b740215c5a4137e02e7ebb1b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936836"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700839"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Instrucción DROP USER o GROUP (Microsoft Access SQL)
 
@@ -48,7 +49,7 @@ La instrucción DROP USER o GROUP consta de los siguientes elementos:
 <td><p>Nombre de un usuario que se va a eliminar del archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>group</em></p></td>
+<td><p><em>grupo</em></p></td>
 <td><p>Nombre de un grupo que se va a eliminar del archivo de información de grupo de trabajo.</p></td>
 </tr>
 </tbody>

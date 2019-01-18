@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998878"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722693"
 ---
 # <a name="setvalue-macro-action"></a>EstablecerValor (acción de macro)
 
@@ -44,7 +45,7 @@ La acción **SetValue** tiene los siguientes argumentos.
 <td><p>El nombre del campo, el control o la propiedad cuyo valor quiere configurar. Escriba el nombre del campo, el control o la propiedad en el cuadro <strong>Elemento </strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Debe usar la sintaxis completa para hacer referencia a este elemento, como <em>controlname</em> (para un control en el formulario o el informe desde el que se llamó a la macro) o <strong>Forms</strong>!<em>formname</em>!<em>controlname</em>. Se trata de un argumento obligatorio.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Expresión</strong></p></td>
+<td><p><strong>Expression</strong></p></td>
 <td><p>La expresión que Access usa para configurar el valor de este elemento. Siempre debe usar la sintaxis completa para hacer referencia a los objetos de la expresión. Por ejemplo, para aumentar el valor de un control Salario de un formulario Empleados en un 10 por ciento, use Forms!Employees!Salary*1.1. Se trata de un argumento obligatorio.</p><p><strong>Nota</strong>: no debe utilizar un signo de igual (=) antes de la expresión en este argumento. Si lo hace, Access evalúa la expresión y, a continuación, utiliza este valor como la expresión en este argumento. Esto puede producir resultados inesperados si la expresión es una cadena.</p>
 <p>Por ejemplo, si escribe <strong> = &quot;cadena1&quot; </strong> para este argumento, Access evalúa primero la expresión como Cadena1. A continuación, utiliza Cadena1 como la expresión en este argumento, esperando encontrar un control o una propiedad denominados cadena1 en el formulario o informe que llamó a la macro.</p></td>
 </tr>
@@ -107,17 +108,17 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <td><p>Cerrar el formulario Lista de productos</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Productos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConfigurarValor</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Elemento</strong>: [Forms]![Products]![SupplierID] <strong>Expresión</strong>: IdProveedor</p></td>
 <td><p>Configurar el control IdProveedor el proveedor actual del formulario Proveedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: IdCategoría</p></td>
 <td><p>Ir al control Id.</p></td>
 </tr>
