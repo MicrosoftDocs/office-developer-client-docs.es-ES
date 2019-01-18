@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250205(v=office.15)
 ms:contentKeyID: 48548545
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6dfa575146ddce9e3161cc2e6b2c352d8467a95
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bdd804c846316f2637bb9603043a44f13eae59a6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870509"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715735"
 ---
-# <a name="cursortype-locktype-and-editmode-properties-example-vc"></a><span data-ttu-id="29667-102">Ejemplo de las propiedades CursorType, LockType y EditMode (VC++)</span><span class="sxs-lookup"><span data-stu-id="29667-102">CursorType, LockType, and EditMode properties example (VC++)</span></span>
+# <a name="cursortype-locktype-and-editmode-properties-example-vc"></a><span data-ttu-id="5181b-102">Ejemplo de las propiedades CursorType, LockType y EditMode (VC++)</span><span class="sxs-lookup"><span data-stu-id="5181b-102">CursorType, LockType, and EditMode properties example (VC++)</span></span>
 
 
-<span data-ttu-id="29667-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="29667-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5181b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5181b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="29667-p101">En este ejemplo se muestra cómo establecer el valor de las propiedades [CursorType](cursortype-property-ado.md) y [LockType](locktype-property-ado.md) antes de que se abra un objeto [Recordset](recordset-object-ado.md). También se muestra el valor de la propiedad [EditMode](editmode-property-ado.md) en diversas condiciones. Se requiere la función EditModeOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="29667-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="5181b-p101">En este ejemplo se muestra cómo establecer el valor de las propiedades [CursorType](cursortype-property-ado.md) y [LockType](locktype-property-ado.md) antes de que se abra un objeto [Recordset](recordset-object-ado.md). También se muestra el valor de la propiedad [EditMode](editmode-property-ado.md) en diversas condiciones. Se requiere la función EditModeOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="5181b-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
 
 ```cpp 
  

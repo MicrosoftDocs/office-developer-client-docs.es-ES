@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
 ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a2163caf8b0c6f7b17d0a551d95d18d0883e183
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0ca9923b1604b17c1d7f64d2d968378fec4a8c24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945477"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698662"
 ---
-# <a name="querydefstateenum-enumeration-dao"></a><span data-ttu-id="2073a-102">QueryDefStateEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="2073a-102">QueryDefStateEnum enumeration (DAO)</span></span>
+# <a name="querydefstateenum-enumeration-dao"></a><span data-ttu-id="7f761-102">QueryDefStateEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f761-102">QueryDefStateEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="2073a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2073a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f761-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f761-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2073a-104">Se utiliza con la propiedad **Prepare** para determinar el método utilizado para especificar cómo se debe preparar una consulta.</span><span class="sxs-lookup"><span data-stu-id="2073a-104">Used with the **Prepare** property to specify the method used to specify how a query should be prepared.</span></span>
+<span data-ttu-id="7f761-104">Se utiliza con la propiedad **Prepare** para determinar el método utilizado para especificar cómo se debe preparar una consulta.</span><span class="sxs-lookup"><span data-stu-id="7f761-104">Used with the **Prepare** property to specify the method used to specify how a query should be prepared.</span></span>
 
 <table>
 <colgroup>
@@ -28,21 +29,21 @@ ms.locfileid: "25945477"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2073a-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="2073a-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="2073a-106">Valor</span><span class="sxs-lookup"><span data-stu-id="2073a-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="2073a-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="2073a-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="7f761-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="7f761-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="7f761-106">Valor</span><span class="sxs-lookup"><span data-stu-id="7f761-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="7f761-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="7f761-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2073a-108">dbQPrepare</span><span class="sxs-lookup"><span data-stu-id="2073a-108">dbQPrepare</span></span></p></td>
-<td><p><span data-ttu-id="2073a-109">1</span><span class="sxs-lookup"><span data-stu-id="2073a-109">1</span></span></p></td>
-<td><p><span data-ttu-id="2073a-110">(Valor predeterminado) La instrucción es preparada (es decir, se llama a la API de ODBC de SQLPrepare).</span><span class="sxs-lookup"><span data-stu-id="2073a-110">(Default) The statement is prepared (that is, the ODBC SQLPrepare API is called).</span></span></p></td>
+<td><p><span data-ttu-id="7f761-108">dbQPrepare</span><span class="sxs-lookup"><span data-stu-id="7f761-108">dbQPrepare</span></span></p></td>
+<td><p><span data-ttu-id="7f761-109">1</span><span class="sxs-lookup"><span data-stu-id="7f761-109">1</span></span></p></td>
+<td><p><span data-ttu-id="7f761-110">(Valor predeterminado) La instrucción es preparada (es decir, se llama a la API de ODBC de SQLPrepare).</span><span class="sxs-lookup"><span data-stu-id="7f761-110">(Default) The statement is prepared (that is, the ODBC SQLPrepare API is called).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2073a-111">dbQUnprepare</span><span class="sxs-lookup"><span data-stu-id="2073a-111">dbQUnprepare</span></span></p></td>
-<td><p><span data-ttu-id="2073a-112">2</span><span class="sxs-lookup"><span data-stu-id="2073a-112">2</span></span></p></td>
-<td><p><span data-ttu-id="2073a-113">La instrucción no es preparada (es decir, se llama a la API de ODBC de SQLExecDirect).</span><span class="sxs-lookup"><span data-stu-id="2073a-113">The statement is not prepared (that is, the ODBC SQLExecDirect API is called).</span></span></p></td>
+<td><p><span data-ttu-id="7f761-111">dbQUnprepare</span><span class="sxs-lookup"><span data-stu-id="7f761-111">dbQUnprepare</span></span></p></td>
+<td><p><span data-ttu-id="7f761-112">2</span><span class="sxs-lookup"><span data-stu-id="7f761-112">2</span></span></p></td>
+<td><p><span data-ttu-id="7f761-113">La instrucción no es preparada (es decir, se llama a la API de ODBC de SQLExecDirect).</span><span class="sxs-lookup"><span data-stu-id="7f761-113">The statement is not prepared (that is, the ODBC SQLExecDirect API is called).</span></span></p></td>
 </tr>
 </tbody>
 </table>
