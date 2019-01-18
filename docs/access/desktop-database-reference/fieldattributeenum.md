@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
 ms:contentKeyID: 48543967
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4a99bf18207b6bd1744fb0ee2b1a2dc10254c604
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874387"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706880"
 ---
-# <a name="fieldattributeenum"></a><span data-ttu-id="bf959-102">FieldAttributeEnum</span><span class="sxs-lookup"><span data-stu-id="bf959-102">FieldAttributeEnum</span></span>
+# <a name="fieldattributeenum"></a><span data-ttu-id="2165a-102">FieldAttributeEnum</span><span class="sxs-lookup"><span data-stu-id="2165a-102">FieldAttributeEnum</span></span>
 
-<span data-ttu-id="bf959-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf959-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2165a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2165a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bf959-104">Especifica uno o más atributos de un objeto [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="bf959-104">Specifies one or more attributes of a [Field](field-object-ado.md) object.</span></span>
+<span data-ttu-id="2165a-104">Especifica uno o más atributos de un objeto [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2165a-104">Specifies one or more attributes of a [Field](field-object-ado.md) object.</span></span>
 
 <br/>
 
@@ -29,100 +30,100 @@ ms.locfileid: "25874387"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bf959-105">Constante</span><span class="sxs-lookup"><span data-stu-id="bf959-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="bf959-106">Valor</span><span class="sxs-lookup"><span data-stu-id="bf959-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="bf959-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="bf959-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="2165a-105">Constante</span><span class="sxs-lookup"><span data-stu-id="2165a-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2165a-106">Valor</span><span class="sxs-lookup"><span data-stu-id="2165a-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="2165a-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="2165a-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-108"><strong>adFldCacheDeferred</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-108"><strong>adFldCacheDeferred</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-109">0x1000</span><span class="sxs-lookup"><span data-stu-id="bf959-109">0x1000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-110">Indica que el proveedor almacena los valores de campo en una memoria caché y que las lecturas subsiguientes se realizan desde la caché.</span><span class="sxs-lookup"><span data-stu-id="bf959-110">Indicates that the provider caches field values and that subsequent reads are done from the cache.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-108"><strong>adFldCacheDeferred</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-108"><strong>adFldCacheDeferred</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-109">0x1000</span><span class="sxs-lookup"><span data-stu-id="2165a-109">0x1000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-110">Indica que el proveedor almacena los valores de campo en una memoria caché y que las lecturas subsiguientes se realizan desde la caché.</span><span class="sxs-lookup"><span data-stu-id="2165a-110">Indicates that the provider caches field values and that subsequent reads are done from the cache.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-111"><strong>adFldFixed</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-111"><strong>adFldFixed</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-112">0 x 10</span><span class="sxs-lookup"><span data-stu-id="bf959-112">0x10</span></span></p></td>
-<td><p><span data-ttu-id="bf959-113">Indica que el campo contiene datos de longitud fija.</span><span class="sxs-lookup"><span data-stu-id="bf959-113">Indicates that the field contains fixed-length data.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-111"><strong>adFldFixed</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-111"><strong>adFldFixed</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-112">0 x 10</span><span class="sxs-lookup"><span data-stu-id="2165a-112">0x10</span></span></p></td>
+<td><p><span data-ttu-id="2165a-113">Indica que el campo contiene datos de longitud fija.</span><span class="sxs-lookup"><span data-stu-id="2165a-113">Indicates that the field contains fixed-length data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-114"><strong>adFldIsChapter</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-114"><strong>adFldIsChapter</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-115">0 x 2000</span><span class="sxs-lookup"><span data-stu-id="bf959-115">0x2000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-p101">Indica que el campo contiene un valor de capítulo que especifica un conjunto de registros secundario (recordset) específico relacionado con este campo principal. Los campos de capítulo normalmente se utilizan con filtros o mediante la aplicación de forma a los datos.</span><span class="sxs-lookup"><span data-stu-id="bf959-p101">Indicates that the field contains a chapter value, which specifies a specific child recordset related to this parent field. Typically chapter fields are used with data shaping or filters.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-114"><strong>adFldIsChapter</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-114"><strong>adFldIsChapter</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-115">0 x 2000</span><span class="sxs-lookup"><span data-stu-id="2165a-115">0x2000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-p101">Indica que el campo contiene un valor de capítulo que especifica un conjunto de registros secundario (recordset) específico relacionado con este campo principal. Los campos de capítulo normalmente se utilizan con filtros o mediante la aplicación de forma a los datos.</span><span class="sxs-lookup"><span data-stu-id="2165a-p101">Indicates that the field contains a chapter value, which specifies a specific child recordset related to this parent field. Typically chapter fields are used with data shaping or filters.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-118"><strong>adFldIsCollection</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-118"><strong>adFldIsCollection</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-119">0 x 40000</span><span class="sxs-lookup"><span data-stu-id="bf959-119">0x40000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-120">Indica que el campo especifica que el recurso representado por el registro es una colección de otros recursos, tales como una carpeta, en vez de un recurso simple, tal como un archivo de texto.</span><span class="sxs-lookup"><span data-stu-id="bf959-120">Indicates that the field specifies that the resource represented by the record is a collection of other resources, such as a folder, rather than a simple resource, such as a text file.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-118"><strong>adFldIsCollection</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-118"><strong>adFldIsCollection</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-119">0 x 40000</span><span class="sxs-lookup"><span data-stu-id="2165a-119">0x40000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-120">Indica que el campo especifica que el recurso representado por el registro es una colección de otros recursos, tales como una carpeta, en vez de un recurso simple, tal como un archivo de texto.</span><span class="sxs-lookup"><span data-stu-id="2165a-120">Indicates that the field specifies that the resource represented by the record is a collection of other resources, such as a folder, rather than a simple resource, such as a text file.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-121"><strong>adFldIsDefaultStream</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-121"><strong>adFldIsDefaultStream</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-122">0 x 20000</span><span class="sxs-lookup"><span data-stu-id="bf959-122">0x20000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-123">Indica que el campo contiene la secuencia predeterminada para el recurso representado por el objeto record.</span><span class="sxs-lookup"><span data-stu-id="bf959-123">Indicates that the field contains the default stream for the resource represented by the record.</span></span> <span data-ttu-id="bf959-124">Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz en un sitio Web, el cual se sirve automáticamente cuando se especifica la dirección URL raíz.</span><span class="sxs-lookup"><span data-stu-id="bf959-124">For example, the default stream can be the HTML content of a root folder on a website, which is automatically served when the root URL is specified.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-121"><strong>adFldIsDefaultStream</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-121"><strong>adFldIsDefaultStream</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-122">0 x 20000</span><span class="sxs-lookup"><span data-stu-id="2165a-122">0x20000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-123">Indica que el campo contiene la secuencia predeterminada para el recurso representado por el objeto record.</span><span class="sxs-lookup"><span data-stu-id="2165a-123">Indicates that the field contains the default stream for the resource represented by the record.</span></span> <span data-ttu-id="2165a-124">Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz en un sitio Web, el cual se sirve automáticamente cuando se especifica la dirección URL raíz.</span><span class="sxs-lookup"><span data-stu-id="2165a-124">For example, the default stream can be the HTML content of a root folder on a website, which is automatically served when the root URL is specified.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-125"><strong>adFldIsNullable</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-125"><strong>adFldIsNullable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-126">0 x 20</span><span class="sxs-lookup"><span data-stu-id="bf959-126">0x20</span></span></p></td>
-<td><p><span data-ttu-id="bf959-127">Indica que el campo acepta valores nulos (null).</span><span class="sxs-lookup"><span data-stu-id="bf959-127">Indicates that the field accepts null values.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-125"><strong>adFldIsNullable</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-125"><strong>adFldIsNullable</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-126">0 x 20</span><span class="sxs-lookup"><span data-stu-id="2165a-126">0x20</span></span></p></td>
+<td><p><span data-ttu-id="2165a-127">Indica que el campo acepta valores nulos (null).</span><span class="sxs-lookup"><span data-stu-id="2165a-127">Indicates that the field accepts null values.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-128"><strong>adFldIsRowURL</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-128"><strong>adFldIsRowURL</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-129">0 x 10000</span><span class="sxs-lookup"><span data-stu-id="bf959-129">0x10000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-130">Indica que el campo contiene la dirección URL que nombra el recurso del almacén de datos representado por el registro.</span><span class="sxs-lookup"><span data-stu-id="bf959-130">Indicates that the field contains the URL that names the resource from the data store represented by the record.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-128"><strong>adFldIsRowURL</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-128"><strong>adFldIsRowURL</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-129">0 x 10000</span><span class="sxs-lookup"><span data-stu-id="2165a-129">0x10000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-130">Indica que el campo contiene la dirección URL que nombra el recurso del almacén de datos representado por el registro.</span><span class="sxs-lookup"><span data-stu-id="2165a-130">Indicates that the field contains the URL that names the resource from the data store represented by the record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-131"><strong>adFldLong</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-131"><strong>adFldLong</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-132">0 x 80</span><span class="sxs-lookup"><span data-stu-id="bf959-132">0x80</span></span></p></td>
-<td><p><span data-ttu-id="bf959-p103">Indica que el campo es un campo binario largo. También indica que se pueden utilizar los métodos <a href="appendchunk-method-ado.md">AppendChunk</a> y <a href="getchunk-method-ado.md">GetChunk</a>.</span><span class="sxs-lookup"><span data-stu-id="bf959-p103">Indicates that the field is a long binary field. Also indicates that you can use the <a href="appendchunk-method-ado.md">AppendChunk</a> and <a href="getchunk-method-ado.md">GetChunk</a> methods.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-131"><strong>adFldLong</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-131"><strong>adFldLong</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-132">0 x 80</span><span class="sxs-lookup"><span data-stu-id="2165a-132">0x80</span></span></p></td>
+<td><p><span data-ttu-id="2165a-p103">Indica que el campo es un campo binario largo. También indica que se pueden utilizar los métodos <a href="appendchunk-method-ado.md">AppendChunk</a> y <a href="getchunk-method-ado.md">GetChunk</a>.</span><span class="sxs-lookup"><span data-stu-id="2165a-p103">Indicates that the field is a long binary field. Also indicates that you can use the <a href="appendchunk-method-ado.md">AppendChunk</a> and <a href="getchunk-method-ado.md">GetChunk</a> methods.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-135"><strong>adFldMayBeNull</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-135"><strong>adFldMayBeNull</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-136">0 x 40</span><span class="sxs-lookup"><span data-stu-id="bf959-136">0x40</span></span></p></td>
-<td><p><span data-ttu-id="bf959-137">Indica que se pueden leer valores nulos del campo.</span><span class="sxs-lookup"><span data-stu-id="bf959-137">Indicates that you can read null values from the field.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-135"><strong>adFldMayBeNull</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-135"><strong>adFldMayBeNull</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-136">0 x 40</span><span class="sxs-lookup"><span data-stu-id="2165a-136">0x40</span></span></p></td>
+<td><p><span data-ttu-id="2165a-137">Indica que se pueden leer valores nulos del campo.</span><span class="sxs-lookup"><span data-stu-id="2165a-137">Indicates that you can read null values from the field.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-138"><strong>adFldMayDefer</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-138"><strong>adFldMayDefer</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-139">0x2</span><span class="sxs-lookup"><span data-stu-id="bf959-139">0x2</span></span></p></td>
-<td><p><span data-ttu-id="bf959-140">Indica que el campo está diferido, es decir, los valores del campo no se recuperan del origen de datos con el registro completo, sino sólo cuando se realiza un acceso explícito a ellos.</span><span class="sxs-lookup"><span data-stu-id="bf959-140">Indicates that the field is deferred — that is, the field values are not retrieved from the data source with the whole record, but only when you explicitly access them.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-138"><strong>adFldMayDefer</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-138"><strong>adFldMayDefer</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-139">0x2</span><span class="sxs-lookup"><span data-stu-id="2165a-139">0x2</span></span></p></td>
+<td><p><span data-ttu-id="2165a-140">Indica que el campo está diferido, es decir, los valores del campo no se recuperan del origen de datos con el registro completo, sino sólo cuando se realiza un acceso explícito a ellos.</span><span class="sxs-lookup"><span data-stu-id="2165a-140">Indicates that the field is deferred — that is, the field values are not retrieved from the data source with the whole record, but only when you explicitly access them.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-141"><strong>adFldNegativeScale</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-141"><strong>adFldNegativeScale</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-142">0x4000</span><span class="sxs-lookup"><span data-stu-id="bf959-142">0x4000</span></span></p></td>
-<td><p><span data-ttu-id="bf959-p104">Indica que el campo representa un valor numérico de una columna que admite valores de escala negativa. La escala se especifica mediante la propiedad <a href="numericscale-property-ado.md">NumericScale</a>.</span><span class="sxs-lookup"><span data-stu-id="bf959-p104">Indicates that the field represents a numeric value from a column that supports negative scale values. The scale is specified by the <a href="numericscale-property-ado.md">NumericScale</a> property.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-141"><strong>adFldNegativeScale</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-141"><strong>adFldNegativeScale</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-142">0x4000</span><span class="sxs-lookup"><span data-stu-id="2165a-142">0x4000</span></span></p></td>
+<td><p><span data-ttu-id="2165a-p104">Indica que el campo representa un valor numérico de una columna que admite valores de escala negativa. La escala se especifica mediante la propiedad <a href="numericscale-property-ado.md">NumericScale</a>.</span><span class="sxs-lookup"><span data-stu-id="2165a-p104">Indicates that the field represents a numeric value from a column that supports negative scale values. The scale is specified by the <a href="numericscale-property-ado.md">NumericScale</a> property.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-145"><strong>adFldRowID</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-145"><strong>adFldRowID</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-146">0 x 100</span><span class="sxs-lookup"><span data-stu-id="bf959-146">0x100</span></span></p></td>
-<td><p><span data-ttu-id="bf959-147">Indica que el campo contiene un identificador de fila persistente que no se puede escribir y que no tiene ningún valor significativo excepto el de identificar la fila (como un número de registro, un identificador único, etc.).</span><span class="sxs-lookup"><span data-stu-id="bf959-147">Indicates that the field contains a persistent row identifier that cannot be written to and has no meaningful value except to identify the row (such as a record number, unique identifier, and so forth).</span></span></p></td>
+<td><p><span data-ttu-id="2165a-145"><strong>adFldRowID</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-145"><strong>adFldRowID</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-146">0 x 100</span><span class="sxs-lookup"><span data-stu-id="2165a-146">0x100</span></span></p></td>
+<td><p><span data-ttu-id="2165a-147">Indica que el campo contiene un identificador de fila persistente que no se puede escribir y que no tiene ningún valor significativo excepto el de identificar la fila (como un número de registro, un identificador único, etc.).</span><span class="sxs-lookup"><span data-stu-id="2165a-147">Indicates that the field contains a persistent row identifier that cannot be written to and has no meaningful value except to identify the row (such as a record number, unique identifier, and so forth).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-148"><strong>adFldRowVersion</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-148"><strong>adFldRowVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-149">0 x 200</span><span class="sxs-lookup"><span data-stu-id="bf959-149">0x200</span></span></p></td>
-<td><p><span data-ttu-id="bf959-150">Indica que el campo contiene algún tipo de marca de hora o fecha utilizada para hacer un seguimiento de las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="bf959-150">Indicates that the field contains some kind of time or date stamp used to track updates.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-148"><strong>adFldRowVersion</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-148"><strong>adFldRowVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-149">0 x 200</span><span class="sxs-lookup"><span data-stu-id="2165a-149">0x200</span></span></p></td>
+<td><p><span data-ttu-id="2165a-150">Indica que el campo contiene algún tipo de marca de hora o fecha utilizada para hacer un seguimiento de las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="2165a-150">Indicates that the field contains some kind of time or date stamp used to track updates.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-151"><strong>adFldUnknownUpdatable</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-151"><strong>adFldUnknownUpdatable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-152">0 x 8</span><span class="sxs-lookup"><span data-stu-id="bf959-152">0x8</span></span></p></td>
-<td><p><span data-ttu-id="bf959-153">Indica que el proveedor no puede determinar si es posible escribir en el campo.</span><span class="sxs-lookup"><span data-stu-id="bf959-153">Indicates that the provider cannot determine if you can write to the field.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-151"><strong>adFldUnknownUpdatable</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-151"><strong>adFldUnknownUpdatable</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-152">0 x 8</span><span class="sxs-lookup"><span data-stu-id="2165a-152">0x8</span></span></p></td>
+<td><p><span data-ttu-id="2165a-153">Indica que el proveedor no puede determinar si es posible escribir en el campo.</span><span class="sxs-lookup"><span data-stu-id="2165a-153">Indicates that the provider cannot determine if you can write to the field.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-154"><strong>adFldUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-154"><strong>adFldUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-155">-1</span><span class="sxs-lookup"><span data-stu-id="bf959-155">-1</span></span><br />
-<span data-ttu-id="bf959-156">0xFFFFFFFF</span><span class="sxs-lookup"><span data-stu-id="bf959-156">0xFFFFFFFF</span></span></p></td>
-<td><p><span data-ttu-id="bf959-157">Indica que el proveedor no especifica los atributos de campo.</span><span class="sxs-lookup"><span data-stu-id="bf959-157">Indicates that the provider does not specify the field attributes.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-154"><strong>adFldUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-154"><strong>adFldUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-155">-1</span><span class="sxs-lookup"><span data-stu-id="2165a-155">-1</span></span><br />
+<span data-ttu-id="2165a-156">0xFFFFFFFF</span><span class="sxs-lookup"><span data-stu-id="2165a-156">0xFFFFFFFF</span></span></p></td>
+<td><p><span data-ttu-id="2165a-157">Indica que el proveedor no especifica los atributos de campo.</span><span class="sxs-lookup"><span data-stu-id="2165a-157">Indicates that the provider does not specify the field attributes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-158"><strong>adFldUpdatable</strong></span><span class="sxs-lookup"><span data-stu-id="bf959-158"><strong>adFldUpdatable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf959-159">0 x 4</span><span class="sxs-lookup"><span data-stu-id="bf959-159">0x4</span></span></p></td>
-<td><p><span data-ttu-id="bf959-160">Indica que es posible escribir en el campo.</span><span class="sxs-lookup"><span data-stu-id="bf959-160">Indicates that you can write to the field.</span></span></p></td>
+<td><p><span data-ttu-id="2165a-158"><strong>adFldUpdatable</strong></span><span class="sxs-lookup"><span data-stu-id="2165a-158"><strong>adFldUpdatable</strong></span></span></p></td>
+<td><p><span data-ttu-id="2165a-159">0 x 4</span><span class="sxs-lookup"><span data-stu-id="2165a-159">0x4</span></span></p></td>
+<td><p><span data-ttu-id="2165a-160">Indica que es posible escribir en el campo.</span><span class="sxs-lookup"><span data-stu-id="2165a-160">Indicates that you can write to the field.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="bf959-161">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="bf959-161">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="2165a-161">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="2165a-161">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="bf959-162">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="bf959-162">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="2165a-162">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="2165a-162">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -130,45 +131,45 @@ ms.locfileid: "25874387"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bf959-163">Constante</span><span class="sxs-lookup"><span data-stu-id="bf959-163">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2165a-163">Constante</span><span class="sxs-lookup"><span data-stu-id="2165a-163">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-164">AdoEnums.FieldAttribute.CACHEDEFERRED</span><span class="sxs-lookup"><span data-stu-id="bf959-164">AdoEnums.FieldAttribute.CACHEDEFERRED</span></span></p></td>
+<td><p><span data-ttu-id="2165a-164">AdoEnums.FieldAttribute.CACHEDEFERRED</span><span class="sxs-lookup"><span data-stu-id="2165a-164">AdoEnums.FieldAttribute.CACHEDEFERRED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-165">AdoEnums.FieldAttribute.FIXED</span><span class="sxs-lookup"><span data-stu-id="bf959-165">AdoEnums.FieldAttribute.FIXED</span></span></p></td>
+<td><p><span data-ttu-id="2165a-165">AdoEnums.FieldAttribute.FIXED</span><span class="sxs-lookup"><span data-stu-id="2165a-165">AdoEnums.FieldAttribute.FIXED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-166">AdoEnums.FieldAttribute.ISNULLABLE</span><span class="sxs-lookup"><span data-stu-id="bf959-166">AdoEnums.FieldAttribute.ISNULLABLE</span></span></p></td>
+<td><p><span data-ttu-id="2165a-166">AdoEnums.FieldAttribute.ISNULLABLE</span><span class="sxs-lookup"><span data-stu-id="2165a-166">AdoEnums.FieldAttribute.ISNULLABLE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-167">AdoEnums.FieldAttribute.LONG</span><span class="sxs-lookup"><span data-stu-id="bf959-167">AdoEnums.FieldAttribute.LONG</span></span></p></td>
+<td><p><span data-ttu-id="2165a-167">AdoEnums.FieldAttribute.LONG</span><span class="sxs-lookup"><span data-stu-id="2165a-167">AdoEnums.FieldAttribute.LONG</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-168">AdoEnums.FieldAttribute.MAYBENULL</span><span class="sxs-lookup"><span data-stu-id="bf959-168">AdoEnums.FieldAttribute.MAYBENULL</span></span></p></td>
+<td><p><span data-ttu-id="2165a-168">AdoEnums.FieldAttribute.MAYBENULL</span><span class="sxs-lookup"><span data-stu-id="2165a-168">AdoEnums.FieldAttribute.MAYBENULL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-169">AdoEnums.FieldAttribute.MAYDEFER</span><span class="sxs-lookup"><span data-stu-id="bf959-169">AdoEnums.FieldAttribute.MAYDEFER</span></span></p></td>
+<td><p><span data-ttu-id="2165a-169">AdoEnums.FieldAttribute.MAYDEFER</span><span class="sxs-lookup"><span data-stu-id="2165a-169">AdoEnums.FieldAttribute.MAYDEFER</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-170">AdoEnums.FieldAttribute.NEGATIVESCALE</span><span class="sxs-lookup"><span data-stu-id="bf959-170">AdoEnums.FieldAttribute.NEGATIVESCALE</span></span></p></td>
+<td><p><span data-ttu-id="2165a-170">AdoEnums.FieldAttribute.NEGATIVESCALE</span><span class="sxs-lookup"><span data-stu-id="2165a-170">AdoEnums.FieldAttribute.NEGATIVESCALE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-171">AdoEnums.FieldAttribute.ROWID</span><span class="sxs-lookup"><span data-stu-id="bf959-171">AdoEnums.FieldAttribute.ROWID</span></span></p></td>
+<td><p><span data-ttu-id="2165a-171">AdoEnums.FieldAttribute.ROWID</span><span class="sxs-lookup"><span data-stu-id="2165a-171">AdoEnums.FieldAttribute.ROWID</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-172">AdoEnums.FieldAttribute.ROWVERSION</span><span class="sxs-lookup"><span data-stu-id="bf959-172">AdoEnums.FieldAttribute.ROWVERSION</span></span></p></td>
+<td><p><span data-ttu-id="2165a-172">AdoEnums.FieldAttribute.ROWVERSION</span><span class="sxs-lookup"><span data-stu-id="2165a-172">AdoEnums.FieldAttribute.ROWVERSION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-173">AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</span><span class="sxs-lookup"><span data-stu-id="bf959-173">AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</span></span></p></td>
+<td><p><span data-ttu-id="2165a-173">AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</span><span class="sxs-lookup"><span data-stu-id="2165a-173">AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf959-174">AdoEnums.FieldAttribute.UNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="bf959-174">AdoEnums.FieldAttribute.UNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="2165a-174">AdoEnums.FieldAttribute.UNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="2165a-174">AdoEnums.FieldAttribute.UNSPECIFIED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf959-175">AdoEnums.FieldAttribute.UPDATABLE</span><span class="sxs-lookup"><span data-stu-id="bf959-175">AdoEnums.FieldAttribute.UPDATABLE</span></span></p></td>
+<td><p><span data-ttu-id="2165a-175">AdoEnums.FieldAttribute.UPDATABLE</span><span class="sxs-lookup"><span data-stu-id="2165a-175">AdoEnums.FieldAttribute.UPDATABLE</span></span></p></td>
 </tr>
 </tbody>
 </table>

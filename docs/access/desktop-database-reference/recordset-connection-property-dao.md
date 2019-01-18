@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053579
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1cd5772205cee4fd381d09fa801aed26aa45a4c4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 338e039048779c00dbede76c37f04ce4ecfddb06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931193"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707503"
 ---
-# <a name="recordsetconnection-property-dao"></a><span data-ttu-id="0542b-102">Propiedad Recordset.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="0542b-102">Recordset.Connection property (DAO)</span></span>
+# <a name="recordsetconnection-property-dao"></a><span data-ttu-id="f99a6-102">Propiedad Recordset.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="f99a6-102">Recordset.Connection property (DAO)</span></span>
 
 
-<span data-ttu-id="0542b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0542b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f99a6-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f99a6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0542b-104">Devuelve el objeto **[Connection](connection-object-dao.md)** que corresponde a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="0542b-104">Returns the **[Connection](connection-object-dao.md)** object that corresponds to the database.</span></span>
+<span data-ttu-id="f99a6-104">Devuelve el objeto **[Connection](connection-object-dao.md)** que corresponde a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="f99a6-104">Returns the **[Connection](connection-object-dao.md)** object that corresponds to the database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0542b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0542b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f99a6-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f99a6-105">Syntax</span></span>
 
-<span data-ttu-id="0542b-106">*expresión* . Conexión</span><span class="sxs-lookup"><span data-stu-id="0542b-106">*expression* .Connection</span></span>
+<span data-ttu-id="f99a6-106">*expresión* . Conexión</span><span class="sxs-lookup"><span data-stu-id="f99a6-106">*expression* .Connection</span></span>
 
-<span data-ttu-id="0542b-107">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="0542b-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="f99a6-107">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="f99a6-107">*expression* A variable that represents a **Recordset** object.</span></span>
 

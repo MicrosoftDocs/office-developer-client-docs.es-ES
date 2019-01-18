@@ -10,35 +10,36 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 060963dc47c933fee903cd9b220adb45c7f63df6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706711"
 ---
-# <a name="indexclustered-property-dao"></a><span data-ttu-id="6d58c-102">Propiedad Index.Clustered (DAO)</span><span class="sxs-lookup"><span data-stu-id="6d58c-102">Index.Clustered property (DAO)</span></span>
+# <a name="indexclustered-property-dao"></a><span data-ttu-id="0eb17-102">Propiedad Index.Clustered (DAO)</span><span class="sxs-lookup"><span data-stu-id="0eb17-102">Index.Clustered property (DAO)</span></span>
 
-<span data-ttu-id="6d58c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d58c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0eb17-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0eb17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d58c-p101">Establece o devuelve un valor que indica si un objeto **Index** representa un índice agrupado para una tabla (sólo áreas de trabajo de Microsoft Access). **Boolean** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="6d58c-p101">Sets or returns a value that indicates whether an **Index** object represents a clustered index for a table (Microsoft Access workspaces only). Read/write **Boolean**.</span></span>
+<span data-ttu-id="0eb17-p101">Establece o devuelve un valor que indica si un objeto **Index** representa un índice agrupado para una tabla (sólo áreas de trabajo de Microsoft Access). **Boolean** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="0eb17-p101">Sets or returns a value that indicates whether an **Index** object represents a clustered index for a table (Microsoft Access workspaces only). Read/write **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6d58c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="6d58c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0eb17-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0eb17-106">Syntax</span></span>
 
-<span data-ttu-id="6d58c-107">*expresión* . Agrupado</span><span class="sxs-lookup"><span data-stu-id="6d58c-107">*expression* .Clustered</span></span>
+<span data-ttu-id="0eb17-107">*expresión* . Agrupado</span><span class="sxs-lookup"><span data-stu-id="0eb17-107">*expression* .Clustered</span></span>
 
-<span data-ttu-id="6d58c-108">*expresión* Expresión que devuelve un objeto **Index** .</span><span class="sxs-lookup"><span data-stu-id="6d58c-108">*expression* An expression that returns a **Index** object.</span></span>
+<span data-ttu-id="0eb17-108">*expresión* Expresión que devuelve un objeto **Index** .</span><span class="sxs-lookup"><span data-stu-id="0eb17-108">*expression* An expression that returns a **Index** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6d58c-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="6d58c-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0eb17-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="0eb17-109">Remarks</span></span>
 
-<span data-ttu-id="6d58c-110">La configuración o el valor devuelto es un tipo de datos Boolean que es **True** si el objeto **Index** representa un índice agrupado.</span><span class="sxs-lookup"><span data-stu-id="6d58c-110">The setting or return value is a Boolean data type that is **True** if the **Index** object represents a clustered index.</span></span>
+<span data-ttu-id="0eb17-110">La configuración o el valor devuelto es un tipo de datos Boolean que es **True** si el objeto **Index** representa un índice agrupado.</span><span class="sxs-lookup"><span data-stu-id="0eb17-110">The setting or return value is a Boolean data type that is **True** if the **Index** object represents a clustered index.</span></span>
 
-<span data-ttu-id="6d58c-p102">Determinados formatos de base de datos de escritorio IISAM utilizan índices agrupados. Un índice agrupado consta de uno o varios campos que no son de clave, los cuales conjuntamente organizan todos los registros de una tabla en un orden predefinido. Un índice agrupado proporciona acceso eficaz a los registros de una tabla en la que los valores de índice pueden no ser únicos.</span><span class="sxs-lookup"><span data-stu-id="6d58c-p102">Some IISAM desktop database formats use clustered indexes. A clustered index consists of one or more nonkey fields that, taken together, arrange all records in a table in a predefined order. A clustered index provides efficient access to records in a table in which the index values may not be unique.</span></span>
+<span data-ttu-id="0eb17-p102">Determinados formatos de base de datos de escritorio IISAM utilizan índices agrupados. Un índice agrupado consta de uno o varios campos que no son de clave, los cuales conjuntamente organizan todos los registros de una tabla en un orden predefinido. Un índice agrupado proporciona acceso eficaz a los registros de una tabla en la que los valores de índice pueden no ser únicos.</span><span class="sxs-lookup"><span data-stu-id="0eb17-p102">Some IISAM desktop database formats use clustered indexes. A clustered index consists of one or more nonkey fields that, taken together, arrange all records in a table in a predefined order. A clustered index provides efficient access to records in a table in which the index values may not be unique.</span></span>
 
-<span data-ttu-id="6d58c-114">La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nuevo que todavía no se ha anexado a una colección y de sólo lectura para un objeto **Index** existente de una colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="6d58c-114">The **Clustered** property is read/write for a new **Index** object not yet appended to a collection and read-only for an existing **Index** object in an **Indexes** collection.</span></span>
+<span data-ttu-id="0eb17-114">La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nuevo que todavía no se ha anexado a una colección y de sólo lectura para un objeto **Index** existente de una colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="0eb17-114">The **Clustered** property is read/write for a new **Index** object not yet appended to a collection and read-only for an existing **Index** object in an **Indexes** collection.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="6d58c-115">Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.</span><span class="sxs-lookup"><span data-stu-id="6d58c-115">Microsoft Access database engine databases ignore the **Clustered** property because the Microsoft Access database engine doesn't support clustered indexes.</span></span>
-> - <span data-ttu-id="6d58c-116">Para los orígenes de datos ODBC, la propiedad **Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene un índice agrupado o no.</span><span class="sxs-lookup"><span data-stu-id="6d58c-116">For ODBC data sources, the **Clustered** property always returns **False**; it does not detect whether or not the ODBC data source has a clustered index.</span></span>
+> - <span data-ttu-id="0eb17-115">Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.</span><span class="sxs-lookup"><span data-stu-id="0eb17-115">Microsoft Access database engine databases ignore the **Clustered** property because the Microsoft Access database engine doesn't support clustered indexes.</span></span>
+> - <span data-ttu-id="0eb17-116">Para los orígenes de datos ODBC, la propiedad **Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene un índice agrupado o no.</span><span class="sxs-lookup"><span data-stu-id="0eb17-116">For ODBC data sources, the **Clustered** property always returns **False**; it does not detect whether or not the ODBC data source has a clustered index.</span></span>
 
 

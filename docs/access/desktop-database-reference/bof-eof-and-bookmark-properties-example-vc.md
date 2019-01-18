@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0465c14c8dc95becd7ddf7a28eae9db811d51e32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9797d1cd48c397dedcd236d8762fa0dfcef7c93
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886987"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710184"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="7ccdf-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="7ccdf-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="f6650-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="f6650-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
 
 
-<span data-ttu-id="7ccdf-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ccdf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f6650-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6650-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ccdf-p101">La primera función de este ejemplo usa las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="7ccdf-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="f6650-p101">La primera función de este ejemplo usa las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="f6650-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
-<span data-ttu-id="7ccdf-106">La segunda función utiliza la propiedad Bookmark para colocar el **marcador** de cada dos registros de un objeto **Recordset** en una matriz y, a continuación, filtra el objeto Recordset mediante la matriz.</span><span class="sxs-lookup"><span data-stu-id="7ccdf-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
+<span data-ttu-id="f6650-106">La segunda función utiliza la propiedad Bookmark para colocar el **marcador** de cada dos registros de un objeto **Recordset** en una matriz y, a continuación, filtra el objeto Recordset mediante la matriz.</span><span class="sxs-lookup"><span data-stu-id="f6650-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
 
 ```cpp 
  
@@ -355,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-<span data-ttu-id="7ccdf-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="7ccdf-107">**BofEofBookmark.h**</span></span>
+<span data-ttu-id="f6650-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="f6650-107">**BofEofBookmark.h**</span></span>
 
 ```cpp 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b866e9cecc31c4826b0b0fb52b5b8a2524b4bb00
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 60dbf94824c5563196c549e2276b903ea814b1fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946458"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708679"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="e21a0-102">Encabezado de extensiones de C++ Visual</span><span class="sxs-lookup"><span data-stu-id="e21a0-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="24827-102">Encabezado de las extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="24827-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="e21a0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e21a0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="24827-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="24827-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e21a0-p101">El siguiente encabezado, **icrsint.h**, describe detalladamente la interfaz que permite a los clientes recuperar campos de un objeto **Recordset** en variables definidas en una clase que se deriva de **CADORecordBinding**. Es preciso especificar una macro de enlace de ADO por cada campo al que se desea obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="e21a0-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="24827-p101">El siguiente encabezado, **icrsint.h**, describe detalladamente la interfaz que permite a los clientes recuperar campos de un objeto **Recordset** en variables definidas en una clase que se deriva de **CADORecordBinding**. Es preciso especificar una macro de enlace de ADO por cada campo al que se desea obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="24827-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

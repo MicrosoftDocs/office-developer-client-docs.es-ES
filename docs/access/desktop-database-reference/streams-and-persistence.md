@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a90031ac2f6d573631063edb0faf4893c2320d03
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5a6f49368def305964119edcb06b5bcc80c278d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944385"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709309"
 ---
-# <a name="streams-and-persistence"></a><span data-ttu-id="c8161-102">Secuencias y persistencia</span><span class="sxs-lookup"><span data-stu-id="c8161-102">Streams and persistence</span></span>
+# <a name="streams-and-persistence"></a><span data-ttu-id="b7bb6-102">Flujos y persistencia</span><span class="sxs-lookup"><span data-stu-id="b7bb6-102">Streams and persistence</span></span>
 
 
-<span data-ttu-id="c8161-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8161-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7bb6-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7bb6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c8161-104">El método [Save](save-method-ado.md) del objeto [Recordset](recordset-object-ado.md) guarda o *persiste* un objeto **Recordset** en un archivo, y el método [Open](open-method-ado-recordset.md) restaura el objeto **Recordset** de ese archivo.</span><span class="sxs-lookup"><span data-stu-id="c8161-104">The [Recordset](recordset-object-ado.md) object [Save](save-method-ado.md) method stores, or *persists*, a **Recordset** in a file, and the [Open](open-method-ado-recordset.md) method restores the **Recordset** from that file.</span></span>
+<span data-ttu-id="b7bb6-104">El método [Save](save-method-ado.md) del objeto [Recordset](recordset-object-ado.md) guarda o *persiste* un objeto **Recordset** en un archivo, y el método [Open](open-method-ado-recordset.md) restaura el objeto **Recordset** de ese archivo.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-104">The [Recordset](recordset-object-ado.md) object [Save](save-method-ado.md) method stores, or *persists*, a **Recordset** in a file, and the [Open](open-method-ado-recordset.md) method restores the **Recordset** from that file.</span></span>
 
-<span data-ttu-id="c8161-p101">Con ADO 2.5, los métodos **Save** y **Open** también pueden persistir un objeto **Recordset** en un objeto [Stream](stream-object-ado.md). Esta característica es especialmente útil al trabajar con el Servicio de datos remoto (RDS) y páginas Active Server (ASP).</span><span class="sxs-lookup"><span data-stu-id="c8161-p101">With ADO 2.5, the **Save** and **Open** methods can persist a **Recordset** to a [Stream](stream-object-ado.md) object as well. This feature is especially useful when working with Remote Data Service (RDS) and Active Server Pages (ASP).</span></span>
+<span data-ttu-id="b7bb6-p101">Con ADO 2.5, los métodos **Save** y **Open** también pueden persistir un objeto **Recordset** en un objeto [Stream](stream-object-ado.md). Esta característica es especialmente útil al trabajar con el Servicio de datos remoto (RDS) y páginas Active Server (ASP).</span><span class="sxs-lookup"><span data-stu-id="b7bb6-p101">With ADO 2.5, the **Save** and **Open** methods can persist a **Recordset** to a [Stream](stream-object-ado.md) object as well. This feature is especially useful when working with Remote Data Service (RDS) and Active Server Pages (ASP).</span></span>
 
-<span data-ttu-id="c8161-107">Para obtener más información sobre cómo utilizar la persistencia en páginas ASP, vea la documentación de ASP.</span><span class="sxs-lookup"><span data-stu-id="c8161-107">For more information about how persistence can be used by itself on ASP pages, see the current ASP documentation.</span></span>
+<span data-ttu-id="b7bb6-107">Para obtener más información sobre cómo utilizar la persistencia en páginas ASP, vea la documentación de ASP.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-107">For more information about how persistence can be used by itself on ASP pages, see the current ASP documentation.</span></span>
 
-<span data-ttu-id="c8161-108">A continuación se describen algunos escenarios que muestran cómo se pueden utilizar los objetos **Stream** y la persistencia.</span><span class="sxs-lookup"><span data-stu-id="c8161-108">The following are a few scenarios that show how **Stream** objects and persistence can be used.</span></span>
+<span data-ttu-id="b7bb6-108">A continuación se describen algunos escenarios que muestran cómo se pueden utilizar los objetos **Stream** y la persistencia.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-108">The following are a few scenarios that show how **Stream** objects and persistence can be used.</span></span>
 
-## <a name="scenario-1"></a><span data-ttu-id="c8161-109">Escenario 1</span><span class="sxs-lookup"><span data-stu-id="c8161-109">Scenario 1</span></span>
+## <a name="scenario-1"></a><span data-ttu-id="b7bb6-109">Escenario 1</span><span class="sxs-lookup"><span data-stu-id="b7bb6-109">Scenario 1</span></span>
 
-<span data-ttu-id="c8161-p102">En este escenario se guarda simplemente un objeto **Recordset** en un archivo y, a continuación, en un objeto **Stream**. A continuación, se abre la secuencia guardada en otro objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c8161-p102">This scenario simply saves a **Recordset** to a file and then to a **Stream**. It then opens the persisted stream into another **Recordset**.</span></span>
+<span data-ttu-id="b7bb6-p102">En este escenario se guarda simplemente un objeto **Recordset** en un archivo y, a continuación, en un objeto **Stream**. A continuación, se abre la secuencia guardada en otro objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-p102">This scenario simply saves a **Recordset** to a file and then to a **Stream**. It then opens the persisted stream into another **Recordset**.</span></span>
 
 ```vb 
  
@@ -48,9 +49,9 @@ rs1.Save stm, adPersistXML
 rs2.Open stm 
 ```
 
-## <a name="scenario-2"></a><span data-ttu-id="c8161-112">Escenario 2</span><span class="sxs-lookup"><span data-stu-id="c8161-112">Scenario 2</span></span>
+## <a name="scenario-2"></a><span data-ttu-id="b7bb6-112">Escenario 2</span><span class="sxs-lookup"><span data-stu-id="b7bb6-112">Scenario 2</span></span>
 
-<span data-ttu-id="c8161-p103">En este escenario se persiste un objeto **Recordset** en un objeto **Stream** con formato XML. A continuación, se lee el objeto **Stream** en una cadena que se puede examinar, manipular o mostrar.</span><span class="sxs-lookup"><span data-stu-id="c8161-p103">This scenario persists a **Recordset** into a **Stream** in XML format. It then reads the **Stream** into a string that you can examine, manipulate, or display.</span></span>
+<span data-ttu-id="b7bb6-p103">En este escenario se persiste un objeto **Recordset** en un objeto **Stream** con formato XML. A continuación, se lee el objeto **Stream** en una cadena que se puede examinar, manipular o mostrar.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-p103">This scenario persists a **Recordset** into a **Stream** in XML format. It then reads the **Stream** into a string that you can examine, manipulate, or display.</span></span>
 
 ```vb 
  
@@ -76,9 +77,9 @@ strRst = stm.ReadText(adReadAll)
 ... 
 ```
 
-## <a name="scenario-3"></a><span data-ttu-id="c8161-115">Escenario 3</span><span class="sxs-lookup"><span data-stu-id="c8161-115">Scenario 3</span></span>
+## <a name="scenario-3"></a><span data-ttu-id="b7bb6-115">Escenario 3</span><span class="sxs-lookup"><span data-stu-id="b7bb6-115">Scenario 3</span></span>
 
-<span data-ttu-id="c8161-116">En este código de ejemplo se muestra cómo código ASP almacena un objeto **Recordset** como XML directamente en el objeto **Response**:</span><span class="sxs-lookup"><span data-stu-id="c8161-116">This example code shows ASP code persisting a **Recordset** as XML directly to the **Response** object:</span></span>
+<span data-ttu-id="b7bb6-116">En este código de ejemplo se muestra cómo código ASP almacena un objeto **Recordset** como XML directamente en el objeto **Response**:</span><span class="sxs-lookup"><span data-stu-id="b7bb6-116">This example code shows ASP code persisting a **Recordset** as XML directly to the **Response** object:</span></span>
 
 ```vb 
  
@@ -102,13 +103,13 @@ Set rs = nothing
 ... 
 ```
 
-## <a name="scenario-4"></a><span data-ttu-id="c8161-117">Escenario 4</span><span class="sxs-lookup"><span data-stu-id="c8161-117">Scenario 4</span></span>
+## <a name="scenario-4"></a><span data-ttu-id="b7bb6-117">Escenario 4</span><span class="sxs-lookup"><span data-stu-id="b7bb6-117">Scenario 4</span></span>
 
-<span data-ttu-id="c8161-p104">En este escenario, código ASP escribe el contenido del objeto **Recordset** con formato ADTG en el cliente. El [Servicio de cursores de Microsoft para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) puede utilizar estos datos para crear un objeto **Recordset** desconectado.</span><span class="sxs-lookup"><span data-stu-id="c8161-p104">In this scenario, ASP code writes the contents of the **Recordset** in ADTG format to the client. The [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) can use this data to create a disconnected **Recordset**.</span></span>
+<span data-ttu-id="b7bb6-p104">En este escenario, código ASP escribe el contenido del objeto **Recordset** con formato ADTG en el cliente. El [Servicio de cursores de Microsoft para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) puede utilizar estos datos para crear un objeto **Recordset** desconectado.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-p104">In this scenario, ASP code writes the contents of the **Recordset** in ADTG format to the client. The [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) can use this data to create a disconnected **Recordset**.</span></span>
 
-<span data-ttu-id="c8161-p105">Una nueva propiedad en el objeto [DataControl](datacontrol-object-rds.md) de RDS, [URL](url-property-rds.md), señala la página .asp que genera el objeto **Recordset**. Esto significa que se puede obtener un objeto **Recordset** sin que RDS use el objeto [DataFactory](datafactory-object-rdsserver.md) del servidor o sin que el usuario escriba un objeto de negocio. De este modo, se simplifica considerablemente el modelo de programación de RDS.</span><span class="sxs-lookup"><span data-stu-id="c8161-p105">A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-property-rds.md), points to the .asp page that generates the **Recordset**. This means a **Recordset** object can be obtained without RDS using the server-side [DataFactory](datafactory-object-rdsserver.md) object or the user writing a business object. This simplifies the RDS programming model significantly.</span></span>
+<span data-ttu-id="b7bb6-p105">Una nueva propiedad en el objeto [DataControl](datacontrol-object-rds.md) de RDS, [URL](url-property-rds.md), señala la página .asp que genera el objeto **Recordset**. Esto significa que se puede obtener un objeto **Recordset** sin que RDS use el objeto [DataFactory](datafactory-object-rdsserver.md) del servidor o sin que el usuario escriba un objeto de negocio. De este modo, se simplifica considerablemente el modelo de programación de RDS.</span><span class="sxs-lookup"><span data-stu-id="b7bb6-p105">A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-property-rds.md), points to the .asp page that generates the **Recordset**. This means a **Recordset** object can be obtained without RDS using the server-side [DataFactory](datafactory-object-rdsserver.md) object or the user writing a business object. This simplifies the RDS programming model significantly.</span></span>
 
-<span data-ttu-id="c8161-123">Código de servidor, que se denomina https://server/directory/recordset.asp:</span><span class="sxs-lookup"><span data-stu-id="c8161-123">Server-side code, named https://server/directory/recordset.asp:</span></span>
+<span data-ttu-id="b7bb6-123">Código de servidor, que se denomina https://server/directory/recordset.asp:</span><span class="sxs-lookup"><span data-stu-id="b7bb6-123">Server-side code, named https://server/directory/recordset.asp:</span></span>
 
 ```vb 
  
@@ -123,7 +124,7 @@ rs.Save response, adPersistADTG
 %> 
 ```
 
-<span data-ttu-id="c8161-124">Código de cliente:</span><span class="sxs-lookup"><span data-stu-id="c8161-124">Client-side code:</span></span>
+<span data-ttu-id="b7bb6-124">Código de cliente:</span><span class="sxs-lookup"><span data-stu-id="b7bb6-124">Client-side code:</span></span>
 
 ```html 
  
@@ -154,7 +155,7 @@ rs.Save response, adPersistADTG
 </HTML> 
 ```
 
-<span data-ttu-id="c8161-125">Los programadores también pueden usar un objeto **Recordset** en el cliente:</span><span class="sxs-lookup"><span data-stu-id="c8161-125">Developers also have the option of using a **Recordset** object on the client:</span></span>
+<span data-ttu-id="b7bb6-125">Los programadores también pueden usar un objeto **Recordset** en el cliente:</span><span class="sxs-lookup"><span data-stu-id="b7bb6-125">Developers also have the option of using a **Recordset** object on the client:</span></span>
 
 ```vb
 ... 

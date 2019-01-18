@@ -10,65 +10,29 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 64f7dda8bec7806ef510d265deab350dc3cdad6b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026214"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709661"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a><span data-ttu-id="7c7e9-102">Propiedad Recordset.RecordsetType (DAO)</span><span class="sxs-lookup"><span data-stu-id="7c7e9-102">Recordset.RecordsetType property (DAO)</span></span>
+# <a name="recordsetrecordsettype-property-dao"></a><span data-ttu-id="12195-102">Propiedad Recordset.RecordsetType (DAO)</span><span class="sxs-lookup"><span data-stu-id="12195-102">Recordset.RecordsetType property (DAO)</span></span>
 
-<span data-ttu-id="7c7e9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c7e9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12195-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12195-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c7e9-p101">Puede utilizar la propiedad **RecordsetType** para especificar el tipo de conjunto de registros que se hace disponible para un formulario. **Byte** de Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-p101">You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.</span></span>
+<span data-ttu-id="12195-p101">Puede utilizar la propiedad **RecordsetType** para especificar el tipo de conjunto de registros que se hace disponible para un formulario. **Byte** de Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="12195-p101">You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7c7e9-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7c7e9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="12195-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="12195-106">Syntax</span></span>
 
-<span data-ttu-id="7c7e9-107">*expresión* . RecordsetType</span><span class="sxs-lookup"><span data-stu-id="7c7e9-107">*expression* .RecordsetType</span></span>
+<span data-ttu-id="12195-107">*expresión* . RecordsetType</span><span class="sxs-lookup"><span data-stu-id="12195-107">*expression* .RecordsetType</span></span>
 
-<span data-ttu-id="7c7e9-108">*expression* Variable que representa un objeto **Form**.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-108">*expression* A variable that represents a **Form** object.</span></span>
+<span data-ttu-id="12195-108">*expression* Variable que representa un objeto **Form**.</span><span class="sxs-lookup"><span data-stu-id="12195-108">*expression* A variable that represents a **Form** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7c7e9-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="7c7e9-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12195-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="12195-109">Remarks</span></span>
 
-<span data-ttu-id="7c7e9-110">La propiedad **RecordsetType** usa los siguientes valores en una base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-110">The **RecordsetType** property uses the following settings in a Microsoft Access database.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="7c7e9-111">Valor</span><span class="sxs-lookup"><span data-stu-id="7c7e9-111">Setting</span></span></p></th>
-<th><p><span data-ttu-id="7c7e9-112">Tipo de conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="7c7e9-112">Type of Recordset</span></span></p></th>
-<th><p><span data-ttu-id="7c7e9-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="7c7e9-113">Description</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="7c7e9-114">0</span><span class="sxs-lookup"><span data-stu-id="7c7e9-114">0</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-115">Dynaset</span><span class="sxs-lookup"><span data-stu-id="7c7e9-115">Dynaset</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-116">(Valor predeterminado) Puede modificar controles dependientes basados en una sola tabla o tablas con una relación uno a uno.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-116">(Default) You can edit bound controls based on a single table or tables with a one-to-one relationship.</span></span> <span data-ttu-id="7c7e9-117">Para controles dependientes de campos basados en tablas con una relación uno a varios, no se puede editar los datos del campo de combinación en la &quot;una&quot; lateral de la relación, a menos que está habilitada la actualización en cascada entre las tablas.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-117">For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="7c7e9-118">1</span><span class="sxs-lookup"><span data-stu-id="7c7e9-118">1</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-119">Dynaset (Actualizaciones no coherentes)</span><span class="sxs-lookup"><span data-stu-id="7c7e9-119">Dynaset (Inconsistent Updates)</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-120">Se pueden editar todas las tablas y los controles vinculados a sus campos.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-120">All tables and controls bound to their fields can be edited.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="7c7e9-121">2</span><span class="sxs-lookup"><span data-stu-id="7c7e9-121">2</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-122">Snapshot</span><span class="sxs-lookup"><span data-stu-id="7c7e9-122">Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-123">No se puede editar las tablas o sus controles dependientes.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-123">No tables or the controls bound to their fields can be edited.</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> <span data-ttu-id="7c7e9-124">[!NOTA] Si no desea que se puedan modificar los datos de controles dependientes cuando un formulario está en la vista Formulario o en la vista Hoja de datos, puede establecer la propiedad **RecordsetType** en 2.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-124">If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.</span></span>
-
-<span data-ttu-id="7c7e9-125">La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Microsoft Access (.ADP).</span><span class="sxs-lookup"><span data-stu-id="7c7e9-125">The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).</span></span>
+<span data-ttu-id="12195-110">La propiedad **RecordsetType** usa los siguientes valores en una base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="12195-110">The **RecordsetType** property uses the following settings in a Microsoft Access database.</span></span>
 
 <table>
 <colgroup>
@@ -78,35 +42,72 @@ ms.locfileid: "26026214"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7c7e9-126">Valor</span><span class="sxs-lookup"><span data-stu-id="7c7e9-126">Setting</span></span></p></th>
-<th><p><span data-ttu-id="7c7e9-127">Tipo de conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="7c7e9-127">Type of Recordset</span></span></p></th>
-<th><p><span data-ttu-id="7c7e9-128">Descripción</span><span class="sxs-lookup"><span data-stu-id="7c7e9-128">Description</span></span></p></th>
+<th><p><span data-ttu-id="12195-111">Valor</span><span class="sxs-lookup"><span data-stu-id="12195-111">Setting</span></span></p></th>
+<th><p><span data-ttu-id="12195-112">Tipo de conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="12195-112">Type of Recordset</span></span></p></th>
+<th><p><span data-ttu-id="12195-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="12195-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7c7e9-129">3</span><span class="sxs-lookup"><span data-stu-id="7c7e9-129">3</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-130">Snapshot</span><span class="sxs-lookup"><span data-stu-id="7c7e9-130">Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-131">No se puede editar las tablas o sus controles dependientes.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-131">No tables or the controls bound to their fields can be edited.</span></span></p></td>
+<td><p><span data-ttu-id="12195-114">0</span><span class="sxs-lookup"><span data-stu-id="12195-114">0</span></span></p></td>
+<td><p><span data-ttu-id="12195-115">Dynaset</span><span class="sxs-lookup"><span data-stu-id="12195-115">Dynaset</span></span></p></td>
+<td><p><span data-ttu-id="12195-116">(Valor predeterminado) Puede modificar controles dependientes basados en una sola tabla o tablas con una relación uno a uno.</span><span class="sxs-lookup"><span data-stu-id="12195-116">(Default) You can edit bound controls based on a single table or tables with a one-to-one relationship.</span></span> <span data-ttu-id="12195-117">Para controles dependientes de campos basados en tablas con una relación uno a varios, no se puede editar los datos del campo de combinación en la &quot;una&quot; lateral de la relación, a menos que está habilitada la actualización en cascada entre las tablas.</span><span class="sxs-lookup"><span data-stu-id="12195-117">For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7c7e9-132">4</span><span class="sxs-lookup"><span data-stu-id="7c7e9-132">4</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-133">Snapshot actualizable</span><span class="sxs-lookup"><span data-stu-id="7c7e9-133">Updatable Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="7c7e9-134">(Valor predeterminado) Se pueden modificar todas las tablas y los controles dependientes de sus campos.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-134">(Default) All tables and controls bound to their fields can be edited.</span></span></p></td>
+<td><p><span data-ttu-id="12195-118">1</span><span class="sxs-lookup"><span data-stu-id="12195-118">1</span></span></p></td>
+<td><p><span data-ttu-id="12195-119">Dynaset (Actualizaciones no coherentes)</span><span class="sxs-lookup"><span data-stu-id="12195-119">Dynaset (Inconsistent Updates)</span></span></p></td>
+<td><p><span data-ttu-id="12195-120">Se pueden editar todas las tablas y los controles vinculados a sus campos.</span><span class="sxs-lookup"><span data-stu-id="12195-120">All tables and controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="12195-121">2</span><span class="sxs-lookup"><span data-stu-id="12195-121">2</span></span></p></td>
+<td><p><span data-ttu-id="12195-122">Snapshot</span><span class="sxs-lookup"><span data-stu-id="12195-122">Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="12195-123">No se puede editar las tablas o sus controles dependientes.</span><span class="sxs-lookup"><span data-stu-id="12195-123">No tables or the controls bound to their fields can be edited.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="7c7e9-135">[!NOTA] Si se modifica la propiedad **RecordsetType** de un formulario o informe abierto, se vuelve a crear automáticamente el conjunto de registros.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-135">Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.</span></span>
+> <span data-ttu-id="12195-124">[!NOTA] Si no desea que se puedan modificar los datos de controles dependientes cuando un formulario está en la vista Formulario o en la vista Hoja de datos, puede establecer la propiedad **RecordsetType** en 2.</span><span class="sxs-lookup"><span data-stu-id="12195-124">If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.</span></span>
 
-<span data-ttu-id="7c7e9-p103">Puede crear formularios basados en varias tablas base con campos vinculados a los controles del formulario. Según el valor de la propiedad **RecordsetType**, podrá limitar qué control dependiente se puede editar.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-p103">You can create forms based on multiple underlying tables with fields bound to controls on the forms. Depending on the **RecordsetType** property setting, you can limit which of these bound controls can be edited.</span></span>
+<span data-ttu-id="12195-125">La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Microsoft Access (.ADP).</span><span class="sxs-lookup"><span data-stu-id="12195-125">The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).</span></span>
 
-<span data-ttu-id="7c7e9-138">Además de la edición del control proporcionada por la **propiedad RecordsetType**, cada control de un formulario tiene una propiedad **Locked** que puede establecer para especificar si se pueden editar el control y sus datos subyacentes.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-138">In addition to the editing control provided by **RecordsetType**, each control on a form has a **Locked** property that you can set to specify whether the control and its underlying data can be edited.</span></span> <span data-ttu-id="7c7e9-139">Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-139">If the **Locked** property is set to Yes, you can't edit the data.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="12195-126">Valor</span><span class="sxs-lookup"><span data-stu-id="12195-126">Setting</span></span></p></th>
+<th><p><span data-ttu-id="12195-127">Tipo de conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="12195-127">Type of Recordset</span></span></p></th>
+<th><p><span data-ttu-id="12195-128">Descripción</span><span class="sxs-lookup"><span data-stu-id="12195-128">Description</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="12195-129">3</span><span class="sxs-lookup"><span data-stu-id="12195-129">3</span></span></p></td>
+<td><p><span data-ttu-id="12195-130">Snapshot</span><span class="sxs-lookup"><span data-stu-id="12195-130">Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="12195-131">No se puede editar las tablas o sus controles dependientes.</span><span class="sxs-lookup"><span data-stu-id="12195-131">No tables or the controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="12195-132">4</span><span class="sxs-lookup"><span data-stu-id="12195-132">4</span></span></p></td>
+<td><p><span data-ttu-id="12195-133">Snapshot actualizable</span><span class="sxs-lookup"><span data-stu-id="12195-133">Updatable Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="12195-134">(Valor predeterminado) Se pueden modificar todas las tablas y los controles dependientes de sus campos.</span><span class="sxs-lookup"><span data-stu-id="12195-134">(Default) All tables and controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+</tbody>
+</table>
 
-## <a name="example"></a><span data-ttu-id="7c7e9-140">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7c7e9-140">Example</span></span>
+> [!NOTE]
+> <span data-ttu-id="12195-135">[!NOTA] Si se modifica la propiedad **RecordsetType** de un formulario o informe abierto, se vuelve a crear automáticamente el conjunto de registros.</span><span class="sxs-lookup"><span data-stu-id="12195-135">Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.</span></span>
 
-<span data-ttu-id="7c7e9-p105">En el siguiente ejemplo, se podrán editar los datos solo cuando la identificación del usuario sea Admin. Este ejemplo de código establece la propiedad **RecordsetType** a Snapshot si la variable pública  no es ADMIN.</span><span class="sxs-lookup"><span data-stu-id="7c7e9-p105">In the following example, only if the user ID is ADMIN can records be updated. This code sample sets the **RecordsetType** property to Snapshot if the public variable gstrUserID value is not ADMIN.</span></span>
+<span data-ttu-id="12195-p103">Puede crear formularios basados en varias tablas base con campos vinculados a los controles del formulario. Según el valor de la propiedad **RecordsetType**, podrá limitar qué control dependiente se puede editar.</span><span class="sxs-lookup"><span data-stu-id="12195-p103">You can create forms based on multiple underlying tables with fields bound to controls on the forms. Depending on the **RecordsetType** property setting, you can limit which of these bound controls can be edited.</span></span>
+
+<span data-ttu-id="12195-138">Además de la edición del control proporcionada por la **propiedad RecordsetType**, cada control de un formulario tiene una propiedad **Locked** que puede establecer para especificar si se pueden editar el control y sus datos subyacentes.</span><span class="sxs-lookup"><span data-stu-id="12195-138">In addition to the editing control provided by **RecordsetType**, each control on a form has a **Locked** property that you can set to specify whether the control and its underlying data can be edited.</span></span> <span data-ttu-id="12195-139">Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.</span><span class="sxs-lookup"><span data-stu-id="12195-139">If the **Locked** property is set to Yes, you can't edit the data.</span></span>
+
+## <a name="example"></a><span data-ttu-id="12195-140">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="12195-140">Example</span></span>
+
+<span data-ttu-id="12195-p105">En el siguiente ejemplo, se podrán editar los datos solo cuando la identificación del usuario sea Admin. Este ejemplo de código establece la propiedad **RecordsetType** a Snapshot si la variable pública  no es ADMIN.</span><span class="sxs-lookup"><span data-stu-id="12195-p105">In the following example, only if the user ID is ADMIN can records be updated. This code sample sets the **RecordsetType** property to Snapshot if the public variable gstrUserID value is not ADMIN.</span></span>
 
 ```vb
     Sub Form_Open(Cancel As Integer) 
@@ -117,8 +118,8 @@ ms.locfileid: "26026214"
     End Sub
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7c7e9-143">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7c7e9-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12195-143">Vea también</span><span class="sxs-lookup"><span data-stu-id="12195-143">See also</span></span>
 
-- [<span data-ttu-id="7c7e9-144">Objeto Form</span><span class="sxs-lookup"><span data-stu-id="7c7e9-144">Form Object</span></span>](https://docs.microsoft.com/office/vba/api/Access.Form)
+- [<span data-ttu-id="12195-144">Objeto Form</span><span class="sxs-lookup"><span data-stu-id="12195-144">Form Object</span></span>](https://docs.microsoft.com/office/vba/api/Access.Form)
 
 

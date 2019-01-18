@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249794(v=office.15)
 ms:contentKeyID: 48546964
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 0e673c7ae5a7e0c6e2ffa2120ed52a4b726a834d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 89eb3e9c972b19bc9908f29ce5ec5e42c8974d54
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881149"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712277"
 ---
-# <a name="stringformatenum"></a><span data-ttu-id="539f4-102">StringFormatEnum</span><span class="sxs-lookup"><span data-stu-id="539f4-102">StringFormatEnum</span></span>
+# <a name="stringformatenum"></a><span data-ttu-id="8e22b-102">StringFormatEnum</span><span class="sxs-lookup"><span data-stu-id="8e22b-102">StringFormatEnum</span></span>
 
-<span data-ttu-id="539f4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="539f4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e22b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e22b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="539f4-104">Especifica el formato que se aplica al recuperar un objeto [Recordset](recordset-object-ado.md) como cadena.</span><span class="sxs-lookup"><span data-stu-id="539f4-104">Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.</span></span>
+<span data-ttu-id="8e22b-104">Especifica el formato que se aplica al recuperar un objeto [Recordset](recordset-object-ado.md) como cadena.</span><span class="sxs-lookup"><span data-stu-id="8e22b-104">Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.</span></span>
 
 <br/>
 
@@ -29,24 +30,24 @@ ms.locfileid: "25881149"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="539f4-105">Constante</span><span class="sxs-lookup"><span data-stu-id="539f4-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="539f4-106">Valor</span><span class="sxs-lookup"><span data-stu-id="539f4-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="539f4-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="539f4-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="8e22b-105">Constante</span><span class="sxs-lookup"><span data-stu-id="8e22b-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8e22b-106">Valor</span><span class="sxs-lookup"><span data-stu-id="8e22b-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="8e22b-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="8e22b-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="539f4-108"><strong>adClipString</strong></span><span class="sxs-lookup"><span data-stu-id="539f4-108"><strong>adClipString</strong></span></span></p></td>
-<td><p><span data-ttu-id="539f4-109">2</span><span class="sxs-lookup"><span data-stu-id="539f4-109">2</span></span></p></td>
-<td><p><span data-ttu-id="539f4-p101">Delimita filas por <em>RowDelimiter</em>, columnas por <em>ColumnDelimiter</em> y valores nulos por <em>NullExpr</em>. Estos tres parámetros del método <a href="getstring-method-ado.md">GetString</a> sólo son válidos con un <em>StringFormat</em> de <strong>adClipString</strong>.</span><span class="sxs-lookup"><span data-stu-id="539f4-p101">Delimits rows by <em>RowDelimiter</em>, columns by <em>ColumnDelimiter</em>, and null values by <em>NullExpr</em>. These three parameters of the <a href="getstring-method-ado.md">GetString</a> method are valid only with a <em>StringFormat</em> of <strong>adClipString</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e22b-108"><strong>adClipString</strong></span><span class="sxs-lookup"><span data-stu-id="8e22b-108"><strong>adClipString</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e22b-109">2</span><span class="sxs-lookup"><span data-stu-id="8e22b-109">2</span></span></p></td>
+<td><p><span data-ttu-id="8e22b-p101">Delimita filas por <em>RowDelimiter</em>, columnas por <em>ColumnDelimiter</em> y valores nulos por <em>NullExpr</em>. Estos tres parámetros del método <a href="getstring-method-ado.md">GetString</a> sólo son válidos con un <em>StringFormat</em> de <strong>adClipString</strong>.</span><span class="sxs-lookup"><span data-stu-id="8e22b-p101">Delimits rows by <em>RowDelimiter</em>, columns by <em>ColumnDelimiter</em>, and null values by <em>NullExpr</em>. These three parameters of the <a href="getstring-method-ado.md">GetString</a> method are valid only with a <em>StringFormat</em> of <strong>adClipString</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="539f4-112">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="539f4-112">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="8e22b-112">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="8e22b-112">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="539f4-113">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="539f4-113">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="8e22b-113">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="8e22b-113">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -54,12 +55,12 @@ ms.locfileid: "25881149"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="539f4-114">Constante</span><span class="sxs-lookup"><span data-stu-id="539f4-114">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8e22b-114">Constante</span><span class="sxs-lookup"><span data-stu-id="8e22b-114">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="539f4-115">AdoEnums.StringFormat.CLIPSTRING</span><span class="sxs-lookup"><span data-stu-id="539f4-115">AdoEnums.StringFormat.CLIPSTRING</span></span></p></td>
+<td><p><span data-ttu-id="8e22b-115">AdoEnums.StringFormat.CLIPSTRING</span><span class="sxs-lookup"><span data-stu-id="8e22b-115">AdoEnums.StringFormat.CLIPSTRING</span></span></p></td>
 </tr>
 </tbody>
 </table>

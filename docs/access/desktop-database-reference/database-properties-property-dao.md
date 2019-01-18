@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196688(v=office.15)
 ms:contentKeyID: 48545979
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 116961c4de4bad3c53e42b083bb0ba1d432d4df2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f198df7ff667e90ccf3d795a7ffa172506cc0e5a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922506"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707594"
 ---
-# <a name="databaseproperties-property-dao"></a><span data-ttu-id="3c92f-102">Propiedad Database.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="3c92f-102">Database.Properties property (DAO)</span></span>
+# <a name="databaseproperties-property-dao"></a><span data-ttu-id="33dfe-102">Propiedad Database.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="33dfe-102">Database.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="3c92f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c92f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="33dfe-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33dfe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c92f-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3c92f-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="33dfe-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="33dfe-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3c92f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3c92f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="33dfe-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="33dfe-106">Syntax</span></span>
 
-<span data-ttu-id="3c92f-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="3c92f-107">*expression* .Properties</span></span>
+<span data-ttu-id="33dfe-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="33dfe-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="3c92f-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="3c92f-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="33dfe-108">*expresión* Variable que representa un objeto de **base de datos** .</span><span class="sxs-lookup"><span data-stu-id="33dfe-108">*expression* A variable that represents a **Database** object.</span></span>
 

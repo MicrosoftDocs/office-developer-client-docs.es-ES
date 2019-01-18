@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
 ms:contentKeyID: 48546565
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63b935fa178eb4c55ce11724ec3fd5f62d056779
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0049fb335c869a050a2c20d5740c487413c76786
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919853"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708630"
 ---
-# <a name="workspaceclose-method-dao"></a><span data-ttu-id="9e2c5-102">Workspace.Close (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e2c5-102">Workspace.Close method (DAO)</span></span>
+# <a name="workspaceclose-method-dao"></a><span data-ttu-id="1e7fd-102">Workspace.Close (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="1e7fd-102">Workspace.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="9e2c5-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e2c5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1e7fd-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e7fd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9e2c5-104">Cierra un objeto **Workspace** abierto.</span><span class="sxs-lookup"><span data-stu-id="9e2c5-104">Closes an open **Workspace**.</span></span>
+<span data-ttu-id="1e7fd-104">Cierra un objeto **Workspace** abierto.</span><span class="sxs-lookup"><span data-stu-id="1e7fd-104">Closes an open **Workspace**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9e2c5-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="9e2c5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1e7fd-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1e7fd-105">Syntax</span></span>
 
-<span data-ttu-id="9e2c5-106">*expresión* . Cerrar</span><span class="sxs-lookup"><span data-stu-id="9e2c5-106">*expression* .Close</span></span>
+<span data-ttu-id="1e7fd-106">*expresión* . Cerrar</span><span class="sxs-lookup"><span data-stu-id="1e7fd-106">*expression* .Close</span></span>
 
-<span data-ttu-id="9e2c5-107">*expresión* Variable que representa un objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="9e2c5-107">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="1e7fd-107">*expresión* Variable que representa un objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="1e7fd-107">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9e2c5-108">Observaciones</span><span class="sxs-lookup"><span data-stu-id="9e2c5-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1e7fd-108">Observaciones</span><span class="sxs-lookup"><span data-stu-id="1e7fd-108">Remarks</span></span>
 
-<span data-ttu-id="9e2c5-109">Si el objeto **Workspace** ya está cerrado cuando utiliza **Close**, se produce un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="9e2c5-109">If the **Workspace** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="1e7fd-109">Si el objeto **Workspace** ya está cerrado cuando utiliza **Close**, se produce un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="1e7fd-109">If the **Workspace** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="9e2c5-110">Una alternativa al método **Close** es establecer el valor de una variable de objeto en **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="9e2c5-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="1e7fd-110">Una alternativa al método **Close** es establecer el valor de una variable de objeto en **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="1e7fd-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 
