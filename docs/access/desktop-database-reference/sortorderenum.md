@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
 ms:contentKeyID: 48545327
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3b0c46bd7b10925feb11cd8db1bde25ab5d89b36
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3c953e1f6cd6f0a508260e838295f25aa1996844
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879147"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718087"
 ---
-# <a name="sortorderenum"></a><span data-ttu-id="69960-102">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="69960-102">SortOrderEnum</span></span>
+# <a name="sortorderenum"></a><span data-ttu-id="62fe0-102">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="62fe0-102">SortOrderEnum</span></span>
 
-<span data-ttu-id="69960-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69960-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="62fe0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62fe0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69960-104">Especifica la secuencia de ordenación para una columna indizada.</span><span class="sxs-lookup"><span data-stu-id="69960-104">Specifies the sort sequence for an indexed column.</span></span>
+<span data-ttu-id="62fe0-104">Especifica la secuencia de ordenación para una columna indizada.</span><span class="sxs-lookup"><span data-stu-id="62fe0-104">Specifies the sort sequence for an indexed column.</span></span>
 
 <br/>
 
@@ -29,23 +30,23 @@ ms.locfileid: "25879147"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="69960-105">Constante</span><span class="sxs-lookup"><span data-stu-id="69960-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="69960-106">Valor</span><span class="sxs-lookup"><span data-stu-id="69960-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="69960-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="69960-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="62fe0-105">Constante</span><span class="sxs-lookup"><span data-stu-id="62fe0-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="62fe0-106">Valor</span><span class="sxs-lookup"><span data-stu-id="62fe0-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="62fe0-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="62fe0-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="69960-108"><strong>adSortAscending</strong></span><span class="sxs-lookup"><span data-stu-id="69960-108"><strong>adSortAscending</strong></span></span></p></td>
-<td><p><span data-ttu-id="69960-109">1</span><span class="sxs-lookup"><span data-stu-id="69960-109">1</span></span></p></td>
-<td><p><span data-ttu-id="69960-p101">Valor predeterminado.
+<td><p><span data-ttu-id="62fe0-108"><strong>adSortAscending</strong></span><span class="sxs-lookup"><span data-stu-id="62fe0-108"><strong>adSortAscending</strong></span></span></p></td>
+<td><p><span data-ttu-id="62fe0-109">1</span><span class="sxs-lookup"><span data-stu-id="62fe0-109">1</span></span></p></td>
+<td><p><span data-ttu-id="62fe0-p101">Valor predeterminado.
 
-La secuencia de ordenación para la columna es ascendente.</span><span class="sxs-lookup"><span data-stu-id="69960-p101">Default. The sort sequence for the column is ascending.</span></span></p></td>
+La secuencia de ordenación para la columna es ascendente.</span><span class="sxs-lookup"><span data-stu-id="62fe0-p101">Default. The sort sequence for the column is ascending.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="69960-112"><strong>adSortDescending</strong></span><span class="sxs-lookup"><span data-stu-id="69960-112"><strong>adSortDescending</strong></span></span></p></td>
-<td><p><span data-ttu-id="69960-113">2</span><span class="sxs-lookup"><span data-stu-id="69960-113">2</span></span></p></td>
-<td><p><span data-ttu-id="69960-114">La secuencia de ordenación para la columna es descendente.</span><span class="sxs-lookup"><span data-stu-id="69960-114">The sort sequence for the column is descending.</span></span></p></td>
+<td><p><span data-ttu-id="62fe0-112"><strong>adSortDescending</strong></span><span class="sxs-lookup"><span data-stu-id="62fe0-112"><strong>adSortDescending</strong></span></span></p></td>
+<td><p><span data-ttu-id="62fe0-113">2</span><span class="sxs-lookup"><span data-stu-id="62fe0-113">2</span></span></p></td>
+<td><p><span data-ttu-id="62fe0-114">La secuencia de ordenación para la columna es descendente.</span><span class="sxs-lookup"><span data-stu-id="62fe0-114">The sort sequence for the column is descending.</span></span></p></td>
 </tr>
 </tbody>
 </table>

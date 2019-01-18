@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
 ms:contentKeyID: 48547182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26af6aecc64f1f716b49631b50e0c89ce400b0db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 37a716a60b902556c1e392fe9df5f1e104acffcd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879490"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711135"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="1156e-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="1156e-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="204e9-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="204e9-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
 
 
-<span data-ttu-id="1156e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1156e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="204e9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="204e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1156e-p101">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos. Tras iniciar el método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios. Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1156e-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="204e9-p101">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos. Tras iniciar el método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios. Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="204e9-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -276,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-<span data-ttu-id="1156e-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="1156e-107">**BeginTransX.h**</span></span>
+<span data-ttu-id="204e9-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="204e9-107">**BeginTransX.h**</span></span>
 
 ```cpp 
  

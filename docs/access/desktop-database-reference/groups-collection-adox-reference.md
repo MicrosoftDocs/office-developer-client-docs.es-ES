@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249693(v=office.15)
 ms:contentKeyID: 48546527
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 310e09c69e789c4ad8ed089a8cbfa0884eb0d9c9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2cec3fba5fc5badbaa4ec91dad7a4b443ac793ca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927148"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714657"
 ---
-# <a name="groups-collection-adox-reference"></a><span data-ttu-id="9c541-102">Referencia de grupos (colección) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9c541-102">Groups collection (ADOX) reference</span></span>
+# <a name="groups-collection-adox-reference"></a><span data-ttu-id="2d586-102">Referencia de grupos (colección) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2d586-102">Groups collection (ADOX) reference</span></span>
 
-<span data-ttu-id="9c541-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c541-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2d586-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d586-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9c541-104">Groups (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="9c541-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="9c541-105">Eventos, métodos y propiedades de colección Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9c541-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="2d586-104">Groups (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="2d586-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="2d586-105">Eventos, métodos y propiedades de colección Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2d586-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
 
