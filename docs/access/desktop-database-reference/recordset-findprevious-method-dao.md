@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6634067e1d26c32847f6ddf9b7ec518ff17539a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bbd678c460ed6c54a38e76faa2a2492cfd4e3384
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997465"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706439"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Recordset.FindPrevious (método) (DAO)
 
@@ -50,7 +51,7 @@ Busca el registro anterior de un objeto **[Recordset](recordset-object-dao.md)**
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
 </tr>
 </tbody>
@@ -73,7 +74,7 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método Find</p></th>
+<th><p>Find (método)</p></th>
 <th><p>Empieza la búsqueda en</p></th>
 <th><p>Dirección de búsqueda</p></th>
 </tr>

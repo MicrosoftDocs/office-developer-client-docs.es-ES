@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
 ms:contentKeyID: 48543345
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f532897ca20dda7b8ca82d831398e20cfa6b9da
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c8f212c5e1f10f4270987c9453802575d88cebfa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923157"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709484"
 ---
 # <a name="fieldtype-property-dao"></a>Propiedad Field.Type (DAO)
 
@@ -54,7 +55,7 @@ Para un objeto **Field**, los valores de configuración y los valores devueltos 
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Booleano</p></td>
+<td><p>Boolean</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -118,7 +119,7 @@ Para un objeto **Field**, los valores de configuración y los valores devueltos 
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Time</p></td>
+<td><p>Hora</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>

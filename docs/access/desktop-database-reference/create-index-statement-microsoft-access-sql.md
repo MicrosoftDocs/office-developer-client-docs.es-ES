@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b12fcf4d92bbe0949065557973efe94688a7a30
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937207"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710954"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrucción CREATE INDEX (Microsoft Access SQL)
 
@@ -45,11 +46,11 @@ La instrucción CREATE INDEX consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>índice</em></p></td>
+<td><p><em>index</em></p></td>
 <td><p>Nombre del índice que se va a crear.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre de la tabla existente que contendrá el índice.</p></td>
 </tr>
 <tr class="odd">

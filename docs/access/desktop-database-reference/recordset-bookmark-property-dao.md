@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b45d0bdf605f77084353da065c2cc8c674bd24e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1ebf963695b2d754a4501077e2236c52280a9a2e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922884"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714531"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Propiedad Recordset.Bookmark (DAO)
 
@@ -30,7 +31,7 @@ Establece o devuelve un marcador que identifica de forma exclusiva el registro a
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar la propiedad **Bookmark** con ese **conjunto de registros**. Sin embargo, puede que otros productos de base de datos no admitan marcadores. Por ejemplo, no se pueden usar marcadores en un objeto **Recordset** basado en una tabla vinculada de Paradox que no tenga una clave principal.
 

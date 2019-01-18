@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249439(v=office.15)
 ms:contentKeyID: 48545522
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36069ec0e8e9020bc70ef1ea72ce25f4461c6487
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf2a15937f6bcfd9ededcfad0cf15c29faf6e577
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946961"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712837"
 ---
 # <a name="recordset-dynamic-properties-in-xml"></a>Propiedades dinámicas de conjuntos de registros en XML
 
@@ -35,6 +36,6 @@ Las siguientes propiedades de **conjuntos de registros** específicas del provee
 
 Estas propiedades se guardan en la sección de esquema como atributos de la definición de elemento para el **conjunto de registros** que se hace persistente. Estos atributos se definen en el espacio de nombres de esquema del conjunto de filas y deben tener el prefijo "rs:".
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Propiedades dinámicas de ADO](ado-dynamic-properties.md)

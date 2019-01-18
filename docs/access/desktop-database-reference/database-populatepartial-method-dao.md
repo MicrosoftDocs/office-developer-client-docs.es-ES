@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e73724e8e27a622bbf96f4d9cc96bf4128dca42d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9e0f77c356e0a13c2a1a83986a92c2b25029ecb4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998138"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709925"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial (método) (DAO)
 
@@ -49,8 +50,8 @@ Sincroniza cualquier cambio en una réplica parcial con la réplica completa, de
 <tbody>
 <tr class="odd">
 <td><p><em>DbPathName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Ruta y nombre de la réplica completa a partir de la cual se llenan los registros.</p></td>
 </tr>
 </tbody>

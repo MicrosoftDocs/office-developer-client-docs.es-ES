@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998941"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708672"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword (método) (DAO)
 
@@ -49,16 +50,16 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 <tbody>
 <tr class="odd">
 <td><p><em>bstrOld</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Valor actual de la propiedad <strong>Password</strong> del objeto <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>bstrNew</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>La nueva configuración de la propiedad <strong>Password</strong> del objeto de <strong>base de datos</strong> .</p>
-<p><strong>Nota</strong>: utilice contraseñas seguras que combinen mayúsculas y minúsculas letras, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
+<p><strong>Nota</strong>: utilice contraseñas seguras que combinen mayúsculas y minúsculas letras, números y símbolos. Las contraseñas no seguras no mezclan estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 </tbody>

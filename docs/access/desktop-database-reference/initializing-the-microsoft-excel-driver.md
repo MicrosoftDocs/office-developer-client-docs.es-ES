@@ -10,12 +10,13 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 87f2b5667c1406caec3e750c1ee256606851fe96
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 12fb79f459024ed113007e6f764945ca9564cb3c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026340"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712935"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialización del controlador de Microsoft Excel
 
@@ -147,6 +148,6 @@ La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las sigui
 > [!NOTE]
 > Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Utilizando la configuración de TypeGuessRows para el controlador de Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)

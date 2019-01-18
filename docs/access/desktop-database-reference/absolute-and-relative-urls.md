@@ -1,19 +1,20 @@
 ---
-title: Direcciones URL absolutas y relativas
+title: Direcciones URL relativas y absolutas
 TOCTitle: Absolute and relative URLs
 ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a488617dc7ba0d7d1f7e38391f8382fa1e7ed247
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882738"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710331"
 ---
-# <a name="absolute-and-relative-urls"></a>Direcciones URL absolutas y relativas
+# <a name="absolute-and-relative-urls"></a>Direcciones URL relativas y absolutas
 
 **Se aplica a**: Access 2013, Office 2013    
 
@@ -28,7 +29,7 @@ donde:
 |*esquema*|Especifica cómo se puede tener acceso a los *recursos* .|
 |*servidor*|Especifica el nombre del equipo donde está ubicado el *recurso* .|
 |*ruta de acceso*|Especifica la secuencia de directorios que llevan al destino. Si se omite el *recurso*, el destino es el último directorio de la *ruta de acceso*.|
-|*recurso*|Si se incluye, *recurso* es el destino y normalmente es el nombre de un archivo. Puede ser un *archivo simple*, que contiene una secuencia binaria única de bytes, o un *documento estructurado*, que contiene uno o varios almacenamientos y secuencias binarias de bytes.|
+|*resource*|Si se incluye, *recurso* es el destino y normalmente es el nombre de un archivo. Puede ser un *archivo simple*, que contiene una secuencia binaria única de bytes, o un *documento estructurado*, que contiene uno o varios almacenamientos y secuencias binarias de bytes.|
 
 Una *dirección URL absoluta* contiene toda la información necesaria para localizar un recurso.
 

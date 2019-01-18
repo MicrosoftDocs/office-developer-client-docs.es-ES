@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 489e6060fdbaa4183c006e3f422c207d9a5013ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b2e334dcad84d2a9c3441e76e6552c1cb04f8552
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998857"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711794"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Recordset.FindFirst (método) (DAO)
 
@@ -46,7 +47,7 @@ Busca el primer registro de un objeto **Recordset** de tipo Dynaset o instantán
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
 </tr>
 </tbody>
@@ -69,7 +70,7 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método Find</p></th>
+<th><p>Find (método)</p></th>
 <th><p>Empieza la búsqueda en</p></th>
 <th><p>Dirección de búsqueda</p></th>
 </tr>
