@@ -10,25 +10,26 @@ f1_keywords:
 - dao360.chm1101183
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11f8d6bd01d1cbbf76dbbf45dbff4c50bf49fe59
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 3e3da5f7438ae83010c6ecc109dccf5d7a8eb9ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926475"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726137"
 ---
-# <a name="field2originalvalue-property-dao"></a><span data-ttu-id="2b594-102">Propiedad Field2.OriginalValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="2b594-102">Field2.OriginalValue property (DAO)</span></span>
+# <a name="field2originalvalue-property-dao"></a><span data-ttu-id="478fa-102">Propiedad Field2.OriginalValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="478fa-102">Field2.OriginalValue property (DAO)</span></span>
 
 
-<span data-ttu-id="2b594-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b594-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="478fa-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="478fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2b594-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2b594-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="478fa-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="478fa-104">Syntax</span></span>
 
-<span data-ttu-id="2b594-105">*expresión* . OriginalValue</span><span class="sxs-lookup"><span data-stu-id="2b594-105">*expression* .OriginalValue</span></span>
+<span data-ttu-id="478fa-105">*expresión* . OriginalValue</span><span class="sxs-lookup"><span data-stu-id="478fa-105">*expression* .OriginalValue</span></span>
 
-<span data-ttu-id="2b594-106">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="2b594-106">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="478fa-106">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="478fa-106">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2b594-107">Observaciones</span><span class="sxs-lookup"><span data-stu-id="2b594-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="478fa-107">Observaciones</span><span class="sxs-lookup"><span data-stu-id="478fa-107">Remarks</span></span>
 
-<span data-ttu-id="2b594-p101">Durante una actualización por lotes optimista, puede producirse un conflicto si el segundo cliente modifica el mismo campo y se registra en el intervalo de tiempo que transcurre desde que el primer cliente recupera los datos hasta que realiza un intento de actualización. La propiedad **OriginalValue** contiene el valor del campo al tiempo que comienza la última actualización por lotes **Update**. Si este valor no coincide con el valor real en la base de datos cuando la actualización por lotes **Update** intenta escribir en la base de datos, se produce un conflicto. Si esto ocurre, se tendrá acceso al nuevo valor en la base de datos a través de la propiedad **VisibleValue**.</span><span class="sxs-lookup"><span data-stu-id="2b594-p101">During an optimistic batch update, a collision may occur where a second client modifies the same field and record in between the time the first client retrieves the data and the first client's update attempt. The **OriginalValue** property contains the value of the field at the time the last batch **Update** began. If this value does not match the value actually in the database when the batch **Update** attempts to write to the database, a collision occurs. When this happens, the new value in the database will be accessible through the **VisibleValue** property.</span></span>
+<span data-ttu-id="478fa-p101">Durante una actualización por lotes optimista, puede producirse un conflicto si el segundo cliente modifica el mismo campo y se registra en el intervalo de tiempo que transcurre desde que el primer cliente recupera los datos hasta que realiza un intento de actualización. La propiedad **OriginalValue** contiene el valor del campo al tiempo que comienza la última actualización por lotes **Update**. Si este valor no coincide con el valor real en la base de datos cuando la actualización por lotes **Update** intenta escribir en la base de datos, se produce un conflicto. Si esto ocurre, se tendrá acceso al nuevo valor en la base de datos a través de la propiedad **VisibleValue**.</span><span class="sxs-lookup"><span data-stu-id="478fa-p101">During an optimistic batch update, a collision may occur where a second client modifies the same field and record in between the time the first client retrieves the data and the first client's update attempt. The **OriginalValue** property contains the value of the field at the time the last batch **Update** began. If this value does not match the value actually in the database when the batch **Update** attempts to write to the database, a collision occurs. When this happens, the new value in the database will be accessible through the **VisibleValue** property.</span></span>
 

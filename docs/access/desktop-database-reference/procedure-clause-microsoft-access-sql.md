@@ -12,47 +12,48 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dd99fb241572f2e16eae914ba7d1dea31e1d097f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 72f31c71e710cca79695a7221f0e033d18d2f420
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924263"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726319"
 ---
-# <a name="procedure-clause-microsoft-access-sql"></a><span data-ttu-id="67f89-102">Cláusula PROCEDURE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="67f89-102">PROCEDURE clause (Microsoft Access SQL)</span></span>
+# <a name="procedure-clause-microsoft-access-sql"></a><span data-ttu-id="43b8e-102">Cláusula PROCEDURE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="43b8e-102">PROCEDURE clause (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="67f89-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67f89-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="43b8e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="43b8e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="67f89-104">Define un nombre y parámetros opcionales para una consulta.</span><span class="sxs-lookup"><span data-stu-id="67f89-104">Defines a name and optional parameters for a query.</span></span>
+<span data-ttu-id="43b8e-104">Define un nombre y parámetros opcionales para una consulta.</span><span class="sxs-lookup"><span data-stu-id="43b8e-104">Defines a name and optional parameters for a query.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="67f89-p101">[!NOTA] La cláusula PROCEDURE ha sido sustituida por la instrucción PROCEDURE. Aunque la cláusula PROCEDURE todavía se admite, la instrucción PROCEDURE proporciona un superconjunto de la capacidad de la cláusula PROCEDURE y es la sintaxis recomendada.</span><span class="sxs-lookup"><span data-stu-id="67f89-p101">The PROCEDURE clause has been superseded by the PROCEDURE statement. Although the PROCEDURE clause is still supported, the PROCEDURE statement provides a superset of the capability of the PROCEDURE clause and is the recommended syntax.</span></span>
+> <span data-ttu-id="43b8e-p101">[!NOTA] La cláusula PROCEDURE ha sido sustituida por la instrucción PROCEDURE. Aunque la cláusula PROCEDURE todavía se admite, la instrucción PROCEDURE proporciona un superconjunto de la capacidad de la cláusula PROCEDURE y es la sintaxis recomendada.</span><span class="sxs-lookup"><span data-stu-id="43b8e-p101">The PROCEDURE clause has been superseded by the PROCEDURE statement. Although the PROCEDURE clause is still supported, the PROCEDURE statement provides a superset of the capability of the PROCEDURE clause and is the recommended syntax.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="67f89-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="67f89-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="43b8e-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="43b8e-107">Syntax</span></span>
 
-<span data-ttu-id="67f89-108">*Nombre* del procedimiento \[ *parámetro1 tipoDeDatos*\[, *parámetro2 tipoDeDatos*\[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="67f89-108">PROCEDURE *name* \[*param1 datatype*\[, *param2 datatype*\[, …\]\]</span></span>
+<span data-ttu-id="43b8e-108">*Nombre* del procedimiento \[ *parámetro1 tipoDeDatos*\[, *parámetro2 tipoDeDatos*\[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="43b8e-108">PROCEDURE *name* \[*param1 datatype*\[, *param2 datatype*\[, …\]\]</span></span>
 
-<span data-ttu-id="67f89-109">La cláusula PROCEDURE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="67f89-109">The PROCEDURE clause has these parts:</span></span>
+<span data-ttu-id="43b8e-109">La cláusula PROCEDURE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="43b8e-109">The PROCEDURE clause has these parts:</span></span>
 
-|<span data-ttu-id="67f89-110">Elemento</span><span class="sxs-lookup"><span data-stu-id="67f89-110">Part</span></span> |<span data-ttu-id="67f89-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="67f89-111">Description</span></span> |
+|<span data-ttu-id="43b8e-110">Elemento</span><span class="sxs-lookup"><span data-stu-id="43b8e-110">Part</span></span> |<span data-ttu-id="43b8e-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="43b8e-111">Description</span></span> |
 |:----|:-----------|
-|<span data-ttu-id="67f89-112">*name*</span><span class="sxs-lookup"><span data-stu-id="67f89-112">*name*</span></span> |<span data-ttu-id="67f89-p102">Nombre del procedimiento. Debe seguir las convenciones de nomenclatura estándar.</span><span class="sxs-lookup"><span data-stu-id="67f89-p102">A name for the procedure. It must follow standard naming conventions.</span></span>|
-|<span data-ttu-id="67f89-115">*parámetro1*, *parámetro2*</span><span class="sxs-lookup"><span data-stu-id="67f89-115">*param1*, *param2*</span></span> |<span data-ttu-id="67f89-p103">Uno o varios nombres de campo o parámetros. Por ejemplo:
-</span><span class="sxs-lookup"><span data-stu-id="67f89-p103">One or more field names or parameters. For example:</span></span><br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/><span data-ttu-id="67f89-118">Para obtener más información acerca de los parámetros, vea [parámetros](parameters-declaration-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="67f89-118">For more information about parameters, see [parameters](parameters-declaration-microsoft-access-sql.md).</span></span>|
-|<span data-ttu-id="67f89-119">*tipoDeDatos*</span><span class="sxs-lookup"><span data-stu-id="67f89-119">*datatype*</span></span> | <span data-ttu-id="67f89-120">Uno de los principales [tipos de datos de Microsoft Access SQL](sql-data-types.md) o sus sinónimos.</span><span class="sxs-lookup"><span data-stu-id="67f89-120">One of the primary [Microsoft Access SQL data types](sql-data-types.md) or their synonyms.</span></span> |
+|<span data-ttu-id="43b8e-112">*name*</span><span class="sxs-lookup"><span data-stu-id="43b8e-112">*name*</span></span> |<span data-ttu-id="43b8e-p102">Nombre del procedimiento. Debe seguir las convenciones de nomenclatura estándar.</span><span class="sxs-lookup"><span data-stu-id="43b8e-p102">A name for the procedure. It must follow standard naming conventions.</span></span>|
+|<span data-ttu-id="43b8e-115">*parámetro1*, *parámetro2*</span><span class="sxs-lookup"><span data-stu-id="43b8e-115">*param1*, *param2*</span></span> |<span data-ttu-id="43b8e-p103">Uno o varios nombres de campo o parámetros. Por ejemplo:
+</span><span class="sxs-lookup"><span data-stu-id="43b8e-p103">One or more field names or parameters. For example:</span></span><br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/><span data-ttu-id="43b8e-118">Para obtener más información acerca de los parámetros, vea [parámetros](parameters-declaration-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="43b8e-118">For more information about parameters, see [parameters](parameters-declaration-microsoft-access-sql.md).</span></span>|
+|<span data-ttu-id="43b8e-119">*tipoDeDatos*</span><span class="sxs-lookup"><span data-stu-id="43b8e-119">*datatype*</span></span> | <span data-ttu-id="43b8e-120">Uno de los principales [tipos de datos de Microsoft Access SQL](sql-data-types.md) o sus sinónimos.</span><span class="sxs-lookup"><span data-stu-id="43b8e-120">One of the primary [Microsoft Access SQL data types](sql-data-types.md) or their synonyms.</span></span> |
 
 
-## <a name="remarks"></a><span data-ttu-id="67f89-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="67f89-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43b8e-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="43b8e-121">Remarks</span></span>
 
-<span data-ttu-id="67f89-122">Un procedimiento SQL consta de una cláusula PROCEDURE (que especifica el nombre del procedimiento), una lista opcional de definiciones de parámetros y una única instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="67f89-122">An SQL procedure consists of a PROCEDURE clause (which specifies the name of the procedure), an optional list of parameter definitions, and a single SQL statement.</span></span> <span data-ttu-id="67f89-123">Por ejemplo, el procedimiento Get\_parte\_número podría ejecutar una consulta que recupera un número de pieza especificado.</span><span class="sxs-lookup"><span data-stu-id="67f89-123">For example, the procedure Get\_Part\_Number might run a query that retrieves a specified part number.</span></span>
+<span data-ttu-id="43b8e-122">Un procedimiento SQL consta de una cláusula PROCEDURE (que especifica el nombre del procedimiento), una lista opcional de definiciones de parámetros y una única instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="43b8e-122">An SQL procedure consists of a PROCEDURE clause (which specifies the name of the procedure), an optional list of parameter definitions, and a single SQL statement.</span></span> <span data-ttu-id="43b8e-123">Por ejemplo, el procedimiento Get\_parte\_número podría ejecutar una consulta que recupera un número de pieza especificado.</span><span class="sxs-lookup"><span data-stu-id="43b8e-123">For example, the procedure Get\_Part\_Number might run a query that retrieves a specified part number.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="67f89-124">Si la cláusula incluye más de una definición de campo (es decir, pares *parámetro-tipoDeDatos* ), sepárelas con comas.</span><span class="sxs-lookup"><span data-stu-id="67f89-124">If the clause includes more than one field definition (that is, *param-datatype* pairs), separate them with commas.</span></span>
-> - <span data-ttu-id="67f89-125">La cláusula PROCEDURE debe ir seguida de una instrucción SQL (por ejemplo, una instrucción [SELECT](select-statement-microsoft-access-sql.md) o [UPDATE](update-statement-microsoft-access-sql.md)).</span><span class="sxs-lookup"><span data-stu-id="67f89-125">The PROCEDURE clause must be followed by an SQL statement (for example, a [SELECT](select-statement-microsoft-access-sql.md) or [UPDATE](update-statement-microsoft-access-sql.md) statement).</span></span>
+> - <span data-ttu-id="43b8e-124">Si la cláusula incluye más de una definición de campo (es decir, pares *parámetro-tipoDeDatos* ), sepárelas con comas.</span><span class="sxs-lookup"><span data-stu-id="43b8e-124">If the clause includes more than one field definition (that is, *param-datatype* pairs), separate them with commas.</span></span>
+> - <span data-ttu-id="43b8e-125">La cláusula PROCEDURE debe ir seguida de una instrucción SQL (por ejemplo, una instrucción [SELECT](select-statement-microsoft-access-sql.md) o [UPDATE](update-statement-microsoft-access-sql.md)).</span><span class="sxs-lookup"><span data-stu-id="43b8e-125">The PROCEDURE clause must be followed by an SQL statement (for example, a [SELECT](select-statement-microsoft-access-sql.md) or [UPDATE](update-statement-microsoft-access-sql.md) statement).</span></span>
 
-## <a name="example"></a><span data-ttu-id="67f89-126">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="67f89-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="43b8e-126">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="43b8e-126">Example</span></span>
 
-<span data-ttu-id="67f89-127">En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="67f89-127">This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="43b8e-127">En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="43b8e-127">This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub ProcedureX() 
