@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
 ms:contentKeyID: 48547573
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 215ec344c402f69c7acb5d6235ec2dbf5677ebdf
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e8d7cbf0620d896044edd41f783180148bceae66
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945505"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710996"
 ---
 # <a name="record-properties-methods-and-events-ado"></a>Registrar propiedades, métodos y eventos (ADO)
 
@@ -21,7 +22,7 @@ ms.locfileid: "25945505"
 
 - [ActiveConnection (propiedad)](activeconnection-property-ado.md)
 - [Fields (colección)](fields-collection-ado.md)
-- [Propiedad Mode](mode-property-ado.md)
+- [Mode (propiedad)](mode-property-ado.md)
 - [ParentURL (propiedad)](parenturl-property-ado.md)
 - [Properties (colección)](properties-collection-ado.md)
 - [RecordType (propiedad)](recordtype-property-ado.md)

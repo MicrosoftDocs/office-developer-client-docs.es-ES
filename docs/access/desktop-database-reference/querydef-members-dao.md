@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b3afc134636d5621f38ece4530be5312e42bc74
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026263"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716148"
 ---
 # <a name="querydef-members-dao"></a>Miembros del objeto QueryDef (DAO)
 
@@ -86,7 +87,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p>Devuelve la fecha y la hora en que se creó un objeto (únicamente áreas de trabajo de Microsoft). <strong>Variant</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="querydef-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong><a href="fields-collection-dao.md">Fields</a></strong> que representa todos los objetos <strong><a href="field-object-dao.md">Field</a></strong> almacenados para el objeto especificado. Es de solo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -115,7 +116,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <p>Establece o devuelve un valor que indica si la consulta debería prepararse en el servidor como un procedimiento almacenado temporal con la función API de ODBC <strong>SQLPrepare</strong> Aantes de la ejecución, o bien ejecutarse con la función API de ODBC <strong>SQLExecDirect</strong> (solo en áreas de trabajo de ODBCDirect). <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p><strong><a href="querydef-properties-property-dao.md">Propiedades</a></strong></p></td>
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
@@ -136,7 +137,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Read-only<strong>entero</strong>.</p></td>
 </tr>
 <tr class="odd">

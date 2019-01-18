@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f059e5dfe064442f10972fd36344e64f84fe7ea5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937004"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715196"
 ---
 # <a name="chapter-2-getting-data"></a>Capítulo 2: Obtener datos
 
@@ -35,7 +36,7 @@ El modelo de objetos de ADO representa el concepto de una conexión con el objet
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Realizar una conexión](making-a-connection.md)
+- [Crear una conexión](making-a-connection.md)
 - [Uso de la referencia del objeto connection (ADO)](using-the-connection-object-access.md)
 - [Uso de la referencia al objeto command (ADO)](using-the-command-object-access.md)
 - [Agregar datos a un objeto Recordset (ADO)](adding-data-to-a-recordset.md)

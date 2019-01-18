@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7d536ed47c780b7f9f1675a9879e86aeff80b67f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997458"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710667"
 ---
 # <a name="echo-macro-action"></a>Eco (acción de macro)
 
@@ -91,17 +92,17 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <td><p>Cerrar el formulario Lista de productos</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Productos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConfigurarValor</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Elemento</strong>: [Forms]![Products]![SupplierID] <strong>Expresión</strong>: IdProveedor</p></td>
 <td><p>Configurar el control Id. de proveedor para el proveedor actual del formulario Proveedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: IdCategoría</p></td>
 <td><p>Ir al control Id. de categoría.</p></td>
 </tr>
@@ -143,7 +144,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>IrAControl</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: NombreDeEmpresa</p></td>
 <td><p>Mover el foco al control NombreDeEmpresa.</p></td>
 </tr>
@@ -155,7 +156,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre de DatasheetFilter</strong>: <strong>condición Where</strong>: [ID de proveedor] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>

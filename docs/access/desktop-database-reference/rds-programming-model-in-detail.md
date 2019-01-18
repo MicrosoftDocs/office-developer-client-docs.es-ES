@@ -1,19 +1,20 @@
 ---
-title: Modelo de programación de RDS con detalle
+title: Modelo de programación de RDS detallado
 TOCTitle: RDS programming model in detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea0f47e8ad86ecac4dd2423c289e3891cd7c6719
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4a2312be682ee63368397109377690b6dde3e627
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998528"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715630"
 ---
-# <a name="rds-programming-model-in-detail"></a>Modelo de programación de RDS con detalle
+# <a name="rds-programming-model-in-detail"></a>Modelo de programación de RDS detallado
 
 **Se aplica a**: Access 2013, Office 2013
 

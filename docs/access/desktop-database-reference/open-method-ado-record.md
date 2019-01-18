@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32d719235953f83d0fc28a45b04f50e64c268480
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db8953cafc5ad266c81c51e59cbf92787d07cdfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950072"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713481"
 ---
 # <a name="open-method-ado-record"></a>Open (método, Record de ADO)
 
@@ -35,7 +36,7 @@ Abrir *origen*, *ActiveConnection*, *modo*, *CreateOptions*, *Opciones*, *nombre
 |*UserName* |Es opcional. Valor de tipo **String** con el identificador de usuario que, en caso de que sea necesario, autoriza el acceso a *Source*.|
 |*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 *Source* puede ser:
 

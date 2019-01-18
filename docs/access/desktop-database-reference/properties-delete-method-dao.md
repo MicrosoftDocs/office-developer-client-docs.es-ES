@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2dd614e5be87b11a595bbfc4c8ae71aaf24041bb
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8bc822abe52b8bc9e71a275f0fd9e5006099317a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996779"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716547"
 ---
 # <a name="propertiesdelete-method-dao"></a>Properties.Delete (método) (DAO)
 
@@ -46,7 +47,7 @@ Elimina el objeto **Property** especificado de la colección **Properties**.
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Nombre de la propiedad que se debe eliminar.</p></td>
 </tr>
 </tbody>

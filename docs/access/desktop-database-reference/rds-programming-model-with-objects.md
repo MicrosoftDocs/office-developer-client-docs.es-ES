@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248987(v=office.15)
 ms:contentKeyID: 48543663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 079106e1c1a6651f68d10c5b93675c9b28b473e5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9743fb1e7329457abb60ed8ed41bc39067f3551d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945526"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710968"
 ---
 # <a name="rds-programming-model-with-objects"></a>Modelo de programación de RDS con objetos
 

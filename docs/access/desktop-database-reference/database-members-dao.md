@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa627d7c44700041209b9884374e57f7e3fa6c28
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937102"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713054"
 ---
 # <a name="database-members-dao"></a>Miembros de la base de datos (DAO)
 
@@ -126,7 +127,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-querydefs-property-dao.md">Definiciones de consulta</a></strong></p></td>
+<td><p><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
 <td><p>Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la base de datos especificada. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -150,7 +151,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve un valor de 16 bytes que identifica de forma exclusiva una réplica de base de datos (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-tabledefs-property-dao.md">Definiciones de tabla</a></strong></p></td>
+<td><p><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></p></td>
 <td><p>Devuelve una colección <strong>TableDefs</strong> que contiene todos los objetos <strong>TableDef</strong> almacenados en la base de datos especificada. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -162,7 +163,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-version-property-dao.md">Versión</a></strong></p></td>
+<td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>
 <td><p>En un área de trabajo de Microsoft Access, devuelve la versión del motor de base de datos de Microsoft Jet o Microsoft Access que creó la base de datos. <strong>String</strong> de solo lectura.</p></td>
 </tr>
 </tbody>
