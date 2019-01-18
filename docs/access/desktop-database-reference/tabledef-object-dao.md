@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927371"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726347"
 ---
 # <a name="tabledef-object-dao"></a>Objeto TableDef (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Un objeto **TableDef** representa la definición almacenada de una tabla base o una tabla vinculada (solo áreas de trabajo de Microsoft Access).
+Un objeto **TableDef** representa la definición almacenada de una tabla base o una tabla vinculada (solo áreas de trabajo de Microsoft Access).
 
 ## <a name="remarks"></a>Comentarios
 
@@ -29,9 +30,9 @@ La definición de una tabla se manipula con un objeto **TableDef** y sus método
 
 - Usar las propiedades **ValidationRule** y **ValidationText** para establecer o devolver las condiciones de validación.
 
-- Utilice el método **OpenRecordset** para crear una tabla –, Dynaset, dinámico, instantánea u objeto **Recordset** de tipo forward – only, según la definición de tabla.
+- Usar el método **OpenRecordset** para crear un objeto **Recordset** de tipo tabla, conjunto de registros dinámicos, dinámico, instantánea o de solo avance, de acuerdo con la definición de la tabla.
 
-En las tablas base, la propiedad **RecordCount** contiene el número de registros de la tabla de base de datos especificada. Para las tablas vinculadas, el valor de la propiedad **RecordCount** siempre es – 1.
+En las tablas base, la propiedad **RecordCount** contiene el número de registros de la tabla de base de datos especificada. Para las tablas vinculadas, la configuración de la propiedad **RecordCount** es siempre -1.
 
 Para crear un nuevo objeto **TableDef**, utilice el método **[CreateTableDef](database-createtabledef-method-dao.md)**.
 
@@ -63,17 +64,17 @@ Las tablas vinculadas se conectan a la base de datos con las propiedades **Sourc
 
 1.  Utilice el método **CreateTableDef** para crear un objeto **TableDef**.
 
-2.  Establezca sus propiedades **Connect** y **SourceTableName** (y, si quiere, también la propiedad **Attributes** ).
+2.  Establezca sus propiedades **Connect** y **SourceTableName** (y, si quiere, también la propiedad **Attributes**).
 
 3.  Use el método **Append** para agregarlo a la colección **TableDefs** de un objeto **Database**.
 
-Para hacer referencia a un objeto **TableDef** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
+Para hacer referencia a un objeto **TableDef** de una colección por su número ordinal o el valor de su propiedad **Name**, utilice cualquiera de las siguientes formas de sintaxis:
 
-**Definiciones de tabla** (0)
+**TableDefs**(0)
 
-**Definiciones de tabla** ("nombre")
+**TableDefs**("name")
 
-**Definiciones de tabla**\!\[nombre\]
+**TableDefs**\!\[name\]
 
 ## <a name="example"></a>Ejemplo
 
@@ -130,7 +131,7 @@ En este ejemplo, se crea un nuevo objeto **TableDef** y se anexa a la colección
 
 <br/>
 
-En este ejemplo, se crea un nuevo objeto **TableDef** en la base de datos Northwind.
+En este ejemplo se crea un nuevo objeto **TableDef** en la base de datos Northwind.
 
 ```vb 
 Sub CreateTableDefX() 
@@ -195,7 +196,7 @@ Sub CreateTableDefX()
 
 En el siguiente ejemplo, se muestra cómo crear un campo calculado. El método CreateField crea un campo llamado **FullName**. Después, la propiedad Expression se configura con la expresión que calcula el valor del campo.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()
