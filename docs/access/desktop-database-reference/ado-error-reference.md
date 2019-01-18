@@ -1,19 +1,20 @@
 ---
-title: Referencia de error ADO
+title: Referencia de errores en ADO
 TOCTitle: ADO error reference
 ms:assetid: 21cec161-664a-4c18-4458-8117f4f63845
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 372219a542f911452f2189e41fc6c29c2f86ff1d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6a7f756af1422588d99fcffe1ae1413422131b70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945113"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717240"
 ---
-# <a name="ado-error-reference"></a>Referencia de error ADO
+# <a name="ado-error-reference"></a>Referencia de errores en ADO
 
 **Se aplica a**: Access 2013, Office 2013
 

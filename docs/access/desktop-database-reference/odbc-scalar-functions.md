@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e841da9d401558311682f0abcbefde9161b71b3
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 33443fda474b3785d34d457719e49f5e358bb254
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025997"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718038"
 ---
 # <a name="odbc-scalar-functions"></a>Funciones escalares ODBC
 
@@ -105,7 +106,7 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 </table>
 
 
-## <a name="time--date-functions"></a>Funciones de fecha y hora
+## <a name="time--date-functions"></a>Funciones de fecha & de tiempo
 
 <table>
 <colgroup>

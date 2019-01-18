@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d176b08e35888afbbde8c5d485887c00e413d74d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947178"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717646"
 ---
 # <a name="provider-errors"></a>Errores de proveedor
 
@@ -70,7 +71,7 @@ Examinando un objeto **Error**, se puede determinar qué error se produjo y, lo 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de propiedad</p></th>
+<th><p>Nombre de la propiedad</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

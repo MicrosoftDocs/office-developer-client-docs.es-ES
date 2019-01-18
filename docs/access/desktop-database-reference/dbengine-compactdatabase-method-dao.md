@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998724"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714062"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase (método) (DAO)
 
@@ -52,14 +53,14 @@ Copia y compacta una base de datos cerrada y ofrece la opción de cambiar su ver
 <tbody>
 <tr class="odd">
 <td><p><em>SrcName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Identifica una base de datos existente, cerrado. Puede ser una ruta de acceso completa y el nombre de archivo, como &quot;C:\db1.mdb&quot;. Si el nombre de archivo tiene una extensión, debe especificar. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>el nombre de archivo (y la ruta) de la base de datos compactada que está creando. También puede especificar una ruta de acceso de red. No puede usar este argumento para especificar el mismo archivo de base de datos que SrcName.</p></td>
 </tr>
 <tr class="odd">

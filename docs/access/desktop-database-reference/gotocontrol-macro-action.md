@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c056f2b0922402ea7cde7cf767969b73f912f572
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026249"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715203"
 ---
 # <a name="gotocontrol-macro-action"></a>IrAControl (acción de macro)
 
@@ -19,7 +20,7 @@ ms.locfileid: "26026249"
 
 Puede utilizar la acción **GoToControl (IrAControl)** para desplazar el enfoque para el campo o control especificado en el registro actual del formulario abierto, hoja de datos de formulario, hoja de datos de tabla o consulta de la hoja de datos. Puede usar esta acción si desea que un campo o control concreto tenga el foco. A continuación, en este campo o control puede utilizarse para realizar comparaciones o acciones **FindRecord** . También puede usar esta acción para desplazarse por un formulario según ciertas condiciones. Por ejemplo, si el usuario escribe No en un control Casado en un formulario de seguros de salud, el foco puede omitir automáticamente el control Nombre de cónyuge y pasar al siguiente control.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 > [!NOTE]
 > Esta acción no está disponible para su uso con páginas de acceso a datos.

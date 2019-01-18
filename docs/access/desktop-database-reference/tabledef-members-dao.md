@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9fe82c2d3edd5127ef6e2944f10d496a558d1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920525"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721083"
 ---
 # <a name="tabledef-members-dao"></a>Miembros del objeto TableDef (DAO)
 
@@ -73,7 +74,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong></p></td>
+<td><p><strong><a href="tabledef-attributes-property-dao.md">Atributos</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica una o más características de un objeto <strong>TableDef</strong>. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -89,7 +90,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 <td><p>Devuelve la fecha y la hora en que se creó un objeto (únicamente áreas de trabajo de Microsoft). <strong>Variant</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="tabledef-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">

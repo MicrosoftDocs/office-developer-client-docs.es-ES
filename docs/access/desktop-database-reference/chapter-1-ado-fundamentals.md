@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250096(v=office.15)
 ms:contentKeyID: 48548054
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5177da1cb271a93e058d0d03972dad277fccc91
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c0206545f14fdcc80312baa03137e933c545a789
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937438"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716967"
 ---
 # <a name="chapter-1-ado-fundamentals"></a>Capítulo 1: Conceptos básicos de ADO
 
@@ -21,7 +22,7 @@ Este capítulo es una introducción a la biblioteca ADO. Describe qué se puede 
 
 En este capítulo, se tratan los temas siguientes:
 
-- [¿Qué se puede hacer con ADO](what-you-can-do-with-ado.md)
-- [Errors](errors.md)
+- [Qué se puede hacer con ADO](what-you-can-do-with-ado.md)
+- [Errores](errors.md)
 - [HelloData: Una aplicación de ADO Simple (ADO)](hellodata-a-simple-ado-application.md)
 - [Proveedores de OLE DB (ADO)](ole-db-providers.md)

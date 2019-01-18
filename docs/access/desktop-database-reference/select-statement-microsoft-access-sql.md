@@ -8,12 +8,13 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860586"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718787"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>Instrucción SELECT (Microsoft Access SQL)
 
@@ -71,7 +72,7 @@ La instrucción SELECT consta de los siguientes elementos:
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para realizar esta operación, el motor de base de datos de Microsoft Jet busca en la tabla o tablas especificadas, extrae las columnas elegidas, selecciona las filas que cumplen con el criterio y ordena o agrupa las filas resultantes en el orden especificado.
 
@@ -113,7 +114,7 @@ AS HeadCount FROM Employees;
 
 Puede usar las demás cláusulas de una instrucción SELECT para restringir y organizar los datos devueltos. Para obtener más información, vea el tema de Ayuda acerca de la cláusula que utilice.
 
-**Vínculos proporcionan por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki sobre Microsoft Access.
+**Vínculos proporcionados por** la comunidad de [UtterAccess](https://www.utteraccess.com). UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
 - [Formateador de SQL a VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 

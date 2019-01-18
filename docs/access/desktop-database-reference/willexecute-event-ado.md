@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ea43f565199f346287abf8fd134dec494d37cf5
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7fe15604d0160afcbde5fdf02eaa6a7831da874b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949974"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718570"
 ---
 # <a name="willexecute-event-ado"></a>WillExecute (evento, ADO)
 
@@ -27,7 +28,7 @@ WillExecute*origen*, *CursorType*, *LockType*, *Opciones*, *adStatus*, *pCommand
 
 |Parámetro|Descripción|
 |:--------|:----------|
-|*Origen* |**String** que contiene un comando SQL o un nombre de procedimiento almacenado.|
+|*Source* |**String** que contiene un comando SQL o un nombre de procedimiento almacenado.|
 |*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, puede cambiar el cursor a cualquier tipo durante una operación de [apertura](open-method-ado-recordset.md) del **objeto Recordset** . *CursorType* se omitirá para cualquier otra operación.|
 |*LockType* |Valor de tipo [LockTypeEnum](locktypeenum.md) que contiene el tipo de bloqueo para el objeto **Recordset** que se abrirá. Con este parámetro, es posible cambiar el bloqueo a cualquier tipo durante una operación del método **Open** de un objeto **Recordset**. *LockType* se omitirá para cualquier otra operación.|
 |*Options* |Valor de tipo **Long** que indica las opciones que se pueden usar para ejecutar el comando o abrir el objeto **Recordset**.|

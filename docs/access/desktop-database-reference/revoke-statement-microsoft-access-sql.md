@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c3a7a64eee4617c07c1a655e34223f0531e16b18
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890900"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698453"
 ---
 # <a name="revoke-statement-microsoft-access-sql"></a>REVOCAR declaración (Microsoft Access SQL)
 
@@ -48,7 +49,7 @@ La instrucción REVOKE consta de los siguientes elementos:
 <td><p>Privilegio o privilegios que se va a revocar. Los privilegios se especifican mediante las siguientes palabras clave: seleccionar, eliminar, insertar, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, esquema y UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Cualquier nombre de tabla válido.</p></td>
 </tr>
 <tr class="odd">

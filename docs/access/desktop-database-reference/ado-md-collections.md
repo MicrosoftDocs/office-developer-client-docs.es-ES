@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
 ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c596cdd57a825efc7f856e37af4f9bd721d233e9
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ac915684afa74b091fb1288dfde6d984cee8244
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910960"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718584"
 ---
 # <a name="ado-md-collections"></a>Colecciones de ADO MD
 
@@ -30,7 +31,7 @@ ms.locfileid: "25910960"
 <th>Descripción</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axes-collection-ado-md.md">Ejes</a></p></td>
+<td><p><a href="axes-collection-ado-md.md">Axes</a></p></td>
 <td><p>Contiene los objetos <strong>Axis</strong> que definen un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
@@ -38,11 +39,11 @@ ms.locfileid: "25910960"
 <td><p>Contiene los objetos <strong>CubeDef</strong> que representan un cubo de un catálogo multidimensional.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="dimension-object-ado-md.md">Dimensiones</a></p></td>
+<td><p><a href="dimension-object-ado-md.md">Dimensions</a></p></td>
 <td><p>Contiene los objetos <strong>Dimension</strong> que componen un cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="hierarchy-object-ado-md.md">Jerarquías</a></p></td>
+<td><p><a href="hierarchy-object-ado-md.md">Hierarchies</a></p></td>
 <td><p>Contiene los objetos <strong>Hierarchy</strong> establecidos de una dimensión.</p></td>
 </tr>
 <tr class="odd">

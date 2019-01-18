@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c3f8ee64f7eff6b02ddf4a004eaec7364436e0d1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b8374832ad6cd6bac30fa9d129e54fb6ab4c8fd4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998423"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718850"
 ---
 # <a name="relationsappend-method-dao"></a>Relations.Append (método) (DAO)
 
@@ -50,7 +51,7 @@ Agrega un nuevo objeto **Relation** a la colección **Relations**.
 <tr class="odd">
 <td><p><em>Object</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>Object</strong></p></td>
+<td><p><strong>Objeto</strong></p></td>
 <td><p>Variable de objeto que representa el campo que se va a anexar a la colección.</p></td>
 </tr>
 </tbody>

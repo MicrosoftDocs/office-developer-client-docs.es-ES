@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026382"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716183"
 ---
 # <a name="ado-methods"></a>Métodos de ADO
 
@@ -225,7 +226,7 @@ ms.locfileid: "26026382"
 <td><p>Determina si el objeto <strong>Recordset</strong> especificado admite un determinado tipo de funcionalidad.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
 <td><p>Guarda los cambios realizados en la fila actual de un objeto <strong>Recordset</strong> o la colección <strong>Fields</strong> de un objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

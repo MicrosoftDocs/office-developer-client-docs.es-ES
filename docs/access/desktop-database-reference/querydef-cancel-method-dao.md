@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab28f1b976144c40eb8be639bb7c7a1adc3e4450
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 56a4ba804dba25eb0b4722bcf5396229ee003f43
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920231"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720558"
 ---
 # <a name="querydefcancel-method-dao"></a>QueryDef.Cancel (método) (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25920231"
 
 *expresión* Variable que representa un objeto **QueryDef** .
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Utilice el método **Cancel** para finalizar la ejecución de una llamada al método **Execute** u **OpenConnection** asincrónica (es decir, el método se abrió con la opción dbRunAsync). **Cancel** devolverá un error en tiempo de ejecución si no se utilizó dbRunAsync en el método que está intentando terminar.
 

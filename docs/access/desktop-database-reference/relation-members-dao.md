@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722728"
 ---
 # <a name="relation-members-dao"></a>Miembros del objeto Relation (DAO)
 
@@ -57,11 +58,11 @@ Un objeto Relation representa una relación entre campos de tablas o consultas (
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relation-attributes-property-dao.md">Attributes</a></strong></p></td>
+<td><p><strong><a href="relation-attributes-property-dao.md">Atributos</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica una o varias características del objeto <strong>Relation</strong>. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="relation-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945386"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721636"
 ---
 # <a name="clearmacroerror-macro-action"></a>BorrarErrorDeMacro (acción de macro)
 
@@ -66,7 +67,7 @@ En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Si
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: CategoryForm<strong>vista</strong>: <strong>Modo FormWindow</strong>: <strong>Normal</strong></p></td>
 </tr>
 <tr class="odd">

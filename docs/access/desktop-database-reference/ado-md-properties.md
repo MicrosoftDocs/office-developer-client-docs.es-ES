@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910932"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716225"
 ---
 # <a name="ado-md-properties"></a>Propiedades de ADO MD
 
@@ -90,7 +91,7 @@ ms.locfileid: "25910932"
 <td><p>Indica el nombre del nivel de un elemento.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Name</a></p></td>
+<td><p><a href="name-property-ado-md.md">Nombre</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -126,7 +127,7 @@ ms.locfileid: "25910932"
 <td><p>Indica un nombre inequívoco para el objeto activo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Valor</a></p></td>
+<td><p><a href="value-property-ado-md.md">Value</a></p></td>
 <td><p>Indica el valor de la celda activa.</p></td>
 </tr>
 </tbody>

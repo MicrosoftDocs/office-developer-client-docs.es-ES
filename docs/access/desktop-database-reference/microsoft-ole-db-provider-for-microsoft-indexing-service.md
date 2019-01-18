@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac8225430d35d18df224dcfe42e59181a76407cf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871538"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716612"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft
 
@@ -141,7 +142,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -177,7 +178,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Estado</a></p></td>
 <td><p>solo lectura</p></td>
 </tr>
 </tbody>
@@ -225,7 +226,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -233,7 +234,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Mover</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">

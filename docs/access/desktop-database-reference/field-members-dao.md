@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a0e448662384572163fca074e554a5e30be30a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937123"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703604"
 ---
 # <a name="field-members-dao"></a>Miembros del campo (DAO)
 
@@ -69,7 +70,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <td><p>Establece o devuelve un valor que indica si una cadena de longitud cero (&quot;&quot;) es un valor válido para la propiedad <strong><a href="field-value-property-dao.md">Value</a></strong> del objeto <strong><a href="field-object-dao.md">Field</a></strong> con un tipo de datos texto o Memo (sólo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-attributes-property-dao.md">Attributes</a></strong></p></td>
+<td><p><strong><a href="field-attributes-property-dao.md">Atributos</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica una o varias características de un objeto <strong><a href="field-object-dao.md">Field</a></strong>. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
@@ -111,7 +112,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">Obligatorio</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Necesario</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="field-object-dao.md">Field</a></strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="odd">
@@ -127,7 +128,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <td><p>Devuelve un valor que indica el nombre de la tabla que es la fuente original de los datos para un objeto <strong>Field</strong>. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-type-property-dao.md">Tipo de</a></strong></p></td>
+<td><p><strong><a href="field-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
@@ -143,7 +144,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <td><p>Establece o devuelve un valor que especifica el texto del mensaje que la aplicación muestra si el valor de un objeto <strong>Field</strong> no cumple la regla de validación especificada por el valor de la propiedad <strong>ValidationRule</strong> (únicamente áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-value-property-dao.md">Valor</a></strong></p></td>
+<td><p><strong><a href="field-value-property-dao.md">Value</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">

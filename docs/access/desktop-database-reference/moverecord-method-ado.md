@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 022db96a00253793505df6e89603070a6d429a8d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c9937f0ab32c5dba0e4435fdc0ba7e111f5651dc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998871"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698368"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord (método, ADO)
 

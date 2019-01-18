@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821409(v=office.15)
 ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f08da4f5a5b8dd0bd2604598cf72ab15d994c529
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f31067c96c19804352ca74957e064f9338b49260
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880946"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718297"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>Instrucción DROP (Microsoft Access SQL)
 
@@ -41,7 +42,7 @@ La instrucción DROP consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre de la tabla que se va a eliminar o en la que se va a eliminar un índice.</p></td>
 </tr>
 <tr class="even">
@@ -53,7 +54,7 @@ La instrucción DROP consta de los siguientes elementos:
 <td><p>Nombre de la vista que se va a eliminar.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>índice</em></p></td>
+<td><p><em>index</em></p></td>
 <td><p>Nombre del índice que se va a eliminar en la <em>tabla.</em></p></td>
 </tr>
 </tbody>

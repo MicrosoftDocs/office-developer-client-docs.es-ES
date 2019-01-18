@@ -1,19 +1,20 @@
 ---
-title: Asegurar suficiente espacio de TempDB
+title: Comprobación de que hay espacio suficiente en TempDB
 TOCTitle: Ensuring sufficient TempDB space
 ms:assetid: 2729c118-ec8b-1fcb-4a90-56b57823b24c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09671570865d25738b7d4ba9358754c62da6f24e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6414c9dd4c3218c2c2bf90f39d0cfb950e6e1018
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946352"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715770"
 ---
-# <a name="ensuring-sufficient-tempdb-space"></a>Asegurar suficiente espacio de TempDB
+# <a name="ensuring-sufficient-tempdb-space"></a>Comprobación de que hay espacio suficiente en TempDB
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d72ba6d895fc5aac2612eb3f81ecc95ac032d49
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946751"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713964"
 ---
-# <a name="persisting-data"></a>Conservar datos
+# <a name="persisting-data"></a>Persistencia de datos
 
 
 **Se aplica a**: Access 2013, Office 2013
@@ -105,8 +106,8 @@ En el ejemplo siguiente, se utilizan los métodos **Save** y **Open** para conse
 
 Esta sección incluye los temas siguientes:
 
-- [Más información sobre la persistencia del conjunto de registros](more-about-recordset-persistence.md)
+- [Más información acerca de la persistencia de Recordset](more-about-recordset-persistence.md)
 
-- [Persistencia de los conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
+- [Almacenar conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
 - [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)
