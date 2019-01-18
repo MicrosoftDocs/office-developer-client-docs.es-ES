@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
 ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 874ac5f6e5b26a5d7e3aa4b34d85e8ee548040b6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe60c12a85eff0dd8f796f9affeef71979dac580
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922933"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699145"
 ---
 # <a name="property-members-dao"></a>Miembros de la propiedad (DAO)
 
@@ -47,11 +48,11 @@ Un objeto Property representa una característica integrada o definida por el us
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-type-property-dao.md">Tipo de</a></strong></p></td>
+<td><p><strong><a href="property-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="property-value-property-dao.md">Valor</a></strong></p></td>
+<td><p><strong><a href="property-value-property-dao.md">Value</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 </tbody>

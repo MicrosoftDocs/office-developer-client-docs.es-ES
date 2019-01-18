@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ffeb9594dda7a041758659fd1a88ee6adfa02403
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8200d8ec7b10f33fe8bc1ef9faea122d3ff65409
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997605"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720992"
 ---
 # <a name="fieldsdelete-method-dao"></a>Método Fields.Delete (DAO)
 
@@ -50,7 +51,7 @@ Elimina un objeto **[Field](field-object-dao.md)** de la colección **[Fields](f
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Campo que se va a eliminar.</p></td>
 </tr>
 </tbody>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868787"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713782"
 ---
 # <a name="using-visual-c-extensions"></a>Utilizar Extensiones de Visual C++
 
@@ -137,12 +138,12 @@ _**End entradas de enlace**_
 <td><p>Tamaño máximo, en bytes, de <em>Buffer</em>. Si <em>Buffer</em> va a contener una cadena de longitud variable, deje espacio para un cero final.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Status</em></p></td>
+<td><p><em>Estado</em></p></td>
 <td><p>Nombre de una variable que va a indicar si el contenido de <em>Buffer</em> es válido y si la conversión del campo en <em>DataType</em> se ha realizado correctamente.
  Los dos valores más importantes de esta variable son <strong>adFldOK</strong> y <strong>adFldNull</strong>, es decir, la conversión se ha realizado correctamente y el valor del campo es VARIANT de tipo VT_NULL y no está vacío, respectivamente. Los posibles valores de <em>estado</em> se enumeran en la tabla siguiente, &quot;valores de estado.&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Modificar</em></p></td>
+<td><p><em>Modify</em></p></td>
 <td><p>Marca de operador booleano. Si su valor es TRUE, indica que ADO puede actualizar el correspondiente campo de <strong>Recordset</strong> con el valor de <em>Buffer</em>.
  Establezca el valor del parámetro booleano <em>Modify</em> en TRUE para que ADO pueda actualizar el campo enlazado. Establézcalo en FALSE si desea examinar el campo sin cambiarlo.</p></td>
 </tr>

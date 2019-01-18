@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab0a04fd7282c983bd200a16108babf5e40d240c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c36187eef0b55681b2ba426d979f42ee8a6efea8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026312"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716785"
 ---
 # <a name="recordset-members-dao"></a>Miembros del conjunto de registros (DAO)
 
@@ -129,7 +130,7 @@ Un objeto Recordset representa los registros de una tabla base o los registros q
 <td><p>Busca el registro en un objeto <strong>Recordset</strong> de tipo tabla indizada que satisface los criterios especificados para el índice activo y hace de este registro el registro activo (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-update-method-dao.md">Update</a></strong></p></td>
+<td><p><strong><a href="recordset-update-method-dao.md">Actualizar</a></strong></p></td>
 <td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Guarda el contenido del búfer de copia en un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable.</p></td>
 </tr>
@@ -207,7 +208,7 @@ Un objeto Recordset representa los registros de una tabla base o los registros q
 <td><p>Devuelve un valor que indica si la posición actual del registro se encuentra después del último registro en un objeto <strong>Recordset</strong>. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="recordset-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -243,7 +244,7 @@ Un objeto Recordset representa los registros de una tabla base o los registros q
 <td><p>Establece o devuelve un valor que indica la ubicación aproximada del registro actual en el objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> a partir de un porcentaje de los registros en <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p><strong><a href="recordset-properties-property-dao.md">Propiedades</a></strong></p></td>
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
@@ -273,7 +274,7 @@ Un objeto Recordset representa los registros de una tabla base o los registros q
 <td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Type</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
 <td><p>La descripción de este miembro aparecerá en la versión final de Office 14.</p></td>
 </tr>
 <tr class="odd">

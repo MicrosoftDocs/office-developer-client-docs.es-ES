@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fea6f59479578cfd701b1adeece609c6595583a1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947801"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702239"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Propiedades Recordset, métodos y eventos (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25947801"
 - [AbsolutePosition (propiedad)](absoluteposition-property-ado.md)
 - [ActiveCommand (propiedad)](activecommand-property-ado.md)
 - [ActiveConnection (propiedad)](activeconnection-property-ado.md)
-- [Propiedades BOF y EOF](bof-eof-properties-ado.md)
+- [BOF y EOF (propiedades)](bof-eof-properties-ado.md)
 - [Bookmark (propiedad)](bookmark-property-ado.md)
 - [CacheSize (propiedad)](cachesize-property-ado.md)
 - [CursorLocation (propiedad)](cursorlocation-property-ado.md)
@@ -56,20 +57,20 @@ ms.locfileid: "25947801"
 - [CancelUpdate (método)](cancelupdate-method-ado.md)
 - [Clone (método)](clone-method-ado.md)
 - [Close (método)](close-method-ado.md)
-- [Ejemplo del método CompareBookmarks](comparebookmarks-method-ado.md)
+- [CompareBookmarks (método)](comparebookmarks-method-ado.md)
 - [Delete (método, Recordset de ADO)](delete-method-ado-recordset.md)
 - [Método Find](find-method-ado.md)
 - [GetRows (método)](getrows-method-ado.md)
-- [Ejemplo del método GetString](getstring-method-ado.md)
+- [GetString (método)](getstring-method-ado.md)
 - [Move (método)](move-method-ado.md)
-- [Métodos MoveFirst, MoveLast, MoveNext y MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [MoveFirst, MoveLast, MoveNext y MovePrevious (métodos)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [NextRecordset (método)](nextrecordset-method-ado.md)
 - [Open (método, Recordset de ADO)](open-method-ado-recordset.md)
 - [Requery (método)](requery-method-ado.md)
 - [Resync (método)](resync-method-ado.md)
-- [Método Save](save-method-ado.md)
+- [Save (método)](save-method-ado.md)
 - [Seek (método)](seek-method-ado.md)
-- [Método Supports](supports-method-ado.md)
+- [Supports (método)](supports-method-ado.md)
 - [Update (método)](update-method-ado.md)
 - [Método UpdateBatch](updatebatch-method-ado.md)
 
@@ -78,10 +79,10 @@ ms.locfileid: "25947801"
 
 - [EndOfRecordset (evento)](endofrecordset-event-ado.md)
 - [FetchComplete (evento)](fetchcomplete-event-ado.md)
-- [Evento FetchProgress](fetchprogress-event-ado.md)
-- [Eventos WillChangeField y FieldChangeComplete](willchangefield-and-fieldchangecomplete-events-ado.md)
-- [Eventos WillChangeRecord y RecordChangeComplete](willchangerecord-and-recordchangecomplete-events-ado.md)
-- [Eventos WillChangeRecordset y RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md)
-- [Eventos WillMove y MoveComplete](willmove-and-movecomplete-events-ado.md)
+- [FetchProgress (evento)](fetchprogress-event-ado.md)
+- [WillChangeField y FieldChangeComplete (eventos)](willchangefield-and-fieldchangecomplete-events-ado.md)
+- [WillChangeRecord y RecordChangeComplete (eventos)](willchangerecord-and-recordchangecomplete-events-ado.md)
+- [WillChangeRecordset y RecordsetChangeComplete (eventos)](willchangerecordset-and-recordsetchangecomplete-events-ado.md)
+- [WillMove y MoveComplete (eventos)](willmove-and-movecomplete-events-ado.md)
 
 

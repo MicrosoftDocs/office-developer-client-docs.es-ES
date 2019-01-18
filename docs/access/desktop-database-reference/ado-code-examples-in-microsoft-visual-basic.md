@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 184100c09c2b5e34f98bf29711bf9f176fa034a8
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8237e9f846bb012c593bf4d94c83bac835daf28d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910918"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702407"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Ejemplos de código de ADO en Microsoft Visual Basic
 
@@ -87,6 +88,6 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 - [Ejemplo de la propiedad StayInSync](stayinsync-property-example-vb.md)
 - [Ejemplo de la propiedad Type (campo)](type-property-example-field-vb.md)
 - [Ejemplo de la propiedad tipo (propiedad)](type-property-example-property-vb.md)
-- [Ejemplo de la propiedad de valor](value-property-example-vb.md)
+- [Ejemplo de la propiedad Value](value-property-example-vb.md)
 - [Ejemplo de la propiedad de versión](version-property-example-vb.md)
 

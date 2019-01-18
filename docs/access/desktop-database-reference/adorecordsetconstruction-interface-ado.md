@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ab9723d3acc698aa36210e26e370c0edfa67728
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924236"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701282"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>Interfaz ADORecordsetConstruction (ADO)
 
@@ -57,7 +58,7 @@ Ninguno.
 
 Ninguno.
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Dado un objeto **Rowset** de OLE DB (pRowset), la construcción de un objeto **Recordset** de ADO (), la construcción de un importe de (adoRs) del objeto **Recordset** de ADO a las tres siguientes operaciones básicas:
 

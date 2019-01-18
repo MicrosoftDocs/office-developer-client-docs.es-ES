@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c1b127995a2f9a0af7da80e9df862259b570870e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998815"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721650"
 ---
 # <a name="moveandsizewindow-macro-action"></a>MoverYCambiarTamañoDeVentana (acción de macro)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998815"
 
 Si ha establecido el documento de opciones de la ventana para usar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa. Para obtener información acerca de cómo configurar las opciones de la ventana de documento, vea la sección Comentarios.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **Moverycambiartamañodeventana** tiene los siguientes argumentos.
 
@@ -132,7 +133,7 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>AbrirFormulario</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre de DatasheetFilter</strong>: <strong>condición Where</strong>: [ID de proveedor] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>

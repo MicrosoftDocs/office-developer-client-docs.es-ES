@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ce152e790fb2d57ed607f88feb155fe99bd5850
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878496"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715625"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>ELIMINAR instrucción (Microsoft Access SQL)
 
@@ -42,11 +43,11 @@ La instrucción DELETE consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre opcional de la tabla en la que se eliminarán los registros.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre de la tabla en la que se eliminarán los registros.</p></td>
 </tr>
 <tr class="odd">

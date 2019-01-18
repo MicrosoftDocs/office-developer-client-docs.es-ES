@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
 ms:contentKeyID: 48545901
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e3219d9691fa61fd1ae234cecd273ec9720ed9e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923871"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700895"
 ---
 # <a name="databasecollatingorder-property-dao"></a>Propiedad Database.CollatingOrder (DAO)
 
@@ -96,7 +97,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
-<td><p>Neutral</p></td>
+<td><p>Neutro</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortNorwDan</strong></p></td>

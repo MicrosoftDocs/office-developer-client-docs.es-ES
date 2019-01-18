@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4ea531de8c5b99c9ff85eacddcc79a596caebd5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922044"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721062"
 ---
 # <a name="showallrecords-macro-action"></a>MostrarTodosRegistros (acción de macro)
 
@@ -21,11 +22,11 @@ ms.locfileid: "25922044"
 
 Puede utilizar la acción **MostrarTodosRegistros** para quitar cualquier filtro aplicado de la tabla activa, conjunto de resultados de consulta o formulario y mostrar todos los registros en la tabla o conjunto de resultados o todos los registros en el formulario de la tabla o consulta base.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **MostrarTodosRegistros** no tiene ningún argumento.
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede usar esta acción para asegurarse de que se muestran todos los registros (incluidos los registros nuevos o modificados) de una tabla, un conjunto de resultados de consulta o un formulario. Esta acción realiza una nueva consulta de los registros de un formulario o subformulario.
 

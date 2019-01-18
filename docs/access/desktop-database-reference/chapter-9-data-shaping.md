@@ -1,19 +1,20 @@
 ---
-title: 'Capítulo 9: Forma de datos'
+title: 'Capítulo 9: Crear formas de datos'
 TOCTitle: 'Chapter 9: Data shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53a74a53b8c741921ad51ae79ca18e95cda2923d
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43ad9d5e989bc1c6f4a54fb4882cfe3c3e357fd1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936556"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721557"
 ---
-# <a name="chapter-9-data-shaping"></a>Capítulo 9: Forma de datos
+# <a name="chapter-9-data-shaping"></a>Capítulo 9: Crear formas de datos
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -25,11 +26,11 @@ La sintaxis de la forma de datos también proporciona otras funciones. Los progr
 
 Vea los temas siguientes para obtener más información sobre la forma de datos:
 
-- [Proveedores necesarios para la forma de datos](required-providers-for-data-shaping.md)
-- [Cláusula Compute de Shape](shape-compute-clause.md)
-- [Crear conjuntos de registros jerárquicos](fabricating-hierarchical-recordsets.md)
-- [Acceso a las filas de un Recordset jerárquico](accessing-rows-in-a-hierarchical-recordset.md)
-- [Gramática formal de forma](formal-shape-grammar.md)
+- [Proveedores necesarios para la creación de formas de datos](required-providers-for-data-shaping.md)
+- [Cláusula de forma Compute](shape-compute-clause.md)
+- [Fabricación de conjuntos de registros jerárquicos](fabricating-hierarchical-recordsets.md)
+- [Acceso a las filas en conjuntos de registros jerárquicos](accessing-rows-in-a-hierarchical-recordset.md)
+- [Gramática de las formas formales](formal-shape-grammar.md)
 - [Funciones de Visual Basic para Aplicaciones](visual-basic-for-applications-functions.md)
 - [Cláusula Append de forma (ADO)](shape-append-clause.md)
 - [Forma (ADO) de datos](data-shaping.md)

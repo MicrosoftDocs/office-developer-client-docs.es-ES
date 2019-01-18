@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb29fd070a693b608cede1d21329b3749c18e852
-ms.sourcegitcommit: 007141520d6479860f452371532f9267f33eb260
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aca77ac08688e643327bdbf229ab6c1dec40d109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999504"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704808"
 ---
 # <a name="chapter-12-remote-data-service-rds-tutorial"></a>Capítulo 12: Tutorial de servicio de datos remotos (RDS)
 
@@ -60,7 +61,7 @@ Sub RDSTutorial1()
 ... 
 ``` 
 
-## <a name="step-2-invoke-the-server-program"></a>Paso 2: Llamar al programa de servidor 
+## <a name="step-2-invoke-the-server-program"></a>Paso 2: Invocar el programa de servidor 
 
 Cuando se llama a un método en el *proxy* cliente, el programa real en el servidor ejecuta el método. En este paso, se ejecutará una consulta en el servidor.
 
@@ -117,7 +118,7 @@ Sub RDSTutorial2B()
 ... 
 ```
 
-## <a name="step-3-server-obtains-a-recordset"></a>Paso 3: El servidor obtiene un objeto Recordset 
+## <a name="step-3-server-obtains-a-recordset"></a>Paso 3: El servidor obtiene un conjunto de registros 
 
 El programa servidor usa el texto del comando y la cadena de conexión para solicitar al origen de datos las filas deseadas. Normalmente, se utiliza ADO para recuperar este objeto **Recordset**, aunque también se podrían usar otras interfaces de acceso a datos de Microsoft, tales como OLE DB.
 
@@ -134,7 +135,7 @@ Dim rs as New ADODB.Recordset
 End Function 
 ```
 
-## <a name="step-4-server-returns-the-recordset"></a>Paso 4: El servidor devuelve el objeto Recordset 
+## <a name="step-4-server-returns-the-recordset"></a>Paso 4: El servidor devuelve un conjunto de registros 
 
 RDS convierte el objeto **Recordset** recuperado en un formulario que se puede devolver al cliente (es decir, *reorganiza* el objeto **Recordset**). La forma exacta de la conversión y de cómo se envía depende de si el servidor está en Internet o en una intranet, en una red de área local, o de si se trata de una biblioteca de vínculos dinámicos (dll). No obstante, este detalle no es crítico: lo que importa es que RDS devuelva el objeto **Recordset** al cliente.
 
@@ -151,7 +152,7 @@ Sub RDSTutorial4()
 ... 
 ```
 
-## <a name="step-5-datacontrol-is-made-usable"></a>Paso 5: DataControl se facilita 
+## <a name="step-5-datacontrol-is-made-usable"></a>Paso 5: Se habilita el uso de DataControl 
 
 El objeto **Recordset** devuelto está disponible para su uso. Puede examinarlo, navegar por él o editarlo como lo haría con cualquier otro objeto **Recordset**. Las operaciones que se pueden realizar con **Recordset** dependen del entorno disponible. Visual Basic y Visual C++ poseen controles visuales que pueden usar un objeto **Recordset** directa o indirectamente con la ayuda de un control de datos.
 
@@ -301,7 +302,7 @@ Sub RDSTutorial2A()
 
 Vaya al paso siguiente.
 
-### <a name="step-4-server-returns-the-recordset"></a>Paso 4: El servidor devuelve el objeto Recordset
+### <a name="step-4-server-returns-the-recordset"></a>Paso 4: El servidor devuelve un conjunto de registros
 
 ```vb
  

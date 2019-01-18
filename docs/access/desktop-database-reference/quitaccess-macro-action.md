@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 793e6c2e57f50b5086780d8632952c45f3d4442d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 424b2b2cab9bc4272052a201350a0cc2ab297b8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997989"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698312"
 ---
 # <a name="quitaccess-macro-action"></a>SalirDeAccess (acción de macro)
 
@@ -43,7 +44,7 @@ La acción **SalirDeAccess** tiene el siguiente argumento.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Options</strong></p></td>
+<td><p><strong>Opciones</strong></p></td>
 <td><p>Especifica lo que ocurre con los objetos no guardados cuando se sale de Access. Haga clic en <strong>Preguntar</strong> (para que se muestren cuadros de diálogo en los que se pregunta si se desea guardar cada objeto), <strong>Guardar todo</strong> (para guardar todos los objetos sin que se muestren los cuadros de diálogo) o <strong>Salir</strong> (para abandonar sin guardar ningún objeto) en el cuadro <strong>Opciones</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. El valor predeterminado es <strong>Guardar todo</strong>.</p></td>
 </tr>
 </tbody>

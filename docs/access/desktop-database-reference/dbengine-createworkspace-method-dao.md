@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7e56fa340ceedd33fbd7f628af0acffee5c32438
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9cd84b6b5441edda2042ce0a63ae25b2cf399bd2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997940"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699887"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace (método) (DAO)
 
@@ -50,21 +51,21 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información detallada sobre los nombres de <strong>Workspace</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p><strong>String</strong> que identifica el propietario del nuevo objeto <strong>Workspace</strong>. Vea el tema relativo a la propiedad <strong>UserName</strong> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Password</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Una <strong>cadena</strong> que contiene la contraseña para el nuevo objeto de <strong>área de trabajo</strong> . La contraseña puede tener hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</p>
-<p><strong>Nota</strong>: utilice contraseñas seguras que combinen mayúsculas y minúsculas letras, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
+<p><strong>Nota</strong>: utilice contraseñas seguras que combinen mayúsculas y minúsculas letras, números y símbolos. Las contraseñas no seguras no mezclan estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 <tr class="even">

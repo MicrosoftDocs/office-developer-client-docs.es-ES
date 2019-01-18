@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26a0a9fe66fb726bb728872ee31771d12b262864
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923703"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702113"
 ---
 # <a name="searchforrecord-macro-action"></a>EncontrarRegistro (acción de macro)
 
@@ -139,11 +140,11 @@ En la siguiente macro se abre primero la tabla Categorías mediante la acción *
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>AbrirTabla</strong></p></td>
+<td><p><strong>OpenTable</strong></p></td>
 <td><p><strong>Nombre de la tabla</strong>: categorías<strong>vista</strong>: <strong>Modo DatasheetData</strong>: <strong>Editar</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>EncontrarRegistro</strong></p></td>
+<td><p><strong>SearchForRecord</strong></p></td>
 <td><p><strong>Tipo de objeto</strong>: <strong>Nombre de TableObject</strong>: categorías de<strong>registro</strong>: <strong>Condición de FirstWhere</strong>: descripción = &quot;bebidas&quot;</p></td>
 </tr>
 </tbody>

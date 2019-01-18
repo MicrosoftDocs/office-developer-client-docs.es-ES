@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
 ms:contentKeyID: 48545637
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 306962eda3430a1797cf79dc04a34d2e55e9daf8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 31791e9fb3c7081989232e36a90b184ed7e31866
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930976"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699257"
 ---
 # <a name="recordset2bookmark-property-dao"></a>Propiedad Recordset2.Bookmark (DAO)
 
@@ -26,7 +27,7 @@ Establece o devuelve un marcador que identifica únicamente al registro actual e
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar la propiedad **Bookmark** con ese conjunto de registros. Sin embargo, puede que otros productos de la base de datos no admitan marcadores. Por ejemplo, no puede utilizar marcadores en ningún objeto **Recordset2** basado en una tabla de Paradox vinculada que no contenga una clave principal.
 

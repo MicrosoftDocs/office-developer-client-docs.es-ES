@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998353"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701924"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase (método) (DAO)
 
@@ -50,13 +51,13 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Cadena de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que está creando. Puede ser el nombre de archivo y ruta de acceso completo. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1&quot;. Sólo se pueden crear archivos de base de datos de Microsoft Access con este método.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Configuración regional</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><ul>
 <li><p>Expresión de cadena que especifica un orden de intercalación para crear la base de datos, tal como se especifica en la sección de configuración. Debe proporcionar este argumento o se producirá un error.</p></li>
 <li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (comenzando por &quot;; pwd =&quot; ) con una constante en el argumento de <em>Configuración regional</em> , como la siguiente:</p></li>

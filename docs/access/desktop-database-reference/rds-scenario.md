@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d5d334f449391f56d339f1b3882836e87f9dd6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e4206cedd139b551d687911f00aa9fc5e5782859
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946954"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718808"
 ---
-# <a name="rds-scenario"></a>Escenario RDS
+# <a name="rds-scenario"></a>Escenario de RDS
 
 **Se aplica a**: Access 2013, Office 2013
 
 - [Botones de comando de la Libreta de direcciones](address-book-command-buttons.md)
 - [Objeto de enlace de datos de la Libreta de direcciones](address-book-data-binding-object.md)
 - [Botones de navegación de la libreta de direcciones](address-book-navigation-buttons.md)
-- [Ejecución de la aplicación de ejemplo Libreta de direcciones](running-the-address-book-sample-application.md)
+- [Ejecuta la aplicación de ejemplo de la libreta de direcciones](running-the-address-book-sample-application.md)
 - [Requisitos del sistema para la aplicación Libreta de direcciones](system-requirements-for-the-address-book-application.md)
 
 
