@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
 ms:contentKeyID: 48547840
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: edbb25c9eda48a33f659e577882e40cc67a07190
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890984"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703667"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="881cd-102">Ejemplo de las propiedades de claves método Append, clave de tipo, RelatedColumn, RelatedTable y UpdateRule de Key (VC ++)</span><span class="sxs-lookup"><span data-stu-id="881cd-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="ba680-102">Ejemplo de las propiedades de claves método Append, clave de tipo, RelatedColumn, RelatedTable y UpdateRule de Key (VC ++)</span><span class="sxs-lookup"><span data-stu-id="ba680-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="881cd-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="881cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ba680-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba680-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="881cd-p101">El código siguiente muestra cómo crear una clave externa nueva. Supone que existen dos tablas (Clientes y Pedidos).</span><span class="sxs-lookup"><span data-stu-id="881cd-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="ba680-p101">El código siguiente muestra cómo crear una clave externa nueva. Supone que existen dos tablas (Clientes y Pedidos).</span><span class="sxs-lookup"><span data-stu-id="ba680-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

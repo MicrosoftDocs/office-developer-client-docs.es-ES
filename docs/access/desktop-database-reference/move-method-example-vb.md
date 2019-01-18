@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d890b02c75b25b69874690b057c976a3fceb2a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 418aaf15c38fba753709d03681246341c78102bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879938"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706229"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="450b7-102">Ejemplo del método Move (VB)</span><span class="sxs-lookup"><span data-stu-id="450b7-102">Move method example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="bafc5-102">Ejemplo del método Move (VB)</span><span class="sxs-lookup"><span data-stu-id="bafc5-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="450b7-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="450b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bafc5-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bafc5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="450b7-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="450b7-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="bafc5-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="bafc5-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

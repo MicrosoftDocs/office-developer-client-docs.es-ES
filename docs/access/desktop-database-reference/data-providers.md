@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249946(v=office.15)
 ms:contentKeyID: 48547540
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc323161e2e97f34cab289430425958922f2406b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 46d9cf80bfdd15f48d876fe63a617c9b30931fd3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944434"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705900"
 ---
-# <a name="data-providers"></a><span data-ttu-id="cc695-102">Proveedores de datos</span><span class="sxs-lookup"><span data-stu-id="cc695-102">Data providers</span></span>
+# <a name="data-providers"></a><span data-ttu-id="c40d6-102">Proveedores de datos</span><span class="sxs-lookup"><span data-stu-id="c40d6-102">Data providers</span></span>
 
 
-<span data-ttu-id="cc695-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc695-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c40d6-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c40d6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cc695-p101">Los proveedores de datos representan diversos orígenes de datos como bases de datos SQL, archivos secuenciales indizados, hojas de cálculo, almacenes de documentos y archivos de correo. Los proveedores exponen datos uniformemente mediante una abstracción común que se denomina conjunto de filas.</span><span class="sxs-lookup"><span data-stu-id="cc695-p101">Data providers represent diverse sources of data such as SQL databases, indexed-sequential files, spreadsheets, document stores, and mail files. Providers expose data uniformly using a common abstraction called the rowset.</span></span>
+<span data-ttu-id="c40d6-p101">Los proveedores de datos representan diversos orígenes de datos como bases de datos SQL, archivos secuenciales indizados, hojas de cálculo, almacenes de documentos y archivos de correo. Los proveedores exponen datos uniformemente mediante una abstracción común que se denomina conjunto de filas.</span><span class="sxs-lookup"><span data-stu-id="c40d6-p101">Data providers represent diverse sources of data such as SQL databases, indexed-sequential files, spreadsheets, document stores, and mail files. Providers expose data uniformly using a common abstraction called the rowset.</span></span>
 
-<span data-ttu-id="cc695-p102">ADO es eficaz y flexible porque puede conectarse a cualquiera entre varios proveedores de datos y seguir exponiendo el mismo modelo de programación, independientemente de las características específicas de un proveedor determinado. No obstante, dado que cada proveedor de datos es único, la interacción de una aplicación con ADO variará según cuál sea el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="cc695-p102">ADO is powerful and flexible because it can connect to any of several different data providers and still expose the same programming model, regardless of the specific features of any given provider. However, because each data provider is unique, how your application interacts with ADO will vary by data provider.</span></span>
+<span data-ttu-id="c40d6-p102">ADO es eficaz y flexible porque puede conectarse a cualquiera entre varios proveedores de datos y seguir exponiendo el mismo modelo de programación, independientemente de las características específicas de un proveedor determinado. No obstante, dado que cada proveedor de datos es único, la interacción de una aplicación con ADO variará según cuál sea el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="c40d6-p102">ADO is powerful and flexible because it can connect to any of several different data providers and still expose the same programming model, regardless of the specific features of any given provider. However, because each data provider is unique, how your application interacts with ADO will vary by data provider.</span></span>
 
-<span data-ttu-id="cc695-108">Por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para tener acceso a las bases de datos de Microsoft SQL Server, son considerablemente diferentes de las del proveedor Microsoft OLE DB para Internet Publishing, que se usa para obtener acceso al archivo almacenes en un servidor web.</span><span class="sxs-lookup"><span data-stu-id="cc695-108">For example, the capabilities and features of the OLE DB Provider for SQL Server, which is used to access Microsoft SQL Server databases, are considerably different from those of the Microsoft OLE DB Provider for Internet Publishing, which is used to access file stores on a web server.</span></span>
+<span data-ttu-id="c40d6-108">Por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para tener acceso a las bases de datos de Microsoft SQL Server, son considerablemente diferentes de las del proveedor Microsoft OLE DB para Internet Publishing, que se usa para obtener acceso al archivo almacenes en un servidor web.</span><span class="sxs-lookup"><span data-stu-id="c40d6-108">For example, the capabilities and features of the OLE DB Provider for SQL Server, which is used to access Microsoft SQL Server databases, are considerably different from those of the Microsoft OLE DB Provider for Internet Publishing, which is used to access file stores on a web server.</span></span>
 

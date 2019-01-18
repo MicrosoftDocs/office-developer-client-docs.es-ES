@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192118(v=office.15)
 ms:contentKeyID: 48543977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5239980bc78a3ab26efe8d7b129f853dfa773a3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a126b8e8d42e2dccc79fbfe54ec4d184f8851af2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704794"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="b0f4c-102">FieldAttributeEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="b0f4c-102">FieldAttributeEnum enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="fc9f6-102">FieldAttributeEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc9f6-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="b0f4c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0f4c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc9f6-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc9f6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b0f4c-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="b0f4c-104">TBD</span></span>
+<span data-ttu-id="fc9f6-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="fc9f6-104">TBD</span></span>
 

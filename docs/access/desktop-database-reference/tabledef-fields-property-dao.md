@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1052902
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 58e80763b7dab00d9a55cf50df2cfad4e53511c7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e4e9ab3fc79ff4684da37d7c108891b90c5e71d8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929618"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700356"
 ---
-# <a name="tabledeffields-property-dao"></a><span data-ttu-id="de9ac-102">Propiedad TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de9ac-102">TableDef.Fields property (DAO)</span></span>
+# <a name="tabledeffields-property-dao"></a><span data-ttu-id="91083-102">Propiedad TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="91083-102">TableDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="de9ac-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de9ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="91083-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91083-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="de9ac-p101">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="de9ac-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
+<span data-ttu-id="91083-p101">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="91083-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="de9ac-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="de9ac-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="91083-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="91083-106">Syntax</span></span>
 
-<span data-ttu-id="de9ac-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="de9ac-107">*expression* .Fields</span></span>
+<span data-ttu-id="91083-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="91083-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="de9ac-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="de9ac-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="91083-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="91083-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
