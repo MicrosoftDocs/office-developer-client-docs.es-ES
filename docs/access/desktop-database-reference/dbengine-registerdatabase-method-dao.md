@@ -10,26 +10,27 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45e6933d01a4c47253c90857d9c42bf0ab386c16
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997570"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715609"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a><span data-ttu-id="ac53b-102">DBEngine.RegisterDatabase (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac53b-102">DBEngine.RegisterDatabase method (DAO)</span></span>
+# <a name="dbengineregisterdatabase-method-dao"></a><span data-ttu-id="85ded-102">DBEngine.RegisterDatabase (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="85ded-102">DBEngine.RegisterDatabase method (DAO)</span></span>
 
-<span data-ttu-id="ac53b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac53b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="85ded-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85ded-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ac53b-p101">Proporciona información de conexión para un origen de datos ODBC en el Registro de Windows. El controlador ODBC necesita información de conexión cuando se abre el origen de datos ODBC durante una sesión.</span><span class="sxs-lookup"><span data-stu-id="ac53b-p101">Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span>
+<span data-ttu-id="85ded-p101">Proporciona información de conexión para un origen de datos ODBC en el Registro de Windows. El controlador ODBC necesita información de conexión cuando se abre el origen de datos ODBC durante una sesión.</span><span class="sxs-lookup"><span data-stu-id="85ded-p101">Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ac53b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ac53b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="85ded-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="85ded-106">Syntax</span></span>
 
-<span data-ttu-id="ac53b-107">*expresión* . RegisterDatabase (***Dsn***, ***controlador***, ***silenciosa***, ***atributos***)</span><span class="sxs-lookup"><span data-stu-id="ac53b-107">*expression* .RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)</span></span>
+<span data-ttu-id="85ded-107">*expresión* . RegisterDatabase (***Dsn***, ***controlador***, ***silenciosa***, ***atributos***)</span><span class="sxs-lookup"><span data-stu-id="85ded-107">*expression* .RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)</span></span>
 
-<span data-ttu-id="ac53b-108">*expresión* Variable que representa un objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="ac53b-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="85ded-108">*expresión* Variable que representa un objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="85ded-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="ac53b-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ac53b-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="85ded-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="85ded-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,52 +41,52 @@ ms.locfileid: "25997570"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ac53b-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="ac53b-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="ac53b-111">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="ac53b-111">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="ac53b-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="ac53b-112">Data type</span></span></p></th>
-<th><p><span data-ttu-id="ac53b-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="ac53b-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="85ded-110">Nombre</span><span class="sxs-lookup"><span data-stu-id="85ded-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="85ded-111">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="85ded-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="85ded-112">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="85ded-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="85ded-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="85ded-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ac53b-114"><em>DSN</em></span><span class="sxs-lookup"><span data-stu-id="ac53b-114"><em>Dsn</em></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ac53b-115">Required</span></span></p></td>
-<td><p><span data-ttu-id="ac53b-116"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="ac53b-116"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-p102">Nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</span><span class="sxs-lookup"><span data-stu-id="ac53b-p102">the name used in the <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> method. It refers to a block of descriptive information about the data source. For example, if the data source is an ODBC remote database, it could be the name of the server.</span></span></p></td>
+<td><p><span data-ttu-id="85ded-114"><em>DSN</em></span><span class="sxs-lookup"><span data-stu-id="85ded-114"><em>Dsn</em></span></span></p></td>
+<td><p><span data-ttu-id="85ded-115">Necesario</span><span class="sxs-lookup"><span data-stu-id="85ded-115">Required</span></span></p></td>
+<td><p><span data-ttu-id="85ded-116"><strong>Cadena</strong></span><span class="sxs-lookup"><span data-stu-id="85ded-116"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="85ded-p102">Nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</span><span class="sxs-lookup"><span data-stu-id="85ded-p102">the name used in the <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> method. It refers to a block of descriptive information about the data source. For example, if the data source is an ODBC remote database, it could be the name of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ac53b-120"><em>Controlador</em></span><span class="sxs-lookup"><span data-stu-id="ac53b-120"><em>Driver</em></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-121">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ac53b-121">Required</span></span></p></td>
-<td><p><span data-ttu-id="ac53b-122"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="ac53b-122"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-p103">Nombre del controlador ODBC. Éste no es el nombre del archivo DLL del controlador ODBC.</span><span class="sxs-lookup"><span data-stu-id="ac53b-p103">The name of the ODBC driver. This isn't the name of the ODBC driver DLL file.</span></span></p></td>
+<td><p><span data-ttu-id="85ded-120"><em>Driver</em></span><span class="sxs-lookup"><span data-stu-id="85ded-120"><em>Driver</em></span></span></p></td>
+<td><p><span data-ttu-id="85ded-121">Necesario</span><span class="sxs-lookup"><span data-stu-id="85ded-121">Required</span></span></p></td>
+<td><p><span data-ttu-id="85ded-122"><strong>Cadena</strong></span><span class="sxs-lookup"><span data-stu-id="85ded-122"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="85ded-p103">Nombre del controlador ODBC. Éste no es el nombre del archivo DLL del controlador ODBC.</span><span class="sxs-lookup"><span data-stu-id="85ded-p103">The name of the ODBC driver. This isn't the name of the ODBC driver DLL file.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ac53b-125"><em>Silenciosa</em></span><span class="sxs-lookup"><span data-stu-id="ac53b-125"><em>Silent</em></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-126">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ac53b-126">Required</span></span></p></td>
-<td><p><span data-ttu-id="ac53b-127"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="ac53b-127"><strong>Boolean</strong></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-128"><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador; o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC.</span><span class="sxs-lookup"><span data-stu-id="ac53b-128"><strong>True</strong> if you don't want to display the ODBC driver dialog boxes that prompt for driver-specific information; or <strong>False</strong> if you want to display the ODBC driver dialog boxes.</span></span> <span data-ttu-id="ac53b-129">Si silent es <strong>True</strong>, attributes debe contener toda la información necesaria específica del controlador o se muestran los cuadros de diálogo de todos modos.</span><span class="sxs-lookup"><span data-stu-id="ac53b-129">If silent is <strong>True</strong>, attributes must contain all the necessary driver-specific information or the dialog boxes are displayed anyway.</span></span></p></td>
+<td><p><span data-ttu-id="85ded-125"><em>Silenciosa</em></span><span class="sxs-lookup"><span data-stu-id="85ded-125"><em>Silent</em></span></span></p></td>
+<td><p><span data-ttu-id="85ded-126">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="85ded-126">Required</span></span></p></td>
+<td><p><span data-ttu-id="85ded-127"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="85ded-127"><strong>Boolean</strong></span></span></p></td>
+<td><p><span data-ttu-id="85ded-128"><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador; o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC.</span><span class="sxs-lookup"><span data-stu-id="85ded-128"><strong>True</strong> if you don't want to display the ODBC driver dialog boxes that prompt for driver-specific information; or <strong>False</strong> if you want to display the ODBC driver dialog boxes.</span></span> <span data-ttu-id="85ded-129">Si silent es <strong>True</strong>, attributes debe contener toda la información necesaria específica del controlador o se muestran los cuadros de diálogo de todos modos.</span><span class="sxs-lookup"><span data-stu-id="85ded-129">If silent is <strong>True</strong>, attributes must contain all the necessary driver-specific information or the dialog boxes are displayed anyway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ac53b-130"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="ac53b-130"><em>Attributes</em></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-131">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ac53b-131">Required</span></span></p></td>
-<td><p><span data-ttu-id="ac53b-132"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="ac53b-132"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="ac53b-p105">Lista de palabras clave que se deben agregar al Registro de Windows. Las palabras clave están en una cadena delimitada por retornos de carro.</span><span class="sxs-lookup"><span data-stu-id="ac53b-p105">A list of keywords to be added to the Windows Registry. The keywords are in a carriage-return–delimited string.</span></span></p></td>
+<td><p><span data-ttu-id="85ded-130"><em>Atributos</em></span><span class="sxs-lookup"><span data-stu-id="85ded-130"><em>Attributes</em></span></span></p></td>
+<td><p><span data-ttu-id="85ded-131">Necesario</span><span class="sxs-lookup"><span data-stu-id="85ded-131">Required</span></span></p></td>
+<td><p><span data-ttu-id="85ded-132"><strong>Cadena</strong></span><span class="sxs-lookup"><span data-stu-id="85ded-132"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="85ded-p105">Lista de palabras clave que se deben agregar al Registro de Windows. Las palabras clave están en una cadena delimitada por retornos de carro.</span><span class="sxs-lookup"><span data-stu-id="85ded-p105">A list of keywords to be added to the Windows Registry. The keywords are in a carriage-return–delimited string.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="ac53b-135">Observaciones</span><span class="sxs-lookup"><span data-stu-id="ac53b-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="85ded-135">Observaciones</span><span class="sxs-lookup"><span data-stu-id="85ded-135">Remarks</span></span>
 
-<span data-ttu-id="ac53b-136">Si la base de datos ya está registrada (ya se ha proporcionado la información de conexión) en el Registro de Windows cuando utiliza el método **RegisterDatabase**, la información de conexión está actualizada.</span><span class="sxs-lookup"><span data-stu-id="ac53b-136">If the database is already registered (connection information is already entered) in the Windows Registry when you use the **RegisterDatabase** method, the connection information is updated.</span></span>
+<span data-ttu-id="85ded-136">Si la base de datos ya está registrada (ya se ha proporcionado la información de conexión) en el Registro de Windows cuando utiliza el método **RegisterDatabase**, la información de conexión está actualizada.</span><span class="sxs-lookup"><span data-stu-id="85ded-136">If the database is already registered (connection information is already entered) in the Windows Registry when you use the **RegisterDatabase** method, the connection information is updated.</span></span>
 
-<span data-ttu-id="ac53b-137">Si el método **RegisterDatabase** provoca un error por algún motivo, no se han realizado cambios en el Registro de Windows y se produce un error.</span><span class="sxs-lookup"><span data-stu-id="ac53b-137">If the **RegisterDatabase** method fails for any reason, no changes are made to the Windows Registry, and an error occurs.</span></span>
+<span data-ttu-id="85ded-137">Si el método **RegisterDatabase** provoca un error por algún motivo, no se han realizado cambios en el Registro de Windows y se produce un error.</span><span class="sxs-lookup"><span data-stu-id="85ded-137">If the **RegisterDatabase** method fails for any reason, no changes are made to the Windows Registry, and an error occurs.</span></span>
 
-<span data-ttu-id="ac53b-138">Para obtener más información sobre los controladores ODBC como SQL Server, vea el archivo de Ayuda suministrado con el controlador.</span><span class="sxs-lookup"><span data-stu-id="ac53b-138">For more information about ODBC drivers such as SQL Server, see the Help file provided with the driver.</span></span>
+<span data-ttu-id="85ded-138">Para obtener más información sobre los controladores ODBC como SQL Server, vea el archivo de Ayuda suministrado con el controlador.</span><span class="sxs-lookup"><span data-stu-id="85ded-138">For more information about ODBC drivers such as SQL Server, see the Help file provided with the driver.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ac53b-139">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ac53b-139">Example</span></span>
+## <a name="example"></a><span data-ttu-id="85ded-139">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="85ded-139">Example</span></span>
 
-<span data-ttu-id="ac53b-140">En este ejemplo se utiliza el método **RegisterDatabase** para registrar un origen de datos Microsoft SQL llamado Publishers en el Registro de Windows.</span><span class="sxs-lookup"><span data-stu-id="ac53b-140">This example uses the **RegisterDatabase** method to register a Microsoft SQL Server data source named Publishers in the Windows Registry.</span></span>
+<span data-ttu-id="85ded-140">En este ejemplo se utiliza el método **RegisterDatabase** para registrar un origen de datos Microsoft SQL llamado Publishers en el Registro de Windows.</span><span class="sxs-lookup"><span data-stu-id="85ded-140">This example uses the **RegisterDatabase** method to register a Microsoft SQL Server data source named Publishers in the Windows Registry.</span></span>
 
 ```vb 
 Sub RegisterDatabaseX() 

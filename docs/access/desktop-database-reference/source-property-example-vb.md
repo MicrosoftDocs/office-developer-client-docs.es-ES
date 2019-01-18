@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
 ms:contentKeyID: 48545885
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4e14eeee7c8ea31cf21b045b1d355d7a30ddf96b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889668"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717485"
 ---
-# <a name="source-property-example-vb"></a><span data-ttu-id="1dbc9-102">Ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="1dbc9-102">Source property example (VB)</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="a909f-102">Ejemplo de la propiedad Source (VB)</span><span class="sxs-lookup"><span data-stu-id="a909f-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="1dbc9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dbc9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a909f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a909f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1dbc9-104">En este ejemplo se muestra la propiedad [Source](source-property-ado-recordset.md) al abrir tres objetos [Recordset](recordset-object-ado.md) basados en diferentes orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="1dbc9-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="a909f-104">En este ejemplo se muestra la propiedad [Source](source-property-ado-recordset.md) al abrir tres objetos [Recordset](recordset-object-ado.md) basados en diferentes orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="a909f-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

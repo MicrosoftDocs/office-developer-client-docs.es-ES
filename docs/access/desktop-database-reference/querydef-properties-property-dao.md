@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053178
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 80a4c4ae0faa5edf4b31b2c1bfe29341240f04e2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 077ca05014a5f5781ccded538e11ac7e4fc2b1bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923423"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717625"
 ---
-# <a name="querydefproperties-property-dao"></a><span data-ttu-id="1fb5f-102">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fb5f-102">QueryDef.Properties property (DAO)</span></span>
+# <a name="querydefproperties-property-dao"></a><span data-ttu-id="53fa2-102">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="53fa2-102">QueryDef.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="1fb5f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fb5f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="53fa2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="53fa2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1fb5f-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="1fb5f-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="53fa2-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="53fa2-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1fb5f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1fb5f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="53fa2-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="53fa2-106">Syntax</span></span>
 
-<span data-ttu-id="1fb5f-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="1fb5f-107">*expression* .Properties</span></span>
+<span data-ttu-id="53fa2-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="53fa2-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="1fb5f-108">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="1fb5f-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="53fa2-108">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="53fa2-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

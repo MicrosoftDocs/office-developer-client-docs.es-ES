@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
 ms:contentKeyID: 48546141
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ad29def518f86eaee14ca3fd901e881223753d2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 81d4fa54d966d04e17ccbdadee52303f857c024b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887841"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718437"
 ---
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a><span data-ttu-id="1762a-102">Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1762a-102">ConnectionString, ConnectionTimeout, and State properties example (VJ++)</span></span>
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a><span data-ttu-id="7c1f1-102">Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7c1f1-102">ConnectionString, ConnectionTimeout, and State properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="1762a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1762a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7c1f1-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c1f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1762a-p101">En este ejemplo se muestran diferentes formas de utilizar la propiedad [ConnectionString](connectionstring-property-ado.md) para abrir un objeto [Connection](connection-object-ado.md). También se utilizan la propiedad [ConnectionTimeout](connectiontimeout-property-ado.md) para establecer un período de espera y la propiedad [State](state-property-ado.md) para comprobar el estado de las conexiones. Se requiere la función GetState para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="1762a-p101">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.</span></span>
+<span data-ttu-id="7c1f1-p101">En este ejemplo se muestran diferentes formas de utilizar la propiedad [ConnectionString](connectionstring-property-ado.md) para abrir un objeto [Connection](connection-object-ado.md). También se utilizan la propiedad [ConnectionTimeout](connectiontimeout-property-ado.md) para establecer un período de espera y la propiedad [State](state-property-ado.md) para comprobar el estado de las conexiones. Se requiere la función GetState para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="7c1f1-p101">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.</span></span>
 
 ```java 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249614(v=office.15)
 ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 436bdfd955494accfc02d4460a6080531f76452d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3a37dc4ec91d100d6eb5d0ca7dced02e8bda7e45
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888198"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714860"
 ---
-# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="8c00a-102">Ejemplo de los métodos Update y CancelUpdate (VB)</span><span class="sxs-lookup"><span data-stu-id="8c00a-102">Update and CancelUpdate methods example (VB)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="b701f-102">Ejemplo de los métodos Update y CancelUpdate (VB)</span><span class="sxs-lookup"><span data-stu-id="b701f-102">Update and CancelUpdate methods example (VB)</span></span>
 
 
-<span data-ttu-id="8c00a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c00a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b701f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b701f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8c00a-104">En este ejemplo se muestra el método [Update](update-method-ado.md) en combinación con el método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8c00a-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="b701f-104">En este ejemplo se muestra el método [Update](update-method-ado.md) en combinación con el método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b701f-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```vb 
  
@@ -112,7 +113,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="8c00a-105">En este ejemplo se muestra el método **Update** en combinación con el método [AddNew](addnew-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8c00a-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
+<span data-ttu-id="b701f-105">En este ejemplo se muestra el método **Update** en combinación con el método [AddNew](addnew-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b701f-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
 
 ```vb 
  

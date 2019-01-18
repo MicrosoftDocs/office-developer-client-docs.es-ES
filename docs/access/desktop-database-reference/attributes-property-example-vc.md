@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891270"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720180"
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="b2c66-102">Ejemplo de la propiedad Attributes (VC++)</span><span class="sxs-lookup"><span data-stu-id="b2c66-102">Attributes property example (VC++)</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="2b401-102">Ejemplo de la propiedad Attributes (VC++)</span><span class="sxs-lookup"><span data-stu-id="2b401-102">Attributes property example (VC++)</span></span>
 
 
-<span data-ttu-id="b2c66-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2c66-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2b401-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b401-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b2c66-p101">En este ejemplo, se muestra la propiedad [Attributes](attributes-property-adox.md) de una [columna](column-object-adox.md). Si se establece en **adColNullable**, el usuario puede establecer el valor de un objeto [Field](recordset-object-ado.md) de [Recordset](field-object-ado.md) en una cadena vacía. En esta situación, el usuario puede distinguir entre un registro en el que no se conocen los datos y un registro en el que los datos no son aplicables.</span><span class="sxs-lookup"><span data-stu-id="b2c66-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="2b401-p101">En este ejemplo, se muestra la propiedad [Attributes](attributes-property-adox.md) de una [columna](column-object-adox.md). Si se establece en **adColNullable**, el usuario puede establecer el valor de un objeto [Field](recordset-object-ado.md) de [Recordset](field-object-ado.md) en una cadena vacía. En esta situación, el usuario puede distinguir entre un registro en el que no se conocen los datos y un registro en el que los datos no son aplicables.</span><span class="sxs-lookup"><span data-stu-id="2b401-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -221,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="b2c66-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="b2c66-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="2b401-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="2b401-107">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

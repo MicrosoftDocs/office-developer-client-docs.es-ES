@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722728"
 ---
-# <a name="relation-members-dao"></a><span data-ttu-id="65a8e-102">Miembros del objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="65a8e-102">Relation members (DAO)</span></span>
+# <a name="relation-members-dao"></a><span data-ttu-id="3c25a-102">Miembros del objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="3c25a-102">Relation members (DAO)</span></span>
 
 
-<span data-ttu-id="65a8e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65a8e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3c25a-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c25a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="65a8e-104">Un objeto Relation representa una relación entre campos de tablas o consultas (sólo bases de datos del motor de base de datos de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="65a8e-104">A Relation object represents a relationship between fields in tables or queries (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="3c25a-104">Un objeto Relation representa una relación entre campos de tablas o consultas (sólo bases de datos del motor de base de datos de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3c25a-104">A Relation object represents a relationship between fields in tables or queries (Microsoft Access database engine databases only).</span></span>
 
-## <a name="methods"></a><span data-ttu-id="65a8e-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="65a8e-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="3c25a-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="3c25a-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,20 +30,20 @@ ms.locfileid: "25923731"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="65a8e-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="65a8e-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="65a8e-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="65a8e-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="3c25a-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="3c25a-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="3c25a-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="3c25a-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="65a8e-108"><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-108"><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-109">Crea un nuevo objeto <strong><a href="field-object-dao.md">Field</a></strong> (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="65a8e-109">Creates a new <strong><a href="field-object-dao.md">Field</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-108"><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-108"><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-109">Crea un nuevo objeto <strong><a href="field-object-dao.md">Field</a></strong> (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3c25a-109">Creates a new <strong><a href="field-object-dao.md">Field</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="65a8e-110">Propiedades</span><span class="sxs-lookup"><span data-stu-id="65a8e-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="3c25a-110">Propiedades</span><span class="sxs-lookup"><span data-stu-id="3c25a-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -51,38 +52,38 @@ ms.locfileid: "25923731"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="65a8e-111">Nombre</span><span class="sxs-lookup"><span data-stu-id="65a8e-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="65a8e-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="65a8e-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="3c25a-111">Nombre</span><span class="sxs-lookup"><span data-stu-id="3c25a-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="3c25a-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="3c25a-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="65a8e-113"><strong><a href="relation-attributes-property-dao.md">Attributes</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-113"><strong><a href="relation-attributes-property-dao.md">Attributes</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p101">Establece o devuelve un valor que indica una o varias características del objeto <strong>Relation</strong>. <strong>Long</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="65a8e-p101">Sets or returns a value that indicates one or more characteristics of a <strong>Relation</strong> object. Read/write <strong>Long</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-113"><strong><a href="relation-attributes-property-dao.md">Atributos</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-113"><strong><a href="relation-attributes-property-dao.md">Attributes</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p101">Establece o devuelve un valor que indica una o varias características del objeto <strong>Relation</strong>. <strong>Long</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3c25a-p101">Sets or returns a value that indicates one or more characteristics of a <strong>Relation</strong> object. Read/write <strong>Long</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="65a8e-116"><strong><a href="relation-fields-property-dao.md">Fields</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-116"><strong><a href="relation-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p102">Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="65a8e-p102">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-116"><strong><a href="relation-fields-property-dao.md">Campos</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-116"><strong><a href="relation-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p102">Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="3c25a-p102">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="65a8e-119"><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-119"><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p103">Establece o devuelve el nombre de la tabla externa en una relación (solo en áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="65a8e-p103">Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-119"><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-119"><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p103">Establece o devuelve el nombre de la tabla externa en una relación (solo en áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3c25a-p103">Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="65a8e-122"><strong><a href="relation-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-122"><strong><a href="relation-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p104">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="65a8e-p104">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-122"><strong><a href="relation-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-122"><strong><a href="relation-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p104">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="3c25a-p104">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="65a8e-126"><strong><a href="relation-partialreplica-property-dao.md">PartialReplica</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-126"><strong><a href="relation-partialreplica-property-dao.md">PartialReplica</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p105">Establece o devuelve un valor en un objeto <strong>Relation</strong> que indica si esa relación se debería tener en cuenta al rellenar una réplica parcial desde una réplica completa. (Sólo para base de datos del motor de base de datos Microsoft Access). <strong>Boolean</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="65a8e-p105">Sets or returns a value on a <strong>Relation</strong> object indicating whether that relation should be considered when populating a partial replica from a full replica. (Microsoft Access database engine databases only). Read/write <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-126"><strong><a href="relation-partialreplica-property-dao.md">PartialReplica</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-126"><strong><a href="relation-partialreplica-property-dao.md">PartialReplica</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p105">Establece o devuelve un valor en un objeto <strong>Relation</strong> que indica si esa relación se debería tener en cuenta al rellenar una réplica parcial desde una réplica completa. (Sólo para base de datos del motor de base de datos Microsoft Access). <strong>Boolean</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3c25a-p105">Sets or returns a value on a <strong>Relation</strong> object indicating whether that relation should be considered when populating a partial replica from a full replica. (Microsoft Access database engine databases only). Read/write <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="65a8e-130"><strong><a href="relation-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-130"><strong><a href="relation-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p106">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="65a8e-p106">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-130"><strong><a href="relation-properties-property-dao.md">Propiedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-130"><strong><a href="relation-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p106">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3c25a-p106">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="65a8e-133"><strong><a href="relation-table-property-dao.md">Tabla</a></strong></span><span class="sxs-lookup"><span data-stu-id="65a8e-133"><strong><a href="relation-table-property-dao.md">Table</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="65a8e-p107">Indica el nombre de la tabla principal de un objeto <strong><a href="relation-object-dao.md">Relation</a></strong>. El resultado debe ser el mismo que el valor de la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> de un objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> o <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (únicamente áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="65a8e-p107">Indicates the name of a <strong><a href="relation-object-dao.md">Relation</a></strong> object's primary table. This should be equal to the <strong><a href="connection-name-property-dao.md">Name</a></strong> property setting of a <strong><a href="tabledef-object-dao.md">TableDef</a></strong> or <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="3c25a-133"><strong><a href="relation-table-property-dao.md">Tabla</a></strong></span><span class="sxs-lookup"><span data-stu-id="3c25a-133"><strong><a href="relation-table-property-dao.md">Table</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3c25a-p107">Indica el nombre de la tabla principal de un objeto <strong><a href="relation-object-dao.md">Relation</a></strong>. El resultado debe ser el mismo que el valor de la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> de un objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> o <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (únicamente áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3c25a-p107">Indicates the name of a <strong><a href="relation-object-dao.md">Relation</a></strong> object's primary table. This should be equal to the <strong><a href="connection-name-property-dao.md">Name</a></strong> property setting of a <strong><a href="tabledef-object-dao.md">TableDef</a></strong> or <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
 ms:contentKeyID: 48544037
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a2841a8f13d053e41c7a15a37b40dd3513238fc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 27a3e9b1905539a1ede534c6918334b97d45c305
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888506"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718451"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="fc409-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="fc409-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="a54e4-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="a54e4-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
 
 
-<span data-ttu-id="fc409-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc409-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a54e4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a54e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fc409-p101">En este ejemplo se usan las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Se usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="fc409-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="a54e4-p101">En este ejemplo se usan las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Se usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="a54e4-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb 
  
@@ -124,7 +125,7 @@ End Sub
 'EndBOFVB 
 ```
 
-<span data-ttu-id="fc409-p102">En este ejemplo se usan las propiedades **Bookmark** y [Filter](filter-property-ado.md) para crear una vista limitada del objeto **Recordset**. Solo se podrá obtener acceso a los registros a los que hace referencia la matriz de marcadores.</span><span class="sxs-lookup"><span data-stu-id="fc409-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
+<span data-ttu-id="a54e4-p102">En este ejemplo se usan las propiedades **Bookmark** y [Filter](filter-property-ado.md) para crear una vista limitada del objeto **Recordset**. Solo se podrá obtener acceso a los registros a los que hace referencia la matriz de marcadores.</span><span class="sxs-lookup"><span data-stu-id="a54e4-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
 
 ```vb 
  
