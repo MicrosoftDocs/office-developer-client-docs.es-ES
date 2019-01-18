@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
-ms.openlocfilehash: 3c0392cd6a885900c1a305cd1cd816a5925745a7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: a5792ebaf78d77924bc3157be63d937b66e9f4b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398594"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723064"
 ---
 # <a name="using-multiple-exchange-accounts"></a>Usar varias cuentas de Exchange
 
@@ -21,7 +21,7 @@ ms.locfileid: "25398594"
   
 Microsoft Outlook 2010 y Microsoft Outlook 2013 admiten la integración con varias cuentas de correo electrónico de exchange. En Outlook 2010 o Outlook 2013, un usuario podr�a agregar dos cuentas de exchange para el mismo perfil y seguir disfrutando de las caracter�sticas avanzadas de Exchange, como la lista publicada global de direcciones (GAL), la configuraci�n de Exchange fuera de la oficina y uso compartido de carpetas.
   
-Esos familiarizado con las secciones de perfil MAPI de Microsoft Office Outlook 2007 y versiones anteriores saben que la configuración de Exchange, como el nombre de usuario de correo electrónico y el nombre del servidor, se almacena en la sección de perfil de Exchange Global fija, **pbGlobalProfileSectionGuid**. Para obtener m�s informaci�n acerca del perfil Global de Exchange, vea [c�mo abrir la secci�n de perfil Global](https://support.microsoft.com/kb/188482). En Outlook 2010 y Outlook 2013, cada cuenta de Exchange necesita su propia secci�n de perfil para almacenar la configuraci�n, realizar la **pbGlobalProfileSectionGuid** obsoleto. 
+Esos familiarizado con las secciones de perfil MAPI de Microsoft Office Outlook 2007 y versiones anteriores saben que la configuración de Exchange, como el nombre de usuario de correo electrónico y el nombre del servidor, se almacena en la sección de perfil de Exchange Global fija, **pbGlobalProfileSectionGuid**. En Outlook 2010 y Outlook 2013, cada cuenta de Exchange necesita su propia secci�n de perfil para almacenar la configuraci�n, realizar la **pbGlobalProfileSectionGuid** obsoleto. 
   
 Outlook 2010 and Outlook 2013 Exchange settings are still stored in the profile, but a unique identifier for the profile section that contains their settings is dynamically allocated per profile. The location of the Exchange settings in the profile is stored in the [Propiedad can�nico de PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md), which can be found in the message service profile section of the Exchange account. This property can also be found in the profile section for each provider in this message service of the account. The unique identifier is not stored on the server and will be different across profiles.
   

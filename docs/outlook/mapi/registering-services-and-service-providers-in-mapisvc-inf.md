@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Última modificación: 18 de julio de 2013'
-ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: adc6318ab36818b4c423bb6b1dc1b083b3fb54eb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399559"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706887"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar servicios y proveedores de servicios en MapiSvc.inf
 
@@ -48,6 +48,6 @@ Además, la ruta de acceso que se utiliza es posible que se va a convertir a y d
 > [!CAUTION]
 > Si elige una ruta de acceso que contiene caracteres que no se pueden sobrevivir fácilmente a través de las funciones de [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) y [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) experimentará errores. 
   
-Para una demostración de esta funcionalidad, se ha revisado el [ejemplo PST ajustado](https://ol2010mapisamples.codeplex.com/) en CodePlex - la funcionalidad pertinente se encuentra en **MergeWithMapiSvc** y **GenerateProviderPath**.
+Para una demostración de esta funcionalidad, se ha revisado el [ejemplo PST ajustado](https://github.com/stephenegriffin/Outlook2010CodeSamples) en depósito - la funcionalidad pertinente se encuentra en **MergeWithMapiSvc** y **GenerateProviderPath**.
   
 

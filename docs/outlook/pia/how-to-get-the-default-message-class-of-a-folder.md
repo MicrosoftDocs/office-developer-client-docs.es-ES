@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184594(v=office.15)
 ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: c03e0737a3dd2e74f39d90ffbac31bb134d16348
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: bef6ebe051e669b831dfee752b1b17db0a9023b8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407222"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705277"
 ---
 # <a name="get-the-default-message-class-of-a-folder"></a>Obtener la clase de mensaje predeterminada de una carpeta
 
@@ -24,7 +25,7 @@ En este ejemplo se muestra cómo usar la propiedad [DefaultMessageClass](https:/
 
 Para obtener la clase de mensaje predeterminada de una carpeta, use la propiedad **DefaultMessageClass** del objeto [MAPIFolder](https://msdn.microsoft.com/library/bb624369\(v=office.15\)). Por ejemplo, si un objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) tiene una **DefaultMessageClass**de IPM. Contact, esto significa que representa una carpeta de contactos. Sin embargo, si la carpeta tiene un formulario personalizado o un formulario de reemplazo como formulario predeterminado, debe usar el objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) para determinar la clase de mensaje del formulario predeterminado. La propiedad **DefaultMessageClass** no devuelve la clase de mensaje del formulario predeterminado de la carpeta.
 
-En el ejemplo de código siguiente, el procedimiento GetDefaultMessageClass usa el objeto **PropertyAccessor** para determinar el formulario predeterminado de una carpeta. Si no se encuentra la propiedad de carpeta **PR\_DEF\_POST\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) y Outlook muestra un error, el bloque **try…catch** devuelve la propiedad **DefaultMessageClass** para el objeto **Folder**.
+En el ejemplo de código siguiente, el procedimiento GetDefaultMessageClass usa el objeto **PropertyAccessor** para determinar el formulario predeterminado de una carpeta. Si la propiedad de la carpeta **PR\_DEF\_POST\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) no se encuentra y Outlook genera un error, el bloque **try... catch** devuelve la propiedad **DefaultMessageClass** para el **Carpeta**.
 
 Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d71dd44d2dfc39124c5300d2597f5d8ed1e95ebb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395416"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723036"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -69,6 +69,9 @@ CCSF_INCLUDE_BCC
 CCSF_USE_RTF
   
 > El cuerpo HTML del objeto stream MIME se debe convertir a formato de texto enriquecido (RTF) en el mensaje MAPI.
+
+CCSF_GLOBAL_MESSAGE
+> El convertidor debe controlar la secuencia MIME como un mensaje internacional (EAI/RFC6530). No se admite en Outlook 2013.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -76,7 +79,7 @@ E_INVALIDARG
   
 > Indica que _pstm_ es **null**, _pmsg_ es **null**o _ulFlags indicado_ no es válido. 
     
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Si ha especificado **CCSF_USE_RTF** como parte de _ulFlags_ y el almacén de mensajes de destino es compatible con HTML y RTF, el mensaje MAPI se convertirá a HTML o RTF. Si el mensaje se convierte en RTF, se va a comprimir el formato convertido RTF, todo el código HTML se incrustarán en la cadena RTF comprimida, y la cadena estarán contenida en la [Propiedad canónico PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
@@ -89,7 +92,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
