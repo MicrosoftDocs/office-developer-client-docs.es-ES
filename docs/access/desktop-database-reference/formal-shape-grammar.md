@@ -1,19 +1,20 @@
 ---
-title: Gramática formal de forma
+title: Gramática de las formas formales
 TOCTitle: Formal shape grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0de4f2eca0b5dd607cb9d93cc7e90f4af0ba8d89
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d30ff9146146bb0457a5aa383b2b720a4fdaeb78
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945540"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708049"
 ---
-# <a name="formal-shape-grammar"></a>Gramática formal de forma
+# <a name="formal-shape-grammar"></a>Gramática de las formas formales
 
 **Se aplica a**: Access 2013, Office 2013
 

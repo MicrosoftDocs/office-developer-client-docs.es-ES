@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c20701e9863d72a9308679965425b74c9f9818ac
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937641"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710807"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instrucción INSERT INTO (Microsoft Access SQL)
 
@@ -68,7 +69,7 @@ La instrucción INSERT INTO tiene estas partes:
 <td><p>El nombre de la tabla o de las tablas desde las cuales se insertarán los registros. Este argumento puede ser un único nombre de tabla o compuesto como resultado de una operación <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a> o <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a> o una consulta guardada.  </p></td>
 </tr>
 <tr class="even">
-<td><p><em>value1</em>, <em>value2</em></p></td>
+<td><p><em>valor1</em>, <em>valor2</em></p></td>
 <td><p>Los valores que se insertarán en los campos específicos del nuevo registro. Cada valor se inserta en el campo que corresponde a la posición del valor en la lista: <em>value1</em> se inserta en <em>field1</em> del nuevo registro, <em>value2</em> en <em>field2</em>, y así sucesivamente. Debe separar los valores con una coma y escribir los campos de texto entre comillas (' ').</p></td>
 </tr>
 </tbody>
@@ -99,7 +100,7 @@ Una consulta anexada copia registros de una o más tablas a otra. Las tablas que
 
 En vez de anexar registros existentes de otra tabla, puede especificar el valor para cada campo en un solo registro nuevo con la cláusula VALUES. Si omite la lista de campos, la cláusula VALUES debe incluir un valor para cada campo en la tabla; de lo contrario, la operación INSERT fallará. Use una instrucción INSERT INTO adicional con una cláusula VALUES para cada registro adicional que desee crear.
 
-**Vínculos proporcionan por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki sobre Microsoft Access.
+**Vínculos proporcionados por** la comunidad de [UtterAccess](https://www.utteraccess.com). UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
 - [Generación de números secuenciales para instrucciones INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 

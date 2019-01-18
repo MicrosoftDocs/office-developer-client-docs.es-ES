@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 713f2530369a824a6d7204655ded4333f7fe2765
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997010"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710436"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField (método) (DAO)
 
@@ -83,7 +84,7 @@ Si Name hace referencia a un objeto que ya es un miembro de la colección, se pr
 
 Para quitar un objeto **Field** de una colección **Fields**, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección. No puede eliminar un objeto **Field** desde la colección **Fields** de un objeto **TableDef** después de crear un índice que haga referencia al campo.
 
-**Vínculo proporcionado por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki sobre Microsoft Access.
+**Vínculo proporcionado por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
 - [Agregar un campo de hipervínculo a una tabla existente con DAO ](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
 

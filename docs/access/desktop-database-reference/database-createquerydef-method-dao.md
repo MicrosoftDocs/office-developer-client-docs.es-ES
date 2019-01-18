@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52be8f652c8cf9e39d36efccc86d35187129df4f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999074"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711115"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef (método) (DAO)
 
@@ -61,7 +62,7 @@ Crea un nuevo objeto **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="return-value"></a>Valor devuelto
 
-Objeto QueryDef
+QueryDef
 
 ## <a name="remarks"></a>Observaciones
 

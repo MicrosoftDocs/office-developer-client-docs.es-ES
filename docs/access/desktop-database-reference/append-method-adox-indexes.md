@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00a02e74bbbc1b24939784a89965bf0757be0cfe
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0b541512de9748e94d033bb56f27dd0941c7f5a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949407"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707559"
 ---
 # <a name="append-method-adox-indexes"></a>Append (método, Indexes de ADOX)
 
@@ -33,7 +34,7 @@ Agrega un nuevo objeto [Index](index-object-adox.md) a la colección [Indexes](i
 |*Index* |El objeto **Index** que se anexará o el nombre del índice que se creará y anexará.|
 |*Columns* |Opcional. Un valor **Variant** que especifica los nombres de las columnas que se van a indizar. El parámetro *Columns* corresponde a los valores de la propiedad [Name](name-property-adox.md) de un objeto [Column](column-object-adox.md) u objetos.|
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El parámetro *Columns* puede tomar el nombre de una columna o una matriz de nombres de columna.
 

@@ -1,19 +1,20 @@
 ---
-title: Requisitos del sistema para la aplicación de la libreta de direcciones
+title: Requisitos del sistema para la aplicación Libreta de direcciones
 TOCTitle: System requirements for the Address Book application
 ms:assetid: 4e9dac80-1e9c-d06e-2836-3194c77af192
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5c9d7e5bd7cd326a28499f1307f4abed04ae4f3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4737cf5af48ef35e5d71cfc1b4525354dbc82bfc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945525"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708357"
 ---
-# <a name="system-requirements-for-the-address-book-application"></a>Requisitos del sistema para la aplicación de la libreta de direcciones
+# <a name="system-requirements-for-the-address-book-application"></a>Requisitos del sistema para la aplicación Libreta de direcciones
 
 
 **Se aplica a**: Access 2013, Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df4400752545be2d91cda978b41b32523d28f079
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927385"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709162"
 ---
 # <a name="index-members-dao"></a>Miembros de índice (DAO)
 
@@ -69,7 +70,7 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <td><p>Devuelve un valor que indica el número de valores únicos del objeto <strong><a href="index-object-dao.md">Index</a></strong> que se incluyen en la tabla asociada (sólo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="index-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa a todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -93,7 +94,7 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Obligatorio</a></strong></p></td>
+<td><p><strong><a href="index-required-property-dao.md">Necesario</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="field-object-dao.md">Field</a></strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="even">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193989(v=office.15)
 ms:contentKeyID: 48544870
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73ba90b4eae9f5da17e27d466044d97fb815d74
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0e0c849fc507d535807bc088e667acd74410ddd8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923794"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708161"
 ---
 # <a name="setreturnvar-macro-action"></a>EstablecerVariableDevuelta (acción de macro)
 
@@ -22,7 +23,7 @@ La acción **SetReturnVar** crea una variable de retorno y establece en un valor
 > [!NOTE]
 > La acción **SetReturnVar** sólo está disponible en Macros de datos.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **SetReturnVar** tiene los siguientes argumentos.
 
@@ -54,7 +55,7 @@ La acción **SetReturnVar** tiene los siguientes argumentos.
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 La acción **SetReturnVar** se usa para crear un **ReturnVar**, que es la variable que se puede utilizar las macros que llaman a una macro de datos mediante el uso de la acción **EjecutarMacroDeDatos** .
 

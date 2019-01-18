@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45aa005b7c8337a4c5541ea7217cbdb520bb1725
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b9e2eac360d157f28b986b6598ade58b8c34ec6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997738"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711969"
 ---
 # <a name="databasemakereplica-method-dao"></a>Database.MakeReplica (método) (DAO)
 
@@ -48,15 +49,15 @@ Crea una nueva réplica a partir de otra réplica de base de datos (sólo en ár
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Ruta de acceso</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><em>PathName</em></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Ruta de acceso y nombre de archivo de la nueva réplica. Si la réplica es un nombre de archivo existente, se produce un error.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Descripción</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p><strong>String</strong> que describe la réplica que se va a crear</p></td>
 </tr>
 <tr class="odd">

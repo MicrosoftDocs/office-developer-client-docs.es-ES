@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6166f8da8597e5b0672ba0d5fdfdd3745cfd159
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cff57a185d226328792bef79072dfc46c6134f98
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927770"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707244"
 ---
 # <a name="openreport-macro-action"></a>AbrirInforme (acción de macro)
 
@@ -44,7 +45,7 @@ La acción **AbrirInforme** tiene los siguientes argumentos.
 <td><p>Nombre del informe que se va a abrir. El cuadro <strong>Nombre del informe</strong> en la sección <strong>Argumentos de acción</strong> del panel <strong>Generador de macros</strong> muestra todos los informes de la base de datos activa. Este es un argumento obligatorio. Si ejecuta una macro que contenga la acción OpenReport en una base de datos de biblioteca, Microsoft Access primero buscará el informe con este nombre en la base de datos de biblioteca y después en la base de datos actual.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Vista</p></td>
+<td><p>View</p></td>
 <td><p>Vista en la que se va a abrir el informe. Haga clic en <strong>Imprimir</strong> (para imprimir el informe de inmediato), <strong>Diseño</strong> o <strong>Vista preliminar</strong> en el cuadro <strong>Vista</strong>. El valor predeterminado es <strong>Imprimir</strong>.  </p></td>
 </tr>
 <tr class="odd">
@@ -75,7 +76,7 @@ Sustituya <em>fieldname</em> por el nombre de un campo en la tabla o consulta su
 </table>
 
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El valor **Imprimir** del argumento **Vista** imprime el informe de inmediato usando los valores de impresora actuales, sin que se muestre el cuadro de diálogo **Imprimir**. También puede usar la acción **AbrirInforme** para abrir y configurar un informe y usar, a continuación, la acción PrintOut para imprimirlo. Por ejemplo, cuando desea modificar el informe o usarla acción **Imprimir** para cambiar los valores de la impresora antes de imprimir.
 

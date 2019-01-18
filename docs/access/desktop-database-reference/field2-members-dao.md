@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d368077e94a24dfd7b3d20dcdaafb0ee7d3c84
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf3deac487f1e114bea2a69d5423a210a51a5944
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937795"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707146"
 ---
 # <a name="field2-members-dao"></a>Field2 (miembros) (DAO)
 
@@ -81,7 +82,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Obtiene o establece un valor de tipo <strong>Boolean</strong> que indica si el campo especificado está configurado para que se puedan agregar nuevos valores al contenido existente en el campo. Lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-attributes-property-dao.md">Attributes</a></strong></p></td>
+<td><p><strong><a href="field2-attributes-property-dao.md">Atributos</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica una o varias características de un objeto <strong>Field2</strong>. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -135,7 +136,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-required-property-dao.md">Obligatorio</a></strong></p></td>
+<td><p><strong><a href="field2-required-property-dao.md">Necesario</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong>Field2</strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="odd">
@@ -151,7 +152,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Devuelve un valor que indica el nombre de la tabla que es la fuente original de los datos para un objeto <strong>Field2</strong>. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-type-property-dao.md">Tipo de</a></strong></p></td>
+<td><p><strong><a href="field2-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
@@ -167,7 +168,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto <strong>Field2</strong> no satisface la regla de validación que especifica el valor de la propiedad <strong>ValidationRule</strong> (sólo para áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-value-property-dao.md">Valor</a></strong></p></td>
+<td><p><strong><a href="field2-value-property-dao.md">Value</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">

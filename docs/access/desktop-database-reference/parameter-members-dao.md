@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
 ms:contentKeyID: 48544228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e62125ee61598d6be125f9edb01f2aa4531043b9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 25eae70d88307331c44983c4e7cbbcce3fe9d309
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026074"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707909"
 ---
 # <a name="parameter-members-dao"></a>Miembros del parámetro (DAO)
 
@@ -43,11 +44,11 @@ Un objeto Parameter representa un valor suministrado a una consulta. El parámet
 <td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="parameter-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p><strong><a href="parameter-properties-property-dao.md">Propiedades</a></strong></p></td>
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="parameter-type-property-dao.md">Type</a></strong></p></td>
+<td><p><strong><a href="parameter-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">

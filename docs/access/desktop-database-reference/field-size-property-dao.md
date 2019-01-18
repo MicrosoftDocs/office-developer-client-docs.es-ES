@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052878
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e1e7d124e06331a043a28c71bcdc9707c4664738
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 16ce8a9e63c18ded2738035f23e9a1baeff4cc8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931333"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708343"
 ---
 # <a name="fieldsize-property-dao"></a>Propiedad Field.Size (DAO)
 
@@ -52,11 +53,11 @@ El uso de la propiedad **Size** depende del objeto que contiene la colección **
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Índice</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Objeto QueryDef</strong></p></td>
+<td><p><strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">

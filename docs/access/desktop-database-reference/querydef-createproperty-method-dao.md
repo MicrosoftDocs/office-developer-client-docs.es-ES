@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835663(v=office.15)
 ms:contentKeyID: 48548250
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 251b6e9b48e4a65f40250e4120251c919c5d455f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f33198ac13b6695bfa592e2015aaed84d57f3b2d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997206"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707069"
 ---
 # <a name="querydefcreateproperty-method-dao"></a>QueryDef.CreateProperty (método) (DAO)
 
