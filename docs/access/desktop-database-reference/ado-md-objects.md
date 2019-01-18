@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910841"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726214"
 ---
 # <a name="ado-md-objects"></a>Objetos de ADO MD
 
@@ -30,11 +31,11 @@ ms.locfileid: "25910841"
 <th>Descripción</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axis-object-ado-md.md">Eje</a></p></td>
+<td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>Representa un eje de posición o de filtro de un conjunto de celdas, que contiene elementos seleccionados de una o más dimensiones.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="catalog-object-ado-md.md">Catálogo</a></p></td>
+<td><p><a href="catalog-object-ado-md.md">Catalog</a></p></td>
 <td><p>Contiene información de esquema multidimensional (es decir, cubos y dimensiones subyacentes, jerarquías, niveles y elementos) específica de un proveedor de datos multidimensionales (MDP).</p></td>
 </tr>
 <tr class="odd">
@@ -42,19 +43,19 @@ ms.locfileid: "25910841"
 <td><p>Representa los datos de la intersección de coordenadas de ejes, contenidos en un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cellset-object-ado-md.md">Conjunto de celdas</a></p></td>
+<td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
 <td><p>Representa los resultados de una consulta multidimensional. Es un conjunto de celdas seleccionadas de cubos u otro conjuntos de celdas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cubedef-object-ado-md.md">Objeto CubeDef</a></p></td>
+<td><p><a href="cubedef-object-ado-md.md">CubeDef</a></p></td>
 <td><p>Representa un cubo de un esquema multidimensional, que contiene un conjunto de dimensiones relacionadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dimension-object-ado-md.md">Dimensión</a></p></td>
+<td><p><a href="dimension-object-ado-md.md">Dimension</a></p></td>
 <td><p>Representa una de las dimensiones de un cubo multidimensional, que contiene una o más jerarquías de elementos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchy-object-ado-md.md">Jerarquía</a></p></td>
+<td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
 <td><p>Representa una forma en que se pueden agregar los miembros de una dimensión o &quot;resumidas. &quot; Una dimensión se puede agregar a lo largo de una o varias jerarquías.</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +63,7 @@ ms.locfileid: "25910841"
 <td><p>Contiene un conjunto de miembros que tienen el mismo rango dentro de una jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Elemento</a></p></td>
+<td><p><a href="member-object-ado-md.md">Miembro</a></p></td>
 <td><p>Representa un miembro de un nivel en un cubo, los miembros secundarios de un miembro de un nivel o un miembro de una posición a lo largo de un eje de un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">

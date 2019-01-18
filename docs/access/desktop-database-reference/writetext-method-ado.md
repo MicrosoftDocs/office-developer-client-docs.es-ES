@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f2a65373add9263bac97ca20a9f29de4307599f
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025843"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726249"
 ---
 # <a name="writetext-method-ado"></a>WriteText (método, ADO)
 
@@ -27,7 +28,7 @@ Escribe una cadena de texto especificada en un objeto [Stream](stream-object-ado
 
 |Parámetro|Descripción|
 |:--------|:----------|
-|*Data* |Valor de tipo **String** que contiene el texto en caracteres que se va a escribir.|
+|*Datos* |Valor de tipo **String** que contiene el texto en caracteres que se va a escribir.|
 |*Options* |Es opcional. Valor de [StreamWriteEnum](streamwriteenum.md) que especifica si debe escribirse un carácter separador de línea al final de la cadena especificada.|
 
 ## <a name="remarks"></a>Comentarios

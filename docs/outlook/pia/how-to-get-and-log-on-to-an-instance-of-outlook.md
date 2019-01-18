@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462097(v=office.15)
 ms:contentKeyID: 55119926
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 6aa4ecb0b6d9a3082759c7a3b0b4a5f677d1556e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 4445d0665ea5a3d36a5ff7c92b5a46cfe4fffaa8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406466"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721188"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Obtener e iniciar sesión en una instancia de Outlook
 
@@ -24,7 +25,7 @@ En este tema se muestra cómo obtener un objeto [Application](https://msdn.micro
 
 Los ejemplos de código siguientes contienen el método GetApplicationObject de la clase de muestra, implementado como parte de un proyecto de complemento de Outlook. Cada proyecto agrega una referencia del ensamblado de interoperabilidad primario de Outlook, que se basa en el espacio de nombres [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)).
 
-El método GetApplicationObject usa clases en la biblioteca de clases de .NET Framework para comprobar y obtener cualquier proceso de Outlook que se ejecuta en el equipo local. Primero usa el método [GetProcessesByName](https://msdn.microsoft.com/es-ES/library/wbt7d3cy) de la clase [Process](https://msdn.microsoft.com/es-ES/library/ccf1tfx0) en el espacio de nombres [System.Diagnostics](https://msdn.microsoft.com/es-ES/library/15t15zda) para obtener una matriz de componentes de proceso en el equipo local que compartan el nombre del proceso "OUTLOOK". Para comprobar si la matriz contiene al menos un proceso de Outlook, GetApplicationObject usa Microsoft Language Integrated Query (LINQ). La clase [Enumerable](https://msdn.microsoft.com/es-ES/library/bb345746) del espacio de nombres [System.Linq](https://msdn.microsoft.com/es-ES/library/bb336768) proporciona un conjunto de métodos, incluyendo el método [Count](https://msdn.microsoft.com/es-ES/library/bb357758), que implementan la interfaz genérica [IEnumerable\<T\>](https://msdn.microsoft.com/es-ES/library/9eekhta0). Como la clase [Array](https://msdn.microsoft.com/es-ES/library/czz5hkty) implementa la interfaz **IEnumerable(T)**, GetApplicationObject puede aplicar el método **Count** a la matriz devuelta por **GetProcessesByName** para ver si hay un proceso de Outlook en ejecución. Si lo hay, GetApplicationObject usa el método [GetActiveObject](https://msdn.microsoft.com/es-ES/library/xt620x09) de la clase [Marshal](https://msdn.microsoft.com/es-ES/library/asx0thw2) en el espacio de nombres [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) para obtener esa instancia de Outlook y proyecta ese objeto a un objeto [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) de Outlook.
+El método GetApplicationObject usa clases en la biblioteca de clases de .NET Framework para comprobar y obtener cualquier proceso de Outlook que se ejecuta en el equipo local. Primero usa el método [GetProcessesByName](https://msdn.microsoft.com/en-us/library/wbt7d3cy) de la clase [Process](https://msdn.microsoft.com/en-us/library/ccf1tfx0) en el espacio de nombres [System.Diagnostics](https://msdn.microsoft.com/en-us/library/15t15zda) para obtener una matriz de componentes de proceso en el equipo local que compartan el nombre del proceso "OUTLOOK". Para comprobar si la matriz contiene al menos un proceso de Outlook, GetApplicationObject usa Microsoft Language Integrated Query (LINQ). La clase [Enumerable](https://msdn.microsoft.com/en-us/library/bb345746) del espacio de nombres [System.Linq](https://msdn.microsoft.com/en-us/library/bb336768) proporciona un conjunto de métodos, incluyendo el método [Count](https://msdn.microsoft.com/en-us/library/bb357758), que implementan la interfaz genérica [IEnumerable\<T\>](https://msdn.microsoft.com/en-us/library/9eekhta0). Como la clase [Array](https://msdn.microsoft.com/en-us/library/czz5hkty) implementa la interfaz **IEnumerable(T)**, GetApplicationObject puede aplicar el método **Count** a la matriz devuelta por **GetProcessesByName** para ver si hay un proceso de Outlook en ejecución. Si lo hay, GetApplicationObject usa el método [GetActiveObject](https://msdn.microsoft.com/en-us/library/xt620x09) de la clase [Marshal](https://msdn.microsoft.com/en-us/library/asx0thw2) en el espacio de nombres [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) para obtener esa instancia de Outlook y proyecta ese objeto a un objeto [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) de Outlook.
 
 Si Outlook no está en ejecución en el equipo local, GetApplicationObject crea una nueva sesión de Outlook, usa el método [Logon(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb646718\(v=office.15\)) del objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) para iniciar sesión con el perfil predeterminado y devuelve la nueva sesión de Outlook.
 

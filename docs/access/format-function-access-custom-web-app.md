@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Devuelve un valor con formato según un patrón especificado.
-ms.openlocfilehash: 1739f87fd6e77c91aa66a64c0b7520fa6a641e95
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 5331df30f276a7edd0571e9bf24c759d57ec6a54
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387800"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710394"
 ---
 # <a name="format-function-access-custom-web-app"></a>Función Format (aplicación web personalizada de Access)
 

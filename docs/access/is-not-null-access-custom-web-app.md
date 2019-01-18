@@ -4,22 +4,22 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: Determina si una expresión especificada es NULL.
-ms.openlocfilehash: fcbceb1e8edac65fe232ba9c2b12195b99db9545
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: fe6a0fe4f182a1385304b783e7cfaaf515f732d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815337"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699320"
 ---
 # <a name="is-not-null-access-custom-web-app"></a>IS [NOT] NULL (aplicación web personalizada de Access)
 
 Determina si una expresión especificada es NULL.
   
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="syntax"></a>Sintaxis
 

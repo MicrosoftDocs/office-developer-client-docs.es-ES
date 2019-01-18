@@ -3,22 +3,22 @@ title: Formatos de fecha y hora personalizados para la función Format (aplicaci
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: Aprenda a controlar cómo se muestra una fecha o una hora creando un formato personalizado.
-ms.openlocfilehash: 17724cfe1c26a2b3e52eea18dfef53aff027085c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: 76ba7361be4f7902a3ee4a1a8d6e51211ad114bd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815349"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702316"
 ---
 # <a name="custom-date-and-time-formats-for-the-format-function-access-custom-web-app"></a>Formatos de fecha y hora personalizados para la función Format (aplicación web personalizada de Access)
 
 Aprenda a controlar cómo se muestra una fecha o una hora creando un formato personalizado.
   
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="format-specifications"></a>Especificaciones de formato
 

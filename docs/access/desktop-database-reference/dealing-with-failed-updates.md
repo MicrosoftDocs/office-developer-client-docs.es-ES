@@ -1,19 +1,20 @@
 ---
-title: Tratar actualizaciones con errores
+title: Tratamiento de las actualizaciones con errores
 TOCTitle: Dealing with failed updates
 ms:assetid: f6f4914d-59b3-f3f2-b986-218e07ce5a1d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 659b5389074371ed4de41b909ab5228ad8fca080
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9a44548fd8747428b12c03c24207f36d3871e349
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947752"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725941"
 ---
-# <a name="dealing-with-failed-updates"></a>Tratar actualizaciones con errores
+# <a name="dealing-with-failed-updates"></a>Tratamiento de las actualizaciones con errores
 
 **Se aplica a**: Access 2013, Office 2013
 

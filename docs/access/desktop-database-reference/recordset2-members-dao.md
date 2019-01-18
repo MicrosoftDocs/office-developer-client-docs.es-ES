@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f7011edaf7cbeb145ea30af64f7ba6bd85945f4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937711"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726284"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 (miembros) (DAO)
 
@@ -129,7 +130,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Busca el registro en un objeto <strong>Recordset</strong> de tipo tabla indizada que satisface los criterios especificados para el índice activo y hace de este registro el registro activo (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-update-method-dao.md">Update</a></strong></p></td>
+<td><p><strong><a href="recordset2-update-method-dao.md">Actualizar</a></strong></p></td>
 <td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Guarda el contenido del búfer de copia en un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable.</p></td>
 </tr>
@@ -175,7 +176,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto <strong>Recordset</strong>. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-bookmark-property-dao.md">Marcador</a></strong></p></td>
+<td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>Establece o devuelve un marcador que identifica únicamente al registro actual en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -207,11 +208,11 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve un valor que indica si la posición actual del registro se encuentra después del último registro en un objeto <strong>Recordset</strong>. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="recordset2-fields-property-dao.md">Campos</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filtro</a></strong></p></td>
 <td><p>Establece o devuelve un valor que determina los registros incluidos en un objeto <strong>Recordset</strong> abierto posteriormente (solo en áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -277,7 +278,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-type-property-dao.md">Tipo de</a></strong></p></td>
+<td><p><strong><a href="recordset2-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">

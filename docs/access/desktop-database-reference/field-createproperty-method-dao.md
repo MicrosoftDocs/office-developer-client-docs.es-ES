@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33658c923addf642685c87faf2a8234b4dc51676
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: b9a88dce09798fa05aa602799f18a22e28d39c53
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998024"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726221"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty (método) (DAO)
 

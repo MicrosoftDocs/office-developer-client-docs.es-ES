@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184631(v=office.15)
 ms:contentKeyID: 55119800
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b27c6c6fd9cf70a691f4a2df628a342cf024d8d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406459"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719468"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Obtener la lista global de direcciones o un conjunto de listas de direcciones para un almacén
 
@@ -83,7 +84,7 @@ public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 }
 ```
 
-El segundo ejemplo de código contiene el método EnumerateAddressListsForStore y la función GetAddressLists. El método EnumerateAddressListsForStore muestra el tipo y el orden de resolución de cada lista de direcciones definida para el almacén actual. EnumerateAddressListsForStore primero obtiene el almacén actual y luego llama a GetAddressLists para obtener un objeto [List\<T\>](https://msdn.microsoft.com/es-ES/library/6sh2ey19) de .NET Framework genérico que contenga objetos AddressList para el almacén actual. 
+El segundo ejemplo de código contiene el método EnumerateAddressListsForStore y la función GetAddressLists. El método EnumerateAddressListsForStore muestra el tipo y el orden de resolución de cada lista de direcciones definida para el almacén actual. EnumerateAddressListsForStore primero obtiene el almacén actual y luego llama a GetAddressLists para obtener un objeto [List\<T\>](https://msdn.microsoft.com/en-us/library/6sh2ey19) de .NET Framework genérico que contenga objetos AddressList para el almacén actual. 
 
 GetAddressLists enumera cada lista de direcciones definida para la sesión, usa el objeto PropertyAccessor y la propiedad con nombre MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 para obtener la propiedad PR\_EMSMDB\_SECTION\_UID de una lista de direcciones y la propiedad PR\_EMSMDB\_SECTION\_UID de un almacén actual. GetGlobalAddressList identifica una lista de direcciones como asociada con un almacén si sus propiedades PR\_EMSMDB\_SECTION\_UID coinciden, y devuelve un conjunto de listas de direcciones para el almacén actual. EnumerateAddressListsForStore luego usa las propiedades [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) y[ResolutionOrder](https://msdn.microsoft.com/library/bb646853\(v=office.15\)) del objeto **AddressList** para mostrar el tipo y el orden de resolución para cada lista de direcciones devuelta.
 

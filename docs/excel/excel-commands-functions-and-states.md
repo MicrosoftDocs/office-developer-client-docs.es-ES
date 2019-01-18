@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - states [excel 2007],commands [Excel 2007],worksheet functions [Excel 2007],macro-sheet functions [Excel 2007],Excel states
-localization_priority: Normal
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815556"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716239"
 ---
 # <a name="excel-commands-functions-and-states"></a>Estados, comandos y funciones de Excel
 

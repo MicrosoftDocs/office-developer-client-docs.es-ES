@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 27fc8630c8e2eb0b491dbb5075f4c58aacec7f93
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406249"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717758"
 ---
 # <a name="enumerate-and-add-categories"></a>Enumerar y agregar categorías
 
@@ -40,7 +41,7 @@ Para exponer la funcionalidad de las categorías, el modelo de objetos de Outloo
 
 Estas propiedades devuelven un valor **OLE\_COLOR**, que depende de la propiedad **Color** del objeto **Category**.
 
-Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)), se usará la propiedad **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\))). Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
+Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , utilizaría la propiedad [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) **MailItem**). Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
 
 
 > [!NOTE]

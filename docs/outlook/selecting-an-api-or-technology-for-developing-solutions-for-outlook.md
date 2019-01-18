@@ -3,15 +3,15 @@ title: Seleccionar una API o tecnología para desarrollar soluciones de Outlook
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y Outlook 2016 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
-ms.openlocfilehash: 1ff4a7b315966348b4638f2c3075fc6d2149ff21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: c744fcd834c01bd2835f88843d4be67e6122ac15
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399231"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723106"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Seleccionar una API o tecnología para desarrollar soluciones de Outlook
 
@@ -542,7 +542,7 @@ Los siguientes recursos proporcionan más información acerca de cómo usar el m
 
 - [Adjuntar un archivo a un elemento de correo](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Tipos de archivos adjuntos restringidos por Outlook 2010](https://technet.microsoft.com/es-ES/library/cc179163.aspx)
+- [Tipos de archivos adjuntos restringidos por Outlook 2010](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - Objeto [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
@@ -728,7 +728,7 @@ Vea las siguientes propiedades relacionadas con tareas en algunos objetos de ele
     
 - [Cambios en el cierre de Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Tipos de archivos adjuntos restringidos en Outlook 2010](https://technet.microsoft.com/es-ES/library/cc179163.aspx)
+- [Tipos de archivos adjuntos restringidos en Outlook 2010](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     

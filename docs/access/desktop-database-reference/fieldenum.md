@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
 ms:contentKeyID: 48548876
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 6975017ed8867d794dce189de74f617636b9f223
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: e42dcfe63194364986e5b235c59b011231307a7c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886665"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726088"
 ---
 # <a name="fieldenum"></a>FieldEnum
 
@@ -19,7 +20,7 @@ ms.locfileid: "25886665"
 
 Especifica los campos especiales a los que se hace referencia en la colección [Fields](record-object-ado.md) de un objeto [Record](fields-collection-ado.md).
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Estas constantes proporcionan "métodos abreviados" para obtener acceso a campos especiales asociados a un **Record**. Recupere el objeto [Field](field-object-ado.md) de la colección **Fields** y, a continuación, obtenga su contenido con la propiedad **Value** del objeto [Field](value-property-ado.md).
 
