@@ -6,31 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
 ms:contentKeyID: 48546183
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 297108566d3ce8e6f2c3037d9d607d1c233a4c4f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 06497982f3c338ea3c3eb499e788dd527c05e351
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946562"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710625"
 ---
-# <a name="error-properties-methods-and-events-ado"></a><span data-ttu-id="90bc8-102">Error propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="90bc8-102">Error properties, methods, and events (ADO)</span></span>
+# <a name="error-properties-methods-and-events-ado"></a><span data-ttu-id="04ea6-102">Error propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="04ea6-102">Error properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="90bc8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90bc8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="04ea6-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04ea6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="90bc8-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="90bc8-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="04ea6-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="04ea6-104">Properties</span></span>
 
-- [<span data-ttu-id="90bc8-105">Description (propiedad)</span><span class="sxs-lookup"><span data-stu-id="90bc8-105">Description property</span></span>](description-property-ado.md)
-- [<span data-ttu-id="90bc8-106">ContextoDeAyuda (HelpContext), HelpFile propiedades</span><span class="sxs-lookup"><span data-stu-id="90bc8-106">HelpContext, HelpFile properties</span></span>](helpcontext-helpfile-properties-ado.md)
-- [<span data-ttu-id="90bc8-107">NativeError (propiedad)</span><span class="sxs-lookup"><span data-stu-id="90bc8-107">NativeError property</span></span>](nativeerror-property-ado.md)
-- [<span data-ttu-id="90bc8-108">Number (propiedad)</span><span class="sxs-lookup"><span data-stu-id="90bc8-108">Number property</span></span>](number-property-ado.md)
-- [<span data-ttu-id="90bc8-109">Source (propiedad, Error de ADO)</span><span class="sxs-lookup"><span data-stu-id="90bc8-109">Source property (ADO Error)</span></span>](source-property-ado-error.md)
-- [<span data-ttu-id="90bc8-110">SQLState (propiedad)</span><span class="sxs-lookup"><span data-stu-id="90bc8-110">SQLState property</span></span>](sqlstate-property-ado.md)
+- [<span data-ttu-id="04ea6-105">Description (propiedad)</span><span class="sxs-lookup"><span data-stu-id="04ea6-105">Description property</span></span>](description-property-ado.md)
+- [<span data-ttu-id="04ea6-106">HelpContext y HelpFile (propiedades)</span><span class="sxs-lookup"><span data-stu-id="04ea6-106">HelpContext, HelpFile properties</span></span>](helpcontext-helpfile-properties-ado.md)
+- [<span data-ttu-id="04ea6-107">NativeError (propiedad)</span><span class="sxs-lookup"><span data-stu-id="04ea6-107">NativeError property</span></span>](nativeerror-property-ado.md)
+- [<span data-ttu-id="04ea6-108">Number (propiedad)</span><span class="sxs-lookup"><span data-stu-id="04ea6-108">Number property</span></span>](number-property-ado.md)
+- [<span data-ttu-id="04ea6-109">Source (propiedad, Error de ADO)</span><span class="sxs-lookup"><span data-stu-id="04ea6-109">Source property (ADO Error)</span></span>](source-property-ado-error.md)
+- [<span data-ttu-id="04ea6-110">SQLState (propiedad)</span><span class="sxs-lookup"><span data-stu-id="04ea6-110">SQLState property</span></span>](sqlstate-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="90bc8-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="90bc8-111">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="04ea6-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="04ea6-111">Methods</span></span>
 
-<span data-ttu-id="90bc8-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="90bc8-112">None.</span></span>
+<span data-ttu-id="04ea6-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="04ea6-112">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="90bc8-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="90bc8-113">Events</span></span>
+## <a name="events"></a><span data-ttu-id="04ea6-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="04ea6-113">Events</span></span>
 
-<span data-ttu-id="90bc8-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="90bc8-114">None.</span></span>
+<span data-ttu-id="04ea6-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="04ea6-114">None.</span></span>
 

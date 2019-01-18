@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
 ms:contentKeyID: 48545869
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fef0e19b8cc7b9e5586414d010701dad5e578f39
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881688"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710429"
 ---
-# <a name="state-property-example-vj"></a><span data-ttu-id="7c815-102">Ejemplo de la propiedad State (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7c815-102">State property example (VJ++)</span></span>
+# <a name="state-property-example-vj"></a><span data-ttu-id="c14c7-102">Ejemplo de la propiedad State (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c14c7-102">State property example (VJ++)</span></span>
 
 
-<span data-ttu-id="7c815-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c815-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c14c7-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c14c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c815-104">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="7c815-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="c14c7-104">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="c14c7-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```java 
  

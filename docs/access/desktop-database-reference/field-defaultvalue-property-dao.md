@@ -6,37 +6,38 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 38ce5fe4287b298ddf48e4c6c60556ace2d567cb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 18fb4d3a4427db2b407b6a20507339fe83665c97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928253"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711738"
 ---
-# <a name="fielddefaultvalue-property-dao"></a><span data-ttu-id="0c0ca-102">Propiedad Field.DefaultValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="0c0ca-102">Field.DefaultValue property (DAO)</span></span>
+# <a name="fielddefaultvalue-property-dao"></a><span data-ttu-id="7fa87-102">Propiedad Field.DefaultValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="7fa87-102">Field.DefaultValue property (DAO)</span></span>
 
 
-<span data-ttu-id="0c0ca-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c0ca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7fa87-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7fa87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="0c0ca-p101">Establece o devuelve el valor predeterminado de un objeto **[Field](field-object-dao.md)**. Para un objeto **Field** que todavía no se ha anexado a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="0c0ca-p101">Sets or returns the default value of a **[Field](field-object-dao.md)** object. For a **Field** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="7fa87-p101">Establece o devuelve el valor predeterminado de un objeto **[Field](field-object-dao.md)**. Para un objeto **Field** que todavía no se ha anexado a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="7fa87-p101">Sets or returns the default value of a **[Field](field-object-dao.md)** object. For a **Field** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0c0ca-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0c0ca-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7fa87-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7fa87-106">Syntax</span></span>
 
-<span data-ttu-id="0c0ca-107">*expresión* . DefaultValue</span><span class="sxs-lookup"><span data-stu-id="0c0ca-107">*expression* .DefaultValue</span></span>
+<span data-ttu-id="7fa87-107">*expresión* . DefaultValue</span><span class="sxs-lookup"><span data-stu-id="7fa87-107">*expression* .DefaultValue</span></span>
 
-<span data-ttu-id="0c0ca-108">*expresión* Variable que representa un objeto **Field** .</span><span class="sxs-lookup"><span data-stu-id="0c0ca-108">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="7fa87-108">*expresión* Variable que representa un objeto **Field** .</span><span class="sxs-lookup"><span data-stu-id="7fa87-108">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0c0ca-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="0c0ca-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7fa87-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="7fa87-109">Remarks</span></span>
 
-<span data-ttu-id="0c0ca-p102">La configuración o el valor devuelto es un tipo de datos **String** que puede contener 255 caracteres como máximo. Puede ser texto o una expresión. Si el valor de la propiedad es una expresión, no puede contener funciones definidas por el usuario, funciones de agregado SQL del motor de base de datos de Microsoft Access ni referencias a consultas, formularios u otros objetos **Field**.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-p102">The setting or return value is a **String** data type that can contain a maximum of 255 characters. It can be either text or an expression. If the property setting is an expression, it can't contain user-defined functions, Microsoft Access database engine SQL aggregate functions, or references to queries, forms, or other **Field** objects.</span></span>
+<span data-ttu-id="7fa87-p102">La configuración o el valor devuelto es un tipo de datos **String** que puede contener 255 caracteres como máximo. Puede ser texto o una expresión. Si el valor de la propiedad es una expresión, no puede contener funciones definidas por el usuario, funciones de agregado SQL del motor de base de datos de Microsoft Access ni referencias a consultas, formularios u otros objetos **Field**.</span><span class="sxs-lookup"><span data-stu-id="7fa87-p102">The setting or return value is a **String** data type that can contain a maximum of 255 characters. It can be either text or an expression. If the property setting is an expression, it can't contain user-defined functions, Microsoft Access database engine SQL aggregate functions, or references to queries, forms, or other **Field** objects.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="0c0ca-p103">[!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser de tipo **Long**.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-p103">You can also set the **DefaultValue** property of a **Field** object on a [TableDef](tabledef-object-dao.md) object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's [Type](field-type-property-dao.md) property must be **Long**.</span></span>
+> <span data-ttu-id="7fa87-p103">[!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser de tipo **Long**.</span><span class="sxs-lookup"><span data-stu-id="7fa87-p103">You can also set the **DefaultValue** property of a **Field** object on a [TableDef](tabledef-object-dao.md) object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's [Type](field-type-property-dao.md) property must be **Long**.</span></span>
 
 
-<span data-ttu-id="0c0ca-116">La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-116">The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
+<span data-ttu-id="7fa87-116">La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="7fa87-116">The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -45,42 +46,42 @@ ms.locfileid: "25928253"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0c0ca-117">Si la colección Fields pertenece a</span><span class="sxs-lookup"><span data-stu-id="0c0ca-117">If the Fields collection belongs to an</span></span></p></th>
-<th><p><span data-ttu-id="0c0ca-118">Entonces DefaultValue</span><span class="sxs-lookup"><span data-stu-id="0c0ca-118">Then DefaultValue is</span></span></p></th>
+<th><p><span data-ttu-id="7fa87-117">Si la colección Fields pertenece a</span><span class="sxs-lookup"><span data-stu-id="7fa87-117">If the Fields collection belongs to an</span></span></p></th>
+<th><p><span data-ttu-id="7fa87-118">Entonces DefaultValue</span><span class="sxs-lookup"><span data-stu-id="7fa87-118">Then DefaultValue is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0c0ca-119">Objeto Index</span><span class="sxs-lookup"><span data-stu-id="0c0ca-119">Index object</span></span></p></td>
-<td><p><span data-ttu-id="0c0ca-120">No está admitido</span><span class="sxs-lookup"><span data-stu-id="0c0ca-120">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-119">Objeto Index</span><span class="sxs-lookup"><span data-stu-id="7fa87-119">Index object</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-120">No está admitido</span><span class="sxs-lookup"><span data-stu-id="7fa87-120">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c0ca-121">Objeto QueryDef</span><span class="sxs-lookup"><span data-stu-id="0c0ca-121">QueryDef object</span></span></p></td>
-<td><p><span data-ttu-id="0c0ca-122">Sólo lectura</span><span class="sxs-lookup"><span data-stu-id="0c0ca-122">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-121">Objeto QueryDef</span><span class="sxs-lookup"><span data-stu-id="7fa87-121">QueryDef object</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-122">Sólo lectura</span><span class="sxs-lookup"><span data-stu-id="7fa87-122">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0c0ca-123">Objeto Recordset</span><span class="sxs-lookup"><span data-stu-id="0c0ca-123">Recordset object</span></span></p></td>
-<td><p><span data-ttu-id="0c0ca-124">Sólo lectura</span><span class="sxs-lookup"><span data-stu-id="0c0ca-124">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-123">Objeto Recordset</span><span class="sxs-lookup"><span data-stu-id="7fa87-123">Recordset object</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-124">Sólo lectura</span><span class="sxs-lookup"><span data-stu-id="7fa87-124">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c0ca-125">Objeto Relation</span><span class="sxs-lookup"><span data-stu-id="0c0ca-125">Relation object</span></span></p></td>
-<td><p><span data-ttu-id="0c0ca-126">No está admitido</span><span class="sxs-lookup"><span data-stu-id="0c0ca-126">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-125">Objeto Relation</span><span class="sxs-lookup"><span data-stu-id="7fa87-125">Relation object</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-126">No está admitido</span><span class="sxs-lookup"><span data-stu-id="7fa87-126">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0c0ca-127">Objeto TableDef</span><span class="sxs-lookup"><span data-stu-id="0c0ca-127">TableDef object</span></span></p></td>
-<td><p><span data-ttu-id="0c0ca-128">Lectura y escritura</span><span class="sxs-lookup"><span data-stu-id="0c0ca-128">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-127">Objeto TableDef</span><span class="sxs-lookup"><span data-stu-id="7fa87-127">TableDef object</span></span></p></td>
+<td><p><span data-ttu-id="7fa87-128">Lectura y escritura</span><span class="sxs-lookup"><span data-stu-id="7fa87-128">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="0c0ca-p104">Cuando se crea un registro nuevo, el valor de la propiedad **DefaultValue** se especifica automáticamente como el valor del campo. Puede cambiar el valor del campo estableciendo su propiedad **[Value](field-value-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-p104">When a new record is created, the **DefaultValue** property setting is automatically entered as the value for the field. You can change the field value by setting its **[Value](field-value-property-dao.md)** property.</span></span>
+<span data-ttu-id="7fa87-p104">Cuando se crea un registro nuevo, el valor de la propiedad **DefaultValue** se especifica automáticamente como el valor del campo. Puede cambiar el valor del campo estableciendo su propiedad **[Value](field-value-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="7fa87-p104">When a new record is created, the **DefaultValue** property setting is automatically entered as the value for the field. You can change the field value by setting its **[Value](field-value-property-dao.md)** property.</span></span>
 
-<span data-ttu-id="0c0ca-131">La propiedad **DefaultValue** no se aplica a los campos de tipo **AutoNumber** y **Long Binary**.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-131">The **DefaultValue** property doesn't apply to **AutoNumber** and **Long Binary** fields.</span></span>
+<span data-ttu-id="7fa87-131">La propiedad **DefaultValue** no se aplica a los campos de tipo **AutoNumber** y **Long Binary**.</span><span class="sxs-lookup"><span data-stu-id="7fa87-131">The **DefaultValue** property doesn't apply to **AutoNumber** and **Long Binary** fields.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0c0ca-132">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="0c0ca-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7fa87-132">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7fa87-132">Example</span></span>
 
-<span data-ttu-id="0c0ca-p105">En este ejemplo se utiliza la propiedad **DefaultValue** para advertir al usuario de un valor normal del campo mientras se le piden datos de entrada. Además, se demuestra cómo los registros nuevos se rellenarán utilizando **DefaultValue** en ausencia de cualquier otra entrada. Se requiere la función DefaultPrompt para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="0c0ca-p105">This example uses the **DefaultValue** property to alert the user of a field's normal value while prompting for input. In addition, it demonstrates how new records will be filled using **DefaultValue** in the absence of any other input. The DefaultPrompt function is required for this procedure to run.</span></span>
+<span data-ttu-id="7fa87-p105">En este ejemplo se utiliza la propiedad **DefaultValue** para advertir al usuario de un valor normal del campo mientras se le piden datos de entrada. Además, se demuestra cómo los registros nuevos se rellenarán utilizando **DefaultValue** en ausencia de cualquier otra entrada. Se requiere la función DefaultPrompt para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="7fa87-p105">This example uses the **DefaultValue** property to alert the user of a field's normal value while prompting for input. In addition, it demonstrates how new records will be filled using **DefaultValue** in the absence of any other input. The DefaultPrompt function is required for this procedure to run.</span></span>
 
 ```vb
     Sub DefaultValueX() 

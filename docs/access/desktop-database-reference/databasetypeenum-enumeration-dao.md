@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821447(v=office.15)
 ms:contentKeyID: 48546934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62595d6403746323c101dc1101f3a4e677903955
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b58a36ca581b7c932aeff0e36391827a27d865b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946898"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712648"
 ---
-# <a name="databasetypeenum-enumeration-dao"></a><span data-ttu-id="ae5d1-102">DatabaseTypeEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="ae5d1-102">DatabaseTypeEnum enumeration (DAO)</span></span>
+# <a name="databasetypeenum-enumeration-dao"></a><span data-ttu-id="69374-102">DatabaseTypeEnum (enumeración) (DAO)</span><span class="sxs-lookup"><span data-stu-id="69374-102">DatabaseTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="ae5d1-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae5d1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69374-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69374-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ae5d1-104">Especifica la versión del formato de datos para una base de datos compactada.</span><span class="sxs-lookup"><span data-stu-id="ae5d1-104">Specifies the version of the data format for a compacted database.</span></span>
+<span data-ttu-id="69374-104">Especifica la versión del formato de datos para una base de datos compactada.</span><span class="sxs-lookup"><span data-stu-id="69374-104">Specifies the version of the data format for a compacted database.</span></span>
 
 <table>
 <colgroup>
@@ -28,51 +29,51 @@ ms.locfileid: "25946898"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ae5d1-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="ae5d1-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="ae5d1-106">Valor</span><span class="sxs-lookup"><span data-stu-id="ae5d1-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="ae5d1-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="ae5d1-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="69374-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="69374-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="69374-106">Valor</span><span class="sxs-lookup"><span data-stu-id="69374-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="69374-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="69374-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ae5d1-108">dbDecrypt</span><span class="sxs-lookup"><span data-stu-id="ae5d1-108">dbDecrypt</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-109">4</span><span class="sxs-lookup"><span data-stu-id="ae5d1-109">4</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-110">Descifra la base de datos mientras se compacta</span><span class="sxs-lookup"><span data-stu-id="ae5d1-110">Decrypts database while compacting</span></span></p></td>
+<td><p><span data-ttu-id="69374-108">dbDecrypt</span><span class="sxs-lookup"><span data-stu-id="69374-108">dbDecrypt</span></span></p></td>
+<td><p><span data-ttu-id="69374-109">4</span><span class="sxs-lookup"><span data-stu-id="69374-109">4</span></span></p></td>
+<td><p><span data-ttu-id="69374-110">Descifra la base de datos mientras se compacta</span><span class="sxs-lookup"><span data-stu-id="69374-110">Decrypts database while compacting</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ae5d1-111">dbEncrypt</span><span class="sxs-lookup"><span data-stu-id="ae5d1-111">dbEncrypt</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-112">2</span><span class="sxs-lookup"><span data-stu-id="ae5d1-112">2</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-113">Cifra la base de datos</span><span class="sxs-lookup"><span data-stu-id="ae5d1-113">Encrypts database</span></span></p></td>
+<td><p><span data-ttu-id="69374-111">dbEncrypt</span><span class="sxs-lookup"><span data-stu-id="69374-111">dbEncrypt</span></span></p></td>
+<td><p><span data-ttu-id="69374-112">2</span><span class="sxs-lookup"><span data-stu-id="69374-112">2</span></span></p></td>
+<td><p><span data-ttu-id="69374-113">Cifra la base de datos</span><span class="sxs-lookup"><span data-stu-id="69374-113">Encrypts database</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ae5d1-114">dbVersion10</span><span class="sxs-lookup"><span data-stu-id="ae5d1-114">dbVersion10</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-115">1</span><span class="sxs-lookup"><span data-stu-id="ae5d1-115">1</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-116">Motor de base de datos de Microsoft Jet versión 1.0</span><span class="sxs-lookup"><span data-stu-id="ae5d1-116">Microsoft Jet database engine version 1.0</span></span></p></td>
+<td><p><span data-ttu-id="69374-114">dbVersion10</span><span class="sxs-lookup"><span data-stu-id="69374-114">dbVersion10</span></span></p></td>
+<td><p><span data-ttu-id="69374-115">1</span><span class="sxs-lookup"><span data-stu-id="69374-115">1</span></span></p></td>
+<td><p><span data-ttu-id="69374-116">Motor de base de datos de Microsoft Jet versión 1.0</span><span class="sxs-lookup"><span data-stu-id="69374-116">Microsoft Jet database engine version 1.0</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ae5d1-117">dbVersion11</span><span class="sxs-lookup"><span data-stu-id="ae5d1-117">dbVersion11</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-118">8</span><span class="sxs-lookup"><span data-stu-id="ae5d1-118">8</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-119">Motor de base de datos de Microsoft Jet versión 1.1</span><span class="sxs-lookup"><span data-stu-id="ae5d1-119">Microsoft Jet database engine version 1.1</span></span></p></td>
+<td><p><span data-ttu-id="69374-117">dbVersion11</span><span class="sxs-lookup"><span data-stu-id="69374-117">dbVersion11</span></span></p></td>
+<td><p><span data-ttu-id="69374-118">8</span><span class="sxs-lookup"><span data-stu-id="69374-118">8</span></span></p></td>
+<td><p><span data-ttu-id="69374-119">Motor de base de datos de Microsoft Jet versión 1.1</span><span class="sxs-lookup"><span data-stu-id="69374-119">Microsoft Jet database engine version 1.1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ae5d1-120">dbVersion120</span><span class="sxs-lookup"><span data-stu-id="ae5d1-120">dbVersion120</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-121">128</span><span class="sxs-lookup"><span data-stu-id="ae5d1-121">128</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-122">Motor de base de datos de Microsoft Access versión 12.0</span><span class="sxs-lookup"><span data-stu-id="ae5d1-122">Microsoft Access database engine version 12.0</span></span></p></td>
+<td><p><span data-ttu-id="69374-120">dbVersion120</span><span class="sxs-lookup"><span data-stu-id="69374-120">dbVersion120</span></span></p></td>
+<td><p><span data-ttu-id="69374-121">128</span><span class="sxs-lookup"><span data-stu-id="69374-121">128</span></span></p></td>
+<td><p><span data-ttu-id="69374-122">Motor de base de datos de Microsoft Access versión 12.0</span><span class="sxs-lookup"><span data-stu-id="69374-122">Microsoft Access database engine version 12.0</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ae5d1-123">dbVersion20</span><span class="sxs-lookup"><span data-stu-id="ae5d1-123">dbVersion20</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-124">16</span><span class="sxs-lookup"><span data-stu-id="ae5d1-124">16</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-125">Motor de base de datos de Microsoft Jet versión 2.0</span><span class="sxs-lookup"><span data-stu-id="ae5d1-125">Microsoft Jet database engine version 2.0</span></span></p></td>
+<td><p><span data-ttu-id="69374-123">dbVersion20</span><span class="sxs-lookup"><span data-stu-id="69374-123">dbVersion20</span></span></p></td>
+<td><p><span data-ttu-id="69374-124">16</span><span class="sxs-lookup"><span data-stu-id="69374-124">16</span></span></p></td>
+<td><p><span data-ttu-id="69374-125">Motor de base de datos de Microsoft Jet versión 2.0</span><span class="sxs-lookup"><span data-stu-id="69374-125">Microsoft Jet database engine version 2.0</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ae5d1-126">dbVersion30</span><span class="sxs-lookup"><span data-stu-id="ae5d1-126">dbVersion30</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-127">32</span><span class="sxs-lookup"><span data-stu-id="ae5d1-127">32</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-128">Motor de base de datos de Microsoft Jet versión 3.0</span><span class="sxs-lookup"><span data-stu-id="ae5d1-128">Microsoft Jet database engine version 3.0</span></span></p></td>
+<td><p><span data-ttu-id="69374-126">dbVersion30</span><span class="sxs-lookup"><span data-stu-id="69374-126">dbVersion30</span></span></p></td>
+<td><p><span data-ttu-id="69374-127">32</span><span class="sxs-lookup"><span data-stu-id="69374-127">32</span></span></p></td>
+<td><p><span data-ttu-id="69374-128">Motor de base de datos de Microsoft Jet versión 3.0</span><span class="sxs-lookup"><span data-stu-id="69374-128">Microsoft Jet database engine version 3.0</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ae5d1-129">dbVersion40</span><span class="sxs-lookup"><span data-stu-id="ae5d1-129">dbVersion40</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-130">64</span><span class="sxs-lookup"><span data-stu-id="ae5d1-130">64</span></span></p></td>
-<td><p><span data-ttu-id="ae5d1-131">Motor de base de datos de Microsoft Jet versión 4.0</span><span class="sxs-lookup"><span data-stu-id="ae5d1-131">Microsoft Jet database engine version 4.0</span></span></p></td>
+<td><p><span data-ttu-id="69374-129">dbVersion40</span><span class="sxs-lookup"><span data-stu-id="69374-129">dbVersion40</span></span></p></td>
+<td><p><span data-ttu-id="69374-130">64</span><span class="sxs-lookup"><span data-stu-id="69374-130">64</span></span></p></td>
+<td><p><span data-ttu-id="69374-131">Motor de base de datos de Microsoft Jet versión 4.0</span><span class="sxs-lookup"><span data-stu-id="69374-131">Microsoft Jet database engine version 4.0</span></span></p></td>
 </tr>
 </tbody>
 </table>

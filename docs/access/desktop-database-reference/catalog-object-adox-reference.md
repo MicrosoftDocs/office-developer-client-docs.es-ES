@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250228(v=office.15)
 ms:contentKeyID: 48548633
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cb6cf12c7b2683d5c8f35fd28bee2f9eedff387
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e1971a27a6570ceff621c4b8c0b66db7e6224196
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920161"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713187"
 ---
-# <a name="catalog-object-adox-reference"></a><span data-ttu-id="343d7-102">Catálogo de referencia de objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="343d7-102">Catalog object (ADOX) reference</span></span>
+# <a name="catalog-object-adox-reference"></a><span data-ttu-id="2f908-102">Catálogo de referencia de objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2f908-102">Catalog object (ADOX) reference</span></span>
 
-<span data-ttu-id="343d7-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="343d7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2f908-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f908-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="343d7-104">Catalog (objeto, ADOX)</span><span class="sxs-lookup"><span data-stu-id="343d7-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
-- [<span data-ttu-id="343d7-105">Eventos, métodos y propiedades Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="343d7-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="2f908-104">Catalog (objeto, ADOX)</span><span class="sxs-lookup"><span data-stu-id="2f908-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
+- [<span data-ttu-id="2f908-105">Eventos, métodos y propiedades Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2f908-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
 
