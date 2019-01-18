@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248833(v=office.15)
 ms:contentKeyID: 48543146
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec71ee93a0c513b9a613c9f1c1a8a6b7d39a6d4e
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722154"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="f125b-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="f125b-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="460f9-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="460f9-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
 
 
-<span data-ttu-id="f125b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f125b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="460f9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="460f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f125b-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="f125b-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="f125b-105">Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="f125b-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="f125b-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="f125b-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="460f9-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="460f9-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="460f9-105">Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="460f9-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="460f9-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="460f9-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```vb 
  

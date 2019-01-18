@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249590(v=office.15)
 ms:contentKeyID: 48546117
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6326246748e621345951110ff34bbf88bc0d5ba4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9d38afdcb36d3792fee02f65b984c5154c9a0ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928421"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704176"
 ---
-# <a name="command-object-ado-reference"></a><span data-ttu-id="cd5f1-102">Referencia de objeto Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="cd5f1-102">Command object (ADO) reference</span></span>
+# <a name="command-object-ado-reference"></a><span data-ttu-id="d18f2-102">Referencia de objeto Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="d18f2-102">Command object (ADO) reference</span></span>
 
-<span data-ttu-id="cd5f1-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd5f1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d18f2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d18f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cd5f1-104">Command (objeto, ADO)</span><span class="sxs-lookup"><span data-stu-id="cd5f1-104">Command object (ADO)</span></span>](command-object-ado.md)
-- [<span data-ttu-id="cd5f1-105">Comandos propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="cd5f1-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="d18f2-104">Command (objeto, ADO)</span><span class="sxs-lookup"><span data-stu-id="d18f2-104">Command object (ADO)</span></span>](command-object-ado.md)
+- [<span data-ttu-id="d18f2-105">Comandos propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="d18f2-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
 

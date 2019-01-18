@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
 ms:contentKeyID: 48545165
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4fc03ab931d7ae178d1192a00332d460634a4008
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7c6195fe233736a393e5ce83d4175b47e22f9d6f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925558"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702484"
 ---
-# <a name="hierarchies-collection-ado-md"></a><span data-ttu-id="1ab33-102">Hierarchies (colección, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1ab33-102">Hierarchies collection (ADO MD)</span></span>
+# <a name="hierarchies-collection-ado-md"></a><span data-ttu-id="bc5ed-102">Hierarchies (colección, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bc5ed-102">Hierarchies collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="1ab33-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ab33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bc5ed-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc5ed-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1ab33-104">Contiene los objetos [Hierarchy](hierarchy-object-ado-md.md) establecidos de una dimensión.</span><span class="sxs-lookup"><span data-stu-id="1ab33-104">Contains the set [Hierarchy](hierarchy-object-ado-md.md) objects from a dimension.</span></span>
+<span data-ttu-id="bc5ed-104">Contiene los objetos [Hierarchy](hierarchy-object-ado-md.md) establecidos de una dimensión.</span><span class="sxs-lookup"><span data-stu-id="bc5ed-104">Contains the set [Hierarchy](hierarchy-object-ado-md.md) objects from a dimension.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1ab33-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1ab33-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc5ed-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bc5ed-105">Remarks</span></span>
 
-<span data-ttu-id="1ab33-p101">**Hierarchies** es una colección de ADO estándar. Con las propiedades y los métodos de una colección, puede realizar las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="1ab33-p101">**Hierarchies** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="bc5ed-p101">**Hierarchies** es una colección de ADO estándar. Con las propiedades y los métodos de una colección, puede realizar las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="bc5ed-p101">**Hierarchies** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
 
-  - <span data-ttu-id="1ab33-108">Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1ab33-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+  - <span data-ttu-id="bc5ed-108">Obtener el número de objetos de la colección con la propiedad [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="bc5ed-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="1ab33-109">Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.</span><span class="sxs-lookup"><span data-stu-id="1ab33-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+  - <span data-ttu-id="bc5ed-109">Devolver un objeto de la colección con la propiedad [Item](item-property-ado.md) predeterminada.</span><span class="sxs-lookup"><span data-stu-id="bc5ed-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="1ab33-110">Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1ab33-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+  - <span data-ttu-id="bc5ed-110">Actualizar los objetos de la colección del proveedor con el método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="bc5ed-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

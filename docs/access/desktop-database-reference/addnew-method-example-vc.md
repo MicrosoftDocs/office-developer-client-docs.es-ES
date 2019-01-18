@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248909(v=office.15)
 ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36bc908cc2594465f890c5e5ff177c6d29868cf8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 845ab6574fa7bc2e5de93d7adbc073fd9f481342
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889808"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700328"
 ---
-# <a name="addnew-method-example-vc"></a><span data-ttu-id="f7e07-102">Ejemplo del método AddNew (VC++)</span><span class="sxs-lookup"><span data-stu-id="f7e07-102">AddNew method example (VC++)</span></span>
+# <a name="addnew-method-example-vc"></a><span data-ttu-id="bbcdd-102">Ejemplo del método AddNew (VC++)</span><span class="sxs-lookup"><span data-stu-id="bbcdd-102">AddNew method example (VC++)</span></span>
 
 
-<span data-ttu-id="f7e07-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7e07-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bbcdd-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bbcdd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f7e07-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="f7e07-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="bbcdd-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="bbcdd-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```cpp 
  
@@ -237,7 +238,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="f7e07-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="f7e07-105">**AddNewX.h**</span></span>
+<span data-ttu-id="bbcdd-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="bbcdd-105">**AddNewX.h**</span></span>
 
 ```cpp 
  

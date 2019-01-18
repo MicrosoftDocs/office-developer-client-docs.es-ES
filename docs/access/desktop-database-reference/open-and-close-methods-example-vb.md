@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249319(v=office.15)
 ms:contentKeyID: 48545078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39458143d1332ad42929fa8b01cc3695f08d4d8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 47c1001b3f2829c9cc593c9eb70a08617ff71798
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703379"
 ---
-# <a name="open-and-close-methods-example-vb"></a><span data-ttu-id="4aeea-102">Ejemplo de los métodos Open y Close (VB)</span><span class="sxs-lookup"><span data-stu-id="4aeea-102">Open and Close methods example (VB)</span></span>
+# <a name="open-and-close-methods-example-vb"></a><span data-ttu-id="00ac8-102">Ejemplo de los métodos Open y Close (VB)</span><span class="sxs-lookup"><span data-stu-id="00ac8-102">Open and Close methods example (VB)</span></span>
 
 
-<span data-ttu-id="4aeea-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4aeea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="00ac8-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00ac8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4aeea-104">En este ejemplo se usan los métodos **Open** y [Close](close-method-ado.md) en objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) que se han abierto.</span><span class="sxs-lookup"><span data-stu-id="4aeea-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="00ac8-104">En este ejemplo se usan los métodos **Open** y [Close](close-method-ado.md) en objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) que se han abierto.</span><span class="sxs-lookup"><span data-stu-id="00ac8-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
 ```vb 
  

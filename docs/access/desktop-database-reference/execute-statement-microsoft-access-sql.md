@@ -10,24 +10,25 @@ f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0fa90ac252e877c583982f4e9f900196a4674b3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879749"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701945"
 ---
-# <a name="execute-statement-microsoft-access-sql"></a><span data-ttu-id="15695-102">Instrucción EXECUTE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="15695-102">EXECUTE statement (Microsoft Access SQL)</span></span>
+# <a name="execute-statement-microsoft-access-sql"></a><span data-ttu-id="cc1ab-102">Instrucción EXECUTE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="cc1ab-102">EXECUTE statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="15695-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15695-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc1ab-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc1ab-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="15695-104">Se usa para invocar la ejecución de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="15695-104">Used to invoke the execution of a procedure.</span></span>
+<span data-ttu-id="cc1ab-104">Se usa para invocar la ejecución de un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="cc1ab-104">Used to invoke the execution of a procedure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="15695-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="15695-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cc1ab-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cc1ab-105">Syntax</span></span>
 
-<span data-ttu-id="15695-106">EXECUTE *procedimiento* \[ *parámetro1*\[, *parámetro2*\[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="15695-106">EXECUTE *procedure* \[*param1*\[, *param2*\[, …\]\]</span></span>
+<span data-ttu-id="cc1ab-106">EXECUTE *procedimiento* \[ *parámetro1*\[, *parámetro2*\[,...\]\]</span><span class="sxs-lookup"><span data-stu-id="cc1ab-106">EXECUTE *procedure* \[*param1*\[, *param2*\[, …\]\]</span></span>
 
-<span data-ttu-id="15695-107">La instrucción EXECUTE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="15695-107">The EXECUTE statement has these parts:</span></span>
+<span data-ttu-id="cc1ab-107">La instrucción EXECUTE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="cc1ab-107">The EXECUTE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -36,26 +37,26 @@ ms.locfileid: "25879749"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="15695-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="15695-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="15695-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="15695-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="cc1ab-108">Elemento</span><span class="sxs-lookup"><span data-stu-id="cc1ab-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="cc1ab-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="cc1ab-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="15695-110"><em>procedimiento</em></span><span class="sxs-lookup"><span data-stu-id="15695-110"><em>procedure</em></span></span></p></td>
-<td><p><span data-ttu-id="15695-111">Nombre del procedimiento que se va a ejecutar.</span><span class="sxs-lookup"><span data-stu-id="15695-111">The name of the procedure that is to be executed.</span></span></p></td>
+<td><p><span data-ttu-id="cc1ab-110"><em>procedimiento</em></span><span class="sxs-lookup"><span data-stu-id="cc1ab-110"><em>procedure</em></span></span></p></td>
+<td><p><span data-ttu-id="cc1ab-111">Nombre del procedimiento que se va a ejecutar.</span><span class="sxs-lookup"><span data-stu-id="cc1ab-111">The name of the procedure that is to be executed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="15695-112"><em>parámetro1, parámetro2, …</em></span><span class="sxs-lookup"><span data-stu-id="15695-112"><em>param1, param2, …</em></span></span></p></td>
-<td><p><span data-ttu-id="15695-113">Valores de los parámetros definidos por el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="15695-113">Values for the parameters defined by the procedure.</span></span></p></td>
+<td><p><span data-ttu-id="cc1ab-112"><em>parámetro1, parámetro2, …</em></span><span class="sxs-lookup"><span data-stu-id="cc1ab-112"><em>param1, param2, …</em></span></span></p></td>
+<td><p><span data-ttu-id="cc1ab-113">Valores de los parámetros definidos por el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="cc1ab-113">Values for the parameters defined by the procedure.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="15695-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="15695-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cc1ab-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="cc1ab-114">Example</span></span>
 
-<span data-ttu-id="15695-115">En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="15695-115">This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="cc1ab-115">En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="cc1ab-115">This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub ProcedureX() 

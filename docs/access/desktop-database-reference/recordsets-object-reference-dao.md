@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124002(v=office.15)
 ms:contentKeyID: 52071639
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e88a32fc1a757b7c6459a0d59c4b76510a87271d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 36cbc4746284842656bf66d0bb7f50fd889c499a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929604"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705445"
 ---
-# <a name="recordsets-object-reference-dao"></a><span data-ttu-id="14640-102">Referencia de objeto de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="14640-102">Recordsets object reference (DAO)</span></span>
+# <a name="recordsets-object-reference-dao"></a><span data-ttu-id="d49fe-102">Referencia de objeto de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49fe-102">Recordsets object reference (DAO)</span></span>
 
-<span data-ttu-id="14640-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="14640-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d49fe-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d49fe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="14640-104">Colección Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="14640-104">Recordsets collection (DAO)</span></span>](recordsets-collection-dao.md)
-- [<span data-ttu-id="14640-105">Miembros de los conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="14640-105">Recordsets members (DAO)</span></span>](recordsets-members-dao.md)
-- [<span data-ttu-id="14640-106">Propiedades de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="14640-106">Recordsets properties (DAO)</span></span>](recordsets-properties-dao.md)
-- [<span data-ttu-id="14640-107">Métodos de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="14640-107">Recordsets methods (DAO)</span></span>](recordsets-methods-dao.md)
+- [<span data-ttu-id="d49fe-104">Colección Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49fe-104">Recordsets collection (DAO)</span></span>](recordsets-collection-dao.md)
+- [<span data-ttu-id="d49fe-105">Miembros de los conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49fe-105">Recordsets members (DAO)</span></span>](recordsets-members-dao.md)
+- [<span data-ttu-id="d49fe-106">Propiedades de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49fe-106">Recordsets properties (DAO)</span></span>](recordsets-properties-dao.md)
+- [<span data-ttu-id="d49fe-107">Métodos de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49fe-107">Recordsets methods (DAO)</span></span>](recordsets-methods-dao.md)
 

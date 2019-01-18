@@ -6,22 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c1b127995a2f9a0af7da80e9df862259b570870e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998815"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721650"
 ---
-# <a name="moveandsizewindow-macro-action"></a><span data-ttu-id="e642c-102">MoverYCambiarTamañoDeVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="e642c-102">MoveAndSizeWindow macro action</span></span>
+# <a name="moveandsizewindow-macro-action"></a><span data-ttu-id="3069e-102">MoverYCambiarTamañoDeVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3069e-102">MoveAndSizeWindow macro action</span></span>
 
-<span data-ttu-id="e642c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e642c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3069e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3069e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e642c-104">Si ha establecido el documento de opciones de la ventana para usar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa.</span><span class="sxs-lookup"><span data-stu-id="e642c-104">If you have set your document window options to use overlapping windows instead of tabbed documents, you can use the **MoveAndSizeWindow** action to move or resize the active window.</span></span> <span data-ttu-id="e642c-105">Para obtener información acerca de cómo configurar las opciones de la ventana de documento, vea la sección Comentarios.</span><span class="sxs-lookup"><span data-stu-id="e642c-105">For information on how to set document window options, see the Remarks section.</span></span>
+<span data-ttu-id="3069e-104">Si ha establecido el documento de opciones de la ventana para usar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa.</span><span class="sxs-lookup"><span data-stu-id="3069e-104">If you have set your document window options to use overlapping windows instead of tabbed documents, you can use the **MoveAndSizeWindow** action to move or resize the active window.</span></span> <span data-ttu-id="3069e-105">Para obtener información acerca de cómo configurar las opciones de la ventana de documento, vea la sección Comentarios.</span><span class="sxs-lookup"><span data-stu-id="3069e-105">For information on how to set document window options, see the Remarks section.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="e642c-106">Configuración</span><span class="sxs-lookup"><span data-stu-id="e642c-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="3069e-106">Setting</span><span class="sxs-lookup"><span data-stu-id="3069e-106">Setting</span></span>
 
-<span data-ttu-id="e642c-107">La acción **Moverycambiartamañodeventana** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="e642c-107">The **MoveAndSizeWindow** action has the following arguments.</span></span>
+<span data-ttu-id="3069e-107">La acción **Moverycambiartamañodeventana** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="3069e-107">The **MoveAndSizeWindow** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -30,65 +31,65 @@ ms.locfileid: "25998815"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e642c-108">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="e642c-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="e642c-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="e642c-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="3069e-108">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="3069e-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="3069e-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="3069e-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e642c-110"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-110"><strong>Right</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-111">Nueva posición horizontal de la esquina superior izquierda de la ventana, medida desde el borde izquierdo de la ventana contenedora.</span><span class="sxs-lookup"><span data-stu-id="e642c-111">The new horizontal position of the window's upper-left corner, measured from the left edge of its containing window.</span></span> <span data-ttu-id="e642c-112">Especifique la posición en el cuadro de la <strong>derecha</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros.</span><span class="sxs-lookup"><span data-stu-id="e642c-112">Enter the position in the <strong>Right</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-110"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-110"><strong>Right</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-111">Nueva posición horizontal de la esquina superior izquierda de la ventana, medida desde el borde izquierdo de la ventana contenedora.</span><span class="sxs-lookup"><span data-stu-id="3069e-111">The new horizontal position of the window's upper-left corner, measured from the left edge of its containing window.</span></span> <span data-ttu-id="3069e-112">Especifique la posición en el cuadro de la <strong>derecha</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros.</span><span class="sxs-lookup"><span data-stu-id="3069e-112">Enter the position in the <strong>Right</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e642c-113"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-113"><strong>Down</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-114">Nueva posición vertical de la esquina superior izquierda de la ventana, medida desde el borde superior de la ventana contenedora.</span><span class="sxs-lookup"><span data-stu-id="e642c-114">The new vertical position of the window's upper-left corner, measured from the top edge of its containing window.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-113"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-113"><strong>Down</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-114">Nueva posición vertical de la esquina superior izquierda de la ventana, medida desde el borde superior de la ventana contenedora.</span><span class="sxs-lookup"><span data-stu-id="3069e-114">The new vertical position of the window's upper-left corner, measured from the top edge of its containing window.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e642c-115"><strong>Width</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-115"><strong>Width</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-116">Nuevo ancho de la ventana.</span><span class="sxs-lookup"><span data-stu-id="e642c-116">The window's new width.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-115"><strong>Width</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-115"><strong>Width</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-116">Nuevo ancho de la ventana.</span><span class="sxs-lookup"><span data-stu-id="3069e-116">The window's new width.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e642c-117"><strong>Height</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-117"><strong>Height</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-118">Nuevo alto de la ventana.</span><span class="sxs-lookup"><span data-stu-id="e642c-118">The window's new height.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-117"><strong>Height</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-117"><strong>Height</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-118">Nuevo alto de la ventana.</span><span class="sxs-lookup"><span data-stu-id="3069e-118">The window's new height.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e642c-119">Si deja un argumento en blanco, Microsoft Access utiliza la configuración actual de la ventana.</span><span class="sxs-lookup"><span data-stu-id="e642c-119">If you leave an argument blank, Microsoft Access uses the window's current setting.</span></span>
+<span data-ttu-id="3069e-119">Si deja un argumento en blanco, Microsoft Access utiliza la configuración actual de la ventana.</span><span class="sxs-lookup"><span data-stu-id="3069e-119">If you leave an argument blank, Microsoft Access uses the window's current setting.</span></span>
 
-<span data-ttu-id="e642c-120">Debe escribir un valor para al menos un argumento.</span><span class="sxs-lookup"><span data-stu-id="e642c-120">You must enter a value for at least one argument.</span></span>
+<span data-ttu-id="3069e-120">Debe escribir un valor para al menos un argumento.</span><span class="sxs-lookup"><span data-stu-id="3069e-120">You must enter a value for at least one argument.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e642c-121">Cada medida es en pulgadas o centímetros, dependiendo de la configuración regional en el Panel de Control de Windows.</span><span class="sxs-lookup"><span data-stu-id="e642c-121">Each measurement is in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span>
+> <span data-ttu-id="3069e-121">Cada medida es en pulgadas o centímetros, dependiendo de la configuración regional en el Panel de Control de Windows.</span><span class="sxs-lookup"><span data-stu-id="3069e-121">Each measurement is in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e642c-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e642c-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3069e-122">Observaciones</span><span class="sxs-lookup"><span data-stu-id="3069e-122">Remarks</span></span>
 
-<span data-ttu-id="e642c-123">Para configurar una aplicación para utilizar ventanas superpuestas en lugar de documentos con fichas, utilice el procedimiento siguiente:</span><span class="sxs-lookup"><span data-stu-id="e642c-123">To set up an application to use overlapping windows instead of tabbed documents, use the following procedure:</span></span>
+<span data-ttu-id="3069e-123">Para configurar una aplicación para utilizar ventanas superpuestas en lugar de documentos con fichas, utilice el procedimiento siguiente:</span><span class="sxs-lookup"><span data-stu-id="3069e-123">To set up an application to use overlapping windows instead of tabbed documents, use the following procedure:</span></span>
 
-1.  <span data-ttu-id="e642c-124">Haga clic en **Opciones**</span><span class="sxs-lookup"><span data-stu-id="e642c-124">Click **Options**</span></span>
+1.  <span data-ttu-id="3069e-124">Haga clic en **Opciones**</span><span class="sxs-lookup"><span data-stu-id="3069e-124">Click **Options**</span></span>
 
-2.  <span data-ttu-id="e642c-125">Haga clic en **base de datos actual**.</span><span class="sxs-lookup"><span data-stu-id="e642c-125">Click **Current Database**.</span></span>
+2.  <span data-ttu-id="3069e-125">Haga clic en **base de datos actual**.</span><span class="sxs-lookup"><span data-stu-id="3069e-125">Click **Current Database**.</span></span>
 
-3.  <span data-ttu-id="e642c-126">En la sección **Opciones de aplicación**, bajo **Opciones de la ventana de documentos**, haga clic en **Ventanas superpuestas**.</span><span class="sxs-lookup"><span data-stu-id="e642c-126">In the **Application Options** section, under **Document Window Options**, click **Overlapping Windows**.</span></span>
+3.  <span data-ttu-id="3069e-126">En la sección **Opciones de aplicación**, bajo **Opciones de la ventana de documentos**, haga clic en **Ventanas superpuestas**.</span><span class="sxs-lookup"><span data-stu-id="3069e-126">In the **Application Options** section, under **Document Window Options**, click **Overlapping Windows**.</span></span>
 
-4.  <span data-ttu-id="e642c-127">Haga clic en **Aceptar**y, a continuación, cierre y vuelva a abrir la base de datos.</span><span class="sxs-lookup"><span data-stu-id="e642c-127">Click **OK**, and then close and reopen the database.</span></span>
+4.  <span data-ttu-id="3069e-127">Haga clic en **Aceptar**y, a continuación, cierre y vuelva a abrir la base de datos.</span><span class="sxs-lookup"><span data-stu-id="3069e-127">Click **OK**, and then close and reopen the database.</span></span>
 
-<span data-ttu-id="e642c-128">Esta acción es similar a hacer clic en **mover** o **tamaño** en el menú **Control** de la ventana.</span><span class="sxs-lookup"><span data-stu-id="e642c-128">This action is similar to clicking **Move** or **Size** on the window's **Control** menu.</span></span> <span data-ttu-id="e642c-129">Con los comandos de menú, se utilizan las teclas de desplazamiento para mover o cambiar el tamaño de la ventana.</span><span class="sxs-lookup"><span data-stu-id="e642c-129">With the menu commands, you use the keyboard's arrow keys to move or resize the window.</span></span> <span data-ttu-id="e642c-130">Con la acción **Moverycambiartamañodeventana** , introduzca directamente las medidas de posición y tamaño.</span><span class="sxs-lookup"><span data-stu-id="e642c-130">With the **MoveAndSizeWindow** action, you enter the position and size measurements directly.</span></span> <span data-ttu-id="e642c-131">También puede usar el mouse para mover y cambiar el tamaño de windows.</span><span class="sxs-lookup"><span data-stu-id="e642c-131">You can also use the mouse to move and size windows.</span></span>
+<span data-ttu-id="3069e-128">Esta acción es similar a hacer clic en **mover** o **tamaño** en el menú **Control** de la ventana.</span><span class="sxs-lookup"><span data-stu-id="3069e-128">This action is similar to clicking **Move** or **Size** on the window's **Control** menu.</span></span> <span data-ttu-id="3069e-129">Con los comandos de menú, se utilizan las teclas de desplazamiento para mover o cambiar el tamaño de la ventana.</span><span class="sxs-lookup"><span data-stu-id="3069e-129">With the menu commands, you use the keyboard's arrow keys to move or resize the window.</span></span> <span data-ttu-id="3069e-130">Con la acción **Moverycambiartamañodeventana** , introduzca directamente las medidas de posición y tamaño.</span><span class="sxs-lookup"><span data-stu-id="3069e-130">With the **MoveAndSizeWindow** action, you enter the position and size measurements directly.</span></span> <span data-ttu-id="3069e-131">También puede usar el mouse para mover y cambiar el tamaño de windows.</span><span class="sxs-lookup"><span data-stu-id="3069e-131">You can also use the mouse to move and size windows.</span></span>
 
-<span data-ttu-id="e642c-132">Puede usar esta acción en cualquier ventana, en cualquier vista.</span><span class="sxs-lookup"><span data-stu-id="e642c-132">You can use this action on any window, in any view.</span></span>
+<span data-ttu-id="3069e-132">Puede usar esta acción en cualquier ventana, en cualquier vista.</span><span class="sxs-lookup"><span data-stu-id="3069e-132">You can use this action on any window, in any view.</span></span>
 
 > [!TIP]
-> - <span data-ttu-id="e642c-133">Para mover una ventana sin cambiar su tamaño, especifique valores para la **derecha** y **abajo** argumentos pero deja en blanco los argumentos **ancho** y **alto** .</span><span class="sxs-lookup"><span data-stu-id="e642c-133">To move a window without resizing it, enter values for the **Right** and **Down** arguments but leave the **Width** and **Height** arguments blank.</span></span>
-> - <span data-ttu-id="e642c-134">Para cambiar el tamaño de una ventana sin moverla, especifique valores para los argumentos de **alto** y **ancho** pero deja en blanco los argumentos **derecha** y **abajo** .</span><span class="sxs-lookup"><span data-stu-id="e642c-134">To resize a window without moving it, enter values for the **Width** and **Height** arguments but leave the **Right** and **Down** arguments blank.</span></span>
+> - <span data-ttu-id="3069e-133">Para mover una ventana sin cambiar su tamaño, especifique valores para la **derecha** y **abajo** argumentos pero deja en blanco los argumentos **ancho** y **alto** .</span><span class="sxs-lookup"><span data-stu-id="3069e-133">To move a window without resizing it, enter values for the **Right** and **Down** arguments but leave the **Width** and **Height** arguments blank.</span></span>
+> - <span data-ttu-id="3069e-134">Para cambiar el tamaño de una ventana sin moverla, especifique valores para los argumentos de **alto** y **ancho** pero deja en blanco los argumentos **derecha** y **abajo** .</span><span class="sxs-lookup"><span data-stu-id="3069e-134">To resize a window without moving it, enter values for the **Width** and **Height** arguments but leave the **Right** and **Down** arguments blank.</span></span>
 
-<span data-ttu-id="e642c-135">Para ejecutar la acción **Moverycambiartamañodeventana** en un módulo Visual Basic para aplicaciones (VBA), use el método **MoveSize** del objeto **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="e642c-135">To run the **MoveAndSizeWindow** action in a Visual Basic for Applications (VBA) module, use the **MoveSize** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="3069e-135">Para ejecutar la acción **Moverycambiartamañodeventana** en un módulo Visual Basic para aplicaciones (VBA), use el método **MoveSize** del objeto **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="3069e-135">To run the **MoveAndSizeWindow** action in a Visual Basic for Applications (VBA) module, use the **MoveSize** method of the **DoCmd** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e642c-136">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e642c-136">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3069e-136">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3069e-136">Example</span></span>
 
-<span data-ttu-id="e642c-137">**Sincronizar formularios con una macro**</span><span class="sxs-lookup"><span data-stu-id="e642c-137">**Synchronize forms by using a macro**</span></span>
+<span data-ttu-id="3069e-137">**Sincronizar formularios con una macro**</span><span class="sxs-lookup"><span data-stu-id="3069e-137">**Synchronize forms by using a macro**</span></span>
 
-<span data-ttu-id="e642c-p104">La siguiente macro abre Lista de productos en la esquina inferior derecha del formulario Proveedores y muestra los productos del proveedor actual. Muestra el uso de las acciones **Eco**, **CuadroDeMensajes**, **IrAControl**, **DetenerMacro**, **AbrirFormulario** y **MoverYCambiarTamañoDeVentana**. También muestra el uso de una expresión condicional con las acciones **CuadroDeMensajes**, **IrAControl** y **DetenerMacro**. Esta macro se debe adjuntar al botón Revisar productos del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="e642c-p104">The following macro opens a Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products. It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions. It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions. This macro should be attached to the Review Products button on the Suppliers form.</span></span>
+<span data-ttu-id="3069e-p104">La siguiente macro abre Lista de productos en la esquina inferior derecha del formulario Proveedores y muestra los productos del proveedor actual. Muestra el uso de las acciones **Eco**, **CuadroDeMensajes**, **IrAControl**, **DetenerMacro**, **AbrirFormulario** y **MoverYCambiarTamañoDeVentana**. También muestra el uso de una expresión condicional con las acciones **CuadroDeMensajes**, **IrAControl** y **DetenerMacro**. Esta macro se debe adjuntar al botón Revisar productos del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="3069e-p104">The following macro opens a Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products. It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions. It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions. This macro should be attached to the Review Products button on the Suppliers form.</span></span>
 
 <table>
 <colgroup>
@@ -99,48 +100,48 @@ ms.locfileid: "25998815"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e642c-142">Condición</span><span class="sxs-lookup"><span data-stu-id="e642c-142">Condition</span></span></p></th>
-<th><p><span data-ttu-id="e642c-143">Acción</span><span class="sxs-lookup"><span data-stu-id="e642c-143">Action</span></span></p></th>
-<th><p><span data-ttu-id="e642c-144">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="e642c-144">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="e642c-145">Comentario</span><span class="sxs-lookup"><span data-stu-id="e642c-145">Comment</span></span></p></th>
+<th><p><span data-ttu-id="3069e-142">Condición</span><span class="sxs-lookup"><span data-stu-id="3069e-142">Condition</span></span></p></th>
+<th><p><span data-ttu-id="3069e-143">Acción</span><span class="sxs-lookup"><span data-stu-id="3069e-143">Action</span></span></p></th>
+<th><p><span data-ttu-id="3069e-144">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="3069e-144">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="3069e-145">Comentario</span><span class="sxs-lookup"><span data-stu-id="3069e-145">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="e642c-146"><strong>Eco</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-146"><strong>Echo</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-147"><strong>Eco activo</strong>: <strong>No</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-147"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-148">Detener la actualización de la pantalla mientras se ejecuta la macro.</span><span class="sxs-lookup"><span data-stu-id="e642c-148">Stop screen updating while the macro is running.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-146"><strong>Eco</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-146"><strong>Echo</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-147"><strong>Eco activo</strong>: <strong>No</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-147"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-148">Detener la actualización de la pantalla mientras se ejecuta la macro.</span><span class="sxs-lookup"><span data-stu-id="3069e-148">Stop screen updating while the macro is running.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e642c-149">IsNull([Id. de proveedor])</span><span class="sxs-lookup"><span data-stu-id="e642c-149">IsNull([Supplier ID])</span></span></p></td>
-<td><p><span data-ttu-id="e642c-150"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-150"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-151"><strong>Mensaje</strong>: mover al registro del proveedor los productos que quiera ver, luego, haga clic de nuevo en el botón Revisar productos.</span><span class="sxs-lookup"><span data-stu-id="e642c-151"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="e642c-152"><strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: seleccionar un proveedor</span><span class="sxs-lookup"><span data-stu-id="e642c-152"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
-<td><p><span data-ttu-id="e642c-153">Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="e642c-153">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-149">IsNull([Id. de proveedor])</span><span class="sxs-lookup"><span data-stu-id="3069e-149">IsNull([Supplier ID])</span></span></p></td>
+<td><p><span data-ttu-id="3069e-150"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-150"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-151"><strong>Mensaje</strong>: mover al registro del proveedor los productos que quiera ver, luego, haga clic de nuevo en el botón Revisar productos.</span><span class="sxs-lookup"><span data-stu-id="3069e-151"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="3069e-152"><strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: seleccionar un proveedor</span><span class="sxs-lookup"><span data-stu-id="3069e-152"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
+<td><p><span data-ttu-id="3069e-153">Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="3069e-153">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="e642c-154"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-154"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-155"><strong>Nombre del control</strong>: NombreDeEmpresa</span><span class="sxs-lookup"><span data-stu-id="e642c-155"><strong>Control Name</strong>: CompanyName</span></span></p></td>
-<td><p><span data-ttu-id="e642c-156">Mover el foco al control NombreDeEmpresa.</span><span class="sxs-lookup"><span data-stu-id="e642c-156">Move focus to the CompanyName control.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-154"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-154"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-155"><strong>Nombre del control</strong>: NombreDeEmpresa</span><span class="sxs-lookup"><span data-stu-id="3069e-155"><strong>Control Name</strong>: CompanyName</span></span></p></td>
+<td><p><span data-ttu-id="3069e-156">Mover el foco al control NombreDeEmpresa.</span><span class="sxs-lookup"><span data-stu-id="3069e-156">Move focus to the CompanyName control.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e642c-157">...</span><span class="sxs-lookup"><span data-stu-id="e642c-157"></span></span></p></td>
-<td><p><span data-ttu-id="e642c-158"><strong>DetenerMacro</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-158"><strong>StopMacro</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-157">...</span><span class="sxs-lookup"><span data-stu-id="3069e-157"></span></span></p></td>
+<td><p><span data-ttu-id="3069e-158"><strong>DetenerMacro</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-158"><strong>StopMacro</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="e642c-159">Detener la macro.</span><span class="sxs-lookup"><span data-stu-id="e642c-159">Stop the macro.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-159">Detener la macro.</span><span class="sxs-lookup"><span data-stu-id="3069e-159">Stop the macro.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="e642c-160"><strong>AbrirFormulario</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-160"><strong>OpenForm</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-161"><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre de DatasheetFilter</strong>: <strong>condición Where</strong>: [ID de proveedor] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-161"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [Supplier ID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-162">Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</span><span class="sxs-lookup"><span data-stu-id="e642c-162">Open the Product List form and show the current supplier's products.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-160"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-160"><strong>OpenForm</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-161"><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre de DatasheetFilter</strong>: <strong>condición Where</strong>: [ID de proveedor] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-161"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [Supplier ID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-162">Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</span><span class="sxs-lookup"><span data-stu-id="3069e-162">Open the Product List form and show the current supplier's products.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="e642c-163"><strong>MoverYCambiarTamañoDeVentana</strong></span><span class="sxs-lookup"><span data-stu-id="e642c-163"><strong>MoveAndSizeWindow</strong></span></span></p></td>
-<td><p><span data-ttu-id="e642c-164"><strong>Derecha</strong>: 0.7799&quot; <strong>hacia abajo</strong>: 1,8&quot;</span><span class="sxs-lookup"><span data-stu-id="e642c-164"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
-<td><p><span data-ttu-id="e642c-165">Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="e642c-165">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
+<td><p><span data-ttu-id="3069e-163"><strong>MoverYCambiarTamañoDeVentana</strong></span><span class="sxs-lookup"><span data-stu-id="3069e-163"><strong>MoveAndSizeWindow</strong></span></span></p></td>
+<td><p><span data-ttu-id="3069e-164"><strong>Derecha</strong>: 0.7799&quot; <strong>hacia abajo</strong>: 1,8&quot;</span><span class="sxs-lookup"><span data-stu-id="3069e-164"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
+<td><p><span data-ttu-id="3069e-165">Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="3069e-165">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
 </tr>
 </tbody>
 </table>
