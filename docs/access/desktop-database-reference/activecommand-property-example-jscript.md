@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
 ms:contentKeyID: 48547070
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 62e3e8404cb517472dd94d27a899531dde7f076f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 598cfa0cc7d35586e02f003ac28401f72a5e2929
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887988"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698305"
 ---
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="c1d15-102">Ejemplo de la propiedad ActiveCommand (JScript)</span><span class="sxs-lookup"><span data-stu-id="c1d15-102">ActiveCommand property example (JScript)</span></span>
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="52674-102">Ejemplo de la propiedad ActiveCommand (JScript)</span><span class="sxs-lookup"><span data-stu-id="52674-102">ActiveCommand property example (JScript)</span></span>
 
-<span data-ttu-id="c1d15-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1d15-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52674-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52674-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1d15-p101">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md). Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="c1d15-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+<span data-ttu-id="52674-p101">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md). Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="52674-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 

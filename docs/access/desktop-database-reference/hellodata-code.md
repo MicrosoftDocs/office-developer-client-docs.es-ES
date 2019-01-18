@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
 ms:contentKeyID: 48547213
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d7fe26cfbd20cdb0464e9c8ad4bae0ef91b0a31
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3f180413b47d909d0f23a8dacd70f85bc9684c57
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945764"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705606"
 ---
-# <a name="hellodata-code"></a><span data-ttu-id="a84bf-102">Código HelloData</span><span class="sxs-lookup"><span data-stu-id="a84bf-102">HelloData code</span></span>
+# <a name="hellodata-code"></a><span data-ttu-id="70291-102">Código de HelloData</span><span class="sxs-lookup"><span data-stu-id="70291-102">HelloData code</span></span>
 
 
-<span data-ttu-id="a84bf-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a84bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="70291-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70291-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

@@ -6,25 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
 ms:contentKeyID: 48546685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d572e7629deca0c7732bafbdfdb0c600ce34a35
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 86734d77cafd8dbe3c26219e291c16b81ef0026b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880183"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705949"
 ---
-# <a name="nativeerror-property-ado"></a><span data-ttu-id="187dc-102">NativeError (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="187dc-102">NativeError property (ADO)</span></span>
+# <a name="nativeerror-property-ado"></a><span data-ttu-id="847f0-102">NativeError (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="847f0-102">NativeError property (ADO)</span></span>
 
 
-<span data-ttu-id="187dc-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="187dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="847f0-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="847f0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="187dc-104">Indica el código de error específico de un proveedor para un objeto [Error](error-object-ado.md) dado.</span><span class="sxs-lookup"><span data-stu-id="187dc-104">Indicates the provider-specific error code for a given [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="847f0-104">Indica el código de error específico de un proveedor para un objeto [Error](error-object-ado.md) dado.</span><span class="sxs-lookup"><span data-stu-id="847f0-104">Indicates the provider-specific error code for a given [Error](error-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="187dc-105">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="187dc-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="847f0-105">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="847f0-105">Return value</span></span>
 
-<span data-ttu-id="187dc-106">Devuelve un valor de tipo **Long** que indica el código del error.</span><span class="sxs-lookup"><span data-stu-id="187dc-106">Returns a **Long** value that indicates the error code.</span></span>
+<span data-ttu-id="847f0-106">Devuelve un valor de tipo **Long** que indica el código del error.</span><span class="sxs-lookup"><span data-stu-id="847f0-106">Returns a **Long** value that indicates the error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="187dc-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="187dc-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="847f0-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="847f0-107">Remarks</span></span>
 
-<span data-ttu-id="187dc-p101">Utilice la propiedad **NativeError** para recuperar información de error específica de base de datos de un objeto **Error** concreto. Por ejemplo, al utilizar el Proveedor de Microsoft OLE DB para ODBC con una base de datos de Microsoft SQL Server, los códigos de error nativos que se originan en SQL Server pasan a través de ODBC y el Proveedor ODBC a la propiedad **NativeError** de ADO.</span><span class="sxs-lookup"><span data-stu-id="187dc-p101">Use the **NativeError** property to retrieve the database-specific error information for a particular **Error** object. For example, when using the Microsoft ODBC Provider for OLE DB with a Microsoft SQL Server database, native error codes that originate from SQL Server pass through ODBC and the ODBC Provider to the ADO **NativeError** property.</span></span>
+<span data-ttu-id="847f0-p101">Utilice la propiedad **NativeError** para recuperar información de error específica de base de datos de un objeto **Error** concreto. Por ejemplo, al utilizar el Proveedor de Microsoft OLE DB para ODBC con una base de datos de Microsoft SQL Server, los códigos de error nativos que se originan en SQL Server pasan a través de ODBC y el Proveedor ODBC a la propiedad **NativeError** de ADO.</span><span class="sxs-lookup"><span data-stu-id="847f0-p101">Use the **NativeError** property to retrieve the database-specific error information for a particular **Error** object. For example, when using the Microsoft ODBC Provider for OLE DB with a Microsoft SQL Server database, native error codes that originate from SQL Server pass through ODBC and the ODBC Provider to the ADO **NativeError** property.</span></span>
 

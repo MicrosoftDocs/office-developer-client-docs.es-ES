@@ -1,27 +1,28 @@
 ---
-title: Filtrar registros actualizados
+title: Filtro de registros actualizados
 TOCTitle: Filtering for updated records
 ms:assetid: 0dc22b0a-3501-078d-788c-40aa97f2e644
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248857(v=office.15)
 ms:contentKeyID: 48543229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3bf6619b9b375642bc9f279aea92cb20df3b859
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 791cbbd16eef7baf95fd51ab8624a04dc687166b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947815"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700489"
 ---
-# <a name="filtering-for-updated-records"></a><span data-ttu-id="915bb-102">Filtrar registros actualizados</span><span class="sxs-lookup"><span data-stu-id="915bb-102">Filtering for updated records</span></span>
+# <a name="filtering-for-updated-records"></a><span data-ttu-id="6b943-102">Filtro de registros actualizados</span><span class="sxs-lookup"><span data-stu-id="6b943-102">Filtering for updated records</span></span>
 
-<span data-ttu-id="915bb-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="915bb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6b943-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b943-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="filtering-for-updated-records"></a><span data-ttu-id="915bb-104">Filtro de registros actualizados</span><span class="sxs-lookup"><span data-stu-id="915bb-104">Filtering for Updated Records</span></span>
+## <a name="filtering-for-updated-records"></a><span data-ttu-id="6b943-104">Filtro de registros actualizados</span><span class="sxs-lookup"><span data-stu-id="6b943-104">Filtering for Updated Records</span></span>
 
-<span data-ttu-id="915bb-p101">Antes de llamar a **UpdateBatch**, puede usar la propiedad **Filter** del **conjunto de registros** para ver sólo los registros que se han modificado desde que se abrió el **conjunto de registros** o desde la última llamada a **UpdateBatch**. Para ello, establezca **Filter** en **adFilterPendingRecords** para determinar la cantidad de registros que se actualizarán, como se indica más adelante.</span><span class="sxs-lookup"><span data-stu-id="915bb-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
+<span data-ttu-id="6b943-p101">Antes de llamar a **UpdateBatch**, puede usar la propiedad **Filter** del **conjunto de registros** para ver sólo los registros que se han modificado desde que se abrió el **conjunto de registros** o desde la última llamada a **UpdateBatch**. Para ello, establezca **Filter** en **adFilterPendingRecords** para determinar la cantidad de registros que se actualizarán, como se indica más adelante.</span><span class="sxs-lookup"><span data-stu-id="6b943-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
 
-<span data-ttu-id="915bb-107">Este ejemplo es una ampliación del ejemplo de **UpdateBatch** anterior. Ahora se filtra el **conjunto de registros** justo antes de llamar a **UpdateBatch**, mostrando al usuario los registros que cambiarán y permitiéndole cancelar la actualización (mediante el método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="915bb-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
+<span data-ttu-id="6b943-107">Este ejemplo es una ampliación del ejemplo de **UpdateBatch** anterior. Ahora se filtra el **conjunto de registros** justo antes de llamar a **UpdateBatch**, mostrando al usuario los registros que cambiarán y permitiéndole cancelar la actualización (mediante el método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="6b943-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
 
 ```vb 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
 ms:contentKeyID: 48548474
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 59ca2013f9cc3551d73ea21d8a6af610e0d159d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867366"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705823"
 ---
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="59a34-102">Ejemplo de la propiedad DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="59a34-102">DefinedSize property example (VC++)</span></span>
+# <a name="definedsize-property-example-vc"></a><span data-ttu-id="25bf2-102">Ejemplo de la propiedad DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="25bf2-102">DefinedSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="59a34-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59a34-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25bf2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25bf2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="59a34-104">En este ejemplo, se muestra la propiedad [DefinedSize](definedsize-property-adox.md) de una [columna](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="59a34-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="59a34-105">El código volverá a definir el tamaño de la columna Name de la tabla **Employees** de la base de datos *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="59a34-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="59a34-106">A continuación, se mostrará el cambio en los valores del [campo](field-object-ado.md) Nombre de un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees**.</span><span class="sxs-lookup"><span data-stu-id="59a34-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="59a34-107">Tenga en cuenta que, de forma predeterminada, el campo Name se rellenará con espacios cuando haya redefinido la propiedad **DefinedSize**.</span><span class="sxs-lookup"><span data-stu-id="59a34-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
+<span data-ttu-id="25bf2-104">En este ejemplo, se muestra la propiedad [DefinedSize](definedsize-property-adox.md) de una [columna](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="25bf2-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="25bf2-105">El código volverá a definir el tamaño de la columna Name de la tabla **Employees** de la base de datos *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="25bf2-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="25bf2-106">A continuación, se mostrará el cambio en los valores del [campo](field-object-ado.md) Nombre de un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees**.</span><span class="sxs-lookup"><span data-stu-id="25bf2-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="25bf2-107">Tenga en cuenta que, de forma predeterminada, el campo Name se rellenará con espacios cuando haya redefinido la propiedad **DefinedSize**.</span><span class="sxs-lookup"><span data-stu-id="25bf2-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
 
 ```cpp 
  
