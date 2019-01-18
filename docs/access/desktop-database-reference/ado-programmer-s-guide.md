@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df937a4b0d7252cf94ebf96fe261068c801b9f3e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b44bf60399cd3bdab9e5a1e51d13cbfc1daaba6c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944322"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704766"
 ---
 # <a name="ado-programmers-guide"></a>Guía del programador de ADO
 
@@ -21,7 +22,7 @@ Guía del programador de ADO se ha creado para ayudar a los desarrolladores que 
 
 Guía del programador de ADO contiene las secciones y los capítulos siguientes:
 
-- [Introduction](introduction-to-ado-programming.md)
+- [Introducción](introduction-to-ado-programming.md)
   
 - [Sección I: Objetos de datos ActiveX (ADO)](section-i-activex-data-objects.md)
     

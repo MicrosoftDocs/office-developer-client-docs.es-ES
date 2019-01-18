@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 47ad61495bcc96b3099af6273796626e9442cbf0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950086"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702848"
 ---
 # <a name="createobject-method-rds"></a>CreateObject (método, RDS)
 
@@ -59,12 +60,12 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 
 |Parámetro|Descripción|
 |:--------|:----------|
-|*Object* |Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.|
+|*Objeto* |Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.|
 |*DataSpace* |Variable de objeto que representa un objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para crear una instancia del objeto nuevo.|
 |*ProgID* |Valor de tipo **String** que contiene el identificador de programación que especifica un objeto de negocio de servidor que implementa las reglas de negocios de la aplicación.|
 |*awebsrvr* o *computername* |Un valor de **tipo String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.|
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El *protocolo HTTP* es el protocolo web estándar; *HTTPS* es un protocolo web seguro. Usar el *protocolo DCOM* cuando ejecute una red de área local sin HTTP. El protocolo *en proceso* es una biblioteca de vínculos dinámicos (DLL); local no se usa una red.
 

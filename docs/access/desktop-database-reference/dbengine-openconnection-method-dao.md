@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 82f65862c9a1fbb1441c6bd5620d3bf4e86a5c32
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 845c710954d83003f49a6cd9db21ae3f3bfab383
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704605"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>DBEngine.OpenConnection (método) (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25997892"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Expresión de cadena. Vea la descripción en Comentarios.</p></td>
 </tr>
 <tr class="even">

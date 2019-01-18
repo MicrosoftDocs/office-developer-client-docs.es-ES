@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4f5ffae4880cadb90f47f1ac348ffc8b3ea58785
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883186"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704563"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Proveedor de Microsoft OLE DB para ODBC
 
@@ -408,7 +409,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>sólo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>lectura y escritura</p></td>
 <td><p>lectura y escritura</p></td>
 <td><p>lectura y escritura</p></td>
@@ -471,7 +472,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>sólo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Estado</a></p></td>
 <td><p>sólo lectura</p></td>
 <td><p>sólo lectura</p></td>
 <td><p>sólo lectura</p></td>
@@ -546,7 +547,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
@@ -560,7 +561,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Mover</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
@@ -1443,7 +1444,7 @@ Las propiedades siguientes se agregan a la colección **Properties** del objeto 
 </table>
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 Para obtener información detallada acerca de implementación específico e información funcional acerca el proveedor Microsoft OLE DB para ODBC, consulte la [Guía del programador de OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) o visite el [Centro de desarrolladores de plataforma de datos](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 

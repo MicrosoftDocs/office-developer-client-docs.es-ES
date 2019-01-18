@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65a8e0b805bf964ae60bd9de25fc45cf5b04482f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a2de9dc7d8dccfc4107dbd802c4013ac794acf61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949694"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704850"
 ---
 # <a name="append-method-adox-procedures"></a>Append (método, Procedures de ADOX)
 
@@ -27,7 +28,7 @@ Agrega un nuevo objeto [Procedure](procedure-object-adox.md) a la colección [Pr
 
 |Parámetro|Descripción|
 |:--------|:----------|
-|*Name* |Un valor **String** que especifica el nombre del procedimiento que se va a crear y anexar.|
+|*Nombre* |Un valor **String** que especifica el nombre del procedimiento que se va a crear y anexar.|
 |*Command* |Un objeto [Command](command-object-ado.md) de ADO que representa el procedimiento que se va a crear y anexar.|
 
 ## <a name="remarks"></a>Comentarios

@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3f2a3cf85f51ac4a0d358fcc26e992d61fedca2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 037ae753f427c42f147972170dbb2e645b260623
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886028"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703205"
 ---
 # <a name="activeconnection-property-ado"></a>ActiveConnection (propiedad, ADO)
 
@@ -31,7 +32,7 @@ Establece o devuelve un valor de tipo **String** que contiene la definición de 
 
 Use la propiedad **ActiveConnection** para determinar el objeto **Connection** a través del cual se va a ejecutar el objeto **Command** especificado o se va a abrir el objeto **Recordset** especificado.
 
-### <a name="command"></a>Comando
+### <a name="command"></a>Command
 
 Para los objetos **Command**, la propiedad **ActiveConnection** es de lectura y de escritura.
 

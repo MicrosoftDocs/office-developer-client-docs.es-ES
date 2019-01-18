@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910911"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704263"
 ---
 # <a name="ado-properties"></a>Propiedades de ADO
 
@@ -50,7 +51,7 @@ ms.locfileid: "25910911"
 <td><p>Indica la longitud real del valor de un campo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-ado.md">Attributes</a></p></td>
+<td><p><a href="attributes-property-ado.md">Atributos</a></p></td>
 <td><p>Indica una o varias características de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -70,7 +71,7 @@ ms.locfileid: "25910911"
 <td><p>Obtiene o establece un objeto <strong>Chapter</strong> de OLE DB de/en un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">Juego de caracteres</a></p></td>
+<td><p><a href="charset-property-ado.md">CharSet</a></p></td>
 <td><p>Indica el juego de caracteres en el cual se debería traducir el contenido de un <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="even">
@@ -138,7 +139,7 @@ ms.locfileid: "25910911"
 <td><p>Indica si la posición actual se encuentra al final de la secuencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>Indica un filtro para datos en un objeto <strong> Recordset </strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -146,7 +147,7 @@ ms.locfileid: "25910911"
 <td><p>Indican el archivo de Ayuda y el tema asociados a un objeto <strong>Error</strong>. <strong>HelpContextID</strong>: devuelve un identificador de contexto, como un valor de tipo <strong>Long</strong>, de un tema de un archivo de Ayuda. <strong>HelpFile</strong>: devuelve un valor de tipo <strong>String</strong> que evalúa una ruta de acceso completa resuelta a un archivo de Ayuda.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-property-ado.md">Index</a></p></td>
+<td><p><a href="index-property-ado.md">Índice</a></p></td>
 <td><p>Indica el nombre del índice en vigor para un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -178,7 +179,7 @@ ms.locfileid: "25910911"
 <td><p>Indica los permisos disponibles para modificar datos de un objeto <strong>Connection</strong>, <strong>Record</strong> o <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Name</a></p></td>
+<td><p><a href="name-property-ado.md">Nombre</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -238,7 +239,7 @@ ms.locfileid: "25910911"
 <td><p>Indica el tipo de objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p><a href="row-property-ado.md">Fila</a></p></td>
 <td><p>Obtiene o establece un objeto <strong>Row</strong> de OLE DB desde o en un objeto <strong>ADORecordConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -306,11 +307,11 @@ ms.locfileid: "25910911"
 <td><p>Indica el valor actual de un objeto <strong>Field</strong> de la base de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">Valor</a></p></td>
+<td><p><a href="value-property-ado.md">Value</a></p></td>
 <td><p>Indica el valor asignado a un objeto <strong>Field</strong>, <strong>Parameter</strong> o <strong>Property</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="version-property-ado.md">Version</a></p></td>
+<td><p><a href="version-property-ado.md">Versión</a></p></td>
 <td><p>Indica el número de versión de ADO.</p></td>
 </tr>
 </tbody>

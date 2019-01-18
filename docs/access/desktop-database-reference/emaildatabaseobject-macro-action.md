@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997451"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699922"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)
 
@@ -108,7 +109,7 @@ Al utilizar la acción ** EnviarPorCorreoObjetoDeBaseDeDatos** para incluir un o
 
 Para ejecutar la acción **EnviarPorCorreoObjetoDeBaseDeDatos** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **SendObject** del objeto **DoCmd**.
 
-### <a name="about-the-contributor"></a>Acerca del colaborador
+### <a name="about-the-contributor"></a>Sobre el colaborador
 
 **Vínculo proporcionado por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), el fundador y presidente de FMS, Inc., un proveedor líder de soluciones de base de datos personalizada y herramientas para desarrolladores.
 
