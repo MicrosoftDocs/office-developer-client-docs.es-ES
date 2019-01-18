@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998283"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704143"
 ---
 # <a name="navigateto-macro-action"></a>DesplazarseA (acción de macro)
 
@@ -40,11 +41,11 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Categor?a</strong></p></td>
+<td><p><strong>Categoría</strong></p></td>
 <td><p>Argumento obligatorio. Categoría por la que el panel de navegación debe mostrar los objetos. Haga clic en <strong>Tipo de objeto</strong>, <strong>Tablas y vistas</strong>, <strong>Fecha de modificación</strong>, <strong>Fecha de creación</strong>, o bien, <strong>Personalizada</strong> en el cuadro <strong>Categoría</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Group</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>Opcional. El argumento <strong>grupo</strong> limita los objetos en la categoría que aparece en el panel de navegación. Si deja en blanco el argumento <strong>grupo</strong> , el panel de navegación muestra todos los objetos de base de datos, clasificados por los criterios especificados en el argumento <strong>categoría</strong> . En la tabla siguiente se muestran ejemplos de argumentos  <strong>Group</strong> válidos para los distintos argumentos <strong>Category</strong>.</p></td>
 </tr>
 </tbody>

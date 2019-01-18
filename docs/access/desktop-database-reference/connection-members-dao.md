@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936766"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703905"
 ---
 # <a name="connection-members-dao"></a>Miembros de conexión (DAO)
 
@@ -85,7 +86,7 @@ ms.locfileid: "25936766"
 <td><p>Devuelve el nombre de un objeto <strong><a href="connection-object-dao.md">Connection</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-querydefs-property-dao.md">Definiciones de consulta</a></strong></p></td>
+<td><p><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
 <td><p>Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la conexión especificada. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">

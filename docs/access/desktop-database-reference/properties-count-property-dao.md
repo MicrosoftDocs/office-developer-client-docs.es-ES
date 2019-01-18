@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c02eabca35e6d6722b0b55b5f0a7bbac8a8098f6
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e7b0b0e2c6e04426ffa33e2c3e5d08e4f1db419c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025927"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701595"
 ---
 # <a name="propertiescount-property-dao"></a>Propiedad Properties.Count (DAO)
 
@@ -30,7 +31,7 @@ Puede usar la propiedad **Count** para determinar el número de elementos de una
 
 *expresión* Variable que representa un objeto **Properties** .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Properties (colección)](properties-collection-dao.md)
 - [Propiedades (miembros)](properties-members-dao.md)

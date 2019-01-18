@@ -1,5 +1,5 @@
 ---
-title: Aplicar una cinta de opciones personalizada a un formulario o un informe
+title: Aplicar una cinta de opciones personalizada a un formulario o informe
 TOCTitle: Apply a custom ribbon to a form or report
 description: Cómo aplicar cintas de opciones personalizadas al cargar un formulario o informe en Access 2013.
 ms:assetid: 7dcdfa42-3eaa-43f9-b99d-56b2cac97f84
@@ -7,14 +7,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e494985054ffd91440f3aff6eb671b781a5f65d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 329f184a1bcd3c856ccfd0b15c3fa92bc6230c98
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888828"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704003"
 ---
-# <a name="apply-a-custom-ribbon-to-a-form-or-report"></a>Aplicar una cinta de opciones personalizada a un formulario o un informe
+# <a name="apply-a-custom-ribbon-to-a-form-or-report"></a>Aplicar una cinta de opciones personalizada a un formulario o informe
 
 **Se aplica a**: Access 2013, Office 2013
 

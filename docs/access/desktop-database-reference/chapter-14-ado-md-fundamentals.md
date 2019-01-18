@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8079851a59e8fe0d077dcbeed5b354e924aca6a2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44a4e666fb615f7d3870acfbd986e93971606d5b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936738"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701140"
 ---
 # <a name="chapter-14-ado-md-fundamentals"></a>Capítulo 14: Conceptos básicos de ADO MD
 
@@ -25,7 +26,7 @@ En este documento, se supone que se tiene un conocimiento práctico del lenguaje
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Información general de esquemas y datos multidimensionales](overview-of-multidimensional-schemas-and-data.md)
+- [Información general de los esquemas y datos multidimensionales](overview-of-multidimensional-schemas-and-data.md)
 - [Trabajar con datos multidimensionales](working-with-multidimensional-data.md)
 - [Utilizar ADO con ADO MD](using-ado-with-ado-md.md)
 - [Programar con ADO MD](programming-with-ado-md.md)

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 260fe01066e14578655089d397b0e76a705b9802
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 89a75ebe8a3fe704c4f755a0f744eac4d068ec0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702932"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk (método, ADO)
 
@@ -34,7 +35,7 @@ Anexa datos a un objeto [Field](field-object-ado.md) de texto o de datos binario
 
 Utilice el método **AppendChunk** en un objeto **Field** o **Parameter** para rellenarlo con datos binarios o de caracteres de gran tamaño. En los casos en los que la memoria del sistema está limitada, puede usar el método **AppendChunk** para manipular los valores largos en diferentes partes en lugar de manipularlos en su totalidad.
 
-### <a name="field"></a>Field
+### <a name="field"></a>Campo
 
 Si el valor del bit **adFldLong** en la propiedad [Attributes](attributes-property-ado.md) de un objeto **Field** está establecido en true, puede usar el método **AppendChunk** para ese campo.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
 ms:contentKeyID: 48546255
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1adfee77ade66d931ea52c4a12c30a4bc024e2b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 27ca49da9f057842873de812c8313d831bda35aa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703471"
 ---
 # <a name="documents-members-dao"></a>Miembros de documentos (DAO)
 
@@ -57,7 +58,7 @@ Una colección Documents contiene todos los objetos Document de un tipo de objet
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="documents-count-property-dao.md">Recuento</a></strong></p></td>
+<td><p><strong><a href="documents-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
 </tr>
 </tbody>

@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7da083471149316c39595913aec26053e5ad718
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ffb9ece91d674e3447f43ae17e2ea9415e2339ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936752"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700181"
 ---
-# <a name="ado-task-table"></a>Tabla de tarea de ADO
+# <a name="ado-task-table"></a>Tabla de tareas de ADO
 
 **Se aplica a**: Access 2013, Office 2013
 
@@ -33,7 +34,7 @@ En la siguiente tabla se enumera las tareas de programación contenidas en la *G
 <tbody>
 <tr class="odd">
 <td><p>Conectar con un proveedor de datos</p></td>
-<td><p><a href="making-a-connection.md">Creación de una conexión</a></p></td>
+<td><p><a href="making-a-connection.md">Realizar una conexión</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ejecutar comandos o llamar a procedimientos almacenados</p></td>
@@ -49,7 +50,7 @@ En la siguiente tabla se enumera las tareas de programación contenidas en la *G
 </tr>
 <tr class="odd">
 <td><p>Desplazarse a un registro específico</p></td>
-<td><p><a href="navigating-through-the-data.md">Navegación por los datos</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Desplazarse por los datos</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Obtener acceso a valores de columna</p></td>
@@ -61,7 +62,7 @@ En la siguiente tabla se enumera las tareas de programación contenidas en la *G
 </tr>
 <tr class="even">
 <td><p>Modificar datos y cambiar valores</p></td>
-<td><p><a href="editing-existing-records.md">Edición de registros existentes</a></p></td>
+<td><p><a href="editing-existing-records.md">Editar registros existentes</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Agregar nuevos datos</p></td>
@@ -81,10 +82,10 @@ En la siguiente tabla se enumera las tareas de programación contenidas en la *G
 </tr>
 <tr class="odd">
 <td><p>Guardar registros en un archivo (XML o binario)</p></td>
-<td><p><a href="persisting-data.md">Persistencia de datos</a></p></td>
+<td><p><a href="persisting-data.md">Conservar datos</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Controlar errores</p></td>
+<td><p>Administración de errores</p></td>
 <td><p><a href="ado-errors.md">Errores de ADO</a></p></td>
 </tr>
 <tr class="odd">

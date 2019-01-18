@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910897"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704787"
 ---
 # <a name="adox-objects"></a>Objetos de ADOX
 
@@ -34,35 +35,35 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="catalog-object-adox.md">Catálogo</a></p></td>
+<td><p><a href="catalog-object-adox.md">Catalog</a></p></td>
 <td><p>Contiene colecciones que describen el catálogo de esquema de un origen de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Column</a></p></td>
+<td><p><a href="column-object-adox.md">Columna</a></p></td>
 <td><p>Representa una columna de una tabla, un índice o una clave.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">Group</a></p></td>
+<td><p><a href="group-object-adox.md">Grupo</a></p></td>
 <td><p>Representa una cuenta de grupo que tiene permisos de acceso dentro de una base de datos protegida.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-object-adox.md">Index</a></p></td>
+<td><p><a href="index-object-adox.md">Índice</a></p></td>
 <td><p>Representa un índice de una tabla de base de datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Clave</a></p></td>
+<td><p><a href="key-object-adox.md">Key</a></p></td>
 <td><p>Representa un campo de clave principal, externa o única de una tabla de base de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="procedure-object-adox.md">Procedimiento</a></p></td>
+<td><p><a href="procedure-object-adox.md">Procedure</a></p></td>
 <td><p>Representa un procedimiento almacenado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="table-object-adox.md">Table</a></p></td>
+<td><p><a href="table-object-adox.md">Tabla</a></p></td>
 <td><p>Representa una tabla de base de datos que incluye columnas, índices y claves.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">User</a></p></td>
+<td><p><a href="user-object-adox.md">Usuario</a></p></td>
 <td><p>Representa una cuenta de usuario que tiene permisos de acceso dentro de una base de datos protegida.</p></td>
 </tr>
 <tr class="odd">

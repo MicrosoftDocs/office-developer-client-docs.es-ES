@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996898"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702134"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase (método) (DAO)
 
@@ -46,13 +47,13 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><p>Cadena de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que está creando. Puede ser el nombre de archivo y ruta de acceso completo. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1&quot;. Sólo se pueden crear archivos de base de datos de Microsoft Access con este método.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>Cadena</strong></p></td>
 <td><ul>
 <li><p>Expresión de cadena que especifica un orden de intercalación para crear la base de datos, tal como se especifica en la sección de configuración. Debe proporcionar este argumento o se producirá un error.</p></li>
 <li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (comenzando por &quot;; pwd =&quot;) con una constante en el argumento de <em>Configuración regional</em> , como la siguiente:</p></li>

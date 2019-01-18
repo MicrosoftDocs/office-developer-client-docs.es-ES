@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
 ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6a1249c3b529f55989f00ae6f967f80898f86d5
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6797cb36821f99a2ec5aadf6e1c1c6fbedc5f3c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699961"
 ---
 # <a name="rds-methods"></a>Métodos de RDS
 
@@ -54,7 +55,7 @@ ms.locfileid: "25910939"
 <td><p>Se desplaza al primer, último, siguiente o anterior registro de un objeto <strong>Recordset</strong> especificado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="query-method-rds.md">Consulta</a></p></td>
+<td><p><a href="query-method-rds.md">Query</a></p></td>
 <td><p>Utiliza una cadena de consulta SQL válida para devolver un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
