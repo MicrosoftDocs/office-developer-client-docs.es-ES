@@ -1,46 +1,46 @@
 ---
-title: Referencia de funciones de API de SDK de XLL de Excel 2013
+title: Referencia de funciones de API de SDK de XLL de Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- referencia de la función API [excel 2007], funciones [Excel 2007], referencia [Excel 2007], Kit de desarrollo de Software de XLL de Excel 2007, referencia
-localization_priority: Normal
+- referencia de la función API [excel 2007], funciones [Excel 2007], referencia [Excel 2007], kit de desarrollo de Software de XLL Excel 2007, referencia
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2bb0a57ebcae618c8e921135b2bd4c50e8adf751
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: e116021a3dc24de7decbe0dad76cc762cd66d032
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815628"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715959"
 ---
-# <a name="excel-xll-sdk-api-function-reference"></a>Referencia de funciones de API de SDK de XLL de Excel 2013
+# <a name="excel-xll-sdk-api-function-reference"></a>Referencia de funciones de API de SDK de XLL de Excel
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-El SDK de XLL de Microsoft Excel 2013 contiene los archivos de origen para una biblioteca de Framework que está diseñado para acelerar la escritura de los XLL y dos proyectos de ejemplo, ejemplo y genérico. 
+SDK de XLL de Microsoft Excel 2013 contiene archivos de origen de una biblioteca de marcos diseñados para acelerar la escritura de XLL, además de dos proyectos de ejemplo, Ejemplo y Genérico. 
   
-En esta sección se proporciona una referencia a la función para lo siguiente:
+Esta sección proporciona una referencia de función para lo siguiente:
   
-- Las devoluciones de llamada que se puede llamar a los XLL de Excel.
+- Devolución de llamadas de Excel a las que puede llamar XLL.
     
-- Devoluciones de llamada XLL que busca Microsoft Excel.
+- Devolución de llamadas de XLL que busca Microsoft Excel.
     
-- Funciones clave en los proyectos de ejemplo y framework.
+- Funciones claves de los proyectos de ejemplo y de marco.
     
 ## <a name="sample-projects"></a>Proyectos de ejemplo
 
-El SDK de XLL de Excel 2013 proporciona archivos de origen y los archivos de proyecto de Microsoft Visual Studio para los proyectos de ejemplo siguiente:
+El SDK de XLL de Excel 2013 proporciona archivos de origen y archivos de proyecto de Microsoft Visual Studio para los proyectos de ejemplo siguientes:
   
-- El proyecto **Framework** (`SAMPLES\FRAMEWRK\`) contiene un proyecto que puede crearse en una biblioteca, FRAMEWRK.lib, que, a continuación, se pueden vincular a otros proyectos XLL. La biblioteca contiene muchas funciones y herramientas que hacen que escribir XLL sea más fáciles. Esta biblioteca se usa en ambos de los otros proyectos junto con el archivo de encabezado FRAMEWRK.h.
+- El proyecto **Framework** (`SAMPLES\FRAMEWRK\`) contiene un proyecto que puede crearse en una biblioteca, FRAMEWRK.lib, y que, después, puede vincularse a otros proyectos XLL. La biblioteca contiene muchas funciones y herramientas que facilitan la escritura de XLL. Esta biblioteca se usa en los otros dos proyectos junto con el archivo de encabezado FRAMEWRK.h.
     
-- El proyecto de **ejemplo** (`SAMPLES\EXAMPLE\`) contiene un proyecto que puede crearse para un XLL, EXAMPLE.xll. El XLL contiene muchos ejemplos del uso de la biblioteca de Framework y las implementaciones de ejemplo de las funciones de la interfaz del complemento de XLL como **xlAutoOpen**.
+- El proyecto **Example** (`SAMPLES\EXAMPLE\`) contiene un proyecto que puede crearse en un XLL, EXAMPLE.xll. El XLL contiene varios ejemplos del uso de la biblioteca de marcos y las implementaciones de ejemplo de las funciones de la interfaz del complemento XLL, como **xlAutoOpen**.
     
-- El proyecto **genérico** (`SAMPLES\GENERIC\`) contiene un proyecto que puede crearse para un XLL, GENERIC.xll. El XLL muestra varias funciones de ejemplo y los comandos y es un buen punto de partida para escribir su propia XLL.
+- El proyecto **Generic** (`SAMPLES\GENERIC\`) contiene un proyecto que puede crearse en un XLL, GENERIC.xll. El XLL muestra varias funciones y comandos de ejemplo y es un buen punto de partida para escribir sus propios XLL.
     
 ## <a name="in-this-section"></a>En esta sección
 
@@ -54,7 +54,7 @@ El SDK de XLL de Excel 2013 proporciona archivos de origen y los archivos de pro
   
 - [Funciones de la biblioteca de marcos](functions-in-the-framework-library.md)
   
-- [Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+- [Funciones en la DLL genérica](functions-in-the-generic-dll.md)
   
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
   
@@ -62,5 +62,5 @@ El SDK de XLL de Excel 2013 proporciona archivos de origen y los archivos de pro
 
 - [Programar con la API de C en Excel](programming-with-the-c-api-in-excel.md)
   
-- [Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
+- [Desarrollo de XLL de Excel](developing-excel-xlls.md)
 

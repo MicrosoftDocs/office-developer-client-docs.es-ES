@@ -1,35 +1,35 @@
 ---
-title: Modelo de objetos de cliente (COM) de Project 2013
+title: Modelo de objetos de cliente (CSOM) para Project 2013
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
-description: El modelo de objetos de cliente (COM) de Project Server 2013 implementa la funcionalidad del servidor comunes. CSOM de Project Server incluye un Microsoft .NET CSOM, un Microsoft Silverlight CSOM, un CSOM de Windows Phone 8 y un modelo de objetos de JavaScript (JSOM). Además, el CSOM incluye un servicio de OData que permite una interfaz de REST. La interfaz REST está pensada principalmente para el desarrollo de aplicaciones en plataformas que no son de Windows, como iOS y Android.
-ms.openlocfilehash: 8be603fbee35f228dea0fa6b6be087b8e09c30e5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: El modelo de objetos de cliente (CSOM) de Project Server 2013 implementa la funcionalidad de servidor común. El modelo de objetos de cliente de Project Server incluye un CSOM de Microsoft. NET, un CSOM de Microsoft Silverlight, un CSOM de Windows Phone 8 y un modelo de objetos de JavaScript (JSOM). Además, el CSOM incluye un servicio OData que habilita una interfaz REST. La interfaz REST va dirigida principalmente al desarrollo de aplicaciones en plataformas que no son de Windows, como iOS y Android.
+localization_priority: Priority
+ms.openlocfilehash: b722e316f5cb2054eb6522297c5c5ef3e75f9fa4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394450"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723113"
 ---
-# <a name="client-side-object-model-csom-for-project-2013"></a>Modelo de objetos de cliente (COM) de Project 2013
+# <a name="client-side-object-model-csom-for-project-2013"></a>Modelo de objetos de cliente (CSOM) para Project 2013
 
-El modelo de objetos de cliente (COM) de Project Server 2013 implementa la funcionalidad del servidor comunes. CSOM de Project Server incluye un Microsoft .NET CSOM, un Microsoft Silverlight CSOM, un CSOM de Windows Phone 8 y un modelo de objetos de JavaScript (JSOM). Además, el CSOM incluye un servicio de OData que permite una interfaz de REST. La interfaz REST está pensada principalmente para el desarrollo de aplicaciones en plataformas que no son de Windows, como iOS y Android.
+El modelo de objetos de cliente (CSOM) de Project Server 2013 implementa la funcionalidad de servidor común. El modelo de objetos de cliente de Project Server incluye un CSOM de Microsoft. NET, un CSOM de Microsoft Silverlight, un CSOM de Windows Phone 8 y un modelo de objetos de JavaScript (JSOM). Además, el CSOM incluye un servicio OData que habilita una interfaz REST. La interfaz REST va dirigida principalmente al desarrollo de aplicaciones en plataformas que no son de Windows, como iOS y Android.
   
 > [!NOTE]
-> Soluciones para Project Online deben usar el CSOM. Sin embargo, las aplicaciones locales pueden usar el CSOM o Project Server Interface (PSI). Si el CSOM incluye la funcionalidad que se va a utilizar, se recomienda que use CSOM para aplicaciones nuevo. 
+> Las soluciones de Project Online deben utilizar el modelo de objetos de cliente. Sin embargo, con las aplicaciones locales puede usar el CSOM o la interfaz de Project Server (PSI). Si el CSOM incluye la funcionalidad que va a usar, se recomienda usarlo para las nuevas aplicaciones. 
   
-En las extensiones CSOM, el objeto de **ProjectContext** proporciona el punto de entrada a contenido de servidor y la funcionalidad. El CSOM de .NET, el CSOM de Silverlight y el CSOM de Windows Phone, use el objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) y el JSOM usa el **PS. ProjectContext** objeto. Propiedades de **ProjectContext** proporcionan acceso directo a los objetos de Project Server core en la colección de sitios actual de Project Web App. Para obtener información acerca de la ubicación de los ensamblados CSOM y el archivo JavaScript, consulte [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+En las extensiones de CSOM, el objeto **ProjectContext** proporciona el punto de entrada al contenido y las funciones del servidor. El CSOM .NET, el CSOM Silverlight y el CSOM de Windows Phone usan el objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx); el JSOM usa el objeto **PS. ProjectContext**. Las propiedades **ProjectContext** proporcionan acceso directo a los objetos principales de Project Server en la colección de sitios actual de Project Web App. Para obtener información acerca de la ubicación de los ensamblados de CSOM y el archivo de JavaScript, vea [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
   
- **Aplicaciones y el modelo de seguridad** Aplicaciones deben usar el CSOM para CRUD (crear, leer, actualizar, eliminar) operaciones con Project Server 2013 y Project Online. Aplicaciones de Project no use el modelo de autenticación solo de aplicación en SharePoint 2013. Una aplicación de Project Server requiere un ámbito de solicitud de permisos específicos que se especifica en cuyo nombre se va a ejecutar comandos. 
+ **El modelo de seguridad y las aplicaciones** Las aplicaciones deben usar el CSOM para las operaciones CRUD (crear, leer, actualizar y eliminar) con Project Server 2013 y Project Online. Las aplicaciones de proyecto no usan el modelo de autenticación solo de aplicación en SharePoint 2013. Una aplicación de Project Server requiere un ámbito de solicitud de permisos específicos que especifica en el nombre de quién se ejecutan los comandos. 
   
- **Consultas de REST** Puede crear consultas REST del servicio OData CSOM sin consumir los metadatos. Algunas herramientas de terceros permiten el uso de los ensamblados de .NET para el CSOM para desarrollar aplicaciones para otros dispositivos. Por ejemplo, buscar en Internet "multiplataforma .NET herramientas de desarrollo para iOS o Android." 
+ **Consultas REST** Puede crear consultas REST del servicio OData de CSOM sin consumir los metadatos. Algunas herramientas de terceros habilitan el uso de los ensamblados de .NET para el CSOM para desarrollar aplicaciones para otros dispositivos. Por ejemplo, realice la siguiente búsqueda en Internet: "herramientas de desarrollo multiplataforma de .NET para iOS o Android". 
   
 > [!NOTE]
-> Aunque la `$metadata` opción para la **ProjectData** informes de servicio es válido ( `https://ServerName/pwaName/_api/ProjectData/$metadata`), la `$metadata` opción para el servicio de **ProjectServer** del CSOM se ha eliminado en la versión publicada de Project Server 2013. Para buscar los objetos CSOM y miembros que están disponibles como extremos REST, consulte la [biblioteca de JavaScript y referencia REST para Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). 
+> Aunque la opción `$metadata` para el servicio de informes **ProjectData** es válida ( `https://ServerName/pwaName/_api/ProjectData/$metadata`), la opción `$metadata` para el servicio **ProjectServer** del CSOM se elimina de la versión publicada de Project Server 2013. Para encontrar los objetos y los miembros CSOM que están disponibles como puntos de conexión REST, vea la [biblioteca de JavaScript y la referencia REST para Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). 
   
-Para ver las entidades disponibles en el CSOM a través de la interfaz de REST, puede usar el `https://ServerName/pwaName/_api/ProjectServer` consulta. Para las consultas REST, la entidad **ProjectServer** refleja estrechamente las propiedades del objeto de [ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el ensamblado Microsoft.ProjectServer.Client.dll administrados y la [PS. ProjectContext](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx) objeto en el JSOM. Por ejemplo, puede usar el explorador para obtener información desde el CSOM acerca de los proyectos en Project Web App, las asignaciones en un proyecto especificado y el nombre de la tarea de una asignación especificada para un recurso especificado mediante el uso de las siguientes consultas (cada consulta usa el mismo `https://ServerName/pwaName/_api` prefijo de dirección URL). Los GUID son valores de ejemplo para **Project.Id**, **EnterpriseResource.Id**y **Assignment.Id**.
+Para ver las entidades disponibles en el CSOM a través de la interfaz REST, puede usar la consulta `https://ServerName/pwaName/_api/ProjectServer`. Para las consultas REST, la entidad **ProjectServer** refleja estrechamente propiedades del objeto [ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) en el ensamblado administrado de Microsoft.ProjectServer.Client.dll y el objeto [PS. ProjectContext](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx) del JSOM. Por ejemplo, puede usar el explorador para obtener información del CSOM sobre proyectos en Project Web App, las tareas de un proyecto específico y el nombre de tarea de una tarea concreta para un recurso especificado, usando las siguientes consultas (cada consulta usa la mismo prefijo de URL  `https://ServerName/pwaName/_api`). Los GUID son valores de ejemplo de **Project.Id**, **EnterpriseResource.Id** y **Assignment.Id**.
   
 ```HTML
 /ProjectServer/Projects
@@ -37,11 +37,11 @@ Para ver las entidades disponibles en el CSOM a través de la interfaz de REST, 
 /ProjectServer/EnterpriseResources('28eeb2b5-fe74-4efc-aa35-6a64514d1526')/Assignments('a2eafeb5-437c-e111-92fc-00155d3ba208')/Task?$select=Name
 ```
 
-A diferencia de la interfaz de OData para el servicio **ProjectData** , que es de sólo lectura para informes, se pueden realizar operaciones CRUD con consultas de REST con el servicio de **ProjectServer** . Consultas de REST para el CSOM de Project Server se han diseñado principalmente para plataformas que no sea el escritorio de Windows, como Windows RT, iOS y Android. Para las plataformas de escritorio y servidor de Windows, como Windows 7, Windows 8 y Windows Server 2008 R2, puede usar los ensamblados CSOM administrado. Para las aplicaciones web, puede usar PS.js para JavaScript. Para obtener información acerca de cómo realizar operaciones CRUD con consultas de REST, vea el tema de [las operaciones de consulta de uso OData en solicitudes REST de SharePoint](https://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx) en el SDK de SharePoint 2013. Para obtener información acerca de cómo utilizar el servicio **ProjectData** , vea [fuentes de OData consultar datos de informes del proyecto](https://msdn.microsoft.com/library/office/jj163048.aspx).
+A diferencia de la interfaz de OData para el servicio **ProjectData**, que es de solo lectura para los informes, puede realizar operaciones CRUD con consultas REST con el servicio **ProjectServer**. Las consultas REST para el CSOM de Project Server están diseñadas principalmente para plataformas distintas del escritorio de Windows, como Windows RT, iOS y Android. Para las plataformas de escritorio y servidores Windows, como Windows 7, Windows 8 y Windows Server 2008 R2, puede usar los ensamblados administrados de CSOM. Para las aplicaciones web, puede usar PS.js para JavaScript. Para obtener información acerca de las operaciones CRUD con consultas REST, consulte el artículo [Usar operaciones de consulta de OData en solicitudes REST de SharePoint](https://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx) en el SDK de SharePoint 2013. Para obtener información sobre el uso del servicio **ProjectData**, consulte [Consulta de fuentes OData de datos de informes de Project](https://msdn.microsoft.com/library/office/jj163048.aspx).
   
-La tabla 1 se enumeran las propiedades de **ProjectContext** que representan objetos de Project Server. Puede usar estos objetos para recuperar otras entidades de Project Server 2013, como las asignaciones y tareas. 
+La tabla 1 enumera las propiedades **ProjectContext** que representan los objetos de Project Server. Puede usar estos objetos para recuperar otras entidades de Project Server 2013, como tareas. 
   
-**Tabla 1. Propiedades de ProjectContext que brindan acceso a objetos de Project Server en el CSOM y JSOM**
+**Tabla 1. Propiedades de ProjectContext que proporcionan acceso a los objetos de Project Server en el CSOM y el JSOM**
 
 |**CSOM (.NET, Silverlight y Windows Phone)**|**JSOM**|
 |:-----|:-----|
@@ -49,22 +49,22 @@ La tabla 1 se enumeran las propiedades de **ProjectContext** que representan obj
 |[EnterpriseProjectTypes](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EnterpriseProjectTypes.aspx) <br/> |enterpriseProjectTypes  <br/> |
 |[EnterpriseResources](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EnterpriseResources.aspx) <br/> |enterpriseResources  <br/> |
 |[EntityTypes](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EntityTypes.aspx) <br/> |entityTypes  <br/> |
-|[Controladores de eventos](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EventHandlers.aspx) <br/> |controladores de eventos  <br/> |
-|[Eventos](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Events.aspx) <br/> |events  <br/> |
-|[Tablas de búsqueda](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.LookupTables.aspx) <br/> |tablas de búsqueda  <br/> |
-|[Fases](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Phases.aspx) <br/> |phases  <br/> |
+|[EventHandlers](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EventHandlers.aspx) <br/> |eventHandlers  <br/> |
+|[Events](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Events.aspx) <br/> |eventos  <br/> |
+|[LookupTables](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.LookupTables.aspx) <br/> |lookupTables  <br/> |
+|[Phases](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Phases.aspx) <br/> |fases  <br/> |
 |[Projects](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Projects.aspx) <br/> |proyectos  <br/> |
-|[Etapas](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Stages.aspx) <br/> |stages  <br/> |
+|[Stages](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.Stages.aspx) <br/> |etapas  <br/> |
 |[WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.WorkflowActivities.aspx) <br/> |workflowActivities  <br/> |
 |[WorkflowDesigner](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.WorkflowDesigner.aspx) <br/> |workflowDesigner  <br/> |
    
 ## <a name="in-this-section"></a>En esta sección
 
-[Getting started con Project Server CSOM y .NET](getting-started-with-the-project-server-csom-and-net.md) proporciona información general sobre el CSOM de Project Server y. NET, instrucciones sobre cómo crear una simple extensión del CSOM de .NET en Visual Studio 2012 y ejemplos de códigos admitidos. 
+[Getting started with the Project Server CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md) proporciona información general sobre .NET y el CSOM de Project Server, instrucciones sobre cómo crear una simple extensión del CSOM de .NET en Visual Studio 2012 y ejemplos de códigos de ayuda. 
   
-[Getting started with el modelo de objetos de JavaScript de Project Server 2013](getting-started-with-the-project-server-2013-javascript-object-model.md) proporciona información general sobre el JSOM de Project Server, instrucciones sobre cómo crear una simple extensión JSOM en Visual Studio 2012 y ejemplos de códigos admitidos. 
+[Getting started with the Project Server 2013 JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md) proporciona información general sobre el JSOM de Project Server, instrucciones sobre cómo crear una simple extensión de JSOM en Visual Studio 2012 y ejemplos de códigos de ayuda. 
   
-Además, debe desproteger estos artículos que muestran cómo usar el CSOM:
+Consulte también estos artículos que muestran cómo usar el CSOM:
   
 - [Actualización en masa de los campos personalizados y crear sitios de proyecto desde un flujo de trabajo en Project Online](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
     
