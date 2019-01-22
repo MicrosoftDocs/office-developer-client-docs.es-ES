@@ -5,24 +5,24 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- complementos - [excel 2007], el desarrollo de XLL - [Excel 2007], XLL - [Excel 2007], desarrollo
-localization_priority: Normal
+- complementos - [excel 2007], desarrollo de XLL - [Excel 2007], XLL - [Excel 2007], desarrollo
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: cb2483b9cd1b11bcfeee81bba02b6d593e8818fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: d05041f2629694c4a96240ea83b6e84b17f9be38
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815534"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701098"
 ---
 # <a name="developing-excel-xlls"></a>Desarrollo de XLL de Excel
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-La razón principal para escribir los XLL de Microsoft Excel y uso de la API de C es crear funciones de hoja de cálculo de alto rendimiento. Las aplicaciones de funciones de alto rendimiento: y, a partir de Excel 2007, la capacidad de escribir interfaces multiproceso en recursos de servidor eficaces: realizar una parte muy importante de la extensibilidad de Excel. El rendimiento de los XLL estaba más mejorada en Excel 2007 mediante la adición de nuevos tipos de datos y, más importante, compatibilidad con subprocesamiento múltiple.
+El motivo principal para escribir XLL de Microsoft Excel y usar la API de C es crear funciones de hoja de cálculo de alto rendimiento. Las aplicaciones de funciones de alto rendimiento y, comenzando en Excel 2007, la capacidad para escribir interfaces multiproceso en recursos de servidor potentes, hacen que sea una parte muy importante de la extensibilidad de Excel. El rendimiento de XLL se mejoró aún más en Excel 2007 mediante la incorporación de nuevos tipos de datos y, lo que es más importante, compatibilidad con multiproceso.
   
-La API C no tiene ninguna de las características de desarrollo rápido de nivel superior de Microsoft Visual Basic para aplicaciones (VBA), COM o Microsoft .NET Framework. Administración de memoria es nivel bajo y por lo tanto, delega mayor responsabilidad en el programador. Muchas características de Excel que se exponen a través de COM, habilitarlos a través de VBA y .NET Framework, no se exponen a la API de C.
+La API de C no tiene ninguna de las características de desarrollo rápido de nivel superior de Microsoft Visual Basic para Aplicaciones (VBA), COM o Microsoft .NET Framework. La administración de memoria es de bajo nivel y, por lo tanto, da mayor responsabilidad al desarrollador. Muchas características de Excel expuestas a través de COM, para que estén disponibles a través de VBA y .NET Framework, no están expuestas en la API de C.
 
 
 - [Conceptos de programación de Excel](excel-programming-concepts.md)
@@ -43,11 +43,11 @@ La API C no tiene ninguna de las características de desarrollo rápido de nivel
   
 - [Funciones asincrónicas definidas por el usuario](asynchronous-user-defined-functions.md)
   
-- [Funciones de seguridad de grupo](cluster-safe-functions.md)
+- [Funciones seguras para clústeres](cluster-safe-functions.md)
   
 - [Permitir interrupciones de usuarios en operaciones largas](permitting-user-breaks-in-lengthy-operations.md)
   
-- [Mostrar cuadros de diálogo de un DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+- [Mostrar cuadros de diálogo desde un DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 - [Obtener acceso a la instancia de Excel y los controladores de la ventana principal](how-to-access-excel-instance-and-main-window-handles.md)
   

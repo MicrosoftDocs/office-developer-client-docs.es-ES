@@ -1,23 +1,23 @@
 ---
-title: Funciones (referencia de ShapeSheet de Visio)
+title: Funciones (Referencia de ShapeSheet de Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 928b8cff-c314-4502-be4f-daa44503c7f0
-ms.openlocfilehash: b803c2cafbe79ca2e965ec18250a0db6b7cb8b67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 606f34af82a8acd3152d672c1a20fae9f70d7900
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822221"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712872"
 ---
-# <a name="functions-visio-shapesheet-reference"></a>Funciones (referencia de ShapeSheet de Visio)
+# <a name="functions-visio-shapesheet-reference"></a>Funciones (Referencia de ShapeSheet de Visio)
 
 ## <a name="in-this-section"></a>En esta sección
 
-- [ABS Function (VisioShapeSheet)](abs-function-visioshapesheet.md)
+- [Función ABS (VisioShapeSheet)](abs-function-visioshapesheet.md)
     
 - [Función ACOS](acos-function.md)
     
@@ -51,7 +51,7 @@ ms.locfileid: "19822221"
     
 - [Función BLEND](blend-function.md)
     
-- [BLOB (función)](blob-function.md)
+- [Función BLOB](blob-function.md)
     
 - [Función BLUE](blue-function.md)
     
@@ -59,7 +59,7 @@ ms.locfileid: "19822221"
     
 - [Función BOUNDINGBOXRECT](boundingboxrect-function.md)
     
-- [BOUND (función)](bound-function.md)
+- [Función BOUND](bound-function.md)
     
 - [Función CALLOUTCOUNT](calloutcount-function.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19822221"
     
 - [Función COSH](cosh-function.md)
     
-- [COS Function (VisioShapeSheet)](cos-function-visioshapesheet.md)
+- [Función COS (VisioShapeSheet)](cos-function-visioshapesheet.md)
     
 - [Función CREATOR](creator-function.md)
     
@@ -97,17 +97,17 @@ ms.locfileid: "19822221"
     
 - [Función DATETIME](datetime-function.md)
     
-- [DATEVALUE Function (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
+- [Función DATEVALUE (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
     
-- [DATE Function (VisioShapeSheet)](date-function-visioshapesheet.md)
+- [Función DATE (VisioShapeSheet)](date-function-visioshapesheet.md)
     
 - [Función DAYOFYEAR](dayofyear-function.md)
     
-- [DAY Function (VisioShapeSheet)](day-function-visioshapesheet.md)
+- [Función DAY (VisioShapeSheet)](day-function-visioshapesheet.md)
     
 - [Función DECIMALSEP](decimalsep-function.md)
     
-- [DEFAULTEVENT (función)](defaultevent-function.md)
+- [Función DEFAULTEVENT](defaultevent-function.md)
     
 - [Función DEG](deg-function.md)
     
@@ -127,7 +127,7 @@ ms.locfileid: "19822221"
     
 - [Función DOCLASTSAVE](doclastsave-function.md)
     
-- [DOCMD (función)](docmd-function.md)
+- [Función DOCMD](docmd-function.md)
     
 - [Función DOOLEVERB](dooleverb-function.md)
     
@@ -139,7 +139,7 @@ ms.locfileid: "19822221"
     
 - [Función FILENAME](filename-function.md)
     
-- [FIND (función)](find-function.md)
+- [Función FIND](find-function.md)
     
 - [Función FLOOR](floor-function.md)
     
@@ -151,7 +151,7 @@ ms.locfileid: "19822221"
     
 - [Función FORMAT](format-function.md)
     
-- [FORMULAEXISTS (función)](formulaexists-function.md)
+- [Función FORMULAEXISTS](formulaexists-function.md)
     
 - [Función GETREF](getref-function.md)
     
@@ -169,7 +169,7 @@ ms.locfileid: "19822221"
     
 - [Función HELP](help-function.md)
     
-- [HOUR Function (VisioShapeSheet)](hour-function-visioshapesheet.md)
+- [Función HOUR (VisioShapeSheet)](hour-function-visioshapesheet.md)
     
 - [Función HSL](hsl-function.md)
     
@@ -201,7 +201,7 @@ ms.locfileid: "19822221"
     
 - [Función ISERRNA](iserrna-function.md)
     
-- [ISERROR Function (VisioShapeSheet)](iserror-function-visioshapesheet.md)
+- [Función ISERROR (VisioShapeSheet)](iserror-function-visioshapesheet.md)
     
 - [Función ISERRVALUE](iserrvalue-function.md)
     
@@ -211,11 +211,11 @@ ms.locfileid: "19822221"
     
 - [Función KEYWORDS](keywords-function.md)
     
-- [LANGUAGE Function](language-function.md)
+- [Función LANGUAGE](language-function.md)
     
-- [Función de la izquierda (VisioShapeSheet)](left-function-visioshapesheet.md)
+- [Función LEFT (VisioShapeSheet)](left-function-visioshapesheet.md)
     
-- [LEN (función) (VisioShapeSheet)](len-function-visioshapesheet.md)
+- [Función LEN (VisioShapeSheet)](len-function-visioshapesheet.md)
     
 - [Función LISTMEMBERCOUNT](listmembercount-function.md)
     
@@ -227,13 +227,13 @@ ms.locfileid: "19822221"
     
 - [Función LN](ln-function.md)
     
-- [LOCALFORMULAEXISTS (función)](localformulaexists-function.md)
+- [Función LOCALFORMULAEXISTS](localformulaexists-function.md)
     
 - [Función LOCTOLOC](loctoloc-function.md)
     
 - [Función LOCTOPAR](loctopar-function.md)
     
-- [LOC Function (VisioShapeSheet)](loc-function-visioshapesheet.md)
+- [Función LOC (VisioShapeSheet)](loc-function-visioshapesheet.md)
     
 - [Función LOG10](log10-function.md)
     
@@ -253,15 +253,15 @@ ms.locfileid: "19822221"
     
 - [Función MAX](max-function.md)
     
-- [MID (función) (VisioShapeSheet)](mid-function-visioshapesheet.md)
+- [Función MID (VisioShapeSheet)](mid-function-visioshapesheet.md)
     
-- [MINUTE Function (VisioShapeSheet)](minute-function-visioshapesheet.md)
+- [Función MINUTE (VisioShapeSheet)](minute-function-visioshapesheet.md)
     
 - [Función MIN](min-function.md)
     
 - [Función MODULUS](modulus-function.md)
     
-- [MONTH Function (VisioShapeSheet)](month-function-visioshapesheet.md)
+- [Función MONTH (VisioShapeSheet)](month-function-visioshapesheet.md)
     
 - [Función MSOSHADE](msoshade-function.md)
     
@@ -275,7 +275,7 @@ ms.locfileid: "19822221"
     
 - [Función NOT](not-function.md)
     
-- [NOW Function (VisioShapeSheet)](now-function-visioshapesheet.md)
+- [Función NOW (VisioShapeSheet)](now-function-visioshapesheet.md)
     
 - [Función NURBS](nurbs-function.md)
     
@@ -317,7 +317,7 @@ ms.locfileid: "19822221"
     
 - [Función POW](pow-function.md)
     
-- [QUEUEMARKEREVENT (función)](queuemarkerevent-function.md)
+- [Función QUEUEMARKEREVENT](queuemarkerevent-function.md)
     
 - [Función RAD](rad-function.md)
     
@@ -329,37 +329,37 @@ ms.locfileid: "19822221"
     
 - [Función REF](ref-function.md)
     
-- [REPLACE (función) (VisioShapeSheet)](replace-function-visioshapesheet.md)
+- [Función REPLACE (VisioShapeSheet)](replace-function-visioshapesheet.md)
     
-- [REPT (función)](rept-function.md)
+- [Función REPT](rept-function.md)
     
-- [REWIDEN (función)](rewiden-function.md)
+- [Función REWIDEN](rewiden-function.md)
     
-- [RGB Function (VisioShapeSheet)](rgb-function-visioshapesheet.md)
+- [Función RGB (VisioShapeSheet)](rgb-function-visioshapesheet.md)
     
-- [Función de la derecha (VisioShapeSheet)](right-function-visioshapesheet.md)
+- [Función RIGHT (VisioShapeSheet)](right-function-visioshapesheet.md)
     
-- [ROUND Function (VisioShapeSheet)](round-function-visioshapesheet.md)
+- [Función ROUND (VisioShapeSheet)](round-function-visioshapesheet.md)
     
 - [Función RUNADDONWARGS](runaddonwargs-function.md)
     
 - [Función RUNADDON](runaddon-function.md)
     
-- [RUNMACRO (función)](runmacro-function.md)
+- [Función RUNMACRO](runmacro-function.md)
     
 - [Función SATDIFF](satdiff-function.md)
     
 - [Función SAT](sat-function.md)
     
-- [SECOND Function (VisioShapeSheet)](second-function-visioshapesheet.md)
+- [Función SECOND (VisioShapeSheet)](second-function-visioshapesheet.md)
     
 - [Función SEGMENTCOUNT](segmentcount-function.md)
     
 - [Función SETATREFEVAL](setatrefeval-function.md)
     
-- [SETATREFEXPR (función)](setatrefexpr-function.md)
+- [Función SETATREFEXPR](setatrefexpr-function.md)
     
-- [SETATREF (función)](setatref-function.md)
+- [Función SETATREF](setatref-function.md)
     
 - [Función SETF](setf-function.md)
     
@@ -373,7 +373,7 @@ ms.locfileid: "19822221"
     
 - [Función SINH](sinh-function.md)
     
-- [SIN Function (VisioShapeSheet)](sin-function-visioshapesheet.md)
+- [Función SIN (VisioShapeSheet)](sin-function-visioshapesheet.md)
     
 - [Función SQRT](sqrt-function.md)
     
@@ -383,13 +383,13 @@ ms.locfileid: "19822221"
     
 - [Función SUBJECT](subject-function.md)
     
-- [SUBSTITUTE (función)](substitute-function.md)
+- [Función SUBSTITUTE](substitute-function.md)
     
 - [Función SUM](sum-function.md)
     
 - [Función TANH](tanh-function.md)
     
-- [TAN Function (VisioShapeSheet)](tan-function-visioshapesheet.md)
+- [Función TAN (VisioShapeSheet)](tan-function-visioshapesheet.md)
     
 - [Función TEXTHEIGHT](textheight-function.md)
     
@@ -405,9 +405,9 @@ ms.locfileid: "19822221"
     
 - [Función THEMEVAL](themeval-function.md)
     
-- [TIMEVALUE Function (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
+- [Función TIMEVALUE (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
     
-- [TIME Function (VisioShapeSheet)](time-function-visioshapesheet.md)
+- [Función TIME (VisioShapeSheet)](time-function-visioshapesheet.md)
     
 - [Función TINT](tint-function.md)
     
@@ -415,7 +415,7 @@ ms.locfileid: "19822221"
     
 - [Función TONE](tone-function.md)
     
-- [TRIM (función)](trim-function.md)
+- [Función TRIM](trim-function.md)
     
 - [Función TRUNC](trunc-function.md)
     
@@ -423,7 +423,7 @@ ms.locfileid: "19822221"
     
 - [Función TYPE](type-function.md)
     
-- [UNICHAR (función)](unichar-function.md)
+- [Función UNICHAR](unichar-function.md)
     
 - [Función UPPER](upper-function.md)
     
@@ -433,8 +433,8 @@ ms.locfileid: "19822221"
     
 - [Función VERSION](version-function.md)
     
-- [WEEKDAY Function (VisioShapeSheet)](weekday-function-visioshapesheet.md)
+- [Función WEEKDAY (VisioShapeSheet)](weekday-function-visioshapesheet.md)
     
-- [YEAR Function (VisioShapeSheet)](year-function-visioshapesheet.md)
+- [Función YEAR (VisioShapeSheet)](year-function-visioshapesheet.md)
     
 
