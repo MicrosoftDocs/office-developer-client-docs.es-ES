@@ -5,108 +5,108 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- tipos de datos de registro [excel 2007], tipos de datos, las cadenas [Excel 2007], números [Excel 2007], estructuras de datos [Excel 2007], [Excel 2007] los tipos de datos de Excel
-localization_priority: Normal
+- tipos de datos de registro [excel 2007], tipos de datos de Excel, cadenas [Excel 2007], números [Excel 2007], estructuras de datos [Excel 2007], tipos de datos [Excel 2007]
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b32a9beb2f77c12e6b6f2c445672c717a2546386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815533"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710611"
 ---
 # <a name="data-types-used-by-excel"></a>Tipos de datos de Excel
 
-**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
+**Se aplica a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel intercambia varios tipos de ANSI C o C++ y también algunas estructuras de datos específicas de Excel. Se mencionan aquí para proporcionar un contexto de otras secciones, y se explican en detalle en el tema [xlfRegister (formulario 1)](xlfregister-form-1.md) . 
+Microsoft Excel intercambia varios tipos en ANSI C o C++ y también algunas estructuras de datos específicas de Excel. Se mencionan aquí para proporcionar un contexto para otras secciones y se describen en detalle en el tema [xlfRegister (Formulario 1)](xlfregister-form-1.md). 
   
-## <a name="ansi-cc-types"></a>Tipos de ANSI C o C++
+## <a name="ansi-cc-types"></a>Tipos en ANSI C o C++
 
 ### <a name="numbers"></a>Números
 
 Todas las versiones de Excel:
   
-- doble de 8 bytes
+- Doble de 8 bytes
     
-- [con signo] short [int] &ndash; usado para los valores **booleanos** y también enteros 
+- [signed] short [int] &ndash; utilizado para valores **booleanos** y números enteros 
     
-- short sin signo [int]
+- unsigned short [int]
     
-- [long con signo] int
+- [signed long] int
     
-### <a name="strings"></a>Strings
+### <a name="strings"></a>Cadenas
 
 Todas las versiones de Excel:
   
-- char [con signo] \* &ndash; cadenas de bytes terminada en null de hasta 255 caracteres
+- [signed] char \* &ndash; cadenas de bytes terminadas en null de hasta 255 caracteres 
     
-- unsigned char \* &ndash; cadenas de bytes de longitud contada de hasta 255 caracteres
+- unsigned char \* &ndash; cadenas de bytes de longitud de hasta 255 caracteres 
     
-Iniciar en Excel 2007:
+A partir de Excel 2007:
   
-- short sin signo \* &ndash; cadenas Unicode de hasta 32.767 caracteres, que pueden ser terminada en null o longitud contada
+- unsigned short \* &ndash; cadenas Unicode de hasta 32.767 caracteres de longitud o terminadas en null
     
-Todos los números de hoja de cálculo en Excel se almacenan como valores de modo que no es necesario (y de hecho presenta una sobrecarga de conversión pequeñas) para declarar funciones como el intercambio de tipos de enteros con Excel.
+Todos los números de la hoja de cálculo de Excel se almacenan como dobles para que no es necesario (y en realidad presenta una sobrecarga de conversión pequeña) declarar funciones de complemento como intercambiar tipos enteros con Excel.
   
-Cuando se utilizan tipos de entero, Excel comprueba que las entradas son dentro de los límites del tipo, y producirá un error con **#NUM!** Si está fuera de éstos. La excepción se produce cuando se está registrando una función para tomar un argumento de **tipo Boolean** , implementado con int. corto En este caso, cualquier entrada distinto de cero se convierte en 1 y cero se pasa directamente a través de. 
+Cuando usa tipos enteros, Excel comprueba que las entradas estén dentro de los límites del tipo y que produzcan errores con **#NUM!** si están fuera de dichos límites. La excepción es cuando se registra una función para un argumento **Booleano**, implementado con int corto En este caso, las entradas distintas de cero se convierte en 1 y cero se pasa directamente. 
   
 ## <a name="excel-specific-data-structures"></a>Estructuras de datos específicas de Excel
 
 Todas las versiones de Excel:
   
-- **FP** &ndash; una estructura de matriz bidimensional de punto flotante que admite 65.356 filas por el número máximo de columnas compatibles con la versión determinada de Excel. 
+- **FP** &ndash; una estructura de matriz con punto flotante bidimensional que admite hasta 65.356 filas por el número máximo de columnas admitidas en la versión determinada de Excel. 
     
-- **XLOPER** &ndash; una estructura de datos de varios tipos que puede representar todos los tipos de datos de hoja de cálculo (incluidos los errores), números enteros, referencias de rango, tipos de control de flujo de hoja de macro XLM y un tipo de datos binarios de almacenamiento interno. 
-    
-   > [!NOTE]
-   > Las cadenas se representan como cadenas de longitud contada byte de hasta 255 caracteres de longitud. 
-  
-Iniciar en Excel 2007:
-  
-- **FP12** &ndash; una estructura de matriz bidimensional de punto flotante que admite todas las filas y columnas a partir de Excel 2007. 
-    
-- **XLOPER12** &ndash; una estructura de datos de varios tipos que puede representar todos los tipos de datos de hoja de cálculo (incluidos los errores), números enteros, referencias de rango, tipos de control de flujo de hoja de macro XLM y un tipo de datos binarios de almacenamiento interno. 
+- **XLOPER** &ndash; una estructura de varios tipos de datos que puede representar todos los tipos de datos de la hoja de cálculo (errores incluidos), enteros, referencias de rango, tipos de controles de flujo de hoja de macros XLM y un tipo de datos de almacenamiento binario interno. 
     
    > [!NOTE]
-   > Las cadenas se representan como cadenas Unicode de longitud contada de hasta 32.767 caracteres de largos. 
+   > Las cadenas se representan como cadenas de bytes de longitud de hasta 255 caracteres.  
   
-## <a name="registration-data-type-codes"></a>Códigos de tipo de datos de registro
+A partir de Excel 2007:
+  
+- **FP12** &ndash; una estructura de matriz con punto flotante bidimensional que admite todas las filas y columnas a partir de Excel 2007. 
+    
+- **XLOPER12** &ndash; una estructura de varios tipos de datos que se puede representar todos los tipos de datos de la hoja de cálculo (errores incluidos), enteros, referencias de rango, tipos de controles de flujo de hoja de macros XLM y un tipo de datos de almacenamiento binario interno. 
+    
+   > [!NOTE]
+   > Las cadenas se representan como cadenas Unicode de longitud de hasta 32.767 caracteres.  
+  
+## <a name="registration-data-type-codes"></a>Códigos de tipos de datos de registro
 
-Funciones XLL se registran con el de función API C **xlfRegister**, que toma como argumento tercer una cadena de letras que codifican los tipos de devolución y argumento. Esta cadena también contiene la información que indica a Excel si la función es volátil, es segura para los subprocesos (comenzando en Excel 2007), es el equivalente de hoja de macros, y si se devuelve su resultado mediante la modificación de un argumento en su lugar.
+Las funciones XLL se registran con la función de la API de C **xlfRegister**, que toma como tercer argumento una cadena de caracteres que codifica los tipos de argumento y de valor devuelto. Esta cadena también contiene la información que indica a Excel si la función es variable, es segura para subprocesos (a partir de Excel 2007), es equivalente a una hoja de macros y si devuelve el resultado al modificar un argumento en sitio.
   
-En la siguiente tabla se reproducen y tratan con más detalle en el tema [xlfRegister (formulario 1)](xlfregister-form-1.md) . Se reproduce aquí con el fin de proporcionar un contexto para el resto de esta sección. Por ejemplo, se podría describir una función que toma una cadena de Unicode de longitud contada (comenzando en Excel 2007) que toma un tipo de argumento de C %. 
+La siguiente tabla se reproduce y se describe con más detalle en el tema [xlfRegister (Formulario 1)](xlfregister-form-1.md). Se reproduce aquí para proporcionar un contexto para el resto de esta sección. Por ejemplo, una función que toma una cadena Unicode de longitud (a partir de Excel 2007) se podría describir como tomar un tipo de argumento de C%. 
   
-|Tipo de datos|Pasar por valor|Pase mediante referencia (puntero)|Comentarios|
+|Tipo de datos|Paso por valor|Paso por referencia (puntero)|Comentarios|
 |:-----|:-----|:-----|:-----|
 |Booleano  <br/> |A  <br/> |L  <br/> |short (0 = false o 1 = true)  <br/> |
 |double  <br/> |B  <br/> |E  <br/> ||
-|Char\*  <br/> ||C, F  <br/> |Cadena de bytes ASCII terminada en null  <br/> |
-|char sin signo\*  <br/> ||D., G  <br/> |Longitud-cadena de bytes ASCII contada  <br/> |
-|short sin signo \* (comenzando en Excel 2007)  <br/> ||C %, F %  <br/> |Cadena de caracteres anchos de Unicode terminada en null  <br/> |
-|short sin signo \* (comenzando en Excel 2007)  <br/> ||% D, % G  <br/> |Cadena de caracteres anchos de Unicode de longitud contada  <br/> |
-|short sin signo [int]  <br/> |H  <br/> ||WORD  <br/> |
-|[con signo] short [int]  <br/> |I  <br/> |M  <br/> |16 bits  <br/> |
-|[long con signo] int  <br/> |J  <br/> |N  <br/> |32-bit  <br/> |
-|Matriz  <br/> ||O  <br/> | Que se pasa como tres argumentos por referencia:  <br/>1. short int \*filas  <br/>2. short int \*columnas  <br/>3. double \*matriz  <br/> |
-|Matriz  <br/> (comenzando en Excel 2007)  <br/> ||% O  <br/> | Que se pasa como tres argumentos por referencia:  <br/>1. int \*filas  <br/>2. int \*columnas  <br/>3. double \*matriz  <br/> |
-|FP  <br/> ||K  <br/> |Estructura de matriz de coma flotante  <br/> |
-|FP12  <br/> (comenzando en Excel 2007)  <br/> ||% K  <br/> |Estructura de matriz de coma flotante de cuadrícula grande  <br/> |
-|XLOPER  <br/> ||P  <br/> |Matrices y valores de la hoja de cálculo de tipo de variable  <br/> |
-|||L  <br/> |Valores, matrices y referencias de rango  <br/> |
-|XLOPER12  <br/> (comenzando en Excel 2007)  <br/> ||Q  <br/> |Matrices y valores de la hoja de cálculo de tipo de variable  <br/> |
-|||U  <br/> |Valores, matrices y referencias de rango  <br/> |
+|char \*   <br/> ||C, F  <br/> |Cadena de bytes en ASCII terminada en null  <br/> |
+|unsigned char \*  <br/> ||D, G  <br/> |Cadena de bytes en ASCII de longitud  <br/> |
+|unsigned short \* (a partir de Excel 2007)  <br/> ||C%, F%  <br/> |Cadena de caracteres anchos Unicode terminada en null  <br/> |
+|unsigned short \* (a partir de Excel 2007)  <br/> ||D%, G%  <br/> |Cadena de caracteres anchos Unicode de longitud  <br/> |
+|unsigned short [int]  <br/> |H  <br/> ||WORD  <br/> |
+|[signed] short [int]  <br/> |I  <br/> |M  <br/> |16 bits  <br/> |
+|[signed long] int  <br/> |J  <br/> |N  <br/> |32 bits  <br/> |
+|Matriz  <br/> ||O  <br/> | Se pasa como tres argumentos por referencia:  <br/>1. \*filas short int  <br/>2. \*columnas short int  <br/>3. \*matriz double  <br/> |
+|Matriz  <br/> (A partir de Excel 2007)  <br/> ||O%  <br/> | Se pasa como tres argumentos por referencia:  <br/>1. \*filas int  <br/>2. \*columnas int  <br/>3. \*matriz double  <br/> |
+|FP  <br/> ||K  <br/> |Estructura de matriz con punto flotante  <br/> |
+|FP12  <br/> (A partir de Excel 2007)  <br/> ||K%  <br/> |Estructura de matriz con punto flotante de cuadrícula grande  <br/> |
+|XLOPER  <br/> ||P  <br/> |Matrices y valores de la hoja de cálculo de tipo variable  <br/> |
+|||R  <br/> |Referencias de rango, matrices y valores  <br/> |
+|XLOPER12  <br/> (A partir de Excel 2007)  <br/> ||Q  <br/> |Matrices y valores de la hoja de cálculo de tipo variable  <br/> |
+|||U  <br/> |Referencias de rango, matrices y valores  <br/> |
    
-Los tipos **C %**, **F %**, **D %**, **G %**, **K %**, **O %**, **Q**y **U** eran todos los nuevos en Microsoft Office Excel 2007 y no son compatibles con versiones anteriores. Los tipos de cadena **F**, **F %**, **G**y **G %** se usan para los argumentos que son modificado en contexto. Cuando **XLOPER** o **XLOPER12** argumentos se registran como tipo **P** o **Q** respectivamente, Excel convierte las referencias de celda de un solo a valores simples y referencias de varias celdas a matrices cuando los prepara. 
+Los tipos de **C%**, **F%**, **D%**, **G%**, **K%**, **O%**, **Q**, y **U** eran nuevos en Microsoft Office Excel 2007 y no son compatibles con versiones anteriores. Los tipos de cadena **F**, **F%**, **G**, y **G%** se usan para los argumentos modificados en sitio.  Cuando los argumentos **XLOPER** o **XLOPER12** se registran como tipo **P** o **Q** respectivamente, Excel convierte las referencias de celda única a valores simples y las referencias de varias celdas a matrices a la hora de prepararlas. 
   
-Tipos **P** y **Q** siempre llegan a la función como uno de los siguientes tipos: **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing**o **xltypeNil**, pero no **xltypeRef** o **xltypeSRef** debido a que estos siempre se eliminan las referencias. 
+Los tipos **P** y **Q** siempre llegan a la función como uno de los siguientes tipos: **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing** o **xltypeNil**, pero no **xltypeRef ** o **xltypeSRef** porque a estas siempre se eliminan las referencias. 
   
-Tipo **O**, que es en realidad tres argumentos en la pila, se introdujo para la compatibilidad con archivos DLL Fortran donde los argumentos se pasan por referencia. No se puede utilizar para devolver un valor, excepto por el argumento como un valor devuelto de modificar en lugar de declarar y colocar los resultados en los valores que se hace referencia. Escriba **% O** extiende de tipo **O** en Excel 2007 para que puede obtener acceso a las matrices que cubren áreas mayores que la cuadrícula de Office Excel 2003. 
+El tipo **O**, que en realidad cuenta con tres argumentos en la pila, se introdujo para la compatibilidad con archivos DLL Fortran donde los argumentos se pasan por referencia. No puede usarlo para devolver un valor excepto declarar el argumento como valor devuelto que se modifica en sitio y colocando los resultados en los valores a los que se hace referencia. El tipo **O%** extiende el tipo **O** en Excel 2007 para que pueda acceder a matrices que tratan áreas más grandes que la cuadrícula de Office Excel 2003. 
   
 ## <a name="see-also"></a>Vea también
 
 - [xlfRegister (Formulario 1)](xlfregister-form-1.md)
 - [Conceptos de programación de Excel](excel-programming-concepts.md)
-- [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
+- [Referencia de funciones de API de SDK de XLL de Excel](excel-xll-sdk-api-function-reference.md)
 
