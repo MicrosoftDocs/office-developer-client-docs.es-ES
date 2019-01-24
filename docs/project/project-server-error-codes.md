@@ -10,37 +10,37 @@ f1_keywords:
 - PSErrorID
 - PSI errors
 keywords:
-- PSI, códigos de error, códigos de Error, Project Server, PSErrorID, Project Server Interface, códigos de error, Project Server, los códigos de error
-localization_priority: Normal
+- PSI, códigos de error, códigos de error, Project Server, PSErrorID, Project Server Interface, códigos de error, Project Server, códigos de error
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
-description: Este tema contiene tablas de códigos de error para Project Server Interface (PSI) en Project Server 2013. Las tablas se organizan por área funcional y por intervalo de códigos de error.
-ms.openlocfilehash: 7fdfafa562492fe4d5671f1335ca58cf50c91e88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Este tema contiene las tablas con los códigos de error de Project Server Interface (PSI) en Project Server 2013. Las tablas están organizadas por áreas funcionales y por intervalos de los códigos de error.
+localization_priority: Priority
+ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705599"
 ---
 # <a name="project-server-error-codes"></a>Códigos de error de Project Server
 
-Este tema contiene tablas de códigos de error para Project Server Interface (PSI) en Project Server 2013. Las tablas se organizan por área funcional y por intervalo de códigos de error.
+Este tema contiene las tablas con los códigos de error de Project Server Interface (PSI) en Project Server 2013. Las tablas están organizadas por áreas funcionales y por intervalos de los códigos de error.
    
-Project Server 2013 procesos y métodos PSI tienen números de código de error que generalmente se organizan por área funcional. La enumeración [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) se duplica en [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); enumeran los códigos de error en orden alfabético por nombre. En este tema se enumera los códigos de error en las tablas que se organizan por la clase PSI o el área funcional y por el número de identificador (Id.) de error. 
+Los procesos de Project Server 2013 y los métodos de PSI tienen números de códigos de error que se suelen organizar según el área funcional. La enumeración [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) está duplicada en [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx), los códigos de error se enumeran en orden alfabético por nombre. En este tema se enumeran los códigos de error en tablas, las cuales están organizadas por la clase de PSI o por el área funcional y el número de identificación (id.) del error. 
   
 > [!NOTE]
->  Muchos de los códigos de error son generales y pueden tener varias causas posibles. Si desea más información sobre los errores, puede hacer lo siguiente: 
+>  Muchos de los códigos de error son generales y pueden tener varias causas posibles. Si desea obtener más información sobre los errores, puede hacer lo siguiente: 
 > - Para las aplicaciones basadas en ASMX, use **System.Web.Services.Protocols.SoapException** con el objeto **PSClientError** para mostrar una lista o jerarquía de errores en una llamada de método PSI. Vea [Ejemplo de códigos de error de ASMX](#pj15_ErrorCodes_ASMXExample). 
 > - Para las aplicaciones basadas en WCF, puede usar **System.ServiceModel.FaultException** para obtener un objeto **PSClientError** y también para obtener información adicional sobre el error. Vea [Ejemplo de códigos de error de WCF](#pj15_ErrorCodes_WCFExample). 
 > - Use el registro de eventos de la aplicación en el equipo de Project Server.
-> - Use los registros de seguimiento del servicio de registro unificado (ULS). Para obtener una explicación, consulte la sección *Comprobación de errores* en [Introducción al desarrollo para Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
-> - Para obtener más información acerca del uso de los registros de ULS, vea el artículo del blog de soporte técnico de Project [Project Server 2010: qué esperar cuando obtenga la inesperado](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)y buscar el blog para "leer ULS registros." 
-> - Para ayudar a encontrar o controlar problemas específicos en los datos del ULS, utilice el [Visor de ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Use Microsoft SQL Server Profiler para capturar o controlar errores de base de datos. Para obtener más información, vea [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - Use los registros de seguimiento del Servicio de registro unificado (ULS). Para obtener una explicación, consulte la sección de *comprobación de errores* del artículo [Getting Started with Development for Project 2010](https://msdn.microsoft.com/library/gg607685.aspx) (Introducción al desarrollo para Project 2010). 
+> - Para obtener más información acerca del uso de los registros del ULS, vea el artículo del blog de soporte técnico de Project titulado [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) (Project Server 2010: Qué esperar cuando ocurre lo inesperado) y busque en el blog “reading ULS logs” (lectura de registros del ULS). 
+> - Para buscar o controlar problemas específicos en los datos del ULS, use el [Visor del ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
+> - Use Microsoft SQL Server Profiler para detectar o supervisar errores de la base de datos. Para obtener más información, vea [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
 > - Muchos de los códigos de error solo se usan internamente. Por ejemplo, como los servicios web **ExchangeSync** y **PWA** no se pueden usar para el desarrollo de terceros, no es probable que vea los códigos de error de métodos de esas áreas, como, por ejemplo, los métodos **Rules** y **StatusReports**. Sin embargo, las tablas de este artículo incluyen todos los códigos de error de Project Server con la pretensión de ser exhaustivas. 
   
-## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Tabla 1. Áreas funcionales de los códigos de error e intervalos de números relacionados
+## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Tabla 1. Áreas funcionales de los códigos de error con los intervalos de números correspondientes
 
-|Área funcional de Project Server|Intervalos de números de códigos de error|
+|Área funcional de Project Server|Intervalos de números de los códigos de error|
 |:-----|:-----|
 |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |0 - 99; 500 - 999; 9131; 10000 - 10099; 20000 - 20099; 26000 - 26099  <br/> |
 |[Tabla 4: Caché activa](#pj15_ErrorCodes_ActiveCache) <br/> |12000 - 12099  <br/> |
@@ -50,75 +50,75 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |[Tabla 8: Asignaciones](#pj15_ErrorCodes_Assignments) <br/> |120 - 199  <br/> |
 |[Tabla 9: Calendario](#pj15_ErrorCodes_Calendar) <br/> |77 y 13000 - 13999  <br/> |
 |[Tabla 10: Cube Build Service (CBS)](#pj15_ErrorCodes_CBS) <br/> |17000 - 17999  <br/> |
-|[Tabla 11: Protección - desproteger](#pj15_ErrorCodes_CICO) <br/> |10100 - 10199  <br/> |
+|[Tabla 11: Protección y desprotección](#pj15_ErrorCodes_CICO) <br/> |10100 - 10199  <br/> |
 |[Tabla 12: Campos personalizados](#pj15_ErrorCodes_CustomFields) <br/> |11500 - 11999  <br/> |
 |[Tabla 13: Tablas de búsqueda](#pj15_ErrorCodes_LookupTables) <br/> |11000 - 11499  <br/> |
 |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) <br/> |11000 - 11499  <br/> |
 |[Tabla 15: Notificaciones](#pj15_ErrorCodes_Notifications) <br/> |16000 - 16599  <br/> |
 |[Tabla 16: Optimizador](#pj15_ErrorCodes_Optimizer) (análisis de la cartera de proyectos)  <br/> |29000 - 29999  <br/> |
-|[Tabla 17: Organizador](#pj15_ErrorCodes_Planner) (análisis de la cartera de proyectos)  <br/> |28000 - 28999  <br/> |
-|[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects) <br/> |100 - 499; 1000 - 1199; 9100 - 9199; y 23000 23999  <br/> |
+|[Tabla 17: Planner](#pj15_ErrorCodes_Planner) (análisis de la cartera de proyectos)  <br/> |28000 - 28999  <br/> |
+|[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects) <br/> |100 - 499; 1000 - 1199; 9100 - 9199 y 23000 - 23999  <br/> |
 |[Tabla 19: Servicio de datos de informes](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000 - 24999  <br/> |
 |[Tabla 20: Recursos](#pj15_ErrorCodes_Resources) <br/> |2000 - 2999  <br/> |
-|[Tabla 21: Planes de recursos](#pj15_ErrorCodes_ResourcePlans) <br/> |30000 - 30999  <br/> |
+|[Tabla 21: Planeamiento de recursos](#pj15_ErrorCodes_ResourcePlans) <br/> |30000 - 30999  <br/> |
 |[Tabla 22: Reglas](#pj15_ErrorCodes_Rules) <br/> |21000 - 21099  <br/> |
 |[Tabla 23: Seguridad](#pj15_ErrorCodes_Security) <br/> |19000 - 19099  <br/> |
-|[Tabla 24: Eventos del servidor](#pj15_ErrorCodes_Events) <br/> |19033 y 22000 - 22999  <br/> |
-|[Tabla 25: Estados](#pj15_ErrorCodes_Statusing) <br/> |3100 - 3199  <br/> |
-|[Tabla 26: Informes de estado](#pj15_ErrorCodes_StatusReports) <br/> |12100 - 12299  <br/> |
+|[Tabla 24: Eventos de servidor](#pj15_ErrorCodes_Events) <br/> |19033 y 22000 - 22999  <br/> |
+|[Tabla 25: Estado](#pj15_ErrorCodes_Statusing) <br/> |3100 - 3199  <br/> |
+|[tabla 26: Informes de estado](#pj15_ErrorCodes_StatusReports) <br/> |12100 - 12299  <br/> |
 |[Tabla 27: Tareas](#pj15_ErrorCodes_Tasks) <br/> |7000 - 7099  <br/> |
 |[Tabla 28: Partes de horas](#pj15_ErrorCodes_Timesheets) <br/> |3200 - 3299  <br/> |
 |[Tabla 29: Delegación de usuarios](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
 |[Tabla 30: Flujo de trabajo](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999: Flujo de trabajo  <br/> |
-|[Tabla 31: WSSInterop y ObjectLinkProvider (integración de SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499: Integración de SharePoint y espacios de trabajo para proyectos  <br/> 18000 - 18099: Proveedor de vínculos a objetos e importación de proyectos de SharePoint  <br/> |
+|[Tabla 31: Códigos de error de WssInterop y ObjectLinkProvider (integración de SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499: Áreas de trabajo de proyectos e integración de SharePoint  <br/> 18000 - 18099: Proveedor de vínculos a objetos e importación de proyectos de SharePoint  <br/> |
    
-## <a name="table-2-error-code-table-by-number-range"></a>Tabla 2. Tabla de códigos de error por intervalo numérico
+## <a name="table-2-error-code-table-by-number-range"></a>Tabla 2. Tabla de códigos de error ordenados por el intervalo de números
 
 |Intervalo de códigos de error|Tabla de códigos de error|
 |:-----|:-----|
-|0 - 99  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General), excepto el 77, incluido en la [Tabla 9: Calendario](#pj15_ErrorCodes_Calendar) <br/> |
+|0 - 99  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General), excepto 77 que está en la [Tabla 9: Calendario](#pj15_ErrorCodes_Calendar) <br/> |
 |100 - 119  <br/> |[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects) <br/> |
 |120 - 199  <br/> |[Tabla 8: Asignaciones](#pj15_ErrorCodes_Assignments) <br/> |
 |500 - 999  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |
 |1000 - 1199  <br/> |[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects) <br/> |
 |2000 - 2999  <br/> |[Tabla 20: Recursos](#pj15_ErrorCodes_Resources) <br/> |
-|3100 - 3199  <br/> |[Tabla 25: Estados](#pj15_ErrorCodes_Statusing) <br/> |
+|3100 - 3199  <br/> |[Tabla 25: Estado](#pj15_ErrorCodes_Statusing) <br/> |
 |3200 - 3299  <br/> |[Tabla 28: Partes de horas](#pj15_ErrorCodes_Timesheets) <br/> |
 |7000 - 7099  <br/> |[Tabla 27: Tareas](#pj15_ErrorCodes_Tasks) <br/> |
-|9100 - 9199  <br/> |[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects), excepto el 9131, incluido en la [Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |
+|9100 - 9199  <br/> |[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects), excepto 9131 que está en la [Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |
 |10000 - 10099  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |
-|10100 - 10199  <br/> |[Tabla 11: Protección - desproteger](#pj15_ErrorCodes_CICO) <br/> |
+|10100 - 10199  <br/> |[Tabla 11: Protección y desprotección](#pj15_ErrorCodes_CICO) <br/> |
 |11000 - 11499  <br/> |[Tabla 13: Tablas de búsqueda](#pj15_ErrorCodes_LookupTables) <br/> |
 |11500 - 11999  <br/> |[Tabla 12: Campos personalizados](#pj15_ErrorCodes_CustomFields) <br/> |
 |12000 - 12099  <br/> |[Tabla 4: Caché activa](#pj15_ErrorCodes_ActiveCache) <br/> |
-|12100 - 12299  <br/> |[Tabla 26: Informes de estado](#pj15_ErrorCodes_StatusReports) <br/> |
+|12100 - 12299  <br/> |[tabla 26: Informes de estado](#pj15_ErrorCodes_StatusReports) <br/> |
 |13000 - 13999  <br/> |[Tabla 9: Calendario](#pj15_ErrorCodes_Calendar) <br/> |
 |16000 - 16399  <br/> |[Tabla 15: Notificaciones](#pj15_ErrorCodes_Notifications) <br/> |
-|16400 - 16499  <br/> |[Tabla 31: WssInterop y proveedor de vínculos a objetos (integración de SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
+|16400 - 16499  <br/> |[Tabla 31: Códigos de error de WssInterop y Object Link Provider (integración de SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
 |16600 - 16699  <br/> |[Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
 |17000 - 17999  <br/> |[Tabla 10: Cube Build Service (CBS)](#pj15_ErrorCodes_CBS) <br/> |
 |18000 - 18099  <br/> |[Tabla 31: Integración de SharePoint](#pj15_ErrorCodes_WSS) <br/> |
-|19000 - 19099  <br/> |[Tabla 23: Seguridad](#pj15_ErrorCodes_Security), excepto 19011, 19012 y 19032, que son códigos relacionados con la seguridad incluidos en [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
-|20000 - 20099  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General), excepto 20003, incluido en [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
+|19000 - 19099  <br/> |[Tabla 23: Seguridad](#pj15_ErrorCodes_Security), excepto 19011, 19012 y 19032 que son códigos relacionados con la seguridad y están en la [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
+|20000 - 20099  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General), excepto 20003 que está en la [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
 |21000 - 21099  <br/> |[Tabla 22: Reglas](#pj15_ErrorCodes_Rules) <br/> |
-|22000 - 22999  <br/> |[Tabla 24: Eventos del servidor](#pj15_ErrorCodes_Events) <br/> |
+|22000 - 22999  <br/> |[Tabla 24: Eventos de servidor](#pj15_ErrorCodes_Events) <br/> |
 |23000 - 23999  <br/> |[Tabla 18: Proyectos](#pj15_ErrorCodes_Projects) <br/> |
 |24000 - 24999  <br/> |[Tabla 19: Servicio de datos de informes](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
-|25000 - 25999  <br/> |[Tabla 7: Archivo (copia de seguridad y restauración)](#pj15_ErrorCodes_Archive), excepto 25004 y 25006, incluidos en la [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
+|25000 - 25999  <br/> |[Tabla 7: Archivo (copia de seguridad y restauración)](#pj15_ErrorCodes_Archive), excepto 25004 y 25006 que están en la [Tabla 6: Servicio web de administración](#pj15_ErrorCodes_Admin) <br/> |
 |26000 - 26099  <br/> |[Tabla 3: Códigos de error generales](#pj15_ErrorCodes_General) <br/> |
 |27000 - 27999  <br/> |[Tabla 5: Sincronización de Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |
-|28000 - 28999  <br/> |[Tabla 17: Organizador](#pj15_ErrorCodes_Planner) (análisis de la cartera de proyectos)  <br/> |
-|29000 - 29999  <br/> |[Tabla 16: Optimizador](#pj15_ErrorCodes_Optimizer) (análisis de la cartera de proyectos), excepto 29021, incluido en la [Tabla 7: Archivo](#pj15_ErrorCodes_Archive) <br/> |
-|30000 - 30999  <br/> |[Tabla 21: Planes de recursos](#pj15_ErrorCodes_ResourcePlans) <br/> |
-|31000 - 31999  <br/> 32000 - 32100  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (auditoría, no usado)  <br/> Páginas de detalles del proyecto  <br/> |
+|28000 - 28999  <br/> |[Tabla 17: Planner](#pj15_ErrorCodes_Planner) (análisis de la cartera de proyectos)  <br/> |
+|29000 - 29999  <br/> |[Tabla 16: Optimizador](#pj15_ErrorCodes_Optimizer) (análisis de la cartera de Project), excepto 29021 que está en la [Tabla 7: Archivo](#pj15_ErrorCodes_Archive) <br/> |
+|30000 - 30999  <br/> |[Tabla 21: Planeamiento de recursos](#pj15_ErrorCodes_ResourcePlans) <br/> |
+|31000 - 31999  <br/> 32000 - 32100  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (Auditoría; no se usa)  <br/> Páginas de detalles del proyecto  <br/> |
 |35000 - 35999  <br/> 40000 - 40499  <br/> |[Tabla 30: Flujo de trabajo](#pj15_ErrorCodes_Workflow) <br/> |
-|40500 - 40999  <br/> 42000 - 42999  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**; uso interno)  <br/> Escala de tiempo de Project Web App  <br/> |
+|40500 - 40999  <br/> 42000 - 42999  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**; use interno)  <br/> Escala de tiempo de Project Web App  <br/> |
 |43000 - 43500  <br/> |[Tabla 29: Delegación de usuarios](#pj15_ErrorCodes_UserDelegation) <br/> |
-|50000 - 51999  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (errores de base de datos)  <br/> |
+|50000 - 51999  <br/> |[Tabla 14: Miscelánea](#pj15_ErrorCodes_Miscellaneous) (errores de la base de datos)  <br/> |
 
 <a name="pj15_ErrorCodes_General"></a>
 
-## <a name="table-3-general-error-codes"></a>Tabla 3. Códigos de error generales
+## <a name="table-3-general-error-codes"></a>Tabla 3: Códigos de error generales
 
 |Código de error general|Descripción|
 |:-----|:-----|
@@ -139,14 +139,14 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |GeneralSessionInvalid = 76  <br/> |El parámetro de sesión no es válido.  <br/> |
 |GeneralDependencyUidInvalid = 78  <br/> |El GUID de dependencia no es válido.  <br/> |
 |GeneralNumberInvalid = 79  <br/> |Un número no es válido.  <br/> |
-|GeneralInvalidDataStore = 80  <br/> |La base de datos especificado no existe. Usar una base de datos en [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx) .  <br/> |
+|GeneralInvalidDataStore = 80  <br/> |No existe la base de datos especificada. Use una base de datos en [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx).  <br/> |
 |GeneralDurationOrWorkFormatInvalid = 513  <br/> |La duración o el formato de trabajo no son válidos.  <br/> |
 |GeneralRateFormatInvalid = 518  <br/> |El formato de tasa no es válido.  <br/> |
 |GeneralQueueException = 9131  <br/> |Excepción: Hay un error general en los Servicios en cola.  <br/> |
 |GeneralItemDoesNotExist = 10000  <br/> |Un elemento especificado no existe.  <br/> |
 |GeneralLCIDInvalid = 10001  <br/> |El identificador de configuración regional (Id. de idioma) no es válido.  <br/> |
-|GeneralRowDoesNotExist = 10002  <br/> |La fila especificada de una **DataTable** no existe.  <br/> |
-|GeneralInvalidColumnValue = 20000  <br/> |Un valor de columna de una **DataTable** no es válido.  <br/> |
+|GeneralRowDoesNotExist = 10002  <br/> |No existe la fila especificada en una tabla **DataTable**.  <br/> |
+|GeneralInvalidColumnValue = 20000  <br/> |El valor de una columna en una tabla **DataTable** no es válido.  <br/> |
 |GeneralInvalidDataRowState = 20001  <br/> |Un estado de **DataRow** no es válido.  <br/> |
 |GeneralDuplicatedNames = 20004  <br/> |Hay un nombre duplicado. Los nombres deben ser únicos.  <br/> |
 |GeneralReadOnlyColumn = 20005  <br/> |La columna es de solo lectura.  <br/> |
@@ -156,7 +156,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |GeneralInvalidObject = 20009  <br/> |El objeto no es válido.  <br/> |
 |GeneralSecurityAccessDenied = 20010  <br/> |Se ha denegado el acceso a causa de los permisos de seguridad.  <br/> |
 |GeneralInvalidOperation = 20011  <br/> |La operación no es válida.  <br/> |
-|GeneralInvalidCharacters = 20012  <br/> |Algunos caracteres no son válidos. El carácter de tabulación, además de los siguientes caracteres no son válidos en un nombre de proyecto: ' \ / ":; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Algunos caracteres no son válidos. Además del carácter de tabulación, los siguientes caracteres no son válidos en un nombre de proyecto: `\ / " : ; < > | , . ' ? * #` <br/> |
 |GeneralNameTooLong = 20013  <br/> |El nombre es demasiado largo.  <br/> |
 |GeneralNameCannotBeBlank = 20014  <br/> |El nombre no puede estar en blanco. No use una cadena nula ni lo deje en blanco.  <br/> |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |La operación intentada en un valor de solo lectura no es válida.  <br/> |
@@ -190,14 +190,14 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |GeneralDalErrorGettingConnectionStrings = 26018  <br/> |Error al obtener las cadenas de conexión para el nivel de acceso a datos (DAL).  <br/> |
 |GeneralDalErrorConnectingToDatabase = 26019  <br/> |Error en el DAL al conectar con la base de datos.  <br/> |
 |GeneralDalInvalidArgumentCountCreatingFilter = 26020  <br/> |El número de argumentos para crear un filtro no es válido.  <br/> |
-|GeneralDataTableCannotBeNull = 26024  <br/> |Una **DataTable**no puede ser **null**.  <br/> |
+|GeneralDataTableCannotBeNull = 26024  <br/> |Una tabla **DataTable** no puede tener un valor **null**.  <br/> |
 |GeneralDatasetConstraints = 26025  <br/> |Error en las restricciones de **DataSet**.  <br/> |
 |GeneralInvalidDataSetStructure = 26027  <br/> |La estructura de **DataSet** no es válida.  <br/> |
 |GeneralDalNoRowsUpdated = 26028  <br/> |No se ha actualizado ninguna fila en el nivel de acceso a datos (DAL).  <br/> |
-|GeneralDataTableCannotBeEmpty = 26029  <br/> |La **DataTable** no puede estar vacía.  <br/> |
+|GeneralDataTableCannotBeEmpty = 26029  <br/> |La tabla **DataTable** no puede estar vacía.  <br/> |
 |GeneralWSSContentDBNotWritable = 26030  <br/> |No se puede escribir en la base de datos de contenido de SharePoint. Puede que la base de datos de contenido sea de solo lectura o que se haya bloqueado en el nivel de colección de sitios.  <br/> |
-|GeneralSPValidateFormDigestError = 26031  <br/> |Error al validar la síntesis de formulario en una devolución de llamada de Project Web App, normalmente debido a un tiempo de espera.  <br/> |
-|GeneralDelegationActiveForCurrentUser = 26032  <br/> |El usuario actual tiene una delegación activa. Este error lo suelen desencadenar los métodos web en el servicio **WinProj** para Project Professional.<br/> |
+|GeneralSPValidateFormDigestError = 26031  <br/> |Error al validar la síntesis de formulario en una devolución de llamada de Project Web App, normalmente por haber excedido el tiempo de espera.  <br/> |
+|GeneralDelegationActiveForCurrentUser = 26032  <br/> |El usuario actual tiene una delegación activa. Este error lo provocan métodos web en el servicio **WinProj** para Project Profesional.<br/> |
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
@@ -219,7 +219,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |ActiveCacheProjectTypeMismatch = 12013  <br/> |El tipo de proyecto no coincide con el tipo esperado.  <br/> |
 |ActiveCacheDataValidationFailed = 12014  <br/> |Error al validar los datos.  <br/> |
 |ActiveCacheUnsupportedProjectProfessionalVersion = 12015  <br/> |La versión de Project Professional no es compatible.  <br/> |
-|ActiveCacheGeneralSQLException = 12016  <br/> |Se ha producido un error general de SQL.  <br/> |
+|ActiveCacheGeneralSQLException = 12016  <br/> |Hay un error general de SQL.  <br/> |
 
 <a name="pj15_ErrorCodes_ActiveDirectory"></a>
 
@@ -233,13 +233,13 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |AdMaximumGroupsCountExceeded = 27007  <br/> |Se ha excedido el número máximo de grupos.  <br/> |
 |SRAInvalidVersion = 27300  <br/> |Versión de SRA no válida.  <br/> |
 |SRADelayedUpgradeFailed = 27301  <br/> |Error en la acción de actualización asíncrona de SRA.  <br/> |
-|(27000 - 27999)  <br/> |En Project Server no se enumeran otros errores de sincronización de Active Directory.  <br/> |
+|(27000 - 27999)  <br/> |Otros errores de sincronización de Active Directory no se enumeran en Project Server.  <br/> |
 
 <a name="pj15_ErrorCodes_Admin"></a>
 
 ## <a name="table-6-admin-web-service"></a>Tabla 6. Servicio web de administración
 
-|Código de error del servicio de administración web|Descripción|
+|Códigos de error del servicio web de administración|Descripción|
 |:-----|:-----|
 |AdminViewNameAlreadyExists = 16600  <br/> |El nombre de la vista ya existe. Los nombres deben ser únicos.  <br/> |
 |AdminViewInvalidDividerPosition = 16601  <br/> |La posición del divisor no es válida.  <br/> |
@@ -259,11 +259,11 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |AdminUserAccountNameNull = 28021  <br/> |El nombre de la cuenta de usuario es nulo.  <br/> |
 |AdminIsWindowsUserNull = 28022  <br/> |La cuenta de usuario de Windows (NTLM) parece nula.  <br/> |
 |AdminInvalidTimePeriodState = 28023  <br/> |El estado de timeperiod no es válido.  <br/> |
-|AdminGlobalUpdateFailed = 28024  <br/> |Error en la actualización global de empresa durante la llamada a **SetServerCurrency**.  <br/> |
-|AdminGlobalCheckedOut = 28025  <br/> |La plantilla global de empresa ya está desprotegida durante la llamada a **SetServerCurrency**.  <br/> |
+|AdminGlobalUpdateFailed = 28024  <br/> |Error en la actualización de la información global de la empresa durante la llamada a **SetServerCurrency**.  <br/> |
+|AdminGlobalCheckedOut = 28025  <br/> |La plantilla de la información global de la empresa ya está desprotegida durante la llamada a **SetServerCurrency**.  <br/> |
 |AdminInvalidDatabaseTimeout = 28026  <br/> |Se ha excedido el tiempo de espera porque una base de datos no es válida.  <br/> |
 |AdminInvalidDatabaseTimeoutType = 28027  <br/> |Se ha excedido el tiempo de espera porque un tipo de base de datos no es válido.  <br/> |
-|AdminInvalidEntityType = 28028  <br/> |El tipo de entidad no es válido. Vea [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) .  <br/> |
+|AdminInvalidEntityType = 28028  <br/> |El tipo de entidad no es válido. Vea [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx).  <br/> |
 |AdminInvalidCompatibilityModeChange = 28029  <br/> |El cambio al modo de compatibilidad no es válido.  <br/> |
 |AdminInvalidCompatibilityMode = 28030  <br/> |El modo de compatibilidad no es válido.  <br/> |
 |AdminInvalidProjectProfessionalVersions = 28031  <br/> |El conjunto de versiones de Project Professional no es válido.  <br/> |
@@ -271,13 +271,13 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |AdminTooManyProjectProfessionalVersions = 28033  <br/> |Se han especificado demasiadas versiones de Project Professional.  <br/> |
 |AdminDuplicateProjectProfessionalMajorVersions = 28034  <br/> |Hay duplicados en las versiones principales de Project Professional. Solo puede especificar una versión para cada versión principal a partir de Project Professional 2007.  <br/> |
 |AdminInvalidServerFlags = 28035  <br/> |Al menos una marca de la configuración de Project Server no es válida.  <br/> |
-|AdminNullProjectProfessionalVersions = 28036  <br/> |Al menos una versión de Project Professional es nula.  <br/> |
+|AdminNullProjectProfessionalVersions = 28036  <br/> |Una o varias versiones de Project Profesional son nulas.  <br/> |
 
 <a name="pj15_ErrorCodes_Archive"></a>
 
 ## <a name="table-7-archive-web-service"></a>Tabla 7. Servicio web de archivo
 
-|Código de error de archivo web service (copia de seguridad y restauración)|Descripción|
+|Código de error del servicio web de archivo (copia de seguridad y restauración)|Descripción|
 |:-----|:-----|
 |ArchiveProjectFailure = 25000  <br/> |Error en la operación de archivo del proyecto.  <br/> |
 |ArchiveProjectsFailed = 25001  <br/> |No se puede guardar ninguno de los proyectos en la base de datos de archivo.  <br/> |
@@ -314,9 +314,9 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 
 <a name="pj15_ErrorCodes_Assignments"></a>
 
-## <a name="table-8-assignment"></a>Tabla 8. Assignment
+## <a name="table-8-assignment"></a>Tabla 8. Asignación
 
-|Código de error de asignación|Descripción|
+|Código de error de la asignación|Descripción|
 |:-----|:-----|
 |AssignmentNotFound = 120  <br/> |No se encontró la asignación.  <br/> |
 |AssignmentWrongTrackingMethod = 122  <br/> |El método de seguimiento de la asignación es incorrecto.  <br/> |
@@ -336,7 +336,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 
 ## <a name="table-9-calendar"></a>Tabla 9. Calendario
 
-|Código de error de calendario|Descripción|
+|Código de error del calendario|Descripción|
 |:-----|:-----|
 |CalendarUidInvalid = 77  <br/> |El GUID del calendario no es válido.  <br/> |
 |CalendarOnlyOneShiftIsNull = 13000  <br/> |Solo un turno es nulo.  <br/> |
@@ -375,9 +375,9 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 
 <a name="pj15_ErrorCodes_CBS"></a>
 
-## <a name="table-10-cubeadmin-and-cube-build-service"></a>Tabla 10. CubeAdmin y cubo Build Service
+## <a name="table-10-cubeadmin-and-cube-build-service"></a>Tabla 10. CubeAdmin y Cube Build Service
 
-|Código de error CubeAdmin y el servicio de generación de cubos (CBS)|Descripción|
+|Código de error de CubeAdmin y Cube Build Service (CBS)|Descripción|
 |:-----|:-----|
 |CBSGeneralFailure = 17001  <br/> |Error en Cube Build Service (CBS). Se trata de un código de error general que puede ser resultado de muchas causas diferentes.  <br/> |
 |CBSDsoNotInstalled = 17002  <br/> |CBS necesita tener instalado el componente Decision Support Objects (DSO) para Analysis Services.  <br/> |
@@ -416,7 +416,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 
 <a name="pj15_ErrorCodes_CICO"></a>
 
-## <a name="table-11-check-in-and-check-out"></a>Tabla 11. Proteger y desproteger
+## <a name="table-11-check-in-and-check-out"></a>Tabla 11. Protección y desprotección
 
 |Código de error de protección o desprotección|Descripción|
 |:-----|:-----|
@@ -426,13 +426,13 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |CICOCheckedOutInOtherSession = 10103  <br/> |Desprotegido en otra sesión.  <br/> |
 |CICOInvalidSessionGuid = 10104  <br/> |El GUID de sesión no es válido.  <br/> |
 |CICOAlreadyCheckedOutInSameSession = 10105  <br/> |Ya se ha desprotegido en la misma sesión.  <br/> |
-|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |No se puede desproteger el proyecto en modo de visibilidad con un archivo mpp de la biblioteca de documentos.  <br/> |
+|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |No se puede desproteger un proyecto en modo de visibilidad con un archivo MPP en la biblioteca de documentos.  <br/> |
 
 <a name="pj15_ErrorCodes_CustomFields"></a>
 
 ## <a name="table-12-custom-field"></a>Tabla 12. Campo personalizado
 
-|Código de error de campo personalizado|Descripción|
+|Código de error del campo personalizado|Descripción|
 |:-----|:-----|
 |CustomFieldInvalidPropertyType = 11500  <br/> |El tipo de propiedad no es válido.  <br/> |
 |CustomFieldInvalidScope = 11503  <br/> |El ámbito del campo personalizado no es válido.  <br/> |
@@ -466,21 +466,21 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |CustomFieldInvalidID = 11701  <br/> |El número de identificación del campo personalizado no es válido.  <br/> |
 |CustomFieldInvalidUID = 11702  <br/> |El GUID de campo personalizado no es válido.  <br/> |
 |CustomFieldInvalidType = 11703  <br/> |El tipo de campo personalizado no es válido.  <br/> |
-|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |El valor de columna de tipo de campo personalizado no es válido. Vea ejemplo de [Ejemplo de código de Error de WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |El valor de la columna de tipo de campo personalizado no es válido. Vea un ejemplo en [Ejemplo de código de error de WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCodeValueDoesNotMatchLookupTable = 11706  <br/> |El valor del código no coincide con la tabla de búsqueda.  <br/> |
 |CustomFieldCodeValueIsNotLeafNode = 11707  <br/> |El valor del código no es un nodo hoja de la tabla de búsqueda.  <br/> |
 |CustomFieldRowAlreadyExists = 11708  <br/> |La fila de campo personalizado ya existe.  <br/> |
 |CustomFieldRowDoesNotMatchCorrespondingDefinitionInDB = 11710  <br/> |La fila de campo personalizado no coincide con la definición de base de datos.  <br/> |
 |CustomFieldCodeValueAlreadyUsed = 11711  <br/> |El valor de código ya está en uso.  <br/> |
 |CustomFieldMaxValuesExceeded = 11712  <br/> |Se han excedido los valores máximos de los campos predeterminados.  <br/> |
-|CustomFieldRequiredValueNotProvided = 11713  <br/> |No se proporciona un valor de campo personalizado obligatorio. Vea ejemplo de [Ejemplo de código de Error de WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldRequiredValueNotProvided = 11713  <br/> |No se proporciona un valor de campo personalizado obligatorio. Vea un ejemplo en [Ejemplo de código de error de WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCannotChangeLookupTable = 11715  <br/> |No se puede cambiar la tabla de búsqueda de campo personalizado.  <br/> |
 |CustomFieldFilterInvalid = 11716  <br/> |El filtro de campo personalizado no es válido.  <br/> |
 |CustomFieldRolldownInvalidOnFormulaFields = 11717  <br/> |No se puede efectuar la aplicación en un campo personalizado de fórmula.  <br/> |
 |CustomFieldFormulaFieldCannotBeRequired = 11718  <br/> |El campo de fórmula no puede ser obligatorio.  <br/> |
 |CustomFieldFormulaFieldCannotBeWorkflowControlled = 11719  <br/> |El campo de fórmula no se puede controlar mediante un flujo de trabajo.  <br/> |
 |CustomFieldCannotSetValueOnFormulaFields = 11720  <br/> |No se puede definir el valor en los campos de fórmula.  <br/> |
-|CustomFieldNewPerRequestLimitExcedeed = 11721  <br/> |Se ha excedido el límite de solicitudes para nuevos campos personalizados. El límite es [NEW_CF_PER_REQUEST_LIMIT](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.CustomField.NEW_CF_PER_REQUEST_LIMIT.aspx) en una sola solicitud.  <br/> |
+|CustomFieldNewPerRequestLimitExcedeed = 11721  <br/> |Se ha excedido el límite de solicitudes de nuevos campos personalizados. El límite es [NEW_CF_PER_REQUEST_LIMIT](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.CustomField.NEW_CF_PER_REQUEST_LIMIT.aspx) en una solicitud.  <br/> |
 |CustomFieldNameIsReservedName = 11722  <br/> |Un nombre de campo personalizado no puede ser un nombre reservado.  <br/> |
 |CustomFieldNameInvalidForOlapMeasure = 11723  <br/> |El nombre del campo personalizado no es válido para una medida de cubo OLAP.  <br/> |
 |CustomFieldNameInvalidForOlapDimension = 11724  <br/> |El nombre del campo personalizado no es válido para una dimensión de cubo OLAP.  <br/> |
@@ -492,7 +492,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |CustomFieldCannotModifyDepartmentUidOnBuiltinFields = 11732  <br/> |El GUID de departamento no se puede modificar en los campos personalizados integrados.  <br/> |
 |CustomFieldCannotHaveBothLookupTableAndMultilineText = 11733  <br/> |Un campo personalizado no puede incluir una tabla de búsqueda y texto de varias líneas al mismo tiempo.  <br/> |
 |CustomFieldCannotHaveBothFormulaAndMultilineText = 11734  <br/> |Un campo personalizado no puede incluir una fórmula y texto de varias líneas al mismo tiempo.  <br/> |
-|CustomFieldDescriptionExceedsLimit = 11735  <br/> |La descripción del campo personalizado es demasiado larga. La longitud máxima de la propiedad **MD_PROP_DESCRIPTION** es de 1000 caracteres.<br/> |
+|CustomFieldDescriptionExceedsLimit = 11735  <br/> |La descripción del campo personalizado es demasiado larga. La longitud máxima de la propiedad **MD_PROP_DESCRIPTION** es 1000 caracteres.<br/> |
 |CustomFieldOnlyTextFieldsCanHaveMultilineText = 11736  <br/> |Solo los campos personalizados de texto pueden contener texto de varias líneas.  <br/> |
 |CustomFieldOnlyProjectFieldsCanHaveMultilineText = 11737  <br/> |Solo los campos personalizados de proyecto pueden contener texto de varias líneas.  <br/> |
 |CustomFieldCannotChangeWorkflowControlledBehaviorForNonProjectCustomFields = 11738  <br/> |Un campo personalizado no puede modificar el comportamiento de los campos personalizados ajenos al proyecto controlados por un flujo de trabajo.  <br/> |
@@ -506,13 +506,13 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |CustomFieldGraphicalIndicatorContainsInvalidFieldReference = 11747  <br/> |El indicador gráfico del campo personalizado contiene una referencia de campo que no es válida.  <br/> |
 |CustomFieldGraphicalIndicatorTypeMismatch = 11748  <br/> |El tipo no coincide con el tipo del indicador gráfico del campo personalizado.  <br/> |
 |CustomFieldFormulaFieldCannotReferenceWorkflowControlledField = 11749  <br/> |Un campo de la fórmula no puede hacer referencia a un campo controlado por un flujo de trabajo.  <br/> |
-|CustomFieldWorkflowCustomFieldBeingReferencedByFormula = 11750  <br/> |Una fórmula intenta hacer referencia a un campo personalizado de flujo de trabajo.  <br/> |
+|CustomFieldWorkflowCustomFieldBeingReferencedByFormula = 11750  <br/> |Una fórmula está tratando de hacer referencia a un campo personalizado de flujo de trabajo.  <br/> |
 
 <a name="pj15_ErrorCodes_LookupTables"></a>
 
 ## <a name="table-13-lookup-table"></a>Tabla 13. Tabla de búsqueda
 
-|Código de error de tabla de búsqueda|Descripción|
+|Código de error de la tabla de búsqueda|Descripción|
 |:-----|:-----|
 |LookupTableMaskNotDefined = 11000  <br/> |No se ha definido la máscara de código de tabla de búsqueda.  <br/> |
 |LookupTableMaskHasTooManyValues = 11001  <br/> |La máscara de código de tabla de búsqueda tiene demasiados valores.  <br/> |
@@ -523,7 +523,7 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |LookupTableMaskSeparatorTooLong = 11006  <br/> |El separador de máscara de código tiene demasiados caracteres.  <br/> |
 |LookupTableMaskLevelMustBeBlankAcrossLCIDs = 11007  <br/> |El nivel de máscara de código debe estar en blanco en todos los identificadores de configuración regional (Id. de idioma).  <br/> |
 |LookupTableMaskSeparatorInvalid = 11008  <br/> |Un carácter de separador de máscara de código no es válido.  <br/> |
-|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Un carácter de separador en blanco no es válido después de una longitud de la secuencia de _Any_.  <br/> |
+|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Un carácter separador en blanco no es válido después de una longitud de secuencia de _Any_.  <br/> |
 |LookupTableMaskSequenceLengthInvalid = 11010  <br/> |La longitud de la secuencia de máscara de código no es válida.  <br/> |
 |LookupTableMaskLevelMustBeOneOrMore = 11011  <br/> |La máscara de código debe ser de nivel 1 o superior.  <br/> |
 |LookupTableItemDoesNotFitMask = 11050  <br/> |El elemento de la tabla de búsqueda no encaja con la definición de la máscara de código.  <br/> |
@@ -551,20 +551,20 @@ Project Server 2013 procesos y métodos PSI tienen números de código de error 
 |LookupTableAlreadyExists = 11076  <br/> |La tabla de búsqueda ya existe.  <br/> |
 |LookupTableInvalidUID = 11078  <br/> |El GUID de tabla de búsqueda no es válido.  <br/> |
 |LookupTableFilterInvalid = 11079  <br/> |El filtro de la tabla de búsqueda no es válido.  <br/> |
-|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Un parámetro de idioma no es válido con un parámetro _xmlFilter_ de tabla.  <br/> |
+|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Un parámetro de idioma no es válido con un parámetro _xmlFilter_ de tabla de búsqueda.  <br/> |
 |LookupTableInvalidParentStructUid = 11081  <br/> |El GUID de una estructura primaria de tabla de búsqueda no es válido.  <br/> |
 |LookupTableItemContainsListSeparator = 11082  <br/> |El elemento de tabla de búsqueda contiene un separador de lista.  <br/> |
    
-Códigos de error en la tabla 14 incluyen elementos de páginas de detalles del proyecto (PDP), sincronización de Exchange, la escala de tiempo de Project Web App y los errores de base de datos. Muchos de los códigos de error varios en la tabla 14 se usan internamente.
+Los códigos de error de la Tabla 14 incluyen errores de elementos de las páginas de detalles del proyecto (PDP), de sincronización de Exchange, de la escala de tiempo de Project Web App y de bases de datos. Muchos de los códigos de error clasificados en la Tabla 14, en la sección de miscelánea, son de uso interno.
   
 > [!NOTE]
 > Los códigos de error de auditoría no se usan en Project Server 2013. 
 
 <a name="pj15_ErrorCodes_Miscellaneous"></a>
 
-## <a name="table-14-miscellaneous-error-codes"></a>Tabla 14. Miscelánea de códigos de error
+## <a name="table-14-miscellaneous-error-codes"></a>Tabla 14: Códigos de error misceláneos
 
-|Código de error varios|Descripción|
+|Código de error misceláneo|Descripción|
 |:-----|:-----|
 |AuditingUpdateFailure = 31000  <br/> |No se usa.  <br/> |
 |AuditingCannotDeleteFeature = 31001  <br/> |No se usa.  <br/> |
@@ -582,8 +582,8 @@ Códigos de error en la tabla 14 incluyen elementos de páginas de detalles del 
 |ProjectDetailPagesUnavailableWorker = 32002  <br/> |Error al cargar la obtención de detalles del proyecto. No hay procesos de trabajo disponibles.  <br/> |
 |ProjectDetailPagesFailedToLoadProjectInWorker = 32003  <br/> |No se ha podido cargar el proceso de trabajo.  <br/> |
 |AppPermissionInvalidAppPermissionId = 32300  <br/> |Se ha producido un problema con el Id. de permiso de la aplicación.  <br/> |
-|InvariantValidationPSIFailed = 40000  <br/> |Devuelto por los métodos **PWA**, si algún método privado devuelve **ValidationMethodFailed**. Uso interno.<br/> |
-|ValidationMethodFailed = 40001  <br/> |Devuelto por métodos **PWA** privados cuando detectan incoherencias en la base de datos. Uso interno.<br/> |
+|InvariantValidationPSIFailed = 40000  <br/> |Error devuelto por los métodos de **PWA** si alguno de los métodos privados devuelve **ValidationMethodFailed**. Para uso interno.<br/> |
+|ValidationMethodFailed = 40001  <br/> |Error devuelto por los métodos privados de **PWA** cuando detectan incoherencias en la base de datos. Para uso interno.<br/> |
 |GeneralExchangeSyncError = 40500  <br/> |Error general en la sincronización de Microsoft Exchange. Uso interno.  <br/> |
 |ExchangeSyncRootFolderCreationFailed = 40501  <br/> |No se pudo crear la carpeta raíz en la sincronización de Microsoft Exchange.  <br/> |
 |ExchangeSyncTaskFolderCreationFailed = 40502  <br/> |No se pudo crear la carpeta de tarea.  <br/> |
@@ -606,7 +606,7 @@ Códigos de error en la tabla 14 incluyen elementos de páginas de detalles del 
 
 <a name="pj15_ErrorCodes_Notifications"></a>
 
-## <a name="table-15-notification"></a>Tabla 15. Notification
+## <a name="table-15-notification"></a>Tabla 15. Notificación
 
 |Código de error de notificación|Descripción|
 |:-----|:-----|
@@ -619,18 +619,18 @@ Códigos de error en la tabla 14 incluyen elementos de páginas de detalles del 
 |NotificationQueueMessageFailed = 16082  <br/> |Error en el mensaje de puesta en cola de la notificación.  <br/> |
 |NotificationXSLTTransformationError = 16084  <br/> |Error en la transformación XSLT de la notificación.  <br/> |
    
-Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un componente utilizado en el análisis de la cartera de proyectos.
+Todos los códigos de error de la Tabla 16 pertenecen al Optimizador, que es un componente de análisis de la cartera de proyectos.
 
 <a name="pj15_ErrorCodes_Optimizer"></a>
 
-## <a name="table-16-optimizer-project-portfolio-analysis"></a>Tabla 16. Optimizador (análisis de cartera de proyectos)
+## <a name="table-16-optimizer-project-portfolio-analysis"></a>Tabla 16. Optimizador (análisis de la cartera de proyectos)
 
 |Código de error del Optimizador|Descripción|
 |:-----|:-----|
-|OptimizerDepInvalidDepType = 29000  <br/> |El valor **DEPENDENCY_TYPE** en la [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) del optimizador no es válido. Vea [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) .  <br/> |
-|OptimizerDepInvalidEntityType = 29001  <br/> |El tipo de entidad no es válido. Vea la propiedad de [las entidades](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx) .  <br/> |
-|OptimizerDepInvalidPosition = 29003  <br/> |El valor de [posición](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) no es válido.  <br/> |
-|OptimizerDepDuplicateDependentProjects = 29004  <br/> |Hay proyectos duplicados en el [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx) .  <br/> |
+|OptimizerDepInvalidDepType = 29000  <br/> |El valor de **DEPENDENCY_TYPE** del optimizador en [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) no es válido. Vea [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx).  <br/> |
+|OptimizerDepInvalidEntityType = 29001  <br/> |El tipo de entidad no es válido. Vea la propiedad [Entities](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx).  <br/> |
+|OptimizerDepInvalidPosition = 29003  <br/> |El valor de [POSITION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) no es válido.  <br/> |
+|OptimizerDepDuplicateDependentProjects = 29004  <br/> |Hay proyectos duplicados en [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx).  <br/> |
 |OptimizerDepInvalidDependency = 29005  <br/> |La dependencia del Optimizador no es válida.  <br/> |
 |OptimizerDepCircularDependency = 29006  <br/> |Hay una dependencia circular.  <br/> |
 |OptimizerCannotDeleteDependency = 29007  <br/> |La dependencia no se puede eliminar.  <br/> |
@@ -648,7 +648,7 @@ Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un compo
 |OptimizerEngineBinarySubOptimal = 29107  <br/> |Los resultados de los cálculos del Optimizador no son óptimos.  <br/> |
 |OptimizerEngineBinaryInternalError = 29108  <br/> |Hay un error interno en el cálculo del Optimizador.  <br/> |
 |OptimizerInvalidRange = 29200  <br/> |El intervalo de fechas del optimizador no es válido.  <br/> |
-|OptimizerNonNormalizedWeights = 29201  <br/> |Los valores de **WEIGHT** en el [AnalysisDataSet.AnalysisPriorityDataDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisPriorityDataDataTable.aspx) no están normalizados.  <br/> |
+|OptimizerNonNormalizedWeights = 29201  <br/> |Los valores de **WEIGHT** en [AnalysisDataSet.AnalysisPriorityDataDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisPriorityDataDataTable.aspx) no están normalizados.  <br/> |
 |OptimizerCannotEditPrioritization = 29300  <br/> |No se puede editar la priorización de impulsores.  <br/> |
 |OptimizerCannotDeletePrioritization = 29301  <br/> |No se puede eliminar la priorización de impulsores.  <br/> |
 |OptimizerCannotCreatePrioritization = 29302  <br/> |No se puede crear la priorización de impulsores.  <br/> |
@@ -656,10 +656,10 @@ Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un compo
 |OptimizerCannotCalculateDriverPriorities = 29304  <br/> |No se pueden calcular las prioridades de impulsores.  <br/> |
 |OptimizerCannotCreateMultiplePrioritizations = 29305  <br/> |No se pueden crear varias priorizaciones de impulsores.  <br/> |
 |OptimizerCannotUpdateMultiplePrioritizations = 29306  <br/> |No se pueden actualizar varias priorizaciones de impulsores.  <br/> |
-|OptimizerDriverRelationsNotFilled = 29307  <br/> |Los datos de DriverRelationsRow no están completas.  <br/> |
+|OptimizerDriverRelationsNotFilled = 29307  <br/> |Los datos de DriverRelationsRow no están completos.  <br/> |
 |OptimizerDriversNotFilled = 29308  <br/> |No hay información suficiente en los impulsores de proyectos para una solución.  <br/> |
-|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |Hay valores inversos en el [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) .  <br/> |
-|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Hay un controlador inactivo especificado en el [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) . Compruebe las propiedades **DRIVER1_UID** y **DRIVER2_UID** .  <br/> |
+|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |Hay valores inversos en [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx).  <br/> |
+|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Se ha especificado un valor inactivo en [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Compruebe las propiedades **DRIVER1_UID** y **DRIVER2_UID**.  <br/> |
 |OptimizerCannotChangePrioritizationType = 29311  <br/> |No se puede cambiar el tipo de priorización.  <br/> |
 |OptimizerCannotSpecifyPriorityValuesForCalculatedPrioritizations = 29312  <br/> |Si se ha calculado una prioridad, no podrá especificar el valor de prioridad.  <br/> |
 |OptimizerCannotNormalizePriorityValues = 29313  <br/> |Los valores de prioridad no se pueden normalizar.  <br/> |
@@ -702,10 +702,10 @@ Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un compo
 |OptimizerInvalidPlannerData = 29615  <br/> |Los datos del Organizador no son válidos para el Optimizador.  <br/> |
 |OptimizerCannotChangeImpactData = 29616  <br/> |No se pueden cambiar los datos de impacto de los proyectos.  <br/> |
 |OptimizerInvalidProjectsNumber = 29617  <br/> |El número de proyectos no es válido.  <br/> |
-|OptimizerCannotAddImpactCFUIDToCFAnalysis = 29618  <br/> |No se puede agregar el campo personalizado de impacto GUID ([PROJECT_IMPACT_CF_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.PROJECT_IMPACT_CF_UID.aspx) ) de proyecto de análisis de cartera.  <br/> |
-|OptimizerInvalidDepartmentUid = 29619  <br/> |El [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.DEPARTMENT_UID.aspx) no es válido.  <br/> |
+|OptimizerCannotAddImpactCFUIDToCFAnalysis = 29618  <br/> |No se puede agregar el GUID de campo personalizado de impacto del proyecto ([PROJECT_IMPACT_CF_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.PROJECT_IMPACT_CF_UID.aspx)) al análisis de la cartera.  <br/> |
+|OptimizerInvalidDepartmentUid = 29619  <br/> |La propiedad [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.DEPARTMENT_UID.aspx) no es válida.  <br/> |
 |OptimizerTooManyProjectsInAnalysis = 29620  <br/> |Hay demasiados proyectos en el análisis.  <br/> |
-|QueueAnalysisCannotDeleteAnalysis = 29680  <br/> |El método [QueueDeleteAnalyses](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteAnalyses.aspx) no puede eliminar el análisis.  <br/> |
+|QueueAnalysisCannotDeleteAnalysis = 29680  <br/> |El método [QueueDeleteAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteAnalyses.aspx) no puede eliminar el análisis.  <br/> |
 |QueueAnalysisCannotCreateAnalysis = 29681  <br/> |El método [QueueCreateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateAnalysis.aspx) no puede crear el análisis.  <br/> |
 |QueueAnalysisCannotUpdateAnalysis = 29682  <br/> |El método [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) no puede actualizar el análisis.  <br/> |
 |AnalysisMismatchedJobList = 29690  <br/> |La lista de trabajos de análisis tiene discrepancias.  <br/> |
@@ -714,9 +714,9 @@ Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un compo
 |OptimizerDuplicateForceLookupTableUids = 29693  <br/> |Hay GUID de tabla de búsqueda forzados duplicados.  <br/> |
 |OptimizerInvalidDecisionResult = 29701  <br/> |El resultado de la decisión no es válido.  <br/> |
 |OptimizerInvalidForcedStatus = 29702  <br/> |El estado forzado no es válido.  <br/> |
-|OptimizerCannotDeleteSolution = 29703  <br/> |El método [QueueDeleteOptimizerSolutions](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteOptimizerSolutions.aspx) no puede eliminar la solución del optimizador.  <br/> |
-|OptimizerCannotCreateSolution = 29704  <br/> |El método [QueueCreateOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateOptimizerSolution.aspx) no se puede crear un la solución del optimizador.  <br/> |
-|OptimizerCannotUpdateSolution = 29705  <br/> |El método [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) no puede actualizar la solución del optimizador.  <br/> |
+|OptimizerCannotDeleteSolution = 29703  <br/> |El método [QueueDeleteOptimizerSolutions](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteOptimizerSolutions.aspx) no puede eliminar la solución del Optimizador.  <br/> |
+|OptimizerCannotCreateSolution = 29704  <br/> |El método [QueueCreateOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateOptimizerSolution.aspx) no puede crear la solución del Optimizador.  <br/> |
+|OptimizerCannotUpdateSolution = 29705  <br/> |El método [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) no puede actualizar la solución del Optimizador.  <br/> |
 |OptimizerCannotCalculateSolutionStrategicAlignment = 29706  <br/> |El Optimizador no puede calcular la solución de la alineación estratégica.  <br/> |
 |OptimizerCannotCreateMultipleSolutions = 29707  <br/> |El Optimizador no puede crear varias soluciones.  <br/> |
 |OptimizerCannotUpdateMultipleSolutions = 29708  <br/> |El Optimizador no puede actualizar varias soluciones.  <br/> |
@@ -740,13 +740,13 @@ Todos los códigos de error de la Tabla 16 corresponden al Optimizador, un compo
 |OptimizerCannotCreateSolutionWhileAnalysisUpdateIsPending = 29728  <br/> |No se puede crear una solución de Optimizador mientras hay una actualización del análisis pendiente.  <br/> |
 |OptimizerProjectSelectorAtLeastOne = 29800  <br/> |Debe haber al menos un proyecto seleccionado para el Optimizador.  <br/> |
    
-Los códigos de error de la Tabla 17 son para el Organizador, que es un componente utilizado en el análisis de la cartera de proyectos.
+Los códigos de error de la Tabla 17 pertenecen a Planner, que es un componente de análisis de la cartera de proyectos.
 
 <a name="pj15_ErrorCodes_Planner"></a>
 
-## <a name="table-17-planner-project-portfolio-analysis"></a>La tabla 17. Organizador (análisis de cartera de proyectos)
+## <a name="table-17-planner-project-portfolio-analysis"></a>Tabla 17. Planner (análisis de la cartera de proyectos)
 
-|Código de error del Organizador|Descripción|
+|Código de error de Planner|Descripción|
 |:-----|:-----|
 |PlannerSolutionMessageDeleteFailed = 28000  <br/> |Error de cola: error en el mensaje para eliminar la solución del Organizador.  <br/> |
 |PlannerSolutionMessageCreateFailed = 28001  <br/> |Error de cola: error en el mensaje para crear la solución del Organizador.  <br/> |
@@ -758,8 +758,8 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |PlannerInvalidTimeScale = 28007  <br/> |La escala temporal no es válida.  <br/> |
 |PlannerInvalidProjectSNET = 28008  <br/> |La fecha "No comenzar antes del" del proyecto no es válida.  <br/> |
 |PlannerInvalidProjectFNLT = 28009  <br/> |La fecha "No finalizar después del" del proyecto no es válida.  <br/> |
-|PlannerInvalidAnalysisStartDate = 28010  <br/> |El [argumento fecha_inicial](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectRequirementsByRoleRow.START_DATE.aspx) del proyecto no es válido.  <br/> |
-|PlannerInvalidAnalysisDuration = 28011  <br/> |La [duración](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectsRow.DURATION.aspx) no es válido para el análisis de cartera de proyectos.  <br/> |
+|PlannerInvalidAnalysisStartDate = 28010  <br/> |La propiedad [START_DATE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectRequirementsByRoleRow.START_DATE.aspx) para el proyecto no es válida.  <br/> |
+|PlannerInvalidAnalysisDuration = 28011  <br/> |La propiedad [DURATION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectsRow.DURATION.aspx) no es válida para el análisis de la cartera.  <br/> |
 |PlannerInvalidHorizonStartDate = 28012  <br/> |La fecha de inicio del horizonte temporal no es válida.  <br/> |
 |PlannerInvalidHorizonEndDate = 28013  <br/> |La fecha de finalización del horizonte no es válida.  <br/> |
 |PlannerInvalidHorizonTimeScale = 28014  <br/> |La escala temporal del horizonte temporal no es válida.  <br/> |
@@ -770,17 +770,17 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |PlannerInvalidSolutionUid = 28100  <br/> |El GUID de solución de análisis no es válido.  <br/> |
 |PlannerInvalidOptimizerSolutionUid = 28101  <br/> |El GUID de solución del Optimizador no es válido.  <br/> |
 |PlannerInvalidLookupTableValueUid = 28102  <br/> |El GUID de valor de tabla de búsqueda no es válido.  <br/> |
-|PlannerInvalidEfficientFrontierUid = 28103  <br/> |El [FRONTIER_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionEfficientFrontierRow.FRONTIER_UID.aspx) no es válido.  <br/> |
+|PlannerInvalidEfficientFrontierUid = 28103  <br/> |La propiedad [FRONTIER_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionEfficientFrontierRow.FRONTIER_UID.aspx) no es válida.  <br/> |
 |PlannerInvalidProjectUid = 28104  <br/> |El GUID de proyecto no es válido.  <br/> |
 |PlannerInvalidAllocationThreshold = 28105  <br/> |El umbral de asignación no es válido.  <br/> |
-|PlannerInvalidHiringType = 28109  <br/> |El [HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) no es válido. Vea [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx) .  <br/> |
-|PlannerInvalidConstraintType = 28110  <br/> |El [CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) no es válido. Vea [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx) .  <br/> |
-|PlannerInvalidConstraintValue = 28111  <br/> |El [CONSTRAINT_VALUE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_VALUE.aspx) no es válido.  <br/> |
-|PlannerInvalidRateTable = 28112  <br/> |El [RATE_TABLE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.RATE_TABLE.aspx) no es válido.  <br/> |
+|PlannerInvalidHiringType = 28109  <br/> |La propiedad [HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) no es válida. Vea [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx).  <br/> |
+|PlannerInvalidConstraintType = 28110  <br/> |La propiedad [CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) no es válida. Vea [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx).  <br/> |
+|PlannerInvalidConstraintValue = 28111  <br/> |La propiedad [CONSTRAINT_VALUE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_VALUE.aspx) no es válida.  <br/> |
+|PlannerInvalidRateTable = 28112  <br/> |La propiedad [RATE_TABLE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.RATE_TABLE.aspx) no es válida.  <br/> |
 |PlannerInvalidSolutionForConstraint = 28113  <br/> |La solución del Organizador no es válida para la restricción. Se ha forzado la entrada de demasiados proyectos durante el primer pase del Organizador.  <br/> |
 |PlannerInvalidSolutionForDependencies = 28114  <br/> |La solución del Organizador no es válida porque hay demasiados proyectos para tener en cuenta las dependencias o los conflictos de negocio. Este error se produce en el segundo pase.  <br/> |
 |PlannerInvalidSolutionForScheduling = 28115  <br/> |La solución del Organizador no es válida para la programación porque hay dependencias circulares.  <br/> |
-|PlannerInvalidAnalysisUid = 28116  <br/> |El [ANALYSIS_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.ANALYSIS_UID.aspx) no es válido.  <br/> |
+|PlannerInvalidAnalysisUid = 28116  <br/> |La propiedad [ANALYSIS_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.ANALYSIS_UID.aspx) no es válida.  <br/> |
 |PlannerInvalidProjectStartDate = 28200  <br/> |La fecha de inicio del proyecto no es válida.  <br/> |
 |PlannerInvalidProjectEndDate = 28201  <br/> |La fecha de finalización del proyecto no es válida.  <br/> |
 |PlannerInvalidProjectDuration = 28202  <br/> |La duración del proyecto no es válida.  <br/> |
@@ -791,7 +791,7 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |PlannerCannotDeleteSolution = 28902  <br/> |El Organizador no puede eliminar la solución.  <br/> |
 |PlannerCannotCreateMultipleSolutions = 28903  <br/> |El Organizador no puede crear varias soluciones.  <br/> |
 |PlannerCannotUpdateMultipleSolutions = 28904  <br/> |El Organizador no puede actualizar varias soluciones.  <br/> |
-|PlannerTableIsReadOnly = 28907  <br/> |La **DataTable** es de solo lectura.  <br/> |
+|PlannerTableIsReadOnly = 28907  <br/> |La tabla **DataTable** es de solo lectura.  <br/> |
 |PlannerCannotCommitSolution = 28908  <br/> |El Organizador no puede confirmar la solución en la base de datos.  <br/> |
 |PlannerFieldIsReadOnly = 28909  <br/> |El campo es de solo lectura.  <br/> |
 |PlannerProjectNotInParentSolution = 28910  <br/> |El proyecto no está en la solución principal.  <br/> |
@@ -806,13 +806,13 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |PlannerDecimalOverflowError = 28921  <br/> |Hay un error de desbordamiento por decimales en el Organizador.  <br/> |
 |PlannerSolutionMismatchedJobList = 28922  <br/> |La solución tiene una la lista de trabajos con discrepancias.  <br/> |
 |PlannerInvalidForceLookupTableValue = 28923  <br/> |El valor forzado de una tabla de búsqueda no es válido.  <br/> |
-|PlannerNoHiredResource = 28924  <br/> |No hay ningún recurso contratado para la propuesta.  <br/> |
+|PlannerNoHiredResource = 28924  <br/> |No se ha contratado a ningún recurso para la propuesta.  <br/> |
 
 <a name="pj15_ErrorCodes_Projects"></a>
 
-## <a name="table-18-project"></a>Tabla 18. Project
+## <a name="table-18-project"></a>Tabla 18. Proyecto
 
-|Código de error de proyectos|Descripción|
+|Código de error del proyecto|Descripción|
 |:-----|:-----|
 |ProjectGlobalNotFound = 100  <br/> |No se encuentra la plantilla de información global de la empresa.  <br/> |
 |ProjectGlobalCannotBeDeleted = 101  <br/> |No se puede eliminar la plantilla de información global de la empresa.  <br/> |
@@ -854,13 +854,13 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |ProjectTemplateNotFound = 1048  <br/> |No se ha encontrado la plantilla del proyecto.  <br/> |
 |ProjectCurrencyCodeInvalid = 1049  <br/> |El código de moneda no es válido.  <br/> |
 |ProjectCannotEditCostResource = 1050  <br/> |No se puede editar el recurso de costo.  <br/> |
-|ProjectIsNotPublished = 1051  <br/> |Proyecto no publicado.  <br/> |
-|ProjectExceededLWPTaskLimit = 1052  <br/> |Se ha excedido el límite de tareas de una propuesta de proyecto (un proyecto de tamaño reducido).  <br/> |
+|ProjectIsNotPublished = 1051  <br/> |No se ha publicado el proyecto.  <br/> |
+|ProjectExceededLWPTaskLimit = 1052  <br/> |Se ha excedido el límite de tareas para una propuesta de proyecto (un proyecto ligero).  <br/> |
 |ProjectOptFinishDateInvalid = 1053  <br/> |La fecha de finalización especificada en las opciones del proyecto no es válida.  <br/> |
 |ProjectExceededItemsLimit = 1054  <br/> |Se ha excedido el límite de elementos para procesar. La aplicación de servicio de Project Server no puede utilizar **ProjectDataSet** para agregar o actualizar más de 1000 elementos en total en todas las tablas. Para procesar más de 1000 elementos, use varias llamadas, por ejemplo, a **QueueUpdateProject**.<br/> |
 |ProjectColumnNotReadOnly = 1055  <br/> |La columna no es de solo lectura.  <br/> |
 |ProjectInvalidOwner = 1056  <br/> |El propietario del proyecto no es válido.  <br/> |
-|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |No se puede editar **PctWorkComplete** para una tarea que no tiene asignaciones de trabajo reales.  <br/> |
+|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |No se puede editar **PctWorkComplete** para una tarea sin asignaciones de procesamiento.  <br/> |
 |ProjectCannotEditMaterialResource = 1058  <br/> |No se puede editar el recurso material.  <br/> |
 |ProjectCannotEditFieldWhenTaskHasNoWorkAssignment = 1059  <br/> |No se puede editar el campo porque la tarea no tiene asignaciones de trabajo.  <br/> |
 |ProjectSubProjectNotFound = 1070  <br/> |. No se han encontrado subproyectos.  <br/> |
@@ -906,13 +906,13 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |ProjectUpdateScheduledProjectFailure = 26026  <br/> |Error de actualización de la programación del proyecto durante el procesamiento de la cola.  <br/> |
 |ProjectSyncProjectEnterpriseEntitiesFailure = 26033  <br/> |Error al sincronizar las entidades de empresa del proyecto durante el procesamiento de la cola.  <br/> |
 |GeneralDalDatabaseIsReadOnly = 26034  <br/> |Error al cargar la obtención de detalles del proyecto. La base de datos es de solo lectura.  <br/> |
-|GeneralDatabaseCommunicationError = 26035  <br/> |Puede haber muchas causas diferentes, como, por ejemplo, un problema de red o de autenticación.  <br/> |
+|GeneralDatabaseCommunicationError = 26035  <br/> |Puede haber varias causas diferentes, como problemas de red o de autenticación.  <br/> |
 
 <a name="pj15_ErrorCodes_RDS"></a>
 
-## <a name="table-19-reporting-data-service-rds"></a>Tabla 19. Servicio de informes de datos (RDS)
+## <a name="table-19-reporting-data-service-rds"></a>Tabla 19. Servicio de datos de informes (RDS)
 
-|Código de error de RDS|Descripción|
+|Código de error del RDS|Descripción|
 |:-----|:-----|
 |ReportingAttributeCubeSettingsChangedMessageFailed = 24000  <br/> |Error en el mensaje de modificación de RDS para un atributo de configuración de cubo.  <br/> |
 |ReportingBaseCalendarChangeMessageFailed = 24001  <br/> |Error en el mensaje de modificación de RDS para un calendario base.  <br/> |
@@ -946,13 +946,13 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |ReportingEptSyncMessageFailed = 24029  <br/> |El mensaje de RDS no pudo sincronizar la plantilla del proyecto empresarial.  <br/> |
 |ReportingSummaryProjectPublishMessageFailed = 24030  <br/> |El mensaje de RDS no pudo publicar el proyecto de resumen.  <br/> |
 |ReportingSolutionCommitedDecisionChangedMessageFailed = 24031  <br/> |El mensaje de RDS no pudo cambiar la decisión confirmada para la solución.  <br/> |
-|ReportingDelayedUpgradeFailed = 24032  <br/> |Error en la actualización aplazada de RDB.  <br/> |
+|ReportingDelayedUpgradeFailed = 24032  <br/> |Error en la actualización retrasada del RDB.  <br/> |
 
 <a name="pj15_ErrorCodes_Resources"></a>
 
 ## <a name="table-20-resource"></a>Tabla 20. Recurso
 
-|Código de error de recursos|Descripción|
+|Código de error del recurso|Descripción|
 |:-----|:-----|
 |ResourceNotFound = 2000  <br/> |No se ha encontrado el recurso.  <br/> |
 |ResourceAlreadyExists = 2001  <br/> |El recurso ya existe.  <br/> |
@@ -1024,13 +1024,13 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |ResourceInvalidPrincipalNameWithExchangeSync = 2094  <br/> |El nombre principal del recurso no es válido para la sincronización con Exchange Server.  <br/> |
 |ResourceInvalidAuthenticationTypeWithExchangeSync = 2095  <br/> |El tipo de autenticación del recurso no es válido para la sincronización con Exchange Server.  <br/> |
 |ResourceExchangeSyncFlagAndPrincipalNameMismatch = 2096  <br/> |La marca de sincronización de Exchange Server no coincide con el nombre principal del recurso.  <br/> |
-|ResourceUnsupportedUserUpdateInSharePointSecurityMode = 2097  <br/> |En el modo de seguridad de SharePoint no se admite la creación de usuarios.  <br/> |
+|ResourceUnsupportedUserUpdateInSharePointSecurityMode = 2097  <br/> |El modo de seguridad de SharePoint no admite la creación de usuarios.  <br/> |
 
 <a name="pj15_ErrorCodes_ResourcePlans"></a>
 
-## <a name="table-21-resource-plan"></a>En la tabla 21. Plan de recursos
+## <a name="table-21-resource-plan"></a>Tabla 21. Planeamiento de recursos
 
-|Código de error de plan de recursos|Descripción|
+|Código de error del planeamiento de recursos|Descripción|
 |:-----|:-----|
 |ResourcePlanProjectPublishIncomplete = 30000  <br/> |No se completó la publicación del proyecto para el plan de recursos.  <br/> |
 |ResourcePlanInvalidResourceType = 30001  <br/> |El tipo de recurso del plan de recursos no es válido.  <br/> |
@@ -1044,25 +1044,25 @@ Los códigos de error de la Tabla 17 son para el Organizador, que es un componen
 |ResourcePlanMismatchedJobList = 30009  <br/> |La lista de trabajos del plan de recursos tiene discrepancias.  <br/> |
 |ResourcePlanAlreadyExists = 30010  <br/> |El plan de recursos ya existe.  <br/> |
 |ResourcePlanInvalidProjectUID = 30011  <br/> |El GUID de proyecto del plan de recursos no es válido.  <br/> |
-|ResourcePlanResourceAlreadyExists = 30012  <br/> |El recurso ya existe en el plan de recursos.  <br/> |
+|ResourcePlanResourceAlreadyExists = 30012  <br/> |El recurso ya existe en el planeamiento de recursos.  <br/> |
    
-Los códigos de error de la Tabla 22 corresponden a los métodos de **Rules** del servicio web **PWA**. Son de uso interno. 
+Los códigos de error de la Tabla 22 son para los métodos **Rules** del servicio web de **PWA**. Son de uso interno. 
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
 ## <a name="table-22-rules"></a>Tabla 22. Reglas
 
-|Código de error de reglas|Descripción|
+|Código de error de las reglas|Descripción|
 |:-----|:-----|
-|RulesNameTooLong = 21001  <br/> |El nombre de la regla de aprobación es demasiado largo. Uso interno únicamente en Project Web App.  <br/> |
-|RulesDescriptionTooLong = 21002  <br/> |La descripción de la regla es demasiado larga. Uso interno únicamente en Project Web App.  <br/> |
-|RulesInvalidRuleType = 21003  <br/> |El tipo de regla no es válido. Uso interno únicamente en Project Web App.  <br/> |
-|RulesInvalidConditionType = 21004  <br/> |El tipo de condición para una regla no es válido. Uso interno únicamente en Project Web App.  <br/> |
-|RulesInvalidOperatorType = 21005  <br/> |El tipo de operador para una regla no es válido. Uso interno únicamente en Project Web App.  <br/> |
-|RulesInvalidListItemType = 21007  <br/> |El tipo de elemento de lista para una regla no es válido. Uso interno únicamente en Project Web App.  <br/> |
-|RulesNameInvalidCharacters = 21008  <br/> |Hay uno o más caracteres en el nombre de la regla que no son válidos. Uso interno únicamente en Project Web App.  <br/> |
-|RulesDescriptionInvalidCharacters = 21009  <br/> |Hay uno o más caracteres en la descripción de la regla que no son válidos. Uso interno únicamente en Project Web App.  <br/> |
-|RulesInvalidValueType = 21010  <br/> |El tipo de valor en la regla no es válido. Uso interno únicamente en Project Web App.  <br/> |
+|RulesNameTooLong = 21001  <br/> |El nombre de la regla de aprobación es demasiado largo. Solo para uso interno en Project Web App.  <br/> |
+|RulesDescriptionTooLong = 21002  <br/> |La descripción de la regla es demasiado larga. Solo para uso interno en Project Web App.  <br/> |
+|RulesInvalidRuleType = 21003  <br/> |El tipo de regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesInvalidConditionType = 21004  <br/> |El tipo de condición de una regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesInvalidOperatorType = 21005  <br/> |El tipo de operador de una regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesInvalidListItemType = 21007  <br/> |El tipo de elemento de lista de una regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesNameInvalidCharacters = 21008  <br/> |Al menos uno de los caracteres del nombre de la regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesDescriptionInvalidCharacters = 21009  <br/> |Al menos uno de los caracteres de la descripción de la regla no es válido. Solo para uso interno en Project Web App.  <br/> |
+|RulesInvalidValueType = 21010  <br/> |El tipo de valor de la regla no es válido. Solo para uso interno en Project Web App.  <br/> |
 
 <a name="pj15_ErrorCodes_Security"></a>
 
@@ -1120,72 +1120,72 @@ Los códigos de error de la Tabla 22 corresponden a los métodos de **Rules** de
 |SecurityCategoryCannotDeletePermissionForNewlyAddedRelation = 19096  <br/> |No se puede eliminar el permiso de una relación recién agregada en una categoría de seguridad.  <br/> |
 |SecurityCategoryCannotHaveDuplicateUserOrGroupUidsForRelation = 19097  <br/> |No se puede tener un usuario o un UID de grupo duplicado de una relación de categoría de seguridad.  <br/> |
 |SecurityCategoryPermissionMustHaveMatchingRelation = 19098  <br/> |Un permiso de categoría debe tener asociada la relación de categoría de seguridad correspondiente.  <br/> |
-|SecurityCategoryProjectAlreadyHasSecurityProjectCategory = 19099  <br/> |La lista de categorías seleccionadas ya tiene una categoría de seguridad de proyecto.  <br/> |
+|SecurityCategoryProjectAlreadyHasSecurityProjectCategory = 19099  <br/> |La lista de categorías seleccionados ya contiene una categoría de seguridad del proyecto.  <br/> |
 
 <a name="pj15_ErrorCodes_Events"></a>
 
-## <a name="table-24-project-server-event"></a>Tabla 24. Evento de Project Server
+## <a name="table-24-project-server-event"></a>Table 24. Evento de Project Server
 
-|Código de error de eventos de Project Server|Descripción|
+|Código de error del evento de Project Server|Descripción|
 |:-----|:-----|
 |ServerEventInvalidEventId = 19033  <br/> |El número de identificación de evento de Project Server no es válido.  <br/> |
 |ServerEventServiceNotFound = 22003  <br/> |No se encontró el Servicio de eventos de Project Server. Este error no se usa en el código de Project Server, sino que remite a un evento del Servicio de registro unificado (ULS) sin formato.  <br/> |
-|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |El control remoto de Project Web App no se pudo llegar al proxy de administrador de eventos de Project Server. Este error no se usa en el código de Project Server, pero asigna a un evento ULS sin procesar.  <br/> |
-|ServerEventManagerCouldNotReachRemote = 22006  <br/> |El Administrador de eventos de Project Server no pudo llegar a la remoto Project Web App. Este error no se usa en el código de Project Server, pero asigna a un evento ULS sin procesar.  <br/> |
+|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |El Project Web App remoto no puede acceder al proxy del Administrador de eventos de Project Server. Este error no se usa en el código de Project Server, pero está asignado a un evento sin procesar del ULS.  <br/> |
+|ServerEventManagerCouldNotReachRemote = 22006  <br/> |El Administrador de eventos de Project Server no ha podido acceder al Project Web App remoto. Este error no se usa en el código de Project Server, pero está asignado a un evento sin procesar del ULS.  <br/> |
 |ServerEventHandlerNotSigned = 22007  <br/> |El controlador de eventos de Project Server no está firmado.  <br/> |
 |ServerEventHandlerMalformedAssemblyName = 22008  <br/> |El nombre de ensamblado del controlador de eventos de Project Server no es válido.  <br/> |
 |ServerEventHandlerOrderInvalid = 22009  <br/> |El orden del controlador de eventos de Project Server no es válido.  <br/> |
 |ServerEventHandlerDuplicateEntry = 22010  <br/> |Entrada duplicada del controlador de eventos de Project Server.  <br/> |
 |ServerEventHandlerNotFound = 22011  <br/> |No se ha encontrado el controlador de eventos de Project Server.  <br/> |
 |ServerEventHandlerDuplicateName = 22012  <br/> |Nombre duplicado del controlador de eventos de Project Server.  <br/> |
-|ServerEventHandlerNullAssemblyNameAndEndpointUrl = 22013  <br/> |Compruebe que haya una URL de extremo o, bien, un nombre de ensamblado.  <br/> |
+|ServerEventHandlerNullAssemblyNameAndEndpointUrl = 22013  <br/> |Valide que hay una dirección URL de extremo o un nombre de ensamblado.  <br/> |
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## <a name="table-25-statusing-web-service"></a>Tabla 25. Servicio web de administración de Estados 
+## <a name="table-25-statusing-web-service"></a>Tabla 25. Servicio web del estado 
 
-|Código de error de servicio web de administración de Estados|Descripción|
+|Código de error del servicio web del estado|Descripción|
 |:-----|:-----|
 |StatusingInvalidEntity = 3102  <br/> |La entidad de **Statusing** no es válida.  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |No se pudo obtener datos del estado de las tareas.  <br/> |
 |StatusingGetTaskOrAssnCntrFailed = 3104  <br/> |No se pudo obtener la tarea o el centro de asignación del estado.  <br/> |
-|StatusingInvalidPIDForProjCntr = 3105  <br/> |El número de identificación de la propiedad **Statusing** del Centro de proyectos no es válido.  <br/> |
-|StatusingDeleteAssnFailed = 3106  <br/> |No se pudo eliminar la asignación en el proceso **Statusing**.  <br/> |
-|StatusingAssnSaveFailed = 3107  <br/> |No se pudo guardar la asignación en el proceso **Statusing**.  <br/> |
-|StatusingTaskSaveFailed = 3108  <br/> |No se pudo guardar la tarea en el proceso **Statusing**.  <br/> |
+|StatusingInvalidPIDForProjCntr = 3105  <br/> |El número de identificación de la propiedad **Statusing** para el Centro de proyectos no es válido.  <br/> |
+|StatusingDeleteAssnFailed = 3106  <br/> |No se pudo eliminar la asignación en el proceso de **Statusing**.  <br/> |
+|StatusingAssnSaveFailed = 3107  <br/> |No se pudo guardar la asignación en el proceso de **Statusing**.  <br/> |
+|StatusingTaskSaveFailed = 3108  <br/> |No se pudo guardar la tarea en el proceso de **Statusing**.  <br/> |
 |StatusingInvalidPID = 3109  <br/> |El número de identificación de la propiedad **Statusing** no es válido.  <br/> |
 |StatusingSetDataValueInvalid = 3111  <br/> |El valor de los datos de **Statusing** no es válido.  <br/> |
 |StatusingSetDataFailed = 3112  <br/> |No se pudo establecer el valor de los datos de **Statusing**.  <br/> |
 |StatusingInvalidDelegationStart = 3113  <br/> |La hora de inicio de una asignación en el método **DelegateAssignments** no es válida.  <br/> |
 |StatusingApprovalUpdateFailed = 3114  <br/> |No se pudo actualizar la aprobación del estado.  <br/> |
 |StatusingInvalidApprovalType = 3115  <br/> |El tipo de aprobación del estado no es válido.  <br/> |
-|StatusingInternalError = 3116  <br/> |Error de procesamiento interno en un método **Statusing**.  <br/> |
-|StatusingInvalidUpdateData = 3117  <br/> |Los datos de actualización de un método **Statusing** no son válidos.  <br/> |
+|StatusingInternalError = 3116  <br/> |Error de procesamiento interno en un método de **Statusing**.  <br/> |
+|StatusingInvalidUpdateData = 3117  <br/> |Los datos de actualización de un método de **Statusing** no son válidos.  <br/> |
 |StatusingProjectUpdateFailed = 3118  <br/> |Error en la actualización de **Statusing** del proyecto.  <br/> |
-|StatusingInvalidPreviewData = 3119  <br/> |Los datos de la vista previa de **Statusing** no son válidos.  <br/> |
-|StatusingInvalidTransaction = 3120  <br/> |La transacción **Statusing** no es válida.  <br/> |
+|StatusingInvalidPreviewData = 3119  <br/> |Los datos de previsualización de **Statusing** no son válidos.  <br/> |
+|StatusingInvalidTransaction = 3120  <br/> |La transacción de **Statusing** no es válida.  <br/> |
 |StatusingTooManyResults = 3121  <br/> |Demasiados resultados. Se podrían devolver más de 5000 filas al leer los datos de estado de la fase temporal.  <br/> |
-|StatusingInvalidInterval = 3122  <br/> |El intervalo de un método **Statusing** no es válido. El intervalo debe indicarse en minutos y debe ser mayor que cero.<br/> |
-|StatusingApplyUpdatesFailed = 3123  <br/> |No se pudieron aplicar las actualizaciones de **Statusing** al poner en cola la solicitud.  <br/> |
+|StatusingInvalidInterval = 3122  <br/> |El intervalo de un método de **Statusing** no es válido. El intervalo debe estar en minutos y debe ser mayor que cero.<br/> |
+|StatusingApplyUpdatesFailed = 3123  <br/> |No se pudieron aplicar las actualizaciones de **Statusing** mientras se ponía en cola la solicitud.  <br/> |
 |StatusingApplyUpdatesFailure = 3124  <br/> |No se pudieron aplicar las actualizaciones de **Statusing** durante el procesamiento de la cola.  <br/> |
 |StatusingInvalidWorkData = 3125  <br/> |Los datos de trabajo de **Statusing** no son válidos.  <br/> |
-|StatusingMissingNameAttribute = 3126  <br/> |Falta el atributo de nombre de **Statusing**.  <br/> |
+|StatusingMissingNameAttribute = 3126  <br/> |Falta el atributo de nombre para **Statusing**.  <br/> |
 |StatusingInvalidNameAttribute = 3127  <br/> |El atributo de nombre de **Statusing** no es válido.  <br/> |
 |StatusingInvalidData = 3128  <br/> |Los datos de **Statusing** no son válidos.  <br/> |
-|StatusingInvalidChangelist = 3130  <br/> |Los datos XML no son válidos en el parámetro _changexml_ del método **UpdateStatus** .  <br/> |
-|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** no puede actualizar una asignación porque el usuario no tiene permiso.  <br/> |
+|StatusingInvalidChangelist = 3130  <br/> |Los datos XML no son válidos en el parámetro _changexml_ del método **UpdateStatus**.  <br/> |
+|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** no puede actualizar una asignación porque el usuario no tiene permisos.  <br/> |
 |StatusingInvalidChangeNumber = 3132  <br/> |El número de cambio de **Statusing** no es válido.  <br/> |
-|StatusingPidNotEditable = 3133  <br/> |El número de identificación de la propiedad **Statusing** no es editable.  <br/> |
-|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |No se pueden establecer los datos de fase temporal en tareas manuales para **Statusing**.  <br/> |
+|StatusingPidNotEditable = 3133  <br/> |El número de identificación de la propiedad **Statusing** no se puede editar.  <br/> |
+|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |No se pueden establecer datos con fases temporales en las tareas manuales para **Statusing**.  <br/> |
 |StatusingCannotChangeTaskMode = 3135  <br/> |No se puede cambiar el modo de tarea para **Statusing**.  <br/> |
    
-Los códigos de error en la tabla 26 son para **StatusReports** métodos en el servicio web de **PWA** . Se usan internamente en Project Web App. 
+Los códigos de error de la Tabla 26 son para los métodos **StatusReports** del servicio web de **PWA**. Son de uso interno en Project Web App. 
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## <a name="table-26-statusreports"></a>Tabla 26. StatusReports 
+## <a name="table-26-statusreports"></a>Tabla 26. Informes de estado 
 
-|Códigos de error del informe de estado|Descripción|
+|Código de error del informe de estado|Descripción|
 |:-----|:-----|
 |StatusReportsUnknownError = 12100  <br/> |Error desconocido en **StatusReports**.  <br/> |
 |StatusReportsPeriodUnmatched = 12101  <br/> |No se puede indicar el período del informe de estado correspondiente.  <br/> |
@@ -1194,9 +1194,9 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## <a name="table-27-task"></a>Tabla 27. Task 
+## <a name="table-27-task"></a>Tabla 27. Tarea 
 
-|Código de error de tareas|Descripción|
+|Código de error de la tarea|Descripción|
 |:-----|:-----|
 |TaskIDInvalid = 7001  <br/> |El GUID de tarea no es válido.  <br/> |
 |TaskNameTooLong = 7003  <br/> |El nombre de la tarea es demasiado largo.  <br/> |
@@ -1245,7 +1245,7 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 
 ## <a name="table-28-timesheet"></a>Tabla 28. Parte de horas 
 
-|Código de error de partes de horas|Descripción|
+|Código de error del parte de horas|Descripción|
 |:-----|:-----|
 |TimesheetMaxHourPerDayExceeded = 3201  <br/> |Se ha excedido el número máximo de horas por día para el parte de horas.  <br/> |
 |TimesheetHoursPerTSLimitExceeded = 3202  <br/> |Se ha excedido el límite de número de horas en un parte de horas.  <br/> |
@@ -1265,7 +1265,7 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 
 ## <a name="table-29-user-delegation"></a>Tabla 29. Delegación de usuarios 
 
-|Código de error de delegación de usuario|Descripción|
+|Código de error de la delegación de usuarios|Descripción|
 |:-----|:-----|
 |UserDelegationExpired = 43000  <br/> |La delegación de usuario ha expirado.  <br/> |
 |UserDelegationCannotSelfDelegate = 43001  <br/> |Un usuario no se puede designar a sí mismo como delegado.  <br/> |
@@ -1283,12 +1283,12 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 
 ## <a name="table-30-workflow"></a>Tabla 30. Flujo de trabajo 
 
-|Código de error de flujo de trabajo|Descripción|
+|Código de error del flujo de trabajo|Descripción|
 |:-----|:-----|
 |WorkflowPhasesCannotCreatePhase = 35000  <br/> |No se puede crear la fase de flujo de trabajo.  <br/> |
 |WorkflowPhasesCannotUpdatePhase = 35001  <br/> |No se puede actualizar la fase de flujo de trabajo.  <br/> |
 |WorkflowPhasesCannotDeletePhase = 35002  <br/> |No se puede eliminar la fase de flujo de trabajo.  <br/> |
-|WorkflowPhaseNameIsRequired = 35003  <br/> |El flujo de trabajo [PHASE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowPhaseRow.PHASE_NAME.aspx) es necesario.  <br/> |
+|WorkflowPhaseNameIsRequired = 35003  <br/> |El flujo de trabajo [PHASE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowPhaseRow.PHASE_NAME.aspx) es obligatorio.  <br/> |
 |WorkflowStagesCannotCreateStage = 35004  <br/> |No se puede crear la etapa de flujo de trabajo.  <br/> |
 |WorkflowStagesCannotUpdateStage = 35005  <br/> |No se puede actualizar la etapa de flujo de trabajo.  <br/> |
 |WorkflowStagesCannotDeleteStage = 35006  <br/> |No se puede eliminar la etapa de flujo de trabajo.  <br/> |
@@ -1302,7 +1302,7 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WorkflowInsertWorkflowPhaseNotAllowed = 35014  <br/> |No se puede insertar una fase de flujo de trabajo.  <br/> |
 |WorkflowInvalidWorkflowStageUid = 35015  <br/> |El flujo de trabajo [STAGE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_UID.aspx) no es válido.  <br/> |
 |WorkflowPhaseHasStages = 35016  <br/> |La fase de flujo de trabajo tiene etapas.  <br/> |
-|WorkflowStageNameIsRequired = 35020  <br/> |El flujo de trabajo [STAGE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_NAME.aspx) es necesario.  <br/> |
+|WorkflowStageNameIsRequired = 35020  <br/> |El flujo de trabajo [STAGE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_NAME.aspx) es obligatorio.  <br/> |
 |WorkflowStageAtLeastOnePDPIsRequired = 35021  <br/> |Es obligatorio que haya al menos una página de detalles del proyecto para la etapa del flujo de trabajo.  <br/> |
 |WorkflowCannotStartWorkflow = 35100  <br/> |No se puede iniciar el flujo de trabajo.  <br/> |
 |WorkflowStatusCannotUpdateStatus = 35101  <br/> |No se puede actualizar el estado del flujo de trabajo.  <br/> |
@@ -1316,7 +1316,7 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WorkflowCannotChangeWorkflow = 35109  <br/> |No se puede modificar el flujo de trabajo.  <br/> |
 |WorkflowWorkflowStatusPDPNotAllowed = 35110  <br/> |No se permite el uso de la página de detalles del proyecto para el estado de flujo de trabajo.  <br/> |
 |WorkflowInvalidWorkflowStatusPDPUid = 35111  <br/> |El GUID de la página de detalles del proyecto del estado de flujo de trabajo no es válido.  <br/> |
-|WorkflowInvalidStageStatusValue = 35112  <br/> |El valor de estado de fase de flujo de trabajo no es válido. Cuando se establece el estado de fase en el flujo de trabajo, se permiten solo los valores **InProgressRequestSent**, **InProgressRunning**o **InProgressWaiting** en [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx) .  <br/> |
+|WorkflowInvalidStageStatusValue = 35112  <br/> |El valor de la fase de flujo de trabajo no es válido. Cuando se establece el estado de la fase en el flujo de trabajo, solo se permiten los valores **InProgressRequestSent**, **InProgressRunning** o **InProgressWaiting** en [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx).  <br/> |
 |WorkflowCannotCheckinNotify = 35113  <br/> |No se puede notificar al flujo de trabajo que el proyecto está protegido.  <br/> |
 |WorkflowCannotCommitNotify = 35114  <br/> |No se puede notificar al flujo de trabajo que el proyecto está confirmado dentro del Organizador o el Optimizador.  <br/> |
 |WorkflowExceptionStartingWorkflow = 35115  <br/> |Se ha producido un error al iniciar el flujo de trabajo.  <br/> |
@@ -1325,33 +1325,33 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WorkflowInvalidCurrentStage = 35118  <br/> |La etapa actual del flujo de trabajo no es válida.  <br/> |
 |WorkflowMultipleStagesInProgress = 35119  <br/> |Hay varias etapas en curso en el flujo de trabajo.  <br/> |
 |WorkflowActivityInvalidArgument = 35120  <br/> |El mensaje que se recibe si una actividad de flujo de trabajo recibida no es válida.  <br/> |
-|WorkflowMTWConfigurationError = 35121  <br/> |Error de configuración del flujo de trabajo de Microsoft Azure.  <br/> |
-|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |El valor de **ENTERPRISE_PROJECT_TYPE_UID** no es válido.  <br/> |
+|WorkflowMTWConfigurationError = 35121  <br/> |Error de configuración de Microsoft Azure Workflow.  <br/> |
+|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |La propiedad **ENTERPRISE_PROJECT_TYPE_UID** no es válida.  <br/> |
 |EnterpriseProjectTypeCannotCreateEnterpriseProjectType = 35201  <br/> |No se puede crear el tipo de proyecto empresarial.  <br/> |
 |EnterpriseProjectTypeCannotUpdateEnterpriseProjectType = 35202  <br/> |No se puede actualizar el tipo de proyecto empresarial.  <br/> |
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |No se puede eliminar el tipo de proyecto empresarial.  <br/> |
 |EnterpriseProjectTypeCannotCreateMultipleEnterpriseProjectTypes = 35204  <br/> |No se pueden crear varios tipos de proyectos empresariales.  <br/> |
 |EnterpriseProjectTypeCannotUpdateMultipleEnterpriseProjectTypes = 35205  <br/> |No se pueden actualizar varios tipos de proyectos empresariales.  <br/> |
-|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Una plantilla de proyecto de empresa (EPT) requiere una página de detalles del proyecto asociado (PDP) para crear un proyecto mediante la plantilla EPT. Si es el EPT para un flujo de trabajo, este error se produce durante la validación de etp cuando la página de detalles del proyecto (PDP) no es el tipo de *crear* . Otros tipos PDP son *Normal* para la edición de un proyecto y el *Estado de flujo de trabajo* para que muestra los detalles de un proyecto de flujo de trabajo.  <br/> |
-|EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |El [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) no es válido.  <br/> |
-|EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |El [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) no es válido.  <br/> |
-|EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |El [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) no es válido.  <br/> |
+|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Una plantilla de proyecto empresarial (EPT) requiere una página de detalles del proyecto (PDP) asociada para crear un proyecto con la EPT. Si la EPT es para un flujo de trabajo, este error se produce durante su validación cuando la página de detalles del proyecto (PDP) no es del tipo *Create*. Otros tipos de PDP son: *Normal*, para editar un proyecto, y *Workflow Status*, para mostrar los detalles de un proyecto de flujo de trabajo.  <br/> |
+|EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |La propiedad [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) no es válida.  <br/> |
+|EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |La propiedad [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) no es válida.  <br/> |
+|EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |La propiedad [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) no es válida.  <br/> |
 |EnterpriseProjectTypeCannotReadWssSettings = 35210  <br/> |No se puede leer la configuración de SharePoint.  <br/> |
 |EnterpriseProjectTypeCannotReadWssLanguagesAndTemplates = 35211  <br/> |No se pueden leer los idiomas y las plantillas de sitio de SharePoint.  <br/> |
-|EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |El [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx) no es válido.  <br/> |
-|EnterpriseProjectTypeInvalidUri = 35213  <br/> |El valor de [ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) no es válido.  <br/> |
+|EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |La propiedad [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx) no es válida.  <br/> |
+|EnterpriseProjectTypeInvalidUri = 35213  <br/> |La propiedad [ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) no es válida.  <br/> |
 |EnterpriseProjectTypeUriRequiresHttp = 35214  <br/> |El URI de tipo de proyecto empresarial exige el uso del protocolo HTTP.  <br/> |
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |No se puede eliminar el tipo de proyecto empresarial predeterminado.  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |No se puede modificar el tipo de proyecto empresarial predeterminado.  <br/> |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |No se puede eliminar un tipo de proyecto empresarial que tiene proyectos.  <br/> |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Una plantilla de proyecto de empresa (EPT) para un flujo de trabajo requiere una página de detalles de proyecto de tipo de *crear* asociada (PDP) para crear un proyecto mediante la plantilla EPT. Este error se produce cuando la PDP no está incluida en la definición de etp. Otros tipos PDP son *Normal* para la edición de un proyecto y el *Estado de flujo de trabajo* para que muestra los detalles de un proyecto de flujo de trabajo.  <br/> |
-|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |La definición de etp permite sólo una página de detalles del proyecto de tipo *crear* .  <br/> |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Una plantilla de proyecto de empresa (EPT) para un flujo de trabajo requiere una página de detalles de proyecto de tipo de *crear* asociada (PDP) para crear un proyecto mediante la plantilla EPT. Este error se produce cuando el PDP en la definición de ETP del flujo de trabajo es de otro tipo. Otros tipos PDP son *Normal* para la edición de un proyecto y el *Estado de flujo de trabajo* para que muestra los detalles de un proyecto de flujo de trabajo.  <br/> |
-|EnterpriseProjectTypeInvalidData = 35221  <br/> |El valor de **WorkflowDataSet** para tipo de proyecto empresarial tiene datos que no son válidos.  <br/> |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Una plantilla de proyecto empresarial (EPT) para un flujo de trabajo requiere una página de detalles del proyecto (PDP) asociada de tipo *Create* para crear un proyecto con la EPT. Este error se produce cuando la PDP no está incluida en la definición de la EPT. Otros tipos de PDP son: *Normal*, para editar un proyecto, y *Workflow Status*, para mostrar los detalles de un proyecto de flujo de trabajo.  <br/> |
+|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |La definición de la EPT solo permite una página de detalles del proyecto de tipo *Create*.  <br/> |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Una plantilla de proyecto empresarial (EPT) para un flujo de trabajo requiere una página de detalles del proyecto (PDP) asociada de tipo *Create* para crear un proyecto con la EPT. Este error se produce cuando la PDP en la definición de la EPT del flujo de trabajo es de otro tipo. Otros tipos de PDP son: *Normal*, para editar un proyecto, y *Workflow Status*, para mostrar los detalles de un proyecto de flujo de trabajo.  <br/> |
+|EnterpriseProjectTypeInvalidData = 35221  <br/> |La clase **WorkflowDataSet** para el tipo de proyecto empresarial contiene datos que no son válidos.  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |No hay ningún tipo de proyecto empresarial predeterminado definido.  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Es obligatorio que haya al menos una página de detalles del proyecto para el tipo de proyecto empresarial.  <br/> |
 |EnterpriseProjectTypeWorkflowStatusPDPNotAllowed = 35224  <br/> |Una página de detalles del proyecto para el estado del flujo de trabajo no está permitida para el tipo de proyecto empresarial.  <br/> |
-|EnterpriseProjectTypeCannotChangeWorkflowAssociation = 35225  <br/> |El proyecto ya tiene un tipo de proyecto empresarial (EPT), no se puede modificar el EPT del proyecto.  <br/> |
+|EnterpriseProjectTypeCannotChangeWorkflowAssociation = 35225  <br/> |El proyecto ya tiene un tipo de proyecto empresarial (EPT); no puede cambiar la EPT del proyecto.  <br/> |
 
 <a name="pj15_ErrorCodes_WSS"></a>
 
@@ -1371,7 +1371,7 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WSSURIInvalidFormat = 16409  <br/> |El formato del URI de la web de SharePoint no es válido.  <br/> |
 |WSSSyncReportingDataFailed = 16410  <br/> |No se pudieron sincronizar los datos de informes de SharePoint.  <br/> |
 |WSSWorkspaceUrlPathTooLong = 16411  <br/> |La ruta de la URL del área de trabajo del proyecto de SharePoint es demasiado larga.  <br/> |
-|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Uno o más caracteres en un nombre de sitio de proyecto de SharePoint no son válidos. Los siguientes caracteres no son válidos en un nombre de proyecto: / ": \<\> | , . ' ? \* #  <br/> |
+|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Uno o varios caracteres del nombre de un sitio de proyecto de SharePoint no son válidos. Los siguientes caracteres no son válidos en un nombre de proyecto: / " : \< \> | , . ' ? \* #  <br/> |
 |WSSInvalidWssServerUid = 16413  <br/> |El GUID de servidor SharePoint no es válido.  <br/> |
 |WSSSyncUsersFailed = 16414  <br/> |No se pudieron sincronizar los usuarios de Project Server con SharePoint.  <br/> |
 |WSSWrongWebTemplateLCID = 16415  <br/> |El identificador de configuración regional (Id. de idioma) de la plantilla web de SharePoint no es válido.  <br/> |
@@ -1380,10 +1380,10 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WSSWebCannotStartOrEndOnPeriod = 16418  <br/> |El nombre de una web de SharePoint no puede comenzar ni terminar con un punto.  <br/> |
 |WSSCannotDeleteSiteCollection = 16419  <br/> |No se puede eliminar la colección de sitios web.  <br/> |
 |WSSListUidInvalid = 16420  <br/> |El GUID de lista de SharePoint no es válido.  <br/> |
-|WSSSyncDataSetListUidMismatch = 16421  <br/> |El GUID de lista de SharePoint no coincide con el GUID de lista en la sincronización con **DataSet**.  <br/> |
-|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |Al **DataSet** para la sincronización con SharePoint le falta la fila de configuración del proyecto.  <br/> |
-|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |No se permiten las asignaciones de tareas en el **DataSet** para la sincronización con SharePoint.  <br/> |
-|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |El GUID de lista de SharePoint está vacío en el **DataSet** para la sincronización con SharePoint.  <br/> |
+|WSSSyncDataSetListUidMismatch = 16421  <br/> |El GUID de lista de SharePoint no coincide con el GUID de lista en la sincronización de **DataSet**.  <br/> |
+|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |Falta la fila de configuración del proyecto en **DataSet** para la sincronización con SharePoint.  <br/> |
+|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |No se permiten las asignaciones de tareas en **DataSet** para la sincronización con SharePoint.  <br/> |
+|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |El GUID de lista de SharePoint está vacío en **DataSet** para la sincronización con SharePoint.  <br/> |
 |WSSSyncDataNotFound = 16425  <br/> |Faltan datos en la sincronización con SharePoint.  <br/> |
 |WSSSyncCriticalDataValidationError = 16426  <br/> |Se ha producido un error de validación de datos grave en la sincronización con SharePoint.  <br/> |
 |WSSSyncSharePointListNotAccessibleError = 16427  <br/> |No se puede tener acceso a la lista de SharePoint.  <br/> |
@@ -1396,17 +1396,17 @@ Los códigos de error en la tabla 26 son para **StatusReports** métodos en el s
 |WSSOLPDeleteWebObjectLinkError = 18001  <br/> |Error al eliminar un vínculo de objeto web en el proveedor de vínculos de objetos de SharePoint.  <br/> |
 |WSSInvalidPermissionsToWssList = 18002  <br/> |Los permisos no son válidos para la lista de SharePoint.  <br/> |
 |WSSWebIsNotUnderDefaultCollection = 18003  <br/> |La web de SharePoint no está en la colección predeterminada.  <br/> |
-|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |El área de trabajo especificado dirección url no está en la colección de sitios asociada a esta instancia de project server. Este proceso es necesario por el modo de permiso actual.  <br/> |
+|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |La dirección URL del área de trabajo especificada no está en la colección de sitios asociada a esta instancia de Project Server. Es un requisito del modo de permisos actual.  <br/> |
 |WSSWorkspacesMustBeRestrictedToDefaultCollection = 18005  <br/> |Las áreas de trabajo deben restringirse a la colección de sitios predeterminada en el modo de permisos actual.  <br/> |
 
 <a name="pj15_ErrorCodes_ASMXExample"> </a>
 
-## <a name="error-code-example-for-asmx"></a>Ejemplo de código de error de ASMX
+## <a name="error-code-example-for-asmx"></a>Ejemplo de códigos de error de ASMX
 
-Para obtener una lista de errores si se genera una excepción cuando se llama a un método PSI, pase el objeto de **SoapException** al constructor de la clase [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx) . A continuación, puede usar [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) para almacenar la información de error en una matriz de **PSErrorInfo** y enumerar los errores, como en el ejemplo siguiente. 
+Para obtener una lista de errores si recibe una excepción cuando llama a un método de PSI, pase el objeto **SoapException** objeto al constructor de clases [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx). Después, puede usar [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) para almacenar la información de errores en una matriz **PSErrorInfo** y para enumerar los errores, como en el ejemplo siguiente. 
   
 > [!NOTE]
-> El objeto **PSErrorInfo** no incluye toda la información que pueda necesitar. Por ejemplo, si usa **Resource.CheckOutResources** donde uno de los recursos ya está desprotegido, **PSErrorInfo** muestra el motivo del error para cada recurso que no se puede desproteger, pero no incluye el GUID o nombre de recurso. Para que una forma de obtener una aplicación basadas en ASMX para obtener más información, vea [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx) . 
+> El objeto **PSErrorInfo** no incluye toda la información que puede necesitar. Por ejemplo, si usa **Resource.CheckOutResources** en cuando uno de los recursos ya está desprotegido, **PSErrorInfo** muestra el motivo del error para cada recurso que no se puede desproteger, pero no incluye el nombre del recurso ni el GUID. Para obtener más información sobre una aplicación basada en ASMX, consulte [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx). 
   
 ```cs
 using System;
@@ -1450,9 +1450,9 @@ catch (SoapException ex)
 
 <a name="pj15_ErrorCodes_WCFExample"> </a>
 
-## <a name="error-code-example-for-wcf"></a>Ejemplo de código de error de WCF
+## <a name="error-code-example-for-wcf"></a>Ejemplo de códigos de error de WCF
 
-Para obtener una lista de errores si obtener un **System.ServiceModel.FaultException** cuando se llama a un método PSI en una aplicación basada en WCF, puede extraer un objeto **PSClientError** el objeto **FaultException** . A continuación, puede usar [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) para almacenar la información de error en una matriz de **PSErrorInfo** y enumerar los errores, como se muestra en el ejemplo anterior de ASMX. 
+Para obtener una lista de errores si recibe una excepción **System.ServiceModel.FaultException** cuando llama a un método de PSI en una aplicación basada en WCF, puede extraer un objeto **PSClientError** desde el objeto ** FaultException**. Después, puede usar [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) para almacenar la información de errores en una matriz **PSErrorInfo** y para enumerar los errores, como en el ejemplo anterior de ASMX. 
   
 ```cs
 using System;
@@ -1576,7 +1576,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 <br/>
 
-Además de los datos en el objeto **PSClientError** , el objeto **FaultException** puede incluir otros tipos de errores, por ejemplo, no se puede conectar a Project Server. El parámetro _errOut_ del método **GetPSClientError** en el ejemplo anterior muestra información adicional. Por ejemplo, el ejemplo de código **CreateProject4Department** en el método [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) incluye comentarios que muestran cómo crear errores al establecer las propiedades de la tabla **ProjectCustomFields** . Cuando se ejecuta la aplicación, el parámetro _errOut_ incluye el elemento de **errinfo** y otros datos (con formato aquí desde la salida de la consola). 
+Además de los datos del objeto **PSClientError**, el objeto **FaultException** puede incluir otros tipos de errores, como un error en la conexión a Project Server. El parámetro _errOut_ del método **GetPSClientError** en el ejemplo anterior muestra información adicional. Por ejemplo, el ejemplo de código **CreateProject4Department** en el método [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) incluye comentarios que muestran cómo crear errores al establecer las propiedades de la tabla ** ProjectCustomFields**. Cuando se ejecuta la aplicación, el parámetro _errOut_ incluye el elemento **errinfo** y otros datos (que aquí se formatea a partir del resultado de la consola). 
   
 ```XML
 ==============================
@@ -1610,8 +1610,8 @@ CustomFieldRequiredValueNotProvided
 ## <a name="see-also"></a>Vea también
 
 - [Artículos con conceptos e instrucciones de Project](project-conceptual-and-how-to-articles.md)
-- [Analizador de SQL Server](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
-- [Project Server 2010: Qué esperar cuando obtenga la inesperado](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
+- [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
+- [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) (Project Server 2010: Qué esperar cuando ocurre lo inesperado)
 - [Visor de ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
     
 
