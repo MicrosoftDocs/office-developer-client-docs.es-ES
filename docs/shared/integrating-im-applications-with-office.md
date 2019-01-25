@@ -1,234 +1,234 @@
 ---
-title: Integración de aplicaciones de mensajería instantánea con Office
+title: Integración de aplicaciones de MI con Office
 manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: En este artículo se describe cómo configurar una aplicación cliente de mensaje instantáneo (IM) para que se integra con las características sociales en Office 2013, incluyendo mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contacto.
-ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
+localization_priority: Priority
+ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401742"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700713"
 ---
-# <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de mensajería instantánea con Office
+# <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de MI con Office
 
-En este artículo se describe cómo configurar una aplicación cliente de mensaje instantáneo (IM) para que se integra con las características sociales en Office 2013, incluyendo mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contacto.
+Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
   
-Si tiene alguna pregunta o comentarios sobre este artículo técnico o los procesos que describe, puede ponerse en contacto con Microsoft directamente mediante el envío de un correo electrónico a [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Si tienes alguna pregunta o comentarios sobre este artículo técnico o los procesos que describe, puedes ponerte en contacto con Microsoft enviando un correo a [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
 ## <a name="introduction"></a>Introducción
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 proporciona integración enriquecida con el cliente de mensajería instantánea a las aplicaciones, incluido Lync 2013. Esta integración proporciona a los usuarios con funciones de mensajería instantánea desde dentro de Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013 y OneNote 2013, así como proporcionar integración de presencia en las páginas de SharePoint 2013. Los usuarios pueden ver la foto, el nombre, el estado de presencia y datos de contacto para las personas de su lista de contactos. Puede iniciar una sesión de mensajería instantánea, llamada de vídeo o llamada telefónica directamente desde la tarjeta de contacto (el elemento de la interfaz de usuario en Office 2013 que superficies, póngase en contacto con las opciones de información y comunicación). Office 2013 facilita permanezcan conectados a sus contactos sin tener fuera de su correo electrónico o documentos. 
+Office 2013 ofrece una completa integración con aplicaciones cliente de MI, incluida Lync 2013. Esta integración proporciona a los usuarios capacidades de MI desde dentro de Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013 y OneNote 2013, así como la integración de presencia en las páginas de SharePoint 2013. Los usuarios pueden ver la foto, el nombre, el estado de presencia y los datos de contacto de los usuarios de su lista de contactos. Pueden iniciar una sesión de MI, realizar una videollamada o realizar una llamada telefónica directamente desde la tarjeta de contactos (el elemento de la IU en Office 2013 que expone opciones de información de contacto y comunicación). Office 2013 te permite mantenerte conectado a tus contactos sin tener que salir de tus correos o documentos. 
   
 > [!NOTE]
-> En este artículo se utiliza el término aplicación de cliente de mensajería instantánea para hacer referencia específicamente a la aplicación instalada en el equipo del usuario que se comunica con el servicio de mensajería instantánea. Por ejemplo, Lync 2013 se considera una aplicación de cliente de mensajería instantánea. En este artículo no proporciona información detallada acerca de cómo se comunica la aplicación de cliente de mensajería instantánea para el servicio de mensajería instantánea o el propio servicio de mensajería instantánea. 
+> Este artículo usa el término aplicación cliente de MI para hacer referencia específicamente para la aplicación instalada en el equipo de un usuario que se comunica con el servicio de MI. Por ejemplo, Lync 2013 se considera una aplicación cliente de MI. Este artículo no proporciona detalles acerca de cómo se comunica la aplicación cliente de MI con el servicio de MI o acerca del servicio de MI en sí mismo. 
   
-Puede personalizar una aplicación de cliente de mensajería instantánea, por lo que se comunica con Office. En concreto, puede modificar la aplicación de mensajería instantánea para que muestre la información siguiente dentro de la interfaz de usuario de Office:
+Puedes personalizar una aplicación cliente de MI para que se comunique con Office. En concreto, puedes modificar la aplicación de MI para que muestre la siguiente información dentro de la IU de Office:
   
 - Foto del contacto.
     
-- Nombre del contacto.
+- Nombre de contacto.
     
-- Póngase en contacto con nota de estado personal.
+- Nota de estado personal del contacto.
     
-- Póngase en contacto con el estado de presencia.
+- Estado de presencia del contacto.
     
-- Póngase en contacto con la cadena de disponibilidad (por ejemplo, "Disponible" o "fuera de la oficina").
+- Cadena de disponibilidad del contacto (por ejemplo, "Disponible" o "Fuera de la oficina").
     
-- Póngase en contacto con la cadena de capacidad (por ejemplo, "vídeo listo").
+- Cadena de función del contacto (por ejemplo, "listo para video").
     
-- Inicio de mensajería instantánea de un solo clic.
+- Inicio de MI con un solo clic.
     
-- Inicio de la llamada de vídeo de un solo clic.
+- Inicio de videollamada con un solo clic.
     
-- Inicio de llamadas de teléfono de un solo clic (incluidos SIP, número de teléfono, correo de voz y nuevo número de llamada).
+- Inicio de llamada de teléfono con un solo clic (incluye SIP, número de teléfono, correo de voz y llamada a un número nuevo).
     
-- Administración de contactos (agregar al grupo de mensajería instantánea).
+- Administración de contactos (agregar al grupo de MI).
     
-- Póngase en contacto con ubicación y zona horaria.
+- Ubicación y zona horaria del contacto.
     
-- Datos de contacto, número de teléfono, dirección de correo electrónico, título y nombre de la compañía.
+- Datos, número de teléfono, dirección de correo, puesto y nombre de la compañía del contacto.
     
-**En la figura 1. Tarjeta de contacto de Office 2013**
+**Ilustración 1. Tarjeta de contactos en Office 2013**
 
-![La tarjeta de personas en Office 2013] (media/ocom15_peoplecard.png "La tarjeta de personas en Office 2013")
+![Tarjeta de contactos en Office 2013](media/ocom15_peoplecard.png "Tarjeta de contactos en Office 2013")
   
-Para habilitar esta integración con Office, una aplicación de cliente de mensajería instantánea debe implementar un conjunto de interfaces que proporciona Office para conectarse a ella. Las API para esta integración se incluyen en el espacio de nombres [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) que se encuentra en el archivo Microsoft.Office.UC.dll, que se instala con las versiones de Office 2013 que incluyen Lync / Skype para la empresa. El espacio de nombres **UCCollaborationLib** incluye las interfaces que debe implementar para integrar con Office. 
+Para habilitar la integración con Office, una aplicación cliente de MI debe implementar un conjunto de interfaces de conexión que proporciona Office. Se incluyen las API para esta integración en el espacio de nombre [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) contenido en el archivo Microsoft.Office.UC.dll, que se instala con las versiones de Office 2013 que incluyen Lync o Skype for Business. El espacio de nombre **UCCollaborationLib** incluye las interfaces que debes implementar para la integración con Office. 
   
 > [!IMPORTANT] 
-> La biblioteca de tipos para las interfaces necesarias está incrustada en Lync 2013/Skype para la empresa. Para integradores de sistemas de terceros, esto funciona sólo cuando Lync 2013 y Skype para la empresa están instalados en el equipo de destino. Si va a integrar con Office Standard, debe extraer la biblioteca de tipos e instalarlo en el equipo de destino. El [SDK de Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) incluye el archivo Microsoft.Office.UC.dll. 
+> La biblioteca de tipos para las interfaces necesarias está incrustada en Lync 2013 o Skype for Business. Para integradores de terceros, esto solo funciona cuando los equipos de destino tienen instalado Lync 2013 y en Skype for Business. Si realizas la integración con Office Standard, deberás extraer la biblioteca de tipos e instalarla en el equipo de destino. El [SDK de Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) incluye el archivo Microsoft.Office.UC.dll. 
   
 > [!NOTE]
->  Un conjunto de aplicaciones de Office 2010 puede integrar de forma similar con una aplicación de proveedor de mensajería instantánea de terceros: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 y SharePoint Server 2010 (mediante un control ActiveX). Muchos de los pasos necesarios para la integración con Office 2013 aplican también a Office 2010. Hay varias diferencias claves en cómo se integra Office 2010 con una aplicación de proveedor de mensajería instantánea: 
->  - Office 2010 no mostrar fotografía del contacto. 
->  - Debe descargar el archivo Microsoft.Office.Uc.dll por separado desde Office 2010. El [SDK de Lync 2010](https://www.microsoft.com/en-us/download/details.aspx?id=18898) incluye el archivo Microsoft.Office.UC.dll para Office 2010. 
->  - Cuando la aplicación de Office, llama al método [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) en la aplicación de cliente de mensajería instantánea, se pasa en la cadena "14.0.0.0". 
->  - Office 2010 enumera todos los grupos y contactos tan pronto como se conecta a una aplicación de cliente de mensajería instantánea. 
+>  Algunas aplicaciones de Office 2010 puede integrarse de forma similar con una aplicación de proveedores de MI de terceros: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 y SharePoint Server 2010 (con un control ActiveX). Muchos de los pasos necesarios para la integración con Office 2013 se aplican también a Office 2010. Hay varias diferencias clave en la forma en la que Office 2010 se integra con una aplicación de proveedor de MI: 
+>  - Office 2010 no muestra la foto del contacto. 
+>  - Debes descargar el archivo Microsoft.Office.Uc.dll por separado de Office 2010. El [SDK de Lync 2010](https://www.microsoft.com/en-us/download/details.aspx?id=18898) incluye el archivo Microsoft.Office.UC.dll para Office 2010. 
+>  - Cuando la aplicación de Office llama al método [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) en la aplicación cliente de MI, pasa la cadena "14.0.0.0". 
+>  - Office 2010 enumera todos los grupos y contactos en cuanto se conecta a una aplicación cliente de MI. 
   
-## <a name="how-office-integrates-with-an-im-client-application"></a>¿Cómo se integra Office con una aplicación de cliente de mensajería instantánea
+## <a name="how-office-integrates-with-an-im-client-application"></a>Integración de Office con una aplicación cliente de MI
 <a name="off15_IMIntegration_How"> </a>
 
-Cuando se inicia una aplicación de Office 2013, pasa por el siguiente proceso para integrarse con la aplicación de cliente de mensajería instantánea predeterminada:
+Cuando se inicia una aplicación de Office 2013, atraviesa el siguiente proceso para integrarse con la aplicación cliente de MI predeterminada:
   
-1. Comprueba el registro para descubrir la aplicación de cliente de mensajería instantánea de forma predeterminada y, a continuación, se conecta a él.
+1. Comprueba el registro para descubrir la aplicación cliente de MI predeterminada y, a continuación, se conecta a ella.
     
-2. Se autentica con la aplicación de cliente de mensajería instantánea.
+2. Se autentica con la aplicación cliente de MI.
     
-3. Se conecta a interfaces específicas que se exponen con la aplicación de cliente de mensajería instantánea.
+3. Se conecta a interfaces específicas expuestas por la aplicación cliente de MI.
     
-4. Determina las capacidades del usuario ha iniciado sesión actualmente (usuario local), incluida la introducción de los contactos del usuario, determinar la presencia del usuario y determinar las capacidades de mensajería instantánea del usuario (mensajería instantánea, chat de vídeo, VOIP y así sucesivamente).
+4. Determina las funciones del usuario que inició sesión actualmente (usuario local), incluida la obtención de los contactos del usuario, la determinación de la presencia del usuario y la determinación de las capacidades de MI del usuario (mensajería instantánea, chat de video, VOIP, etc.).
     
-5. Obtiene información de presencia de los contactos del usuario local.
+5. Obtiene la información de presencia de los contactos del usuario local.
     
-6. Cuando se cierra la aplicación de cliente de mensajería instantánea, la aplicación de Office 2013 se desconecta en modo silencioso.
+6. Cuando se cierra la aplicación cliente de MI, la aplicación de Office 2013 se desconecta de forma silenciosa.
     
-### <a name="discovering-the-im-application"></a>Detección de la aplicación de mensajería instantánea
+### <a name="discovering-the-im-application"></a>Descubrir la aplicación de MI
 
-La aplicación de Office busca varias teclas específicas y las entradas del registro para detectar la aplicación de cliente de mensajería instantánea de forma predeterminada. Si detecta una aplicación de cliente de mensajería instantánea de forma predeterminada, a continuación, intenta conectarse a ella.
+La aplicación de Office busca varias teclas y entradas específicas en el registro para obtener información sobre la aplicación cliente de MI de forma predeterminada. Si detecta una aplicación cliente de MI de forma predeterminada, a continuación, intenta conectarse a ella.
   
-El proceso que realiza la aplicación de Office para detectar la aplicación de cliente de mensajería instantánea predeterminada es la siguiente:
+El proceso que realiza la aplicación de Office para obtener información sobre la aplicación cliente de MI predeterminada es la siguiente:
   
-1. La aplicación de Office comprueba si se establece la subclave HKEY_CURRENT_USER\Software\IM Providers\DefaultIMApp en el registro y lee el nombre de la aplicación enumerados ahí.
+1. La aplicación de Office intenta ver si se establece la subclave HKEY_CURRENT_USER\Software\IM Providers\DefaultIMApp en el registro y lee el nombre de aplicación que aparece allí.
     
-2. A continuación, la aplicación de Office lee la clave de _nombre de la aplicación_de proveedores de contenido\ HKEY_CURRENT_USER\Software\IM \UpAndRunning y supervisa el valor para que los cambios.
+2. La aplicación de Office, a continuación, lee la clave HKEY_CURRENT_USER\Software\IM Providers\ _Application name_\UpAndRunning y controla el valor para detectar cambios.
     
-3. A continuación, la aplicación de Office lee la clave del registro de proveedores de contenido\ HKEY_LOCAL_MACHINE\Software\IM _nombre de la aplicación_ y obtiene los valores de identificador (CLSID) de nombre de proceso y la clase almacenados en ella. 
+3. La aplicación de Office a continuación lee la clave del registro HKEY_LOCAL_MACHINE\Software\IM Providers\ _Application name_ y obtiene los valores de ProcessName e identificador de clase (CLSID) almacenados allí. 
     
-4. Una vez que la aplicación de cliente de mensajería instantánea ha completado correctamente la secuencia de inicio y registrado todas las clases correctamente para la integración de presencia, se establece la clave de _nombre de la aplicación_de proveedores de contenido\ HKEY_CURRENT_USER\Software\IM \UpAndRunning a "2", que indica que se está ejecutando la aplicación cliente.
+4. Una vez que la aplicación cliente de MI completó correctamente su secuencia de inicio y registró todas las clases correctamente para la integración de presencia, establece la clave HKEY_CURRENT_USER\Software\IM Providers\ _Application name_\UpAndRunning en "2", lo que indica que se está ejecutando la aplicación cliente.
     
-5. Cuando la aplicación de Office detecta que se ha establecido la clave de _nombre de la aplicación_de proveedores de contenido\ HKEY_CURRENT_USER\Software\IM \UpAndRunning a "2", se revisa la lista de procesos en ejecución en el equipo para el nombre del proceso de la aplicación de cliente de mensajería instantánea.
+5. Cuando la aplicación de Office detecta que la clave de HKEY_CURRENT_USER\Software\IM Providers\ _Application name_\UpAndRunning se estableció en "2", comprueba la lista de procesos en ejecución en el equipo para ver el nombre de la aplicación cliente de MI.
     
-6. Una vez que la aplicación de Office encuentra el proceso que utiliza la aplicación de cliente de mensajería instantánea, la aplicación de Office llama a **CoCreateInstance** utilizando el CLSID para establecer una conexión a la aplicación de cliente de mensajería instantánea como un servidor COM fuera de proceso. 
+6. Una vez que la aplicación de Office encuentra el proceso que utiliza la aplicación cliente de MI, la aplicación de Office llama a **CoCreateInstance** mediante CLSID para establecer una conexión con la aplicación cliente de MI como servidor COM fuera del proceso. 
     
-### <a name="authenticating-the-connection-to-the-im-application"></a>Autenticar la conexión a la aplicación de mensajería instantánea
+### <a name="authenticating-the-connection-to-the-im-application"></a>Autenticación de la conexión a la aplicación de MI
 
-Después de la aplicación de Office establece una conexión a la aplicación de cliente de mensajería instantánea, a continuación, hace lo siguiente:
+Después de que la aplicación de Office establece una conexión con la aplicación cliente de MI, a continuación, hace lo siguiente:
   
-1. La aplicación de Office llama a método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) para comprobar si la interfaz [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) . 
+1. La aplicación de Office llama al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) para comprobar la interfaz [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration). 
     
-2. La aplicación de Office, a continuación, llama al método **IUCOfficeIntegration.GetAuthenticationInfo** , pasando la versión más alta de integración compatibles (por ejemplo, "15.0.0.0"). 
+2. La aplicación de Office, a continuación, llama al método **IUCOfficeIntegration.GetAuthenticationInfo**, pasando la versión más alta de integración compatible (por ejemplo, "15.0.0.0"). 
     
-3. Si la aplicación de cliente de mensajería instantánea es compatible con la versión de Office que se pasó como un parámetro, la aplicación devuelve la siguiente cadena XML codificado de forma rígida al código de llamada:
+3. Si la aplicación cliente de MI es compatible con la versión de Office que se pasa como un parámetro, la aplicación devuelve la siguiente cadena XML codificada de forma rígida al código de llamada:
     
     `<authenticationinfo>`
     
    > [!NOTE]
-   > Por razones de herencia, la aplicación de cliente de mensajería instantánea debe devolver el valor exacto `<authenticationinfo>` a la llamada a **GetAuthenticationInfo** si es compatible con la versión de Office que se pasó como un parámetro. 
+   > Por motivos heredados, la aplicación cliente de MI debe devolver el valor exacto `<authenticationinfo>` a la llamada a **GetAuthenticationInfo** si se admite la versión de Office pasado como un parámetro. 
   
-4. Si se produce un error en la aplicación de cliente de mensajería instantánea devolver un valor, la aplicación de Office llama al método **GetAuthenticationInfo** con la última versión compatible de Office (por ejemplo, "14.0.0.0"). 
+4. Si la aplicación cliente no puede devolver un valor, la aplicación de Office llama al método **GetAuthenticationInfo** nuevamente con la siguiente versión más alta compatible de Office (por ejemplo, "14.0.0.0"). 
     
-5. Una vez que Office determina que la aplicación de cliente de mensajería instantánea admite la integración de mensajería instantánea y presencia, se conecta a un conjunto de interfaces para finalizar la inicialización requerido. (Para obtener más información, consulte [Connecting to interfaces necesarias](#off15_IMIntegration_HowConnect)).
+5. Cuando Office determina que la aplicación cliente de MI es compatible con la integración de presencia y MI, se conecta a un conjunto requerido de interfaces para finalizar la inicialización. (Para obtener más información, consulta [Conectarse a interfaces necesarias](#off15_IMIntegration_HowConnect).)
     
-Si la aplicación de Office detecta un error en cualquiera de los pasos anteriores, deshace los y no se ha establecido la integración de presencia de nuevo durante la sesión de la aplicación de Office. 
+Si la aplicación de Office, produce un error en cualquiera de los pasos anteriores, retrocede y no se establece la integración de presencia durante la sesión de la aplicación de Office. 
   
-### <a name="connecting-to-required-interfaces"></a>Que se conectan a interfaces necesarias
+### <a name="connecting-to-required-interfaces"></a>Conexión a las interfaces necesarias
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-Después de la autenticación de la conexión a la aplicación de cliente de mensajería instantánea, la aplicación de Office intenta conectarse a un conjunto de interfaces necesarias que debe exponer la aplicación de cliente de mensajería instantánea. La aplicación de Office se lleva a cabo mediante el siguiente procedimiento:
+Después de autenticar la conexión a la aplicación cliente de MI, la aplicación de Office intenta conectarse a un conjunto de interfaces necesarias que debe exponer la aplicación cliente de MI. La aplicación de Office lo logra de la siguiente manera:
   
-- La aplicación de Office obtiene que un objeto [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) llamando al método **IUCOfficeIntegration.GetInterface** , pasando el **oiInterfaceLyncClient** constante de la enumeración [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) . 
+- La aplicación de Office obtiene un objeto [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) al llamar al método **IUCOfficeIntegration.GetInterface**, pasando la constante **oiInterfaceLyncClient** desde la enumeración [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). 
     
-- La aplicación de Office obtiene que un objeto [IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation) llamando al método **IUCOfficeIntegration.GetInterface** , pasando el **oiInterfaceAutomation** constante de la enumeración **OIInterface** . 
+- La aplicación de Office obtiene un objeto [IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation) al llamar al método **IUCOfficeIntegration.GetInterface**, pasando la constante **oiInterfaceAutomation** desde la enumeración **OIInterface**. 
     
-- La aplicación de Office se configura el agente de escucha de eventos de [_ILyncClientEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) . 
+- La aplicación de Office configura la escucha de eventos [_ILyncClientEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient). 
     
-- La aplicación de Office se configura el agente de escucha de eventos de [_IUCOfficeIntegrationEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) . 
+- La aplicación de Office, configura la escucha de eventos [_IUCOfficeIntegrationEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration). 
     
-- La aplicación de Office, obtiene el estado de inicio de sesión de la aplicación de cliente de mensajería instantánea mediante el acceso a la propiedad **ILyncClient.State** . 
+- La aplicación de Office obtiene el estado de inicio de sesión de la aplicación cliente de MI mediante el acceso a la propiedad **ILyncClient.State**. 
     
-- La aplicación de Office obtiene las capacidades de la aplicación de cliente de mensajería instantánea llamando al método **IUCOfficeIntegration.GetSupportedFeatures** , que devuelve un indicador de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . 
+- La aplicación de Office obtiene las capacidades de la aplicación cliente de MI al llamar al método **IUCOfficeIntegration.GetSupportedFeatures**, que devuelve una marca de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). 
     
-- La aplicación de Office tiene acceso a la propiedad **ILyncClient.Self** para obtener una referencia a un objeto [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf) . 
+- La aplicación de Office, obtiene acceso a la propiedad **ILyncClient.Self** para obtener una referencia a un objeto [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf). 
     
-### <a name="retrieving-the-capabilities-of-the-local-user"></a>Recuperación de las capacidades del usuario local
+### <a name="retrieving-the-capabilities-of-the-local-user"></a>Recuperar las capacidades del usuario local
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-La aplicación de Office obtiene las capacidades del usuario local haciendo lo siguiente:
+La aplicación de Office obtiene las capacidades del usuario local mediante el siguiente procedimiento:
   
-1. Si la aplicación de cliente de mensajería instantánea es compatible con la interfaz **IClient2** , Office intenta obtener un objeto [IContactManager](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager) mediante el acceso a la propiedad **IClient2.PrivateContactManager** . 
+1. Si la aplicación cliente de MI es compatible con la interfaz **IClient2**, Office intenta obtener un objeto [IContactManager](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager) mediante el acceso a la propiedad **IClient2.PrivateContactManager**. 
     
-2. Si la aplicación de mensajería instantánea no es compatible con la interfaz **IClient2** , aplicación de Office obtiene un objeto **IContactManager** mediante el acceso a la propiedad **ILyncClient.ContactManager** . La aplicación de cliente de mensajería instantánea correctamente debe devolver un objeto **IContactManager** antes de pueden establecer cualquier otras funciones de mensajería instantánea. 
+2. Si la aplicación de MI no es compatible con la interfaz **IClient2**, la aplicación de Office intenta obtener un objeto **IContactManager** mediante el acceso a la propiedad **ILyncClient.ContactManager**. La aplicación cliente de MI debe devolver correctamente un objeto **IContactManager** antes de que se puedan establecer otras capacidades de MI. 
     
-3. La aplicación de Office se tiene acceso a la propiedad **ILyncClient.Uri** y, a continuación, llama a **IContactManager.GetContactByUri** para obtener el objeto [IContact](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContact) asociado con el usuario local. 
+3. La aplicación de Office, obtiene acceso a la propiedad **ILyncClient.Uri** y después llama a **IContactManager.GetContactByUri** para obtener el objeto [IContact](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContact) asociado con el usuario local. 
     
-4. A continuación, la aplicación de Office realiza varias llamadas a **IContact.CanStart** para establecer las capacidades del usuario local, pasando los valores para **ModalityTypes.ucModalityInstantMessage** y **ModalityTypes.ucModalityAudioVideo** sucesivamente. 
+4. A continuación, la aplicación de Office hace varias llamadas a **IContact.CanStart** para establecer las capacidades del usuario local, al pasar los valores de **ModalityTypes.ucModalityInstantMessage** y ** ModalityTypes.ucModalityAudioVideo** sucesivamente. 
     
-### <a name="retrieving-contact-presence"></a>Recuperación de presencia de los contactos
+### <a name="retrieving-contact-presence"></a>Recuperar presencia de contactos
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-La aplicación de Office obtiene la presencia de los contactos, incluido el usuario local, haciendo lo siguiente: 
+La aplicación de Office obtiene la presencia de contactos, incluido el usuario local, mediante el siguiente procedimiento: 
   
 1. La aplicación de Office llama a **IContact.GetContactInformation** para obtener un elemento de presencia del contacto. 
     
-2. A continuación, la aplicación de Office se suscribe a los cambios de estado de presencia del contacto. Se llama **IContactManager.CreateSubscription** para obtener un objeto [IContactSubscription](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactSubscription) . A continuación, llama a **IContactSubscription.AddContact** para agregar el contacto a la suscripción y, a continuación, llama a **IContactSubscription.Subscribe** para obtener los cambios en el estado del contacto. 
+2. A continuación, la aplicación de Office se suscribe a los cambios de estado de presencia del contacto. Llama a **IContactManager.CreateSubscription** para obtener un objeto [IContactSubscription](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactSubscription). A continuación, llama a **IContactSubscription.AddContact** para agregar el contacto a la suscripción y luego llama a **IContactSubscription.Subscribe** para obtener los cambios de estado del contacto. 
     
-3. Si la aplicación de mensajería instantánea admite **IContact2**, Office intenta obtener información de presencia mediante una llamada a **IContact2.BatchGetContactInformation2**.
+3. Si la aplicación de MI es compatible con **IContact2**, Office intenta obtener información de presencia llamando a **IContact2.BatchGetContactInformation2**.
     
-4. A continuación, la aplicación de Office recupera las propiedades de presencia del contacto mediante una llamada a **IContact.BatchGetContactInformation**. La aplicación de Office puede obtener un segundo conjunto de propiedades de presencia mediante el acceso a la propiedad **IContact.Settings** . 
+4. A continuación, la aplicación de Office recupera las propiedades de la presencia del contacto llamando a **IContact.BatchGetContactInformation**. La aplicación de Office puede obtener un segundo conjunto de propiedades de presencia si obtiene acceso a la propiedad **IContact.Settings**. 
     
-5. Por último, la aplicación de Office obtiene la pertenencia a un grupo del contacto mediante el acceso a la propiedad **IContact.CustomGroups** . Esto devuelve una colección de [IGroupCollection](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) que todos los objetos [IGroup](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) que pertenece el contacto incluye. 
+5. Por último, la aplicación de Office obtiene la pertenencia del grupo del contacto al acceder a la propiedad **IContact.CustomGroups**. Esto le devuelve una colección [IGroupCollection](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) que incluye a todos los objetos [IGroup](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) a los que pertenece el contacto. 
     
-### <a name="disconnecting-from-the-im-application"></a>Desconectar de la aplicación de mensajería instantánea
+### <a name="disconnecting-from-the-im-application"></a>Desconexión de la aplicación de MI
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-Cuando la aplicación de Office 2013 detecta el evento **OnShuttingDown** desde la aplicación de mensajería instantánea, desconecta en modo silencioso. Sin embargo, si la aplicación de Office se cierra antes de la aplicación de mensajería instantánea, la aplicación de Office no garantiza que la conexión se limpien. La aplicación de mensajería instantánea debe controlar pérdidas de conexión de cliente. 
+Cuando la aplicación de Office 2013 detecta el evento **OnShuttingDown** desde la aplicación de MI, se desconecta silenciosamente. Sin embargo, si cierra la aplicación de Office antes de la aplicación de MI, la aplicación de Office no garantiza que la conexión se limpie. La aplicación de MI debe controlar pérdidas de conexión del cliente. 
   
-## <a name="setting-registry-keys-and-entries"></a>Las entradas y las claves del registro de configuración
+## <a name="setting-registry-keys-and-entries"></a>Entradas y claves del registro de configuración
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-Como se mencionó anteriormente, las aplicaciones de mensajería instantánea capaz de Office 2013 buscan teclas específicas, entradas y valores del registro para detectar la aplicación de cliente de mensajería instantánea para conectarse a. Estos valores del registro proporcionan la aplicación de Office con el nombre del proceso y el CLSID de la clase que actúa como el punto de entrada al modelo de objetos de la aplicación de cliente de mensajería instantánea (es decir, la clase que implementa la interfaz **IUCOfficeIntegration** ). La aplicación de Office crea co-autoría dicha clase y se conecta como un cliente para el servidor COM fuera de proceso en la aplicación de cliente de mensajería instantánea. 
+Como se indicó anteriormente, las aplicaciones de Office 2013 compatibles con MI buscan teclas, entradas y valores específicos en el registro para obtener información sobre la aplicación cliente de MI a la cual conectarse. Estos valores de registro le proporcionan a la aplicación de Office el nombre del proceso y CLSID de la clase que actúa como punto de entrada al modelo de objeto de la aplicación cliente de MI (es decir, la clase que implementa la interfaz **IUCOfficeIntegration**). La aplicación de Office crea conjuntamente la clase y se conecta como cliente al servidor COM fuera de proceso en la aplicación cliente de MI. 
   
-Use la tabla 1 para identificar las claves, las entradas y los valores que deben escribirse en el registro para integrar una aplicación de cliente de mensajería instantánea con Office.
+Usa la tabla 1 para identificar las claves, entradas y valores que deben escribirse en el registro para integrar una aplicación cliente de MI con Office.
   
-**La tabla 1. Claves de registro para la configuración de la aplicación de cliente de mensajería instantánea predeterminada**
+**Tabla 1. Claves del registro para configurar la aplicación cliente de MI predeterminada**
 
-|**Clave**|**Entry**|**Tipo**|**Valor**|**Ejemplo**|
+|**Clave**|**Entrada**|**Tipo**|**Valor**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|
-|Proveedores de HKEY_LOCAL_MACHINE\Software\IM\\< nombre de la aplicación\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |El nombre de la aplicación de cliente de mensajería instantánea de otro fabricante.  <br/> |Mensajería instantánea de Litware 2012  <br/> |
-||Nombre de proceso  <br/> |REG_SZ  <br/> |El nombre del proceso de la aplicación de cliente de mensajería instantánea de otro fabricante.  <br/> |Litware.exe  <br/> |
-||GUID  <br/> |REG_SZ  <br/> |Un identificador de clase (CLSID) para la raíz, clase cocreatable en la aplicación de mensajería instantánea (es decir, la clase que implementa la interfaz **IUCOfficeIntegration** ).  <br/> |(GUID)  <br/> |
-|Proveedores de HKEY_CURRENT_USER\Software\IM  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |El nombre de la aplicación de cliente de mensajería instantánea. Esto debe ser el mismo que el nombre en la clave de registro de nivel superior (subárbol) en HKEY_LOCAL_MACHINE.  <br/> |Litware  <br/> |
-|Proveedores de HKEY_CURRENT_USER\Software\IM\\< nombre de la aplicación\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | Un valor entero entre 0 y 2:  <br/>  0: no está ejecutando  <br/>  1: inicio  <br/>  2: ejecuta  <br/> <br/>**Nota**: la clave del registro de nombre de aplicación debe ser el mismo que el valor de la entrada DefaultIMApp.           ||
+|HKEY_LOCAL_MACHINE\Software\IM Providers\\<Application name\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |El nombre de la aplicación cliente de MI de terceros.  <br/> |MI de Litware 2012  <br/> |
+||ProcessName  <br/> |REG_SZ  <br/> |El nombre del proceso de la aplicación cliente de MI de terceros.  <br/> |litware.exe  <br/> |
+||GUID  <br/> |REG_SZ  <br/> |Un identificador de clase (CLSID) para la clase de creación conjunta de raíz en la aplicación de MI (la clase que implementa la interfaz **IUCOfficeIntegration**).  <br/> |(Un GUID)  <br/> |
+|HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |El nombre de la aplicación cliente de MI. Debe ser el mismo que el nombre de la clave del registro de nivel superior (subárbol) en HKEY_LOCAL_MACHINE.  <br/> |Litware  <br/> |
+|HKEY_CURRENT_USER\Software\IM Providers\\<Application name\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | Valor entero entre 0 y 2:  <br/>  0—No en ejecución  <br/>  1—Iniciándose  <br/>  2—En ejecución  <br/> <br/>**NOTA**: la clave del registro de nombre de aplicación debe ser igual al valor de la entrada DefaultIMApp.           ||
    
 ## <a name="implementing-the-required-interfaces-for-integration-with-office"></a>Implementar las interfaces necesarias para la integración con Office
 <a name="off15_IMIntegration_ImplementRequired"> </a>
 
-Existen tres interfaces desde el espacio de nombres **UCCollaborationLib** que debe implementar el archivo ejecutable (o servidor COM) de una aplicación de cliente de mensajería instantánea para que puede integrar con Office. Si no se implementan estas interfaces, deshace la aplicación de Office durante el proceso de inicialización y no se establece la conexión con la aplicación de cliente de mensajería instantánea. 
+Hay tres interfaces del espacio de nombre **UCCollaborationLib** que debe implementar el archivo ejecutable (o servidor COM) de una aplicación cliente de MI para que se pueda integrar con Office. Si no se implementan estas interfaces, la aplicación de Office retrocede durante el proceso de inicialización y no se establece la conexión con la aplicación cliente de MI. 
   
-Las interfaces necesarias son los siguientes:
+Las interfaces necesarias son las siguientes:
   
-- [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration), aunque no es necesario, la interfaz de **_IUCOfficeIntegrationEvents** también debe implementarse en la misma clase derivada. 
+- [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration). Si bien no es necesaria, la interfaz **_IUCOfficeIntegrationEvents** también debe implementarse en la misma clase derivada. 
     
-- [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient), aunque no es necesario, la interfaz de **_ILyncClientEvents** también debe implementarse en la misma clase derivada. 
+- [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient). Si bien no es necesaria, la interfaz **_ILyncClientEvents** también debe implementarse en la misma clase derivada. 
     
 - [IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation)
     
 ### <a name="iucofficeintegration-interface"></a>Interfaz IUCOfficeIntegration
 <a name="off15_IMIntegration_ImplementRequired_IUCOfficeIntegration"> </a>
 
-La interfaz de **IUCOfficeIntegration** proporciona el punto de entrada para una aplicación de Office para conectarse a la aplicación de cliente de mensajería instantánea. La interfaz define tres métodos que llama una aplicación de Office como parte del proceso de inicio de una conexión con la aplicación de cliente de mensajería instantánea. La clase que implementa la interfaz **IUCOfficeIntegration** debe ser co-autoría creable para que Office co-autoría puede crear una instancia de él. Además, debe exponer el CLSID que se escribe como el valor de la entrada de GUID en la clave del registro de proveedores de contenido\ HKEY_LOCAL_MACHINE\Software\IM _nombre de la aplicación_ . 
+La interfaz **IUCOfficeIntegration** proporciona el punto de entrada para que una aplicación de Office se conecte a la aplicación cliente de MI. La interfaz define tres métodos que una aplicación de Office llama como parte del proceso de iniciar una conexión con la aplicación cliente de MI. La clase que implementa la interfaz **IUCOfficeIntegration** se debe poder cocrear para que Office pueda cocrear una instancia de ella. Además, debe exponer la CLSID que se introduce como el valor de la entrada de GUID en la clave de registro HKEY_LOCAL_MACHINE\Software\IM Providers\  _Application name_ 
   
-La clase que hereda de **IUCOfficeIntegration** también debe implementar la interfaz **_IUCOfficeIntegrationEvents** . La interfaz **_IUCOfficeIntegrationEvents** contiene a los miembros que exponen los controladores de eventos de la interfaz **IUCOfficeIntegration** . 
+La clase que hereda de **IUCOfficeIntegration** también debe implementar la interfaz **_IUCOfficeIntegrationEvents**. La interfaz **_IUCOfficeIntegrationEvents** contiene los miembros que exponen los controladores de eventos de la interfaz **IUCOfficeIntegration**. 
   
-La tabla 2 muestra a los miembros que deben implementarse en la clase que hereda de **IUCOfficeIntegration** y **_IUCOfficeIntegration**.
+La Tabla 2 muestra los miembros que deben implementarse en la clase que hereda de **IUCOfficeIntegration** y **_IUCOfficeIntegration**.
   
 > [!NOTE]
-> Para obtener más información acerca de la **IUCOfficeIntegration** y **_IUCOfficeIntegrationEvents** interfaces y sus miembros, vea [UCCollaborationLib.IUCOfficeIntegration](https://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) y [UCCollaborationLib._IUCOfficeIntegrationEvents ](https://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
+> Para más información sobre las interfaces **IUCOfficeIntegration** y **_IUCOfficeIntegrationEvents** y sus miembros, consulta [UCCollaborationLib.IUCOfficeIntegration](https://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) y [UCCollaborationLib._IUCOfficeIntegrationEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
   
-**Tabla 2. Implementación de las interfaces IUCOfficeIntegration y _IUCOfficeIntegrationEvents**
+**Tabla 2. Implementación de las interfaces IUCOfficeIntegration y _IUCOfficeIntegrationEvents interfaces**
 
-|**Interfaz**|**Elemento**|**Descripción**|
+|**Interfaz**|**Miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|**IUCOfficeIntegration** <br/> |**GetAuthenticationInfo** (método)  <br/> |Obtiene la cadena de información de autenticación.  <br/> |
-||**GetInterface** (método)  <br/> |Obtiene la interfaz de una versión concreta.  <br/> |
-||**GetSupportedFeatures** (método)  <br/> |Obtiene las características de integración de Office admitidas.  <br/> |
-|**_IUCOfficeIntegrationEvents** <br/> |**OnShuttingDown** (evento)  <br/> |El evento que se produce cuando la aplicación de cliente de mensajería instantánea está intentando apagar.  <br/> |
+|**IUCOfficeIntegration** <br/> |Método **GetAuthenticationInfo**  <br/> |Obtiene la cadena de información de autenticación.  <br/> |
+||Método **GetInterface**  <br/> |Obtiene la interfaz de una versión específica.  <br/> |
+||Método **GetSupportedFeatures**  <br/> |Obtiene las características de integración de Office compatibles.  <br/> |
+|**_IUCOfficeIntegrationEvents** <br/> |Evento **OnShuttingDown**  <br/> |El evento que se produce cuando la aplicación cliente de MI está intentando cerrarse.  <br/> |
    
-Use el siguiente código para definir una clase que hereda de las interfaces **IUCOfficeIntegration** y **_IUCOfficeIntegration** dentro de una aplicación de cliente de mensajería instantánea. 
+Usa el código siguiente para definir una clase que herede de las interfaces **IUCOfficeIntegration** y **_IUCOfficeIntegration** dentro de una aplicación cliente de MI. 
   
 ```cs
 // An example of a class that can be co-created and can integrate
@@ -243,9 +243,9 @@ public class LitwareClientAppObject : IUCOfficeIntegration
 
 ```
 
-El método **GetAuthenticationInfo** toma una cadena como un argumento para el parámetro de _versión_ . Cuando la aplicación de Office llama a este método, se pasa en uno de dos cadenas para el argumento, según la versión de Office. Cuando la aplicación de Office proporciona el método con la versión de Office que admite la aplicación de cliente de mensajería instantánea (es decir, admite la funcionalidad), el método **GetAuthenticationInfo** devuelve una cadena XML codificado de forma rígida `<authenticationinfo>`. 
+El método **GetAuthenticationInfo** toma una cadena como argumento para el parámetro _version_. Cuando la aplicación de Office llama a este método, pasa una de las dos cadenas del argumento, según la versión de Office. Cuando la aplicación de Office proporciona el método con la versión de Office compatible con la aplicación cliente de MI (es decir, compatible con la funcionalidad), el método **GetAuthenticationInfo** devuelve una cadena XML codificada de forma rígida `<authenticationinfo>`. 
   
-Use el siguiente código para implementar el método **GetAuthentication** dentro del código de aplicación de cliente de mensajería instantánea. 
+Usa el código siguiente para implementar un método **GetAuthentication** dentro del código de la aplicación cliente de MI. 
   
 ```cs
 public string GetAuthenticationInfo(string _version)
@@ -267,9 +267,9 @@ public string GetAuthenticationInfo(string _version)
 
 ```
 
-El método **GetInterface** referencias a las clases desplazará al código de llamada, dependiendo de lo que se pasa como un argumento para el parámetro de _interfaz_ . Cuando una aplicación de Office llama el método **GetInterface** , se pasa en uno de dos valores para el parámetro de interfaz: la constante **oiInterfaceILyncClient** (1) o bien la constante **oiInterfaceIAutomation** (2) de la [ UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) (enumeración). Si la aplicación de Office pasa la constante **oiInterfaceILyncClient** , el método **GetInterface** devuelve una referencia a una clase que implementa la interfaz **ILyncClient** . Si la aplicación de Office pasa la constante **oiInterfaceIAutomation** , el método **GetInterface** devuelve una clase que implementa la interfaz **IAutomation** . 
+El método **GetInterface** envía las referencias a clases al código de llamada, dependiendo de lo que se pasa como argumento para el parámetro de la _interface_. Cuando una aplicación de Office llama al método **GetInterface**, pasa uno de los dos valores para el parámetro de la interfaz: la constante **oiInterfaceILyncClient** (1) o ** la constante oiInterfaceIAutomation** (2) de la enumeración [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). Si la aplicación de Office pasa la constante **oiInterfaceILyncClient**, el método **GetInterface** devuelve una referencia a una clase que implementa la interfaz **ILyncClient**. Si la aplicación de Office pasa la constante **oiInterfaceIAutomation**, el método **GetInterface** devuelve una clase que implementa la interfaz **IAutomation**. 
   
-Use el siguiente ejemplo de código para implementar el método **GetInterface** dentro del código de aplicación de cliente de mensajería instantánea. 
+Usa el siguiente código de ejemplo para implementar el método **GetInterface** dentro del código de la aplicación cliente de MI. 
   
 ```cs
 public object GetInterface(string _version, OIInterface _interface)
@@ -304,15 +304,15 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-El método **GetSupportedFeatures** devuelve información acerca de las características de mensajería instantánea que admite la aplicación de cliente de mensajería instantánea. Toma una cadena para su único parámetro, _versión_. Cuando la aplicación de Office llama al método de **GetSupportFeatures** , el método devuelve un valor de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . El valor devuelto especifica las funciones del cliente de mensajería instantánea, donde cada función de la aplicación de cliente de mensajería instantánea se indica a la aplicación de Office mediante la adición de un marcador para el valor. 
+El método **GetSupportedFeatures** devuelve información sobre las características de MI compatibles con la aplicación cliente de MI. Es necesaria una cadena para el único parámetro, _version_. Cuando la aplicación de Office llama al método **GetSupportFeatures**, el método devuelve un valor de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). El valor devuelto especifica las capacidades del cliente de MI, donde cada función de la aplicación cliente de MI se indica en la aplicación de Office mediante la adición de un marcador al valor. 
   
 > [!NOTE]
->  Aplicaciones de Office 2013 omitir las siguientes constantes en la enumeración **OIFeature** : 
+>  Las aplicaciones de Office 2013 ignoran las siguientes constantes en la enumeración**OIFeature**: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
   
-Use el siguiente ejemplo de código para implementar el método **GetSupportFeatures** dentro del código de aplicación de cliente de mensajería instantánea. 
+Usa el siguiente código de ejemplo para implementar el método **GetSupportFeatures** dentro del código de la aplicación cliente de MI. 
   
 ```cs
 public OIFeature GetSupportedFeatures(string _version)
@@ -327,30 +327,30 @@ public OIFeature GetSupportedFeatures(string _version)
 ### <a name="ilyncclient-interface"></a>Interfaz ILyncClient
 <a name="off15_IMIntegration_ImplementRequired_ILyncClient"> </a>
 
-La interfaz de **ILyncClient** se asigna a las capacidades de la propia aplicación de cliente de mensajería instantánea. Expone propiedades que hacen referencia a la persona que ha iniciado sesión en la aplicación (el usuario local, representado por la interfaz de [UCCollaborationLib.ISelf](https://msdn.microsoft.com/library/UCCollaborationLib.ISelf) ), el estado de la aplicación, la lista de contactos para el usuario local y varias opciones de configuración. Cuando intenta conectarse a la aplicación de cliente de mensajería instantánea, la aplicación de Office obtiene una referencia a un objeto que implementa la interfaz **ILyncClient** . Desde esa referencia, Office puede tener acceso a gran parte de la funcionalidad de la aplicación de cliente de mensajería instantánea. 
+La interfaz **ILyncClient** se aplica a las funcionalidades de la aplicación cliente de MI. Expone propiedades que hacen referencia a la persona que inició sesión en la aplicación (usuario local, representado por la interfaz [UCCollaborationLib.ISelf](https://msdn.microsoft.com/library/UCCollaborationLib.ISelf)), el estado de la aplicación, la lista de contactos del usuario local y otras configuraciones. Cuando está intentando conectarse a la aplicación cliente de MI, la aplicación de Office obtiene una referencia a un objeto que implementa la interfaz **ILyncClient**. Desde esa referencia, Office puede acceder a muchas de las funciones de la aplicación cliente de MI. 
   
-Además, la clase que implementa la interfaz **ILyncClient** también debe implementar la interfaz **_ILyncClientEvents** . La interfaz **_ILyncClientEvents** expone algunos de los eventos que son necesarios para supervisar el estado de la aplicación de cliente de mensajería instantánea. 
+Además, la clase que implementa la interfaz **ILyncClient** también debe implementar la interfaz **_ILyncClientEvents**. La interfaz **_ILyncClientEvents** expone muchos de los eventos que son necesarios para supervisar el estado de la aplicación cliente de MI. 
   
-Tabla 3 se muestran a los miembros que deben implementarse en la clase que hereda de **ILyncClient** y **_ILyncClientEvents**.
+La Tabla 3 muestra los miembros que deben implementarse en la clase que hereda de **ILyncClient** y **_ILyncClientEvents**.
   
 > [!NOTE]
-> Cualquier miembro de la **ILyncClient** o ** \_ILyncClientEvents** interfaz no aparece en la tabla debe estar presente pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir una **NotImplementedException** o **E\_NOTIMPL** error. 
+> Cualquier miembro de la interfaz **ILyncClient** o ** \_ILyncClientEvents** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E\_NOTIMPL**. 
 > 
-> Para obtener más información acerca de la **ILyncClient** y **_ILyncClientEvents** interfaces y sus miembros, vea [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) y [UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
+> Para más información sobre las interfaces **ILyncClient** y **_ILyncClientEvents** y sus miembros, consulta [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) y [ UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
-**Tabla 3. Implementación de interfaces ILyncClient y ILyncClientEvents**
+**Tabla 3. Implementación de interfaces ILyncClient e ILyncClientEvents**
 
-|**Interfaz**|**Elemento**|**Descripción**|
+|**Interfaz**|**Miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|**ILyncClient** <br/> |**ContactManager** (propiedad)  <br/> |Obtiene el Administrador de grupo de contactos.  <br/> |
-||**ConversationManager** (propiedad)  <br/> |Obtiene el Administrador de conversaciones.  <br/> |
-||**Self** (propiedad)  <br/> |Obtiene el objeto **Self** .  <br/> |
-||**Inicio de sesión** (método)  <br/> |Inicia el aplicación de cliente de mensajería instantánea inicio de sesión de proceso con una disponibilidad específica.  <br/> |
-||**Estado** (propiedad)  <br/> |Obtiene el estado actual de la plataforma.  <br/> |
-||**URI** (propiedad)  <br/> |Obtiene el identificador URI de la aplicación de cliente de mensajería instantánea.  <br/> |
-|**_ILyncClientEvents** <br/> |**OnStateChanged** (evento)  <br/> |Se produce cuando cambia el estado de aplicación de cliente de mensajería instantánea. Debe controlar este evento y obtenga la propiedad **eventData.NewState** . El evento se desencadena para todos los procesos vinculados a una instancia de una aplicación de cliente de mensajería instantánea cuando cualquier subsistema en la aplicación hace que el cambio de estado.  <br/> |
+|**ILyncClient** <br/> |Propiedad **ContactManager**  <br/> |Obtiene el administrador de grupo de contactos.  <br/> |
+||Propiedad **ConversationManager**  <br/> |Obtiene el administrador de conversación.  <br/> |
+||Propiedad **Self**  <br/> |Obtiene el objeto **Self**.  <br/> |
+||Método **SignIn**  <br/> |Inicia el proceso de inicio de sesión de la aplicación cliente de MI con una disponibilidad específica.  <br/> |
+||Propiedad **State**  <br/> |Obtiene el estado actual de la plataforma.  <br/> |
+||Propiedad **Uri**  <br/> |Obtiene el URI de la aplicación cliente de MI.  <br/> |
+|**_ILyncClientEvents** <br/> |Evento **OnStateChanged**  <br/> |Se produce cuando cambia el estado de la aplicación cliente de MI. Debes controlar este evento y obtener la propiedad **eventData.NewState**. Se produce el evento para todos los procesos vinculados a una instancia de una aplicación cliente de MI cuando cualquier subsistema de la aplicación hace que cambie el estado.  <br/> |
    
-Durante el proceso de inicialización, Office obtiene acceso a la propiedad **ILyncClient.State** . Esta propiedad debe devolver un valor de la enumeración [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState) . 
+Durante el proceso de inicialización, Office obtiene acceso a la propiedad **ILyncClient.State**. Esta propiedad debe devolver un valor de la enumeración [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState). 
   
 ```cs
 private ClientState _clientState;
@@ -364,7 +364,7 @@ public ClientState State
 
 ```
 
-La propiedad **State** almacena el estado actual de la aplicación de cliente de mensajería instantánea. Debe establecer y actualizan a lo largo de la sesión de aplicación de cliente de mensajería instantánea. Cuando el mensaje instantáneo aplicación cliente inicia sesión, cierra la sesión, o se apaga, debe establecer la propiedad **State** . Es mejor establecer esta propiedad dentro de los métodos **ILyncClient.SignIn** y **ILyncClient.SignOut** , tal y como se muestra en el siguiente ejemplo. 
+La propiedad **State** almacena el estado actual de la aplicación cliente de MI. Se debe establecer y actualizar durante la sesión de la aplicación cliente de MI. Cuando la aplicación cliente de MI inicia sesión, cierra sesión o se apaga, debe establecer la propiedad **State**. Es mejor establecer esta propiedad dentro de los métodos **ILyncClient.SignIn** y **ILyncClient.SignOut**, como demuestra el siguiente ejemplo. 
   
 ```cs
 // This field is of a type that implements the 
@@ -397,7 +397,7 @@ public IMClientAsyncOperation SignIn(string _userUri, string _domainAndUser,
 
 ```
 
-En el ejemplo de código siguiente se muestra cómo configurar el agente de escucha de eventos mediante el _ **ILyncClientEvents** y _ **IUCOfficeIntegrationEvents** interfaces. 
+En el siguiente ejemplo de código se muestra cómo configurar la escucha de eventos con las interfaces _ **ILyncClientEvents** y _ **IUCOfficeIntegrationEvents**. 
   
 ```cs
 using Microsoft.Office.Uc;
@@ -656,63 +656,63 @@ namespace SampleImplementation
 ### <a name="iautomation-interface"></a>Interfaz IAutomation
 <a name="off15_IMIntegration_ImplementRequired_IAutomation"> </a>
 
-La interfaz de **IAutomation** automatiza las características de la aplicación de cliente de mensajería instantánea. Se puede usar para iniciar conversaciones, participar en conferencias y proporcionar contexto de ventana de extensibilidad. 
+La interfaz **IAutomation** automatiza características de la aplicación cliente de MI. Puedes usarla para iniciar conversaciones, unirte a conferencias y proporcionar contexto de la ventana de extensibilidad. 
   
-La tabla 4 muestra a los miembros que deben implementarse en la clase que hereda de **IAutomation**.
+La Tabla 4 muestra los miembros que deben implementarse en la clase que hereda de **IAutomation**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IAutomation** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** . 
+> Cualquier miembro de la interfaz **IAutomation**. que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes, pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**. 
 > 
-> Para obtener más información acerca de la interfaz de **IAutomation** y sus miembros, vea [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
+> Para más información sobre la interfaz **IAutomation** y sus miembros, consulta [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
 **Tabla 4. Implementación de interfaz IAutomation**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**StartConversation** (método)  <br/> |Inicia una conversación mediante la modalidad de conversación especificado. Se devuelve una instancia de **IConversationWindow** .  <br/> |
+|Método **StartConversation**  <br/> |Inicia una conversación con la modalidad de conversación especificada. Se devuelve una instancia de **IConversationWindow**.  <br/> |
    
-## <a name="implementing-contact-presence-integration"></a>Implementación de la integración de presencia de los contactos
+## <a name="implementing-contact-presence-integration"></a>Implementar la integración de presencia de los contactos
 <a name="off15_IMIntegration_ImplementIMFeatures"> </a>
 
-Además de las tres interfaces necesarias que se ha mencionado anteriormente, hay varias otras interfaces que son importantes para habilitar la funcionalidad de presencia de los contactos en Office. Estos son los siguientes:
+Además de las tres interfaces necesarias descritas anteriormente, hay varias otras interfaces que son importantes para habilitar la funcionalidad de presencia de los contactos en Office. Entre ellas se incluyen las siguientes:
   
-- La interfaz [IContact](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContact) o **IContact2** . 
+- La interfaz de [IContact](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContact) o **IContact2**. 
     
-- La interfaz [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf) . 
+- La interfaz [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf). 
     
-- Las interfaces [IContactManager](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager) y [_IContactManagerEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager) . 
+- Las interfaces [IContactManager](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager) y [_IContactManagerEvents](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactManager). 
     
-- Las interfaces [IGroup](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) y [IGroupCollection](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) . 
+- Las interfaces [IGroup](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup) y [IGroupCollection](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IGroup). 
     
-- La interfaz [IContactSubscription](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactSubscription) . 
+- La interfaz [IContactSubscription](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactSubscription). 
     
-- La interfaz [IContactEndPoint](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactEndPoint) . 
+- La interfaz [IContactEndPoint](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContactEndPoint). 
     
-- La interfaz de [ILocaleString](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILocaleString) 
+- La interfaz [ILocaleString](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILocaleString) 
     
 ### <a name="icontact-interface"></a>Interfaz IContact
 <a name="off15_IMIntegration_ImplementRequired_IContact"> </a>
 
-La interfaz **IContact** representa un usuario de aplicación de cliente de mensajería instantánea. La interfaz expone la presencia, modalidades disponibles, pertenencia a grupos y las propiedades de tipo de contacto de un usuario. Para iniciar una conversación con otro usuario, debe proporcionar esa instancia de usuario de **IContact**.
+La interfaz **IContact** representa un usuario de una aplicación cliente de MI. La interfaz expone propiedades de presencia, modalidades disponibles, pertenencia a un grupo y tipo de contacto para un usuario. Para iniciar una conversación con otro usuario, necesitas especificar esa instancia de usuario de **IContact**.
   
-Tabla 5 se muestran a los miembros que deben implementarse en la clase que hereda de **IContact**.
+La Tabla 5 muestra los miembros que deben implementarse en la clase que hereda de **IContact**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IContact** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** . 
+> Cualquier miembro de la interfaz **IContact**. que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes, pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**. 
 >
-> Para obtener más información acerca de la interfaz de **IContact** y sus miembros, vea [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
+> Para más información sobre la interfaz **IContact** y sus miembros, consulta [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
-**Tabla 5. Implementación de la interfaz de IContact**
+**Tabla 5. Implementación de interfaz IContact**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**CanStart** (método)  <br/> |Devuelve **true** si se puede iniciar un tipo determinado de modalidad en el contacto.  <br/> |
-|**GetContactInformation** (método)  <br/> |Obtiene un elemento de la presencia de un contacto de la publicación.  <br/> |
-|**BatchGetContactInformation** (método)  <br/> |Obtiene varios elementos de la presencia de un contacto de la publicación.  <br/> |
-|**Settings** (propiedad)  <br/> |Obtiene una colección de propiedades de contacto.  <br/> |
-|**CustomGroups** (propiedad)  <br/> |Obtiene una colección de grupos que el contacto es un miembro de.  <br/> |
+|Método **CanStart**  <br/> |Devuelve **true** si se puede iniciar un determinado tipo de modalidad en el contacto.  <br/> |
+|Método **GetContactInformation**  <br/> |Obtiene un elemento de la presencia de un contacto de publicación.  <br/> |
+|Método **BatchGetContactInformation**  <br/> |Obtiene un elemento de presencia de un contacto de publicación.  <br/> |
+|Propiedad **Configuración**  <br/> |Obtiene una colección de propiedades del contacto.  <br/> |
+|Propiedad **CustomGroups**  <br/> |Obtiene una colección de grupos de los que el contacto es miembro.  <br/> |
    
-Durante el proceso de inicialización, la aplicación de Office llama al método de **IContact.CanStart** para determinar las capacidades de mensajería instantánea para el usuario local. El método **CanStart** utiliza un indicador de la enumeración [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como un argumento para el parámetro de_modalityTypes_ _. Si el usuario actual puede integrarse en la modalidad solicitada (es decir, el usuario es capaz de mensajería instantánea, audio y vídeo de mensajería o uso compartido de aplicaciones), el método **CanStart** devuelve **true**.
+Durante el proceso de inicialización, la aplicación de Office llama al método **IContact.CanStart** para determinar las funcionalidades de MI para el usuario local. El método **CanStart** toma una marca de la enumeración [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como argumento para el parámetro __modalityTypes_. Si el usuario actual puede participar en la modalidad solicitada (es decir, el usuario puede utilizar mensajería instantánea, mensajes de audio y video y uso compartido de aplicaciones), el método **CanStart** devuelve **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -736,7 +736,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-El método **GetContactInformation** recupera información sobre el contacto desde el objeto **IContact** . El código de llamada debe pasar un valor de la enumeración [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para el parámetro_contactInformationType_ _, que indica los datos que se va a recuperar. 
+El método **GetContactInformation** recupera información sobre el contacto del objeto **IContact**. El código de llamada debe pasar un valor de la enumeración [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para el parámetro __contactInformationType_, que indica los datos que se deben recuperar. 
   
 ```cs
 public object GetContactInformation(
@@ -767,7 +767,7 @@ public object GetContactInformation(
 }
 ```
 
-Al igual que el **GetContactInformation**, el método **BatchGetContactInformation** recupera varios elementos de presencia sobre el contacto desde el objeto **IContact** . El código de llamada debe pasar en una matriz de valores de la enumeración **ContactInformationType** para el parámetro de_contactInformationTypes_ _. El método devuelve un objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contiene los datos solicitados. 
+Similar al método **GetContactInformation**, el método **BatchGetContactInformation** recupera varios elementos de presencia sobre el contacto del objeto **IContact**. El código de llamada debe pasar de una matriz de valores de la enumeración **ContactInformationType** para el parámetro __contactInformationTypes_. El método devuelve un objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contiene los datos solicitados. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -790,7 +790,7 @@ public IMClientContactInformationDictionary BatchGetContactInformation(
 }
 ```
 
-La propiedad **IContact.Settings** devuelve un objeto **IContactSettingDictionary** que contiene propiedades personalizadas sobre el contacto. 
+La propiedad **IContact.Settings** devuelve un objeto **IContactSettingDictionary** que contiene las propiedades personalizadas sobre el contacto. 
   
 ```cs
 public IMClientContactSettingDictionary Settings
@@ -804,7 +804,7 @@ public IMClientContactSettingDictionary Settings
 }
 ```
 
-La propiedad **IContact.CustomGroups** devuelve un objeto **IGroupCollection** que incluye todos los grupos del que el contacto es un miembro de. 
+La propiedad **IContact.CustomGroups** devuelve un objeto **IGroupCollection** que incluye todos los grupos de los que el contacto es miembro. 
   
 ```cs
 public IMClientGroupCollection CustomGroups
@@ -820,22 +820,22 @@ public IMClientGroupCollection CustomGroups
 ### <a name="iself-interface"></a>Interfaz ISelf
 <a name="off15_IMIntegration_ImplementRequired_ISelf"> </a>
 
-Durante el proceso de inicialización, la aplicación de Office obtiene los datos para el usuario actual mediante el acceso a la propiedad **ILyncClient.Self** , que debe devolver un objeto **ISelf** . La interfaz **ISelf** representa el usuario de aplicación de cliente de mensajería instantánea local, ha iniciado sesión. 
+Durante el proceso de inicialización, la aplicación de Office obtiene los datos del usuario actual al acceder a la propiedad **ILyncClient.Self**, que debe devolver un objeto **ISelf**. La interfaz **ISelf** representa al usuario de la aplicación cliente de MI conectado. 
   
-Tabla 6 se muestran a los miembros que deben implementarse en la clase que hereda de **ISelf**.
+La Tabla 6 muestra los miembros que deben implementarse en la clase que hereda de **ISelf**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **ISelf** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** . 
+> Cualquier miembro de la interfaz **ISelf** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes, pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**. 
   
-**Tabla 6. Implementación de la interfaz de ISelf**
+**Tabla 6. Implementación de interfaz ISelf**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**Contacto** (propiedad)  <br/> |Obtiene el objeto **IContact** asociado con el usuario local.  <br/> |
+|Propiedad **Contacto**  <br/> |Obtiene el objeto **IContact** asociado con el usuario local.  <br/> |
    
-Presencia, modalidades disponibles, pertenencia a grupos y las propiedades de tipo de contacto para el usuario local se exponen a través de la propiedad **ISelf.Contact** (que devuelve un objeto **IContact** ). Durante el proceso de inicialización, la aplicación de Office tiene acceso a la propiedad **ISelf.Contact** para obtener una referencia a la información de contacto para el usuario local. 
+Las propiedades de presencia, modalidades disponibles, pertenencia a grupos y tipo de contacto del usuario local se exponen a través de la propiedad **ISelf.Contact** (que devuelve un objeto **IContact**). Durante el proceso de inicialización, la aplicación de Office tiene acceso a la propiedad **ISelf.Contact** para obtener una referencia a la información de contacto del usuario local. 
   
-Use el siguiente código para definir una clase que hereda de la interfaz **ISelf** que implementa la propiedad de **contacto** . 
+Usa el código siguiente para definir una clase que hereda de la interfaz **ISelf** que implementa la propiedad **Contact**. 
   
 ```cs
 [ComVisible(true)]
@@ -862,32 +862,32 @@ public class IMClientSelf : ISelf
 }
 ```
 
-### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>Interfaces de IContactManager y _IContactManagerEvents
+### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>Las interfaces IContactManager y _IContactManagerEvents.
 <a name="off15_IMIntegration_ImplementRequired_IContactManager"> </a>
 
-El objeto **IContactManager** administra los contactos del usuario local, incluida la información de contacto del usuario local propia. La aplicación de Office, usa un objeto **IContactManager** para tener acceso a los objetos **IContact** que corresponden a los contactos del usuario local. 
+El objeto **IContactManager** administra los contactos del usuario local, con la información de contacto propia del usuario local. La aplicación de Office utiliza un objeto **IContactManager** para acceder a los objetos **IContact** que se corresponden con los contactos del usuario local. 
   
-Tabla 7 se muestran a los miembros que deben implementarse en la clase que hereda de **IContactManager** y **_IContactManagerEvents**.
+La Tabla 7 muestra los miembros que deben implementarse en la clase que hereda de **IContactManager** y **_IContactManagerEvents**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IContactManager** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir una **NotImplementedException** o **E\_NOTIMPL** error. 
+> Cualquier miembro de la interfaz **IContactManager** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E\_NOTIMPL**. 
 >
-> Para obtener más información acerca de la **IContactManager** y **_IContactManagerEvents** interfaces y sus miembros, vea [UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) y [UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
+> Para más información sobre las interfaces **IContactManager** y **_IContactManagerEvents** y sus miembros, consulta [UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) y [ UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
   
 **Tabla 7. Implementación de las interfaces IContactManager y _IContactManagerEvents**
 
-|**Interfaz**|**Elemento**|**Descripción**|
+|**Interfaz**|**Miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|**IContactManager** <br/> |**GetContactByUri** (método)  <br/> |Busca o crea una nueva instancia de contacto con el URI del contacto.  <br/> |
-||**CreateSubscription** (método)  <br/> |Crea un objeto **ISubscription** que se puede usar para el procesamiento por lotes suscripciones o consultas.  <br/> |
-||**Lookup** (método)  <br/> |Busca un contacto o grupo de distribución.  <br/> |
-|**_IContactManagerEvents** <br/> |**OnGroupAdded** (evento)  <br/> |Se produce cuando se agrega un grupo a una colección de grupos. La colección de grupos actualizado puede obtenerse de la propiedad **IContactManager.Groups** .  <br/> |
-||**OnGroupRemoved** (evento)  <br/> |Se produce cuando se quita un grupo de una colección de grupos. La colección de grupos actualizado puede obtenerse de la propiedad **IContactManager.Groups** .  <br/> |
-||**OnSearchProviderStateChanged** (evento)  <br/> |Se produce cuando cambia el estado de un proveedor de búsqueda.  <br/> |
+|**IContactManager** <br/> |Método **GetContactByUri**  <br/> |Busca o crea una nueva instancia de contacto usando el URI de contacto.  <br/> |
+||Método **CreateSubscription**  <br/> |Crea un objeto **ISubscription** que puede usarse para suscripciones por lotes o consultas.  <br/> |
+||Método **Lookup**  <br/> |Busca un contacto o grupo de distribución.  <br/> |
+|**_IContactManagerEvents** <br/> |Evento **OnGroupAdded**  <br/> |Se produce cuando se agrega un grupo a una colección de grupos. La colección de grupo actualizada se puede obtener de la propiedad **IContactManager.Groups**.  <br/> |
+||Evento **OnGroupRemoved**  <br/> |Se produce cuando se quita un grupo de una colección de grupos. La colección de grupo actualizada se puede obtener de la propiedad **IContactManager.Groups**.  <br/> |
+||Evento **OnSearchProviderStateChanged**  <br/> |Se produce cuando cambia el estado de un proveedor de búsqueda.  <br/> |
    
-Office llama a **IContactManager.GetContactByUri** para obtener información de presencia de un contacto, mediante el uso de la dirección SIP del contacto. Cuando un contacto está configurado para una dirección SIP en Active Directory, Office determina esta dirección para un contacto y las llamadas **GetContactByUri**, pasando la dirección SIP del contacto en el parámetro_contactUri_ _. 
+Office llama a **IContactManager.GetContactByUri** para obtener información de presencia de un contacto mediante la dirección SIP del contacto. Cuando un contacto está configurado para una dirección SIP en Active Directory, Office determina esta dirección para un contacto y llama a **GetContactByUri**, al pasar la dirección SIP del contacto para el parámetro __contactUri_. 
   
-Cuando Office no puede determinar la dirección SIP del contacto, llama al método **IContactManager.Lookup** para encontrar el SIP mediante el servicio de mensajería instantánea. Aquí Office pasa los datos mejor que pueden encontrar el contacto (por ejemplo, la dirección de correo electrónico del contacto). El método de **búsqueda** de forma asincrónica devuelve un objeto **AsynchronousOperation** . Cuando invoca la devolución de llamada, el método de **búsqueda** debe devolver el éxito o el fracaso de la operación además del URI del contacto. 
+Cuando Office no puede determinar la dirección SIP para un contacto, llama al método **IContactManager.Lookup** para encontrar el SIP mediante el servicio de MI. Aquí Office pasa los mejores datos que puede encontrar para el contacto (por ejemplo, solo la dirección de correo del contacto). El método **Lookup** devuelve de forma asincrónica un objeto **AsynchronousOperation**. Cuando invoca la retrollamada, el método **Lookup** debe devolver el éxito o fracaso de la operación además del URI del contacto. 
   
 ```cs
 public IMClientContact GetContactByUri(string _contactUri)
@@ -915,7 +915,7 @@ public IMClientContact GetContactByUri(string _contactUri)
 }
 ```
 
-La aplicación de Office que se necesita para suscribirse a los cambios de presencia de un contacto individual. Por lo tanto, cuando el estado de presencia de un contacto cambia, la aplicación de cliente de mensajería instantánea de las alertas del servidor de mensajería instantánea, con lo que las alertas a la aplicación de Office. Para ello, la aplicación de Office llama el método **IContactManager.CreateSubscription** para crear un nuevo objeto **IContactSubscription** para esta solicitud. 
+La aplicación de Office debe suscribirse a los cambios de presencia de un contacto individual. Por lo tanto, cuando cambia el estado de presencia de un contacto, el servidor de MI le avisa a la aplicación cliente de MI, lo que alerta a la aplicación de Office. Para ello, la aplicación de Office llama al método **IContactManager.CreateSubscription** para crear un nuevo objeto **IContactSubscription** para esta solicitud. 
   
 ```cs
 // Declare a private field to contain an IContactSubscription object.
@@ -928,48 +928,48 @@ public IMClientContactSubscription CreateSubscription()
 }
 ```
 
-### <a name="igroup-and-igroupcollection-interfaces"></a>Interfaces de IGroup y IGroupCollection
+### <a name="igroup-and-igroupcollection-interfaces"></a>Interfaces IGroup e IGroupCollection.
 <a name="off15_IMIntegration_ImplementRequired_IGroup"> </a>
 
-El objeto **IGroup** representa una colección de los contactos con propiedades adicionales para la identificación de la colección de contacto por un nombre de grupo colectiva. Un objeto **IGroupCollection** representa una colección de objetos de **IGroup** definido por un usuario local y la aplicación de cliente de mensajería instantánea. La aplicación de Office usa los objetos **IGroupCollection** y **IGroup** para tener acceso a los contactos del usuario local. 
+El objeto **IGroup** representa una colección de contactos con propiedades adicionales para identificar la colección de contactos mediante un nombre de grupo colectivo. Un objeto **IGroupCollection** representa una colección de objetos **IGroup** definidos por el usuario local y la aplicación de cliente de MI. La aplicación de Office usa los objetos **IGroupCollection** y **IGroup** para tener acceso a los contactos del usuario local. 
   
-Tabla 9 se muestran a los miembros que deben implementarse en las clases que heredan de **IGroup** y **IGroupCollection** en la siguiente tabla. 
+La Tabla 9 muestra los miembros que deben implementarse en las clases que heredan de **IGroup** e **IGroupCollection** en la tabla siguiente. 
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IGroup** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** . 
+> Cualquier miembro de la interfaz **IGroup** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**. 
 >
-> Para obtener más información acerca de las interfaces **IGroup** y **IGroupCollection** y sus miembros, vea [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) y [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
+> Para más información sobre las interfaces **IGroup** e **IGroupCollection** y sus miembros, consulta [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) y [ UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
-**Tabla 9. Implementación de las interfaces IGroup y IGroupCollection**
+**Tabla 9. Implementación de las interfaces IGroup e IGroupCollection**
 
-|**Interfaz**|**Elemento**|**Descripción**|
+|**Interfaz**|**Miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|**IGroupCollection** <br/> |**Count** (propiedad)  <br/> |Devuelve el número de objetos de **IGroup** en la colección  <br/> |
-||**Elemento** (propiedad)  <br/> |Devuelve el objeto **IGroup** en el índice especificado de la colección.  <br/> |
-|**IGroup** <br/> |**ID** (propiedad)  <br/> |Devuelve el identificador del grupo.  <br/> |
+|**IGroupCollection** <br/> |Propiedad **Count**  <br/> |Devuelve el número de objeto **IGroup** de la colección  <br/> |
+||Propiedad **Item**  <br/> |Devuelve el objeto **IGroup** en el índice especificado en la colección.  <br/> |
+|**IGroup** <br/> |Propiedad **Id**  <br/> |Devuelve el id. del grupo.  <br/> |
    
-Cuando la aplicación de Office obtiene la información para el usuario local, que obtiene acceso a las pertenencias a grupos del contacto (usuario local) mediante una llamada a la propiedad **IContact.CustomGroups** , que devuelve un objeto **IGroupCollection** . El **IGroupCollection** debe contener una matriz (o **lista**) de objetos de **IGroup** . La clase que se deriva de **IGroupCollection** debe exponer una propiedad **Count** , que devuelve el número de elementos de la colección y un método de indizador, **this(int)**, que devuelve un objeto **IGroup** de la colección. 
+Cuando la aplicación de Office obtiene la información de usuario local, tiene acceso a la pertenencia del contacto (usuario local) al llamar a la propiedad **IContact.CustomGroups** que devuelve un objeto **IGroupCollection**. **IGroupCollection** debe contener una matriz (o **lista**) de objetos **IGroup**. La clase que se deriva de **IGroupCollection** debe exponer una propiedad **Count**, que devuelve el número de elementos de la colección y un método indizador, **this(int)**, que devuelve un objeto **IGroup** de la colección. 
   
-### <a name="icontactsubscription-interface"></a>Interfaz IContactSubscription
+### <a name="icontactsubscription-interface"></a>Interfaz IContactSubscription.
 <a name="off15_IMIntegration_ImplementRequired_IContactSubscription"> </a>
 
-La interfaz de **IContactSubscription** permite especificar los contactos para recibir actualizaciones de la información de presencia de y los tipos de información de presencia que desencadenan una notificación. Aplicaciones de Office utilizan un objeto **IContactSubscription** para registrar los cambios realizados en el estado de presencia del contacto. 
+La interfaz **IContactSubscription** te permite especificar los contactos para recibir actualizaciones de la información de presencia y los tipos de información de presencia que activan una notificación. Las aplicaciones de Office utilizan un objeto **IContactSubscription** para registrar cambios al estado de presencia del contacto 
   
-Tabla 10 se muestran a los miembros que deben implementarse en las clases que heredan de **IContactSubscription**.
+La Tabla 10 muestra los miembros que deben implementarse en las clases que heredan de **IContactSuscription**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IContactSubscription** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** .
+> Cualquier miembro de la interfaz **IContactSubscription** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**.
 >
-> Para obtener más información acerca de la interfaz de **IContactSubscription** y sus miembros, vea [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
+> Para más información sobre la interfaz **IContactSubscription** y sus miembros, consulta [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
-**Tabla 10. Implementación de la interfaz de IContactSubscription**
+**Tabla 10. Implementación de interfaz IContactSubscription**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**AddContact** (método)  <br/> |Agrega un contacto para el objeto de suscripción.  <br/> |
-|**SUBSCRIBE** (método)  <br/> |Ayuda a la aplicación de cliente de mensajería instantánea para supervisar la presencia de un contacto.  <br/> |
+|Método **AddContact**  <br/> |Agrega un contacto al objeto de la suscripción.  <br/> |
+|Método **Subscribe**  <br/> |Ayuda de la aplicación cliente de MI a supervisar la presencia de un contacto.  <br/> |
    
-La interfaz **IContactSubscription** debe contener una referencia a todos los objetos **IContact** que supervisa, utilizando una matriz o una **lista**. El método **IContactSubscription.AddContact** agrega un objeto **IContact** para el a la estructura de datos subyacente del objeto **IContactSubscription** , con lo que se agrega un contacto nuevo para supervisar los cambios de presencia. 
+La interfaz **IContactSubscription** debe contener una referencia a todos los objetos **IContact** que supervisa, mediante el uso de una matriz o una **Lista**. El método **IContactSubscription.AddContact** agrega un objeto **IContact** a la estructura de datos subyacente del objeto **IContactSubscription**, lo que agrega un contacto nuevo para supervisar los cambios de presencia. 
   
 ```cs
 // Store references to all of the IContact objects to subscribe to.
@@ -981,49 +981,49 @@ public void AddContact(IMClientContact _contact)
 }
 ```
 
-El método **IContactSubscription.Subscribe** permite que una aplicación de cliente de mensajería instantánea tener acceso a observadores de presencia del contacto. Puede usar una estrategia de sondeo para obtener que la presencia desde el servidor para los contactos para que se ha suscrito a la aplicación de cliente de mensajería instantánea. El método **Subscribe** es útil en situaciones donde se solicita la presencia de una persona ajena a la lista de contactos de un usuario (por ejemplo, de una red pública mayor). 
+El método **IContactSubscription.Subscribe** permite que una aplicación cliente de MI acceda a observadores de presencia del contacto. Puede usar una estrategia de sondeo para obtener la presencia del servidor de los contactos para los que se haya suscrito la aplicación cliente de MI. El método **Subscribe** es útil en situaciones donde se solicita la presencia de alguien de fuera de la lista de contactos de un usuario (por ejemplo, de una red pública de mayor tamaño). 
   
-### <a name="icontactendpoint-interface"></a>Interfaz IContactEndPoint
+### <a name="icontactendpoint-interface"></a>Interfaz IContactEndPoint.
 <a name="off15_IMIntegration_ImplementRequired_IContactEndPoint"> </a>
 
-El **IContactEndPoint** representa un número de teléfono de colección de un contacto de números de teléfono. 
+**IContactEndPoint** representa un número de teléfono de la colección de números de teléfono de un contacto. 
   
-La tabla 11 se muestran a los miembros que deben implementarse en las clases que heredan de **IContactEndPoint**.
+La Tabla 11 muestra los miembros que deben implementarse en las clases que heredan de **IContactEndPoint**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **IContactEndPoint** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** .
+> Cualquier miembro de la interfaz **IContactEndPoint**. que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**.
 >
-> Para obtener más información acerca de la interfaz de **IContactEndPoint** y sus miembros, vea [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
+> Para más información sobre la interfaz **IContactEndPoint** y sus miembros, consulta [UCCollaborationLib.IContactEndPoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
-**Tabla 11. Implementación de la interfaz de IContactEndPoint**
+**Tabla 11. Implementación de la interfaz IContactEndPoint**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**DisplayName** (propiedad)  <br/> |Obtiene la cadena para mostrar.  <br/> |
-|**Tipo** (propiedad)  <br/> |Obtiene el tipo de contacto de extremo  <br/> |
-|**URI** (propiedad)  <br/> |Obtiene el identificador URI del contacto.  <br/> |
+|Propiedad **DisplayName**  <br/> |Obtiene la cadena para mostrar  <br/> |
+|Propiedad **Type**  <br/> |Obtiene el tipo de punto de contacto  <br/> |
+|Propiedad **Uri**  <br/> |Obtiene el URI del contacto.  <br/> |
    
 ### <a name="ilocalestring-interface"></a>Interfaz ILocaleString
 <a name="off15_IMIntegration_ImplementRequired_ILocaleString"> </a>
 
-El **ILocaleString** es una estructura de cadena localizada que contiene una cadena localizada y el identificador de configuración regional de la localización. La interfaz de **ILocaleString** se usa para dar formato a la cadena de estado personalizado en la tarjeta de contacto. 
+**ILocaleString** es una estructura de cadena localizada que contiene una cadena localizada y el ID de la localización de configuración regional. La interfaz **ILocaleString** se utiliza para dar formato a la cadena de estado personalizado en la tarjeta de contacto. 
   
-La tabla 12 se muestran a los miembros que deben implementarse en las clases que heredan de **ILocaleString**.
+La Tabla 12 muestra los miembros que deben implementarse en las clases que heredan de **ILocaleString**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz de **ILocaleString** no aparece en la tabla debe estar presente, pero no es necesario que se va a implementar. Los miembros que están presentes, pero no implementado pueden producir un error **NotImplementedException** o **E_NOTIMPL** .
+> Cualquier miembro de la interfaz **ILocaleString** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E_NOTIMPL**.
 >
-> Para obtener más información acerca de la interfaz de **ILocalString** y sus miembros, vea [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
+> Para más información sobre la interfaz **ILocaleString** y sus miembros, consulta [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   
-**Tabla 12. Implementación de la interfaz de ILocaleString**
+**Tabla 12. Implementación de interfaz ILocaleString**
 
-|**Elemento**|**Descripción**|
+|**Miembro**|**Descripción**|
 |:-----|:-----|
-|**LocaleId** (propiedad)  <br/> |Obtiene el identificador de configuración regional.  <br/> |
-|**Valor** (propiedad)  <br/> |Obtiene la cadena.  <br/> |
+|Propiedad **LocaleId**  <br/> |Obtiene la id. de configuración regional.  <br/> |
+|Propiedad **Value**  <br/> |Obtiene la cadena.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-- Espacio de nombres [UCCollaborationLib](https://msdn.microsoft.com/library/UCCollaborationLib) 
+- Espacio de nombre [UCCollaborationLib](https://msdn.microsoft.com/library/UCCollaborationLib) 
     
 

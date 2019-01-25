@@ -1,91 +1,91 @@
 ---
-title: Nuevo cálculo multiproceso en Excel
+title: Actualización multiproceso en Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- las celdas de seguros para subprocesos [excel 2007], subprocesamiento múltiple en Excel, tareas simultáneas [Excel 2007], funciones de seguros para subprocesos [Excel 2007], multiproceso recálculo [Excel 2007], MTR [Excel 2007], funciones XLL [Excel 2007], registrar como subprocesos, [recálculo Excel 2007], memoria multiproceso, contención [Excel 2007], registrar XLL funciona como subprocesos funciones no seguras de seguros [Excel 2007], [Excel 2007]
-localization_priority: Normal
+- celdas seguras para subprocesos [excel 2007],multithreading en Excel,tareas simultáneas [Excel 2007],funciones seguras para subprocesos [Excel 2007],actualización multiproceso [Excel 2007],MTR [Excel 2007],funciones XLL [Excel 2007], registrar como seguro para subprocesos,actualización [Excel 2007], multiproceso,contención de memoria [Excel 2007],registrar funciones XLL como seguras para subprocesos [Excel 2007],funciones no seguras [Excel 2007]
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f0b6f3d7310cac6d141fc74652a3333f70bda8e9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815687"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720712"
 ---
-# <a name="multithreaded-recalculation-in-excel"></a>Nuevo cálculo multiproceso en Excel
+# <a name="multithreaded-recalculation-in-excel"></a>Actualización multiproceso en Excel
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Office Excel 2007 fue la primera versión de Excel para usar el nuevo cálculo multiproceso (MTR) de hojas de cálculo. Puede configurar Excel para usar hasta subprocesos simultáneos 1024 al volver a calcular, independientemente del número de procesadores o núcleos de procesador en el equipo. 
+Microsoft Office Excel 2007 fue la primera versión de Excel en usar la actualización multiproceso (MTR) de hojas de cálculo. Puede configurar Excel para usar hasta 1024 subprocesos simultáneos al actualizar, independientemente del número de procesadores o núcleos de procesador en el equipo. 
   
 > [!NOTE]
-> No hay un sistema operativo sobrecarga asociado con cada subproceso, por lo que no debe configurar Excel para usar más subprocesos de los que necesita. 
+> Hay una sobrecarga del sistema operativo asociada a cada subproceso, por lo que no debe configurar Excel para usar más subprocesos de los que necesita. 
   
-Si el equipo tiene varios procesadores o núcleos de procesador, el sistema operativo tiene responsabilidad de asignación de los subprocesos a los procesadores de la manera más eficaz.
+Si el equipo tiene varios procesadores o núcleos de procesador, el sistema operativo asume la responsabilidad de asignar los subprocesos a los procesadores de la manera más eficiente.
   
-## <a name="excel-mtr-overview"></a>Introducción a Excel MTR
+## <a name="excel-mtr-overview"></a>Información general sobre MTR en Excel
 
-Excel intenta identificar las partes de la cadena de cálculo que se pueden volver a calcularse simultáneamente en distintos subprocesos. El siguiente árbol muy simple (donde x ← y significa y sólo depende de x), muestra un ejemplo de esto.
+Excel intenta identificar partes de la cadena de cálculo que se pueden actualizar simultáneamente en subprocesos distintos. El siguiente árbol muy sencillo (donde x ← y significa y solo depende de x) muestra un ejemplo de ello.
   
-**En la figura 1. Cálculo simultáneo en distintos subprocesos**
+**Figura 1. Cálculo simultáneo en subprocesos distintos**
 
-![Cálculo simultáneo en distintos subprocesos] (media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif "Cálculo simultáneo en distintos subprocesos")
+![Cálculo simultáneo en subprocesos distintos](media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif "Cálculo simultáneo en subprocesos distintos")
   
-Una vez que se calcula A1, A2 y, a continuación, A3 se pueden calcular en un subproceso mientras B1 y, a continuación, C1 se pueden calcular en otro, suponiendo que todas las celdas son seguros para subprocesos. 
+Después de calcular A1, A2 y A3 pueden calcularse en un subproceso, mientras que B1 y C1 se pueden calcular en otro, suponiendo que todas las celdas son seguras para subprocesos. 
   
 > [!NOTE]
-> La celda de seguros para subprocesos términos significa una celda que contiene sólo las funciones de subprocesos. ¿Qué es y no es segura para subprocesos se detallan [es no considera subproceso seguros por Excel y ¿qué es](#xl2007xllsdk_threadsafe). 
+> El término “celda segura para subprocesos” se refiere a una celda que solo contiene funciones seguras para subprocesos. Consulte la sección [Qué se considera y qué no se considera seguro para subprocesos en Excel](#xl2007xllsdk_threadsafe) para obtener más información. 
   
-Los libros más prácticos contienen árboles de dependencia mucho más complejos que en este ejemplo. Además, no se puede conocer la hora de actualización de una celda hasta que se realiza un cálculo y se puede variar mucho dependiendo de los argumentos de las funciones. Para obtener los mejores resultados, Excel intenta mejorar el orden de cálculo en todos los cálculos hasta que es posible mejorar la optimización.
+Los libros más prácticos contienen árboles de dependencias mucho más complejos que este ejemplo. Además, el tiempo de actualización de una celda no se puede conocer hasta que el cálculo ha finalizado y puede variar enormemente según los argumentos de las funciones. Para obtener los mejores resultados, Excel intenta mejorar el orden de cálculo en cada cálculo hasta que es posible mejorar la optimización.
   
-Excel utiliza un único subproceso principal para ejecutar o ejecutar lo siguiente:
+Excel usa un solo subproceso principal para ejecutar lo siguiente:
   
 - Comandos integrados
     
 - Comandos XLL
     
-- Funciones de interfaz de administrador de complementos XLL (función**xlAutoOpen** y así sucesivamente) 
+- Funciones de interfaz del Administrador de complementos XLL (función **xlAutoOpen**, etc.) 
     
-- Microsoft Visual Basic para aplicaciones (VBA) definidas por el usuario los comandos (que suele denominados macros)
+- Comandos definidos por el usuario de Microsoft Visual Basic para Aplicaciones (VBA) (a menudo denominadas macros)
     
-- Funciones definidas por el usuario VBA
+- Funciones definidas por el usuario de VBA
     
-- Funciones integradas de hoja de cálculo no seguras subproceso (vea la sección siguiente para obtener una lista)
+- Funciones integradas de hoja de cálculo no segura para subprocesos (consulte la siguiente sección para obtener una lista)
     
-- Funciones y comandos definidas por el usuario de la hoja de macros XLM
+- Funciones y comandos definidos por el usuario de la hoja de macros XLM
     
-- Funciones y comandos de complementos COM
+- Funciones y comandos de complemento COM
     
-- Funciones y operadores dentro de las expresiones de formato condicionales
+- Funciones y operadores dentro de las expresiones de formato condicional
     
-- Funciones y operadores dentro de las definiciones de nombre definido que se utiliza en las fórmulas de la hoja de cálculo
+- Funciones y operadores dentro de las definiciones de nombre definido que se usan en las fórmulas de hoja de cálculo
     
-- La evaluación de una expresión en el cuadro Editar fórmula con la tecla **F9** forzada 
+- La evaluación de una expresión en el cuadro de edición de la fórmula con la tecla **F9** 
     
-Todas las fórmulas de hoja de cálculo, independientemente de si las funciones son seguros para subprocesos o no, se evalúan en el subproceso principal a menos que Excel está configurado para usar más de un subproceso. Cuando el usuario especifica que se debe usar más de un subproceso, los subprocesos adicionales se utilizan para las celdas de seguros para subprocesos. Tenga en cuenta que el subproceso principal aún se puede usar para las celdas de seguros para subprocesos cuando tenga sentido desde el punto de equilibrio de carga de vista.
+Todas las fórmulas de hoja de cálculo, independientemente de si las funciones son seguras para subprocesos o no, se evalúan en el subproceso principal a menos que Excel esté configurado para usar más de un subproceso. Cuando el usuario especifica que debe usarse más de un subproceso, los subprocesos adicionales se usan para las celdas seguras para subprocesos. Tenga en cuenta que el subproceso principal aún puede usarse para las celdas seguras para subprocesos cuando tiene sentido desde un punto de vista de equilibrio de carga.
   
-Merece la pena reformular que Excel no ejecute más de un comando a la vez, por lo que no es necesario emplear las mismas precauciones como cuando se escriben funciones de seguros para subprocesos, como el uso de memoria de proceso local y secciones críticas.
+Conviene reformular que Excel no ejecuta más de un comando a la vez, por lo que no es necesario usar las mismas precauciones que cuando se escriben funciones seguras para subprocesos, como el uso de memoria local para el subproceso y secciones críticas.
   
-## <a name="what-is-and-is-not-considered-thread-safe-by-excel"></a>¿Qué es y no se considera subproceso seguros por Excel
+## <a name="what-is-and-is-not-considered-thread-safe-by-excel"></a>Qué se considera y qué no se considera seguro para subprocesos en Excel
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Excel sólo tiene en cuenta lo siguiente como subproceso seguro:
+En Excel solo se considera seguro para subprocesos lo siguiente:
   
-- Todos los operadores unario y binario de Excel.
+- Todos los operadores unarios y binarios en Excel.
     
 - Casi todas las funciones de hoja de cálculo integradas a partir de Excel 2007 (vea la lista de excepciones)
     
-- En Agregar funciones XLL que se han registrado explícitamente como seguros para subprocesos.
+- Funciones de complemento XLL que se han registrado explícitamente como seguras para subprocesos.
     
-Las funciones de hoja de cálculo integradas que no son seguros para subprocesos son:
+Las funciones de hoja de cálculo integradas que no son seguras para subprocesos son las siguientes:
   
-- **FONÉTICO**
+- **PHONETIC**
     
-- **Celda** cuando se utiliza el "formato de" o la "dirección" argumento 
+- **CELL** cuando se usa el argumento "format" o "address" 
     
 - **INDIRECT**
     
@@ -105,46 +105,46 @@ Las funciones de hoja de cálculo integradas que no son seguros para subprocesos
     
 - **CUBESETCOUNT**
     
-- **Dirección** donde se proporciona el quinto parámetro (sheet_name) 
+- **ADDRESS** donde se proporciona el quinto parámetro (sheet_name) 
     
-- Cualquier función de base de datos (**DSUM**, **DAVERAGE**etc.) que hace referencia a una tabla dinámica
+- Ninguna función de base de datos (**BDSUMA**, **BDPROMEDIO**, etc.) que haga referencia a una tabla dinámica
     
-- **ERROR. TIPO DE**
+- **ERROR.TYPE**
     
-- **HIPERVÍNCULO**
+- **HYPERLINK**
     
-Para que sea explícito, las siguientes se consideran no seguras:
+Para ser explícitos, lo siguiente se considera como no seguro:
   
-- Funciones definidas por el usuario VBA
+- Funciones definidas por el usuario de VBA
     
-- Complemento definidas por el usuario funciones COM
+- Funciones definidas por el usuario de complemento COM
     
 - Funciones definidas por el usuario de hoja de macros XLM
     
-- Funciones de complementos XLL registran no explícitamente como seguros para subprocesos
+- Funciones de complemento XLL que se han registrado explícitamente como seguras para subprocesos
     
-Las implicaciones son que las siguientes operaciones y funciones no son seguros para subprocesos y producirá un error si se les llama desde una función XLL registrada como seguros para subprocesos:
+Las consecuencias son que las siguientes operaciones y funciones no son seguras para subprocesos y producen un error si se les llama desde una función XLL registrada como segura para subprocesos:
   
-- Llama a las funciones de información XLM, por ejemplo, **xlfGetCell** (**GET. CELDA**).
+- Llamadas a funciones de información XLM, por ejemplo, **xlfGetCell** (**GET.CELL**).
     
-- Llama a **xlfSetName** (**SET.NAME**) para definir o eliminar nombres internos de XLL.
+- Llamadas a **xlfSetName** (**SET.NAME**) para definir o eliminar nombres internos de XLL.
     
-- Llamadas a funciones no seguras subproceso definidas por el usuario mediante **xlUDF**.
+- Llamadas a funciones definidas por el usuario no seguras para subprocesos con **xlUDF**.
     
-- Llama a la función [xlfEvaluate](xlfevaluate.md) para expresiones que contienen funciones no seguras subproceso o que contienen nombres definidos cuyas definiciones contienen funciones no seguras subproceso. 
+- Llamadas a la función [xlfEvaluate](xlfevaluate.md) para expresiones que contienen funciones no seguras para subprocesos o que contienen nombres definidos cuyas definiciones contienen funciones no seguras para subprocesos. 
     
 - Llamadas a la función [xlAbort](xlabort.md) para borrar una condición de interrupción. 
     
-- Llamadas a la función [xlCoerce](xlcoerce.md) para obtener el valor de una referencia de celda no calculada. 
+- Llamadas a la función [xlCoerce](xlcoerce.md) para obtener el valor de una referencia de celda no actualizada. 
     
 > [!NOTE]
-> No se permiten las funciones de hoja de cálculo XLL para llamar a los comandos de la API de C, por ejemplo, **xlcSave**, independientemente de si se han registrado como seguros para subprocesos o no. 
+> Las funciones de hoja de cálculo XLL no están permitidas para llamar a los comandos de la API de C, por ejemplo, **xlcSave**, independientemente de si se han registrado como seguras para subprocesos o no. 
   
-Dado que las funciones XLL declaran como seguros para subprocesos no se puede llamar a las funciones de información XLM o referencia a celdas sin calcular, Excel no permite funciones XLL que se registran como equivalentes de hojas de macro también debe registrarse como seguros para subprocesos. Por lo tanto, si se intenta obtener el valor de una referencia de celda no calculada mediante **xlCoerce** produce el error **xlretUncalced** . Llamar a un XLM función de la información se produce un error con un error **xlretFailed** . Los otros puntos enumerados anteriormente producirá un error con un código de error que se introdujo en la API de C de Excel: **xlretNotThreadSafe**. 
+Dado que las funciones XLL declaradas como seguras para subprocesos no pueden llamar a las funciones de información XLM o hacer referencia a las celdas no actualizadas, Excel no permite que las funciones XLL registrados como equivalentes de hojas de macros se registren también como seguras para subprocesos. Por tanto, al intentar obtener el valor de una referencia de celda no actualizada mediante **xlCoerce** se produce el error **xlretUncalced**. Una llamada a una función de información XLM produce un error **xlretFailed**. Los otros puntos enumerados anteriormente producen un error con un código introducido en la API de C de Excel: **xlretNotThreadSafe**. 
   
-Las funciones de devolución de llamada sólo API de C son seguros para todos los subprocesos:
+Todas las funciones de devolución de llamada solo para API de C son seguras para subprocesos:
   
-- **xlCoerce** (excepto aunque coerción de celda no calculada hace referencia se produce un error) 
+- **xlCoerce** (excepto cuando haya un error en la coerción de las referencias de celda no actualizadas) 
     
 - **xlFree**
     
@@ -154,7 +154,7 @@ Las funciones de devolución de llamada sólo API de C son seguros para todos lo
     
 - **xlSheetNm**
     
-- **xlAbort** (excepto cuando se utiliza para borrar una condición de interrupción) 
+- **xlAbort** (excepto cuando se usa para borrar una condición de interrupción) 
     
 - **xlGetInst**
     
@@ -164,63 +164,63 @@ Las funciones de devolución de llamada sólo API de C son seguros para todos lo
     
 - **xlDefineBinaryName**
     
-La única excepción es la función **xlSet** , que es, en cualquier caso, un equivalente de comando y por lo tanto no se puede llamar desde ninguna función de hoja de cálculo. 
+La única excepción es la función **xlSet**, que es, en todo caso, equivalente a un comando y no puede llamarse desde ninguna función de hoja de cálculo. 
   
-Una función de hoja de cálculo XLL puede estar registrada con Excel como seguros para subprocesos. Esto indica a Excel que la función se puede llamar de forma segura y simultáneamente en varios subprocesos, si bien, debe asegurarse de que éste es realmente el caso. Posiblemente puede desestabilizar Excel si una función registrada como seguros para subprocesos, a continuación, se comporta de forma no segura.
+Una función de hoja de cálculo XLL se puede registrar con Excel como segura para subprocesos. Esto indica a Excel que la función puede llamarse de forma segura y simultáneamente en varios subprocesos, aunque debe asegurarse de que realmente es así. Si una función registrada como segura para subprocesos se comporta de forma no segura, probablemente podría desestabilizar Excel.
   
-## <a name="registering-xll-functions-as-thread-safe"></a>Registrar funciones XLL como seguros para subprocesos
+## <a name="registering-xll-functions-as-thread-safe"></a>Registrar funciones XLL como seguras para subprocesos
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Las reglas que un programador debe cumplir al escribir funciones de subprocesos son los siguientes:
+Un desarrollador debe cumplir las siguientes reglas al escribir funciones seguras para subprocesos:
   
-- No llame a recursos de otras DLL que puede no ser seguros para subprocesos.
+- No llamar a recursos de otras DLL que posiblemente no sean seguras para subprocesos.
     
-- No realice las llamadas no seguras subproceso a través de la API de C o COM.
+- No realizar ninguna llamada no segura para subprocesos a través de la API de C o COM.
     
-- Proteger los recursos que podrían utilizarse simultáneamente por más de un subproceso mediante secciones críticas.
+- Proteger los recursos que más de un subproceso podría usar simultáneamente mediante secciones críticas.
     
-- Utilizar memoria local de subprocesos para el almacenamiento de específicas de un subproceso y sustituir las variables estáticas dentro de las funciones con variables locales de subproceso.
+- Utilizar la memoria local para el subproceso para el almacenamiento específico de subprocesos y sustituir las variables estáticas dentro de las funciones con variables locales para el subproceso.
     
-Excel impone una restricción adicional: funciones de subprocesos no se puede registrar como equivalentes de la hoja de macros y por lo tanto, no se pueden llamar a las funciones de información XLM u obtener los valores de celdas no vuelve a calcular.
+Excel impone una restricción adicional: las funciones seguras para subprocesos no pueden registrarse como equivalentes de hojas de macros y, por lo tanto, no pueden llamar a funciones de información XLM u obtener los valores de las celdas no actualizadas.
   
 ## <a name="memory-contention"></a>Contención de memoria
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Sistemas multiproceso deben solucionar dos problemas fundamentales:
+Los sistemas multiproceso deben resolver dos aspectos fundamentales:
   
-- Procedimiento para proteger la memoria que debe ser leen o escriben en, por más de un subproceso.
+- Cómo proteger la memoria en la que más de un subproceso debe leer o escribir.
     
-- Procedimiento para crear y obtener acceso a memoria que está asociado con y, a continuación, por lo que privada al subproceso en ejecución.
+- Cómo crear y consultar memoria que esté asociada y reservada al subproceso en ejecución.
     
-El sistema operativo Windows y el Kit de desarrollo de Software (SDK) de Windows proporcionan herramientas para estos dos: las secciones críticas y la API de almacenamiento local de subprocesos (TLS) respectivamente. Para obtener m�s informaci�n, consulte [Administraci�n de memoria en Excel](memory-management-in-excel.md).
+El sistema operativo Windows y el Kit de desarrollo de software de Windows ofrecen herramientas para las secciones críticas y la API de almacenamiento local de subprocesos (TLS) respectivamente. Para obtener más información, consulte [Administración de memoria en Excel](memory-management-in-excel.md).
   
-Por ejemplo, el primer problema puede surgir cuando dos funciones de hoja de cálculo (o dos instancias de la misma función simultáneamente ejecución) necesitan tener acceso o modificar una variable global en un proyecto de DLL. Recuerde que este tipo de variable global podría estar oculto en una instancia de un objeto de clase globalmente accesible.
+El primer problema puede ocurrir, por ejemplo, cuando dos funciones de hoja de cálculo (o dos instancias de la misma función que se ejecutan simultáneamente) necesitan obtener acceso a la variable global o modificarla en un proyecto DLL. Recuerde que esta variable global puede estar oculta en una instancia accesible globalmente de un objeto de clase.
   
-El segundo problema puede surgir, por ejemplo, cuando una función de hoja de cálculo que declara una variable estática o un objeto dentro del código del cuerpo de la función. El compilador de C o C++ sólo crea una única copia que usan todos los subprocesos. Esto significa que una instancia de la función puede cambiar el valor, mientras que otra en un subproceso diferente podría ser suponiendo que el valor es qué lo establecido anteriormente.
+El segundo problema puede ocurrir, por ejemplo, cuando una función de hoja de cálculo declara un objeto o una variable estática en el código del cuerpo de la función. El compilador de C o C ++ solo crea una sola copia que usan todas los subprocesos. Esto significa que una instancia de la función podría cambiar el valor, mientras que otra en otro subproceso podría suponer que el valor es el que se estableció previamente.
   
 ## <a name="example-applications-of-mtr"></a>Aplicaciones de ejemplo de MTR
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Cualquier XLL que exporta las funciones de hoja de cálculo puede aprovechar la actualización del cálculo multiproceso (MTR) en Excel siempre que dichas funciones no es necesario llevar a cabo acciones no seguras subproceso. Esto permite que Excel para volver a calcular libros que dependen de ellos tan pronto como sea posible y es, por tanto, lo deseable que la aplicación.
+Cualquier XLL que exporte funciones de hoja de cálculo puede aprovechar las ventajas de la actualización multiproceso (MTR) en Excel, siempre y cuando esas funciones no necesiten realizar acciones no seguras para subprocesos. Esto permite que Excel actualice los libros que dependen de ellos lo más rápido posible y, por lo tanto, es deseable cualquiera que sea la aplicación.
   
-En concreto, MTR tiene un impacto enorme en el tiempo de actualización de los libros que llaman a funciones definidas por el usuario (UDF) que ellos mismos llamar a procesos externos para obtener el resultado deseado. En concreto, considere la posibilidad de una UDF que llame a un servidor remoto que puede procesar simultáneamente muchas solicitudes y un libro que contiene todas las llamadas a esa función. Si recálculo del libro tiene un único subproceso, cada uno de ellos llamar a las UDF y, por lo que en el servidor remoto, debe completar antes de hacer lo siguiente. Se pierde la capacidad del servidor para procesar todas las llamadas a la vez. Si el nuevo cálculo del libro es multiproceso, Excel puede realizar varias llamadas al mismo tiempo o en una sucesión rápida.
+En concreto, MTR tiene un gran impacto en el tiempo actualización de los libros que llaman a funciones definidas por el usuario (UDF) que a su vez llaman a procesos externos para obtener el resultado deseado. En concreto, considere una UDF que llama a un servidor remoto que puede procesar muchas solicitudes al mismo tiempo y un libro que contiene muchas llamadas a esa función. Si la actualización de los libros es uniproceso, cada llamada a la UDF, y por ende al servidor remoto, debe completarse antes de que se pueda realizar la siguiente. Esto supone un desperdicio de la capacidad del servidor para procesar muchas llamadas a la vez. Si la actualización del libro es multiproceso, Excel puede realizar varias llamadas al mismo tiempo o en rápida sucesión.
   
-Si Excel está configurada para usar el mismo número de subprocesos que el servidor: llamar N — y la topología del árbol de la dependencia del libro lo permita, se podría reducir el tiempo total para algo alcanzando 1/N del tiempo de cálculo de un único subproceso. Esto puede ser cierto incluso cuando el equipo cliente (en el que el libro se está ejecutando) sólo tiene un procesador, especialmente donde el tiempo necesario para realizar la llamada al servidor es pequeño en relación con el tiempo que tarda el servidor en proceso de la llamada. 
+Si Excel se configura para usar el mismo número de subprocesos que el servidor (se le llama N) y la topología del árbol de dependencias del libro lo permite, el tiempo total de actualización podría reducirse a algo cercano a 1/N del tiempo de actualización uniproceso. Esto puede ser verdadero incluso cuando el equipo cliente (en el que el libro se ejecuta) solo tiene un procesador, particularmente cuando el tiempo necesario para realizar la llamada al servidor es pequeño en relación con el tiempo que el servidor tarda en procesar la llamada. 
   
-Hay sobrecarga de sistema operativo para cada subproceso adicional. Por lo tanto, es posible que algunos experimentación necesario para un libro determinado y un servidor determinado y el equipo cliente para encontrar el número óptimo de subprocesos de que Excel se debe indicar a usar. 
+Hay una sobrecarga de sistema operativo para cada subproceso adicional. Por lo tanto, puede necesitarse un poco de experimentación para que un libro determinado y un servidor y un equipo cliente determinados busquen el número óptimo de subprocesos que Excel puede usar. 
   
-Por ejemplo, considere la posibilidad de un equipo de procesador único que ejecuta Excel y un libro que contiene las celdas de 1.000. Se llama a UDF, que llama a su vez uno o varios servidores remotos. Se supone que las 1.000 celdas no dependen de la otra, por lo que Excel no hay que esperar a una llamada para llevar a cabo antes de llamar a la siguiente. (Algunas descanso de esta restricción es posible sin que ello afecte en este ejemplo). Si los servidores pueden procesar las solicitudes de 100 simultáneamente, y Excel está configurado para usar 100 subprocesos, se pueden reducir el tiempo de ejecución con tan sólo 1/100 de ese where sólo un subproceso que se utiliza. La sobrecarga es decir asociados con Excel asignación de llamadas para cada subproceso y el sistema operativo de administración de 100 subprocesos significa que, en la práctica, la reducción no será un proceso bastante este excelente. También hay una suposición implícita aquí que el servidor funciona bien y solicitando que procesar 100 tareas simultáneamente no afectará a los tiempos de finalización de tareas individuales considerablemente.
+Por ejemplo, piense en un equipo con un solo procesador que ejecuta Excel y un libro que contiene 1000 celdas. Este llama a una UDF, que a su vez llama a uno o más servidores remotos. Suponga que las 1000 celdas no dependen unas de otras, de modo que Excel no tiene que esperar a que se complete una llamada para poder realizar la siguiente. (Es posible relajar un poco esta restricción sin afectar a este ejemplo). Si los servidores pueden procesar 100 solicitudes al mismo tiempo, y Excel está configurado para usar 100 subprocesos, el tiempo de ejecución puede reducirse hasta 1/100 parte de aquel donde solo se usa un subproceso. La sobrecarga que se asocia con Excel al asignar llamadas a cada subproceso y con el sistema operativo al administrar 100 subprocesos significa que, en la práctica, la reducción no será tan grande. También hay aquí un supuesto implícito de que el servidor se escala bien y, al solicitarle que procese 100 tareas al mismo tiempo, no se afectará significativamente a la finalización de tareas individuales.
   
-Una aplicación práctica en la que esta técnica puede tener una ventaja importante es de métodos de Monte Carlo, así como otras tareas numéricamente intensivos que se pueden dividir en las subtareas más pequeñas que pueden se puede asignar a los servidores.
+Una aplicación práctica en la que esta técnica puede tener una importante ventaja es la de los métodos de Monte Carlo, así como otras tareas numéricamente intensivas que se pueden dividir en subtareas más pequeñas que pueden asignarse a los servidores.
   
-## <a name="excel-services-considerations"></a>Consideraciones sobre servicios de Excel
+## <a name="excel-services-considerations"></a>Consideraciones sobre Excel Services
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Excel Services admite la carga, calcular y la representación de hojas de cálculo de Excel en un servidor. Los usuarios pueden, a continuación, obtener acceso e interactuar con las hojas de cálculo mediante el uso de herramientas de explorador estándar.
+Excel Services admite la carga, el cálculo y la representación de hojas de cálculo de Excel en un servidor. Los usuarios pueden tener acceso a las hojas de cálculo e interactuar con ellas mediante herramientas estándar del explorador.
   
-UDF de Excel Services se crean mediante código administrado de Microsoft .NET Framework y disponible aunque un ensamblado. NET. No se admiten los XLL de Excel Services. Un servidor recursos UDF de código administrado puede llamar a un XLL para tener acceso a su funcionalidad, por lo que el usuario puede tener la misma funcionalidad con un libro cargado en servidor al igual que con un libro cargado por el cliente.
+Las UDF de Excel Services se crean con un código administrado de Microsoft .NET Framework y se publican a través de un ensamblado de .NET. Los XLL no son compatibles con Excel Services. Un recurso de UDF de servidor de código administrado puede llamar a un XLL para obtener acceso a su funcionalidad, de modo que el usuario puede tener la misma funcionalidad con un libro cargado en el servidor que con un libro cargado en el cliente.
   
-Para disponer de las funciones de los XLL de esta manera, que por lo tanto, se deben ajustan en un ensamblado de .NET para los tipos de datos administrados de .NET Framework que convierte los argumentos y valores devueltos de los tipos de datos nativos y que llama a las funciones XLL. El contenedor de .NET exportará un UDF de servidor para cada función XLL que se tiene acceso. Un requisito adicional es que las funciones XLL llamadas de esta forma deben ser seguros para subprocesos. Debido a que las funciones XLL no están registradas en el modo en que son con el cliente de Excel, el servidor y el contenedor de .NET no tienen ninguna manera de exigir que son seguros para subprocesos. Es responsabilidad del desarrollador XLL para asegurarse de esto.
+Por lo tanto, para disponer de las funciones de un XLL de esta forma, deben ajustarse en un ensamblado de .NET que convierta argumentos y valores devueltos de los tipos de datos nativos a los tipos de datos administrados de .NET Framework y que llame a las funciones XLL. El contenedor de .NET exportará una UDF de servidor para cada función XLL a la que se tiene acceso. Un requisito adicional es que las funciones XLL denominadas así deben ser seguras para subprocesos. Dado que las funciones XLL no se registran de la misma forma que Excel del cliente, el servidor y el contenedor de .NET no tienen manera de exigir que sean seguras para subprocesos. Es responsabilidad del desarrollador de XLL garantizarlo.
   
 ## <a name="see-also"></a>Vea también
 
