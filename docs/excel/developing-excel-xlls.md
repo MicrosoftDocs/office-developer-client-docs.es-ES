@@ -20,7 +20,7 @@ ms.locfileid: "28701098"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-El motivo principal para escribir XLL de Microsoft Excel y usar la API de C es crear funciones de hoja de cálculo de alto rendimiento. Las aplicaciones de funciones de alto rendimiento y, comenzando en Excel 2007, la capacidad para escribir interfaces multiproceso en recursos de servidor potentes, hacen que sea una parte muy importante de la extensibilidad de Excel. El rendimiento de XLL se mejoró aún más en Excel 2007 mediante la incorporación de nuevos tipos de datos y, lo que es más importante, compatibilidad con multiproceso.
+El motivo principal para escribir XLL de Microsoft Excel y usar la API de C es crear funciones de hoja de cálculo de alto rendimiento. Las aplicaciones de funciones de alto rendimiento y, comenzando en Excel 2007, la capacidad para escribir interfaces multiproceso en recursos de servidor potentes, hacen que sea una parte muy importante de la extensibilidad de Excel. El rendimiento de XLL se mejoró aún más en Excel 2007 mediante la incorporación de nuevos tipos de datos y, lo que es más importante, la compatibilidad con multiproceso.
   
 La API de C no tiene ninguna de las características de desarrollo rápido de nivel superior de Microsoft Visual Basic para Aplicaciones (VBA), COM o Microsoft .NET Framework. La administración de memoria es de bajo nivel y, por lo tanto, da mayor responsabilidad al desarrollador. Muchas características de Excel expuestas a través de COM, para que estén disponibles a través de VBA y .NET Framework, no están expuestas en la API de C.
 
@@ -47,7 +47,7 @@ La API de C no tiene ninguna de las características de desarrollo rápido de ni
   
 - [Permitir interrupciones de usuarios en operaciones largas](permitting-user-breaks-in-lengthy-operations.md)
   
-- [Mostrar cuadros de diálogo desde un DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+- [Mostrar cuadros de diálogo desde una DLL o XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 - [Obtener acceso a la instancia de Excel y los controladores de la ventana principal](how-to-access-excel-instance-and-main-window-handles.md)
   
