@@ -11,22 +11,22 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 12fb79f459024ed113007e6f764945ca9564cb3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
+ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712935"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30135750"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialización del controlador de Microsoft Excel
 
 **Se aplica a**: Access 2013 | Office 2013
 
-Cuando se instala el controlador de Excel, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
+Cuando se instala el controlador de Excel, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows, en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
 
 ## <a name="excel-initialization-settings"></a>Configuración de inicialización de Excel
 
-La **Access Connectivity Engine\\motores\\Excel** carpeta incluye la configuración de inicialización para el controlador Aceexcl.dll, utilizado para el acceso externo a hojas de cálculo de Microsoft Excel. En el siguiente ejemplo se muestra una configuración típica para las entradas de esta carpeta.
+La carpeta de **Excel\\motores\\del motor de conectividad de Access** incluye la configuración de inicialización del controlador Aceexcl. dll, que se usa para el acceso externo a las hojas de cálculo de Microsoft Excel. En el siguiente ejemplo se muestra una configuración típica para las entradas de esta carpeta.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -60,7 +60,7 @@ El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta
 </tr>
 <tr class="even">
 <td><p>TypeGuessRows</p></td>
-<td><p>El número de filas que se puede comprobar el tipo de datos. Se determina el tipo de datos dado el número máximo de tipos de datos que se encuentra. Si no hay una placa, se determina el tipo de datos en el siguiente orden: número, moneda, fecha, texto, Boolean. Si se encuentran datos que no coincide con el tipo de datos estimado para la columna, se devuelve como un valor <strong>nulo</strong> . En la importación, si una columna tiene distintos tipos de datos, se convertirá la columna entera según la configuración de ImportMixedTypes. El número predeterminado de filas que se va a comprobar es 8. Los valores son de tipo REG_DWORD.</p></td>
+<td><p>Número de filas que se va a comprobar el tipo de datos. El tipo de datos se determina según el número máximo de tipos de datos encontrados. Si hay una empate, el tipo de datos se determina en el siguiente orden: número, moneda, fecha, texto, booleano. Si se encuentran datos que no coinciden con el tipo de datos adivinado para la columna, se devuelve como un valor <strong>nulo</strong> . En la importación, si una columna tiene tipos de datos mezclados, se convertirá toda la columna de acuerdo con la configuración ImportMixedTypes. El número predeterminado de filas que se va a comprobar es 8. Los valores son de tipo REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
@@ -79,7 +79,7 @@ El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta
 
 <br/>
 
-La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las siguientes entradas, que se aplican a Microsoft Excel 97.
+La carpeta **Excel 8,0\\de\\los motores del motor de conectividad de Access** contiene las siguientes entradas, que se aplican a Microsoft Excel 97.
 
 <table>
 <colgroup>
@@ -108,12 +108,12 @@ La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las sigui
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
@@ -123,12 +123,12 @@ La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las sigui
 <tr class="even">
 <td><p>IndexDialog</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 <tr class="even">
 <td><p>ResultTextExport</p></td>
@@ -138,16 +138,96 @@ La **Access Connectivity Engine\\motores\\Excel 8.0** carpeta contiene las sigui
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Uso de la configuración TypeGuessRows para el controlador de Excel
+Cuando se usa un controlador de Microsoft Excel, se puede usar el valor del registro **TypeGuessRows** para configurar el número de filas que se van a comprobar para el tipo de datos. El valor **TypeGuessRows** se encuentra en la siguiente subclave del registro:
 
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
+Para una instalación MSI de Office
+
+- Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access conectividad de Engine\Engines\Excel**
+
+- Para Office de 32 bits en Windows de 64 bits:
+
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access conectividad de Engine\Engines\Excel**
+    
+Para una instalación de hacer clic y ejecutar de Office
+
+- Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access conectividad de Engine\Engines\Excel**
+
+- Para Office de 32 bits en Windows de 64 bits:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access conectividad de Engine\Engines\Excel**
+
+El número predeterminado de filas que se va a comprobar es **8** (ocho). Cuando se establece el valor **TypeGuessRows** en **0** (cero), el controlador de Excel comprueba las primeras 16.384 filas para el tipo de datos. Si desea comprobar más de 16.384 filas, establezca **TypeGuessRows** en un valor que se base en el intervalo deseado. Para comprobar todas las filas, establezca **TypeGuessRows** en 1.048.576 (el número máximo de filas permitidas en Excel).
+ 
+El tipo de datos se determina por el número máximo de tipos de datos que se encuentra. Si hay una empate, el tipo de datos se determina en el orden siguiente:
+
+- Número
+- Moneda
+- Fecha
+- Texto
+- Booleano
+
+Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
+
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+
+Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access conectividad de Engine\Engines\Excel**
+
+Para Office de 32 bits en Windows de 64 bits:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access conectividad de Engine\Engines\Excel**
+
+El número predeterminado de filas que se va a comprobar es **8** (ocho). Cuando se establece el valor **TypeGuessRows** en **0** (cero), el controlador de Excel comprueba las primeras 16.384 filas para el tipo de datos. Si desea comprobar más de 16.384 filas, establezca **TypeGuessRows** en un valor que se base en el intervalo deseado. Para comprobar todas las filas, establezca **TypeGuessRows** en 1.048.576 (el número máximo de filas permitidas en Excel).
+ 
+El tipo de datos se determina por el número máximo de tipos de datos que se encuentra. Si hay una empate, el tipo de datos se determina en el orden siguiente:
+
+- Número
+- Moneda
+- Fecha
+- Texto
+- Booleano
+
+Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
+
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+
+Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access conectividad de Engine\Engines\Excel**
+
+Para Office de 32 bits en Windows de 64 bits:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access conectividad de Engine\Engines\Excel**
+
+El número predeterminado de filas que se va a comprobar es **8** (ocho). Cuando se establece el valor **TypeGuessRows** en **0** (cero), el controlador de Excel comprueba las primeras 16.384 filas para el tipo de datos. Si desea comprobar más de 16.384 filas, establezca **TypeGuessRows** en un valor que se base en el intervalo deseado. Para comprobar todas las filas, establezca **TypeGuessRows** en 1.048.576 (el número máximo de filas permitidas en Excel).
+ 
+El tipo de datos se determina por el número máximo de tipos de datos que se encuentra. Si hay una empate, el tipo de datos se determina en el orden siguiente:
+
+- Número
+- Moneda
+- Fecha
+- Texto
+- Booleano
+
+Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
+
+---
 > [!NOTE]
-> Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
+> [!NOTA] Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Utilizando la configuración de TypeGuessRows para el controlador de Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Uso de la configuración TypeGuessRows para el controlador de Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
