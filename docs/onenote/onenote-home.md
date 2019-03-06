@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: Encuentre contenido sobre procedimientos, artículos técnicos, referencias y entradas de blog para desarrollar soluciones y personalizar las aplicaciones cliente de escritorio de OneNote.
 localization_priority: Priority
-ms.openlocfilehash: 1b07c330d029c164b918be2e91423ff53c2893d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: 47da67c8ca741bcc30b55cb56d88ffe3640c465e
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717999"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413962"
 ---
 # <a name="onenote"></a>OneNote
 
@@ -23,17 +23,11 @@ Encuentre contenido sobre procedimientos, artículos técnicos, referencias y en
 > [!NOTE]
 > ¿Le interesa el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).  
   
-### <a name="viewed-most"></a>Más vistos
+## <a name="contents"></a>Contenido
   
 - [Referencia para desarrolladores de OneNote](onenote-developer-reference.md)
-  
-### <a name="office-add-ins"></a>Complementos de Office
-  
-- [Introducción a los complementos de OneNote](https://docs.microsoft.com/office/dev/add-ins/quickstarts/onenote-quickstart)
-  
-- [Información general sobre la plataforma](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
-  
-### <a name="other-resources"></a>Otros recursos
+   
+## <a name="other-resources"></a>Otros recursos
   
 - [Referencia de la biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
