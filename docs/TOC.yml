@@ -25,7 +25,7 @@ items:
     href: shared/office-shared.md
     items:
     - name: Controlar valores altos y ajuste de PPP en una solución de Office
-      href: shared/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
+      href: ddpi/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
     - name: Compatibilidad entre versiones de 32 y 64 bits de Office
       href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
     - name: Integración de aplicaciones de mensajería instantánea con Office
@@ -4310,7 +4310,7 @@ items:
             href: infopath/form-templates/creating-infopath-form-templates-that-work-with-infopath-forms-services.md
           - name: Compatibilidad de flujo de trabajo de SharePoint en los formularios de InfoPath
             href: infopath/form-templates/sharepoint-workflow-support-in-infopath-forms.md
-        - name: Conceptos de desarrollo de InfoPath adicionales
+        - name: Conceptos adicionales de desarrollo de InfoPath
           href: infopath/form-templates/additional-infopath-development-concepts.md
           items:
           - name: Información sobre los componentes de plantilla de formulario
@@ -6504,7 +6504,7 @@ items:
                 items:
                 - name: Modelo de envío de mensajes
                   href: outlook/mapi/message-submission-model.md
-                - name: Modelo de recepción del mensaje
+                - name: Modelo de recepción de mensajes
                   href: outlook/mapi/message-reception-model.md
             - name: Funcionalidad necesaria para proveedores de transporte
               href: outlook/mapi/required-functionality-for-transport-providers.md
@@ -11607,7 +11607,7 @@ items:
             href: visio/relmoveto-row-geometry-section.md
           - name: Fila RelQuadBezTo (sección Geometría)
             href: visio/relquadbezto-row-geometry-section.md
-          - name: Fila Data Row (sección Datos de formas)
+          - name: Fila Shape Data (sección Datos de formas)
             href: visio/shape-data-row-shape-data-section.md
           - name: Fila Smart Tags (sección Etiquetas de acción)
             href: visio/smart-tags-row-action-tags-section.md
@@ -12378,9 +12378,9 @@ items:
     href: swayuri.md
   - name: Esquemas URI de Office
     href: office-uri-schemes.md
-ms.openlocfilehash: 78beb37ffdf3adebf5d59b6670ff7b22c9685f99
-ms.sourcegitcommit: fe79d898c27908fc80020b210bdf69c337191d51
+ms.openlocfilehash: 430fd69d27d63f447913767eee9aa97e0a61042d
+ms.sourcegitcommit: c9720dd639f5c969f3cf6a324b84fadc57199370
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "27411180"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "30512739"
