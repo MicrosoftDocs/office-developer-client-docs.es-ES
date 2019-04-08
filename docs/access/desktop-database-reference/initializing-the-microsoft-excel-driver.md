@@ -11,16 +11,16 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
-ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
+ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
+ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30179666"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518134"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialización del controlador de Microsoft Excel
 
-**Se aplica a**: Access 2013 | Office 2013
+**Se aplica a**: Excel 2016 | Access 2016 | Access 2013 | Office 2013 | Excel 2013 | Office para empresas Access 2013 | Excel 2010 | Access 2010
 
 Cuando se instala el controlador de Excel, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows, en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de base de datos de Microsoft Excel.
 
@@ -49,7 +49,7 @@ El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entrada</p></th>
+<th><p>Inserción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -60,7 +60,7 @@ El motor de base de datos de Microsoft Access utiliza las entradas de la carpeta
 </tr>
 <tr class="even">
 <td><p>TypeGuessRows</p></td>
-<td><p>Número de filas que se va a comprobar el tipo de datos. El tipo de datos se determina según el número máximo de tipos de datos encontrados. Si hay una empate, el tipo de datos se determina en el siguiente orden: número, moneda, fecha, texto, booleano. Si se encuentran datos que no coinciden con el tipo de datos adivinado para la columna, se devuelve como un valor <strong>nulo</strong> . En la importación, si una columna tiene tipos de datos mezclados, se convertirá toda la columna de acuerdo con la configuración ImportMixedTypes. El número predeterminado de filas que se va a comprobar es 8. Los valores son de tipo REG_DWORD.</p></td>
+<td><p>Número de filas en las que se va a comprobar el tipo de datos. Éste se determina de acuerdo al número máximo de clases de datos que se encuentren. Si no es posible hacerlo de esta manera, se determinará en el siguiente orden: Número, Moneda, Fecha, Texto, Boolean. Si se encuentran datos que no coinciden con el tipo de datos estimado para la columna, se devuelven como un valor <strong>Null</strong>. A la hora de realizar la importación, si una columna tiene tipos de datos mixtos, toda la columna se convertirá de acuerdo con el valor de ImportMixedTypes. El número predeterminado de filas que se van a comprobar es 8. Los valores son de tipo REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
@@ -96,7 +96,7 @@ La carpeta **Excel 8,0\\de\\los motores del motor de conectividad de Access** co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Engine</p></td>
+<td><p>Prototipo</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Excel</p></td>
 </tr>
@@ -117,7 +117,7 @@ La carpeta **Excel 8,0\\de\\los motores del motor de conectividad de Access** co
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
-<td><p>REG_DWORD</p></td>
+<td><p>DWORD</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
@@ -143,10 +143,11 @@ La carpeta **Excel 8,0\\de\\los motores del motor de conectividad de Access** co
 </tbody>
 </table>
 
+
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Uso de la configuración TypeGuessRows para el controlador de Excel
 Cuando se usa un controlador de Microsoft Excel, se puede usar el valor del registro **TypeGuessRows** para configurar el número de filas que se van a comprobar para el tipo de datos. El valor **TypeGuessRows** se encuentra en la siguiente subclave del registro:
 
-# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
+# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
 
 Para una instalación MSI de Office
 
@@ -175,12 +176,12 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Texto
+- Text
 - Booleano
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
 
-# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
 
 Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
 
@@ -197,12 +198,12 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Texto
+- Text
 - Booleano
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
 
-# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
 
 Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
 
@@ -219,7 +220,7 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Texto
+- Text
 - Booleano
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
@@ -227,4 +228,8 @@ Si se encuentran datos que no coinciden con el tipo de datos adivinados para la 
 ---
 > [!NOTE]
 > [!NOTA] Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.
+
+## <a name="see-also"></a>Vea también
+
+- [Uso de la configuración TypeGuessRows para el controlador de Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 
