@@ -8,20 +8,20 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ab8ba94570c98da03c3effc484490c327fd0a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282603"
 ---
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="88b8c-102">Ejemplo de la propiedad ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="88b8c-102">ActiveCommand property example (VB)</span></span>
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="a66c6-102">Ejemplo de la propiedad ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="a66c6-102">ActiveCommand property example (VB)</span></span>
 
 
-<span data-ttu-id="88b8c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88b8c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a66c6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a66c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="88b8c-104">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="88b8c-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="a66c6-104">En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a66c6-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="88b8c-105">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="88b8c-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="a66c6-105">A una subrutina se le asigna un objeto [Recordset](recordset-object-ado.md) cuya propiedad **ActiveCommand** se utiliza para mostrar el texto y los parámetros del comando que ha creado el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a66c6-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -88,11 +88,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="88b8c-p101">A la subrutina **ActiveCommandXprint** se le asigna sólo un objeto **Recordset**, si bien tiene que imprimir el texto y los parámetros del comando que ha creado el objeto **Recordset**. Esto es posible porque la propiedad **ActiveCommand** del objeto **Recordset** genera el objeto [Command](command-object-ado.md) asociado.</span><span class="sxs-lookup"><span data-stu-id="88b8c-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="a66c6-p101">A la subrutina **ActiveCommandXprint** se le asigna sólo un objeto **Recordset**, si bien tiene que imprimir el texto y los parámetros del comando que ha creado el objeto **Recordset**. Esto es posible porque la propiedad **ActiveCommand** del objeto **Recordset** genera el objeto [Command](command-object-ado.md) asociado.</span><span class="sxs-lookup"><span data-stu-id="a66c6-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="88b8c-p102">La propiedad [CommandText](commandtext-property-ado.md) del objeto **Command** genera el comando parametrizado que ha creado el objeto **Recordset**. La colección [Parameters](parameters-collection-ado.md) del objeto **Command** genera el valor que se ha reemplazado con el marcador de posición de parámetro del comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="88b8c-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="a66c6-p102">La propiedad [CommandText](commandtext-property-ado.md) del objeto **Command** genera el comando parametrizado que ha creado el objeto **Recordset**. La colección [Parameters](parameters-collection-ado.md) del objeto **Command** genera el valor que se ha reemplazado con el marcador de posición de parámetro del comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="a66c6-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="88b8c-110">Por último, se imprime el mensaje de error o el nombre y el identificador del autor.</span><span class="sxs-lookup"><span data-stu-id="88b8c-110">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="a66c6-110">Por último, se imprime el mensaje de error o el nombre y el identificador del autor.</span><span class="sxs-lookup"><span data-stu-id="a66c6-110">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  

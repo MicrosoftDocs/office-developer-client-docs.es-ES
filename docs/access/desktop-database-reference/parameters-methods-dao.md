@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e824b36af319ca66f23f2ce4a442e97a7a359b29
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287863"
 ---
-# <a name="parameters-methods-dao"></a><span data-ttu-id="ca480-102">Métodos de parámetros (DAO)</span><span class="sxs-lookup"><span data-stu-id="ca480-102">Parameters methods (DAO)</span></span>
+# <a name="parameters-methods-dao"></a><span data-ttu-id="76345-102">Métodos de parámetros (DAO)</span><span class="sxs-lookup"><span data-stu-id="76345-102">Parameters methods (DAO)</span></span>
 
-<span data-ttu-id="ca480-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca480-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76345-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76345-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ca480-104">Parameters.Refresh (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="ca480-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
+- [<span data-ttu-id="76345-104">Método paraMeters. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="76345-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
 

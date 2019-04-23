@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 029306002946e3743f19a868c3d809a0bd0a079a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288816"
 ---
-# <a name="move-method-example-vj"></a><span data-ttu-id="33acb-102">Ejemplo del método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="33acb-102">Move method example (VJ++)</span></span>
+# <a name="move-method-example-vj"></a><span data-ttu-id="da12b-102">Ejemplo del método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="da12b-102">Move method example (VJ++)</span></span>
 
 
-<span data-ttu-id="33acb-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33acb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="da12b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da12b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="33acb-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="33acb-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="da12b-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="da12b-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```java 
  
