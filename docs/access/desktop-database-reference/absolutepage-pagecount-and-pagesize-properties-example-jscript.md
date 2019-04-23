@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ab6600c6fd1794e860f432f41e4733690cc516af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280708"
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="78d08-102">Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="78d08-102">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="e91e7-102">Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="e91e7-102">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
 
-<span data-ttu-id="78d08-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="78d08-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e91e7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e91e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="78d08-104">En este ejemplo se utilizan las propiedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) y [PageSize](pagesize-property-ado.md) para mostrar los nombres y las fechas de contratación de la tabla ***Employees*** de cinco registros a la vez.</span><span class="sxs-lookup"><span data-stu-id="78d08-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="78d08-105">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="78d08-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+<span data-ttu-id="e91e7-104">En este ejemplo se utilizan las propiedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) y [PageSize](pagesize-property-ado.md) para mostrar los nombres y las fechas de contratación de la tabla ***Employees*** de cinco registros a la vez.</span><span class="sxs-lookup"><span data-stu-id="e91e7-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="e91e7-105">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="e91e7-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

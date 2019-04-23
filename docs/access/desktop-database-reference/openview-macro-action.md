@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 88bebab46cd6b76fb101c86c4fe33c5ab86a3e70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288304"
 ---
-# <a name="openview-macro-action"></a><span data-ttu-id="89f1e-102">AbrirVista (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="89f1e-102">OpenView macro action</span></span>
+# <a name="openview-macro-action"></a><span data-ttu-id="91d45-102">AbrirVista (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="91d45-102">OpenView macro action</span></span>
 
-<span data-ttu-id="89f1e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="89f1e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="91d45-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91d45-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="89f1e-p101">En un proyecto de Access, puede utilizar la acción **AbrirVista** para abrir una vista en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta la vista especificada cuando se abre en la vista Hoja de datos. Puede seleccionar un modo de entrada de datos para la vista y restringir los registros que muestra la vista.</span><span class="sxs-lookup"><span data-stu-id="89f1e-p101">In an Access project, you can use the **OpenView** action to open a view in Datasheet view, Design view, or Print Preview. This action runs the named view when opened in Datasheet view. You can select data entry for the view and restrict the records that the view displays.</span></span>
+<span data-ttu-id="91d45-p101">En un proyecto de Access, puede utilizar la acción **AbrirVista** para abrir una vista en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta la vista especificada cuando se abre en la vista Hoja de datos. Puede seleccionar un modo de entrada de datos para la vista y restringir los registros que muestra la vista.</span><span class="sxs-lookup"><span data-stu-id="91d45-p101">In an Access project, you can use the **OpenView** action to open a view in Datasheet view, Design view, or Print Preview. This action runs the named view when opened in Datasheet view. You can select data entry for the view and restrict the records that the view displays.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="89f1e-107">[!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="89f1e-107">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="91d45-107">Esta acción no se permitirá si la base de datos no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="91d45-107">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="89f1e-108">Configuración</span><span class="sxs-lookup"><span data-stu-id="89f1e-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="91d45-108">Configuración</span><span class="sxs-lookup"><span data-stu-id="91d45-108">Setting</span></span>
 
-<span data-ttu-id="89f1e-109">La acción **AbrirVista** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="89f1e-109">The **OpenView** action has the following arguments.</span></span>
+<span data-ttu-id="91d45-109">La acción **AbrirVista** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="91d45-109">The **OpenView** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -38,34 +38,34 @@ ms.locfileid: "28699012"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="89f1e-110">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="89f1e-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="89f1e-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="89f1e-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="91d45-110">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="91d45-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="91d45-111">Descripción</span><span class="sxs-lookup"><span data-stu-id="91d45-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="89f1e-112"><strong>Nombre de vista</strong></span><span class="sxs-lookup"><span data-stu-id="89f1e-112"><strong>View Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="89f1e-113">El nombre de la vista que se va a abrir.</span><span class="sxs-lookup"><span data-stu-id="89f1e-113">The name of the view to open.</span></span> <span data-ttu-id="89f1e-114">El cuadro <strong>Nombre de la vista</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las vistas en la base de datos actual.</span><span class="sxs-lookup"><span data-stu-id="89f1e-114">The <strong>View Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all views in the current database.</span></span> <span data-ttu-id="89f1e-115">Este argumento es obligatorio.</span><span class="sxs-lookup"><span data-stu-id="89f1e-115">This is a required argument.</span></span> <span data-ttu-id="89f1e-116">Si ejecuta una macro que contiene la acción <strong>AbrirVista</strong> en una base de datos de biblioteca, Microsoft Access primero busca la vista con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</span><span class="sxs-lookup"><span data-stu-id="89f1e-116">If you run a macro containing the <strong>OpenView</strong> action in a library database, Microsoft Access first looks for the view with this name in the library database, and then in the current database.</span></span></p></td>
+<td><p><span data-ttu-id="91d45-112"><strong>Nombre de vista</strong></span><span class="sxs-lookup"><span data-stu-id="91d45-112"><strong>View Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="91d45-113">Nombre de la vista que se va a abrir.</span><span class="sxs-lookup"><span data-stu-id="91d45-113">The name of the view to open.</span></span> <span data-ttu-id="91d45-114">El cuadro <strong>nombre de vista</strong> en la sección argumentos de <strong>acción</strong> del panel generador de macros muestra todas las vistas de la base de datos activa.</span><span class="sxs-lookup"><span data-stu-id="91d45-114">The <strong>View Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all views in the current database.</span></span> <span data-ttu-id="91d45-115">Éste es un argumento requerido.</span><span class="sxs-lookup"><span data-stu-id="91d45-115">This is a required argument.</span></span> <span data-ttu-id="91d45-116">Si ejecuta una macro que contiene la acción <strong>AbrirVista</strong> en una base de datos de biblioteca, Microsoft Access primero busca la vista con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</span><span class="sxs-lookup"><span data-stu-id="91d45-116">If you run a macro containing the <strong>OpenView</strong> action in a library database, Microsoft Access first looks for the view with this name in the library database, and then in the current database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="89f1e-117"><strong>View</strong></span><span class="sxs-lookup"><span data-stu-id="89f1e-117"><strong>View</strong></span></span></p></td>
-<td><p><span data-ttu-id="89f1e-p103">Vista en la que se abrirá la vista. Haga clic en <strong>Hoja de datos</strong>, <strong>Diseño</strong>, <strong>Vista preliminar</strong>, <strong>Tabla dinámica</strong> o <strong>Gráfico dinámico</strong> en el cuadro <strong>Vista</strong>. El valor predeterminado es <strong>Hoja de datos</strong>.</span><span class="sxs-lookup"><span data-stu-id="89f1e-p103">The view in which the view will open. Click <strong>Datasheet</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Datasheet</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="91d45-117"><strong>View</strong></span><span class="sxs-lookup"><span data-stu-id="91d45-117"><strong>View</strong></span></span></p></td>
+<td><p><span data-ttu-id="91d45-p103">Vista en la que se abrirá la vista. Haga clic en <strong>Hoja de datos</strong>, <strong>Diseño</strong>, <strong>Vista preliminar</strong>, <strong>Tabla dinámica</strong> o <strong>Gráfico dinámico</strong> en el cuadro <strong>Vista</strong>. El valor predeterminado es <strong>Hoja de datos</strong>.</span><span class="sxs-lookup"><span data-stu-id="91d45-p103">The view in which the view will open. Click <strong>Datasheet</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Datasheet</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="89f1e-121"><strong>Modo de datos</strong></span><span class="sxs-lookup"><span data-stu-id="89f1e-121"><strong>Data Mode</strong></span></span></p></td>
-<td><p><span data-ttu-id="89f1e-p104">Modo de entrada de datos para la vista. Sólo se aplica a las vistas abiertas en la vista Hoja de datos. Haga clic en <strong>Agregar</strong> (el usuario puede agregar registros nuevos, pero no puede ver ni modificar los existentes), <strong>Modificar</strong> (el usuario puede ver o modificar los registros existentes y agregar registros nuevos) o <strong>Solo lectura</strong> (el usuario sólo puede ver los registros). El valor predeterminado es <strong>Modificar</strong>.</span><span class="sxs-lookup"><span data-stu-id="89f1e-p104">The data entry mode for the view. This applies only to views opened in Datasheet view. Click <strong>Add</strong> (the user can add new records but can't view or edit existing records), <strong>Edit</strong> (the user can view or edit existing records and add new records), or <strong>Read Only</strong> (the user can only view records). The default is <strong>Edit</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="91d45-121"><strong>Modo de datos</strong></span><span class="sxs-lookup"><span data-stu-id="91d45-121"><strong>Data Mode</strong></span></span></p></td>
+<td><p><span data-ttu-id="91d45-p104">Modo de entrada de datos para la vista. Sólo se aplica a las vistas abiertas en la vista Hoja de datos. Haga clic en <strong>Agregar</strong> (el usuario puede agregar registros nuevos, pero no puede ver ni modificar los existentes), <strong>Modificar</strong> (el usuario puede ver o modificar los registros existentes y agregar registros nuevos) o <strong>Solo lectura</strong> (el usuario sólo puede ver los registros). El valor predeterminado es <strong>Modificar</strong>.</span><span class="sxs-lookup"><span data-stu-id="91d45-p104">The data entry mode for the view. This applies only to views opened in Datasheet view. Click <strong>Add</strong> (the user can add new records but can't view or edit existing records), <strong>Edit</strong> (the user can view or edit existing records and add new records), or <strong>Read Only</strong> (the user can only view records). The default is <strong>Edit</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="89f1e-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="89f1e-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="91d45-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="91d45-126">Remarks</span></span>
 
-<span data-ttu-id="89f1e-127">Esta acción es similar a hacer doble clic en una vista en el panel de navegación, o bien, a hacer clic con el botón secundario en la vista en el panel de navegación y, a continuación, hacer clic en el comando deseado.</span><span class="sxs-lookup"><span data-stu-id="89f1e-127">This action is similar to double-clicking a view in the Navigation Pane, or right-clicking the view in the Navigation Pane and then clicking the command you want.</span></span>
+<span data-ttu-id="91d45-127">Esta acción es similar a hacer doble clic en una vista en el panel de navegación, o bien, a hacer clic con el botón secundario en la vista en el panel de navegación y, a continuación, hacer clic en el comando deseado.</span><span class="sxs-lookup"><span data-stu-id="91d45-127">This action is similar to double-clicking a view in the Navigation Pane, or right-clicking the view in the Navigation Pane and then clicking the command you want.</span></span>
 
 > [!TIP]
-> - <span data-ttu-id="89f1e-p105">Puede arrastrar una vista desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirVista** que abre la vista en la vista Hoja de datos.</span><span class="sxs-lookup"><span data-stu-id="89f1e-p105">You can drag a view from the Navigation Pane to a macro action row. This automatically creates an **OpenView** action that opens the view in Datasheet view.</span></span>
-> - <span data-ttu-id="89f1e-130">Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una vista (esos mensajes indican que se trata de una vista y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.</span><span class="sxs-lookup"><span data-stu-id="89f1e-130">If you don't want to display the system messages that normally appear when a view is run (indicating it is a view and showing how many records will be affected), you can use the **SetWarning** action to suppress the display of these messages.</span></span>
+> - <span data-ttu-id="91d45-p105">Puede arrastrar una vista desde el panel de navegación hasta una fila de acción de una macro. De este modo, se crea automáticamente una acción **AbrirVista** que abre la vista en la vista Hoja de datos.</span><span class="sxs-lookup"><span data-stu-id="91d45-p105">You can drag a view from the Navigation Pane to a macro action row. This automatically creates an **OpenView** action that opens the view in Datasheet view.</span></span>
+> - <span data-ttu-id="91d45-130">Si no desea que se muestren los mensajes del sistema que normalmente aparecen cuando se ejecuta una vista (esos mensajes indican que se trata de una vista y muestran cuántos registros se verán afectados), puede utilizar la acción **EstablecerAdvertencias** para suprimir la presentación de estos mensajes.</span><span class="sxs-lookup"><span data-stu-id="91d45-130">If you don't want to display the system messages that normally appear when a view is run (indicating it is a view and showing how many records will be affected), you can use the **SetWarning** action to suppress the display of these messages.</span></span>
 
-<span data-ttu-id="89f1e-131">Para ejecutar la acción **AbrirVista** en un módulo de Visual Basic para Aplicaciones (VBA), utilice el método **OpenView** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="89f1e-131">To run the **OpenView** action in a Visual Basic for Applications (VBA) module, use the **OpenView** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="91d45-131">Para ejecutar la acción **AbrirVista** en un módulo de Visual Basic para Aplicaciones (VBA), utilice el método **OpenView** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="91d45-131">To run the **OpenView** action in a Visual Basic for Applications (VBA) module, use the **OpenView** method of the **DoCmd** object.</span></span>
 

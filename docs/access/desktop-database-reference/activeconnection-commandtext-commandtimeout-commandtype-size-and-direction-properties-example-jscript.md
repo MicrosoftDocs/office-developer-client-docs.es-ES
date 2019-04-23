@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout (JScript)
+title: Ejemplo de las propiedades ActiveConnection, CommandText y CommandTimeout (JScript)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript)
 ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b746902f84aa3afb2213b40d7bab4bb1bc6cb9b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280484"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="8931f-102">Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (JScript)</span><span class="sxs-lookup"><span data-stu-id="8931f-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="b9c40-102">Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction (JScript)</span><span class="sxs-lookup"><span data-stu-id="b9c40-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
 
-<span data-ttu-id="8931f-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8931f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9c40-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9c40-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8931f-p101">En este ejemplo se utilizan las propiedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) y [Direction](direction-property-ado.md) para ejecutar un procedimiento almacenado. Corte y pegue el siguiente código en Bloc de notas u otro editor de texto, y guárdelo como **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="8931f-p101">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
+<span data-ttu-id="b9c40-p101">En este ejemplo se utilizan las propiedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) y [Direction](direction-property-ado.md) para ejecutar un procedimiento almacenado. Corte y pegue el siguiente código en Bloc de notas u otro editor de texto, y guárdelo como **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="b9c40-p101">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveConnectionJS --> 
