@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ae9cc65d61416767140572b32d3f2e1b8e4d8eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313982"
 ---
 # <a name="significance-of-cursor-location"></a>Importancia de la ubicación del cursor
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Cada cursor utiliza recursos temporales para almacenar sus datos. Estos recursos pueden ser memoria, un archivo de paginación de disco, archivos temporales en el disco o incluso almacenamiento temporal en la base de datos. El cursor se denomina un cursor *de cliente* cuando estos recursos están ubicados en el equipo cliente. El cursor se denomina cursor de *servidor* cuando estos recursos están ubicados en el servidor.
+Cada cursor utiliza recursos temporales para almacenar sus datos. Estos recursos pueden ser memoria, un archivo de paginación de disco, archivos temporales en el disco o incluso almacenamiento temporal en la base de datos. El cursor se denomina cursor de *cliente* cuando estos recursos están ubicados en el equipo cliente. El cursor se denomina cursor de *servidor* cuando estos recursos están ubicados en el servidor.
 
 ## <a name="client-side-cursors"></a>Cursores de cliente
 

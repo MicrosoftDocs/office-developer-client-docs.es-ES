@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5dc6035569abd42cd6a5f4ce44fcf0da550bf809
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314472"
 ---
 # <a name="supports-method-example-vb"></a>Ejemplo del método Supports (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere el procedimiento DisplaySupport para que este procedimiento pueda ejecutarse.
 
