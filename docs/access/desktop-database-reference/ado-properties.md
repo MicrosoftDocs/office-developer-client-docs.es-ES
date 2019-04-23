@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283236"
 ---
 # <a name="ado-properties"></a>Propiedades de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <br/>
 
@@ -40,7 +40,7 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="activecommand-property-ado.md">ActiveCommand</a></p></td>
-<td><p>Indica el objeto <strong>Command</strong> que ha creado el objeto <strong>Recordset</strong> asociado.</p></td>
+<td><p>Indica el objeto <strong>Command</strong> que creó el objeto <strong>Recordset</strong> asociado.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
@@ -52,23 +52,23 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="even">
 <td><p><a href="attributes-property-ado.md">Atributos</a></p></td>
-<td><p>Indica una o varias características de un objeto.</p></td>
+<td><p>Indica una o más características de un objeto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bof-eof-properties-ado.md">BOF y EOF</a></p></td>
-<td><p><strong>BOF</strong> : indica que la posición del registro actual está antes del primer registro en un objeto <strong>Recordset</strong> . <strong>EOF</strong> : indica que la posición del registro actual está después del último registro de un objeto <strong>Recordset</strong> .</p></td>
+<td><p><strong>BOF</strong> indica que la posición actual de registro se encuentra antes del primer registro de un objeto <strong>Recordset</strong>. <strong>EOF</strong> indica que la posición actual de registro se encuentra después del último registro de un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
-<td><p>Indica un marcador que identifica de manera única el registro actual de un objeto <strong>Recordset</strong> o que establece el registro actual de un objeto <strong>Recordset</strong> en el registro identificado por un marcador válido.</p></td>
+<td><p>Indica un marcador que identifica de forma exclusiva el registro actual de un objeto <strong>Recordset</strong> o que establece el registro actual de un objeto <strong>Recordset</strong> en el registro identificado por un marcador válido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>Indica el número de registros de un objeto <strong>Recordset</strong> que están almacenados en la memoria caché local.</p></td>
+<td><p>Indica el número de registros de un objeto <strong>Recordset</strong> que se almacenan localmente en memoria.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="chapter-property-ado.md">Capítulo</a></p></td>
-<td><p>Obtiene o establece un objeto <strong>Chapter</strong> de OLE DB de/en un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
+<td><p>Obtiene o establece un objeto <strong>Chapter</strong> OLE DB desde o sobre un objeto <strong> ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="charset-property-ado.md">CharSet</a></p></td>
@@ -80,7 +80,7 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="commandtimeout-property-ado.md">CommandTimeout</a></p></td>
-<td><p>Indica el tiempo que se va a esperar durante la ejecución de un comando para que finalice el intento y se genere un error.</p></td>
+<td><p>Indica cuánto tiempo hay que esperar mientras se ejecuta un comando antes de terminar el intento y generar un error.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="commandtype-property-ado.md">CommandType</a></p></td>
@@ -92,7 +92,7 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="even">
 <td><p><a href="connectiontimeout-property-ado.md">ConnectionTimeout</a></p></td>
-<td><p>Indica el tiempo que se va a esperar durante el establecimiento de una conexión para que finalice el intento y se genere un error.</p></td>
+<td><p>Indica cuánto tiempo hay que esperar mientras se establece una conexión antes de terminar el intento y generar un error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="count-property-ado.md">Count</a></p></td>
@@ -104,19 +104,19 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="cursortype-property-ado.md">CursorType</a></p></td>
-<td><p>Indica el tipo de cursor que se usa en un objeto <strong>Recordset</strong>.</p></td>
+<td><p>Indica el tipo de cursor usado en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datamember-property-ado.md">DataMember</a></p></td>
-<td><p>Indica el nombre del miembro de datos que se va a recuperar del objeto al que hace referencia la propiedad <strong>DataSource</strong>.</p></td>
+<td><p>Indica el nombre del miembro de datos que se recuperará del objeto al que hace referencia la propiedad <strong>DataSource</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="datasource-property-ado.md">DataSource</a></p></td>
-<td><p>Indica un objeto que contiene los datos que se van a representar como un objeto <strong>Recordset</strong>.</p></td>
+<td><p>Indica un objeto que contiene datos que se van a representar como un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="defaultdatabase-property-ado.md">DefaultDatabase</a></p></td>
-<td><p>Indica la base de datos predeterminada de un objeto <strong>Connection</strong>.</p></td>
+<td><p>Indica la base de datos predeterminada para un objeto <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="definedsize-property-ado.md">DefinedSize</a></p></td>
@@ -132,27 +132,27 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="even">
 <td><p><a href="editmode-property-ado.md">EditMode</a></p></td>
-<td><p>Indica el estado de modificación del registro actual.</p></td>
+<td><p>Indica el estado de edición del registro actual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">EOS</a></p></td>
+<td><p><a href="eos-property-ado.md">OCASIONA</a></p></td>
 <td><p>Indica si la posición actual se encuentra al final de la secuencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
-<td><p>Indica un filtro para datos en un objeto <strong> Recordset </strong>.</p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p>Indica un filtro para datos en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="helpcontext-helpfile-properties-ado.md">HelpContext y HelpFile</a></p></td>
-<td><p>Indican el archivo de Ayuda y el tema asociados a un objeto <strong>Error</strong>. <strong>HelpContextID</strong>: devuelve un identificador de contexto, como un valor de tipo <strong>Long</strong>, de un tema de un archivo de Ayuda. <strong>HelpFile</strong>: devuelve un valor de tipo <strong>String</strong> que evalúa una ruta de acceso completa resuelta a un archivo de Ayuda.</p></td>
+<td><p><a href="helpcontext-helpfile-properties-ado.md">HelpContext and HelpFile</a></p></td>
+<td><p>Indican el archivo de Ayuda y el tema asociados a un objeto <strong>Error</strong>. <strong>HelpContextID</strong> devuelve un identificador de contexto como un valor <strong>Long</strong> para un tema de un archivo de Ayuda. <strong>HelpFile</strong> devuelve un valor <strong>String</strong> que se evalúa como una ruta de acceso completa a un archivo de Ayuda.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="index-property-ado.md">Índice</a></p></td>
-<td><p>Indica el nombre del índice en vigor para un objeto <strong>Recordset</strong>.</p></td>
+<td><p>Indica el nombre del índice de un objeto <strong>Recordset</strong> actualmente en vigor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="isolationlevel-property-ado.md">IsolationLevel</a></p></td>
-<td><p>Indica el nivel de aislamiento de un objeto <strong>Connection</strong>.</p></td>
+<td><p>Indica el nivel de aislamiento para un objeto <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="item-property-ado.md">Item</a></p></td>
@@ -160,26 +160,26 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="lineseparator-property-ado.md">LineSeparator</a></p></td>
-<td><p>Indica el carácter binario que se utiliza como separador de línea en objetos de texto <strong>Stream</strong>.</p></td>
+<td><p>Indica el carácter binario que se va a utilizar como separador de línea en objetos de texto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>Indica el tipo de bloqueos colocados en registros durante la modificación.</p></td>
+<td><p>Indica el tipo de bloqueos colocados en registros durante la modificación de éstos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>Indica qué registros se van a ordenar de nuevo en el servidor.</p></td>
+<td><p>Indica de qué registros se van a calcular las referencias de nuevo en el servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>Indica el número máximo de registros que se va a devolver a un objeto <strong>Recordset</strong> desde una consulta.</p></td>
+<td><p>Indica el número máximo de registros que se van a devolver a un objeto <strong>Recordset</strong> desde una consulta.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="mode-property-ado.md">Mode</a></p></td>
 <td><p>Indica los permisos disponibles para modificar datos de un objeto <strong>Connection</strong>, <strong>Record</strong> o <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Nombre</a></p></td>
+<td><p><a href="name-property-ado.md">Name</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -187,8 +187,8 @@ ms.locfileid: "28704263"
 <td><p>Indica el código de error específico de un proveedor para un objeto <strong>Error</strong> dado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="number-property-ado.md">Número</a></p></td>
-<td><p>Indica el número que identifica de forma exclusiva a un objeto <strong>Error</strong>.</p></td>
+<td><p><a href="number-property-ado.md">Number</a></p></td>
+<td><p>Indica el número que identifica inequívocamente un objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="numericscale-property-ado.md">NumericScale</a></p></td>
@@ -196,7 +196,7 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="even">
 <td><p><a href="originalvalue-property-ado.md">OriginalValue</a></p></td>
-<td><p>Indica el valor de un objeto <strong>Field</strong> que existía en el registro antes de la realización de cualquier cambio.</p></td>
+<td><p>Indica el valor de un objeto <strong>Field</strong> (campo) que existió en el registro antes de realizar algún cambio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
@@ -208,11 +208,11 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
-<td><p>Establece el contenedor de un objeto <strong>Row</strong> de OLE DB en un objeto <strong>ADORecordConstruction</strong>, de modo que la página origen de la fila se convierta en un objeto <strong>Record</strong> de ADO.</p></td>
+<td><p>Establece el contenedor de un objeto <strong>Row</strong> de OLE DB en un objeto <strong>ADORecordConstruction</strong> para que el elemento principal de la fila se convierta en un objeto <strong>Record</strong> de ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="parenturl-property-ado.md">ParentURL</a></p></td>
-<td><p>Indica una cadena URL absoluta que apunta al objeto <strong>Record</strong> primario del objeto <strong>Record</strong> actual.</p></td>
+<td><p>Indica una cadena URL absoluta que señala el objeto <strong>Record</strong> primario del actual objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="position-property-ado.md">Position</a></p></td>
@@ -220,11 +220,11 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="even">
 <td><p><a href="precision-property-ado.md">Precision</a></p></td>
-<td><p>Indica el grado de precisión de los valores numéricos de un objeto <strong>Parameter</strong> o de los objetos numéricos <strong>Field</strong>.</p></td>
+<td><p>Indica el grado de precisión para valores numéricos en un objeto <strong>Parameter</strong> o para objetos <strong>Field</strong> numéricos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="prepared-property-ado.md">Preparado</a></p></td>
-<td><p>Indica si se va a guardar una versión compilada de un comando antes de la ejecución.</p></td>
+<td><p><a href="prepared-property-ado.md">Extendido</a></p></td>
+<td><p>Indica si se debe guardar una versión compilada de un comando antes de su ejecución.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="provider-property-ado.md">Provider</a></p></td>
@@ -240,38 +240,38 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="row-property-ado.md">Fila</a></p></td>
-<td><p>Obtiene o establece un objeto <strong>Row</strong> de OLE DB desde o en un objeto <strong>ADORecordConstruction</strong>.</p></td>
+<td><p>Obtiene o establece un objeto <strong>Row</strong> OLE DB desde o sobre un objeto <strong>ADORecordConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
-<td><p>Obtiene o establece un objeto <strong>RowPosition</strong> de OLE DB desde o en un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
+<td><p>Obtiene o establece un objeto <strong>RowPosition</strong> OLE DB desde o sobre un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Conjunto de filas</a></p></td>
-<td><p>Obtiene o establece un objeto <strong>Rowset</strong> de OLE DB desde o en un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
+<td><p><a href="rowset-property-ado.md">RowSet</a></p></td>
+<td><p>Obtiene o establece un objeto <strong> Rowset</strong> OLE DB desde o sobre un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="size-property-ado.md">Size</a></p></td>
-<td><p>Indica el tamaño máximo en bytes o caracteres de un objeto <strong>Parameter</strong>.</p></td>
+<td><p>Indica el tamaño máximo, en bytes o caracteres, de un objeto <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Tamaño (objeto Stream de ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (ADO Stream)</a></p></td>
 <td><p>Indica el tamaño total de la secuencia en número de bytes.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="sort-property-ado.md">Sort</a></p></td>
-<td><p>Indica uno o más nombres de campo por los que se ordena el objeto <strong>Recordset</strong>, así como si el orden es ascendente o descendente.</p></td>
+<td><p>Indica uno o más nombres de campos por los que se ordena el objeto <strong>Recordset</strong> y si cada campo se ordena de forma ascendente o descendente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-error.md">Origen (Error ADO)</a></p></td>
-<td><p>Indica el nombre del objeto o de la aplicación que ha generado un error originariamente.</p></td>
+<td><p><a href="source-property-ado-error.md">Source (ADO Error)</a></p></td>
+<td><p>Indica el nombre del objeto o de la aplicación que generó originalmente un error.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="source-property-ado-record.md">Origen (objeto Record de ADO)</a></p></td>
+<td><p><a href="source-property-ado-record.md">Source (ADO Record)</a></p></td>
 <td><p>Indica la entidad representada por el objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-recordset.md">Origen (objeto Recordset de ADO)</a></p></td>
+<td><p><a href="source-property-ado-recordset.md">Source (ADO Recordset)</a></p></td>
 <td><p>Indica el origen para los datos de un objeto <strong>Recordset</strong></p></td>
 </tr>
 <tr class="even">
@@ -280,14 +280,14 @@ ms.locfileid: "28704263"
 </tr>
 <tr class="odd">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>En todos los objetos aplicables indica si el estado del objeto es abierto o cerrado. Indica, para todos los objetos aplicables que ejecutan un método asincrónico, si el estado actual del objeto está en conexión, ejecución o recuperación</p></td>
+<td><p>Indica, para todos los objetos aplicables, si el estado del objeto es abierto o cerrado. Indica, para todos los objetos aplicables que ejecutan un método asincrónico, si el estado actual del objeto está en conexión, ejecución o recuperación</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-field.md">Estado (campo de ADO)</a></p></td>
-<td><p>Indica el estado de un objeto <strong>Field</strong>.</p></td>
+<td><p><a href="status-property-ado-field.md">Status (ADO Field)</a></p></td>
+<td><p>Indica el estado de un objeto <strong>Field</strong> (campo).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="status-property-ado-recordset.md">Estado (objeto Recordset de ADO)</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Status (ADO Recordset)</a></p></td>
 <td><p>Indica el estado del registro actual con respecto a actualizaciones por lotes u otras operaciones masivas.</p></td>
 </tr>
 <tr class="even">
@@ -295,16 +295,16 @@ ms.locfileid: "28704263"
 <td><p>En un objeto <strong>Recordset</strong> jerárquico, indica si la referencia a los registros secundarios subyacentes (es decir, el <em>capítulo</em>) cambia cuando la posición de la fila superior en la jerarquía (elemento principal) cambia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Tipo</a></p></td>
+<td><p><a href="type-property-ado.md">Type</a></p></td>
 <td><p>Indica el tipo operativo o tipo de datos de un objeto <strong>Parameter</strong>, <strong>Field</strong> o <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="type-property-ado-stream.md">Tipo (objeto Stream de ADO)</a></p></td>
-<td><p>Indica el tipo de tipo de datos incluidos en el objeto <strong>Stream</strong> (binarios o texto).</p></td>
+<td><p><a href="type-property-ado-stream.md">Type (ADO Stream)</a></p></td>
+<td><p>Indica el tipo de datos contenidos en el objeto <strong>Stream</strong> (binario o texto).</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="underlyingvalue-property-ado.md">UnderlyingValue</a></p></td>
-<td><p>Indica el valor actual de un objeto <strong>Field</strong> de la base de datos.</p></td>
+<td><p>Indica el valor actual de un objeto <strong>Field</strong> en la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="value-property-ado.md">Value</a></p></td>

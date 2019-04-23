@@ -1,5 +1,5 @@
 ---
-title: ObjectStateEnum (referencia de escritorio de la base de datos de Access)
+title: ObjectStateEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6e346db2fb2dac0695e8c9048a210d8e40e6dc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288528"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si un objeto está abierto o cerrado, conectando con un origen de datos, ejecutando un comando o recuperando datos.
 
@@ -38,7 +38,7 @@ Especifica si un objeto está abierto o cerrado, conectando con un origen de dat
 <tbody>
 <tr class="odd">
 <td><p><strong>adStateClosed</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Indica que el objeto está cerrado.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Especifica si un objeto está abierto o cerrado, conectando con un origen de dat
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el objeto se está conectando.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Especifica si un objeto está abierto o cerrado, conectando con un origen de dat
 </tr>
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
-<td><p>8</p></td>
+<td><p>8,5</p></td>
 <td><p>Indica que se están recuperando las filas del objeto.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CLOSED</p></td>
+<td><p>AdoEnums. state. CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.OPEN</p></td>
+<td><p>AdoEnums. state. OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
+<td><p>AdoEnums. state. CONNECTing</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
+<td><p>AdoEnums. state. EXECUTing</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.FETCHING</p></td>
+<td><p>AdoEnums. state. FETCH</p></td>
 </tr>
 </tbody>
 </table>

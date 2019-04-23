@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7f6ee19edaf2efdc03301e98e709db6dd69f101a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289874"
 ---
 # <a name="locknavigationpane-macro-action"></a>BloquearPanelDeExploración (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **BloquearPanelDeExploración** para impedir que los usuarios eliminen objetos de base de datos que se muestran en el Panel de navegación.
 
@@ -51,7 +51,7 @@ La acción **BloquearPanelDeExploración** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Al bloquear el panel de navegación, se impide que se eliminen objetos de la base de datos o se corten y se peguen objetos de la base de datos en el portapapeles. Lo hace *no* le impida llevar a cabo cualquiera de las siguientes operaciones:
+Al bloquear el panel de navegación, se impide que se eliminen objetos de la base de datos o se corten y se peguen objetos de la base de datos en el portapapeles. *No* se impiden las siguientes operaciones:
 
   - Copiar objetos de base de datos en el Portapapeles
 

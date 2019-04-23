@@ -1,5 +1,5 @@
 ---
-title: Propiedad Parameter.Direction (DAO)
+title: Propiedad Parameter. Direction (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3260fd3f01e8ca22d5be4f8d14f6376c31e2735a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288094"
 ---
-# <a name="parameterdirection-property-dao"></a>Propiedad Parameter.Direction (DAO)
+# <a name="parameterdirection-property-dao"></a>Propiedad Parameter. Direction (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Dirección
+*expresión* . Direcciones
 
 *expresión* Variable que representa un objeto **Parameter** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es un tipo de datos Long que se puede establecer en una de las constantes **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)**.
 
 Use la propiedad **Direction** para determinar si el parámetro es un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento. Algunos controladores ODBC no proporcionan información sobre la dirección de los parámetros a una instrucción SELECT o llamada a procedimiento. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.
 
-Por ejemplo, el siguiente procedimiento devuelve un valor desde un procedimiento almacenado llamado "obtener\_empleados":
+Por ejemplo, el siguiente procedimiento devuelve un valor de un procedimiento almacenado denominado "Get\_Employees":
 
-{? = llamada get\_empleados}
+{? = llamar a\_Get Employees}
 
 Esta llamada produce un parámetro: el valor devuelto. Debe establecer la dirección de este parámetro en **dbParamOutput** o **dbParamReturnValue** antes de ejecutar **[QueryDef](querydef-object-dao.md)**.
 

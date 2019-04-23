@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 53e51f2386658ee975ec8847f7e5550ac22bbd8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281904"
 ---
-# <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_ENUM
+# <a name="adcpropasyncthreadpriorityenum"></a>\_Enumeración\_ADCPROP ASYNCTHREADPRIORITY
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Para un objeto [Recordset](recordset-object-ado.md) de RDS, especifica la prioridad de ejecución del subproceso asincrónico que recupera datos.
 
@@ -45,12 +45,12 @@ Use estas constantes con la propiedad dinámica "**Background Thread Priority**"
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Establece las prioridades comprendidas entre la normal y la más baja.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityHighest</strong></p></td>
-<td><p>5</p></td>
+<td><p>2,5</p></td>
 <td><p>Establece la prioridad en el nivel más alto posible.</p></td>
 </tr>
 <tr class="even">
@@ -81,19 +81,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. ABOVENORMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. BELOWNORMAL</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. HIGHEST</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. reMENOR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. NORMAL</p></td>
 </tr>
 </tbody>
 </table>

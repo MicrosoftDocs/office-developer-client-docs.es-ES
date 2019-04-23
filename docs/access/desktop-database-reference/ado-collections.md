@@ -1,5 +1,5 @@
 ---
-title: Colecciones de objetos de datos ActiveX (ADO)
+title: Colecciones de ActiveX Data Objects (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddaab78582429e201e563c01bb3195f585216cbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281711"
 ---
 # <a name="ado-collections"></a>Colecciones de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [objetos de ADO](ado-objects-and-interfaces.md) o el tema de un objeto específico.
+Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [objetos de ADO](ado-objects-and-interfaces.md) o un tema de objeto específico.
 
 <br/>
 

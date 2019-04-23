@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b572f4ebe55da1add781ecd86df97937cfeae126
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288620"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
  
 Borra el objeto [Recordset](recordset-object-ado.md) actual y devuelve el siguiente objeto **Recordset** recorriendo varios comandos.
 
 ## <a name="syntax"></a>Sintaxis
 
-Establecer *recordset2* = *recordset1*. NextRecordset (*RecordsAffected* )
+Establecer *Recordset2* = *recordset1*. NextRecordset (*RecordsAffected* )
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve un objeto **Recordset**. En el modelo de sintaxis, * recordset1* y *rec
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*RecordsAffected* |Es opcional. Variable de tipo **Long** a la que el proveedor devuelve el número de registros afectados por la actual operación.|
 
@@ -39,9 +39,9 @@ Devuelve un objeto **Recordset**. En el modelo de sintaxis, * recordset1* y *rec
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice el método **NextRecordset** para devolver los resultados del siguiente comando en una instrucción de comando compuesta o de un procedimiento almacenado que devuelve varios resultados. Si abre un objeto **Recordset** basado en una instrucción de comando compuesta (por ejemplo, "seleccione \* FROM Tabla1; Seleccione \* FROM Tabla2 ") mediante el método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) en un [comando](command-object-ado.md) o el método [Open](open-method-ado-recordset.md) en un **objeto Recordset**, ADO ejecuta sólo el primer comando y devuelve los resultados al *objeto recordset*. Para obtener acceso a los resultados de los comandos subsiguientes de la instrucción, llame al método **NextRecordset** .
+Use the **NextRecordset** method to return the results of the next command in a compound command statement or of a stored procedure that returns multiple results. Si abre un objeto **Recordset** basado en una instrucción de comando compuesta (por ejemplo, "SELECT \* from Table1; SELECT \* from Tabla2 ") mediante el [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) método Execute en un [comando](command-object-ado.md) o el método [Open](open-method-ado-recordset.md) en un **objeto Recordset**, ADO ejecuta únicamente el primer comando y devuelve los resultados a un *objeto Recordset*. To access the results of subsequent commands in the statement, call the **NextRecordset** method.
 
-Mientras haya resultados adicionales y el objeto **Recordset** que contiene las instrucciones compuestas no esté desconectado ni se hayan calculado las referencias de los límites del proceso, el método **NextRecordset** seguirá devolviendo objetos **Recordset**. Si un comando que devuelve filas se ejecuta correctamente pero no devuelve registros, el objeto **Recordset** devuelto estará abierto pero vacío. Para ver si este es el caso, compruebe si el valor de las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) es **True**. Si un comando no devuelve filas se ejecuta correctamente, el objeto **Recordset** devuelto estará cerrado, lo que puede comprobarse mediante la propiedad [State](state-property-ado.md) en el **conjunto de registros**. Cuando no hay ningún resultado más, *recordset* se establecerá en *Nothing*.
+Mientras haya resultados adicionales y el objeto **Recordset** que contiene las instrucciones compuestas no esté desconectado ni se hayan calculado las referencias de los límites del proceso, el método **NextRecordset** seguirá devolviendo objetos **Recordset**. Si un comando que devuelve filas se ejecuta correctamente pero no devuelve registros, el objeto **Recordset** devuelto estará abierto pero vacío. Para ver si este es el caso, compruebe si el valor de las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) es **True**. Si un comando que no devuelve filas se ejecuta correctamente, el objeto **Recordset** devuelto estará cerrado, lo que puede comprobarse mediante la propiedad [State](state-property-ado.md) del objeto **Recordset**. Cuando ya no queden más resultados, el valor de *Recordset* será *Nothing*.
 
 El método **NextRecordset** no está disponible en un objeto **Recordset** desconectado, donde el valor de [ActiveConnection](activeconnection-property-ado.md) es **Nothing** (en Microsoft Visual Basic) o NULL (en otros lenguajes).
 

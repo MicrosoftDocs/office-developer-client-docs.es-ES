@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de modelo de eventos de ADO (VC ++)
+title: Ejemplo de modelo de eventos de ADO (VC + +)
 TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283355"
 ---
-# <a name="ado-events-model-example-vc"></a>Ejemplo de modelo de eventos de ADO (VC ++)
+# <a name="ado-events-model-example-vc"></a>Ejemplo de modelo de eventos de ADO (VC + +)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En la sección [Creación de instancias de eventos de ADO por lenguaje](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) de Visual C++, se ofrece una descripción general de cómo crear instancias del modelo de eventos de ADO. El siguiente es un ejemplo específico de creación de instancias del modelo de eventos dentro del entorno creado por la ** \#importar** directiva.
+En la sección [Creación de instancias de eventos de ADO por lenguaje](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) de Visual C++, se ofrece una descripción general de cómo crear instancias del modelo de eventos de ADO. El siguiente es un ejemplo específico de creación de instancias del modelo de eventos dentro del entorno creado ** \#** por la Directiva de importación.
 
-La descripción general utiliza **adoint.h** como referencia para firmas de método. Sin embargo, algunos detalles de la descripción general cambian ligeramente debido al uso de la ** \#importar** directiva:
+La descripción general utiliza **adoint.h** como referencia para firmas de método. Sin embargo, algunos detalles de la descripción general cambian ligeramente como resultado del uso de la ** \#** Directiva de importación:
 
-- La ** \#importar** directiva descompone los modificadores y tipos de datos de firma de método y **typedef**en sus formas fundamentales.
+- La ** \#** Directiva de importación resuelve los modificadores y tipos de datos de la firma del método y de **typedef**en sus formas fundamentales.
 
-- Todos los métodos virtuales puros que se deben sobrescribir llevan el prefijo por "**sin procesar\_**".
+- Todos los métodos virtuales puros que se deben sobrescribir llevan el prefijo "**raw\_**".
 
 Parte del código simplemente refleja el estilo de codificación.
 
@@ -34,13 +34,13 @@ Parte del código simplemente refleja el estilo de codificación.
 
 - Quizá desee codificar implementaciones más robustas de QueryInterface, AddRef y Release.
 
-- La ** \_ \_uuidof()** directiva se utiliza ampliamente para obtener identificadores de interfaz.
+- La Directiva uuidof ** \_() se usa ampliamente para obtener identificadores de \_** interfaz.
 
 Por último, el ejemplo contiene parte de código funcional.
 
 - El ejemplo está escrito como una aplicación de consola.
 
-- Deberá insertar su propio código bajo el comentario "/ / realizar algún trabajo".
+- Debe insertar su propio código bajo el comentario "//do some Work".
 
 - El comportamiento predeterminado de todos los controladores de eventos es no hacer nada y cancelar posteriores notificaciones. Por tanto, si se requiere, deberá insertar el código apropiado para su aplicación y permitir las notificaciones.
 

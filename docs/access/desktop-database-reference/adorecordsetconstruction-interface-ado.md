@@ -1,5 +1,5 @@
 ---
-title: Interfaz ADORecordsetConstruction (ADO)
+title: ADORecordsetConstruction (interfaz, ADO)
 TOCTitle: ADORecordsetConstruction interface (ADO)
 ms:assetid: 2b53aa6e-3b6f-a996-3967-534215fd586c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281636"
 ---
-# <a name="adorecordsetconstruction-interface-ado"></a>Interfaz ADORecordsetConstruction (ADO)
+# <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction (interfaz, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La interfaz **ADORecordsetConstruction** se usa para construir un objeto **Recordset** de ADO a partir de un objeto **Rowset** de OLE DB en una aplicación C/C++.
 
@@ -34,17 +34,17 @@ Esta interfaz admite las propiedades siguientes:
 <tr class="odd">
 <td><p><a href="chapter-property-ado.md">Capítulo</a></p></td>
 <td><p>Lectura y escritura.<br />
-Obtiene o establece un objeto <strong>Chapter</strong> de OLE DB desde o sobre este objeto <strong>Recordset</strong> de ADO.</p></td>
+ Obtiene y establece un objeto <strong>Chapter</strong> de OLE DB de/en este objeto <strong>Recordset</strong> de ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
 <td><p>Lectura y escritura.<br />
-Obtiene o establece un objeto <strong>RowPosition</strong> de OLE DB desde o sobre este objeto <strong>Recordset</strong> de ADO.</p></td>
+ Obtiene y establece un objeto <strong>RowPosition</strong> de OLE DB de/en este objeto <strong>Recordset</strong> de ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Conjunto de filas</a></p></td>
+<td><p><a href="rowset-property-ado.md">RowSet</a></p></td>
 <td><p>Lectura y escritura.<br />
-Obtiene o establece un objeto <strong>Rowset</strong> de OLE DB desde o sobre este objeto <strong>Recordset</strong> de ADO.</p></td>
+ Obtiene y establece un objeto <strong>Rowset</strong> de OLE DB de/en este objeto <strong>Recordset</strong> de ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,9 +58,9 @@ Ninguno.
 
 Ninguno.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Dado un objeto **Rowset** de OLE DB (pRowset), la construcción de un objeto **Recordset** de ADO (), la construcción de un importe de (adoRs) del objeto **Recordset** de ADO a las tres siguientes operaciones básicas:
+Dado un objeto **Rowset** de OLE DB (pRowset), la construcción de un objeto **Recordset** de ADO (), la construcción de un objeto **Recordset** de ADO (adoRs) equivale a las tres operaciones básicas siguientes:
 
 1. Cree un objeto **Recordset** de ADO:
     
@@ -76,14 +76,14 @@ Dado un objeto **Rowset** de OLE DB (pRowset), la construcción de un objeto **R
          (void**)&adoRsConstruct);
    ```
 
-3. Llamar a la IADORecordsetConstruction::put\_método de propiedad de conjunto de filas para establecer el objeto Rowset de OLE DB en el objeto Recordset de ADO:
+3. Llame al método de propiedad Rowset\_IADORecordsetConstruction::p UT para establecer el objeto ROWSET de OLE DB en el objeto RECORDSET de ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-El objeto resultante representa ahora el objeto **Recordset** de ADO construido a partir del objeto **Rowset** de OLE DB.
+El objeto resultante representa ahora el objeto **Recordset** de ADO construido a partir del objeto **ROWSET** de OLE DB.
 
 También se puede crear un objeto **Recordset** de ADO a partir de un objeto **Chapter** o **RowPosition** de OLE DB.
 

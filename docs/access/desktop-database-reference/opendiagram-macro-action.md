@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288360"
 ---
 # <a name="opendiagram-macro-action"></a>AbrirDiagrama (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En un proyecto de Access, puede usar la acción **AbrirDiagrama** para abrir un diagrama de base de datos en la vista Diseño.
 
@@ -45,7 +45,7 @@ La acción **AbrirDiagrama** tiene el siguiente argumento.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de diagrama</strong></p></td>
-<td><p>El nombre del diagrama de base de datos para abrir. El cuadro <strong>Nombre de diagrama</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todos los diagramas de base de datos en la base de datos actual. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>AbrirDiagrama</strong> en una base de datos de biblioteca, Microsoft Access busca primero el diagrama con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre del diagrama de base de datos que se va a abrir. El cuadro <strong>Nombre de diagrama</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros, muestra todos los diagramas de la base de datos activa. Éste es un argumento obligatorio. Si ejecuta una macro que contiene la acción <strong>AbrirDiagrama</strong> en una base de datos de biblioteca, Microsoft Access busca primero el diagrama con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 </tbody>
 </table>

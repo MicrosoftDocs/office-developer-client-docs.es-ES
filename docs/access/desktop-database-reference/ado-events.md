@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cc2ef73798dca18e00c42768fde78da2abdb56a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283341"
 ---
 # <a name="ado-events"></a>Eventos de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <br/>
 
@@ -83,7 +83,7 @@ ms.locfileid: "28706047"
 <td><p>Se usa (recibe una llamada) después de un cambio en el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">A RollbackTransComplete</a></p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete</a></p></td>
 <td><p>Se utiliza (recibe una llamada) después de la operación <strong>RollbackTrans</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -108,7 +108,7 @@ ms.locfileid: "28706047"
 </tr>
 <tr class="even">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></p></td>
-<td><p>El evento <strong>WillMove recibe</strong> se denomina <em>antes de</em> una operación pendiente cambie la posición actual en el <strong>conjunto de registros</strong>.</p></td>
+<td><p>El evento <strong>WillMove</strong> recibe una llamada <em>antes</em> de que una operación pendiente cambie la posición actual en el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>

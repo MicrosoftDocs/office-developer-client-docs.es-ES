@@ -1,5 +1,5 @@
 ---
-title: Propiedades de ActiveX Data Objects (ADO) MD
+title: Propiedades de objetos de datos ActiveX (ADO) MD
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283292"
 ---
 # <a name="ado-md-properties"></a>Propiedades de ADO MD
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <br/>
 
@@ -36,7 +36,7 @@ ms.locfileid: "28716225"
 </tr>
 <tr class="even">
 <td><p><a href="caption-property-ado-md.md">Caption</a></p></td>
-<td><p>Indica el texto de título que se utilizará para mostrar un objeto <strong>Level</strong> o <strong>Member</strong>.</p></td>
+<td><p>Indica el título de texto que se utilizará para mostrar un objeto <strong>Level</strong> o <strong>Member</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="childcount-property-ado-md.md">ChildCount</a></p></td>
@@ -72,11 +72,11 @@ ms.locfileid: "28716225"
 </tr>
 <tr class="odd">
 <td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
-<td><p>Recupera una celda de un conjunto de celdas utilizando sus coordenadas.</p></td>
+<td><p>Recupera una celda a partir de un conjunto de celdas utilizando sus coordenadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="item-property-ado.md">Item</a></p></td>
-<td><p>Devuelve un miembro específico de una colección, por nombre o por número ordinal.</p></td>
+<td><p>Devuelve un componente específico de una colección, por nombre o por número ordinal.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="formattedvalue-property-ado-md.md">FormattedValue</a></p></td>
@@ -91,15 +91,15 @@ ms.locfileid: "28716225"
 <td><p>Indica el nombre del nivel de un elemento.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Nombre</a></p></td>
+<td><p><a href="name-property-ado-md.md">Name</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (celda)</a></p></td>
+<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></p></td>
 <td><p>Identifica exclusivamente una celda por su posición dentro de un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="ordinal-property-ado-md-position.md">Ordinal (posición)</a></p></td>
+<td><p><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></p></td>
 <td><p>Identifica exclusivamente una posición a lo largo de un eje.</p></td>
 </tr>
 <tr class="odd">
@@ -108,7 +108,7 @@ ms.locfileid: "28716225"
 </tr>
 <tr class="even">
 <td><p><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></p></td>
-<td><p>Indica si el elemento principal del elemento situado en esta posición es el mismo que el del elemento inmediatamente anterior.</p></td>
+<td><p>Indica si el elemento principal del elemento situado en esta posición es el mismo que el del elemento precedente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="source-property-ado-md.md">Source</a></p></td>
@@ -119,7 +119,7 @@ ms.locfileid: "28716225"
 <td><p>Indica el estado actual del conjunto de celdas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Tipo</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type</a></p></td>
 <td><p>Indica el tipo de elemento activo.</p></td>
 </tr>
 <tr class="even">

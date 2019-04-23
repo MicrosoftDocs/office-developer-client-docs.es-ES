@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df9def320274df0eb4636aa237deb566dd5725b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281725"
 ---
 # <a name="adowfc"></a>ADO/WFC
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ADO para Windows Foundation Classes (ADO/WFC) se basa en el modelo de eventos de ADO y presenta una interfaz de programación de aplicaciones simplificada. En general, ADO/WFC intercepta eventos de ADO, consolida los parámetros de eventos en una sola clase de eventos y, a continuación, llama al controlador de eventos.
 
@@ -62,12 +62,9 @@ ADO para Windows Foundation Classes (ADO/WFC) se basa en el modelo de eventos de
             new ConnectionEventHandler(this.onConnectComplete); 
     ```
     
-    
+    El único argumento es una referencia a la clase (**this**) y al método deseados dentro de la clase (**onConnectComplete**).
 
-El único argumento es una referencia a la clase (**this**) y al método deseados dentro de la clase (**onConnectComplete**).
-
-
-3.  Agregue su controlador de eventos a una lista de controladores designados para procesar un tipo determinado de evento. Utilice el método con un nombre como **addOn *** EventName*(*controlador*).
+3.  Agregue su controlador de eventos a una lista de controladores designados para procesar un tipo determinado de evento. Use el método con un nombre como **addOn * * * eventName*(*controlador*).
 
 4.  ADO/WFC implementa internamente todos los controladores de eventos de ADO. Por tanto, un evento causado por una operación **Connection** o **Recordset** es interceptado por un controlador de eventos de ADO/WFC. El controlador de eventos de ADO/WFC pasa parámetros **ConnectionEvent** de ADO en una instancia de la clase **ConnectionEvent** de ADO/WFC, o parámetros **RecordsetEvent** de ADO en una instancia de la clase **RecordsetEvent** de ADO/WFC. Estas clases de ADO/WFC consolidan los parámetros de eventos de ADO; es decir, que cada clase de ADO/WFC contiene un elemento de datos para cada parámetro único en todos los métodos **ConnectionEvent** o **RecordsetEvent** de ADO.
 
@@ -82,5 +79,5 @@ El único argumento es una referencia a la clase (**this**) y al método deseado
 
 6.  Vuelva desde el controlador de eventos al controlador de ADO/WFC correspondiente al evento de ADO. ADO/WFC copia elementos de datos de eventos de ADO/WFC pertinentes de nuevo en los parámetros de eventos de ADO y, a continuación, vuelve el controlador de eventos de ADO.
 
-7.  Cuando haya finalizado el procesamiento, quite su controlador de la lista de controladores de eventos de ADO/WFC. Utilice el método con un nombre como **removeOn *** EventName*(*controlador*).
+7.  Cuando haya finalizado el procesamiento, quite su controlador de la lista de controladores de eventos de ADO/WFC. Use el método con un nombre como * removeon ** * * eventName*(*controlador*).
 

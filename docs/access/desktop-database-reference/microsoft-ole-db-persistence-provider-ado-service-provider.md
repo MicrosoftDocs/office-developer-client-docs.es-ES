@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288956"
 ---
 # <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Proveedor de persistencia de Microsoft OLE DB (proveedor de servicios ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013 
+**Se aplica a:** Access 2013, Office 2013 
 
 El Proveedor de persistencia de Microsoft OLE DB permite guardar un objeto [Recordset](recordset-object-ado.md) en un archivo y, posteriormente, restaurar dicho objeto **Recordset** desde el archivo. Se conserva la información del esquema, los datos y los cambios pendientes.
 
@@ -44,7 +44,7 @@ En la aplicación se pueden detectar los errores siguientes emitidos por este pr
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -68,5 +68,5 @@ De momento, solo los objetos **Recordset** jerárquicos con parámetros no puede
 
 Para obtener más información acerca del almacenamiento persistente de objetos **Recordset**, vea [Persistencia de Recordset](more-about-recordset-persistence.md).
 
-Cuando se utiliza una secuencia para abrir un **objeto Recordset**, debería haber parámetros no especifiquen más el parámetro *Source* del método **Open** .
+Si se usa una secuencia para abrir un objeto **Recordset**, no deben especificarse más parámetros que el parámetro *Source* del método **Open**.
 

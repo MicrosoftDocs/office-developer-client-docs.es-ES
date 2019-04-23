@@ -1,5 +1,5 @@
 ---
-title: Objetos de ADO MD (referencia de escritorio de la base de datos de Access)
+title: Objetos de ADO MD (referencia de base de datos de escritorio de Access)
 TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283299"
 ---
 # <a name="ado-md-objects"></a>Objetos de ADO MD
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <br/>
 
@@ -27,7 +27,7 @@ ms.locfileid: "28726214"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Objeto</th>
+<th>Object</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -56,19 +56,19 @@ ms.locfileid: "28726214"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
-<td><p>Representa una forma en que se pueden agregar los miembros de una dimensión o &quot;resumidas. &quot; Una dimensión se puede agregar a lo largo de una o varias jerarquías.</p></td>
+<td><p>Representa una forma en que se pueden agregar o &quot;acumular los miembros de una dimensión. &quot; Una dimensión se puede Agregar A lo largo de una o varias jerarquías.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Level</a></p></td>
-<td><p>Contiene un conjunto de miembros que tienen el mismo rango dentro de una jerarquía.</p></td>
+<td><p>Contiene un conjunto de elementos que tienen el mismo rango dentro de una jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Miembro</a></p></td>
-<td><p>Representa un miembro de un nivel en un cubo, los miembros secundarios de un miembro de un nivel o un miembro de una posición a lo largo de un eje de un conjunto de celdas.</p></td>
+<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p>Representa un elemento de un nivel en un cubo, los elementos secundarios de un elemento de un nivel, o un elemento de una posición a lo largo de un eje de un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="position-object-ado-md.md">Position</a></p></td>
-<td><p>Representa un conjunto de uno o varios miembros de dimensiones diferentes, que define un punto a lo largo de un eje.</p></td>
+<td><p>Representa un conjunto de uno o varios elementos de dimensiones diferentes, que define un punto a lo largo de un eje.</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +86,7 @@ Además, el objeto **Catalog** está conectado a un objeto **Connection** de ADO
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Objeto</p></th>
+<th><p>Object</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281959"
 ---
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Acceso a las filas en conjuntos de registros jerárquicos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En el ejemplo siguiente, se muestran los pasos necesarios para obtener acceso a filas de un objeto [Recordset](recordset-object-ado.md) jerárquico:
 
@@ -29,7 +29,7 @@ En el ejemplo siguiente, se muestran los pasos necesarios para obtener acceso a 
 4. El bucle interno muestra cuatro campos de cada fila en el objeto **Recordset** anexado.
 
 > [!NOTE] 
-> La propiedad [StayInSync](stayinsync-property-ado.md) se establece en FALSE para fines de ilustración, para que pueda ver el capítulo cambiar explícitamente en cada iteración del bucle externo. Sin embargo, el ejemplo será más eficiente si la asignación en el paso 3 se traslada antes de la primera línea del paso 2, para que la asignación sólo se realice una vez. Establezca la propiedad **StayInSync** en TRUE, para que *rstTitleAuthor* cambie implícita y automáticamente al capítulo correspondiente siempre que *rst* pase a una nueva fila.
+> La propiedad [StayInSync](stayinsync-property-ado.md) se establece en false con fines de Ilustración, por lo que puede ver el cambio de capítulo explícitamente en cada iteración del bucle externo. Sin embargo, el ejemplo será más eficiente si la asignación en el paso 3 se traslada antes de la primera línea del paso 2, para que la asignación sólo se realice una vez. Establezca la propiedad **StayInSync** en true, de modo que *rstTitleAuthor* cambie implícita y automáticamente al capítulo correspondiente cuando *RST* se mueve a una nueva fila.
 
 **Ejemplo**
 

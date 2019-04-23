@@ -1,5 +1,5 @@
 ---
-title: Interfaz ADORecordConstruction (ADO)
+title: ADORecordConstruction (interfaz, ADO)
 TOCTitle: ADORecordConstruction interface (ADO)
 ms:assetid: 3f0afbdb-f1c4-e44e-7c0f-a0c4cee554a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281629"
 ---
-# <a name="adorecordconstruction-interface-ado"></a>Interfaz ADORecordConstruction (ADO)
+# <a name="adorecordconstruction-interface-ado"></a>ADORecordConstruction (interfaz, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La interfaz **ADORecordConstruction** se utiliza para construir un objeto **Record** de ADO a partir de un objeto **Row** de OLE DB en una aplicación C/C++.
 
@@ -33,13 +33,13 @@ Esta interfaz admite las propiedades siguientes:
 <tbody>
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
-<td><p>Sólo escritura.<br />
-Establece el contenedor de un objeto <strong>Row</strong> de OLE DB en este objeto <strong>Record</strong> de ADO.</p></td>
+<td><p>Solo escritura.<br />
+ Establece el contenedor de un objeto <strong>Row</strong> de OLE DB en este objeto <strong>Record</strong> de ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="row-property-ado.md">Fila</a></p></td>
 <td><p>Lectura y escritura.<br />
-Obtiene o establece un objeto <strong>Row</strong> de OLE DB desde o sobre este objeto <strong>Record</strong> de ADO.</p></td>
+ Obtiene y establece un objeto <strong>Row</strong> de OLE DB de/en este objeto <strong>Record</strong> de ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -53,9 +53,9 @@ Ninguno.
 
 Ninguno.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record** de ADO (), la construcción de un objeto **Record** de ADO (adoR), la cantidad a las tres siguientes operaciones básicas:
+Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record** de ADO (), la construcción de un objeto **Record** de ADO (adoR), equivale a las tres siguientes operaciones básicas:
 
 1.  Cree un objeto **Record** de ADO:
     
@@ -72,7 +72,7 @@ Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record*
                             (void**)&adoRConstruct);
     ```
 
-3.  Llamar a la **IADORecordConstruction::put\_fila** método de propiedad para establecer el objeto **Row** de OLE DB en el objeto **Record** de ADO:
+3.  Llame al método **IADORecordConstruction::p\_propiedad de fila UT** para establecer el objeto **Row** de OLE DB en el objeto **Record** de ADO:
     
     ```vb
         IUnknown *pUnk=NULL;

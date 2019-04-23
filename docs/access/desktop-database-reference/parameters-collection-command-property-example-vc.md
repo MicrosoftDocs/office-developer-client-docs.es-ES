@@ -1,5 +1,5 @@
 ---
-title: Colección de parámetros, ejemplo de la propiedad comando (VC ++)
+title: Ejemplo de colección paraMeters, propiedad comando (VC + +)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d0f5b2996fe7021c11454bff9d49c0c932bf8e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287912"
 ---
-# <a name="parameters-collection-command-property-example-vc"></a>Colección de parámetros, ejemplo de la propiedad comando (VC ++)
+# <a name="parameters-collection-command-property-example-vc"></a>Ejemplo de colección paraMeters, propiedad comando (VC + +)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) con el objeto [Command](command-object-ado.md) para recuperar información de parámetros para el procedimiento.
 

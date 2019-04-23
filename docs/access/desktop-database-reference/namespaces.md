@@ -1,5 +1,5 @@
 ---
-title: Espacios de nombres (referencia de escritorio de la base de datos de Access)
+title: Espacios de nombres (referencia de base de datos de escritorio de Access)
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 905edba502fcc2994be6f6b8e50a7200b66a82b8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288628"
 ---
 # <a name="namespaces"></a>Espacios de nombres
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El formato XML persistente en ADO utiliza los cuatro espacios de nombres siguientes:
 
@@ -27,21 +27,21 @@ El formato XML persistente en ADO utiliza los cuatro espacios de nombres siguien
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Prefijo</p></th>
+<th><p>Prefix</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>Hace referencia a la &quot;datos XML&quot; espacio de nombres que contiene los elementos y atributos que definen el esquema del <strong>conjunto de registros</strong>actual.</p></td>
+<td><p>Hace referencia al &quot;espacio de nombres&quot; de datos XML que contiene los elementos y atributos que definen el esquema del <strong>conjunto de registros</strong>actual.</p></td>
 </tr>
 <tr class="even">
-<td><p>dt</p></td>
+<td><p>DT</p></td>
 <td><p>Hace referencia a la especificación de definiciones de tipos de datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>rs</p></td>
+<td><p>Interface</p></td>
 <td><p>Hace referencia al espacio de nombres que contiene elementos y atributos específicos de propiedades y atributos del <strong>conjunto de registros</strong> de ADO.</p></td>
 </tr>
 <tr class="even">

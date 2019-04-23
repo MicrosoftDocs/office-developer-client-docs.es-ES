@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d452408337ed1aabfb94a224af4c1f1ee84a3961
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288542"
 ---
 # <a name="numericscale-and-precision-properties-example-vc"></a>Ejemplo de propiedades NumericScale y Precision (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md). Este código muestra su valor para la tabla **Detalles de pedidos** de la base de datos *Northwind* .
+En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md). Este código muestra su valor para la tabla **Detalles del pedido** de la base de datos *Neptuno*.
 
 ```cpp 
  

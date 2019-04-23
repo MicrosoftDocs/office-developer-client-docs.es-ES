@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d10a493aac39934a047c6fa311233fd6c9fac4e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288865"
 ---
 # <a name="more-ways-to-move-in-a-recordset"></a>Más formas de moverse en un conjunto de registros
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Los cuatro métodos siguientes sirven para moverse o desplazarse por el **conjunto de registros**: [MoveFirst, MoveLast, MoveNext y MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) (algunos de estos métodos no están disponibles con cursores de sólo avance).
 
@@ -40,7 +40,7 @@ If oRs.BOF Then oRs.MoveFirst
 . . . 
 ```
 
-En casos en los que se filtra u ordena el **conjunto de registros** y se cambian los datos del registro activo, es posible que también cambie la posición. En estos casos, el método **MoveNext** funciona normalmente, pero hay que tener en cuenta que la posición ha avanzado un registro respecto a la nueva posición, no respecto a la antigua. Por ejemplo, cambiando los datos en el registro actual, de modo que el registro se desplaza hasta el final del **conjunto de registros**ordenado, significa que la llamada a **MoveNext** provocará que ADO si se establece el registro actual en la posición después del último registro en el ** Conjunto de registros** (**EOF** = **es True**).
+En casos en los que se filtra u ordena el **conjunto de registros** y se cambian los datos del registro activo, es posible que también cambie la posición. En estos casos, el método **MoveNext** funciona normalmente, pero hay que tener en cuenta que la posición ha avanzado un registro respecto a la nueva posición, no respecto a la antigua. Por ejemplo, si se cambian los datos en el registro activo, de modo que el registro se mueve al final del **objeto Recordset**ordenado, significaría que llamar a **MoveNext** da como resultado ADO el valor del registro activo en la posición posterior al último registro **del Recordset** (**EOF** = **true**).
 
 El comportamiento de los diversos métodos Move del objeto **Recordset** depende, hasta cierto punto, de los datos contenidos en el **conjunto de registros**. Los nuevos registros agregados al **conjunto de registros** se agregan inicialmente en un orden determinado, que define el origen de datos y que puede depender implícita o explícitamente de los datos del nuevo registro. Por ejemplo, si se realiza una ordenación o una combinación dentro de la consulta que rellena el **conjunto de registros**, el nuevo registro se insertará en la posición apropiada en el **conjunto de registros**. Si la ordenación no se especifica explícitamente al crear el **conjunto de registros**, los cambios en la implementación del origen de datos podrían provocar que la ordenación de las filas devueltas cambiase inadvertidamente. Además, las funciones de ordenación, filtro y edición del **conjunto de registros** pueden afectar al orden y, posiblemente, a las filas del conjunto de registros que estarán visibles.
 

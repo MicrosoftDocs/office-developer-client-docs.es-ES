@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 385a3a106c04db11b36ea646368f80fe28ffd413
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280198"
 ---
 # <a name="adox-enumerated-constants"></a>Constantes enumeradas de ADOX
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Para ayudar en un proceso de depuración, las constantes enumeradas de ADOX muestran un valor para cada constante. No obstante, este valor es sólo una recomendación y puede cambiar de una versión de ADOX a otra. Su código sólo debería depender del nombre, y no del valor real, de las constantes enumeradas.
 
@@ -50,7 +50,7 @@ Se definen las constantes enumeradas siguientes.
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>Especifica el tipo de datos de un objeto <strong>Field</strong>, <strong>Parameter</strong> o <strong>Property</strong>.</p></td>
+<td><p>Especifica el tipo de datos de un <strong>campo</strong>, de un <strong>parámetro</strong> o de una <strong>propiedad</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="inherittypeenum.md">InheritTypeEnum</a></p></td>

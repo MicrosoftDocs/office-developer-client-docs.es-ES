@@ -1,5 +1,5 @@
 ---
-title: Más (referencia de escritorio de la base de datos de Access)
+title: PersistFormatEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4954c09c3eff67bb6f55dfc9e49464ad58fad5e6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287611"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el formato en el que se guardará un objeto [Recordset](recordset-object-ado.md).
 
@@ -38,7 +38,7 @@ Especifica el formato en el que se guardará un objeto [Recordset](recordset-obj
 <tbody>
 <tr class="odd">
 <td><p><strong>adPersistADTG</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Indica formato ADTG (Advanced Data TableGram).</p></td>
 </tr>
 <tr class="even">
@@ -53,7 +53,7 @@ Especifica el formato en el que se guardará un objeto [Recordset](recordset-obj
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el proveedor guardará el objeto <strong>Recordset</strong> mediante su propio formato.</p></td>
 </tr>
 </tbody>
@@ -75,10 +75,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PersistFormat.ADTG</p></td>
+<td><p>AdoEnums. PersistFormat. ADTG</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PersistFormat.XML</p></td>
+<td><p>AdoEnums. PersistFormat. XML</p></td>
 </tr>
 </tbody>
 </table>

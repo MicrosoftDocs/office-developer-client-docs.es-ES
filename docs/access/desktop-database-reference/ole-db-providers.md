@@ -1,5 +1,5 @@
 ---
-title: Proveedores de OLE DB (referencia de escritorio de la base de datos de Access)
+title: Proveedores OLE DB (referencia de base de datos de escritorio de Access)
 TOCTitle: OLE DB providers
 ms:assetid: ef412198-eac5-bf86-73fd-574e67276408
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 649f1db283b772a0f6798fae0d56a3a80c59e21b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288486"
 ---
 # <a name="ole-db-providers"></a>Proveedores OLE DB
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Guía del programador de ADO [Introducción](introduction-to-ado-programming.md) describe la relación entre ADO y el resto de la arquitectura de datos de Microsoft Access. OLE DB define un conjunto de interfaces COM que proporcionan a las aplicaciones un acceso uniforme a los datos almacenados en diversos orígenes de información. Este enfoque permite que un origen de datos comparta sus datos a través de las interfaces que admiten la funcionalidad de administración de base de datos adecuada al origen de datos. Por diseño, la arquitectura de alto rendimiento de OLE DB se basa en el uso de un modelo de servicios flexible basado en componentes. En vez de tener un número predefinido de capas intermedias entre la aplicación y los datos, OLE DB sólo requiere los componentes estrictamente necesarios para realizar una determinada tarea.
+La [Introducción](introduction-to-ado-programming.md) a la guía del programador de ADO describe la relación entre ADO y el resto de la arquitectura de acceso a datos de Microsoft. OLE DB define un conjunto de interfaces COM que proporcionan a las aplicaciones un acceso uniforme a los datos almacenados en diversos orígenes de información. Este enfoque permite que un origen de datos comparta sus datos a través de las interfaces que admiten la funcionalidad de administración de base de datos adecuada al origen de datos. Por diseño, la arquitectura de alto rendimiento de OLE DB se basa en el uso de un modelo de servicios flexible basado en componentes. En vez de tener un número predefinido de capas intermedias entre la aplicación y los datos, OLE DB sólo requiere los componentes estrictamente necesarios para realizar una determinada tarea.
 
 Por ejemplo, suponga que un usuario desea ejecutar una consulta. Considere los escenarios siguientes:
 
@@ -37,7 +37,7 @@ Los proveedores se dividen en dos categorías: aquéllos que proporcionan datos 
 
 ADO proporciona una interfaz coherente de nivel superior con los diversos proveedores OLE DB.
 
-Esta sección incluye los temas siguientes:
+Esta sección incluye los siguientes temas:
 
 - [Proveedores de datos](data-providers.md)
 

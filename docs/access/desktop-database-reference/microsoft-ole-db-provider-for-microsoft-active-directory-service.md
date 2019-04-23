@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288942"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Proveedor de Microsoft OLE DB para Servicio de Active Directory de Microsoft
+# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Proveedor de Microsoft OLE DB para el servicio Microsoft Active Directory
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El proveedor de interfaces del servicio de Active Directory (ADSI) de Microsoft permite a ADO conectarse a servicios de directorio heterogéneos mediante ADSI. Esto ofrece a las aplicaciones ADO acceso de solo lectura a los servicios de directorio de Microsoft Windows NT 4.0 y Microsoft Windows 2000, además de a cualquier servicio de directorio compatible con LDAP y a Novell Directory Services. ADSI se basa en un modelo de proveedor, de modo que si hay un nuevo proveedor que ofrece acceso a otro directorio, la aplicación ADO podrá obtener acceso a él sin problemas. El proveedor de ADSI es de subprocesamiento libre y está habilitado para Unicode.
 
@@ -89,11 +89,11 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Root</em></p></td>
+<td><p><em>Principal</em></p></td>
 <td><p>Indica el objeto <strong>ADsPath</strong> desde el que se inicia la búsqueda (es decir, la raíz de la búsqueda).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filtro</em></p></td>
+<td><p><em>Filter</em></p></td>
 <td><p>Indica el filtro de búsqueda en el formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -101,10 +101,10 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 <td><p>Indica una lista de los atributos que se van a devolver delimitada por comas.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Ámbito</em></p></td>
-<td><p>Opcional. Una <strong>cadena</strong> que especifica el ámbito de la búsqueda. Puede ser una de las siguientes opciones: Base: sólo busca el objeto base (raíz de la búsqueda).<br />
-OneLevel: Busca en un solo nivel.<br />
-Subárbol: Buscar en todo el subárbol.</p></td>
+<td><p><em>Scope</em></p></td>
+<td><p>Opcional. Un valor de tipo <strong>String</strong> que especifica el ámbito de la búsqueda. Puede ser una de las siguientes opciones: base: buscar sólo el objeto base (raíz de la búsqueda).<br />
+OneLevel: sólo busca en un nivel.<br />
+SUBTREE: busca en todo el subárbol.</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +129,7 @@ El proveedor no acepta llamadas a procedimientos almacenados o nombres de tabla 
 
 ## <a name="recordset-behavior"></a>Comportamiento del objeto Recordset
 
-En las tablas siguientes se enumeran las características disponibles en un objeto [Recordset](recordset-object-ado.md) abierto con este proveedor. El tipo de cursor estático (**adOpenStatic**) está disponible.
+En las tablas siguientes se enumeran las características disponibles en un objeto [Recordset](recordset-object-ado.md) abierto con este proveedor. Solo está disponible el tipo de cursor estático (**adOpenStatic**).
 
 Para obtener información más detallada acerca del comportamiento del objeto **Recordset** para la configuración del proveedor, ejecute el método [Supports](supports-method-ado.md) y enumere la colección [Properties](properties-collection-ado.md) del objeto **Recordset** para determinar si las propiedades dinámicas específicas del proveedor están presentes.
 
@@ -188,7 +188,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -197,7 +197,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>No disponible</p></td>
+<td><p>no disponible</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -241,12 +241,12 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <thead>
 <tr class="header">
 <th><p>Método</p></th>
-<th><p>¿Disponible?</p></th>
+<th><p>Disponga?</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
+<td><p><a href="addnew-method-ado.md">Funcionan</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -270,7 +270,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -282,11 +282,11 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Métodos MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveLast</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Velas</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
@@ -314,11 +314,11 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Admite</a></p></td>
+<td><p><a href="supports-method-ado.md">Admita</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
+<td><p><a href="update-method-ado.md">Actualización</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">

@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b44bf60399cd3bdab9e5a1e51d13cbfc1daaba6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283243"
 ---
 # <a name="ado-programmers-guide"></a>Guía del programador de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Guía del programador de ADO se ha creado para ayudar a los desarrolladores que son nuevos en ADO ofreciéndoles una introducción completa a la tecnología. Esta guía describe las bibliotecas de la familia de ADO y utiliza códigos de ejemplo en diversos lenguajes para explicar cómo utilizar las bibliotecas, prácticas recomendadas para usar las bibliotecas, y sugerencias y trucos para maximizar el rendimiento de una aplicación de ADO.
+La guía del programador de ADO se ha creado para ayudar a los desarrolladores que no están familiarizados con ADO proporcionándoles una introducción completa a la tecnología. Esta guía describe las bibliotecas de la familia de ADO y utiliza códigos de ejemplo en diversos lenguajes para explicar cómo utilizar las bibliotecas, prácticas recomendadas para usar las bibliotecas, y sugerencias y trucos para maximizar el rendimiento de una aplicación de ADO.
 
-Guía del programador de ADO contiene las secciones y los capítulos siguientes:
+La guía del programador de ADO contiene las secciones y capítulos siguientes:
 
 - [Introducción](introduction-to-ado-programming.md)
   
@@ -30,7 +30,7 @@ Guía del programador de ADO contiene las secciones y los capítulos siguientes:
     - [Capítulo 2: Obtener datos](chapter-2-getting-data.md)
     - [Capítulo 3: Examinar datos](chapter-3-examining-data.md)
     - [Capítulo 4: Modificar datos](chapter-4-editing-data.md)
-    - [Capítulo 5: Actualizar y almacenar datos](chapter-5-updating-and-persisting-data.md)
+    - [Capítulo 5: Actualizar y almacenar datos.](chapter-5-updating-and-persisting-data.md)
     - [Capítulo 6: Tratamiento de errores](chapter-6-error-handling.md)
     - [Capítulo 7: Controlar eventos de ADO](chapter-7-handling-ado-events.md)
     - [Capítulo 8: Cursores y bloqueos](chapter-8-understanding-cursors-and-locks.md)

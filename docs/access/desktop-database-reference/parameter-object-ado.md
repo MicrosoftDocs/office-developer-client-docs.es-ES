@@ -1,5 +1,5 @@
 ---
-title: Parameter (objeto, ADO)
+title: Parameter (objeto) (ADO)
 TOCTitle: Parameter object (ADO)
 ms:assetid: 7577598e-3d0c-30c6-5f24-1cfe98791798
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d6f3acd4af280f30706e35eb7ecda1dee11aa7d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288080"
 ---
-# <a name="parameter-object-ado"></a>Parameter (objeto, ADO)
+# <a name="parameter-object-ado"></a>Parameter (objeto) (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un parámetro o un argumento asociado a un objeto [Command](command-object-ado.md) basado en una consulta parametrizada o un procedimiento almacenado.
 

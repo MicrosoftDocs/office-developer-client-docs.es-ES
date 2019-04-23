@@ -8,15 +8,15 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 99c88249180a0c8aeb7baff0e81a7c9e590a5ef4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280584"
 ---
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>Ejemplo de las propiedades ActualSize y DefinedSize (JScript)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utilizan las propiedades [ActualSize](actualsize-property-ado.md) y [DefinedSize](definedsize-property-ado.md) para mostrar el tamaño definido y el tamaño real de un campo. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto, y guárdelo como **ActualSizeJS.asp**.
 

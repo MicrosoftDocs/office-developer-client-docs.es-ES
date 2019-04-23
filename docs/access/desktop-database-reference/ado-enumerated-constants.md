@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05e5d3a77dc7db5ef5a0d81a3f13d5fc5987f5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283411"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes enumeradas de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada constante. Sin embargo, este valor es puramente consultivo y puede cambiar de una versión a otra de ADO. El código sólo debería depender del nombre, no del valor real, de cada constante enumerada.
 
@@ -34,11 +34,11 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
-<td><p>Para un objeto <strong>Recordset</strong> de RDS, especifica la prioridad de ejecución del subproceso asincrónico que recupera datos.</p></td>
+<td><p>Para un objeto <strong>Recordset</strong> RDS, especifica la prioridad de ejecución del subproceso asincrónico que recupera datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-autorecalc-enum.md">ADCPROP_AUTORECALC_ENUM</a></p></td>
-<td><p>Especifica cuándo el proveedor <strong>MSDataShape</strong> vuelve a calcula columnas agregadas y calculadas en un <strong>conjunto de registros</strong>de jerárquico.</p></td>
+<td><p>Especifica cuándo el proveedor <strong>MSDataShape</strong> vuelve a calcular columnas agregadas y calculadas en un objeto <strong>Recordset</strong> jerárquico.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-updatecriteria-enum.md">ADCPROP_UPDATECRITERIA_ENUM</a></p></td>
@@ -46,7 +46,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-updateresync-enum.md">ADCPROP_UPDATERESYNC_ENUM</a></p></td>
-<td><p>Especifica si al método <strong>UpdateBatch</strong> le sigue una operación implícita del método <strong>Resync</strong> y, si es así, el ámbito de esa operación.</p></td>
+<td><p>Especifica si el método <strong>UpdateBatch</strong> va seguido de una operación implícita del método <strong>Resync</strong> y, en ese caso, el ámbito de esa operación.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="affectenum.md">AffectEnum</a></p></td>
@@ -66,7 +66,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="odd">
 <td><p><a href="connectmodeenum.md">ConnectModeEnum</a></p></td>
-<td><p>Especifica los permisos disponibles para modificar datos en un objeto <strong>Connection</strong>, abrir un <strong>Record</strong> o especificar los valores de la propiedad <strong>Mode</strong> de los objetos <strong>Record</strong> y <strong>Stream</strong>.</p></td>
+<td><p>Especifica los permisos disponibles para modificar datos de un objeto <strong>Connection</strong>, abrir un <strong>Record</strong> o especificar valores para la propiedad <strong>Mode</strong> de los objetos <strong>Record</strong> y <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connectoptionenum.md">ConnectOptionEnum</a></p></td>
@@ -86,7 +86,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="even">
 <td><p><a href="cursoroptionenum.md">CursorOptionEnum</a></p></td>
-<td><p>Especifica qué funcionalidad debería comprobar el método <strong>Supports</strong>.</p></td>
+<td><p>Especifica qué funcionalidad debería probar el método <strong>Supports</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursortypeenum.md">CursorTypeEnum</a></p></td>
@@ -94,7 +94,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>Especifica el tipo de datos de un objeto <strong>Field</strong>, <strong>Parameter</strong> o <strong>Property</strong>.</p></td>
+<td><p>Especifica el tipo de datos de un <strong>campo</strong>, <strong>parámetro</strong> o <strong>propiedad</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmodeenum.md">EditModeEnum</a></p></td>
@@ -130,7 +130,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="odd">
 <td><p><a href="filtergroupenum.md">FilterGroupEnum</a></p></td>
-<td><p>Especifica el grupo de registros que se van a filtrar desde un objeto <strong>Recordset</strong>.</p></td>
+<td><p>Especifica el grupo de registros que se deben filtrar en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="getrowsoptionenum.md">GetRowsOptionEnum</a></p></td>
@@ -146,7 +146,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="odd">
 <td><p><a href="locktypeenum.md">LockTypeEnum</a></p></td>
-<td><p>Especifica el tipo de bloqueo colocado en los registros durante su modificación.</p></td>
+<td><p>Especifica el tipo de bloqueo colocado en registros durante su modificación.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="marshaloptionsenum.md">MarshalOptionsEnum</a></p></td>
@@ -170,7 +170,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="odd">
 <td><p><a href="persistformatenum.md">PersistFormatEnum</a></p></td>
-<td><p>Especifica el formato en el que se guardará un objeto <strong>Recordset</strong>.</p></td>
+<td><p>Especifica el formato en que se guardará un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="positionenum.md">PositionEnum</a></p></td>
@@ -198,7 +198,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="even">
 <td><p><a href="resyncenum.md">ResyncEnum</a></p></td>
-<td><p>Especifica si los valores subyacentes se sobrescriben al realizar una llamada a <strong>Resync</strong>.</p></td>
+<td><p>Especifica si los valores subyacentes se sobrescriben con una llamada a <strong>Resync</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="saveoptionsenum.md">SaveOptionsEnum</a></p></td>
@@ -238,7 +238,7 @@ Para ayudar en la depuración, las enumeraciones ADO muestran un valor para cada
 </tr>
 <tr class="even">
 <td><p><a href="xactattributeenum.md">XactAttributeEnum</a></p></td>
-<td><p>Especifica los atributos de transacción de un objeto <strong> Connection </strong>.</p></td>
+<td><p>Especifica los atributos de transacción de un objeto <strong> Connection</strong>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4106e66074975f08a5058aafbfc0c6deac156277
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289839"
 ---
 # <a name="logevent-macro-action"></a>RegistrarEvento (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La acción **RegistrarEvento** escribe información en la tabla de sistema **USysApplicationLog**.
 
 > [!NOTE]
-> [!NOTA] La acción **RegistrarEvento** solo está disponible en macros de datos.
+> La acción **RegistrarEvento** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 La acción **RegistrarEvento** utiliza los siguientes argumentos.
 
@@ -35,7 +35,7 @@ La acción **RegistrarEvento** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obligatorio</p></th>
 <th><p>Descripción</p></th>
 </tr>

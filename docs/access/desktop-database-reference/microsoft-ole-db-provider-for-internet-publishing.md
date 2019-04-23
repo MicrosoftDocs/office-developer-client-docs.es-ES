@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 38183cd8306f2425a362bd2650639120a2d16845
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288970"
 ---
-# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>OLE DB Provider for Internet Publishing
+# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Proveedor de Microsoft OLE DB para publicaciones en Internet
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Microsoft OLE DB Provider for Internet Publishing permite que ADO obtenga acceso a recursos proporcionados por Microsoft FrontPage o Microsoft Internet Information Server. Los recursos incluyen archivos Web de código fuente como archivos HTML o carpetas Web de Windows 2000.
 
@@ -40,7 +40,7 @@ Una típica cadena de conexión de este proveedor es:
 "Provider=MSDAIPP.DSO;Data Source=ResourceURL;User ID=userName;Password=userPassword;" 
 ```
 
-\-o -
+\-o
 
 ```vb 
  
@@ -67,7 +67,7 @@ La cadena consta de estas palabras clave:
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> o <strong>URL</strong></p></td>
-<td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta web.</p></td>
+<td><p>Especifica la dirección URL de un archivo o directorio publicado en una carpeta Web.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
@@ -84,5 +84,5 @@ La cadena consta de estas palabras clave:
 Si se establece el valor de *ResourceURL* desde la "URL=" de la cadena de conexión en un valor no válido, el Proveedor para Publicación en Internet muestra de forma predeterminada un cuadro de diálogo para solicitar un valor válido. Se trata de un comportamiento no deseado de un componente del nivel intermedio de una aplicación, dado que detiene la ejecución del programa hasta que se borra el cuadro de diálogo y parece que el cliente esté bloqueado debido a que no ha recibido una respuesta del componente.
 
 > [!NOTE]
-> Si MSDAIPP. DSO se especifica explícitamente como el valor del proveedor, ya sea con la palabra clave la cadena de conexión de *proveedor* o la propiedad **Provider** , no se puede usar "dirección URL =" en la cadena de conexión. Si se hace así, se producirá un error. En lugar de esto, especifique la dirección URL como se muestra en el tema [Utilizar ADO con OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md).
+> Si se especifica MSDAIPP.DSO de forma explícita como valor del proveedor, ya sea con la palabra clave *Provider* de la cadena de conexión o la propiedad **Provider**, no es posible utilizar la "URL=" de la cadena de conexión. Si se hace así, se producirá un error. En lugar de esto, especifique la dirección URL como se muestra en el tema [Utilizar ADO con OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md).
 

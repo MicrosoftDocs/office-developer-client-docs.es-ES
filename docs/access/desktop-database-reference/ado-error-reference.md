@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a7f756af1422588d99fcffe1ae1413422131b70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283397"
 ---
 # <a name="ado-error-reference"></a>Referencia de errores en ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La constante **ErrorValueEnum** describe los valores de error en ADO. Para consultar una lista completa de estas constantes enumeradas, incluyendo sus valores, vea [Apéndice B: Errores de ADO](appendix-b-ado-errors.md). En esta sección, se examinan algunos de los errores más interesantes y se explican algunas situaciones específicas que pueden causarlos, o soluciones para corregir el problema. Se indica la constante **ErrorValueEnum** y el número decimal positivo corto.
 
@@ -222,7 +222,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>No existe la dirección URL de origen o la dirección URL del elemento principal de destino. Hay un error tipográfico en la dirección URL de origen o de destino. Es posible que deba https://mysite/photo/myphoto.jpg cuando en realidad debiera tener https://mysite/photos/myphoto.jpg en su lugar. El error tipográfico en la dirección URL principal (en este caso, <em>photo</em> en vez de <em>photos</em>) ha provocado el error.</p></td>
+<td><p>No existe la dirección URL de origen o la dirección URL del elemento principal de destino. Hay un error tipográfico en la dirección URL de origen o de destino. Es posible que https://mysite/photo/myphoto.jpg tenga que hacerlo realmente https://mysite/photos/myphoto.jpg . El error tipográfico en la dirección URL primaria (en este caso, <em>photo</em> en lugar de <em>photos</em>) causó un error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

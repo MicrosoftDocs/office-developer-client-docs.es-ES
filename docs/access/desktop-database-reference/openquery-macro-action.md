@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288346"
 ---
 # <a name="openquery-macro-action"></a>AbrirConsulta (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **AbrirConsulta** para abrir una consulta de selección o de tabla de referencias cruzadas en la vista Hoja de datos, vista Diseño o Vista preliminar. Esta acción ejecuta una consulta de acción. También puede seleccionar un modo de entrada de datos para la consulta.
 
@@ -45,7 +45,7 @@ La acción **AbrirConsulta** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de la consulta</strong></p></td>
-<td><p>El nombre de la consulta para abrir. El cuadro <strong>Nombre de la consulta</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las consultas en la base de datos actual. Este es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirConsulta</strong> en una base de datos de biblioteca, Microsoft Access busca primero la consulta con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
+<td><p>Nombre de la consulta que se va a abrir. El cuadro Nombre de la <strong>consulta</strong> en la sección <strong>argumentos de acción</strong> del panel generador de macros muestra todas las consultas de la base de datos activa. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>AbrirConsulta</strong> en una base de datos de biblioteca, Microsoft Access primero busca la consulta con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
