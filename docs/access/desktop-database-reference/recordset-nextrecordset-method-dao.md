@@ -1,5 +1,5 @@
 ---
-title: Método Recordset.NextRecordset (DAO)
+title: Método Recordset. NextRecordset (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 4a3a6176-0aa0-efb6-b175-dbe23e266abc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193483(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 39e508830b41e7b3f74f548451a30132723d210f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284500"
 ---
-# <a name="recordsetnextrecordset-method-dao"></a>Método Recordset.NextRecordset (DAO)
+# <a name="recordsetnextrecordset-method-dao"></a>Método Recordset. NextRecordset (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -29,9 +29,9 @@ ms.locfileid: "28713257"
 
 Booleano
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-En un área de trabajo de ODBCDirect, puede abrir un **[objeto Recordset](recordset-object-dao.md)** que contiene más de una consulta de selección en el argumento source de **OpenRecordset**o la propiedad **[SQL](querydef-sql-property-dao.md)** de una objeto **[QueryDef](querydef-object-dao.md)** , como se muestra en el siguiente ejemplo de consulta de selección.
+En un área de trabajo de ODBCDirect, puede abrir un objeto **[Recordset](recordset-object-dao.md)** que contenga más de una consulta de selección en el argumento Source de **OpenRecordset**o la propiedad **[SQL](querydef-sql-property-dao.md)** de un objeto **[QueryDef](querydef-object-dao.md)** de una consulta de selección, como en el ejemplo siguiente.
 
 ```sql
     SELECT LastName, FirstName FROM Authors 
@@ -48,7 +48,7 @@ También puede usar el método **[Cancel](connection-cancel-method-dao.md)** par
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se usa el método **NextRecordset** para ver los datos de una consulta SELECT compuesta. La propiedad **DefaultCursorDriver** debe estar establecida en **dbUseODBCCursor** al ejecutar dichas consultas. El método **NextRecordset** devolverá **True** incluso si todas o algunas de las instrucciones SELECT devuelven cero registros; solo devolverá **False** después de que se hayan comprobado todas las cláusulas SQL individuales.
+En este ejemplo se usa el método **NextRecordset** para ver los datos de una consulta SELECT compuesta. La propiedad **DefaultCursorDriver** debe estar establecida en **dbUseODBCCursor** al ejecutar estas consultas. El método **NextRecordset** devolverá **True** incluso si algunas o todas las instrucciones SELECT no devuelven registro alguno; devolverá **False** solo después de que se hayan comprobado todas las cláusulas SQL individuales.
 
 ```vb
     Sub NextRecordsetX() 

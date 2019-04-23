@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283404"
 ---
 # <a name="ado-dynamic-property-index"></a>Índice de propiedades dinámicas de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Los proveedores de datos, servicios y los componentes de servicios pueden agregar propiedades dinámicas a las colecciones **Properties** de los objetos [Connection](connection-object-ado.md) y [Recordset](recordset-object-ado.md) sin abrir. Un proveedor determinado también puede insertar propiedades adicionales al abrir estos objetos. Algunas de estas propiedades se enumeran en la sección [Propiedades dinámicas de ADO](ado-dynamic-properties.md). Aparecen más bajo los proveedores concretos en la sección [Apéndice A: Proveedores](appendix-a-providers.md).
 
@@ -38,7 +38,7 @@ Tenga en cuenta los números utilizados en el índice cruzado:
 
 (1) Esta propiedad es una marca booleana que indica si se debe usar la interfaz con nombre. El nombre de la propiedad de OLE DB equivalente aparece si existe.
 
-(2) la propiedad ADO "Bookmarkable" es genera internamente para hacia atrás compatibilidad y se asigna a la propiedad de OLE DB, DBPROP\_IROWSETLOCATE. Se trata de la misma propiedad que corresponde a la propiedad ADO, IRowsetLocate.
+(2) la propiedad ADO "Bookmarkable" se genera internamente para la compatibilidad con versiones anteriores y se asigna a la propiedad de OLE\_dB DBPROP IROWSETLOCATE. Se trata de la misma propiedad que corresponde a la propiedad ADO, IRowsetLocate.
 
 (3) El nombre de la propiedad ADO, "Hidden Columns", es distinto al de la propiedad de OLE DB, "Hidden Columns Count".
 
@@ -338,7 +338,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="even">
 <td><p>IChapteredRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IColumnsInfo</p></td>
@@ -354,7 +354,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="even">
 <td><p>IConvertType</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>ILockBytes</p></td>
@@ -370,7 +370,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="even">
 <td><p>IParentRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetChange</p></td>
@@ -378,7 +378,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="even">
 <td><p>IRowsetExactScroll</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetFind</p></td>
@@ -402,7 +402,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="even">
 <td><p>IRowsetResynch</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetScroll</p></td>
@@ -614,7 +614,7 @@ Tenga en cuenta que las **propiedades dinámicas** del objeto **Recordset** se s
 </tr>
 <tr class="odd">
 <td><p>Private1</p></td>
-<td><p>(5)</p></td>
+<td><p>2,5</p></td>
 </tr>
 <tr class="even">
 <td><p>Quick Restart</p></td>

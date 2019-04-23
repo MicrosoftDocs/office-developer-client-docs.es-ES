@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (referencia de escritorio de la base de datos de Access)
+title: LockTypeEnum (referencia de bases de datos de escritorio de Access)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289867"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de bloqueo colocado en los registros durante su modificación.
 
@@ -46,7 +46,7 @@ Especifica el tipo de bloqueo colocado en los registros durante su modificación
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica un bloqueo pesimista, registro por registro. El proveedor realiza las acciones necesarias para garantizar la modificación correcta de los registros, normalmente bloqueando los registros en el origen de datos inmediatamente después de la modificación.</p></td>
 </tr>
 <tr class="even">
@@ -78,19 +78,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. BATCHOPTIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. OPTIMISTic</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
+<td><p>AdoEnums. LockType. PESIMISTA</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.READONLY</p></td>
+<td><p>AdoEnums. LockType. READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. LockType. no especificado</p></td>
 </tr>
 </tbody>
 </table>

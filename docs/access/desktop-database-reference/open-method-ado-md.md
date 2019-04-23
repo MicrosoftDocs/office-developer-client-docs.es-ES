@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54f7ce4d5d588e644707cd7b466c29f619850824
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288402"
 ---
 # <a name="open-method-ado-md"></a>Open (método, ADO MD)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Recupera los resultados de una consulta multidimensional y devuelve los resultados a un conjunto de celdas.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Conjunto de celdas*. Abrir*origen*, *ActiveConnection*
+*Cellset*. Open*source*, *ActiveConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
-|*Source* |Opcional. Un valor **Variant** que da como resultado una consulta multidimensional válida, como una consulta de expresión multidimensional (MDX). El argumento *Source* corresponde a la propiedad [Source](source-property-ado-md.md) . Para obtener más información acerca de MDX, vea la documentación de OLE DB para OLAP en el SDK de Microsoft Data Access Components.|
-|*ActiveConnection* |Opcional. Un valor **Variant** que da como resultado una cadena que especifica un nombre válido de variable de objeto [Connection](connection-object-ado.md) de ADO o una definición para una conexión. El argumento *ActiveConnection* especifica la conexión en la que se va a abrir el objeto de [conjunto de celdas](cellset-object-ado-md.md) . Si pasa una definición de conexión para este argumento, ADO abre una conexión nueva con los parámetros especificados. El argumento *ActiveConnection* corresponde a la propiedad [ActiveConnection](activeconnection-property-ado-md.md) .|
+|*Source* |Opcional. Un valor **Variant** que da como resultado una consulta multidimensional válida, como una consulta de expresión multidimensional (MDX). El argumento *Source* corresponde a la propiedad [Source](source-property-ado-md.md). Para obtener más información acerca de MDX, vea la documentación de OLE DB para OLAP en el SDK de Microsoft Data Access Components.|
+|*ActiveConnection* |Opcional. Un valor **Variant** que da como resultado una cadena que especifica un nombre válido de variable de objeto [Connection](connection-object-ado.md) de ADO o una definición para una conexión. El argumento *ActiveConnection* especifica la conexión durante la que se abrirá el objeto [Cellset](cellset-object-ado-md.md). Si pasa una definición de conexión para este argumento, ADO abre una conexión nueva que utiliza los parámetros especificados. El argumento *ActiveConnection* corresponde a la propiedad [ActiveConnection](activeconnection-property-ado-md.md).|
 
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: Miembros de los parámetros (DAO)
+title: Miembros de parámetros (DAO)
 TOCTitle: Parameters Members
 ms:assetid: 28a361e4-f57d-b44f-a839-29037a47621d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4bfc1ae7602926df434e219a470e4969ccae34e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287856"
 ---
-# <a name="parameters-members-dao"></a>Miembros de los parámetros (DAO)
+# <a name="parameters-members-dao"></a>Miembros de parámetros (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección Parameters contiene los objetos Parameter de un objeto QueryDef.
 
@@ -59,7 +59,7 @@ Una colección Parameters contiene los objetos Parameter de un objeto QueryDef.
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="parameters-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
+<td><p>Devuelve el número de objetos de la colección especificada. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

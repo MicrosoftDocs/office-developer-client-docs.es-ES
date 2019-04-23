@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 48a3797c2008f261eda8acc3391b39561fec05f3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288297"
 ---
 # <a name="opentable-macro-action"></a>AbrirTabla (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **AbrirTabla** para abrir una tabla en la vista Hoja de datos, vista Diseño o Vista preliminar. También puede seleccionar un modo de entrada de datos para la tabla.
 
@@ -42,7 +42,7 @@ La acción **AbrirTabla** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de la tabla</strong></p></td>
-<td><p>El nombre de la tabla que se va a abrir. El cuadro <strong>Nombre de la tabla</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las tablas en la base de datos actual. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>AbrirTabla</strong> en una base de datos de biblioteca, Microsoft Access primero busca la tabla con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre de la tabla que se va a abrir. El cuadro <strong>Nombre de la tabla</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las tablas de la base de datos activa. Éste es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirTabla</strong> en una base de datos de biblioteca, Microsoft Access primero busca la tabla con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

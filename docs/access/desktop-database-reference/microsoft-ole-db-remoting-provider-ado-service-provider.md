@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54ea659aa5392dd4404ffb591eba06f1f9c2910b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288907"
 ---
-# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Proveedor de servicios remotos de Microsoft OLE DB (proveedor de servicios ADO)
+# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Proveedor de comunicación remota de Microsoft OLE DB (proveedor de servicios ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El Proveedor de servicios remotos de Microsoft OLE DB permite a un usuario local de un equipo cliente llamar a proveedores de datos en un equipo remoto. Especifique los parámetros del proveedor de datos del equipo remoto del mismo modo que si fuera un usuario local del equipo remoto. A continuación, especifique los parámetros usados por el Proveedor de servicios remotos para obtener acceso al equipo remoto. El resultado es que podrá obtener acceso al equipo remoto como si fuera un usuario local.
 
@@ -47,7 +47,7 @@ Cuando se llama a este proveedor, también son importantes las siguientes palabr
 <tbody>
 <tr class="odd">
 <td><p><strong>Data Source</strong></p></td>
-<td><p>Especifica el nombre del origen de datos remoto. Se pasa al proveedor de servicios remotos de OLE DB para el procesamiento. Esta palabra clave es equivalente a la propiedad <a href="connect-property-rds.md">Connect</a> del objeto <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</p></td>
+<td><p>Especifica el nombre del origen de datos remoto. Se pasa al Proveedor de servicios remotos de OLE DB para su procesamiento. Esta palabra clave es equivalente a la propiedad <a href="connect-property-rds.md">Connect</a> del objeto <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,13 +71,13 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 <tbody>
 <tr class="odd">
 <td><p><strong>DFMode</strong></p></td>
-<td><p>Indica el modo DataFactory. Una cadena que especifica la versión deseada del objeto <a href="datafactory-object-rdsserver.md">DataFactory</a> en el servidor. Establecer esta propiedad antes de abrir una conexión para solicitar una versión concreta de <strong>DataFactory</strong>. Si la versión solicitada no está disponible, un intento de estarán para usar la versión anterior. Si no hay ninguna versión anterior, se producirá un error. Si <strong>DFMode</strong> es menor que la versión disponible, se producirá un error. Esta propiedad es de sólo lectura después de establecer una conexión. Puede ser uno de los siguientes valores de cadena válidos:</p>
+<td><p>Indica el modo DataFactory. Una cadena que especifica la versión deseada del objeto <a href="datafactory-object-rdsserver.md">DataFactory</a> del servidor. Establezca esta propiedad antes de establecer una conexión para solicitar una versión concreta del objeto <strong>DataFactory</strong>. Si la versión solicitada no está disponible, se intentará utilizar la versión anterior. Si no hay una versión anterior, se producirá un error. Si <strong>DFMode</strong> es inferior a la versión disponible, se producirá un error. Después de haber establecido la conexión, esta propiedad es de solo lectura. Puede ser uno de los siguientes valores de cadena válidos:</p>
 <p></p>
 <ul>
-<li><p>&quot;25&quot; — versión 2.5 (predeterminada)</p></li>
-<li><p>&quot;21&quot; — versión 2.1</p></li>
-<li><p>&quot;20&quot; — versión 2.0</p></li>
-<li><p>&quot;15&quot; — versión 1.5</p></li>
+<li><p>&quot;25&quot; : versión 2,5 (predeterminado)</p></li>
+<li><p>&quot;21&quot; : versión 2,1</p></li>
+<li><p>&quot;20&quot; : versión 2,0</p></li>
+<li><p>&quot;15&quot; , versión 1,5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -87,7 +87,7 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 </tr>
 <tr class="odd">
 <td><p><strong>Current DFMode</strong></p></td>
-<td><p>Indica el número de versión real del <strong>objeto DataFactory</strong> en el servidor. Comprobar esta propiedad para ver si se ha aplicado la versión solicitada en la propiedad <strong>DFMode</strong> . Puede ser uno de los siguientes valores válidos de tipo entero largo:</p>
+<td><p>Indica el número de versión real del objeto <strong>DataFactory</strong> del servidor. Compruebe esta propiedad para ver si se ha aplicado la versión solicitada en la propiedad <strong>DFMode</strong>. Puede ser uno de los siguientes valores válidos de tipo entero largo:</p>
 <p></p>
 <ul>
 <li><p>25  — versión 2.5 (predeterminada)</p></li>
@@ -96,7 +96,7 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 <li><p>15  — versión 1.5</p></li>
 </ul>
 <p></p>
-<p>Adición de &quot;DFMode = 20; &quot; para la conexión de cadena cuando se utiliza el proveedor <strong>MSRemote</strong> puede mejorar el rendimiento del servidor durante la actualización de datos. Con este valor, el objeto <strong>RDSServer.DataFactory</strong> del servidor utiliza un modo que emplea menos recursos. No obstante, en esta configuración no están disponibles las siguientes características:</p>
+<p>Adición &quot;de DFMode = 20; &quot; a la cadena de conexión cuando se usa el proveedor <strong>MSRemote</strong> puede mejorar el rendimiento del servidor al actualizar datos. Con este valor, el objeto <strong>RDSServer.DataFactory</strong> del servidor utiliza un modo que emplea menos recursos. No obstante, en esta configuración no están disponibles las siguientes características:</p>
 <p></p>
 <ul>
 <li><p>Uso de consultas parametrizadas.</p></li>
@@ -112,7 +112,7 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 </tr>
 <tr class="even">
 <td><p><strong>Controlador</strong></p></td>
-<td><p>Indica el nombre de un programa de personalización del servidor (o controlador) que amplía la funcionalidad de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>y de cualquier parámetro utilizado por el controlador de<em>,</em> todos los separados por comas (&quot;,&quot;). Valor de tipo <strong>String</strong>.</p></td>
+<td><p>Indica el nombre de un programa de personalización del servidor (o controlador) que amplía la funcionalidad de <a href="datafactory-object-rdsserver.md">RDSServer. DataFactory</a>y de cualquier parámetro utilizado por el controlador<em>,</em> todo separado por comas (&quot;,&quot;). Un valor de tipo <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>
@@ -152,9 +152,9 @@ cn.Properties("Internet Timeout") = 5000
 
 ## <a name="remarks"></a>Comentarios
 
-En ADO 2.0, sólo se podría especificar el proveedor de servicios remotos de OLE DB en el parámetro *ActiveConnection* del método **Open** del objeto [Recordset](recordset-object-ado.md) . A partir de ADO 2.1, también se puede especificar el proveedor en el parámetro *ConnectionString* del método **Open** del objeto de [conexión](connection-object-ado.md) .
+En ADO 2.0, solo se podría especificar el Proveedor de servicios remotos de OLE DB en el parámetro *ActiveConnection* del método **Open** del objeto [Recordset](recordset-object-ado.md). Con ADO 2.1, también se puede especificar el proveedor en el parámetro *ConnectionString* del método **Open** del objeto [Connection](connection-object-ado.md).
 
-El equivalente de la propiedad **SQL** del objeto [RDS.DataControl](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) no está disponible. El argumento *Source* del método **Open** del objeto [Recordset](recordset-object-ado.md) se usa en su lugar.
+El equivalente de la propiedad [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) del objeto **RDS.DataControl** no está disponible. En su lugar se usa el argumento *Source* del método **Open** del objeto [Recordset](recordset-object-ado.md).
 
 La especificación de "...;Remote Provider=MS Remote;..." crearía un escenario de cuatro niveles. No se han probado los escenarios de más de tres niveles y no deberían ser necesarios.
 

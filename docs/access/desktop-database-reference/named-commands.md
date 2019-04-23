@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40ce95c5879f5da9615c66d132d6c4847fae1569
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288647"
 ---
 # <a name="named-commands"></a>Comandos con nombre
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se puede establecer la propiedad **Name** en un objeto **Command** y después, ejecutar el comando llamándolo como si fuese un método para la propiedad **ActiveConnection** del objeto **Command**. Esto se muestra en el ejemplo siguiente, en el que el comando se denomina *GetCustomers*. Observe que el código pasa un objeto **Recordset** declarado y del que se creó una instancia al "método" GetCustomers. También se pueden pasar parámetros al "método" si así lo requiere el **comando**.
 

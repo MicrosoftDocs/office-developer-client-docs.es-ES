@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb66650feb510e07e1c5fd98a241f7c70188baab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288717"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vj"></a>Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious (VJ++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se usan los métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) y [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover el puntero de registro de un objeto [Recordset](recordset-object-ado.md) en función del comando proporcionado. Se requiere el procedimiento de MoveAny para que pueda ejecutarse este procedimiento.
 

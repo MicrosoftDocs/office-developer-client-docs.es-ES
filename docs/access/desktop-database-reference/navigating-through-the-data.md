@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 226d930f0f4e532a1de4633c00cd72472a94fac1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288598"
 ---
 # <a name="navigating-through-the-data"></a>Navegación por los datos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Ahora que ha ejecutado un comando en el origen de datos y determinado que el conjunto de resultados contiene datos, puede moverse por los resultados mediante los métodos de desplazamiento y las propiedades disponibles con el objeto **Recordset**. 
 
 En los siguientes temas, se describe cómo usar estos métodos y propiedades con el **conjunto de registros** de ejemplo:
 
-- [Saltar a un registro](jumping-to-a-record.md)
+- [Salto a un registro](jumping-to-a-record.md)
 - [Más formas de moverse en un conjunto de registros](more-ways-to-move-in-a-recordset.md)
 - [Uso de marcadores](using-bookmarks.md)
 - [Uso de páginas](using-pages.md)
-- [Posicionamiento de conjunto de registros](recordset-positioning.md)
+- [Posicionamiento de un conjunto de registros](recordset-positioning.md)
 

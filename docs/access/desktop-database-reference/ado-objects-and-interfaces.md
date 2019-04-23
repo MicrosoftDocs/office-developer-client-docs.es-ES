@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283264"
 ---
 # <a name="ado-objects-and-interfaces"></a>Interfaces y objetos de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Las relaciones entre estos objetos se representan en el modelo de objetos de ActiveX Data Objects (ADO).
 
-Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información, vea [colecciones de ADO](ado-collections.md) o el tema de una colección específica.
+Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información, vea [colecciones de ADO](ado-collections.md) o un tema de una colección específica.
 
 <br/>
 
@@ -31,7 +31,7 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Objeto</th>
+<th>Object</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -63,11 +63,11 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 <td><p>Representa un parámetro o un argumento asociado a un objeto <strong>Command</strong> basado en una consulta parametrizada o un procedimiento almacenado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Propiedad</a></p></td>
+<td><p><a href="property-object-ado.md">Property</a></p></td>
 <td><p>Representa una característica dinámica de un objeto ADO definido por el proveedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="record-object-ado.md">Registro</a></p></td>
+<td><p><a href="record-object-ado.md">Record</a></p></td>
 <td><p>Representa una fila de un <strong>Recordset</strong> o un directorio o un archivo de un sistema de archivos.</p></td>
 </tr>
 <tr class="even">

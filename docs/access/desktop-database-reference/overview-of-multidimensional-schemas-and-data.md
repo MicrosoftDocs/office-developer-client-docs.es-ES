@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d65378bf964ad8c6e81a08cb653f09bf00a8431c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288157"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Información general de los esquemas y datos multidimensionales
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>Esquemas multidimensionales
 
 El objeto de metadatos central en ADO MD es el *cubo*, que consiste en un conjunto estructurado de dimensiones, jerarquías, niveles y miembros relacionados.
 
-Una *dimensión* es una categoría independiente de datos de la base de datos multidimensional, derivado de las entidades empresariales. Una dimensión suele contener elementos que se utilizan como criterios de consulta para las mediciones de la base de datos.
+Una *dimensión* es una categoría independiente de datos de la base de datos multidimensional, que se obtiene de las entidades de negocio. Una dimensión suele contener elementos que se utilizan como criterios de consulta para las mediciones de la base de datos.
 
-Una *jerarquía* es una ruta de acceso de agregación de una dimensión. Una dimensión puede tener varios niveles de detalle, con relaciones principal-secundario. Una jerarquía define cómo están relacionados estos niveles.
+Una *jerarquía* es una ruta de agregación de una dimensión. Una dimensión puede tener varios niveles de detalle, con relaciones principal-secundario. Una jerarquía define cómo están relacionados estos niveles.
 
 Un *nivel* es un paso de agregación de una jerarquía. En las dimensiones con varias capas de información, cada capa es un nivel.
 
-Un *miembro* es un elemento de datos en una dimensión. Normalmente, se utilizan miembros para crear un título o describir una medida de la base de datos.
+Un *miembro* es un elemento de datos de una dimensión. Normalmente, se utilizan miembros para crear un título o describir una medida de la base de datos.
 
 Los cubos se representan mediante objetos [CubeDef](cubedef-object-ado-md.md) en ADO MD. Las dimensiones, jerarquías, niveles y miembros se representan también mediante sus objetos ADO MD correspondientes: [Dimension](dimension-object-ado-md.md), [Hierarchy](hierarchy-object-ado-md.md), [Level](level-object-ado-md.md) y [Member](member-object-ado-md.md).
 
-## <a name="dimensions"></a>Dimensiones
+## <a name="dimensions"></a>Dimensions
 
 Las dimensiones de un cubo dependen de las entidades del negocio y de los tipos de datos que se van a diseñar en la base de datos. Normalmente, cada dimensión es un punto de entrada o mecanismo independiente para la selección de datos.
 
@@ -51,11 +51,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Jerarquías
+## <a name="hierarchies"></a>Hierarchies
 
 Las jerarquías definen el modo en que los niveles de una dimensión se pueden "condensar" o agrupar. Una dimensión puede tener varias jerarquías.
 
-## <a name="levels"></a>Niveles
+## <a name="levels"></a>Levels
 
 En el ejemplo de la dimensión Zona geográfica mostrado en la ilustración anterior, cada cuadro representa un nivel de la jerarquía.
 
@@ -66,44 +66,40 @@ Cada nivel tiene el siguiente conjunto de miembros:
 
   - Continentes = {North America, Europe}
 
+  - Países = {Canada, USA, UK, Alemania}
 
-  - Países = {Canada, USA, UK, Germany}
+  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escocia, Gales, Germany-North, Germany-South}
 
+  - Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlín, Hamburgo, Munich, Stuttgart}
 
-  - Regiones = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
-
-
-  - Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
-
-
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundarios y los miembros en el nivel raíz no tienen miembros principales. Todos los demás miembros tienen al menos un miembro principal y un miembro secundario. Por ejemplo, un recorrido transversal parcial del árbol jerárquico de la dimensión Zona geográfica da lugar a las siguientes relaciones principal-secundario:
 
-- {All} (elemento principal de) {Europa, Norteamérica}
-- {North America} (elemento principal de) {Canada, USA}
-- {EE.} (elemento principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
-- {USA-NW} (elemento principal de) {Boise, Seattle}
+- Todos (primario de) {Europa, Norteamérica}
+- {Norteamérica} (primario de) {Canadá, EE}
+- Austria (primario de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (primario de) {Boise, Seattle}
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-En este ejemplo se ilustra también otra característica: algunos miembros del nivel semana de la jerarquía de la semana del año no aparecen en cualquier nivel de la jerarquía de trimestre del año. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+Este ejemplo también ilustra otra característica: algunos miembros del nivel de semana de la jerarquía de año-semana no aparecen en ningún nivel de la jerarquía de año-trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 
 ## <a name="understanding-multidimensional-schemas"></a>Esquemas multidimensionales
 
 El objeto de metadatos central en ADO MD es el *cubo*, que consiste en un conjunto estructurado de dimensiones, jerarquías, niveles y miembros relacionados.
 
-Una *dimensión* es una categoría independiente de datos de la base de datos multidimensional, derivado de las entidades empresariales. Una dimensión suele contener elementos que se utilizan como criterios de consulta para las mediciones de la base de datos.
+Una *dimensión* es una categoría independiente de datos de la base de datos multidimensional, que se obtiene de las entidades de negocio. Una dimensión suele contener elementos que se utilizan como criterios de consulta para las mediciones de la base de datos.
 
-Una *jerarquía* es una ruta de acceso de agregación de una dimensión. Una dimensión puede tener varios niveles de detalle, con relaciones principal-secundario. Una jerarquía define cómo están relacionados estos niveles.
+Una *jerarquía* es una ruta de agregación de una dimensión. Una dimensión puede tener varios niveles de detalle, con relaciones principal-secundario. Una jerarquía define cómo están relacionados estos niveles.
 
 Un *nivel* es un paso de agregación de una jerarquía. En las dimensiones con varias capas de información, cada capa es un nivel.
 
-Un *miembro* es un elemento de datos en una dimensión. Normalmente, se utilizan miembros para crear un título o describir una medida de la base de datos.
+Un *miembro* es un elemento de datos de una dimensión. Normalmente, se utilizan miembros para crear un título o describir una medida de la base de datos.
 
 Los cubos se representan mediante objetos [CubeDef](cubedef-object-ado-md.md) en ADO MD. Las dimensiones, jerarquías, niveles y miembros se representan también mediante sus objetos ADO MD correspondientes: [Dimension](dimension-object-ado-md.md), [Hierarchy](hierarchy-object-ado-md.md), [Level](level-object-ado-md.md) y [Member](member-object-ado-md.md).
 
-## <a name="dimensions"></a>Dimensiones
+## <a name="dimensions"></a>Dimensions
 
 Las dimensiones de un cubo dependen de las entidades del negocio y de los tipos de datos que se van a diseñar en la base de datos. Normalmente, cada dimensión es un punto de entrada o mecanismo independiente para la selección de datos.
 
@@ -122,11 +118,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Jerarquías
+## <a name="hierarchies"></a>Hierarchies
 
 Las jerarquías definen el modo en que los niveles de una dimensión se pueden "condensar" o agrupar. Una dimensión puede tener varias jerarquías.
 
-## <a name="levels"></a>Niveles
+## <a name="levels"></a>Levels
 
 En el ejemplo de la dimensión Zona geográfica mostrado en la ilustración anterior, cada cuadro representa un nivel de la jerarquía.
 
@@ -137,29 +133,25 @@ Cada nivel tiene el siguiente conjunto de miembros:
 
 - Continentes = {North America, Europe}
 
+- Países = {Canada, USA, UK, Alemania}
 
-- Países = {Canada, USA, UK, Germany}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escocia, Gales, Germany-North, Germany-South}
 
+- Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlín, Hamburgo, Munich, Stuttgart}
 
-- Regiones = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
-
-
-- Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
-
-
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundarios y los miembros en el nivel raíz no tienen miembros principales. Todos los demás miembros tienen al menos un miembro principal y un miembro secundario. Por ejemplo, un recorrido transversal parcial del árbol jerárquico de la dimensión Zona geográfica da lugar a las siguientes relaciones principal-secundario:
 
-- {All} (elemento principal de) {Europa, Norteamérica}
+- Todos (primario de) {Europa, Norteamérica}
 
-- {North America} (elemento principal de) {Canada, USA}
+- {Norteamérica} (primario de) {Canadá, EE}
 
-- {EE.} (elemento principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- Austria (primario de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-- {USA-NW} (elemento principal de) {Boise, Seattle}
+- {USA-NW} (primario de) {Boise, Seattle}
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-En este ejemplo se ilustra también otra característica: algunos miembros del nivel semana de la jerarquía de la semana del año no aparecen en cualquier nivel de la jerarquía de trimestre del año. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+Este ejemplo también ilustra otra característica: algunos miembros del nivel de semana de la jerarquía de año-semana no aparecen en ningún nivel de la jerarquía de año-trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 

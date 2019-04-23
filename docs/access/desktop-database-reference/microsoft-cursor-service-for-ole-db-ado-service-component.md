@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d79d060922c6e7f28209242ebe82821c2ba97bfd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288991"
 ---
-# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Servicio de cursores para OLE DB de Microsoft (componente de servicios ADO)
+# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Servicio de cursores de Microsoft para OLE DB (componente de servicio ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El Servicio de cursores para OLE DB de Microsoft complementa a las funciones de compatibilidad de cursor de los proveedores de datos. Como resultado, el usuario percibe una funcionalidad relativamente uniforme en todos los proveedores de datos.
 
@@ -27,15 +27,15 @@ El Servicio de cursores habilita la compatibilidad con la actualización por lot
 
 ## <a name="keyword"></a>Palabra clave
 
-Para llamar a este componente de servicios, establezca la propiedad [CursorLocation](recordset-object-ado.md) de los objetos [Recordset](connection-object-ado.md) o [Connection](cursorlocation-property-ado.md) en **adUseClient**.
+Para llamar a este componente de servicios, establezca la propiedad [CursorLocation](cursorlocation-property-ado.md) de los objetos [Recordset](recordset-object-ado.md) o [Connection](connection-object-ado.md) en **adUseClient**.
 
 `connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
 ## <a name="dynamic-properties"></a>Propiedades dinámicas
 
-Cuando se llama al Servicio de cursores para OLE DB, se agregan las siguientes propiedades dinámicas a la colección **Properties** del objeto [Recordset](properties-collection-ado.md). La lista completa de propiedades dinámicas de los objetos **Connection** y **Recordset** se puede consultar en el [Índice de propiedades dinámicas de ADO](ado-dynamic-property-index.md). Los nombres de las propiedades de OLE DB asociadas se incluyen, cuando resulta adecuado, entre paréntesis tras el nombre de la propiedad ADO.
+Cuando se llama al Servicio de cursores para OLE DB, se agregan las siguientes propiedades dinámicas a la colección [Properties](properties-collection-ado.md) del objeto **Recordset**. La lista completa de propiedades dinámicas de los objetos **Connection** y **Recordset** se puede consultar en el [Índice de propiedades dinámicas de ADO](ado-dynamic-property-index.md). Los nombres de las propiedades de OLE DB asociadas se incluyen, cuando resulta adecuado, entre paréntesis tras el nombre de la propiedad ADO.
 
-Los cambios realizados en algunas propiedades dinámicas no son visibles para el origen de datos subyacente una vez que se ha llamado al Servicio de cursores. Por ejemplo, el establecimiento de la propiedad *Command Time out* en un **objeto Recordset** no estará visible para el proveedor de datos subyacente.
+Los cambios realizados en algunas propiedades dinámicas no son visibles para el origen de datos subyacente una vez que se ha llamado al Servicio de cursores. Por ejemplo, el establecimiento de la propiedad *Command Time out* en un objeto **Recordset** no será visible para el proveedor de datos subyacente.
 
 ```vb 
 ... 
@@ -52,7 +52,7 @@ Recordset1.Properties.Item("Command Time out") = 50
 Si la aplicación necesita el Servicio de cursores pero usted necesita establecer propiedades dinámicas en el proveedor subyacente, establezca las propiedades antes de llamar al Servicio de cursores. La configuración de la propiedad del objeto Command siempre pasa al proveedor de datos subyacente independientemente de la ubicación del cursor. Por lo tanto, se puede utilizar un objeto Command para establecer las propiedades en cualquier momento.
 
 > [!NOTE]
-> La propiedad dinámica DBPROP_SERVERDATAONINSERT no es admitida por el Servicio de cursores, aun cuando sea admitida por el proveedor de datos subyacente.
+> [!NOTA] La propiedad dinámica DBPROP_SERVERDATAONINSERT no es admitida por el Servicio de cursores, aun cuando sea admitida por el proveedor de datos subyacente.
 
 
 
@@ -172,5 +172,5 @@ El Servicio de cursores para OLE DB también afecta al comportamiento de algunas
 
 ## <a name="method-behavior"></a>Comportamiento de los métodos
 
-El Servicio de cursores para OLE DB habilita o afecta al comportamiento del método [Append](field-object-ado.md) del objeto [Field](append-method-ado.md) y a los métodos **Open**, [Resync](open-method-ado-recordset.md), [UpdateBatch](resync-method-ado.md) y [Save](updatebatch-method-ado.md) del objeto [Recordset](save-method-ado.md).
+El Servicio de cursores para OLE DB habilita o afecta al comportamiento del método [Append](append-method-ado.md) del objeto [Field](field-object-ado.md) y a los métodos [Open](open-method-ado-recordset.md), [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) y [Save](save-method-ado.md) del objeto **Recordset**.
 

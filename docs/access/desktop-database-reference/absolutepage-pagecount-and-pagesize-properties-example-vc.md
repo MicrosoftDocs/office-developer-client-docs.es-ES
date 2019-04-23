@@ -8,16 +8,16 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c5e48222b376971f2d79194eee066f2edda0c95c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282575"
 ---
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>Ejemplo de las propiedades AbsolutePage, PageCount y PageSize (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utilizan las propiedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) y [PageSize](pagesize-property-ado.md) para mostrar los nombres y las fechas de contratación de la tabla ***Employees*** de cinco registros a la vez.
 
@@ -198,7 +198,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**AbsolutePageX.h**
+**AbsolutePageX. h**
 
 ```cpp 
  

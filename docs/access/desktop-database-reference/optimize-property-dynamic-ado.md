@@ -1,5 +1,5 @@
 ---
-title: Optimizar dinámico (propiedad, ADO)
+title: Optimize Dynamic (propiedad, ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288255"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Optimizar dinámico (propiedad, ADO)
+# <a name="optimize-dynamic-property-ado"></a>Optimize Dynamic (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si se debe crear un índice en un campo.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **Boolean** que indica si se debe crear un índice.
 

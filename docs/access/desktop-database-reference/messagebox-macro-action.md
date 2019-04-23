@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289159"
 ---
 # <a name="messagebox-macro-action"></a>CuadroDeMensajes (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción **CuadroDeMensajes** con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir.
 
@@ -31,7 +31,7 @@ La acción **CuadroDeMensajes** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -50,7 +50,7 @@ La acción **CuadroDeMensajes** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Título</strong></p></td>
-<td><p>El texto que se muestra en la barra de título del cuadro de mensaje. Por ejemplo, puede tener la visualización de la barra de título &quot;validación del identificador de cliente&quot;. Si deja este argumento en blanco, &quot;Microsoft Access&quot; se muestra.</p></td>
+<td><p>El texto que se muestra en la barra de título del cuadro de mensaje. Por ejemplo, puede hacer que la barra de título &quot;muestre la validación&quot;de ID de cliente. Si deja este argumento en blanco, &quot;se muestra&quot; Microsoft Access.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ En el siguiente ejemplo se muestra un cuadro de mensaje con formato con un mensa
 
 Escriba la siguiente cadena en el argumento **Mensaje**:
 
-**Botón incorrecto\!@This botón no Work.@Try otra.**
+**Botón\!incorrecto @This botón no funciona. @Try otro.**
 
 No puede ejecutar la acción **CuadroDeMensajes** en un módulo Visual Basic para aplicaciones (VBA). En su lugar, use la función **CuadroMsj**.
 
@@ -86,7 +86,7 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 <th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
@@ -97,9 +97,9 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 <td><p>Detener la actualización de la pantalla mientras se ejecuta la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p>IsNull([IdProveedor])</p></td>
-<td><p><strong>CuadroDeMensajes</strong></p></td>
-<td><p><strong>Mensaje</strong>: mover al registro del proveedor los productos que quiera ver, luego, haga clic de nuevo en el botón Revisar productos. <strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: seleccionar un proveedor</p></td>
+<td><p>IsNull ([IdProveedor])</p></td>
+<td><p><strong>MessageBox</strong></p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>ningunotítulo</strong>: seleccionar un proveedor</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -110,20 +110,20 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>DetenerMacro</strong></p></td>
+<td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
 <td><p>Detener la macro.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre DatasheetFilter</strong>: <strong>condición Where</strong>: [Id] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de productos: <strong>datosnombre Name</strong>: <strong>Where condición</strong>: [IdProveedor] = [formularios]! [Proveedores] IdProveedor <strong>Modo de datos</strong>: <strong>lectura modo lecturamodo</strong>: <strong>normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>MoverYCambiarTamañoDeVentana</strong></p></td>
-<td><p><strong>Derecha</strong>: 0.7799&quot; <strong>hacia abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>Moverycambiartamañodeventana</strong></p></td>
+<td><p><strong>derecha</strong>: 0,7799&quot; <strong>abajo</strong>: 1,8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>
@@ -146,20 +146,20 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([PaísRegión])</p></td>
-<td><p><strong>DetenerMacro</strong></p></td>
+<td><p>IsNull ([PaísRegión])</p></td>
+<td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
 <td><p>Si PaísRegión es <strong>Null</strong>, el código postal no se podrá validar.</p></td>
 </tr>
 <tr class="even">
-<td><p>[PaísRegión] En (&quot;Francia&quot;,&quot;Italia&quot;,&quot;España&quot;) y Len([PostalCode]) &lt; &gt; 5</p></td>
+<td><p>CountryRegion In (&quot;Francia&quot;,&quot;Italia&quot;,&quot;España&quot;) y longitud ([CódigoPostal]) &lt; &gt; 5</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código Postal</p></td>
+<td><p><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>informacióntítulo</strong>: error de código postal</p></td>
 <td><p>Si el código postal no tiene 5 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -175,9 +175,9 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[PaísRegión] En (&quot;Australia&quot;,&quot;Singapur&quot;) y Len([PostalCode]) &lt; &gt; 4</p></td>
+<td><p>CountryRegion In (&quot;Australia&quot;,&quot;Singapur&quot;) y longitud ([CódigoPostal]) &lt; &gt; 4</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código Postal</p></td>
+<td><p><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>informacióntítulo</strong>: error de código postal</p></td>
 <td><p>Si el código postal no tiene 4 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="even">
@@ -193,9 +193,9 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaísRegión] = &quot;Canadá&quot;) Y ([CódigoPostal] no le gusta&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
+<td><p>([PaísRegión] = &quot;Canadá&quot;) And ([CódigoPostal] no like&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: El código postal no es válido. Ejemplo de código de Canadá: H1J 1C3 <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código Postal</p></td>
+<td><p><strong>Mensaje</strong>: El código postal no es válido. Ejemplo de código canadiense: H1J 1C3 <strong>beep</strong>: <strong>SíTipo</strong>: <strong>informacióntítulo</strong>: error de código postal</p></td>
 <td><p>Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</p></td>
 </tr>
 <tr class="odd">

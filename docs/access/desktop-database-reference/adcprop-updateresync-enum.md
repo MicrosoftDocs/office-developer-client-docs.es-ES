@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1952d473b51048a271a689498ae844cee761b001
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280442"
 ---
-# <a name="adcpropupdateresyncenum"></a>ADCPROP\_UPDATERESYNC\_ENUM
+# <a name="adcpropupdateresyncenum"></a>\_Enumeración\_ADCPROP UPDATERESYNC
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si al método [UpdateBatch](updatebatch-method-ado.md) le sigue una operación implícita del método [Resync](resync-method-ado.md) y, si es así, el ámbito de esa operación.
 
@@ -48,17 +48,17 @@ Especifica si al método [UpdateBatch](updatebatch-method-ado.md) le sigue una o
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncConflicts</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Llama a <strong>Resync</strong> para todas las filas en las que la operación de actualización o eliminación generó un error debido a un conflicto de concurrencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncInserts</strong></p></td>
-<td><p>8</p></td>
-<td><p>Llama a <strong>Resync</strong> para todas las filas correctamente insertadas. Sin embargo, los valores de columna AutoIncrement no volvió a sincronizar. En su lugar, el contenido de las filas recién insertadas se volvió a sincronizar según el valor de clave principal existente. Si la clave principal es un valor con incremento automático, <strong>Resync</strong> no recuperará el contenido de la fila prevista. Para incrementar automáticamente los valores de la claves principales, llame a <strong>UpdateBatch</strong> con el valor combinado <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
+<td><p>8,5</p></td>
+<td><p>Llama a <strong>Resync</strong> para todas las filas correctamente insertadas. Sin embargo, los valores de columna con incremento automático no se vuelven a sincronizar con Resync. En vez de ello, el contenido de las filas recién insertadas se vuelve a sincronizar según el valor de la clave principal existente. Si esta clave es un valor con incremento automático, <strong>Resync</strong> no recuperará el contenido de la fila prevista. Para incrementar automáticamente los valores de clave principal de AutoIncrement, llame a <strong>UpdateBatch</strong> con el valor combinado <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncNone</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>No llama a <strong>Resync</strong>.</p></td>
 </tr>
 <tr class="even">

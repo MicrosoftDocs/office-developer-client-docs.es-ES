@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283376"
 ---
-# <a name="ado-event-handler-summary"></a>Resumen del controlador de eventos de ADO
+# <a name="ado-event-handler-summary"></a>Resumen de controladores de eventos de ADO
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Existen dos objetos de ADO que pueden provocar eventos: el objeto [Connection](connection-object-ado.md) y el objeto [Recordset](recordset-object-ado.md). La familia **ConnectionEvent** (eventos de conexión) se relaciona con operaciones sobre el objeto **Connection**, mientras que la familia **RecordsetEvent** (eventos de conjunto de registros) tiene que ver con operaciones sobre el objeto **Recordset**.
 
@@ -40,11 +40,11 @@ En las tablas siguientes, se resumen los eventos y sus descripciones.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A RollbackTransComplete <a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete,</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
 <td><p><strong>Administración de transacciones</strong>. Notificación de que la transacción actual sobre la conexión se ha iniciado (begin), confirmado (commit) o deshecho (rollback).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, desconectar</a></p></td>
+<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, Disconnect</a></p></td>
 <td><p><strong>Administración de conexiones</strong>. Notificación de que la conexión actual se iniciará, se ha iniciado o ha finalizado.</p></td>
 </tr>
 <tr class="odd">

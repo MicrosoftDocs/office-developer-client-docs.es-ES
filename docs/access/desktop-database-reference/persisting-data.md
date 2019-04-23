@@ -1,5 +1,5 @@
 ---
-title: Datos persistentes (referencia de escritorio de la base de datos de Access)
+title: Datos persistentes (referencia de base de datos de escritorio de Access)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287604"
 ---
 # <a name="persisting-data"></a>Persistencia de datos
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El uso de equipos informáticos portátiles ha generado la necesidad de aplicaciones que se puedan ejecutar tanto si se está conectado como si no se está. ADO ha agregado esta funcionalidad ofreciendo al programador la posibilidad de guardar un **conjunto de registros** de cursor de cliente en disco y de volverlo a cargar posteriormente.
 
@@ -51,7 +51,7 @@ Para obtener mejores resultados, establezca la propiedad [CursorLocation](cursor
 
 Cuando un **conjunto de registros** persiste con la propiedad **CursorLocation** establecida en **adUseServer**, la capacidad de actualización para el **conjunto de registros** es limitada. Normalmente, solo se permiten actualizaciones, inserciones y eliminaciones con una tabla (dependiendo de la funcionalidad del proveedor). El método [Resync](resync-method-ado.md) tampoco está disponible en esta configuración.
 
-Debido a que el parámetro *Destination* puede aceptar cualquier objeto que admita la interfaz **IStream** de OLE DB, puede guardar un **objeto Recordset** directamente en el objeto de **respuesta** de ASP.
+Puesto que el parámetro *Destination* puede aceptar cualquier objeto que admita la interfaz **IStream** de OLE DB, se puede guardar un **conjunto de registros** directamente en el objeto **Response** de ASP.
 
 En el ejemplo siguiente, se utilizan los métodos **Save** y **Open** para conservar un **conjunto de registros** y volver a abrirlo posteriormente:
 
@@ -104,10 +104,10 @@ En el ejemplo siguiente, se utilizan los métodos **Save** y **Open** para conse
 'EndPersist 
 ```
 
-Esta sección incluye los temas siguientes:
+Esta sección incluye los siguientes temas:
 
-- [Más información acerca de la persistencia de Recordset](more-about-recordset-persistence.md)
+- [Más información sobre la persistencia de Recordset](more-about-recordset-persistence.md)
 
-- [Almacenar conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
+- [Persistencia de conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)
+- [Almacenar registros en formato XML (ADO)](persisting-records-in-xml-format.md)

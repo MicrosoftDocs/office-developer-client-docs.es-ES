@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9f7c4ab535010dc0329673fd04721615f6eb3cd8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288886"
 ---
 # <a name="minimizewindow-macro-action"></a>MinimizarVentana (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Si Access está configurado para utilizar ventanas superpuestas en lugar de documentos con fichas, puede utilizar la acción **Minimizarventana** para reducir la ventana activa a una barra de título pequeña en la parte inferior de la ventana de Access.
+Si el acceso está configurado para usar ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **minimizarventana** para reducir la ventana activa a una barra de título pequeña situada en la parte inferior de la ventana de Access.
 
 > [!NOTE]
 > [!NOTA] Esta acción no puede aplicarse a las ventanas de código en el Editor de Visual Basic. Para obtener información sobre cómo afectar a las ventanas de código, vea el tema de la propiedad **WindowState**.

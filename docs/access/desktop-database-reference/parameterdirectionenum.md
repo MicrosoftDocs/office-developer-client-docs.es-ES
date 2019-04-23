@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fac07165416841691ee7bc3ca5dfcdc366861023
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287975"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si el objeto [Parameter](parameter-object-ado.md) representa un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto desde un procedimiento almacenado.
 
@@ -47,7 +47,7 @@ Especifica si el objeto [Parameter](parameter-object-ado.md) representa un pará
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el parámetro representa un parámetro de salida.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Especifica si el objeto [Parameter](parameter-object-ado.md) representa un pará
 </tr>
 <tr class="odd">
 <td><p><strong>adParamUnknown</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Indica que se desconoce la dirección del parámetro.</p></td>
 </tr>
 </tbody>
@@ -79,19 +79,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
+<td><p>AdoEnums. ParameterDirection. INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
+<td><p>AdoEnums. ParameterDirection. INPUTOUTPUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
+<td><p>AdoEnums. ParameterDirection. OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
+<td><p>AdoEnums. ParameterDirection. RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
+<td><p>AdoEnums. ParameterDirection. UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

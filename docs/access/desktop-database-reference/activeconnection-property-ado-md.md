@@ -8,19 +8,19 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 372dac11500647af75881ae6b4aee22a391a32c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280532"
 ---
 # <a name="activeconnection-property-ado-md"></a>ActiveConnection (propiedad, ADO MD)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica a qué objeto [Connection](connection-object-ado.md) de ADO pertenece el conjunto de celdas o el catálogo activo.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **Variant** que contiene una cadena que define una conexión o un objeto **Connection**. El valor predeterminado es una cadena vacía.
 
@@ -43,7 +43,7 @@ Si usa el proveedor de datos MSOLAP, establezca el origen de datos de una cadena
 
 `"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
-La siguiente cadena se conecta a un archivo de cubo local en la ubicación C:\\MSDASDK\\ejemplos\\oledb\\olap\\datos\\bobsvid.cub:
+La siguiente cadena se conecta a un archivo de cubo local en la ubicación\\C\\:\\MSDASDK\\ejemplos\\OleDb\\de datos OLAP bobsvid. Cub:
 
 `"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

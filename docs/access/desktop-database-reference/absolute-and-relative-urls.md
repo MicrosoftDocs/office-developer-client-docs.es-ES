@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a488617dc7ba0d7d1f7e38391f8382fa1e7ed247
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282104"
 ---
 # <a name="absolute-and-relative-urls"></a>Direcciones URL relativas y absolutas
 
-**Se aplica a**: Access 2013, Office 2013    
+**Se aplica a:** Access 2013, Office 2013    
 
-Una dirección URL especifica la ubicación de un destino almacenado en un equipo local o de red, como un archivo, directorio, HTML página, imagen, programa y así sucesivamente. En esta descripción, una *dirección URL absoluta* es del formulario:
+Una dirección URL especifica la ubicación de un destino almacenado en un equipo local o en red, como un archivo, un directorio, una página HTML, una imagen, un programa, etc. En esta explicación, una *dirección URL absoluta* tiene el siguiente formato:
 
 *esquema://servidor/ruta de acceso/recurso*
 
@@ -26,18 +26,18 @@ donde:
 
 |Nombre |Descripción|
 |:----|:----------|
-|*esquema*|Especifica cómo se puede tener acceso a los *recursos* .|
-|*servidor*|Especifica el nombre del equipo donde está ubicado el *recurso* .|
+|*esquema*|Especifica cómo se va a obtener acceso al *recurso*.|
+|*servidor*|Especifica el nombre del equipo donde está ubicado el *recurso*.|
 |*ruta de acceso*|Especifica la secuencia de directorios que llevan al destino. Si se omite el *recurso*, el destino es el último directorio de la *ruta de acceso*.|
-|*resource*|Si se incluye, *recurso* es el destino y normalmente es el nombre de un archivo. Puede ser un *archivo simple*, que contiene una secuencia binaria única de bytes, o un *documento estructurado*, que contiene uno o varios almacenamientos y secuencias binarias de bytes.|
+|*resource*|Si se incluye, el *recurso* es el destino, que suele ser el nombre de un archivo. Puede ser un *archivo simple*, que contiene una única secuencia binaria de bytes o un *documento estructurado*, que contiene uno o varios almacenamientos y secuencias binarias de bytes.|
 
 Una *dirección URL absoluta* contiene toda la información necesaria para localizar un recurso.
 
 Una *dirección URL relativa* localiza un recurso mediante una dirección URL absoluta como punto de partida. En efecto, la "dirección URL completa" del destino se especifica concatenando las direcciones URL absoluta y relativa. Una dirección URL relativa normalmente se compone sólo de la *ruta de acceso* y, de manera opcional, del *recurso*, pero no del *esquema* ni del *servidor*.
 
-## <a name="url-scheme-registration"></a>Registro de esquemas URL
+## <a name="url-scheme-registration"></a>Registro de esquema URL
 
-Si un proveedor admite direcciones URL, se registrará para uno o varios esquemas URL. Esto significa que las direcciones URL que utilicen este esquema invocarán automáticamente el proveedor registrado. Por ejemplo, el esquema *http* se registra para el [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). ADO se da por supuesto que todas las direcciones URL van precedidas de "http" representan carpetas web o los archivos que se usará con el proveedor de publicación en Internet. Para obtener información sobre los esquemas registrados por su proveedor, vea la documentación del proveedor.
+Si un proveedor admite direcciones URL, se registrará para uno o varios esquemas URL. Esto significa que las direcciones URL que utilicen este esquema invocarán automáticamente el proveedor registrado. Por ejemplo, el esquema *http* se registra en [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). ADO supone que todas las direcciones URL con el prefijo "http" representan carpetas o archivos Web que se van a usar con el proveedor de publicación en Internet. Para obtener información sobre los esquemas registrados por su proveedor, vea la documentación del proveedor.
 
 ## <a name="defining-context-with-a-url"></a>Definir contexto con una dirección URL
 
@@ -45,19 +45,19 @@ Una de las funciones de una conexión abierta, representada por un objeto [Conne
 
 Con ADO 2.5, una dirección URL absoluta también puede definir un contexto. Por ejemplo, al abrirse un objeto [Record](record-object-ado.md) con una dirección URL absoluta, se crea implícitamente un objeto **Connection** para representar el recurso especificado por la dirección URL.
 
-Una dirección URL absoluta que define un contexto puede especificarse en el parámetro *ActiveConnection* del método [Open](open-method-ado-record.md) del objeto de **registro** . También se puede especificar una dirección URL absoluta como el valor de la nueva `URL=` palabra clave en la **conexión de** objeto [Open](open-method-ado-connection.md) parámetro *ConnectionString* del método y el objeto [Recordset](recordset-object-ado.md) *ActiveConnection* del método [Open](open-method-ado-recordset.md) parámetro.
+Se puede especificar una dirección URL absoluta que define un contexto en el parámetro *ActiveConnection* del método [Open](open-method-ado-record.md) del objeto **Record**. También se puede especificar una dirección URL absoluta como valor de la palabra `URL=` clave New en el parámetro *ConnectionString* del método [Open](open-method-ado-connection.md) del objeto **Connection** , y el método [Open](open-method-ado-recordset.md) del objeto [Recordset](recordset-object-ado.md) *ActiveConnection* parámetro.
 
 El contexto también se puede definir con un objeto **Record** o **Recordset** abierto que representa un directorio porque estos objetos ya tienen un objeto **Connection** implícita o explícitamente declarado que especifica el contexto.
 
 ## <a name="scoped-operations"></a>Operaciones con ámbito
 
-El contexto define a la vez un *ámbito*; es decir, el directorio y sus subdirectorios que pueden participar en las siguientes operaciones. El objeto **Record** tiene varios métodos con ámbito, incluidos [CopyRecord](copyrecord-method-ado.md), [MoveRecord](moverecord-method-ado.md) y [DeleteRecord](deleterecord-method-ado.md), que funcionan en un directorio y todos sus subdirectorios.
+El contexto define simultáneamente un *ámbito*, es decir, el directorio y sus subdirectorios que pueden participar en operaciones posteriores. El objeto **Record** tiene varios métodos con ámbito, incluidos [CopyRecord](copyrecord-method-ado.md), [MoveRecord](moverecord-method-ado.md) y [DeleteRecord](deleterecord-method-ado.md), que funcionan en un directorio y todos sus subdirectorios.
 
-## <a name="relative-urls-as-command-text"></a>Direcciones URL relativas como texto de comando
+## <a name="relative-urls-as-command-text"></a>Direcciones URL relativas como texto del comando
 
-Una cadena que especifica un comando que se ejecutará en el origen de datos puede especificarse en el parámetro *CommandText* del método de **conexión** objeto **Execute** y el parámetro del *origen de* **conjunto de registros de** objeto **Open** (método).
+Una cadena que especifica un comando que se va a ejecutar en el origen de datos se puede especificar en el parámetro *CommandText* del método **Execute** del objeto **Connection**, y en el parámetro *Source* del método **Open** del objeto **Recordset**.
 
-Una dirección URL relativa se puede especificar en el parámetro *CommandText* o *Source* . En realidad, la dirección URL relativa no especifica un comando (como un comando SQL); simplemente se especifica en esos parámetros. Además, el contexto de la conexión activa debe ser una dirección URL absoluta y el parámetro *opción* debe establecerse en **adCmdTableDirect**.
+Una dirección URL relativa se puede especificar en el parámetro *CommandText* o *Source*. En realidad, la dirección URL relativa no especifica un comando (como un comando SQL); simplemente se especifica en esos parámetros. Además, el contexto de la conexión activa debe ser una dirección URL absoluta y el parámetro *Option* debe estar establecido en **adCmdTableDirect**.
 
 Por ejemplo, un objeto **Recordset** puede abrirse en el archivo Readme25.txt del directorio Winnt/system32 de la manera siguiente:
 
@@ -65,21 +65,21 @@ Por ejemplo, un objeto **Recordset** puede abrirse en el archivo Readme25.txt de
 recordset.Open "system32/Readme25.txt", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 
-La dirección URL absoluta en la cadena de conexión especifica el servidor (YourServer) y la ruta de acceso (Winnt). Esta dirección URL también define el contexto.
+La dirección URL absoluta de la cadena de conexión especifica el servidor (YourServer) y la ruta de acceso (WinNT). Esta dirección URL también define el contexto.
 
-La dirección URL relativa en el texto de comando utiliza la dirección URL absoluta como punto de partida y especifica el resto de la ruta de acceso (system32) y el archivo para abrir (Readme25.txt).
+La dirección URL relativa en el texto del comando utiliza la dirección URL absoluta como punto de partida y especifica el resto de la ruta de acceso (system32) y el archivo que se va a abrir (Readme25. txt).
 
 El campo de opciones indica que el tipo de comando es una dirección URL relativa.
 
-Como otro ejemplo, el siguiente código abrirá un **objeto Recordset** en el contenido del directorio:
+Otro ejemplo: el siguiente código abrirá un **objeto Recordset** en el contenido del directorio:
 
 ```vb
 recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 
-## <a name="ole-db-provider-supplied-url-schemes"></a>Esquemas de direcciones URL proporcionados por el proveedor OLE DB
+## <a name="ole-db-provider-supplied-url-schemes"></a>Esquemas de URL proporcionados por el proveedor OLE DB
 
 La parte inicial de una dirección URL completa es el *esquema* utilizado para obtener acceso al recurso identificado por el resto de la dirección URL. Por ejemplo, HTTP (Protocolo de transferencia de hipertexto) y FTP (Protocolo de transferencia de archivos).
 
-ADO admite proveedores OLE DB que reconocen sus propios esquemas de dirección URL. Por ejemplo, el [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), que obtiene acceso a los archivos de Windows 2000 "habían publicado", reconoce el esquema HTTP existente.
+ADO supports OLE DB providers that recognize their own URL schemes. Por ejemplo, [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), que tiene acceso a los archivos de Windows 2000 "publicado", reconoce el esquema http existente.
 

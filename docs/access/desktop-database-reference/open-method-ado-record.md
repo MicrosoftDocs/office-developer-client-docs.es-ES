@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db8953cafc5ad266c81c51e59cbf92787d07cdfb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288381"
 ---
 # <a name="open-method-ado-record"></a>Open (método, Record de ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Abre un objeto [Record](record-object-ado.md) existente o crea un nuevo elemento representado por el objeto **Record** (como un archivo o un directorio).
 
 ## <a name="syntax"></a>Sintaxis
 
-Abrir *origen*, *ActiveConnection*, *modo*, *CreateOptions*, *Opciones*, *nombre de usuario*, *contraseña*
+Open *source*, *ActiveConnection*, *mode*, *CreateOptions*, *Options*, *username*, *password*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Source* |Es opcional. **Variant** que puede representar la dirección URL de la entidad que va a representar este objeto **Record**, un objeto **Command**, un objeto [Recordset](recordset-object-ado.md) abierto u otro objeto **Record**, una cadena que contiene una instrucción SQL SELECT o un nombre de tabla.|
 |*ActiveConnection* | Es opcional. **Variant** que representa la cadena de conexión o el objeto [Connection](connection-object-ado.md) abierto.|
 |*Mode* |Es opcional. Valor de [ConnectModeEnum](connectmodeenum.md), cuyo valor predeterminado es **adModeUnknown**, que especifica el modo de acceso del objeto **Record** resultante.|
 |*CreateOptions* |Es opcional. Valor de [RecordCreateOptionsEnum](recordcreateoptionsenum.md), cuyo valor predeterminado es **adFailIfNotExists**, que especifica si debe haber un archivo o directorio abierto o si debe crearse un nuevo archivo o directorio. Si está especificado el valor predeterminado, el modo de acceso se obtiene de la propiedad [Mode](mode-property-ado.md). Este parámetro se omite cuando el parámetro *Source* no contiene una dirección URL.|
 |*Options* |Es opcional. Valor de [RecordOpenOptionsEnum](recordopenoptionsenum.md), cuyo valor predeterminado es **adOpenRecordUnspecified**, que especifica las opciones para abrir el objeto **Record**. Estos valores se pueden combinar.|
-|*UserName* |Es opcional. Valor de tipo **String** con el identificador de usuario que, en caso de que sea necesario, autoriza el acceso a *Source*.|
-|*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
+|*UserName* |Opcional. Valor de tipo **String** con el identificador de usuario que, en caso de que sea necesario, autoriza el acceso a *Source*.|
+|*Password* |Opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 *Source* puede ser:
 

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288605"
 ---
 # <a name="navigateto-macro-action"></a>DesplazarseA (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **DesplazarseA** para controlar la presentación de los objetos de la base de datos en el panel de navegación. Por ejemplo, puede cambiar la manera en que los objetos de la base de datos se organizan en categorías o puede filtrar los objetos de modo que solo se muestren determinados objetos.
 
@@ -45,16 +45,16 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 <td><p>Argumento obligatorio. Categoría por la que el panel de navegación debe mostrar los objetos. Haga clic en <strong>Tipo de objeto</strong>, <strong>Tablas y vistas</strong>, <strong>Fecha de modificación</strong>, <strong>Fecha de creación</strong>, o bien, <strong>Personalizada</strong> en el cuadro <strong>Categoría</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Grupo</strong></p></td>
-<td><p>Opcional. El argumento <strong>grupo</strong> limita los objetos en la categoría que aparece en el panel de navegación. Si deja en blanco el argumento <strong>grupo</strong> , el panel de navegación muestra todos los objetos de base de datos, clasificados por los criterios especificados en el argumento <strong>categoría</strong> . En la tabla siguiente se muestran ejemplos de argumentos  <strong>Group</strong> válidos para los distintos argumentos <strong>Category</strong>.</p></td>
+<td><p><strong>Group</strong></p></td>
+<td><p>Opcional. El argumento <strong>Grupo</strong> limita los objetos que van a aparecer en el panel de navegación. Si deja en blanco el argumento <strong>Grupo</strong> , en el panel de navegación se muestran todos los objetos de la base de datos, organizados por categorías por los criterios especificados en el argumento <strong>categoría</strong> . La siguiente tabla incluye ejemplos de argumentos <strong>Grupo</strong> válidos para los diversos argumentos <strong>Categoría</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-- Esta acción es similar a seleccionar categorías y grupos de la barra de título del panel de navegación.
+- Esta acción es similar a seleccionar categorías y grupos en la barra de título del panel de navegación.
 
 - Los argumentos **Grupo** válidos dependen del argumento **Categoría** que se utilice. Si especifica un argumento **Grupo** no válido, aparecerá un mensaje de error.La tabla siguiente contiene ejemplo de argumentos **Grupo** válidos para cada argumento **Categoría**.
     
@@ -65,8 +65,8 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
   </colgroup>
   <thead>
   <tr class="header">
-  <th><p>Argumento Categoría</p></th>
-  <th><p>Ejemplo de argumentos Grupo</p></th>
+  <th><p>Argumento Category</p></th>
+  <th><p>Ejemplo de argumentos Group</p></th>
   </tr>
   </thead>
   <tbody>

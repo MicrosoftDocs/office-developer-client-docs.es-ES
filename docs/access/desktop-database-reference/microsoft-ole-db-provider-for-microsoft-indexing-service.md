@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288921"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft
+# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Proveedor de Microsoft OLE DB para el servicio de indexación de Microsoft
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-El proveedor Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de sólo lectura mediante programación a los datos del sistema y web de archivo indizados por el servicio de Index Server de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+El proveedor de Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de solo lectura mediante programación al sistema de archivos y a los datos Web indizados por los servicios de Index Server de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
 
 El proveedor es de subprocesamiento libre y está habilitado para Unicode.
 
@@ -83,7 +83,7 @@ El proveedor no acepta llamadas a procedimientos almacenados o nombres de tabla 
 
 ## <a name="recordset-behavior"></a>Comportamiento de Recordset
 
-En las tablas siguientes se enumeran las características disponibles en un objeto **Recordset** abierto con este proveedor. El tipo de cursor estático (**adOpenStatic**) está disponible.
+En las tablas siguientes se enumeran las características disponibles en un objeto **Recordset** abierto con este proveedor. Solo está disponible el tipo de cursor estático (**adOpenStatic**).
 
 Para obtener información más detallada acerca del comportamiento del objeto **Recordset** para la configuración del proveedor, ejecute el método [Supports](supports-method-ado.md) y enumere la colección [Properties](properties-collection-ado.md) del objeto **Recordset** para determinar si las propiedades dinámicas específicas del proveedor están presentes.
 
@@ -118,7 +118,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bookmark-property-ado.md">Marcador</a>*</p></td>
+<td><p><a href="bookmark-property-ado.md">Él</a>*</p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -142,7 +142,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -151,7 +151,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>No disponible</p></td>
+<td><p>no disponible</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -185,7 +185,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 </table>
 
 
-\*Marcadores deben estar habilitados en el proveedor en orden para esta característica de que existan en el **conjunto de registros**.
+\*Para que esta característica exista en el **objeto Recordset**, los marcadores deben estar habilitados en el proveedor.
 
 Disponibilidad de métodos estándar **Recordset** ADO:
 
@@ -197,12 +197,12 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <thead>
 <tr class="header">
 <th><p>Método</p></th>
-<th><p>¿Disponible?</p></th>
+<th><p>Disponga?</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
+<td><p><a href="addnew-method-ado.md">Funcionan</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -226,7 +226,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -238,7 +238,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Métodos MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
@@ -258,11 +258,11 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Admite</a></p></td>
+<td><p><a href="supports-method-ado.md">Admita</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
+<td><p><a href="update-method-ado.md">Actualización</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="odd">
@@ -275,5 +275,5 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 
 ## <a name="see-also"></a>Vea también
 
-Para detalles de implementación específicos e información funcional acerca del proveedor de Microsoft OLE DB para Microsoft Indexing Service, consulte referencia de Microsoft OLE DB del programador.
+Para obtener detalles de implementación específicos e información funcional acerca del Proveedor de Microsoft OLE DB para Microsoft Indexing Service, consulte la Referencia del programador de Microsoft OLE DB.
 

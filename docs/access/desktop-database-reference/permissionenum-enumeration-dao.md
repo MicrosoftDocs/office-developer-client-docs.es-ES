@@ -1,5 +1,5 @@
 ---
-title: PermissionEnum (enumeración) (DAO)
+title: Enumeración Permissionenum ((DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d4f6741bd6203dbdeffb364650b5e3550ea8b1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287713"
 ---
-# <a name="permissionenum-enumeration-dao"></a>PermissionEnum (enumeración) (DAO)
+# <a name="permissionenum-enumeration-dao"></a>Enumeración Permissionenum ((DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos.
 
@@ -42,7 +42,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8</p></td>
+<td><p>8,5</p></td>
 <td><p>El usuario puede replicar una base de datos y cambiar su contraseña (no es válido para objetos Document).</p></td>
 </tr>
 <tr class="odd">
@@ -57,7 +57,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>El usuario puede abrir la base de datos.</p></td>
 </tr>
 <tr class="even">
@@ -82,7 +82,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 </tr>
 <tr class="even">
 <td><p>dbSecNoAccess</p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>El usuario no tiene acceso al objeto (no es válido para objetos Document).</p></td>
 </tr>
 <tr class="odd">

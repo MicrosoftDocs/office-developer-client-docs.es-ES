@@ -1,5 +1,5 @@
 ---
-title: Member (objeto, ADO MD)
+title: Member (objeto) (ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 380fdf6c15f6774e27221e8500100870d22350c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289425"
 ---
-# <a name="member-object-ado-md"></a>Member (objeto, ADO MD)
+# <a name="member-object-ado-md"></a>Member (objeto) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un miembro de un nivel en un cubo, los miembros secundarios de un miembro de un nivel o un miembro de una posición a lo largo de un eje de un conjunto de celdas.
 
@@ -78,7 +78,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NombreCatálogo</p></td>
+<td><p>Nombrecatálogo</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
@@ -86,11 +86,11 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Número de miembros secundarios que tiene el miembro.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>Nombre del cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Description</p></td>
+<td><p>Descripción</p></td>
 <td><p>Descripción del miembro.</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +118,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>GUID del miembro.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de usuario registrado</p></td>
+<td><p>Nombrede miembro</p></td>
 <td><p>Nombre del miembro.</p></td>
 </tr>
 <tr class="even">
@@ -146,7 +146,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco del miembro principal.</p></td>
 </tr>
 <tr class="even">
-<td><p>SchemaName</p></td>
+<td><p>Equivale</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

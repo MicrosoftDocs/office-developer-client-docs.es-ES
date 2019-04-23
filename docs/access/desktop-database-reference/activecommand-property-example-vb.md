@@ -8,16 +8,16 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ab8ba94570c98da03c3effc484490c327fd0a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282603"
 ---
 # <a name="activecommand-property-example-vb"></a>Ejemplo de la propiedad ActiveCommand (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se muestra la propiedad [ActiveCommand](activecommand-property-ado.md).
 

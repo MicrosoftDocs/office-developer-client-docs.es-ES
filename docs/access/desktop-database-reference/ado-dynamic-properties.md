@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fae0df2a4cc5c9de585d2b101e9fa31cb6a0a545
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281718"
 ---
 # <a name="ado-dynamic-properties"></a>Propiedades dinámicas de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Las propiedades dinámicas se pueden agregar a las colecciones [Properties](properties-collection-ado.md) de los objetos [Connection](connection-object-ado.md), [Command](command-object-ado.md) o [Recordset](recordset-object-ado.md). El origen de estas propiedades es un proveedor de datos, tal como el [Proveedor OLE DB para SQL Server](microsoft-ole-db-provider-for-sql-server.md), o un proveedor de servicios, tal como el [Servicio de cursores de Microsoft para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md). Consulte la documentación correspondiente del proveedor de datos o servicios para obtener más información acerca de una propiedad dinámica concreta.
 
@@ -33,7 +33,7 @@ Las siguientes propiedades dinámicas son de interés especial, y también apare
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propiedad dinámica</th>
+<th>Propiedad Dynamic</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -54,11 +54,11 @@ Las siguientes propiedades dinámicas son de interés especial, y también apare
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table, Unique Schema, Unique Catalog</a></p></td>
-<td><p><strong>Unique Table</strong> — especifica el nombre de la tabla base en la que se permiten actualizaciones, inserciones y eliminaciones.<br/><br/><strong>Unique Schema</strong> — especifica el esquema o el nombre del propietario de la tabla.<br/><br/><strong>Unique Catalog</strong> — especifica el catálogo o el nombre de la base de datos que contiene la tabla.</p></td>
+<td><p><strong>Unique Table</strong> : especifica el nombre de la tabla base en la que se permiten actualizaciones, inserciones y eliminaciones.<br/><br/><strong>Unique Schema</strong> : especifica el esquema o el nombre del propietario de la tabla.<br/><br/><strong>Unique Catalog</strong> — especifica el catálogo o el nombre de la base de datos que contiene la tabla.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>
-<td><p>Especifica si el método <strong>UpdateBatch</strong> es seguido por una operación implícita del método <strong>Resync</strong> y, si es así, el ámbito de esa operación.</p></td>
+<td><p>Especifica si el método <strong>UpdateBatch</strong> va seguido de una operación implícita del método <strong>Resync</strong> y, en ese caso, el ámbito de esa operación.</p></td>
 </tr>
 </tbody>
 </table>

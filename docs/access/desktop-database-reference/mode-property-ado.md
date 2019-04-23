@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f30dac303541b0f53d06eb7756739ff1add6ce0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288872"
 ---
 # <a name="mode-property-ado"></a>Mode (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica los permisos disponibles para modificar datos de un objeto [Connection](connection-object-ado.md), [Record](record-object-ado.md) o [Stream](stream-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo [ConnectModeEnum](connectmodeenum.md). El valor predeterminado de **Connection** es **adModeUnknown**, el de **Record** es **adModeRead** y el de un objeto **Stream** asociado a un origen subyacente (abierto con una dirección URL como origen o como el objeto **Stream** predeterminado de **Record**) es **adModeRead**. El valor predeterminado de un objeto **Stream** no asociado a un origen subyacente (con una instancia en memoria) es **adModeUnknown**.
 
@@ -33,5 +33,5 @@ En un objeto **Stream**, si no se ha especificado el modo de acceso, se hereda d
 
 Esta propiedad es de lectura y escritura mientras el objeto está cerrado y de sólo lectura mientras está abierto.
 
-**Uso de servicio de datos remotos** Cuando se usa en un objeto Connection de cliente, la propiedad **Mode** sólo puede establecerse en el **valor adModeUnknown**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del cliente, la propiedad **mode** solo se puede establecer en **adModeUnknown**.
 

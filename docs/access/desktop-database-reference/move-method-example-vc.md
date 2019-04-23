@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5136c9b07d1d450f7b08d823175febb8716ad4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288823"
 ---
 # <a name="move-method-example-vc"></a>Ejemplo del método Move (VC++)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registro, basándose en los datos proporcionados por el usuario.
 
@@ -257,7 +257,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**MoveX.h**
+**MoveX. h**
 
 ```cpp
 // BeginMoveH 

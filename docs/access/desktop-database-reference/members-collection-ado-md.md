@@ -1,5 +1,5 @@
 ---
-title: Members (colección, ADO MD)
+title: Members (colección) (ADO MD)
 TOCTitle: Members collection (ADO MD)
 ms:assetid: 1389c554-e4f1-107d-22c6-7fe851d53d23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: adc8ed771bcba6a4b6532b33b27980f8aab695c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289245"
 ---
-# <a name="members-collection-ado-md"></a>Members (colección, ADO MD)
+# <a name="members-collection-ado-md"></a>Members (colección) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene los objetos [Member](member-object-ado-md.md) de un nivel o una posición a lo largo de un eje.
 

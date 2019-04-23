@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bd8196670513156011d69f08eacf790fa4a0a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288675"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el comportamiento del método [MoveRecord](record-object-ado.md) del objeto [Record](moverecord-method-ado.md).
 
@@ -47,7 +47,7 @@ Especifica el comportamiento del método [MoveRecord](record-object-ado.md) del 
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Modifica el comportamiento predeterminado del método <strong>MoveRecord</strong>, no actualizando los vínculos de hipertexto del <strong>Record</strong> de origen. El comportamiento predeterminado depende de las capacidades del proveedor. La operación mover actualiza los vínculos si el proveedor es capaz. Si el proveedor no puede reparar vínculos, o si no se especifica este valor, entonces la operación de movimiento funcionará incluso aunque los vínculos no se hayan reparado.</p></td>
 </tr>
 <tr class="even">

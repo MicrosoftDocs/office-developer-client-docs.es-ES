@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b9b506f40039ff91a6b1985606322fd86a9e7c0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288935"
 ---
 # <a name="microsoft-ole-db-provider-for-oracle"></a>Proveedor de Microsoft OLE DB para Oracle
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El Proveedor de Microsoft OLE DB para Oracle permite que ADO obtenga acceso a bases de datos de Oracle.
 
@@ -89,7 +89,7 @@ Estos parámetros se describen en profundidad en la Referencia del programador d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro</p></th>
+<th><p>Parameter</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
