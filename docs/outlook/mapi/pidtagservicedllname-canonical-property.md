@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d2917f2119fde38686397b65956113bc430b2e31
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: adf24bcd02d7efc303f911ee01a64325150339ce
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570817"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980461"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>Propiedad canónica PidTagServiceDllName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570817"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de archivo del archivo DLL que contiene la función de punto de entrada de mensaje servicio proveedor para llamar a para la configuración.
+Contiene el nombre de archivo del archivo DLL que contiene la función de punto de entrada del proveedor de servicios de mensajes para llamar para la configuración.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Contiene el nombre de archivo del archivo DLL que contiene la función de punto 
 
 Cuando el nombre de la función de punto de entrada aparece en el método **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que existe el punto de entrada.
   
-MAPI utiliza una convención de nomenclatura del archivo DLL. El nombre de archivo base contiene hasta seis caracteres que identifican el archivo DLL. MAPI anexa la cadena 32 para el nombre base del archivo DLL para identificar la versión que se ejecuta en plataformas de 32 bits. Por ejemplo, cuando el nombre de MAPI. Se especifica el archivo DLL, el nombre MAPI32 las construcciones de MAPI. DLL para representar la versión de 32 bits correspondiente de la DLL.
+MAPI utiliza una Convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de la DLL base para identificar la versión que se ejecuta en las plataformas de 32 bits. Por ejemplo, cuando el nombre MAPI. DLL, MAPI crea el nombre MAPI32. DLL para representar la versión de 32 bits correspondiente del archivo DLL.
   
-Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. Por ejemplo, la cadena de 32 como parte de estos resultados de las propiedades de un error.
+Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de estas propiedades da como resultado un error.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,9 +63,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

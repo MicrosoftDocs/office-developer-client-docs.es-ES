@@ -3,12 +3,12 @@ title: Controlar valores altos y ajuste de PPP en una solución de Office
 description: Actualizar una solución de Office, como los paneles de tareas personalizados o los controles ActiveX, para admitir monitores con un valor alto de PPP.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 7092b77a6c7cf56e3dafa0a4c893566778abf00b
-ms.sourcegitcommit: c9720dd639f5c969f3cf6a324b84fadc57199370
+ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30517405"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980470"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Controlar valores altos y ajuste de PPP en una solución de Office
 
@@ -36,14 +36,14 @@ Los siguientes tipos de soluciones de Office se pueden ver afectados por el ajus
 
 ## <a name="windows-dpi-awareness-modes"></a>Modos de reconocimiento de PPP de Windows
 
-En este artículo haremos referencia a los modos de reconocimiento de PPP compatibles con Windows. Cada modo de reconocimiento de PPP es compatible con distintas funciones, como se describe en la tabla siguiente. Esta es una descripción simplificada de los modos para explicar cómo las soluciones de Office son compatibles. Para obtener más información sobre los modos de reconocimiento de PPP, vea [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+En este artículo haremos referencia a los modos de reconocimiento de PPP compatibles con Windows. Cada modo de reconocimiento de PPP es compatible con distintas funciones, como se describe en la tabla siguiente. Esta es una descripción simplificada de los modos para explicar cómo las soluciones de Office son compatibles. Para obtener más información sobre los modos de reconocimiento de PPP, vea [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 |Modo  |Descripción  |Cuando cambia PPP  |
 |---------|---------|---------|
-|Sin reconocimiento de PPP     |    La aplicación siempre se representa como si se encontrara en una pantalla con un valor de PPP de 96.     |    La aplicación se estira en mapa de bits al tamaño esperado en pantallas principales y secundarias.    |
-|Reconocimiento de PPP de sistema     |   La aplicación detecta el valor de PPP del monitor principal conectado al inicio de sesión de Windows, pero no responde a cambios de PPP. Para obtener más información, vea la sección [Configurar Windows para corregir aplicaciones borrosas](#Configure-Windows-to-fix-blurry-apps) de este artículo.      |     La aplicación se estira en mapa de bits cuando se mueve a una nueva pantalla con un valor de PPP diferente.    |
-|Reconocimiento de PPP por monitor     |    La aplicación es capaz de volver a dibujarse correctamente cuando cambie el valor de PPP.     |    Windows le enviará notificaciones de PPP a ventanas de nivel superior de la aplicación para que pueda volver a dibujarse cuando cambie el valor de PPP.     |
-|V2 por monitor     |   La aplicación es capaz de volver a dibujarse correctamente cuando cambie el valor de PPP.      |        Windows le enviará notificaciones de PPP a ventanas de nivel superior y secundarias para que la aplicación pueda volver a dibujarse cuando cambie el valor de PPP. |
+|Sin reconocimiento de PPP |  La aplicación siempre se representa como si se encontrara en una pantalla con un valor de PPP de 96. |  La aplicación se estira en mapa de bits al tamaño esperado en pantallas principales y secundarias.    |
+|Reconocimiento de PPP de sistema |  La aplicación detecta el valor de PPP del monitor principal conectado al inicio de sesión de Windows, pero no responde a cambios de PPP. Para obtener más información, vea la sección [configurar Windows para corregir aplicaciones borrosas](#configure-windows-to-fix-blurry-apps) de este artículo.  | La aplicación se estira en mapa de bits cuando se mueve a una nueva pantalla con un valor de PPP diferente.    |
+|Reconocimiento de PPP por monitor |  La aplicación es capaz de volver a dibujarse correctamente cuando cambie el valor de PPP.  |   Windows le enviará notificaciones de PPP a ventanas de nivel superior de la aplicación para que pueda volver a dibujarse cuando cambie el valor de PPP.     |
+|V2 por monitor |  La aplicación es capaz de volver a dibujarse correctamente cuando cambie el valor de PPP.  |   Windows le enviará notificaciones de PPP a ventanas de nivel superior y secundarias para que la aplicación pueda volver a dibujarse cuando cambie el valor de PPP. |
 
 ## <a name="how-office-supports-dpi-scaling"></a>Compatibilidad de Office con el ajuste de PPP
 
@@ -63,13 +63,13 @@ Cuando se inicie la aplicación host de Office, su subproceso principal se ejecu
 
 ### <a name="creating-new-threads-with-the-correct-dpi-context"></a>Crear nuevos subprocesos con el contexto de PPP correcto
 
-Si su solución crea subprocesos adicionales, Office los obligará al contexto de reconocimiento de PPP por monitor. Si el código se espera un contexto diferente, debe usar la función [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para establecer el reconocimiento de PPP de subproceso esperado. 
+Si su solución crea subprocesos adicionales, Office los obligará al contexto de reconocimiento de PPP por monitor. Si el código se espera un contexto diferente, debe usar la función [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para establecer el reconocimiento de PPP de subproceso esperado. 
 
 ### <a name="build-a-context-block-for-incoming-thread-calls"></a>Crear un bloque de contexto para las llamadas entrantes de subprocesos
 
 ![Diagrama que muestra el bloque de contexto en la aplicación de Office que cambia el subproceso al contexto de reconocimiento de sistema en llamadas a la ventana de nivel superior.](./media/thread-dpi-awareness-context-block.png)
 
-La solución interactúa con su aplicación host de Office, por lo que recibirá llamadas entrantes para su solución de Office como devoluciones de llamadas de eventos. Cuando Office llama la solución, cuenta con un bloque de contexto que fuerza el contexto de subprocesos en el contexto de reconocimiento de PPP de sistema. Debe cambiar el contexto de subprocesos para que coincida con el reconocimiento de PPP de la ventana. Puede implementar un bloque de contexto similar para cambiar el contexto de subprocesos en llamadas entrantes. Use la función [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para cambiar el contexto para que coincida con el contexto de la ventana. 
+La solución interactúa con su aplicación host de Office, por lo que recibirá llamadas entrantes para su solución de Office como devoluciones de llamadas de eventos. Cuando Office llama la solución, cuenta con un bloque de contexto que fuerza el contexto de subprocesos en el contexto de reconocimiento de PPP de sistema. Debe cambiar el contexto de subprocesos para que coincida con el reconocimiento de PPP de la ventana. Puede implementar un bloque de contexto similar para cambiar el contexto de subprocesos en llamadas entrantes. Use la función [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para cambiar el contexto para que coincida con el contexto de la ventana. 
 
 > [!NOTE]
 > El bloque de contexto debe restaurar el contexto de subprocesos de PPP original antes de llamar a los demás componentes fuera de su código de la solución.
@@ -87,6 +87,7 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 this.value = value;
             }
+
             public static implicit operator DPI_AWARENESS_CONTEXT(IntPtr value)
             {
                 return new DPI_AWARENESS_CONTEXT(value);
@@ -97,28 +98,11 @@ public struct DPI_AWARENESS_CONTEXT
                 return context.value;
             }
 
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, long value)
-            {
-                return (IntPtr)(context.value.ToInt64() - value);
-            }
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, int value)
-            {
-                return (IntPtr)(context.value.ToInt32() - value);
-            }
-
-            public static bool operator ==(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value == context2;
-            }
-            public static bool operator !=(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value != context2;
-            }
-
             public static bool operator ==(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return AreDpiAwarenessContextsEqual(context1, context2);
             }
+
             public static bool operator !=(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return !AreDpiAwarenessContextsEqual(context1, context2);
@@ -133,36 +117,15 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 return base.GetHashCode();
             }
-
-            public override string ToString()
-            {
-                if (this.value == DPI_AWARENESS_CONTEXT_UNAWARE)
-                {
-                    return "Unaware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)
-                {
-                    return "System Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)
-                {
-                    return "Per Monitor Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)
-                {
-                    return "Per Monitor Aware V2";
-                }
-                return "Unknown";
-            }
         }
 
         private static DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_HANDLE = IntPtr.Zero;
 
         public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_INVALID = IntPtr.Zero;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = DPI_AWARENESS_CONTEXT_HANDLE - 1;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 2;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 3;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = DPI_AWARENESS_CONTEXT_HANDLE - 4;
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = new IntPtr(-1);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = new IntPtr(-2);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = new IntPtr(-3);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = new IntPtr(-4);
 
         public static DPI_AWARENESS_CONTEXT[] DpiAwarenessContexts =
         {
@@ -246,11 +209,12 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
       SetThreadDpiAwarenessContext(m_contextReversalType);
 }
 ```
+
 <h2 id="top-level-window-management">Administración de ventanas de nivel superior</h2>
 
-Al iniciar aplicaciones de Office, se realiza una llamada a [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) como DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. En este contexto, los cambios de PPP se envían a HWND de cualquier ventana de nivel superior en el proceso que se está ejecutando según el reconocimiento de PPP por monitor. Las ventanas de nivel superior son la ventana de la aplicación de Office y cualquier ventana de nivel superior adicional creada por la solución. Cuando una aplicación de Office se mueve a una nueva pantalla, recibe una notificación para que pueda escalar dinámicamente y dibujarse correctamente con el valor PPP de la nueva pantalla. La solución de Office puede crear ventanas de nivel superior en cualquier modo de reconocimiento de PPP. Las ventanas de nivel superior también pueden responder a los cambios de PPP al escuchar mensajes de Windows para los cambios.
+Al iniciar aplicaciones de Office, se realiza una llamada a [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) como DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. En este contexto, los cambios de PPP se envían a HWND de cualquier ventana de nivel superior en el proceso que se está ejecutando según el reconocimiento de PPP por monitor. Las ventanas de nivel superior son la ventana de la aplicación de Office y cualquier ventana de nivel superior adicional creada por la solución. Cuando una aplicación de Office se mueve a una nueva pantalla, recibe una notificación para que pueda escalar dinámicamente y dibujarse correctamente con el valor PPP de la nueva pantalla. La solución de Office puede crear ventanas de nivel superior en cualquier modo de reconocimiento de PPP. Las ventanas de nivel superior también pueden responder a los cambios de PPP al escuchar mensajes de Windows para los cambios.
 
-Si crea ventanas secundarias que están relacionadas a la ventana de nivel superior, también puede establecerlas con cualquier modo de reconocimiento de PPP. Sin embargo, si usa el modo de reconocimiento de PPP por monitor, las ventanas secundarias no recibirán notificaciones de cambio de PPP.  Para obtener más información sobre los modos de reconocimiento de PPP de Windows, vea [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+Si crea ventanas secundarias que están relacionadas a la ventana de nivel superior, también puede establecerlas con cualquier modo de reconocimiento de PPP. Sin embargo, si usa el modo de reconocimiento de PPP por monitor, las ventanas secundarias no recibirán notificaciones de cambio de PPP.  Para obtener más información sobre los modos de reconocimiento de PPP de Windows, vea [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ## <a name="child-window-management"></a>Administración de ventanas secundarias
 
@@ -273,10 +237,10 @@ Con la actualización de abril de 2018 de Windows (1803) y versiones posteriores
 
 ![Diagrama que muestra ventanas secundarias que se ejecutan en el contexto de reconocimiento de PPP de sistema en la actualización de abril de 2018 de Windows (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Al crear nuevas ventanas secundarias, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Para más información sobre la coherencia de reconocimiento de PPP, consulte la sección "Reinicio forzado del reconocimiento de todo el proceso de PPP" en [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Al crear nuevas ventanas secundarias, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Para más información sobre la coherencia de reconocimiento de PPP, consulte la sección "Reinicio forzado del reconocimiento de todo el proceso de PPP" en [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
-> No puede confiar en el reconocimiento de PPP de proceso porque puede devolver [PROCESS_SYSTEM_DPI_AWARE](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280512(v=vs.85).aspx) incluso cuando el contexto de reconocimiento de PPP de subprocesos principal de la aplicación es [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context). Use la función [GetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) para obtener el contexto de reconocimiento de PPP de subprocesos.
+> No puede confiar en el reconocimiento de PPP de proceso porque puede devolver [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) incluso cuando el contexto de reconocimiento de PPP de subprocesos principal de la aplicación es [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Use la función [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) para obtener el contexto de reconocimiento de PPP de subprocesos.
 
 ## <a name="office-and-windows-dpi-compatibility-settings"></a>Configuración de compatibilidad de PPP de Windows y Office
 
@@ -372,9 +336,9 @@ Algunas soluciones pueden recibir y responder a los cambios de PPP. Algunas tien
 
 <h3 id="vsto-add-ins">Complemento VSTO</h3>
 
-Si el complemento VSTO crea ventanas secundarias que están relacionadas con cualquier ventana de Office, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Las ventanas secundarias no recibirán ninguna notificación de cambio de PPP. Si no se está representando correctamente la solución, los usuarios deberán poner Office en modo de compatibilidad.
+Si el complemento VSTO crea ventanas secundarias que están relacionadas con cualquier ventana de Office, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Las ventanas secundarias no recibirán ninguna notificación de cambio de PPP. Si no se está representando correctamente la solución, los usuarios deberán poner Office en modo de compatibilidad.
 
-Para todas las ventanas de nivel superior que crea el complemento VSTO, puede establecerlas en cualquier modo de reconocimiento de PPP. El ejemplo de código siguiente muestra cómo configurar el reconocimiento de PPP deseado y cómo responder a los cambios de PPP. También necesitará ajustar el app.config, como se describe en el artículo [Soporte de valores altos de PPP en Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
+Para todas las ventanas de nivel superior que crea el complemento VSTO, puede establecerlas en cualquier modo de reconocimiento de PPP. El ejemplo de código siguiente muestra cómo configurar el reconocimiento de PPP deseado y cómo responder a los cambios de PPP. También necesitará ajustar el app.config, como se describe en el artículo [Soporte de valores altos de PPP en Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
 
 ```csharp
 using System;
@@ -495,15 +459,15 @@ namespace SharedModule
 Un panel de tareas personalizado se crea mediante Office como una ventana secundaria.  Cuando se ejecuta en Windows Fall Creators Update (1709), el panel de tareas personalizado se ejecutará con el mismo modo de reconocimiento de PPP de Office. Cuando se ejecuta en la actualización de abril 2018 de Windows (1803) y versiones posteriores, el panel de tareas personalizado se ejecutará con el modo de reconocimiento de PPP del sistema. 
 
 Como los paneles de tareas personalizados son ventanas secundarias, no pueden recibir notificaciones de PPP. Si se están dibujando correctamente, el usuario debe usar el [modo de compatibilidad de PPP de Office](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
-Si el panel de tareas personalizado crea ventanas de nivel superior, esas ventanas pueden ejecutarse en cualquier modo de reconocimiento de PPP y recibir notificaciones de cambio de PPP. Para obtener más información, consulte la sección [Administración de la ventana de nivel superior](#Top-level-window-management) de este artículo.
+Si el panel de tareas personalizado crea ventanas de nivel superior, esas ventanas pueden ejecutarse en cualquier modo de reconocimiento de PPP y recibir notificaciones de cambio de PPP. Para obtener más información, consulte la sección [Administración de la ventana de nivel superior](#top-level-window-management) de este artículo.
 
 <h3 id="com-add-ins">Complementos COM</h3>
 
-Los complementos COM que crean ventanas de nivel superior pueden recibir notificaciones de PPP. Deberá crear un [bloque de contexto](#Build-a-context-block-for-incoming-thread-calls) para establecer el subproceso al reconocimiento de PPP que quiera para la ventana y luego, deberá crear la ventana. Hay mucho que hacer para controlar las notificaciones de PPP correctamente, así que asegúrese de leer [Desarrollo de aplicaciones de escritorio de valores altos de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) para obtener más información.
+Los complementos COM que crean ventanas de nivel superior pueden recibir notificaciones de PPP. Deberá crear un [bloque de contexto](#build-a-context-block-for-incoming-thread-calls) para establecer el subproceso al reconocimiento de PPP que quiera para la ventana y luego, deberá crear la ventana. Hay mucho que hacer para controlar las notificaciones de PPP correctamente, así que asegúrese de leer [Desarrollo de aplicaciones de escritorio de valores altos de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) para obtener más información.
 
-El mensaje [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) se envía un mensaje cuando se cambie el valor de PPP de una ventana.  En el código no administrado, este mensaje se controla mediante el [Procedimiento de ventana](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633570(v=vs.85).aspx) para HWND.  El código del controlador de cambios de PPP de ejemplo se encuentra en el artículo [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx). 
+El mensaje [WM_DPICHANGED](https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged) se envía un mensaje cuando se cambie el valor de PPP de una ventana.  En el código no administrado, este mensaje se controla mediante el [Procedimiento de ventana](https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures) para HWND.  El código del controlador de cambios de PPP de ejemplo se encuentra en el artículo WM_DPICHANGED. 
 
-Los complementos COM que muestran las ventanas secundarias relacionadas con una ventana de Office no pueden recibir notificaciones de PPP. Si se están dibujando correctamente, el usuario debe usar el [modo de compatibilidad de PPP de Office](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Los complementos COM que muestran las ventanas secundarias relacionadas con una ventana de Office no pueden recibir notificaciones de PPP. Si se están dibujando correctamente, el usuario debe usar el [modo de compatibilidad de PPP de Office](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="activex-controls">Controles ActiveX</h3>
 
@@ -511,7 +475,7 @@ El modo de admitir el ajuste de PPP de controles ActiveX depende de si el contro
 
 #### <a name="windowed-activex-controls"></a>Controles ActiveX con ventanas
 
-Los controles ActiveX con ventanas reciben un mensaje WM_SIZE cada vez que cambia de tamaño el control.  Cuando se desencadena el evento, el código del controlador de eventos puede llamar a la función [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) con HWND del control para obtener el valor de PPP, calcular las diferencias de factor de escala y ajustar según sea necesario. 
+Los controles ActiveX con ventanas reciben un mensaje WM_SIZE cada vez que cambia de tamaño el control.  Cuando se desencadena el evento, el código del controlador de eventos puede llamar a la función [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) con HWND del control para obtener el valor de PPP, calcular las diferencias de factor de escala y ajustar según sea necesario. 
 
 El ejemplo siguiente permite a un control ActiveX basado en MFC responder al evento **OnSize**. 
 
@@ -570,15 +534,15 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 No se garantiza que los controles ActiveX sin ventanas tengan un HWND.  Al insertar un control ActiveX en el lienzo de un documento, éste entrará en modo de diseño.  En las aplicaciones de Office, el contenedor host devolverá 0 para la llamada a hDC->GetWindow() en el evento ::OnDraw cuando el control está en modo de diseño.  En este caso no se puede recuperar un valor de PPP confiable. 
 
-Sin embargo, cuando el control está en modo runtime, Office devolverá HWND donde se debe dibujar el control.  En este caso, el desarrollador de control puede llamar a [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) y obtener el valor de PPP actual y las escalas de fuentes, los controles y así sucesivamente. 
+Sin embargo, cuando el control está en modo runtime, Office devolverá HWND donde se debe dibujar el control.  En este caso, el desarrollador de control puede llamar a [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) y obtener el valor de PPP actual y las escalas de fuentes, los controles y así sucesivamente. 
 
 <h3 id="ribbon-extensibility">Extensibilidad de la cinta de opciones personalizada</h3>
 
-Todas las devoluciones de llamadas de Office para los controles de cinta de opciones personalizados se mostrarán en un reconocimiento de subprocesos de PPP del reconocimiento de PPP de sistema.  Si la solución se espera un reconocimiento de subprocesos de PPP diferente, deberá implementar un bloque de contexto para configurar el reconocimiento de subprocesos según lo esperado. Para obtener más información, vea [Crear un bloque de contexto](#Build-a-context-block-for-incoming-thread-calls).
+Todas las devoluciones de llamadas de Office para los controles de cinta de opciones personalizados se mostrarán en un reconocimiento de subprocesos de PPP del reconocimiento de PPP de sistema.  Si la solución se espera un reconocimiento de subprocesos de PPP diferente, deberá implementar un bloque de contexto para configurar el reconocimiento de subprocesos según lo esperado. Para obtener más información, vea [Crear un bloque de contexto](#build-a-context-block-for-incoming-thread-calls).
 
 <h3 id="ole">Clientes y servidores OLE.</h3>
 
-Cuando se hospeda un servidor OLE en un contenedor de cliente OLE, actualmente no puede proporcionar información de PPP actual o compatible. Esto puede provocar problemas porque algunos modos mixtos de combinaciones de ventana principal y ventana secundaria no son compatibles con la arquitectura actual de Windows. Si Word o Excel detectan que hay varios monitores con escalas de PPP diferentes, no admitirán la activación en contexto. El servidor OLE se activará remotamente. Si experimenta problemas con las interacciones de servidor OLE, el usuario deberá usar el [Modo de compatibilidad de PPP de Office](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Cuando se hospeda un servidor OLE en un contenedor de cliente OLE, actualmente no puede proporcionar información de PPP actual o compatible. Esto puede provocar problemas porque algunos modos mixtos de combinaciones de ventana principal y ventana secundaria no son compatibles con la arquitectura actual de Windows. Si Word o Excel detectan que hay varios monitores con escalas de PPP diferentes, no admitirán la activación en contexto. El servidor OLE se activará remotamente. Si experimenta problemas con las interacciones de servidor OLE, el usuario deberá usar el [Modo de compatibilidad de PPP de Office](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="web-add-ins">Complementos web de Office</h3>
 
@@ -586,7 +550,7 @@ Los complementos de Office creados con la API de JavaScript de Office se ejecuta
 
 ## <a name="verify-that-your-solution-supports-dpi-scaling"></a>Compruebe que la solución sea compatible con el ajuste de PPP
 
-Después de actualizar la aplicación para admitir el ajuste de PPP, debe validar los cambios en un entorno mixto de PPP. Valide que el código de la interfaz de usuario responda correctamente a los cambios de PPP, cuando se mueven las ventanas de su solución de una pantalla a otra con diferentes valores de PPP. Para obtener más información sobre las técnicas de pruebas de ajuste de PPP, vea [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Después de actualizar la aplicación para admitir el ajuste de PPP, debe validar los cambios en un entorno mixto de PPP. Valide que el código de la interfaz de usuario responda correctamente a los cambios de PPP, cuando se mueven las ventanas de su solución de una pantalla a otra con diferentes valores de PPP. Para obtener más información sobre las técnicas de pruebas de ajuste de PPP, vea [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 También pueden ser útiles estas técnicas adicionales:
 
@@ -600,15 +564,14 @@ También pueden ser útiles estas técnicas adicionales:
 
 ### <a name="articles"></a>Artículos
 
+- [El desarrollo de una aplicación WPF con reconocimiento de PPP para cada monitor](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) proporciona una guía general y una guía para escribir aplicaciones de escritorio de Win32. Muchas de las mismas técnicas descritas en este artículo se aplicarán a las soluciones de extensibilidad de Office.
 - 
-  [Escribir aplicaciones de escritorio y Win32 con reconocimiento de PPP](https://msdn.microsoft.com/en-us/library/windows/desktop/dn469266(v=vs.85).aspx) proporciona una descripción general y la guía de escritura de aplicaciones de escritorio Win32. Muchas de las mismas técnicas descritas en este artículo se aplicarán a las soluciones de extensibilidad de Office.
-- 
-  [API con reconocimiento PPP y ajuste de PPP de modo mixto](https://msdn.microsoft.com/en-us/library/windows/desktop/mt744321(v=vs.85).aspx) cuenta con una lista de API relacionadas con PPP.
+  [API con reconocimiento PPP y ajuste de PPP de modo mixto](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) cuenta con una lista de API relacionadas con PPP.
 - [Guía del desarrollador - PPP por monitor - Vista previa WPF](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) incluye la guía de desarrollo de aplicaciones WPF para crear aplicaciones WPF con reconocimiento de PPP.
-- [Soporte técnico de Office para las pantallas de alta definición](https://support.office.com/en-us/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) proporciona información sobre cómo un usuario puede configurar Office para optimizar la compatibilidad si la solución de Office no se admite correctamente cuando se cambie el valor de PPP.
+- [Soporte técnico de Office para las pantallas de alta definición](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) proporciona información sobre cómo un usuario puede configurar Office para optimizar la compatibilidad si la solución de Office no se admite correctamente cuando se cambie el valor de PPP.
 - [Mostrar los cambios de escala de la Actualización de aniversario de Windows 10](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) es una publicación de blog que trata los cambios en la actualización de aniversario de Windows 10. 
-- [Controlador DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context) contiene detalles de programación sobre definiciones y valores DPI_AWARENESS_CONTEXT.
-- [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) incluye información sobre las pruebas en la sección Probar los cambios.
+- [Controlador DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context) contiene detalles de programación sobre definiciones y valores DPI_AWARENESS_CONTEXT.
+- [Desarrollo de aplicaciones de escritorio con valores altos de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) incluye información sobre las pruebas en la sección Probar los cambios.
 
 ### <a name="code-samples"></a>Ejemplos de código
 
