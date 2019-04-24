@@ -12,53 +12,53 @@ api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de9635fa77cd0c282723e0f76eabd6bc0d0dbab9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339350"
 ---
-# <a name="pidtagsupplementaryinfo-canonical-property"></a><span data-ttu-id="71004-103">Propiedad canónica PidTagSupplementaryInfo</span><span class="sxs-lookup"><span data-stu-id="71004-103">PidTagSupplementaryInfo Canonical Property</span></span>
+# <a name="pidtagsupplementaryinfo-canonical-property"></a><span data-ttu-id="ac398-103">Propiedad canónica PidTagSupplementaryInfo</span><span class="sxs-lookup"><span data-stu-id="ac398-103">PidTagSupplementaryInfo Canonical Property</span></span>
 
   
   
-<span data-ttu-id="71004-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="71004-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ac398-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ac398-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="71004-105">Contiene información adicional para su uso en un informe.</span><span class="sxs-lookup"><span data-stu-id="71004-105">Contains additional information for use in a report.</span></span>
+<span data-ttu-id="ac398-105">Contiene información adicional para su uso en un informe.</span><span class="sxs-lookup"><span data-stu-id="ac398-105">Contains additional information for use in a report.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="71004-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="71004-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="71004-107">PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W</span><span class="sxs-lookup"><span data-stu-id="71004-107">PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W</span></span>  <br/> |
-|<span data-ttu-id="71004-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="71004-108">Identifier:</span></span>  <br/> |<span data-ttu-id="71004-109">0x0C1B</span><span class="sxs-lookup"><span data-stu-id="71004-109">0x0C1B</span></span>  <br/> |
-|<span data-ttu-id="71004-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="71004-110">Data type:</span></span>  <br/> |<span data-ttu-id="71004-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="71004-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="71004-112">Área:</span><span class="sxs-lookup"><span data-stu-id="71004-112">Area:</span></span>  <br/> |<span data-ttu-id="71004-113">Destinatario MAPI</span><span class="sxs-lookup"><span data-stu-id="71004-113">MAPI recipient</span></span>  <br/> |
+|<span data-ttu-id="ac398-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="ac398-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ac398-107">PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W</span><span class="sxs-lookup"><span data-stu-id="ac398-107">PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W</span></span>  <br/> |
+|<span data-ttu-id="ac398-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="ac398-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ac398-109">0x0C1B</span><span class="sxs-lookup"><span data-stu-id="ac398-109">0x0C1B</span></span>  <br/> |
+|<span data-ttu-id="ac398-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="ac398-110">Data type:</span></span>  <br/> |<span data-ttu-id="ac398-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ac398-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="ac398-112">Área:</span><span class="sxs-lookup"><span data-stu-id="ac398-112">Area:</span></span>  <br/> |<span data-ttu-id="ac398-113">Destinatario MAPI</span><span class="sxs-lookup"><span data-stu-id="ac398-113">MAPI recipient</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="71004-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="71004-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ac398-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ac398-114">Remarks</span></span>
 
-<span data-ttu-id="71004-115">Estas propiedades contienen información generada por el agente de transferencia de mensaje o relacionadas con el proveedor de transporte para el informe.</span><span class="sxs-lookup"><span data-stu-id="71004-115">These properties contain information generated by the message transfer agent or transport provider related to the report.</span></span> <span data-ttu-id="71004-116">Normalmente se usa para el texto de informe de entrega o de no entrega que originó con el sistema de mensajería subyacente.</span><span class="sxs-lookup"><span data-stu-id="71004-116">It is typically used for delivery or nondelivery report text that originated with the underlying messaging system.</span></span>
+<span data-ttu-id="ac398-115">Estas propiedades contienen información generada por el agente de transferencia de mensajes o el proveedor de transporte relacionado con el informe.</span><span class="sxs-lookup"><span data-stu-id="ac398-115">These properties contain information generated by the message transfer agent or transport provider related to the report.</span></span> <span data-ttu-id="ac398-116">Se suele usar para el texto de informe de entrega o no entrega que se originó en el sistema de mensajería subyacente.</span><span class="sxs-lookup"><span data-stu-id="ac398-116">It is typically used for delivery or nondelivery report text that originated with the underlying messaging system.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="71004-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="71004-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ac398-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ac398-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="71004-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="71004-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ac398-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="ac398-118">Header files</span></span>
 
-<span data-ttu-id="71004-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="71004-119">Mapidefs.h</span></span>
+<span data-ttu-id="ac398-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="ac398-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="71004-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="71004-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="ac398-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ac398-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="71004-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="71004-121">Mapitags.h</span></span>
+<span data-ttu-id="ac398-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="ac398-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="71004-122">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="71004-122">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ac398-122">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="ac398-122">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="71004-123">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="71004-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ac398-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="ac398-123">See also</span></span>
 
 
 
-[<span data-ttu-id="71004-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="71004-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ac398-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ac398-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="71004-125">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="71004-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ac398-125">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="ac398-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="71004-126">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="71004-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ac398-126">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="ac398-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="71004-127">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="71004-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ac398-127">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="ac398-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

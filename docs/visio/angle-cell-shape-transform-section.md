@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
 description: 'Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).'
-ms.openlocfilehash: ff052c5b254f9b49a97f5d362a4643e16a27b85d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85f64c6111b492940d278a5558508a2dea6b1e1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341471"
 ---
-# <a name="angle-cell-shape-transform-section"></a><span data-ttu-id="7c1ca-104">Celda Angle (sección Transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="7c1ca-104">Angle Cell (Shape Transform Section)</span></span>
+# <a name="angle-cell-shape-transform-section"></a><span data-ttu-id="fb5c6-104">Celda Angle (Sección de transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="fb5c6-104">Angle Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="7c1ca-p102">Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).</span><span class="sxs-lookup"><span data-stu-id="7c1ca-p102">Represents the shape's current angle of rotation in relation to its parent. The default formula for determining the rotation angle of a 1-D shape is: =ATAN2(EndY-BeginY,EndX-BeginX).</span></span>
+<span data-ttu-id="fb5c6-p102">Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).</span><span class="sxs-lookup"><span data-stu-id="fb5c6-p102">Represents the shape's current angle of rotation in relation to its parent. The default formula for determining the rotation angle of a 1-D shape is: =ATAN2(EndY-BeginY,EndX-BeginX).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7c1ca-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7c1ca-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb5c6-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fb5c6-107">Remarks</span></span>
 
-<span data-ttu-id="7c1ca-108">Para obtener una referencia a la celda Angle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-108">To get a reference to the Angle cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="fb5c6-108">Para obtener una referencia a la celda Angle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-108">To get a reference to the Angle cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7c1ca-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-109">Cell name:</span></span>  <br/> | <span data-ttu-id="7c1ca-110">Angle</span><span class="sxs-lookup"><span data-stu-id="7c1ca-110">Angle</span></span>  <br/> |
+| <span data-ttu-id="fb5c6-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-109">Cell name:</span></span>  <br/> | <span data-ttu-id="fb5c6-110">Ángulo</span><span class="sxs-lookup"><span data-stu-id="fb5c6-110">Angle</span></span>  <br/> |
    
-<span data-ttu-id="7c1ca-111">Para obtener una referencia a la celda Angle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-111">To get a reference to the Angle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="fb5c6-111">Para obtener una referencia a la celda Angle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-111">To get a reference to the Angle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7c1ca-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-112">Section index:</span></span>  <br/> |<span data-ttu-id="7c1ca-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="7c1ca-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="7c1ca-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-114">Row index:</span></span>  <br/> |<span data-ttu-id="7c1ca-115">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="7c1ca-115">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="7c1ca-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="7c1ca-116">Cell index:</span></span>  <br/> |<span data-ttu-id="7c1ca-117">**visXFormAngle**</span><span class="sxs-lookup"><span data-stu-id="7c1ca-117">**visXFormAngle**</span></span> <br/> |
+| <span data-ttu-id="fb5c6-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-112">Section index:</span></span>  <br/> |<span data-ttu-id="fb5c6-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fb5c6-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="fb5c6-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-114">Row index:</span></span>  <br/> |<span data-ttu-id="fb5c6-115">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="fb5c6-115">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="fb5c6-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="fb5c6-116">Cell index:</span></span>  <br/> |<span data-ttu-id="fb5c6-117">**visXFormAngle**</span><span class="sxs-lookup"><span data-stu-id="fb5c6-117">**visXFormAngle**</span></span> <br/> |
    
 

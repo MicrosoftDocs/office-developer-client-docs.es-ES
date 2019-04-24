@@ -9,38 +9,38 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.
-ms.openlocfilehash: 043571243fe3698561bee8632e7fd18db04c9330
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e332546c1fc5dfc71dfa3b72ea5a58bfef59dc7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340988"
 ---
-# <a name="nolivedynamics-cell-miscellaneous-section"></a><span data-ttu-id="62283-103">Celda NoLiveDynamics (sección Varios)</span><span class="sxs-lookup"><span data-stu-id="62283-103">NoLiveDynamics Cell (Miscellaneous Section)</span></span>
+# <a name="nolivedynamics-cell-miscellaneous-section"></a><span data-ttu-id="48d22-103">Celda NoLiveDynamics (Sección de varios)</span><span class="sxs-lookup"><span data-stu-id="48d22-103">NoLiveDynamics Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="62283-104">Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="62283-104">Determines whether a shape dynamically resizes or rotates as you are manipulating it.</span></span>
+<span data-ttu-id="48d22-104">Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="48d22-104">Determines whether a shape dynamically resizes or rotates as you are manipulating it.</span></span>
   
-|<span data-ttu-id="62283-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="62283-105">**Value**</span></span>|<span data-ttu-id="62283-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="62283-106">**Description**</span></span>|
+|<span data-ttu-id="48d22-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="48d22-105">**Value**</span></span>|<span data-ttu-id="48d22-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="48d22-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="62283-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="62283-107">TRUE</span></span>  <br/> | <span data-ttu-id="62283-108">La forma no se actualiza dinámicamente mientras el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="62283-108">Do not dynamically update the shape while you are manipulating it.</span></span>  <br/> |
-| <span data-ttu-id="62283-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="62283-109">FALSE</span></span>  <br/> | <span data-ttu-id="62283-110">La forma se actualiza dinámicamente mientras el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="62283-110">Dynamically update the shape while you are manipulating it.</span></span>  <br/> |
+| <span data-ttu-id="48d22-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="48d22-107">TRUE</span></span>  <br/> | <span data-ttu-id="48d22-108">La forma no se actualiza dinámicamente mientras el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="48d22-108">Do not dynamically update the shape while you are manipulating it.</span></span>  <br/> |
+| <span data-ttu-id="48d22-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="48d22-109">FALSE</span></span>  <br/> | <span data-ttu-id="48d22-110">La forma se actualiza dinámicamente mientras el usuario trabaja con ella.</span><span class="sxs-lookup"><span data-stu-id="48d22-110">Dynamically update the shape while you are manipulating it.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="62283-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="62283-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="48d22-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="48d22-111">Remarks</span></span>
 
-<span data-ttu-id="62283-p101">A medida que cambia de tamaño o gira una forma bidimensional (2D) sin dinámica activa, puede ver un cuadro de selección. Si la forma es unidimensional (1D), el efecto visual se basa en el valor de la celda DynFeedback.</span><span class="sxs-lookup"><span data-stu-id="62283-p101">As you resize or rotate a two-dimensional (2-D) shape without live dynamics, you see a selection box. If the shape is one-dimensional (1-D), the visual feedback is based on the value of the DynFeedback cell.</span></span>
+<span data-ttu-id="48d22-p101">A medida que cambia de tamaño o gira una forma bidimensional (2D) sin dinámica activa, puede ver un cuadro de selección. Si la forma es unidimensional (1D), el efecto visual se basa en el valor de la celda DynFeedback.</span><span class="sxs-lookup"><span data-stu-id="48d22-p101">As you resize or rotate a two-dimensional (2-D) shape without live dynamics, you see a selection box. If the shape is one-dimensional (1-D), the visual feedback is based on the value of the DynFeedback cell.</span></span>
   
-<span data-ttu-id="62283-114">Para obtener una referencia a la celda NoLiveDymanics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="62283-114">To get a reference to the NoLiveDynamics cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="48d22-114">Para obtener una referencia a la celda NoLiveDymanics por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="48d22-114">To get a reference to the NoLiveDynamics cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="62283-115">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="62283-115">Cell name:</span></span>  <br/> | <span data-ttu-id="62283-116">NoLiveDynamics</span><span class="sxs-lookup"><span data-stu-id="62283-116">NoLiveDynamics</span></span>  <br/> |
+| <span data-ttu-id="48d22-115">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="48d22-115">Cell name:</span></span>  <br/> | <span data-ttu-id="48d22-116">NoLiveDynamics</span><span class="sxs-lookup"><span data-stu-id="48d22-116">NoLiveDynamics</span></span>  <br/> |
    
-<span data-ttu-id="62283-117">Para obtener una referencia desde un programa a la celda NoLiveDynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="62283-117">To get a reference to the NoLiveDynamics cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="48d22-117">Para obtener una referencia desde un programa a la celda NoLiveDynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="48d22-117">To get a reference to the NoLiveDynamics cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="62283-118">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="62283-118">Section index:</span></span>  <br/> |<span data-ttu-id="62283-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="62283-119">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="62283-120">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="62283-120">Row index:</span></span>  <br/> |<span data-ttu-id="62283-121">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="62283-121">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="62283-122">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="62283-122">Cell index:</span></span>  <br/> |<span data-ttu-id="62283-123">**visNoLiveDynamics**</span><span class="sxs-lookup"><span data-stu-id="62283-123">**visNoLiveDynamics**</span></span> <br/> |
+| <span data-ttu-id="48d22-118">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="48d22-118">Section index:</span></span>  <br/> |<span data-ttu-id="48d22-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="48d22-119">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="48d22-120">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="48d22-120">Row index:</span></span>  <br/> |<span data-ttu-id="48d22-121">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="48d22-121">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="48d22-122">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="48d22-122">Cell index:</span></span>  <br/> |<span data-ttu-id="48d22-123">**visNoLiveDynamics**</span><span class="sxs-lookup"><span data-stu-id="48d22-123">**visNoLiveDynamics**</span></span> <br/> |
    
 

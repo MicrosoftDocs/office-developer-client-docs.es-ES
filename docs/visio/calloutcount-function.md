@@ -7,28 +7,28 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0c984d53-763e-e502-b672-beffdebf73f3
 description: Devuelve el número total de formas de llamada asociadas a la forma.
-ms.openlocfilehash: 5a48f07475916c2480a824f71d52d45f829c90d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f973886fba673be0a5d218f0bbc0a59338fe0f6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337530"
 ---
-# <a name="calloutcount-function"></a><span data-ttu-id="3e643-103">Función CALLOUTCOUNT</span><span class="sxs-lookup"><span data-stu-id="3e643-103">CALLOUTCOUNT Function</span></span>
+# <a name="calloutcount-function"></a><span data-ttu-id="74f1e-103">Función CALLOUTCOUNT</span><span class="sxs-lookup"><span data-stu-id="74f1e-103">CALLOUTCOUNT Function</span></span>
 
-<span data-ttu-id="3e643-104">Devuelve el número total de formas de llamada asociadas a la forma.</span><span class="sxs-lookup"><span data-stu-id="3e643-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
+<span data-ttu-id="74f1e-104">Devuelve el número total de formas de llamada asociadas a la forma.</span><span class="sxs-lookup"><span data-stu-id="74f1e-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="3e643-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="3e643-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="74f1e-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="74f1e-105">Version Information</span></span>
 
-<span data-ttu-id="3e643-106">Versión añadida: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="3e643-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="74f1e-106">Versión añadida: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="74f1e-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="3e643-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3e643-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="74f1e-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="74f1e-107">Syntax</span></span>
 
-<span data-ttu-id="3e643-108">CALLOUTCOUNT()</span><span class="sxs-lookup"><span data-stu-id="3e643-108">CALLOUTCOUNT()</span></span>
+<span data-ttu-id="74f1e-108">CALLOUTCOUNT ()</span><span class="sxs-lookup"><span data-stu-id="74f1e-108">CALLOUTCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="3e643-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3e643-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="74f1e-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="74f1e-109">Return value</span></span>
 
- <span data-ttu-id="3e643-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="3e643-110">**Integer**</span></span>
+ <span data-ttu-id="74f1e-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="74f1e-110">**Integer**</span></span>
   
 

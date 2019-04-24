@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341338"
 ---
-# <a name="imapisyncprogresscallbackerror"></a><span data-ttu-id="f1b15-103">IMAPISyncProgressCallback::Error</span><span class="sxs-lookup"><span data-stu-id="f1b15-103">IMAPISyncProgressCallback::Error</span></span>
+# <a name="imapisyncprogresscallbackerror"></a><span data-ttu-id="1707c-103">IMAPISyncProgressCallback::Error</span><span class="sxs-lookup"><span data-stu-id="1707c-103">IMAPISyncProgressCallback::Error</span></span>
 
   
   
-<span data-ttu-id="f1b15-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f1b15-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1707c-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1707c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f1b15-105">Proporciona información detallada que se muestra en el cuadro de diálogo de envío o recepción.</span><span class="sxs-lookup"><span data-stu-id="f1b15-105">Provides details that are displayed in the Send/Receive dialog.</span></span> <span data-ttu-id="f1b15-106">Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.</span><span class="sxs-lookup"><span data-stu-id="f1b15-106">If errors are encountered during synchronization, the store provider calls this function.</span></span>
+<span data-ttu-id="1707c-105">Proporciona detalles que se muestran en el cuadro de diálogo de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="1707c-105">Provides details that are displayed in the Send/Receive dialog.</span></span> <span data-ttu-id="1707c-106">Si se detectan errores durante la sincronización, el proveedor del almacén llama a esta función.</span><span class="sxs-lookup"><span data-stu-id="1707c-106">If errors are encountered during synchronization, the store provider calls this function.</span></span>
   
 ```cpp
 HRESULT Error(
@@ -34,25 +34,25 @@ HRESULT Error(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f1b15-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="f1b15-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1707c-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="1707c-107">Parameters</span></span>
 
- <span data-ttu-id="f1b15-108">**hResult**</span><span class="sxs-lookup"><span data-stu-id="f1b15-108">**hResult**</span></span>
+ <span data-ttu-id="1707c-108">**Valores**</span><span class="sxs-lookup"><span data-stu-id="1707c-108">**hResult**</span></span>
   
-> <span data-ttu-id="f1b15-109">HRESULT del error o advertencia.</span><span class="sxs-lookup"><span data-stu-id="f1b15-109">The HRESULT of the error or warning.</span></span>
+> <span data-ttu-id="1707c-109">HRESULT del error o advertencia.</span><span class="sxs-lookup"><span data-stu-id="1707c-109">The HRESULT of the error or warning.</span></span>
     
- <span data-ttu-id="f1b15-110">**pwcszErrorStr**</span><span class="sxs-lookup"><span data-stu-id="f1b15-110">**pwcszErrorStr**</span></span>
+ <span data-ttu-id="1707c-110">**pwcszErrorStr**</span><span class="sxs-lookup"><span data-stu-id="1707c-110">**pwcszErrorStr**</span></span>
   
-> <span data-ttu-id="f1b15-111">Un puntero a la cadena asociada con el error que se mostrará.</span><span class="sxs-lookup"><span data-stu-id="f1b15-111">A pointer to the string associated with the error to be displayed.</span></span>
+> <span data-ttu-id="1707c-111">Un puntero a la cadena asociada con el error que se va a mostrar.</span><span class="sxs-lookup"><span data-stu-id="1707c-111">A pointer to the string associated with the error to be displayed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f1b15-112">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="f1b15-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1707c-112">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="1707c-112">Return value</span></span>
 
-<span data-ttu-id="f1b15-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="f1b15-113">S_OK</span></span> 
+<span data-ttu-id="1707c-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="1707c-113">S_OK</span></span> 
   
-> <span data-ttu-id="f1b15-114">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="f1b15-114">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="1707c-114">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="1707c-114">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f1b15-115">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="f1b15-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1707c-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="1707c-115">See also</span></span>
 
 
 
-[<span data-ttu-id="f1b15-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f1b15-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
+[<span data-ttu-id="1707c-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1707c-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
 
