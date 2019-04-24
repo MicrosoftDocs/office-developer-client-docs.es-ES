@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320121"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Obtener la lista global de direcciones o un conjunto de listas de direcciones para un almacén
 

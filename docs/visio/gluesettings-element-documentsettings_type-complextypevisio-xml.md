@@ -1,22 +1,22 @@
 ---
-title: Elemento GlueSettings (DocumentSettings_Type complexType) ('XML de Visio')
+title: Elemento GlueSettings (complexType DocumentSettings_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
-description: Especifica los objetos que se pegan las formas cuando el pegado está habilitado en el documento.
+description: Especifica los objetos a los que se pegan las formas cuando está habilitado el pegado en el documento.
 ms.openlocfilehash: c85f1b201a15f5edb7e3ddb0f21553d80b9dd17a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316474"
 ---
-# <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Elemento GlueSettings (DocumentSettings_Type complexType) ('XML de Visio')
+# <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Elemento GlueSettings (complexType DocumentSettings_Type) ("XML" de Visio)
 
-Especifica los objetos que se pegan las formas cuando el pegado está habilitado en el documento.
+Especifica los objetos a los que se pegan las formas cuando está habilitado el pegado en el documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica los objetos que se pegan las formas cuando el pegado está habilitado
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Windows.XML, document.xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Windows. XML, Document. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica los objetos que se pegan las formas cuando el pegado está habilitado
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene elementos que especifican la configuración de documentos.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene los elementos que especifican la configuración del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

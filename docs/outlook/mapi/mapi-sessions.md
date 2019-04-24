@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319589"
 ---
 # <a name="mapi-sessions"></a>Sesiones de MAPI
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Antes de la aplicaci�n cliente puede llamar a un sistema de mensajer�a subyacente, debe establecer una conexi�n con el subsistema MAPI o sesi�n.
   
@@ -41,7 +41,7 @@ En la siguiente ilustraci�n muestra c�mo estos diversos par�metros y marca
   
 For information about handling sessions from within a client application, see [Control de sesi�n MAPI](mapi-session-handling.md)
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession: IUnknown](imapisessioniunknown.md)

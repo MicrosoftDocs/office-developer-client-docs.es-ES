@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b03245d7af4c6fb3879e597d8345e5d9888e164
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6b7360995a781824b50ff02b5d2dec8e481e7ba7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317426"
 ---
 # <a name="imsgserviceadminadminproviders"></a>IMsgServiceAdmin::AdminProviders
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero que proporciona acceso a un objeto de administración del proveedor.
   
@@ -35,55 +35,55 @@ HRESULT AdminProviders(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para el servicio de mensajes que van a administrar. 
+> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para el servicio de mensajes que se va a administrar. 
     
  _ulFlags_
   
-> [entrada] Siempre es NULL. 
+> a Siempre NULL. 
     
  _lppProviderAdmin_
   
-> [out] Un puntero a un puntero a un objeto de administración del proveedor.
+> contempla Un puntero a un puntero a un objeto de administración del proveedor.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El objeto de proveedor de administración se devolvió correctamente.
+> El objeto de administración del proveedor se devolvió correctamente.
     
 MAPI_E_NOT_FOUND 
   
-> El **MAPIUID** que señala _lpUID_ no existe. 
+> La **MAPIUID** a la que apunta _lpUID_ no existe. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin::AdminProviders** proporciona acceso a un objeto de administración del proveedor. Administración de un proveedor es un objeto que admite la interfaz [IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
+El método **IMsgServiceAdmin:: AdminProviders** proporciona acceso a un objeto de administración del proveedor. Una administración de proveedor es un objeto que admite la interfaz [IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
   
 - Agregar proveedores de servicios a un servicio de mensajes.
     
 - Eliminar proveedores de servicios de un servicio de mensajes.
     
-- Abra las secciones del perfil.
+- Abrir secciones de perfil.
     
-- Obtener acceso a la tabla de proveedor de servicios de mensaje.
+- Obtener acceso a la tabla proveedor de servicios de mensajes.
     
-Los tipos de cambios que realmente se pueden establecer con un servicio de mensajes mientras el perfil está en uso dependen del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensaje no admiten los cambios, como agregar y eliminar proveedores mientras el perfil está en uso.
+Los tipos de cambios que realmente se pueden realizar en un servicio de mensajes mientras el perfil está en uso depende del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensajes no admiten cambios como agregar y eliminar proveedores mientras el perfil está en uso.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** para el servicio de mensajes administrar, recuperar la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensaje. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin::](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a administrar, recupere la columna de la propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensajes. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI utiliza el método **IMsgServiceAdmin::AdminProviders** para abrir un objeto de administración del proveedor para un servicio.  <br/> |
+|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI usa el método **IMsgServiceAdmin:: AdminProviders** para abrir un objeto de administración de proveedor para un servicio.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

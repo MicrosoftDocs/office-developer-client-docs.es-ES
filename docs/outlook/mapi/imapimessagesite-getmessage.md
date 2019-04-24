@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3612c12a503174484d4a469ffa167922a015ed5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03dd0553d0203585850ac5c4f8c91c86ef60236a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321283"
 ---
 # <a name="imapimessagesitegetmessage"></a>IMAPIMessageSite::GetMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el mensaje actual.
   
@@ -33,11 +33,11 @@ HRESULT GetMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppmsg_
   
-> [out] Un puntero a un puntero a la interfaz devuelta para el mensaje.
+> contempla Un puntero a un puntero a la interfaz devuelta para el mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,19 +51,19 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Formularios de llamar al método **IMAPIMessageSite::GetMessage** para obtener una interfaz de mensaje para el mensaje actual. El mensaje actual es el mismo mensaje tal y como se pasó anteriormente en el método [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)o [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) . 
+Los formularios llaman al método **IMAPIMessageSite:: GetMessage** para obtener una interfaz de mensaje para el mensaje actual. El mensaje actual es el mismo mensaje que se pasó anteriormente en el método [IPersistMessage:: InitNew](ipersistmessage-initnew.md), [IPersistMessage:: Load](ipersistmessage-load.md)o [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) . 
   
- **GetMessage** devuelve S_FALSE si actualmente no existe ningún mensaje. Este estado puede producirse después de las llamadas al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de la siguiente llamada a **IPersistMessage::Load** o **IPersistMessage::SaveCompleted** se realiza. 
+ **GetMessage** devuelve S_FALSE si no existe ningún mensaje actualmente. Este estado se puede producir después de llamar al método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de la siguiente llamada a **IPersistMessage:: Load** o **IPersistMessage:: SaveCompleted** se realiza. 
   
-Para obtener una lista de las interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa el método **IMAPIMessageSite::GetMessage** para devolver el puntero de mensaje actualmente en caché, si está disponible.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetMessage** para devolver el puntero de mensaje actualmente almacenado en caché, si está disponible.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -84,5 +84,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
 

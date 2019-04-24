@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7b2761e20444c51d08380aee01c41eee797733eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321416"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina el mensaje actual.
   
@@ -34,15 +34,15 @@ HRESULT DeleteMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pViewContext_
   
-> [entrada] Un puntero a un objeto de contexto de la vista.
+> a Un puntero a un objeto de contexto de vista.
     
  _prcPosRect_
   
-> [entrada] Un puntero a una estructura de [rectángulo](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño de la ventana y la posición del formulario actual. El siguiente formulario que muestra también usa este rectángulo de la ventana. 
+> a Un puntero a una estructura [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario actual. El siguiente formulario que se muestra también usa este rectángulo de la ventana. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,41 +52,41 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> La operación no es compatible con este sitio de mensaje.
+> La operación no es compatible con este sitio de mensajes.
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto de formulario llama al método de **IMAPIMessageSite::DeleteMessage** para eliminar el mensaje que el formulario se muestra actualmente. 
+Un objeto Form llama al método **IMAPIMessageSite::D eletemessage** para eliminar el mensaje que se muestra actualmente en el formulario. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Después de la devolución de **DeleteMessage**, objetos de formulario deben comprobar para un nuevo mensaje y descartar a sí mismos si no existe ninguno. Para determinar si el mensaje **en que deletemessage** actúa fue eliminado o movido a una carpeta de **Elementos eliminados** , un objeto de formulario puede llamar al método de [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) para determinar si se ha devuelto la marca DELETE_IS_MOVE. 
+Tras la devolución de **DeleteMessage**, los objetos de formulario deben comprobar si hay un nuevo mensaje y, a continuación, descartarse si no hay ninguno. Para determinar si el mensaje en el que se actuó **DeleteMessage** se eliminó o movió a una carpeta de **elementos eliminados** , un objeto de formulario puede llamar al método [IMAPIMessageSite:: GetSiteStatus](imapimessagesite-getsitestatus.md) para determinar si se ha devuelto la marca DELETE_IS_MOVE. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si la implementación del Visor de un formulario del método **DeleteMessage** se mueve hasta el siguiente mensaje después de que elimina un mensaje, la implementación debe llamar al método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) y pase el indicador VCDIR_DELETE antes de realizar la eliminación real. Si la implementación de un visor formulario de **DeleteMessage** mueve el mensaje eliminado (por ejemplo, en una carpeta de **Elementos eliminados** ), la implementación debe guardar cambios en el mensaje, si se modificó el mensaje. 
+Si una implementación de Form Viewer del método **DeleteMessage** pasa al siguiente mensaje después de eliminar un mensaje, la implementación debe llamar al método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) y pasar la marca VCDIR_DELETE antes de realizar la eliminación real. Si la implementación de **DeleteMessage** del visor de formularios mueve el mensaje eliminado (por ejemplo, a una carpeta de **elementos eliminados** ), la implementación debe guardar los cambios en el mensaje si se modificó el mensaje. 
   
-Una implementación típica de **DeleteMessage** realiza las tareas siguientes: 
+Una implementación típica de **DeleteMessage** realiza las siguientes tareas: 
   
-1. Si la implementación traslada el mensaje, se llama al método [IPersistMessage::Save](ipersistmessage-save.md) , pasando **null** en el parámetro _pMessage_ y **true** en el parámetro _fSameAsLoad_ . 
+1. Si la implementación mueve el mensaje, llama al método [IPersistMessage:: Save](ipersistmessage-save.md) , pasando **null** en el parámetro _pMessage_ y **true** en el parámetro _fSameAsLoad_ . 
     
-2. Llama al método **IMAPIViewContext::ActivateNext** , pasando el indicador VCDIR_DELETE en el parámetro _ulDir_ . 
+2. Llama al método **IMAPIViewContext:: ActivateNext** , pasando la marca VCDIR_DELETE en el parámetro _ulDir_ . 
     
-3. Si se produce un error en la llamada **ActivateNext** , devuelve. Si **ActivateNext** devuelve S_FALSE, llama al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) . 
+3. Si la llamada a **ActivateNext** produce un error, devuelve. Si **ActivateNext** devuelve S_FALSE, llama al método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) . 
     
-4. Elimina o se mueve el mensaje.
+4. Elimina o mueve el mensaje.
     
-Para obtener la estructura de **rectángulo** usada por la ventana de un formulario, llame a la función de Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+Para obtener la estructura **Rect** que utiliza la ventana de un formulario, llame a la función [GetWindowRect](https://msdn.microsoft.com/library/ms633519) de Windows. 
   
-Para obtener una lista de las interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::DeleteMessage  <br/> |No se ha implementado.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer::D eleteMessage  <br/> |No implementado.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

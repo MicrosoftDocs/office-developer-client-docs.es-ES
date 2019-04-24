@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
-description: Este tema contiene las definiciones de constantes para las API que exporta de Outlook.
+description: Este tema contiene definiciones de constantes para las API que exporta Outlook.
 ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319876"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (API exportadas de Outlook)
 
-Este tema contiene las definiciones de constantes para las API que exporta de Outlook.
+Este tema contiene definiciones de constantes para las API que exporta Outlook.
   
-## <a name="definitions-for-time-zone-support"></a>Admiten las definiciones de zona horaria
+## <a name="definitions-for-time-zone-support"></a>Definiciones para la compatibilidad con zonas horarias
 
 ```cpp
 const ULONG TZ_MAX_RULES                    = 0x00000001;  
@@ -29,7 +29,7 @@ const WORD  TZRULE_FLAG_EFFECTIVE_TZREG     = 0x0002;
 const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
 ```
 
-## <a name="definitions-for-category-support"></a>Definiciones de soporte de categoría
+## <a name="definitions-for-category-support"></a>Definiciones para la compatibilidad con categorías
 
 |**Constante**|**Definición**|
 |:-----|:-----|
@@ -37,14 +37,14 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificadores de envío varios
 
-Outlook expone los siguientes identificadores de envío (DISPID) para que los programadores pueden utilizar [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para obtener acceso a la propiedad correspondiente o el método o escuchar el evento correspondiente. 
+Outlook expone los siguientes identificadores de envío (DISPID) para que los programadores puedan usar [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para obtener acceso a la propiedad o el método correspondiente, o escuchar el evento correspondiente. 
   
-|**Constante asociada**|**Valor de DISPID**|**Descripción**|**Interfaz aplicable**|
+|**Constante asociada**|**Valor DISPID**|**Descripción**|**Interfaz aplicable**|
 |:-----|:-----|:-----|:-----|
 |**dispidFDirty** <br/> |0xF024  <br/> |Se usa para invocar la propiedad correspondiente en un elemento para comprobar si el elemento se ha modificado pero no se ha guardado.  <br/> |Objetos de nivel de elemento  <br/> |
-|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Se usa para invocar el método correspondiente en el explorador o inspector para especificar si se debe mostrar la imagen de un contacto, basándose en un argumento determinado.  <br/> |El explorador o inspector  <br/> |
-|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Se usa para controlar el evento de la función de **IDispatch:: Invoke** que se desencadena antes de una operación de impresión.  <br/> |Aplicación  <br/> |
-|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Se usa para controlar el evento de la función de **IDispatch:: Invoke** que se desencadena cuando Outlook ha finalizado la lectura de las propiedades del elemento.  <br/> |Objetos de nivel de elemento  <br/> |
+|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Se usa para invocar el método correspondiente en el explorador o el inspector para especificar si se va a mostrar la imagen de un contacto basándose en un argumento determinado.  <br/> |Explorador o inspector  <br/> |
+|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Se usa para controlar el evento de la función **IDispatch:: Invoke** que se desencadena antes de una operación de impresión.  <br/> |Aplicación  <br/> |
+|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Se usa para controlar el evento de la función **IDispatch:: Invoke** que se desencadena cuando Outlook ha terminado de leer las propiedades del elemento.  <br/> |Objetos de nivel de elemento  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

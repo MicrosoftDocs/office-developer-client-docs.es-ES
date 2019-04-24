@@ -1,5 +1,5 @@
 ---
-title: Desarrollar una aplicación de cliente MAPI
+title: Desarrollo de una aplicación de cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,39 +8,39 @@ api_type:
 - COM
 ms.assetid: bcb59b08-e6d7-4739-8cb5-e545bd0d478f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bffcfdd6d688c483655b97d61075b147430e3fcc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f66d2e4d46519dd186a676a0d0fbb836322893b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316691"
 ---
-# <a name="developing-a-mapi-client-application"></a>Desarrollar una aplicación de cliente MAPI
+# <a name="developing-a-mapi-client-application"></a>Desarrollo de una aplicación de cliente MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente MAPI se escriben con la interfaz de cliente MAPI orientado a objetos. Los clientes MAPI interactúan con uno o varios sistemas de mensajería a través de los proveedores de servicio compatible con MAPI y el subsistema MAPI. Esta interacción puede producirse de muchas maneras diferentes; hay una enorme diversidad en aplicaciones cliente. La mayoría de los clientes son clientes, ya sea la integración de mensajería en su conjunto de características establecida o realización de mensajería como su característica principal de mensajería. Otras características que es posible que proporcionan los clientes MAPI son la administración de perfiles o mensaje y la libreta de direcciones del almacén de administración.
+Las aplicaciones cliente de MAPI se escriben con la interfaz de cliente MAPI orientada a objetos. Los clientes MAPI interactúan con uno o varios sistemas de mensajería a través del subsistema MAPI y los proveedores de servicios compatibles con MAPI. Esta interacción puede producirse de muchas maneras diferentes; hay una variedad enorme en las aplicaciones cliente. La mayoría de los clientes son clientes de mensajería, ya sea integrando la mensajería en su conjunto de características establecido o realizando mensajería como característica principal. Otras características que pueden proporcionar los clientes MAPI son la administración de perfiles o la administración de la libreta de direcciones y el almacén de mensajes.
   
-Todos los clientes de mensajería inicialización las bibliotecas de MAPI e iniciar una **sesión** con el subsistema MAPI. Para obtener más información, vea [Obtener acceso a objetos mediante el uso de la sesión](accessing-objects-by-using-the-session.md). Después de que se ha establecido una sesión, un cliente puede:
+Todos los clientes de mensajería inicializan las bibliotecas MAPI e inician una **sesión** con el subsistema MAPI. Para obtener más información, vea [acceso a objetos mediante la sesión](accessing-objects-by-using-the-session.md). Una vez establecida la sesión, un cliente puede:
   
-- Controlar los mensajes salientes, incluidas las respuestas, reenviado mensajes y retransmisiones.
+- Administrar los mensajes salientes, incluidas las respuestas, los mensajes reenviados y las retransmisiones.
     
-- Administrar los mensajes entrantes.
+- Controlar los mensajes entrantes.
     
-- Controlar el almacén de mensajes por abrir carpetas y mensajes, crear, modificar, copiar y envío de mensajes, las conversaciones de seguimiento y una o varias carpetas de búsqueda.
+- Controlar el almacén de mensajes mediante la apertura de carpetas y mensajes, la creación, modificación, copia y el envío de mensajes, el seguimiento de conversaciones y la búsqueda de una o varias carpetas.
     
-- Controlar la libreta de direcciones mediante la creación y modificación de los destinatarios, buscar las entradas y atravesar la jerarquía de contenedor.
+- Controle la libreta de direcciones mediante la creación y modificación de destinatarios, la ubicación de entradas y el recorrido de la jerarquía de contenedores.
     
-- Controlan un proveedor de transporte mediante la realización de reconfiguración, establecer el orden de las opciones y el transporte y enviar mensajes a petición.
+- Administrar un proveedor de transporte mediante la realización de una reconfiguración, la configuración de las opciones y el orden de transporte y el envío de mensajes a petición.
     
-- Controlar la notificación de evento.
+- Controlar la notificación de eventos.
     
-- Administrar formularios.
+- Controlar los formularios.
     
 - Administrar perfiles y servicios de mensajes.
     
-Utilice los temas de esta sección para ayudarle a implementar estas tareas básicas y las características específicas que harán que el cliente MAPI único.
+Use los temas de esta sección para ayudarle a implementar estas tareas básicas y las características específicas que harán que el cliente MAPI sea único.
   
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f44acaa6-1747-4b74-bf48-bb6f72b258ed
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b2d02d0333e066ac45eb18f4c7473760b24605b3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315872"
 ---
 # <a name="pidnamexsharingproviderurl-canonical-property"></a>Propiedad canónica PidNameXSharingProviderUrl
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Representa el valor de la propiedad **dispidSharingProviderUrl** ([PidLidSharingProviderUrl](pidlidsharingproviderurl-canonical-property.md)).
   
@@ -31,7 +31,7 @@ Representa el valor de la propiedad **dispidSharingProviderUrl** ([PidLidSharing
 |:-----|:-----|
 |Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nombre de la propiedad:  <br/> |X-uso compartido--dirección Url del proveedor  <br/> |
+|Nombre de la propiedad:  <br/> |X-Sharing-Provider-URL  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Uso compartido  <br/> |
    
@@ -41,15 +41,15 @@ Representa el valor de la propiedad **dispidSharingProviderUrl** ([PidLidSharing
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Comparte las carpetas de buzón de correo entre los clientes.
+> Comparte carpetas de buzones entre clientes.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -59,9 +59,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

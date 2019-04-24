@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4e2d4f76fe436fd18b439bbbb558b1169094b438
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: efa5d60098fd5f16328669249a8445a124d9878b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317342"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece una carpeta como destino de los mensajes entrantes de una clase de mensaje en particular.
+Establece una carpeta como destino de los mensajes entrantes de una clase de mensaje determinada.
   
 ```cpp
 HRESULT SetReceiveFolder(
@@ -36,49 +36,49 @@ HRESULT SetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszMessageClass_
   
-> [entrada] Un puntero a la clase de mensaje es que se asociará con la nueva carpeta de recepción. Si el parámetro _lpszMessageClass_ se establece en NULL o una cadena vacía, **SetReceiveFolder** conjuntos de carpeta para el almacén de mensajes de recepción la predeterminada. 
+> a Puntero a la clase de mensaje que se va a asociar a la nueva carpeta de recepción. Si el parámetro _lpszMessageClass_ está establecido en null o una cadena vacía, **SetReceiveFolder** establece la carpeta de recepción predeterminada para el almacén de mensajes. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo del texto en las cadenas que se pasan en. Se puede establecer la marca siguiente:
+> a Una máscara de bits de marcadores que controla el tipo de texto en las cadenas que se pasan. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> La cadena de la clase de mensaje está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la cadena de la clase de mensaje está en formato ANSI.
+> La cadena de clase de mensaje está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la cadena de clase de mensaje está en formato ANSI.
     
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada de la carpeta que se va a establecer como la carpeta de recepción. Si el parámetro _lpEntryID_ se establece en NULL, **SetReceiveFolder** reemplaza la recepción de la actual carpeta con predeterminado del almacén de mensajes. 
+> a Un puntero al identificador de entrada de la carpeta que se va a establecer como carpeta de recepción. Si el parámetro _lpEntryID_ se establece en null, **SetReceiveFolder** reemplaza la carpeta de recepción actual por el valor predeterminado del almacén de mensajes. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Una carpeta de recepción se ha establecido correctamente.
+> Se ha establecido correctamente una carpeta de recepción.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore::SetReceiveFolder** establece o cambia la carpeta de recepción para una clase de mensaje en particular. Con **SetReceiveFolder**, un cliente puede, mediante llamadas sucesivas, especificar una diferentes recibir carpeta para cada clase de mensaje definido o especificar que los mensajes entrantes para todas las clases de mensaje varios van a la misma carpeta. Por ejemplo, un cliente puede tener su propia clase de mensajes entran en su propia carpeta. Una aplicación de fax puede designar una carpeta en la que el proveedor de almacenamiento coloca los faxes entrantes y otra carpeta en la que el proveedor coloca los faxes salientes.
+El método **IMsgStore:: SetReceiveFolder** establece o cambia la carpeta de recepción para una clase de mensaje determinada. Con **SetReceiveFolder**, un cliente puede, mediante llamadas sucesivas, especificar una carpeta de recepción diferente para cada clase de mensaje definida o especificar que todos los mensajes entrantes para varias clases de mensaje se desplazan a la misma carpeta. Por ejemplo, un cliente puede tener su propia clase de mensajes y llegar a su propia carpeta. Una aplicación de fax puede designar una carpeta en la que el proveedor de almacenamiento coloca los faxes entrantes y otra carpeta en la que el proveedor coloca los faxes salientes.
   
 Si se produce un error durante la llamada a **SetReceiveFolder**, la configuración de la carpeta de recepción permanece inalterada. 
   
-Si cambia de **SetReceiveFolder** la configuración de la carpeta de recepción con _lpEntryID_ establecido en NULL, que indica que se debe establecer la carpeta de recepción predeterminada, **SetReceiveFolder** devuelve S_OK incluso si se ha producido ningún valor existente para el indicado clase de mensaje. 
+Si **SetReceiveFolder** cambia la configuración de la carpeta de recepción por _LPENTRYID_ establecido en null, lo que indica que la carpeta de recepción predeterminada debe establecerse, **SetReceiveFolder** Devuelve S_OK incluso si no hay ninguna configuración existente para el valor indicado clase de mensaje. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI usa el método **IMsgStore::SetReceiveFolder** para establecer una carpeta como la carpeta de recepción para una clase de mensaje en particular.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnSetReceiveFolder  <br/> |MFCMAPI usa el método **IMsgStore:: SetReceiveFolder** para establecer una carpeta como la carpeta de recepción para una clase de mensaje determinada.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

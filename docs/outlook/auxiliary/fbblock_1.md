@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: da67171d-d25f-3424-1409-33189ac63a12
-description: Define un bloque libre/ocupado de datos. Esto es un elemento en un calendario representado por una convocatoria de reunión o cita.
-ms.openlocfilehash: 93418e3777e9d9f0a016822ea5897b8fccc37ac3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Define un bloque de datos de disponibilidad. Se trata de un elemento de un calendario representado por una cita o una convocatoria de reunión.
+ms.openlocfilehash: 60d2ff50081a8950a397df6f2f6bbfd37d3bdb61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317671"
 ---
 # <a name="fbblock1"></a>FBBlock_1
 
-Define un bloque libre/ocupado de datos. Esto es un elemento en un calendario representado por una convocatoria de reunión o cita.
+Define un bloque de datos de disponibilidad. Se trata de un elemento de un calendario representado por una cita o una convocatoria de reunión.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -30,19 +30,19 @@ typedef struct  tagFBBlock_1
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _m_tmStart_
   
-> La hora de inicio para el bloque, expresado en hora relativa. Para obtener más información, vea [usar la hora relativa para tener acceso a datos de disponibilidad](how-to-use-relative-time-to-access-free-busy-data.md).
+> La hora de inicio del bloque, expresada en hora relativa. Para obtener más información, vea [usar tiempo relativo para obtener acceso a los datos de disponibilidad](how-to-use-relative-time-to-access-free-busy-data.md).
     
 _m_tmEnd_
   
-> La hora de finalización para el bloque, expresado en hora relativa.
+> La hora de finalización del bloque, expresada en hora relativa.
     
 _m_fbStatus_
   
-> El estado de disponibilidad de este bloque, que indica si el usuario está fuera de la oficina, ocupado, provisional o libre, durante el período de tiempo entre _m_tmStart_ y _m_tmEnd_.
+> El estado de disponibilidad de este bloque, que indica si el usuario está fuera de la oficina, no disponible, provisional o libre, durante el período de tiempo entre _m_tmStart_ y _m_tmEnd_.
     
 ## <a name="see-also"></a>Vea también
 

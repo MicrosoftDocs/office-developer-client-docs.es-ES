@@ -7,24 +7,24 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: dbf6f0f50e9f7fa988e83f3b58012e9deac13eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310430"
 ---
 # <a name="showoptions"></a>ShowOptions
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Muestra un cuadro de diálogo modal para recopilar información del usuario. En este punto de entrada se llama cuando un usuario hace clic en el botón de **Opciones** situada junto al cuadro **tipo de clúster** para el conector de clúster seleccionado en el cuadro de diálogo **Opciones de Excel** (en la categoría **Avanzadas** , en la sección **fórmulas** ). Conectores de clúster son responsables para implementar su propia interfaz de cuadro de diálogo Opciones y para almacenar los datos relacionados en el registro o en otro lugar. Las opciones son internas para el conector de clúster. Excel no es consciente de ellos. 
+Muestra un cuadro de diálogo modal para recopilar información del usuario. Se llama a este punto de entrada cuando un usuario hace clic en el botón **Opciones** situado junto al cuadro **tipo de clúster** para el conector de clúster seleccionado en el cuadro de diálogo **Opciones de Excel** (en la categoría **avanzadas** , en la sección **fórmulas** ). Los conectores de clúster son responsables de implementar su propia interfaz de diálogo de opciones y de almacenar los datos relacionados en el registro o en cualquier lugar. Las opciones son internas al conector del clúster. Excel no es consciente de ellos. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _hWndParent_
   
@@ -32,11 +32,11 @@ _hWndParent_
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si se muestra el cuadro de diálogo; **xlHpcRetCallFailed** si no se muestra. 
+**xlHpcRetSuccess** si se mostró el cuadro de diálogo; **xlHpcRetCallFailed** si no se mostró. 
   
 ## <a name="remarks"></a>Comentarios
 
-Conectores de clúster pueden usar este cuadro de diálogo para obtener información, por ejemplo, qué servidor de clúster se usa, desde el usuario.
+Los conectores de clúster pueden usar este cuadro de diálogo para obtener información, como el servidor de clúster que se va a usar, del usuario.
   
 ## <a name="see-also"></a>Vea también
 

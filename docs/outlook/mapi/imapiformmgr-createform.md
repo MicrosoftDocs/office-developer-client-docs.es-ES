@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6e18ee9f8ea1d7dc6592d576c5a1163db526639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321668"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre un formulario para crear un nuevo mensaje en función de la clase de mensaje del formulario.
+Abre un formulario para crear un nuevo mensaje basado en la clase de mensaje del formulario.
   
 ```cpp
 HRESULT CreateForm(
@@ -37,31 +37,31 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal para el indicador de progreso que se muestra mientras se abre el formulario. El parámetro _ulUIParam_ se omite a menos que la marca MAPI_DIALOG se establece en el parámetro _ulFlags indicado_ . 
+> a Identificador para la ventana primaria del indicador de progreso que se muestra mientras se abre el formulario. El parámetro _ulUIParam_ se omite a menos que se establezca la marca MAPI_DIALOG en el parámetro _ulFlags_ . 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el formulario. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla cómo se abre el formulario. Se puede establecer la siguiente marca:
     
 MAPI_DIALOG 
   
-> Muestra una interfaz de usuario para proporcionar el estado o solicite al usuario para obtener más información. Si no se establece este marcador, no se muestra ninguna interfaz de usuario.
+> Muestra una interfaz de usuario para proporcionar el estado o solicitar información al usuario. Si no se establece esta marca, no se muestra ninguna interfaz de usuario.
     
  _pfrminfoToActivate_
   
-> [entrada] Un puntero al objeto de información de formulario que se usa para abrir el formulario.
+> a Un puntero al objeto de información de formulario que se usa para abrir el formulario.
     
  _refiidToAsk_
   
-> [entrada] Un puntero para el identificador de interfaz (IID) para la interfaz que se devolverá para el objeto de formulario que se creó. El parámetro _refiidToAsk_ no debe ser NULL. 
+> a Un puntero al identificador de interfaz (IID) de la interfaz que se va a devolver para el objeto de formulario que se creó. El parámetro _refiidToAsk_ no debe ser nulo. 
     
  _ppvObj_
   
-> [out] Un puntero a un puntero a la interfaz devuelta.
+> contempla Un puntero a un puntero a la interfaz devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,23 +71,23 @@ S_OK
     
 MAPI_E_NO_INTERFACE 
   
-> No se admite la interfaz solicitada por el objeto de formulario.
+> La interfaz solicitada no es compatible con el objeto de formulario.
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormMgr::CreateForm** para abrir un formulario para crear un nuevo mensaje en función de la clase de mensaje del formulario. **CreateForm** abre el formulario mediante la creación de una instancia del servidor de formulario para ese formulario tal como se describe en el objeto de información de formulario determinado. Si es necesario, **CreateForm** llama al método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para descargar el código de servidor del formulario en el disco del usuario. 
+Los visores de formularios llaman al método **IMAPIFormMgr:: CreateForm** para abrir un formulario y crear un nuevo mensaje basado en la clase de mensaje del formulario. **CreateForm** abre el formulario creando una instancia del servidor de formularios para ese formulario, tal como se describe en el objeto de información de formulario determinado. Si es necesario, **CreateForm** llama al método [IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md) para descargar el código del servidor de formularios en el disco del usuario. 
   
-El parámetro _pfrminfoToActivate_ debe apuntar a un objeto de información de formulario que se ha resuelto correctamente. 
+El parámetro _pfrminfoToActivate_ debe apuntar a un objeto de información de formulario que se haya resuelto correctamente. 
   
-Después de que se ha abierto el formulario, el Visor de formulario llamada debe configurar un mensaje mediante la interfaz de [IPersistMessage](ipersistmessageiunknown.md) y, opcionalmente, puede configurar un contexto de vista para el formulario. Para obtener más información, vea [iniciar un servidor de formulario](launching-a-form-server.md). 
+Una vez abierto el formulario, el visor del formulario de llamada debe configurar un mensaje mediante la interfaz [IPersistMessage](ipersistmessageiunknown.md) y, opcionalmente, puede configurar un contexto de vista para el formulario. Para obtener más información, consulte [iniciar un servidor de formularios](launching-a-form-server.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el método **IMAPIFormMgr::CreateForm** para crear un formulario antes de mostrarla.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: CreateForm** para crear un formulario antes de mostrarlo.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -102,5 +102,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Iniciar un servidor de formulario](launching-a-form-server.md)
+[Inicio de un servidor de formularios](launching-a-form-server.md)
 

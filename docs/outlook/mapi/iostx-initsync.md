@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: e22244a2-ac5f-910a-501f-4483ea0667c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5a0632ffd892c08fdf19de2c9b34607c27534f19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b9086383b45d40d5839284ac785d72438be60e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317195"
 ---
 # <a name="iostxinitsync"></a>IOSTX::InitSync
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Informa que el almacén de mensajes local que sincronización está a punto de inicio.
+Informa al almacén de mensajes local que la sincronización está a punto de iniciarse.
   
 ```cpp
 HRESULT InitSync( 
@@ -33,11 +33,11 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook utiliza estos marcadores en cada estado de la máquina de estado de replicación para determinar la información que debe suministrar para el cliente. Por ejemplo, si el cliente pasa **SYNC_ONLY_ASSOCIATED**, Outlook solo devuelven información relacionada con los elementos asociados (u ocultos). 
+> a Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook usa estas marcas en cada estado de la máquina de estado de replicación para determinar la información que debe proporcionar para el cliente. Por ejemplo, si el cliente pasa **SYNC_ONLY_ASSOCIATED**, Outlook solo devolverá información relacionada con los elementos asociados (u ocultos). 
     
 ## <a name="see-also"></a>Vea también
 

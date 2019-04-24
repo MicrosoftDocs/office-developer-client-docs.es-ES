@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 41066d4418760a676fbc02241bfc12d83275da9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c7124c8e3f2ced66d303321ff7aee8592a723a2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317125"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 
@@ -36,39 +36,39 @@ HRESULT ChangeProfilePassword(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Un puntero al nombre del perfil asociado con la contraseña que se va a cambiar.
+> a Un puntero al nombre del perfil asociado con la contraseña que se va a cambiar.
     
  _lpszOldPassword_
   
-> [entrada] Un puntero a la contraseña actual.
+> a Un puntero a la contraseña actual.
     
  _lpszNewPassword_
   
-> [entrada] Un puntero a la nueva contraseña.
+> a Un puntero a la nueva contraseña.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de las cadenas que se pasan en. Se puede establecer la marca siguiente:
+> a Una máscara de bits de marcadores que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> El nombre del perfil y las contraseñas están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., estas cadenas se encuentran en formato ANSI.
+> El nombre del perfil y las contraseñas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, estas cadenas están en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Si se llama a este método, devolverá S_OK. Sin embargo, no se realizará ninguna acción.
+> Si se llama a este método, devolverá S_OK. Sin embargo, no se llevará a cabo ninguna acción.
     
 ## <a name="remarks"></a>Comentarios
 
-No use este método. MAPI no admite las contraseñas para los perfiles.
+No use este método. MAPI no admite contraseñas para los perfiles.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

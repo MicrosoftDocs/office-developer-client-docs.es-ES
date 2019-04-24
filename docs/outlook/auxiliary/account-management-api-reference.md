@@ -6,20 +6,20 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 68fef652-5db7-4273-a0ad-b196c5fa114b
-description: Proporciona acceso a la información de cuenta, es compatible con las notificaciones de cambios de cuenta, las cuentas de protección contra correo no deseado y administración de descargas de mensaje para las cuentas POP3.
-ms.openlocfilehash: 8d3a79045652869d56eb2a6c30e06408b67e0ca7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Proporciona acceso a la información de cuentas, admite notificaciones de cambios en las cuentas, protegiendo las cuentas del correo no deseado y administrando las descargas de mensajes para las cuentas POP3.
+ms.openlocfilehash: 83761292028021cc90bd171b02d875b36f2a09a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316929"
 ---
 # <a name="account-management-api-reference"></a>Referencia de la API de administración de cuentas
 
-En esta sección se proporciona contenido de referencia para la cuenta de API de administración, que proporciona acceso a la información de cuenta, es compatible con las notificaciones de cambios de cuenta, las cuentas de protección contra correo no deseado y administración de descargas de mensaje para las cuentas POP3.
+En esta sección se proporciona contenido de referencia para la API de administración de cuentas, que proporciona acceso a la información de cuentas, admite notificaciones de cambios de cuentas, protección de cuentas contra correo no deseado y administración de descargas de mensajes para cuentas POP3.
 
 
-- [Constantes](constants-account-management-api.md)
+- [Constants](constants-account-management-api.md)
     
 - [Tipos de datos](data-types-account-management-api.md)
     

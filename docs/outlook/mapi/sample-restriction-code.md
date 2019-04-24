@@ -1,5 +1,5 @@
 ---
-title: Código de restricción de ejemplo
+title: Código de restricción de muestra
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cafcb20cbce3019d7623d330721005a674eca36e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314948"
 ---
-# <a name="sample-restriction-code"></a>Código de restricción de ejemplo
+# <a name="sample-restriction-code"></a>Código de restricción de muestra
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El siguiente ejemplo de código se muestra cómo crear una restricción que filtra todos los mensajes que no contienen la palabra "voleibol" en la línea de asunto y no se han enviado a Sue desde Sam. Un árbol de estructuras [SRestriction](srestriction.md) es necesario, con el nodo superior que se va a implementar con una estructura de [SAndRestriction](sandrestriction.md) una restricción de **y** . Las tres restricciones que se unen mediante la operación **AND** son una restricción subobjetos que busca los mensajes enviados a Sue, una restricción de contenido que busca los mensajes de Sam y otra restricción **y** que busca mensajes que tienen un asunto contiene "voleibol." Dado que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) no es una propiedad necesaria, se debe incluir una restricción **existe** . 
+El código de ejemplo siguiente muestra cómo crear una restricción que filtre todos los mensajes que no contengan la palabra "Volleyball" en la línea de asunto y que no se hayan enviado a Sue desde Sam. Se requiere un árbol de estructuras [SRestriction](srestriction.md) , donde el nodo superior es una restricción **and** que se implementa con una estructura [SAndRestriction](sandrestriction.md) . Las tres restricciones que se unen mediante la operación **and** son una restricción de subobjeto que busca los mensajes enviados a Sue, una restricción de contenido que busca mensajes de Sam y otro **y** una restricción que busca mensajes que tienen un asunto que contiene "Volleyball". Debido a que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) no es una propiedad obligatoria, debe incluirse una restricción **exist** . 
   
-Este código utiliza asignación dinámica e inicialización; es posible asignar e inicializar estáticamente así como. Por razones de brevedad, la comprobación de errores que se deben producir siguiente las llamadas de asignación no se incluye en el ejemplo. 
+Este código utiliza la asignación e inicialización dinámicas; también es posible asignar e inicializar de forma estática. En aras de la brevedad, la comprobación de errores que debe producirse después de las llamadas de asignación no se incluye en el ejemplo. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
@@ -96,7 +96,7 @@ HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
  
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

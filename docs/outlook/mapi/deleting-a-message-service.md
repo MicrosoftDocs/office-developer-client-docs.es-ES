@@ -1,5 +1,5 @@
 ---
-title: Eliminar un servicio de mensajes
+title: Eliminación de un servicio de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ api_type:
 - COM
 ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f39f721d434f4e54cbfa5d25a3ba626858f2b13e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 27c20242417e51886ab184b1cc87d6ebb185e4bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316866"
 ---
-# <a name="deleting-a-message-service"></a>Eliminar un servicio de mensajes
+# <a name="deleting-a-message-service"></a>Eliminación de un servicio de mensajes
 
   
   
@@ -23,10 +23,10 @@ ms.locfileid: "22583571"
   
  **Para eliminar un servicio de mensajes de un perfil**
   
-1. Llame a **IMAPISession::GetMsgServiceTable** para obtener acceso a la tabla de mensajes de servicio. 
+1. Llame a **IMAPISession:: GetMsgServiceTable** para obtener acceso a la tabla de servicio de mensajes. 
     
-2. Busque la fila para el servicio de mensajes y pasar su columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) en el parámetro _lpuid_ a [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md). 
+2. Busque la fila del servicio de mensajes y pase su columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) en el parámetro _Lpuid_ a [IMsgServiceAdmin::D eletemsgservice](imsgserviceadmin-deletemsgservice.md). 
     
- **DeleteMsgService** llama a la función de punto de entrada del servicio de mensajes con el parámetro _ulContext_ establecido en MSG_SERVICE_DELETE. Servicios de mensajes realizan cualquier tareas de limpieza en este momento antes de que se quitan de los perfiles. 
+ **DeleteMsgService** llama a la función de punto de entrada del servicio de mensajes con el parámetro _ULCONTEXT_ establecido en MSG_SERVICE_DELETE. Los servicios de mensajes realizan todas las tareas de limpieza en este momento antes de que se quiten del perfil. 
   
 

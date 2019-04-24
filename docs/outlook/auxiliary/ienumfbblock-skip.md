@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
 description: Omite un número especificado de bloques de datos de disponibilidad.
-ms.openlocfilehash: 63f699d09e143a879702e8dc76beb8a969a77b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317552"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
@@ -20,7 +20,7 @@ Omite un número especificado de bloques de datos de disponibilidad.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IEnumFBBlock](ienumfbblock.md).
+Consulte [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Skip(  
@@ -28,11 +28,11 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_celt_
+_Celt_
   
->  [entrada] El número de bloques de libre/ocupado para omitir. 
+>  a Número de bloques de disponibilidad que se deben omitir. 
     
 ## <a name="return-values"></a>Valores devueltos
 

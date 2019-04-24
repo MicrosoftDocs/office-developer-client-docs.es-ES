@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - debugPrintf
 keywords:
-- debugprintf (función) [excel 2007]
+- función debugprintf [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311007"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de Framework que escribe una cadena de bytes terminada en null en el depurador activo a través de la función de Windows SDK **OutputDebugStringA**. Si la aplicación no tiene ningún depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no tiene ningún efecto. 
+Función de biblioteca de .NET Framework que escribe una cadena de bytes terminada en null en el depurador activo a través de la función **OutputDebugStringA**de Windows SDK. Si la aplicación no tiene depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no realiza ninguna acción. 
   
 Esta función no devuelve un valor.
   
@@ -30,19 +30,19 @@ Esta función no devuelve un valor.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpFormat (LPSTR)_
   
-La cadena de formato, que sigue la sintaxis y las reglas para el que se utiliza con la función **sprintf** . 
+La cadena de formato, que sigue a la sintaxis y las reglas que se usan con la función **sprintf** . 
   
  _argumentos_
   
-Cero o más argumentos para que coincida con la cadena de formato.
+Cero o más argumentos para coincidir con la cadena de formato.
   
 ## <a name="example"></a>Ejemplo
 
-Esta función imprime una cadena para mostrar que el control se ha pasado a ella. El indicador _DEBUG debe definirse antes de compilar, o bien esta función no tiene ningún efecto.
+Esta función imprime una cadena para mostrar que se ha pasado el control. La marca _ Debug debe definirse antes de compilar o, de lo contrario, esta función no realiza ninguna acción.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

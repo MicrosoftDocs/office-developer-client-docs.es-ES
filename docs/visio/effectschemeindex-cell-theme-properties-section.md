@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
-description: Determina el esquema de efectos del tema aplicado a una forma, como un número entero.
-ms.openlocfilehash: 369eb059633a7efc27ee670c400f383205bceea6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el esquema de efecto del tema aplicado a una forma como un entero.
+ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321451"
 ---
 # <a name="effectschemeindex-cell-theme-properties-section"></a>Celda EffectSchemeIndex (sección Propiedades de tema)
 
-Determina el esquema de efectos del tema aplicado a una forma, como un número entero.
+Determina el esquema de efecto del tema aplicado a una forma como un entero.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **EffectSchemeIndex** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **EffectSchemeIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EffectSchemeIndex  <br/> |
    
-Para obtener una referencia a la celda **EffectSchemeIndex** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **EffectSchemeIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionObject** <br/> |
 | Índice de fila:  <br/> |**visRowThemeProperties** <br/> |
-| Índice de celda:  <br/> |** visEffectSchemeIndex ** <br/> |
+| Índice de celda:  <br/> |* * visEffectSchemeIndex * * <br/> |
    
 

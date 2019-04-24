@@ -8,41 +8,41 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- tempint12 (función) [excel 2007], TempInt (función) [Excel 2007]
+- función tempint12 [Excel 2007], TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: eb1dd9be0c0b20e533d9cd8202f8878c43b997be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16a2222dbc51ad9480dbd5941ca2ed13f65b55e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310482"
 ---
 # <a name="tempinttempint12"></a>TempInt/TempInt12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene un número entero. 
+Función de biblioteca de Framework que crea un **XLOPER XLOPER**/ **** temporal que contiene un entero. 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _i_
+ _sigo_
   
-El valor entero previsto. Tenga en cuenta que el entero **XLOPER** es un entero de 16 bits (short int), mientras que el entero **XLOPER12** es un entero de 32 bits con signo (int [largo]). 
+Valor entero que se va a usar. Tenga en cuenta que el entero **XLOPER** es un entero de 16 bits con signo (Short int), mientras que el entero de **XLOPER12** es un entero de 32 bits firmado ([Long] int). 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un entero **xltypeInt** que contiene el valor que se pasó. 
+Devuelve un entero **xltypeInt** que contiene el valor que se ha pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la función **TempInt12** para pasar un argumento a **xlfGetWorkspace**.
+En este ejemplo, se usa la función **TempInt12** para pasar un argumento a **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

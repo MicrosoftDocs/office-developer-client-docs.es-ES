@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 44017319-7146-3431-e476-fbb1a40341ca
 description: Cambia el tipo de efecto visual ofrecido a los usuarios cuando arrastran un conector. Al soltar el botón del mouse (ratón), la forma conector resultante no se ve afectada por esta configuración. Esta configuración no se aplica a conectores enrutables.
-ms.openlocfilehash: 858d98c8ee55eb49f58bbe98491ddc8752e75504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 823b8db4dc6afe94a5fdac1f62aaa48d7e1b0d80
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315746"
 ---
-# <a name="dynfeedback-cell-miscellaneous-section"></a>Celda DynFeedback (sección Varios)
+# <a name="dynfeedback-cell-miscellaneous-section"></a>Celda DynFeedback (Sección de varios)
 
 Cambia el tipo de efecto visual ofrecido a los usuarios cuando arrastran un conector. Al soltar el botón del mouse (ratón), la forma conector resultante no se ve afectada por esta configuración. Esta configuración no se aplica a conectores enrutables.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Permanece recto (sin segmentos).  <br/> |**visDynFBDefault** <br/> |
+| comprendi  <br/> | Permanece recto (sin segmentos).  <br/> |**visDynFBDefault** <br/> |
 | 1  <br/> | Al arrastrarlo, presenta tres segmentos.  <br/> |**visDynFBUCon3Leg** <br/> |
-| 2  <br/> | Al arrastrarlo, presenta cinco segmentos.  <br/> |**visDynFBUCon5Leg** <br/> |
+| segundo  <br/> | Al arrastrarlo, presenta cinco segmentos.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

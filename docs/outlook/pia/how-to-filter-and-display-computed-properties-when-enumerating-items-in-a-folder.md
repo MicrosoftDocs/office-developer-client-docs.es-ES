@@ -1,5 +1,5 @@
 ---
-title: Filtrar y mostrar propiedades calculadas al enumerar elementos en una carpeta
+title: Filtrar y mostrar propiedades calculadas al enumerar elementos de una carpeta
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320338"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrar y mostrar propiedades calculadas al enumerar elementos en una carpeta
 
@@ -52,8 +52,8 @@ El objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) re
 </tr>
 <tr class="odd">
 <td><p>Propiedades del equipo, como <b>AutoResolvedWinner</b> y <b>BodyFormat</b>.</p></td>
-<td><p>No admitidas.</p></td>
-<td><p>No admitidas.</p></td>
+<td><p>No se admite.</p></td>
+<td><p>No se admite.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propiedades multivalor, como <b>Categories</b>, <b>Children</b>, <b>Companies</b> y <b>VotingOptions</b>.</p></td>
@@ -62,8 +62,8 @@ El objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) re
 </tr>
 <tr class="odd">
 <td><p>Propiedades que devuelven un objeto, como <b>Attachments</b>, <b>Parent</b>, <b>Recipients</b>, <b>RecurrencePattern</b> y <b>UserProperties</b>.</p></td>
-<td><p>No admitidas.</p></td>
-<td><p>No admitidas.</p></td>
+<td><p>No se admite.</p></td>
+<td><p>No se admite.</p></td>
 </tr>
 </tbody>
 </table>
@@ -172,5 +172,5 @@ private void GetToDoItems()
 
 ## <a name="see-also"></a>Vea también
 
-- [Buscar y filtrar](search-and-filter.md)
+- [Search and filter](search-and-filter.md) (Buscar y filtrar)
 

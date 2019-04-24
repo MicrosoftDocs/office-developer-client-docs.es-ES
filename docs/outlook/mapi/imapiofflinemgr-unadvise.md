@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321220"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela devoluciones de llamada para un objeto sin conexión.
+Cancela las devoluciones de llamada para un objeto sin conexión.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -34,25 +34,25 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Marcas para cancelar la devolución de llamada. Se admite el valor MAPIOFFLINE_UNADVISE_DEFAULT.
+> a Marcas para cancelar la devolución de llamada. Solo se admite el valor MAPIOFFLINE_UNADVISE_DEFAULT.
     
  _ulAdviseToken_
   
-> [entrada] Símbolo (token) advise que identifica el registro de devolución de llamada que debe cancelarse. 
+> a Un token de notificación que identifica el registro de devolución de llamada que se va a cancelar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La llamada tuvo éxito. Esta llamada debe devolver S_OK.
+> La llamada se realizó correctamente. Esta llamada debe devolver S_OK.
     
 ## <a name="remarks"></a>Comentarios
 
-Quita el registro de la devolución de llamada que se ha asociado con *ulAdviseToken* devuelto desde una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que el objeto **IMAPIOfflineMgr** liberar su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con *ulAdviseToken* . 
+Quita el registro de la devolución de llamada asociada con *ulAdviseToken* devueltos de una llamada anterior a **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Hace que el objeto **IMAPIOfflineMgr** libere su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado a *ulAdviseToken* . 
   
 ## <a name="see-also"></a>Vea también
 

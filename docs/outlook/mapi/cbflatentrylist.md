@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06fe8d33b98d9d2a211dba497bd99ff0ec21bbf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318049"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [FLATENTRYLIST](flatentrylist.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**FLATENTRYLIST** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lplist_
   
 > Puntero a la estructura **FLATENTRYLIST** en cuestión. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

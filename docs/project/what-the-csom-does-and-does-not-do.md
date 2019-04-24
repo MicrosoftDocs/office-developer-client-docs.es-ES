@@ -7,11 +7,11 @@ ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: El modelo de objetos de cliente (CSOM) es un conjunto de varias API para Project Server 2013 diseñadas para ser usadas en línea y de forma local en aplicaciones que se pueden desarrollar para PC, tabletas y dispositivos móviles. Este artículo incluye escenarios típicos de uso de CSOM, así como las limitaciones de este.
 localization_priority: Priority
 ms.openlocfilehash: 6cdcb72c24e352365b6dcc9268ddf0bd249369af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315228"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>Lo que hace y no hace CSOM
 

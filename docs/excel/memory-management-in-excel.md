@@ -1,5 +1,5 @@
 ---
-title: Administración de memoria en Excel
+title: Administraci�n de memoria en Excel
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 97c76d762fdc5e575c571804816e5581a7bec8bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f129dac2971f01c8ada15f0028958132b1945746
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310461"
 ---
 # <a name="memory-management-in-excel"></a>Administración de memoria en Excel
 
@@ -58,15 +58,15 @@ Se puede asignar un bloque de memoria en uno de los tipos que apuntan a memoria 
     
 - Excel puede asignarlo de forma dinámica.
     
-Dado el número de posibles orígenes de la memoria **XLOPER**/ **XLOPER12** y el número de situaciones en las que **XLOPER**/ **XLOPER12** pueden tener memoria asignada, no es sorprendente que este asunto pueda parecer difícil. Sin embargo, la complejidad se puede reducir en gran medida si sigue varias instrucciones y reglas. 
+Given the number of possible origins for **XLOPER**/ **XLOPER12** memory and the number of situations in which the **XLOPER**/ **XLOPER12** might have had that memory assigned, it is not surprising that this subject can seem very difficult. However, the complexity can be greatly reduced if you follow several rules and guidelines. 
   
 ### <a name="rules-for-working-with-xloperxloper12"></a>Reglas para trabajar con XLOPER y XLOPER12
 
-- No intente liberar memoria ni sobrescribir **XLOPER**/ **XLOPER12** que se pasan como argumentos a la función XLL. Debe tratar dichos argumentos como de solo lectura. Para obtener más información, vea "Devolver **XLOPER** o **XLOPER12** modificando argumentos locales" en [Problemas conocidos del desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+- Do not try to free memory or overwrite **XLOPERs**/ **XLOPER12**s that are passed as arguments to your XLL function. You should treat such arguments as read-only. For more information, see "Returning **XLOPER** or **XLOPER12** by Modifying Arguments in Place" in [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
     
 - Si Excel asigna memoria para un **XLOPER**/ **XLOPER12** devuelto al DLL en una llamada a la API de C: 
     
-  - Debe liberar la memoria cuando ya no necesita el **XLOPER**/ **XLOPER12** mediante una llamada a [xlFree](xlfree.md). No use cualquier otro método, como liberar ni eliminar, para liberar la memoria.
+  - You must free the memory when you no longer need the **XLOPER**/ **XLOPER12** using a call to [xlFree](xlfree.md). Do not use any other method, such as free or delete, to release the memory.
     
   - Si el tipo devuelto es **xltypeMulti**, no sobrescriba ningún **XLOPER**/ **XLOPER12** dentro de la matriz, especialmente si contienen cadenas, y especialmente no donde intenta sobrescribir con una cadena.
     
@@ -84,7 +84,7 @@ Dado el número de posibles orígenes de la memoria **XLOPER**/ **XLOPER12** y e
     
 - Haga copias en profundidad de memoria asignada a Excel al copiar un **XLOPER**/ **XLOPER12** creado en Excel.
     
-- No incluya cadenas asignadas a Excel **XLOPER**/ **XLOPER12** dentro de las matrices de **xltypeMulti**. Haga copias en profundidad de las cadenas y los punteros de almacenamiento para las copias de la matriz. 
+- Do not put Excel-allocated string **XLOPER**/ **XLOPER12**s within **xltypeMulti** arrays. Make deep copies of the strings and store pointers to the copies in the array. 
     
 ## <a name="freeing-excel-allocated-xloperxloper12-memory"></a>Liberar memoria XLOPER o XLOPER12 asignada a Excel
 
@@ -112,13 +112,13 @@ La función **xlFree** se documenta en la sección de referencia de la función 
   
 - Puede pasar punteros a más de un **XLOPER**/ **XLOPER12** en una sola llamada a **xlFree**, limitado solo por el número de argumentos de función admitidos en la versión en ejecución de Excel (30 en Excel 2003, 255 a partir de Excel 2007).
     
-- **xlFree** configura el puntero contenido en **NULL** para asegurarse de que un intento de liberar **XLOPER**/ **XLOPER12** que ya se ha liberado es seguro. **xlFree** es la única función de la API de C que modifica los argumentos. 
+- **xlFree** sets the contained pointer to **NULL** to ensure that an attempt to free an **XLOPER**/ **XLOPER12** that has already been freed is safe. **xlFree** is the only C API function that modifies its arguments. 
     
 - Puede llamar de forma segura a **xlFree** en cualquier **XLOPER**/ **XLOPER12** usado para el valor devuelto de una llamada a la API de C, independientemente de si contiene un puntero a la memoria. 
     
 ## <a name="returning-xloperxloper12s-to-be-freed-by-excel"></a>Devolver XLOPER o XLOPER12 para que Excel los libere
 
-Suponga que desea modificar el comando de ejemplo en la sección anterior y lo cambia a una función de hoja de cálculo que devuelve el nombre de archivo y la ruta DLL cuando pasa un argumento **verdadero** **booleano** y **#N/A** en caso contrario. Evidentemente no puede llamar a **xlFree** para liberar la memoria de cadena antes de devolverla a Excel. Sin embargo, si no se ha liberado en algún momento, el complemento pierde memoria cada vez que se llama a la función. Para solucionar este problema, puede establecer un bit en el campo **xltype** del **XLOPER**/ **XLOPER12**, definido como **xlbitXLFree** en xlcall.h. Esta configuración le indica a Excel que debe liberar la memoria devuelta cuando ha terminado de copiar el valor. 
+Suppose you wanted to modify the example command in the previous section and change it to a worksheet function that returns the DLL path and file name when passed a **Boolean** **true** argument, and **#N/A** otherwise. Clearly you cannot call **xlFree** to release the string memory before returning it to Excel. However, if it is not freed at some point, the add-in will leak memory every time the function is called. To work around this problem, you can set a bit in the **xltype** field of the **XLOPER**/ **XLOPER12**, defined as **xlbitXLFree** in xlcall.h. Setting this tells Excel that it must free the returned memory when it has finished copying the value out. 
   
 ### <a name="example"></a>Ejemplo
 
@@ -140,15 +140,15 @@ LPXLOPER12 WINAPI get_DLL_name(int calculation_trigger)
 }
 ```
 
-Las funciones de XLL que usan **XLOPER**/ **XLOPER12** deben declararse como que toman y devuelven punteros a **XLOPER**/ **XLOPER12**. El uso en este ejemplo de un **XLOPER12** estático dentro de la función no es seguro para subprocesos. Puede registrar incorrectamente esta función como segura para subprocesos, pero correría el riesgo de que un subproceso sobrescriba **xRtnValue** antes de que otro haya terminado de usarlo. 
+XLL functions that use **XLOPER**/ **XLOPER12**s must be declared as taking and returning pointers to **XLOPER**/ **XLOPER12**s. The use in this example of a static **XLOPER12** within the function is not thread safe. You could incorrectly register this function as thread safe, but you would risk **xRtnValue** being overwritten by one thread before another thread had finished with it. 
   
-Debe establecer **xlbitXLFree** después de la llamada a la devolución de llamada de Excel que lo asigna. Si lo establece antes de esta, se sobrescribe y no tiene el efecto deseado. Si desea usar el valor como un argumento en una llamada a otra función de la API de C antes de volver a la hoja de cálculo, debe establecer este bit después de cualquier llamada. En caso contrario, confundirá las funciones que no lo enmascaran poco antes de proteger el tipo **XLOPER**/ **XLLOPER12**. 
+You must set **xlbitXLFree** after the call to the Excel callback that allocates it. If you set it before this, it is overwritten and does not have the effect that you want. If you intend to use the value as an argument in a call to another C API function before returning it to the worksheet, you should set this bit after any such call. Otherwise, you will confuse functions that do not mask this bit before checking the **XLOPER**/ **XLLOPER12** type. 
   
 ## <a name="returning-xloperxloper12s-to-be-freed-by-the-dll"></a>Devolver XLOPER o XLOPER12 para que el DLL los libere
 
-Un problema similar a este se produce cuando el XLL ha asignado memoria para un **XLOPER**/ **XLOPER12** y desea devolverla a Excel. Excel reconoce otro bit que se puede establecer en el campo **xltype** del **XLOPER**/ **XLOPER12**, definido como un **xlbitDLLFree** en xlcall.h. 
+A similar problem to this occurs when your XLL has allocated memory for an **XLOPER**/ **XLOPER12** and wants to return it to Excel. Excel recognizes another bit that can be set in the **xltype** field of the **XLOPER**/ **XLOPER12**, defined as **xlbitDLLFree** in xlcall.h. 
   
-Cuando Excel recibe **un XLOPER**/ **XLOPER12** con este conjunto de bits, intenta llamar a una función que debería exportar el XLL denominado [xlAutoFree](xlautofree-xlautofree12.md) (para **XLOPER**) o **xlAutoFree12** (para **XLOPER12**). Esta función se describe más detalladamente en la referencia de la función (vea [Administrador de complementos y funciones de la interfaz de XLL](add-in-manager-and-xll-interface-functions.md)), pero aquí se proporciona una implementación mínima. Su objetivo es liberar la memoria de **XLOPER**/ **XLOPER12** de forma coherente con la que se asignó originalmente. 
+When Excel receives **an XLOPER**/ **XLOPER12** with this bit set, it tries to call a function that should be exported by the XLL called [xlAutoFree](xlautofree-xlautofree12.md) (for **XLOPER**s) or **xlAutoFree12** (for **XLOPER12**s). This function is described more fully in the function reference (see [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)), but an example minimal implementation is given here. Its purpose is to free the **XLOPER**/ **XLOPER12** memory in a way that is consistent with how it was originally allocated. 
   
 ### <a name="examples"></a>Ejemplos
 
@@ -202,7 +202,7 @@ producirá un error en este caso porque **xlbitDLLFree** está configurado.
   
 En general, **xlAutoFree** y **xlAutoFree12** se deben implementar para que liberen la memoria asociada con las matrices de **xltypeMulti** creadas con XLL y las referencias externas de **xltypeRef**. 
   
-Puede decidir implementar sus funciones XLL para que todas devuelvan **XLOPER** y **XLOPER12** asignados dinámicamente. En este caso, debe configurar **xlbitDLLFree** en todos los **XLOPER** y **XLOPER12** independientemente del tipo secundario. También necesitará implementar **xlAutoFree** y **xlAutoFree12** para que se libere esta memoria y también cualquier memoria a la que se apunta dentro del **XLOPER**/ **XLOPER12**. Este método es una forma de hacer el valor de la conversación devuelto seguro. Por ejemplo, la función anterior podría modificarse como se indica.
+You might decide to implement your XLL functions so that they ALL return dynamically allocated **XLOPER**s and **XLOPER12**s. In this case, you would need to set **xlbitDLLFree** on all such **XLOPER**s and **XLOPER12**s regardless of the sub-type. You would also need to implement **xlAutoFree** and **xlAutoFree12** so that this memory was freed and also any memory pointed to within the **XLOPER**/ **XLOPER12**. This approach is one way to make the return value thread safe. For example, the previous function could be rewritten as follows.
   
 ```cs
 #include <string.h>
@@ -266,7 +266,7 @@ Este método de devolución de un valor se admite con todos los tipos de datos q
   
 La ventaja de usar esta técnica, en lugar de solo usar la instrucción return, es que Excel asigna la memoria para los valores devueltos. Una vez que termina la lectura de los datos devueltos, libera la memoria. Esto aleja las tareas de administración de memoria de la función XLL. Esta técnica es segura para subprocesos: si Excel lo llama simultáneamente en subprocesos distintos, cada llamada a la función de cada subproceso tiene su propio búfer.
   
-Es útil para los datos enumerados anteriormente, en particular porque el mecanismo de devolución de llamada al DLL para liberar memoria posterior a la devolución que existe para **XLOPER**/ **XLOPER12** no existe para las cadenas simples y las matrices de **FP**/ **FP12**. Por lo tanto, al devolver una cadena creada por DLL o una matriz de número de punto flotante, tiene las siguientes opciones: 
+It is useful for the previously listed data types in particular because the mechanism for calling back into the DLL to free memory post-return that exists for **XLOPER**/ **XLOPER12**s does not exist for simple strings and **FP**/ **FP12** arrays. Therefore, when returning a DLL-created string or floating-point array, you have the following choices: 
   
 - Configurar un puntero persistente para un búfer asignado dinámicamente, devolver el puntero. En la siguiente llamada a la función (1) compruebe que el puntero no sea nulo, (2) libre los recursos asignados en la llamada anterior y restablezca el puntero a nulo, (3) reutilice el puntero para un bloque de memoria asignado recientemente.
     
@@ -276,7 +276,7 @@ Es útil para los datos enumerados anteriormente, en particular porque el mecani
     
 De lo contrario, debe crear un **XLOPER**/ **XLOPER12**, y usar **xlbitDLLFree** y **xlAutoFree**/ **xlAutoFree12** para liberar los recursos. 
   
-La última opción puede ser la más sencilla en los casos en los que se pasa un argumento del mismo tipo como el valor devuelto. El punto clave que debe recordar es que se limitan los tamaños de búfer y debe tener mucho cuidado de no saturarlos. Hacerlo de forma incorrecta puede llevar a que se bloquee Excel. Los tamaños de búfer de las cadenas y las matrices **FP**/ **FP12** se describen a continuación. 
+The last option might be the simplest in those cases in which you are being passed an argument of the same type as the return value. The key point to remember is that the buffer sizes are limited and you must be very careful not to overrun them. Getting this wrong could crash Excel. Buffer sizes for strings and **FP**/ **FP12** arrays are discussed next. 
   
 ## <a name="strings"></a>Strings
 
@@ -296,17 +296,17 @@ Los problemas más comunes son los siguientes:
     
 ### <a name="rules-for-strings"></a>Reglas para las cadenas
 
-Al igual que con los **XLOPER**/ **XLOPER**, hay reglas e instrucciones que debe seguir. Las instrucciones son las mismas que las indicadas en la sección anterior. Las reglas que se presentan aquí son una extensión de las reglas específicas para las cadenas.
+As with **XLOPER**/ **XLOPER**s, there are rules and guidelines you should follow. The guidelines are the same as given in the previous section. The rules here are an extension of the rules specifically for strings.
   
  **Reglas:**
   
-- No intente liberar memoria o sobrescribir **XLOPER**/ **XLOPER12** de cadena, o cadenas de longitud contada simples o terminadas en null que se pasan como argumentos para la función XLL. Debe tratar dichos argumentos como de solo lectura.
+- Do not try to free memory or overwrite string **XLOPER**/ **XLOPER12**s or simple length-counted or null-terminated strings passed as arguments to your XLL function. You should treat such arguments as read-only.
     
 - Cuando Excel asigna memoria para**XLOPER**/ **XLOPER12** de cadena para el valor devuelto de una función de devolución de llamada de la API de C, use **xlFree** para liberarla, o configure **xlbitXLFree** si la devuelve a Excel desde una función XLL. 
     
 - Cuando el DLL asigna dinámicamente un búfer de cadena para **XLOPER**/ **XLOPER12**, libérelo de forma coherente con la forma en la que lo asignó, o configure **xlbitDLLFree** si lo devuelve a Excel desde una función XLL y libérelo en **xlAutoFree**/ **xlAutoFree12**.
     
-- Si Excel ha asignado la memoria para una matriz **xltypeMulti** devuelta al DLL en una llamada a la API de C, no sobrescriba cualquier cadena **XLOPER**/ **XLOPER12** dentro de la matriz. Estas matrices solo deben liberarse mediante **xlFree**, o bien, si las devuelve una función XLL, estableciendo **xlbitXLFree**.
+- If Excel has allocated memory for an **xltypeMulti** array returned to your DLL in a call to the C API, do not overwrite any string **XLOPER**/ **XLOPER12**s within the array. Such arrays must only be freed using **xlFree**, or, if being returned by an XLL function, by setting **xlbitXLFree**.
     
 ### <a name="string-types-supported"></a>Tipos de cadena admitidos
 
@@ -332,7 +332,7 @@ Al igual que con los **XLOPER**/ **XLOPER**, hay reglas e instrucciones que debe
 
 En muchos casos, Excel crea una matriz **xltypeMulti** para su uso en los XLL o DLL. Varias de las funciones de información XLM devuelven estas matrices. Por ejemplo, la función de la API de C **xlfGetWorkspace**, cuando pasa el argumento  *44*  , devuelve una matriz que contiene las cadenas que describen todos los procedimientos DLL registrados actualmente. La función de la API de C **xlfDialogBox** devuelve una copia modificada del argumento de la matriz, que contiene copias en profundidad de las cadenas. Posiblemente, el modo más común en que un XLL encuentra una matriz de **xltypeMulti** es donde se ha pasado como argumento a una función XLL, o se ha forzado para este tipo desde una referencia de rango. En estos últimos casos, Excel crea copias en profundidad de las cadenas en las celdas de origen y apunta a estos dentro de la matriz. 
   
-Debe hacer sus propias copias en profundidad donde desee modificar estas cadenas en el DLL. Al crear su propias matrices **xltypeMulti**, no debe colocar las cadenas asignadas a Excel **XLOPER**/ **XLOPER12** en ellas. Hacer esto implica el riesgo de no liberarlas correctamente más adelante, o no liberarlas en absoluto. De nuevo, debe hacer copias en profundidad de las cadenas y los punteros de almacenamiento para las copias de la matriz.
+Where you want to modify these strings in your DLL, you should make your own deep copies. When you are creating your own **xltypeMulti** arrays, you should not place Excel-allocated string **XLOPER**/ **XLOPER12**s within them. This risks you not freeing them correctly later, or not freeing them at all. Again, you should make deep copies of the strings and store pointers to the copies in the array.
   
  **Ejemplos**
   
@@ -420,7 +420,7 @@ void WINAPI reverse_text_xl12(wchar_t *text)
 
 ## <a name="persistent-storage-binary-names"></a>Almacenamiento persistente (nombres binarios)
 
-Los nombres binarios se definen y asocian con bloques de archivos binarios, es decir, datos no estructurados almacenados con el libro. Se crean con la función [xlDefineBinaryName](xldefinebinaryname.md) y los datos se recuperan con la función [xlGetBinaryName](xlgetbinaryname.md). Ambas funciones se describen con más detalle en la referencia de función (vea [Funciones de la API de C que pueden llamarse solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)), y que usan el **XLOPER**/ **XLOPER12** **xltypeBigData**. 
+Binary names are defined and associated with blocks of binary, that is, unstructured, data that is stored together with the workbook. They are created using the function [xlDefineBinaryName](xldefinebinaryname.md), and the data is retrieved using the function [xlGetBinaryName](xlgetbinaryname.md). Both functions are described in more detail in the function reference (see [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)), and both use the **xltypeBigData** **XLOPER**/ **XLOPER12**. 
   
 Para obtener información sobre los problemas conocidos que limitan las aplicaciones prácticas de los nombres binarios, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   

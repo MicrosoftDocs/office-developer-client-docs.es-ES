@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9681a2af2997ad03b73ae07bc7bac05e5f0c780e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315466"
 ---
 # <a name="ipstoverride1overridepstdisablegrow"></a>IPSTOVERRIDE1::OverridePSTDisableGrow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563348"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Desbloquea un archivo de carpetas personales (.pst) para una sesión, reemplace la directiva PSTDisableGrow.
+Desbloquea un archivo de carpetas personales (. pst) para una sesión, reemplazando la Directiva PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
@@ -35,9 +35,9 @@ HRESULT OverridePSTDisableGrow();
 
 S_OK
   
-> La llamada a la función fue correcta.
+> La llamada a la función se realizó correctamente.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

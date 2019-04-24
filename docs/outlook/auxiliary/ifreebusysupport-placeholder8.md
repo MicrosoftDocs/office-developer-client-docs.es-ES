@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dcb526f8-1476-39da-cb07-42575db94320
-description: Este miembro es un marcador de posición y no se admite.
-ms.openlocfilehash: c46790f810bb34558deae935d09e1725b3fb188b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este miembro es un marcador de posición y no es compatible.
+ms.openlocfilehash: b18d21bdd0d0d2c3a909a21906b18236f7575560
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319365"
 ---
 # <a name="ifreebusysupportplaceholder8"></a>IFreeBusySupport::Placeholder8
 
-Este miembro es un marcador de posición y no se admite.
+Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IFreeBusySupport](ifreebusysupport.md).
+Consulte [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT Placeholder8( 
@@ -31,7 +31,7 @@ BOOL
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre E_NOTIMPL, debido a que este miembro es un marcador de posición y no es compatible.
+Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compatible.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -39,6 +39,6 @@ Este miembro debe devolver E_NOTIMPL.
   
 ## <a name="see-also"></a>Vea también
 
-- [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

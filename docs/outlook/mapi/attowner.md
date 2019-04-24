@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 865d929f3348710b7786f4182670f3304a3a9244
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17e900ac28481388379133a95b4b206ca4bc1805
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318427"
 ---
 # <a name="attowner"></a>attOwner
 
@@ -21,18 +21,18 @@ ms.locfileid: "22578041"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El atributo **attOwner** se codifica como cadenas contadas distribuyen to-end. El formato de **attOwner** es como sigue: 
+El atributo **attOwner** está codificado como cadenas contadas contenidas en un extremo a otro. El formato para **attOwner** es el siguiente: 
   
  **attOwner**: 
   
-> longitud del nombre para mostrar de nombre para mostrar dirección longitud _dirección de correo electrónico_
+> Display-Name-length nombre-longitud de dirección dirección de _correo electrónico-dirección_
     
- _dirección de correo electrónico_
+ _Dirección de correo electrónico_
   
-> dirección de tipo **:** 
+> tipo **:** Address 
     
-A diferencia de otra longitud valores, la longitud del nombre para mostrar y la longitud de dirección son valores de 16 bits sin signo en lugar de enteros largos sin signo. Aún incluyen terminar caracteres null, sin embargo. Las cadenas de tipo y la dirección en la entrada de _dirección de correo electrónico_ están separadas por un carácter de dos puntos (:) literal, como "smtp:joe@nowhere.com". Sólo la cadena de dirección combinada del tipo **:** está terminada en null.
+A diferencia de otros valores de longitud, Display-Name-length and Address-length son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen el final de los caracteres nulos. Las cadenas de tipo y dirección de la entrada de _dirección de correo electrónico_ están separadas por dos puntos literales (:) carácter, como "SMTP:Joe@nowhere.com". Solo el tipo combinado **:** la cadena de dirección termina en NULL.
   
-La asignación de las propiedades MAPI para el atributo **attOwner** depende de la clase de mensaje del mensaje que se va a codificar. 
+La asignación de propiedades MAPI al atributo **attOwner** depende de la clase de mensaje del mensaje que se va a codificar. 
   
 

@@ -7,11 +7,11 @@ ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 integra la característica de administración de proyectos en una granja de SharePoint y permite el uso de Project Online con un modelo de objetos de cliente (CSOM) y una interfaz OData para los datos de informes.
 localization_priority: Priority
 ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301613"
 ---
 # <a name="project-server-architecture"></a>Arquitectura de Project Server
 
@@ -97,9 +97,9 @@ Puede haber varias instancias de Project Web App que se comuniquen con la aplica
 
 Los siguientes comentarios generales se refieren a la ilustración 3:
   
-- **Project Online:** puede crear aplicaciones que usen las interfaces CSOM, REST y OData. Un paquete de aplicación también puede instalar receptores de eventos remotos en un servicio web personalizado en un servidor de Azure o en Microsoft Azure. Project Online no admite soluciones de terceros locales, la interfaz WCF, la interfaz ASMX ni controladores de eventos locales. 
+- **Project Online:** Puede crear aplicaciones que usen las interfaces CSOM, REST y OData. Un paquete de aplicación también puede instalar receptores de eventos remotos en un servicio web personalizado en un servidor local, en un servidor Azure o en Microsoft Azure. Project Online no admite soluciones de terceros locales, la interfaz WCF, la interfaz ASMX ni controladores de eventos locales. 
     
-- **Receptores de eventos:** los receptores de eventos también se denominan controladores de eventos. Project Online es compatible con el registro de receptores de eventos de Project Server remotos, que puede ser utilizado por una instancia de Project Web App en la nube o por una instalación local de Project Server. Una instalación local de Project Server admite receptores de eventos remotos y controladores de eventos locales de plena confianza. 
+- **Receptores de eventos:** Los receptores de eventos también se denominan controladores de eventos. Project Online es compatible con el registro de receptores de eventos de Project Server remotos, que puede ser utilizado por una instancia de Project Web App en la nube o por una instalación local de Project Server. Una instalación local de Project Server admite receptores de eventos remotos y controladores de eventos locales de plena confianza. 
     
 - **Exploradores:** no existen limitaciones entre exploradores para la visualización de algunas páginas de Project Web App, a diferencia de lo que sucede en Project Server 2010. Los siguientes exploradores son totalmente compatibles con Project Web App: 
     
@@ -113,7 +113,7 @@ Los siguientes comentarios generales se refieren a la ilustración 3:
     > [!NOTE]
     > La interfaz ASMX basada en SOAP para los servicios web en PSI sigue disponible en Project Server 2013, pero está en desuso. 
   
-    El servicio interno de WCF OData.svc implementa el servicio de OData para la creación de informes. Puede obtener el documento de metadatos del servicio para los datos de informes mediante `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    El servicio interno de WCF OData.svc implementa el servicio de OData para la creación de informes. Puede obtener el documento de metadatos del servicio para los datos de informes mediante  `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
     El servicio de OData para el CSOM está diseñado para plataformas como Windows RT, iOS y Android, donde se puede usar la interfaz REST con JavaScript en páginas HTML. 
     
@@ -128,7 +128,7 @@ Los siguientes comentarios generales se refieren a la ilustración 3:
     
 - **Servicios web de SharePoint:** en la ilustración 3 no se muestra la infraestructura de SharePoint, como puede ser la aplicación de servicios web de SharePoint back-end, que forma parte de SharePoint Server 2013. Cuando instala Project Server, la aplicación de servicio de Project se agrega a los servicios web de SharePoint. 
     
-El nivel front-end incluye aplicaciones de terceros, Project Profesional y Project Web App. Un explorador muestra páginas de ASP.NET 4.0 (páginas .aspx) en Project Web App. Las páginas de Project Web App usan elementos web de Project Server que se comunican con las PSI y también usan elementos web de SharePoint estándar. 
+El nivel front-end incluye aplicaciones de terceros, Project Professional y Project Web App. Un explorador muestra páginas de ASP.NET 4.0 (páginas .aspx) en Project Web App. Las páginas Project Web App usan elementos web de Project Server que se comunican con el PSI y también usan elementos web de SharePoint estándar. 
   
 El nivel intermedio incluye PSI y la capa de objetos de la empresa, que consta de objetos lógicos que representan las entidades empresariales de Project Server. Las entidades empresariales incluyen Project, Task, Resource, Assignment, etc. PSI y el nivel de objeto empresarial están estrechamente emparejados y se sitúan en el mismo servidor. Una aplicación cliente llama a PSI a través de una de las interfaces disponibles y PSI invoca objetos de la empresa. Para mejorar el rendimiento, la WFE de Project Server 2013 incluye algunos objetos empresariales para las solicitudes que no usan el sistema de cola de Project Server ni necesitan el servicio de cálculo de Project. Los objetos empresariales de la WFE se comunican directamente con la base de datos de Project.
   

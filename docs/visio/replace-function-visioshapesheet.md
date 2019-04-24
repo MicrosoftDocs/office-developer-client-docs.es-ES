@@ -1,5 +1,5 @@
 ---
-title: REPLACE (función) (VisioShapeSheet)
+title: Función REPLACE (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el número de caracteres especificado.
-ms.openlocfilehash: 4112339d772248ac033674808d97c3f9c55b6f0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75a156d720ca276e75fccf932124ae905e4350b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320163"
 ---
-# <a name="replace-function-visioshapesheet"></a>REPLACE (función) (VisioShapeSheet)
+# <a name="replace-function-visioshapesheet"></a>Función REPLACE (VisioShapeSheet)
 
 Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el número de caracteres especificado.
   
 ## <a name="syntax"></a>Sintaxis
 
-Reemplazar (** *texto_anterior* **, ** *número_inicio* **, ** *número_caracteres* **, ** *texto_nuevo* **) 
+RePLACE (* * *texto_original* * *, * * *núm_inicial* * *, * * *Núm_de_caracteres* * *, * * *texto_nuevo* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _texto original_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto en el que desea reemplazar algunos caracteres.  <br/> |
-| _número inicial_ <br/> |Obligatorio  <br/> |**Número** <br/> |La posición del carácter en _texto_anterior_ que se desea reemplazar por _texto_nuevo_. El primer carácter de la cadena es la posición 1.  <br/> |
-| _número_caracteres_ <br/> |Obligatorio  <br/> |**Número** <br/> |El número de caracteres en _texto_anterior_ que se desea reemplazar  <br/> |
-| _texto_nuevo_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto que reemplazará los caracteres en _texto_anterior_.  <br/> |
+| _texto_original_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto en el que desea reemplazar algunos caracteres.  <br/> |
+| _Núm_inicial_ <br/> |Obligatorio  <br/> |**Number** <br/> |Posición del carácter en _texto_original_ que se desea reemplazar por _texto_nuevo_. El primer carácter de la cadena ocupa la posición 1.  <br/> |
+| _Núm_de_caracteres_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres en _texto_original_ que desea reemplazar.  <br/> |
+| _argumento_ <br/> |Obligatorio  <br/> |**String** <br/> |Texto que va a reemplazar los caracteres de _texto_original_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice esta función cuando desee reemplazar texto que aparezca en una ubicación concreta de una cadena de texto. Si desea reemplazar un texto específico dentro de una cadena de texto, recurra a la función SUBSTITUTE.
   

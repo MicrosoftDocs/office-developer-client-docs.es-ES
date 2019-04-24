@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: 'Determina el ancho del bloque de texto. La fórmula predeterminada es:'
-ms.openlocfilehash: ecba66aaf1f7eeb6d16c6b0d4c6569aed051910f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316005"
 ---
-# <a name="txtwidth-cell-text-transform-section"></a>Celda TxtWidth (sección Transformación de texto)
+# <a name="txtwidth-cell-text-transform-section"></a>Celda TxtWidth (Sección de transformación de texto)
 
 Determina el ancho del bloque de texto. La fórmula predeterminada es:
   
-= Width \* 1
+= Ancho \* 1
   
 ## <a name="remarks"></a>Comentarios
 

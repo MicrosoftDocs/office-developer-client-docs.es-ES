@@ -5,29 +5,29 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: 'Última modificación: 05 de octubre de 2012'
-ms.openlocfilehash: c39f66917ecc080785b3a3e91506d3994427ca62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 5 de octubre de 2012'
+ms.openlocfilehash: 31114e4082fbc5e4c57da95eb6b32339822b1645
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317244"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Inicializar un proveedor de almacén de archivos PST ajustado
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para implementar un proveedor de almacén de archivo (.pst) de carpetas personales ajustado, deben inicializar el proveedor de almacén de archivos PST ajustado mediante el uso de la función **[MSProviderInit](msproviderinit.md)** como un punto de entrada. Después de que se inicialice la DLL del proveedor, la función **[MSGSERVICEENTRY](msgserviceentry.md)** configura el proveedor de almacén de archivos PST ajustado. 
+Para implementar un proveedor de almacenamiento de archivos de carpetas personales (PST) ajustado, debe inicializar el proveedor de almacenamiento PST ajustado mediante la función **[MSProviderInit](msproviderinit.md)** como punto de entrada. Una vez inicializada la DLL del proveedor, la función **[MSGSERVICEENTRY](msgserviceentry.md)** configura el proveedor de almacén de archivos PST ajustado. 
   
-En este tema, se muestran la función **MSProviderInit** y la función **MSGSERVICEENTRY** mediante el uso de los ejemplos de código desde el proveedor de almacén de archivos PST ajustado de ejemplo. En el ejemplo se implementa un proveedor de PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información sobre cómo descargar e instalar al proveedor de almacén de archivos PST ajustado de ejemplo, vea [instalar el proveedor de almacén de archivos PST ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md). Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación](about-the-replication-api.md).
+En este tema, la función **MSProviderInit** y la función **MSGSERVICEENTRY** se demuestran mediante ejemplos de código del proveedor de almacenamiento PST ajustado del ejemplo. El ejemplo implementa un proveedor de archivos PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información sobre cómo descargar e instalar el proveedor de almacén de archivos PST ajustado de ejemplo, vea [Installing the Sample wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Para obtener más información acerca de la API de replicación, consulte [About the replicaTION API](about-the-replication-api.md).
   
-Después de inicializar un proveedor de almacén de archivos PST ajustado, debe implementar funciones de modo que pueden iniciar sesión en el proveedor de almacén de mensajes MAPI y la cola de MAPI. Para obtener más información, vea [Registro en a un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md).
+Una vez que haya inicializado un proveedor de almacén de archivos PST ajustado, debe implementar funciones para que MAPI y la cola MAPI puedan iniciar sesión en el proveedor del almacén de mensajes. Para obtener más información, vea [iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md).
   
 ## <a name="initialization-routine"></a>Rutina de inicialización
 
-Todos los proveedores de almacén de archivos PST ajustados deben implementar la función **[MSProviderInit](msproviderinit.md)** como un punto de entrada para inicializar la DLL del proveedor. **MSProviderInit** comprueba si el número de versión de la interfaz de proveedor de servicio, `ulMAPIVer`, es compatible con el número de versión actual, `CURRENT_SPI_VERSION`. La función guarda la memoria MAPI de rutinas de administración en el `g_lpAllocateBuffer`, `g_lpAllocateMore`, y `g_lpFreeBuffer` parámetros. Estas rutinas de administración de memoria se deben usar durante la implementación de almacén de archivos PST ajustada para la asignación y cancelación de asignación de memoria. 
+Todos los proveedores de almacén de archivos PST ajustados deben implementar la función **[MSProviderInit](msproviderinit.md)** como un punto de entrada para inicializar la dll del proveedor. **MSProviderInit** comprueba si el número de versión de la interfaz del proveedor de servicios `ulMAPIVer`,, es compatible con el número de versión `CURRENT_SPI_VERSION`actual. La función guarda las rutinas de administración de memoria MAPI `g_lpAllocateBuffer`en `g_lpAllocateMore`los parámetros `g_lpFreeBuffer` , y. Estas rutinas de administración de memoria deben usarse en toda la implementación del almacén de archivos PST ajustado para la asignación y desasignación de la memoria. 
   
-### <a name="msproviderinit-example"></a>Ejemplo de MSProviderInit()
+### <a name="msproviderinit-example"></a>Ejemplo de MSProviderInit ()
 
 ```cpp
 STDINITMETHODIMP MSProviderInit ( 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>Rutas de acceso de Unicode y PST ajustados
+### <a name="wrapped-pst-and-unicode-paths"></a>ARCHIVOS PST ajustados y rutas Unicode
 
-Para plantear el ejemplo original preparado en Microsoft Visual Studio 2008 para usar rutas de acceso de Unicode a NST para su uso en Microsoft Outlook 2010 está habilitado para Unicode y Outlook 2013, debe usar la rutina **CreateStoreEntryID** , que genera el identificador de entrada, un formato para las rutas de acceso de ASCII y otra para las rutas de acceso Unicode. Estos se representan como estructuras en el siguiente ejemplo. 
+Para reajustar la muestra original preparada en Microsoft Visual Studio 2008 para usar rutas Unicode a NST para su uso en Microsoft Outlook 2010 y Outlook 2013 habilitado para Unicode, la rutina **CreateStoreEntryID** , que genera el identificador de entrada, debe usar un formato para las rutas de ASCII y otro para las rutas de Unicode. Estos se representan como estructuras en el ejemplo siguiente. 
   
 ```cpp
 typedef struct                              // short format
@@ -131,13 +131,13 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> Las diferencias en estas estructuras son dos bytes NULL antes de una ruta de acceso de Unicode. Si necesita interpretar el identificador de entrada en el "servicio de entrada rutina" que sigue, una forma de determinar si ese es el caso o no sería convertir como EIDMS en primer lugar, a continuación, compruebe si la szPath [0] es NULL. Si es así, convertir como EIDMSW. 
+> Las diferencias en estas estructuras son dos bytes NULL antes de una ruta de acceso Unicode. Si necesita interpretar el identificador de entrada en la "rutina de entrada de servicio" que sigue, una forma de determinar si es el caso o no se va a convertir en primer lugar como EIDMS y, a continuación, comprobar si el szPath [0] es NULL. Si es así, conviértala como EIDMSW en su lugar. 
   
 ## <a name="service-entry-routine"></a>Rutina de entrada de servicio
 
-La función **[MSGSERVICEENTRY](msgserviceentry.md)** es el punto de entrada del servicio de mensaje donde se configura el proveedor de almacén de archivos PST ajustado. Las llamadas de función `GetMemAllocRoutines()` para obtener las rutinas de administración de la memoria MAPI. La función utiliza la `lpProviderAdmin` parámetro para buscar la sección de perfil para el proveedor y se establecen las propiedades en el perfil. 
+La función **[MSGSERVICEENTRY](msgserviceentry.md)** es el punto de entrada del servicio de mensajes donde está configurado el proveedor de almacén de archivos PST ajustado. La función llama `GetMemAllocRoutines()` para obtener las rutinas de administración de memoria MAPI. La función usa el `lpProviderAdmin` parámetro para buscar la sección de perfil del proveedor y establece las propiedades en el perfil. 
   
-### <a name="serviceentry-example"></a>Ejemplo de ServiceEntry()
+### <a name="serviceentry-example"></a>Ejemplo de ServiceEntry ()
 
 ```cpp
 HRESULT STDAPICALLTYPE ServiceEntry ( 
@@ -241,11 +241,11 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 }
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Información sobre el proveedor de almacén de archivos PST ajustado de muestra](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalar la muestra de proveedor de almacén de archivos PST ajustado](installing-the-sample-wrapped-pst-store-provider.md)
-- [Iniciar sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Información sobre el proveedor de almacén de archivos PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalación del proveedor de almacén de archivos PST ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md)
+- [Inicio de sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
 - [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
 - [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

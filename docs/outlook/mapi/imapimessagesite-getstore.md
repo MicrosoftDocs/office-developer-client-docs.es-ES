@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c78574f213245a5c30ff589ade824e5c5bd84ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321437"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el almacén de mensajes que contiene el mensaje actual, si existe un almacén de este tipo. Este método devolverá NULL en el parámetro _ppStore_ para mensajes incrustados, que se almacenan en otro mensaje en lugar de hacerlo directamente en un almacén de mensajes. 
+Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén. Este método devolverá NULL en el parámetro _ppStore_ para los mensajes incrustados, que se almacenan en otro mensaje en lugar de directamente en un almacén de mensajes. 
   
 ```cpp
 HRESULT GetStore(
@@ -33,11 +33,11 @@ HRESULT GetStore(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppStore_
   
-> [out] Un puntero a un puntero al almacén de mensajes.
+> contempla Un puntero a un puntero al almacén de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,19 +47,19 @@ S_OK
     
 S_FALSE 
   
-> No hay ningún almacén que contiene el mensaje.
+> No hay ningún almacén que contenga el mensaje.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de las interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa el método **IMAPIMessageSite::GetStore** para obtener el puntero actualmente en caché para el almacén especificado, si está disponible.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetStore  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetStore** para obtener el puntero actualmente almacenado en caché al almacén especificado, si está disponible.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -70,5 +70,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
 

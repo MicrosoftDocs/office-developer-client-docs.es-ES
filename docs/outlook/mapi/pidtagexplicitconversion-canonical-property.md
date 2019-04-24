@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8aabcec6-f735-41fe-a5f4-61d4635b2c58
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cf4fe916d93d330b43c0acd76be2db44687a4da7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 52d4bdbd7dbd44f2957b3efc20cba393dc0eb2f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316362"
 ---
 # <a name="pidtagexplicitconversion-canonical-property"></a>Propiedad canónica PidTagExplicitConversion
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578615"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que un remitente del mensaje ha solicitado una conversión de contenido de mensaje para un destinatario concreto.
+Indica que un remitente de mensaje ha solicitado una conversión de contenido de mensaje para un destinatario en particular.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Indica que un remitente del mensaje ha solicitado una conversión de contenido d
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,22 +1,22 @@
 ---
-title: Función RTrim (aplicación web personalizado de Access)
+title: Función RTrim (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0b6cc5b2-342d-45dd-ba5e-aa29f1face48
-description: Devuelve un valor de texto después de truncar todos los espacios en blanco.
-ms.openlocfilehash: a8b54eda8b6d801355c88b543a45df2716a22742
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un valor de texto después de truncar todos los espacios en blanco a la derecha.
+ms.openlocfilehash: 4510ccc37399e0a10504dc39c4f455461269872d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311049"
 ---
-# <a name="rtrim-function-access-custom-web-app"></a>Función RTrim (aplicación web personalizado de Access)
+# <a name="rtrim-function-access-custom-web-app"></a>Función RTrim (aplicación web personalizada de Access)
 
-Devuelve un valor de texto después de truncar todos los espacios en blanco.
+Devuelve un valor de texto después de truncar todos los espacios en blanco a la derecha.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 

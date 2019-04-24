@@ -7,43 +7,43 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- xlsheetid (función) [excel 2007]
+- función xlsheetid [Excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e4e184d4e456ffe26292fe31b1b41463834216f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ca1bb478c5c985ad7032e30ed0cfe3aef31406
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310307"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Busca el identificador de hoja de una hoja con nombre con el fin de construir las referencias externas.
+Busca el identificador de hoja de una hoja con nombre para construir referencias externas.
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxSheetName_ (**xltypeStr**)
   
-(Opcional). El nombre de la libreta de direcciones y la hoja que desea averiguar sobre. Si se omite, la función **xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
+(Opcional). El nombre del libro y de la hoja de la que desea obtener información. Si se omite, la función **xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el identificador de hoja en _pxRes -\>val.mref.idSheet_. 
+Devuelve el identificador de hoja de _pxRes\>-Val. mref. idSheet_. 
   
 > [!NOTE]
-> El _pxRes -\>val.mref.lpmref_ puntero de matriz se establece en NULL después de esta llamada para que no es necesario llamar a **xlFree** para liberar la memoria que normalmente contiene este tipo, aunque es completamente seguro hacerlo. 
+> El puntero de matriz _pxRes-\>Val. mref. lpmref_ se establece en NULL después de esta llamada, por lo que no es necesario llamar a **xlFree** para liberar la memoria que normalmente contiene este tipo, aunque es completamente seguro hacerlo. 
   
 ## <a name="remarks"></a>Comentarios
 
-El libro que contiene la hoja especificada debe estar abierto para poder utilizar esta función. No hay ninguna forma para construir una referencia a un libro sin abrir desde un archivo DLL. Para obtener más información acerca del uso de **xlSheetId** para construir referencias, vea [Administración de memoria en Excel](memory-management-in-excel.md) para obtener ejemplos de construcción de **xltypeRef** . 
+El libro que contiene la hoja especificada debe estar abierto para poder usar esta función. No hay forma de construir una referencia a un libro sin abrir desde una DLL. Para obtener más información acerca del uso de **xlSheetId** para construir referencias, consulte [Administración de memoria en Excel](memory-management-in-excel.md) para obtener ejemplos de la construcción **xltypeRef** . 
   
 ## <a name="example"></a>Ejemplo
 

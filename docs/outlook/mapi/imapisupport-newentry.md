@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3468e4a92787e440f230d60ab31f37526fe7d5e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316649"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588597"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega a un nuevo destinatario directamente a un contenedor de la libreta de direcciones o a la lista de destinatarios de un mensaje saliente.
+Agrega un nuevo destinatario directamente a un contenedor de libreta de direcciones o a la lista de destinatarios de un mensaje saliente.
   
 ```cpp
 HRESULT NewEntry(
@@ -40,11 +40,11 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo.
+> a Identificador de la ventana principal del cuadro de diálogo.
     
  _ulFlags_
   
@@ -52,59 +52,59 @@ HRESULT NewEntry(
     
  _cbEIDContainer_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEIDContainer_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEIDContainer_ . 
     
  _lpEIDContainer_
   
-> [entrada] Un puntero al identificador de entrada del contenedor para recibir la nueva entrada. Si _cbEIDContainer_ es 0 y _lpEIDContainer_ es NULL, **NewEntry** crea un identificador de entrada único que es el mismo tipo que es generado por una llamada al método [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) . 
+> a Un puntero al identificador de entrada del contenedor que va a recibir la nueva entrada. Si _cbEIDContainer_ es 0 y _lpEIDContainer_ es null, **NEWENTRY** crea un identificador de entrada único que es del mismo tipo que se genera mediante una llamada al método [IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md) . 
     
  _cbEIDNewEntryTpl_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEIDNewEntryTpl_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEIDNewEntryTpl_ . 
     
  _lpEIDNewEntryTpl_
   
-> [entrada] Un puntero al identificador de entrada de la plantilla que se usará para crear la nueva entrada. Si _cbEIDNewEntryTpl_ es 0 y _lpEIDNewEntryTpl_ es NULL, **NewEntry** muestra un cuadro de diálogo que permite al usuario seleccionar de una lista de plantillas para agregar nuevas entradas. 
+> a Un puntero al identificador de entrada de la plantilla que se va a utilizar para crear la nueva entrada. Si _cbEIDNewEntryTpl_ es 0 y _lpEIDNewEntryTpl_ es null, **NEWENTRY** muestra un cuadro de diálogo que permite al usuario seleccionar en una lista de plantillas para agregar nuevas entradas. 
     
  _lpcbEIDNewEntry_
   
-> [out] Un puntero para el número de bytes en el identificador de entrada indicado por el parámetro _lppEIDNewEntry_ . 
+> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEIDNewEntry_ . 
     
  _lppEIDNewEntry_
   
-> [out] Un puntero a un puntero al identificador de entrada de la entrada recién creada.
+> contempla Un puntero a un puntero al identificador de entrada de la entrada recién creada.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha creado correctamente la nueva entrada.
+> La nueva entrada se ha creado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::NewEntry** se implementa para objetos de compatibilidad con de proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones, llame a **NewEntry** para crear una nueva entrada de la libreta de direcciones que se agregará directamente en un contenedor o que se utilizan para tratar un mensaje saliente. 
+El método **IMAPISupport:: NEWENTRY** se implementa para los objetos de compatibilidad del proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones llaman a **NEWENTRY** para crear una nueva entrada de la libreta de direcciones que se agregue directamente a un contenedor o para que se use para dirigir un mensaje saliente. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si desea que la nueva entrada que se agregarán a un contenedor específico, establezca _lpEIDContainer_ en el contenedor identificador de entrada y _cbEIDContainer_ para el número de bytes en el identificador de entrada. 
+Si desea que la nueva entrada se agregue a un contenedor específico, establezca _lpEIDContainer_ en el identificador de entrada del contenedor y _cbEIDContainer_ en el recuento de bytes en el identificador de entrada. 
   
-Si desea que la nueva entrada que se agregará a la lista de destinatarios de un mensaje saliente, establezca _lpEIDContainer_ en NULL y _cbEIDContainer_ en 0. 
+Si desea que la nueva entrada se agregue a la lista de destinatarios de un mensaje saliente, establezca _lpEIDContainer_ en NULL y _cbEIDContainer_ en 0. 
   
-Si desea permitir que el usuario de una aplicación cliente para seleccionar el tipo de entrada que se creará, pase 0 en _cbEIDNewEntryTpl_ y NULL en _lpEIDNewEntryTpl_. **NewEntry** se muestra en la tabla de uso único de MAPI, una lista de plantillas que admiten MAPI y cada uno de los proveedores de la libreta de direcciones en la sesión. Cada plantilla puede crear una entrada para uno o varios tipos de dirección del destinatario. 
+Si desea permitir que el usuario de una aplicación cliente seleccione el tipo de entrada que se va a crear, pase 0 en _cbEIDNewEntryTpl_ y null en _lpEIDNewEntryTpl_. **NEWENTRY** muestra la tabla única de MAPI, una lista de plantillas que MAPI y cada proveedor de la libreta de direcciones en la sesión admiten. Cada plantilla puede crear una entrada de destinatario para uno o más tipos de dirección. 
   
-Si desea conservar el identificador de entrada de la nueva entrada, pase los parámetros _lpcbEIDNewEntry_ y _lppEIDNewEntry_ punteros válidos. Usted es responsable de liberar este identificador de entrada cuando haya terminado con él mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Si desea conservar el identificador de entrada de la nueva entrada, pase punteros válidos en los parámetros _lpcbEIDNewEntry_ y _lppEIDNewEntry_ . Usted es responsable de liberar este identificador de entrada cuando termine con él llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Para usar una plantilla en particular para agregar una nueva entrada a un contenedor modificable, use el siguiente procedimiento:
+Para usar una plantilla determinada para agregar una nueva entrada a un contenedor modificable, use el siguiente procedimiento:
   
-1. Llame al método [IMAPISupport::OpenEntry](imapisupport-openentry.md) para abrir el contenedor de destino y establezca el parámetro _lpEntryID_ en el identificador de entrada del contenedor. 
+1. Llame al método [IMAPISupport:: OpenEntry](imapisupport-openentry.md) para abrir el contenedor de destino y establezca el parámetro _lpEntryID_ en el identificador de entrada del contenedor. 
     
-2. Llamar al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor de destino y establezca el parámetro _ulPropTag_ a **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) y el parámetro _lpiid_ a IID_IMAPITable. El contenedor devolverá una tabla de uso único que se enumera todas las plantillas que admite para la creación de nuevas entradas. 
+2. Llame al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) del contenedor de destino y establezca el parámetro _ulPropTag_ en **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) y el parámetro _lpiid_ en IID_IMAPITable. El contenedor devolverá una tabla única en la que se enumeran todas las plantillas compatibles para crear nuevas entradas. 
     
-3. Recuperar la fila que representa la plantilla para el tipo concreto de entrada que desea crear. La columna **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indica el tipo de dirección que es compatible con la plantilla. 
+3. Recupere la fila que representa la plantilla para el tipo concreto de entrada que desea crear. La columna **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indica el tipo de dirección que es compatible con la plantilla. 
     
-4. Llamar a **IMAPISupport::NewEntry** y establezca el parámetro _lpEIDNewEntryTpl_ en el identificador de entrada de la plantilla seleccionada. El identificador de entrada es la columna de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la fila de la plantilla en la tabla de uso único. Pase 0 en _cbEIDContainer_ y NULL en _lpEIDContainer_. Pase un puntero válido en el parámetro _lppEIDNewEntry_ si desea conservar el identificador de entrada de la nueva entrada. 
+4. Llame a **IMAPISupport:: NEWENTRY** y establezca el parámetro _lpEIDNewEntryTpl_ en el identificador de entrada de la plantilla seleccionada. El identificador de entrada es la **** columna 1 ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la fila de la plantilla en la tabla de uso único. Pase 0 en _cbEIDContainer_ y null en _lpEIDContainer_. Pase un puntero válido en el parámetro _lppEIDNewEntry_ si desea conservar el identificador de entrada de la nueva entrada. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

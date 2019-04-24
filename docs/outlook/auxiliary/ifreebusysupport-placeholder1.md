@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
-description: Este miembro es un marcador de posición y no se admite.
-ms.openlocfilehash: 71fe758170d1c0c48bab75f7af0a3582a6c3de8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este miembro es un marcador de posición y no es compatible.
+ms.openlocfilehash: ef07ea8d01c34fe9c1454cee3baa4dbb7d5adc71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317517"
 ---
 # <a name="ifreebusysupportplaceholder1"></a>IFreeBusySupport::Placeholder1
 
-Este miembro es un marcador de posición y no se admite.
+Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IFreeBusySupport](ifreebusysupport.md).
+Consulte [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT Placeholder1( 
@@ -37,6 +37,6 @@ S_OK
   
 ## <a name="see-also"></a>Vea también
 
-- [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

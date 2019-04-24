@@ -1,35 +1,35 @@
 ---
-title: Fila RelCubBezTo (sección Geometría)
+title: Fila RelCubBezTo (sección geometría)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
-description: Contiene x - y y - las coordenadas del punto final de una curva de Bézier cúbica con relación al ancho de la forma y height, x - y y - las coordenadas del punto de control del principio de la x y el alto y el ancho de la forma relativa de curva - e y-coordenadas del control Elija l de la hora de finalización del ancho y alto de la forma relativa de curva.
-ms.openlocfilehash: 918701c19e36753dcbf1a210dda2234d1e540d6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contiene las coordenadas x e y del punto final de una curva Bézier cúbica en relación con el ancho y el alto de la forma, las coordenadas x e y del punto de control del principio del ancho y el alto de la forma relativa de la curva, y las coordenadas x-e y-de contr punto l del final del ancho y alto de la forma relativa de la curva.
+ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320037"
 ---
-# <a name="relcubbezto-row-geometry-section"></a>Fila RelCubBezTo (sección Geometría)
+# <a name="relcubbezto-row-geometry-section"></a>Fila RelCubBezTo (sección geometría)
 
-Contiene *el *x* - y *y* - las coordenadas del punto final de una curva de Bézier cúbica con relación al ancho de la forma y height, *x* - y* -las coordenadas del punto de control del principio de la forma relativa de curva width y height, y la *x* e *y* -las coordenadas del punto de control de la hora de finalización del ancho y alto de la forma relativa de curva. 
+Contiene las coordenadas *x* e ** y del punto final de una curva Bézier cúbica en relación con el ancho y el alto de la forma, las coordenadas *x* e y del punto de control del principio del ancho y el alto de la forma relativa de la curva. ** y las coordenadas *x* -e *y* -del punto de control del final del ancho y alto de la forma relativa de la curva. 
   
 > [!NOTE]
-> Una fila de **RelCubBezTo** sólo puede persistir en los formatos de archivo .vsdx, .vsdm, .vstx, .vstm, .vssx y .vssm. Cuando se guarda un archivo a los formatos de Visio 2003 2010, la fila de **RelCubBezTo** se convierte en una fila [NURBSTo](nurbsto-row-geometry-section.md) . 
+> Una fila **RelCubBezTo** solo puede persistir en los formatos de archivo. vsdx,. vsdm,. vstx,. vstm,. vssx y. VSSM. Cuando se guarda un archivo en los formatos de Visio 2003-2010, la fila **RelCubBezTo** se convierte en [](nurbsto-row-geometry-section.md) una fila NURBSTo. 
   
-Una fila de **RelCubBezTo** contiene las celdas siguientes. 
+Una fila **RelCubBezTo** contiene las celdas siguientes. 
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |La *x* -coordenadas del vértice del extremo de una curva de Bézier cúbica con relación al ancho de la forma.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |La *y* -coordenadas del vértice del extremo de una curva de Bézier cúbica con relación al alto de la forma.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |La *x* -coordenada de la curva inicial del punto de control con respecto al ancho de la forma; un punto en el arco. El punto de control es mejor ubicado entre el principio y el vértice final del arco.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |La *y* -coordenada de una curva inicial del punto de control con relación al alto de la forma.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |La *x* -coordenada de la curva final del punto de control con respecto al ancho de la forma; un punto en el arco. El punto de control es mejor ubicado entre los vértices de final y de punto de control de principio del arco.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |La *y* -coordenada de una curva final del punto de control con relación al alto de la forma.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordenada *x* del vértice del extremo de una curva cúbica de Bézier con relación al ancho de la forma.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordenada *y* del vértice del extremo de una curva cúbica de Bézier con relación al alto de la forma.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Coordenada *x* del punto de control inicial de la curva con respecto al ancho de la forma; un punto en el arco. El punto de control se encuentra mejor situado entre los vértices inicial y final del arco.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |Coordenada *y* del punto de control inicial de una curva en relación con el alto de la forma.  <br/> |
+|[CA](c-cell-geometry-section.md) <br/> |Coordenada *x* del punto de control final de la curva con respecto al ancho de la forma; un punto en el arco. El punto de control se encuentra mejor situado entre el punto de control inicial y los vértices finales del arco.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |Coordenada *y* del punto de control final de una curva en relación con el alto de la forma.  <br/> |
    
 

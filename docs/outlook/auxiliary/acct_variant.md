@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: Una variable de este tipo de datos contiene el valor de una propiedad, que es de un tipo de datos variant.
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Una variable de este tipo de datos contiene el valor de una propiedad, que es un tipo de datos Variant.
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316922"
 ---
 # <a name="acctvariant"></a>ACCT_VARIANT
 
-Una variable de este tipo de datos contiene el valor de una propiedad, que es de un tipo de datos variant.
+Una variable de este tipo de datos contiene el valor de una propiedad, que es un tipo de datos Variant.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -34,7 +34,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _dwType_
   
@@ -48,14 +48,14 @@ _dwType_
     
 _DW_
   
-> Valor DWORD de variante.
+> Valor DWORD de Variant.
     
 _pwsz_
   
-> Valor de tipo variant de cadena.
+> Valor de cadena de Variant.
     
-_Papelera de_
+_definido_
   
-> Valor binario de la variante.
+> Valor binario de Variant.
     
 

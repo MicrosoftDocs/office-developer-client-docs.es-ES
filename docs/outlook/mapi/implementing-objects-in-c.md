@@ -1,5 +1,5 @@
 ---
-title: Implementación de objetos en C
+title: Implementar objetos en C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d07d756abded137d3268daf7dd0998f0c953cb1d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6026e697cc31545bf7ef518fcbd33ea8db48af5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310195"
 ---
-# <a name="implementing-objects-in-c"></a>Implementación de objetos en C
+# <a name="implementing-objects-in-c"></a>Implementar objetos en C
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente y proveedores de servicios de escrito en C definición objetos MAPI mediante la creación de una estructura de datos y una matriz de punteros a función ordenada conocido como una tabla de función virtual o vtable. Un puntero a la tabla vtable debe ser el primer miembro de la estructura de datos.
+Las aplicaciones cliente y los proveedores de servicios escritos en C definen objetos MAPI mediante la creación de una estructura de datos y una matriz de punteros de función ordenados conocida como una tabla de funciones virtuales o vtable. Un puntero a la vtable debe ser el primer miembro de la estructura de datos.
   
-En la tabla vtable propio, hay un puntero por cada método en cada interfaz admitido por el objeto. El orden de los punteros debe seguir el orden de los métodos en la especificación de la interfaz publicado en el archivo de encabezado Mapidefs.h. Cada puntero de función en la tabla vtable se establece en la dirección de la implementación del método real. En C++, el compilador establece automáticamente la tabla vtable. En C, no lo hace. 
+En la propia vtable, hay un puntero para cada método de cada interfaz compatible con el objeto. El orden de los punteros debe seguir el orden de los métodos en la especificación de interfaz Publicada en el archivo de encabezado Mapidefs. h. Cada puntero a función en la tabla vtable se establece en la dirección de la implementación real del método. En C++, el compilador configura automáticamente la vtable. En C, no lo hace. 
   
-En la siguiente ilustración se muestra cómo funciona esto. El cuadro en el extremo izquierdo representa a un cliente que necesita utilizar un objeto de proveedor de servicio. A través de la sesión, el cliente obtiene un puntero al objeto, **lpObject**. La tabla vtable aparece en primer lugar en el objeto seguido por métodos y datos privados. El puntero vtable apunta a la tabla vtable real, que contiene punteros a cada una de las implementaciones de los métodos de la interfaz. 
+En la siguiente ilustración se muestra cómo funciona. El cuadro del extremo izquierdo representa un cliente que necesita usar un objeto de proveedor de servicios. A lo largo de la sesión, el cliente obtiene un puntero al objeto **lpObject**. Vtable aparece primero en el objeto seguido de los datos y métodos privados. El puntero vtable apunta a la vtable real, que contiene punteros a cada una de las implementaciones de los métodos de la interfaz. 
   
 **Implementación de objeto**
   
 ![Implementación de objeto] (media/amapi_42.gif "Implementación de objeto")
   
-En el ejemplo de código siguiente se muestra cómo un proveedor de servicios de C puede definir un objeto de estado simple. El primer miembro es el puntero vtable; el resto del objeto se compone de miembros de datos. 
+En el ejemplo de código siguiente se muestra cómo un proveedor de servicios C puede definir un objeto de estado simple. El primer miembro es el puntero vtable; el resto del objeto está compuesto de miembros de datos. 
   
 ```C
 typedef struct _MYSTATUSOBJECT
@@ -43,7 +43,7 @@ typedef struct _MYSTATUSOBJECT
  
 ```
 
-Debido a que este objeto es un objeto de estado, el vtable incluye punteros a las implementaciones de cada uno de los métodos en el [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interfaz, así como punteros a las implementaciones de cada uno de los métodos de las interfaces base: **IUnknown **y **IMAPIProp**. El orden de los métodos en la tabla vtable coincide con el orden especificado, tal como se define en el archivo de encabezado Mapidefs.h.
+Dado que este objeto es un objeto status, la vtable incluye punteros a las implementaciones de cada uno de los métodos de la interfaz [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , así como punteros a las implementaciones de cada uno de los métodos de las interfaces base: **IUnknown **y **IMAPIProp**. El orden de los métodos en la tabla vtable coincide con el orden especificado, tal como se define en el archivo de encabezado Mapidefs. h.
   
 ```js
 static const MYOBJECT_Vtbl vtblSTATUS =
@@ -70,7 +70,7 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Los clientes y proveedores de servicios de escrito en C utilizan objetos indirectamente a través de la tabla vtable y agregar un puntero de objeto como el primer parámetro en cada llamada. Todas las llamadas a un método de interfaz MAPI requiere un puntero al objeto que se llama como su primer parámetro. C++ define un puntero especial conocido como el puntero **this** para este propósito. El compilador de C++ agrega implícitamente el puntero **this** como el primer parámetro para cada llamada al método. En C no hay ningún puntero con estas características; se debe agregarse explícitamente. 
+Los clientes y los proveedores de servicios escritos en C utilizan objetos indirectamente a través de vtable y agregan un puntero de objeto como el primer parámetro en cada llamada. Cada llamada a un método de interfaz MAPI requiere un puntero al objeto al que se llama como su primer parámetro. C++ define un puntero especial que se conoce como el puntero **this** para este propósito. El compilador de C++ agrega implícitamente el puntero **this** como el primer parámetro para cada llamada al método. En C no existe tal puntero; debe agregarse explícitamente. 
   
 El código siguiente muestra cómo un cliente puede realizar una llamada a una instancia de MYSTATUSOBJECT:
   
@@ -79,7 +79,7 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
  
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementación de objetos MAPI](implementing-mapi-objects.md)
 

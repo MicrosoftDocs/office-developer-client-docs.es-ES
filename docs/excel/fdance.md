@@ -7,28 +7,28 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- fdance (función) [excel 2007]
+- función fdance [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b7a2fbdf723d06dcf9b02789178d7d12d0515884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a191c07d2a06a1cb6123c235e8fac69d90426758
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311042"
 ---
 # <a name="fdance"></a>fDance
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comando de ejemplo definida por el usuario que cambia las celdas seleccionadas en la hoja de cálculo activa alrededor hasta que el usuario presiona la **tecla ESC**. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
+Comando definido por el usuario de ejemplo que cambia las celdas seleccionadas en la hoja de cálculo activa hasta que el usuario presiona la **tecla ESC**. Cuando se carga GENERIC. XLL, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
   
 ```cs
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 La función no toma ningún parámetro.
   
@@ -38,15 +38,15 @@ La función siempre devuelve 1.
   
 ## <a name="remarks"></a>Comentarios
 
-Éste es un ejemplo de una operación larga. Llama a la función [xlAbort](xlabort.md) ocasionalmente. Esto da como resultado el procesador (ayudar con tareas cooperación) y comprueba si el usuario ha presionado la **tecla ESC** para cancelar la operación. Si es así, ofrece al usuario una oportunidad para cancelar la anulación. 
+Este es un ejemplo de una operación larga. Llama a la función [xlAbort](xlabort.md) de vez en cuando. Esto produce el procesador (ayudando con la multitarea cooperativa) y comprueba si el usuario ha presionado **ESC** para cancelar la operación. Si es así, ofrece al usuario la posibilidad de cancelar la anulación. 
   
 ### <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+[Funciones en la DLL genérica](functions-in-the-generic-dll.md)
 

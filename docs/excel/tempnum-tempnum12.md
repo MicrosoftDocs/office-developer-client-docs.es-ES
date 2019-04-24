@@ -8,41 +8,41 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- tempnum12 (función) [excel 2007], TempNum (función) [Excel 2007]
+- función tempnum12 [Excel 2007], TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cabd44ab828a2cfe22253e9aaf12abf7b7709d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310363"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene un número de hoja de cálculo de Microsoft Excel (un doble de 8 bytes IEEE). 
+Función de biblioteca de .NET Framework que crea un**XLOPER12** de **XLOPER**/ temporal que contiene un número de hoja de cálculo de Microsoft Excel (un doble de IEEE de 8 bytes). 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _d._ (**doble**)
+ _d_ (**doble**)
   
-El valor deseado. Tenga en cuenta que los números de subcaracterísticas normales de IEEE actualmente no son compatibles y se redondean a cero. Se admite el infinito negativo.
+El valor deseado. Tenga en cuenta que los números de IEEE sub-normal no se admiten actualmente y se redondean a cero. Se admite infinito negativo.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un numéricos **xltypeNum** que contiene el valor que se pasó o cero si el valor pasado fue subcaracterísticas normal. 
+Devuelve una **xltypeNum** numérica que contiene el valor que se ha pasado o cero si el valor pasado era sub normal. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la función **TempNum12** para pasar un argumento a **xlfGetWorkspace**.
+En este ejemplo, se usa la función **TempNum12** para pasar un argumento a **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

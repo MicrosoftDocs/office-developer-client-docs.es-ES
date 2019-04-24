@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316635"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hace permanentes los cambios realizados a un objeto desde la última operación de guardar. 
+Hace permanentes todos los cambios realizados en un objeto desde la última operación de guardado. 
   
 ```cpp
 HRESULT SaveChanges(
@@ -33,45 +33,45 @@ HRESULT SaveChanges(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla lo que ocurre con el objeto cuando se llama al método **IMAPIProp::SaveChanges** . Se pueden establecer los siguientes indicadores: 
+> a Máscara de máscara de marcadores que controla lo que ocurre con el objeto cuando se llama al método **IMAPIProp:: SaveChanges** . Se pueden establecer los siguientes indicadores: 
     
 NON_EMS_XP_SAVE
   
-> Indica que no se ha entregado el mensaje de un servidor de Microsoft Exchange. Este indicador se debe usar en combinación con el método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) y la marca ITEMPROC_FORCE para indicar a un almacén de archivos PST que el mensaje tiene derecho para reglas de procesamiento antes de que el almacén de carpetas personales (PST) de archivo se lo comunica cualquiera cliente de escucha que ha llegado el mensaje. Esta reglas de procesamiento sólo se aplica a los nuevos mensajes que se crean con [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) en un servidor que no es un servidor de Exchange, en cuyo caso el servidor de Exchange ya habría procesado reglas en el mensaje. 
+> Indica que el mensaje no se ha entregado desde un servidor de Microsoft Exchange. Este indicador debe usarse en combinación con el método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) y la marca ITEMPROC_FORCE para indicar a un almacén de PST que el mensaje es apto para el procesamiento de reglas antes de que el almacén de archivos de carpetas personales (PST) notifique a cualquier cliente de escucha que ha recibido el mensaje. Este procesamiento de reglas solo se aplica a los mensajes nuevos que se crean con [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) en un servidor que no es un servidor de Exchange, en cuyo caso el servidor de Exchange ya habrá procesado las reglas del mensaje. 
     
 FORCE_SAVE 
   
-> Los cambios se deben escribirse en el objeto, reemplazar los cambios anteriores que se han realizado en el objeto, y se debe cerrar el objeto. Permiso de lectura y escritura se debe establecer para que la operación se realice correctamente. El indicador FORCE_SAVE se utiliza después de una llamada anterior a **SaveChanges** devolvió MAPI_E_OBJECT_CHANGED. 
+> Los cambios se deben escribir en el objeto, reemplazando los cambios anteriores que se han realizado en el objeto y se debe cerrar el objeto. Debe establecerse el permiso de lectura y escritura para que la operación se realice correctamente. La marca FORCE_SAVE se usa después de una llamada anterior a **SaveChanges** devolvió MAPI_E_OBJECT_CHANGED. 
     
 KEEP_OPEN_READONLY 
   
-> Se deberían confirmar los cambios y el objeto se debe mantener abierto para lectura. No se realizarán cambios adicionales. 
+> Los cambios deben confirmarse y el objeto debe mantenerse abierto para lectura. No se realizarán cambios adicionales. 
     
 KEEP_OPEN_READWRITE 
   
-> Se deberían confirmar los cambios y el objeto se debe mantener abierto para el permiso de lectura y escritura. Este indicador normalmente se establece cuando se abre por primera vez el objeto de permiso de lectura y escritura. Se permiten los cambios posteriores en el objeto. 
+> Los cambios deben confirmarse y el objeto debe mantenerse abierto para permiso de lectura y escritura. Esta marca suele establecerse cuando el objeto se abrió por primera vez para permiso de lectura y escritura. Se permiten los cambios posteriores en el objeto. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **SaveChanges** devolver de correctamente, posiblemente antes de que los cambios se han guardado por completo. 
+> Permite que **SaveChanges** vuelva correctamente, posiblemente antes de que los cambios se hayan confirmado por completo. 
     
 SPAMFILTER_ONSAVE
   
-> Permite contra correo no deseado filtrado en un mensaje que se va a guardar. El soporte de filtrado de spam solo está disponible si el tipo de dirección de correo electrónico del remitente es Protocolo simple de transferencia de correo (SMTP) y el mensaje se está guardando en un almacén de un archivo de carpetas personales (PST).
+> Habilita el filtrado de correo no deseado en un mensaje que se está guardando. El soporte de filtrado de spam solo está disponible si el tipo de dirección de correo electrónico del remitente es Protocolo simple de transferencia de correo (SMTP) y el mensaje se está guardando en un almacén de un archivo de carpetas personales (PST).
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El compromiso de cambios fue correcto.
+> El compromiso de los cambios se realizó correctamente.
     
 MAPI_E_NO_ACCESS 
   
-> **SaveChanges** no se puede mantener el objeto abierto para el permiso de sólo lectura si KEEP_OPEN_READONLY está establecido, o el permiso de lectura y escritura si se establece KEEP_OPEN_READWRITE. No hay cambios se confirman. 
+> **SaveChanges** no puede mantener el objeto abierto para el permiso de solo lectura si KEEP_OPEN_READONLY está establecido o permiso de lectura y escritura si se establece KEEP_OPEN_READWRITE. No se confirman los cambios. 
     
 MAPI_E_OBJECT_CHANGED 
   
@@ -83,46 +83,46 @@ MAPI_E_OBJECT_DELETED
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIProp::SaveChanges** realiza los cambios de propiedad permanente para los objetos que admiten el modelo de transacción de procesamiento, como mensajes, datos adjuntos, contenedores de libretas de direcciones y los objetos de usuario de mensajería. Objetos que no admiten transacciones, como las carpetas, los almacenes de mensajes y las secciones de perfil, realice cambios permanentes inmediatamente. Ninguna llamada a **SaveChanges** es necesaria. 
+El método **IMAPIProp:: SaveChanges** hace permanentes los cambios de propiedad para los objetos que admiten el modelo de transacciones de procesamiento, como mensajes, datos adjuntos, contenedores de libretas de direcciones y objetos de usuario de mensajería. Los objetos que no admiten transacciones, como carpetas, almacenes de mensajes y secciones de perfil, hacen que los cambios sean permanentes inmediatamente. No se requiere ninguna llamada a **SaveChanges** . 
   
-Debido a que no es necesario generar un identificador de entrada para sus objetos hasta que se han guardado todas las propiedades de los proveedores de servicios, la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de un objeto no esté disponible hasta después de su método **SaveChanges** se ha llamado. Algunos proveedores de esperar hasta que se establezca el indicador KEEP_OPEN_READONLY en la llamada de **SaveChanges** . KEEP_OPEN_READONLY indica que los cambios se guarden en la llamada actual serán los últimos cambios que se realizarán en el objeto. 
+Dado que los proveedores de servicios no tienen que generar un identificador de entrada para sus objetos hasta que se hayan guardado todas las propiedades **** , es posible que la propiedad[PidTagEntryId](pidtagentryid-canonical-property.md)del objeto no esté disponible hasta que se haya realizado el método **SaveChanges** . se ha llamado a. Algunos proveedores esperan hasta que se establece la marca KEEP_OPEN_READONLY en la llamada **SaveChanges** . KEEP_OPEN_READONLY indica que los cambios que se van a guardar en la llamada actual serán los últimos cambios que se realizarán en el objeto. 
   
-Algunas implementaciones de almacén de mensajes no mostrar recién creado mensajes hacer en una carpeta hasta que un cliente guarda el mensaje cambia mediante el uso de **SaveChanges** y libera los objetos de mensaje con el método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Además, algunas implementaciones de objeto no pueden generar una propiedad de **entrada del objeto** para un objeto recién creado hasta que después se ha llamado al **SaveChanges** y algunas pueden hacerlo sólo una vez que se ha llamado al **SaveChanges** mediante el uso de KEEP_OPEN_READONLY establecer en _ulFlags_.
+Algunas implementaciones del almacén de mensajes no muestran los mensajes recién creados en una carpeta hasta que un cliente guarda los cambios en el mensaje mediante **SaveChanges** y libera los objetos de mensaje mediante el método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Además, algunas implementaciones de objetos no pueden generar **** una propiedad de un objeto de recién creado hasta que se haya llamado a **SaveChanges** , y algunos solo pueden hacerlo después de llamar a **SaveChanges** mediante KEEP_OPEN_READONLY establecido en _ulFlags_.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si recibe la marca KEEP_OPEN_READONLY, tendrá la opción de salir de access del objeto como de lectura y escritura. Sin embargo, un proveedor de nunca puede dejar un objeto en un estado de sólo lectura cuando se pasa el indicador KEEP_OPEN_READWRITE.
+Si recibe la marca KEEP_OPEN_READONLY, tiene la opción de dejar el acceso del objeto como de lectura y escritura. Sin embargo, un proveedor nunca puede dejar un objeto en un estado de solo lectura cuando se pasa la marca KEEP_OPEN_READWRITE.
   
-Cuando un cliente guarda los datos adjuntos de varios a varios mensajes, se llama al método **SaveChanges** para todos los datos adjuntos y todos los mensajes. A menudo los clientes establecerá MAPI_DEFERRED_ERRORS para cada una de estas llamadas excepto el último. Puede devolver los errores con la última llamada o llamadas anteriores. Incluso puede pasar por alto la marca. 
+Cuando un cliente guarda varios datos adjuntos en varios mensajes, llama al método **SaveChanges** para todos los datos adjuntos y cada mensaje. Con frecuencia, los clientes establecerán MAPI_DEFERRED_ERRORS para cada una de estas llamadas, excepto la última. Puede devolver errores con la última llamada o con llamadas anteriores. Puede incluso omitir la marca. 
   
-Si se establece KEEP_OPEN_READWRITE o KEEP_OPEN_READONLY junto con MAPI_DEFERRED_ERRORS, puede omitir la petición de aplazamiento de error. Si MAPI_DEFERRED_ERRORS no está establecido en _ulFlags_, uno de los errores anteriormente diferidos puede devolver para la llamada de **SaveChanges** . 
+Si KEEP_OPEN_READWRITE o KEEP_OPEN_READONLY se configura junto con MAPI_DEFERRED_ERRORS, puede pasar por alto la solicitud de aplazamiento de error. Si MAPI_DEFERRED_ERRORS no se establece en _ulFlags_, se puede devolver uno de los errores aplazados anteriormente para la llamada a **SaveChanges** . 
   
-Si un proveedor de transporte remoto proporciona una implementación funcional de este método es opcional y depende de otras opciones de diseño en su implementación. Si implementa este método, hacerlo de acuerdo con la documentación de aquí. Debido a que no se negocian objetos folder y objetos de estado, como mínimo implementación del proveedor de transporte remoto de **SaveChanges** debe devolver S_OK sin realmente realizar cualquier trabajo. 
+El hecho de que un proveedor de transporte remoto proporcione una implementación funcional de este método es opcional y depende de otras opciones de diseño de la implementación. Si implementa este método, hágalo de acuerdo con la documentación aquí. Dado que los objetos Folder y status no se transaccionan, como mínimo, la implementación de **SaveChanges** de un proveedor de transporte remoto debe devolver S_OK sin realizar ningún trabajo realmente. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si un cliente pasa KEEP_OPEN_READONLY, llama al método [IMAPIProp::SetProps](imapiprop-setprops.md) y, a continuación, llama a **SaveChanges** de nuevo, puede producirse un error en la misma implementación. 
+Si un cliente pasa KEEP_OPEN_READONLY, llama al método [IMAPIProp:: SetProps](imapiprop-setprops.md) y, a continuación, llama de nuevo a **SaveChanges** , se podría producir un error en la misma implementación. 
   
-Después de recibir una llamada MAPI_E_NO_ACCESS en el que establecer KEEP_OPEN_READWRITE, continuará tienen permiso de lectura y escritura para el objeto. Puede llamar a **SaveChanges** nuevo, pasando el indicador KEEP_OPEN_READONLY o sin marcadores con KEEP_OPEN_SUFFIX. 
+Después de recibir MAPI_E_NO_ACCESS de una llamada en la que estableció KEEP_OPEN_READWRITE, seguirá teniendo permiso de lectura y escritura en el objeto. Puede llamar a **SaveChanges** de nuevo, pasando la marca KEEP_OPEN_READONLY o sin marcadores con KEEP_OPEN_SUFFIX. 
   
-Si un proveedor admite la marca KEEP_OPEN_READWRITE depende de la implementación del proveedor. 
+El hecho de que un proveedor admita la marca KEEP_OPEN_READWRITE depende de la implementación del proveedor. 
   
-Para indicar que la llamada sólo deben realizar en el objeto después de **SaveChanges** es **IUnknown:: Release**, no establezca marcadores para el parámetro _ulFlags indicado_ . Un error de **SaveChanges** indica que podrían no realizar los cambios pendientes permanente. Distintos proveedores de tratar la ausencia de indicadores en la llamada **SaveChanges** de forma diferente. Algunos proveedores de tratan este estado igual que KEEP_OPEN_READONLY; otros proveedores de interpretan el mismo que KEEP_OPEN_READWRITE. Aún otros proveedores apague el objeto cuando no reciben marcas en la llamada de **SaveChanges** . 
+Para indicar que la única llamada que debe realizarse en el objeto después de que **SaveChanges** es **IUnknown:: Release**, no establezca ningún marcador para el parámetro _ulFlags_ . Un error de **SaveChanges** indica que no pudo hacer permanentes los cambios pendientes. Los diferentes proveedores administran la ausencia de indicadores en la llamada de **SaveChanges** de forma diferente. Algunos proveedores tratan este estado de la misma forma que KEEP_OPEN_READONLY; otros proveedores la interpretan del mismo modo que KEEP_OPEN_READWRITE. Sin embargo, otros proveedores apagan el objeto cuando no reciben marcas en la llamada de **SaveChanges** . 
   
-Algunas propiedades, propiedades calculadas por lo general, no se puede procesar hasta que se llame **SaveChanges** y, en algunos casos, la **versión**.
+Algunas propiedades, normalmente las propiedades calculadas, no se pueden procesar hasta que se llame a **SaveChanges** y, en algunos casos, se **libere**.
   
-Cuando se realizan cambios de forma masiva, como guardar los datos adjuntos a varios mensajes, aplazar error al procesar estableciendo el indicador MAPI_DEFERRED_ERRORS en _ulFlags_. Si guarda los datos adjuntos de varios a varios mensajes, realizar una **SaveChanges** llamar a cada dato adjunto y uno **SaveChanges** llamar a cada mensaje. Establecer la marca MAPI_DEFERRED_ERRORS para cada llamada de datos adjuntos y para todos los mensajes excepto el último. 
+Al realizar cambios masivos, como guardar datos adjuntos en varios mensajes, diferir el procesamiento de errores estableciendo la marca MAPI_DEFERRED_ERRORS en _ulFlags_. Si guarda varios datos adjuntos en varios mensajes, realice una llamada de **SaveChanges** a cada adjunto y una llamada de **SaveChanges** a cada mensaje. Establezca la marca MAPI_DEFERRED_ERRORS para cada llamada de datos adjuntos y para todos los mensajes excepto para la última. 
   
-Si **SaveChanges** devuelve MAPI_E_OBJECT_CHANGED, compruebe si se ha modificado el objeto original. Si es así, avisar al usuario, que ya sea puede solicitar que los cambios de sobrescribirán los cambios anteriores o guardar el objeto en otra ubicación. Si se ha eliminado el objeto original, advertir al usuario que conceda la oportunidad de guardar el objeto en otra ubicación. 
+Si **SaveChanges** devuelve MAPI_E_OBJECT_CHANGED, compruebe si se ha modificado el objeto original. Si es así, avise al usuario, que puede solicitar que los cambios sobrescriban los cambios anteriores o guardar el objeto en otra ubicación. Si se ha eliminado el objeto original, avise al usuario para que le dé la oportunidad de guardar el objeto en otra ubicación. 
   
-No se puede llamar a **SaveChanges** con la marca FORCE_SAVE en un objeto abierto que se ha eliminado. 
+No puede llamar a **SaveChanges** con la marca FORCE_SAVE en un objeto abierto que se ha eliminado. 
   
-Si **SaveChanges** devuelve un error, abra el objeto cuyos cambios tenían que guardarse permanece, independientemente de los indicadores establecidos en el parámetro _ulFlags indicado_ . 
+Si **SaveChanges** devuelve un error, el objeto cuyos cambios se guardarán permanecerá abierto, independientemente de los marcadores establecidos en el parámetro _ulFlags_ . 
   
 > [!IMPORTANT]
-> El _ulFlags_ NON_EMS_XP_SAVE y SPAMFILTER_ONSAVE no pueden definirse en el archivo de encabezado que se pueden descargar tiene actualmente, en cuyo caso se puede agregar a su código con los siguientes valores: >`#define SPAMFILTER_ONSAVE ((ULONG) 0x00000080)`>  `#define NON_EMS_XP_SAVE ((ULONG) 0x00001000)`
+> El _ulFlags_ NON_EMS_XP_SAVE y SPAMFILTER_ONSAVE podrían no estar definidos en el archivo de encabezado descargable que tiene actualmente, en cuyo caso puede agregarlo al código con los siguientes valores: >`#define SPAMFILTER_ONSAVE ((ULONG) 0x00000080)`>  `#define NON_EMS_XP_SAVE ((ULONG) 0x00001000)`
   
-Para obtener más información, vea [Guardar las propiedades de MAPI](saving-mapi-properties.md).
+Para obtener más información, consulte [Guardar propiedades MAPI](saving-mapi-properties.md).
   
 ## <a name="see-also"></a>Vea también
 
@@ -130,10 +130,10 @@ Para obtener más información, vea [Guardar las propiedades de MAPI](saving-map
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[Guardar las propiedades MAPI](saving-mapi-properties.md)
+[Guardar propiedades MAPI](saving-mapi-properties.md)
 

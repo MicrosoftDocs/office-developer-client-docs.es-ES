@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [Descripción]
+title: Sección archivo de configuración de formulario [Descripción]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,68 +8,68 @@ api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddc59d6c503d44a0575679fce694cc34499d8e2a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320989"
 ---
-# <a name="form-configuration-file-description-section"></a>Sección del archivo de configuración de formulario [Descripción]
+# <a name="form-configuration-file-description-section"></a>Sección archivo de configuración de formulario [Descripción]
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[descripción]** enumera todas las propiedades del formulario que están asociadas con los controles en el formulario de la interfaz de usuario, además de atributos que se usan para localizar el formulario. El **MessageClass**, **Clsid**y entradas de **DisplayName** , que identifican el nombre de clase de mensaje del formulario, su GUID y nombre para mostrar de la clase de mensaje, respectivamente, son entradas necesarias que se usa para buscar el formulario en la biblioteca de formularios . Las entradas restantes son opcionales. El formato de la sección **[descripción]** es: 
+La sección **[Description]** enumera todas las propiedades del formulario que están asociadas a controles en la interfaz de usuario del formulario, además de los atributos que se usan para buscar el formulario. Las entradas **MessageClass**, **CLSID**y **displayName** , que identifican el nombre de la clase de mensaje del formulario, su GUID y el nombre para mostrar de la clase de mensaje, respectivamente, son entradas necesarias que se usan para ubicar el formulario en la biblioteca de formularios. . Las entradas restantes son opcionales. El formato de la sección **[Descripción]** es: 
   
-La sección **[descripción]** enumera todas las propiedades del formulario que están asociadas con los controles en el formulario de la interfaz de usuario, además de atributos que se usan para localizar el formulario. El **MessageClass**, **Clsid**y entradas de **DisplayName** , que identifican el nombre de clase de mensaje del formulario, su GUID y nombre para mostrar de la clase de mensaje, respectivamente, son entradas necesarias que se usa para buscar el formulario en la biblioteca de formularios . Las entradas restantes son opcionales. El formato de la sección **[descripción]** es: 
+La sección **[Description]** enumera todas las propiedades del formulario que están asociadas a controles en la interfaz de usuario del formulario, además de los atributos que se usan para buscar el formulario. Las entradas **MessageClass**, **CLSID**y **displayName** , que identifican el nombre de la clase de mensaje del formulario, su GUID y el nombre para mostrar de la clase de mensaje, respectivamente, son entradas necesarias que se usan para ubicar el formulario en la biblioteca de formularios. . Las entradas restantes son opcionales. El formato de la sección **[Descripción]** es: 
   
- **[Descripción] MessageClass** =  _cadena_
+ **Descriptiva MessageClass** =  (_cadena_ )
   
- **CLSID** =  _guid_
+ **** =  _GUID_ de CLSID
   
  **DisplayName** =  _displayedstring_
   
- **SmallIcon** =  _ruta de acceso_
+ **** =  _Ruta_ de SmallIcon
   
  **LargeIcon** =  _ruta de acceso_
   
-Entradas opcionales son:
+Las entradas opcionales son:
   
- **Categoría** =  _muestra la cadena_
+ **** =  _Cadena mostrada_ en la categoría
   
- **Subcategoría** =  _muestra la cadena_
+ **** =  _Cadena mostrada_ en la subcategoría
   
- **Comentario** =  _muestra la cadena_
+ **** =  _Cadena mostrada_ como comentario
   
- **Propietario** =  _muestra la cadena_
+ **** =  _Cadena mostrada_ por el propietario
   
- **Número de** =  _muestra la cadena_
+ **Número** =  de cadena que se_muestra_
   
- **Versión** =  _entero_
+ **** =  _Número entero_ de versión
   
- **Configuración regional** =  _cadena_
+ **Cadena de configuración regional**__  =  
   
- **Oculto** =  _entero_
+ **** =  _Entero_ oculto
   
- **DesignerToolName** =  _cadena_
+ **** =  _Cadena_ DesignerToolName
   
- **DesignerToolGuid** =  _clsid_
+ **** =  _CLSID_ DesignerToolGuid
   
- **DesignerRuntimeGuid** =  _clsid_
+ **** =  _CLSID_ DesignerRuntimeGuid
   
  **ComposeInFolder** =  _0 | 1_
   
- **ComposeCommand** =  _cadena_
+ **** =  _Cadena_ ComposeCommand
   
-Se utilizan las entradas de la **categoría** y **subcategoría** por instaladores del formulario para configurar la categorización de forma predeterminada de los formularios dentro de la interfaz de usuario de la aplicación cliente. Por ejemplo, se puede establecer una jerarquía donde "Help Desk" es la categoría y "Software" y "Hardware" eran las subcategorías. Este categorización, a continuación, se puede usar mediante aplicaciones de visor para mostrar los mensajes de una forma más organizada. Las entradas de **comentario**, el **propietario**y el **número** están todas las cadenas de comentario que aparecen en la interfaz de usuario de la aplicación cliente. Estos son propiedades específicas del formulario que se pueden usar en función del criterio del desarrollador de formulario. Por ejemplo, la entrada de **comentario** puede utilizarse para indicar el propósito del formulario, la entrada de **propietario** que se utiliza para indicar la persona u organización responsable de mantener el formulario y el número que se usa para realizar un seguimiento de una versión diferente del formulario. El **comentario** se puede incluir entrada hasta diez líneas de comentarios. La primera línea de comentarios de la palabra "Comentario" como la clave, la segunda línea de comentarios utiliza "Comentario1" como la clave, y así sucesivamente a través de "Comment9". 
+Los instaladores de formularios usan las entradas de **categoría** y **Subcategoría** para configurar la categorización predeterminada de los formularios en la interfaz de usuario de la aplicación de cliente. Por ejemplo, una jerarquía se puede configurar donde "servicio de asistencia" es la categoría y "software" y "hardware" son las subcategorías. Las aplicaciones de visor pueden usar esta categorización para mostrar los mensajes de forma más organizada. Las entradas **Comentario**, **propietario**y **número** son todas las cadenas de comentarios que aparecen en la interfaz de usuario de la aplicación cliente. Estas propiedades son específicas del formulario que se pueden usar a discreción del desarrollador del formulario. Por ejemplo, la entrada de **Comentario** puede usarse para indicar el propósito del formulario, la entrada de **propietario** usada para indicar la persona u organización responsable de mantener el formulario, y el número que se usa para realizar un seguimiento de la versión diferente del formulario. Para la entrada de **Comentario** , se pueden incluir hasta diez líneas de comentarios. La primera línea de comentarios usa la palabra "comentario" como la clave, la segunda línea de comentarios usa "Comment1" como clave, y así sucesivamente mediante "Comment9". 
   
-Las entradas **incluidas** y **SmallIcon** se utilizan para especificar la ruta de acceso para los recursos de icono que se usa para mostrar iconos en la interfaz de usuario de la aplicación cliente, normalmente se trata de las filas de tabla que incluyen la **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) o las columnas de propiedad de **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Los nombres de archivo de icono pueden especificarse como rutas de acceso relativas al directorio donde está instalado el archivo de configuración del formulario. La entrada de la **versión** se usa para indicar el número de versión del formulario. **Configuración regional** es el identificador de idioma de tres letras de la biblioteca de formulario de destino. Una lista de estos identificadores puede encontrarse en la _referencia del programador de Win32_.
+Las entradas **LargeIcon** y **SmallIcon** se usan para especificar la ruta de acceso de los recursos de iconos usados para mostrar iconos en la interfaz de usuario de la aplicación cliente, normalmente es para las filas de tabla que incluyen el **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) columnas de propiedad o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Los nombres de archivo de icono pueden especificarse como rutas de directorios relativas al directorio en el que está instalado el archivo de configuración de formulario. La entrada **version** se usa para indicar el número de versión del formulario. **Locale** es el identificador de idioma de tres letras de la biblioteca de formularios de destino. Puede encontrar una lista de estos identificadores en la _Referencia del programador de Win32_.
   
-La entrada **oculto** indica si se debe mostrar el formulario en la interfaz de usuario del proveedor de biblioteca de formulario: 1 indica que el archivo está oculto y 0 indica que el formulario está visible. Se muestra un archivo de configuración del formulario de ejemplo siguiente. 
+La entrada **oculta** indica si el formulario debe mostrarse en la interfaz de usuario del proveedor de la biblioteca de formularios: 1 indica que el archivo está oculto y 0 indica que el formulario está visible. A continuación se muestra un archivo de configuración de formulario de ejemplo. 
   
-La entrada **ComposeInFolder** controla si el formulario está diseñado para colocarse en la carpeta actual o en la Bandeja de entrada del usuario cuando el usuario guarda el mensaje mientras se redacta: 1 indica que el formulario debe ir en la carpeta actual y 0 indica que debe vaya en la Bandeja de entrada. 
+La entrada **ComposeInFolder** controla si el formulario está diseñado para colocarse en la carpeta actual o en la bandeja de entrada del usuario cuando el usuario guarda el mensaje mientras lo redacta: 1 indica que el formulario debe ir en la carpeta actual y 0 indica que debe ir a la bandeja de entrada. 
   
-La entrada **ComposeCommand** es la cadena que se sitúa en la aplicación cliente del menú de redacción. Si no se especifica, se usará la entrada **DisplayName** . 
+La entrada **ComposeCommand** es la cadena que se va a colocar en el menú de redacción de la aplicación cliente. Si no se especifica, se usará la entrada **displayName** . 
   
 ```cpp
 [Description]

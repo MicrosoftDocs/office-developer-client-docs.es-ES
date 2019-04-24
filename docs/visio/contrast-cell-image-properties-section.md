@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0e4c644-c646-9649-c697-82feb02f5e29
 description: Ajusta el contraste de una imagen de mapa de bits. Para reducir el contraste de una imagen, escriba un valor entre 0% y 49% y, para aumentarlo, escriba un valor entre 51% y 100%. El valor predeterminado es 50%.
-ms.openlocfilehash: 74a82fd9be49fcb9126c2b52bfcf25e0deb0e782
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0a27090ea1ec96bf11726ae641ff918dd581e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319024"
 ---
-# <a name="contrast-cell-image-properties-section"></a>Celda Contrast (sección Propiedades de la imagen)
+# <a name="contrast-cell-image-properties-section"></a>Celda Contrast (Sección de propiedades de la imagen)
 
 Ajusta el contraste de una imagen de mapa de bits. Para reducir el contraste de una imagen, escriba un valor entre 0% y 49% y, para aumentarlo, escriba un valor entre 51% y 100%. El valor predeterminado es 50%.
   
@@ -27,7 +27,7 @@ Para obtener una referencia a la celda Contrast por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Contrast  <br/> |
+| Nombre de celda:  <br/> | Contraste  <br/> |
    
 Para obtener una referencia desde un programa a la celda Contrast por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

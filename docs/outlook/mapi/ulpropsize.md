@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2bfe2841592987c530f6323db94834c1dcb64b2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cc1547ad7d881b707825630f96987d4c40ad4863
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315305"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
@@ -29,9 +29,9 @@ Devuelve el tamaño de un valor de propiedad único.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 ULONG UlPropSize(
@@ -39,11 +39,11 @@ ULONG UlPropSize(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValue_
   
-> [entrada] Puntero a una estructura de [SPropValue](spropvalue.md) definición de la propiedad que se va a medir. 
+> a Puntero a una estructura [SPropValue](spropvalue.md) que define la propiedad que se va a medir. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,10 +53,10 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Un error de origen desconocido o inesperado no puede completar la operación.
+> Un error de origen inesperado o desconocido impidió que se completara la operación.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **UlPropSize** devuelve el tamaño, en bytes, del valor de propiedad para la propiedad especificada. No tiene en cuenta el tamaño del resto de la estructura **SPropValue** . 
+La función **UlPropSize** devuelve el tamaño, en bytes, del valor de la propiedad para la propiedad especificada. No tiene en cuenta el tamaño del resto de la estructura **SPropValue** . 
   
 

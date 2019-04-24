@@ -5,27 +5,27 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bc1e1f55-1959-a4a9-a24d-f006af531c9a
-description: 'Última modificación: 25 de junio de 2012'
-ms.openlocfilehash: fbb6d22414daf3464e80fbf1d9cf92ccb3d560e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+ms.openlocfilehash: 1acca6d806c1734007ac7c5e41059d3a870dc5bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321808"
 ---
 # <a name="about-the-mapi-crash-recovery-api"></a>Información sobre la API de recuperación de bloqueo de MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de recuperación de MAPI se bloquee comprueba que el estado del archivo de carpetas personales (PST) o archivo de carpetas sin conexión (OST) de memoria para comprobar que los datos están en un estado coherente compartida. Si está en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos de los archivos pst de abrir u ost en el disco y bloquea los archivos PST u ost y no permitir que cualquier lectura o acceso de escritura a los datos. Esto garantiza que los datos permanecen en un estado coherente hasta que se finalice el proceso. Al garantizar que los archivos PST u ost se encuentran en un estado coherente antes de que finalice el proceso, puede evitar que Microsoft Outlook 2013 y Microsoft Outlook 2010 muestre el siguiente mensaje de error y evitar problemas de rendimiento. 
+La API de recuperación de bloqueo de MAPI comprueba el estado del archivo de carpetas personales (PST) o de la memoria compartida del archivo de carpetas sin conexión (OST) para comprobar que los datos están en un estado coherente. Si se encuentra en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos de los archivos PST o OSTs a disco y bloquea los archivos PST o OSTs, y no permite el acceso de lectura o escritura a los datos. Esto garantiza que los datos permanecen en un estado coherente hasta que finaliza el proceso. Al asegurarse de que los archivos PST o OSTs se encuentran en un estado coherente antes de que finalice el proceso, puede evitar que Microsoft Outlook 2013 y Microsoft Outlook 2010 muestren el siguiente mensaje de error y eviten problemas de rendimiento. 
   
- **Un archivo de datos no se cerró correctamente la última vez que se usó y que se está protegiendo para problemas. Podría verse afectado el rendimiento mientras la comprobación está en curso.**
+ **Un archivo de datos no se cerró correctamente la última vez que se usó y se está comprobando para detectar posibles problemas. El rendimiento puede verse afectado mientras la comprobación está en curso.**
   
-Esta API ofrece lo siguiente:
+Esta API proporciona lo siguiente:
   
-Constantes:
+Constantes
   
 - [Constantes MAPI](mapi-constants.md)
     

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9fa7c7226c4ddb5acf5c6b73f55c46829d959eef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 938eaa6c1a39d24157d5d690c42b435af6192cb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321423"
 ---
 # <a name="imapimessagesitesavemessage"></a>IMAPIMessageSite::SaveMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Solicitudes que se guarde el mensaje actual.
+Solicita que se guarde el mensaje actual.
   
 ```cpp
 HRESULT SaveMessage( void );
@@ -43,17 +43,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Formularios de llamar al método **IMAPIMessageSite::SaveMessage** para solicitar que se guarde un mensaje. 
+Los formularios llaman al método **IMAPIMessageSite:: SaveMessage** para solicitar que se guarde un mensaje. 
   
-Para obtener una lista de las interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utiliza el método **IMAPIMessageSite::SaveMessage** para guardar el mensaje.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SaveMessage  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: SaveMessage** para guardar el mensaje.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -64,5 +64,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
 

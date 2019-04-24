@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d8c554c5-89ac-9b32-5561-8d8178d2525a
 description: Un sin conexión libreta de direcciones (OAB) proporciona a los usuarios de Outlook en un estado desconectado el acceso a información de directorio de la lista Global de direcciones (GAL) y de otras libretas de direcciones.
 ms.openlocfilehash: 3374f87cd62d46a80ed823bff0516115a58c155c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317020"
 ---
 # <a name="about-the-last-update-time-of-an-offline-address-book"></a>Acerca de la última hora de actualización de una libreta de direcciones sin conexión
 

@@ -1,5 +1,5 @@
 ---
-title: Eliminar un perfil
+title: Eliminación de un perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ api_type:
 - COM
 ms.assetid: 4d01ab2e-40fd-409d-a69d-163b7d5462ca
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d13af3a2d0293641fd87d1065bceedfa4b62a3b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1cd87b92a9d289f06e466f4e44ce757c93074336
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316831"
 ---
-# <a name="deleting-a-profile"></a>Eliminar un perfil
+# <a name="deleting-a-profile"></a>Eliminación de un perfil
 
   
   
@@ -23,10 +23,10 @@ ms.locfileid: "22573246"
   
  **Para eliminar un perfil**
   
-- Llame a [IProfAdmin::DeleteProfile](iprofadmin-deleteprofile.md).
+- Llamar a [IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md).
     
- **DeleteProfile** marca el perfil para su eliminación, si se está usando, esperar hasta que ya no está activa para quitarla. El perfil no desaparece realmente hasta que se ha desconectado todos los clientes con una sesión activa. 
+ **DeleteProfile** marca el perfil para su eliminación si se está usando actualmente, esperando hasta que ya no esté activo para quitarlo. En realidad, el perfil no desaparecerá hasta que se desconecte todos los clientes con una sesión activa. 
   
- **DeleteProfile** llama a la función de punto de entrada de cada servicio de mensajes en el perfil con el parámetro _ulContext_ establecido en MSG_SERVICE_DELETE. Las llamadas a las funciones de punto de entrada se producen antes de que los servicios se encuentran físicamente en el perfil. 
+ **DeleteProfile** llama a la función de punto de entrada de cada servicio de mensajes en el perfil con el parámetro _ULCONTEXT_ establecido en MSG_SERVICE_DELETE. Las llamadas a las funciones de punto de entrada ocurren antes de que los servicios se hayan quitado físicamente del perfil. 
   
 

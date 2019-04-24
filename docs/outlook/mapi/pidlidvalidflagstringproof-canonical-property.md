@@ -13,33 +13,33 @@ api_type:
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dfe3b57c246e247eda365bed46af2e0f35f0e54b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315389"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>Propiedad canónica PidLidValidFlagStringProof
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida si el valor de la propiedad **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) se estableció por un agente que conoce el valor de la propiedad **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
+Valida si el valor de la propiedad **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) lo estableció un agente que conociera el valor de la propiedad **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidValidFlagStringProof  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x000085BF  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x000085BF  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En los objetos que no se puedan enviar (correo recibido y objetos que no sean de correo), los clientes deben establecer este valor en el valor de **PR_MESSAGE_DELIVERY_TIME** al modificar **dispidRequest**.
+En los objetos que no se pueden enviar (correo recibido y objetos que no son de correo), los clientes deben establecer este valor en el valor de **PR_MESSAGE_DELIVERY_TIME** al modificar **dispidRequest**.
   
-Dado que no se puede predecir el valor de **PR_MESSAGE_DELIVERY_TIME** por el remitente, si el valor de esta propiedad es igual al valor de **PR_MESSAGE_DELIVERY_TIME**, es razonablemente seguro de que el valor de **dispidRequest** no lo hizo se originan desde el remitente del mensaje. Un cliente puede decidir cómo presentar el valor de **dispidRequest** para el usuario final en función del resultado de esta comparación con arreglo a la directiva de seguridad específicos del cliente. Si se omite el valor de **dispidRequest** debido a la presencia de un valor para **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), debe ignorarse esta propiedad.
+Dado que el remitente no puede predecir el valor de **PR_MESSAGE_DELIVERY_TIME** , si el valor de esta propiedad es igual al valor de **PR_MESSAGE_DELIVERY_TIME**, es razonablemente seguro que el valor de **dispidRequest** no se origina desde el remitente del mensaje. Un cliente puede decidir cómo presentar el valor de **dispidRequest** al usuario final según el resultado de esta comparación de acuerdo con la Directiva de seguridad específica del cliente. Si el valor de **dispidRequest** se omite debido a la presencia de un valor para **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), se debe omitir esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -47,15 +47,15 @@ Dado que no se puede predecir el valor de **PR_MESSAGE_DELIVERY_TIME** por el re
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones relacionadas con marcas.
+> Especifica las propiedades y operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -68,9 +68,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

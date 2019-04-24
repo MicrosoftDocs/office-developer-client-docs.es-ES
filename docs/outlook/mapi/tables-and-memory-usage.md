@@ -1,5 +1,5 @@
 ---
-title: Las tablas y el uso de memoria
+title: Uso de memoria y tablas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afd69f5a3fff69f670d6be78ba4957307cdb6995
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320408"
 ---
-# <a name="tables-and-memory-usage"></a>Las tablas y el uso de memoria
+# <a name="tables-and-memory-usage"></a>Uso de memoria y tablas
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un problema importante conectado con la recuperación de datos de una tabla es el uso de memoria. Falta de memoria disponible puede provocar [IMAPITable:: QueryRows](imapitable-queryrows.md) y [HrQueryAllRows](hrqueryallrows.md) se lleve a cabo, devolución de menor que el número de filas que desee. Decidir qué método o función que se usará para recuperar los datos de la tabla depende de si la tabla puede esperarse que caben en la memoria y, si no se puede, si el error es aceptable. 
+Un problema importante conectado a la recuperación de datos de una tabla es el uso de la memoria. La falta de memoria disponible puede provocar un error de [IMAPITable:: QueryRows](imapitable-queryrows.md) y [HrQueryAllRows](hrqueryallrows.md) , lo que devuelve un número inferior al número de filas deseado. La decisión del método o la función que se va a usar para recuperar los datos de la tabla depende de si se puede esperar que la tabla quepa en la memoria y, si no es posible, si el error es aceptable. 
   
-Dado que no siempre es fácil determinar la cantidad de datos que quepan en la memoria a la vez, MAPI proporciona algunas directrices básicas para una aplicación cliente o el proveedor de servicios que se deben seguir. Recuerde que siempre hay excepciones, en función de la implementación de una tabla determinada y cómo se almacenan los datos subyacentes.
+Como no siempre es fácil determinar la cantidad de datos que se ajustarán a la memoria al mismo tiempo, MAPI proporciona instrucciones básicas para que el proveedor de servicios o aplicaciones cliente sigan. Recuerde que siempre hay excepciones, basadas en la implementación de la tabla concreta y en la forma en que se almacenan los datos subyacentes.
   
-Las siguientes instrucciones se pueden usar para evaluar el uso de memoria de tabla:
+Las siguientes instrucciones pueden usarse para evaluar el uso de memoria de la tabla:
   
-- Los clientes que pueden tolerar la ocasionales el uso de memoria conjunto de trabajo en el intervalo de megabyte y pueden asumir no tendrán ningún problema leer toda la tabla en la memoria. 
+- Clientes que pueden tolerar el uso de memoria del espacio de trabajo ocasional en el intervalo de megabytes y suponer que no tendrán problemas para leer una tabla completa en la memoria. 
     
-- Restricciones tienen un efecto sobre el uso de una tabla de memoria. Una tabla rigurosamente restringida con un amplio número de filas, como una tabla de contenido, puede esperarse que caben en la memoria, mientras que normalmente no una tabla de gran tamaño sin restricciones. 
+- Las restricciones afectan al uso de memoria de una tabla. Una tabla rigurosamente restringida con un amplio número de filas, como una tabla de contenido, puede esperarse que quepa en la memoria, mientras que una tabla grande sin restricciones no suele. 
     
-- Varias de las tablas que pertenecen a MAPI, como el estado, perfiles, servicio de mensajes, proveedor y tablas de almacén de mensajes, normalmente quepan en la memoria. Estos son tablas pequeñas en general. Sin embargo, hay excepciones. Por ejemplo, un proveedor de perfil basado en servidor podría generar una tabla de perfil de mayor tamaño que no pueda ajustar.
+- Normalmente, varias de las tablas que son propiedad de MAPI, como el estado, el perfil, el servicio de mensajes, el proveedor y las tablas de almacén de mensajes, se ajustan a la memoria. Por lo general, son tablas pequeñas. Sin embargo, hay excepciones. Por ejemplo, un proveedor de perfiles basado en servidor puede generar una tabla de perfiles más grande que no se podrá ajustar.
     
-Para recuperar todas las filas de una tabla que quepan en la memoria sin problemas, llame a [HrQueryAllRows](hrqueryallrows.md), si se establece el número máximo de filas en cero.
+Para recuperar todas las filas de una tabla que se ajusten a la memoria sin problemas, llame a [HrQueryAllRows](hrqueryallrows.md), estableciendo el número máximo de filas en cero.
   
-Para recuperar todas las filas de una tabla que podría o no es posible que caben en la memoria, genere un error, llame a **HrQueryAllRows** especificando un número máximo de filas. El número máximo de filas debe establecerse en un número mayor que el número mínimo de filas que se necesitan. Si un cliente debe tener acceso al menos 50 filas de una tabla de 300 filas, el número máximo de filas debe establecerse en al menos 51. 
+Para recuperar todas las filas de una tabla que puedan caber o no en la memoria, se genera un error y se llama a **HrQueryAllRows** especificando un número máximo de filas. El número máximo de filas debe establecerse en un número mayor que el número mínimo de filas necesarias. Si un cliente debe acceder a al menos 50 filas de una tabla de la fila 300, el número máximo de filas debe establecerse como mínimo en 51. 
   
-Para recuperar todas las filas de una tabla que no se espera que caben en la memoria, llamada [IMAPITable:: QueryRows](imapitable-queryrows.md) en un bucle con un recuento de filas relativamente pequeño, como se muestra en el ejemplo de código siguiente: 
+Para recuperar todas las filas de una tabla que no se espera que quepan en la memoria, llame al método [IMAPITable:: QueryRows](imapitable-queryrows.md) en un bucle con un recuento de filas relativamente pequeño, como se ilustra en el siguiente ejemplo de código: 
   
 ```cpp
 HRESULT     hr;
@@ -59,9 +59,9 @@ if (hr)
  
 ```
 
-Cuando se complete este bucle y se hayan procesado todas las filas de la tabla y _cRows_ es cero, normalmente será la posición del cursor en la parte inferior de la tabla. 
+Cuando se complete este bucle y se hayan procesado todas las filas de la tabla, __ y Crows sea cero, la posición del cursor estará normalmente en la parte inferior de la tabla. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

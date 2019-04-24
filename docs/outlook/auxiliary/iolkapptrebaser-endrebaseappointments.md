@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e47d5a8d-6a13-f430-fbfd-00df04b4a006
 description: Espera a que cita el reajuste para completar y recupera los resultados.
-ms.openlocfilehash: fd27021ce05b1d5b95fd258e0ee89b5bd4f2c7db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6e62cff9efea1fc7079d04bc9b032b5637f8847
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321892"
 ---
 # <a name="iolkapptrebaserendrebaseappointments"></a>IOlkApptRebaser::EndRebaseAppointments
 
@@ -28,7 +28,7 @@ HRESULT EndRebaseAppointments(
     HRESULT *phResult);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parameters
 
 _pContext_
   

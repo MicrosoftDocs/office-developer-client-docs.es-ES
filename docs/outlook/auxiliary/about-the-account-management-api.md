@@ -6,33 +6,33 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: 'La API de administración de la cuenta proporciona acceso a información de la cuenta y es compatible con las notificaciones de cambios de cuenta. Como los clientes de esta API, los proveedores de correo, haga lo siguiente:'
-ms.openlocfilehash: 678143def25395c47f1c17cc99dcdcd1fb145e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'La API de administración de cuentas proporciona acceso a la información de cuentas y admite notificaciones de cambios en las cuentas. Como clientes de esta API, los proveedores de correo hacen lo siguiente:'
+ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316943"
 ---
 # <a name="about-the-account-management-api"></a>Información sobre la API de administración de cuentas
 
-La API de administración de la cuenta proporciona acceso a información de la cuenta y es compatible con las notificaciones de cambios de cuenta. Como los clientes de esta API, los proveedores de correo, haga lo siguiente:
+La API de administración de cuentas proporciona acceso a la información de cuentas y admite notificaciones de cambios en las cuentas. Como clientes de esta API, los proveedores de correo hacen lo siguiente:
   
-1. Use [IOlkAccountManager](iolkaccountmanager.md) para administrar el acceso a las cuentas y configurar las notificaciones sobre cambios de cuenta. 
+1. Use [IOlkAccountManager](iolkaccountmanager.md) para administrar el acceso a las cuentas y configurar las notificaciones sobre cambios en las cuentas. 
     
-2. Implementar y utilizar [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificaciones sobre cambios de cuenta. 
+2. Implemente y use [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificaciones sobre los cambios en las cuentas. 
     
 3. Use [IOlkEnum](iolkenum.md) para enumerar las cuentas. 
     
-4. Use [IOlkAccount](iolkaccount.md) para obtener y establecer propiedades y otra información acerca de una cuenta. Los clientes obtienen esta interfaz a través de [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) o [IOlkEnum::GetNext](iolkenum-getnext.md) para tener acceso a una cuenta individual. 
+4. Use [IOlkAccount](iolkaccount.md) para obtener y establecer propiedades y otra información sobre una cuenta. Los clientes obtienen esta interfaz a través de [IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md) o [IOlkEnum:: Getnext](iolkenum-getnext.md) para obtener acceso a una cuenta individual. 
     
-5. Implementar y utilizar [IOlkAccountHelper](iolkaccounthelper.md) para proporcionar la funcionalidad de auxiliares de cuenta Administrador, incluida la obtención de nombre de perfil de la cuenta y la sesión MAPI actual. 
+5. Implemente y use [IOlkAccountHelper](iolkaccounthelper.md) para proporcionar la funcionalidad auxiliar de administrador de cuentas, incluida la obtención de un nombre de Perfil de cuenta y la sesión MAPI actual. 
     
-6. Implementar y utilizar [IOlkErrorUnknown](iolkerrorunknown.md) para proporcionar información adicional sobre un error en **IOlkAccountManager**, **IOlkAccountNotify**y **IOlkAccount**. 
+6. Implemente y use [IOlkErrorUnknown](iolkerrorunknown.md) para proporcionar información adicional sobre un error de **IOlkAccountManager**, **IOlkAccountNotify**y **IOlkAccount**. 
 
-##  <a name="account-management-api-components"></a>Componentes de la API de administración de cuenta
+##  <a name="account-management-api-components"></a>Componentes de la API de administración de cuentas
 
-La API de administración de la cuenta proporciona las siguientes definiciones, tipos de datos, interfaces, denominadas propiedades y propiedades de.
+La API de administración de cuentas proporciona las siguientes definiciones, tipos de datos, interfaces, propiedades con nombre y propiedades.
   
 ### <a name="definitions"></a>Definiciones
   

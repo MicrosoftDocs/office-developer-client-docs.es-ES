@@ -1,5 +1,5 @@
 ---
-title: Pruebas y depuración
+title: Pruebas y dePuración
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,27 +9,27 @@ api_type:
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8e1f15ae354894aede4e8418e6428d0524ccb70d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316488"
 ---
-# <a name="testing-and-debugging"></a>Pruebas y depuración
+# <a name="testing-and-debugging"></a>Pruebas y dePuración
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las estrategias de pruebas varían dependiendo de si está desarrollando un proveedor de cliente o servicio. Debido a que una aplicación cliente requiere uno o más proveedores de servicio para que funcione, los clientes deben probarse en un entorno con distintos conjuntos de proveedores de servicios.
+Las estrategias de pruebas varían en función de si está desarrollando un cliente o proveedor de servicios. Debido a que una aplicación cliente requiere que uno o más proveedores de servicios funcionen, los clientes deben probarse en un entorno con diferentes conjuntos de proveedores de servicios.
   
-Proveedores de servicios, sin embargo, se deben probar de forma aislada antes de que se está integrado con otros proveedores. MAPI proporciona herramientas que están diseñadas para probar las características de un proveedor de servicio de un tipo determinado. La aplicación de ejemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de la libreta de direcciones y funciona con un mensaje de proveedor de almacén. 
+Sin embargo, los proveedores de servicios deben probarse de forma aislada antes de integrarse con otros proveedores. MAPI proporciona herramientas que tienen como objetivo probar las características de un proveedor de servicios de un tipo determinado. La aplicación de ejemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de la libreta de direcciones y funciona con un proveedor de almacenamiento de mensajes. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
+[Información general sobre programación de MAPI](mapi-programming-overview.md)
   
 [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

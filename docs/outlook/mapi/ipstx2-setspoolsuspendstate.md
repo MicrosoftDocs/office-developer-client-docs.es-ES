@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b6a36c1e0c3854342b627b6fddd6eb5459211f62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e988114e8e71ad1f80d20ab0d5a30c37425f5952
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315060"
 ---
 # <a name="ipstx2setspoolsuspendstate"></a>IPSTX2::SetSpoolSuspendState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590431"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el estado de suspensión de la cola de impresión.
+Establece el estado de suspensión en la cola de impresión.
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,11 +33,11 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulState_
   
-> [entrada] Para establecer la cola de impresión en el estado. Debe ser uno de los siguientes valores:
+> a El estado en el que se establece la cola de impresión. Debe ser uno de los siguientes valores:
     
  **SS_ACTIVE**
   
@@ -47,7 +47,7 @@ void SetSpoolSuspendState(
   
 > 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

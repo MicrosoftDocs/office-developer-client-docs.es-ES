@@ -6,61 +6,61 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 17c5e44e-ae56-8de7-3579-90171d996411
-description: La API de la información de disponibilidad permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado.
-ms.openlocfilehash: 8b1559173297fbde9930b6f8f7fbc74f176273da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: La API de disponibilidad permite que los proveedores de correo proporcionen información de estado de disponibilidad para las cuentas de usuario especificadas dentro de un intervalo de tiempo especificado.
+ms.openlocfilehash: 1bcd191b57238771ede6f035216fe3997e82e03a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317013"
 ---
 # <a name="about-the-freebusy-api"></a>Información sobre la API de disponibilidad
 
-La API de la información de disponibilidad permite a los proveedores de correo proporcionar información de estado de disponibilidad para las cuentas de usuario especificado dentro de un intervalo de tiempo especificado. El estado de disponibilidad de un bloque de tiempo en el calendario de un usuario es uno de los siguientes: fuera de la oficina, ocupado, provisional o libre.
+La API de disponibilidad permite que los proveedores de correo proporcionen información de estado de disponibilidad para las cuentas de usuario especificadas dentro de un intervalo de tiempo especificado. El estado de disponibilidad de un bloque de tiempo en el calendario de un usuario es uno de los siguientes: fuera de la oficina, ocupado, provisional o libre.
   
-## <a name="create-a-freebusy-provider"></a>Crear un proveedor de libre/ocupado
+## <a name="create-a-freebusy-provider"></a>Crear un proveedor de disponibilidad
 
-Para proporcionar información de disponibilidad a los usuarios de correo, un proveedor de correo crea un proveedor de libre/ocupado y registra con Outlook. El proveedor de disponibilidad debe implementar las interfaces siguientes. Tenga en cuenta que un número de miembros en estas interfaces no es compatibles y debe devolver que valores devueltos especificado. En particular, la API de la información de disponibilidad no es compatible con acceso de escritura para la información de disponibilidad y acceso a las cuentas de delegado.
+Para proporcionar información de disponibilidad a los usuarios de correo, un proveedor de correo crea un proveedor de disponibilidad y lo registra en Outlook. El proveedor de disponibilidad debe implementar las siguientes interfaces. Tenga en cuenta que no se admiten varios miembros en estas interfaces y deben devolver los valores devueltos especificados. En concreto, la API de disponibilidad no admite el acceso de escritura a la información de disponibilidad y el acceso delegado a las cuentas.
   
-- [IFreeBusySupport](ifreebusysupport.md) : esta interfaz admite la especificación de las interfaces que tienen acceso a datos de disponibilidad para los usuarios especificados. Se utiliza [FBUser](fbuser.md) para identificar a un usuario. 
+- [IFreeBusySupport](ifreebusysupport.md) : esta interfaz admite la especificación de interfaces que tienen acceso a los datos de disponibilidad de los usuarios especificados. Usa [FBUser](fbuser.md) para identificar a un usuario. 
     
-- [IFreeBusyData](ifreebusydata.md) : esta interfaz obtiene y establece un intervalo de tiempo para un usuario determinado y devuelve una interfaz para enumerar los bloques de libre/ocupado de datos dentro de este intervalo de tiempo. Tiempo relativo usa para obtener y establecer este intervalo de tiempo. Para obtener más información, vea [usar la hora relativa para tener acceso a datos de disponibilidad](how-to-use-relative-time-to-access-free-busy-data.md).
+- [IFreeBusyData](ifreebusydata.md) : esta interfaz obtiene y establece un intervalo de tiempo para un usuario determinado y devuelve una interfaz para enumerar los bloques de disponibilidad de datos dentro de este intervalo de tiempo. Usa el tiempo relativo para obtener y establecer este intervalo de tiempo. Para obtener más información, vea [usar tiempo relativo para obtener acceso a los datos de disponibilidad](how-to-use-relative-time-to-access-free-busy-data.md).
     
-- [IEnumFBBlock](ienumfbblock.md) : esta interfaz admite el acceso y enumerar los bloques de disponibilidad de datos para un usuario dentro de un intervalo de tiempo. 
+- [IEnumFBBlock](ienumfbblock.md) : esta interfaz admite el acceso y la enumeración de bloques de disponibilidad de datos para un usuario dentro de un intervalo de tiempo. 
     
    > [!NOTE]
-   > Una enumeración contiene bloques de libre/ocupado que indican el estado de disponibilidad de los períodos de tiempo en el calendario de un usuario, dentro de un intervalo de tiempo (especificado por [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)). Bloques de formulario de elementos en un calendario, como las citas y las convocatorias de reunión, en la enumeración. Se combinan los elementos que están adyacentes en el calendario y tienen el mismo estado libre/ocupado para formulario un bloque único. Un período de tiempo en un calendario libre también de formularios de un bloque. Por lo tanto, no hay dos bloques consecutivos en una enumeración tendría el mismo estado libre/ocupado. Estos bloques no se superponen en el tiempo. Cuando hay elementos superpuestos en un calendario, Outlook combina estos elementos para formar bloques de libre/ocupada no se superponen en la enumeración basándose en este orden de prioridad: fuera de la oficina, ocupado, provisional. 
+   > Una enumeración contiene bloques de disponibilidad que indican el estado de disponibilidad de períodos de tiempo en el calendario de un usuario, dentro de un intervalo de tiempo (especificado por [IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)). Elementos de un calendario, como citas y convocatorias de reunión, bloques de formulario en la enumeración. Los elementos que están adyacentes entre sí en el calendario y tienen el mismo estado de disponibilidad se combinan para formar un único bloque. Un período de tiempo gratuito en un calendario también forma un bloque. Por lo tanto, dos bloques consecutivos en una enumeración no tendrían el mismo estado de disponibilidad. Estos bloques no se superponen en el tiempo. Cuando hay elementos superpuestos en un calendario, Outlook combina estos elementos para formar bloques de disponibilidad no superpuestos en la enumeración según este orden de prioridad: fuera de la oficina, no disponible, provisional. 
   
-Para registrar el proveedor de libre/ocupado con Outlook, el proveedor de correo debe hacer lo siguiente:
+Para registrar el proveedor de disponibilidad con Outlook, el proveedor de correo debe hacer lo siguiente:
   
-1. Registrar el proveedor de libre/ocupado con COM, proporcionar un CLSID que permite el acceso a la implementación del proveedor de **IFreeBusySupport**. 
+1. Registre el proveedor de disponibilidad con COM y proporcione un CLSID que permita el acceso a la implementación del proveedor de **IFreeBusySupport**. 
     
-2. Decirles a Outlook que existe el proveedor de la disponibilidad mediante la configuración de la clave siguiente (donde `<xx.x>` representa la versión de Outlook) en el registro del sistema: 
+2. Deje que Outlook sepa que el proveedor de disponibilidad existe estableciendo la siguiente clave (donde `<xx.x>` representa la versión de Outlook) en el registro del sistema: 
     
    `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\<xx.x>\Outlook\SchedulingInformation\FreeBusySupport`
     
-   Por ejemplo, si el proveedor de transporte es SMTP, para registrar el proveedor con Microsoft Outlook 2010, establezca la siguiente clave a los datos en la tabla siguiente: 
+   Por ejemplo, si el proveedor de transporte es SMTP, para registrar el proveedor con Microsoft Outlook 2010, establezca la siguiente clave en los datos de la tabla siguiente: 
     
    `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\Outlook\SchedulingInformation\FreeBusySupport`
     
    |Nombre |Tipo |Valor |
    |:-----|:-----|:-----|
-   |SMTP  |REG_SZ  |{CLSID para implementación respectivo de IFreeBusySupport}  |
+   |SMTP  |REG_SZ  |{CLSID para la implementación respectiva de IFreeBusySupport}  |
    
-   En este escenario, Outlook co-autoría crea la clase COM y lo usa para recuperar información de disponibilidad de los usuarios de correo SMTP.
+   En este escenario, Outlook cocrea la clase COM y la usa para recuperar la información de disponibilidad de los usuarios de correo SMTP.
     
-Para admitir un proveedor de libreta de direcciones y transporte de dirección que use un tipo de entrada de dirección que no sean SMTP, cambiar el *nombre* en consecuencia. 
+Para admitir una libreta de direcciones y un proveedor de transporte que usen un tipo de entrada de dirección que no sea SMTP, cambie el *nombre* en consecuencia. 
   
 > [!NOTE]
-> Durante la instalación, deben comprobar proveedores de libre/ocupado si una configuración del registro para el mismo tipo de entrada de dirección ya existe. Si lo hace, el proveedor de libre/ocupado debe sobrescribir el proveedor actual para ese tipo de entrada de dirección y restaurar a ese proveedor cuando desinstala. Sin embargo, si un usuario ha instalado más de un proveedor de libre/ocupado para el mismo tipo de entrada de dirección, el usuario debe desinstalar estos proveedores en el orden inverso como instalación (es decir, desinstale el proveedor más reciente siempre). De lo contrario, el registro puede apuntar a un proveedor que ya se ha desinstalado. 
+> Durante la instalación, los proveedores de disponibilidad deben comprobar si ya existe una configuración del registro para el mismo tipo de entrada de dirección. Si es así, el proveedor de disponibilidad debe sobrescribir el proveedor actual para ese tipo de entrada de dirección y restaurar a ese proveedor al desinstalar. Sin embargo, si un usuario ha instalado más de un proveedor de disponibilidad para el mismo tipo de entrada de dirección, el usuario debe desinstalar estos proveedores en orden inverso como la instalación (es decir, desinstalar siempre el último proveedor). De lo contrario, el registro puede apuntar a un proveedor que ya se ha desinstalado. 
   
 ## <a name="api-components"></a>Componentes de la API
 
-La API de libre/ocupado incluye los siguientes componentes:
+La API de disponibilidad incluye los siguientes componentes:
   
 ### <a name="definitions"></a>Definiciones
 
-- [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API de disponibilidad)](constants-free-busy-api.md)
     
 ### <a name="data-types"></a>Tipos de datos
 

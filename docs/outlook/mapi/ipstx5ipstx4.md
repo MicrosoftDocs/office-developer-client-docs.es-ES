@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 43052e57-4712-410a-eb07-2a7c5bc124bd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5f80b67caa803c5e89de6cd74baaebd3a9f2b2a5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 387a7bdf2939f9ec618b0e86eeb00f3fddc9caa2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309691"
 ---
 # <a name="ipstx5--ipstx4"></a>IPSTX5 : IPSTX4
 
@@ -36,9 +36,9 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 
 |||
 |:-----|:-----|
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

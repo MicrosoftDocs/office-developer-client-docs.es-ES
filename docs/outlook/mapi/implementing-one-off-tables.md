@@ -1,5 +1,5 @@
 ---
-title: Implementación tablas puntuales
+title: Implementación de tablas de un solo uso
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,33 +8,33 @@ api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b86ec02c0255d892c42a9be9610d31b76041822c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c29feae84d81874988997409fd229b042a701640
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310132"
 ---
-# <a name="implementing-one-off-tables"></a>Implementación tablas puntuales
+# <a name="implementing-one-off-tables"></a>Implementación de tablas de un solo uso
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El proveedor podría implementar una o varias tablas de uso único. Una tabla de uso único es una lista de resumen de uso único plantillas que se usan para crear a destinatarios, ya sea directamente en un contenedor o en la lista de destinatarios de un mensaje saliente. Una plantilla de uso único es un emplean de los usuarios del formulario para escribir datos relevantes para un determinado tipo de dirección. Cuando el usuario es terminado de trabajar con la plantilla, su proveedor crea el destinatario nuevo y lo agrega al mensaje. Normalmente, cada plantilla controla un tipo de una sola dirección. Sin embargo, es posible para una plantilla controlar varios tipos o para varias plantillas controlar el mismo tipo. 
+Es posible que el proveedor implemente una o más tablas de un solo uso. Una tabla de uso único es una lista resumida de las plantillas de uso único utilizadas para crear destinatarios, ya sea directamente en un contenedor o en la lista de destinatarios de un mensaje saliente. Una plantilla única es un formulario que los usuarios emplean para escribir los datos relevantes para un tipo determinado de dirección. Cuando el usuario termina de trabajar con la plantilla, el proveedor crea el nuevo destinatario y lo agrega al mensaje. Normalmente, cada plantilla administra un solo tipo de dirección. Sin embargo, es posible que una plantilla controle varios tipos o que varias plantillas controlen el mismo tipo. 
   
-El proveedor debe admitir el método **OpenEntry** para cada plantilla que incluye en la tabla de uso único. La implementación de **OpenEntry** debe recuperar una tabla para mostrar para la plantilla. MAPI utiliza la tabla de presentación para que la plantilla sea visible para el usuario. 
+El proveedor debe admitir el método **OpenEntry** para cada plantilla que incluya en la tabla de uso único. La implementación de **OpenEntry** debe recuperar una tabla de presentación para la plantilla. MAPI usa la tabla de presentación para hacer que la plantilla esté visible para el usuario. 
   
-Aunque la mayoría de las filas de tablas de uso único representa plantillas, algunas de las filas se pueden usar para clasificar o de grupo, las plantillas. Representa una fila en una tabla de uso único o no una plantilla se indica mediante el valor de la columna **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)). Las filas que representan las plantillas tienen la columna PR_SELECTABLE establecida en TRUE; las filas que no se representan las plantillas tienen establecido en FALSE.
+Aunque la mayoría de las filas de las tablas de uso único representan plantillas, se pueden usar algunas de las filas para categorizar o agrupar las plantillas. Si una fila de una tabla de uso único o no representa una plantilla se indica mediante el valor de su columna **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)). Las filas que representan plantillas tienen la columna PR_SELECTABLE establecida en TRUE; las filas que no representan plantillas tienen el valor FALSE.
   
-MAPI define tres tipos de tablas de uso único:
+MAPI define tres tipos de tablas de un solo uso:
   
-- Una tabla de uso único que refleja las plantillas que admite un contenedor individual
+- Una tabla única que refleje las plantillas que admite un contenedor individual
     
-- Una tabla de uso único que refleja todas las plantillas que admita el proveedor 
+- Una tabla de uso único que refleja todas las plantillas admitidas por el proveedor 
     
-- Una tabla de uso único que refleja todas las plantillas de todos los proveedores en el perfil de admitan plus algunas que es compatible con MAPI
+- Una tabla de uso único que refleja todas las plantillas que admiten todos los proveedores de la compatibilidad de perfiles, además de algunos que admite MAPI
     
-Los dos primeros tipos se implementan los proveedores que admiten a los destinatarios de creación, ya sea en un mensaje o en un contenedor. Su proveedor puede incluir el mismo conjunto o un conjunto diferente de plantillas en sus tablas de uso único. La diferencia principal entre los dos tipos es que la tabla de proveedor debe incluir plantillas para la creación de los destinatarios que se pueden usar en los mensajes salientes y su tabla de contenedor debe incluir plantillas para la creación de los destinatarios que se agregarán a su contenedor. Un contenedor sólo puede admitir un conjunto limitado de plantillas, pero la tabla de uso único proveedor debe incluir todas las plantillas del proveedor admite.
+Los proveedores que admiten los destinatarios de la creación implementan los dos primeros tipos, ya sea en un mensaje o en un contenedor. El proveedor puede incluir el mismo conjunto o un conjunto de plantillas diferente en las tablas de uso único. La diferencia principal entre los dos tipos radica en que la tabla de proveedor debe incluir plantillas para crear destinatarios que puedan usarse en mensajes salientes y la tabla de contenedores debe incluir plantillas para la creación de destinatarios que se van a agregar a su contenedor. Un contenedor solo puede admitir un conjunto restringido de plantillas, pero la tabla de un solo uso de proveedor debe incluir todas las plantillas admitidas por el proveedor.
   
-El tercer tipo de tabla de uso único se implementa mediante MAPI; proveedores de obtienen acceso a ella mediante una llamada a [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md). En la tabla de uso único de MAPI es la unión de todas las tablas de proveedor; incluye todas las plantillas que admite cada proveedor en el perfil. También incluye plantillas compatibles con MAPI. Puede utilizar esta tabla en lugar de la tabla que solicitó para un contenedor en el proveedor. Sin embargo, las plantillas de esta tabla también se pueden usar para la creación de destinatarios para los mensajes salientes.
+MAPI implementa el tercer tipo de una tabla de uso único; los proveedores obtienen acceso a él llamando a [IMAPISupport:: GetOneOffTable](imapisupport-getoneofftable.md). La tabla de uso único de MAPI es la Unión de todas las tablas de proveedor; incluye todas las plantillas admitidas por cada proveedor en el perfil. También incluye plantillas compatibles con MAPI. El proveedor puede usar esta tabla en vez de la tabla solicitada para un contenedor. Sin embargo, las plantillas de esta tabla también pueden usarse para crear destinatarios para mensajes salientes.
   
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: Obtiene el siguiente número especificado de bloques de datos de disponibilidad en una enumeración.
-ms.openlocfilehash: ec366cf102d3c75487f9485cfae7764d68695f10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319596"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
@@ -20,7 +20,7 @@ Obtiene el siguiente número especificado de bloques de datos de disponibilidad 
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IEnumFBBlock](ienumfbblock.md).
+Consulte [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Next(  
@@ -30,30 +30,30 @@ HRESULT Next(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_celt_
+_Celt_
   
-> [entrada] El número de datos de disponibilidad se bloquea en *pblk* para recuperar. 
+> a Número de bloques de datos de disponibilidad de *pblk* que se van a recuperar. 
     
-_PBLK_
+_pblk_
   
-> [entrada] Un puntero a una matriz de bloques de libre/ocupado. La matriz se asigna un tamaño de *celt* . Los bloques de libre/ocupado solicitados se devuelven en esta matriz. 
+> a Un puntero a una matriz de bloques de disponibilidad. La matriz tiene asignado un tamaño de *Celt* . Los bloques de disponibilidad solicitados se devuelven en esta matriz. 
     
 _pcfetch_
   
-> [out] El número de bloques de libre/ocupado devueltos realmente en *pblk* . 
+> contempla Número de bloques de disponibilidad devueltos realmente en *pblk* . 
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Ha devuelto el número solicitado de bloques.  <br/> |
-|S_FALSE  <br/> |El número de bloques de solicitado no ha devuelto.  <br/> |
+|S_OK  <br/> |Se ha devuelto el número de bloques solicitados.  <br/> |
+|S_FALSE  <br/> |No se ha devuelto el número de bloques solicitados.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
-- [Constantes (API de libre/ocupado)](constants-free-busy-api.md)  
+- [Constantes (API de disponibilidad)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  

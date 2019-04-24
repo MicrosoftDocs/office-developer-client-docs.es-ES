@@ -1,27 +1,27 @@
 ---
-title: Tipos de datos (API de libre/ocupado)
+title: Tipos de datos (API de disponibilidad)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 18b829c5-644d-4756-864b-b8da67e0d760
-description: En esta sección se describe los tipos de datos de la API de la información de disponibilidad.
-ms.openlocfilehash: d0508b5e93a548e736e6fe173d8bd28ee48a5b5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: En esta sección se describen los tipos de datos de la API de disponibilidad.
+ms.openlocfilehash: 8e44d33579b4883d4260c80f2b113dbfb4453e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317692"
 ---
-# <a name="data-types-freebusy-api"></a>Tipos de datos (API de libre/ocupado)
+# <a name="data-types-freebusy-api"></a>Tipos de datos (API de disponibilidad)
 
-En esta sección se describe los tipos de datos de la API de la información de disponibilidad.
+En esta sección se describen los tipos de datos de la API de disponibilidad.
   
 |**Tipo de datos**|**Descripción**|
 |:-----|:-----|
-|[FBBlock_1](fbblock_1.md) <br/> |Define un bloque libre/ocupado de datos.  <br/> |
-|[FBStatus](fbstatus.md) <br/> |Una enumeración para el estado libre/ocupado de bloques de libre/ocupado.  <br/> |
+|[FBBlock_1](fbblock_1.md) <br/> |Define un bloque de datos de disponibilidad.  <br/> |
+|[FBStatus](fbstatus.md) <br/> |Enumeración para el estado de disponibilidad de los bloques de disponibilidad.  <br/> |
 |[FBUser](fbuser.md) <br/> |Identifica a un usuario que puede o no tener datos de disponibilidad disponibles.  <br/> |
    
 

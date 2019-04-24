@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 52e9454f9743311a83ee78aa28e1e81dbb569c64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7495b2e24f31b4409c69a429d50b79c8e5f220eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318063"
 ---
 # <a name="cbflatmtsidlist"></a>CbFLATMTSIDLIST
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [FLATMTSIDLIST](flatmtsidlist.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**FLATMTSIDLIST** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lplist_
   
 > Puntero a la estructura **FLATMTSIDLIST** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

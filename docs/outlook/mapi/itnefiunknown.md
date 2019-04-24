@@ -1,5 +1,5 @@
 ---
-title: ITnef IUnknown
+title: IUnknown ITnef
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1803707b46b9b58e7372e7e58cc36241d0ebdb4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f815a914deb5e21f3d913abe46a84cc7a32b4ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315039"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 
@@ -25,14 +25,14 @@ ms.locfileid: "22571727"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona métodos para encapsular las propiedades de MAPI que no son compatibles con un sistema de mensajería en secuencias binario que se pueden adjuntar a los mensajes. El formato utilizado para esta encapsulación es el formato de encapsulación neutro para el transporte (TNEF). El proveedor de transporte de destino o la aplicación de cliente basado en MAPI puede, a continuación, al recibir un mensaje que incluye datos adjuntos TNEF, recuperar las propiedades de los datos adjuntos.
+Proporciona métodos para encapsular propiedades MAPI que no son compatibles con un sistema de mensajería en secuencias binarias que se pueden adjuntar a los mensajes. El formato usado para esta encapsulación es el formato de encapsulación neutro para el transporte (TNEF). A continuación, el proveedor de transporte de destino o la aplicación cliente basada en MAPI puede, al recibir un mensaje que incluya un archivo adjunto TNEF, recuperar las propiedades de los datos adjuntos.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |TNEF.h  <br/> |
-|Expuestos por:  <br/> |Objetos TNEF  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace  <br/> |
+|Archivo de encabezado:  <br/> |TNEF. h  <br/> |
+|Expuesto por:  <br/> |Objetos TNEF  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Proveedores de transporte, proveedores de almacenamiento de mensajes y puertas de enlace  <br/> |
 |Identificador de interfaz:  <br/> |IID_ITNEF  <br/> |
 |Tipo de puntero:  <br/> |LPTNEF  <br/> |
    
@@ -40,15 +40,15 @@ Proporciona métodos para encapsular las propiedades de MAPI que no son compatib
 
 |||
 |:-----|:-----|
-|[AddProps](itnef-addprops.md) <br/> |Permite que el proveedor de servicios de llamada o la puerta de enlace Agregar propiedades a la encapsulación de un mensaje o datos adjuntos.  <br/> |
+|[AddProps](itnef-addprops.md) <br/> |Permite al proveedor de servicios de llamada o a la puerta de enlace agregar propiedades a la encapsulación de un mensaje o datos adjuntos.  <br/> |
 |[ExtractProps](itnef-extractprops.md) <br/> |Extrae las propiedades de una encapsulación TNEF.  <br/> |
-|[Finish](itnef-finish.md) <br/> |Termina de procesamiento para todas las operaciones de TNEF que se ponen en cola y a la espera.  <br/> |
-|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Se abre una interfaz de secuencia en el texto de un mensaje de encapsulado.  <br/> |
-|[SetProps](itnef-setprops.md) <br/> |Establece el valor de una o más propiedades para un mensaje encapsulado o adjunto sin modificar el mensaje original o datos adjuntos.  <br/> |
-|[EncodeRecips](itnef-encoderecips.md) <br/> |Codifica una vista de tabla de destinatarios de un mensaje en la secuencia de datos TNEF para el mensaje.  <br/> |
-|[FinishComponent](itnef-finishcomponent.md) <br/> |Procesa los componentes individuales de un mensaje de uno a la vez en una secuencia TNEF.  <br/> |
+|[Finish](itnef-finish.md) <br/> |Finaliza el procesamiento para todas las operaciones TNEF que están en cola y en espera.  <br/> |
+|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Abre una interfaz de secuencia en el texto de un mensaje encapsulado.  <br/> |
+|[SetProps](itnef-setprops.md) <br/> |Establece el valor de una o varias propiedades para un mensaje o datos adjuntos encapsulados sin modificar el mensaje o los datos adjuntos originales.  <br/> |
+|[EncodeRecips](itnef-encoderecips.md) <br/> |Codifica una vista para la tabla de destinatarios de un mensaje en la secuencia de datos TNEF del mensaje.  <br/> |
+|[FinishComponent](itnef-finishcomponent.md) <br/> |Procesa cada uno de los componentes de un mensaje de cada vez en una secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

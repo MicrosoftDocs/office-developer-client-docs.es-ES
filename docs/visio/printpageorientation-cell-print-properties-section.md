@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Determina si la página se imprime con orientación vertical u horizontal.
-ms.openlocfilehash: 2adc7dadcb3702e6c5307bb569b2ae1df7aee54e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315186"
 ---
-# <a name="printpageorientation-cell-print-properties-section"></a>Celda PrintPageOrientation (sección Propiedades de impresión)
+# <a name="printpageorientation-cell-print-properties-section"></a>Celda PrintPageOrientation (Sección de propiedades de impresión)
 
 Determina si la página se imprime con orientación vertical u horizontal.
   
-|**Valor**|**Orientation**|**Constante de automatización**|
+|**Value**|**Orientación**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Igual que la impresora  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1  <br/> | Vertical  <br/> |**visPPOPortrait** <br/> |
-|2  <br/> |Horizontal  <br/> |**visPPOLandscape** <br/> |
+| comprendi  <br/> | Igual que la impresora  <br/> |**visPPOSameAsPrinter** <br/> |
+| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|segundo  <br/> |Mundo  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se insertan nuevas páginas en un documento, el valor predeterminado es la configuración en la página activa.
+Cuando se insertan nuevas páginas en un documento, esta configuración se establece de forma predeterminada en la configuración de la página activa.
   
 Para obtener una referencia a la celda PrintPageOrientation por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6781209cd1bf87f4becf1893b7cba5618549fbce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: 95a2b7b9bac11404817fb6848d58c45251c141f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309677"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>Bandejas de entrada y salida en los almacenes de mensajes
 

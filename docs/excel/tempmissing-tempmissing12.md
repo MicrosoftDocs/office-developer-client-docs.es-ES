@@ -8,39 +8,39 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- tempmissing (función) [excel 2007], TempMissing12 (función) [Excel 2007]
+- función tempmissing [Excel 2007], TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a6db2e1f2917ecd9361043577f4bf203b3267a5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37c127b2252f18643b34dfc72fd9929885a68d01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310496"
 ---
 # <a name="tempmissingtempmissing12"></a>TempMissing/TempMissing12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** de tipo **xltypeMissing**.
+Función de biblioteca de Framework que crea un**XLOPER12** de **XLOPER**/ temporal de tipo **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no toma ningún parámetro.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un puntero a un **xltypeMissing** **XLOPER**/ **XLOPER12**.
+Devuelve un puntero a un **** ****/ **XLOPER12**XLOPER de xltypeMissing.
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utiliza **TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguido de un **valor Boolean** **FALSE** para suprimir la presentación de las barras de desplazamiento de hoja de cálculo. Los tres primeros argumentos corresponden a otras opciones de área de trabajo que no se ven afectados. 
+En este ejemplo se usa **TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de un **valor booleano** de **false** para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo. Los tres primeros argumentos corresponden a otras opciones de configuración del área de trabajo que no se ven afectadas. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

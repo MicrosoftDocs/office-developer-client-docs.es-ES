@@ -1,5 +1,5 @@
 ---
-title: Asignar nombres de propiedad canónicos a nombres MAPI
+title: Asignar nombres de propiedad canónica a nombres MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,25 +9,25 @@ api_type:
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 36d75c0a3a5f4767bfb0eeb0f9ae3d0c249b084b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316551"
 ---
-# <a name="mapping-canonical-property-names-to-mapi-names"></a>Asignar nombres de propiedad canónicos a nombres MAPI
+# <a name="mapping-canonical-property-names-to-mapi-names"></a>Asignar nombres de propiedad canónica a nombres MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se asigna cada nombre canónico (propiedad) a la propiedad MAPI o las propiedades que lo representa. El tema contiene tres tablas: una tabla de propiedades con nombre con identificadores numéricos, de la tabla de propiedades con nombre con identificadores de cadena de un segundo y una tercera tabla para propiedades con etiqueta.
+En este tema se asigna cada nombre de propiedad canónica a la propiedad MAPI o a las propiedades que representa. El tema contiene tres tablas: una tabla para propiedades con nombre con identificadores numéricos, una segunda tabla para propiedades con nombre con identificadores de cadena y una tercera tabla para propiedades etiquetadas.
   
-Para obtener más información acerca de las propiedades canónicas cómo se relacionan con las propiedades MAPI, vea [Las propiedades canónico de MAPI](mapi-canonical-properties.md).
+Para obtener más información sobre cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [propiedades canónicas de MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propiedades con nombre con identificadores numéricos
 
-|**Nombre canónico (propiedad)**|**Propiedad con nombre real**|
+|**Nombre de propiedad canónica**|**Propiedad con nombre real**|
 |:-----|:-----|
 |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |dispidABPArrayType  <br/> |
 |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |dispidABPEmailList  <br/> |
@@ -304,31 +304,31 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidLidYomiFirstName](pidlidyomifirstname-canonical-property.md) <br/> |dispidYomiFirstName  <br/> |
 |[PidLidYomiLastName](pidlidyomilastname-canonical-property.md) <br/> |dispidYomiLastName  <br/> |
    
-## <a name="named-properties-with-string-identifiers"></a>Propiedades con identificadores de cadena con nombre
+## <a name="named-properties-with-string-identifiers"></a>Propiedades con nombre con identificadores de cadena
 
-|**Nombre canónico (propiedad)**|**Propiedad con nombre real**|
+|**Nombre de propiedad canónica**|**Propiedad con nombre real**|
 |:-----|:-----|
-|[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |Idioma acepte  <br/> |
-|[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |Nombre de aplicación  <br/> |
+|[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |Accept-Language  <br/> |
+|[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |AppName  <br/> |
 |[PidNameAttachmentMacContentType](pidnameattachmentmaccontenttype-canonical-property.md) <br/> |AttachmentMacContentType  <br/> |
 |[PidNameAttachmentMacInfo](pidnameattachmentmacinfo-canonical-property.md) <br/> |AttachmentMacInfo  <br/> |
 |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |UMAudioNotes  <br/> |
 |[PidNameAuthor](pidnameauthor-canonical-property.md) <br/> |Autor  <br/> |
 |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |ByteCount  <br/> |
-|[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Category  <br/> |
+|[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Categoría  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
 |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comentarios  <br/> |
-|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Compañía  <br/> |
+|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Empresa  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Base de contenido  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Content-Class  <br/> |
-|[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Codificación de transferencia de contenido  <br/> |
+|[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Codificación de la transferencia de contenido  <br/> |
 |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |Content-Type  <br/> |
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |CreateDtmRo  <br/> |
-|[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Ref  <br/> |
+|[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |XREF  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
-|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
+|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Palabras clave  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
 |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |LastPrinted  <br/> |
 |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |LastSaveDtm  <br/> |
@@ -343,26 +343,26 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |RevNumber  <br/> |
 |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |DRMLicense  <br/> |
 |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |Seguridad  <br/> |
-|[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |Númerodiapositivas  <br/> |
+|[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Template  <br/> |
 |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
-|[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Capacidades de uso compartido de X  <br/> |
-|[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-uso compartido de-Config-Url  <br/> |
-|[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |Tipo de uso compartido de X  <br/> |
-|[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |X-uso compartido-Local-Type  <br/> |
-|[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |X-uso compartido-proveedor-Guid  <br/> |
-|[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |X-uso compartido--nombre de proveedor  <br/> |
-|[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |X-uso compartido--dirección Url del proveedor  <br/> |
-|[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |X-uso compartido-remoto-Name  <br/> |
-|[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |X-uso compartido-remoto-almacén-Uid  <br/> |
-|[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |X-uso compartido-remoto-Type  <br/> |
-|[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |X-uso compartido-remoto-Uid  <br/> |
+|[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Uso compartido X-capacidades  <br/> |
+|[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-Sharing-config-URL  <br/> |
+|[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |X-Sharing-Flavor  <br/> |
+|[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |Tipo X-Sharing-local-tipo  <br/> |
+|[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |X-Sharing-Provider-GUID  <br/> |
+|[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |X-Sharing-Provider-Name  <br/> |
+|[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |X-Sharing-Provider-URL  <br/> |
+|[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |X-Sharing-reMote-Name  <br/> |
+|[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |Uso compartido X-reMote-Store-UID  <br/> |
+|[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |Uso compartido X-reMote-Type  <br/> |
+|[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |Uso compartido X-remoto-UID  <br/> |
    
-## <a name="tagged-properties"></a>Propiedades con etiqueta
+## <a name="tagged-properties"></a>Propiedades etiquetadas
 
-|**Nombre canónico (propiedad)**|**Propiedades con etiqueta real**|
+|**Nombre de propiedad canónica**|**Propiedades etiquetadas reales**|
 |:-----|:-----|
 |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |[PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md) <br/> |PR_AB_DEFAULT_DIR  <br/> |
@@ -385,7 +385,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagAlternateRecipient](pidtagalternaterecipient-canonical-property.md) <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
 |[PidTagAlternateRecipientAllowed](pidtagalternaterecipientallowed-canonical-property.md) <br/> |PR_ALTERNATE_RECIPIENT_ALLOWED  <br/> |
 |[PidTagAnr](pidtaganr-canonical-property.md) <br/> |PR_ANR, PR_ANR_A, PR_ANR_W  <br/> |
-|[Pidtagassistant de MAPI](pidtagassistant-canonical-property.md) <br/> |PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W  <br/> |
+|[PidTagAssistant](pidtagassistant-canonical-property.md) <br/> |PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W  <br/> |
 |[PidTagAssistantTelephoneNumber](pidtagassistanttelephonenumber-canonical-property.md) <br/> |PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A, PR_ASSISTANT_TELEPHONE_NUMBER_W  <br/> |
 |[PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md) <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |[PidTagAssociatedSharingProvider](pidtagassociatedsharingprovider-canonical-property.md) <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
@@ -512,7 +512,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagDisplayCc](pidtagdisplaycc-canonical-property.md) <br/> |PR_DISPLAY_CC, PR_DISPLAY_CC_A, PR_DISPLAY_CC_W  <br/> |
 |[PidTagDisplayName](pidtagdisplayname-canonical-property.md) <br/> |PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, PR_DISPLAY_NAME_W  <br/> |
 |[PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md) <br/> |PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A, PR_DISPLAY_NAME_PREFIX_W  <br/> |
-|[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |PR_DISPLAY_TO DE MAPI, PR_DISPLAY_TO_A, PR_DISPLAY_TO_W  <br/> |
+|[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |PR_DISPLAY_TO, PR_DISPLAY_TO_A, PR_DISPLAY_TO_W  <br/> |
 |[PidTagDisplayType](pidtagdisplaytype-canonical-property.md) <br/> |PR_DISPLAY_TYPE  <br/> |
 |[PidTagDisplayTypeEx](pidtagdisplaytypeex-canonical-property.md) <br/> |PR_DISPLAY_TYPE_EX  <br/> |
 |[PidTagDistributionListExpansionHistory](pidtagdistributionlistexpansionhistory-canonical-property.md) <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
@@ -659,7 +659,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagMessageToMe](pidtagmessagetome-canonical-property.md) <br/> |PR_MESSAGE_TO_ME  <br/> |
 |[PidTagMiddleName](pidtagmiddlename-canonical-property.md) <br/> |PR_MIDDLE_NAME, PR_MIDDLE_NAME_A, PR_MIDDLE_NAME_W  <br/> |
 |[PidTagMiniIcon](pidtagminiicon-canonical-property.md) <br/> |PR_MINI_ICON  <br/> |
-|[Pidtagmobiletelephonenumber de MAPI](pidtagmobiletelephonenumber-canonical-property.md) <br/> |PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A, PR_MOBILE_TELEPHONE_NUMBER_W, PR_CELLULAR_TELEPHONE_NUMBER, PR_CELLULAR_TELEPHONE_NUMBER_A, PR_CELLULAR_TELEPHONE_NUMBER_W  <br/> |
+|[PidTagMobileTelephoneNumber](pidtagmobiletelephonenumber-canonical-property.md) <br/> |PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A, PR_MOBILE_TELEPHONE_NUMBER_W, PR_CELLULAR_TELEPHONE_NUMBER, PR_CELLULAR_TELEPHONE_NUMBER_A, PR_CELLULAR_TELEPHONE_NUMBER_W  <br/> |
 |[PidTagNextSendAcct](pidtagnextsendacct-canonical-property.md) <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |[PidTagNickname](pidtagnickname-canonical-property.md) <br/> |PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W  <br/> |
 |[PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md) <br/> |PR_NDR_DIAG_CODE  <br/> |
@@ -774,18 +774,18 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagRadioTelephoneNumber](pidtagradiotelephonenumber-canonical-property.md) <br/> |PR_RADIO_TELEPHONE_NUMBER, PR_RADIO_TELEPHONE_NUMBER_A, PR_RADIO_TELEPHONE_NUMBER_W  <br/> |
 |[PidTagRead](pidtagread-canonical-property.md) <br/> |PR_READ  <br/> |
 |[PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md) <br/> |PR_READ_RECEIPT_ENTRYID  <br/> |
-|[PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md) <br/> |PR_READ_RECEIPT_REQUESTED DE MAPI  <br/> |
+|[PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md) <br/> |PR_READ_RECEIPT_REQUESTED  <br/> |
 |[PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md) <br/> |PR_READ_RECEIPT_SEARCH_KEY  <br/> |
 |[PidTagReceiptTime](pidtagreceipttime-canonical-property.md) <br/> |PR_RECEIPT_TIME  <br/> |
 |[PidTagReceivedByAddressType](pidtagreceivedbyaddresstype-canonical-property.md) <br/> |PR_RECEIVED_BY_ADDRTYPE, PR_RECEIVED_BY_ADDRTYPE_A, PR_RECEIVED_BY_ADDRTYPE_W  <br/> |
 |[PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md) <br/> |PR_RECEIVED_BY_EMAIL_ADDRESS, PR_RECEIVED_BY_EMAIL_ADDRESS_A, PR_RECEIVED_BY_EMAIL_ADDRESS_W  <br/> |
-|[PidTagReceivedByEntryId](pidtagreceivedbyentryid-canonical-property.md) <br/> |PR_RECEIVED_BY_ENTRYID DE MAPI  <br/> |
-|[PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md) <br/> |PR_RECEIVED_BY_NAME DE MAPI, PR_RECEIVED_BY_NAME_A, PR_RECEIVED_BY_NAME_W  <br/> |
+|[PidTagReceivedByEntryId](pidtagreceivedbyentryid-canonical-property.md) <br/> |PR_RECEIVED_BY_ENTRYID  <br/> |
+|[PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md) <br/> |PR_RECEIVED_BY_NAME, PR_RECEIVED_BY_NAME_A, PR_RECEIVED_BY_NAME_W  <br/> |
 |[PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md) <br/> |PR_RECEIVED_BY_SEARCH_KEY  <br/> |
 |[PidTagReceivedRepresentingAddressType](pidtagreceivedrepresentingaddresstype-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_ADDRTYPE, PR_RCVD_REPRESENTING_ADDRTYPE_A, PR_RCVD_REPRESENTING_ADDRTYPE_W  <br/> |
 |[PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
-|[PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_ENTRYID DE MAPI  <br/> |
-|[PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_NAME DE MAPI, PR_RCVD_REPRESENTING_NAME_A, PR_RCVD_REPRESENTING_NAME_W  <br/> |
+|[PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_ENTRYID  <br/> |
+|[PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_NAME, PR_RCVD_REPRESENTING_NAME_A, PR_RCVD_REPRESENTING_NAME_W  <br/> |
 |[PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md) <br/> |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |
 |[PidTagReceiveFolderSettings](pidtagreceivefoldersettings-canonical-property.md) <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |[PidTagRecipientCertificate](pidtagrecipientcertificate-canonical-property.md) <br/> |PR_RECIPIENT_CERTIFICATE  <br/> |
@@ -918,7 +918,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md) <br/> |PR_SENT_REPRESENTING_ADDRTYPE, PR_SENT_REPRESENTING_ADDRTYPE_A, PR_SENT_REPRESENTING_ADDRTYPE_W  <br/> |
 |[PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md) <br/> |PR_SENT_REPRESENTING_EMAIL_ADDRESS, PR_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |[PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md) <br/> |PR_SENT_REPRESENTING_ENTRYID  <br/> |
-|[PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |PR_SENT_REPRESENTING_NAME DE MAPI, PR_SENT_REPRESENTING_NAME_A, PR_SENT_REPRESENTING_NAME_W  <br/> |
+|[PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |PR_SENT_REPRESENTING_NAME, PR_SENT_REPRESENTING_NAME_A, PR_SENT_REPRESENTING_NAME_W  <br/> |
 |[PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md) <br/> |PR_SENT_REPRESENTING_SEARCH_KEY  <br/> |
 |[PidTagSentRepresentingSmtpAddress](pidtagsentrepresentingsmtpaddress-canonical-property.md) <br/> |PR_SENT_REPRESENTING_SMTP_ADDRESS, PR_SENT_REPRESENTING_SMTP_ADDRESS_A, PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |
 |[PidTagServiceDeleteFiles](pidtagservicedeletefiles-canonical-property.md) <br/> |PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W  <br/> |
@@ -953,7 +953,7 @@ Para obtener más información acerca de las propiedades canónicas cómo se rel
 |[PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md) <br/> |PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, PR_SUBJECT_PREFIX_W  <br/> |
 |[PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md) <br/> |PR_SUBMIT_FLAGS  <br/> |
 |[PidTagSupplementaryInfo](pidtagsupplementaryinfo-canonical-property.md) <br/> |PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W  <br/> |
-|[Pidtagsurname MAPI](pidtagsurname-canonical-property.md) <br/> |PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W  <br/> |
+|[PidTagSurname](pidtagsurname-canonical-property.md) <br/> |PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W  <br/> |
 |[PidTagSwappedToDoData](pidtagswappedtododata-canonical-property.md) <br/> |PR_SWAPPED_TODO_DATA  <br/> |
 |[PidTagSwappedToDoStore](pidtagswappedtodostore-canonical-property.md) <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |[PidTagTelecommunicationsDeviceForDeafTelephoneNumber](pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property.md) <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Creación de una restricción
+title: Crear una restricción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,30 +8,30 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38182abd922cd5806a14b6541c22ce675b997387
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318266"
 ---
-# <a name="building-a-restriction"></a>Creación de una restricción
+# <a name="building-a-restriction"></a>Crear una restricción
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para crear una restricción, una aplicación de cliente crea una jerarquía de uno o más estructuras de restricción de varios tipos y pasa un puntero a la jerarquía al método [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) . La ilustración siguiente y el ejemplo de código en [Código de restricción de ejemplo](sample-restriction-code.md) demuestran cómo se implementa una restricción típica con estructuras de restricción vinculado de distintos tipos. 
+Para crear una restricción, una aplicación cliente crea una jerarquía de una o varias estructuras de restricción de distintos tipos y pasa un puntero a la jerarquía al método [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) . La ilustración siguiente y el código de ejemplo de [ejemplo de código de restricción de ejemplo](sample-restriction-code.md) demuestran cómo se implementa una restricción típica con estructuras de restricción vinculadas de distintos tipos. 
 
-En este ejemplo, un usuario de una aplicación cliente intenta encontrar todos los mensajes que contienen la palabra "voleibol" en la línea de asunto y se enviaban a Sue desde Sam. En primer lugar, se asigna una estructura [SRestriction](srestriction.md) genérica. Esta estructura se convierte en la base para otras llamadas a la función [MAPIAllocateMore](mapiallocatemore.md) crear estructuras de [SRestriction](srestriction.md) y [SPropValue](spropvalue.md) vinculadas que se pueden liberar con una sola llamada a [MAPIFreeBuffer](mapifreebuffer.md). Debido a que los criterios que se debe aplicar al conjunto de mensajes se encuentra en tres partes, la estructura de restricción del nivel superior es una restricción de **y** . Miembro de **cRes** de la estructura [SAndRestriction](sandrestriction.md) se establece en 3 para indicar las tres restricciones para evaluar y su miembro **lpRes** se establece en una matriz de tres miembros de estructuras **SRestriction** . 
+En este ejemplo, un usuario de una aplicación cliente está intentando encontrar todos los mensajes que contienen la palabra "Volleyball" en la línea de asunto y se enviaron a Sue desde Sam. En primer lugar, se asigna una estructura [SRestriction](srestriction.md) genérica. Esta estructura se convierte en la base para otras llamadas a la función [MAPIAllocateMore](mapiallocatemore.md) para crear estructuras de [SRestriction](srestriction.md) y [SPropValue](spropvalue.md) vinculadas que se pueden liberar con una sola llamada a [MAPIFreeBuffer](mapifreebuffer.md). Debido a que los criterios que se deben aplicar al conjunto de mensajes se encuentra en tres partes, la estructura de restricción de nivel superior es una restricción **and** . El miembro **cRes** de la estructura [SAndRestriction](sandrestriction.md) se establece en 3 para indicar las tres restricciones que se van a evaluar y su miembro **lpRes** se establece en una matriz de tres miembros de **SRestriction** estructuras. 
   
-Para buscar los mensajes que se envían a un destinatario concreto, es necesario buscar en la tabla de destinatarios para cada mensaje en lugar del propio mensaje. Una restricción de subobjetos se utiliza para realizar la búsqueda de la tabla de destinatarios. Por lo tanto, el primer miembro de los puntos de la matriz en una estructura de [SSubRestriction](ssubrestriction.md) con su **ulSubObject** conjunto de miembros a **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). A continuación, para especificar qué se va a buscar en la tabla de destinatarios, se utiliza una restricción de contenido. 
+Para buscar los mensajes que se envían a un destinatario en particular, es necesario buscar en la tabla de destinatarios cada mensaje en lugar de hacerlo en el propio mensaje. Se usa una restricción de subobjeto para realizar la búsqueda de la tabla de destinatarios. Por lo tanto, el primer miembro de la matriz apunta a una estructura [SSubRestriction](ssubrestriction.md) con su miembro **UlSubObject** establecido en **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). A continuación, para especificar qué desea buscar en la tabla de destinatarios, se usa una restricción de contenido. 
   
-La segundo y terceros los miembros de la matriz son más sencillos. Ambas apuntan a estructuras de restricción de contenido, uno para buscar los mensajes que tienen una propiedad **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) establecida en "Sam" y otro que tiene una propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) que se establece en" voleibol."
+El segundo y el tercer miembro de la matriz son más sencillos. Ambos apuntan a estructuras de restricción de contenido, una para buscar mensajes que tienen una propiedad **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) establecida en "Sam" y otra que tiene una propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) establecida en " Volleyball ".
   
 **Implementación de restricción**
   
 ![Implementación de restricción] (media/amapi_61.gif "Implementación de restricción")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

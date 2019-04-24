@@ -10,11 +10,11 @@ ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310909"
 ---
 # <a name="data-types-used-by-excel"></a>Tipos de datos de Excel
 
@@ -108,5 +108,5 @@ El tipo **O**, que en realidad cuenta con tres argumentos en la pila, se introdu
 
 - [xlfRegister (Formulario 1)](xlfregister-form-1.md)
 - [Conceptos de programación de Excel](excel-programming-concepts.md)
-- [Referencia de funciones de API de SDK de XLL de Excel](excel-xll-sdk-api-function-reference.md)
+- [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
 

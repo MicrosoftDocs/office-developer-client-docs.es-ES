@@ -7,53 +7,53 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister (Form 2)
 keywords:
-- xlfunregister [excel 2007]
+- xlfunregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e0154e380b65b8c57e7e96a98ef131e26b49e203
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310167"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister (Formulario 2)
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se pueden llamar desde un comando DLL o XLL que se ha llamado propio por Microsoft Excel. Esto equivale a llamar al **Cancelar el registro** de una hoja de macros XLM de Excel. 
+Se puede llamar desde un comando DLL o XLL a los que ha llamado Microsoft Excel. Esto equivale a llamar **unregister** desde una hoja de macros XLM de Excel. 
   
-**xlfUnregister** se puede llamar de dos formas: 
+se puede llamar a **xlfUnregister** de dos formas: 
   
-- Formulario 1: Anula el registro de un comando individual o una función.
+- Formulario 1: anula el registro de un comando individual o una función.
     
-- Formulario 2: Descarga y desactiva un XLL.
+- Formulario 2: descarga y desactiva un XLL.
     
-Llama a en el formulario 2, esta función obliga a un archivo DLL o recurso de código para ser descargado completamente. Anula el registro de todas las funciones en una DLL, incluso si están actualmente en uso por otra macro, independientemente de qué el recuento de uso. Esta función llama **xlAutoClose**y, a continuación, anula el registro de todas las funciones en el archivo DLL.
+Esta función, que se llama en el formulario 2, fuerza a que se descargue completamente un archivo DLL o un recurso de código. Anula el registro de todas las funciones en un archivo DLL, incluso si está en uso actualmente en otra macro, independientemente del número de uso. Esta función llama a **xlAutoClose**y, a continuación, anula el registro de todas las funciones en la dll.
   
 ```cs
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxModuleText_ (**xltypeStr**)
   
-El nombre del archivo DLL.
+El nombre de la DLL.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Si se realiza correctamente, devuelve **TRUE** (**xltypeBool**). Si no lo consigue, devuelve **FALSE**.
+Si se ejecuta correctamente, devuelve **true** (**xltypeBool**). Si no se realiza correctamente, devuelve **false**.
   
 ## <a name="remarks"></a>Comentarios
 
 > [!NOTE] 
-> No llame a esta forma de la función de la implementación de la [xlAutoClose](xlautoclose.md) en un intento de anular el registro de todos los recursos del archivo DLL con la llamada a una función simple de. Esto tiene las siguientes consecuencias llamada recursiva de **xlAutoClose** y un desbordamiento de pila. 
+> No llame a esta forma de la función desde su implementación de [xlAutoClose](xlautoclose.md) en un intento de anular el registro de todos los recursos del archivo dll con una única llamada de función. Esto conduce a llamadas recursivas de **xlAutoClose** y un desbordamiento de pila. 
   
-### <a name="remember-to-delete-names"></a>No olvide eliminar nombres
+### <a name="remember-to-delete-names"></a>Recuerde eliminar nombres
 
-Si especifica el argumento _pxFunctionText_ para **xlfRegister**, cuando se registra la DLL funciones y comandos, se deben eliminar explícitamente los nombres mediante una llamada a **xlfSetName** para cada uno de ellos se omite el segundo argumento para que el función ya no aparece en el Asistente para la función. Para obtener m�s informaci�n, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Si especificó el argumento _pxFunctionText_ en **xlfRegister**, al registrar las funciones y los comandos del archivo dll, debe eliminar explícitamente los nombres llamando a **xlfSetName** para cada uno, omitiendo el segundo argumento para que el la función ya no aparece en el Asistente para funciones. Para obtener m�s informaci�n, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Vea también
 

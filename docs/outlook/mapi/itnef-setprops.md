@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 81f9388b67d3194fe1442091b9f4f75a7671cb6d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f7372830624d774fb914ae956e86a9e4476cf487
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315053"
 ---
 # <a name="itnefsetprops"></a>ITnef::SetProps
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el valor de una o más propiedades para un mensaje encapsulado o adjunto sin modificar el mensaje original o datos adjuntos. 
+Establece el valor de una o varias propiedades para un mensaje o datos adjuntos encapsulados sin modificar el mensaje o los datos adjuntos originales. 
   
 ```cpp
 HRESULT SetProps(
@@ -36,42 +36,42 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se establecen los valores de propiedad. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla cómo se establecen los valores de la propiedad. Se puede establecer la siguiente marca:
     
 TNEF_PROP_CONTAINED 
   
-> Codifica sólo las propiedades desde el mensaje o adjunto especificado por el parámetro _ulElemID_ . 
+> Codifica solo las propiedades desde el mensaje o datos adjuntos especificados por el parámetro _ulElemID_ . 
     
  _ulElemID_
   
-> [entrada] Propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de un documento adjunto, que contiene un número que identifica de forma exclusiva identifica los datos adjuntos en el mensaje de su elemento primario.
+> a Propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de datos adjuntos, que contiene un número que identifica de forma única los datos adjuntos en su mensaje primario.
     
  _cValues_
   
-> [entrada] El número de valores de propiedad en la estructura de [SPropValue](spropvalue.md) indicada por el parámetro _lpProps_ . 
+> a El número de valores de propiedad de la estructura [SPropValue](spropvalue.md) apuntado por el parámetro _lpProps_ . 
     
  _lpProps_
   
-> [entrada] Un puntero a una estructura **SPropValue** que contiene los valores de propiedad de las propiedades para establecer. 
+> a Un puntero a una estructura **SPropValue** que contiene los valores de propiedad de las propiedades que se van a establecer. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-Transporte proveedores, los proveedores de almacén de mensajes y las puertas de enlace llamada al método **ITnef::SetProps** para establecer las propiedades que deben incluirse en la encapsulación de un mensaje o un archivo adjunto sin modificar el mensaje o adjunto original. Las propiedades establecidas con esta llamada invalidar las propiedades existentes en el mensaje encapsulado. 
+Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: SetProps** para establecer las propiedades que se incluirán en la encapsulación de un mensaje o datos adjuntos sin modificar el mensaje original o los datos adjuntos. Las propiedades establecidas con esta llamada reemplazan las propiedades existentes en el mensaje encapsulado. 
   
- **SetProps** sólo se admite para objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . Cualquier número de propiedades se puede establecer con esta llamada. 
+ **SetProps** solo se admite para los objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . Se puede establecer cualquier número de propiedades con esta llamada. 
   
 > [!NOTE]
-> No hay real la codificación TNEF para **SetProps** sucede hasta después de que se llama al método [ITnef::Finish](itnef-finish.md) . Esta funcionalidad significa que punteros pasados **SetProps** deben siguen siendo válidos hasta después de que se realiza la llamada al **Finalizar** . En ese momento, todos los objetos y datos que se pasan en **SetProps** llamadas pueden publicada el o liberados. 
+> No se produce ninguna codificación TNEF real para **SetProps** hasta que se llama al método [ITnef:: Finish](itnef-finish.md) . Esta funcionalidad significa que los punteros pasados a **SetProps** deben seguir siendo válidos hasta que se realice la llamada a **Finish** . En ese momento, se pueden liberar o liberar todos los objetos y datos que se pasan a llamadas **SetProps** . 
   
 ## <a name="see-also"></a>Vea también
 
@@ -83,7 +83,7 @@ Transporte proveedores, los proveedores de almacén de mensajes y las puertas de
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónico PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propiedad canónica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

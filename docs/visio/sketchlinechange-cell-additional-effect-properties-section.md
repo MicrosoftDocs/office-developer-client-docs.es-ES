@@ -6,29 +6,29 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
-description: Determina la cantidad de selección aleatoria de línea de la forma en la geometría de la forma cuando se usa un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda SketchLineChange se establece en 0%, la geometría de la línea de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de la línea de la forma no siguen la geometría de la forma.
-ms.openlocfilehash: 57d2af1a914710d7e5a58686b577014ceb7af424
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina la cantidad de aleatorización de la línea de la forma a partir de la geometría de la forma al usar un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda SketchLineChange está establecido en 0%, la geometría de la línea de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de la línea de la forma no sigue la geometría de la forma.
+ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315130"
 ---
 # <a name="sketchlinechange-cell-additional-effect-properties-section"></a>Celda SketchLineChange (sección Propiedades del efecto adicional)
 
-Determina la cantidad de selección aleatoria de línea de la forma en la geometría de la forma cuando se usa un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda **SketchLineChange** se establece en 0%, la geometría de la línea de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de la línea de la forma no siguen la geometría de la forma. 
+Determina la cantidad de aleatorización de la línea de la forma a partir de la geometría de la forma al usar un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda **SketchLineChange** está establecido en 0%, la geometría de la línea de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de la línea de la forma no sigue la geometría de la forma. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener mejores resultados, el intervalo de valores de la celda **SketchLineChange** ideal está entre el 15% y un 50%. Un valor inferior al 15% es casi imperceptible; un valor mayor que el 50% pudo randomize demasiado la línea. 
+Para obtener los mejores resultados, el intervalo ideal de valores para la celda **SketchLineChange** está comprendido entre el 15% y el 50%. Un valor inferior al 15% es apenas perceptible; un valor mayor que 50% podría aleatorizar demasiado la línea. 
   
-Para obtener una referencia a la celda **SketchLineChange** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **SketchLineChange** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | SketchLineChange  <br/> |
    
-Para obtener una referencia a la celda **SketchLineChange** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **SketchLineChange** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

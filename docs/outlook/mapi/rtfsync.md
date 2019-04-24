@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316486"
 ---
 # <a name="rtfsync"></a>RTFSync
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se asegura de que el texto del mensaje de formato de texto enriquecido (RTF) coincide con la versión de texto sin formato. Es necesario llamar a esta función antes de leer la versión RTF y después de modificar la versión RTF. 
+Garantiza que el texto del mensaje de formato de texto enriquecido (RTF) coincide con la versión de texto sin formato. Es necesario llamar a esta función antes de leer la versión RTF y después de modificar la versión RTF. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Proveedores de almacén de mensajes y aplicaciones cliente de RTF  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de almacenamiento de mensajes compatibles con RTF  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -39,25 +39,25 @@ HRESULT RTFSync(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpMessage_
   
-> [entrada] Puntero al mensaje que se van a actualizar.
+> a Puntero al mensaje que se va a actualizar.
     
 _ulFlags_
   
-> [entrada] Máscara de bits de indicadores que se utilizan para indicar la versión de texto sin formato del mensaje o RTF ha cambiado. Se pueden establecer los siguientes indicadores:
+> a Máscara de la máscara usada para indicar que se ha cambiado la versión de texto sin formato o RTF del mensaje. Se pueden establecer los siguientes indicadores:
     
-  - RTF_SYNC_BODY_CHANGED: Ha cambiado la versión de texto sin formato del mensaje.
+  - RTF_SYNC_BODY_CHANGED: la versión de texto sin formato del mensaje ha cambiado.
       
-  - RTF_SYNC_RTF_CHANGED: Ha cambiado la versión RTF del mensaje.
+  - RTF_SYNC_RTF_CHANGED: la versión RTF del mensaje ha cambiado.
     
-  Todos los demás bits en el parámetro _ulFlags_ están reservados para uso futuro. 
+  Todos los demás bits del parámetro _ulFlags_ están reservados para su uso en el futuro. 
     
 _lpfMessageUpdated_
   
-> [out] Puntero a una variable que indica si hay un mensaje actualizado. Es TRUE si hay un mensaje actualizado, FALSE en caso contrario.
+> contempla Puntero a una variable que indica si hay un mensaje actualizado. TRUE si hay un mensaje actualizado; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -67,19 +67,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Si la propiedad **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) falta o es FALSE, antes de leer la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) en la función **RTFSync** se debe llamar con el RTF_SYNC_BODY_ Puede cambiar el conjunto de marca. 
+Si falta la propiedad **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) o es false, antes de leer la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), se debe llamar a la función **RTFSync** con el RTF_SYNC_BODY_ Se ha cambiado el conjunto de marcas. 
   
-Si no está establecido el indicador STORE_RTF_OK en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), esta función se debe llamar con el indicador RTF_SYNC_RTF_CHANGED establecer después de modificar **PR_RTF_COMPRESSED**. 
+Si la marca STORE_RTF_OK no se establece en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), se debe llamar a esta función con la marca RTF_SYNC_RTF_CHANGED establecida después de modificar **PR_RTF_COMPRESSED**. 
   
-Si se han cambiado **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** , debe llamar a la función **RTFSync** con ambos conjunto de indicadores. 
+Si se han cambiado **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** , se debe llamar a la función **RTFSync** con ambos marcadores establecidos. 
   
-Si el valor del parámetro _lpfMessageUpdated_ se establece en TRUE, el método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) debe llamarse para el mensaje. Si no se llama a **SaveChanges** , las modificaciones no se guardarán en el mensaje. 
+Si el valor del parámetro _lpfMessageUpdated_ se establece en true, se debe llamar al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para el mensaje. Si no se llama a **SaveChanges** , no se guardarán las modificaciones en el mensaje. 
   
-Los proveedores de almacén de mensajes pueden utilizar **RTFSync** para mantener las propiedades **PR_BODY** y **PR_RTF_COMPRESSED** sincronizadas. 
+Los proveedores de almacenamiento de mensajes pueden usar **RTFSync** para mantener las propiedades **PR_BODY** y **PR_RTF_COMPRESSED** sincronizadas. 
   
-Para obtener más información, vea [Compatibilidad con texto RTF para los proveedores de almacén de mensajes](supporting-rtf-text-for-message-store-providers.md). 
+Para obtener más información, vea [compatibilidad con texto RTF para proveedores de almacenamiento de mensajes](supporting-rtf-text-for-message-store-providers.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [WrapCompressedRTFStream](wrapcompressedrtfstream.md)
 

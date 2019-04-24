@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318084"
 ---
 # <a name="autocomplete-stream"></a>Secuencia de Autocompletar
 
@@ -85,7 +85,7 @@ En términos generales, el diseño de la secuencia de autocompletar es el siguie
 |Conjunto de filas  <br/> |Variable  <br/> |
 |EI de recuento de byte de información adicional  <br/> |4  <br/> |
 |Información adicional  <br/> |EI  <br/> |
-|Metadatos  <br/> |8  <br/> |
+|Metadatos  <br/> |8,5  <br/> |
    
 Al leer esta secuencia, si la versión principal es diferente de 12, esta secuencia no debe leerse ni escribirse. La versión secundaria actual de la secuencia de autocompletar es 0, que tiene el recuento de byte de información adicional establecido en 0. Si la versión secundaria es distinta de 0, habrá información en la información adicional que debe leerse al leer la secuencia y conservarse cuando se escribe la secuencia. La versión secundaria también deberá conservarse al escribir la secuencia. Si no se conservan ambas, las instancias de Outlook que escribieron la información adicional perderán datos. 
   

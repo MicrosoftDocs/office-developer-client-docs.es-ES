@@ -1,46 +1,46 @@
 ---
-title: Constantes (API de libre/ocupado)
+title: Constantes (API de disponibilidad)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ff756bf1-9395-5e50-4f55-1eb0365a84ed
-description: Este tema contiene las definiciones de constantes, los identificadores de clase y los identificadores de interfaz para la API de la información de disponibilidad.
-ms.openlocfilehash: ec909d449dc9075959fc9c047457577efd52ec3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tema contiene definiciones de constantes, identificadores de clase e identificadores de interfaz para la API de disponibilidad.
+ms.openlocfilehash: 13578617eaab45e7194d7a0d4d6995ef925e7f20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317720"
 ---
-# <a name="constants-freebusy-api"></a>Constantes (API de libre/ocupado)
+# <a name="constants-freebusy-api"></a>Constantes (API de disponibilidad)
 
-Este tema contiene las definiciones de constantes, los identificadores de clase y los identificadores de interfaz para la API de la información de disponibilidad.
+Este tema contiene definiciones de constantes, identificadores de clase e identificadores de interfaz para la API de disponibilidad.
   
 ## <a name="constants"></a>Constantes
 
 |**Constante**|**Definición**|
 |:-----|:-----|
-|E_NOTIMPL  <br/> | *Tal como se define en el archivo winerror.h archivo de encabezado de Kit de desarrollo de Software (SDK) de Microsoft Windows.*  <br/> |
-|E_OUTOFMEMORY  <br/> | *Tal como se define en el archivo winerror.h archivo de encabezado de Windows SDK.*  <br/> |
-|S_FALSE  <br/> | *Tal como se define en el archivo winerror.h archivo de encabezado de Windows SDK.*  <br/> |
-|S_OK  <br/> | *Tal como se define en el archivo winerror.h archivo de encabezado de Windows SDK.*  <br/> |
+|E_NOTIMPL  <br/> | *Tal y como se define en el archivo de encabezado Winerror. h del kit de desarrollo de software (SDK) de Microsoft Windows.*  <br/> |
+|E_OUTOFMEMORY  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
+|S_FALSE  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
+|S_OK  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
    
 ## <a name="interface-identifiers"></a>Identificadores de interfaz
 
-Para los siguientes identificadores de interfaz, se supone la macro DEFINE_GUID definida en el guiddef.h de archivo de encabezado de Windows SDK para asociar el nombre simbólico de GUID a su valor.
+Para los siguientes identificadores de interfaz, asuma la macro DEFINE_GUID definida en el archivo de encabezado guiddef. h del SDK de Windows para asociar el nombre simbólico GUID con su valor.
   
 {00067064-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IEnumFBBlock, 0x00067064, 0 x 0, 0 x 0, 0xc0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 46);
+DEFINE_GUID (IID_IEnumFBBlock, 0x00067064, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
   
 {00067066-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IFreeBusyData, 0x00067066, 0 x 0, 0 x 0, 0xc0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 46);
+DEFINE_GUID (IID_IFreeBusyData, 0x00067066, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
   
 {00067067-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IFreeBusySupport, 0x00067067, 0 x 0, 0 x 0, 0xc0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 0, 0 x 46);
+DEFINE_GUID (IID_IFreeBusySupport, 0x00067067, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
   
 

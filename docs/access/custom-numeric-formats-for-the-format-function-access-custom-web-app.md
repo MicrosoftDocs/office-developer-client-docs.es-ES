@@ -7,18 +7,18 @@ ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Aprenda a controlar cómo se muestra un número mediante la creación de un formato numérico definido por el usuario.
 localization_priority: Priority
 ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282204"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Formatos numéricos personalizados para la función Format (aplicación web personalizada de Access)
 
 Aprenda a controlar cómo se muestra un número mediante la creación de un formato numérico definido por el usuario.
   
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
 
 Puede cambiar el modo en que se muestra un número creando un formato de número definido por el usuario. Un formato de número definido por el usuario puede tener de una a tres secciones separadas por punto y coma (;). Si el argumento de estilo de la función [Función Format (aplicación web personalizada de Access)](format-function-access-custom-web-app.md) contiene uno de los formatos numéricos predefinidos, solo se permite una sección. 
   

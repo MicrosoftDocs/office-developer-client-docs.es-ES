@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
-description: En esta sección se describe las cuatro API en la referencia auxiliar de Outlook 2013 y proporciona tareas de ejemplo que usan estas API.
-ms.openlocfilehash: 9c62f4fe6593b0d58e5ab29305292537d289d69d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: En esta sección se describen las cuatro API de la referencia auxiliar de Outlook 2013 y se proporcionan tareas de ejemplo que usan estas API.
+ms.openlocfilehash: c546166c42742fc54ee43eef7d006183b7c8a40e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316859"
 ---
 # <a name="concepts-outlook-auxiliary-reference"></a>Conceptos (referencia auxiliar de Outlook)
 
-En esta sección se describe las cuatro API en la referencia auxiliar de Outlook 2013 y proporciona tareas de ejemplo que usan estas API.
+En esta sección se describen las cuatro API de la referencia auxiliar de Outlook 2013 y se proporcionan tareas de ejemplo que usan estas API.
 
 - [Administración de cuentas de Outlook](outlook-account-management.md)
     

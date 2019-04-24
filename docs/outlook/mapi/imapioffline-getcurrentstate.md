@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5170ceb443dcde075440bf84d29000afe4680c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321276"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
@@ -33,11 +33,11 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pulState_
   
-> [out] El estado en línea o sin conexión actual de un objeto sin conexión. Debe ser uno de estos dos valores:
+> contempla Estado en línea o sin conexión actual de un objeto sin conexión. Debe ser uno de estos dos valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

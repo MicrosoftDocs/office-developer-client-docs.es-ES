@@ -8,41 +8,41 @@ f1_keywords:
 - TempActiveRow
 - TempActiveRow12
 keywords:
-- tempactiverow (función) [excel 2007], TempActiveRow12 (función) [Excel 2007]
+- función tempactiverow [Excel 2007], TempActiveRow12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a406d6e5a8ffa91e103276cb39230058b4840614
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f89c458a521b41e4f172f8a6c53526440bb472b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310419"
 ---
 # <a name="tempactiverowtempactiverow12"></a>TempActiveRow/TempActiveRow12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funciones de la biblioteca de Framework que creación un temporal **XLOPER**/ **XLOPER12** que contiene una referencia externa a una fila completa de la hoja activa. 
+Funciones de biblioteca de .NET Framework que crean una**XLOPER12** de **XLOPER**/ temporal que contiene una referencia externa a una fila completa de la hoja activa. 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
 LPXLOPER12 TempActiveRow12(ROW row);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _row_
+ _columna_
   
-Para hacer referencia a la fila. Argumentos de fila son de base ceros para que esa fila 1 se pasa como 0. En Microsoft Office Excel 2003 y anteriores versiones y a partir de Excel 2007 que se ejecuta un libro en modo de compatibilidad, el valor máximo es 65.535 = 2 ^ 16-1 y es el valor máximo que puede consultarse por un número entero de WORD. A partir de que ejecuta un libro de Excel 2007, el valor máximo es 1.048.575 = 2 ^ 1 a 20. RW se define como un entero con signo de 32 bits en XLCALL. H.
+La fila a la que se va a hacer referencia. Los argumentos de fila están basados en cero, de modo que la fila 1 se pasa como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutar un libro en modo de compatibilidad, el valor máximo es 65.535 = 2 ^ 16-1 y es el valor máximo que puede tomar un entero de palabra. A partir de Excel 2007, al ejecutar un libro, el valor máximo es 1.048.575 = 2 ^ 20-1. RW se define como un entero con signo de 32 bits en XLCALL. H.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve una referencia externa de **xltypeRef** a celdas de la fila que se pasó. 
+Devuelve una referencia externa **xltypeRef** a las celdas de fila que se han pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la función **TempActiveRow12** para seleccionar fila 113. 
+En este ejemplo, se usa la función **TempActiveRow12** para seleccionar la fila 113. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

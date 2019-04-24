@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
 description: Se inicia una tarea de enumeración de la cita en una carpeta de calendario para buscar las citas que necesitan el reajuste.
-ms.openlocfilehash: 2ad26692483d87166a538ec2f04d3fc13b9ea930
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc89b3510f09bb98fd6720cb6d5ab3edeb13eac8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321948"
 ---
 # <a name="iolkapptrebaserbeginenumerateappointments"></a>IOlkApptRebaser::BeginEnumerateAppointments
 
@@ -28,7 +28,7 @@ HRESULT BeginEnumerateAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parameters
 
 _pfnProgress_
   
@@ -42,7 +42,7 @@ _ppContext_
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta tarea se ejecuta en un subproceso nuevo.
   

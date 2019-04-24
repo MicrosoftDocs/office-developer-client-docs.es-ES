@@ -6,46 +6,46 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
-description: Determina el tipo de iluminación utilizada por el efecto de bisel.
-ms.openlocfilehash: a8e7c2340f96362965d5ecb890fb47427be9e752
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el tipo de iluminación que se usa en el efecto de bisel.
+ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315774"
 ---
 # <a name="bevellightingtype-cell-bevel-properties-section"></a>Celda BevelLightingType (sección Propiedades de bisel)
 
-Determina el tipo de iluminación utilizada por el efecto de bisel.
+Determina el tipo de iluminación que se usa en el efecto de bisel.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Sin iluminación  <br/> |
+|comprendi  <br/> |Sin iluminación  <br/> |
 |1  <br/> |Tres puntos  <br/> |
-|2  <br/> |Saldo  <br/> |
-|3  <br/> |Suave.  <br/> |
-|4  <br/> |Áspera  <br/> |
-|5  <br/> |"Flood" del  <br/> |
-|6  <br/> |Contraste  <br/> |
-|7  <br/> |Mañana  <br/> |
-|8  <br/> |Amanecer  <br/> |
+|segundo  <br/> |Equilibre  <br/> |
+|3  <br/> |Suave  <br/> |
+|4  <br/> |Fuerte  <br/> |
+|2,5  <br/> |Inundaciones  <br/> |
+|6,5  <br/> |Contraste  <br/> |
+|0,7  <br/> |Mañanas  <br/> |
+|8,5  <br/> |Amanecer  <br/> |
 |9  <br/> |Puesta de sol  <br/> |
-|10  <br/> |Fría  <br/> |
-|11  <br/> |Inmovilizar  <br/> |
-|12  <br/> |Sin relieve  <br/> |
-|13  <br/> |Punto de dos  <br/> |
-|14  <br/> |Resplandor  <br/> |
-|15  <br/> |Habitación iluminada  <br/> |
+|metros  <br/> |Fría  <br/> |
+|12  <br/> |Helada  <br/> |
+|12  <br/> |Plano  <br/> |
+|apartado  <br/> |Dos puntos  <br/> |
+|apartado  <br/> |Glow  <br/> |
+|15  <br/> |Habitación brillante  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelLightingType** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelLightingType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |BevelLightingType  <br/> |
    
-Para obtener una referencia a la celda **BevelLightingType** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelLightingType** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

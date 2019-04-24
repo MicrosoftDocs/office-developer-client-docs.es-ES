@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: Especifica si se imprime la cuadrícula al imprimir una página de documento.
-ms.openlocfilehash: 76e5b5b4e82c39cbbffbecc710f05a77dbaa6332
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b98999cd02fa6a47ec8564bbd7337ecf8637306
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315193"
 ---
-# <a name="printgrid-cell-print-properties-section"></a>Celda PrintGrid (sección Propiedades de impresión)
+# <a name="printgrid-cell-print-properties-section"></a>Celda PrintGrid (sección de propiedades de impresión)
 
 Especifica si se imprime la cuadrícula al imprimir una página de documento.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Muestra la cuadrícula al imprimir esta página.  <br/> |
 |FALSE  <br/> |No muestra la cuadrícula al imprimir esta página (predeterminado).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Este valor corresponde a la casilla **Cuadrícula** de la ficha **Configurar impresión** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). A excepción del color (se imprime en gris), la cuadrícula impresa coincide por completo con la que se ve en la ventana del dibujo de Microsoft Office Visio. 
   
-Puede elegir si desea imprimir la cuadrícula de página por página. También puede definirse en una base de página por página en el estilo de la cuadrícula de la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ) cuando una página está activa. 
+Puede elegir si desea imprimir la cuadrícula página por página. El estilo de la cuadrícula también puede definirse página por página en el cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ) cuando una página está activa. 
   
 Para obtener una referencia a la celda PrintGrid por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

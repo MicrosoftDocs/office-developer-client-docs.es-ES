@@ -13,17 +13,17 @@ api_type:
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321369"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Mueve el mensaje actual a una carpeta.
   
@@ -35,19 +35,19 @@ HRESULT MoveMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
-> [entrada] Un puntero a la carpeta donde el mensaje se va a mover.
+> a Un puntero a la carpeta a la que se moverá el mensaje.
     
  _pViewContext_
   
-> [entrada] Un puntero a un objeto de contexto de la vista.
+> a Un puntero a un objeto de contexto de vista.
     
  _prcPosRect_
   
-> [entrada] Un puntero a una estructura de [rectángulo](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño de la ventana y la posición del formulario actual. El siguiente formulario que muestra también usa este rectángulo de la ventana. 
+> a Un puntero a una estructura [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario actual. El siguiente formulario que se muestra también usa este rectángulo de la ventana. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,29 +57,29 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> La operación no es compatible con este sitio de mensaje.
+> La operación no es compatible con este sitio de mensajes.
     
 ## <a name="remarks"></a>Comentarios
 
-Objetos de formulario llamar al método **IMAPIMessageSite::MoveMessage** para mover el mensaje actual a una nueva carpeta. 
+Los objetos de formulario llaman al método **IMAPIMessageSite:: MoveMessage** para mover el mensaje actual a una nueva carpeta. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Implementación del Visor de un formulario de **MoveMessage** debe llamar al método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , que se pasa el indicador VCDIR_MOVE, antes de mover realmente el mensaje a una carpeta nueva. Para obtener la estructura de **rectángulo** usada por la ventana de un formulario, llame a la función de Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+La implementación de **MoveMessage** del visor de formularios debe llamar al método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) , pasando la marca VCDIR_MOVE, antes de mover el mensaje a una carpeta nueva. Para obtener la estructura **Rect** que utiliza la ventana de un formulario, llame a la función [GetWindowRect](https://msdn.microsoft.com/library/ms633519) de Windows. 
   
-Para obtener una lista de las interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Después de la devolución de **MoveMessage**, formularios deben comprobar si un mensaje actual y descartar a sí mismos si no existe ninguno. 
+Tras la devolución de **MoveMessage**, los formularios deben comprobar si hay un mensaje actual y, a continuación, descartarse si no hay ninguno. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |No se ha implementado.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: MoveMessage  <br/> |No implementado.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

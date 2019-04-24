@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f332de3-470d-9bc2-0c65-684bb58bcd7a
 description: Obtiene una cadena de mensaje para el error especificado.
-ms.openlocfilehash: 7b00392cdf65d1d4990f2231769e5126c9ae26dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d2aa3a7513687484988921734eb4c0e6f91226b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321885"
 ---
 # <a name="iolkerrorunknowngetlasterror"></a>IOlkErrorUnknown::GetLastError
 
@@ -20,7 +20,7 @@ Obtiene una cadena de mensaje para el error especificado.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkErrorUnknown](iolkerrorunknown.md).
+Consulte [IOlkErrorUnknown](iolkerrorunknown.md).
   
 ```cpp
 HRESULT IOlkErrorUnknown::GetLastError(  
@@ -30,15 +30,15 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_recursos humanos_
+_hr_
   
-> [entrada] Código de error que se va a buscar.
+> a Código de error que se va a buscar.
     
 _ppwszError_
   
-> [out] El mensaje de error que corresponde a *recursos humanos* . 
+> contempla Mensaje de error que corresponde a *HR* . 
     
 ## <a name="return-values"></a>Valores devueltos
 

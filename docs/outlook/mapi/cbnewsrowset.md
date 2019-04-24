@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de6836c036c1b8c80a030a8a49009b8899267aa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317972"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
@@ -25,24 +25,24 @@ ms.locfileid: "22571636"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se asignará para una nueva estructura de [SRowSet](srowset.md) que contiene un número especificado de filas representadas por las estructuras de [SRow](srow.md) . 
+Calcula el número de bytes que se van a asignar para una nueva estructura [SRowSet](srowset.md) que contiene un número especificado de filas representadas por estructuras [SRow](srow.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SRowSet** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- __gallo_
+ __patas_
   
-> Recuento de las estructuras de **SRow** que indica el número de filas que se deben incluir en la nueva estructura de **SRowSet** . 
+> Número de estructuras **SRow** que indican el número de filas que se van a incluir en la nueva estructura **SRowSet** . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,22 +1,22 @@
 ---
-title: Elemento de DocumentSettings (VisioDocument_Type complexType) ('XML de Visio')
+title: Elemento DocumentSettings (complexType VisioDocument_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
-description: Contiene elementos que especifican la configuración de documentos.
+description: Contiene los elementos que especifican la configuración del documento.
 ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315221"
 ---
-# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Elemento de DocumentSettings (VisioDocument_Type complexType) ('XML de Visio')
+# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSettings (complexType VisioDocument_Type) ("XML" de Visio)
 
-Contiene elementos que especifican la configuración de documentos.
+Contiene los elementos que especifican la configuración del documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene elementos que especifican la configuración de documentos.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Document.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,39 +36,39 @@ Contiene elementos que especifican la configuración de documentos.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |El elemento raíz de un documento de Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |MIME (Extensiones multipropósito de correo Internet) con una codificación de archivo de (VSU) de la interfaz de usuario de Microsoft Visio que representa las barras de herramientas personalizadas.  <br/> |
-|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |Contiene el nombre del archivo de interfaz (.vsu) de usuario de Microsoft Visio que define menús y aceleradores para un documento personalizados.  <br/> |
-|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |Contiene el nombre del archivo de interfaz (.vsu) de usuario de Microsoft Visio que define las barras de herramientas personalizadas y las barras de estado para un documento.  <br/> |
-|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |Especifica si está habilitada la característica de cuadrícula dinámica de un documento o ventana.  <br/> |
-|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |Especifica los objetos que se pegan las formas cuando el pegado está habilitado en el documento.  <br/> |
-|[ProtectBkgnds](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |Especifica si el usuario no puede eliminar o modificar las páginas de fondo.  <br/> |
-|[ProtectMasters](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |Especifica si el usuario impide crear, editar o eliminar a los patrones. Independientemente de esta configuración, el usuario puede crear instancias de patrones.  <br/> |
-|[ProtectShapes](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |Especifica si se impide que el usuario la selección de las formas que tienen su elemento **LockSelect** establecida en 1.  <br/> |
-|[ProtectStyles](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |Especifica si el usuario impide crear o editar los estilos.  <br/> |
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de elementos de **SnapAngle** .  <br/> |
-|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |Especifica si una opción de configuración de extensión del complemento específico está habilitado o deshabilitado para la ventana activa.  <br/> |
-|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |Especifica los objetos que las formas ajustan ajustar cuando está en la ventana activa.  <br/> |
+|[AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |Un archivo de interfaz de usuario de Microsoft Visio (VSU) codificado de MIME (Extensiones multipropósito de correo Internet) que representa barras de herramientas personalizadas.  <br/> |
+|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |Contiene el nombre del archivo de interfaz de usuario de Microsoft Visio (. VSU) que define los menús y los aceleradores personalizados para un documento.  <br/> |
+|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |Contiene el nombre del archivo de interfaz de usuario de Microsoft Visio (. VSU) que define barras de herramientas y barras de estado personalizadas para un documento.  <br/> |
+|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |Especifica si la característica de cuadrícula dinámica está habilitada para un documento o una ventana.  <br/> |
+|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |Especifica los objetos a los que se pegan las formas cuando está habilitado el pegado en el documento.  <br/> |
+|[ProtectBkgnds](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |Especifica si se impide al usuario eliminar o editar páginas de fondo.  <br/> |
+|[ProtectMasters](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |Especifica si se impide que el usuario cree, edite o elimine patrones. Independientemente de esta configuración, el usuario todavía puede crear instancias de patrones.  <br/> |
+|[ProtectShapes](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |Especifica si se impide al usuario seleccionar formas que tienen el elemento **LockSelect** establecido en 1.  <br/> |
+|[ProtectStyles](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |Especifica si se impide al usuario crear o editar estilos.  <br/> |
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de elementos **SnapAngle** .  <br/> |
+|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |Especifica si una configuración de extensión de ajuste específica está habilitada o deshabilitada para la ventana activa.  <br/> |
+|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |Especifica los objetos a los que se ajustan las formas cuando se activa ajustar en la ventana.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|DefaultFillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de **hoja de estilos** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|DefaultGuideStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de **hoja de estilos** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|DefaultLineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de **hoja de estilos** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|DefaultTextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de **hoja de estilos** .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|TopPage  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la página que se debe mostrar cuando se abre el documento de Microsoft Visio.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|DefaultFillStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de la **hoja de estilos** .  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|DefaultGuideStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de la **hoja de estilos** .  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|DefaultLineStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de la **hoja de estilos** .  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|DefaultTextStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de un elemento de la **hoja de estilos** .  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|Página Web  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la página que debe mostrarse cuando Microsoft Visio abre el documento.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
    
 

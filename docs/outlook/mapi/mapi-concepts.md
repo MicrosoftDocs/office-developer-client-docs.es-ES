@@ -1,37 +1,37 @@
 ---
-title: Conceptos MAPI
+title: Conceptos de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e5b3b7ac38e4e6b217779190fd652c7a223792b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e685c178a4ecf9b5526780c514fd4a0dcf6559f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318938"
 ---
-# <a name="mapi-concepts"></a>Conceptos MAPI
+# <a name="mapi-concepts"></a>Conceptos de MAPI
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En esta sección se proporciona a una guía para comprender y programar con MAPI.
+En esta sección se proporciona una guía para comprender y programar con MAPI.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Arquitectura y las características de MAPI](mapi-features-and-architecture.md): contiene información sobre los conceptos y diseño general de MAPI.
+- [Arquitectura y características de MAPI](mapi-features-and-architecture.md): contiene información sobre los conceptos y el diseño de MAPI general.
     
-- [Desarrollo de aplicaciones de MAPI](mapi-application-development.md): proporciona información sobre el desarrollo de aplicaciones cliente y los proveedores de servicios mediante el uso de MAPI.
+- [Desarrollo de aplicaciones MAPI](mapi-application-development.md): proporciona información sobre el desarrollo de aplicaciones cliente y proveedores de servicios mediante MAPI.
     
-- [Elementos de programación de MAPI](mapi-programming-elements.md): contiene información general conceptual de los elementos de programación en la [Referencia de MAPI](mapi-reference.md).
+- [Elementos de programación de MAPI](mapi-programming-elements.md): contiene información general conceptual de los elementos de programación en la [referencia de MAPI](mapi-reference.md).
     
-- [Proveedores de servicios de MAPI](mapi-service-providers.md): proporciona información básica acerca de los proveedores de servicio MAPI.
+- [Proveedores de servicios MAPI](mapi-service-providers.md): proporciona información básica acerca de los proveedores de servicios MAPI.
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
-- [Introducción a la referencia de MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Ejemplos de MAPI](mapi-samples.md)
 - [Referencia MAPI](mapi-reference.md)
   

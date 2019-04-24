@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 021be209a2b2c891b668fa401500d6220619f9bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317139"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se notifica el formulario que guarda una operación se ha completado. 
+Notifica al formulario que se ha completado una operación de guardado. 
   
 ```cpp
 HRESULT SaveCompleted(
@@ -31,17 +31,17 @@ HRESULT SaveCompleted(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pMessage_
   
-> [entrada] Un puntero al mensaje recién guardado.
+> a Un puntero al mensaje que acaba de guardar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación fue correcta.
+> La notificación se realizó correctamente.
     
 E_INVALIDARG 
   
@@ -49,7 +49,7 @@ E_INVALIDARG
     
 E_UNEXPECTED 
   
-> El formulario no está en uno de los siguientes estados:
+> El formulario no está en uno de los siguientes Estados:
     
    - HandsOffFromNormal
     
@@ -59,7 +59,7 @@ E_UNEXPECTED
     
 ## <a name="remarks"></a>Comentarios
 
-Se llama al método de **IPersistMessage::SaveCompleted** por un visor de formulario para notificar el formulario que se han guardado todos los cambios pendientes. **SaveCompleted** debe llamarse sólo cuando el formulario está en uno de los siguientes estados: 
+Un visor de formularios llama al método **IPersistMessage:: SaveCompleted** para notificar al formulario que se han guardado todos los cambios pendientes. **SaveCompleted** solo se debe llamar cuando el formulario está en uno de los siguientes Estados: 
   
 - HandsOffFromNormal
     
@@ -69,21 +69,21 @@ Se llama al método de **IPersistMessage::SaveCompleted** por un visor de formul
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Existen varias acciones posibles que puede realizar el método **SaveCompleted** , dependiendo de qué el mensaje contiene el parámetro de puntero y estado en que el mensaje está en. Sin embargo, cuando una acción es correcta, siempre guarde el estado actual del mensaje que señala el parámetro _pMessage_ y transición el formulario a su estado [Normal](normal-state.md) . 
+Hay varias acciones posibles que puede realizar el método **SaveCompleted** , en función de lo que contenga el parámetro de puntero de mensaje y el estado en el que se encuentra el mensaje. Sin embargo, cuando una acción se realiza correctamente, guarde siempre el estado actual del mensaje al que apunta el parámetro _pMessage_ y cambie el formulario a su estado [normal](normal-state.md) . 
   
-En la siguiente tabla se describe las condiciones que afectan a las acciones que debe realizar en su implementación de **SaveCompleted**.
+En la tabla siguiente se describen las condiciones que afectan a las acciones que debe realizar en la implementación de **SaveCompleted**.
   
 |**Condición**|**Acción**|
 |:-----|:-----|
-|El parámetro _pMessage_ es NULL y el parámetro _fSameAsLoad_ del método [IPersistMessage::Save](ipersistmessage-save.md) se establece en TRUE.  <br/> |Llame al método [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) de todos los visores registrados, marcar el formulario como S_OK limpia y devolución.  <br/> |
-|El parámetro _pMessage_ es NULL y el parámetro _fSameAsLoad_ del método **IPersistMessage::Save** se establece en FALSE.  <br/> |Devuelve S_OK.  <br/> |
-|El formulario está en el estado de HandsOffFromNormal.  <br/> |Liberar el mensaje actual y reemplácelo con el mensaje que apunta el parámetro _pMessage_ . Llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) del mensaje de reemplazo y devolver S_OK.  <br/> |
-|El formulario está en el estado de HandsOffAfterSave.  <br/> |Llame al método **IMAPIViewAdviseSink::OnSaved** de todos los visores registrados, marcar el formulario como S_OK limpia y devolución.  <br/> |
-|El formulario está en el estado de [NoScribble](noscribble-state.md) .  <br/> |Liberar el mensaje actual y reemplácelo con el mensaje que apunta _pMessage_. Llamar al método **IUnknown:: AddRef** del mensaje de reemplazo. Llame al método **IMAPIViewAdviseSink::OnSaved** de todos los visores registrados, marcar el formulario como S_OK limpia y devolución.  <br/> |
-|El formulario está en uno de los Estados de HandsOff y el parámetro _pMessage_ se establece en NULL.  <br/> |Devolver E_INVALIDARG.  <br/> |
-|El formulario está en un estado que no sea uno de los Estados de HandsOff o el estado de NoScribble.  <br/> |Devolver E_UNEXPECTED.  <br/> |
+|El parámetro _pMessage_ es NULL y el parámetro _FSameAsLoad_ del método [IPersistMessage:: Save](ipersistmessage-save.md) está establecido en true.  <br/> |Llame al método [IMAPIViewAdviseSink:: onSave](imapiviewadvisesink-onsaved.md) de todos los visores registrados, marque el formulario como limpio y devuelva S_OK.  <br/> |
+|El parámetro _pMessage_ es NULL y el parámetro _FSameAsLoad_ del método **IPersistMessage:: Save** está establecido en false.  <br/> |Devuelve S_OK.  <br/> |
+|El formulario está en estado HandsOffFromNormal.  <br/> |Libere el mensaje actual y reemplácelo por el mensaje al que señala el parámetro _pMessage_ . Llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) del mensaje de reemplazo y devuelva S_OK.  <br/> |
+|El formulario está en estado HandsOffAfterSave.  <br/> |Llame al método **IMAPIViewAdviseSink:: onSave** de todos los visores registrados, marque el formulario como limpio y devuelva S_OK.  <br/> |
+|El formulario está en estado [noscribble](noscribble-state.md) .  <br/> |Libere el mensaje actual y reemplácelo por el mensaje al que se apunta por _pMessage_. Llame al método **IUnknown:: AddRef** del mensaje de reemplazo. Llame al método **IMAPIViewAdviseSink:: onSave** de todos los visores registrados, marque el formulario como limpio y devuelva S_OK.  <br/> |
+|El formulario está en uno de los Estados HandsOff y el parámetro _pMessage_ se establece en NULL.  <br/> |Devuelve E_INVALIDARG.  <br/> |
+|El formulario está en un estado que no es ninguno de los Estados HandsOff o el estado noScribble.  <br/> |Devuelve E_UNEXPECTED.  <br/> |
    
-Para obtener más información acerca de cómo guardar objetos de almacenamiento, vea la documentación de los métodos [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) o [:: SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) . 
+Para obtener más información sobre cómo guardar objetos de almacenamiento, consulte la documentación de los métodos [IPersistStorage:: SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) o [IPersistFile:: SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) . 
   
 ## <a name="see-also"></a>Vea también
 

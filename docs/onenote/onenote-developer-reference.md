@@ -7,11 +7,11 @@ ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Esta referencia contiene información general conceptual y referencias de programación para guiarlo en el desarrollo de soluciones para aplicaciones de cliente de escritorio para OneNote 2013.
 localization_priority: Priority
 ms.openlocfilehash: d2b401a768e62c4b9712b1590bfaf499c2b022ab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317055"
 ---
 # <a name="onenote-developer-reference"></a>Referencia para desarrolladores de OneNote
 
@@ -30,7 +30,7 @@ Esta documentación contiene la siguiente información:
 - [Códigos de error](error-codes-onenote.md): muestra los códigos de error en el modelo de objetos de OneNote 2013.
     
 > [!NOTE]
-> Las API descritas en esta documentación solo están destinadas a soluciones de cliente de escritorio de OneNote Win32 en escenarios no conectados. Para escenarios conectados, use las API de servicio de OneNote recomendadas. Para obtener más información, visite [dev.onenote.com](https://go.microsoft.com/fwlink/?LinkID=390615). 
+> Las API descritas en esta documentación solo están destinadas para soluciones de cliente de escritorio de OneNote Win32 en escenarios no conectados. Para escenarios conectados, use las API de servicio de OneNote recomendadas. Para obtener más información, visite [dev.onenote.com](https://go.microsoft.com/fwlink/?LinkID=390615). 
   
 ## <a name="see-also"></a>Vea también
 

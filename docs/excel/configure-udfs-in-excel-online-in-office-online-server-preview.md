@@ -1,93 +1,93 @@
 ---
-title: Configurar las UDF en Excel en línea en Office Online Server
+title: Configurar las UDF en Excel online en Office Online Server
 manager: soliver
 ms.date: 03/18/2016
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
-description: Utilizar funciones definidas por el usuario (UDF) de Excel en línea en Office Online Server para llamar a funciones personalizadas.
+description: Use funciones definidas por el usuario (UDF) en Excel online en Office Online Server para llamar a funciones personalizadas.
 ms.openlocfilehash: dbba60a62a1a4783b47c3f1fe40a118dd8ed0d6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311063"
 ---
-# <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurar las UDF en Excel en línea en Office Online Server
+# <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurar las UDF en Excel online en Office Online Server
 
-Utilizar funciones definidas por el usuario (UDF) de Excel en línea en Office Online Server para llamar a funciones personalizadas. 
+Use funciones definidas por el usuario (UDF) en Excel online en Office Online Server para llamar a funciones personalizadas. 
   
-Funciones definidas por el usuario (UDF) de Excel Online permiten llamar a funciones personalizadas escritas en código administrado mediante el uso de las fórmulas en las celdas. Puede usar las UDF para:
+Las funciones definidas por el usuario (UDF) en Excel online permiten llamar a funciones personalizadas escritas en código administrado mediante fórmulas en las celdas. Puede usar las UDF para:
   
-- Llamar a funciones matemáticas personalizadas.
+- Call custom mathematical functions.
     
-- Obtener datos de orígenes de datos personalizados en hojas de cálculo.
+- Get data from custom data sources into worksheets.
     
-- Llamar a servicios web.
+- Llamar a servicios Web.
     
-Puede instalar los archivos binarios UDF en una de estas dos ubicaciones:
+Puede instalar archivos binarios de UDF en una de estas dos ubicaciones:
   
 - Un directorio local. Por ejemplo: 
     
-    C:\UDFs\MySampleUdf.dll 
+    C:\UDFs\MySampleUdf.dll
     
-- La caché de ensamblados global. Por ejemplo: 
+- La memoria caché de ensamblados global. Por ejemplo: 
     
     CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38
     
-Hacer referencia a la ubicación cuando se crea una definición de **New-OfficeWebAppsExcelUserDefinedFunction** en el servidor de Office Online. 
+Haga referencia a la ubicación cuando cree una definición **New-OfficeWebAppsExcelUserDefinedFunction** en Office Online Server. 
   
 > [!NOTE]
-> Office Online Server no es compatible con UDF que se encuentra en recursos compartidos de red. 
+> Office Online Server no admite las UDF que se encuentran en recursos compartidos de red. 
   
-## <a name="enable-udfs-on-office-online-server"></a>Habilitar las UDF en servidor de Office Online 
+## <a name="enable-udfs-on-office-online-server"></a>Habilitar UDF en Office Online Server 
 
-Cuando un administrador crea una nueva granja de servidores de Office Web Apps Server mediante el cmdlet [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell, los ensamblados de UDF están deshabilitados de forma predeterminada. El valor predeterminado de la marca de **ExcelUdfsAllowed** es false. 
+Cuando un administrador crea una nueva granja de servidores de Office Web Apps Server mediante el cmdlet de Windows PowerShell [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) , los ensamblados UDF están deshabilitados de forma predeterminada. El valor predeterminado de la marca **ExcelUdfsAllowed** es false. 
   
-Para habilitar las UDF, ejecute el siguiente comando de Windows PowerShell en el servidor de Office Online, después de haber creado la granja de servidores de Office Web Apps Server.
+Para habilitar las UDF, ejecute el siguiente comando de Windows PowerShell en Office Online Server, una vez creada la granja de Office Web Apps Server.
   
 `Set-OfficeWebAppsFarm - ExcelUdfsAllowed:$true`
   
-## <a name="create-udf-definitions-on-office-online-server"></a>Crear definiciones de las UDF en servidor de Office Online
+## <a name="create-udf-definitions-on-office-online-server"></a>Crear definiciones de UDF en Office Online Server
 
-Después de habilitar las UDF, debe crear una definición para el archivo binario que contiene las UDF. Para crear una definición para su UDF binario en el servidor en línea de Office, use el cmdlet **New-OfficeWebAppsExcelUserDefinedFunction** . Este cmdlet incluye los siguientes parámetros: 
+Después de habilitar las UDF, debe crear una definición para el binario que contiene las UDF. Para crear una definición para el binario de UDF en Office Online Server, use el cmdlet **New-OfficeWebAppsExcelUserDefinedFunction** . Este cmdlet incluye los siguientes parámetros: 
   
-- **Ensamblado**
+- **MyAssembly**
     
-- **UbicaciónDeEnsamblado**
+- **AssemblyLocation**
     
-- **Habilitar** (se establece en False de forma predeterminada) 
+- **Habilitar** (se establece en false de forma predeterminada) 
     
 - **Descripción**
     
-Los siguientes ejemplos muestran cómo crear las definiciones de UDF.
+Los ejemplos siguientes muestran cómo crear las definiciones de UDF.
   
 `New-OfficeWebAppsExcelUserDefinedFunction -Assembly c:\myudf.dll -AssemblyLocation LocalFile -Enable:$true -Description "My Server UDFs"`
   
 `New-OfficeWebAppsExcelUserDefinedFunction -Assembly "CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38" -AssemblyLocation GAC -Enable:$true -Description "My GAC Server UDFs"`
   
-Después de crear la nueva referencia UDF, ejecute **iisreset** en el servidor para seleccionar la referencia inmediatamente. 
+Después de crear la nueva referencia de UDF, ejecute **iisreset** en el servidor para retomar la referencia inmediatamente. 
   
-## <a name="additional-office-online-server-udf-windows-powershell-commands"></a>Comandos de Windows PowerShell en Office Online Server UDF adicionales
+## <a name="additional-office-online-server-udf-windows-powershell-commands"></a>Otros comandos de Windows PowerShell de UDF de Office Online Server
 
-Use los siguientes cmdlets de Windows PowerShell para trabajar con las UDF:
+Use los siguientes cmdlets de Windows PowerShell para trabajar con UDF:
   
-- **Get-OfficeWebAppsExcelUserDefinedFunction** (sin parámetros obligatorios) - devuelve una lista de definiciones de UDF que están configurados en el servidor de Office Online. 
+- **Get-OfficeWebAppsExcelUserDefinedFunction** (ningún parámetro obligatorio): devuelve una lista de las definiciones de UDF que están configuradas en el servidor de Office online. 
     
-- **Set-OfficeWebAppsExcelUserDefinedFunction** (El parámetro identity requiere) - establece las propiedades en las definiciones de UDF existentes. 
+- **Set-OfficeWebAppsExcelUserDefinedFunction** (Parámetro Identity obligatorio): establece las propiedades de las definiciones UDF existentes. 
     
-- **Remove-OfficeWebAppsExcelUserDefinedFunction** (El parámetro identity requiere) - quita las definiciones de UDF existentes. 
+- **Remove-OfficeWebAppsExcelUserDefinedFunction** (Parámetro Identity obligatorio): quita las definiciones UDF existentes. 
     
-## <a name="udf-sample"></a>Ejemplo UDF
+## <a name="udf-sample"></a>Ejemplo de UDF
 
-Los siguientes archivos proporcionan un libro de ejemplo que usa una UDF y el archivo UDF binario:
+Los siguientes archivos proporcionan un libro de ejemplo que usa un archivo UDF y el binario UDF:
   
-- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): un libro de ejemplo que usa una UDF  
-- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): el archivo binario UDF 
+- [BooleanDataType. xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): un libro de ejemplo que usa un UDF  
+- [EcsUdfsCommonSet. dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): el BINARIo UDF 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Configurar las opciones administrativas Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Configurar las opciones administrativas de Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
 - [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 

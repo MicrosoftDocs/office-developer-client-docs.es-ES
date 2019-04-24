@@ -1,5 +1,5 @@
 ---
-title: Información sobre las notificaciones de tabla
+title: Acerca de las notificaciones de tabla
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a42ed1e196e8ac498ab5889b4419ff407db4748
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321843"
 ---
-# <a name="about-table-notifications"></a>Información sobre las notificaciones de tabla
+# <a name="about-table-notifications"></a>Acerca de las notificaciones de tabla
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes a menudo se basan en las notificaciones de tabla para obtener más información de los cambios a objetos en lugar de registrar para recibir notificaciones directamente desde los objetos. Los cambios más frecuentes que impedir que se envíen notificaciones incluyen la adición, eliminación o modificación de una fila y cualquier error crítico. Cuando se reciben las notificaciones, los clientes pueden determinar si debe realizar otra llamada a volver a cargar en la tabla. 
+Los clientes suelen basarse en las notificaciones de tabla para obtener información sobre los cambios en los objetos en lugar de registrarse para recibir notificaciones directamente de los objetos. Los cambios típicos que provocan que se envíen las notificaciones son la adición, la eliminación o la modificación de una fila y cualquier error crítico. Cuando llegan las notificaciones, los clientes pueden determinar si hacen otra llamada para volver a cargar la tabla. 
   
-Debido a que las notificaciones de tabla son asincrónicas, hay algunos problemas que pueden hacer que las notificaciones de tratamiento de menos de un proceso sencillo:
+Como las notificaciones de tabla son asincrónicas, hay algunos problemas que pueden hacer que las notificaciones de control sean menos que sencillas:
   
-- Los datos que se pasan en la estructura [TABLE_NOTIFICATION](table_notification.md) no es posible que representan el estado más reciente de la tabla. Por ejemplo, un cliente podría realizar un cambio en un mensaje y, a continuación, decida eliminarla. El proveedor de almacenamiento de mensaje implementación de la tabla de contenido que incluye el mensaje envía dos notificaciones: un evento TABLE_ROW_MODIFIED seguido de un evento TABLE_ROW_DELETED. Dependiendo de cómo el proveedor de almacenamiento de mensaje veces las notificaciones, el cliente podría recibir la notificación TABLE_ROW_MODIFIED después de la eliminación de la fila. 
+- Es posible que los datos pasados en la estructura [TABLE_NOTIFICATION](table_notification.md) no representen el estado más actual de la tabla. Por ejemplo, es posible que un cliente realice un cambio en un mensaje y, a continuación, decida eliminarlo. El proveedor de almacenamiento de mensajes que implementa la tabla de contenido que incluye el mensaje envía dos notificaciones: un evento TABLE_ROW_MODIFIED seguido de un evento TABLE_ROW_DELETED. Según el modo en que el proveedor de almacenamiento de mensajes multiplica las notificaciones, es posible que el cliente reciba la notificación TABLE_ROW_MODIFIED después de eliminar la fila. 
     
-- El conjunto incluye con una notificación de columnas pueden ser diferente del conjunto actual de columna de la tabla. MAPI requiere que el conjunto de columnas de notificación coinciden con el conjunto de columnas que estaba en efecto en el momento en que se generó la notificación. Debido a que es posible que un cliente pueda llamar a [IMAPITable::SetColumns](imapitable-setcolumns.md) para modificar la columna establecer en cualquier momento, incluso después de una notificación: no se pueden sincronizar los conjuntos de dos columnas. 
+- El conjunto de columnas incluido en una notificación podría ser diferente al conjunto de columnas actual de la tabla. MAPI requiere que el conjunto de columnas de notificación se ajuste a la columna que estaba en vigor en el momento en que se generó la notificación. Debido a que es posible que un cliente llame a [IMAPITable:: SetColumns](imapitable-setcolumns.md) para alterar el conjunto de columnas en cualquier momento, incluso después de una notificación, es posible que los dos conjuntos de columnas no se sincronicen. 
     
-- Tabla solo se envían para las filas que forman parte de la vista. Es decir, si una fila se excluye de la vista debido a una restricción o porque la tabla está en un estado contraído, no se enviarán ninguna notificación si cambia de esa fila. Además, no se envían a informar a un cliente sobre un cambio en el estado de la categoría.
+- Las notificaciones de tabla solo se envían para las filas que forman parte de la vista. Es decir, si una fila se excluye de la vista debido a una restricción o porque la tabla está en estado contraído, no se enviará ninguna notificación si la fila cambia. Además, no se envía ninguna notificación para informar a un cliente sobre un cambio en el estado de la categoría.
     
-Los clientes deben tener en cuenta que no todas las tablas admiten la notificación TABLE_SORT_DONE y deben estar preparadas para controlar esta condición por:
+Los clientes deben tener en cuenta que no todas las tablas admiten la notificación TABLE_SORT_DONE y deben estar preparadas para controlar esta condición:
   
-1. Forzar la ordenación ser sincrónico.
+1. Obligar a la ordenación a ser sincrónica.
     
-2. Volver a cargar las filas de la tabla cuando [SortTable](imapitable-sorttable.md) devuelve. 
+2. Volver a cargar las filas de la tabla cuando se devuelve [IMAPITable:: SortTable](imapitable-sorttable.md) . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

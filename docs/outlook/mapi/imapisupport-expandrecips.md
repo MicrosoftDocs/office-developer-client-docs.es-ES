@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316530"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591016"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Finaliza la lista de destinatarios de un mensaje, expansión de las listas de distribución en particular.
+Completa la lista de destinatarios de un mensaje y expande listas de distribución particulares.
   
 ```cpp
 HRESULT ExpandRecips(
@@ -34,51 +34,51 @@ HRESULT ExpandRecips(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Un puntero al mensaje que tiene la lista de destinatarios que va a procesar.
+> a Un puntero al mensaje que tiene la lista de destinatarios que se procesará.
     
  _lpulFlags_
   
-> [out] Un puntero a una máscara de bits de indicadores que controla el tipo de procesamiento que se produce. Se pueden establecer los siguientes indicadores:
+> contempla Puntero a una máscara de máscara de marcadores que controla el tipo de procesamiento que se produce. Se pueden establecer los siguientes indicadores:
     
 NEEDS_PREPROCESSING 
   
-> El mensaje debe ser preprocesan antes de enviarlo.
+> Es necesario preprocesar el mensaje antes de enviarlo.
     
 NEEDS_SPOOLER 
   
-> La cola MAPI (en lugar de a la que el autor de la llamada se complementa el proveedor de transporte) debe enviar el mensaje.
+> La cola MAPI (en lugar del proveedor de transporte al que la persona que llama está estrechamente acoplada) debe enviar el mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Lista de destinatarios del mensaje se ha procesado correctamente.
+> La lista de destinatarios del mensaje se ha procesado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::ExpandRecips** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes llamada **ExpandRecips** para que solicite MAPI para llevar a cabo las siguientes tareas: 
+El método **IMAPISupport:: ExpandRecips** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **ExpandRecips** para pedir a MAPI que realice las siguientes tareas: 
   
-- Expanda algunas listas de distribución personales a los destinatarios de componente.
+- ExPanda algunas listas de distribución personales a sus destinatarios del componente.
     
 - Reemplace todos los nombres para mostrar que se han cambiado por los nombres originales.
     
-- Marcar las entradas duplicadas.
+- Marque las entradas duplicadas.
     
-- Resolver todas las direcciones de uso único. 
+- Resuelva todas las direcciones de un solo uso. 
     
-- Compruebe si el mensaje necesita preprocesamiento y, si es así, establezca la marca que señala _lpulFlags_ a NEEDS_PREPROCESSING. 
+- Compruebe si el mensaje necesita preprocesamiento y, si es así, establezca la marca apuntada por _lpulFlags_ a NEEDS_PREPROCESSING. 
     
- **ExpandRecips** se expande las listas de distribución que tengan el tipo de dirección de mensajería de MAPIPDL. 
+ **ExpandRecips** expande las listas de distribución que tienen el tipo de dirección de mensajería de MAPIPDL. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame siempre a **ExpandRecips** como parte de su procesamiento del mensaje. Realizar una llamada a **ExpandRecips** uno de la primera llamadas en la implementación del método [IMessage::SubmitMessage](imessage-submitmessage.md) . 
+Llame siempre a **ExpandRecips** como parte del procesamiento de mensajes. Realice una llamada a **ExpandRecips** una de las primeras llamadas en la implementación del método [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315095"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece un almacén local para emular al administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor.
+Establece un almacén local para emular el administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [entrada] Establezca este parámetro en True si el almacén local debe emular la cola de impresión; establézcalo en False si no. 
+>  a Establezca este parámetro en true si el almacén local debe emular la cola de impresión; de lo contrario, establézcalo en false. 
     
 ## <a name="remarks"></a>Comentarios
 
-Un almacén local llama a **IPSTX::EmulateSpooler** para que actúe como un Outlook protocolo administrador, los mensajes de la cola de impresión en la cola de salida para el servidor back-end (por ejemplo, el servidor MSN o AOL) para el procesamiento. El almacén de emula un administrador de cola durante la sincronización, a continuación, llama a estos dos métodos: 
+Un almacén local llama a **IPSTX:: EmulateSpooler** para actuar como administrador de protocolos de Outlook, poniendo en cola los mensajes de la cola de salida en el servidor back-end (por ejemplo, MSN Server o AOL Server) para su procesamiento. Emular una cola de impresión durante la sincronización, el almacén llama a estos dos métodos: 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obtener la cola de mensajes saliente en el almacén. Este método se ejecuta correctamente sólo si el almacén de emula al administrador de protocolos de Outlook. 
+1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obtener la cola de salida de mensajes en el almacén. Este método se ejecuta correctamente sólo si el almacén está emulando el administrador de protocolos de Outlook. 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** para proteger el acceso exclusivo a un mensaje en la cola de salida justo antes de enviar al servidor. Este método se ejecuta correctamente sólo si el almacén de emula al administrador de protocolos de Outlook. Después de enviar el mensaje, el almacén de llama a este método nuevo para liberar el único acceso a ella. 
+2. **[IMsgStore:: SetLockState](imsgstore-setlockstate.md)** para proteger el acceso único a un mensaje en la cola de salida justo antes de enviarlo al servidor. Este método se ejecuta correctamente sólo si el almacén está emulando el administrador de protocolos de Outlook. Después de enviar el mensaje, el almacén llama de nuevo a este método para liberar el acceso único al mismo. 
     
 > [!NOTE]
-> Con respecto a Outlook 2002, el Administrador de protocolos de Outlook reemplaza a la cola MAPI y se convirtió en responsable para los mensajes salientes de puesta en cola de los servidores back-end. 
+> Desde Outlook 2002, el administrador de protocolos de Outlook reemplazó la cola de espera de MAPI y se convirtió en poner en cola los mensajes salientes a los servidores back-end. 
   
 ## <a name="see-also"></a>Vea también
 

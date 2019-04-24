@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316208"
 ---
 # <a name="pidtagformversion-canonical-property"></a>Propiedad canónica PidTagFormVersion
 
@@ -32,33 +32,33 @@ Contiene la versión de un formulario.
 |Propiedades asociadas:  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
 |Identificador:  <br/> |0x3301  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI comunes  <br/> |
+|Área:  <br/> |Common MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades indican qué versión de diseño está actualmente en efecto para el formulario. La versión se define y mantiene el formulario del diseñador y no está necesariamente relacionado con cualquier versión de componente MAPI. 
+Estas propiedades indican qué versión de diseño está actualmente en vigor en el formulario. El diseñador del formulario define y mantiene la versión, que no está relacionada necesariamente con ninguna versión de componente MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

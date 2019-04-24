@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm1045
 localization_priority: Normal
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
-description: 'Determina la y-coordenadas del centro del bloque de texto de la rotación en relación con el origen de la forma. La fórmula predeterminada es:'
-ms.openlocfilehash: e8101463413b177bf8ddd80ed52964d3eeae788f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Determina la coordenada y del centro de rotación del bloque de texto en relación con el origen de la forma. La fórmula predeterminada es:'
+ms.openlocfilehash: fc62ac76aa24a698d956690df6e5d1e7cff3fb5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316425"
 ---
-# <a name="txtpiny-cell-text-transform-section"></a>Celda TxtPinY (sección Transformación de texto)
+# <a name="txtpiny-cell-text-transform-section"></a>Celda TxtPinY (Sección de transformación de texto)
 
-Determina la *y* -coordenadas del centro del bloque de texto de la rotación en relación con el origen de la forma. La fórmula predeterminada es: 
+Determina la coordenada *y* del centro de rotación del bloque de texto en relación con el origen de la forma. La fórmula predeterminada es: 
   
-= Alto \* 0,5
+= Altura \* 0,5
   
 ## <a name="remarks"></a>Comentarios
 

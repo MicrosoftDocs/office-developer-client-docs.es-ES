@@ -8,18 +8,18 @@ ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Obtenga información sobre cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
 localization_priority: Priority
 ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302712"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Cómo filtrar una vista con una macro en una aplicación de Access
 
 Obtenga información sobre cómo filtrar una vista en una aplicación de Access con la acción de macro RequeryRecords y una macro de datos.
   
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/es-ES/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
 
 La vista de lista predeterminada de una aplicación de Access permite filtrar los problemas de los valores que se encuentran en los campos. Puede haber ocasiones en que quiera filtrar una vista según un conjunto de condiciones, en lugar de que coincida con un valor. Para ello, debe crear una macro. En este artículo se muestra cómo crear una macro que filtre una vista para mostrar las tareas que están más allá de vencimiento o que vencerán en los próximos 7 días.
   

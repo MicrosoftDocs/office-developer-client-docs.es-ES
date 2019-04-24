@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 72f252791e374ed4b9b2a40c9b151ef2b91fefe6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 185bfbb151c4f8d4e36b40b94393d14d50c33edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318126"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 
@@ -21,40 +21,40 @@ ms.locfileid: "22588058"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El atributo **attMAPIProps** es especial en que se puede usar para codificar cualquier propiedad MAPI que no tiene un equivalente en el conjunto de atributos definidas por el TNEF existentes. Los datos del atributo están un conjunto contado de las propiedades MAPI que distribuyen un extremo a otro. El formato de codificación, lo cual permite cualquier conjunto de propiedades MAPI, que es como sigue:  
+El atributo **attMAPIProps** es especial en que se puede usar para codificar cualquier propiedad MAPI que no tenga un homólogo en el conjunto de atributos definidos de TNEF existentes. Los datos de atributo son un conjunto contado de propiedades MAPI que se establecen de extremo a extremo. El formato de esta codificación, que permite cualquier conjunto de propiedades MAPI, es el siguiente:  
   
  _Property_Seq:_
   
-> propiedad count _Property_Value..._
+> propiedad-Count _Property_Value,..._
     
-Debe haber tantos elementos _Property_Value_ tal y como indica el valor de la propiedad count. 
+Debe haber tantos elementos _Property_Value_ como indique Property-Count Value. 
   
  _Property_Value:_
   
-> etiqueta de la propiedad _Property_property etiqueta _Proptag_Name (propiedad)_
+> propiedad-Tag _Property_property-tag _Proptag_Name_
     
-La etiqueta de propiedad es simplemente el valor asociado con el identificador de la propiedad, como 0x0037001F para **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+La etiqueta de propiedad es simplemente el valor asociado al identificador de la propiedad, como 0x0037001F para **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
- _Propiedad:_
+ _Inspector_
   
->  Valor-recuento de _valor_ _valor..._
+>  __ Valor de valor _,..._ de valor de recuento
     
  _Valor:_
   
-> datos de valor valor tamaño-datos de valor espaciado espaciado interno de datos del valor de tamaño de valor valor-IID
+> valor de datos de valor-valor de tamaño-valor de relleno de datos-valor de tamaño-valor de IID-relleno de datos
     
  _Proptag_Name:_
   
-> relleno de nombre guid nombre del identificador de nombre de tipo de nombre-guid nombre tipo longitud de la cadena de nombre de la cadena de nombre
+> Name-GUID nombre-tipo nombre-ID nombre-identificador GUID nombre de la clase-cadena-longitud nombre-cadena-relleno
     
-La encapsulación de cada propiedad varía según el tipo de propiedad y el identificador de la propiedad. Tipos, identificadores y etiquetas de propiedad se definen en los archivos de encabezado Mapitags.h y Mapidefs.h.
+La encapsulación de cada propiedad varía en función del identificador de propiedad y del tipo de propiedad. Las etiquetas de propiedad, los identificadores y los tipos se definen en los archivos de encabezado Mapitags. h y Mapidefs. h.
   
-Si la propiedad es una propiedad con nombre, a continuación, la etiqueta de propiedad es seguida por el nombre de la propiedad MAPI, formado por un identificador único global (GUID), un tipo y un identificador o una cadena Unicode.
+Si la propiedad es una propiedad con nombre, la etiqueta de propiedad va seguida inmediatamente por el nombre de la propiedad MAPI, formado por un identificador único global (GUID), un tipo y un identificador o una cadena Unicode.
   
-Propiedades multivalor y las propiedades con valores de longitud variable, como los tipos de propiedad PT_BINARY, PT_STRING8, PT_UNICODE o pt Object, se tratan de la siguiente manera. En primer lugar el número de valores, que se codifica como un 32-bit sin firmar durante cuánto tiempo, se coloca en la secuencia TNEF, seguida de los valores individuales. Datos del valor de la propiedad se codifican como su tamaño en bytes seguido de los datos de valor propio. Los datos del valor se rellenen hasta un límite de 4 bytes, aunque no se incluye la cantidad de relleno en el tamaño del valor.
+Las propiedades y propiedades multivalor con valores de longitud variable, como los tipos de propiedad PT_BINARY, PT_STRING8, PT_UNICODE o PT Object, se tratan de la siguiente manera. En primer lugar, se coloca en la secuencia TNEF el número de valores, codificado como 32-bit unsigned Long, seguido de los valores individuales. Los datos de valor de cada propiedad se codifican como su tamaño en bytes seguidos de los propios datos de valor. Los datos de valor se rellenan a un límite de 4 bytes, aunque la cantidad de relleno no se incluye en el tamaño del valor.
   
-Si la propiedad es de tipo pt Object, el tamaño del valor es seguido por el identificador de interfaz del objeto. La implementación actual de TNEF sólo es compatible con los identificadores de interfaz IID_IMessage, IID_IStorage y IID_Istream. El tamaño del identificador de interfaz se incluye en el tamaño del valor.
+Si la propiedad es del tipo PT Object, el tamaño del valor va seguido del identificador de interfaz del objeto. La implementación actual de TNEF solo admite los identificadores de interfaz IID_IMessage, IID_IStorage y IID_Istream. El tamaño del identificador de interfaz se incluye en el valor-size.
   
-Si el objeto es un mensaje incrustado (es decir, tiene un tipo de propiedad de PT Object y un identificador de interfaz de IID_Imessage), los datos de valor se codifican como una secuencia de TNEF incrustada. La codificación real de un mensaje incrustado en la implementación de TNEF se realiza abriendo un segundo objeto TNEF de la secuencia original y el en línea de la secuencia de procesamiento.
+Si el objeto es un mensaje incrustado (es decir, tiene un tipo de propiedad de PT Object y un identificador de interfaz de IID_Imessage), los datos del valor se codifican como una secuencia TNEF incrustada. La codificación real de un mensaje incrustado en la implementación de TNEF se realiza abriendo un segundo objeto TNEF para la secuencia original y procesando la secuencia en línea.
   
 

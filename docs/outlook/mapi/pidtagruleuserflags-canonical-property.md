@@ -13,30 +13,30 @@ api_type:
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 235efce341e1870f0c33917f1c6d42b021727308
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321346"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>Propiedad canónica PidTagRuleUserFlags
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad se establece por el cliente para el uso exclusivo del cliente. 
+El cliente establece esta propiedad para el uso exclusivo del cliente. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RULE_USER_FLAGS  <br/> |
 |Identificador:  <br/> |0x6678  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Reglas del servidor  <br/> |
+|Área:  <br/> |Reglas del lado servidor  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El servidor debe conservar el valor de esta propiedad si se ha definido por el cliente. El servidor debe omitirlo durante el procesamiento y evaluación de la regla.
+El servidor debe conservar el valor de esta propiedad si lo estableció el cliente. El servidor debe omitirlo durante la evaluación y el procesamiento de la regla.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ El servidor debe conservar el valor de esta propiedad si se ha definido por el c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Manipula los mensajes de correo electrónico entrante en un servidor.
+> Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

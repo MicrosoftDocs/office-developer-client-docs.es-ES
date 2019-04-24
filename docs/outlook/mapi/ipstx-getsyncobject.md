@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31ef1f5c6af498f042ab766ae90fcfbce805700a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315088"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
@@ -33,17 +33,17 @@ HRESULT GetSyncObject(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppostx_
   
->  [out] Puntero a la interfaz **IOSTX** para obtener. 
+>  contempla Puntero a la interfaz **IOSTX** que se va a obtener. 
     
 ## <a name="remarks"></a>Comentarios
 
-El llamador debe asegurarse de que la misma carpeta no se sincroniza al mismo tiempo en más de un subproceso.
+El autor de la llamada debe asegurarse de que la misma carpeta no esté sincronizada al mismo tiempo en más de un subproceso.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

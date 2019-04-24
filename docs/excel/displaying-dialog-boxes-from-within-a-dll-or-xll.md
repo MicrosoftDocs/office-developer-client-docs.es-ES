@@ -1,30 +1,30 @@
 ---
-title: Mostrar cuadros de diálogo de un DLL o XLL
+title: Mostrar cuadros de diálogo desde una DLL o XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- XLL [excel 2007], mostrar cuadros de diálogo de cuadros de diálogo [Excel 2007], mostrar desde una DLL o XLL, archivos DLL [Excel 2007], mostrar cuadros de diálogo de
+- XLL [Excel 2007], Mostrar cuadros de diálogo de, cuadros de diálogo [Excel 2007], mostrar desde una DLL o XLL, dll [Excel 2007], Mostrar cuadros de diálogo de
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: afb21125bc54a2607a997c7b2f7c73ef2f528f28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b00430b047fe792afef701d210ccde06dd16216
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310944"
 ---
-# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>Mostrar cuadros de diálogo de un DLL o XLL
+# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>Mostrar cuadros de diálogo desde una DLL o XLL
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Para mostrar un cuadro de diálogo de Win32, por ejemplo, mediante la función de Windows SDK **DialogBox**, primero debe obtener la instancia completa de 32 bits y los identificadores de ventana principal de Excel. Para obtener más información, vea [acceso instancia de Excel y los identificadores de ventana principal](how-to-access-excel-instance-and-main-window-handles.md). 
+Para mostrar un cuadro de diálogo Win32 mediante, por ejemplo, la función **DialogBox**de Windows SDK, primero debe obtener la instancia completa de 32 bits y los identificadores de la ventana principal de Excel. Para obtener más información, consulte identificadores de [instancia de Excel y ventana principal](how-to-access-excel-instance-and-main-window-handles.md). 
   
-Suponiendo que el proyecto contiene el recurso de cuadro de diálogo, debe seguir varios pasos para establecer la rutina de tratamiento de mensajes en los el cuadro de diálogo mostrado recientemente y para restaurar el mensaje Excel rutina de control cuando se cierra el cuadro de diálogo. El comando de ejemplo [fShowDialog](fshowdialog.md) en el proyecto genérico, se muestra el uso de las funciones de Windows para hacer esto correctamente. 
+SuPoniendo que el proyecto contiene el recurso de cuadro de diálogo, debe realizar varios pasos para establecer la rutina de tratamiento de mensajes en el cuadro de diálogo que se acaba de mostrar y restaurar la rutina de tratamiento de mensajes de Excel cuando se cierra el cuadro de diálogo. El comando de ejemplo [fShowDialog](fshowdialog.md) en el proyecto genérico demuestra el uso de las funciones de Windows para hacer esto correctamente. 
   
-También puede mostrar cuadros de diálogo mediante la API de C sin tener que usar funciones del SDK de Windows. Sin embargo, las capacidades de cuadro de diálogo de la API de C son muy limitadas en comparación con los de Windows, Visual Basic para aplicaciones (VBA) o Microsoft Foundation Classes (MFC). (Por ejemplo, cuadros de diálogo de la API de C son siempre modales).
+También puede mostrar cuadros de diálogo mediante la API de C sin tener que usar funciones de Windows SDK. Sin embargo, las funciones de cuadro de diálogo de la API de C son muy limitadas en comparación con las de Windows, Visual Basic para aplicaciones (VBA) o Microsoft Foundation Classes (MFC). (Por ejemplo, los cuadros de diálogo de la API de C siempre son modales).
   
 ## <a name="see-also"></a>Vea también
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f66d0fb1fc9d252ff8b6985c4a54de79313266d1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bfddc24e6a9c7cf8bdeae1e5ea730ecdb116f564
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321591"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Presenta un cuadro de diálogo que permite al usuario seleccionar un contenedor de formulario y devuelve una interfaz para el objeto de contenedor seleccionado por el usuario.
+Presenta un cuadro de diálogo que permite al usuario seleccionar un contenedor de formularios y devuelve una interfaz para el objeto contenedor seleccionado por el usuario.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -35,31 +35,31 @@ HRESULT SelectFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo que se muestra. 
+> a Identificador de la ventana principal del cuadro de diálogo que se muestra. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se selecciona la biblioteca de formularios (es decir, cómo el contenedor de formulario está seleccionado). Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla cómo se selecciona la biblioteca de formularios (es decir, cómo se selecciona el contenedor de formularios). Se pueden establecer los siguientes indicadores:
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
-> Selección se puede realizar desde todos los contenedores. Éste es el tipo de selección de forma predeterminada. 
+> La selección se puede realizar desde todos los contenedores. Este es el tipo de selección predeterminada. 
     
 MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY 
   
-> Selección puede realizarse sólo de los contenedores de la carpeta.
+> La selección sólo se puede realizar desde contenedores de carpetas.
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> Selección puede realizarse sólo de los contenedores que no estén asociados con las carpetas.
+> La selección sólo se puede realizar desde contenedores que no estén asociados con carpetas.
     
  _lppfcnt_
   
-> [out] Un puntero a un puntero a la interfaz devuelta. Esta interfaz es para el objeto de contenedor que se ha seleccionado por el usuario.
+> contempla Un puntero a un puntero a la interfaz devuelta. Esta interfaz es para el objeto contenedor seleccionado por el usuario.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -69,15 +69,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario normalmente llama al método de **IMAPIFormMgr::SelectFormContainer** para seleccionar un contenedor de formulario en el que está instalado un formulario. **SelectFormContainer** no se puede usar para seleccionar el contenedor de forma local, que tiene el valor HFRMREG_LOCAL. 
+Los visores de formularios normalmente llaman al método **IMAPIFormMgr:: SelectFormContainer** para seleccionar un contenedor de formularios en el que se instala un formulario. **SelectFormContainer** no se puede usar para seleccionar el contenedor de formulario local, que tiene el valor HFRMREG_LOCAL. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr::SelectFormContainer** para seleccionar un contenedor de formulario antes de representar su contenido.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnSelectFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: SelectFormContainer** para seleccionar un contenedor de formulario antes de representar su contenido.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

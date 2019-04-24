@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2b2abf4440ee2d81a8e95dcdb5fde2daeaa6e6f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3913cb04f1f2f61ba6835b704f430d872756b227
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321738"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
@@ -25,33 +25,33 @@ ms.locfileid: "22575913"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso de las aplicaciones de cliente a las propiedades que son específicas de la definición del formulario. Al mantener la información del formulario en un objeto independiente, el proveedor de la biblioteca de formulario puede describir un formulario a un cliente sin activar el formulario.
+Proporciona a las aplicaciones cliente acceso a las propiedades que son específicas de la definición del formulario. Al mantener la información del formulario en un objeto independiente, el proveedor de la biblioteca de formularios puede describir un formulario para un cliente sin activar el formulario.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Expuestos por:  <br/> |Objetos de información de formulario  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de biblioteca de formulario  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Expuesto por:  <br/> |Objetos de información de formulario  <br/> |
+|Implementado por:  <br/> |Proveedores de bibliotecas de formularios  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormInfo  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMINFO  <br/> |
-|Modelo de transacciones:  <br/> |Nontransacted  <br/> |
+|Modelo de transacción:  <br/> |No transactd  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
-|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Devuelve un puntero a todo el conjunto de propiedades que utiliza un formulario.  <br/> |
-|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Devuelve un puntero a todo el conjunto de verbos que usa un formulario.  <br/> |
-|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Se basa en un icono de una propiedad de icono de un formulario.  <br/> |
-|[SaveForm](imapiforminfo-saveform.md) <br/> |Guarda una descripción de un formulario determinado en un archivo de configuración.  <br/> |
-|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Devuelve un puntero al contenedor de formulario en el que está instalado un formulario en particular.  <br/> |
+|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Devuelve un puntero al conjunto completo de propiedades que usa un formulario.  <br/> |
+|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Devuelve un puntero al conjunto completo de verbos que utiliza un formulario.  <br/> |
+|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Crea un icono a partir de una propiedad Icon de un formulario.  <br/> |
+|[SaveForm](imapiforminfo-saveform.md) <br/> |Guarda una descripción de un formulario en particular en un archivo de configuración.  <br/> |
+|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Devuelve un puntero al contenedor de formularios en el que se instala un formulario determinado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-A diferencia de la mayoría de las interfaces definida en el archivo de encabezado MapiForm.h, **IMAPIFormInfo** se hereda de la interfaz [IMAPIProp](imapipropiunknown.md) , debido a que exporta la mayoría información de formulario a través de las llamadas al método [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+A diferencia de la mayoría de las interfaces definidas en el archivo de encabezado MapiForm. h, **IMAPIFormInfo** hereda de la interfaz [IMAPIProp](imapipropiunknown.md) , porque exporta la mayoría de la información de formulario mediante llamadas al método [IMAPIProp:: GetProps](imapiprop-getprops.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

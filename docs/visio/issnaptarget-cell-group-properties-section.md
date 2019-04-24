@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: Determina si las formas se ajustan en un grupo o dentro de él.
-ms.openlocfilehash: 89536923617f80768d7c14658cb07c97595824ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317902"
 ---
-# <a name="issnaptarget-cell-group-properties-section"></a>Celda IsSnapTarget (sección Propiedades de grupo)
+# <a name="issnaptarget-cell-group-properties-section"></a>Celda IsSnapTarget (sección de propiedades de grupo)
 
 Determina si las formas se ajustan en un grupo o dentro de él.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Habilitar el ajuste a las formas dentro de un grupo.  <br/> |
 |FALSE  <br/> |Ajustar sólo al grupo.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede ajustar este valor si selecciona un grupo, hace clic en **Comportamiento** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, activa la casilla **Ajustar a las formas pertenecientes**. 
   

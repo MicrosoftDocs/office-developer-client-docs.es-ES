@@ -7,33 +7,33 @@ ms.topic: reference
 f1_keywords:
 - xlFree
 keywords:
-- función xlFree [excel 2007]
+- función xlFree [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2dd61ee5cd0e2e671cc47425689287b8a437732f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310223"
 ---
 # <a name="xlfree"></a>xlFree
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para liberar memoria recursos asignados por Microsoft Excel al crear la devolución de valor **XLOPER**/ **XLOPER12** en una llamada a [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)o [Excel12v](excel4v-excel12v.md). La función **xlFree** libera la memoria auxiliar y restablece el puntero en **NULL** , pero no destruye otras partes de la **XLOPER**/ **XLOPER12**.
+Se usa para liberar recursos de memoria asignados por Microsoft Excel al crear el valor devuelto **XLOPER**/ **XLOPER12** en una llamada a [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)o [Excel12v](excel4v-excel12v.md). La función **xlFree** libera la memoria auxiliar y restablece el puntero a **null** , pero no destruye otras partes de la**XLOPER12**de **XLOPER**/ .
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _px_1,..., px_n_
   
-Uno o más **XLOPER**/ s**XLOPER12**liberarse. En las versiones de Excel hasta 2003, el número máximo de punteros que se pueden pasar es 30. Iniciar en Excel 2007, se aumenta a 255.
+Uno o más ****/ **XLOPER12**XLOPER s que se van a liberar. En versiones de Excel de hasta 2003, el número máximo de punteros que se pueden pasar es 30. A partir de Excel 2007, se incrementa a 255.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -41,13 +41,13 @@ Esta función no devuelve un valor.
   
 ## <a name="remarks"></a>Comentarios
 
-Debe liberar cada **XLOPER** que se obtiene como un valor devuelto de **Excel4** o **Excel4v** y cada **XLOPER12** que se obtiene como valor devuelto desde **Excel12** o **Excel12v** si son uno de los siguientes tipos: xltypeStr ** **, **xltypeMulti**o **xltypeRef**. Siempre es seguro libre a otros tipos incluso si no usan memoria auxiliar, siempre que obtuvo de **Excel4** o **Excel12**.
+Debe liberar todos los **XLOPER** que reciba como un valor devuelto desde **Excel4** o **Excel4v** y cada **XLOPER12** que se obtiene como un valor devuelto de **Excel12** o **Excel12v** si son uno de los siguientes tipos: **xltypeStr **, **XltypeMulti**o **xltypeRef**. Siempre es seguro liberar otros tipos incluso si no usan memoria auxiliar, siempre y cuando los haya obtenido de **Excel4** o **Excel12**.
   
-Donde se va a devolver a Excel un puntero a un **XLOPER**/ **XLOPER12** que aún contiene memoria asignada de Excel que se va a liberar, debe establecer el **xlbitXLFree** para garantizar la memoria de versiones de Excel. 
+Cuando regrese a Excel un puntero a un **XLOPER XLOPER**/ **** que aún contiene memoria asignada a Excel que se va a liberar, debe establecer **xlbitXLFree** para asegurarse de que Excel libera la memoria. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se llama **obtener. WORKSPACE(1)** para devolver la plataforma en que Excel se está ejecutando como una cadena. El código copia este valor devuelto de cadena en un búfer para usarlo más adelante. El código coloca el búfer de copia en el **XLOPER12** para usarlo más adelante con la función de Excel. Por último, el código muestra la cadena en un cuadro de alerta. 
+En este ejemplo se llama a **get. ÁREA de trabajo (1)** para devolver la plataforma en la que se está ejecutando Excel actualmente como una cadena. El código copia esta cadena devuelta en un búfer para su uso posterior. El código vuelve a colocar el búfer en **XLOPER12** para su uso posterior con la función de Excel. Por último, el código muestra la cadena en un cuadro de alerta. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

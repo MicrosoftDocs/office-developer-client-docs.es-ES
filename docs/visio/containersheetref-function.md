@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: Devuelve una hoja de referencia al contenedor especificado que contiene la forma.
-ms.openlocfilehash: 6392b4c1a2652f1a831dc585c0be0f430a5ffe0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318987"
 ---
 # <a name="containersheetref-function"></a>Función CONTAINERSHEETREF
 
@@ -25,30 +25,30 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-CONTAINERSHEETREF (** *índice* ** ** *[, categoría]* **) 
+CONTAINERSHEETREF (* * *Índice* * * * * *[, categoría]* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Índice basado en 1 del contenedor. Para obtener más información, vea los comentarios.  <br/> |
-| _category_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
+| _index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Índice basado en 1 del contenedor. Para obtener más información, vea los Comentarios.  <br/> |
+| _Categoría_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Referencia de ShapeSheet
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El índice de un contenedor se calcula a partir del orden Z de los contenedores, de delante hacia atrás.
   
- *Las categorías* son cadenas definidas por el usuario que puede usar para clasificar las formas. Puede definir las categorías en la celda User.msvShapeCategories de la ShapeSheet de una forma. Puede definir varias categorías de una forma, separe las categorías con punto y coma. 
+ Las *categorías* son cadenas definidas por el usuario que puede usar para clasificar formas. Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma. Puede definir varias categorías para una forma si las separa con punto y coma. 
   
 Si la forma no es miembro de un contenedor o si no hay un contenedor que concuerde tanto con la categoría como con el número de índice especificados, CONTAINERSHEETREF devuelve #REF!.
   
 ## <a name="example"></a>Ejemplo
 
-CONTAINERSHEETREF(1)!Height 
+CONTAINERSHEETREF (1)! Alto 
   
 Devuelve el valor de la celda Height del contenedor que se encuentra más hacia delante en la página a la que pertenece la forma. 
   

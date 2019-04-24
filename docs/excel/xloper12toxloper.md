@@ -7,56 +7,56 @@ ms.topic: reference
 f1_keywords:
 - XLOper12ToXLOper
 keywords:
-- xloper12toxloper (función) [excel 2007]
+- función xloper12toxloper [Excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2c06102699db8810da803ecc0ddfa30375fcc125
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 148353dcec1cc051aa44d18c0a081b6623e3759a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310076"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Rutina de conversión que se usa para convertir de nuevo **XLOPER12** a la antigua **XLOPER**.
+Rutina de conversión que se usa para convertir del nuevo **XLOPER12** al **XLOPER**anterior.
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxloper12_ (**LPXLOPER12**)
   
-Puntero al origen de **XLOPER12** que se va a convertir. 
+Puntero al **XLOPER12** de origen que se va a convertir. 
   
 _pxloper_ (**LPXLOPER**)
   
-Puntero al destino **XLOPER** para contener el valor convertido. 
+Puntero al **XLOPER** de destino que contendrá el valor convertido. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-**TRUE** si la conversión se ha realizado correctamente, **FALSE** en caso contrario. 
+**True** si la conversión se realizó correctamente; de lo contrario, **false** . 
   
 ## <a name="remarks"></a>Comentarios
 
-Según el tipo de **XLOPER12**, esta función asigna un nuevo búfer de memoria para los valores convertidos, que se hace referencia en el destino **XLOPER**. El autor de la llamada es responsable de liberar cualquier memoria asociada con la copia si la conversión es un éxito; Se puede usar **FreeXLOperT** , o se puede realizar directamente mediante el uso de **libre**.
+Según el tipo de **XLOPER12**, esta función asigna un nuevo búfer de memoria para los valores convertidos, que se señalan en el **XLOPER**de destino. El autor de la llamada es responsable de liberar cualquier memoria asociada a la copia si la conversión es un éxito; **FreeXLOperT** se puede usar o puede realizarse directamente con **Free**.
   
-Si se produce un error en la conversión, el autor de la llamada no necesita liberar cualquier memoria.
+Si se produce un error en la conversión, el autor de la llamada no necesita liberar memoria.
   
-Puede producirse un error en la conversión de un **XLOPER12** a un **XLOPER** cuando **XLOPER12** contiene una matriz o referencia que es demasiado grande o una cadena que es demasiado larga para el **XLOPER** contener. 
+Se puede producir un error en la conversión de un **XLOPER12** a un **XLOPER** cuando el **XLOPER12** contiene una matriz o referencia demasiado grande o una cadena demasiado larga para que **XLOPER** la contenga. 
   
-**XLOPER12** Cadenas de caracteres anchos de Unicode se convierten en cadenas de bytes **XLOPER** ASCII en un modo que sea configuración regional-dependiente. 
+**XLOPER12** Las cadenas Unicode de caracteres anchos se convierten en cadenas de bytes ASCII de **XLOPER** de manera que dependen de la configuración regional. 
   
-El **XLOPER12** **xltypeInt** es un entero con signo de 32 bits, mientras que el **XLOPER** **xltypeInt** es un entero con signo de 16 bits. Cuando un entero **XLOPER12** proporcionado supera el límite de entero **XLOPER** , el número entero se convierte en un doble de 8 bytes y se devuelven en un **XLOPER** de tipo **xltypeNum**. Esto es el único caso en que esta función cambia el tipo de la convertida **XLOPER**.
+El **** **xltypeInt** XLOPER12 es un entero con signo de 32 bits, mientras que el **xltypeInt** de **XLOPER** es un entero de 16 bits con signo. Cuando un entero de **XLOPER12** proporcionado supera el límite de un tipo entero **XLOPER** , el entero se convierte en un Double de 8 bytes y se devuelve en un **XLOPER** de tipo **xltypeNum**. Este es el único caso en el que esta función cambia el tipo del **XLOPER**convertido.
   
 ### <a name="example"></a>Ejemplo
 
-Consulte el archivo `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para el código para esta función. 
+Vea el archivo `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para obtener el código de esta función. 
   
 ## <a name="see-also"></a>Vea también
 

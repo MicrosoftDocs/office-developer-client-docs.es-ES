@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b2ee5aa-7639-d86d-447e-50bda54aa3ec
-description: Libera memoria asignada por la interfaz IOlkAccount.
-ms.openlocfilehash: ce3046db29cb2cac7d7ee72a3e4e9125346a4ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Libera la memoria asignada por la interfaz IOlkAccount.
+ms.openlocfilehash: a7f763ba4fc260a517f8b7df4d3791f4a8fd23b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321339"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-Libera memoria asignada por la interfaz [IOlkAccount](iolkaccount.md) . 
+Libera la memoria asignada por la interfaz [IOlkAccount](iolkaccount.md) . 
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::FreeMemory (  
@@ -29,19 +29,19 @@ HRESULT IOlkAccount::FreeMemory (
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_PV_
+_argumento_
   
-> [entrada] Un puntero a la memoria que se va a liberar.
+> a Puntero a la memoria que se va a liberar.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Use este método para liberar memoria asignada por [IOlkAccount::GetProp](iolkaccount-getprop.md) (si el valor de la propiedad de la cuenta especificada es un tipo de archivo binario o cadena) y [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
+Use este método para liberar la memoria asignada por [IOlkAccount:: GetProp](iolkaccount-getprop.md) (si el valor de la propiedad Account especificada es un tipo binary o String) y [IOlkAccount:: GetAccountInfo](iolkaccount-getaccountinfo.md).
   
 ## <a name="see-also"></a>Vea también
 

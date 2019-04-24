@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6c09c271fefcf31dcde01526d65091714c0b682d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e274e24d9aff30bb39b1865306477164d413d9a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319176"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
@@ -25,12 +25,12 @@ ms.locfileid: "22576277"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de punteros a objetos de información del formulario. 
+Contiene una matriz de punteros a objetos de información de formulario. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Macro relacionado:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Macro relacionada:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,11 +45,11 @@ typedef struct
 
  **cForms**
   
-> Recuento de punteros de la matriz indicada por el miembro **aFormInfo** . 
+> Número de punteros en la matriz a la que señala el miembro **aFormInfo** . 
     
  **aFormInfo**
   
-> Puntero a una matriz de punteros a objetos de información del formulario.
+> Puntero a una matriz de punteros a objetos de información de formulario.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -63,7 +63,7 @@ La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

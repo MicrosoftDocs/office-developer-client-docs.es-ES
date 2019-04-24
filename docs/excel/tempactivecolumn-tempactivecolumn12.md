@@ -8,41 +8,41 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- tempactivecolumn12 (función) [excel 2007], TempActiveColumn (función) [Excel 2007]
+- función tempactivecolumn12 [Excel 2007], TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1399a407e3e269b78c7afbde8ff32c126b4b1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310475"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funciones de la biblioteca de Framework que creación un temporal **XLOPER**/ **XLOPER12** que contiene una referencia externa a una columna completa en la hoja activa. 
+Funciones de biblioteca de .NET Framework que crean una**XLOPER12** de **XLOPER**/ temporal que contiene una referencia externa a una columna completa de la hoja activa. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
 LPXLOPER12 TempActiveColumn12(COL col);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _col_ (**Bytes**)
+ _col_ (**Byte**)
   
-Para hacer referencia a la columna. Esto es basado en cero, por lo que una columna se pasa como 0. En Microsoft Office Excel 2003 y anteriores versiones y a partir de Excel 2007 que se ejecuta un libro en modo de compatibilidad, el valor máximo es 255 = 2 ^ 8-1 y es el valor máximo que se puede adoptar un entero de BYTE. A partir de que ejecuta un libro de Excel 2007, el valor máximo es 16.383 = 2 ^ 14-1. COL se define como un entero con signo de 32 bits en XLCALL. H.
+Columna a la que se va a hacer referencia. Se basa en cero para que la columna A se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutar un libro en modo de compatibilidad, el valor máximo es 255 = 2 ^ 8-1 y es el valor máximo que puede tomar un entero de BYTEs. A partir de Excel 2007, al ejecutar un libro, el valor máximo es 16.383 = 2 ^ 14-1. COL se define como un entero con signo de 32 bits en XLCALL. H.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve una referencia externa de **xltypeRef** a la columna que se pasó. 
+Devuelve una referencia externa **xltypeRef** a la columna que se ha pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente, se utiliza **TempActiveColumn12** para seleccionar toda la columna B. 
+En el siguiente ejemplo, se usa **TempActiveColumn12** para seleccionar toda la columna B. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

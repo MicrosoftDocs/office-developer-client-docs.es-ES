@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2d51f4b-d64e-fd14-4ff1-ed67c69213bc
 description: Habilita y deshabilita la presentación del rectángulo de selección para la forma seleccionada.
-ms.openlocfilehash: c8e5fe28197a72b4cdb5306732dd155dc8f4f810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ff9f051df54f4d424589332b9fbaea973552edc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319862"
 ---
-# <a name="noalignbox-cell-miscellaneous-section"></a>Celda NoAlignBox (sección Varios)
+# <a name="noalignbox-cell-miscellaneous-section"></a>Celda NoAlignBox (sección de varios)
 
 Habilita y deshabilita la presentación del rectángulo de selección para la forma seleccionada.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El rectángulo de selección no se muestra cuando se selecciona la forma.  <br/> |
 | FALSE  <br/> | El rectángulo de selección no se muestra cuando se selecciona la forma.  <br/> |

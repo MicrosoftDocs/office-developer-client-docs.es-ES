@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: baf45fa33ca085f51a6f9c20f72ec1fd1545ad79
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9e55153830dbe41a2b4a48454157c900d96cf90
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315375"
 ---
 # <a name="uladdref"></a>UlAddRef
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592377"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona una manera alternativa para invocar el método OLE **IUnknown:: AddRef**. 
+Proporciona una forma alternativa para invocar al método OLE **IUnknown:: AddRef**. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 ULONG UlAddRef(
@@ -39,11 +39,11 @@ ULONG UlAddRef(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _pUnk_
+ _punk_
   
-> [entrada] Puntero a una interfaz derivada de la interfaz **IUnknown** , en otras palabras cualquier interfaz MAPI. 
+> a Puntero a una interfaz derivada de la interfaz **IUnknown** , en otras palabras, cualquier interfaz MAPI. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,12 +53,12 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Un error de origen desconocido o inesperado no puede completar la operación.
+> Un error de origen inesperado o desconocido impidió que se completara la operación.
     
 ## <a name="remarks"></a>Comentarios
 
  **UlAddRef** devuelve el valor devuelto por el método **IUnknown:: AddRef** , que es el nuevo valor del recuento de referencias para la interfaz. El valor es distinto de cero. 
   
-Para obtener más información acerca de **IUnknown:: AddRef**, vea [implementación de la interfaz IUnknown](implementing-the-iunknown-interface.md). 
+Para obtener más información acerca de **IUnknown:: AddRef**, vea [implementar la interfaz IUnknown](implementing-the-iunknown-interface.md). 
   
 

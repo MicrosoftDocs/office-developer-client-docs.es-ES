@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: Devuelve un valor de tipo string que describe un tipo de objeto interno.
-ms.openlocfilehash: ee00341042e0d36e5f9cd9fde42622f904f4c3ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve una cadena que describe el tipo interno de un objeto.
+ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316418"
 ---
 # <a name="typedesc-function"></a>Función TYPEDESC
 
-Devuelve un valor de tipo string que describe un tipo de objeto interno. 
+Devuelve una cadena que describe el tipo interno de un objeto. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,7 +28,7 @@ TYPEDESC ()
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La tabla siguiente enumera las cadenas descriptivas de los objetos internos.
   

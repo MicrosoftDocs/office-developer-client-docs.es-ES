@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
-description: Obtiene la información de tipo y las categorías de la cuenta especificada.
-ms.openlocfilehash: 85f27d1d5f47a372090b208821b52656a56559ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtiene la información de tipos y categorías de la cuenta especificada.
+ms.openlocfilehash: 88021537cc7ff4c55759081e6f3619c2a9f10ea3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318189"
 ---
 # <a name="iolkaccountgetaccountinfo"></a>IOlkAccount::GetAccountInfo
 
-Obtiene la información de tipo y las categorías de la cuenta especificada.
+Obtiene la información de tipos y categorías de la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetAccountInfo(  
@@ -31,11 +31,11 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pclsidType_
   
-> [out] El identificador de clase para el tipo de cuenta. El valor debe ser uno de estos procedimientos:
+> contempla El identificador de clase para el tipo de cuenta. El valor debe ser uno de estos procedimientos:
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> [out] El número de categorías en _prgclsidCategory_.
+> contempla El número de categorías en _prgclsidCategory_.
     
 _prgclsidCategory_
   
-> [out] Una matriz de categorías a las que está asociada esta cuenta. La matriz es de tamaño * _pcCategories_. El valor de cada categoría de la matriz debe ser uno de estos procedimientos:
+> contempla Matriz de categorías a las que está asociada esta cuenta. La matriz tiene el tamaño * _pcCategories_. El valor de cada categoría de la matriz debe ser uno de los siguientes:
     
    - CLSID_OlkMail
     
@@ -65,11 +65,11 @@ _prgclsidCategory_
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Después de que devuelve este método, debe liberar *prgclsidCategory* mediante [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Después de que se devuelva este método, debe liberar *prgclsidCategory* mediante [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es un intercambio cuenta (*pclsidType* es **CLSID_OlkMAPIAccount** ) y la cuenta implementa la libreta de direcciones, llamada **IOlkAccount::GetAccountInfo** no devolverá **CLSID_OlkAddressBook** como una categoría en * prgclsidCategory* . 
+**IOlkAccount:: GetAccountInfo** no admite la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ) y la cuenta implementa la libreta de direcciones, al llamar a **IOlkAccount:: GetAccountInfo** no se devolverá **CLSID_OlkAddressBook** como una categoría en * prgclsidCategory* . 
   
 ## <a name="see-also"></a>Vea también
 

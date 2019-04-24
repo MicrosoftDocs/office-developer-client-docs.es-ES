@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 822b4164737aa6010ccce108b544410104ac023d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315473"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -25,28 +25,28 @@ ms.locfileid: "22575871"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera la lista de registros para el archivo de carpetas personales (.pst).
+Recupera la lista de registros del archivo de carpetas personales (. pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppmval_
   
-> [entrada] Un puntero a un puntero a una estructura [SPropValue](spropvalue.md) . El miembro ulPropTag de esta estructura es del tipo PT_MV_UNICODE, y el miembro de valor MVszW será una matriz de cadenas de Unicode terminada en null. Estas cadenas son las rutas de acceso a los archivos DLL para el que se ha conservado el registro. 
+> a Un puntero a un puntero a una estructura [SPropValue](spropvalue.md) . El miembro ulPropTag de esta estructura es del tipo PT_MV_UNICODE y el miembro del valor MVszW será una matriz de cadenas Unicode terminadas en NULL. Estas cadenas son rutas de archivos DLL para las que se ha conservado el registro. 
     
 > [!NOTE]
-> no se implementa la compatibilidad con .pst ANSI. 
+> no se ha implementado la compatibilidad con. pst para ANSI. 
   
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada a la función fue correcta.
+> La llamada a la función se realizó correctamente.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

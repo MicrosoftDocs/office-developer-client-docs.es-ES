@@ -8,22 +8,22 @@ f1_keywords:
 - TempStr12
 - TempStrConst
 keywords:
-- tempstr12 (función) [excel 2007], TempStrConst (función) [Excel 2007]
+- función tempstr12 [Excel 2007], TempStrConst [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 321c41aa87a3bfa0edc1d77ecc8fbe4b6a6a4730
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d93f9de021c7ba325d9c11af2cede0245ffbbf6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310328"
 ---
 # <a name="tempstrconsttempstr12"></a>TempStrConst/TempStr12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER y XLOPER12** que contiene una cadena **xltypeStr** , tomando una cadena terminada en null de origen como entrada. La función asigna un nuevo búfer de memoria y copia la cadena que se pasan en él. La cadena de entrada no se ha modificado y por lo que se declara como **const**.
+Función de biblioteca de .NET Framework que crea un **XLOPER o XLOPER12** temporal que contiene una cadena **xltypeStr** , que toma una cadena de origen terminada en NULL como entrada. La función asigna un nuevo búfer de memoria y copia la cadena que se ha pasado en ella. La cadena de entrada no se altera y, por lo tanto, se declara como **const**.
   
 ```cs
 LPXLOPER TempStrConst(const LPSTR str);
@@ -34,19 +34,19 @@ LPXLOPER12 TempStr12(const XCHAR* lpstr);
 
  _str_
   
-Un puntero a la cadena de origen terminada en null. En el caso de s **XLOPER**, TempStrConst trunca cadenas que son mayores de 255 bytes. En el caso de s **XLOPER12**, TempStr12Const trunca cadenas que son más de 32.767 caracteres Unicode.
+Un puntero a la cadena de origen terminada en nulo. En el caso de **XLOPER**s, TempStrConst trunca las cadenas que tienen más de 255 bytes. En el caso de **XLOPER12**s, TempStr12Const trunca las cadenas que tienen más de 32.767 caracteres Unicode.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve una cadena de **xltypeStr** que contiene una copia del búfer se pasan en la cadena. 
+Devuelve una cadena **xltypeStr** que contiene una copia del búfer de cadena pasado en. 
   
 ## <a name="remarks"></a>Comentarios
 
-Tenga en cuenta que la cadena **XLOPER** función Framework, **TempStr**, se comporta de manera diferente e intenta sobrescribir el primer carácter de la cadena proporcionada con la longitud de cadena subsiguientes. No siempre es algo seguro: Microsoft Excel podría bloquearse si se pasa una cadena de sólo lectura. Este modo de creación de cadenas temporales ahora está en desuso en favor de la manera en que trabajan **TempStrConst** y **TempStr12** . Por lo tanto, el primer carácter de la cadena de entrada se trata como el inicio de la cadena, es decir, no como un carácter de longitud o como un espacio para un carácter de longitud. No debe pasar las cadenas que tienen un carácter de longitud codificado al principio, como las consecuencias podrían ser impredecibles. 
+Tenga en cuenta que la función de marco de cadena **XLOPER** , **TempStr**, se comporta de manera diferente e intenta sobrescribir el primer carácter de la cadena proporcionada con la longitud de la cadena subsiguiente. No siempre es un aspecto seguro que hacer: Microsoft Excel puede bloquearse si se pasa una cadena de solo lectura. Esta manera de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan tanto **TempStrConst** como **TempStr12** . Por lo tanto, el primer carácter de la cadena de entrada se trata como el inicio de la cadena, es decir, no como un carácter de longitud o como un espacio para un carácter de longitud. No debe pasar cadenas que tengan un carácter de longitud codificado al inicio, ya que las consecuencias podrían ser imprevisibles. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la función **TempStr12** para crear una cadena de un cuadro de mensaje. 
+En este ejemplo, se usa la función **TempStr12** para crear una cadena para un cuadro de mensaje. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

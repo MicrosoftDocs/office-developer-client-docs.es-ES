@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d4dc72309ff090317b2353cab0b4fc2c5be41181
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318217"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
@@ -21,9 +21,9 @@ ms.locfileid: "22565749"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indicadores de mensaje MAPI se asignan a marcas TNEF para preservar la compatibilidad con versiones anteriores. Todos los indicadores se agrupan juntos y codificados en un solo byte. Las asignaciones son los siguientes:
+Las marcas de mensajes MAPI se asignan a las marcas TNEF para mantener la compatibilidad con versiones anteriores. Todas las marcas se agrupan y se codifican en un solo byte. Las asignaciones son las siguientes:
   
-|**Indicadores de mensaje MAPI**|**Indicadores TNEF**|
+|**Marcas de mensaje MAPI**|**Marcas TNEF**|
 |:-----|:-----|
 |MSGFLAG_READ  <br/> |fmsRead  <br/> |
 |MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
@@ -31,6 +31,6 @@ Indicadores de mensaje MAPI se asignan a marcas TNEF para preservar la compatibi
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Estos marcadores se definen en el TNEF. Archivo de encabezado H.
+Estas marcas se definen en la TNEF. H archivo de encabezado.
   
 

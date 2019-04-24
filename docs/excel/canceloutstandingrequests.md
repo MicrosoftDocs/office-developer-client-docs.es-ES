@@ -7,36 +7,36 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 65d4257037b18c8fa68cabe0c08091ec67343fa5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882458ab096cbced8e0635dab65fe0b1d680388f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311000"
 ---
 # <a name="canceloutstandingrequests"></a>CancelOutstandingRequests
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Informa el conector de clúster que se ha cancelado un cálculo de Excel y, por lo tanto, todos los pendientes llamadas a la función dentro de esa sesión es posible que se puede cancelar así como (y que Excel no espera las devoluciones de llamada con sus resultados).
+Informa al conector de clúster de que se ha cancelado un cálculo de Excel y, por lo tanto, se pueden cancelar todas las llamadas de función pendientes dentro de esa sesión (y que Excel no espera las devoluciones de llamada con sus resultados).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _SessionID_
   
-> El identificador de la sesión usado por el cálculo cancelado. Este valor coincide con el valor devuelto por [OpenSession](opensession.md).
+> IDENTIFICADOR de la sesión usada por el cálculo cancelado. Este valor coincide con el valor devuelto por [OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si el argumento de _SessionId_ es válido; **xlHpcRetInvalidSessionId** si el argumento de _SessionId_ no es válido; **xlHpcRetCallFailed** en otros errores. 
+**xlHpcRetSuccess** si el argumento _SessionID_ es válido; **xlHpcRetInvalidSessionId** si el argumento _SessionID_ no es válido; **xlHpcRetCallFailed** en otros errores. 
   
 ## <a name="remarks"></a>Comentarios
 
-Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, como los resultados recibidos después de esta llamada se descartarán por Excel.
+Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, como cualquier resultado que se haya recibido después de que Excel descartará esta llamada.
   
 ## <a name="see-also"></a>Vea también
 

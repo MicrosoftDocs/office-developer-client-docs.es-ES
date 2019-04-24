@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: Devuelve, para cada usuario especificado, una interfaz para enumerar los bloques de libre/ocupado de datos dentro de un intervalo de tiempo.
-ms.openlocfilehash: 9af5a40da9f0a831de7346b44cee9ca004c02300
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve, para cada usuario especificado, una interfaz para enumerar los bloques de disponibilidad de datos dentro de un intervalo de tiempo.
+ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319407"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-Devuelve, para cada usuario especificado, una interfaz para enumerar los bloques de libre/ocupado de datos dentro de un intervalo de tiempo. 
+Devuelve, para cada usuario especificado, una interfaz para enumerar los bloques de disponibilidad de datos dentro de un intervalo de tiempo. 
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IFreeBusySupport](ifreebusysupport.md).
+Consulte [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT LoadFreeBusyData( 
@@ -32,30 +32,30 @@ HRESULT LoadFreeBusyData(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_Cmáx_
+_cMax_
   
-> [entrada] El número de interfaces de [IFreeBusyData](ifreebusydata.md) para devolver. 
+> a Número de interfaces de [IFreeBusyData](ifreebusydata.md) que se devolverán. 
     
 _rgfbuser_
   
-> [entrada] La matriz de disponibilidad a los usuarios para recuperar datos.
+> a La matriz de usuarios de disponibilidad para el que se recuperarán los datos.
     
 _prgfbdata_
   
-> [entrada] [out] La matriz de interfaces de **IFreeBusyData** que corresponden a la matriz _rgfbuser_ de estructuras [FBUser](fbuser.md) . 
+> a contempla Matriz de interfaces de **IFreeBusyData** que corresponden a la matriz _Rgfbuser_ de estructuras [FBUser](fbuser.md) . 
     
    > [!NOTE]
-   > Esta matriz de punteros es asignada por el autor de la llamada y libera el autor de la llamada. Las interfaces real que señala se liberan cuando el autor de la llamada se realiza con ellos. 
+   > Esta matriz de punteros la asigna el autor de la llamada y la libera el autor de la llamada. Las interfaces reales que apuntan se sueltan cuando el autor de la llamada se hace con ellas. 
   
 _phrStatus_
   
-> [out] La matriz de resultados **HRESULT** para recuperar cada interfaz **IFreeBusyData** correspondiente. El valor puede ser NULL. Un resultado se establece en S_OK si correspondiente _prgfbdata_ es válida. 
+> contempla La matriz de **HRESULT** produce la recuperación de cada interfaz **IFreeBusyData** correspondiente. El valor puede ser NULL. Un resultado se establece en S_OK si la _prgfbdata_ correspondiente es válida. 
     
 _pcRead_
   
->  [out] El número real de los usuarios para el que se ha encontrado una interfaz **IFreeBusyData** . 
+>  contempla El número real de usuarios para los que se ha encontrado una interfaz **IFreeBusyData** . 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -63,5 +63,5 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
   
 ## <a name="see-also"></a>Vea también
 
-- [Constantes (API de libre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 

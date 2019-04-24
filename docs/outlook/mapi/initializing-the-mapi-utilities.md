@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 02b14285-bbef-44f2-b2a4-45d96395998a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d0507a26b9ae5ae018111e2771e3af8b25761786
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5c5a9355e9edec28e08986ccd055fc43eec7b974
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317223"
 ---
 # <a name="initializing-the-mapi-utilities"></a>Inicializar las herramientas MAPI
 
@@ -21,10 +21,10 @@ ms.locfileid: "22567674"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si la única parte de MAPI que necesita para usar son las utilidades, las interfaces y funciones declaran en MAPIUTIL de MAPI. Archivo de encabezado según se trate como **IPropData** y **ITableData** : no es necesario llamar a **MAPIInitialize** para la inicialización. Para obtener más información, vea [IPropData: IMAPIProp](ipropdataimapiprop.md), [ITableData: IUnknown](itabledataiunknown.md)y [MAPIInitialize](mapiinitialize.md). En su lugar, llame a la función **ScInitMapiUtil** . Para obtener más información, vea [ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil** permite que las aplicaciones de cliente usar las funciones de utilidad y métodos que requieren asignadores de MAPI, pero que no los pida explícitamente. 
+Si la única parte de MAPI que debe usar son las utilidades, las interfaces y las funciones declaradas en la MAPIUTIL de MAPI. H, como **IPropData** y **ITableData** , no es necesario llamar a **MAPIInitialize** para la inicialización. Para obtener más información, vea [IPropData: IMAPIProp](ipropdataimapiprop.md), [ITableData: IUnknown](itabledataiunknown.md)y [MAPIInitialize](mapiinitialize.md). En su lugar, llame a la función **ScInitMapiUtil** . Para obtener más información, vea [ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil** permite a las aplicaciones cliente utilizar funciones y métodos de utilidad que requieren asignadores MAPI, pero que no las solicitan explícitamente. 
   
-Durante el apagado, realice una llamada a **DeinitMapiUtil** para liberar recursos conectados a las utilidades. No llame a **MAPIUninitialize**. Para obtener más información, vea [DeinitMapiUtil](deinitmapiutil.md) y [MAPIUninitialize](mapiuninitialize.md).
+En el momento del cierre, haga una llamada a **DeinitMapiUtil** para liberar los recursos conectados a las utilidades. No llame a **MAPIUninitialize**. Para obtener más información, vea [DeinitMapiUtil](deinitmapiutil.md) y [MAPIUninitialize](mapiuninitialize.md).
   
-Tenga en cuenta que la interfaz de **ITableData** no admite las notificaciones de tabla para los clientes que se han llamado **ScInitMapiUtil** en lugar de **MAPIInitialize**. 
+Tenga en cuenta que la interfaz **ITableData** no admite notificaciones de tabla para clientes que hayan llamado a **ScInitMapiUtil** en lugar de **MAPIInitialize**. 
   
 

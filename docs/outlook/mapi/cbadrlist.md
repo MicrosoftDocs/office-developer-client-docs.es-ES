@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2507c3fa-e34c-4da0-88b5-2d1a98b32d4a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a262275640897a0243330404c4d141144bb64f21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f45a8ee2f52673dc04a9dc60971777200d1e8438
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318112"
 ---
 # <a name="cbadrlist"></a>CbADRLIST
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [ADRLIST](adrlist.md) existente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado  <br/> |**ADRLIST** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lpadrlist_
   
 > Puntero a la estructura **ADRLIST** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

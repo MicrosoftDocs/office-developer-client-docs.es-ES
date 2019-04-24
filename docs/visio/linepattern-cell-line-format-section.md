@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Determina la trama de línea de la forma. El valor especificado en la celda LinePattern es un número que actúa como índice en una colección de tramas de línea.
-ms.openlocfilehash: cccc6028de21299942e62c53aba48622baa95f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316446"
 ---
-# <a name="linepattern-cell-line-format-section"></a>Celda LinePattern (sección Formato de línea)
+# <a name="linepattern-cell-line-format-section"></a>Celda LinePattern (Sección de formato de línea)
 
 Determina la trama de línea de la forma. El valor especificado en la celda LinePattern es un número que actúa como índice en una colección de tramas de línea.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Sin trama de línea  <br/> |
+|comprendi  <br/> |Sin trama de línea  <br/> |
 |1  <br/> |Sólido  <br/> |
-|2 - 23  <br/> |Varias tramas de línea  <br/> |
+|2 -23  <br/> |Varias tramas de línea  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede ver la colección de tramas de línea en el cuadro de diálogo **Línea** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Línea**, seleccione **Guiones** y, a continuación, haga clic en **Más líneas**).
   

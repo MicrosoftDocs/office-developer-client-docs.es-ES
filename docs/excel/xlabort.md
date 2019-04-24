@@ -7,52 +7,52 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- función xlAbort [excel 2007]
+- función xlAbort [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310258"
 ---
 # <a name="xlabort"></a>xlAbort
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Da como resultado el procesador para otras tareas en el sistema y comprueba si el usuario ha presionado la **tecla ESC** para cancelar una macro. Si el usuario ha presionado la **tecla ESC** durante una actualización de libros, también se detectan desde dentro de una función de hoja de cálculo mediante una llamada a esta función. 
+Cede el procesador a otras tareas del sistema y comprueba si el usuario ha presionado la **tecla ESC** para cancelar una macro. Si el usuario ha presionado la **tecla ESC** durante la actualización de un libro, también se puede detectar desde dentro de una función de hoja de cálculo llamando a esta función. 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxRetain_ (**xltypeBool**)
   
-(Opcional). Si es **FALSE**, esta función comprueba la condición de salto y borra cualquier punto de interrupción pendiente. Esto permite al usuario continuar a pesar de la condición de interrupción. Si este argumento se omite o es **TRUE**, la función comprueba una anulación de usuario sin borrarlo.
+(Opcional). Si **es false**, esta función comprueba la condición break y borra cualquier interrupción pendiente. Esto permite al usuario continuar a pesar de la condición de interrupción. Si se omite este argumento o es **true**, la función comprueba si el usuario se ha anulado sin borrarlo.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve **TRUE** (**xltypeBool**) si el usuario ha presionado la **tecla ESC**.
+Devuelve **true** (**xltypeBool**) si el usuario ha presionado la **tecla ESC**.
   
 ## <a name="remarks"></a>Comentarios
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a>Las llamadas frecuentes que puedan ser necesarios
+#### <a name="frequent-calls-may-be-needed"></a>Las llamadas frecuentes pueden ser necesarias
 
-Funciones y comandos que podrían tardar mucho tiempo deben llamar a esta función con frecuencia para producir el procesador para otras tareas en el sistema.
+Las funciones y los comandos que pueden tardar mucho tiempo deben llamar a esta función con frecuencia para que el procesador se entregue a otras tareas del sistema.
   
-#### <a name="avoid-sensitive-language"></a>Evitar idioma confidencial
+#### <a name="avoid-sensitive-language"></a>Evitar el idioma confidencial
 
-Evitar el uso de los términos "Anular" en la interfaz de usuario. Considere el uso de "Cancelar", "Detener", "Romper" o "Stop" en su lugar.
+Evite usar el término "anular" en la interfaz de usuario. Considere la posibilidad de usar "Cancelar", "detener", "interrumpir" o "detener" en su lugar.
   
 ## <a name="example"></a>Ejemplo
 
-El siguiente código repetidamente mueve la celda activa en una hoja de hasta que haya transcurrido un minuto o hasta que el usuario presiona la **tecla ESC**. Llama a la función **xlAbort** ocasionalmente. Esto da como resultado el procesador, cooperación multitarea de aceleración. 
+El código siguiente mueve repetidamente la celda activa en una hoja hasta que haya transcurrido un minuto o hasta que el usuario presione la **tecla ESC**. Llama a la función **xlAbort** de vez en cuando. Esto produce el procesador, con lo que se facilita la multitarea cooperativa. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

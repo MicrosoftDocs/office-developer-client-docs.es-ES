@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
 description: Determina el tamaño de la profundidad del bisel en puntos.
-ms.openlocfilehash: 4b6f686b0afe1c09411435797cadc6f93fa0938f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315781"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>Celda BevelDepthSize (sección Propiedades de bisel)
 
@@ -20,13 +20,13 @@ Determina el tamaño de la profundidad del bisel en puntos.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelDepthSize** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelDepthSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BevelDepthSize  <br/> |
    
-Para obtener una referencia a la celda **BevelDepthSize** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelDepthSize** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

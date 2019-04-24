@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abc0afa30aaac75d7980d7de83705ae4c3b43f99
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315050"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
@@ -36,11 +36,11 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 
 |||
 |:-----|:-----|
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Establece el estado de suspensión de la cola de impresión.  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Establece el estado de suspensión en la cola de impresión.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: ISERROR Function (VisioShapeSheet)
+title: Función ISERROR (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251452
 localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
-description: Devuelve TRUE si el valor de referenciaDeCelda es cualquier tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se utiliza en las fórmulas que hacen referencia a otra celda.
-ms.openlocfilehash: c93801f5d61e45be5d178027405ead3aa129654d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve TRUE si el valor de referenciaDeCelda es algún tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se usa en fórmulas que hacen referencia a otra celda.
+ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317895"
 ---
-# <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
+# <a name="iserror-function-visioshapesheet"></a>Función ISERROR (VisioShapeSheet)
 
-Devuelve TRUE si el valor de _referenciaDeCelda_ es cualquier tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se utiliza en las fórmulas que hacen referencia a otra celda. 
+Devuelve TRUE si el valor de _referenciaDeCelda_ es algún tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se usa en fórmulas que hacen referencia a otra celda. 
   
 ## <a name="syntax"></a>Sintaxis
 
-ISERROR (** *referenciaDeCelda* **) 
+ISERROR (* * *referenciaDeCelda* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _referenciaDeCelda_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a una celda.  <br/> |
    
@@ -34,8 +34,8 @@ ISERROR (** *referenciaDeCelda* **)
 
 |**Cell**|**Formula**|**Valor devuelto**|
 |:-----|:-----|:-----|
-|Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch.B1  <br/> |=IsError(Scratch.a1)  <br/> |TRUE  <br/> |
+|Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|Scratch. B1  <br/> |= ISERROR (Scratch. a1)  <br/> |TRUE  <br/> |
    
 Devuelve TRUE (verdadero) ya que #N/A! es un error que la función ISERROR reconoce. Se puede utilizar la función ISERR para encontrar todos los tipos de error con excepción del error #N/A!
   
@@ -43,8 +43,8 @@ Devuelve TRUE (verdadero) ya que #N/A! es un error que la función ISERROR recon
 
 |**Cell**|**Formula**|**Valor devuelto**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="Casa"  <br/> |#VALUE!  <br/> |
-|Scratch.B1  <br/> |=IsError(Scratch.X1)  <br/> |TRUE  <br/> |
+|Grietas. x1  <br/> |= "Casa"  <br/> |#VALUE!  <br/> |
+|Scratch. B1  <br/> |= ISERROR (Scratch. x1)  <br/> |TRUE  <br/> |
    
 Devuelve TRUE (verdadero) ya que #VALUE! es un error que la función ISERROR reconoce. Para construir una expresión en función del error #VALUE! se debe utilizar la función ISERRVALUE.
   

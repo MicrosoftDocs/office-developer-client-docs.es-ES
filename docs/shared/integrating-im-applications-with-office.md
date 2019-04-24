@@ -7,11 +7,11 @@ ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
 localization_priority: Priority
 ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270122"
 ---
 # <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de MI con Office
 

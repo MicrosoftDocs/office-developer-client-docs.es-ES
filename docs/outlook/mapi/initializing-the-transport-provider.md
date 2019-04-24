@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3b369e20101bbaba5e246b2ef9f6ab3ed1771ef6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 474a8085ca8b82d11efd68c9fd4d8719fe239207
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309684"
 ---
 # <a name="initializing-the-transport-provider"></a>Inicializar el proveedor de transporte
 
@@ -21,16 +21,16 @@ ms.locfileid: "22563558"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La interfaz de transporte y cola de impresión define las llamadas que realiza la cola MAPI a un proveedor de transporte. Los proveedores de transporte implementan estas rutinas en una biblioteca de vínculos dinámicos (DLL). El primer punto de entrada directa en el archivo DLL utilizado por la cola MAPI debe ser la función de inicialización del proveedor de transporte [XPProviderInit](xpproviderinit.md).
+La interfaz de la cola de transporte define las llamadas que realiza la cola MAPI a un proveedor de transporte. Los proveedores de transporte implementan estas rutinas en una biblioteca de vínculos dinámicos (DLL). El primer punto de entrada directo en la DLL que usa la cola MAPI debe ser la función de inicialización del proveedor de transporte [XPProviderInit](xpproviderinit.md).
   
-MAPI utiliza la rutina **GetProcAddress** para obtener la dirección de la rutina de inicialización del proveedor de servicios y, a continuación, llama a esa rutina. El nombre de la rutina de inicialización es **XPProviderInit** para los proveedores de transporte. Es diferente de otros tipos de proveedores de servicios de MAPI para que una DLL puede contener cualquier combinación de tipos de proveedor de servicio, pero sólo un proveedor de servicios de un tipo determinado. Sin embargo, un proveedor de servicios de un determinado tipo puede implementar varios servicios de su tipo. Por ejemplo, un proveedor de transporte puede implementar la funcionalidad de transporte de mensajes a varios servicios de mensaje. 
+MAPI utiliza la rutina **GetProcAddress** para obtener la dirección de la rutina de inicialización del proveedor de servicios y, a continuación, llama a esa rutina. El nombre de la rutina de inicialización es **XPProviderInit** para los proveedores de transporte. Es diferente para otros tipos de proveedores de servicios MAPI, de modo que una DLL puede contener cualquier combinación de tipos de proveedores de servicios, pero sólo un proveedor de servicios de un tipo determinado. Sin embargo, un proveedor de servicios de un tipo determinado puede implementar varios servicios de su tipo. Por ejemplo, un proveedor de transporte puede implementar la funcionalidad de transporte de mensajes en varios servicios de mensajes. 
   
-El archivo de encabezado mapispi.h tiene una definición de tipo para el prototipo de función de la función de inicialización del proveedor de transporte y un nombre de procedimiento predefinidos para él. Exportar declaración en el archivo DLL de las rutinas de inicialización en los archivos de C y C++ de nomenclatura con los mismos nombres utilizados por **GetProcAddress** y mediante el uso de un sencillo. Archivo de definición, obtener automáticamente la comprobación de los parámetros en la rutina de inicialización de tipos. Vea el código de origen de proveedor de transporte de ejemplo para obtener ejemplos. Para obtener más información, vea [Ejemplo de proveedor de transporte](transport-provider-sample.md).
+El archivo de encabezado mapispi. h tiene una definición de tipo para el prototipo de función de la función de inicialización del proveedor de transporte y un nombre de procedimiento predefinido para él. Mediante el nombre de las rutinas de inicialización en los archivos C y C++ con los mismos nombres usados por **GetProcAddress** y mediante una declaración de exportación sencilla en el archivo dll. DEF, obtiene automáticamente la comprobación de tipos de los parámetros en la rutina de inicialización. Vea el ejemplo de código fuente del proveedor de transporte para obtener ejemplos. Para obtener más información, vea [ejemplo de proveedor de transporte](transport-provider-sample.md).
   
-Si la llamada de inicialización de un proveedor de servicios se realiza correctamente pero no devuelve a un proveedor de servicios número de versión de la interfaz demasiado pequeño para MAPI controlar, MAPI inmediatamente llama al método de la **versión** del objeto de proveedor de servicio y continúa como si la inicialización de llamadas no se pudo tenía con MAPI_E_VERSION. De este modo MAPI y el proveedor de servicios conjuntamente definen el intervalo de números de versión del interfaz de proveedor de servicio que pueden controlar y, si nada coincide con, a continuación, cargar el proveedor de servicios se produce un error con un MAPI_E_VERSION devuelve valor. 
+Si la llamada de inicialización del proveedor de servicios se realiza correctamente pero devuelve un número de versión de interfaz del proveedor de servicios demasiado pequeño para que MAPI lo controle, MAPI llama inmediatamente al método **Release** del objeto de proveedor de servicios y continúa como si la llamada de inicialización hubo un error con MAPI_E_VERSION. De esta forma, MAPI y el proveedor de servicios definen conjuntamente el intervalo de números de versión de la interfaz del proveedor de servicios que pueden controlar y, si no coincide nada, se producirá un error de carga del proveedor de servicios con un valor devuelto de MAPI_E_VERSION. 
   
-El último paso para la cola MAPI al obtener acceso a los recursos del proveedor de servicio es para iniciar sesión en el proveedor de transporte. La cola MAPI llama al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) de la [IXPProvider: IUnknown](ixpprovideriunknown.md) objeto devuelto desde **XPProviderInit**. Se trata de la llamada donde se comprueban las credenciales, si se usa, y se permiten los cuadros de diálogo.
+El último paso de la cola MAPI al obtener acceso a los recursos del proveedor de servicios es iniciar sesión en el proveedor de transporte. La cola MAPI llama al método [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) del objeto [IXPProvider: IUnknown](ixpprovideriunknown.md) devuelto desde **XPProviderInit**. Se trata de la llamada en la que se pueden permitir las credenciales, si se usan, y los cuadros de diálogo.
   
-Si un proceso abre una segunda sesión de transporte en el mismo proveedor de transporte y la sesión MAPI, el archivo DLL del proveedor de transporte no debe crear un segundo objeto de proveedor. El primer objeto de proveedor debe usarse para iniciar sesión en la segunda sesión de transporte. Un proveedor de transporte debe programarse para admitir varias sesiones de transporte en un objeto de proveedor único. Sólo se debe crear un segundo objeto de proveedor si se usan diferentes sesiones MAPI en el mismo proceso.
+Si un proceso abre una segunda sesión de transporte en el mismo proveedor de transporte y en la sesión MAPI, la DLL de proveedor de transporte no debe crear un segundo objeto de proveedor. El primer objeto de proveedor debe usarse para iniciar sesión en la segunda sesión de transporte. Un proveedor de transporte debe estar programado para admitir varias sesiones de transporte en un solo objeto de proveedor. Solo se debe crear un segundo objeto de proveedor si se usan sesiones MAPI diferentes en el mismo proceso.
   
 

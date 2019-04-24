@@ -7,32 +7,32 @@ ms.topic: reference
 f1_keywords:
 - HookExcelWindow
 keywords:
-- hookexcelwindow (función) [excel 2007]
+- función hookexcelwindow [Excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8965cc6b1e3d24001c42744f2ee7d447aa4c79b5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4103bf3a95388d20efeb74fcd736aeb5520d0845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310832"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Instala **ExcelCursorProc** para que se le llama antes de la principal de Microsoft Excel **WndProc**.
+Instala **ExcelCursorProc** de modo que se pueda llamar antes de la llamada **WndProc**principal de Microsoft Excel.
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _hWndExcel_ (**Controlar**)
+ _hWndExcel_ (**Controlador**)
   
-El identificador de Windows principal de Excel.
+El controlador principal de Windows de Excel.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -40,15 +40,15 @@ La función no devuelve un valor.
   
 ## <a name="remarks"></a>Comentarios
 
-La función obtiene la dirección de Excel **WndProc** mediante el uso de **GetWindowLong()**. Este valor almacena en global que se puede usar el valor predeterminado **WndProc** de llamadas y restaurarlo. Por último, esta dirección reemplaza con la dirección de **ExcelCursorProc** con **SetWindowLong()**.
+La función obtiene la dirección del **WndProc** de Excel mediante el uso de **GetWindowLong ()**. Almacena este valor en un global que se puede usar para llamar al **WndProc** predeterminado y también para restaurarlo. Por último, reemplaza esta dirección con la dirección de **ExcelCursorProc** mediante **SetWindowLong ()**.
   
 ### <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+[Funciones en la DLL genérica](functions-in-the-generic-dll.md)
 

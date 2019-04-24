@@ -1,5 +1,5 @@
 ---
-title: Hojas de cálculo y evaluación de expresiones de Excel
+title: Hojas de c�lculo y evaluaci�n de expresiones de Excel
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 543ff7fcbc88253dafd7fc6e7000bf9657d8c258
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310987"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Hojas de cálculo y evaluación de expresiones de Excel
 

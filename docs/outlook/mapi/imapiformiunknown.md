@@ -1,5 +1,5 @@
 ---
-title: IMAPIForm IUnknown
+title: IUnknown IMAPIForm
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 172cbf9478d3206742df61d211051594e69ab173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321780"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
@@ -25,14 +25,14 @@ ms.locfileid: "22587134"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que los visores de formulario trabajar con contextos de vista de formulario y notificación de formulario, para llevar a cabo los verbos de formulario y cerrar formularios.
+Permite a los visores de formulario trabajar con contextos de la vista de formulario y notificaciones de formulario, realizar verbos de formulario y cerrar formularios.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Expuestos por:  <br/> |Objetos de formulario  <br/> |
-|Se implementa mediante:  <br/> |Servidores de formulario  <br/> |
-|Llamado por:  <br/> |Visores de formulario  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Expuesto por:  <br/> |Objetos de formulario  <br/> |
+|Implementado por:  <br/> |Servidores de formulario  <br/> |
+|Llamado por:  <br/> |Visores de formularios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIForm  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORM  <br/> |
    
@@ -41,14 +41,14 @@ Permite que los visores de formulario trabajar con contextos de vista de formula
 |||
 |:-----|:-----|
 |[SetViewContext](imapiform-setviewcontext.md) <br/> |Establece un contexto de vista para el formulario.  <br/> |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |Devuelve el contexto de la vista actual para el formulario.  <br/> |
+|[GetViewContext](imapiform-getviewcontext.md) <br/> |Devuelve el contexto de vista actual del formulario.  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |Cierra el formulario.  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |Las solicitudes que el formulario realiza tareas con independencia de se asocia a un verbo específico.  <br/> |
-|[Aviso](imapiform-advise.md) <br/> |Registra un visor de formulario para las notificaciones sobre los eventos que afectan a la forma.  <br/> |
-|[Desaconsejar](imapiform-unadvise.md) <br/> |Cancela un registro para las notificaciones con un visor de formulario establecido previamente mediante una llamada a **Advise**.  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen al objeto form.  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |Solicita que el formulario realice las tareas que asocie con un verbo específico.  <br/> |
+|[Aconsej](imapiform-advise.md) <br/> |Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.  <br/> |
+|[Unadvise](imapiform-unadvise.md) <br/> |Cancela un registro de las notificaciones con un visor de formularios previamente establecido por el **Consejo**de llamada.  <br/> |
+|[Volvió](imapiform-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de formulario.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

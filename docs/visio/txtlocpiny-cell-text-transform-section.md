@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251276
 localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
-description: 'Determina la y-coordenadas del centro del bloque de texto de rotación en relación con el origen del bloque de texto. La fórmula predeterminada es:'
-ms.openlocfilehash: 7d43f63b8560df5fc5daf09a429ce30ec976d131
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Determina la coordenada y del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es:'
+ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317734"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (sección Transformación de texto)
+# <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (Sección de transformación de texto)
 
-Determina la *y* -coordenadas del centro del bloque de texto de rotación en relación con el origen del bloque de texto. La fórmula predeterminada es: 
+Determina la coordenada *y* del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
   
 = TxtHeight \* 0,5
   

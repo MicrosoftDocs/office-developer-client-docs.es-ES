@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fe722e8723fdc3868cbbc3188f03e13ef3f466f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ccb732dd587b2e5107290b2db7c48e85d0145d4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317335"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla de cola saliente, una tabla que contiene información acerca de todos los mensajes en cola de salida del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
+Proporciona acceso a la tabla cola de salida, una tabla que contiene información sobre todos los mensajes de la cola de salida del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
   
 ```cpp
 HRESULT GetOutgoingQueue(
@@ -34,7 +34,7 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,25 +42,25 @@ HRESULT GetOutgoingQueue(
     
  _lppTable_
   
-> [out] Un puntero a un puntero a la tabla de cola saliente.
+> contempla Un puntero a un puntero a la tabla de colas de salida.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> En la tabla cola saliente se devolvió correctamente.
+> La tabla de cola de salida se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore::GetOutgoingQueue** proporciona a la cola MAPI con acceso a la tabla que muestra la cola del almacén de mensajes de los mensajes salientes. Normalmente, los mensajes se colocan en la tabla cola saliente después de que se llama a su método [IMessage::SubmitMessage](imessage-submitmessage.md) . Sin embargo, debido a que el orden de envío afecta al orden de preprocesamiento y envío para el proveedor de transporte, algunos mensajes que se han marcado para el envío es posible que no aparezca en la tabla cola saliente inmediatamente. 
+El método **IMsgStore:: GetOutgoingQueue** proporciona al administrador de trabajos en cola MAPI acceso a la tabla que muestra la cola de mensajes salientes del almacén de mensajes. Normalmente, los mensajes se colocan en la tabla de colas de salida después de llamar al método [IMessage:: SubmitMessage](imessage-submitmessage.md) . Sin embargo, como el orden de envío afecta al orden de preprocesamiento y envío al proveedor de transporte, algunos mensajes que se marcaron para enviar podrían no aparecer inmediatamente en la tabla de colas de salida. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Para obtener una lista de las propiedades que se debe incluir como columnas en la tabla cola saliente, vea [Las tablas de cola saliente](outgoing-queue-tables.md). 
+Para obtener una lista de las propiedades que deben incluirse como columnas en la tabla cola de salida, consulte [tablas de colas de salida](outgoing-queue-tables.md). 
   
-Debido a que la cola MAPI está diseñada para aceptar los mensajes de un almacén de mensajes en orden ascendente de tiempo de envío, permitir que la cola MAPI ordenar la tabla de cola saliente para que coincida con este orden o establecer como el criterio de ordenación predeterminado.
+Debido a que la cola MAPI está diseñada para aceptar mensajes de un almacén de mensajes en orden ascendente de tiempo de envío, permita que la cola MAPI ordene la tabla cola de salida para que se ajuste a este orden o que se establezca como criterio de ordenación predeterminado.
   
-Debe admitir las notificaciones para la tabla de cola de mensajes salientes, asegurarse de que la cola MAPI recibe una notificación cuando cambia el contenido de la cola. 
+Debe admitir notificaciones para la tabla de colas de mensajes salientes, lo que garantiza que la cola MAPI recibirá una notificación cuando cambie el contenido de la cola. 
   
 ## <a name="see-also"></a>Vea también
 

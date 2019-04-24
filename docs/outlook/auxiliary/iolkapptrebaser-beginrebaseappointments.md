@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: Comienza una tarea para cita reajustar una lista de citas, suele obtenida a partir de IOlkApptRebaser::EndEnumerateAppointments.
 ms.openlocfilehash: f0f2377f30de7688aaa4196e3a046c664c2128aa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321913"
 ---
 # <a name="iolkapptrebaserbeginrebaseappointments"></a>IOlkApptRebaser::BeginRebaseAppointments
 
@@ -30,7 +30,7 @@ HRESULT BeginRebaseAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Sintaxis
+## <a name="parameters"></a>Parameters
 
 _pRows_
   
@@ -52,7 +52,7 @@ _ppContext_
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Esta tarea se ejecuta en un subproceso nuevo.
   

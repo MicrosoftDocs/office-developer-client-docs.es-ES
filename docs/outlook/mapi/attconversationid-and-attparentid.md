@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
 description: 'Última modificación: 12 de marzo de 2013'
-ms.openlocfilehash: 14b93a952e4776716c333dc730144b55bcc61259
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c5880aefe7c2dba2e5e4c5405aae2020bb86c711
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318420"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID y attParentID
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las ventanas de clave de conversación de correo de trabajo en grupo 3.1 son una cadena de texto. El equivalente MAPI es un valor binario. Para proporcionar compatibilidad con versiones anteriores, la implementación de TNEF convierte los datos binarios en texto y agrega un carácter nulo.
+La clave de la conversación de correo de Windows para trabajo en grupo 3,1 es una cadena de texto. El equivalente de MAPI es un valor binario. Para proporcionar compatibilidad con versiones anteriores, la implementación de TNEF convierte los datos binarios en texto y agrega un carácter null de terminación.
   
 > [!NOTE]
-> Las propiedades correspondientes en MAPI para que se asignan estos atributos TNEF, PR_CONVERSATION_KEY y PR_PARENT_KEY, han quedado obsoletos en Microsoft Exchange Server: uso de **PR_CONVERSATION_KEY**, el [PidTagConversationKey canónico Propiedad](pidtagconversationkey-canonical-property.md), se conserva en Outlook sólo, para localizar **IPM. Objeto** los mensajes. 
+> Las propiedades correspondientes de MAPI a las que se asignan estos atributos TNEF, PR_CONVERSATION_KEY y PR_PARENT_KEY, han quedado en desuso en Microsoft Exchange Server: uso de **PR_CONVERSATION_KEY**, el [PidTagConversationKey canónico Propiedad](pidtagconversationkey-canonical-property.md), sólo se conserva en Outlook para buscar **IPM. **Mensajes de MessageManager. 
   
 ## <a name="remarks"></a>Comentarios
 
-La propiedad **PR_CONVERSATION_KEY** es el precursor en caso contrario, obsoleto **PR_CONVERSATION_INDEX**, [Propiedad canónico PidTagConversationIndex](pidtagconversationindex-canonical-property.md) y **PR_CONVERSATION_TOPIC**, [PidTagConversationTopic canónico Propiedad](pidtagconversationtopic-canonical-property.md), que se debe usar en su lugar.
+La propiedad **PR_CONVERSATION_KEY** es el precursor contrario obsoleto del **PR_CONVERSATION_INDEX**, la [propiedad canónica PidTagConversationIndex](pidtagconversationindex-canonical-property.md) y **PR_CONVERSATION_TOPIC**, [PidTagConversationTopic canónico ](pidtagconversationtopic-canonical-property.md), Que se debe usar en su lugar.
   
 ## <a name="see-also"></a>Vea también
 

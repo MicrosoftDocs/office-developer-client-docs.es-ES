@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3e641842dd8264c0cd3556c498bd74c77bda32f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c34c175c43ada03e982f08a27f675448ea24a567
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316604"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577509"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error de objeto de soporte técnico anterior. 
+Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior del objeto support. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,47 +35,47 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _hResult_
+ _Valores_
   
-> [entrada] Un identificador para el valor de error generado en la llamada al método anterior para el objeto de soporte.
+> a Identificador del valor de error generado en la llamada al método anterior para el objeto de compatibilidad.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de cadenas devueltas. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> Las cadenas en la estructura **MAPIERROR** devuelta en el parámetro _lppMAPIError_ están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI. 
+> Las cadenas de la estructura **MAPIERROR** devueltas en el parámetro _lppMAPIError_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
     
  _lppMAPIError_
   
-> [out] Un puntero a un puntero a la estructura **MAPIERROR** que contiene información de versión, el componente y el contexto para el error. El parámetro _lppMAPIError_ se puede establecer en NULL si no se puede proporcionar una estructura **MAPIERROR** con información de error apropiado. 
+> contempla Un puntero a un puntero a la estructura **MAPIERROR** que contiene información sobre la versión, el componente y el contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si no se puede proporcionar una estructura **MAPIERROR** con información de error adecuada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se ha establecido el indicador MAPI_UNICODE y MAPI no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y MAPI admite sólo Unicode.
+> Se estableció la marca MAPI_UNICODE y MAPI no admite Unicode, o bien no se estableció MAPI_UNICODE y MAPI solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::GetLastError** se implementa para todos los objetos de soporte técnico. Los autores de llamadas pueden proporcionar a sus usuarios con información detallada sobre el error mediante la inclusión de los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
+El método **IMAPISupport:: GetLastError** se implementa para todos los objetos de soporte. Los autores de llamadas pueden proporcionar a sus usuarios información detallada acerca del error al incluir los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar el puntero a la estructura **MAPIERROR** , si MAPI proporciona uno, en el parámetro _lppMAPIError_ sólo si **GetLastError** devuelve S_OK. En ocasiones, MAPI no puede determinar cuál era el último error o no tiene nada más para informe sobre el error. En esta situación, _lppMAPIError_ devuelve un puntero a NULL en su lugar. 
+Puede usar el puntero a la estructura **MAPIERROR** , si MAPI proporciona uno, en el parámetro _LppMAPIError_ solo si **GetLastError** Devuelve S_OK. A veces MAPI no puede determinar cuál era el último error o no tiene nada más para informar sobre el error. En esta situación, _lppMAPIError_ devuelve un puntero a NULL en su lugar. 
   
-Para obtener más información acerca del método **GetLastError** , vea [Errores de MAPI extendida](mapi-extended-errors.md).
+Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
   
 Para liberar toda la memoria asignada por MAPI, llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para la estructura **MAPIERROR** devuelta. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -86,5 +86,5 @@ Para liberar toda la memoria asignada por MAPI, llame a la función [MAPIFreeBuf
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[MAPI extendida de errores](mapi-extended-errors.md)
+[Errores extendidos de MAPI](mapi-extended-errors.md)
 

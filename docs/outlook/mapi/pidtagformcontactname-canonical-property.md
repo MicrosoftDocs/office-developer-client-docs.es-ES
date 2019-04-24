@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316257"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Propiedad canónica PidTagFormContactName
 
@@ -32,33 +32,33 @@ Contiene el nombre de un contacto para obtener información acerca de un formula
 |Propiedades asociadas:  <br/> |PR_FORM_CONTACT_NAME, PR_FORM_CONTACT_NAME_A, PR_FORM_CONTACT_NAME_W  <br/> |
 |Identificador:  <br/> |0x3303  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI comunes  <br/> |
+|Área:  <br/> |Common MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, el contacto contiene el nombre de una persona o un alias que es responsable de mantener el formulario. 
+El contacto suele contener el nombre de una persona o un alias responsable de mantener el formulario. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

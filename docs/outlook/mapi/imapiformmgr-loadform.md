@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3e758acfa1cf0c11be666dd730d9bf589d2e9d77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e445646477ad1fc56b41141b541358d9b9f9616
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321701"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicia un formulario para abrir un mensaje existente.
   
@@ -43,59 +43,59 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso que se muestra mientras se abre el formulario. El parámetro _ulUIParam_ se omite a menos que la marca MAPI_DIALOG se establece en el parámetro _ulFlags indicado_ . 
+> a Identificador de la ventana primaria del indicador de progreso que se muestra mientras se abre el formulario. El parámetro _ulUIParam_ se omite a menos que se establezca la marca MAPI_DIALOG en el parámetro _ulFlags_ . 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el formulario. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla cómo se abre el formulario. Se pueden establecer los siguientes indicadores:
     
 MAPI_DIALOG 
   
-> Muestra una interfaz de usuario para proporcionar el estado o solicite al usuario para obtener más información. Si no se establece este marcador, no se muestra ninguna interfaz de usuario.
+> Muestra una interfaz de usuario para proporcionar el estado o solicitar información al usuario. Si no se establece esta marca, no se muestra ninguna interfaz de usuario.
     
 MAPIFORM_EXACTMATCH 
   
-> Se deben resolver sólo cadenas de clase de mensaje que son una coincidencia exacta.
+> Solo se deben resolver las cadenas de clase de mensaje que sean una coincidencia exacta.
     
  _lpszMessageClass_
   
-> [entrada] Un puntero a una cadena que da nombre a la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass_ , se determina la clase de mensaje del mensaje indicada por el parámetro _pmsg_ . 
+> a Un puntero a una cadena que da nombre a la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass_ , la clase de mensaje se determina a partir del mensaje al que señala el parámetro _PMSG_ . 
     
  _ulMessageStatus_
   
-> [entrada] Una máscara de bits de definidas por el cliente o definidas por el proveedor de indicadores que se copió desde la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El parámetro _ulMessageStatus_ debe establecerse si _lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageStatus_ . 
+> a Una máscara de bits de marcas definidas por el cliente o por el proveedor que se copian de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El parámetro _ulMessageStatus_ debe establecerse si _LPSZMESSAGECLASS_ no es null; de lo contrario, se omite _ulMessageStatus_ . 
     
  _ulMessageFlags_
   
-> [entrada] Un puntero a una máscara de bits de indicadores que se copió desde la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El parámetro _ulMessageFlags_ debe establecerse si _lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageFlags_ . 
+> a Un puntero a una máscara de máscara de marcas copiada de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El parámetro _ulMessageFlags_ debe establecerse si _LPSZMESSAGECLASS_ no es null; de lo contrario, se omite _ulMessageFlags_ . 
     
  _pFolderFocus_
   
-> [entrada] Un puntero a la carpeta que contiene directamente el mensaje. El parámetro _pFolderFocus_ puede ser NULL si no existe como una carpeta (por ejemplo, si el mensaje está incrustado en otro mensaje). 
+> a Un puntero a la carpeta que contiene directamente el mensaje. El parámetro _pFolderFocus_ puede ser null si no existe una carpeta de este tipo (por ejemplo, si el mensaje está incrustado en otro mensaje). 
     
  _pMessageSite_
   
-> [entrada] Un puntero al sitio de mensaje del mensaje.
+> a Un puntero al sitio del mensaje del mensaje.
     
- _pMsg_
+ _PMSG_
   
-> [entrada] Un puntero al mensaje.
+> a Un puntero al mensaje.
     
  _pViewContext_
   
-> [entrada] Un puntero al contexto de vista para el mensaje. El parámetro _pViewContext_ puede ser NULL. 
+> a Un puntero al contexto de la vista para el mensaje. El parámetro _pViewContext_ puede ser null. 
     
  _riid_
   
-> [entrada] El identificador de interfaz (IID) de la interfaz que se usará para el objeto de formulario devuelto. El parámetro _riid_ no debe ser NULL. 
+> a Identificador de interfaz (IID) de la interfaz que se va a usar para el objeto de formulario devuelto. El parámetro _riid_ no debe ser nulo. 
     
  _ppvObj_
   
-> [out] Un puntero a un puntero a la interfaz devuelta.
+> contempla Un puntero a un puntero a la interfaz devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -109,35 +109,35 @@ MAPI_E_NO_INTERFACE
     
 MAPI_E_NOT_FOUND 
   
-> La clase de mensaje que se pasó _lpszMessageClass_ no coincide con la clase de mensaje para cualquier formulario en la biblioteca de formularios. 
+> La clase de mensaje pasada en _lpszMessageClass_ no coincide con la clase de mensaje de ningún formulario de la biblioteca de formularios. 
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormMgr::LoadForm** para abrir un formulario para un mensaje existente. **LoadForm** abre el objeto de formulario, se carga el mensaje en el objeto de formulario, se configura el contexto de vista apropiada, si es necesario y se devuelve la interfaz solicitada para el objeto de formulario. 
+Los visores de formularios llaman al método **IMAPIFormMgr:: LoadForm** para abrir un formulario de un mensaje existente. **LoadForm** abre el objeto Form, carga el mensaje en el objeto de formulario, configura el contexto de vista apropiado, si es necesario, y devuelve la interfaz solicitada para el objeto de formulario. 
   
-El parámetro _pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el mensaje está incrustado en otro mensaje, _pFolderFocus_ debe ser nulo. 
+El parámetro _pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el mensaje está incrustado en otro mensaje, _pFolderFocus_ debe ser null. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si se pasa NULL en _lpszMessageClass_, la implementación obtiene la clase de mensaje del mensaje, estado y los indicadores desde el mensaje **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** y **PR_MESSAGE_FLAGS **propiedades. Si se proporciona una cadena de la clase de mensaje en _lpszMessageClass_, la implementación debe usar los valores de _ulMessageStatus_ y _ulMessageFlags_.
+Si se pasa NULL en _lpszMessageClass_, la implementación obtiene la clase de mensaje, el estado y las marcas del mensaje del **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** y **PR_MESSAGE_FLAGS **propiedades. Si se proporciona una cadena de clase de mensaje en _lpszMessageClass_, la implementación debe usar los valores de _ulMessageStatus_ y _ulMessageFlags_.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIFormMgr::LoadForm** para cargar un formulario antes de mostrarla.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: LoadForm** para cargar un formulario antes de mostrarlo.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
 
 
-[Propiedad canónico PidTagMessageClass](pidtagmessageclass-canonical-property.md)
+[Propiedad canónica PidTagMessageClass](pidtagmessageclass-canonical-property.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Funciones seguras de clúster
+title: Funciones seguras para clústeres
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,44 +7,44 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 787badaf-8782-454d-a016-7eae83bbd8a9
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: f73f49e4d76a8545399eede283b70551ee6569f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d32925fcd5c3be7fe3e615ee2290f25c7595911c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310979"
 ---
-# <a name="cluster-safe-functions"></a>Funciones seguras de clúster
+# <a name="cluster-safe-functions"></a>Funciones seguras para clústeres
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-En Excel 2013, Excel puede descargar las llamadas de función definida por el usuario (UDF) a un clúster de sistemas de alto rendimiento a través de una interfaz de conector de clúster dedicado. Compute Cluster Server proveedores disponen de conectores de clúster. Los autores UDF pueden declarar sus UDF como clúster seguros y, a continuación, cuando un conector de clúster está presente, Excel envía las llamadas a estos archivos de UDF para el conector de clúster para descarga.
+En Excel 2013, Excel puede descargar llamadas de función definidas por el usuario (UDF) a un clúster de cómputo de alto rendimiento a través de una interfaz de conector de clúster dedicado. Los proveedores de clústeres de cómputo proporcionan conectores de clúster. Los autores de FDU pueden declarar sus FDU como un clúster seguro y, cuando un conector del clúster está presente, Excel envía las llamadas a estas UDF al conector del clúster para la descarga.
   
-Cuando Excel descubre una UDF seguras de clúster durante la actualización, se pasa el nombre del XLL que se está ejecutando actualmente, el nombre de la UDF seguras de clúster y los parámetros para el conector de clúster. El conector ejecuta la llamada UDF de forma remota y devuelve los resultados a Excel. No dependientes cálculo continúa y cuando el conector de clúster ha terminado de ejecutarse la UDF, se pasan los resultados a Excel y continuar cálculos dependientes. El mecanismo para este comportamiento asincrónico imite el mecanismo de UDF asincrónicas, excepto en que el conector de clúster administra los aspectos asincrónicos en lugar del autor UDF. Normalmente, un conector de clúster implementa una corrección de XLL para cargar los XLL y ejecutar las UDF en compute nodos de clúster.
+Cuando Excel detecta una UDF segura para clúster durante la actualización, pasa el nombre del XLL que se está ejecutando actualmente, el nombre de la UDF segura para clúster y los parámetros del conector de clúster. El conector ejecuta la llamada a UDF de forma remota y devuelve los resultados a Excel. El cálculo no dependiente continúa y cuando el conector del clúster ha terminado de ejecutar la UDF, pasa los resultados a Excel y los cálculos dependientes continúan. El mecanismo de este comportamiento asincrónico imita el mecanismo que usan las UDF asincrónicas, excepto que el conector de clúster administra los aspectos asincrónicos en lugar del autor de la UDF. Normalmente, un conector de clúster implementa una corrección de XLL para cargar los XLL y ejecutar las UDF en los nodos de clúster de cálculo.
   
-La mecánica de la declaración de las UDF como seguras de clúster son similares a las de la declaración de las UDF como seguros para la actualización de cálculos multiproceso. Sin embargo, debido a que no se está ejecutando necesariamente las UDF en el mismo equipo que otros las UDF desde la misma sesión de Excel, existen diferentes consideraciones al escribir las UDF seguras de clúster.
+La mecánica de declaración de las UDF como seguras para clústeres es similar a la de declarar las UDF como seguras para la actualización multiproceso. Sin embargo, dado que la UDF no se está ejecutando necesariamente en el mismo equipo que otras UDF desde la misma sesión de Excel, existen diferentes consideraciones a la hora de escribir UDF seguras para clústeres.
   
-Para registrar una UDF como seguras de clúster, debe llamar a la función de devolución de llamada [xlfRegister (formulario 1)](xlfregister-form-1.md) a través de la interfaz **Excel12** o **Excel12v** . Para obtener más información acerca de estas interfaces, vea la [Excel4/Excel12](excel4-excel12.md) y la [Excel4v/Excel12v](excel4v-excel12v.md). Registrar una UDF como seguras de clúster a través de la interfaz de **Excel4** o **Excel4v** no es compatible. 
+Para registrar una UDF como segura para clústeres, debe llamar a la función de devolución de llamada [xlfRegister (Form 1)](xlfregister-form-1.md) a través de la interfaz **Excel12** o **Excel12v** . Para obtener más información acerca de estas interfaces, consulte [Excel4/Excel12](excel4-excel12.md) y [Excel4v/Excel12v](excel4v-excel12v.md). No se admite el registro de un UDF como seguro para clúster a través de la interfaz de **Excel4** o **Excel4v** . 
   
-Si se registra una función como seguras de clúster, debe asegurarse de que la función se comporta de forma segura para el clúster. Aunque el comportamiento exacto del conector de clúster es específico de la implementación, debe diseñar su UDF para ejecutar en un sistema distribuido y tienen las siguientes características:
+Si registra una función como segura para clústeres, debe asegurarse de que la función se comporta de forma segura para clústeres. Aunque el comportamiento exacto del conector de clúster es específico de la implementación, debe diseñar la UDF para que se ejecute en un sistema de equipo distribuido y para que tenga las siguientes características:
   
-- Un archivo UDF no debe confiar en cualquier estado de la memoria. Por ejemplo, un archivo UDF no debe confiar en una caché en memoria existente.
+- Una FDU no debe confiar en ningún estado de la memoria. Por ejemplo, una UDF no debe basarse en una memoria caché existente en la memoria.
     
-- Un archivo UDF no debe llevar a cabo las devoluciones de llamada de Excel que no es compatible con el proveedor de conector de clúster.
+- Una UDF no debe realizar devoluciones de llamada de Excel que no son compatibles con el proveedor de conectores de clúster.
     
-Además de comportamiento de seguridad de clúster, existen las siguientes restricciones técnicas de las UDF seguras de clúster:
+Además del comportamiento seguro para clústeres, existen las siguientes restricciones técnicas en las UDF seguras para clústeres:
   
-1. Sin argumentos XLOPER (tipos de 'P', 'R').
+1. No hay argumentos XLOPER (Types ' P ', ' R ').
     
-2. Sin argumentos XLOPER12 que admiten referencias de rango (tipo 'U').
+2. No hay argumentos XLOPER12 que admitan referencias de rango (tipo ' U ').
     
-3. No puede ser una función equivalente de hoja macro ('#' y '&amp;' no se puede combinar).
+3. No puede ser una función equivalente de hoja de macros ('&amp;# ' y ' ' no se puede combinar).
     
-Para las UDF con tiempos de ejecución, la sobrecarga de descarga puede ser mayor que el tiempo que tarda la UDF en ejecución, al negar muchas de las ventajas de usar esta infraestructura.
+Para los archivos UDF con tiempos de ejecución más cortos, la sobrecarga de la descarga puede ser mayor que el tiempo que se tarda en ejecutar la UDF, con lo que se niegan muchas de las ventajas de usar esta infraestructura.
   
 > [!NOTE]
-> No se puede declarar una UDF seguras de clúster como un UDF asincrónico. 
+> No se puede declarar una UDF segura para clúster como UDF asincrónica. 
   
-Un archivo UDF puede determinar si se está ejecutando con un conector de clúster mediante una llamada a la función de devolución de llamada de [xlRunningOnCluster](xlrunningoncluster.md) . 
+Una UDF puede determinar si se está ejecutando con un conector de clúster mediante una llamada a la función de devolución de llamada [xlRunningOnCluster](xlrunningoncluster.md) . 
   
 

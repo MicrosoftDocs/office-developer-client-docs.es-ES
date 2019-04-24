@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320415"
 ---
 # <a name="enumerate-and-add-categories"></a>Enumerar y agregar categorías
 
@@ -41,7 +41,7 @@ Para exponer la funcionalidad de las categorías, el modelo de objetos de Outloo
 
 Estas propiedades devuelven un valor **OLE\_COLOR**, que depende de la propiedad **Color** del objeto **Category**.
 
-Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , utilizaría la propiedad [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) **MailItem**). Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
+Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , usaría la propiedad de **** [categorías](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) MailItem). Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
 
 
 > [!NOTE]
@@ -99,5 +99,5 @@ private bool CategoryExists(string categoryName)
 
 ## <a name="see-also"></a>Vea también
 
-- [Categorías de color](color-categories.md)
+- [Color categories](color-categories.md) (Categorías de color)
 

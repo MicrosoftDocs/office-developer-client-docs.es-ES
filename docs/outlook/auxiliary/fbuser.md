@@ -8,11 +8,11 @@ localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
 description: Identifica a un usuario que puede o no tener datos de disponibilidad disponibles.
 ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317664"
 ---
 # <a name="fbuser"></a>FBUser
 
@@ -31,26 +31,26 @@ typedef struct tagFBUser
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _m_cbEid_
   
-> La longitud del identificador de entrada de usuario de correo, tal como está representado por la interfaz [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
+> La longitud del identificador de entrada del usuario de correo, tal como se representa en la interfaz [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
     
 _m_lpEid_
   
-> El identificador de entrada del usuario de correo, tal como está representado por la interfaz **IMailUser** . 
+> IDENTIFICADOR de entrada del usuario de correo, tal como se representa en la interfaz **IMailUser** . 
     
 _m_ulReserved_
   
-> Este parámetro está reservado para uso interno de Outlook y no se admite.
+> Este parámetro está reservado para uso interno de Outlook y no es compatible.
     
 _m_pwszReserved_
   
-> Este parámetro está reservado para uso interno de Outlook y no se admite.
+> Este parámetro está reservado para uso interno de Outlook y no es compatible.
     
 ## <a name="see-also"></a>Vea también
 
-- [Información sobre la API de disponibilidad](about-the-free-busy-api.md)  
+- [Acerca de la API de disponibilidad](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 19502895996d4777f2d1a6887aa80883a5398a09
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320255"
 ---
 # <a name="find-a-specific-appointment-in-a-recurring-appointment-series"></a>Buscar una cita específica de una serie de citas periódicas
 

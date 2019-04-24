@@ -9,55 +9,55 @@ api_type:
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309733"
 ---
 # <a name="initializing-mapi"></a>Inicializar MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todas las aplicaciones de cliente que usan las bibliotecas de MAPI deben llamar a la función **MAPIInitialize** . Para obtener más información, vea [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** inicializa datos globales para la sesión y prepara las bibliotecas de MAPI para aceptar llamadas. Hay algunas marcas que son importantes para establecer en algunas situaciones: 
+Todas las aplicaciones cliente que usan las bibliotecas MAPI deben llamar a la función **MAPIInitialize** . Para obtener más información, vea [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** inicializa datos globales para la sesión y prepara las bibliotecas MAPI para aceptar llamadas. Hay algunos marcadores que es importante establecer en algunas situaciones: 
   
 - MAPI_NT_SERVICE
     
-    Establecer la marca MAPI_NT_SERVICE si su cliente se implementa como un servicio de Windows. Si el cliente es un servicio de Windows y no se establece este marcador, MAPI no la reconocerá como un servicio. 
+    Establezca la marca MAPI_NT_SERVICE si su cliente se implementa como un servicio de Windows. Si el cliente es un servicio de Windows y no establece esta marca, MAPI no la reconocerá como un servicio. 
     
 - MAPI_MULTITHREAD_NOTIFICATIONS
     
-    El indicador MAPI_MULTITHREAD_NOTIFICATIONS relaciona con cómo MAPI administra las notificaciones. MAPI crea una ventana oculta que recibe los mensajes de ventana cuando se producen cambios a un objeto de generación de notificaciones. Se procesan los mensajes de ventana en algún momento, lo que provoca que las notificaciones se envíen y los métodos de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) apropiados para llamarla. 
+    La marca MAPI_MULTITHREAD_NOTIFICATIONS está relacionada con el modo en que MAPI administra las notificaciones. MAPI crea una ventana oculta que recibe mensajes de ventana cuando se producen cambios en un objeto que genera notificaciones. Los mensajes de ventana se procesan en algún momento, lo que hace que se envíen las notificaciones y que se llame a los métodos [IMAPIAdviseSink::](imapiadvisesink-onnotify.md) método de Notify apropiados. 
     
 - MAPI_NO_COINIT
     
-    Establecer la marca MAPI_NO_COINT para que no intente inicializar COM con una llamada a [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx) **MAPIInitialize** . Si se pasa una estructura **MAPIINIT_0** **MAPIInitialize** con _ulFlags_ establecida en MAPI_NO_COINIT, MAPI asumirá que COM ya se ha inicializado y omitir la llamada a **CoInitialize**.
+    Establezca la marca MAPI_NO_COINT para que **MAPIInitialize** no intente inicializar com con una llamada a [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Si se pasa una estructura **MAPIINIT_0** a **MAPIInitialize** con _ULFLAGS_ establecido en MAPI_NO_COINIT, MAPI asumirá que com ya se ha inicializado y omitirá la llamada a **CoInitialize**.
     
-Si no se pasa el indicador MAPI_MULTITHREAD_NOTIFICATIONS, MAPI crea la ventana de notificación en el subproceso que se usó para la primera llamada **MAPIInitialize** . MAPI crea la ventana de notificación en un subproceso independiente, si se pasa MAPI_MULTITHREAD_NOTIFICATIONS: un subproceso dedicado para controlar las notificaciones. MAPI espera del subproceso que se usa para crear la ventana de notificación oculto para: 
+Si no se pasa la marca MAPI_MULTITHREAD_NOTIFICATIONS, MAPI crea la ventana de notificación en el subproceso que se usó para la primera llamada **MAPIInitialize** . MAPI crea la ventana de notificación en un subproceso independiente si se pasa MAPI_MULTITHREAD_NOTIFICATIONS (un subproceso dedicado para controlar las notificaciones). MAPI espera que el subproceso que se usa para crear la ventana de notificación oculta sea el siguiente: 
   
 - Tener un bucle de mensajes.
     
-- Permanezca desbloqueada durante la vida útil de la sesión.
+- Permanecer desbloqueado durante toda la duración de la sesión.
     
-- Tener una duración mayor que cualquier otro subproceso creado por el cliente. 
+- Tienen una duración mayor que cualquier otro subproceso creado por el cliente. 
     
-Puede elegir qué subproceso se usa al establecer una marca en la primera llamada **MAPIInitialize** . El riesgo de que uno de los subprocesos para controlar las notificaciones permite es si desaparece el subproceso, se destruye la ventana de notificación y las notificaciones ya no pueden enviarse a cualquiera de los otros subprocesos. Además, el procesamiento especial podría ser necesarios para controlar el comportamiento de los mensajes de notificación que se registran en la cola de mensajes de la ventana oculta. 
+Puede elegir qué subproceso se usa si se establece una marca en la primera llamada de **MAPIInitialize** . El peligro de permitir que uno de los subprocesos controle las notificaciones es que si el subproceso desaparece, se destruye la ventana de notificación y ya no se pueden enviar notificaciones a ningún otro subproceso. Además, el procesamiento especial puede ser necesario para controlar la distribución de los mensajes de notificación que se publican en la cola de mensajes de la ventana oculta. 
   
-Si se utiliza una ventana independiente para controlar las notificaciones, estar seguro de que las notificaciones aparecerá en el momento adecuado en un subproceso adecuado. No necesita ningún código especial para buscar y procesar los mensajes de Windows que están registrados en la ventana de notificación. 
+Si usa una ventana independiente para controlar las notificaciones, asegúrese de que las notificaciones aparecerán en el momento adecuado en un subproceso adecuado. No necesitará ningún código especial para buscar y procesar los mensajes de Windows que se envían a la ventana de notificación. 
   
-MAPI, se recomienda que los siguientes tipos de aplicaciones cliente de utilizan un subproceso independiente para crear la ventana oculta para compatibilidad con notificación:
+MAPI recomienda que los siguientes tipos de aplicaciones cliente usen un subproceso independiente para crear la ventana oculta para la compatibilidad con notificaciones:
   
-- Todos los clientes de multiproceso.
+- Todos los clientes multiproceso.
     
-- Aplicaciones de consola de servicios de Windows y Win32 de un único subproceso.
+- Servicios de Windows de un solo proceso y aplicaciones de consola Win32.
     
-- Clientes de un único subproceso que no es necesario usar su subproceso principal para las notificaciones.
+- Clientes de un único subproceso que no necesitan usar su subproceso principal para la notificación.
     
-Para usar el método de subproceso separado, llamar **MAPIInitialize** en cada subproceso, establecer el indicador MAPI_MULTITHREAD_NOTIFICATIONS. 
+Para usar el enfoque de subprocesos independiente, llame a **MAPIInitialize** en cada subproceso, estableciendo la marca MAPI_MULTITHREAD_NOTIFICATIONS. 
   
 > [!NOTE]
-> Sólo un cliente primera llamada a **MAPIInitialize** hace que una ventana oculta que se creará para admitir las notificaciones. Llamadas posteriores causa sólo se incrementa un recuento de referencia. 
+> Solo la primera llamada de un cliente a **MAPIInitialize** hace que se cree una ventana oculta para admitir las notificaciones. Las llamadas posteriores solo hacen que se incremente un recuento de referencia. 
   
 

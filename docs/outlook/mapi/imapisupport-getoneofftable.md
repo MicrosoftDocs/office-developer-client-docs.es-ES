@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0beec8a0b234794d3f623c4ceac773db698dd79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316579"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero a la tabla de uso único de MAPI (una lista de plantillas que todos los libreta de direcciones de proveedores de soporte técnico para la creación de nuevos destinatarios).
+Devuelve un puntero a la tabla única de MAPI (una lista de plantillas que todos los proveedores de la libreta de direcciones admiten para crear nuevos destinatarios).
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -34,39 +34,39 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de las columnas de cadena. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de las columnas de cadena. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de la cadena tienen formato ANSI.
     
  _lppTable_
   
-> [out] Un puntero a un puntero a la tabla de uso único.
+> contempla Un puntero a un puntero a la tabla de un solo uso.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> En la tabla de uso único se recuperó correctamente.
+> La tabla de uso único se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::GetOneOffTable** se implementa para objetos de compatibilidad con de proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones, llame a **GetOneOffTable** para recuperar la lista completa de las plantillas para la creación de nuevos destinatarios. Esta tabla incluye plantillas que admiten los proveedores de la libreta de direcciones que están activos en la sesión, así como plantillas que es compatible con MAPI. 
+El método **IMAPISupport:: GetOneOffTable** se implementa para los objetos de compatibilidad del proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones llaman a **GetOneOffTable** para recuperar la lista completa de plantillas para crear nuevos destinatarios. En esta tabla se incluyen plantillas que admiten proveedores de libretas de direcciones activos en la compatibilidad con sesiones, así como plantillas admitidas por MAPI. 
   
-Los destinatarios recién creados se pueden usar para enviar un mensaje o pueden agregarse a un contenedor de la libreta de direcciones.
+Los destinatarios recién creados pueden usarse para dirigir un mensaje o pueden agregarse a un contenedor de libretas de direcciones.
   
-Para obtener una lista de las propiedades que componen la columna requiere establecer en las tablas de uso único, vea [Las tablas de uso único](one-off-tables.md).
+Para obtener una lista de las propiedades que conforman el conjunto de columnas necesario en las tablas de uso único, consulte [tablas de uso único](one-off-tables.md).
   
-Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas desde los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+La configuración de la marca MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas que se devuelven desde los métodos [IMAPITable:: QueryColumns](imapitable-querycolumns.md) y [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esta marca también controla los tipos de propiedades en el criterio de ordenación devueltos por el método [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si se ha registrado para recibir notificaciones de los cambios realizados en esta tabla de uso único, también recibirá notificaciones de los cambios realizados en las tablas de uso único de otros proveedores. En función de estas notificaciones, puede admitir nuevos tipos de dirección que se agregan durante la sesión actual.
+Si está registrado para recibir notificaciones de cambios en esta tabla única, también recibirá notificaciones de los cambios realizados en las tablas de un solo uso de los proveedores. En función de estas notificaciones, puede admitir nuevos tipos de direcciones que se agregan durante la sesión actual.
   
 ## <a name="see-also"></a>Vea también
 
@@ -84,10 +84,10 @@ Si se ha registrado para recibir notificaciones de los cambios realizados en est
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
-[Propiedad canónico PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propiedad canónica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Tablas de uso único](one-off-tables.md)
+[Tablas de un solo uso](one-off-tables.md)
 

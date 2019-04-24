@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: Restringe la enumeración a un período de tiempo especificado.
-ms.openlocfilehash: 6b07fe52a84d6a808ab7400ff3e8982b1cce51ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317566"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
@@ -20,7 +20,7 @@ Restringe la enumeración a un período de tiempo especificado.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IEnumFBBlock](ienumfbblock.md).
+Consulte [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Restrict(  
@@ -30,21 +30,21 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ftmStart_
   
->  [entrada] La hora de inicio para restringir la enumeración. 
+>  a La hora de inicio para restringir la enumeración. 
     
 _ftmEnd_
   
-> [entrada] La hora de finalización para restringir la enumeración.
+> a La hora de finalización para restringir la enumeración.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Este método también restablece la enumeración.
   

@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlStack
 keywords:
-- función xlStack [excel 2007]
+- función xlstack [Excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fcd073f7d2b97e84743d01c498435f186277e345
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55ceed93407b1d99e05bc20fb6ce0b22459de7df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310160"
 ---
 # <a name="xlstack"></a>xlStack
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comprueba la cantidad de espacio libre en la pila.
+Comprueba la cantidad de espacio restante en la pila.
   
 ```cs
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
@@ -34,21 +34,21 @@ Esta función no toma ningún argumento.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve el número de bytes (**xltypeInt**) restante en la pila.
+Devuelve el número de bytes (**xltypeInt**) restantes en la pila.
   
 ## <a name="remarks"></a>Comentarios
 
-La cantidad de espacio de pila disponible de versiones recientes desborda el entero con signo de 16 bits de la **XLOPER**. Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando llama a mediante **XLOPER**s y **Excel4** o **Excel4v**. Para obtener el valor correcto en este caso, debe convertir el valor devuelto para un unsigned short.
+La cantidad de espacio de pila disponible de versiones recientes desborda el entero de 16 bits con signo del **XLOPER**. Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando se llama usando **XLOPER**s y **Excel4** o **Excel4v**. Para obtener el valor correcto en este caso, debe convertir el valor devuelto a un unsigned short.
   
-Inicio de Excel 2007, se debe llamar a esta función con s **XLOPER12**y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que es el menor.
+A partir de Excel 2007, debe llamar a esta función con **XLOPER12**s y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que sea menor.
   
-Excel dispone de una cantidad limitada de espacio en la pila y que debe tener cuidado para no de este espacio de saturación. Nunca coloca las estructuras de datos muy grandes en la pila y realice todas las variables locales como sea posible estática. Evite llamar a funciones de forma recursiva, ya va a rellenar rápidamente arriba de la pila.
+Excel tiene una cantidad limitada de espacio en la pila y debe tener cuidado de no saturar este espacio. No ponga nunca estructuras de datos muy grandes en la pila y convierta tantas variables locales como sea posible. Evite llamar a las funciones de forma recursiva, ya que de este modo se llenará rápidamente la pila.
   
-Si sospecha que son sobrepasar la pila, llamar a esta función con frecuencia para ver cuánto espacio de pila queda.
+Si sospecha que está sobreutilizando la pila, llame a esta función con frecuencia para ver la cantidad de espacio de pila que queda.
   
 ## <a name="example"></a>Ejemplo
 
-El primer ejemplo se muestra un mensaje de alerta que contiene la cantidad de pila espacio izquierda y está incluido en `\SAMPLES\EXAMPLE\EXAMPLE.C`. El segundo ejemplo hace lo mismo, trabajar con s **XLOPER**y no está incluido en el código de ejemplo SDK.
+En el primer ejemplo se muestra un mensaje de alerta que contiene la cantidad de espacio de pila `\SAMPLES\EXAMPLE\EXAMPLE.C`restante y que se incluye en. El segundo ejemplo hace lo mismo, ya que se trabaja con **XLOPER**y no incluido en el código de ejemplo del SDK.
   
 ```cs
 short WINAPI xlStackExample(void)

@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319295"
 ---
 # <a name="mapi-client-objects"></a>Objetos de cliente MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Aplicaciones de cliente de mensajería estándar implementan un solo objeto, un receptor de notificaciones. Aviso receptores de heredan de la [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) de la interfaz y se usan por MAPI y los proveedores de notificación de eventos de servicios. Algunos clientes también implementan objetos de progreso para admitir la presentación de cuadros de diálogo de progreso. 
+Las aplicaciones cliente de mensajería estándar implementan solo un objeto: un receptor de notificaciones. Los receptores de notificaciones heredan de la interfaz [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) y se usan en MAPI y los proveedores de servicios para la notificación de eventos. Algunos clientes también implementan objetos Progress para admitir la presentación de cuadros de diálogo de progreso. 
   
-Los clientes más complejos que los formularios personalizados de soporte técnico implementan advise otro receptor de objeto y algunos otros objetos, como el objeto de sitio de mensaje que hereda de la [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) interfaz y el objeto de contexto de vista que herede de la [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) interfaz. El objeto de receptor advise adicionales hereda el [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) interfaz. 
+Los clientes más complejos que admiten formularios personalizados implementan otro objeto de notificación de notificaciones y otros objetos, como el objeto de sitio de mensaje que hereda de la interfaz [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) y el objeto de contexto de vista que hereda de la [IMAPIViewContext: interfaz IUnknown](imapiviewcontextiunknown.md) . El objeto del receptor de notificaciones adicionales hereda de la interfaz [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) . 
   
-En la siguiente tabla se resume los objetos MAPI se implementa por los clientes de mensajería estándares y los clientes que admiten la visualización de los formularios personalizados.
+En la tabla siguiente se resumen los objetos MAPI que implementan los clientes de mensajería estándar y los clientes que admiten la visualización de formularios personalizados.
   
 |**Objeto de cliente**|**Descripción**|
 |:-----|:-----|
-|Receptor de aviso  <br/> |Proporciona una función de devolución de llamada para los eventos que se producen en el almacén de mensajes, la libreta de direcciones o la sesión.  <br/> |
-|Sitio de mensaje  <br/> |Administra la manipulación de objetos de formulario.  <br/> |
+|Notificar al receptor  <br/> |Proporciona una función de devolución de llamada para los eventos que se producen en el almacén de mensajes, la libreta de direcciones o la sesión.  <br/> |
+|Sitio de mensajes  <br/> |Controla la manipulación de objetos de formulario.  <br/> |
 |Progress  <br/> |Muestra un cuadro de diálogo para mostrar el progreso de una operación.  <br/> |
-|Vista de aviso receptor  <br/> |Proporciona funciones de devolución de llamada para los eventos que se producen en un formulario.  <br/> |
-|Contexto de vista  <br/> |Admite comandos para imprimir y guardar formularios y para navegar entre formularios.  <br/> |
+|Ver el receptor de notificaciones  <br/> |Proporciona funciones de devolución de llamada para los eventos que se producen en un formulario.  <br/> |
+|Contexto de la vista  <br/> |Admite comandos para imprimir y guardar formularios, y para navegar entre formularios.  <br/> |
    
-En la siguiente ilustración se muestra la relación entre estos objetos de cliente distinto, las interfaces de la que heredan y los componentes MAPI que usan. 
+En la siguiente ilustración se muestra la relación entre estos objetos de cliente diferentes, las interfaces desde las que heredan y los componentes MAPI que los usan. 
   
-![Objetos de cliente y las interfaces correspondientes] (media/amapi_65.gif "Objetos de cliente y las interfaces correspondientes")
+![Objetos de cliente y sus interfaces correspondientes] (media/amapi_65.gif "Objetos de cliente y sus interfaces correspondientes")
   
-Los clientes usan muchos más objetos que implementan. Todos los clientes de usar un objeto de sesión para obtener acceso a una amplia variedad de objetos que implementa MAPI y objetos de proveedor de servicio. Los clientes interactúan con los proveedores de servicios indirectamente, a través de la sesión, la libreta de direcciones o los objetos de estado que suministran los MAPI, o directamente a través de una variedad de objetos que implementan los proveedores de servicio en particular. Para hacer que un contacto directo con los proveedores de la libreta de direcciones, los clientes usan contenedores de libretas de direcciones, los usuarios y las listas de distribución de mensajería. Para obtener acceso a un proveedor de almacén de mensajes, los clientes utilizan directamente el objeto de almacén de mensajes, carpetas, mensajes y datos adjuntos. Cuando los proveedores de servicios son compatibles con un objeto de estado, los clientes pueden utilizar el objeto de estado para supervisar el estado de un proveedor de servicios.
+Los clientes usan muchos más objetos de los que implementan. Todos los clientes usan un objeto Session para obtener acceso a una amplia variedad de objetos de proveedor de servicios y objetos que implementa MAPI. Los clientes interactúan con los proveedores de servicios de forma indirecta, a través de la sesión, la libreta de direcciones o los objetos de estado que proporciona MAPI, o directamente a través de una variedad de objetos que implementan determinados proveedores de servicios. Para establecer un contacto directo con los proveedores de la libreta de direcciones, los clientes usan contenedores de libretas de direcciones, usuarios de mensajería y listas de distribución. Para obtener acceso directamente a un proveedor de almacenamiento de mensajes, los clientes usan el objeto, las carpetas, los mensajes y los datos adjuntos del almacén de mensajes. Cuando los proveedores de servicios admiten un objeto de estado, los clientes pueden usar el objeto de estado para supervisar el estado del proveedor de servicios.
   
-Los clientes que admiten el proveedor de servicios y la configuración del servicio de mensaje usan tres objetos que implementa MAPI: el objeto de administración del servicio de message, el objeto de perfil de administración y el objeto de proveedor de administración. Los clientes que mostrar formularios personalizados usan varios objetos de formulario que implementa un proveedor de la biblioteca de formulario o un servidor de formulario.
+Los clientes que admiten el proveedor de servicios y la configuración del servicio de mensajes usan tres objetos que implementa MAPI: el objeto de administración del servicio de mensajes, el objeto de administración de perfiles y el objeto de administración del proveedor. Los clientes que muestran formularios personalizados usan varios objetos de formulario que implementa un proveedor de bibliotecas de formularios o un servidor de formularios.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  
 - [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
-- [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
+- [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
 

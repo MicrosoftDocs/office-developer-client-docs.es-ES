@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook exporta las definiciones siguientes, las estructuras de datos, funciones y las interfaces que se diseñaron originalmente para uso interno, pero ahora se exponen para uso público.
 ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316985"
 ---
 # <a name="about-apis-exported-by-outlook"></a>Acerca de las API exportadas por Outlook
 

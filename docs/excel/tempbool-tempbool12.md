@@ -8,41 +8,41 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- tempbool (función) [excel 2007], TempBool12 (función) [Excel 2007]
+- función tempbool [Excel 2007], TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8c917f0004fe091413ea670f1cc562f1d701fa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310356"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene **Boolean** **es TRUE** o **FALSE**.
+Función de biblioteca de Framework que crea un**XLOPER12** de **XLOPER**/ temporal que contiene **booleano** **true** o **false**.
   
 ```cs
 LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _b_ (**int**)
   
-Use 0 para devolver **FALSE**; Use cualquier otro valor para devolver **TRUE**.
+Use 0 para devolver **false**; use cualquier otro valor para devolver **true**.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve un **Boolean** que contiene el valor lógico que se pasó **xltypeBool** . 
+Devuelve un valor **booleano** **xltypeBool** que contiene el valor lógico pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se usa la función **TempBool12** para borrar la barra de estado. Cuando se llama a la función de [Excel/Excel12f](excel-excel12f.md) , se libera memoria temporal. 
+En el siguiente ejemplo, se usa la función **TempBool12** para borrar la barra de estado. La memoria temporal se libera cuando se llama a la función [Excel/Excel12f](excel-excel12f.md) . 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

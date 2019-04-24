@@ -8,11 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308375"
 ---
 # <a name="tabledef-object-dao"></a>Objeto TableDef (DAO)
 
@@ -32,7 +32,7 @@ La definición de una tabla se manipula con un objeto **TableDef** y sus método
 
 - Usar el método **OpenRecordset** para crear un objeto **Recordset** de tipo tabla, conjunto de registros dinámicos, dinámico, instantánea o de solo avance, de acuerdo con la definición de la tabla.
 
-En las tablas base, la propiedad **RecordCount** contiene el número de registros de la tabla de base de datos especificada. Para las tablas vinculadas, la configuración de la propiedad **RecordCount** es siempre -1.
+En las tablas base, la propiedad **RecordCount** contiene el número de registros de la tabla de base de datos especificada. En las tablas vinculadas, el valor de la propiedad **RecordCount** siempre es –1.
 
 Para crear un nuevo objeto **TableDef**, utilice el método **[CreateTableDef](database-createtabledef-method-dao.md)**.
 

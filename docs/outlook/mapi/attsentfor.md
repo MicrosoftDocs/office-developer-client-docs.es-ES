@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b292e65ddabcbe052832687a3dcf01658de5e379
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f961348e7be474202273aa97a2922566ef40c3a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318119"
 ---
 # <a name="attsentfor"></a>attSentFor
 
@@ -21,16 +21,16 @@ ms.locfileid: "22567478"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El atributo **attSentFor** se codifica como cadenas contadas distribuyen to-end. El formato de **attSentFor** es como sigue: 
+El atributo **attSentFor** está codificado como cadenas contadas contenidas en un extremo a otro. El formato para **attSentFor** es el siguiente: 
   
  **attSentFor**: 
   
-> longitud del nombre para mostrar de nombre para mostrar dirección longitud _dirección de correo electrónico_
+> Display-Name-length nombre-longitud de dirección dirección de _correo electrónico-dirección_
     
- _dirección de correo electrónico_
+ _Dirección de correo electrónico_
   
-> dirección de tipo **:** 
+> tipo **:** Address 
     
-A diferencia de otra longitud valores, la longitud del nombre para mostrar y la longitud de dirección son valores de 16 bits sin signo en lugar de enteros largos sin signo. Aún incluyen terminar caracteres null, sin embargo. Las cadenas de tipo y la dirección en la entrada de _dirección de correo electrónico_ están separadas por un carácter de dos puntos (:) literal, como "smtp:joe@nowhere.com". Sólo la cadena de dirección combinada del tipo **:** está terminada en null.
+A diferencia de otros valores de longitud, Display-Name-length and Address-length son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen el final de los caracteres nulos. Las cadenas de tipo y dirección de la entrada de _dirección de correo electrónico_ están separadas por dos puntos literales (:) carácter, como "SMTP:Joe@nowhere.com". Solo el tipo combinado **:** la cadena de dirección termina en NULL.
   
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8289b8dd2e0ab3c760e77a37b821d2fe74e4abe9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315972"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Procesa un mensaje enviado.
   
@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,7 +56,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** realiza las tareas siguientes: 
   
-- Comprueba el mensaje para la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) determinar si se debe eliminar el mensaje después de enviarlo.
+- Comprueba el mensaje para la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para determinar si se debe eliminar el mensaje después del envío.
     
 - Determina la ubicaci�n de la carpeta Elementos enviados.
     
@@ -66,7 +66,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
     
 - Libera el mensaje.
     
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

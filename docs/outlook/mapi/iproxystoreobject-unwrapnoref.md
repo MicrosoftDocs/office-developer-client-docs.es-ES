@@ -13,41 +13,41 @@ api_type:
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ef9f506c1a95fec86c7f092b0299198e6149d3ba
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320156"
 ---
 # <a name="iproxystoreobjectunwrapnoref"></a>IProxyStoreObject::UnwrapNoRef
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene un puntero a un objeto de almacén de protocolo de acceso a mensajes de Internet (IMAP) no ajustado que proporciona acceso al archivo de carpetas personales (PST) subyacente sin invocar la sincronización y descarga de los elementos.
+Obtiene un puntero a un objeto de almacén IMAP (Protocolo de acceso a mensajes de Internet) sin ajustar que proporciona acceso al archivo de carpetas personales (PST) subyacente sin invocar la sincronización y descargar los elementos.
   
 ```cpp
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppvObject_
   
-> [out] Puntero a un [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) objeto store que se no ajustado. 
+> contempla Puntero a un objeto Store de [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) que se desenvuelve. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK
   
-- La llamada se realizó correctamente y se ha devuelto un puntero a una interfaz no ajustado en _ppvObject_.
+- La llamada se ha realizado correctamente y se ha devuelto un puntero a una interfaz desempaquetada en _ppvObject_.
     
 ## <a name="remarks"></a>Comentarios
 
-Sin primera apertura un almacén IMAP, obtener acceso a un mensaje en el almacén puede forzar la sincronización que intenta descargar el mensaje completo. Mediante el almacén no ajustado permite el acceso a los mensajes en su estado actual sin desencadenar una descarga.
+Si no se desenvuelve primero un almacén IMAP, el acceso a un mensaje en la tienda puede forzar una sincronización que intente descargar el mensaje completo. El uso del almacén desempaquetado permite el acceso al mensaje en su estado actual sin desencadenar una descarga.
   
-Debido a que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén no ajustado, después de llamar correctamente a **UnwrapNoRef**, se debe llamar a [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencia. 
+Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén desencapsulado, después de llamar a **UnwrapNoRef**correctamente, debe llamar a [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencia. 
   
 ## <a name="see-also"></a>Vea también
 

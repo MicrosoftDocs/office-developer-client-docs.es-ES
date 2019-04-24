@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7c7353b7-f28e-4004-bf13-6e9714fbed37
-description: Determina la cantidad de distorsión para un efecto de boceto, como un número entero entre 0 y 25.
-ms.openlocfilehash: d5ae954f2eab48722c48c9bc4b3f640403dbb3ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina la cantidad de distorsión de un efecto de boceto, como un entero entre 0 y 25.
+ms.openlocfilehash: fd9ee3390d05f24d81d9c6677160155b0f0f0d35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314773"
 ---
 # <a name="sketchamount-cell-additional-effect-properties-section"></a>Celda SketchAmount (sección Propiedades del efecto adicional)
 
-Determina la cantidad de distorsión para un efecto de boceto, como un número entero entre 0 y 25. 
+Determina la cantidad de distorsión de un efecto de boceto, como un entero entre 0 y 25. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |La forma no tiene ningún efecto de boceto que se ha aplicado.  <br/> |
-|1-25  <br/> |La forma tiene distorsión de esbozo que se ha aplicado, donde un valor de 1 es la mayoría distorsión y 25 es el menor.  <br/> |
+|comprendi  <br/> |La forma no tiene ningún efecto de boceto aplicado.  <br/> |
+|1-25  <br/> |La forma tiene distorsión de boceto aplicada, donde un valor de 1 es la mayor distorsión y 25 es el mínimo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **SketchAmount** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **SketchAmount** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | SketchAmount  <br/> |
    
-Para obtener una referencia a la celda **SketchAmount** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **SketchAmount** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

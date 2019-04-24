@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f3aad4a5b3ba815d3e4f91e990bb63d75502f94b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 820df61ec23e2dd1459582e5a7bb35ad9525e0b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315823"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Propiedad canónica PidTagAbProviderId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580078"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la estructura [MAPIUID](mapiuid.md) de un proveedor libreta de direcciones. 
+Contiene una estructura [MAPIUID](mapiuid.md) del proveedor de la libreta de direcciones. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contiene la estructura [MAPIUID](mapiuid.md) de un proveedor libreta de direccio
    
 ## <a name="remarks"></a>Comentarios
 
-La estructura **MAPIUID** identifica qué proveedor de libreta de direcciones proporciona este contenedor determinado en la jerarquía del contenedor. El valor es único para cada proveedor. 
+La estructura **MAPIUID** identifica el proveedor de la libreta de direcciones que proporciona este contenedor en particular en la jerarquía de contenedores. El valor es único para cada proveedor. 
   
-Un proveedor de la libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que suministran los dos contenedores diferentes puede publicar en **PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
+Un proveedor de libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que proporciona dos contenedores diferentes puede publicar en **PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
   
- **PR_AB_PROVIDER_ID** es análoga a la propiedad **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para los almacenes de mensajes. Las aplicaciones de cliente pueden usar **PR_AB_PROVIDER_ID** para buscar filas relacionadas en una tabla de jerarquías de la libreta de direcciones. 
+ **PR_AB_PROVIDER_ID** es análogo a la propiedad **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para los almacenes de mensajes. Las aplicaciones cliente pueden usar **PR_AB_PROVIDER_ID** para buscar filas relacionadas en una tabla de jerarquías de la libreta de direcciones. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,9 +63,9 @@ Mapidefs.h
 [Propiedad canónica PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)
 
 
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

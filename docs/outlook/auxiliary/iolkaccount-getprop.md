@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: Obtiene el valor de la propiedad de cuenta especificado.
-ms.openlocfilehash: 2c0756f416a209d37eff2209a82c298837f85f3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtiene el valor de la propiedad de la cuenta especificada.
+ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321241"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
-Obtiene el valor de la propiedad de cuenta especificado.
+Obtiene el valor de la propiedad de la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetProp(  
@@ -29,27 +29,27 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [entrada] La etiqueta de propiedad de la propiedad cuenta que se va a obtener.
+> a La etiqueta de propiedad de la propiedad de cuenta que se va a obtener.
     
 _pVar_
   
-> [out] El valor de la propiedad especificada.
+> contempla Valor de la propiedad especificada.
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |No se encontró la propiedad para la cuenta especificada.  <br/> |
-|E_INVALIDARG  <br/> |Se ha especificado una etiqueta de propiedad no válido.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |No se encuentra la propiedad de la cuenta especificada.  <br/> |
+|E_INVALIDARG  <br/> |Se ha especificado una etiqueta de propiedad no válida.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Después de que este método devuelve, si el valor de la propiedad de cuenta es un tipo de archivo binario o cadena, debe liberar *pVar* mediante [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Una vez que se devuelve este método, si el valor de la propiedad Account es un tipo binario o de cadena, debe liberar *pVar* mediante [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>Vea también
 

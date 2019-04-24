@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
-description: Crea un objeto que puede tener acceso un cliente en un formato de carácter preferido.
+description: Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.
 ms.openlocfilehash: 3f68e0f275bcc5df065b3113d3322d6957f76df0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317608"
 ---
 # <a name="hrcreatenewwrappedobject"></a>HrCreateNewWrappedObject
 
-Crea un objeto que puede tener acceso un cliente en un formato de carácter preferido.
+Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Exportada por:  <br/> |Msmapi32.dll  <br/> |
-|Llamado por:  <br/> |Cliente  <br/> |
+|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
+|Llamado por:  <br/> |Client  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -39,58 +39,58 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pvUnwrapped_
   
-> [entrada] El objeto de Outlook no ajustado inicial. Debe implementar una de las interfaces siguientes:
+> a El objeto de Outlook desajustado inicial. Debe implementar una de las siguientes interfaces:
     
-   - [IMailUser: IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder: IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage: IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore: IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon: IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx), o [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
+   - [IMailUser: IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder: IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage: IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore: IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon: IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx)o [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
     
 _ulUnwrappedFlags_
   
-> [entrada] Marcas que caracterizan el objeto inicial no ajustado. Debe ser uno o varios de los siguientes valores:
+> a Marcadores que caracterizan el objeto inicial desajustado. Debe ser uno o más de los siguientes valores:
     
-   - DDLWRAP_FLAG_ANSI: objeto Unwrapped es ANSI.
+   - DDLWRAP_FLAG_ANSI: el objeto desempaquetado es ANSI.
     
-   - DDLWRAP_FLAG_UNICODE: objeto Unwrapped es UNICODE.
+   - DDLWRAP_FLAG_UNICODE: el objeto desempaquetado es uniCODE.
     
 _ulWrappedFlags_
   
->  [entrada] Marcas para el formato de carácter preferido. Debe ser uno o varios de los siguientes valores: 
+>  a Marcas para el formato de carácter preferido. Debe ser uno o más de los siguientes valores: 
     
-   - DDLWRAP_FLAG_ANSI: objeto Wrapped se mostrarán como ANSI.
+   - DDLWRAP_FLAG_ANSI: el objeto ajustado se expondrá como ANSI.
     
-   - DDLWRAP_FLAG_UNICODE: objeto Wrapped se mostrarán como UNICODE.
+   - DDLWRAP_FLAG_UNICODE: el objeto ajustado se expondrá como uniCODE.
     
 _pIID_
   
->  [entrada] El identificador de la interfaz admitido por el objeto no ajustado; establecer en NULL si esto es desconocido. 
+>  a Identificador de la interfaz compatible con el objeto desencapsulado; establézcalo en NULL si se desconoce. 
     
 _pulReserved_
   
->  [entrada] Este parámetro no se usa. Debe ser NULL. 
+>  a Este parámetro no se usa. Debe ser NULL. 
     
 _fCheckWrap_
   
->  [entrada] Establezca este parámetro en **true** si se deben comprobar _pvUnwrapped_ para su formato antes del ajuste; establézcalo en **false** si el objeto se debe ajustar sin comprobar. 
+>  a Establezca este parámetro en **true** si se debe comprobar el formato de _pvUnwrapped_ antes de ajustar; establézcalo en **false** si el objeto se debe ajustar sin comprobación. 
     
 _ppvWrapped_
   
->  [out] Un puntero al objeto solicitado, ajustado en el formato de caracteres solicitado. 
+>  contempla Un puntero al objeto solicitado, ajustado en el formato de carácter solicitado. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Pasar un objeto ajustado con _fCheckWrap_ establecido en **true** , se producirá un objeto no ajustado. Independientemente de si se ajusta el objeto devuelto, el cliente es responsable de liberar la referencia en el objeto devuelto. 
+Pasar un objeto ajustado con _fCheckWrap_ establecido en **true** dará como resultado un objeto desencapsulado. Independientemente de si el objeto devuelto está ajustado o no, el cliente es responsable de liberar la referencia en el objeto devuelto. 
   
-Cuando se usa **GetProcAddress** para buscar la dirección de esta función en msmapi32.dll, especifique **HrCreateNewWrappedObject@28** como el nombre del procedimiento. 
+Al utilizar **GetProcAddress** para buscar la dirección de esta función en MSMAPI32. dll, especifique **HrCreateNewWrappedObject @ 28** como nombre del procedimiento. 
   
 ## <a name="see-also"></a>Vea también
 
 - [Acerca de la capa de degradación de datos API](about-the-data-degradation-layer-api.md)
-- [Constantes (capa de degradación de datos API)](constants-data-degradation-layer-api.md)
+- [Constantes (API de capa de degradación de datos)](constants-data-degradation-layer-api.md)
 
