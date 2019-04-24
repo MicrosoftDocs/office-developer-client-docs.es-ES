@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322165"
 ---
 # <a name="about-mapi-additions"></a>Acerca de las adiciones de MAPI
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Adiciones de MAPI son las API que pertenecen a MAPI Messaging Application Programming Interface (), como tipos de datos, funciones y propiedades, que se no han exponen y previamente documentado como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
+Las adiciones MAPI son API que pertenecen a la interfaz de programación de aplicaciones de mensajería (MAPI), como tipos de datos, funciones y propiedades, que no se han expuesto previamente y documentado como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
   
 ## <a name="constant-definitions"></a>Definiciones de constantes
 
@@ -29,7 +29,7 @@ Adiciones de MAPI son las API que pertenecen a MAPI Messaging Application Progra
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Gender](gender.md)**
+- **[Género](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -39,7 +39,7 @@ Adiciones de MAPI son las API que pertenecen a MAPI Messaging Application Progra
     
 ## <a name="properties"></a>Propiedades
 
-Las siguientes propiedades se exponen normalmente por los objetos de mensaje.
+Por lo general, los objetos de mensaje exponen las siguientes propiedades.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ Las siguientes propiedades se exponen normalmente por los objetos de mensaje.
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de tabla de contenido de la libreta de direcciones.
+Las siguientes propiedades las exponen los objetos de tabla de contenido de la libreta de direcciones.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de contenedor de la libreta de direcciones.
+Los objetos de contenedor de la libreta de direcciones exponen las siguientes propiedades.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,13 +91,13 @@ Las siguientes propiedades se exponen mediante objetos de contenedor de la libre
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de carpeta.
+Los objetos Folder exponen las siguientes propiedades.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
 - **[PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de usuario de mensajería.
+Los objetos de usuario de mensajería exponen las siguientes propiedades.
   
 - **[PR_ASSISTANT_TELEPHONE_NUMBER_W](pidtagassistanttelephonenumber-canonical-property.md)**
     
@@ -207,7 +207,7 @@ Las siguientes propiedades se exponen mediante objetos de sección de perfil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de almacén.
+Los objetos Store exponen las siguientes propiedades.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ Las siguientes propiedades se exponen mediante objetos de almacén.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Las siguientes propiedades se exponen con objetos de almacén y se usan en la búsqueda de elementos específicos de un correo electrónico en el repositorio de.
+Las siguientes propiedades están expuestas por objetos Store y se usan para buscar elementos específicos de un correo electrónico en el almacén.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -231,7 +231,7 @@ Las siguientes propiedades se exponen con objetos de almacén y se usan en la b�
     
 - **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detectar la versión de Exchange Server en un perfil de Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)

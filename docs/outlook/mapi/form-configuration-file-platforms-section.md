@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [Plataformas]
+title: Sección del archivo de configuración de formulario [plataformas]
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7439de5b91cefe89eba2f9395595d4a7c8ca3ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327513"
 ---
-# <a name="form-configuration-file-platforms-section"></a>Sección del archivo de configuración de formulario [Plataformas]
+# <a name="form-configuration-file-platforms-section"></a>Sección del archivo de configuración de formulario [plataformas]
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[plataformas]** enumera el conjunto completo de plataformas compatibles con este formulario. Cada entrada de plataforma consta del prefijo **plataforma.** _cadena_, donde la _cadena_ es un código de cadena arbitraria para la plataforma Cada cadena corresponde a la entrada de **CPU** de un secciones **[plataformas]** individuales. Cada entrada en una sección **[plataformas]** define una _cadena de la plataforma_ que hace referencia a una posterior **[plataforma.** _cadena de plataforma_ sección de **]** tal como se muestra aquí. 
+La sección **[Platforms]** muestra el conjunto completo de plataformas compatibles con este formulario. Cada entrada de la plataforma consta de la plataforma de prefijo **.** _String_, donde _String_ es un código de cadena arbitrario de la plataforma. Cada cadena corresponde a la entrada de la **CPU** de una sección **[Platforms]** individual. Cada entrada de una sección **[Platforms]** define una _cadena de plataforma_ que hace referencia a una siguiente **[plataforma.** _cadena_ de la plataforma **]** tal como se muestra aquí. 
   
-La sección **[plataformas]** enumera el conjunto completo de plataformas compatibles con este formulario. Cada entrada de plataforma consta del prefijo **plataforma.** _cadena_, donde la _cadena_ es un código de cadena arbitraria para la plataforma Cada cadena corresponde a la entrada de **CPU** de un secciones **[plataformas]** individuales. Cada entrada en una sección **[plataformas]** define una _cadena de la plataforma_ que hace referencia a una posterior **[plataforma.** _cadena de plataforma_ sección de **]** tal como se muestra aquí. 
+La sección **[Platforms]** muestra el conjunto completo de plataformas compatibles con este formulario. Cada entrada de la plataforma consta de la plataforma de prefijo **.** _String_, donde _String_ es un código de cadena arbitrario de la plataforma. Cada cadena corresponde a la entrada de la **CPU** de una sección **[Platforms]** individual. Cada entrada de una sección **[Platforms]** define una _cadena de plataforma_ que hace referencia a una siguiente **[plataforma.** _cadena_ de la plataforma **]** tal como se muestra aquí. 
   
-**[Plataformas]**
+**Select**
   
-**Plataforma**. _cadena_ =  _cadena de plataforma_
+**Plataforma**. __ =  cadena de_plataforma_ de cadena
   
-Siguiente es un ejemplo de una sección **[plataformas]** . 
+A continuación se encuentra un ejemplo de una sección **[Platforms]** . 
   
 ```cpp
 [Platforms]
@@ -36,43 +36,43 @@ Platform.2 = Win95
 
 ```
 
-Cada **[plataforma.** _cadena de plataforma_ sección **]** contiene las dos entradas necesarias, **CPU** y **OSVersion**. La entrada de **CPU** especifica el procesador, y la entrada **OSVersion** especifica el sistema operativo. Los valores válidos de **CPU** se describen en la siguiente tabla. 
+Cada **[plataforma.** _cadena_ de la plataforma **]** contiene las dos entradas requeridas, **CPU** y **OSVersion**. La entrada **CPU** especifica el procesador y la entrada **OSVersion** especifica el sistema operativo. Los valores de **CPU** válidos se describen en la tabla siguiente. 
   
 |**Entrada de CPU**|**Procesador**|
 |:-----|:-----|
-|Ix86  <br/> |Intel 80 x 86 y procesadores Pentium de la serie, así como los procesadores equivalentes de AMD, Cyrix, NextGen y otros fabricantes.  <br/> |
-|MIPS  <br/> |Procesadores de la serie de MIPS R4000.  <br/> |
+|Ix86  <br/> |Procesadores Intel 80x86 y Pentium series, así como procesadores equivalentes de AMD, Cyrix, NextGen y otros fabricantes.  <br/> |
+|MIPS  <br/> |Procesadores MIPS de la serie R4000.  <br/> |
 |AXP  <br/> |Procesador Digital Equipment Corporation Alpha AXP.  <br/> |
-|PPC  <br/> |Procesadores de la serie de Motorola Power PC.  <br/> |
-|M68  <br/> |Procesadores de la serie Mororola 68 x 00.  <br/> |
+|PPC  <br/> |Procesadores de Motorola Power PC Series.  <br/> |
+|M68  <br/> |Mororola procesadores de la serie 68x00.  <br/> |
    
-Los valores válidos de **OSVersion** se describen en la siguiente tabla. 
+Los valores de **OSVersion** válidos se describen en la tabla siguiente. 
   
-|**Entrada de OSVersion**|**Sistema operativo**|
+|**Entrada OSVersion**|**Sistema operativo**|
 |:-----|:-----|
-|Win3.1  <br/> |Windows 3.1 y Windows para trabajo en grupo 3.11.  <br/> |
-|WinNT3.5  <br/> |Windows NT 3.5 o inferior.  <br/> |
-|Windows 95  <br/> |Windows 95.  <br/> |
-|WinNT4.0  <br/> |Windows NT 4.0.  <br/> |
-|Mac7  <br/> |Sistema de Macintosh 7.  <br/> |
+|Win 3.1  <br/> |Windows 3,1 y Windows para trabajo en grupo 3,11.  <br/> |
+|Winnt 3.5  <br/> |Windows NT 3,5 o anterior.  <br/> |
+|95  <br/> |Windows 95.  <br/> |
+|WinNT 4.0  <br/> |Windows NT 4,0.  <br/> |
+|Mac7  <br/> |Sistema Macintosh 7.  <br/> |
    
-Además, el **[plataforma.** _cadena de plataforma_ sección **]** debe contener una entrada de un **archivo** o **enlacesa** . La entrada de **archivo** enumera el archivo ejecutable de aplicación de servidor de formulario que mantiene la biblioteca de formularios y se carga en un subdirectorio nuevo en la caché de disco cuando se inicia el formulario. Si una entrada **enlacesa** se usa en su lugar, contiene el nombre de una cadena de plataforma diferente de la que se toma la información del **archivo** . Esto es útil si una versión de un formulario es compatible con varias plataformas. 
+Además, **[plataforma.** _cadena_ de la plataforma **]** debe contener una entrada **File** o **LinkTo** . La entrada **File** muestra el archivo ejecutable de la aplicación de servidor de formulario que mantiene la biblioteca de formularios y se carga en un nuevo subdirectorio de la caché de disco cuando se inicia el formulario. Si se **** usa una entrada LinkTo, ésta contiene el nombre de una cadena de plataforma diferente desde la que se toma la información del **archivo** . Esto es útil si una versión de un formulario admite varias plataformas. 
   
-La entrada **del registro** se usa siempre que se utiliza la entrada de **archivo** , identifica la clave del registro de la biblioteca de formularios donde se almacena el archivo ejecutable de la aplicación de servidor del formulario. Cadenas precedidas por una barra diagonal inversa (\) se colocan en la raíz del registro. Las cadenas no precedidas por una barra diagonal inversa se colocan en el _GUID_de HKEY_CLASSES_ROOT\CLSID\ \ clave del registro, donde _GUID_ es el **GUID** del formulario. Los caracteres "%d" pueden utilizarse para indicar la ruta de acceso del directorio desde el que se ha leído el archivo de configuración del formulario. Esto es útil para especificar otros archivos con nombres de ruta de acceso relativa al archivo de configuración del formulario. Las entradas de **registro** o **Varios archivos** se pueden especificar mediante el uso del registro o archivo como un prefijo seguido de cualquier otro texto. El formato para el **[plataforma.** _cadena de plataforma_ sección **]** es: 
+La entrada **del registro** se usa siempre que se utiliza la entrada del **archivo** , identifica la clave del registro de la biblioteca de formularios en la que se almacena el archivo ejecutable de la aplicación de servidor de formularios. Las cadenas precedidas por una barra diagonal inversa (\) se colocan en la raíz del registro. Las cadenas que no estén precedidas por una barra diagonal inversa se colocan en la clave del registro HKEY_CLASSES_ROOT\CLSID\ _GUID_\, donde _GUID_ es el **GUID** del formulario. Se pueden usar los caracteres "% d" para indicar la ruta de la ruta de directorio desde la que se leyó el archivo de configuración del formulario. Esto es útil para especificar otros archivos con rutas de nombres en relación con el archivo de configuración de formulario. Se pueden especificar varias entradas de **archivo** o **registro** mediante archivo o registro como prefijo seguido de cualquier otro texto. El formato de **[plataforma.** _cadena_ de la plataforma **]** es: 
   
-- **[Plataforma.** _cadena de plataforma_ **]**
+- **Varias.** _cadena_ de la plataforma **]**
     
-- **CPU** =  _cadena_
+- **** =  _Cadena_ de CPU
     
-- **OSVersion** =  _cadena_
+- **** =  _Cadena_ OSVersion
     
-- **Archivo** =  _ruta de acceso_
+- **** =  _Ruta de acceso_ del archivo
     
-- **Enlacesa** =  _cadena_
+- **** =  _Cadena_ LinkTo
     
-- **El registro** =  _cadena_
+- **Cadena del registro** =  __
   
-Los siguientes son dos ejemplo **[plataforma.** _cadena de plataforma_ en las secciones **]** , uno con la entrada del **archivo** y uno con la entrada **enlacesa** . 
+A continuación se muestran dos ejemplos **[Platform.** _cadena_ de la plataforma **]** secciones, una con la entrada de **archivo** y otra con **** la entrada LinkTo. 
   
 ```cpp
 [Platform.NTx86]
@@ -87,6 +87,6 @@ LinkTo = NTx86
 
 ```
 
-El **[plataforma.** _cadena de plataforma_ sección **]** se omite cuando se agrega un formulario a la biblioteca de formularios local, cuando se supone que el programa de instalación colocó los archivos que constituyen el controlador de clase de mensaje a un almacenamiento local disponible como con nombre en la sección del controlador en el registro OLE y ha realizado el registro OLE en el registro del sistema. 
+**[Plataforma.** _cadena_ de la plataforma **]** se omite cuando se agrega un formulario a la biblioteca de formularios local cuando se da por sentado que el instalador ha colocado los archivos que conforman el controlador de clase de mensaje en el almacenamiento local disponible como se indica en la sección del controlador del registro OLE y ha realizado el registro OLE en el registro del sistema. 
   
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3b0332fb81dadb0f10ab6f55fae317349ab9b8d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec73a456f87b18905c180803d26720ef09254c7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327898"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Propiedad canónica PidTagIpmOutboxEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584880"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta Bandeja de salida estándar de mensajes interpersonales (IPM). 
+Contiene el identificador de entrada de la carpeta Bandeja de salida del mensaje interpersonal estándar (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene el identificador de entrada de la carpeta Bandeja de salida estándar d
    
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, los mensajes salientes se crean en la carpeta Bandeja de salida. Mensajes interpersonales se deben colocar en esta carpeta para el envío. 
+Normalmente, los mensajes salientes se crean en la carpeta Bandeja de salida. Los mensajes interpersonales deben colocarse en esta carpeta para su envío. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

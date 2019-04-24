@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 18c96796-f38d-4058-9c51-9c5a14990846
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ceda6b1d551af973df08f8069d1eaf543085a375
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c5764d74039249ccac47d449f0ebd4042893434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328444"
 ---
 # <a name="recipient-properties-for-all-messages"></a>Propiedades de destinatario para todos los mensajes
 
@@ -21,18 +21,18 @@ ms.locfileid: "22574223"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes propiedades están normalmente presentes para todos los destinatarios del mensaje. **PR_EMAIL_ADDRESS** y **PR_SEARCH_KEY** son opcionales; todas las demás propiedades son necesarios. 
+Normalmente, las siguientes propiedades están presentes para todos los destinatarios del mensaje. **PR_EMAIL_ADDRESS** y **PR_SEARCH_KEY** son opcionales; todas las demás propiedades son necesarias. 
   
 **Título de la tabla**
 
 |**Propiedad**|**Descripción**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contiene el tipo de dirección de correo electrónico del usuario de mensajería, como SMTP.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contiene el nombre para mostrar para un determinado objeto MAPI.  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contiene un valor que se utiliza para asociar un icono a una fila de una tabla determinada.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contiene el nombre para mostrar de un objeto MAPI determinado.  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contiene un valor que se usa para asociar un icono a una fila concreta de una tabla.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Contiene la dirección de correo electrónico del usuario de mensajería.  <br/> |
-|**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contiene un identificador de entrada MAPI utilizado para abrir y editar las propiedades de un determinado objeto MAPI.  <br/> |
+|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contiene un identificador de entrada MAPI que se usa para abrir y editar las propiedades de un objeto MAPI en particular.  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contiene el tipo de un objeto.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contiene una clave binario comparable que identifica objetos correlacionados para una búsqueda.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contiene una clave comparable binaria que identifica los objetos correlacionados para una búsqueda.  <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329305"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Propiedad canónica PidTagNonReceiptReason
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590242"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los motivos por qué no se ha recibido un mensaje que forma parte de un informe de no entrega.
+Contiene los motivos por los que no se recibió un mensaje que forme parte de un informe de no entrega.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene los motivos por qué no se ha recibido un mensaje que forma parte de un
    
 ## <a name="remarks"></a>Comentarios
 
-Motivos pueden incluir, por ejemplo, que se ha descartado el mensaje.
+Los motivos pueden incluir, por ejemplo, que se descartó el mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
-description: Especifica si se debe usar la autenticación de contraseña segura (SPA) para un buzón de correo de Internet general.
-ms.openlocfilehash: ac6a4088423e7986632a1dc0ca7c3e1b419f9203
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica si se debe usar la autenticación de contraseña segura (SPA) para un buzón general de Internet.
+ms.openlocfilehash: b20bba4866ba61c66d6c79ee53ca2fe225f6d433
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326540"
 ---
 # <a name="propinetusespa"></a>PROP_INET_USE_SPA
 
-Especifica si se debe usar la autenticación de contraseña segura (SPA) para un buzón de correo de Internet general.
+Especifica si se debe usar la autenticación de contraseña segura (SPA) para un buzón general de Internet.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -24,12 +24,12 @@ Especifica si se debe usar la autenticación de contraseña segura (SPA) para un
 |:-----|:-----|
 |Identificador:  <br/> |0x0108  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x01080003  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x01080003  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un medio de valor cero no use SPA, en caso contrario, use SPA.
+Un valor de cero significa que no se usa SPA; de lo contrario, use SPA.
   
 ## <a name="see-also"></a>Vea también
 

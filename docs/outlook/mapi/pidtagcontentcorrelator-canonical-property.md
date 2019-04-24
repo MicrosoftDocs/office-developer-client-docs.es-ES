@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331979"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propiedad canónica PidTagContentCorrelator
 
@@ -25,40 +25,40 @@ ms.locfileid: "22568808"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que se puede usar el remitente del mensaje para que coincida con un informe con el mensaje original.
+Contiene un valor que el remitente del mensaje puede usar para hacer coincidir un informe con el mensaje original.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_CONTENT_CORRELATOR  <br/> |
-|Identificador:  <br/> |0 x 0007  <br/> |
+|Identificador:  <br/> |0x0007  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El contenido de la cadena binaria se define por el autor del mensaje. Si se configura en un mensaje saliente, esta propiedad debe copiarse en cualquier informes generados en respuesta al mensaje.
+El contenido de la cadena binaria se define por el autor del mensaje. Si se establece en un mensaje saliente, esta propiedad debe copiarse en cualquier informe generado en respuesta al mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

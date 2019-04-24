@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
-description: Confirma los cambios realizados en el objeto de cuenta mediante la escritura en el almacén del registro.
-ms.openlocfilehash: ebff8af8af8a7512b577b36a2c31f76f3297a19d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Confirma los cambios en el objeto de cuenta escribiendo en el almacén del registro.
+ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322263"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
-Confirma los cambios realizados en el objeto de cuenta mediante la escritura en el almacén del registro.
+Confirma los cambios en el objeto de cuenta escribiendo en el almacén del registro.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SaveChanges (  
@@ -28,7 +28,7 @@ HRESULT IOlkAccount::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwFlags_
   
@@ -38,13 +38,13 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |El método era correcto.  <br/> |
+|S_OK  <br/> |El método se realizó correctamente.  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Después de cambiar el valor de las propiedades de cuenta mediante el uso de [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccount::SaveChanges** para guardar estos cambios. 
+Después de cambiar el valor de las propiedades de cuenta mediante [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccount:: SaveChanges** para guardar los cambios. 
   
 ## <a name="see-also"></a>Vea también
 

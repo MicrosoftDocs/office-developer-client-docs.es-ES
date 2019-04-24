@@ -1,5 +1,5 @@
 ---
-title: Estado NoScribble
+title: Estado noScribble
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,28 +9,28 @@ api_type:
 ms.assetid: 0246138f-c55e-4353-8e53-e973f524d52c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 239f11cf27cdebff3d51645319d7ada3b9bb9ff6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326204"
 ---
-# <a name="noscribble-state"></a>Estado NoScribble
+# <a name="noscribble-state"></a>Estado noScribble
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado de NoScribble indica que se están guardando los cambios realizados en un mensaje. El almacenamiento de valores almacenados en la interfaz de usuario del objeto de formulario real se produce cuando el formulario método del objeto [IPersistMessage::Save](ipersistmessage-save.md) se llama a la aplicación cliente. La siguiente tabla describe las transiciones permitidas desde el estado NoScribble. 
+El estado noScribble indica que se guardan los cambios realizados en un mensaje. El almacenamiento real de valores almacenados en la interfaz de usuario del objeto Form se produce cuando la aplicación cliente llama al método [IPersistMessage:: Save](ipersistmessage-save.md) del objeto Form. En la tabla siguiente se describen las transiciones permitidas desde el estado noScribble. 
   
-|IPersistMessage ** (método) **|**Acción**|**Nuevo estado**|
+|Método IPersistMessage * * * *|**Action**|**Nuevo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) (_pMessage ==_ nulo)  <br/> |Si marca _fSameAsLoad_ era TRUE en la llamada [IPersistMessage::Save](ipersistmessage-save.md) que ha provocado el formulario para escribir el estado de NoScribble y el mensaje se ha modificado, internamente marcar los cambios como si estuviera guardado y llamar a la [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) método.  <br/> |[Normal](normal-state.md) <br/> |
-|**IPersistMessage::SaveCompleted** (_pMessage! =_ nulo)  <br/> |Llame al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) (similar al método OLE [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) ) seguido de las acciones de **SaveCompleted** normales. Si **SaveCompleted** se realizó correctamente, escriba el estado Normal. De lo contrario, especifique el estado de [HandsOffAfterSave](handsoffaftersave-state.md) .  <br/> |Normal o HandsOffAfterSave  <br/> |
-|**HandsOffMessage** <br/> |Forma recursiva invocar el método **HandsOffMessage** en los mensajes incrustados o el método OLE **IPersistStorage::HandsOffStorage** en los objetos OLE incrustados. Liberar el objeto de mensaje y los mensajes incrustados u objetos.  <br/> |HandsOffAfterSave  <br/> |
-|**Guardar**, [IPersistMessage::InitNew](ipersistmessage-initnew.md)o [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Establece el último error y devolver E_UNEXPECTED.  <br/> |NoScribble  <br/> |
+|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) (_pMessage = =_ null)  <br/> |Si la marca _fSameAsLoad_ era true en la llamada a [IPersistMessage:: Save](ipersistmessage-save.md) que provocaba que el formulario entrara en el estado noscribble y se modificó el mensaje, marque internamente los cambios como guardados y llame al método [IMAPIViewAdviseSink:: onSave](imapiviewadvisesink-onsaved.md) método.  <br/> |[Normal](normal-state.md) <br/> |
+|**IPersistMessage:: SaveCompleted** (_pMessage! =_ null)  <br/> |Llame al método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) (similar al método [IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) de OLE) seguido de las acciones normales de **SaveCompleted** . Si **SaveCompleted** se realizó correctamente, escriba el estado normal. De lo contrario, escriba el estado [HandsOffAfterSave](handsoffaftersave-state.md) .  <br/> |Normal o HandsOffAfterSave  <br/> |
+|**HandsOffMessage** <br/> |Invoque de forma recursiva el método **HandsOffMessage** en mensajes incrustados o el método OLE **IPersistStorage:: HANDSOFFSTORAGE** en objetos OLE incrustados. Libere el objeto de mensaje y todos los mensajes u objetos incrustados.  <br/> |HandsOffAfterSave  <br/> |
+|**Save**, [IPersistMessage:: InitNew](ipersistmessage-initnew.md)o [IPersistMessage:: Load](ipersistmessage-load.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |NoScribble  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |NoScribble  <br/> |
-|Otros [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos o métodos de otras interfaces  <br/> |Establece el último error y devolver E_UNEXPECTED.  <br/> |NoScribble  <br/> |
+|Otros [IPersistMessage:](ipersistmessageiunknown.md) métodos o métodos IUnknown de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |NoScribble  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

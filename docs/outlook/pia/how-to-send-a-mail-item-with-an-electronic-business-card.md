@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25809fc0d1726c9f56be417ae53fadecc831d62f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331153"
 ---
 # <a name="send-a-mail-item-with-an-electronic-business-card"></a>Enviar un elemento de correo con una tarjeta de presentación electrónica
 
@@ -22,7 +22,7 @@ En este ejemplo se crea un elemento de correo, se busca una tarjeta de presentac
 
 Para insertar una tarjeta de presentación electrónica, puede llamar a [AddBusinessCard](https://msdn.microsoft.com/library/bb647034\(v=office.15\)) en el objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)). Este método toma una cadena que representa una dirección de correo electrónico e intenta encontrar un [ContactItem](https://msdn.microsoft.com/library/bb644956\(v=office.15\)) con esa dirección en la carpeta Contactos. Un **ContactItem** puede tener hasta tres direcciones de correo electrónico. Si se encuentra el contacto, el ejemplo llama al método **AddBusinessCard** y después muestra el mensaje para el usuario.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no deben producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

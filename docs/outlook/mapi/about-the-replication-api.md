@@ -5,46 +5,46 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
-description: 'Última modificación: 25 de junio de 2012'
+description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
 ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329522"
 ---
 # <a name="about-the-replication-api"></a>Información sobre la API de replicación
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de replicación proporciona la funcionalidad para un proveedor de almacén de mensajes MAPI sincronizar los elementos de Microsoft Outlook 2013 o Microsoft Outlook 2010 entre un servidor y un almacén local privado basada en .pst que se crea para ese proveedor. 
+La API de replicación proporciona la funcionalidad necesaria para que un proveedor de almacén de mensajes MAPI sincronice los elementos de Microsoft Outlook 2013 o Microsoft Outlook 2010 entre un servidor y un almacén local basado en un archivo. pst privado que se crea para ese proveedor. 
   
 > [!NOTE]
-> Un proveedor de almacén de mensajes MAPI debe implementar la API de replicación según las instrucciones en [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md). El proveedor debe usar la API sólo en un almacén personal creado para sí mismo y no en almacenes personales creados para otros proveedores, debido a que los almacenes de personal crean para otros proveedores es posible que ya ha configurado sus propios mecanismos de replicación con el servidor respectivo. Por ejemplo, un archivo de carpetas sin conexión (.ost) mantiene su propia relación de replicación con un servidor de Microsoft Exchange. 
+> Un proveedor de almacén de mensajes MAPI debe implementar la API de replicación siguiendo las instrucciones que se indican en [acerca de la máquina de estado de replicación](about-the-replication-state-machine.md). El proveedor solo debe usar la API en un almacén personal creado para sí mismo, y no en almacenes personales creados para otros proveedores, ya que los almacenes personales creados para otros proveedores pueden haber configurado sus propios mecanismos de replicación con el servidor correspondiente. Por ejemplo, un archivo de carpetas sin conexión (. OST) mantiene su propia relación de replicación con un servidor de Microsoft Exchange. 
   
-Para usar la API de replicación, un proveedor de almacén de mensajes MAPI en primer lugar debe abrir y se ajusta a un almacén local basada en .pst mediante una llamada a **[NSTServiceEntry](nstserviceentry.md)**. El proveedor, a continuación, puede usar las interfaces principales de la API, **[IOSTX](iostxiunknown.md)** y **[IPSTX](ipstxiunknown.md)**, para llevar a cabo la replicación. **IPSTX** se proporciona mediante la consulta en [IMsgStore: IMAPIProp](imsgstoreimapiprop.md), y **IOSTX** es proporcionado por **[IPSTX::GetSyncObject](ipstx-getsyncobject.md)**. 
+Para usar la API de replicación, un proveedor de almacén de mensajes MAPI primero debe abrir y ajustar un almacén local basado en. pst llamando a **[NSTServiceEntry](nstserviceentry.md)**. A continuación, el proveedor puede usar las principales interfaces de la API, **[IOSTX](iostxiunknown.md)** y **[IPSTX](ipstxiunknown.md)**, para llevar a cabo la replicación. **IPSTX** se proporciona mediante consultas en [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)y **IOSTX** se proporciona mediante **[IPSTX:: GetSyncObject](ipstx-getsyncobject.md)**. 
   
-## <a name="the-iostx-interface"></a>La interfaz de IOSTX
+## <a name="the-iostx-interface"></a>La interfaz IOSTX
 
-La interfaz **IOSTX** es la interfaz principal que realiza la sincronización de la API de replicación. **IOSTX** mueve el almacén local a través de una serie de Estados, recuperación de información de cada estado acerca de los cambios en el almacén local, así como para informar el almacén local de los cambios realizados en el servidor. La API de replicación especifica también muchas de las estructuras de datos que admiten la sincronización. 
+La interfaz **IOSTX** es la interfaz principal que realiza la sincronización en la API de replicación. **IOSTX** mueve el almacén local a través de una serie de Estados, recuperando información en cada Estado sobre cambios en el almacén local, e informando al almacén local de cambios en el servidor. La API de replicación también especifica muchas estructuras de datos que admiten la sincronización. 
   
-Un proveedor de almacenamiento, como un cliente a esta API, usa la API de replicación para ajustar el almacén local y mover a través de estos Estados, e inserta los cambios en el almacén local (por ejemplo, los cambios en la jerarquía de carpetas o la adición de nuevos elementos) para el servidor y también recuperar información acerca de los cambios en el servidor y proporcionar esa información a la interfaz **IOSTX** . La interfaz de **IOSTX** adopta la sincronización de cambio Incremental (ICS) proporcionado por Microsoft Exchange Server. Para obtener más información acerca de ICS, vea [Los criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). A través de **IOSTX**, el cliente utiliza ICS para supervisar y sincronizar los cambios incrementales en la jerarquía o el contenido en un almacén local. 
+Un proveedor de almacenamiento, como cliente de esta API, usa la API de replicación para envolver el almacén local y desplazarse a través de estos Estados e insertar los cambios en el almacén local (como los cambios en la jerarquía de carpetas o la adición de nuevos elementos) al servidor y también recuperar información sobre los cambios en el servidor y la forma de proporcionarla a la interfaz **IOSTX** . La interfaz **IOSTX** adopta la sincronización de cambio incremental (ICS) que proporciona Microsoft Exchange Server. Para obtener más información acerca de ICS, consulte [criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). A través de **IOSTX**, el cliente usa ICS para supervisar y sincronizar los cambios incrementales de la jerarquía o el contenido de un almacén local. 
   
-## <a name="the-ipstx-interface"></a>La interfaz de IPSTX
+## <a name="the-ipstx-interface"></a>La interfaz IPSTX
 
- **IPSTX** y cinco otro ** IPSTX *n* ** las interfaces que heredan de **IPSTX** proporcionan funciones auxiliares que se pueden usar al realizar la replicación a través de la interfaz **IOSTX** . Por ejemplo, **[IPSTX::EmulateSpooler](ipstx-emulatespooler.md)** permite que el almacén local emular al administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor. 
+ **IPSTX** y otras cinco interfaces * * IPSTX *n* * * que heredan de **IPSTX** proporcionan funcionalidad auxiliar que se puede usar para realizar la replicación a través de la interfaz de **IOSTX** . Por ejemplo, **[IPSTX:: EmulateSpooler](ipstx-emulatespooler.md)** permite que el almacén local eMule el administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor. 
   
-Para obtener más información acerca de las transiciones de estado durante la replicación, vea [Acerca de la máquina de estado de replicación](about-the-replication-state-machine.md).
+Para obtener más información acerca de las transiciones de estado durante la replicación, consulte [acerca de la máquina de estado de replicación](about-the-replication-state-machine.md).
   
 ## <a name="the-replication-api"></a>La API de replicación
 
-La API de replicación proporciona las definiciones, tipos de datos e interfaces siguientes. Para una implementación de ejemplo de un proveedor de almacén de archivos de carpetas personales (PST) ajustados, vea [Acerca de ejemplo ajustado PST almacenar proveedor](about-the-sample-wrapped-pst-store-provider.md).
+La API de replicación proporciona las siguientes definiciones, tipos de datos e interfaces. Para obtener una implementación de ejemplo de un proveedor de almacenamiento para archivos de carpetas personales (PST), vea [acerca del proveedor de almacenamiento PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md).
   
 Definiciones:
   
-- [Constantes de la API de replicación](mapi-constants.md)
+- [Constantes para la API de replicación](mapi-constants.md)
     
 Funciones:
   
@@ -70,7 +70,7 @@ Tipos de datos:
     
 - **[SKEY](skey.md)**
     
-- **[SYNC](sync.md)**
+- **[SINCRONIZÁNDOSE](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

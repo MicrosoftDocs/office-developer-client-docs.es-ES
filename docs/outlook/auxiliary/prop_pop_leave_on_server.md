@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: Especifica dejar una copia de un mensaje en el servidor para una cuenta POP.
-ms.openlocfilehash: 9f986ff60a5824ece0a8bb91619323b58ec8b87a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1bbddea0f10c07d630676960d1b330f6055e137
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326491"
 ---
 # <a name="proppopleaveonserver"></a>PROP_POP_LEAVE_ON_SERVER
 
@@ -22,22 +22,22 @@ Especifica dejar una copia de un mensaje en el servidor para una cuenta POP.
 
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 1000  <br/> |
+|Identificador:  <br/> |0x1000  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x10000003  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x10000003  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En la siguiente tabla se enumera los valores posibles. Para obtener más información acerca de las constantes, vea [constantes (API de administración de cuenta)](constants-account-management-api.md) . 
+En la siguiente tabla se enumeran los valores posibles. Consulte [constantes (API de administración de cuentas)](constants-account-management-api.md) para obtener más información sobre las constantes. 
   
-|**Valores posibles**|**Descripción**|
+|**Posibles valores**|**Descripción**|
 |:-----|:-----|
-|**LEAVE_ON_SERVER** <br/> |Deja una copia del mensaje en el servidor POP después de descargar el mensaje a un dispositivo.  <br/> |
-|**REMOVE_AFTER** <br/> |Quita el mensaje del servidor POP después de descargar a un dispositivo.  <br/> |
-|**REMOVE_ON_NUKE** <br/> |Quita el mensaje del servidor POP sólo después de que el usuario elimina el mensaje de la carpeta Elementos eliminados.  <br/> |
-|**GET_REMOVE_AFTER_DAYS** ( _ul_)  <br/> |Obtiene el número de días después de que el mensaje se quitará el servidor POP.  <br/> |
-|**SET_REMOVE_AFTER_DAYS** ( _días_)  <br/> |Establece el número de días después de que el mensaje se quitará el servidor POP.  <br/> |
+|**LEAVE_ON_SERVER** <br/> |Deja una copia del mensaje en el servidor POP después de descargar el mensaje en un dispositivo.  <br/> |
+|**REMOVE_AFTER** <br/> |Quita el mensaje del servidor POP después de descargarlo en un dispositivo.  <br/> |
+|**REMOVE_ON_NUKE** <br/> |Quita el mensaje del servidor POP solo después de que el usuario elimine el mensaje de la carpeta elementos eliminados.  <br/> |
+|**GET_REMOVE_AFTER_DAYS** ( _UL_)  <br/> |Obtiene el número de días después de los cuales se quitará el mensaje del servidor POP.  <br/> |
+|**SET_REMOVE_AFTER_DAYS** ( _días_)  <br/> |Establece el número de días después de los cuales se quitará el mensaje del servidor POP.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

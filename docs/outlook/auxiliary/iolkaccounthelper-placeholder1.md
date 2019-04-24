@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
-description: Este miembro es un marcador de posición y no se admite. Siempre debe devolver E_NOTIMPL.
-ms.openlocfilehash: 417adb0526fe46bc60fb6dd606e66dd3c7004f3b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este miembro es un marcador de posición y no es compatible. Siempre debe devolver E_NOTIMPL.
+ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322088"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 
-Este miembro es un marcador de posición y no se admite. Siempre debe devolver E_NOTIMPL.
+Este miembro es un marcador de posición y no es compatible. Siempre debe devolver E_NOTIMPL.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -28,7 +28,7 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre E_NOTIMPL, debido a que este miembro es un marcador de posición en [IOlkAccountHelper](iolkaccounthelper.md) y no es compatible. 
+Siempre E_NOTIMPL, porque este miembro es un marcador de posición en [IOlkAccountHelper](iolkaccounthelper.md) y no se admite. 
   
 ## <a name="remarks"></a>Comentarios
 

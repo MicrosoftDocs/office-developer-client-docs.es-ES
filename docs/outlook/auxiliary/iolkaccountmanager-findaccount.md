@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
-description: Busca una cuenta por valor de la propiedad.
-ms.openlocfilehash: a7d016ab7e265e547b33940c16f96979bd5fa87a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Busca una cuenta por valor de propiedad.
+ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322081"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
-Busca una cuenta por valor de la propiedad.
+Busca una cuenta por valor de propiedad.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -30,19 +30,19 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [entrada] La propiedad para buscar en. Debe ser [PROP_ACCT_ID](prop_acct_id.md) o [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
+> a Propiedad en la que se va a realizar la búsqueda. Debe ser [PROP_ACCT_ID](prop_acct_id.md) o [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
 _pVar_
   
-> [entrada] Para que coincida con el valor.
+> a El valor que debe coincidir.
     
 _ppAccount_
   
-> [out] La cuenta que se encuentra. Este objeto es compatible con una interfaz [IOlkAccount](iolkaccount.md) . 
+> contempla Se ha encontrado la cuenta. Este objeto admite una interfaz [IOlkAccount](iolkaccount.md) . 
     
 ## <a name="return-values"></a>Valores devueltos
 

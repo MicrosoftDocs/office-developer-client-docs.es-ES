@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: 6cd31f8ac713c21053db7ef461220a360ebeec74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331685"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
@@ -61,7 +61,7 @@ Para obtener más información sobre cómo y cuándo debe realizar llamadas a un
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI usa el método **IMAPIProgress::GetMin** para obtener el valor mínimo para el indicador de progreso. Devuelve el valor 1 a menos que se hayan establecido límites anteriormente llamando al método **IMAPIProgress::SetLimits**.  <br/> |
    

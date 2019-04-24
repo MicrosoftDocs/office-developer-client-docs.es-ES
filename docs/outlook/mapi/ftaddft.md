@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4b02fc316001ae11d64988cc29d0e62e9adde55e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb20469adec938817fedf1b00789304625b388c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585587"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328010"
 ---
 # <a name="ftaddft"></a>FtAddFt
 
@@ -25,13 +25,13 @@ ms.locfileid: "22585587"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega un entero de 64 bits sin signo a otra.
+Agrega un entero de 64 bits sin signo a otro.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 FILETIME FtAddFt(
@@ -40,18 +40,18 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _Addend1_
   
-> [entrada] Una estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
+> a Una estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
     
  _Addend2_
   
-> [entrada] Una estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
+> a Una estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtAddFt** devuelve una estructura **FILETIME** que contiene la suma de los dos números enteros. No se modifican los dos parámetros de entrada. 
+La función **FtAddFt** devuelve una estructura **FILETIME** que contiene la suma de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

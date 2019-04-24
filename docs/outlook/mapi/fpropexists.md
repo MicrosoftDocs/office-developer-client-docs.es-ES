@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7190065c687524302bae362a2e25d3848e17d1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327275"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -29,9 +29,9 @@ Busca una etiqueta de propiedad determinada en una interfaz [IMAPIProp](imapipro
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 BOOL FPropExists(
@@ -40,28 +40,28 @@ BOOL FPropExists(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pobj_
   
-> [entrada] Puntero a la interfaz de **IMAPIProp** o interfaz derivada de **IMAPIProp** dentro de la que se va a buscar la etiqueta de propiedad. 
+> a Puntero a la interfaz **IMAPIProp** o interfaz derivada de **IMAPIProp** en la que se va a buscar la etiqueta de propiedad. 
     
  _ulPropTag_
   
-> [entrada] Etiqueta de la propiedad que se va a buscar.
+> a Etiqueta de propiedad que se va a buscar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> Se encontró una coincidencia para la etiqueta de la propiedad determinada. 
+> Se encontró una coincidencia para la etiqueta de propiedad especificada. 
     
 FALSE 
   
-> No se encontró una coincidencia para la etiqueta de la propiedad determinada.
+> No se encontró una coincidencia para la etiqueta de propiedad especificada.
     
 ## <a name="remarks"></a>Comentarios
 
-Si la etiqueta de propiedad en el parámetro _ulPropTag_ no tiene tipo PT_UNSPECIFIED, la función **FPropExists** busca una coincidencia basándose exclusivamente en el identificador de la propiedad. De lo contrario, la coincidencia es para la etiqueta de propiedad completa, incluido el tipo. 
+Si la etiqueta de propiedad del parámetro _ulPropTag_ es de tipo PT_UNSPECIFIED, la función **FPropExists** busca una coincidencia basada solo en el identificador de la propiedad. De lo contrario, la coincidencia es para toda la etiqueta de propiedad, incluido el tipo. 
   
 

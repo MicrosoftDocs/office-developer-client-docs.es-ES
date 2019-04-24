@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: Notifica al cliente de los cambios realizados en la cuenta especificada.
-ms.openlocfilehash: ea4cab8cb8571cf5f34637c08935c78c657e5503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Notifica al cliente los cambios en la cuenta especificada.
+ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321969"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-Notifica al cliente de los cambios realizados en la cuenta especificada.
+Notifica al cliente los cambios en la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccountNotify](iolkaccountnotify.md).
+Consulte [IOlkAccountNotify](iolkaccountnotify.md).
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -31,11 +31,11 @@ HRESULT IOlkAccount::Notify(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwNotify_
   
-> [entrada] El tipo de notificación. El valor debe ser uno de estos procedimientos:
+> a El tipo de notificación. El valor debe ser uno de los siguientes:
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> [entrada] El identificador de cuenta de la cuenta que se ha creado, modificado, eliminado o eliminado previamente.
+> a El identificador de cuenta de la cuenta que se ha creado, cambiado, eliminado o eliminado previamente.
     
  _dwFlags_
   
->  [entrada] No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
+>  a No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
     
 ## <a name="return-values"></a>Valores devueltos
 

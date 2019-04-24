@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329013"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
@@ -33,11 +33,11 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpbkPosition_
   
-> [out] Puntero al valor devuelto de 32 bits de marcador. Más adelante se puede pasar este marcador en una llamada al método [IMAPITable::SeekRow](imapitable-seekrow.md) . 
+> contempla Puntero al valor de marcador de 32 bits devuelto. Este marcador se puede pasar más adelante en una llamada al método [IMAPITable:: SeekRow](imapitable-seekrow.md) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,23 +51,23 @@ MAPI_E_UNABLE_TO_COMPLETE
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::CreateBookmark** marca una posición de tabla mediante la creación de un valor de un marcador. Un marcador se puede utilizar para volver a la posición identificada por el marcador. El marcador de posición está asociada con el objeto en esa fila en la tabla. 
+El método **IMAPITable:: CreateBookmark** marca una posición de tabla mediante la creación de un valor denominado Bookmark. Se puede usar un marcador para volver a la posición identificada por el marcador. La posición marcada se asocia con el objeto de esa fila en la tabla. 
   
-En las tablas de datos adjuntos no se admiten los marcadores y las implementaciones de la tabla de datos adjuntos de **CreateBookmark** devuelven MAPI_E_NO_SUPPORT. 
+Los marcadores no se admiten en tablas adjuntas y las implementaciones de tabla de datos adjuntos de **CreateBookmark** devuelven MAPI_E_NO_SUPPORT. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Debido a los gastos de memoria del mantenimiento de las posiciones de cursor con marcadores, limitar el número de marcadores que se pueden crear. Cuando llegue a ese número, devolver MAPI_E_UNABLE_TO_COMPLETE de todas las llamadas subsiguientes a **CreateBookmark**.
+Debido al gasto en la memoria que supone mantener las posiciones del cursor con marcadores, limite el número de marcadores que puede crear. Cuando llegue a ese número, devuelva MAPI_E_UNABLE_TO_COMPLETE de todas las llamadas posteriores a **CreateBookmark**.
   
-En ocasiones, un marcador apunta a una fila que ya no está en la vista de tabla. Si un autor de la llamada usa como un marcador, mueva el cursor a la siguiente fila visible y detenga no existe. 
+A veces, un marcador apunta a una fila que ya no está en la vista de tabla. Si el autor de la llamada utiliza un marcador de ese tipo, mueva el cursor a la siguiente fila visible y deténgalo. 
   
-Cuando el autor de la llamada intenta utilizar un marcador que señala a una fila no visible debido a que se ha contraído, devolver MAPI_W_POSITION_CHANGED después de mover el marcador. Puede cambiar la posición del marcador en la siguiente fila visible en este momento, o cuando la contracción se produce en el método **SetCollapseState** . Si mueve el marcador en el momento de la fila está contraída, debe conservar un poco en el marcador que indica exactamente cuándo se ha movido el marcador: debido a que su última utilizar o si nunca se ha usado desde su creación. 
+Cuando el autor de la llamada intenta usar un marcador que señala a una fila no visible porque se ha contraído, devuelve MAPI_W_POSITION_CHANGED después de mover el marcador. Puede cambiar la posición del marcador a la siguiente fila visible en este momento o cuando la contracción se produzca en el método **SetCollapseState** . Si mueve el marcador en el momento en que se contrae la fila, debe conservar un bit en el marcador que indique exactamente cuándo se movió el marcador: desde su último uso o si nunca se ha usado desde su creación. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **CreateBookmark** asigna memoria para el marcador que se creen. Liberar los recursos para el marcador llamando al método [IMAPITable::FreeBookmark](imapitable-freebookmark.md) . 
+ **CreateBookmark** asigna memoria para el marcador que crea. Para liberar los recursos del marcador, llame al método [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

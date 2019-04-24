@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0f1495549df751c59ab84e2b16fffbaf2f4f9fa5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bd9bfe4d1411b84a7811235aa68728afaefe64ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327310"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 
@@ -25,11 +25,11 @@ ms.locfileid: "22574723"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de estructuras [MTSID](mtsid.md) , cada uno de los cuales contiene un identificador de entrada del sistema (MTS) de transporte de mensaje X.400. 
+Contiene una matriz de estructuras [MTSID](mtsid.md) , cada una de las cuales contiene un identificador de entrada del sistema de transporte de mensajes (mts) X. 400. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
    
 ```cpp
@@ -46,23 +46,23 @@ typedef struct
 
  **cMTSIDs**
   
-> Recuento de estructuras **MTSID** en la matriz descritos por el miembro **abMTSIDs** . 
+> Número de estructuras **MTSID** en la matriz descrita por el miembro **abMTSIDs** . 
     
  **cbMTSIDs**
   
-> Número de bytes de la matriz descritos por **abMTSIDs**.
+> Número de bytes de la matriz descrita por **abMTSIDs**.
     
  **abMTSIDs**
   
-> Matriz de bytes que contiene una o más estructuras **MTSID** . 
+> Matriz de bytes que contiene una o varias estructuras **MTSID** . 
     
 ## <a name="remarks"></a>Comentarios
 
-Uso de la estructura **FLATMTSIDLIST** en mensajería X.400 corresponde al uso de la estructura [FLATENTRYLIST](flatentrylist.md) de mensajería MAPI. MAPI utiliza estructuras **FLATMTSIDLIST** para mantener las propiedades de X.400 durante el control de mensaje. Proveedores de servicios utilizan estructuras **FLATMTSIDLIST** al tratamiento de mensajes X.400 entrantes y salientes. 
+El uso de la estructura **FLATMTSIDLIST** en la mensajería X. 400 corresponde al uso de la estructura [FLATENTRYLIST](flatentrylist.md) en la mensajería MAPI. MAPI usa las estructuras **FLATMTSIDLIST** para mantener las propiedades X. 400 durante el tratamiento de mensajes. Los proveedores de servicios usan estructuras **FLATMTSIDLIST** al controlar mensajes X. 400 entrantes y salientes. 
   
-En la matriz **abMTSIDs** , cada estructura **MTSID** se alinea en un límite alineado con naturalidad. Bytes adicionales se incluyen como relleno para realizar la alineación natural seguro entre los dos estructuras **MTSID** . La primera estructura **MTSID** en la matriz siempre se alinea correctamente debido a que el desplazamiento del miembro **abMTSIDs** es 8. Para calcular el desplazamiento de la estructura siguiente, utilice el tamaño de la primera entrada que se redondea hacia arriba hasta el próximo múltiplo de 4. Utilice la macro [CbNewMTSID](cbnewmtsid.md) para calcular el tamaño de una estructura **MTSID** . 
+En la matriz **abMTSIDs** , cada estructura **MTSID** está alineada en un límite naturalmente alineado. Los bytes adicionales se incluyen como relleno para garantizar la alineación natural entre dos estructuras **MTSID** . La primera estructura **MTSID** de la matriz siempre está alineada correctamente porque el desplazamiento del miembro **abMTSIDs** es 8. Para calcular el desplazamiento de la estructura siguiente, use el tamaño de la primera entrada redondeada hasta el siguiente múltiplo de 4. Use la macro [CbNewMTSID](cbnewmtsid.md) para calcular el tamaño de una estructura **MTSID** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

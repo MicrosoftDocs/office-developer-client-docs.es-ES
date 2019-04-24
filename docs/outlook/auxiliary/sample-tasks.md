@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
 description: Esta sección contiene tareas de ejemplo que usan las API disponibles en la referencia auxiliar de 2013 de Outlook.
 ms.openlocfilehash: 790b6ca3f1432b801044176acd9cebebfcb1dcee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326400"
 ---
 # <a name="sample-tasks"></a>Tareas de ejemplo (en inglés)
 

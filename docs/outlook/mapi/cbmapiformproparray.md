@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a60fe565992756163eaf19b84e36c03acb66cc73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331951"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
@@ -25,24 +25,24 @@ ms.locfileid: "22569151"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes en una estructura [SMAPIFormPropArray](smapiformproparray.md) existente que contiene un número especificado de estructuras [SMAPIFormProp](smapiformprop.md) . 
+Calcula el número de bytes de una estructura [SMAPIFormPropArray](smapiformproparray.md) existente que contiene un número especificado de estructuras [SMAPIFormProp](smapiformprop.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Estructura relacionado:  <br/> |**SMAPIFormPropArray** <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Estructura relacionada:  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __c_
   
-> Recuento de las estructuras de **SMAPIFormProp** en la estructura de **SMAPIFormPropArray** en cuestión. 
+> Número de estructuras **SMAPIFormProp** en la estructura **SMAPIFormPropArray** en cuestión. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

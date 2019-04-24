@@ -7,50 +7,50 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
-description: 'Una fuente de actividades consta de una o más actividades que se producen en una red social. Cada fuente de actividades está representada por un elemento activityFeed y se caracteriza por estos tres fragmentos de información:'
-ms.openlocfilehash: 318875aeb6312a3710654d129f3f48139ff7ef12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Una fuente de actividades consta de una o varias actividades que se producen en una red social. Cada fuente de actividades está representada por un elemento activityFeed y se caracteriza por estos tres datos de información:'
+ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329298"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>Información general sobre XML de un elemento de fuente de actividades
 
-Una fuente de actividades consta de una o más actividades que se producen en una red social. Cada fuente de actividades está representada por un elemento **activityFeed** y se caracteriza por estos tres fragmentos de información: 
+Una fuente de actividades consta de una o varias actividades que se producen en una red social. Cada fuente de actividades está representada por un elemento **activityFeed** y se caracteriza por estos tres datos de información: 
   
-- **red**: nombre de la red social desde el que se originaron las actividades.
+- **red**: nombre de la red social desde la que se originaron las actividades.
     
-- **actividades**: contenedor de actividades que ocurren en la cuenta del usuario ha iniciado la sesión de esa red social.
+- **actividades**: contenedor para actividades que ocurren en la cuenta del usuario que ha iniciado sesión en esa red social.
     
-- **plantillas**: contenedor de plantillas que se usan para mostrar el elemento correspondiente de la actividad en **las actividades**.
+- **plantillas**: contenedor para plantillas que se usan para mostrar el elemento de actividad correspondiente en **actividades**.
     
-Para crear un elemento de fuente de actividades, debe cumplir el esquema XML de extensibilidad de proveedor de Outlook Social Connector (OSC). La figura 1 muestra la que estructura XML de la fuente de la actividad.
+Para crear un elemento de fuente de actividad, debe cumplir con el esquema XML de extensibilidad del proveedor de Outlook Social Connector (OSC). En la figura 1 se muestra la estructura XML de la fuente de actividades.
   
-**En la figura 1. Estructura XML de la fuente de actividades**
+**Figura 1. Estructura XML de la fuente de actividades**
 
 ![Estructura XML de la actividad](media/odc_ol14_ta_OSC_Fig06.gif)
   
-Para cada elemento de fuente de actividades, las dos partes más importantes de este esquema son los elementos **activityDetails** y **activityTemplateContainer** : 
+Para cada elemento de la fuente de actividades, las dos partes más importantes de este esquema son los elementos **activityDetails** y **activityTemplateContainer** : 
   
-- El elemento **activityDetails** almacena información específica para cada elemento, como el nombre del propietario de la actividad o la dirección URL de las imágenes que se cargan de fuente de actividades. 
+- El elemento **activityDetails** almacena información específica para cada elemento de la fuente de actividades, como el nombre del propietario de la actividad o la dirección URL de las imágenes que se cargan. 
     
-- El elemento **activityTemplateContainer** almacena el formato o elemento de la fuente de diseño para cada actividad. Se compone de plantillas, representadas por elementos individuales **activityTemplate** , que se pueden reutilizar para varios elementos de la fuente. 
+- El elemento **activityTemplateContainer** almacena el formato o el diseño de cada elemento de la fuente de actividades. Consta de plantillas, representadas por elementos **activityTemplate** individuales, que se pueden volver a usar para varios elementos de fuente. 
     
-Para un elemento de fuente de actividades de individuales, el elemento **activityTemplate** especifica las cuatro piezas de la información siguientes: 
+Para un elemento de fuente de actividad individual, el elemento **activityTemplate** especifica los cuatro datos siguientes: 
   
-- **icono**— especifica el elemento de fuente de la dirección URL del icono para mostrar la actividad.
+- **icono**: especifica la dirección URL del icono para mostrar el elemento de fuente de actividad.
     
-- **título**: describe la actividad fuente item.
+- **title**: describe el elemento fuente de actividades.
     
-- **tipo**: especifica el tipo de actividad, como un estado, fotografía o actualización de documentos.
+- **tipo**: especifica el tipo de actividad (por ejemplo, una actualización de estado, foto o documento).
     
-- **datos**— especifica cualquier información adicional que se muestra con el elemento de fuente de actividades.
+- **datos**: especifica la información adicional que se muestra con el elemento de la fuente de actividades.
     
 > [!TIP]
-> El icono que se muestra en la fuente de actividades siempre es el mismo que el icono de proveedor devuelto por la propiedad **ISocialProvider::SocialNetworkIcon** . 
+> El icono que se muestra en la fuente de actividades es siempre el mismo que el icono del proveedor devuelto por la propiedad **ISocialProvider:: SocialNetworkIcon** . 
   
-Consulte los siguientes temas para obtener más información sobre el elemento **activityDetails** , el elemento **activityTemplateContainer** , los tokens de plantilla y variables de plantilla: 
+Vea los temas siguientes para obtener más información sobre el elemento **activityDetails** , el elemento **activityTemplateContainer** , los tokens de plantilla y las variables de plantilla: 
   
 - [Elemento activityDetails](activitydetails-element.md)
     
@@ -58,13 +58,13 @@ Consulte los siguientes temas para obtener más información sobre el elemento *
     
 - [Variables de plantilla](template-variables.md)
     
-- [Instrucciones para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)
+- [Directrices para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)
     
-Para obtener un ejemplo de la actividad de fuente XML, vea [Ejemplo de XML de fuente de actividad](activity-feed-xml-example.md).
+Para obtener un ejemplo de XML de fuente de actividades, consulte ejemplo de XML de la [fuente de actividades](activity-feed-xml-example.md).
   
 ## <a name="see-also"></a>Vea también
 
-- [XML de actividades](xml-for-activities.md) 
-- [Esquema XML de proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
-- [Desarrollar un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [XML para actividades](xml-for-activities.md) 
+- [Esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

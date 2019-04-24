@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: Determina el espacio insertado antes de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del primer párrafo de un bloque de texto, la celda TopMargin.
-ms.openlocfilehash: d33a10220499020ba1a1acedf5782fdb78925c07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9890910a11990bb5be7fe3ee4af95e578c8d9799
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329886"
 ---
-# <a name="spbefore-cell-paragraph-section"></a>Celda SpBefore (sección Párrafo)
+# <a name="spbefore-cell-paragraph-section"></a>Celda SpBefore (Sección de párrafo)
 
 Determina el espacio insertado antes de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del primer párrafo de un bloque de texto, la celda TopMargin.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda SpBefore por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para.SpBefore [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. SpBefore [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda SpBefore por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -12,31 +12,31 @@ api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ae00fd0711b8fcae01db6a89da7607d79d8757c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7645208e6a0256957deb3a71ba3e04ad125a6b61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326897"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica una libreta de direcciones MAPI opcional que usa la MAPI para el convertidor MIME para resolver direcciones ambiguas Cuando se convierte un mensaje MAPI a una secuencia MIME.
+Especifica una libreta de direcciones MAPI opcional que el convertidor de MAPI a MIME utiliza para resolver direcciones ambiguas al convertir un mensaje MAPI en una secuencia MIME.
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
 LPADRBOOK pab); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _Libreta personal de direcciones_
+ _LPD_
   
-> [entrada] Puntero a un [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) interfaz que se utilizará en la conversión MIME de MAPI. Establezca este parámetro en **null** cuando ya no sea necesaria la libreta de direcciones; Esto libera la interfaz y restablece el convertidor a no utilizar cualquier libreta de direcciones. 
+> a Puntero a una interfaz [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) que se va a usar en la conversión de MAPI a MIME. Establezca este parámetro en **null** cuando ya no necesite la libreta de direcciones; Esto libera la interfaz y restablece el convertidor a no usar ninguna libreta de direcciones. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -46,16 +46,16 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Convertir una MAPI mensaje en secuencia MIME normalmente no requiere iniciar sesión en un perfil MAPI. Sin embargo, la especificación de una libreta de direcciones MAPI para la conversión requiere inicio de sesión a un perfil para obtener la libreta de direcciones.
+Por lo general, para convertir un mensaje MAPI en una secuencia MIME no es necesario iniciar sesión en un perfil MAPI. Sin embargo, si se especifica una libreta de direcciones MAPI para la conversión, es necesario iniciar sesión en un perfil para obtener la libreta de direcciones.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

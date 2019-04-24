@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329354"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propiedad canónica PidTagNonDeliveryReportDiagCode
 
@@ -32,7 +32,7 @@ Contiene un código de diagnóstico que forma parte de un informe de no entrega.
 |Propiedades asociadas:  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Identificador:  <br/> |0x0C05  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -234,15 +234,15 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -251,9 +251,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

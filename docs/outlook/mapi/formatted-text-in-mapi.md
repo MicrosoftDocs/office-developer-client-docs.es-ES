@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f37d65e4beb328c2c92cf0c2ab28586af6bee45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327471"
 ---
 # <a name="formatted-text-in-mapi"></a>Texto con formato de MAPI
 
@@ -21,36 +21,36 @@ ms.locfileid: "22580631"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El texto de un mensaje se puede almacenar y transmite utilizando texto sin formato o texto con formato. Texto con formato mejora el texto del mensaje mediante la modificación de su aspecto con, por ejemplo, uno o más fuentes, tamaños de fuente o los colores de texto. Se recomienda que todos los clientes y siempre que sea posible, todos los proveedores de almacén de mensajes, admiten texto con formato. Compatibilidad con texto con formato en los mensajes agrega valor por mejorar la legibilidad de mensaje y facilitan el control de mensajes y más eficaz.
+El texto de un mensaje se puede almacenar y transmitir con texto sin formato o texto con formato. El texto con formato mejora el texto del mensaje al modificar su aspecto con, por ejemplo, una o varias fuentes, tamaños de fuente o colores del texto. Se recomienda que todos los clientes y siempre que sea posible, todos los proveedores de almacenamiento de mensajes admitan texto con formato. La compatibilidad con texto con formato en los mensajes agrega valor mejorando la legibilidad de los mensajes y haciendo que el control de mensajes sea más fácil y eficaz.
   
-Texto con formato se puede implementar en una variedad de formas. La manera más común es con el formato de texto enriquecido (RTF). MAPI define tres propiedades transmisible para almacenar información de texto de mensaje: **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) para el texto sin formato, **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) para HTML y **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md) ) para el texto RTF que se ha comprimido. Debido a que la versión de un mensaje de texto con formato dos veces puede ser tan grande como la versión sin formato, se comprime el texto RTF antes de que se transfiere con el mensaje y se almacena en la propiedad **PR_RTF_COMPRESSED** . Cuando sea la hora para mostrar el mensaje en la pantalla, es sin comprimir con una función de utilidad proporcionada por MAPI. 
+El texto con formato puede implementarse de varias maneras. La forma más común es con el formato de texto enriquecido (RTF). MAPI define tres propiedades transmitibles para la retención de información de texto del mensaje: **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) para texto sin formato, **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) para HTML y **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md) ) para el texto RTF que se ha comprimido. Debido a que la versión con formato de un texto de mensaje puede ser dos veces mayor que la versión sin formato, el texto RTF se comprime antes de transferirlo con el mensaje y se almacena en la propiedad **PR_RTF_COMPRESSED** . Cuando es el momento de mostrar el mensaje en la pantalla, se descomprime con una función de utilidad proporcionada por MAPI. 
   
-MAPI define estas dos propiedades de texto de mensaje y mecanismos para la conversión entre ellas para que los clientes de tener en cuenta RTF pueden interoperar con los clientes y los sistemas de mensajería que no es compatible con formato de texto.
+MAPI define estas dos propiedades de texto de mensaje y mecanismos de conversión entre ellos para que los clientes compatibles con RTF puedan interoperar con los clientes y los sistemas de mensajería que no admiten el texto con formato.
   
 ### 
 
 [Sincronizar texto y formato](synchronizing-text-and-formatting.md)
   
-> Describe cómo mantener sincronizado con el formato el texto de mensaje RTF.
+> Describe cómo se debe sincronizar el texto del mensaje RTF con el formato.
     
 [Admitir texto con formato en los mensajes salientes: responsabilidades del cliente](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
   
-> Describe las responsabilidades de la aplicación de cliente para la compatibilidad con texto con formato en los mensajes salientes.
+> Describe las responsabilidades de la aplicación cliente para admitir texto con formato en los mensajes salientes.
     
 [Admitir texto con formato en los mensajes entrantes: responsabilidades del cliente](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
   
-> Describe las responsabilidades de la aplicación de cliente para la compatibilidad con texto con formato en los mensajes entrantes.
+> Describe las responsabilidades de la aplicación cliente para admitir texto con formato en los mensajes entrantes.
     
-[Admitir texto con formato: responsabilidades de almacenamiento de mensajes](supporting-formatted-text-message-store-responsibilities.md)
+[Admitir texto con formato: responsabilidades del almacén de mensajes](supporting-formatted-text-message-store-responsibilities.md)
   
-> Describe las responsabilidades del almacén de mensaje para admitir texto con formato.
+> Describe las responsabilidades del almacén de mensajes para admitir texto con formato.
     
-[Admitir texto con formato: representar datos adjuntos](supporting-formatted-text-rendering-attachments.md)
+[Compatibilidad con texto con formato: representar datos adJuntos](supporting-formatted-text-rendering-attachments.md)
   
-> Describe cómo elegir donde se representan los datos adjuntos.
+> Describe cómo elegir dónde se representan los datos adjuntos.
     
-[Admitir texto con formato: responsabilidades de puerta de enlace](supporting-formatted-text-gateway-responsibilities.md)
+[Compatibilidad con texto con formato: responsabilidades de puerta de enlace](supporting-formatted-text-gateway-responsibilities.md)
   
-> Describe las responsabilidades de puerta de enlace para los mensajes de texto con formato entrante y saliente.
+> Describe las responsabilidades de puerta de enlace para los mensajes entrantes y salientes de texto con formato.
     
 

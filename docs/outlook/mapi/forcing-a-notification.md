@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5affce8ab7a8b08019816ad9485641c401dd80c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 54eaf9e67da1b520896122c937508a90700a0b84
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328101"
 ---
 # <a name="forcing-a-notification"></a>Forzar una notificación
 
@@ -21,9 +21,9 @@ ms.locfileid: "22578776"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Uso de proveedores de servicio cuando la [IMAPISupport: IUnknown](imapisupportiunknown.md) métodos de notificación, MAPI ofrece las notificaciones mediante una ventana oculta y su correspondiente procedimiento de ventana. Para que cada proceso recibir una notificación, MAPI envía un mensaje especial a la ventana oculta. Este mensaje se denomina con la constante **szMAPINotificationMsg** que se define en MAPIDEFS. H. 
+Cuando los proveedores de servicios usan los métodos [IMAPISupport: IUnknown](imapisupportiunknown.md) para la notificación, MAPI entrega las notificaciones usando una ventana oculta y su procedimiento de ventana correspondiente. Para que cada proceso reciba una notificación, MAPI envía un mensaje especial a la ventana oculta. Este mensaje se denomina con la constante **szMAPINotificationMsg** que se define en MAPIDEFS. H. 
   
-Recibir estas notificaciones cuando el procedimiento de la ventana de la ventana oculta procesa el mensaje **szMAPINotificationMsg** . Para garantizar que las notificaciones se entregan, es necesario esperar para y enviar este mensaje **szMAPINotificationMsg** . Implementar la lógica para realizar esta acción puede realizarse bastante simplemente, pero MAPI proporciona un punto de entrada a la DLL MAPI denominada [HrDispatchNotifications](hrdispatchnotifications.md) para hacer que el procesamiento aún más sencillo. Llamar a **HrDispatchNotifications** como se indica a continuación para recibir notificaciones en su cliente: 
+Estas notificaciones se reciben cuando el procedimiento de ventana de la ventana oculta procesa el mensaje **szMAPINotificationMsg** . Para garantizar que se entreguen las notificaciones, es necesario esperar y distribuir este mensaje de **szMAPINotificationMsg** . La implementación de la lógica para lograr esto puede realizarse de forma bastante sencilla, pero MAPI proporciona un punto de entrada a la DLL de MAPI denominado [HrDispatchNotifications](hrdispatchnotifications.md) para que el procesamiento sea incluso más sencillo. Llame a **HrDispatchNotifications** de la siguiente manera para recibir notificaciones en el cliente: 
   
 ```cpp
 HRESULT hr = HrDispatchNotifications(0);

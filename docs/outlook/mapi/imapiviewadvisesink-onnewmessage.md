@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328794"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592937"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se notifica al Visor de formulario que ha cargado un nuevo o un mensaje existente en un formulario.
+Notifica al visor de formularios que se ha cargado un mensaje nuevo o existente en un formulario.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -33,25 +33,25 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Parámetros
 
-Ninguna
+Ninguno
   
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación se ha realizado correctamente.
+> La notificación se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Objetos de formulario llaman al método de **IMAPIViewAdviseSink::OnNewMessage** siempre que se carga un mensaje en un formulario mediante los métodos [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) . 
+Los objetos de formulario llaman al método **IMAPIViewAdviseSink:: OnNewMessage** cada vez que se carga un mensaje en un formulario con el método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) o [IPersistMessage:: Load](ipersistmessage-load.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Liberar su puntero al objeto form activo debido a que ya no apunta al mensaje que anteriormente estaba viendo el Visor. 
+Libere el puntero activo al objeto de formulario porque ya no señala al mensaje que el visor había visto anteriormente. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

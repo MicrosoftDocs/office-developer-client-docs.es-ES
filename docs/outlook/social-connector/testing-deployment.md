@@ -7,71 +7,71 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
-description: En este tema se describe algunos escenarios que se deben probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
+description: En este tema se describen algunos escenarios que debe probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
 ms.openlocfilehash: 9c811683097a08b9f6e575d4ea2fee29cdd545d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329165"
 ---
 # <a name="testing-deployment"></a>Probar la implementación
 
-En este tema se describe algunos escenarios que se deben probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
+En este tema se describen algunos escenarios que debe probar con respecto a la instalación y desinstalación de un proveedor de Outlook Social Connector (OSC).
 
 <a name="olosc_TestingDeployment_PresenceOfOutlook"> </a>
 
-## <a name="presence-of-outlook-and-the-osc-on-client-computer"></a>Presencia de Outlook y el OSC en el equipo cliente
+## <a name="presence-of-outlook-and-the-osc-on-client-computer"></a>Presencia de Outlook y OSC en el equipo cliente
 
-Factores de la afectan a la instalación de un proveedor de OSC incluye el valor de bits del sistema operativo, la presencia y valor de bits de Outlook y el OSC está habilitado en Outlook.
+Factores el efecto que tiene la instalación de un proveedor OSC incluye los bits del sistema operativo, la presencia y el bits de Outlook, y el OSC habilitado en Outlook.
   
-Para obtener una versión de 32 bits o 64 bits de la OSC se puede escribir un proveedor de OSC. Outlook 2010 y Outlook 2013 están disponibles en versiones de 32 bits y 64 bits, y Office Outlook 2003 y Office Outlook 2007 están disponibles en versiones de 32 bits sólo. En un sistema operativo de Windows de 64 bits, puede instalar Outlook de 32 bits o 64 bits. En un sistema operativo de 32 bits, puede instalar pero no sólo 32 bits, 64 bits, Outlook. Según el valor de bits de la versión instalada de Outlook y el proveedor de OSC propio, el usuario debe usar al instalador adecuado para instalar a un proveedor de OSC del valor de bits adecuada. Por ejemplo, si está instalado Outlook de 64 bits, y el proveedor de OSC es un componente COM nativo, un proveedor OSC de 32 bits no funcionarán y el usuario debe usar al instalador adecuado para instalar a un proveedor OSC de 64 bits.
+Se puede escribir un proveedor OSC para una versión de 32 bits o de 64 bits del OSC. Outlook 2010 y Outlook 2013 están disponibles en las versiones de 32 y 64 bits, y Office Outlook 2003 y Office Outlook 2007 solo están disponibles en versiones de 32 bits. En un sistema operativo Windows de 64 bits, puede instalar las opciones de Outlook de 32 bits o de 64 bits. En un sistema operativo de 32 bits, puede instalar solo 32 bits, pero sin 64 bits, Outlook. Según el bits de la versión instalada de Outlook y el propio proveedor OSC, el usuario debe usar el instalador adecuado para instalar un proveedor de OSC del bits correspondiente. Por ejemplo, si está instalado Outlook de 64 bits, y el proveedor de OSC es un componente COM nativo, un proveedor de OSC de 32 bits no funcionará y el usuario debe usar el instalador adecuado para instalar un proveedor OSC de 64 bits.
   
-El código de implementación del proveedor de OSC puede asumir que el usuario tiene una versión compatible de Outlook en el equipo. Sin embargo, si la versión actual de OSC no está en el equipo cliente, el código de implementación puede descargar e instalar una versión adecuada de la OSC mediante el uso de las direcciones URL de vínculo de g construidas especialmente en https://g.live.com. Estos vínculos de g dependen de la versión y el valor de bits de Outlook y la configuración regional del equipo cliente. Para obtener más información acerca del uso de vínculos de g para instalar o actualizar el OSC, vea [lista de comprobación de instalación](installation-checklist.md).
+El código de implementación del proveedor de OSC puede suponer que el usuario tiene una versión de Outlook en el equipo compatible. Sin embargo, si la versión actual de OSC no está en el equipo cliente, el código de implementación puede descargar e instalar una versión adecuada del OSC mediante direcciones URL de g-Link construidas especialmente en https://g.live.com. Estos g-links dependen de la versión y el bits de Outlook y la configuración regional del equipo cliente. Para obtener más información acerca de cómo usar g-links para instalar o actualizar el OSC, consulte [Installation Checklist](installation-checklist.md).
   
-Antes de instalar a un proveedor de OSC, el usuario de Outlook debe asegurarse de que el complemento de OSC esté habilitado en Outlook.
+Antes de instalar un proveedor OSC, el usuario de Outlook debe asegurarse de que el complemento OSC esté habilitado en Outlook.
   
-El método recomendado para implementar un proveedor de OSC es usar un paquete de Windows Installer (.msi). Pruebe cada uno de los siguientes escenarios para comprobar funciona la distribución de forma adecuada para el proveedor.
+El método recomendado para implementar un proveedor de OSC es usar un paquete de Windows Installer (. msi). Pruebe cada uno de los siguientes escenarios para comprobar que la implementación funciona correctamente para el proveedor.
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|Outlook no está presente: Outlook 2003 u Outlook 2007 no está instalado y Outlook 2010 o Microsoft Outlook 2013 no está instalado ni se ha entregado por Click-to-Run.  <br/> |Se produce un error en la implementación.  <br/> |
-|Outlook 2003 u Outlook 2007 no está instalado, pero Outlook 2010 o Microsoft Outlook 2013 se ha entregado por Click-to-Run.  <br/> |Se implementa el proveedor de 32 bits.  <br/> |
-|Outlook 2003 u Outlook 2007 está instalado, pero no está instalado el OSC.  <br/> |El instalador se instala el OSC y todas las revisiones. Una vez que el OSC se ha instalado correctamente, el programa de instalación implementa el proveedor.  <br/> |
-|Outlook 2003 u Outlook 2007 está instalado y se instala una versión anterior de la OSC.  <br/> |El programa de instalación actualiza el OSC, a través de un vínculo g de revisiones y, a continuación, implementa el proveedor.  <br/> |
-|Outlook 2003 o 2007 está instalado y el OSC está actualizado.  <br/> |El instalador de implementa el proveedor de 32 bits.  <br/> |
-|Outlook 2010 o Microsoft Outlook 2013 está instalado pero no está instalado el OSC.  <br/> |Se produce un error en el programa de instalación con un mensaje de error apropiado.  <br/> |
-|Outlook 2010 o Microsoft Outlook 2013 está instalado y se instala una versión anterior de la OSC.  <br/> |El programa de instalación que es el adecuado para el valor de bits de la instalados Outlook 2010 o Microsoft Outlook 2013, actualiza el OSC a través del vínculo de la g a las revisiones y, a continuación, implementa el proveedor adecuado.  <br/> |
-|Outlook 2010 o Microsoft Outlook 2013 está instalado y el OSC está actualizado.  <br/> |El programa de instalación que sea apropiado para el valor de bits de la instalados Outlook 2010 o Microsoft Outlook 2013 (32 bits o 64 bits) implementa el proveedor adecuado.  <br/> |
+|Outlook no está presente: Outlook 2003 o Outlook 2007 no está instalado, y Outlook 2010 o Microsoft Outlook 2013 no se ha instalado, ni se ha entregado mediante hacer clic y ejecutar.  <br/> |Se produce un error en la implementación.  <br/> |
+|Outlook 2003 o Outlook 2007 no está instalado, pero Outlook 2010 o Microsoft Outlook 2013 han sido entregados por hacer clic y ejecutar.  <br/> |Se implementa el proveedor de 32 bits.  <br/> |
+|Outlook 2003 o Outlook 2007 está instalado, pero el OSC no está instalado.  <br/> |El instalador instala el OSC y todas las revisiones. Una vez que se ha instalado correctamente el OSC, el instalador implementa el proveedor.  <br/> |
+|Outlook 2003 o Outlook 2007 está instalado y hay instalada una versión anterior del OSC.  <br/> |El instalador actualiza el OSC, a través de un g-Link a patches y, a continuación, implementa el proveedor.  <br/> |
+|Outlook 2003 o 2007 está instalado y el OSC está actualizado.  <br/> |El instalador implementa el proveedor de 32 bits.  <br/> |
+|Outlook 2010 o Microsoft Outlook 2013 está instalado pero el OSC no está instalado.  <br/> |El instalador da error con un mensaje de error adecuado.  <br/> |
+|Outlook 2010 o Microsoft Outlook 2013 está instalado y se ha instalado una versión anterior del OSC.  <br/> |El instalador que es apropiado para el bits de la instalación de Outlook 2010 o Microsoft Outlook 2013, actualiza el OSC mediante el vínculo g a patches y, a continuación, implementa el proveedor correspondiente.  <br/> |
+|Outlook 2010 o Microsoft Outlook 2013 está instalado y el OSC está actualizado.  <br/> |El instalador apropiado para el bits de la Outlook 2010 o Microsoft Outlook 2013 (32-bit o 64-bit) instalado implementa el proveedor correspondiente.  <br/> |
 
 <a name="olosc_TestingDeployment_PresenceOfOutlook"> </a>
 
-## <a name="installed-location-and-registry-keys"></a>Claves del registro y la ubicación instaladas
+## <a name="installed-location-and-registry-keys"></a>Ubicación de instalación y claves del registro
 
-Compruebe la ubicación del archivo donde se ha implementado su proveedor de OSC y las ubicaciones en el registro de Windows donde se crean las claves del registro para el proveedor.
+Compruebe la ubicación del archivo en el que se ha implementado el proveedor de OSC y las ubicaciones en el registro de Windows en las que se crean las claves del registro para el proveedor.
   
-### <a name="file-location-for-osc-provider-dlls"></a>Ubicación de archivo para archivos DLL de proveedor de OSC
+### <a name="file-location-for-osc-provider-dlls"></a>Ubicación del archivo para los archivos DLL del proveedor OSC
 
-Para los escenarios de prueba que se enumeran en la siguiente tabla. Tenga en cuenta que la tabla se enumeran las rutas de acceso de instalación predeterminada para archivos DLL de proveedor OSC. Los usuarios pueden personalizar donde instalar estos archivos DLL.
+Pruebe los escenarios que se muestran en la tabla siguiente. Tenga en cuenta que en la tabla se enumeran las rutas de instalación predeterminadas para los archivos DLL del proveedor OSC. Los usuarios pueden personalizar dónde instalan estos archivos dll.
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|Microsoft Outlook 2013 está instalado en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en la carpeta Office15. Si el sistema operativo es de 64 bits y Microsoft Outlook 2013 es de 32 bits, los archivos DLL de 32 bits se implementan en los archivos de C:\Program (x86) \Microsoft Office\Office15. Si el sistema operativo es de 64 bits y 64 bits de es de Microsoft Outlook 2013, los archivos DLL de 64 bits se implementan en C:\Program Files\Microsoft Office\Office15. Si el sistema operativo es de 32 bits, los archivos DLL se implementan en C:\Program Files\Microsoft Office\Office15.  <br/> |
-|Outlook 2010 está instalado en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en la carpeta Office14. Si el sistema operativo es de 64 bits y Outlook 2010 es de 32 bits, los archivos DLL de 32 bits se implementan en los archivos de C:\Program (x86) \Microsoft Office\Office14. Si el sistema operativo es de 64 bits y 64 bits de es de Outlook 2010, los archivos DLL de 64 bits se implementan en C:\Program Files\Microsoft Office\Office14. Si el sistema operativo es de 32 bits, los archivos DLL se implementan en C:\Program Files\Microsoft Office\Office14.  <br/> |
-|Outlook 2007 está instalado en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en C:\Program Files\Microsoft Office\Office14. Instalar el OSC crea la carpeta de Office14 y el OSC debe instalarse antes de cualquier proveedor de archivos DLL. Vea la sección anterior [presencia de Outlook y el OSC en el equipo a cliente](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
-|Outlook 2003 está instalado en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en C:\Program Files\Microsoft Office\Office14. Instalar el OSC crea la carpeta de Office14 y el OSC debe instalarse antes de cualquier proveedor de archivos DLL. Vea la sección anterior [presencia de Outlook y el OSC en el equipo a cliente](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
-|Microsoft Outlook 2013 no está instalado pero entregado por Click-to-Run en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en la carpeta Office15. Si el sistema operativo es de 64 bits, 32 bits archivos DLL se implementan en los archivos de C:\Program (x86) \Microsoft Office\Office15 o C:\Program Files\Microsoft Office\Office15. Si el sistema operativo es de 32 bits, los archivos DLL se implementan en C:\Program Files\Microsoft Office\Office15. Si no existe la carpeta Office15, la instalación crea la carpeta.  <br/> |
-|Outlook 2010 no está instalado pero entregado por Click-to-Run en el equipo cliente.  <br/> |Archivos DLL de proveedor se implementan en la carpeta Office14. Si el sistema operativo es de 64 bits, 32 bits archivos DLL se implementan en los archivos de C:\Program (x86) \Microsoft Office\Office14 o C:\Program Files\Microsoft Office\Office14. Si el sistema operativo es de 32 bits, los archivos DLL se implementan en C:\Program Files\Microsoft Office\Office14. Si no existe la carpeta de Office14, la instalación crea la carpeta.  <br/> |
+|Microsoft Outlook 2013 está instalado en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en la carpeta Office15 Si el sistema operativo es 64 bits y Microsoft Outlook 2013 es 32 bits, las dll de 32 bits se implementan en C:\Archivos de programa (x86) \Microsoft Office\Office15. Si el sistema operativo es 64 bits y Microsoft Outlook 2013 es 64 bits, las dll de 64 bits se implementan en C:\Archivos de Programa\microsoft Office\Office15. Si el sistema operativo es 32 bits, los archivos DLL se implementan en C:\Archivos de Programa\microsoft Office\Office15.  <br/> |
+|Outlook 2010 está instalado en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en la carpeta Office14. Si el sistema operativo es 64 bits y Outlook 2010 es 32 bits, las dll de 32 bits se implementan en C:\Archivos de programa (x86) \Microsoft Office\Office14. Si el sistema operativo es 64 bits y Outlook 2010 es 64 bits, las dll de 64 bits se implementan en C:\Archivos de Programa\microsoft Office\Office14. Si el sistema operativo es 32 bits, los archivos DLL se implementan en C:\Archivos de Programa\microsoft Office\Office14.  <br/> |
+|Outlook 2007 está instalado en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en C:\Archivos de Programa\microsoft Office\Office14. La instalación del OSC crea la carpeta Office14 y el OSC debe instalarse antes que cualquier dll de proveedor. Vea la sección anterior [de la presencia de Outlook y el OSC en el equipo cliente](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
+|Outlook 2003 está instalado en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en C:\Archivos de Programa\microsoft Office\Office14. La instalación del OSC crea la carpeta Office14 y el OSC debe instalarse antes que cualquier dll de proveedor. Vea la sección anterior [de la presencia de Outlook y el OSC en el equipo cliente](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
+|Microsoft Outlook 2013 no está instalado, pero lo proporciona hacer clic y ejecutar en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en la carpeta Office15 Si el sistema operativo es 64, se implementan dll de 32 bits en C:\Program Files (x86) \Microsoft Office\Office15 o en C:\Archivos de Programa\microsoft Office\Office15. Si el sistema operativo es 32 bits, los archivos DLL se implementan en C:\Archivos de Programa\microsoft Office\Office15. Si la carpeta Office15 no existe, la instalación crea la carpeta.  <br/> |
+|Outlook 2010 no está instalado, pero lo proporciona hacer clic y ejecutar en el equipo cliente.  <br/> |Las DLL del proveedor se implementan en la carpeta Office14. Si el sistema operativo es 64, se implementan dll de 32 bits en C:\Program Files (x86) \Microsoft Office\Office14 o en C:\Archivos de Programa\microsoft Office\Office14. Si el sistema operativo es 32 bits, los archivos DLL se implementan en C:\Archivos de Programa\microsoft Office\Office14. Si la carpeta Office14 no existe, la instalación crea la carpeta.  <br/> |
    
 ### <a name="windows-registry-locations"></a>Ubicaciones del registro de Windows
 
 Compruebe lo siguiente:
   
-- El programa de instalación del proveedor OSC crea un valor ProgID para el proveedor de OSC en el registro de Windows en cualquiera `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` o `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`. 
+- El instalador del proveedor OSC crea un valor ProgID para el proveedor OSC en el registro de Windows, `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` en `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`o. 
     
-- La excepción es si el equipo cliente tiene Outlook de 32 bits que se ejecutan en un sistema operativo de Windows de 64 bits. En este caso, se crea el ProgID en cualquiera `HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders` o `HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders`.
+- La excepción es cuando el equipo cliente tiene Outlook de 32 bits ejecutándose en un sistema operativo Windows de 64 bits. En este caso, el ProgID se crea en `HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders` o. `HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders`
     
-- Las claves del registro deben ser el mismo y en la misma ubicación si, en su lugar, se registran las DLL mediante regsvr32.exe.
+- Las claves del registro deben ser las mismas y estar en la misma ubicación si, en su lugar, los archivos dll los registra regsvr32. exe.
 
 <a name="olosc_TestingDeployment_PresenceOfOutlook"> </a>
 
@@ -81,12 +81,12 @@ Las siguientes son algunas pruebas para comprobar que el proceso de desinstalaci
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|El usuario elige desinstalar el proveedor.  <br/> |El proveedor desinstala los archivos DLL y borra el registro.  <br/> |
-|El usuario elige cancelar el proceso de desinstalación del proveedor.  <br/> |El proveedor cancela el proceso de desinstalación y le lleva al usuario al estado antes de iniciar el proceso de desinstalación.  <br/> |
+|El usuario elige desinstalar el proveedor.  <br/> |El proveedor desinstala los archivos dll y borra el registro.  <br/> |
+|El usuario decide cancelar el proceso de desinstalación del proveedor.  <br/> |El proveedor cancela el proceso de desinstalación y devuelve el usuario al estado anterior al inicio del proceso de desinstalación.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
 - [Registrar un proveedor](registering-a-provider.md)  
 - [Lista de comprobación de instalación](installation-checklist.md)
-- [Prepararse liberar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md)
+- [Preparación para la publicación de un proveedor OSC](getting-ready-to-release-an-osc-provider.md)
 

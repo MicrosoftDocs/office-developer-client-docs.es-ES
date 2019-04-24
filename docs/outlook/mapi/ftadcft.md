@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328024"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
@@ -21,12 +21,12 @@ ms.locfileid: "22569774"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega un entero de 64 bits sin signo a otro, de forma opcional mediante una marca de transporte.
+Agrega un entero de 64 bits sin signo a otro y, opcionalmente, usa una marca de transporte.
   
 |||
 |:-----|:-----|
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 FILETIME FtAdcFt( 
@@ -36,29 +36,29 @@ FILETIME FtAdcFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _FT1_
   
-> [entrada] Una estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
+> a Una estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
     
- _pies2_
+ _ft2_
   
-> [entrada] Una estructura FILETIME que contiene el segundo entero de 64 bits sin signo que se va a agregar.
+> a Una estructura FILETIME que contiene el segundo entero de 64 bits sin signo que se va a agregar.
     
  _pwCarry_
   
-> [entrada, salida, opcional] En la entrada, un puntero a la entrada de llevar a cabo marca. En la salida, un puntero al resultado de la adición encontrará. Este parámetro puede ser NULL si el resultado de transporte no es necesario.
+> [in, out, Optional] En la entrada, un puntero a la marca de transporte de entrada. En la salida, un puntero a los resultados del transporte para la adición. Este parámetro puede ser NULL si no se requiere el resultado del transporte.
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtAdcFt** devuelve una estructura **FILETIME** que contiene la suma de los dos números enteros. No se modifican los dos parámetros de entrada. Si **pwCarry** no es NULL, contiene el resultado de transporte para la suma, 0 o 1. 
+La función **FtAdcFt** devuelve una estructura **FILETIME** que contiene la suma de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. Si **pwCarry** no es null, contiene el resultado de la suma de la suma, ya sea 0 o 1. 
   
 ## <a name="remarks"></a>Comentarios
 
-La función **FtAdcFt** es idéntica a **FtAddFt** cuando _pwCarry_ es NULL. Si _pwCarry_ no es NULL y puntos en 0, **FtAdcFt** devuelve el mismo valor **FILETIME** que devuelve **FtAddFt** . 
+La función **FtAdcFt** es idéntica a **FtAddFt** cuando _pwCarry_ es NULL. Si _pwCarry_ no es NULL y apunta a 0, **FtAdcFt** devuelve el mismo valor de **FILETIME** que **FtAddFt** devuelve. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 36d1518764985c4783d967e263ca5c05d63f935f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1ad209ff127a34d7da5ca8dbe1f4a6656d32876
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328935"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Libera la memoria asociada con un marcador.
+Libera la memoria asociada a un marcador.
   
 ```cpp
 HRESULT FreeBookmark(
@@ -33,29 +33,29 @@ BOOKMARK bkPosition
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _bkPosition_
   
-> [entrada] El marcador que se va a liberar, creado al llamar al método [IMAPITable::CreateBookmark](imapitable-createbookmark.md) . 
+> a Marcador que se va a liberar, creado llamando al método [IMAPITable:: CreateBookmark](imapitable-createbookmark.md) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El marcador correctamente se libera.
+> El marcador se liberó correctamente.
     
 MAPI_E_INVALID_BOOKMARK 
   
-> El marcador especificado no existe.
+> No existe el marcador especificado.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::FreeBookmark** libera un marcador que ya no sea necesaria. El marcador ya no es válido después de esta llamada. Siempre que se publique una tabla de la memoria, todos sus marcadores asociados también se liberan. 
+El método **IMAPITable:: FreeBookmark** libera un marcador que ya no es necesario. El marcador ya no es válido después de esta llamada. Siempre que se libere una tabla de la memoria, también se publicarán todos sus marcadores asociados. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si el autor de la llamada pasa a uno de los tres marcadores predefinidos en el parámetro _bkPosition_ , omitir la solicitud y devolver S_OK. 
+Si el autor de la llamada pasa uno de los tres marcadores predefinidos en el parámetro _bkPosition_ , omita la solicitud y devuelva S_OK. 
   
 ## <a name="see-also"></a>Vea también
 

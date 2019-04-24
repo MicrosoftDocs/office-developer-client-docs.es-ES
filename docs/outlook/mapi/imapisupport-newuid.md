@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 244087c41e33e470c42434e9d57cee7317bcb78c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330201"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571692"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una nueva estructura [MAPIUID](mapiuid.md) que se utilizará como un identificador único. 
+Crea una nueva estructura [MAPIUID](mapiuid.md) para usarla como identificador único. 
   
 ```cpp
 HRESULT NewUID(
@@ -33,7 +33,7 @@ LPMAPIUID lpMuid
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMuid_
   
@@ -47,13 +47,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::NewUID** se implementa para todos los objetos de soporte técnico. Proveedores de servicio y servicios de mensajes de llamada **NewUID** cada vez que se necesitan para generar un identificador único a largo plazo. Un mensaje de almacenar proveedor, por ejemplo, puede llamar a **NewUID** para obtener un **MAPIUID** para poner en la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
+El método **IMAPISupport:: NewUID** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **NewUID** cada vez que necesitan generar un identificador único a largo plazo. Un proveedor de almacenamiento de mensajes, por ejemplo, puede llamar a **NewUID** para obtener una **MAPIUID** para colocarla en la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Es importante no confundir la estructura **MAPIUID** que registrar en tiempo de inicio de sesión con las estructuras **MAPIUID** que crea el método **NewUID** . La estructura **MAPIUID** que registrar cuando se llama al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) representa la libreta de direcciones o mensaje de proveedor MAPI de almacén y se usa para distinguir los identificadores de entrada que crean proveedores diferentes. Esta estructura **MAPIUID** debe ser codificado de forma rígida y no se obtienen a través de una llamada a **NewUID**.
+No confunda la estructura **MAPIUID** que se registra en el momento de inicio de sesión con las estructuras **MAPIUID** que crea el método **NewUID** . La estructura **MAPIUID** que se registra cuando se llama al método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) representa su libreta de direcciones o proveedor de almacenamiento de mensajes en MAPI y se usa para distinguir los identificadores de entrada que crean proveedores distintos. Esta estructura **MAPIUID** debe estar codificada de forma rígida y no obtenerse a través de una llamada a **NewUID**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

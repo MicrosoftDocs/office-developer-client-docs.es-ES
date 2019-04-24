@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 10992fdf53c416c473b90b5748b9c5fa4f65cffc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329417"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre un objeto y devuelve un puntero de interfaz de acceso adicional.
+Abre un objeto y devuelve un puntero de interfaz para obtener acceso adicional.
   
 ```cpp
 HRESULT OpenEntry(
@@ -38,59 +38,59 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del objeto que se va a abrir.
+> a Un puntero al identificador de entrada del objeto que se va a abrir.
     
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al objeto abierto. Pasando NULL, devuelve la interfaz del objeto estándar. Por ejemplo, si el objeto que se va a abrir es un mensaje, la interfaz estándar es [IMessage](imessageimapiprop.md); para las carpetas, es [IMAPIFolder](imapifolderimapicontainer.md). Las interfaces estándares para objetos de la libreta de direcciones son [IDistList](idistlistimapicontainer.md) para una lista de distribución y [IMailUser](imailuserimapiprop.md) para un usuario de mensajería. 
+> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a utilizar para tener acceso al objeto abierto. Al pasar NULL, se devuelve la interfaz estándar del objeto. Por ejemplo, si el objeto que se va a abrir es un mensaje, la interfaz estándar es [IMessage](imessageimapiprop.md); para las carpetas, es [IMAPIFolder](imapifolderimapicontainer.md). Las interfaces estándar para los objetos de la libreta de direcciones son [IDistList](idistlistimapicontainer.md) para una lista de distribución y [IMailUser](imailuserimapiprop.md) para un usuario de mensajería. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el objeto. Se pueden usar los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla cómo se abre el objeto. Se pueden usar los siguientes indicadores:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que se abre el objeto mediante el uso de los permisos de red máximo permitidos para el acceso de usuarios y el número máximo de clientes aplicación. Por ejemplo, si el cliente no tiene permiso de lectura y escritura, se debe abrir el objeto con permisos de lectura y escritura; Si el cliente no tiene permiso de sólo lectura, se debe abrir el objeto con permiso de sólo lectura. 
+> Solicita que el objeto se abra mediante el número máximo de permisos de red permitidos para el usuario y el máximo acceso a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto debe abrirse con permiso de lectura y escritura; Si el cliente tiene permiso de solo lectura, el objeto debe abrirse con permiso de solo lectura. 
     
 MAPI_CACHE_OK
   
-> Usar todos los medios, incluidos libretas de direcciones sin conexión, para llevar a cabo la resolución de nombres.
+> Use todos los medios, incluidas las libretas de direcciones sin conexión, para realizar la resolución de nombres.
     
 MAPI_CACHE_ONLY
   
-> Usar sólo la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente Abra la lista global de direcciones (GAL) en el modo caché de Exchange y obtenga acceso a una entrada de la libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **OpenEntry** devolver de correctamente, posiblemente antes de que el objeto está totalmente disponible para el cliente de la llamada. Si el objeto no está disponible, realizar una llamada de objeto posteriores puede provocar un error. 
+> Permite que **OpenEntry** se devuelva correctamente, posiblemente antes de que el objeto esté completamente disponible para el cliente que realiza la llamada. Si el objeto no está disponible, realizar una llamada subsiguiente a un objeto puede provocar un error. 
     
 MAPI_MODIFY 
   
-> Las solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de sólo lectura y los clientes no deben trabajar en la suposición de que se concede el permiso de lectura y escritura. 
+> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de solo lectura y los clientes no deben trabajar en el supuesto de que se conceda permiso de lectura y escritura. 
     
 MAPI_NO_CACHE
   
-> No use la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> No use la libreta de direcciones sin conexión para realizar la resolución de nombres. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 SHOW_SOFT_DELETES
   
-> Mostrar los elementos que actualmente están marcados como suaves eliminan (es decir, se encuentran en la retención de elementos eliminados fase de tiempo).
+> Muestra los elementos que están marcados actualmente como eliminados temporalmente (es decir, se encuentran en la fase de tiempo de retención de elementos eliminados).
     
  _lpulObjType_
   
-> [out] Un puntero al tipo del objeto abierto.
+> contempla Un puntero al tipo del objeto abierto.
     
  _lppUnk_
   
-> [out] Un puntero a un puntero al objeto abierto.
+> contempla Un puntero a un puntero al objeto abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -100,40 +100,40 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Se ha intentado modificar un objeto de sólo lectura o se ha intentado tener acceso a un objeto para el que el usuario no tiene permisos suficientes.
+> Se ha intentado modificar un objeto de solo lectura o se ha intentado obtener acceso a un objeto para el que el usuario no tiene permisos suficientes.
     
 MAPI_E_NOT_FOUND 
   
-> No es un objeto asociado con el identificador de entrada que se pasa en el parámetro _lpEntryID_ . 
+> No hay un objeto asociado con el identificador de entrada pasado en el parámetro _lpEntryID_ . 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> El identificador de entrada que se pasa en el parámetro _lpEntryID_ está en un formato no reconoce. Normalmente, este valor se devuelve si el proveedor de servicio que contiene el objeto no está abierto. 
+> El identificador de entrada pasado en el parámetro _lpEntryID_ tiene un formato irreconocible. Normalmente, este valor se devuelve si el proveedor de servicios que contiene el objeto no está abierto. 
     
 ## <a name="remarks"></a>Comentarios
 
-Abre el método de **IMAPISession::OpenEntry** un mensaje almacenar o direcciones de objeto de libro, devuelve un puntero a una interfaz que puede utilizarse para tener acceso al objeto. 
+El método **IMAPISession:: OpenEntry** abre un objeto de la libreta de direcciones o un almacén de mensajes, que devuelve un puntero a una interfaz que se puede usar para tener acceso al objeto. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 > [!IMPORTANT]
-> Al abrir entradas de la carpeta en un almacén público, como las carpetas y mensajes, use [IMsgStore::OpenEntry](imsgstore-openentry.md) en lugar de **IMAPISession::OpenEntry**. Esto garantiza que funcionan las carpetas públicas correctamente cuando se definen varias cuentas de Exchange en un perfil. 
+> Al abrir las entradas de carpeta en un almacén público, como carpetas y mensajes, use [IMsgStore:: OpenEntry](imsgstore-openentry.md) en lugar de **IMAPISession:: OpenEntry**. Esto garantiza que las carpetas públicas funcionen correctamente cuando se definen varias cuentas de Exchange en un perfil. 
   
-Llame a **IMAPISession::OpenEntry** sólo cuando no sabe qué tipo de objeto que va a abrir. Si sabe que va a abrir una carpeta o un mensaje, llame a [IMsgStore::OpenEntry](imsgstore-openentry.md). Si sabe que va a abrir un contenedor de la libreta de direcciones, un usuario de mensajería, o una lista de distribución, llame a [IAddrBook::OpenEntry](iaddrbook-openentry.md). Estos métodos más específicos son más rápidos que **IMAPISession::OpenEntry**. 
+Llame a **IMAPISession:: OpenEntry** solo cuando no sepa qué tipo de objeto está abriendo. Si sabe que va a abrir una carpeta o un mensaje, llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md). Si sabe que va a abrir un contenedor de libreta de direcciones, un usuario de mensajería o una lista de distribución, llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md). Estos métodos más específicos son más rápidos que **IMAPISession:: OpenEntry**. 
   
-MAPI abre todos los objetos con permisos de sólo lectura, a menos que establezca el indicador MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags indicado_ . Establecer uno de estos marcadores no garantiza un tipo concreto de acceso; los permisos que se conceden dependen del proveedor de servicios, el nivel de acceso y el objeto. Para determinar el nivel de acceso del objeto abierto, recuperar su propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+MAPI abre todos los objetos con permiso de solo lectura, a menos que establezca el indicador MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags_ . La configuración de uno de estos marcadores no garantiza un tipo concreto de acceso; los permisos que se conceden dependen del proveedor de servicios, el nivel de acceso y el objeto. Para determinar el nivel de acceso del objeto abierto, recupere su propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Al llamar a **IMAPISession::OpenEntry** y configuración _lpEntryID_ para que apunte al identificador de entrada de un almacén de mensajes es el mismo que llamar al método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) con la marca MDB_NO_DIALOG establecer. La configuración del indicador también es equivalente, excepto en que se va a solicitar el permiso de lectura y escritura con **OpenMsgStore**, debe establecer la marca MDB_WRITE en lugar de MAPI_MODIFY. 
+Llamar a **IMAPISession:: OpenEntry** y establecer _lpEntryID_ para que apunten al identificador de entrada de un almacén de mensajes es el mismo que llamar al método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) con la marca MDB_NO_DIALOG establecida. La configuración de la marca también es equivalente, excepto en que para solicitar el permiso de lectura/escritura con **OpenMsgStore**, debe establecer la marca MDB_WRITE en lugar de MAPI_MODIFY. 
   
-Comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es lo que esperaba. Si el tipo de objeto no es del tipo que esperaba, convertir el puntero desde el parámetro _lppUnk_ a un puntero del tipo apropiado. Por ejemplo, si va a abrir una carpeta, convierta _lppUnk_ a un puntero de tipo LPMAPIFOLDER. 
+Compruebe el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es el esperado. Si el tipo de objeto no es el tipo que esperaba, convierta el puntero del parámetro _lppUnk_ en un puntero del tipo apropiado. Por ejemplo, si abre una carpeta, convierta _lppUnk_ en un puntero de tipo LPMAPIFOLDER. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utiliza el método **IMAPISession::OpenEntry** para abrir un objeto.  <br/> |
+|MAPIFunctions. cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI usa el método **IMAPISession:: OpenEntry** para abrir un objeto.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

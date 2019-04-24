@@ -8,43 +8,43 @@ f1_keywords:
 - Vis_DSS.chm60113
 localization_priority: Normal
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
-description: Redirige valores actualizados resultantes de acciones de la interfaz de usuario (UI) o la automatización a otra celda.
-ms.openlocfilehash: 69a9cb93ae3fbd807ef4f306be386f5389a6cfeb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Redirige los valores actualizados resultantes de acciones en la interfaz de usuario (UI) o de automatización a otra celda.
+ms.openlocfilehash: c4f5fe94aba90ce0a69983d6637a5399b6e42707
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326022"
 ---
 # <a name="setatref-function"></a>Función SETATREF
 
-Redirige valores actualizados resultantes de acciones de la interfaz de usuario (UI) o la automatización a otra celda. 
+Redirige los valores actualizados resultantes de acciones en la interfaz de usuario (UI) o de automatización a otra celda. 
   
 ## <a name="syntax"></a>Sintaxis
 
-SETATREF (** *referencia* ** [, ** *expresión_conjunto* ** [, ** *omitir_eval* **]]) 
+SETATREF (* * *referencia* * * [, * * *expresión_conjunto* * * [, * * *ignore_eval* * *]]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _referencia_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a la celda adonde se redirigen las actualizaciones.  <br/> |
-| _expresión_conjunto_ <br/> |Opcional  <br/> |**String** <br/> |Una expresión que se asigna a la _referencia_.  <br/> |
-| _omitir_eval_ <br/> |Opcional  <br/> |**Boolean** <br/> |Si es TRUE, la función SETATREF evalúa a (0) cero; Si es FALSE (valor predeterminado) la función SETATREF evalúa el valor de _referencia_.  <br/> |
+| _reference_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a la celda adonde se redirigen las actualizaciones.  <br/> |
+| _expresión_conjunto_ <br/> |Opcional  <br/> |**String** <br/> |Expresión asignada a _referencia_.  <br/> |
+| _ignore_eval_ <br/> |Opcional  <br/> |**Boolean** <br/> |Si es TRUE, la función SETATREF evalúa como (0) cero; Si FALSE (valor predeterminado), la función SETATREF da como resultado el valor de _referencia_.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando una acción del usuario en la ventana de dibujo o un método de automatización, hace que Microsoft Visio actualice una celda que contiene una fórmula SETATREF, el valor se redirige en su lugar a la celda referida por la fórmula SETATREF ( _referencia_). La fórmula de la celda que contiene la función SETATREF permanece intacta.
+Cuando una acción de usuario en la ventana de dibujo, o un método de automatización, hace que Microsoft Visio actualice una celda que contiene una fórmula SETATREF, el valor se redirige en su lugar a la celda a la que se hace referencia mediante la fórmula SETATREF ( _referencia_). La fórmula de la celda que contiene la función SETATREF permanece intacta.
   
-Si se omite _expresión_conjunto_ , el valor establecido en la interfaz de usuario o mediante la automatización se asigna a la celda referida; de lo contrario, el contenido de _expresión_conjunto_ se asigna a la celda que se hace referencia. Esto permite que el nuevo valor que se ha modificado o transforman antes de que se asigna a la celda que se hace referencia. 
+Si se omite _expresión_conjunto_ , el valor establecido en la interfaz de usuario o mediante la automatización se asigna a la celda a la que se hace referencia; de lo contrario, el contenido de _expresión_conjunto_ se asigna a la celda a la que se hace referencia. Esto permite modificar o transformar el nuevo valor antes de asignarlo a la celda de referencia. 
   
 La función SETATREF cuenta con dos funciones relacionadas: 
   
-- La función SETATREFEXPR, que puede usar para representar el nuevo valor contenido en _expresión_conjunto_. Por ejemplo, una _expresión_conjunto_ SETATREFEXPR ()-2 en. podría usarse para restar 2 pulgadas desde el resultado SETATREFEXPR. 
+- La función SETATREFEXPR, que puede usar para representar el nuevo valor en _expresión_conjunto_. Por ejemplo, un _expresión_conjunto_ de SETATREFEXPR ()-2 en. se puede usar para restar 2 pulgadas del resultado SETATREFEXPR. 
     
-- La función SETATREFEVAL, que se puede utilizar para indicar que algunas partes de _expresión_conjunto_ deben evaluadas y reemplazadas por el resultado. 
+- La función SETATREFEVAL, que se puede usar para indicar que una parte de _expresión_conjunto_ debe evaluarse y reemplazarse por su resultado. 
     
-La función SETATREF está diseñada para su uso en las celdas que se puede cambiar por las acciones del usuario en la ventana de dibujo. Se admiten las celdas siguientes:
+La función SETATREF está diseñada para usarse en celdas que las acciones de usuario pueden cambiar en la ventana de dibujo. Se admiten las siguientes celdas:
   
 - Sección de transformación de forma: celdas Width, Height, Angle, PinX y PinY
     
@@ -56,7 +56,7 @@ La función SETATREF está diseñada para su uso en las celdas que se puede camb
     
 - Sección de datos de formas
     
-Dado que SETATREF cambia la ubicación donde cambian los valores de celda, afecta al desencadenamiento de eventos. Si una celda contiene SETATREF, los eventos **FormulaChanged** y **CellChanged** se desencadenan para la celda que hace referencia SETATREF, no a la celda que contiene SETATREF. Si una celda que contiene SETATREF también contiene SETATREFEXPR, el evento **FormulaChanged** se desencadena también para la celda que contiene SETATREF debido a que se cambia un parámetro de función. 
+Dado que SETATREF cambia la ubicación donde cambian los valores de celda, afecta al desencadenamiento de eventos. Si una celda contiene SETATREF, los eventos **FormulaChanged** y **CellChanged** se desencadenan para la celda a la que hace referencia SETATREF, no para la que contiene SETATREF. Si una celda que contiene SETATREF también contiene SETATREFEXPR, el evento **FormulaChanged** se desencadena también para la celda que contiene SETATREF porque se cambia un parámetro de la función. 
   
 A continuación se describen algunos puntos adicionales que conviene tener en cuenta al respecto de la función SETATREF:
   
@@ -70,13 +70,13 @@ A continuación se describen algunos puntos adicionales que conviene tener en cu
     
 - Al igual que ocurre con GUARD, SETATREF no protege las celdas de los cambios realizados mediante la función SETF en ShapeSheet.
     
-## <a name="example1"></a>Ejemplo 1
+## <a name="example1"></a>Example1
 
 Supongamos que una forma posee una propiedad personalizada llamada Width, y la celda Width de la sección de transformación de forma contiene la siguiente fórmula:
   
-=SETATREF(Prop.Width)
+= SETATREF (prop. width)
   
-Si un usuario cambiar el ancho de la forma en la interfaz de usuario, el nuevo valor se asigna a la celda Prop.Width, no a la celda Width de la sección transformación de forma; la fórmula de la celda Width permanece inalterada. También puede establecer el ancho de la forma mediante el uso de datos de formas.
+Si un usuario va a cambiar el ancho de la forma en la interfaz de usuario, el nuevo valor se asigna a la celda prop. width, no a la celda width de la sección transformación; la fórmula de la celda width permanece inalterada. También es posible establecer el ancho de la forma mediante los datos de formas.
   
 ## <a name="example2"></a>Example2
 
@@ -88,6 +88,6 @@ PinX =SETATREF(Usuario.DeltaX; SETATREFEVAL(SETATREFEXPR() - ParentShape!PinX)) 
   
 PinY =SETATREF(Usuario.DeltaY; SETATREFEVAL(SETATREFEXPR() - ParentShape!PinY)) + ParentShape!PinY
   
-Cuando la forma secundaria se mueve mediante la interfaz de usuario, los nuevos valores de PinX y PinY se establecen como el parámetro de la función SETATREFEXPR. La función SETATREF evalúa la fórmula encerrada en SETATREFEVAL y reemplaza PinX y PinY con sus resultados y, a continuación, la fórmula resultante se asigna a las celdas de usuario que se hace referencia en el function—User.DeltaX SETATREF y usuario.DeltaY. Por último, los valores devueltos por SETATREF (usuario.DeltaX y usuario.DeltaY) se agregan a la ubicación del pin de ParentShape para calcular la ubicación del pin de la forma secundaria.
+Cuando se mueve la forma secundaria mediante la interfaz de usuario, los nuevos valores de PinX y PinY se establecen como el parámetro de la función SETATREFEXPR. La función SETATREF evalúa la fórmula incluida en SETATREFEVAL y reemplaza PinX y PinY con sus resultados y, a continuación, la fórmula resultante se asigna a las celdas de usuario a las que se hace referencia en la función SETATREF: User. DeltaX y User. DeltaY. Por último, los valores devueltos por SETATREF (User. DeltaX o User. DeltaY) se agregan a la ubicación del PIN de ParentShape para calcular la ubicación del PIN de la forma secundaria.
   
 

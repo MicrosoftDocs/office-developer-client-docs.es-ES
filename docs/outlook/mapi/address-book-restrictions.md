@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 54cd90cac6c00e8cf274e0b78a1bfec32401bb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7419c174c1f68653794c2dbd836577e8dd3e596e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328080"
 ---
 # <a name="address-book-restrictions"></a>Restricciones de la libreta de direcciones
 
@@ -21,33 +21,33 @@ ms.locfileid: "22576515"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de la libreta de direcciones son necesarios para admitir tres tipos de restricciones en las tablas de contenido de sus contenedores:
+Los proveedores de libreta de direcciones deben admitir tres tipos de restricciones en las tablas de contenido de sus contenedores:
   
-- Restricciones de nombre ambiguo (propiedad)
+- Restricciones de propiedad de nombre ambiguo
     
 - Restricciones de propiedad de clave de instancia
     
 - Restricciones de contenido de nombre para mostrar con prefijo
     
-Restricciones de nombre ambiguo son restricciones de propiedad con la propiedad **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) para que coincida con los nombres de los destinatarios con las entradas de los contenedores de la libreta de direcciones. La restricción de propiedad **PR_ANR** es un tipo "mejor adivinar" de búsqueda mediante el cual los proveedores de la libreta de direcciones pueden elegir la propiedad coincidente que funciona mejor para su contenedor. Por ejemplo, un proveedor de libreta de direcciones podría implementar la restricción **PR_ANR** por nombres de los destinatarios que coinciden con respecto a la propiedad **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) de cada entrada de contenedor mientras que otro proveedor puede usar **PR_DISPLAY _NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Las restricciones de nombre ambiguo son restricciones de propiedad que usan la propiedad **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) para hacer coincidir los nombres de los destinatarios con las entradas de los contenedores de la libreta de direcciones. La restricción de propiedad **PR_ANR** es un tipo de "mejor estimación" de la búsqueda, en la que los proveedores de libreta de direcciones pueden elegir la propiedad correspondiente que funciona mejor para su contenedor. Por ejemplo, un proveedor de la libreta de direcciones puede implementar la restricción **PR_ANR** al hacer coincidir los nombres de los destinatarios con la propiedad **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) de cada entrada de contenedor, mientras que otro proveedor puede usar **PR_DISPLAY _NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
-MAPI, se recomienda que las implementaciones de la restricción de **PR_ANR** alcanzar un equilibrio entre la satisfacción del usuario y un rendimiento adecuado. Se puede reducir la satisfacción de los usuarios cuando un proveedor de la libreta de direcciones implementa la restricción de tal forma que se encuentran muy pocas o demasiadas coincidencias. Algunos proveedores de libreta de direcciones compatible con lo que se conoce como un nombre distintivo (DN) o comunes, que no es que se pueden mostrar en un cuadro de diálogo pero puede coincidir con una restricción de nombre ambiguo. 
+MAPI recomienda que las implementaciones de la restricción **PR_ANR** se ajusten a un equilibrio entre el rendimiento y la satisfacción del usuario adecuados. La satisfacción del usuario se puede ver comprometida cuando un proveedor de la libreta de direcciones implementa la restricción de manera que se encuentran muy pocas o demasiadas coincidencias. Algunos proveedores de libretas de direcciones admiten lo que se conoce como un nombre completo, o común, que no se puede reproducir en un cuadro de diálogo, pero que puede coincidir con una restricción de nombre ambiguo. 
   
-Es posible una implementación típica analizar el nombre para mostrar del destinatario en palabras, que coinciden con cualquier entrada que contiene todas las palabras. Atención a detalles como sensibilidad a la posición de word, si se hacen coincidir las palabras no consecutivos y la elección de los caracteres separadores pueden variar. Por ejemplo, si el nombre que se va a resolver es "Bill L", una restricción **PR_ANR** típica seleccionar las siguientes entradas como coincidentes: 
+Una implementación típica podría ser analizar el nombre para mostrar del destinatario en palabras, haciendo coincidir cualquier entrada que contenga todas las palabras. Atención a los detalles, como la sensibilidad a la posición de la palabra, si las palabras no consecutivas coinciden y la elección de caracteres separadores puede variar. Por ejemplo, si el nombre que se va a resolver es "Bill L", una restricción **PR_ANR** típica seleccionaría las siguientes entradas como coincidencia: 
   
 - Billy Larson
     
-- Bill Lee
+- Bill Lucas
     
 - Bill Logan Jr. 
     
-- Sam Bill Lee
+- Bill Lucas de Sam
     
-Restricciones de clave de instancia o restricciones de propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), se utilizan en la implementación de cuadros de lista que se usan en las aplicaciones cliente para ver las tablas MAPI. Algunas implementaciones de cuadro de lista permiten a los usuarios realizar varias selecciones, desplazarse hacia arriba o hacia abajo y devolución para el primer elemento seleccionan. Para implementar este comportamiento, los clientes llaman [IMAPITable:: FindRow](imapitable-findrow.md), pasando una restricción de propiedad en la propiedad **PR_INSTANCE_KEY** al método. Los proveedores de la libreta de direcciones son necesarios para admitir esta restricción. 
+Las restricciones de clave de instancia o las restricciones de propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) se usan en la implementación de cuadros de lista que se usan en aplicaciones cliente para ver tablas MAPI. Algunas implementaciones de cuadros de lista permiten a los usuarios realizar selecciones múltiples, desplazarse hacia arriba o hacia abajo y volver al primer elemento seleccionado. Para implementar este comportamiento, los clientes llaman a [IMAPITable:: FindRow](imapitable-findrow.md), pasando una restricción de propiedad en la propiedad **PR_INSTANCE_KEY** al método. Es necesario que los proveedores de libreta de direcciones admitan esta restricción. 
   
-Otra característica de cuadros de lista que se usa para la visualización de la tabla es la capacidad para colocar el cursor en función de un conjunto de caracteres de prefijo. Como el usuario empieza a escribir caracteres de prefijo, el cliente mueve el cursor al primer elemento que comienza con estos caracteres. Los clientes de implementan esta característica con una restricción de contenido en función de la propiedad **PR_DISPLAY_NAME** y el nivel de aproximada de FL_PREFIX. 
+Otra característica de los cuadros de lista usados para la visualización de tablas es la capacidad de colocar el cursor en función de un conjunto de caracteres de prefijo. A medida que el usuario empieza a escribir los caracteres de prefijo, el cliente mueve el cursor al primer elemento que comienza con estos caracteres. Los clientes implementan esta característica con una restricción de contenido basada en la propiedad **PR_DISPLAY_NAME** y el nivel de aproximación FL_PREFIX. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: Determina si un estilo incluye propiedades de línea.
-ms.openlocfilehash: 0e1eb67528b3e87bcfff5281dd1e0b2db3a0a4d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329109"
 ---
-# <a name="enablelineprops-cell-style-properties-section"></a>Celda EnableLineProps (sección de propiedades de estilo)
+# <a name="enablelineprops-cell-style-properties-section"></a>Celda EnableLineProps (Sección de propiedades de estilo)
 
 Determina si un estilo incluye propiedades de línea.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Incluir propiedades de línea.  <br/> |
 |FALSE  <br/> |Excluir propiedades de línea.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda EnableLineProps por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

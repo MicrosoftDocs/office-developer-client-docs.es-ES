@@ -6,43 +6,43 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ac7b39d4-3942-4b23-b188-2c3f69e54929
-description: Especifica el tipo de biselado inferior de bisel de una forma.
-ms.openlocfilehash: a0429011565d7a8f3ca0a7da76c08d309d5391f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica el tipo de bisel inferior del bisel de una forma.
+ms.openlocfilehash: 0cd360f633145c7dea95438ffe2bc746e519ce13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330082"
 ---
 # <a name="bevelbottomtype-cell-bevel-properties-section"></a>Celda BevelBottomType (sección Propiedades de bisel)
 
-Especifica el tipo de biselado inferior de bisel de una forma.
+Especifica el tipo de bisel inferior del bisel de una forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Ningún bisel  <br/> |
+|comprendi  <br/> |Sin bisel  <br/> |
 |1  <br/> |Bisel círculo  <br/> |
-|2  <br/> |Media bisel Bajorrelieve  <br/> |
-|3  <br/> |Bisel Cruz  <br/> |
-|4  <br/> |Increíble bisel inclinación  <br/> |
-|5  <br/> |Bisel Ángulo  <br/> |
-|6  <br/> |Bisel redondo suave.  <br/> |
-|7  <br/> |Bisel convexo  <br/> |
-|8  <br/> |Bisel pendiente  <br/> |
+|segundo  <br/> |Bisel de bajorrelieve relajado  <br/> |
+|3  <br/> |Bisel cruzado  <br/> |
+|4  <br/> |Biselado inclinado frío  <br/> |
+|2,5  <br/> |Bisel ángulo  <br/> |
+|6,5  <br/> |Bisel redondeado suave  <br/> |
+|0,7  <br/> |Bisel convexo  <br/> |
+|8,5  <br/> |Bisel pendiente  <br/> |
 |9  <br/> |Bisel ángulos  <br/> |
-|10  <br/> |Bisel Microsurco  <br/> |
-|11  <br/> |Disco duro bisel borde  <br/> |
-|12  <br/> |Bisel art decó  <br/> |
+|metros  <br/> |Bisel microsurco  <br/> |
+|12  <br/> |Bisel de borde duro  <br/> |
+|12  <br/> |Bisel decorativo  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelBottomType** por su nombre desde otra fórmula, por el valor del atributo de un elemento de **celda** en el formato de archivo .vsdx, **N** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelBottomType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** en el formato de archivo. vsdx o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BevelBottomType  <br/> |
    
-Para obtener una referencia a la celda **BevelBottomType** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelBottomType** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

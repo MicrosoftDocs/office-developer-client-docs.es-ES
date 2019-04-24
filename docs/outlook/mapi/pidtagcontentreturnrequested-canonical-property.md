@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331909"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propiedad canónica PidTagContentReturnRequested
 
@@ -32,9 +32,9 @@ Contiene TRUE si se debe devolver un mensaje con un informe de no entrega.
 |Propiedades asociadas:  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
 |Identificador:  <br/> |0x000A  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Report  <br/> |
+|Área:  <br/> |Informe  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si no se establece esta propiedad, MAPI la trata como si tuviera un valor TRUE. 
   
@@ -42,23 +42,23 @@ Si no se establece esta propiedad, MAPI la trata como si tuviera un valor TRUE.
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: Devuelve una cadena convertida en mayúsculas.
-ms.openlocfilehash: df8250ef634b04cb19cbb4e120bd02eb77531a82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88958526bfb5e08839077217759f7ffb50151b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327331"
 ---
 # <a name="upper-function"></a>Función UPPER
 
@@ -22,15 +22,15 @@ Devuelve una cadena convertida en mayúsculas.
   
 ## <a name="syntax"></a>Sintaxis
 
-SUPERIOR (** *expresión* **) 
+UPPER (* * *expresión* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La conversión de mayúsculas y minúsculas depende de la configuración regional especificada en la configuración actual del usuario. 
   

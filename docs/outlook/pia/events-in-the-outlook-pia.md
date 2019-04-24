@@ -1,5 +1,5 @@
 ---
-title: Eventos del PIA de Outlook
+title: Eventos en el PIA de Outlook
 TOCTitle: Events in the Outlook PIA
 ms:assetid: 1f9eafb3-6645-4e27-81fa-5d73bf94ae40
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 29217a633c02390587a370847291ef62d5621ce8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325795"
 ---
 # <a name="events-in-the-outlook-pia"></a>Eventos del PIA de Outlook
 

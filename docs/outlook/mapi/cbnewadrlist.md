@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 885cf53de45cfde4079cc2a0e7bfdca09f72b962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329529"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
@@ -25,24 +25,24 @@ ms.locfileid: "22569753"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se debe asignar para una nueva estructura [ADRLIST](adrlist.md) que contiene un número especificado de destinatarios representado por las estructuras [ADRENTRY](adrentry.md) . 
+Calcula el número de bytes que se deben asignar para una nueva estructura [ADRLIST](adrlist.md) que contiene un número especificado de destinatarios representados por estructuras [ADRENTRY](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**ADRLIST** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __centries_
   
-> Recuento de las estructuras **ADRENTRY** que se deben incluir en la nueva estructura **ADRLIST** . 
+> Número de estructuras **ADRENTRY** que se incluirán en la nueva estructura **ADRLIST** . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

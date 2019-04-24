@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: c75f908e-c462-4608-9d27-8287d963d735
-description: Representa el nombre de usuario para la cuenta de SMTP.
-ms.openlocfilehash: 7142289d07fb18f54b69b78f6d2858b96ef60c43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa el nombre de usuario de la cuenta SMTP.
+ms.openlocfilehash: 3740a87a6a7c5dbbf68a1616146e009d2adaac56
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328157"
 ---
 # <a name="propsmtpuser"></a>PROP_SMTP_USER
 
-Representa el nombre de usuario para la cuenta de SMTP.
+Representa el nombre de usuario de la cuenta SMTP.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 0204  <br/> |
+|Identificador:  <br/> |0x0204  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x0204001F  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x0204001F  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

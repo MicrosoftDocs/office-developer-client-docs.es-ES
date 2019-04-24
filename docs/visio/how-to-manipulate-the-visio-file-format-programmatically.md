@@ -8,11 +8,11 @@ ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crear una solución en Visual Studio 2012 para leer el nuevo paquete de formato de archivo en Visio 2013, seleccionar partes del paquete, cambiar los datos de un elemento y agregar nuevos elementos al paquete.
 localization_priority: Priority
 ms.openlocfilehash: 7239180f6e8ecf013577bff787b7c3f784971efc
-ms.sourcegitcommit: b9814794fcc929f53892417f2b788f2a7931da87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31903799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330047"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular el formato de archivo de Visio mediante programación
 

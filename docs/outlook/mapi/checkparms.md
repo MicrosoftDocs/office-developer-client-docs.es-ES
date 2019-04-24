@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffa1b596b2f60bce35f24df8a20326502be8165a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331804"
 ---
 # <a name="checkparms"></a>CheckParms
 
@@ -25,12 +25,12 @@ ms.locfileid: "22582038"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Llama a una función interna para validar parámetros de depuración en los métodos de proveedor de servicio llamados por MAPI. 
+Llama a una función interna para validar los parámetros de depuración de los métodos de proveedor de servicios a los que llama MAPI. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> [entrada] Especifica el (enumeración), el método para validar. 
+> a Especifica, por enumeración, el método que se va a validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento en la pila.
+> a Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-A diferencia de las macros [ValidateParms](validateparms.md) y [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** no realiza una validación del parámetro completa. Parámetros pasados entre MAPI y servicio se supone que los proveedores de ser correcta, por lo que **CheckParms** realiza solo una validación de depuración. 
+A diferencia de las macros [ValidateParms](validateparms.md) y [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** no realiza una validación completa de parámetros. Se supone que los parámetros que se han pasado entre MAPI y los proveedores de servicios son correctos, por lo que **CheckParms** solo realiza una validación de depuración. 
   
 

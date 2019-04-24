@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
-description: Devuelve o establece el nombre de cuenta.
-ms.openlocfilehash: 820a234e3986091a93aaf2eb82d7fde1636e0511
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve o establece el nombre de la cuenta.
+ms.openlocfilehash: 90b62548694687d9357f4302af36e4c8efeb8c0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327625"
 ---
 # <a name="propacctname"></a>PROP_ACCT_NAME
 
-Devuelve o establece el nombre de cuenta.
+Devuelve o establece el nombre de la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0002  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x0002001F  <br/> |
-|Access:  <br/> |Es de lectura y escritura.  <br/> |
+|Etiqueta de propiedad:  <br/> |0x0002001F  <br/> |
+|Al  <br/> |Lectura y escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtener o establecer esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md) o [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
+Obtenga o establezca esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md) o [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
   
 ## <a name="see-also"></a>Vea también
 

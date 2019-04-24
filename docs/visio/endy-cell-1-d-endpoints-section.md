@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm340
 localization_priority: Normal
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
-description: Representa la y-coordenadas del extremo de la forma 1-D, en relación con el origen de su forma principal.
-ms.openlocfilehash: 4c619a9c7c37ba892931f08b37c3beb0efac7531
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la coordenada y del extremo de la forma 1D en relación con el origen de su forma principal.
+ms.openlocfilehash: e75355ad333b7f6398618c974f7c49e5c26c41d6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328942"
 ---
-# <a name="endy-cell-1-d-endpoints-section"></a>Celda EndY (sección Extremos 1D)
+# <a name="endy-cell-1-d-endpoints-section"></a>Celda EndY (Sección de extremos 1D)
 
-Representa la *y* -coordenadas del extremo de la forma 1-D, en relación con el origen de su forma principal. 
+Representa la coordenada *y* del extremo de la forma 1D en relación con el origen de su forma principal. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda EndY por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | EndY  <br/> |
+| Nombre de celda:  <br/> | Single  <br/> |
    
 Para obtener una referencia desde un programa a la celda EndY por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

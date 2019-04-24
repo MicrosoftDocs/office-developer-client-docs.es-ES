@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b6a27231c8dd2c0796b2dcba268de54fcd93e38d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 897330feb216dbc3ab143378977c77141cf488f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328822"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define las propiedades concretas y el orden de las propiedades que aparecen como columnas en la tabla.
+Define las propiedades y el orden de las propiedades específicas que aparecerán como columnas en la tabla.
   
 ```cpp
 HRESULT SetColumns(
@@ -34,86 +34,86 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
-> [entrada] Puntero a una matriz de etiquetas de propiedad que identifica las propiedades que se incluirán como columnas de la tabla. La parte de tipo de propiedad de cada etiqueta se puede establecer en un tipo válido o en **PR_NULL** para reservar espacio para adiciones posteriores. El parámetro _lpPropTagArray_ no puede establecerse en NULL; cada tabla debe tener al menos una columna. 
+> a Puntero a una matriz de etiquetas de propiedad que identifican las propiedades que se van a incluir como columnas en la tabla. La parte de tipo de propiedad de cada etiqueta se puede establecer en un tipo válido o en **PR_NULL** para reservar espacio para adiciones posteriores. El parámetro _lpPropTagArray_ no puede establecerse en null; todas las tablas deben tener al menos una columna. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de indicadores que controla la devolución de una llamada asincrónica a **SetColumns**, por ejemplo, cuando se usa **SetColumns** en la notificación. Se pueden establecer los siguientes indicadores: 
+> a Máscara de la máscara que controla la devolución de una llamada asincrónica a **SetColumns**, por ejemplo, cuando se usa **SetColumns** en la notificación. Se pueden establecer los siguientes indicadores: 
     
 TBL_ASYNC 
   
-> Las solicitudes que la operación de configuración de columna realizan asincrónicamente causando **SetColumns** devolver potencialmente antes de la operación ha finalizado completamente. 
+> Solicita que la operación de configuración de columna se realice de forma asincrónica, lo que provoca que **SetColumns** pueda devolver potencialmente antes de que la operación se haya completado completamente. 
     
 TBL_BATCH 
   
-> Permite a la tabla para posponer la operación de configuración de la columna hasta que los datos se necesita realmente.
+> Permite a la tabla posponer la operación de configuración de columna hasta que se necesiten los datos en realidad.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de configuración de columna fue correcta.
+> La operación de configuración de columna se realizó correctamente.
     
 MAPI_E_BUSY 
   
-> Otra operación está en curso que impide que la columna Configuración de la operación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
+> Hay otra operación en curso que impide que se inicie la operación de configuración de columna. Debe permitirse que la operación en curso se complete o que deba detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
-El conjunto de columnas de una tabla es el grupo de propiedades que componen las columnas para las filas de la tabla. No hay una columna predeterminado establecido para cada tipo de tabla. El conjunto de columnas predeterminado se compone de las propiedades que el implementador de la tabla incluye automáticamente. Los usuarios de la tabla pueden modificar este valor predeterminado que se establece mediante una llamada al método **IMAPITable::SetColumns** . Puede solicitar que otras columnas se agregará al conjunto si el implementador de la tabla es compatible con ellos que pueden quitar columnas o que se puede cambiar el orden de columnas predeterminado. **SetColumns** especifica las columnas que se devuelven con cada fila y el orden de estas columnas dentro de la fila. 
+El conjunto de columnas de una tabla es el grupo de propiedades que componen las columnas de las filas de la tabla. Hay un conjunto de columnas predeterminado para cada tipo de tabla. El conjunto de columnas predeterminado se compone de las propiedades que incluye automáticamente el implementador de la tabla. Tabla los usuarios pueden modificar este conjunto predeterminado llamando al método **IMAPITable:: SetColumns** . Pueden solicitar que se agreguen otras columnas al conjunto predeterminado si el implementador de la tabla es compatible con las columnas que se van a quitar o el orden de las columnas que se va a cambiar. **SetColumns** especifica las columnas que se devuelven con cada fila y el orden de estas columnas dentro de la fila. 
   
-El éxito de la operación **SetColumns** es evidente sólo después de que se ha realizado una llamada posterior para recuperar los datos de la tabla. A continuación, es que los errores se notifican. 
+El éxito de la operación de **SetColumns** sólo es aparente después de realizar una llamada posterior para recuperar los datos de la tabla. Entonces, se informa de que se han producido errores. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Algunos proveedores permiten una llamada **SetColumns** ordenar sólo columnas de la tabla que forman parte de las columnas disponibles para una vista de tabla. Otros proveedores de permiten una llamada **SetColumns** ordenar todas las columnas de tabla, incluidas aquellas que contienen propiedades no en el conjunto de columna original. 
+Algunos proveedores permiten la llamada de **SetColumns** para ordenar sólo las columnas de la tabla que forman parte de las columnas disponibles para una vista de tabla. Otros proveedores permiten una llamada de **SetColumns** para ordenar todas las columnas de la tabla, incluidas las que contienen propiedades que no están en el conjunto de columnas original. 
   
-Cuando se establece TBL_BATCH para operaciones asincrónicas, proveedores deben devolver un tipo de propiedad de PT_ERROR y un valor de la propiedad null para las columnas que no son compatibles.
+Cuando TBL_BATCH se establece para operaciones asincrónicas, los proveedores deben devolver un tipo de propiedad de PT_ERROR y un valor de propiedad NULL para las columnas que no son compatibles.
   
-No es necesario responder a la solicitud de marca TBL_ASYNC que la operación de ser asincrónica. Si no admite la definición del conjunto de columna asincrónica, realizar la operación de forma sincrónica. Si puede admitir la marca TBL_ASYNC y otro asincrónica operación todavía está en progreso, MAPI_E_BUSY devuelto. De lo contrario, devuelve S_OK, independientemente de si o no admiten todas las propiedades que se incluyen en la matriz de la etiqueta de propiedad. Desde métodos **IMAPITable** que recuperar datos, como **QueryRows**se deben devolver errores resultante de propiedades no son compatibles. 
+No es necesario que responda a la marca TBL_ASYNC que solicita que la operación sea asincrónica. Si no admite la definición de conjunto de columnas asincrónica, realice la operación de forma sincrónica. Si puede admitir la marca TBL_ASYNC y hay otra operación asincrónica todavía en curso, devuelva MAPI_E_BUSY. De lo contrario, devuelva S_OK independientemente de si se admiten todas las propiedades incluidas en la matriz de etiquetas de propiedades. Los errores resultantes de propiedades no admitidas deben devolverse desde los métodos de **IMAPITable** que recuperan datos, como **QueryRows**. 
   
-No generan notificaciones para las filas de tabla que están ocultos de la vista mediante llamadas a **restringir**. 
+No genere notificaciones para las filas de tabla que están ocultas para que las llamadas a **Restrict**se vean. 
   
-Al enviar las notificaciones de tabla, el orden de las propiedades en el miembro de **fila** de la estructura [TABLE_NOTIFICATION](table_notification.md) y el orden especificado por la llamada más reciente de **SetColumns** debe ser el mismo a partir de la hora en que la notificación de solicitud se ha enviado. 
+Al enviar notificaciones de tabla, el orden de las propiedades del miembro de **fila** de la estructura [TABLE_NOTIFICATION](table_notification.md) y el orden especificado por la llamada de **SetColumns** más reciente deben ser iguales a la hora de la solicitud de notificación. se ha enviado. 
   
-Otro indicador, TBL_BATCH, permite que los autores de llamadas especificar que el implementador de tabla puede aplazar la evaluación de los resultados de la operación hasta más adelante. Siempre que sea posible, los autores de llamadas deben establecer esta marca debido a que la operación por lotes mejora el rendimiento.
+Otra marca, TBL_BATCH, permite a los llamadores especificar que el implementador de la tabla puede aplazar la evaluación de los resultados de la operación hasta un momento posterior. Siempre que sea posible, los autores de la llamada deben establecer esta marca porque la operación por lotes mejora el rendimiento.
   
-A menudo es conveniente para los autores de llamadas reservar algunas columnas en el conjunto de filas devueltas para los valores que se agregarán más adelante. Los autores de llamadas hacer esto mediante la colocación de **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) en la posición que desee en la matriz de etiqueta de propiedad que se pasan a **SetColumns**; en la tabla será, a continuación, pase a la copia **PR_NULL** en las posiciones de todas las filas recuperadas con **QueryRows**.
+A menudo es conveniente que los autores de las llamadas reserven algunas columnas del conjunto de filas recuperadas para los valores que se van a agregar más adelante. Para ello, los autores de las llamadas colocan **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) en las posiciones deseadas en la matriz de etiquetas de propiedad pasada a **SetColumns**; a continuación, la tabla devolverá **PR_NULL** en las posiciones de todas las filas recuperadas con **QueryRows**.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Al crear la matriz de la etiqueta de propiedad para el parámetro _lpPropTagArray_ , orden de las etiquetas en el orden que desea que las columnas que aparecen en la vista de tabla. 
+Al crear la matriz de etiquetas de propiedad para el parámetro _lpPropTagArray_ , ordene las etiquetas en el orden en que desea que aparezcan las columnas en la vista de tabla. 
   
-Puede especificar propiedades multivalor que se deben incluir en la columna establecer aplicando el indicador de instancia multivalor o constante MVI_FLAG, en la etiqueta de propiedad. Establezca esta marca pasando la etiqueta de propiedad para la versión de un solo valor de la propiedad como un parámetro a la macro MVI_PROP como se indica a continuación:
+Puede especificar propiedades multivalor para incluirlas en el conjunto de columnas aplicando la marca de instancia multivalor o constante MVI_FLAG a la etiqueta de propiedad. Establezca esta marca pasando la etiqueta de propiedad para la versión de un solo valor de la propiedad como un parámetro a la macro MVI_PROP de la siguiente manera:
   
 ```
 MVI_PROP(ulPropTag)
 
 ```
 
-La macro MVI_PROP establecerá MVI_FLAG para la propiedad, convirtiendo la etiqueta en una etiqueta multivalor. Si intenta llamar a MVI_PROP en una propiedad de un solo valor erróneamente, MAPI omitir la llamada y deje la etiqueta de propiedad sin cambios. 
+La macro MVI_PROP definirá MVI_FLAG para la propiedad, convirtiendo la etiqueta en una etiqueta con varios valores. Si intenta llamar erróneamente a MVI_PROP en una propiedad de un solo valor, MAPI omitirá la llamada y dejará sin cambios la etiqueta de propiedad. 
   
-Puede incluir etiquetas de propiedad se establece en **PR_NULL** en la matriz de la etiqueta de propiedad para reservar espacio en el conjunto de columnas. Reservar espacio permite agregar a una columna establecer sin tener que volver a asignar una matriz de etiqueta de propiedad nuevo. 
+Puede incluir etiquetas de propiedad establecidas en **PR_NULL** en la matriz de etiquetas de propiedad para reservar espacio en el conjunto de columnas. El espacio de reserva le permite agregar a un conjunto de columnas sin tener que asignar una nueva matriz de etiquetas de propiedades. 
   
-Cuando la llamada a **SetColumns** hace que un cambio al orden de las columnas de una tabla y una o varias de estas columnas representan una propiedad multivalor, es posible que el número de filas de la tabla para aumentar. Si esto ocurre, se descartan todos los marcadores de la tabla. Para obtener más información acerca de cómo columnas con varios valores afectan a las tablas, vea [trabajar con columnas con varios valores](working-with-multivalued-columns.md).
+Cuando la llamada a **SetColumns** provoca un cambio en el orden de las columnas de una tabla y una o más de estas columnas representa una propiedad multivalor, es posible que aumente el número de filas de la tabla. Si esto ocurre, se descartan todos los marcadores de la tabla. Para obtener más información acerca de cómo las columnas multivalor afectan a las tablas, vea [Working with](working-with-multivalued-columns.md)multiValued Columns.
   
-Configuración de columnas predeterminada es una operación sincrónica. Sin embargo, puede permitir que la tabla que se va a posponer la operación hasta que se necesitan los datos mediante la configuración de la marca TBL_BATCH. Al establecer este indicador puede mejorar el rendimiento. Otro indicador, TBL_ASYNC, hace que la operación asincrónica, lo que permite **SetColumns** devolver antes de completar la operación. Para determinar cuándo se produce la finalización, llame a [IMAPITable::GetStatus](imapitable-getstatus.md).
+Establecer columnas es una operación sincrónica de forma predeterminada. Sin embargo, puede permitir que la tabla posponga la operación hasta el momento en que se necesiten los datos mediante la configuración de la marca TBL_BATCH. La configuración de esta marca puede mejorar el rendimiento. Otra marca, TBL_ASYNC, hace que la operación sea asincrónica, lo que permite que **SetColumns** vuelva antes de que se complete la operación. Para determinar cuándo se produce la finalización, llame al [IMAPITable:: getStatus](imapitable-getstatus.md).
   
-Si una llamada a **SetColumns** devuelve MAPI_E_BUSY, que indica que otra operación impide que la operación de inicio, se puede llamar a [IMAPITable::Abort](imapitable-abort.md) para detener la operación en curso. 
+Si una llamada a **SetColumns** devuelve MAPI_E_BUSY, que indica que otra operación impide que se inicie la operación, puede llamar al método [IMAPITable:: ABORT](imapitable-abort.md) para detener la operación en curso. 
   
-También puede llamar a [HrAddColumnsEx](hraddcolumnsex.md) para cambiar un conjunto de columnas. La diferencia entre **HrAddColumnsEx** y **IMAPITable::SetColumns** es que **HrAddColumnsEx** es menos flexible; sólo puede agregar columnas. Las columnas adicionales se colocan al principio del conjunto de columna; todas las columnas existentes aparecen a continuación de estas columnas. 
+También puede llamar a [HrAddColumnsEx](hraddcolumnsex.md) para cambiar un conjunto de columnas. La diferencia entre **HrAddColumnsEx** y **IMAPITable:: SetColumns** es que **HrAddColumnsEx** es menos flexible; solo puede Agregar columnas. Las columnas adicionales se colocan al principio del conjunto de columnas; todas las columnas existentes aparecen a continuación de estas columnas. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::SetColumns** para establecer las columnas de la tabla que desee.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa el método **IMAPITable:: SetColumns** para establecer las columnas deseadas para la tabla.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

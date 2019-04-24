@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328886"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una lista de columnas para la tabla.
+Devuelve una lista de las columnas de la tabla.
   
 ```cpp
 HRESULT QueryColumns(
@@ -34,11 +34,11 @@ LPSPropTagArray FAR * lpPropTagArray
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcadores que indica qué columna establece que se debe devolver. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que indica el conjunto de columnas que se debe devolver. Se puede establecer la siguiente marca:
     
 TBL_ALL_COLUMNS 
   
@@ -46,43 +46,43 @@ TBL_ALL_COLUMNS
     
  _lpPropTagArray_
   
-> [out] Establece el puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad para la columna. 
+> contempla Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad del conjunto de columnas. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El conjunto de columnas se devolvió correctamente.
+> El conjunto de columnas se ha devuelto correctamente.
     
 MAPI_E_BUSY 
   
-> Otra operación se establece en curso que impide que la columna de operación de recuperación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
+> Hay otra operación en curso que evita que se inicie la operación de recuperación del conjunto de columnas. Debe permitirse que la operación en curso se complete o que deba detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::QueryColumns** se puede llamar para recuperar: 
+Se puede llamar al método **IMAPITable:: QueryColumns** para recuperar: 
   
-- La columna predeterminado establecido para una tabla.
+- Conjunto de columnas predeterminado de una tabla.
     
-- La columna actual establecido para una tabla, según lo establecido por una llamada al método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+- La columna actual establecida para una tabla, tal como se ha establecido mediante una llamada al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
     
-- La columna completa establecido para una tabla, las columnas que están disponibles, pero no necesariamente parte del conjunto actual.
+- Conjunto de columnas completo de una tabla, columnas disponibles, pero que no necesariamente forma parte del conjunto actual.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si no se establece la marca TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** devuelve una tabla predeterminada o conjunto de columna actual, dependiendo de si la tabla se ha visto afectada por una llamada a **IMAPITable::SetColumns**. **SetColumns** cambia el orden y la selección de columnas en el conjunto de columnas de una tabla. 
+Si no se establece la marca TBL_ALL_COLUMNS, **IMAPITable:: QueryColumns** devuelve el conjunto de columnas predeterminado o actual de una tabla, en función de si la tabla se ha visto afectada por una llamada a **IMAPITable:: SetColumns**. **SetColumns** cambia el orden y la selección de columnas en un conjunto de columnas de una tabla. 
   
-Si se establece la marca TBL_ALL_COLUMNS, **QueryColumns** devuelve todas las columnas que son capaces de actuar en el conjunto de columnas de la tabla. 
+Si establece la marca TBL_ALL_COLUMNS, **QueryColumns** devuelve todas las columnas que pueden estar en el conjunto de columnas de la tabla. 
   
-Libere la memoria para la matriz de etiqueta de propiedad que apunta el parámetro _lpPropTagArray_ mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libere la memoria para la matriz de etiquetas de propiedad señalada por el parámetro _lpPropTagArray_ llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa el método **IMAPITable::QueryColumns** para recuperar la columna actual establecido para una tabla para que el usuario pueda modificarlo.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa el método **IMAPITable:: QueryColumns** para recuperar el conjunto de columnas actual de una tabla para que el usuario pueda editarla.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2d63768e-afdb-4b3f-de49-f9ba69ae5391
 description: Celda de evento que se evalúa cuando cambia el texto o la composición del texto de una forma.
-ms.openlocfilehash: 942ccee4478c87243207d8d65785857758d2a068
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6aa5e14f339d0030d8421eaae62b0e481be91fc7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326680"
 ---
-# <a name="thetext-cell-events-section"></a>Celda TheText (sección Eventos)
+# <a name="thetext-cell-events-section"></a>Celda TheText (Sección de eventos)
 
 Celda de evento que se evalúa cuando cambia el texto o la composición del texto de una forma.
   

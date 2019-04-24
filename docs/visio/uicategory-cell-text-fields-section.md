@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: Determina la categoría de un campo insertado en versiones de Visio anteriores a Visio 2000.
-ms.openlocfilehash: fc060ac1533732749d10e1855dc3841602051520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331202"
 ---
-# <a name="uicategory-cell-text-fields-section"></a>Celda UICategory (sección Campos de texto)
+# <a name="uicategory-cell-text-fields-section"></a>Celda UICategory (Sección de campos de texto)
 
 Determina la categoría de un campo insertado en versiones de Visio anteriores a Visio 2000.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda UICategory por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields.UICat [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields. UICat [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda UICategory por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

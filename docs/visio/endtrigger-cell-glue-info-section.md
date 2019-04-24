@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8dc6515b-66ab-f1ac-18fd-820209f90991
 description: Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el extremo de una forma 1-D para mantener su conexión con otra forma.
-ms.openlocfilehash: 3a2fadd3d00bc23e689bbf22bb3b5db3efcd71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9093cca782d9262b2511198ed73f512a75bb8994
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329067"
 ---
-# <a name="endtrigger-cell-glue-info-section"></a>Celda EndTrigger (sección Información de pegado)
+# <a name="endtrigger-cell-glue-info-section"></a>Celda EndTrigger (Sección de información de pegado)
 
 Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el extremo de una forma 1-D para mantener su conexión con otra forma.
   

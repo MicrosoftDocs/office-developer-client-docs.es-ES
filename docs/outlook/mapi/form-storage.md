@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c98427ab326ada0b717282dc4077d526780aa45c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 793a34b093ba69f73be7e186bec0a769584bbac4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328087"
 ---
 # <a name="form-storage"></a>Almacenamiento de formularios
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Aunque no es necesario conocer todos los detalles de cómo se almacenan físicamente los formularios, es útil comprender algunos de los conceptos principales. Por lo tanto, antes de describir los tres tipos de bibliotecas de formularios compatibles con el Administrador de forma predeterminada, este tema proporciona una visión general de cómo se almacenan los formularios.
+Aunque no es necesario conocer todos los detalles sobre cómo se almacenan físicamente los formularios, es útil comprender algunos de los conceptos principales. Por lo tanto, antes de describir los tres tipos de bibliotecas de formularios compatibles con el administrador de formularios predeterminado, en este tema se proporciona información general sobre cómo se almacenan los formularios.
   
-Las definiciones de formularios pueden almacenarse físicamente dentro de las carpetas en uno o varios almacenes de mensaje MAPI. Cada carpeta MAPI puede considerarse como tener dos áreas para almacenar objetos de mensaje: el elemento estándar y el elemento asociado. El elemento estándar de la carpeta incluye los mensajes y carpetas que manipulan los usuarios.
+Las definiciones de formulario se pueden almacenar físicamente en carpetas en uno o más almacenes de mensajes MAPI. Se puede considerar que cada carpeta MAPI tiene dos áreas para almacenar objetos de mensaje: la parte estándar y la parte asociada. La parte estándar de la carpeta incluye los mensajes y las carpetas que los usuarios manipulan.
   
-El elemento asociado incluye objetos de mensaje oculto que están asociados con la carpeta, incluidas las definiciones de formularios, vistas, plantillas de reglas, plantillas de respuesta y así sucesivamente. En este artículo alternativo se llama en la tabla de contenido asociada a la carpeta y el conjunto de mensajes en la tabla de contenido asociada se conoce como la información asociada a la carpeta. Los mensajes ocultos son una parte integral de la carpeta y se copian junto con el contenido de la carpeta estándar cuando se copia la carpeta. Aunque se almacenan físicamente como mensajes, información de tabla de contenido asociada de una carpeta se comporta más como propiedades de los mensajes visibles, como. Cualquier objeto de carpeta que es compatible con una tabla de contenido asociada es capaz de almacenar formularios personalizados. El método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) puede devolver el contenido estándar o el contenido de la carpeta, según el valor del parámetro del método _ulflags_ asociado. 
+La parte asociada incluye los objetos de mensajes ocultos que están asociados a la carpeta, incluidas las definiciones de formulario, las vistas, las plantillas de regla, las plantillas de respuesta, etc. Este elemento alternativo se denomina tabla de contenido asociado a la carpeta y el conjunto de mensajes de la tabla de contenido asociada se conoce como la información asociada a la carpeta. Los mensajes ocultos son una parte integral de la carpeta y se copian junto con el contenido de la carpeta estándar cuando se copia la carpeta. Aunque se almacenan físicamente como mensajes, la información de la tabla de contenido asociada a una carpeta se comporta más que las propiedades que como los mensajes visibles. Cualquier objeto Folder que admita una tabla de contenido asociada puede almacenar formularios personalizados. El método [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) puede devolver el contenido estándar o el contenido asociado de la carpeta, según el valor del parámetro _ulflags_ del método. 
   
-Una biblioteca de formularios se compone de definiciones de formulario almacenadas en la tabla de contenido asociada de una carpeta. La definición del formulario incluye las propiedades del formulario, las acciones que admite el formulario e incluso el formulario server archivo ejecutable, que se almacena como datos adjuntos de mensajes de uno o más.
+Una biblioteca de formularios consta de definiciones de formulario almacenadas en la tabla de contenido asociada de una carpeta. La definición del formulario incluye las propiedades del formulario, las acciones que admite y, incluso, el archivo ejecutable del servidor de formularios, que se almacena como uno o varios datos adjuntos del mensaje.
   
-Además, los formularios pueden almacenarse en cualquier archivo o ubicación que admite el Administrador de formulario que se usa. El Administrador de formulario predeterminado almacena los servidores de formulario en las carpetas MAPI, pero el Administrador de un formulario personalizado podría implementar su propio almacenamiento de información para servidores de formulario.
+Además, los formularios se pueden almacenar en cualquier archivo o ubicación que el administrador de formularios use admita. El administrador de formularios predeterminado almacena los servidores de formularios en las carpetas MAPI, pero un administrador de formularios personalizado puede implementar su propio almacenamiento para los servidores de formularios.
   
-Un formulario puede tener varias interfaces de usuario que se enlazan a su clase de mensaje. Por ejemplo, un formulario puede tener interfaces de usuario independientes de redacción y lectura. Se llama el formulario se encarga de invocar la interfaz de usuario adecuados para las solicitudes de usuario diferente, dependiendo de cuál de los verbos del formulario. Por ejemplo, si su servidor de formulario tiene Redactar independientes y la lectura de interfaces de usuario, la interfaz de usuario de redacción puede abrirse automáticamente cuando el usuario crea un nuevo mensaje de clase de mensaje del formulario y la interfaz de usuario de lectura se puede abrir automáticamente cuando la usuario abre un mensaje existente de clase de mensaje del formulario.
+Un formulario puede tener varias interfaces de usuario enlazadas a su clase de mensaje. Por ejemplo, un formulario puede tener interfaces de usuario de redacción y lectura separadas. El formulario se encarga de invocar la interfaz de usuario adecuada para diferentes solicitudes de usuario, en función de cuál de los verbos del formulario se llama. Por ejemplo, si el servidor de formularios tiene interfaces de usuario de redacción y lectura separadas, la interfaz de usuario de redacción se puede abrir automáticamente cuando el usuario crea un nuevo mensaje de la clase de mensaje del formulario y la interfaz de usuario de lectura se puede abrir automáticamente cuando el el usuario abre un mensaje existente de la clase de mensaje del formulario.
   
-La mayor parte de la información almacenada dentro de una definición de formulario está disponible al invocar el método [IMAPIFormInfo::IMAPIProp](imapiforminfoimapiprop.md) en un objeto **IMAPIFormInfo** . La interfaz de **IMAPIFormInfo** simplifica el acceso a la información del formulario mediante una llamada a todos los métodos necesarios para recuperar la información del mensaje y carpeta MAPI. Un objeto **IMAPIFormInfo** puede obtenerse llamando al método [IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) . 
+La mayor parte de la información almacenada en una definición de formulario está disponible al invocar el método [IMAPIFormInfo:: IMAPIProp](imapiforminfoimapiprop.md) en un objeto **IMAPIFormInfo** . La interfaz **IMAPIFormInfo** simplifica el acceso a la información de los formularios al llamar a todos los métodos de carpeta y mensajes MAPI necesarios para recuperar la información. Se puede obtener un objeto **IMAPIFormInfo** llamando al método [IMAPIFormContainer:: ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) . 
   
-Los tres tipos de bibliotecas de formularios se describen en los temas de [Las bibliotecas de formularios Local](local-form-libraries.md), [Bibliotecas de formularios de carpeta](folder-form-libraries.md) y [Bibliotecas de formularios personales](personal-form-libraries.md).
+Los tres tipos de bibliotecas de formularios se describen en los temas bibliotecas de formularios [locales](local-form-libraries.md), bibliotecas de [formularios de carpetas](folder-form-libraries.md) y bibliotecas de [formularios personales](personal-form-libraries.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Formularios MAPI](mapi-forms.md)
 

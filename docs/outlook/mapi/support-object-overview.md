@@ -1,5 +1,5 @@
 ---
-title: Información general del objeto de soporte técnico
+title: Información general sobre el objeto support
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,72 +8,72 @@ api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55d8a9c78ae5132eaa8cf0f0aec5b252ef83b926
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327170"
 ---
-# <a name="support-object-overview"></a>Información general del objeto de soporte técnico
+# <a name="support-object-overview"></a>Información general sobre el objeto support
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI proporciona un objeto de soporte técnico, un objeto que implementa el [IMAPISupport: IUnknown](imapisupportiunknown.md) interfaz, para todos los proveedores de servicio durante el inicio de sesión y para todos los servicios de mensaje durante la configuración. 
+MAPI suministra un objeto de soporte, un objeto que implementa la interfaz [IMAPISupport: IUnknown](imapisupportiunknown.md) , para todos los proveedores de servicios durante el inicio de sesión y para todos los servicios de mensajes durante la configuración. 
   
-Compatibilidad con objetos no son accesibles para los clientes; se implementan mediante MAPI y llamados sólo por los proveedores de servicios. La interfaz **IMAPISupport** se especifica en el archivo de encabezado Mapispi.h. Su identificador es IID_IMAPISup y su tipo de puntero es LPMAPISUP. Se exponen propiedades MAPI por compatibilidad con objetos. 
+Los clientes no pueden tener acceso a los objetos de soporte; se implementan mediante MAPI y solo los proveedores de servicios los llaman. La interfaz **IMAPISupport** se especifica en el archivo de encabezado Mapispi. h. Su identificador es IID_IMAPISup y su tipo de puntero es LPMAPISUP. Los objetos de compatibilidad no exponen ninguna propiedad MAPI. 
   
-Un proveedor puede tener uno o más objetos de soporte técnico, según el número de veces que el proveedor de los registros de MAPI en o el número de veces que se denomina función de entrada de servicio de mensajes del proveedor. Normalmente, un proveedor se registrarán al menos una vez por sesión. Los proveedores de transporte y de la libreta de direcciones se registran cada vez que un cliente inicia una sesión con una entrada de perfil que solicita de ellos. Los proveedores de almacén de mensajes se registran cada vez que un cliente llama al método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . 
+Un proveedor puede tener uno o varios objetos de soporte, en función del número de veces que MAPI registra el proveedor o el número de veces que se llama a la función de entrada del servicio de mensajes del proveedor. Normalmente, un proveedor iniciará sesión al menos una vez por sesión. La libreta de direcciones y los proveedores de transporte se registran cada vez que un cliente inicia una sesión con una entrada de perfil que las solicita. Los proveedores de almacenamiento de mensajes se registran cada vez que un cliente llama al método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . 
   
-En el caso de múltiples inicios de sesión en una sesión, puede elegir a conservar y utilizar cada objeto de soporte técnico por separado o a conservar y utilizar sólo la primera, descartar cada objeto de soporte técnico posteriores. Para conservar un objeto de soporte técnico, llame al método **IUnknown:: AddRef** . Una llamada a **AddRef** en un objeto de soporte técnico que desea conservar a lo largo de una sesión es extremadamente importante; Si no se realiza la llamada, MAPI libera el objeto de soporte técnico y libera su memoria. 
+En el caso de varios inicios de sesión en una sesión, puede elegir entre retener y usar cada objeto de compatibilidad por separado, o conservar y usar solamente el primero, descartando cada objeto de soporte posterior. Para conservar un objeto de soporte, llame a su método **IUnknown:: AddRef** . Llamar a **AddRef** en un objeto de soporte que desea conservar durante una sesión es sumamente importante; Si no se realiza la llamada, MAPI libera el objeto de soporte y libera su memoria. 
   
-El propósito del objeto de soporte consiste en proporcionar implementaciones para un número bastante grande de métodos utilizadas frecuentemente por los proveedores. Cada objeto de soporte técnico también contiene datos contextuales específicos de su propia instancia, como la sesión que se está ejecutando el proveedor en la sección de perfil que se está usando el proveedor y la información de error de la sesión. 
+El objetivo del objeto de soporte es proporcionar implementaciones para un número relativamente grande de métodos usados normalmente por los proveedores. Cada objeto support también contiene datos contextuales específicos de su propia instancia, como la sesión en la que se está ejecutando el proveedor, la sección Profile que usa el proveedor y la información de error de la sesión. 
   
-Hay cuatro tipos diferentes de objetos de soporte técnico: uno para cada tipo de proveedor principales (la libreta de direcciones, almacén de mensajes y transporte) y otro para la compatibilidad con la configuración. 
+Hay cuatro tipos diferentes de objetos de soporte: uno para cada tipo de proveedor principal (libreta de direcciones, almacén de mensajes y transporte) y otro para la configuración compatible. 
   
-MAPI personaliza cada objeto de soporte técnico mediante la inclusión de las implementaciones de métodos que son relevantes para su uso. Las implementaciones de algunos métodos, como [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md), se incluyen en todos los objetos de soporte técnico. Las implementaciones de otros métodos, como [SpoolerNotify](imapisupport-spoolernotify.md), se aplican únicamente a objetos de asistencia determinado. Almacén de mensajes sólo y los proveedores de transporte pueden usar este método; Cuando un proveedor de la libreta de direcciones o un servicio de mensajes intenta llamar a él, MAPI devuelve MAPI_E_NO_SUPPORT.
+MAPI Personaliza cada objeto de soporte mediante la inclusión de implementaciones de métodos relevantes para su uso. Las implementaciones de algunos métodos, como [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md), se incluyen en todos los objetos de compatibilidad. Las implementaciones de otros métodos, como [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md), solo se aplican a objetos de compatibilidad determinados. Solo los proveedores de almacenamiento y transporte de mensajes pueden usar este método; Cuando un proveedor de libretas de direcciones o un servicio de mensajes intentan llamarlo, MAPI devuelve MAPI_E_NO_SUPPORT.
   
-Compatibilidad con objetos se pueden usar para realizar muchas tareas, como las siguientes:
+Los objetos de soporte pueden usarse para realizar muchas tareas, como las siguientes:
   
-- Obtener acceso a una sección de perfil.
+- Acceso a una sección de perfil.
     
-- Copiar carpetas o mensajes. Para obtener más información, vea [Copiar o mover un mensaje o una carpeta](copying-or-moving-a-message-or-a-folder.md).
+- Copiar carpetas o mensajes. Para obtener más información, vea [copiar o mover un mensaje o una carpeta](copying-or-moving-a-message-or-a-folder.md).
     
-- Obtener acceso a los objetos que pertenecen a otros proveedores. Para obtener más información, vea [compatibilidad con el acceso a objetos y comparación](supporting-object-access-and-comparison.md). 
+- Obtener acceso a objetos que pertenecen a otros proveedores. Para obtener más información, consulte compatibilidad con el [acceso a objetos y la comparación](supporting-object-access-and-comparison.md). 
     
-- Controlar la notificación de evento. Para obtener más información, vea [Compatibilidad con notificación de evento](supporting-event-notification.md).
+- Controlar la notificación de eventos. Para obtener más información, consulte [admitir la notificación de eventos](supporting-event-notification.md).
     
 - Asignar y liberar memoria.
     
-- Obtención de un identificador único.
+- Obtener un identificador único.
     
-- La invalidación de objetos.
+- Invalidando objetos.
     
-- Tratamiento de errores.
+- Control de errores.
     
-- Registrar preprocessors de mensaje. 
+- Registro de preprocesadores de mensajes. 
     
-- Preparación de los informes de entrega de mensajes. 
+- Preparar los informes de entrega de mensajes. 
     
-En tiempo de inicio de sesión, MAPI llama al método de inicio de sesión del objeto de proveedor de cada proveedor de servicios. Para los proveedores de la libreta de direcciones, MAPI llama a [IABProvider::Logon](iabprovider-logon.md). Para los proveedores de almacén de mensajes, MAPI llama a [IMSProvider::Logon](imsprovider-logon.md). Para los proveedores de transporte, MAPI llama a [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). MAPI pasa un puntero al objeto de soporte adecuado en uno de los parámetros a este método. El método de inicio de sesión a su vez crea una instancia de un objeto de inicio de sesión, pasando el puntero del objeto de soporte técnico. El objeto de inicio de sesión llama al método **IUnknown:: AddRef** del objeto de soporte técnico para conservar, si es necesario. Para obtener más información acerca del proceso de inicio de sesión para proveedores de servicios, vea [iniciar un proveedor de servicios](starting-a-service-provider.md).
+Durante el inicio de sesión, MAPI llama al método Logon del objeto de proveedor de cada proveedor de servicios. Para los proveedores de la libreta de direcciones, las llamadas MAPI [IABProvider:: Logon](iabprovider-logon.md). Para los proveedores de almacenamiento de mensajes, las llamadas MAPI [IMSProvider:: Logon](imsprovider-logon.md). Para los proveedores de transporte, las llamadas MAPI [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md). MAPI pasa un puntero al objeto de soporte adecuado en uno de los parámetros de este método. A su vez, el método Logon crea una instancia de un objeto de inicio de sesión, pasándole el puntero de objeto de compatibilidad. El objeto de inicio de sesión llama al método **IUnknown:: AddRef** del objeto support para mantenerlo, si es necesario. Para obtener más información acerca del proceso de inicio de sesión para los proveedores de servicios, consulte [iniciar un proveedor de servicios](starting-a-service-provider.md).
   
-Cuando un cliente cierra la sesión, llamadas a método de cierre de sesión del objeto de inicio de sesión MAPI. El método de cierre de sesión llama a **IUnknown:: Release** (método) del objeto de soporte técnico para indicar que el proveedor ya no tiene intención de llamar a cualquiera de los métodos de soporte técnico. Al igual que con inicio de sesión, los métodos de cierre de sesión tienen nombres ligeramente diferentes. Las interfaces [IABLogon](iablogoniunknown.md) y [IMSLogon](imslogoniunknown.md) tienen métodos de **cierre de sesión** ; la interfaz [IXPLogon](ixplogoniunknown.md) tiene un método [TransportLogoff](ixplogon-transportlogoff.md) . 
+Cuando un cliente cierra la sesión, MAPI llama al método Logoff del objeto de inicio de sesión. El método Logoff llama al método **IUnknown:: Release** del objeto support para indicar que el proveedor ya no va a llamar a ninguno de los métodos de soporte técnico. Al igual que con el inicio de sesión, los métodos de cierre de sesión tienen nombres ligeramente diferentes. Las interfaces [IABLogon](iablogoniunknown.md) y [IMSLogon](imslogoniunknown.md) tienen métodos de **cierre de sesión** ; la interfaz [IXPLogon](ixplogoniunknown.md) tiene un método [TransportLogoff](ixplogon-transportlogoff.md) . 
   
-Funciones de punto de entrada de servicio de mensajes se llama cuando se produce un error en un intento de inicio de sesión con el error MAPI_E_UNCONFIGURED o cuando un cliente inicia una solicitud de configuración. MAPI crea una instancia de un objeto de configuración de soporte técnico y llama a la función de punto de entrada de servicio de mensaje para el proveedor no configurado o el proveedor de cuya configuración va a cambiar. A diferencia de los objetos de soporte técnico, objetos de configuración de soporte técnico son válidos sólo hasta que el punto de entrada función devuelve; Servicios de mensajes no llamar a métodos de estos objetos **AddRef** para mantenerlas. 
+Se llama a las funciones de punto de entrada del servicio de mensajes cuando se produce un error de intento de inicio de sesión con el error MAPI_E_UNCONFIGURED o cuando un cliente inicia una solicitud de configuración. MAPI crea una instancia de un objeto de soporte de configuración y llama a la función de punto de entrada del servicio de mensaje para el proveedor no configurado o el proveedor cuya configuración va a cambiar. A diferencia de los otros objetos de compatibilidad, los objetos de compatibilidad de configuración son válidos hasta que se devuelve la función de punto de entrada; los servicios de mensajes no llaman a estos objetos a los métodos **AddRef** para conservarlos. 
   
-Normalmente, MAPI realiza llamadas a la función de punto de entrada de servicio de un proveedor mensaje, pero a veces se solicita un proveedor para realizar la llamada. Esto puede ocurrir cuando un cliente llama el método [SettingsDialog](imapistatus-settingsdialog.md) de un proveedor para solicitar el proveedor para mostrar su hoja de propiedades de configuración. **Diálogo Configuración** debe llamar a [IMAPISupport::GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) para obtener un objeto de soporte técnico de configuración que pueden pasar a la función de punto de entrada de servicio de mensaje. 
+Normalmente, MAPI realiza llamadas a la función de punto de entrada del servicio de mensajes de un proveedor, pero a veces se pide a un proveedor que realice la llamada. Esto puede ocurrir cuando un cliente llama al método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) de un proveedor para solicitar al proveedor que muestre su hoja de propiedades de configuración. **SettingsDialog** debe llamar a [IMAPISupport:: GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) para obtener un objeto de compatibilidad de configuración que pueda pasar a la función de punto de entrada del servicio de mensajes. 
   
-El método [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) está disponible para determinar las direcciones de las funciones de asignación y cancelación de asignación de memoria sin tener que volver a vincular con MAPI. Uso **GetMemAllocRoutines** también hace que sea más fácil para el seguimiento de pérdidas de memoria rodeando las llamadas de función de asignación con código de depuración. Si se llama **GetMemAllocRoutines**, tal y como se recomienda, debe hacerlo antes de llamar a la función [CreateIProp](createiprop.md) , que requiere que las direcciones de la función de asignación como parámetros. 
+El método [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) está disponible para determinar las direcciones de las funciones de asignación de memoria y desasignación sin tener que vincular con MAPI. El uso de **GetMemAllocRoutines** también hace que sea más fácil realizar el seguimiento de pérdidas de memoria al rodear las llamadas de función de asignación con código de depuración. Si llama a **GetMemAllocRoutines**, tal y como se recomienda, hágalo antes de llamar a la función [CreateIProp](createiprop.md) , que requiere que la función de asignación se redirige como parámetros. 
   
-Cuando se necesita para crear una nueva libreta de direcciones o un mensaje almacena el objeto, crear y establecer una clave de búsqueda para el objeto en su propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). Llame a [IMAPISupport::NewUID](imapisupport-newuid.md) para obtener un identificador único para usar en la creación de una clave de búsqueda. No use su propio codificado de forma rígida [MAPIUID](mapiuid.md). Un proveedor **MAPIUID** se debe usar solo para los identificadores de entrada. Para obtener más información acerca de la creación de las claves de búsqueda, vea el [registro de MAPI y las claves de búsqueda](mapi-record-and-search-keys.md).
+Cuando necesite crear una nueva libreta de direcciones o un objeto de almacén de mensajes, cree y establezca una clave de búsqueda para el objeto en su propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). Llamar a [IMAPISupport:: NewUID](imapisupport-newuid.md) para obtener un identificador único para usarlo en la creación de una clave de búsqueda. No use sus propios [MAPIUID](mapiuid.md)codificados de forma rígida. El **MAPIUID** de un proveedor debe usarse solo para los identificadores de entrada. Para obtener más información acerca de la creación de claves de búsqueda, consulte [MAPI record and search Keys](mapi-record-and-search-keys.md).
   
-A veces, una aplicación cliente puede liberar un objeto sin liberar uno o varios de sus objetos afiliados. En tal caso, un proveedor puede requerir representar un objeto no publicado no se puede utilizar. Para ello, el proveedor libera todos los recursos relacionados con el objeto y, a continuación, llama a [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) para invalidar vtable del objeto. **MakeInvalid** reemplaza los métodos de **IUnknown** del vtable (**QueryInterface**, **AddRef**y **Release**) con implementaciones estándar de MAPI y hace que todos los otros métodos devolver MAPI_E_INVALID_OBJECT. **MakeInvalid** también libera memoria de todos los objetos que no sea la tabla vtable. 
+Una aplicación cliente puede, a veces, liberar un objeto sin liberar uno o más de sus objetos asociados. En este caso, es posible que un proveedor necesite representarlo a un objeto que no está en versión inutilizable. Para ello, el proveedor libera todos los recursos conectados con el objeto y, a continuación, llama a [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) para invalidar la vtable del objeto. **MakeInvalid** reemplaza los métodos **IUnknown** de vtable (**QueryInterface**, **ADDREF**y **Release**) con implementaciones MAPI estándar y, de este modo, todos los demás métodos devuelven MAPI_E_INVALID_OBJECT. **MakeInvalid** también libera toda la memoria del objeto que no sea vtable. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Proveedores de servicios de MAPI](mapi-service-providers.md)
+[Proveedores de servicios MAPI](mapi-service-providers.md)
 

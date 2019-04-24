@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: Determina si el texto tiene una línea encima.
-ms.openlocfilehash: 3ceb0f5bcb6f66098938e49ea5f176921d0c9808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327051"
 ---
-# <a name="overline-cell-character-section"></a>Celda Overline (sección Caracteres)
+# <a name="overline-cell-character-section"></a>Celda Overline (Sección de caracteres)
 
 Determina si el texto tiene una línea encima.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto tiene una línea encima.  <br/> |
 |FALSE  <br/> |El texto no tiene una línea encima.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
@@ -33,7 +33,7 @@ Para obtener una referencia a la celda Overline por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.Overline [ *i* ] donde *i* = < 1 >, 2. 3 …  <br/> |
+|Nombre de celda:  <br/> |Char. Overline [ *i* ] donde *i* = <1>, 2. 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Overline por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

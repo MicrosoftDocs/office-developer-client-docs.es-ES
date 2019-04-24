@@ -8,44 +8,44 @@ api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: da49b4d8251f6b0b69d2ffbf80194943215675e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 82be33090a63f24c430007d9759045c365961f5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327800"
 ---
 # <a name="tips-for-better-table-performance"></a>Sugerencias para mejorar el rendimiento de tabla
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Debido a que muchas de las operaciones de tabla pueden llevar mucho tiempo y no hay ninguna manera de indicar el progreso, es útil usar las siguientes técnicas para mejorar el rendimiento:
+Debido a que muchas de las operaciones de tabla pueden llevar mucho tiempo y no hay forma de indicar el progreso, es útil usar las siguientes técnicas para mejorar el rendimiento:
   
-- **Realizar [IMAPITable: IUnknown](imapitableiunknown.md) llama en el orden correcto**
+- **Realizar el método [IMAPITable:](imapitableiunknown.md) las llamadas a IUnknown en el orden correcto**
     
-   Los clientes y proveedores de servicios pueden trabajar con tablas en una variedad de formas. Puede abrir la tabla y recuperar los datos para todas las filas con el conjunto de columnas predeterminado y criterio de ordenación. Como alternativa, se puede modificar esta vista predeterminada de la tabla para cambiar el conjunto de columnas, cambiar el criterio de ordenación o establecer una restricción para limitar el ámbito de la tabla. Los usuarios de la tabla que se van a realizar una o varias de estas operaciones antes de recuperar los datos deben realizarlas en el orden siguiente:
+   Los clientes y los proveedores de servicios pueden trabajar con tablas de varias formas. Pueden abrir la tabla y recuperar los datos de todas las filas con el conjunto de columnas y el criterio de ordenación predeterminados. Como alternativa, pueden modificar esta vista predeterminada de la tabla cambiando el conjunto de columnas, cambiando el criterio de ordenación o estableciendo una restricción para restringir el ámbito de la tabla. Las tablas que los usuarios intentan realizar una o varias de estas operaciones antes de recuperar los datos deben realizarse en el orden siguiente:
     
-    1. Definir una columna establecida con [IMAPITable::SetColumns](imapitable-setcolumns.md).
+    1. Defina un conjunto de columnas con [IMAPITable:: SetColumns](imapitable-setcolumns.md).
         
-    2. Establecer una restricción con [IMAPITable:: Restrict](imapitable-restrict.md).
+    2. Establezca una restricción con el [IMAPITable:: Restrict](imapitable-restrict.md).
         
-    3. Definir un criterio de ordenación con [SortTable](imapitable-sorttable.md).
+    3. Definir un criterio de ordenación con [IMAPITable:: SortTable](imapitable-sorttable.md).
     
-    Llevar a cabo estas tareas en este orden, limita el número de filas y columnas que se va a ordenar, lo que mejora el rendimiento.
+    La realización de estas tareas en este orden limita el número de filas y columnas que se van a ordenar, lo que mejora el rendimiento.
     
-- **Retraso de una operación utilizando la marca TBL_BATCH si es posible**
+- **ReTrasar una operación mediante la marca TBL_BATCH, si es posible**
     
-    Establecer el TBL\_indicador de lote en un método permite al implementador tabla recopilar varias llamadas antes de actuar en uno de ellos. En lugar de realizar potencialmente muchas llamadas a un servidor remoto; un implementador de la tabla uno, puede hacer que realizan todas las operaciones a la vez. Los resultados de las operaciones no se evalúan hasta que sean necesarios. 
+    Si se establece\_la marca de lote de tbl en un método, el implementador de tablas puede recopilar varias llamadas antes de actuar en una de ellas. En lugar de realizar potencialmente muchas llamadas a un servidor remoto; un implementador de tablas puede realizar uno, realizando todas las operaciones al mismo tiempo. Los resultados de las operaciones no se evalúan hasta que se necesitan. 
     
-    Por ejemplo, cuando un cliente llama a [IMAPITable:: Restrict](imapitable-restrict.md) para especificar una restricción con el TBL\_por lotes indicador establecido, la restricción no es necesario que entran en efecto hasta que el cliente llama [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar los datos. Esto permite que el implementador de tabla combinar el trabajo de dos llamadas en uno. La tabla de usuarios que permite aprovechar el TBL\_marca por lotes debe tener en cuenta que los errores en las siguientes condiciones pueden ser más complejo. 
+    Por ejemplo, cuando un cliente llama a [IMAPITable:: Restrict](imapitable-restrict.md) para especificar una restricción con el\_indicador de lote de tbl, la restricción no tiene que entrar en vigor hasta que el cliente llame a [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar los datos. Esto permite que el implementador de tablas Combine el trabajo de dos llamadas en una. Los usuarios de la tabla que se beneficien de la marca de lote de TBL\_deben tener en cuenta que el control de errores en estas condiciones puede ser más complejo. 
     
-    Debido a que controla los errores de una operación retrasada es similar a la gestión de los errores cuando el MAPI\_se establece la marca DEFERRED_ERRORS, consulte [Aplazamiento de errores de MAPI](deferring-mapi-errors.md) para obtener más información. 
+    Como controlar los errores de una operación retrasada es similar a controlar los errores cuando se\_establece la marca MAPI DEFERRED_ERRORS, vea difiriendo [MAPI Errors](deferring-mapi-errors.md) para obtener más información. 
     
-- **Mantener una memoria caché de propiedades usadas con más frecuencia**
+- **Mantener una caché de las propiedades más usadas**
     
-    Proveedores de servicios de implementación de las tablas pueden reducir el tiempo necesario para crear una vista mediante el almacenamiento en memoria caché copias de las propiedades del objeto usados con más frecuencia. Es necesario recompilar conservar una copia de estas propiedades en ahorra memoria tener que recuperar desde el objeto cada vez que la vista.
+    Los proveedores de servicios que implementan tablas pueden reducir el tiempo que se tarda en crear una vista mediante el almacenamiento en caché de las propiedades de objeto usadas con más frecuencia. Al mantener una copia de estas propiedades en la memoria, se evita tener que recuperarlas del objeto cada vez que se debe volver a crear la vista.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

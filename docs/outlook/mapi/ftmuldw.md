@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c823a4e3d08d9082a3b5ac5c4bd8169612caa16e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 27ec919d720e1089d6e102f20485d936c9dc9808
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328003"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583998"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Multiplica a un entero de 64 bits sin signo por un entero sin signo de 32 bits.
+Multiplica un entero de 64 bits sin signo por un entero de 32 bits sin signo.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 FILETIME FtMulDw(
@@ -40,18 +40,18 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _Multiplicador_
   
-> [entrada] Una palabra doble que contiene el multiplicador de entero sin signo de 32 bits. 
+> a Una palabra doble que contiene el multiplicador de enteros de 32 bits sin signo. 
     
- _Multiplicando_
+ _Multiplicand_
   
-> [entrada] Una estructura [FILETIME](filetime.md) que contiene el entero sin signo de 64 bits a ser multiplicado por el valor en el parámetro _multiplicador_ . 
+> a Una estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo que se va a multiplicar por el valor en el parámetro _multiplicador_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtMulDw** devuelve una estructura **FILETIME** que contiene el producto de los dos enteros. No se modifican los dos parámetros de entrada. 
+La función **FtMulDw** devuelve una estructura **FILETIME** que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

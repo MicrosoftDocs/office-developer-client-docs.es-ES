@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 738eb346ec5388cbd94b32598236ef2ca05740f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326323"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595065"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Prepara un mensaje para el envío a la cola de MAPI.
+Prepara un mensaje para enviarlo a la cola MAPI.
   
 ```cpp
 HRESULT PrepareSubmit(
@@ -34,15 +34,15 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Un puntero al mensaje para preparar.
+> a Un puntero al mensaje que se va a preparar.
     
  _lpulFlags_
   
-> [entrada, salida] En la entrada, el parámetro _lpulFlags_ está reservado y debe ser cero. En la salida, _lpulFlags_ debe ser NULL. 
+> [in, out] En la entrada, el parámetro _lpulFlags_ está reservado y debe ser cero. En la salida, _lpulFlags_ debe ser null. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,21 +52,21 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::PrepareSubmit** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes llamada **PrepareSubmit** en su implementación del método [IMessage::SubmitMessage](imessage-submitmessage.md) para preparar un mensaje para el envío a la cola de MAPI. 
+El método **IMAPISupport::P reparesubmit** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **PrepareSubmit** en su implementación del método [IMessage:: SubmitMessage](imessage-submitmessage.md) para preparar un mensaje para su envío a la cola MAPI. 
   
- **PrepareSubmit** se usa para administrar los mensajes que tienen la marca MSGFLAG_RESEND establecida en su propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND se establece para los mensajes que incluyen una solicitud para ser reenviados cuando se produce un error en una transmisión inicial. **PrepareSubmit** determina cuál de los destinatarios en la lista de destinatarios recibió correctamente el mensaje y que no lo ha hecho. 
+ **PrepareSubmit** se usa para controlar los mensajes que tienen la marca MSGFLAG_RESEND establecida en su propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND se establece para los mensajes que incluyen una solicitud que se va a reenviar cuando se produce un error en la transmisión inicial. **PrepareSubmit** determina cuáles de los destinatarios de la lista de destinatarios recibieron correctamente el mensaje y cuáles no. 
   
-Para obtener acceso a la lista de destinatarios, **PrepareSubmit** llama (método [IMessage::GetRecipientTable](imessage-getrecipienttable.md) ) del mensaje. Para recuperar los datos de destinatario, **PrepareSubmit** llama a método [IMAPITable:: QueryRows](imapitable-queryrows.md) de destinatario de la tabla. Para cada fila de la tabla, **PrepareSubmit** comprueba la propiedad **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) y toma una de las siguientes acciones:
+Para obtener acceso a la lista de destinatarios, **PrepareSubmit** llama al método [IMessage:: GetRecipientTable](imessage-getrecipienttable.md) del mensaje. Para recuperar los datos del destinatario, **PrepareSubmit** llama al método [IMAPITable:: QueryRows](imapitable-queryrows.md) de la tabla del destinatario. Para cada fila de la tabla, **PrepareSubmit** comprueba la propiedad **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) y realiza una de las siguientes acciones:
   
-- Si se establece la marca MAPI_SUBMITTED, **PrepareSubmit** borra la marca y la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) se establece en FALSE.
+- Si se establece la marca MAPI_SUBMITTED, **PrepareSubmit** borra la marca y establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) en false.
     
-- Si no está establecido el indicador MAPI_SUBMITTED, **PrepareSubmit** cambia de **PR_RECIPIENT_TYPE** a MAPI_P1 y establece **PR_RESPONSIBILITY** en TRUE. 
+- Si no se establece la marca MAPI_SUBMITTED, **PrepareSubmit** cambia **PR_RECIPIENT_TYPE** a MAPI_P1 y establece **PR_RESPONSIBILITY** en true. 
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Antes de llamar a **PrepareSubmit**, asegúrese de que se ha llamado al método [SpoolerNotify](imapisupport-spoolernotify.md) y establece el indicador NOTIFY_READYTOSEND en el parámetro _ulFlags indicado_ . La llamada **SpoolerNotify** debe realizarse una vez por sesión antes de la llamada a **PrepareSubmit**. **SpoolerNotify** sincroniza a la cola MAPI y se asegura de que todos los proveedores de transporte necesarios se registran y sus tipos de dirección se registran. 
+Antes de llamar a **PrepareSubmit**, asegúrese de que ha llamado al método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) y establezca la marca NOTIFY_READYTOSEND en el parámetro _ulFlags_ . La llamada a **SpoolerNotify** debe realizarse una vez por sesión antes de la llamada a **PrepareSubmit**. **SpoolerNotify** sincroniza la cola MAPI y garantiza que todos los proveedores de transporte necesarios inicien sesión y que se registren sus tipos de direcciones. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

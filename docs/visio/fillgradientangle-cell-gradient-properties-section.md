@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cf9af5a5-e042-4d56-a29f-341d97cdb97b
-description: Determina el ángulo del relleno degradado para degradados con una dirección lineal, en grados.
-ms.openlocfilehash: 5e819524e993ecb4c7ed35ad56ae9d1e1b35f345
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el ángulo del degradado de relleno de los degradados con una dirección lineal, en grados.
+ms.openlocfilehash: 16277d76b3bc61be335e010c07b2eb4a43973b4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322445"
 ---
 # <a name="fillgradientangle-cell-gradient-properties-section"></a>Celda FillGradientAngle (sección Propiedades de degradado)
 
-Determina el ángulo del relleno degradado para degradados con una dirección lineal, en grados. 
+Determina el ángulo del degradado de relleno de los degradados con una dirección lineal, en grados. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **FillGradientAngle** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **FillGradientAngle** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FillGradientAngle  <br/> |
    
-Para obtener una referencia a la celda **FillGradientAngle** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **FillGradientAngle** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

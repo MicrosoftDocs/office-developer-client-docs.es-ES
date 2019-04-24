@@ -1,5 +1,5 @@
 ---
-title: Esquema XML de proveedor de Outlook Social Connector
+title: Esquema XML del proveedor de Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: Todo el código XML que es devuelto por proveedores de OSC en métodos de extensibilidad de proveedor OSC debe cumplir con el siguiente esquema XML de OSC proveedor. El esquema OSC se reproduce aquí en su totalidad.
+description: Todos los XML devueltos por los proveedores de OSC en los métodos de extensibilidad del proveedor OSC deben cumplir con el siguiente esquema XML del proveedor OSC. El esquema OSC se reproduce aquí en su totalidad.
 ms.openlocfilehash: 578f0ea0c8df4f81c51ce71b50aa2768fe930d5c
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329197"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML de proveedor de Outlook Social Connector
+# <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML del proveedor de Outlook Social Connector
 
-Todo el código XML que es devuelto por proveedores de OSC en métodos de extensibilidad de proveedor OSC debe cumplir con el siguiente esquema XML de OSC proveedor. El esquema OSC se reproduce aquí en su totalidad. El archivo de definición de esquema actual, OutlookSocialProvider1_1.xsd, también se proporciona en la descarga de las plantillas de proveedor que acompañan a este artículo. Para obtener más información, vea [Outlook Social Connector 2013: plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+Todos los XML devueltos por los proveedores de OSC en los métodos de extensibilidad del proveedor OSC deben cumplir con el siguiente esquema XML del proveedor OSC. El esquema OSC se reproduce aquí en su totalidad. El archivo de definición de esquema actual, OutlookSocialProvider1_1. xsd, también se proporciona en la descarga de las plantillas de proveedor que acompañan a este artículo. Para obtener más información, vea [Outlook Social Connector 2013: plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -462,9 +462,9 @@ Todo el código XML que es devuelto por proveedores de OSC en métodos de extens
 
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md)  
 - [Ejemplo de XML de amigos](friends-xml-example.md) 
-- [Ejemplo de XML de fuentes de actividades](activity-feed-xml-example.md)  
-- [XML de capacidades](xml-for-capabilities.md)  
-- [XML de amigos](xml-for-friends.md)  
-- [XML de actividades](xml-for-activities.md)  
-- [Interfaces del proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Ejemplo de XML de fuente de actividades](activity-feed-xml-example.md)  
+- [XML para funcionalidades](xml-for-capabilities.md)  
+- [XML para amigos](xml-for-friends.md)  
+- [XML para actividades](xml-for-activities.md)  
+- [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

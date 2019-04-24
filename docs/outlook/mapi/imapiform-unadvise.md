@@ -13,19 +13,19 @@ api_type:
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 770ceb7af98f5271baad65043e013feb353d231a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329473"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela un registro para las notificaciones con un visor de formulario que se ha establecido previamente mediante una llamada a [IMAPIForm::Advise](imapiform-advise.md).
+Cancela un registro de notificaciones con un visor de formularios establecido previamente mediante una llamada a [IMAPIForm:: Advise](imapiform-advise.md).
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] Un número de conexión que identifica el registro de notificación que se cancelen.
+> a Un número de conexión que identifica el registro de notificaciones que se va a cancelar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,15 +47,15 @@ S_OK
     
 E_INVALIDARG 
   
-> El número de conexión que se pasa en el parámetro _ulConnection_ no representan un registro válido. 
+> El número de conexión pasado en el parámetro _ulConnection_ no representa un registro válido. 
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIForm::Unadvise** para cancelar un registro de notificación que estableció por primera vez llamando al método **IMAPIForm::Advise** . 
+Los visores de formularios llaman al método **IMAPIForm:: Unadvise** para cancelar un registro para la notificación que se estableció por primera vez mediante una llamada al método **IMAPIForm:: Advise** . 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Descartar el puntero que se mantiene a la vista del Visor de formulario de aviso receptor llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Por lo general, se llama a **versión** durante la llamada **Unadvise** . Sin embargo, si otro subproceso está en el proceso de una llamada a uno de los métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para la vista de aviso receptor, retrasar la llamada **versión** hasta que el método **IMAPIViewAdviseSink** devuelve. 
+DesCartar el puntero que está reteniendo al receptor de la vista de notificar del formulario del visor llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Por lo general, se llama a **Release** durante la llamada a **Unadvise** . Sin embargo, si hay otro subproceso que llama a uno de los métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para el receptor View Advise, retrase la llamada a **Release** hasta que se devuelva el método **IMAPIViewAdviseSink** . 
   
 ## <a name="see-also"></a>Vea también
 

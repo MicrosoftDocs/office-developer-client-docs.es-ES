@@ -1,5 +1,5 @@
 ---
-title: Prepararse liberar un proveedor de OSC
+title: Preparación para la publicación de un proveedor OSC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,31 +7,31 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
-description: En esta sección se sugiere las pruebas que se puede hacer antes de liberar su proveedor de Outlook Social Connector (OSC).
-ms.openlocfilehash: 5caf4144a8daed31d30c9ecbcf9cf21c2300ed8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: En esta sección se sugieren las pruebas que puede realizar antes de liberar su proveedor de Outlook Social Connector (OSC).
+ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327156"
 ---
-# <a name="getting-ready-to-release-an-osc-provider"></a>Prepararse liberar un proveedor de OSC
+# <a name="getting-ready-to-release-an-osc-provider"></a>Preparación para la publicación de un proveedor OSC
 
-En esta sección se sugiere las pruebas que se puede hacer antes de liberar su proveedor de Outlook Social Connector (OSC). Puede iniciar con respecto a los temas de esta sección y realizar algunas de estas pruebas durante el desarrollo y las fases de pruebas, pero debe haber completado estas pruebas en el momento en que se suelte. 
+En esta sección se sugieren las pruebas que puede realizar antes de liberar su proveedor de Outlook Social Connector (OSC). Puede empezar a hacer referencia a los temas de esta sección y realizar algunas de estas pruebas durante las fases de desarrollo y pruebas, pero debe haber completado estas pruebas en el momento de la publicación. 
 
-Estas pruebas comprueban la funcionalidad básica de la implementación de las interfaces de proveedor OSC con respecto a las capacidades que especifique para el proveedor de OSC. Además, aunque el OSC es una característica compartida por varias aplicaciones de cliente de Office, estas pruebas utilizan Outlook como el cliente para probar la funcionalidad fundamental. Debe determinar si otras pruebas son necesarias para características específicas a su proveedor.
+Estas pruebas comprueban la funcionalidad básica de la implementación de las interfaces del proveedor de OSC con respecto a las capacidades especificadas para el proveedor de OSC. Además, aunque OSC es una característica compartida por varias aplicaciones cliente de Office, estas pruebas usan Outlook como cliente para probar la funcionalidad fundamental. Debe determinar si hay otras pruebas necesarias para las características específicas de su proveedor.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Pruebas de implementación](testing-deployment.md): describe escenarios en los que se debe probar a la instalación y desinstalación de un proveedor de OSC.
+- [Prueba](testing-deployment.md)de la implementación: describe los escenarios que se deben probar en la instalación y desinstalación de un proveedor OSC.
     
-- [Capacidades de las pruebas, la autenticación y la configuración](testing-capabilities-authentication-and-configuration.md): describe las pruebas de introducción, características y escenarios de configuración de una cuenta y la autenticación de un usuario para una red social.
+- [Capacidades de prueba, autenticación y configuración](testing-capabilities-authentication-and-configuration.md): describe las pruebas para obtener capacidades y los escenarios en los que se configura una cuenta y se autentica a un usuario para una red social.
     
-- [Las pruebas siguientes y las personas o deje de seguir](testing-following-and-stop-following-persons.md): se describen escenarios para comprobar la capacidad de un proveedor OSC para agregar una persona como un amigo, o para quitar un amigo desde la red social. 
+- [Pruebas de seguimiento y detención de las siguientes personas](testing-following-and-stop-following-persons.md): describe los escenarios para probar la capacidad del proveedor de OSC para agregar a una persona como amigo o para quitar un amigo de la red social. 
     
-- [Prueba de amigos](testing-friends.md): describe las pruebas y escenarios para comprobar que el proveedor de OSC adecuadamente devuelve datos de amigos y que no sean-amigos, en su caso, según el modo de sincronización que admite el proveedor.
+- [Probando amigos](testing-friends.md): describe las pruebas y los escenarios para comprobar que el proveedor de OSC devuelve correctamente datos de amigos y no amigos, cuando proceda, según el modo de sincronización que admita el proveedor.
     
-- [Las actividades de pruebas](testing-activities.md): describe las pruebas y escenarios para comprobar que el proveedor de OSC devuelve correctamente las actividades de amigos y que no sean-amigos, en su caso, según el modo de sincronización que admite el proveedor.
+- [Actividades de prueba](testing-activities.md): describe las pruebas y los escenarios para comprobar que el proveedor de OSC devuelve correctamente actividades de amigos y no amigos, cuando proceda, según el modo de sincronización que admita el proveedor.
     
 ## <a name="reference"></a>Referencia
 
@@ -39,13 +39,13 @@ Estas pruebas comprueban la funcionalidad básica de la implementación de las i
   
 ## <a name="related-sections"></a>Secciones relacionadas
 
-- [Plantillas de ejemplo OSC](osc-sample-templates.md)
+- [Plantillas de ejemplo de OSC](osc-sample-templates.md)
   
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)
   
-- [Desarrollar un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
   
-- [Depurar un proveedor](debugging-a-provider.md)
+- [DePuración de un proveedor](debugging-a-provider.md)
   
 - [Implementación de un proveedor](deploying-a-provider.md)
   

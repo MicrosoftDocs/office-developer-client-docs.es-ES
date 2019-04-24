@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 description: Contiene la fórmula de una spline B racional no uniforme (NURBS).
-ms.openlocfilehash: 000c4864c6ae98bfcd9e9cfdb16ff68396f63e44
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c9b3cbf96e2a218a8ed790d3a5615843360c95e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327395"
 ---
-# <a name="e-cell-geometry-section"></a>Celda E (sección Geometría)
+# <a name="e-cell-geometry-section"></a>Celda E (Sección de geometría)
 
 Contiene la fórmula de una spline B racional no uniforme (NURBS).
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda E por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Geometría *i* . E *j* donde *i* y *j* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Geometría *i* . E *j* donde *i* y *j* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda E por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

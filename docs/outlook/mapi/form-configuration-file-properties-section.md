@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [Propiedades]
+title: Sección del archivo de configuración de formulario [propiedades]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,52 +8,52 @@ api_type:
 - COM
 ms.assetid: f31a08ce-3a56-4c90-9502-5bcb09d8d80f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f25d6b2db00f5629a9bf88499f9f4e080422ac29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86d2257b821622094ff8d5ad3a5d7b1bfc74942b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328108"
 ---
-# <a name="form-configuration-file-properties-section"></a>Sección del archivo de configuración de formulario [Propiedades]
+# <a name="form-configuration-file-properties-section"></a>Sección del archivo de configuración de formulario [propiedades]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[Propiedades]** enumera todo el conjunto de propiedades que utiliza el formulario y se publica; es decir, las propiedades que crea en sus mensajes personalizados que el cliente MAPI aplicaciones pueden utilizarla al mostrar columnas, tablas de contenido, configuración de carpetas de resultados de búsqueda, el filtrado y así sucesivamente. Cada entrada de esta lista (propiedad) hace referencia a una posterior **[propiedad.** _cadena_ sección de **]** como se muestra a continuación. 
+La sección **[Properties]** muestra el conjunto completo de propiedades que el formulario usa y publica; es decir, las propiedades que crea en sus mensajes personalizados que pueden usar las aplicaciones de cliente MAPI para mostrar columnas, filtrar tablas de contenido, configurar carpetas de resultados de búsqueda, etc. Cada entrada de esta lista de propiedades hace referencia a una **[propiedad subsiguiente.** _cadena_ de **]** tal como se muestra a continuación. 
   
- **[Propiedades]**
+ <b0></A1></b0>
   
- **Propiedad.** _cadena_ =  _cadena_
+ **Inspector.** __ cadena de cadena__  =  
   
-El formato de una [ **(propiedad).** _cadena_] sección es: 
+El formato de una [ **Property.** _String_] la sección es: 
   
- **[(Propiedad).** _cadena_ **]**
+ **Inspector.** _cadena_ de **]**
   
- **Tipo de** =  _entero_
+ **Tipo** =  _entero_
   
- **NmidPropset** =  _guid_
+ **** =  _GUID_ de NmidPropset
   
- **NmidString** =  _cadena_
+ **** =  _Cadena_ NmidString
   
- **NmidInteger** =  _entero_
+ **** =  _Entero_ NmidInteger
   
- **DisplayName** =  _cadena_
+ **** =  _Cadena_ DisplayName
   
- **Marcas de** =  _entero_
+ **Indicadores** =  _enteros_
   
  **SpecialType** = 0 | 1 
   
- **Enum1** =  _cadena_
+ **** =  _Cadena_ Enum1
   
-Cada **[propiedad.** _cadena_ **]** sección describe una sola propiedad. El **tipo** de entrada especifica el tipo de propiedad MAPI, por ejemplo 3 (PT_I4), de la propiedad. La entrada **NmidPropset** es opcional; junto con la entrada **NmidString** o en la entrada **NmidInteger** , la entrada de **NmidPropset** proporciona el nombre de la propiedad. **NmidString** proporciona el nombre de la propiedad, mientras que **NmidInteger** permite el identificador de la propiedad. **NmidString** y **NmidInteger** son mutuamente excluyentes. 
+Cada **[Property.** _cadena_ de **]** describe una sola propiedad. La entrada **Type** especifica el tipo de propiedad MAPI, por ejemplo, 3 (PT_I4), de la propiedad. La entrada **NmidPropset** es opcional; junto con la entrada **NmidString** o la entrada **NmidInteger** , la entrada **NmidPropset** da el nombre de la propiedad. **NmidString** proporciona el nombre de la propiedad, mientras que **NmidInteger** proporciona el identificador de la propiedad. **NmidString** y **NmidInteger** se excluyen mutuamente. 
   
-Si set, **NmidPropset** debe contener el nombre del conjunto de propiedades; Si está ausente, **NmidPropset** se establece en un valor predeterminado en función de la siguiente regla: si **NmidInteger** está presente y su valor es menor que 0 x 8000, **NmidPropset** se establece en PS_MAPI. Si el valor de **NmidInteger** se establece en un número entero mayor que 0 x 8000, o si está presente, **NmidPropset** se establece en PS_PUBLIC_STRINGS. 
+Si se establece, **NmidPropset** debe contener el nombre del conjunto de propiedades; Si no está presente, **NmidPropset** se establece en un valor predeterminado según la siguiente regla: Si **NmidInteger** está presente y su valor es menor que 0x8000, **NmidPropset** se establece en PS_MAPI. Si el valor de **NmidInteger** se establece en un entero mayor que 0x8000 o no está presente, **NmidPropset** se establece en PS_PUBLIC_STRINGS. 
   
-La entrada **DisplayName** contiene la etiqueta de la propiedad. La entrada **SpecialType** , si está presente y distinto de cero indica que esta propiedad es una propiedad especial. En la actualidad, el tipo de propiedad especial sólo definido es **SpecialType** = 1, que indica las propiedades de la cadena enumerada. Si **SpecialType** está establecida en 1, hace referencia la entrada de **Enum1** la **[Enum1.** _cadena_ sección **]** . 
+La entrada **displayName** contiene la etiqueta de la propiedad. La entrada **SpecialType** indica que esta propiedad es una propiedad especial, si está presente y no es cero. Actualmente, el único tipo de propiedad especial definido es **SpecialType** = 1, que indica las propiedades enumeradas de cadena. Si **SpecialType** se establece en 1, la entrada **Enum1** hace referencia a **[Enum1.** _cadena_ de **]** sección. 
   
-A continuación se incluye un ejemplo de una sección **[Propiedades]** y un **[Propiedades.** _cadena_ sección **]** . 
+A continuación se encuentra un ejemplo de una sección **[Properties]** y a **[Properties.** _cadena_ de **]** sección. 
   
 ```cpp
 [Properties]
@@ -69,23 +69,23 @@ Enum1 = HazardEnum
 
 ```
 
-La entrada **Enum1** en las referencias del ejemplo anterior a una posterior **[Enum1.** _cadena_ sección **]** que describe una enumeración de un tipo determinado. Una de estas enumeraciones asocia la primera propiedad de la **[propiedad.** _cadena_ sección de **]** con una propiedad de entero, denominado el índice. Una de estas enumeraciones también contiene una lista de los valores posibles que puede asumir el par de índice de la presentación. No es necesario especificar un tipo de propiedad para la enumeración porque según la definición de una entrada de **Enum1** siempre tiene el tipo de PT_I4. El formato para el **[Enum1.** _cadena_ sección **]** es: 
+La entrada **Enum1** en el ejemplo anterior hace referencia a un **[Enum1.** _cadena_ de **]** que describe una enumeración de un tipo determinado. Esta enumeración asocia la primera propiedad de **[Property.** _cadena_ de **]** con una propiedad de entero, llamada índice. Esta enumeración también contiene una lista de los valores posibles que puede asumir el par display-index. La especificación de un tipo de propiedad para la enumeración no es necesaria porque, por definición, una entrada **Enum1** siempre tiene el tipo PT_I4. El formato del **[Enum1.** _cadena_ de **]** es: 
   
- **[Enum1.** _cadena_ **]**
+ **[Enum1.** _cadena_ de **]**
   
- **NmidPropset** =  _guid_
+ **** =  _GUID_ de NmidPropset
   
- **NmidString** =  _cadena_
+ **** =  _Cadena_ NmidString
   
- **NmidInteger** =  _entero_
+ **** =  _Entero_ NmidInteger
   
- **EnumCount** =  _entero_
+ **** =  _Entero_ EnumCount
   
- **Val.** _número entero_ **. Para mostrar** =  _cadena_
+ **Val.** _número entero_ **. ** =  _Cadena_ para mostrar
   
- **Val.** _número entero_ **. Índice** =  _entero_
+ **Val.** _número entero_ **. ** =  _Entero_ de índice
   
-La siguiente es una definición de propiedad de ejemplo para una propiedad enumerada denominada riesgo de incendio con valores posibles de baja, Media y alta.
+A continuación se muestra un ejemplo de definición de propiedad para una propiedad enumerada denominada peligro de incendio con los valores posibles de bajo, medio y alto.
   
 ```cpp
 [Properties]
@@ -103,6 +103,6 @@ Val.3.Index = 3
 
 ```
 
- **[Enum1.** _cadena_ se pueden usar en las secciones **]** por las aplicaciones para dos fines: para acelerar el filtrado de propiedades mediante el índice en lugar de la cadena y para ordenar por un orden diferente que el orden de los valores de cadena con caracteres alfanuméricos. Por ejemplo, la ordenación puede realizarse en función de orden bajo, medio, alto en lugar de orden alto medio bajo. 
+ **[Enum1.** _cadena_ de **]** las aplicaciones pueden usarlas para dos propósitos: acelerar el filtrado de propiedades mediante el índice en lugar de la cadena y ordenar por un orden diferente al orden alfanumérico de los valores de cadena. Por ejemplo, la ordenación se podría realizar basándose en el orden bajo-medio-alto en lugar del orden alto-medio-bajo. 
   
 

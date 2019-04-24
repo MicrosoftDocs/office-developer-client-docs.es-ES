@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a21feb474ef69da9ec8e36e06c8649b9d0f93981
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e9d390a895490f2f7445c5f1ed6e0bde3a87639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331545"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566708"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Muestra una hoja de propiedades que permite al usuario que cambie la configuración de un proveedor de servicios que este método no se admite en los objetos de estado que implementa MAPI.
+Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios este método no se admite en objetos de estado que implementa MAPI.
   
 ```cpp
 HRESULT SettingsDialog(
@@ -34,19 +34,19 @@ HRESULT SettingsDialog(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de la hoja de propiedades de configuración.
+> a Identificador de la ventana primaria de la hoja de propiedades de configuración.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla la presentación de la hoja de propiedades. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla la presentación de la hoja de propiedades. Se puede establecer la siguiente marca:
     
 UI_READONLY 
   
-> Sugiere que el proveedor no debe habilitar a los usuarios cambiar las propiedades de configuración. Esta marca es sólo una sugerencia; se puede hacer caso omiso.
+> Sugiere que el proveedor no debe permitir que los usuarios cambien las propiedades de configuración. Esta marca solo es una sugerencia; se puede pasar por alto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,45 +56,45 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto de estado no es compatible con este método, como se indica por la ausencia de la marca STATUS_SETTINGS_DIALOG en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
+> El objeto status no admite este método, tal y como indica la ausencia de la marca STATUS_SETTINGS_DIALOG en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **SettingsDialog** muestra una hoja de propiedades de configuración. Todos los proveedores de servicios deben admitir el método de **diálogo Configuración** , pero no es necesario. Proveedores de servicio pueden implementar sus propias hojas (propiedad) o utilizar la implementación proporcionada en el soporte técnico método del objeto [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) . **DoConfigPropsheet** crea una hoja de propiedades de lectura y escritura. 
+El método **IMAPIStatus:: SettingsDialog** muestra una hoja de propiedades de configuración. Todos los proveedores de servicios deben admitir el método **SettingsDialog** , pero no es necesario. Los proveedores de servicios pueden implementar sus propias hojas de propiedades o usar la implementación suministrada en el método [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md) del objeto support. **DoConfigPropsheet** genera una hoja de propiedades de lectura y escritura. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si un proveedor de transporte remoto tiene cualquier opción de configuración, debe hacer lo siguiente:
+Si un proveedor de transporte remoto tiene alguna configuración, debe hacer lo siguiente:
   
-- Abrir la sección de perfil del proveedor de transporte.
+- Abra la sección de perfil del proveedor de transporte.
     
-- Obtenga el transporte valores de la propiedad del proveedor del perfil.
+- Obtiene la configuración de la propiedad del proveedor de transporte del perfil.
     
-- Mostrar los valores de propiedad en un cuadro de diálogo.
+- Mostrar la configuración de la propiedad en un cuadro de diálogo.
     
-- Si el cuadro de diálogo permite la edición de la configuración de propiedades, compruebe que la nueva configuración es válida y almacenarlas atrás en la sección de perfil del proveedor de transporte.
+- Si el cuadro de diálogo permite editar la configuración de la propiedad, compruebe que la nueva configuración es válida y vuelva a almacenarla en la sección de perfil del proveedor de transporte.
     
-- Devolver S_OK o los valores de error devueltos durante los pasos anteriores.
+- Devuelve S_OK o todos los valores de error devueltos durante los pasos anteriores.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la hoja de propiedades que se muestra a través de **diálogo Configuración** para realizar diversas tareas, como las siguientes: 
+Puede usar la hoja de propiedades que se muestra a través de **SettingsDialog** para realizar una serie de tareas, como las siguientes: 
   
-- Especificar un almacén de mensajes predeterminado.
+- Especifique un almacén de mensajes predeterminado.
     
-- Especificar un orden de transporte.
+- Especifique un orden de transporte.
     
-- Especificar un contenedor de libreta de direcciones predeterminada para la exploración.
+- Especifique un contenedor de libreta de direcciones predeterminado para la exploración.
     
-- Especificar un criterio de búsqueda para resolver nombres ambiguos.
+- Especifique un orden de búsqueda para resolver nombres ambiguos.
     
-- Especifique una libreta de direcciones personales de forma predeterminada.
+- Especifique una libreta personal de direcciones predeterminada.
     
-Pueden implementar proveedores de servicios de las hojas de propiedades que son de lectura y escritura, de sólo lectura, o una combinación de permisos, dependiendo de la propiedad. Proveedores de servicios pueden implementar permisos diferentes en las propiedades individuales mediante la configuración de restricciones de propiedad. El modo predeterminado para las hojas de propiedades es de lectura y escritura. Puede solicitar las hojas de propiedades de sólo lectura estableciendo el indicador UI_READONLY en las llamadas al **diálogo Configuración**. Proveedores de servicios que se pueden implementar las hojas de propiedades de sólo lectura pueden hacerlo. Sin embargo, debido a que algunos proveedores de servicios no pueden reemplazar el modo predeterminado, debe estar preparado para tratar las hojas de propiedades de cualquier tipo. 
+Los proveedores de servicios pueden implementar las hojas de propiedades que son de lectura y escritura, de solo lectura o de combinación de permisos, según la propiedad. Los proveedores de servicios pueden implementar diferentes permisos en propiedades individuales mediante la configuración de restricciones de propiedad. El modo predeterminado de las hojas de propiedades es de lectura y escritura. Puede solicitar hojas de propiedades de solo lectura estableciendo la marca UI_READONLY en las llamadas a **SettingsDialog**. Los proveedores de servicios que son capaces de implementar hojas de propiedades de solo lectura pueden hacerlo. Sin embargo, dado que algunos proveedores de servicios no pueden reemplazar el modo predeterminado, debe estar preparado para controlar las hojas de propiedades de ambos tipos. 
   
-Debido a que una interfaz de usuario siempre está relacionada con esta operación, sólo los clientes interactivos deben llamar **diálogo Configuración**.
+Como una interfaz de usuario siempre está involucrada en esta operación, solo los clientes interactivos deben llamar a **SettingsDialog**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

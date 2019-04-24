@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [Verbos]
+title: Sección del archivo de configuración de formulario [verbos]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327499"
 ---
-# <a name="form-configuration-file-verbs-section"></a>Sección del archivo de configuración de formulario [Verbos]
+# <a name="form-configuration-file-verbs-section"></a>Sección del archivo de configuración de formulario [verbos]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[verbos]** enumera todo el conjunto de verbos admitidos por el formulario. El formato de la sección **[verbos]** es: 
+La sección **[verbs]** muestra el conjunto completo de verbos admitidos por el formulario. El formato de la sección **[verbs]** es: 
   
- **[Verbos]**
+ **Verbos**
   
- **Verb1** =  _cadena_
+ **** =  _Cadena_ Verb1
   
-Siguiente es un ejemplo de una sección **[verbos]** . 
+A continuación se encuentra un ejemplo de una sección **[verbs]** . 
   
 ```cpp
 [Verbs]
@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-Se define cada verbo en un independiente **[verbo.** _cadena_ sección **]** . A **[verbo.** _cadena_ **]** sección describe un solo verbo ofrecido por el formulario. La entrada **DisplayName** en un **[verbo.** _cadena_ sección **]** especifica el nombre del comando que se muestra en la interfaz de usuario. La entrada de **código** se corresponde con el número de verbo que se pasa en el método [IMAPIForm::DoVerb](imapiform-doverb.md) . La sintaxis de la **[verbo.** _cadena_ sección **]** es: 
+Cada verbo se define en un **[verbo.** _cadena_ de **]** sección. **[Verbo.** _cadena_ de **]** describe un único Verbo ofrecido por el formulario. La entrada **displayName** en **[Verb.** _cadena_ de **]** especifica el nombre de comando que se muestra en la interfaz de usuario. La entrada de **código** corresponde al número de verbo pasado en el método [IMAPIForm::D overb](imapiform-doverb.md) . La sintaxis del **verbo.** _cadena_ de **]** es: 
   
- **[Verbo.** _cadena_ **]**
+ **Verbo.** _cadena_ de **]**
   
- **DisplayName** =  _muestra la cadena_
+ **** =  _Cadena mostrada_ como DisplayName
   
- **Código** =  _entero_
+ **** =  _Número entero_ del código
   
- **Marcas de** =  _entero_
+ **Indicadores** =  _enteros_
   
- **Se utilizaron atributos** =  _entero_
+ **** =  _Entero_ attribs
   
-A continuación se incluye un ejemplo de un **[verbo.** _cadena_ sección **]** . 
+A continuación se encuentra un ejemplo de **[Verb.** _cadena_ de **]** sección. 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-Verbos enumerados en esta sección se recuperan mediante un cliente mediante el [método IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md). Verbos se activan al llamar al método [IMAPIForm::DoVerb](imapiform-doverb.md) del formulario y pasar el número de código del verbo que se debe realizar. 
+Los verbos que se enumeran en esta sección los recupera un cliente mediante el [método IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md). Los verbos se activan llamando al método [IMAPIForm::D overb](imapiform-doverb.md) del formulario y pasándole el número de código del verbo que se va a realizar. 
   
 

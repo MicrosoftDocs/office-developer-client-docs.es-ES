@@ -1,33 +1,33 @@
 ---
-title: Información sobre la indexación de almacenes basada en notificaciones
+title: Acerca de la indización de almacén basada en notificaciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 125147ed7d6cd90c1069aa5cc1c759abe752dfe2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3dd551dd0c1ea229381e5dd01c5cf6fa04790c30
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322137"
 ---
-# <a name="about-notification-based-store-indexing"></a>Información sobre la indexación de almacenes basada en notificaciones
+# <a name="about-notification-based-store-indexing"></a>Acerca de la indización de almacén basada en notificaciones
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor de almacén MAPI puede especificar si los mensajes de los rastreos de controlador de protocolo MAPI y los índices en el almacén, o si el almacén envía notificaciones al indizador cuando hay mensajes que se va a indizar. Se conoce como indización de notificación y un almacén que admite la indización de notificación es un conocido como un almacén de empuje.
+Un proveedor de almacén MAPI puede especificar si el controlador de protocolo MAPI rastrea e indiza los mensajes del almacén, o si el almacén envía notificaciones al indizador cuando hay mensajes que se van a indizar. Este último se conoce como indización basada en notificaciones y un almacén que admite la indización basada en notificaciones es conocido como almacén de extracción.
   
-Un proveedor de almacenamiento que admite la marca **STORE_PUSHER_OK** de conjuntos de indización basada en notificación en la propiedad **[PR_STORE_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** . El controlador de protocolo MAPI o un cliente puede obtener la propiedad **PR_STORE_SUPPORT_MASK** para determinar las características del almacén. 
+Un proveedor de almacenamiento que admite la indización basada en notificaciones establece la marca **STORE_PUSHER_OK** en la propiedad **[PR_STORE_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** . El controlador del protocolo MAPI o un cliente puede obtener la propiedad **PR_STORE_SUPPORT_MASK** para determinar las características del almacén. 
   
-Cada vez que hay un archivo adjunto, carpeta o un mensaje que se va a indizar, el proveedor de almacenamiento genera una MAPI localizador de recursos (URL) que identifica el objeto que se va a indizar y lo envía al indizador. Esta dirección URL de MAPI está codificada en Unicode y debe identificar de forma exclusiva el objeto para el controlador de protocolo MAPI. Para obtener más información acerca de las direcciones URL de MAPI, vea [Acerca de direcciones URL MAPI para indización basada en notificaciones](about-mapi-urls-for-notification-based-indexing.md).
+Siempre que hay un dato adjunto, una carpeta o un mensaje que se va a indizar, el proveedor del almacén genera un localizador uniforme de recursos (URL) de MAPI que identifica el objeto que se va a indizar y lo envía al indizador. Esta dirección URL MAPI se codifica en Unicode y debe identificar de forma única el objeto en el controlador de protocolo MAPI. Para obtener más información acerca de las direcciones URL de MAPI, vea acerca de las [direcciones URL MAPI para la indizaCión basada en notificaciones](about-mapi-urls-for-notification-based-indexing.md).
   
-Debido a que un indizador siempre no puede indizar todo el contenido antes de que se produce un apagado en un almacén de empuje, debe conservar el almacén de empuje lo que necesita que se va a insertar. Cuando un proveedor de almacén envía una notificación sobre un objeto que se debe indizar, especifica el tipo de notificación **fnevIndexing** en el miembro **ulEventType** de la estructura de **[notificación](notification.md)** . El miembro de la **información** de la estructura de **notificación** contiene una estructura **[EXTENDED_NOTIFICATION](extended_notification.md)** . El proveedor de almacenamiento identifica el proceso en la propiedad **[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)** . También identifica el proceso de la estructura de [INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md) y pasa esta información como parte del miembro **pbEventParameters** de la estructura **EXTENDED_NOTIFICATION** . Si el proceso se cierra o se bloquea, el controlador de protocolo MAPI podrán detectar inmediatamente y detener el almacén de empuje de indización. 
+Dado que un indizador no siempre puede indizar todos los elementos antes de que se produzca el cierre en un almacén de inserción, el almacén de inserción debe persistir lo que deba insertarse. Cuando un proveedor de almacén envía una notificación sobre un objeto que debe indizarse, especifica el tipo de notificación **fnevIndexing** en el miembro **ulEventType** de la estructura de **[notificación](notification.md)** . El miembro **información** de la estructura **notificación** contiene una estructura ** [EXTENDED_NOTIFICATION](extended_notification.md)**. El proveedor de almacenamiento identifica el proceso en la propiedad **[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)** . También identifica el proceso en la estructura [INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md) y pasa esta información como parte del miembro **pbEventParameters** de la estructura **EXTENDED_NOTIFICATION** . Si el proceso se apaga o se bloquea, el controlador del protocolo MAPI podrá detectar de inmediato y detener la indización del almacén de inserción. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

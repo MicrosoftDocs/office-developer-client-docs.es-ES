@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c9996dad1e9aa8c291f1cd593d9651994d86141
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330061"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>Proveedores de almacenamiento de mensajes estrechamente acoplados
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de almacén de mensajes pueden estar estrechamente acoplados con un proveedor de transporte. Acoplamiento estrechamente significa de proveedores de servicio MAPI implementar los dos proveedores tal que el proveedor de almacenamiento y el proveedor de transporte pueden comunicarse para hacer que el proceso de enviar y recibir mensajes más eficaces. La ventaja de hacerlo es que las mejoras de rendimiento se pueden producir cuando dos proveedores de servicio pueden interactuar con cada una de las demás directamente en lugar de hacerlo por medio de la cola de MAPI. Para asociar estrechamente un proveedor de almacén de mensajes a un proveedor de transporte, el proveedor de transporte debe colocar el identificador de entrada del proveedor de almacén de mensajes en la propiedad **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) en el proveedor de transporte fila en la tabla de estado MAPI. Esto permite que la cola MAPI conectar el proveedor de almacenamiento con el proveedor de transporte.
+Los proveedores de almacenamiento de mensajes pueden acoplarse estrechamente con un proveedor de transporte. El acoplamiento estricto de los proveedores de servicios MAPI implica la implementación de los dos proveedores, de modo que el proveedor de almacén y el proveedor de transporte puedan comunicarse para que el proceso de envío y recepción de mensajes sea más eficiente. La ventaja de hacerlo es que las mejoras de rendimiento pueden producirse cuando dos proveedores de servicios pueden interactuar entre sí directamente en lugar de con una cola MAPI. Para acoplar rigurosamente un proveedor de almacenamiento de mensajes a un proveedor de transporte, el proveedor de transporte debe ubicar el identificador de entrada del proveedor de almacén de mensajes en la propiedad **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) del proveedor de transporte fila de la tabla de estado de MAPI. Esto permite que la cola MAPI Conecte el proveedor de almacén al proveedor de transporte.
   
-No es necesario que un proveedor de almacén de mensajes nunca se complementa muy bien con cualquier otro proveedor de servicios. El proveedor de servicios más comunes para asociar estrechamente con un proveedor de almacén de mensajes es un proveedor de transporte. Esto se realiza normalmente poder enviar y recibir mensajes puede realizarse sin que implican a la cola de MAPI. Por ejemplo, cuando el usuario envía un mensaje saliente, el proveedor de transporte y el proveedor de almacén de mensajes combinada pueden enviarlo directamente. No es necesario que los proveedores de servicios combinados en primer lugar notificar a cola MAPI que hay un nuevo mensaje para procesar y, a continuación, espere a que la cola MAPI iniciar el proceso de transferir el mensaje desde el proveedor de almacenamiento de mensajes para el proveedor de transporte. Esto tiene ventajas determinadas cuando se utiliza un almacén de mensajes basado en servidor al minimizar el tráfico de red entre el equipo del usuario y el servidor.
+No es necesario que un proveedor de almacenamiento de mensajes esté estrechamente acoplado a ningún otro proveedor de servicios. El proveedor de servicios más común para acoplar estrechamente un proveedor de almacenamiento de mensajes es un proveedor de transporte. Esto se suele hacer para que el envío y la recepción de mensajes se puedan llevar a cabo sin que intervenga la cola MAPI. Por ejemplo, cuando el usuario envía un mensaje saliente, el proveedor de almacenamiento de mensajes combinado y el proveedor de transporte pueden enviarlo directamente. Los proveedores de servicios combinados no tienen que notificar primero a la cola MAPI que hay un nuevo mensaje para procesar y, a continuación, esperar a que la cola MAPI inicie el proceso de transferencia del mensaje desde el proveedor de almacén de mensajes al proveedor de transporte. Esto tiene ventajas específicas cuando se usa un almacén de mensajes basado en servidor al minimizar el tráfico de red entre el equipo del usuario y el servidor.
   
-En general, no hay ningún procedimientos bien especificados para acoplamiento estrechamente los proveedores de servicios. Sin embargo, debe usar las siguientes instrucciones:
+En general, no hay procedimientos bien especificados para acoplar los proveedores de servicios con precisión. Sin embargo, debe seguir estas instrucciones:
   
-- Si el motivo de acoplamiento estrechamente los proveedores de servicios es el rendimiento, tenga en cuenta que el acoplamiento toma partes del subsistema MAPI fuera de los procesos que esos elementos normalmente podrían estar involucrados en. Esto implica que los elementos individuales en el proveedor de servicios combinado deben interactúan entre sí de forma que simula la interacción normalmente tendría con los elementos del subsistema MAPI que no se usan.
+- Si el motivo de acoplamiento estricto de los proveedores de servicios es el rendimiento, tenga en cuenta que el acoplamiento toma partes del subsistema MAPI de los procesos de los que normalmente participarían estas partes. Esto implica que las partes individuales del proveedor de servicios combinados deben interactuar entre sí de una manera que simule la interacción que tendrían normalmente con las partes del subsistema MAPI que no se usan.
     
-- Cuando interactúan los proveedores de servicios totalmente acoplado con otros componentes de MAPI, deben seguir interactuando con ellos en exactamente de la forma que lo haría si no estaban estrechamente acoplados. Por ejemplo, si un usuario está usando un proveedor de transporte y el proveedor de almacén de mensajes combinada como su almacén de mensajes de forma predeterminada, pero está utilizando un proveedor de transporte independiente para enviar mensajes, como puede suceder cuando un usuario tiene un equipo de viaje y pasa a un precio de transporte remoto ovider: la parte de almacén de mensajes del proveedor de servicios totalmente acoplado aún debe interactuar con la cola MAPI como si se tratase de un proveedor de almacén de mensajes independiente.
+- Cuando los proveedores de servicios muy acoplados interactúan con otros componentes MAPI, deben seguir interactuando con ellos exactamente de la forma en que lo harían si no estuvieran acoplados estrechamente. Por ejemplo, si un usuario usa un proveedor de almacenamiento de mensajes combinado y un proveedor de transporte como almacén de mensajes predeterminado, pero usa un proveedor de transporte independiente para enviar mensajes, como pueden ocurrir cuando un usuario toma un equipo en movimiento y cambia a un PR de transporte remoto ovider: la parte del almacén de mensajes del proveedor de servicios muy acoplado debe seguir interactuando con la cola MAPI como si fuera un proveedor independiente de almacén de mensajes.
     
 ## <a name="see-also"></a>Vea también
 

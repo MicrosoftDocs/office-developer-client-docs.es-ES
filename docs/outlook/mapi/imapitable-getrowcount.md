@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 71178f1a531bd381387e0aa7fbacb02d4431a401
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b13bf3bdd8392efc42ad189e48dffad8636f0708
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328892"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el número total de filas en la tabla. 
+Devuelve el número total de filas de la tabla. 
   
 ```cpp
 HRESULT GetRowCount(
@@ -34,15 +34,15 @@ ULONG FAR * lpulCount
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  _lpulCount_
   
-> [out] Puntero al número de filas de la tabla.
+> contempla Puntero al número de filas de la tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,7 +52,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Otra operación está en curso que impide que la operación de recuperación del recuento de fila de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación de recuento de filas. Debe permitirse que la operación en curso se complete o que deba detenerse.
     
 MAPI_E_NO_SUPPORT 
   
@@ -60,31 +60,31 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_APPROX_COUNT 
   
-> La llamada se ha realizado correctamente, pero se devolvió un recuento de filas aproximado debido a que el número exacto de filas no se puede determinar, posiblemente, debido a las restricciones de memoria. Para probar esta advertencia, utilice la macro **HR_FAILED** . Vea [uso de Macros para el tratamiento de errores](using-macros-for-error-handling.md).
+> La llamada se realizó correctamente, pero se devolvió un recuento de filas aproximado porque no se pudo determinar el recuento de filas exacto, posiblemente debido a restricciones de memoria. Para probar esta advertencia, use la macro **HR_FAILED** . Consulte [uso de macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::GetRowCount** recupera el número total de filas en una tabla. 
+El método **IMAPITable:: GetRowCount** recupera el número total de filas de una tabla. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si no puede determinar el número de fila exacto de la tabla, MAPI_W_APPROX_COUNT devuelto y una fila aproximada contar en el contenido del parámetro _lpulCount_ . 
+Si no puede determinar el número exacto de filas de la tabla, devuelva MAPI_W_APPROX_COUNT y un recuento de filas aproximado en el contenido del parámetro _lpulCount_ . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Uso **GetRowCount** para averiguar el número de filas de una tabla contiene antes de realizar una llamada al método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar los datos. Si hay menos de veinte filas en la tabla, es seguro llamar **QueryPosition** para recuperar toda la tabla. Si hay más de veinte filas de la tabla, considere la posibilidad de realizar varias llamadas a **QueryPosition** y limitar el número de filas recuperadas en cada llamada. 
+Use **GetRowCount** para averiguar el número de filas que contiene una tabla antes de realizar una llamada al método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar los datos. Si hay menos de veinte filas en la tabla, es seguro llamar a **QueryPosition** para recuperar toda la tabla. Si hay más de veinte filas en la tabla, considere la posibilidad de realizar varias llamadas a **QueryPosition** y limitar el número de filas recuperadas en cada llamada. 
   
-Algunas tablas no admiten **GetRowCount** y devolver MAPI_E_NO_SUPPORT. Si no se admite **GetRowCount** , es posible una alternativa llamar a [IMAPITable::QueryPosition](imapitable-queryposition.md). Con los resultados de **QueryPosition**, puede determinar la relación entre la fila actual y la última fila. 
+Algunas tablas no admiten **GetRowCount** y devuelven MAPI_E_NO_SUPPORT. Si no se admite **GetRowCount** , una alternativa podría ser llamar al [IMAPITable:: QueryPosition](imapitable-queryposition.md). Con los resultados de **QueryPosition**, puede determinar la relación entre la fila actual y la última fila. 
   
-Cuando **GetRowCount** devuelve MAPI_E_BUSY porque está temporalmente no se puede recuperar un recuento de filas, llame al método [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) . Cuando se devuelve **WaitForCompletion** , vuelva a intentar la llamada a **GetRowCount**. Llame al método [IMAPITable::GetStatus](imapitable-getstatus.md) y compruebe el contenido del parámetro _lpulTableState_ es otra forma de detectar si una operación asincrónica está en curso. 
+Cuando **GetRowCount** devuelve MAPI_E_BUSY porque temporalmente no puede recuperar un recuento de filas, llame al método [IMAPITable:: WaitForCompletion](imapitable-waitforcompletion.md) . Cuando **WaitForCompletion** devuelva, vuelva a intentar la llamada a **GetRowCount**. Otra forma de detectar si una operación asincrónica está en curso es llamar al método [IMAPITable:: getStatus](imapitable-getstatus.md) y comprobar el contenido del parámetro _lpulTableState_ . 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable::GetRowCount** para determinar cuántas filas se encuentran en la tabla de origen por lo que se puede asignar memoria para realizar la copia.  <br/> |
+|MAPIFunctions. cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable:: GetRowCount** para determinar cuántas filas hay en la tabla de origen, por lo que se puede asignar memoria para realizar la copia.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

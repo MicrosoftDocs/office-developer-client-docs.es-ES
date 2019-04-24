@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251399
 localization_priority: Normal
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
-description: Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario es 0. De lo contrario, el bit se establece en 0.
-ms.openlocfilehash: 0806e7c52cab659a09d27a60efb9c09aa436fb92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un número binario de 16 bits en el que cada bit se establece en 1 sólo si el bit correspondiente en el número binario es 0. De lo contrario, el bit se establece en 0.
+ms.openlocfilehash: 34ea6fd614feae8e3c8e97e34b7ff6c531f4c123
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330012"
 ---
 # <a name="bitnot-function"></a>Función BITNOT
 
-Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 solo si el bit correspondiente en número binario es 0. De lo contrario, el bit se establece en 0.
+Devuelve un número binario de 16 bits en el que cada bit se establece en 1 sólo si el bit correspondiente en el número binario es 0. De lo contrario, el bit se establece en 0.
   
 ## <a name="syntax"></a>Sintaxis
 
-BITNOT (** *número binario* **) 
+BITNOT (* * *número binario* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _número binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Un número binario de 16 bits.  <br/> |
    
@@ -36,7 +36,7 @@ Binario de 16 bits
   
 ## <a name="example"></a>Ejemplo
 
-BITNOT(6)
+BITNOT (6)
   
 Devuelve 65529. El 6 = 0...00110. Por lo tanto, BITNOT(6) = 1...11001.
   

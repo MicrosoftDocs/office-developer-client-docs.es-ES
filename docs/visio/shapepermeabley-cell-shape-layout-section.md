@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Determina si un conector puede enrutar verticalmente a través de una forma.
-ms.openlocfilehash: 4a7a389ec1d753b8582b7ff0b921a615e582b1ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f8bfa0fdfb5c483836f344e8b784dc9092fded
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326519"
 ---
-# <a name="shapepermeabley-cell-shape-layout-section"></a>Celda ShapePermeableY (sección Diseño de forma)
+# <a name="shapepermeabley-cell-shape-layout-section"></a>Celda ShapePermeableY (Sección de diseño de forma)
 
 Determina si un conector puede enrutar verticalmente a través de una forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se permite que los conectores enruten verticalmente a través de una forma.  <br/> |
 |FALSE  <br/> |No se permite que los conectores enruten verticalmente a través de una forma.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha de **colocación** en el cuadro de diálogo **comportamiento** (con una forma seleccionada, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ). 
+También puede establecer el valor de esta celda en la ficha **colocación** del cuadro de diálogo **comportamiento** (seleccione una forma y, en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ). 
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios.
   

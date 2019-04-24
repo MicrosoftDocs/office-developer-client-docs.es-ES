@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a56223e909edf89d0f7fe2ba7f6d281509002429
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aab5c76fb268729f1a50a33e4764905fe3d53405
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329746"
 ---
 # <a name="mapi-report-messages"></a>Mensajes de informe MAPI
 
@@ -21,50 +21,50 @@ ms.locfileid: "22563684"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notificar mensajes presentar estado la información acerca de un mensaje al remitente.
+Los mensajes de informe presentan información de estado sobre un mensaje a su remitente.
   
 Hay dos tipos generales de mensajes de informe:
   
-- Informes de estado de lectura.
+- Leer informes de estado.
     
 - Informes de estado de entrega.
     
-## <a name="read-status-reports"></a>Informes de estado de lectura
+## <a name="read-status-reports"></a>Leer informes de estado
 
-Informes de estado de lectura están iniciados por los proveedores de almacén de mensajes a través de una llamada al método [IMAPISupport::ReadReceipt](imapisupport-readreceipt.md) y se envían al destinatario representado por el identificador de entrada en el **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)) propiedad. Informes de estado de lectura no se generan automáticamente; las aplicaciones de cliente que desea recibir ellos deben solicitar explícitamente ellos.
+Los proveedores de almacenamiento de mensajes inician los informes de estado de lectura mediante una llamada al método [IMAPISupport:: ReadReceipt](imapisupport-readreceipt.md) y se envían al destinatario representado por el identificador de entrada en el **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)) Inspector. Los informes de estado de lectura no se generan automáticamente; las aplicaciones cliente que quieren recibirlos deben solicitarlos de forma explícita.
   
-Un informe de lectura indica que se ha establecido el indicador de lectura de un mensaje, que puede producirse cuando se abre, imprimir, mover o copiar el mensaje. Si un proveedor de almacén de mensajes genera un informe de lectura en respuesta a un movimiento u operación de copia depende de dónde se dirige el mensaje. Si es que se mueven o se copian a otro almacén de mensajes, un informe de lectura seguramente siempre se envíen. Si es que se va a mover o copiar en el almacén de mensajes actual, un informe de lectura es posible que o es posible que no se enviarán. 
+Un informe de lectura indica que se ha establecido el indicador de lectura de un mensaje, lo que puede ocurrir cuando se abre, se imprime, se mueve o se copia el mensaje. El hecho de que un proveedor de almacenamiento de mensajes genere o no un informe de lectura en respuesta a una operación de mover o copiar depende de dónde se vaya a enviar el mensaje. Si se está moviendo o copiando a otro almacén de mensajes, es probable que se envíe un informe de lectura siempre. Si se mueve o se copia en el almacén de mensajes actual, puede o no enviarse un informe de lectura. 
   
-Un informe nonread indica que no está establecido el indicador de lectura de un mensaje y que no se abrió el mensaje antes de que se coloca en la carpeta Elementos eliminados o antes de la expiración de un límite de tiempo. Los clientes pueden llamar al método [IMessage::SetReadFlag](imessage-setreadflag.md) o [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) para establecer o Borrar marca de lectura de un mensaje. 
+Un informe no leído indica que no se ha establecido el marcador de lectura de un mensaje y que el mensaje no se ha abierto antes de que se coloque en la carpeta elementos eliminados o antes de que expire un límite de tiempo. Los clientes pueden llamar al método [IMessage:: SetReadFlag](imessage-setreadflag.md) o [IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md) para establecer o borrar el marcador de lectura de un mensaje. 
   
 ## <a name="delivery-status-reports"></a>Informes de estado de entrega
 
-Estado de entrega se refleja en un informe de entrega, que se envía cuando un mensaje ha alcanzado su destinatario, y en un informe de no entrega, que se envía cuando un mensaje no pudo llegar a un destinatario. Si esta propiedad no está presente, informes de estado de entrega se envían al destinatario representado por el identificador de entrada en la propiedad **PR_REPORT_ENTRYID** o al remitente. 
+El estado de entrega se refleja en un informe de entrega, que se envía cuando un mensaje llega a su destinatario y en un informe de no entrega, que se envía cuando un mensaje no puede llegar a un destinatario. Los informes de estado de entrega se envían al destinatario que representa el identificador de entrada en la propiedad **PR_REPORT_ENTRYID** o al remitente si esta propiedad no está presente. 
   
-Informes de entrega se envían a petición solo y no incluir el mensaje original. Se envían automáticamente los informes de no entrega a menos que se realiza una solicitud para suprimir ellos. Informes de no entrega incluyen el mensaje original como datos adjuntos para habilitar el destinatario del informe para volver a enviar el mensaje en caso de que todo lo que bloquea la entrega ya no es un problema. El mensaje adjunto es similar a la original que existía cuando se llamó al método de [IMessage::SubmitMessage](imessage-submitmessage.md) para enviarlo inicialmente. 
+Los informes de entrega se envían por solicitud solamente y no incluyen el mensaje original. Los informes de no entrega se envían automáticamente a menos que se realice una solicitud para suprimirlos. Los informes de no entrega incluyen el mensaje original como datos adjuntos para permitir que el destinatario del informe reenvíe el mensaje en caso de que la entrega bloqueada ya no sea un problema. El mensaje adjunto es similar al original tal como existía cuando el método [IMessage:: SubmitMessage](imessage-submitmessage.md) se llamaba para enviarlo inicialmente. 
   
-Uno o más informes de estado de entrega se generan por los proveedores de transporte cuando llama al método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) . Los proveedores de transporte de redacción una lista de destinatarios de un mensaje. Si un destinatario recibe un informe y el tipo de informe que se genera depende de lo siguiente: 
+Los proveedores de transporte generan uno o varios informes de estado de entrega cuando llaman al método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) . Los proveedores de transporte componen una lista de destinatarios de un mensaje. Si un destinatario recibe o no un informe y el tipo de informe que se genera depende de lo siguiente: 
   
-- Informes de entrega se vaya a destinatarios que establece la propiedad **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) en TRUE antes de que el mensaje se colocó en el almacén de mensajes.
+- Los informes de entrega van a los destinatarios que establecen la propiedad **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PIDTAGORIGINATORDELIVERYREPORTREQUESTED](pidtagoriginatordeliveryreportrequested-canonical-property.md)) en true antes de que el mensaje se colocó en el almacén de mensajes.
     
-- Informes de no entrega vaya a destinatarios que no se ha establecido la propiedad **PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) en FALSE. 
+- Los informes de no entrega van a los destinatarios que no han establecido la propiedad **PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PIDTAGORIGINATORNONDELIVERYREPORTREQUESTED](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) en false. 
     
-Casi toda la información necesaria para mostrar un informe de no entrega está contenida en la tabla de destinatarios del mensaje adjunto. Algunas propiedades están en el informe de sí mismo. Para los informes de entrega, incluida la información necesaria en la tabla de destinatarios del informe y en algunas propiedades de informe. 
+Casi toda la información necesaria para mostrar un informe de no entrega se incluye en la tabla de destinatarios del mensaje adjunto. Algunas propiedades son del propio informe. Para los informes de entrega, la información necesaria se incluye en la tabla de destinatarios del informe y en algunas propiedades del informe. 
   
-Los informes son mensajes con clases de mensaje distintos, en función de la clase del mensaje enviado. La mayoría de los proveedores de servicios usar una convención de nomenclatura por el cual la clase de mensaje se compone de varias partes, separados por puntos. La primera parte es "Informe" y la última parte es una constante que representa el tipo de informe. La parte central está reservada para la clase del mensaje enviado. Por ejemplo, dado que un informe de entrega usa la recuperación ante desastres constante, la clase de mensaje para la entrega de un informe sobre un IPM. Mensaje de nota sería **Report.IPM.Note.DR**.
+Los informes son mensajes con distintas clases de mensajes, según la clase del mensaje enviado. La mayoría de los proveedores de servicios usan una Convención de nomenclatura mediante la cual la clase de mensaje se compone de varias partes separadas por puntos. La primera parte es "rePort" y la última parte es una constante que representa el tipo de informe. La parte intermedia está reservada para la clase del mensaje enviado. Por ejemplo, dado que un informe de entrega utiliza la constante DR, la clase de mensaje de un informe de entrega sobre IPM. Nota el mensaje sería **Report. IPM. Note. Dr**.
   
-La siguiente tabla muestran las constantes que representan los tipos de informes.
+En la siguiente tabla se muestran las constantes que representan los tipos de informes.
   
-|**Tipo de informe**|**Constante que se utiliza en la clase de mensaje**|
+|**Tipo de informe**|**Constante usada en la clase de mensaje**|
 |:-----|:-----|
-|Read  <br/> |IPNRN  <br/> |
-|Nonread  <br/> |IPNNRN  <br/> |
-|Entrega  <br/> |RECUPERACIÓN ANTE DESASTRES  <br/> |
-|No entrega  <br/> |NDR  <br/> |
+|Lectura  <br/> |IPNRN  <br/> |
+|Leídos  <br/> |IPNNRN  <br/> |
+|Delivery  <br/> |RECUPERACIÓN ante desastres  <br/> |
+|No entrega  <br/> |5.2.4  <br/> |
    
-Los clientes interactivos pueden mostrar mensajes de informe mediante el uso de formularios estándar de MAPI o formularios personalizados que se han registrado con el Administrador de formulario para la clase de mensaje del informe. Clientes que reciben un informe de no entrega para un IPM. Mensaje de nota, por ejemplo, puede mostrar el formulario estándar de MAPI que presenta una lista de los destinatarios con errores y sugerido motivo del error. El formulario también permite al usuario volver a enviar el mensaje, si así lo desea. 
+Los clientes interActivos pueden mostrar mensajes de informe mediante formularios estándar proporcionados por MAPI o formularios personalizados que se han registrado con el administrador de formularios para la clase de mensaje del informe. Clientes que reciben un informe de no entrega para un IPM. Nota el mensaje, por ejemplo, puede mostrar el formulario MAPI estándar que presenta una lista de los destinatarios erróneos y un motivo sugerido para el error. El formulario también permite al usuario volver a enviar el mensaje, si lo desea. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

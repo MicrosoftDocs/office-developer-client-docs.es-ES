@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f
-description: Recupera o establece el identificador de entrada de la libreta de direcciones para la cuenta.
+description: Recupera o establece el identificador de entrada de la libreta de direcciones de la cuenta.
 ms.openlocfilehash: 2352f64b46e9884e95b7bf1f3693321f7cd224ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326435"
 ---
 # <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 
-Recupera o establece el identificador de entrada de la libreta de direcciones para la cuenta.
+Recupera o establece el identificador de entrada de la libreta de direcciones de la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 2002  <br/> |
+|Identificador:  <br/> |0x2002  <br/> |
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x20020102  <br/> |
-|Access:  <br/> |Es de lectura y escritura.  <br/> |
+|Etiqueta de propiedad:  <br/> |0x20020102  <br/> |
+|Al  <br/> |Lectura y escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **Propiedades\_MAPI\_identidad\_ENTRYID** no se espera que existen en cada cuenta. Por ejemplo, podría tener una cuenta de Exchange **propiedades\_MAPI\_identidad\_ENTRYID** establecer y no [propiedades\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), mientras que para una cuenta POP3/SMTP se invierte la situación. **PROPIEDADES\_MAPI_IDENTITY_ENTRYID** devuelve un identificador de entrada que es similar al valor devuelto por _lppEntryID_ en [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
+ No se espera que el **EntryID\_de identidad\_\_de prop MAPI** exista en cada cuenta. Por ejemplo, una cuenta de Exchange podría tener el **EntryID de identidad\_MAPI\_\_Identity** establecido y no [prop\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), mientras que para una cuenta SMTP/POP3 se invierte la situación. **PROP\_MAPI_IDENTITY_ENTRYID** devuelve un identificador de entrada que es similar al valor devuelto por _lppEntryID_ en [IMAPISession:: QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   
 ## <a name="see-also"></a>Vea también
 

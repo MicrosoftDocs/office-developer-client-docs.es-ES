@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
-description: Especifica si se debe usar capa de sockets seguros (SSL) para un buzón de correo de Internet general.
-ms.openlocfilehash: aecebe77ffe0db14a183e8b86269db7c7ff5d891
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica si se debe usar la capa de sockets seguros (SSL) para un buzón de correo de Internet general.
+ms.openlocfilehash: 12b6d803925b0be546273521b171d59a0a6b29d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327548"
 ---
 # <a name="propinetssl"></a>PROP_INET_SSL
 
-Especifica si se debe usar capa de sockets seguros (SSL) para un buzón de correo de Internet general.
+Especifica si se debe usar la capa de sockets seguros (SSL) para un buzón de correo de Internet general.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -24,12 +24,12 @@ Especifica si se debe usar capa de sockets seguros (SSL) para un buzón de corre
 |:-----|:-----|
 |Identificador:  <br/> |0x0105  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x01050003  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x01050003  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un medio de valor cero no usar SSL, en caso contrario, usar SSL.
+Un valor de cero significa que no se usa SSL; de lo contrario, se usa SSL.
   
 ## <a name="see-also"></a>Vea también
 

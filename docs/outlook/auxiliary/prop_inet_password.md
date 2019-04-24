@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d2e01e3c-634b-4052-8ed1-87f7863cfec5
-description: Representa la contraseña de usuario para un buzón de correo de Internet general.
-ms.openlocfilehash: 24643a78ff30884abb8d8e318206b7cbc72dba54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la contraseña de usuario de un buzón de correo de Internet general.
+ms.openlocfilehash: f6f534c3bdbfef19e791edfa9be0961b682de6ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327583"
 ---
 # <a name="propinetpassword"></a>PROP_INET_PASSWORD
 
-Representa la contraseña de usuario para un buzón de correo de Internet general.
+Representa la contraseña de usuario de un buzón de correo de Internet general.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -24,8 +24,8 @@ Representa la contraseña de usuario para un buzón de correo de Internet genera
 |:-----|:-----|
 |Identificador:  <br/> |0x0102  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x0102801F  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x0102801F  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

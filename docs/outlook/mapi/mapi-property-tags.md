@@ -1,5 +1,5 @@
 ---
-title: Etiquetas MAPI (propiedad)
+title: Etiquetas de propiedad MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,27 +9,27 @@ api_type:
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 96211d3b6e1e4dfbd4c93a98c8dd04de10eac884
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328245"
 ---
-# <a name="mapi-property-tags"></a>Etiquetas MAPI (propiedad)
+# <a name="mapi-property-tags"></a>Etiquetas de propiedad MAPI
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una etiqueta de propiedad es un número de 32 bits que contiene un identificador de propiedad único de 31 a 16 bits y un tipo de propiedad en los bits 0 a 15, tal como se muestra en la siguiente ilustración. 
+Una etiqueta de propiedad es un número de 32 bits que contiene un identificador de propiedad único en los bits 16 a 31 y un tipo de propiedad en los bits del 0 al 15, tal como se muestra en la siguiente ilustración. 
   
 **Elementos de etiqueta de propiedad**
   
-![Elementos de etiqueta (propiedad)] (media/amapi_10.gif "Elementos de etiqueta (propiedad)")
+![Elementos de etiqueta de propiedad] (media/amapi_10.gif "Elementos de etiqueta de propiedad")
   
-Etiquetas de propiedad se usan para identificar las propiedades MAPI y cada propiedad debe tener uno, independientemente de si se ha definido la propiedad MAPI, un cliente o un proveedor de servicios. MAPI define un conjunto de constantes de etiqueta de propiedad de sus propiedades en el archivo de encabezado Mapitags.h; Estas propiedades se conocen como "propiedades definidas por el MAPI". 
+Las etiquetas de propiedad se usan para identificar las propiedades MAPI y cada propiedad debe tener una, independientemente de si la propiedad es definida por MAPI, un cliente o un proveedor de servicios. MAPI define un conjunto de constantes de etiqueta de propiedad para sus propiedades en el archivo de encabezado Mapitags. h; Estas propiedades se denominan "propiedades definidas por MAPI". 
   
-Las constantes de etiqueta de propiedad siguen una convención de nomenclatura para coherencia y facilidad de uso. Hay dos partes en el nombre de cada etiqueta de la propiedad: un prefijo PR_ y uno o más cadenas de caracteres que describen el contenido de la propiedad. Varias cadenas de caracteres están separadas por caracteres de subrayado. Por ejemplo, la etiqueta de propiedad para el tipo de dirección de destinatario de un mensaje es **PR\_ADDRTYPE** ([PidTagOrgAddrtype](https://msdn.microsoft.com/library/d40b5707-e4d5-4746-88d4-8616a3789789%28Office.15%29.aspx)) y el identificador de entrada de la carpeta designada para recibir una copia de cada mensaje saliente es **PR_IPM_SENTMAIL_ Propiedad ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+Las constantes de etiqueta de propiedad siguen una Convención de nomenclatura para la coherencia y la facilidad de uso. El nombre de cada etiqueta de propiedad tiene dos partes: un prefijo de PR_ y una o más cadenas de caracteres que describen el contenido de la propiedad. Las cadenas de caracteres múltiples están separadas por caracteres de subrayado. Por ejemplo, la etiqueta de propiedad para el tipo de dirección de un destinatario de mensaje es **PR\_ADDRTYPE** ([PidTagOrgAddrtype](https://msdn.microsoft.com/library/d40b5707-e4d5-4746-88d4-8616a3789789%28Office.15%29.aspx)) y el identificador de entrada de la carpeta designada para recibir una copia de todos los mensajes salientes es **PR_IPM_SENTMAIL_ ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
   
-Algunas macros están disponibles para ayudar a trabajar con etiquetas de propiedad, entre ellas, [PROP_TYPE](prop_type.md), [PROP_ID](prop_id.md)y [PROP_TAG](prop_tag.md). **PROPIEDADES\_tipo** extrae el tipo de propiedad de la etiqueta de propiedad; **Propiedades\_identificador** extrae el identificador. **PROP_TAG** genera una etiqueta de propiedad de un tipo de propiedad y un identificador. 
+Algunas macros están disponibles para ayudar a trabajar con las etiquetas de propiedad, entre ellas [PROP_TYPE](prop_type.md), [PROP_ID](prop_id.md)y [PROP_TAG](prop_tag.md). **El\_tipo de prop** extrae el tipo de propiedad de la etiqueta de propiedad; El identificador de **prop\_** extrae el identificador. **PROP_TAG** crea una etiqueta de propiedad a partir de un tipo de propiedad e identificador. 
   
 ## <a name="see-also"></a>Vea también
 

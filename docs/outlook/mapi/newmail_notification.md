@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326246"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe la información que se relacionan con la llegada de un nuevo mensaje. 
+Describe la información relacionada con la llegada de un mensaje nuevo. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -45,11 +45,11 @@ typedef struct _NEWMAIL_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpEntryID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpEntryID** . 
     
  **lpEntryID**
   
@@ -57,19 +57,19 @@ typedef struct _NEWMAIL_NOTIFICATION
     
  **cbParentID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpParentID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpParentID** . 
     
  **lpParentID**
   
-> Puntero al identificador de entrada de la carpeta de recepción para el mensaje recién llegado.
+> Puntero al identificador de entrada de la carpeta de recepción del mensaje recién llegado.
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para describir el formato de las propiedades de cadena incluido con el mensaje. Se puede establecer la marca siguiente:
+> Máscara de la máscara usada para describir el formato de las propiedades de cadena incluidas en el mensaje. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  **lpszMessageClass**
   
@@ -77,21 +77,21 @@ MAPI_UNICODE
     
  **ulMessageFlags**
   
-> Máscara de bits de indicadores que describe el estado actual del mensaje recién llegado. El miembro **ulMessageFlags** es una copia de la propiedad del mensaje **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
+> Máscara de la máscara de los marcadores que describe el estado actual del mensaje recién llegado. El miembro **ulMessageFlags** es una copia de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **NEWMAIL_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . Cuando el miembro de la **información** de una estructura de **notificación** contiene una estructura **NEWMAIL_NOTIFICATION** , se establece el miembro **ulEventType** de la estructura de **notificación** en _fnevNewMail._
+La estructura **NEWMAIL_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **NEWMAIL_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en _fnevNewMail._
   
-MAPI utiliza la estructura **NEWMAIL_NOTIFICATION** sólo como un miembro de la estructura de **notificación** , que contiene información acerca de un evento de notificación para el receptor de notificaciones. 
+MAPI usa la estructura **NEWMAIL_NOTIFICATION** sólo como miembro de la estructura de **notificación** , que contiene información acerca de un evento de notificación para el receptor de notificaciones. 
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la siguiente tabla.
+Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
+|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -99,7 +99,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 
 [Notificaci�n](notification.md)
   
-[Propiedad canónico PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propiedad canónica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
 
 
 [Estructuras MAPI](mapi-structures.md)

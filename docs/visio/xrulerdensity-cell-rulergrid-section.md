@@ -1,5 +1,5 @@
 ---
-title: Celda XRulerDensity (sección Regla y cuadrícula)
+title: Celda XRulerDensity (sección &amp; regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c11717c5-eb0e-e4fa-5a91-c62ecc048635
 description: Especifica las subdivisiones horizontales de la regla en la página.
-ms.openlocfilehash: 633b2e54ca77216fd20ead00f047283c54f8164d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f459e5d1d19580201f1404ac2d1ae53c824293f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331853"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (sección Regla y cuadrícula)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (sección &amp; regla y cuadrícula)
 
 Especifica las subdivisiones horizontales de la regla en la página.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Fija  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |Gruesa  <br/> |**visRulerCoarse** <br/> |
+|comprendi  <br/> |Decimal  <br/> |**visRulerFixed** <br/> |
+|8 (&amp;H8)  <br/> |Generales  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (predeterminada)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Fina  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Minucioso  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **subdivisiones** horizontales en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
+Esta celda corresponde a la opción **subdivisiones** horizontales del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
 Para obtener una referencia a la celda XRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 186afd6a80d0ae3ae0a767456e60b2ebaaa579b9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f6688afde9b36a7722eaaf768f091481c15b7308
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329066"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona los nombres de propiedad que se corresponden con uno o varios identificadores de propiedad.
+Proporciona los nombres de propiedad que corresponden a uno o más identificadores de propiedad.
   
 ```cpp
 HRESULT GetNamesFromIDs(
@@ -37,41 +37,41 @@ HRESULT GetNamesFromIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lppPropTags_
   
-> [entrada, salida] En la entrada, un puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas (propiedad); de lo contrario, NULL, que indica que se deben devolver todos los nombres. El miembro **cValues** para la matriz de la etiqueta de propiedad no puede ser 0. Si _lppPropTags_ es un puntero válido en la entrada, **GetNamesFromIDs** devuelve los nombres de cada identificador de la propiedad incluidos en la matriz. 
+> [in, out] En la entrada, un puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad; de lo contrario, NULL, que indica que deben devolverse todos los nombres. El miembro **cValues** de la matriz de etiquetas de propiedades no puede ser 0. Si _lppPropTags_ es un puntero válido en la entrada, **GetNamesFromIDs** devuelve los nombres de todos los identificadores de propiedad incluidos en la matriz. 
     
  _lpPropSetGuid_
   
-> [entrada] Un puntero a un GUID, [GUID](guid.md) o estructura, que identifica un conjunto de propiedades. El parámetro _lpPropSetGuid_ puede apuntar a un conjunto de propiedades válido o puede ser NULL. 
+> a Un puntero a un GUID, o estructura [GUID](guid.md) , que identifica un conjunto de propiedades. El parámetro _lpPropSetGuid_ puede apuntar a un conjunto de propiedades válido o puede ser null. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de marcadores que indica el tipo de nombres que se va a devolver. Se pueden usar las siguientes marcas (si se establecen ambos marcadores, no hay nombres se devolverán):
+> a Máscara de máscara de marcadores que indica el tipo de nombres que se va a devolver. Se pueden usar los siguientes indicadores (si se establecen ambos indicadores, no se devolverán nombres):
     
 MAPI_NO_IDS 
   
-> Solicitudes que se va a devolver sólo los nombres almacenados como cadenas Unicode. 
+> Se devuelven las solicitudes que solo tienen nombres almacenados como cadenas Unicode. 
     
 MAPI_NO_STRINGS 
   
-> Solicitudes que se va a devolver sólo los nombres almacenados como identificadores numéricos. 
+> Se devuelven las solicitudes que solo tienen nombres almacenados como identificadores numéricos. 
     
  _lpcPropNames_
   
-> [out] Un puntero a un recuento de los punteros de nombre de propiedad en la matriz indicada por el parámetro _lppPropNames_ . 
+> contempla Un puntero a un recuento de los punteros de nombre de propiedad en la matriz señalada por el parámetro _lppPropNames_ . 
     
  _lpppPropNames_
   
-> [out] Un puntero a una matriz de punteros a las estructuras [MAPINAMEID](mapinameid.md) que contiene los nombres de propiedad. 
+> contempla Un puntero a una matriz de punteros a estructuras [MAPINAMEID](mapinameid.md) que contiene los nombres de las propiedades. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Los nombres de propiedad correctamente se han devuelto. 
+> Los nombres de las propiedades se devolvieron correctamente. 
     
 MAPI_E_NO_SUPPORT 
   
@@ -79,67 +79,67 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada satisfactoria, pero no se podrían devolver nombres para una o más propiedades. Las etiquetas de propiedad para las propiedades con errores tienen un tipo de propiedad de **PT_ERROR**. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md). 
+> La llamada se realizó en general, pero no se pudieron devolver los nombres de una o más propiedades. Las etiquetas de propiedad de las propiedades con error tienen un tipo de propiedad de **PT_ERROR**. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md). 
     
 MAPI_E_INVALID_PARAMETER 
   
-> El miembro **cValues** de una o varias de las entradas de la matriz de etiqueta de propiedad que señala _lppPropTags_ se establece en 0. 
+> El miembro **cValues** de una o varias entradas de la matriz de etiquetas de propiedad a la que señala _lppPropTags_ se establece en 0. 
     
 ## <a name="remarks"></a>Comentarios
 
-Mientras el acceso a la mayoría de las propiedades es por identificador de la propiedad, se pueden tener acceso a algunas propiedades por su nombre. El método **IMAPIProp::GetNamesFromIDs** se puede llamar para hacer lo siguiente: 
+Mientras que el acceso a la mayoría de las propiedades es por identificador de propiedad, se puede tener acceso a algunas propiedades por nombre. Se puede llamar al método **IMAPIProp:: GetNamesFromIDs** para hacer lo siguiente: 
   
-- Recuperar los nombres para los identificadores de propiedad concreta en un conjunto de propiedades específico.
+- Recuperar nombres de identificadores de propiedad específicos en un conjunto de propiedades específico.
     
-- Recuperar los nombres para los identificadores de propiedad específico en cualquier conjunto de propiedades.
+- Recuperar nombres de identificadores de propiedad específicos en cualquier conjunto de propiedades.
     
 - Recuperar los nombres de todas las propiedades con nombre que se incluyen en la asignación del objeto.
     
-Si configurar puntos de _lppPropTags_ a una matriz de etiqueta de la propiedad valid con uno o varios identificadores de propiedad y los puntos de _lpPropSetGuid_ a una propiedad válida, **GetNamesFromIDs** omite el conjunto de propiedades y los tipos de propiedad y devuelve todos los nombres de que se asignan a los identificadores de especificado. 
+Si _lppPropTags_ apunta a una matriz de etiquetas de propiedad válida con uno o más identificadores de propiedad y _lpPropSetGuid_ apunta a un conjunto de propiedades válido, **GetNamesFromIDs** omite el conjunto de propiedades y los tipos de propiedad y devuelve todos los nombres. que se asignan a los identificadores especificados. 
   
-Si _lppPropTags_ puntos en una matriz de etiqueta de la propiedad valid con uno o varios identificadores de propiedad y _lpPropSetGuid_ es NULL, **GetNamesFromIDs** devuelve todos los nombres que se asignan a los identificadores de especificado. 
+Si _lppPropTags_ apunta a una matriz de etiquetas de propiedad válida con uno o más identificadores de propiedad y _lpPropSetGuid_ es null, **GetNamesFromIDs** devuelve todos los nombres que se asignan a los identificadores especificados. 
   
-Si un identificador especificado no tiene un nombre, **GetNamesFromIDs** devuelve NULL en lugar de ese identificador en la estructura devuelta en _lpppPropNames_ y también devuelve MAPI_W_ERRORS_RETURNED. 
+Si un identificador especificado no tiene un nombre, **GetNamesFromIDs** devuelve null en el lugar de ese identificador en la estructura devuelta en _lpppPropNames_ y también devuelve MAPI_W_ERRORS_RETURNED. 
   
-Si _lpPropSetGuid_ y _lppPropTags_ son NULL, **GetNamesFromIDs** asigna una nueva matriz de etiqueta de propiedad y devuelve todos los nombres de todas las propiedades con nombre para el objeto. 
+Si tanto _lpPropSetGuid_ como _lppPropTags_ son NULL, **GetNamesFromIDs** asigna una nueva matriz de etiquetas de propiedad y devuelve todos los nombres de todas las propiedades con nombre del objeto. 
   
-Cuando no hay ningún nombre que se va a devolver, quizás porque no hay ninguna propiedad en el conjunto de propiedades solicitado o todas las propiedades son de un tipo excluido por los indicadores, **GetNamesFromIDs** hace lo siguiente: 
+Cuando no hay ningún nombre que devolver, quizá porque no hay propiedades en el conjunto de propiedades solicitadas o todas las propiedades son de un tipo excluido por los marcadores, **GetNamesFromIDs** hace lo siguiente: 
   
 - Devuelve S_OK.
     
-- Asigna una nueva estructura de **elemento SPropTagArray** , al establecer al miembro **cValues** en 0. 
+- Asigna una nueva estructura **SPropTagArray** , estableciendo el miembro **cValues** en 0. 
     
 - Establece el contenido de _lpcPropNames_ en 0. 
     
-- El contenido de _lpppPropNames_ se establece en NULL. 
+- Establece el contenido de _lpppPropNames_ en NULL. 
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si los puntos de _lpPropSetGuid_ a un conjunto de propiedades válido y _lppPropTags_ es NULL, el resultado es indefinido. Puede usar una de las siguientes estrategias: 
+Si _lpPropSetGuid_ apunta a un conjunto de propiedades válido y _lppPropTags_ es null, el resultado es undefined. Puede usar una de las siguientes estrategias: 
   
-- Omitir el conjunto de propiedades y devolver los nombres de los identificadores en la matriz de la etiqueta de propiedad.
+- Omitir el conjunto de propiedades y devolver los nombres de los identificadores en la matriz de etiquetas de propiedades.
     
-- Devolver los nombres de los identificadores de sólo en la matriz de la etiqueta de propiedad que pertenecen al conjunto de propiedades especificado.
+- Devolver los nombres de solo los identificadores de la matriz de etiquetas de propiedades que pertenecen al conjunto de propiedades especificado.
     
-- Producirá un error en la llamada, devolución de MAPI_E_INVALID_PARAMETER. 
+- Suspenda la llamada, devolviendo MAPI_E_INVALID_PARAMETER. 
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar todas las propiedades de un objeto con nombre, debe llamar primero al método del objeto [IMAPIProp::GetPropList](imapiprop-getproplist.md) y, a continuación, pase los identificadores devueltos que están por encima del rango de 0 x 8000 a **GetNamesFromIDs**.
+Para recuperar todas las propiedades con nombre de un objeto, primero debe llamar al método [IMAPIProp:: GetPropList](imapiprop-getproplist.md) del objeto y, a continuación, pasar los identificadores devueltos que están por encima del intervalo 0X8000 a **GetNamesFromIDs**.
   
-Si se pasan un conjunto de propiedades válido, pero no una matriz de la etiqueta de propiedad válido, esté preparado para resultados impredecibles. Algunas implementaciones de **GetNamesFromIDs** omitir el conjunto de propiedades y devuelven los nombres de los identificadores en la matriz de la etiqueta de propiedad. Algunas implementaciones devolver MAPI_E_INVALID_PARAMETER. Aún otras implementaciones de devuelven nombres para los identificadores de todas las propiedades en el conjunto de propiedades. Si el conjunto de propiedades es PS_PUBLIC_STRINGS, **GetNamesFromIDs** puede devolver todos los nombres que nunca se crearon. Si el proveedor de servicios almacena una propiedad en los identificadores de asociados con las cadenas públicas es irrelevante. 
+Si pasa un conjunto de propiedades válido, pero no una matriz de etiquetas de propiedad válida, prepárese para los resultados impredecibles. Algunas implementaciones de **GetNamesFromIDs** ignoran el conjunto de propiedades y devuelven los nombres de los identificadores en la matriz de etiquetas de propiedades. Algunas implementaciones devuelven MAPI_E_INVALID_PARAMETER. Todavía otras implementaciones devuelven los nombres de los identificadores de todas las propiedades del conjunto de propiedades. Si el conjunto de propiedades es PS_PUBLIC_STRINGS, **GetNamesFromIDs** puede devolver todos los nombres que se hayan creado en algún momento. El hecho de que el proveedor de servicios almacene una propiedad en los identificadores asociados a las cadenas públicas es irrelevante. 
   
-Cuando haya terminado con los nombres de propiedad, compruebe el contenido del parámetro _lpcPropNames_ para determinar si los nombres se han devuelto. Si es así, llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria que señala _lppPropTags_ y _lpppPropNames_ cuando se devuelve un resultado correcto. Una llamada a **MAPIFreeBuffer** es suficiente para cada parámetro; no es necesario que recorrer la matriz de punteros y libre individualmente cada estructura **MAPINAMEID** . 
+Cuando haya terminado con los nombres de propiedad, compruebe el contenido del parámetro _lpcPropNames_ para determinar si se han devuelto nombres. Si es así, llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria a la que apunta _lppPropTags_ y _lpppPropNames_ cuando se devuelve un resultado correcto. Una llamada a **MAPIFreeBuffer** es suficiente para cada parámetro; no es necesario atravesar la matriz de punteros y liberar cada estructura **MAPINAMEID** de forma individual. 
   
-Para obtener más información acerca de las propiedades con nombre, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
+Para obtener más información acerca de las propiedades con nombre, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI, utiliza el método **IMAPIProp::GetNamesFromIDs** para buscar propiedades con nombre que se han asignado anteriormente.  <br/> |
+|SingleMAPIPropListCtrl. cpp  <br/> |CSingleMAPIPropListCtrl:: FindAllNamedProps  <br/> |MFCMAPI usa el método **IMAPIProp:: GetNamesFromIDs** para buscar propiedades con nombre que se han asignado anteriormente.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -162,7 +162,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
+[Propiedades con nombre MAPI](mapi-named-properties.md)
   
-[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
+[Uso de macros para el control de errores](using-macros-for-error-handling.md)
 

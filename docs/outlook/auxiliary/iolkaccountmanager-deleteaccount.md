@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: Elimina la cuenta especificada.
-ms.openlocfilehash: 1c0b246af10dac1af9c61f368d082a92c7b3616a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e39b7b9af57f64dd124e1bf836db68664709b8c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322214"
 ---
 # <a name="iolkaccountmanagerdeleteaccount"></a>IOlkAccountManager::DeleteAccount
 
@@ -28,17 +28,17 @@ HRESULT IOlkAccountManager::DeleteAccount (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwAcctID_
   
-> [entrada] El identificador de cuenta de la cuenta que se va a eliminar.
+> a IDENTIFICADOR de cuenta de la cuenta que se va a eliminar.
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La llamada se ha realizado correctamente  <br/> |
+|S_OK  <br/> |La llamada se realizó correctamente  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtiene un enumerador para las cuentas de la categoría específica o tipo.
-ms.openlocfilehash: f9b332c0bbc90b1a8f5f944492448055f23c0668
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322053"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pclsidCategory_
   
@@ -73,11 +73,11 @@ _ppEnum_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
 Especificar NULL para la categoría, devuelve un enumerador de todas las cuentas del tipo especificado. De forma similar, si se especifica NULL para el tipo de, devuelve un enumerador de todas las cuentas de la categoría especificada.
   
- **IOlkAccountManager::EnumerateAccounts** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ), y está intentando enumerar las cuentas que implementan la libreta de direcciones (*prgclsidCategory* es **CLSID_OlkAddressBook** ), al llamar a ** IOlkAccountManager::EnumerateAccounts** no devolverá la cuenta de Exchange en el enumerador de cuentas *ppEnum* . 
+ **IOlkAccountManager::EnumerateAccounts** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ) y está tratando de enumerar cuentas que implementan la libreta de direcciones (*prgclsidCategory* es **CLSID_OlkAddressBook** ), llamar a ** IOlkAccountManager:: EnumerateAccounts** no devolverá la cuenta de Exchange en el enumerador accounts *ppEnum* . 
   
 ## <a name="see-also"></a>Vea también
 

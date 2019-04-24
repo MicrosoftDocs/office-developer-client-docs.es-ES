@@ -9,27 +9,27 @@ api_type:
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328549"
 ---
 # <a name="property-names-and-property-sets"></a>Nombres de propiedad y conjuntos de propiedades
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El nombre de cada propiedad con nombre consta de dos partes:
+El nombre de cada propiedad con nombre tiene dos partes:
   
-- Un identificador único global o GUID, que especifica un conjunto de propiedades.
+- Identificador único global, o GUID, que especifica un conjunto de propiedades.
     
-- Una cadena de caracteres Unicode o el valor numérico de 32 bits. 
+- Una cadena de caracteres Unicode o un valor numérico de 32 bits. 
     
-Nombres de propiedades con nombre se describen mediante una estructura [MAPINAMEID](mapinameid.md) . Esta estructura contiene un miembro del grupo de propiedad, un miembro para especificar el nombre de formato numérico o de cadena y un miembro para la identificación de formato que se usa. Dado que el conjunto de propiedades es parte del nombre de la propiedad, no es opcional. MAPI ha definido varios conjuntos de propiedades para que usen los clientes y proveedores de servicios, pero si un conjunto de propiedades existentes es inadecuado, se puede definir un nuevo conjunto de propiedades. Los clientes y proveedores de servicios pueden definir sus propios conjuntos de propiedades mediante una llamada a función [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) . Normalmente, estos conjuntos de propiedades se crean para las aplicaciones cliente personalizadas. 
+Los nombres de las propiedades con nombre se describen con una estructura [MAPINAMEID](mapinameid.md) . Esta estructura contiene un miembro de conjunto de propiedades, un miembro para especificar el nombre en formato numérico o de cadena, y un miembro para identificar el formato que se va a usar. Como el conjunto de propiedades forma parte del nombre de la propiedad, no es opcional. MAPI ha definido varios conjuntos de propiedades para que los utilicen los clientes y los proveedores de servicios, pero si un conjunto de propiedades existente es inadecuado, se puede definir un nuevo conjunto de propiedades. Los clientes y los proveedores de servicios pueden definir sus propios conjuntos de propiedades llamando a la función [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) . Por lo general, estos conjuntos de propiedades se crean para aplicaciones cliente personalizadas. 
   
-Conjuntos de propiedades de MAPI se representan mediante las siguientes constantes:
+Los conjuntos de propiedades de MAPI se representan mediante las siguientes constantes:
   
 PS_MAPI
   
@@ -45,13 +45,13 @@ PS_ROUTING_DISPLAY_NAME
   
 PS_ROUTING_ENTRYID
   
-El conjunto de propiedades PS_MAPI está reservado; se usa por los proveedores de servicio para generar los nombres de propiedades con identificadores por debajo del rango con nombre de propiedad. El conjunto de propiedades PS_PUBLIC_STRINGS se usa en los clientes para propiedades con nombre de los mensajes IPM. Debido a que las propiedades con nombre en el conjunto de propiedades PS_PUBLIC_STRINGS aparecen en la interfaz de usuario de un cliente, los mensajes no visible, como aquellas que pertenecen a la clase de mensaje IPC deben evitar la creación de las propiedades con este conjunto de propiedades con nombre. En su lugar, deben crear propiedades en el intervalo específico de la clase de mensaje, 0x6800 a través de 0x7FFF.
+El conjunto de propiedades PS_MAPI está reservado; lo usan los proveedores de servicios para generar nombres para propiedades con identificadores por debajo del intervalo de propiedades con nombre. Los clientes usan el conjunto de propiedades PS_PUBLIC_STRINGS para las propiedades con nombre de los mensajes IPM. Dado que las propiedades con nombre en el conjunto de propiedades PS_PUBLIC_STRINGS aparecen en la interfaz de usuario de un cliente, los mensajes no visibles como los que pertenecen a la clase de mensaje IPC deben evitar crear propiedades con nombre con esta propiedad establecida. En su lugar, deben crear propiedades en el rango específico de clase de mensaje, 0x6800 a 0x7FFF.
   
-Los otros conjuntos de propiedades mantenga propiedades con nombre que describa a los destinatarios que suelen ser miembros de una lista de distribución. Que contiene el mismo tipo de información como las propiedades que están asociadas con las propiedades de la lista de destinatarios, las propiedades de estos conjuntos de propiedades se entienden que las puertas de enlace requieren asignación para un sistema de mensajería de destino. Debido a que hay cinco tipos de información para describir las propiedades, MAPI ha definido cinco conjuntos de propiedades diferentes. Establece un cliente envía un mensaje que debe incluir una dirección y el tipo de dirección para sus miembros de la lista enrutamiento asigna una propiedad con nombre para cada miembro de la PS_ROUTING_EMAIL_ADDRESSES y la propiedad PS_ROUTING_ADDRTYPE. Esto garantiza que la dirección y el tipo de dirección siguen siendo viables cuando se envían a un sistema de mensajería externo.
+Los otros conjuntos de propiedades contienen propiedades con nombre que describen destinatarios que suelen ser miembros de una lista de enrutamiento. Al contener el mismo tipo de información que las propiedades que se asocian a las propiedades de la lista de destinatarios, las propiedades de estos conjuntos de propiedades se entienden mediante puertas de enlace para requerir asignación para un sistema de mensajería de destino. Debido a que hay cinco tipos de información para describir propiedades, MAPI ha definido cinco conjuntos de propiedades diferentes. Un cliente que envía un mensaje que debe incluir una dirección y un tipo de dirección para los miembros de la lista de enrutamiento asigna una propiedad con nombre para cada miembro de los conjuntos de propiedades PS_ROUTING_EMAIL_ADDRESSES y PS_ROUTING_ADDRTYPE. Esto garantiza que la dirección y el tipo de dirección sigan siendo viables cuando se envíen a un sistema de mensajería externo.
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
+[Propiedades con nombre MAPI](mapi-named-properties.md)
 

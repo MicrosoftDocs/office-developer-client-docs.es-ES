@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e6a180ceb325a705ebf226bb728c52cce7396490
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328971"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contrae una categoría de tabla expandida, quitar los encabezados de nivel inferior y filas de la hoja que pertenecen a la categoría de la vista de tabla.
+Contrae una categoría de tabla expandida, quitando los títulos de nivel inferior y las filas de hoja que pertenecen a la categoría de la vista de tabla.
   
 ```cpp
 HRESULT CollapseRow(
@@ -36,29 +36,29 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbInstanceKey_
   
-> [entrada] El número de bytes de la propiedad PR_INSTANCE_KEY indicada por el parámetro _pbInstanceKey_ . 
+> a El número de bytes de la propiedad PR_INSTANCE_KEY a la que apunta el parámetro _pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [entrada] Un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de encabezado de la categoría. 
+> a Un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de encabezado de la categoría. 
     
  _ulFlags_
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  _lpulRowCount_
   
-> [out] Un puntero al número total de filas que se va a quitar de la vista de tabla.
+> contempla Un puntero al número total de filas que se van a quitar de la vista de tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha realizado correctamente la operación de contraer.
+> La operación de contracción se realizó correctamente.
     
 MAPI_E_NOT_FOUND 
   
@@ -66,25 +66,25 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_INVALID_ENTRYID 
   
-> La fila identificada por el parámetro _pbInstanceKey_ no existe. Este error es una alternativa a MAPI_E_NOT_FOUND; proveedores de servicios pueden devolver cualquiera de ellas. 
+> La fila identificada por el parámetro _pbInstanceKey_ no existe. Este error es una alternativa a MAPI_E_NOT_FOUND; los proveedores de servicios pueden devolver cualquiera de los dos. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::CollapseRow** contrae una categoría de tabla y lo quita de la vista de tabla. Las filas están contraídas empezando por la fila identificada por la propiedad **PR_INSTANCE_KEY** indicada por el parámetro _pbInstanceKey_ . Se devuelve el número de filas que se han quitado de la vista en el contenido del parámetro _lpulRowCount_ . 
+El método **IMAPITable:: CollapseRow** contrae una categoría de tabla y la quita de la vista de tabla. Las filas se contraen comenzando en la fila identificada por la propiedad **PR_INSTANCE_KEY** a la que señala el parámetro _pbInstanceKey_ . El número de filas que se quitan de la vista se devuelve en el contenido del parámetro _lpulRowCount_ . 
   
-Nunca se generan notificaciones para las filas de tabla que se quitan de una vista como resultado de una operación de contracción. 
+Las notificaciones nunca se generan para las filas de tabla que se quitan de una vista como resultado de una operación de contracción. 
   
-Cuando se contrae una fila que se define mediante un marcador fuera de la vista, el marcador se mueve para que apunte a la siguiente fila visible. 
+Cuando una fila definida por un marcador está contraída de la vista, el marcador se mueve para que apunte a la siguiente fila visible. 
   
-Para obtener más información acerca de las tablas ordenadas por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
+Para obtener más información acerca de las tablas clasificadas por categorías, vea [ordenar y categorización](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI usa el método **IMAPITable::CollapseRow** para contraer una categoría de tabla.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa el método **IMAPITable:: CollapseRow** para contraer una categoría de tabla.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 635525a1c2c3234d724534d225eb07022afc9956
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 827cdb919499a068f7932d8f1f7ec264ddc5b47c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328556"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592125"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Copia un valor de propiedad único desde una ubicación de origen a una ubicación de destino. 
+Copia un único valor de propiedad desde una ubicación de origen a una ubicación de destino. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 SCODE PropCopyMore(
@@ -42,29 +42,29 @@ SCODE PropCopyMore(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValueDest_
   
-> [out] Puntero a la ubicación a la que esta función escribe una estructura de [SPropValue](spropvalue.md) define el valor de la propiedad copiados. 
+> contempla Puntero a la ubicación a la que esta función escribe una estructura [SPropValue](spropvalue.md) que define el valor de la propiedad copiada. 
     
  _lpSPropValueSrc_
   
-> [entrada] Puntero a la estructura [SPropValue](spropvalue.md) que contiene el valor de la propiedad que se va a copiar. 
+> a Puntero a la estructura [SPropValue](spropvalue.md) que contiene el valor de la propiedad que se va a copiar. 
     
  _lpfAllocMore_
   
-> [entrada] Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) que se usará para asignar memoria adicional si la ubicación de destino no es lo suficientemente grande como para contener la propiedad que se va a copiar. 
+> a Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) que se va a usar para asignar memoria adicional si la ubicación de destino no es lo suficientemente grande como para contener la propiedad que se va a copiar. 
     
  _lpvObject_
   
-> [entrada] Puntero a un objeto para el que **MAPIAllocateMore** asignar espacio si es necesario. 
+> a Puntero a un objeto para el que **MAPIAllocateMore** asignará espacio si es necesario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> El valor de propiedad único se ha copiado correctamente.
+> El valor de la propiedad única se ha copiado correctamente.
     
 MAPI_E_NO_SUPPORT
   
@@ -72,10 +72,10 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación de cliente o un proveedor de servicios puede usar la función **PropCopyMore** para copiar una propiedad fuera de una tabla que se va a ser liberados para poder utilizarlo en otro lugar. 
+Una aplicación cliente o un proveedor de servicios puede usar la función **PropCopyMore** para copiar una propiedad de una tabla que está a punto de liberarse para poder usarla en otro lugar. 
   
- **PropCopyMore** no es necesario asignar memoria a menos que el valor de la propiedad copió es de un tipo, como PT_STRING8, que no cabe en una estructura [SPropValue](spropvalue.md) . Para estas propiedades de gran tamaño, la función asigna memoria mediante la función de [MAPIAllocateMore](mapiallocatemore.md) a la que se pasa un puntero en el parámetro _lpfAllocMore_ . 
+ **PropCopyMore** no necesita asignar memoria a menos que el valor de la propiedad copiado sea de un tipo, como PT_STRING8, que no quepa en una estructura [SPropValue](spropvalue.md) . Para estas propiedades de gran tamaño, la función asigna memoria mediante la función [MAPIAllocateMore](mapiallocatemore.md) a la que se pasa un puntero en el parámetro _lpfAllocMore_ . 
   
-Injudicious uso de memoria de fragmentos de **PropCopyMore** ; Considere la posibilidad de usar la función [ScCopyProps](sccopyprops.md) en su lugar. 
+Uso inrazonable de la memoria de los fragmentos de **PropCopyMore** ; considere la posibilidad de usar la función [ScCopyProps](sccopyprops.md) en su lugar. 
   
 

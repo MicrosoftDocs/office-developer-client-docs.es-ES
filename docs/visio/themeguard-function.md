@@ -6,25 +6,25 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a556eadc-9ee6-7a29-ca05-6250b612790c
-description: Protege las celdas de formato de una forma para asegurarse de que usan los aspectos apropiados del tema actual.
-ms.openlocfilehash: 10a7772995b9cc22e53ff577b2f663d7c97d0816
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Protege las celdas de formato de una forma para garantizar que usan los aspectos apropiados del tema actual.
+ms.openlocfilehash: c20d43f9d03296a3c529a6c8f59cf27489dcdc51
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326757"
 ---
 # <a name="themeguard-function"></a>Función THEMEGUARD
 
-Protege las celdas de formato de una forma para asegurarse de que usan los aspectos apropiados del tema actual.
+Protege las celdas de formato de una forma para garantizar que usan los aspectos apropiados del tema actual.
   
 ## <a name="syntax"></a>Sintaxis
 
-THEMEGUARD()
+THEMEGUARD ()
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Aplica la función THEMEGUARD a una celda no se protege el formato manual de la misma manera que hace función aplicar la protección. Si se aplica formato a la forma en la interfaz de usuario o mediante programación, mediante la automatización, se reemplaza la fórmula THEMEGUARD, a menos que incluya la función SETATREFEXPR en la fórmula para almacenar el valor de formato manual. 
+Si se aplica la función THEMEGUARD a una celda, no se protege el formato manual de la misma forma que si se aplicase la función GUARD. Si aplica formato a la forma en la interfaz de usuario o mediante programación, por medio de la automatización, se reemplaza la fórmula THEMEGUARD, a menos que incluya la función SETATREFEXPR en la fórmula para almacenar el valor de formato manual. 
   
 ## <a name="example"></a>Ejemplo
 

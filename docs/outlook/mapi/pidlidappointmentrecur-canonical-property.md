@@ -13,39 +13,39 @@ api_type:
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: de50616664048af6b931a09df7c65461e9ee3399
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331783"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>Propiedad canónica PidLidAppointmentRecur
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica las fechas y horas cuando se produce una serie periódica mediante uno de los patrones de periodicidad y los intervalos que se especifican en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Especifica la fecha y la hora en que tiene lugar una serie periódica mediante uno de los intervalos y patrones de periodicidad especificados en [[ms-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptRecur  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008216  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008216  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Calendario  <br/> |
+|Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica las fechas y horas cuando una serie periódica se produce mediante uno de los patrones de periodicidad y rangos detalla en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). El valor de esta propiedad también contiene información sobre las excepciones modificadas y eliminadas; información como las fechas, asunto, ubicación y otras propiedades de excepciones. Los datos binarios en esta propiedad para los elementos de calendario periódicos se almacenan como la estructura de **AppointmentRecurrencePattern** . Esta propiedad no debe existir en los elementos de calendario de una sola instancia. 
+Esta propiedad especifica la fecha y la hora en que tiene lugar una serie periódica mediante uno de los intervalos y patrones de periodicidad descritos en [[ms-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). El valor de esta propiedad también contiene información sobre las excepciones modificadas y eliminadas; información como fechas, asunto, ubicación y otras propiedades de las excepciones. Los datos binarios de esta propiedad para los elementos de calendario periódicos se almacenan como la estructura **AppointmentRecurrencePattern** . Esta propiedad no debe existir en elementos de calendario de instancia única. 
   
-Existen algunas limitaciones para las repeticiones:
+Hay algunas limitaciones en la periodicidad:
   
-- No deben iniciar varias instancias en el mismo día.
+- No se deben iniciar varias instancias en el mismo día.
     
-- No deben superponerse repeticiones. En concreto, debe producir una excepción que modifica la fecha de inicio de una instancia de la serie periódica en una fecha que se encuentra después del final de la instancia anterior y el inicio de la siguiente aparición de la serie periódica. El mismo es true si las instancias anteriores o siguiente de la serie periódica son excepciones.
+- Las rePeticiones no deben superponerse. Concretamente, una excepción que modifica la fecha de inicio de una instancia de la serie periódica debe producirse en una fecha posterior al final de la instancia anterior y el inicio de la siguiente repetición de la serie periódica. Lo mismo sucede si las instancias anteriores o siguientes de la serie periódica son excepciones.
     
-La programación de una serie periódica está determinada por su patrón de periodicidad y el intervalo.
+La programación de una serie periódica viene determinada por su patrón y intervalo de periodicidad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,19 +53,19 @@ La programación de una serie periódica está determinada por su patrón de per
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica las propiedades y el modelo de interacción para correo electrónico y otros avisos de objeto.
+> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros recordatorios de objetos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -75,9 +75,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

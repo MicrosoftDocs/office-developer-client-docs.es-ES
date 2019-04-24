@@ -8,15 +8,15 @@ localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
 description: Especifica la accountsendstamp secundaria para el mensaje.
 ms.openlocfilehash: 3aa88a1fd5a73cc4ae2e990e6dad0697083bb694
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327716"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
-Especifica la marca "Enviar" de cuenta secundaria para el mensaje.
+Especifica la marca de la cuenta secundaria "enviar" para el mensaje.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,7 +29,7 @@ Especifica la marca "Enviar" de cuenta secundaria para el mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se aplica a un objeto de mensaje MAPI. Para un mensaje recibido, la marca "Enviar" de cuenta secundaria indica qué cuenta se debe enviar un directa o una respuesta con, si no se puede enviar la reenviar o responder con la cuenta principal. Para un mensaje saliente, la cuenta secundaria "Enviar" marca determina con qué cuenta para enviar el mensaje, si no se puede enviar el mensaje con la cuenta principal. Su valor es el valor [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) desde la interfaz de [IOlkAccount](iolkaccount.md) de la cuenta con la que se envía el mensaje. 
+Esta propiedad se aplica a un objeto de mensaje MAPI. Para un mensaje recibido, la marca de la cuenta secundaria "enviar" indica a qué cuenta se debe enviar un reenvío o respuesta, si no se puede enviar el reenvío o la respuesta con la cuenta principal. Para un mensaje saliente, la marca "enviar" de la cuenta secundaria determina con qué cuenta enviar el mensaje, si no se puede enviar el mensaje con la cuenta principal. Su valor es el valor [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) de la interfaz [IOlkAccount](iolkaccount.md) de la cuenta con la que se envía el mensaje. 
   
 ## <a name="see-also"></a>Vea también
 

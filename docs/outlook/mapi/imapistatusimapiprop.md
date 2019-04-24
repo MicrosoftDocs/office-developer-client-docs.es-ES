@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331531"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
@@ -25,31 +25,31 @@ ms.locfileid: "22565385"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información de estado sobre el subsistema MAPI, la libreta de direcciones integrada y la cola de MAPI. Un proveedor de servicios implementa **IMAPIStatus** para proporcionar información sobre su propio estado. 
+Proporciona información de estado acerca del subsistema MAPI, la libreta de direcciones integrada y la cola MAPI. Un proveedor de servicios implementa **IMAPIStatus** para proporcionar información sobre su propio estado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Objetos de estado  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de servicios y MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Objetos de estado  <br/> |
+|Implementado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIStatus  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISTATUS  <br/> |
-|Modelo de transacciones:  <br/> |Nontransacted  <br/> |
+|Modelo de transacción:  <br/> |No transactd  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
 |[ValidateState](imapistatus-validatestate.md) <br/> |Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios.  <br/> |
-|[Diálogo Configuración](imapistatus-settingsdialog.md) <br/> |Muestra una hoja de propiedades que permite al usuario que cambie la configuración de un proveedor de servicios.  <br/> |
-|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifica la contraseña de un proveedor de servicios sin mostrar la interfaz de usuario.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Obliga a todos los mensajes en espera de ser enviados o recibidos para cargarse o descargarse inmediatamente.  <br/> |
+|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios.  <br/> |
+|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario.  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Obliga a que se carguen o descarguen inmediatamente todos los mensajes que esperan ser enviados o recibidos.  <br/> |
    
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -58,19 +58,19 @@ Proporciona información de estado sobre el subsistema MAPI, la libreta de direc
    
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de estado que implementa MAPI admiten los siguientes métodos:
+Los objetos de estado que implementa MAPI admiten los métodos siguientes:
   
-|**Objeto de estado**|**Métodos admitidos**|
+|**Status (objeto)**|**Métodos admitidos**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |**ValidateState**  <br/> |
-|Libreta de direcciones MAPI  <br/> |**ValidateState**  <br/> |
+|Subsistema MAPI  <br/> |Solo **ValidateState**  <br/> |
+|Libreta de direcciones MAPI  <br/> |Solo **ValidateState**  <br/> |
 |Cola MAPI  <br/> |**ValidateState** y **FlushQueues** <br/> |
    
-Los objetos de estado que implementa MAPI son necesarios para tener una versión de solo lectura de los métodos de la interfaz de [IMAPIProp](imapipropiunknown.md) y para admitir el método **ValidateState** . Los proveedores de transporte también deben admitir **FlushQueues**. Todos los proveedores deben admitir **diálogo Configuración**; soporte técnico para **ChangePassword** es opcional. 
+Los objetos de estado que implementa MAPI deben tener una versión de solo lectura de los métodos de la interfaz [IMAPIProp](imapipropiunknown.md) y para admitir el método **ValidateState** . Los proveedores de transporte también deben ser compatibles con **FlushQueues**. Todos los proveedores deben ser compatibles con **SettingsDialog**; la compatibilidad con **ChangePassword** es opcional. 
   
-Los clientes usan los objetos de estado para realizar la configuración y para obtener más información sobre el estado de la sesión. Tienen acceso a un objeto de estado llamando al método **OpenStatusEntry** de un objeto de inicio de sesión del proveedor de servicio o el método [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto de estado. 
+Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Tienen acceso a un objeto status mediante una llamada al método **OpenStatusEntry** de un objeto de inicio de sesión de un proveedor de servicios o el método [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto status. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

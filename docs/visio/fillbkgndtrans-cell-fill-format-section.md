@@ -9,24 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Determina el nivel de transparencia del color de fondo de la trama de relleno de la forma.
-ms.openlocfilehash: c8dcec8cc0bdb87700bb85754298ec4755bae7d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 64c5d09fb18f089769e025893b9fac8b1878fca1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322487"
 ---
-# <a name="fillbkgndtrans-cell-fill-format-section"></a>Celda FillBkgndTrans (sección Formato de relleno)
+# <a name="fillbkgndtrans-cell-fill-format-section"></a>Celda FillBkgndTrans (Sección de formato de relleno)
 
 Determina el nivel de transparencia del color de fondo de la trama de relleno de la forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|
-          0 -100
-  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Los valores se redondean al porcentaje medio más próximo. El valor 100% hace que sea totalmente transparente. Aunque en la página de dibujo una forma con un relleno totalmente transparente y otra sin relleno aparecen igual, la interacción con los demás objetos de la página se producirá como si su transparencia fuera del cero por ciento.
   

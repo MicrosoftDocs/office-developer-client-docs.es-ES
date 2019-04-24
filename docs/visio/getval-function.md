@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
 description: Obtiene el valor de una celda y no recalcula la fórmula cuando cambia el valor de la celda.
-ms.openlocfilehash: b4c8ea14b7184101a360c9f5ee4af03fd178aa6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327317"
 ---
 # <a name="getval-function"></a>Función GETVAL
 
@@ -22,13 +22,13 @@ Obtiene el valor de una celda y no recalcula la fórmula cuando cambia el valor 
   
 ## <a name="syntax"></a>Sintaxis
 
-GETVAL (** *nombreDeCelda* **) 
+GETVAL (* * *cellname* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _nombreDeCelda_ <br/> |Obligatorio  <br/> |**String** <br/> |El nombre de la celda de la cual obtener el valor.  <br/> |
+| _cellname_ <br/> |Obligatorio  <br/> |**String** <br/> |El nombre de la celda de la cual obtener el valor.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 

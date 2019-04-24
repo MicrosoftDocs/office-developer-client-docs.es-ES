@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328857"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El método **SortTable** ordena las filas de la tabla, según la ordenación criterios. 
+El método **IMAPITable:: SortTable** ordena las filas de la tabla, en función de los criterios de ordenación. 
   
 ```cpp
 HRESULT SortTable(
@@ -32,83 +32,83 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpSortCriteria_
   
-> [entrada] Puntero a una estructura [SSortOrderSet](ssortorderset.md) que contiene los criterios de ordenación que se debe aplicar. Pasando una estructura **SSortOrderSet** que contiene cero columnas indica que no dispone de la tabla que se deben ordenar en un orden determinado. 
+> a Puntero a una estructura [SSortOrderSet](ssortorderset.md) que contiene los criterios de ordenación que se van a aplicar. Si se pasa una estructura **SSortOrderSet** que contiene cero columnas, indica que no es necesario ordenar la tabla en un orden determinado. 
     
 _ulFlags_
   
-> [entrada] Máscara de bits de indicadores que controla la sincronización de la operación de **SortTable** . Se pueden establecer los siguientes indicadores: 
+> a Máscara de máscara de marcadores que controla la temporización de la operación **IMAPITable:: SortTable** . Se pueden establecer los siguientes indicadores: 
     
 TBL_ASYNC 
   
-> Inicia la operación de forma asincrónica y devuelve antes de completar la operación.
+> Inicia la operación de forma asincrónica y regresa antes de que se complete la operación.
     
 TBL_BATCH 
   
-> Aplaza la finalización de la ordenación hasta que los datos de la tabla están necesarios.
+> Pospone la finalización de la ordenación hasta que se necesiten los datos de la tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de ordenación fue correcta.
+> La operación de ordenación se realizó correctamente.
     
 MAPI_E_BUSY 
   
-> Otra operación está en curso que impide que la operación de ordenación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
+> Hay otra operación en curso que evita que se inicie la operación de ordenación. Debe permitirse que la operación en curso se complete o que deba detenerse.
     
 MAPI_E_NO_SUPPORT 
   
-> La tabla no es compatible con el tipo de ordenación solicitado.
+> La tabla no admite el tipo de ordenación solicitada.
     
 MAPI_E_TOO_COMPLEX 
   
-> La tabla no puede realizar la operación porque el criterio de ordenación determinado indicado por el parámetro _lpSortCriteria_ es demasiado compleja. **SortTable** puede devolver MAPI_E_TOO_COMPLEX en las siguientes condiciones. 
+> La tabla no puede realizar la operación porque los criterios de ordenación señalados por el parámetro _lpSortCriteria_ son demasiado complejos. **SortTable** puede devolver MAPI_E_TOO_COMPLEX en las siguientes condiciones. 
     
-   - Se solicita una operación de ordenación para una columna de propiedad que no se puede ordenar la implementación.
+   - Se ha solicitado una operación de ordenación para una columna de propiedad que la implementación no puede ordenar.
     
-   - La implementación no es compatible con el criterio de ordenación solicitado en el miembro **ulOrder** de la estructura **SSortOrderSet** . 
+   - La implementación no admite el criterio de ordenación solicitado en el miembro **ulOrder** de la estructura **SSortOrderSet** . 
     
-   - El número de columnas que se deben ordenar, tal como se especifica en el miembro **cSorts** en **SSortOrderSet**, es mayor que la implementación puede tratar.
+   - El número de columnas que se van a ordenar, como se especifica en el miembro **cSorts** en **SSortOrderSet**, es mayor que el que puede controlar la implementación.
     
-   - Se solicita una operación de ordenación, indicada por una etiqueta de propiedad en **SSortOrderSet**, en función de una propiedad que no está en el conjunto disponible o activo y la implementación no admite la ordenación en las propiedades no en el conjunto disponible.
+   - Se solicita una operación de ordenación, tal como indica una etiqueta de propiedad en **SSortOrderSet**, basada en una propiedad que no está en el conjunto disponible o activo y la implementación no admite la ordenación en propiedades que no están en el conjunto disponible.
     
-   - Una propiedad se especifica varias veces en un conjunto de criterio de ordenación, como se indica en varias instancias de la misma etiqueta de propiedad, y la implementación no puede realizar como una operación de ordenación.
+   - Una propiedad se especifica varias veces en un conjunto de ordenación, como se indica en varias instancias de la misma etiqueta de propiedad, y la implementación no puede realizar dicha operación de ordenación.
     
-   - Se solicita una operación de ordenación en función de las columnas de propiedad multivalor con MVI_FLAG y la implementación no admite la ordenación en las propiedades multivalores. 
+   - Se solicita una operación de ordenación basada en columnas de propiedades multivalor mediante MVI_FLAG y la implementación no admite la ordenación de propiedades multivalor. 
     
-   - Una etiqueta de propiedad para una propiedad en **SSortOrderSet** especifica una propiedad o un tipo que no es compatible con la implementación. 
+   - Una etiqueta de propiedad de una propiedad en **SSortOrderSet** especifica una propiedad o un tipo que no es compatible con la implementación. 
     
-   - Una operación de ordenación distinto del que se realiza a través de la tabla de la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) desviar sólo se especifica para una tabla de datos adjuntos que admite este tipo de ordenación.
+   - Una operación de ordenación distinta de la que pasa por la tabla de la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) forward se especifica sólo para una tabla de datos adjuntos que admita este tipo de ordenación.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **SortTable** pedidos las filas en una vista de tabla. Mientras que algunas tablas admiten la ordenación estándar y ordenadas por categorías en varias columnas de clave de ordenación, otras tablas son más limitados en las admite. Los proveedores de la libreta de direcciones normalmente no admiten la ordenación de tablas. Los proveedores de almacén de mensajes normalmente admiten la ordenación en la medida en que mantienen el criterio de ordenación de las carpetas que se produce cuando se ordena una tabla completa (una tabla sin restricciones). 
+El método **IMAPITable:: SortTable** ordena las filas en una vista de tabla. Mientras que algunas tablas admiten la ordenación estándar y por categorías en varias columnas de clave de ordenación, otras tablas están más limitadas en su compatibilidad. Normalmente, los proveedores de libretas de direcciones no admiten la ordenación de tablas. Los proveedores de almacenamiento de mensajes normalmente admiten la ordenación en la medida que conservan el criterio de ordenación de las carpetas que se produce cuando se ordena una tabla completa (una tabla sin restricciones). 
   
-Algunas tablas permiten ordenación que debe realizarse en cualquier columna de la tabla. Otras tablas no; las columnas no incluidas en la vista de tabla no se ven afectadas por una llamada de **SortTable** . Algunas tablas requieren que las claves de ordenación se generan sólo con columnas en el conjunto actual de columna de la tabla. 
+Algunas tablas permiten la ordenación que se va a realizar en cualquier columna de la tabla. Otras tablas no; las columnas que no se incluyen en la vista de tabla no se ven afectadas por una llamada de **SortTable** . Algunas tablas requieren que las claves de ordenación se generen sólo con las columnas del conjunto de columnas actual de la tabla. 
   
-Una tabla puede devolver MAPI_E_NO_SUPPORT o MAPI_E_TOO_COMPLEX de **SortTable** cuando no puede completar una operación de ordenación. Además, no se garantiza que los proveedores de almacén para respetar el criterio de ordenación especificado para tablas de jerarquía. 
+Una tabla puede devolver MAPI_E_NO_SUPPORT o MAPI_E_TOO_COMPLEX de **SortTable** cuando no puede completar una operación de ordenación. Además, no se garantiza que los proveedores de almacenamiento respeten el conjunto de criterios de ordenación especificado para las tablas de jerarquía. 
   
-Cuando hay cero columnas en la estructura de [SSortOrderSet](ssortorderset.md) indicada por el parámetro _lpSortCriteria_ , en la tabla devuelve el conjunto actual de la columna. El criterio de ordenación actual se puede recuperar al llamar al método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) de la tabla. 
+Cuando hay cero columnas en la estructura [SSortOrderSet](ssortorderset.md) apuntado por el parámetro _lpSortCriteria_ , la tabla devuelve el conjunto de columnas actual. El criterio de ordenación actual puede recuperarse llamando al método [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) de la tabla. 
   
-Todos los marcadores de una tabla se invalidan y se deben eliminar cuando se realiza una llamada a **SortTable** , y debe establecerse el marcador BOOKMARK_CURRENT que indica la posición actual del cursor, al principio de la tabla. 
+Todos los marcadores de una tabla están invalidados y deben eliminarse cuando se realiza una llamada a **SortTable** y el marcador BOOKMARK_CURRENT que indica la posición actual del cursor debe establecerse en el principio de la tabla. 
   
-Si realiza una ordenación en una columna que contiene una propiedad multivalor sin establecer el indicador MVI_FLAG, los valores de la columna se tratan como una tupla ordenada por completo. Una comparación de dos columnas con varios valores compara los elementos de columna en orden, informes de la relación de las columnas en la primera desigualdad y devuelve la igualdad sólo si las columnas que se comparan contienen los mismos valores en el mismo orden. Si una columna tiene menos valores que el otro, la relación conocida es un valor nulo en el otro valor.
+Si ordena por una columna que contiene una propiedad con varios valores sin la marca MVI_FLAG establecida, los valores de la columna se tratan como una tupla completamente ordenada. Una comparación de dos columnas con varios valores compara los elementos de columna en orden, informa de la relación de las columnas en la primera desigualdad y devuelve la igualdad sólo si las columnas que se comparan contienen los mismos valores en el mismo orden. Si una columna tiene menos valores que el otro, la relación notificada es la de un valor null en el otro valor.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-**SortTable** funciona de forma sincrónica a menos que establezca uno de los indicadores. Si se establece la marca TBL_BATCH, **SortTable** pospone la operación de ordenación a menos que solicitar los datos. Si se establece la marca TBL_ASYNC, **SortTable** funciona de forma asincrónica, potencialmente devolver antes de la finalización de la operación. 
+**SortTable** funciona de forma sincrónica a menos que establezca una de las marcas. Si establece la marca TBL_BATCH, **SortTable** pospone la operación de ordenación a menos que solicite los datos. Si se establece la marca TBL_ASYNC, **SortTable** funciona de forma asincrónica, lo que puede devolverse antes de la finalización de la operación. 
   
-Llame al método [IMAPITable::Abort](imapitable-abort.md) para detener una operación asincrónica en curso si la ordenación debe llevarse a cabo inmediatamente. Si no se puede continuar **SortTable** debido a que una o varias operaciones asincrónicas en la tabla están en curso, devuelve MAPI_E_BUSY. 
+Llame al método [IMAPITable:: ABORT](imapitable-abort.md) para detener una operación asincrónica en curso si la ordenación debe realizarse inmediatamente. Si **SortTable** no puede continuar porque una o más operaciones asincrónicas en la tabla están en curso, devuelve MAPI_E_BUSY. 
   
-Para obtener el mejor rendimiento, llame a **SetColumns** para personalizar el conjunto de columnas de la tabla y **Restrict** para limitar el número de filas en la tabla antes de llamar a **SortTable** para llevar a cabo a la ordenación. 
+Para obtener el mejor rendimiento, llame a **SetColumns** para personalizar el conjunto de columnas de la tabla y **Restrict** para limitar el número de filas de la tabla antes de llamar a **SortTable** para realizar la ordenación. 
   
-Cada vez que se produce un error de **SortTable** , el criterio de ordenación que estaba en vigor antes del error todavía está en efecto. 
+Cuando se produce un error en **SortTable** , el criterio de ordenación que estaba en vigor antes del error todavía está en vigor. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IMAPITable::Abort](imapitable-abort.md)
 - [IMAPITable::GetRowCount](imapitable-getrowcount.md)

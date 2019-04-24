@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 47a62b331ff9f1c96576d42797ebb23ed61cd362
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329032"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
@@ -35,41 +35,41 @@ LPADRBOOK FAR * lppAdrBook
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la libreta de direcciones. Los valores válidos son NULL, que indica la interfaz de la libreta de direcciones estándar [IAddrBook](iaddrbookimapiprop.md)y IID_IAddrBook.
+> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la libreta de direcciones. Los valores válidos son NULL, que indica la interfaz de la libreta de direcciones estándar [IAddrBook](iaddrbookimapiprop.md)y IID_IAddrBook.
     
  _ulFlags_
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  _lppAdrBook_
   
-> [out] Un puntero a un puntero a la libreta de direcciones.
+> contempla Un puntero a un puntero a la libreta de direcciones.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Le ha proporcionado el acceso a la libreta de direcciones.
+> Se proporcionó acceso a la libreta de direcciones.
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se ha realizado correctamente, pero no se podrían cargados uno o más proveedores de libreta de direcciones. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se realizó correctamente, pero no se pudieron cargar uno o varios proveedores de la libreta de direcciones. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::OpenAddressBook** se implementa para todos los objetos de soporte técnico de proveedor de servicio. Proveedores de servicios, normalmente acoplado mensaje almacén y los proveedores de transporte, llame a **OpenAddressBook** para obtener acceso a la libreta de direcciones. El puntero **IAddrBook** devuelto se puede usar para una gran variedad de tareas de la libreta de direcciones, incluida la apertura de contenedores de libretas de direcciones, búsqueda de usuarios de mensajería y presentación de los cuadros de diálogo de dirección. 
+El método **IMAPISupport:: OpenAddressBook** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios, por lo general, los proveedores de almacenamiento de mensajes y de transporte de correspondencia estricta, llaman a **OpenAddressBook** para obtener acceso a la libreta de direcciones. El puntero **IAddrBook** devuelto se puede usar para varias tareas de la libreta de direcciones, como abrir los contenedores de la libreta de direcciones, buscar usuarios de mensajería y mostrar cuadros de diálogo de direcciones. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **OpenAddressBook** puede devolver MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de la libreta de direcciones en el perfil actual. Este valor es una advertencia y se debe tratar la llamada como correcta. Incluso si todos los proveedores de la libreta de direcciones no se pudo cargar, **OpenAddressBook** aún se realiza correctamente, devolver MAPI_W_ERRORS_RETURNED y un puntero **IAddrBook** en el parámetro _lppAdrBook_ . Debido a que **OpenAddressBook** siempre devuelve un puntero **IAddrBook** válido, debe liberar cuando haya terminado de usarlo. 
+ **OpenAddressBook** puede devolver MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de la libreta de direcciones en el perfil actual. Este valor es una advertencia y debe tratar la llamada como correcta. Incluso si no se pudieron cargar todos los proveedores de la libreta de direcciones, **OpenAddressBook** todavía se ejecuta correctamente, devuelve MAPI_W_ERRORS_RETURNED y un puntero **IAddrBook** en el parámetro _lppAdrBook_ . Dado que **OpenAddressBook** siempre devuelve un puntero **IAddrBook** válido, debe liberarlo cuando termine de usarlo. 
   
-Si no se pudo cargar uno o más proveedores de libreta de direcciones, llame a [IMAPISupport::GetLastError](imapisupport-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contiene información sobre los proveedores que no se ha cargado. 
+Si no se pudo cargar uno o varios proveedores de la libreta de direcciones, llame a [IMAPISupport:: GetLastError](imapisupport-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contenga información sobre los proveedores que no se cargaron. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

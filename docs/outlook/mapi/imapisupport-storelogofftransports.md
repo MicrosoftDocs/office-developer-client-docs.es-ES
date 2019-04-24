@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b77a58b04e5cdeee7a9e84051a6ed287c1a20115
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30c91ec7a5a28b0c270da5223a2a245fb504d8c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326498"
 ---
 # <a name="imapisupportstorelogofftransports"></a>IMAPISupport::StoreLogoffTransports
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578314"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Solicita la versión ordenada de un almacén de mensajes.
+Solicita la liberación ordenada de un almacén de mensajes.
   
 ```cpp
 HRESULT StoreLogoffTransports(
@@ -33,73 +33,73 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [entrada, salida] Una máscara de bits de indicadores que controla cómo se produce el cierre de sesión de almacén de mensajes. En la entrada, todos los indicadores para este parámetro son mutuamente excluyentes; por llamada, se puede establecer solo uno de los siguientes indicadores:
+> [in, out] Una máscara de máscara de marcadores que controla cómo se produce la cierre de sesión del almacén de mensajes. En la entrada, todas las marcas de este parámetro se excluyen mutuamente; solo se puede establecer una de las siguientes marcas por llamada:
     
 LOGOFF_ABORT 
   
-> Cualquier actividad de proveedor de transporte para este almacén se debe detener antes de cierre de sesión. Control se devuelve al cliente una vez que se ha detenido la actividad y la cola MAPI ha cerrado el almacén de la sesión. Si está produciendo alguna actividad de transporte, no se produce el cierre de sesión y se produce ningún cambio en el comportamiento del proveedor de cola de impresión o de transporte MAPI. Si actualmente no hay ninguna actividad, la cola MAPI libera el almacén. 
+> Cualquier actividad de proveedor de transporte para este almacén debe detenerse antes del cierre de sesión. El control se devuelve al cliente después de que se detenga la actividad y la cola MAPI haya cerrado sesión en el almacén. Si se está llevando a cabo alguna actividad de transporte, no se produce el cierre de sesión y no se produce ningún cambio en la cola MAPI ni en el comportamiento del proveedor de transporte. Si actualmente no hay actividad, la cola MAPI libera el almacén. 
     
 LOGOFF_NO_WAIT 
   
-> La cola MAPI debe liberar el almacén y devolver el control al cliente inmediatamente se envía el correo saliente después de todo que está listo para ser enviado. Si el almacén de mensajes tiene la Bandeja de entrada predeterminada, se recibe ningún mensaje en el proceso y, a continuación, se deshabilita la recepción de más. 
+> La cola MAPI debe liberar el almacén y devolver el control al cliente inmediatamente después de que se envíe todo el correo saliente que está listo para enviarse. Si el almacén de mensajes tiene la bandeja de entrada predeterminada, se recibe cualquier mensaje en proceso y, a continuación, se deshabilita la recepción. 
     
 LOGOFF_ORDERLY 
   
-> La cola MAPI debe liberar el almacén y devolver el control al cliente inmediatamente después de que se complete cualquiera mensajes pendientes de procesamiento. No hay mensajes nuevos se deben procesar. 
+> La cola MAPI debe liberar el almacén y devolver el control al cliente inmediatamente después de que finalice el procesamiento de los mensajes pendientes. No se deben procesar mensajes nuevos. 
     
 LOGOFF_PURGE 
   
-> Funciona de la misma que la marca LOGOFF_NO_WAIT. El indicador LOGOFF_PURGE devuelve el control al autor de la llamada después de la finalización. 
+> Funciona igual que la marca LOGOFF_NO_WAIT. La marca LOGOFF_PURGE devuelve el control al autor de la llamada después de completarse. 
     
 LOGOFF_QUIET 
   
-> El cierre de sesión no debe producirse si está produciendo alguna actividad del proveedor de transporte. Se devuelve el tipo de actividad que tiene lugar como una marca en la salida.
+> El cierre de sesión no debe producirse si tiene lugar una actividad de proveedor de transporte. El tipo de actividad que se lleva a cabo se devuelve como una marca en la salida.
     
     On output, MAPI spooler can return one or more of the following flags:
     
 LOGOFF_COMPLETE 
   
-> Puede completar el cierre de sesión. Se han publicado todos los recursos asociados con el almacén y el objeto se ha invalidado. La cola MAPI ha llevado a cabo o llevará a cabo todas las solicitudes. Método de **IUnknown:: Release** del almacén de mensajes sólo se debe llamar en este momento. 
+> El cierre de sesión puede completarse. Se han lanzado todos los recursos asociados con el almacén y el objeto se ha invalidado. La cola MAPI ha realizado o realizará todas las solicitudes. En este momento, solo debe llamarse al método **IUnknown:: Release** del almacén de mensajes. 
     
 LOGOFF_INBOUND 
   
-> Un mensaje procede actualmente en el almacén de uno o varios proveedores de transporte. 
+> Un mensaje se encuentra actualmente en el almacén de uno o más proveedores de transporte. 
     
 LOGOFF_OUTBOUND 
   
-> Actualmente se que se envía un mensaje desde el almacén por uno o varios proveedores de transporte. 
+> Uno o más proveedores de transporte están enviando un mensaje desde el almacén en este momento. 
     
 LOGOFF_OUTBOUND_QUEUE 
   
-> Actualmente hay mensajes en la cola de salida para el almacén.
+> Actualmente hay mensajes en la cola de salida de la tienda.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El procedimiento de cierre de sesión fue correcto.
+> El procedimiento de cierre de sesión se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::StoreLogoffTransports** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes. Los proveedores de almacén de mensajes llamada **StoreLogoffTransports** para que las aplicaciones cliente de algún control sobre cómo se está cerrando la actividad de proveedor de transporte MAPI identificadores como un almacén de mensajes. 
+El método **IMAPISupport:: StoreLogoffTransports** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **StoreLogoffTransports** para dar a las aplicaciones cliente algún control sobre cómo administra MAPI la actividad del proveedor de transporte a medida que se cierra un almacén de mensajes. 
   
-Si otro proceso tiene el almacén que se cerró sesión abrir para el mismo perfil, MAPI omite una llamada a **StoreLogoffTransports** y devuelve la marca LOGOFF_COMPLETE en el parámetro _lpulFlags_ . 
+Si otro proceso tiene la tienda que se va a cerrar sesión abierta para el mismo perfil, MAPI omite una llamada a **StoreLogoffTransports** y devuelve la marca LOGOFF_COMPLETE en el parámetro _lpulFlags_ . 
   
-El comportamiento del proveedor de almacén de seguir la devolución de **StoreLogoffTransports** debe basarse en el valor de _lpulFlags_, que indica el estado del sistema y transmite las instrucciones del cliente para el comportamiento de cierre de sesión. 
+El comportamiento del proveedor de almacenamiento tras la devolución de **StoreLogoffTransports** debe basarse en el valor de _lpulFlags_, que indica el estado del sistema y transmite instrucciones de cliente para el comportamiento de cierre de sesión. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **StoreLogoffTransports** normalmente se llama desde (método [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) ) del proveedor de almacenamiento. Sin embargo, también se puede llamar desde el método **IUnknown:: Release** del almacén de mensajes. Implementar el método de la **versión** de su almacén de mensajes de modo que puede comprobar si una llamada a **StoreLogoffTransports** se ha producido. Si no se ha producido una llamada, llame a **StoreLogoffTransports** con el conjunto de marca LOGOFF_ABORT. 
+ **StoreLogoffTransports** se suele llamar desde un método [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) del proveedor de almacenamiento. Sin embargo, también se puede llamar desde el método **IUnknown:: Release** del almacén de mensajes. Implemente el método **Release** del almacén de mensajes para poder comprobar si se ha producido una llamada a **StoreLogoffTransports** . Si no se ha realizado una llamada, llame a **StoreLogoffTransports** con la marca LOGOFF_ABORT establecida. 
   
-El parámetro _lpulFlags_ se establece en una marca que indica cómo el cliente requiere que el almacén de mensajes para cerrarse. Determinar la configuración adecuada para _ulFlags_ según la configuración del parámetro correspondiente en la llamada a **StoreLogoff**. Es decir, si un cliente llama al método **StoreLogoff** con _ulFlags_ establecida en LOGOFF_ORDERLY, debe llamar a **StoreLogoffTransports** con _ulFlags_ establecida en LOGOFF_ORDERLY. 
+El parámetro _lpulFlags_ se establece en una marca que indica cómo el cliente requiere que se cierre el almacén de mensajes. DeTermine la configuración adecuada para _ulFlags_ basada en la configuración del parámetro correspondiente en la llamada a **StoreLogoff**. Es decir, si un cliente llama al método **StoreLogoff** con _ULFLAGS_ establecido en LOGOFF_ORDERLY, debe llamar a **STORELOGOFFTRANSPORTS** con _ulFlags_ establecido en LOGOFF_ORDERLY. 
   
-Para obtener más información acerca del proceso de cierre de sesión del almacén de mensajes, vea [Cerrando hacia abajo un mensaje Store Provider](shutting-down-a-message-store-provider.md).
+Para obtener más información acerca del proceso de cierre de sesión del almacén de mensajes, consulte [apagar un proveedor de almacenamiento de mensajes](shutting-down-a-message-store-provider.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

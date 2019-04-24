@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: affe86e9d9d34d629915732ec9cf32f20dd29c1d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00a57468c2c43c6f3405c04e2e436fbe9e328887
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332070"
 ---
 # <a name="cbnewspropproblemarray"></a>CbNewSPropProblemArray
 
@@ -25,24 +25,24 @@ ms.locfileid: "22563970"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se asignará para una nueva estructura de [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) . 
+Calcula el número de bytes que se van a asignar para una nueva estructura [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SPropProblemArray** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __cprob_
   
-> Recuento de las estructuras de **SPropProblem** que se deben incluir en la nueva estructura de **SPropProblemArray** . 
+> Número de estructuras **SPropProblem** que se incluirán en la nueva estructura **SPropProblemArray** . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

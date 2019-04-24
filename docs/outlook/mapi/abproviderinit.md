@@ -12,23 +12,23 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: acec07df0b72685cf9ec6b21499c730b72f58c59
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328115"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa un proveedor de la libreta de direcciones para la operación. 
+Inicializa un proveedor de libreta de direcciones para la operación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de la libreta de direcciones  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
 |Llamado por:  <br/> |MAPI  <br/> |
    
 ```cpp
@@ -45,47 +45,47 @@ HRESULT ABProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hInstance_
   
-> [entrada] La instancia de la biblioteca de vínculos dinámicos (DLL) del proveedor de libreta de direcciones que MAPI utiliza cuando vincula. 
+> a La instancia de la biblioteca de vínculos dinámicos (DLL) del proveedor de la libreta de direcciones que MAPI usó cuando se vinculó. 
     
  _lpMalloc_
   
-> [entrada] Puntero a un objeto del asignador de memoria exposición de la interfaz de OLE **IMalloc** . El proveedor de la libreta de direcciones que necesite utilizar este método de asignación cuando se trabaja con ciertas interfaces como **IStream**. 
+> a Puntero a un objeto de asignador de memoria que expone la interfaz OLE **IMalloc** . Es posible que el proveedor de la libreta de direcciones necesite usar este método de asignación al trabajar con determinadas interfaces, como **IStream**. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se utilizará cuando sea necesario por MAPI para asignar memoria. 
+> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se usará en el caso de que MAPI solicite para asignar memoria. 
     
  _lpAllocateMore_
   
-> [entrada] Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) , que se utilizará cuando sea necesario por MAPI para asignar memoria adicional. 
+> a Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) , que se usará cuando sea necesario para la asignación de memoria adicional por parte de MAPI. 
     
  _lpFreeBuffer_
   
-> [entrada] Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará cuando sea necesario por MAPI para liberar memoria. 
+> a Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará en el caso de que MAPI necesite para liberar memoria. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de indicadores. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcas. Se puede establecer la siguiente marca:
     
 MAPI_NT_SERVICE 
   
-> Se está cargando el proveedor en el contexto de un servicio de Windows, un tipo especial de proceso sin acceso a cualquier interfaz de usuario. 
+> El proveedor se está cargando en el contexto de un servicio de Windows, un tipo especial de proceso sin acceso a ninguna interfaz de usuario. 
     
  _ulMAPIVer_
   
-> [entrada] Número de versión de la interfaz de proveedor de servicios (SPI) que MAPI. Se utiliza el archivo DLL. Para el número de versión actual, vea la MAPISPI. Archivo de encabezado H. 
+> a Número de versión de la interfaz del proveedor de servicios (SPI) que MAPI. DLL usa. Para el número de versión actual, vea el MAPISPI. H archivo de encabezado. 
     
  _lpulProviderVer_
   
-> [out] Puntero al número de versión de la SPI que usa este proveedor de libreta de direcciones. 
+> contempla Puntero al número de versión del SPI que usa este proveedor de libreta de direcciones. 
     
  _lppABProvider_
   
-> [out] Puntero a un puntero para el objeto de proveedor de la libreta de direcciones inicializado.
+> contempla Puntero a un puntero al objeto proveedor de la libreta de direcciones inicializado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -95,23 +95,23 @@ S_OK
     
 MAPI_E_VERSION 
   
-> La versión SPI usada por MAPI no es compatible con el SPI usado por este proveedor.
+> La versión de SPI que usa MAPI no es compatible con el SPI que usa este proveedor.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama a la función de punto de entrada **ABProviderInit** para inicializar un proveedor de la libreta de direcciones siguiendo un inicio de sesión de cliente. 
+MAPI llama a la función de punto de entrada **ABProviderInit** para inicializar un proveedor de libreta de direcciones siguiendo un inicio de sesión de cliente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Un proveedor de la libreta de direcciones debe implementar **ABProviderInit** como una función de punto de entrada en el archivo DLL del proveedor. La implementación debe basarse en el prototipo de función **ABPROVIDERINIT** , también especificado en MAPISPI. H. MAPI define **ABPROVIDERINIT** para usar el tipo de llamada de inicialización estándar MAPI, STDMAPIINITCALLTYPE, que hace que **ABProviderInit** que se deben seguir la convención de llamada CDECL. 
+Un proveedor de libreta de direcciones debe implementar **ABProviderInit** como una función de punto de entrada en el archivo DLL del proveedor. La implementación debe basarse en el prototipo de función **ABPROVIDERINIT** , también especificado en MAPISPI. H. MAPI define **ABPROVIDERINIT** para usar el tipo de llamada de inicialización MAPI estándar, STDMAPIINITCALLTYPE, que hace que **ABPROVIDERINIT** siga la Convención de llamada Cdecl. 
   
-Se puede inicializar un proveedor de varias veces, como consecuencia de que aparezca en varios perfiles en uso simultáneo o de aparecer más de una vez en el mismo perfil. Debido a que el objeto de proveedor contiene contexto, **ABProviderInit** debe devolver un objeto de proveedor diferente en _lppABProvider_ para cada inicialización, incluso para varias inicializaciones en el mismo proceso. 
+Un proveedor se puede inicializar varias veces, como resultado de aparecer en varios perfiles en uso simultáneo o de aparecer más de una vez en el mismo perfil. Debido a que el objeto de proveedor contiene contexto, **ABProviderInit** debe devolver un objeto de proveedor diferente en _lppABProvider_ para cada inicialización, incluso para varias inicializaciones en el mismo proceso. 
   
-El proveedor de la libreta de direcciones debe usar las funciones que señala _lpAllocateBuffer_, _lpAllocateMore_y _lpFreeBuffer_ para la mayoría de asignación de memoria y cancelación de asignación. En concreto, el proveedor debe usar estas funciones para asignar la memoria para su uso por las aplicaciones cliente al llamar a las interfaces de objeto como [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md). Si el proveedor también espera utilizar el asignador de memoria OLE, debe llamar al método **IUnknown:: AddRef** del objeto asignador indicado por el parámetro _lpMalloc_ . 
+El proveedor de la libreta de direcciones debe usar las funciones a las que apunta _lpAllocateBuffer_, _lpAllocateMore_y _lpFreeBuffer_ para la mayor parte de la asignación y desasignación de memoria. En concreto, el proveedor debe usar estas funciones para asignar memoria para que la usen las aplicaciones cliente al llamar a interfaces de objeto como [IMAPIProp:: GetProps](imapiprop-getprops.md) y [IMAPITable:: QueryRows](imapitable-queryrows.md). Si el proveedor también espera utilizar el asignador de memoria OLE, debe llamar al método **IUnknown:: AddRef** del objeto de asignador al que señala el parámetro _lpMalloc_ . 
   
-Para obtener más información sobre cómo escribir **ABProviderInit**, vea [implementar una función de punto de entrada de dirección de la libreta de proveedor](implementing-an-address-book-provider-entry-point-function.md). Para obtener más información sobre las funciones de punto de entrada, vea [implementar una función de punto de servicio de proveedor de entrada](implementing-a-service-provider-entry-point-function.md). 
+Para obtener más información sobre cómo escribir **ABProviderInit**, consulte [implementar una función de punto de entrada de proveedor de libreta de direcciones](implementing-an-address-book-provider-entry-point-function.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IABProvider : IUnknown](iabprovideriunknown.md) 
 - [MSProviderInit](msproviderinit.md)

@@ -1,5 +1,5 @@
 ---
-title: Temas de cliente avanzados
+title: Temas de cliente avanzado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 59f245972fabde8db5123c4d0d39e259257ecfdc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d0a43d5977b2007416caa1793ad779e790498cac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331384"
 ---
-# <a name="advanced-client-topics"></a>Temas de cliente avanzados
+# <a name="advanced-client-topics"></a>Temas de cliente avanzado
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta sección incluyen temas sobre cómo implementar algunas de las características más difíciles o poco frecuentes en una aplicación cliente.
+En esta sección se incluyen temas secundarios sobre cómo implementar algunas de las características más complicadas o difíciles en una aplicación cliente.
   
 ## <a name="in-this-section"></a>En esta sección
 
-[Escribir a un cliente automatizado](writing-an-automated-client.md)
+[Escritura de un cliente automatizado](writing-an-automated-client.md)
   
-> Describe cómo escribir a un cliente automatizado que suprime la interfaz de usuario.
+> Describe cómo escribir un cliente automatizado que suprima la interfaz de usuario.
     
 [Escribir un visor remoto](writing-a-remote-viewer.md)
   
@@ -35,11 +35,11 @@ Esta sección incluyen temas sobre cómo implementar algunas de las característ
     
 [Escribir un visor de jerarquía](writing-a-hierarchy-viewer.md)
   
-> Describe cómo escribir un visor de jerarquía, un componente de la interfaz de usuario que se usa para mostrar la carpeta y la dirección tablas de jerarquía del contenedor de libro.
+> Describe cómo escribir un visor de jerarquía, un componente de interfaz de usuario que se usa para mostrar las tablas de jerarquías de contenedor de libretas de direcciones y carpetas.
     
-[Usar las herramientas MAPI](using-the-mapi-utilities.md)
+[Uso de las herramientas MAPI](using-the-mapi-utilities.md)
   
-> Describe cómo utilizar las utilidades MAPI que se componen de datos de la tabla y objetos de datos de propiedad y una gran variedad de funciones para admitir las características varias
+> Describe cómo usar las herramientas MAPI que se componen de datos de tabla y objetos de datos de propiedad, y una variedad de funciones para admitir varias características.
     
 [Implementar un indicador de progreso](implementing-a-progress-indicator.md)
   
@@ -47,6 +47,6 @@ Esta sección incluyen temas sobre cómo implementar algunas de las característ
     
 [Centralizar la recepción de NDR](centralizing-the-receipt-of-ndrs.md)
   
-> Se describe cómo centralizar la recepción de informes de no entrega.
+> Describe cómo centralizar la recepción de informes de no entrega.
     
 

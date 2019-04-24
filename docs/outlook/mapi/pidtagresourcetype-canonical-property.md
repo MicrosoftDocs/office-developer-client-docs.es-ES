@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 56f14488812842d5e9fe63ae228c325059ebe679
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1c7a35ded4861d724520b02ec5d61246774ca5cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330131"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>Propiedad canónica PidTagResourceType
 
@@ -25,14 +25,14 @@ ms.locfileid: "22575094"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica el tipo de proveedor de servicio.
+Contiene un valor que indica el tipo de proveedor de servicios.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RESOURCE_TYPE  <br/> |
 |Identificador:  <br/> |0x3E03  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -56,11 +56,11 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> Cola de mensajes
+> Cola de mensajes de mensajes
     
 MAPI_STORE_PROVIDER 
   
-> Proveedor de almacén de mensajes
+> Proveedor de almacenamiento de mensajes
     
 MAPI_SUBSYSTEM 
   
@@ -74,23 +74,23 @@ MAPI_TRANSPORT_PROVIDER
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

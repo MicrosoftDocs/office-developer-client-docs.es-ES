@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b45b80f09efbd4f05aabc2c868d5bd8eb5fa4cce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327996"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega una rutina de inactividad basado en función [FNIDLE](fnidle.md) al sistema de MAPI. 
+Agrega una rutina inactiva basada en la función [FNIDLE](fnidle.md) al sistema MAPI. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 FTG FtgRegisterIdleRoutine(
@@ -41,85 +41,85 @@ FTG FtgRegisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pfnIdle_
   
-> [entrada] Un puntero a la rutina de inactividad. 
+> a Un puntero a la rutina inactiva. 
     
 _pvIdleParam_
   
-> [entrada] Un puntero a un bloque de memoria que el motor de inactividad debe pasar como un parámetro a la rutina inactivo cuando lo llama. 
+> a Un puntero a un bloque de memoria que el motor inactivo debe pasar como parámetro a la rutina inactiva cuando lo llama. 
     
 _priIdle_
   
-> [entrada] La prioridad inicial para la rutina de inactividad. Las posibles prioridades para rutinas definido por la implementación son mayor o menor que cero, pero no es cero. La prioridad cero está reservada para un evento de usuario como un clic del mouse o un mensaje WM_PAINT. Las prioridades mayores que cero representan tareas en segundo plano que tienen una mayor prioridad a los eventos de usuario y se envían como parte del bucle de suministro de mensajes de Windows estándar. Las prioridades menor que cero representa tareas inactivas que ejecutan sólo durante el tiempo de inactividad de suministro de mensaje. Ejemplos de las prioridades son los siguientes: 1 para el envío de primer plano, 2 para la inserción de caracteres de edición de energía y 3 para la descarga de los mensajes nuevos.
+> a Prioridad inicial de la rutina inactiva. Las posibles prioridades de las rutinas definidas por la implementación son mayor o menor que cero, pero no cero. La prioridad cero se reserva para un evento de usuario, como un clic del mouse o un mensaje WM_PAINT. Las prioridades mayores que cero representan las tareas en segundo plano que tienen una prioridad mayor que los eventos de usuario y se envían como parte del bucle de bombeo estándar de mensajes de Windows. Las prioridades inferiores a cero representan las tareas inactivas que solo se ejecutan durante el tiempo de inactividad del bombeo de mensajes. A continuación se muestran ejemplos de prioridades: 1 para envío en primer plano, 2 para la inserción de caracteres de edición de energía y 3 para la descarga de mensajes nuevos.
     
 _csecIdle_
   
-> [entrada] El valor de hora inicial, en centésimas de segundo, que se usará en la especificación de parámetros de rutina inactivo. El significado del valor inicial de tiempo varía en función de lo que se pasa en el parámetro _iroIdle_ . El significado puede ser una de las siguientes opciones: 
+> a El valor de hora inicial, en centésimas de segundo, que se va a usar en la especificación de los parámetros de rutina inactiva. El significado del valor de hora inicial varía en función de lo que se pasa en el parámetro _iroIdle_ . El significado puede ser uno de los siguientes: 
     
-  - El período mínimo de omisión de usuario que debe transcurrir antes de la MAPI motor inactivo llama a la rutina de inactividad por primera vez, si se establece la marca FIROWAIT en _iroIdle_. Una vez transcurrido este tiempo, el motor de inactividad puede llamar a la rutina de inactividad tantas veces como sea necesario. 
+  - Período mínimo de inacción del usuario que debe transcurrir antes de que el motor de inactividad de MAPI llame a la rutina inactiva por primera vez, si la marca FIROWAIT está establecida en _iroIdle_. Una vez transCurrido este tiempo, el motor inactivo puede llamar a la rutina inactiva tantas veces como sea necesario. 
     
-  - El intervalo mínimo entre las llamadas a la rutina de inactividad, si se establece la marca FIROINTERVAL en _iroIdle_. 
+  - El intervalo mínimo entre llamadas a la rutina inactiva, si la marca FIROINTERVAL se establece en _iroIdle_. 
     
 _iroIdle_
   
-> [entrada] La máscara de bits de indicadores que se utilizan para establecer las opciones iniciales para la rutina de inactividad. Se pueden establecer los siguientes indicadores:
+> a La máscara de máscara de los marcadores usados para establecer las opciones iniciales de la rutina inactiva. Se pueden establecer los siguientes indicadores:
     
   FIRONOADJUSTMENT
     
-  > Utilice este indicador para especificar que no se debe ajustar el temporizador de rutina inactivo para la suspensión o reanudar. El comportamiento predeterminado sin esta marca es que el tiempo de espera se excluye al calcular el tiempo transcurrido. Si se pasa FIRONOADJUSTMENT el tiempo de inactividad se incluye al calcular el tiempo transcurrido.
+  > Use esta marca para especificar que el temporizador de rutina inactiva no debe ajustarse para suspender o reanudar. El comportamiento predeterminado sin este indicador es que el tiempo de inactividad se excluye al calcular el tiempo transcurrido. Si se pasa FIRONOADJUSTMENT, se incluye el tiempo de suspensión al calcular el tiempo transcurrido.
       
   FIRODISABLED
     
-  > La rutina de inactividad debe deshabilitarse cuando registrado. La acción predeterminada es permitir la rutina inactivo cuando **FtgRegisterIdleRoutine** se registra. 
+  > La rutina inactiva debe deshabilitarse cuando se registra. La acción predeterminada es habilitar la rutina inactiva cuando **FtgRegisterIdleRoutine** la registra. 
       
   FIROINTERVAL 
     
-  > El tiempo especificado por el parámetro _csecIdle_ es el intervalo mínimo entre las llamadas sucesivas a la rutina de inactividad. 
+  > La hora especificada por el parámetro _csecIdle_ es el intervalo mínimo entre llamadas sucesivas a la rutina inactiva. 
       
   FIROONCEONLY 
     
-  > Obsoleto. No usar.  
+  > Obsoleto. No usar. 
       
   FIROPERBLOCK 
     
-  > Obsoleto. No usar.  
+  > Obsoleto. No usar. 
       
   FIROWAIT 
     
-  > El tiempo especificado por el parámetro _csecIdle_ es el período mínimo de omisión de usuario que debe transcurrir antes de que el motor de inactividad de MAPI llama a la rutina de inactividad por primera vez. Una vez transcurrido este tiempo, el motor de inactividad puede llamar a la rutina de inactividad tantas veces como sea necesario. 
+  > La hora especificada por el parámetro _csecIdle_ es el período mínimo de inacción del usuario que debe transcurrir antes de que el motor de inactividad de MAPI llame a la rutina inactiva por primera vez. Una vez transCurrido este tiempo, el motor inactivo puede llamar a la rutina inactiva tantas veces como sea necesario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtgRegisterIdleRoutine** devuelve una etiqueta de función que identifica la rutina de inactividad que se ha agregado al sistema MAPI. Si **FtgRegisterIdleRoutine** no se puede registrar la rutina de inactividad de la aplicación de cliente o el proveedor de servicios, por ejemplo debido a problemas de memoria, devuelve NULL. 
+La función **FtgRegisterIdleRoutine** devuelve una etiqueta de función que identifica la rutina inactiva que se ha agregado al sistema MAPI. Si **FtgRegisterIdleRoutine** no puede registrar la rutina inactiva de la aplicación cliente o del proveedor de servicios, por ejemplo, debido a problemas de memoria, devuelve NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-Las siguientes funciones de abordar los problemas con el motor de inactividad de MAPI y con las rutinas de inactividad según el prototipo de función [FNIDLE](fnidle.md) . 
+Las siguientes funciones tratan con el motor inactivo de MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE](fnidle.md) . 
   
-|**Función rutina inactivo**|**Uso**|
+|**Función de rutina inActiva**|**Usage**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina de inactividad registrada.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o habilita volver a una rutina de inactividad registrada sin quitar desde el sistema de MAPI.  <br/> |
-|**FtgRegisterIdleRoutine** <br/> |Agrega una rutina de inactividad en el sistema MAPI, con o sin habilitarla.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Se cierra el motor de inactividad de MAPI para la aplicación de llamada.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad de MAPI para la aplicación de llamada.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina inactiva registrada.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina inactiva registrada del sistema MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.  <br/> |
+|**FtgRegisterIdleRoutine** <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.  <br/> |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
    
-**ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como un parámetro de entrada de la etiqueta de función devuelto por **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de la función devuelta por **FtgRegisterIdleRoutine**. 
   
-Cuando se convierten en todas las tareas de primer plano de la plataforma de inactividad, el motor de inactividad de MAPI llama a la rutina de inactividad de prioridad más alta que esté lista para ejecutar. No hay ninguna garantía de orden entre las rutinas de inactividad de la misma prioridad de llamada. 
+Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse. No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad. 
   
 El siguiente es un ejemplo del uso de la marca FIRONOADJUSTMENT en el parámetro _iroIdle_ . 
   
-1. Registrar una rutina de inactividad con un retraso de 5 minutos.
+1. Registra una rutina inactiva con un retraso de 5 minutos.
     
-2. Hibernación/suspensión el equipo después de 1 minuto (4 minutos en el temporizador de la izquierda).
+2. Hibernar/suspender el equipo después de 1 minuto (se dejan 4 minutos en el temporizador).
     
-3. Reanudar el equipo 10 minutos más adelante.
+3. Reanudar el equipo 10 minutos más tarde.
     
-El comportamiento predeterminado, sin FIRONOADJUSTMENT, es que aún tendrá que esperar más de 4 minutos para ejecutar la rutina. Es decir, el temporizador se ha ajustado para permitir el ¿durante cuánto tiempo el equipo estaba en suspensión. Sin embargo, si se pasa FIRONOADJUSTMENT la rutina de inactividad se ejecutará en inmediatamente debido a que han transcurrido más de 5 minutos de tiempo real.
+El comportamiento predeterminado, sin FIRONOADJUSTMENT, es que todavía tiene que esperar 4 minutos más para que se ejecute la rutina. Es decir, el temporizador se ajustó para permitir el tiempo que el equipo estuvo en modo de suspensión. Sin embargo, si pasa FIRONOADJUSTMENT, la rutina inactiva se ejecutará inmediatamente porque han transcurrido más de 5 minutos de tiempo real.
   
 

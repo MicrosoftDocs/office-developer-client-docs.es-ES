@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 603d698f-a025-538c-8767-18e7716a9a5f
 description: Determina el color utilizado para el fondo (relleno) de la trama de relleno de la forma.
-ms.openlocfilehash: d1222026887313d7737a3a0ded9e798e9bf5ea30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4df5d2b44a50380c996b9b2e0f7cda7d212093b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322515"
 ---
-# <a name="fillbkgnd-cell-fill-format-section"></a>Celda FillBkgnd (sección Formato de relleno)
+# <a name="fillbkgnd-cell-fill-format-section"></a>Celda FillBkgnd (Sección de formato de relleno)
 
 Determina el color utilizado para el fondo (relleno) de la trama de relleno de la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para establecer el color, escriba un número entre el 0 y el 23.
   

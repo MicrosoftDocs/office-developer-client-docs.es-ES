@@ -8,26 +8,22 @@ f1_keywords:
 - Vis_DSS.chm82251698
 localization_priority: Normal
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
-description: Determina donde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
-ms.openlocfilehash: 5b0221c54c17a3b9957cce5e890842def0ba7525
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina dónde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
+ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329956"
 ---
-# <a name="hideforapply-cell-style-properties-section"></a>Celda HideForApply (sección de propiedades de estilo)
+# <a name="hideforapply-cell-style-properties-section"></a>Celda HideForApply (Sección de propiedades de estilo)
 
-Determina donde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
+Determina dónde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-| TRUE  <br/> | 
-          Muestra el estilo solo en **Explorador de dibujos**.
-  <br/> |
-| FALSE  <br/> | 
-          Muestra el estilo en **Explorador de dibujos**.
-  <br/> |
+| TRUE  <br/> | Muestra el estilo solo en **Explorador de dibujos**.  <br/> |
+| FALSE  <br/> | Muestra el estilo en **Explorador de dibujos**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

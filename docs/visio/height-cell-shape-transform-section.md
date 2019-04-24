@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: Determina el alto de la forma en las unidades de dibujo.
-ms.openlocfilehash: c9f6282e9a2be161a4338043925d88cee672d5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f08fec0ec09e4ba77296495defc91b0f1f3a4c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329991"
 ---
-# <a name="height-cell-shape-transform-section"></a>Celda Height (sección Transformación de forma)
+# <a name="height-cell-shape-transform-section"></a>Celda Height (Sección de transformación de forma)
 
 Determina el alto de la forma en las unidades de dibujo.
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Height por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Alto  <br/> |
+| Nombre de celda:  <br/> | Height  <br/> |
    
 Para obtener una referencia desde un programa a la celda Height por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

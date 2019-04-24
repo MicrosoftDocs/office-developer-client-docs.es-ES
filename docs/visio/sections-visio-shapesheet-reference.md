@@ -1,25 +1,25 @@
 ---
-title: En las secciones (referencia de ShapeSheet de Visio)
+title: Sections (referencia de ShapeSheet de Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
-ms.openlocfilehash: f08441035eee81c8e5b4059626759c68e74f9d70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326036"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>En las secciones (referencia de ShapeSheet de Visio)
+# <a name="sections-visio-shapesheet-reference"></a>Sections (referencia de ShapeSheet de Visio)
 
 ## <a name="in-this-section"></a>En esta sección
 
 - [Sección de extremos 1D](1-d-endpoints-section.md)
     
-- [Sección Propiedades de giro 3D](3-d-rotation-properties-section.md)
+- [Sección de propiedades de giro 3D](3-d-rotation-properties-section.md)
     
 - [Sección de la etiqueta de acción](action-tag-section.md)
     
@@ -33,7 +33,7 @@ ms.locfileid: "19823111"
     
 - [Sección Propiedades de bisel](bevel-properties-section.md)
     
-- [Sección Cambiar comportamiento de forma](change-shape-behavior-section.md)
+- [Sección cambiar comportamiento de forma](change-shape-behavior-section.md)
     
 - [Sección de caracteres](character-section.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "19823111"
     
 - [Sección de formato de relleno](fill-format-section.md)
     
-- [Sección Degradado de relleno](fill-gradient-section.md)
+- [Sección degradado de relleno](fill-gradient-section.md)
     
 - [Sección de información de imagen externa](foreign-image-info-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "19823111"
     
 - [Sección de formato de línea](line-format-section.md)
     
-- [Sección Degradado de línea](line-gradient-section.md)
+- [Sección degradado de línea](line-gradient-section.md)
     
 - [Sección de varios](miscellaneous-section.md)
     
@@ -83,11 +83,11 @@ ms.locfileid: "19823111"
     
 - [Sección de protección](protection-section.md)
     
-- [Sección Estilos rápidos](quick-style-section.md)
+- [Sección de estilo rápido](quick-style-section.md)
     
 - [Sección de revisor](reviewer-section.md)
     
-- [Regla &amp; sección de la cuadrícula](rulergrid-section.md)
+- [Sección &amp; regla y cuadrícula](rulergrid-section.md)
     
 - [Sección de borrador](scratch-section.md)
     
@@ -107,7 +107,7 @@ ms.locfileid: "19823111"
     
 - [Sección de transformación de texto](text-transform-section.md)
     
-- [Sección Propiedades de tema](theme-properties-section.md)
+- [Sección Propiedades del tema](theme-properties-section.md)
     
 - [Sección de celdas definidas por el usuario](user-defined-cells-section.md)
     

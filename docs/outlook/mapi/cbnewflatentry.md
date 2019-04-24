@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cf4716bb92f9405986078282510d672e160c5921
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33c8f1e8b573b5ff0f3d5f53e5b2cf127548688d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331839"
 ---
 # <a name="cbnewflatentry"></a>CbNewFLATENTRY
 
@@ -25,24 +25,24 @@ ms.locfileid: "22595429"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se debe asignar para una nueva estructura [FLATENTRY](flatentry.md) que contiene un identificador de entrada de un tamaño de bytes especificada. 
+Calcula el número de bytes que se deben asignar para una nueva estructura [FLATENTRY](flatentry.md) que contiene un identificador de entrada de un tamaño de byte especificado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**FLATENTRY** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- __cb_
+ __CB_
   
-> Recuento de bytes en el identificador de entrada que se deben incluir en la nueva estructura **FLATENTRY** . 
+> Número de bytes en el identificador de entrada que se va a incluir en la nueva estructura **FLATENTRY** . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

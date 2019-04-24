@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 655b66e8-8642-43ad-8392-048578f96820
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d3cab3073b942cd8acc0919031e212b6a7d96e8a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7683a2926880234367b2134f9053078b82631aeb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331825"
 ---
 # <a name="cbflatentry"></a>CbFLATENTRY
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [FLATENTRY](flatentry.md) existent
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**FLATENTRY** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbFLATENTRY (_lpentry)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lpentry_
   
 > Puntero a la estructura **FLATENTRY** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

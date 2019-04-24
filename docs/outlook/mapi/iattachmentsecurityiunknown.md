@@ -1,5 +1,5 @@
 ---
-title: IAttachmentSecurity IUnknown
+title: IUnknown IAttachmentSecurity
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69609f73-5884-9e2b-ab78-a2e0ece3a1d1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f182610f9cf4874cc18c409960e1f8b23f853d4f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8464c8265ebc1754f7909be5413620e7f76db5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326988"
 ---
 # <a name="iattachmentsecurity--iunknown"></a>IAttachmentSecurity : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22574830"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que las soluciones de Microsoft Outlook 2010 y Microsoft Outlook 2013 averiguar si se considera como datos adjuntos no seguros y bloqueados para su visualización e indización.
+Permite que las soluciones de Microsoft Outlook 2010 y Microsoft Outlook 2013 descubran si los datos adjuntos se consideran no seguros y bloqueados para la visualización y la indización.
   
 |||
 |:-----|:-----|
@@ -35,17 +35,17 @@ Permite que las soluciones de Microsoft Outlook 2010 y Microsoft Outlook 2013 av
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Comprueba si los datos adjuntos especificados está bloqueado por Outlook 2010 o Outlook 2013 para su visualización e indización.  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Comprueba si los datos adjuntos especificados están bloqueados por Outlook 2010 o Outlook 2013 para su visualización e indización.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Soluciones de Outlook 2010 y Outlook 2013 pueden consultar esta interfaz para ver si se bloquea un dato adjunto. Los datos adjuntos que están bloqueados por Outlook 2010 o Outlook 2013 varían dependiendo de cómo se haya configurado Outlook 2010 o Outlook 2013 y las directivas que se ha aplicado un administrador.
+Las soluciones de Outlook 2010 y Outlook 2013 pueden consultar esta interfaz para ver si hay datos adjuntos bloqueados. Los datos adjuntos bloqueados por Outlook 2010 o Outlook 2013 varían en función de cómo se haya configurado Outlook 2010 o Outlook 2013 y de las directivas que haya aplicado un administrador.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Constantes MAPI](mapi-constants.md)
   
-[Comprobar si los datos adjuntos están bloqueados](how-to-verify-an-attachment-is-blocked.md)
+[Comprobar que los datos adJuntos están bloqueados](how-to-verify-an-attachment-is-blocked.md)
 

@@ -8,29 +8,29 @@ api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbd08437dfdd38c3a43cbf12eae8710cc8e3661e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327492"
 ---
 # <a name="form-verbs"></a>Verbos de formulario
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Normalmente, la interfaz de usuario de un formulario ofrece los elementos de menú o los controles que permiten a los usuarios realizar algún tipo de acción con el formulario. Es del servidor formulario para controlar las acciones del usuario. Esta interfaz se implementa mediante las API de Win32 estándar; escribir uno es igual que escribir otras interfaces de programas de Win32 normales.
+La interfaz de usuario de un formulario suele ofrecer elementos de menú o controles que permiten a los usuarios realizar algún tipo de acción con el formulario. El trabajo del servidor de formularios controla estas acciones del usuario. Esta interfaz se implementa mediante las API de Win32 estándar; escribir una es igual que escribir otras interfaces para los programas Win32 normales.
   
-A menudo, las acciones del usuario se asocian con los verbos. Un verbo es el nombre de una acción que es específico de una determinada clase de mensaje. Por ejemplo, la **respuesta** es un verbo que se implementa mediante muchos servidores de formulario, cada uno de los cuales puede tener una interpretación diferente de ese verbo. A veces se hace referencia a verbos como comandos. 
+Con frecuencia, las acciones del usuario están asociadas con verbos. Un verbo es el nombre de una acción específica de una clase de mensaje determinada. Por ejemplo, **reply** es un verbo que implementan varios servidores de formularios, cada uno de los cuales puede tener una interpretación diferente de ese verbo. A veces, los verbos se denominan comandos. 
   
 > [!NOTE]
-> No todos los elementos de menú y controles de un formulario se corresponden con un verbo. Por ejemplo, un botón **Cancelar** no corresponde a un verbo Cancelar dentro del servidor de formulario. Normalmente, los verbos están asociados con las acciones que son específicas de una clase de mensaje concreto o un conjunto de clases de mensajes. Aunque las clases de mensajes diferentes pueden admitir distintos conjuntos de verbos, todos admiten al menos el verbo Open, que muestra la interfaz de usuario del formulario y carga con valores de propiedad del mensaje. 
+> No todos los elementos de menú y los controles de un formulario corresponden a un verbo. Por ejemplo, un botón **Cancelar** no se corresponde con un verbo de cancelación dentro del servidor de formularios. Normalmente, los verbos están asociados a acciones específicas de una clase de mensaje determinada o un conjunto de clases de mensaje. Aunque diferentes clases de mensaje pueden admitir distintos conjuntos de verbos, todos admiten al menos el verbo abrir, que muestra la interfaz de usuario del formulario y lo carga con los valores de propiedad del mensaje. 
   
-Los verbos no pueden tardar parámetros. Los formularios que exportación comandos con parámetros variables deben utilizar los mecanismos de automatización.
+Los verbos pueden no tener ningún parámetro. Los formularios que exportan comandos con parámetros de variable deben usar los mecanismos de automatización.
   
-Los clientes pueden determinar qué verbos son compatibles con una clase de mensaje en particular a través del método [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) , que se implementa mediante el Administrador de formularios de MAPI. El Administrador de formulario obtiene esta información desde el archivo de configuración del formulario. El conjunto de verbos devueltos por este método se usa en el cliente para mostrar al usuario los comandos que se pueden ejecutar en un mensaje. Por ejemplo, un cliente es posible que permiten a los usuarios haga clic en el botón secundario del mouse a través de un mensaje para mostrar los verbos aplicables a ese mensaje. 
+Los clientes pueden determinar qué verbos admite una clase de mensaje determinada a través del método [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) , implementado por el administrador de formularios MAPI. El administrador de formularios obtiene esta información del archivo de configuración del formulario. El cliente usa el conjunto de verbos devuelto por este método para mostrar al usuario qué comandos se pueden ejecutar en un mensaje. Por ejemplo, es posible que un cliente permita a los usuarios hacer clic con el botón secundario del mouse en un mensaje para mostrar verbos aplicables a ese mensaje. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Formularios MAPI](mapi-forms.md)
 

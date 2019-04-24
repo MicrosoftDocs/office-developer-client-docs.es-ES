@@ -7,71 +7,71 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
-description: En este tema se sugiere algunos pasos para obtener más información acerca de cómo desarrollar un proveedor de Outlook Social Connector (OSC).
-ms.openlocfilehash: 345e8600c704504be091ee23c66b7f85575cde90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: En este tema se sugieren algunos pasos para aprender a desarrollar un proveedor de Outlook Social Connector (OSC).
+ms.openlocfilehash: 581997ab257d59062761d97bfef49a88b90bb1e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329221"
 ---
 # <a name="quick-steps-for-learning-to-develop-a-provider"></a>Pasos rápidos para aprender a desarrollar un proveedor
 
-Para desarrollar un proveedor de OSC, debe completar los siguientes pasos generales:
+Para desarrollar un proveedor OSC, debe completar los siguientes pasos generales:
   
-- Implementar las cuatro interfaces obligatorias: [ISocialProvider](isocialprovideriunknown.md), [ISocialSession](isocialsessioniunknown.md), [ISocialProfile](isocialprofileisocialperson.md)y [ISocialPerson](isocialpersoniunknown.md). Función de soporte técnico de su red social para almacenar en caché las credenciales de inicio de sesión, seguimiento de una persona en la red social, o dinámicamente sincronización amigos y sus actividades, es posible que desee implementar la interfaz [ISocialSession2](isocialsession2iunknown.md) . 
+- Implemente las cuatro interfaces obligatorias: [ISocialProvider](isocialprovideriunknown.md), [ISocialSession](isocialsessioniunknown.md), [ISocialProfile](isocialprofileisocialperson.md)y [ISocialPerson](isocialpersoniunknown.md). Según la compatibilidad de su red social con el almacenamiento en caché de las credenciales de inicio de sesión, el seguimiento de una persona en la red social o la sincronización dinámica de amigos y sus actividades, es posible que desee implementar la interfaz de [ISocialSession2](isocialsession2iunknown.md) . 
     
-- En paralelo con la implementación de interfaces, probar y depurar el proveedor de OSC. 
+- En paralelo con la implementación de interfaces, pruebe y Depure el proveedor de OSC. 
 
-- Implementar el proveedor de OSC.  
+- Implemente el proveedor de OSC.  
 
-- Realice pruebas finales antes del lanzamiento.
+- Realice las pruebas finales antes de la publicación.
     
-## <a name="step-a-implementing-interfaces"></a>Paso A: implementar interfaces
+## <a name="step-a-implementing-interfaces"></a>Paso A: implementación de interfaces
 
-Un proveedor de OSC implementa interfaces para que el OSC puede usar estas interfaces para obtener la información necesaria sobre o desde la red social, a través del proveedor OSC. Dicha información incluye lo siguiente:
+Un proveedor OSC implementa interfaces para que el OSC pueda usarlas para obtener información necesaria sobre o desde la red social a través del proveedor de OSC. Esta información incluye lo siguiente:
   
-- Procedimiento para presentar el cuadro de diálogo de inicio de sesión de cuenta para un usuario.    
-- Si el proveedor admite que muestra amigos o actividades, tal como se muestra en la red social.    
-- Cómo mostrar amigos y actividades en la tarjeta de contacto o el panel de personas de Outlook.     
-- Cuándo se debe actualizar la información de amigos o actividades en la tarjeta de contacto o el panel de personas.
+- Cómo presentar el cuadro de diálogo de inicio de sesión de la cuenta a un usuario.    
+- Si el proveedor admite la visualización de amigos o actividades como se muestra en la red social.    
+- Cómo mostrar amigos y actividades en el panel de la tarjeta de contacto o de personas de Outlook.     
+- Cuándo actualizar la información de amigos o actividades en la tarjeta de contacto o en el panel de personas.
     
-La información normalmente se pasa desde el proveedor al OSC, con el formato de cadenas XML como parámetros de salida de los métodos de interfaz. El OSC y un proveedor de OSC cumplan con el esquema XML de proveedor OSC. Por lo tanto, en el transcurso de implementar las interfaces, necesita una buena comprensión de cómo el esquema XML permite especificar información como enumerados anteriormente. 
+Normalmente, la información se pasa del proveedor al OSC, en forma de cadenas XML como parámetros de salida de los métodos de interfaz. Tanto OSC como un proveedor de OSC cumplen con el esquema XML del proveedor OSC. Por lo tanto, en el transcurso de la implementación de las interfaces, necesitará una buena comprensión de cómo el esquema XML le permite especificar la información indicada anteriormente. 
 
-Los siguientes recursos explican cómo especificar XML de actividades, amigos y capacidades de proveedor:
+Los siguientes recursos explican cómo especificar XML para capacidades, amigos y actividades del proveedor:
   
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)    
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)    
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md)   
-- [XML de capacidades](xml-for-capabilities.md)    
+- [XML para funcionalidades](xml-for-capabilities.md)    
 - [Ejemplo de XML de amigos](friends-xml-example.md)    
-- [XML de amigos](xml-for-friends.md)   
-- [Ejemplo de XML de fuentes de actividades](activity-feed-xml-example.md)   
-- [XML de actividades](xml-for-activities.md)
+- [XML para amigos](xml-for-friends.md)   
+- [Ejemplo de XML de fuente de actividades](activity-feed-xml-example.md)   
+- [XML para actividades](xml-for-activities.md)
     
-Antes de comenzar la implementación, consulte también los temas siguientes para ahorrar tiempo más adelante en el proceso de depuración:
+Antes de comenzar con la implementación, consulte también los siguientes temas para ahorrar tiempo más adelante en el proceso de depuración:
   
 - [Requisitos técnicos](technical-requirements.md)    
-- [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)    
-- [Plantillas de ejemplo OSC](osc-sample-templates.md)
+- [Procedimientos recomendados para desarrollar un proveedor](best-practices-for-developing-a-provider.md)    
+- [Plantillas de ejemplo de OSC](osc-sample-templates.md)
     
-## <a name="step-b-debugging"></a>Depuración de paso B:
+## <a name="step-b-debugging"></a>Paso B: dePurar
 
-El tema [Depurar un proveedor](debugging-a-provider.md) se sugieren procedimientos que puede utilizar al desarrollar un proveedor de OSC de depuración. 
+El tema [depuración de un proveedor](debugging-a-provider.md) sugiere procedimientos de depuración que puede usar al desarrollar un proveedor de OSC. 
   
-Mientras desarrolla, también puede hacer referencia a [Introducción listo para liberar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md) para obtener una mejor comprensión del comportamiento esperado en ciertos escenarios (por ejemplo, la autenticación básica y basada en formularios). 
+Mientras está desarrollando, también puede consultar el tema [Getting Ready to release a OSC Provider](getting-ready-to-release-an-osc-provider.md) para obtener una mejor comprensión del comportamiento esperado en determinados escenarios (por ejemplo, autenticación básica y basada en formularios). 
   
-## <a name="step-c-deploying"></a>Implementación de paso C:
+## <a name="step-c-deploying"></a>Paso C: implementación
 
-Consulte los siguientes temas para obtener más información acerca de los requisitos de implementación:
+Consulte los siguientes temas para obtener información sobre los requisitos de implementación:
   
 - [Implementación de un proveedor](deploying-a-provider.md)    
 - [Registrar un proveedor](registering-a-provider.md)   
 - [Lista de comprobación de instalación](installation-checklist.md)
     
-## <a name="step-d-final-testing-before-release"></a>Paso D: las pruebas antes del lanzamiento de Final
+## <a name="step-d-final-testing-before-release"></a>Paso D: pruebas finales antes de la publicación
 
-Dependiendo de su red social y el proveedor de OSC, existen pruebas específicas del proveedor normalmente que debe llevar a cabo antes de liberar su proveedor. Para obtener una lista sugerida de pruebas, vea [Introducción listo para liberar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md).
+En función de su red social y del proveedor de OSC, normalmente hay pruebas específicas del proveedor que debe realizar antes de publicar el proveedor. Para obtener una lista de pruebas recomendadas, vea [Getting Ready to release a OSC Provider](getting-ready-to-release-an-osc-provider.md).
   
 ## <a name="see-also"></a>Vea también
 

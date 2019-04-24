@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
-description: Informes de progreso para enumeración y reajuste de citas.
+description: Informa del progreso de la enumeración y el reajuste de las citas.
 ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326456"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
-Informes de progreso para enumeración y reajuste de citas.
+Informa del progreso de la enumeración y el reajuste de las citas.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |tzmovelib.h  <br/> |
-|Implementado por:  <br/> |Aplicaciones cliente MAPI  <br/> |
+|Archivo de encabezado:  <br/> |tzmovelib. h  <br/> |
+|Implementado por:  <br/> |Aplicaciones cliente de MAPI  <br/> |
 |Llamado por:  <br/> |Objeto de reajuste de Outlook  <br/> |
-|Tipo de puntero:  <br/> |**PFNREBASETASKPROGRESS** tal como se define en tzmovelib.h  <br/> |
+|Tipo de puntero:  <br/> |**PFNREBASETASKPROGRESS** como se define en tzmovelib. h  <br/> |
    
 ```cpp
 void STDAPICALLTYPE RebaseTaskProgress(  
@@ -37,47 +37,47 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ulMin_
   
-> [entrada] El extremo inferior del intervalo de citas que se está procesando. Normalmente, es cero.
+> a El extremo inferior del intervalo de citas que se está procesando. Suele ser cero.
     
 _ulMax_
   
-> [entrada] Alta final del intervalo de citas que se está procesando. Suele ser el número de elementos en la carpeta de calendario que se está procesando.
+> a El extremo superior del intervalo de citas que se está procesando. Suele ser el número de elementos de la carpeta de calendario que se está procesando.
     
 _ulCur_
   
-> [entrada] El elemento actual que se está procesando.
+> a Elemento actual que se está procesando.
     
 _State_
   
-> [entrada] Un valor que indica el estado de la que se está procesando. La enumeración **REBASE_APPT_STATE** se define en tzmovelib.h.  _Estado_ es uno de los siguientes valores: 
+> a Un valor que indica el estado del elemento que se está procesando. La enumeración **REBASE_APPT_STATE** se define en tzmovelib. h.  _State_ es uno de los siguientes valores: 
     
-   - **REBASE_APPT_STATE_SCANNING_EXAMINING** : examen y examen de un elemento. 
+   - **REBASE_APPT_STATE_SCANNING_EXAMINING** : análisis y examen de un elemento. 
     
-   - **REBASE_APPT_STATE_SCANNING_FOUND** : examen y que se encuentre un elemento. 
+   - **REBASE_APPT_STATE_SCANNING_FOUND** : análisis y encontrado un elemento. 
     
-   - **REBASE_APPT_STATE_BEGIN** : fijación e inicio de un elemento. 
+   - **REBASE_APPT_STATE_BEGIN** : corrección e inicio de un elemento. 
     
-   - **REBASE_APPT_STATE_REBASING** : fijación y el ajuste de un elemento. 
+   - **REBASE_APPT_STATE_REBASING** : corrección y ajuste de un elemento. 
     
-   - **REBASE_APPT_STATE_SENDING** : fijación y enviar una actualización de la reunión. 
+   - **REBASE_APPT_STATE_SENDING** : corrección y envío de una actualización de la reunión. 
     
-   - **REBASE_APPT_STATE_DONE** : fijación y listo con un elemento. 
+   - **REBASE_APPT_STATE_DONE** : se corrige y se hace con un elemento. 
     
 _pRowCur_
   
-> [entrada] Un puntero a una estructura **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** que describe el elemento que se examinan o fijo. 
+> a Un puntero a una estructura **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** que describe el elemento que se está examinando o corrigiendo. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Las aplicaciones de cliente MAPI que usan la interfaz [IOlkApptRebaser](iolkapptrebaser.md) implementan esta función para realizar un seguimiento de procesamiento del elemento. 
+Las aplicaciones de cliente MAPI que usan la interfaz [IOlkApptRebaser](iolkapptrebaser.md) implementan esta función para realizar un seguimiento del procesamiento de elementos. 
   
 ## <a name="see-also"></a>Vea también
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
-description: Representa una zona horaria toda incluidas todas las reglas de MAYÚS históricas, actuales y futuros zona horaria para el horario de verano.
-ms.openlocfilehash: f436216f5da882ea8ac144e6bd384e51e31abb8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa una zona horaria completa que incluye todas las reglas de turno de zona horaria histórica, actual y futura para el horario de verano.
+ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328297"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 
-Representa una zona horaria toda incluidas todas las reglas de MAYÚS históricas, actuales y futuros zona horaria para el horario de verano.
+Representa una zona horaria completa que incluye todas las reglas de turno de zona horaria histórica, actual y futura para el horario de verano.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,29 +29,29 @@ typedef struct {
 } TZDEFINITION;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _wFlags_
   
-> Indica que el nombre de la clave que representa la zona horaria en el registro de Windows es válido. Debido a que cada zona horaria siempre debe identificarse mediante un nombre de clave, este miembro siempre debe tener el valor **TZDEFINITION_FLAG_VALID_KEYNAME**.
+> Indica que el nombre de clave que representa la zona horaria en el registro de Windows es válido. Como cada zona horaria debe identificarse siempre mediante un nombre de clave, este miembro siempre debe tener el valor **TZDEFINITION_FLAG_VALID_KEYNAME**.
     
 _pwszKeyName_
   
-> El nombre de la clave de esta zona horaria en el registro de Windows. Este nombre no debe localizarse. Tiene un tamaño máximo de **MAX_PATH**, que se define en el windows.h de archivo de encabezado de Kit de desarrollo de Software (SDK) de Windows. 
+> El nombre de la clave de esta zona horaria en el registro de Windows. Este nombre no debe estar localizado. Tiene un tamaño máximo de **MAX_PATH**, que se define en el archivo de encabezado Windows. h del kit de desarrollo de software (SDK) de Windows. 
     
 _cRules_
   
-> El número de reglas de zona horaria para esta definición. El número máximo de reglas es **TZ_MAX_RULES**. 
+> Número de reglas de zona horaria para esta definición. El número máximo de reglas es **TZ_MAX_RULES**. 
     
 _rgRules_
   
-> Una matriz de reglas que describen cuando se producen cambios.
+> Una matriz de reglas que describen Cuándo se producen los turnos.
     
 ## <a name="remarks"></a>Comentarios
 
-Debe haber al menos una regla en *rgRules* . La primera regla en *rgRules* es considerado como la regla para utilizar hasta que se inicia la segunda regla, independientemente de la *stStart* en la primera regla. 
+Debe haber al menos una regla en *rgRules* . Se considera que la primera regla de *rgRules* es la regla que se va a usar hasta que se inicie la segunda regla, independientemente de la *stStart* de la primera regla. 
   
-Las reglas se deben ordenar de más antiguo a más reciente. No hay ninguna superposición permitida entre las reglas, por lo que se considera una regla anterior para finalizar cuando se inicia una nueva regla.
+Las reglas deben ordenarse de más antigua a más reciente. No se permite la superposición entre las reglas, por lo que se considera que una regla anterior finaliza cuando se inicia una nueva regla.
   
 ## <a name="see-also"></a>Vea también
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: Determina la distancia entre el borde derecho del bloque de texto y el texto que contiene. El valor predeterminado es 0,25 centímetros.
-ms.openlocfilehash: 57fdb320395a9a6562983a0148b37c4a70a9a9b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a9d2406792e9e57c6acd0e4291b624633e70dcb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326778"
 ---
-# <a name="rightmargin-cell-text-block-format-section"></a>Celda RightMargin (sección Formato del bloque de texto)
+# <a name="rightmargin-cell-text-block-format-section"></a>Celda RightMargin (Sección de formato del bloque de texto)
 
 Determina la distancia entre el borde derecho del bloque de texto y el texto que contiene. El valor predeterminado es 0,25 centímetros.
   

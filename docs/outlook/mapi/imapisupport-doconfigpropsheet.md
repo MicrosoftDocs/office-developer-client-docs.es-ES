@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322375"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
@@ -38,11 +38,11 @@ HRESULT DoConfigPropsheet(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de la hoja de propiedades.
+> a Identificador de la ventana primaria de la hoja de propiedades.
     
  _ulFlags_
   
@@ -50,19 +50,19 @@ HRESULT DoConfigPropsheet(
     
  _lpszTitle_
   
-> [entrada] Un puntero al título de la hoja de propiedades.
+> a Un puntero al título de la hoja de propiedades.
     
  _lpDisplayTable_
   
-> [entrada] Un puntero a la tabla de presentación que se describe los controles para que aparezca en la hoja de propiedades.
+> a Un puntero a la tabla de presentación que describe los controles que deben aparecer en la hoja de propiedades.
     
  _lpConfigData_
   
-> [entrada] Un puntero a la implementación de [IMAPIProp](imapipropiunknown.md) que se usará para obtener acceso a las propiedades de configuración que se mostrará en la hoja de propiedades. 
+> a Un puntero a la implementación de [IMAPIProp](imapipropiunknown.md) que se va a usar para obtener acceso a las propiedades de configuración que se mostrarán en la hoja de propiedades. 
     
  _ulTopPage_
   
-> [entrada] Un índice basado en cero a la página superior predeterminada de la hoja de propiedades.
+> a Índice de base cero de la página superior predeterminada de la hoja de propiedades.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,15 +72,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::DoConfigPropsheet** se implementa para todos los objetos de soporte técnico. **DoConfigPropSheet** proporciona una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicio y servicios de mensajes. Debe utilizar este cuadro de diálogo estándar para todas las pantallas de propiedad de configuración para que los usuarios se benefician de una interfaz coherente de Windows. 
+El método **IMAPISupport::D oconfigpropsheet** se implementa para todos los objetos de compatibilidad. **DoConfigPropSheet** proporciona una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicios y los servicios de mensajes. Debe usar este cuadro de diálogo estándar para todas las pantallas de propiedades de configuración para que los usuarios se beneficien de una interfaz de Windows coherente. 
   
-Proveedores de servicios de llamada **DoConfigPropSheet** como parte de su implementación del método [SettingsDialog](imapistatus-settingsdialog.md) o desde un botón que se utiliza para mostrar detalles en Propiedades. Servicios de mensajes, llamar a **DoConfigPropSheet** desde su función de punto de entrada de servicio de mensaje. 
+Los proveedores de servicios llaman a **DoConfigPropSheet** como parte de su implementación del método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o desde un botón usado para mostrar detalles sobre las propiedades. Los servicios de mensajes llaman a **DoConfigPropSheet** desde su función de punto de entrada del servicio de mensajes. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede crear la tabla de presentación indicada por el parámetro _lpDisplayTable_ mediante una llamada a la función [BuildDisplayTable](builddisplaytable.md) o con código personalizado. 
+Puede crear la tabla de presentación a la que señala el parámetro _lpDisplayTable_ llamando a la función [BuildDisplayTable](builddisplaytable.md) o con código personalizado. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b98c5bf3-10c8-7299-2836-3906d6a9135d
 description: Determina el ancho de la página impresa en las unidades de dibujo.
-ms.openlocfilehash: e03696c8f1c921c930d3563e9c73ef4ae613a7c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d887cb4335d2725101db54ba2b1483ccf01cff4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327373"
 ---
-# <a name="pagewidth-cell-page-properties-section"></a>Celda PageWidth (sección Propiedades de impresión)
+# <a name="pagewidth-cell-page-properties-section"></a>Celda PageWidth (Sección de propiedades de página)
 
 Determina el ancho de la página impresa en las unidades de dibujo.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-También puede establecer el ancho de la página en la ficha **Tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ) o manualmente si cambia el tamaño de la página con el mouse. Para ello, arrastre el borde de la página mientras mantiene presionada la tecla CTRL. 
+También puede establecer el ancho de página en la **ficha tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha de **Configurar página** ) o manualmente cambiando el tamaño de la página con el mouse. Para ello, arrastre el borde de la página mientras mantiene presionada la tecla CTRL. 
   
 Para obtener una referencia a la celda PageWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

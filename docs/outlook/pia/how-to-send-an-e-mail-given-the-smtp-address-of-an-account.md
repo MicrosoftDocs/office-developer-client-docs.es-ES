@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0771941581d0edaab1660790582cfb22bef48dc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332098"
 ---
 # <a name="send-an-email-given-the-smtp-address-of-an-account"></a>Enviar un correo electrónico según la dirección SMTP de una cuenta
 
@@ -28,7 +28,7 @@ Los siguientes ejemplos de código contienen los métodos SendEmailFromAccount y
 
 A continuación, el ejemplo de código de Visual Basic, seguido por el ejemplo de código de C\#.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. Las instrucciones **Imports** o **using** no deben producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de Clase pública. Las líneas de código siguientes muestran cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

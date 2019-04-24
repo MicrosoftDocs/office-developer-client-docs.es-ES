@@ -1,5 +1,5 @@
 ---
-title: RGB Function (VisioShapeSheet)
+title: Función RGB (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,60 +8,60 @@ f1_keywords:
 - Vis_DSS.chm82251489
 localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
-description: Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color mediante sus componentes rojos, verdes y azules, donde cada uno es un número en el rango de 0 a 255, ambos incluidos, o una expresión que da como resultado un número.
-ms.openlocfilehash: 7fa129d3ed28441f619660ed0db035cde85979bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno de ellos es un número entre 0 y 255, ambos incluidos, o una expresión que da como resultado un número de ese tipo.
+ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326743"
 ---
-# <a name="rgb-function-visioshapesheet"></a>RGB Function (VisioShapeSheet)
+# <a name="rgb-function-visioshapesheet"></a>Función RGB (VisioShapeSheet)
 
-Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color mediante sus componentes rojos, verdes y azules, donde cada uno es un número en el rango de 0 a 255, ambos incluidos, o una expresión que da como resultado un número. 
+Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno de ellos es un número entre 0 y 255, ambos incluidos, o una expresión que da como resultado un número de ese tipo. 
   
 ## <a name="syntax"></a>Sintaxis
 
-RGB (** *rojo* **, ** *verde* **, ** *azul* **) 
+RGB (* * *rojo* * *, * * *verde* * *, * * *azul* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _rojo_ <br/> |Obligatorio  <br/> |**Número** <br/> |El componente rojo.  <br/> |
-| _verde_ <br/> |Obligatorio  <br/> |**Número** <br/> |El componente verde.  <br/> |
-| _azul_ <br/> |Obligatorio  <br/> |**Number** <br/> |El componente azul.  <br/> |
+| _roja_ <br/> |Obligatorio  <br/> |**Number** <br/> |El componente rojo.  <br/> |
+| _Green_ <br/> |Obligatorio  <br/> |**Number** <br/> |El componente verde.  <br/> |
+| _azul_ <br/> |Obligatorio  <br/> |**Nmber** <br/> |El componente azul.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el color que devuelve la función no forma parte de la paleta de colores del documento actual, se agrega.
   
 La tabla siguiente muestra varios colores estándar y los valores de sus componentes rojo, verde y azul.
   
-|**Color**|**Valor Red (rojo)**|**Valor Green (verde)**|**Valor azul**|
+|**Color**|**Valor rojo**|**Valor verde**|**Valor azul**|
 |:-----|:-----|:-----|:-----|
-|Negro  <br/> |0  <br/> |0  <br/> |0  <br/> |
-|Azul  <br/> |0  <br/> |0  <br/> |255  <br/> |
-|Verde  <br/> |0  <br/> |255  <br/> |0  <br/> |
-|Cian  <br/> |0  <br/> |255  <br/> |255  <br/> |
-|Rojo  <br/> |255  <br/> |0  <br/> |0  <br/> |
-|Magenta  <br/> |255  <br/> |0  <br/> |255  <br/> |
-|Amarillo  <br/> |255  <br/> |255  <br/> |0  <br/> |
+|Negro  <br/> |comprendi  <br/> |comprendi  <br/> |comprendi  <br/> |
+|Azul  <br/> |comprendi  <br/> |comprendi  <br/> |255  <br/> |
+|Verde  <br/> |comprendi  <br/> |255  <br/> |comprendi  <br/> |
+|Aguamarina  <br/> |comprendi  <br/> |255  <br/> |255  <br/> |
+|Rojo  <br/> |255  <br/> |comprendi  <br/> |comprendi  <br/> |
+|Magenta  <br/> |255  <br/> |comprendi  <br/> |255  <br/> |
+|Amarillo  <br/> |255  <br/> |255  <br/> |comprendi  <br/> |
 |Blanco  <br/> |255  <br/> |255  <br/> |255  <br/> |
    
 ## <a name="example-1"></a>Ejemplo 1
 
-RGB(0,0,255)
+RGB (0, 0255)
   
 Devuelve el índice del color azul.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-¡RGB (rojo (Sheet.1! FillForegnd), 120, 0)
+RGB (rojo (hoja. 1! FillForegnd), 120, 0)
   
 Devuelve el índice que corresponde a un color cuyo componente rojo coincide con el del relleno de primer plano en la Hoja.1.
   

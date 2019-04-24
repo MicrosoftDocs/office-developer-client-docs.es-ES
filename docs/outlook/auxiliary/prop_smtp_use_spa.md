@@ -6,30 +6,30 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
-description: Especifica si se debe usar la autenticación de contraseña segura (SPA) para la cuenta de SMTP.
-ms.openlocfilehash: a0bd944f4534f1a18021d1cbf6a1d224e60f9568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica si se va a usar la autenticación de contraseña segura (SPA) para la cuenta SMTP.
+ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328339"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 
-Especifica si se debe usar la autenticación de contraseña segura (SPA) para la cuenta de SMTP.
+Especifica si se va a usar la autenticación de contraseña segura (SPA) para la cuenta SMTP.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Identificador:  <br/> |0 x 0207  <br/> |
+|Identificador:  <br/> |0x0207  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x02070003  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x02070003  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un medio de valor cero no use SPA, en caso contrario, use SPA.
+Un valor de cero significa que no se usa SPA; de lo contrario, use SPA.
   
 ## <a name="see-also"></a>Vea también
 

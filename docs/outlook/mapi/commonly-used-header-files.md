@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 377dc67b737f8b40c89d7f45d6fff544ce63193e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec4923bb5fbe78dfed55bea1b537a33d195cb0cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332056"
 ---
 # <a name="commonly-used-header-files"></a>Archivos de encabezado de uso frecuente
 
@@ -21,33 +21,33 @@ ms.locfileid: "22563887"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cada tema de referencia incluye una tabla que nombra el archivo de encabezado MAPI donde se define el elemento de la API. En la siguiente tabla se describe los archivos de encabezado MAPI que los programadores usan con frecuencia.
+Cada tema de referencia incluye una tabla que nombra el archivo de encabezado MAPI donde se define el elemento de la API. En la tabla siguiente se describen los archivos de encabezado MAPI que los desarrolladores usan con frecuencia.
   
 |**Archivo de encabezado**|**Descripción**|
 |:-----|:-----|
-|MAPI.h  <br/> |Define las estructuras y constantes.  <br/> |
-|Mapiaux.h  <br/> |Define interfaces adicionales, estructuras y constantes usadas por la interfaz de programación de aplicaciones de mensajería.  <br/> |
-|Mapicode.h  <br/> |Define los códigos de estado para los valores de error.  <br/> |
-|Mapidbg.h  <br/> |Define las macros para la depuración.  <br/> |
-|Mapidefs.h  <br/> |Define los tipos de eventos usadas con frecuencia, tipos de propiedad, indicadores, estructuras e interfaces.  <br/> |
-|MAPIForm.h  <br/> |Define los elementos de formularios.  <br/> |
-|Mapiguid.h  <br/> |Define los GUID.  <br/> |
-|Mapinis.h  <br/> |Define utilidades que admiten internalización.  <br/> |
-|Mapioid.h  <br/> |Define los identificadores de objeto MAPI.  <br/> |
-|Mapispi.h  <br/> |Define los indicadores y las interfaces que implementa MAPI para proveedores de servicios y los servicios de message.  <br/> |
-|Mapitags.h  <br/> |Define las etiquetas de propiedad.  <br/> |
-|Mapiutil.h  <br/> |Define las funciones e interfaces de utilidad.  <br/> |
+|MAPI. h  <br/> |Define estructuras y constantes.  <br/> |
+|Mapiaux. h  <br/> |Define interfaces, estructuras y constantes adicionales usadas por la interfaz de programación de aplicaciones de mensajería.  <br/> |
+|Mapicode. h  <br/> |Define los códigos de estado de los valores de error.  <br/> |
+|Mapidbg. h  <br/> |Define macros para la depuración.  <br/> |
+|Mapidefs. h  <br/> |Define los tipos de eventos usados con frecuencia, los tipos de propiedad, los indicadores, las estructuras y las interfaces.  <br/> |
+|MAPIForm. h  <br/> |Define los elementos Forms.  <br/> |
+|Mapiguid. h  <br/> |Define los GUID.  <br/> |
+|Mapinis. h  <br/> |Define las utilidades que admiten la internacionalización.  <br/> |
+|Mapioid. h  <br/> |Define los identificadores de objeto MAPI.  <br/> |
+|Mapispi. h  <br/> |Define las interfaces y los indicadores que implementa MAPI para los proveedores de servicios y los servicios de mensajes.  <br/> |
+|Mapitags. h  <br/> |Define las etiquetas de las propiedades.  <br/> |
+|Mapiutil. h  <br/> |Define las interfaces y funciones de la utilidad.  <br/> |
 |Mapival.h  <br/> |Define las macros de validación.  <br/> |
-|Mapiwin.h  <br/> |Define tipos, constantes, indicadores, funciones y macros para el desarrollo de proveedores de servicios de origen único.  <br/> |
-|Mapiwz.h  <br/> |Define los prototipos y constantes para el Asistente para proveedores.  <br/> |
-|Mapix.h  <br/> |Define las marcas y las interfaces que implementa MAPI para los clientes.  <br/> |
-|MSPST.h  <br/> |Define las propiedades del almacén de información personal (archivos .pst).  <br/> |
+|Mapiwin. h  <br/> |Define tipos, constantes, indicadores, funciones y macros para desarrollar proveedores de servicios de origen único.  <br/> |
+|Mapiwz. h  <br/> |Define prototipos y constantes para el asistente del proveedor.  <br/> |
+|Mapix. h  <br/> |Define los indicadores y las interfaces que MAPI implementa para los clientes.  <br/> |
+|MSPST. h  <br/> |Define las propiedades del almacén de información personal (archivo. pst).  <br/> |
    
-Para obtener información acerca de cómo obtener los archivos de encabezado MAPI, vea [Instalar los archivos de encabezado de MAPI](how-to-install-mapi-header-files.md).
+Para obtener información acerca de cómo obtener archivos de encabezado MAPI, vea [install MAPI header files](how-to-install-mapi-header-files.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
+[Introducción a la Referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
 

@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251511
 localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
-description: Evalúa una de las dos expresiones dependiendo del valor de estado.
-ms.openlocfilehash: 2cfdf23986a06dcc109106bd50a1a38e5af91313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Evalúa una de las dos expresiones según el valor de estado.
+ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331328"
 ---
 # <a name="userui-function"></a>Función USERUI
 
-Evalúa una de las dos expresiones dependiendo del valor de _estado_.
+Evalúa una de las dos expresiones según el valor de _Estado_.
   
 ## <a name="syntax"></a>Sintaxis
 
-USERUI (** *estado* **, ** *expresiónpredeterminada* **, ** *expresióndeusuario* **) 
+USERUI (* * *Estado* * *, * * *DefaultExpression* * *, * * *userexpression* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _state_ <br/> |Obligatorio  <br/> |**Boolean** <br/> |Determina qué expresión se evalúe.  <br/> |
-| _expresiónpredeterminada_ <br/> |Obligatorio  <br/> |**String** <br/> |La expresión de forma predeterminada.  <br/> |
-| _expresióndeusuario_ <br/> |Obligatorio  <br/> |**String** <br/> |Una expresión proporcionada por el usuario.  <br/> |
+| _state_ <br/> |Obligatorio  <br/> |**Boolean** <br/> |Determina la expresión que se va a evaluar.  <br/> |
+| _DefaultExpression_ <br/> |Obligatorio  <br/> |**String** <br/> |La expresión predeterminada.  <br/> |
+| _userexpression_ <br/> |Obligatorio  <br/> |**String** <br/> |Una expresión proporcionada por el usuario.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si el _estado_ es 0, la función USERUI evalúa _expresiónpredeterminada_. Si _es 1,_ evalúa _expresióndeusuario_.
+Si el _Estado_ es 0, la función USERUI evalúa _DefaultExpression_. Si el _Estado_ es 1, evalúa _userexpression_.
   
 ## <a name="example"></a>Ejemplo
 
-USERUI (1, si (ancho\>6pda, 6pda, Width), Width\*0,75) 
+USERUI (1, if (width\>6pda, 6Pda, width), width\*0,75) 
   
-Evalúa la expresión Width\*.075 y devuelve el resultado. 
+Evalúa el ancho\*de la expresión. 075 y devuelve el resultado. 
   
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
 description: ''
-ms.openlocfilehash: c382edb21e8c8e4f6561f6e34a8fe28c3907af61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 213436da43ef66bc85b0caf6bef20fb9972edc19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327359"
 ---
-# <a name="edit-a-part-of-a-formula"></a>Editar un elemento de una fórmula
+# <a name="edit-a-part-of-a-formula"></a>Modificar parte de una fórmula
 
 1. Haga doble clic en la celda. O bien, seleccione la celda y presione F2.
     
@@ -35,6 +35,6 @@ ms.locfileid: "19822046"
 | Seleccionar hasta el final  <br/> | Presione Mayús+Fin.  <br/> |
 | Seleccionar hasta el principio  <br/> | Presione Mayús+Inicio.  <br/> |
 | Reemplazar el texto seleccionado  <br/> | Escriba el texto nuevo.  <br/> |
-| Eliminar el texto seleccionado  <br/> | Presione SUPRIMIR. O bien, en la ficha **Inicio** , haga clic en **Cortar**.  <br/> |
+| Eliminar el texto seleccionado  <br/> | Presione SUPRIMIR. O bien, en la pestaña **Inicio** , haga clic en **cortar**.  <br/> |
    
 

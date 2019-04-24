@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: aaea2c76-b373-419c-9782-240e32c5e1e0
 description: En esta sección se incluye contenido de referencia para las siguientes API en la referencia auxiliar de Outlook 2013.
-ms.openlocfilehash: c2df2acfd23f59802c4f305b282e2b8fff4dd66c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c5e2c1991b127fa2619cb32d5d488455cba9025
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328304"
 ---
 # <a name="reference-outlook-auxiliary-reference"></a>Referencia (referencia auxiliar de Outlook)
 

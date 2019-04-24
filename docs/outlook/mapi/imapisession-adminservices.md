@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cb7fa7bb7dc17a89fc7cc40ae370accc40fa3941
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c639523a02047bf00c378dafd7bc698d7d4e5fff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322417"
 ---
 # <a name="imapisessionadminservices"></a>IMAPISession::AdminServices
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) para realizar cambios en los servicios de mensajes. 
   
@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,25 +42,25 @@ HRESULT AdminServices(
     
  _lppServiceAdmin_
   
-> [out] Un puntero a un puntero a un objeto de administración del servicio de mensajes.
+> contempla Un puntero a un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Un puntero a un objeto de administración del servicio de mensajes se devolvió correctamente.
+> Se devolvió correctamente un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-El método **IMAPISession::AdminServices** crea un objeto de administración de servicio de mensaje, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Mediante el uso de este puntero, puede llamar a métodos **IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensaje en el perfil de sesión. Tenga en cuenta que estos cambios no tendrán efecto hasta la siguiente sesión; la sesión actual no se ve afectada. 
+El método **IMAPISession:: AdminServices** crea un objeto de administración del servicio de mensajes, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Mediante este puntero, puede llamar a métodos **IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensajes en el perfil de sesión. Tenga en cuenta que estos cambios no surten efecto hasta la siguiente sesión; la sesión actual no se ve afectada. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el método **IMAPISession::AdminServices** para tener acceso a los perfiles para leer el nombre del servidor.  <br/> |
+|MAPIStoreFunctions. cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el método **IMAPISession:: AdminServices** para obtener acceso al perfil para leer el nombre del servidor.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

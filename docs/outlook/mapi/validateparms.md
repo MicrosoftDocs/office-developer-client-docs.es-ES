@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7b29eab30677dae7f720cecd9fde71e8bbbf752c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f2669f703827924493387c4beac0b64b25672860
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329578"
 ---
 # <a name="validateparms"></a>ValidateParms
 
@@ -25,12 +25,12 @@ ms.locfileid: "22579721"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Llama a una función interna para comprobar si que las aplicaciones cliente de los parámetros han pasado a proveedores de servicios. 
+Llama a una función interna para comprobar los parámetros que las aplicaciones cliente han pasado a los proveedores de servicios. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -44,11 +44,11 @@ HRESULT ValidateParms(
 
  _eMethod_
   
-> [entrada] Especifica el (enumeración), el método para validar. 
+> a Especifica, por enumeración, el método que se va a validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento en la pila.
+> a Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,11 +62,11 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-Parámetros pasados entre MAPI y servicio proveedores se supone que sea correcta y se sincronizan sólo depuración validación con la macro [CheckParms](checkparms.md) . Proveedores deben comprobar todos los parámetros que se pasó por las aplicaciones cliente, pero los clientes deben se presupone que MAPI y proveedor de parámetros correctos. Use la macro **HR_FAILED** para comprobar los valores devueltos. 
+Se supone que los parámetros que se han pasado entre MAPI y los proveedores de servicios son correctos y solo se someten a la validación de depuración con la macro [CheckParms](checkparms.md) . Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben suponer que los parámetros MAPI y del proveedor son correctos. Use la macro **HR_FAILED** para probar los valores devueltos. 
   
- **ValidateParms** se llama de manera diferente dependiendo de si el código de llamada es C o C++. C++ pasa un parámetro implícito conocido como _este_ para cada llamada al método, que se convierte en explícitas en C y es la dirección del objeto. El primer parámetro, _eMethod_, es un enumerador realizado desde la interfaz y el método que se está validando e indica los parámetros que se espera encontrar en la pila. El segundo parámetro es diferente para C y C++. En C++ se denomina _primer_, y es el primer parámetro para el método que se está validando. El segundo parámetro para el lenguaje C, _ppThis_, es la dirección del primer parámetro para el método que es siempre un puntero de objeto. En ambos casos, el segundo parámetro proporciona la dirección del principio de la lista de parámetros del método y en función de _eMethod_, mueve hacia abajo de la pila y valida los parámetros. 
+ Se llama a **ValidateParms** de forma diferente en función de si el código de llamada es C o C++. C++ pasa un parámetro implícito conocido como _this_ a cada llamada a método, que se convierte en Explicit en C y es la dirección del objeto. El primer parámetro, _eMethod_, es un enumerador creado a partir de la interfaz y el método que se va a validar e indica qué parámetros se esperan buscar en la pila. El segundo parámetro es diferente para C y C++. En C++, se llama _primero_y es el primer parámetro para el método que se va a validar. El segundo parámetro para el lenguaje C, _ppThis_, es la dirección del primer parámetro del método que siempre es un puntero de objeto. En ambos casos, el segundo parámetro proporciona la dirección del principio de la lista de parámetros del método y, en función de _eMethod_, baja la pila y valida los parámetros. 
   
-Los proveedores que implementan las interfaces comunes, como **IMAPITable** y **IMAPIProp** siempre deben comprobar los parámetros mediante la función **ValidateParms** con el fin de realizar seguro de coherencia entre todos los proveedores. Se han definido las funciones de validación del parámetro adicional para que algunos tipos de parámetro complejo que se usará en su lugar, según corresponda. Vea los temas de referencia para las funciones siguientes: 
+Los proveedores que implementen interfaces comunes como **IMAPITable** y **IMAPIProp** siempre deben comprobar los parámetros mediante la función **ValidateParms** para garantizar la coherencia entre todos los proveedores. Se han definido funciones de validación de parámetros adicionales para los tipos de parámetros complejos que se utilizarán en su lugar según corresponda. Consulte los temas de referencia para las siguientes funciones: 
   
 - [FBadColumnSet](fbadcolumnset.md)
     
@@ -88,9 +88,9 @@ Los proveedores que implementan las interfaces comunes, como **IMAPITable** y **
     
 - [FBadSortOrderSet](fbadsortorderset.md)
     
-Métodos heredados usan la misma validación de parámetros como la interfaz de la que heredan. Por ejemplo, la comprobación de parámetros de **IMessage** y **IMAPIProp** deben ser el mismo. 
+Los métodos heredados usan la misma validación de parámetros que la interfaz desde la que heredan. Por ejemplo, la comprobación de parámetros para **IMessage** y **IMAPIProp** debe ser la misma. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

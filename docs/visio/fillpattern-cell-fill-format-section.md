@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: Determina la trama de relleno para la forma. Para especificar una trama de relleno personalizada, utilice la función USE en esta celda.
-ms.openlocfilehash: 26429e06ad432eaf7fae9188ac676cb4be3201c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322438"
 ---
-# <a name="fillpattern-cell-fill-format-section"></a>Celda FillPattern (sección Formato de relleno)
+# <a name="fillpattern-cell-fill-format-section"></a>Celda FillPattern (Sección de formato de relleno)
 
 Determina la trama de relleno para la forma. Para especificar una trama de relleno personalizada, utilice la función USE en esta celda.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Ninguno (relleno transparente).  <br/> |
+|comprendi  <br/> |Ninguno (relleno transparente).  <br/> |
 |1  <br/> |Color de primer plano sólido.  <br/> |
-|2 - 40  <br/> |Varias tramas de relleno que se corresponden con entradas de índice en el cuadro de diálogo **Relleno**.  <br/> |
+|2 -40  <br/> |Varias tramas de relleno que se corresponden con entradas de índice en el cuadro de diálogo **Relleno**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

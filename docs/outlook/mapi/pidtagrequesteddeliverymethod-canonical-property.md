@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f18d726c1b06a6fb7f79964165bbdb9074a6d4d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ecfed5684ba2166c1c00c1fd07fa074b4ce9fd79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331419"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Propiedad canónica PidTagRequestedDeliveryMethod
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571370"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene una matriz binaria de métodos de entrega (proveedores de servicios), en orden de preferencia del remitente de un mensaje.
+Esta propiedad contiene una matriz binaria de métodos de entrega (proveedores de servicios), en el orden preferido del remitente de un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Esta propiedad contiene una matriz binaria de métodos de entrega (proveedores d
    
 ## <a name="remarks"></a>Comentarios
 
-La matriz contenida en esta propiedad consta de ASN.1 identificadores para cada uno de los proveedores de servicios.
+La matriz contenida en la propiedad this consta de los identificadores ASN. 1 de cada uno de los proveedores de servicios.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

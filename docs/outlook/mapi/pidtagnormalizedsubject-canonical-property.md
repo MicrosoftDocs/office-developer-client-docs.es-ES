@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 2000e6e8-d908-4814-8093-28f8011250c8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 54a0f438dacc8a1c7838eb538ec05c5c263f1b0a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329277"
 ---
 # <a name="pidtagnormalizedsubject-canonical-property"></a>Propiedad canónica PidTagNormalizedSubject
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene al asunto del mensaje con cualquier prefijo que se ha quitado.
+Contiene el asunto del mensaje con cualquier prefijo eliminado.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene al asunto del mensaje con cualquier prefijo que se ha quitado.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se calculan por almacén de mensajes o los proveedores de las propiedades de **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) y **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) de transporte de la manera siguiente.
+Estas propiedades son calculadas por los proveedores de almacenamiento de mensajes o transporte desde las propiedades **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la siguiente manera.
   
-- Si el **PR_SUBJECT_PREFIX** está presente y es una subcadena inicial de **PR_SUBJECT**, **PR_NORMALIZED_SUBJECT** y las propiedades asociadas se establecen en el contenido de **PR_SUBJECT** con el prefijo que se ha quitado. 
+- Si **PR_SUBJECT_PREFIX** está presente y es una subcadena inicial de **PR_SUBJECT**, **PR_NORMALIZED_SUBJECT** y las propiedades asociadas se establecen en el contenido de **PR_SUBJECT** con el prefijo quitado. 
     
-- Si **PR_SUBJECT_PREFIX** está presente, pero no es una subcadena inicial de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** se elimina y se vuelve a calcular desde **PR_SUBJECT** utilizando la siguiente regla: si la cadena contenida en **PR_SUBJECT** se comienza con uno a tres caracteres no numéricos, seguidos de un punto y coma y un espacio, a continuación, la cadena junto con los dos puntos y el espacio en blanco se convierte en el prefijo. Caracteres de números, espacios y signos de puntuación no son caracteres de prefijo válido. 
+- Si **PR_SUBJECT_PREFIX** está presente, pero no es una subcadena inicial de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** se elimina y se vuelve a calcular desde **PR_SUBJECT** con la siguiente regla: Si la cadena contenida en **PR_SUBJECT** empieza con uno o tres caracteres no numéricos seguidos de dos puntos y un espacio, la cadena junto con los dos puntos y el espacio en blanco se convierten en el prefijo. Los números, los espacios en blanco y los caracteres de puntuación no son caracteres de prefijo válidos. 
     
-- Si **PR_SUBJECT_PREFIX** no está presente, se calcula a partir **PR_SUBJECT** utilizando la regla que se describen en el paso anterior. Esta propiedad, a continuación, se establece en el contenido de **PR_SUBJECT** con el prefijo que se ha quitado. 
+- Si **PR_SUBJECT_PREFIX** no está presente, se calcula a partir de **PR_SUBJECT** mediante la regla que se describe en el paso anterior. Esta propiedad se establece en el contenido de **PR_SUBJECT** con el prefijo quitado. 
     
- **Nota** Cuando **PR_SUBJECT_PREFIX** es una cadena vacía, **PR_SUBJECT** y esta propiedad son los mismos. 
+ **Nota:** Cuando **PR_SUBJECT_PREFIX** es una cadena vacía, **PR_SUBJECT** y esta propiedad son iguales. 
   
-En última instancia, esta propiedad debe ser la parte de **PR_SUBJECT** siguiendo el prefijo. Si no hay ningún prefijo, esta propiedad se convierte en el mismo como **PR_SUBJECT**.
+En última instancia, esta propiedad debe ser la parte de **PR_SUBJECT** después del prefijo. Si no hay prefijo, esta propiedad pasa a ser la misma que **PR_SUBJECT**.
   
- **PR_SUBJECT_PREFIX** y esta propiedad se deben calcular como parte de la implementación de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Una aplicación de cliente no debe solicitar el método [IMAPIProp::GetProps](imapiprop-getprops.md) para sus valores hasta que se hayan confirmado por una llamada **IMAPIProp::SaveChanges** . 
+ **PR_SUBJECT_PREFIX** y esta propiedad se deben calcular como parte de la implementación de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Una aplicación cliente no debe solicitar el método [IMAPIProp:: GetProps](imapiprop-getprops.md) para sus valores hasta que haya sido confirmada por una llamada a **IMAPIProp:: SaveChanges** . 
   
-Las propiedades de asunto son cadenas normalmente pequeñas de menos de 256 caracteres, y un proveedor de almacén de mensajes no está obligado a compatible con la interfaz de vinculación e incrustación de objetos (OLE) **IStream** en ellos. El cliente siempre debe intentar el acceso a través de la interfaz de **IMAPIProp** en primer lugar y recurrir a **IStream** sólo si se devuelve MAPI_E_NOT_ENOUGH_MEMORY. 
+Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e incrustación de objetos (OLE) en ellas. El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si se devuelve MAPI_E_NOT_ENOUGH_MEMORY. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,25 +58,25 @@ Las propiedades de asunto son cadenas normalmente pequeñas de menos de 256 cara
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
+> Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -84,9 +84,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

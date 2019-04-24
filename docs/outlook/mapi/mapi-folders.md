@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 21b738424b27d3d89d8de84c8c9ff2ff86dd945b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c00dce9ec489ca2b886f3e51551ba57e9eeea33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331566"
 ---
 # <a name="mapi-folders"></a>Carpetas de MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Las carpetas son objetos MAPI que sirven como unidad b�sica de organizaci�n para los mensajes. Organizados jer�rquicamente, carpetas pueden contener otras carpetas y mensajes. Carpetas que m�s f�cil localizar y trabajar con los mensajes.
   
@@ -39,9 +39,9 @@ La mayor�a de otra carpetas es gen�rica. Al igual que las carpetas ra�z, c
   
 Una carpeta de b�squeda contiene v�nculos a los mensajes que coinciden con un conjunto de criterios predefinidos. Dado que las carpetas de b�squeda contienen v�nculos en lugar de mensajes reales, son en efecto de s�lo lectura. No pueden contener otras carpetas ni tiene mensajes o carpetas a mover o copiar en ellos. No se tienen mensajes nuevos creados en ellas. y que ellos mismos no se va a mover, copiar o cambiar el nombre. Cuando se elimina un mensaje de una carpeta de b�squeda, se elimine realmente desde la carpeta que contiene el mensaje.
   
-Tipo de carpeta se almacena en la propiedad **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Cada carpeta tiene esta propiedad establecida en FOLDER_GENERIC, FOLDER_ROOT o FOLDER_SEARCH, dependiendo de su tipo.
+El tipo de carpeta se almacena en la propiedad **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Cada carpeta tiene esta propiedad establecida en FOLDER_GENERIC, FOLDER_ROOT o FOLDER_SEARCH, dependiendo de su tipo.
   
-Cada carpeta tiene el identificador de una entrada y una clave de registro. El identificador de entrada, **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)), se usa en los clientes y proveedores de servicios para abrir la carpeta. La clave de registro, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), es un valor binario que se usa para comparar la carpeta con otras carpetas. 
+Cada carpeta tiene el identificador de una entrada y una clave de registro. Los clientes y los proveedores **** de servicios usan el identificador de entrada, o bien ([PidTagEntryId](pidtagentryid-canonical-property.md)), para abrir la carpeta. La clave de registro, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), es un valor binario que se usa para comparar la carpeta con otras carpetas. 
   
 Una carpeta tiene otras propiedades para identificar el almac�n de mensajes y carpetas relacionadas. Se requieren las siguientes propiedades:
   
@@ -51,11 +51,11 @@ Una carpeta tiene otras propiedades para identificar el almac�n de mensajes y 
     
 - **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Algunas carpetas admiten la propiedad **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) que describe el tipo de operaciones que puede realizar un usuario. Por ejemplo, uno de los valores v�lidos para **PR_ACCESS** es MAPI_ACCESS_DELETE, que indica que se puede quitar la carpeta. Otra opci�n, MAPI_ACCESS_MODIFY, indica que la carpeta debe ser modificable. 
+Algunas carpetas admiten la propiedad **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)), que describe el tipo de operaciones que puede realizar un usuario. Por ejemplo, uno de los valores v�lidos para **PR_ACCESS** es MAPI_ACCESS_DELETE, que indica que se puede quitar la carpeta. Otra opci�n, MAPI_ACCESS_MODIFY, indica que la carpeta debe ser modificable. 
   
 Para obtener una lista completa de propiedades de la carpeta requerida, vea la interfaz de [IMAPIFolder](imapifolderimapicontainer.md) . 
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

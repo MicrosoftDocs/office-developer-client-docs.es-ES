@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 62a4e6a09570cc3d71b0797ed7fff162d05ee416
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d1a7e8e1d9debd7eb715bbe4958657c000f1e6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326169"
 ---
 # <a name="opening-the-address-book"></a>Abrir la libreta de direcciones
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Call [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) to open the integrated address book and retrieve a pointer to the MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) interface. The methods of the **IAddrBook** interface can be used to access entries in all of the containers of each of the address book providers in the profile. 
   

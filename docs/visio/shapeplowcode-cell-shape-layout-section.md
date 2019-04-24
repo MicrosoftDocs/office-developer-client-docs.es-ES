@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: Determina si esta forma colocable se quita al colocar junto a ella otra forma colocable en la página de dibujo.
-ms.openlocfilehash: 5917abad653e7aaf40da05eafa3f9f1a90a2cf9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e155103f7bfc70a78826297f441fc9ce78942ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325609"
 ---
-# <a name="shapeplowcode-cell-shape-layout-section"></a>Celda ShapePlowCode (sección Diseño de forma)
+# <a name="shapeplowcode-cell-shape-layout-section"></a>Celda ShapePlowCode (Sección de diseño de forma)
 
 Determina si esta forma colocable se quita al colocar junto a ella otra forma colocable en la página de dibujo.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Se quita tal como especifique la página.  <br/> |**visSLOPlowDefault** <br/> |
+|comprendi  <br/> |Se quita tal como especifique la página.  <br/> |**visSLOPlowDefault** <br/> |
 |1  <br/> |No se quita ninguna forma.  <br/> |**visSLOPlowNever** <br/> |
-|2  <br/> |Se quitan todas las formas.  <br/> |**visSLOPlowAlways** <br/> |
+|segundo  <br/> |Se quitan todas las formas.  <br/> |**visSLOPlowAlways** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda para una forma determinada en la ficha de **colocación** en el cuadro de diálogo **comportamiento** (con una forma seleccionada, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en el Ficha **colocación** ). 
+También puede establecer el valor de esta celda para una forma determinada en la ficha **colocación** del cuadro de diálogo **comportamiento** (seleccione una forma, en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en el Ficha **colocación** ). 
   
-Para establecer este comportamiento para *todas* las formas en la página de dibujo, utilice la celda PlowCode de la sección de diseño de página. 
+Para establecer este comportamiento para *todas* las formas de la página de dibujo, utilice la celda PlowCode de la sección de diseño de página. 
   
 Para obtener una referencia a la celda ShapePlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

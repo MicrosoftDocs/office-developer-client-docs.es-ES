@@ -1,61 +1,61 @@
 ---
-title: Información sobre el proveedor de almacén de archivos PST ajustado de muestra
+title: Información sobre el proveedor de almacén de archivos PST ajustado de ejemplo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
-description: 'Última modificación: 03 de julio de 2012'
-ms.openlocfilehash: 399c86d189cfc4160d151f417a6dd20364e60ce3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 3 de julio de 2012'
+ms.openlocfilehash: 779dd96c4f07c0c5eee60ae046cd17db98eebfd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329767"
 ---
-# <a name="about-the-sample-wrapped-pst-store-provider"></a>Información sobre el proveedor de almacén de archivos PST ajustado de muestra
+# <a name="about-the-sample-wrapped-pst-store-provider"></a>Información sobre el proveedor de almacén de archivos PST ajustado de ejemplo
 
  
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-## <a name="overview-of-message-store-providers"></a>Información general de los proveedores de almacén de mensajes
+## <a name="overview-of-message-store-providers"></a>Información general sobre los proveedores de almacenamiento de mensajes
 
-Los proveedores de almacén de mensajes controlan el almacenamiento y la recuperación de mensajes y otra información para los usuarios de aplicaciones de cliente. La información del mensaje se organiza mediante el uso de un sistema jerárquico conocido como un almacén de mensajes. El almacén de mensajes se implementa en varios niveles, con contenedores denominados carpetas que contienen mensajes de distintos tipos. No hay ningún límite para el número de niveles en un almacén de mensajes; las carpetas pueden contener varias subcarpetas.
+Los proveedores de almacén de mensajes administran el almacenamiento y la recuperación de mensajes y otra información para los usuarios de las aplicaciones cliente. La información del mensaje se organiza mediante un sistema jerárquico conocido como almacén de mensajes. El almacén de mensajes se implementa en varios niveles, con contenedores denominados carpetas que contienen mensajes de distintos tipos. No hay ningún límite en el número de niveles de un almacén de mensajes; las carpetas pueden contener varias subcarpetas.
   
-Datos de almacén de mensajes se pueden usar en una variedad de formas. Además del uso típico de correo electrónico, las carpetas se pueden utilizar como un foro de discusión público, como un repositorio para documentos de referencia o como un contenedor para la información del boletín electrónico. Un almacén de mensajes solo puede contener muchos tipos de información, puede modificar algunas y otras no. Varios clientes pueden instalar el mismo almacén de mensajes, haciendo que sea fácil y rápida para compartir datos.
+Los datos del almacén de mensajes se pueden usar de varias formas. Además del uso típico del correo electrónico, las carpetas se pueden usar como foro de discusión pública, como repositorio para los documentos de referencia o como contenedor para la información del tablón de anuncios. Un solo almacén de mensajes puede contener muchos tipos de información, algunas modificables y otras no. Varios clientes pueden instalar el mismo almacén de mensajes, lo que facilita y agiliza el uso compartido de datos.
   
-Carpetas de almacén de mensajes le permiten ordenar y filtrar los mensajes y para personalizar la vista en una presentación (UI) de la interfaz de usuario. Vínculos a mensajes filtrados se conservan en carpetas especiales denominadas carpetas de resultados de búsqueda. El usuario de una aplicación cliente entra en criterios de filtrado, que MAPI hace referencia a como una restricción y los criterios se aplica a los mensajes almacenados en una o varias carpetas. Por ejemplo, es posible que un usuario desee ver sólo los mensajes que se trabaja con un tema concreto con las fechas de llegada que son más recientes que la última semana. Las referencias a los mensajes que coinciden con los criterios aparecen en la carpeta de resultados de búsqueda y los mensajes reales permanecen en sus carpetas regulares.
+Las carpetas del almacén de mensajes le permiten ordenar y filtrar los mensajes y personalizar la vista en una pantalla de interfaz de usuario (UI). Los vínculos a mensajes filtrados se conservan en carpetas especiales llamadas carpetas de resultados de búsqueda. El usuario de una aplicación cliente introduce criterios de filtrado, a los que MAPI hace referencia como una restricción, y los criterios se aplican a los mensajes almacenados en una o más carpetas. Por ejemplo, es posible que un usuario desee ver sólo los mensajes relacionados con un asunto concreto con fechas de llegada que son más recientes que la semana pasada. Las referencias a los mensajes que coinciden con los criterios se enumeran en la carpeta de resultados de búsqueda y los mensajes reales permanecen en sus carpetas normales.
   
-Los mensajes son las unidades de datos que se transfiere desde una aplicación a otro usuario o aplicación o usuario. Cada mensaje contiene algunos texto del mensaje y la información de sobre del mensaje que se usa para la transmisión. Algunos mensajes incluyen uno o más datos adjuntos o datos adicionales relacionados con y transportar con un mensaje en el formulario de un archivo, otro mensaje o un objeto OLE.
+Los mensajes son las unidades de datos que se transfieren de un usuario o aplicación a otro usuario o aplicación. Cada mensaje contiene el texto del mensaje y la información sobre el mensaje que se usa para la transmisión. Algunos mensajes incluyen uno o más datos adjuntos, o datos adicionales relacionados con un mensaje en forma de archivo, otro mensaje o un objeto OLE, o se transportan con un mensaje.
   
-## <a name="the-sample-wrapped-pst-store-provider"></a>El ejemplo de proveedor de almacén de archivos PST de ajustado
+## <a name="the-sample-wrapped-pst-store-provider"></a>El proveedor de almacén de archivos PST ajustado de muestra
 
-La API de replicación permite replicar los elementos de un repositorio de datos de back-end en un almacén de archivos PST de Outlook. Usar la API de replicación para replicar los datos en un almacén de archivos PST dedicado y realizar un seguimiento de estado de sincronización. Este enfoque no requiere introducir un proveedor de almacén MAPI personalizado, que es el tipo complejo para escribir y mantener. Sin embargo, el proveedor de almacén de archivos PST deba ajustarse para trabajar con la API de replicación.
+La API de replicación permite replicar elementos de un repositorio de datos back-end en un almacén de archivos PST de Outlook. La API de replicación se usa para replicar los datos en un almacén de archivos PST dedicado y realizar un seguimiento del estado de sincronización. Este método no requiere que introduzca un proveedor de almacén MAPI personalizado, que es complejo de escribir y mantener. Sin embargo, el proveedor de almacén PST tiene que ajustarse para que funcione con la API de replicación.
   
-El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de carpetas personales (PST) como back-end para almacenar los datos. El proveedor de almacén de archivos PST ajustado debe usarse junto con la API de replicación. Para obtener más información, vea [Acerca de la API de replicación](about-the-replication-api.md). La mayoría de las funciones en el proveedor de almacén de archivos PST ajustado de ejemplo pasa sus argumentos directamente al proveedor de PST subyacente. Ciertas funciones requieren implementación especial y se describen en los temas siguientes.
+El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de archivos de carpetas personales (PST) como back-end para almacenar datos. El proveedor de almacén de archivos PST ajustado debe usarse junto con la API de replicación. Para obtener más información, vea [acerca de la API de replicación](about-the-replication-api.md). La mayoría de las funciones del proveedor de almacén de archivos PST ajustado de ejemplo pasan sus argumentos directamente al proveedor de PST subyacente. Algunas funciones requieren una implementación especial y se describen en los siguientes temas.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Instalar el ejemplo ajusta el proveedor de almacén de archivos PST](installing-the-sample-wrapped-pst-store-provider.md)
+- [Instalación del proveedor de almacén de archivos PST ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md)
     
-- Se explica cómo descargar e instalar al proveedor de almacén de archivos PST ajustado de ejemplo.
+- Explica cómo descargar e instalar el proveedor de almacén de archivos PST ajustado de ejemplo.
     
 - [Inicializar un proveedor de almacén de archivos PST ajustado](initializing-a-wrapped-pst-store-provider.md)
     
-- Es el primer paso en la implementación de un proveedor de almacén de archivos PST ajustado inicializar y configurar el proveedor de almacén de archivos PST ajustado.
+- El primer paso para implementar un proveedor de almacén de archivos PST ajustado es inicializar y configurar el proveedor de almacén de archivos PST ajustado.
     
-- [Inicie sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Inicio de sesión en un proveedor de almacén de archivos PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- Después de Inicializa un proveedor de almacén de archivos PST ajustado, debe implementar las funciones para que MAPI y la cola MAPI pueden iniciar sesión en el proveedor de almacén de archivos PST ajustado.
+- Después de inicializar un proveedor de almacén de archivos PST ajustado, debe implementar funciones para que MAPI y la cola MAPI puedan iniciar sesión en el proveedor de almacén de archivos PST ajustado.
     
-- [Uso de un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Usar un proveedor de almacén de archivos PST ajustado](using-a-wrapped-pst-store-provider.md)
     
-- Para usar un almacén de archivos PST ajustado proveedor debe ajustar la interfaz **[IMAPISupport::IUnknown](imapisupportiunknown.md)** para implementar comunes ajustado tareas de proveedor de almacén de archivos PST. 
+- Para usar un proveedor de almacén de archivos PST ajustado, debe ajustar la interfaz **[IMAPISupport:: IUnknown](imapisupportiunknown.md)** para implementar las tareas comunes del proveedor de almacenamiento de PST ajustado. 
     
-- [Cerrando un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacén de archivos PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
     
-- Cuando termine de usar un proveedor de almacén de archivos PST ajustado, debe cerrar correctamente el proveedor de almacén de archivos PST ajustado.
+- Una vez que haya terminado de usar un proveedor de almacén de archivos PST ajustado, debe apagar correctamente el proveedor de almacén de archivos PST ajustado.
     
 ## <a name="see-also"></a>Vea también
 
@@ -63,5 +63,5 @@ El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de
 
 [Información sobre la API de replicación](about-the-replication-api.md)
   
-[Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
+[Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
 

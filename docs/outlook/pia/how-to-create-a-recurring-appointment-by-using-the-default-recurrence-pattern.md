@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: de58523e663349c43cc358f5b76896987a0f23b3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332119"
 ---
 # <a name="create-a-recurring-appointment-by-using-the-default-recurrence-pattern"></a>Crear una cita periódica mediante el patrón de periodicidad predeterminado
 
@@ -34,7 +34,7 @@ Tenga en cuenta que incluso después de liberar la referencia e intentar obtener
 
 En el ejemplo siguiente, CreateRecurringAppointment crea un objeto **AppointmentItem**. Luego, llama al GetRecurrencePattern. GetRecurrencePattern devuelve un objeto RecurrencePattern y se guarda el objeto AppointmentItem. Se crea una cita periódica mediante el patrón de periodicidad predeterminado.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de Clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

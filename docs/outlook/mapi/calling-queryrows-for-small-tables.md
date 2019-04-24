@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 34975677bedccf3f9111985d371e21d482b45584
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b38dcc485e75f94ccf4f4c3c8c9a57d314465a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331638"
 ---
 # <a name="calling-queryrows-for-small-tables"></a>Llamar a QueryRows para tablas pequeñas
 
@@ -21,8 +21,8 @@ ms.locfileid: "22589339"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al recuperar filas de una tabla pequeña, llame a [IMAPITable:: QueryRows](imapitable-queryrows.md) en lugar de crear primero una restricción. Creación de una restricción afecta al rendimiento debido a que el proveedor debe crear primero una tabla, busque las filas coincidentes en la tabla original y, a continuación, copie las filas a la nueva tabla. Si el número total de filas de la tabla es menor que 100, es probablemente más eficaces leer todas las filas y, a continuación, llame al [elemento IMAPITable:: FindRow](imapitable-findrow.md) para buscar la fila apropiada. Ésta es una estrategia especialmente buena si esta información es necesaria sólo ocasionalmente. 
+Al recuperar filas de una tabla pequeña, llame al método [IMAPITable:: QueryRows](imapitable-queryrows.md) en lugar de crear primero una restricción. La creación de una restricción afecta al rendimiento, ya que el proveedor primero debe crear una tabla, buscar las filas coincidentes en la tabla original y, a continuación, copiar las filas en la nueva tabla. Si el número total de filas de la tabla es inferior a 100, es probable que sea más eficaz leer todas las filas y, a continuación, llamar al método [IMAPITable:: FindRow](imapitable-findrow.md) para buscar la fila adecuada. Esta es una estrategia especialmente buena si esta información solo es necesaria de vez en cuando. 
   
-El momento apropiado para usar una restricción es cuando la información restringida o filtrada se utiliza durante un período de tiempo más largo o se usa con frecuencia. Por ejemplo, si necesita siempre una vista con mensajes no leídos, la llamada correcta a usar es una restricción.
+El momento adecuado para usar una restricción es cuando la información restringida o filtrada se usará a lo largo de un período de tiempo más largo o se use con frecuencia. Por ejemplo, si siempre necesita una vista con mensajes no leídos, una restricción es la llamada adecuada para usar.
   
 

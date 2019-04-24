@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9dbf02fc94519d40431fb6bd493ef8e68df59d11
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c79943792c8c17ee007c39b5c5c215a6fbc0699
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331574"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID1_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID1_ . 
     
  _lpEntryID1_
   
-> [entrada] Un puntero para el primer identificador de entrada que se va a comparar.
+> a Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID2_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID2_ . 
     
  _lpEntryID2_
   
-> [entrada] Un puntero para el segundo identificador de entrada que se va a comparar.
+> a Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,29 +62,29 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Un puntero al resultado de la comparación. TRUE si los identificadores de dos entrada hacen referencia al mismo objeto; en caso contrario, es FALSE.
+> contempla Un puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La comparación realizada correctamente.
+> La comparación se realizó correctamente.
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Uno o ambos de los identificadores de entrada especificados como parámetros no hacen referencia a objetos válidos, posiblemente debido a que actualmente están abiertos y no está disponible.
+> Uno o ambos de los identificadores de entrada especificados como parámetros no hacen referencia a objetos válidos, posiblemente porque actualmente no están abiertos y no están disponibles.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::CompareEntryIDs** se implementa para dirección libreta de direcciones y el mensaje de proveedor compatibilidad con objetos de almacén. **CompareEntryIDs** compara dos identificadores de entrada que pertenecen a un proveedor de servicio único para determinar si hacen referencia al mismo objeto. MAPI extrae la parte [MAPIUID](mapiuid.md) de los identificadores de entrada para determinar el proveedor de servicio responsable de los objetos. MAPI, a continuación, llama a **CompareEntryIDs** (método) del objeto de su inicio de sesión para llevar a cabo la comparación. 
+El método **IMAPISupport:: CompareEntryIDs** se implementa para los objetos de compatibilidad de la libreta de direcciones y del proveedor de almacenamiento de mensajes. **CompareEntryIDs** compara dos identificadores de entrada que pertenecen a un único proveedor de servicios para determinar si hacen referencia al mismo objeto. MAPI extrae la parte [MAPIUID](mapiuid.md) de los identificadores de entrada para determinar el proveedor de servicios responsable de los objetos. MAPI, a continuación, llama al método **CompareEntryIDs** del objeto de inicio de sesión para realizar la comparación. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede suceder, por ejemplo, después de instalar una nueva versión de un proveedor de servicios. 
+ **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de servicios. 
   
-Si **CompareEntryIDs** devuelve un error, no realice ninguna acción en función del resultado de la comparación. En su lugar, tomar el enfoque más conservador posible. **CompareEntryIDs** puede producirse un error si, por ejemplo, uno o ambos de los identificadores de entrada contienen una estructura **MAPIUID** no válida. 
+Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basándose en el resultado de la comparación. En su lugar, siga el enfoque más conservador posible. Se puede producir un error en **CompareEntryIDs** si, por ejemplo, uno o ambos de los identificadores de entrada contienen una estructura **MAPIUID** no válida. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

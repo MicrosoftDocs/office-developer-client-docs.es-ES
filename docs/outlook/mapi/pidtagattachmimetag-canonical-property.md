@@ -13,19 +13,19 @@ api_type:
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327247"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Propiedad canónica PidTagAttachMimeTag
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información de formato sobre datos adjuntos de extensiones multipropósito de correo Internet (MIME). 
+Contiene información de formato sobre un archivo adjunto de extensiones multipropósito de correo Internet (MIME). 
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene información de formato sobre datos adjuntos de extensiones multipropó
    
 ## <a name="remarks"></a>Comentarios
 
-Si la propiedad **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debe tener un aspecto en estas propiedades para determinar cómo se aplica formato a los datos adjuntos. 
+Si la propiedad **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debería mirar estas propiedades para determinar cómo se da formato a los datos adjuntos. 
   
-Estas propiedades se copian desde el parámetro de tipo de contenido del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es tipo/subtipo, como aplicación/binario o texto sin formato. 
+Estas propiedades se copian desde el parámetro Content-Type del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es Type/SubType, como Application/binary o text/plain. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,21 +46,21 @@ Estas propiedades se copian desde el parámetro de tipo de contenido del encabez
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica las propiedades de mensajes codificados con derechos administrados.
+> Especifica las propiedades de los mensajes codificados con derechos administrados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -68,9 +68,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6b57ed45e067ce2debd40e033d386ad2b5ae895a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2280ae9271ca73af33f395bf9e41a9ee8fa62f96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327527"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
@@ -21,7 +21,7 @@ ms.locfileid: "22568521"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica los diferentes Estados de seguimiento para un mensaje.
+Especifica los distintos Estados de seguimiento de un mensaje.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -34,7 +34,7 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _flwupNone_
   
@@ -42,17 +42,17 @@ enum FollowUpStatus {
     
  _flwupComplete_
   
-> El mensaje está completado.
+> El mensaje se ha completado.
     
  _flwupMarked_
   
-> El mensaje está marcado para su seguimiento.
+> El mensaje se marca para seguimiento.
     
  _flwupMAX_
   
-> El número de diferentes estados compatibles para su seguimiento.
+> El número de diferentes Estados admitidos para el seguimiento.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

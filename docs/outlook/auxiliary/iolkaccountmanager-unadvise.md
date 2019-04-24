@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
-description: Anula el registro de un cliente con el Administrador de cuentas para las notificaciones de todas las cuentas.
-ms.openlocfilehash: 0632bc6bd98e218cf323262ea480b020185438f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Anula el registro de un cliente con el administrador de cuentas para las notificaciones de todas las cuentas.
+ms.openlocfilehash: 0b954413b06cb1aa1b6fc4e0e9666f108bf81fbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322011"
 ---
 # <a name="iolkaccountmanagerunadvise"></a>IOlkAccountManager::Unadvise
 
-Anula el registro de un cliente con el Administrador de cuentas para las notificaciones de todas las cuentas. 
+Anula el registro de un cliente con el administrador de cuentas para las notificaciones de todas las cuentas. 
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,11 +29,11 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwCookie_
   
-> [entrada] La cookie devuelta por [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
+> a La cookie devuelta por [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md).
     
 ## <a name="return-values"></a>Valores devueltos
 

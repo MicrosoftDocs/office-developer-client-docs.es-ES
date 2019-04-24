@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f3a62f6783e3b1a0a0423a08c7f5e866b42b81f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 36e0218c9e4e312a138bef7517242f74079212c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330229"
 ---
 # <a name="adrentry"></a>ADRENTRY
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569179"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se describen cero o más propiedades que pertenecen a un destinatario.
+Describe cero o más propiedades que pertenecen a un destinatario.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _ADRENTRY
@@ -45,19 +45,19 @@ typedef struct _ADRENTRY
 
  **ulReserved1**
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  **cValues**
   
-> Recuento de propiedades de la matriz de valores de propiedad que señala el miembro **rgPropVals** . El miembro **cValues** puede ser cero. 
+> Número de propiedades de la matriz de valores de propiedad a la que señala el miembro **rgPropVals** . El miembro **cValues** puede ser cero. 
     
  **rgPropVals**
   
-> Puntero a una matriz de valores de propiedad que describe las propiedades para el destinatario. El miembro **rgPropVals** puede ser NULL. 
+> Puntero a una matriz de valores de propiedad que describe las propiedades del destinatario. El miembro **rgPropVals** puede ser nulo. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura de **ADRENTRY** describe las propiedades que pertenecen a un solo destinatario. Las propiedades que se usan normalmente para describir a un destinatario incluyen lo siguiente: 
+Una estructura **ADRENTRY** describe las propiedades que pertenecen a un único destinatario. Las propiedades que se suelen usar para describir a un destinatario son las siguientes: 
   
  **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
@@ -65,19 +65,19 @@ Una estructura de **ADRENTRY** describe las propiedades que pertenecen a un solo
   
  **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
   
- **Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+ **** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
-Cuando una propiedad de **entrada del objeto** o el identificador de entrada aparece en la matriz [SPropValue](spropvalue.md) para un destinatario, esto indica que el destinatario se ha resuelto. Los clientes de llaman al método [IAddrBook::ResolveName](iaddrbook-resolvename.md) para asegurarse de que se han resueltos todos los destinatarios en la lista de destinatarios de un mensaje saliente. Destinatarios resueltos sólo se pueden enviar con los mensajes. 
+Cuando se muestra un identificador de **** entrada o una propiedad de la matriz de [SPropValue](spropvalue.md) para un destinatario, esto indica que se ha resuelto el destinatario. Los clientes llaman al método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) para asegurarse de que se han resuelto todos los destinatarios de la lista de destinatarios de un mensaje saliente. Solo se pueden enviar con mensajes los destinatarios resueltos. 
   
- Estructuras **ADRENTRY** normalmente se combinan para formar una matriz para el miembro **aEntries** de una estructura [ADRLIST](adrlist.md) . 
+ Las estructuras **ADRENTRY** suelen combinarse para formar una matriz para el miembro **aEntries** de una estructura [ADRLIST](adrlist.md) . 
   
- Estructuras **ADRENTRY** y estructuras [SRow](srow.md) son idénticas porque ambos contienen un miembro reservado, una matriz de valores de propiedad y un recuento de valores de la matriz. Mientras que las estructuras **ADRENTRY** se combinan para formar al miembro **aEntries** de una estructura **ADRLIST** , **SRow** estructuras se combinan para formar al miembro **aRow** de una estructura de [SRowSet](srowset.md) . Ambos tipos de estructuras siguen las mismas reglas de asignación, lo que implica que se puede convertir en una estructura de **ADRLIST** y utilizada como es una estructura **SRowSet** que se recupera de la tabla de contenido de un contenedor de la libreta de direcciones. 
+ Las estructuras **ADRENTRY** y [SRow](srow.md) son idénticas porque contienen un miembro reservado, una matriz de valores de propiedad y un recuento de valores de la matriz. Mientras que las estructuras **ADRENTRY** se combinan para formar el miembro **aEntries** de una estructura **ADRLIST** , las estructuras **SRow** se combinan para formar el miembro **aRow** de una estructura [SRowSet](srowset.md) . Ambos tipos de estructuras siguen las mismas reglas de asignación, lo que implica que una estructura **SRowSet** que se recupera de la tabla de contenido de un contenedor de libretas de direcciones se puede convertir en una estructura **ADRLIST** y usar tal cual. 
   
-Una estructura de **ADRENTRY** puede estar vacía. Por ejemplo, una estructura **ADRENTRY** que se encuentra en la estructura **ADRLIST** indicada por el parámetro _lppAdrList_ en una llamada a **IAddrBook::Address** puede estar vacía cuando se está eliminando un destinatario. 
+Una estructura **ADRENTRY** puede estar vacía. Por ejemplo, una estructura **ADRENTRY** que está incluida en la estructura **ADRLIST** a la que apunta el parámetro _LppAdrList_ en una llamada a **IAddrBook:: Address** puede estar vacía cuando se quita un destinatario. 
   
-Para obtener más información acerca de cómo asignar memoria para las estructuras **ADRENTRY** , vea [Administración de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obtener más información acerca de cómo asignar memoria para estructuras de **ADRENTRY** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

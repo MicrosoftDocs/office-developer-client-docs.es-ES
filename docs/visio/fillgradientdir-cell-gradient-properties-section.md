@@ -6,39 +6,39 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e8156ff1-c540-44b8-8b69-ba4d54883260
-description: Determina la dirección del relleno degradado. Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso.
-ms.openlocfilehash: 9b4226892e70fcffe7a78d109bd852e6d4f93838
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina la dirección del degradado de relleno. Un degradado puede ser lineal, radial, rectangular o seguir una trayectoria.
+ms.openlocfilehash: 53aad056c7fc1674e00e142fd72a10134103b390
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322466"
 ---
 # <a name="fillgradientdir-cell-gradient-properties-section"></a>Celda FillGradientDir (sección Propiedades de degradado)
 
-Determina la dirección del relleno degradado. Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso. 
+Determina la dirección del degradado de relleno. Un degradado puede ser lineal, radial, rectangular o seguir una trayectoria. 
   
 > [!NOTE]
-> Un degradado lineal es el degradado sólo que toma un valor de ángulo adicionales (según lo determinado por la celda **FillGradientDir** ). Todas las demás direcciones de degradado tienen preestablecidas enumeraciones. 
+> Un degradado lineal es el único degradado que toma un valor de ángulo adicional (según se determina por la celda **FillGradientDir** ). Todas las demás direcciones de degradado tienen enumeraciones preestablecidas. 
   
 ****
 
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Degradado lineal. La celda **FillGradientAngle** determina la dirección del degradado.  <br/> |
-|1-7  <br/> |Degradados radiales. El degradado se extiende hacia el exterior en un círculo desde un punto central.  <br/> |
-|8-12  <br/> |Degradados rectangulares. El degradado se extiende como una línea direccional desde un origen con un desvanecimiento con forma rectangular.  <br/> |
-|13  <br/> |Degradado de ruta de acceso.  <br/> |
+|comprendi  <br/> |Degradado lineal. La celda **FillGradientAngle** determina la dirección del degradado.  <br/> |
+|1-7  <br/> |Degradados radiales. El degradado se extiende hacia afuera en un círculo desde un punto central.  <br/> |
+|8-12  <br/> |Degradados rectangulares. El degradado se extiende como una línea direccional desde un origen con una atenuación de forma rectangular.  <br/> |
+|apartado  <br/> |Degradado de ruta de acceso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FillGradientDir  <br/> |
    
-Para obtener una referencia a la celda **FillGradientDir** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **FillGradientDir** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

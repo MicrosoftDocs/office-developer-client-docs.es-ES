@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 46d993060d03b8c22c2d6c083c05f023648e6642
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 97575a65cd6825e07d6f11c813beec539f99f53a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328933"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve los datos que es necesario volver a generar la actual contraído o expandido el estado de una tabla con categorías.
+Devuelve los datos necesarios para volver a generar el estado expandido o contraído actual de una tabla clasificada.
   
 ```cpp
 HRESULT GetCollapseState(
@@ -37,57 +37,57 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  _cbInstanceKey_
   
-> [entrada] El número de bytes de la clave de la instancia indicada por el parámetro _lpbInstanceKey_ . 
+> a El recuento de bytes de la clave de instancia apuntado por el parámetro _lpbInstanceKey_ . 
     
  _lpbInstanceKey_
   
-> [entrada] Debe recompilar un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que la actual, contrae o expande el estado. El parámetro _lpbInstanceKey_ no puede ser NULL. 
+> a Un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que se debe recompilar el estado expandido o contraído actual. El parámetro _lpbInstanceKey_ no puede ser nulo. 
     
  _lpcbCollapseState_
   
-> [out] Un puntero para el recuento de estructuras indicada por el parámetro _lppbCollapseState_ . 
+> contempla Un puntero al número de estructuras señalado por el parámetro _lppbCollapseState_ . 
     
  _lppbCollapseState_
   
-> [out] Un puntero a un puntero a estructuras que contienen datos que se describen la vista de tabla actual.
+> contempla Un puntero a un puntero a estructuras que contienen datos que describen la vista de tabla actual.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El estado de la tabla con categorías se guardó correctamente.
+> El estado de la tabla clasificada se ha guardado correctamente.
     
 MAPI_E_BUSY 
   
-> Otra operación está en curso que impide que la operación de inicio. Debe ser permite la operación en curso para llevar a cabo o se debe detener.
+> Hay otra operación en curso que impide que la operación se inicie. Debe permitirse que la operación en curso se complete o que deba detenerse.
     
 MAPI_E_NO_SUPPORT 
   
-> La tabla no admite la categorización y vistas expandida y contraída.
+> La tabla no admite la categorización y las vistas expandidas y contraídas.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable::GetCollapseState** funciona con el método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla con categorías. **GetCollapseState** guarda los datos que se necesitan para que **SetCollapseState** a usar para volver a generar las vistas de las categorías de una tabla con categorías adecuadas. Proveedores de servicios de determinan los datos que se guarde. Sin embargo, la mayoría de los proveedores de servicio implementar **GetCollapseState** guarda lo siguiente: 
+El método **IMAPITable:: GetCollapseState** funciona con el método [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla clasificada. **GetCollapseState** guarda los datos necesarios para que **SetCollapseState** use para volver a crear las vistas adecuadas de las categorías de una tabla clasificada. Los proveedores de servicios determinan los datos que se van a guardar. Sin embargo, la mayoría de los proveedores de servicios que implementan **GetCollapseState** guardan lo siguiente: 
   
-- Las claves de ordenación (estándares columnas y columnas de categoría).
+- Claves de ordenación (columnas estándar y columnas de categoría).
     
-- Información acerca de la fila que representa la clave de instancia.
+- Información sobre la fila representada por la clave de instancia.
     
 - Información para restaurar las categorías contraídas y expandidas de la tabla.
     
-Para obtener más información acerca de las tablas ordenadas por categorías, vea [Ordenar y la categorización](sorting-and-categorization.md).
+Para obtener más información acerca de las tablas clasificadas por categorías, vea [ordenar y categorización](sorting-and-categorization.md).
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Almacenar el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState_ . 
+Almacene el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState_ . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 

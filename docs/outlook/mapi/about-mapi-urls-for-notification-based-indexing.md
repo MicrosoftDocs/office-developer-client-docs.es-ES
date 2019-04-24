@@ -1,72 +1,72 @@
 ---
-title: Información sobre las direcciones URL de MAPI para la indexación basada en notificaciones
+title: Acerca de las direcciones URL MAPI para la indización basada en notificaciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
-description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 8 de noviembre de 2011'
+ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322235"
 ---
-# <a name="about-mapi-urls-for-notification-based-indexing"></a>Información sobre las direcciones URL de MAPI para la indexación basada en notificaciones
+# <a name="about-mapi-urls-for-notification-based-indexing"></a>Acerca de las direcciones URL MAPI para la indización basada en notificaciones
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando un proveedor de almacén notifica un indizador que un objeto está listo para la indización, genera una dirección URL de MAPI que identifica de forma exclusiva el objeto para el controlador de protocolo MAPI. Direcciones URL de MAPI está codificadas en Unicode y tener el siguiente formato: 
+Cuando un proveedor de almacenamiento notifica a un indizador que un objeto está preparado para la indización, genera una dirección URL MAPI que identifica de forma exclusiva el objeto en el controlador de protocolo MAPI. Las direcciones URL de MAPI se codifican en Unicode y tienen el siguiente formato: 
   
 `Mapi://SID/StoreDisplayName ($HashNumber)/StoreType/FolderNameA/…/FolderNameN/[EntryIDEncoded[/at=AttachIDEncoded:FileName]]`
 
-En la siguiente tabla se describe las distintas partes de una dirección URL típica.
+En la tabla siguiente se describen las distintas partes de una dirección URL típica.
 
 |Parte | Descripción|
 |:----|:-----------|  
 |*SID* |Identificador de seguridad del usuario actual.| 
-|*StoreDisplayName* |Una cadena que especifica el nombre para mostrar del usuario en dicho almacén.|
-|*Hash* |Una **DWORD** en representación hexadecimal que se calcula según el identificador de entrada de almacenamiento o la firma de asignación de almacenamiento. Este valor se almacena en el registro y se usará más adelante para identificar el almacén en el controlador de protocolo MAPI.<br/><br/>Este número se debe calcular en una forma que minimiza los conflictos con otros almacenes. Para el algoritmo que utiliza Microsoft Outlook para calcular el número de hash, vea [algoritmo para calcular el número de Hash de almacén](algorithm-to-calculate-the-store-hash-number.md).|
-|*StoreType* |Un número que identifica el tipo del almacén que contiene el objeto que se va a indizar. Los valores posibles son los siguientes:<br/>Almacén de - 0 - predeterminado.<br/><br/>-Almacén delegado 1 -, usado para los elementos de delegado en caché localmente.<br/><br/>-2 - las carpetas públicas, usadas para los favoritos de carpetas públicas.<br/><br/>**Nota**: si el almacén se rastrea en lugar de insertarse, el valor que se utiliza es el carácter*X*.| 
-|*FolderNameA/.../FolderNameN* |La ruta de acceso desde la raíz del IPM_SUBTREE a la carpeta o mensaje. Por ejemplo, un mensaje en la carpeta **Bandeja de entrada** **familia** **tiene/Familia de bandeja de entrada** para este parámetro. |
-|*EntryIDEncoded* |Identificador de entrada MAPI para el elemento que se codifican como una cadena Unicode. Vea la siguiente sección "Caracteres especiales" para obtener información acerca de cómo se codifican determinados caracteres especiales. Para obtener más información acerca del algoritmo para codificar el identificador de entrada, vea el [algoritmo para codificar identificadores de entrada e identificadores de los datos adjuntos](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**Nota**: cuando se ven como texto, esto codificado entrada identificador aparece como aleatorio caracteres Hangul o cuadros de acuerdo con el algoritmo, dependiendo de las fuentes disponibles.  |
-|*AttachIDEncoded* |Identificador de datos adjuntos que se codifican como una cadena Unicode. Vea la siguiente sección "Caracteres especiales" para obtener información acerca de cómo se codifican determinados caracteres especiales. Para obtener más información acerca del algoritmo para codificar el identificador de entrada, vea el [algoritmo para codificar identificadores de entrada e identificadores de los datos adjuntos](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**Nota**: cuando se ven como texto, esto codificado entrada identificador aparece como aleatorio caracteres Hangul o cuadros de acuerdo con el algoritmo, dependiendo de las fuentes disponibles. |
-|*FileName* |Nombre de los datos adjuntos de archivos, tal como aparece en el mensaje.|
+|*StoreDisplayName* |Una cadena que especifica el nombre para mostrar del usuario en ese almacén.|
+|*HashNumber* |**DWORD** en representación hexadecimal que se calcula en función del identificador de entrada de almacén o la firma de asignación de almacén. Este valor se almacena en el registro y se usará más adelante para identificar el almacén en el controlador de protocolo MAPI.<br/><br/>Este número debe calcularse de forma que minimice las colisiones con otras tiendas. Para el algoritmo que Microsoft Outlook usa para calcular el número de hash, consulte [algoritmo para calcular el número de hash de la tienda](algorithm-to-calculate-the-store-hash-number.md).|
+|*StoreType* |Número que identifica el tipo de almacén que contiene el objeto que se va a indizar. Los valores posibles son los siguientes:<br/>-0-almacén predeterminado.<br/><br/>-1-almacén delegado, usado para los elementos de delegación almacenados en caché localmente.<br/><br/>-2-carpetas públicas, usadas para favoritos de carpetas públicas.<br/><br/>**Nota**: Si el almacén se está rastreando en lugar de insertado, el valor que se usa es el carácter*X*.| 
+|*FolderNameA/.../FolderNameN* |La ruta de acceso desde la raíz del IPM_SUBTREE a la carpeta o el mensaje. Por ejemplo, un mensaje de la carpeta de **familia** en la **bandeja de entrada** tiene la **bandeja de entrada o familia** para este parámetro. |
+|*EntryIDEncoded* |IDENTIFICADOR de entrada MAPI para el elemento codificado como una cadena Unicode. Consulte la siguiente sección "caracteres especiales" para obtener información sobre cómo se codifican determinados caracteres especiales. Para obtener más información acerca del algoritmo para codificar el identificador de entrada, consulte [algoritmo para codificar identificadores de entrada y de datos](algorithm-to-encode-entry-ids-and-attachment-ids.md)adjuntos.<br/><br/>**Nota**: cuando se muestra como texto, este identificador de entrada codificado aparece como cuadros o caracteres hangul aleatorios en cumplimiento con el algoritmo, en función de las fuentes disponibles.  |
+|*AttachIDEncoded* |IDENTIFICADOR de datos adJuntos codificado como una cadena Unicode. Consulte la siguiente sección "caracteres especiales" para obtener información sobre cómo se codifican determinados caracteres especiales. Para obtener más información acerca del algoritmo para codificar el identificador de entrada, consulte [algoritmo para codificar identificadores de entrada y de datos](algorithm-to-encode-entry-ids-and-attachment-ids.md)adjuntos.<br/><br/>**Nota**: cuando se muestra como texto, este identificador de entrada codificado aparece como cuadros o caracteres hangul aleatorios en cumplimiento con el algoritmo, en función de las fuentes disponibles. |
+|*FileName* |Nombre del archivo de datos adjuntos, tal y como aparece en el mensaje.|
     
-## <a name="examples-of-mapi-urls"></a>Ejemplos de direcciones URL MAPI
+## <a name="examples-of-mapi-urls"></a>Ejemplos de direcciones URL de MAPI
 
-Los siguientes son algunos ejemplos de direcciones URL de MAPI.
+A continuación se muestran algunos ejemplos de direcciones URL de MAPI.
   
-- Dirección URL de MAPI para una carpeta: 
+- Dirección URL MAPI para una carpeta: 
     
   `mapi://S-1-5-21-2127521184-1604012920-1887927527-71418/Mailbox - Some User ($be19928f)/2/Office`
     
-- Dirección URL de MAPI para un mensaje: 
+- Dirección URL MAPI de un mensaje: 
     
   `mapi://S-1-5-21-2127521184-1604012920-1887927527-71418/Mailbox - Some User ($484efb89)/0/Calendar/곯가가가걍걝걌곌겷걢곒갑겛개가검걟곔걙곾걤곂갠가`
     
-- Dirección URL de MAPI para los datos adjuntos: 
+- Dirección URL MAPI para datos adjuntos: 
     
   `mapi://S-1-5-21-2127521184-1604012920-1887927527-71418/Mailbox - Some User ($484efb89)/0/Inbox/곯가가가걍걝걌곌겷걢곒갑겛개가검걟곔걙곾간곷갦가/at=겅걋각가:somefile.txt`
     
 ## <a name="special-characters"></a>Caracteres especiales
 
-Algunos caracteres se codifican si aparecen en el mensaje o datos adjuntos. A continuación muestra qué caracteres se codifican en una dirección URL de MAPI:
+Determinados caracteres se codifican si aparecen en el mensaje o los datos adjuntos. A continuación, se muestran los caracteres codificados en una dirección URL MAPI:
   
-- % > 25%
+- % >% 25
     
-- / > % 2F 
+- />% 2F 
     
-- \ > 5% C 
+- \ >% 5C 
     
-- \*> % 2A 
+- \*>% 2A 
     
-- ? > % 3F 
+- ? >% 3F 
     
-## <a name="blob-associated-with-each-mapi-url"></a>BLOB asociado a cada dirección URL de MAPI
+## <a name="blob-associated-with-each-mapi-url"></a>BLOB asociado a cada dirección URL MAPI
 
-Si se presiona una dirección URL de MAPI para un objeto que se va a indizar, un proveedor de almacén también crea un objeto binario grande (BLOB) que contiene cierta información para el controlador de protocolo MAPI. El proveedor de almacenamiento asocia este BLOB con cada dirección URL de MAPI y lo envía cuando la inserción de la dirección URL de MAPI en el indizador. El formato del objeto binario es como sigue: 
+Cuando se inserta una dirección URL MAPI para un objeto que se va a indizar, un proveedor de almacén también crea un objeto binario grande (BLOB) que contiene determinada información para el controlador de protocolo MAPI. El proveedor del almacén asocia este BLOB con cada dirección URL MAPI y lo envía al insertar la dirección URL MAPI en el indizador. El formato del BLOB es el siguiente: 
   
 ```cpp
 DWORD  dwVersion
@@ -77,19 +77,19 @@ ULONG  cbProviderItemID
 WCHAR  wszProviderItemID
 ```
 
-El proveedor de almacenamiento debe escribir estos valores en el BLOB en el orden mostrado. En la siguiente tabla se describe cada campo del BLOB.
+El proveedor de almacén debe escribir estos valores en el BLOB en el orden que se muestra. En la tabla siguiente se describe cada uno de los campos del BLOB.
 
 |Parte | Descripción|
 |:----|:-----------|  
-|*dwVersion* |Esta es la versión de los datos que se está enviados. Actualmente, este valor es 1.|
-|*dwFlags* |Reservado para uso posterior. Actualmente, este valor debe ser 0.|
-|*cbProfileName* |El tamaño del nombre del perfil, en bytes. Esta información es útil para el controlador de protocolo MAPI saber qué perfil desea utilizar cuando el elemento de la indización.|
-|*wszProfileName* |Cadena de Unicode terminada en null que contiene el nombre del perfil.|
-|*cbProviderItemID* |Tamaño del identificador de elemento de proveedor, en bytes. El proveedor de almacenamiento debe enviar a sólo el proveedor de identificador de elemento para las carpetas, para impedir la apertura de carpetas adicionales para obtener esta información.|
-|*wszProviderItemID* |Cadena de Unicode terminada en null con el identificador de elemento del proveedor que identifica de forma exclusiva el elemento en el almacén.|
+|*dwVersion* |Esta es la versión de los datos que se están enviando. Actualmente, este valor es 1.|
+|*dwFlags* |Reservado para su uso en el futuro. Actualmente, este valor debe ser 0.|
+|*cbProfileName* |El tamaño del nombre del perfil, en bytes. Esta información es útil para que el controlador del protocolo MAPI sepa qué perfil usar al indizar el elemento.|
+|*wszProfileName* |Cadena Unicode terminada en null que contiene el nombre del perfil.|
+|*cbProviderItemID* |Tamaño del identificador de elemento del proveedor, en bytes. El proveedor de almacenamiento debe enviar solo el identificador de elemento de proveedor para las carpetas, para evitar que se abran carpetas adicionales para obtener esta información.|
+|*wszProviderItemID* |Cadena Unicode terminada en NULL con el identificador de elemento de proveedor que identifica de forma única el elemento en el almacén.|
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Información sobre la indexación de almacenes basada en notificaciones](about-notification-based-store-indexing.md)
+- [Acerca de la indización de almacén basada en notificaciones](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)
 

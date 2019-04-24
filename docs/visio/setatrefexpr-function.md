@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm1027317
 localization_priority: Normal
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
-description: Almacena un valor que se establece a través de una acción de la interfaz de usuario (UI) o la automatización.
-ms.openlocfilehash: c664717afcc2b81e55495fd1957a86ef1b021d0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Almacena un valor que se establece a través de una acción en la interfaz de usuario (UI) o automatización.
+ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326008"
 ---
 # <a name="setatrefexpr-function"></a>Función SETATREFEXPR
 
-Almacena un valor que se establece a través de una acción de la interfaz de usuario (UI) o la automatización.
+Almacena un valor que se establece a través de una acción en la interfaz de usuario (UI) o automatización.
   
 ## <a name="syntax"></a>Sintaxis
 
-SETATREFEXPR ([** *expr_opc* **]) 
+SETATREFEXPR ([* * *expr_opt* * *]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expr_opc_ <br/> |Opcional  <br/> |**Varían** <br/> |Una expresión que se ha reemplazado por el valor o expresión que se va a asignar a la celda que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
+| _expr_opt_ <br/> |Opcional  <br/> |**Diferencias** <br/> |Expresión que se reemplaza por el valor o la expresión que se asigna a la celda a la que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de una expresión SETATREFEXPR también se puede establecer desde una función SETATREF en otra celda que haga referencia a la celda que contiene la expresión SETATREFEXPR. 
   
-No está limitado al uso de la función SETATREFEXPR como un parámetro a la función SETATREF. 
+No está limitado a usar la función SETATREFEXPR como un parámetro para la función SETATREF. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -50,9 +50,9 @@ User.GridX =2 pda
   
 User.GridY =2 pda
   
-PinX = INT (SETATREFEXPR () / User.GridX +.5)\*User.GridX
+PinX = INT (SETATREFEXPR ()/User.GridX + 5)\*User. GridX
   
-PinY = INT (SETATREFEXPR () / User.GridY +.5)\*User.GridY
+PinY = INT (SETATREFEXPR ()/User.GridY + 0,5)\*User. GridY
   
 ## <a name="example-3"></a>Ejemplo 3
 

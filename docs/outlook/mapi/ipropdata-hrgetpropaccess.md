@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: 64b0c0501a6ef4471f97e82b231ef430681f1306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e36cf12b7a5b1643f5a0ec97223030718195a7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331594"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera el nivel de acceso y el estado de una o varias de las propiedades del objeto.
   
@@ -34,7 +34,7 @@ HRESULT HrGetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _lppPropTagArray_
   
@@ -59,7 +59,7 @@ S_OK
 
 El m�todo **IPropData::HrGetPropAccess** recupera un conjunto de marcadores que indica el nivel de acceso y el estado de una o m�s propiedades. 
   
-## <a name="notes-to-callers"></a>Notas para llamadores:
+## <a name="notes-to-callers"></a>Notas para autores de llamada:
 
 Puede usar **HrGetPropAccess** para los siguientes prop�sitos: 
   
@@ -73,7 +73,7 @@ Si se ha modificado una propiedad, su marca IPROP_DIRTY se establece en la entra
   
 Si una propiedad no se ha modificado o eliminado, se establecer� el indicador IPROP_READONLY o IPROP_READWRITE. 
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

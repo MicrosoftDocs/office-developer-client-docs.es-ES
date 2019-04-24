@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 40a2bc8a27ec3ce3df610b9c7364719c2b5ee750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332007"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propiedad canónica PidTagAccessControlListTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572791"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una tabla que consta de todos los el sistema acceso a listas de control de (SACL) aplicadas a una carpeta.
+Contiene una tabla que consta de todas las listas de control de acceso al sistema (SACL) que se aplican a una carpeta.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene una tabla que consta de todos los el sistema acceso a listas de control
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad está presente en todos los objetos de carpeta en un servidor de Exchange. Los valores incluidos en esta propiedad se usan para la lectura y modificación de control de acceso (ACL) enumera en las carpetas. Puede usar el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con el identificador de la interfaz **IID_IExchangeModifyTable** para obtener un [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) interfaz para la tabla de ACL de una carpeta. Puede usar esta interfaz para leer y modificar estas ACL. 
+Esta propiedad está presente en todos los objetos de carpeta de un servidor de Exchange. Los valores incluidos en esta propiedad se usan para leer y modificar las listas de control de acceso (ACL) de las carpetas. Puede usar el método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) con el identificador de interfaz **IID_IExchangeModifyTable** para obtener una interfaz [IExchangeModifyTable: IUNKNOWN](iexchangemodifytableiunknown.md) a la tabla de ACL de una carpeta. Puede usar esta interfaz para leer y modificar estas ACL. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

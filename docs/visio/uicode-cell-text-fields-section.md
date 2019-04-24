@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1d9717c1-4310-0d62-874f-4df77cd81627
 description: Determina el código de un campo insertado en versiones de Visio anteriores a Visio 2000.
-ms.openlocfilehash: ce05f779bfebd5720555f1a2d92b1f9f92cfbdfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 293451b61def59ccfdf849dc597def9521fd22e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327350"
 ---
-# <a name="uicode-cell-text-fields-section"></a>Celda UICode (sección Campos de texto)
+# <a name="uicode-cell-text-fields-section"></a>Celda UICode (Sección de campos de texto)
 
 Determina el código de un campo insertado en versiones de Visio anteriores a Visio 2000.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda UICode por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields.UICod [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields. UICod [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda UICode por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

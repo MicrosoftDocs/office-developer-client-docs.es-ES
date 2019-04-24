@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328787"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592321"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se notifica el Visor de formulario del estado de impresión de un formulario.
+Notifica al visor del formulario el estado de impresión de un formulario.
   
 ```cpp
 HRESULT OnPrint(
@@ -34,33 +34,33 @@ HRESULT hrStatus
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _dwPageNumber_
   
-> [entrada] Imprime el número de la última página.
+> a Número de la última página impresa.
     
  _hrStatus_
   
-> [entrada] Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
+> a Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
     
 S_FALSE 
   
-> El trabajo de impresión se completó satisfactoriamente.
+> El trabajo de impresión ha finalizado correctamente.
     
 S_OK 
   
 > El trabajo de impresión está en curso.
     
-NO SE PUDO 
+ERRÓNEA 
   
-> El trabajo de impresión se ha terminado debido a un error.
+> El trabajo de impresión se terminó debido a un error.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación se ha realizado correctamente.
+> La notificación se realizó correctamente.
     
 MAPI_E_USER_CANCEL 
   
@@ -68,15 +68,15 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentarios
 
-Objetos de formulario llamar al método **IMAPIViewAdviseSink::OnPrint** durante la impresión para notificar al Visor de progreso de la impresión. 
+Los objetos de formulario llaman al método **IMAPIViewAdviseSink:: OnPrint** durante la impresión para informar al usuario sobre el progreso de la impresión. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de cada página se imprime. Establezca _dwPageNumber_ a la página que actualmente se está imprimiendo y _hrStatus_ en S_OK. Una vez completado el trabajo de impresión, llame al que conjunto de **OnPrint** con _dwPageNumber_ a la última página impresa y _hrStatus_ se establecen en S_FALSE. 
+Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de imprimir cada página. Establezca _dwPageNumber_ en la página que se está imprimiendo actualmente y _hrStatus_ en S_OK. Una vez finalizado el trabajo de impresión, llame a **OnPrint** con _dwPageNumber_ establecido en la última página impresa y _hrStatus_ establecido en S_FALSE. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

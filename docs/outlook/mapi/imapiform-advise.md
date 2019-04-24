@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329487"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra un visor de formulario para las notificaciones sobre los eventos que afectan a la forma.
+Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.
   
 ```cpp
 HRESULT Advise(
@@ -34,15 +34,15 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pAdvise_
   
-> [entrada] Un puntero a una vista de aviso objeto receptor para recibir las notificaciones posteriores. 
+> a Un puntero a un objeto receptor de vista notificar para recibir las notificaciones posteriores. 
     
  _pulConnection_
   
-> [out] Un puntero a un valor distinto de cero que representa un registro de la notificación realizada correctamente.
+> contempla Un puntero a un valor distinto de cero que representa un registro de notificación correcto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,21 +52,21 @@ S_OK
     
 E_OUTOFMEMORY 
   
-> El registro no tuvo éxito debido a memoria insuficiente.
+> El registro no se ha realizado correctamente debido a memoria insuficiente.
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llame al método de **IMAPIForm::Advise** de un formulario para registrarse para la notificación cuando se producen cambios al formulario. 
+Los visores de formularios llaman al método **IMAPIForm:: Advise** de un formulario para registrar la notificación cuando se producen cambios en el formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Mantener una copia de la vista de aviso puntero receptor pasa en el parámetro _pAdvise_ de forma que puede usar para llamar al método apropiado de [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) cuando se produce un evento. Método de [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor para conservar el puntero hasta que se cancele el registro de la notificación de aviso de llamada de la vista. Establecer el contenido del parámetro _pulConnection_ a un número distinto de cero. 
+ConServe una copia del puntero View aconsejar Sink pasada en el parámetro _pAdvise_ para que pueda usarla para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento. Llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor de vista para reconocer el puntero hasta que se cancele el registro de la notificación. Establezca el contenido del parámetro _pulConnection_ en un número distinto de cero. 
   
-Muchas formas implementan un objeto auxiliar para controlar el registro y la notificación posterior de eventos. 
+Muchos formularios implementan un objeto auxiliar para controlar el registro y las notificaciones posteriores de eventos. 
   
-Para obtener más información sobre el proceso de notificación en general, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). 
+Para obtener más información sobre el proceso de notificación en general, vea [notificación de eventos en MAPI](event-notification-in-mapi.md). 
   
-Para obtener más información acerca de la notificación y formularios, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones y los formularios, consulte [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Vea también
 
@@ -79,7 +79,7 @@ Para obtener más información acerca de la notificación y formularios, vea [En
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Notificación de eventos de MAPI](event-notification-in-mapi.md)
+[Notificación de eventos en MAPI](event-notification-in-mapi.md)
   
 [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md)
 

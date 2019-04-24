@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 57f036872276ed2ff85bf6f8a53801f3af605607
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 312253f0ea4b115018cbe71522782ea21579fa4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331902"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>Propiedad canónica PidTagContentIdentifier
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576193"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de clave que permite que el destinatario del mensaje identificar su contenido.
+Contiene un valor clave que permite al destinatario del mensaje identificar su contenido.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Contiene un valor de clave que permite que el destinatario del mensaje identific
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

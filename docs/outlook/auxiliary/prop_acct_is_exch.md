@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
-description: Es True si la cuenta es una cuenta de Exchange.
-ms.openlocfilehash: db9f5ae46096d221ac3636a44f588c6a90ce146e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: True si la cuenta es una cuenta de Exchange.
+ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327653"
 ---
 # <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
 
-Es True si la cuenta es una cuenta de Exchange.
+True si la cuenta es una cuenta de Exchange.
   
 ## <a name="quick-info"></a>Información rápida
 
-Vea [IOlkAccount](iolkaccount.md).
+Consulte [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0014  <br/> |
 |Tipo de propiedad:  <br/> |PT_LONG  <br/> |
-|Etiqueta de la propiedad:  <br/> |0x00140003  <br/> |
-|Access:  <br/> |Solo lectura  <br/> |
+|Etiqueta de propiedad:  <br/> |0x00140003  <br/> |
+|Al  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtener esta propiedad mediante el uso de [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
+Obtenga esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>Vea también
 

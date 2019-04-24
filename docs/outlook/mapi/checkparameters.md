@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f01d0ad7e7e6b1ad7a5e4c4838bb46ca143e0968
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a922b8bb21bfd534935d4d1706a6ccfd15c2da5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332082"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
@@ -25,12 +25,12 @@ ms.locfileid: "22567058"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Llama a una función interna para validar parámetros de depuración en los métodos de proveedor de servicio llamados por MAPI. 
+Llama a una función interna para validar los parámetros de depuración de los métodos de proveedor de servicios a los que llama MAPI. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -44,11 +44,11 @@ HRESULT CheckParameters(
 
  _eMethod_
   
-> [entrada] Especifica el (enumeración), el método para validar. 
+> a Especifica, por enumeración, el método que se va a validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento en la pila.
+> a Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **CheckParameters** se ha sustituido por la macro [CheckParms](checkparms.md) . Se recomienda **CheckParms** en todas las plataformas. 
+La macro **CheckParameters** se ha reemplazado por la macro [CheckParms](checkparms.md) . **CheckParms** se recomienda en todas las plataformas. 
   
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 53362a32-ac27-42a3-ace1-c6184ab20b52
 description: Repite el texto un número determinado de veces.
-ms.openlocfilehash: 761f2f95824d5bdab4995b2867bfeac6be64bc12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84e7167fcee426c607e6967aff0530362685dd35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326806"
 ---
 # <a name="rept-function"></a>Función REPT
 
@@ -22,18 +22,18 @@ Repite el texto un número determinado de veces.
   
 ## <a name="syntax"></a>Sintaxis
 
-REPT (** *texto* **, ** *veces* **) 
+REPT (* * *texto* * *, * * *núm_de_veces* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que se desea repetir.  <br/> |
-| _número de veces_ <br/> |Obligatorio  <br/> |**Número** <br/> |Número positivo que indica las veces que debe aparecer el texto.  <br/> |
+| _veces_ <br/> |Obligatorio  <br/> |**Number** <br/> |Número positivo que indica las veces que debe aparecer el texto.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Si *veces* es: 
+Si *núm_de_veces* es: 
   
 - cero (0), REPT devuelve "" (ningún texto).
     
@@ -43,6 +43,6 @@ Si *veces* es:
 
 REPT ("\*", 5) 
   
-Devuelve \* \* \* \* \*. 
+\* \*Devuelve \*. \* \* 
   
 

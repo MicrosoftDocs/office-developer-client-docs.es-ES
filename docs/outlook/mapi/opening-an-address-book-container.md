@@ -1,5 +1,5 @@
 ---
-title: Abrir un contenedor de la libreta de direcciones
+title: Abrir un contenedor de libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,62 +7,62 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
-description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 79f1f9254e69e1871e886fa0bb3fbb66e2aab128
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 8 de noviembre de 2011'
+ms.openlocfilehash: 97fa9f9750174c112c431c62f6171f674856fa86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326582"
 ---
-# <a name="opening-an-address-book-container"></a>Abrir un contenedor de la libreta de direcciones
+# <a name="opening-an-address-book-container"></a>Abrir un contenedor de libreta de direcciones
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Después de abrir la MAPI integrado de la libreta de direcciones, abra uno o varios contenedores de libretas de direcciones para obtener acceso a los destinatarios dentro de ellos.
+Después de abrir la libreta de direcciones MAPI integrada, abra uno o varios contenedores de la libreta de direcciones para tener acceso a los destinatarios que contiene.
   
-Para abrir el contenedor de nivel superior de la libreta de direcciones, llame al método [IAddrBook::OpenEntry](iaddrbook-openentry.md) con un identificador de entrada NULL. 
+Para abrir el contenedor de nivel superior de la libreta de direcciones, llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md) con un identificador de entrada nulo. 
   
-Contenedores de la libreta de direcciones se pueden implementar con solo lectura o acceso de lectura y escritura. Contenedores de solo lectura se usan sólo para la exploración. Pueden modificarse contenedores de lectura y escritura, lo que permite a los clientes crear nuevas entradas y eliminar y modificar las entradas existentes. Todos los contenedores de (PAB) de la Libreta personal de direcciones se implementan como contenedores de lectura y escritura. 
+Los contenedores de la libreta de direcciones se pueden implementar con acceso de solo lectura o de lectura y escritura. Los contenedores de solo lectura solo se usan para examinar. Los contenedores de lectura y escritura se pueden modificar, lo que permite a los clientes crear nuevas entradas y eliminar y modificar las entradas existentes. Todos los contenedores de la libreta personal de direcciones (PAB) se implementan como contenedores de lectura y escritura. 
   
-Para abrir cualquier contenedor de nivel inferior, llamada **OpenEntry** y especifique el identificador de entrada del contenedor que se va a abrir. 
+Para abrir cualquier contenedor de nivel inferior, llame a **OpenEntry** y especifique el identificador de entrada del contenedor que se va a abrir. 
   
-## <a name="open-the-container-designated-as-the-pab"></a>Abra el contenedor designado como el archivo PAB
+## <a name="open-the-container-designated-as-the-pab"></a>Abrir el contenedor designado como PAB
   
-1. Llame a [IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada de la Libreta personal de direcciones. 
+1. Llame a [IAddrBook:: GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada de la PAB. 
     
-2. Pase este identificador de entrada al [IAddrBook::OpenEntry](iaddrbook-openentry.md).
+2. Pase este identificador de entrada a [IAddrBook:: OpenEntry](iaddrbook-openentry.md).
     
-## <a name="open-a-container-that-is-not-the-pab"></a>Abra un contenedor que no es el archivo PAB
+## <a name="open-a-container-that-is-not-the-pab"></a>Abrir un contenedor que no es la PAB
   
-1. Llame al método [IAddrBook::OpenEntry](iaddrbook-openentry.md) con un identificador de entrada NULL para abrir el contenedor de raíz de la libreta de direcciones. 
+1. Llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md) con un identificador de entrada null para abrir el contenedor raíz de la libreta de direcciones. 
     
-2. Llamar al método [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) del contenedor raíz para recuperar su tabla de jerarquía: una lista de todos los contenedores de nivel superior en la libreta de direcciones. 
+2. Llame al método [IMAPIContainer:: GetHierarchyTable](imapicontainer-gethierarchytable.md) del contenedor raíz para recuperar su tabla de jerarquías, una lista de todos los contenedores de nivel superior de la libreta de direcciones. 
     
 3. Si el contenedor que se va a abrir es de un tipo específico:
     
-   - Crear una estructura de **SPropertyRestriction** con **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para la etiqueta de propiedad, el tipo del contenedor para el valor de la propiedad y RELOP_EQ para la relación. **PR_DISPLAY_TYPE** se puede establecer en muchos valores, entre ellos: 
+   - Cree una estructura **SPropertyRestriction** con **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para la etiqueta de propiedad, el tipo de contenedor para el valor de propiedad y RELOP_EQ para la relación. **PR_DISPLAY_TYPE** se puede establecer en muchos valores, entre ellos: 
     
-   - DT_GLOBAL para limitar la tabla de jerarquía para contenedores que pertenezcan a la lista global de direcciones.
+   - DT_GLOBAL para limitar la tabla de jerarquía a los contenedores que pertenecen a la lista global de direcciones.
     
    - DT_LOCAL para limitar la tabla a contenedores que pertenecen a una libreta de direcciones local.
     
    - DT_MODIFIABLE para limitar la tabla a los contenedores que se pueden modificar.
     
-   - Crear una estructura de [elemento SPropTagArray](sproptagarray.md) que incluye la **entrada del objeto**, **PR_DISPLAY_TYPE**y cualquier otra columna de interés. 
+   - Cree una estructura [SPropTagArray](sproptagarray.md) que incluya **** el **PR_DISPLAY_TYPE**, las demás columnas de interés. 
     
-   - Llame a [HrQueryAllRows](hrqueryallrows.md), pasando la restricción de propiedad y la matriz de la etiqueta de propiedad. **HrQueryAllRows** devolverá cero o más filas, una fila por cada contenedor que pertenece al tipo especificado. Esté preparado para controlar la devolución de cualquier número de filas. 
+   - Llamar a [HrQueryAllRows](hrqueryallrows.md), pasando la restricción de propiedad y la matriz de etiquetas de propiedad. **HrQueryAllRows** devolverá cero o más filas, una fila por cada contenedor que pertenezca al tipo especificado. Prepárese para controlar la devolución de cualquier número de filas. 
     
-   - Llame al método **IAddrBook::OpenEntry** con el identificador de entrada de la columna de **entrada del objeto** de la fila que representa el contenedor de interés. 
+   - Llame a **IAddrBook:: OpenEntry** con el identificador de entrada de **** la columna de elementos de la fila que representa el contenedor de interés. 
     
-4. Si el contenedor que se va a abrir pertenece a un proveedor de libreta de direcciones específico:
+4. Si el contenedor que se va a abrir pertenece a un proveedor específico de la libreta de direcciones:
     
-   - Cree una estructura de [SPropertyRestriction](spropertyrestriction.md) con **PR_AB_PROVIDERS** ([PidTagAbProviders](pidtagabproviders-canonical-property.md)) para la etiqueta de propiedad, un valor específico del proveedor para el valor de la propiedad y RELOP_EQ para la relación. Normalmente, el valor de específicas del proveedor es un identificador único global o GUID. Encontrará este valor publicado en uno de los archivos de encabezado del proveedor de libreta de direcciones. 
+   - Cree una estructura [SPropertyRestriction](spropertyrestriction.md) con **PR_AB_PROVIDERS** ([PidTagAbProviders](pidtagabproviders-canonical-property.md)) para la etiqueta de propiedad, un valor específico del proveedor para el valor de la propiedad y RELOP_EQ para la relación. Normalmente, el valor específico del proveedor es un identificador único global o GUID. Este valor se publicará en uno de los archivos de encabezado del proveedor de la libreta de direcciones. 
     
-   - Crear una estructura de [elemento SPropTagArray](sproptagarray.md) que incluye la **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_AB_PROVIDERS**y cualquier otra columna de interés. 
+   - Cree una estructura SPropTagArray que incluya **** el [](sproptagarray.md) ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_AB_PROVIDERS**y cualquier otra columna de interés. 
     
-   - Llame a [HrQueryAllRows](hrqueryallrows.md), pasando la restricción de propiedad y la matriz de la etiqueta de propiedad. **HrQueryAllRows** devolverá cero filas si el proveedor de libreta de direcciones especificado no está en el perfil. Puede devolver una o varias filas para contenedores de nivel superior del proveedor, dependiendo de cómo se organiza el proveedor. 
+   - Llamar a [HrQueryAllRows](hrqueryallrows.md), pasando la restricción de propiedad y la matriz de etiquetas de propiedad. **HrQueryAllRows** devolverá cero filas si el proveedor de libreta de direcciones especificado no está en el perfil. Puede devolver una o más filas para los contenedores de nivel superior del proveedor, en función de cómo esté organizado el proveedor. 
     
-   - Llame al método [IAddrBook::OpenEntry](iaddrbook-openentry.md) con el identificador de entrada de la columna de **entrada del objeto** de la fila que representa el contenedor de interés. Si el contenedor que le no interesa es un contenedor de nivel superior, busque el contenedor de nivel superior y atravesar la jerarquía. 
+   - Llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md) con el identificador de entrada de **** la columna de elementos de la fila que representa el contenedor de interés. Si el contenedor que le interesa no es un contenedor de nivel superior, busque el contenedor de nivel superior y recorra la jerarquía. 
     
 

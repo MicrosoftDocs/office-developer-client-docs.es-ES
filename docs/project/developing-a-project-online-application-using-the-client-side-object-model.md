@@ -7,11 +7,11 @@ ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0. La aplicación que se describe en este artículo recupera información del servidor de hospedaje.
 localization_priority: Priority
 ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322627"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente
 

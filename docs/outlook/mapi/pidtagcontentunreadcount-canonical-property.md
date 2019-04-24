@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9572a053182aaa59020a6816736b8a4b92e778b7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331874"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propiedad canónica PidTagContentUnreadCount
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el número de mensajes no leídos en una carpeta, como se calcula mediante el almacén de mensajes. 
+Contiene el número de mensajes no leídos de una carpeta, como calcula el almacén de mensajes. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene el número de mensajes no leídos en una carpeta, como se calcula media
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad calculada por el almacén de mensajes se usa para dos diferentes, aunque relacionados con fines. En un objeto de carpeta MAPI, que contiene el número de mensajes en una carpeta. En una fila de encabezado en tablas MAPI organizados por categorías, que contiene el número de mensajes no leídos no asociados en la categoría correspondiente a esa fila de encabezado.
+Esta propiedad calculada por el almacén de mensajes se utiliza para dos propósitos diferentes, aunque relacionados. En un objeto Folder de MAPI, contiene el número de mensajes que hay en una carpeta. En una fila de encabezado de las tablas MAPI por categorías, contiene el número de mensajes no asociados sin leer en la categoría correspondiente a esa fila de encabezado.
   
-Esta propiedad contiene el número de mensajes en la tabla de contenido de carpeta para la que no se establece la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La propiedad **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el número total de mensajes de la carpeta. El **PR_CONTENT_COUNT** y esta propiedad son de solo lectura a los clientes. 
+Esta propiedad contiene el número de mensajes de la tabla contenido de la carpeta para los que la marca MSGFLAG_READ no se establece en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La propiedad **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el número total de mensajes para la carpeta. **PR_CONTENT_COUNT** y esta propiedad son de solo lectura para los clientes. 
   
-Algunas aplicaciones cliente mostrar la fila de encabezado de una categoría de forma diferente según el valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluye los mensajes no leídos en negrita. Esta propiedad no se puede usar como una categoría y un intento para ello, los resultados en el valor MAPI_E_INVALID_PARAMETER que se devuelve el método [SortTable](imapitable-sorttable.md) . 
+Algunas aplicaciones cliente muestran la fila de encabezado de una categoría de forma diferente según el valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluya los mensajes no leídos en negrita. Esta propiedad no se puede usar como categoría y un intento de hacerlo da como resultado el valor MAPI_E_INVALID_PARAMETER que se devuelve desde el método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,25 +48,25 @@ Algunas aplicaciones cliente mostrar la fila de encabezado de una categoría de 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones de protocolo de Microsoft Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Microsoft Exchange Server relacionadas.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla las operaciones de la carpeta.
+> Controla las operaciones de carpeta.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye las operaciones permitidas para los objetos de la tabla principal.
+> Incluye operaciones admitidas para los objetos de la tabla principal.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -74,9 +74,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

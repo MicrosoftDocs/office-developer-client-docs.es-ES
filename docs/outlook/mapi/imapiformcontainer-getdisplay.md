@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 994041d050df56fd3fa3c0e599542e05a202ad65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329431"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve el nombre para mostrar de un contenedor de formulario.
   
@@ -34,19 +34,19 @@ HRESULT GetDisplay(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de la cadena devuelta. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de la cadena devuelta. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> La cadena devuelta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la cadena está en formato ANSI.
+> La cadena devuelta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la cadena está en formato ANSI.
     
  _pszDisplayName_
   
-> [out] Un puntero a una cadena que contiene el nombre para mostrar del contenedor de formulario.
+> contempla Un puntero a una cadena que contiene el nombre para mostrar del contenedor de formulario.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -58,9 +58,9 @@ S_OK
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI usa el método **IMAPIFormContainer::GetDisplay** para obtener el nombre del contenedor de formulario cuando se representa CFormContainerDlg.  <br/> |
+|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: CFormContainerDlg  <br/> |MFCMAPI usa el método **IMAPIFormContainer:: GetDisplay** para obtener el nombre del contenedor de formulario cuando representa CFormContainerDlg.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
